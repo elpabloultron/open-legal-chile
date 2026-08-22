@@ -281,18 +281,20 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos de uso:
-  openlegal              -> Abre el menú interactivo de la consola
-  openlegal chat         -> Inicia el asistente jurídico IA (Claude, Gemini, DeepSeek, Ollama)
-  openlegal web          -> Levanta el servidor web y abre el navegador
-  openlegal skills       -> Lista las 15+ habilidades y plugins de la suite
-  openlegal export       -> Exporta un escrito judicial forense a HTML/MD
-  openlegal check        -> Verifica el estado de las credenciales y conectores
-  openlegal search "..." -> Realiza una búsqueda jurídica universal
+  openlegal                   -> Abre el menú interactivo de la consola
+  openlegal chat              -> Inicia el asistente jurídico IA (Claude, Gemini, DeepSeek, Ollama)
+  openlegal critique <doc>    -> Ejecuta la auditoría forense de 5 dimensiones sobre un escrito
+  openlegal generate <tipo>   -> Genera un borrador judicial completo (demanda, recurso, contrato)
+  openlegal web               -> Levanta el servidor web y abre el navegador
+  openlegal skills            -> Lista las 15+ habilidades y plugins de la suite
+  openlegal export            -> Exporta un escrito judicial forense a HTML/MD
+  openlegal check             -> Verifica el estado de las credenciales y conectores
+  openlegal search "..."      -> Realiza una búsqueda jurídica universal
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "chat", "web", "serve", "check", "search", "skills", "export"], help="Comando a ejecutar")
-    parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas el comando 'search' o mensaje para 'chat'")
-    parser.add_argument("--provider", type=str, default="anthropic", help="Proveedor de IA para el chat (anthropic, gemini, deepseek, openai, ollama)")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "chat", "web", "serve", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
+    parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
+    parser.add_argument("--provider", type=str, default="gemini", help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama)")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
     parser.add_argument("--port", type=int, default=8000, help="Puerto para el servidor web (por defecto 8000)")
     args = parser.parse_args()
@@ -436,6 +438,69 @@ Usa 'openlegal chat' o 'openlegal web' para ejecutarlos interactivamente.
             ]
         )
         print(f"\n✅ Documento exportado con éxito en:")
+        print(f" • HTML: {res['htmlPath']}")
+        print(f" • MD:   {res['markdownPath']}\n")
+
+    elif args.comando == "critique":
+        from critique import LegalCritiqueEngine
+        critique_engine = LegalCritiqueEngine()
+        print_banner()
+        target = " ".join(args.query) if args.query else ""
+        if not target:
+            print("❌ Especifica el archivo a auditar. Ejemplo: openlegal critique demanda.txt")
+            return
+
+        if os.path.exists(target):
+            with open(target, "r", encoding="utf-8", errors="replace") as f:
+                content = f.read()
+        else:
+            content = target
+
+        print(f"🔍 AUDITANDO DOCUMENTO BAJO LAS 5 DIMENSIONES FORENSES ({args.provider.upper()})...\n" + "-"*80)
+        res = critique_engine.critique(content, provider=args.provider)
+        print(res.get("critique", res.get("error")))
+
+    elif args.comando == "generate":
+        from exporters import LegalDocumentExporter
+        exporter = LegalDocumentExporter()
+        print_banner()
+        doc_type = args.query[0].lower() if args.query else "demanda_civil"
+        print(f"⚡ GENERANDO ARTEFACTO FORENSE OJV: [{doc_type.upper()}]...")
+
+        templates = {
+            "demanda_civil": {
+                "titulo": "DEMANDA ORDINARIA DE RESOLUCIÓN DE CONTRATO E INDEMNIZACIÓN",
+                "tribunal": "S.J.L. EN LO CIVIL DE SANTIAGO",
+                "materia": "RESOLUCIÓN DE CONTRATO"
+            },
+            "proteccion": {
+                "titulo": "RECURSO DE PROTECCIÓN CONSTITUCIONAL",
+                "tribunal": "I. CORTE DE APELACIONES DE SANTIAGO",
+                "materia": "GARANTÍAS CONSTITUCIONALES ART. 19 Y 20 CPR"
+            },
+            "laboral": {
+                "titulo": "DEMANDA POR DESPIDO INJUSTIFICADO Y COBRO DE PRESTACIONES",
+                "tribunal": "S.J.L. DEL TRABAJO DE SANTIAGO",
+                "materia": "DESPIDO INJUSTIFICADO ART. 161"
+            },
+            "ppa": {
+                "titulo": "CONTRATO DE SUMINISTRO DE ENERGÍA ELÉCTRICA (PPA CLIENTE LIBRE)",
+                "tribunal": "ARBITRAJE COMERCIAL CAM SANTIAGO",
+                "materia": "MERCADO ELÉCTRICO LEY 20.936"
+            }
+        }
+        cfg = templates.get(doc_type, templates["demanda_civil"])
+        res = exporter.export_brief(
+            titulo_principal=cfg["titulo"],
+            tribunal=cfg["tribunal"],
+            presuma_data={"materia": cfg["materia"], "demandante": "COMPARECIENTE TITULAR", "rut_dte": "XX.XXX.XXX-X", "demandado": "PARTE CONTRAPARTE", "rut_ddo": "76.XXX.XXX-X", "abogado": "ABOGADO PATROCINANTE", "rut_abg": "XX.XXX.XXX-X"},
+            comparecencia="COMPARECIENTE TITULAR, cédula nacional de identidad N° XX.XXX.XXX-X, a US. respetuosamente digo:",
+            hechos="1. Antecedentes fácticos y cronológicos del caso.\n2. Infracción y perjuicios irrogados.",
+            derecho="Artículos pertinentes del ordenamiento jurídico chileno.",
+            peticiones="POR TANTO, A US. PIDO tener por interpuesta la acción y acogerla en todas sus partes con costas.",
+            otrosies=[{"numero": "PRIMER OTROSÍ", "titulo": "Patrocinio y Poder", "contenido": "Tener presente patrocinio y poder conferido bajo la Ley 18.120 y Ley 20.886."}]
+        )
+        print(f"\n✅ Artefacto generado con éxito:")
         print(f" • HTML: {res['htmlPath']}")
         print(f" • MD:   {res['markdownPath']}\n")
 
