@@ -466,12 +466,33 @@ function escapeHtml(text) {
 }
 
 function formatMarkdown(text) {
+    if (!text) return '';
     let formatted = escapeHtml(text);
+    
+    // Bloques de código ``` ... ```
+    formatted = formatted.replace(/```([a-z]*)\n([\s\S]*?)```/g, '<pre style="background: rgba(0,0,0,0.5); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle); overflow-x: auto; font-family: var(--font-mono); font-size: 13px; margin: 8px 0;"><code>$2</code></pre>');
+    
+    // Código en línea `...`
+    formatted = formatted.replace(/`([^`]+)`/g, '<code style="background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px; font-family: var(--font-mono); font-size: 12px; color: var(--accent-cyan);">$1</code>');
+    
+    // Encabezados
+    formatted = formatted.replace(/^### (.*$)/gim, '<h4 style="margin: 12px 0 6px 0; color: var(--accent-blue); font-size: 15px; font-weight: 600;">$1</h4>');
+    formatted = formatted.replace(/^## (.*$)/gim, '<h3 style="margin: 16px 0 8px 0; color: #F1F5F9; font-size: 16px; font-weight: 700; border-bottom: 1px solid var(--border-subtle); padding-bottom: 4px;">$1</h3>');
+    formatted = formatted.replace(/^# (.*$)/gim, '<h2 style="margin: 20px 0 10px 0; color: #FFFFFF; font-size: 18px; font-weight: 800;">$1</h2>');
+
     // Negritas
-    formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-    // Citas legales [BCN - ...] [Dictamen DT ...]
-    formatted = formatted.replace(/(\[(?:BCN|CPR|Dictamen|CS|C\.A\.|NCG|Circular)[^\]]+\])/g, '<span style="color: #60A5FA; font-weight: 600; background: rgba(59,130,246,0.1); padding: 1px 4px; border-radius: 4px;">$1</span>');
-    // Saltos de línea
+    formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong style="color: #F8FAFC; font-weight: 600;">$1</strong>');
+    
+    // Cursivas
+    formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    
+    // Citas legales estrictas [BCN - ...] [Dictamen DT ...] [CPR 1980 ...] [CS ...]
+    formatted = formatted.replace(/(\[(?:BCN|CPR|Dictamen|CS|C\.A\.|NCG|Circular|SMA|TDLC)[^\]]+\])/g, '<span style="color: #93C5FD; font-weight: 600; background: rgba(59,130,246,0.15); border: 1px solid rgba(59,130,246,0.3); padding: 1px 6px; border-radius: 4px; font-size: 12px; display: inline-block; margin: 1px 0;">$1</span>');
+    
+    // Listas con viñetas
+    formatted = formatted.replace(/^\s*[-*]\s+(.*$)/gim, '<li style="margin-left: 18px; margin-bottom: 4px;">$1</li>');
+    
+    // Saltos de línea (respetando bloques)
     formatted = formatted.replace(/\n/g, '<br>');
     return formatted;
 }
