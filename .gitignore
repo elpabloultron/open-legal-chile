@@ -22,6 +22,8 @@ ambiental_cache/
 tdlc_cache/
 panel_expertos_cache/
 exports/
+*.db
+openlegal_cache.db
 
 # Compilaciones y ejecutables locales
 dist/
