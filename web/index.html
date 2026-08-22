@@ -137,20 +137,17 @@
                                 </select>
                             </div>
                             <div class="auth-buttons">
-                                <div id="user-google-badge" class="user-session-badge hidden">
-                                    <div class="user-avatar-circle" id="user-avatar-initials">G</div>
-                                    <div class="user-session-info">
-                                        <span class="user-email" id="user-session-email">usuario@gmail.com</span>
-                                        <span class="user-status-text">⚡ Google AI Pro Conectado</span>
-                                    </div>
-                                    <button class="btn-logout" onclick="logoutGoogleSession()" title="Cerrar sesión">✕</button>
-                                </div>
-                                <button id="btn-google-signin" class="btn-oauth-google" onclick="triggerGoogleOAuthLogin()">
-                                    <span class="g-icon">G</span>
-                                    <span>Iniciar Sesión con Google</span>
+                                <button id="btn-open-connections" class="btn-connection-hub" onclick="openConnectionsModal()">
+                                    <span class="hub-icon">🔑</span>
+                                    <span>Conectar Cuentas IA</span>
+                                    <span id="connected-count-badge" class="badge-count">0/5</span>
                                 </button>
-                                <div class="custom-key-toggle">
-                                    <input type="password" id="custom-api-key-input" placeholder="O ingresa API Key opcional...">
+                                <div id="active-provider-badge" class="user-session-badge">
+                                    <div class="user-avatar-circle" id="active-provider-initials">⚡</div>
+                                    <div class="user-session-info">
+                                        <span class="user-email" id="active-provider-name">Gemini 3.7 Flash High</span>
+                                        <span class="user-status-text" id="active-provider-status">⚡ Conectado</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -438,45 +435,146 @@ PORT=8000</code></pre>
         </main>
     </div>
 
-    <!-- MODAL DE CONEXIÓN CON GOOGLE (GEMINI AI PRO) -->
-    <div id="google-helper-modal" class="modal-overlay hidden">
-        <div class="modal-card">
+    <!-- CENTRO DE CONEXIÓN DE CUENTAS IA MULTI-SUITE -->
+    <div id="ai-connections-modal" class="modal-overlay hidden">
+        <div class="modal-card modal-large">
             <div class="modal-header">
                 <div class="modal-brand">
-                    <span class="g-icon-large">G</span>
+                    <span class="hub-icon-large">🔑</span>
                     <div>
-                        <h3>Conexión con Cuenta Google (Gemini AI Pro)</h3>
-                        <span class="badge-ulagos">⚡ Compatible con Google AI Pro, Google One AI y Gmail</span>
+                        <h3>Centro de Conexión de Cuentas IA & Modelos</h3>
+                        <p class="modal-subtitle">Conecta tus cuentas reales (Google AI Pro, Claude, OpenAI, DeepSeek y Ollama) con prueba y validación en vivo.</p>
                     </div>
                 </div>
-                <button class="close-modal-btn" onclick="closeGoogleHelperModal()">✕</button>
+                <button class="close-modal-btn" onclick="closeConnectionsModal()">✕</button>
             </div>
             
             <div class="modal-body">
-                <p>Cualquier persona con una cuenta de <strong>Google (Gmail, Google One AI Premium, Google AI Pro o cuenta universitaria/institucional)</strong> tiene acceso gratuito a los modelos <strong>Gemini 1.5 y 2.5 Pro y Flash</strong>.</p>
-
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <div class="step-text">
-                        <strong>Inicia sesión en Google AI Studio con tu cuenta de Google:</strong>
-                        <p>Haz clic en el enlace oficial de Google para obtener tu clave en 2 clics:</p>
-                        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="btn-primary" style="display: inline-block; margin-top: 8px; text-decoration: none;">
-                            🔑 Abrir Google AI Studio (Obtener API Key de Google)
-                        </a>
-                    </div>
+                <div class="connections-nav">
+                    <button class="conn-tab-btn active" data-suite="gemini" onclick="switchSuiteTab('gemini')">
+                        <span>⚡ Google (Gemini)</span>
+                        <span id="badge-conn-gemini" class="dot-status dot-disconnected"></span>
+                    </button>
+                    <button class="conn-tab-btn" data-suite="anthropic" onclick="switchSuiteTab('anthropic')">
+                        <span>✨ Anthropic (Claude)</span>
+                        <span id="badge-conn-anthropic" class="dot-status dot-disconnected"></span>
+                    </button>
+                    <button class="conn-tab-btn" data-suite="openai" onclick="switchSuiteTab('openai')">
+                        <span>🟢 OpenAI (ChatGPT)</span>
+                        <span id="badge-conn-openai" class="dot-status dot-disconnected"></span>
+                    </button>
+                    <button class="conn-tab-btn" data-suite="deepseek" onclick="switchSuiteTab('deepseek')">
+                        <span>🧠 DeepSeek (R1)</span>
+                        <span id="badge-conn-deepseek" class="dot-status dot-disconnected"></span>
+                    </button>
+                    <button class="conn-tab-btn" data-suite="ollama" onclick="switchSuiteTab('ollama')">
+                        <span>🦙 Ollama (Offline)</span>
+                        <span id="badge-conn-ollama" class="dot-status dot-disconnected"></span>
+                    </button>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <div class="step-text">
-                        <strong>Pega tu API Key de Google Gemini aquí:</strong>
-                        <p>Se guardará localmente en tu navegador de forma 100% privada para usar Gemini Pro con todos los conectores de leyes chilenas:</p>
-                        <div class="input-row" style="margin-top: 8px;">
-                            <input type="password" id="modal-gemini-key-input" placeholder="AIzaSy..." style="flex-grow: 1; padding: 8px 12px; background: var(--bg-main); border: 1px solid var(--border); color: #FFF; border-radius: var(--radius-md);">
-                            <button class="btn-primary" onclick="saveGeminiKeyFromModal()">Guardar y Conectar</button>
+                <!-- SUITE: GOOGLE GEMINI -->
+                <div id="suite-pane-gemini" class="suite-pane active">
+                    <div class="suite-header">
+                        <h4>⚡ Google Gemini & Google AI Pro</h4>
+                        <span class="badge-ulagos">Compatible con Google AI Pro, Google One y Gmail</span>
+                    </div>
+                    <p class="suite-desc">Permite usar <strong>Gemini 3.7 Flash High</strong>, <strong>Gemini 3.6/3.5 Flash</strong> y <strong>Gemini 2.5 Pro</strong> conectando tu API Key de Google AI Studio o tu Bearer Token OAuth2.</p>
+                    <div class="suite-input-group">
+                        <label>Google API Key / Token OAuth2 (AIzaSy... o ya29...):</label>
+                        <div class="input-row">
+                            <input type="password" id="input-key-gemini" placeholder="Pega tu clave AIzaSy... o token OAuth2 de Google">
+                            <button class="btn-primary" onclick="verifyAndSaveKey('gemini')">💾 Probar & Guardar</button>
                         </div>
+                        <div id="feedback-gemini" class="conn-feedback hidden"></div>
+                    </div>
+                    <div class="suite-help">
+                        <span>👉 ¿Dónde obtener tu clave gratuita de Google?</span>
+                        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="link-btn-inline">Abrir Google AI Studio (1 clic con tu cuenta Google) ↗</a>
                     </div>
                 </div>
+
+                <!-- SUITE: ANTHROPIC CLAUDE -->
+                <div id="suite-pane-anthropic" class="suite-pane">
+                    <div class="suite-header">
+                        <h4>✨ Anthropic Claude (Claude 3.7 Thinking & Opus)</h4>
+                        <span class="badge-tag">Redacción Forense y Doctrinal</span>
+                    </div>
+                    <p class="suite-desc">Acceso a <strong>Claude 3.7 Sonnet con razonamiento híbrido</strong>, <strong>Claude 3.5 Sonnet</strong> y <strong>Claude 3 Opus</strong> para redacción de demandas y recursos OJV.</p>
+                    <div class="suite-input-group">
+                        <label>Anthropic API Key (sk-ant-...):</label>
+                        <div class="input-row">
+                            <input type="password" id="input-key-anthropic" placeholder="sk-ant-api03-...">
+                            <button class="btn-primary" onclick="verifyAndSaveKey('anthropic')">💾 Probar & Guardar</button>
+                        </div>
+                        <div id="feedback-anthropic" class="conn-feedback hidden"></div>
+                    </div>
+                    <div class="suite-help">
+                        <span>👉 Obtener clave en la consola oficial:</span>
+                        <a href="https://console.anthropic.com/settings/keys" target="_blank" class="link-btn-inline">Consola de Anthropic ↗</a>
+                    </div>
+                </div>
+
+                <!-- SUITE: OPENAI -->
+                <div id="suite-pane-openai" class="suite-pane">
+                    <div class="suite-header">
+                        <h4>🟢 OpenAI (o3-mini, o1, GPT-4o)</h4>
+                        <span class="badge-tag">Razonamiento y Propósito General</span>
+                    </div>
+                    <p class="suite-desc">Acceso a modelos de razonamiento matemático y lógico <strong>o3-mini</strong>, <strong>o1</strong> y modelos multimodales <strong>GPT-4o</strong>.</p>
+                    <div class="suite-input-group">
+                        <label>OpenAI API Key (sk-...):</label>
+                        <div class="input-row">
+                            <input type="password" id="input-key-openai" placeholder="sk-proj-...">
+                            <button class="btn-primary" onclick="verifyAndSaveKey('openai')">💾 Probar & Guardar</button>
+                        </div>
+                        <div id="feedback-openai" class="conn-feedback hidden"></div>
+                    </div>
+                    <div class="suite-help">
+                        <span>👉 Obtener clave en OpenAI:</span>
+                        <a href="https://platform.openai.com/api-keys" target="_blank" class="link-btn-inline">Plataforma de OpenAI ↗</a>
+                    </div>
+                </div>
+
+                <!-- SUITE: DEEPSEEK -->
+                <div id="suite-pane-deepseek" class="suite-pane">
+                    <div class="suite-header">
+                        <h4>🧠 DeepSeek (DeepSeek-R1 Reasoner & V3)</h4>
+                        <span class="badge-tag">Razonamiento Profundo Económico</span>
+                    </div>
+                    <p class="suite-desc">Acceso a <strong>DeepSeek-R1 Reasoner</strong> (pensamiento lógico paso a paso) y <strong>DeepSeek-V3 Chat</strong>.</p>
+                    <div class="suite-input-group">
+                        <label>DeepSeek API Key (sk-...):</label>
+                        <div class="input-row">
+                            <input type="password" id="input-key-deepseek" placeholder="sk-...">
+                            <button class="btn-primary" onclick="verifyAndSaveKey('deepseek')">💾 Probar & Guardar</button>
+                        </div>
+                        <div id="feedback-deepseek" class="conn-feedback hidden"></div>
+                    </div>
+                    <div class="suite-help">
+                        <span>👉 Obtener clave en DeepSeek:</span>
+                        <a href="https://platform.deepseek.com/api_keys" target="_blank" class="link-btn-inline">Plataforma de DeepSeek ↗</a>
+                    </div>
+                </div>
+
+                <!-- SUITE: OLLAMA LOCAL -->
+                <div id="suite-pane-ollama" class="suite-pane">
+                    <div class="suite-header">
+                        <h4>🦙 Ollama Local (100% Offline & Privado)</h4>
+                        <span class="badge-tag">Sin Internet / 100% Confidencial</span>
+                    </div>
+                    <p class="suite-desc">Ejecuta modelos locales en tu propio hardware sin enviar datos a ningún servidor externo.</p>
+                    <div class="suite-input-group">
+                        <label>Servidor Ollama Host:</label>
+                        <div class="input-row">
+                            <input type="text" id="input-host-ollama" value="http://localhost:11434">
+                            <button class="btn-primary" onclick="detectOllamaModels()">🔍 Detectar Modelos</button>
+                        </div>
+                        <div id="feedback-ollama" class="conn-feedback hidden"></div>
+                        <div id="ollama-models-list" class="installed-models-box hidden"></div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

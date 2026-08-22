@@ -104,6 +104,26 @@ class OpenLegalHTTPHandler(SimpleHTTPRequestHandler):
                 self._send_json({"error": f"Error procesando chat: {str(e)}"}, 500)
             return
 
+        elif path == "/api/verify-key":
+            try:
+                length = int(self.headers.get("Content-Length", 0))
+                raw_body = self.rfile.read(length).decode("utf-8")
+                payload = json.loads(raw_body)
+
+                provider = payload.get("provider", "gemini").lower()
+                api_key = payload.get("apiKey", "").strip()
+                model = payload.get("model")
+
+                if not api_key:
+                    self._send_json({"valid": False, "error": "Debes ingresar una clave o token."}, 400)
+                    return
+
+                res = chat_engine.verify_credentials(provider, api_key, model)
+                self._send_json(res)
+            except Exception as e:
+                self._send_json({"valid": False, "error": f"Error al verificar: {str(e)}"}, 500)
+            return
+
         elif path == "/api/export":
             try:
                 length = int(self.headers.get("Content-Length", 0))
