@@ -68,55 +68,40 @@ claude mcp add open-legal-chile python mcp_server.py
 
 ---
 
-## ⚡ Instalación y Ejecución por Plataforma
+---
 
-### 🪟 Windows (Software .exe Nativo)
-1. **Ejecutable Directo:** Haz doble clic en **`OpenLegalChile.exe`** en la raíz del proyecto para abrir la ventana de software de escritorio nativa.
-2. **Instalador PowerShell:**
-   ```powershell
-   .\install.ps1
-   ```
-3. **Lanzador Rápido:** Doble clic en `install.bat`.
+## 💻 Uso de la Consola CLI (`openlegal`)
+
+Open Legal Chile incluye una potente consola para terminal:
+
+```bash
+# Iniciar el servidor MCP estándar
+python openlegal.py mcp
+
+# Búsqueda jurídica universal en los 8 conectores a la vez
+python openlegal.py search "Ley Karin acoso laboral"
+
+# Auditar un escrito bajo las 5 dimensiones forenses (Civil Law)
+python openlegal.py critique demanda.txt
+
+# Generar un borrador procesal formal OJV
+python openlegal.py generate demanda_civil
+
+# Verificar conectividad con los servicios del Estado
+python openlegal.py check
+```
 
 ---
 
-### 🐧 Linux (Ubuntu / Linux Mint / Debian / Pop!_OS)
-1. **Compilar e instalar lanzador de menú (.desktop):**
-   ```bash
-   chmod +x build_linux.sh install.sh
-   ./build_linux.sh
-   ```
-2. **Aparición en el Menú:** Aparecerá automáticamente en el menú de aplicaciones de **Linux Mint (Cinnamon)** y **Ubuntu (GNOME/Dash)**.
+## 🧪 Ejecución de Pruebas Automatizadas
 
----
+```bash
+# Ejecutar suite de pruebas de conectores y servidor MCP
+python -m pytest tests/ -v
 
-### 🏹 Arch Linux / Manjaro / EndeavourOS
-1. **Instalar vía PKGBUILD:**
-   ```bash
-   makepkg -si
-   ```
-2. **O ejecución directa:**
-   ```bash
-   ./build_linux.sh
-   ```
-
----
-
-### 🍎 macOS (Apple Silicon / Intel)
-1. **Compilar paquete nativo .app:**
-   ```bash
-   chmod +x build_macos.sh
-   ./build_macos.sh
-   # Se genera en dist/OpenLegalChile.app listo para tu carpeta /Applications
-   ```
-
----
-
-### 📱 iOS & iPadOS (iPhone / iPad)
-1. Abre `http://localhost:8000` (o tu IP local) en **Safari**.
-2. Toca el botón **Compartir** (`Share`).
-3. Selecciona **"Agregar a la pantalla de inicio"** (*Add to Home Screen*).
-4. La aplicación se instalará como una **App Nativa PWA** a pantalla completa con tema oscuro.
+# Ejecutar el Benchmark Jurídico Chileno (Chilean Legal Eval)
+python evals/benchmark.py
+```
 
 ---
 

@@ -1,28 +1,45 @@
-# Quick Start
+# Guía de Inicio Rápido (Quickstart)
 
-**60 seconds.** This gets you to using your plugins.
+**Configuración en 60 segundos** para comenzar a usar Open Legal Chile en tu agente de IA preferido (**Antigravity**, **Claude Code**, **Cursor**, **Codex**).
 
-## Install in Claude Cowork
-1. [Install Claude Desktop](https://claude.com/download)
-2. Get access to Claude Cowork
-3. Follow the instructions in the video below:
+---
 
-https://github.com/user-attachments/assets/51394f0a-5277-4fe2-b81c-5c5e9ac876b5
+## 🤖 1. En Antigravity (Google Gemini) o Cursor
 
-## Install in Claude Code
+Agrega el servidor MCP a tu archivo `mcp_config.json`:
 
-1. **Open Claude Code** (in your terminal) or **Claude Cowork** (the desktop app). Not sure which you have? If you have a terminal window open with Claude in it, that's Claude Code.
+```json
+{
+  "mcpServers": {
+    "open-legal-chile": {
+      "command": "python",
+      "args": ["mcp_server.py"]
+    }
+  }
+}
+```
 
-2. **Add the marketplace.** In Claude Code, type `/plugin marketplace add ` (with a space at the end), then **drag the unzipped `claude-for-legal` folder onto the terminal window** — it'll fill in the path. Then press Enter.
+---
 
-   (Or type the full path: `/plugin marketplace add /Users/you/Desktop/claude-for-legal`)
+## 🧠 2. En Claude Code
 
-3. **Install your plugin.** Pick the one that matches your work from the table below, then:
-   ```
-   /plugin install privacy-legal@claude-for-legal
-   ```
+Registra el servidor MCP directamente en tu terminal:
 
-4. **⚠️ Restart Claude Code.** Close and reopen. This step is not optional — the plugin isn't live until you restart.
+```bash
+claude mcp add open-legal-chile python mcp_server.py
+```
+
+---
+
+## 💻 3. En la Consola CLI
+
+```bash
+# Iniciar servidor MCP
+python openlegal.py mcp
+
+# Consultar BCN, CGR, DT, CNE, CMF, SII, SMA y TDLC simultáneamente
+python openlegal.py search "confianza legitima contrata"
+```
 
 5. **Run setup.** Takes 2 minutes (quick start) or 10-15 minutes (full).
    ```
