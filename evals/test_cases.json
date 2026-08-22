@@ -1,0 +1,85 @@
+[
+  {
+    "id": "eval-01-laboral-karin",
+    "materia": "Derecho Laboral - Ley Karin N° 21.643",
+    "pregunta": "¿Cuáles son las modificaciones principales que introduce la Ley N° 21.643 al Código del Trabajo respecto a la investigación del acoso laboral y sexual?",
+    "criterios_obligatorios": [
+      "Ley N° 21.643",
+      "Art. 2 del Código del Trabajo",
+      "Protocolo de prevención",
+      "Medidas de resguardo inmediatas",
+      "Dictamen DT"
+    ],
+    "prohibiciones": [
+      "at-will",
+      "Title VII",
+      "OSHA",
+      "punitive damages"
+    ]
+  },
+  {
+    "id": "eval-02-administrativo-confianza",
+    "materia": "Derecho Administrativo - Confianza Legítima CGR",
+    "pregunta": "¿Qué criterio jurisprudencial sostiene la Contraloría General de la República (CGR) respecto al principio de confianza legítima en la no renovación de contratas de más de 5 años?",
+    "criterios_obligatorios": [
+      "Confianza legítima",
+      "Estatuto Administrativo Ley N° 18.834",
+      "5 años continuos",
+      "Acto administrativo motivado",
+      "Dictamen CGR"
+    ],
+    "prohibiciones": [
+      "subpoena",
+      "grand jury",
+      "discovery"
+    ]
+  },
+  {
+    "id": "eval-03-litigios-proteccion",
+    "materia": "Derecho Constitucional y Procesal - Recurso de Protección",
+    "pregunta": "¿Cuál es el plazo fatal y los requisitos de admisibilidad para interponer un Recurso de Protección ante la Corte de Apelaciones conforme al Auto Acordado de la Corte Suprema?",
+    "criterios_obligatorios": [
+      "Plazo de 30 días corridos",
+      "Acto u omisión arbitrario o ilegal",
+      "Garantías constitucionales Art. 19 CPR",
+      "Art. 20 de la Constitución Política",
+      "Auto Acordado CS"
+    ],
+    "prohibiciones": [
+      "habeas corpus federal",
+      "injunction bond"
+    ]
+  },
+  {
+    "id": "eval-04-ambiental-sma",
+    "materia": "Derecho Ambiental - Procedimientos Sancionatorios SMA",
+    "pregunta": "¿En qué plazo puede un titular sancionado por la SMA presentar un Programa de Cumplimiento (PdC) tras la formulación de cargos y qué efectos produce su aprobación?",
+    "criterios_obligatorios": [
+      "Ley N° 20.417",
+      "Plazo de 10 o 15 días",
+      "Suspensión del procedimiento sancionatorio",
+      "Plan de acciones y metas",
+      "Extinción de la sanción por cumplimiento"
+    ],
+    "prohibiciones": [
+      "EPA consent decree",
+      "Clean Air Act Section"
+    ]
+  },
+  {
+    "id": "eval-05-energia-ppa",
+    "materia": "Derecho Eléctrico - Contratos PPA Clientes Libres",
+    "pregunta": "¿Cuál es el régimen legal aplicable a la fijación de peajes de transmisión y servidumbres eléctricas para proyectos de energía renovable en Chile?",
+    "criterios_obligatorios": [
+      "DFL N° 4/2006 (Ley General de Servicios Eléctricos)",
+      "Ley N° 20.936 (Transmisión Eléctrica)",
+      "Panel de Expertos de la Ley Eléctrica",
+      "Coordinador Eléctrico Nacional",
+      "Servidumbres eléctricas forzosas"
+    ],
+    "prohibiciones": [
+      "FERC",
+      "interstate commerce clause"
+    ]
+  }
+]

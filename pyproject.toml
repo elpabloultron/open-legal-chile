@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openlegal-chile"
+version = "1.0.0"
+description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
+readme = "README.md"
+authors = [
+  { name = "Pablo Benavides Jorquera / Open Legal Chile Contributors" }
+]
+license = { text = "Apache-2.0" }
+keywords = ["chile", "legal", "law", "mcp", "ai", "bcn", "cgr", "dt", "ojv", "civil-law"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Legal Industry",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+  "pytest-asyncio"
+]
+
+[project.scripts]
+openlegal = "openlegal:main"
+openlegal-mcp = "mcp_server:main"
+
+[project.urls]
+"Homepage" = "https://github.com/elpabloultron/open-legal-chile"
+"Bug Tracker" = "https://github.com/elpabloultron/open-legal-chile/issues"
+"Source Code" = "https://github.com/elpabloultron/open-legal-chile"

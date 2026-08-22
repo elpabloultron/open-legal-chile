@@ -196,16 +196,16 @@ def handle_tool_call(name: str, args: dict) -> dict:
         elif name == "dt_search_doctrina":
             return dt.search_dictamenes(args.get("query", ""), limit=10)
         elif name == "cne_get_centrales_y_proyectos":
-            centrales = cne.get_centrales_generadoras()
-            return {"total_centrales": len(centrales), "muestra": centrales[:15]}
+            capacidad = cne.get_capacidad_instalada()
+            return {"total_registros": len(capacidad), "muestra": capacidad[:15]}
         elif name == "panel_expertos_search":
-            return panel.search_discrepancias(args.get("query", ""))
+            return panel.search_dictamenes(args.get("query", ""))
         elif name == "cmf_search_normativa":
             return cmf.search_normativa(args.get("query", ""))
         elif name == "sii_search_circulares":
             return sii.search_circulares(args.get("query", ""))
         elif name == "sma_search_sancionatorios":
-            return sma.search_procedimientos(args.get("query", ""))
+            return sma.search_sancionatorios(nombre=args.get("query", ""))
         elif name == "tdlc_search_jurisprudencia":
             return tdlc.search_jurisprudencia(args.get("query", ""))
         elif name == "export_brief_ojv":
