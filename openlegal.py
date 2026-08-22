@@ -282,22 +282,20 @@ def main():
         epilog="""
 Ejemplos de uso:
   openlegal                   -> Abre el menú interactivo de la consola
-  openlegal chat              -> Inicia el asistente jurídico IA (Claude, Gemini, DeepSeek, Ollama)
+  openlegal mcp               -> Inicia el servidor MCP estándar para Antigravity/Claude/Cursor
+  openlegal chat              -> Inicia el asistente jurídico IA en la terminal
   openlegal critique <doc>    -> Ejecuta la auditoría forense de 5 dimensiones sobre un escrito
   openlegal generate <tipo>   -> Genera un borrador judicial completo (demanda, recurso, contrato)
-  openlegal web               -> Levanta el servidor web y abre el navegador
-  openlegal skills            -> Lista las 15+ habilidades y plugins de la suite
-  openlegal mcp               -> Inicia el servidor MCP estándar para Antigravity/Claude/Cursor
+  openlegal skills            -> Lista las habilidades y plugins jurídicos de la suite
   openlegal export            -> Exporta un escrito judicial forense a HTML/MD
   openlegal check             -> Verifica el estado de las credenciales y conectores
   openlegal search "..."      -> Realiza una búsqueda jurídica universal
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "web", "serve", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default="gemini", help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama)")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
-    parser.add_argument("--port", type=int, default=8000, help="Puerto para el servidor web (por defecto 8000)")
     args = parser.parse_args()
 
     if args.comando == "mcp":
@@ -337,15 +335,6 @@ Ejemplos de uso:
             except KeyboardInterrupt:
                 print("\n\n👋 Cerrando chat jurídico.\n")
                 break
-
-    elif args.comando == "web" or args.comando == "serve":
-        print_banner()
-        print(f"🚀 Iniciando Dashboard Web de Open Legal Chile en http://localhost:{args.port}...")
-        try:
-            webbrowser.open(f"http://localhost:{args.port}")
-        except Exception:
-            pass
-        run_server(args.port)
 
     elif args.comando == "check":
         print_banner()
