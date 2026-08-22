@@ -1,0 +1,18 @@
+include .env.example
+include mcp_config.json
+include smithery.yaml
+include AGENTS.md
+include QUICKSTART.md
+include CONNECTORS.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include CLA.md
+include ROADMAP.md
+include SECURITY.md
+include CLAUDE.md
+include GEMINI.md
+include openlegal.manifest.json
+include skills-lock.json
+recursive-include .agents/skills *.md
+recursive-include agents *.json
+recursive-include references *.md

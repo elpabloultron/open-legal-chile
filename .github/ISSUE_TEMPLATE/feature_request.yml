@@ -1,0 +1,49 @@
+name: ✨ Solicitud de Funcionalidad
+description: Propón una nueva herramienta MCP, conector, skill o mejora
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por proponer una mejora para Open Legal Chile. Cuéntanos el problema que resuelve y cómo se alinea con el derecho chileno.
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema que resuelve
+      description: Contexto y caso de uso (¿qué trabajo legal acelera?).
+      placeholder: "Hoy no hay forma de consultar X desde el agente..."
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de contribución
+      options:
+        - Nueva herramienta MCP
+        - Nuevo conector estatal
+        - Nueva skill / agente
+        - Mejora de un conector existente
+        - Mejora de documentación
+        - CI / Packaging
+    validations:
+      required: true
+  - type: textarea
+    id: diseno
+    attributes:
+      label: Diseño propuesto
+      description: Fuente oficial de datos, endpoints, estructura de salida, formato de citación.
+      placeholder: "Conector para el Registro Civil con endpoint https://... y citas [RC - ...]"
+    validations:
+      required: true
+  - type: checkboxes
+    id: cumplimiento
+    attributes:
+      label: Cumplimiento jurídico
+      options:
+        - label: Respeta la primacía de la ley y el estándar de citación oficial de AGENTS.md
+          required: true
+        - label: No introduce terminología de Common Law
+          required: true
+        - label: Incluye la Compuerta de Revisión Jurídica en salidas de alto riesgo
+          required: true

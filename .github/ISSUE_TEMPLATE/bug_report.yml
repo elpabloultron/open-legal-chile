@@ -1,0 +1,57 @@
+name: 🐞 Reporte de Bug
+description: Reporta un error en el servidor MCP, conectores, CLI o skills
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar un bug en Open Legal Chile. Revisa primero los issues existentes para evitar duplicados.
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción del bug
+      description: Qué esperabas que ocurriera y qué ocurrió en su lugar.
+      placeholder: "Al llamar a cne_get_centrales_y_proyectos con region=... esperaba X pero devolvió Y"
+    validations:
+      required: true
+  - type: dropdown
+    id: componente
+    attributes:
+      label: Componente afectado
+      multiple: true
+      options:
+        - Servidor MCP (mcp_server.py)
+        - Conector estatal (BCN/CGR/DT/CNE/Panel/CMF/SII/SMA/TDLC/PJUD)
+        - CLI (openlegal.py)
+        - Chat / Crítica (chat_engine.py / critique.py)
+        - Exportador OJV (exporters.py)
+        - Skill / Agente (.agents/skills, agents/)
+        - Documentación
+        - CI / Packaging
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducir
+      placeholder: "1. Ejecutar `python openlegal.py search '...'`\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: entorno
+    attributes:
+      label: Entorno
+      value: |
+        - OS: [ej. Windows 11 / Ubuntu 24.04]
+        - Python: [ej. 3.12.4]
+        - Commit/SHA: [ej. 9080dbe]
+        - Credenciales .env configuradas: [sí/no, cuáles]
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / salida relevante
+      description: Incluye el traceback o la salida del comando (sin secretos).
+      render: shell
