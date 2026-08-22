@@ -58,7 +58,7 @@ def check_configuration() -> dict:
             "gemini": bool(GEMINI_API_KEY and not GEMINI_API_KEY.startswith("tu_")),
             "deepseek": bool(DEEPSEEK_API_KEY and not DEEPSEEK_API_KEY.startswith("tu_")),
             "openai": bool(OPENAI_API_KEY and not OPENAI_API_KEY.startswith("tu_")),
-            "ollama": bool(OLLAMA_HOST)
+            "ollama": bool(os.getenv("OLLAMA_HOST"))
         }
     }
 

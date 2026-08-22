@@ -10,7 +10,7 @@ from cne_connector import CNEClient
 from panel_expertos_connector import PanelExpertosClient
 from cmf_connector import CMFClient
 from sii_connector import SIIClient
-from ambiental_connector import AmbientalClient
+from ambiental_connector import SMAClient
 from tdlc_connector import TDLCClient
 
 def test_bcn_ley_chile():
@@ -52,7 +52,7 @@ def test_sii_tributario():
     assert isinstance(res, list)
 
 def test_sma_ambiental():
-    client = AmbientalClient()
+    client = SMAClient()
     res = client.search_sancionatorios(nombre="Minera")
     assert isinstance(res, dict)
     assert "resultados" in res or "total" in res

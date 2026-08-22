@@ -1,13 +1,13 @@
 """
 Pruebas unitarias para el Servidor MCP (Model Context Protocol) de Open Legal Chile.
-Verifica que las 12 herramientas forenses cumplan con la especificación JSON-RPC 2.0.
+Verifica que las 13 herramientas forenses cumplan con la especificación JSON-RPC 2.0.
 """
 
 from mcp_server import handle_tool_call, TOOLS
 
 def test_tools_list():
-    """Verifica que el catálogo de herramientas MCP contenga los 8 conectores y exportadores."""
-    assert len(TOOLS) >= 12
+    """Verifica que el catálogo de herramientas MCP contenga los 10 conectores y exportadores."""
+    assert len(TOOLS) >= 13
     tool_names = [t["name"] for t in TOOLS]
     assert "bcn_get_codigo" in tool_names
     assert "bcn_get_ley" in tool_names

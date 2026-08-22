@@ -10,13 +10,10 @@ import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
 
-# Importar configuración y conectores
-from config import check_configuration
-from bcn_connector import BCNClient
+# Importar conectores oficiales
 from cgr_connector import CGRClient
 from dt_connector import DTClient
 from tdlc_connector import TDLCClient
-from ambiental_connector import AmbientalClient
 from pjud_connector import PJUDClient
 
 # Prompt Maestro de Especialización en Derecho Chileno
@@ -26,19 +23,18 @@ PRINCIPIOS FUNDAMENTALES:
 1. La LEY es la fuente formal primordial (Art. 1 Código Civil).
 2. Jurisprudencia con efecto relativo (Art. 3 inc. 2 Código Civil), pero con valor doctrinal orientador.
 3. PROHIBIDO usar conceptos o términos del Common Law estadounidense (como at-will employment, punitive damages, discovery, subpoena, grand jury, Title VII, Delaware C-Corp). Usa terminología procesal y sustantiva chilena (necesidades de la empresa, finiquito, fuero, daño moral, daño emergente, lucro cesante, otrosí, reposición, apelación, casación, SpA, etc.).
-4. CITA rigurosamente las fuentes con el formato:
+4. CITA rigurosamente las fuentes con el formato oficial de Open Legal Chile:
    - [BCN - Código Civil, Art. 1545] o [BCN - Ley N° 21.643, Art. 2]
    - [CPR 1980 - Art. 19 N° X]
-   - [Dictamen DT N° XXXX/XX]
-   - [Dictamen CGR N° XXXXX]
-   - [CS - Rol N° XXX-XXXX] o [C.A. de Santiago - Rol N° XXX-XXXX]
+   - [Dictamen DT N° XXXX/XX de AAAA]
+   - [Dictamen CGR N° EXXXXXX (AAAA)]
+   - [CS - Rol N° XX.XXX-AAAA, Fecha: DD-MM-AAAA] o [C.A. de Santiago - Rol N° XXX-AAAA]
+   - [Circular SII N° XX (AAAA)] o [NCG CMF N° XXX]
 5. Si se detecta un caso de alta trascendencia o inminencia procesal, incluye la advertencia de revisión jurídica por abogado habilitado.
 """
 
-bcn_client = BCNClient()
 cgr_client = CGRClient()
 dt_client = DTClient()
-sma_client = AmbientalClient()
 tdlc_client = TDLCClient()
 pjud_client = PJUDClient()
 
@@ -88,7 +84,7 @@ def get_relevant_legal_context(user_query: str) -> str:
             if pjud_res:
                 context_chunks.append("--- JURISPRUDENCIA JUDICIAL Y TC EN VIVO ---")
                 for it in pjud_res[:2]:
-                    context_chunks.append(f"• [{it.get('tribunal')} — {it.get('rol')}] {it.get('caratula')}: {it.get('doctrina', '')[:250]}")
+                    context_chunks.append(f"• [CS - {it.get('rol')}, Fecha: {it.get('fecha')}] {it.get('caratula')}: {it.get('doctrina', '')[:250]}")
         except Exception:
             pass
 
@@ -104,8 +100,6 @@ class LegalChatEngine:
         "gemini-2.0-flash-thinking": "gemini-2.0-flash-thinking-exp-01-21",
         "gemini-1.5-pro": "gemini-1.5-pro",
         "gemini-1.5-flash": "gemini-1.5-flash",
-        "gemini-2.5-pro": "gemini-2.0-flash",
-        "gemini-3.7-flash-high": "gemini-2.0-flash",
 
         # Claude Series
         "claude-3-7-sonnet-thinking": "claude-3-7-sonnet-20250219",
@@ -131,7 +125,7 @@ class LegalChatEngine:
         return cls.MODEL_ALIASES.get(model_name, model_name)
 
     @staticmethod
-    def call_deepseek(prompt: str, messages: List[Dict[str, str]], api_key: str, model: str = "deepseek-reasoner") -> str:
+    def call_deepseek(messages: List[Dict[str, str]], api_key: str, model: str = "deepseek-reasoner") -> str:
         """Llama a la API de DeepSeek (deepseek-chat o deepseek-reasoner)."""
         target_model = LegalChatEngine.resolve_model(model)
         url = "https://api.deepseek.com/chat/completions"
@@ -153,7 +147,7 @@ class LegalChatEngine:
             return data["choices"][0]["message"]["content"]
 
     @staticmethod
-    def call_anthropic(prompt: str, messages: List[Dict[str, str]], api_key: str, model: str = "claude-3-7-sonnet-20250219") -> str:
+    def call_anthropic(messages: List[Dict[str, str]], api_key: str, model: str = "claude-3-7-sonnet-20250219", system_prompt: str = SYSTEM_PROMPT_CHILE) -> str:
         """Llama a la API de Anthropic Claude con soporte para Thinking / Reasoning y tokens de sesión."""
         target_model = LegalChatEngine.resolve_model(model)
         url = "https://api.anthropic.com/v1/messages"
@@ -161,7 +155,7 @@ class LegalChatEngine:
         payload = {
             "model": target_model,
             "max_tokens": 4096,
-            "system": SYSTEM_PROMPT_CHILE,
+            "system": system_prompt,
             "messages": user_msgs,
             "temperature": 0.2
         }
@@ -184,7 +178,7 @@ class LegalChatEngine:
             return data["content"][0]["text"]
 
     @staticmethod
-    def call_gemini(prompt: str, messages: List[Dict[str, str]], api_key: str, model: str = "gemini-2.5-pro") -> str:
+    def call_gemini(messages: List[Dict[str, str]], api_key: str, model: str = "gemini-2.0-flash", system_prompt: str = SYSTEM_PROMPT_CHILE) -> str:
         """Llama a la API de Google Gemini soportando tanto API Key (AIza...) como OAuth2 Bearer Token (ya29...)."""
         target_model = LegalChatEngine.resolve_model(model)
         is_bearer = api_key.startswith("ya29.") or api_key.startswith("Bearer ") or len(api_key) > 85
@@ -196,19 +190,20 @@ class LegalChatEngine:
             headers["Authorization"] = f"Bearer {token}"
         else:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{target_model}:generateContent?key={token}"
-        
-        # Convertir mensajes a formato Gemini
+
+        # Convertir mensajes a formato Gemini (el system prompt se inyecta como systemInstruction)
         contents = []
         for m in messages:
-            role = "user" if m["role"] in ["user", "system"] else "model"
+            if m["role"] == "system":
+                continue
             contents.append({
-                "role": role,
+                "role": "user" if m["role"] == "user" else "model",
                 "parts": [{"text": m["content"]}]
             })
 
         payload = {
             "contents": contents,
-            "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT_CHILE}]},
+            "systemInstruction": {"parts": [{"text": system_prompt}]},
             "generationConfig": {"temperature": 0.2, "maxOutputTokens": 4096}
         }
         req = urllib.request.Request(
@@ -221,7 +216,7 @@ class LegalChatEngine:
             return data["candidates"][0]["content"]["parts"][0]["text"]
 
     @staticmethod
-    def call_openai(prompt: str, messages: List[Dict[str, str]], api_key: str, model: str = "gpt-4o") -> str:
+    def call_openai(messages: List[Dict[str, str]], api_key: str, model: str = "gpt-4o") -> str:
         """Llama a OpenAI o proveedores compatibles (Groq, OpenRouter)."""
         url = "https://api.openai.com/v1/chat/completions"
         payload = {
@@ -242,7 +237,7 @@ class LegalChatEngine:
             return data["choices"][0]["message"]["content"]
 
     @staticmethod
-    def call_ollama(prompt: str, messages: List[Dict[str, str]], host: str = "http://localhost:11434", model: str = "llama3.3") -> str:
+    def call_ollama(messages: List[Dict[str, str]], host: str = "http://localhost:11434", model: str = "llama3.3") -> str:
         """Llama a un modelo local ejecutándose en Ollama."""
         url = f"{host.rstrip('/')}/api/chat"
         payload = {
@@ -267,11 +262,20 @@ class LegalChatEngine:
         "ollama": "llama3.3"
     }
 
+    @staticmethod
+    def detect_provider() -> str:
+        """Detecta el primer proveedor de IA con API key configurada en el entorno."""
+        for p in ("deepseek", "anthropic", "gemini", "openai"):
+            if os.getenv(f"{p.upper()}_API_KEY", "").strip():
+                return p
+        return "ollama"
 
-    def chat(self, user_message: str, provider: str, api_key: Optional[str] = None, model: Optional[str] = None, history: Optional[List[Dict[str, str]]] = None) -> Dict[str, Any]:
+
+    def chat(self, user_message: str, provider: Optional[str] = None, api_key: Optional[str] = None, model: Optional[str] = None, history: Optional[List[Dict[str, str]]] = None, system_prompt: Optional[str] = None) -> Dict[str, Any]:
         """Procesa una consulta jurídica, inyecta contexto en vivo y consulta al proveedor seleccionado."""
-        provider = provider.lower().strip()
+        provider = (provider or self.detect_provider()).lower().strip()
         history = history or []
+        system_prompt = system_prompt or SYSTEM_PROMPT_CHILE
 
         # 1. Recuperar contexto jurídico en tiempo real
         live_context = get_relevant_legal_context(user_message)
@@ -280,7 +284,7 @@ class LegalChatEngine:
             enriched_user_msg = f"{user_message}\n\n[CONTEXTO NORMATIVO Y DOCTRINAL DE OPEN LEGAL CHILE]:\n{live_context}"
 
         # 2. Construir historial de mensajes con system prompt
-        messages = [{"role": "system", "content": SYSTEM_PROMPT_CHILE}]
+        messages = [{"role": "system", "content": system_prompt}]
         for h in history:
             messages.append({"role": h.get("role", "user"), "content": h.get("content", "")})
         messages.append({"role": "user", "content": enriched_user_msg})
@@ -294,26 +298,26 @@ class LegalChatEngine:
             if provider == "deepseek":
                 if not key:
                     return {"error": "Falta DEEPSEEK_API_KEY. Configúrala en .env o en la interfaz."}
-                reply = self.call_deepseek(user_message, messages, key, chosen_model or "deepseek-reasoner")
+                reply = self.call_deepseek(messages, key, chosen_model or "deepseek-reasoner")
 
             elif provider == "anthropic" or provider == "claude":
                 if not key:
                     return {"error": "Falta ANTHROPIC_API_KEY. Configúrala en .env o en la interfaz."}
-                reply = self.call_anthropic(user_message, messages, key, chosen_model or "claude-3-7-sonnet-20250219")
+                reply = self.call_anthropic(messages, key, chosen_model or "claude-3-7-sonnet-20250219", system_prompt)
 
             elif provider == "gemini" or provider == "google":
                 if not key:
                     return {"error": "Falta GEMINI_API_KEY. Configúrala en .env o en la interfaz."}
-                reply = self.call_gemini(user_message, messages, key, chosen_model or "gemini-2.5-pro")
+                reply = self.call_gemini(messages, key, chosen_model or "gemini-2.0-flash", system_prompt)
 
             elif provider == "openai":
                 if not key:
                     return {"error": "Falta OPENAI_API_KEY. Configúrala en .env o en la interfaz."}
-                reply = self.call_openai(user_message, messages, key, chosen_model or "o3-mini")
+                reply = self.call_openai(messages, key, chosen_model or "o3-mini")
 
             elif provider == "ollama":
                 host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
-                reply = self.call_ollama(user_message, messages, host, chosen_model or "llama3.3")
+                reply = self.call_ollama(messages, host, chosen_model or "llama3.3")
 
             else:
                 return {"error": f"Proveedor '{provider}' no reconocido. Opciones: deepseek, anthropic, gemini, openai, ollama."}

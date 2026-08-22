@@ -42,3 +42,12 @@ openlegal-mcp = "mcp_server:main"
 "Homepage" = "https://github.com/elpabloultron/open-legal-chile"
 "Bug Tracker" = "https://github.com/elpabloultron/open-legal-chile/issues"
 "Source Code" = "https://github.com/elpabloultron/open-legal-chile"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.data-files]
+"openlegal-chile" = [".env.example", "mcp_config.json", "smithery.yaml"]
+
+[tool.setuptools.packages.find]
+include = ["connectors*", "domain*"]

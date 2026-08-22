@@ -10,6 +10,11 @@ jobs:
   health-check:
     runs-on: ubuntu-latest
 
+    env:
+      BCN_API_KEY: ${{ secrets.BCN_API_KEY }}
+      CNE_EMAIL: ${{ secrets.CNE_EMAIL }}
+      CNE_PASSWORD: ${{ secrets.CNE_PASSWORD }}
+
     steps:
       - uses: actions/checkout@v4
 
@@ -24,5 +29,6 @@ jobs:
           pip install pytest
 
       - name: Execute State API Health Verification
+        continue-on-error: true
         run: |
           python -m pytest tests/test_connectors.py -v

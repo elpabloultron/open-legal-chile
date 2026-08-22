@@ -1,66 +1,45 @@
-# Adding a Connector
+# Conectores Oficiales del Estado de Chile
 
-The plugins are at their best when connected to authoritative sources. If you build or operate a legal data source, research tool, CLM, DMS, eDiscovery platform, or practice management system, we want your MCP connector in the suite.
+Open Legal Chile integra **10 conectores oficiales** con fuentes primarias del ordenamiento jurídico chileno. Todos se consumen a través del servidor MCP (`mcp_server.py`) o de la CLI (`openlegal`), y cada resultado conserva su **procedencia oficial** (URL o identificador del organismo) para citación verificable conforme al estándar de [AGENTS.md](AGENTS.md).
 
-## What makes a good legal MCP connector
+## Tabla de Conectores y Herramientas MCP
 
-- **Remote MCP server over HTTPS** with OAuth or API-key auth (streamable HTTP or SSE transport)
-- **Read-heavy tools** — search, fetch, list. Write tools (create, send, file) need an explicit confirmation prompt on the client side; say so in your tool descriptions.
-- **Provenance in results** — return the source, date retrieved, and a citation-ready identifier. The plugins tag every cite by source; your connector should make that possible.
-- **No instruction-like content in results** — the plugins treat retrieved content as data, not commands. If your tool results include metadata or system notes, mark them clearly so they don't look like embedded directives.
-- **Rate limits and errors that degrade gracefully** — the plugins have a fallback for when a connector isn't responding; a clean error is better than a timeout.
+| # | Conector | Módulo | Fuente | Herramienta(s) MCP |
+|---|----------|--------|--------|--------------------|
+| 1 | **BCN — Biblioteca del Congreso Nacional (Ley Chile)** | `bcn_connector.py` | `bcn.cl/leychile` (XML) | `bcn_get_codigo`, `bcn_get_ley` |
+| 2 | **CGR — Contraloría General de la República** | `cgr_connector.py` | `contraloria.cl/apibusca` | `cgr_search_jurisprudencia`, `cgr_search_auditorias` |
+| 3 | **DT — Dirección del Trabajo** | `dt_connector.py` | `dt.gob.cl` | `dt_search_doctrina` |
+| 4 | **CNE — Comisión Nacional de Energía (Energía Abierta)** | `cne_connector.py` | `api.cne.cl` (JWT) | `cne_get_centrales_y_proyectos` |
+| 5 | **Panel de Expertos de la Ley Eléctrica** | `panel_expertos_connector.py` | `panel.cl` | `panel_expertos_search` |
+| 6 | **CMF — Comisión para el Mercado Financiero** | `cmf_connector.py` | `cmfchile.cl` | `cmf_search_normativa` |
+| 7 | **SII — Servicio de Impuestos Internos** | `sii_connector.py` | `sii.cl` | `sii_search_circulares` |
+| 8 | **SMA — Superintendencia del Medio Ambiente (SNIFA)** | `ambiental_connector.py` (clase `SMAClient`) | `snifa.sma.gob.cl` | `sma_search_sancionatorios` |
+| 9 | **TDLC — Tribunal de Defensa de la Libre Competencia** | `tdlc_connector.py` | `tdlc.cl` | `tdlc_search_jurisprudencia` |
+| 10 | **PJUD — Poder Judicial (CS/TC)** | `pjud_connector.py` | base local SQLite (`jurisprudencia_judicial.db`) | `pjud_search_jurisprudencia` |
 
-## How to submit
+Además, la herramienta forense `export_brief_ojv` (módulo `exporters.py`) genera escritos para la Oficina Judicial Virtual (Ley N° 20.886) en HTML, Markdown, texto plano y JSON.
 
-1. Publish your MCP server and document its tools, auth flow, and data coverage.
-2. Open a PR adding your server to the relevant plugin's `.mcp.json` with the URL, auth method, and a one-line description of what it gives Claude.
-3. Include a note on which practice areas / plugins it's most useful for.
-4. We'll test against the plugin workflows and merge. Connectors that pass the retrieval-quality and injection-resistance checks go in the default `.mcp.json`; others get documented in the plugin README for users to add themselves.
+## Estándar de un buen conector para Open Legal Chile
 
-## Current connectors
+1. **Fuente primaria oficial** — datos provenientes del organismo estatal (API, índice abierto o XML oficial), nunca de repositorios no oficiales.
+2. **Procedencia en cada resultado** — retornar identificador citable (N° de dictamen, rol, norma) y fecha de vigencia.
+3. **Solo lectura** — herramientas de búsqueda y consulta; nada de escritura sobre sistemas del Estado.
+4. **Degradación elegante** — ante fallo de red o ausencia de credenciales, retornar estructura vacía consistente o `{"error": ...}` sin romper la sesión.
+5. **Caché local por directorio** — cada conector cachea en `<institucion>_cache/` para funcionamiento offline y ahorro de cuota.
 
-Connectors shipped in the default `.mcp.json` of each plugin:
+## Credenciales
 
-| Connector | Plugins |
-|---|---|
-| **Slack** | all 12 |
-| **Google Drive** (`gdrive`) | all 12 |
-| **CourtListener** | legal-clinic, ip-legal, litigation-legal, law-student |
-| **Descrybe** | legal-clinic, ip-legal, law-student |
-| **Definely** | commercial-legal, corporate-legal |
-| **iManage** | commercial-legal, corporate-legal |
-| **Solve Intelligence** | corporate-legal, ip-legal |
-| **TopCounsel** | commercial-legal, corporate-legal, litigation-legal |
-| **Box** | corporate-legal |
-| **Ironclad** | commercial-legal |
-| **DocuSign / DocuSign CLM** | commercial-legal |
-| **Everlaw** | litigation-legal |
-| **Trellis** | litigation-legal |
-| **Aurora** | litigation-legal |
-| **Courtroom5** | legal-clinic |
-| **Lawve AI** | legal-builder-hub |
-| **Linear** | product-legal |
-| **Atlassian (Jira)** | product-legal |
-| **Asana** | product-legal |
+| Conector | Requiere credencial | Variable `.env` |
+|----------|--------------------|-----------------|
+| BCN | API key (solo API v1; el XML público no la requiere) | `BCN_API_KEY` |
+| CNE | Email + contraseña de Energía Abierta | `CNE_EMAIL`, `CNE_PASSWORD` |
+| CGR, DT, Panel, CMF, SII, SMA, TDLC | No (abiertas) | — |
+| PJUD | No (base local indexada) | — |
 
-See the `.mcp.json` in each plugin directory for the authoritative list.
+## Cómo contribuir un conector nuevo
 
-## Wanted connectors
-
-These would make specific plugins significantly more useful. If you build or operate one, see "How to submit" above.
-
-- **IP management systems** (Anaqua, Clarivate IPfolio, AppColl, Patrix, Alt Legal, FoundationIP) — full docket sync for `ip-legal` portfolio tracking
-- **USPTO by customer number** — full portfolio status and deadlines, not just per-application lookup
-- **USPTO TSDR / Trademark Status** — trademark status and deadlines for `ip-legal` brand management
-- **Jira / Linear / Asana for OSS requests** — `ip-legal` OSS clearance can monitor and respond to incoming tickets
-- **Thomson Reuters** (CoCounsel, Practical Law, Westlaw) — research and drafting for every plugin
-- **SS&C Intralinks / Datasite** — VDR access for `corporate-legal` diligence
-- **Relativity / Everlaw beyond read** — eDiscovery workflow for `litigation-legal`
-- **State bar CLE trackers** — `law-student` bar prep
-- **Court e-filing systems** (PACER write, state e-filing) — with a hard irreversibility gate, obviously
-- **Global AI Regulation Tracker** (techieray.com/GlobalAIRegulationTracker) — jurisdiction-tagged AI regulation tracking with structured API. Curated, verified, multi-jurisdiction. Would be a primary-source-adjacent feed for `ai-governance-legal` and `regulatory-legal`.
-- **Regulatory primary sources** — a connector to official registers (eCFR, Federal Register, EUR-Lex, legislation.gov.uk, Federal Register of Legislation AU, Singapore Statutes Online) that bypasses the agent-blockers many legislative sites use. A curated regulatory knowledge base would be a high-value addition.
-
-## Questions
-
-Open an issue on this repo. For partnership or integration questions, see the contact on each plugin's README.
+1. Crea `<institucion>_connector.py` con una clase cliente (`<Sigla>Client`) que implemente al menos un método `search_*(query, ...)`.
+2. Registra la herramienta en el catálogo `TOOLS` de `mcp_server.py` y su despacho en `handle_tool_call`.
+3. Agrega el cliente a `connectors/registry.py` (`search_all`) para que participe de la Búsqueda Jurídica Universal.
+4. Documenta el conector en esta tabla y en `openlegal.manifest.json` (`dataConnectors`).
+5. Agrega una prueba de integración en `tests/test_connectors.py` que verifique la estructura de datos retornada.

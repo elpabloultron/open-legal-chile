@@ -1,12 +1,31 @@
 # Guía de Inicio Rápido (Quickstart)
 
-**Configuración en 60 segundos** para comenzar a usar Open Legal Chile en tu agente de IA preferido (**Antigravity**, **Claude Code**, **Cursor**, **Codex**).
+**Configuración en 60 segundos** para comenzar a usar Open Legal Chile en tu agente de IA preferido (**Antigravity**, **Claude Code**, **Cursor**, **OpenCode**, **Codex**).
 
 ---
 
-## 🤖 1. En Antigravity (Google Gemini) o Cursor
+## 🔑 1. Configurar credenciales (opcional)
 
-Agrega el servidor MCP a tu archivo `mcp_config.json`:
+Copia `.env.example` a `.env` y completa las claves que tengas:
+
+| Variable | Para qué |
+|----------|----------|
+| `BCN_API_KEY` | API v1 de BCN Ley Chile (el XML público no la requiere) |
+| `CNE_EMAIL` / `CNE_PASSWORD` | API autenticada de Energía Abierta (CNE) |
+| `DEEPSEEK_API_KEY` | Chat jurídico con DeepSeek |
+| `ANTHROPIC_API_KEY` | Chat jurídico con Claude |
+| `GEMINI_API_KEY` | Chat jurídico con Gemini |
+| `OPENAI_API_KEY` | Chat jurídico con OpenAI |
+| `OLLAMA_HOST` | Modelo local vía Ollama |
+| `PORT` | Reservado para futuros servicios HTTP |
+
+> Si no configuras ninguna clave de IA, el chat usa Ollama local si está disponible. `openlegal check` muestra el diagnóstico completo.
+
+---
+
+## 🤖 2. Conectar el servidor MCP a tu agente
+
+**Antigravity (Google Gemini) / Cursor** — agrega a `mcp_config.json`:
 
 ```json
 {
@@ -19,74 +38,69 @@ Agrega el servidor MCP a tu archivo `mcp_config.json`:
 }
 ```
 
----
-
-## 🧠 2. En Claude Code
-
-Registra el servidor MCP directamente en tu terminal:
+**Claude Code**:
 
 ```bash
 claude mcp add open-legal-chile python mcp_server.py
 ```
 
+**OpenCode** — ya viene configurado en `opencode.json` (usa `mcp_server.py` relativo al proyecto).
+
 ---
 
-## 💻 3. En la Consola CLI
+## 💻 3. Usar la Consola CLI
 
 ```bash
 # Iniciar servidor MCP
 python openlegal.py mcp
 
-# Consultar BCN, CGR, DT, CNE, CMF, SII, SMA y TDLC simultáneamente
+# Búsqueda jurídica universal en los 10 organismos del Estado
 python openlegal.py search "confianza legitima contrata"
+
+# Chat jurídico interactivo (autodetecta el proveedor con API key)
+python openlegal.py chat
+
+# Auditoría forense de 5 dimensiones sobre un escrito
+python openlegal.py critique demanda.txt
+
+# Generar borrador forense OJV (demanda_civil, proteccion, laboral, ppa)
+python openlegal.py generate laboral
+
+# Verificar credenciales y conectores
+python openlegal.py check
 ```
 
-5. **Run setup.** Takes 2 minutes (quick start) or 10-15 minutes (full).
-   ```
-   /privacy-legal:cold-start-interview
-   ```
+---
 
-6. **Connect a research tool.** Citations are flagged unverified without one. In Cowork: Settings → Connectors → add CourtListener. In Claude Code: the plugin already lists the research MCP in its config; you'll be prompted to authorize it the first time a skill needs it.
+## 🧩 4. Habilidades y agentes jurídicos chilenos
 
-## Install user-scoped, not project-scoped
+Open Legal Chile incluye **7 habilidades** (`.agents/skills/`) y **7 agentes** (`agents/*.json`):
 
-When you run `/plugin install`, you may be asked whether to install for this project only or for all projects (user scope). **Pick user scope.**
+| Área | Skill | Agente |
+|------|-------|--------|
+| Laboral | `chilean-employment-legal` | `agente-laboral` |
+| Litigación OJV | `chilean-litigation-legal` | `agente-litigios` |
+| Administrativo / CGR | `chilean-administrative-legal` | `agente-regulatorio` |
+| Energía | `chilean-energy-legal` | `agente-energia` |
+| Ambiental / SMA | `chilean-environmental-legal` | `agente-ambiental` |
+| Contratos | `chilean-contract-legal` | `agente-contratos` |
+| Corporativo | `chilean-corporate-legal` | `agente-corporativo` |
 
-It's counterintuitive: project scope feels safer. But project scope blocks the plugin from reading files outside the project folder — your outlines in Downloads, your contract in Documents, your client file in Dropbox. Most skills need to read your files. User scope doesn't give the plugin any extra access to your files — the plugin can only read files you explicitly point it at or that are in the current directory. It just means the plugin works from any folder instead of one.
+Cada skill y agente opera **estrictamente bajo Derecho Continental chileno** (Civil Law), prohíbe terminología de Common Law y exige el estándar de citación oficial de [AGENTS.md](AGENTS.md).
 
-If you already installed project-scoped and want to switch: `/plugin uninstall <plugin>`, then `/plugin install <plugin>@claude-for-legal` from your home directory.
+---
 
-## Which plugin is for me?
+## ⚠️ 5. Reglas de seguridad
 
-| You are a… | Install… | First command |
-|---|---|---|
-| Privacy lawyer / DPO | `privacy-legal` | `/privacy-legal:use-case-triage` |
-| Commercial / contracts lawyer | `commercial-legal` | `/commercial-legal:review` |
-| Corporate / M&A lawyer | `corporate-legal` | `/corporate-legal:diligence-issue-extraction` |
-| Employment lawyer / HR counsel | `employment-legal` | `/employment-legal:wage-hour-qa` |
-| Product counsel | `product-legal` | `/product-legal:is-this-a-problem` |
-| IP lawyer / patent agent | `ip-legal` | `/ip-legal:clearance` |
-| Litigator (in-house or firm) | `litigation-legal` | `/litigation-legal:matter-intake` |
-| Regulatory / compliance counsel | `regulatory-legal` | `/regulatory-legal:reg-feed-watcher` |
-| AI governance lead | `ai-governance-legal` | `/ai-governance-legal:use-case-triage` |
-| Clinic supervisor (law school) | `legal-clinic` | `/legal-clinic:cold-start-interview` |
-| Law student | `law-student` | `/law-student:cold-start-interview` |
-| Legal ops / looking for skills | `legal-builder-hub` | `/legal-builder-hub:registry-browser` |
+- **Todo borrador es para revisión de abogado habilitado.** Los escritos generados incluyen la **Compuerta de Revisión Jurídica** y deben validarse antes de su ingreso a la OJV o notificación a contrapartes.
+- **Nunca** subas `.env` al repositorio (está en `.gitignore`).
+- Las citas siempre llevan su fuente oficial (`[BCN - ...]`, `[Dictamen DT N° ...]`, `[CS - Rol N° ..., Fecha: ...]`).
 
-## What you're installing
+---
 
-Each plugin learns your playbook through a setup interview, writes it to a practice profile file (`~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md`), and every skill reads from it. The profile is yours — edit it, re-run setup, or tell a skill to update it.
+## ❓ Problemas frecuentes
 
-**Every output is a draft for attorney review.** The plugins flag what they're unsure about, mark citations by source, and gate anything irreversible. A lawyer reviews, verifies, and takes responsibility. They make that review faster; they don't replace it.
-
-## What's in the box
-
-12 practice-area plugins, 5 managed-agent cookbooks, 16+ connectors. The full reference is in [README.md](README.md).
-
-## Stuck?
-
-- **"Command not found"** after install → you forgot step 4. Restart Claude Code.
-- **"Run setup first"** → run `/<plugin>:cold-start-interview` before any other command.
-- **Citations flagged `[verify]`** → connect a research tool (step 6). Without one, every cite is from training data, not a current database.
-- **"I can't read [file]"** → most often this means the plugin is project-scoped and the file is outside the project folder. See "Install user-scoped, not project-scoped" above — reinstall user-scoped or move the file into the project folder.
-- **The plugin doesn't do X** → run `/legal-builder-hub:related-skills-surfacer` to find a better match, or check the plugin's README for "What this plugin does not do."
+- **"Falta DEEPSEEK_API_KEY"** → configura la clave en `.env` o usa `--provider` con un proveedor configurado.
+- **Sin datos de CNE** → completa `CNE_EMAIL`/`CNE_PASSWORD` en `.env` (sin credenciales, el conector usa caché local si existe).
+- **Encoding roto en Windows** → los comandos fuerzan UTF-8; usa PowerShell o Windows Terminal moderno.
+- **Más ayuda** → `python openlegal.py --help` y [README.md](README.md).

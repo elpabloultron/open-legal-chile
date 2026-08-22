@@ -149,7 +149,9 @@ if __name__ == "__main__":
     if args.id:
         print(f"\n🏛️ Consultando Dictamen CGR N° {args.id}...")
         data = client.get_dictamen(args.id)
-        print(f"\n[Dictamen CGR N° {data.get('docId')}] (Fecha: {data.get('fecha')})")
+        fecha = data.get('fecha', '')
+        anio = fecha[:4] if fecha else 's/f'
+        print(f"\n[Dictamen CGR N° {data.get('docId')} ({anio})]")
         print(f"📌 Materia / Criterio:\n{data.get('materia')}")
         if data.get("texto"):
             print(f"\n📜 Texto:\n{data.get('texto')[:500]}...")

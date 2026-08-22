@@ -39,3 +39,9 @@ jobs:
           else
             echo "PYPI_API_TOKEN no configurado en los Secretos de GitHub. Omitiendo subida a PyPI."
           fi
+
+      - name: Create GitHub Release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*

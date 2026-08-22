@@ -184,6 +184,32 @@ class CNEClient:
         """Obtiene el catastro de estaciones de servicio de combustibles líquidos a nivel nacional."""
         return self._get("/api/v4/estaciones", "estaciones_servicio", use_cache)
 
+    def search(self, query: str, limit: int = 5) -> List[Dict[str, Any]]:
+        """Búsqueda de texto en centrales generadoras y proyectos SEA de la CNE."""
+        q_lower = query.lower().strip()
+        results = []
+        datasets = []
+        try:
+            datasets.append(self.get_capacidad_instalada())
+        except Exception:
+            pass
+        try:
+            datasets.append(self.get_proyectos_sea())
+        except Exception:
+            pass
+
+        for dataset in datasets:
+            if not isinstance(dataset, list):
+                continue
+            for item in dataset:
+                if not isinstance(item, dict):
+                    continue
+                if q_lower in json.dumps(item, ensure_ascii=False).lower():
+                    results.append(item)
+                    if len(results) >= limit:
+                        return results
+        return results
+
 
 # ==============================================================================
 # CLI DE CONSULTA RÁPIDA DE DERECHO ENERGÉTICO

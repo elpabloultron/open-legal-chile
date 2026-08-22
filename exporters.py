@@ -7,6 +7,7 @@ contratos PPA y cartas de despido en formatos estándares para tribunales chilen
 import os
 import re
 import html
+import json
 from datetime import datetime
 from typing import Dict, Any, Optional
 
@@ -41,7 +42,7 @@ DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
         otrosies: Optional[list] = None,
         filename_base: Optional[str] = None
     ) -> Dict[str, str]:
-        """Exporta un escrito judicial completo a HTML y Markdown."""
+        """Exporta un escrito judicial completo a HTML, Markdown, Texto Plano y JSON."""
         fecha_str = datetime.now().strftime("%d de %B de %Y")
         otrosies = otrosies or []
 
@@ -178,6 +179,50 @@ DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
         filename = filename_base or f"escrito_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         md_path = os.path.join(EXPORTS_DIR, f"{filename}.md")
         html_path = os.path.join(EXPORTS_DIR, f"{filename}.html")
+        txt_path = os.path.join(EXPORTS_DIR, f"{filename}.txt")
+        json_path = os.path.join(EXPORTS_DIR, f"{filename}.json")
+
+        # 4. Texto Plano (Oficina Judicial Virtual / copiar-pegar)
+        txt_content = f"""{presuma}
+
+{tribunal.upper()}
+
+{comparecencia}
+
+EN LO PRINCIPAL: {titulo_principal}; {'; '.join([ot.get('numero', '') + ': ' + ot.get('titulo', '') for ot in otrosies])}.
+
+I. LOS HECHOS
+{hechos}
+
+II. EL DERECHO
+{derecho}
+
+POR TANTO,
+{peticiones}
+{otrosies_md.replace('**', '').replace('`', '').strip()}
+"""
+
+        # 5. JSON estructurado (intercambio LegalTech)
+        json_data = {
+            "fecha_generacion": datetime.now().isoformat(timespec="seconds"),
+            "tipo_escrito": titulo_principal,
+            "tribunal": tribunal.upper(),
+            "presuma": {
+                "materia": presuma_data.get("materia", "ORDINARIO"),
+                "procedimiento": presuma_data.get("procedimiento", "DECLARATIVO"),
+                "demandante": presuma_data.get("demandante", "PARTE DEMANDANTE"),
+                "rut_demandante": presuma_data.get("rut_dte", "XX.XXX.XXX-X"),
+                "abogado_patrocinante": presuma_data.get("abogado", "ABOGADO PATROCINANTE"),
+                "rut_abogado": presuma_data.get("rut_abg", "XX.XXX.XXX-X"),
+                "demandado": presuma_data.get("demandado", "PARTE DEMANDADA"),
+                "rut_demandado": presuma_data.get("rut_ddo", "XX.XXX.XXX-X")
+            },
+            "comparecencia": comparecencia,
+            "hechos": hechos,
+            "derecho": derecho,
+            "peticiones_concretas": peticiones,
+            "otrosies": otrosies
+        }
 
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(md_content)
@@ -185,9 +230,17 @@ DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(html_content)
 
+        with open(txt_path, "w", encoding="utf-8") as f:
+            f.write(txt_content)
+
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(json_data, f, ensure_ascii=False, indent=2)
+
         return {
             "filename": filename,
             "markdownPath": md_path,
             "htmlPath": html_path,
+            "textPath": txt_path,
+            "jsonPath": json_path,
             "exportsDir": EXPORTS_DIR
         }

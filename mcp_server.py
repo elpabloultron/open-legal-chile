@@ -1,6 +1,6 @@
 """
 Open Legal Chile — Servidor Maestro MCP (Model Context Protocol)
-Expone los 8 conectores oficiales del Estado de Chile y herramientas forenses
+Expone los 10 conectores oficiales del Estado de Chile y herramientas forenses
 para cualquier agente de IA (Antigravity/Gemini, Claude Code, Cursor, Codex)
 a través del protocolo estándar MCP sobre stdio (JSON-RPC 2.0).
 """
@@ -16,14 +16,14 @@ try:
 except Exception:
     pass
 
-from bcn_connector import BCNClient, CODIGOS_REPUBLICA
+from bcn_connector import BCNClient
 from cgr_connector import CGRClient
 from dt_connector import DTClient
 from cne_connector import CNEClient
 from panel_expertos_connector import PanelExpertosClient
 from cmf_connector import CMFClient
 from sii_connector import SIIClient
-from ambiental_connector import AmbientalClient
+from ambiental_connector import SMAClient
 from tdlc_connector import TDLCClient
 from pjud_connector import PJUDClient
 from exporters import LegalDocumentExporter
@@ -36,7 +36,7 @@ cne = CNEClient()
 panel = PanelExpertosClient()
 cmf = CMFClient()
 sii = SIIClient()
-sma = AmbientalClient()
+sma = SMAClient()
 tdlc = TDLCClient()
 pjud = PJUDClient()
 exporter = LegalDocumentExporter()
@@ -68,7 +68,7 @@ TOOLS = [
     },
     {
         "name": "cgr_search_jurisprudencia",
-        "description": "Busca dictámenes vinculantes e instructivos en la jurisprudencia administrativa de la Contraloría General de la República (CGR).",
+        "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR).",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -178,7 +178,7 @@ TOOLS = [
     },
     {
         "name": "export_brief_ojv",
-        "description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html y .md.",
+        "description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html, .md, .txt y .json.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -210,8 +210,20 @@ def handle_tool_call(name: str, args: dict) -> dict:
         elif name == "dt_search_doctrina":
             return dt.search_dictamenes(args.get("query", ""), limit=10)
         elif name == "cne_get_centrales_y_proyectos":
+            region = (args.get("region") or "").strip()
             capacidad = cne.get_capacidad_instalada()
-            return {"total_registros": len(capacidad), "muestra": capacidad[:15]}
+            proyectos = cne.get_proyectos_sea()
+            if region:
+                r_lower = region.lower()
+                capacidad = [c for c in capacidad if isinstance(c, dict) and r_lower in json.dumps(c, ensure_ascii=False).lower()]
+                proyectos = [p for p in proyectos if isinstance(p, dict) and r_lower in json.dumps(p, ensure_ascii=False).lower()]
+            return {
+                "region": region or "todas",
+                "centrales_total": len(capacidad),
+                "centrales_muestra": capacidad[:15],
+                "proyectos_sea_total": len(proyectos),
+                "proyectos_sea_muestra": proyectos[:15]
+            }
         elif name == "panel_expertos_search":
             return panel.search_dictamenes(args.get("query", ""))
         elif name == "cmf_search_normativa":

@@ -5,7 +5,7 @@ estrictamente para el Ordenamiento Jurídico de la República de Chile (Civil La
 """
 
 import sys
-from typing import Dict, Any, List
+from typing import Dict, Any, Optional
 from chat_engine import LegalChatEngine
 
 CRITIQUE_SYSTEM_PROMPT = """Eres el Auditor Forense Principal de Open Legal Chile.
@@ -19,7 +19,7 @@ bajo el Derecho Continental Chileno (Civil Law) a través de 5 dimensiones estri
 
 2. DOCTRINA Y JURISPRUDENCIA APLICABLE (CGR, DT, CS, C.A., TDLC):
    - ¿Se incorpora la doctrina administrativa vinculante o judicial relevante?
-   - ¿Se cita correctamente el formato [BCN - ...], [Dictamen DT ...], [CS - Rol ...]?
+   - ¿Se cita correctamente el formato [BCN - ...], [Dictamen DT N° X/AAAA], [Dictamen CGR N° X (AAAA)], [CS - Rol N° ..., Fecha: ...]?
 
 3. ESTRUCTURA FORENSE Y TRAMITACIÓN DIGITAL (Ley 20.886 / CPC):
    - ¿Cumple con la Presuma OJV, comparecencia, capítulos de Hechos y Derecho, Por Tanto y Otrosíes?
@@ -38,22 +38,18 @@ class LegalCritiqueEngine:
     def __init__(self):
         self.chat_engine = LegalChatEngine()
 
-    def critique(self, text: str, provider: str = "gemini", api_key: str = "", model: str = "") -> Dict[str, Any]:
+    def critique(self, text: str, provider: Optional[str] = None, api_key: str = "", model: str = "") -> Dict[str, Any]:
         """Ejecuta una auditoría forense completa sobre el texto legal provisto."""
         if not text or not text.strip():
             return {"error": "El texto para auditar no puede estar vacío."}
-
-        messages = [
-            {"role": "system", "content": CRITIQUE_SYSTEM_PROMPT},
-            {"role": "user", "content": f"AUDITAR EL SIGUIENTE DOCUMENTO JURÍDICO CHILENO:\n\n{text}"}
-        ]
 
         res = self.chat_engine.chat(
             user_message=f"Por favor realiza la auditoría de 5 dimensiones sobre este texto:\n\n{text}",
             provider=provider,
             api_key=api_key,
             model=model,
-            history=[]
+            history=[],
+            system_prompt=CRITIQUE_SYSTEM_PROMPT
         )
 
         return {

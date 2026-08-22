@@ -14,7 +14,7 @@
 2. **Agent-Native & BYOK (Bring Your Own Key):**
    * Compatible con cualquier agente de codificación o modelo de lenguaje disponible:
      * **Anthropic Claude:** `claude-3-7-sonnet` (Thinking Híbrido), `claude-3-opus`, `claude-3-5-sonnet`.
-     * **Google Gemini:** `gemini-3.7-flash-high`, `gemini-2.5-pro` (con Google AI Pro y OAuth2 tokens).
+     * **Google Gemini:** `gemini-2.0-flash`, `gemini-2.0-flash-thinking`, `gemini-1.5-pro` (con Google AI Pro y OAuth2 tokens).
      * **DeepSeek:** `deepseek-reasoner` (R1) y `deepseek-chat` (V3).
      * **OpenAI:** `o3-mini`, `o1`, `gpt-4o`.
      * **Ollama Local:** `deepseek-r1:8b`, `llama3.3:70b`, `qwen2.5` (100% Offline).
@@ -28,7 +28,7 @@
      * **CMF, SII, SMA (SNIFA) y TDLC:** Normativa financiera, tributaria, ambiental y libre competencia.
 
 4. **Generación de Artefactos Forenses OJV (Ley N° 20.886):**
-   * Generación de demandas civiles, recursos de protección, demandas laborales y contratos PPA en formatos estandarizados (`.html` tipográfico y `.md`).
+   * Generación de demandas civiles, recursos de protección, demandas laborales y contratos PPA en formatos estandarizados (`.html` tipográfico, `.md`, `.txt` y `.json`).
 
 5. **Motor de Crítica Forense en 5 Dimensiones:**
    * 1. *Jerarquía Normativa y Legalidad (Art. 1 Código Civil)*
@@ -58,10 +58,11 @@
 └────────────────────────────────────────┬────────────────────────────────────────────────┘
                                          │
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
-│                     8 CONECTORES OFICIALES DEL ESTADO DE CHILE                          │
+│                     10 CONECTORES OFICIALES DEL ESTADO DE CHILE                          │
 │                                                                                         │
 │   BCN Ley Chile ── CGR Dictámenes ── DT Laboral ── CNE Energía ── Panel Expertos        │
 │   CMF Valores ─── SII Circulares ─── SMA SNIFA ─── TDLC Libre Competencia               │
+│   PJUD Corte Suprema y Tribunal Constitucional                                          │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -69,11 +70,11 @@
 
 ## 🛠️ 3. Puntos de Entrada y Comandos de la Suite
 
-* `openlegal init`: Inicializa un entorno de trabajo jurídico local.
-* `openlegal chat`: Sesión interactiva de chat forense con inyección de doctrina chilena.
+* `openlegal chat`: Sesión interactiva de chat forense con inyección de doctrina chilena (autodetecta el proveedor con API key).
 * `openlegal generate <tipo>`: Genera borradores judiciales (demanda, recurso, contrato, finiquito).
 * `openlegal critique <archivo>`: Ejecuta la auditoría en 5 dimensiones sobre un documento.
-* `openlegal search <consulta>`: Consulta simultánea en los 8 conectores estatales.
-* `openlegal web` / `openlegal ui`: Levanta el entorno interactivo en `http://localhost:8000`.
-* `openlegal export`: Exporta artefactos procesales a formatos OJV (`/exports/`).
+* `openlegal search <consulta>`: Búsqueda jurídica universal en los 10 conectores estatales (vía `connectors/registry.py`).
+* `openlegal skills`: Lista las 7 habilidades y agentes jurídicos chilenos.
+* `openlegal mcp`: Levanta el servidor MCP estándar (13 herramientas).
+* `openlegal export`: Exporta artefactos procesales a formatos OJV (`.html`, `.md`, `.txt`, `.json` en `/exports/`).
 * `openlegal check`: Verifica estado de conectores y credenciales en tiempo real.
