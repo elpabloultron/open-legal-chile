@@ -272,9 +272,7 @@ def menu_interactivo():
 
 
 def main():
-    import webbrowser
     from config import check_configuration
-    from server import run_server
 
     parser = argparse.ArgumentParser(
         description="⚖️ Open Legal Chile — Suite de Inteligencia Jurídica y Conectores de Datos",
@@ -386,6 +384,17 @@ Ejemplos de uso:
                 print(f"  * {it.get('titulo')}")
         except Exception as e:
             print(f"  * Error en TDLC: {e}")
+
+        # PJUD / Corte Suprema / Tribunal Constitucional
+        try:
+            from pjud_connector import PJUDClient
+            pjud_cli = PJUDClient()
+            pjud_res = pjud_cli.search_jurisprudencia(q, limit=3)
+            print(f"\n⚖️ Corte Suprema & Tribunal Constitucional (PJUD): {len(pjud_res)} fallos encontrados")
+            for it in pjud_res:
+                print(f"  * [{it.get('tribunal')} — {it.get('rol')}] {it.get('caratula')}: {it.get('doctrina')[:120]}...")
+        except Exception as e:
+            print(f"  * Error en PJUD: {e}")
 
     elif args.comando == "skills":
         print_banner()

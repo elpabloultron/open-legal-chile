@@ -9,6 +9,7 @@ from .models import (
     DiscrepanciaPanel,
     SancionSMA,
     SentenciaTDLC,
+    SentenciaJudicial,
     PresumaOJV,
     EscritoOJV
 )
@@ -20,6 +21,7 @@ __all__ = [
     "DiscrepanciaPanel",
     "SancionSMA",
     "SentenciaTDLC",
+    "SentenciaJudicial",
     "PresumaOJV",
     "EscritoOJV"
 ]
