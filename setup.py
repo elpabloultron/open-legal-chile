@@ -3,19 +3,22 @@ from setuptools import setup, find_packages
 setup(
     name="openlegal-chile",
     version="1.0.0",
-    description="Suite de Inteligencia Jurídica y Conectores de Datos para el Derecho Chileno",
+    description="Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de Chile",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    author="Open Legal Chile Team",
-    author_email="contacto@openlegal.cl",
-    url="https://github.com/open-legal-chile/open-legal-chile",
+    author="Pablo Benavides Jorquera / Open Legal Chile Contributors",
+    url="https://github.com/elpabloultron/open-legal-chile",
     py_modules=[
         "openlegal",
+        "mcp_server",
+        "chat_engine",
+        "critique",
+        "exporters",
         "config",
-        "server",
         "bcn_connector",
         "cgr_connector",
         "dt_connector",
+        "pjud_connector",
         "cne_connector",
         "panel_expertos_connector",
         "cmf_connector",
@@ -26,20 +29,20 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        "": ["web/*", "web/**/*", ".env.example"]
+        "": [".env.example", "mcp_config.json", "smithery.yaml"]
     },
     entry_points={
         "console_scripts": [
             "openlegal=openlegal:main",
-            "openlegal-web=server:run_server",
+            "openlegal-mcp=mcp_server:main",
         ],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
-        "Topic :: Software Development :: Libraries :: Application Frameworks",
-        "Topic :: Scientific/Engineering :: Information Analysis",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Intended Audience :: Legal Industry",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.10",
 )

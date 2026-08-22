@@ -1,26 +1,28 @@
 # ⚖️ Open Legal Chile
 
 <p align="center">
-  <img src="web/favicon.ico" alt="Open Legal Chile Logo" width="80" height="80" onerror="this.style.display='none'"/>
+  <strong>Suite de Inteligencia Jurídica y Servidor MCP Oficial para el Ordenamiento Jurídico de la República de Chile</strong>
 </p>
 
 <p align="center">
-  <strong>Plataforma de Inteligencia Jurídica, Asistente Forense y Conectores Oficiales del Estado de Chile</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Rep%C3%BAblica_de_Chile-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Sistema-Civil_Law_(Continental)-D9381E?style=for-the-badge" alt="Civil Law"/>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"/>
+  <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?color=blue&style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI Version"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
+  <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/badge/BYOK-Multi--IA_Enabled-8B5CF6?style=for-the-badge" alt="BYOK Multi-IA"/>
 </p>
 
 ---
 
-## 🌟 Visión del Proyecto
+## ⚡ Instalación Global en 1 Línea
 
-**Open Legal Chile** es una suite de código abierto, local-first y multi-agente diseñada para revolucionar la práctica legal y el acceso a la información jurídica en Chile. Desarrollada bajo los principios del **Sistema de Derecho Continental (*Civil Law*)**, integra en tiempo real las bases de datos de las principales instituciones públicas del país con modelos de inteligencia artificial de última generación (**Claude 3.7, Gemini 3.x, DeepSeek-R1, OpenAI y Ollama**).
+```bash
+# Vía PyPI (Recomendado)
+pip install openlegal-chile
+
+# Vía Smithery (Para Claude Desktop & Cursor)
+npx -y @smithery/cli install open-legal-chile --client claude
+```
 
 ---
 
