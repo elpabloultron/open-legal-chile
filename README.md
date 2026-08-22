@@ -24,19 +24,46 @@
 
 ---
 
-## 🚀 4 Modos de Ejecución Disponibles
+## 🤖 Arquitectura Agéntica (MCP Servers + Agents + Skills)
+
+Igual que **Claude for Legal**, Open Legal Chile funciona de forma nativa dentro de tus entornos de desarrollo de IA (**Antigravity / Gemini**, **Claude Code**, **Cursor**, **Codex**) sin necesidad de interfaces intermedias ni APIs adicionales:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                   OPEN LEGAL CHILE                                      │
-├─────────────────────┬─────────────────────┬─────────────────────┬───────────────────────┤
-│ 1. SOFTWARE DESKTOP │     2. MODO CLI     │     3. MODO WEB     │     4. MODO AGENTE    │
-│ (Windows / Linux)   │   (Terminal/TUI)    │  (Workspace Local)  │   (Claude/Antigravity)│
-│                     │                     │                     │                       │
-│ Doble clic en       │ `openlegal`         │ `openlegal web`     │ Asistente IA con RAG  │
-│ `OpenLegalChile.exe`│ `openlegal chat`    │ -> http://          │ en vivo de leyes y    │
-│ o ejecutable Linux  │ `openlegal export`  │    localhost:8000   │ dictámenes chilenos   │
-└─────────────────────┴─────────────────────┴─────────────────────┴───────────────────────┘
+│                           OPEN LEGAL CHILE — AGENTIC ECOSYSTEM                          │
+├─────────────────────────┬─────────────────────────┬─────────────────────────────────────┤
+│   1. SERVIDOR MCP       │   2. SKILLS JURÍDICAS   │          3. CLI / AUTOMATION        │
+│    (Model Context)      │    (Catálogo Chile)     │                                     │
+│                         │                         │                                     │
+│ `openlegal mcp`         │ • employment-legal      │ `openlegal search "Ley Karin"`      │
+│ Herramientas JSON-RPC   │ • litigation-legal      │ `openlegal critique demanda.txt`    │
+│ para consultar BCN,     │ • energy-legal          │ `openlegal generate demanda_civil`  │
+│ CGR, DT, CNE, CMF, TDLC │ • environmental-legal   │ `openlegal check`                   │
+│ directo desde tu agente │ • antitrust-legal       │ `openlegal export`                  │
+└─────────────────────────┴─────────────────────────┴─────────────────────────────────────┘
+```
+
+---
+
+## ⚡ Conexión Inmediata a tu Agente de IA
+
+### 🤖 En Antigravity (Google Gemini) o Cursor:
+Añade Open Legal Chile a tu configuración MCP (`mcp_config.json`):
+```json
+{
+  "mcpServers": {
+    "open-legal-chile": {
+      "command": "python",
+      "args": ["mcp_server.py"]
+    }
+  }
+}
+```
+
+### 🧠 En Claude Code:
+Ejecuta el comando para registrar el servidor MCP:
+```bash
+claude mcp add open-legal-chile python mcp_server.py
 ```
 
 ---
