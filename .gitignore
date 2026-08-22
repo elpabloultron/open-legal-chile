@@ -21,9 +21,14 @@ sii_cache/
 ambiental_cache/
 tdlc_cache/
 panel_expertos_cache/
+pjud_cache/
 exports/
 *.db
 openlegal_cache.db
+
+# Artefactos de prueba y cachés
+.pytest_cache/
+cne_test_temp/
 
 # Compilaciones y ejecutables locales
 dist/

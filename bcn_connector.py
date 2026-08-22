@@ -166,7 +166,7 @@ class BCNClient:
         return norma_data
 
     def get_codigo(self, codigo_nombre: str, articulo: Optional[str] = None) -> Dict[str, Any]:
-        """Obtiene un Código de la República (civil, trabajo, cpc, cpp, penal, comercio, tributario)."""
+        """Obtiene un Código de la República (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas)."""
         c_key = codigo_nombre.lower().strip()
         if c_key not in CODIGOS_REPUBLICA:
             raise ValueError(f"Código '{codigo_nombre}' no reconocido. Opciones: {list(CODIGOS_REPUBLICA.keys())}")
@@ -231,6 +231,59 @@ class BCNClient:
             "error": f"Artículo {articulo} no encontrado en la Ley {id_ley}."
         }
 
+    def search(self, query: str, limit: int = 5) -> List[Dict[str, Any]]:
+        """Búsqueda de normas chilenas por número de ley, palabra clave frecuente o código de la República."""
+        q = query.strip()
+        q_lower = q.lower()
+        results: List[Dict[str, Any]] = []
+        seen_nums = set()
+
+        # 1. Números de ley explícitos (ej. "21.643" o "Ley 19.886")
+        nums = re.findall(r'\d{3,6}', q.replace(".", ""))
+        for n in nums[:3]:
+            num = int(n)
+            if 100 <= num <= 999999 and num not in seen_nums:
+                try:
+                    ley = self.get_ley(num)
+                    if ley.get("titulo"):
+                        results.append({
+                            "tipo": "Ley",
+                            "numero": str(num),
+                            "titulo": ley.get("titulo", ""),
+                            "fechaVersion": ley.get("fechaVersion", "")
+                        })
+                        seen_nums.add(num)
+                except Exception:
+                    pass
+
+        # 2. Palabras clave de leyes frecuentes del ordenamiento chileno
+        for kw, num in LEYES_FRECUENTES.items():
+            if kw in q_lower and num not in seen_nums and len(results) < limit:
+                try:
+                    ley = self.get_ley(num)
+                    if ley.get("titulo"):
+                        results.append({
+                            "tipo": "Ley",
+                            "numero": str(num),
+                            "titulo": ley.get("titulo", ""),
+                            "fechaVersion": ley.get("fechaVersion", "")
+                        })
+                        seen_nums.add(num)
+                except Exception:
+                    pass
+
+        # 3. Códigos de la República por nombre
+        for cod_key, cod in CODIGOS_REPUBLICA.items():
+            if cod_key in q_lower and len(results) < limit:
+                results.append({
+                    "tipo": "Código",
+                    "codigo": cod_key,
+                    "titulo": cod["nombre"],
+                    "idNorma": cod["idNorma"]
+                })
+
+        return results[:limit]
+
 
 # ==============================================================================
 # CLI DE CONSULTA RÁPIDA
@@ -244,7 +297,7 @@ if __name__ == "__main__":
         pass
     parser = argparse.ArgumentParser(description="Conector CLI Open Legal Chile - BCN Ley Chile")
     parser.add_argument("--ley", type=int, help="Número de Ley (ej. 21643)")
-    parser.add_argument("--codigo", type=str, help="Nombre del Código (civil, trabajo, cpc, cpp, penal, comercio)")
+    parser.add_argument("--codigo", type=str, help="Nombre del Código (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas)")
     parser.add_argument("--art", type=str, help="Número de Artículo (ej. 1545, 161, 254)")
     args = parser.parse_args()
 
@@ -270,5 +323,5 @@ if __name__ == "__main__":
             print(f"Ley N° {args.ley}: {res.get('titulo')}")
             print(f"Total Estructuras: {res.get('totalEstructuras')} | Versión: {res.get('fechaVersion')}")
     else:
-        print("Uso: python bcn_connector.py --codigo [civil|trabajo|cpc] --art [numero]")
+        print("Uso: python bcn_connector.py --codigo [civil|trabajo|cpc|cpp|penal|comercio|tributario|mineria|aguas] --art [numero]")
         print("     python bcn_connector.py --ley [numero] [--art [numero]]")

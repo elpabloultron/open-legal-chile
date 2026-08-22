@@ -22,7 +22,7 @@ from cne_connector import CNEClient
 from panel_expertos_connector import PanelExpertosClient
 from cmf_connector import CMFClient
 from sii_connector import SIIClient
-from ambiental_connector import AmbientalClient
+from ambiental_connector import SMAClient
 from tdlc_connector import TDLCClient
 
 # Inicializar clientes
@@ -33,7 +33,7 @@ cne_client = CNEClient()
 panel_client = PanelExpertosClient()
 cmf_client = CMFClient()
 sii_client = SIIClient()
-sma_client = AmbientalClient()
+sma_client = SMAClient()
 tdlc_client = TDLCClient()
 
 
@@ -43,7 +43,7 @@ def print_banner():
    ⚖️  OPEN LEGAL CHILE — CONSOLA MAESTRA DE INTELIGENCIA JURÍDICA  ⚖️
    Sistema de Derecho Continental Codificado (Civil Law) — República de Chile
 ================================================================================
- Fuentes Conectadas: BCN Ley Chile | CGR | DT | CNE | Panel de Expertos | CMF | SII | SMA | TDLC
+ Fuentes Conectadas: BCN Ley Chile | CGR | DT | CNE | Panel de Expertos | CMF | SII | SMA | TDLC | PJUD (CS/TC)
 --------------------------------------------------------------------------------
 """
     print(banner)
@@ -292,7 +292,7 @@ Ejemplos de uso:
     )
     parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
-    parser.add_argument("--provider", type=str, default="gemini", help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama)")
+    parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
     args = parser.parse_args()
 
@@ -304,8 +304,9 @@ Ejemplos de uso:
     if args.comando == "chat":
         from chat_engine import LegalChatEngine
         engine = LegalChatEngine()
+        provider = args.provider or LegalChatEngine.detect_provider()
         print_banner()
-        print(f"🤖 INICIANDO CHAT JURÍDICO INTERACTIVO (Proveedor: {args.provider.upper()})")
+        print(f"🤖 INICIANDO CHAT JURÍDICO INTERACTIVO (Proveedor: {provider.upper()})")
         print("Escribe tus consultas jurídicas. Para salir escribe 'exit' o 'salir'.\n" + "-"*80)
 
         history = []
@@ -318,8 +319,8 @@ Ejemplos de uso:
                     print("\n👋 Cerrando chat jurídico Open Legal Chile.\n")
                     break
 
-                print(f"⚖️ Asistente ({args.provider.upper()}): Pensando...")
-                res = engine.chat(user_message=msg, provider=args.provider, history=history)
+                print(f"⚖️ Asistente ({provider.upper()}): Pensando...")
+                res = engine.chat(user_message=msg, provider=provider, history=history)
 
                 if res.get("error"):
                     print(f"\n⚠️ {res.get('error')}")
@@ -356,57 +357,111 @@ Ejemplos de uso:
             return
 
         print_banner()
-        print(f"\n🛰️ Búsqueda Jurídica Universal para: '{q}'...")
-        
+        print(f"\n🛰️ Búsqueda Jurídica Universal en los 10 organismos del Estado para: '{q}'...")
+        from connectors.registry import StateRegistry
+        reg = StateRegistry()
+        res = reg.search_all(q)
+
+        # BCN
+        bcn_res = res.get("bcn", [])
+        print(f"\n📜 BCN Ley Chile: {len(bcn_res)} normas")
+        for it in bcn_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                print(f"  * [{it.get('tipo')} {it.get('numero') or it.get('codigo')}] {it.get('titulo', '')}")
+
         # CGR
-        try:
-            cgr_res = cgr_client.search_jurisprudencia(q)
-            print(f"\n🏛️ Contraloría (CGR): {cgr_res.get('total')} dictámenes encontrados")
-            for it in cgr_res.get("resultados", [])[:3]:
-                print(f"  * [{it.get('docId')}] {it.get('materia')}")
-        except Exception as e:
-            print(f"  * Error en CGR: {e}")
+        cgr_res = res.get("cgr", {})
+        print(f"\n🏛️ Contraloría (CGR): {cgr_res.get('total', 'error')} dictámenes")
+        for it in (cgr_res.get("resultados") or [])[:3]:
+            print(f"  * [Dictamen CGR N° {it.get('docId')}] {it.get('materia')}")
 
         # DT
-        try:
-            dt_res = dt_client.search_dictamenes(q, limit=3)
-            print(f"\n💼 Dirección del Trabajo (DT): {len(dt_res)} encontrados")
-            for it in dt_res[:3]:
-                print(f"  * [{it.get('titulo')}] {it.get('materias') or it.get('doctrina')[:120]}...")
-        except Exception as e:
-            print(f"  * Error en DT: {e}")
+        dt_res = res.get("dt", [])
+        print(f"\n💼 Dirección del Trabajo (DT): {len(dt_res)} encontrados")
+        for it in dt_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                detalle = (it.get('materias') or (it.get('doctrina') or '')[:120]) or "Sin resumen"
+                print(f"  * [{it.get('titulo')}] {detalle}")
+
+        # CNE
+        cne_res = res.get("cne", [])
+        print(f"\n⚡ CNE (Energía): {len(cne_res)} registros")
+        for it in cne_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                print(f"  * {str(it)[:150]}")
+
+        # Panel de Expertos
+        panel_res = res.get("panel", [])
+        print(f"\n🔌 Panel de Expertos: {len(panel_res)} discrepancias")
+        for it in panel_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                print(f"  * Discrepancia N° {it.get('numero', '?')}: {it.get('materia') or 'Sin materia'}")
+
+        # CMF
+        cmf_res = res.get("cmf", [])
+        print(f"\n🏢 CMF (Normativa): {len(cmf_res)} resultados")
+        for it in cmf_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                print(f"  * {it.get('titulo')}")
+
+        # SII
+        sii_res = res.get("sii", [])
+        print(f"\n💰 SII (Circulares): {len(sii_res)} resultados")
+        for it in sii_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                print(f"  * [{it.get('anio')}] {it.get('titulo')}")
+
+        # SMA
+        sma_res = res.get("sma", {})
+        print(f"\n🌱 SMA (Ambiental): {sma_res.get('total', 'error')} sancionatorios")
+        for it in (sma_res.get("resultados") or [])[:3]:
+            print(f"  * [{it.get('expediente')}] {it.get('titular')}")
 
         # TDLC
-        try:
-            tdlc_res = tdlc_client.search_jurisprudencia(q, max_pages=1)
-            print(f"\n🛒 TDLC (Libre Competencia): {len(tdlc_res)} sentencias")
-            for it in tdlc_res[:3]:
+        tdlc_res = res.get("tdlc", [])
+        print(f"\n🛒 TDLC (Libre Competencia): {len(tdlc_res)} sentencias")
+        for it in tdlc_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
                 print(f"  * {it.get('titulo')}")
-        except Exception as e:
-            print(f"  * Error en TDLC: {e}")
 
-        # PJUD / Corte Suprema / Tribunal Constitucional
-        try:
-            from pjud_connector import PJUDClient
-            pjud_cli = PJUDClient()
-            pjud_res = pjud_cli.search_jurisprudencia(q, limit=3)
-            print(f"\n⚖️ Corte Suprema & Tribunal Constitucional (PJUD): {len(pjud_res)} fallos encontrados")
-            for it in pjud_res:
-                print(f"  * [{it.get('tribunal')} — {it.get('rol')}] {it.get('caratula')}: {it.get('doctrina')[:120]}...")
-        except Exception as e:
-            print(f"  * Error en PJUD: {e}")
+        # PJUD
+        pjud_res = res.get("pjud", [])
+        print(f"\n⚖️ PJUD (Corte Suprema / TC): {len(pjud_res)} fallos")
+        for it in pjud_res[:3]:
+            if "error" in it:
+                print(f"  * Error: {it['error']}")
+            else:
+                print(f"  * [CS - {it.get('rol')}, Fecha: {it.get('fecha')}] {it.get('caratula')}")
 
     elif args.comando == "skills":
         print_banner()
         print("""
 🧩 HABILIDADES Y AGENTES JURÍDICOS ACTIVOS (Open Legal Chile):
 --------------------------------------------------------------------------------
- 1. 💼 chilean-employment-legal     -> Despidos Art. 161/160, Ley Karin 21.643, 40 Horas, DT
- 2. ⚖️ chilean-litigation-legal     -> Demandas OJV Ley 20.886, Recursos de Protección, Otrosíes
- 3. ⚡ chilean-energy-legal         -> PPA Clientes Libres, Servidumbres DFL 4/2006, Panel
- 4. 📜 chilean-administrative-legal -> Sumarios CGR, Probidad, Compras Públicas Ley 19.886
+ 1. 💼 chilean-employment-legal     -> Despidos Art. 161/160, Ley Karin, 40 Horas, RIHS, DT
+ 2. ⚖️ chilean-litigation-legal     -> Demandas OJV Ley 20.886, Intake, Cronologías, Recursos
+ 3. 📜 chilean-administrative-legal -> Dictámenes CGR, Compras Públicas, Vigilancia Regulatoria
+ 4. ⚡ chilean-energy-legal         -> PPA Clientes Libres, DFL 4/2006, Panel de Expertos
  5. 🌱 chilean-environmental-legal  -> Sancionatorios SMA/SNIFA, Programas de Cumplimiento
+ 6. ✍️ chilean-contract-legal      -> Revisión de Contratos, NDA, Renovaciones, Ley 19.496
+ 7. 🏛️ chilean-corporate-legal     -> SpA/S.A., Compliance SII/CMF, Actas, Cierres FNE
 --------------------------------------------------------------------------------
+Workflows importados y chilenizados del proyecto claude-for-legal de Anthropic
+(Apache-2.0), adaptados estrictamente al Derecho Continental chileno.
 Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA preferido.
 """)
 
@@ -456,7 +511,7 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
         else:
             content = target
 
-        print(f"🔍 AUDITANDO DOCUMENTO BAJO LAS 5 DIMENSIONES FORENSES ({args.provider.upper()})...\n" + "-"*80)
+        print(f"🔍 AUDITANDO DOCUMENTO BAJO LAS 5 DIMENSIONES FORENSES ({(args.provider or 'auto').upper()})...\n" + "-"*80)
         res = critique_engine.critique(content, provider=args.provider)
         print(res.get("critique", res.get("error")))
 

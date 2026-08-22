@@ -73,9 +73,9 @@ class SIIClient:
         return circulares_list
 
     def search_circulares(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
-        """Busca circulares del SII por número o texto en los años seleccionados (por defecto 2022 a 2026)."""
+        """Busca circulares del SII por número o texto en los años seleccionados (por defecto 2020 a 2026)."""
         if not anios:
-            anios = [2026, 2025, 2024, 2023, 2022]
+            anios = [2026, 2025, 2024, 2023, 2022, 2021, 2020]
 
         q_lower = query.lower().strip()
         matches = []

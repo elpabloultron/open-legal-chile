@@ -19,26 +19,54 @@ Always attribute and cite sources using the official brackets:
 * **Comptroller General Rulings:** `[Dictamen CGR N° E123456 (2024)]`
 * **Internal Revenue Rulings:** `[Circular SII N° 45 (2023)]`
 * **Financial Commission Rules:** `[NCG CMF N° 461]`
+* **Environmental Sanctions:** `[SMA - Expediente SNIFA <Número>]`
+* **CGR Audit Reports:** `[CGR - Informe Final N° 123/2024]`
 
 ---
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`):
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 13 tools over 10 official connectors:
+
+**BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
 2. `bcn_get_ley`: Retrieve official text of Chilean statutes (e.g. 21.643, 21.561, 19.886).
+
+**Administrative and Regulatory:**
 3. `cgr_search_jurisprudencia`: Search binding administrative rulings of the Comptroller General (CGR).
 4. `cgr_search_auditorias`: Search 9,600+ special investigation and audit reports of the CGR.
 5. `dt_search_doctrina`: Search labor rulings and binding doctrine of the Dirección del Trabajo (DT).
-6. `cne_get_centrales_y_proyectos`: Search power generation and environmental SEA energy projects.
-7. `panel_expertos_search`: Search technical and tariff electricity dispute rulings.
-8. `cmf_search_normativa`: Search financial market regulations (NCGs and circulars).
-9. `sii_search_circulares`: Search tax circulars and rulings (2020-2026).
+6. `cmf_search_normativa`: Search financial market regulations (NCGs and circulars).
+7. `sii_search_circulares`: Search tax circulars and rulings (2020-2026).
+
+**Sectorial:**
+8. `cne_get_centrales_y_proyectos`: Search power generation and environmental SEA energy projects (supports `region` filter).
+9. `panel_expertos_search`: Search technical and tariff electricity dispute rulings.
 10. `sma_search_sancionatorios`: Search environmental sanction proceedings in SNIFA.
 11. `tdlc_search_jurisprudencia`: Search antitrust rulings from the TDLC.
-12. `export_brief_ojv`: Format and generate OJV-compliant briefs (Ley N° 20.886) in HTML and Markdown.
+
+**Judicial:**
+12. `pjud_search_jurisprudencia`: Search rulings of the Supreme Court (Unificación Laboral, Constitucional, Civil) and Constitutional Court (TC).
+
+**Forensic drafting:**
+13. `export_brief_ojv`: Format and generate OJV-compliant briefs (Ley N° 20.886) in HTML, Markdown, plain text and JSON.
 
 ---
 
-## 4. Safety Gates
+## 4. Skills and Agents Catalog (7 areas)
+| Skill (`.agents/skills/`) | Agent (`agents/*.json`) | Coverage |
+|---|---|---|
+| `chilean-employment-legal` | `agente-laboral` | Despidos Art. 161/160, Ley Karin 21.643, 40 Horas (21.561), contratación, investigaciones internas, RIHS, DT |
+| `chilean-litigation-legal` | `agente-litigios` | Intake, demandas, cronologías, tablas de elementos, escritos OJV (Ley 20.886), recursos |
+| `chilean-administrative-legal` | `agente-regulatorio` | Dictámenes/auditorías CGR, compras públicas (19.886), vigilancia regulatoria, brechas normativas |
+| `chilean-energy-legal` | `agente-energia` | DFL 4/2006, Ley 20.936, PPA clientes libres, Panel de Expertos, CNE |
+| `chilean-environmental-legal` | `agente-ambiental` | Ley 19.300/20.417, SEIA, SMA/SNIFA, Programas de Cumplimiento |
+| `chilean-contract-legal` | `agente-contratos` | Revisión de contratos, triage NDA, renovaciones, cláusula penal, Ley 19.496/21.719 |
+| `chilean-corporate-legal` | `agente-corporativo` | SpA (20.659), S.A. (18.046), compliance SII/CMF, actas, cierres FNE (DL 211) |
+
+All skills operate **strictly under Chilean Civil Law**, prohibit Common Law terminology, and require the mandatory citation standard above.
+
+---
+
+## 5. Safety Gates
 Always include the review gate for high-stakes filings or termination notices:
 > ⚖️ **Compuerta de Revisión Jurídica:** Este borrador contiene análisis legal y propuestas de redacción conforme a la legislación chilena. Todo escrito debe ser validado por un abogado habilitado para el ejercicio de la profesión antes de su firma e ingreso en la Oficina Judicial Virtual (OJV) o notificación a contrapartes.

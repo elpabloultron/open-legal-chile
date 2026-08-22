@@ -4,28 +4,44 @@
     "chilean-administrative-legal": {
       "source": "local",
       "sourceType": "workspace",
-      "skillPath": ".agents/skills/chilean-administrative-legal/SKILL.md"
+      "skillPath": ".agents/skills/chilean-administrative-legal/SKILL.md",
+      "sha256": "c4565179f8eda8f7837e335034f40f79c8cabe3727d4472b59bb0a4d969790e6"
+    },
+    "chilean-contract-legal": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-contract-legal/SKILL.md",
+      "sha256": "32b55c63036cb40c7cb884d1be438a985e0f7e81cf213ed41bddaf3be1f29e69"
+    },
+    "chilean-corporate-legal": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-corporate-legal/SKILL.md",
+      "sha256": "85197dee3e3cc7d74a39b22996d46d8a18c04779005f922cdfed0f3aad8a3a03"
     },
     "chilean-employment-legal": {
       "source": "local",
       "sourceType": "workspace",
-      "skillPath": ".agents/skills/chilean-employment-legal/SKILL.md"
+      "skillPath": ".agents/skills/chilean-employment-legal/SKILL.md",
+      "sha256": "f3a9555c471c0a956167b96410ca3063da083a126b9036c6ed6caeda3d4bcfad"
     },
     "chilean-energy-legal": {
       "source": "local",
       "sourceType": "workspace",
-      "skillPath": ".agents/skills/chilean-energy-legal/SKILL.md"
+      "skillPath": ".agents/skills/chilean-energy-legal/SKILL.md",
+      "sha256": "5a099ca18d7e39df5a8a1c4b14b29698bed1fe42ee3ca8db0cdca45499267893"
     },
     "chilean-environmental-legal": {
       "source": "local",
       "sourceType": "workspace",
-      "skillPath": ".agents/skills/chilean-environmental-legal/SKILL.md"
+      "skillPath": ".agents/skills/chilean-environmental-legal/SKILL.md",
+      "sha256": "4f6430f1d928f92be69b3d4b1b8033f977faa722e5a835f40c02069bd0303bb9"
     },
     "chilean-litigation-legal": {
       "source": "local",
       "sourceType": "workspace",
-      "skillPath": ".agents/skills/chilean-litigation-legal/SKILL.md"
+      "skillPath": ".agents/skills/chilean-litigation-legal/SKILL.md",
+      "sha256": "52b637b8b3e40778dd89e3034b1d498ed963542b82603c573aa0fe14db704f1c"
     }
   }
 }
-

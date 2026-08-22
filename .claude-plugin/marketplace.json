@@ -1,7 +1,6 @@
 {
   "name": "open-legal-chile",
-  "description": "Ecosistema de agentes de IA, habilidades (skills) y conectores jurídicos especializados en el ordenamiento legal chileno (Civil Law): derecho laboral, litigación OJV, administrativo CGR, ambiental SMA, eléctrico CNE y libre competencia TDLC.",
-
+  "description": "Ecosistema de agentes de IA, habilidades (skills) y conectores jurídicos especializados en el ordenamiento legal chileno (Civil Law): derecho laboral, litigación OJV, administrativo CGR, ambiental SMA, eléctrico CNE, contratos, corporativo y libre competencia TDLC.",
   "owner": {
     "name": "Open Legal Chile"
   },
@@ -9,26 +8,29 @@
     {
       "name": "chilean-employment-legal",
       "displayName": "Derecho Laboral Chile",
-      "description": "Especialista en Derecho del Trabajo chileno: despidos (Art. 160 y 161 Código del Trabajo), Ley Karin (Ley 21.643), reducción de jornada 40 Horas (Ley 21.561), finiquitos y doctrina vinculante de la Dirección del Trabajo (DT).",
+      "description": "Especialista en Derecho del Trabajo chileno: despidos (Art. 160 y 161 Código del Trabajo), Ley Karin (Ley 21.643), reducción de jornada 40 Horas (Ley 21.561), contratación, investigaciones internas, RIHS y doctrina vinculante de la Dirección del Trabajo (DT).",
       "author": {
         "name": "Open Legal Chile"
-      }
+      },
+      "source": "./.agents/skills/chilean-employment-legal"
     },
     {
       "name": "chilean-litigation-legal",
       "displayName": "Litigación y Tramitación Digital OJV",
-      "description": "Especialista en litigación civil, comercial y constitucional en Chile: tramitación digital OJV (Ley 20.886), demandas, recursos de protección (Art. 20 CPR), apelaciones y casaciones.",
+      "description": "Especialista en litigación civil, comercial y constitucional en Chile: tramitación digital OJV (Ley 20.886), intake de causas, demandas, cronologías, tablas de elementos, recursos de protección (Art. 20 CPR), apelaciones y casaciones.",
       "author": {
         "name": "Open Legal Chile"
-      }
+      },
+      "source": "./.agents/skills/chilean-litigation-legal"
     },
     {
       "name": "chilean-administrative-legal",
       "displayName": "Derecho Administrativo y CGR",
-      "description": "Especialista en Derecho Administrativo chileno: dictámenes e informes de auditoría de la Contraloría General de la República (CGR), sumarios, probidad y Ley de Compras Públicas (Ley 19.886 / 21.634).",
+      "description": "Especialista en Derecho Administrativo chileno: dictámenes e informes de auditoría de la Contraloría General de la República (CGR), sumarios, probidad, Ley de Compras Públicas (Ley 19.886 / 21.634), vigilancia regulatoria y análisis de brechas normativas.",
       "author": {
         "name": "Open Legal Chile"
-      }
+      },
+      "source": "./.agents/skills/chilean-administrative-legal"
     },
     {
       "name": "chilean-energy-legal",
@@ -36,7 +38,8 @@
       "description": "Especialista en Derecho Eléctrico y Regulatorio de Energía en Chile: Ley General de Servicios Eléctricos (DFL 4/2006), Ley 20.936 (Transmisión), contratos PPA clientes libres y discrepancias del Panel de Expertos.",
       "author": {
         "name": "Open Legal Chile"
-      }
+      },
+      "source": "./.agents/skills/chilean-energy-legal"
     },
     {
       "name": "chilean-environmental-legal",
@@ -44,8 +47,26 @@
       "description": "Especialista en Derecho Ambiental chileno: Ley 19.300 (LBGMA), Ley 20.417 (SMA), Sistema de Evaluación de Impacto Ambiental (SEIA), fiscalizaciones SNIFA y Programas de Cumplimiento (PdC).",
       "author": {
         "name": "Open Legal Chile"
-      }
+      },
+      "source": "./.agents/skills/chilean-environmental-legal"
+    },
+    {
+      "name": "chilean-contract-legal",
+      "displayName": "Contratos y Derecho Comercial",
+      "description": "Especialista en contratos chilenos: revisión de contratos de proveedores, triage de acuerdos de confidencialidad (NDA), registro de renovaciones, cláusula penal (Código Civil), Ley 19.496 (consumidor), Ley 21.719 (datos personales) y firma electrónica (Ley 19.799).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-contract-legal"
+    },
+    {
+      "name": "chilean-corporate-legal",
+      "displayName": "Derecho Corporativo y Societario",
+      "description": "Especialista en derecho corporativo chileno: constitución de SpA (Ley 20.659) y S.A. (Ley 18.046), cumplimiento societario ante SII y CMF, actas de directorio y juntas de accionistas, y checklist de cierre de operaciones (FNE DL 211).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-corporate-legal"
     }
   ]
 }
-

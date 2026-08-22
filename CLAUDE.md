@@ -22,7 +22,7 @@ open-legal-chile/
 ├── openlegal.py              # Consola CLI interactiva y comandos unificados
 ├── chat_engine.py            # Motor de chat multi-proveedor (Gemini, Claude, DeepSeek, OpenAI, Ollama)
 ├── critique.py               # Motor de crítica forense en 5 dimensiones
-├── exporters.py              # Generador de escritos OJV (Ley N° 20.886) en HTML y Markdown
+├── exporters.py              # Generador de escritos OJV (Ley N° 20.886) en HTML, Markdown, texto plano y JSON
 ├── config.py                 # Gestor centralizado de configuración y variables .env
 ├── domain/                   # Modelos de dominio tipificados (dataclasses)
 ├── connectors/               # Deep module de registro unificado con caché SQLite

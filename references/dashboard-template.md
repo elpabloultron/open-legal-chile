@@ -1,30 +1,30 @@
-# Dashboard Template
+# Plantilla de Tablero (Dashboard) — Open Legal Chile
 
-*Referenced by the Dashboard offer guardrail. Keep dashboards simple and consistent — the value is speed of comprehension, not visual polish.*
+*Referenciada por los workflows importados (vigilancia regulatoria, registro de renovaciones, checklist de cierre). Mantén los tableros simples y consistentes: el valor es la velocidad de comprensión, no el pulido visual.*
 
-## Structure (top to bottom)
+## Estructura (de arriba hacia abajo)
 
-1. **Title and metadata.** What this is, when it was generated, what it covers. One line.
-2. **Summary stats.** The counts that matter, color-coded. "40 findings: 🔴 3 blocking · 🟠 8 high · 🟡 15 medium · 🟢 14 low — 6 due this week." This is the most valuable line. Make it scannable.
-3. **The reviewer note.** Same one-block format as any output. Sources, scope, flags, before-relying. Dashboards don't skip the safety metadata.
-4. **Chart(s).** One or two max. Pick the one that shows the shape:
-   - **Risk distribution** (bar): counts by severity. Use for findings, issues, flags.
-   - **Category breakdown** (pie or stacked bar): counts by type. Use for OSS licenses, contract types, matter categories.
-   - **Timeline** (Gantt-lite or sorted table): dates in order. Use for renewal registers, deadline trackers, closing checklists.
-   - Never more than two. A dashboard with five charts is a report, and reports are harder to read than the table.
-5. **The table.** Sortable, filterable, color-coded by severity/status. Columns: the ones that were in the original output, trimmed to what fits on a screen. Put a "details" or "notes" column last — it's the one that gets truncated.
-6. **The decision tree.** Same options as the text output. "What next?"
+1. **Título y metadatos.** Qué es, cuándo se generó, qué cubre. Una línea.
+2. **Estadísticas resumen.** Los conteos que importan, con código de color. "40 hallazgos: 🔴 3 bloqueantes · 🟠 8 altos · 🟡 15 medios · 🟢 14 bajos — 6 vencen esta semana." Esta es la línea más valiosa. Hazla escaneable.
+3. **La nota de revisión.** Mismo bloque único que cualquier salida: fuentes, alcance, banderas, antes de confiar. Los tableros no omiten la metadata de seguridad (incluir la ⚖️ Compuerta de Revisión Jurídica).
+4. **Gráfico(s).** Uno o dos como máximo. Elige el que muestre la forma:
+   - **Distribución de riesgo** (barras): conteos por severidad. Para hallazgos, issues, banderas.
+   - **Desglose por categoría** (torta o barras apiladas): conteos por tipo. Para materias de dictámenes, tipos de contrato, categorías de causas.
+   - **Línea de tiempo** (tabla ordenada): fechas en orden. Para renovaciones, plazos fatales, checklist de cierre.
+   - Nunca más de dos. Un tablero con cinco gráficos es un informe, y los informes son más difíciles de leer que la tabla.
+5. **La tabla.** Ordenable, filtrable, con color por severidad/estado. Columnas: las del output original, recortadas a lo que cabe en pantalla. Pon una columna "detalles" o "notas" al final — es la que se trunca.
+6. **El árbol de decisión.** Mismas opciones que la salida de texto. "¿Qué sigue?"
 
-## Rendering by surface
+## Renderizado por superficie
 
-- **Cowork / Claude Desktop:** HTML artifact. Self-contained, single file, inline CSS. No external dependencies, no CDN, no npm. Tables: HTML `<table>` with `data-sort` attributes and a small inline JS sorter. Charts: inline SVG or Unicode block chars for bar charts. Keep the JS minimal — sorting and filtering, nothing else.
-- **Claude Code:** Write the same HTML file to the plugin's outputs folder (`~/.claude/plugins/config/claude-for-legal/<plugin>/outputs/dashboard-<topic>-<date>.html`) and tell the user to open it: `open <path>` on macOS, or "open in your browser." Also produce a markdown version with Unicode block charts for the summary stats so the user can see the shape without leaving the terminal.
-- **Excel (optional, where it fits):** For `tabular-review`, `renewal-tracker`, `entity-compliance`, and anything the user will take into a meeting or share with a non-technical stakeholder. Use the existing Excel output spec. Apply the formula-injection defense.
-- **Escape untrusted input (apply every dashboard, every time).** Every value that came from outside this session — OSS package/license fields from third-party manifests, counterparty contract text, diligence findings, vendor names, matter descriptions, any user- or VDR-supplied string — must be HTML-escaped before it lands in the document. Escape `&`, `<`, `>`, `"`, `'` into entities when writing into table cells, summary lines, chart labels, and tooltip text. In the inline JS sorter/filter, set cell text via `textContent`, never `innerHTML`. Do not emit `<script>` blocks whose contents interpolate untrusted strings. Do not render untrusted URLs into `href` or `src` without scheme-checking (`http:` / `https:` / `mailto:` only). This is the HTML-surface equivalent of the formula-injection defense on the Excel side — same threat (attacker-controlled cell content), different execution surface (browser JS instead of spreadsheet formula). A dashboard the reviewer opens in a browser is a trust boundary; treat it like one.
+- **Claude Desktop / Cowork:** artefacto HTML autocontenido, un solo archivo, CSS inline. Sin dependencias externas, sin CDN, sin npm. Tablas HTML con atributos `data-sort` y un sorter JS mínimo (solo ordenar/filtrar). Gráficos: SVG inline o caracteres Unicode de bloques para barras.
+- **Terminal (openlegal):** versión Markdown con gráficos de bloques Unicode para las estadísticas resumen, de modo que el usuario vea la forma sin salir de la terminal.
+- **Excel (opcional, donde calce):** para el registro de renovaciones, cumplimiento societario y checklist de cierre — todo lo que el usuario llevará a una reunión. Aplicar la defensa contra inyección de fórmulas (prefijar con `'` cualquier celda que comience con `=`, `+`, `-`, `@`).
+- **Escapar entrada no confiable (aplicar siempre).** Todo valor que provenga de fuera de la sesión — texto de contratos, hallazgos de due diligence, nombres de contrapartes, descripciones de causas, cualquier string suministrado por el usuario — debe escaparse como HTML antes de aterrizar en el documento. Escapar `&`, `<`, `>`, `"`, `'` al escribir celdas de tabla, líneas de resumen, etiquetas de gráficos y tooltips. En JS inline, fijar texto de celdas con `textContent`, nunca `innerHTML`. No renderizar URLs no confiables en `href`/`src` sin validar esquema (`http:` / `https:` / `mailto:` solo). Un tablero que el revisor abre en un navegador es un límite de confianza; trátalo como tal.
 
-## Keep it boring
+## Mantenlo aburrido
 
-- **Color palette:** Red / orange / yellow / green for severity. Gray for neutral. Blue for status. Nothing else.
-- **No animations, no frameworks, no external fonts.** A dashboard that breaks offline is a dashboard that breaks.
-- **No clever layouts.** Summary, reviewer note, chart, table, decision tree. Top to bottom. Every dashboard looks the same so the reader knows where to look.
-- **The markdown version matters.** Some users are in a terminal and won't open a browser. The summary stat line with Unicode bars (e.g., `🔴 ███ 3  🟠 ████████ 8  🟡 ███████████████ 15  🟢 ██████████████ 14`) gives them the shape.
+- **Paleta:** rojo / naranja / amarillo / verde para severidad. Gris para neutral. Azul para estado. Nada más.
+- **Sin animaciones, sin frameworks, sin fuentes externas.** Un tablero que se rompe offline es un tablero que se rompe.
+- **Sin layouts ingeniosos.** Resumen, nota de revisión, gráfico, tabla, árbol de decisión. De arriba hacia abajo. Todos los tableros se ven iguales para que el lector sepa dónde mirar.
+- **La versión Markdown importa.** Algunos usuarios están en terminal y no abrirán un navegador. La línea de estadísticas con barras Unicode (p. ej. `🔴 ███ 3  🟠 ████████ 8  🟡 ███████████████ 15  🟢 ██████████████ 14`) les da la forma.

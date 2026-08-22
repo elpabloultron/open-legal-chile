@@ -3,7 +3,7 @@
     "open-legal-chile": {
       "command": "python",
       "args": ["mcp_server.py"],
-      "description": "Suite de Inteligencia Jurídica y 8 Conectores Oficiales del Estado de Chile (BCN, CGR, DT, CNE, Panel Expertos, CMF, SII, SMA, TDLC)",
+      "description": "Suite de Inteligencia Jurídica y 10 Conectores Oficiales del Estado de Chile (BCN, CGR, DT, CNE, Panel Expertos, CMF, SII, SMA, TDLC, PJUD/CS/TC)",
       "env": {
         "PYTHONIOENCODING": "utf-8"
       }

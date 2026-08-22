@@ -16,7 +16,9 @@ BASE_URL = "https://snifa.sma.gob.cl"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "ambiental_cache")
 
 
-class AmbientalClient:
+class SMAClient:
+    """Cliente oficial de la Superintendencia del Medio Ambiente (SMA / SNIFA)."""
+
     def __init__(self, cache_dir: str = CACHE_DIR):
         self.cache_dir = cache_dir
         os.makedirs(self.cache_dir, exist_ok=True)
@@ -95,6 +97,10 @@ class AmbientalClient:
             return output
 
 
+# Alias de compatibilidad hacia atrás (nomenclatura histórica)
+AmbientalClient = SMAClient
+
+
 # ==============================================================================
 # CLI DE CONSULTA RÁPIDA DE DERECHO AMBIENTAL (SMA)
 # ==============================================================================
@@ -111,7 +117,7 @@ if __name__ == "__main__":
     parser.add_argument("--ultimos", action="store_true", help="Mostrar últimos sancionatorios ingresados en la SMA")
     args = parser.parse_args()
 
-    client = AmbientalClient()
+    client = SMAClient()
 
     if args.expediente:
         print(f"\n🌱 Consultando Expediente Sancionatorio: '{args.expediente}'...")

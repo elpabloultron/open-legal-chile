@@ -1,7 +1,7 @@
 """
 Open Legal Chile — Registro Unificado del Estado (Deep Module)
 Módulo profundo que encapsula la orquestación, búsqueda concurrente y almacenamiento
-en caché nativo (SQLite) de los 8 organismos del Estado de Chile.
+en caché nativo (SQLite) de los 10 organismos del Estado de Chile.
 """
 
 import os
@@ -17,7 +17,7 @@ from cne_connector import CNEClient
 from panel_expertos_connector import PanelExpertosClient
 from cmf_connector import CMFClient
 from sii_connector import SIIClient
-from ambiental_connector import AmbientalClient
+from ambiental_connector import SMAClient
 from tdlc_connector import TDLCClient
 from pjud_connector import PJUDClient
 
@@ -34,7 +34,7 @@ class StateRegistry:
         self.panel = PanelExpertosClient()
         self.cmf = CMFClient()
         self.sii = SIIClient()
-        self.sma = AmbientalClient()
+        self.sma = SMAClient()
         self.tdlc = TDLCClient()
         self.pjud = PJUDClient()
 
@@ -82,7 +82,7 @@ class StateRegistry:
             pass
 
     def search_all(self, query: str) -> Dict[str, Any]:
-        """Ejecuta una búsqueda jurídica universal en los 8 organismos del Estado."""
+        """Ejecuta una búsqueda jurídica universal en los 10 organismos del Estado."""
         q = query.strip()
         cached = self._get_cached("all", q)
         if cached:
@@ -90,8 +90,10 @@ class StateRegistry:
 
         results = {
             "query": q,
+            "bcn": [],
             "cgr": {},
             "dt": [],
+            "cne": [],
             "panel": [],
             "cmf": [],
             "sii": [],
@@ -100,49 +102,61 @@ class StateRegistry:
             "pjud": []
         }
 
-        # 1. CGR
+        # 1. BCN Ley Chile
+        try:
+            results["bcn"] = self.bcn.search(q)
+        except Exception as e:
+            results["bcn"] = [{"error": str(e)}]
+
+        # 2. CGR
         try:
             results["cgr"] = self.cgr.search_jurisprudencia(q)
         except Exception as e:
             results["cgr"] = {"error": str(e)}
 
-        # 2. DT
+        # 3. DT
         try:
             results["dt"] = self.dt.search_dictamenes(q, limit=5)
         except Exception as e:
             results["dt"] = [{"error": str(e)}]
 
-        # 3. Panel de Expertos
+        # 4. CNE
+        try:
+            results["cne"] = self.cne.search(q)
+        except Exception as e:
+            results["cne"] = [{"error": str(e)}]
+
+        # 5. Panel de Expertos
         try:
             results["panel"] = self.panel.search_dictamenes(q)
         except Exception as e:
             results["panel"] = [{"error": str(e)}]
 
-        # 4. CMF
+        # 6. CMF
         try:
             results["cmf"] = self.cmf.search_normativa(q)
         except Exception as e:
             results["cmf"] = [{"error": str(e)}]
 
-        # 5. SII
+        # 7. SII
         try:
             results["sii"] = self.sii.search_circulares(q)
         except Exception as e:
             results["sii"] = [{"error": str(e)}]
 
-        # 6. SMA
+        # 8. SMA
         try:
             results["sma"] = self.sma.search_sancionatorios(nombre=q)
         except Exception as e:
             results["sma"] = {"error": str(e)}
 
-        # 7. TDLC
+        # 9. TDLC
         try:
             results["tdlc"] = self.tdlc.search_jurisprudencia(q)
         except Exception as e:
             results["tdlc"] = [{"error": str(e)}]
 
-        # 8. PJUD / Corte Suprema / TC
+        # 10. PJUD / Corte Suprema / TC
         try:
             results["pjud"] = self.pjud.search_jurisprudencia(q, limit=5)
         except Exception as e:

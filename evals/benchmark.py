@@ -47,7 +47,7 @@ def evaluate_response(test_case: Dict[str, Any], response_text: str) -> Dict[str
         "forbidden_hits": forbidden_hits
     }
 
-def run_benchmark(eval_file: str = "evals/test_cases.json") -> Dict[str, Any]:
+def run_benchmark(eval_file: str = "evals/test_cases.json", provider: str = "") -> Dict[str, Any]:
     if not os.path.exists(eval_file):
         return {"error": f"Archivo no encontrado: {eval_file}"}
 
@@ -56,16 +56,17 @@ def run_benchmark(eval_file: str = "evals/test_cases.json") -> Dict[str, Any]:
 
     from chat_engine import LegalChatEngine
     engine = LegalChatEngine()
-    
+    provider = provider or LegalChatEngine.detect_provider()
+
     results = []
     total_score = 0.0
 
-    print(f"\n🏛️ INICIANDO BENCHMARK JURÍDICO CHILENO ({len(cases)} Casos de Prueba)...")
+    print(f"\n🏛️ INICIANDO BENCHMARK JURÍDICO CHILENO ({len(cases)} Casos de Prueba) — Proveedor: {provider.upper()}")
     print("=" * 80)
 
     for case in cases:
         print(f"\n🧪 Evaluando: [{case.get('id')}] {case.get('materia')}...")
-        resp = engine.chat(user_message=case.get("pregunta"), provider="gemini")
+        resp = engine.chat(user_message=case.get("pregunta"), provider=provider)
         reply = resp.get("reply", "")
         
         eval_res = evaluate_response(case, reply)
