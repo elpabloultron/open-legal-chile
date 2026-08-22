@@ -28,6 +28,7 @@
 10. [💻 Uso de la Consola CLI (`openlegal`)](#-10-uso-de-la-consola-cli-openlegal)
 11. [🧪 Pruebas Automatizadas y CI/CD](#-11-pruebas-automatizadas-y-cicd)
 12. [🛡️ Licencia, Ética Forense y Responsabilidad](#-12-licencia-ética-forense-y-responsabilidad)
+13. [🌱 Cómo Contribuir](#-13-cómo-contribuir)
 
 ---
 
@@ -118,6 +119,22 @@ claude mcp add open-legal-chile python mcp_server.py
 npx -y @smithery/cli install open-legal-chile --client claude
 ```
 
+### 🔑 Configuración de Credenciales (`.env`)
+
+Copia `.env.example` a `.env` y completa las claves que tengas (el archivo `.env` está protegido en `.gitignore`):
+
+| Variable | Función |
+|----------|---------|
+| `BCN_API_KEY` | API v1 de BCN Ley Chile (el XML público no la requiere) |
+| `CNE_EMAIL` / `CNE_PASSWORD` | Autenticación de Energía Abierta (CNE) |
+| `DEEPSEEK_API_KEY` | Chat jurídico con DeepSeek |
+| `ANTHROPIC_API_KEY` | Chat jurídico con Claude |
+| `GEMINI_API_KEY` | Chat jurídico con Gemini |
+| `OPENAI_API_KEY` | Chat jurídico con OpenAI |
+| `OLLAMA_HOST` | Modelo local vía Ollama |
+
+> El chat (`openlegal chat`) y la crítica forense (`openlegal critique`) **autodetectan** el primer proveedor con API key configurada; usa `--provider` para forzar uno.
+
 ---
 
 ## 🔌 4. Catálogo de Herramientas MCP
@@ -128,7 +145,7 @@ El servidor expone **13 herramientas oficiales** que cualquier LLM puede invocar
 | :--- | :--- | :--- |
 | `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opcional)* | Consulta artículos o estructura de los 9 Códigos de la República (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN. |
 | `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opcional)* | Descarga el texto oficial y vigente de cualquier ley chilena por su número (ej. Ley 21.643 Karin, Ley 21.561 40h). |
-| `cgr_search_jurisprudencia` | `query` *(str)* | Busca dictámenes vinculantes e instructivos en la jurisprudencia administrativa de la Contraloría (CGR). |
+| `cgr_search_jurisprudencia` | `query` *(str)* | Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría (CGR). |
 | `cgr_search_auditorias` | `query` *(str)* | Consulta el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la CGR. |
 | `dt_search_doctrina` | `query` *(str)* | Busca dictámenes y doctrina laboral obligatoria de la Dirección del Trabajo (DT). |
 | `pjud_search_jurisprudencia` | `query` *(str)*, `sala` *(str, opcional)* | Busca fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y sentencias del Tribunal Constitucional (TC). |
@@ -138,7 +155,7 @@ El servidor expone **13 herramientas oficiales** que cualquier LLM puede invocar
 | `sii_search_circulares` | `query` *(str)* | Consulta circulares e instrucciones oficiales del Director del SII (2020 a 2026). |
 | `sma_search_sancionatorios` | `query` *(str)* | Consulta expedientes sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA). |
 | `tdlc_search_jurisprudencia` | `query` *(str)* | Consulta sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC). |
-| `export_brief_ojv` | `titulo`, `tribunal`, `comparecencia`, `hechos`, `derecho`, `peticiones`, `otrosies` | Genera y formatea un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV) en `.html` y `.md`. |
+| `export_brief_ojv` | `titulo`, `tribunal`, `comparecencia`, `hechos`, `derecho`, `peticiones`, `otrosies` | Genera y formatea un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV) en `.html`, `.md`, `.txt` y `.json`. |
 
 ---
 
@@ -161,13 +178,17 @@ Todos los conectores operan con consultas en tiempo real y almacenamiento en cac
 
 ## 🧠 6. Catálogo de Skills y Subagentes
 
-El repositorio incluye habilidades listas para ser activadas automáticamente por agentes de IA en `.agents/skills/` y perfiles en `agents/`:
+El repositorio incluye **7 habilidades** listas para ser activadas automáticamente por agentes de IA en `.agents/skills/` y **7 perfiles de agente** en `agents/`:
 
-* **`chilean-employment-legal`:** Especialista en despidos (Art. 161 y 160), Ley Karin 21.643, 40 Horas (Ley 21.561), finiquitos y doctrina DT.
-* **`chilean-litigation-legal`:** Especialista en redacción de demandas ordinarias, recursos de protección (Art. 20 CPR), apelaciones y casaciones bajo la Ley N° 20.886.
-* **`chilean-energy-legal`:** Especialista en contratos PPA para clientes libres, transmisión eléctrica Ley N° 20.936, servidumbres y discrepancias del Panel de Expertos.
-* **`chilean-environmental-legal`:** Especialista en fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento (Ley N° 20.417).
-* **`chilean-administrative-legal`:** Especialista en sumarios administrativos, doctrina de confianza legítima de la CGR y Ley de Compras Públicas (Ley N° 19.886 / 21.634).
+* **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin 21.643, 40 Horas (21.561), contratación, investigaciones internas, RIHS y doctrina DT.
+* **`chilean-litigation-legal`** (`agente-litigios`): Intake de causas, demandas, cronologías de hechos, tablas de elementos y escritos OJV (Ley 20.886), recursos de protección, apelaciones y casaciones.
+* **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes/auditorías CGR, compras públicas (19.886), vigilancia regulatoria (Diario Oficial, CMF, SII, DT, SMA) y análisis de brechas normativas.
+* **`chilean-energy-legal`** (`agente-energia`): Contratos PPA para clientes libres, transmisión eléctrica Ley 20.936, servidumbres y discrepancias del Panel de Expertos.
+* **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento (Ley 20.417).
+* **`chilean-contract-legal`** (`agente-contratos`): Revisión de contratos de proveedores, triage de NDA, registro de renovaciones, cláusula penal (CC), Ley 19.496 y Ley 21.719.
+* **`chilean-corporate-legal`** (`agente-corporativo`): Constitución de SpA (20.659) y S.A. (18.046), compliance SII/CMF, actas de directorio/juntas y checklist de cierre (FNE DL 211).
+
+> Los workflows de estas habilidades están **importados y chilenizados** del proyecto [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) (Apache-2.0), adaptados estrictamente al Derecho Continental chileno: se eliminaron todos los institutos del *Common Law* (*discovery*, *subpoena*, *deposition*, *privilege log*, *Upjohn*, *FMLA*) y se reemplazaron por sus equivalentes chilenos (prueba del CPC, OJV, Ley Karin, fuero, Código del Trabajo).
 
 ---
 
@@ -194,6 +215,8 @@ Inspirado en los mecanismos de auto-crítica de alta precisión, [`critique.py`]
 [`exporters.py`](exporters.py) genera escritos procesales con tipografía jurídica estándar (Times New Roman / Calibri, espaciado interlineal, numeración y justificación) exportando simultáneamente a formatos:
 * **HTML:** Listo para impresión profesional o conversión a PDF.
 * **Markdown:** Optimizado para lectura en terminal o editores de texto.
+* **Texto Plano:** Para copiar/pegar en la Oficina Judicial Virtual.
+* **JSON:** Para intercambio LegalTech con otros sistemas.
 
 ---
 
@@ -239,7 +262,7 @@ El repositorio cuenta con una suite de pruebas completa con **100% de tasa de ap
 
 ```bash
 python -m pytest tests/ -v
-# ============================= 20 passed in 0.25s ==============================
+# ============================= 21 passed ==============================
 ```
 
 * **`.github/workflows/ci.yml`:** Integración continua en Ubuntu y Windows con Python 3.10 a 3.14.
@@ -254,3 +277,19 @@ Este proyecto está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](LICE
 
 ### ⚖️ Compuerta de Revisión Jurídica Obligatoria
 > ⚖️ **Aviso Legal:** Open Legal Chile es una herramienta de asistencia técnica e investigación jurídica. Todo borrador, escrito o análisis generado mediante inteligencia artificial debe ser obligatoriamente revisado y validado por un abogado habilitado para el ejercicio de la profesión antes de su firma, notificación o ingreso en la Oficina Judicial Virtual (OJV).
+
+---
+
+## 🌱 13. Cómo Contribuir
+
+¿Quieres aportar un conector, una skill, una herramienta MCP o documentación? **Eres bienvenido.**
+
+1. Lee la [Guía de Contribución](CONTRIBUTING.md) (entorno de desarrollo, arquitectura, convenciones de commits y checklist de PR).
+2. Revisa el [Código de Conducta](CODE_OF_CONDUCT.md), la [Política de Seguridad](SECURITY.md) y el [Acuerdo de Contribución](CLA.md).
+3. Abre un **issue** con las plantillas disponibles (🐞 bug / ✨ feature) o envía un **Pull Request** usando su plantilla.
+4. Para agregar conectores estatales, sigue la guía de [CONNECTORS.md](CONNECTORS.md); para skills/agentes, el catálogo de [AGENTS.md](AGENTS.md).
+
+**Recursos para desarrolladores:**
+* [docs/architecture.md](docs/architecture.md) — arquitectura, capas y puntos de entrada.
+* [docs/Ley Chile - Formulario de solicitud API KEY BCN.pdf](docs/Ley%20Chile%20-%20Formulario%20de%20solicitud%20API%20KEY%20BCN.pdf) — formulario oficial para solicitar la API key de la BCN.
+* Suite de 21 pruebas en `tests/` + CI en 5 versiones de Python (3.10–3.14) + monitor diario de APIs estatales.
