@@ -59,8 +59,7 @@ def check_configuration() -> dict:
             "deepseek": bool(DEEPSEEK_API_KEY and not DEEPSEEK_API_KEY.startswith("tu_")),
             "openai": bool(OPENAI_API_KEY and not OPENAI_API_KEY.startswith("tu_")),
             "ollama": bool(OLLAMA_HOST)
-        },
-        "PORT": PORT
+        }
     }
 
 
@@ -72,5 +71,5 @@ if __name__ == "__main__":
     print(f" • IA DeepSeek:          {'✅ Configurada' if status['AI_PROVIDERS']['deepseek'] else '⚠️ No configurada'}")
     print(f" • IA Anthropic Claude:  {'✅ Configurada' if status['AI_PROVIDERS']['anthropic'] else '⚠️ No configurada'}")
     print(f" • IA Google Gemini:     {'✅ Configurada' if status['AI_PROVIDERS']['gemini'] else '⚠️ No configurada'}")
-    print(f" • IA OpenAI / GPT:      {'✅ Configurada' if status['AI_PROVIDERS']['openai'] else '⚠️ No configurada'}")
-    print(f" • Puerto Web Local:     {status['PORT']}\n")
+    print(f" • IA OpenAI / GPT:      {'✅ Configurada' if status['AI_PROVIDERS']['openai'] else '⚠️ No configurada'}\n")
+

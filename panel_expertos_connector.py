@@ -53,13 +53,14 @@ class PanelExpertosClient:
 
             return data
 
-    def search_dictamenes(self, query: str, max_pages: int = 5) -> List[Dict[str, Any]]:
+    def search_dictamenes(self, query: str, max_pages: int = 5, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Busca dictámenes y discrepancias por texto (empresa, materia, número, palabra clave)."""
         q_lower = query.lower().strip()
         results = []
 
         for p in range(1, max_pages + 1):
-            page_data = self.get_discrepancies(page=p, size=20)
+            page_data = self.get_discrepancies(page=p, size=20, use_cache=use_cache)
+
             objects = page_data.get("objects", {})
             discrepancies = objects.get("discrepancies", {})
             documents = objects.get("documents", {})

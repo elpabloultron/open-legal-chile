@@ -342,12 +342,12 @@ Ejemplos de uso:
         print(f" • CNE Energía Abierta:   {'✅ Configurada' if status['CNE_CONFIGURED'] else '⚠️ No configurada (Revisa tu archivo .env)'}")
         print(" • Contraloría (CGR):     ✅ Operativo (API Abierta)")
         print(" • Dirección Trabajo (DT): ✅ Operativo (Catálogo Abierto)")
+        print(" • Poder Judicial (PJUD): ✅ Operativo (Base Jurisprudencial Local)")
         print(" • Panel de Expertos:     ✅ Operativo (API Abierta)")
         print(" • CMF Mercado Valores:   ✅ Operativo (API Abierta)")
         print(" • SII Tributario:        ✅ Operativo (Índices Abiertos)")
         print(" • SMA Ambiental:         ✅ Operativo (SNIFA Abierto)")
-        print(" • TDLC Libre Competencia:✅ Operativo (API Abierta)")
-        print(f" • Puerto Web Local:      {status['PORT']}\n")
+        print(" • TDLC Libre Competencia:✅ Operativo (API Abierta)\n")
 
     elif args.comando == "search" or args.buscar:
         q = " ".join(args.query) if args.query else args.buscar
@@ -399,21 +399,17 @@ Ejemplos de uso:
     elif args.comando == "skills":
         print_banner()
         print("""
-🧩 HABILIDADES Y PLUGINS JURÍDICOS ACTIVOS (Suite Open Legal Chile):
+🧩 HABILIDADES Y AGENTES JURÍDICOS ACTIVOS (Open Legal Chile):
 --------------------------------------------------------------------------------
- 1. 💼 employment-legal      -> Despidos Art. 161, Ley Karin 21.643, 40 Horas, Finiquitos
- 2. ⚖️ litigation-legal      -> Demandas OJV Ley 20.886, Recursos de Protección, Otrosíes
- 3. ⚡ energy-legal          -> Contratos PPA Clientes Libres, Servidumbres DFL 4/2006
- 4. 🏢 corporate-legal       -> Sociedades SpA/SA, NCG 461 CMF, Diligencias M&A
- 5. 🛡️ privacy-legal         -> Ley 19.628 / Nueva Ley de Protección de Datos Personales
- 6. 📜 regulatory-legal      -> Sumarios CGR, Ley de Compras Públicas 19.886/21.634
- 7. 🌱 environmental-legal   -> Sancionatorios SMA/SNIFA, Programas de Cumplimiento
- 8. 🛒 antitrust-legal       -> Libre Competencia TDLC, Colusión y Fusiones FNE
- 9. 💰 tax-legal             -> Consultas tributarias SII, Circulares y Código Tributario
-10. 🎓 law-student           -> Preparación Examen de Grado y Cédulas de Derecho
+ 1. 💼 chilean-employment-legal     -> Despidos Art. 161/160, Ley Karin 21.643, 40 Horas, DT
+ 2. ⚖️ chilean-litigation-legal     -> Demandas OJV Ley 20.886, Recursos de Protección, Otrosíes
+ 3. ⚡ chilean-energy-legal         -> PPA Clientes Libres, Servidumbres DFL 4/2006, Panel
+ 4. 📜 chilean-administrative-legal -> Sumarios CGR, Probidad, Compras Públicas Ley 19.886
+ 5. 🌱 chilean-environmental-legal  -> Sancionatorios SMA/SNIFA, Programas de Cumplimiento
 --------------------------------------------------------------------------------
-Usa 'openlegal chat' o 'openlegal web' para ejecutarlos interactivamente.
+Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA preferido.
 """)
+
 
     elif args.comando == "export":
         from exporters import LegalDocumentExporter

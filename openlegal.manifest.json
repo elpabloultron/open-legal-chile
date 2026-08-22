@@ -1,5 +1,4 @@
 {
-  "$schema": "https://openlegal.cl/schemas/suite-v1.json",
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile — Suite de Inteligencia Jurídica y Conectores de Datos",
   "version": "1.0.0",
@@ -7,18 +6,17 @@
   "license": "Apache-2.0",
   "author": {
     "name": "Open Legal Chile Team",
-    "url": "https://github.com/open-legal-chile"
+    "url": "https://github.com/elpabloultron/open-legal-chile"
   },
   "runtime": {
     "type": "python",
     "version": ">=3.10",
     "entryPoints": {
       "cli": "openlegal.py",
-      "server": "server.py",
+      "mcp": "mcp_server.py",
       "chat": "chat_engine.py",
       "exporter": "exporters.py"
-    },
-    "defaultPort": 8000
+    }
   },
   "aiProviders": {
     "anthropic": {
@@ -28,8 +26,8 @@
     },
     "gemini": {
       "name": "Google Gemini",
-      "models": ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-1.5-pro"],
-      "default": "gemini-2.5-pro"
+      "models": ["gemini-2.0-flash", "gemini-1.5-pro", "gemini-1.5-flash"],
+      "default": "gemini-2.0-flash"
     },
     "deepseek": {
       "name": "DeepSeek",
@@ -39,20 +37,29 @@
     "openai": {
       "name": "OpenAI",
       "models": ["o3-mini", "o1", "gpt-4o", "gpt-4o-mini"],
-      "default": "o3-mini"
+      "default": "gpt-4o"
     },
     "ollama": {
       "name": "Ollama Local (Offline)",
-      "models": ["deepseek-r1:8b", "llama3.3:70b", "qwen2.5"],
-      "default": "deepseek-r1:8b"
+      "models": ["llama3.3:70b", "deepseek-r1:8b", "qwen2.5"],
+      "default": "llama3.3"
     }
   },
   "dataConnectors": [
+    {
+      "id": "pjud",
+      "name": "Poder Judicial y Tribunal Constitucional (PJUD / CS / TC)",
+      "source": "https://jurisprudencia.pjud.cl",
+      "type": "sqlite_database",
+      "module": "pjud_connector.py",
+      "description": "Sentencias de Unificación Laboral, Constitucional y Civil de la Corte Suprema y fallos de inaplicabilidad del TC."
+    },
     {
       "id": "bcn",
       "name": "Biblioteca del Congreso Nacional (BCN Ley Chile)",
       "source": "https://www.bcn.cl/leychile",
       "type": "xml_and_rest_api",
+
       "module": "bcn_connector.py",
       "description": "Catálogo completo de leyes y códigos de la República de Chile con Web Service oficial."
     },

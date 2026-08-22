@@ -31,8 +31,11 @@ class CNEClient:
     def _get_cache_path(self, endpoint_key: str) -> str:
         return os.path.join(self.cache_dir, f"{endpoint_key}.json")
 
-    def login(self) -> str:
+    def login(self) -> Optional[str]:
         """Autentica con la API de la CNE y obtiene un token JWT válido."""
+        if not self.email or not self.password or self.email == "tu_correo@ejemplo.cl":
+            return None
+
         if self.token and time.time() < (self.token_expiry - 300):
             return self.token
 
@@ -63,22 +66,29 @@ class CNEClient:
             }
         )
 
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8", errors="ignore"))
-            self.token = data.get("token")
-            self.token_expiry = time.time() + 3600
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                raw_resp = resp.read().decode("utf-8", errors="ignore")
+                if raw_resp.strip():
+                    data = json.loads(raw_resp)
+                    self.token = data.get("token")
+                    self.token_expiry = time.time() + 3600
 
-            with open(token_cache_file, "w", encoding="utf-8") as f:
-                json.dump({
-                    "token": self.token,
-                    "expires_at": self.token_expiry
-                }, f)
+                    with open(token_cache_file, "w", encoding="utf-8") as f:
+                        json.dump({
+                            "token": self.token,
+                            "expires_at": self.token_expiry
+                        }, f)
 
-            return self.token
+                    return self.token
+        except Exception:
+            pass
+
+        return None
 
     def _get(self, endpoint: str, cache_key: Optional[str] = None, use_cache: bool = True) -> Any:
         """Realiza una petición GET autenticada a la API de la CNE descomprimiendo gzip."""
-        if cache_key and use_cache:
+        if cache_key:
             cache_file = self._get_cache_path(cache_key)
             if os.path.exists(cache_file):
                 try:
@@ -88,6 +98,10 @@ class CNEClient:
                     pass
 
         token = self.login()
+        if not token:
+            # Si no hay token y no hay caché, retornar estructura vacía consistente
+            return []
+
         url = f"{CNE_BASE_URL}{endpoint}"
         req = urllib.request.Request(
             url,
@@ -99,24 +113,28 @@ class CNEClient:
             }
         )
 
-        with urllib.request.urlopen(req, timeout=45) as resp:
-            raw_bytes = resp.read()
-            is_gzip = resp.headers.get("Content-Encoding") == "gzip" or raw_bytes[:2] == b'\x1f\x8b'
-            if is_gzip:
-                content = gzip.decompress(raw_bytes).decode("utf-8", errors="ignore")
-            else:
-                content = raw_bytes.decode("utf-8", errors="ignore")
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                raw_bytes = resp.read()
+                is_gzip = resp.headers.get("Content-Encoding") == "gzip" or raw_bytes[:2] == b'\x1f\x8b'
+                if is_gzip:
+                    content = gzip.decompress(raw_bytes).decode("utf-8", errors="ignore")
+                else:
+                    content = raw_bytes.decode("utf-8", errors="ignore")
 
-            parsed = json.loads(content)
-            # Extraer listado de datos si viene envuelto en objeto {success: true, data: [...]}
-            data = parsed.get("data", parsed) if isinstance(parsed, dict) and "data" in parsed else parsed
+                parsed = json.loads(content)
+                # Extraer listado de datos si viene envuelto en objeto {success: true, data: [...]}
+                data = parsed.get("data", parsed) if isinstance(parsed, dict) and "data" in parsed else parsed
 
-            if cache_key:
-                cache_file = self._get_cache_path(cache_key)
-                with open(cache_file, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
+                if cache_key:
+                    cache_file = self._get_cache_path(cache_key)
+                    with open(cache_file, "w", encoding="utf-8") as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
 
-            return data
+                return data
+        except Exception:
+            return []
+
 
     # =========================================================================
     # ENDPOINTS DE DERECHO ELÉCTRICO Y REGULATORIO (ENERGÍA ABIERTA)
