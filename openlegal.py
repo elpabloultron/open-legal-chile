@@ -287,17 +287,23 @@ Ejemplos de uso:
   openlegal generate <tipo>   -> Genera un borrador judicial completo (demanda, recurso, contrato)
   openlegal web               -> Levanta el servidor web y abre el navegador
   openlegal skills            -> Lista las 15+ habilidades y plugins de la suite
+  openlegal mcp               -> Inicia el servidor MCP estándar para Antigravity/Claude/Cursor
   openlegal export            -> Exporta un escrito judicial forense a HTML/MD
   openlegal check             -> Verifica el estado de las credenciales y conectores
   openlegal search "..."      -> Realiza una búsqueda jurídica universal
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "chat", "web", "serve", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "web", "serve", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default="gemini", help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama)")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
     parser.add_argument("--port", type=int, default=8000, help="Puerto para el servidor web (por defecto 8000)")
     args = parser.parse_args()
+
+    if args.comando == "mcp":
+        import mcp_server
+        mcp_server.main()
+        return
 
     if args.comando == "chat":
         from chat_engine import LegalChatEngine
