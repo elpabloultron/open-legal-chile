@@ -1,0 +1,28 @@
+name: Chilean State APIs Health Monitor
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 08:00 UTC (04:00/05:00 Chile)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      - name: Execute State API Health Verification
+        run: |
+          python -m pytest tests/test_connectors.py -v
