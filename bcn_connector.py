@@ -73,20 +73,31 @@ class BCNClient:
         fecha_version = root.attrib.get('fechaVersion', '')
         derogado = root.attrib.get('derogado', 'no')
 
-        identificador = root.find('.//Identificador')
+        # Buscar título en Metadatos o Identificador o Encabezado
         titulo = ""
+        t_elem = root.find('.//Metadatos/TituloNorma')
+        if t_elem is None:
+            t_elem = root.find('.//TituloNorma')
+        if t_elem is None:
+            t_elem = root.find('.//Identificador/TituloNorma')
+        if t_elem is not None and t_elem.text:
+            titulo = t_elem.text.strip()
+
+        # Buscar organismo
         organismo = ""
+        o_elem = root.find('.//Identificador/Organismos/Organismo')
+        if o_elem is None:
+            o_elem = root.find('.//Organismo')
+        if o_elem is not None and o_elem.text:
+            organismo = o_elem.text.strip()
+
+        # Buscar número oficial
         numero = ""
-        if identificador is not None:
-            t = identificador.find('TituloNorma')
-            if t is not None and t.text:
-                titulo = t.text.strip()
-            o = identificador.find('Organismo')
-            if o is not None and o.text:
-                organismo = o.text.strip()
-            n = identificador.find('Numero')
-            if n is not None and n.text:
-                numero = n.text.strip()
+        n_elem = root.find('.//Identificador/TiposNumeros/TipoNumero/Numero')
+        if n_elem is None:
+            n_elem = root.find('.//Numero')
+        if n_elem is not None and n_elem.text:
+            numero = n_elem.text.strip()
 
         # Extraer articulado y estructuras funcionales
         estructuras = []
@@ -122,6 +133,7 @@ class BCNClient:
             "articulos": articulos_map,
             "estructuras": estructuras
         }
+
 
     def get_ley(self, id_ley: int, use_cache: bool = True) -> Dict[str, Any]:
         """Obtiene una ley chilena por su número oficial (ej. 21643)."""

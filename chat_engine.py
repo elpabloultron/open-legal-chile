@@ -17,6 +17,7 @@ from cgr_connector import CGRClient
 from dt_connector import DTClient
 from tdlc_connector import TDLCClient
 from ambiental_connector import AmbientalClient
+from pjud_connector import PJUDClient
 
 # Prompt Maestro de Especialización en Derecho Chileno
 SYSTEM_PROMPT_CHILE = """Eres "Open Legal Chile", un asistente de inteligencia jurídica altamente especializado en el ordenamiento jurídico de la República de Chile (Sistema Romano-Germánico / Civil Law / Derecho Continental Codificado).
@@ -39,6 +40,7 @@ cgr_client = CGRClient()
 dt_client = DTClient()
 sma_client = AmbientalClient()
 tdlc_client = TDLCClient()
+pjud_client = PJUDClient()
 
 
 def get_relevant_legal_context(user_query: str) -> str:
@@ -79,6 +81,17 @@ def get_relevant_legal_context(user_query: str) -> str:
         except Exception:
             pass
 
+    # Búsqueda en PJUD / Corte Suprema / TC si es doctrina judicial
+    if any(k in q_lower for k in ["corte suprema", "tribunal constitucional", "recurso", "unificacion", "inaplicabilidad", "sentencia", "fallo"]):
+        try:
+            pjud_res = pjud_client.search_jurisprudencia(user_query, limit=2)
+            if pjud_res:
+                context_chunks.append("--- JURISPRUDENCIA JUDICIAL Y TC EN VIVO ---")
+                for it in pjud_res[:2]:
+                    context_chunks.append(f"• [{it.get('tribunal')} — {it.get('rol')}] {it.get('caratula')}: {it.get('doctrina', '')[:250]}")
+        except Exception:
+            pass
+
     return "\n".join(context_chunks) if context_chunks else ""
 
 
@@ -86,16 +99,15 @@ class LegalChatEngine:
     """Motor de consulta a modelos de lenguaje (LLMs) multi-proveedor con soporte de reasoning."""
 
     MODEL_ALIASES = {
-        # Gemini Series 3 & 2
-        "gemini-3.7-flash-high": "gemini-2.5-pro",
-        "gemini-3.6-flash-medium": "gemini-2.5-flash",
-        "gemini-3.5-flash-medium": "gemini-2.5-flash",
-        "gemini-3.1-pro-low": "gemini-2.5-pro",
-        "gemini-2.5-pro": "gemini-2.5-pro",
-        "gemini-2.5-flash": "gemini-2.5-flash",
+        # Gemini Series
+        "gemini-2.0-flash": "gemini-2.0-flash",
+        "gemini-2.0-flash-thinking": "gemini-2.0-flash-thinking-exp-01-21",
         "gemini-1.5-pro": "gemini-1.5-pro",
+        "gemini-1.5-flash": "gemini-1.5-flash",
+        "gemini-2.5-pro": "gemini-2.0-flash",
+        "gemini-3.7-flash-high": "gemini-2.0-flash",
 
-        # Claude Series 3.7 & 3.5
+        # Claude Series
         "claude-3-7-sonnet-thinking": "claude-3-7-sonnet-20250219",
         "claude-3-7-sonnet": "claude-3-7-sonnet-20250219",
         "claude-3-5-sonnet": "claude-3-5-sonnet-20241022",
@@ -112,6 +124,7 @@ class LegalChatEngine:
         "gpt-4o": "gpt-4o",
         "gpt-4o-mini": "gpt-4o-mini"
     }
+
 
     @classmethod
     def resolve_model(cls, model_name: str) -> str:
@@ -248,11 +261,12 @@ class LegalChatEngine:
 
     DEFAULT_MODELS = {
         "anthropic": "claude-3-7-sonnet-20250219",
-        "gemini": "gemini-2.5-pro",
-        "deepseek": "deepseek-reasoner",
-        "openai": "o3-mini",
-        "ollama": "deepseek-r1:8b"
+        "gemini": "gemini-2.0-flash",
+        "deepseek": "deepseek-chat",
+        "openai": "gpt-4o",
+        "ollama": "llama3.3"
     }
+
 
     def chat(self, user_message: str, provider: str, api_key: Optional[str] = None, model: Optional[str] = None, history: Optional[List[Dict[str, str]]] = None) -> Dict[str, Any]:
         """Procesa una consulta jurídica, inyecta contexto en vivo y consulta al proveedor seleccionado."""
