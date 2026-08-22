@@ -9,6 +9,19 @@ import sys
 import time
 import threading
 from http.server import HTTPServer
+
+# Configurar encoding UTF-8 seguro para Windows cp1252
+if sys.stdout is not None:
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if sys.stderr is not None:
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 from server import OpenLegalHTTPHandler, PORT, WEB_DIR
 
 def run_background_server():
@@ -19,7 +32,8 @@ def run_background_server():
         httpd = HTTPServer(server_address, OpenLegalHTTPHandler)
         httpd.serve_forever()
     except Exception as e:
-        print(f"Servidor HTTP en segundo plano: {e}")
+        if sys.stdout:
+            print(f"Servidor HTTP en segundo plano: {e}")
 
 def main():
     # 1. Iniciar servidor en segundo plano
@@ -32,9 +46,10 @@ def main():
     # 2. Intentar abrir como ventana de escritorio nativa con pywebview
     try:
         import webview
-        print(f"🚀 Iniciando ventana nativa de escritorio para Open Legal Chile ({app_url})...")
+        if sys.stdout:
+            print(f"[Open Legal Chile] Iniciando ventana nativa de escritorio ({app_url})...")
         window = webview.create_window(
-            title="⚖️ Open Legal Chile — Suite de Inteligencia Jurídica",
+            title="Open Legal Chile — Suite de Inteligencia Jurídica",
             url=app_url,
             width=1280,
             height=820,
@@ -43,17 +58,17 @@ def main():
             resizable=True
         )
         webview.start()
-    except ImportError:
-        # Si no está instalado pywebview, abrir en navegador
+    except Exception as e:
+        # Fallback a navegador
         import webbrowser
-        print(f"🌐 Abriendo Open Legal Chile en navegador: {app_url}")
+        if sys.stdout:
+            print(f"[Open Legal Chile] Abriendo en navegador: {app_url} ({e})")
         webbrowser.open(app_url)
-        # Mantener el proceso vivo
         try:
             while True:
                 time.sleep(1)
         except KeyboardInterrupt:
-            print("\nCerrando Open Legal Chile.")
+            pass
 
 if __name__ == "__main__":
     main()
