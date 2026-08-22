@@ -16,3 +16,4 @@ include skills-lock.json
 recursive-include .agents/skills *.md
 recursive-include agents *.json
 recursive-include references *.md
+recursive-include scripts *.py

@@ -141,7 +141,35 @@ Sigue el historial del repo (Conventional Commits en español):
 
 ---
 
-## 🛡️ 8. Reportes y Soporte
+## 📦 8. Publicación de Versiones (Automática)
+
+La publicación a PyPI y la creación del GitHub Release **se disparan solas** en cada push a `main` que contenga una versión nueva:
+
+1. **Bump de versión** en los 4 archivos de metadata con el script:
+   ```bash
+   python scripts/bump_version.py patch     # 1.0.0 -> 1.0.1
+   python scripts/bump_version.py minor     # 1.0.0 -> 1.1.0
+   python scripts/bump_version.py major     # 1.0.0 -> 2.0.0
+   python scripts/bump_version.py 1.2.3     # versión explícita
+   python scripts/bump_version.py --check   # solo muestra la versión actual
+   ```
+2. **Commit + push:**
+   ```bash
+   git add pyproject.toml setup.py openlegal.manifest.json mcp_server.py
+   git commit -m "chore(release): v1.1.0"
+   git push origin main
+   ```
+3. El workflow `publish-pypi.yml` compara la versión de `pyproject.toml` con la de PyPI:
+   * Si es **nueva** → construye, sube a PyPI (`twine upload --skip-existing`) y crea el Release `vX.Y.Z` con los artefactos adjuntos.
+   * Si es **igual** → no hace nada (push sin release).
+
+Alternativas manuales: **Actions → "Publish to PyPI & GitHub Releases" → Run workflow**, o publicar un Release desde la UI de GitHub (el evento `release: published` también dispara la publicación).
+
+Requisito único: el secreto `PYPI_API_TOKEN` debe existir en **Settings → Secrets and variables → Actions**.
+
+---
+
+## 🛡️ 9. Reportes y Soporte
 
 * **Bugs / ideas:** abre un issue usando las plantillas de `.github/ISSUE_TEMPLATE/`.
 * **Vulnerabilidades:** reporte responsable vía Security Advisory privado (ver [SECURITY.md](SECURITY.md)); nunca en issues públicos.

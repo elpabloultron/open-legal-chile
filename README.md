@@ -293,3 +293,16 @@ Este proyecto está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](LICE
 * [docs/architecture.md](docs/architecture.md) — arquitectura, capas y puntos de entrada.
 * [docs/Ley Chile - Formulario de solicitud API KEY BCN.pdf](docs/Ley%20Chile%20-%20Formulario%20de%20solicitud%20API%20KEY%20BCN.pdf) — formulario oficial para solicitar la API key de la BCN.
 * Suite de 21 pruebas en `tests/` + CI en 5 versiones de Python (3.10–3.14) + monitor diario de APIs estatales.
+
+### 📦 Publicación automática de versiones
+
+Cada push a `main` con una versión nueva publica **solo** (sin pasos manuales):
+
+```bash
+python scripts/bump_version.py patch   # 1.0.0 -> 1.0.1
+git add pyproject.toml setup.py openlegal.manifest.json mcp_server.py
+git commit -m "chore(release): v1.0.1"
+git push origin main
+```
+
+El workflow `publish-pypi.yml` detecta la versión nueva comparando `pyproject.toml` con PyPI, construye el paquete, lo sube a PyPI y crea el **GitHub Release** `vX.Y.Z` con los artefactos. Requiere el secreto `PYPI_API_TOKEN` (Settings → Secrets and variables → Actions). Detalles en [CONTRIBUTING.md §8](CONTRIBUTING.md#-8-publicación-de-versiones-automática).
