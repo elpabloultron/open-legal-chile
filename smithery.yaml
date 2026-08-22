@@ -1,0 +1,10 @@
+# Smithery configuration for Open Legal Chile MCP Server
+# See https://smithery.ai/docs/config for more details
+startCommand:
+  type: stdio
+  config:
+    command: python
+    args:
+      - mcp_server.py
+    env:
+      PYTHONIOENCODING: utf-8
