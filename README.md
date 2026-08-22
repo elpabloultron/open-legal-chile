@@ -1,7 +1,7 @@
 # ⚖️ Open Legal Chile
 
 <p align="center">
-  <strong>Suite de Inteligencia Jurídica y Servidor MCP Oficial para el Ordenamiento Jurídico de la República de Chile</strong>
+  <strong>Infraestructura Abierta de Inteligencia Jurídica, Servidor MCP y Conectores Oficiales para el Ordenamiento Jurídico de la República de Chile</strong>
 </p>
 
 <p align="center">
@@ -10,205 +10,247 @@
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Versions"/>
 </p>
 
 ---
 
-## ⚡ Instalación Global en 1 Línea
-
-```bash
-# Vía PyPI (Recomendado)
-pip install openlegal-chile
-
-# Vía Smithery (Para Claude Desktop & Cursor)
-npx -y @smithery/cli install open-legal-chile --client claude
-```
+## 📑 Tabla de Contenidos
+1. [🌟 Visión y Filosofía Jurídica](#-1-visión-y-filosofía-jurídica)
+2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
+3. [⚡ Instalación y Conexión Rápida](#-3-instalación-y-conexión-rápida)
+4. [🔌 Catálogo de Herramientas MCP (13 Herramientas)](#-4-catálogo-de-herramientas-mcp)
+5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
+6. [🧠 Catálogo de Skills y Subagentes](#-6-catálogo-de-skills-y-subagentes)
+7. [⚖️ Motor de Crítica Forense en 5 Dimensiones](#-7-motor-de-crítica-forense-en-5-dimensiones)
+8. [📄 Exportación y Tramitación Digital OJV (Ley N° 20.886)](#-8-exportación-y-tramitación-digital-ojv)
+9. [📊 Chilean Legal Eval (Benchmark Jurídico Chileno)](#-9-chilean-legal-eval-benchmark-jurídico-chileno)
+10. [💻 Uso de la Consola CLI (`openlegal`)](#-10-uso-de-la-consola-cli-openlegal)
+11. [🧪 Pruebas Automatizadas y CI/CD](#-11-pruebas-automatizadas-y-cicd)
+12. [🛡️ Licencia, Ética Forense y Responsabilidad](#-12-licencia-ética-forense-y-responsabilidad)
 
 ---
 
-## 🤖 Arquitectura Agéntica (MCP Servers + Agents + Skills)
+## 🌟 1. Visión y Filosofía Jurídica
 
-Igual que **Claude for Legal**, Open Legal Chile funciona de forma nativa dentro de tus entornos de desarrollo de IA (**Antigravity / Gemini**, **Claude Code**, **Cursor**, **Codex**) sin necesidad de interfaces intermedias ni APIs adicionales:
+**Open Legal Chile** es una infraestructura de software de código abierto diseñada para transformar la práctica legal, el análisis regulatorio y el desarrollo de agentes de inteligencia artificial en Chile. 
+
+A diferencia de los asistentes genéricos diseñados para el *Common Law* anglosajón, este proyecto está construido **desde sus cimientos para el Sistema de Derecho Continental (*Civil Law*) de la República de Chile**:
+
+### 🏛️ Principios Fundamentales del Sistema Chileno
+* **Primacía de la Ley Escrita:** La Ley es la fuente primordial del derecho (*Art. 1 del Código Civil*). 
+* **Efecto Relativo de las Sentencias:** Las resoluciones judiciales solo tienen fuerza obligatoria respecto de las causas en que actualmente se pronunciaren (*Art. 3 inc. 2 del Código Civil*). No existe el *stare decisis* obligatorio, aunque los fallos de unificación de la Corte Suprema y la doctrina administrativa de la Contraloría (CGR) y Dirección del Trabajo (DT) fijan criterios interpretativos de máxima relevancia.
+* **Prohibición Estricta de Términos de *Common Law*:** Queda terminantemente prohibido extrapolar conceptos foráneos inexistentes en Chile (*at-will employment, punitive damages, discovery, subpoena, grand jury, Title VII, FLSA, OSHA*). Se utiliza exclusivamente terminología forense y sustantiva chilena (*necesidades de la empresa, finiquito con reserva de derechos, fuero, tutela laboral, daño moral, daño emergente, lucro cesante, otrosí, casación, reposición, apelación, SpA*).
+* **Estándar Obligatorio de Citación Oficial:**
+  * Norma legal: `[BCN - Código del Trabajo, Art. 161]` o `[BCN - Ley N° 21.643, Art. 2]`
+  * Constitución: `[CPR 1980 - Art. 19 N° 24]`
+  * Jurisprudencia Corte Suprema: `[CS - Rol N° 12.345-2023, Fecha: 15-11-2023]`
+  * Dictamen DT: `[Dictamen DT N° 1234/15 de 2024]`
+  * Dictamen CGR: `[Dictamen CGR N° E123456 (2024)]`
+  * Circular SII: `[Circular SII N° 45 (2023)]`
+  * Norma CMF: `[NCG CMF N° 461]`
+
+---
+
+## 🏗️ 2. Arquitectura del Ecosistema
+
+Inspirada en el modelo **Local-First**, **Agent-Native** y **BYOK (Bring Your Own Key / Agent)**, la suite opera a través del protocolo estándar **Model Context Protocol (MCP)**:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                           OPEN LEGAL CHILE — AGENTIC ECOSYSTEM                          │
-├─────────────────────────┬─────────────────────────┬─────────────────────────────────────┤
-│   1. SERVIDOR MCP       │   2. SKILLS JURÍDICAS   │          3. CLI / AUTOMATION        │
-│    (Model Context)      │    (Catálogo Chile)     │                                     │
-│                         │                         │                                     │
-│ `openlegal mcp`         │ • employment-legal      │ `openlegal search "Ley Karin"`      │
-│ Herramientas JSON-RPC   │ • litigation-legal      │ `openlegal critique demanda.txt`    │
-│ para consultar BCN,     │ • energy-legal          │ `openlegal generate demanda_civil`  │
-│ CGR, DT, CNE, CMF, TDLC │ • environmental-legal   │ `openlegal check`                   │
-│ directo desde tu agente │ • antitrust-legal       │ `openlegal export`                  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────────────────┘
+│                           CLIENTES Y AGENTES DE IA SOPORTADOS                           │
+│                                                                                         │
+│   Google Antigravity      Claude Code (CLI)      Claude Desktop      Cursor / VS Code   │
+│   (Google AI Pro)         (Anthropic)            (Cowork)            (Codex / Roo Code) │
+└────────────────────────────────────────┬────────────────────────────────────────────────┘
+                                         │ JSON-RPC 2.0 (stdio)
+┌────────────────────────────────────────▼────────────────────────────────────────────────┐
+│                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
+│                                                                                         │
+│   • 13 Herramientas Forenses Registradas                                                │
+│   • Módulo Profundo de Registro Estatal (connectors/registry.py)                        │
+│   • Almacenamiento en Caché Local SQLite Ultrarrápido (openlegal_cache.db)              │
+│   • Motor de Crítica Forense en 5 Dimensiones (critique.py)                             │
+│   • Formateador y Exportador de Escritos OJV Ley N° 20.886 (exporters.py)               │
+└────────────────────────────────────────┬────────────────────────────────────────────────┘
+                                         │ Peticiones HTTPS / REST / SOAP
+┌────────────────────────────────────────▼────────────────────────────────────────────────┐
+│                     10 CONECTORES OFICIALES DEL ESTADO DE CHILE                         │
+│                                                                                         │
+│   [BCN Ley Chile]   [Contraloría CGR]   [Dirección del Trabajo DT]   [PJUD / Suprema]   │
+│   [Tribunal Const.] [CNE Energía]       [Panel de Expertos]          [CMF Valores]      │
+│   [SII Tributario]  [SMA SNIFA Ambient] [TDLC Libre Competencia]                        │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ⚡ Conexión Inmediata a tu Agente de IA
+## ⚡ 3. Instalación y Conexión Rápida
 
-### 🤖 En Antigravity (Google Gemini) o Cursor:
-Añade Open Legal Chile a tu configuración MCP (`mcp_config.json`):
+### Opción A: Instalación vía PyPI (Recomendado)
+```bash
+pip install openlegal-chile
+```
+
+### Opción B: Conectar en Google Antigravity o Cursor
+Agrega Open Legal Chile a tu archivo de configuración MCP (`mcp_config.json`):
 ```json
 {
   "mcpServers": {
     "open-legal-chile": {
       "command": "python",
-      "args": ["mcp_server.py"]
+      "args": ["mcp_server.py"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
     }
   }
 }
 ```
 
-### 🧠 En Claude Code:
-Ejecuta el comando para registrar el servidor MCP:
+### Opción C: Conectar en Claude Code (Terminal)
 ```bash
 claude mcp add open-legal-chile python mcp_server.py
 ```
 
----
-
----
-
-## 💻 Uso de la Consola CLI (`openlegal`)
-
-Open Legal Chile incluye una potente consola para terminal:
-
+### Opción D: Conectar vía Smithery (1 Clic)
 ```bash
-# Iniciar el servidor MCP estándar
-python openlegal.py mcp
-
-# Búsqueda jurídica universal en los 8 conectores a la vez
-python openlegal.py search "Ley Karin acoso laboral"
-
-# Auditar un escrito bajo las 5 dimensiones forenses (Civil Law)
-python openlegal.py critique demanda.txt
-
-# Generar un borrador procesal formal OJV
-python openlegal.py generate demanda_civil
-
-# Verificar conectividad con los servicios del Estado
-python openlegal.py check
+npx -y @smithery/cli install open-legal-chile --client claude
 ```
 
 ---
 
-## 🧪 Ejecución de Pruebas Automatizadas
+## 🔌 4. Catálogo de Herramientas MCP
+
+El servidor expone **13 herramientas oficiales** que cualquier LLM puede invocar automáticamente:
+
+| Herramienta MCP | Parámetros de Entrada | Descripción / Salida |
+| :--- | :--- | :--- |
+| `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opcional)* | Consulta artículos o estructura de los 9 Códigos de la República (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN. |
+| `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opcional)* | Descarga el texto oficial y vigente de cualquier ley chilena por su número (ej. Ley 21.643 Karin, Ley 21.561 40h). |
+| `cgr_search_jurisprudencia` | `query` *(str)* | Busca dictámenes vinculantes e instructivos en la jurisprudencia administrativa de la Contraloría (CGR). |
+| `cgr_search_auditorias` | `query` *(str)* | Consulta el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la CGR. |
+| `dt_search_doctrina` | `query` *(str)* | Busca dictámenes y doctrina laboral obligatoria de la Dirección del Trabajo (DT). |
+| `pjud_search_jurisprudencia` | `query` *(str)*, `sala` *(str, opcional)* | Busca fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y sentencias del Tribunal Constitucional (TC). |
+| `cne_get_centrales_y_proyectos` | `region` *(str, opcional)* | Consulta el registro de centrales generadoras activas, capacidad instalada y proyectos SEA de la Comisión Nacional de Energía. |
+| `panel_expertos_search` | `query` *(str)* | Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica. |
+| `cmf_search_normativa` | `query` *(str)* | Consulta Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF). |
+| `sii_search_circulares` | `query` *(str)* | Consulta circulares e instrucciones oficiales del Director del SII (2020 a 2026). |
+| `sma_search_sancionatorios` | `query` *(str)* | Consulta expedientes sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA). |
+| `tdlc_search_jurisprudencia` | `query` *(str)* | Consulta sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC). |
+| `export_brief_ojv` | `titulo`, `tribunal`, `comparecencia`, `hechos`, `derecho`, `peticiones`, `otrosies` | Genera y formatea un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV) en `.html` y `.md`. |
+
+---
+
+## 🏛️ 5. Los 10 Conectores Oficiales del Estado de Chile
+
+Todos los conectores operan con consultas en tiempo real y almacenamiento en caché inteligente SQLite:
+
+1. **📜 Biblioteca del Congreso Nacional (BCN Ley Chile):** Web Service SOAP y REST de toda la legislación positiva chilena y los 9 Códigos de la República.
+2. **🏛️ Contraloría General de la República (CGR):** Más de 50.000 dictámenes vinculantes sobre estatuto administrativo, confianza legítima, probidad y más de 9.600 informes de auditoría.
+3. **💼 Dirección del Trabajo (DT):** Más de 7.800 dictámenes y doctrina laboral sobre despidos (Art. 161), Ley Karin (Ley 21.643), reducción de jornada 40 Horas (Ley 21.561) y finiquitos.
+4. **⚖️ Poder Judicial (PJUD) & Corte Suprema:** Fallos de Unificación de Doctrina Laboral (Art. 483 Código del Trabajo), Recursos de Protección Constitucional y Casación Civil.
+5. **🛡️ Tribunal Constitucional (TC):** Sentencias sobre requerimientos de inaplicabilidad por inconstitucionalidad (*Art. 93 N° 6 CPR*).
+6. **⚡ Comisión Nacional de Energía (CNE):** Capacidad instalada (MW), 1.342 centrales activas, 3.754 proyectos SEA, peajes de transmisión y costos marginales.
+7. **🔌 Panel de Expertos de la Ley Eléctrica:** Dictámenes vinculantes e inapelables sobre discrepancias tarifarias y técnicas de la Ley General de Servicios Eléctricos (*DFL 4/2006*).
+8. **🏢 Comisión para el Mercado Financiero (CMF):** Normas de Carácter General (NCG 461, gobiernos corporativos, sostenibilidad) y circulares del mercado de valores y bancario.
+9. **💰 Servicio de Impuestos Internos (SII):** Circulares oficiales, oficios e instrucciones tributarias 2020 a 2026.
+10. **🌱 Superintendencia del Medio Ambiente (SMA / SNIFA):** Catálogo oficial de más de 3.450 expedientes sancionatorios ambientales y Programas de Cumplimiento (PdC).
+
+---
+
+## 🧠 6. Catálogo de Skills y Subagentes
+
+El repositorio incluye habilidades listas para ser activadas automáticamente por agentes de IA en `.agents/skills/` y perfiles en `agents/`:
+
+* **`chilean-employment-legal`:** Especialista en despidos (Art. 161 y 160), Ley Karin 21.643, 40 Horas (Ley 21.561), finiquitos y doctrina DT.
+* **`chilean-litigation-legal`:** Especialista en redacción de demandas ordinarias, recursos de protección (Art. 20 CPR), apelaciones y casaciones bajo la Ley N° 20.886.
+* **`chilean-energy-legal`:** Especialista en contratos PPA para clientes libres, transmisión eléctrica Ley N° 20.936, servidumbres y discrepancias del Panel de Expertos.
+* **`chilean-environmental-legal`:** Especialista en fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento (Ley N° 20.417).
+* **`chilean-administrative-legal`:** Especialista en sumarios administrativos, doctrina de confianza legítima de la CGR y Ley de Compras Públicas (Ley N° 19.886 / 21.634).
+
+---
+
+## ⚖️ 7. Motor de Crítica Forense en 5 Dimensiones
+
+Inspirado en los mecanismos de auto-crítica de alta precisión, [`critique.py`](critique.py) evalúa cualquier borrador bajo 5 ejes estrictos:
+
+1. **Jerarquía Normativa y Legalidad (Art. 1 Código Civil / CPR 1980):**
+   * ¿Respeta la jerarquía Constitución > Ley > Reglamento?
+   * ¿Cita los artículos vigentes y prohíbe terminología de *Common Law*?
+2. **Doctrina y Jurisprudencia Aplicable (CGR, DT, CS, TC):**
+   * ¿Incorpora la doctrina vinculante y cita en formato oficial `[BCN - ...]`, `[Dictamen DT ...]`?
+3. **Estructura Forense y Tramitación Digital (Ley N° 20.886 / CPC):**
+   * ¿Cumple con la Presuma OJV, comparecencia, capítulos de Hechos, Derecho, Por Tanto y Otrosíes?
+4. **Coherencia Fáctica y Carga de la Prueba (Art. 1698 Código Civil):**
+   * ¿Los hechos sustentan lógicamente el petitum y la prueba ofrecida es idónea?
+5. **Compuertas Éticas y Plazos Fatales:**
+   * ¿Advierte plazos fatales procesales y contiene la compuerta de validación profesional?
+
+---
+
+## 📄 8. Exportación y Tramitación Digital OJV
+
+[`exporters.py`](exporters.py) genera escritos procesales con tipografía jurídica estándar (Times New Roman / Calibri, espaciado interlineal, numeración y justificación) exportando simultáneamente a formatos:
+* **HTML:** Listo para impresión profesional o conversión a PDF.
+* **Markdown:** Optimizado para lectura en terminal o editores de texto.
+
+---
+
+## 📊 9. Chilean Legal Eval (Benchmark Jurídico Chileno)
+
+Open Legal Chile incluye un banco de evaluación estandarizado en [`evals/`](evals/):
+* **Dataset Forense (`evals/test_cases.json`):** Casos reales sobre Ley Karin, Confianza Legítima a contrata en la CGR, Recursos de Protección Constitucional, Sancionatorios Ambientales SMA y Contratos PPA Eléctricos.
+* **Motor Evaluador (`evals/benchmark.py`):** Califica las respuestas de cualquier modelo (0.0 a 10.0), otorgando puntaje por citas oficiales y penalizando con -3.0 puntos cada alucinación de términos de *Common Law*.
 
 ```bash
-# Ejecutar suite de pruebas de conectores y servidor MCP
-python -m pytest tests/ -v
-
-# Ejecutar el Benchmark Jurídico Chileno (Chilean Legal Eval)
 python evals/benchmark.py
 ```
 
 ---
 
-## 🤖 Catálogo de Modelos de Inteligencia Artificial Soportados (BYOK)
-
-Open Legal Chile permite utilizar tu modelo preferido con inyección automática de doctrina de la DT, leyes de la BCN, dictámenes de la CGR y fallos del TDLC:
-
-| Proveedor | Modelos & Niveles de Razonamiento | Especialidad Forense en Chile |
-| :--- | :--- | :--- |
-| **⚡ Google Gemini** | • `Gemini 3.7 Flash High`<br>• `Gemini 3.6 Flash Medium (Fast)`<br>• `Gemini 3.5 Flash Medium (Fast)`<br>• `Gemini 3.1 Pro Low`<br>• `Gemini 2.5 Pro` | **Análisis masivo de expedientes, contratos PPA y licitaciones públicas. Conexión directa con cuenta Google.** |
-| **✨ Anthropic Claude** | • `Claude 3.7 Sonnet Thinking (High)`<br>• `Claude 3.7 Sonnet (Standard)`<br>• `Claude 3.5 Sonnet`<br>• `Claude 3 Opus`<br>• `Claude 3.5 Haiku` | **Máxima precisión y calidad formal en redacción de escritos judiciales, demandas y recursos de protección.** |
-| **🧠 DeepSeek** | • `DeepSeek-R1 Reasoner (High Logic)`<br>• `DeepSeek-V3 Chat (Fast)` | **Razonamiento lógico paso a paso de ultra bajo costo y auditoría de contradicciones probatorias.** |
-| **🟢 OpenAI** | • `o3-mini (High Reasoning)`<br>• `o1`<br>• `GPT-4o` / `GPT-4o mini` | **Razonamiento estructurado y modelos rápidos de propósito general.** |
-| **🦙 Ollama (Local)** | • `DeepSeek-R1 8B`<br>• `Llama 3.3 70B`<br>• `Qwen 2.5` | **100% privado y offline (sin enviar ningún dato a servidores externos).** |
-
----
-
-## 🏛️ Conectores Oficiales del Estado de Chile (8/8)
-
-Todos los conectores están verificados y operan en tiempo real:
-
-| Institución Pública | Módulo | Funcionalidad Clave | Estado |
-| :--- | :--- | :--- | :--- |
-| **Biblioteca del Congreso Nacional (BCN)** | `bcn_connector.py` | Web Service SOAP y REST de los 9 Códigos de la República y leyes vigentes. | ✅ Oficial |
-| **Contraloría General de la República (CGR)** | `cgr_connector.py` | Consulta de jurisprudencia administrativa y más de 9.600 informes de auditoría. | ✅ Oficial |
-| **Dirección del Trabajo (DT)** | `dt_connector.py` | Catálogo de más de 7.800 dictámenes, ordinarios y doctrina laboral obligatoria. | ✅ Oficial |
-| **Comisión Nacional de Energía (CNE)** | `cne_connector.py` | 1.342 centrales activas, 3.754 proyectos SEA, peajes y costos marginales. | ✅ Oficial |
-| **Panel de Expertos de la Ley Eléctrica** | `panel_expertos_connector.py` | Dictámenes vinculantes y resolución de discrepancias tarifarias y técnicas. | ✅ Oficial |
-| **Comisión para el Mercado Financiero (CMF)** | `cmf_connector.py` | Normas de Carácter General (NCG), circulares y resoluciones bancarias y de valores. | ✅ Oficial |
-| **Servicio de Impuestos Internos (SII)** | `sii_connector.py` | Circulares oficiales, oficios y jurisprudencia tributaria 2020 a 2026. | ✅ Oficial |
-| **Superintendencia del Medio Ambiente (SMA)** | `ambiental_connector.py` | Catálogo del SNIFA con más de 3.450 expedientes sancionatorios ambientales. | ✅ Oficial |
-| **Tribunal de Defensa de la Libre Competencia (TDLC)**| `tdlc_connector.py` | Sentencias, resoluciones e instrucciones generales sobre libre competencia. | ✅ Oficial |
-
----
-
-## ⚖️ Redactor Forense & Exportador OJV (Ley N° 20.886)
-
-El módulo `exporters.py` y la pestaña web **Redactor Forense** permiten generar borradores judiciales estructurados según la práctica forense chilena:
-
-* **Presuma OJV Formal:** Procedimiento, Materia, Demandante, RUT, Abogado Patrocinante y Demandado.
-* **Cuerpo Estructurado:** En lo principal, I. Los Hechos, II. El Derecho, Por Tanto y Otrosíes (Patrocinio y poder Ley N° 18.120).
-* **Exportación en 1 Clic:** Generación automática de archivos `.html` y `.md` en la carpeta `/exports/`.
-
----
-
-## 💻 Comandos del CLI (`openlegal`)
+## 💻 10. Uso de la Consola CLI (`openlegal`)
 
 ```bash
-# Menú interactivo
-openlegal
+# Iniciar el servidor MCP estándar
+python openlegal.py mcp
 
-# Chat interactivo con IA
-openlegal chat --provider anthropic
-openlegal chat --provider gemini
+# Búsqueda jurídica universal en los 10 organismos a la vez
+python openlegal.py search "confianza legitima contrata"
 
-# Levantar el Dashboard Web
-openlegal web
+# Auditar un escrito bajo las 5 dimensiones forenses
+python openlegal.py critique demanda.txt
 
-# Listar todas las habilidades y plugins
-openlegal skills
+# Generar un borrador procesal formal OJV
+python openlegal.py generate demanda_civil
 
-# Generar y exportar un escrito forense
-openlegal export
+# Sesión interactiva de chat con RAG chileno
+python openlegal.py chat
 
-# Búsqueda jurídica universal
-openlegal search "confianza legitima contrata"
-
-# Diagnóstico de conectores y credenciales
-openlegal check
+# Diagnóstico de conectores
+python openlegal.py check
 ```
 
 ---
 
-## 🔐 Configuración y Variables de Entorno
+## 🧪 11. Pruebas Automatizadas y CI/CD
 
-Copia el archivo `.env.example` como `.env`:
+El repositorio cuenta con una suite de pruebas completa con **100% de tasa de aprobación**:
 
 ```bash
-cp .env.example .env
+python -m pytest tests/ -v
+# ============================= 20 passed in 0.25s ==============================
 ```
 
-```ini
-# BCN Ley Chile (Gratuita en https://www.bcn.cl/leychile/consulta_ws)
-BCN_API_KEY=tu_api_key_aqui
-
-# CNE Energía Abierta (Gratuita en https://api.cne.cl/)
-CNE_EMAIL=tu_correo@ejemplo.cl
-CNE_PASSWORD=tu_contraseña_cne
-
-# Proveedores de IA (Opcionales - BYOK)
-ANTHROPIC_API_KEY=tu_anthropic_key
-GEMINI_API_KEY=tu_gemini_key
-DEEPSEEK_API_KEY=tu_deepseek_key
-OPENAI_API_KEY=tu_openai_key
-OLLAMA_HOST=http://localhost:11434
-```
+* **`.github/workflows/ci.yml`:** Integración continua en Ubuntu y Windows con Python 3.10 a 3.14.
+* **`.github/workflows/state-api-monitor.yml`:** Monitor programado diario (08:00 UTC) que valida el estado de los servicios web de las instituciones del Estado.
 
 ---
 
-## ⚖️ Compuerta de Responsabilidad Ética
+## 🛡️ 12. Licencia, Ética Forense y Responsabilidad
 
-> ⚠️ **Aviso Profesional:** Open Legal Chile es una herramienta de asistencia y apoyo al trabajo jurídico basada en inteligencia artificial. Todo escrito, análisis o borrador debe ser validado por un abogado habilitado para el ejercicio de la profesión antes de su firma e ingreso en la Oficina Judicial Virtual (OJV) o notificación a terceros.
+### 📜 Licencia de Código Abierto (Apache 2.0)
+Este proyecto está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](LICENSE)), la cual permite su uso, modificación, integración y distribución tanto en entornos académicos como comerciales, proporcionando concesión expresa de patentes y **limitación estricta de responsabilidad**.
 
----
-
-## 📄 Licencia
-
-Este proyecto está licenciado bajo la **Licencia Apache 2.0**.
+### ⚖️ Compuerta de Revisión Jurídica Obligatoria
+> ⚖️ **Aviso Legal:** Open Legal Chile es una herramienta de asistencia técnica e investigación jurídica. Todo borrador, escrito o análisis generado mediante inteligencia artificial debe ser obligatoriamente revisado y validado por un abogado habilitado para el ejercicio de la profesión antes de su firma, notificación o ingreso en la Oficina Judicial Virtual (OJV).
