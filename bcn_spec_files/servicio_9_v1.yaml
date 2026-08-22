@@ -1,0 +1,39 @@
+get:
+  summary: Entrega la estructura jerárquica del árbol de la norma
+  operationId: obtenerArbolNorma
+  tags:
+    - Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: ID de la norma para obtener el XML de la estructura, es excluyente con parámetro idLey.
+      required: false
+      schema:
+        type: integer
+      example: 206396
+    - name: idLey
+      in: query
+      description: |
+        **Sólo para Leyes**, indica el número de la ley, es excluyente con parámetro idNorma.
+        - Ejemplo: 21735
+      required: false
+      schema:
+        type: integer
+    - name: idVersion
+      in: query
+      description: |
+        Indica la fecha (en formato YYYY-MM-DD) de la versión de la norma.
+        - Esta fecha se obtiene en el **servicio/80/**
+      required: false
+      schema:
+        type: string
+        format: date
+
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa.
+        - [ver XSD de la respuesta](https://www.leychile.cl/esquemas/EsquemaIntercambioEstructuraNorma-v1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'
+  description: Se debe incluir **idNorma** o **idLey**, pero no ambos

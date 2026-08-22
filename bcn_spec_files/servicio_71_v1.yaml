@@ -1,0 +1,32 @@
+get:
+  summary: Realiza una búsqueda del idParte de un artículo, conociendo su número.
+  operationId: BuscarIdPartes
+  description: |
+    Permite buscar el **idParte** de un artículo conociendo el **idNorma** y el número del artículo
+    - Por ejemplo: ¿Cuál es el idParte del artículo 2 de la Ley 19846? (el idNorma de la ley 19846 es 206396)
+    - Esto sirve para generar (por ejemplo) un enlace directo al artículo 2 de la ley.
+  tags:
+    - Buscadores
+
+  parameters:
+    - name: idNorma
+      in: query
+      description: Corresponde al **idNorma** al que pertenece el artículo.
+      required: true
+      schema:
+        type: integer
+      example: 206396
+
+    - name: nroParte
+      in: query
+      description: Indica el número del artículo, al que se busca su idParte
+      required: true
+      example: 2
+      schema:
+        type: string
+
+  responses:
+    "200":
+      description:  Respuesta exitosa
+    "401":
+      $ref: '../responses/401_v1.yaml'

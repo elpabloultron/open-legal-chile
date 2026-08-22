@@ -1,0 +1,22 @@
+get:
+  summary: Obtiene una lista de normas asociadas a un agrupador (del /servicio/31/)
+  operationId: listarNormasDeAgrupadoresDeCategorias
+  tags:
+    - Selecciones de Normas
+  parameters:
+    - name: idAgrupador
+      in: query
+      description: |
+        ID del Agrupador de la cuál se quiere obtener las normas.
+        - Este valor se obtiene del atributo **idAgrupador** del servicio/31/
+      required: false
+      schema:
+        type: integer
+      example: 2
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa
+        - [ver XSD de respuesta](https://www.leychile.cl/esquemas/EsquemaIntercambioServicio37-v-1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'

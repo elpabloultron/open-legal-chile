@@ -1,0 +1,55 @@
+get:
+  summary: JSON con una versión de una norma, equivalente a /Navegar/get_norma_json
+  operationId: obtenerJsonNorma
+  tags:
+    - Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: ID de la norma para obtener el JSON de la versión vigente, es excluyente con parámetro idLey.
+      required: false
+      schema:
+        type: integer
+      example: 1111237
+    - name: idLey
+      in: query
+      description: |
+        Sólo para Leyes, indica el número de la ley, es excluyente con parámetro idNorma.
+        - Ejemplo: 21735
+      required: false
+      schema:
+        type: integer
+    - name: idVersion
+      in: query
+      description: |
+        Campo opcional, indica la fecha (en formato YYYY-MM-DD) de la versión de la norma.
+        - Esta fecha se obtiene en el **servicio/80/**
+        - El valor por defecto es la fecha de la versión vigente.
+      required: false
+      schema:
+        type: string
+        format: date
+    - name: tipoVersion
+      in: query
+      description: |
+        Caso especial para obtener la versión Original de la norma, sin conocer la fecha.
+        - Es excluyente con el parámetro idVersion
+        - Usar el valor **0** (cero), para obtener la versión Original de la norma.
+        - Nota: Si la norma no ha sido modificada, entregará el mismo texto siempre.
+      required: false
+      schema:
+        type: integer
+    - name: cve
+      in: query
+      description: Corresponde al número CVE de la norma en el Diario Oficial.
+      required: false
+      schema:
+        type: integer
+
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa.
+    "401":
+      $ref: '../responses/401_v1.yaml'
+  description: Se debe incluir **idNorma**, **idLey** o **cve**

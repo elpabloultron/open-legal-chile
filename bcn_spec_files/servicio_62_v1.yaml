@@ -1,0 +1,39 @@
+get:
+  summary: Obtiene una lista con los Ids de las Normas Nuevas o Modificadas en un rango de tiempo
+  operationId: listarNormasDelta
+  tags:
+    - Normas
+  parameters:
+    - name: desde
+      in: query
+      description: Indica la fecha (en formato YYYY-MM-DD) desde la que se quiere obtener el "delta" de id Normas, si no se especifíca, se usará el la fecha de "ayer".
+      required: false
+      schema:
+        type: string
+        format: date
+    - name: hasta
+      in: query
+      description: Indica la fecha (en formato YYYY-MM-DD) hasta la que se quiere obtener el "delta" de id Normas, si no se especifíca, se usará el la fecha de "hoy".
+      required: false
+      schema:
+        type: string
+        format: date
+  responses:
+    "200":
+      description: Respuesta exitosa
+      content:
+        application/xml:
+          schema:
+            type: object
+            properties:
+              Id:
+                type: array
+                items:
+                  type: integer
+                  example: 1
+                  xml:
+                    name: Id
+            xml:
+              name: Ids
+    "401":
+      $ref: '../responses/401_v1.yaml'

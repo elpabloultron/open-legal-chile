@@ -1,0 +1,95 @@
+get:
+  summary: XML con todos los idNorma en la base de datos
+  operationId: listarNormas
+  tags:
+    - Normas
+  parameters:
+    - name: pagina
+      in: query
+      description: Página a la que se quiere acceder.
+      required: false
+      schema:
+        type: integer
+        default: 1
+    - name: cantidad
+      in: query
+      description: Cantidad de ítems por página.
+      required: false
+      schema:
+        type: integer
+        default: 100
+    - name: tipo_norma
+      in: query
+      description: Filtrar por tipo de norma.
+      required: false
+      schema:
+        type: string
+        enum:
+          - Ley
+          - Decreto
+          - Resolución
+          - Auto Acordado
+          - Acuerdo
+          - Alcance
+          - Aviso
+          - Circular
+          - Certificado
+          - Constitución de la República
+          - Código
+          - Convenio
+          - Decreto con Fuerza de Ley
+          - Dictamen
+          - Decreto Ley
+          - Instrucción
+          - Mensaje
+          - Norma Antigua
+          - Notificación
+          - Oficio
+          - Orden
+          - Ordenanza
+          - Sentencia
+          - Sesión
+          - Rectificación
+          - Reunión extraordinaria
+          - Reunión ordinaria
+          - Carta Circular
+          - Telegrama Circular
+          - Norma de Carácter General
+          - Bando
+          - Senado Consulto
+          - Reglamento Municipal
+          - Constitución Política de la República
+  responses:
+    "200":
+      description: Respuesta exitosa
+      content:
+        application/xml:
+          schema:
+            type: object
+            xml:
+              name: Normas
+            properties:
+              pagina:
+                type: integer
+                example: 1
+                xml:
+                  attribute: true
+              cantidad:
+                type: integer
+                example: 100
+                xml:
+                  attribute: true
+              total:
+                type: integer
+                example: 20000
+                xml:
+                  attribute: true
+              i:
+                type: array
+                items:
+                  type: integer
+                  example: 206396
+                  xml:
+                    name: i
+    "401":
+      $ref: '../responses/401_v1.yaml'

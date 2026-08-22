@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Open Legal Chile
+GenericName=Inteligencia Jurídica
+Comment=Plataforma de Inteligencia Jurídica, Asistente Forense y Conectores de Chile
+Exec=openlegal web
+Icon=accessories-dictionary
+Terminal=false
+Categories=Office;Legal;Education;Development;
+Keywords=legal;chile;derecho;leyes;tribunales;ojv;cgr;dt;bcn;
+StartupNotify=true

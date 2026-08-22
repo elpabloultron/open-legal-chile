@@ -1,0 +1,66 @@
+get:
+  summary: Dado un CVE (DOF) entrega URLs e identificación de norma con dicho CVE
+  operationId: BuscarXDOF
+  description: |
+    Permite la norma en sistema Ley Chile asociado al número CVE del Diario Oficial (DOF).
+    - El número CVE se encuentra en los PDF de las normas publicadas por el Diario Oficial.
+    - Sitio web del Diario Oficial [https://www.diariooficial.interior.gob.cl/edicionelectronica/](https://www.diariooficial.interior.gob.cl/edicionelectronica/);
+  tags:
+    - Buscadores
+
+  parameters:
+    - name: cve
+      in: query
+      description: Corresponde al **número CVE** de la norma en el Diario Oficial.
+      required: true
+      schema:
+        type: integer
+      example: 2653997
+
+  responses:
+    "200":
+      description: Respuesta exitosa
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              title:
+                type: string
+                example: ESTABLECE SUBSIDIO A LA TASA DE INTERÉS HIPOTECARIA PARA LA ADQUISICIÓN DE VIVIENDAS NUEVAS Y MODIFICA NORMAS QUE INDICA
+              url:
+                type: string
+                format: uri
+                example: https://www.bcn.cl/leychile/navegar?idNorma=1213759
+              url_original:
+                type: string
+                format: uri
+                example: https://www.bcn.cl/leychile/navegar?idNorma=1213759&tipoVersion=0
+              fechaPromulgacion:
+                type: string
+                format: date
+                example: "2025-05-23"
+              id_norma:
+                type: integer
+                example: 1213759
+              actualizada:
+                type: boolean
+                example: false
+              numero_cve:
+                type: integer
+                example: 2653997
+              identificacion:
+                type: string
+                example: Ley 21748
+              organismo:
+                type: array
+                items:
+                  type: string
+                example:
+                  - MINISTERIO DE HACIENDA
+              fechaPublicacion:
+                type: string
+                format: date
+                example: "2025-05-29"
+    "401":
+      $ref: '../responses/401_v1.yaml'

@@ -1,0 +1,27 @@
+get:
+  summary: Obtiene los idNorma y idParte de las normas con relación explícita a un norma.
+  operationId: obtenerVinculacionesNorma
+  tags:
+    - Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: ID de la norma para obtener sus vinculaciones.
+      required: false
+      schema:
+        type: integer
+      example: 206396
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa.
+        - [ver XSD de la respuesta](https://www.leychile.cl/esquemas/EsquemaIntercambioServicio846-v-1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'
+  description: |
+    Las relaciones explícitas pueden ser vinculaciones de:
+    - MODIFICACIÓN,
+    - CONCORDANCIA,
+    - TEXTO REFUNDIDO,
+    - REGLAMENTO,
+    - RECTIFICACIÓN

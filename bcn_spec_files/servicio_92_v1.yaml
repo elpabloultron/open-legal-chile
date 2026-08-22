@@ -1,0 +1,72 @@
+get:
+  summary: Normas de uso frecuente seleccionadas por las comisiones legislativas de la Cámara de Diputados.
+  operationId: BuscarLeyesPorComision
+  description: |
+    Permite listar Normas de uso frecuente seleccionadas por las comisiones legislativas de la Cámara de Diputados.
+    - El listado de comisiones con información lo puede encontrar en [https://www.bcn.cl/leychile/consulta/agrupadores?tipCat=2](https://www.bcn.cl/leychile/consulta/agrupadores?tipCat=2)
+  tags:
+    - Buscadores
+
+  parameters:
+    - name: id
+      in: query
+      description: |
+        Corresponde al **id de la comisión**
+        - El valor para **id** se obtiene en [https://www.bcn.cl/leychile/consulta/agrupadores?tipCat=2](https://www.bcn.cl/leychile/consulta/agrupadores?tipCat=2)
+        - Al hacer clic en una comisión, la url es del tipo https://www.bcn.cl/leychile/consulta/listacomisiones?**agr=1032**&tipCat=2
+        - El valor del parámetro **agr** es el valor que debe incluir en este servicio.
+      required: true
+      schema:
+        type: integer
+      example: 1032
+
+  responses:
+    "200":
+      description:  Respuesta exitosa
+      content:
+        application/xml:
+          schema:
+            type: object
+            xml:
+              name: Normas
+            properties:
+              comision:
+                type: string
+                xml:
+                  attribute: true
+              Norma:
+                type: array
+                xml:
+                  name: Norma
+                items:
+                  type: object
+                  properties:
+                    IdNorma:
+                      type: integer
+                      xml:
+                        name: IdNorma
+                    Norma:
+                      type: string
+                      xml:
+                        name: Norma
+                    FechaPublicacion:
+                      type: string
+                      format: date
+                      xml:
+                        name: FechaPublicacion
+                    Organismo:
+                      type: string
+                      xml:
+                        name: Organismo
+                    Materia:
+                      type: string
+                      xml:
+                        name: Materia
+                    Url:
+                      type: string
+                      format: uri
+                      xml:
+                        name: Url
+
+    "401":
+      $ref: '../responses/401_v1.yaml'
