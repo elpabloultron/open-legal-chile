@@ -1,0 +1,86 @@
+openapi: 3.1.0
+info:
+  title: API de Ley Chile
+  description: >
+    Nueva API de Ley Chile.
+  version: 1.0.0
+  termsOfService: https://www.bcn.cl/leychile/api/condiciones-de-uso
+  contact:
+    name: API Support
+    url: https://www.bcn.cl/leychile/consulta/contacto
+  license:
+    name: CC BY-NC-ND 4.0
+    url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es
+
+servers:
+  - url: https://www.bcn.cl/leychile/api/v1
+
+paths:
+  /servicio/39/:
+    $ref: './paths/servicio_39_v1.yaml'
+
+  /servicio/62/:
+    $ref: './paths/servicio_62_v1.yaml'
+
+  /servicio/3/:
+    $ref: './paths/servicio_3_v1.yaml'
+
+  /servicio/7/:
+    $ref: './paths/servicio_7_v1.yaml'
+
+  /servicio/7.2/:
+    $ref: './paths/servicio_7_2_v1.yaml'
+
+  /servicio/9/:
+    $ref: './paths/servicio_9_v1.yaml'
+
+  /servicio/80/:
+    $ref: './paths/servicio_80_v1.yaml'
+
+  /servicio/846/:
+    $ref: './paths/servicio_846_v1.yaml'
+
+  /servicio/30/:
+    $ref: './paths/servicio_30_v1.yaml'
+
+  /servicio/31/:
+    $ref: './paths/servicio_31_v1.yaml'
+
+  /servicio/37/:
+    $ref: './paths/servicio_37_v1.yaml'
+
+  /servicio/61/:
+    $ref: './paths/servicio_61_v1.yaml'
+
+  /servicio/71/:
+    $ref: './paths/servicio_71_v1.yaml'
+
+  /servicio/63/:
+    $ref: './paths/servicio_63_v1.yaml'
+
+  /servicio/66/:
+    $ref: './paths/servicio_66_v1.yaml'
+
+  /servicio/91/:
+    $ref: './paths/servicio_91_v1.yaml'
+
+  /servicio/93/:
+    $ref: './paths/servicio_93_v1.yaml'
+
+  # TODO: /servicio/92/ # Normas para comisiones
+  /servicio/92/:
+    $ref: './paths/servicio_92_v1.yaml'
+
+  # TODO: /servicio/94/ # Dado un CVE (DOF) entrega URLs e identificación de norma con dicho CVE
+  /servicio/94/:
+    $ref: './paths/servicio_94_v1.yaml'
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: query
+      name: secret
+
+security:
+  - ApiKeyAuth: [ ]

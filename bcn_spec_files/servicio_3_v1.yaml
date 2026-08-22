@@ -1,0 +1,107 @@
+get:
+  summary: Obtiene una lista de las últimas Leyes publicadas
+  operationId: listarUltimasLeyes
+  tags:
+    - Normas
+  parameters:
+    - name: cantidad
+      in: query
+      description: Indica la cantidad de leyes que entrega el servicio.
+      required: false
+      schema:
+        type: integer
+        default: 10
+
+  responses:
+    "200":
+      description: Respuesta exitosa
+      content:
+        application/xml:
+          schema:
+            type: object
+            properties:
+              NORMA:
+                type: array
+                items:
+                  type: object
+                  xml:
+                    name: NORMA
+                  properties:
+                    idNorma:
+                      type: integer
+                      example: 1213603
+                      xml:
+                        attribute: true
+                    fecha_version:
+                      type: string
+                      format: date
+                      example: 2025-05-24
+                      xml:
+                        attribute: true
+                    nro_bcn:
+                      type: integer
+                      example: 1213603
+                      xml:
+                        attribute: true
+                    TIPOS_NUMEROS:
+                      type: object
+                      properties:
+                        TIPO_NUMERO:
+                          type: array
+                          items:
+                            type: object
+                            xml:
+                              name: TIPO_NUMERO
+                            properties:
+                              TIPO:
+                                type: string
+                                xml:
+                                  name: TIPO
+                                example: XX1
+                              NUMERO:
+                                type: string
+                                xml:
+                                  name: NUMERO
+                                example: 21735
+                              DESCRIPCION:
+                                type: string
+                                xml:
+                                  name: DESCRIPCION
+                                example: Ley
+                              COMPUESTO:
+                                type: string
+                                xml:
+                                  name: COMPUESTO
+                                example: Ley-21735
+                      xml:
+                        name: TIPOS_NUMEROS
+                    FECHA_PUBLICACION:
+                      type: string
+                      xml:
+                        name: FECHA_PUBLICACION
+                      example: 2025-05-24
+                    FECHA_PROMULGACION:
+                      type: string
+                      xml:
+                        name: FECHA_PROMULGACION
+                      example: 2025-05-14
+                    ORGANISMOS:
+                      type: object
+                      properties:
+                        ORGANISMO:
+                          type: array
+                          items:
+                            xml:
+                              name: ORGANISMO
+                            example: MINISTERIO DE SALUD
+                      xml:
+                        name: ORGANISMOS
+                    TEXTO:
+                      type: string
+                      description: Corresponde a un extracto del texto del encabezado de la Ley.
+                      xml:
+                        name: TEXTO
+            xml:
+              name: NORMAS
+    "401":
+      $ref: '../responses/401_v1.yaml'

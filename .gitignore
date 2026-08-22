@@ -1,7 +1,40 @@
-.DS_Store
-*.skill
-/logs/
-/outputs/
-/.claude/
+# Entornos virtuales y dependencias
+venv/
+.venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Claves de API y credenciales privadas (¡NUNCA SUBIR A GITHUB!)
+.env
+*.local
+credentials.json
+
+# Cachés locales de datos del Estado
+bcn_cache/
+cne_cache/
+cgr_cache/
+dt_cache/
+cmf_cache/
+sii_cache/
+ambiental_cache/
+tdlc_cache/
+panel_expertos_cache/
+exports/
+
+# Compilaciones y ejecutables locales
+dist/
+build/
+*.exe
+*.spec
+*.egg-info/
+openlegal_chile.egg-info/
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+Thumbs.db
+.system_generated/
+scratch/
+scratch_*.py

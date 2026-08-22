@@ -1,0 +1,130 @@
+{
+  "$schema": "https://openlegal.cl/schemas/suite-v1.json",
+  "name": "open-legal-chile",
+  "displayName": "Open Legal Chile — Suite de Inteligencia Jurídica y Conectores de Datos",
+  "version": "1.0.0",
+  "description": "Suite abierta, local-first y multi-agente de inteligencia jurídica y conectores oficiales del Estado de Chile para Claude Code, Antigravity, Cursor, OpenCode, Gemini CLI y Ollama.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Open Legal Chile Team",
+    "url": "https://github.com/open-legal-chile"
+  },
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10",
+    "entryPoints": {
+      "cli": "openlegal.py",
+      "server": "server.py",
+      "chat": "chat_engine.py",
+      "exporter": "exporters.py"
+    },
+    "defaultPort": 8000
+  },
+  "aiProviders": {
+    "anthropic": {
+      "name": "Anthropic Claude",
+      "models": ["claude-3-7-sonnet-20250219", "claude-3-5-sonnet-20241022", "claude-3-opus-20240229", "claude-3-5-haiku-20241022"],
+      "default": "claude-3-7-sonnet-20250219"
+    },
+    "gemini": {
+      "name": "Google Gemini",
+      "models": ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-1.5-pro"],
+      "default": "gemini-2.5-pro"
+    },
+    "deepseek": {
+      "name": "DeepSeek",
+      "models": ["deepseek-reasoner", "deepseek-chat"],
+      "default": "deepseek-reasoner"
+    },
+    "openai": {
+      "name": "OpenAI",
+      "models": ["o3-mini", "o1", "gpt-4o", "gpt-4o-mini"],
+      "default": "o3-mini"
+    },
+    "ollama": {
+      "name": "Ollama Local (Offline)",
+      "models": ["deepseek-r1:8b", "llama3.3:70b", "qwen2.5"],
+      "default": "deepseek-r1:8b"
+    }
+  },
+  "dataConnectors": [
+    {
+      "id": "bcn",
+      "name": "Biblioteca del Congreso Nacional (BCN Ley Chile)",
+      "source": "https://www.bcn.cl/leychile",
+      "type": "xml_and_rest_api",
+      "module": "bcn_connector.py",
+      "description": "Catálogo completo de leyes y códigos de la República de Chile con Web Service oficial."
+    },
+    {
+      "id": "cgr",
+      "name": "Contraloría General de la República (CGR)",
+      "source": "https://www.contraloria.cl",
+      "type": "rest_api",
+      "module": "cgr_connector.py",
+      "description": "Dictámenes jurídicos y más de 9.600 informes finales de auditorías públicas."
+    },
+    {
+      "id": "dt",
+      "name": "Dirección del Trabajo (DT)",
+      "source": "https://www.dt.gob.cl",
+      "type": "rest_and_doctrine_index",
+      "module": "dt_connector.py",
+      "description": "Más de 7.800 dictámenes, ordinarios y doctrina laboral obligatoria."
+    },
+    {
+      "id": "cne",
+      "name": "Comisión Nacional de Energía (CNE Energía Abierta)",
+      "source": "https://api.cne.cl",
+      "type": "authenticated_rest_api",
+      "module": "cne_connector.py",
+      "description": "1.342 centrales activas, 3.754 proyectos SEA, costos marginales y peajes."
+    },
+    {
+      "id": "panel_expertos",
+      "name": "Panel de Expertos de la Ley Eléctrica",
+      "source": "https://www.panel.cl",
+      "type": "rest_api",
+      "module": "panel_expertos_connector.py",
+      "description": "Discrepancias vinculantes y dictámenes tarifarios del sector eléctrico."
+    },
+    {
+      "id": "cmf",
+      "name": "Comisión para el Mercado Financiero (CMF)",
+      "source": "https://www.cmfchile.cl",
+      "type": "open_index",
+      "module": "cmf_connector.py",
+      "description": "Normas de Carácter General (NCG), circulares y resoluciones financieras."
+    },
+    {
+      "id": "sii",
+      "name": "Servicio de Impuestos Internos (SII)",
+      "source": "https://www.sii.cl",
+      "type": "open_index",
+      "module": "sii_connector.py",
+      "description": "Circulares oficiales, oficios y jurisprudencia tributaria 2020 a 2026."
+    },
+    {
+      "id": "sma",
+      "name": "Superintendencia del Medio Ambiente (SMA / SNIFA)",
+      "source": "https://snifa.sma.gob.cl",
+      "type": "rest_api",
+      "module": "ambiental_connector.py",
+      "description": "Más de 3.450 procedimientos sancionatorios ambientales y resoluciones."
+    },
+    {
+      "id": "tdlc",
+      "name": "Tribunal de Defensa de la Libre Competencia (TDLC)",
+      "source": "https://www.tdlc.cl",
+      "type": "rest_api",
+      "module": "tdlc_connector.py",
+      "description": "Sentencias, resoluciones e instrucciones generales sobre libre competencia."
+    }
+  ],
+  "exportFormats": [
+    "HTML (Formato Forense OJV)",
+    "Markdown (Estructurado OJV)",
+    "Texto Plano (Oficina Judicial Virtual)",
+    "JSON (Intercambio LegalTech)"
+  ]
+}

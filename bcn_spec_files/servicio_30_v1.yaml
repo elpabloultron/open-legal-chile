@@ -1,0 +1,37 @@
+get:
+  summary: Obtiene una lista con categorías de normas seleccionadas por la BCN
+  operationId: listarCategorias
+  tags:
+    - Selecciones de Normas
+  responses:
+    "200":
+      description: Respuesta exitosa
+      content:
+        application/xml:
+          schema:
+            type: object
+            properties:
+              Categoria:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    idCategoria:
+                      type: integer
+                      example: 2
+                      xml:
+                        attribute: true
+                    Descripcion:
+                      type: string
+                      xml:
+                        name: Descripcion
+                    Observacion:
+                      type: string
+                      xml:
+                        name: Observacion
+                xml:
+                  name: Categoria
+            xml:
+              name: Categorias
+    "401":
+      $ref: '../responses/401_v1.yaml'

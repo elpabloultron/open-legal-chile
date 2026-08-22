@@ -1,0 +1,20 @@
+get:
+  summary: Obtiene una lista de agrupadores asociados a una categoría (del servicio/30/).
+  operationId: listarAgrupadoresDeCategorias
+  tags:
+    - Selecciones de Normas
+  parameters:
+    - name: agr
+      in: query
+      description: ID de la Categoría de la cuál se quiere obtener los agrupadores
+      required: false
+      schema:
+        type: integer
+      example: 2
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa
+        - [ver XSD de respuesta](https://www.leychile.cl/esquemas/EsquemaIntercambioServicio31-v-1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'

@@ -1,0 +1,43 @@
+get:
+  summary: Realiza una búsqueda simple en el sistema y obtiene los primeros "cantidad" resultados.
+  operationId: BuscarNormasSimple
+  description: Permite simular una búsqueda simple del sistema, ordena los resultados por relevancia.
+  tags:
+    - Buscadores
+  parameters:
+    - name: cadena
+      in: query
+      description: Corresponde el texto que se está buscando.
+      required: true
+      schema:
+        type: string
+    - name: extacta
+      in: query
+      description: |
+        Indica si la búsqueda se debe hacer de forma exacta (cuando es frase) o que la norma contenga todas las palabras (por defecto).
+        - **exacta=0** (por defecto) indica que la norma debe contener todas las palabras.
+        - **exacta=1** indica que la frase en **cadena** debe estar de forma extacta en la norma.
+      required: false
+      example: 1
+      default: 0
+      schema:
+        type: integer
+        minimum: 0
+        maximum: 1
+    - name: cantidad
+      in: query
+      description: Indica la cantidad de normas que se quiere obtener. Máximo 100.
+      required: false
+      example: 5
+      default: 5
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 100
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa
+        - [ver XSD de la respuesta](https://www.leychile.cl/esquemas/EsquemaIntercambioServicio61-v-1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'

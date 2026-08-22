@@ -1,0 +1,26 @@
+get:
+  summary: Dado un Nro Boletín entrega la URL de la norma que originó (la norma que tiene integrado este Boletín como Proyecto Original).
+  operationId: BuscarPorBoletinOriginal
+  description: |
+    Permite buscar la norma (habitualmente una Ley, pero para los casos de aprobación de Tratados, será un Decreto)
+    - Por ejemplo: ¿Cuál es la Ley que generó el proyecto de ley cuyo número de boletín es [14845-11](https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=14845-11)?
+    - Podría ser complementario con algún servicio definido en [opendata.camara.cl](https://opendata.camara.cl/)
+  tags:
+    - Buscadores
+
+  parameters:
+    - name: boletin
+      in: query
+      description: Corresponde al **Número de Boletín** del proyecto de ley.
+      required: true
+      schema:
+        type: string
+      example: 14845-11
+
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa
+        - [ver XSD de la respuesta](https://www.leychile.cl/esquemas/EsquemaServicioSenado_Opt_91.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'

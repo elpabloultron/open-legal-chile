@@ -1,0 +1,22 @@
+get:
+  summary: HTML con texto plano de una norma
+  operationId: obtenerHTMLNorma
+  tags:
+    - Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: ID de la norma para obtener el XML de la versión vigente.
+      required: true
+      schema:
+        type: integer
+      example: 206396
+  responses:
+    "200":
+      description: Respuesta exitosa.
+      content:
+        text/html:
+          schema:
+            type: string
+    "401":
+      $ref: '../responses/401_v1.yaml'

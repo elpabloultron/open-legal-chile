@@ -1,0 +1,125 @@
+get:
+  summary: XML con las normas que tienen resumen
+  operationId: obtenerResumenes
+  tags:
+    - Resúmenes de Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: Sólo cuando se quiere obtener el resumen de una norma puntual
+      required: false
+      schema:
+        type: integer
+
+    - name: n
+      in: query
+      description: Indica el número de la página (para paginación de los resultados)
+      required: false
+      schema:
+        type: integer
+      default: 1
+
+    - name: i
+      in: query
+      description: Indica el número resultados por cada página (para paginación de los resultados)
+      required: false
+      schema:
+        type: integer
+      default: 10
+
+    - name: o
+      in: query
+      description: |
+        Indica el orden de los resultados
+        - **o=1** indica que se ordenará por **Fecha de Publicación** (más reciente primero)
+        - **o=2** indica que se ordenará por **Fecha de Publicación** (más reciente último)
+        - **o=3** indica que se ordenará por **Número de la Ley** (el número mayor primero)
+        - **o=4** indica que se ordenará por **Título de la norma** (ascendente)
+      required: false
+      schema:
+        type: integer
+      default: 1
+
+    - name: t
+      in: query
+      description: |
+        Indica el total.
+
+        Esto es útil, cuando se usa paginación y ya se conoce el total. Al pasar este parámetro, no volverá a calcular
+        el total y la respuesta será un poco más rápida.
+      required: false
+      schema:
+        type: integer
+
+  responses:
+    "200":
+      description: Respuesta exitosa.
+      content:
+        application/xml:
+          schema:
+            type: object
+            xml:
+              name: Resultados
+            properties:
+              total:
+                type: integer
+                xml:
+                  attribute: true
+                example: 1400
+              ahora:
+                type: integer
+                xml:
+                  attribute: true
+                example: 10
+              pagina:
+                type: integer
+                xml:
+                  attribute: true
+                example: 1
+              items_x_pag:
+                type: integer
+                xml:
+                  attribute: true
+                example: 10
+
+              fila:
+                type: array
+                xml:
+                  name: fila
+                items:
+                  type: object
+                  properties:
+                    id_norma:
+                      type: string
+                      xml:
+                        name: id_norma
+                    titulo_ciudadano:
+                      type: string
+                      xml:
+                        name: titulo_ciudano
+                    fecha_publicacion:
+                      type: string
+                      xml:
+                        name: fecha_publicacion
+                    historia_ley:
+                      type: string
+                      xml:
+                        name: historia_ley
+                    nro_norma:
+                      type: string
+                      xml:
+                        name: nro_norma
+                    resumen:
+                      type: string
+                      xml:
+                        name: resumen
+                    tiutlo_corto:
+                      type: string
+                      xml:
+                        name: tiutlo_corto
+                    titulo_largo:
+                      type: string
+                      xml:
+                        name: titulo_largo
+    "401":
+      $ref: '../responses/401_v1.yaml'

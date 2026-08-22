@@ -1,0 +1,39 @@
+get:
+  summary: Obtiene las versiones de la Norma o una parte y sus modificatorias en caso de existir.
+  operationId: obtenerVersionesNorma
+  tags:
+    - Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: ID de la norma para obtener el XML de las versiones, es excluyente con parámetro idLey.
+      required: false
+      schema:
+        type: integer
+      example: 206396
+    - name: idLey
+      in: query
+      description: |
+        **Sólo para Leyes**, indica el número de la ley, es excluyente con parámetro idNorma.
+        - Ejemplo: 21735
+      required: false
+      schema:
+        type: integer
+    - name: idParte
+      in: query
+      description: |
+        (opcional) Indica el Id de la Parte, de la cual que quiere obtener las versiones.
+        - El valor de **idParte** lo puede obtener en el **servicio/9/** o **servicio/7/**
+      required: false
+      schema:
+        type: string
+        format: date
+
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa.
+        - [ver XSD de la respuesta](https://www.leychile.cl/esquemas/EsquemaIntercambioServicio80-v-1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'
+  description: Se debe incluir **idNorma** o **idLey**, pero no ambos

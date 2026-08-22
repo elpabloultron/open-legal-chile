@@ -1,0 +1,68 @@
+get:
+  summary: XML con una versión de la norma
+  operationId: obtenerXmlNorma
+  tags:
+    - Normas
+  parameters:
+    - name: idNorma
+      in: query
+      description: ID de la norma para obtener el XML de la versión vigente, es excluyente con parámetro idLey.
+      required: false
+      schema:
+        type: integer
+      example: 206396
+    - name: idLey
+      in: query
+      description: |
+        Sólo para Leyes, indica el número de la ley, es excluyente con parámetro idNorma.
+        - Ejemplo: 21735
+      required: false
+      schema:
+        type: integer
+    - name: idVersion
+      in: query
+      description: |
+        Campo opcional, indica la fecha (en formato YYYY-MM-DD) de la versión de la norma.
+        - Esta fecha se obtiene en el **servicio/80/**
+        - El valor por defecto es la fecha de la versión vigente.
+      required: false
+      schema:
+        type: string
+        format: date
+    - name: tipoVersion
+      in: query
+      description: |
+        Caso especial para obtener la versión Original de la norma, sin conocer la fecha.
+        - Es excluyente con el parámetro idVersion
+        - Usar el valor **0** (cero), para obtener la versión Original de la norma.
+        - Nota: Si la norma no ha sido modificada, entregará el mismo texto siempre.
+      required: false
+      schema:
+        type: integer
+    - name: esquemaTipo
+      in: query
+      description: |
+        Indica un caso especial, para que las notas en el texto se agreguen como XML inline.
+        - para eso use el valor **cNotas**
+        - [ver esquema para este caso](https://www.leychile.cl/esquemas/EsquemaIntercambioNormaCNotas-v1-0.xsd)
+      required: false
+      schema:
+        type: string
+    - name: conNotas
+      in: query
+      description: |
+        Indica otro caso especial, para que no se incluyan las notas en el texto.
+        - para esto use el valor **False**
+      required: false
+      schema:
+        type: string
+
+  responses:
+    "200":
+      description: |
+        Respuesta exitosa.
+        - [XSD por defecto](https://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd)
+        - [XSD para esquemaTipo=cNotas](https://www.leychile.cl/esquemas/EsquemaIntercambioNormaCNotas-v1-0.xsd)
+    "401":
+      $ref: '../responses/401_v1.yaml'
+  description: Se debe incluir **idNorma** o **idLey**, pero no ambos

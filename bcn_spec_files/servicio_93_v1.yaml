@@ -1,0 +1,57 @@
+get:
+  summary: Dado un Nro Boletín entrega las normas en donde el boletín está integrado como modificatorio.
+  operationId: BuscarBoletinModificatorio
+  description: |
+    Permite buscar las normas a las que modifica un **proyecto de ley en curso**.
+    - Por ejemplo: ¿A que norma(s) modifica el proyecto de ley 17328-07?
+    - Podría ser complementario con algún servicio definido en [opendata.camara.cl](https://opendata.camara.cl/)
+    - **Nota:** Esta información se genera de forma manual por el equipo de la BCN.
+    - **Nota2:** Cuando se publica (en Diario Oficial) la ley correspondiente, esta información ya no se muestra, ahí sirve el **/servicio/846/**
+  tags:
+    - Buscadores
+
+  parameters:
+    - name: boletin
+      in: query
+      description: Corresponde al **Número de Boletín** del proyecto de ley **en curso**.
+      required: true
+      schema:
+        type: string
+      example: 17328-07
+
+  responses:
+    "200":
+      description: Respuesta correcta
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              normas:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    title:
+                      type: string
+                    url:
+                      type: string
+                      format: uri
+                    fechaPromulgacion:
+                      type: string
+                      format: date-time
+                    id_norma:
+                      type: integer
+                    identificacion:
+                      type: string
+                    organismo:
+                      type: array
+                      items:
+                        type: string
+                    fechaPublicacion:
+                      type: string
+                      format: date-time
+              total:
+                type: integer
+    "401":
+      $ref: '../responses/401_v1.yaml'
