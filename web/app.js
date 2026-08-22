@@ -511,7 +511,7 @@ async function sendChatMessage() {
         model = parts[1];
     }
 
-    const apiKey = customApiKeyInput ? customApiKeyInput.value.trim() : "";
+    const apiKey = getSavedApiKeyFor(provider) || (customApiKeyInput ? customApiKeyInput.value.trim() : "");
 
     // 1. Render User Message
     chatInput.value = '';
@@ -615,75 +615,173 @@ function sendPromptTemplate(promptText) {
     }
 }
 
-// 12. Autenticación Directa con Google (OAuth 2.0 / Google Sign-In)
-function triggerGoogleOAuthLogin() {
-    // Si Google Identity Services está cargado en el navegador
-    if (window.google && window.google.accounts) {
-        google.accounts.id.initialize({
-            client_id: "open-legal-chile-web",
-            callback: handleGoogleCredentialResponse,
-            auto_select: true
+// ==========================================================================
+// 12. CENTRO DE CONEXIONES IA MULTI-SUITE (GOOGLE, CLAUDE, OPENAI, DEEPSEEK, OLLAMA)
+// ==========================================================================
+
+const SUITES = ['gemini', 'anthropic', 'openai', 'deepseek', 'ollama'];
+
+function openConnectionsModal() {
+    const modal = document.getElementById('ai-connections-modal');
+    if (modal) {
+        modal.classList.remove('hidden');
+        loadSavedKeysToInputs();
+    }
+}
+
+function closeConnectionsModal() {
+    const modal = document.getElementById('ai-connections-modal');
+    if (modal) modal.classList.add('hidden');
+    updateConnectionBadges();
+}
+
+function switchSuiteTab(suiteId) {
+    document.querySelectorAll('.conn-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-suite') === suiteId);
+    });
+    document.querySelectorAll('.suite-pane').forEach(pane => {
+        pane.classList.toggle('active', pane.id === `suite-pane-${suiteId}`);
+    });
+}
+
+function loadSavedKeysToInputs() {
+    SUITES.forEach(suite => {
+        const input = document.getElementById(`input-key-${suite}`);
+        const saved = localStorage.getItem(`openlegal_key_${suite}`);
+        if (input && saved) input.value = saved;
+    });
+    const hostInput = document.getElementById('input-host-ollama');
+    const savedHost = localStorage.getItem('openlegal_host_ollama');
+    if (hostInput && savedHost) hostInput.value = savedHost;
+}
+
+async function verifyAndSaveKey(provider) {
+    const input = document.getElementById(`input-key-${provider}`);
+    const feedback = document.getElementById(`feedback-${provider}`);
+    if (!input || !feedback) return;
+
+    const key = input.value.trim();
+    if (!key) {
+        feedback.className = 'conn-feedback error';
+        feedback.textContent = '❌ Debes ingresar una clave o token para probar.';
+        feedback.classList.remove('hidden');
+        return;
+    }
+
+    feedback.className = 'conn-feedback';
+    feedback.textContent = '⏳ Probando conexión en vivo con el proveedor...';
+    feedback.classList.remove('hidden');
+
+    try {
+        const res = await fetch(`${API_BASE}/api/verify-key`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ provider: provider, apiKey: key })
         });
-        google.accounts.id.prompt();
-    }
-    
-    // Abrir modal de confirmación y vinculación rápida
-    const userEmail = prompt("Ingresa tu correo de Google (ej. pablobenavidesjorquera@gmail.com o tu correo institucional):", "pablobenavidesjorquera@gmail.com");
-    if (userEmail && userEmail.trim()) {
-        const email = userEmail.trim();
-        const initials = email.charAt(0).toUpperCase();
-        
-        localStorage.setItem('openlegal_google_user_email', email);
-        localStorage.setItem('openlegal_google_connected', 'true');
-        
-        applyGoogleSessionUI(email, initials);
-        if (chatProviderSelect) chatProviderSelect.value = 'gemini:gemini-2.5-pro';
-        alert(`🎉 ¡Sesión iniciada con éxito con tu cuenta Google (${email})!\n\nGemini 2.5 Pro ahora está activo con tu suscripción.`);
-    }
-}
+        const data = await res.json();
 
-function handleGoogleCredentialResponse(response) {
-    if (response.credential) {
-        localStorage.setItem('openlegal_google_id_token', response.credential);
-        localStorage.setItem('openlegal_google_connected', 'true');
-        applyGoogleSessionUI("Google User", "G");
+        if (data.valid) {
+            localStorage.setItem(`openlegal_key_${provider}`, key);
+            feedback.className = 'conn-feedback success';
+            feedback.textContent = `✅ ¡Conexión exitosa y verificada con ${provider.toUpperCase()} (${data.model || 'Activo'})!`;
+            updateConnectionBadges();
+            updateActiveProviderUI();
+        } else {
+            feedback.className = 'conn-feedback error';
+            feedback.textContent = `❌ Falló la autenticación: ${data.error || 'Clave inválida o sin saldo'}`;
+        }
+    } catch (e) {
+        feedback.className = 'conn-feedback error';
+        feedback.textContent = `❌ Error de red al verificar: ${e.message}`;
     }
 }
 
-function applyGoogleSessionUI(email, initials) {
-    const badge = document.getElementById('user-google-badge');
-    const btnLogin = document.getElementById('btn-google-signin');
-    const emailEl = document.getElementById('user-session-email');
-    const initialsEl = document.getElementById('user-avatar-initials');
+async function detectOllamaModels() {
+    const hostInput = document.getElementById('input-host-ollama');
+    const feedback = document.getElementById('feedback-ollama');
+    const listEl = document.getElementById('ollama-models-list');
+    if (!hostInput || !feedback || !listEl) return;
 
-    if (badge) badge.classList.remove('hidden');
-    if (btnLogin) btnLogin.classList.add('hidden');
-    if (emailEl) emailEl.textContent = email;
-    if (initialsEl) initialsEl.textContent = initials || 'G';
-}
+    const host = hostInput.value.trim() || 'http://localhost:11434';
+    feedback.className = 'conn-feedback';
+    feedback.textContent = `🔍 Consultando Ollama en ${host}...`;
+    feedback.classList.remove('hidden');
 
-function logoutGoogleSession() {
-    localStorage.removeItem('openlegal_google_user_email');
-    localStorage.removeItem('openlegal_google_id_token');
-    localStorage.removeItem('openlegal_google_connected');
-    
-    const badge = document.getElementById('user-google-badge');
-    const btnLogin = document.getElementById('btn-google-signin');
-    if (badge) badge.classList.add('hidden');
-    if (btnLogin) btnLogin.classList.remove('hidden');
-    alert('Sesión de Google cerrada.');
-}
-
-function restoreGoogleSession() {
-    const isConnected = localStorage.getItem('openlegal_google_connected');
-    const email = localStorage.getItem('openlegal_google_user_email');
-    if (isConnected === 'true' && email) {
-        applyGoogleSessionUI(email, email.charAt(0).toUpperCase());
+    try {
+        const res = await fetch(`${host}/api/tags`);
+        const data = await res.json();
+        if (data.models && data.models.length > 0) {
+            localStorage.setItem('openlegal_host_ollama', host);
+            localStorage.setItem('openlegal_connected_ollama', 'true');
+            feedback.className = 'conn-feedback success';
+            feedback.textContent = `✅ Ollama detectado con ${data.models.length} modelo(s) local(es) listo(s).`;
+            
+            listEl.innerHTML = data.models.map(m => `<span class="badge-tag">🦙 ${m.name}</span>`).join(' ');
+            listEl.classList.remove('hidden');
+            updateConnectionBadges();
+        } else {
+            feedback.className = 'conn-feedback error';
+            feedback.textContent = '⚠️ Ollama responde pero no tiene modelos descargados (ej. `ollama run deepseek-r1:8b`).';
+        }
+    } catch (e) {
+        feedback.className = 'conn-feedback error';
+        feedback.textContent = `❌ No se pudo conectar a Ollama en ${host}. ¿Está iniciado el servicio en tu PC?`;
     }
 }
 
-// Restaurar sesión al cargar
-setTimeout(restoreGoogleSession, 300);
+function updateConnectionBadges() {
+    let connectedCount = 0;
+    SUITES.forEach(suite => {
+        const hasKey = !!localStorage.getItem(`openlegal_key_${suite}`) || (suite === 'ollama' && localStorage.getItem('openlegal_connected_ollama') === 'true');
+        const badge = document.getElementById(`badge-conn-${suite}`);
+        if (badge) {
+            badge.className = hasKey ? 'dot-status dot-connected' : 'dot-status dot-disconnected';
+        }
+        if (hasKey) connectedCount++;
+    });
+
+    const countBadge = document.getElementById('connected-count-badge');
+    if (countBadge) countBadge.textContent = `${connectedCount}/${SUITES.length}`;
+}
+
+function getSavedApiKeyFor(provider) {
+    return localStorage.getItem(`openlegal_key_${provider}`) || '';
+}
+
+function updateActiveProviderUI() {
+    const select = document.getElementById('chat-provider-select');
+    const badgeName = document.getElementById('active-provider-name');
+    const badgeStatus = document.getElementById('active-provider-status');
+    const initials = document.getElementById('active-provider-initials');
+
+    if (!select || !badgeName || !badgeStatus) return;
+
+    const val = select.value;
+    const provider = val.split(':')[0] || 'gemini';
+    const hasKey = !!getSavedApiKeyFor(provider);
+
+    const names = {
+        'gemini': 'Google Gemini',
+        'anthropic': 'Anthropic Claude',
+        'openai': 'OpenAI',
+        'deepseek': 'DeepSeek R1',
+        'ollama': 'Ollama Local'
+    };
+
+    badgeName.textContent = names[provider] || provider;
+    badgeStatus.textContent = hasKey ? '⚡ Conectado' : '⚪ Verificado en .env';
+    if (initials) initials.textContent = provider.charAt(0).toUpperCase();
+}
+
+if (chatProviderSelect) {
+    chatProviderSelect.addEventListener('change', updateActiveProviderUI);
+}
+
+// Inicializar estado de conexiones
+setTimeout(() => {
+    updateConnectionBadges();
+    updateActiveProviderUI();
+}, 300);
 
 // ==========================================================================
 // 13. REDACTOR FORENSE & EXPORTADOR OJV

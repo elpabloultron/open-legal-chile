@@ -141,7 +141,7 @@ class LegalChatEngine:
 
     @staticmethod
     def call_anthropic(prompt: str, messages: List[Dict[str, str]], api_key: str, model: str = "claude-3-7-sonnet-20250219") -> str:
-        """Llama a la API de Anthropic Claude con soporte para Thinking / Reasoning."""
+        """Llama a la API de Anthropic Claude con soporte para Thinking / Reasoning y tokens de sesión."""
         target_model = LegalChatEngine.resolve_model(model)
         url = "https://api.anthropic.com/v1/messages"
         user_msgs = [m for m in messages if m["role"] != "system"]
@@ -152,14 +152,19 @@ class LegalChatEngine:
             "messages": user_msgs,
             "temperature": 0.2
         }
+        headers = {
+            "Content-Type": "application/json",
+            "anthropic-version": "2023-06-01"
+        }
+        if api_key.startswith("Bearer ") or api_key.startswith("session_"):
+            headers["Authorization"] = api_key if api_key.startswith("Bearer ") else f"Bearer {api_key}"
+        else:
+            headers["x-api-key"] = api_key
+
         req = urllib.request.Request(
             url,
             data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json",
-                "x-api-key": api_key,
-                "anthropic-version": "2023-06-01"
-            }
+            headers=headers
         )
         with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
@@ -167,9 +172,17 @@ class LegalChatEngine:
 
     @staticmethod
     def call_gemini(prompt: str, messages: List[Dict[str, str]], api_key: str, model: str = "gemini-2.5-pro") -> str:
-        """Llama a la API de Google Gemini (Series 3.x / 2.5)."""
+        """Llama a la API de Google Gemini soportando tanto API Key (AIza...) como OAuth2 Bearer Token (ya29...)."""
         target_model = LegalChatEngine.resolve_model(model)
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{target_model}:generateContent?key={api_key}"
+        is_bearer = api_key.startswith("ya29.") or api_key.startswith("Bearer ") or len(api_key) > 85
+        token = api_key.replace("Bearer ", "").strip()
+
+        headers = {"Content-Type": "application/json"}
+        if is_bearer:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{target_model}:generateContent"
+            headers["Authorization"] = f"Bearer {token}"
+        else:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{target_model}:generateContent?key={token}"
         
         # Convertir mensajes a formato Gemini
         contents = []
@@ -188,7 +201,7 @@ class LegalChatEngine:
         req = urllib.request.Request(
             url,
             data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"}
+            headers=headers
         )
         with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
@@ -299,13 +312,22 @@ class LegalChatEngine:
                 "liveContext": live_context
             }
 
-            return {
-                "provider": provider,
-                "model": model,
-                "reply": reply,
-                "contextUsed": bool(live_context),
-                "liveContext": live_context
-            }
-
         except Exception as e:
-            return {"error": f"Error al comunicar con {provider.title()}: {str(e)}"}
+            return {"error": f"Error consultando al proveedor '{provider}': {str(e)}"}
+
+    def verify_credentials(self, provider: str, api_key: str, model: Optional[str] = None) -> Dict[str, Any]:
+        """Prueba de conexión en vivo con la clave o token para verificar validez inmediata."""
+        test_messages = [{"role": "user", "content": "Hola, responde únicamente con la palabra 'OK'."}]
+        try:
+            res = self.chat(
+                user_message="Hola",
+                provider=provider,
+                api_key=api_key,
+                model=model,
+                history=[]
+            )
+            if "error" in res:
+                return {"valid": False, "error": res["error"]}
+            return {"valid": True, "provider": provider, "model": res.get("model", ""), "sample": res.get("reply", "")[:60]}
+        except Exception as e:
+            return {"valid": False, "error": str(e)}
