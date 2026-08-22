@@ -65,6 +65,19 @@ class SentenciaTDLC:
     fecha: str
     link: str
 
+@dataclass(frozen=True)
+class SentenciaJudicial:
+    """Representa una sentencia de la Corte Suprema, Corte de Apelaciones o TC."""
+    tribunal: str
+    sala: str
+    rol: str
+    fecha: str
+    caratula: str
+    materia: str
+    doctrina: str
+    normas: str
+    link: str
+
 @dataclass
 class PresumaOJV:
     """Encabezado oficial OJV según Ley N° 20.886 y práctica forense."""

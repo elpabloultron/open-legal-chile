@@ -25,6 +25,7 @@ from cmf_connector import CMFClient
 from sii_connector import SIIClient
 from ambiental_connector import AmbientalClient
 from tdlc_connector import TDLCClient
+from pjud_connector import PJUDClient
 from exporters import LegalDocumentExporter
 
 # Inicializar clientes
@@ -37,6 +38,7 @@ cmf = CMFClient()
 sii = SIIClient()
 sma = AmbientalClient()
 tdlc = TDLCClient()
+pjud = PJUDClient()
 exporter = LegalDocumentExporter()
 
 TOOLS = [
@@ -163,6 +165,18 @@ TOOLS = [
         }
     },
     {
+        "name": "pjud_search_jurisprudencia",
+        "description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda (ej. 'confianza legitima 2 años', 'descuento afc despido', 'isapres')"},
+                "sala": {"type": "string", "description": "Sala opcional (ej. 'Tercera', 'Cuarta', 'Primera')"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
         "name": "export_brief_ojv",
         "description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html y .md.",
         "inputSchema": {
@@ -208,6 +222,8 @@ def handle_tool_call(name: str, args: dict) -> dict:
             return sma.search_sancionatorios(nombre=args.get("query", ""))
         elif name == "tdlc_search_jurisprudencia":
             return tdlc.search_jurisprudencia(args.get("query", ""))
+        elif name == "pjud_search_jurisprudencia":
+            return pjud.search_jurisprudencia(args.get("query", ""), sala=args.get("sala"))
         elif name == "export_brief_ojv":
             return exporter.export_brief(
                 titulo_principal=args.get("titulo"),

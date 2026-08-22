@@ -19,6 +19,7 @@ from cmf_connector import CMFClient
 from sii_connector import SIIClient
 from ambiental_connector import AmbientalClient
 from tdlc_connector import TDLCClient
+from pjud_connector import PJUDClient
 
 DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "openlegal_cache.db")
 
@@ -35,6 +36,7 @@ class StateRegistry:
         self.sii = SIIClient()
         self.sma = AmbientalClient()
         self.tdlc = TDLCClient()
+        self.pjud = PJUDClient()
 
     def _init_db(self):
         """Inicializa la base de datos SQLite para caché ultrarrápido sin dependencias externas."""
@@ -94,7 +96,8 @@ class StateRegistry:
             "cmf": [],
             "sii": [],
             "sma": {},
-            "tdlc": []
+            "tdlc": [],
+            "pjud": []
         }
 
         # 1. CGR
@@ -138,6 +141,12 @@ class StateRegistry:
             results["tdlc"] = self.tdlc.search_jurisprudencia(q)
         except Exception as e:
             results["tdlc"] = [{"error": str(e)}]
+
+        # 8. PJUD / Corte Suprema / TC
+        try:
+            results["pjud"] = self.pjud.search_jurisprudencia(q, limit=5)
+        except Exception as e:
+            results["pjud"] = [{"error": str(e)}]
 
         self._set_cached("all", q, results)
         return results
