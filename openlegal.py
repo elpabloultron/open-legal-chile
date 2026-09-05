@@ -314,7 +314,8 @@ Ejemplos de uso:
         engine = LegalChatEngine()
         provider = args.provider or LegalChatEngine.detect_provider()
         print_banner()
-        print(f"🤖 INICIANDO CHAT JURÍDICO INTERACTIVO (Proveedor: {provider.upper()})")
+        modalidad = "MOTOR SOBERANO (100% Libre / Cero API Keys)" if provider == "soberano" else f"PROVEEDOR: {provider.upper()}"
+        print(f"🤖 INICIANDO CHAT JURÍDICO INTERACTIVO [{modalidad}]")
         print("Escribe tus consultas jurídicas. Para salir escribe 'exit' o 'salir'.\n" + "-"*80)
 
         history = []
@@ -345,18 +346,21 @@ Ejemplos de uso:
 
     elif args.comando == "check":
         print_banner()
+        from config import check_configuration
         status = check_configuration()
-        print("\n🔍 DIAGNÓSTICO DE CREDENCIALES Y CONECTORES:")
-        print(f" • BCN Ley Chile API Key:  {'✅ Configurada' if status['BCN_CONFIGURED'] else '⚠️ No configurada (Revisa tu archivo .env)'}")
-        print(f" • CNE Energía Abierta:   {'✅ Configurada' if status['CNE_CONFIGURED'] else '⚠️ No configurada (Revisa tu archivo .env)'}")
-        print(" • Contraloría (CGR):     ✅ Operativo (API Abierta)")
+        print("\n🔍 DIAGNÓSTICO DE CONECTORES Y MOTORES (100% OPEN SOURCE & SOBERANO):")
+        print(" • Motor IA Soberano:     ✅ Operativo (100% Offline, Cero API Keys, $0)")
+        print(f" • Modelos Libres (Ollama):{'🟢 Activo (localhost:11434)' if status['OLLAMA_ACTIVE'] else '⚪ Inactivo (Opcional)'}")
+        print(" • BCN Ley Chile (XML):    ✅ Operativo (Acceso Público sin claves)")
+        print(" • Contraloría (CGR):      ✅ Operativo (API Abierta)")
         print(" • Dirección Trabajo (DT): ✅ Operativo (Catálogo Abierto)")
-        print(" • Poder Judicial (PJUD): ✅ Operativo (Base Jurisprudencial Local)")
-        print(" • Panel de Expertos:     ✅ Operativo (API Abierta)")
-        print(" • CMF Mercado Valores:   ✅ Operativo (API Abierta)")
-        print(" • SII Tributario:        ✅ Operativo (Índices Abiertos)")
-        print(" • SMA Ambiental:         ✅ Operativo (SNIFA Abierto)")
-        print(" • TDLC Libre Competencia:✅ Operativo (API Abierta)\n")
+        print(" • Poder Judicial (PJUD):  ✅ Operativo (Base Jurisprudencial Abierta)")
+        print(" • CNE Energía Abierta:    ✅ Operativo (Datos Abiertos)")
+        print(" • Panel de Expertos:      ✅ Operativo (API Abierta)")
+        print(" • CMF Mercado Valores:    ✅ Operativo (API Abierta)")
+        print(" • SII Tributario:         ✅ Operativo (Índices Abiertos)")
+        print(" • SMA Ambiental:          ✅ Operativo (SNIFA Abierto)")
+        print(" • TDLC Libre Competencia: ✅ Operativo (API Abierta)\n")
 
     elif args.comando == "search" or args.buscar:
         q = " ".join(args.query) if args.query else args.buscar

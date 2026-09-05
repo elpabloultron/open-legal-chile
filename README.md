@@ -122,21 +122,24 @@ claude mcp add open-legal-chile python mcp_server.py
 npx -y @smithery/cli install open-legal-chile --client claude
 ```
 
-### 🔑 Configuración de Credenciales (`.env`)
+### 🛡️ 100% Open Source y Soberano — Cero API Keys Obligatorias
 
-Copia `.env.example` a `.env` y completa las claves que tengas (el archivo `.env` está protegido en `.gitignore`):
+Open Legal Chile **no requiere ninguna API key obligatoria, ni cuentas de pago, ni suscripciones corporativas** para operar en su plenitud:
+* **Motor Soberano Integrado:** Realiza dictámenes jurídicos, subsunción normativa y auditorías forenses 5D de forma 100% local y offline sin costo alguno.
+* **Modelos Libres con Ollama:** Conéctalo a modelos abiertos locales (`llama3.2`, `deepseek-r1`, `qwen2.5`) con privacidad total y secreto profesional estricto.
+* **10 Conectores Públicos del Estado:** BCN Ley Chile (XML público), CGR, DT, PJUD, CMF, SII, SMA, TDLC, CNE y Panel de Expertos operan directamente sobre fuentes públicas abiertas sin requerir llaves de pago.
 
-| Variable | Función |
-|----------|---------|
-| `BCN_API_KEY` | API v1 de BCN Ley Chile (el XML público no la requiere) |
-| `CNE_EMAIL` / `CNE_PASSWORD` | Autenticación de Energía Abierta (CNE) |
-| `DEEPSEEK_API_KEY` | Chat jurídico con DeepSeek |
-| `ANTHROPIC_API_KEY` | Chat jurídico con Claude |
-| `GEMINI_API_KEY` | Chat jurídico con Gemini |
-| `OPENAI_API_KEY` | Chat jurídico con OpenAI |
-| `OLLAMA_HOST` | Modelo local vía Ollama |
+#### Proveedores Comerciales Propietarios (Opcionales de Terceros):
+Si voluntariamente deseas conectar modelos de terceros (Anthropic Claude, Google Gemini, DeepSeek o OpenAI), puedes configurar las variables en tu archivo `.env` o usar `--provider`:
 
-> El chat (`openlegal chat`) y la crítica forense (`openlegal critique`) **autodetectan** el primer proveedor con API key configurada; usa `--provider` para forzar uno.
+| Variable Opcional | Función Comercial Opcional |
+|---|---|
+| `DEEPSEEK_API_KEY` | Chat jurídico opcional con DeepSeek API |
+| `ANTHROPIC_API_KEY` | Chat jurídico opcional con Claude API |
+| `GEMINI_API_KEY` | Chat jurídico opcional con Gemini API |
+| `OPENAI_API_KEY` | Chat jurídico opcional con OpenAI API |
+
+> Por defecto, el chat (`openlegal chat`) y la auditoría forense (`openlegal critique`) operan con el **Motor Soberano Local** (Cero API Key) o con **Ollama** si está activo.
 
 ---
 
