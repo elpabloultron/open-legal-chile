@@ -1,7 +1,7 @@
 {
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile — Suite de Inteligencia Jurídica y Conectores de Datos",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Suite abierta, local-first y multi-agente de inteligencia jurídica y conectores oficiales del Estado de Chile para Claude Code, Antigravity, Cursor, OpenCode, Gemini CLI y Ollama.",
   "license": "Apache-2.0",
   "author": {
