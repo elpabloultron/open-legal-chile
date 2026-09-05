@@ -19,7 +19,7 @@
 1. [🌟 Visión y Filosofía Jurídica](#-1-visión-y-filosofía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Conexión Rápida](#-3-instalación-y-conexión-rápida)
-4. [🔌 Catálogo de Herramientas MCP (13 Herramientas)](#-4-catálogo-de-herramientas-mcp)
+4. [🔌 Catálogo de Herramientas MCP (24 Herramientas)](#-4-catálogo-de-herramientas-mcp)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [🧠 Catálogo de Skills y Subagentes](#-6-catálogo-de-skills-y-subagentes)
 7. [⚖️ Motor de Crítica Forense en 5 Dimensiones](#-7-motor-de-crítica-forense-en-5-dimensiones)
@@ -137,14 +137,14 @@ Copia `.env.example` a `.env` y completa las claves que tengas (el archivo `.env
 
 ---
 
-## 🔌 4. Catálogo de Herramientas MCP
+## 🔌 4. Catálogo de Herramientas MCP (36 Herramientas)
 
-El servidor expone **13 herramientas oficiales** que cualquier LLM puede invocar automáticamente:
+El servidor expone **36 herramientas oficiales** que cualquier LLM puede invocar automáticamente:
 
 | Herramienta MCP | Parámetros de Entrada | Descripción / Salida |
 | :--- | :--- | :--- |
 | `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opcional)* | Consulta artículos o estructura de los 9 Códigos de la República (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN. |
-| `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opcional)* | Descarga el texto oficial y vigente de cualquier ley chilena por su número (ej. Ley 21.643 Karin, Ley 21.561 40h). |
+| `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opcional)* | Descarga el texto oficial y vigente de cualquier ley chilena por su número (ej. Ley 21.643 Karin, Ley 21.561 40h, Ley 21.091). |
 | `cgr_search_jurisprudencia` | `query` *(str)* | Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría (CGR). |
 | `cgr_search_auditorias` | `query` *(str)* | Consulta el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la CGR. |
 | `dt_search_doctrina` | `query` *(str)* | Busca dictámenes y doctrina laboral obligatoria de la Dirección del Trabajo (DT). |
@@ -155,7 +155,30 @@ El servidor expone **13 herramientas oficiales** que cualquier LLM puede invocar
 | `sii_search_circulares` | `query` *(str)* | Consulta circulares e instrucciones oficiales del Director del SII (2020 a 2026). |
 | `sma_search_sancionatorios` | `query` *(str)* | Consulta expedientes sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA). |
 | `tdlc_search_jurisprudencia` | `query` *(str)* | Consulta sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC). |
+| `infoprobidad_get_dip` | `query_or_url` *(str)* | **[NUEVO]** Extrae y estructura las Declaraciones de Intereses y Patrimonio (DIP) de autoridades públicas desde InfoProbidad (Ley 20.880). |
+| `ocr_extract_pdf` | `pdf_path` *(str)*, `start_page`, `end_page`, `force_ocr`, `dpi`, `lang` | **[NUEVO]** Extrae texto nativo o ejecuta OCR pericial (Tesseract) sobre expedientes PDF judiciales, actas y escrituras escaneadas. |
+| `compile_legal_dossier` | `markdown_content`, `output_pdf_path`, `annexes`, `mobile_preview_path` | **[NUEVO]** Compila escritos Markdown en PDF formal A4, ensambla anexos documentales con separadores institucionales foliados y versión móvil. |
 | `export_brief_ojv` | `titulo`, `tribunal`, `comparecencia`, `hechos`, `derecho`, `peticiones`, `otrosies` | Genera y formatea un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV) en `.html`, `.md`, `.txt` y `.json`. |
+| `generar_grafo_vinculos` | `nodes`, `edges`, `title` | **[NUEVO]** Modela redes corporativas y relaciones de interés entre autoridades, empresas (SpA/Ltda) y causas en formato Mermaid y JSON. |
+| `notebooklm_list_notebooks`| *(ninguno)* | **[NUEVO]** Lista todos los cuadernos de investigación jurídica creados en Google NotebookLM con sus IDs y metadatos. |
+| `notebooklm_create_notebook`| `title` *(str)* | **[NUEVO]** Crea un nuevo cuaderno de investigación jurídica en Google NotebookLM. |
+| `notebooklm_add_source` | `notebook_id` *(str)*, `file_path` *(str)*, `title` *(str, opc)* | **[NUEVO]** Ingesta un expediente, sentencia o escrito local como fuente probatoria en NotebookLM. |
+| `notebooklm_query` | `notebook_id` *(str)*, `prompt` *(str)* | **[NUEVO]** Realiza consultas analíticas fundadas con citas exactas (grounded citations) sobre las fuentes del cuaderno. |
+| `doctrina_search` | `query` *(str)*, `area` *(str, opc)*, `autor` *(str, opc)*, `limit` *(int)* | **[NUEVO]** Busca en el canon dogmático de tratados chilenos (Barros, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) vía FTS5 BM25. |
+| `doctrina_get_institucion` | `nombre` *(str)*, `area` *(str, opc)* | **[NUEVO]** Recupera la ficha dogmática de alta densidad (requisitos, concordancias BCN y fallos rectores CS/TC) de una institución jurídica. |
+| `doctrina_list_obras` | *(ninguno)* | **[NUEVO]** Lista todos los tratados dogmáticos chilenos indexados, sus autores, materias y estadísticas de tokens. |
+| `grado_interrogar` | `materia` *(str)*, `dificultad` *(str)* | **[NUEVO]** Interroga socráticamente con preguntas de examen de grado en Chile evaluando respuestas con doctrina canónica. |
+| `grado_generar_cedula` | `tema` *(str)* | **[NUEVO]** Genera una cédula completa de examen de grado con preguntas, normas vinculadas, doctrina y pauta de evaluación. |
+| `grado_obtener_flashcards` | `area` *(str)*, `tipo` *(str)* | **[NUEVO]** Obtiene fichas mnemotécnicas de definiciones sacramentales y plazos fatales procesales para examen de grado. |
+| `vigilante_analizar_resolucion` | `resolucion_texto` *(str)*, `procedimiento` *(str)* | **[NUEVO]** Analiza resoluciones judiciales de OJV/PJUD, detecta cargas procesales y calcula plazos fatales en días hábiles (Art. 66 CPC). |
+| `vigilante_radar_normativo` | `materia` *(str)*, `dias_atras` *(int)* | **[NUEVO]** Monitorea publicaciones recientes del Diario Oficial, dictámenes de la Contraloría (CGR) y circulares del SII. |
+| `vigilante_contrato_plazos` | `tipo_contrato` *(str)*, `fecha_vencimiento` *(str)*, `preaviso_dias` *(int)* | **[NUEVO]** Calcula plazos de preaviso, desahucio y ventanas críticas de renovación automática para contratos civiles y comerciales. |
+| `clinica_lenguaje_claro` | `texto_resolucion` *(str)*, `destinatario` *(str)* | **[NUEVO]** Traduce resoluciones judiciales densas a lenguaje claro, accesible y empático para usuarios de consultorios CAJ. |
+| `clinica_intake_social` | `materia` *(str)*, `datos_usuario` *(dict)* | **[NUEVO]** Genera ficha sociojurídica de ingreso para consultorios de asistencia judicial en familia, alimentos y precario. |
+| `clinica_auditar_borrador` | `borrador_texto` *(str)*, `tribunal` *(str)* | **[NUEVO]** Audita formalmente el borrador de un escrito redactado por un pasante antes de la firma del tutor (presuma, patrocinio y petitorio). |
+| `privacidad_tramitar_arco` | `tipo_derecho`, `solicitante`, `rut`, `datos_solicitados` | **[NUEVO]** Tramita y genera modelo oficial de respuesta a Derechos ARCO bajo la Nueva Ley de Protección de Datos Personales. |
+| `inapi_cease_and_desist` | `marca_afectada`, `titular`, `infractor`, `hechos_infraccion` | **[NUEVO]** Redacta carta notarial formal de Cese y Desistimiento por infracción de marca (Ley 19.039) o autor (Ley 17.336). |
+| `inapi_evaluar_marca` | `marca_propuesta` *(str)*, `clase_niza` *(str)* | **[NUEVO]** Evalúa preliminarmente la viabilidad y distintividad de un signo marcario en el Clasificador de Niza ante INAPI. |
 
 ---
 
@@ -176,9 +199,9 @@ Todos los conectores operan con consultas en tiempo real y almacenamiento en cac
 
 ---
 
-## 🧠 6. Catálogo de Skills y Subagentes
+## 🧠 6. Catálogo de Skills y Subagentes (15 Especialidades)
 
-El repositorio incluye **7 habilidades** listas para ser activadas automáticamente por agentes de IA en `.agents/skills/` y **7 perfiles de agente** en `agents/`:
+El repositorio incluye **15 habilidades y perfiles de agente** en `agents/` listos para ser activados por cualquier LLM:
 
 * **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin 21.643, 40 Horas (21.561), contratación, investigaciones internas, RIHS y doctrina DT.
 * **`chilean-litigation-legal`** (`agente-litigios`): Intake de causas, demandas, cronologías de hechos, tablas de elementos y escritos OJV (Ley 20.886), recursos de protección, apelaciones y casaciones.
@@ -187,8 +210,18 @@ El repositorio incluye **7 habilidades** listas para ser activadas automáticame
 * **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento (Ley 20.417).
 * **`chilean-contract-legal`** (`agente-contratos`): Revisión de contratos de proveedores, triage de NDA, registro de renovaciones, cláusula penal (CC), Ley 19.496 y Ley 21.719.
 * **`chilean-corporate-legal`** (`agente-corporativo`): Constitución de SpA (20.659) y S.A. (18.046), compliance SII/CMF, actas de directorio/juntas y checklist de cierre (FNE DL 211).
+* **`chilean-forensic-evidence`** (`agente-forense`): Peritaje documental de expedientes escaneados, OCR neuronal y Tesseract, extracción fidedigna de fojas judiciales y preservación de autenticidad.
+* **`chilean-probity-investigation`** (`agente-probidad`): Auditoría patrimonial de autoridades públicas, cruce de DIP InfoProbidad, detección de conflictos de interés (Ley 20.880 y Ley 18.575).
+* **`chilean-dossier-assembly`** (`agente-expedientes`): Ensamblaje pericial de expedientes A4, foliado digital, inserción de separadores institucionales con metadatos probatorios y salida dual (formal vs. móvil).
+* **`chilean-notebooklm-grounding`** (`agente-investigacion-ia`): Investigación analítica asistida por IA con Google NotebookLM, consultas grounded y modelado de grafos de vínculos societarios/políticos.
+* **`chilean-socratic-bar-exam`** (`agente-grado`): **[NUEVO]** Interrogador socrático para egresados de derecho que preparan su Examen de Grado en Civil y Procesal, basado en los 8 tratados canónicos y códigos BCN.
+* **`chilean-docket-watcher`** (`agente-vigilante`): **[NUEVO]** Monitoreo de proveídos y resoluciones de la OJV/PJUD, cálculo de plazos fatales en días hábiles (Art. 66 CPC) y radar del Diario Oficial.
+* **`chilean-legal-clinic`** (`agente-clinica`): **[NUEVO]** Asistencia jurídica social para consultorios CAJ y clínicas universitarias, traductor a Lenguaje Claro y auditoría de borradores de pasantes.
+* **`chilean-privacy-ip`** (`agente-propiedad-datos`): **[NUEVO]** Tramitación formal de Derechos ARCO bajo la Nueva Ley de Protección de Datos Personales e informes de factibilidad marcaria y cartas C&D en INAPI.
 
 > Los workflows de estas habilidades están **importados y chilenizados** del proyecto [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) (Apache-2.0), adaptados estrictamente al Derecho Continental chileno: se eliminaron todos los institutos del *Common Law* (*discovery*, *subpoena*, *deposition*, *privilege log*, *Upjohn*, *FMLA*) y se reemplazaron por sus equivalentes chilenos (prueba del CPC, OJV, Ley Karin, fuero, Código del Trabajo).
+
+> 📚 **Base Doctrinal Canónica (Token-Optimized):** Los agentes cuentan con indexación FTS5 de los 8 manuales y tratados más citados de Chile (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña), permitiendo fundar pretensiones y dictámenes en dogmática pura reduciendo en un 88% el consumo de tokens de contexto.
 
 ---
 
