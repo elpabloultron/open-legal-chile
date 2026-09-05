@@ -24,7 +24,24 @@ setup(
         "cmf_connector",
         "sii_connector",
         "ambiental_connector",
-        "tdlc_connector"
+        "tdlc_connector",
+        "forensic_ocr",
+        "pdf_dossier_compiler",
+        "notebooklm_connector",
+        "infoprobidad_connector",
+        "grafo_vinculos",
+        "doctrina_connector",
+        "examen_grado",
+        "docket_watcher",
+        "clinica_juridica",
+        "cold_start",
+        "privacidad_inapi"
+    ],
+    install_requires=[
+        "requests>=2.28.0",
+        "beautifulsoup4>=4.11.0",
+        "defusedxml>=0.7.1",
+        "pymupdf>=1.23.0"
     ],
     packages=find_packages(),
     include_package_data=True,
