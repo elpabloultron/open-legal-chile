@@ -4,21 +4,25 @@ Permite compilar escritos legales en Markdown a formato PDF judicial formal A4,
 ensamblar anexos probatorios documentales y generar portadas separadoras institucionales.
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import json
+import tempfile
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 try:
     import pymupdf
-    from markdown_pdf import MarkdownPdf, Section
 except ImportError:
     pymupdf = None  # type: ignore[assignment]
+
+try:
+    from markdown_pdf import MarkdownPdf, Section
+except ImportError:
     MarkdownPdf = None  # type: ignore[misc,assignment]
-
-
-import tempfile
+    Section = None  # type: ignore[misc,assignment]
 
 
 class LegalDossierCompiler:
@@ -29,7 +33,7 @@ class LegalDossierCompiler:
         """Verifica si PyMuPDF y markdown_pdf están disponibles."""
         return pymupdf is not None and MarkdownPdf is not None
 
-    def _create_separator_page(self, title: str, subtitle: str, description: str = "") -> pymupdf.Document:
+    def _create_separator_page(self, title: str, subtitle: str, description: str = "") -> Any:
         """Genera una página A4 con diseño sobrio e institucional para separar anexos probatorios."""
         doc = pymupdf.open()
         page = doc.new_page(width=595, height=842)  # A4 estándar
@@ -70,7 +74,7 @@ class LegalDossierCompiler:
 
         return doc
 
-    def _img_to_pdf_doc(self, img_path: str) -> pymupdf.Document:
+    def _img_to_pdf_doc(self, img_path: str) -> Any:
         """Convierte una imagen (png, jpg, jpeg) en página PDF limpia."""
         with pymupdf.open(img_path) as img_doc:
             pdf_bytes = img_doc.convert_to_pdf()

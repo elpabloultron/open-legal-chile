@@ -41,7 +41,8 @@ setup(
         "requests>=2.28.0",
         "beautifulsoup4>=4.11.0",
         "defusedxml>=0.7.1",
-        "pymupdf>=1.23.0"
+        "pymupdf>=1.23.0",
+        "markdown-pdf>=1.3.0"
     ],
     packages=find_packages(),
     include_package_data=True,
