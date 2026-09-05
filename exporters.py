@@ -43,7 +43,6 @@ DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
         filename_base: Optional[str] = None
     ) -> Dict[str, str]:
         """Exporta un escrito judicial completo a HTML, Markdown, Texto Plano y JSON."""
-        fecha_str = datetime.now().strftime("%d de %B de %Y")
         otrosies = otrosies or []
 
         # 1. Presuma

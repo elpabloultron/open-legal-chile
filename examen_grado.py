@@ -164,6 +164,7 @@ class ExamenGradoEngine:
         return {
             "id": pregunta_data["id"],
             "area": area.upper(),
+            "dificultad": dificultad,
             "tema": pregunta_data["tema"],
             "pregunta_socratica": pregunta_data["pregunta"],
             "articulos_vinculados": pregunta_data["articulos"],
@@ -180,7 +181,7 @@ class ExamenGradoEngine:
         t = tema.lower()
         # Buscar en cédulas
         encontrados = []
-        for area, subareas in self.cedulas.items():
+        for _area, subareas in self.cedulas.items():
             for sub, lista in subareas.items():
                 for item in lista:
                     if t in item["tema"].lower() or t in sub:

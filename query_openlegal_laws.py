@@ -1,4 +1,5 @@
-import sys, os
+import sys
+import os
 sys.path.append("/home/pablo/Escritorio/Ultimaprensa/open-legal-chile")
 from bcn_connector import BCNClient
 

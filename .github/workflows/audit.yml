@@ -1,0 +1,53 @@
+name: Open Legal Chile 360° Audit & Compliance
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 4 * * 1'  # Ejecución semanal preventiva
+
+jobs:
+  audit:
+    name: Security, Quality & Anti-Bloat Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Dependencies and Audit Tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pytest-asyncio defusedxml bandit pip-audit ruff radon vulture
+
+      - name: 1. Dependency Vulnerability Scan (pip-audit)
+        run: |
+          pip-audit
+
+      - name: 2. SAST Security Scan (Bandit)
+        run: |
+          bandit -r . -x ./tests,./.venv,./doctrina_raw -s B101,B110,B310,B311,B404,B603
+
+      - name: 3. Code Quality & Formatting (Ruff)
+        run: |
+          ruff check .
+
+      - name: 4. Anti-Bloat & Dead Code Audit (Vulture / Ponytail philosophy)
+        run: |
+          vulture . --min-confidence 80 --exclude .venv,tests
+
+      - name: 5. Maintainability & Cyclomatic Complexity (Radon)
+        run: |
+          radon mi . -s -e ".venv/*,doctrina_raw/*"
+
+      - name: 6. Regression Test Suite (Pytest)
+        run: |
+          pytest tests/ -v

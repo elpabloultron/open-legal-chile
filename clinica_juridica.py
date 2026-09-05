@@ -26,7 +26,6 @@ class ClinicaJuridicaEngine:
         """
         Traduce una resolución judicial chilena densa a lenguaje claro y comprensible para el ciudadano.
         """
-        explicacion_simple = texto_resolucion
         terminos_explicados = []
 
         for patron, reemplazo in ClinicaJuridicaEngine.GLOSARIO_LENGUAJE_CLARO.items():
@@ -38,15 +37,16 @@ class ClinicaJuridicaEngine:
 
         # Resumen estructurado
         mensaje_ciudadano = (
-            f"Estimado/a usuario/a:\n\n"
-            f"El tribunal ha dictado una resolución en su causa. En palabras simples:\n"
-            f"1. Lo que resolvió el tribunal: La causa avanza según el procedimiento legal.\n"
-            f"2. Lo que usted debe saber: No se preocupe, su abogado/a de la Corporación de Asistencia Judicial está tramitando el expediente.\n"
-            f"3. Términos jurídicos presentes: " + (", ".join([t["termino_legal"] for t in terminos_explicados]) if terminos_explicados else "Trámite regular sin complicaciones.") + "\n\n"
-            f"Ante cualquier duda, acérquese a su consultorio de la CAJ con su cédula de identidad."
+            "Estimado/a usuario/a:\n\n"
+            "El tribunal ha dictado una resolución en su causa. En palabras simples:\n"
+            "1. Lo que resolvió el tribunal: La causa avanza según el procedimiento legal.\n"
+            "2. Lo que usted debe saber: No se preocupe, su abogado/a de la Corporación de Asistencia Judicial está tramitando el expediente.\n"
+            "3. Términos jurídicos presentes: " + (", ".join([t["termino_legal"] for t in terminos_explicados]) if terminos_explicados else "Trámite regular sin complicaciones.") + "\n\n"
+            "Ante cualquier duda, acérquese a su consultorio de la CAJ con su cédula de identidad."
         )
 
         return {
+            "destinatario": destinatario,
             "texto_original": texto_resolucion,
             "terminos_tecnicos_identificados": terminos_explicados,
             "traduccion_lenguaje_claro": mensaje_ciudadano,

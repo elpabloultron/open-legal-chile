@@ -335,7 +335,6 @@ class LegalChatEngine:
 
     def verify_credentials(self, provider: str, api_key: str, model: Optional[str] = None) -> Dict[str, Any]:
         """Prueba de conexión en vivo con la clave o token para verificar validez inmediata."""
-        test_messages = [{"role": "user", "content": "Hola, responde únicamente con la palabra 'OK'."}]
         try:
             res = self.chat(
                 user_message="Hola",

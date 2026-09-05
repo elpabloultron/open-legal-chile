@@ -140,7 +140,7 @@ def index_all_doctrina(doctrina_dir: str = DOCTRINA_DIR, db_path: str = DB_PATH)
 
     total_instituciones = 0
 
-    for root, dirs, files in os.walk(doctrina_dir):
+    for root, _dirs, files in os.walk(doctrina_dir):
         # Excluir carpetas de trabajo en crudo
         if "doctrina_raw" in root:
             continue
@@ -225,7 +225,6 @@ def search_doctrina(
     words = clean_query.split()
     fts_query = " OR ".join([f'"{w}"' for w in words])
 
-    filters = []
     params = []
 
     sql = """

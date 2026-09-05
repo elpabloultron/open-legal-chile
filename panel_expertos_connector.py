@@ -64,9 +64,7 @@ class PanelExpertosClient:
             objects = page_data.get("objects", {})
             discrepancies = objects.get("discrepancies", {})
             documents = objects.get("documents", {})
-            legal_matters = objects.get("legalMatters", {})
             legal_sub_matters = objects.get("legalSubMatters", {})
-            parties = objects.get("interestedParties", {})
 
             for d_id, d_val in discrepancies.items():
                 num = str(d_val.get("number", ""))
