@@ -349,7 +349,7 @@ TOOLS = [
     },
     {
         "name": "doctrina_get_institucion",
-        "description": "Recupera la ficha dogmática completa y de alta densidad sobre una institución jurídica específica (definición canónica, requisitos copulativos, concordancias con códigos BCN y fallos rectores de la Corte Suprema o TC).",
+        "description": "Recupera la ficha dogmática y forense completa sobre una institución jurídica específica: definición canónica, requisitos copulativos, operativa procesal forense (vía procesal, tribunal competente, legitimación, carga probatoria, medidas precautorias, plazos y excepciones), concordancias legales BCN y fallos rectores.",
         "inputSchema": {
             "type": "object",
             "properties": {

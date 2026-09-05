@@ -22,7 +22,16 @@ Mecanismo preferente, oral y sumario concebido para salvaguardar los derechos fu
   2. **Necesidad:** Inexistencia de un medio alternativo menos restrictivo.
   3. **Proporcionalidad en Sentido Estricto:** Que el beneficio corporativo no implique una anulación del núcleo esencial del derecho del trabajador.
 
-**Concordancias Legales:** `[BCN - Código del Trabajo, Art. 485]` `[BCN - Código del Trabajo, Art. 489]` `[BCN - CPR, Art. 19 N° 1]` `[BCN - CPR, Art. 19 N° 4]`  
+**Operativa Procesal Forense:**
+* **Vía Procesal:** Procedimiento de Tutela Laboral (Arts. 485 al 495 del Código del Trabajo). Proceso oral, preferente y concentrado en dos audiencias: Audiencia Preparatoria y Audiencia de Juicio.
+* **Tribunal Competente:** Juzgado de Letras del Trabajo del domicilio del demandado o del lugar donde se prestaron los servicios, a elección del trabajador demandante (Art. 423 CT).
+* **Legitimación Procesal:** Activa: Trabajador afectado directamente o el sindicato al que esté afiliado invocando interés legítimo (Art. 486 CT); la Dirección del Trabajo facultada para denunciar de oficio. Pasiva: Empleador directo y solidariamente la empresa principal en régimen de subcontratación (Art. 183-B CT).
+* **Carga Probatoria y Estándar de Indicios (Art. 493 CT):** Alivio probatorio para el trabajador. Basta acreditar indicios serios y concordantes del móvil lesivo; se traslada íntegramente la carga de la prueba al empleador, quien debe probar que la medida adoptada obedeció a justificaciones objetivas, razonables y proporcionales.
+* **Medidas Cautelares de Oficio o a Petición de Parte:** Facultades cautelares amplias (Art. 444 y 492 CT), incluyendo la orden de cesación inmediata del hostigamiento o la suspensión provisional de los efectos del despido.
+* **Plazos Fatales:** Plazo fatal de caducidad de 60 días hábiles judiciales desde la vulneración o despido (Art. 486 CT), prorrogable hasta 90 días si se interpone reclamo ante la Inspección del Trabajo (Art. 168 CT).
+* **Defensas y Excepciones Típicas:** Excepción perentoria de caducidad de la acción; alegación de ejercicio legítimo del poder de dirección empresarial (*ius variandi*, Art. 12 CT); falta de indicios verosímiles del actor.
+
+**Concordancias Legales:** `[BCN - Código del Trabajo, Art. 485]` `[BCN - Código del Trabajo, Art. 486]` `[BCN - Código del Trabajo, Art. 489]` `[BCN - Código del Trabajo, Art. 493]` `[BCN - CPR, Art. 19 N° 1]` `[BCN - CPR, Art. 19 N° 4]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 15.892-2018, Fecha: 24-07-2019]`
 
 ---
