@@ -1,11 +1,12 @@
 {
   "mcpServers": {
     "open-legal-chile": {
-      "command": "python",
-      "args": ["mcp_server.py"],
-      "description": "Suite de Inteligencia Jurídica y 10 Conectores Oficiales del Estado de Chile (BCN, CGR, DT, CNE, Panel Expertos, CMF, SII, SMA, TDLC, PJUD/CS/TC)",
+      "command": "/home/pablo/Escritorio/Denuncias Fiscalia/.venv/bin/python3",
+      "args": ["/home/pablo/Escritorio/Ultimaprensa/open-legal-chile/mcp_server.py"],
+      "description": "Suite de Inteligencia Jurídica y Forense de Chile: 21 Herramientas (10 Conectores Oficiales del Estado BCN/CGR/DT/PJUD/SII/CMF/SMA/TDLC/CNE/Panel, Extractor OCR, Compilador de Expedientes A4, InfoProbidad, Grafos de Vínculos y Sincronizador con NotebookLM)",
       "env": {
-        "PYTHONIOENCODING": "utf-8"
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONPATH": "/home/pablo/Escritorio/Ultimaprensa/open-legal-chile"
       }
     }
   }

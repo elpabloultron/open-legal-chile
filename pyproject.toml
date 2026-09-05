@@ -51,3 +51,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 include = ["connectors*", "domain*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

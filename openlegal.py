@@ -288,9 +288,15 @@ Ejemplos de uso:
   openlegal export            -> Exporta un escrito judicial forense a HTML/MD
   openlegal check             -> Verifica el estado de las credenciales y conectores
   openlegal search "..."      -> Realiza una búsqueda jurídica universal
+  openlegal grado [materia]   -> Inicia el interrogador socrático para Examen de Grado
+  openlegal vigilar [texto]   -> Analiza proveídos judiciales y calcula plazos fatales
+  openlegal clinica [texto]   -> Traduce resoluciones judiciales a Lenguaje Claro
+  openlegal interview         -> Inicia la entrevista de arranque y perfil del despacho
+  openlegal arco              -> Genera respuesta oficial a solicitud de Derechos ARCO
+  openlegal inapi [marca]     -> Evalúa factibilidad marcaria y cartas C&D en INAPI
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -558,6 +564,72 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
         print(f"\n✅ Artefacto generado con éxito:")
         print(f" • HTML: {res['htmlPath']}")
         print(f" • MD:   {res['markdownPath']}\n")
+
+    elif args.comando == "grado":
+        from examen_grado import ExamenGradoEngine
+        engine = ExamenGradoEngine()
+        print_banner()
+        mat = args.query[0] if args.query else "civil"
+        res = engine.interrogar_socratico(materia=mat)
+        print(f"🎓 INTERROGACIÓN SOCRÁTICA DE EXAMEN DE GRADO ({res['area']})")
+        print(f"📌 Tema: {res['tema']}")
+        print(f"❓ Pregunta de la Comisión: {res['pregunta_socratica']}\n")
+        print("📖 Normas y Tratados Vinculados:")
+        for a in res['articulos_vinculados']:
+            print(f"  • {a}")
+        print(f"  • Doctrina canónica: {res['autor_canonico']} ({res['obra_relevante']})\n")
+        print(f"⚖️ Estándar de Aprobación:\n{res['estandar_evaluacion']}\n")
+
+    elif args.comando == "vigilar":
+        from docket_watcher import DocketWatcherEngine
+        print_banner()
+        texto = " ".join(args.query) if args.query else "Autos para fallo"
+        res = DocketWatcherEngine.analizar_resolucion(texto)
+        print(f"🕵️ VIGILANTE PROCESAL — ANÁLISIS DE RESOLUCIÓN:")
+        print(f"Texto: '{texto}'\n" + "-"*60)
+        if res.get("encontrado"):
+            print(f"⚡ Trámite: {res['tipo_tramite']} (Severidad: {res['severidad']})")
+            print(f"📋 Instrucción: {res['instruccion_abogado']}\n")
+            print("⏳ Plazos Fatales Detectados:")
+            for p in res.get("cargas_procesales_y_plazos", []):
+                print(f"  • {p['accion']}: {p['dias_habiles']} días hábiles ({p['articulo']})")
+        else:
+            print(res.get("mensaje"))
+        print()
+
+    elif args.comando == "clinica":
+        from clinica_juridica import ClinicaJuridicaEngine
+        print_banner()
+        texto = " ".join(args.query) if args.query else "Autos para fallo con citación"
+        res = ClinicaJuridicaEngine.traducir_lenguaje_claro(texto)
+        print("🤝 CLÍNICA JURÍDICA — TRADUCCIÓN A LENGUAJE CLARO:")
+        print(f"Texto original: '{texto}'\n" + "-"*60)
+        print(res.get("traduccion_lenguaje_claro"))
+        print()
+
+    elif args.comando == "interview":
+        from cold_start import ColdStartInterviewEngine
+        ColdStartInterviewEngine.run_interactive()
+
+    elif args.comando == "arco":
+        from privacidad_inapi import PrivacyARCOEngine
+        print_banner()
+        res = PrivacyARCOEngine.procesar_solicitud_arco("ACCESO", "Juan Pérez González", "15.123.456-7", "Historial de transacciones y perfilamiento")
+        print("🛡️ MODELO OFICIAL DE RESPUESTA DERECHOS ARCO:")
+        print(res.get("modelo_oficial_respuesta"))
+        print()
+
+    elif args.comando == "inapi":
+        from privacidad_inapi import INAPIEngine
+        print_banner()
+        marca = args.query[0] if args.query else "LexChile"
+        res = INAPIEngine.evaluar_factibilidad_marca(marca)
+        print(f"🔍 EVALUACIÓN DE FACTIBILIDAD MARCARIA (INAPI): {marca}")
+        print(f"Clase: {res['clase_niza']} ({res['descripcion_clase']})")
+        print(f"Riesgo Preliminar: {res['nivel_riesgo_preliminar']}")
+        for m in res['analisis_distintividad']:
+            print(f"  • {m}")
+        print(f"\n💡 Recomendación: {res['recomendacion']}\n")
 
     else:
         menu_interactivo()
