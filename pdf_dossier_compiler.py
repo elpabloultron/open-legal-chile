@@ -14,8 +14,8 @@ try:
     import pymupdf
     from markdown_pdf import MarkdownPdf, Section
 except ImportError:
-    pymupdf = None
-    MarkdownPdf = None
+    pymupdf = None  # type: ignore[assignment]
+    MarkdownPdf = None  # type: ignore[misc,assignment]
 
 
 import tempfile

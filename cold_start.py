@@ -9,11 +9,11 @@ import os
 import sys
 import json
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 PROFILE_FILE = "practice_profile.json"
 
-DEFAULT_QUESTIONS = [
+DEFAULT_QUESTIONS: List[Dict[str, Any]] = [
     {
         "id": "firm_name",
         "pregunta": "¿Cuál es el nombre de su estudio jurídico o su nombre como abogado/a?",

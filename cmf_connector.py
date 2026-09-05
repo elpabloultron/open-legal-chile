@@ -11,6 +11,7 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
+from config import safe_urlopen
 
 BASE_URL = "https://www.cmfchile.cl/portal/normativa/624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cmf_cache")
@@ -38,7 +39,7 @@ class CMFClient:
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Financiero Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with safe_urlopen(req, timeout=30) as resp:
             html = resp.read().decode("utf-8", errors="ignore")
             # Extraer enlaces a normas
             items = re.findall(r'<a[^>]+href=["\']([^"\']*(?:w4-article-[0-9]+|article)[^"\']*)["\'][^>]*>(.*?)</a>', html)
@@ -88,7 +89,8 @@ class CMFClient:
 if __name__ == "__main__":
     import argparse
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
 
@@ -103,14 +105,14 @@ if __name__ == "__main__":
         print(f"\n🏢 Buscando en la base de la CMF: '{args.buscar}'...")
         res = client.search_normativa(args.buscar)
         print(f"Resultados encontrados: {len(res)}")
-        for idx, item in enumerate(res):
-            print(f"\n[{idx+1}] {item.get('titulo')}")
+        for pos, item in enumerate(res):
+            print(f"\n[{pos+1}] {item.get('titulo')}")
             print(f"  🔗 Ficha: {item.get('url')}")
             print(f"  📄 PDF: {item.get('pdfUrl')}")
     elif args.ultimas or len(sys.argv) == 1:
         print("\n🏢 Consultando Catálogo de Normas y Resoluciones CMF...")
-        idx = client.get_index_normas()
-        print(f"Total normas indexadas: {len(idx)}")
+        normas_catalogo = client.get_index_normas()
+        print(f"Total normas indexadas: {len(normas_catalogo)}")
         print("\nMuestra de normas recientes:")
-        for item in idx[:5]:
+        for item in normas_catalogo[:5]:
             print(f" - {item.get('titulo')} -> {item.get('pdfUrl')}")

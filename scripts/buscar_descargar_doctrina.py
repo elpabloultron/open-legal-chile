@@ -16,7 +16,7 @@ from typing import List, Dict, Any, Optional
 try:
     import requests
 except ImportError:
-    requests = None
+    requests = None  # type: ignore[assignment]
 
 
 # Catálogo curado de tratados y obras dogmáticas abiertas de libre acceso en Chile
@@ -102,8 +102,9 @@ class DoctrinaDownloader:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) OpenLegalChile/1.0"
         }
         try:
+            from config import safe_urlopen
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=30) as resp, open(dest, "wb") as f:
+            with safe_urlopen(req, timeout=30) as resp, open(dest, "wb") as f:
                 f.write(resp.read())
 
             return {

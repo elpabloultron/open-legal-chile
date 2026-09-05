@@ -9,10 +9,14 @@ import sys
 import json
 import os
 
+from typing import Any, Dict, List, Optional, Union
+
 # Configurar encoding seguro UTF-8
 try:
-    sys.stdout.reconfigure(encoding='utf-8')
-    sys.stdin.reconfigure(encoding='utf-8')
+    if hasattr(sys.stdout, "reconfigure"):
+        getattr(sys.stdout, "reconfigure")(encoding='utf-8')
+    if hasattr(sys.stdin, "reconfigure"):
+        getattr(sys.stdin, "reconfigure")(encoding='utf-8')
 except Exception:
     pass
 
@@ -510,7 +514,7 @@ TOOLS = [
     }
 ]
 
-def handle_tool_call(name: str, args: dict) -> dict:
+def handle_tool_call(name: str, args: dict) -> Any:
     try:
         args = args or {}
         if name == "bcn_get_codigo":
@@ -565,15 +569,17 @@ def handle_tool_call(name: str, args: dict) -> dict:
         elif name == "pjud_search_jurisprudencia":
             return pjud.search_jurisprudencia(args.get("query", ""), sala=args.get("sala"))
         elif name == "export_brief_ojv":
+            tit = str(args.get("titulo") or "ESCRITO JUDICIAL")
+            trib = str(args.get("tribunal") or "TRIBUNAL COMPETENTE")
             return exporter.export_brief(
-                titulo_principal=args.get("titulo"),
-                tribunal=args.get("tribunal"),
-                presuma_data={"materia": args.get("titulo"), "demandante": "COMPARECIENTE"},
-                comparecencia=args.get("comparecencia", ""),
-                hechos=args.get("hechos", ""),
-                derecho=args.get("derecho", ""),
-                peticiones=args.get("peticiones", ""),
-                otrosies=args.get("otrosies", [])
+                titulo_principal=tit,
+                tribunal=trib,
+                presuma_data={"materia": tit, "demandante": "COMPARECIENTE"},
+                comparecencia=str(args.get("comparecencia") or ""),
+                hechos=str(args.get("hechos") or ""),
+                derecho=str(args.get("derecho") or ""),
+                peticiones=str(args.get("peticiones") or ""),
+                otrosies=args.get("otrosies") if isinstance(args.get("otrosies"), list) else []
             )
         elif name == "ocr_extract_pdf":
             pdf_path = args.get("pdf_path")
@@ -584,7 +590,7 @@ def handle_tool_call(name: str, args: dict) -> dict:
             except (ValueError, TypeError):
                 start_p = 1
             try:
-                end_p = int(args.get("end_page")) if args.get("end_page") is not None else None
+                end_p = int(str(args.get("end_page"))) if args.get("end_page") is not None else None
             except (ValueError, TypeError):
                 end_p = None
             return ocr_engine.extract_from_pdf(
@@ -747,13 +753,13 @@ def handle_tool_call(name: str, args: dict) -> dict:
                 return {"error": "Todos los campos 'tipo_derecho', 'solicitante', 'rut' y 'datos_solicitados' son obligatorios."}
             return arco_engine.procesar_solicitud_arco(td, sol, rut, dat)
         elif name == "inapi_cease_and_desist":
-            mar = args.get("marca_afectada")
-            tit = args.get("titular")
-            inf = args.get("infractor")
-            hec = args.get("hechos_infraccion")
-            if not mar or not tit or not inf or not hec:
+            mar_af = str(args.get("marca_afectada") or "").strip()
+            tit_af = str(args.get("titular") or "").strip()
+            inf_af = str(args.get("infractor") or "").strip()
+            hec_af = str(args.get("hechos_infraccion") or "").strip()
+            if not mar_af or not tit_af or not inf_af or not hec_af:
                 return {"error": "Todos los campos 'marca_afectada', 'titular', 'infractor' y 'hechos_infraccion' son obligatorios."}
-            return inapi_engine.redactar_cease_and_desist(mar, tit, inf, hec)
+            return inapi_engine.redactar_cease_and_desist(mar_af, tit_af, inf_af, hec_af)
         elif name == "inapi_evaluar_marca":
             mar = args.get("marca_propuesta")
             if not mar:

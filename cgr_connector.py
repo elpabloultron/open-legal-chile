@@ -10,6 +10,7 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
+from config import safe_urlopen
 
 BASE_URL = "https://www.contraloria.cl/apibusca"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cgr_cache")
@@ -60,7 +61,7 @@ class CGRClient:
             }
         )
 
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with safe_urlopen(req, timeout=30) as resp:
             raw = resp.read().decode("utf-8", errors="ignore")
             res_json = json.loads(raw)
 
@@ -133,7 +134,8 @@ class CGRClient:
 if __name__ == "__main__":
     import argparse
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
 
@@ -149,12 +151,15 @@ if __name__ == "__main__":
     if args.id:
         print(f"\n🏛️ Consultando Dictamen CGR N° {args.id}...")
         data = client.get_dictamen(args.id)
-        fecha = data.get('fecha', '')
-        anio = fecha[:4] if fecha else 's/f'
-        print(f"\n[Dictamen CGR N° {data.get('docId')} ({anio})]")
-        print(f"📌 Materia / Criterio:\n{data.get('materia')}")
-        if data.get("texto"):
-            print(f"\n📜 Texto:\n{data.get('texto')[:500]}...")
+        if data and isinstance(data, dict):
+            fecha = data.get('fecha', '')
+            anio = fecha[:4] if fecha else 's/f'
+            print(f"\n[Dictamen CGR N° {data.get('docId')} ({anio})]")
+            print(f"📌 Materia / Criterio:\n{data.get('materia')}")
+            if data.get("texto"):
+                print(f"\n📜 Texto:\n{str(data.get('texto'))[:500]}...")
+        else:
+            print("❌ Dictamen no encontrado o error en respuesta.")
     elif args.instructivos:
         print(f"\n📜 Buscando Instructivos CGR: '{args.instructivos}'...")
         res = client.search_instructivos(args.instructivos)

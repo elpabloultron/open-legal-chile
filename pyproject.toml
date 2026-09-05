@@ -76,7 +76,7 @@ exclude = [
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "B"]
-ignore = ["E501", "E722", "E402", "W293", "W291", "F401", "B008", "B904", "B006"]
+ignore = ["E501", "E722", "E402", "W293", "W291", "F401", "B008", "B904", "B006", "B009"]
 
 [tool.bandit]
 exclude_dirs = ["tests", ".venv", "doctrina_raw", "exports"]

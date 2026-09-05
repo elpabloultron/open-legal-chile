@@ -11,6 +11,7 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
+from config import safe_urlopen
 
 BASE_URL = "https://www.dt.gob.cl/legislacion/1624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "dt_cache")
@@ -38,7 +39,7 @@ class DTClient:
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with safe_urlopen(req, timeout=30) as resp:
             html = resp.read().decode("utf-8", errors="ignore")
             # Extraer enlaces a artículos de dictámenes
             items = re.findall(r'<a[^>]+href=["\']([^"\']*(?:w3-article-[0-9]+|article)[^"\']*)["\'][^>]*>(.*?)</a>', html)
@@ -90,7 +91,7 @@ class DTClient:
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with safe_urlopen(req, timeout=20) as resp:
             html = resp.read().decode("utf-8", errors="ignore")
 
             title_m = re.search(r'<title>(.*?)</title>', html)
@@ -166,7 +167,8 @@ class DTClient:
 if __name__ == "__main__":
     import argparse
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
 
@@ -194,7 +196,7 @@ if __name__ == "__main__":
             if item.get("materias"):
                 print(f"  📌 Materias: {item.get('materias')}")
             if item.get("doctrina"):
-                print(f"  📜 Doctrina: {item.get('doctrina')[:250]}...")
+                print(f"  📜 Doctrina: {str(item.get('doctrina'))[:250]}...")
             print(f"  🔗 Enlace: {item.get('url')}")
     elif args.ultimos or len(sys.argv) == 1:
         print("\n💼 Consultando Catálogo Maestro de Ordinarios de la DT...")

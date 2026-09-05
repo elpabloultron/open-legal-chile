@@ -8,7 +8,7 @@ import re
 import json
 import requests
 from bs4 import BeautifulSoup
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 
 class InfoProbidadClient:
@@ -112,14 +112,14 @@ class InfoProbidadClient:
                 if st_text and val and st_text not in metadatos and len(st_text) < 50:
                     metadatos[st_text] = val
 
-        secciones = {}
+        secciones: Dict[str, Any] = {}
         # Parsear todas las tablas y títulos
         for table in soup.find_all('table'):
             prev = table.find_previous(['h2', 'h3', 'h4', 'h5', 'caption', 'strong'])
             sec_title = prev.get_text(strip=True) if prev else "Tabla"
 
             headers = [th.get_text(strip=True) for th in table.find_all('th')]
-            rows = []
+            rows: List[Any] = []
             for tr in table.find_all('tr'):
                 tds = [td.get_text(strip=True) for td in tr.find_all('td')]
                 if tds:
