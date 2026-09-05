@@ -8,13 +8,10 @@ import re
 import json
 import urllib.request
 import urllib.parse
-try:
-    import defusedxml.ElementTree as ET
-except ImportError:
-    import xml.etree.ElementTree as ET  # nosec B405
+import defusedxml.ElementTree as ET
 from typing import Dict, Any, List, Optional
 
-from config import BCN_API_KEY
+from config import BCN_API_KEY, safe_urlopen
 
 BCN_API_BASE = "https://www.bcn.cl/leychile/api/v1"
 BCN_XML_BASE = "https://www.leychile.cl/Consulta/obtxml"
@@ -61,7 +58,7 @@ class BCNClient:
         url = f"{BCN_XML_BASE}?{query_str}"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (https://github.com/open-legal-chile)'}
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with safe_urlopen(req, timeout=30) as resp:
             return resp.read().decode('utf-8', errors='ignore')
 
     def _parse_norma_xml(self, xml_content: str) -> Dict[str, Any]:
@@ -174,7 +171,7 @@ class BCNClient:
         if c_key not in CODIGOS_REPUBLICA:
             raise ValueError(f"Código '{codigo_nombre}' no reconocido. Opciones: {list(CODIGOS_REPUBLICA.keys())}")
 
-        id_norma = CODIGOS_REPUBLICA[c_key]["idNorma"]
+        id_norma = int(str(CODIGOS_REPUBLICA[c_key]["idNorma"]))
         data = self.get_norma(id_norma)
 
         if articulo:
@@ -295,7 +292,8 @@ if __name__ == "__main__":
     import argparse
     import sys
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
     parser = argparse.ArgumentParser(description="Conector CLI Open Legal Chile - BCN Ley Chile")

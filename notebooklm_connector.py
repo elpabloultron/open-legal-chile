@@ -17,10 +17,11 @@ from typing import Dict, Any, List, Optional, Union
 
 class NotebookLMConnector:
     def __init__(self, nlm_bin: Optional[str] = None):
+        which_nlm = shutil.which("nlm")
         if nlm_bin and (os.path.exists(nlm_bin) or shutil.which(nlm_bin)):
             self.nlm_bin = nlm_bin
-        elif shutil.which("nlm"):
-            self.nlm_bin = shutil.which("nlm")
+        elif which_nlm:
+            self.nlm_bin = which_nlm
         elif os.path.exists("/home/pablo/.local/bin/nlm"):
             self.nlm_bin = "/home/pablo/.local/bin/nlm"
         else:

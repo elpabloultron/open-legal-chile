@@ -12,6 +12,7 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
+from config import safe_urlopen
 
 BASE_URL = "https://www.sii.cl/normativa_legislacion"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "sii_cache")
@@ -43,7 +44,7 @@ class SIIClient:
 
         circulares_list = []
         try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with safe_urlopen(req, timeout=20) as resp:
                 page_html = resp.read().decode("utf-8", errors="ignore")
                 links = re.findall(r'<a[^>]+href=["\']([^"\']+\.pdf)["\'][^>]*>(.*?)</a>', page_html, re.IGNORECASE)
 
@@ -97,7 +98,8 @@ class SIIClient:
 if __name__ == "__main__":
     import argparse
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
 

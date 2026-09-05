@@ -9,6 +9,7 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
+from config import safe_urlopen
 
 # Importar conectores oficiales
 from cgr_connector import CGRClient
@@ -142,7 +143,7 @@ class LegalChatEngine:
                 "Authorization": f"Bearer {api_key}"
             }
         )
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with safe_urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             return data["choices"][0]["message"]["content"]
 
@@ -173,7 +174,7 @@ class LegalChatEngine:
             data=json.dumps(payload).encode("utf-8"),
             headers=headers
         )
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with safe_urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             return data["content"][0]["text"]
 
@@ -211,7 +212,7 @@ class LegalChatEngine:
             data=json.dumps(payload).encode("utf-8"),
             headers=headers
         )
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with safe_urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             return data["candidates"][0]["content"]["parts"][0]["text"]
 
@@ -232,7 +233,7 @@ class LegalChatEngine:
                 "Authorization": f"Bearer {api_key}"
             }
         )
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with safe_urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             return data["choices"][0]["message"]["content"]
 
@@ -250,7 +251,7 @@ class LegalChatEngine:
             data=json.dumps(payload).encode("utf-8"),
             headers={"Content-Type": "application/json"}
         )
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with safe_urlopen(req, timeout=120) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             return data["message"]["content"]
 

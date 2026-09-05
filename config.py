@@ -69,6 +69,7 @@ def safe_urlopen(req, timeout: int = 30):
     url = req.full_url if hasattr(req, "full_url") else str(req)
     if not (url.startswith("http://") or url.startswith("https://")):
         raise ValueError(f"Esquema de URL no permitido por políticas de seguridad: {url}")
+    # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
     return urllib.request.urlopen(req, timeout=timeout)  # nosec B310
 
 

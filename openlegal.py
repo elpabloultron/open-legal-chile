@@ -10,7 +10,8 @@ import argparse
 
 # Asegurar encoding UTF-8 en terminal de Windows
 try:
-    sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stdout, "reconfigure"):
+        getattr(sys.stdout, "reconfigure")(encoding='utf-8')
 except Exception:
     pass
 

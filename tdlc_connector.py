@@ -12,6 +12,7 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
+from config import safe_urlopen
 
 BASE_URL = "https://www.tdlc.cl/wp-json/wp/v2"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "tdlc_cache")
@@ -46,7 +47,7 @@ class TDLCClient:
             }
         )
 
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with safe_urlopen(req, timeout=20) as resp:
             data = json.loads(resp.read().decode("utf-8", errors="ignore"))
 
             clean_results = []
@@ -70,7 +71,7 @@ class TDLCClient:
         url = f"{BASE_URL}/dictamenes?page={page}&per_page={per_page}"
         req = urllib.request.Request(url, headers={"User-Agent": "OpenLegalChile/1.0", "Accept": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with safe_urlopen(req, timeout=20) as resp:
                 data = json.loads(resp.read().decode("utf-8", errors="ignore"))
                 return [{
                     "id": item.get("id"),
@@ -103,7 +104,8 @@ class TDLCClient:
 if __name__ == "__main__":
     import argparse
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
 

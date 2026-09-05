@@ -13,9 +13,10 @@ import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
 
-from config import CNE_EMAIL, CNE_PASSWORD
+from config import CNE_EMAIL, CNE_PASSWORD, safe_urlopen
 
 CNE_BASE_URL = "https://api.cne.cl"
+BASE_URL = "https://api.cne.cl/api/v1"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cne_cache")
 
 
@@ -25,7 +26,7 @@ class CNEClient:
         self.password = password
         self.cache_dir = cache_dir
         self.token = None
-        self.token_expiry = 0
+        self.token_expiry: float = 0.0
         os.makedirs(self.cache_dir, exist_ok=True)
 
     def _get_cache_path(self, endpoint_key: str) -> str:
@@ -67,7 +68,7 @@ class CNEClient:
         )
 
         try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with safe_urlopen(req, timeout=15) as resp:
                 raw_resp = resp.read().decode("utf-8", errors="ignore")
                 if raw_resp.strip():
                     data = json.loads(raw_resp)
@@ -114,7 +115,7 @@ class CNEClient:
         )
 
         try:
-            with urllib.request.urlopen(req, timeout=45) as resp:
+            with safe_urlopen(req, timeout=45) as resp:
                 raw_bytes = resp.read()
                 is_gzip = resp.headers.get("Content-Encoding") == "gzip" or raw_bytes[:2] == b'\x1f\x8b'
                 if is_gzip:
@@ -217,7 +218,8 @@ class CNEClient:
 if __name__ == "__main__":
     import argparse
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
     except Exception:
         pass
 

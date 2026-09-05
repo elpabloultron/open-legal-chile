@@ -15,15 +15,16 @@ from typing import Dict, Any, List, Optional
 try:
     import pymupdf
 except ImportError:
-    pymupdf = None
+    pymupdf = None  # type: ignore[assignment]
 
 
 class ForensicOCREngine:
     def __init__(self, tesseract_cmd: Optional[str] = None):
+        which_tess = shutil.which("tesseract")
         if tesseract_cmd and os.path.exists(tesseract_cmd):
             self.tesseract_cmd = tesseract_cmd
-        elif shutil.which("tesseract"):
-            self.tesseract_cmd = shutil.which("tesseract")
+        elif which_tess:
+            self.tesseract_cmd = which_tess
         elif os.path.exists("/usr/bin/tesseract"):
             self.tesseract_cmd = "/usr/bin/tesseract"
         else:
@@ -200,6 +201,6 @@ if __name__ == "__main__":
         engine = ForensicOCREngine()
         res = engine.extract_from_pdf(sys.argv[1], start_page=1, end_page=int(sys.argv[2]) if len(sys.argv) > 2 else 3)
         print(f"Procesado: {res.get('file')} ({res.get('processed_pages')} págs)")
-        print(res.get("full_text")[:1000])
+        print(str(res.get("full_text") or "")[:1000])
     else:
         print("Uso: python forensic_ocr.py <archivo.pdf> [paginas_max]")

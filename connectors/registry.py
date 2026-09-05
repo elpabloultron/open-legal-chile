@@ -88,7 +88,7 @@ class StateRegistry:
         if cached:
             return cached
 
-        results = {
+        results: Dict[str, Any] = {
             "query": q,
             "bcn": [],
             "cgr": {},
