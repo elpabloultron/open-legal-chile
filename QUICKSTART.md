@@ -8,18 +8,18 @@
 
 Copia `.env.example` a `.env` y completa las claves que tengas:
 
-| Variable | Para qué |
-|----------|----------|
-| `BCN_API_KEY` | API v1 de BCN Ley Chile (el XML público no la requiere) |
-| `CNE_EMAIL` / `CNE_PASSWORD` | API autenticada de Energía Abierta (CNE) |
-| `DEEPSEEK_API_KEY` | Chat jurídico con DeepSeek |
-| `ANTHROPIC_API_KEY` | Chat jurídico con Claude |
-| `GEMINI_API_KEY` | Chat jurídico con Gemini |
-| `OPENAI_API_KEY` | Chat jurídico con OpenAI |
-| `OLLAMA_HOST` | Modelo local vía Ollama |
-| `PORT` | Reservado para futuros servicios HTTP |
+> **🛡️ 100% Libre y Soberano:** Open Legal Chile opera directamente con su **Motor Soberano Local integrado** y los **10 conectores públicos del Estado** sin requerir ninguna API key ni cuentas corporativas.
+> Si deseas conectar voluntariamente proveedores comerciales opcionales, puedes definir sus claves en `.env`:
 
-> Si no configuras ninguna clave de IA, el chat usa Ollama local si está disponible. `openlegal check` muestra el diagnóstico completo.
+| Variable Opcional | Para qué |
+|----------|----------|
+| `DEEPSEEK_API_KEY` | Chat jurídico opcional con DeepSeek |
+| `ANTHROPIC_API_KEY` | Chat jurídico opcional con Claude |
+| `GEMINI_API_KEY` | Chat jurídico opcional con Gemini |
+| `OPENAI_API_KEY` | Chat jurídico opcional con OpenAI |
+| `OLLAMA_HOST` | Host para Ollama local (por defecto `http://localhost:11434`) |
+
+> Ejecuta `openlegal check` para verificar el estado de los conectores y motores.
 
 ---
 
