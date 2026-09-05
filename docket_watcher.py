@@ -11,7 +11,7 @@ from typing import Dict, Any, List, Optional
 class DocketWatcherEngine:
     """Motor de análisis de resoluciones judiciales y cálculo de plazos fatales en Chile."""
 
-    TRIGGERS = [
+    TRIGGERS: List[Dict[str, Any]] = [
         {
             "patron": r"rec[ií]base\s+la\s+causa\s+a\s+prueba",
             "tipo_tramite": "AUTO DE PRUEBA / INTERLOCUTORIA DE PRUEBA",
@@ -69,7 +69,7 @@ class DocketWatcherEngine:
         detecciones = []
 
         for trig in DocketWatcherEngine.TRIGGERS:
-            if re.search(trig["patron"], texto_limpio, re.IGNORECASE):
+            if re.search(str(trig["patron"]), texto_limpio, re.IGNORECASE):
                 detecciones.append(trig)
 
         if not detecciones:
@@ -87,7 +87,7 @@ class DocketWatcherEngine:
             "instruccion_abogado": det["instruccion_abogado"],
             "cargas_procesales_y_plazos": det["plazos"],
             "regla_computo": "Plazos de días del CPC son de días hábiles, suspendiéndose los feriados y domingos (Art. 66 CPC). En materia laboral y administrativa rigen reglas especiales de la Ley 19.880.",
-            "alerta_plazo_fatal": any(p.get("fatal") for p in det["plazos"])
+            "alerta_plazo_fatal": any(isinstance(p, dict) and p.get("fatal") for p in det.get("plazos", []))
         }
 
     @staticmethod

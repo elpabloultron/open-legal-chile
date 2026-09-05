@@ -63,6 +63,15 @@ def check_configuration() -> dict:
     }
 
 
+def safe_urlopen(req, timeout: int = 30):
+    """Ejecuta una petición HTTP/HTTPS segura validando que el esquema no sea file:// ni arbitrario."""
+    import urllib.request
+    url = req.full_url if hasattr(req, "full_url") else str(req)
+    if not (url.startswith("http://") or url.startswith("https://")):
+        raise ValueError(f"Esquema de URL no permitido por políticas de seguridad: {url}")
+    return urllib.request.urlopen(req, timeout=timeout)  # nosec B310
+
+
 if __name__ == "__main__":
     status = check_configuration()
     print("\n--- ESTADO DE CONFIGURACIÓN OPEN LEGAL CHILE ---")
