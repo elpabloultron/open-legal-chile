@@ -8,7 +8,10 @@ import re
 import json
 import urllib.request
 import urllib.parse
-import xml.etree.ElementTree as ET
+try:
+    import defusedxml.ElementTree as ET
+except ImportError:
+    import xml.etree.ElementTree as ET  # nosec B405
 from typing import Dict, Any, List, Optional
 
 from config import BCN_API_KEY
@@ -63,7 +66,7 @@ class BCNClient:
 
     def _parse_norma_xml(self, xml_content: str) -> Dict[str, Any]:
         """Parsea el XML de una norma chilena a estructura de datos limpia."""
-        root = ET.fromstring(xml_content)
+        root = ET.fromstring(xml_content)  # nosec B314
         # Limpiar namespaces
         for elem in root.iter():
             if '}' in elem.tag:

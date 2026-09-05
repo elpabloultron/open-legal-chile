@@ -96,7 +96,7 @@ class DoctrinaTokenOptimizer:
         md_lines = [
             f"# {obra.upper()}",
             f"**Tratadista:** {autor} | **Área:** {area.title()} | **Materia:** {capitulo}",
-            f"> 💡 *Ficha Dogmática de Alta Densidad (Token-Optimized) para Open Legal Chile.*",
+            "> 💡 *Ficha Dogmática de Alta Densidad (Token-Optimized) para Open Legal Chile.*",
             "",
             "---",
             ""

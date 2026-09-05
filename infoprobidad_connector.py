@@ -97,7 +97,7 @@ class InfoProbidadClient:
             dts = dl.find_all('dt')
             dds = dl.find_all('dd')
             if dts and dds and len(dts) == len(dds):
-                for dt_el, dd_el in zip(dts, dds):
+                for dt_el, dd_el in zip(dts, dds, strict=False):
                     k = dt_el.get_text(strip=True).rstrip(':')
                     v = dd_el.get_text(strip=True)
                     if k and v and len(k) < 60:
@@ -124,7 +124,7 @@ class InfoProbidadClient:
                 tds = [td.get_text(strip=True) for td in tr.find_all('td')]
                 if tds:
                     if headers and len(headers) == len(tds):
-                        rows.append(dict(zip(headers, tds)))
+                        rows.append(dict(zip(headers, tds, strict=False)))
                     else:
                         rows.append(tds)
             if rows:

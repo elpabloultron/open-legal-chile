@@ -33,6 +33,13 @@ dev = [
   "pytest>=7.0",
   "pytest-asyncio"
 ]
+audit = [
+  "bandit>=1.7.5",
+  "pip-audit>=2.7.0",
+  "ruff>=0.4.0",
+  "radon>=6.0.0",
+  "vulture>=2.11"
+]
 
 [project.scripts]
 openlegal = "openlegal:main"
@@ -55,3 +62,26 @@ include = ["connectors*", "domain*"]
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "doctrina_raw",
+    "exports"
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B"]
+ignore = ["E501", "E722", "E402", "W293", "W291", "F401", "B008", "B904", "B006"]
+
+[tool.bandit]
+exclude_dirs = ["tests", ".venv", "doctrina_raw", "exports"]
+skips = ["B101", "B311"]
+
+[tool.vulture]
+min_confidence = 80
+exclude = [".venv", "tests"]

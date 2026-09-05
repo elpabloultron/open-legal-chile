@@ -119,7 +119,7 @@ class LegalDossierCompiler:
                     p_movil = Path(mobile_preview_path)
                     p_movil.parent.mkdir(parents=True, exist_ok=True)
                     md_pdf.save(str(p_movil))
-                except Exception as e:
+                except Exception:
                     pass
 
             final_doc = pymupdf.open(tmp_main_path)

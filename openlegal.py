@@ -294,9 +294,10 @@ Ejemplos de uso:
   openlegal interview         -> Inicia la entrevista de arranque y perfil del despacho
   openlegal arco              -> Genera respuesta oficial a solicitud de Derechos ARCO
   openlegal inapi [marca]     -> Evalúa factibilidad marcaria y cartas C&D en INAPI
+  openlegal audit             -> Ejecuta la auditoría integral 360° (seguridad, anti-bloat, calidad, tests)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -498,7 +499,7 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
                 {"numero": "PRIMER OTROSÍ", "titulo": "Patrocinio y Poder", "contenido": "Tener presente patrocinio y poder conferido bajo la Ley 18.120 y Ley 20.886."}
             ]
         )
-        print(f"\n✅ Documento exportado con éxito en:")
+        print("\n✅ Documento exportado con éxito en:")
         print(f" • HTML: {res['htmlPath']}")
         print(f" • MD:   {res['markdownPath']}\n")
 
@@ -561,7 +562,7 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
             peticiones="POR TANTO, A US. PIDO tener por interpuesta la acción y acogerla en todas sus partes con costas.",
             otrosies=[{"numero": "PRIMER OTROSÍ", "titulo": "Patrocinio y Poder", "contenido": "Tener presente patrocinio y poder conferido bajo la Ley 18.120 y Ley 20.886."}]
         )
-        print(f"\n✅ Artefacto generado con éxito:")
+        print("\n✅ Artefacto generado con éxito:")
         print(f" • HTML: {res['htmlPath']}")
         print(f" • MD:   {res['markdownPath']}\n")
 
@@ -585,7 +586,7 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
         print_banner()
         texto = " ".join(args.query) if args.query else "Autos para fallo"
         res = DocketWatcherEngine.analizar_resolucion(texto)
-        print(f"🕵️ VIGILANTE PROCESAL — ANÁLISIS DE RESOLUCIÓN:")
+        print("🕵️ VIGILANTE PROCESAL — ANÁLISIS DE RESOLUCIÓN:")
         print(f"Texto: '{texto}'\n" + "-"*60)
         if res.get("encontrado"):
             print(f"⚡ Trámite: {res['tipo_tramite']} (Severidad: {res['severidad']})")
@@ -630,6 +631,14 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
         for m in res['analisis_distintividad']:
             print(f"  • {m}")
         print(f"\n💡 Recomendación: {res['recomendacion']}\n")
+
+    elif args.comando == "audit":
+        audit_script = os.path.join(os.path.dirname(__file__), "audit.sh")
+        if os.path.exists(audit_script):
+            import subprocess
+            subprocess.run(["bash", audit_script])  # nosec B603, B607
+        else:
+            print("❌ No se encontró el script audit.sh")
 
     else:
         menu_interactivo()
