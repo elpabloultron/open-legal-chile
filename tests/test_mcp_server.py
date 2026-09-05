@@ -3,6 +3,7 @@ Pruebas unitarias para el Servidor MCP (Model Context Protocol) de Open Legal Ch
 Verifica que las 13 herramientas forenses cumplan con la especificación JSON-RPC 2.0.
 """
 
+import pytest
 from mcp_server import handle_tool_call, TOOLS
 
 def test_tools_list():
@@ -18,6 +19,8 @@ def test_tools_list():
 def test_bcn_codigo_call():
     """Verifica consulta de artículo del Código Civil en la BCN."""
     res = handle_tool_call("bcn_get_codigo", {"codigo": "civil", "articulo": "1545"})
+    if isinstance(res, dict) and "error" in res and any(w in str(res["error"]).lower() for w in ["timeout", "timed out", "url", "connection", "temporarily"]):
+        pytest.skip(f"Portal BCN no disponible temporalmente en CI: {res['error']}")
     assert isinstance(res, dict)
     assert "articulo" in res or "codigo" in res or "texto" in res
     assert "1545" in str(res.get("articulo", "")) or "contrato" in res.get("texto", "").lower() or "ley" in res.get("texto", "").lower()
@@ -25,6 +28,8 @@ def test_bcn_codigo_call():
 def test_dt_doctrina_call():
     """Verifica consulta de doctrina laboral en la Dirección del Trabajo."""
     res = handle_tool_call("dt_search_doctrina", {"query": "344"})
+    if isinstance(res, dict) and "error" in res and any(w in str(res["error"]).lower() for w in ["timeout", "timed out", "url", "connection", "temporarily"]):
+        pytest.skip(f"Portal DT no disponible temporalmente en CI: {res['error']}")
     assert isinstance(res, list)
     assert len(res) > 0
     assert "titulo" in res[0]
@@ -32,6 +37,8 @@ def test_dt_doctrina_call():
 def test_cgr_jurisprudencia_call():
     """Verifica consulta de dictámenes en la Contraloría."""
     res = handle_tool_call("cgr_search_jurisprudencia", {"query": "confianza legitima"})
+    if isinstance(res, dict) and "error" in res and any(w in str(res["error"]).lower() for w in ["timeout", "timed out", "url", "connection", "temporarily"]):
+        pytest.skip(f"Portal CGR no disponible temporalmente en CI: {res['error']}")
     assert isinstance(res, dict)
     assert "total" in res
     assert "resultados" in res
