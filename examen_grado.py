@@ -14,8 +14,8 @@ from typing import Dict, Any, List, Optional
 try:
     from doctrina_connector import search_doctrina, get_institucion
 except ImportError:
-    search_doctrina = None
-    get_institucion = None
+    search_doctrina = None  # type: ignore[assignment]
+    get_institucion = None  # type: ignore[assignment]
 
 CEDULAS_DATA = {
     "civil": {
@@ -153,11 +153,11 @@ class ExamenGradoEngine:
 
         # Buscar doctrina complementaria si está disponible
         doctrina_extracto = ""
-        if search_doctrina and pregunta_data.get("obra"):
+        if search_doctrina is not None:
             try:
-                res = search_doctrina(pregunta_data["tema"], obra=pregunta_data["obra"], limit=1)
-                if res and res.get("resultados"):
-                    doctrina_extracto = res["resultados"][0]["texto_fragmento"]
+                res = search_doctrina(pregunta_data["tema"], autor=pregunta_data.get("doctrina_autor"), limit=1)
+                if res and isinstance(res, list) and len(res) > 0:
+                    doctrina_extracto = res[0].get("definicion", "") or res[0].get("snippet_contenido", "")
             except Exception:
                 pass
 

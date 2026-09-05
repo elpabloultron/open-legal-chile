@@ -26,28 +26,40 @@ jobs:
       - name: Install Dependencies and Audit Tools
         run: |
           python -m pip install --upgrade pip
-          pip install pytest pytest-asyncio defusedxml bandit pip-audit ruff radon vulture
+          pip install pytest pytest-asyncio defusedxml bandit pip-audit ruff radon vulture semgrep detect-secrets mypy
 
-      - name: 1. Dependency Vulnerability Scan (pip-audit)
+      - name: 1. Dependency Vulnerability Scan (pypa/pip-audit)
         run: |
           pip-audit
 
-      - name: 2. SAST Security Scan (Bandit)
+      - name: 2. SAST Security Scan (PyCQA/bandit)
         run: |
           bandit -r . -x ./tests,./.venv,./doctrina_raw -s B101,B110,B310,B311,B404,B603
 
-      - name: 3. Code Quality & Formatting (Ruff)
+      - name: 3. Semantic SAST Scan (semgrep/semgrep)
+        run: |
+          semgrep scan --config "p/security-audit" --config "p/python" --exclude tests --exclude .venv --exclude doctrina_raw --exclude exports --metrics=off
+
+      - name: 4. Secret & Credential Leak Audit (Yelp/detect-secrets)
+        run: |
+          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json)'
+
+      - name: 5. Strict Type Checking (python/mypy)
+        run: |
+          mypy --ignore-missing-imports docket_watcher.py examen_grado.py clinica_juridica.py privacidad_inapi.py
+
+      - name: 6. Code Quality & Formatting (astral-sh/ruff)
         run: |
           ruff check .
 
-      - name: 4. Anti-Bloat & Dead Code Audit (Vulture / Ponytail philosophy)
+      - name: 7. Anti-Bloat & Dead Code Audit (Ponytail & Vulture)
         run: |
           vulture . --min-confidence 80 --exclude .venv,tests
 
-      - name: 5. Maintainability & Cyclomatic Complexity (Radon)
+      - name: 8. Maintainability & Cyclomatic Complexity (rubik/radon)
         run: |
           radon mi . -s -e ".venv/*,doctrina_raw/*"
 
-      - name: 6. Regression Test Suite (Pytest)
+      - name: 9. Regression Test Suite (pytest-dev/pytest)
         run: |
           pytest tests/ -v

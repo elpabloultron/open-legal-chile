@@ -225,7 +225,7 @@ def search_doctrina(
     words = clean_query.split()
     fts_query = " OR ".join([f'"{w}"' for w in words])
 
-    params = []
+    params: List[Any] = []
 
     sql = """
     SELECT 
@@ -266,7 +266,7 @@ def search_doctrina(
         FROM doctrina_instituciones
         WHERE (institucion LIKE ? OR contenido LIKE ? OR definicion LIKE ?)
         """
-        like_p = [f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%"]
+        like_p: List[Any] = [f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%"]
         if area:
             like_sql += " AND area LIKE ?"
             like_p.append(f"%{area}%")

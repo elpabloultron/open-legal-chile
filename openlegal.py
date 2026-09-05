@@ -537,7 +537,7 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
             },
             "proteccion": {
                 "titulo": "RECURSO DE PROTECCIÓN CONSTITUCIONAL",
-                "tribunal": "I. CORTE DE APELACIONES DE SANTIAGO",
+                "tribunal": "I. CORTE DE APELACIONES DE SANTIAGO",  # pragma: allowlist secret
                 "materia": "GARANTÍAS CONSTITUCIONALES ART. 19 Y 20 CPR"
             },
             "laboral": {
