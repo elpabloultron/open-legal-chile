@@ -124,6 +124,39 @@ class DoctrinaTokenOptimizer:
             if inst.get("efectos"):
                 md_lines.append(f"**Efectos Jurídicos:**  \n{inst['efectos'].strip()}\n")
 
+            if inst.get("operativa_procesal"):
+                op = inst["operativa_procesal"]
+                md_lines.append("**Operativa Procesal Forense:**")
+                if isinstance(op, dict):
+                    if op.get("via_procesal"):
+                        md_lines.append(f"* **Vía Procesal:** {op['via_procesal'].strip()}")
+                    if op.get("tribunal_competente"):
+                        md_lines.append(f"* **Tribunal Competente:** {op['tribunal_competente'].strip()}")
+                    if op.get("legitimacion_activa") or op.get("legitimacion_pasiva") or op.get("legitimacion"):
+                        legit = op.get("legitimacion")
+                        if not legit:
+                            parts = []
+                            if op.get("legitimacion_activa"):
+                                parts.append(f"Activa: {op['legitimacion_activa'].strip()}")
+                            if op.get("legitimacion_pasiva"):
+                                parts.append(f"Pasiva: {op['legitimacion_pasiva'].strip()}")
+                            legit = " | ".join(parts)
+                        md_lines.append(f"* **Legitimación Procesal:** {legit}")
+                    if op.get("carga_probatoria"):
+                        md_lines.append(f"* **Carga Probatoria:** {op['carga_probatoria'].strip()}")
+                    if op.get("medidas_precautorias"):
+                        md_lines.append(f"* **Medidas Precautorias:** {op['medidas_precautorias'].strip()}")
+                    if op.get("plazos_fatales"):
+                        md_lines.append(f"* **Plazos Fatales:** {op['plazos_fatales'].strip()}")
+                    if op.get("defensas_y_excepciones"):
+                        md_lines.append(f"* **Defensas y Excepciones:** {op['defensas_y_excepciones'].strip()}")
+                elif isinstance(op, list):
+                    for item in op:
+                        md_lines.append(f"* {item.strip()}")
+                else:
+                    md_lines.append(str(op).strip())
+                md_lines.append("")
+
             if inst.get("articulos_bcn"):
                 citas = [f"`[BCN - {art}]`" for art in inst["articulos_bcn"]]
                 md_lines.append(f"**Concordancias Legales:** {' '.join(citas)}\n")

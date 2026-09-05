@@ -26,7 +26,7 @@ from doctrina_connector import (
     DB_PATH,
     DOCTRINA_DIR
 )
-from scripts.doctrina_parser import clean_and_optimize_markdown, calculate_token_compression
+from scripts.doctrina_parser import DoctrinaTokenOptimizer, clean_and_optimize_markdown, calculate_token_compression
 from mcp_server import handle_tool_call, TOOLS
 
 
@@ -66,6 +66,74 @@ Atribución patrimonial sin justificación jurídica legítima que impone la obl
     assert "Art. 1437" in inst["concordancias"]
     assert "Rol N° 1.234-2021" in inst["fallo_rector"]
     assert inst["tokens_aprox"] > 10
+
+
+def test_parse_sample_doctrina_file_with_operativa_procesal(tmp_path):
+    """Verifica la extracción estructurada del bloque de Operativa Procesal Forense."""
+    sample_md = tmp_path / "prueba_procesal.md"
+    sample_md.write_text("""# TRATADO DE PRUEBA PROCESAL
+**Tratadista:** Mario Maturana | **Área:** Derecho Procesal | **Materia:** Juicio Sumario
+> 💡 *Base Doctrinal Canónica de Alta Densidad.*
+
+---
+
+## 🏛️ Desahucio Judicial de Inmueble
+**Definición Canónica:**  
+Noticia anticipada que una de las partes da a la otra de su voluntad de poner fin al contrato de arrendamiento.
+
+**Operativa Procesal Forense:**
+* **Vía Procesal:** Juicio Sumario Especial de Arrendamiento (Ley N° 18.101).
+* **Tribunal Competente:** Juez de Letras en lo Civil del lugar donde se encuentra el inmueble.
+* **Carga Probatoria:** Notificación válida del desahucio y acreditación del contrato.
+* **Plazos Fatales:** Audiencia de contestación, conciliación y prueba al 5° día hábil tras la notificación.
+* **Medidas Precautorias:** Retención de bienes y restitución provisional (Art. 290 CPC y Ley 18.101).
+
+**Concordancias Legales:** `[BCN - Ley N° 18.101, Art. 7]` `[BCN - Código Civil, Art. 1951]`  
+**Criterio Jurisprudencial Rector:** `[CS - Rol N° 5.555-2022]`
+""", encoding="utf-8")
+
+    instituciones = parse_doctrina_file(str(sample_md))
+    assert len(instituciones) == 1
+    inst = instituciones[0]
+    assert inst["operativa_procesal"] != ""
+    assert "Ley N° 18.101" in inst["operativa_procesal"]
+    assert "Audiencia de contestación" in inst["operativa_procesal"]
+    assert "Juez de Letras en lo Civil" in inst["operativa_procesal"]
+
+
+def test_doctrina_parser_format_high_density_procesal():
+    """Verifica que format_to_high_density_md compile adecuadamente la dimensión procesal."""
+    optimizer = DoctrinaTokenOptimizer()
+    insts = [
+        {
+            "nombre": "Acción Pauliana",
+            "definicion": "Acción que compete al acreedor para revocar actos del deudor en fraude.",
+            "requisitos": ["Perjuicio del acreedor", "Fraude pauliano"],
+            "operativa_procesal": {
+                "via_procesal": "Juicio Ordinario de Mayor Cuantía (Art. 254 CPC)",
+                "tribunal_competente": "Juez de Letras en lo Civil (Art. 134 COT)",
+                "legitimacion_activa": "Acreedores cuyo crédito sea anterior",
+                "legitimacion_pasiva": "Deudor y adquirente de mala fe",
+                "carga_probatoria": "Acreedor debe probar el consilium fraudis (Art. 1698 CC)",
+                "medidas_precautorias": "Prohibición de celebrar actos y contratos (Art. 290 N° 4 CPC)",
+                "plazos_fatales": "Prescribe en un año contado desde la fecha del acto (Art. 2468 CC)",
+                "defensas_y_excepciones": "Falta de fraude o prescripción anual de corto tiempo"
+            },
+            "articulos_bcn": ["Código Civil, Art. 2468"],
+            "jurisprudencia_rectora": "CS Rol N° 9.999-2021"
+        }
+    ]
+    md = optimizer.format_to_high_density_md(
+        area="civil",
+        autor="René Ramos Pazos",
+        obra="De las Obligaciones",
+        capitulo="Derechos Auxiliares",
+        instituciones=insts
+    )
+    assert "**Operativa Procesal Forense:**" in md
+    assert "Juicio Ordinario de Mayor Cuantía" in md
+    assert "Prescribe en un año" in md
+    assert "Prohibición de celebrar actos y contratos" in md
 
 
 def test_doctrina_parser_cleaner():
@@ -120,6 +188,35 @@ def test_search_doctrina_bm25(temp_doctrina_db):
     res_laboral = search_doctrina("tutela laboral indicios", area="Laboral", db_path=temp_doctrina_db)
     assert len(res_laboral) > 0
     assert "Gamonal" in res_laboral[0]["autor"]
+
+
+def test_search_doctrina_procesal_terms(temp_doctrina_db):
+    """Verifica que FTS5 BM25 indexe y localice conceptos de la dimensión procesal forense."""
+    # Búsqueda por plazo probatorio en sumario precario
+    res_precario = search_doctrina("plazo probatorio precario", area="Civil", db_path=temp_doctrina_db)
+    assert len(res_precario) > 0
+    assert any("Precario" in r["institucion"] for r in res_precario)
+    assert any("8 días" in r.get("operativa_procesal", "") or "probatorio" in r.get("snippet", "").lower() for r in res_precario)
+
+    # Búsqueda por medida precautoria prohibición de celebrar contratos
+    res_cautelar = search_doctrina("prohibición de celebrar actos y contratos", db_path=temp_doctrina_db)
+    assert len(res_cautelar) > 0
+    assert any("290" in r.get("operativa_procesal", "") or "290" in r.get("snippet", "") for r in res_cautelar)
+
+    # Búsqueda por orden de no innovar en recursos
+    res_oni = search_doctrina("orden de no innovar apelacion", area="Procesal", db_path=temp_doctrina_db)
+    assert len(res_oni) > 0
+    assert any("Apelación" in r["institucion"] for r in res_oni)
+
+
+def test_get_institucion_includes_operativa_procesal(temp_doctrina_db):
+    """Verifica que get_institucion retorne el campo operativa_procesal con datos forenses reales."""
+    inst = get_institucion("El Juicio de Precario", db_path=temp_doctrina_db)
+    assert inst is not None
+    assert "operativa_procesal" in inst
+    assert "Juicio Sumario" in inst["operativa_procesal"]
+    assert "8 días" in inst["operativa_procesal"]
+    assert "134 COT" in inst["operativa_procesal"]
 
 
 def test_search_doctrina_by_autor(temp_doctrina_db):

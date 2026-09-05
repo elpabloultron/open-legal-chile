@@ -17,6 +17,15 @@ Acción constitucional de tutela de urgencia, cautelar y sumarísima, de conocim
 4. **Derecho Preexistente e Indubitado:** No procede para resolver derechos controvertidos o litigiosos ordinarios; la titularidad del derecho fundamental amparado debe constar de manera clara e indiscutible.
 5. **Plazo Fatal de Interposición:** **Treinta días corridos** contados desde que el afectado tuvo conocimiento real y efectivo del acto u omisión lesiva (Auto Acordado CS de 2015).
 
+**Operativa Procesal Forense:**
+* **Vía Procesal:** Acción Constitucional de Protección (Art. 20 CPR y Auto Acordado de la Corte Suprema sobre Tramitación y Fallo del Recurso de Protección de 2015). Procedimiento sumario, preferente y desformalizado.
+* **Tribunal Competente:** Corte de Apelaciones respectiva en cuya jurisdicción se haya cometido el acto o incurrido en la omisión arbitraria o ilegal, o donde éstos produzcan sus efectos, a elección del recurrente (Auto Acordado N° 1). Conoce en Sala.
+* **Legitimación Procesal:** Activa: El afectado o cualquier persona en su nombre capaz de parecer en juicio, sin necesidad de poder ni mandato judicial previo. Pasiva: Autoridad pública, persona natural o persona jurídica causante del acto u omisión lesiva.
+* **Carga Probatoria:** El recurrente debe aportar antecedentes que acrediten la existencia del acto u omisión y la titularidad indubitada de la garantía invocada; el tribunal oficia a la recurrida para que evacúe informe documentado en breve plazo.
+* **Medida Cautelar de Urgencia:** Solicitud de Orden de No Innovar (ONI) para suspender de inmediato los efectos del acto impugnado durante la tramitación del recurso.
+* **Plazos Fatales:** Plazo fatal de 30 días corridos desde la ejecución del acto o desde que se tuvo conocimiento cierto; plazo de 5 a 8 días hábiles para evacuar informe del recurrido; recurso de apelación ante la Corte Suprema en el plazo fatal de 5 días hábiles (conoce la Tercera Sala Constitucional).
+* **Defensas y Excepciones Típicas:** Extemporaneidad por expiración del plazo de 30 días corridos; improcedencia por existir litigio o derecho controvertido no indubitado que exige juicio declarativo de lato conocimiento; pérdida de oportunidad por hecho consumado irreversible.
+
 **Concordancias Legales:** `[BCN - CPR, Art. 20]` `[Auto Acordado de la Corte Suprema sobre Tramitación y Fallo del Recurso de Protección de 2015]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 29.814-2018, Fecha: 11-04-2019]` `[CS - Rol N° 8.910-2021, Fecha: 05-08-2021]`
 

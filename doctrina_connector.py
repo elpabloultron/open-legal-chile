@@ -31,6 +31,7 @@ def init_db(db_path: str = DB_PATH) -> sqlite3.Connection:
         institucion TEXT NOT NULL,
         definicion TEXT,
         contenido TEXT NOT NULL,
+        operativa_procesal TEXT,
         concordancias TEXT,
         fallo_rector TEXT,
         filepath TEXT,
@@ -38,11 +39,24 @@ def init_db(db_path: str = DB_PATH) -> sqlite3.Connection:
     );
     """)
 
+    # Verificar si la columna operativa_procesal existe en instalaciones previas
+    cursor.execute("PRAGMA table_info(doctrina_instituciones);")
+    cols = [col[1] for col in cursor.fetchall()]
+    if cols and "operativa_procesal" not in cols:
+        cursor.execute("ALTER TABLE doctrina_instituciones ADD COLUMN operativa_procesal TEXT;")
+
+    # Recrear tabla FTS si no incluye la columna operativa_procesal
+    cursor.execute("SELECT sql FROM sqlite_master WHERE type='table' AND name='doctrina_fts';")
+    fts_row = cursor.fetchone()
+    if fts_row and "operativa_procesal" not in fts_row[0]:
+        cursor.execute("DROP TABLE IF EXISTS doctrina_fts;")
+
     cursor.execute("""
     CREATE VIRTUAL TABLE IF NOT EXISTS doctrina_fts USING fts5(
         institucion,
         definicion,
         contenido,
+        operativa_procesal,
         concordancias,
         fallo_rector,
         area UNINDEXED,
@@ -98,6 +112,14 @@ def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
         )
         definicion = def_match.group(1).strip() if def_match else ""
 
+        # Extraer Operativa Procesal Forense si existe
+        proc_match = re.search(
+            r"\*\*Operativa Procesal Forense:\*\*\s*\n*(.*?)(?=\n\n\*\*|\n\*\*Concordancias|\n\*\*Criterio|\n---\Z|\Z)",
+            cuerpo,
+            re.DOTALL
+        )
+        operativa_procesal = proc_match.group(1).strip() if proc_match else ""
+
         # Extraer Concordancias Legales
         conc_match = re.search(r"\*\*Concordancias Legales:\*\*\s*(.+)", cuerpo)
         concordancias = conc_match.group(1).strip() if conc_match else ""
@@ -117,6 +139,7 @@ def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
             "institucion": titulo,
             "definicion": definicion,
             "contenido": cuerpo,
+            "operativa_procesal": operativa_procesal,
             "concordancias": concordancias,
             "fallo_rector": fallo_rector,
             "filepath": filepath,
@@ -152,11 +175,12 @@ def index_all_doctrina(doctrina_dir: str = DOCTRINA_DIR, db_path: str = DB_PATH)
                     for inst in instituciones:
                         cursor.execute("""
                         INSERT INTO doctrina_instituciones 
-                        (area, autor, obra, materia, institucion, definicion, contenido, concordancias, fallo_rector, filepath, tokens_aprox)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+                        (area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                         """, (
                             inst["area"], inst["autor"], inst["obra"], inst["materia"],
                             inst["institucion"], inst["definicion"], inst["contenido"],
+                            inst["operativa_procesal"],
                             inst["concordancias"], inst["fallo_rector"], inst["filepath"],
                             inst["tokens_aprox"]
                         ))
@@ -164,10 +188,11 @@ def index_all_doctrina(doctrina_dir: str = DOCTRINA_DIR, db_path: str = DB_PATH)
 
                         cursor.execute("""
                         INSERT INTO doctrina_fts 
-                        (rowid, institucion, definicion, contenido, concordancias, fallo_rector, area, autor, obra)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+                        (rowid, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, area, autor, obra)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                         """, (
                             rowid, inst["institucion"], inst["definicion"], inst["contenido"],
+                            inst["operativa_procesal"],
                             inst["concordancias"], inst["fallo_rector"], inst["area"],
                             inst["autor"], inst["obra"]
                         ))
@@ -238,6 +263,7 @@ def search_doctrina(
         area,
         autor,
         obra,
+        operativa_procesal,
         bm25(doctrina_fts) as rank
     FROM doctrina_fts
     WHERE doctrina_fts MATCH ?
@@ -262,11 +288,11 @@ def search_doctrina(
         like_sql = """
         SELECT 
             id, institucion, definicion, SUBSTR(contenido, 1, 300) as snippet_contenido,
-            concordancias, fallo_rector, area, autor, obra, 0 as rank
+            concordancias, fallo_rector, area, autor, obra, operativa_procesal, 0 as rank
         FROM doctrina_instituciones
-        WHERE (institucion LIKE ? OR contenido LIKE ? OR definicion LIKE ?)
+        WHERE (institucion LIKE ? OR contenido LIKE ? OR definicion LIKE ? OR operativa_procesal LIKE ?)
         """
-        like_p: List[Any] = [f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%"]
+        like_p: List[Any] = [f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%"]
         if area:
             like_sql += " AND area LIKE ?"
             like_p.append(f"%{area}%")
@@ -290,7 +316,8 @@ def search_doctrina(
             "area": r[6],
             "autor": r[7],
             "obra": r[8],
-            "bm25_score": round(float(r[9]), 4) if len(r) > 9 else 0.0
+            "operativa_procesal": r[9] if len(r) > 9 else "",
+            "bm25_score": round(float(r[10]), 4) if len(r) > 10 else 0.0
         })
 
     conn.close()
@@ -312,7 +339,7 @@ def get_institucion(
     cursor = conn.cursor()
 
     sql = """
-    SELECT id, area, autor, obra, materia, institucion, definicion, contenido, concordancias, fallo_rector, filepath, tokens_aprox
+    SELECT id, area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox
     FROM doctrina_instituciones
     WHERE institucion LIKE ?
     """
@@ -332,7 +359,7 @@ def get_institucion(
         if matches:
             best_id = matches[0]["id"]
             cursor.execute("""
-            SELECT id, area, autor, obra, materia, institucion, definicion, contenido, concordancias, fallo_rector, filepath, tokens_aprox
+            SELECT id, area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox
             FROM doctrina_instituciones WHERE id = ?
             """, (best_id,))
             row = cursor.fetchone()
@@ -351,10 +378,11 @@ def get_institucion(
         "institucion": row[5],
         "definicion": row[6],
         "contenido": row[7],
-        "concordancias": row[8],
-        "fallo_rector": row[9],
-        "filepath": row[10],
-        "tokens_aprox": row[11]
+        "operativa_procesal": row[8],
+        "concordancias": row[9],
+        "fallo_rector": row[10],
+        "filepath": row[11],
+        "tokens_aprox": row[12]
     }
 
 
@@ -410,6 +438,8 @@ if __name__ == "__main__":
         if inst:
             print(f"🏛️ {inst['institucion']} ({inst['autor']} - {inst['area']})")
             print(f"Definición: {inst['definicion']}")
+            if inst.get("operativa_procesal"):
+                print(f"\n⚖️ Operativa Procesal Forense:\n{inst['operativa_procesal']}")
             print(f"Normas: {inst['concordancias']}")
             print(f"Fallo Rector: {inst['fallo_rector']}")
             print(f"\nContenido:\n{inst['contenido']}")

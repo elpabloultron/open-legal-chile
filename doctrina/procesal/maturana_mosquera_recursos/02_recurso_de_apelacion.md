@@ -18,7 +18,16 @@ Recurso ordinario concedido al litigante agraviado por una resolución judicial 
 2. Fundamentos de derecho y normas infringidas.
 3. **Peticiones Concretas:** Solicitud explícita de cómo debe enmendarse el fallo (la omisión de peticiones concretas acarrea la inadmisibilidad insubsanable del recurso).
 
-**Concordancias Legales:** `[BCN - Código de Procedimiento Civil, Art. 186]` `[BCN - Código de Procedimiento Civil, Art. 187]` `[BCN - Código de Procedimiento Civil, Art. 189]`  
+**Operativa Procesal Forense:**
+* **Vía Procesal:** Recurso ordinario de impugnación de segunda instancia (Arts. 186 y siguientes del CPC).
+* **Tribunal Competente:** Se deduce por escrito ante el tribunal *a quo* que dictó la resolución (Juez de Letras en lo Civil, Juzgado de Familia o Letras del Trabajo) para ser conocido y resuelto por el tribunal superior jerárquico *ad quem* (Corte de Apelaciones respectiva, en Sala previa vista de la causa o en cuenta según la ley).
+* **Legitimación Procesal:** Activa: Parte litigante que haya sufrido agravio procesal o perjuicio sustantivo irreparable con lo resuelto (la parte totalmente vencedora carece de legitimación por ausencia de agravio).
+* **Carga de Fundamentación:** Carga ineludible de formular peticiones concretas (Art. 189 CPC) y fundamentar el agravio fáctico y legal; su omisión es sancionada con la inadmisibilidad de plano en cuenta por la Corte.
+* **Medida Cautelar de Suspensión:** Solicitud de Orden de No Innovar (ONI) ante la Corte de Apelaciones cuando el recurso fue concedido en el solo efecto devolutivo, para paralizar la ejecución provisoria en primera instancia (Art. 192 CPC).
+* **Plazos Fatales:** 10 días hábiles fatales para sentencias definitivas civiles; 5 días hábiles para interlocutorias civiles (Art. 189 CPC); 5 días hábiles fatales para sentencias definitivas laborales (Art. 476 CT). La Ley N° 21.394 eliminó la carga de hacerse parte en segunda instancia.
+* **Defensas de la Contraparte:** Solicitud de declaración de inadmisibilidad por extemporaneidad o carencia de peticiones concretas (Art. 213 CPC); alegación de falta de gravamen irreparable; adhesión a la apelación (Art. 216 CPC).
+
+**Concordancias Legales:** `[BCN - Código de Procedimiento Civil, Art. 186]` `[BCN - Código de Procedimiento Civil, Art. 187]` `[BCN - Código de Procedimiento Civil, Art. 189]` `[BCN - Código de Procedimiento Civil, Art. 192]` `[BCN - Ley N° 21.394, Art. 1]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 19.820-2020, Fecha: 11-10-2021]`
 
 ---
