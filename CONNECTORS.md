@@ -27,14 +27,23 @@ Además, la herramienta forense `export_brief_ojv` (módulo `exporters.py`) gene
 4. **Degradación elegante** — ante fallo de red o ausencia de credenciales, retornar estructura vacía consistente o `{"error": ...}` sin romper la sesión.
 5. **Caché local por directorio** — cada conector cachea en `<institucion>_cache/` para funcionamiento offline y ahorro de cuota.
 
-## Credenciales
+## 🔑 Credenciales y Acceso a Datos Estatales
 
-| Conector | Requiere credencial | Variable `.env` |
-|----------|--------------------|-----------------|
-| BCN | API key (solo API v1; el XML público no la requiere) | `BCN_API_KEY` |
-| CNE | Email + contraseña de Energía Abierta | `CNE_EMAIL`, `CNE_PASSWORD` |
-| CGR, DT, Panel, CMF, SII, SMA, TDLC | No (abiertas) | — |
-| PJUD | No (base local indexada) | — |
+| Conector Oficial | ¿Requiere Clave / API Key? | Estado por Defecto |
+|---|---|---|
+| **BCN Ley Chile** | ❌ **No.** Consulta el XML oficial público sin clave ni registro. | 100% Libre y Operativo |
+| **CGR Contraloría** | ❌ **No.** API de jurisprudencia administrativa abierta al público. | 100% Libre y Operativo |
+| **DT Dirección del Trabajo** | ❌ **No.** Catálogo de dictámenes y doctrina laboral abierto. | 100% Libre y Operativo |
+| **PJUD Corte Suprema / TC** | ❌ **No.** Base jurisprudencial indexada localmente. | 100% Libre y Operativo |
+| **CMF Mercado Financiero** | ❌ **No.** Consulta web oficial de normas y circulares abierta. | 100% Libre y Operativo |
+| **SII Tributario** | ❌ **No.** Índices de circulares e instrucciones públicas. | 100% Libre y Operativo |
+| **SMA SNIFA Ambiental** | ❌ **No.** Sistema Nacional de Información de Fiscalización Ambiental abierto. | 100% Libre y Operativo |
+| **TDLC Libre Competencia** | ❌ **No.** Sentencias públicas abiertas. | 100% Libre y Operativo |
+| **Panel de Expertos** | ❌ **No.** Discrepancias y dictámenes del sector eléctrico abiertos. | 100% Libre y Operativo |
+| **CNE Energía Abierta** | ❌ **No** para capacidad instalada y proyectos; opcional cuenta CNE para API privada. | 100% Libre y Operativo |
+
+> 📌 **Aclaración clave sobre BCN Ley Chile:**
+> **No necesitas pedir ni configurar ninguna API Key de la BCN.** Open Legal Chile utiliza la pasarela oficial de datos abiertos en XML de la Biblioteca del Congreso Nacional (`leychile.cl/Consulta/obtxml`), garantizando acceso irrestricto, libre y gratuito a todo el corpus normativo de la República de Chile.
 
 ## Cómo contribuir un conector nuevo
 
