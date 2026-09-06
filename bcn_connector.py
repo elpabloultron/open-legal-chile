@@ -116,11 +116,13 @@ class BCNClient:
             }
             estructuras.append(item)
 
-            # Detectar número de artículo
-            match = re.search(r'(?:Art[íi]culo|Art\.)\s*([0-9]+(?:\s*(?:bis|ter|quater|quinquies|sexies|septies|octies))?|primero|segundo|tercero|cuarto|quinto)', texto, re.IGNORECASE)
+            # Detectar número de artículo con soporte extendido para sufijos latinos y alfanuméricos (ej. 183-A, 183-B, bis, ter)
+            match = re.search(r'(?:Art[íi]culo|Art\.)\s*([0-9]+(?:\s*[-–]\s*[a-zA-Z]|\s*(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies))?|primero|segundo|tercero|cuarto|quinto)', texto, re.IGNORECASE)
             if match:
-                art_num = match.group(1).lower().strip()
+                art_num = re.sub(r'\s*[-–]\s*', '-', match.group(1).lower().strip())
                 articulos_map[art_num] = texto
+
+        historia_ley_url = f"https://www.bcn.cl/historiadelaley/historia-de-la-ley/vista-expandida/{norma_id}" if norma_id else ""
 
         return {
             "normaId": norma_id,
@@ -129,6 +131,7 @@ class BCNClient:
             "organismo": organismo,
             "fechaVersion": fecha_version,
             "derogado": derogado,
+            "historiaLeyUrl": historia_ley_url,
             "totalEstructuras": len(estructuras),
             "articulos": articulos_map,
             "estructuras": estructuras
@@ -230,6 +233,101 @@ class BCNClient:
             "articulo": articulo,
             "error": f"Artículo {articulo} no encontrado en la Ley {id_ley}."
         }
+
+    def get_ley_historica(self, id_ley: int, fecha_historica: str, articulo: Optional[str] = None, use_cache: bool = True) -> Dict[str, Any]:
+        """Obtiene una ley chilena en una versión temporal histórica específica (YYYY-MM-DD)."""
+        fecha_clean = fecha_historica.strip()
+        cache_key = f"ley_{id_ley}_{fecha_clean}"
+        cache_file = self._get_cache_path("historica", cache_key)
+
+        if use_cache and os.path.exists(cache_file):
+            with open(cache_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        else:
+            xml_data = self._fetch_xml({"opt": 7, "idLey": id_ley, "idVersion": fecha_clean})
+            data = self._parse_norma_xml(xml_data)
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+
+        if articulo:
+            art_str = re.sub(r'\s*[-–]\s*', '-', str(articulo).lower().strip())
+            if art_str in data["articulos"]:
+                return {
+                    "ley": id_ley,
+                    "fechaVersionSolicitada": fecha_clean,
+                    "fechaVersionEfectiva": data["fechaVersion"],
+                    "articulo": articulo,
+                    "texto": data["articulos"][art_str],
+                    "historiaLeyUrl": data.get("historiaLeyUrl", "")
+                }
+            for k, text in data["articulos"].items():
+                if k == art_str or k.startswith(art_str) or f"artículo {art_str}" in text.lower():
+                    return {
+                        "ley": id_ley,
+                        "fechaVersionSolicitada": fecha_clean,
+                        "fechaVersionEfectiva": data["fechaVersion"],
+                        "articulo": k,
+                        "texto": text,
+                        "historiaLeyUrl": data.get("historiaLeyUrl", "")
+                    }
+            return {
+                "ley": id_ley,
+                "fechaVersionSolicitada": fecha_clean,
+                "articulo": articulo,
+                "error": f"Artículo {articulo} no encontrado en la versión histórica {fecha_clean}."
+            }
+
+        return data
+
+    def get_codigo_historico(self, codigo_nombre: str, fecha_historica: str, articulo: Optional[str] = None, use_cache: bool = True) -> Dict[str, Any]:
+        """Obtiene un Código de la República en una versión temporal histórica específica (YYYY-MM-DD)."""
+        c_key = codigo_nombre.lower().strip()
+        if c_key not in CODIGOS_REPUBLICA:
+            raise ValueError(f"Código '{codigo_nombre}' no reconocido. Opciones: {list(CODIGOS_REPUBLICA.keys())}")
+
+        id_norma = int(str(CODIGOS_REPUBLICA[c_key]["idNorma"]))
+        fecha_clean = fecha_historica.strip()
+        cache_key = f"norma_{id_norma}_{fecha_clean}"
+        cache_file = self._get_cache_path("historica", cache_key)
+
+        if use_cache and os.path.exists(cache_file):
+            with open(cache_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        else:
+            xml_data = self._fetch_xml({"opt": 7, "idNorma": id_norma, "idVersion": fecha_clean})
+            data = self._parse_norma_xml(xml_data)
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+
+        if articulo:
+            art_str = re.sub(r'\s*[-–]\s*', '-', str(articulo).lower().strip())
+            if art_str in data["articulos"]:
+                return {
+                    "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
+                    "fechaVersionSolicitada": fecha_clean,
+                    "fechaVersionEfectiva": data["fechaVersion"],
+                    "articulo": articulo,
+                    "texto": data["articulos"][art_str],
+                    "historiaLeyUrl": data.get("historiaLeyUrl", "")
+                }
+            for k, text in data["articulos"].items():
+                if k == art_str or k.startswith(art_str) or f"artículo {art_str}" in text.lower():
+                    return {
+                        "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
+                        "fechaVersionSolicitada": fecha_clean,
+                        "fechaVersionEfectiva": data["fechaVersion"],
+                        "articulo": k,
+                        "texto": text,
+                        "historiaLeyUrl": data.get("historiaLeyUrl", "")
+                    }
+            return {
+                "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
+                "fechaVersionSolicitada": fecha_clean,
+                "articulo": articulo,
+                "error": f"Artículo {articulo} no encontrado en la versión del código al {fecha_clean}."
+            }
+
+        return data
 
     def search(self, query: str, limit: int = 5) -> List[Dict[str, Any]]:
         """Búsqueda de normas chilenas por número de ley, palabra clave frecuente o código de la República."""

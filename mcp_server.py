@@ -41,6 +41,12 @@ from examen_grado import ExamenGradoEngine
 from docket_watcher import DocketWatcherEngine
 from clinica_juridica import ClinicaJuridicaEngine
 from privacidad_inapi import PrivacyARCOEngine, INAPIEngine
+from cbr_titles import CBRTitleStudyEngine, JudicialPowerVerifier
+from entes_publicos import validar_rut, consultar_ente, listar_entes
+from sentencias_parser import SentenciaParserEngine, ProveidosParser
+from tribunales_ambientales_connector import TribunalesAmbientalesClient
+from academia_judicial_connector import AcademiaJudicialClient
+from online_library_sync import OnlineLibrarySyncManager
 
 # Inicializar clientes
 bcn = BCNClient()
@@ -63,6 +69,13 @@ docket_engine = DocketWatcherEngine()
 clinica_engine = ClinicaJuridicaEngine()
 arco_engine = PrivacyARCOEngine()
 inapi_engine = INAPIEngine()
+cbr_engine = CBRTitleStudyEngine()
+power_verifier = JudicialPowerVerifier()
+sentencia_engine = SentenciaParserEngine()
+proveidos_engine = ProveidosParser()
+ambientales_client = TribunalesAmbientalesClient()
+aj_client = AcademiaJudicialClient()
+library_sync_mgr = OnlineLibrarySyncManager()
 
 TOOLS = [
     {
@@ -511,6 +524,181 @@ TOOLS = [
             },
             "required": ["marca_propuesta"]
         }
+    },
+    {
+        "name": "cbr_estudio_titulos",
+        "description": "Audita una cadena de títulos de dominio decenal (10 años, Arts. 2510-2511 Código Civil) e inscripciones CBR detectando rupturas en la tradición, gravámenes no alzados o falta de posesión efectiva.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "inscripciones": {
+                    "type": "array",
+                    "description": "Lista de títulos con propietario, antecesor, anio, fojas, numero, conservador, modo_adquirir, etc.",
+                    "items": {"type": "object"}
+                },
+                "anios_requeridos": {"type": "integer", "description": "Plazo mínimo en años para prescribir (por defecto 10)", "default": 10}
+            },
+            "required": ["inscripciones"]
+        }
+    },
+    {
+        "name": "cbr_checklist_documentos",
+        "description": "Retorna el checklist oficial de documentos requeridos para un estudio de títulos en Chile (GP 30 años, dominio vigente, certificados DOM, TGR).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "tipo_inmueble": {"type": "string", "description": "Tipo de inmueble ('urbano', 'rural', 'condominio', 'departamento')", "default": "urbano"}
+            }
+        }
+    },
+    {
+        "name": "cpc_validar_mandato",
+        "description": "Audita formalmente el texto de un mandato judicial y patrocinio (Ley 18.120), verificando facultades ordinarias (Art. 7 inc. 1) y extraordinarias expresas (Art. 7 inc. 2 CPC).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto_mandato": {"type": "string", "description": "Texto del otrosí de patrocinio y poder o escritura pública de mandato"}
+            },
+            "required": ["texto_mandato"]
+        }
+    },
+    {
+        "name": "bcn_get_ley_historica",
+        "description": "Consulta el texto de una ley chilena vigente en una fecha histórica específica (YYYY-MM-DD) en la BCN para control de derecho intertemporal.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "numero": {"type": "integer", "description": "Número de la ley (ej. 21643)"},
+                "fecha": {"type": "string", "description": "Fecha histórica en formato YYYY-MM-DD (ej. '2024-01-15')"},
+                "articulo": {"type": "string", "description": "Artículo específico a consultar (opcional)"}
+            },
+            "required": ["numero", "fecha"]
+        }
+    },
+    {
+        "name": "bcn_get_codigo_historico",
+        "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en una fecha histórica específica (YYYY-MM-DD) en la BCN.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "codigo": {"type": "string", "description": "Nombre del código (ej. 'trabajo', 'civil', 'cpc')"},
+                "fecha": {"type": "string", "description": "Fecha histórica en formato YYYY-MM-DD"},
+                "articulo": {"type": "string", "description": "Artículo específico (opcional)"}
+            },
+            "required": ["codigo", "fecha"]
+        }
+    },
+    {
+        "name": "rut_validar_chile",
+        "description": "Valida un RUT chileno de persona natural o jurídica usando el algoritmo oficial Módulo 11 y entrega su formato canónico.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "rut": {"type": "string", "description": "RUT chileno a validar (con o sin puntos/guion)"}
+            },
+            "required": ["rut"]
+        }
+    },
+    {
+        "name": "entes_consultar_organo",
+        "description": "Consulta la ley orgánica, facultades fiscalizadoras y vías de reclamo judicial/administrativo de órganos públicos (SII, CMF, CGR, DT, SERNAC, FNE, SMA, CPLT).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "organo": {"type": "string", "description": "Sigla o nombre del órgano público (ej. 'SII', 'CMF', 'DT', 'FNE')"}
+            },
+            "required": ["organo"]
+        }
+    },
+    {
+        "name": "pjud_analizar_sentencia",
+        "description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art. 170 CPC (parte expositiva, considerandos de hecho/derecho, parte resolutiva, votos disidentes y costas Art. 144 CPC).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto_sentencia": {"type": "string", "description": "Texto completo o extracto de la sentencia judicial"}
+            },
+            "required": ["texto_sentencia"]
+        }
+    },
+    {
+        "name": "pjud_interpretar_proveido",
+        "description": "Interpreta el significado jurídico y las cargas procesales de proveídos frecuentes en la tramitación judicial de la OJV ('Téngase presente', 'Como se pide', 'Traslado', 'Autos para fallo').",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto_proveido": {"type": "string", "description": "Texto del proveído o resolución judicial breve"}
+            },
+            "required": ["texto_proveido"]
+        }
+    },
+    {
+        "name": "sii_buscar_resoluciones_y_oficios",
+        "description": "Busca Resoluciones Exentas y Oficios Ordinarios de Jurisprudencia Administrativa del Director del SII (Art. 26 CT).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda tributaria o número de resolución/oficio"},
+                "anios": {"type": "array", "description": "Años a consultar (por defecto 2023 a 2026)", "items": {"type": "integer"}}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "tdlc_buscar_icg_y_dictamenes",
+        "description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda, materia o empresa involucrada"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "cmf_buscar_sanciones",
+        "description": "Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Nombre de la entidad sancionada, infracción o número de resolución"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "ambiental_buscar_jurisprudencia",
+        "description": "Busca en la jurisprudencia de los Tribunales Ambientales (1TA, 2TA, 3TA) y en los Compendios Anuales de Jurisprudencia Ambiental.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Materia ambiental (ej. 'humedales', 'daño ambiental', 'SEIA', 'consulta indigena')"},
+                "tribunal": {"type": "string", "description": "Tribunal específico ('1TA', '2TA', '3TA') (opcional)"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "academia_judicial_buscar_guias",
+        "description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda o materia"},
+                "materia": {"type": "string", "description": "Materia ('Penal', 'Laboral', 'Familia', 'Ética Judicial') (opcional)"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "biblioteca_compilar_manifiesto",
+        "description": "Compila el catálogo y métricas de la biblioteca online de Markdown de doctrina y genera los paquetes para Hugging Face, GitHub y Google Drive.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "generar_bundles": {"type": "boolean", "description": "Si es True, empaqueta el tar.gz y prepara la carpeta para Google Drive", "default": False}
+            }
+        }
     }
 ]
 
@@ -768,6 +956,84 @@ def handle_tool_call(name: str, args: dict) -> Any:
                 marca_propuesta=mar,
                 clase_niza=args.get("clase_niza", "45")
             )
+        elif name == "cbr_estudio_titulos":
+            insc = args.get("inscripciones")
+            if not insc or not isinstance(insc, list):
+                return {"error": "El parámetro 'inscripciones' debe ser una lista de títulos registrales."}
+            return cbr_engine.auditar_cadena_dominio(insc, int(args.get("anios_requeridos", 10)))
+        elif name == "cbr_checklist_documentos":
+            return cbr_engine.checklist_documentacion_cbr(args.get("tipo_inmueble", "urbano"))
+        elif name == "cpc_validar_mandato":
+            txt = args.get("texto_mandato")
+            if not txt:
+                return {"error": "El parámetro 'texto_mandato' es obligatorio."}
+            return power_verifier.auditar_mandato(txt)
+        elif name == "bcn_get_ley_historica":
+            num = int(args.get("numero") or 0)
+            fecha = args.get("fecha")
+            if not num or not fecha:
+                return {"error": "Los parámetros 'numero' y 'fecha' (YYYY-MM-DD) son obligatorios."}
+            return bcn.get_ley_historica(num, fecha, args.get("articulo"))
+        elif name == "bcn_get_codigo_historico":
+            cod = args.get("codigo")
+            fecha = args.get("fecha")
+            if not cod or not fecha:
+                return {"error": "Los parámetros 'codigo' y 'fecha' (YYYY-MM-DD) son obligatorios."}
+            return bcn.get_codigo_historico(cod, fecha, args.get("articulo"))
+        elif name == "rut_validar_chile":
+            rut = args.get("rut")
+            if not rut:
+                return {"error": "El parámetro 'rut' es obligatorio."}
+            return validar_rut(rut)
+        elif name == "entes_consultar_organo":
+            org = args.get("organo")
+            if not org:
+                return {"error": "El parámetro 'organo' es obligatorio."}
+            return consultar_ente(org)
+        elif name == "pjud_analizar_sentencia":
+            txt = args.get("texto_sentencia")
+            if not txt:
+                return {"error": "El parámetro 'texto_sentencia' es obligatorio."}
+            return sentencia_engine.parsear_sentencia(txt)
+        elif name == "pjud_interpretar_proveido":
+            txt = args.get("texto_proveido")
+            if not txt:
+                return {"error": "El parámetro 'texto_proveido' es obligatorio."}
+            return proveidos_engine.interpretar_proveido(txt)
+        elif name == "sii_buscar_resoluciones_y_oficios":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            return sii.search_resoluciones_y_oficios(q, args.get("anios"))
+        elif name == "tdlc_buscar_icg_y_dictamenes":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            return tdlc.search_jurisprudencia(q)
+        elif name == "cmf_buscar_sanciones":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            return cmf.search_sanciones(q)
+        elif name == "ambiental_buscar_jurisprudencia":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            return ambientales_client.search_jurisprudencia(q, args.get("tribunal"))
+        elif name == "academia_judicial_buscar_guias":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            return aj_client.search_guias(q, args.get("materia"))
+        elif name == "biblioteca_compilar_manifiesto":
+            bundles = bool(args.get("generar_bundles", False))
+            manif = library_sync_mgr.compilar_manifiesto_corpus()
+            if bundles:
+                tar = library_sync_mgr.empaquetar_tar_gz()
+                drive = library_sync_mgr.preparar_bundle_google_drive()
+                manif["tar_gz"] = tar
+                manif["drive_bundle"] = drive
+            return manif
         else:
             return {"error": f"Herramienta '{name}' no encontrada."}
     except Exception as e:
