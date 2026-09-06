@@ -14,7 +14,7 @@ Desde cualquier terminal en tu proyecto:
 ```bash
 claude plugin add elpabloultron/open-legal-chile
 ```
-*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 51 herramientas jurídicas.*
+*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 54 herramientas jurídicas.*
 
 #### Opción B: Como Servidor MCP en Claude Code
 ```bash
@@ -145,7 +145,7 @@ print(f'✅ Open Legal Chile Suite activa: {len(tools)} herramientas MCP disponi
 
 Salida esperada:
 ```text
-✅ Open Legal Chile Suite activa: 51 herramientas MCP disponibles.
+✅ Open Legal Chile Suite activa: 54 herramientas MCP disponibles.
 ```
 
 ---

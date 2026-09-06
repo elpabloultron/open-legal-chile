@@ -5,7 +5,7 @@
       "args": [
         "/home/pablo/Escritorio/Ultimaprensa/open-legal-chile/mcp_server.py"
       ],
-      "description": "Suite Integral de Inteligencia y Práctica Jurídica de Chile: 51 Herramientas MCP oficiales (10 Conectores del Estado BCN/CGR/DT/PJUD/SII/CMF/SMA/TDLC/CNE/Panel, Estudio de Títulos Decenal CBR, Mandatos Judiciales Art. 7 CPC, Deconstrucción de Sentencias Art. 170 CPC, Doctrina Canónica FTS5, Guías Academia Judicial, InfoProbidad, Grafos Forenses y Compilador A4).",
+      "description": "Suite Integral de Inteligencia y Práctica Jurídica de Chile: 54 Herramientas MCP oficiales (10 Conectores del Estado BCN/CGR/DT/PJUD/SII/CMF/SMA/TDLC/CNE/Panel, Estudio de Títulos Decenal CBR, Mandatos Art. 7 CPC, Deconstrucción de Sentencias Art. 170 CPC, Doctrina Canónica FTS5, Guías Academia Judicial, Telemetría Ética y Auto-Actualización).",
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONPATH": "/home/pablo/Escritorio/Ultimaprensa/open-legal-chile"

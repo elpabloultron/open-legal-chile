@@ -1,7 +1,7 @@
 {
   "name": "open-legal-chile",
   "version": "1.3.0",
-  "description": "Suite Integral de Inteligencia y Práctica Jurídica para Chile (Civil Law): 51 Herramientas MCP oficiales, 10 conectores del Estado, doctrina canónica en FTS5, guías de la Academia Judicial, estudio de títulos decenal CBR, mandatos Art. 7 CPC y análisis estructural de sentencias.",
+  "description": "Suite Integral de Inteligencia y Práctica Jurídica para Chile (Civil Law): 54 Herramientas MCP oficiales, 10 conectores del Estado, doctrina canónica en FTS5, guías de la Academia Judicial, estudio de títulos decenal CBR, mandatos Art. 7 CPC, telemetría ética y auto-actualizaciones.",
   "author": {
     "name": "Pablo Benavides Jorquera / Open Legal Chile Contributors",
     "url": "https://github.com/elpabloultron/open-legal-chile"
