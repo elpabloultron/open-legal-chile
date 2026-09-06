@@ -795,6 +795,7 @@
         <a href="#bento" class="nav-item">Arquitectura</a>
         <a href="#simulador" class="nav-item">Simulador</a>
         <a href="#herramientas" class="nav-item">54 Herramientas MCP</a>
+        <a href="https://huggingface.co/datasets/open-legal-chile/doctrina-jurisprudencia-chile" class="nav-item" target="_blank" style="display:inline-flex; align-items:center; gap:5px;"><span style="font-size:1.05rem;">🤗</span> Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" class="nav-item" target="_blank">Plugins</a>
       </nav>
 
@@ -832,6 +833,10 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
           <span>Instalar en 1 Clic</span>
         </a>
+        <a href="https://huggingface.co/datasets/open-legal-chile/doctrina-jurisprudencia-chile" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem; border-color: rgba(255, 210, 30, 0.3);">
+          <span style="font-size: 1.1rem; line-height: 1;">🤗</span>
+          <span>Hugging Face Dataset</span>
+        </a>
         <a href="https://pypi.org/project/openlegal-chile/" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem;">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
           <span>PyPI Package</span>
@@ -849,8 +854,8 @@
           <div class="metric-label">Conectores Oficiales</div>
         </div>
         <div class="metric-item">
-          <div class="metric-value">101/101</div>
-          <div class="metric-label">Tests Automatizados</div>
+          <div class="metric-value">58+ Obras</div>
+          <div class="metric-label">Hugging Face Hub</div>
         </div>
         <div class="metric-item">
           <div class="metric-value">~1.279</div>
@@ -878,6 +883,7 @@
             <button class="terminal-tab" onclick="selectTab('vscode')">VS Code / Windsurf</button>
             <button class="terminal-tab" onclick="selectTab('smithery')">Smithery.ai</button>
             <button class="terminal-tab" onclick="selectTab('pip')">Pip / CLI</button>
+            <button class="terminal-tab" onclick="selectTab('huggingface')">🤗 Hugging Face</button>
           </div>
           <div style="width: 50px;"></div>
         </div>
@@ -939,6 +945,15 @@
             </div>
             <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
               Inicia el menú interactivo con 16 módulos o el servidor MCP stdio con <code>openlegal mcp</code>.
+            </p>
+          </div>
+          <div id="tab-huggingface" class="terminal-panel">
+            <div class="code-row">
+              <div class="code-text"><span class="prompt">python></span>from datasets import load_dataset; ds = load_dataset(&apos;open-legal-chile/doctrina-jurisprudencia-chile&apos;)</div>
+              <button class="copy-btn" onclick="copySnippet('from datasets import load_dataset\nds = load_dataset(&quot;open-legal-chile/doctrina-jurisprudencia-chile&quot;)\nprint(ds)')">Copiar Python</button>
+            </div>
+            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
+              Dataset oficial de texto completo en Markdown con frontmatter YAML. 58+ obras canónicas (Vial del Río, Somarriva, Ramos Pazos, López Santa María) y Guías de la Academia Judicial listo para entrenamiento, RAG y embeddings.
             </p>
           </div>
         </div>
@@ -1054,6 +1069,38 @@
             <span class="tag-item">Art. 170 CPC</span>
           </div>
         </div>
+
+        <!-- Card 6: Hugging Face Datasets Hub (Span 12 Hero Bento) -->
+        <div class="bento-card col-span-12" style="background: linear-gradient(180deg, var(--surface) 0%, rgba(26, 23, 16, 0.4) 100%); border-color: rgba(255, 215, 0, 0.18);">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+            <div style="max-width: 720px;">
+              <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; color: #ffd21e; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px;">
+                <span style="font-size: 1.1rem;">🤗</span>
+                <span>Hugging Face Datasets Hub</span>
+              </div>
+              <h3 class="card-title" style="font-size: 1.4rem;">Corpus Oficial de Derecho Chileno en Hugging Face</h3>
+              <p class="card-desc" style="margin-bottom: 16px;">
+                Publicado como dataset libre, abierto e ilimitado en el hub de IA más importante del mundo bajo el repositorio <code>open-legal-chile/doctrina-jurisprudencia-chile</code>. Más de 58 documentos dogmáticos y guías judiciales completas en Markdown optimizado para LLMs con frontmatter YAML estandarizado. Ideal para fine-tuning, RAG y evaluación de modelos jurídicos.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag-item" style="border-color: rgba(255, 210, 30, 0.3); color: #ffd21e;">open-legal-chile/doctrina-jurisprudencia-chile</span>
+                <span class="tag-item">load_dataset()</span>
+                <span class="tag-item">Apache 2.0</span>
+                <span class="tag-item">RAG Ready</span>
+                <span class="tag-item">Google NotebookLM Ready</span>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px; align-self: center;">
+              <a href="https://huggingface.co/datasets/open-legal-chile/doctrina-jurisprudencia-chile" target="_blank" class="btn btn-primary" style="background: #2b2b36; border-color: #ffd21e; color: #ffffff;">
+                <span style="font-size: 1.05rem;">🤗</span>
+                <span>Abrir en Hugging Face</span>
+              </a>
+              <button class="btn btn-ghost" onclick="copySnippet('from datasets import load_dataset\nds = load_dataset(&quot;open-legal-chile/doctrina-jurisprudencia-chile&quot;)\nprint(ds)')">
+                <span>Copiar Snippet Python</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -1147,6 +1194,7 @@
       <div class="footer-links">
         <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" class="footer-link">GitHub</a>
         <a href="https://pypi.org/project/openlegal-chile/" target="_blank" class="footer-link">PyPI</a>
+        <a href="https://huggingface.co/datasets/open-legal-chile/doctrina-jurisprudencia-chile" target="_blank" class="footer-link">Hugging Face</a>
         <a href="https://smithery.ai/server/openlegal-chile" target="_blank" class="footer-link">Smithery</a>
         <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" target="_blank" class="footer-link">Documentación</a>
       </div>
