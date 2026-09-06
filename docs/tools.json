@@ -1,0 +1,332 @@
+[
+  {
+    "name": "bcn_get_codigo",
+    "category": "BCN Normativo",
+    "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN..",
+    "full_description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN."
+  },
+  {
+    "name": "bcn_get_ley",
+    "category": "BCN Normativo",
+    "description": "Consulta el texto oficial y vigente de una ley chilena por su número (ej.",
+    "full_description": "Consulta el texto oficial y vigente de una ley chilena por su número (ej. Ley 21.643 Karin, Ley 21.561 40 Horas, Ley 19.886 Compras Públicas)."
+  },
+  {
+    "name": "cgr_search_jurisprudencia",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR)..",
+    "full_description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR)."
+  },
+  {
+    "name": "cgr_search_auditorias",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la Contraloría (CGR)..",
+    "full_description": "Busca en el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la Contraloría (CGR)."
+  },
+  {
+    "name": "dt_search_doctrina",
+    "category": "Doctrina & Graphify",
+    "description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT)..",
+    "full_description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT)."
+  },
+  {
+    "name": "cne_get_centrales_y_proyectos",
+    "category": "Regulatorio & Fiscal",
+    "description": "Consulta el registro de centrales generadoras activas y proyectos energéticos en el SEA de la Comisión Nacional de Energía (CNE)..",
+    "full_description": "Consulta el registro de centrales generadoras activas y proyectos energéticos en el SEA de la Comisión Nacional de Energía (CNE)."
+  },
+  {
+    "name": "panel_expertos_search",
+    "category": "Suite & Utilidades",
+    "description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica..",
+    "full_description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica."
+  },
+  {
+    "name": "cmf_search_normativa",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF)..",
+    "full_description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF)."
+  },
+  {
+    "name": "sii_search_circulares",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026)..",
+    "full_description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026)."
+  },
+  {
+    "name": "sma_search_sancionatorios",
+    "category": "Suite & Utilidades",
+    "description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA)..",
+    "full_description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA)."
+  },
+  {
+    "name": "tdlc_search_jurisprudencia",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC)..",
+    "full_description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC)."
+  },
+  {
+    "name": "pjud_search_jurisprudencia",
+    "category": "Tribunales & PJUD",
+    "description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC)..",
+    "full_description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC)."
+  },
+  {
+    "name": "export_brief_ojv",
+    "category": "Tribunales & PJUD",
+    "description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html, .md, .txt y .json..",
+    "full_description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html, .md, .txt y .json."
+  },
+  {
+    "name": "ocr_extract_pdf",
+    "category": "Suite & Utilidades",
+    "description": "Extrae texto nativo o ejecuta OCR (Tesseract) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas..",
+    "full_description": "Extrae texto nativo o ejecuta OCR (Tesseract) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas."
+  },
+  {
+    "name": "compile_legal_dossier",
+    "category": "Suite & Utilidades",
+    "description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios y portadas separadoras institucionales..",
+    "full_description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios y portadas separadoras institucionales."
+  },
+  {
+    "name": "infoprobidad_get_dip",
+    "category": "Suite & Utilidades",
+    "description": "Descarga y analiza la Declaración de Intereses y Patrimonio (DIP) de una autoridad pública desde InfoProbidad (CGR/CPLT) por URL o identificador..",
+    "full_description": "Descarga y analiza la Declaración de Intereses y Patrimonio (DIP) de una autoridad pública desde InfoProbidad (CGR/CPLT) por URL o identificador."
+  },
+  {
+    "name": "notebooklm_list_notebooks",
+    "category": "Suite & Utilidades",
+    "description": "Lista los cuadernos de investigación jurídica activos en Google NotebookLM con sus identificadores (notebook_id) y metadatos..",
+    "full_description": "Lista los cuadernos de investigación jurídica activos en Google NotebookLM con sus identificadores (notebook_id) y metadatos."
+  },
+  {
+    "name": "notebooklm_create_notebook",
+    "category": "Suite & Utilidades",
+    "description": "Crea un nuevo cuaderno de investigación jurídica en Google NotebookLM y retorna su URL y notebook_id..",
+    "full_description": "Crea un nuevo cuaderno de investigación jurídica en Google NotebookLM y retorna su URL y notebook_id."
+  },
+  {
+    "name": "notebooklm_add_source",
+    "category": "Suite & Utilidades",
+    "description": "Sube un archivo local (PDF, escrito judicial, Markdown) como fuente documental a un cuaderno de Google NotebookLM..",
+    "full_description": "Sube un archivo local (PDF, escrito judicial, Markdown) como fuente documental a un cuaderno de Google NotebookLM."
+  },
+  {
+    "name": "notebooklm_query",
+    "category": "Suite & Utilidades",
+    "description": "Realiza una consulta fundada (grounded query) con citas sobre los documentos cargados en un cuaderno de NotebookLM..",
+    "full_description": "Realiza una consulta fundada (grounded query) con citas sobre los documentos cargados en un cuaderno de NotebookLM."
+  },
+  {
+    "name": "generar_grafo_vinculos",
+    "category": "Suite & Utilidades",
+    "description": "Construye una red de vínculos societarios, políticos y judiciales entre personas, empresas y organismos, retornando código Mermaid y JSON..",
+    "full_description": "Construye una red de vínculos societarios, políticos y judiciales entre personas, empresas y organismos, retornando código Mermaid y JSON."
+  },
+  {
+    "name": "doctrina_search",
+    "category": "Doctrina & Graphify",
+    "description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda por relevancia semántica FTS5 y BM25..",
+    "full_description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda por relevancia semántica FTS5 y BM25."
+  },
+  {
+    "name": "doctrina_get_institucion",
+    "category": "Doctrina & Graphify",
+    "description": "Recupera la ficha dogmática y forense completa sobre una institución jurídica específica: definición canónica, requisitos copulativos, operativa procesal forense (vía procesal, tribunal competente, legitimación, carga probatoria, medidas precautorias, plazos y excepciones), concordancias legales BCN y fallos rectores..",
+    "full_description": "Recupera la ficha dogmática y forense completa sobre una institución jurídica específica: definición canónica, requisitos copulativos, operativa procesal forense (vía procesal, tribunal competente, legitimación, carga probatoria, medidas precautorias, plazos y excepciones), concordancias legales BCN y fallos rectores."
+  },
+  {
+    "name": "doctrina_list_obras",
+    "category": "Doctrina & Graphify",
+    "description": "Lista todos los tratados y manuales dogmáticos de doctrina chilena indexados en la base de datos de Open Legal Chile con sus autores y estadísticas..",
+    "full_description": "Lista todos los tratados y manuales dogmáticos de doctrina chilena indexados en la base de datos de Open Legal Chile con sus autores y estadísticas."
+  },
+  {
+    "name": "grado_interrogar",
+    "category": "Suite & Utilidades",
+    "description": "Interroga socráticamente al egresado de derecho con preguntas de examen de grado en Chile, evaluando su precisión con la doctrina canónica y códigos..",
+    "full_description": "Interroga socráticamente al egresado de derecho con preguntas de examen de grado en Chile, evaluando su precisión con la doctrina canónica y códigos."
+  },
+  {
+    "name": "grado_generar_cedula",
+    "category": "Suite & Utilidades",
+    "description": "Genera una cédula completa de examen de grado con preguntas, normas vinculadas, doctrina canónica y pauta de evaluación..",
+    "full_description": "Genera una cédula completa de examen de grado con preguntas, normas vinculadas, doctrina canónica y pauta de evaluación."
+  },
+  {
+    "name": "grado_obtener_flashcards",
+    "category": "Suite & Utilidades",
+    "description": "Obtiene fichas mnemotécnicas de definiciones sacramentales y plazos fatales procesales para el examen de grado..",
+    "full_description": "Obtiene fichas mnemotécnicas de definiciones sacramentales y plazos fatales procesales para el examen de grado."
+  },
+  {
+    "name": "vigilante_analizar_resolucion",
+    "category": "Suite & Utilidades",
+    "description": "Analiza una resolución judicial provista en OJV/PJUD, detecta cargas procesales y calcula plazos fatales en días hábiles (Art.",
+    "full_description": "Analiza una resolución judicial provista en OJV/PJUD, detecta cargas procesales y calcula plazos fatales en días hábiles (Art. 66 CPC)."
+  },
+  {
+    "name": "vigilante_radar_normativo",
+    "category": "Suite & Utilidades",
+    "description": "Rastrea publicaciones recientes del Diario Oficial, dictámenes de la Contraloría (CGR) y circulares del SII..",
+    "full_description": "Rastrea publicaciones recientes del Diario Oficial, dictámenes de la Contraloría (CGR) y circulares del SII."
+  },
+  {
+    "name": "vigilante_contrato_plazos",
+    "category": "Suite & Utilidades",
+    "description": "Calcula plazos de preaviso, desahucio y ventanas críticas de renovación automática para contratos civiles y comerciales..",
+    "full_description": "Calcula plazos de preaviso, desahucio y ventanas críticas de renovación automática para contratos civiles y comerciales."
+  },
+  {
+    "name": "clinica_lenguaje_claro",
+    "category": "Suite & Utilidades",
+    "description": "Traduce una resolución judicial chilena densa a lenguaje claro, accesible y empático para usuarios de consultorios jurídicos (CAJ)..",
+    "full_description": "Traduce una resolución judicial chilena densa a lenguaje claro, accesible y empático para usuarios de consultorios jurídicos (CAJ)."
+  },
+  {
+    "name": "clinica_intake_social",
+    "category": "Suite & Utilidades",
+    "description": "Genera la ficha sociojurídica de ingreso para consultorios de asistencia judicial gratuita en materias de familia, civil o laboral..",
+    "full_description": "Genera la ficha sociojurídica de ingreso para consultorios de asistencia judicial gratuita en materias de familia, civil o laboral."
+  },
+  {
+    "name": "clinica_auditar_borrador",
+    "category": "Suite & Utilidades",
+    "description": "Audita formalmente el borrador de un escrito redactado por un pasante antes de la firma electrónica del abogado tutor..",
+    "full_description": "Audita formalmente el borrador de un escrito redactado por un pasante antes de la firma electrónica del abogado tutor."
+  },
+  {
+    "name": "privacidad_tramitar_arco",
+    "category": "Suite & Utilidades",
+    "description": "Procesa y genera el modelo oficial de respuesta a solicitudes de Derechos ARCO bajo la Nueva Ley de Protección de Datos Personales..",
+    "full_description": "Procesa y genera el modelo oficial de respuesta a solicitudes de Derechos ARCO bajo la Nueva Ley de Protección de Datos Personales."
+  },
+  {
+    "name": "inapi_cease_and_desist",
+    "category": "Suite & Utilidades",
+    "description": "Redacta una carta formal de Cese y Desistimiento por infracción de marca comercial (Ley 19.039) o propiedad intelectual (Ley 17.336)..",
+    "full_description": "Redacta una carta formal de Cese y Desistimiento por infracción de marca comercial (Ley 19.039) o propiedad intelectual (Ley 17.336)."
+  },
+  {
+    "name": "inapi_evaluar_marca",
+    "category": "Suite & Utilidades",
+    "description": "Evalúa preliminarmente la viabilidad y distintividad de una marca comercial en el Clasificador de Niza ante INAPI..",
+    "full_description": "Evalúa preliminarmente la viabilidad y distintividad de una marca comercial en el Clasificador de Niza ante INAPI."
+  },
+  {
+    "name": "cbr_estudio_titulos",
+    "category": "CBR Inmobiliario",
+    "description": "Audita una cadena de títulos de dominio decenal (10 años, Arts.",
+    "full_description": "Audita una cadena de títulos de dominio decenal (10 años, Arts. 2510-2511 Código Civil) e inscripciones CBR detectando rupturas en la tradición, gravámenes no alzados o falta de posesión efectiva."
+  },
+  {
+    "name": "cbr_checklist_documentos",
+    "category": "CBR Inmobiliario",
+    "description": "Retorna el checklist oficial de documentos requeridos para un estudio de títulos en Chile (GP 30 años, dominio vigente, certificados DOM, TGR)..",
+    "full_description": "Retorna el checklist oficial de documentos requeridos para un estudio de títulos en Chile (GP 30 años, dominio vigente, certificados DOM, TGR)."
+  },
+  {
+    "name": "cpc_validar_mandato",
+    "category": "Tribunales & PJUD",
+    "description": "Audita formalmente el texto de un mandato judicial y patrocinio (Ley 18.120), verificando facultades ordinarias (Art.",
+    "full_description": "Audita formalmente el texto de un mandato judicial y patrocinio (Ley 18.120), verificando facultades ordinarias (Art. 7 inc. 1) y extraordinarias expresas (Art. 7 inc. 2 CPC)."
+  },
+  {
+    "name": "bcn_get_ley_historica",
+    "category": "BCN Normativo",
+    "description": "Consulta el texto de una ley chilena vigente en una fecha histórica específica (YYYY-MM-DD) en la BCN para control de derecho intertemporal..",
+    "full_description": "Consulta el texto de una ley chilena vigente en una fecha histórica específica (YYYY-MM-DD) en la BCN para control de derecho intertemporal."
+  },
+  {
+    "name": "bcn_get_codigo_historico",
+    "category": "BCN Normativo",
+    "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en una fecha histórica específica (YYYY-MM-DD) en la BCN..",
+    "full_description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en una fecha histórica específica (YYYY-MM-DD) en la BCN."
+  },
+  {
+    "name": "rut_validar_chile",
+    "category": "Suite & Utilidades",
+    "description": "Valida un RUT chileno de persona natural o jurídica usando el algoritmo oficial Módulo 11 y entrega su formato canónico..",
+    "full_description": "Valida un RUT chileno de persona natural o jurídica usando el algoritmo oficial Módulo 11 y entrega su formato canónico."
+  },
+  {
+    "name": "entes_consultar_organo",
+    "category": "Suite & Utilidades",
+    "description": "Consulta la ley orgánica, facultades fiscalizadoras y vías de reclamo judicial/administrativo de órganos públicos (SII, CMF, CGR, DT, SERNAC, FNE, SMA, CPLT)..",
+    "full_description": "Consulta la ley orgánica, facultades fiscalizadoras y vías de reclamo judicial/administrativo de órganos públicos (SII, CMF, CGR, DT, SERNAC, FNE, SMA, CPLT)."
+  },
+  {
+    "name": "pjud_analizar_sentencia",
+    "category": "Tribunales & PJUD",
+    "description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art.",
+    "full_description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art. 170 CPC (parte expositiva, considerandos de hecho/derecho, parte resolutiva, votos disidentes y costas Art. 144 CPC)."
+  },
+  {
+    "name": "pjud_interpretar_proveido",
+    "category": "Tribunales & PJUD",
+    "description": "Interpreta el significado jurídico y las cargas procesales de proveídos frecuentes en la tramitación judicial de la OJV ('Téngase presente', 'Como se pide', 'Traslado', 'Autos para fallo')..",
+    "full_description": "Interpreta el significado jurídico y las cargas procesales de proveídos frecuentes en la tramitación judicial de la OJV ('Téngase presente', 'Como se pide', 'Traslado', 'Autos para fallo')."
+  },
+  {
+    "name": "sii_buscar_resoluciones_y_oficios",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca Resoluciones Exentas y Oficios Ordinarios de Jurisprudencia Administrativa del Director del SII (Art.",
+    "full_description": "Busca Resoluciones Exentas y Oficios Ordinarios de Jurisprudencia Administrativa del Director del SII (Art. 26 CT)."
+  },
+  {
+    "name": "tdlc_buscar_icg_y_dictamenes",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG)..",
+    "full_description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG)."
+  },
+  {
+    "name": "cmf_buscar_sanciones",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF..",
+    "full_description": "Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF."
+  },
+  {
+    "name": "ambiental_buscar_jurisprudencia",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en la jurisprudencia de los Tribunales Ambientales (1TA, 2TA, 3TA) y en los Compendios Anuales de Jurisprudencia Ambiental..",
+    "full_description": "Busca en la jurisprudencia de los Tribunales Ambientales (1TA, 2TA, 3TA) y en los Compendios Anuales de Jurisprudencia Ambiental."
+  },
+  {
+    "name": "academia_judicial_buscar_guias",
+    "category": "Doctrina & Graphify",
+    "description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA)..",
+    "full_description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA)."
+  },
+  {
+    "name": "biblioteca_compilar_manifiesto",
+    "category": "Suite & Utilidades",
+    "description": "Compila el catálogo y métricas de la biblioteca online de Markdown de doctrina y genera los paquetes para Hugging Face, GitHub y Google Drive..",
+    "full_description": "Compila el catálogo y métricas de la biblioteca online de Markdown de doctrina y genera los paquetes para Hugging Face, GitHub y Google Drive."
+  },
+  {
+    "name": "suite_telemetria_stats",
+    "category": "Suite & Utilidades",
+    "description": "Consulta estadísticas de adopción, descargas en PyPI, comunidad GitHub y métricas locales de la suite..",
+    "full_description": "Consulta estadísticas de adopción, descargas en PyPI, comunidad GitHub y métricas locales de la suite."
+  },
+  {
+    "name": "suite_verificar_actualizacion",
+    "category": "Suite & Utilidades",
+    "description": "Comprueba si existe una versión más reciente de la Suite en PyPI o GitHub e informa la instrucción en lenguaje natural o comando para actualizarla..",
+    "full_description": "Comprueba si existe una versión más reciente de la Suite en PyPI o GitHub e informa la instrucción en lenguaje natural o comando para actualizarla."
+  },
+  {
+    "name": "suite_auto_update",
+    "category": "Suite & Utilidades",
+    "description": "Ejecuta la actualización automática y segura de Open Legal Chile Suite en el entorno local (vía git pull o pip install --upgrade)..",
+    "full_description": "Ejecuta la actualización automática y segura de Open Legal Chile Suite en el entorno local (vía git pull o pip install --upgrade)."
+  },
+  {
+    "name": "graphify_consulta_subgrafo",
+    "category": "Doctrina & Graphify",
+    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional..",
+    "full_description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional."
+  }
+]
