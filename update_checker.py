@@ -13,6 +13,8 @@ import subprocess
 import urllib.request
 from typing import Dict, Any, Optional, Tuple
 
+from config import safe_urlopen
+
 CURRENT_VERSION = "1.3.0"
 PYPI_URL = "https://pypi.org/pypi/openlegal-chile/json"
 GITHUB_RELEASES_URL = "https://api.github.com/repos/elpabloultron/open-legal-chile/releases/latest"
@@ -58,7 +60,7 @@ def check_for_updates(force: bool = False, timeout: float = 2.0) -> Dict[str, An
 
     try:
         req = urllib.request.Request(PYPI_URL, headers={"User-Agent": "OpenLegalChile-UpdateChecker"})
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with safe_urlopen(req, timeout=timeout) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             info = data.get("info", {})
             latest_version = info.get("version", CURRENT_VERSION)
@@ -70,7 +72,7 @@ def check_for_updates(force: bool = False, timeout: float = 2.0) -> Dict[str, An
                 GITHUB_RELEASES_URL,
                 headers={"User-Agent": "OpenLegalChile-UpdateChecker", "Accept": "application/vnd.github.v3+json"}
             )
-            with urllib.request.urlopen(req_gh, timeout=timeout) as resp_gh:
+            with safe_urlopen(req_gh, timeout=timeout) as resp_gh:
                 data_gh = json.loads(resp_gh.read().decode("utf-8"))
                 latest_version = data_gh.get("tag_name", CURRENT_VERSION).lstrip("v")
                 release_notes = data_gh.get("name", "")
