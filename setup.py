@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="openlegal-chile",
-    version="1.2.0",
-    description="Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de Chile",
+    version="1.3.0",
+    description="Suite Integral de Inteligencia y Práctica Jurídica para el Derecho Continental de Chile",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Pablo Benavides Jorquera / Open Legal Chile Contributors",
@@ -35,7 +35,13 @@ setup(
         "docket_watcher",
         "clinica_juridica",
         "cold_start",
-        "privacidad_inapi"
+        "privacidad_inapi",
+        "cbr_titles",
+        "entes_publicos",
+        "sentencias_parser",
+        "tribunales_ambientales_connector",
+        "academia_judicial_connector",
+        "online_library_sync"
     ],
     install_requires=[
         "requests>=2.28.0",
