@@ -795,7 +795,7 @@
         <a href="#bento" class="nav-item">Arquitectura</a>
         <a href="#simulador" class="nav-item">Simulador</a>
         <a href="#herramientas" class="nav-item">54 Herramientas MCP</a>
-        <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" class="nav-item" target="_blank" style="display:inline-flex; align-items:center; gap:5px;"><span style="font-size:1.05rem;">📚</span> Biblioteca MD</a>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" class="nav-item" target="_blank" style="display:inline-flex; align-items:center; gap:5px;"><span style="font-size:1.05rem;">🤗</span> Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" class="nav-item" target="_blank">Plugins</a>
       </nav>
 
@@ -833,9 +833,9 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
           <span>Instalar en 1 Clic</span>
         </a>
-        <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem; border-color: rgba(0, 102, 255, 0.4);">
-          <span style="font-size: 1.1rem; line-height: 1;">📚</span>
-          <span>Explorar Biblioteca MD</span>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem; border-color: rgba(255, 210, 30, 0.4);">
+          <span style="font-size: 1.1rem; line-height: 1;">🤗</span>
+          <span>Hugging Face Dataset</span>
         </a>
         <a href="https://pypi.org/project/openlegal-chile/" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem;">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
@@ -883,7 +883,8 @@
             <button class="terminal-tab" onclick="selectTab('vscode')">VS Code / Windsurf</button>
             <button class="terminal-tab" onclick="selectTab('smithery')">Smithery.ai</button>
             <button class="terminal-tab" onclick="selectTab('pip')">Pip / CLI</button>
-            <button class="terminal-tab" onclick="selectTab('biblioteca')">📚 Biblioteca MD</button>
+            <button class="terminal-tab" onclick="selectTab('huggingface')">🤗 Hugging Face</button>
+            <button class="terminal-tab" onclick="selectTab('biblioteca')">📚 Git Markdown</button>
           </div>
           <div style="width: 50px;"></div>
         </div>
@@ -947,13 +948,22 @@
               Inicia el menú interactivo con 16 módulos o el servidor MCP stdio con <code>openlegal mcp</code>.
             </p>
           </div>
+          <div id="tab-huggingface" class="terminal-panel">
+            <div class="code-row">
+              <div class="code-text"><span class="prompt">python></span>from datasets import load_dataset; ds = load_dataset(&apos;pablobenavidesj/doctrina-jurisprudencia-chile&apos;)</div>
+              <button class="copy-btn" onclick="copySnippet('from datasets import load_dataset\nds = load_dataset(&quot;pablobenavidesj/doctrina-jurisprudencia-chile&quot;)\nprint(ds)')">Copiar Python</button>
+            </div>
+            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
+              Dataset oficial en Hugging Face Hub. 58 obras canónicas (Vial del Río, Somarriva, Ramos Pazos, López Santa María) y Guías de la Academia Judicial listo para entrenamiento, RAG y evaluación de modelos jurídicos.
+            </p>
+          </div>
           <div id="tab-biblioteca" class="terminal-panel">
             <div class="code-row">
               <div class="code-text"><span class="prompt">$</span>git clone https://github.com/elpabloultron/open-legal-chile.git && ls open-legal-chile/doctrina/</div>
               <button class="copy-btn" onclick="copySnippet('git clone https://github.com/elpabloultron/open-legal-chile.git\nls open-legal-chile/doctrina/')">Copiar Git</button>
             </div>
             <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
-              <strong>58 obras dogmáticas y guías judiciales en Markdown limpio</strong> con metadatos YAML. 30.003 palabras sin relleno disponibles de inmediato en GitHub y preparadas para Google NotebookLM, RAG local y sincronización con Hugging Face Hub.
+              <strong>58 obras dogmáticas y guías judiciales en Markdown limpio</strong> con metadatos YAML. 30.003 palabras sin relleno disponibles de inmediato en GitHub y preparadas para Google NotebookLM y RAG local.
             </p>
           </div>
         </div>
@@ -1075,29 +1085,30 @@
           <div style="display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
             <div style="max-width: 720px;">
               <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; color: #ffd21e; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px;">
-                <span style="font-size: 1.1rem;">📚</span>
-                <span>Biblioteca Digital Jurídica en Markdown & Hub</span>
+                <span style="font-size: 1.1rem;">🤗</span>
+                <span>Hugging Face Datasets Hub · Dataset Oficial en Vivo</span>
               </div>
               <h3 class="card-title" style="font-size: 1.4rem;">Corpus Oficial de Doctrina y Guías Judiciales</h3>
               <p class="card-desc" style="margin-bottom: 16px;">
-                Estructurado en Markdown limpio con frontmatter YAML de alta densidad semántica. Más de 58 documentos dogmáticos y guías judiciales completas (Vial del Río, Somarriva, Ramos Pazos, López Santa María, Academia Judicial). Disponible directamente en el repositorio de GitHub y preparado para sincronización con Hugging Face Datasets y Google NotebookLM.
+                Estructurado en Markdown limpio con frontmatter YAML de alta densidad semántica. Más de 58 documentos dogmáticos y guías judiciales completas (Vial del Río, Somarriva, Ramos Pazos, López Santa María, Academia Judicial). Publicado y disponible en <strong>Hugging Face Hub</strong> (<code>pablobenavidesj/doctrina-jurisprudencia-chile</code>) y en GitHub.
               </p>
               <div class="tag-cloud">
-                <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="tag-item" style="border-color: rgba(0, 102, 255, 0.5); color: #60a5fa; text-decoration: none;">GitHub /doctrina/ (En Vivo)</a>
-                <span class="tag-item" style="border-color: rgba(255, 210, 30, 0.3); color: #ffd21e;">open-legal-chile/doctrina-jurisprudencia-chile</span>
+                <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="tag-item" style="border-color: rgba(255, 210, 30, 0.4); color: #ffd21e; text-decoration: none;">🤗 pablobenavidesj/doctrina-jurisprudencia-chile</a>
+                <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="tag-item" style="border-color: rgba(0, 102, 255, 0.5); color: #60a5fa; text-decoration: none;">GitHub /doctrina/</a>
                 <span class="tag-item">58 Obras Canónicas</span>
                 <span class="tag-item">Apache 2.0</span>
                 <span class="tag-item">Google NotebookLM Ready</span>
               </div>
             </div>
             <div style="display: flex; flex-direction: column; gap: 10px; align-self: center;">
-              <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="btn btn-primary" style="background: #0066ff; border-color: #0066ff; color: #ffffff;">
-                <span style="font-size: 1.05rem;">📚</span>
-                <span>Explorar Archivos Markdown</span>
+              <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="btn btn-primary" style="background: #2b2b36; border-color: #ffd21e; color: #ffffff;">
+                <span style="font-size: 1.05rem;">🤗</span>
+                <span>Abrir en Hugging Face</span>
               </a>
-              <button class="btn btn-ghost" onclick="copySnippet('git clone https://github.com/elpabloultron/open-legal-chile.git\ncd open-legal-chile/doctrina')">
-                <span>Copiar Clonar Corpus</span>
-              </button>
+              <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="btn btn-ghost">
+                <span style="font-size: 1.05rem;">📚</span>
+                <span>Ver en GitHub</span>
+              </a>
             </div>
           </div>
         </div>
@@ -1194,6 +1205,7 @@
       <div class="footer-links">
         <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" class="footer-link">GitHub</a>
         <a href="https://pypi.org/project/openlegal-chile/" target="_blank" class="footer-link">PyPI</a>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="footer-link">Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="footer-link">Biblioteca MD</a>
         <a href="https://smithery.ai/server/openlegal-chile" target="_blank" class="footer-link">Smithery</a>
         <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" target="_blank" class="footer-link">Documentación</a>

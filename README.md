@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://elpabloultron.github.io/open-legal-chile/"><img src="https://img.shields.io/badge/Web_Oficial-GitHub_Pages-gold?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web Oficial"/></a>
+  <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-58_Obras_Can%C3%B3nicas-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
@@ -439,7 +440,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ### 🏛️ J. Academia Judicial de Chile y Biblioteca Online de Markdown (`academia_judicial_connector.py` y `online_library_sync.py`)
 * **Guías Oficiales de Formación Judicial:** Ingesta y consulta de las 22+ guías oficiales de `guias.academiajudicial.cl` (Penal, Determinación de Penas, Preparación de Juicio Oral, Familia, Laboral, Ética e Inteligencia Artificial en tribunales).
-* **Biblioteca Online en Markdown:** Publicación y empaquetado gratuito del corpus para Hugging Face Datasets (`open-legal-chile/doctrina-jurisprudencia-chile`), releases comprimidos de GitHub y carpetas estructuradas para Google Drive y Google NotebookLM.
+* **Biblioteca Online en Markdown:** Publicación y empaquetado gratuito del corpus para Hugging Face Datasets ([`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)), releases comprimidos de GitHub y carpetas estructuradas para Google Drive y Google NotebookLM.
 
 ---
 
