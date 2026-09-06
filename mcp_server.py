@@ -699,6 +699,32 @@ TOOLS = [
                 "generar_bundles": {"type": "boolean", "description": "Si es True, empaqueta el tar.gz y prepara la carpeta para Google Drive", "default": False}
             }
         }
+    },
+    {
+        "name": "suite_telemetria_stats",
+        "description": "Consulta estadísticas de adopción, descargas en PyPI, comunidad GitHub y métricas locales de la suite.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+    {
+        "name": "suite_verificar_actualizacion",
+        "description": "Comprueba si existe una versión más reciente de la Suite en PyPI o GitHub e informa la instrucción en lenguaje natural o comando para actualizarla.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "forzar": {"type": "boolean", "description": "Si es True, ignora la caché local de 24 horas y consulta en vivo", "default": False}
+            }
+        }
+    },
+    {
+        "name": "suite_auto_update",
+        "description": "Ejecuta la actualización automática y segura de Open Legal Chile Suite en el entorno local (vía git pull o pip install --upgrade).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {}
+        }
     }
 ]
 
@@ -1034,6 +1060,16 @@ def handle_tool_call(name: str, args: dict) -> Any:
                 manif["tar_gz"] = tar
                 manif["drive_bundle"] = drive
             return manif
+        elif name == "suite_telemetria_stats":
+            from stats_tracker import get_suite_adoption_metrics
+            return get_suite_adoption_metrics()
+        elif name == "suite_verificar_actualizacion":
+            from update_checker import check_for_updates
+            force = bool(args.get("forzar", False))
+            return check_for_updates(force=force)
+        elif name == "suite_auto_update":
+            from update_checker import run_auto_update
+            return run_auto_update()
         else:
             return {"error": f"Herramienta '{name}' no encontrada."}
     except Exception as e:

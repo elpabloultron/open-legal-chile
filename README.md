@@ -5,13 +5,14 @@
 </p>
 
 <p align="center">
+  <a href="https://elpabloultron.github.io/open-legal-chile/"><img src="https://img.shields.io/badge/Web_Oficial-GitHub_Pages-gold?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web Oficial"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-91%2F91_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-101%2F101_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -21,7 +22,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (51 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-51-herramientas)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (54 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-54-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -76,7 +77,8 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 51 Herramientas Forenses Registradas (v1.3.0 Suite Edition)                         │
+│   • 54 Herramientas Forenses Registradas (v1.3.0 Suite Edition)                         │
+│   • Telemetría Ética de Adopción y Auto-Actualización (stats_tracker.py, update_checker.py)│
 │   • Motor de Estudio de Títulos Decenal CBR (cbr_titles.py)                              │
 │   • Auditor de Mandatos Judiciales Art. 7 CPC (cbr_titles.py)                            │
 │   • Deconstructor Estructural de Sentencias Art. 170 CPC (sentencias_parser.py)         │
@@ -301,6 +303,13 @@ El servidor MCP expone **51 herramientas oficiales** categorizadas funcionalment
 | `academia_judicial_buscar_guias` | `query` *(str)*, `materia` *(str, opc)* | Busca en las Guías Oficiales de Formación y Buenas Prácticas Judiciales de la Academia Judicial (Penal, Determinación de Penas, Laboral, Familia, Ética, IA). |
 | `biblioteca_compilar_manifiesto` | `generar_bundles` *(bool, opc)* | Compila el catálogo y métricas de la biblioteca online de Markdown y genera los paquetes para Hugging Face, GitHub Releases y Google Drive. |
 
+### R. Telemetría Ética, Métricas de Adopción y Actualizaciones Automáticas
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `suite_telemetria_stats` | *(ninguno)* | Consulta estadísticas globales de adopción, descargas en PyPI (pypistats.org), comunidad GitHub y capacidades locales instaladas. |
+| `suite_verificar_actualizacion` | `forzar` *(bool, opc)* | Comprueba en segundo plano si existe una versión más reciente en PyPI o GitHub con instrucciones precisas para agentes de IA. |
+| `suite_auto_update` | *(ninguno)* | Ejecuta la actualización automática y segura de la Suite en el entorno local (vía git pull o pip install --upgrade). |
+
 ---
 
 ## 🏛️ 5. Los 10 Conectores Oficiales del Estado de Chile
@@ -345,14 +354,21 @@ En la tradición jurídica chilena, un manual o tratado nunca es un compendio pu
 Open Legal Chile cuenta con una base dogmática de tratados canónicos indexados en SQLite con búsqueda de texto completo **FTS5 y ranking BM25** (`doctrina.db`):
 
 ### 📖 Tratadistas Canónicos Digitalizados
+* **Teoría General del Acto Jurídico:** Víctor Vial del Río
+* **Derecho Sucesorio y Partición:** Manuel Somarriva Undurraga
+* **Obligaciones y Derecho de Familia:** René Ramos Pazos
+* **Los Contratos (Parte General):** Jorge López Santa María
 * **Bienes y Derechos Reales:** Daniel Peñailillo Arévalo
-* **Obligaciones y Efectos Contractuales:** René Ramos Pazos
 * **Responsabilidad Extracontractual:** Enrique Barros Bourie
-* **Derecho del Trabajo y Relaciones Laborales:** Sergio Gamonal Contreras
+* **Derecho Comercial, Sociedades (SpA) e Insolvencia:** Ricardo Sandoval López
+* **Bases Fundamentales del Derecho Administrativo:** Eduardo Soto Kloss
 * **Derecho Administrativo General:** Jorge Bermúdez Soto
-* **Derecho Penal (Parte General):** Enrique Cury Urzúa
+* **Disposiciones Comunes y Juicio Ordinario:** Alejandro Romero Seguel y Fernando Orellana Torres
 * **Teoría General de los Recursos Procesales:** Mario Mosquera Ruiz y Cristián Maturana Miquel
+* **Derecho Penal (Parte General):** Enrique Cury Urzúa
+* **Derecho del Trabajo y Relaciones Laborales:** Sergio Gamonal Contreras
 * **Derecho Constitucional y Acciones:** José Luis Cea Egaña
+* **Buenas Prácticas Judiciales y Formación:** Academia Judicial de Chile (15 Guías Oficiales)
 
 ### 🏛️ Los 7 Pilares de la Dimensión Procesal Forense
 Cada institución doctrinal no solo define el instituto, sino que detalla su aplicación práctica en tribunales:
@@ -491,6 +507,18 @@ openlegal audit
 
 # Exportar escrito formal OJV a HTML, Markdown y JSON
 openlegal export
+
+# Búsqueda en los tratados canónicos de Derecho Chileno (FTS5 BM25)
+openlegal doctrina "simulacion y error sustancial"
+
+# Consultar las guías de formación de la Academia Judicial
+openlegal guias "determinacion de penas"
+
+# Consultar estadísticas globales de adopción (PyPI / GitHub)
+openlegal stats
+
+# Comprobar y ejecutar la auto-actualización de la Suite
+openlegal update
 
 # Diagnóstico de estado de los conectores
 openlegal check

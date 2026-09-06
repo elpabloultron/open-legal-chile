@@ -41,7 +41,9 @@ setup(
         "sentencias_parser",
         "tribunales_ambientales_connector",
         "academia_judicial_connector",
-        "online_library_sync"
+        "online_library_sync",
+        "stats_tracker",
+        "update_checker"
     ],
     install_requires=[
         "requests>=2.28.0",

@@ -53,7 +53,7 @@ def print_banner():
 def menu_interactivo():
     print_banner()
     while True:
-        print("\n--- MENÚ PRINCIPAL ---")
+        print("\n--- MENÚ PRINCIPAL DE LA SUITE ---")
         print(" [1] 📜 BCN Ley Chile: Consultar Leyes o Códigos de la República")
         print(" [2] 🏛️ Contraloría (CGR): Buscar Dictámenes, Auditorías e Instructivos")
         print(" [3] 💼 Dirección del Trabajo (DT): Buscar Dictámenes y Doctrina Laboral")
@@ -63,9 +63,16 @@ def menu_interactivo():
         print(" [7] 🌱 SMA / SNIFA: Procedimientos Sancionatorios Ambientales")
         print(" [8] 🛒 TDLC: Sentencias de Libre Competencia")
         print(" [9] 🔍 Búsqueda Jurídica Universal (Busca en todos los organismos a la vez)")
+        print(" [10] 📚 Doctrina Canónica FTS5: Buscar en Tratados Chilenos Digitalizados")
+        print(" [11] ⚖️ Academia Judicial: Consultar Guías Oficiales de Formación Judicial")
+        print(" [12] 🏡 Propiedad & CBR: Estudio de Títulos Decenal y Mandatos Art. 7 CPC")
+        print(" [13] 📄 Sentencias PJUD: Deconstrucción Estructural Art. 170 CPC y Proveídos OJV")
+        print(" [14] 🌐 Biblioteca Digital: Sincronizar Datasets Markdown (HuggingFace/Drive)")
+        print(" [15] 📊 Estadísticas de Uso: Descargas PyPI, GitHub y Telemetría Ética")
+        print(" [16] 🔄 Actualizaciones: Comprobar versión más reciente y auto-actualizar")
         print(" [0] 🚪 Salir")
 
-        opc = input("\n👉 Selecciona una opción (0-9): ").strip()
+        opc = input("\n👉 Selecciona una opción (0-16): ").strip()
 
         if opc == "0":
             print("\n👋 ¡Hasta luego! Cerrando Open Legal Chile.\n")
@@ -269,6 +276,141 @@ def menu_interactivo():
             except Exception:
                 pass
 
+        elif opc == "10":
+            print("\n--- 📚 DOCTRINA CANÓNICA FTS5 ---")
+            q = input("Ingresa institución o término dogmático (ej. 'error sustancial', 'posesion efectiva', 'imprevision'): ").strip()
+            try:
+                from doctrina_connector import search_doctrina
+                res = search_doctrina(q, limit=5)
+                print(f"\n🔍 Instituciones dogmáticas encontradas: {len(res)}")
+                for idx, item in enumerate(res):
+                    print(f"\n[{idx+1}] 🏛️ {item.get('institucion')} — {item.get('autor')} ({item.get('area')})")
+                    print(f"  📖 Obra: {item.get('obra')}")
+                    if item.get('definicion'):
+                        print(f"  📜 Definición: {item.get('definicion')[:220]}...")
+                    if item.get('concordancias'):
+                        print(f"  🔗 Concordancias: {item.get('concordancias')}")
+            except Exception as e:
+                print("Error:", e)
+
+        elif opc == "11":
+            print("\n--- ⚖️ ACADEMIA JUDICIAL DE CHILE ---")
+            q = input("Materia o término a buscar (ej. 'penas', 'juicio oral', 'laboral', o presiona Enter para listar): ").strip()
+            try:
+                from academia_judicial_connector import AcademiaJudicialClient
+                aj_client = AcademiaJudicialClient()
+                res = aj_client.buscar_guias(q)
+                print(f"\n📚 Guías Oficiales encontradas: {len(res)}")
+                for idx, g in enumerate(res[:6]):
+                    print(f"\n[{idx+1}] 📘 {g.get('titulo')} [{g.get('materia')}]")
+                    print(f"  📄 Descripción: {g.get('descripcion')}")
+                    print(f"  🔗 PDF Oficial: {g.get('url_pdf')}")
+            except Exception as e:
+                print("Error:", e)
+
+        elif opc == "12":
+            print("\n--- 🏡 PROPIEDAD, CBR Y MANDATOS ART. 7 CPC ---")
+            sub = input("¿Deseas auditar [T]ítulos decenales o [M]andato judicial? (T/M): ").strip().lower()
+            if sub == "m":
+                mandato = input("Pega el texto del otrosí de patrocinio y poder: ").strip()
+                try:
+                    from cbr_titles import JudicialPowerVerifier
+                    res = JudicialPowerVerifier.auditar_patrocinio_y_poder(mandato or "Confiero patrocinio y poder con facultades de ambos incisos del Art. 7 CPC.")
+                    print("\n⚖️ RESULTADO DE AUDITORÍA DE MANDATO JUDICIAL:")
+                    print(f"  • Patrocinio y Poder: {'✅ Válido' if res['cumple_formalidad_patrocinio_poder'] else '❌ Incompleto'}")
+                    print(f"  • Facultades Ordinarias (Art. 7 inc. 1): {'✅ Concedidas' if res['facultades_ordinarias_art7_inc1'] else '⚠️ No mencionadas'}")
+                    print(f"  • Facultades Extraordinarias (Art. 7 inc. 2): {res['facultades_extraordinarias_detectadas']}")
+                    if res['advertencias']:
+                        print(f"  ⚠️ Advertencias: {res['advertencias']}")
+                except Exception as e:
+                    print("Error:", e)
+            else:
+                try:
+                    from cbr_titles import CBRTitleStudyEngine
+                    doc = CBRTitleStudyEngine.generar_checklist_documental("urbano")
+                    print(f"\n📋 CHECKLIST DOCUMENTAL DE ESTUDIO DE TÍTULOS ({doc['total_documentos_requeridos']} documentos):")
+                    for d in doc["checklist_documentos"]:
+                        print(f"  • [{d['prioridad']}] {d['documento']} ({d['emisor']})")
+                except Exception as e:
+                    print("Error:", e)
+
+        elif opc == "13":
+            print("\n--- 📄 SENTENCIAS PJUD Y PROVEÍDOS OJV ---")
+            prov = input("Ingresa proveído OJV para interpretar (o presiona Enter para 'Téngase por contestada la demanda y autos para resolver traslado'): ").strip()
+            try:
+                from sentencias_parser import ProveidosParser
+                res = ProveidosParser.interpretar_proveido(prov or "Téngase por contestada la demanda y autos para resolver traslado.")
+                print(f"\n🏛️ SIGNIFICADO PROCESAL:")
+                print(f"  • Proveído: '{res.get('proveido')}'")
+                print(f"  • Tipo: {res.get('tipo_proveido')}")
+                print(f"  • Efecto Procesal: {res.get('efecto_procesal')}")
+                print(f"  • Carga Procesal: {res.get('carga_procesal')}")
+                print(f"  • Plazo Fatal: {res.get('plazo_fatal')}")
+            except Exception as e:
+                print("Error:", e)
+
+        elif opc == "14":
+            print("\n--- 🌐 BIBLIOTECA DIGITAL EN MARKDOWN ---")
+            try:
+                from online_library_sync import compilar_manifiesto_biblioteca, OnlineLibrarySyncManager
+                man = compilar_manifiesto_biblioteca()
+                print(f"\n📚 MANIFIESTO GENERAL DE LA BIBLIOTECA:")
+                print(f"  • Total Obras/Guías: {man['total_documentos']}")
+                print(f"  • Total Palabras: {man['total_palabras']:,}")
+                print(f"  • Tamaño: {man['total_megabytes']} MB")
+                print(f"  • Formato: Markdown estructurado optimizado para LLMs")
+                acc = input("\n¿Deseas empaquetar en [.tar.gz] para GitHub/Drive? (S/N): ").strip().lower()
+                if acc == "s":
+                    mgr = OnlineLibrarySyncManager()
+                    tar_p = mgr.empaquetar_tar_gz()
+                    print(f"  ✅ Archivo generado: {tar_p}")
+            except Exception as e:
+                print("Error:", e)
+
+        elif opc == "15":
+            print("\n--- 📊 ESTADÍSTICAS GLOBALES DE ADOPCIÓN Y DESCARGAS ---")
+            try:
+                from stats_tracker import get_suite_adoption_metrics
+                m = get_suite_adoption_metrics()
+                pypi = m.get("metricas_pypi", {})
+                gh = m.get("metricas_github", {})
+                loc = m.get("capacidades_locales", {})
+                print(f"\n📦 MÉTRICAS PYPI (pypistats.org):")
+                print(f"  • Descargas último día: {pypi.get('descargas_ultimo_dia')}")
+                print(f"  • Descargas última semana: {pypi.get('descargas_ultima_semana')}")
+                print(f"  • Descargas último mes: {pypi.get('descargas_ultimo_mes')}")
+                print(f"  • Descargas totales estimadas: {pypi.get('descargas_totales_estimadas')}")
+                print(f"\n⭐ COMUNIDAD GITHUB ({gh.get('url')}):")
+                print(f"  • Estrellas: {gh.get('estrellas')} | Forks: {gh.get('forks')}")
+                print(f"\n⚡ CAPACIDADES LOCALES INSTALADAS:")
+                print(f"  • Herramientas MCP Oficiales: {loc.get('herramientas_mcp_oficiales')}")
+                print(f"  • Conectores Oficiales del Estado: {loc.get('conectores_estado')}")
+                print(f"  • Instituciones Doctrinales FTS5: {loc.get('instituciones_doctrinales_indexadas')}")
+                print(f"  • Documentos en Biblioteca Markdown: {loc.get('documentos_biblioteca_markdown')}")
+                print(f"  🛡️ {loc.get('filosofia')}")
+            except Exception as e:
+                print("Error:", e)
+
+        elif opc == "16":
+            print("\n--- 🔄 COMPROBACIÓN DE ACTUALIZACIONES ---")
+            try:
+                from update_checker import check_for_updates, run_auto_update, format_update_banner
+                info = check_for_updates(force=True)
+                print(f"  • Versión instalada: v{info['version_actual']}")
+                print(f"  • Versión disponible en PyPI/GitHub: v{info['version_disponible']}")
+                if info.get("hay_actualizacion"):
+                    print("\n" + format_update_banner(info))
+                    conf = input("\n¿Deseas auto-actualizar ahora automáticamente? (S/N): ").strip().lower()
+                    if conf == "s":
+                        print("⏳ Actualizando Open Legal Chile Suite...")
+                        up_res = run_auto_update()
+                        print(f"  Resultado: {'✅ Éxito' if up_res['exito'] else '⚠️ Advertencia'}")
+                        print(f"  Detalle: {up_res['mensaje']}")
+                else:
+                    print("  ✅ Tienes la última versión disponible instalada.")
+            except Exception as e:
+                print("Error:", e)
+
         input("\n[Presiona Enter para volver al menú principal...]")
 
 
@@ -296,9 +438,13 @@ Ejemplos de uso:
   openlegal arco              -> Genera respuesta oficial a solicitud de Derechos ARCO
   openlegal inapi [marca]     -> Evalúa factibilidad marcaria y cartas C&D en INAPI
   openlegal audit             -> Ejecuta la auditoría integral 360° (seguridad, anti-bloat, calidad, tests)
+  openlegal doctrina "..."    -> Busca en los tratados canónicos de Derecho Chileno (FTS5)
+  openlegal guias "..."       -> Consulta las guías de formación de la Academia Judicial
+  openlegal stats             -> Muestra estadísticas globales de adopción (PyPI/GitHub)
+  openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -308,6 +454,16 @@ Ejemplos de uso:
         import mcp_server
         mcp_server.main()
         return
+
+    # Comprobar actualizaciones en segundo plano (no intrusivo)
+    try:
+        from update_checker import check_for_updates, format_update_banner
+        up_info = check_for_updates()
+        up_banner = format_update_banner(up_info)
+        if up_banner:
+            print(up_banner)
+    except Exception:
+        pass
 
     if args.comando == "chat":
         from chat_engine import LegalChatEngine
@@ -644,6 +800,67 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
             subprocess.run(["bash", audit_script])  # nosec B603, B607
         else:
             print("❌ No se encontró el script audit.sh")
+
+    elif args.comando == "doctrina":
+        from doctrina_connector import search_doctrina
+        print_banner()
+        q = " ".join(args.query) if args.query else "nulidad"
+        res = search_doctrina(q, limit=5)
+        print(f"📚 BÚSQUEDA DOCTRINAL CANÓNICA (FTS5): '{q}'")
+        print(f"Total coincidencias: {len(res)}\n" + "-"*60)
+        for idx, item in enumerate(res):
+            print(f"[{idx+1}] 🏛️ {item.get('institucion')} — {item.get('autor')} ({item.get('area')})")
+            print(f"  📖 {item.get('obra')}")
+            if item.get('definicion'):
+                print(f"  📜 Definición: {item.get('definicion')[:250]}...")
+            if item.get('concordancias'):
+                print(f"  🔗 {item.get('concordancias')}")
+            print()
+
+    elif args.comando == "guias":
+        from academia_judicial_connector import AcademiaJudicialClient
+        print_banner()
+        q = " ".join(args.query) if args.query else ""
+        aj = AcademiaJudicialClient()
+        res = aj.buscar_guias(q)
+        print(f"⚖️ GUÍAS OFICIALES DE LA ACADEMIA JUDICIAL: '{q}'")
+        print(f"Total guías encontradas: {len(res)}\n" + "-"*60)
+        for idx, g in enumerate(res[:8]):
+            print(f"[{idx+1}] 📘 {g.get('titulo')} [{g.get('materia')}]")
+            print(f"  📄 {g.get('descripcion')}")
+            print(f"  🔗 PDF: {g.get('url_pdf')}\n")
+
+    elif args.comando == "stats":
+        from stats_tracker import get_suite_adoption_metrics
+        print_banner()
+        m = get_suite_adoption_metrics()
+        pypi = m.get("metricas_pypi", {})
+        gh = m.get("metricas_github", {})
+        loc = m.get("capacidades_locales", {})
+        print("📊 ESTADÍSTICAS GLOBALES DE ADOPCIÓN Y DESCARGAS (OPEN LEGAL CHILE):")
+        print(f"• PyPI Descargas Hoy: {pypi.get('descargas_ultimo_dia')}")
+        print(f"• PyPI Descargas Última Semana: {pypi.get('descargas_ultima_semana')}")
+        print(f"• PyPI Descargas Último Mes: {pypi.get('descargas_ultimo_mes')}")
+        print(f"• PyPI Total Estimado: {pypi.get('descargas_totales_estimadas')}")
+        print(f"• GitHub Estrellas: {gh.get('estrellas')} | Forks: {gh.get('forks')}")
+        print(f"• Herramientas MCP: {loc.get('herramientas_mcp_oficiales')}")
+        print(f"• Instituciones Doctrinales FTS5: {loc.get('instituciones_doctrinales_indexadas')}")
+        print(f"• Documentos Biblioteca Markdown: {loc.get('documentos_biblioteca_markdown')}")
+        print(f"🛡️ {loc.get('filosofia')}\n")
+
+    elif args.comando == "update":
+        from update_checker import run_auto_update
+        print_banner()
+        print("⏳ Ejecutando auto-actualización de Open Legal Chile Suite...")
+        res = run_auto_update()
+        if res.get("exito"):
+            print("✅ ¡Actualización completada exitosamente!")
+        else:
+            print("⚠️ Nota sobre la actualización:")
+        print(f"Mensaje: {res.get('mensaje')}")
+        if res.get("salida"):
+            print("\nDetalle:\n" + res.get("salida")[:500])
+        print()
 
     else:
         menu_interactivo()

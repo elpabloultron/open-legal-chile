@@ -225,4 +225,4 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        assert len(TOOLS) == 51
+        assert len(TOOLS) == 54

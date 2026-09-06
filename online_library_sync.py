@@ -13,15 +13,22 @@ import shutil
 from typing import Dict, Any, List, Optional
 
 BASE_DIR = os.path.dirname(__file__)
+DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
 DOCTRINA_RAW = os.path.join(BASE_DIR, "doctrina_raw")
 EXPORTS_DIR = os.path.join(BASE_DIR, "exports", "biblioteca_online_md")
+
+
+def compilar_manifiesto_biblioteca() -> Dict[str, Any]:
+    """Función de conveniencia a nivel de módulo para compilar el manifiesto."""
+    mgr = OnlineLibrarySyncManager()
+    return mgr.compilar_manifiesto_corpus()
 
 
 class OnlineLibrarySyncManager:
     """Gestor de empaquetado, catalogación y publicación de la Biblioteca Jurídica Chilena en Markdown."""
 
-    def __init__(self, raw_dir: str = DOCTRINA_RAW, export_dir: str = EXPORTS_DIR):
-        self.raw_dir = raw_dir
+    def __init__(self, raw_dir: Optional[str] = None, export_dir: str = EXPORTS_DIR):
+        self.raw_dir = raw_dir if raw_dir else DOCTRINA_DIR
         self.export_dir = export_dir
         os.makedirs(self.export_dir, exist_ok=True)
 
