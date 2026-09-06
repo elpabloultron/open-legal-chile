@@ -73,6 +73,122 @@ class SIIClient:
 
         return circulares_list
 
+    def get_resoluciones_por_anio(self, anio: int = 2026, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Descarga e indexa el listado oficial de Resoluciones Exentas del SII para un año específico."""
+        cache_key = f"resoluciones_{anio}"
+        cache_file = self._get_cache_path(cache_key)
+
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+        url = f"{BASE_URL}/resoluciones/{anio}/indres{anio}.htm"
+        headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
+        req = urllib.request.Request(url, headers=headers)
+
+        resoluciones_list = []
+        try:
+            with safe_urlopen(req, timeout=20) as resp:
+                page_html = resp.read().decode("utf-8", errors="ignore")
+                links = re.findall(r'<a[^>]+href=["\']([^"\']+\.pdf)["\'][^>]*>(.*?)</a>', page_html, re.IGNORECASE)
+
+                for link, title in links:
+                    clean_title = html.unescape(re.sub(r'<[^>]+>', '', title).strip())
+                    clean_title = re.sub(r'\s+', ' ', clean_title)
+
+                    num_match = re.search(r'Res(?:oluci[oó]n)?\s*Ex(?:enta)?\s*N[°ºo\.\s]*([0-9]+)', clean_title, re.IGNORECASE)
+                    num = num_match.group(1) if num_match else ""
+
+                    full_pdf_url = link if link.startswith("http") else f"{BASE_URL}/resoluciones/{anio}/{link}"
+
+                    resoluciones_list.append({
+                        "anio": anio,
+                        "tipo": "Resolución Exenta SII",
+                        "numero": num,
+                        "titulo": clean_title,
+                        "pdfUrl": full_pdf_url
+                    })
+
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(resoluciones_list, f, ensure_ascii=False, indent=2)
+
+        except Exception as e:
+            print(f"[Aviso] No se pudieron cargar resoluciones para el año {anio}: {e}")
+
+        return resoluciones_list
+
+    def get_oficios_por_anio(self, anio: int = 2026, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Descarga e indexa la jurisprudencia administrativa (Oficios Ordinarios) del Director del SII (Art. 26 CT)."""
+        cache_key = f"oficios_{anio}"
+        cache_file = self._get_cache_path(cache_key)
+
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+        url = f"{BASE_URL}/jurisprudencia/administrativa/{anio}/indjad{anio}.htm"
+        headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
+        req = urllib.request.Request(url, headers=headers)
+
+        oficios_list = []
+        try:
+            with safe_urlopen(req, timeout=20) as resp:
+                page_html = resp.read().decode("utf-8", errors="ignore")
+                links = re.findall(r'<a[^>]+href=["\']([^"\']+\.htm[l]?|[^"\']+\.pdf)["\'][^>]*>(.*?)</a>', page_html, re.IGNORECASE)
+
+                for link, title in links:
+                    clean_title = html.unescape(re.sub(r'<[^>]+>', '', title).strip())
+                    clean_title = re.sub(r'\s+', ' ', clean_title)
+
+                    if len(clean_title) < 5 or "volver" in clean_title.lower():
+                        continue
+
+                    num_match = re.search(r'Oficio\s*N[°ºo\.\s]*([0-9]+)', clean_title, re.IGNORECASE)
+                    num = num_match.group(1) if num_match else ""
+
+                    full_url = link if link.startswith("http") else f"{BASE_URL}/jurisprudencia/administrativa/{anio}/{link}"
+
+                    oficios_list.append({
+                        "anio": anio,
+                        "tipo": "Oficio Ordinario (Jurisprudencia Administrativa)",
+                        "numero": num,
+                        "titulo": clean_title,
+                        "url": full_url
+                    })
+
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(oficios_list, f, ensure_ascii=False, indent=2)
+
+        except Exception as e:
+            print(f"[Aviso] No se pudieron cargar oficios para el año {anio}: {e}")
+
+        return oficios_list
+
+    def search_resoluciones_y_oficios(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
+        """Busca resoluciones exentas y oficios del SII por número o término tributario."""
+        if not anios:
+            anios = [2026, 2025, 2024, 2023]
+
+        q_lower = query.lower().strip()
+        matches = []
+
+        for yr in anios:
+            for r in self.get_resoluciones_por_anio(yr):
+                if q_lower in r.get("titulo", "").lower() or q_lower == str(r.get("numero", "")).lower():
+                    matches.append(r)
+
+            for o in self.get_oficios_por_anio(yr):
+                if q_lower in o.get("titulo", "").lower() or q_lower == str(o.get("numero", "")).lower():
+                    matches.append(o)
+
+        return matches
+
     def search_circulares(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
         """Busca circulares del SII por número o texto en los años seleccionados (por defecto 2020 a 2026)."""
         if not anios:

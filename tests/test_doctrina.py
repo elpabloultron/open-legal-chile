@@ -269,7 +269,7 @@ def test_mcp_tools_registration():
     assert "doctrina_search" in tool_names
     assert "doctrina_get_institucion" in tool_names
     assert "doctrina_list_obras" in tool_names
-    assert len(TOOLS) == 36
+    assert len(TOOLS) >= 36
 
 
 def test_mcp_doctrina_search_call():

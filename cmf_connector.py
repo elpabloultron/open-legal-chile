@@ -82,6 +82,59 @@ class CMFClient:
 
         return matches
 
+    def get_sanciones(self, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Descarga e indexa el registro de Resoluciones Sancionatorias aplicadas por la CMF."""
+        cache_file = self._get_cache_path("sanciones_cmf")
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+        url = "https://www.cmfchile.cl/portal/prensa/604/w3-propertyvalue-24017.html"
+        headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Financiero Chile)'}
+        req = urllib.request.Request(url, headers=headers)
+
+        sanciones_list = []
+        try:
+            with safe_urlopen(req, timeout=30) as resp:
+                html_content = resp.read().decode("utf-8", errors="ignore")
+                items = re.findall(r'<a[^>]+href=["\']([^"\']*(?:article-[0-9]+|sancion|prensa)[^"\']*)["\'][^>]*>(.*?)</a>', html_content, re.IGNORECASE)
+                seen = set()
+
+                for link, title in items:
+                    clean_title = re.sub(r'<[^>]+>', '', title).strip()
+                    if clean_title and len(clean_title) > 10 and clean_title not in seen:
+                        seen.add(clean_title)
+                        sanciones_list.append({
+                            "tipo": "Resolución Sancionatoria CMF",
+                            "titulo": clean_title,
+                            "url": link if link.startswith("http") else f"https://www.cmfchile.cl{link}"
+                        })
+
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(sanciones_list, f, ensure_ascii=False, indent=2)
+
+        except Exception as e:
+            print(f"[Aviso] No se pudieron cargar sanciones de la CMF: {e}")
+
+        return sanciones_list
+
+    def search_sanciones(self, query: str, limit: int = 15) -> List[Dict[str, Any]]:
+        """Busca en el registro de sanciones y procedimientos sancionatorios de la CMF."""
+        sanciones = self.get_sanciones()
+        q_lower = query.lower().strip()
+        matches = []
+
+        for item in sanciones:
+            if q_lower in item.get("titulo", "").lower():
+                matches.append(item)
+                if len(matches) >= limit:
+                    break
+
+        return matches
+
 
 # ==============================================================================
 # CLI DE CONSULTA RÁPIDA DE NORMATIVA CMF

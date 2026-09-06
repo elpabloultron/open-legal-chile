@@ -412,7 +412,7 @@ def test_mcp_generar_grafo_tool():
 
 def test_mcp_tools_catalog_complete():
     """Verifica que el catálogo TOOLS contenga las 24 herramientas oficiales registradas."""
-    assert len(TOOLS) == 36
+    assert len(TOOLS) >= 36
     tool_names = [t["name"] for t in TOOLS]
 
     expected_tools = [

@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-70%2F70_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-91%2F91_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -21,7 +21,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (36 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-36-herramientas)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (51 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-51-herramientas)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -232,6 +232,45 @@ El servidor MCP expone **36 herramientas oficiales** categorizadas funcionalment
 | `notebooklm_add_source` | `notebook_id`, `file_path`, `title` | Ingesta expedientes, sentencias o doctrina local como fuentes probatorias en el cuaderno. |
 | `notebooklm_query` | `notebook_id`, `prompt` | Ejecuta consultas de alta precisión con citas exactas referenciadas (*grounded citations*). |
 
+### L. Práctica Forense Inmobiliaria, Títulos CBR y Mandato Judicial
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `cbr_estudio_titulos` | `inscripciones` *(list)*, `anios_requeridos` *(int)* | Audita la cadena de dominio decenal (10 años, Arts. 2510-2511 Código Civil) e inscripciones CBR detectando rupturas en la tradición, gravámenes no alzados o falta de posesión efectiva. |
+| `cbr_checklist_documentos` | `tipo_inmueble` *(str)* | Retorna el checklist exhaustivo de documentos obligatorios para estudio de títulos (GP 30 años, dominio vigente, certificados DOM, TGR). |
+| `cpc_validar_mandato` | `texto_mandato` *(str)* | Audita formalmente el otrosí o escritura de patrocinio y poder (Ley N° 18.120), verificando facultades ordinarias (Art. 7 inc. 1) y extraordinarias expresas (Art. 7 inc. 2 CPC: transigir, percibir, desistirse). |
+
+### M. Derecho Intertemporal y Consultas BCN Históricas
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `bcn_get_ley_historica` | `numero` *(int)*, `fecha` *(str)*, `articulo` *(str, opc)* | Consulta el texto de una ley chilena vigente en una fecha histórica específica (`YYYY-MM-DD`) en la BCN para control de ultraactividad y derecho transitorio. |
+| `bcn_get_codigo_historico` | `codigo` *(str)*, `fecha` *(str)*, `articulo` *(str, opc)* | Consulta un Código de la República (Civil, Trabajo, CPC, Penal) en una fecha histórica pasada (`YYYY-MM-DD`). |
+
+### N. Sector Público, Regulación y Verificación de RUT
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `rut_validar_chile` | `rut` *(str)* | Valida algoritmicamente un RUT chileno de persona natural o jurídica usando el algoritmo oficial Módulo 11 y genera formato canónico. |
+| `entes_consultar_organo` | `organo` *(str)* | Consulta la ley orgánica, competencias, facultades fiscalizadoras y vías de reclamo judicial/administrativo de órganos públicos (SII, CMF, CGR, DT, SERNAC, FNE, SMA, CPLT). |
+
+### O. Análisis Forense de Sentencias Judiciales y Proveídos OJV
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `pjud_analizar_sentencia` | `texto_sentencia` *(str)* | Desglosa estructuralmente una sentencia judicial conforme al Art. 170 CPC y Auto Acordado de 1907 (expositiva, considerativa de hecho/derecho, resolutiva, votos disidentes y costas Art. 144 CPC). |
+| `pjud_interpretar_proveido` | `texto_proveido` *(str)* | Interpreta el significado jurídico y las cargas procesales de proveídos frecuentes en la OJV (*"Téngase presente"*, *"Como se pide"*, *"Traslado"*, *"Autos para fallo"*). |
+
+### P. Resoluciones Administrativas y Tribunales Especiales
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `sii_buscar_resoluciones_y_oficios` | `query` *(str)*, `anios` *(list, opc)* | Busca Resoluciones Exentas y Oficios de Jurisprudencia Administrativa del Director del SII (Art. 26 Código Tributario). |
+| `tdlc_buscar_icg_y_dictamenes` | `query` *(str)* | Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG). |
+| `cmf_buscar_sanciones` | `query` *(str)* | Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF. |
+| `ambiental_buscar_jurisprudencia` | `query` *(str)*, `tribunal` *(str, opc)* | Busca en los Compendios Anuales de Jurisprudencia Ambiental y fallos de los Tribunales Ambientales (1TA, 2TA, 3TA). |
+
+### Q. Academia Judicial de Chile y Biblioteca Online de Markdown
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `academia_judicial_buscar_guias` | `query` *(str)*, `materia` *(str, opc)* | Busca en las Guías Oficiales de Formación y Buenas Prácticas Judiciales de la Academia Judicial (Penal, Determinación de Penas, Laboral, Familia, Ética, IA). |
+| `biblioteca_compilar_manifiesto` | `generar_bundles` *(bool, opc)* | Compila el catálogo y métricas de la biblioteca online de Markdown y genera los paquetes para Hugging Face, GitHub Releases y Google Drive. |
+
 ---
 
 ## 🏛️ 5. Los 10 Conectores Oficiales del Estado de Chile
@@ -336,6 +375,24 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 ### 📑 F. Peritaje OCR y Compilador de Expedientes (`forensic_ocr.py` y `pdf_dossier_compiler.py`)
 * **OCR Pericial:** Extracción de texto de fojas escaneadas con preservación de fidelidad documental.
 * **Compilador A4 Foliado:** Ensambla demandas, recursos y anexos probatorios en un expediente único con carátula institucional y foliado electrónico.
+
+### 🏡 G. Estudio de Títulos Inmobiliarios, CBR y Mandato Judicial (`cbr_titles.py`)
+* **Estudio Decenal de Dominio (10 años):** Reglas de prescripción adquisitiva extraordinaria (Arts. 2510 y 2511 Código Civil), saneamiento de vicios y auditoría de los 4 registros del CBR (Propiedad, Hipotecas y Gravámenes, Interdicciones y Prohibiciones, Repertorio).
+* **Detección de Banderas Rojas:** Alerta automática sobre rupturas en la tradición, falta de posesión efectiva o de inscripción especial de herencia (Art. 688 CC), embargos y medidas precautorias.
+* **Auditoría de Mandatos Judiciales (Ley N° 18.120 y Art. 7 CPC):** Verificación de patrocinio habilitado y comprobación expresa de las facultades extraordinarias del Art. 7 inc. 2 CPC (desistirse, transigir, percibir, comprometer).
+
+### ⚖️ H. Analizador Estructural de Sentencias y Proveídos OJV (`sentencias_parser.py`)
+* **Desglose Estructural Art. 170 CPC:** Segmentación automática de sentencias conforme al Auto Acordado de 1907 (parte expositiva, considerandos de hecho y considerandos de derecho, parte resolutiva y votos disidentes o prevenciones).
+* **Régimen de Costas (Art. 144 CPC):** Detección de condena total o exención por haber litigado con motivo plausible.
+* **Intérprete de Proveídos OJV:** Análisis de cargas procesales y efectos jurídicos de decretos de mera tramitación (*"Téngase presente"*, *"Como se pide"*, *"Traslado"*, *"Autos para fallo"*).
+
+### 🌿 I. Tribunales Ambientales y Compendios de Jurisprudencia (`tribunales_ambientales_connector.py`)
+* **Los 3 Tribunales Ambientales (Ley N° 20.600):** Cobertura del 1TA (Antofagasta), 2TA (Santiago) y 3TA (Valdivia).
+* **Compendios Anuales de Jurisprudencia Ambiental:** Catálogo y buscador de anuarios y criterios sistematizados sobre demandas por Daño Ambiental (Art. 17 N° 2), reclamaciones contra la SMA (Art. 17 N° 1 y 3) y humedales urbanos (Ley N° 21.202).
+
+### 🏛️ J. Academia Judicial de Chile y Biblioteca Online de Markdown (`academia_judicial_connector.py` y `online_library_sync.py`)
+* **Guías Oficiales de Formación Judicial:** Ingesta y consulta de las 22+ guías oficiales de `guias.academiajudicial.cl` (Penal, Determinación de Penas, Preparación de Juicio Oral, Familia, Laboral, Ética e Inteligencia Artificial en tribunales).
+* **Biblioteca Online en Markdown:** Publicación y empaquetado gratuito del corpus para Hugging Face Datasets (`open-legal-chile/doctrina-jurisprudencia-chile`), releases comprimidos de GitHub y carpetas estructuradas para Google Drive y Google NotebookLM.
 
 ---
 

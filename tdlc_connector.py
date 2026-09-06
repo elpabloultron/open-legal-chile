@@ -68,22 +68,66 @@ class TDLCClient:
 
     def get_dictamenes(self, page: int = 1, per_page: int = 10, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Obtiene el listado oficial de Dictámenes no contenciosos del TDLC."""
+        cache_key = f"dictamenes_p{page}_s{per_page}"
+        cache_file = self._get_cache_path(cache_key)
+
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
         url = f"{BASE_URL}/dictamenes?page={page}&per_page={per_page}"
         req = urllib.request.Request(url, headers={"User-Agent": "OpenLegalChile/1.0", "Accept": "application/json"})
         try:
             with safe_urlopen(req, timeout=20) as resp:
                 data = json.loads(resp.read().decode("utf-8", errors="ignore"))
-                return [{
+                res = [{
                     "id": item.get("id"),
+                    "tipo": "Dictamen No Contencioso TDLC",
                     "titulo": html.unescape(re.sub(r'<[^>]+>', '', item.get("title", {}).get("rendered", "")).strip()),
                     "fecha": item.get("date", "")[:10],
                     "link": item.get("link", "")
                 } for item in data]
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(res, f, ensure_ascii=False, indent=2)
+                return res
+        except Exception:
+            return []
+
+    def get_instrucciones_generales(self, page: int = 1, per_page: int = 10, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Obtiene las Instrucciones de Carácter General (ICG) emitidas por el TDLC."""
+        cache_key = f"icg_p{page}_s{per_page}"
+        cache_file = self._get_cache_path(cache_key)
+
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+        url = f"{BASE_URL}/instrucciones-generales?page={page}&per_page={per_page}"
+        req = urllib.request.Request(url, headers={"User-Agent": "OpenLegalChile/1.0", "Accept": "application/json"})
+        try:
+            with safe_urlopen(req, timeout=20) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+                res = [{
+                    "id": item.get("id"),
+                    "tipo": "Instrucción de Carácter General (ICG) TDLC",
+                    "titulo": html.unescape(re.sub(r'<[^>]+>', '', item.get("title", {}).get("rendered", "")).strip()),
+                    "fecha": item.get("date", "")[:10],
+                    "link": item.get("link", "")
+                } for item in data]
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(res, f, ensure_ascii=False, indent=2)
+                return res
         except Exception:
             return []
 
     def search_jurisprudencia(self, query: str, max_pages: int = 3) -> List[Dict[str, Any]]:
-        """Busca en sentencias y dictámenes del TDLC por término o empresa involucrada."""
+        """Busca en sentencias, dictámenes e instrucciones generales del TDLC por término o empresa involucrada."""
         q_lower = query.lower().strip()
         matches = []
 
@@ -92,7 +136,18 @@ class TDLCClient:
             for s in sentencias:
                 if q_lower in s.get("titulo", "").lower():
                     matches.append(s)
-            if len(sentencias) < 20:
+
+            dictamenes = self.get_dictamenes(page=p, per_page=20)
+            for d in dictamenes:
+                if q_lower in d.get("titulo", "").lower():
+                    matches.append(d)
+
+            icgs = self.get_instrucciones_generales(page=p, per_page=20)
+            for i in icgs:
+                if q_lower in i.get("titulo", "").lower():
+                    matches.append(i)
+
+            if len(sentencias) < 20 and len(dictamenes) < 20:
                 break
 
         return matches
