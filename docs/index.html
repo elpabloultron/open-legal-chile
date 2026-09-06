@@ -1196,6 +1196,105 @@
       color: rgba(255, 255, 255, 0.5);
     }
 
+
+    /* Mobile Drawer & Button Styles */
+    .mobile-menu-btn {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    .mobile-menu-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .mobile-menu-drawer {
+      display: none;
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 12px;
+      right: 12px;
+      background: rgba(7, 40, 31, 0.96);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 18px;
+      padding: 14px;
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+      opacity: 0;
+      transform: translateY(-8px);
+      pointer-events: none;
+      transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .mobile-menu-drawer.is-open {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    .mobile-nav-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .mobile-nav-item {
+      display: flex;
+      align-items: center;
+      padding: 11px 14px;
+      border-radius: 10px;
+      color: rgba(255, 255, 255, 0.88);
+      text-decoration: none;
+      font-size: 14.5px;
+      font-weight: 500;
+      transition: background 0.15s ease;
+    }
+
+    .mobile-nav-item:hover, .mobile-nav-item:active {
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+    }
+
+    .mobile-cta-item {
+      background: var(--brand) !important;
+      color: #062a22 !important;
+      font-weight: 700 !important;
+      margin-top: 6px;
+      justify-content: center;
+    }
+
+    /* Base Responsive Improvements */
+    html, body {
+      overflow-x: hidden;
+      width: 100%;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Touch Horizontal Scroll Utilities */
+    .touch-scroll-x {
+      display: flex;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .touch-scroll-x::-webkit-scrollbar {
+      display: none;
+    }
+
     /* Responsive Breakpoints */
     @media (max-width: 992px) {
       .hero-container { grid-template-columns: 1fr; gap: 36px; }
@@ -1205,15 +1304,414 @@
       .doctrina-grid { grid-template-columns: 1fr 1fr; }
       .bento-grid { grid-template-columns: 1fr; }
       .footer-container { grid-template-columns: 1fr 1fr; }
+      .pillars-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
     }
 
-    @media (max-width: 640px) {
-      .nav-links { display: none; }
-      .adoption-grid { grid-template-columns: 1fr; }
-      .doctrina-grid { grid-template-columns: 1fr; }
-      .footer-container { grid-template-columns: 1fr; }
-      .node-relations-grid { grid-template-columns: 1fr; }
+    @media (max-width: 768px) {
+      /* Header */
+      .header-nav {
+        padding: 10px 12px;
+        width: 100%;
+      }
+      .header-pill {
+        width: 100%;
+        max-width: 100%;
+        padding: 6px 12px;
+        justify-content: space-between;
+      }
+      .nav-links, .nav-divider, .desktop-only {
+        display: none !important;
+      }
+      .mobile-menu-btn {
+        display: inline-flex;
+      }
+      .mobile-menu-drawer {
+        display: block;
+      }
+
+      /* Hero Section */
+      .hero-scope {
+        padding: 85px 16px 40px;
+        min-height: auto;
+      }
+      .hero-container {
+        gap: 28px;
+      }
+      .hero-h1 {
+        font-size: clamp(2.3rem, 10vw, 3.4rem);
+        margin-bottom: 12px;
+        line-height: 1.02;
+      }
+      .hero-subh1 {
+        font-size: clamp(1.05rem, 4.5vw, 1.4rem);
+        margin-bottom: 16px;
+        line-height: 1.3;
+      }
+      .hero-p {
+        font-size: 14.5px;
+        line-height: 1.5;
+        margin-bottom: 22px;
+      }
+      .hero-eyebrow {
+        font-size: 11px;
+        flex-wrap: wrap;
+        gap: 4px 6px;
+      }
+      .hero-ctas {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+      }
+      .btn-hero-primary, .btn-hero-secondary {
+        width: 100%;
+        justify-content: center;
+        min-height: 46px;
+        font-size: 14px;
+        text-align: center;
+      }
+      .hero-trust {
+        flex-direction: column;
+        gap: 4px;
+        font-size: 11.5px;
+        text-align: center;
+      }
+      .hero-right {
+        width: 100%;
+        max-width: 100%;
+      }
+      .hero-card-showcase {
+        width: 100%;
+        border-radius: 14px;
+      }
+      .suite-layer-card {
+        padding: 10px 12px;
+        margin-bottom: 8px;
+      }
+      .suite-layer-title {
+        font-size: 13px;
+      }
+      .suite-layer-meta {
+        font-size: 10px;
+      }
+      .suite-layer-sub {
+        font-size: 11.5px;
+      }
+
+      /* Adoption & Metrics */
+      .adoption-section {
+        padding: 28px 16px;
+      }
+      .adoption-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .stat-card {
+        padding: 14px 10px;
+        text-align: center;
+      }
+      .stat-num {
+        font-size: 1.9rem;
+      }
+      .stat-label {
+        font-size: 11px;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .orgs-strip {
+        padding: 14px 12px;
+        margin-top: 18px;
+      }
+      .orgs-label {
+        font-size: 11px;
+        margin-bottom: 10px;
+        display: block;
+      }
+      .orgs-list {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 8px;
+        padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .orgs-list::-webkit-scrollbar {
+        display: none;
+      }
+      .org-badge {
+        flex-shrink: 0;
+        font-size: 12px;
+        padding: 6px 11px;
+      }
+
+      /* Pillars Grid (The 5 Operational Pillars) */
+      .pillars-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-top: 20px;
+      }
+      .pillar-card {
+        padding: 18px 16px;
+        border-radius: 14px;
+      }
+      .pillar-title {
+        font-size: 1.15rem;
+      }
+      .pillar-desc {
+        font-size: 13.5px;
+        line-height: 1.5;
+      }
+      .pillar-tags {
+        gap: 4px;
+      }
+      .pillar-tag {
+        font-size: 10px;
+        padding: 2px 6px;
+      }
+
+      /* Setup & Terminal */
+      .step-section {
+        padding: 42px 16px;
+      }
+      .step-h2 {
+        font-size: clamp(1.5rem, 6vw, 2.1rem);
+        letter-spacing: -0.025em;
+        margin-bottom: 10px;
+      }
+      .step-desc {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .assistants-title {
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+      .assistants-chips {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 8px;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .assistants-chips::-webkit-scrollbar {
+        display: none;
+      }
+      .assistant-btn {
+        flex-shrink: 0;
+        font-size: 12.5px;
+        padding: 8px 13px;
+        min-height: 42px;
+      }
+      .terminal-container {
+        border-radius: 12px;
+        margin-top: 10px;
+        width: 100%;
+        overflow: hidden;
+      }
+      .terminal-header {
+        padding: 8px 10px;
+        gap: 6px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+      .terminal-prompt {
+        display: none;
+      }
+      .terminal-tabs {
+        display: flex;
+        gap: 4px;
+        flex-shrink: 0;
+      }
+      .term-tab {
+        padding: 5px 8px;
+        font-size: 11px;
+      }
+      .btn-copy-code {
+        padding: 5px 8px;
+        font-size: 11px;
+        flex-shrink: 0;
+        min-height: 32px;
+      }
+      .terminal-code-body {
+        padding: 12px 10px;
+        font-size: 11.5px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        line-height: 1.5;
+      }
+
+      /* LegalGraphify Sandbox */
+      .sandbox-card {
+        padding: 16px 12px;
+        border-radius: 14px;
+      }
+      .sandbox-input-row {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .sandbox-input-row input {
+        width: 100%;
+        padding: 12px 14px;
+        font-size: 14px;
+        border-radius: 10px;
+      }
+      .sandbox-input-row button {
+        width: 100%;
+        min-height: 44px;
+        font-size: 14px;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      .sandbox-chips {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 6px;
+        padding-bottom: 6px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .sandbox-chips::-webkit-scrollbar {
+        display: none;
+      }
+      .chip-quick {
+        flex-shrink: 0;
+        font-size: 11px;
+        padding: 5px 10px;
+      }
+      .sandbox-results-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-top: 14px;
+      }
+      .sandbox-panel {
+        padding: 12px;
+        border-radius: 12px;
+      }
+      .sandbox-panel pre {
+        font-size: 10.5px;
+        max-height: 240px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        line-height: 1.45;
+      }
+      .token-metric-card {
+        padding: 10px 8px;
+      }
+      .token-num {
+        font-size: 1.25rem;
+      }
+
+      /* 55 MCP Tools Dynamic Catalog */
+      .tools-filter-bar {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 6px;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .tools-filter-bar::-webkit-scrollbar {
+        display: none;
+      }
+      .filter-btn {
+        flex-shrink: 0;
+        font-size: 12px;
+        padding: 7px 12px;
+        min-height: 38px;
+        border-radius: 9999px;
+      }
+      .tools-search-box input {
+        width: 100%;
+        padding: 12px 14px;
+        font-size: 14px;
+        border-radius: 10px;
+      }
+      .tools-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .tool-card {
+        padding: 14px 12px;
+        border-radius: 12px;
+      }
+      .tool-name {
+        font-size: 13.5px;
+        word-break: break-word;
+      }
+      .tool-desc {
+        font-size: 12px;
+        line-height: 1.45;
+      }
+
+      /* Doctrina (58 Tratados) */
+      .doctrina-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .doctrina-card {
+        padding: 16px 14px;
+        border-radius: 12px;
+      }
+      .hf-banner {
+        padding: 20px 16px;
+        border-radius: 14px;
+        text-align: center;
+      }
+      .hf-banner h3 {
+        font-size: 1.3rem;
+      }
+      .hf-banner-btn {
+        width: 100%;
+        justify-content: center;
+        min-height: 46px;
+        font-size: 14px;
+      }
+
+      /* Bento Grid & Footer */
+      .bento-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .bento-card {
+        padding: 18px 16px;
+      }
+      .footer {
+        padding: 40px 16px 24px;
+      }
+      .footer-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .footer-col h4 {
+        font-size: 13.5px;
+        margin-bottom: 8px;
+      }
+      .footer-link {
+        font-size: 13px;
+        padding: 4px 0;
+        display: inline-block;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        font-size: 11.5px;
+        line-height: 1.5;
+      }
     }
+
+    @media (max-width: 480px) {
+      .adoption-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -1235,10 +1733,28 @@
         <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="nav-link">Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="nav-link">GitHub</a>
       </nav>
-      <a href="#setup" class="btn-header-cta">
+      <a href="#setup" class="btn-header-cta desktop-only">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19h8"></path><path d="m4 17 6-6-6-6"></path></svg>
         Comenzar
       </a>
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú de navegación" type="button">
+        <svg id="iconHamburger" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        <svg id="iconClose" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu-drawer" id="mobileMenuDrawer">
+      <nav class="mobile-nav-list">
+        <a href="#suite" class="mobile-nav-item">🏛️ La Suite (5 Pilares)</a>
+        <a href="#herramientas" class="mobile-nav-item">⚡ 55 Herramientas MCP</a>
+        <a href="#doctrina" class="mobile-nav-item">📚 Doctrina Canónica (58)</a>
+        <a href="#graphify" class="mobile-nav-item">🧠 LegalGraphify (Subgrafos)</a>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="mobile-nav-item">🤗 Dataset Hugging Face</a>
+        <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="mobile-nav-item">📦 Repositorio GitHub</a>
+        <a href="#setup" class="mobile-nav-item mobile-cta-item">🚀 Comenzar / Instalar Suite</a>
+      </nav>
     </div>
   </header>
 
@@ -2377,6 +2893,40 @@ relaciones_directas:
       currentSearchTerm = e.target.value.toLowerCase().trim();
       renderTools();
     });
+
+    
+    // Mobile Drawer Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenuDrawer = document.getElementById('mobileMenuDrawer');
+    const iconHamburger = document.getElementById('iconHamburger');
+    const iconClose = document.getElementById('iconClose');
+
+    if (mobileMenuBtn && mobileMenuDrawer) {
+      mobileMenuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = mobileMenuDrawer.classList.toggle('is-open');
+        iconHamburger.style.display = isOpen ? 'none' : 'block';
+        iconClose.style.display = isOpen ? 'block' : 'none';
+      });
+
+      // Close drawer on link click
+      document.querySelectorAll('.mobile-nav-item').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenuDrawer.classList.remove('is-open');
+          iconHamburger.style.display = 'block';
+          iconClose.style.display = 'none';
+        });
+      });
+
+      // Close drawer if clicked outside
+      document.addEventListener('click', (e) => {
+        if (!mobileMenuDrawer.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+          mobileMenuDrawer.classList.remove('is-open');
+          iconHamburger.style.display = 'block';
+          iconClose.style.display = 'none';
+        }
+      });
+    }
 
     // Initialize
     updateTerminal();
