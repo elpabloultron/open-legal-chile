@@ -11,6 +11,8 @@ import urllib.request
 import urllib.error
 from typing import Dict, Any, Optional
 
+from config import safe_urlopen
+
 PYPI_PACKAGE_NAME = "openlegal-chile"
 GITHUB_REPO = "elpabloultron/open-legal-chile"
 TELEMETRY_ENV_VAR = "OPENLEGAL_TELEMETRY"
@@ -37,7 +39,7 @@ def get_pypi_download_stats(package_name: str = PYPI_PACKAGE_NAME, timeout: floa
 
     try:
         req_rec = urllib.request.Request(url_recent, headers=headers)
-        with urllib.request.urlopen(req_rec, timeout=timeout) as resp:
+        with safe_urlopen(req_rec, timeout=timeout) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             data_recent = data.get("data", {})
             stats["descargas_ultimo_dia"] = data_recent.get("last_day", 0)
@@ -48,7 +50,7 @@ def get_pypi_download_stats(package_name: str = PYPI_PACKAGE_NAME, timeout: floa
 
     try:
         req_over = urllib.request.Request(url_overall, headers=headers)
-        with urllib.request.urlopen(req_over, timeout=timeout) as resp:
+        with safe_urlopen(req_over, timeout=timeout) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             total = sum(item.get("downloads", 0) for item in data.get("data", []))
             stats["descargas_totales_estimadas"] = max(total, stats["descargas_ultimo_mes"])
@@ -80,7 +82,7 @@ def get_github_community_stats(repo: str = GITHUB_REPO, timeout: float = 3.0) ->
 
     try:
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with safe_urlopen(req, timeout=timeout) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             stats["estrellas"] = data.get("stargazers_count", 0)
             stats["forks"] = data.get("forks_count", 0)
@@ -152,7 +154,7 @@ def send_anonymous_telemetry_ping(client: str = "cli", action: str = "session_st
         url = f"https://api.github.com/repos/{GITHUB_REPO}"
         req = urllib.request.Request(url, headers={"User-Agent": f"OpenLegalChilePing/{client}"})
         # Timeout agresivo para no retrasar en lo más mínimo al usuario
-        with urllib.request.urlopen(req, timeout=1.0) as resp:
+        with safe_urlopen(req, timeout=1.0) as resp:
             return resp.status == 200
     except Exception:
         return False
