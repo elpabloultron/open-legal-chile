@@ -70,9 +70,10 @@ def menu_interactivo():
         print(" [14] 🌐 Biblioteca Digital: Sincronizar Datasets Markdown (HuggingFace/Drive)")
         print(" [15] 📊 Estadísticas de Uso: Descargas PyPI, GitHub y Telemetría Ética")
         print(" [16] 🔄 Actualizaciones: Comprobar versión más reciente y auto-actualizar")
+        print(" [17] 🧠 LegalGraphify: Consultar Subgrafo de Conocimiento (85%-95% Ahorro de Tokens)")
         print(" [0] 🚪 Salir")
 
-        opc = input("\n👉 Selecciona una opción (0-16): ").strip()
+        opc = input("\n👉 Selecciona una opción (0-17): ").strip()
 
         if opc == "0":
             print("\n👋 ¡Hasta luego! Cerrando Open Legal Chile.\n")
@@ -411,6 +412,33 @@ def menu_interactivo():
             except Exception as e:
                 print("Error:", e)
 
+        elif opc == "17":
+            print("\n--- 🧠 LEGALGRAPHIFY: SUBGRAFO DE CONOCIMIENTO (AHORRO DE TOKENS) ---")
+            q = input("Ingresa institución o concepto jurídico (ej. 'simulacion', 'imprevision', 'nulidad', 'tutela'): ").strip()
+            if q:
+                try:
+                    from legal_graphify import LegalGraphifyEngine
+                    engine = LegalGraphifyEngine()
+                    ahorro = engine.calcular_ahorro_tokens(q)
+                    if not ahorro.get("encontrado", True):
+                        print(f"⚠️ {ahorro.get('mensaje')}")
+                    else:
+                        m = ahorro["metricas"]
+                        print("\n🧠 SUBGRAFO JURÍDICO HIPER-DENSO:")
+                        print("═"*65)
+                        print(ahorro["ficha_optimizada"])
+                        print("═"*65)
+                        print("⚡ OPTIMIZACIÓN DE TOKENS:")
+                        print(f"  • Tokens Texto Completo: ~{m['tokens_texto_completo']}")
+                        print(f"  • Tokens Subgrafo:       ~{m['tokens_subgrafo']}")
+                        print(f"  • 🚀 Reducción de Tokens: {m['porcentaje_ahorro']}% ({m['factor_reduccion']})")
+
+                        ver_m = input("\n¿Deseas generar el diagrama Mermaid del subgrafo? (s/n): ").strip().lower()
+                        if ver_m == "s":
+                            print("\n" + engine.exportar_subgrafo_mermaid(q))
+                except Exception as e:
+                    print("Error:", e)
+
         input("\n[Presiona Enter para volver al menú principal...]")
 
 
@@ -442,9 +470,10 @@ Ejemplos de uso:
   openlegal guias "..."       -> Consulta las guías de formación de la Academia Judicial
   openlegal stats             -> Muestra estadísticas globales de adopción (PyPI/GitHub)
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
+  openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro masivo de tokens (85%-95%)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -861,6 +890,26 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
         if res.get("salida"):
             print("\nDetalle:\n" + res.get("salida")[:500])
         print()
+
+    elif args.comando == "graph":
+        from legal_graphify import LegalGraphifyEngine
+        print_banner()
+        q = " ".join(args.query) if args.query else "simulacion"
+        engine = LegalGraphifyEngine()
+        ahorro = engine.calcular_ahorro_tokens(q)
+        if not ahorro.get("encontrado", True):
+            print(f"⚠️ {ahorro.get('mensaje')}")
+        else:
+            m = ahorro["metricas"]
+            print(f"🧠 SUBGRAFO JURÍDICO HIPER-DENSO (LegalGraphify): '{q}'")
+            print("═"*65)
+            print(ahorro["ficha_optimizada"])
+            print("═"*65)
+            print("⚡ MÉTRICAS DE OPTIMIZACIÓN DE CONTEXTO:")
+            print(f"  • Tokens Texto Completo (Capítulo crudo): ~{m['tokens_texto_completo']} tokens")
+            print(f"  • Tokens Subgrafo Sintético:             ~{m['tokens_subgrafo']} tokens")
+            print(f"  • Tokens Ahorrados:                      ~{m['tokens_ahorrados']} tokens")
+            print(f"  • 🚀 Reducción de Tokens:                {m['porcentaje_ahorro']}% ({m['factor_reduccion']})\n")
 
     else:
         menu_interactivo()

@@ -1,0 +1,494 @@
+{
+  ".claude-plugin/marketplace.json": {
+    "mtime": 1787884721.698907,
+    "seen": 1788703307.405409,
+    "ast_hash": "b065a7cc26675e81132961def12c0067",
+    "semantic_hash": "b065a7cc26675e81132961def12c0067"
+  },
+  ".claude-plugin/plugin.json": {
+    "mtime": 1788666772.5381486,
+    "seen": 1788703307.4054127,
+    "ast_hash": "9e9070d7039b62c5910056aacd9d01f1",
+    "semantic_hash": "9e9070d7039b62c5910056aacd9d01f1"
+  },
+  ".cursor/mcp.json": {
+    "mtime": 1788665736.5213919,
+    "seen": 1788703307.4054143,
+    "ast_hash": "3e736ada887af4beccd0b6b0676c6e2e",
+    "semantic_hash": "3e736ada887af4beccd0b6b0676c6e2e"
+  },
+  ".vscode/mcp.json": {
+    "mtime": 1788665738.7123523,
+    "seen": 1788703307.4054155,
+    "ast_hash": "3e736ada887af4beccd0b6b0676c6e2e",
+    "semantic_hash": "3e736ada887af4beccd0b6b0676c6e2e"
+  },
+  "academia_judicial_connector.py": {
+    "mtime": 1788665141.5107605,
+    "seen": 1788703307.4054163,
+    "ast_hash": "74c1f88a58b451588e6992994f391f9b",
+    "semantic_hash": "74c1f88a58b451588e6992994f391f9b"
+  },
+  "agents/ambiental.json": {
+    "mtime": 1787884721.6995008,
+    "seen": 1788703307.405417,
+    "ast_hash": "6891143ac0f214e887efc63a8a6c0bd7",
+    "semantic_hash": "6891143ac0f214e887efc63a8a6c0bd7"
+  },
+  "agents/clinica.json": {
+    "mtime": 1788574790.0020108,
+    "seen": 1788703307.4054177,
+    "ast_hash": "addce04964892fbc6b7c6d57c0ac7e5c",
+    "semantic_hash": "addce04964892fbc6b7c6d57c0ac7e5c"
+  },
+  "agents/contratos.json": {
+    "mtime": 1787884721.700148,
+    "seen": 1788703307.4054182,
+    "ast_hash": "fcef8e41bad52c156ab130dcac6cc9d3",
+    "semantic_hash": "fcef8e41bad52c156ab130dcac6cc9d3"
+  },
+  "agents/corporativo.json": {
+    "mtime": 1787884721.700148,
+    "seen": 1788703307.405419,
+    "ast_hash": "ac736fcc49e8f1930cb19e38720040de",
+    "semantic_hash": "ac736fcc49e8f1930cb19e38720040de"
+  },
+  "agents/energia.json": {
+    "mtime": 1787884721.700148,
+    "seen": 1788703307.4054196,
+    "ast_hash": "a911b53534e54090c2946c3a72977fef",
+    "semantic_hash": "a911b53534e54090c2946c3a72977fef"
+  },
+  "agents/examen_grado.json": {
+    "mtime": 1788574778.1882687,
+    "seen": 1788703307.4054205,
+    "ast_hash": "75a1057b4d44333463f7b0cd7466f62e",
+    "semantic_hash": "75a1057b4d44333463f7b0cd7466f62e"
+  },
+  "agents/expedientes.json": {
+    "mtime": 1788565741.3289337,
+    "seen": 1788703307.4054213,
+    "ast_hash": "fdc61d7df9721cc4d2887b5ed19e1d2c",
+    "semantic_hash": "fdc61d7df9721cc4d2887b5ed19e1d2c"
+  },
+  "agents/forense.json": {
+    "mtime": 1788565731.5851176,
+    "seen": 1788703307.4054217,
+    "ast_hash": "1dcb041a59f34c5494ae2d8e0c0e7119",
+    "semantic_hash": "1dcb041a59f34c5494ae2d8e0c0e7119"
+  },
+  "agents/investigacion_ia.json": {
+    "mtime": 1788565746.5338354,
+    "seen": 1788703307.4054227,
+    "ast_hash": "161495582417860a23828289f2fcc189",
+    "semantic_hash": "161495582417860a23828289f2fcc189"
+  },
+  "agents/laboral.json": {
+    "mtime": 1787884721.700148,
+    "seen": 1788703307.4054232,
+    "ast_hash": "43cb0d4a0de537416eb5b6e3b35a7835",
+    "semantic_hash": "43cb0d4a0de537416eb5b6e3b35a7835"
+  },
+  "agents/litigios.json": {
+    "mtime": 1787884721.700148,
+    "seen": 1788703307.4054239,
+    "ast_hash": "63c44f1673ae2e1eed4e84ed55bb2813",
+    "semantic_hash": "63c44f1673ae2e1eed4e84ed55bb2813"
+  },
+  "agents/probidad.json": {
+    "mtime": 1788565737.3260093,
+    "seen": 1788703307.4054244,
+    "ast_hash": "2eb19f53f90a491b6cdaffcebf4bb435",
+    "semantic_hash": "2eb19f53f90a491b6cdaffcebf4bb435"
+  },
+  "agents/propiedad_datos.json": {
+    "mtime": 1788574800.1007903,
+    "seen": 1788703307.405425,
+    "ast_hash": "a000b3d18e8f470a829b08b94b3491a6",
+    "semantic_hash": "a000b3d18e8f470a829b08b94b3491a6"
+  },
+  "agents/regulatorio.json": {
+    "mtime": 1787884721.700148,
+    "seen": 1788703307.4054255,
+    "ast_hash": "ef1cbed95b5503aac994aa6924f5a962",
+    "semantic_hash": "ef1cbed95b5503aac994aa6924f5a962"
+  },
+  "agents/vigilante.json": {
+    "mtime": 1788574783.4361541,
+    "seen": 1788703307.4054263,
+    "ast_hash": "f28417d5903ac429bf92af86fee5800b",
+    "semantic_hash": "f28417d5903ac429bf92af86fee5800b"
+  },
+  "ambiental_connector.py": {
+    "mtime": 1788577414.3380604,
+    "seen": 1788703307.405427,
+    "ast_hash": "4529b3b1ac7294617a9baf0a7ae6ca1d",
+    "semantic_hash": "4529b3b1ac7294617a9baf0a7ae6ca1d"
+  },
+  "audit.sh": {
+    "mtime": 1788577758.9309754,
+    "seen": 1788703307.4054277,
+    "ast_hash": "1e2a98d2aa8731645a53827b7c649280",
+    "semantic_hash": "1e2a98d2aa8731645a53827b7c649280"
+  },
+  "bcn_connector.py": {
+    "mtime": 1788664843.7522602,
+    "seen": 1788703307.4054284,
+    "ast_hash": "a75fd65991982be8c270414e7da7b326",
+    "semantic_hash": "a75fd65991982be8c270414e7da7b326"
+  },
+  "cbr_titles.py": {
+    "mtime": 1788668839.8176296,
+    "seen": 1788703307.405429,
+    "ast_hash": "0d1504271a88c68c4a544e1ab83c4243",
+    "semantic_hash": "0d1504271a88c68c4a544e1ab83c4243"
+  },
+  "cgr_connector.py": {
+    "mtime": 1788577562.609523,
+    "seen": 1788703307.4054298,
+    "ast_hash": "320427cd8c3890b0e2ca0986b64daa7c",
+    "semantic_hash": "320427cd8c3890b0e2ca0986b64daa7c"
+  },
+  "chat_engine.py": {
+    "mtime": 1788603872.8206086,
+    "seen": 1788703307.4054306,
+    "ast_hash": "d3b3b2abb2220541fbe0b24dd70a2579",
+    "semantic_hash": "d3b3b2abb2220541fbe0b24dd70a2579"
+  },
+  "clinica_juridica.py": {
+    "mtime": 1788575468.0352054,
+    "seen": 1788703307.4054313,
+    "ast_hash": "12fb1544143cf72c53e26d3907fca9db",
+    "semantic_hash": "12fb1544143cf72c53e26d3907fca9db"
+  },
+  "cmf_connector.py": {
+    "mtime": 1788664882.7844071,
+    "seen": 1788703307.4054317,
+    "ast_hash": "32cb3b7f33bf4a1a4ce427792d832fa2",
+    "semantic_hash": "32cb3b7f33bf4a1a4ce427792d832fa2"
+  },
+  "cne_connector.py": {
+    "mtime": 1788577538.170951,
+    "seen": 1788703307.4054325,
+    "ast_hash": "4d74a23e5605971a61bd700279529916",
+    "semantic_hash": "4d74a23e5605971a61bd700279529916"
+  },
+  "cold_start.py": {
+    "mtime": 1788577579.679222,
+    "seen": 1788703307.4054334,
+    "ast_hash": "5136896c9eb935d3b1c9821a1e5803ae",
+    "semantic_hash": "5136896c9eb935d3b1c9821a1e5803ae"
+  },
+  "config.py": {
+    "mtime": 1788668783.9537828,
+    "seen": 1788703307.4054341,
+    "ast_hash": "cd694f31b748eba2b78fb04ed6b04e4a",
+    "semantic_hash": "cd694f31b748eba2b78fb04ed6b04e4a"
+  },
+  "connectors/__init__.py": {
+    "mtime": 1787884721.700519,
+    "seen": 1788703307.4054348,
+    "ast_hash": "8fae9968b8f9967bf5e4cd690687d49e",
+    "semantic_hash": "8fae9968b8f9967bf5e4cd690687d49e"
+  },
+  "connectors/registry.py": {
+    "mtime": 1788577595.4849422,
+    "seen": 1788703307.4054353,
+    "ast_hash": "58fd4afdbdc2fdcbb68917e1cc3edefc",
+    "semantic_hash": "58fd4afdbdc2fdcbb68917e1cc3edefc"
+  },
+  "critique.py": {
+    "mtime": 1788603843.3716733,
+    "seen": 1788703307.4054363,
+    "ast_hash": "750cec8e1add68f374f01177ac326980",
+    "semantic_hash": "750cec8e1add68f374f01177ac326980"
+  },
+  "docket_watcher.py": {
+    "mtime": 1788575933.6810384,
+    "seen": 1788703307.4054368,
+    "ast_hash": "6a043b9fa838408812e99eefc237ca56",
+    "semantic_hash": "6a043b9fa838408812e99eefc237ca56"
+  },
+  "doctrina_connector.py": {
+    "mtime": 1788605530.6871784,
+    "seen": 1788703307.4054375,
+    "ast_hash": "5c82b897b58e32a9e91cb647b84f19b7",
+    "semantic_hash": "5c82b897b58e32a9e91cb647b84f19b7"
+  },
+  "domain/__init__.py": {
+    "mtime": 1787884721.7019868,
+    "seen": 1788703307.4054382,
+    "ast_hash": "fc162d83236a9bf12ee3c6fdece3f9d2",
+    "semantic_hash": "fc162d83236a9bf12ee3c6fdece3f9d2"
+  },
+  "domain/models.py": {
+    "mtime": 1787884721.7021406,
+    "seen": 1788703307.405439,
+    "ast_hash": "0ffe0b071d52897d1bbe41097ad9f6da",
+    "semantic_hash": "0ffe0b071d52897d1bbe41097ad9f6da"
+  },
+  "dt_connector.py": {
+    "mtime": 1788577278.4362395,
+    "seen": 1788703307.4054394,
+    "ast_hash": "657f5e0bf5b7ba7766c1cf8b21a5fd21",
+    "semantic_hash": "657f5e0bf5b7ba7766c1cf8b21a5fd21"
+  },
+  "entes_publicos.py": {
+    "mtime": 1788668851.5433874,
+    "seen": 1788703307.4054403,
+    "ast_hash": "e61f17521f0454b448488e6b5cef4a33",
+    "semantic_hash": "e61f17521f0454b448488e6b5cef4a33"
+  },
+  "evals/benchmark.py": {
+    "mtime": 1787884721.7021406,
+    "seen": 1788703307.4054408,
+    "ast_hash": "4fd6e87c65845dd04faeaeea7b2ab2e1",
+    "semantic_hash": "4fd6e87c65845dd04faeaeea7b2ab2e1"
+  },
+  "evals/test_cases.json": {
+    "mtime": 1787884721.7023232,
+    "seen": 1788703307.4054415,
+    "ast_hash": "12e4f2d91f4c3fb0f0f97e33f45f3fd7",
+    "semantic_hash": "12e4f2d91f4c3fb0f0f97e33f45f3fd7"
+  },
+  "examen_grado.py": {
+    "mtime": 1788575963.6303844,
+    "seen": 1788703307.4054422,
+    "ast_hash": "f02efcf0b20800ea3d2973c74f474f38",
+    "semantic_hash": "f02efcf0b20800ea3d2973c74f474f38"
+  },
+  "exporters.py": {
+    "mtime": 1788575481.654908,
+    "seen": 1788703307.4054434,
+    "ast_hash": "6d176fae21872a600e6f63b6a6c06683",
+    "semantic_hash": "6d176fae21872a600e6f63b6a6c06683"
+  },
+  "forensic_ocr.py": {
+    "mtime": 1788577683.9863508,
+    "seen": 1788703307.4054441,
+    "ast_hash": "a7cf67d8a3dbea7815b7fd710bb34796",
+    "semantic_hash": "a7cf67d8a3dbea7815b7fd710bb34796"
+  },
+  "grafo_vinculos.py": {
+    "mtime": 1788565971.2885067,
+    "seen": 1788703307.4054446,
+    "ast_hash": "1f12716e2b1ceb7e94553b7cb38315a1",
+    "semantic_hash": "1f12716e2b1ceb7e94553b7cb38315a1"
+  },
+  "infoprobidad_connector.py": {
+    "mtime": 1788577675.3505077,
+    "seen": 1788703307.4054456,
+    "ast_hash": "d00157600bed7db3566b4a9a79d72f38",
+    "semantic_hash": "d00157600bed7db3566b4a9a79d72f38"
+  },
+  "mcp_config.json": {
+    "mtime": 1788666758.9534245,
+    "seen": 1788703307.405446,
+    "ast_hash": "06aed02303a931a4d39fa2a6d3e06b6b",
+    "semantic_hash": "06aed02303a931a4d39fa2a6d3e06b6b"
+  },
+  "mcp_server.py": {
+    "mtime": 1788668889.6895998,
+    "seen": 1788703307.405447,
+    "ast_hash": "46cbca668bd1042fffb25f2ada238e6a",
+    "semantic_hash": "46cbca668bd1042fffb25f2ada238e6a"
+  },
+  "notebooklm_connector.py": {
+    "mtime": 1788577640.5031374,
+    "seen": 1788703307.4054475,
+    "ast_hash": "a5f08be1655efe50c8f8e9dfe0195b5c",
+    "semantic_hash": "a5f08be1655efe50c8f8e9dfe0195b5c"
+  },
+  "online_library_sync.py": {
+    "mtime": 1788702577.3500538,
+    "seen": 1788703307.4054482,
+    "ast_hash": "4ac6af45e4fd176f911fe362bd0dd39a",
+    "semantic_hash": "4ac6af45e4fd176f911fe362bd0dd39a"
+  },
+  "opencode.json": {
+    "mtime": 1787884721.7023232,
+    "seen": 1788703307.4054487,
+    "ast_hash": "b260a83a47848a8cd96bd16c9fa2e75b",
+    "semantic_hash": "b260a83a47848a8cd96bd16c9fa2e75b"
+  },
+  "openlegal.manifest.json": {
+    "mtime": 1788665771.172763,
+    "seen": 1788703307.4054494,
+    "ast_hash": "5108be1ef97ee1a5f593b232078929e2",
+    "semantic_hash": "5108be1ef97ee1a5f593b232078929e2"
+  },
+  "openlegal.py": {
+    "mtime": 1788668828.65486,
+    "seen": 1788703307.4054499,
+    "ast_hash": "e5c90295b1cf55f36c9a13c5ebc1f8a8",
+    "semantic_hash": "e5c90295b1cf55f36c9a13c5ebc1f8a8"
+  },
+  "panel_expertos_connector.py": {
+    "mtime": 1788577310.4277413,
+    "seen": 1788703307.4054508,
+    "ast_hash": "9953b544bde0de329ac51353de98a55d",
+    "semantic_hash": "9953b544bde0de329ac51353de98a55d"
+  },
+  "pdf_dossier_compiler.py": {
+    "mtime": 1788578469.0721886,
+    "seen": 1788703307.4054513,
+    "ast_hash": "94e4fe7fe3f0dde7b5db301513c6493f",
+    "semantic_hash": "94e4fe7fe3f0dde7b5db301513c6493f"
+  },
+  "pjud_connector.py": {
+    "mtime": 1787884721.7023232,
+    "seen": 1788703307.405452,
+    "ast_hash": "a332d61f5c6f95d45ddfa938ab9f446a",
+    "semantic_hash": "a332d61f5c6f95d45ddfa938ab9f446a"
+  },
+  "privacidad_inapi.py": {
+    "mtime": 1788574766.4415252,
+    "seen": 1788703307.4054525,
+    "ast_hash": "3df5ae492c894e691e14e9416aa81f60",
+    "semantic_hash": "3df5ae492c894e691e14e9416aa81f60"
+  },
+  "pyproject.toml": {
+    "mtime": 1788665757.0780196,
+    "seen": 1788703307.4054532,
+    "ast_hash": "cbb620f08aa272a80357804b45878491",
+    "semantic_hash": "cbb620f08aa272a80357804b45878491"
+  },
+  "query_openlegal_laws.py": {
+    "mtime": 1788575439.5878265,
+    "seen": 1788703307.405454,
+    "ast_hash": "c06fa6bbd98f059ef59d78f94882b293",
+    "semantic_hash": "c06fa6bbd98f059ef59d78f94882b293"
+  },
+  "scripts/bump_version.py": {
+    "mtime": 1787884721.7031293,
+    "seen": 1788703307.4054546,
+    "ast_hash": "b9993f0b19d2f7a0cfd88ee4bbccb0c2",
+    "semantic_hash": "b9993f0b19d2f7a0cfd88ee4bbccb0c2"
+  },
+  "scripts/buscar_descargar_doctrina.py": {
+    "mtime": 1788577439.5216398,
+    "seen": 1788703307.4054554,
+    "ast_hash": "e155774ee0c189807550cd7a1e7ca028",
+    "semantic_hash": "e155774ee0c189807550cd7a1e7ca028"
+  },
+  "scripts/doctrina_parser.py": {
+    "mtime": 1788605469.7165148,
+    "seen": 1788703307.4054558,
+    "ast_hash": "e9dfa8918d96c1046f8b5a56ae0cb041",
+    "semantic_hash": "e9dfa8918d96c1046f8b5a56ae0cb041"
+  },
+  "sentencias_parser.py": {
+    "mtime": 1788665192.7781067,
+    "seen": 1788703307.4054565,
+    "ast_hash": "1e93d19caa9ed4fbd16f85288abfaf1e",
+    "semantic_hash": "1e93d19caa9ed4fbd16f85288abfaf1e"
+  },
+  "setup.py": {
+    "mtime": 1788666747.790651,
+    "seen": 1788703307.4054573,
+    "ast_hash": "f19a3c0edddec94dea35087a5a665d61",
+    "semantic_hash": "f19a3c0edddec94dea35087a5a665d61"
+  },
+  "sii_connector.py": {
+    "mtime": 1788665093.0053399,
+    "seen": 1788703307.405458,
+    "ast_hash": "1a7d74556d5b0113e2a3e0fe1c0d9274",
+    "semantic_hash": "1a7d74556d5b0113e2a3e0fe1c0d9274"
+  },
+  "skills-lock.json": {
+    "mtime": 1787884721.7031293,
+    "seen": 1788703307.4054585,
+    "ast_hash": "56462d08a2e46eb911a5e760ce18a4e2",
+    "semantic_hash": "56462d08a2e46eb911a5e760ce18a4e2"
+  },
+  "stats_tracker.py": {
+    "mtime": 1788668863.3721433,
+    "seen": 1788703307.4054592,
+    "ast_hash": "9d13c6b674a0fbfaa012edd6154799db",
+    "semantic_hash": "9d13c6b674a0fbfaa012edd6154799db"
+  },
+  "tdlc_connector.py": {
+    "mtime": 1788664872.4226336,
+    "seen": 1788703307.4054596,
+    "ast_hash": "cdbb6e3b0e873ec8ed4f2b45c109f5c1",
+    "semantic_hash": "cdbb6e3b0e873ec8ed4f2b45c109f5c1"
+  },
+  "tests/test_bcn_parser.py": {
+    "mtime": 1787884721.7031293,
+    "seen": 1788703307.4054601,
+    "ast_hash": "3ff54908d065fbe543bf319a4ca1cd74",
+    "semantic_hash": "3ff54908d065fbe543bf319a4ca1cd74"
+  },
+  "tests/test_chat_and_critique.py": {
+    "mtime": 1788603783.4909198,
+    "seen": 1788703307.4054608,
+    "ast_hash": "c02d5b846682b2cdf5bbde05106bac0d",
+    "semantic_hash": "c02d5b846682b2cdf5bbde05106bac0d"
+  },
+  "tests/test_claude_legal_suite.py": {
+    "mtime": 1788574950.262511,
+    "seen": 1788703307.4054615,
+    "ast_hash": "4e4a0c4f739f7d79dab3d2eca29071d2",
+    "semantic_hash": "4e4a0c4f739f7d79dab3d2eca29071d2"
+  },
+  "tests/test_connectors.py": {
+    "mtime": 1788579294.241186,
+    "seen": 1788703307.4054623,
+    "ast_hash": "559017cbfe7631a463da7ee270359f20",
+    "semantic_hash": "559017cbfe7631a463da7ee270359f20"
+  },
+  "tests/test_doctrina.py": {
+    "mtime": 1788665153.0016174,
+    "seen": 1788703307.405463,
+    "ast_hash": "83d475e624bfd0f79950b9a34b1e8804",
+    "semantic_hash": "83d475e624bfd0f79950b9a34b1e8804"
+  },
+  "tests/test_ecosystem_expansion.py": {
+    "mtime": 1788669719.95066,
+    "seen": 1788703307.4054637,
+    "ast_hash": "4cbd4dd73d1eff80d1db31d883e100d1",
+    "semantic_hash": "4cbd4dd73d1eff80d1db31d883e100d1"
+  },
+  "tests/test_mcp_server.py": {
+    "mtime": 1788606154.4653137,
+    "seen": 1788703307.4054644,
+    "ast_hash": "a7cc02d02e6d815f75575a63d38a362a",
+    "semantic_hash": "a7cc02d02e6d815f75575a63d38a362a"
+  },
+  "tests/test_new_tools.py": {
+    "mtime": 1788665165.4834597,
+    "seen": 1788703307.4054651,
+    "ast_hash": "b563e880b4ac66bca46fa681d2a10050",
+    "semantic_hash": "b563e880b4ac66bca46fa681d2a10050"
+  },
+  "tests/test_pjud.py": {
+    "mtime": 1787884721.7033823,
+    "seen": 1788703307.4054656,
+    "ast_hash": "79e54fd5982980b152a2b59b36d57278",
+    "semantic_hash": "79e54fd5982980b152a2b59b36d57278"
+  },
+  "tests/test_registry.py": {
+    "mtime": 1787884721.7033823,
+    "seen": 1788703307.4054663,
+    "ast_hash": "55e342b031e39cfab7311ef344e45e3b",
+    "semantic_hash": "55e342b031e39cfab7311ef344e45e3b"
+  },
+  "tests/test_updates_and_stats.py": {
+    "mtime": 1788666649.889634,
+    "seen": 1788703307.4054668,
+    "ast_hash": "e05404f05f44fece3e712d588bcf6284",
+    "semantic_hash": "e05404f05f44fece3e712d588bcf6284"
+  },
+  "tribunales_ambientales_connector.py": {
+    "mtime": 1788668800.7644358,
+    "seen": 1788703307.4054677,
+    "ast_hash": "663cb49c8f347b19d4a7e4fe9b00eade",
+    "semantic_hash": "663cb49c8f347b19d4a7e4fe9b00eade"
+  },
+  "update_checker.py": {
+    "mtime": 1788668828.6538599,
+    "seen": 1788703307.4054682,
+    "ast_hash": "8a3809b1a16f4733d2f23354c71a5631",
+    "semantic_hash": "8a3809b1a16f4733d2f23354c71a5631"
+  }
+}
