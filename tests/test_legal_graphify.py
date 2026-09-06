@@ -15,9 +15,7 @@ import mcp_server
 @pytest.fixture(scope="module")
 def engine():
     eng = LegalGraphifyEngine()
-    if os.path.exists(DEFAULT_GRAPH_PATH):
-        eng.cargar_grafo_json(DEFAULT_GRAPH_PATH)
-    else:
+    if not (os.path.exists(DEFAULT_GRAPH_PATH) and eng.cargar_grafo_json(DEFAULT_GRAPH_PATH)):
         eng.construir_grafo_desde_doctrina()
     return eng
 
