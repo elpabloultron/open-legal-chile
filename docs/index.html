@@ -51,6 +51,35 @@
       --font-display: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, sans-serif;
       --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
       --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+
+      /* ─── OpenCode Dimensions & Spacing (nexu-io/open-design: opencode-ai) ─── */
+      --container-max: 1140px;
+      --container-gutter-desktop: 24px;
+      --container-gutter-tablet: 20px;
+      --container-gutter-phone: 16px;
+
+      --section-y-desktop: 80px;
+      --section-y-tablet: 60px;
+      --section-y-phone: 48px;
+
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 20px;
+      --space-6: 24px;
+      --space-8: 32px;
+      --space-12: 48px;
+
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 14px;
+      --radius-pill: 9999px;
+
+      --touch-target-min: 44px;
+      --motion-fast: 100ms;
+      --motion-base: 150ms;
+      --ease-standard: cubic-bezier(0.2, 0, 0, 1);
     }
 
     * {
@@ -658,11 +687,12 @@
       box-shadow: 0 1px 3px rgba(0,0,0,0.03);
     }
 
-    /* Section: How it works (Step-by-Step) */
+    /* Section: How it works (Step-by-Step) — OpenCode Rhythmic Scale */
     .step-section {
-      padding: 90px 24px;
-      max-width: 1160px;
-      margin: 0 auto;
+      padding-block: var(--section-y-desktop);
+      padding-inline: var(--container-gutter-desktop);
+      max-width: var(--container-max);
+      margin-inline: auto;
     }
 
     .eyebrow-step {
@@ -1307,10 +1337,27 @@
       .pillars-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
     }
 
+/* ─── OpenCode Mobile Dimensions & Touch Optimization (< 768px) ─── */
     @media (max-width: 768px) {
-      /* Header */
+      /* Sections & Containers: OpenCode phone gutters (16px) & Y-spacing (48px) */
+      .step-section {
+        padding-block: var(--section-y-phone);
+        padding-inline: var(--container-gutter-phone);
+      }
+      .hero-scope {
+        padding-block: 84px var(--section-y-phone);
+        padding-inline: var(--container-gutter-phone);
+        min-height: auto;
+      }
+      .hero-container {
+        gap: var(--space-6);
+        max-width: 100%;
+      }
+
+      /* Header Pill Mobile Dimensions */
       .header-nav {
-        padding: 10px 12px;
+        top: 10px;
+        padding-inline: var(--container-gutter-phone);
         width: 100%;
       }
       .header-pill {
@@ -1319,73 +1366,84 @@
         padding: 6px 12px;
         justify-content: space-between;
       }
-      .nav-links, .nav-divider, .desktop-only {
-        display: none !important;
-      }
       .mobile-menu-btn {
         display: inline-flex;
+        min-height: var(--touch-target-min);
+        min-width: var(--touch-target-min);
       }
       .mobile-menu-drawer {
         display: block;
+        left: var(--container-gutter-phone);
+        right: var(--container-gutter-phone);
+      }
+      .mobile-nav-item {
+        min-height: var(--touch-target-min);
+        font-size: 15px;
       }
 
-      /* Hero Section */
-      .hero-scope {
-        padding: 85px 16px 40px;
-        min-height: auto;
-      }
-      .hero-container {
-        gap: 28px;
-      }
+      /* Typography Scale for Mobile (OpenCode ratio) */
       .hero-h1 {
-        font-size: clamp(2.3rem, 10vw, 3.4rem);
-        margin-bottom: 12px;
-        line-height: 1.02;
+        font-size: clamp(2.1rem, 9.2vw, 3.1rem);
+        margin-bottom: var(--space-3);
+        line-height: 1.04;
       }
       .hero-subh1 {
-        font-size: clamp(1.05rem, 4.5vw, 1.4rem);
-        margin-bottom: 16px;
+        font-size: clamp(1.05rem, 4.2vw, 1.35rem);
+        margin-bottom: var(--space-4);
         line-height: 1.3;
       }
       .hero-p {
         font-size: 14.5px;
-        line-height: 1.5;
-        margin-bottom: 22px;
+        line-height: 1.55;
+        margin-bottom: var(--space-5);
       }
       .hero-eyebrow {
         font-size: 11px;
-        flex-wrap: wrap;
-        gap: 4px 6px;
+        gap: var(--space-1) var(--space-2);
+        margin-bottom: var(--space-3);
       }
+      .step-h2 {
+        font-size: clamp(1.45rem, 5.8vw, 1.95rem);
+        letter-spacing: -0.025em;
+        margin-bottom: var(--space-2);
+        line-height: 1.2;
+      }
+      .step-desc {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: var(--space-5);
+      }
+
+      /* Interactive Touch Targets — minimum 44px */
       .hero-ctas {
         flex-direction: column;
         width: 100%;
-        gap: 10px;
+        gap: var(--space-3);
       }
       .btn-hero-primary, .btn-hero-secondary {
         width: 100%;
         justify-content: center;
-        min-height: 46px;
-        font-size: 14px;
-        text-align: center;
+        min-height: var(--touch-target-min);
+        font-size: 14.5px;
+        padding: 12px 18px;
       }
-      .hero-trust {
-        flex-direction: column;
-        gap: 4px;
-        font-size: 11.5px;
-        text-align: center;
+      .btn-hero-primary:active, .btn-hero-secondary:active,
+      .assistant-btn:active, .filter-btn:active, .btn-copy-code:active {
+        transform: translateY(1px);
+        transition: transform var(--motion-fast) var(--ease-standard);
       }
+
+      /* Hero Right Architecture Card — Flat & Crisp */
       .hero-right {
         width: 100%;
-        max-width: 100%;
       }
       .hero-card-showcase {
+        border-radius: var(--radius-lg);
         width: 100%;
-        border-radius: 14px;
       }
       .suite-layer-card {
         padding: 10px 12px;
-        margin-bottom: 8px;
+        margin-bottom: var(--space-2);
       }
       .suite-layer-title {
         font-size: 13px;
@@ -1397,123 +1455,97 @@
         font-size: 11.5px;
       }
 
-      /* Adoption & Metrics */
+      /* Adoption & Metrics — 2 Columns Flat Grid */
       .adoption-section {
-        padding: 28px 16px;
+        padding-block: 28px;
+        padding-inline: var(--container-gutter-phone);
       }
       .adoption-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-3);
       }
       .stat-card {
-        padding: 14px 10px;
+        padding: var(--space-3) var(--space-2);
         text-align: center;
+        border-radius: var(--radius-md);
       }
       .stat-num {
-        font-size: 1.9rem;
+        font-size: 1.85rem;
       }
       .stat-label {
         font-size: 11px;
-        flex-direction: column;
-        gap: 4px;
       }
       .orgs-strip {
         padding: 14px 12px;
-        margin-top: 18px;
-      }
-      .orgs-label {
-        font-size: 11px;
-        margin-bottom: 10px;
-        display: block;
+        margin-top: var(--space-4);
+        border-radius: var(--radius-md);
       }
       .orgs-list {
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
-        gap: 8px;
-        padding-bottom: 4px;
+        gap: var(--space-2);
+        padding-bottom: var(--space-1);
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-      }
-      .orgs-list::-webkit-scrollbar {
-        display: none;
       }
       .org-badge {
         flex-shrink: 0;
         font-size: 12px;
         padding: 6px 11px;
+        border-radius: var(--radius-sm);
       }
 
-      /* Pillars Grid (The 5 Operational Pillars) */
+      /* Pillars Grid (The 5 Operational Pillars) — Single Column Flat Cards */
       .pillars-grid {
         grid-template-columns: 1fr;
-        gap: 14px;
-        margin-top: 20px;
+        gap: var(--space-4);
+        margin-top: var(--space-5);
       }
       .pillar-card {
-        padding: 18px 16px;
-        border-radius: 14px;
+        padding: 20px 18px;
+        border-radius: var(--radius-lg);
       }
       .pillar-title {
         font-size: 1.15rem;
       }
       .pillar-desc {
         font-size: 13.5px;
-        line-height: 1.5;
+        line-height: 1.52;
       }
       .pillar-tags {
-        gap: 4px;
+        gap: var(--space-1);
       }
       .pillar-tag {
-        font-size: 10px;
-        padding: 2px 6px;
+        font-size: 10.5px;
+        padding: 2px 7px;
+        border-radius: var(--radius-sm);
       }
 
-      /* Setup & Terminal */
-      .step-section {
-        padding: 42px 16px;
-      }
-      .step-h2 {
-        font-size: clamp(1.5rem, 6vw, 2.1rem);
-        letter-spacing: -0.025em;
-        margin-bottom: 10px;
-      }
-      .step-desc {
-        font-size: 14px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-      }
-      .assistants-title {
-        font-size: 13px;
-        margin-bottom: 10px;
-      }
+      /* Setup & Terminal — Swipeable Chips & Clean View */
       .assistants-chips {
         display: flex;
         overflow-x: auto;
         flex-wrap: nowrap;
-        gap: 8px;
-        padding-bottom: 8px;
+        gap: var(--space-2);
+        padding-bottom: var(--space-2);
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
       }
-      .assistants-chips::-webkit-scrollbar {
-        display: none;
-      }
       .assistant-btn {
         flex-shrink: 0;
-        font-size: 12.5px;
-        padding: 8px 13px;
-        min-height: 42px;
+        font-size: 13px;
+        padding: 9px 14px;
+        min-height: var(--touch-target-min);
+        border-radius: var(--radius-md);
       }
       .terminal-container {
-        border-radius: 12px;
-        margin-top: 10px;
-        width: 100%;
-        overflow: hidden;
+        border-radius: var(--radius-lg);
+        margin-top: var(--space-3);
       }
       .terminal-header {
-        padding: 8px 10px;
-        gap: 6px;
+        padding: 8px 12px;
+        gap: var(--space-2);
         flex-wrap: nowrap;
         justify-content: space-between;
       }
@@ -1522,78 +1554,81 @@
       }
       .terminal-tabs {
         display: flex;
-        gap: 4px;
+        gap: var(--space-1);
         flex-shrink: 0;
       }
       .term-tab {
-        padding: 5px 8px;
-        font-size: 11px;
+        padding: 6px 10px;
+        font-size: 11.5px;
+        border-radius: var(--radius-sm);
       }
       .btn-copy-code {
-        padding: 5px 8px;
-        font-size: 11px;
+        padding: 6px 12px;
+        font-size: 11.5px;
         flex-shrink: 0;
-        min-height: 32px;
+        min-height: 34px;
+        border-radius: var(--radius-sm);
       }
       .terminal-code-body {
-        padding: 12px 10px;
+        padding: 14px 12px;
         font-size: 11.5px;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        line-height: 1.5;
+        line-height: 1.55;
       }
 
-      /* LegalGraphify Sandbox */
+      /* LegalGraphify Sandbox — iOS Auto-Zoom Protected Input */
       .sandbox-card {
-        padding: 16px 12px;
-        border-radius: 14px;
+        padding: 18px 14px;
+        border-radius: var(--radius-lg);
       }
       .sandbox-input-row {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: var(--space-2);
       }
       .sandbox-input-row input {
         width: 100%;
         padding: 12px 14px;
-        font-size: 14px;
-        border-radius: 10px;
+        font-size: 16px !important; /* Prevents iOS Safari auto-zoom */
+        min-height: 48px;
+        border-radius: var(--radius-md);
       }
       .sandbox-input-row button {
         width: 100%;
-        min-height: 44px;
-        font-size: 14px;
+        min-height: 48px;
+        font-size: 14.5px;
+        font-weight: 600;
         justify-content: center;
-        border-radius: 10px;
+        border-radius: var(--radius-md);
       }
       .sandbox-chips {
         display: flex;
         overflow-x: auto;
         flex-wrap: nowrap;
-        gap: 6px;
-        padding-bottom: 6px;
+        gap: var(--space-2);
+        padding-bottom: var(--space-2);
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
       }
-      .sandbox-chips::-webkit-scrollbar {
-        display: none;
-      }
       .chip-quick {
         flex-shrink: 0;
-        font-size: 11px;
-        padding: 5px 10px;
+        font-size: 11.5px;
+        padding: 6px 11px;
+        min-height: 32px;
+        border-radius: var(--radius-pill);
       }
       .sandbox-results-grid {
         grid-template-columns: 1fr;
-        gap: 14px;
-        margin-top: 14px;
+        gap: var(--space-3);
+        margin-top: var(--space-3);
       }
       .sandbox-panel {
-        padding: 12px;
-        border-radius: 12px;
+        padding: 14px;
+        border-radius: var(--radius-md);
       }
       .sandbox-panel pre {
-        font-size: 10.5px;
+        font-size: 11px;
         max-height: 240px;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
@@ -1601,114 +1636,120 @@
       }
       .token-metric-card {
         padding: 10px 8px;
+        border-radius: var(--radius-sm);
       }
       .token-num {
         font-size: 1.25rem;
       }
 
-      /* 55 MCP Tools Dynamic Catalog */
+      /* 55 MCP Tools Dynamic Catalog — iOS Auto-Zoom Protected Search */
       .tools-filter-bar {
         display: flex;
         overflow-x: auto;
         flex-wrap: nowrap;
-        gap: 6px;
-        padding-bottom: 8px;
+        gap: var(--space-2);
+        padding-bottom: var(--space-2);
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
       }
-      .tools-filter-bar::-webkit-scrollbar {
-        display: none;
-      }
       .filter-btn {
         flex-shrink: 0;
-        font-size: 12px;
-        padding: 7px 12px;
-        min-height: 38px;
-        border-radius: 9999px;
+        font-size: 12.5px;
+        padding: 8px 14px;
+        min-height: var(--touch-target-min);
+        border-radius: var(--radius-pill);
       }
       .tools-search-box input {
         width: 100%;
-        padding: 12px 14px;
-        font-size: 14px;
-        border-radius: 10px;
+        padding: 12px 16px;
+        font-size: 16px !important; /* Prevents iOS Safari auto-zoom */
+        min-height: 48px;
+        border-radius: var(--radius-md);
       }
       .tools-grid {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: var(--space-3);
       }
       .tool-card {
-        padding: 14px 12px;
-        border-radius: 12px;
+        padding: 16px 14px;
+        border-radius: var(--radius-md);
       }
       .tool-name {
         font-size: 13.5px;
         word-break: break-word;
       }
       .tool-desc {
-        font-size: 12px;
+        font-size: 12.5px;
         line-height: 1.45;
       }
 
       /* Doctrina (58 Tratados) */
       .doctrina-grid {
         grid-template-columns: 1fr;
-        gap: 12px;
+        gap: var(--space-3);
       }
       .doctrina-card {
         padding: 16px 14px;
-        border-radius: 12px;
+        border-radius: var(--radius-md);
       }
       .hf-banner {
-        padding: 20px 16px;
-        border-radius: 14px;
+        padding: 22px 16px;
+        border-radius: var(--radius-lg);
         text-align: center;
       }
       .hf-banner h3 {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
       }
       .hf-banner-btn {
         width: 100%;
         justify-content: center;
-        min-height: 46px;
-        font-size: 14px;
+        min-height: 48px;
+        font-size: 14.5px;
+        border-radius: var(--radius-md);
       }
 
       /* Bento Grid & Footer */
       .bento-grid {
         grid-template-columns: 1fr;
-        gap: 12px;
+        gap: var(--space-3);
       }
       .bento-card {
-        padding: 18px 16px;
+        padding: 20px 18px;
+        border-radius: var(--radius-lg);
       }
       .footer {
-        padding: 40px 16px 24px;
+        padding-block: 44px 28px;
+        padding-inline: var(--container-gutter-phone);
       }
       .footer-container {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: var(--space-6);
       }
       .footer-col h4 {
         font-size: 13.5px;
-        margin-bottom: 8px;
+        margin-bottom: var(--space-2);
       }
       .footer-link {
-        font-size: 13px;
-        padding: 4px 0;
+        font-size: 13.5px;
+        padding-block: 5px;
         display: inline-block;
       }
       .footer-bottom {
         flex-direction: column;
-        gap: 10px;
+        gap: var(--space-3);
         text-align: center;
         font-size: 11.5px;
         line-height: 1.5;
+        padding-top: var(--space-5);
       }
     }
 
     @media (max-width: 480px) {
       .adoption-grid {
         grid-template-columns: 1fr;
+      }
+      .hero-h1 {
+        font-size: 2.1rem;
       }
     }
 
@@ -2095,7 +2136,7 @@
   </section>
 
   <!-- Step 02: LegalGraphify Subgraph Sandbox -->
-  <section id="graphify" class="step-section" style="padding-top: 0;">
+  <section id="graphify" class="step-section">
     <span class="eyebrow-step">Compresión de Contexto</span>
     <h2 class="step-h2">LegalGraphify: Consultas Hiper-Densas en Grafo.</h2>
     <p class="step-desc">
@@ -2167,7 +2208,7 @@ relaciones_directas:
   </section>
 
   <!-- Step 03: 58 Canonical Treatises & Hugging Face Dataset Viewer -->
-  <section id="doctrina" class="step-section" style="padding-top: 0;">
+  <section id="doctrina" class="step-section">
     <span class="eyebrow-step">Biblioteca Canónica</span>
     <h2 class="step-h2">58 Obras Canónicas en Hugging Face Datasets Hub.</h2>
     <p class="step-desc">
@@ -2262,7 +2303,7 @@ relaciones_directas:
   </section>
 
   <!-- Step 04: 55 MCP Tools Interactive Catalog -->
-  <section id="herramientas" class="step-section" style="padding-top: 0;">
+  <section id="herramientas" class="step-section">
     <span class="eyebrow-step">Catálogo de Herramientas</span>
     <h2 class="step-h2">Catálogo Exhaustivo de 55 Herramientas MCP.</h2>
     <p class="step-desc">
@@ -2290,7 +2331,7 @@ relaciones_directas:
   </section>
 
   <!-- Step 05: Privacy & Architecture Bento -->
-  <section class="step-section" style="padding-top: 0;">
+  <section class="step-section">
     <span class="eyebrow-step">Step 05</span>
     <h2 class="step-h2">Compromiso Cero Fugas y Privacidad Absoluta.</h2>
     <p class="step-desc">
