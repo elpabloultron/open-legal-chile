@@ -76,7 +76,13 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 36 Herramientas Forenses Registradas                                                │
+│   • 51 Herramientas Forenses Registradas (v1.3.0 Suite Edition)                         │
+│   • Motor de Estudio de Títulos Decenal CBR (cbr_titles.py)                              │
+│   • Auditor de Mandatos Judiciales Art. 7 CPC (cbr_titles.py)                            │
+│   • Deconstructor Estructural de Sentencias Art. 170 CPC (sentencias_parser.py)         │
+│   • Validador Oficial de RUT y Directorio de Órganos Públicos (entes_publicos.py)       │
+│   • Guías Oficiales de la Academia Judicial de Chile (academia_judicial_connector.py)   │
+│   • Sincronizador de Biblioteca Online y Datasets Markdown (online_library_sync.py)     │
 │   • Motor de Doctrina Canónica FTS5 BM25 (doctrina_connector.py)                        │
 │   • Motor de Crítica Forense en 5 Dimensiones (critique.py)                             │
 │   • Vigilante de Proveídos y Plazos Fatales OJV (docket_watcher.py)                     │
@@ -100,20 +106,49 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 
 ## ⚡ 3. Instalación y Puesta en Marcha
 
-### Opción A: Instalación vía PyPI (Recomendado para Producción)
+> [!TIP]
+> **¿Deseas instalar Open Legal Chile como Plugin en 1-Click o 1-Comando?**  
+> Consulta la guía detallada en [**`PLUGINS.md`**](file:///home/pablo/Escritorio/Ultimaprensa/open-legal-chile/PLUGINS.md) para Claude Code, Cursor, VS Code, Windsurf y Smithery.ai.
+
+### Opción A: Como Plugin Nativo en Claude Code (1-Comando)
+```bash
+claude plugin add elpabloultron/open-legal-chile
+```
+*O como servidor MCP:*
+```bash
+claude mcp add open-legal-chile python3 -m openlegal mcp
+```
+
+### Opción B: Autodetección 1-Click en Cursor y VS Code / Windsurf
+1. Clona o abre la carpeta del proyecto en Cursor o VS Code:
+   ```bash
+   git clone https://github.com/elpabloultron/open-legal-chile.git
+   cursor open-legal-chile
+   ```
+2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 51 herramientas de inmediato.
+
+### Opción C: Instalación Global vía Smithery.ai (1-Comando)
+```bash
+npx -y @smithery/cli install openlegal-chile --client claude
+# o para cursor:
+npx -y @smithery/cli install openlegal-chile --client cursor
+```
+
+### Opción D: Instalación vía PyPI (Producción)
 ```bash
 pip install openlegal-chile
 ```
 
-### Opción B: Instalación desde Código Fuente (Modo Desarrollo)
+### Opción E: Instalación desde Código Fuente (Desarrollo)
 ```bash
 git clone https://github.com/elpabloultron/open-legal-chile.git
 cd open-legal-chile
 pip install -e .
 ```
 
-### Opción C: Integración en Google Antigravity, Cursor o VS Code
-Agrega la suite a tu archivo de configuración de servidores MCP (`mcp_config.json`):
+### Opción F: Integración en Google Antigravity
+Configura tu `mcp_config.json` apuntando al repositorio:
 ```json
 {
   "mcpServers": {
@@ -126,11 +161,6 @@ Agrega la suite a tu archivo de configuración de servidores MCP (`mcp_config.js
     }
   }
 }
-```
-
-### Opción D: Integración en Claude Code (Terminal)
-```bash
-claude mcp add open-legal-chile python3 -m openlegal mcp
 ```
 
 ### ⚙️ Modos de Inferencia: Soberano vs. Modelos Externos
@@ -148,9 +178,9 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (36 Herramientas)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (51 Herramientas Oficiales)
 
-El servidor MCP expone **36 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **51 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |

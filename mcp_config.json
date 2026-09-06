@@ -1,9 +1,11 @@
 {
   "mcpServers": {
     "open-legal-chile": {
-      "command": "/home/pablo/Escritorio/Denuncias Fiscalia/.venv/bin/python3",
-      "args": ["/home/pablo/Escritorio/Ultimaprensa/open-legal-chile/mcp_server.py"],
-      "description": "Suite de Inteligencia Jurídica y Forense de Chile: 21 Herramientas (10 Conectores Oficiales del Estado BCN/CGR/DT/PJUD/SII/CMF/SMA/TDLC/CNE/Panel, Extractor OCR, Compilador de Expedientes A4, InfoProbidad, Grafos de Vínculos y Sincronizador con NotebookLM)",
+      "command": "python3",
+      "args": [
+        "/home/pablo/Escritorio/Ultimaprensa/open-legal-chile/mcp_server.py"
+      ],
+      "description": "Suite Integral de Inteligencia y Práctica Jurídica de Chile: 51 Herramientas MCP oficiales (10 Conectores del Estado BCN/CGR/DT/PJUD/SII/CMF/SMA/TDLC/CNE/Panel, Estudio de Títulos Decenal CBR, Mandatos Judiciales Art. 7 CPC, Deconstrucción de Sentencias Art. 170 CPC, Doctrina Canónica FTS5, Guías Academia Judicial, InfoProbidad, Grafos Forenses y Compilador A4).",
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONPATH": "/home/pablo/Escritorio/Ultimaprensa/open-legal-chile"
