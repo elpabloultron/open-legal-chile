@@ -85,7 +85,7 @@ def check_configuration() -> dict:
     }
 
 
-def safe_urlopen(req, timeout: int = 30):
+def safe_urlopen(req, timeout: float = 30.0):
     """Ejecuta una petición HTTP/HTTPS segura validando que el esquema no sea file:// ni arbitrario."""
     import urllib.request
     url = req.full_url if hasattr(req, "full_url") else str(req)

@@ -42,7 +42,7 @@ from docket_watcher import DocketWatcherEngine
 from clinica_juridica import ClinicaJuridicaEngine
 from privacidad_inapi import PrivacyARCOEngine, INAPIEngine
 from cbr_titles import CBRTitleStudyEngine, JudicialPowerVerifier
-from entes_publicos import validar_rut, consultar_ente, listar_entes
+from entes_publicos import validar_rut, consultar_ente
 from sentencias_parser import SentenciaParserEngine, ProveidosParser
 from tribunales_ambientales_connector import TribunalesAmbientalesClient
 from academia_judicial_connector import AcademiaJudicialClient

@@ -244,7 +244,7 @@ def consultar_ente(query: str) -> Dict[str, Any]:
     if q in ENTES_PUBLICOS_CATALOGO:
         return {"encontrado": True, "ente": ENTES_PUBLICOS_CATALOGO[q]}
 
-    for key, data in ENTES_PUBLICOS_CATALOGO.items():
+    for data in ENTES_PUBLICOS_CATALOGO.values():
         if q == data["sigla"].lower() or q in data["nombre"].lower() or q in data["competencia"].lower():
             return {"encontrado": True, "ente": data}
 

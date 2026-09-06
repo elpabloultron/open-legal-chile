@@ -143,16 +143,9 @@ def send_anonymous_telemetry_ping(client: str = "cli", action: str = "session_st
         return False
 
     try:
-        payload = {
-            "p": PYPI_PACKAGE_NAME,
-            "v": "1.3.0",
-            "os": sys.platform,
-            "c": client,
-            "a": action
-        }
         # Endpoint de conteo público anónimo (usando hit de badge / telemetría ligera)
         url = f"https://api.github.com/repos/{GITHUB_REPO}"
-        req = urllib.request.Request(url, headers={"User-Agent": f"OpenLegalChilePing/{client}"})
+        req = urllib.request.Request(url, headers={"User-Agent": f"OpenLegalChilePing/{client}-{action}"})
         # Timeout agresivo para no retrasar en lo más mínimo al usuario
         with safe_urlopen(req, timeout=1.0) as resp:
             return resp.status == 200
