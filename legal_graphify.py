@@ -582,7 +582,16 @@ class LegalGraphifyEngine:
             self.construir_grafo_desde_doctrina()
 
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
-        data = nx.node_link_data(self.graph)
+        try:
+            data = nx.node_link_data(self.graph, edges="edges")
+        except (TypeError, Exception):
+            data = nx.node_link_data(self.graph)
+
+        if "edges" in data and "links" not in data:
+            data["links"] = data["edges"]
+        elif "links" in data and "edges" not in data:
+            data["edges"] = data["links"]
+
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -595,7 +604,30 @@ class LegalGraphifyEngine:
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            self.graph = nx.node_link_graph(data, directed=True)
+
+            if "edges" in data and "links" not in data:
+                data["links"] = data["edges"]
+            elif "links" in data and "edges" not in data:
+                data["edges"] = data["links"]
+
+            loaded_graph = None
+            for edges_param in [None, "edges", "links"]:
+                try:
+                    kwargs: Dict[str, Any] = {"directed": True}
+                    if edges_param:
+                        kwargs["edges"] = edges_param
+                    g = nx.node_link_graph(data, **kwargs)
+                    if g.number_of_nodes() > 0:
+                        loaded_graph = g
+                        break
+                except (TypeError, KeyError, Exception):
+                    continue
+
+            if loaded_graph is None or loaded_graph.number_of_nodes() == 0:
+                self.construir_grafo_desde_doctrina()
+                return True
+
+            self.graph = loaded_graph
             self.instituciones_index.clear()
             self.normas_index.clear()
             for nid, d in self.graph.nodes(data=True):
@@ -608,7 +640,8 @@ class LegalGraphifyEngine:
             self.is_built = True
             return True
         except Exception:
-            return False
+            self.construir_grafo_desde_doctrina()
+            return True
 
     def integrar_con_graphify(self, graphify_out_path: str = "graphify-out/graph.json") -> Dict[str, Any]:
         """
