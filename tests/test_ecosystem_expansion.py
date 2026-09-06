@@ -10,6 +10,7 @@ Valida los nuevos módulos forenses, regulatorios, judiciales y de biblioteca:
 - mcp_server.py (Nuevas herramientas MCP)
 """
 
+import os
 import pytest
 from cbr_titles import CBRTitleStudyEngine, JudicialPowerVerifier
 from entes_publicos import validar_rut, calcular_dv_rut, consultar_ente, listar_entes
@@ -198,6 +199,25 @@ class TestOnlineLibrarySync:
         assert manif["total_documentos"] >= 10
         assert manif["total_palabras"] > 500
         assert manif["licencia"] == "Apache-2.0 / Open Access"
+
+    def test_preparar_card_y_bundle(self):
+        mgr = OnlineLibrarySyncManager()
+        card = mgr.preparar_dataset_card_huggingface()
+        assert os.path.exists(card)
+        with open(card, "r", encoding="utf-8") as f:
+            content = f.read()
+            assert "license: apache-2.0" in content
+            assert "open-legal-chile/doctrina-jurisprudencia-chile" in content
+
+    def test_publicar_hf_sin_token(self):
+        mgr = OnlineLibrarySyncManager()
+        # Asegurarse de que no falle con excepción si no hay token
+        res = mgr.publicar_en_huggingface(token=None)
+        # Si no hay variable HF_TOKEN en el entorno, debe dar error controlado
+        if not os.environ.get("HF_TOKEN"):
+            assert res["exito"] is False
+            assert "HF_TOKEN" in res["error"]
+
 
 
 class TestMCPServerNewTools:

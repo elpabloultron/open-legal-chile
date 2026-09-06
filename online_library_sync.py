@@ -194,3 +194,102 @@ Licencia Apache 2.0. Desarrollado por la iniciativa comunitaria Open Legal Chile
             "indice_notebooklm": index_file,
             "instruccion": "Esta carpeta puede subirse directamente a Google Drive y vincularse como fuente en Google NotebookLM."
         }
+
+    def publicar_en_huggingface(self, repo_id: str = "open-legal-chile/doctrina-jurisprudencia-chile", token: Optional[str] = None) -> Dict[str, Any]:
+        """
+        Publica el corpus de Markdown y la Dataset Card en Hugging Face Datasets Hub usando huggingface_hub.
+        Requiere un token de Hugging Face con permisos de escritura (HF_TOKEN o parámetro token).
+        """
+        hf_token = token or os.environ.get("HF_TOKEN")
+        if not hf_token:
+            return {
+                "exito": False,
+                "error": "Token de autenticación de Hugging Face (HF_TOKEN) no configurado.",
+                "instrucciones": (
+                    "Para publicar automáticamente en Hugging Face:\n"
+                    "1. Crea una cuenta gratuita en https://huggingface.co/join\n"
+                    "2. Genera un Access Token con rol 'Write' en https://huggingface.co/settings/tokens\n"
+                    "3. En tu terminal ejecuta: export HF_TOKEN='hf_...'\n"
+                    f"4. Reejecuta este comando para crear y subir '{repo_id}'."
+                )
+            }
+
+        try:
+            import importlib
+            hf_api_mod = importlib.import_module("huggingface_hub")
+            hf_api_cls = getattr(hf_api_mod, "HfApi")
+        except ImportError:
+            return {
+                "exito": False,
+                "error": "El paquete 'huggingface_hub' no está instalado en el entorno.",
+                "instrucciones": "Instálalo ejecutando: pip install huggingface_hub"
+            }
+
+        try:
+            card_path = self.preparar_dataset_card_huggingface()
+            api = hf_api_cls(token=hf_token)
+            api.create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
+
+            # Subir tarjeta README.md
+            api.upload_file(
+                path_or_fileobj=card_path,
+                path_in_repo="README.md",
+                repo_id=repo_id,
+                repo_type="dataset"
+            )
+            # Subir carpeta de doctrina
+            api.upload_folder(
+                folder_path=self.raw_dir,
+                repo_id=repo_id,
+                repo_type="dataset",
+                path_in_repo="doctrina"
+            )
+            return {
+                "exito": True,
+                "repo_id": repo_id,
+                "url": f"https://huggingface.co/datasets/{repo_id}",
+                "mensaje": f"Dataset publicado exitosamente en Hugging Face: https://huggingface.co/datasets/{repo_id}"
+            }
+        except Exception as e:
+            return {
+                "exito": False,
+                "error": str(e),
+                "instrucciones": f"Verifica que el nombre '{repo_id}' sea válido y que tu cuenta tenga permisos."
+            }
+
+
+def main() -> None:
+    """Punto de entrada CLI para empaquetar y sincronizar la biblioteca en Markdown."""
+    import sys
+    mgr = OnlineLibrarySyncManager()
+
+    if "--tar" in sys.argv:
+        tar = mgr.empaquetar_tar_gz()
+        print(f"📦 Paquete .tar.gz generado en: {tar}")
+    elif "--drive" in sys.argv:
+        drive = mgr.preparar_bundle_google_drive()
+        print(f"📁 Bundle Google Drive / NotebookLM generado en: {drive['carpeta_bundle']} ({drive['total_archivos_copiados']} archivos)")
+    elif "--card" in sys.argv:
+        card = mgr.preparar_dataset_card_huggingface()
+        print(f"📄 Dataset Card para Hugging Face en: {card}")
+    elif "--upload-hf" in sys.argv:
+        repo = "open-legal-chile/doctrina-jurisprudencia-chile"
+        for arg in sys.argv:
+            if arg.startswith("--repo="):
+                repo = arg.split("=", 1)[1]
+        res = mgr.publicar_en_huggingface(repo_id=repo)
+        if res["exito"]:
+            print(f"✅ {res['mensaje']}")
+        else:
+            print(f"❌ Error: {res['error']}\n{res['instrucciones']}")
+    else:
+        manif = mgr.compilar_manifiesto_corpus()
+        print(f"📚 {manif['nombre']} (v{manif['version']})")
+        print(f"  • Total Obras/Guías: {manif['total_documentos']}")
+        print(f"  • Total Palabras: {manif['total_palabras']:,}")
+        print(f"  • Tamaño: {manif['total_megabytes']} MB")
+        print("\nOpciones disponibles: --tar, --drive, --card, --upload-hf [--repo=ORG/NAME]")
+
+
+if __name__ == "__main__":
+    main()
