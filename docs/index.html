@@ -94,6 +94,19 @@
       color: var(--foreground);
       font-family: var(--font-sans);
       -webkit-font-smoothing: antialiased;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    body {
+      overflow-x: hidden;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
     }
 
     /* Global Grain Texture */
@@ -209,16 +222,19 @@
       transform: translateY(-1px);
     }
 
-    /* Hero Scope Section */
+    /* Hero Scope Section — Solid Deep Forest Gradient (Never washes out) */
     .hero-scope {
       position: relative;
-      min-height: 100vh;
+      min-height: 90vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background: linear-gradient(180deg, #062a22 0%, #0a3f31 35%, #124f3c 60%, #1e6149 74%, #4f8a68 85%, #a8c9ad 93%, #e9ecdf 98%, #f8f7f0 100%);
-      padding: 110px 24px 70px;
+      background: #062a22;
+      background-image: radial-gradient(circle at 50% 15%, #0e4838 0%, #062a22 65%, #041d18 100%);
+      padding-block: 100px 60px;
+      padding-inline: 24px;
       overflow: hidden;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .hero-lattice-bg {
@@ -254,13 +270,18 @@
     .hero-eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      flex-wrap: wrap;
+      gap: 6px 8px;
       font-family: var(--font-mono);
-      font-size: 11px;
+      font-size: 11.5px;
       text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: rgba(255, 255, 255, 0.75);
-      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 9999px;
+      padding: 5px 14px;
+      margin-bottom: 20px;
     }
 
     .hero-dot {
@@ -1325,72 +1346,105 @@
       display: none;
     }
 
-    /* Responsive Breakpoints */
-    @media (max-width: 992px) {
-      .hero-container { grid-template-columns: 1fr; gap: 36px; }
-      .adoption-grid { grid-template-columns: repeat(2, 1fr); }
-      .setup-grid { grid-template-columns: 1fr; }
-      .sandbox-results-grid { grid-template-columns: 1fr; }
-      .doctrina-grid { grid-template-columns: 1fr 1fr; }
-      .bento-grid { grid-template-columns: 1fr; }
-      .footer-container { grid-template-columns: 1fr 1fr; }
-      .pillars-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-    }
+/* ─── Responsive & Print Architecture ─── */
 
-/* ─── OpenCode Mobile Dimensions & Touch Optimization (< 768px) ─── */
-    @media (max-width: 768px) {
-      /* Sections & Containers: OpenCode phone gutters (16px) & Y-spacing (48px) */
-      .step-section {
-        padding-block: var(--section-y-phone);
-        padding-inline: var(--container-gutter-phone);
-      }
-      .hero-scope {
-        padding-block: 84px var(--section-y-phone);
-        padding-inline: var(--container-gutter-phone);
-        min-height: auto;
-      }
-      .hero-container {
-        gap: var(--space-6);
-        max-width: 100%;
-      }
-
-      /* Header Pill Mobile Dimensions */
+    /* Tablet & Medium Screens (< 1120px) — Compact Header Transition */
+    @media (max-width: 1120px) {
       .header-nav {
         top: 10px;
-        padding-inline: var(--container-gutter-phone);
+        padding-inline: 16px;
         width: 100%;
       }
       .header-pill {
         width: 100%;
-        max-width: 100%;
-        padding: 6px 12px;
+        max-width: 560px;
+        margin: 0 auto;
+        padding: 7px 14px;
         justify-content: space-between;
+      }
+      .nav-links, .nav-divider, .desktop-only {
+        display: none !important;
       }
       .mobile-menu-btn {
         display: inline-flex;
-        min-height: var(--touch-target-min);
-        min-width: var(--touch-target-min);
       }
       .mobile-menu-drawer {
         display: block;
-        left: var(--container-gutter-phone);
-        right: var(--container-gutter-phone);
+        max-width: 560px;
+        margin: 8px auto 0;
+        left: 16px;
+        right: 16px;
       }
-      .mobile-nav-item {
-        min-height: var(--touch-target-min);
-        font-size: 15px;
+    }
+
+    @media (max-width: 992px) {
+      .hero-container {
+        grid-template-columns: 1fr;
+        gap: 36px;
+        width: 100%;
+      }
+      .adoption-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+      }
+      .setup-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+      }
+      .sandbox-results-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+      }
+      .doctrina-grid {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+      }
+      .bento-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+      }
+      .footer-container {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+      }
+      .pillars-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        width: 100%;
+      }
+    }
+
+    /* Mobile Phones & Narrow Screens (< 768px) */
+    @media (max-width: 768px) {
+      .step-section {
+        padding-block: var(--section-y-phone);
+        padding-inline: var(--container-gutter-phone);
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .hero-scope {
+        padding-block: 80px var(--section-y-phone);
+        padding-inline: var(--container-gutter-phone);
+        min-height: auto;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .hero-container {
+        gap: var(--space-5);
+        width: 100%;
+        max-width: 100%;
       }
 
-      /* Typography Scale for Mobile (OpenCode ratio) */
+      /* Hero Headlines */
       .hero-h1 {
-        font-size: clamp(2.1rem, 9.2vw, 3.1rem);
-        margin-bottom: var(--space-3);
-        line-height: 1.04;
+        font-size: clamp(2.3rem, 9.5vw, 3.4rem);
+        margin-bottom: var(--space-2);
+        line-height: 1.02;
+        letter-spacing: -0.035em;
       }
       .hero-subh1 {
-        font-size: clamp(1.05rem, 4.2vw, 1.35rem);
+        font-size: clamp(1.08rem, 4.4vw, 1.4rem);
         margin-bottom: var(--space-4);
-        line-height: 1.3;
+        line-height: 1.35;
       }
       .hero-p {
         font-size: 14.5px;
@@ -1399,22 +1453,11 @@
       }
       .hero-eyebrow {
         font-size: 11px;
-        gap: var(--space-1) var(--space-2);
+        padding: 5px 12px;
         margin-bottom: var(--space-3);
       }
-      .step-h2 {
-        font-size: clamp(1.45rem, 5.8vw, 1.95rem);
-        letter-spacing: -0.025em;
-        margin-bottom: var(--space-2);
-        line-height: 1.2;
-      }
-      .step-desc {
-        font-size: 14px;
-        line-height: 1.5;
-        margin-bottom: var(--space-5);
-      }
 
-      /* Interactive Touch Targets — minimum 44px */
+      /* Hero Actions */
       .hero-ctas {
         flex-direction: column;
         width: 100%;
@@ -1426,43 +1469,37 @@
         min-height: var(--touch-target-min);
         font-size: 14.5px;
         padding: 12px 18px;
+        box-sizing: border-box;
       }
-      .btn-hero-primary:active, .btn-hero-secondary:active,
-      .assistant-btn:active, .filter-btn:active, .btn-copy-code:active {
-        transform: translateY(1px);
-        transition: transform var(--motion-fast) var(--ease-standard);
+      .hero-trust {
+        flex-direction: column;
+        gap: 4px;
+        font-size: 11.5px;
+        text-align: center;
       }
 
-      /* Hero Right Architecture Card — Flat & Crisp */
+      /* Hero Architecture Card */
       .hero-right {
         width: 100%;
+        max-width: 100%;
       }
       .hero-card-showcase {
         border-radius: var(--radius-lg);
         width: 100%;
-      }
-      .suite-layer-card {
-        padding: 10px 12px;
-        margin-bottom: var(--space-2);
-      }
-      .suite-layer-title {
-        font-size: 13px;
-      }
-      .suite-layer-meta {
-        font-size: 10px;
-      }
-      .suite-layer-sub {
-        font-size: 11.5px;
+        box-sizing: border-box;
       }
 
-      /* Adoption & Metrics — 2 Columns Flat Grid */
+      /* Adoption Metrics — 2x2 Clean Mobile Grid */
       .adoption-section {
         padding-block: 28px;
         padding-inline: var(--container-gutter-phone);
+        width: 100%;
+        box-sizing: border-box;
       }
       .adoption-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--space-3);
+        width: 100%;
       }
       .stat-card {
         padding: var(--space-3) var(--space-2);
@@ -1475,10 +1512,14 @@
       .stat-label {
         font-size: 11px;
       }
+
+      /* 10 Conectores Strip */
       .orgs-strip {
         padding: 14px 12px;
         margin-top: var(--space-4);
         border-radius: var(--radius-md);
+        width: 100%;
+        box-sizing: border-box;
       }
       .orgs-list {
         display: flex;
@@ -1493,36 +1534,31 @@
         flex-shrink: 0;
         font-size: 12px;
         padding: 6px 11px;
-        border-radius: var(--radius-sm);
       }
 
-      /* Pillars Grid (The 5 Operational Pillars) — Single Column Flat Cards */
+      /* Pillars Grid (The 5 Operational Pillars) */
       .pillars-grid {
         grid-template-columns: 1fr;
         gap: var(--space-4);
-        margin-top: var(--space-5);
+        margin-top: var(--space-4);
+        width: 100%;
       }
       .pillar-card {
         padding: 20px 18px;
         border-radius: var(--radius-lg);
-      }
-      .pillar-title {
-        font-size: 1.15rem;
-      }
-      .pillar-desc {
-        font-size: 13.5px;
-        line-height: 1.52;
-      }
-      .pillar-tags {
-        gap: var(--space-1);
-      }
-      .pillar-tag {
-        font-size: 10.5px;
-        padding: 2px 7px;
-        border-radius: var(--radius-sm);
+        width: 100%;
+        box-sizing: border-box;
       }
 
-      /* Setup & Terminal — Swipeable Chips & Clean View */
+      /* Terminal Section */
+      .step-h2 {
+        font-size: clamp(1.45rem, 5.8vw, 1.95rem);
+        margin-bottom: var(--space-2);
+      }
+      .step-desc {
+        font-size: 14px;
+        margin-bottom: var(--space-4);
+      }
       .assistants-chips {
         display: flex;
         overflow-x: auto;
@@ -1537,11 +1573,11 @@
         font-size: 13px;
         padding: 9px 14px;
         min-height: var(--touch-target-min);
-        border-radius: var(--radius-md);
       }
       .terminal-container {
         border-radius: var(--radius-lg);
-        margin-top: var(--space-3);
+        width: 100%;
+        box-sizing: border-box;
       }
       .terminal-header {
         padding: 8px 12px;
@@ -1560,14 +1596,12 @@
       .term-tab {
         padding: 6px 10px;
         font-size: 11.5px;
-        border-radius: var(--radius-sm);
       }
       .btn-copy-code {
         padding: 6px 12px;
         font-size: 11.5px;
         flex-shrink: 0;
         min-height: 34px;
-        border-radius: var(--radius-sm);
       }
       .terminal-code-body {
         padding: 14px 12px;
@@ -1577,22 +1611,25 @@
         line-height: 1.55;
       }
 
-      /* LegalGraphify Sandbox — iOS Auto-Zoom Protected Input */
+      /* LegalGraphify Sandbox */
       .sandbox-card {
         padding: 18px 14px;
         border-radius: var(--radius-lg);
+        width: 100%;
+        box-sizing: border-box;
       }
       .sandbox-input-row {
         display: flex;
         flex-direction: column;
         gap: var(--space-2);
+        width: 100%;
       }
       .sandbox-input-row input {
         width: 100%;
         padding: 12px 14px;
         font-size: 16px !important; /* Prevents iOS Safari auto-zoom */
         min-height: 48px;
-        border-radius: var(--radius-md);
+        box-sizing: border-box;
       }
       .sandbox-input-row button {
         width: 100%;
@@ -1600,7 +1637,7 @@
         font-size: 14.5px;
         font-weight: 600;
         justify-content: center;
-        border-radius: var(--radius-md);
+        box-sizing: border-box;
       }
       .sandbox-chips {
         display: flex;
@@ -1615,17 +1652,18 @@
         flex-shrink: 0;
         font-size: 11.5px;
         padding: 6px 11px;
-        min-height: 32px;
-        border-radius: var(--radius-pill);
       }
       .sandbox-results-grid {
         grid-template-columns: 1fr;
         gap: var(--space-3);
         margin-top: var(--space-3);
+        width: 100%;
       }
       .sandbox-panel {
         padding: 14px;
         border-radius: var(--radius-md);
+        width: 100%;
+        box-sizing: border-box;
       }
       .sandbox-panel pre {
         font-size: 11px;
@@ -1634,15 +1672,8 @@
         -webkit-overflow-scrolling: touch;
         line-height: 1.45;
       }
-      .token-metric-card {
-        padding: 10px 8px;
-        border-radius: var(--radius-sm);
-      }
-      .token-num {
-        font-size: 1.25rem;
-      }
 
-      /* 55 MCP Tools Dynamic Catalog — iOS Auto-Zoom Protected Search */
+      /* 55 MCP Tools Dynamic Catalog */
       .tools-filter-bar {
         display: flex;
         overflow-x: auto;
@@ -1657,82 +1688,74 @@
         font-size: 12.5px;
         padding: 8px 14px;
         min-height: var(--touch-target-min);
-        border-radius: var(--radius-pill);
       }
       .tools-search-box input {
         width: 100%;
         padding: 12px 16px;
         font-size: 16px !important; /* Prevents iOS Safari auto-zoom */
         min-height: 48px;
-        border-radius: var(--radius-md);
+        box-sizing: border-box;
       }
       .tools-grid {
         grid-template-columns: 1fr;
         gap: var(--space-3);
+        width: 100%;
       }
       .tool-card {
         padding: 16px 14px;
         border-radius: var(--radius-md);
-      }
-      .tool-name {
-        font-size: 13.5px;
-        word-break: break-word;
-      }
-      .tool-desc {
-        font-size: 12.5px;
-        line-height: 1.45;
+        width: 100%;
+        box-sizing: border-box;
       }
 
       /* Doctrina (58 Tratados) */
       .doctrina-grid {
         grid-template-columns: 1fr;
         gap: var(--space-3);
+        width: 100%;
       }
       .doctrina-card {
         padding: 16px 14px;
         border-radius: var(--radius-md);
+        width: 100%;
+        box-sizing: border-box;
       }
       .hf-banner {
         padding: 22px 16px;
         border-radius: var(--radius-lg);
-        text-align: center;
-      }
-      .hf-banner h3 {
-        font-size: 1.25rem;
+        width: 100%;
+        box-sizing: border-box;
       }
       .hf-banner-btn {
         width: 100%;
         justify-content: center;
         min-height: 48px;
         font-size: 14.5px;
-        border-radius: var(--radius-md);
+        box-sizing: border-box;
       }
 
       /* Bento Grid & Footer */
       .bento-grid {
         grid-template-columns: 1fr;
         gap: var(--space-3);
+        width: 100%;
       }
       .bento-card {
         padding: 20px 18px;
         border-radius: var(--radius-lg);
+        width: 100%;
+        box-sizing: border-box;
       }
       .footer {
         padding-block: 44px 28px;
         padding-inline: var(--container-gutter-phone);
+        width: 100%;
+        box-sizing: border-box;
       }
       .footer-container {
         grid-template-columns: 1fr;
         gap: var(--space-6);
-      }
-      .footer-col h4 {
-        font-size: 13.5px;
-        margin-bottom: var(--space-2);
-      }
-      .footer-link {
-        font-size: 13.5px;
-        padding-block: 5px;
-        display: inline-block;
+        width: 100%;
       }
       .footer-bottom {
         flex-direction: column;
@@ -1744,15 +1767,43 @@
       }
     }
 
-    @media (max-width: 480px) {
+    /* Small Screen (< 440px) */
+    @media (max-width: 440px) {
       .adoption-grid {
         grid-template-columns: 1fr;
       }
       .hero-h1 {
-        font-size: 2.1rem;
+        font-size: 2.2rem;
       }
     }
 
+    /* Print & PDF Export Styles (Prevents 16-page fixed header duplication) */
+    @media print {
+      .header-nav, .mobile-menu-drawer, .site-grain {
+        display: none !important;
+      }
+      body, html {
+        background: #ffffff !important;
+        color: #111827 !important;
+        font-size: 12pt;
+      }
+      .hero-scope {
+        background: #062a22 !important;
+        color: #ffffff !important;
+        min-height: auto !important;
+        padding: 40px 20px !important;
+        page-break-after: always;
+      }
+      .hero-h1, .hero-subh1, .suite-layer-title {
+        color: #ffffff !important;
+      }
+      .pillar-card, .tool-card, .stat-card, .doctrina-card, .bento-card, .terminal-container, .sandbox-card {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -1808,14 +1859,12 @@
       <div class="hero-left">
         <div class="hero-eyebrow">
           <span class="hero-dot"></span>
-          <span>Suite Soberana de Inteligencia Jurídica</span>
-          <span style="opacity: 0.35;">·</span>
-          <span class="hero-dot" style="background: var(--verify);"></span>
           <span>55 Herramientas MCP</span>
           <span style="opacity: 0.35;">·</span>
-          <span>10 Conectores de Estado</span>
+          <span>10 Conectores Oficiales</span>
           <span style="opacity: 0.35;">·</span>
-          <span>Zero Data Leak</span>
+          <span class="hero-dot" style="background: var(--verify);"></span>
+          <span>100% Local-First</span>
         </div>
 
         <h1 class="hero-h1">
@@ -2789,13 +2838,14 @@ relaciones_directas:
     function updateTerminal() {
       const snippet = SNIPPETS[currentAssistant][currentTab];
       const codeEl = document.getElementById('codeSnippet');
-      // Format lines
-      const formatted = snippet.split('\\n').map(line => {
+      // Format lines supporting both real newlines and escaped newlines
+      const lines = snippet.split(/\r?\n|\\n/);
+      const formatted = lines.map(line => {
         if (line.startsWith('#')) return `<span class="code-comment">${line}</span>`;
         if (line.startsWith('$')) return `<span class="code-prompt">$</span> <span class="code-cmd">${line.substring(2)}</span>`;
         if (line.startsWith('>')) return `<span class="code-prompt">&gt;</span> <span style="color:#ffffff;">${line.substring(2)}</span>`;
         return line;
-      }).join('\\n');
+      }).join('\n');
       codeEl.innerHTML = formatted;
     }
 
@@ -2831,34 +2881,89 @@ relaciones_directas:
       });
     });
 
-    // Subgraph Mock Dataset for Sandbox
+    // Subgraph Mock Dataset for Sandbox with Clean Multiline YAML
     const MOCK_GRAPH = {
       "simulacion": {
-        yaml: `institucion: "Teoría de la Simulación"\\ndefinicion: "Concertación bilateral para fingir un acto inexistente o disfrazar uno diverso."\\nnormas_clave:\\n  - "Art. 1707 CC (Contreescrituras privadas no perjudican a terceros de buena fe)"\\njurisprudencia_destacada:\\n  - "Rol 4512-2018 CS: Admite prueba testimonial y presunciones graves para acreditar simulación ilícita."\\nvias_procesales:\\n  - "Acción ordinaria de declaración de simulación e inoponibilidad"\\nautores_relevantes:\\n  - "Víctor Vial del Río (Teoría General del Acto Jurídico)"\\nrelaciones_directas:\\n  - destino: "Inexistencia y Nulidad Absoluta"\\n    tipo: "genera_inoponibilidad_o_nulidad"`,
+        yaml: `institucion: "Teoría de la Simulación"
+definicion: "Concertación bilateral para fingir un acto inexistente o disfrazar uno diverso."
+normas_clave:
+  - "Art. 1707 CC (Contreescrituras privadas no perjudican a terceros de buena fe)"
+jurisprudencia_destacada:
+  - "Rol 4512-2018 CS: Admite prueba testimonial y presunciones graves para acreditar simulación ilícita."
+vias_procesales:
+  - "Acción ordinaria de declaración de simulación e inoponibilidad"
+autores_relevantes:
+  - "Víctor Vial del Río (Teoría General del Acto Jurídico)"
+relaciones_directas:
+  - destino: "Inexistencia y Nulidad Absoluta"
+    tipo: "genera_inoponibilidad_o_nulidad"`,
         raw: "2.870 tokens",
         sub: "172 tokens",
         pct: "-94.0%"
       },
       "objeto ilicito": {
-        yaml: `institucion: "Objeto Ilícito (Art. 1464 CC)"\\ndefinicion: "Prohibición de enajenar cosas que están fuera del comercio, derechos personalísimos o embargadas por decreto judicial."\\nnormas_clave:\\n  - "Art. 1464 CC (Números 1, 2, 3 y 4)"\\n  - "Art. 1682 CC (Sanción de nulidad absoluta)"\\njurisprudencia_destacada:\\n  - "Rol 1289-2020 CS: Enajenación forzada en remate judicial no infringe el N° 3 del Art. 1464 CC si cuenta con autorización."\\nvias_procesales:\\n  - "Excepción procesal en juicio ejecutivo"\\n  - "Acción de nulidad absoluta sustantiva"\\nautores_relevantes:\\n  - "Víctor Vial del Río"\\n  - "Avelino León Hurtado"`,
+        yaml: `institucion: "Objeto Ilícito (Art. 1464 CC)"
+definicion: "Prohibición de enajenar cosas que están fuera del comercio, derechos personalísimos o embargadas por decreto judicial."
+normas_clave:
+  - "Art. 1464 CC (Números 1, 2, 3 y 4)"
+  - "Art. 1682 CC (Sanción de nulidad absoluta)"
+jurisprudencia_destacada:
+  - "Rol 1289-2020 CS: Enajenación forzada en remate judicial no infringe el N° 3 del Art. 1464 CC si cuenta con autorización."
+vias_procesales:
+  - "Excepción procesal en juicio ejecutivo"
+  - "Acción de nulidad absoluta sustantiva"
+autores_relevantes:
+  - "Víctor Vial del Río"
+  - "Avelino León Hurtado"`,
         raw: "3.420 tokens",
         sub: "245 tokens",
         pct: "-92.8%"
       },
       "compensacion economica": {
-        yaml: `institucion: "Compensación Económica"\\ndefinicion: "Derecho a resarcir el menoscabo económico sufrido por el cónyuge que se dedicó al cuidado de los hijos o del hogar común."\\nnormas_clave:\\n  - "Ley N° 19.947 Art. 61 (Presupuestos de procedencia)"\\n  - "Ley N° 19.947 Art. 62 (Criterios de cuantificación judicial)"\\njurisprudencia_destacada:\\n  - "Rol 8734-2019 CS: Carácter reparador-asistencial no sancionatorio, independiente del régimen patrimonial."\\nvias_procesales:\\n  - "Demanda reconvencional en juicio de divorcio o nulidad matrimonial"\\nautores_relevantes:\\n  - "René Ramos Pazos (Derecho de Familia)"`,
+        yaml: `institucion: "Compensación Económica"
+definicion: "Derecho a resarcir el menoscabo económico sufrido por el cónyuge que se dedicó al cuidado de los hijos o del hogar común."
+normas_clave:
+  - "Ley N° 19.947 Art. 61 (Presupuestos de procedencia)"
+  - "Ley N° 19.947 Art. 62 (Criterios de cuantificación judicial)"
+jurisprudencia_destacada:
+  - "Rol 8734-2019 CS: Carácter reparador-asistencial no sancionatorio, independiente del régimen patrimonial."
+vias_procesales:
+  - "Demanda reconvencional en juicio de divorcio o nulidad matrimonial"
+autores_relevantes:
+  - "René Ramos Pazos (Derecho de Familia)"`,
         raw: "2.950 tokens",
         sub: "198 tokens",
         pct: "-93.3%"
       },
       "nulidad de derecho publico": {
-        yaml: `institucion: "Nulidad de Derecho Público"\\ndefinicion: "Sanción de ineficacia constitucional que afecta a los actos estatales dictados con infracción a los Arts. 6 y 7 de la CPR."\\nnormas_clave:\\n  - "Constitución Política Arts. 6 y 7 (Principio de Juridicidad)"\\n  - "Ley N° 19.880 Art. 53 (Invalidación administrativa)"\\njurisprudencia_destacada:\\n  - "Corte Suprema: La acción de nulidad sustantiva es imprescriptible; las acciones patrimoniales consecuenciales prescriben en 5 años."\\nvias_procesales:\\n  - "Juicio ordinario de nulidad de derecho público ante juzgados civiles"\\nautores_relevantes:\\n  - "Eduardo Soto Kloss"\\n  - "Enrique Silva Cimma"`,
+        yaml: `institucion: "Nulidad de Derecho Público"
+definicion: "Sanción de ineficacia constitucional que afecta a los actos estatales dictados con infracción a los Arts. 6 y 7 de la CPR."
+normas_clave:
+  - "Constitución Política Arts. 6 y 7 (Principio de Juridicidad)"
+  - "Ley N° 19.880 Art. 53 (Invalidación administrativa)"
+jurisprudencia_destacada:
+  - "Corte Suprema: La acción de nulidad sustantiva es imprescriptible; las acciones patrimoniales consecuenciales prescriben en 5 años."
+vias_procesales:
+  - "Juicio ordinario de nulidad de derecho público ante juzgados civiles"
+autores_relevantes:
+  - "Eduardo Soto Kloss"
+  - "Enrique Silva Cimma"`,
         raw: "2.640 tokens",
         sub: "185 tokens",
         pct: "-93.0%"
       },
       "prevaricacion": {
-        yaml: `institucion: "Prevaricación Judicial"\\ndefinicion: "Delito cometido por jueces o abogados que fallan o asesoran a sabiendas contra ley expresa y vigente."\\nnormas_clave:\\n  - "Código Penal Arts. 223 a 227 (Prevaricación judicial)"\\n  - "Código Penal Art. 231 (Prevaricación de abogados)"\\njurisprudencia_destacada:\\n  - "Rol 3120-2021 CS: Requiere dolo directo cualificado; el mero error de interpretación no constituye delito."\\nvias_procesales:\\n  - "Querella penal y desafuero previo según Art. 170 COT"\\nautores_relevantes:\\n  - "Sergio Politoff / Jean Pierre Matus (Derecho Penal Canónico)"`,
+        yaml: `institucion: "Prevaricación Judicial"
+definicion: "Delito cometido por jueces o abogados que fallan o asesoran a sabiendas contra ley expresa y vigente."
+normas_clave:
+  - "Código Penal Arts. 223 a 227 (Prevaricación judicial)"
+  - "Código Penal Art. 231 (Prevaricación de abogados)"
+jurisprudencia_destacada:
+  - "Rol 3120-2021 CS: Requiere dolo directo cualificado; el mero error de interpretación no constituye delito."
+vias_procesales:
+  - "Querella penal y desafuero previo según Art. 170 COT"
+autores_relevantes:
+  - "Sergio Politoff / Jean Pierre Matus (Derecho Penal Canónico)"`,
         raw: "2.210 tokens",
         sub: "160 tokens",
         pct: "-92.8%"
