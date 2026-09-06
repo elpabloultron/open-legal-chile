@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Open Legal Chile · The Legal Knowledge Graph & MCP Suite for AI Assistants</title>
+  <title>Open Legal Chile · La Suite Soberana de Inteligencia Jurídica & Servidor MCP para IA</title>
   <meta name="description" content="Open Legal Chile transforma 58 tratados canónicos y la jurisprudencia de Chile en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 55 herramientas MCP, 100% on-device, Apache 2.0." />
   <meta name="application-name" content="Open Legal Chile" />
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/" />
@@ -242,16 +242,136 @@
       display: inline-block;
     }
 
+
     .hero-h1 {
       font-family: var(--font-display);
-      font-size: clamp(2.5rem, 5vw, 4.1rem);
-      font-weight: 700;
-      line-height: 1.04;
-      letter-spacing: -0.035em;
+      font-size: clamp(3rem, 6.5vw, 5.2rem);
+      font-weight: 800;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
       color: #ffffff;
-      text-wrap: balance;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
+
+    .hero-subh1 {
+      font-family: var(--font-display);
+      font-size: clamp(1.25rem, 2.3vw, 1.85rem);
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: #a8c9ad;
+      margin-bottom: 22px;
+      text-wrap: balance;
+    }
+
+    /* Suite Pillars Grid */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      margin-top: 32px;
+    }
+
+    .pillar-card {
+      background: var(--card-light);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 26px;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .pillar-card:hover {
+      border-color: #94a3b8;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.08);
+    }
+
+    .pillar-icon-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    .pillar-title {
+      font-family: var(--font-display);
+      font-size: 1.28rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--foreground);
+      margin-bottom: 10px;
+    }
+
+    .pillar-desc {
+      font-size: 14.5px;
+      line-height: 1.55;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .pillar-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+
+    .pillar-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--paper);
+      color: var(--muted);
+      border: 1px solid var(--border-subtle);
+    }
+
+    /* Suite Architecture Layers in Hero Right */
+    .suite-layer-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      transition: all 0.2s ease;
+    }
+    .suite-layer-card:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.22);
+    }
+    .suite-layer-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .suite-layer-title {
+      font-family: var(--font-display);
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .suite-layer-meta {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--brand);
+    }
+    .suite-layer-sub {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.4;
+    }
+
 
     .text-brand {
       color: var(--brand);
@@ -1108,9 +1228,10 @@
       </a>
       <span class="nav-divider"></span>
       <nav class="nav-links">
+        <a href="#suite" class="nav-link">La Suite</a>
+        <a href="#herramientas" class="nav-link">55 Herramientas MCP</a>
         <a href="#doctrina" class="nav-link">Doctrina (58)</a>
         <a href="#graphify" class="nav-link">LegalGraphify</a>
-        <a href="#herramientas" class="nav-link">55 Herramientas MCP</a>
         <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="nav-link">Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="nav-link">GitHub</a>
       </nav>
@@ -1130,104 +1251,101 @@
       <div class="hero-left">
         <div class="hero-eyebrow">
           <span class="hero-dot"></span>
-          <span>Legal Knowledge Graph</span>
+          <span>Suite Soberana de Inteligencia Jurídica</span>
           <span style="opacity: 0.35;">·</span>
           <span class="hero-dot" style="background: var(--verify);"></span>
-          <span>Grounded Citations</span>
+          <span>55 Herramientas MCP</span>
+          <span style="opacity: 0.35;">·</span>
+          <span>10 Conectores de Estado</span>
           <span style="opacity: 0.35;">·</span>
           <span>Zero Data Leak</span>
         </div>
 
         <h1 class="hero-h1">
-          El knowledge graph jurídico que tu IA puede <span class="text-brand">razonar</span>.
+          Open Legal Chile
         </h1>
 
+        <p class="hero-subh1">
+          La suite completa y soberana de inteligencia jurídica para asistentes de IA y agentes autónomos.
+        </p>
+
         <p class="hero-p">
-          Open-source, local y en tu máquina. Mapea 58 tratados doctrinales y la jurisprudencia de Chile en un grafo ontológico que tus asistentes (Claude Code, Cursor, Copilot, Gemini) recorren en vez de hacer grep. <strong>85% a 95% de ahorro de tokens</strong>.
+          Infraestructura integral y local-first para que <strong>Claude Code, Cursor, Windsurf, Copilot y Gemini</strong> operen con máxima precisión sobre el ordenamiento jurídico chileno: consulta normativa BCN en tiempo real, causas PJUD y escritos OJV, estudio de títulos inmobiliarios CBR, fiscalizaciones CMF/SII, <strong>58 tratados canónicos</strong> completos y compresión de grafo con <strong>LegalGraphify</strong>.
         </p>
 
         <div class="hero-ctas">
-          <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="btn-hero-primary">
+          <a href="#herramientas" class="btn-hero-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            Explorar 55 Herramientas MCP
+          </a>
+          <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            Dataset Viewer (Hugging Face)
+            Dataset en Hugging Face (58 Tratados)
           </a>
           <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            GitHub Repo (111 Tests Green)
+            GitHub (111 Tests Green)
           </a>
         </div>
 
         <p class="hero-trust">
-          <span>Respaldado por 58 Tratados Canónicos</span>
+          <span>10 Conectores Oficiales del Estado</span>
           <span>·</span>
-          <span>Licencia Apache 2.0</span>
+          <span>58 Tratados Canónicos</span>
           <span>·</span>
-          <span>On-device · Zero Telemetry</span>
+          <span>100% On-Device · Licencia MIT / Apache 2.0</span>
         </p>
       </div>
 
-      <!-- Hero Right: Interactive Visual Subgraph Card -->
+      <!-- Hero Right: Open Legal Chile Suite Architecture Card -->
       <div class="hero-right">
         <div class="hero-card-showcase">
           <div class="card-top-tag">
-            <span><span class="hero-dot"></span> LegalGraphify Engine</span>
-            <span class="claim-tag">[ON-DEVICE KNOWLEDGE GRAPH]</span>
+            <span><span class="hero-dot"></span> Open Legal Chile Architecture</span>
+            <span class="claim-tag">[FULL SUITE STACK]</span>
           </div>
 
-          <div class="graph-interactive-box">
-            <div class="node-pill-central">
-              <span>🏛️</span>
-              <div>
-                <div style="font-size: 11px; font-family: var(--font-mono); color: var(--brand); text-transform: uppercase;">Institución Central</div>
-                <div>Teoría de la Simulación Contractual</div>
+          <div style="padding: 18px 20px;">
+            <!-- Layer 1: Conectores -->
+            <div class="suite-layer-card">
+              <div class="suite-layer-head">
+                <span class="suite-layer-title">🏛️ 10 Conectores Oficiales del Estado</span>
+                <span class="suite-layer-meta">BCN · PJUD · CBR · CMF</span>
               </div>
+              <div class="suite-layer-sub">Leyes BCN en tiempo real, sentencias Corte Suprema, registros CBR, circulares SII y dictámenes CGR.</div>
             </div>
 
-            <div class="node-relations-grid">
-              <div class="node-rel-item">
-                <span class="node-rel-type">Norma BCN</span>
-                <strong>Art. 1707 CC</strong>
-                <span style="font-size: 11px; opacity: 0.7;">Contreescrituras privadas</span>
+            <!-- Layer 2: MCP Protocol -->
+            <div class="suite-layer-card">
+              <div class="suite-layer-head">
+                <span class="suite-layer-title">⚡ Servidor MCP Nativo (55 Tools)</span>
+                <span class="suite-layer-meta">Claude · Cursor · Gemini</span>
               </div>
-              <div class="node-rel-item">
-                <span class="node-rel-type">Fallo Corte Suprema</span>
-                <strong>Rol 4512-2018 CS</strong>
-                <span style="font-size: 11px; opacity: 0.7;">Prueba de presunciones</span>
+              <div class="suite-layer-sub">Integración universal vía Model Context Protocol en stdio / JSON-RPC 2.0. Conexión en 1 comando.</div>
+            </div>
+
+            <!-- Layer 3: Operatoria Judicial -->
+            <div class="suite-layer-card">
+              <div class="suite-layer-head">
+                <span class="suite-layer-title">⚖️ Operatoria Procesal & Títulos CBR</span>
+                <span class="suite-layer-meta">Ley 20.886 · OCR · Dossiers</span>
               </div>
-              <div class="node-rel-item">
-                <span class="node-rel-type">Tratadista</span>
-                <strong>Víctor Vial del Río</strong>
-                <span style="font-size: 11px; opacity: 0.7;">Acto Jurídico Canónico</span>
+              <div class="suite-layer-sub">Redacción estructurada de escritos OJV, compilador PDF judicial con anexos y estudio de dominio inmobiliario.</div>
+            </div>
+
+            <!-- Layer 4: Doctrina & LegalGraphify -->
+            <div class="suite-layer-card" style="border-color: rgba(74, 222, 128, 0.3); background: rgba(74, 222, 128, 0.06);">
+              <div class="suite-layer-head">
+                <span class="suite-layer-title">🧠 Doctrina Canónica & LegalGraphify</span>
+                <span class="suite-layer-meta">-94.7% Tokens · Hugging Face</span>
               </div>
-              <div class="node-rel-item">
-                <span class="node-rel-type">Vía Procesal</span>
-                <strong>Acción Inoponibilidad</strong>
-                <span style="font-size: 11px; opacity: 0.7;">Juicio Ordinario Civil</span>
-              </div>
+              <div class="suite-layer-sub">58 tratados canónicos (Alessandri, Somarriva, Claro Solar) indexados en FTS5 y comprimidos en grafos ontológicos.</div>
             </div>
           </div>
 
-          <div class="tokens-gauge-container">
-            <div class="gauge-label-row">
-              <span>Texto Doctrinal Crudo en Markdown</span>
-              <strong style="color: #f87171;">2.870 tokens</strong>
-            </div>
-            <div class="meter-bar">
-              <div class="meter-fill-red"></div>
-            </div>
-
-            <div class="gauge-label-row">
-              <span>Subgrafo Extraído en YAML (LegalGraphify)</span>
-              <strong style="color: var(--brand);">172 tokens</strong>
-            </div>
-            <div class="meter-bar">
-              <div class="meter-fill-green"></div>
-            </div>
-
-            <div class="savings-badge-row">
-              <span style="font-size: 12px; color: rgba(255,255,255,0.7);">Reducción de consumo en LLM:</span>
-              <span class="claim-tag" style="font-size: 12px; font-weight: 700;">-94.0% [EXTRACTED]</span>
-            </div>
+          <div style="padding: 12px 20px 18px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 12px; color: rgba(255,255,255,0.65); font-family: var(--font-mono);">Arquitectura Soberana:</span>
+            <span class="claim-tag" style="background: rgba(74,222,128,0.15); color: var(--brand); border-color: rgba(74,222,128,0.35);">100% LOCAL-FIRST [VERIFIED]</span>
           </div>
         </div>
       </div>
@@ -1286,9 +1404,123 @@
     </div>
   </section>
 
-  <!-- How It Works: Step 01 (Install in your assistant) -->
+  <!-- Section: The Complete Suite (5 Operational Pillars) -->
+  <section id="suite" class="step-section">
+    <span class="eyebrow-step">Arquitectura Integral</span>
+    <h2 class="step-h2">Una suite jurídica completa para el ecosistema de IA.</h2>
+    <p class="step-desc">
+      Open Legal Chile no es una simple herramienta aislada: es una <strong>infraestructura de ingeniería jurídica completa</strong> que provee a tus asistentes de IA todo lo necesario para operar en el ejercicio del Derecho con rigor dogmático, fuentes oficiales y trazabilidad forense.
+    </p>
+
+    <div class="pillars-grid">
+      <!-- Pillar 1 -->
+      <div class="pillar-card">
+        <div>
+          <div class="pillar-icon-badge" style="background: #e0f2fe; color: #0284c7;">🏛️</div>
+          <h3 class="pillar-title">10 Conectores Oficiales del Estado</h3>
+          <p class="pillar-desc">
+            Acceso directo y sin intermediarios opacos a la base normativa de la Biblioteca del Congreso Nacional (BCN Ley Chile), jurisprudencia rectora del Poder Judicial (PJUD), circulares del SII, sanciones CMF, dictámenes de la Contraloría General (CGR), jurisprudencia laboral de la Dirección del Trabajo (DT), fallos del TDLC y resoluciones del 2° Tribunal Ambiental.
+          </p>
+        </div>
+        <div class="pillar-tags">
+          <span class="pillar-tag">BCN Ley Chile</span>
+          <span class="pillar-tag">PJUD Sentencias</span>
+          <span class="pillar-tag">SII Circulares</span>
+          <span class="pillar-tag">CMF Sanciones</span>
+          <span class="pillar-tag">CGR Dictámenes</span>
+        </div>
+      </div>
+
+      <!-- Pillar 2 -->
+      <div class="pillar-card">
+        <div>
+          <div class="pillar-icon-badge" style="background: #fef3c7; color: #d97706;">🏡</div>
+          <h3 class="pillar-title">Estudio de Títulos Inmobiliarios CBR</h3>
+          <p class="pillar-desc">
+            Módulo especializado para la reconstrucción de la historia de dominio en el Conservador de Bienes Raíces. Análisis automatizado de inscripciones de propiedad, detección de gravámenes, hipotecas, servidumbres y prohibiciones de enajenar con verificación de tracto sucesivo decenal.
+          </p>
+        </div>
+        <div class="pillar-tags">
+          <span class="pillar-tag">Registro de Propiedad</span>
+          <span class="pillar-tag">Hipotecas & Gravámenes</span>
+          <span class="pillar-tag">Prohibiciones</span>
+          <span class="pillar-tag">Tracto Decenal</span>
+        </div>
+      </div>
+
+      <!-- Pillar 3 -->
+      <div class="pillar-card">
+        <div>
+          <div class="pillar-icon-badge" style="background: #f3e8ff; color: #9333ea;">⚖️</div>
+          <h3 class="pillar-title">Redacción OJV & Compilador Forense</h3>
+          <p class="pillar-desc">
+            Generador de escritos judiciales estructurados bajo los estrictos estándares de la Oficina Judicial Virtual (Ley N° 20.886). Compila denuncias y demandas en PDF formal A4 con portadas institucionales, índices y anexos probatorios ensamblados, además de OCR forense con Tesseract para expedientes escaneados.
+          </p>
+        </div>
+        <div class="pillar-tags">
+          <span class="pillar-tag">Ley N° 20.886 OJV</span>
+          <span class="pillar-tag">Compilador Dossier PDF</span>
+          <span class="pillar-tag">OCR Tesseract</span>
+          <span class="pillar-tag">InfoProbidad DIP</span>
+        </div>
+      </div>
+
+      <!-- Pillar 4 -->
+      <div class="pillar-card">
+        <div>
+          <div class="pillar-icon-badge" style="background: #dcfce7; color: #166534;">📚</div>
+          <h3 class="pillar-title">58 Tratados Canónicos en Hugging Face</h3>
+          <p class="pillar-desc">
+            La más amplia biblioteca de doctrina clásica y contemporánea chilena digitalizada en Markdown íntegro y estructurada para LLMs: Alessandri, Somarriva, Vodanovic, Claro Solar, Vial del Río, Ramos Pazos, López Santa María, Sandoval, Soto Kloss y las Guías de la Academia Judicial. Búsqueda FTS5 de alta velocidad y dataset público en Hugging Face.
+          </p>
+        </div>
+        <div class="pillar-tags">
+          <span class="pillar-tag">Hugging Face Datasets</span>
+          <span class="pillar-tag">SQLite FTS5 Full-Text</span>
+          <span class="pillar-tag">Alessandri & Somarriva</span>
+          <span class="pillar-tag">Academia Judicial</span>
+        </div>
+      </div>
+
+      <!-- Pillar 5 -->
+      <div class="pillar-card" style="border-color: #86efac; background: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);">
+        <div>
+          <div class="pillar-icon-badge" style="background: #bbf7d0; color: #15803d;">🧠</div>
+          <h3 class="pillar-title">LegalGraphify: Reducción de Tokens (-94%)</h3>
+          <p class="pillar-desc">
+            El motor de grafo de conocimiento relacional para el Derecho chileno. Transforma miles de páginas de doctrina en subgrafos estructurados en YAML que los modelos de lenguaje recorren con máxima precisión, reduciendo el consumo de contexto entre un 85% y un 95% sin sufrir alucinaciones.
+          </p>
+        </div>
+        <div class="pillar-tags">
+          <span class="pillar-tag">Knowledge Graph</span>
+          <span class="pillar-tag">NetworkX Multidimensional</span>
+          <span class="pillar-tag">Subgrafos YAML</span>
+          <span class="pillar-tag">94% Ahorro Tokens</span>
+        </div>
+      </div>
+
+      <!-- Pillar 6: Protocolo MCP -->
+      <div class="pillar-card">
+        <div>
+          <div class="pillar-icon-badge" style="background: #fee2e2; color: #b91c1c;">⚡</div>
+          <h3 class="pillar-title">Servidor MCP con 55 Herramientas</h3>
+          <p class="pillar-desc">
+            Implementación nativa del Model Context Protocol (MCP) estándar de la industria. Permite que Claude Code, Cursor, Windsurf y Gemini invoquen cualquiera de las 55 funciones jurídicas directamente desde el chat o en pipelines de agentes autónomos, 100% on-device y sin telemetría.
+          </p>
+        </div>
+        <div class="pillar-tags">
+          <span class="pillar-tag">Model Context Protocol</span>
+          <span class="pillar-tag">Stdio / JSON-RPC 2.0</span>
+          <span class="pillar-tag">Claude & Cursor</span>
+          <span class="pillar-tag">Antigravity & Gemini</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 02: Assistant Setup -->
   <section id="setup" class="step-section">
-    <span class="eyebrow-step">Step 01</span>
+    <span class="eyebrow-step">Instalación Rápida</span>
     <h2 class="step-h2">Instala en el asistente que ya usas.</h2>
     <p class="step-desc">
       Open Legal Chile se conecta mediante el protocolo abierto MCP (Model Context Protocol) o CLI nativo. Sin suscripción, sin API keys externas y sin salir de tu entorno favorito.
@@ -1348,7 +1580,7 @@
 
   <!-- Step 02: LegalGraphify Subgraph Sandbox -->
   <section id="graphify" class="step-section" style="padding-top: 0;">
-    <span class="eyebrow-step">Step 02</span>
+    <span class="eyebrow-step">Compresión de Contexto</span>
     <h2 class="step-h2">LegalGraphify: Consultas Hiper-Densas en Grafo.</h2>
     <p class="step-desc">
       En lugar de inyectar 3.500 tokens de tratados crudos en el prompt de tu LLM, LegalGraphify extrae el subgrafo canónico a $N$ saltos en YAML estructurado.
@@ -1420,7 +1652,7 @@ relaciones_directas:
 
   <!-- Step 03: 58 Canonical Treatises & Hugging Face Dataset Viewer -->
   <section id="doctrina" class="step-section" style="padding-top: 0;">
-    <span class="eyebrow-step">Step 03</span>
+    <span class="eyebrow-step">Biblioteca Canónica</span>
     <h2 class="step-h2">58 Obras Canónicas en Hugging Face Datasets Hub.</h2>
     <p class="step-desc">
       Accede al repositorio público sin restricciones con el Dataset Viewer interactivo habilitado. Toda la doctrina civil, comercial, procesal y administrativa de Chile en Markdown token-optimized.
@@ -1515,7 +1747,7 @@ relaciones_directas:
 
   <!-- Step 04: 55 MCP Tools Interactive Catalog -->
   <section id="herramientas" class="step-section" style="padding-top: 0;">
-    <span class="eyebrow-step">Step 04</span>
+    <span class="eyebrow-step">Catálogo de Herramientas</span>
     <h2 class="step-h2">Catálogo Exhaustivo de 55 Herramientas MCP.</h2>
     <p class="step-desc">
       Un servidor MCP unificado expone todas las facultades de búsqueda normativa BCN, doctrina FTS5, subgrafos LegalGraphify, CBR inmobiliario y jurisprudencia especializada.
