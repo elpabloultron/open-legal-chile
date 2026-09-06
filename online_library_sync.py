@@ -97,10 +97,10 @@ class OnlineLibrarySyncManager:
 
         return tar_path
 
-    def preparar_dataset_card_huggingface(self) -> str:
+    def preparar_dataset_card_huggingface(self, repo_id: str = "open-legal-chile/doctrina-jurisprudencia-chile") -> str:
         """
         Genera el README.md estándar para publicar el dataset de texto completo en Hugging Face Datasets:
-        repo: open-legal-chile/doctrina-jurisprudencia-chile (100% gratuito e ilimitado).
+        repo: repo_id (100% gratuito e ilimitado).
         """
         manifiesto = self.compilar_manifiesto_corpus()
 
@@ -144,7 +144,7 @@ doctrina de los autores clásicos y las **Guías Oficiales de Buenas Prácticas 
 from datasets import load_dataset
 
 # Carga directa del dataset de Derecho Chileno
-dataset = load_dataset("open-legal-chile/doctrina-jurisprudencia-chile")
+dataset = load_dataset("{repo_id}")
 print(dataset)
 ```
 
@@ -226,7 +226,7 @@ Licencia Apache 2.0. Desarrollado por la iniciativa comunitaria Open Legal Chile
             }
 
         try:
-            card_path = self.preparar_dataset_card_huggingface()
+            card_path = self.preparar_dataset_card_huggingface(repo_id=repo_id)
             api = hf_api_cls(token=hf_token)
             api.create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
 
