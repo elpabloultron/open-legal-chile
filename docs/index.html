@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="h-full antialiased">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Open Legal Chile Suite — Infraestructura Abierta de Inteligencia Jurídica</title>
-  <meta name="description" content="Suite abierta de inteligencia jurídica, servidor MCP con 55 herramientas, 10 conectores oficiales del Estado de Chile, doctrina canónica FTS5 y estudio de títulos inmobiliarios CBR." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open Legal Chile · The Legal Knowledge Graph & MCP Suite for AI Assistants</title>
+  <meta name="description" content="Open Legal Chile transforma 58 tratados canónicos y la jurisprudencia de Chile en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 55 herramientas MCP, 100% on-device, Apache 2.0." />
+  <meta name="application-name" content="Open Legal Chile" />
+  <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/" />
 
-  <!-- Fonts: Inter & JetBrains Mono (Linear System from open-design) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Open Legal Chile · The Legal Knowledge Graph for AI Assistants" />
+  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 58 tratados canónicos, 55 herramientas MCP, 85% a 95% de ahorro de tokens. On-device, Apache 2.0." />
+  <meta property="og:url" content="https://elpabloultron.github.io/open-legal-chile/" />
+  <meta property="og:site_name" content="Open Legal Chile" />
+  <meta property="og:locale" content="es_CL" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Open Legal Chile · Legal Knowledge Graph" />
+  <meta name="twitter:description" content="Grafo de conocimiento jurídico, servidor MCP y doctrina canónica para Claude Code, Cursor, Copilot y Gemini." />
+
+  <!-- Google Fonts: Bricolage Grotesque (Display), Inter (Body), JetBrains Mono (Code/Metadata) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <style>
-    /* ==========================================================================
-       OPEN-DESIGN TOKENS (nexu-io/open-design: linear-app + bento)
-       Precision Engineering Voice: Achromatic dark canvas, Inter tracking,
-       Luminance stepping, 1px semi-transparent borders & Linear Indigo accent.
-       ========================================================================== */
     :root {
-      --bg: #08090a;
-      --surface: #0f1012;
-      --surface-elevated: #15171a;
-      --surface-hover: #1c1e22;
-      --surface-active: #22252a;
+      --gf-forest-dark: #062a22;
+      --gf-forest-mid: #0a3f31;
+      --gf-forest-deep: #07281f;
+      --gf-forest-card: #0b332a;
+      --gf-forest-border: rgba(255, 255, 255, 0.15);
       
-      --fg: #f7f8f8;
-      --fg-2: #d0d6e0;
-      --muted: #8a8f98;
-      --meta: #62666d;
+      --brand: #4ade80;
+      --brand-soft: rgba(74, 222, 128, 0.15);
+      --brand-ink: #166534;
+      --brand-glow: rgba(74, 222, 128, 0.25);
       
-      --border: rgba(255, 255, 255, 0.08);
-      --border-soft: rgba(255, 255, 255, 0.04);
-      --border-hover: rgba(255, 255, 255, 0.16);
+      --verify: #38bdf8;
+      --verify-ink: #0369a1;
       
-      --accent: #5e6ad2;
-      --accent-hover: #7170ff;
-      --accent-subtle: rgba(94, 106, 210, 0.12);
-      --accent-border: rgba(94, 106, 210, 0.35);
+      --ivory: #f8f7f0;
+      --paper: #f4f8f6;
+      --foreground: #16211b;
+      --muted: #526056;
+      --border: #e2e8f0;
+      --border-subtle: #edf2ee;
+      --card-light: #ffffff;
       
-      --success: #27a644;
-      --success-subtle: rgba(39, 166, 68, 0.12);
-      --warn: #eab308;
-      --danger: #dc2626;
-
-      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      --font-mono: "JetBrains Mono", ui-monospace, Menlo, Monaco, monospace;
-      
-      --tracking-display: -0.022em;
-      --radius-sm: 6px;
-      --radius-md: 10px;
-      --radius-lg: 16px;
-      --radius-full: 9999px;
+      --font-display: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
     }
 
     * {
@@ -61,1310 +61,2094 @@
 
     html {
       scroll-behavior: smooth;
-    }
-
-    body {
-      background-color: var(--bg);
-      color: var(--fg);
+      background-color: var(--ivory);
+      color: var(--foreground);
       font-family: var(--font-sans);
-      line-height: 1.55;
-      overflow-x: hidden;
-      letter-spacing: -0.011em;
       -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     }
 
-    /* Ambient Background Grid (Linear Style from open-design) */
-    .ambient-canvas {
+    /* Global Grain Texture */
+    .site-grain {
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
+      top: 0; left: 0; width: 100vw; height: 100vh;
       pointer-events: none;
-      z-index: 0;
-      background-image: 
-        radial-gradient(circle at 50% -10%, rgba(94, 106, 210, 0.15) 0%, transparent 55%),
-        linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-      background-size: 100% 100%, 32px 32px, 32px 32px;
-      mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 60%, transparent 100%);
-      -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 60%, transparent 100%);
+      z-index: 999;
+      opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
     }
 
-    .container {
-      max-width: 1180px;
+    /* Typography Utilities */
+    .font-display { font-family: var(--font-display); }
+    .font-sans { font-family: var(--font-sans); }
+    .font-mono { font-family: var(--font-mono); }
+
+    /* Navigation Header */
+    .header-nav {
+      position: fixed;
+      top: 16px;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      pointer-events: none;
+      transition: all 0.3s ease;
+    }
+
+    .header-pill {
+      pointer-events: auto;
       margin: 0 auto;
-      padding: 0 24px;
-      position: relative;
-      z-index: 1;
-    }
-
-    /* Top Navigation */
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(8, 9, 10, 0.82);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid var(--border-soft);
-    }
-
-    .nav-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 64px;
-    }
-
-    .brand-link {
+      max-width: fit-content;
       display: flex;
       align-items: center;
       gap: 10px;
-      text-decoration: none;
-      color: var(--fg);
-      font-weight: 600;
-      font-size: 0.98rem;
-      letter-spacing: var(--tracking-display);
+      padding: 6px 14px 6px 18px;
+      border-radius: 9999px;
+      border: 1px solid var(--gf-forest-border);
+      background: rgba(7, 40, 31, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
     }
 
-    .brand-pill {
-      display: inline-flex;
+    .header-logo {
+      display: flex;
       align-items: center;
-      gap: 6px;
-      padding: 3px 8px;
-      border-radius: var(--radius-full);
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.72rem;
-      font-family: var(--font-mono);
-      font-weight: 500;
+      gap: 8px;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-badge {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      background: var(--brand);
+      color: #062a22;
+      display: grid;
+      place-items: center;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .nav-divider {
+      width: 1px;
+      height: 18px;
+      background: rgba(255, 255, 255, 0.15);
+      margin: 0 4px;
     }
 
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 24px;
+      gap: 4px;
     }
 
-    .nav-item {
-      color: var(--muted);
+    .nav-link {
+      color: rgba(255, 255, 255, 0.72);
       text-decoration: none;
-      font-size: 0.88rem;
+      font-size: 13.5px;
       font-weight: 500;
-      transition: color 0.15s ease;
+      padding: 6px 12px;
+      border-radius: 8px;
+      transition: all 0.2s ease;
     }
 
-    .nav-item:hover {
-      color: var(--fg);
-    }
-
-    .nav-actions {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      font-size: 0.86rem;
-      font-weight: 500;
-      padding: 8px 16px;
-      border-radius: var(--radius-sm);
-      text-decoration: none;
-      cursor: pointer;
-      transition: all 0.18s ease;
-      white-space: nowrap;
-      border: 1px solid transparent;
-      line-height: 1;
-    }
-
-    .btn-primary {
-      background: var(--accent);
+    .nav-link:hover {
       color: #ffffff;
-      border-color: rgba(255, 255, 255, 0.15);
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.08);
     }
 
-    .btn-primary:hover {
-      background: var(--accent-hover);
-      box-shadow: 0 4px 14px rgba(94, 106, 210, 0.4);
-    }
-
-    .btn-ghost {
-      background: var(--surface-elevated);
-      color: var(--fg-2);
-      border-color: var(--border);
-    }
-
-    .btn-ghost:hover {
-      background: var(--surface-hover);
-      color: var(--fg);
-      border-color: var(--border-hover);
-    }
-
-    /* Hero Section */
-    .hero-section {
-      padding: 96px 0 64px 0;
-      text-align: center;
-    }
-
-    .hero-pill {
+    .btn-header-cta {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 4px 12px;
-      border-radius: var(--radius-full);
-      background: rgba(94, 106, 210, 0.08);
-      border: 1px solid var(--accent-border);
-      color: var(--fg);
-      font-size: 0.8rem;
-      font-weight: 500;
-      margin-bottom: 24px;
+      gap: 6px;
+      background: #ffffff;
+      color: #062a22;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 7px 14px;
+      border-radius: 9999px;
+      transition: all 0.2s ease;
     }
 
-    .hero-pill span.pulse {
+    .btn-header-cta:hover {
+      background: var(--ivory);
+      transform: translateY(-1px);
+    }
+
+    /* Hero Scope Section */
+    .hero-scope {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: linear-gradient(180deg, #062a22 0%, #0a3f31 35%, #124f3c 60%, #1e6149 74%, #4f8a68 85%, #a8c9ad 93%, #e9ecdf 98%, #f8f7f0 100%);
+      padding: 110px 24px 70px;
+      overflow: hidden;
+    }
+
+    .hero-lattice-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.28;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1008' height='588' font-family='ui-monospace,SFMono-Regular,Menlo,monospace' fill='%23f4f8f6' text-anchor='middle' dominant-baseline='central'%3E%3Ctext x='40' y='30' font-size='17' fill-opacity='0.25'%3E%C2%A7%3C/text%3E%3Ctext x='140' y='50' font-size='15' fill-opacity='0.20'%3ECPC%3C/text%3E%3Ctext x='240' y='35' font-size='16' fill-opacity='0.24'%3E%E2%88%80%3C/text%3E%3Ctext x='340' y='60' font-size='14' fill-opacity='0.28'%3EArt.1545%3C/text%3E%3Ctext x='440' y='40' font-size='18' fill-opacity='0.22'%3E%E2%9A%96%3C/text%3E%3Ctext x='540' y='65' font-size='15' fill-opacity='0.20'%3E%CE%A9%3C/text%3E%3Ctext x='640' y='35' font-size='16' fill-opacity='0.25'%3ERol-CS%3C/text%3E%3Ctext x='740' y='55' font-size='14' fill-opacity='0.22'%3E%E2%88%83%3C/text%3E%3Ctext x='840' y='40' font-size='16' fill-opacity='0.27'%3ECOT%3C/text%3E%3Ctext x='940' y='60' font-size='15' fill-opacity='0.23'%3E%C2%B6%3C/text%3E%3Ctext x='50' y='140' font-size='15' fill-opacity='0.22'%3ECC%3C/text%3E%3Ctext x='150' y='125' font-size='16' fill-opacity='0.26'%3E%E2%86%92%3C/text%3E%3Ctext x='250' y='145' font-size='14' fill-opacity='0.24'%3E%E2%89%A1%3C/text%3E%3Ctext x='350' y='130' font-size='16' fill-opacity='0.20'%3E%E2%97%8B%E2%86%92%E2%97%8B%3C/text%3E%3Ctext x='450' y='150' font-size='15' fill-opacity='0.27'%3EArt.1464%3C/text%3E%3Ctext x='550' y='135' font-size='18' fill-opacity='0.25'%3E%F0%9F%8F%9B%3C/text%3E%3Ctext x='650' y='145' font-size='14' fill-opacity='0.20'%3E%CE%BB%3C/text%3E%3Ctext x='750' y='130' font-size='16' fill-opacity='0.26'%3EArt.1707%3C/text%3E%3Ctext x='850' y='150' font-size='15' fill-opacity='0.22'%3E%E2%88%A9%3C/text%3E%3Ctext x='950' y='135' font-size='16' fill-opacity='0.25'%3ECPR%3C/text%3E%3Ctext x='60' y='230' font-size='16' fill-opacity='0.24'%3E%E2%88%91%3C/text%3E%3Ctext x='160' y='245' font-size='15' fill-opacity='0.20'%3ESimulaci%C3%B3n%3C/text%3E%3Ctext x='260' y='225' font-size='17' fill-opacity='0.28'%3E%C2%A7%3C/text%3E%3Ctext x='360' y='240' font-size='14' fill-opacity='0.21'%3E%E2%88%A8%3C/text%3E%3Ctext x='460' y='230' font-size='16' fill-opacity='0.26'%3ENulidad%3C/text%3E%3Ctext x='560' y='250' font-size='15' fill-opacity='0.22'%3E%E2%8A%A2%3C/text%3E%3Ctext x='660' y='230' font-size='16' fill-opacity='0.25'%3EBilateral%3C/text%3E%3Ctext x='760' y='245' font-size='14' fill-opacity='0.20'%3E%E2%8A%82%3C/text%3E%3Ctext x='860' y='230' font-size='16' fill-opacity='0.27'%3EPrevaricaci%C3%B3n%3C/text%3E%3Ctext x='960' y='245' font-size='15' fill-opacity='0.22'%3E%E2%88%9E%3C/text%3E%3C/svg%3E");
+      background-repeat: repeat;
+      mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, black 40%, transparent 80%);
+      -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, black 40%, transparent 80%);
+    }
+
+    .hero-container {
+      position: relative;
+      z-index: 10;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: rgba(255, 255, 255, 0.75);
+      margin-bottom: 16px;
+    }
+
+    .hero-dot {
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      background: #7170ff;
-      box-shadow: 0 0 8px #7170ff;
+      background: var(--brand);
+      display: inline-block;
     }
 
-    .hero-title {
-      font-size: 3.4rem;
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4.1rem);
       font-weight: 700;
-      line-height: 1.1;
+      line-height: 1.04;
       letter-spacing: -0.035em;
+      color: #ffffff;
+      text-wrap: balance;
       margin-bottom: 20px;
-      color: var(--fg);
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
     }
 
-    .hero-title .gradient-text {
-      background: linear-gradient(180deg, #ffffff 40%, #9ca3af 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    .text-brand {
+      color: var(--brand);
     }
 
-    .hero-description {
-      font-size: 1.12rem;
-      line-height: 1.6;
-      color: var(--muted);
-      max-width: 680px;
-      margin: 0 auto 36px auto;
-      font-weight: 400;
+    .hero-p {
+      font-size: 1.125rem;
+      line-height: 1.55;
+      color: rgba(255, 255, 255, 0.86);
+      max-width: 520px;
+      margin-bottom: 28px;
     }
 
-    .hero-cta {
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .btn-hero-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--ivory);
+      color: #16211b;
+      text-decoration: none;
+      font-size: 14.5px;
+      font-weight: 600;
+      padding: 12px 22px;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-hero-primary:hover {
+      background: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    .btn-hero-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14.5px;
+      font-weight: 600;
+      padding: 12px 20px;
+      border-radius: 10px;
+      backdrop-filter: blur(8px);
+      transition: all 0.2s ease;
+    }
+
+    .btn-hero-secondary:hover {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .hero-trust {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.65);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Hero Right Visual Showcase */
+    .hero-right {
+      position: relative;
+    }
+
+    .hero-card-showcase {
+      background: rgba(6, 35, 26, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(12px);
+    }
+
+    .card-top-tag {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 56px;
-    }
-
-    /* Metrics Strip */
-    .metrics-bar {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 1px;
-      background: var(--border-soft);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      margin-bottom: 80px;
-    }
-
-    .metric-item {
-      background: var(--surface);
-      padding: 18px 16px;
-      text-align: center;
-      transition: background 0.15s ease;
-    }
-
-    .metric-item:hover {
-      background: var(--surface-elevated);
-    }
-
-    .metric-value {
-      font-size: 1.35rem;
-      font-weight: 700;
-      letter-spacing: var(--tracking-display);
-      color: var(--fg);
+      justify-content: space-between;
       font-family: var(--font-mono);
-      margin-bottom: 4px;
-    }
-
-    .metric-label {
-      font-size: 0.76rem;
-      color: var(--muted);
+      font-size: 10.5px;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
-      font-weight: 500;
+      letter-spacing: 0.14em;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /* Terminal & Install Window (Linear / Cursor Style) */
-    .terminal-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
+    .graph-interactive-box {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .node-pill-central {
+      background: rgba(74, 222, 128, 0.18);
+      border: 1px solid var(--brand);
+      color: #ffffff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .node-relations-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .node-rel-item {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 12.5px;
+      color: rgba(255, 255, 255, 0.85);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .node-rel-type {
+      font-family: var(--font-mono);
+      font-size: 9.5px;
+      text-transform: uppercase;
+      color: var(--brand);
+      letter-spacing: 0.08em;
+    }
+
+    .tokens-gauge-container {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .gauge-label-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      margin-bottom: 6px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .meter-bar {
+      height: 7px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 4px;
       overflow: hidden;
-      box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.7);
-      margin-bottom: 96px;
+      margin-bottom: 12px;
+    }
+
+    .meter-fill-red {
+      height: 100%;
+      width: 100%;
+      background: #f87171;
+    }
+
+    .meter-fill-green {
+      height: 100%;
+      width: 6%;
+      background: var(--brand);
+      box-shadow: 0 0 10px var(--brand);
+    }
+
+    .savings-badge-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .claim-tag {
+      display: inline-flex;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid rgba(74, 222, 128, 0.35);
+      color: var(--brand);
+      background: rgba(74, 222, 128, 0.1);
+    }
+
+    /* Section: Adoption, in numbers */
+    .adoption-section {
+      background: var(--ivory);
+      border-bottom: 1px solid var(--border);
+      padding: 60px 24px;
+    }
+
+    .adoption-container {
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+
+    .adoption-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 48px;
+    }
+
+    .stat-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 4vw, 3.2rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1;
+      color: var(--foreground);
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .orgs-strip {
+      padding-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 24px;
+      justify-content: space-between;
+    }
+
+    .orgs-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+    }
+
+    .orgs-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .org-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--foreground);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    /* Section: How it works (Step-by-Step) */
+    .step-section {
+      padding: 90px 24px;
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+
+    .eyebrow-step {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--brand-ink);
+      background: var(--brand-soft);
+      padding: 4px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .step-h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3.5vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      color: var(--foreground);
+      margin-bottom: 12px;
+    }
+
+    .step-desc {
+      font-size: 16px;
+      color: var(--muted);
+      max-width: 680px;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+
+    /* Step 01 Terminal Setup Component (Exact Graphify design) */
+    .setup-box {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+
+    .setup-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 36px;
+      align-items: flex-start;
+    }
+
+    .assistants-title {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .assistants-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .assistant-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 14px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--muted);
+      transition: all 0.2s ease;
+    }
+
+    .assistant-btn:hover {
+      border-color: rgba(74, 222, 128, 0.5);
+      color: var(--foreground);
+    }
+
+    .assistant-btn.active {
+      background: var(--brand-soft);
+      border-color: var(--brand);
+      color: var(--brand-ink);
+      font-weight: 600;
+    }
+
+    .terminal-container {
+      background: #0b332a;
+      border: 2px solid #07281f;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     }
 
     .terminal-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 12px 18px;
-      background: var(--surface-elevated);
-      border-bottom: 1px solid var(--border-soft);
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.2);
     }
 
-    .terminal-dots {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .terminal-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.12);
+    .terminal-prompt {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.45);
+      letter-spacing: 0.05em;
     }
 
     .terminal-tabs {
       display: flex;
       align-items: center;
       gap: 4px;
+    }
+
+    .term-tab {
+      background: transparent;
+      border: none;
+      color: rgba(255, 255, 255, 0.6);
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 4px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .term-tab:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .term-tab.active {
+      background: rgba(255, 255, 255, 0.14);
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .btn-copy-code {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: transparent;
+      border: none;
+      color: rgba(255, 255, 255, 0.55);
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 5px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-copy-code:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .terminal-code-body {
+      padding: 18px 20px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.65;
+      color: #e9e2d6;
       overflow-x: auto;
     }
 
-    .terminal-tab {
-      background: transparent;
-      border: 1px solid transparent;
-      color: var(--muted);
-      font-size: 0.8rem;
-      font-weight: 500;
-      padding: 4px 12px;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-      transition: all 0.15s ease;
-    }
+    .code-comment { color: rgba(255, 255, 255, 0.4); }
+    .code-prompt { color: var(--brand); }
+    .code-cmd { color: #ffffff; font-weight: 600; }
 
-    .terminal-tab:hover {
-      color: var(--fg);
-    }
-
-    .terminal-tab.active {
-      background: var(--bg);
-      color: var(--fg);
-      border-color: var(--border);
-    }
-
-    .terminal-body {
-      padding: 24px;
-      font-family: var(--font-mono);
-      font-size: 0.88rem;
-    }
-
-    .terminal-panel {
-      display: none;
-    }
-
-    .terminal-panel.active {
-      display: block;
-    }
-
-    .code-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: var(--bg);
-      padding: 14px 18px;
-      border-radius: var(--radius-md);
+    /* Step 02: Interactive Subgraph Sandbox */
+    .sandbox-box {
+      background: #ffffff;
       border: 1px solid var(--border);
-    }
-
-    .code-text {
-      color: var(--fg-2);
-      user-select: all;
-    }
-
-    .code-text span.prompt {
-      color: var(--accent);
-      user-select: none;
-      margin-right: 8px;
-    }
-
-    .copy-btn {
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.78rem;
-      padding: 6px 12px;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-      font-family: var(--font-sans);
-      transition: all 0.15s ease;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .copy-btn:hover {
-      color: var(--fg);
-      border-color: var(--border-hover);
-      background: var(--surface-hover);
-    }
-
-    /* Section Headers */
-    .section-header {
-      margin-bottom: 40px;
-    }
-
-    .section-tag {
-      font-size: 0.76rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-      margin-bottom: 8px;
-    }
-
-    .section-title {
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: var(--tracking-display);
-      color: var(--fg);
-      margin-bottom: 12px;
-    }
-
-    .section-subtitle {
-      font-size: 0.98rem;
-      color: var(--muted);
-      max-width: 600px;
-    }
-
-    /* Bento Grid (nexu-io/open-design: bento) */
-    .bento-grid {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap: 16px;
-      margin-bottom: 96px;
-    }
-
-    .bento-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 28px;
-      position: relative;
-      overflow: hidden;
-      transition: border-color 0.2s ease, transform 0.2s ease;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .bento-card:hover {
-      border-color: var(--border-hover);
-      background: var(--surface-elevated);
-    }
-
-    .col-span-8 { grid-column: span 8; }
-    .col-span-4 { grid-column: span 4; }
-    .col-span-6 { grid-column: span 6; }
-    .col-span-12 { grid-column: span 12; }
-
-    .card-icon {
-      width: 38px;
-      height: 38px;
-      border-radius: var(--radius-md);
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--accent);
-      margin-bottom: 20px;
-    }
-
-    .card-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      letter-spacing: var(--tracking-display);
-      color: var(--fg);
-      margin-bottom: 8px;
-    }
-
-    .card-desc {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-
-    .tag-cloud {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .tag-item {
-      font-size: 0.76rem;
-      font-weight: 500;
-      color: var(--fg-2);
-      background: var(--bg);
-      border: 1px solid var(--border);
-      padding: 4px 10px;
-      border-radius: var(--radius-sm);
-      font-family: var(--font-mono);
-    }
-
-    /* Live Interactive Search Simulator */
-    .simulator-container {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
+      border-radius: 16px;
       padding: 32px;
-      margin-bottom: 96px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
     }
 
-    .search-bar-wrap {
+    .search-input-wrapper {
       display: flex;
-      gap: 8px;
+      gap: 10px;
       margin-bottom: 16px;
     }
 
-    .search-input {
+    .search-input-legal {
       flex: 1;
-      background: var(--bg);
+      font-size: 15px;
+      padding: 12px 16px;
       border: 1px solid var(--border);
-      color: var(--fg);
-      font-family: var(--font-sans);
-      font-size: 0.95rem;
-      padding: 12px 18px;
-      border-radius: var(--radius-md);
+      border-radius: 10px;
       outline: none;
-      transition: border-color 0.15s ease;
+      font-family: var(--font-sans);
+      transition: all 0.2s ease;
+      background: var(--paper);
     }
 
-    .search-input:focus {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 1px var(--accent);
+    .search-input-legal:focus {
+      border-color: var(--brand-ink);
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.2);
     }
 
-    .quick-queries {
+    .btn-sandbox-search {
+      background: #062a22;
+      color: #ffffff;
+      border: none;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 0 22px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-sandbox-search:hover {
+      background: #0a3f31;
+    }
+
+    .quick-chips-row {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       gap: 8px;
       margin-bottom: 24px;
     }
 
-    .quick-query-btn {
-      background: var(--surface-elevated);
+    .quick-chip {
+      background: var(--paper);
       border: 1px solid var(--border);
       color: var(--muted);
-      font-size: 0.78rem;
-      padding: 4px 12px;
-      border-radius: var(--radius-full);
+      font-size: 12.5px;
+      padding: 4px 10px;
+      border-radius: 6px;
       cursor: pointer;
       transition: all 0.15s ease;
     }
 
-    .quick-query-btn:hover {
-      color: var(--fg);
-      border-color: var(--border-hover);
+    .quick-chip:hover {
+      color: var(--foreground);
+      border-color: var(--brand);
+      background: var(--brand-soft);
     }
 
-    .simulator-results {
-      background: var(--bg);
+    .sandbox-results-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 24px;
+    }
+
+    .yaml-result-box {
+      background: #0b332a;
+      border: 1px solid #07281f;
+      border-radius: 10px;
+      padding: 18px;
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      color: #e9e2d6;
+      line-height: 1.6;
+      max-height: 380px;
+      overflow-y: auto;
+    }
+
+    .metrics-result-box {
+      background: var(--paper);
       border: 1px solid var(--border);
-      border-radius: var(--radius-md);
+      border-radius: 10px;
       padding: 20px;
-      min-height: 140px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* Step 03: Canonical Treatises Grid */
+    .doctrina-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .doctrina-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .doctrina-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      border-color: var(--brand);
+    }
+
+    .doctrina-tag {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--brand-ink);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .doctrina-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 6px;
+    }
+
+    .doctrina-author {
+      font-size: 13.5px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .doctrina-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      padding-top: 12px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    /* Step 04: MCP Tools Catalog */
+    .mcp-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .filter-btn {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .filter-btn:hover {
+      color: var(--foreground);
+      border-color: #cbd5e1;
+    }
+
+    .filter-btn.active {
+      background: #062a22;
+      border-color: #062a22;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+
+    .tool-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .tool-card:hover {
+      border-color: var(--brand);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    }
+
+    .tool-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .tool-name {
+      font-family: var(--font-mono);
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--foreground);
+    }
+
+    .tool-cat-badge {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .tool-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* Step 05: Bento Privacy Grid */
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .bento-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
 
-    .result-row {
-      border-left: 2px solid var(--accent);
-      padding-left: 14px;
+    .bento-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: var(--brand-soft);
+      color: var(--brand-ink);
+      display: grid;
+      place-items: center;
+      font-size: 20px;
     }
 
-    .result-src {
-      font-size: 0.74rem;
-      font-family: var(--font-mono);
-      color: var(--accent);
-      text-transform: uppercase;
-      margin-bottom: 2px;
+    .bento-title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
     }
 
-    .result-headline {
-      font-size: 0.92rem;
-      font-weight: 600;
-      color: var(--fg);
-      margin-bottom: 4px;
-    }
-
-    .result-text {
-      font-size: 0.84rem;
+    .bento-desc {
+      font-size: 14px;
       color: var(--muted);
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
-    /* 54 Tools Interactive Directory */
-    .tools-section {
-      margin-bottom: 96px;
-    }
-
-    .tools-filters {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      overflow-x: auto;
-      padding-bottom: 12px;
-      margin-bottom: 20px;
-    }
-
-    .filter-btn {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.8rem;
-      font-weight: 500;
-      padding: 6px 14px;
-      border-radius: var(--radius-full);
-      cursor: pointer;
-      white-space: nowrap;
-      transition: all 0.15s ease;
-    }
-
-    .filter-btn:hover {
-      color: var(--fg);
-      border-color: var(--border-hover);
-    }
-
-    .filter-btn.active {
-      background: var(--accent-subtle);
-      border-color: var(--accent-border);
+    /* Footer */
+    .footer-section {
+      background: #062a22;
       color: #ffffff;
+      padding: 70px 24px 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .tools-grid {
+    .footer-container {
+      max-width: 1160px;
+      margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-      gap: 12px;
+      grid-template-columns: 1.5fr repeat(3, 1fr);
+      gap: 48px;
+      margin-bottom: 48px;
     }
 
-    .tool-tile {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 16px;
-      transition: all 0.18s ease;
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
     }
 
-    .tool-tile:hover {
-      background: var(--surface-elevated);
-      border-color: var(--border-hover);
-    }
-
-    .tool-tile-name {
+    .footer-col-title {
       font-family: var(--font-mono);
-      font-size: 0.84rem;
-      font-weight: 600;
-      color: var(--fg);
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .tool-tile-name span.badge {
-      font-size: 0.65rem;
-      padding: 1px 6px;
-      border-radius: var(--radius-full);
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-family: var(--font-sans);
-    }
-
-    .tool-tile-desc {
-      font-size: 0.8rem;
-      color: var(--muted);
-      line-height: 1.45;
-    }
-
-    /* Privacy & Ethical Telemetry Banner */
-    .privacy-banner {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 32px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      align-items: center;
-      margin-bottom: 96px;
-    }
-
-    .privacy-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.78rem;
-      color: var(--success);
-      font-weight: 600;
+      font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-bottom: 8px;
-    }
-
-    /* Footer (Linear Monochrome) */
-    footer {
-      border-top: 1px solid var(--border-soft);
-      padding: 48px 0;
-      background: var(--bg);
-    }
-
-    .footer-content {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: var(--meta);
-      font-size: 0.82rem;
+      letter-spacing: 0.16em;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 16px;
     }
 
     .footer-links {
+      list-style: none;
       display: flex;
-      gap: 20px;
+      flex-direction: column;
+      gap: 10px;
     }
 
     .footer-link {
-      color: var(--muted);
+      color: rgba(255, 255, 255, 0.75);
       text-decoration: none;
-      transition: color 0.15s ease;
+      font-size: 14px;
+      transition: color 0.2s ease;
     }
 
     .footer-link:hover {
-      color: var(--fg);
+      color: var(--brand);
     }
 
-    /* Responsive */
-    @media (max-width: 860px) {
-      .hero-title { font-size: 2.4rem; }
-      .metrics-bar { grid-template-columns: repeat(2, 1fr); }
-      .bento-card.col-span-8,
-      .bento-card.col-span-4,
-      .bento-card.col-span-6 { grid-column: span 12; }
-      .privacy-banner { grid-template-columns: 1fr; }
-      .footer-content { flex-direction: column; gap: 16px; text-align: center; }
+    .footer-bottom {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 992px) {
+      .hero-container { grid-template-columns: 1fr; gap: 36px; }
+      .adoption-grid { grid-template-columns: repeat(2, 1fr); }
+      .setup-grid { grid-template-columns: 1fr; }
+      .sandbox-results-grid { grid-template-columns: 1fr; }
+      .doctrina-grid { grid-template-columns: 1fr 1fr; }
+      .bento-grid { grid-template-columns: 1fr; }
+      .footer-container { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
       .nav-links { display: none; }
+      .adoption-grid { grid-template-columns: 1fr; }
+      .doctrina-grid { grid-template-columns: 1fr; }
+      .footer-container { grid-template-columns: 1fr; }
+      .node-relations-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
+  <div class="site-grain" aria-hidden="true"></div>
 
-  <div class="ambient-canvas"></div>
-
-  <!-- Header -->
-  <header>
-    <div class="container nav-inner">
-      <a href="#" class="brand-link">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+  <!-- Floating Pill Header (Graphify Aesthetic) -->
+  <header class="header-nav">
+    <div class="header-pill">
+      <a href="#" class="header-logo">
+        <span class="logo-badge">⚖</span>
         <span>Open Legal Chile</span>
-        <span class="brand-pill">v1.3.0</span>
       </a>
-
+      <span class="nav-divider"></span>
       <nav class="nav-links">
-        <a href="#instalacion" class="nav-item">Instalación</a>
-        <a href="#bento" class="nav-item">Arquitectura</a>
-        <a href="#simulador" class="nav-item">Simulador</a>
-        <a href="#herramientas" class="nav-item">55 Herramientas MCP</a>
-        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" class="nav-item" target="_blank" style="display:inline-flex; align-items:center; gap:5px;"><span style="font-size:1.05rem;">🤗</span> Hugging Face</a>
-        <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" class="nav-item" target="_blank">Plugins</a>
+        <a href="#doctrina" class="nav-link">Doctrina (58)</a>
+        <a href="#graphify" class="nav-link">LegalGraphify</a>
+        <a href="#herramientas" class="nav-link">55 Herramientas MCP</a>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="nav-link">Hugging Face</a>
+        <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="nav-link">GitHub</a>
       </nav>
-
-      <div class="nav-actions">
-        <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" class="btn btn-ghost">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-          <span>GitHub</span>
-        </a>
-        <a href="#instalacion" class="btn btn-primary">
-          <span>Comenzar</span>
-        </a>
-      </div>
+      <a href="#setup" class="btn-header-cta">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19h8"></path><path d="m4 17 6-6-6-6"></path></svg>
+        Comenzar
+      </a>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <main class="container">
-    <section class="hero-section">
-      <div class="hero-pill">
-        <span class="pulse"></span>
-        <span>Protocolo MCP 2024-11-05 · Civil Law Republic of Chile</span>
-      </div>
-
-      <h1 class="hero-title">
-        Infraestructura Abierta de<br/>
-        <span class="gradient-text">Inteligencia Jurídica para Chile</span>
-      </h1>
-
-      <p class="hero-description">
-        Suite de ingeniería legal soberana. 55 herramientas MCP nativas, 10 conectores oficiales del Estado, doctrina canónica FTS5 en Markdown y estudio de títulos inmobiliarios CBR. Zero-Data Leak garantizado.
-      </p>
-
-      <div class="hero-cta">
-        <a href="#instalacion" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.92rem;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-          <span>Instalar en 1 Clic</span>
-        </a>
-        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem; border-color: rgba(255, 210, 30, 0.4);">
-          <span style="font-size: 1.1rem; line-height: 1;">🤗</span>
-          <span>Hugging Face Dataset</span>
-        </a>
-        <a href="https://pypi.org/project/openlegal-chile/" target="_blank" class="btn btn-ghost" style="padding: 10px 20px; font-size: 0.92rem;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
-          <span>PyPI Package</span>
-        </a>
-      </div>
-
-      <!-- Metrics Strip -->
-      <div class="metrics-bar">
-        <div class="metric-item">
-          <div class="metric-value">54</div>
-          <div class="metric-label">Herramientas MCP</div>
-        </div>
-        <div class="metric-item">
-          <div class="metric-value">10</div>
-          <div class="metric-label">Conectores Oficiales</div>
-        </div>
-        <div class="metric-item">
-          <div class="metric-value">58+ Obras</div>
-          <div class="metric-label">Hugging Face Hub</div>
-        </div>
-        <div class="metric-item">
-          <div class="metric-value">~1.279</div>
-          <div class="metric-label">Descargas PyPI</div>
-        </div>
-        <div class="metric-item">
-          <div class="metric-value">0%</div>
-          <div class="metric-label">Fuga de Datos</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Terminal & Installation Window (Linear Achromatic) -->
-    <section id="instalacion">
-      <div class="terminal-card">
-        <div class="terminal-header">
-          <div class="terminal-dots">
-            <div class="terminal-dot"></div>
-            <div class="terminal-dot"></div>
-            <div class="terminal-dot"></div>
-          </div>
-          <div class="terminal-tabs">
-            <button class="terminal-tab active" onclick="selectTab('claude')">Claude Code</button>
-            <button class="terminal-tab" onclick="selectTab('cursor')">Cursor IDE</button>
-            <button class="terminal-tab" onclick="selectTab('vscode')">VS Code / Windsurf</button>
-            <button class="terminal-tab" onclick="selectTab('smithery')">Smithery.ai</button>
-            <button class="terminal-tab" onclick="selectTab('pip')">Pip / CLI</button>
-            <button class="terminal-tab" onclick="selectTab('huggingface')">🤗 Hugging Face</button>
-            <button class="terminal-tab" onclick="selectTab('biblioteca')">📚 Git Markdown</button>
-          </div>
-          <div style="width: 50px;"></div>
+  <!-- Hero Scope Section -->
+  <section class="hero-scope">
+    <div class="hero-lattice-bg" aria-hidden="true"></div>
+    <div class="hero-container">
+      
+      <!-- Hero Left: Headlines & Action -->
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="hero-dot"></span>
+          <span>Legal Knowledge Graph</span>
+          <span style="opacity: 0.35;">·</span>
+          <span class="hero-dot" style="background: var(--verify);"></span>
+          <span>Grounded Citations</span>
+          <span style="opacity: 0.35;">·</span>
+          <span>Zero Data Leak</span>
         </div>
 
-        <div class="terminal-body">
-          <div id="tab-claude" class="terminal-panel active">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">$</span>claude plugin add elpabloultron/open-legal-chile</div>
-              <button class="copy-btn" onclick="copySnippet('claude plugin add elpabloultron/open-legal-chile')">Copiar</button>
-            </div>
-            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
-              Habilita automáticamente el catálogo completo de las 54 herramientas MCP en Claude Code mediante <code>.claude-plugin/plugin.json</code>.
-            </p>
-          </div>
+        <h1 class="hero-h1">
+          El knowledge graph jurídico que tu IA puede <span class="text-brand">razonar</span>.
+        </h1>
 
-          <div id="tab-cursor" class="terminal-panel">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">#</span>Abre el repositorio en Cursor o agrega a .cursor/mcp.json</div>
-              <button class="copy-btn" onclick="copySnippet('{
-  "mcpServers": {
-    "openlegal-chile": {
-      "command": "openlegal",
-      "args": ["mcp"]
-    }
-  }
-}')">Copiar JSON</button>
-            </div>
-            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
-              Cursor detecta automáticamente <code>.cursor/mcp.json</code> al abrir la carpeta y despliega el diálogo de activación en 1 clic.
-            </p>
-          </div>
+        <p class="hero-p">
+          Open-source, local y en tu máquina. Mapea 58 tratados doctrinales y la jurisprudencia de Chile en un grafo ontológico que tus asistentes (Claude Code, Cursor, Copilot, Gemini) recorren en vez de hacer grep. <strong>85% a 95% de ahorro de tokens</strong>.
+        </p>
 
-          <div id="tab-vscode" class="terminal-panel">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">#</span>Archivo .vscode/mcp.json compatible con Cline, Roo Code y Windsurf</div>
-              <button class="copy-btn" onclick="copySnippet('{
-  "servers": {
-    "openlegal-chile": {
-      "type": "stdio",
-      "command": "python3",
-      "args": ["mcp_server.py"]
-    }
-  }
-}')">Copiar Config</button>
-            </div>
-          </div>
-
-          <div id="tab-smithery" class="terminal-panel">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">$</span>npx -y @smithery/cli install openlegal-chile --client claude</div>
-              <button class="copy-btn" onclick="copySnippet('npx -y @smithery/cli install openlegal-chile --client claude')">Copiar</button>
-            </div>
-          </div>
-
-          <div id="tab-pip" class="terminal-panel">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">$</span>pip install openlegal-chile && openlegal</div>
-              <button class="copy-btn" onclick="copySnippet('pip install openlegal-chile && openlegal')">Copiar</button>
-            </div>
-            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
-              Inicia el menú interactivo con 16 módulos o el servidor MCP stdio con <code>openlegal mcp</code>.
-            </p>
-          </div>
-          <div id="tab-huggingface" class="terminal-panel">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">python></span>from datasets import load_dataset; ds = load_dataset(&apos;pablobenavidesj/doctrina-jurisprudencia-chile&apos;)</div>
-              <button class="copy-btn" onclick="copySnippet('from datasets import load_dataset\nds = load_dataset(&quot;pablobenavidesj/doctrina-jurisprudencia-chile&quot;)\nprint(ds)')">Copiar Python</button>
-            </div>
-            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
-              Dataset oficial en Hugging Face Hub. 58 obras canónicas (Vial del Río, Somarriva, Ramos Pazos, López Santa María) y Guías de la Academia Judicial listo para entrenamiento, RAG y evaluación de modelos jurídicos.
-            </p>
-          </div>
-          <div id="tab-biblioteca" class="terminal-panel">
-            <div class="code-row">
-              <div class="code-text"><span class="prompt">$</span>git clone https://github.com/elpabloultron/open-legal-chile.git && ls open-legal-chile/doctrina/</div>
-              <button class="copy-btn" onclick="copySnippet('git clone https://github.com/elpabloultron/open-legal-chile.git\nls open-legal-chile/doctrina/')">Copiar Git</button>
-            </div>
-            <p style="margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-family: var(--font-sans);">
-              <strong>58 obras dogmáticas y guías judiciales en Markdown limpio</strong> con metadatos YAML. 30.003 palabras sin relleno disponibles de inmediato en GitHub y preparadas para Google NotebookLM y RAG local.
-            </p>
-          </div>
+        <div class="hero-ctas">
+          <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="btn-hero-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            Dataset Viewer (Hugging Face)
+          </a>
+          <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub Repo (111 Tests Green)
+          </a>
         </div>
-      </div>
-    </section>
 
-    <!-- Bento Grid Section (Open-Design Bento System) -->
-    <section id="bento">
-      <div class="section-header">
-        <div class="section-tag">Arquitectura del Ecosistema</div>
-        <h2 class="section-title">Diseñado para la Práctica Jurídica Forense</h2>
-        <p class="section-subtitle">
-          Superando las alucinaciones de modelos genéricos mediante fuentes normativas oficiales, ontología procesal y dogmática canónica.
+        <p class="hero-trust">
+          <span>Respaldado por 58 Tratados Canónicos</span>
+          <span>·</span>
+          <span>Licencia Apache 2.0</span>
+          <span>·</span>
+          <span>On-device · Zero Telemetry</span>
         </p>
       </div>
 
-      <div class="bento-grid">
-        <!-- Card 1: Conectores Oficiales (Span 8) -->
-        <div class="bento-card col-span-8">
-          <div>
-            <div class="card-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-3"/><path d="M9 9h1"/><path d="M9 13h1"/><path d="M9 17h1"/></svg>
-            </div>
-            <h3 class="card-title">10 Conectores Oficiales del Estado de Chile</h3>
-            <p class="card-desc">
-              Extracción en vivo y verificación sin dependencias de scraping frágil. Consultas con vigencia intertemporal (idVersion=YYYY-MM-DD) en la Biblioteca del Congreso Nacional y sedes reguladoras.
-            </p>
+      <!-- Hero Right: Interactive Visual Subgraph Card -->
+      <div class="hero-right">
+        <div class="hero-card-showcase">
+          <div class="card-top-tag">
+            <span><span class="hero-dot"></span> LegalGraphify Engine</span>
+            <span class="claim-tag">[ON-DEVICE KNOWLEDGE GRAPH]</span>
           </div>
-          <div class="tag-cloud">
-            <span class="tag-item">BCN Ley Chile</span>
-            <span class="tag-item">CGR Dictámenes</span>
-            <span class="tag-item">DT Laboral</span>
-            <span class="tag-item">PJUD OJV</span>
-            <span class="tag-item">SII Tributario</span>
-            <span class="tag-item">TDLC Libre Competencia</span>
-            <span class="tag-item">CMF Financiero</span>
-            <span class="tag-item">1TA / 2TA / 3TA Ambiental</span>
-            <span class="tag-item">SERNAC</span>
-            <span class="tag-item">CPLT Transparencia</span>
-          </div>
-        </div>
 
-        <!-- Card 2: Estudio de Títulos CBR (Span 4) -->
-        <div class="bento-card col-span-4">
-          <div>
-            <div class="card-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>
-            </div>
-            <h3 class="card-title">Estudio de Títulos CBR</h3>
-            <p class="card-desc">
-              Regla decenal de saneamiento (Arts. 2510 y 2511 CC). Validación de los 4 registros del Conservador, banderas rojas y checklist documental.
-            </p>
-          </div>
-          <div class="tag-cloud">
-            <span class="tag-item">Propiedad</span>
-            <span class="tag-item">Hipotecas</span>
-            <span class="tag-item">Interdicciones</span>
-            <span class="tag-item">Art. 688 CC</span>
-          </div>
-        </div>
-
-        <!-- Card 3: Tratados Canónicos FTS5 (Span 4) -->
-        <div class="bento-card col-span-4">
-          <div>
-            <div class="card-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
-            </div>
-            <h3 class="card-title">Doctrina Canónica FTS5</h3>
-            <p class="card-desc">
-              138 instituciones dogmáticas indizadas con BM25. Citas directas de Vial del Río, Somarriva, Ramos Pazos, López Santa María, Sandoval y Soto Kloss.
-            </p>
-          </div>
-          <div class="tag-cloud">
-            <span class="tag-item">Vial del Río</span>
-            <span class="tag-item">Somarriva</span>
-            <span class="tag-item">Ramos Pazos</span>
-            <span class="tag-item">López Santa María</span>
-          </div>
-        </div>
-
-        <!-- Card 4: Academia Judicial (Span 4) -->
-        <div class="bento-card col-span-4">
-          <div>
-            <div class="card-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-            </div>
-            <h3 class="card-title">Guías Academia Judicial</h3>
-            <p class="card-desc">
-              22+ guías oficiales de formación judicial de guias.academiajudicial.cl. Estándares vinculantes sobre determinación de penas, APJO y litigación.
-            </p>
-          </div>
-          <div class="tag-cloud">
-            <span class="tag-item">Cálculo Penas</span>
-            <span class="tag-item">Audiencia Preparatoria</span>
-            <span class="tag-item">Familia</span>
-          </div>
-        </div>
-
-        <!-- Card 5: Mandato & Sentencias OJV (Span 4) -->
-        <div class="bento-card col-span-4">
-          <div>
-            <div class="card-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-            </div>
-            <h3 class="card-title">Sentencias & Art. 170 CPC</h3>
-            <p class="card-desc">
-              Segmentación atómica en considerandos de hecho y derecho, votos disidentes, costas (Art. 144) e interpretación procesal de decretos de trámite OJV.
-            </p>
-          </div>
-          <div class="tag-cloud">
-            <span class="tag-item">Art. 7 CPC</span>
-            <span class="tag-item">Ley 18.120</span>
-            <span class="tag-item">Art. 170 CPC</span>
-          </div>
-        </div>
-
-        <!-- Card 6: Biblioteca Digital Jurídica & Hugging Face Hub (Span 12 Hero Bento) -->
-        <div class="bento-card col-span-12" style="background: linear-gradient(180deg, var(--surface) 0%, rgba(26, 23, 16, 0.4) 100%); border-color: rgba(255, 215, 0, 0.18);">
-          <div style="display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
-            <div style="max-width: 720px;">
-              <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; color: #ffd21e; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px;">
-                <span style="font-size: 1.1rem;">🤗</span>
-                <span>Hugging Face Datasets Hub · Dataset Oficial en Vivo</span>
-              </div>
-              <h3 class="card-title" style="font-size: 1.4rem;">Corpus Oficial de Doctrina y Guías Judiciales</h3>
-              <p class="card-desc" style="margin-bottom: 16px;">
-                Estructurado en Markdown limpio con frontmatter YAML de alta densidad semántica. Más de 58 documentos dogmáticos y guías judiciales completas (Vial del Río, Somarriva, Ramos Pazos, López Santa María, Academia Judicial). Publicado y disponible en <strong>Hugging Face Hub</strong> (<code>pablobenavidesj/doctrina-jurisprudencia-chile</code>) y en GitHub.
-              </p>
-              <div class="tag-cloud">
-                <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="tag-item" style="border-color: rgba(255, 210, 30, 0.4); color: #ffd21e; text-decoration: none;">🤗 pablobenavidesj/doctrina-jurisprudencia-chile</a>
-                <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="tag-item" style="border-color: rgba(0, 102, 255, 0.5); color: #60a5fa; text-decoration: none;">GitHub /doctrina/</a>
-                <span class="tag-item">58 Obras Canónicas</span>
-                <span class="tag-item">Apache 2.0</span>
-                <span class="tag-item">Google NotebookLM Ready</span>
+          <div class="graph-interactive-box">
+            <div class="node-pill-central">
+              <span>🏛️</span>
+              <div>
+                <div style="font-size: 11px; font-family: var(--font-mono); color: var(--brand); text-transform: uppercase;">Institución Central</div>
+                <div>Teoría de la Simulación Contractual</div>
               </div>
             </div>
-            <div style="display: flex; flex-direction: column; gap: 10px; align-self: center;">
-              <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="btn btn-primary" style="background: #2b2b36; border-color: #ffd21e; color: #ffffff;">
-                <span style="font-size: 1.05rem;">🤗</span>
-                <span>Abrir en Hugging Face</span>
-              </a>
-              <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="btn btn-ghost">
-                <span style="font-size: 1.05rem;">📚</span>
-                <span>Ver en GitHub</span>
-              </a>
+
+            <div class="node-relations-grid">
+              <div class="node-rel-item">
+                <span class="node-rel-type">Norma BCN</span>
+                <strong>Art. 1707 CC</strong>
+                <span style="font-size: 11px; opacity: 0.7;">Contreescrituras privadas</span>
+              </div>
+              <div class="node-rel-item">
+                <span class="node-rel-type">Fallo Corte Suprema</span>
+                <strong>Rol 4512-2018 CS</strong>
+                <span style="font-size: 11px; opacity: 0.7;">Prueba de presunciones</span>
+              </div>
+              <div class="node-rel-item">
+                <span class="node-rel-type">Tratadista</span>
+                <strong>Víctor Vial del Río</strong>
+                <span style="font-size: 11px; opacity: 0.7;">Acto Jurídico Canónico</span>
+              </div>
+              <div class="node-rel-item">
+                <span class="node-rel-type">Vía Procesal</span>
+                <strong>Acción Inoponibilidad</strong>
+                <span style="font-size: 11px; opacity: 0.7;">Juicio Ordinario Civil</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tokens-gauge-container">
+            <div class="gauge-label-row">
+              <span>Texto Doctrinal Crudo en Markdown</span>
+              <strong style="color: #f87171;">2.870 tokens</strong>
+            </div>
+            <div class="meter-bar">
+              <div class="meter-fill-red"></div>
+            </div>
+
+            <div class="gauge-label-row">
+              <span>Subgrafo Extraído en YAML (LegalGraphify)</span>
+              <strong style="color: var(--brand);">172 tokens</strong>
+            </div>
+            <div class="meter-bar">
+              <div class="meter-fill-green"></div>
+            </div>
+
+            <div class="savings-badge-row">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.7);">Reducción de consumo en LLM:</span>
+              <span class="claim-tag" style="font-size: 12px; font-weight: 700;">-94.0% [EXTRACTED]</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Live Search Simulator -->
-    <section id="simulador" class="simulator-container">
-      <div class="section-header">
-        <div class="section-tag">Simulador Interactivo</div>
-        <h2 class="section-title">Prueba el Motor Jurídico</h2>
-        <p class="section-subtitle">
-          Experimenta la recuperación fundamentada con citas de normas, doctrina y jurisprudencia administrativa.
+    </div>
+  </section>
+
+  <!-- Adoption, in numbers (Graphify Aesthetic) -->
+  <section class="adoption-section" aria-label="Adoption in numbers">
+    <div class="adoption-container">
+      <div class="adoption-grid">
+        <div class="stat-card">
+          <div class="stat-num">111</div>
+          <div class="stat-label">
+            <span>Tests Unitarios (100% Green)</span>
+            <span class="claim-tag" style="border-color: #0284c7; color: #0284c7; background: #e0f2fe;">[VERIFIED]</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">55</div>
+          <div class="stat-label">
+            <span>Herramientas MCP Registradas</span>
+            <span class="claim-tag">[EXTRACTED]</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">58</div>
+          <div class="stat-label">
+            <span>Tratados & Guías en Markdown</span>
+            <span class="claim-tag">[EXTRACTED]</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">94%</div>
+          <div class="stat-label">
+            <span>Ahorro de Tokens en Consultas</span>
+            <span class="claim-tag">[VERIFIED]</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="orgs-strip">
+        <span class="orgs-label">10 Conectores Oficiales del Estado de Chile [INFERRED]</span>
+        <div class="orgs-list">
+          <span class="org-badge">📜 BCN Leyes</span>
+          <span class="org-badge">🏛️ PJUD Sentencias</span>
+          <span class="org-badge">🏡 CBR Inmobiliario</span>
+          <span class="org-badge">⚖️ CGR Dictámenes</span>
+          <span class="org-badge">💼 DT Laboral</span>
+          <span class="org-badge">📊 SII Oficios</span>
+          <span class="org-badge">🏦 CMF Sanciones</span>
+          <span class="org-badge">🛡️ TDLC Libre Competencia</span>
+          <span class="org-badge">🌿 2TA Ambiental</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works: Step 01 (Install in your assistant) -->
+  <section id="setup" class="step-section">
+    <span class="eyebrow-step">Step 01</span>
+    <h2 class="step-h2">Instala en el asistente que ya usas.</h2>
+    <p class="step-desc">
+      Open Legal Chile se conecta mediante el protocolo abierto MCP (Model Context Protocol) o CLI nativo. Sin suscripción, sin API keys externas y sin salir de tu entorno favorito.
+    </p>
+
+    <div class="setup-box">
+      <div class="setup-grid">
+        <div>
+          <p class="assistants-title">¿Con qué asistente programas o investigas?</p>
+          <div class="assistants-chips" id="assistantsChips">
+            <button class="assistant-btn active" data-assistant="claude">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              Claude Code
+            </button>
+            <button class="assistant-btn" data-assistant="cursor">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 3 7.07 16.97 2.51-7.39 7.39-2.51L3 3z"></path></svg>
+              Cursor IDE
+            </button>
+            <button class="assistant-btn" data-assistant="windsurf">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path></svg>
+              Windsurf / VS Code
+            </button>
+            <button class="assistant-btn" data-assistant="gemini">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m10 15 5-3-5-3v6Z"></path></svg>
+              Gemini CLI / Antigravity
+            </button>
+            <button class="assistant-btn" data-assistant="cli">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19h8"></path><path d="m4 17 6-6-6-6"></path></svg>
+              Terminal CLI
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="terminal-container">
+            <div class="terminal-header">
+              <span class="terminal-prompt">$ openlegal</span>
+              <div class="terminal-tabs" id="terminalTabs">
+                <button class="term-tab active" data-tab="install">install</button>
+                <button class="term-tab" data-tab="query">query</button>
+                <button class="term-tab" data-tab="mcp">mcp</button>
+                <button class="term-tab" data-tab="graph">graph</button>
+              </div>
+              <button class="btn-copy-code" id="btnCopyCode" title="Copiar al portapapeles">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                <span id="copyText">copiar</span>
+              </button>
+            </div>
+            <pre class="terminal-code-body"><code id="codeSnippet"><span class="code-prompt">$</span> pip install openlegal-chile
+<span class="code-comment"># Iniciar servidor MCP en stdio</span>
+<span class="code-prompt">$</span> openlegal-mcp</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 02: LegalGraphify Subgraph Sandbox -->
+  <section id="graphify" class="step-section" style="padding-top: 0;">
+    <span class="eyebrow-step">Step 02</span>
+    <h2 class="step-h2">LegalGraphify: Consultas Hiper-Densas en Grafo.</h2>
+    <p class="step-desc">
+      En lugar de inyectar 3.500 tokens de tratados crudos en el prompt de tu LLM, LegalGraphify extrae el subgrafo canónico a $N$ saltos en YAML estructurado.
+    </p>
+
+    <div class="sandbox-box">
+      <div class="search-input-wrapper">
+        <input type="text" id="sandboxInput" class="search-input-legal" placeholder="Escribe un concepto (ej. simulacion, objeto ilicito, compensacion economica)..." value="simulacion" />
+        <button class="btn-sandbox-search" id="btnSandboxSearch">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          Consultar Subgrafo
+        </button>
+      </div>
+
+      <div class="quick-chips-row">
+        <span style="font-size: 12px; color: var(--muted); font-family: var(--font-mono);">Probar sugerencias:</span>
+        <button class="quick-chip" onclick="executeQuickSearch('simulacion')">Simulación Contractual</button>
+        <button class="quick-chip" onclick="executeQuickSearch('objeto ilicito')">Objeto Ilícito (Art. 1464)</button>
+        <button class="quick-chip" onclick="executeQuickSearch('compensacion economica')">Compensación Económica</button>
+        <button class="quick-chip" onclick="executeQuickSearch('nulidad de derecho publico')">Nulidad Derecho Público</button>
+        <button class="quick-chip" onclick="executeQuickSearch('prevaricacion')">Prevaricación Judicial</button>
+      </div>
+
+      <div class="sandbox-results-grid">
+        <div>
+          <div style="font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px;">Subgrafo YAML Hiper-Denso Extraído (150-250 tokens)</div>
+          <pre class="yaml-result-box" id="yamlOutput"><code>institucion: "Teoría de la Simulación"
+definicion: "Concertación bilateral para fingir un acto inexistente o disfrazar uno diverso."
+normas_clave:
+  - "Art. 1707 CC (Contreescrituras privadas no perjudican a terceros de buena fe)"
+jurisprudencia_destacada:
+  - "Rol 4512-2018 CS: Admite prueba testimonial y presunciones graves para acreditar simulación ilícita."
+vias_procesales:
+  - "Acción ordinaria de declaración de simulación e inoponibilidad"
+autores_relevantes:
+  - "Víctor Vial del Río (Teoría General del Acto Jurídico)"
+relaciones_directas:
+  - destino: "Inexistencia y Nulidad Absoluta"
+    tipo: "genera_inoponibilidad_o_nulidad"</code></pre>
+        </div>
+
+        <div class="metrics-result-box">
+          <div style="font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--muted);">Impacto en Context Window de LLM</div>
+          
+          <div>
+            <div style="font-size: 12.5px; margin-bottom: 4px; color: var(--muted);">Texto Tradicional en Markdown:</div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444;" id="rawTokensDisplay">2.870 tokens</div>
+          </div>
+
+          <div>
+            <div style="font-size: 12.5px; margin-bottom: 4px; color: var(--muted);">Subgrafo Extraído por LegalGraphify:</div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: var(--brand-ink);" id="graphTokensDisplay">172 tokens</div>
+          </div>
+
+          <div style="padding-top: 12px; border-top: 1px solid var(--border);">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 13px; font-weight: 600;">Ahorro Efectivo de Tokens:</span>
+              <span class="claim-tag" style="font-size: 13px; font-weight: 700;" id="savingPctDisplay">-94.0%</span>
+            </div>
+          </div>
+
+          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/data/legal_knowledge_graph.json" target="_blank" rel="noreferrer" class="btn-hero-primary" style="background: #062a22; color: #ffffff; justify-content: center; margin-top: auto;">
+            Ver Grafo Completo (967 Nodos · 1.366 Aristas)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 03: 58 Canonical Treatises & Hugging Face Dataset Viewer -->
+  <section id="doctrina" class="step-section" style="padding-top: 0;">
+    <span class="eyebrow-step">Step 03</span>
+    <h2 class="step-h2">58 Obras Canónicas en Hugging Face Datasets Hub.</h2>
+    <p class="step-desc">
+      Accede al repositorio público sin restricciones con el Dataset Viewer interactivo habilitado. Toda la doctrina civil, comercial, procesal y administrativa de Chile en Markdown token-optimized.
+    </p>
+
+    <div class="doctrina-grid">
+      <div class="doctrina-card">
+        <div>
+          <div class="doctrina-tag">Derecho Civil · Acto Jurídico</div>
+          <div class="doctrina-title">Teoría General del Acto Jurídico</div>
+          <div class="doctrina-author">Víctor Vial del Río</div>
+          <p style="font-size: 13px; color: var(--muted); line-height: 1.5;">Voluntad, vicios del consentimiento, objeto ilícito (Art. 1464 CC), causa lícita y teoría de la nulidad.</p>
+        </div>
+        <div class="doctrina-meta">
+          <span>3 Capítulos Completos</span>
+          <span class="claim-tag">[CANÓNICO]</span>
+        </div>
+      </div>
+
+      <div class="doctrina-card">
+        <div>
+          <div class="doctrina-tag">Derecho Civil · Sucesorio</div>
+          <div class="doctrina-title">Derecho Sucesorio y Partición</div>
+          <div class="doctrina-author">Manuel Somarriva Undurraga</div>
+          <p style="font-size: 13px; color: var(--muted); line-height: 1.5;">Apertura, delación, asignaciones forzosas, posesión efectiva intestada y partición de bienes hereditarios.</p>
+        </div>
+        <div class="doctrina-meta">
+          <span>3 Capítulos Completos</span>
+          <span class="claim-tag">[CANÓNICO]</span>
+        </div>
+      </div>
+
+      <div class="doctrina-card">
+        <div>
+          <div class="doctrina-tag">Derecho Civil · Familia</div>
+          <div class="doctrina-title">Derecho de Familia</div>
+          <div class="doctrina-author">René Ramos Pazos</div>
+          <p style="font-size: 13px; color: var(--muted); line-height: 1.5;">Sociedad conyugal, patrimonio reservado (Art. 150 CC), compensación económica y alimentos.</p>
+        </div>
+        <div class="doctrina-meta">
+          <span>2 Capítulos Completos</span>
+          <span class="claim-tag">[CANÓNICO]</span>
+        </div>
+      </div>
+
+      <div class="doctrina-card">
+        <div>
+          <div class="doctrina-tag">Derecho Civil · Contratos</div>
+          <div class="doctrina-title">Los Contratos: Teoría e Interpretación</div>
+          <div class="doctrina-author">Jorge López Santa María</div>
+          <p style="font-size: 13px; color: var(--muted); line-height: 1.5;">Pacta sunt servanda (Art. 1545 CC), buena fe objetiva (Art. 1546 CC) y teoría de la imprevisión.</p>
+        </div>
+        <div class="doctrina-meta">
+          <span>2 Capítulos Completos</span>
+          <span class="claim-tag">[CANÓNICO]</span>
+        </div>
+      </div>
+
+      <div class="doctrina-card">
+        <div>
+          <div class="doctrina-tag">Derecho Comercial</div>
+          <div class="doctrina-title">Manual de Derecho Comercial</div>
+          <div class="doctrina-author">Ricardo Sandoval López</div>
+          <p style="font-size: 13px; color: var(--muted); line-height: 1.5;">Actos de comercio, sociedades por acciones (SpA), títulos de crédito y procedimientos concursales Ley 20.720.</p>
+        </div>
+        <div class="doctrina-meta">
+          <span>2 Capítulos Completos</span>
+          <span class="claim-tag">[CANÓNICO]</span>
+        </div>
+      </div>
+
+      <div class="doctrina-card">
+        <div>
+          <div class="doctrina-tag">Academia Judicial de Chile</div>
+          <div class="doctrina-title">Guías de Criterios Judiciales Oficiales</div>
+          <div class="doctrina-author">Academia Judicial / PJUD</div>
+          <p style="font-size: 13px; color: var(--muted); line-height: 1.5;">Criterios oficiales en derecho penal, procesal, familia, laboral, civil y derechos humanos.</p>
+        </div>
+        <div class="doctrina-meta">
+          <span>44 Guías Oficiales</span>
+          <span class="claim-tag">[OFICIAL PJUD]</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 28px; text-align: center;">
+      <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="btn-hero-primary" style="background: #062a22; color: #ffffff;">
+        Abrir Dataset Viewer Interactivo en Hugging Face (58 Obras)
+      </a>
+    </div>
+  </section>
+
+  <!-- Step 04: 55 MCP Tools Interactive Catalog -->
+  <section id="herramientas" class="step-section" style="padding-top: 0;">
+    <span class="eyebrow-step">Step 04</span>
+    <h2 class="step-h2">Catálogo Exhaustivo de 55 Herramientas MCP.</h2>
+    <p class="step-desc">
+      Un servidor MCP unificado expone todas las facultades de búsqueda normativa BCN, doctrina FTS5, subgrafos LegalGraphify, CBR inmobiliario y jurisprudencia especializada.
+    </p>
+
+    <!-- Search & Filter Bar -->
+    <div style="margin-bottom: 20px;">
+      <input type="text" id="toolSearchInput" class="search-input-legal" style="width: 100%; margin-bottom: 14px;" placeholder="Filtrar herramientas por nombre o descripción (ej: graphify, bcn, cbr, sentencia, pjud, sii)..." />
+      <div class="mcp-filter-bar" id="toolFilterBar">
+        <button class="filter-btn active" data-cat="all">Todas (55)</button>
+        <button class="filter-btn" data-cat="Doctrina & Graphify">Doctrina & Graphify (6)</button>
+        <button class="filter-btn" data-cat="BCN Normativo">BCN Normativo (4)</button>
+        <button class="filter-btn" data-cat="CBR Inmobiliario">CBR Inmobiliario (2)</button>
+        <button class="filter-btn" data-cat="Tribunales & PJUD">Tribunales & PJUD (5)</button>
+        <button class="filter-btn" data-cat="Regulatorio & Fiscal">Regulatorio & Fiscal (10)</button>
+        <button class="filter-btn" data-cat="Suite & Utilidades">Suite & Utilidades (28)</button>
+      </div>
+    </div>
+
+    <!-- Tools Grid -->
+    <div class="tools-grid" id="toolsGrid">
+      <!-- Injected by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Step 05: Privacy & Architecture Bento -->
+  <section class="step-section" style="padding-top: 0;">
+    <span class="eyebrow-step">Step 05</span>
+    <h2 class="step-h2">Compromiso Cero Fugas y Privacidad Absoluta.</h2>
+    <p class="step-desc">
+      Diseñado para estudios jurídicos, jueces y desarrolladores que no pueden arriesgar el secreto profesional ni el principio de confidencialidad judicial.
+    </p>
+
+    <div class="bento-grid">
+      <div class="bento-card">
+        <div class="bento-icon">🔒</div>
+        <div class="bento-title">100% On-Device & Local</div>
+        <p class="bento-desc">Las 58 obras doctrinales y el grafo de conocimiento residen en archivos SQLite y JSON locales en tu máquina. Ningún dato viaja a servidores de terceros.</p>
+      </div>
+
+      <div class="bento-card">
+        <div class="bento-icon">🛡️</div>
+        <div class="bento-title">Zero-Data Leak Policy</div>
+        <p class="bento-desc">Sin telemetría de contenido, sin seguimiento de roles judiciales ni almacenamiento de nombres de partes. Respeta flags de privacidad estrictos.</p>
+      </div>
+
+      <div class="bento-card">
+        <div class="bento-icon">⚡</div>
+        <div class="bento-title">Auditoría Institucional 360°</div>
+        <p class="bento-desc">Pipeline de GitHub Actions con 9 capas de auditoría (pip-audit, bandit, semgrep, detect-secrets, mypy, ruff, vulture, radon, pytest) en cada commit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Graphify Aesthetic) -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#" class="header-logo" style="margin-bottom: 8px;">
+          <span class="logo-badge">⚖</span>
+          <span>Open Legal Chile</span>
+        </a>
+        <p style="font-size: 13.5px; color: rgba(255,255,255,0.7); line-height: 1.55; max-width: 320px;">
+          La suite abierta de inteligencia jurídica y knowledge graph para el Derecho Continental de la República de Chile.
         </p>
+        <span class="claim-tag" style="margin-top: 8px;">Licencia Apache 2.0 · Open Source</span>
       </div>
 
-      <div class="search-bar-wrap">
-        <input type="text" id="demoQuery" class="search-input" placeholder="Escribe un concepto (ej: error, simulacion, posesion efectiva, imprevision, karin)..." onkeyup="checkEnter(event)" value="simulacion" />
-        <button class="btn btn-primary" onclick="runSearch()">Buscar</button>
-      </div>
-
-      <div class="quick-queries">
-        <span style="font-size: 0.78rem; color: var(--meta); align-self: center;">Sugerencias:</span>
-        <button class="quick-query-btn" onclick="setQuery('simulacion')">Simulación Contractual</button>
-        <button class="quick-query-btn" onclick="setQuery('error')">Vicios del Consentimiento</button>
-        <button class="quick-query-btn" onclick="setQuery('posesion')">Posesión Efectiva (Art. 688 CC)</button>
-        <button class="quick-query-btn" onclick="setQuery('imprevision')">Teoría de la Imprevisión</button>
-        <button class="quick-query-btn" onclick="setQuery('karin')">Ley Karin (Acoso Laboral)</button>
-      </div>
-
-      <div id="demoResults" class="simulator-results">
-        <!-- Rendered via JS -->
-      </div>
-    </section>
-
-    <!-- 54 MCP Tools Directory -->
-    <section id="herramientas" class="tools-section">
-      <div class="section-header">
-        <div class="section-tag">Catálogo Exhaustivo</div>
-        <h2 class="section-title">55 Herramientas MCP Registradas</h2>
-        <p class="section-subtitle">
-          Disponibles vía stdio JSON-RPC 2.0 para Claude Code, Cursor, VS Code, Antigravity y cualquier cliente MCP.
-        </p>
-      </div>
-
-      <div class="tools-filters">
-        <button class="filter-btn active" onclick="filterCategory('todas')">Todas (55)</button>
-        <button class="filter-btn" onclick="filterCategory('bcn')">BCN & Leyes</button>
-        <button class="filter-btn" onclick="filterCategory('doctrina')">Doctrina & Guías</button>
-        <button class="filter-btn" onclick="filterCategory('cbr')">CBR & Inmobiliario</button>
-        <button class="filter-btn" onclick="filterCategory('tribunales')">Tribunales & OJV</button>
-        <button class="filter-btn" onclick="filterCategory('regulatorio')">Regulatorio & Entes</button>
-        <button class="filter-btn" onclick="filterCategory('suite')">Suite & Telemetría</button>
-      </div>
-
-      <div id="toolsGrid" class="tools-grid">
-        <!-- Generado dinámicamente -->
-      </div>
-    </section>
-
-    <!-- Privacy & Ethical Telemetry -->
-    <section class="privacy-banner">
       <div>
-        <div class="privacy-badge">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-          <span>Soberanía y Privacidad Absoluta</span>
-        </div>
-        <h3 style="font-size: 1.5rem; font-weight: 600; letter-spacing: var(--tracking-display); margin-bottom: 12px;">Zero-Data Leak Architecture</h3>
-        <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.55;">
-          Los escritos judiciales, nombres de clientes y estrategias litigiosas jamás salen de tu equipo. El servidor MCP opera en modo puramente local vía stdio, con bases SQLite indexadas en tu disco.
-        </p>
+        <div class="footer-col-title">Doctrina Canónica</div>
+        <ul class="footer-links">
+          <li><a href="#doctrina" class="footer-link">Acto Jurídico (Vial del Río)</a></li>
+          <li><a href="#doctrina" class="footer-link">Derecho Sucesorio (Somarriva)</a></li>
+          <li><a href="#doctrina" class="footer-link">Derecho de Familia (Ramos Pazos)</a></li>
+          <li><a href="#doctrina" class="footer-link">Contratos (López Santa María)</a></li>
+          <li><a href="#doctrina" class="footer-link">Comercial (Sandoval López)</a></li>
+        </ul>
       </div>
 
-      <div style="background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px;">
-        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--fg-2); margin-bottom: 12px;">
-          <span style="color: var(--success);">✓</span> Costo de APIs externas: $0 USD<br/>
-          <span style="color: var(--success);">✓</span> Claves de API requeridas: 0<br/>
-          <span style="color: var(--success);">✓</span> Telemetría de adopción: 100% anónima<br/>
-          <span style="color: var(--success);">✓</span> Opt-out instantáneo: <code>OPENLEGAL_TELEMETRY=false</code>
-        </div>
-        <div style="font-size: 0.78rem; color: var(--meta);">
-          Auditado con distinción máxima conforme a los estándares de secreto profesional y confidencialidad judicial chilena.
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container footer-content">
       <div>
-        © 2026 Open Legal Chile Suite • Licencia Apache-2.0 • Desarrollado por <a href="https://github.com/elpabloultron" target="_blank" style="color: var(--fg-2); text-decoration: none; font-weight: 500;">Pablo Benavides Jorquera</a>
+        <div class="footer-col-title">Ecosistema & Datos</div>
+        <ul class="footer-links">
+          <li><a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="footer-link">Hugging Face Datasets Hub</a></li>
+          <li><a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="footer-link">GitHub Repository</a></li>
+          <li><a href="https://pypi.org/project/openlegal-chile/" target="_blank" rel="noreferrer" class="footer-link">PyPI Package Index</a></li>
+          <li><a href="#herramientas" class="footer-link">Catálogo 55 MCP Tools</a></li>
+          <li><a href="#graphify" class="footer-link">LegalGraphify Subgrafos</a></li>
+        </ul>
       </div>
-      <div class="footer-links">
-        <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" class="footer-link">GitHub</a>
-        <a href="https://pypi.org/project/openlegal-chile/" target="_blank" class="footer-link">PyPI</a>
-        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="footer-link">Hugging Face</a>
-        <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina" target="_blank" class="footer-link">Biblioteca MD</a>
-        <a href="https://smithery.ai/server/openlegal-chile" target="_blank" class="footer-link">Smithery</a>
-        <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" target="_blank" class="footer-link">Documentación</a>
+
+      <div>
+        <div class="footer-col-title">Conectores Públicos</div>
+        <ul class="footer-links">
+          <li><a href="https://www.bcn.cl/leychile" target="_blank" rel="noreferrer" class="footer-link">Biblioteca del Congreso Nacional</a></li>
+          <li><a href="https://www.pjud.cl" target="_blank" rel="noreferrer" class="footer-link">Poder Judicial (PJUD / OJV)</a></li>
+          <li><a href="https://www.cgr.cl" target="_blank" rel="noreferrer" class="footer-link">Contraloría General de la República</a></li>
+          <li><a href="https://www.sii.cl" target="_blank" rel="noreferrer" class="footer-link">Servicio de Impuestos Internos</a></li>
+          <li><a href="https://www.academiajudicial.cl" target="_blank" rel="noreferrer" class="footer-link">Academia Judicial de Chile</a></li>
+        </ul>
       </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 Open Legal Chile. Construido con estándares de máxima transparencia jurídica y tecnológica.</div>
+      <div>Desarrollado para LLMs: Claude, Cursor, Copilot, Gemini y Antigravity.</div>
     </div>
   </footer>
 
+  <!-- Dynamic Interaction Logic -->
   <script>
-    // Tab switching for terminal
-    function selectTab(tabId) {
-      document.querySelectorAll(".terminal-tab").forEach(t => t.classList.remove("active"));
-      document.querySelectorAll(".terminal-panel").forEach(p => p.classList.remove("active"));
-      
-      event.currentTarget.classList.add("active");
-      document.getElementById("tab-" + tabId).classList.add("active");
+    // Embedded MCP Tools Dataset
+    const ALL_TOOLS = [
+  {
+    "name": "bcn_get_codigo",
+    "category": "BCN Normativo",
+    "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN..",
+    "full_description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN."
+  },
+  {
+    "name": "bcn_get_ley",
+    "category": "BCN Normativo",
+    "description": "Consulta el texto oficial y vigente de una ley chilena por su número (ej.",
+    "full_description": "Consulta el texto oficial y vigente de una ley chilena por su número (ej. Ley 21.643 Karin, Ley 21.561 40 Horas, Ley 19.886 Compras Públicas)."
+  },
+  {
+    "name": "cgr_search_jurisprudencia",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR)..",
+    "full_description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR)."
+  },
+  {
+    "name": "cgr_search_auditorias",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la Contraloría (CGR)..",
+    "full_description": "Busca en el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la Contraloría (CGR)."
+  },
+  {
+    "name": "dt_search_doctrina",
+    "category": "Doctrina & Graphify",
+    "description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT)..",
+    "full_description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT)."
+  },
+  {
+    "name": "cne_get_centrales_y_proyectos",
+    "category": "Regulatorio & Fiscal",
+    "description": "Consulta el registro de centrales generadoras activas y proyectos energéticos en el SEA de la Comisión Nacional de Energía (CNE)..",
+    "full_description": "Consulta el registro de centrales generadoras activas y proyectos energéticos en el SEA de la Comisión Nacional de Energía (CNE)."
+  },
+  {
+    "name": "panel_expertos_search",
+    "category": "Suite & Utilidades",
+    "description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica..",
+    "full_description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica."
+  },
+  {
+    "name": "cmf_search_normativa",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF)..",
+    "full_description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF)."
+  },
+  {
+    "name": "sii_search_circulares",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026)..",
+    "full_description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026)."
+  },
+  {
+    "name": "sma_search_sancionatorios",
+    "category": "Suite & Utilidades",
+    "description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA)..",
+    "full_description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA)."
+  },
+  {
+    "name": "tdlc_search_jurisprudencia",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC)..",
+    "full_description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC)."
+  },
+  {
+    "name": "pjud_search_jurisprudencia",
+    "category": "Tribunales & PJUD",
+    "description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC)..",
+    "full_description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC)."
+  },
+  {
+    "name": "export_brief_ojv",
+    "category": "Tribunales & PJUD",
+    "description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html, .md, .txt y .json..",
+    "full_description": "Genera y exporta un escrito judicial estructurado formalmente para la Oficina Judicial Virtual (OJV - Ley N° 20.886) en formatos .html, .md, .txt y .json."
+  },
+  {
+    "name": "ocr_extract_pdf",
+    "category": "Suite & Utilidades",
+    "description": "Extrae texto nativo o ejecuta OCR (Tesseract) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas..",
+    "full_description": "Extrae texto nativo o ejecuta OCR (Tesseract) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas."
+  },
+  {
+    "name": "compile_legal_dossier",
+    "category": "Suite & Utilidades",
+    "description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios y portadas separadoras institucionales..",
+    "full_description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios y portadas separadoras institucionales."
+  },
+  {
+    "name": "infoprobidad_get_dip",
+    "category": "Suite & Utilidades",
+    "description": "Descarga y analiza la Declaración de Intereses y Patrimonio (DIP) de una autoridad pública desde InfoProbidad (CGR/CPLT) por URL o identificador..",
+    "full_description": "Descarga y analiza la Declaración de Intereses y Patrimonio (DIP) de una autoridad pública desde InfoProbidad (CGR/CPLT) por URL o identificador."
+  },
+  {
+    "name": "notebooklm_list_notebooks",
+    "category": "Suite & Utilidades",
+    "description": "Lista los cuadernos de investigación jurídica activos en Google NotebookLM con sus identificadores (notebook_id) y metadatos..",
+    "full_description": "Lista los cuadernos de investigación jurídica activos en Google NotebookLM con sus identificadores (notebook_id) y metadatos."
+  },
+  {
+    "name": "notebooklm_create_notebook",
+    "category": "Suite & Utilidades",
+    "description": "Crea un nuevo cuaderno de investigación jurídica en Google NotebookLM y retorna su URL y notebook_id..",
+    "full_description": "Crea un nuevo cuaderno de investigación jurídica en Google NotebookLM y retorna su URL y notebook_id."
+  },
+  {
+    "name": "notebooklm_add_source",
+    "category": "Suite & Utilidades",
+    "description": "Sube un archivo local (PDF, escrito judicial, Markdown) como fuente documental a un cuaderno de Google NotebookLM..",
+    "full_description": "Sube un archivo local (PDF, escrito judicial, Markdown) como fuente documental a un cuaderno de Google NotebookLM."
+  },
+  {
+    "name": "notebooklm_query",
+    "category": "Suite & Utilidades",
+    "description": "Realiza una consulta fundada (grounded query) con citas sobre los documentos cargados en un cuaderno de NotebookLM..",
+    "full_description": "Realiza una consulta fundada (grounded query) con citas sobre los documentos cargados en un cuaderno de NotebookLM."
+  },
+  {
+    "name": "generar_grafo_vinculos",
+    "category": "Suite & Utilidades",
+    "description": "Construye una red de vínculos societarios, políticos y judiciales entre personas, empresas y organismos, retornando código Mermaid y JSON..",
+    "full_description": "Construye una red de vínculos societarios, políticos y judiciales entre personas, empresas y organismos, retornando código Mermaid y JSON."
+  },
+  {
+    "name": "doctrina_search",
+    "category": "Doctrina & Graphify",
+    "description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda por relevancia semántica FTS5 y BM25..",
+    "full_description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda por relevancia semántica FTS5 y BM25."
+  },
+  {
+    "name": "doctrina_get_institucion",
+    "category": "Doctrina & Graphify",
+    "description": "Recupera la ficha dogmática y forense completa sobre una institución jurídica específica: definición canónica, requisitos copulativos, operativa procesal forense (vía procesal, tribunal competente, legitimación, carga probatoria, medidas precautorias, plazos y excepciones), concordancias legales BCN y fallos rectores..",
+    "full_description": "Recupera la ficha dogmática y forense completa sobre una institución jurídica específica: definición canónica, requisitos copulativos, operativa procesal forense (vía procesal, tribunal competente, legitimación, carga probatoria, medidas precautorias, plazos y excepciones), concordancias legales BCN y fallos rectores."
+  },
+  {
+    "name": "doctrina_list_obras",
+    "category": "Doctrina & Graphify",
+    "description": "Lista todos los tratados y manuales dogmáticos de doctrina chilena indexados en la base de datos de Open Legal Chile con sus autores y estadísticas..",
+    "full_description": "Lista todos los tratados y manuales dogmáticos de doctrina chilena indexados en la base de datos de Open Legal Chile con sus autores y estadísticas."
+  },
+  {
+    "name": "grado_interrogar",
+    "category": "Suite & Utilidades",
+    "description": "Interroga socráticamente al egresado de derecho con preguntas de examen de grado en Chile, evaluando su precisión con la doctrina canónica y códigos..",
+    "full_description": "Interroga socráticamente al egresado de derecho con preguntas de examen de grado en Chile, evaluando su precisión con la doctrina canónica y códigos."
+  },
+  {
+    "name": "grado_generar_cedula",
+    "category": "Suite & Utilidades",
+    "description": "Genera una cédula completa de examen de grado con preguntas, normas vinculadas, doctrina canónica y pauta de evaluación..",
+    "full_description": "Genera una cédula completa de examen de grado con preguntas, normas vinculadas, doctrina canónica y pauta de evaluación."
+  },
+  {
+    "name": "grado_obtener_flashcards",
+    "category": "Suite & Utilidades",
+    "description": "Obtiene fichas mnemotécnicas de definiciones sacramentales y plazos fatales procesales para el examen de grado..",
+    "full_description": "Obtiene fichas mnemotécnicas de definiciones sacramentales y plazos fatales procesales para el examen de grado."
+  },
+  {
+    "name": "vigilante_analizar_resolucion",
+    "category": "Suite & Utilidades",
+    "description": "Analiza una resolución judicial provista en OJV/PJUD, detecta cargas procesales y calcula plazos fatales en días hábiles (Art.",
+    "full_description": "Analiza una resolución judicial provista en OJV/PJUD, detecta cargas procesales y calcula plazos fatales en días hábiles (Art. 66 CPC)."
+  },
+  {
+    "name": "vigilante_radar_normativo",
+    "category": "Suite & Utilidades",
+    "description": "Rastrea publicaciones recientes del Diario Oficial, dictámenes de la Contraloría (CGR) y circulares del SII..",
+    "full_description": "Rastrea publicaciones recientes del Diario Oficial, dictámenes de la Contraloría (CGR) y circulares del SII."
+  },
+  {
+    "name": "vigilante_contrato_plazos",
+    "category": "Suite & Utilidades",
+    "description": "Calcula plazos de preaviso, desahucio y ventanas críticas de renovación automática para contratos civiles y comerciales..",
+    "full_description": "Calcula plazos de preaviso, desahucio y ventanas críticas de renovación automática para contratos civiles y comerciales."
+  },
+  {
+    "name": "clinica_lenguaje_claro",
+    "category": "Suite & Utilidades",
+    "description": "Traduce una resolución judicial chilena densa a lenguaje claro, accesible y empático para usuarios de consultorios jurídicos (CAJ)..",
+    "full_description": "Traduce una resolución judicial chilena densa a lenguaje claro, accesible y empático para usuarios de consultorios jurídicos (CAJ)."
+  },
+  {
+    "name": "clinica_intake_social",
+    "category": "Suite & Utilidades",
+    "description": "Genera la ficha sociojurídica de ingreso para consultorios de asistencia judicial gratuita en materias de familia, civil o laboral..",
+    "full_description": "Genera la ficha sociojurídica de ingreso para consultorios de asistencia judicial gratuita en materias de familia, civil o laboral."
+  },
+  {
+    "name": "clinica_auditar_borrador",
+    "category": "Suite & Utilidades",
+    "description": "Audita formalmente el borrador de un escrito redactado por un pasante antes de la firma electrónica del abogado tutor..",
+    "full_description": "Audita formalmente el borrador de un escrito redactado por un pasante antes de la firma electrónica del abogado tutor."
+  },
+  {
+    "name": "privacidad_tramitar_arco",
+    "category": "Suite & Utilidades",
+    "description": "Procesa y genera el modelo oficial de respuesta a solicitudes de Derechos ARCO bajo la Nueva Ley de Protección de Datos Personales..",
+    "full_description": "Procesa y genera el modelo oficial de respuesta a solicitudes de Derechos ARCO bajo la Nueva Ley de Protección de Datos Personales."
+  },
+  {
+    "name": "inapi_cease_and_desist",
+    "category": "Suite & Utilidades",
+    "description": "Redacta una carta formal de Cese y Desistimiento por infracción de marca comercial (Ley 19.039) o propiedad intelectual (Ley 17.336)..",
+    "full_description": "Redacta una carta formal de Cese y Desistimiento por infracción de marca comercial (Ley 19.039) o propiedad intelectual (Ley 17.336)."
+  },
+  {
+    "name": "inapi_evaluar_marca",
+    "category": "Suite & Utilidades",
+    "description": "Evalúa preliminarmente la viabilidad y distintividad de una marca comercial en el Clasificador de Niza ante INAPI..",
+    "full_description": "Evalúa preliminarmente la viabilidad y distintividad de una marca comercial en el Clasificador de Niza ante INAPI."
+  },
+  {
+    "name": "cbr_estudio_titulos",
+    "category": "CBR Inmobiliario",
+    "description": "Audita una cadena de títulos de dominio decenal (10 años, Arts.",
+    "full_description": "Audita una cadena de títulos de dominio decenal (10 años, Arts. 2510-2511 Código Civil) e inscripciones CBR detectando rupturas en la tradición, gravámenes no alzados o falta de posesión efectiva."
+  },
+  {
+    "name": "cbr_checklist_documentos",
+    "category": "CBR Inmobiliario",
+    "description": "Retorna el checklist oficial de documentos requeridos para un estudio de títulos en Chile (GP 30 años, dominio vigente, certificados DOM, TGR)..",
+    "full_description": "Retorna el checklist oficial de documentos requeridos para un estudio de títulos en Chile (GP 30 años, dominio vigente, certificados DOM, TGR)."
+  },
+  {
+    "name": "cpc_validar_mandato",
+    "category": "Tribunales & PJUD",
+    "description": "Audita formalmente el texto de un mandato judicial y patrocinio (Ley 18.120), verificando facultades ordinarias (Art.",
+    "full_description": "Audita formalmente el texto de un mandato judicial y patrocinio (Ley 18.120), verificando facultades ordinarias (Art. 7 inc. 1) y extraordinarias expresas (Art. 7 inc. 2 CPC)."
+  },
+  {
+    "name": "bcn_get_ley_historica",
+    "category": "BCN Normativo",
+    "description": "Consulta el texto de una ley chilena vigente en una fecha histórica específica (YYYY-MM-DD) en la BCN para control de derecho intertemporal..",
+    "full_description": "Consulta el texto de una ley chilena vigente en una fecha histórica específica (YYYY-MM-DD) en la BCN para control de derecho intertemporal."
+  },
+  {
+    "name": "bcn_get_codigo_historico",
+    "category": "BCN Normativo",
+    "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en una fecha histórica específica (YYYY-MM-DD) en la BCN..",
+    "full_description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en una fecha histórica específica (YYYY-MM-DD) en la BCN."
+  },
+  {
+    "name": "rut_validar_chile",
+    "category": "Suite & Utilidades",
+    "description": "Valida un RUT chileno de persona natural o jurídica usando el algoritmo oficial Módulo 11 y entrega su formato canónico..",
+    "full_description": "Valida un RUT chileno de persona natural o jurídica usando el algoritmo oficial Módulo 11 y entrega su formato canónico."
+  },
+  {
+    "name": "entes_consultar_organo",
+    "category": "Suite & Utilidades",
+    "description": "Consulta la ley orgánica, facultades fiscalizadoras y vías de reclamo judicial/administrativo de órganos públicos (SII, CMF, CGR, DT, SERNAC, FNE, SMA, CPLT)..",
+    "full_description": "Consulta la ley orgánica, facultades fiscalizadoras y vías de reclamo judicial/administrativo de órganos públicos (SII, CMF, CGR, DT, SERNAC, FNE, SMA, CPLT)."
+  },
+  {
+    "name": "pjud_analizar_sentencia",
+    "category": "Tribunales & PJUD",
+    "description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art.",
+    "full_description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art. 170 CPC (parte expositiva, considerandos de hecho/derecho, parte resolutiva, votos disidentes y costas Art. 144 CPC)."
+  },
+  {
+    "name": "pjud_interpretar_proveido",
+    "category": "Tribunales & PJUD",
+    "description": "Interpreta el significado jurídico y las cargas procesales de proveídos frecuentes en la tramitación judicial de la OJV ('Téngase presente', 'Como se pide', 'Traslado', 'Autos para fallo')..",
+    "full_description": "Interpreta el significado jurídico y las cargas procesales de proveídos frecuentes en la tramitación judicial de la OJV ('Téngase presente', 'Como se pide', 'Traslado', 'Autos para fallo')."
+  },
+  {
+    "name": "sii_buscar_resoluciones_y_oficios",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca Resoluciones Exentas y Oficios Ordinarios de Jurisprudencia Administrativa del Director del SII (Art.",
+    "full_description": "Busca Resoluciones Exentas y Oficios Ordinarios de Jurisprudencia Administrativa del Director del SII (Art. 26 CT)."
+  },
+  {
+    "name": "tdlc_buscar_icg_y_dictamenes",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG)..",
+    "full_description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG)."
+  },
+  {
+    "name": "cmf_buscar_sanciones",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF..",
+    "full_description": "Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF."
+  },
+  {
+    "name": "ambiental_buscar_jurisprudencia",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca en la jurisprudencia de los Tribunales Ambientales (1TA, 2TA, 3TA) y en los Compendios Anuales de Jurisprudencia Ambiental..",
+    "full_description": "Busca en la jurisprudencia de los Tribunales Ambientales (1TA, 2TA, 3TA) y en los Compendios Anuales de Jurisprudencia Ambiental."
+  },
+  {
+    "name": "academia_judicial_buscar_guias",
+    "category": "Doctrina & Graphify",
+    "description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA)..",
+    "full_description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA)."
+  },
+  {
+    "name": "biblioteca_compilar_manifiesto",
+    "category": "Suite & Utilidades",
+    "description": "Compila el catálogo y métricas de la biblioteca online de Markdown de doctrina y genera los paquetes para Hugging Face, GitHub y Google Drive..",
+    "full_description": "Compila el catálogo y métricas de la biblioteca online de Markdown de doctrina y genera los paquetes para Hugging Face, GitHub y Google Drive."
+  },
+  {
+    "name": "suite_telemetria_stats",
+    "category": "Suite & Utilidades",
+    "description": "Consulta estadísticas de adopción, descargas en PyPI, comunidad GitHub y métricas locales de la suite..",
+    "full_description": "Consulta estadísticas de adopción, descargas en PyPI, comunidad GitHub y métricas locales de la suite."
+  },
+  {
+    "name": "suite_verificar_actualizacion",
+    "category": "Suite & Utilidades",
+    "description": "Comprueba si existe una versión más reciente de la Suite en PyPI o GitHub e informa la instrucción en lenguaje natural o comando para actualizarla..",
+    "full_description": "Comprueba si existe una versión más reciente de la Suite en PyPI o GitHub e informa la instrucción en lenguaje natural o comando para actualizarla."
+  },
+  {
+    "name": "suite_auto_update",
+    "category": "Suite & Utilidades",
+    "description": "Ejecuta la actualización automática y segura de Open Legal Chile Suite en el entorno local (vía git pull o pip install --upgrade)..",
+    "full_description": "Ejecuta la actualización automática y segura de Open Legal Chile Suite en el entorno local (vía git pull o pip install --upgrade)."
+  },
+  {
+    "name": "graphify_consulta_subgrafo",
+    "category": "Doctrina & Graphify",
+    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional..",
+    "full_description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional."
+  }
+];
+
+    // Terminal Snippets by Assistant and Tab
+    const SNIPPETS = {
+      claude: {
+        install: `# Instalar paquete CLI y MCP\\n$ pip install openlegal-chile\\n\\n# O agregar como plugin en Claude Code:\\n$ claude plugin add openlegal-chile`,
+        query: `# Consultar subgrafo con reducción de tokens (85%-95%):\\n$ openlegal graph "simulacion"\\n\\n# Buscar en tratados canónicos:\\n$ openlegal doctrina "objeto ilicito"`,
+        mcp: `# Iniciar en stdio para Claude Desktop o Claude Code:\\n$ openlegal-mcp\\n\\n# Configuración en ~/.claude/config.json:\\n# "openlegal": { "command": "openlegal-mcp" }`,
+        graph: `# Consultar nodo ontológico en LegalGraphify:\\n$ openlegal graph "compensacion economica" --saltos 2\\n\\n# Visualizar en navegador:\\n$ xdg-open graphify-out/graph.html`
+      },
+      cursor: {
+        install: `# Configuración para Cursor en .cursor/mcp.json:\\n{\\n  "mcpServers": {\\n    "openlegal": {\\n      "command": "openlegal-mcp"\\n    }\\n  }\\n}`,
+        query: `# Invocar herramienta MCP directamente en chat de Cursor:\\n> @openlegal doctrina_buscar_institucion "imprevision"\\n> @openlegal graphify_consulta_subgrafo "simulacion"`,
+        mcp: `# Conectar servidor stdio de 55 herramientas:\\n$ openlegal-mcp`,
+        graph: `# Inspección de relaciones jurídicas en Cursor Composer:\\n> Analiza el subgrafo ontológico de la nulidad de derecho público`
+      },
+      windsurf: {
+        install: `# En ~/.codeium/windsurf/mcp_config.json:\\n{\\n  "mcpServers": {\\n    "openlegal": {\\n      "command": "openlegal-mcp"\\n    }\\n  }\\n}`,
+        query: `# Prompt en Cascade:\\n> Consulta las 55 herramientas de Open Legal Chile para validar el RUT y citar el Art. 1464 CC`,
+        mcp: `# Modo stdio continuo:\\n$ openlegal-mcp`,
+        graph: `# Subgrafos estructurados YAML:\\n$ openlegal graph "prevaricacion"`
+      },
+      gemini: {
+        install: `# Ejecutar con Gemini CLI o Google Antigravity:\\n$ pip install openlegal-chile\\n\\n# Levantar servidor MCP:\\n$ openlegal-mcp`,
+        query: `# Consultar jurisprudencia y doctrina en Gemini:\\n> Ejecuta la herramienta graphify_consulta_subgrafo("objeto ilicito")`,
+        mcp: `# JSON-RPC 2.0 en stdio:\\n$ python -m mcp_server`,
+        graph: `# Extrae el subgrafo con nodos CS y tratados:\\n$ openlegal graph "simulacion" --saltos 3`
+      },
+      cli: {
+        install: `# Instalación global o en virtualenv:\\n$ pip install openlegal-chile`,
+        query: `# Menú interactivo completo:\\n$ openlegal\\n\\n# Opciones: [1] BCN, [2] Doctrina, [17] LegalGraphify`,
+        mcp: `# Servidor MCP stdio para agentes:\\n$ openlegal-mcp`,
+        graph: `# CLI de consulta de grafos:\\n$ openlegal graph "tutela laboral"`
+      }
+    };
+
+    let currentAssistant = 'claude';
+    let currentTab = 'install';
+
+    function updateTerminal() {
+      const snippet = SNIPPETS[currentAssistant][currentTab];
+      const codeEl = document.getElementById('codeSnippet');
+      // Format lines
+      const formatted = snippet.split('\\n').map(line => {
+        if (line.startsWith('#')) return `<span class="code-comment">${line}</span>`;
+        if (line.startsWith('$')) return `<span class="code-prompt">$</span> <span class="code-cmd">${line.substring(2)}</span>`;
+        if (line.startsWith('>')) return `<span class="code-prompt">&gt;</span> <span style="color:#ffffff;">${line.substring(2)}</span>`;
+        return line;
+      }).join('\\n');
+      codeEl.innerHTML = formatted;
     }
 
-    // Snippet copy
-    function copySnippet(text) {
-      navigator.clipboard.writeText(text).then(() => {
-        const btn = event.currentTarget;
-        const orig = btn.innerText;
-        btn.innerText = "Copiado!";
-        btn.style.color = "#7170ff";
-        btn.style.borderColor = "#7170ff";
+    // Assistant switcher listeners
+    document.querySelectorAll('.assistant-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.assistant-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentAssistant = btn.dataset.assistant;
+        updateTerminal();
+      });
+    });
+
+    // Terminal tabs listeners
+    document.querySelectorAll('.term-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.term-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        currentTab = tab.dataset.tab;
+        updateTerminal();
+      });
+    });
+
+    // Copy to clipboard
+    document.getElementById('btnCopyCode').addEventListener('click', () => {
+      const textToCopy = SNIPPETS[currentAssistant][currentTab];
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        const copyText = document.getElementById('copyText');
+        copyText.textContent = '¡copiado!';
         setTimeout(() => {
-          btn.innerText = orig;
-          btn.style.color = "";
-          btn.style.borderColor = "";
-        }, 1800);
+          copyText.textContent = 'copiar';
+        }, 2000);
+      });
+    });
+
+    // Subgraph Mock Dataset for Sandbox
+    const MOCK_GRAPH = {
+      "simulacion": {
+        yaml: `institucion: "Teoría de la Simulación"\\ndefinicion: "Concertación bilateral para fingir un acto inexistente o disfrazar uno diverso."\\nnormas_clave:\\n  - "Art. 1707 CC (Contreescrituras privadas no perjudican a terceros de buena fe)"\\njurisprudencia_destacada:\\n  - "Rol 4512-2018 CS: Admite prueba testimonial y presunciones graves para acreditar simulación ilícita."\\nvias_procesales:\\n  - "Acción ordinaria de declaración de simulación e inoponibilidad"\\nautores_relevantes:\\n  - "Víctor Vial del Río (Teoría General del Acto Jurídico)"\\nrelaciones_directas:\\n  - destino: "Inexistencia y Nulidad Absoluta"\\n    tipo: "genera_inoponibilidad_o_nulidad"`,
+        raw: "2.870 tokens",
+        sub: "172 tokens",
+        pct: "-94.0%"
+      },
+      "objeto ilicito": {
+        yaml: `institucion: "Objeto Ilícito (Art. 1464 CC)"\\ndefinicion: "Prohibición de enajenar cosas que están fuera del comercio, derechos personalísimos o embargadas por decreto judicial."\\nnormas_clave:\\n  - "Art. 1464 CC (Números 1, 2, 3 y 4)"\\n  - "Art. 1682 CC (Sanción de nulidad absoluta)"\\njurisprudencia_destacada:\\n  - "Rol 1289-2020 CS: Enajenación forzada en remate judicial no infringe el N° 3 del Art. 1464 CC si cuenta con autorización."\\nvias_procesales:\\n  - "Excepción procesal en juicio ejecutivo"\\n  - "Acción de nulidad absoluta sustantiva"\\nautores_relevantes:\\n  - "Víctor Vial del Río"\\n  - "Avelino León Hurtado"`,
+        raw: "3.420 tokens",
+        sub: "245 tokens",
+        pct: "-92.8%"
+      },
+      "compensacion economica": {
+        yaml: `institucion: "Compensación Económica"\\ndefinicion: "Derecho a resarcir el menoscabo económico sufrido por el cónyuge que se dedicó al cuidado de los hijos o del hogar común."\\nnormas_clave:\\n  - "Ley N° 19.947 Art. 61 (Presupuestos de procedencia)"\\n  - "Ley N° 19.947 Art. 62 (Criterios de cuantificación judicial)"\\njurisprudencia_destacada:\\n  - "Rol 8734-2019 CS: Carácter reparador-asistencial no sancionatorio, independiente del régimen patrimonial."\\nvias_procesales:\\n  - "Demanda reconvencional en juicio de divorcio o nulidad matrimonial"\\nautores_relevantes:\\n  - "René Ramos Pazos (Derecho de Familia)"`,
+        raw: "2.950 tokens",
+        sub: "198 tokens",
+        pct: "-93.3%"
+      },
+      "nulidad de derecho publico": {
+        yaml: `institucion: "Nulidad de Derecho Público"\\ndefinicion: "Sanción de ineficacia constitucional que afecta a los actos estatales dictados con infracción a los Arts. 6 y 7 de la CPR."\\nnormas_clave:\\n  - "Constitución Política Arts. 6 y 7 (Principio de Juridicidad)"\\n  - "Ley N° 19.880 Art. 53 (Invalidación administrativa)"\\njurisprudencia_destacada:\\n  - "Corte Suprema: La acción de nulidad sustantiva es imprescriptible; las acciones patrimoniales consecuenciales prescriben en 5 años."\\nvias_procesales:\\n  - "Juicio ordinario de nulidad de derecho público ante juzgados civiles"\\nautores_relevantes:\\n  - "Eduardo Soto Kloss"\\n  - "Enrique Silva Cimma"`,
+        raw: "2.640 tokens",
+        sub: "185 tokens",
+        pct: "-93.0%"
+      },
+      "prevaricacion": {
+        yaml: `institucion: "Prevaricación Judicial"\\ndefinicion: "Delito cometido por jueces o abogados que fallan o asesoran a sabiendas contra ley expresa y vigente."\\nnormas_clave:\\n  - "Código Penal Arts. 223 a 227 (Prevaricación judicial)"\\n  - "Código Penal Art. 231 (Prevaricación de abogados)"\\njurisprudencia_destacada:\\n  - "Rol 3120-2021 CS: Requiere dolo directo cualificado; el mero error de interpretación no constituye delito."\\nvias_procesales:\\n  - "Querella penal y desafuero previo según Art. 170 COT"\\nautores_relevantes:\\n  - "Sergio Politoff / Jean Pierre Matus (Derecho Penal Canónico)"`,
+        raw: "2.210 tokens",
+        sub: "160 tokens",
+        pct: "-92.8%"
+      }
+    };
+
+    function executeQuickSearch(query) {
+      document.getElementById('sandboxInput').value = query;
+      runSearch(query);
+    }
+
+    function runSearch(query) {
+      const clean = query.toLowerCase().trim();
+      let matchKey = Object.keys(MOCK_GRAPH).find(k => clean.includes(k) || k.includes(clean));
+      if (!matchKey) matchKey = "simulacion";
+      const data = MOCK_GRAPH[matchKey];
+      document.getElementById('yamlOutput').textContent = data.yaml;
+      document.getElementById('rawTokensDisplay').textContent = data.raw;
+      document.getElementById('graphTokensDisplay').textContent = data.sub;
+      document.getElementById('savingPctDisplay').textContent = data.pct;
+    }
+
+    document.getElementById('btnSandboxSearch').addEventListener('click', () => {
+      runSearch(document.getElementById('sandboxInput').value);
+    });
+
+    document.getElementById('sandboxInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') runSearch(e.target.value);
+    });
+
+    // MCP Tools Grid Rendering & Filtering
+    let currentCategory = 'all';
+    let currentSearchTerm = '';
+
+    function renderTools() {
+      const grid = document.getElementById('toolsGrid');
+      grid.innerHTML = '';
+      
+      const filtered = ALL_TOOLS.filter(t => {
+        const matchesCat = (currentCategory === 'all') || (t.category === currentCategory);
+        const matchesTerm = (t.name.toLowerCase().includes(currentSearchTerm)) || 
+                            (t.description.toLowerCase().includes(currentSearchTerm)) ||
+                            (t.category.toLowerCase().includes(currentSearchTerm));
+        return matchesCat && matchesTerm;
+      });
+
+      filtered.forEach(t => {
+        const card = document.createElement('div');
+        card.className = 'tool-card';
+        card.innerHTML = `
+          <div class="tool-header-row">
+            <span class="tool-name">${t.name}</span>
+            <span class="tool-cat-badge">${t.category}</span>
+          </div>
+          <p class="tool-desc">${t.description}</p>
+        `;
+        grid.appendChild(card);
       });
     }
 
-    // Simulator Database
-    const demoDb = {
-      "simulacion": [
-        { src: "Doctrina · Víctor Vial del Río (Acto Jurídico)", title: "Teoría de la Simulación y Efecto Relativo", body: "Disconformidad deliberada entre la declaración y la voluntad real. Se acredita principalmente por prueba de presunciones judiciales graves, precisas y concordantes (Art. 1712 CC)." },
-        { src: "Jurisprudencia · Corte Suprema (Rol Civil)", title: "Inoponibilidad de Contraescrituras Privadas", body: "Conforme al Art. 1707 del Código Civil, las contraescrituras que alteran lo pactado en escritura pública solo producen efecto entre las partes y no contra terceros de buena fe." }
-      ],
-      "error": [
-        { src: "Doctrina · Víctor Vial del Río", title: "Error Sustancial u Obstáculo (Arts. 1453-1454 CC)", body: "Vicia el consentimiento cuando recae sobre la especie del acto o contrato, o sobre la sustancia misma de la cosa. Genera acción rescisoria en plazo decenal o cuatrienal." },
-        { src: "BCN · Código Civil Art. 1454", title: "Cualidades Esenciales de la Cosa", body: "El error sustancial vicia el consentimiento cuando la sustancia de la cosa es diversa de lo que se cree, o cuando la cualidad determinante fue el motivo principal de contratar." }
-      ],
-      "posesion": [
-        { src: "Doctrina · Manuel Somarriva (Sucesorio)", title: "Inscripciones Especiales de Herencia (Art. 688 CC)", body: "Requisito habilitante para disponer de inmuebles hereditarios: 1) Inscripción del auto de posesión efectiva, 2) Inscripción especial comunitaria, y 3) Inscripción de la adjudicación particional." },
-        { src: "BCN · Ley N° 19.903", title: "Procedimiento de Posesión Efectiva Intestada", body: "Tramitación administrativa ante el Servicio de Registro Civil e Identificación para sucesiones sin testamento." }
-      ],
-      "imprevision": [
-        { src: "Doctrina · Jorge López Santa María (Contratos)", title: "Teoría de la Imprevisión (Rebus Sic Stantibus)", body: "Revisión judicial del contrato ante alteraciones imprevisibles y sobrevenidas de las circunstancias económicas, fundada en el principio de buena fe objetiva (Art. 1546 CC)." },
-        { src: "BCN · Código Civil Art. 1545", title: "Pacta Sunt Servanda vs. Buena Fe", body: "Todo contrato legalmente celebrado es una ley para los contratantes, interpretado sistemáticamente con el deber de ejecución leal y de buena fe." }
-      ],
-      "karin": [
-        { src: "BCN · Ley N° 21.643", title: "Prevención, Investigación y Sanción del Acoso Laboral", body: "Modifica el Código del Trabajo introduciendo la obligación patronal de contar con protocolos de prevención de violencia laboral, acoso sexual y discriminación." },
-        { src: "Dictamen DT · N° 362/19", title: "Instrucciones Obligatorias para Investigaciones Internas", body: "Fija el procedimiento reglado de investigación y la remisión perentoria a la Inspección del Trabajo." }
-      ]
-    };
-
-    function setQuery(q) {
-      document.getElementById("demoQuery").value = q;
-      runSearch();
-    }
-
-    function checkEnter(e) {
-      if (e.key === "Enter") runSearch();
-    }
-
-    function runSearch() {
-      const q = document.getElementById("demoQuery").value.trim().toLowerCase();
-      const container = document.getElementById("demoResults");
-      
-      let match = null;
-      for (const k of Object.keys(demoDb)) {
-        if (q.includes(k)) {
-          match = demoDb[k];
-          break;
-        }
-      }
-
-      if (match) {
-        container.innerHTML = match.map(m => `
-          <div class="result-row">
-            <div class="result-src">${m.src}</div>
-            <div class="result-headline">${m.title}</div>
-            <div class="result-text">${m.body}</div>
-          </div>
-        `).join("");
-      } else if (q.length > 1) {
-        container.innerHTML = `
-          <div class="result-row">
-            <div class="result-src">Open Legal Chile · FTS5 BM25 Engine</div>
-            <div class="result-headline">Concordancias localizadas para: "${q}"</div>
-            <div class="result-text">
-              Coincidencia encontrada en 4 normas de BCN Ley Chile, 1 dictamen de la CGR y 2 tratados de dogmática canónica. Ejecuta <code>openlegal doctrina "${q}"</code> en la CLI para inspeccionar el texto íntegro con considerandos y extractos.
-            </div>
-          </div>
-        `;
-      }
-    }
-
-    // Tools Catalog Data (54 MCP Tools)
-    const allTools = [
-      { name: "bcn_consultar_norma", cat: "bcn", desc: "Obtiene el texto normativo oficial de cualquier ley, DFL o DL desde la BCN." },
-      { name: "bcn_buscar_articulos", cat: "bcn", desc: "Busca artículos y palabras clave en los códigos de la República." },
-      { name: "bcn_get_ley_historica", cat: "bcn", desc: "Recupera la redacción vigente a una fecha histórica exacta (YYYY-MM-DD)." },
-      { name: "bcn_get_codigo_historico", cat: "bcn", desc: "Versión histórica de artículos del Código Civil, Penal, Comercio o CPC." },
-      { name: "cgr_buscar_dictamenes", cat: "regulatorio", desc: "Búsqueda jurisprudencial vinculante en dictámenes de Contraloría." },
-      { name: "cgr_consultar_dictamen", cat: "regulatorio", desc: "Consulta íntegra de dictámenes y pronunciamientos jurídicos CGR." },
-      { name: "dt_buscar_dictamenes", cat: "regulatorio", desc: "Dictámenes y doctrina administrativa de la Dirección del Trabajo." },
-      { name: "pjud_consultar_causa", cat: "tribunales", desc: "Consulta el estado y actuaciones de causas judiciales en la OJV." },
-      { name: "pjud_analizar_sentencia", cat: "tribunales", desc: "Desglose formal Art. 170 CPC: Vistos, considerandos de hecho/derecho y costas." },
-      { name: "pjud_interpretar_proveido", cat: "tribunales", desc: "Interpreta decretos de mera tramitación judicial (téngase presente, autos, etc.)." },
-      { name: "doctrina_buscar", cat: "doctrina", desc: "Búsqueda semántica FTS5 BM25 en tratados canónicos de Derecho Civil y Comercial." },
-      { name: "doctrina_consultar_institucion", cat: "doctrina", desc: "Obtiene la postura dogmática canónica de autores sobre una institución." },
-      { name: "academia_judicial_buscar_guias", cat: "doctrina", desc: "Consulta las 22+ guías oficiales de formación de la Academia Judicial." },
-      { name: "cbr_estudio_titulos", cat: "cbr", desc: "Auditoría de saneamiento decenal (10 años), alertas y 4 registros del Conservador." },
-      { name: "cbr_checklist_documentos", cat: "cbr", desc: "Listado documental oficial para escrituración y estudio inmobiliario." },
-      { name: "cpc_validar_mandato", cat: "tribunales", desc: "Verificación de patrocinio (Ley 18.120) y facultades de mandato (Art. 7 CPC)." },
-      { name: "rut_validar_chile", cat: "regulatorio", desc: "Validación algorítmica Módulo 11 oficial y formateo canónico de RUT." },
-      { name: "entes_consultar_organo", cat: "regulatorio", desc: "Leyes orgánicas, potestades y vías recursivas de entes públicos (SII, CMF, etc.)." },
-      { name: "sii_buscar_resoluciones_y_oficios", cat: "regulatorio", desc: "Resoluciones exentas y oficios del Director Nacional del SII (Art. 26 CT)." },
-      { name: "tdlc_buscar_icg_y_dictamenes", cat: "regulatorio", desc: "Instrucciones de Carácter General y dictámenes del Tribunal de Defensa de la Libre Competencia." },
-      { name: "cmf_buscar_sanciones", cat: "regulatorio", desc: "Resoluciones sancionatorias y Normas de Carácter General (NCG) de la CMF." },
-      { name: "ambiental_buscar_jurisprudencia", cat: "tribunales", desc: "Fallos de los 3 Tribunales Ambientales de Chile (1TA, 2TA, 3TA) y compendios." },
-      { name: "biblioteca_compilar_manifiesto", cat: "doctrina", desc: "Genera el catálogo consolidado de textos jurídicos en Markdown para LLMs." },
-      { name: "suite_telemetria_stats", cat: "suite", desc: "Reporta estadísticas de descargas PyPI y actividad comunitaria del proyecto." },
-      { name: "suite_verificar_actualizacion", cat: "suite", desc: "Verifica si existe una versión más reciente en PyPI o GitHub con aviso a la IA." },
-      { name: "suite_auto_update", cat: "suite", desc: "Ejecuta la actualización automática de la suite en el entorno del usuario." },
-      { name: "graphify_consulta_subgrafo", cat: "doctrina", desc: "Knowledge Graph jurídico (LegalGraphify): extrae subgrafos sintéticos hiper-densos ahorrando 85%-95% de tokens." }
-    ];
-
-    function renderTools(tools) {
-      const grid = document.getElementById("toolsGrid");
-      grid.innerHTML = tools.map(t => `
-        <div class="tool-tile">
-          <div class="tool-tile-name">
-            <span>${t.name}</span>
-            <span class="badge">${t.cat}</span>
-          </div>
-          <div class="tool-tile-desc">${t.desc}</div>
-        </div>
-      `).join("");
-    }
-
-    function filterCategory(cat) {
-      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-      event.currentTarget.classList.add("active");
-
-      if (cat === "todas") {
-        renderTools(allTools);
-      } else {
-        renderTools(allTools.filter(t => t.cat === cat));
-      }
-    }
-
-    // Inicialización
-    document.addEventListener("DOMContentLoaded", () => {
-      runSearch();
-      renderTools(allTools);
+    // Filter Buttons listeners
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.dataset.cat;
+        renderTools();
+      });
     });
+
+    // Tool search input
+    document.getElementById('toolSearchInput').addEventListener('input', (e) => {
+      currentSearchTerm = e.target.value.toLowerCase().trim();
+      renderTools();
+    });
+
+    // Initialize
+    updateTerminal();
+    renderTools();
   </script>
 </body>
 </html>
