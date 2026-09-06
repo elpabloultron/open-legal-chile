@@ -24,7 +24,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (54 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-54-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (55 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-55-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -79,7 +79,8 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 54 Herramientas Forenses Registradas (v1.3.0 Suite Edition)                         │
+│   • 55 Herramientas Forenses Registradas (v1.3.0 Suite Edition)                         │
+│   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
 │   • Telemetría Ética de Adopción y Auto-Actualización (stats_tracker.py, update_checker.py)│
 │   • Motor de Estudio de Títulos Decenal CBR (cbr_titles.py)                              │
 │   • Auditor de Mandatos Judiciales Art. 7 CPC (cbr_titles.py)                            │
@@ -312,6 +313,11 @@ El servidor MCP expone **51 herramientas oficiales** categorizadas funcionalment
 | `suite_verificar_actualizacion` | `forzar` *(bool, opc)* | Comprueba en segundo plano si existe una versión más reciente en PyPI o GitHub con instrucciones precisas para agentes de IA. |
 | `suite_auto_update` | *(ninguno)* | Ejecuta la actualización automática y segura de la Suite en el entorno local (vía git pull o pip install --upgrade). |
 
+### S. Knowledge Graph Jurídico y Optimización de Tokens (LegalGraphify)
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional. |
+
 ---
 
 ## 🏛️ 5. Los 10 Conectores Oficiales del Estado de Chile
@@ -441,6 +447,12 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 ### 🏛️ J. Academia Judicial de Chile y Biblioteca Online de Markdown (`academia_judicial_connector.py` y `online_library_sync.py`)
 * **Guías Oficiales de Formación Judicial:** Ingesta y consulta de las 22+ guías oficiales de `guias.academiajudicial.cl` (Penal, Determinación de Penas, Preparación de Juicio Oral, Familia, Laboral, Ética e Inteligencia Artificial en tribunales).
 * **Biblioteca Online en Markdown:** Publicación y empaquetado gratuito del corpus para Hugging Face Datasets ([`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)), releases comprimidos de GitHub y carpetas estructuradas para Google Drive y Google NotebookLM.
+
+### 🧠 K. LegalGraphify: Reducción Masiva de Tokens con Grafos de Conocimiento (`legal_graphify.py`)
+* **Grafo Multidimensional de Dogmática Jurídica:** 967 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema, tratadistas canónicos y vías procesales) y 1.366 aristas relacionales.
+* **Ahorro Radical de Tokens (85% - 95%):** En lugar de inyectar manuales o capítulos completos (2.500 - 4.500 tokens), el motor extrae un subgrafo conexo hiper-denso de ~150-250 tokens en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense).
+* **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
+* **Comando CLI y Herramienta MCP:** Disponible como `openlegal graph "concepto"` y mediante la herramienta MCP `graphify_consulta_subgrafo`. Compatible con Graphify Labs CLI (`python -m graphify query "..."`) y exportación interactiva a navegador (`graphify-out/graph.html`).
 
 ---
 

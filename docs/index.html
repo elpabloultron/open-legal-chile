@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Open Legal Chile Suite — Infraestructura Abierta de Inteligencia Jurídica</title>
-  <meta name="description" content="Suite abierta de inteligencia jurídica, servidor MCP con 54 herramientas, 10 conectores oficiales del Estado de Chile, doctrina canónica FTS5 y estudio de títulos inmobiliarios CBR." />
+  <meta name="description" content="Suite abierta de inteligencia jurídica, servidor MCP con 55 herramientas, 10 conectores oficiales del Estado de Chile, doctrina canónica FTS5 y estudio de títulos inmobiliarios CBR." />
 
   <!-- Fonts: Inter & JetBrains Mono (Linear System from open-design) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -794,7 +794,7 @@
         <a href="#instalacion" class="nav-item">Instalación</a>
         <a href="#bento" class="nav-item">Arquitectura</a>
         <a href="#simulador" class="nav-item">Simulador</a>
-        <a href="#herramientas" class="nav-item">54 Herramientas MCP</a>
+        <a href="#herramientas" class="nav-item">55 Herramientas MCP</a>
         <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" class="nav-item" target="_blank" style="display:inline-flex; align-items:center; gap:5px;"><span style="font-size:1.05rem;">🤗</span> Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/PLUGINS.md" class="nav-item" target="_blank">Plugins</a>
       </nav>
@@ -825,7 +825,7 @@
       </h1>
 
       <p class="hero-description">
-        Suite de ingeniería legal soberana. 54 herramientas MCP nativas, 10 conectores oficiales del Estado, doctrina canónica FTS5 en Markdown y estudio de títulos inmobiliarios CBR. Zero-Data Leak garantizado.
+        Suite de ingeniería legal soberana. 55 herramientas MCP nativas, 10 conectores oficiales del Estado, doctrina canónica FTS5 en Markdown y estudio de títulos inmobiliarios CBR. Zero-Data Leak garantizado.
       </p>
 
       <div class="hero-cta">
@@ -1148,14 +1148,14 @@
     <section id="herramientas" class="tools-section">
       <div class="section-header">
         <div class="section-tag">Catálogo Exhaustivo</div>
-        <h2 class="section-title">54 Herramientas MCP Registradas</h2>
+        <h2 class="section-title">55 Herramientas MCP Registradas</h2>
         <p class="section-subtitle">
           Disponibles vía stdio JSON-RPC 2.0 para Claude Code, Cursor, VS Code, Antigravity y cualquier cliente MCP.
         </p>
       </div>
 
       <div class="tools-filters">
-        <button class="filter-btn active" onclick="filterCategory('todas')">Todas (54)</button>
+        <button class="filter-btn active" onclick="filterCategory('todas')">Todas (55)</button>
         <button class="filter-btn" onclick="filterCategory('bcn')">BCN & Leyes</button>
         <button class="filter-btn" onclick="filterCategory('doctrina')">Doctrina & Guías</button>
         <button class="filter-btn" onclick="filterCategory('cbr')">CBR & Inmobiliario</button>
@@ -1332,7 +1332,8 @@
       { name: "biblioteca_compilar_manifiesto", cat: "doctrina", desc: "Genera el catálogo consolidado de textos jurídicos en Markdown para LLMs." },
       { name: "suite_telemetria_stats", cat: "suite", desc: "Reporta estadísticas de descargas PyPI y actividad comunitaria del proyecto." },
       { name: "suite_verificar_actualizacion", cat: "suite", desc: "Verifica si existe una versión más reciente en PyPI o GitHub con aviso a la IA." },
-      { name: "suite_auto_update", cat: "suite", desc: "Ejecuta la actualización automática de la suite en el entorno del usuario." }
+      { name: "suite_auto_update", cat: "suite", desc: "Ejecuta la actualización automática de la suite en el entorno del usuario." },
+      { name: "graphify_consulta_subgrafo", cat: "doctrina", desc: "Knowledge Graph jurídico (LegalGraphify): extrae subgrafos sintéticos hiper-densos ahorrando 85%-95% de tokens." }
     ];
 
     function renderTools(tools) {

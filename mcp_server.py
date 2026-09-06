@@ -47,6 +47,7 @@ from sentencias_parser import SentenciaParserEngine, ProveidosParser
 from tribunales_ambientales_connector import TribunalesAmbientalesClient
 from academia_judicial_connector import AcademiaJudicialClient
 from online_library_sync import OnlineLibrarySyncManager
+from legal_graphify import LegalGraphifyEngine
 
 # Inicializar clientes
 bcn = BCNClient()
@@ -76,6 +77,7 @@ proveidos_engine = ProveidosParser()
 ambientales_client = TribunalesAmbientalesClient()
 aj_client = AcademiaJudicialClient()
 library_sync_mgr = OnlineLibrarySyncManager()
+legal_graphify_engine = LegalGraphifyEngine()
 
 TOOLS = [
     {
@@ -725,6 +727,19 @@ TOOLS = [
             "type": "object",
             "properties": {}
         }
+    },
+    {
+        "name": "graphify_consulta_subgrafo",
+        "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Concepto jurídico, institución, norma o materia a consultar en el subgrafo (ej. 'simulacion', 'imprevision', 'nulidad', 'tutela laboral')"},
+                "max_hops": {"type": "integer", "description": "Radio de saltos relacionales en el grafo (por defecto 1)", "default": 1},
+                "incluir_mermaid": {"type": "boolean", "description": "Si es True, incluye el diagrama Mermaid renderizable del subgrafo", "default": False}
+            },
+            "required": ["query"]
+        }
     }
 ]
 
@@ -1070,6 +1085,16 @@ def handle_tool_call(name: str, args: dict) -> Any:
         elif name == "suite_auto_update":
             from update_checker import run_auto_update
             return run_auto_update()
+        elif name == "graphify_consulta_subgrafo":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio (ej. 'simulacion', 'imprevision', 'nulidad')."}
+            hops = int(args.get("max_hops", 1))
+            incluir_mermaid = bool(args.get("incluir_mermaid", False))
+            res = legal_graphify_engine.consultar_subgrafo(q, max_hops=hops)
+            if incluir_mermaid and res.get("encontrado"):
+                res["diagrama_mermaid"] = legal_graphify_engine.exportar_subgrafo_mermaid(q, max_hops=hops)
+            return res
         else:
             return {"error": f"Herramienta '{name}' no encontrada."}
     except Exception as e:

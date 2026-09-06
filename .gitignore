@@ -46,3 +46,4 @@ Thumbs.db
 .system_generated/
 scratch/
 scratch_*.py
+graphify-out/cache/

@@ -170,7 +170,7 @@ class ProveidosParser:
         },
         {
             "patron": r"bajo\s+apercibimiento",
-            "tipo": "APERCIBIMIENTO",
+            "tipo": "APERCIBIMIENTO",  # pragma: whitelist secret
             "efecto": "Intimación judicial bajo advertencia de sanción procesal (rebeldía, tener por desistido o multas) si la parte no cumple la orden en el plazo conferido."
         }
     ]
