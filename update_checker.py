@@ -91,7 +91,7 @@ def check_for_updates(force: bool = False, timeout: float = 2.0) -> Dict[str, An
         "hay_actualizacion": hay_actualizacion,
         "fuente": source,
         "notas": release_notes,
-        "comando_pip": f"pip install --upgrade openlegal-chile",
+        "comando_pip": "pip install --upgrade openlegal-chile",
         "comando_git": "git pull && pip install -e .",
         "instruccion_ia": "Actualiza la suite Open Legal Chile a la última versión disponible"
     }

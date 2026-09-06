@@ -80,7 +80,6 @@ class CBRTitleStudyEngine:
         t_actual = ordenadas[0]
         t_mas_antiguo = ordenadas[-1]
 
-        anio_mas_reciente = t_actual.get("anio", self.anio_referencia)
         anio_mas_antiguo = t_mas_antiguo.get("anio", self.anio_referencia)
 
         cobertura = self.anio_referencia - anio_mas_antiguo
@@ -101,7 +100,6 @@ class CBRTitleStudyEngine:
             curr = ordenadas[idx]
             prev = ordenadas[idx + 1]
 
-            adquirente_curr = curr.get("propietario", "").strip().lower()
             enajenante_curr = curr.get("antecesor", "").strip().lower()
             propietario_prev = prev.get("propietario", "").strip().lower()
 

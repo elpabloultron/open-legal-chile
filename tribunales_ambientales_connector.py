@@ -109,7 +109,9 @@ class TribunalesAmbientalesClient:
         matches = []
 
         for c in COMPENDIOS_ANUALES_DESTACADOS:
-            texto_comp = f"{c['titulo']} {c['descripcion']} {' '.join(c['ejes_tematicos'])}".lower()
+            raw_ejes = c.get("ejes_tematicos")
+            ejes = [str(x) for x in raw_ejes] if isinstance(raw_ejes, list) else []
+            texto_comp = f"{c.get('titulo', '')} {c.get('descripcion', '')} {' '.join(ejes)}".lower()
             if q_lower in texto_comp:
                 matches.append(c)
 

@@ -340,7 +340,7 @@ def menu_interactivo():
             try:
                 from sentencias_parser import ProveidosParser
                 res = ProveidosParser.interpretar_proveido(prov or "Téngase por contestada la demanda y autos para resolver traslado.")
-                print(f"\n🏛️ SIGNIFICADO PROCESAL:")
+                print("\n🏛️ SIGNIFICADO PROCESAL:")
                 print(f"  • Proveído: '{res.get('proveido')}'")
                 print(f"  • Tipo: {res.get('tipo_proveido')}")
                 print(f"  • Efecto Procesal: {res.get('efecto_procesal')}")
@@ -354,11 +354,11 @@ def menu_interactivo():
             try:
                 from online_library_sync import compilar_manifiesto_biblioteca, OnlineLibrarySyncManager
                 man = compilar_manifiesto_biblioteca()
-                print(f"\n📚 MANIFIESTO GENERAL DE LA BIBLIOTECA:")
+                print("\n📚 MANIFIESTO GENERAL DE LA BIBLIOTECA:")
                 print(f"  • Total Obras/Guías: {man['total_documentos']}")
                 print(f"  • Total Palabras: {man['total_palabras']:,}")
                 print(f"  • Tamaño: {man['total_megabytes']} MB")
-                print(f"  • Formato: Markdown estructurado optimizado para LLMs")
+                print("  • Formato: Markdown estructurado optimizado para LLMs")
                 acc = input("\n¿Deseas empaquetar en [.tar.gz] para GitHub/Drive? (S/N): ").strip().lower()
                 if acc == "s":
                     mgr = OnlineLibrarySyncManager()
@@ -375,14 +375,14 @@ def menu_interactivo():
                 pypi = m.get("metricas_pypi", {})
                 gh = m.get("metricas_github", {})
                 loc = m.get("capacidades_locales", {})
-                print(f"\n📦 MÉTRICAS PYPI (pypistats.org):")
+                print("\n📦 MÉTRICAS PYPI (pypistats.org):")
                 print(f"  • Descargas último día: {pypi.get('descargas_ultimo_dia')}")
                 print(f"  • Descargas última semana: {pypi.get('descargas_ultima_semana')}")
                 print(f"  • Descargas último mes: {pypi.get('descargas_ultimo_mes')}")
                 print(f"  • Descargas totales estimadas: {pypi.get('descargas_totales_estimadas')}")
                 print(f"\n⭐ COMUNIDAD GITHUB ({gh.get('url')}):")
                 print(f"  • Estrellas: {gh.get('estrellas')} | Forks: {gh.get('forks')}")
-                print(f"\n⚡ CAPACIDADES LOCALES INSTALADAS:")
+                print("\n⚡ CAPACIDADES LOCALES INSTALADAS:")
                 print(f"  • Herramientas MCP Oficiales: {loc.get('herramientas_mcp_oficiales')}")
                 print(f"  • Conectores Oficiales del Estado: {loc.get('conectores_estado')}")
                 print(f"  • Instituciones Doctrinales FTS5: {loc.get('instituciones_doctrinales_indexadas')}")
