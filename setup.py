@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="openlegal-chile",
-    version="1.3.0",
+    version="1.4.0",
     description="Suite Integral de Inteligencia y Práctica Jurídica para el Derecho Continental de Chile",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
@@ -43,14 +43,17 @@ setup(
         "academia_judicial_connector",
         "online_library_sync",
         "stats_tracker",
-        "update_checker"
+        "update_checker",
+        "legal_graphify",
+        "query_openlegal_laws"
     ],
     install_requires=[
         "requests>=2.28.0",
         "beautifulsoup4>=4.11.0",
         "defusedxml>=0.7.1",
         "pymupdf>=1.23.0",
-        "markdown-pdf>=1.3.0"
+        "markdown-pdf>=1.3.0",
+        "networkx>=3.0"
     ],
     packages=find_packages(),
     include_package_data=True,
