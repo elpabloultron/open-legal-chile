@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.4.1"
+version = "1.5.0"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -36,6 +36,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+ocr = [
+  "rapidocr-onnxruntime>=1.2.0"
+]
 dev = [
   "pytest>=7.0",
   "pytest-asyncio"
