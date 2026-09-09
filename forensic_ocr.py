@@ -20,16 +20,40 @@ except ImportError:
 
 class ForensicOCREngine:
     def __init__(self, tesseract_cmd: Optional[str] = None):
-        which_tess = shutil.which("tesseract")
+        which_tess = shutil.which("tesseract") or shutil.which("tesseract.exe")
         if tesseract_cmd and os.path.exists(tesseract_cmd):
             self.tesseract_cmd = tesseract_cmd
         elif which_tess:
             self.tesseract_cmd = which_tess
         elif os.path.exists("/usr/bin/tesseract"):
             self.tesseract_cmd = "/usr/bin/tesseract"
+        elif sys.platform == "win32":
+            # Rutas estándar del repositorio oficial de Windows (winget install UB-Mannheim.TesseractOCR)
+            win_candidates = [
+                os.path.join(os.environ.get("PROGRAMFILES", "C:\\Program Files"), "Tesseract-OCR", "tesseract.exe"),
+                os.path.join(os.environ.get("PROGRAMFILES(X86)", "C:\\Program Files (x86)"), "Tesseract-OCR", "tesseract.exe"),
+                os.path.join(os.environ.get("LOCALAPPDATA", ""), "Programs", "Tesseract-OCR", "tesseract.exe"),
+                r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+                r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+            ]
+            found = None
+            for cand in win_candidates:
+                if cand and os.path.exists(cand):
+                    found = cand
+                    break
+            self.tesseract_cmd = found if found else "tesseract.exe"
         else:
             self.tesseract_cmd = "tesseract"
         self._available_langs: Optional[List[str]] = None
+
+    @staticmethod
+    def get_install_instructions() -> Dict[str, str]:
+        """Instrucciones de instalación del binario oficial de OCR por sistema operativo."""
+        return {
+            "windows_winget": "winget install UB-Mannheim.TesseractOCR",
+            "linux_apt": "sudo apt update && sudo apt install -y tesseract-ocr tesseract-ocr-spa",
+            "macos_brew": "brew install tesseract tesseract-lang"
+        }
 
     def is_available(self) -> bool:
         """Verifica si PyMuPDF y el binario de Tesseract están disponibles."""
