@@ -2195,13 +2195,13 @@
           <div class="pillar-icon-badge" style="background: #f3e8ff; color: #9333ea;">⚖️</div>
           <h3 class="pillar-title">Redacción OJV & Compilador Forense</h3>
           <p class="pillar-desc">
-            Generador de escritos judiciales estructurados bajo los estrictos estándares de la Oficina Judicial Virtual (Ley N° 20.886). Compila denuncias y demandas en PDF formal A4 con portadas institucionales, índices y anexos probatorios ensamblados, además de OCR forense con Tesseract para expedientes escaneados.
+            Generador de escritos judiciales estructurados bajo los estrictos estándares de la Oficina Judicial Virtual (Ley N° 20.886). Compila denuncias y demandas en PDF formal A4 con portadas institucionales, índices y anexos probatorios ensamblados, además de OCR forense multi-motor (PaddleOCR / RapidOCR y Tesseract) para expedientes escaneados.
           </p>
         </div>
         <div class="pillar-tags">
           <span class="pillar-tag">Ley N° 20.886 OJV</span>
           <span class="pillar-tag">Compilador Dossier PDF</span>
-          <span class="pillar-tag">OCR Tesseract</span>
+          <span class="pillar-tag">OCR PaddleOCR & Tesseract</span>
           <span class="pillar-tag">InfoProbidad DIP</span>
         </div>
       </div>
@@ -2311,6 +2311,8 @@
               </button>
             </div>
             <pre class="terminal-code-body"><code id="codeSnippet"><span class="code-prompt">$</span> pip install openlegal-chile
+<span class="code-comment"># Con OCR avanzado (PaddleOCR ONNX):</span>
+<span class="code-prompt">$</span> pip install "openlegal-chile[ocr]"
 <span class="code-comment"># Iniciar servidor MCP en stdio</span>
 <span class="code-prompt">$</span> openlegal-mcp</code></pre>
           </div>
@@ -2682,8 +2684,8 @@ relaciones_directas:
   {
     "name": "ocr_extract_pdf",
     "category": "Suite & Utilidades",
-    "description": "Extrae texto nativo o ejecuta OCR (Tesseract) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas..",
-    "full_description": "Extrae texto nativo o ejecuta OCR (Tesseract) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas."
+    "description": "Extrae texto nativo o ejecuta OCR inteligente multi-motor (PaddleOCR / RapidOCR / Tesseract) sobre expedientes PDF judiciales o escrituras escaneadas..",
+    "full_description": "Extrae texto nativo o ejecuta OCR inteligente multi-motor (PaddleOCR / RapidOCR / Tesseract con soporte winget en Windows) sobre expedientes PDF judiciales, actas notariales o resoluciones públicas escaneadas."
   },
   {
     "name": "compile_legal_dossier",
@@ -2936,7 +2938,7 @@ relaciones_directas:
     // Terminal Snippets by Assistant and Tab
     const SNIPPETS = {
       claude: {
-        install: `# Instalar paquete CLI y MCP\\n$ pip install openlegal-chile\\n\\n# O agregar como plugin en Claude Code:\\n$ claude plugin add openlegal-chile`,
+        install: `# Instalar paquete CLI y MCP:\\n$ pip install openlegal-chile\\n\\n# Opcional con OCR (PaddleOCR ONNX):\\n$ pip install "openlegal-chile[ocr]"\\n\\n# O agregar como plugin en Claude Code:\\n$ claude plugin add openlegal-chile`,
         query: `# Consultar subgrafo con reducción de tokens (85%-95%):\\n$ openlegal graph "simulacion"\\n\\n# Buscar en tratados canónicos:\\n$ openlegal doctrina "objeto ilicito"`,
         mcp: `# Iniciar en stdio para Claude Desktop o Claude Code:\\n$ openlegal-mcp\\n\\n# Configuración en ~/.claude/config.json:\\n# "openlegal": { "command": "openlegal-mcp" }`,
         graph: `# Consultar nodo ontológico en LegalGraphify:\\n$ openlegal graph "compensacion economica" --saltos 2\\n\\n# Visualizar en navegador:\\n$ xdg-open graphify-out/graph.html`
@@ -2954,13 +2956,13 @@ relaciones_directas:
         graph: `# Subgrafos estructurados YAML:\\n$ openlegal graph "prevaricacion"`
       },
       gemini: {
-        install: `# Ejecutar con Gemini CLI o Google Antigravity:\\n$ pip install openlegal-chile\\n\\n# Levantar servidor MCP:\\n$ openlegal-mcp`,
+        install: `# Ejecutar con Gemini CLI o Google Antigravity:\\n$ pip install openlegal-chile\\n\\n# Con aceleración OCR (PaddleOCR ONNX):\\n$ pip install "openlegal-chile[ocr]"\\n\\n# Levantar servidor MCP:\\n$ openlegal-mcp`,
         query: `# Consultar jurisprudencia y doctrina en Gemini:\\n> Ejecuta la herramienta graphify_consulta_subgrafo("objeto ilicito")`,
         mcp: `# JSON-RPC 2.0 en stdio:\\n$ python -m mcp_server`,
         graph: `# Extrae el subgrafo con nodos CS y tratados:\\n$ openlegal graph "simulacion" --saltos 3`
       },
       cli: {
-        install: `# Instalación global o en virtualenv:\\n$ pip install openlegal-chile`,
+        install: `# Instalación global o en virtualenv:\\n$ pip install openlegal-chile\\n\\n# Con aceleración OCR forense (PaddleOCR ONNX):\\n$ pip install "openlegal-chile[ocr]"`,
         query: `# Menú interactivo completo:\\n$ openlegal\\n\\n# Opciones: [1] BCN, [2] Doctrina, [17] LegalGraphify`,
         mcp: `# Servidor MCP stdio para agentes:\\n$ openlegal-mcp`,
         graph: `# CLI de consulta de grafos:\\n$ openlegal graph "tutela laboral"`
