@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="openlegal-chile",
-    version="1.4.1",
+    version="1.5.0",
     description="Suite Integral de Inteligencia y Práctica Jurídica para el Derecho Continental de Chile",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
@@ -56,6 +56,9 @@ setup(
         "networkx>=3.0"
     ],
     packages=find_packages(),
+    extras_require={
+        "ocr": ["rapidocr-onnxruntime>=1.2.0"]
+    },
     include_package_data=True,
     package_data={
         "": [".env.example", "mcp_config.json", "smithery.yaml"]

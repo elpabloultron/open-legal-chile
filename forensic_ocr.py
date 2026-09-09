@@ -1,7 +1,7 @@
 """
 Open Legal Chile — Motor Forense de OCR y Extracción de Documentos Judiciales
-Permite extraer texto nativo o aplicar OCR (Tesseract / RapidOCR) sobre
-expedientes PDF escaneados, sentencias judiciales, actas y escrituras notariales.
+Permite extraer texto nativo o aplicar OCR de alta precisión (RapidOCR / PaddleOCR / Tesseract)
+sobre expedientes PDF escaneados, sentencias judiciales, actas y escrituras notariales.
 """
 
 import os
@@ -19,7 +19,7 @@ except ImportError:
 
 
 class ForensicOCREngine:
-    def __init__(self, tesseract_cmd: Optional[str] = None):
+    def __init__(self, tesseract_cmd: Optional[str] = None, default_engine: str = "auto"):
         which_tess = shutil.which("tesseract") or shutil.which("tesseract.exe")
         if tesseract_cmd and os.path.exists(tesseract_cmd):
             self.tesseract_cmd = tesseract_cmd
@@ -44,20 +44,114 @@ class ForensicOCREngine:
             self.tesseract_cmd = found if found else "tesseract.exe"
         else:
             self.tesseract_cmd = "tesseract"
+
+        self.default_engine = default_engine
         self._available_langs: Optional[List[str]] = None
+        self._rapidocr_instance: Optional[Any] = None
+        self._paddleocr_instance: Optional[Any] = None
 
     @staticmethod
     def get_install_instructions() -> Dict[str, str]:
-        """Instrucciones de instalación del binario oficial de OCR por sistema operativo."""
+        """Instrucciones de instalación de los motores de OCR por sistema operativo y python."""
         return {
+            "rapidocr_python": "pip install rapidocr-onnxruntime",
+            "paddleocr_python": "pip install paddleocr paddlepaddle",
             "windows_winget": "winget install UB-Mannheim.TesseractOCR",
             "linux_apt": "sudo apt update && sudo apt install -y tesseract-ocr tesseract-ocr-spa",
             "macos_brew": "brew install tesseract tesseract-lang"
         }
 
+    @staticmethod
+    def is_rapidocr_available() -> bool:
+        """Verifica si RapidOCR (modelos de PaddleOCR en ONNX) está disponible."""
+        try:
+            import rapidocr_onnxruntime  # noqa: F401
+            return True
+        except ImportError:
+            return False
+
+    @staticmethod
+    def is_paddleocr_available() -> bool:
+        """Verifica si el framework PaddleOCR nativo está disponible."""
+        try:
+            import paddleocr  # noqa: F401
+            return True
+        except ImportError:
+            return False
+
+    def is_tesseract_available(self) -> bool:
+        """Verifica si el binario del sistema Tesseract está disponible."""
+        return bool(shutil.which(self.tesseract_cmd) or os.path.exists(self.tesseract_cmd))
+
     def is_available(self) -> bool:
-        """Verifica si PyMuPDF y el binario de Tesseract están disponibles."""
-        return pymupdf is not None and bool(shutil.which(self.tesseract_cmd) or os.path.exists(self.tesseract_cmd))
+        """Verifica si PyMuPDF y al menos un motor de OCR están disponibles."""
+        if pymupdf is None:
+            return False
+        return self.is_rapidocr_available() or self.is_paddleocr_available() or self.is_tesseract_available()
+
+    def get_available_engines(self) -> List[str]:
+        """Retorna la lista de motores de extracción y OCR actualmente utilizables."""
+        engines = ["native"]
+        if self.is_rapidocr_available():
+            engines.append("rapidocr")
+        if self.is_paddleocr_available():
+            engines.append("paddleocr")
+        if self.is_tesseract_available():
+            engines.append("tesseract")
+        return engines
+
+    def _resolve_engine(self, requested: str) -> str:
+        """Resuelve el motor de OCR a utilizar según disponibilidad."""
+        req = (requested or self.default_engine or "auto").lower().strip()
+        if req == "rapidocr":
+            return "rapidocr" if self.is_rapidocr_available() else "tesseract"
+        if req == "paddleocr":
+            return "paddleocr" if self.is_paddleocr_available() else "tesseract"
+        if req == "tesseract":
+            return "tesseract"
+        # Modo 'auto': Prefiere RapidOCR (PaddleOCR ONNX) por precisión en expedientes judiciales, luego PaddleOCR, luego Tesseract
+        if self.is_rapidocr_available():
+            return "rapidocr"
+        if self.is_paddleocr_available():
+            return "paddleocr"
+        return "tesseract"
+
+    def _run_rapidocr(self, img_path: str) -> str:
+        """Ejecuta RapidOCR (modelos PaddleOCR v4 en ONNX)."""
+        if self._rapidocr_instance is None:
+            from rapidocr_onnxruntime import RapidOCR
+            self._rapidocr_instance = RapidOCR()
+        result, _ = self._rapidocr_instance(img_path)
+        if not result:
+            return ""
+        lines = [item[1] for item in result if len(item) > 1 and item[1]]
+        return "\n".join(lines).strip()
+
+    def _run_paddleocr(self, img_path: str, lang: str = "es") -> str:
+        """Ejecuta PaddleOCR oficial."""
+        if self._paddleocr_instance is None:
+            from paddleocr import PaddleOCR
+            p_lang = "es" if lang in ("spa", "es", "spanish") else "en"
+            self._paddleocr_instance = PaddleOCR(use_angle_cls=True, lang=p_lang, show_log=False)
+        result = self._paddleocr_instance.ocr(img_path, cls=True)
+        if not result or not result[0]:
+            return ""
+        lines = [line[1][0] for line in result[0] if len(line) > 1 and line[1]]
+        return "\n".join(lines).strip()
+
+    def _run_tesseract(self, img_path: str, lang: str = "eng") -> str:
+        """Ejecuta Tesseract OCR mediante subproceso CLI."""
+        chosen_lang = self._select_valid_lang(lang)
+        res = subprocess.run(
+            [self.tesseract_cmd, img_path, "stdout", "-l", chosen_lang, "--oem", "1"],
+            capture_output=True,
+            text=True,
+            timeout=45
+        )
+        if res.returncode == 0:
+            return res.stdout.strip()
+        err_msg = res.stderr.strip() or f"Código {res.returncode}"
+        return f"[Aviso OCR Tesseract: {err_msg}]"
 
     def get_available_languages(self) -> List[str]:
         """Obtiene la lista de modelos de lenguaje instalados en Tesseract."""
@@ -95,12 +189,13 @@ class ForensicOCREngine:
         end_page: Optional[int] = None,
         force_ocr: bool = False,
         dpi: int = 150,
-        lang: str = "eng"
+        lang: str = "eng",
+        engine: str = "auto"
     ) -> Dict[str, Any]:
         """
         Extrae texto de un archivo PDF página por página.
-        Si la página contiene texto seleccionable (>80 caracteres), lo extrae directamente.
-        Si la página es un escaneo de imagen o force_ocr=True, ejecuta OCR de alta precisión.
+        Si la página contiene texto seleccionable (>80 caracteres) y force_ocr=False, lo extrae directamente.
+        Si la página es un escaneo de imagen o force_ocr=True, ejecuta OCR de alta precisión (RapidOCR/PaddleOCR/Tesseract).
         """
         if not pdf_path:
             return {"error": "Ruta de archivo PDF no proporcionada."}
@@ -145,6 +240,7 @@ class ForensicOCREngine:
                 }
 
             chosen_lang = self._select_valid_lang(lang)
+            resolved_engine = self._resolve_engine(engine)
 
             pages_data = []
             full_text_list = []
@@ -160,13 +256,15 @@ class ForensicOCREngine:
                     native_text = ""
 
                 if len(native_text) > 80 and not force_ocr:
-                    # Texto seleccionable
+                    # Texto digital seleccionable nativo
                     method = "native"
+                    page_engine = "native"
                     text = native_text
                     native_pages_count += 1
                 else:
-                    # Aplicar OCR mediante PyMuPDF rendering + Tesseract
+                    # Aplicar OCR mediante renderizado PyMuPDF + Motor seleccionado
                     method = "ocr"
+                    page_engine = resolved_engine
                     ocr_pages_count += 1
                     tmp_file_path = None
                     try:
@@ -175,17 +273,12 @@ class ForensicOCREngine:
                             tmp_file_path = tmp.name
                         pix.save(tmp_file_path)
 
-                        res = subprocess.run(
-                            [self.tesseract_cmd, tmp_file_path, "stdout", "-l", chosen_lang, "--oem", "1"],
-                            capture_output=True,
-                            text=True,
-                            timeout=45
-                        )
-                        if res.returncode == 0:
-                            text = res.stdout.strip()
+                        if resolved_engine == "rapidocr":
+                            text = self._run_rapidocr(tmp_file_path)
+                        elif resolved_engine == "paddleocr":
+                            text = self._run_paddleocr(tmp_file_path, lang=chosen_lang)
                         else:
-                            err_msg = res.stderr.strip() or f"Código {res.returncode}"
-                            text = f"[Aviso OCR página {page_num}: {err_msg}]"
+                            text = self._run_tesseract(tmp_file_path, lang=chosen_lang)
                     except subprocess.TimeoutExpired:
                         text = f"[Error OCR página {page_num}: Timeout tras 45s]"
                     except Exception as e:
@@ -200,11 +293,13 @@ class ForensicOCREngine:
                 page_entry = {
                     "page": page_num,
                     "method": method,
+                    "engine": page_engine,
                     "length": len(text),
                     "text": text
                 }
                 pages_data.append(page_entry)
-                full_text_list.append(f"=== PÁGINA {page_num} [{method.upper()}] ===\n{text}")
+                header_info = f"=== PÁGINA {page_num} [{method.upper()} · {page_engine.upper()}] ==="
+                full_text_list.append(f"{header_info}\n{text}")
 
             return {
                 "file": path.name,
@@ -212,6 +307,8 @@ class ForensicOCREngine:
                 "processed_pages": len(pages_data),
                 "native_pages": native_pages_count,
                 "ocr_pages": ocr_pages_count,
+                "ocr_engine_used": resolved_engine if ocr_pages_count > 0 else "native",
+                "available_engines": self.get_available_engines(),
                 "ocr_language": chosen_lang,
                 "pages": pages_data,
                 "full_text": "\n\n".join(full_text_list)
@@ -223,8 +320,11 @@ class ForensicOCREngine:
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         engine = ForensicOCREngine()
+        print(f"Motores disponibles: {engine.get_available_engines()}")
         res = engine.extract_from_pdf(sys.argv[1], start_page=1, end_page=int(sys.argv[2]) if len(sys.argv) > 2 else 3)
-        print(f"Procesado: {res.get('file')} ({res.get('processed_pages')} págs)")
+        print(f"Procesado: {res.get('file')} ({res.get('processed_pages')} págs) - Motor: {res.get('ocr_engine_used')}")
         print(str(res.get("full_text") or "")[:1000])
     else:
         print("Uso: python forensic_ocr.py <archivo.pdf> [paginas_max]")
+        engine = ForensicOCREngine()
+        print(f"Motores disponibles detectados: {engine.get_available_engines()}")

@@ -115,6 +115,38 @@ def test_mcp_ocr_tool(sample_native_pdf):
     assert res.get("total_pages_in_pdf") == 1
 
 
+def test_ocr_engine_available_engines_and_instructions():
+    """Verifica detección de motores de OCR e instrucciones multiplataforma."""
+    engine = ForensicOCREngine()
+    engines = engine.get_available_engines()
+    assert "native" in engines
+    instructions = engine.get_install_instructions()
+    assert "windows_winget" in instructions
+    assert "rapidocr_python" in instructions
+
+
+def test_ocr_engine_rapidocr_selection(sample_native_pdf):
+    """Verifica ejecución de OCR seleccionando explícitamente motor 'rapidocr' o 'auto'."""
+    engine = ForensicOCREngine()
+    res = engine.extract_from_pdf(sample_native_pdf, start_page=1, end_page=1, force_ocr=True, engine="rapidocr")
+    assert "error" not in res
+    assert res.get("ocr_pages") == 1
+    assert res.get("ocr_engine_used") in ("rapidocr", "tesseract")
+    assert "available_engines" in res
+
+
+def test_mcp_ocr_tool_with_engine(sample_native_pdf):
+    """Verifica llamada a ocr_extract_pdf con parámetro engine a través de MCP."""
+    res = handle_tool_call("ocr_extract_pdf", {
+        "pdf_path": sample_native_pdf,
+        "start_page": 1,
+        "end_page": 1,
+        "engine": "auto"
+    })
+    assert isinstance(res, dict)
+    assert "error" not in res
+
+
 # ==============================================================================
 # 2. PRUEBAS: LEGAL DOSSIER COMPILER
 # ==============================================================================
