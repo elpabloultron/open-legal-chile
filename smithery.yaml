@@ -1,7 +1,7 @@
 # Smithery configuration for Open Legal Chile Suite MCP Server
 # Registry: https://smithery.ai
 name: openlegal-chile
-description: Suite Integral de Inteligencia y Práctica Jurídica para Chile (Civil Law) con 51 herramientas MCP oficiales.
+description: Suite Integral de Inteligencia y Práctica Jurídica para Chile (Civil Law) con 55 herramientas MCP oficiales.
 startCommand:
   type: stdio
   config:
