@@ -31,6 +31,9 @@ FILES = {
     "mcp_server.py": [
         r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"'
     ],
+    "server.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"'
+    ],
 }
 
 VERSION_RE = re.compile(r"^[0-9]+\.[0-9]+\.[0-9]+$")
