@@ -131,13 +131,14 @@ claude mcp add open-legal-chile python3 -m openlegal mcp
    cursor open-legal-chile
    ```
 2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 51 herramientas de inmediato.
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 55 herramientas de inmediato.
 
 ### Opción C: Instalación Global vía Smithery.ai (1-Comando)
+Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
+
 ```bash
-npx -y @smithery/cli install openlegal-chile --client claude
-# o para cursor:
-npx -y @smithery/cli install openlegal-chile --client cursor
+# Conectar servidor en clientes compatibles (Claude, Cursor, etc.):
+npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
 ```
 
 ### Opción D: Instalación vía PyPI (Producción)

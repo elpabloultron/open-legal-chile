@@ -72,16 +72,12 @@ Contenido del archivo de configuración (`.vscode/mcp.json`):
 
 ### 4. 🌐 Registro Global Smithery.ai (1-Comando Universal)
 
-Gracias a la configuración `smithery.yaml`, puedes instalar Open Legal Chile en cualquier cliente soportado con un único comando:
+Ficha pública en el registro: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
 
-#### Para Claude Desktop / Claude Code:
-```bash
-npx -y @smithery/cli install openlegal-chile --client claude
-```
+Puedes conectar Open Legal Chile en cualquier cliente soportado con un único comando:
 
-#### Para Cursor:
 ```bash
-npx -y @smithery/cli install openlegal-chile --client cursor
+npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
 ```
 
 ---
