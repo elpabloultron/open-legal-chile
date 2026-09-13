@@ -495,7 +495,7 @@ def menu_interactivo():
                         print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Grado: {it['grado_conexiones']}")
 
                 elif sub_opc == "6":
-                    print(f"\n📊 Estadísticas de LegalGraphify:")
+                    print("\n📊 Estadísticas de LegalGraphify:")
                     print(f"  • Nodos Totales:  {engine.graph.number_of_nodes()}")
                     print(f"  • Aristas Totales: {engine.graph.number_of_edges()}")
 
