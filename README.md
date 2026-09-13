@@ -18,6 +18,8 @@
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
+<!-- mcp-name: io.github.elpabloultron/open-legal-chile -->
+
 ---
 
 ## 📑 Tabla de Contenidos
