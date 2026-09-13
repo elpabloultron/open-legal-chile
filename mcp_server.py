@@ -1120,6 +1120,10 @@ def main():
             method = req.get("method")
             params = req.get("params", {})
 
+            if req_id is None:
+                # Las notificaciones (como notifications/initialized) no deben recibir respuesta
+                continue
+
             if method == "initialize":
                 resp = {
                     "jsonrpc": "2.0",
@@ -1131,7 +1135,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.5.0"
+                            "version": "1.5.1"
                         }
                     }
                 }
@@ -1161,11 +1165,20 @@ def main():
                         "isError": is_error
                     }
                 }
-            else:
+            elif method == "ping":
                 resp = {
                     "jsonrpc": "2.0",
                     "id": req_id,
                     "result": {}
+                }
+            else:
+                resp = {
+                    "jsonrpc": "2.0",
+                    "id": req_id,
+                    "error": {
+                        "code": -32601,
+                        "message": f"Método no encontrado: {method}"
+                    }
                 }
 
             sys.stdout.write(json.dumps(resp, ensure_ascii=False) + "\n")
