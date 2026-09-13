@@ -413,31 +413,94 @@ def menu_interactivo():
                 print("Error:", e)
 
         elif opc == "17":
-            print("\n--- 🧠 LEGALGRAPHIFY: SUBGRAFO DE CONOCIMIENTO (AHORRO DE TOKENS) ---")
-            q = input("Ingresa institución o concepto jurídico (ej. 'simulacion', 'imprevision', 'nulidad', 'tutela'): ").strip()
-            if q:
-                try:
-                    from legal_graphify import LegalGraphifyEngine
-                    engine = LegalGraphifyEngine()
-                    ahorro = engine.calcular_ahorro_tokens(q)
-                    if not ahorro.get("encontrado", True):
-                        print(f"⚠️ {ahorro.get('mensaje')}")
-                    else:
-                        m = ahorro["metricas"]
-                        print("\n🧠 SUBGRAFO JURÍDICO HIPER-DENSO:")
-                        print("═"*65)
-                        print(ahorro["ficha_optimizada"])
-                        print("═"*65)
-                        print("⚡ OPTIMIZACIÓN DE TOKENS:")
-                        print(f"  • Tokens Texto Completo: ~{m['tokens_texto_completo']}")
-                        print(f"  • Tokens Subgrafo:       ~{m['tokens_subgrafo']}")
-                        print(f"  • 🚀 Reducción de Tokens: {m['porcentaje_ahorro']}% ({m['factor_reduccion']})")
+            print("\n--- 🧠 LEGALGRAPHIFY: MOTOR DE GRAFOS DE CONOCIMIENTO JURÍDICO ---")
+            print(" [1] ⚡ Consulta de Subgrafo Sintético (Ahorro de Tokens 85%-95%)")
+            print(" [2] 🛤️  Trazado de Caminos Relacionales Dogmáticos (Path)")
+            print(" [3] 🏛️  Explicación Dogmática Integral 360° (Explain)")
+            print(" [4] 💥 Análisis de Impacto Normativo / Blast Radius (Affected)")
+            print(" [5] 👑 Pilares Estructurales del Derecho (God Nodes / PageRank)")
+            print(" [6] 📊 Estadísticas Topológicas Globales")
+            sub_opc = input("\nSelecciona una opción [1-6] (por defecto 1): ").strip() or "1"
+            
+            try:
+                from legal_graphify import LegalGraphifyEngine
+                engine = LegalGraphifyEngine()
 
-                        ver_m = input("\n¿Deseas generar el diagrama Mermaid del subgrafo? (s/n): ").strip().lower()
-                        if ver_m == "s":
-                            print("\n" + engine.exportar_subgrafo_mermaid(q))
-                except Exception as e:
-                    print("Error:", e)
+                if sub_opc == "1":
+                    q = input("Ingresa institución o concepto (ej. 'simulacion', 'imprevision', 'tutela'): ").strip()
+                    if q:
+                        ahorro = engine.calcular_ahorro_tokens(q)
+                        if not ahorro.get("encontrado", True):
+                            print(f"⚠️ {ahorro.get('mensaje')}")
+                        else:
+                            m = ahorro["metricas"]
+                            print("\n🧠 SUBGRAFO JURÍDICO HIPER-DENSO:")
+                            print("═"*65)
+                            print(ahorro["ficha_optimizada"])
+                            print("═"*65)
+                            print("⚡ OPTIMIZACIÓN DE TOKENS:")
+                            print(f"  • Tokens Texto Completo: ~{m['tokens_texto_completo']}")
+                            print(f"  • Tokens Subgrafo:       ~{m['tokens_subgrafo']}")
+                            print(f"  • 🚀 Reducción de Tokens: {m['porcentaje_ahorro']}% ({m['factor_reduccion']})")
+                            ver_m = input("\n¿Deseas generar el diagrama Mermaid del subgrafo? (s/n): ").strip().lower()
+                            if ver_m == "s":
+                                print("\n" + engine.exportar_subgrafo_mermaid(q))
+
+                elif sub_opc == "2":
+                    orig = input("Concepto o norma de ORIGEN (ej. 'simulacion'): ").strip()
+                    dest = input("Concepto o norma de DESTINO (ej. 'nulidad'): ").strip()
+                    if orig and dest:
+                        res = engine.encontrar_camino(orig, dest)
+                        if not res.get("encontrado"):
+                            print(f"⚠️ {res.get('mensaje')}")
+                        else:
+                            print(f"\n🛤️ CAMINOS RELACIONALES: '{res['origen']}' ➔ '{res['destino']}'")
+                            print("═"*65)
+                            for idx, c in enumerate(res["caminos"], 1):
+                                print(f"Ruta {idx} ({c['longitud_saltos']} saltos):\n  {c['trazado']}\n")
+
+                elif sub_opc == "3":
+                    q = input("Institución a explicar en 360° (ej. 'simulacion', 'fuerza mayor'): ").strip()
+                    if q:
+                        exp = engine.explicar_institucion(q)
+                        if not exp.get("encontrado"):
+                            print(f"⚠️ {exp.get('mensaje')}")
+                        else:
+                            print("\n" + exp["explicacion_markdown"])
+
+                elif sub_opc == "4":
+                    norma = input("Norma o institución a reformar / evaluar impacto (ej. 'Art. 2515 CC'): ").strip()
+                    if norma:
+                        impact = engine.analizar_impacto_normativo(norma)
+                        if not impact.get("encontrado"):
+                            print(f"⚠️ {impact.get('mensaje')}")
+                        else:
+                            print(f"\n💥 BLAST RADIUS: {impact['objetivo']} (Riesgo: {impact['nivel_riesgo_impacto']})")
+                            print(f"  • Afectados Directos (G1): {impact['metricas_impacto']['afectados_directos_grado_1']}")
+                            print(f"  • Afectados Cascada (G2):  {impact['metricas_impacto']['afectados_cascada_grado_2']}")
+                            print(f"\nDictamen:\n  {impact['dictamen_sintetico']}\n")
+                            for item in impact["impacto_directo"]:
+                                print(f"  • [{item['tipo']}] {item['label']}")
+
+                elif sub_opc == "5":
+                    top_n = int(input("¿Cuántos nodos deseas visualizar? (por defecto 10): ").strip() or "10")
+                    gn = engine.calcular_god_nodes(top_n=top_n)
+                    print(f"\n🏛️ PILARES ESTRUCTURALES (PageRank Top {top_n}):")
+                    print("═"*65)
+                    print("Instituciones Dogmáticas Rectoras:")
+                    for idx, it in enumerate(gn["god_instituciones"], 1):
+                        print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Grado: {it['grado_conexiones']}")
+                    print("\nNormas Positivas Centrales (BCN):")
+                    for idx, it in enumerate(gn["god_normas"], 1):
+                        print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Grado: {it['grado_conexiones']}")
+
+                elif sub_opc == "6":
+                    print(f"\n📊 Estadísticas de LegalGraphify:")
+                    print(f"  • Nodos Totales:  {engine.graph.number_of_nodes()}")
+                    print(f"  • Aristas Totales: {engine.graph.number_of_edges()}")
+
+            except Exception as e:
+                print(f"Error en LegalGraphify: {e}")
 
         input("\n[Presiona Enter para volver al menú principal...]")
 
@@ -894,22 +957,90 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
     elif args.comando == "graph":
         from legal_graphify import LegalGraphifyEngine
         print_banner()
-        q = " ".join(args.query) if args.query else "simulacion"
         engine = LegalGraphifyEngine()
-        ahorro = engine.calcular_ahorro_tokens(q)
-        if not ahorro.get("encontrado", True):
-            print(f"⚠️ {ahorro.get('mensaje')}")
+        tokens = args.query if args.query else []
+
+        if tokens and tokens[0] == "path":
+            if len(tokens) < 3:
+                print("⚠️ Uso: openlegal graph path <origen> <destino>")
+            else:
+                orig, dest = tokens[1], tokens[2]
+                res = engine.encontrar_camino(orig, dest)
+                if not res.get("encontrado"):
+                    print(f"⚠️ {res.get('mensaje')}")
+                else:
+                    print(f"🛤️ CAMINOS RELACIONALES: '{res['origen']}' ➔ '{res['destino']}'")
+                    print("═"*65)
+                    for idx, c in enumerate(res["caminos"], 1):
+                        print(f"Ruta {idx} ({c['longitud_saltos']} saltos):\n  {c['trazado']}\n")
+
+        elif tokens and tokens[0] == "explain":
+            q_exp = " ".join(tokens[1:]) if len(tokens) > 1 else "simulacion"
+            exp = engine.explicar_institucion(q_exp)
+            if not exp.get("encontrado"):
+                print(f"⚠️ {exp.get('mensaje')}")
+            else:
+                print(exp["explicacion_markdown"] + "\n")
+
+        elif tokens and tokens[0] == "affected":
+            norma = " ".join(tokens[1:]) if len(tokens) > 1 else "Art. 2515 CC"
+            impact = engine.analizar_impacto_normativo(norma)
+            if not impact.get("encontrado"):
+                print(f"⚠️ {impact.get('mensaje')}")
+            else:
+                print(f"💥 ANÁLISIS DE IMPACTO (Blast Radius): {impact['objetivo']}")
+                print("═"*65)
+                print(f"Riesgo de Impacto:       {impact['nivel_riesgo_impacto']}")
+                print(f"Afectados Directos (G1): {impact['metricas_impacto']['afectados_directos_grado_1']}")
+                print(f"Afectados Cascada (G2):  {impact['metricas_impacto']['afectados_cascada_grado_2']}")
+                print(f"Total Nodos en Riesgo:   {impact['metricas_impacto']['total_entidades_impactadas']}")
+                print(f"\nDictamen:\n  {impact['dictamen_sintetico']}\n")
+                print("Entidades Afectadas Directamente:")
+                for it in impact["impacto_directo"]:
+                    print(f"  • [{it['tipo']}] {it['label']}")
+                print()
+
+        elif tokens and tokens[0] in ("god-nodes", "godnodes"):
+            top = 10
+            if len(tokens) > 1 and tokens[1].isdigit():
+                top = int(tokens[1])
+            gn = engine.calcular_god_nodes(top_n=top)
+            print(f"🏛️ PILARES ESTRUCTURALES DEL DERECHO (God Nodes - PageRank Top {top}):")
+            print("═"*65)
+            print("Instituciones Dogmáticas Rectoras:")
+            for idx, it in enumerate(gn["god_instituciones"], 1):
+                print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Conexiones: {it['grado_conexiones']}")
+            print("\nNormas Positivas Centrales (BCN):")
+            for idx, it in enumerate(gn["god_normas"], 1):
+                print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Conexiones: {it['grado_conexiones']}")
+            print()
+
+        elif tokens and tokens[0] == "stats":
+            print("📊 ESTADÍSTICAS TOPOLÓGICAS DE LEGALGRAPHIFY:")
+            print("═"*65)
+            print(f"  • Nodos Totales:   {engine.graph.number_of_nodes()}")
+            print(f"  • Aristas Totales: {engine.graph.number_of_edges()}\n")
+
+        elif tokens and tokens[0] == "mermaid":
+            q_m = " ".join(tokens[1:]) if len(tokens) > 1 else "simulacion"
+            print(engine.exportar_subgrafo_mermaid(q_m) + "\n")
+
         else:
-            m = ahorro["metricas"]
-            print(f"🧠 SUBGRAFO JURÍDICO HIPER-DENSO (LegalGraphify): '{q}'")
-            print("═"*65)
-            print(ahorro["ficha_optimizada"])
-            print("═"*65)
-            print("⚡ MÉTRICAS DE OPTIMIZACIÓN DE CONTEXTO:")
-            print(f"  • Tokens Texto Completo (Capítulo crudo): ~{m['tokens_texto_completo']} tokens")
-            print(f"  • Tokens Subgrafo Sintético:             ~{m['tokens_subgrafo']} tokens")
-            print(f"  • Tokens Ahorrados:                      ~{m['tokens_ahorrados']} tokens")
-            print(f"  • 🚀 Reducción de Tokens:                {m['porcentaje_ahorro']}% ({m['factor_reduccion']})\n")
+            q = " ".join(tokens) if tokens else "simulacion"
+            ahorro = engine.calcular_ahorro_tokens(q)
+            if not ahorro.get("encontrado", True):
+                print(f"⚠️ {ahorro.get('mensaje')}")
+            else:
+                m = ahorro["metricas"]
+                print(f"🧠 SUBGRAFO JURÍDICO HIPER-DENSO (LegalGraphify): '{q}'")
+                print("═"*65)
+                print(ahorro["ficha_optimizada"])
+                print("═"*65)
+                print("⚡ MÉTRICAS DE OPTIMIZACIÓN DE CONTEXTO:")
+                print(f"  • Tokens Texto Completo (Capítulo crudo): ~{m['tokens_texto_completo']} tokens")
+                print(f"  • Tokens Subgrafo Sintético:             ~{m['tokens_subgrafo']} tokens")
+                print(f"  • Tokens Ahorrados:                      ~{m['tokens_ahorrados']} tokens")
+                print(f"  • 🚀 Reducción de Tokens:                {m['porcentaje_ahorro']}% ({m['factor_reduccion']})\n")
 
     else:
         menu_interactivo()
