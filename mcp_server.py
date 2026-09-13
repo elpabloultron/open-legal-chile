@@ -745,6 +745,51 @@ TOOLS = [
             },
             "required": ["query"]
         }
+    },
+    {
+        "name": "graphify_trazar_camino",
+        "description": "Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "origen": {"type": "string", "description": "Concepto o norma jurídica de inicio (ej. 'simulacion', 'incumplimiento')"},
+                "destino": {"type": "string", "description": "Concepto o norma jurídica de fin (ej. 'nulidad', 'indemnizacion')"},
+                "max_caminos": {"type": "integer", "description": "Número máximo de rutas mínimas a retornar (por defecto 3)", "default": 3}
+            },
+            "required": ["origen", "destino"]
+        }
+    },
+    {
+        "name": "graphify_explicar_institucion",
+        "description": "Genera una explicación dogmática 360° de una institución jurídica en LegalGraphify: definición, sustento positivo BCN, criterios de la Corte Suprema, operativas procesales y grado topológico.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Institución dogmática, concepto o materia a explicar (ej. 'simulacion', 'imprevision', 'nulidad')"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "graphify_analizar_impacto",
+        "description": "Calcula el radio de afectación topológico (Blast Radius) cuando una norma legal o institución jurídica sufre una reforma legal o giro jurisprudencial, identificando entidades afectadas en grado 1 (directo) y grado 2 (cascada).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "objetivo": {"type": "string", "description": "Norma legal o institución a evaluar ante reformas (ej. 'Art. 2515 CC', 'Art. 1545 CC', 'Buena Fe')"}
+            },
+            "required": ["objetivo"]
+        }
+    },
+    {
+        "name": "graphify_god_nodes",
+        "description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "top_n": {"type": "integer", "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)", "default": 10}
+            }
+        }
     }
 ]
 
@@ -1101,6 +1146,26 @@ def handle_tool_call(name: str, args: dict) -> Any:
             if incluir_mermaid and res.get("encontrado"):
                 res["diagrama_mermaid"] = legal_graphify_engine.exportar_subgrafo_mermaid(q, max_hops=hops)
             return res
+        elif name == "graphify_trazar_camino":
+            orig = args.get("origen")
+            dest = args.get("destino")
+            if not orig or not dest:
+                return {"error": "Se requieren 'origen' y 'destino' para trazar el camino relacional."}
+            max_c = int(args.get("max_caminos", 3))
+            return legal_graphify_engine.encontrar_camino(orig, dest, max_caminos=max_c)
+        elif name == "graphify_explicar_institucion":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            return legal_graphify_engine.explicar_institucion(q)
+        elif name == "graphify_analizar_impacto":
+            obj = args.get("objetivo")
+            if not obj:
+                return {"error": "El parámetro 'objetivo' es obligatorio (norma o institución)."}
+            return legal_graphify_engine.analizar_impacto_normativo(obj)
+        elif name == "graphify_god_nodes":
+            top = int(args.get("top_n", 10))
+            return legal_graphify_engine.calcular_god_nodes(top_n=top)
         else:
             return {"error": f"Herramienta '{name}' no encontrada."}
     except Exception as e:

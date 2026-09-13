@@ -576,6 +576,275 @@ class LegalGraphifyEngine:
         lines.append("```")
         return "\n".join(lines)
 
+    def encontrar_camino(self, origen: str, destino: str, max_caminos: int = 3) -> Dict[str, Any]:
+        """
+        Calcula y traza los caminos relacionales mínimos entre dos conceptos, instituciones o normas.
+        Permite a LLMs y abogados deducir cadenas de subsunción y argumentación dogmática.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        nodo_a = self._buscar_nodo_relevante(origen)
+        nodo_b = self._buscar_nodo_relevante(destino)
+
+        if not nodo_a or not self.graph.has_node(nodo_a):
+            return {
+                "encontrado": False,
+                "mensaje": f"No se encontró el nodo de origen '{origen}'.",
+                "sugerencias": list(self.instituciones_index.keys())[:5]
+            }
+        if not nodo_b or not self.graph.has_node(nodo_b):
+            return {
+                "encontrado": False,
+                "mensaje": f"No se encontró el nodo de destino '{destino}'.",
+                "sugerencias": list(self.instituciones_index.keys())[:5]
+            }
+
+        undirected = self.graph.to_undirected()
+
+        if not nx.has_path(undirected, nodo_a, nodo_b):
+            return {
+                "encontrado": False,
+                "origen": self.graph.nodes[nodo_a].get("label", nodo_a),
+                "destino": self.graph.nodes[nodo_b].get("label", nodo_b),
+                "mensaje": f"No existe un camino relacional conexo entre '{origen}' y '{destino}'."
+            }
+
+        all_paths = []
+        try:
+            generator = nx.all_shortest_paths(undirected, source=nodo_a, target=nodo_b)
+            for i, p in enumerate(generator):
+                if i >= max_caminos:
+                    break
+                all_paths.append(p)
+        except Exception:
+            try:
+                p = nx.shortest_path(undirected, source=nodo_a, target=nodo_b)
+                all_paths.append(p)
+            except Exception as e:
+                return {"encontrado": False, "error": str(e)}
+
+        caminos_formateados = []
+        for path in all_paths:
+            cadena_pasos = []
+            for idx in range(len(path)):
+                curr_node = path[idx]
+                curr_data = self.graph.nodes[curr_node]
+                curr_lbl = curr_data.get("label", curr_node)
+                curr_type = curr_data.get("node_type", "nodo")
+
+                if idx < len(path) - 1:
+                    next_node = path[idx + 1]
+                    rel_name = "conecta_con"
+                    if self.graph.has_edge(curr_node, next_node):
+                        rel_name = self.graph[curr_node][next_node].get("relation", "conecta_con")
+                    elif self.graph.has_edge(next_node, curr_node):
+                        rel_name = f"es_{self.graph[next_node][curr_node].get('relation', 'afectado_por')}_de"
+                    cadena_pasos.append(f"[{curr_type}] {curr_lbl} ➔ --({rel_name})-->")
+                else:
+                    cadena_pasos.append(f"[{curr_type}] {curr_lbl}")
+
+            caminos_formateados.append({
+                "longitud_saltos": len(path) - 1,
+                "nodos": [self.graph.nodes[n].get("label", n) for n in path],
+                "trazado": " ".join(cadena_pasos)
+            })
+
+        return {
+            "encontrado": True,
+            "origen": self.graph.nodes[nodo_a].get("label", nodo_a),
+            "destino": self.graph.nodes[nodo_b].get("label", nodo_b),
+            "total_caminos_encontrados": len(caminos_formateados),
+            "caminos": caminos_formateados
+        }
+
+    def explicar_institucion(self, query: str) -> Dict[str, Any]:
+        """
+        Genera un desglose explicativo 360° de una institución o concepto jurídico:
+        antecedentes normativos, vías procesales, fallos de la Corte Suprema, autores y posición en el grafo.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        nodo = self._buscar_nodo_relevante(query)
+        if not nodo or not self.graph.has_node(nodo):
+            return {
+                "encontrado": False,
+                "mensaje": f"No se encontró el nodo '{query}'.",
+                "sugerencias": list(self.instituciones_index.keys())[:5]
+            }
+
+        data = self.graph.nodes[nodo]
+        in_edges = [(u, self.graph[u][nodo].get("relation", "")) for u in self.graph.predecessors(nodo)]
+        out_edges = [(v, self.graph[nodo][v].get("relation", "")) for v in self.graph.successors(nodo)]
+
+        normas = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "articulo_legal"]
+        fallos = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "jurisprudencia"]
+        vias = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "via_procesal"]
+        conceptos_relacionados = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "institucion"]
+
+        grado_in = self.graph.in_degree(nodo)
+        grado_out = self.graph.out_degree(nodo)
+
+        explicacion_texto = (
+            f"# Explicación Dogmática 360°: {data.get('label')}\n\n"
+            f"**Área:** {data.get('area', 'General')} | **Tratadista:** {data.get('autor', 'Doctrina')} | **Obra:** {data.get('obra', 'Tratado')}\n\n"
+            f"### Definición Canónica\n{data.get('definicion', 'No registrada')}\n\n"
+            f"### Operativa Procesal\n{data.get('operativa_procesal', 'Vía ordinaria declarativa')}\n\n"
+            f"### Sustento Positivo (Normas BCN)\n" + ("\n".join([f"- {n}" for n in normas]) if normas else "- Sin normas directas vinculadas") + "\n\n"
+            f"### Jurisprudencia Rectora (Corte Suprema)\n" + ("\n".join([f"- {f}" for f in fallos]) if fallos else "- Criterio general aplicado por tribunales ordinarios") + "\n\n"
+            f"### Vías de Acción Judicial\n" + ("\n".join([f"- {v}" for v in vias]) if vias else "- Acción civil ordinaria") + "\n\n"
+            f"### Nexos Conceptuales\n" + ("\n".join([f"- {c}" for c in conceptos_relacionados]) if conceptos_relacionados else "- Nodo conceptual terminal")
+        )
+
+        return {
+            "encontrado": True,
+            "nodo_id": nodo,
+            "label": data.get("label"),
+            "tipo": data.get("node_type"),
+            "comunidad": data.get("community"),
+            "estadisticas_conexiones": {
+                "grado_total": grado_in + grado_out,
+                "normas_positivas": len(normas),
+                "fallos_rector": len(fallos),
+                "vias_procesales": len(vias),
+                "conceptos_vecinos": len(conceptos_relacionados)
+            },
+            "explicacion_markdown": explicacion_texto
+        }
+
+    def analizar_impacto_normativo(self, objetivo: str) -> Dict[str, Any]:
+        """
+        Calcula el radio de afectación (Blast Radius) topológico cuando una norma legal,
+        artículo o institución dogmática sufre una reforma legal o giro jurisprudencial.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        nodo = self._buscar_nodo_relevante(objetivo)
+        if not nodo or not self.graph.has_node(nodo):
+            return {
+                "encontrado": False,
+                "mensaje": f"No se encontró el nodo objetivo '{objetivo}' para el análisis de impacto.",
+                "sugerencias": list(self.instituciones_index.keys())[:5]
+            }
+
+        target_data = self.graph.nodes[nodo]
+        target_label = target_data.get("label", nodo)
+
+        afectados_directos = set(self.graph.predecessors(nodo))
+        if not afectados_directos:
+            afectados_directos = set(self.graph.successors(nodo))
+
+        directos_info = []
+        for n in afectados_directos:
+            ndata = self.graph.nodes[n]
+            directos_info.append({
+                "id": n,
+                "label": ndata.get("label", n),
+                "tipo": ndata.get("node_type", "institucion"),
+                "obra": ndata.get("obra", "")
+            })
+
+        afectados_cascada = set()
+        for d in afectados_directos:
+            for succ in self.graph.successors(d):
+                if succ != nodo and succ not in afectados_directos:
+                    afectados_cascada.add(succ)
+
+        cascada_info = []
+        for n in afectados_cascada:
+            ndata = self.graph.nodes[n]
+            cascada_info.append({
+                "id": n,
+                "label": ndata.get("label", n),
+                "tipo": ndata.get("node_type", "institucion")
+            })
+
+        total_afectados = len(afectados_directos) + len(afectados_cascada)
+        nivel_impacto = "ALTO" if total_afectados >= 8 else ("MEDIO" if total_afectados >= 3 else "BAJO")
+
+        return {
+            "encontrado": True,
+            "objetivo": target_label,
+            "tipo_nodo": target_data.get("node_type"),
+            "nivel_riesgo_impacto": nivel_impacto,
+            "metricas_impacto": {
+                "afectados_directos_grado_1": len(directos_info),
+                "afectados_cascada_grado_2": len(cascada_info),
+                "total_entidades_impactadas": total_afectados
+            },
+            "impacto_directo": directos_info[:15],
+            "impacto_cascada": cascada_info[:15],
+            "dictamen_sintetico": (
+                f"Una reforma o variación en '{target_label}' genera un impacto {nivel_impacto}. "
+                f"Afecta directamente a {len(directos_info)} instituciones/obras y repercute en cascada sobre "
+                f"{len(cascada_info)} vías procesales y figuras jurídicas derivadas."
+            )
+        }
+
+    def calcular_god_nodes(self, top_n: int = 10) -> Dict[str, Any]:
+        """
+        Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico
+        mediante algoritmos de PageRank y centralidad de grado sobre el grafo dogmático.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        try:
+            pagerank_scores = nx.pagerank(self.graph, alpha=0.85, max_iter=100)
+        except Exception:
+            pagerank_scores = {n: self.graph.degree(n) for n in self.graph.nodes()}
+
+        degree_dict = dict(self.graph.degree())
+
+        nodos_ordenados = sorted(
+            pagerank_scores.items(),
+            key=lambda item: item[1],
+            reverse=True
+        )
+
+        instituciones_top = []
+        normas_top = []
+
+        for nid, score in nodos_ordenados:
+            ndata = self.graph.nodes[nid]
+            ntype = ndata.get("node_type")
+            lbl = ndata.get("label", nid)
+            deg = degree_dict.get(nid, 0)
+
+            entry = {
+                "id": nid,
+                "label": lbl,
+                "tipo": ntype,
+                "pagerank": round(score, 5),
+                "grado_conexiones": deg,
+                "comunidad": ndata.get("community", 0)
+            }
+
+            if ntype in ("institucion", "obra") and len(instituciones_top) < top_n:
+                instituciones_top.append(entry)
+            elif ntype == "articulo_legal" and len(normas_top) < top_n:
+                normas_top.append(entry)
+
+            if len(instituciones_top) >= top_n and len(normas_top) >= top_n:
+                break
+
+        return {
+            "total_nodos_analizados": self.graph.number_of_nodes(),
+            "total_aristas": self.graph.number_of_edges(),
+            "god_instituciones": instituciones_top,
+            "god_normas": normas_top,
+            "analisis": (
+                f"Se han identificado las {len(instituciones_top)} instituciones dogmáticas y {len(normas_top)} normas legales "
+                f"más influyentes topológicamente según PageRank (alpha=0.85)."
+            )
+        }
+
     def guardar_grafo_json(self, filepath: str = DEFAULT_GRAPH_PATH) -> str:
         """Serializa el grafo en formato Node-Link JSON estándar de NetworkX / Graphify."""
         if not self.is_built:
@@ -729,6 +998,11 @@ def main():
         description="🧠 Open Legal Chile — Motor LegalGraphify (Reducción de Tokens con Grafos)"
     )
     parser.add_argument("--query", "-q", type=str, help="Consulta jurídica para extraer subgrafo sintético")
+    parser.add_argument("--path", nargs=2, metavar=("ORIGEN", "DESTINO"), help="Trazar el camino relacional mínimo entre dos conceptos o normas")
+    parser.add_argument("--explain", type=str, help="Desglose explicativo 360° de una institución dogmática o norma")
+    parser.add_argument("--affected", type=str, help="Análisis de impacto (Blast Radius) ante reformas o cambios jurisprudenciales")
+    parser.add_argument("--god-nodes", action="store_true", help="Identifica los pilares dogmáticos (God Nodes) según PageRank")
+    parser.add_argument("--top", type=int, default=10, help="Número de nodos a retornar para God Nodes (por defecto 10)")
     parser.add_argument("--build", action="store_true", help="Construye y persiste el grafo completo en JSON")
     parser.add_argument("--stats", action="store_true", help="Muestra estadísticas estructurales del grafo")
     parser.add_argument("--mermaid", action="store_true", help="Imprime el diagrama de subgrafo en sintaxis Mermaid")
@@ -761,6 +1035,67 @@ def main():
         print(f"  • Nodos: {engine.graph.number_of_nodes()}")
         print(f"  • Aristas: {engine.graph.number_of_edges()}")
         print(f"  • Densidad: {round(nx.density(engine.graph), 4)}")
+
+    if args.path:
+        origen, destino = args.path
+        if not engine.is_built:
+            if not engine.cargar_grafo_json():
+                engine.construir_grafo_desde_doctrina()
+        res_camino = engine.encontrar_camino(origen, destino)
+        if not res_camino.get("encontrado"):
+            print(f"⚠️ {res_camino.get('mensaje')}")
+        else:
+            print(f"\n🛤️ CAMINO RELACIONAL JURÍDICO: '{res_camino['origen']}' ➔ '{res_camino['destino']}'")
+            print("═" * 70)
+            for idx, c in enumerate(res_camino["caminos"], 1):
+                print(f"Ruta {idx} ({c['longitud_saltos']} saltos):")
+                print(f"  {c['trazado']}\n")
+            print("═" * 70)
+
+    if args.explain:
+        if not engine.is_built:
+            if not engine.cargar_grafo_json():
+                engine.construir_grafo_desde_doctrina()
+        exp = engine.explicar_institucion(args.explain)
+        if not exp.get("encontrado"):
+            print(f"⚠️ {exp.get('mensaje')}")
+        else:
+            print(f"\n{exp['explicacion_markdown']}\n")
+
+    if args.affected:
+        if not engine.is_built:
+            if not engine.cargar_grafo_json():
+                engine.construir_grafo_desde_doctrina()
+        impact = engine.analizar_impacto_normativo(args.affected)
+        if not impact.get("encontrado"):
+            print(f"⚠️ {impact.get('mensaje')}")
+        else:
+            print(f"\n💥 ANÁLISIS DE IMPACTO NORMATIVO (Blast Radius): {impact['objetivo']}")
+            print("═" * 70)
+            print(f"Riesgo de Impacto:       {impact['nivel_riesgo_impacto']}")
+            print(f"Afectados Directos (G1): {impact['metricas_impacto']['afectados_directos_grado_1']}")
+            print(f"Afectados Cascada (G2):  {impact['metricas_impacto']['afectados_cascada_grado_2']}")
+            print(f"Total Nodos en Riesgo:   {impact['metricas_impacto']['total_entidades_impactadas']}")
+            print(f"\nDictamen:\n  {impact['dictamen_sintetico']}\n")
+            print("Entidades Afectadas Directamente:")
+            for item in impact["impacto_directo"]:
+                print(f"  • [{item['tipo']}] {item['label']} ({item.get('obra', '')})")
+            print("═" * 70)
+
+    if args.god_nodes:
+        if not engine.is_built:
+            if not engine.cargar_grafo_json():
+                engine.construir_grafo_desde_doctrina()
+        gn = engine.calcular_god_nodes(top_n=args.top)
+        print(f"\n🏛️ PILARES ESTRUCTURALES DEL DERECHO (God Nodes - PageRank Top {args.top}):")
+        print("═" * 70)
+        print("Instituciones Dogmáticas Rectoras:")
+        for idx, item in enumerate(gn["god_instituciones"], 1):
+            print(f"  {idx:2d}. {item['label']:<35} | PR: {item['pagerank']:.5f} | Conexiones: {item['grado_conexiones']}")
+        print("\nNormas Positivas Centrales (BCN):")
+        for idx, item in enumerate(gn["god_normas"], 1):
+            print(f"  {idx:2d}. {item['label']:<35} | PR: {item['pagerank']:.5f} | Conexiones: {item['grado_conexiones']}")
+        print("═" * 70)
 
     if args.query:
         if not engine.is_built:
