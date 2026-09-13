@@ -677,7 +677,6 @@ class LegalGraphifyEngine:
             }
 
         data = self.graph.nodes[nodo]
-        in_edges = [(u, self.graph[u][nodo].get("relation", "")) for u in self.graph.predecessors(nodo)]
         out_edges = [(v, self.graph[nodo][v].get("relation", "")) for v in self.graph.successors(nodo)]
 
         normas = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "articulo_legal"]
@@ -694,9 +693,9 @@ class LegalGraphifyEngine:
             f"### Definición Canónica\n{data.get('definicion', 'No registrada')}\n\n"
             f"### Operativa Procesal\n{data.get('operativa_procesal', 'Vía ordinaria declarativa')}\n\n"
             f"### Sustento Positivo (Normas BCN)\n" + ("\n".join([f"- {n}" for n in normas]) if normas else "- Sin normas directas vinculadas") + "\n\n"
-            f"### Jurisprudencia Rectora (Corte Suprema)\n" + ("\n".join([f"- {f}" for f in fallos]) if fallos else "- Criterio general aplicado por tribunales ordinarios") + "\n\n"
-            f"### Vías de Acción Judicial\n" + ("\n".join([f"- {v}" for v in vias]) if vias else "- Acción civil ordinaria") + "\n\n"
-            f"### Nexos Conceptuales\n" + ("\n".join([f"- {c}" for c in conceptos_relacionados]) if conceptos_relacionados else "- Nodo conceptual terminal")
+            "### Jurisprudencia Rectora (Corte Suprema)\n" + ("\n".join([f"- {f}" for f in fallos]) if fallos else "- Criterio general aplicado por tribunales ordinarios") + "\n\n"
+            "### Vías de Acción Judicial\n" + ("\n".join([f"- {v}" for v in vias]) if vias else "- Acción civil ordinaria") + "\n\n"
+            "### Nexos Conceptuales\n" + ("\n".join([f"- {c}" for c in conceptos_relacionados]) if conceptos_relacionados else "- Nodo conceptual terminal")
         )
 
         return {
@@ -808,8 +807,8 @@ class LegalGraphifyEngine:
             reverse=True
         )
 
-        instituciones_top = []
-        normas_top = []
+        instituciones_top: List[Dict[str, Any]] = []
+        normas_top: List[Dict[str, Any]] = []
 
         for nid, score in nodos_ordenados:
             ndata = self.graph.nodes[nid]
