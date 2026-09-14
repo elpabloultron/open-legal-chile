@@ -352,5 +352,11 @@
     "category": "Doctrina & Graphify",
     "description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas.",
     "full_description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas."
+  },
+  {
+    "name": "recurso_proteccion_generar",
+    "category": "Tribunales & PJUD",
+    "description": "Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado CS (Acta N.° 94-2015)..",
+    "full_description": "Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado de la Excma. Corte Suprema (Acta N.° 94-2015), computando el plazo fatal de 30 días corridos, presuma anti-colapso, garantías del Art. 19 CPR, estatutos especiales (Leyes 21.430, 21.545, 19.712, Arts. 175-176 CPP), Orden de No Innovar (ONI) copulativa y compilación PDF con marcadores nativos TOC."
   }
 ]
