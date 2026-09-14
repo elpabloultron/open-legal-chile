@@ -4,12 +4,16 @@ Módulo para redactar y exportar demandas, recursos de protección, finiquitos,
 contratos PPA y cartas de despido en formatos estándares para tribunales chilenos (Ley 20.886 OJV).
 """
 
+from __future__ import annotations
+
 import os
 import re
 import html
 import json
-from datetime import datetime
-from typing import Dict, Any, Optional
+from datetime import datetime, date
+from typing import Dict, Any, Optional, List, Union
+
+from recurso_proteccion import RecursoProteccionEngine
 
 EXPORTS_DIR = os.path.join(os.path.dirname(__file__), "exports")
 os.makedirs(EXPORTS_DIR, exist_ok=True)
@@ -19,7 +23,16 @@ class LegalDocumentExporter:
     """Genera documentos legales con formato forense chileno y los exporta a HTML/Markdown/Texto."""
 
     @staticmethod
-    def format_presuma(materia: str, procedimiento: str, demandante: str, rut_dte: str, abogado: str, rut_abg: str, demandado: str, rut_ddo: str) -> str:
+    def format_presuma(
+        materia: str,
+        procedimiento: str,
+        demandante: str,
+        rut_dte: str,
+        abogado: str,
+        rut_abg: str,
+        demandado: str,
+        rut_ddo: str
+    ) -> str:
         """Genera la presuma estándar obligatoria para la Oficina Judicial Virtual (OJV)."""
         return f"""
 PROCEDIMIENTO   : {procedimiento.upper()}
@@ -28,6 +41,39 @@ DEMANDANTE      : {demandante.upper()} (RUT: {rut_dte})
 ABOGADO PATROC. : {abogado.upper()} (RUT: {rut_abg})
 DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
 """.strip()
+
+    @staticmethod
+    def format_presuma_recurso_proteccion(
+        tribunal: str,
+        recurrente_nombre: str,
+        recurrente_run: str,
+        recurrente_domicilio: str,
+        recurrente_email: str,
+        recurrido_nombre: str,
+        recurrido_rut: Optional[str] = None,
+        recurrido_domicilio: Optional[str] = None,
+        recurrido_email: Optional[str] = None,
+        representante_legal: Optional[str] = None,
+        representado_nombre: Optional[str] = None,
+        representado_run: Optional[str] = None,
+        quinto_otrosi_titulo: Optional[str] = None
+    ) -> Dict[str, str]:
+        """Formatea la presuma y suma para Recursos de Protección conforme a la OJV."""
+        return RecursoProteccionEngine.format_presuma_recurso_proteccion(
+            tribunal=tribunal,
+            recurrente_nombre=recurrente_nombre,
+            recurrente_run=recurrente_run,
+            recurrente_domicilio=recurrente_domicilio,
+            recurrente_email=recurrente_email,
+            recurrido_nombre=recurrido_nombre,
+            recurrido_rut=recurrido_rut,
+            recurrido_domicilio=recurrido_domicilio,
+            recurrido_email=recurrido_email,
+            representante_legal=representante_legal,
+            representado_nombre=representado_nombre,
+            representado_run=representado_run,
+            quinto_otrosi_titulo=quinto_otrosi_titulo
+        )
 
     @classmethod
     def export_brief(
@@ -97,37 +143,49 @@ DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
     <title>{titulo_principal} — Open Legal Chile</title>
     <style>
         body {{
-            font-family: 'Times New Roman', Times, serif;
-            line-height: 1.8;
+            font-family: 'Times New Roman', 'Liberation Serif', Times, serif;
+            font-size: 12pt;
+            line-height: 1.35;
             color: #111;
-            max-width: 800px;
+            max-width: 820px;
             margin: 40px auto;
-            padding: 20px;
+            padding: 30px;
         }}
         .presuma {{
-            border: 1px solid #333;
-            padding: 12px;
-            font-family: monospace;
-            font-size: 13px;
+            border: 1.5px solid #4a5568;
+            padding: 14px 18px;
+            font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+            font-size: 9.5pt;
+            line-height: 1.45;
             margin-bottom: 24px;
             white-space: pre-wrap;
-            background: #FAFAFA;
+            background: #f8fafc;
+            color: #1a202c;
+            word-break: break-word;
         }}
         .tribunal {{
             font-weight: bold;
-            font-size: 16px;
+            font-size: 14pt;
+            text-align: center;
             margin-bottom: 20px;
         }}
         .en-lo-principal {{
             font-weight: bold;
             text-align: justify;
             margin-bottom: 20px;
+            font-size: 11pt;
         }}
         h3 {{
             border-bottom: 1px solid #ccc;
             padding-bottom: 4px;
-            font-size: 15px;
+            font-size: 13pt;
             text-transform: uppercase;
+            margin-top: 24px;
+        }}
+        h4 {{
+            font-size: 11pt;
+            margin-top: 14px;
+            margin-bottom: 6px;
         }}
         p {{
             text-align: justify;
@@ -135,18 +193,19 @@ DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
             margin-bottom: 14px;
         }}
         .otrosi {{
-            margin-top: 20px;
-            padding-top: 10px;
+            margin-top: 24px;
+            padding-top: 12px;
             border-top: 1px dashed #aaa;
         }}
         .gate-warning {{
             margin-top: 40px;
-            padding: 12px;
-            background: #FFFBEB;
-            border: 1px solid #F59E0B;
-            font-size: 12px;
-            font-family: sans-serif;
-            color: #92400E;
+            padding: 14px;
+            background: #fffbeb;
+            border: 1px solid #f59e0b;
+            font-size: 10pt;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #92400e;
+            border-radius: 6px;
         }}
     </style>
 </head>
@@ -242,4 +301,214 @@ POR TANTO,
             "textPath": txt_path,
             "jsonPath": json_path,
             "exportsDir": EXPORTS_DIR
+        }
+
+    @classmethod
+    def export_recurso_proteccion(
+        cls,
+        tribunal: str,
+        recurrente: Dict[str, Any],
+        recurrido: Dict[str, Any],
+        acto_lesivo: str,
+        fecha_acto: Union[str, date],
+        hechos: List[Union[str, Dict[str, str]]],
+        garantias: List[str],
+        estatutos_especiales: Optional[List[str]] = None,
+        oni_data: Optional[Dict[str, Any]] = None,
+        oficios: Optional[List[Dict[str, str]]] = None,
+        anexos: Optional[List[Dict[str, str]]] = None,
+        quinto_otrosi: Optional[Dict[str, str]] = None,
+        petitorio_concreto: Optional[str] = None,
+        fecha_interposicion: Optional[Union[str, date]] = None,
+        filename_base: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Genera y exporta un Recurso de Protección completo en formatos .html, .md, .txt y .json,
+        conforme a las directrices procesales y de presuma anti-colapso de la OJV.
+        """
+        brief = RecursoProteccionEngine.generate_full_brief(
+            tribunal=tribunal,
+            recurrente=recurrente,
+            recurrido=recurrido,
+            acto_lesivo=acto_lesivo,
+            fecha_acto=fecha_acto,
+            hechos=hechos,
+            garantias=garantias,
+            estatutos_especiales=estatutos_especiales,
+            oni_data=oni_data,
+            oficios=oficios,
+            anexos=anexos,
+            quinto_otrosi=quinto_otrosi,
+            petitorio_concreto=petitorio_concreto,
+            fecha_interposicion=fecha_interposicion
+        )
+
+        filename = filename_base or f"recurso_proteccion_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        md_path = os.path.join(EXPORTS_DIR, f"{filename}.md")
+        html_path = os.path.join(EXPORTS_DIR, f"{filename}.html")
+        txt_path = os.path.join(EXPORTS_DIR, f"{filename}.txt")
+        json_path = os.path.join(EXPORTS_DIR, f"{filename}.json")
+
+        # HTML estructurado con tipografía forense y presuma anti-colapso
+        otrosies_html_parts = []
+        for ot in brief["otrosies"]:
+            otrosies_html_parts.append(
+                f"<div class=\"otrosi\"><h4>{html.escape(ot['numero'])}: {html.escape(ot['titulo'])}</h4>"
+                f"<p>{html.escape(ot['contenido']).replace(chr(10), '<br/>')}</p></div>"
+            )
+
+        html_content = f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recurso de Protección — {html.escape(tribunal)}</title>
+    <style>
+        body {{
+            font-family: 'Times New Roman', 'Liberation Serif', Times, serif;
+            font-size: 12pt;
+            line-height: 1.35;
+            color: #111;
+            max-width: 820px;
+            margin: 40px auto;
+            padding: 30px;
+        }}
+        .presuma {{
+            border: 1.5px solid #4a5568;
+            padding: 14px 18px;
+            font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+            font-size: 9.5pt;
+            line-height: 1.45;
+            margin-bottom: 24px;
+            white-space: pre-wrap;
+            background: #f8fafc;
+            color: #1a202c;
+            word-break: break-word;
+        }}
+        .tribunal {{
+            font-weight: bold;
+            font-size: 14pt;
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 0.05em;
+        }}
+        .comparecencia {{
+            text-align: justify;
+            margin-bottom: 18px;
+            line-height: 1.45;
+        }}
+        .objeto {{
+            text-align: justify;
+            margin-bottom: 24px;
+            background: #fafafa;
+            padding: 12px 16px;
+            border-left: 3px solid #15803d;
+        }}
+        h2 {{
+            border-bottom: 1.5px solid #1a202c;
+            padding-bottom: 4px;
+            font-size: 13pt;
+            text-transform: uppercase;
+            margin-top: 28px;
+            letter-spacing: 0.04em;
+        }}
+        h3 {{
+            font-size: 11.5pt;
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }}
+        h4 {{
+            font-size: 11pt;
+            margin-top: 12px;
+            margin-bottom: 6px;
+            color: #1e293b;
+        }}
+        p {{
+            text-align: justify;
+            margin-bottom: 14px;
+        }}
+        .otrosi {{
+            margin-top: 24px;
+            padding-top: 14px;
+            border-top: 1px dashed #cbd5e1;
+        }}
+        .gate-warning {{
+            margin-top: 40px;
+            padding: 14px;
+            background: #fffbeb;
+            border: 1px solid #f59e0b;
+            font-size: 10pt;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #92400e;
+            border-radius: 6px;
+        }}
+    </style>
+</head>
+<body>
+    {brief['presuma_html']}
+
+    <div class="tribunal">{html.escape(tribunal.upper())}</div>
+
+    <div class="comparecencia">{html.escape(brief['comparecencia'])}</div>
+
+    <div class="objeto">{html.escape(brief['objeto']).replace(chr(10), '<br/>')}</div>
+
+    <h2>I. Los Hechos (Cronología Fundante)</h2>
+    <div>{html.escape(brief['hechos']).replace(chr(10), '<br/>')}</div>
+
+    <h2>II. El Derecho y Garantías Constitucionales Afectadas</h2>
+    <div>{html.escape(brief['derecho']).replace(chr(10), '<br/>')}</div>
+
+    <h2>Por Tanto</h2>
+    <div>{html.escape(brief['por_tanto']).replace(chr(10), '<br/>')}</div>
+
+    {"".join(otrosies_html_parts)}
+
+    <div class="gate-warning">
+        ⚖️ <strong>Compuerta de Revisión Jurídica (Open Legal Chile):</strong> Este Recurso de Protección ha sido formulado conforme al Auto Acordado de la Excma. Corte Suprema (Acta N.° 94-2015). En virtud del artículo 20 de la CPR y del Numeral 2.° de dicho Auto Acordado, no requiere patrocinio obligatorio de abogado, debiendo ser firmado por el recurrente antes de su ingreso formal a la Oficina Judicial Virtual (OJV).
+    </div>
+</body>
+</html>"""
+
+        # Texto plano puro para OJV
+        txt_content = f"""{brief['presuma_plain']}
+
+{brief['comparecencia']}
+
+{brief['objeto']}
+
+I. LOS HECHOS (CRONOLOGÍA FUNDANTE)
+{brief['hechos']}
+
+II. EL DERECHO Y GARANTÍAS CONSTITUCIONALES AFECTADAS
+{brief['derecho']}
+
+POR TANTO,
+{brief['por_tanto']}
+
+""" + "\n\n".join([f"{ot['numero']}: {ot['titulo']}\n{ot['contenido']}" for ot in brief["otrosies"]])
+
+        # Guardar archivos
+        with open(md_path, "w", encoding="utf-8") as f:
+            f.write(brief["markdown_full"])
+
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
+
+        with open(txt_path, "w", encoding="utf-8") as f:
+            f.write(txt_content)
+
+        with open(json_path, "w", encoding="utf-8") as f:
+            json_export = dict(brief)
+            json_export["fecha_generacion"] = datetime.now().isoformat(timespec="seconds")
+            json.dump(json_export, f, ensure_ascii=False, indent=2)
+
+        return {
+            "filename": filename,
+            "markdownPath": md_path,
+            "htmlPath": html_path,
+            "textPath": txt_path,
+            "jsonPath": json_path,
+            "exportsDir": EXPORTS_DIR,
+            "deadline_info": brief["deadline_info"],
+            "preferente": brief["preferente"]
         }

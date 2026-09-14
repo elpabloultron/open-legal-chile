@@ -47,3 +47,4 @@ Thumbs.db
 scratch/
 scratch_*.py
 graphify-out/cache/
+uv.lock

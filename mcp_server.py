@@ -252,27 +252,29 @@ TOOLS = [
     },
     {
         "name": "compile_legal_dossier",
-        "description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios y portadas separadoras institucionales.",
+        "description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios con carátulas divisorias elegantes y marcadores jerárquicos nativos (TOC Bookmarks) para la OJV.",
         "inputSchema": {
             "type": "object",
             "properties": {
                 "markdown_content": {"type": "string", "description": "Texto del escrito o informe en formato Markdown"},
-                "output_pdf_path": {"type": "string", "description": "Ruta de salida para el PDF consolidado"},
+                "output_pdf_path": {"type": "string", "description": "Ruta de salida para el PDF consolidado con anexos"},
                 "annexes": {
                     "type": "array",
                     "description": "Lista de anexos a adjuntar con sus metadatos",
                     "items": {
                         "type": "object",
                         "properties": {
-                            "num": {"type": "string", "description": "Ej. 'ANEXO N° 1'"},
-                            "title": {"type": "string", "description": "Título del documento probatorio"},
-                            "desc": {"type": "string", "description": "Descripción probatoria del anexo"},
-                            "path": {"type": "string", "description": "Ruta al archivo PDF o imagen"}
+                            "num": {"type": "string", "description": "Número de anexo (ej. '«ANEXO N.° 1»')"},
+                            "title": {"type": "string", "description": "Título formal del documento probatorio"},
+                            "desc": {"type": "string", "description": "Descripción probatoria y alcance legal"},
+                            "path": {"type": "string", "description": "Ruta al archivo PDF o imagen (.png, .jpg) del anexo"}
                         },
                         "required": ["title", "path"]
                     }
                 },
-                "mobile_preview_path": {"type": "string", "description": "Ruta opcional para generar versión ligera de lectura para celular"}
+                "main_pdf_path": {"type": "string", "description": "Ruta opcional para guardar solo el escrito principal firmado en formato ligero para carga directa en OJV"},
+                "mobile_preview_path": {"type": "string", "description": "Ruta opcional para generar versión ligera de lectura para celular"},
+                "title": {"type": "string", "description": "Título institucional para los marcadores de navegación TOC (ej. 'Recurso de Protección — Iltma. Corte de Apelaciones')"}
             },
             "required": ["markdown_content", "output_pdf_path"]
         }
@@ -790,6 +792,65 @@ TOOLS = [
                 "top_n": {"type": "integer", "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)", "default": 10}
             }
         }
+    },
+    {
+        "name": "recurso_proteccion_generar",
+        "description": "Genera y estandariza un Recurso de Protección conforme al Auto Acordado de la Corte Suprema (Acta N.° 94-2015) y OJV, produciendo escritos estructurados (.md, .html, .txt, .json) y expedientes PDF consolidando anexos con marcadores TOC.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "tribunal": {"type": "string", "description": "Corte de Apelaciones competente (ej. 'Ilustrísima Corte de Apelaciones de Santiago')"},
+                "recurrente": {
+                    "type": "object",
+                    "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run (opcional)",
+                    "required": ["nombre", "run", "domicilio", "email"]
+                },
+                "recurrido": {
+                    "type": "object",
+                    "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal (opcional)",
+                    "required": ["nombre"]
+                },
+                "acto_lesivo": {"type": "string", "description": "Descripción precisa del acto u omisión arbitrario e ilegal impugnado"},
+                "fecha_acto": {"type": "string", "description": "Fecha del acto lesivo o de su conocimiento fehaciente (formato YYYY-MM-DD) para cómputo fatal de 30 días corridos"},
+                "hechos": {
+                    "type": "array",
+                    "description": "Cronología de hechos numerados. Cada elemento puede ser texto o dict con 'texto' y 'anexo' (ej. 'Anexo 1')",
+                    "items": {"type": ["string", "object"]}
+                },
+                "garantias": {
+                    "type": "array",
+                    "description": "Garantías del Art. 19 CPR invocadas (ej. ['19_1', '19_2', '19_3_5', '19_10', '19_24'])",
+                    "items": {"type": "string"}
+                },
+                "estatutos_especiales": {
+                    "type": "array",
+                    "description": "Estatutos protectores especiales (ej. ['ninez_21430', 'tea_21545', 'deporte_19712_ds22', 'denuncia_cpp'])",
+                    "items": {"type": "string"}
+                },
+                "orden_de_no_innovar": {
+                    "type": "object",
+                    "description": "Configuración de la ONI: solicita (bool), fumus_boni_iuris, periculum_in_mora, medida_suspension"
+                },
+                "oficios": {
+                    "type": "array",
+                    "description": "Lista de oficios solicitados bajo apercibimiento del Numeral 5.°: [{'organismo': '...', 'materia': '...'}]",
+                    "items": {"type": "object"}
+                },
+                "anexos": {
+                    "type": "array",
+                    "description": "Lista de anexos probatorios: [{'num': 'ANEXO N.° 1', 'title': '...', 'desc': '...', 'path': 'ruta.pdf'}]",
+                    "items": {"type": "object"}
+                },
+                "quinto_otrosi": {
+                    "type": "object",
+                    "description": "Quinto otrosí especial opcional: {'titulo': '...', 'contenido': '...'}"
+                },
+                "petitorio_concreto": {"type": "string", "description": "Peticiones concretas específicas (opcional)"},
+                "fecha_interposicion": {"type": "string", "description": "Fecha de interposición (opcional, por defecto hoy YYYY-MM-DD)"},
+                "compilar_pdf": {"type": "boolean", "description": "Si es True, compila automáticamente el PDF principal y el dossier consolidado con anexos y marcadores TOC", "default": True}
+            },
+            "required": ["tribunal", "recurrente", "recurrido", "acto_lesivo", "fecha_acto", "hechos", "garantias"]
+        }
     }
 ]
 
@@ -890,8 +951,79 @@ def handle_tool_call(name: str, args: dict) -> Any:
                 markdown_content=md_content,
                 output_pdf_path=out_pdf,
                 annexes=args.get("annexes"),
-                mobile_preview_path=args.get("mobile_preview_path")
+                mobile_preview_path=args.get("mobile_preview_path"),
+                main_pdf_path=args.get("main_pdf_path"),
+                title=args.get("title")
             )
+        elif name == "recurso_proteccion_generar":
+            tribunal = str(args.get("tribunal") or "ILUSTRÍSIMA CORTE DE APELACIONES DE SANTIAGO")
+            recurrente = args.get("recurrente")
+            recurrido = args.get("recurrido")
+            acto_lesivo = str(args.get("acto_lesivo") or "")
+            fecha_acto = str(args.get("fecha_acto") or "")
+            hechos = args.get("hechos") or []
+            garantias = args.get("garantias") or []
+
+            if not recurrente or not isinstance(recurrente, dict):
+                return {"error": "Se requiere el objeto 'recurrente' con nombre, run, domicilio y email."}
+            if not recurrido or not isinstance(recurrido, dict):
+                return {"error": "Se requiere el objeto 'recurrido' con nombre."}
+            if not acto_lesivo:
+                return {"error": "Se requiere la descripción del 'acto_lesivo'."}
+            if not fecha_acto:
+                return {"error": "Se requiere 'fecha_acto' (YYYY-MM-DD) para el cómputo de 30 días corridos."}
+            if not hechos:
+                return {"error": "Se requiere al menos un hecho en la lista de 'hechos'."}
+            if not garantias:
+                return {"error": "Se requiere al menos una garantía constitucional en 'garantias'."}
+
+            anexos = args.get("anexos") or []
+            compilar_pdf = bool(args.get("compilar_pdf", True))
+            filename_base = args.get("filename_base")
+
+            # 1. Exportar en formatos texto (.md, .html, .txt, .json)
+            export_res = exporter.export_recurso_proteccion(
+                tribunal=tribunal,
+                recurrente=recurrente,
+                recurrido=recurrido,
+                acto_lesivo=acto_lesivo,
+                fecha_acto=fecha_acto,
+                hechos=hechos,
+                garantias=garantias,
+                estatutos_especiales=args.get("estatutos_especiales"),
+                oni_data=args.get("orden_de_no_innovar"),
+                oficios=args.get("oficios"),
+                anexos=anexos,
+                quinto_otrosi=args.get("quinto_otrosi"),
+                petitorio_concreto=args.get("petitorio_concreto"),
+                fecha_interposicion=args.get("fecha_interposicion"),
+                filename_base=filename_base
+            )
+
+            # 2. Compilar expedientes PDF si está habilitado
+            pdf_info = None
+            if compilar_pdf and compiler.is_available():
+                fn = export_res["filename"]
+                exports_dir = export_res["exportsDir"]
+                main_pdf_path = os.path.join(exports_dir, f"{fn}_Caratula_OJV.pdf")
+                dossier_pdf_path = os.path.join(exports_dir, f"{fn}_Completo_con_Anexos.pdf")
+
+                with open(export_res["markdownPath"], "r", encoding="utf-8") as f:
+                    md_text = f.read()
+
+                pdf_res = compiler.compile(
+                    markdown_content=md_text,
+                    output_pdf_path=dossier_pdf_path,
+                    main_pdf_path=main_pdf_path,
+                    annexes=anexos,
+                    title=f"Recurso de Protección — {tribunal}"
+                )
+                pdf_info = pdf_res
+
+            res_final = dict(export_res)
+            if pdf_info:
+                res_final["pdf_compilation"] = pdf_info
+            return res_final
         elif name == "infoprobidad_get_dip":
             q_url = args.get("query_or_url")
             if not q_url:
