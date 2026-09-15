@@ -9,6 +9,11 @@ import sys
 import json
 import os
 
+# Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
+_pkg_root = os.path.dirname(os.path.abspath(__file__))
+if _pkg_root not in sys.path:
+    sys.path.insert(0, _pkg_root)
+
 from typing import Any, Dict, List, Optional, Union
 
 # Configurar encoding seguro UTF-8
@@ -851,6 +856,54 @@ TOOLS = [
             },
             "required": ["tribunal", "recurrente", "recurrido", "acto_lesivo", "fecha_acto", "hechos", "garantias"]
         }
+    },
+    {
+        "name": "agent_list",
+        "description": "Lista el catálogo de los 17 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+    {
+        "name": "agent_run",
+        "description": "Ejecuta un agente jurídico especializado (ej. 'litigios', 'inmobiliario', 'probidad', 'laboral', 'dogmatico', 'forense', 'vigilante', 'clinica', 'regulatorio') para resolver un objetivo legal complejo coordinando autónomamente las herramientas de la suite en modo determinista soberano o LLM.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "agent_name": {
+                    "type": "string",
+                    "description": "Nombre o alias del agente a ejecutar (ej. 'litigios', 'inmobiliario', 'probidad', 'laboral', 'dogmatico', 'forense', 'vigilante', 'clinica', 'regulatorio')"
+                },
+                "task": {
+                    "type": "string",
+                    "description": "Misión, objetivo o consulta legal detallada para el agente"
+                },
+                "context": {
+                    "type": "object",
+                    "description": "Parámetros de contexto adicionales opcionales (ej. tribunal, fojas, cbr, fechas, hechos)"
+                },
+                "mode": {
+                    "type": "string",
+                    "description": "Modo de ejecución: 'auto' (detecta automáticamente), 'deterministic' (100% offline soberano) o 'llm'",
+                    "default": "auto"
+                }
+            },
+            "required": ["agent_name", "task"]
+        }
+    },
+    {
+        "name": "agent_export_subagents",
+        "description": "Genera y exporta plantillas y perfiles de subagentes jurídicos para asistentes de IA como Claude Code (.claude/agents/*.md) y Cursor (.cursor/rules/*.mdc).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "target_dir": {
+                    "type": "string",
+                    "description": "Directorio destino para guardar los archivos de configuración (opcional)"
+                }
+            }
+        }
     }
 ]
 
@@ -1024,6 +1077,21 @@ def handle_tool_call(name: str, args: dict) -> Any:
             if pdf_info:
                 res_final["pdf_compilation"] = pdf_info
             return res_final
+        elif name == "agent_list":
+            from agents_runtime import agent_runtime
+            return agent_runtime.list_agents()
+        elif name == "agent_run":
+            from agents_runtime import agent_runtime
+            ag_name = str(args.get("agent_name") or "")
+            task = str(args.get("task") or "")
+            context = args.get("context") or {}
+            mode = str(args.get("mode") or "auto")
+            res_ag = agent_runtime.run_agent(agent_name=ag_name, task=task, context=context, mode=mode)
+            return res_ag.to_dict()
+        elif name == "agent_export_subagents":
+            from agents_runtime import agent_runtime
+            target_dir = args.get("target_dir")
+            return agent_runtime.export_subagents_config(target_dir=target_dir)
         elif name == "infoprobidad_get_dip":
             q_url = args.get("query_or_url")
             if not q_url:

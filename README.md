@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-101%2F101_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-137%2F137_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -26,11 +26,11 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (55 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-55-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (63 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-63-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
-8. [🧠 Catálogo de Skills y Subagentes (15 Especialidades)](#-8-catálogo-de-skills-y-subagentes-15-especialidades)
+8. [🧠 Catálogo de Skills y Subagentes (17 Especialidades)](#-8-catálogo-de-skills-y-subagentes-17-especialidades)
 9. [💻 Guía Completa de la Consola CLI (`openlegal`)](#-9-guía-completa-de-la-consola-cli-openlegal)
 10. [🛡️ Certificación de Auditoría Institucional 360° (AUDIT.md)](#-10-certificación-de-auditoría-institucional-360-auditmd)
 11. [🧪 Pruebas Automatizadas y Verificación Continua](#-11-pruebas-automatizadas-y-verificación-continua)
@@ -81,7 +81,9 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 55 Herramientas Forenses Registradas (v1.3.0 Suite Edition)                         │
+│   • 63 Herramientas Forenses Registradas (v1.4.0 Suite Edition)                         │
+│   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
+│   • Generador Estandarizado de Recursos de Protección OJV (recurso_proteccion.py)       │
 │   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
 │   • Telemetría Ética de Adopción y Auto-Actualización (stats_tracker.py, update_checker.py)│
 │   • Motor de Estudio de Títulos Decenal CBR (cbr_titles.py)                              │
@@ -186,9 +188,9 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (51 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (63 Herramientas Oficiales)
 
-El servidor MCP expone **51 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **63 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -320,6 +322,22 @@ El servidor MCP expone **51 herramientas oficiales** categorizadas funcionalment
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional. |
+| `graphify_trazar_camino` | `concepto_origen` *(str)*, `concepto_destino` *(str)* | Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática. |
+| `graphify_explicar_institucion` | `nombre` *(str)* | Genera una explicación dogmática 360° de una institución jurídica en LegalGraphify: definición, sustento positivo BCN, criterios de la Corte Suprema, operativas procesales y grado topológico. |
+| `graphify_analizar_impacto` | `nodo_modificado` *(str)* | Calcula el radio de afectación topológico (Blast Radius) cuando una norma legal o institución jurídica sufre una reforma legal o giro jurisprudencial, identificando entidades afectadas en grado 1 (directo) y grado 2 (cascada). |
+| `graphify_god_nodes` | `top_n` *(int, opc)* | Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas. |
+
+### T. Recursos Constitucionales y Estandarización OJV
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `recurso_proteccion_generar` | `recurrente` *(dict)*, `recurrido` *(dict)*, `corte` *(str)*, `acto_u_omision` *(str)*, `garantias_afectadas` *(list)*, `petitorio` *(str)*, `oni` *(dict, opc)*, `anexos` *(list, opc)* | Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado de la Excma. Corte Suprema (Acta N.° 94-2015), computando el plazo fatal de 30 días corridos, presuma anti-colapso, garantías del Art. 19 CPR, estatutos especiales (Leyes 21.430, 21.545, 19.712, Arts. 175-176 CPP), Orden de No Innovar (ONI) copulativa y compilación PDF con marcadores nativos TOC. |
+
+### U. Ecosistema de Agentes Jurídicos Autónomos
+| Herramienta MCP | Parámetros | Descripción de Operatividad |
+| :--- | :--- | :--- |
+| `agent_list` | *(ninguno)* | Lista los 17 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
+| `agent_run` | `agent_name` *(str)*, `task` *(str)*, `context` *(dict, opc)*, `provider` *(str, opc)* | Ejecuta un agente jurídico chileno autónomo en modo determinista soberano (100 % offline, cero API keys) o asistido por LLM multi-proveedor (Ollama, DeepSeek, Claude, Gemini, OpenAI). Ejecuta tareas de litigación, análisis de títulos CBR, probidad CGR, subsunción dogmática o auditoría forense con auto-crítica en 5 dimensiones procesales. |
+| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 17 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
 
 ---
 
@@ -459,25 +477,32 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ---
 
-## 🧠 8. Catálogo de Skills y Subagentes (15 Especialidades)
+## 🧠 8. Catálogo de Skills y Subagentes (17 Especialidades)
 
-El directorio `agents/` incluye **15 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
+El directorio `agents/` incluye **17 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
 
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
-2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, cronología de hechos, recursos procesales y medidas precautorias.
-3. **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes e informes CGR, compras públicas (Ley 19.886) y vigilancia regulatoria.
-4. **`chilean-energy-legal`** (`agente-energia`): Contratos PPA de clientes libres, transmisión eléctrica Ley 20.936 y discrepancias del Panel de Expertos.
-5. **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento.
-6. **`chilean-contract-legal`** (`agente-contratos`): Revisión de contratos, NDAs, cláusula penal (CC) y Ley 19.496 de Protección al Consumidor.
-7. **`chilean-corporate-legal`** (`agente-corporativo`): Constitución de SpA (Ley 20.659) y S.A. (18.046), compliance CMF/SII y libre competencia (DL 211).
-8. **`chilean-forensic-evidence`** (`agente-forense`): Peritaje documental de expedientes escaneados y OCR de resoluciones ilegibles.
-9. **`chilean-probity-investigation`** (`agente-probidad`): Cruce de declaraciones patrimoniales DIP (InfoProbidad) y conflictos de interés.
-10. **`chilean-dossier-assembly`** (`agente-expedientes`): Ensamblaje pericial de expedientes foliados con separadores probatorios.
-11. **`chilean-notebooklm-grounding`** (`agente-investigacion-ia`): Investigación con citas fidedignas conectada a Google NotebookLM.
-12. **`chilean-socratic-bar-exam`** (`agente-grado`): Interrogador socrático para egresados de derecho que preparan su Examen de Grado.
-13. **`chilean-docket-watcher`** (`agente-vigilante`): Monitoreo de proveídos de la OJV y cálculo de plazos fatales en días hábiles judiciales.
-14. **`chilean-legal-clinic`** (`agente-clinica`): Asistencia jurídica social para consultorios CAJ y traductor a Lenguaje Claro.
-15. **`chilean-privacy-ip`** (`agente-propiedad-datos`): Tramitación de Derechos ARCO (Ley 19.628) y factibilidad marcaria ante INAPI.
+2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
+3. **`chilean-real-estate-cbr`** (`agente-inmobiliario`): Estudio de títulos decenal (10 años), tradición dominical, gravámenes hipotecarios, prohibiciones registrales y mandatos judiciales (Art. 7 CPC).
+4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, 58 tratados canónicos y deducción con subgrafos LegalGraphify (85 % a 95 % de ahorro de tokens).
+5. **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes e informes CGR, compras públicas (Ley 19.886) y vigilancia regulatoria.
+6. **`chilean-energy-legal`** (`agente-energia`): Contratos PPA de clientes libres, transmisión eléctrica Ley 20.936 y discrepancias del Panel de Expertos.
+7. **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento.
+8. **`chilean-contract-legal`** (`agente-contratos`): Revisión de contratos, NDAs, cláusula penal (CC) y Ley 19.496 de Protección al Consumidor.
+9. **`chilean-corporate-legal`** (`agente-corporativo`): Constitución de SpA (Ley 20.659) y S.A. (18.046), compliance CMF/SII y libre competencia (DL 211).
+10. **`chilean-forensic-evidence`** (`agente-forense`): Peritaje documental de expedientes escaneados, OCR PaddleOCR/Tesseract y auditoría red-team.
+11. **`chilean-probity-investigation`** (`agente-probidad`): Cruce de declaraciones patrimoniales DIP (InfoProbidad) y conflictos de interés.
+12. **`chilean-dossier-assembly`** (`agente-expedientes`): Ensamblaje pericial de expedientes foliados con separadores probatorios y marcadores TOC.
+13. **`chilean-notebooklm-grounding`** (`agente-investigacion-ia`): Investigación con citas fidedignas conectada a Google NotebookLM.
+14. **`chilean-socratic-bar-exam`** (`agente-grado`): Interrogador socrático para egresados de derecho que preparan su Examen de Grado.
+15. **`chilean-docket-watcher`** (`agente-vigilante`): Monitoreo de proveídos de la OJV y cálculo de plazos fatales en días hábiles judiciales.
+16. **`chilean-legal-clinic`** (`agente-clinica`): Asistencia jurídica social para consultorios CAJ y traductor a Lenguaje Claro.
+17. **`chilean-privacy-ip`** (`agente-propiedad-datos`): Tramitación de Derechos ARCO (Ley 19.628) y factibilidad marcaria ante INAPI.
+
+### 🤖 Motor de Agentes Jurídicos Autónomos (`agents_runtime.py`)
+La suite incorpora un runtime de agentes con dos modalidades de ejecución:
+1. **Modo Determinista Soberano (100 % Offline, Cero API Keys):** Pipelines deterministas especializados que resuelven tareas forenses complejas (generación y ensamblaje de recursos de protección, auditoría decenal de títulos CBR, fiscalización DIP CGR, tutelas laborales) utilizando únicamente las herramientas locales de Open Legal Chile sin enviar datos a servidores externos.
+2. **Modo Asistido por LLM (ReAct Multi-Proveedor):** Orquestación de agentes con modelos externos o locales (Ollama, DeepSeek, Claude, Gemini, OpenAI) con ciclos de *Pensamiento / Acción / Observación*, inyección de doctrina y auto-crítica forense en 5 dimensiones.
 
 ---
 
@@ -486,10 +511,23 @@ El directorio `agents/` incluye **15 perfiles de especialidad jurídica** adapta
 Open Legal Chile incluye una potente interfaz de línea de comandos accesible mediante `openlegal`:
 
 ```bash
-# Menú interactivo de la consola
+# Menú interactivo de la consola (opciones [0] a [18])
 openlegal
 
-# Servidor MCP estándar para agentes de IA
+# Listar agentes jurídicos autónomos disponibles
+openlegal agent list
+
+# Ejecutar un agente en modo determinista soberano (100 % local)
+openlegal agent run litigios "Generar recurso de protección por corte arbitrario de agua potable"
+openlegal agent run inmobiliario "Auditar cadena de dominio CBR decenal"
+
+# Conversación interactiva con un agente especializado
+openlegal agent chat dogmatico
+
+# Exportar perfiles de subagentes para Google Antigravity o Claude Code
+openlegal agent export --format antigravity
+
+# Servidor MCP estándar para agentes de IA (63 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno

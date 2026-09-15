@@ -358,5 +358,23 @@
     "category": "Tribunales & PJUD",
     "description": "Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado CS (Acta N.° 94-2015)..",
     "full_description": "Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado de la Excma. Corte Suprema (Acta N.° 94-2015), computando el plazo fatal de 30 días corridos, presuma anti-colapso, garantías del Art. 19 CPR, estatutos especiales (Leyes 21.430, 21.545, 19.712, Arts. 175-176 CPP), Orden de No Innovar (ONI) copulativa y compilación PDF con marcadores nativos TOC."
+  },
+  {
+    "name": "agent_list",
+    "category": "Agentes & IA Jurídica",
+    "description": "Lista los 17 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades..",
+    "full_description": "Lista los 17 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades: litigios (recursos de protección y OJV), inmobiliario (estudio de títulos CBR), probidad administrativa (CGR y DIP), laboral (tutela y DT), dogmático (doctrina y LegalGraphify), forense (red-team y auditoría de debilidades procesales), vigilante (monitoreo de resoluciones y plazos) y clínica jurídica (lenguaje claro e intake)."
+  },
+  {
+    "name": "agent_run",
+    "category": "Agentes & IA Jurídica",
+    "description": "Ejecuta un agente jurídico chileno autónomo de manera determinista soberana (100 % offline) o asistida por LLM..",
+    "full_description": "Ejecuta un agente jurídico chileno autónomo en modo determinista soberano (100 % offline, cero API keys) o asistido por LLM multi-proveedor (Ollama, DeepSeek, Claude, Gemini, OpenAI). Ejecuta tareas de litigación, análisis de títulos CBR, probidad CGR, subsunción dogmática o auditoría forense con auto-crítica en 5 dimensiones procesales."
+  },
+  {
+    "name": "agent_export_subagents",
+    "category": "Agentes & IA Jurídica",
+    "description": "Exporta los perfiles de agentes jurídicos como subagentes listos para Claude Code (.claude/subagents) o Google Antigravity..",
+    "full_description": "Exporta los perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (.claude/subagents) o Google Antigravity."
   }
 ]
