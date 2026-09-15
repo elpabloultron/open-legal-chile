@@ -45,7 +45,9 @@ setup(
         "stats_tracker",
         "update_checker",
         "legal_graphify",
-        "query_openlegal_laws"
+        "query_openlegal_laws",
+        "recurso_proteccion",
+        "agents_runtime"
     ],
     install_requires=[
         "requests>=2.28.0",

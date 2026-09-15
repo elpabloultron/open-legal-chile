@@ -8,6 +8,11 @@ import sys
 import os
 import argparse
 
+# Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
+_pkg_root = os.path.dirname(os.path.abspath(__file__))
+if _pkg_root not in sys.path:
+    sys.path.insert(0, _pkg_root)
+
 # Asegurar encoding UTF-8 en terminal de Windows
 try:
     if hasattr(sys.stdout, "reconfigure"):
@@ -71,9 +76,10 @@ def menu_interactivo():
         print(" [15] 📊 Estadísticas de Uso: Descargas PyPI, GitHub y Telemetría Ética")
         print(" [16] 🔄 Actualizaciones: Comprobar versión más reciente y auto-actualizar")
         print(" [17] 🧠 LegalGraphify: Consultar Subgrafo de Conocimiento (85%-95% Ahorro de Tokens)")
+        print(" [18] 🤖 Agentes Jurídicos de IA: Orquestación autónoma multi-herramienta")
         print(" [0] 🚪 Salir")
 
-        opc = input("\n👉 Selecciona una opción (0-17): ").strip()
+        opc = input("\n👉 Selecciona una opción (0-18): ").strip()
 
         if opc == "0":
             print("\n👋 ¡Hasta luego! Cerrando Open Legal Chile.\n")
@@ -502,6 +508,50 @@ def menu_interactivo():
             except Exception as e:
                 print(f"Error en LegalGraphify: {e}")
 
+        elif opc == "18":
+            print("\n--- 🤖 AGENTES JURÍDICOS ESPECIALIZADOS DE IA ---")
+            print(" [1] 📋 Listar catálogo de 17 agentes especializados")
+            print(" [2] ⚡ Ejecutar agente legal en modo Soberano Determinista (100% Offline)")
+            print(" [3] 💬 Iniciar sesión interactiva con un agente")
+            print(" [4] 📤 Exportar perfiles de subagentes (Claude Code / Cursor)")
+            sub_a = input("\nSelecciona una opción [1-4] (por defecto 1): ").strip() or "1"
+            try:
+                from agents_runtime import agent_runtime
+                if sub_a == "1":
+                    agentes = agent_runtime.list_agents()
+                    print(f"\nCATÁLOGO DE AGENTES ESPECIALIZADOS ({len(agentes)} AGENTES):")
+                    print("═" * 78)
+                    for a in agentes:
+                        print(f"• {a['name']:<24} | {a['display_name']}")
+                        print(f"  Herramientas ({a['tools_count']}): {', '.join(a['tools'][:5])}...")
+                        print(f"  Función: {a['description'][:95]}...\n")
+                elif sub_a == "2":
+                    ag_name = input("Nombre o alias del agente (ej. 'litigios', 'inmobiliario', 'probidad', 'laboral', 'dogmatico', 'forense'): ").strip() or "litigios"
+                    tarea = input("Misión o antecedentes del caso: ").strip() or "Elaborar dictamen"
+                    print(f"\n⏳ Ejecutando '{ag_name}'...")
+                    res = agent_runtime.run_agent(ag_name, tarea, mode="deterministic")
+                    print("\n" + res.format_cli_summary())
+                elif sub_a == "3":
+                    ag_name = input("Nombre del agente para interactuar (ej. 'litigios', 'laboral', 'dogmatico'): ").strip() or "litigios"
+                    ag = agent_runtime.get_agent(ag_name)
+                    if not ag:
+                        print(f"⚠️ Agente '{ag_name}' no encontrado.")
+                    else:
+                        print(f"\n🤖 SESIÓN CON: {ag.display_name.upper()} ({ag.name})")
+                        print("Escribe tu consulta o 'salir' para terminar.\n" + "-"*78)
+                        while True:
+                            user_q = input("\nTu consulta ⚖️ > ").strip()
+                            if user_q.lower() in ("exit", "salir", "q"):
+                                break
+                            r = ag.run(user_q, mode="auto")
+                            print("\n" + r.output)
+                elif sub_a == "4":
+                    out_dir = input("Directorio destino (Enter para proyecto actual): ").strip() or "."
+                    res_exp = agent_runtime.export_subagents_config(out_dir)
+                    print(f"\n✅ Se exportaron {len(res_exp)} configuraciones de subagentes en '{out_dir}'.")
+            except Exception as e:
+                print(f"Error en motor de agentes: {e}")
+
         input("\n[Presiona Enter para volver al menú principal...]")
 
 
@@ -534,9 +584,10 @@ Ejemplos de uso:
   openlegal stats             -> Muestra estadísticas globales de adopción (PyPI/GitHub)
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
   openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro masivo de tokens (85%-95%)
+  openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -1041,6 +1092,64 @@ Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA pref
                 print(f"  • Tokens Subgrafo Sintético:             ~{m['tokens_subgrafo']} tokens")
                 print(f"  • Tokens Ahorrados:                      ~{m['tokens_ahorrados']} tokens")
                 print(f"  • 🚀 Reducción de Tokens:                {m['porcentaje_ahorro']}% ({m['factor_reduccion']})\n")
+
+    elif args.comando in ("agent", "agents"):
+        from agents_runtime import agent_runtime
+        tokens = args.query if args.query else []
+        subcmd = tokens[0].lower() if tokens else "list"
+
+        if subcmd == "list":
+            agentes = agent_runtime.list_agents()
+            print_banner()
+            print(f"🤖 CATÁLOGO DE AGENTES JURÍDICOS ESPECIALIZADOS ({len(agentes)} AGENTES)\n" + "═"*78)
+            for a in agentes:
+                print(f"• {a['name']:<24} | {a['display_name']}")
+                print(f"  Herramientas ({a['tools_count']}): {', '.join(a['tools'][:6])}...")
+                print(f"  Misión: {a['description'][:100]}...\n")
+
+        elif subcmd == "run":
+            if len(tokens) < 2:
+                print("⚠️ Uso: openlegal agent run <nombre_agente> \"<misión o consulta>\"")
+            else:
+                ag_name = tokens[1]
+                tarea = " ".join(tokens[2:]) if len(tokens) > 2 else "Ejecutar dictamen general"
+                print_banner()
+                print(f"⏳ Ejecutando agente '{ag_name}'...")
+                res = agent_runtime.run_agent(ag_name, tarea, mode="deterministic")
+                print("\n" + res.format_cli_summary())
+
+        elif subcmd == "export":
+            dest = tokens[1] if len(tokens) > 1 else "."
+            res_exp = agent_runtime.export_subagents_config(dest)
+            print(f"✅ Se exportaron {len(res_exp)} configuraciones de subagentes para Claude Code y Cursor en '{dest}'.")
+
+        elif subcmd == "chat":
+            ag_name = tokens[1] if len(tokens) > 1 else "litigios"
+            ag = agent_runtime.get_agent(ag_name)
+            if not ag:
+                print(f"⚠️ Agente '{ag_name}' no encontrado. Ejecuta 'openlegal agent list' para ver disponibles.")
+            else:
+                print_banner()
+                print(f"🤖 SESIÓN INTERACTIVA CON: {ag.display_name.upper()} ({ag.name})")
+                print("Escribe tus consultas o 'salir' para terminar.\n" + "-"*78)
+                while True:
+                    q_user = input("\n⚖️ Consulta > ").strip()
+                    if q_user.lower() in ("salir", "exit", "q"):
+                        break
+                    if q_user:
+                        r = ag.run(q_user, mode="auto")
+                        print("\n" + r.output)
+        else:
+            # Si el primer token es el nombre de un agente directamente: openlegal agent litigios "mision"
+            ag = agent_runtime.get_agent(subcmd)
+            if ag:
+                tarea = " ".join(tokens[1:]) if len(tokens) > 1 else "Ejecutar dictamen general"
+                print_banner()
+                print(f"⏳ Ejecutando agente '{ag.name}'...")
+                res = ag.run(tarea, mode="deterministic")
+                print("\n" + res.format_cli_summary())
+            else:
+                print(f"⚠️ Comando o agente '{subcmd}' desconocido. Usa: openlegal agent [list|run|chat|export]")
 
     else:
         menu_interactivo()
