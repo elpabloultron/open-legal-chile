@@ -11,7 +11,7 @@ import os
 import re
 import sys
 import zipfile
-import xml.etree.ElementTree as ET
+import defusedxml.ElementTree as ET
 from pathlib import Path
 from typing import Dict, Any, Optional, List, Tuple
 
