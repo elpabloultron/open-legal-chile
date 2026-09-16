@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Open Legal Chile · La Suite Soberana de Inteligencia Jurídica & Servidor MCP para IA</title>
-  <meta name="description" content="Open Legal Chile transforma 58 tratados canónicos y la jurisprudencia de Chile en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 63 herramientas MCP, 100 % on-device, Apache 2.0" />
+  <meta name="description" content="Open Legal Chile transforma 58 tratados canónicos y la jurisprudencia de Chile en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 64 herramientas MCP, 18 agentes jurídicos autónomos, 100 % on-device, Apache 2.0" />
   <meta name="application-name" content="Open Legal Chile" />
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/" />
 
   <!-- Open Graph / Twitter -->
   <meta property="og:title" content="Open Legal Chile · The Legal Knowledge Graph for AI Assistants" />
-  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 58 tratados canónicos, 63 herramientas MCP, 85 % a 95 % de ahorro de tokens. On-device, Apache 2.0" />
+  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 58 tratados canónicos, 64 herramientas MCP, 18 agentes autónomos, 85 % a 95 % de ahorro de tokens. On-device, Apache 2.0" />
   <meta property="og:url" content="https://elpabloultron.github.io/open-legal-chile/" />
   <meta property="og:site_name" content="Open Legal Chile" />
   <meta property="og:locale" content="es_CL" />
@@ -1939,6 +1939,88 @@
         border: 1px solid #ccc !important;
       }
     }
+
+    /* Agents Showcase Styling */
+    .agents-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+    .agent-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.2s ease;
+    }
+    .agent-card:hover {
+      border-color: rgba(74, 222, 128, 0.45);
+      box-shadow: 0 6px 20px rgba(6, 42, 34, 0.06);
+      transform: translateY(-2px);
+    }
+    .agent-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .agent-id-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--brand-ink);
+      background: var(--brand-soft);
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(74, 222, 128, 0.3);
+    }
+    .agent-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin: 4px 0 6px 0;
+    }
+    .agent-mission {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-bottom: 14px;
+      flex-grow: 1;
+    }
+    .agent-tools-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 14px;
+    }
+    .agent-tool-pill {
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--foreground);
+    }
+    .agent-cli-box {
+      background: #0b332a;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: #86efac;
+      overflow-x: auto;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
   </style>
 </head>
 <body>
@@ -1954,6 +2036,7 @@
       <span class="nav-divider"></span>
       <nav class="nav-links">
         <a href="#suite" class="nav-link">La Suite</a>
+        <a href="#agentes" class="nav-link">18 Agentes</a>
         <a href="#herramientas" class="nav-link">64 Herramientas MCP</a>
         <a href="#doctrina" class="nav-link">Doctrina (58)</a>
         <a href="#graphify" class="nav-link">LegalGraphify</a>
@@ -1975,6 +2058,7 @@
     <div class="mobile-menu-drawer" id="mobileMenuDrawer">
       <nav class="mobile-nav-list">
         <a href="#suite" class="mobile-nav-item">🏛️ La Suite (5 Pilares)</a>
+        <a href="#agentes" class="mobile-nav-item">🤖 18 Agentes Autónomos</a>
         <a href="#herramientas" class="mobile-nav-item">⚡ 64 Herramientas MCP</a>
         <a href="#doctrina" class="mobile-nav-item">📚 Doctrina Canónica (58)</a>
         <a href="#graphify" class="mobile-nav-item">🧠 LegalGraphify (Subgrafos)</a>
@@ -2025,7 +2109,7 @@
           </a>
           <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            GitHub (137 Tests Green)
+            GitHub (139 Tests Green)
           </a>
         </div>
 
@@ -2244,9 +2328,9 @@
       <div class="pillar-card">
         <div>
           <div class="pillar-icon-badge" style="background: #fee2e2; color: #b91c1c;">⚡</div>
-          <h3 class="pillar-title">Servidor MCP con 63 herramientas</h3>
+          <h3 class="pillar-title">Servidor MCP con 64 herramientas</h3>
           <p class="pillar-desc">
-            Implementación nativa del Model Context Protocol (MCP) estándar de la industria. Permite que Claude Code, Cursor, Windsurf y Gemini invoquen cualquiera de las 63 funciones jurídicas directamente desde el chat o en pipelines de agentes autónomos, 100 % on-device y sin telemetría.
+            Implementación nativa del Model Context Protocol (MCP) estándar de la industria. Permite que Claude Code, Cursor, Windsurf y Gemini invoquen cualquiera de las 64 funciones jurídicas directamente desde el chat o en pipelines de agentes autónomos, 100 % on-device y sin telemetría.
           </p>
         </div>
         <div class="pillar-tags">
@@ -2340,7 +2424,7 @@
           Disponible como biblioteca CLI/Python y servidor MCP integrado
         </div>
         <p style="font-size: 13.5px; line-height: 1.5; color: rgba(255, 255, 255, 0.82); margin: 0;">
-          LegalGraphify funciona de manera autónoma en tus propios scripts o integrado nativamente en las 63 herramientas de Open Legal Chile. Salida en YAML denso, JSON estructurado y modo inferencia en cascada.
+          LegalGraphify funciona de manera autónoma en tus propios scripts o integrado nativamente en las 64 herramientas de Open Legal Chile. Salida en YAML denso, JSON estructurado y modo inferencia en cascada.
         </p>
       </div>
       <div style="display: flex; flex-direction: column; gap: 10px; min-width: 260px;">
@@ -2653,7 +2737,34 @@ relaciones_directas:
     </div>
   </section>
 
-  <!-- Step 04: 55 MCP Tools Interactive Catalog -->
+  <!-- Step 03B: 18 Autonomous Legal Agents Showcase -->
+  <section id="agentes" class="step-section">
+    <span class="eyebrow-step">Autonomía Forense & Subagentes</span>
+    <h2 class="step-h2">Catálogo de 18 agentes jurídicos autónomos</h2>
+    <p class="step-desc">
+      Subagentes especializados para el Derecho Chileno. Operan en <strong>Modo Determinista Soberano</strong> (100 % offline, cero API keys, pipelines de estricta certeza forense) o en <strong>Modo ReAct Asistido por LLM</strong> con auto-crítica procesal en 5 dimensiones.
+    </p>
+
+    <!-- Search & Filter Bar for Agents -->
+    <div style="margin-bottom: 20px;">
+      <input type="text" id="agentSearchInput" class="search-input-legal" style="width: 100%; margin-bottom: 14px;" placeholder="Buscar agente por nombre, especialidad o herramientas (ej: litigios, inmobiliario, ingestor, karin, cbr, fts5)..." />
+      <div class="mcp-filter-bar" id="agentFilterBar">
+        <button class="filter-btn active" data-agent-cat="all">Todos (18)</button>
+        <button class="filter-btn" data-agent-cat="Litigación & Procesal">Litigación & Procesal (4)</button>
+        <button class="filter-btn" data-agent-cat="Dogmática & Ingesta">Dogmática & Ingesta (3)</button>
+        <button class="filter-btn" data-agent-cat="Regulatorio & Público">Regulatorio & Público (4)</button>
+        <button class="filter-btn" data-agent-cat="Inmobiliario & Corporativo">Inmobiliario & Corporativo (3)</button>
+        <button class="filter-btn" data-agent-cat="Forense & Social">Forense & Social (4)</button>
+      </div>
+    </div>
+
+    <!-- Agents Grid Container -->
+    <div class="agents-grid" id="agentsGrid">
+      <!-- Injected by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Step 04: 64 MCP Tools Interactive Catalog -->
   <section id="herramientas" class="step-section">
     <span class="eyebrow-step">Catálogo de Herramientas</span>
     <h2 class="step-h2">Catálogo exhaustivo de 64 herramientas MCP</h2>
@@ -3434,6 +3545,232 @@ autores_relevantes:
 
     // Initialize
     updateTerminal();
+
+    // 18 Autonomous Legal Agents Dataset
+    const ALL_AGENTS = [
+      {
+        name: "agente-litigios",
+        alias: "litigios",
+        category: "Litigación & Procesal",
+        title: "Estratega Procesal & Litigios OJV",
+        mission: "Intake de causas, recursos de protección estandarizados (Auto Acordado CS Acta N.° 94-2015), demandas civiles y laborales OJV, cómputo de 30 días corridos y Orden de No Innovar (ONI) copulativa.",
+        tools: ["recurso_proteccion_generar", "compile_legal_dossier", "export_brief_ojv", "pjud_search_jurisprudencia", "bcn_get_codigo"],
+        cli: "openlegal agent run litigios \"Generar recurso de protección por corte de agua\""
+      },
+      {
+        name: "agente-inmobiliario",
+        alias: "inmobiliario",
+        category: "Inmobiliario & Corporativo",
+        title: "Auditor Inmobiliario & Títulos CBR",
+        mission: "Auditoría decenal de dominio (10 años, Arts. 2510-2511 CC), revisión registral en el Conservador de Bienes Raíces (CBR), gravámenes, prohibiciones, hipotecas y mandatos judiciales (Art. 7 CPC).",
+        tools: ["cbr_estudio_titulos", "cbr_checklist_documentos", "cpc_validar_mandato", "rut_validar_chile", "bcn_get_codigo"],
+        cli: "openlegal agent run inmobiliario \"Auditar cadena de dominio CBR decenal\""
+      },
+      {
+        name: "agente-dogmatico",
+        alias: "dogmatico",
+        category: "Dogmática & Ingesta",
+        title: "Estratega Dogmático & LegalGraphify",
+        mission: "Subsunción dogmática de alta precisión, resolución de antinomias, consulta de 58 tratados canónicos y deducción relacional con subgrafos LegalGraphify (ahorro de 85 % a 95 % de tokens).",
+        tools: ["graphify_consulta_subgrafo", "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto", "doctrina_search"],
+        cli: "openlegal agent run dogmatico \"Subsunción de imprevisión en contrato\""
+      },
+      {
+        name: "agente-ingestor",
+        alias: "ingestor",
+        category: "Dogmática & Ingesta",
+        title: "Agente Ingestor Doctrinal & Doc2Markdown",
+        mission: "Asimilación e ingesta de doctrina jurídica chilena desde PDF, DOCX o TXT a Markdown canónico RAE/ASALE y citas BCN/CS, con sincronización inmediata del Knowledge Graph y SQLite FTS5.",
+        tools: ["doctrina_ingestar_documento", "doctrina_search", "doctrina_get_institucion", "graphify_consulta_subgrafo", "ocr_extract_pdf"],
+        cli: "openlegal agent run ingestor /ruta/al/tratado.pdf"
+      },
+      {
+        name: "agente-laboral",
+        alias: "laboral",
+        category: "Litigación & Procesal",
+        title: "Especialista en Derecho Laboral & DT",
+        mission: "Despidos improcedentes o nulos (Arts. 160 y 161 Código del Trabajo), Ley Karin (Ley N.° 21.643), reducción de jornada 40 Horas (Ley N.° 21.561), finiquitos y doctrina vinculante de la DT.",
+        tools: ["bcn_get_codigo", "bcn_get_ley", "dt_search_doctrina", "pjud_search_jurisprudencia", "export_brief_ojv"],
+        cli: "openlegal agent run laboral \"Analizar carta de despido Art. 161 CT\""
+      },
+      {
+        name: "agente-regulatorio",
+        alias: "regulatorio",
+        category: "Regulatorio & Público",
+        title: "Auditor Administrativo & Contraloría CGR",
+        mission: "Dictámenes e informes vinculantes de la Contraloría General de la República (CGR), sumarios administrativos, compras públicas (Ley N.° 19.886) y brechas de cumplimiento regulatorio.",
+        tools: ["bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias", "cmf_search_normativa", "sii_search_circulares"],
+        cli: "openlegal agent run regulatorio \"Consultar dictámenes CGR confianza legítima\""
+      },
+      {
+        name: "agente-probidad",
+        alias: "probidad",
+        category: "Regulatorio & Público",
+        title: "Fiscalizador de Probidad Pública & DIP",
+        mission: "Fiscalización de autoridades públicas, cruce de Declaraciones de Intereses y Patrimonio (DIP - Ley N.° 20.880), auditorías CGR y detección de conflictos de interés en licitaciones.",
+        tools: ["infoprobidad_get_dip", "cgr_search_auditorias", "cgr_search_jurisprudencia", "bcn_get_ley"],
+        cli: "openlegal agent run probidad \"Auditar declaraciones DIP de autoridad\""
+      },
+      {
+        name: "agente-forense",
+        alias: "forense",
+        category: "Forense & Social",
+        title: "Perito Forense Documental & OCR",
+        mission: "Extracción pericial de expedientes escaneados, sentencias judiciales y escrituras notariales mediante OCR forense multiescala (PaddleOCR ONNX / Tesseract) y auditoría red-team en 5 dimensiones.",
+        tools: ["ocr_extract_pdf", "pjud_search_jurisprudencia", "bcn_get_codigo", "bcn_get_ley"],
+        cli: "openlegal agent run forense \"Ejecutar OCR y detectar vulnerabilidades\""
+      },
+      {
+        name: "agente-vigilante",
+        alias: "vigilante",
+        category: "Litigación & Procesal",
+        title: "Vigilante Procesal & Radar Normativo",
+        mission: "Monitoreo de proveídos y decretos en el portal OJV/PJUD, cálculo de plazos fatales en días hábiles judiciales (Art. 66 CPC) y detección de cargas procesales perentorias.",
+        tools: ["vigilante_analizar_resolucion", "vigilante_radar_normativo", "vigilante_contrato_plazos", "pjud_search_jurisprudencia"],
+        cli: "openlegal agent run vigilante \"Interpretar proveído 'téngase por acompañado'\""
+      },
+      {
+        name: "agente-clinica",
+        alias: "clinica",
+        category: "Forense & Social",
+        title: "Asistencia Judicial & Lenguaje Claro",
+        mission: "Asistencia jurídica en consultorios CAJ y clínicas jurídicas, traducción de resoluciones complejas a español llano y fichas de intake social conforme a estándares de acceso a la justicia.",
+        tools: ["clinica_lenguaje_claro", "clinica_intake_social", "clinica_auditar_borrador", "bcn_get_ley"],
+        cli: "openlegal agent run clinica \"Traducir sentencia a lenguaje claro familiar\""
+      },
+      {
+        name: "agente-grado",
+        alias: "grado",
+        category: "Forense & Social",
+        title: "Examinador Socrático de Examen de Grado",
+        mission: "Interrogación socrática rigurosa para postulantes al título de abogado en Chile, evaluando definiciones doctrinales canónicas, artículos de códigos y resolución de casos.",
+        tools: ["grado_interrogar", "grado_generar_cedula", "grado_obtener_flashcards", "doctrina_search"],
+        cli: "openlegal agent run grado \"Interrogar sobre responsabilidad extracontractual\""
+      },
+      {
+        name: "agente-energia",
+        alias: "energia",
+        category: "Regulatorio & Público",
+        title: "Especialista en Derecho Eléctrico & Energía",
+        mission: "Regulación eléctrica bajo el DFL 4/2006 y Ley N.° 20.936 (Transmisión), contratos PPA de clientes libres, proyectos de generación ERNC y discrepancias ante el Panel de Expertos.",
+        tools: ["bcn_get_ley", "cne_get_centrales_y_proyectos", "panel_expertos_search", "export_brief_ojv"],
+        cli: "openlegal agent run energia \"Dictamen sobre discrepancia tarifaria\""
+      },
+      {
+        name: "agente-ambiental",
+        alias: "ambiental",
+        category: "Regulatorio & Público",
+        title: "Consultor en Derecho Ambiental & SMA",
+        mission: "Expedientes sancionatorios de la Superintendencia del Medio Ambiente (SMA / SNIFA), infracciones a Resoluciones de Calificación Ambiental (RCAs) y Programas de Cumplimiento (PDC).",
+        tools: ["bcn_get_codigo", "bcn_get_ley", "sma_search_sancionatorios", "export_brief_ojv"],
+        cli: "openlegal agent run ambiental \"Evaluar descargos ante formulación SMA\""
+      },
+      {
+        name: "agente-contratos",
+        alias: "contratos",
+        category: "Inmobiliario & Corporativo",
+        title: "Auditor Contractual & Consumo",
+        mission: "Revisión preventiva de contratos comerciales y civiles, acuerdos de confidencialidad (NDAs), cláusulas penales, prescripción liberatoria y cumplimiento de la Ley del Consumidor (Ley N.° 19.496).",
+        tools: ["bcn_get_codigo", "bcn_get_ley", "sii_search_circulares", "tdlc_search_jurisprudencia"],
+        cli: "openlegal agent run contratos \"Auditar contrato de adhesión SERNAC\""
+      },
+      {
+        name: "agente-corporativo",
+        alias: "corporativo",
+        category: "Inmobiliario & Corporativo",
+        title: "Especialista en Derecho Corporativo & CMF",
+        mission: "Constitución y reforma de Sociedades por Acciones (SpA - Ley N.° 20.659) y Sociedades Anónimas (Ley N.° 18.046), cumplimiento ante la CMF, normativa tributaria del SII y libre competencia.",
+        tools: ["bcn_get_codigo", "bcn_get_ley", "cmf_search_normativa", "sii_search_circulares"],
+        cli: "openlegal agent run corporativo \"Constitución de SpA y pacto de accionistas\""
+      },
+      {
+        name: "agente-propiedad-datos",
+        alias: "propiedad-datos",
+        category: "Forense & Social",
+        title: "Protección de Datos & Marcas INAPI",
+        mission: "Nueva Ley de Protección de Datos Personales, tramitación de Derechos ARCO (acceso, rectificación, cancelación y oposición), y factibilidad de registro marcario ante INAPI.",
+        tools: ["privacidad_tramitar_arco", "inapi_cease_and_desist", "inapi_evaluar_marca", "bcn_get_ley"],
+        cli: "openlegal agent run propiedad-datos \"Tramitar solicitud ARCO ante banco\""
+      },
+      {
+        name: "agente-expedientes",
+        alias: "expedientes",
+        category: "Litigación & Procesal",
+        title: "Compilador Pericial de Dossiers A4",
+        mission: "Ensamblaje pericial de expedientes procesales en PDF formato A4, foliado secuencial automático, separadores institucionales probatorios y generación de marcadores nativos TOC.",
+        tools: ["compile_legal_dossier", "export_brief_ojv"],
+        cli: "openlegal agent run expedientes \"Compilar expediente con 12 otrosíes\""
+      },
+      {
+        name: "agente-investigacion-ia",
+        alias: "investigacion-ia",
+        category: "Dogmática & Ingesta",
+        title: "Investigador Grounded con NotebookLM",
+        mission: "Investigación jurídica con citas fidedignas conectada a Google NotebookLM, creación de cuadernos de evidencia, ingesta de expedientes y grafos relacionales de vínculos societarios.",
+        tools: ["notebooklm_create_notebook", "notebooklm_add_source", "notebooklm_query", "generar_grafo_vinculos"],
+        cli: "openlegal agent run investigacion-ia \"Cruzar testimonios y peritajes en prueba\""
+      }
+    ];
+
+    let currentAgentCat = 'all';
+    let currentAgentSearch = '';
+
+    function renderAgents() {
+      const grid = document.getElementById('agentsGrid');
+      if (!grid) return;
+      grid.innerHTML = '';
+
+      const filtered = ALL_AGENTS.filter(a => {
+        const matchesCat = (currentAgentCat === 'all') || (a.category === currentAgentCat);
+        const matchesTerm = a.name.toLowerCase().includes(currentAgentSearch) ||
+                            a.alias.toLowerCase().includes(currentAgentSearch) ||
+                            a.title.toLowerCase().includes(currentAgentSearch) ||
+                            a.mission.toLowerCase().includes(currentAgentSearch) ||
+                            a.tools.some(t => t.toLowerCase().includes(currentAgentSearch));
+        return matchesCat && matchesTerm;
+      });
+
+      filtered.forEach(a => {
+        const card = document.createElement('div');
+        card.className = 'agent-card';
+        const toolsHtml = a.tools.slice(0, 4).map(t => `<span class="agent-tool-pill">${t}</span>`).join('') +
+                          (a.tools.length > 4 ? `<span class="agent-tool-pill" style="opacity: 0.7;">+${a.tools.length - 4} más</span>` : '');
+        card.innerHTML = `
+          <div class="agent-header-row">
+            <span class="agent-id-badge">${a.name}</span>
+            <span class="tool-cat-badge">${a.category}</span>
+          </div>
+          <div class="agent-title">${a.title}</div>
+          <p class="agent-mission">${a.mission}</p>
+          <div class="agent-tools-row">${toolsHtml}</div>
+          <div class="agent-cli-box">
+            <span style="color: rgba(255,255,255,0.4);">$</span>
+            <span>${a.cli}</span>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // Agent filters
+    document.querySelectorAll('[data-agent-cat]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-agent-cat]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentAgentCat = btn.dataset.agentCat;
+        renderAgents();
+      });
+    });
+
+    const agentSearchEl = document.getElementById('agentSearchInput');
+    if (agentSearchEl) {
+      agentSearchEl.addEventListener('input', (e) => {
+        currentAgentSearch = e.target.value.toLowerCase().trim();
+        renderAgents();
+      });
+    }
+
+    renderAgents();
     renderTools();
   </script>
 </body>
