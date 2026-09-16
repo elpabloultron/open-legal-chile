@@ -395,6 +395,46 @@ TOOLS = [
         }
     },
     {
+        "name": "doctrina_ingestar_documento",
+        "description": "Convierte documentos (PDF, DOCX, TXT, MD) o textos a Markdown canónico de alta densidad dogmática (normas RAE/ASALE y citas chilenas BCN/CS) y actualiza automáticamente el Knowledge Graph (legal_knowledge_graph.json) y el índice SQLite FTS5 de doctrina.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "file_path": {
+                    "type": "string",
+                    "description": "Ruta al archivo (.pdf, .docx, .txt, .md) o texto crudo a procesar."
+                },
+                "area": {
+                    "type": "string",
+                    "description": "Área del derecho (ej. 'civil', 'procesal', 'laboral', 'penal', 'constitucional', 'administrativo'). Por defecto 'civil'.",
+                    "default": "civil"
+                },
+                "tratadista": {
+                    "type": "string",
+                    "description": "Nombre del autor o tratadista (ej. 'René Ramos Pazos', 'Enrique Barros Bourie')."
+                },
+                "obra": {
+                    "type": "string",
+                    "description": "Título de la obra, tratado o manual jurídico."
+                },
+                "materia": {
+                    "type": "string",
+                    "description": "Materia dogmática específica tratada en el documento."
+                },
+                "actualizar_grafo": {
+                    "type": "boolean",
+                    "description": "Si es True, asimila y reconstruye de inmediato el Knowledge Graph de LegalGraphify (legal_knowledge_graph.json).",
+                    "default": True
+                },
+                "target_path": {
+                    "type": "string",
+                    "description": "Ruta de destino personalizada para el archivo .md generado (opcional)."
+                }
+            },
+            "required": ["file_path"]
+        }
+    },
+    {
         "name": "grado_interrogar",
         "description": "Interroga socráticamente al egresado de derecho con preguntas de examen de grado en Chile, evaluando su precisión con la doctrina canónica y códigos.",
         "inputSchema": {
@@ -1156,6 +1196,20 @@ def handle_tool_call(name: str, args: dict) -> Any:
             return res
         elif name == "doctrina_list_obras":
             return {"obras_indexadas": doctrina_list_obras()}
+        elif name == "doctrina_ingestar_documento":
+            fp = args.get("file_path")
+            if not fp:
+                return {"error": "El parámetro 'file_path' es obligatorio."}
+            from doc2md_ingestor import ingestar_documento_doctrinal
+            return ingestar_documento_doctrinal(
+                file_path=fp,
+                area=args.get("area", "civil"),
+                tratadista=args.get("tratadista", ""),
+                obra=args.get("obra", ""),
+                materia=args.get("materia", ""),
+                actualizar_grafo=bool(args.get("actualizar_grafo", True)),
+                target_path=args.get("target_path")
+            )
         elif name == "grado_interrogar":
             return grado_engine.interrogar_socratico(
                 materia=args.get("materia", "civil"),

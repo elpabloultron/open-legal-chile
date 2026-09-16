@@ -9982,13 +9982,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
-      "target": "via_excepcion_perentoria"
+      "target": "via_juicio_ejecutivo"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
-      "target": "via_juicio_ejecutivo"
+      "target": "via_excepcion_perentoria"
     },
     {
       "relation": "comparte_norma",
@@ -12874,13 +12874,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa",
-      "target": "via_accion_reivindicatoria"
+      "target": "via_demanda_ordinaria"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa",
-      "target": "via_demanda_ordinaria"
+      "target": "via_accion_reivindicatoria"
     },
     {
       "relation": "analizado_por",
@@ -15928,13 +15928,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct",
-      "target": "via_audiencia_preparatoria"
+      "target": "via_tutela_laboral"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct",
-      "target": "via_tutela_laboral"
+      "target": "via_audiencia_preparatoria"
     },
     {
       "relation": "via_procesal",
@@ -16882,7 +16882,7 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_el_recurso_de_proteccion_art_20_cpr",
-      "target": "via_recurso_de_proteccion"
+      "target": "via_medida_cautelar"
     },
     {
       "relation": "via_procesal",
@@ -16894,7 +16894,7 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_el_recurso_de_proteccion_art_20_cpr",
-      "target": "via_medida_cautelar"
+      "target": "via_recurso_de_proteccion"
     },
     {
       "relation": "analizado_por",
@@ -18180,13 +18180,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
-      "target": "via_excepcion_perentoria"
+      "target": "via_juicio_ejecutivo"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
-      "target": "via_juicio_ejecutivo"
+      "target": "via_excepcion_perentoria"
     },
     {
       "relation": "comparte_norma",
@@ -21072,13 +21072,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa",
-      "target": "via_accion_reivindicatoria"
+      "target": "via_demanda_ordinaria"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa",
-      "target": "via_demanda_ordinaria"
+      "target": "via_accion_reivindicatoria"
     },
     {
       "relation": "analizado_por",
@@ -24126,13 +24126,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct",
-      "target": "via_audiencia_preparatoria"
+      "target": "via_tutela_laboral"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct",
-      "target": "via_tutela_laboral"
+      "target": "via_audiencia_preparatoria"
     },
     {
       "relation": "via_procesal",
@@ -25080,7 +25080,7 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_el_recurso_de_proteccion_art_20_cpr",
-      "target": "via_recurso_de_proteccion"
+      "target": "via_medida_cautelar"
     },
     {
       "relation": "via_procesal",
@@ -25092,7 +25092,7 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_el_recurso_de_proteccion_art_20_cpr",
-      "target": "via_medida_cautelar"
+      "target": "via_recurso_de_proteccion"
     },
     {
       "relation": "analizado_por",

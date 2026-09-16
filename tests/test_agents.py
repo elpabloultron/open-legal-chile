@@ -11,9 +11,9 @@ from mcp_server import handle_tool_call, TOOLS
 
 
 def test_agent_registry_load():
-    """Verifica la carga dinámica de los 17 perfiles de agentes desde agents/*.json."""
+    """Verifica la carga dinámica de los 18 perfiles de agentes desde agents/*.json."""
     agentes = agent_runtime.list_agents()
-    assert len(agentes) == 17
+    assert len(agentes) == 18
     nombres = [a["name"] for a in agentes]
     assert "agente-litigios" in nombres
     assert "agente-inmobiliario" in nombres
@@ -24,6 +24,7 @@ def test_agent_registry_load():
     assert "agente-vigilante" in nombres
     assert "agente-clinica" in nombres
     assert "agente-regulatorio" in nombres
+    assert "agente-ingestor" in nombres
 
 
 def test_agent_lookup_alias():
@@ -197,7 +198,7 @@ def test_mcp_agent_tools():
     # 1. agent_list
     res_list = handle_tool_call("agent_list", {})
     assert isinstance(res_list, list)
-    assert len(res_list) == 17
+    assert len(res_list) == 18
 
     # 2. agent_run
     res_run = handle_tool_call("agent_run", {
@@ -213,7 +214,49 @@ def test_mcp_agent_tools():
     # 3. agent_export_subagents
     res_exp = handle_tool_call("agent_export_subagents", {})
     assert isinstance(res_exp, dict)
-    assert len(res_exp) >= 17
+    assert len(res_exp) >= 18
+
+
+def test_deterministic_pipeline_ingestor(tmp_path):
+    """Verifica la ingesta, normalización RAE y asimilación al grafo del Agente Ingestor."""
+    sample_doc = (
+        "Tratado de la Responsabilidad Extracontractual.\n"
+        "Por don Enrique Barros Bourie.\n\n"
+        "## 🏛️ Culpa Infraccional y Presunción de Culpa\n"
+        "**Definición Canónica:**\n"
+        "La culpa infraccional se configura por la transgresión de un deber de cuidado estatutario o legal positivo.\n\n"
+        "**Operativa Procesal Forense:**\n"
+        "* **Vía Procesal:** Juicio Sumario u Ordinario de Indemnización de Perjuicios.\n"
+        "* **Carga Probatoria:** La víctima únicamente debe acreditar la infracción normativa.\n\n"
+        "**Concordancias Legales:** `[BCN - Código Civil, Art. 2314]` `[BCN - Código Civil, Art. 2329]`\n"
+        "**Criterio Jurisprudencial Rector:** `[CS - Rol N° 78.432-2023]`\n"
+    )
+    src_file = tmp_path / "test_culpa.txt"
+    src_file.write_text(sample_doc, encoding="utf-8")
+    dest_md = tmp_path / "test_culpa_canonico.md"
+
+    res = agent_runtime.run_agent(
+        "ingestor",
+        str(src_file),
+        context={
+            "area": "civil",
+            "tratadista": "Enrique Barros Bourie",
+            "obra": "Tratado de la Responsabilidad Extracontractual",
+            "target_path": str(dest_md),
+            "actualizar_grafo": False
+        },
+        mode="deterministic"
+    )
+
+    assert isinstance(res, AgentExecutionResult)
+    assert res.status == "success"
+    assert res.mode == "deterministic"
+    assert "doctrina_ingestar_documento" in res.tools_used
+    assert "CERTIFICADO DE ASIMILACIÓN DOCTRINAL" in res.output
+    assert dest_md.exists()
+    content = dest_md.read_text(encoding="utf-8")
+    assert "# TRATADO DE LA RESPONSABILIDAD EXTRACONTRACTUAL" in content
+    assert "Culpa Infraccional" in content
 
 
 def test_unknown_agent_error():

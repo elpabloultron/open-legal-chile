@@ -269,6 +269,7 @@ def test_mcp_tools_registration():
     assert "doctrina_search" in tool_names
     assert "doctrina_get_institucion" in tool_names
     assert "doctrina_list_obras" in tool_names
+    assert "doctrina_ingestar_documento" in tool_names
     assert len(TOOLS) >= 36
 
 
@@ -310,3 +311,31 @@ def test_mcp_doctrina_error_handling():
     # Institución inexistente
     err_not_found = handle_tool_call("doctrina_get_institucion", {"nombre": "termino_inexistente_12345"})
     assert "error" in err_not_found
+
+
+def test_mcp_doctrina_ingestar_documento(tmp_path):
+    """Verifica la invocación de doctrina_ingestar_documento a través de handle_tool_call."""
+    src = tmp_path / "doctrina_test.txt"
+    src.write_text(
+        "Tratado de Derecho Civil.\nPor René Ramos Pazos.\n\n"
+        "## 🏛️ Teoría de la Imprevisión\n"
+        "**Definición Canónica:**\nFacultad del deudor de solicitar la revisión judicial de las prestaciones.\n"
+        "**Operativa Procesal Forense:**\nDemanda ordinaria de revisión o excepción perentoria.\n"
+        "**Concordancias Legales:** `[BCN - Código Civil, Art. 1545]`\n"
+        "**Criterio Jurisprudencial Rector:** `[CS - Rol N° 12.345-2023]`\n",
+        encoding="utf-8"
+    )
+    dest = tmp_path / "imprevision_out.md"
+    res = handle_tool_call("doctrina_ingestar_documento", {
+        "file_path": str(src),
+        "area": "civil",
+        "tratadista": "René Ramos Pazos",
+        "obra": "De las Obligaciones",
+        "target_path": str(dest),
+        "actualizar_grafo": False
+    })
+    assert isinstance(res, dict)
+    assert res["status"] == "success"
+    assert res["instituciones_detectadas"] >= 1
+    assert dest.exists()
+

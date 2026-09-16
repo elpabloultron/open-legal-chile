@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-137%2F137_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-139%2F139_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -26,11 +26,11 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (63 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-63-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (64 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-64-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
-8. [🧠 Catálogo de Skills y Subagentes (17 Especialidades)](#-8-catálogo-de-skills-y-subagentes-17-especialidades)
+8. [🧠 Catálogo de Skills y Subagentes (18 Especialidades)](#-8-catálogo-de-skills-y-subagentes-18-especialidades)
 9. [💻 Guía Completa de la Consola CLI (`openlegal`)](#-9-guía-completa-de-la-consola-cli-openlegal)
 10. [🛡️ Certificación de Auditoría Institucional 360° (AUDIT.md)](#-10-certificación-de-auditoría-institucional-360-auditmd)
 11. [🧪 Pruebas Automatizadas y Verificación Continua](#-11-pruebas-automatizadas-y-verificación-continua)
@@ -188,9 +188,9 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (63 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (64 Herramientas Oficiales)
 
-El servidor MCP expone **63 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **64 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -222,6 +222,7 @@ El servidor MCP expone **63 herramientas oficiales** categorizadas funcionalment
 | `doctrina_search` | `query` *(str)*, `area` *(str, opc)*, `autor` *(str, opc)*, `limit` *(int)* | Búsqueda por relevancia semántica FTS5 y BM25 en tratados chilenos (Peñailillo, Ramos Pazos, Barros Bourie, Gamonal, Bermúdez, Cury, Maturana, Cea Egaña). |
 | `doctrina_get_institucion` | `nombre` *(str)*, `area` *(str, opc)* | Recupera la ficha dogmática y forense completa: definición canónica, requisitos, operativa procesal forense, concordancias BCN y fallos rectores. |
 | `doctrina_list_obras` | *(ninguno)* | Lista todos los manuales y tratados dogmáticos indexados con sus estadísticas de instituciones y tokens. |
+| `doctrina_ingestar_documento` | `file_path` *(str)*, `area` *(str, opc)*, `tratadista` *(str, opc)*, `obra` *(str, opc)*, `actualizar_grafo` *(bool)* | Convierte documentos (PDF, DOCX, TXT, MD) a Markdown canónico token-optimizado (RAE/ASALE y BCN/CS) y sincroniza de inmediato el Knowledge Graph y SQLite FTS5. |
 
 ### E. Docencia y Examen de Grado
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -477,9 +478,9 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ---
 
-## 🧠 8. Catálogo de Skills y Subagentes (17 Especialidades)
+## 🧠 8. Catálogo de Skills y Subagentes (18 Especialidades)
 
-El directorio `agents/` incluye **17 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
+El directorio `agents/` incluye **18 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
 
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
 2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
@@ -498,10 +499,11 @@ El directorio `agents/` incluye **17 perfiles de especialidad jurídica** adapta
 15. **`chilean-docket-watcher`** (`agente-vigilante`): Monitoreo de proveídos de la OJV y cálculo de plazos fatales en días hábiles judiciales.
 16. **`chilean-legal-clinic`** (`agente-clinica`): Asistencia jurídica social para consultorios CAJ y traductor a Lenguaje Claro.
 17. **`chilean-privacy-ip`** (`agente-propiedad-datos`): Tramitación de Derechos ARCO (Ley 19.628) y factibilidad marcaria ante INAPI.
+18. **`chilean-doctrine-ingestion`** (`agente-ingestor`): Asimilación e ingesta de doctrina jurídica chilena, conversión a Markdown canónico RAE/ASALE y sincronización en caliente del Knowledge Graph y SQLite FTS5.
 
 ### 🤖 Motor de Agentes Jurídicos Autónomos (`agents_runtime.py`)
 La suite incorpora un runtime de agentes con dos modalidades de ejecución:
-1. **Modo Determinista Soberano (100 % Offline, Cero API Keys):** Pipelines deterministas especializados que resuelven tareas forenses complejas (generación y ensamblaje de recursos de protección, auditoría decenal de títulos CBR, fiscalización DIP CGR, tutelas laborales) utilizando únicamente las herramientas locales de Open Legal Chile sin enviar datos a servidores externos.
+1. **Modo Determinista Soberano (100 % Offline, Cero API Keys):** Pipelines deterministas especializados que resuelven tareas forenses complejas (generación y ensamblaje de recursos de protección, auditoría decenal de títulos CBR, fiscalización DIP CGR, tutelas laborales, asimilación dogmática) utilizando únicamente las herramientas locales de Open Legal Chile sin enviar datos a servidores externos.
 2. **Modo Asistido por LLM (ReAct Multi-Proveedor):** Orquestación de agentes con modelos externos o locales (Ollama, DeepSeek, Claude, Gemini, OpenAI) con ciclos de *Pensamiento / Acción / Observación*, inyección de doctrina y auto-crítica forense en 5 dimensiones.
 
 ---
@@ -514,12 +516,13 @@ Open Legal Chile incluye una potente interfaz de línea de comandos accesible me
 # Menú interactivo de la consola (opciones [0] a [18])
 openlegal
 
-# Listar agentes jurídicos autónomos disponibles
+# Listar agentes jurídicos autónomos disponibles (18 perfiles)
 openlegal agent list
 
 # Ejecutar un agente en modo determinista soberano (100 % local)
 openlegal agent run litigios "Generar recurso de protección por corte arbitrario de agua potable"
 openlegal agent run inmobiliario "Auditar cadena de dominio CBR decenal"
+openlegal agent run ingestor /ruta/al/archivo.pdf
 
 # Conversación interactiva con un agente especializado
 openlegal agent chat dogmatico
@@ -527,7 +530,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (63 herramientas)
+# Servidor MCP estándar para agentes de IA (64 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno

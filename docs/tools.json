@@ -362,8 +362,8 @@
   {
     "name": "agent_list",
     "category": "Agentes & IA Jurídica",
-    "description": "Lista los 17 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades..",
-    "full_description": "Lista los 17 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades: litigios (recursos de protección y OJV), inmobiliario (estudio de títulos CBR), probidad administrativa (CGR y DIP), laboral (tutela y DT), dogmático (doctrina y LegalGraphify), forense (red-team y auditoría de debilidades procesales), vigilante (monitoreo de resoluciones y plazos) y clínica jurídica (lenguaje claro e intake)."
+    "description": "Lista los 18 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades.",
+    "full_description": "Lista los 18 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades: litigios (recursos de protección y OJV), inmobiliario (estudio de títulos CBR), probidad administrativa (CGR y DIP), laboral (tutela y DT), dogmático (doctrina y LegalGraphify), ingestor (conversión a Markdown canónico y asimilación de conocimiento), forense (red-team y auditoría de debilidades procesales), vigilante (monitoreo de resoluciones y plazos) y clínica jurídica (lenguaje claro e intake)."
   },
   {
     "name": "agent_run",
@@ -376,5 +376,11 @@
     "category": "Agentes & IA Jurídica",
     "description": "Exporta los perfiles de agentes jurídicos como subagentes listos para Claude Code (.claude/subagents) o Google Antigravity..",
     "full_description": "Exporta los perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (.claude/subagents) o Google Antigravity."
+  },
+  {
+    "name": "doctrina_ingestar_documento",
+    "category": "Doctrina & Graphify",
+    "description": "Convierte documentos (PDF, DOCX, TXT, MD) a Markdown canónico token-optimizado (RAE/ASALE y BCN/CS) y sincroniza de inmediato el Knowledge Graph y SQLite FTS5.",
+    "full_description": "Convierte documentos (PDF, DOCX, TXT, MD) a Markdown canónico token-optimizado de alta densidad dogmática conforme a las normas RAE/ASALE y citas oficiales BCN/CS, actualizando automáticamente en caliente el Knowledge Graph multidimensional (legal_knowledge_graph.json) y el índice SQLite FTS5 de doctrina (doctrina.db)."
   }
 ]

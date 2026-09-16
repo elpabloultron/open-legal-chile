@@ -25,7 +25,7 @@ Always attribute and cite sources using the official brackets:
 ---
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 63 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 64 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -58,50 +58,46 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 22. `pjud_analizar_sentencia`: Deconstruct judicial judgments into expositive, considerative, and resolutive sections (Art. 170 CPC).
 23. `pjud_interpretar_proveido`: Interpret standard court decrees and legal burdens in the OJV.
 24. `recurso_proteccion_generar`: Generate standardized constitutional protective actions and OJV filings under CS Acta N.° 94-2015.
-25. `ocr_extract_pdf`: Extract digital text or execute forensic OCR on scanned judicial records, deeds, and resolutions.
+25. `cbr_estudio_titulos`: Analyze 10-year real estate chain of title (Arts. 2510-2511 Civil Code) and CBR encumbrances.
+26. `cbr_checklist_documentos`: Mandatory document checklist for registry registration.
+27. `cpc_validar_mandato`: Verify judicial power of attorney and special faculties under Art. 7 CPC.
+28. `ocr_extract_pdf`: Forensic OCR extraction for scanned court filings with layout preservation.
+29. `export_brief_ojv`: Export legal briefs to clean HTML, Markdown, and JSON.
+30. `compile_legal_dossier`: Compile forensic legal dossiers in A4 format with institutional separator sheets, pagination, and TOC bookmarks.
 
-**Forensic Drafting, Assembly & Networks:**
-26. `export_brief_ojv`: Format and generate OJV-compliant briefs (Ley N° 20.886) in HTML, Markdown, plain text and JSON.
-27. `compile_legal_dossier`: Compile Markdown filings into formal A4 court PDFs, assemble evidentiary annexes with institutional separators, and generate lightweight mobile readers.
-28. `generar_grafo_vinculos`: Build network knowledge graphs of corporate ties, authorities, fund transfers, and court dockets (Mermaid & JSON).
-
-**CBR Real Estate Title Studies & Judicial Mandates:**
-29. `cbr_estudio_titulos`: Audit 10-year chain of title, CBR registrations, and potential encumbrances.
-30. `cbr_checklist_documentos`: Comprehensive checklist of mandatory documents for title studies.
-31. `cpc_validar_mandato`: Audit judicial representation powers under Art. 7 CPC and Ley N° 18.120.
-
-**AI-Assisted Investigation (Google NotebookLM):**
-32. `notebooklm_list_notebooks`: List active research notebooks and IDs in Google NotebookLM.
-33. `notebooklm_create_notebook`: Create dedicated investigation notebooks in Google NotebookLM.
-34. `notebooklm_add_source`: Ingest local PDFs, briefs, or evidence into a NotebookLM notebook.
-35. `notebooklm_query`: Query NotebookLM with grounded citations to investigate contradictory evidence.
-
-**Canonical Doctrine & Dogmatics (Token-Optimized):**
+**Dogmatic Doctrine & Academia Judicial:**
+31. `academia_judicial_buscar_guias`: Search 15 official training guides of the Academia Judicial de Chile.
+32. `biblioteca_compilar_manifiesto`: Compile and verify local manifest of 58 canonical treatises.
+33. `suite_telemetria_stats`: Query adoption telemetry and local usage metrics.
+34. `suite_verificar_actualizacion`: Check PyPI and GitHub for new suite versions.
+35. `suite_auto_update`: Automate self-update of openlegal-chile via pip.
 36. `doctrina_search`: Search Chilean canonical treatises and textbooks with FTS5 BM25 semantic ranking.
 37. `doctrina_get_institucion`: Retrieve token-optimized dogmatic card of any legal institution.
 38. `doctrina_list_obras`: List all indexed treatises and dogmatic stats.
+39. `doctrina_ingestar_documento`: Convert raw legal texts or documents (.pdf, .docx, .txt, .md) to canonical token-optimized Markdown (RAE/ASALE and BCN/CS) and immediately update knowledge graph and SQLite FTS5.
 
 **LegalGraphify Knowledge Graph:**
-39. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with 85 % - 95 % token reduction.
-40. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
-41. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
-42. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.
-43. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality.
+40. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with 85 % - 95 % token reduction.
+41. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
+42. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
+43. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.
+44. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality.
 
 **Autonomous Legal Agents Runtime:**
-44. `agent_list`: List the 17 specialized Chilean legal agent profiles and capabilities.
-45. `agent_run`: Execute autonomous legal agents in deterministic sovereign mode (100 % offline) or LLM-assisted ReAct mode.
-46. `agent_export_subagents`: Export agent configurations for Claude Code (.claude/subagents) or Google Antigravity.
+45. `agent_list`: List the 18 specialized Chilean legal agent profiles and capabilities.
+46. `agent_run`: Execute autonomous legal agents in deterministic sovereign mode (100 % offline) or LLM-assisted ReAct mode.
+47. `agent_export_subagents`: Export agent configurations for Claude Code (.claude/subagents) or Google Antigravity.
 
 ---
 
-## 4. Skills and Agents Catalog (17 areas)
+## 4. Skills and Agents Catalog (18 areas)
 | Skill (`.agents/skills/`) | Agent (`agents/*.json`) | Coverage |
 |---|---|---|
 | `chilean-employment-legal` | `agente-laboral` | Despidos Art. 161/160, Ley Karin 21.643, 40 Horas (21.561), contratación, investigaciones internas, RIHS, DT |
 | `chilean-litigation-legal` | `agente-litigios` | Intake, demandas, recursos de protección (Acta N.° 94-2015), cronologías, tablas de elementos, escritos OJV, recursos |
 | `chilean-real-estate-cbr` | `agente-inmobiliario` | Estudio de títulos decenal (10 años), inscripciones CBR, escrituras públicas, gravámenes e hipotecas, mandatos Art. 7 CPC |
 | `chilean-dogmatic-graphify` | `agente-dogmatico` | Subsunción dogmática, doctrina canónica (58 tratados), consultas subgrafo LegalGraphify y blast radius |
+| `chilean-doctrine-ingestion` | `agente-ingestor` | Ingesta y normalización RAE/ASALE de documentos (.pdf, .docx, .txt) a Markdown canónico, sincronización FTS5 y Knowledge Graph |
 | `chilean-administrative-legal` | `agente-regulatorio` | Dictámenes/auditorías CGR, compras públicas (19.886), vigilancia regulatoria, brechas normativas |
 | `chilean-energy-legal` | `agente-energia` | DFL 4/2006, Ley 20.936, PPA clientes libres, Panel de Expertos, CNE |
 | `chilean-environmental-legal` | `agente-ambiental` | Ley 19.300/20.417, SEIA, SMA/SNIFA, Programas de Cumplimiento |
@@ -150,6 +146,11 @@ All skills operate **strictly under Chilean Civil Law**, prohibit Common Law ter
 - **Role:** Consultor de alta dogmática jurídica y teoría del derecho chileno.
 - **Behavior:** Realiza subsunción técnico-jurídica, resuelve antinomias normativas, consulta los 58 tratados canónicos y traza cadenas de deducción con subgrafos LegalGraphify con ahorro masivo de tokens.
 - **Key Tools:** `graphify_consulta_subgrafo`, `graphify_trazar_camino`, `graphify_explicar_institucion`, `doctrina_search`, `doctrina_get_institucion`.
+
+### 18. `agente-ingestor` (Agente Ingestor Doctrinal & Conversor a Markdown)
+- **Role:** Especialista en asimilación e ingesta de doctrina jurídica chilena y conversión canónica.
+- **Behavior:** Normaliza textos desestructurados, manuales y sentencias en diversos formatos (PDF, DOCX, TXT) aplicando rigurosamente las normas RAE/ASALE, estandariza citas de la BCN y fallos de la Corte Suprema, y sincroniza de inmediato el Knowledge Graph multidimensional y el índice SQLite FTS5 de doctrina.
+- **Key Tools:** `doctrina_ingestar_documento`, `doctrina_search`, `doctrina_get_institucion`, `graphify_consulta_subgrafo`, `graphify_explicar_institucion`, `ocr_extract_pdf`.
 
 ---
 
