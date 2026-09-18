@@ -44,6 +44,55 @@ def _sanitize_id(text: str, prefix: str = "") -> str:
     return clean
 
 
+def extract_articulos_de_codigo(codigo_nombre: str, texto: str) -> nx.DiGraph:
+    """
+    Convierte el texto oficial de un código (p. ej. el que entrega el conector BCN) en un grafo
+    de artículos: un nodo `cuerpo_legal` para el código y uno `articulo_legal` por artículo,
+    unidos por la relación `pertenece_a`.
+
+    Rescatado del paquete `legal-graphify` al cerrarlo (18-09-2026): era su única pieza que
+    aportaba algo que este repositorio no tenía. Este repo ya saca artículos del texto
+    doctrinal, pero no de un código descargado del BCN.
+
+    Ojo con dos cosas. Primero, el reconocimiento de encabezados es por expresión regular:
+    no entiende de reformas, derogaciones ni artículos con incisos complejos. Sirve para
+    poblar el grafo con texto oficial, no para interpretarlo. Segundo, el patrón original
+    del paquete no sobrevivía a una coma (su grupo intermedio excluía la puntuación, así que
+    en un código real encontraba casi ningún artículo): aquí se corta el texto por encabezado
+    de artículo, que es más tolerante y no inventa límites.
+    """
+    grafo = nx.DiGraph()
+    codigo_id = _sanitize_id(codigo_nombre, "codigo")
+    grafo.add_node(codigo_id, label=codigo_nombre, node_type="cuerpo_legal", community=2)
+
+    inicio_articulo = re.compile(
+        r"^(?=\s*(?:Art[íi]culo|Art\.)\s+\d+)", re.IGNORECASE | re.MULTILINE
+    )
+    encabezado_articulo = re.compile(
+        r"^\s*(?:Art[íi]culo|Art\.)\s+(\d+(?:\s*(?:bis|ter|quater))?)\s*[\.\-:]?\s*",
+        re.IGNORECASE,
+    )
+
+    for fragmento in inicio_articulo.split(texto):
+        if not fragmento.strip():
+            continue
+        encabezado = encabezado_articulo.match(fragmento)
+        if not encabezado:
+            continue
+        etiqueta = f"{codigo_nombre}, Art. {encabezado.group(1).strip()}"
+        nodo_id = _sanitize_id(etiqueta, "norma")
+        grafo.add_node(
+            nodo_id,
+            label=etiqueta,
+            node_type="articulo_legal",
+            texto=fragmento[encabezado.end():].strip()[:500],
+            community=2,
+        )
+        grafo.add_edge(nodo_id, codigo_id, relation="pertenece_a")
+
+    return grafo
+
+
 class LegalGraphifyEngine:
     """
     Motor de Grafo de Conocimiento Jurídico Chileno (LegalGraphify).
@@ -453,6 +502,68 @@ class LegalGraphifyEngine:
         if aviso not in self.advertencias:
             self.advertencias.append(aviso)
         return elegido
+
+    def ingerir_codigo_bcn(self, codigo_nombre: str, texto: str) -> Dict[str, Any]:
+        """
+        Incorpora al grafo los artículos de un código cuyo texto oficial se obtuvo del BCN
+        (por ejemplo `BCNClient.get_codigo(...)`). Los artículos que ya están no se
+        duplican; los nuevos quedan disponibles para las consultas por norma.
+
+        Si el texto no rindió ningún artículo, queda el aviso: una ingesta que no ingirió nada
+        no puede reportarse como un éxito silencioso (es el error que ya cometió una vez el
+        documento inexistente del paquete).
+        """
+        if not self.is_built:
+            self.construir_grafo_desde_doctrina()
+
+        extraido = extract_articulos_de_codigo(codigo_nombre, texto)
+        articulos = sum(
+            1 for _, d in extraido.nodes(data=True) if d.get("node_type") == "articulo_legal"
+        )
+        if articulos == 0:
+            # Un texto sin artículos no toca el grafo: agregar el nodo del código por agregarlo
+            # dejaría basura ('Código Inventado') y daría la apariencia de una ingesta hecha.
+            self.advertencias.append(
+                f"El texto de '{codigo_nombre}' no rindió ningún artículo: no se incorporó nada al "
+                "grafo. Revisa que sea el texto oficial del código (el conector BCN lo entrega así) "
+                "y que los artículos vengan con su encabezado ('Art. 1234' o 'Artículo 1234')."
+            )
+            return {
+                "codigo": codigo_nombre,
+                "articulos_detectados": 0,
+                "nodos_nuevos": 0,
+                "enlaces_nuevos": 0,
+                "grafo": {
+                    "nodos": self.graph.number_of_nodes(),
+                    "aristas": self.graph.number_of_edges(),
+                },
+                "advertencias": list(self.advertencias),
+            }
+
+        nodos_nuevos, enlaces_nuevos = 0, 0
+        for nodo_id, datos in extraido.nodes(data=True):
+            if not self.graph.has_node(nodo_id):
+                self.graph.add_node(nodo_id, **datos)
+                nodos_nuevos += 1
+            if datos.get("node_type") == "articulo_legal":
+                self.normas_index[_normalize_str(datos.get("label", ""))] = nodo_id
+        for origen, destino, datos in extraido.edges(data=True):
+            if not self.graph.has_edge(origen, destino):
+                self.graph.add_edge(origen, destino, **datos)
+                enlaces_nuevos += 1
+        self.is_built = True
+
+        return {
+            "codigo": codigo_nombre,
+            "articulos_detectados": articulos,
+            "nodos_nuevos": nodos_nuevos,
+            "enlaces_nuevos": enlaces_nuevos,
+            "grafo": {
+                "nodos": self.graph.number_of_nodes(),
+                "aristas": self.graph.number_of_edges(),
+            },
+            "advertencias": list(self.advertencias),
+        }
 
     def consultar_subgrafo(self, query: str, max_hops: int = 1) -> Dict[str, Any]:
         """
@@ -866,9 +977,21 @@ class LegalGraphifyEngine:
             if not self.cargar_grafo_json():
                 self.construir_grafo_desde_doctrina()
 
+        ordenado_por = "pagerank"
         try:
             pagerank_scores = nx.pagerank(self.graph, alpha=0.85, max_iter=100)
-        except Exception:
+        except Exception as exc:
+            # Sin numpy y scipy, NetworkX no puede correr PageRank y aquí se cae a un simple
+            # grado de conexión (y cada motor caía a uno distinto). El payload sigue llamando
+            # 'pagerank' a ese número, así que tiene que quedar dicho — y el criterio de orden
+            # también tiene que quedar dicho, porque no es el mismo: una etiqueta que miente es
+            # peor que un fallback honesto.
+            ordenado_por = "grado_conexiones"
+            self.advertencias.append(
+                f"PageRank no disponible ({type(exc).__name__}: {exc}); el ranking se calculó con el "
+                "grado de conexión de cada nodo, que NO es PageRank. Instala numpy y scipy (extra "
+                "'pagerank' del paquete) si necesitas el PageRank real."
+            )
             pagerank_scores = {n: self.graph.degree(n) for n in self.graph.nodes()}
 
         degree_dict = dict(self.graph.degree())
@@ -908,11 +1031,20 @@ class LegalGraphifyEngine:
         return {
             "total_nodos_analizados": self.graph.number_of_nodes(),
             "total_aristas": self.graph.number_of_edges(),
+            "ordenado_por": ordenado_por,
             "god_instituciones": instituciones_top,
             "god_normas": normas_top,
             "analisis": (
-                f"Se han identificado las {len(instituciones_top)} instituciones dogmáticas y {len(normas_top)} normas legales "
-                f"más influyentes topológicamente según PageRank (alpha=0.85)."
+                f"Se han identificado las {len(instituciones_top)} instituciones dogmáticas y "
+                f"{len(normas_top)} normas legales más centrales topológicamente, ordenadas por "
+                + (
+                    "PageRank (alpha=0.85)."
+                    if ordenado_por == "pagerank"
+                    else "grado de conexión, porque PageRank no estaba disponible (ver advertencias)."
+                )
+                + " Cada entrada trae ambas métricas a propósito: en este grafo el 83% de los nodos"
+                " no tiene aristas de salida, así que PageRank y grado de conexión NO ordenan igual"
+                " y conviene mirar las dos antes de llamar 'pilar' a una institución."
             )
         }
 

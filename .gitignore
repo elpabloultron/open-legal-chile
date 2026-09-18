@@ -50,3 +50,6 @@ graphify-out/cache/
 uv.lock
 .update_cache.json
 
+
+# Artefactos de medios generados (promo/demo), no parte del paquete
+brag-output/
