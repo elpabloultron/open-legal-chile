@@ -366,6 +366,21 @@ class LegalGraphifyEngine:
 
         self.is_built = True
 
+        # Un grafo vacío no es un detalle: significa que las cinco herramientas graphify_*
+        # responderán "no encontrado" a todo. La causa más común es haber instalado el paquete
+        # desde PyPI, donde NO viaja el corpus doctrinal (el paquete solo lleva los módulos).
+        # Antes esto se callaba y el agente concluía que el tema no está en la doctrina.
+        if self.graph.number_of_nodes() == 0:
+            aviso = (
+                f"El grafo quedó vacío: no se encontró doctrina en '{self.doctrina_dir}' ni un "
+                f"artefacto en '{DEFAULT_GRAPH_PATH}'. Las consultas al grafo responderán "
+                "'no encontrado' a cualquier tema. Si instalaste con pip desde PyPI, ten en cuenta "
+                "que el corpus doctrinal NO viene dentro del paquete: clona el repositorio o "
+                "sincroniza la biblioteca para tener doctrina que consultar."
+            )
+            if aviso not in self.advertencias:
+                self.advertencias.append(aviso)
+
         stats = {
             "archivos_procesados": archivos_procesados,
             "total_secciones_instituciones": total_secciones,
@@ -1098,6 +1113,14 @@ class LegalGraphifyEngine:
     def cargar_grafo_json(self, filepath: str = DEFAULT_GRAPH_PATH) -> bool:
         """Carga el grafo serializado desde un archivo JSON para consulta instantánea."""
         if not os.path.exists(filepath):
+            # No es un error (primera corrida), pero tampoco puede quedar en silencio: el
+            # consumidor tiene que poder distinguir "no hay artefacto todavía" de "el grafo
+            # tiene datos y los estoy usando".
+            self.advertencias.append(
+                f"No existe el grafo en {filepath} (no hay nada cargado). Si el corpus sí está, "
+                f"reconstrúyelo con construir_grafo_desde_doctrina(); si instalaste desde PyPI, el "
+                "corpus doctrinal no viaja dentro del paquete."
+            )
             return False
         self.advertencias = []
         try:
