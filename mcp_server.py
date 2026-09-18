@@ -1469,11 +1469,12 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             anio = int(args.get("anio") or datetime.now().year)
             limite = int(args.get("limite") or 50)
             consulta = args.get("query")
+            res_actos: Any
             if consulta:
-                res = sii.buscar_actos_regionales(str(consulta), anio=anio, direccion=args.get("direccion"))
+                res_actos = sii.buscar_actos_regionales(str(consulta), anio=anio, direccion=args.get("direccion"))
             else:
-                res = sii.get_actos_direcciones_regionales(anio=anio, direccion=args.get("direccion"))
-            return res[:limite] if isinstance(res, list) else res
+                res_actos = sii.get_actos_direcciones_regionales(anio=anio, direccion=args.get("direccion"))
+            return res_actos[:limite] if isinstance(res_actos, list) else res_actos
         elif name == "sii_convenios_internacionales":
             consulta = args.get("query")
             return sii.buscar_convenios(str(consulta)) if consulta else sii.get_convenios_internacionales()
