@@ -614,8 +614,12 @@ Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
 ```bash
 python3 -m pytest tests/ -v
-# ============================== 70 passed in 1.35s ==============================
+# ============================== 148 passed ==============================
 ```
+
+> Las pruebas tardan entre 15 y 60 segundos según la red: varias consultan en vivo portales del
+> Estado (BCN, DT, CGR, PJUD). Las que fallan por eso se saltan con `pytest.skip`, no se dan por
+> pasadas.
 
 * **`.github/workflows/ci.yml`:** Matriz de integración continua en Ubuntu y Windows probando Python 3.10, 3.11, 3.12, 3.13 y 3.14.
 * **`.github/workflows/audit.yml`:** Auditoría de seguridad y calidad estricta en cada commit y Pull Request.
