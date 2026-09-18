@@ -1,7 +1,8 @@
 """
 Tests unitarios para el motor LegalGraphify y reducción de tokens con Grafos de Conocimiento.
 Valida la extracción de entidades dogmáticas, concordancias BCN, fallos rectores CS,
-cálculo de ahorro de tokens (> 70% y hasta 95%) y exportación a diagramas Mermaid.
+cálculo de ahorro de tokens (medido: 30% a 90% según la institución, mediana 74%; ver
+docs/medicion_tokens.md) y exportación a diagramas Mermaid.
 """
 
 import os
@@ -58,7 +59,11 @@ def test_ahorro_tokens_significativo(engine):
     m = ahorro["metricas"]
     assert m["tokens_subgrafo"] < m["tokens_texto_completo"]
     assert m["tokens_ahorrados"] > 0
-    assert m["porcentaje_ahorro"] >= 70.0
+    # El umbral era 70% y pasaba solo porque el tamaño de cada obra se inflaba con un piso
+    # de 1200 tokens: la medición real de 'simulacion' es 69,1% (968 -> 299). Se exige un
+    # piso que el motor cumple con números honestos, y la distribución medida vive en
+    # docs/medicion_tokens.md (mínimo 30,4%, mediana 74,1%, máximo 90,5% sobre 105 instituciones).
+    assert m["porcentaje_ahorro"] >= 50.0
     assert "x" in m["factor_reduccion"]
 
 

@@ -962,7 +962,22 @@ TOOLS = [
     }
 ]
 
-def handle_tool_call(name: str, args: dict) -> Any:
+def _con_avisos(resultado):
+    """
+    Añade los avisos del motor del grafo al payload de la herramienta, si los hay.
+    Nunca cambia la forma de la respuesta cuando no hay avisos (el harness ya depende
+    de esas claves): solo agrega 'advertencias' cuando el motor tuvo que resolver algo
+    de una manera que conviene que el agente sepa (p. ej. el grafo publicado estaba
+    corrupto y se reconstruyó, o la consulta se resolvió por texto del corpus y no por
+    nombre de institución).
+    """
+    avisos = list(getattr(legal_graphify_engine, "advertencias", []) or [])
+    if avisos and isinstance(resultado, dict) and "error" not in resultado:
+        return {**resultado, "advertencias": avisos}
+    return resultado
+
+
+def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
         if name == "bcn_get_codigo":
@@ -1414,27 +1429,27 @@ def handle_tool_call(name: str, args: dict) -> Any:
             res = legal_graphify_engine.consultar_subgrafo(q, max_hops=hops)
             if incluir_mermaid and res.get("encontrado"):
                 res["diagrama_mermaid"] = legal_graphify_engine.exportar_subgrafo_mermaid(q, max_hops=hops)
-            return res
+            return _con_avisos(res)
         elif name == "graphify_trazar_camino":
             orig = args.get("origen")
             dest = args.get("destino")
             if not orig or not dest:
                 return {"error": "Se requieren 'origen' y 'destino' para trazar el camino relacional."}
             max_c = int(args.get("max_caminos", 3))
-            return legal_graphify_engine.encontrar_camino(orig, dest, max_caminos=max_c)
+            return _con_avisos(legal_graphify_engine.encontrar_camino(orig, dest, max_caminos=max_c))
         elif name == "graphify_explicar_institucion":
             q = args.get("query")
             if not q:
                 return {"error": "El parámetro 'query' es obligatorio."}
-            return legal_graphify_engine.explicar_institucion(q)
+            return _con_avisos(legal_graphify_engine.explicar_institucion(q))
         elif name == "graphify_analizar_impacto":
             obj = args.get("objetivo")
             if not obj:
                 return {"error": "El parámetro 'objetivo' es obligatorio (norma o institución)."}
-            return legal_graphify_engine.analizar_impacto_normativo(obj)
+            return _con_avisos(legal_graphify_engine.analizar_impacto_normativo(obj))
         elif name == "graphify_god_nodes":
             top = int(args.get("top_n", 10))
-            return legal_graphify_engine.calcular_god_nodes(top_n=top)
+            return _con_avisos(legal_graphify_engine.calcular_god_nodes(top_n=top))
         else:
             return {"error": f"Herramienta '{name}' no encontrada."}
     except Exception as e:
