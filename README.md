@@ -157,6 +157,18 @@ Si instalas solo los módulos (por ejemplo copiando archivos sueltos), el motor 
 responder "no encontrado" a todo: esa fue la falla silenciosa de las versiones anteriores a la
 1.5.4.
 
+**Para leer documentos escaneados o fotografiados** (boletas, escrituras, expedientes), instala el
+extra de OCR:
+
+```bash
+pip install "openlegal-chile[ocr]"
+```
+
+Sin ese extra el motor usa Tesseract, que sirve para escaneos limpios pero **falla con fotos
+torcidas o de baja resolución** (en pruebas con dos boletas notariales fotografiadas: 0 caracteres
+con Tesseract a cualquier rotación, 553 y 525 caracteres con RapidOCR). El extractor informa
+siempre qué motor usó y, si una página no rinde texto, lo advierte en vez de reportar éxito.
+
 ### Opción E: Instalación desde Código Fuente (Desarrollo)
 ```bash
 git clone https://github.com/elpabloultron/open-legal-chile.git
