@@ -504,8 +504,8 @@ class SIIClient:
         if use_cache and os.path.exists(cache_file):
             try:
                 with open(cache_file, "r", encoding="utf-8") as f:
-                    actos = json.load(f)
-                return self._filtrar_por_direccion(actos, direccion)
+                    actos_cacheados: List[Dict[str, Any]] = json.load(f)
+                return self._filtrar_por_direccion(actos_cacheados, direccion)
             except Exception:
                 pass
 
