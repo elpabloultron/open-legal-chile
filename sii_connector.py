@@ -9,6 +9,7 @@ import sys
 import re
 import html
 import json
+import uuid
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
@@ -128,6 +129,167 @@ def _normalizar_oficio(dato: Dict[str, Any], anio: int, serie: str, carpeta: str
             "mediaType": dato.get("mTypeArchPublica", ""),
         },
         "url": f"{base_url}/jurisprudencia_administrativa/{carpeta}/{anio}/{carpeta}_jadm{anio}.htm",
+    }
+
+
+# Actos y resoluciones de las direcciones regionales: la página maestra del año enlaza un índice por
+# dirección, y cada índice es una tabla de 15 columnas (año, mes, sección, tipo, número, fecha,
+# materia, descripción, fecha de publicación, origen, «Ver Documento» → PDF, y cuatro marcas).
+SII_ACTOS_MAESTRO = "{base}/actos_y_resoluciones_{anio}.html"
+
+
+def _parsear_actos_ddrr(pagina: str, direccion: str, base_pdfs: str) -> List[Dict[str, Any]]:
+    """Extrae los actos y resoluciones de una dirección regional desde su índice anual."""
+    actos: List[Dict[str, Any]] = []
+    for fila in re.findall(r"<tr[^>]*>(.*?)</tr>", pagina, re.IGNORECASE | re.DOTALL):
+        celdas = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", fila, re.IGNORECASE | re.DOTALL)
+        if len(celdas) < 11:
+            continue
+        numero = _texto_plano(celdas[4])
+        descripcion = _texto_plano(celdas[7])
+        if not (numero or descripcion):
+            continue
+        # La tabla trae una fila de instrucciones («Nombre/título», «Breve descripción del objeto
+        # del acto») que no es un acto y se colaba como si lo fuera.
+        if "breve descripción del objeto" in descripcion.lower() or numero.lower().startswith("nombre"):
+            continue
+        m_href = re.search(r'href=["\']?([^"\'\s>]+)', celdas[10], re.IGNORECASE)
+        pdf = ""
+        if m_href:
+            href = m_href.group(1)
+            pdf = href if href.startswith("http") else f"{base_pdfs}/{href}"
+        tipo = _texto_plano(celdas[3])
+        fecha = _texto_plano(celdas[5])
+        actos.append({
+            "anio": _texto_plano(celdas[0]),
+            "mes": _texto_plano(celdas[1]),
+            "seccion": _texto_plano(celdas[2]),
+            "tipo": tipo,
+            "numero": numero,
+            "fecha": fecha,
+            "materia": _texto_plano(celdas[6]),
+            "descripcion": descripcion,
+            "fecha_publicacion": _texto_plano(celdas[8]),
+            "direccion": direccion,
+            "titulo": f"{tipo} N° {numero} de {fecha}".strip(),
+            "pdfUrl": pdf,
+        })
+    return actos
+
+
+def _parsear_convenios(pagina: str) -> List[Dict[str, Any]]:
+    """Extrae el cuadro completo de convenios tributarios internacionales.
+
+    La página publica ocho tablas de formas distintas —doble imposición (5 columnas), circulares
+    (3), intercambio de información y protocolos (2) y transporte internacional (1)—, y cada una va
+    bajo su propio título. Un parser que asumiera un solo formato leía apenas la primera y devolvía
+    36 convenios de los más de 70 que el Servicio publica. Aquí se recorre el documento en orden,
+    recordando el título vigente, y se adapta a las columnas que tenga cada tabla.
+    """
+    convenios: List[Dict[str, Any]] = []
+    seccion = ""
+
+    for bloque in re.finditer(r"<h[1-4][^>]*>(.*?)</h[1-4]>|<table[^>]*>(.*?)</table>",
+                              pagina, re.IGNORECASE | re.DOTALL):
+        if bloque.group(1) is not None:
+            titulo = _texto_plano(bloque.group(1))
+            if titulo:
+                seccion = titulo
+            continue
+
+        for fila in re.findall(r"<tr[^>]*>(.*?)</tr>", bloque.group(2), re.IGNORECASE | re.DOTALL):
+            celdas = [_texto_plano(c) for c in
+                      re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", fila, re.IGNORECASE | re.DOTALL)]
+            if not celdas or not celdas[0]:
+                continue
+            if celdas[0].lower().startswith(("país", "texto de la convención", "documentos")):
+                continue  # fila de encabezado
+            archivos = [
+                {"texto": _texto_plano(texto), "url": href.strip()}
+                for href, texto in re.findall(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
+                                              fila, re.IGNORECASE | re.DOTALL)
+            ]
+            registro: Dict[str, Any] = {
+                "seccion": seccion,
+                "pais": celdas[0],
+                "archivos": archivos,
+            }
+            if len(celdas) >= 5:
+                registro.update({
+                    "texto": celdas[1],
+                    "autoridad_competente": celdas[2],
+                    "fecha_aplicacion_chile": celdas[3],
+                    "documentos_relacionados": celdas[4],
+                })
+            elif len(celdas) == 3:
+                registro.update({"circular": celdas[1], "documentos_relacionados": celdas[2]})
+            elif len(celdas) == 2:
+                registro.update({"texto": celdas[1]})
+            convenios.append(registro)
+
+    return convenios
+
+
+# Jurisprudencia judicial del SII (acjui): no es un sitio estático, es una aplicación AngularJS
+# cuyo bundle define su protocolo. Las consultas van por POST con un sobre metaData/data, usando el
+# token de conversación que la propia aplicación emplea cuando no hay sesión («####», del bundle:
+# `token = getCookie("TOKEN") || "####"`). El listado completo de sentencias se obtiene con
+# `pronunciamientos/filter`; los demás métodos (find-articulos, find-instancias) sirven de apoyo.
+SII_JUDICIAL_BASE = "https://www4.sii.cl/acjui"
+SII_JUDICIAL_NS = "cl.sii.sdi.lob.juridica.acj.data.impl.InternetApplicationService/"
+SII_JUDICIAL_TOKEN = "####"
+
+
+def _sobre_acjui(metodo: str, datos: Dict[str, Any]) -> bytes:
+    """Cuerpo que espera el servicio de jurisprudencia judicial del SII."""
+    return json.dumps({
+        "metaData": {
+            "namespace": SII_JUDICIAL_NS + metodo,
+            "conversationId": SII_JUDICIAL_TOKEN,
+            "transactionId": str(uuid.uuid4()),
+            "page": None,
+        },
+        "data": datos,
+    }).encode("utf-8")
+
+
+def _normalizar_sentencia(dato: Dict[str, Any]) -> Dict[str, Any]:
+    """Traduce una sentencia del buscador judicial del SII a la forma del conector."""
+
+    def nombre(campo: str) -> str:
+        valor = dato.get(campo)
+        if isinstance(valor, dict):
+            return str(valor.get("nombre") or "")
+        return str(valor or "")
+
+    articulos = []
+    for relacion in dato.get("pronunciamientosArticulos") or []:
+        articulo = (relacion or {}).get("articulo") or {}
+        if not articulo:
+            continue
+        cuerpo = (articulo.get("tituloBO") or {}).get("cuerpoNormativo") or {}
+        articulos.append({
+            "cuerpo_normativo": str(cuerpo.get("nombre") or ""),
+            "numero": str(articulo.get("numero") or ""),
+            "nombre": str(articulo.get("nombre") or ""),
+        })
+
+    codigo = str(dato.get("codigoPronunciamiento") or "")
+    fecha = str(dato.get("fecha") or "")
+    partes = str(dato.get("partes") or "")
+    return {
+        "tipo": "Sentencia (jurisprudencia judicial SII)",
+        "codigo": codigo,
+        "fecha": fecha,
+        "ruc": str(dato.get("ruc") or ""),
+        "partes": partes,
+        "tribunal": nombre("instancia"),
+        "decision": nombre("decision"),
+        "resultado": nombre("resultado"),
+        "extracto": str(dato.get("contenido") or "").strip(),
+        "articulos": articulos,
+        "url_documento": str(dato.get("urlDocumento") or ""),
+        "titulo": f"Sentencia {codigo} de {fecha}" + (f" — {partes[:70]}" if partes else ""),
     }
 
 
@@ -327,6 +489,272 @@ class SIIClient:
             "nombreDocumento": descarga.get("nombreDocumento", ""),
             "es_pdf": contenido[:4] == b"%PDF",
         }
+
+    def get_actos_direcciones_regionales(self, anio: int = 2026, direccion: Optional[str] = None,
+                                        use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Indexa los actos y resoluciones que las direcciones regionales y unidades del SII publican por año.
+
+        La página maestra del año enlaza un índice por dirección (Metropolitana Centro, Valparaíso,
+        Grandes Contribuyentes, Fiscalización…), y cada índice es una tabla con el número, la fecha,
+        la materia y el PDF del acto. Se puede pedir una sola dirección —`direccion="valparaiso"`—
+        para no traer el país entero cuando se busca un caso puntual.
+        """
+        cache_key = f"actos_ddrr_{anio}"
+        cache_file = self._get_cache_path(cache_key)
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    actos = json.load(f)
+                return self._filtrar_por_direccion(actos, direccion)
+            except Exception:
+                pass
+
+        maestro = SII_ACTOS_MAESTRO.format(base=BASE_URL, anio=anio)
+        headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
+        try:
+            with safe_urlopen(urllib.request.Request(maestro, headers=headers), timeout=30) as resp:
+                html_maestro = resp.read().decode("utf-8", errors="ignore")
+        except Exception as e:
+            return [_aviso(
+                f"No se pudo cargar el índice de actos y resoluciones {anio}",
+                f"La página maestra del SII no respondió ({e}). Esto NO significa que no haya actos "
+                "publicados ese año.",
+            )]
+
+        indices = []
+        for href, texto in re.findall(r'<a[^>]+href=["\']([^"\']*normativa_ddrr[^"\']*)["\'][^>]*>(.*?)</a>',
+                                      html_maestro, re.IGNORECASE | re.DOTALL):
+            url_indice = urllib.parse.urljoin(maestro, href.strip())
+            indices.append({"direccion": _texto_plano(texto), "url": url_indice})
+
+        if not indices:
+            return [_aviso(
+                f"El índice de actos y resoluciones {anio} no listó direcciones",
+                "La página respondió pero sin enlaces a índices de direcciones: probablemente cambió "
+                "su estructura y hay que actualizar el parser.",
+            )]
+
+        actos: List[Dict[str, Any]] = []
+        fallos: List[str] = []
+        for indice in indices:
+            base_pdfs = indice["url"].rsplit("/", 1)[0]
+            try:
+                with safe_urlopen(urllib.request.Request(indice["url"], headers=headers), timeout=45) as resp:
+                    pagina = resp.read().decode("utf-8", errors="ignore")
+            except Exception as e:
+                fallos.append(f"{indice['direccion']}: {e}")
+                continue
+            actos.extend(_parsear_actos_ddrr(pagina, indice["direccion"], base_pdfs))
+
+        if actos:
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(actos, f, ensure_ascii=False, indent=2)
+            return self._filtrar_por_direccion(actos, direccion, fallos)
+
+        return [_aviso(
+            f"No se pudieron leer los actos y resoluciones {anio}",
+            "Ninguna dirección entregó actos (" + ("; ".join(fallos) if fallos else "índices vacíos") +
+            "). Esto NO significa que no existan actos de ese año.",
+        )]
+
+    @staticmethod
+    def _filtrar_por_direccion(actos: List[Dict[str, Any]], direccion: Optional[str],
+                               fallos: Optional[List[str]] = None) -> List[Dict[str, Any]]:
+        if not direccion:
+            return actos
+        foco = _texto_plano(direccion).lower()
+        filtrados = [a for a in actos if foco in str(a.get("direccion", "")).lower()]
+        if filtrados:
+            return filtrados
+        disponibles = sorted({str(a.get("direccion", "")) for a in actos})
+        return [_aviso(
+            f"No se encontró una dirección que coincida con «{direccion}»",
+            "Direcciones disponibles: " + "; ".join(disponibles),
+        )]
+
+    def buscar_actos_regionales(self, query: str, anio: int = 2026,
+                                direccion: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Busca en los actos y resoluciones de las direcciones regionales del SII por número o tema."""
+        actos = self.get_actos_direcciones_regionales(anio=anio, direccion=direccion)
+        if actos and isinstance(actos[0], dict) and actos[0].get("tipo") == "aviso":
+            return actos
+
+        q = query.lower().strip()
+        matches = [
+            a for a in actos
+            if q == str(a.get("numero", "")).lower()
+            or _coincide(f"{a.get('materia', '')} {a.get('descripcion', '')} {a.get('titulo', '')}", q)
+        ]
+        if matches:
+            return matches
+
+        return [_aviso(
+            f"Sin actos regionales para «{query}» en {anio}",
+            f"Se buscó en el número, la materia y la descripción de los {len(actos)} actos indexados "
+            "de ese año.",
+        )]
+
+    def get_convenios_internacionales(self, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Indexa el cuadro de convenios tributarios internacionales que publica el SII.
+
+        Incluye convenios para evitar la doble imposición, la convención multilateral, convenios de
+        transporte internacional y convenios de intercambio de información, con el país, la fecha de
+        aplicación en Chile, la autoridad competente y los textos en español e inglés.
+        """
+        cache_file = self._get_cache_path("convenios_internacionales")
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+        url = f"{BASE_URL}/convenios_internacionales.html"
+        headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
+        try:
+            with safe_urlopen(urllib.request.Request(url, headers=headers), timeout=30) as resp:
+                pagina = resp.read().decode("utf-8", errors="ignore")
+        except Exception as e:
+            return [_aviso(
+                "No se pudo cargar el cuadro de convenios tributarios internacionales",
+                f"El sitio del SII no respondió ({e}). Esto NO significa que no existan convenios.",
+            )]
+
+        convenios = _parsear_convenios(pagina)
+        if not convenios:
+            return [_aviso(
+                "El cuadro de convenios internacionales no entregó filas",
+                "La página respondió pero no se reconoció ninguna fila: probablemente cambió su "
+                "estructura y hay que actualizar el parser.",
+            )]
+
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(convenios, f, ensure_ascii=False, indent=2)
+        return convenios
+
+    def buscar_convenios(self, query: str) -> List[Dict[str, Any]]:
+        """Busca un convenio tributario internacional por país, documento relacionado o autoridad."""
+        convenios = self.get_convenios_internacionales()
+        if convenios and isinstance(convenios[0], dict) and convenios[0].get("tipo") == "aviso":
+            return convenios
+
+        q = query.lower().strip()
+        matches = [
+            c for c in convenios
+            if _coincide(f"{c.get('pais', '')} {c.get('documentos_relacionados', '')} "
+                         f"{c.get('autoridad_competente', '')}", q)
+        ]
+        if matches:
+            return matches
+
+        paises = sorted({str(c.get("pais", "")) for c in convenios})
+        return [_aviso(
+            f"Sin convenio tributario para «{query}»",
+            "Se buscó en el país, la autoridad competente y los documentos relacionados. Países con "
+            "convenio vigente o en trámite: " + ", ".join(paises),
+        )]
+
+    def get_jurisprudencia_judicial(self, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Indexa las sentencias de la jurisprudencia judicial del SII (tribunales tributarios y cortes).
+
+        Son las sentencias en que el SII ha sido parte (Tribunales Tributarios y Aduaneros, Cortes de
+        Apelaciones, Corte Suprema): 3.613 pronunciamientos entre 2008 y 2026, con las partes, el RUC,
+        la decisión, el resultado y los artículos que cada sentencia cita.
+        """
+        cache_file = self._get_cache_path("jurisprudencia_judicial")
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+        datos = {
+            "orderByField": "fecha",
+            "orderByOrder": "desc",
+            "conditions": [{"field": "codigoPronunciamiento", "operator": "like",
+                            "value": "%", "caseInsensitive": True}],
+        }
+        req = urllib.request.Request(
+            f"{SII_JUDICIAL_BASE}/services/data/internetService/pronunciamientos/filter",
+            data=_sobre_acjui("filterPronunciamientos", datos),
+            headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Jurisprudencial Chile)',
+                     'Content-Type': 'application/json'},
+        )
+        try:
+            with safe_urlopen(req, timeout=120) as resp:
+                respuesta = json.loads(resp.read().decode("utf-8", errors="ignore"))
+        except Exception as e:
+            return [_aviso(
+                "No se pudo cargar la jurisprudencia judicial del SII",
+                f"El servicio no respondió ({e}). Esto NO significa que no existan sentencias.",
+            )]
+
+        errores = (respuesta.get("metaData") or {}).get("errors")
+        if errores:
+            return [_aviso(
+                "El servicio de jurisprudencia judicial del SII respondió con error",
+                f"{errores}. Suele ocurrir si el Servicio cambia el protocolo de su buscador.",
+            )]
+
+        sentencias = [_normalizar_sentencia(d) for d in (respuesta.get("data") or []) if isinstance(d, dict)]
+        if not sentencias:
+            return [_aviso(
+                "El buscador judicial del SII no entregó sentencias",
+                "Respondió sin datos: probablemente cambió el formato de su respuesta.",
+            )]
+
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(sentencias, f, ensure_ascii=False, indent=2)
+        return sentencias
+
+    def buscar_jurisprudencia_judicial(self, query: str = "", desde: Optional[str] = None,
+                                       hasta: Optional[str] = None,
+                                       tribunal: Optional[str] = None,
+                                       limite: int = 20) -> List[Dict[str, Any]]:
+        """Busca sentencias de la jurisprudencia judicial del SII por partes, materia, código o artículo.
+
+        `desde` y `hasta` son fechas ISO (aaaa-mm-dd) y `tribunal` filtra por nombre de tribunal.
+        """
+        sentencias = self.get_jurisprudencia_judicial()
+        if sentencias and isinstance(sentencias[0], dict) and sentencias[0].get("tipo") == "aviso":
+            return sentencias
+
+        q = (query or "").lower().strip()
+        foco_tribunal = (tribunal or "").lower().strip()
+        encontradas = []
+        for s in sentencias:
+            if desde and str(s.get("fecha", "")) < desde:
+                continue
+            if hasta and str(s.get("fecha", "")) > hasta:
+                continue
+            if foco_tribunal and foco_tribunal not in str(s.get("tribunal", "")).lower():
+                continue
+            if q:
+                articulos = " ".join(
+                    f"{a.get('cuerpo_normativo', '')} {a.get('numero', '')} {a.get('nombre', '')}"
+                    for a in s.get("articulos") or []
+                )
+                texto = (f"{s.get('partes', '')} {s.get('extracto', '')} {s.get('codigo', '')} "
+                         f"{s.get('ruc', '')} {s.get('decision', '')} {s.get('resultado', '')} "
+                         f"{s.get('tribunal', '')} {articulos}")
+                if not _coincide(texto, q):
+                    continue
+            encontradas.append(s)
+            if len(encontradas) >= limite:
+                break
+
+        if encontradas:
+            return encontradas
+
+        return [_aviso(
+            f"Sin sentencias del SII para «{query}»"
+            + (f" entre {desde} y {hasta}" if desde or hasta else ""),
+            f"Se buscó en las partes, el extracto, el código, el RUC, la decisión y los artículos "
+            f"citados de las {len(sentencias)} sentencias indexadas. El buscador del SII mezcla "
+            "nombres de contribuyentes: si buscas una materia, prueba con la palabra que usaría el "
+            "Servicio o con el número de artículo.",
+        )]
 
     def search_resoluciones_y_oficios(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
         """Busca resoluciones exentas y oficios del SII por número o término tributario.

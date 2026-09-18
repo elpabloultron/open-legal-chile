@@ -236,3 +236,137 @@ def test_la_jurisprudencia_administrativa_avisa_si_el_servicio_no_responde(monke
 
     assert res and res[0]["tipo"] == "aviso"
     assert "NO significa" in res[0]["mensaje"]
+
+
+# --- 5. SII: actos regionales, convenios internacionales y jurisprudencia judicial --------------
+
+HTML_ACTOS = """
+<table>
+<tr><td></td><td></td><td></td><td></td><td>Nombre/título</td><td></td><td></td>
+<td>Breve descripción del objeto del acto</td><td></td><td></td><td></td></tr>
+<tr><td>2026</td><td>Julio</td><td>Instrucciones, dictámenes y circulares</td><td>Resolución</td>
+<td>1305370</td><td>24-07-2026</td><td>CONDONACIÓN</td><td>OTORGA CONDONACIÓN QUE INDICA</td>
+<td>6-8-2026</td><td>Sitio Web Institucional</td>
+<td><a href="reso1305370_83902.pdf">Ver Documento</a></td><td>NO</td><td>No</td><td>No aplica</td>
+<td>No aplica</td></tr>
+</table>
+"""
+
+HTML_CONVENIOS = """
+<h3>Convenios para evitar la doble imposición</h3>
+<table>
+<tr><th>País/ Country</th><th>Texto/Text</th><th>Autoridad Competente</th>
+<th>Fecha de Aplicación en Chile</th><th>Documentos Relacionados</th></tr>
+<tr><td>Argentina</td><td><a href="chile_argentina.pdf">Español</a></td>
+<td>Ministro de Hacienda y Director SII</td><td>01.01.2017</td>
+<td><a href="circu27.pdf">Circular N° 27 de 2019</a></td></tr>
+</table>
+<h3>Convenios de intercambio de información</h3>
+<table>
+<tr><th>País/ Country</th><th>Texto/Text</th></tr>
+<tr><td>Bermudas</td><td><a href="bermudas.pdf">Español</a></td></tr>
+</table>
+<h3>Convenios de transporte internacional</h3>
+<table>
+<tr><td>Alemania (marítimo)</td></tr>
+</table>
+"""
+
+
+def test_los_actos_regionales_se_extraen_y_no_entra_la_fila_de_instrucciones():
+    from sii_connector import _parsear_actos_ddrr
+
+    actos = _parsear_actos_ddrr(HTML_ACTOS, "D. R. Metropolitana Centro",
+                                "https://www.sii.cl/documentos/normativa_ddrr/2026/centro")
+
+    assert len(actos) == 1, f"la fila de instrucciones no es un acto: {actos}"
+    acto = actos[0]
+    assert acto["numero"] == "1305370"
+    assert acto["fecha"] == "24-07-2026"
+    assert acto["materia"] == "CONDONACIÓN"
+    assert acto["tipo"] == "Resolución"
+    assert acto["direccion"] == "D. R. Metropolitana Centro"
+    assert acto["pdfUrl"].endswith("/documentos/normativa_ddrr/2026/centro/reso1305370_83902.pdf")
+
+
+def test_los_convenios_se_extraen_de_todas_las_tablas():
+    """La página tiene ocho tablas de 5, 3, 2 y 1 columnas: hay que leerlas todas."""
+    from sii_connector import _parsear_convenios
+
+    convenios = _parsear_convenios(HTML_CONVENIOS)
+
+    assert len(convenios) == 3, f"se esperaban los tres convenios: {convenios}"
+    doble = next(c for c in convenios if c["pais"] == "Argentina")
+    assert doble["fecha_aplicacion_chile"] == "01.01.2017"
+    assert doble["autoridad_competente"].startswith("Ministro de Hacienda")
+    assert "doble imposición" in doble["seccion"]
+    assert doble["archivos"][0]["url"] == "chile_argentina.pdf"
+
+    intercambio = next(c for c in convenios if c["pais"] == "Bermudas")
+    assert "intercambio de información" in intercambio["seccion"], "la sección se arrastra del título"
+
+    transporte = next(c for c in convenios if "Alemania" in c["pais"])
+    assert "transporte" in transporte["seccion"]
+
+
+def test_la_sentencia_judicial_se_normaliza_con_tribunal_decision_y_articulos():
+    from sii_connector import _normalizar_sentencia
+
+    dato = {
+        "id": 24515,
+        "partes": "SII con Tercer Tribunal Tributario y Aduanero de la Región Metropolitana",
+        "ruc": "25-9-0000146-4",
+        "fecha": "2026-04-15",
+        "codigoPronunciamiento": "112-2026",
+        "contenido": "Extracto de la sentencia.",
+        "urlDocumento": None,
+        "instancia": {"id": 7, "nombre": "Corte de Apelaciones de Santiago"},
+        "decision": {"id": 1, "nombre": "Ha Lugar"},
+        "resultado": {"nombre": "Revoca"},
+        "tipoPronunciamiento": {"nombre": "Sentencia"},
+        "pronunciamientosArticulos": [{
+            "articulo": {"numero": 31, "nombre": "Artículo 31",
+                         "tituloBO": {"cuerpoNormativo": {"nombre": "Ley sobre Impuesto a la Renta"}}}
+        }],
+    }
+
+    s = _normalizar_sentencia(dato)
+
+    assert s["codigo"] == "112-2026"
+    assert s["fecha"] == "2026-04-15"
+    assert s["tribunal"] == "Corte de Apelaciones de Santiago"
+    assert s["decision"] == "Ha Lugar"
+    assert s["resultado"] == "Revoca"
+    assert s["extracto"] == "Extracto de la sentencia."
+    assert s["articulos"][0]["cuerpo_normativo"] == "Ley sobre Impuesto a la Renta"
+    assert "112-2026" in s["titulo"]
+
+
+def test_el_sobre_de_la_jurisprudencia_judicial_usa_el_token_del_sitio():
+    """El protocolo es POST con metaData/data; el token es el respaldo que usa la propia página."""
+    import json as _json
+
+    from sii_connector import SII_JUDICIAL_TOKEN, _sobre_acjui
+
+    cuerpo = _json.loads(_sobre_acjui("filterPronunciamientos", {"conditions": []}))
+
+    assert SII_JUDICIAL_TOKEN == "####"
+    assert cuerpo["metaData"]["conversationId"] == SII_JUDICIAL_TOKEN
+    assert cuerpo["metaData"]["namespace"].endswith(
+        "InternetApplicationService/filterPronunciamientos")
+    assert cuerpo["data"] == {"conditions": []}
+
+
+def test_la_jurisprudencia_judicial_avisa_si_el_servicio_no_responde(monkeypatch, tmp_path):
+    import sii_connector
+
+    def sin_red(*argumentos, **clave):
+        raise RuntimeError("servicio caído")
+
+    monkeypatch.setattr(sii_connector, "safe_urlopen", sin_red)
+    sii = SIIClient(cache_dir=str(tmp_path))
+
+    res = sii.get_jurisprudencia_judicial()
+
+    assert res and res[0]["tipo"] == "aviso"
+    assert "NO significa" in res[0]["mensaje"]
