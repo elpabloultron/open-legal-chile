@@ -78,6 +78,59 @@ def _parsear_indice_sii(page_html: str, anio: int, carpeta: str, base_url: str) 
     return items
 
 
+def _numero_resolucion_sii(titulo: str) -> str:
+    """Número de una resolución exenta del SII a partir del título del índice.
+
+    El título real es «Resolución Exenta SII N° 128 del 16 de Septiembre del 2026», con «SII» entre
+    «Exenta» y el número: un patrón que exija el número justo después de «Exenta» no lo encuentra.
+    """
+    m = re.search(r"Res(?:oluci[oó]n)?\s+Ex(?:enta)?(?:\s+SII)?\s*N[°ºo\.\s]*([0-9]+)",
+                  titulo, re.IGNORECASE)
+    return m.group(1) if m else ""
+
+
+# La jurisprudencia administrativa (oficios y pronunciamientos) no está en HTML: cada serie se carga
+# por JavaScript desde un servicio del propio SII, con el cuerpo {"key": …, "year": …}. Se consulta
+# ese servicio directamente. Las claves son las que usa el sitio: RENTA, IVA y OTROS.
+SII_JADM_API = "https://www3.sii.cl/getPublicacionesCTByMateria"
+SII_JADM_DESCARGA = "https://www4.sii.cl/gabineteAdmInternet/descargaArchivo"
+SII_JADM_SERIES = {
+    "RENTA": ("Renta", "ley_impuesto_renta"),
+    "IVA": ("IVA", "ley_impuesto_ventas"),
+    "OTROS": ("Otras normas", "otras_normas"),
+}
+
+
+def _normalizar_oficio(dato: Dict[str, Any], anio: int, serie: str, carpeta: str, base_url: str) -> Dict[str, Any]:
+    """Traduce una publicación del buscador de jurisprudencia administrativa a la forma del conector.
+
+    El resumen oficial («pubResumen») es la materia, y «pubLegal» es la referencia normativa que el
+    oficio cita: ambas se indexan para poder buscar por tema o por artículo.
+    """
+    numero = str(dato.get("pubNumOficio", "")).strip()
+    fecha = str(dato.get("pubFechaPubli", "")).strip()
+    return {
+        "anio": anio,
+        "serie": serie,
+        "tipo": "Oficio / pronunciamiento (jurisprudencia administrativa SII)",
+        "numero": numero,
+        "fecha": fecha,
+        "titulo": f"Oficio N° {numero} de {fecha}" if numero else str(dato.get("pubLegal", "")).strip(),
+        "materia": str(dato.get("pubResumen") or "").strip(),
+        "materia_legal": str(dato.get("pubLegal") or "").strip(),
+        "tipo_documento": dato.get("tipoArchPublica", ""),
+        # El PDF no tiene URL directa: el sitio envía un formulario POST con estos datos
+        # (ver descargar_oficio).
+        "descarga": {
+            "nombreDocumento": f"{numero}-{fecha}.pdf",
+            "extension": dato.get("extensionArchPublica", ""),
+            "id": dato.get("idBlobArchPublica", ""),
+            "mediaType": dato.get("mTypeArchPublica", ""),
+        },
+        "url": f"{base_url}/jurisprudencia_administrativa/{carpeta}/{anio}/{carpeta}_jadm{anio}.htm",
+    }
+
+
 class SIIClient:
     def __init__(self, cache_dir: str = CACHE_DIR):
         self.cache_dir = cache_dir
@@ -143,7 +196,7 @@ class SIIClient:
             except Exception:
                 pass
 
-        url = f"{BASE_URL}/resoluciones/{anio}/indres{anio}.htm"
+        url = f"{BASE_URL}/resoluciones/{anio}/res_ind{anio}.htm"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
@@ -154,9 +207,7 @@ class SIIClient:
                 resoluciones_list = _parsear_indice_sii(page_html, anio, "resoluciones", BASE_URL)
                 for r in resoluciones_list:
                     r["tipo"] = "Resolución Exenta SII"
-                    m_num = re.search(r"Res(?:oluci[oó]n)?\s*Ex(?:enta)?\s*N[°ºo\.\s]*([0-9]+)",
-                                      r["titulo"], re.IGNORECASE)
-                    r["numero"] = m_num.group(1) if m_num else ""
+                    r["numero"] = _numero_resolucion_sii(r["titulo"])
 
                 if resoluciones_list:
                     with open(cache_file, "w", encoding="utf-8") as f:
@@ -181,8 +232,18 @@ class SIIClient:
         return resoluciones_list
 
     def get_oficios_por_anio(self, anio: int = 2026, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Descarga e indexa la jurisprudencia administrativa (Oficios Ordinarios) del Director del SII (Art. 26 CT)."""
-        cache_key = f"oficios_{anio}"
+        """Indexa la jurisprudencia administrativa del SII (oficios y pronunciamientos) de un año.
+
+        Este listado no está en HTML: cada serie —Renta, IVA y Otras normas— se carga por JavaScript
+        desde el servicio `getPublicacionesCTByMateria` del propio Servicio, así que el conector
+        consulta ese servicio directamente (las tres claves que usa el sitio: RENTA, IVA, OTROS).
+
+        La dirección anterior (/jurisprudencia/administrativa/{anio}/indjad{anio}.htm) devuelve 404 en
+        todos los años: el método llevaba tiempo devolviendo una lista vacía, que se lee como «no hay
+        jurisprudencia administrativa», y eso es falso. Lo que se indexa es el resumen oficial
+        (`pubResumen`) y la referencia normativa que cita el oficio (`pubLegal`).
+        """
+        cache_key = f"oficios_{anio}_v2"  # v2: la caché anterior estaba vacía
         cache_file = self._get_cache_path(cache_key)
 
         if use_cache and os.path.exists(cache_file):
@@ -192,45 +253,80 @@ class SIIClient:
             except Exception:
                 pass
 
-        url = f"{BASE_URL}/jurisprudencia/administrativa/{anio}/indjad{anio}.htm"
-        headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
-        req = urllib.request.Request(url, headers=headers)
-
+        headers = {
+            'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)',
+            'Content-Type': 'application/json',
+        }
         oficios_list: List[Dict[str, Any]] = []
+        fallos: List[str] = []
+
+        for clave, (nombre_serie, carpeta) in SII_JADM_SERIES.items():
+            cuerpo = json.dumps({"key": clave, "year": str(anio)}).encode("utf-8")
+            try:
+                req = urllib.request.Request(SII_JADM_API, data=cuerpo, headers=headers)
+                with safe_urlopen(req, timeout=45) as resp:
+                    datos = json.loads(resp.read().decode("utf-8", errors="ignore"))
+            except Exception as e:
+                fallos.append(f"{nombre_serie}: {e}")
+                continue
+
+            for dato in datos or []:
+                if isinstance(dato, dict):
+                    oficios_list.append(
+                        _normalizar_oficio(dato, anio, nombre_serie, carpeta, BASE_URL))
+
+        if oficios_list:
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(oficios_list, f, ensure_ascii=False, indent=2)
+            return oficios_list
+
+        detalle = "; ".join(fallos) if fallos else "el servicio respondió sin publicaciones"
+        return [_aviso(
+            f"No se pudo cargar la jurisprudencia administrativa del SII de {anio}",
+            f"Ninguna de las tres series (Renta, IVA, Otras normas) entregó publicaciones ({detalle}). "
+            "Esto NO significa que no existan oficios de ese año.",
+        )]
+
+    def descargar_oficio(self, item: Dict[str, Any], destino: Optional[str] = None) -> Dict[str, Any]:
+        """Descarga el PDF de un oficio de la jurisprudencia administrativa.
+
+        No hay URL directa: la página del SII arma un formulario —`<form name="frm" target="_blank">`,
+        sin atributo `method`— y lo envía con los datos del documento. Al no declarar método, el
+        navegador usa GET, de modo que el archivo se obtiene por parámetros en la URL (con POST el
+        servicio responde 405 Method Not Allowed).
+        """
+        descarga = item.get("descarga") or {}
+        if not descarga.get("id"):
+            return {"ok": False, "error": "el ítem no trae los datos de descarga (falta el id del archivo)"}
+
+        parametros = urllib.parse.urlencode({
+            "nombreDocumento": descarga.get("nombreDocumento", ""),
+            "extension": descarga.get("extension", ""),
+            "acc": "download",
+            "id": descarga.get("id", ""),
+            "mediaType": descarga.get("mediaType", ""),
+        })
+        req = urllib.request.Request(
+            f"{SII_JADM_DESCARGA}?{parametros}",
+            headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'},
+        )
         try:
-            with safe_urlopen(req, timeout=20) as resp:
-                page_html = resp.read().decode("utf-8", errors="ignore")
-                oficios_list = [
-                    o for o in _parsear_indice_sii(page_html, anio, "jurisprudencia/administrativa", BASE_URL)
-                    if len(o["titulo"]) >= 5 and "volver" not in o["titulo"].lower()
-                ]
-                for o in oficios_list:
-                    o["tipo"] = "Oficio Ordinario (Jurisprudencia Administrativa)"
-                    m_num = re.search(r"Oficio\s*N[°ºo\.\s]*([0-9]+)", o["titulo"], re.IGNORECASE)
-                    o["numero"] = m_num.group(1) if m_num else ""
-                    o["url"] = o.pop("pdfUrl")
-
-                if oficios_list:
-                    with open(cache_file, "w", encoding="utf-8") as f:
-                        json.dump(oficios_list, f, ensure_ascii=False, indent=2)
-                else:
-                    oficios_list = [_aviso(
-                        f"El índice de oficios {anio} no entregó ningún ítem",
-                        "La página respondió pero no se reconoció ningún ítem: probablemente cambió "
-                        "su estructura y hay que actualizar el parser.",
-                    )]
-
+            with safe_urlopen(req, timeout=60) as resp:
+                contenido = resp.read()
         except Exception as e:
-            oficios_list = [_aviso(
-                f"No se pudo cargar el índice de oficios (jurisprudencia administrativa) {anio}",
-                f"La dirección que usa este conector ya no responde ({e}). Verificado el 18-09-2026: "
-                f"{url} devuelve 404 en todos los años probados (2024 a 2026). Es la URL la que está "
-                "obsoleta, no la ausencia de oficios: hay que actualizarla a la nueva ubicación del "
-                "SII. Mientras tanto, cada oficio se consulta en el buscador de jurisprudencia "
-                "administrativa del Servicio.",
-            )]
+            return {"ok": False, "error": f"no se pudo descargar: {e}"}
 
-        return oficios_list
+        if destino:
+            with open(destino, "wb") as f:
+                f.write(contenido)
+
+        return {
+            "ok": True,
+            "bytes": len(contenido),
+            "destino": destino or "",
+            "nombreDocumento": descarga.get("nombreDocumento", ""),
+            "es_pdf": contenido[:4] == b"%PDF",
+        }
 
     def search_resoluciones_y_oficios(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
         """Busca resoluciones exentas y oficios del SII por número o término tributario.
@@ -252,7 +348,8 @@ class SIIClient:
                     if item.get("tipo") == "aviso":
                         avisos.append(item)
                         continue
-                    texto = f"{item.get('titulo', '')} {item.get('materia', '')}"
+                    texto = (f"{item.get('titulo', '')} {item.get('materia', '')} "
+                             f"{item.get('materia_legal', '')}")
                     if _coincide(texto, q_lower) or q_lower == str(item.get("numero", "")).lower():
                         matches.append(item)
 

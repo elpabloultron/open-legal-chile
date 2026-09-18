@@ -174,3 +174,65 @@ def test_la_cmf_avisa_cuando_no_puede_cargar_sanciones(monkeypatch, tmp_path):
 
     assert res and res[0]["tipo"] == "aviso"
     assert "NO significa" in res[0]["mensaje"], "el aviso debe aclarar que no es «no existen»"
+
+
+# --- 4. SII: resoluciones exentas y jurisprudencia administrativa ------------------------------
+
+def test_el_numero_de_una_resolucion_exenta_sale_del_titulo_real():
+    from sii_connector import _numero_resolucion_sii
+
+    # El título real lleva «SII» entre «Exenta» y el número.
+    assert _numero_resolucion_sii("Resolución Exenta SII N° 128 del 16 de Septiembre del 2026") == "128"
+    assert _numero_resolucion_sii("Resoluci&oacute;n Exenta SII N&deg; 6 del 05 de Enero del 2026") == ""
+    assert _numero_resolucion_sii("Resolución Exenta N° 77 de 2022") == "77"
+    assert _numero_resolucion_sii("Circular N° 35 del 31 de Agosto del 2026") == ""
+
+
+def test_la_jurisprudencia_administrativa_se_normaliza_con_su_cita_legal():
+    """La API del SII entrega pubResumen (materia) y pubLegal (referencia normativa que cita)."""
+    from sii_connector import _normalizar_oficio
+
+    dato = {
+        "pubNumOficio": "2407",
+        "pubFechaPubli": "16/09/2026",
+        "pubResumen": "Inversión en acciones o derechos sociales efectuada por sociedad autorizada.",
+        "pubLegal": "Renta – Ley sobre Impuesto a la – Art. 29, Art. 30 – Código Tributario – Art. 18",
+        "tipoArchPublica": "Oficio",
+        "extensionArchPublica": "pdf",
+        "idBlobArchPublica": "123456",
+        "mTypeArchPublica": "application/pdf",
+    }
+    oficio = _normalizar_oficio(dato, 2026, "Renta", "ley_impuesto_renta", "https://www.sii.cl/normativa_legislacion")
+
+    assert oficio["numero"] == "2407"
+    assert oficio["fecha"] == "16/09/2026"
+    assert "Inversión en acciones" in oficio["materia"]
+    assert "Art. 30" in oficio["materia_legal"]
+    assert oficio["descarga"]["nombreDocumento"] == "2407-16/09/2026.pdf"
+    assert oficio["descarga"]["id"] == "123456"
+    assert oficio["url"].endswith("ley_impuesto_renta/2026/ley_impuesto_renta_jadm2026.htm")
+
+
+def test_descargar_oficio_sin_datos_de_descarga_no_hace_la_peticion(tmp_path):
+    """Sin el identificador del archivo no hay nada que bajar: se dice, no se falla en silencio."""
+    sii = SIIClient(cache_dir=str(tmp_path))
+
+    res = sii.descargar_oficio({"numero": "2407", "fecha": "16/09/2026", "descarga": {}})
+
+    assert res["ok"] is False
+    assert "id" in res["error"]
+
+
+def test_la_jurisprudencia_administrativa_avisa_si_el_servicio_no_responde(monkeypatch, tmp_path):
+    import sii_connector
+
+    def sin_red(*argumentos, **clave):
+        raise RuntimeError("servicio caído")
+
+    monkeypatch.setattr(sii_connector, "safe_urlopen", sin_red)
+    sii = SIIClient(cache_dir=str(tmp_path))
+
+    res = sii.get_oficios_por_anio(2026)
+
+    assert res and res[0]["tipo"] == "aviso"
+    assert "NO significa" in res[0]["mensaje"]

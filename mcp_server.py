@@ -8,6 +8,7 @@ a través del protocolo estándar MCP sobre stdio (JSON-RPC 2.0).
 import sys
 import json
 import os
+from datetime import datetime
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
 _pkg_root = os.path.dirname(os.path.abspath(__file__))
@@ -714,6 +715,30 @@ TOOLS = [
         }
     },
     {
+        "name": "sii_oficios_por_anio",
+        "description": "Lista la jurisprudencia administrativa del SII (oficios y pronunciamientos del Director) de un año, por serie (Renta, IVA, Otras normas), con el resumen oficial y la referencia normativa que cada uno cita.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "anio": {"type": "integer", "description": "Año a listar (por defecto, el año en curso)"}
+            }
+        }
+    },
+    {
+        "name": "sii_descargar_oficio",
+        "description": "Descarga el PDF de un oficio de la jurisprudencia administrativa del SII, identificándolo por su número y su fecha de publicación.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "numero": {"type": "string", "description": "Número del oficio tal como aparece en el listado (p. ej. 2407 o 0358)"},
+                "fecha": {"type": "string", "description": "Fecha de publicación del oficio, formato dd/mm/aaaa"},
+                "anio": {"type": "integer", "description": "Año del índice a consultar (por defecto, el año en curso)"},
+                "destino": {"type": "string", "description": "Ruta donde guardar el PDF (opcional: si se omite, sólo se informa el tamaño descargado)"}
+            },
+            "required": ["numero", "fecha"]
+        }
+    },
+    {
         "name": "tdlc_buscar_icg_y_dictamenes",
         "description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG).",
         "inputSchema": {
@@ -1381,6 +1406,28 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             if not q:
                 return {"error": "El parámetro 'query' es obligatorio."}
             return sii.search_resoluciones_y_oficios(q, args.get("anios"))
+        elif name == "sii_oficios_por_anio":
+            return sii.get_oficios_por_anio(int(args.get("anio") or datetime.now().year))
+        elif name == "sii_descargar_oficio":
+            numero = str(args.get("numero") or "").strip()
+            fecha = str(args.get("fecha") or "").strip()
+            if not numero or not fecha:
+                return {"error": "Los parámetros 'numero' y 'fecha' son obligatorios."}
+            anio = int(args.get("anio") or datetime.now().year)
+            oficios = sii.get_oficios_por_anio(anio)
+            # El listado trae números con ceros a la izquierda («0358»), así que se compara sin ellos.
+            encontrado = next(
+                (o for o in oficios
+                 if str(o.get("numero", "")).lstrip("0") == numero.lstrip("0")
+                 and str(o.get("fecha", "")).strip() == fecha),
+                None,
+            )
+            if encontrado is None:
+                return {"error": (
+                    f"No se encontró el oficio {numero} de {fecha} en el índice de {anio}. "
+                    "Usa sii_oficios_por_anio para ver los oficios disponibles de ese año."
+                )}
+            return sii.descargar_oficio(encontrado, destino=args.get("destino"))
         elif name == "tdlc_buscar_icg_y_dictamenes":
             q = args.get("query")
             if not q:
@@ -1484,7 +1531,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.5.9"
+                            "version": "1.5.10"
                         }
                     }
                 }
