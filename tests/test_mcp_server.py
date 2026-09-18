@@ -1,6 +1,6 @@
 """
 Pruebas unitarias para el Servidor MCP (Model Context Protocol) de Open Legal Chile.
-Verifica que las 13 herramientas forenses cumplan con la especificación JSON-RPC 2.0.
+Verifica que las herramientas forenses cumplan con la especificación JSON-RPC 2.0.
 """
 
 import pytest
