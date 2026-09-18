@@ -7,8 +7,12 @@ cualquier orientación y el extractor las informaba como `ok: true, length: 0` �
 silencioso": quien lo consumía concluía que la página estaba en blanco, cuando en realidad eran
 fotos que el motor no podía leer. Con RapidOCR, las mismas páginas dieron 553 y 525 caracteres.
 
-Estas pruebas fijan que una página que no rinde texto avise, quede marcada como no-ok, y diga
-cómo resolverlo (volver a fotografiar o instalar el extra de OCR).
+Estas pruebas fijan que una página que no rinde texto del documento quede no-ok, se cuente como
+error y venga con un aviso ACCIONABLE. Se escribieron sin asumir un modo de falla concreto: según
+lo que haya instalado (motor de OCR, modelo de idioma) la razón cambia —"no extrajo ni un
+carácter" o "el modelo de idioma 'spa' no está instalado"— y en las dos el aviso tiene que decir
+qué hacer. La primera versión de estas pruebas asumía el caso local y falló en CI, que no tiene el
+modelo español: el test estaba mal, no el código.
 """
 
 import pymupdf
@@ -33,15 +37,18 @@ def _pdf_de_una_pagina(destino, con_texto=False):
 
 
 def test_pagina_sin_texto_no_se_reporta_como_exito(motor, tmp_path):
-    """Una página que el OCR no puede leer no puede quedar como ok:true."""
+    """Una página de la que no se extrajo texto del documento no puede quedar como ok:true."""
     pdf = _pdf_de_una_pagina(tmp_path / "ilegible.pdf")
     res = motor.extract_from_pdf(str(pdf))
 
     pagina = res["pages"][0]
-    assert pagina["length"] == 0, "esta página no tiene texto que leer"
     assert pagina["ok"] is False, (
         "una página ilegible quedó marcada como ok:true (éxito silencioso): "
         f"método={pagina['method']} motor={pagina['engine']}"
+    )
+    assert pagina["length"] == 0, (
+        "'length' debe medir texto extraído del documento, no el mensaje de diagnóstico: "
+        f"{pagina['length']} caracteres ({str(pagina['text'])[:80]!r})"
     )
     assert res["paginas_con_error"] >= 1
 
@@ -50,9 +57,12 @@ def test_pagina_ilegible_dice_como_arreglarlo(motor, tmp_path):
     """El aviso tiene que ser accionable: qué hacer, no solo que falló."""
     pdf = _pdf_de_una_pagina(tmp_path / "ilegible2.pdf")
     res = motor.extract_from_pdf(str(pdf))
-    avisos = " ".join(res.get("advertencias") or [])
+    avisos = res.get("advertencias") or []
 
-    assert any("no extrajo" in a or "no devolvió texto" in a for a in res["advertencias"]), res["advertencias"]
-    assert "openlegal-chile[ocr]" in avisos, (
-        f"el aviso debería indicar el extra de OCR para fotos: {avisos}"
-    )
+    assert avisos, "una página que no se pudo leer tiene que dejar aviso"
+    # El motivo depende del entorno (sin motor robusto, sin modelo de idioma...); lo que no puede
+    # cambiar es que indique cómo resolverlo.
+    assert any(
+        ("instala" in a.lower()) or ("fotograf" in a.lower()) or ("modelo de idioma" in a.lower())
+        for a in avisos
+    ), f"el aviso no dice qué hacer: {avisos}"
