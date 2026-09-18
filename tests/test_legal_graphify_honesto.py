@@ -85,6 +85,27 @@ def test_grafo_corrupto_avisa_en_vez_de_callar(engine, tmp_path):
     )
 
 
+def test_grafo_vacio_avisa_que_las_consultas_no_tendran_nada(tmp_path):
+    """
+    El paquete de PyPI no lleva el corpus doctrinal: quien lo instala tiene un motor con 0
+    nodos que responde 'no encontrado' a todo. Eso no puede quedar en silencio, porque el
+    agente concluiría que el tema no está en la doctrina.
+    """
+    vacio = LegalGraphifyEngine(doctrina_dir=str(tmp_path / "sin_doctrina"))
+    vacio.construir_grafo_desde_doctrina()
+    assert vacio.graph.number_of_nodes() == 0
+    aviso = " ".join(vacio.advertencias)
+    assert "grafo quedó vacío" in aviso, vacio.advertencias
+    assert "PyPI" in aviso and "corpus" in aviso, aviso
+
+
+def test_archivo_de_grafo_ausente_avisa(tmp_path):
+    """Tampoco puede ser silencioso 'todavía no hay artefacto'."""
+    eng = LegalGraphifyEngine()
+    assert eng.cargar_grafo_json(str(tmp_path / "no_existe.json")) is False
+    assert any("No existe el grafo" in a for a in eng.advertencias), eng.advertencias
+
+
 def test_grafo_valido_no_deja_avisos(engine):
     """Si el archivo está bien, no hay nada que avisar (el aviso no puede ser ruido)."""
     eng = LegalGraphifyEngine()
