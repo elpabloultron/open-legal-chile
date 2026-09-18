@@ -246,6 +246,21 @@ TOOLS = [
                 "start_page": {"type": "integer", "description": "Página de inicio (1-indexed, por defecto 1)"},
                 "end_page": {"type": "integer", "description": "Página final a procesar (opcional)"},
                 "force_ocr": {"type": "boolean", "description": "Forzar OCR incluso si hay texto digital"},
+                "lang": {
+                    "type": "string",
+                    "description": (
+                        "Modelo de idioma del OCR. Por defecto 'spa' (español), que es lo que necesitan "
+                        "los expedientes chilenos. Si el modelo no está instalado, la respuesta trae una "
+                        "advertencia en 'advertencias' y el idioma realmente usado en 'ocr_language'."
+                    ),
+                    "default": "spa",
+                    "enum": ["spa", "spa+eng", "eng", "osd"],
+                },
+                "dpi": {
+                    "type": "integer",
+                    "description": "Resolución de rasterizado para el OCR (por defecto 150; 300 para documentos borrosos)",
+                    "default": 150,
+                },
                 "engine": {
                     "type": "string",
                     "description": "Motor de OCR: 'auto' (detecta el mejor disponible), 'rapidocr' (PaddleOCR ONNX de alta precisión), 'paddleocr' o 'tesseract'",
@@ -1032,7 +1047,7 @@ def handle_tool_call(name: str, args: dict) -> Any:
                 end_page=end_p,
                 force_ocr=bool(args.get("force_ocr", False)),
                 dpi=int(args.get("dpi", 150)) if args.get("dpi") is not None else 150,
-                lang=str(args.get("lang", "eng")),
+                lang=str(args.get("lang", "spa")),
                 engine=str(args.get("engine", "auto"))
             )
         elif name == "compile_legal_dossier":
