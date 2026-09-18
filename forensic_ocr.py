@@ -182,6 +182,52 @@ class ForensicOCREngine:
             return "eng"
         return available[0] if available else "eng"
 
+    def resolve_language(self, requested_lang: Optional[str]) -> Dict[str, Any]:
+        """Resuelve el idioma del OCR y deja constancia de cualquier rebaja.
+
+        Un expediente chileno escaneado con el modelo inglés no falla: devuelve
+        texto peor. Como eso no se nota al leer el resultado, la rebaja se
+        informa explícitamente en `advertencia` en vez de degradar en silencio.
+        """
+        pedido = (requested_lang or "spa").strip() or "spa"
+        disponibles = self.get_available_languages()
+
+        if "+" in pedido:
+            partes = [p for p in pedido.split("+") if p]
+            faltantes = [p for p in partes if p not in disponibles]
+            if not faltantes:
+                return {"solicitado": pedido, "usado": pedido, "modelos_disponibles": disponibles}
+            # Se conserva lo que sí exista (típicamente 'spa' aunque falte 'eng').
+            presentes = [p for p in partes if p in disponibles]
+            usado = "+".join(presentes) if presentes else self._select_valid_lang("spa")
+            aviso = self._aviso_idioma(pedido, usado, disponibles, faltantes)
+            return {
+                "solicitado": pedido, "usado": usado,
+                "modelos_disponibles": disponibles, "advertencia": aviso,
+            }
+
+        if pedido in disponibles:
+            return {"solicitado": pedido, "usado": pedido, "modelos_disponibles": disponibles}
+
+        usado = "eng" if "eng" in disponibles else (disponibles[0] if disponibles else "eng")
+        aviso = self._aviso_idioma(pedido, usado, disponibles, [pedido])
+        return {
+            "solicitado": pedido, "usado": usado,
+            "modelos_disponibles": disponibles, "advertencia": aviso,
+        }
+
+    @staticmethod
+    def _aviso_idioma(pedido: str, usado: str, disponibles: List[str], faltantes: List[str]) -> str:
+        return (
+            f"El modelo de idioma '{pedido}' no está instalado en tesseract "
+            f"(instalados: {', '.join(disponibles) or 'ninguno'}; falta: {', '.join(faltantes)}); "
+            f"se leyó con '{usado}'. En documentos en español la lectura pierde precisión, así que "
+            f"revisa los datos críticos (RUT, fechas, montos) antes de usarlos. Instala el modelo con "
+            f"`sudo pacman -S tesseract-data-spa` (Arch/CachyOS) o `sudo apt install tesseract-ocr-spa` "
+            f"(Debian/Ubuntu) o `brew install tesseract-lang` (macOS); también sirve apuntar "
+            f"TESSDATA_PREFIX a un directorio que contenga spa.traineddata."
+        )
+
     def extract_from_pdf(
         self,
         pdf_path: str,
@@ -189,7 +235,7 @@ class ForensicOCREngine:
         end_page: Optional[int] = None,
         force_ocr: bool = False,
         dpi: int = 150,
-        lang: str = "eng",
+        lang: str = "spa",
         engine: str = "auto"
     ) -> Dict[str, Any]:
         """
@@ -224,6 +270,9 @@ class ForensicOCREngine:
                     "processed_pages": 0,
                     "native_pages": 0,
                     "ocr_pages": 0,
+                    "paginas_con_error": 0,
+                    "ocr_language": None,
+                    "advertencias": [],
                     "pages": [],
                     "full_text": ""
                 }
@@ -239,13 +288,23 @@ class ForensicOCREngine:
                     "error": f"Página de inicio ({start}) excede el total de páginas del documento ({total_pages})."
                 }
 
-            chosen_lang = self._select_valid_lang(lang)
+            idioma = self.resolve_language(lang)
             resolved_engine = self._resolve_engine(engine)
-
+            chosen_lang = idioma["usado"]
+            advertencias: List[str] = []
+            if resolved_engine == "rapidocr":
+                # RapidOCR (ONNX) es multilingüe: no depende de los modelos de tesseract,
+                # así que la falta de 'spa' en tesseract no le afecta y no se advierte.
+                idioma_informado = "multilingüe (rapidocr)"
+            else:
+                idioma_informado = chosen_lang
+                if idioma.get("advertencia"):
+                    advertencias.append(idioma["advertencia"])
             pages_data = []
             full_text_list = []
             ocr_pages_count = 0
             native_pages_count = 0
+            paginas_con_error = 0
 
             for pno in range(start - 1, end):
                 page_num = pno + 1
@@ -290,10 +349,18 @@ class ForensicOCREngine:
                             except OSError:
                                 pass
 
+                # Un fallo de OCR no puede pasar por texto del documento: se cuenta y se avisa.
+                fallo_pagina = text.startswith("[Error OCR") or text.startswith("[Aviso OCR")
+                if fallo_pagina:
+                    paginas_con_error += 1
+                    advertencias.append(
+                        f"página {page_num}: el OCR no devolvió texto ({text.strip('[]')[:160]})"
+                    )
                 page_entry = {
                     "page": page_num,
                     "method": method,
                     "engine": page_engine,
+                    "ok": not fallo_pagina,
                     "length": len(text),
                     "text": text
                 }
@@ -307,9 +374,13 @@ class ForensicOCREngine:
                 "processed_pages": len(pages_data),
                 "native_pages": native_pages_count,
                 "ocr_pages": ocr_pages_count,
+                "paginas_con_error": paginas_con_error,
                 "ocr_engine_used": resolved_engine if ocr_pages_count > 0 else "native",
                 "available_engines": self.get_available_engines(),
-                "ocr_language": chosen_lang,
+                "ocr_language": idioma_informado,
+                "ocr_language_requested": idioma["solicitado"],
+                "available_languages": idioma["modelos_disponibles"],
+                "advertencias": advertencias,
                 "pages": pages_data,
                 "full_text": "\n\n".join(full_text_list)
             }
