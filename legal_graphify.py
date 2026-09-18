@@ -2,7 +2,10 @@
 Open Legal Chile — Motor LegalGraphify (Knowledge Graph Jurídico de Reducción de Tokens)
 Construye un grafo de conocimiento multidimensional a partir de los 58 textos doctrinales,
 manuales y guías de la Academia Judicial chilena.
-Permite consultas hiper-densas de subgrafos con un 85% - 95% de ahorro de tokens para LLMs.
+Permite consultas hiper-densas de subgrafos con un 30% a 90% de ahorro de tokens para LLMs
+(mediana 74%, medido sobre las 105 instituciones del grafo; el detalle y el script de medición
+están en docs/medicion_tokens.md). Antes este docstring prometía 85%-95%: era falso, lo inflaba
+un piso de 1200 tokens que se aplicaba al tamaño de cada obra.
 Compatible con el esquema Node-Link de NetworkX y Graphify Labs.
 """
 
@@ -54,6 +57,11 @@ class LegalGraphifyEngine:
         self.instituciones_index: Dict[str, str] = {}  # norm_name -> node_id
         self.normas_index: Dict[str, str] = {}         # norm_name -> node_id
         self.is_built = False
+        # Avisos de esta corrida, misma convención que el CRM (avisar, no inventar).
+        # Hoy lo usa la carga del grafo: si el artefacto publicado está corrupto o no
+        # es Node-Link, se reconstruye desde doctrina/ — y quien consulta merece saberlo,
+        # porque entonces la respuesta ya no viene del artefacto que creía estar usando.
+        self.advertencias: List[str] = []
 
     def _parse_frontmatter(self, text: str) -> Tuple[Dict[str, str], str]:
         """Extrae metadatos frontmatter si existen."""
@@ -129,8 +137,12 @@ class LegalGraphifyEngine:
                         community=1
                     )
 
-                # Calcular tokens aproximados del archivo completo
-                tokens_archivo_total = max(1200, int(len(text.split()) * 1.3))
+                # Calcular tokens aproximados del archivo completo.
+                # Sin piso a propósito: antes esto era max(1200, ...) y como 54 de los 58
+                # archivos de doctrina están bajo ese umbral, el 93% de las instituciones
+                # reportaba 1200 tokens sin importar su tamaño real (de 118 a 1612), lo que
+                # inflaba el ahorro que se publica. El número debe ser el del archivo.
+                tokens_archivo_total = max(1, int(len(text.split()) * 1.3))
 
                 # Registrar nodo de Obra
                 obra_id = _sanitize_id(obra, "obra")
@@ -388,12 +400,65 @@ class LegalGraphifyEngine:
                 max_score = score
                 mejor_nodo = nid
 
-        return mejor_nodo
+        if mejor_nodo:
+            return mejor_nodo
+
+        # 4. Último recurso: el término puede no nombrar ningún nodo y, aun así, ser el
+        # tema de una obra ('compraventa' aparece en 4 tratados sin ser el label de
+        # ninguna institución). Se busca en el TEXTO del corpus y se avisa de dónde salió.
+        return self._buscar_por_corpus(query)
+
+    def _buscar_por_corpus(self, query: str) -> Optional[str]:
+        """
+        Resuelve una consulta que no calza con ningún nodo buscándola en el texto de las obras.
+        Devuelve la institución mejor conectada entre las obras que la mencionan, y deja un
+        aviso: la coincidencia es de texto, no de nombre. Preferible a responder "no encontrado"
+        cuando el tema sí está en la doctrina.
+        """
+        q_norm = _normalize_str(query)
+        if len(q_norm) < 4:
+            return None
+
+        archivos: List[str] = []
+        for raiz, _, nombres in os.walk(self.doctrina_dir):
+            for nombre in nombres:
+                if not nombre.endswith(".md"):
+                    continue
+                try:
+                    with open(os.path.join(raiz, nombre), "r", encoding="utf-8", errors="ignore") as f:
+                        if q_norm in _normalize_str(f.read()):
+                            archivos.append(nombre)
+                except OSError:
+                    continue
+        if not archivos:
+            return None
+
+        candidatos = [
+            nid
+            for nid, data in self.graph.nodes(data=True)
+            if data.get("node_type") == "institucion"
+            and os.path.basename(data.get("source_file", "")) in archivos
+        ]
+        if not candidatos:
+            return None
+
+        elegido = max(candidatos, key=lambda n: self.graph.degree(n))
+        etiqueta = self.graph.nodes[elegido].get("label", elegido)
+        aviso = (
+            f"'{query}' no es el nombre de ninguna institución del grafo, pero aparece en el texto "
+            f"de {len(archivos)} obra(s): se resolvió a la más conectada de ellas ('{etiqueta}'). "
+            "La coincidencia es de TEXTO, no de nombre: revisa el subgrafo antes de citarlo. Si es "
+            "un tema que consultas seguido, conviene que sea una institución del catálogo."
+        )
+        if aviso not in self.advertencias:
+            self.advertencias.append(aviso)
+        return elegido
 
     def consultar_subgrafo(self, query: str, max_hops: int = 1) -> Dict[str, Any]:
         """
         Recupera el subgrafo conectado para una consulta jurídica y genera una ficha sintética
-        hiper-densa de ~150-250 tokens en lugar de inyectar textos de 3.000+ tokens.
+        hiper-densa (de ~80 a ~550 tokens según la institución, medido sobre las 105 del grafo)
+        en lugar de inyectar textos completos de hasta ~1.600 tokens.
         """
         if not self.is_built:
             self.construir_grafo_desde_doctrina()
@@ -884,6 +949,7 @@ class LegalGraphifyEngine:
         """Carga el grafo serializado desde un archivo JSON para consulta instantánea."""
         if not os.path.exists(filepath):
             return False
+        self.advertencias = []
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -903,10 +969,14 @@ class LegalGraphifyEngine:
                     if g.number_of_nodes() > 0:
                         loaded_graph = g
                         break
-                except (TypeError, KeyError, Exception):
+                except Exception:  # se prueban las tres convenciones de aristas; la que falle, se salta
                     continue
 
             if loaded_graph is None or loaded_graph.number_of_nodes() == 0:
+                self.advertencias.append(
+                    f"El grafo en {filepath} no tiene una estructura Node-Link utilizable: "
+                    f"se reconstruyó desde {self.doctrina_dir}."
+                )
                 self.construir_grafo_desde_doctrina()
                 return True
 
@@ -922,7 +992,11 @@ class LegalGraphifyEngine:
                     self.normas_index[lbl] = nid
             self.is_built = True
             return True
-        except Exception:
+        except Exception as exc:
+            self.advertencias.append(
+                f"No se pudo leer {filepath} ({type(exc).__name__}: {exc}): "
+                f"se reconstruyó el grafo desde {self.doctrina_dir}."
+            )
             self.construir_grafo_desde_doctrina()
             return True
 
