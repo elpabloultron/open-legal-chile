@@ -17,7 +17,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 1112,
       "community": 1,
       "id": "obra_de_las_obligaciones_capitulo_i_concepto_elementos_y_clasificaciones"
     },
@@ -33,7 +33,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
       "tokens_seccion": 239,
-      "tokens_completos": 1200,
+      "tokens_completos": 1112,
       "norm_label": "concepto dogmatico y estructura trilateral de la obligacion",
       "community": 1,
       "id": "inst_concepto_dogmatico_y_estructura_trilateral_de_la_obligacion"
@@ -120,7 +120,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
       "tokens_seccion": 258,
-      "tokens_completos": 1200,
+      "tokens_completos": 1112,
       "norm_label": "obligaciones naturales y civiles (art. 1470 cc)",
       "community": 1,
       "id": "inst_obligaciones_naturales_y_civiles_art_1470_cc"
@@ -189,7 +189,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
       "tokens_seccion": 250,
-      "tokens_completos": 1200,
+      "tokens_completos": 1112,
       "norm_label": "obligaciones sujetas a modalidad: condicion, plazo y modo",
       "community": 1,
       "id": "inst_obligaciones_sujetas_a_modalidad_condicion_plazo_y_modo"
@@ -285,7 +285,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
       "tokens_seccion": 300,
-      "tokens_completos": 1200,
+      "tokens_completos": 1112,
       "norm_label": "obligaciones con pluralidad de sujetos: solidaridad pasiva",
       "community": 1,
       "id": "inst_obligaciones_con_pluralidad_de_sujetos_solidaridad_pasiva"
@@ -732,20 +732,20 @@
       "id": "fallo_rol_n_35_890_2017"
     },
     {
-      "label": "Demanda Ordinaria",
-      "node_type": "via_procesal",
-      "file_type": "legal_procedure",
-      "source_file": "doctrina/civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md",
-      "community": 4,
-      "id": "via_demanda_ordinaria"
-    },
-    {
       "label": "Excepcion Perentoria",
       "node_type": "via_procesal",
       "file_type": "legal_procedure",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md",
       "community": 0,
       "id": "via_excepcion_perentoria"
+    },
+    {
+      "label": "Demanda Ordinaria",
+      "node_type": "via_procesal",
+      "file_type": "legal_procedure",
+      "source_file": "doctrina/civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md",
+      "community": 4,
+      "id": "via_demanda_ordinaria"
     },
     {
       "label": "Indemnización de Perjuicios y Cláusula Penal (Art. 1535 CC)",
@@ -858,7 +858,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 513,
       "community": 1,
       "id": "obra_de_las_obligaciones_capitulo_iii_derechos_auxiliares_del_acreedor"
     },
@@ -874,7 +874,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md",
       "tokens_seccion": 196,
-      "tokens_completos": 1200,
+      "tokens_completos": 513,
       "norm_label": "concepto y catalogo de los derechos auxiliares",
       "community": 1,
       "id": "inst_concepto_y_catalogo_de_los_derechos_auxiliares"
@@ -943,7 +943,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md",
       "tokens_seccion": 257,
-      "tokens_completos": 1200,
+      "tokens_completos": 513,
       "norm_label": "la accion pauliana o revocatoria (art. 2468 cc)",
       "community": 1,
       "id": "inst_la_accion_pauliana_o_revocatoria_art_2468_cc"
@@ -1006,7 +1006,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 850,
       "community": 13,
       "id": "obra_de_las_obligaciones_capitulo_iv_extincion_de_obligaciones_y_prelacion_de_creditos"
     },
@@ -1022,7 +1022,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md",
       "tokens_seccion": 273,
-      "tokens_completos": 1200,
+      "tokens_completos": 850,
       "norm_label": "catalogo de modos de extinguir las obligaciones (art. 1567 cc)",
       "community": 8,
       "id": "inst_catalogo_de_modos_de_extinguir_las_obligaciones_art_1567_cc"
@@ -1136,7 +1136,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md",
       "tokens_seccion": 231,
-      "tokens_completos": 1200,
+      "tokens_completos": 850,
       "norm_label": "prescripcion extintiva o liberatoria (arts. 2514 al 2524 cc)",
       "community": 13,
       "id": "inst_prescripcion_extintiva_o_liberatoria_arts_2514_al_2524_cc"
@@ -1232,7 +1232,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md",
       "tokens_seccion": 276,
-      "tokens_completos": 1200,
+      "tokens_completos": 850,
       "norm_label": "prelacion de creditos y clases de privilegios (arts. 2470 al 2491 cc)",
       "community": 13,
       "id": "inst_prelacion_de_creditos_y_clases_de_privilegios_arts_2470_al_2491_cc"
@@ -1357,7 +1357,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 599,
       "community": 2,
       "id": "obra_tratado_de_responsabilidad_extracontractual_capitulo_i_modelos_y_estructura_general"
     },
@@ -1373,7 +1373,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md",
       "tokens_seccion": 195,
-      "tokens_completos": 1200,
+      "tokens_completos": 599,
       "norm_label": "sistema general y funciones de la responsabilidad civil",
       "community": 2,
       "id": "inst_sistema_general_y_funciones_de_la_responsabilidad_civil"
@@ -1424,7 +1424,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md",
       "tokens_seccion": 204,
-      "tokens_completos": 1200,
+      "tokens_completos": 599,
       "norm_label": "concurrencia de responsabilidades: cumulo u opcion de responsabilidades",
       "community": 8,
       "id": "inst_concurrencia_de_responsabilidades_cumulo_u_opcion_de_responsabilidades"
@@ -1475,7 +1475,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md",
       "tokens_seccion": 137,
-      "tokens_completos": 1200,
+      "tokens_completos": 599,
       "norm_label": "la conducta humana (accion y omision)",
       "community": 2,
       "id": "inst_la_conducta_humana_accion_y_omision"
@@ -1502,7 +1502,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/02_antijuridicidad_y_culpa.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 510,
       "community": 2,
       "id": "obra_tratado_de_responsabilidad_extracontractual_capitulo_ii_antijuridicidad_y_culpa"
     },
@@ -1518,7 +1518,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/02_antijuridicidad_y_culpa.md",
       "tokens_seccion": 135,
-      "tokens_completos": 1200,
+      "tokens_completos": 510,
       "norm_label": "antijuridicidad y deber general de cuidado (*alterum non laedere*)",
       "community": 2,
       "id": "inst_antijuridicidad_y_deber_general_de_cuidado_alterum_non_laedere"
@@ -1551,7 +1551,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/02_antijuridicidad_y_culpa.md",
       "tokens_seccion": 145,
-      "tokens_completos": 1200,
+      "tokens_completos": 510,
       "norm_label": "la culpa como estandar objetivo de conducta",
       "community": 2,
       "id": "inst_la_culpa_como_estandar_objetivo_de_conducta"
@@ -1602,7 +1602,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/02_antijuridicidad_y_culpa.md",
       "tokens_seccion": 170,
-      "tokens_completos": 1200,
+      "tokens_completos": 510,
       "norm_label": "la culpa infraccional y lex artis",
       "community": 2,
       "id": "inst_la_culpa_infraccional_y_lex_artis"
@@ -1647,7 +1647,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/03_presunciones_de_culpa_y_responsabilidad_estricta.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 816,
       "community": 2,
       "id": "obra_tratado_de_responsabilidad_extracontractual_capitulo_iii_presunciones_de_culpa_y_responsabilidad_estricta"
     },
@@ -1663,7 +1663,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/03_presunciones_de_culpa_y_responsabilidad_estricta.md",
       "tokens_seccion": 202,
-      "tokens_completos": 1200,
+      "tokens_completos": 816,
       "norm_label": "presuncion general de culpa por el hecho propio (art. 2329 cc)",
       "community": 2,
       "id": "inst_presuncion_general_de_culpa_por_el_hecho_propio_art_2329_cc"
@@ -1705,7 +1705,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/03_presunciones_de_culpa_y_responsabilidad_estricta.md",
       "tokens_seccion": 301,
-      "tokens_completos": 1200,
+      "tokens_completos": 816,
       "norm_label": "presuncion de culpa por el hecho ajeno (art. 2320 cc)",
       "community": 2,
       "id": "inst_presuncion_de_culpa_por_el_hecho_ajeno_art_2320_cc"
@@ -1792,7 +1792,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/03_presunciones_de_culpa_y_responsabilidad_estricta.md",
       "tokens_seccion": 245,
-      "tokens_completos": 1200,
+      "tokens_completos": 816,
       "norm_label": "responsabilidad estricta u objetiva en el ordenamiento chileno",
       "community": 2,
       "id": "inst_responsabilidad_estricta_u_objetiva_en_el_ordenamiento_chileno"
@@ -1864,7 +1864,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 884,
       "community": 2,
       "id": "obra_tratado_de_responsabilidad_extracontractual_capitulo_iv_dano_causalidad_y_prescripcion"
     },
@@ -1880,7 +1880,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
       "tokens_seccion": 191,
-      "tokens_completos": 1200,
+      "tokens_completos": 884,
       "norm_label": "el dano reparable: dano patrimonial y dano moral",
       "community": 2,
       "id": "inst_el_dano_reparable_dano_patrimonial_y_dano_moral"
@@ -1913,7 +1913,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
       "tokens_seccion": 205,
-      "tokens_completos": 1200,
+      "tokens_completos": 884,
       "norm_label": "nexo causal e imputacion objetiva (tesis de barros bourie)",
       "community": 2,
       "id": "inst_nexo_causal_e_imputacion_objetiva_tesis_de_barros_bourie"
@@ -1930,7 +1930,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
       "tokens_seccion": 182,
-      "tokens_completos": 1200,
+      "tokens_completos": 884,
       "norm_label": "causales de exoneracion y reduccion del dano",
       "community": 8,
       "id": "inst_causales_de_exoneracion_y_reduccion_del_dano"
@@ -1999,7 +1999,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
       "tokens_seccion": 237,
-      "tokens_completos": 1200,
+      "tokens_completos": 884,
       "norm_label": "prescripcion de la accion extracontractual (art. 2332 cc)",
       "community": 2,
       "id": "inst_prescripcion_de_la_accion_extracontractual_art_2332_cc"
@@ -2061,7 +2061,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 527,
       "community": 15,
       "id": "obra_tratado_de_los_bienes_capitulo_i_concepto_y_clasificacion_de_los_bienes"
     },
@@ -2077,7 +2077,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md",
       "tokens_seccion": 282,
-      "tokens_completos": 1200,
+      "tokens_completos": 527,
       "norm_label": "concepto dogmatico de cosa y bien (art. 565 cc)",
       "community": 15,
       "id": "inst_concepto_dogmatico_de_cosa_y_bien_art_565_cc"
@@ -2174,7 +2174,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md",
       "tokens_seccion": 183,
-      "tokens_completos": 1200,
+      "tokens_completos": 527,
       "norm_label": "derechos reales frente a derechos personales",
       "community": 5,
       "id": "inst_derechos_reales_frente_a_derechos_personales"
@@ -2219,7 +2219,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/penailillo_bienes/02_dominio_y_modos_de_adquirir.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 759,
       "community": 11,
       "id": "obra_tratado_de_los_bienes_capitulo_ii_el_dominio_y_modos_de_adquirir"
     },
@@ -2235,7 +2235,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/02_dominio_y_modos_de_adquirir.md",
       "tokens_seccion": 201,
-      "tokens_completos": 1200,
+      "tokens_completos": 759,
       "norm_label": "el dominio y su estatuto constitucional",
       "community": 10,
       "id": "inst_el_dominio_y_su_estatuto_constitucional"
@@ -2313,7 +2313,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/02_dominio_y_modos_de_adquirir.md",
       "tokens_seccion": 273,
-      "tokens_completos": 1200,
+      "tokens_completos": 759,
       "norm_label": "la dualidad titulo y modo de adquirir en chile",
       "community": 11,
       "id": "inst_la_dualidad_titulo_y_modo_de_adquirir_en_chile"
@@ -2400,7 +2400,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/02_dominio_y_modos_de_adquirir.md",
       "tokens_seccion": 218,
-      "tokens_completos": 1200,
+      "tokens_completos": 759,
       "norm_label": "la tradicion de bienes raices y el conservador de bienes raices (cbr)",
       "community": 11,
       "id": "inst_la_tradicion_de_bienes_raices_y_el_conservador_de_bienes_raices_cbr"
@@ -2481,7 +2481,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/penailillo_bienes/03_posesion_y_posesion_inscrita.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 731,
       "community": 11,
       "id": "obra_tratado_de_los_bienes_capitulo_iii_la_posesion_y_teoria_de_la_posesion_inscrita"
     },
@@ -2497,7 +2497,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/03_posesion_y_posesion_inscrita.md",
       "tokens_seccion": 334,
-      "tokens_completos": 1200,
+      "tokens_completos": 731,
       "norm_label": "concepto, estructura y clases de posesion (art. 700 cc)",
       "community": 11,
       "id": "inst_concepto_estructura_y_clases_de_posesion_art_700_cc"
@@ -2620,7 +2620,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/civil/penailillo_bienes/03_posesion_y_posesion_inscrita.md",
       "tokens_seccion": 331,
-      "tokens_completos": 1200,
+      "tokens_completos": 731,
       "norm_label": "la teoria chilena de la posesion inscrita (garantia registral)",
       "community": 11,
       "id": "inst_la_teoria_chilena_de_la_posesion_inscrita_garantia_registral"
@@ -3700,7 +3700,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/vial_del_rio_acto_juridico/03_ineficacias_nulidad_y_simulacion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 968,
       "community": 4,
       "id": "obra_teoria_general_del_acto_juridico_capitulo_iii_ineficacias_nulidad_y_simulacion"
     },
@@ -3716,7 +3716,7 @@
       "operativa_procesal": "En el petitorio de la demanda ordinaria civil, la acción de nulidad debe deducirse conjuntamente con la acción reivindicatoria contra terceros poseedores (Art. 1689 CC: la nulidad judicialmente pronunciada da acción reivindicatoria contra terceros poseedores, sin consideración a si están de buena o mala fe). Los efectos restitutorios entre las partes contratantes se rigen por las reglas de las prestaciones mutuas (Arts. 904 y ss. y 1687 CC).",
       "source_file": "doctrina/civil/vial_del_rio_acto_juridico/03_ineficacias_nulidad_y_simulacion.md",
       "tokens_seccion": 551,
-      "tokens_completos": 1200,
+      "tokens_completos": 968,
       "norm_label": "regimen juridico de la nulidad civil (absoluta vs. relativa)",
       "community": 4,
       "id": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa"
@@ -3829,7 +3829,7 @@
       "operativa_procesal": "La prueba reina en el juicio de simulación es la **prueba de presunciones judiciales** (Art. 1712 CC y Art. 426 CPC), atendida la clandestinidad del fraude: parentesco o amistad íntima entre los otorgantes, falta de capacidad económica del comprador (*affectio contrahendi* ficticia), precio vil o no enterado en dinero efectivo, retención de la posesión material por el vendedor tras la supuesta venta, o proximidad temporal con embargos o demandas de acreedores.",
       "source_file": "doctrina/civil/vial_del_rio_acto_juridico/03_ineficacias_nulidad_y_simulacion.md",
       "tokens_seccion": 353,
-      "tokens_completos": 1200,
+      "tokens_completos": 968,
       "norm_label": "la simulacion de los actos juridicos y la accion de simulacion",
       "community": 4,
       "id": "inst_la_simulacion_de_los_actos_juridicos_y_la_accion_de_simulacion"
@@ -3900,7 +3900,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/somarriva_sucesorio/01_apertura_delacion_y_derecho_real_de_herencia.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 854,
       "community": 5,
       "id": "obra_derecho_sucesorio_capitulo_i_apertura_delacion_y_derecho_real_de_herencia"
     },
@@ -3916,7 +3916,7 @@
       "operativa_procesal": "Al redactar una demanda o gestionar la posesión efectiva testada, debe acreditarse el fallecimiento mediante certificado de defunción del Servicio de Registro Civil e Identificación. Si existe controversia sobre la premoriencia entre personas llamadas a sucederse, rige la presunción de conmorientes del Art. 79 CC (ninguna de ellas sobrevive a las otras y no se transmiten derechos hereditarios entre sí).",
       "source_file": "doctrina/civil/somarriva_sucesorio/01_apertura_delacion_y_derecho_real_de_herencia.md",
       "tokens_seccion": 395,
-      "tokens_completos": 1200,
+      "tokens_completos": 854,
       "norm_label": "apertura y delacion de la herencia (arts. 955 y 956 cc)",
       "community": 5,
       "id": "inst_apertura_y_delacion_de_la_herencia_arts_955_y_956_cc"
@@ -4039,7 +4039,7 @@
       "operativa_procesal": "En el estudio de títulos inmobiliarios, la cesión de derechos hereditarios sobre una cuota universal no transfiere el dominio de inmuebles singulares. Para que los herederos o el cesionario puedan disponer de un inmueble singular de la sucesión, es requisito habilitante procesal haber practicado las inscripciones especiales de herencia ordenadas taxativamente por el Art. 688 del Código Civil.",
       "source_file": "doctrina/civil/somarriva_sucesorio/01_apertura_delacion_y_derecho_real_de_herencia.md",
       "tokens_seccion": 391,
-      "tokens_completos": 1200,
+      "tokens_completos": 854,
       "norm_label": "el derecho real de herencia y modos de adquirirlo (art. 577 cc)",
       "community": 5,
       "id": "inst_el_derecho_real_de_herencia_y_modos_de_adquirirlo_art_577_cc"
@@ -4111,7 +4111,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/somarriva_sucesorio/02_asignaciones_forzosas_y_posesion_efectiva.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 921,
       "community": 5,
       "id": "obra_derecho_sucesorio_capitulo_ii_asignaciones_forzosas_y_posesion_efectiva"
     },
@@ -4127,7 +4127,7 @@
       "operativa_procesal": "Si el testador vulnera las asignaciones forzosas en su testamento, los legitimarios perjudicados gozan de la **Acción de Reforma del Testamento** (Art. 1216 CC), la cual debe promoverse en juicio ordinario de mayor cuantía en el plazo fatal de 4 años contado desde que tuvieron conocimiento del testamento y de su calidad de legitimarios. Si se omitió totalmente a un legitimario sin desheredarlo formalmente, opera la **preterición** (Art. 1218 CC), que no anula el testamento pero lo instituye de pleno derecho en su legítima.",
       "source_file": "doctrina/civil/somarriva_sucesorio/02_asignaciones_forzosas_y_posesion_efectiva.md",
       "tokens_seccion": 442,
-      "tokens_completos": 1200,
+      "tokens_completos": 921,
       "norm_label": "las asignaciones forzosas en el derecho civil chileno (art. 1167 cc)",
       "community": 5,
       "id": "inst_las_asignaciones_forzosas_en_el_derecho_civil_chileno_art_1167_cc"
@@ -4259,7 +4259,7 @@
       "operativa_procesal": "La omisión de las inscripciones del Art. 688 CC no produce nulidad absoluta de la venta según la doctrina de la Corte Suprema, pero impide que el comprador adquiera la posesión inscrita y el dominio del inmueble (venta de cosa ajena o inoponibilidad registral). En todo estudio de títulos, debe auditarse la concatenación perfecta de estas tres inscripciones registrales.",
       "source_file": "doctrina/civil/somarriva_sucesorio/02_asignaciones_forzosas_y_posesion_efectiva.md",
       "tokens_seccion": 414,
-      "tokens_completos": 1200,
+      "tokens_completos": 921,
       "norm_label": "la posesion efectiva de la herencia (judicial vs. ley n° 19.903)",
       "community": 5,
       "id": "inst_la_posesion_efectiva_de_la_herencia_judicial_vs_ley_n_19_903"
@@ -4322,7 +4322,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/somarriva_sucesorio/03_peticion_de_herencia_y_particion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 885,
       "community": 5,
       "id": "obra_derecho_sucesorio_capitulo_iii_peticion_de_herencia_y_particion"
     },
@@ -4338,7 +4338,7 @@
       "operativa_procesal": "Se tramita en juicio ordinario civil de mayor cuantía ante el Juez Letrado del último domicilio del causante. Prescribe en 10 años para el falso heredero sin justo título (Art. 2512 CC), y en 5 años contados desde la inscripción registral para el heredero aparente al que se le concedió la posesión efectiva (Art. 1269 CC). Concede derecho a solicitar como medidas precautorias la prohibición de enajenar bienes hereditarios (Art. 290 N° 4 CPC).",
       "source_file": "doctrina/civil/somarriva_sucesorio/03_peticion_de_herencia_y_particion.md",
       "tokens_seccion": 362,
-      "tokens_completos": 1200,
+      "tokens_completos": 885,
       "norm_label": "la accion de peticion de herencia (art. 1264 cc)",
       "community": 0,
       "id": "inst_la_accion_de_peticion_de_herencia_art_1264_cc"
@@ -4443,7 +4443,7 @@
       "operativa_procesal": "Procesalmente, la acción de partición es imprescriptible e irrenunciable anticipadamente. Para iniciar el juicio arbitral, se interpone demanda de designación de árbitro partidor en juicio de no contencioso o contencioso según haya disenso, citando a comparendo de nombramiento conforme al Art. 646 CPC. El laudo y ordenata particional requiere aprobación judicial si hay incapaces o ausentes (Art. 1342 CC).",
       "source_file": "doctrina/civil/somarriva_sucesorio/03_peticion_de_herencia_y_particion.md",
       "tokens_seccion": 460,
-      "tokens_completos": 1200,
+      "tokens_completos": 885,
       "norm_label": "la particion de bienes y efecto declarativo (art. 1317 a 1344 cc)",
       "community": 5,
       "id": "inst_la_particion_de_bienes_y_efecto_declarativo_art_1317_a_1344_cc"
@@ -4560,7 +4560,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/ramos_pazos_familia/01_sociedad_conyugal_y_regimenes_patrimoniales.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 841,
       "community": 1,
       "id": "obra_derecho_de_familia_capitulo_i_sociedad_conyugal_y_regimenes_patrimoniales"
     },
@@ -4576,7 +4576,7 @@
       "operativa_procesal": "En litigios sobre disolución y liquidación de sociedad conyugal (por divorcio, muerte o cambio de régimen), se debe confeccionar el inventario solemne de bienes y la tasación pericial (Art. 1765 CC). La prueba de las recompensas recíprocas (créditos que el cónyuge tiene contra la sociedad conyugal o viceversa para evitar enriquecimiento sin causa) se tramita ante Juez Árbitro Partidor conforme a las reglas del juicio de partición de bienes.",
       "source_file": "doctrina/civil/ramos_pazos_familia/01_sociedad_conyugal_y_regimenes_patrimoniales.md",
       "tokens_seccion": 345,
-      "tokens_completos": 1200,
+      "tokens_completos": 841,
       "norm_label": "la sociedad conyugal y estructura trilateral de patrimonios",
       "community": 1,
       "id": "inst_la_sociedad_conyugal_y_estructura_trilateral_de_patrimonios"
@@ -4672,7 +4672,7 @@
       "operativa_procesal": "Para hacer valer judicialmente el Art. 150 CC frente a embargos deducidos por acreedores del marido sobre bienes de la mujer (tercería de dominio o de posesión, Art. 518 CPC), o al otorgar escrituras públicas de compraventa inmobiliaria, la mujer debe acreditar su trabajo separado mediante liquidaciones de sueldo, contratos laborales, pagos previsionales o declaraciones tributarias del SII coincidentes con la fecha de adquisición.",
       "source_file": "doctrina/civil/ramos_pazos_familia/01_sociedad_conyugal_y_regimenes_patrimoniales.md",
       "tokens_seccion": 430,
-      "tokens_completos": 1200,
+      "tokens_completos": 841,
       "norm_label": "el patrimonio reservado de la mujer casada (articulo 150 cc)",
       "community": 1,
       "id": "inst_el_patrimonio_reservado_de_la_mujer_casada_articulo_150_cc"
@@ -4753,7 +4753,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 848,
       "community": 1,
       "id": "obra_derecho_de_familia_capitulo_ii_compensacion_economica_y_alimentos"
     },
@@ -4769,7 +4769,7 @@
       "operativa_procesal": "La compensación económica debe solicitarse imperativamente en la **demanda de divorcio o nulidad**, o en la **reconvención** formulada en el escrito de contestación (Art. 64 LMC). Si no se solicita en dicha oportunidad procesal preclusiva, caduca el derecho. En la audiencia preparatoria se fijan las bases de acuerdo y en la de juicio se rinde prueba documental, testimonial e informes periciales socioeconómicos.",
       "source_file": "doctrina/civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md",
       "tokens_seccion": 352,
-      "tokens_completos": 1200,
+      "tokens_completos": 848,
       "norm_label": "la compensacion economica en el divorcio y nulidad (arts. 61 a 66 ley n° 19.947)",
       "community": 1,
       "id": "inst_la_compensacion_economica_en_el_divorcio_y_nulidad_arts_61_a_66_ley_n_19_947"
@@ -4846,7 +4846,7 @@
       "operativa_procesal": "Se tramita ante los Juzgados de Familia mediante procedimiento ordinario (Ley N° 19.968). El tribunal está facultado para decretar **alimentos provisorios** desde la sola presentación de la demanda con antecedentes verosímiles de la necesidad y de la capacidad del alimentante (Art. 327 CC y Art. 4 Ley 14.908), los cuales se cobran ejecutivamente mediante liquidación practicada por el funcionario de actas y notificación por cédula o estado diario.",
       "source_file": "doctrina/civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md",
       "tokens_seccion": 430,
-      "tokens_completos": 1200,
+      "tokens_completos": 848,
       "norm_label": "alimentos forzosos y el regimen de apremios (ley n° 14.908)",
       "community": 1,
       "id": "inst_alimentos_forzosos_y_el_regimen_de_apremios_ley_n_14_908"
@@ -4954,7 +4954,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/lopez_santa_maria_contratos/01_principios_contractuales_y_buena_fe.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 798,
       "community": 8,
       "id": "obra_los_contratos_parte_general_capitulo_i_principios_contractuales_y_buena_fe"
     },
@@ -4970,7 +4970,7 @@
       "operativa_procesal": "En litigios civiles sobre incumplimiento de contrato, el acreedor basa su pretensión directamente en el Art. 1545 CC invocando el tenor literal de la estipulación. El deudor sólo puede enervar la acción acreditando el cumplimiento de la prestación (pago, Art. 1568 CC), la extinción de la obligación o la imposibilidad sobrevenida fortuita no imputable (Art. 1547 inc. 2 CC). El juez no puede reemplazar los términos claros del contrato sin incurrir en causal de casación en el fondo por infracción de ley del Art. 1545 CC (Art. 767 CPC).",
       "source_file": "doctrina/civil/lopez_santa_maria_contratos/01_principios_contractuales_y_buena_fe.md",
       "tokens_seccion": 362,
-      "tokens_completos": 1200,
+      "tokens_completos": 798,
       "norm_label": "la fuerza obligatoria del contrato (*pacta sunt servanda*, art. 1545 cc)",
       "community": 8,
       "id": "inst_la_fuerza_obligatoria_del_contrato_pacta_sunt_servanda_art_1545_cc"
@@ -5066,7 +5066,7 @@
       "operativa_procesal": "La vulneración de la buena fe objetiva del Art. 1546 CC autoriza al demandado a oponer la **excepción de abuso del derecho** o la doctrina de los actos propios, enervando demandas de cumplimiento formuladas en condiciones desleales o vejatorias. Asimismo, fundamenta indemnizaciones por culpa precontractual o ruptura intempestiva e injustificada de negociaciones avanzadas.",
       "source_file": "doctrina/civil/lopez_santa_maria_contratos/01_principios_contractuales_y_buena_fe.md",
       "tokens_seccion": 365,
-      "tokens_completos": 1200,
+      "tokens_completos": 798,
       "norm_label": "el principio de la buena fe contractual objetiva (art. 1546 cc)",
       "community": 8,
       "id": "inst_el_principio_de_la_buena_fe_contractual_objetiva_art_1546_cc"
@@ -5102,7 +5102,7 @@
       "file_type": "legal_work",
       "area": "Derecho Civil",
       "source_file": "doctrina/civil/lopez_santa_maria_contratos/02_imprevision_efecto_relativo_e_interpretacion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 928,
       "community": 8,
       "id": "obra_los_contratos_parte_general_capitulo_ii_imprevision_efecto_relativo_e_interpretacion"
     },
@@ -5118,7 +5118,7 @@
       "operativa_procesal": "Aunque el Código Civil chileno no consagra una norma general expresa de imprevisión (y la tradición clásica priorizó el Art. 1545 CC), la jurisprudencia arbitral y civil moderna fundamenta la acción y excepción de revisión contractual en el deber de ejecutar los contratos de buena fe (Art. 1546 CC) y la prohibición del enriquecimiento sin causa. Se deduce en juicio ordinario mediante demanda de adecuación de precio o término de contrato por sobrevenida excesiva onerosidad.",
       "source_file": "doctrina/civil/lopez_santa_maria_contratos/02_imprevision_efecto_relativo_e_interpretacion.md",
       "tokens_seccion": 362,
-      "tokens_completos": 1200,
+      "tokens_completos": 928,
       "norm_label": "la teoria de la imprevision y clausula *rebus sic stantibus* en chile",
       "community": 8,
       "id": "inst_la_teoria_de_la_imprevision_y_clausula_rebus_sic_stantibus_en_chile"
@@ -5160,7 +5160,7 @@
       "operativa_procesal": "La determinación de la intención de los contratantes es una cuestión de hecho que escapa al control de la casación en el fondo; sin embargo, la calificación jurídica del contrato (determinar si es promesa, compraventa, arrendamiento o mandato) y la transgresión de las leyes de interpretación cuando se desnaturalizan estipulaciones claras es una cuestión de derecho susceptible de recurso de casación en el fondo ante la Corte Suprema (Art. 767 CPC).",
       "source_file": "doctrina/civil/lopez_santa_maria_contratos/02_imprevision_efecto_relativo_e_interpretacion.md",
       "tokens_seccion": 495,
-      "tokens_completos": 1200,
+      "tokens_completos": 928,
       "norm_label": "las reglas de interpretacion de los contratos (arts. 1560 a 1566 cc)",
       "community": 8,
       "id": "inst_las_reglas_de_interpretacion_de_los_contratos_arts_1560_a_1566_cc"
@@ -5275,7 +5275,7 @@
       "file_type": "legal_work",
       "area": "Derecho Procesal",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/01_teoria_general_y_reposicion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 559,
       "community": 7,
       "id": "obra_tratado_de_los_recursos_procesales_capitulo_i_teoria_de_la_impugnacion_y_reposicion"
     },
@@ -5291,7 +5291,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/01_teoria_general_y_reposicion.md",
       "tokens_seccion": 232,
-      "tokens_completos": 1200,
+      "tokens_completos": 559,
       "norm_label": "teoria general de la impugnacion procesal",
       "community": 7,
       "id": "inst_teoria_general_de_la_impugnacion_procesal"
@@ -5351,7 +5351,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/01_teoria_general_y_reposicion.md",
       "tokens_seccion": 256,
-      "tokens_completos": 1200,
+      "tokens_completos": 559,
       "norm_label": "el recurso de reposicion o reconsideracion (arts. 181 al 183 cpc)",
       "community": 7,
       "id": "inst_el_recurso_de_reposicion_o_reconsideracion_arts_181_al_183_cpc"
@@ -5432,7 +5432,7 @@
       "file_type": "legal_work",
       "area": "Derecho Procesal",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/02_recurso_de_apelacion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 923,
       "community": 7,
       "id": "obra_tratado_de_los_recursos_procesales_capitulo_ii_el_recurso_de_apelacion"
     },
@@ -5448,7 +5448,7 @@
       "operativa_procesal": "* **Vía Procesal:** Recurso ordinario de impugnación de segunda instancia (Arts. 186 y siguientes del CPC).\n* **Tribunal Competente:** Se deduce por escrito ante el tribunal *a quo* que dictó la resolución (Juez de Letras en lo Civil, Juzgado de Familia o Letras del Trabajo) para ser conocido y resuelto por el tribunal superior jerárquico *ad quem* (Corte de Apelaciones respectiva, en Sala previa vista de la causa o en cuenta según la ley).\n* **Legitimación Procesal:** Activa: Parte litigante que haya sufrido agravio procesal o perjuicio sustantivo irreparable con lo resuelto (la parte totalmente vencedora carece de legitimación por ausencia de agravio).\n* **Carga de Fundamentación:** Carga ineludible de formular peticiones concretas (Art. 189 CPC) y fundamentar el agravio fáctico y legal; su omisión es sancionada con la inadmisibilidad de plano en cuenta por la Corte.\n* **Medida Cautelar de Suspensión:** Solicitud de Orden de No Innovar (ONI) ante la Corte de Apelaciones cuando el recurso fue concedido en el solo efecto devolutivo, para paralizar la ejecución provisoria en primera instancia (Art. 192 CPC).\n* **Plazos Fatales:** 10 días hábiles fatales para sentencias definitivas civiles; 5 días hábiles para interlocutorias civiles (Art. 189 CPC); 5 días hábiles fatales para sentencias definitivas laborales (Art. 476 CT). La Ley N° 21.394 eliminó la carga de hacerse parte en segunda instancia.\n* **Defensas de la Contraparte:** Solicitud de declaración de inadmisibilidad por extemporaneidad o carencia de peticiones concretas (Art. 213 CPC); alegación de falta de gravamen irreparable; adhesión a la apelación (Art. 216 CPC).",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/02_recurso_de_apelacion.md",
       "tokens_seccion": 609,
-      "tokens_completos": 1200,
+      "tokens_completos": 923,
       "norm_label": "concepto, resoluciones apelables y plazos (arts. 186 al 189 cpc)",
       "community": 7,
       "id": "inst_concepto_resoluciones_apelables_y_plazos_arts_186_al_189_cpc"
@@ -5580,7 +5580,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/02_recurso_de_apelacion.md",
       "tokens_seccion": 248,
-      "tokens_completos": 1200,
+      "tokens_completos": 923,
       "norm_label": "efectos del recurso de apelacion y adhesion",
       "community": 7,
       "id": "inst_efectos_del_recurso_de_apelacion_y_adhesion"
@@ -5652,7 +5652,7 @@
       "file_type": "legal_work",
       "area": "Derecho Procesal",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 859,
       "community": 7,
       "id": "obra_tratado_de_los_recursos_procesales_capitulo_iii_casacion_en_la_forma_fondo_y_queja"
     },
@@ -5668,7 +5668,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md",
       "tokens_seccion": 299,
-      "tokens_completos": 1200,
+      "tokens_completos": 859,
       "norm_label": "el recurso de casacion en la forma (art. 768 cpc)",
       "community": 7,
       "id": "inst_el_recurso_de_casacion_en_la_forma_art_768_cpc"
@@ -5755,7 +5755,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md",
       "tokens_seccion": 312,
-      "tokens_completos": 1200,
+      "tokens_completos": 859,
       "norm_label": "el recurso de casacion en el fondo (art. 767 cpc)",
       "community": 0,
       "id": "inst_el_recurso_de_casacion_en_el_fondo_art_767_cpc"
@@ -5824,7 +5824,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md",
       "tokens_seccion": 169,
-      "tokens_completos": 1200,
+      "tokens_completos": 859,
       "norm_label": "el recurso de queja disciplinario (art. 545 cot)",
       "community": 7,
       "id": "inst_el_recurso_de_queja_disciplinario_art_545_cot"
@@ -5886,7 +5886,7 @@
       "file_type": "legal_work",
       "area": "Derecho Procesal",
       "source_file": "doctrina/procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 975,
       "community": 0,
       "id": "obra_curso_de_derecho_procesal_capitulo_i_jurisdiccion_competencia_y_notificaciones"
     },
@@ -5902,7 +5902,7 @@
       "operativa_procesal": "La prórroga tácita de competencia se perfecciona por el demandante al interponer la demanda ante un juez que no es el naturalmente competente, y por el demandado al realizar cualquier gestión procesal que no sea oponer la excepción dilatoria de incompetencia del tribunal (Art. 187 COT y Art. 303 N° 1 CPC).",
       "source_file": "doctrina/procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md",
       "tokens_seccion": 370,
-      "tokens_completos": 1200,
+      "tokens_completos": 975,
       "norm_label": "la jurisdiccion, competencia y prorroga (arts. 108 y ss. cot)",
       "community": 0,
       "id": "inst_la_jurisdiccion_competencia_y_prorroga_arts_108_y_ss_cot"
@@ -6016,7 +6016,7 @@
       "operativa_procesal": "El vicio o falsedad en las búsquedas del Art. 44 CPC (estampadas fraudulentamente por receptores judiciales sin visitar el domicilio real) constituye la causal clásica del **incidente especial de nulidad de todo lo obrado por falta de emplazamiento** (Art. 80 CPC), que puede impetrarse dentro del plazo de 5 días desde que el afectado tuvo conocimiento de la existencia del juicio o de la ejecución forzada.",
       "source_file": "doctrina/procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md",
       "tokens_seccion": 536,
-      "tokens_completos": 1200,
+      "tokens_completos": 975,
       "norm_label": "las notificaciones judiciales en el sistema procesal chileno (arts. 38 a 58 cpc)",
       "community": 0,
       "id": "inst_las_notificaciones_judiciales_en_el_sistema_procesal_chileno_arts_38_a_58_cpc"
@@ -6160,7 +6160,7 @@
       "file_type": "legal_work",
       "area": "Derecho Procesal",
       "source_file": "doctrina/procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 967,
       "community": 0,
       "id": "obra_curso_de_derecho_procesal_capitulo_ii_emplazamiento_precautorias_y_juicio_ordinario"
     },
@@ -6176,7 +6176,7 @@
       "operativa_procesal": "Si se demanda a una persona y no se le notifica válidamente en persona o por el Art. 44 CPC en su domicilio real, no hay emplazamiento. El demandado afectado puede alegar la nulidad de todo lo obrado con reserva de defensas, o bien promover recurso de casación en la forma por falta de emplazamiento (Art. 768 N° 9 en relación al Art. 795 N° 1 CPC), causal absoluta de nulidad procesal insubsanable.",
       "source_file": "doctrina/procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md",
       "tokens_seccion": 425,
-      "tokens_completos": 1200,
+      "tokens_completos": 967,
       "norm_label": "la relacion procesal y la teoria del emplazamiento",
       "community": 0,
       "id": "inst_la_relacion_procesal_y_la_teoria_del_emplazamiento"
@@ -6281,7 +6281,7 @@
       "operativa_procesal": "Las medidas precautorias pueden decretarse sin previa notificación del afectado cuando existan motivos graves y urgentes (Art. 302 CPC), pero el solicitante tiene la carga procesal de notificar la resolución a la contraparte dentro del plazo fatal de 5 días (ampliable por el juez); si no lo hace, las medidas quedan sin valor de pleno derecho y el solicitante responde civilmente de los perjuicios ocasionados.",
       "source_file": "doctrina/procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md",
       "tokens_seccion": 471,
-      "tokens_completos": 1200,
+      "tokens_completos": 967,
       "norm_label": "las medidas precautorias en el juicio civil (arts. 290 a 302 cpc)",
       "community": 0,
       "id": "inst_las_medidas_precautorias_en_el_juicio_civil_arts_290_a_302_cpc"
@@ -6388,7 +6388,7 @@
       "file_type": "legal_work",
       "area": "Derecho Administrativo",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 488,
       "community": 9,
       "id": "obra_derecho_administrativo_general_capitulo_i_bases_constitucionales_y_principios"
     },
@@ -6404,7 +6404,7 @@
       "operativa_procesal": "Cualquier acto administrativo dictado con infracción al Art. 7 CPR carece de eficacia y adolece de nulidad de derecho público insubsanable. La afectación de derechos constitucionales por actos u omisiones ilegales o arbitrarios habilita además la interposición inmediata del **Recurso de Protección** (Art. 20 CPR) ante la Corte de Apelaciones respectiva dentro del plazo fatal de 30 días corridos.",
       "source_file": "doctrina/administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md",
       "tokens_seccion": 419,
-      "tokens_completos": 1200,
+      "tokens_completos": 841,
       "norm_label": "el principio de juridicidad y estado de derecho (arts. 6 y 7 cpr)",
       "community": 9,
       "id": "inst_el_principio_de_juridicidad_y_estado_de_derecho_arts_6_y_7_cpr"
@@ -6482,7 +6482,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md",
       "tokens_seccion": 191,
-      "tokens_completos": 1200,
+      "tokens_completos": 488,
       "norm_label": "principio de probidad administrativa y transparencia (art. 8 cpr)",
       "community": 9,
       "id": "inst_principio_de_probidad_administrativa_y_transparencia_art_8_cpr"
@@ -6563,7 +6563,7 @@
       "file_type": "legal_work",
       "area": "Derecho Administrativo",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 1037,
       "community": 9,
       "id": "obra_derecho_administrativo_general_capitulo_ii_el_acto_administrativo_invalidacion_y_nulidad"
     },
@@ -6579,7 +6579,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md",
       "tokens_seccion": 172,
-      "tokens_completos": 1200,
+      "tokens_completos": 1037,
       "norm_label": "el acto administrativo: concepto y efectos (ley n° 19.880)",
       "community": 9,
       "id": "inst_el_acto_administrativo_concepto_y_efectos_ley_n_19_880"
@@ -6630,7 +6630,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md",
       "tokens_seccion": 249,
-      "tokens_completos": 1200,
+      "tokens_completos": 1037,
       "norm_label": "extincion del acto administrativo: invalidacion vs. revocacion",
       "community": 9,
       "id": "inst_extincion_del_acto_administrativo_invalidacion_vs_revocacion"
@@ -6697,7 +6697,7 @@
       "operativa_procesal": "* **Vía Procesal:** Juicio Ordinario de Mayor Cuantía (Art. 254 CPC), en virtud del principio de plenitud de jurisdicción de los tribunales ordinarios ante la ausencia de tribunales contencioso-administrativos generales.\n* **Tribunal Competente:** Juez de Letras en lo Civil del lugar donde se dictó el acto o del domicilio del órgano administrativo (Arts. 134 y 142 COT); si se demanda al Fisco, rigen las reglas especiales de competencia y defensa a cargo del Consejo de Defensa del Estado (CDE) en comunas asiento de Corte (Art. 48 DFL 1 CDE).\n* **Legitimación Procesal:** Activa: Administrado titular de un derecho subjetivo o interés legítimo lesionado por el acto (se rechaza la acción popular abstracta). Pasiva: Fisco de Chile (representado por el CDE) u órgano de la Administración descentralizada o Municipalidad respectiva.\n* **Carga Probatoria:** El actor debe destruir la presunción de legalidad e imperio del acto administrativo (Art. 3 Ley 19.880 y Art. 1698 CC), acreditando con prueba pericial o instrumental la incompetencia manifiesta, desviación de fin o vicio esencial de forma.\n* **Medida Precautoria Idónea:** Suspensión provisional de los efectos del acto administrativo impugnado bajo fianza o caución suficiente (medida prejudicial o precautoria innominada, Art. 298 CPC).\n* **Plazos Fatales:** Imprescriptibilidad de la acción puramente declarativa; prescripción de 5 años de la acción patrimonial de cobro de perjuicios (Art. 2515 CC).\n* **Defensas y Excepciones Típicas:** Prescripción extintiva de la pretensión indemnizatoria; principio de conservación del acto por falta de trascendencia del vicio formal (Art. 13 inc. 3 Ley 19.880); protección de la confianza legítima de terceros de buena fe.",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md",
       "tokens_seccion": 547,
-      "tokens_completos": 1200,
+      "tokens_completos": 1037,
       "norm_label": "la nulidad de derecho publico",
       "community": 0,
       "id": "inst_la_nulidad_de_derecho_publico"
@@ -6751,7 +6751,7 @@
       "file_type": "legal_work",
       "area": "Derecho Administrativo",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 657,
       "community": 13,
       "id": "obra_derecho_administrativo_general_capitulo_iii_falta_de_servicio_y_derecho_sancionador"
     },
@@ -6767,7 +6767,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md",
       "tokens_seccion": 312,
-      "tokens_completos": 1200,
+      "tokens_completos": 657,
       "norm_label": "responsabilidad extracontractual del estado por falta de servicio",
       "community": 13,
       "id": "inst_responsabilidad_extracontractual_del_estado_por_falta_de_servicio"
@@ -6836,7 +6836,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md",
       "tokens_seccion": 283,
-      "tokens_completos": 1200,
+      "tokens_completos": 657,
       "norm_label": "derecho administrativo sancionador y sus principios rectores",
       "community": 10,
       "id": "inst_derecho_administrativo_sancionador_y_sus_principios_rectores"
@@ -6914,7 +6914,7 @@
       "file_type": "legal_work",
       "area": "Derecho Administrativo",
       "source_file": "doctrina/administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 841,
       "community": 9,
       "id": "obra_derecho_administrativo_bases_fundamentales_capitulo_i_juridicidad_y_nulidad_de_derecho_publico"
     },
@@ -6999,7 +6999,7 @@
       "operativa_procesal": "Se tramita en juicio ordinario civil de mayor cuantía ante el Juez de Letras en lo Civil de turno contra el Fisco de Chile (representado por el Consejo de Defensa del Estado - CDE, Art. 2 Ley Orgánica del CDE) o contra la respectiva Municipalidad o servicio público descentralizado. En el libelo se deducen conjuntamente la acción de nulidad de derecho público y la acción indemnizatoria de perjuicios por falta de servicio (Art. 42 Ley 18.575).",
       "source_file": "doctrina/administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md",
       "tokens_seccion": 348,
-      "tokens_completos": 1200,
+      "tokens_completos": 841,
       "norm_label": "la nulidad de derecho publico en el ordenamiento chileno",
       "community": 9,
       "id": "inst_la_nulidad_de_derecho_publico_en_el_ordenamiento_chileno"
@@ -7079,7 +7079,7 @@
       "file_type": "legal_work",
       "area": "Derecho del Trabajo (Laboral)",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/01_principios_del_derecho_del_trabajo.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 447,
       "community": 6,
       "id": "obra_derecho_del_trabajo_capitulo_i_principios_formativos_y_protectores"
     },
@@ -7095,7 +7095,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/01_principios_del_derecho_del_trabajo.md",
       "tokens_seccion": 232,
-      "tokens_completos": 1200,
+      "tokens_completos": 447,
       "norm_label": "el principio protector y sus tres vertientes dogmaticas",
       "community": 6,
       "id": "inst_el_principio_protector_y_sus_tres_vertientes_dogmaticas"
@@ -7146,7 +7146,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/01_principios_del_derecho_del_trabajo.md",
       "tokens_seccion": 153,
-      "tokens_completos": 1200,
+      "tokens_completos": 447,
       "norm_label": "principio de primacia de la realidad",
       "community": 6,
       "id": "inst_principio_de_primacia_de_la_realidad"
@@ -7191,7 +7191,7 @@
       "file_type": "legal_work",
       "area": "Derecho del Trabajo (Laboral)",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/02_contrato_individual_y_despido.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 621,
       "community": 6,
       "id": "obra_derecho_del_trabajo_capitulo_ii_contrato_ius_variandi_y_despido_art_161_ct"
     },
@@ -7207,7 +7207,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/02_contrato_individual_y_despido.md",
       "tokens_seccion": 267,
-      "tokens_completos": 1200,
+      "tokens_completos": 621,
       "norm_label": "el vinculo de subordinacion y limites al *ius variandi* (art. 12 ct)",
       "community": 6,
       "id": "inst_el_vinculo_de_subordinacion_y_limites_al_ius_variandi_art_12_ct"
@@ -7276,7 +7276,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/02_contrato_individual_y_despido.md",
       "tokens_seccion": 287,
-      "tokens_completos": 1200,
+      "tokens_completos": 621,
       "norm_label": "terminacion por necesidades de la empresa (art. 161 ct) y descuento afc",
       "community": 6,
       "id": "inst_terminacion_por_necesidades_de_la_empresa_art_161_ct_y_descuento_afc"
@@ -7339,7 +7339,7 @@
       "file_type": "legal_work",
       "area": "Derecho del Trabajo (Laboral)",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 1176,
       "community": 6,
       "id": "obra_derecho_del_trabajo_capitulo_iii_tutela_laboral_ley_karin_y_dano_moral"
     },
@@ -7355,7 +7355,7 @@
       "operativa_procesal": "* **Vía Procesal:** Procedimiento de Tutela Laboral (Arts. 485 al 495 del Código del Trabajo). Proceso oral, preferente y concentrado en dos audiencias: Audiencia Preparatoria y Audiencia de Juicio.\n* **Tribunal Competente:** Juzgado de Letras del Trabajo del domicilio del demandado o del lugar donde se prestaron los servicios, a elección del trabajador demandante (Art. 423 CT).\n* **Legitimación Procesal:** Activa: Trabajador afectado directamente o el sindicato al que esté afiliado invocando interés legítimo (Art. 486 CT); la Dirección del Trabajo facultada para denunciar de oficio. Pasiva: Empleador directo y solidariamente la empresa principal en régimen de subcontratación (Art. 183-B CT).\n* **Carga Probatoria y Estándar de Indicios (Art. 493 CT):** Alivio probatorio para el trabajador. Basta acreditar indicios serios y concordantes del móvil lesivo; se traslada íntegramente la carga de la prueba al empleador, quien debe probar que la medida adoptada obedeció a justificaciones objetivas, razonables y proporcionales.\n* **Medidas Cautelares de Oficio o a Petición de Parte:** Facultades cautelares amplias (Art. 444 y 492 CT), incluyendo la orden de cesación inmediata del hostigamiento o la suspensión provisional de los efectos del despido.\n* **Plazos Fatales:** Plazo fatal de caducidad de 60 días hábiles judiciales desde la vulneración o despido (Art. 486 CT), prorrogable hasta 90 días si se interpone reclamo ante la Inspección del Trabajo (Art. 168 CT).\n* **Defensas y Excepciones Típicas:** Excepción perentoria de caducidad de la acción; alegación de ejercicio legítimo del poder de dirección empresarial (*ius variandi*, Art. 12 CT); falta de indicios verosímiles del actor.",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md",
       "tokens_seccion": 690,
-      "tokens_completos": 1200,
+      "tokens_completos": 1176,
       "norm_label": "procedimiento de tutela laboral y derechos fundamentales (art. 485 ct)",
       "community": 6,
       "id": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct"
@@ -7549,7 +7549,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md",
       "tokens_seccion": 153,
-      "tokens_completos": 1200,
+      "tokens_completos": 1176,
       "norm_label": "el alivio probatorio de indicios (art. 493 ct)",
       "community": 6,
       "id": "inst_el_alivio_probatorio_de_indicios_art_493_ct"
@@ -7583,7 +7583,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md",
       "tokens_seccion": 262,
-      "tokens_completos": 1200,
+      "tokens_completos": 1176,
       "norm_label": "ley karin (ley n° 21.643) y el dano moral laboral",
       "community": 6,
       "id": "inst_ley_karin_ley_n_21_643_y_el_dano_moral_laboral"
@@ -7670,7 +7670,7 @@
       "file_type": "legal_work",
       "area": "Derecho Penal",
       "source_file": "doctrina/penal/cury_parte_general/01_legalidad_conducta_y_tipicidad.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 795,
       "community": 3,
       "id": "obra_tratado_de_derecho_penal_parte_general_capitulo_i_legalidad_conducta_y_tipicidad"
     },
@@ -7686,7 +7686,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/01_legalidad_conducta_y_tipicidad.md",
       "tokens_seccion": 240,
-      "tokens_completos": 1200,
+      "tokens_completos": 795,
       "norm_label": "el principio de legalidad penal y garantias fundamentales",
       "community": 3,
       "id": "inst_el_principio_de_legalidad_penal_y_garantias_fundamentales"
@@ -7753,7 +7753,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/01_legalidad_conducta_y_tipicidad.md",
       "tokens_seccion": 204,
-      "tokens_completos": 1200,
+      "tokens_completos": 795,
       "norm_label": "concepto dogmatico de delito y teoria de la conducta (art. 1 cp)",
       "community": 3,
       "id": "inst_concepto_dogmatico_de_delito_y_teoria_de_la_conducta_art_1_cp"
@@ -7813,7 +7813,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/01_legalidad_conducta_y_tipicidad.md",
       "tokens_seccion": 283,
-      "tokens_completos": 1200,
+      "tokens_completos": 795,
       "norm_label": "tipicidad subjetiva: dolo y culpa",
       "community": 3,
       "id": "inst_tipicidad_subjetiva_dolo_y_culpa"
@@ -7885,7 +7885,7 @@
       "file_type": "legal_work",
       "area": "Derecho Penal",
       "source_file": "doctrina/penal/cury_parte_general/02_antijuridicidad_y_justificacion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 699,
       "community": 3,
       "id": "obra_tratado_de_derecho_penal_parte_general_capitulo_ii_antijuridicidad_y_causas_de_justificacion"
     },
@@ -7901,7 +7901,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/02_antijuridicidad_y_justificacion.md",
       "tokens_seccion": 169,
-      "tokens_completos": 1200,
+      "tokens_completos": 699,
       "norm_label": "concepto de antijuridicidad y causas de justificacion",
       "community": 3,
       "id": "inst_concepto_de_antijuridicidad_y_causas_de_justificacion"
@@ -7934,7 +7934,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/02_antijuridicidad_y_justificacion.md",
       "tokens_seccion": 319,
-      "tokens_completos": 1200,
+      "tokens_completos": 699,
       "norm_label": "la legitima defensa (art. 10 n° 4, 5 y 6 cp)",
       "community": 3,
       "id": "inst_la_legitima_defensa_art_10_n_4_5_y_6_cp"
@@ -8012,7 +8012,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/02_antijuridicidad_y_justificacion.md",
       "tokens_seccion": 144,
-      "tokens_completos": 1200,
+      "tokens_completos": 699,
       "norm_label": "estado de necesidad justificante (art. 10 n° 7 cp)",
       "community": 3,
       "id": "inst_estado_de_necesidad_justificante_art_10_n_7_cp"
@@ -8066,7 +8066,7 @@
       "file_type": "legal_work",
       "area": "Derecho Penal",
       "source_file": "doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 833,
       "community": 3,
       "id": "obra_tratado_de_derecho_penal_parte_general_capitulo_iii_culpabilidad_iter_criminis_y_participacion"
     },
@@ -8082,7 +8082,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md",
       "tokens_seccion": 261,
-      "tokens_completos": 1200,
+      "tokens_completos": 833,
       "norm_label": "culpabilidad e inexigibilidad de otra conducta",
       "community": 3,
       "id": "inst_culpabilidad_e_inexigibilidad_de_otra_conducta"
@@ -8144,7 +8144,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md",
       "tokens_seccion": 239,
-      "tokens_completos": 1200,
+      "tokens_completos": 833,
       "norm_label": "iter criminis: grados de desarrollo del delito (art. 7 cp)",
       "community": 3,
       "id": "inst_iter_criminis_grados_de_desarrollo_del_delito_art_7_cp"
@@ -8213,7 +8213,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md",
       "tokens_seccion": 266,
-      "tokens_completos": 1200,
+      "tokens_completos": 833,
       "norm_label": "autoria y participacion criminal (arts. 14 al 17 cp)",
       "community": 3,
       "id": "inst_autoria_y_participacion_criminal_arts_14_al_17_cp"
@@ -8311,7 +8311,7 @@
       "file_type": "legal_work",
       "area": "Derecho Constitucional",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 557,
       "community": 10,
       "id": "obra_derecho_constitucional_chileno_capitulo_i_bases_de_la_institucionalidad_y_bloque_constitucional"
     },
@@ -8327,7 +8327,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md",
       "tokens_seccion": 243,
-      "tokens_completos": 1200,
+      "tokens_completos": 557,
       "norm_label": "bases de la institucionalidad y principios estructurales (arts. 1 al 9 cpr)",
       "community": 3,
       "id": "inst_bases_de_la_institucionalidad_y_principios_estructurales_arts_1_al_9_cpr"
@@ -8387,7 +8387,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md",
       "tokens_seccion": 244,
-      "tokens_completos": 1200,
+      "tokens_completos": 557,
       "norm_label": "soberania y el bloque de constitucionalidad (art. 5 inc. 2 cpr)",
       "community": 9,
       "id": "inst_soberania_y_el_bloque_de_constitucionalidad_art_5_inc_2_cpr"
@@ -8441,7 +8441,7 @@
       "file_type": "legal_work",
       "area": "Derecho Constitucional",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 798,
       "community": 10,
       "id": "obra_derecho_constitucional_chileno_capitulo_ii_derechos_fundamentales_y_orden_publico_economico"
     },
@@ -8457,7 +8457,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md",
       "tokens_seccion": 244,
-      "tokens_completos": 1200,
+      "tokens_completos": 798,
       "norm_label": "igual proteccion de la ley en el ejercicio de los derechos (art. 19 n° 3 cpr)",
       "community": 10,
       "id": "inst_igual_proteccion_de_la_ley_en_el_ejercicio_de_los_derechos_art_19_n_3_cpr"
@@ -8483,7 +8483,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md",
       "tokens_seccion": 248,
-      "tokens_completos": 1200,
+      "tokens_completos": 798,
       "norm_label": "el orden publico economico (art. 19 n° 21 y n° 22 cpr)",
       "community": 10,
       "id": "inst_el_orden_publico_economico_art_19_n_21_y_n_22_cpr"
@@ -8543,7 +8543,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md",
       "tokens_seccion": 234,
-      "tokens_completos": 1200,
+      "tokens_completos": 798,
       "norm_label": "inviolabilidad del dominio y contenido esencial (art. 19 n° 24 y n° 26 cpr)",
       "community": 10,
       "id": "inst_inviolabilidad_del_dominio_y_contenido_esencial_art_19_n_24_y_n_26_cpr"
@@ -8597,7 +8597,7 @@
       "file_type": "legal_work",
       "area": "Derecho Constitucional",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/03_recurso_de_proteccion_y_justicia_constitucional.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 1041,
       "community": 10,
       "id": "obra_derecho_constitucional_chileno_capitulo_iii_acciones_constitucionales_y_tribunal_constitucional"
     },
@@ -8613,7 +8613,7 @@
       "operativa_procesal": "* **Vía Procesal:** Acción Constitucional de Protección (Art. 20 CPR y Auto Acordado de la Corte Suprema sobre Tramitación y Fallo del Recurso de Protección de 2015). Procedimiento sumario, preferente y desformalizado.\n* **Tribunal Competente:** Corte de Apelaciones respectiva en cuya jurisdicción se haya cometido el acto o incurrido en la omisión arbitraria o ilegal, o donde éstos produzcan sus efectos, a elección del recurrente (Auto Acordado N° 1). Conoce en Sala.\n* **Legitimación Procesal:** Activa: El afectado o cualquier persona en su nombre capaz de parecer en juicio, sin necesidad de poder ni mandato judicial previo. Pasiva: Autoridad pública, persona natural o persona jurídica causante del acto u omisión lesiva.\n* **Carga Probatoria:** El recurrente debe aportar antecedentes que acrediten la existencia del acto u omisión y la titularidad indubitada de la garantía invocada; el tribunal oficia a la recurrida para que evacúe informe documentado en breve plazo.\n* **Medida Cautelar de Urgencia:** Solicitud de Orden de No Innovar (ONI) para suspender de inmediato los efectos del acto impugnado durante la tramitación del recurso.\n* **Plazos Fatales:** Plazo fatal de 30 días corridos desde la ejecución del acto o desde que se tuvo conocimiento cierto; plazo de 5 a 8 días hábiles para evacuar informe del recurrido; recurso de apelación ante la Corte Suprema en el plazo fatal de 5 días hábiles (conoce la Tercera Sala Constitucional).\n* **Defensas y Excepciones Típicas:** Extemporaneidad por expiración del plazo de 30 días corridos; improcedencia por existir litigio o derecho controvertido no indubitado que exige juicio declarativo de lato conocimiento; pérdida de oportunidad por hecho consumado irreversible.",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/03_recurso_de_proteccion_y_justicia_constitucional.md",
       "tokens_seccion": 661,
-      "tokens_completos": 1200,
+      "tokens_completos": 1041,
       "norm_label": "el recurso de proteccion (art. 20 cpr)",
       "community": 10,
       "id": "inst_el_recurso_de_proteccion_art_20_cpr"
@@ -8663,7 +8663,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/constitucional/cea_derecho_constitucional/03_recurso_de_proteccion_y_justicia_constitucional.md",
       "tokens_seccion": 308,
-      "tokens_completos": 1200,
+      "tokens_completos": 1041,
       "norm_label": "el control de constitucionalidad: inaplicabilidad ante el tc (art. 93 n° 6 cpr)",
       "community": 10,
       "id": "inst_el_control_de_constitucionalidad_inaplicabilidad_ante_el_tc_art_93_n_6_cpr"
@@ -8743,7 +8743,7 @@
       "file_type": "legal_work",
       "area": "Derecho Comercial",
       "source_file": "doctrina/comercial/sandoval_derecho_comercial/01_actos_de_comercio_y_sociedades_capital_spa.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 839,
       "community": 12,
       "id": "obra_manual_de_derecho_comercial_capitulo_i_actos_de_comercio_y_sociedades_spa"
     },
@@ -8759,7 +8759,7 @@
       "operativa_procesal": "La calificación del acto como civil o comercial es determinante para la prueba testimonial (en materia mercantil no rige la limitación restrictiva de los Arts. 1708 y 1709 del Código Civil, admitiéndose testigos conforme al Art. 128 del Código de Comercio), los plazos de prescripción extintiva de las acciones (la prescripción mercantil general es de 4 años, Art. 822 C.Com, frente a los 5 años civiles) y el régimen de insolvencia y quiebras.",
       "source_file": "doctrina/comercial/sandoval_derecho_comercial/01_actos_de_comercio_y_sociedades_capital_spa.md",
       "tokens_seccion": 393,
-      "tokens_completos": 1200,
+      "tokens_completos": 839,
       "norm_label": "los actos de comercio y el principio de accesoriedad (art. 3 c.com)",
       "community": 12,
       "id": "inst_los_actos_de_comercio_y_el_principio_de_accesoriedad_art_3_c_com"
@@ -8820,7 +8820,7 @@
       "operativa_procesal": "En litigios corporativos entre accionistas de una SpA (impugnación de acuerdos, exclusión de socios o demandas de rendición de cuentas), la competencia natural recae en los tribunales arbitrales designados en la cláusula compromisoria estatutaria (Art. 440 C.Com y Art. 125 Ley 18.046). La inobservancia de los deberes de lealtad y cuidado por los administradores engendra responsabilidad civil solidaria por los perjuicios causados a la sociedad o a los accionistas minoritarios.",
       "source_file": "doctrina/comercial/sandoval_derecho_comercial/01_actos_de_comercio_y_sociedades_capital_spa.md",
       "tokens_seccion": 375,
-      "tokens_completos": 1200,
+      "tokens_completos": 839,
       "norm_label": "la sociedad por acciones (spa) en el derecho chileno (arts. 424 a 446 c.com)",
       "community": 12,
       "id": "inst_la_sociedad_por_acciones_spa_en_el_derecho_chileno_arts_424_a_446_c_com"
@@ -8901,7 +8901,7 @@
       "file_type": "legal_work",
       "area": "Derecho Comercial",
       "source_file": "doctrina/comercial/sandoval_derecho_comercial/02_titulos_de_credito_y_concursos_ley_20720.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 847,
       "community": 12,
       "id": "obra_manual_de_derecho_comercial_capitulo_ii_titulos_de_credito_e_insolvencia_ley_20_720"
     },
@@ -8917,7 +8917,7 @@
       "operativa_procesal": "El pagaré cuya firma haya sido autorizada por Notario Público constituye un **título ejecutivo perfecto** conforme al Art. 434 N° 4 CPC, permitiendo iniciar directamente el juicio ejecutivo y solicitar mandamiento de ejecución y embargo sobre bienes del deudor sin necesidad de gestión previa de notificación judicial. En el juicio ejecutivo, el ejecutado sólo puede oponer las excepciones taxativas del Art. 464 CPC, quedando vedado discutir el negocio causal subyacente salvo entre partes originarias. El plazo de prescripción de la acción cambiaria emanada del pagaré es de 1 año contado desde el vencimiento del documento (Art. 98 y 107 Ley N° 18.092).",
       "source_file": "doctrina/comercial/sandoval_derecho_comercial/02_titulos_de_credito_y_concursos_ley_20720.md",
       "tokens_seccion": 410,
-      "tokens_completos": 1200,
+      "tokens_completos": 847,
       "norm_label": "titulos de credito circulatorios y el pagare mercantil (ley n° 18.092)",
       "community": 12,
       "id": "inst_titulos_de_credito_circulatorios_y_el_pagare_mercantil_ley_n_18_092"
@@ -8995,7 +8995,7 @@
       "operativa_procesal": "La dictación de la **Resolución de Liquidación** produce de pleno derecho el desasimiento de los bienes del deudor (fijación de la masa patrimonial, Art. 130 Ley 20.720), la acumulación de todos los juicios ejecutivos individuales ante el tribunal del concurso (fuero de atracción concursal) y la exigibilidad anticipada de todas las deudas del concursado. Con la resolución final que aprueba la cuenta definitiva del Liquidador, se extinguen irrevocablemente los saldos de deudas no cubiertos (descargue concursal).",
       "source_file": "doctrina/comercial/sandoval_derecho_comercial/02_titulos_de_credito_y_concursos_ley_20720.md",
       "tokens_seccion": 365,
-      "tokens_completos": 1200,
+      "tokens_completos": 847,
       "norm_label": "procedimientos concursales y reorganizacion (ley n° 20.720)",
       "community": 12,
       "id": "inst_procedimientos_concursales_y_reorganizacion_ley_n_20_720"
@@ -9084,7 +9084,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_apjo_penal.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 157,
       "community": 14,
       "id": "obra_guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_apjo"
     },
@@ -9100,7 +9100,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/academia_judicial/aj_responsabilidad_penal_adolescente.md",
       "tokens_seccion": 33,
-      "tokens_completos": 1200,
+      "tokens_completos": 135,
       "norm_label": "resumen ejecutivo de practica judicial",
       "community": 14,
       "id": "inst_resumen_ejecutivo_de_practica_judicial"
@@ -9135,7 +9135,7 @@
       "operativa_procesal": "",
       "source_file": "doctrina/academia_judicial/aj_responsabilidad_penal_adolescente.md",
       "tokens_seccion": 32,
-      "tokens_completos": 1200,
+      "tokens_completos": 135,
       "norm_label": "consulta y descarga del documento original",
       "community": 14,
       "id": "inst_consulta_y_descarga_del_documento_original"
@@ -9146,7 +9146,7 @@
       "file_type": "legal_work",
       "area": "Laboral",
       "source_file": "doctrina/academia_judicial/aj_audiencia_preparatoria_laboral.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 124,
       "community": 14,
       "id": "obra_guia_para_la_audiencia_preparatoria_laboral"
     },
@@ -9156,7 +9156,7 @@
       "file_type": "legal_work",
       "area": "Familia",
       "source_file": "doctrina/academia_judicial/aj_audiencias_familia.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 146,
       "community": 14,
       "id": "obra_guia_para_la_conduccion_de_audiencias_de_familia_preparatoria_reservada_conciliacion_y_juicio"
     },
@@ -9166,7 +9166,7 @@
       "file_type": "legal_work",
       "area": "Laboral",
       "source_file": "doctrina/academia_judicial/aj_conciliacion_laboral.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 120,
       "community": 14,
       "id": "obra_guia_de_audiencia_de_conciliacion_laboral"
     },
@@ -9185,7 +9185,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_determinacion_penas.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 131,
       "community": 14,
       "id": "obra_guia_aplicada_para_la_determinacion_de_penas"
     },
@@ -9195,7 +9195,7 @@
       "file_type": "legal_work",
       "area": "Ética Judicial",
       "source_file": "doctrina/academia_judicial/aj_etica_judicial.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 130,
       "community": 14,
       "id": "obra_guia_de_buenas_practicas_judiciales_en_temas_eticos"
     },
@@ -9205,7 +9205,7 @@
       "file_type": "legal_work",
       "area": "Transversal / IA",
       "source_file": "doctrina/academia_judicial/aj_ia_generativa.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 154,
       "community": 14,
       "id": "obra_guia_basica_sobre_inteligencia_artificial_generativa_para_el_ejercicio_de_juezas_y_jueces"
     },
@@ -9215,7 +9215,7 @@
       "file_type": "legal_work",
       "area": "Laboral",
       "source_file": "doctrina/academia_judicial/aj_juicio_oral_laboral.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 136,
       "community": 14,
       "id": "obra_guia_para_la_audiencia_de_juicio_oral_laboral"
     },
@@ -9243,7 +9243,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_juicio_oral_penal.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 146,
       "community": 14,
       "id": "obra_guia_de_conduccion_de_la_audiencia_de_juicio_oral_en_lo_penal"
     },
@@ -9253,7 +9253,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_primera_audiencia_penal.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 148,
       "community": 14,
       "id": "obra_guia_de_conduccion_de_la_primera_audiencia_en_el_proceso_penal"
     },
@@ -9281,7 +9281,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_procedimiento_abreviado.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 135,
       "community": 14,
       "id": "obra_guia_de_procedimiento_abreviado_en_juzgados_de_garantia"
     },
@@ -9309,7 +9309,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_procedimiento_monitorio_penal.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 118,
       "community": 14,
       "id": "obra_guia_de_procedimiento_monitorio_penal"
     },
@@ -9328,7 +9328,7 @@
       "file_type": "legal_work",
       "area": "Penal",
       "source_file": "doctrina/academia_judicial/aj_procedimiento_simplificado.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 140,
       "community": 14,
       "id": "obra_guia_de_procedimiento_simplificado_en_juzgados_de_garantia"
     },
@@ -9347,7 +9347,7 @@
       "file_type": "legal_work",
       "area": "Familia",
       "source_file": "doctrina/academia_judicial/aj_proteccion_familia.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 149,
       "community": 14,
       "id": "obra_guia_para_el_procedimiento_de_medidas_de_proteccion_en_tribunales_de_familia"
     },
@@ -9366,7 +9366,7 @@
       "file_type": "legal_work",
       "area": "Penal / RPA",
       "source_file": "doctrina/academia_judicial/aj_responsabilidad_penal_adolescente.md",
-      "tokens_archivo": 1200,
+      "tokens_archivo": 135,
       "community": 14,
       "id": "obra_guia_para_audiencias_de_responsabilidad_penal_adolescente_rpa"
     }
@@ -9976,12 +9976,6 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
-      "target": "via_demanda_ordinaria"
-    },
-    {
-      "relation": "via_procesal",
-      "weight": 1.0,
-      "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
       "target": "via_juicio_ejecutivo"
     },
     {
@@ -9989,6 +9983,12 @@
       "weight": 1.0,
       "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
       "target": "via_excepcion_perentoria"
+    },
+    {
+      "relation": "via_procesal",
+      "weight": 1.0,
+      "source": "inst_la_mora_del_deudor_y_la_excepcion_de_contrato_no_cumplido",
+      "target": "via_demanda_ordinaria"
     },
     {
       "relation": "comparte_norma",
@@ -12874,13 +12874,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa",
-      "target": "via_demanda_ordinaria"
+      "target": "via_accion_reivindicatoria"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_regimen_juridico_de_la_nulidad_civil_absoluta_vs_relativa",
-      "target": "via_accion_reivindicatoria"
+      "target": "via_demanda_ordinaria"
     },
     {
       "relation": "analizado_por",
@@ -15928,13 +15928,13 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct",
-      "target": "via_audiencia_preparatoria"
+      "target": "via_tutela_laboral"
     },
     {
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_procedimiento_de_tutela_laboral_y_derechos_fundamentales_art_485_ct",
-      "target": "via_tutela_laboral"
+      "target": "via_audiencia_preparatoria"
     },
     {
       "relation": "via_procesal",
@@ -16882,12 +16882,6 @@
       "relation": "via_procesal",
       "weight": 1.0,
       "source": "inst_el_recurso_de_proteccion_art_20_cpr",
-      "target": "via_medida_cautelar"
-    },
-    {
-      "relation": "via_procesal",
-      "weight": 1.0,
-      "source": "inst_el_recurso_de_proteccion_art_20_cpr",
       "target": "via_recurso_de_apelacion"
     },
     {
@@ -16895,6 +16889,12 @@
       "weight": 1.0,
       "source": "inst_el_recurso_de_proteccion_art_20_cpr",
       "target": "via_recurso_de_proteccion"
+    },
+    {
+      "relation": "via_procesal",
+      "weight": 1.0,
+      "source": "inst_el_recurso_de_proteccion_art_20_cpr",
+      "target": "via_medida_cautelar"
     },
     {
       "relation": "analizado_por",
