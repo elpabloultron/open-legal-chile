@@ -463,7 +463,14 @@ class LegalGraphifyEngine:
         )
 
         tokens_subgrafo = int(len(ficha_yaml.split()) * 1.3)
-        tokens_completos = central_data.get("tokens_completos", 2800)
+        # Los nodos 'obra' guardan el tamaño de su texto en 'tokens_archivo' (no
+        # en 'tokens_completos'); sin este fallback se usaba el default 2800 y se
+        # reportaba un ahorro fabricado (~97%).
+        tokens_completos = (
+            central_data.get("tokens_completos")
+            or central_data.get("tokens_archivo")
+            or 2800
+        )
         ahorro_tokens = max(0, tokens_completos - tokens_subgrafo)
         pct_ahorro = round((ahorro_tokens / max(1, tokens_completos)) * 100, 1)
 
@@ -845,20 +852,28 @@ class LegalGraphifyEngine:
         }
 
     def guardar_grafo_json(self, filepath: str = DEFAULT_GRAPH_PATH) -> str:
-        """Serializa el grafo en formato Node-Link JSON estándar de NetworkX / Graphify."""
+        """Serializa el grafo en formato Node-Link JSON estándar de NetworkX / Graphify.
+
+        Emite una única clave de aristas ("edges" con NetworkX >= 3.6). Duplicar la
+        misma lista bajo "edges" y "links" no aportaba compatibilidad real (los
+        lectores de este módulo aceptan cualquiera de las dos) y sí inflaba el
+        archivo ~39%, además de permitir que ambas copias divergieran al editarse
+        sólo una de ellas.
+        """
         if not self.is_built:
             self.construir_grafo_desde_doctrina()
 
-        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        directorio = os.path.dirname(filepath)
+        if directorio:
+            os.makedirs(directorio, exist_ok=True)
         try:
             data = nx.node_link_data(self.graph, edges="edges")
-        except (TypeError, Exception):
+        except TypeError:
+            # NetworkX < 3.6 serializa las aristas bajo "links" por defecto.
             data = nx.node_link_data(self.graph)
 
-        if "edges" in data and "links" not in data:
-            data["links"] = data["edges"]
-        elif "links" in data and "edges" not in data:
-            data["edges"] = data["links"]
+        if "edges" in data and "links" in data:
+            data.pop("links")
 
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
@@ -933,8 +948,16 @@ class LegalGraphifyEngine:
         with open(full_path, "r", encoding="utf-8") as f:
             existing_data = json.load(f)
 
+        # Aceptar ambas convenciones de esquema Node-Link ("links" estilo Graphify,
+        # "edges" estilo NetworkX >= 3.6). Antes se asumía "links" y un grafo keyed
+        # "edges" (incluido uno producido por guardar_grafo_json) crasheaba con
+        # KeyError: 'links'.
+        edge_key = "links" if "links" in existing_data else "edges" if "edges" in existing_data else "links"
+        existing_data.setdefault("nodes", [])
+        existing_data.setdefault(edge_key, [])
+
         existing_nodes = {n["id"]: n for n in existing_data.get("nodes", [])}
-        existing_links = {(link_obj["source"], link_obj["target"], link_obj.get("relation", "")): link_obj for link_obj in existing_data.get("links", [])}
+        existing_links = {(link_obj["source"], link_obj["target"], link_obj.get("relation", "")): link_obj for link_obj in existing_data.get(edge_key, [])}
 
         nodos_agregados = 0
         aristas_agregadas = 0
@@ -972,9 +995,15 @@ class LegalGraphifyEngine:
                     "confidence_score": 1.0,
                     "weight": data.get("weight", 1.0)
                 }
-                existing_data["links"].append(link_entry)
+                existing_data[edge_key].append(link_entry)
                 existing_links[key] = link_entry
                 aristas_agregadas += 1
+
+        # Si el archivo traía ambas claves, mantenerlas sincronizadas para que la
+        # copia no actualizada no quede obsoleta (drift entre "edges" y "links").
+        for _alias in ("edges", "links"):
+            if _alias != edge_key and _alias in existing_data:
+                existing_data[_alias] = existing_data[edge_key]
 
         with open(full_path, "w", encoding="utf-8") as f:
             json.dump(existing_data, f, ensure_ascii=False, indent=2)
@@ -985,7 +1014,7 @@ class LegalGraphifyEngine:
             "nodos_agregados": nodos_agregados,
             "aristas_agregadas": aristas_agregadas,
             "total_nodos_final": len(existing_data["nodes"]),
-            "total_aristas_final": len(existing_data["links"])
+            "total_aristas_final": len(existing_data[edge_key])
         }
 
 
