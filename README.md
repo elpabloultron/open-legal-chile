@@ -150,6 +150,13 @@ npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
 pip install openlegal-chile
 ```
 
+El paquete **incluye el corpus doctrinal** (58 obras canónicas en Markdown) y **el grafo de
+conocimiento ya construido**, así que `graphify_*` y `doctrina_search` funcionan sin clonar
+nada más. El índice FTS5 de doctrina se construye solo en la primera búsqueda (unos segundos).
+Si instalas solo los módulos (por ejemplo copiando archivos sueltos), el motor lo dirá en vez de
+responder "no encontrado" a todo: esa fue la falla silenciosa de las versiones anteriores a la
+1.5.4.
+
 ### Opción E: Instalación desde Código Fuente (Desarrollo)
 ```bash
 git clone https://github.com/elpabloultron/open-legal-chile.git

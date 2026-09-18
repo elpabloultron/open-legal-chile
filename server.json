@@ -7,12 +7,12 @@
     "url": "https://github.com/elpabloultron/open-legal-chile",
     "source": "github"
   },
-  "version": "1.5.3",
+  "version": "1.5.4",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "openlegal-chile",
-      "version": "1.5.3",
+      "version": "1.5.4",
       "transport": {
         "type": "stdio"
       }
