@@ -237,7 +237,7 @@ def _parsear_convenios(pagina: str) -> List[Dict[str, Any]]:
 # `pronunciamientos/filter`; los demás métodos (find-articulos, find-instancias) sirven de apoyo.
 SII_JUDICIAL_BASE = "https://www4.sii.cl/acjui"
 SII_JUDICIAL_NS = "cl.sii.sdi.lob.juridica.acj.data.impl.InternetApplicationService/"
-SII_JUDICIAL_TOKEN = "####"
+SII_JUDICIAL_CONVERSACION = "####"
 
 
 def _sobre_acjui(metodo: str, datos: Dict[str, Any]) -> bytes:
@@ -245,7 +245,7 @@ def _sobre_acjui(metodo: str, datos: Dict[str, Any]) -> bytes:
     return json.dumps({
         "metaData": {
             "namespace": SII_JUDICIAL_NS + metodo,
-            "conversationId": SII_JUDICIAL_TOKEN,
+            "conversationId": SII_JUDICIAL_CONVERSACION,
             "transactionId": str(uuid.uuid4()),
             "page": None,
         },
