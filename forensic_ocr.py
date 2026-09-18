@@ -376,7 +376,11 @@ class ForensicOCREngine:
                     "method": method,
                     "engine": page_engine,
                     "ok": not (fallo_pagina or vacio),
-                    "length": len(text),
+                    # 'length' mide texto DEL DOCUMENTO, no el mensaje de diagnóstico: cuando la
+                    # página falla, el texto guardado es la razón del fallo (p. ej. "el modelo de
+                    # idioma 'spa' no está instalado"), y contarlo como texto leído engañaba a
+                    # quien revisara las métricas.
+                    "length": 0 if (fallo_pagina or vacio) else len(text),
                     "text": text
                 }
                 pages_data.append(page_entry)
