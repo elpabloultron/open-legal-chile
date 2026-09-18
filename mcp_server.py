@@ -797,7 +797,7 @@ TOOLS = [
     },
     {
         "name": "graphify_consulta_subgrafo",
-        "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional.",
+        "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9% al 90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo. La medición es reproducible: docs/medicion_tokens.md.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -1484,7 +1484,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.5.2"
+                            "version": "1.5.3"
                         }
                     }
                 }

@@ -77,7 +77,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 39. `doctrina_ingestar_documento`: Convert raw legal texts or documents (.pdf, .docx, .txt, .md) to canonical token-optimized Markdown (RAE/ASALE and BCN/CS) and immediately update knowledge graph and SQLite FTS5.
 
 **LegalGraphify Knowledge Graph:**
-40. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with 85 % - 95 % token reduction.
+40. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with a measured token reduction of 31.9 % to 90.5 % (median 74.1 %).
 41. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
 42. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
 43. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.

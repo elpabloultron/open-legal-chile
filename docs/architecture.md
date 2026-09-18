@@ -16,8 +16,8 @@
      * **Modo Determinista Soberano (100 % Offline, Cero API Keys):** Ejecución de pipelines forenses estandarizados (litigios y recursos de protección, auditoría decenal de títulos CBR, probidad administrativa CGR, despidos y tutelas laborales, asimilación de doctrina).
      * **Modo Asistido por LLM (ReAct Multi-Proveedor):** Ciclos de *Pensamiento / Acción / Observación* integrando Ollama, DeepSeek, Claude, Gemini o OpenAI, con inyección de doctrina nacional.
 
-3. **Compresión de Contexto Dogmático con LegalGraphify (-85 % a -95 % de Tokens):**
-   * En lugar de consumir la ventana de contexto inyectando manuales completos (3 000 a 5 000 tokens), el motor extrae subgrafos sintéticos en YAML hiper-denso de ~150 a 250 tokens con definiciones unificadas, normas concordantes BCN, roles rectores de la Excma. Corte Suprema y operativa forense.
+3. **Compresión de Contexto Dogmático con LegalGraphify (-31,9 % a -90,5 % de Tokens; mediana -74,1 %):**
+   * En lugar de consumir la ventana de contexto inyectando manuales completos (135 a 1 612 tokens; mediana 847), el motor extrae subgrafos sintéticos en YAML hiper-denso de 58 a 544 tokens (mediana 170) con definiciones unificadas, normas concordantes BCN, roles rectores de la Excma. Corte Suprema y operativa forense. Medición reproducible: `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`medicion_tokens.md`](medicion_tokens.md).
 
 4. **10 Conectores Oficiales del Estado de Chile:**
    * Consultas dinámicas y verificables sin simulación: BCN Ley Chile, Contraloría General de la República (CGR), Dirección del Trabajo (DT), Comisión Nacional de Energía (CNE), Panel de Expertos, CMF, SII, SMA (SNIFA), TDLC y PJUD (Corte Suprema / Tribunal Constitucional).
@@ -63,8 +63,8 @@
 │                                                                                         │
 │  ┌──────────────────────────────┐  ┌──────────────────────────────┐  ┌────────────────┐ │
 │  │ LegalGraphify Engine         │  │ Doctrina FTS5 & BM25 Engine  │  │ Doc2Markdown   │ │
-│  │ (973 nodos · 1 372 aristas)  │  │ (doctrina.db · 58 tratados)  │  │ Ingestor RAE   │ │
-│  │ Subgrafos YAML (-94% tokens) │  │ Fichas dogmáticas unificadas │  │ PDF/DOCX/TXT/MD│ │
+│  │ (967 nodos · 1 366 aristas)  │  │ (doctrina.db · 58 tratados)  │  │ Ingestor RAE   │ │
+│  │ Subgrafos YAML -74,1% tokens │  │ Fichas dogmáticas unificadas │  │ PDF/DOCX/TXT/MD│ │
 │  └──────────────────────────────┘  └──────────────────────────────┘  └────────────────┘ │
 └────────────────────────────────────────┬────────────────────────────────────────────────┘
                                          │
@@ -122,7 +122,7 @@ $ openlegal mcp
 
 ## 🧪 5. Verificación Continua y Calidad
 
-* **139 pruebas unitarias automatizadas** con 100 % de aprobación en `pytest tests/ -v`.
+* **167 pruebas unitarias automatizadas** con 100 % de aprobación en `pytest tests/ -v`.
 * Tipado estricto verificado con `mypy` sin advertencias ni supresiones inseguras.
 * Análisis estático de código con `ruff check`.
 * Compatibilidad multi-sistema y soberanía de datos garantizada.

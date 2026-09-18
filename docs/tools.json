@@ -326,8 +326,8 @@
   {
     "name": "graphify_consulta_subgrafo",
     "category": "Doctrina & Graphify",
-    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional..",
-    "full_description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional."
+    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9%-90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo..",
+    "full_description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9%-90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo."
   },
   {
     "name": "graphify_trazar_camino",
