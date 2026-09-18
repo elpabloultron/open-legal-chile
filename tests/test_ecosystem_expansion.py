@@ -245,4 +245,6 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        assert len(TOOLS) == 64
+        # 66 desde que se agregaron sii_oficios_por_anio y sii_descargar_oficio (jurisprudencia
+        # administrativa del SII: listar por año y bajar el PDF del oficio).
+        assert len(TOOLS) == 66
