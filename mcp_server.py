@@ -739,6 +739,43 @@ TOOLS = [
         }
     },
     {
+        "name": "sii_actos_regionales",
+        "description": "Lista o busca los actos y resoluciones que las direcciones regionales y unidades del SII publican por año, con número, fecha, materia y enlace al PDF.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda o número del acto (opcional: sin él se listan los del año)"},
+                "anio": {"type": "integer", "description": "Año a consultar (por defecto, el año en curso)"},
+                "direccion": {"type": "string", "description": "Dirección regional o unidad (p. ej. 'valparaiso', 'centro', 'grandes contribuyentes', 'fiscalizacion')"},
+                "limite": {"type": "integer", "description": "Máximo de resultados (por defecto 50)"}
+            }
+        }
+    },
+    {
+        "name": "sii_convenios_internacionales",
+        "description": "Consulta los convenios tributarios internacionales del SII (doble imposición, intercambio de información, transporte internacional y convención multilateral) por país, materia o documento relacionado.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "País, materia o documento relacionado (opcional: sin él se listan todos)"}
+            }
+        }
+    },
+    {
+        "name": "sii_jurisprudencia_judicial",
+        "description": "Busca sentencias de la jurisprudencia judicial del SII (Tribunales Tributarios y Aduaneros, Cortes de Apelaciones y Corte Suprema) por partes, materia, código, RUC o artículo citado, con filtros de fecha y tribunal.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Partes, materia, código de sentencia (p. ej. 112-2026), RUC o número de artículo"},
+                "desde": {"type": "string", "description": "Fecha mínima, formato aaaa-mm-dd (opcional)"},
+                "hasta": {"type": "string", "description": "Fecha máxima, formato aaaa-mm-dd (opcional)"},
+                "tribunal": {"type": "string", "description": "Nombre del tribunal (opcional, p. ej. 'Corte Suprema')"},
+                "limite": {"type": "integer", "description": "Máximo de resultados (por defecto 20)"}
+            }
+        }
+    },
+    {
         "name": "tdlc_buscar_icg_y_dictamenes",
         "description": "Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG).",
         "inputSchema": {
@@ -1428,6 +1465,26 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                     "Usa sii_oficios_por_anio para ver los oficios disponibles de ese año."
                 )}
             return sii.descargar_oficio(encontrado, destino=args.get("destino"))
+        elif name == "sii_actos_regionales":
+            anio = int(args.get("anio") or datetime.now().year)
+            limite = int(args.get("limite") or 50)
+            consulta = args.get("query")
+            if consulta:
+                res = sii.buscar_actos_regionales(str(consulta), anio=anio, direccion=args.get("direccion"))
+            else:
+                res = sii.get_actos_direcciones_regionales(anio=anio, direccion=args.get("direccion"))
+            return res[:limite] if isinstance(res, list) else res
+        elif name == "sii_convenios_internacionales":
+            consulta = args.get("query")
+            return sii.buscar_convenios(str(consulta)) if consulta else sii.get_convenios_internacionales()
+        elif name == "sii_jurisprudencia_judicial":
+            return sii.buscar_jurisprudencia_judicial(
+                query=str(args.get("query") or ""),
+                desde=args.get("desde"),
+                hasta=args.get("hasta"),
+                tribunal=args.get("tribunal"),
+                limite=int(args.get("limite") or 20),
+            )
         elif name == "tdlc_buscar_icg_y_dictamenes":
             q = args.get("query")
             if not q:
@@ -1531,7 +1588,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.5.10"
+                            "version": "1.5.11"
                         }
                     }
                 }
