@@ -32,7 +32,12 @@ dependencies = [
   "defusedxml>=0.7.1",
   "pymupdf>=1.23.0",
   "markdown-pdf>=1.3.0",
-  "networkx>=3.0"
+  "networkx>=3.0",
+  # PageRank real para graphify_god_nodes. NetworkX lo necesita vía numpy + scipy: sin
+  # ellos el motor caía en silencio a un grado de conexión que igual informaba como
+  # 'pagerank', y dos máquinas distintas devolvían órdenes distintos sin aviso.
+  "numpy>=1.26",
+  "scipy>=1.11"
 ]
 
 [project.optional-dependencies]

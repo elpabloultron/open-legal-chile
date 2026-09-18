@@ -123,16 +123,48 @@ def test_consulta_inexistente_sigue_siendo_no_encontrada(engine):
     assert r.get("encontrado") is False
 
 
-def test_mcp_agrega_los_avisos_al_payload(engine):
-    """Las herramientas del servidor MCP deben exponer el aviso al agente."""
+def test_con_avisos_agrega_y_no_cambia_la_forma(monkeypatch):
+    """
+    _con_avisos es la función que decide si el agente ve los avisos del motor. Se prueba con un
+    motor de mentira para que el resultado no dependa de si el entorno tiene numpy/scipy (sin
+    ellos el motor real agrega su propio aviso de PageRank y la prueba sería frágil).
+    """
     import mcp_server
 
-    mcp_server.legal_graphify_engine.advertencias = []
-    sin_avisos = mcp_server.handle_tool_call("graphify_god_nodes", {"top_n": 2})
-    assert "error" not in sin_avisos
-    assert "advertencias" not in sin_avisos, "sin avisos, la forma de la respuesta no cambia"
+    class MotorFalso:
+        advertencias = []
 
-    mcp_server.legal_graphify_engine.advertencias = ["aviso de prueba"]
-    con_avisos = mcp_server.handle_tool_call("graphify_god_nodes", {"top_n": 2})
-    assert con_avisos.get("advertencias") == ["aviso de prueba"]
-    mcp_server.legal_graphify_engine.advertencias = []
+    falso = MotorFalso()
+    monkeypatch.setattr(mcp_server, "legal_graphify_engine", falso)
+
+    # Sin avisos, la respuesta no cambia de forma (hay consumidores que dependen de esas claves)
+    assert mcp_server._con_avisos({"encontrado": True}) == {"encontrado": True}
+
+    # Con avisos, se agregan
+    falso.advertencias = ["aviso de prueba"]
+    assert mcp_server._con_avisos({"encontrado": True}) == {
+        "encontrado": True,
+        "advertencias": ["aviso de prueba"],
+    }
+
+    # Un error no se adorna con avisos
+    assert mcp_server._con_avisos({"error": "algo falló"}) == {"error": "algo falló"}
+
+
+def test_god_nodes_dice_por_que_metrica_ordeno(engine):
+    """
+    El ranking cambia según la métrica disponible (PageRank real con numpy+scipy, grado sin
+    ellos), así que el payload tiene que declarar cuál usó: sin eso, el mismo tool devuelve
+    dos órdenes distintos en dos máquinas sin que nadie pueda notarlo.
+    """
+    r = engine.calcular_god_nodes(top_n=3)
+    assert r["ordenado_por"] in ("pagerank", "grado_conexiones")
+
+    if r["ordenado_por"] == "grado_conexiones":
+        assert any("PageRank no disponible" in a for a in engine.advertencias)
+    else:
+        assert not any("PageRank no disponible" in a for a in engine.advertencias)
+
+    # El orden debe ser coherente con la métrica declarada
+    scores = [g["pagerank"] for g in r["god_instituciones"]]
+    assert scores == sorted(scores, reverse=True), "la lista no está ordenada por lo que declara"
