@@ -7,6 +7,7 @@ Resoluciones y Oficios vinculantes para el mercado de valores, banca, seguros y 
 import os
 import sys
 import re
+import html
 import json
 import urllib.request
 import urllib.parse
@@ -15,6 +16,63 @@ from config import safe_urlopen
 
 BASE_URL = "https://www.cmfchile.cl/portal/normativa/624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cmf_cache")
+
+# Las resoluciones sancionatorias viven en otra sección del sitio y vienen en una tabla con columnas
+# N° | FECHA | MATERIA | ARCHIVO, una tabla por mercado: S seguros, V valores, B bancos.
+BASE_SANCIONES = "https://www.cmfchile.cl/institucional/sanciones/sanciones_mercados_entidad.php"
+MERCADOS_SANCIONES = {"S": "seguros", "V": "valores", "B": "bancos"}
+
+
+def _texto_plano(trozo: str) -> str:
+    """HTML -> texto: sin etiquetas, sin entidades (&Oacute;), sin espacios repetidos."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
+
+
+def _aviso(titulo: str, mensaje: str) -> Dict[str, Any]:
+    """Un vacío se explica: una lista vacía y muda se lee como «no existe», que es otra cosa."""
+    return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
+
+
+def _coincide(texto: str, consulta: str) -> bool:
+    """Coincidencia por palabra completa, no por trozo («banco» no debe encontrar «bancario»)."""
+    consulta = (consulta or "").strip()
+    if not consulta:
+        return False
+    patron = r"\b" + r"\s+".join(re.escape(p) for p in consulta.split()) + r"\b"
+    return re.search(patron, texto, re.IGNORECASE) is not None
+
+
+def _parsear_sanciones_cmf(page_html: str) -> List[Dict[str, Any]]:
+    """Extrae N°, fecha, MATERIA y archivo de cada fila de la tabla de sanciones de la CMF."""
+    sanciones: List[Dict[str, Any]] = []
+    for fila in re.findall(r"<tr[^>]*>(.*?)</tr>", page_html, re.IGNORECASE | re.DOTALL):
+        celdas = re.findall(r"<td[^>]*>(.*?)</td>", fila, re.IGNORECASE | re.DOTALL)
+        if len(celdas) < 3:
+            continue  # la fila de encabezado usa <th>, no <td>
+        numero = _texto_plano(celdas[0])
+        fecha = _texto_plano(celdas[1])
+        materia = _texto_plano(celdas[2])
+        if not materia:
+            continue
+        url = ""
+        for celda in celdas[3:]:
+            # El enlace de descarga va SIN comillas en la página real («href=/sitio/aplic/serdoc/…»),
+            # así que se acepta con o sin ellas y se busca en todas las celdas restantes.
+            m_href = re.search(r'href=["\']?([^"\'\s>]+)', celda, re.IGNORECASE)
+            if m_href:
+                href = m_href.group(1)
+                url = href if href.startswith("http") else \
+                    "https://www.cmfchile.cl" + (href if href.startswith("/") else f"/{href}")
+                break
+        sanciones.append({
+            "tipo": "Resolución Sancionatoria CMF",
+            "numero": numero,
+            "fecha": fecha,
+            "materia": materia,
+            "titulo": materia,  # compatibilidad con quien ya leía 'titulo'
+            "url": url,
+        })
+    return sanciones
 
 
 class CMFClient:
@@ -83,8 +141,14 @@ class CMFClient:
         return matches
 
     def get_sanciones(self, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Descarga e indexa el registro de Resoluciones Sancionatorias aplicadas por la CMF."""
-        cache_file = self._get_cache_path("sanciones_cmf")
+        """Indexa las resoluciones sancionatorias que la CMF publica por mercado.
+
+        La dirección que usaba este método (`/portal/prensa/604/w3-propertyvalue-24017.html`) devuelve
+        404 desde que el sitio se reorganizó: llevaba tiempo devolviendo una lista vacía en silencio,
+        que se lee como «la CMF no ha sancionado a nadie», y eso es falso. Ahora se leen las tablas
+        vigentes —N° | FECHA | MATERIA | ARCHIVO— de los tres mercados: seguros, valores y bancos.
+        """
+        cache_file = self._get_cache_path("sanciones_cmf_v2")  # v2: la caché anterior estaba vacía
         if use_cache and os.path.exists(cache_file):
             try:
                 with open(cache_file, "r", encoding="utf-8") as f:
@@ -92,48 +156,61 @@ class CMFClient:
             except Exception:
                 pass
 
-        url = "https://www.cmfchile.cl/portal/prensa/604/w3-propertyvalue-24017.html"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Financiero Chile)'}
-        req = urllib.request.Request(url, headers=headers)
+        sanciones: List[Dict[str, Any]] = []
+        vistos = set()
+        fallos: List[str] = []
 
-        sanciones_list = []
-        try:
-            with safe_urlopen(req, timeout=30) as resp:
-                html_content = resp.read().decode("utf-8", errors="ignore")
-                items = re.findall(r'<a[^>]+href=["\']([^"\']*(?:article-[0-9]+|sancion|prensa)[^"\']*)["\'][^>]*>(.*?)</a>', html_content, re.IGNORECASE)
-                seen = set()
+        for mercado, nombre in MERCADOS_SANCIONES.items():
+            url = f"{BASE_SANCIONES}?entidad=ALL&mercado={mercado}"
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with safe_urlopen(req, timeout=45) as resp:
+                    pagina = resp.read().decode("utf-8", errors="ignore")
+            except Exception as e:
+                fallos.append(f"mercado {nombre}: {e}")
+                continue
 
-                for link, title in items:
-                    clean_title = re.sub(r'<[^>]+>', '', title).strip()
-                    if clean_title and len(clean_title) > 10 and clean_title not in seen:
-                        seen.add(clean_title)
-                        sanciones_list.append({
-                            "tipo": "Resolución Sancionatoria CMF",
-                            "titulo": clean_title,
-                            "url": link if link.startswith("http") else f"https://www.cmfchile.cl{link}"
-                        })
+            for s in _parsear_sanciones_cmf(pagina):
+                clave = (s["numero"], s["fecha"], s["materia"])
+                if clave in vistos:
+                    continue
+                vistos.add(clave)
+                s["mercado"] = nombre
+                sanciones.append(s)
 
-                with open(cache_file, "w", encoding="utf-8") as f:
-                    json.dump(sanciones_list, f, ensure_ascii=False, indent=2)
+        if sanciones:
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(sanciones, f, ensure_ascii=False, indent=2)
+            return sanciones
 
-        except Exception as e:
-            print(f"[Aviso] No se pudieron cargar sanciones de la CMF: {e}")
-
-        return sanciones_list
+        detalle = "; ".join(fallos) if fallos else "las tablas respondieron pero sin filas reconocibles"
+        return [_aviso(
+            "No se pudieron cargar las resoluciones sancionatorias de la CMF",
+            f"Ninguno de los tres mercados entregó sanciones ({detalle}). Esto NO significa que la "
+            "CMF no haya sancionado: revisa la dirección del listado en el sitio del Servicio.",
+        )]
 
     def search_sanciones(self, query: str, limit: int = 15) -> List[Dict[str, Any]]:
-        """Busca en el registro de sanciones y procedimientos sancionatorios de la CMF."""
+        """Busca en el registro de sanciones de la CMF por número, entidad o materia."""
         sanciones = self.get_sanciones()
+        if sanciones and isinstance(sanciones[0], dict) and sanciones[0].get("tipo") == "aviso":
+            return sanciones
+
         q_lower = query.lower().strip()
-        matches = []
+        matches = [
+            s for s in sanciones
+            if _coincide(f"{s.get('materia', '')} {s.get('numero', '')}", q_lower)
+        ][:limit]
 
-        for item in sanciones:
-            if q_lower in item.get("titulo", "").lower():
-                matches.append(item)
-                if len(matches) >= limit:
-                    break
+        if matches:
+            return matches
 
-        return matches
+        return [_aviso(
+            f"Sin sanciones de la CMF para «{query}»",
+            f"Se buscó en el número y la materia de las {len(sanciones)} resoluciones sancionatorias "
+            "indexadas (seguros, valores y bancos).",
+        )]
 
 
 # ==============================================================================

@@ -18,6 +18,66 @@ BASE_URL = "https://www.sii.cl/normativa_legislacion"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "sii_cache")
 
 
+def _texto_plano(trozo: str) -> str:
+    """HTML -> texto: sin etiquetas, sin entidades (&Oacute;), sin espacios repetidos."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
+
+
+def _aviso(titulo: str, mensaje: str) -> Dict[str, Any]:
+    """Un vacío se explica: una lista vacía y muda se lee como «no existe», que es otra cosa."""
+    return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
+
+
+def _coincide(texto: str, consulta: str) -> bool:
+    """Coincidencia por palabra completa, no por trozo.
+
+    Buscar «IVA» con un `in` simple encuentra «administratIVA» y devuelve circulares que no tienen
+    nada que ver. Se exige límite de palabra (y se respeta una consulta de varias palabras).
+    """
+    consulta = (consulta or "").strip()
+    if not consulta:
+        return False
+    patron = r"\b" + r"\s+".join(re.escape(p) for p in consulta.split()) + r"\b"
+    return re.search(patron, texto, re.IGNORECASE) is not None
+
+
+# La MATERIA de cada circular va en el párrafo que sigue al enlace. El índice del SII la publica ahí
+# («<h5><a href='circu35.pdf'>Circular N° 35 del 31 de Agosto del 2026</a></h5><p>Actualiza
+# instrucciones sobre mecanismos de impugnación administrativa…</p>») y antes se descartaba: se
+# guardaba sólo «Circular N° 35 del 31 de Agosto del 2026», de modo que cualquier búsqueda por tema
+# (renta, IVA, timbre) devolvía siempre cero, y eso se leía como que el SII no tenía nada sobre eso.
+_PATRON_ITEM_SII = re.compile(
+    r'<a[^>]+href=["\'](?P<link>[^"\']+\.(?:pdf|html?))["\'][^>]*>(?P<titulo>.*?)</a>'
+    r'(?:\s*</h[0-9]>)?'
+    r'(?:\s*<p[^>]*>(?P<materia>.*?)</p>)?'
+    r'(?:\s*<span[^>]*>\s*<i>\s*(?P<fuente>Fuente:[^<]*)</i>)?',
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _parsear_indice_sii(page_html: str, anio: int, carpeta: str, base_url: str) -> List[Dict[str, Any]]:
+    """Extrae número, título, MATERIA y fuente de cada ítem de un índice del SII.
+
+    El número lo completa quien llama, porque cada serie (circulares, resoluciones, oficios) lo
+    escribe distinto en el título.
+    """
+    items: List[Dict[str, Any]] = []
+    for m in _PATRON_ITEM_SII.finditer(page_html):
+        titulo = _texto_plano(m.group("titulo"))
+        if not titulo:
+            continue
+        link = m.group("link")
+        items.append({
+            "anio": anio,
+            "numero": "",
+            "titulo": titulo,
+            "materia": _texto_plano(m.group("materia")),
+            "fuente": _texto_plano(m.group("fuente")),
+            "pdfUrl": link if link.startswith("http") else f"{base_url}/{carpeta}/{anio}/{link}",
+        })
+    return items
+
+
 class SIIClient:
     def __init__(self, cache_dir: str = CACHE_DIR):
         self.cache_dir = cache_dir
@@ -28,7 +88,7 @@ class SIIClient:
 
     def get_circulares_por_anio(self, anio: int = 2026, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Descarga e indexa el listado oficial de Circulares del SII para un año específico."""
-        cache_key = f"circulares_{anio}"
+        cache_key = f"circulares_{anio}_v2"  # v2: incluye la MATERIA (la caché anterior no la tenía)
         cache_file = self._get_cache_path(cache_key)
 
         if use_cache and os.path.exists(cache_file):
@@ -42,34 +102,32 @@ class SIIClient:
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        circulares_list = []
+        circulares_list: List[Dict[str, Any]] = []
         try:
             with safe_urlopen(req, timeout=20) as resp:
                 page_html = resp.read().decode("utf-8", errors="ignore")
-                links = re.findall(r'<a[^>]+href=["\']([^"\']+\.pdf)["\'][^>]*>(.*?)</a>', page_html, re.IGNORECASE)
+                circulares_list = _parsear_indice_sii(page_html, anio, "circulares", BASE_URL)
+                for c in circulares_list:
+                    m_num = re.search(r"Circular\s*N[°ºo\.\s]*([0-9]+)", c["titulo"], re.IGNORECASE)
+                    c["numero"] = m_num.group(1) if m_num else ""
 
-                for link, title in links:
-                    clean_title = html.unescape(re.sub(r'<[^>]+>', '', title).strip())
-                    clean_title = re.sub(r'\s+', ' ', clean_title)
-
-                    # Extraer número de circular
-                    num_match = re.search(r'Circular\s*N[°ºo\.\s]*([0-9]+)', clean_title, re.IGNORECASE)
-                    num = num_match.group(1) if num_match else ""
-
-                    full_pdf_url = link if link.startswith("http") else f"{BASE_URL}/circulares/{anio}/{link}"
-
-                    circulares_list.append({
-                        "anio": anio,
-                        "numero": num,
-                        "titulo": clean_title,
-                        "pdfUrl": full_pdf_url
-                    })
-
-                with open(cache_file, "w", encoding="utf-8") as f:
-                    json.dump(circulares_list, f, ensure_ascii=False, indent=2)
+                if circulares_list:
+                    with open(cache_file, "w", encoding="utf-8") as f:
+                        json.dump(circulares_list, f, ensure_ascii=False, indent=2)
+                else:
+                    # Un parseo vacío NO se cachea: dejaría el índice envenenado para siempre.
+                    circulares_list = [_aviso(
+                        f"El índice de circulares {anio} no entregó ningún ítem",
+                        "La página del SII respondió, pero no se reconoció ningún ítem en ella: "
+                        "probablemente cambió su estructura y hay que actualizar el parser.",
+                    )]
 
         except Exception as e:
-            print(f"[Aviso] No se pudieron cargar circulares para el año {anio}: {e}")
+            circulares_list = [_aviso(
+                f"No se pudo cargar el índice de circulares {anio}",
+                f"El SII no respondió o la dirección del índice cambió ({e}). Esto NO significa que "
+                "no existan circulares de ese año.",
+            )]
 
         return circulares_list
 
@@ -89,34 +147,36 @@ class SIIClient:
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        resoluciones_list = []
+        resoluciones_list: List[Dict[str, Any]] = []
         try:
             with safe_urlopen(req, timeout=20) as resp:
                 page_html = resp.read().decode("utf-8", errors="ignore")
-                links = re.findall(r'<a[^>]+href=["\']([^"\']+\.pdf)["\'][^>]*>(.*?)</a>', page_html, re.IGNORECASE)
+                resoluciones_list = _parsear_indice_sii(page_html, anio, "resoluciones", BASE_URL)
+                for r in resoluciones_list:
+                    r["tipo"] = "Resolución Exenta SII"
+                    m_num = re.search(r"Res(?:oluci[oó]n)?\s*Ex(?:enta)?\s*N[°ºo\.\s]*([0-9]+)",
+                                      r["titulo"], re.IGNORECASE)
+                    r["numero"] = m_num.group(1) if m_num else ""
 
-                for link, title in links:
-                    clean_title = html.unescape(re.sub(r'<[^>]+>', '', title).strip())
-                    clean_title = re.sub(r'\s+', ' ', clean_title)
-
-                    num_match = re.search(r'Res(?:oluci[oó]n)?\s*Ex(?:enta)?\s*N[°ºo\.\s]*([0-9]+)', clean_title, re.IGNORECASE)
-                    num = num_match.group(1) if num_match else ""
-
-                    full_pdf_url = link if link.startswith("http") else f"{BASE_URL}/resoluciones/{anio}/{link}"
-
-                    resoluciones_list.append({
-                        "anio": anio,
-                        "tipo": "Resolución Exenta SII",
-                        "numero": num,
-                        "titulo": clean_title,
-                        "pdfUrl": full_pdf_url
-                    })
-
-                with open(cache_file, "w", encoding="utf-8") as f:
-                    json.dump(resoluciones_list, f, ensure_ascii=False, indent=2)
+                if resoluciones_list:
+                    with open(cache_file, "w", encoding="utf-8") as f:
+                        json.dump(resoluciones_list, f, ensure_ascii=False, indent=2)
+                else:
+                    resoluciones_list = [_aviso(
+                        f"El índice de resoluciones {anio} no entregó ningún ítem",
+                        "La página respondió pero no se reconoció ningún ítem: probablemente cambió "
+                        "su estructura y hay que actualizar el parser.",
+                    )]
 
         except Exception as e:
-            print(f"[Aviso] No se pudieron cargar resoluciones para el año {anio}: {e}")
+            resoluciones_list = [_aviso(
+                f"No se pudo cargar el índice de resoluciones exentas {anio}",
+                f"La dirección que usa este conector ya no responde ({e}). Verificado el 18-09-2026: "
+                f"{url} devuelve 404 en todos los años probados (2023 a 2026). Es la URL la que está "
+                "obsoleta, no la ausencia de resoluciones: hay que actualizarla a la nueva ubicación "
+                "del SII. Mientras tanto, el SII publica cada resolución también en su buscador "
+                "oficial, o se puede consultar por número en el sitio del Servicio.",
+            )]
 
         return resoluciones_list
 
@@ -136,75 +196,114 @@ class SIIClient:
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        oficios_list = []
+        oficios_list: List[Dict[str, Any]] = []
         try:
             with safe_urlopen(req, timeout=20) as resp:
                 page_html = resp.read().decode("utf-8", errors="ignore")
-                links = re.findall(r'<a[^>]+href=["\']([^"\']+\.htm[l]?|[^"\']+\.pdf)["\'][^>]*>(.*?)</a>', page_html, re.IGNORECASE)
+                oficios_list = [
+                    o for o in _parsear_indice_sii(page_html, anio, "jurisprudencia/administrativa", BASE_URL)
+                    if len(o["titulo"]) >= 5 and "volver" not in o["titulo"].lower()
+                ]
+                for o in oficios_list:
+                    o["tipo"] = "Oficio Ordinario (Jurisprudencia Administrativa)"
+                    m_num = re.search(r"Oficio\s*N[°ºo\.\s]*([0-9]+)", o["titulo"], re.IGNORECASE)
+                    o["numero"] = m_num.group(1) if m_num else ""
+                    o["url"] = o.pop("pdfUrl")
 
-                for link, title in links:
-                    clean_title = html.unescape(re.sub(r'<[^>]+>', '', title).strip())
-                    clean_title = re.sub(r'\s+', ' ', clean_title)
-
-                    if len(clean_title) < 5 or "volver" in clean_title.lower():
-                        continue
-
-                    num_match = re.search(r'Oficio\s*N[°ºo\.\s]*([0-9]+)', clean_title, re.IGNORECASE)
-                    num = num_match.group(1) if num_match else ""
-
-                    full_url = link if link.startswith("http") else f"{BASE_URL}/jurisprudencia/administrativa/{anio}/{link}"
-
-                    oficios_list.append({
-                        "anio": anio,
-                        "tipo": "Oficio Ordinario (Jurisprudencia Administrativa)",
-                        "numero": num,
-                        "titulo": clean_title,
-                        "url": full_url
-                    })
-
-                with open(cache_file, "w", encoding="utf-8") as f:
-                    json.dump(oficios_list, f, ensure_ascii=False, indent=2)
+                if oficios_list:
+                    with open(cache_file, "w", encoding="utf-8") as f:
+                        json.dump(oficios_list, f, ensure_ascii=False, indent=2)
+                else:
+                    oficios_list = [_aviso(
+                        f"El índice de oficios {anio} no entregó ningún ítem",
+                        "La página respondió pero no se reconoció ningún ítem: probablemente cambió "
+                        "su estructura y hay que actualizar el parser.",
+                    )]
 
         except Exception as e:
-            print(f"[Aviso] No se pudieron cargar oficios para el año {anio}: {e}")
+            oficios_list = [_aviso(
+                f"No se pudo cargar el índice de oficios (jurisprudencia administrativa) {anio}",
+                f"La dirección que usa este conector ya no responde ({e}). Verificado el 18-09-2026: "
+                f"{url} devuelve 404 en todos los años probados (2024 a 2026). Es la URL la que está "
+                "obsoleta, no la ausencia de oficios: hay que actualizarla a la nueva ubicación del "
+                "SII. Mientras tanto, cada oficio se consulta en el buscador de jurisprudencia "
+                "administrativa del Servicio.",
+            )]
 
         return oficios_list
 
     def search_resoluciones_y_oficios(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
-        """Busca resoluciones exentas y oficios del SII por número o término tributario."""
+        """Busca resoluciones exentas y oficios del SII por número o término tributario.
+
+        Busca en el título y en la MATERIA (el resumen que publica el SII), no sólo en el número.
+        Si las fuentes no responden, devuelve el aviso correspondiente en lugar de una lista vacía:
+        «vacío» y «la fuente está caída» son cosas distintas y no deben confundirse.
+        """
         if not anios:
             anios = [2026, 2025, 2024, 2023]
 
         q_lower = query.lower().strip()
-        matches = []
+        matches: List[Dict[str, Any]] = []
+        avisos: List[Dict[str, Any]] = []
 
         for yr in anios:
-            for r in self.get_resoluciones_por_anio(yr):
-                if q_lower in r.get("titulo", "").lower() or q_lower == str(r.get("numero", "")).lower():
-                    matches.append(r)
+            for lista in (self.get_resoluciones_por_anio(yr), self.get_oficios_por_anio(yr)):
+                for item in lista:
+                    if item.get("tipo") == "aviso":
+                        avisos.append(item)
+                        continue
+                    texto = f"{item.get('titulo', '')} {item.get('materia', '')}"
+                    if _coincide(texto, q_lower) or q_lower == str(item.get("numero", "")).lower():
+                        matches.append(item)
 
-            for o in self.get_oficios_por_anio(yr):
-                if q_lower in o.get("titulo", "").lower() or q_lower == str(o.get("numero", "")).lower():
-                    matches.append(o)
+        if matches:
+            return matches
 
-        return matches
+        if avisos:
+            return avisos
+
+        return [_aviso(
+            f"Sin resoluciones ni oficios del SII para «{query}»",
+            f"Se buscó en el número, el título y la materia de los años "
+            f"{', '.join(str(a) for a in anios)}.",
+        )]
 
     def search_circulares(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
-        """Busca circulares del SII por número o texto en los años seleccionados (por defecto 2020 a 2026)."""
+        """Busca circulares del SII por número o por tema, en la MATERIA y no sólo en el título.
+
+        El título de cada circular es sólo «Circular N° 35 del 31 de Agosto del 2026»; la materia
+        («Actualiza instrucciones sobre mecanismos de impugnación administrativa…») va aparte y es lo
+        único que sirve para buscar por tema. Antes se comparaba sólo contra el título, así que toda
+        búsqueda temática devolvía cero resultados.
+        """
         if not anios:
             anios = [2026, 2025, 2024, 2023, 2022, 2021, 2020]
 
         q_lower = query.lower().strip()
-        matches = []
+        matches: List[Dict[str, Any]] = []
+        avisos: List[Dict[str, Any]] = []
 
         for yr in anios:
-            cir_list = self.get_circulares_por_anio(yr)
-            for c in cir_list:
-                titulo = c.get("titulo", "").lower()
+            for c in self.get_circulares_por_anio(yr):
+                if c.get("tipo") == "aviso":
+                    avisos.append(c)
+                    continue
                 num = str(c.get("numero", "")).lower()
-                if q_lower in titulo or q_lower == num or f"circular {q_lower}" in titulo:
+                texto = f"{c.get('titulo', '')} {c.get('materia', '')}"
+                if _coincide(texto, q_lower) or q_lower == num or _coincide(texto, f"circular {q_lower}"):
                     matches.append(c)
 
+        if matches:
+            return matches
+
+        # Sin resultados se explica qué se buscó y dónde: un vacío mudo se lee como «no existe».
+        matches.append(_aviso(
+            f"Sin circulares del SII para «{query}» en los años consultados",
+            "Se buscó en el número, el título y la materia de las circulares de "
+            f"{', '.join(str(a) for a in anios)}. Si esperabas resultados, revisa el término o "
+            "pide un año concreto con get_circulares_por_anio.",
+        ))
+        matches.extend(avisos)
         return matches
 
 
