@@ -1091,18 +1091,26 @@ class LegalGraphifyEngine:
             elif "links" in data and "edges" not in data:
                 data["edges"] = data["links"]
 
-            loaded_graph = None
-            for edges_param in [None, "edges", "links"]:
+            def _interpretar_con(edges_param: Optional[str]) -> Optional[nx.DiGraph]:
+                """
+                Interpreta el JSON con una convención de aristas concreta ('edges', 'links' o la
+                que NetworkX traiga por defecto). Devuelve None si esa convención no calza, para
+                probar la siguiente sin propagar el fallo.
+                """
                 try:
                     kwargs: Dict[str, Any] = {"directed": True}
                     if edges_param:
                         kwargs["edges"] = edges_param
-                    g = nx.node_link_graph(data, **kwargs)
-                    if g.number_of_nodes() > 0:
-                        loaded_graph = g
-                        break
-                except Exception:  # se prueban las tres convenciones de aristas; la que falle, se salta
-                    continue
+                    return nx.node_link_graph(data, **kwargs)
+                except Exception:
+                    return None
+
+            loaded_graph = None
+            for edges_param in [None, "edges", "links"]:
+                candidato = _interpretar_con(edges_param)
+                if candidato is not None and candidato.number_of_nodes() > 0:
+                    loaded_graph = candidato
+                    break
 
             if loaded_graph is None or loaded_graph.number_of_nodes() == 0:
                 self.advertencias.append(
