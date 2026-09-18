@@ -380,6 +380,25 @@ class BCNClient:
                     "idNorma": cod["idNorma"]
                 })
 
+        if not results:
+            # Esto NO es búsqueda de texto libre y no puede fingir que lo es: resuelve números de
+            # ley, palabras clave de leyes frecuentes y nombres de códigos. Devolver [] a secas se
+            # leía como "la BCN no tiene nada sobre esto", que es falso: simplemente no se buscó
+            # por texto. El portal de la BCN sólo expone consultas por idNorma/número de ley
+            # (obtxml), así que se dice qué no cubre y por dónde seguir.
+            results.append({
+                "tipo": "aviso",
+                "titulo": f"La búsqueda de BCN no cubre «{q}»",
+                "mensaje": (
+                    "Este conector resuelve por número de ley (p. ej. '21.643'), por nombre de "
+                    "código ('civil', 'trabajo', 'cpc') y por palabras clave de leyes frecuentes; "
+                    "NO hace búsqueda de texto libre, porque la BCN sólo publica consultas por "
+                    "idNorma/número. Para un concepto, consulta el artículo directo "
+                    "(bcn_get_codigo con 'civil' y el número, p. ej. 1317) o busca en el corpus "
+                    "doctrinal (doctrina_search), que sí recorre texto completo."
+                ),
+            })
+
         return results[:limit]
 
 
