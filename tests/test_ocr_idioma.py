@@ -87,7 +87,13 @@ def test_extract_informa_idioma_pedido_y_usado(tmp_path, monkeypatch):
     monkeypatch.setattr(motor, "get_available_languages", lambda: ["eng", "osd"])
     monkeypatch.setattr(motor, "_run_tesseract", lambda img, lang="spa": "TEXTO LEÍDO")
 
-    res = motor.extract_from_pdf(_pdf_escaneado(tmp_path / "escaneo.pdf"), force_ocr=True, lang="spa")
+    # Se fija engine="tesseract" a propósito: esta prueba verifica el comportamiento del idioma en
+    # Tesseract. Con engine="auto" el resultado depende de qué motores haya instalados (al instalar
+    # RapidOCR, el motor elegido pasó a ser rapidocr y la prueba fallaba por el entorno, no por el
+    # código). Un motor explícito hace la prueba reproducible en cualquier máquina.
+    res = motor.extract_from_pdf(
+        _pdf_escaneado(tmp_path / "escaneo.pdf"), force_ocr=True, lang="spa", engine="tesseract"
+    )
 
     assert res["ocr_language_requested"] == "spa"
     assert res["ocr_language"] == "eng"
@@ -104,7 +110,9 @@ def test_un_fallo_de_ocr_no_pasa_por_texto_del_documento(tmp_path, monkeypatch):
         lambda img, lang="spa": "[Aviso OCR Tesseract: Failed to load language spa]",
     )
 
-    res = motor.extract_from_pdf(_pdf_escaneado(tmp_path / "roto.pdf"), force_ocr=True)
+    # Motor explícito por la misma razón que la prueba anterior: aquí se simula un fallo de
+    # Tesseract, así que el motor no puede quedar al azar de lo que esté instalado.
+    res = motor.extract_from_pdf(_pdf_escaneado(tmp_path / "roto.pdf"), force_ocr=True, engine="tesseract")
 
     assert res["paginas_con_error"] == 1
     assert res["pages"][0]["ok"] is False
