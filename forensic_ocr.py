@@ -351,6 +351,21 @@ class ForensicOCREngine:
 
                 # Un fallo de OCR no puede pasar por texto del documento: se cuenta y se avisa.
                 fallo_pagina = text.startswith("[Error OCR") or text.startswith("[Aviso OCR")
+                # Y un OCR que devuelve CERO caracteres tampoco es un éxito: es una página que no se
+                # pudo leer, típicamente una foto torcida, oscura o de baja resolución. Antes esto se
+                # informaba como ok=true con length=0, y quien lo consumía concluía que la página
+                # estaba en blanco. Verificado con dos boletas notariales fotografiadas: con Tesseract
+                # daban 0 caracteres a cualquier rotación; con RapidOCR, 553 y 525 caracteres.
+                vacio = method == "ocr" and not text.strip()
+                if vacio:
+                    paginas_con_error += 1
+                    advertencias.append(
+                        f"página {page_num}: el OCR ({page_engine}) no extrajo ni un carácter. "
+                        "Suele tratarse de una fotografía torcida, oscura o de baja resolución: vuelve a "
+                        "fotografiar el documento (de frente, con luz pareja y a pantalla completa) o "
+                        "instala el motor robusto para fotos con 'pip install \"openlegal-chile[ocr]\"' "
+                        "(RapidOCR), que en pruebas leyó completo lo que Tesseract no pudo leer."
+                    )
                 if fallo_pagina:
                     paginas_con_error += 1
                     advertencias.append(
@@ -360,7 +375,7 @@ class ForensicOCREngine:
                     "page": page_num,
                     "method": method,
                     "engine": page_engine,
-                    "ok": not fallo_pagina,
+                    "ok": not (fallo_pagina or vacio),
                     "length": len(text),
                     "text": text
                 }

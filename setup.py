@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="openlegal-chile",
-    version="1.5.5",
+    version="1.5.6",
     description="Suite Integral de Inteligencia y Práctica Jurídica para el Derecho Continental de Chile",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
