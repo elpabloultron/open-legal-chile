@@ -346,12 +346,12 @@ def test_el_sobre_de_la_jurisprudencia_judicial_usa_el_token_del_sitio():
     """El protocolo es POST con metaData/data; el token es el respaldo que usa la propia página."""
     import json as _json
 
-    from sii_connector import SII_JUDICIAL_TOKEN, _sobre_acjui
+    from sii_connector import SII_JUDICIAL_CONVERSACION, _sobre_acjui
 
     cuerpo = _json.loads(_sobre_acjui("filterPronunciamientos", {"conditions": []}))
 
-    assert SII_JUDICIAL_TOKEN == "####"
-    assert cuerpo["metaData"]["conversationId"] == SII_JUDICIAL_TOKEN
+    assert SII_JUDICIAL_CONVERSACION == "####"
+    assert cuerpo["metaData"]["conversationId"] == SII_JUDICIAL_CONVERSACION
     assert cuerpo["metaData"]["namespace"].endswith(
         "InternetApplicationService/filterPronunciamientos")
     assert cuerpo["data"] == {"conditions": []}
