@@ -418,8 +418,8 @@ Cada institución doctrinal no solo define el instituto, sino que detalla su apl
 6. **Plazos Fatales y Términos Probatorios:** Emplazamiento (15/18 días + tabla), términos probatorios (20 días ordinario, 8 días sumario, 10 días ejecutivo) y plazos de recursos (apelación 5/10 días, casación 15 días, protección 30 días corridos).
 7. **Defensas y Excepciones Típicas:** Excepciones dilatorias (Art. 303 CPC), excepciones de fondo y perentorias (*exceptio non adimpleti contractus* Art. 1552 CC, caducidad, prescripción extintiva).
 
-### 💡 Optimización Extrema de Tokens (Reducción > 80%)
-Mediante el compilador [`scripts/doctrina_parser.py`](scripts/doctrina_parser.py), los textos crudos y transcripciones doctrinales son depurados de ruido editorial y convertidos en **Markdown de Alta Densidad Dogmática**, reduciendo entre un 80% y un 92% el consumo de tokens en la ventana de contexto de los agentes de IA.
+### 💡 Optimización de Tokens Medida (31,9 % a 90,5 %; mediana 74,1 %)
+Mediante el compilador [`scripts/doctrina_parser.py`](scripts/doctrina_parser.py), los textos crudos y transcripciones doctrinales son depurados de ruido editorial y convertidos en **Markdown de Alta Densidad Dogmática** para alimentar el grafo. Ese compilador **no promete un ahorro propio**: los ahorros que publica este proyecto son los del grafo al consultar un subgrafo en vez de la obra completa, y se miden, no se estiman — ver [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
@@ -477,10 +477,11 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 * **Guías Oficiales de Formación Judicial:** Ingesta y consulta de las 22+ guías oficiales de `guias.academiajudicial.cl` (Penal, Determinación de Penas, Preparación de Juicio Oral, Familia, Laboral, Ética e Inteligencia Artificial en tribunales).
 * **Biblioteca Online en Markdown:** Publicación y empaquetado gratuito del corpus para Hugging Face Datasets ([`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)), releases comprimidos de GitHub y carpetas estructuradas para Google Drive y Google NotebookLM.
 
-### 🧠 K. LegalGraphify: Reducción Masiva de Tokens con Grafos de Conocimiento (`legal_graphify.py`)
+### 🧠 K. LegalGraphify: Reducción de Tokens con Grafos de Conocimiento (`legal_graphify.py`)
 * **Grafo Multidimensional de Dogmática Jurídica:** 967 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema, tratadistas canónicos y vías procesales) y 1.366 aristas relacionales.
 * **Ahorro de Tokens Medido (31,9 % - 90,5 %; mediana 74,1 %):** En lugar de inyectar la obra doctrinal completa (135 - 1.612 tokens; mediana 847), el motor extrae un subgrafo conexo hiper-denso de 58 a 544 tokens (mediana 170) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 * **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
+* **Integración con Graphify (grafo de código + grafo jurídico):** Cómo se fusionan ambos grafos, qué se midió y por qué no se mantiene un fork, en [`docs/integracion_graphify.md`](docs/integracion_graphify.md).
 * **Comando CLI y Herramienta MCP:** Disponible como `openlegal graph "concepto"` y mediante la herramienta MCP `graphify_consulta_subgrafo`. Compatible con Graphify Labs CLI (`python -m graphify query "..."`) y exportación interactiva a navegador (`graphify-out/graph.html`).
 
 ---
