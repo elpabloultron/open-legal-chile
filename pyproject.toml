@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.5.3"
+version = "1.5.4"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -75,7 +75,17 @@ include-package-data = true
 "openlegal-chile" = [".env.example", "mcp_config.json", "smithery.yaml"]
 
 [tool.setuptools.packages.find]
-include = ["connectors*", "domain*"]
+include = ["connectors*", "domain*", "doctrina*", "data*"]
+namespaces = true
+
+# El corpus doctrinal y el grafo viajan DENTRO del paquete. Antes no: el wheel publicado en
+# PyPI solo llevaba los módulos, así que quien hacía `pip install` recibía las 64 herramientas
+# con graphify_* respondiendo "no encontrado" a todo y doctrina_search sin índice. Se declaran
+# como paquetes de datos para que queden junto a los módulos en site-packages, que es donde el
+# motor los busca (BASE_DIR/doctrina y BASE_DIR/data).
+[tool.setuptools.package-data]
+doctrina = ["**/*.md"]
+data = ["**/*.json"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
