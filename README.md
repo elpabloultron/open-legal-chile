@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-139%2F139_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-167%2F167_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -135,7 +135,7 @@ claude mcp add open-legal-chile python3 -m openlegal mcp
    cursor open-legal-chile
    ```
 2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 55 herramientas de inmediato.
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 64 herramientas de inmediato.
 
 ### Opción C: Instalación Global vía Smithery.ai (1-Comando)
 Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
@@ -322,7 +322,7 @@ El servidor MCP expone **64 herramientas oficiales** categorizadas funcionalment
 ### S. Knowledge Graph Jurídico y Optimización de Tokens (LegalGraphify)
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro del 80%-95% de tokens respecto a la lectura de manuales o RAG convencional. |
+| `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9 % al 90,5 % de tokens según la institución (mediana 74,1 %) respecto a la lectura del texto doctrinal completo. Medición reproducible en [`docs/medicion_tokens.md`](docs/medicion_tokens.md). |
 | `graphify_trazar_camino` | `concepto_origen` *(str)*, `concepto_destino` *(str)* | Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática. |
 | `graphify_explicar_institucion` | `nombre` *(str)* | Genera una explicación dogmática 360° de una institución jurídica en LegalGraphify: definición, sustento positivo BCN, criterios de la Corte Suprema, operativas procesales y grado topológico. |
 | `graphify_analizar_impacto` | `nodo_modificado` *(str)* | Calcula el radio de afectación topológico (Blast Radius) cuando una norma legal o institución jurídica sufre una reforma legal o giro jurisprudencial, identificando entidades afectadas en grado 1 (directo) y grado 2 (cascada). |
@@ -336,9 +336,9 @@ El servidor MCP expone **64 herramientas oficiales** categorizadas funcionalment
 ### U. Ecosistema de Agentes Jurídicos Autónomos
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `agent_list` | *(ninguno)* | Lista los 17 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
+| `agent_list` | *(ninguno)* | Lista los 18 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
 | `agent_run` | `agent_name` *(str)*, `task` *(str)*, `context` *(dict, opc)*, `provider` *(str, opc)* | Ejecuta un agente jurídico chileno autónomo en modo determinista soberano (100 % offline, cero API keys) o asistido por LLM multi-proveedor (Ollama, DeepSeek, Claude, Gemini, OpenAI). Ejecuta tareas de litigación, análisis de títulos CBR, probidad CGR, subsunción dogmática o auditoría forense con auto-crítica en 5 dimensiones procesales. |
-| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 17 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
+| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 18 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
 
 ---
 
@@ -472,7 +472,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ### 🧠 K. LegalGraphify: Reducción Masiva de Tokens con Grafos de Conocimiento (`legal_graphify.py`)
 * **Grafo Multidimensional de Dogmática Jurídica:** 967 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema, tratadistas canónicos y vías procesales) y 1.366 aristas relacionales.
-* **Ahorro Radical de Tokens (85% - 95%):** En lugar de inyectar manuales o capítulos completos (2.500 - 4.500 tokens), el motor extrae un subgrafo conexo hiper-denso de ~150-250 tokens en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense).
+* **Ahorro de Tokens Medido (31,9 % - 90,5 %; mediana 74,1 %):** En lugar de inyectar la obra doctrinal completa (135 - 1.612 tokens; mediana 847), el motor extrae un subgrafo conexo hiper-denso de 58 a 544 tokens (mediana 170) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 * **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
 * **Comando CLI y Herramienta MCP:** Disponible como `openlegal graph "concepto"` y mediante la herramienta MCP `graphify_consulta_subgrafo`. Compatible con Graphify Labs CLI (`python -m graphify query "..."`) y exportación interactiva a navegador (`graphify-out/graph.html`).
 
@@ -485,7 +485,7 @@ El directorio `agents/` incluye **18 perfiles de especialidad jurídica** adapta
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
 2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
 3. **`chilean-real-estate-cbr`** (`agente-inmobiliario`): Estudio de títulos decenal (10 años), tradición dominical, gravámenes hipotecarios, prohibiciones registrales y mandatos judiciales (Art. 7 CPC).
-4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, 58 tratados canónicos y deducción con subgrafos LegalGraphify (85 % a 95 % de ahorro de tokens).
+4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, 58 tratados canónicos y deducción con subgrafos LegalGraphify (ahorro de tokens medido: 31,9 % a 90,5 %, mediana 74,1 %).
 5. **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes e informes CGR, compras públicas (Ley 19.886) y vigilancia regulatoria.
 6. **`chilean-energy-legal`** (`agente-energia`): Contratos PPA de clientes libres, transmisión eléctrica Ley 20.936 y discrepancias del Panel de Expertos.
 7. **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento.
@@ -604,7 +604,7 @@ openlegal audit
 | **6. Linter & PEP** | `astral-sh/ruff` | **100% de reglas de arquitectura y estilo aprobadas** |
 | **7. Anti-Sobreingeniería**| `Ponytail` & `vulture`| **Filosofía Ponytail: Cero código muerto (*Lean already. Ship*)** |
 | **8. Mantenibilidad** | `rubik/radon` | **Rango A en lógica sustantiva y conectores** |
-| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **70/70 pruebas unitarias superadas satisfactoriamente** |
+| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **167/167 pruebas unitarias superadas satisfactoriamente** |
 
 Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
@@ -614,7 +614,7 @@ Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
 ```bash
 python3 -m pytest tests/ -v
-# ============================== 148 passed ==============================
+# ============================== 167 passed ==============================
 ```
 
 > Las pruebas tardan entre 15 y 60 segundos según la red: varias consultan en vivo portales del

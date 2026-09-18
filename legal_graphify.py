@@ -2,8 +2,8 @@
 Open Legal Chile — Motor LegalGraphify (Knowledge Graph Jurídico de Reducción de Tokens)
 Construye un grafo de conocimiento multidimensional a partir de los 58 textos doctrinales,
 manuales y guías de la Academia Judicial chilena.
-Permite consultas hiper-densas de subgrafos con un 30% a 90% de ahorro de tokens para LLMs
-(mediana 74%, medido sobre las 105 instituciones del grafo; el detalle y el script de medición
+Permite consultas hiper-densas de subgrafos con un 31,9% a 90,5% de ahorro de tokens para LLMs
+(mediana 74,1%, medido sobre las 105 instituciones del grafo; el detalle y el script de medición
 están en docs/medicion_tokens.md). Antes este docstring prometía 85%-95%: era falso, lo inflaba
 un piso de 1200 tokens que se aplicaba al tamaño de cada obra.
 Compatible con el esquema Node-Link de NetworkX y Graphify Labs.
@@ -491,7 +491,13 @@ class LegalGraphifyEngine:
         if not candidatos:
             return None
 
-        elegido = max(candidatos, key=lambda n: self.graph.degree(n))
+        # Desempate explícito por etiqueta: `max` devuelve el primer máximo que encuentra, así
+        # que sin ordenar antes, dos candidatos con el mismo grado podrían alternar entre
+        # procesos. Hoy hay un máximo único, pero el orden no puede quedar al azar del hash.
+        elegido = max(
+            sorted(candidatos, key=lambda n: self.graph.nodes[n].get("label", n)),
+            key=lambda n: self.graph.degree(n),
+        )
         etiqueta = self.graph.nodes[elegido].get("label", elegido)
         aviso = (
             f"'{query}' no es el nombre de ninguna institución del grafo, pero aparece en el texto "
@@ -625,6 +631,16 @@ class LegalGraphifyEngine:
                 vias.append(n_label)
             elif n_type == "institucion":
                 relaciones_conceptuales.append(f"{rel} -> {n_label}")
+
+        # Orden estable antes de recortar. Estas cuatro listas se armaban recorriendo un set, así
+        # que su orden dependía de la semilla de hash del proceso: dos corridas de la MISMA
+        # consulta devolvían fichas con artículos/criterios distintos y el tamaño variaba ±3
+        # tokens (el ahorro publicado, ±1 pp). Para una herramienta cuyos números se citan en un
+        # expediente, la misma consulta tiene que dar la misma respuesta siempre.
+        normas.sort()
+        jurisprudencia.sort()
+        vias.sort()
+        relaciones_conceptuales.sort()
 
         # Construir Ficha Sintética Hiper-Densa (Optimizada para Context Window)
         ficha_yaml = (
@@ -922,7 +938,9 @@ class LegalGraphifyEngine:
             afectados_directos = set(self.graph.successors(nodo))
 
         directos_info = []
-        for n in afectados_directos:
+        # Orden por etiqueta, no por recorrido del set: el payload recorta con [:15] y sin este
+        # orden la misma consulta devolvía un conjunto distinto de afectados en cada proceso.
+        for n in sorted(afectados_directos, key=lambda x: self.graph.nodes[x].get("label", x)):
             ndata = self.graph.nodes[n]
             directos_info.append({
                 "id": n,
@@ -938,7 +956,7 @@ class LegalGraphifyEngine:
                     afectados_cascada.add(succ)
 
         cascada_info = []
-        for n in afectados_cascada:
+        for n in sorted(afectados_cascada, key=lambda x: self.graph.nodes[x].get("label", x)):
             ndata = self.graph.nodes[n]
             cascada_info.append({
                 "id": n,

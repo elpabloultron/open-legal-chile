@@ -75,7 +75,7 @@ def menu_interactivo():
         print(" [14] 🌐 Biblioteca Digital: Sincronizar Datasets Markdown (HuggingFace/Drive)")
         print(" [15] 📊 Estadísticas de Uso: Descargas PyPI, GitHub y Telemetría Ética")
         print(" [16] 🔄 Actualizaciones: Comprobar versión más reciente y auto-actualizar")
-        print(" [17] 🧠 LegalGraphify: Consultar Subgrafo de Conocimiento (85%-95% Ahorro de Tokens)")
+        print(" [17] 🧠 LegalGraphify: Consultar Subgrafo de Conocimiento (31,9%-90,5% Ahorro de Tokens, mediana 74,1%)")
         print(" [18] 🤖 Agentes Jurídicos de IA: Orquestación autónoma multi-herramienta")
         print(" [0] 🚪 Salir")
 
@@ -420,7 +420,7 @@ def menu_interactivo():
 
         elif opc == "17":
             print("\n--- 🧠 LEGALGRAPHIFY: MOTOR DE GRAFOS DE CONOCIMIENTO JURÍDICO ---")
-            print(" [1] ⚡ Consulta de Subgrafo Sintético (Ahorro de Tokens 85%-95%)")
+            print(" [1] ⚡ Consulta de Subgrafo Sintético (Ahorro de Tokens medido: 31,9%-90,5%)")
             print(" [2] 🛤️  Trazado de Caminos Relacionales Dogmáticos (Path)")
             print(" [3] 🏛️  Explicación Dogmática Integral 360° (Explain)")
             print(" [4] 💥 Análisis de Impacto Normativo / Blast Radius (Affected)")
@@ -583,7 +583,7 @@ Ejemplos de uso:
   openlegal guias "..."       -> Consulta las guías de formación de la Academia Judicial
   openlegal stats             -> Muestra estadísticas globales de adopción (PyPI/GitHub)
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
-  openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro masivo de tokens (85%-95%)
+  openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro de tokens medido (31,9%-90,5%, mediana 74,1%)
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
         """
     )

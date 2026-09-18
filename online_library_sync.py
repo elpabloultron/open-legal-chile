@@ -290,7 +290,7 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 
 ---
 
-## 🧠 LegalGraphify: Reducción Masiva de Tokens (85% - 95%)
+## 🧠 LegalGraphify: Reducción de Tokens Medida (31,9% - 90,5%, mediana 74,1%)
 
 Para consultar la doctrina sin sobrecargar la ventana de contexto de modelos de lenguaje (Claude Code, Antigravity, Cursor, Gemini), este dataset incluye el grafo multidimensional precomputado:
 

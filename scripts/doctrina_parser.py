@@ -3,9 +3,10 @@ Open Legal Chile — Optimizador de Tokens y Compilador Doctrinal a Markdown
 Transforma textos jurídicos extensos, transcripciones u OCRs de manuales en
 Markdown de Alta Densidad Dogmática (Token-Optimized Markdown).
 
-Objetivo: Reducir entre un 80% y 92% el consumo de tokens en la ventana de contexto
-del usuario o agente de IA, preservando el 100% de la sustancia conceptual,
-definiciones canónicas, requisitos legales y citas oficiales.
+Objetivo: convertir los documentos crudos en Markdown de alta densidad dogmática para el
+grafo. NO mide ni promete un ahorro de tokens: los ahorros que se publican son los del
+grafo (subgrafo consultado versus texto completo de la obra) y se miden, no se estiman —
+ver scripts/medir_ahorro_tokens.py y docs/medicion_tokens.md.
 """
 
 import re
