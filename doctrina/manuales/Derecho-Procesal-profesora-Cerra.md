@@ -13,147 +13,15 @@ extraccion: ocr
 
 **Tratadistas:** Manuales de estudio | **Área:** Procesal | **Materia:** Procesal
 
-Abogado
-
-## Mil y una
-
-
-## Preguntas en
-
-
-## Derecho
-
-
-## Procesal civil
-
-
-## Actualizado y aumentado
-
-Prohibida la reproduccion total o parcial de cste libro,
-por cualquier medio,sin autorizacion de los editores.
-EditorialElJurista agradece lavaliosa
-Ttulo original:
-colaboraciony acucioso trabajo de
-
-## Mil y una preguntas en
-
-Maria Daniela Toledo Aquino,por la
-
-## Derecho procesal civil
-
-actualizaciony conplementacion del
- Es propicdad del Autor:
-material de esta obra,elaborada tan
-Maria Cerra Ortiz
-acertadamenteporladistinguida
-sehora Maria Cerra Ortiz
-2° Edicion 2014
-300 ejemplarcs
-Los EDIrORES
-Diagramacion, revision y publicacion:
-Editorial El Jurista
-Queda hccho cl deposito legal
-Rcgistro dc Propiedad Intclcctual No 111.375
-
-## Isbn: 978-956-8839-45-1
-
-
-## Editorial il jurista
-
-Moneda 1137- Oficina 81 - 8° Piso
-San Diego 119 - Local 7
-Telefonos: 2247 4684 - 2595 1936
-Santiago,Chile
-Editorial
-El Jurista
-
-## Printed in chile / jmpreso en chile
-
-ABREVIATURAS:
-C.P.R.
-Constitucion Politica de la Republica
-L.E.R.L.Ley sobre el Efecto Retroactivo de las Leyes
-C.O.T.
-Codigo Organico deTribunales
-C.P.P.
-Codigo Procesal Penal
-Codigo de Procedimiento Civil
-C.C.
-Codigo Civil
-C.P.
-CodigoPenal
-S.1.I.
-Servicio de Impuestos Internos
-AA
-Autoacordado
-Art.
-Articulo
-inc.
-inciso
-
-## Prologo
-
-En una de las murallas de la Biblioteca Britanica se lee, en
-sobrio ingles,una inscripcion que nos advierte que la primera
-ley de cielo es el orden.Y de la tierra, les falto agregar para que
-pudiera considerarse perfectamente redonda. En efecto,nada
-mas necesario quelasreglas que impone la disciplina tanto en el
-razonar como en el proceder si es que se quiere lograr mantener
-un orden tanto en el cielo como en la siempre imperfecta tierra
-quemoramos.
-Para concretar este diafano axioma -aunqueno siempre tan
-claro en su ejecucion-- el Derecho Procesal ha recorrido un camino bastante singular.Historicamente, mientras el Derecho Civil
-seperfilo en sus caracteres fundamentales desdehace varios siglos, el Derecho Procesal vago por anos, cual Edipo en. Colona,
-en busca de una personalidad que la encarnara. Son celebres -y
-bastante graficas en este punto-- las controversias que genero la
-fisonomia juridica del proceso y de la relacion procesal.Partiendo
-desde un poco asumido caracter de derecho privado, la estructura publicista del proceso y sus particularidades no se perfilaron
-con claridad sino hasta hace algo mas de cien anos;poco tiempo,
-si se la relaciona con su poderosopariente directo.
-De aqui se proyecta un fenomeno de gran interes. En las
-ciencias juridicas, el Derecho Procesal comparte el honor de ser
-uno de los barometros amas sensibles a la hora de calibrar los
-verdaderos alcances y eficiencia de la ley en su aplicacion practica.Esto es especialmente notorio en materia procesal penal (lo
-cual ha llegado al punto de entrar en la sustitucion completa
-de todo el sistema procesal penal chileno,proceso actualmente
-
-## Prologo
-
-      o      a
-procesal civil, al punto que muchas reformas han apuntado no
-solo a perfeccionar las instituciones, sino que en ocasiones a
-consagrar en forma explicita ciertas practicas que carecian de
-respaldo legal.
-Este dinamismo propio del derecho procesal civil, tal como la
-indiscutible importancia que tiene csta materia en el desenvolviPRIMERA PARTE
-miento de la profesion, como ademas la difusion de sus practicas en personas que carecen de conocimientos juridicos,hacen
-que sean bienvenidas todas las iniciativas de cualquier especie
-
-## Derecho procesal organico
-
-que pretendan desarrollar los temas del derecho procesal civil.
-Por esto el presente trabajo busca explicar, en forma elemental,
-los diversos aspectos y rasgos fundamentales en que se desarrolla la mencionada disciplina. Loas a las iniciativas, de cualquier
-magnitud que sean, que pretendan difundir y explicar nuestro
-Derecho.
-
-## Los editores
-
-
-## Mil y una preguntas en derecho procesal. civil
-
-A
-
-## Aplicacion de la ley procesal
-
-
 ## Pregunta:EFECTOS DE LA LEY PROCESAL EN CUANTO AL TIEMPO.COMO AFECTAN A LOS PROCESOS LAS LEYES QUE
 
+**Definición Canónica:** Puedan dictarse que modifiquen,ya sea la organizacion o atribuciones de los tribunales,o
+**Concordancias Legales:** constitucion
 
-## Puedan dictarse que modifiquen,ya sea la organizacion o atribuciones de los tribunales,o
+Puedan dictarse que modifiquen,ya sea la organizacion o atribuciones de los tribunales,o
 
 
-## Elprocedimientomismo?
+Elprocedimientomismo?
 
 a
 Respecto de un JUICIO YA TERMINADO. Este ya no puede
@@ -198,7 +66,7 @@ Si la nueva ley se refiere a la organizacion o atribuciones de
 los tribunales. Entra a regir de inmediato (IN ACTUM) porB
 que se trata de Derecho Publico.
 
-## Jurisdiccion
+Jurisdiccion
 
 Si la nueva ley se refiere al procedimiento mismo. Tambien
 rige IN ACTUM.
@@ -230,6 +98,23 @@ juzgada,eventualmentefactibles deejecucion."
 
 ## 1. Los tribunales chilenos tienen competencia para juzgar
 
+**Definición Canónica:** Francisco Hoyos Henderson:“Poder-deber del Estado que,
+crimenesy simples delitos perpetrados fuera del territorio de
+ejercidocon sujecionalasformas del debidoproceso dederecho,
+la Republica, en ciertos casos,conforme al articulo 6° del
+tienepor objetoresolver litigios con eficacia de cosa juzgaday
+C.O.T.
+eventual posibilidad de ejecucion."
+Giditsris GiSuriste
+Galitarid Glgoristt
+Pregunta: CLASES DE JURISDICCION.
+normas juridicas dccisorias del litigio,conforme a los arts.
+a)Primera clasificacton.
+170 N°5 C.P.C342 d)del C.P.P.
+1) Contenciosa.Aquella que se ejerce cuando hay juicio o
+2) De equid
+**Concordancias Legales:** constitucion
+
 Francisco Hoyos Henderson:“Poder-deber del Estado que,
 crimenesy simples delitos perpetrados fuera del territorio de
 ejercidocon sujecionalasformas del debidoproceso dederecho,
@@ -257,12 +142,12 @@ cia para velar que todos los poderes publicos actuen dentro
 Periodo de dictar
 de la orbita de sus atribuciones, y en especial para velar que
 
-## En cuanto
+En cuanto
 
  sentencia o juzgar.
 las garantias constitucionales sean respetadas.
 
-## Al tiempo
+Al tiempo
 
 2) Disciplinaria.Facultad que tienen los tribunales de justiEjecucion espontanea.
 cia para aplicar determinadas sanciones o adoptar medidas,
@@ -271,10 +156,10 @@ a fin que los debates judiciales se desenvuelvan con la comEjecucion forzada.
 postura debida,ylosfuncionarios judiciales cumplan con
 las normas legales que regulan su conducta ministerial.
 
-## En cuanto
+En cuanto
 
 
-## Al modo
+Al modo
 
 Fase cautelar
 3) Economica.Facultad que tienen los tribunales de justicia
@@ -311,6 +196,20 @@ Baelitoria GlFuritty
 Las resoluciones de contenido meramente declarativo y las
 
 ## Pregunta: DIGA CUALES SON LAS FORMAS DE SOLUCION A LOS
+
+**Definición Canónica:** constitutivas se entienden cumplidas por el solo hecho de
+CONFLICTOS DE RELEVANCIA JURIDICA ENTRE PARdictarse.
+TES.
+Las resoluciones de condena son las unicas susceptibles de
+1) Autotutela; 2) Autocomposicion; y 3) Proceso.
+ejecucion forzada, salvo las que condenan al Fisco, porque
+éstas se cumplen por medio de Decreto Supremo.
+1）
+)Autotutela.
+Algunas sentencias recaidas en procesos derivadas del DeEs la reaccion, prohibida por la ley, de quien se hace justicia
+recho de Familia, como por ejemplo las que hacen efectivos
+por sus propios medios.
+ciertos derechos personalisimos de los conyuges con
 
 constitutivas se entienden cumplidas por el solo hecho de
 CONFLICTOS DE RELEVANCIA JURIDICA ENTRE PARdictarse.
@@ -369,15 +268,15 @@ dica.
 Gdiarind BtSurisiw.
 EilirialGlForiste
 
-## MIlL. Y UNA PREGUNTAS EN DERECHO PROCESAL CIVIL
-
-
 ## Pregunta: &QUE SON LOS EQUIVALENTES JURISDICCIONALES?
+
+**Definición Canónica:** C
+Francesco Carnelutti:“Equivalentes jurisdiccionales son
 
 C
 Francesco Carnelutti:“Equivalentes jurisdiccionales son
 
-## Clasificaciondetribunales
+Clasificaciondetribunales
 
 cualquiermedioajenoalajurisdiccion,aptospara lalegitima composicion del litigio y que tenga autoridad de cosa juzgada."
 Francisco Hoyos H.: “Siempre que no haya ejercicio de ju1.
@@ -393,7 +292,7 @@ Pres. y Min. de Corte
 Pregunta:CUALES SON LOS EQUIVALENTES JURISDICCIONAC.O.T.
 Juzgados de Letras
 
-## Les?
+Les?
 
 Juzgados de Garantia
 1)Avenimiento.El cual se produce por la voluntad de las partes habiendo juicio pendiente y que presentado y aprobado
@@ -429,20 +328,37 @@ GilitoriclGlFurinka
 
 ## MARiA CERRA ORTIZ
 
+**Definición Canónica:** 3.
+SEGUN LA EXTENSION DE JURISDICCION:
+D
+-De jurisdiccion comun. Conocen toda clase de
+
 3.
 SEGUN LA EXTENSION DE JURISDICCION:
 D
 -De jurisdiccion comun. Conocen toda clase de
 
-## Bases fundamentales de organizacion
+Bases fundamentales de organizacion
 
 asuntosjudiciales de cualquiernaturaleza.
 
-## Delostribunales
+Delostribunales
 
 -De jurisdiccion especial. Conocen solo de ciertos
 
 ## Pregunta: 2QUE SON LAS BASES FUNDAMENTALES DE LA ORGANIZACION DE LOS TRIBUNALES?&CUALES SON?
+
+**Definición Canónica:** asuntos, segun su naturaleza. Penal, civil, etc,
+Son aquellas normas indispensables sobre las que descansa
+el Poder Judicial y sin las cuales no puede existir una correcta y
+eficiente administracion de justicia.
+4.SEGUN SU ESTABILIDAD:
+Estas son:Legalidad. Territorialidad.Independencia.PasiAquellos establecidos para covidad.Sedentariedad.Inamovilidad.Inavocabilidad.Publicidad.
+Gratuidad.Gradualidad.Responsabilidad.
+nocer de los negocios que la
+ley ha entregado a su compePregunta: A QUE SE REFIERE LA LEGALIDAD?
+Permanentes
+tencia, sin entrar a discriLos jueces deben, tanto en la tramitacion del
 
 asuntos, segun su naturaleza. Penal, civil, etc,
 Son aquellas normas indispensables sobre las que descansa
@@ -463,6 +379,25 @@ intervencion.
 
 ## Pregunta:EXCEPCIONES EN QUE LA LEY FACULTA AL TRI-BUNAL
 
+**Definición Canónica:** PARA APRECIAR LA PRUEBA Y/O A FALLAR EN CONCIENCIA.
+Los que se constituyen para
+1)Juicios laborales.
+conocer ciertos asuntos una
+2)
+Delitos contra la Seguridad del Estado.
+vez se han suscitado y
+3)
+Juicios de minima cuantia.
+Accidentales o
+requieren su intervencion.
+4)
+Juicios ante Tribunales de Familia.
+de excepcion
+Pres.Corte Suprema
+Pregunta: TERRITORIALIDAD.
+Pres. C. Apelaciones Santiago
+"Los tribunales solo pueden ejercer su potestad en los negoSon
+
 PARA APRECIAR LA PRUEBA Y/O A FALLAR EN CONCIENCIA.
 Los que se constituyen para
 1)Juicios laborales.
@@ -482,17 +417,14 @@ Pregunta: TERRITORIALIDAD.
 Pres. C. Apelaciones Santiago
 "Los tribunales solo pueden ejercer su potestad en los negoSon
 
-## 1 Ministro C. Suprema
-
-ciosydentrodelterritorioquelaleyleshubiererespectivamente
-asignado."
-
-## 1 Ministro C. Apelaciones
-
-Esto se traduce en la competencia. (Art. 7 C.O.T.).
-Gilitarind GlFarista
-
 ## MIl. Y UNA PREGUNTAS EN DERECHO PROCESAL CIVIL
+
+**Definición Canónica:** Pregunta: EXCEPCIONES A LA TERRITORIALIDAD.
+departe,salvo en los casos en que la ley losfaculte para proceder
+1)La inspeccion personal del tribunal.
+de oficio." (Art. 10 C.O.T.).
+Los jueces civiles de la Region Metropolitana, pueden actuar
+en cualquier comuna.
 
 Pregunta: EXCEPCIONES A LA TERRITORIALIDAD.
 departe,salvo en los casos en que la ley losfaculte para proceder
@@ -502,6 +434,15 @@ Los jueces civiles de la Region Metropolitana, pueden actuar
 en cualquier comuna.
 
 ## Pregunta: EJEMPLOS DE EXCEPCIONES EN QUE LOS TRIBUNALES
+
+**Definición Canónica:** Los jueces de Valparaiso y Vina del Mar pueden actuar en
+ACTUANDE OFICIO.
+ambas comunas.
+1) Declaracion de nulidad absoluta segun el art. 1683 C.C.
+4)Los jueces del trabajo. (Art.428 del Codigo del Trabajo).
+2) Medidas para mejor resolver. (Art. 159 C.P.C.).
+3)
+Declaracion de implicancia.
 
 Los jueces de Valparaiso y Vina del Mar pueden actuar en
 ACTUANDE OFICIO.
@@ -514,12 +455,14 @@ Declaracion de implicancia.
 
 ## Pregunta:ES EXCEPCION AL PRINCIPIO DE TERRITORIALIDAD
 
- La casacion de oficio.
+**Definición Canónica:** La casacion de oficio.
 
-## Establecido en el art. 7° del c.o.t.,el inciso 2°
+La casacion de oficio.
+
+Establecido en el art. 7° del c.o.t.,el inciso 2°
 
 
-## De la misma disposicion?
+De la misma disposicion?
 
 5)
 Cuando se declara absolutamente incompetente.
@@ -532,20 +475,27 @@ que hayan de llevarse a efecto en otro territorio". Esta no es una
 excepcion, ya que el tribunal en estos casos, actua en otro, a
 traves del tribunal que ejerce alli jurisdiccion, mediante la comPregunta: &CUAL ES LA REGLA GENERAL EN EL PROCESO PEpetencia delegada.
 
-## Nal?
+Nal?
 
 Regla general: de oficio, por el Ministerio Publico o personas
 legalmente determinadas por la ley. (Art. 53 del C.P.P.).
 Pregunta: FUERA DE LOS CASOS DE EXCEPCION MENCIONADOS,
 ECUAL SERIA LA SANCION PARA LOS ACTOS QUE EJEExcepcion: a peticion de parte.
 
-## Cuten los tribunales fuera de sus respectivos
+Cuten los tribunales fuera de sus respectivos
 
 
-## Territoriosjurisdiccionales?
-
+Territoriosjurisdiccionales?
 
 ## Pregunta: &CUAL ES LA REGLA GENERAL EN EL PROCESO CIVIL?
+
+**Definición Canónica:** Estos actos serian nulos en virtud de lo dispuesto por los
+arts. 7° de la C.P.R. y 7° del C.O.T.
+Regla general: A peticion de parte.
+Excepcion: De oficio.
+Pregunta: INDEPENDENCIA.
+“El PoderJudicialesindependientedetodaotra autoridad en
+Pregunta: PUEDEN EXCUSARSE LOS JUECES DE EJERCER SU M1el ejercicio de sus funciones."(Art. 12 C.O.T.).
 
 Estos actos serian nulos en virtud de lo dispuesto por los
 arts. 7° de la C.P.R. y 7° del C.O.T.
@@ -555,7 +505,7 @@ Pregunta: INDEPENDENCIA.
 “El PoderJudicialesindependientedetodaotra autoridad en
 Pregunta: PUEDEN EXCUSARSE LOS JUECES DE EJERCER SU M1el ejercicio de sus funciones."(Art. 12 C.O.T.).
 
-## Nisterio?
+Nisterio?
 
 No pueden.Los articulos 76 inc.2° de la C.P.R.y 10 inc.2°
 del C.O.T.repiten la misma idea:“Reclamada su intervencion en
@@ -569,11 +519,12 @@ BlioriaSlgurity
 
 ## Pregunta: JCOMO PUEDE FALLAR UN JUEZ UNA CAUSA SI NO HAY
 
+**Definición Canónica:** Ley que resuelva el conflicto?
 
-## Ley que resuelva el conflicto?
+Ley que resuelva el conflicto?
 
 
-## Ces?
+Ces?
 
 Puede fallar conforme a los principios de equidad, ya que se
 Los jueces tienen responsabilidad civil y penal.
@@ -591,6 +542,13 @@ sa o culposa en el ejercicio de su cargo.
 
 ## Pregunta: COMO PUEDE SER REMOVIDO DE SUS FUNCIONES UN
 
+**Definición Canónica:** Pregunta:PUBLICIDAD.
+"Los actos delos tribunales sonpuiblicos,salvolasexcepcio
+1)Por remocion acordada por la Corte Suprema.
+nes expresamente establecidas en la ley."(Art. 9 C.O.T.).
+2)Por haber sido mal calificado.
+3)Por sentencia ejecutoriada en juicio de amovilidad.
+
 Pregunta:PUBLICIDAD.
 "Los actos delos tribunales sonpuiblicos,salvolasexcepcio
 1)Por remocion acordada por la Corte Suprema.
@@ -600,8 +558,9 @@ nes expresamente establecidas en la ley."(Art. 9 C.O.T.).
 
 ## Pregunta: QUE FUNCION RELACIONADA CON ESTE PRINCIPIO
 
+**Definición Canónica:** Tienenlossecretariosdecortes ojuzgados?
 
-## Tienenlossecretariosdecortes ojuzgados?
+Tienenlossecretariosdecortes ojuzgados?
 
 4)Por haber sido declarado responsable civil o criminalmente
 por delito cometido en razon de su ministerio.
@@ -619,8 +578,9 @@ Pregunta:RESPONSABILIDAD.
 
 ## Pregunta: &CUALES SON ESAS EXCEPCIONES ESTABLECIDAS EN
 
+**Definición Canónica:** La ley?
 
-## La ley?
+La ley?
 
 “Los jueces son personalmente responsables por delitos de
 cohecho,faltadeobservancia enmateriasustancialdeleyes que
@@ -654,13 +614,13 @@ Consiste en que una vez radicado un juicio o asunto ante un
 tribunal, no podra otro tribunal, ni el Presidente o el Congreso,
 entrar a conocer del mismo asunto o juicio.
 
-## Pregunta: COMO COMIENZAN LA UNICA Y PRIMERA INSTANCIAS?
-
-Pregunta: HAY ALGUNA EXCEPCION?
-Ambas comienzan por demanda.
-1) Los tribunales superiores de justicia pueden decretar visitas extraordinarias por medio de sus ministros en los juzgados
-
 ## Pregunta: COMO COMIENZA LA SEGUNDA INSTANCIA?
+
+**Definición Canónica:** de su respectiva jurisdiccion. El ministro designado para esta
+visita puede despachar y sentenciar las causas pendientes, en
+Por recurso de apelacion.
+caso de retardo notable del juez del tribunal visitado.Arts.559,
+560 y 561 C.O.T.
 
 de su respectiva jurisdiccion. El ministro designado para esta
 visita puede despachar y sentenciar las causas pendientes, en
@@ -669,6 +629,18 @@ caso de retardo notable del juez del tribunal visitado.Arts.559,
 560 y 561 C.O.T.
 
 ## Pregunta:FORMA NORMAL DE TERMINAR LA UNICA,PRIMERA O
+
+**Definición Canónica:** 2) Acumulacion de autos.
+SEGUNDAINSTANCIA.
+Terminan normalmente por sentencia definitiva.
+Pregunta: SEDENTARIEDAD.
+Esto se relaciona con el art.158 C.O.T.,que define la sentenConsiste en que los jueces deben administrar justicia en lucia definitiva como“la queponefinala instancia,resolviendola
+gares y horas determinados. Su proposito es evitar la existencia
+cuestionoasuntoqueha sidoobjetodeljuicio."
+de tribunales ambulantes.
+Pregunta:FORMAS ANORMALES DE TERMINAR LA UNICA O PRIPregunta: GRADUALIDAD O PRINCIPIO DE LA DOBLE INSTANCIA.
+MERA INSTANCIA.
+Implica que la justicia debe administrarse a t
 
 2) Acumulacion de autos.
 SEGUNDAINSTANCIA.
@@ -698,7 +670,7 @@ E
 6)
 Aceptacion de excepciones dilatorias de incompetencia y litis
 
-## Competencia
+Competencia
 
 pendencia.
 Aceptacion de las perentorias de cosa juzgada y transaccion
@@ -712,6 +684,23 @@ La segunda instancia puede terminar en forma anormal
 por:
 
 ## Pregunta: SENALE LAS DIFERENCIAS ENTRE JURISDICCION Y
+
+**Definición Canónica:** 1）
+Declaracion de desercion dela apelacion.
+COMPETENCIA.
+2)
+Declaracion de prescripcion de la apelacion.
+Primera.
+3)
+Aceptacion de las excepciones dilatorias de incompetencia 0
+-Jurisdiccion: Facultad que tiene los tribunales para adlitispendencia opuestas en esta instancia.
+ministrar justicia.
+La casacion de oficio del fallo de primera instancia por defecCompetencia: Facultad que tiene cada tribunal para cotos de forma.
+nocer de los negocios que la ley ha colocado dentro de la
+5)
+)Por ordenar el tribunal de alzada que se devuelvanlos autos
+esfera de sus atribuciones.
+a primera instancia para 
 
 1）
 Declaracion de desercion dela apelacion.
@@ -823,7 +812,7 @@ Art. 115 C.O.T.
 Relativa. Es la que corresponde a un tribunal para conocer de un determinado negocio, en razon de su ubicaPregunta: gEN QUE MOMENTO SE DETERMINA LA COMPETENCIA
 ciondentro deuna determinada jerarquia,clase ocategoria.
 
-## En materia civil?
+En materia civil?
 
 Al momento en que se interpone la demanda, por el valor de
 la cosa disputada.
@@ -834,8 +823,9 @@ La ley los reputa de mayor cuantia.
 
 ## Pregunta: CUALES SON LOS FACTORES QUE DETERMINAN LA
 
+**Definición Canónica:** Competenciaabsoluta?
 
-## Competenciaabsoluta?
+Competenciaabsoluta?
 
 Pregunta: &QUE ES EL FUERO?
 Fuero, materia y cuantia.
@@ -850,6 +840,19 @@ losjuicios de quiebrael fuero del acreedor.
 
 ## Pregunta: SENALE CUALES SON LAS REGLAS DE COMPETENCIA
 
+**Definición Canónica:** ABSOLUTA.
+Son normas legales que permiten establecer que jerarquia,
+Pregunta: QUE ES LA MATERIA?
+clase o categoria de tribunal es el llamado a conocer de un deterLa materia es la naturaleza del asunto sometido a la decision
+minado asunto judicial (tiene que ver con la reglamentacion de
+del tribunal, y aun en casos excepcionales, el objeto o clase del
+los factores).
+mismo.
+Balitoria Bl griate
+Pregunta: &QUE ES LA COMPETENCIA RELATIVA?
+ante tribunal competente,no se alterara esta competencia porcauEs la que corresponde a un tribunal para conocer de un desa sobreviniente."(Art. 109 C.O.T.).
+termi
+
 ABSOLUTA.
 Son normas legales que permiten establecer que jerarquia,
 Pregunta: QUE ES LA MATERIA?
@@ -863,19 +866,20 @@ Pregunta: &QUE ES LA COMPETENCIA RELATIVA?
 ante tribunal competente,no se alterara esta competencia porcauEs la que corresponde a un tribunal para conocer de un desa sobreviniente."(Art. 109 C.O.T.).
 terminado asunto en razon de su ubicacion dentro de una determinada jerarquia, clase o categoria.
 
-## Pregunta: &CUANDO QUEDA RADICADO UN ASUNTO EN MATERIA
-
-
-## Civil?
-
-
-## Pregunta: CUAL ES EL FACTOR QUE LA DETERMINA?
-
-Desde que se traba la litis, o sea, desde que se notifica la
-El territorio.
-demanda y su proveido al demandado.
-
 ## Pregunta: &QUE SON LAS REGLAS DE LA COMPETENCIA RELATIPregunta: CUANDO EN MATERIA PENAL?
+
+**Definición Canónica:** VA?
+Desde que el Fiscal ordene la investigacion del hecho punible.
+Son normas que permiten establecer, una vez fijada la clase, jerarquia o categoria del tribunal que debe intervenir en un
+determinado asunto, que tribunal determinado dentro de esa jePregunta: EXCEPCIONES A LA REGLA DE FIJEZA.
+rarquia, clase o categoria debe conocer.
+1) Acumulacion de autos. (Art. 92 del C.P.C.).
+2)Asuntos de arbitrajepermitido.
+Pregunta: &SON DE ORDEN PUBLICO O PRIVADO?
+Son de orden privado, por lo tanto pueden renunciarse y no
+pueden ser declaradas de oficio.
+Pregunta:QUE ES EL GRADO?
+La regla general de comp
 
 VA?
 Desde que el Fiscal ordene la investigacion del hecho punible.
@@ -890,7 +894,7 @@ pueden ser declaradas de oficio.
 Pregunta:QUE ES EL GRADO?
 La regla general de competencia establece que: “Una vez ffPregunta: &QUE SON LAS REGLAS GENERALES DE LA COMPETENconocer en primera instancia de un determinado asunto, queda
 
-## Cia?
+Cia?
 
 igualmente fijada la del tribunal superior que debe conocer el
 Son normas de competencia que actuan una vez radicado
@@ -906,6 +910,25 @@ Tales son: 1) Fijeza o radicacion; 2) Grado; 3) Extension;
 Pregunta: REFIERASE AL PRINCIPIO DE LA EXTENSION.
 
 ## Pregunta: REFIERASE AL PRINCIPIO DE LA FIJEZA O RADICACION
+
+**Definición Canónica:** “El tribunal que es competente para conocer de un asunto,
+lo es tambien para conocer de todas las incidencias que en él se
+“Radicado con arreglo a la ley el conocimiento de un negocio
+promuevan.
+GliwialBiFuriste
+BdiariedGlSarntt
+Lo es tambien para conocer de las cuestiones que se susciten
+por via de reconvenciono decompensacion,aunque el conocimienJuez de letras de asiento de
+to de estas cuestiones, atendida su cuantia, hubiere de correspon
+b) Juicios de hacienda
+Corte
+cuando el Fisco
+C.O.T.).
+es demandante
+O el del domicilio del
+demandado
+Pregunta:PREVENCION.
+Pregunta: REFIERASE AL PRINCIPIO 
 
 “El tribunal que es competente para conocer de un asunto,
 lo es tambien para conocer de todas las incidencias que en él se
@@ -937,9 +960,11 @@ CION.
 
 ## Pregunta:INCURRE EN DELITO EL TRIBUNAL QUE SE NIEGA A
 
+**Definición Canónica:** 1) No obstante, la ejecucion de las sentencias penales y de
+
 1) No obstante, la ejecucion de las sentencias penales y de
 
-## Otros competentes?
+Otros competentes?
 
 las medidas de seguridad previstas en la ley procesal penal sera
 de competencia del juzgado de garantia que hubiere intervenido
@@ -948,6 +973,19 @@ en elrespectivoprocedimientopenal.
 De igual manera, los tribunales que conozcan de la revision
 
 ## Pregunta: DE EJEMPLOS EN QUE HAYA DOS O MAS TRIBUNALES
+
+**Definición Canónica:** de las sentencias firmes o de los recursos de apelacion, de casacion o de nulidad contra sentencias definitivas penales,ejecutaCOMPETENTES.
+ran los fallos que dicten para su sustanciacion. (Arts. 113 incs.
+El que hayan estipuladolas partes.
+2 y 3 C.O.T. y 231 C.P.C.).
+a) Accion de
+inmuebles
+El del lugar donde se
+2) Siempre que la ejecucion de una sentencia definitiva hicontrajo la obligacion
+ciere necesaria la iniciacion de un nuevo juicio, podra iniciarse
+Si no han
+ante el tribunal que la dicto en primera o unica, o ante el que sea
+competente segun los principios generales, a eleccion de la p
 
 de las sentencias firmes o de los recursos de apelacion, de casacion o de nulidad contra sentencias definitivas penales,ejecutaCOMPETENTES.
 ran los fallos que dicten para su sustanciacion. (Arts. 113 incs.
@@ -976,10 +1014,14 @@ asunto en los lugares en que existen dos o mas jueces de la miscontienda sometid
 ma jurisdiccion.
 tiditwriaSJurita
 
-## Pregunta: REGLAS DE DISTRIBUCION DE CAUSAS EN ASUNTOS
-
-
 ## Pregunta: QUE ES LA PRORROGA DE COMPETENCIA?
+
+**Definición Canónica:** CONTENCIOSOS CIVILES.
+La prorroga de competencia es el acto por el cual las partes
+Hay que distinguir si hay o no Corte de Apelaciones:
+a) Si no hay Corte de Apelaciones. Turno semanal.
+no la tiene, para conocer de un determinado asuinto judicial.
+b) Si hay Corte de Apelaciones. Distribucion.
 
 CONTENCIOSOS CIVILES.
 La prorroga de competencia es el acto por el cual las partes
@@ -989,6 +1031,15 @@ no la tiene, para conocer de un determinado asuinto judicial.
 b) Si hay Corte de Apelaciones. Distribucion.
 
 ## Pregunta: 2CUALES SON LOS REQUISrTOS PARA QUE PROCEDA LA
+
+**Definición Canónica:** Excepcionalmente no tienen que ir a distribucion: las dePRORROGA DE COMPETENCIA?
+mandas en juicios iniciados por gestiones preparatorias de la
+via ejecutiva o mediante notificacion al tercer poseedor;las
+Convenio de las partes, expreso o tacito;
+gestiones a que de lugar el cumplimiento de una sentencia y
+2（
+Que se trate de un,asunto contencioso civil que este conootras.
+ciendo en unica o 1° instancia, en tribunal de igual jerarquia;y
 
 Excepcionalmente no tienen que ir a distribucion: las dePRORROGA DE COMPETENCIA?
 mandas en juicios iniciados por gestiones preparatorias de la
@@ -1001,6 +1052,14 @@ ciendo en unica o 1° instancia, en tribunal de igual jerarquia;y
 
 ## Pregunta: REGLAS DE DISTRIBUCION DE CAUSAS EN ASUNTOS NO
 
+**Definición Canónica:** Que el tribunal al cual se prorroga sea incompetente solo en
+CONTENCIOSOS CIVILES.
+razon de territorio.
+Estos corresponden al juez de turno, haya o no Corte de
+"La prorroga de competencia solo procede en primera instanApelaciones.
+cia,entre tribunales ordinarios de igual jerarquia y respecto de
+asuntos contenciosos civiles."(Art. 182 C.O.T.).
+
 Que el tribunal al cual se prorroga sea incompetente solo en
 CONTENCIOSOS CIVILES.
 razon de territorio.
@@ -1009,16 +1068,15 @@ Estos corresponden al juez de turno, haya o no Corte de
 cia,entre tribunales ordinarios de igual jerarquia y respecto de
 asuntos contenciosos civiles."(Art. 182 C.O.T.).
 
-## Pregunta:REGLAS DE COMPETENCIA CIVILENLOSJUZGADOSEN
-
-LO CRIMINAL.
-
 ## Pregunta:CUALES SON LOS EFECTOS DE LA PRORROGA DE
+
+**Definición Canónica:** a
+Si se trata de acciones civiles que emanan del delito, hay que
 
 a
 Si se trata de acciones civiles que emanan del delito, hay que
 
-## Competencia?
+Competencia?
 
 distinguir:
 Solo surte efectos entre las personas que han concurrido a
@@ -1029,7 +1087,7 @@ ne durante la investigacion. (Art. 59 del C.P.P.).
 Pregunta: PROCEDE LA PRORROGA DE COMPETENCIA EN SE.
 favor del perjudicado.Es competente: El juez civil y el juez
 
-## Gundainstancia?
+Gundainstancia?
 
 penal.
 No, por los articulos 110 y 108 C.0.T.
@@ -1039,7 +1097,7 @@ la resolucion previa de una cuestion civil de que debiere
 F
 conocer, conforme a la ley,un tribunal que no ejerciere
 
-## Justiciaarbitral
+Justiciaarbitral
 
 jurisdiccion en lo penal, se suspendera el procedimiento
 criminal hasta que dicha cuestion se resolviere por sentencia firme."
@@ -1056,9 +1114,11 @@ nombramiento sera valido si se cumplen los siguientes requisitos:
 
 ## Pregunta:COMO SE CLASIFICAN LOS ARBITROS?&COMO TRA-
 
+**Definición Canónica:** --Autorizacion judicial previa de la justicia ordinaria.
+
 --Autorizacion judicial previa de la justicia ordinaria.
 
-## Mitan y fallan?
+Mitan y fallan?
 
 1)Arbitros de derecho.En la tramitacion y en el pronuncia-
  Justificacion de los motivos de aconsejan concederla.
@@ -1067,9 +1127,11 @@ para los jueces ordinarios; fallan con arreglo a la ley.
 
 ## Pregunta: COMO SE MANIFIESTA LA VOLUNTAD DE LAS PAR-
 
- Arbitros arbitradores o amigahles componedores. Deben
+**Definición Canónica:** Arbitros arbitradores o amigahles componedores. Deben
 
-## Tes?
+Arbitros arbitradores o amigahles componedores. Deben
+
+Tes?
 
 guardar en los procedimientos y el fallo las reglas que las
 partes les hayan expresado en el acto constitutivo del comMediante un contrato de compromiso,que debe ser por espromiso y si no ha dicho nada, de acuerdo a normas minicrito(escritura publica oprivada).
@@ -1078,7 +1140,7 @@ oir a las partes, recibir y agregar al proceso los instrumentos
 Pregunta: QUE DEBE CONTENER ESTE CONTRATO DE COMPRO.
 que se presenten, practicar las diligencias necesarias, dictar
 
-## Miso?
+Miso?
 
 sentencia).
 1): Nombre y apellido de las partes. (Esencial).
@@ -1088,7 +1150,7 @@ to al procedimiento. Fallan con arreglo a la ley.
 Asunto que se somete a arbitraje. (Esencial).
 Facultades que se confieren al arbitro. Si las partes no exPregunta: CUALES SON LAS FUENTES DE LA JUSTICIA ARBIpresan en que calidad nombran al arbitro, se entiende que
 
-## Tral?
+Tral?
 
 es de derecho.
 1) La voluntad de las partes;
@@ -1103,6 +1165,15 @@ de 2 anos desde su aceptacion.
 
 ## Pregunta:CAPACIDADDE LASPARTESPARA NOMBRARALARBIPregunta: QUE ES LA CLAUSULA COMPROMISORIA?
 
+**Definición Canónica:** TRO.
+Es una estipulacion en virtud de la cual las partes sustraen
+1)Para designar arbitro arbitrador. Es indispensable que todas
+determinadoasuntolitigiosodel conocimientodelajusticia orlas partes sean mayores de edad y libres administradoras de
+dinaria y lo someten a juicio arbitral, reservandose el derecho de
+sus bienes.
+designar arbitro en un acto posterior.
+Bslifaria BlSoriate
+
 TRO.
 Es una estipulacion en virtud de la cual las partes sustraen
 1)Para designar arbitro arbitrador. Es indispensable que todas
@@ -1114,6 +1185,12 @@ Bslifaria BlSoriate
 
 ## Pregunta: DIFERENCIAS ENTRE CLAUSULA COMPROMISORIA Y
 
+**Definición Canónica:** Arhitraje voluntarlo. Cuando las materias no son ni de arCONTRATODECOMPROMISO.
+bitraje forzoso, ni prohibido, las partes gozan de absoluta liEn el contrato de compromiso las partes convienen en somebertadpara someterlas alajusticia ordinaria o ala arbitral.
+1）
+ter a arbitrajeun determinado asuntoy designan lapersona
+del arbitro.
+
 Arhitraje voluntarlo. Cuando las materias no son ni de arCONTRATODECOMPROMISO.
 bitraje forzoso, ni prohibido, las partes gozan de absoluta liEn el contrato de compromiso las partes convienen en somebertadpara someterlas alajusticia ordinaria o ala arbitral.
 1）
@@ -1122,15 +1199,29 @@ del arbitro.
 
 ## Pregunta: QUE ES EL CONTRATO DE COMPROMISARIO?
 
+**Definición Canónica:** En la clausula compromisoria se conviene en someter un determinado asunto a arbitraje y en designar con posterioridad
+Es aquel por el cual una parte se obliga a arbitrar un conflicto y
+la persona del arbitro.
+las otras a remunerar sus servicios.
+
 En la clausula compromisoria se conviene en someter un determinado asunto a arbitraje y en designar con posterioridad
 Es aquel por el cual una parte se obliga a arbitrar un conflicto y
 la persona del arbitro.
 las otras a remunerar sus servicios.
 
-## Pregunta: gDE CUANTAS CLASES PUEDE SER EL ARBITRAJE?
-
-
 ## Pregunta: COMO SE DENOMINA Y EN QUE CONSISTE LA SENTENCIADEUNARBITRO?
+
+**Definición Canónica:** Arbitraje forzoso, prohibido o voluntario.
+La sentencia arbitral de la particion consta de dos partes:
+Arbitraje forzoso. Se produce en los casos en que el legislalaudoyordenata.
+dor entrega ciertas materias a un arbitro.
+-Laudo: Es la sentencia misma, que resuelve los puntos de
+Materias:liquidacion de sociedades y comunidades; liquihechoy derecho que sirven debase para la distribuciondelos
+dacion de la sociedad conyugal; particion de bienes; y en
+bienes.
+general las demas que determinen las leyes. A pesar de ser
+materias de arbitraje forzoso,la ley faculta a los interesa-
+-Ordenata:Contienelo
 
 Arbitraje forzoso, prohibido o voluntario.
 La sentencia arbitral de la particion consta de dos partes:
@@ -1157,20 +1248,34 @@ en que debe ser oido el Ministerio Publico. (Arts.229 y 230
 C.O.T.).
 BaliorinlGhSrit
 
-## Segundaparte
+Segundaparte
 
 
-## Derecho procesal funcional
+Derecho procesal funcional
 
 A
 
-## Disposicionescomunesatodo
+Disposicionescomunesatodo
 
 
-## Procedimiento
-
+Procedimiento
 
 ## Pregunta: &CUAL ES LA ESTRUCTURA DEL CODIGO DE PROCEDIMIENTO CIVIL?
+
+**Definición Canónica:** Consta de 4 Libros que se dividen en Titulos, éstos en parrafos, y estos ultimos en articulos.
+.-- Mensaje.
+-Libro I:Disposiciones comunes a todo procedimiento. (Arts.
+1 a 252).
+-Libro I1. Juicio ordinario (Arts.253 a 433).
+Libro Il1. Juicios especiales.(Arts.434 a 816).
+- Libro IV.Actos judiciales no contenciosos.(Arts. 817 a
+925).
+-- Articulo final, sobre la derogacion de las leyes de procediPregunta: ESFERA DE APLICACION DEL CODIGO DE PROCEDI
+MIENTO CIVIL.
+a
+Se aplica a:
+(1) Contiendas civiles y
+(2) Actos de jurisdiccion no contenciosa, siempre que el conocimiento de ellos corresponda a los
 
 Consta de 4 Libros que se dividen en Titulos, éstos en parrafos, y estos ultimos en articulos.
 .-- Mensaje.
@@ -1200,7 +1305,7 @@ cutida
 (3) Contiendas civiles entre partes o actos de jurisdiccion voa)SEGUN
 Constitutivas. Objeto: constituir un estado juridiluntaria,cuando estos estan regidos por leyes especiales y
 
-## Objeto
+Objeto
 
 co nuevo o modificaruno existente
 su conocimiento entregado a tribunales especiales.
@@ -1212,15 +1317,15 @@ La accion es la facultad que tienen las partes para comparecer a los tribunales 
 que pretenden tener.
 Ordinarias. Las que deben someterse al procedimiento comun quelaley establece
 
-## Pregunta: &CUALES SON LOS BLEMENTOS DE LA ACCION?
-
-
 ## b) SEGUN EL
+
+**Definición Canónica:** Sumarias. Las que segun la ley deben tramiPROCEDI1) Sujeto activo: Demandante.
+tarse en procedimientobreveyconcentrado
 
 Sumarias. Las que segun la ley deben tramiPROCEDI1) Sujeto activo: Demandante.
 tarse en procedimientobreveyconcentrado
 
-## Miento
+Miento
 
 2) Sujeto pasivo: Demandado.
 Ejecutivas. Aquellas que estan sometidas a un
@@ -1236,27 +1341,23 @@ deducido enjuicio.
 obtener unaprovidencia judicial que asegure el
 resultado de la accion principal
 
-## Pregunta: ECUALES SON LOS REQUISITOS PARA EJERCER UNA
-
-
-## Accion?
-
-Son reales y personales
-
 ## c) SEGUN LA
+
+**Definición Canónica:** Patrimoniales
+1) Existencia de un derecho.
 
 Patrimoniales
 1) Existencia de un derecho.
 
-## Naturaleza
+Naturaleza
 
 Tienen contenido econo2) Interes.
 
-## Del derecho
+Del derecho
 
 mico
 
-## Material
+Material
 
 3) Calidad necesaria para deducir la accion.
 Extrapatrimonialesodefamilia.Notienen
@@ -1266,12 +1367,19 @@ contenido economico
 Gdioviad St Yorine
 Ctilorib GlFurisiasr
 
-## Maria cerraortiz
+Maria cerraortiz
 
 Principales
 Segun Mario Mosquera, es la: “Relacion juridica tipica entre
 
 ## d) SEGUN SU DEPENDENCIA
+
+**Definición Canónica:** ciertos sujetos, nacida con motivo del ejercicio de la funcion juAccesorias
+risdiccional, establecida para la adecuada decision del litigio,a
+travesdeunactodeautoridad"
+Para Chiovenda es el “conjunto de actos coordinados para
+Muebles
+la finalidad dela actuacion de la voluntad concreta de la ley,en
 
 ciertos sujetos, nacida con motivo del ejercicio de la funcion juAccesorias
 risdiccional, establecida para la adecuada decision del litigio,a
@@ -1280,24 +1388,13 @@ Para Chiovenda es el “conjunto de actos coordinados para
 Muebles
 la finalidad dela actuacion de la voluntad concreta de la ley,en
 
-## e) SEGUN LA NATURALEZA
-
-relaciondeunbienquesepresentacomogarantizadoporella,por
-
-## Dela cosa debida
-
-
-## parte de los organos de la jurisdiccion ordinaria."
-
-Inmuebles
-Pregunta: NATURALEZA JURIDICA DEL PROCESO. TEORiAS.
-Civiles
-
 ## f SEGUN LA NATURALEZA
+
+**Definición Canónica:** Las teorias sobre el proceso se resumen en dos grupos: las
 
 Las teorias sobre el proceso se resumen en dos grupos: las
 
-## Delasuntodebatido
+Delasuntodebatido
 
 privatistasy las publicistas.
 Penales
@@ -1306,6 +1403,17 @@ Las privatistas estiman que existe juicio desde el momento
 en que el demandado contesta la demanda.
 
 ## Pregunta: PUEDEN ENTABLARSE EN UNA DEMANDA DOS O MAS
+
+**Definición Canónica:** bl
+Las publicistas estiman que existe juicio desde la notificaACCIONES?
+cion dela demanda.
+En una misma demanda pueden entablarse dos o mas acTeoria contractualista.Es privatista.Existe juicio desde que
+ciones siempre que esten sometidas a un mismo procedimiento y
+el demandado contesta la demanda.Tiene dos variantes:
+sean de la competencia del mismo juez.
+- Contrato. Supone convencion, expresa o tacita, entre demandante y demandado para someter el litigio al juez.En
+virtud de dicha convencion,el efecto de cosa juzgada que
+Pregunta: EN QUE CASOS SE PUEDE DEDUCIR MAS DE UNA ACemana de la sentenc
 
 bl
 Las publicistas estiman que existe juicio desde la notificaACCIONES?
@@ -1318,7 +1426,7 @@ sean de la competencia del mismo juez.
 virtud de dicha convencion,el efecto de cosa juzgada que
 Pregunta: EN QUE CASOS SE PUEDE DEDUCIR MAS DE UNA ACemana de la sentencia opera solo entre las partes.
 
-## Cion?
+Cion?
 
 -Cuasicontratodelitis contestatio.Analiza las fuentes de
 Art. 17 Codigo de Procedimiento Civil:
@@ -1363,6 +1471,21 @@ de conocimiento,de ejecucion y precautorios.
 proceso se presentan al juez de viva voz.
 
 ## Pregunta: SENALE Y EXPLIQUE LOS PRINCIPIOS FORMATIVOS
+
+**Definición Canónica:** -Escrituracion. La forma literal o escrita constituye en el
+DEL PROCESO.
+proceso la forma normal de comunicacion entre el juez y las
+partes. Es la regla general en Chile.
+a)Preclusion.Consiste en la perdida,extincion o consumacion de una facultad procesal.Puede ser:
+)Mediacione inmediacion.
+- Mediacion.No existe en el proceso contacto directo entre
+-Por extincion. Cuando la ley da un plazo para el ejercicio de
+una facultad procesal y transcurre sin que la parte haga uso
+las partes y el juez.
+de esa facultad.
+-Inmediacion.Existe contacto directo y personal entre el
+juez con las partes y la prue
+**Concordancias Legales:** Constitucion
 
 -Escrituracion. La forma literal o escrita constituye en el
 DEL PROCESO.
@@ -1421,9 +1544,11 @@ damentar sus conclusiones.Puede formar su convencimiento no solo con la prueba p
 
 ## Pregunta: CAPACIDAD PARA SER PARTE, O cQUIENES PUEDEN
 
+**Definición Canónica:** a la prueba producida en el juicio y
+
 a la prueba producida en el juicio y
 
-## Serparte enelproceso?
+Serparte enelproceso?
 
 Es la aptitud legal para figurar como parte directa o indirecta
 - Sistema de sana critica. El juez, en su resolucion debe exdeun proceso.Se confunde con la capacidad de goce del Derecho
@@ -1432,10 +1557,17 @@ Civil. Pueden ser parte todas las personas naturales o juridicas,
 o negar valor probatorio a determinados medios de prueba.
 capaces o incapaces.
 
-## Pregunta: QUE SON LOS PRESUPUESTOS PROCESALES? CUALES SON?
-
-
 ## Pregunta:CAPACIDADPROCESAL.QUIENESLA TIENEN?
+
+**Definición Canónica:** Son los elementos constitutivos y de validez de un proceso.
+Es la aptitud legal para comparecer ante los tribunales formulando una pretension o defendiendose.
+al
+Elementos constitutivos: (1) Contienda juridica actual; (2)
+Las partes; (3) El tribunal.
+La tienen todos los que segun la ley son capaces de ejercer derechos por si mismos, sin el ministerio ni autorizacion de
+b)Elementos de validez: (1) Competencia del tribunal; (2) Caotros. No la tienen los incapaces, pero los incapaces relativos
+pacidad de las partes; (3) Observacion de las formalidades
+pueden comparecer representados por su repres
 
 Son los elementos constitutivos y de validez de un proceso.
 Es la aptitud legal para comparecer ante los tribunales formulando una pretension o defendiendose.
@@ -1450,6 +1582,17 @@ prescritas por la ley para la validez de los actos que lo constituyen.(Relaciona
 casacion en la forma).
 
 ## Pregunta: CAPACIDAD PARA POSTULAR. eQUIENES TIENEN CAPACIDADPARAPOSTULARO“IUSPOSTULANDP"?
+
+**Definición Canónica:** Pregunta:QUE SON LAS PARTES?
+Es la capacidad para pedir en juicio. Solo es otorgada a las
+personas enumeradas en la Ley 18.120 que son: abogados habiPartes son aquellas personas que sostienen ante el tribunal
+litados,procuradores del numero,estudiantes de 3°,4°6 5°ano
+un conficto juridico y actual. Tambien se llaman litigantes.
+de las facultades de Derecho, los practicantes de la Corporacion
+de Asistencia Judicial rnientras hacen la practicay los egresados
+de Derecho hasta tres anos de haber rendido los examenes.EsPregunta: CLASIFICACION DE PARTES.
+tos son los unicos que pueden comparecer ante
+**Concordancias Legales:** Ley 18.120
 
 Pregunta:QUE SON LAS PARTES?
 Es la capacidad para pedir en juicio. Solo es otorgada a las
@@ -1467,6 +1610,18 @@ GdiuriadGiSurie
 Eatinviab GlFuriaw
 
 ## Pregunta:PLURALIDAD DE PARTES O LITIS CONSORCIO.CASOS
+
+**Definición Canónica:** cas con la de alguna de las partes litigantes. Deben actuar
+EN QUEPUEDENINTERVENIRVARIAS PERSONAS.
+por procurador comun.
+La litis consorcio o pluralidad de partes se presenta cuando
+2)Excluyentes. Son los que sostiene pretensiones incompatihay varios demandantes o varios demandados o ambos a la vez.
+bles con las partes principales.
+(Art. 18 C.P.C.).
+3)Independientes. Son los que sostienen pretensiones indePueden intervenir varias personas:
+penidientes de las partes directas, no las apoyan ni las exclua)Siempre que se deduzca una misma accion; por ej.: comune-
+.yen.
+ros que ejercen la accion re
 
 cas con la de alguna de las partes litigantes. Deben actuar
 EN QUEPUEDENINTERVENIRVARIAS PERSONAS.
@@ -1503,6 +1658,14 @@ Este procurador comun puede ser tambien revocado: por
 
 ## Pregunta:COMO PUEDENINTERVENIR LOS TERCEROS?
 
+**Definición Canónica:** acuerdounanimedelaspartesopor el tribunalapeticionde
+Los terceros pueden intervenir de manera voluntaria o forzada.
+algunos de ellos.Pero los efectos de esta revocacion no se producen mientras no quede constituidonuevo procurador en el
+intervencion forzada,nolo sonrealmente,ya que el tercero puede
+proceso. (Arts. 12 y 19 C.P.C.).
+intervenir o no, y de hacerlo interviene como parte directa).
+Pregunta: QUIENES SON TERCEROS?
+
 acuerdounanimedelaspartesopor el tribunalapeticionde
 Los terceros pueden intervenir de manera voluntaria o forzada.
 algunos de ellos.Pero los efectos de esta revocacion no se producen mientras no quede constituidonuevo procurador en el
@@ -1512,6 +1675,15 @@ intervenir o no, y de hacerlo interviene como parte directa).
 Pregunta: QUIENES SON TERCEROS?
 
 ## Pregunta: COMO INTERVIENEN DE MANERA VOLUNTARIA?
+
+**Definición Canónica:** Son personas que, sin ser partes directas en el juicio, interComo terceros coadyuvantes, independientes o excluyentes.
+vienen en él por tener interes actual en sus resultados.
+Pregunta: CASOS DEINTERVENCION FORZADA.
+Pregunta: &COMO PUEDEN SER LOS TERCEROS?
+1) Jactancia; 2) Citacion de eviccion; y 3) Casos del art. 21
+1) Coadyuvantes. Son los que sostienen pretensiones armonidel C.P.C.
+Bliowial GJurisle
+Balitorial Geueriete
 
 Son personas que, sin ser partes directas en el juicio, interComo terceros coadyuvantes, independientes o excluyentes.
 vienen en él por tener interes actual en sus resultados.
@@ -1524,25 +1696,25 @@ Balitorial Geueriete
 
 ## Pregunta:QUE ES LA JACTANCIA?CUANDO HAY JACTANCIA?
 
+**Definición Canónica:** comparecer en cualquier momento,pero respetando lo obraHay jactancia cuando alguna persona manifiesta que le codo con anterioridad.
+rresponde un derecho del que no goza, siempre que conste por
+escrito; se haya hecho de viva voz ante a lo menos dos personas
+Pregunta: EFECTOS DE LAS RESOLUCIONES JUDICIALES DICTADAS EN JUICIOS EN QUE INTERVIENEN TERCEROS.
+
 comparecer en cualquier momento,pero respetando lo obraHay jactancia cuando alguna persona manifiesta que le codo con anterioridad.
 rresponde un derecho del que no goza, siempre que conste por
 escrito; se haya hecho de viva voz ante a lo menos dos personas
 Pregunta: EFECTOS DE LAS RESOLUCIONES JUDICIALES DICTADAS EN JUICIOS EN QUE INTERVIENEN TERCEROS.
 
-## parte en un proceso criminal y de este puedan emanar acciones
-
-civiles contra el acusado, para el ejercicio de esas acciones. (Art.
-Estas resoluciones producen respecto de los terceros los
-270 C.P.C.).
-mismos efectos que respecto de las partes principales.
-
 ## Pregunta: cQUE DERECHO TIENE EL AFECTADO POR LA JACTANPregunta: COMPARECENCIA EN JUICIO. COMO SE COMPARECE
 
+**Definición Canónica:** Cia?
+**Concordancias Legales:** Ley 18.120
 
-## Cia?
+Cia?
 
 
-## En juicio?
+En juicio?
 
 Puede pedir que se obligue al jactancioso a demandarlo
 Se debe comparecer ante los tribunales,ya sea a nonbre
@@ -1554,14 +1726,15 @@ derecho.
 parte o interesado ante los tribunales deben conferirse patrocinio y poder o mandato judicial. Patrocinio a un abogado habilitado para la profesion,quien tambien puede ser el mandatario.
 Mandato solo a las personas que indica la Ley 18.120.
 
-## Acciondejactancia?
+Acciondejactancia?
 
 Conforme a las normas del juicio sumario.
 
 ## Pregunta: CUANDO POR EXCEPCION SE PUEDE COMPARECER
 
+**Definición Canónica:** Personalmente?
 
-## Personalmente?
+Personalmente?
 
 Pregunta: CASO DE INTERVENCION FORZADA DEL ART. 21 C.P.C.
 1).Cuando se solicita autorizacion para hacerlo.
@@ -1581,7 +1754,7 @@ deben actuar por medio de procurador comun.
 - Si declaran expresamente que no adhieren a la demanda:
 Pregunta:COMO SE COMPARECE ANTE LAS CORTES DEAPELAcaducan sus derechos.
 
-## Ciones?
+Ciones?
 
 - Si no dicen nada dentro del plazo: les afecta el resultado
 .En forma personal, por intermedio de procurador del numedel proceso sin nueva citacion; aunque en todo caso, pueden
@@ -1590,6 +1763,20 @@ BdigiclGeSarinter
 Gaftorie Gl Serite
 
 ## Pregunta: COMO SE COMPARECE ANTE LA CORTE SUPREMA?
+
+**Definición Canónica:** Pregunta: EXPIRACION DEL PATROCINIO.
+Solo por abogado habilitado o por procurador del numero.
+1) Por desempeno del cargo.
+2)Por renuncia, la que debe ser puesta en conocimiento del
+Pregunta: &QUE ES EL PATROCINIO?
+representado junto con el estado del negocio. Conserva su
+responsabilidad hasta que haya transcurrido el termino de
+Es un contrato SOLEMNE celebrado entre cliente y abogado
+emplazamiento desde la notificacion de la renuncia, salvo
+por el cual se encomienda a éste la defensa de sus derechos en
+que antes se haya designado otro patrocinante. (Art. 1° Ley
+juicio o en un determinado asunt
+**Concordancias Legales:** Ley 18.120
 
 Pregunta: EXPIRACION DEL PATROCINIO.
 Solo por abogado habilitado o por procurador del numero.
@@ -1608,7 +1795,7 @@ la ley.
 debe designar otro en la primera presentacion que haga despues del fallecimiento. No termina por fallecimiento del paPregunta: COMO SE ENTIENDE CUMPLIDA LA OBLIGACION DE
 .trocinado. (Art.1° Ley 18.120).
 
-## Constituirpatrocinio?
+Constituirpatrocinio?
 
 4) Por revocacion. Debe ser expresa.
 Se entiende cumplida por el hecho de poner el abogado su
@@ -1623,10 +1810,18 @@ Se tendra por no presentada para todos los efectos legales.
 Civil para los contratos de esa clase.(Art. 528 C.O.T.).
 Y la resolucion que se dicte al respecto no es susceptible de recursoalguno.
 
-## Pregunta:&QUE ES ELPODER O MANDATO JUDICIAL?
-
-
 ## Pregunta:QUE FACULTADES TIENE ELPATROCINANTE?
+
+**Definición Canónica:** Es un contrato SOLEMNE por medio del cual una persona
+encomienda a otra quepostule asunombre antelostribunales
+Puede tomar la representacion de su patrocinado en cualde justicia.
+quiera de las actuaciones, gestiones o tramites de las diversas
+instancias del juicio o asunto.
+Pregunta: NATURALEZA JURIDICA DEL PODER O MANDATO JUDICIAL.
+Pregunta: DURACION DEL PATROCINIO.
+Igual que el patrocinio,es un mandato.
+El abogado conserva el patrocinio y su responsabilidad mientras en el proceso no haya constancia de cesacion del mismo. No
+termina de pleno derecho,es necesario que conste en el expediente.
 
 Es un contrato SOLEMNE por medio del cual una persona
 encomienda a otra quepostule asunombre antelostribunales
@@ -1639,7 +1834,7 @@ Igual que el patrocinio,es un mandato.
 El abogado conserva el patrocinio y su responsabilidad mientras en el proceso no haya constancia de cesacion del mismo. No
 termina de pleno derecho,es necesario que conste en el expediente.
 
-## Judicial?
+Judicial?
 
 Btliarie SbSuerisle
 Gdlitarin GlGurinto
@@ -1656,16 +1851,31 @@ Por endoso en comision de cobranza de letra de caimbio, pagare o cheque.
 
 ## Pregunta: &SE ENTIENDEN CONCEDIDAS ESTAS FACULTADES
 
+**Definición Canónica:** POR EL SOLO HECHO DE CONSTITUIRSE ELMANDAPregunta: SANCION POR NO DESIGNAR MANDATARIO.
+TO?
+No.Estas facultades extraordinarias requieren de menEl tribunal se limita a ordenar la constitucion dentro del plazo de 3 dias,bajo apercibimiento de tener por no efectuada la
+ellas.
+presentacion para todos los efectos legales.
+**Concordancias Legales:** constitucion
+
 POR EL SOLO HECHO DE CONSTITUIRSE ELMANDAPregunta: SANCION POR NO DESIGNAR MANDATARIO.
 TO?
 No.Estas facultades extraordinarias requieren de menEl tribunal se limita a ordenar la constitucion dentro del plazo de 3 dias,bajo apercibimiento de tener por no efectuada la
 ellas.
 presentacion para todos los efectos legales.
 
-## Pregunta: &QUE FACULTADES OTORGA EL MANDATO JUDICIAL?
-
-
 ## Pregunta: &QUE RESPONSABILIDAD TIENE EL MANDATARIO JUDICIAL?
+
+**Definición Canónica:** Otorga facultades ordinarias y extraordinarias. (Incisos 1° y
+2°, art. 7° C.P.C.).
+Tiene la misma responsabilidad que todo mandatario.Ademas,tiene una especial, ya que responde personalmente de
+las costasprocesales que sean de cargo de su mandante.Esto
+Pregunta: CUALES SON LAS ORDINARIAS?
+porque se presume que el mandante ha proveido los dineros
+Son las que autorizan al procurador para tomar parte, de
+necesarios.
+mismo modo que podria hacerlo el poderdante, en todos los tramites e incidentes del juicio,y en todas las cuestiones que por
+Pregunta:PARALELO ENTRE PATROCINIO Y MANDATO JUDIvia de re
 
 Otorga facultades ordinarias y extraordinarias. (Incisos 1° y
 2°, art. 7° C.P.C.).
@@ -1682,19 +1892,17 @@ de la sentencia definitiva.Estas facultades se entienden concedidas sin necesida
 Semejanzas
 Ambos tienen la naturaleza juridica de un mandato solemne.
 
-## Pregunta:PUEDE EL MANDANTE LIMITAR ESTAS FACULTADES?
-
-Diferencias
-
-## Patrocinio
-
-
-## Poder
-
-Regla general: No pueden ser limitadas por el mandante,
-bajo sancion de nulidad del correspondiente acto.
-
 ## 1. Objeto
+
+**Definición Canónica:** Defensa delos derechos|Representacion de una
+persona en las gestiones
+Excepcion: El mandante puede prohibir la delegacion del
+del proceso.
+mandato.
+(Sigue a la vuelta)
+BditoricSSriste
+EslitarinbGi Seristas
+**Concordancias Legales:** Ley 18.120
 
 Defensa delos derechos|Representacion de una
 persona en las gestiones
@@ -1705,7 +1913,7 @@ mandato.
 BditoricSSriste
 EslitarinbGi Seristas
 
-## Milyunapreguntas enderechoprocesalcivil
+Milyunapreguntas enderechoprocesalcivil
 
 2.Personas que
 Abogados habilitados
@@ -1758,6 +1966,26 @@ mandante y mandatario.
 
 ## 1. Formas en que
 
+**Definición Canónica:** 1)）El mandato judicial no se extingue por
+se constituyen
+Por escritura publica.
+muerte del mandante.
+Por acta extendida ante
+2)La renuncia al mandato judicial debe ser
+el juez de letras o arbitro
+puesta en conocimiento del mandante
+y suscrita por todos los
+junto con el estado del juicio,y el mandaM. judicial
+otorgantes.
+tario conserva responsabilidad hasta que
+Por declaracion escrita
+transcurra elterminodeemplazamiento
+del mandante,autorizada
+contado desde la fecha de la notificacion,
+por el Secretario del tribusalvo que se haya designado a otro.
+nal que esta conociendo.
+3)La extincion del man
+
 1)）El mandato judicial no se extingue por
 se constituyen
 Por escritura publica.
@@ -1788,6 +2016,13 @@ Bliaria GlFerite
 
 ## Pregunta: EQUE ES LA AGENCIA OrICIOSA JUDICIAL O FIANZA DE
 
+**Definición Canónica:** Pregunta: zQUE SON LAS ACTUACIONES JUDICIALES?
+Sonhechosjuridicos o actos juridicos solemnes,o conjuntos
+Es la posibilidad de que una persona comparezca en juicio a
+de ellos, que tienen lugar en el proceso o con ocasion de él. Puenombre de otra sin tener poder para representarlo.
+denser de parte o de tercero,de tribunal o de funcionarios de la
+administracion de la justicia.
+
 Pregunta: zQUE SON LAS ACTUACIONES JUDICIALES?
 Sonhechosjuridicos o actos juridicos solemnes,o conjuntos
 Es la posibilidad de que una persona comparezca en juicio a
@@ -1796,6 +2031,19 @@ denser de parte o de tercero,de tribunal o de funcionarios de la
 administracion de la justicia.
 
 ## Pregunta: QUE DEBE HACER EL AGENTE OFICIOSO AL COMPARECER?
+
+**Definición Canónica:** CIALES.
+Expresar los motivos que impidieron la comparecencia del
+interesado.
+1)Deben realizarse por el juez de la causa, ante él o por orden
+del tribunal.
+Ofrecer que el interesado ratificara lo que actue a su nom2)Deben ser practicadas por el funcionario que indica la ley.
+bre.
+Excepcion: Cuando la ley las encomienda a otro,o autoriza
+ Ofrecer una garantia para responder de los posibles perjui-
+ al juez para delegar sus funciones y cuando deben practicarcios en el evento que el interesado no ratifique.
+se fuera del lugar del juicio.
+4)Art. 6 inc. 4: “Los agentes oficiosos deberan ser personas
 
 CIALES.
 Expresar los motivos que impidieron la comparecencia del
@@ -1818,7 +2066,7 @@ esamismaleyestablece."
 4)Deben practicarse en dias y horas habiles.
 5)De toda actuacion debe dejarse constancia en el proceso.
 
-## O t tt n z t sv  ?
+O t tt n z t sv  ?
 
 1)Debe calificar los motivos de la no comparecencia.
 Pregunta: CLASIFICACION DE LAS ACTUACIONES JUDICIALES.
@@ -1841,23 +2089,34 @@ Gdiariat StFaristu
 Bulaariah Shhurista
 Pregunta: gEN QUE FORMAS PUEDEN DECRETARSE LAS ACTUAPregunta: CLASIFICACION DE LOS PLAZOS.
 
-## Ciones judiciales?
+Ciones judiciales?
 
 Legales. Los que fija la ley, principalCon citacion,con conocimiento y con audiencia. Art. 69
 mente CPC. Son improrrogables.
 
 ## a) SEGUN
 
+**Definición Canónica:** SU
+Judiciales. Los que fija el juez son ex1）
+Con cttaclon. Significa que la diligencia no puede llevarse a
+
 SU
 Judiciales. Los que fija el juez son ex1）
 Con cttaclon. Significa que la diligencia no puede llevarse a
 
-## Origen
+Origen
 
 cepcionales y prorrogables.
 cabo hasta transcurridos tres dias desdela notificacion dela
 
 ## parte contraria,dentro de los cuales ésta puede oponerse o
+
+**Definición Canónica:** Convencionales.Emanan delacuerdo
+deducir observaciones dentro de dicho plazo.
+de las partes.Son prorrogables.
+Si la contraparte se opone dentro del plazo de citacion, se
+Individuales. Corren separadamente para
+forma un incidente previo que, por el solo ministerio' de la
 
 Convencionales.Emanan delacuerdo
 deducir observaciones dentro de dicho plazo.
@@ -1868,20 +2127,24 @@ forma un incidente previo que, por el solo ministerio' de la
 
 ## b) SEGUN EL
 
+**Definición Canónica:** cada parte, desde la respectiva notificaley,suspende la diligencia hasta que se resuelva favorableMOMENTO
+cion. Son la regla general.
+mente. Se provee “Corno se pide, con citacion". Ej.: aumento
+
 cada parte, desde la respectiva notificaley,suspende la diligencia hasta que se resuelva favorableMOMENTO
 cion. Son la regla general.
 mente. Se provee “Corno se pide, con citacion". Ej.: aumento
 
-## Enque
+Enque
 
 extraordinario para rendir prueba dentro del territorio de la
 
-## Empiezan
+Empiezan
 
 Comunes.Corren conjuntamentepara todas
 Republica.
 
-## A'correr
+A'correr
 
 las partes, desde la ultima notificacion.
 2)
@@ -1892,11 +2155,11 @@ resuelto.Por ejemplo se decreta una medida precautoria: la
 Continuos. Corren sin interrupcion. Son
 contraria puede pedir reposicion.
 
-## )segun la
+)segun la
 
 la regla general.
 
-## Formaen
+Formaen
 
 Exc: plazos de dias del CPC.
 Con audiencia.Significa que la diligencia no puede llevarse
@@ -1912,19 +2175,23 @@ Una vez resuelto puede llevarse a cabo o no, segun lo resuelsu vencimiento natur
 
 ## d)SEGUN LA
 
+**Definición Canónica:** 1) se pida antes de vencimiento
+to en el incidente.Ej.:aumentoextraordinario para rendir
+prueba fuera del territorio de la Republica, que ademas es
+
 1) se pida antes de vencimiento
 to en el incidente.Ej.:aumentoextraordinario para rendir
 prueba fuera del territorio de la Republica, que ademas es
 
-## Posibilidad
+Posibilidad
 
 2) se alegue justa causa.
 
-## De ser
+De ser
 
 con caucion.
 
-## Ampliados
+Ampliados
 
 Improrrogables. No admiten ampliacion.
 Los legales son improrrogables,
@@ -1935,9 +2202,11 @@ sefija para el cumplimientodela obligacion."
 
 ## e) SEGUN
 
+**Definición Canónica:** ipso iurelapreclusion deun derecho.
+
 ipso iurelapreclusion deun derecho.
 
-## Efectos
+Efectos
 
 Concepto procesal: oportunidad para llevar a cabo una acDELVENNo fatales. Para que se produzca la
 tuacion judicial, es decir, para ejercer un derecho dentro del proCIMIENTO
@@ -1962,9 +2231,11 @@ El primero y el ultimo dia deun plazo de meses o anos deben
 
 ## Pregunta: &PUEDE UN LITIGANTE REBELDE PEDIR LA NULIDAD
 
+**Definición Canónica:** tener el mismo numero en los respectivos meses.
+
 tener el mismo numero en los respectivos meses.
 
-## Delo obrado en su rebeldia?
+Delo obrado en su rebeldia?
 
 4)Si el mes en que debe principiar un plazo de meses o anios,
 El litigante rebelde puedeformular incidentes denulidad de
@@ -1995,6 +2266,14 @@ Pregunta: EFECTOS DE LA REBELDIA.
 
 ## Pregunta:HASTA CUANDO PUEDE HACERSE VALER?
 
+**Definición Canónica:** solo al tramite especifico que la provoca. Se da por evacuado
+el tramite correspondiente y se sigue notificando al litigante
+Solo puede hacerse valer mientras el juicio este pendiente y
+rebelde las resoluciones que recaigan en el juicio.
+mientras la sentencia definitiva no estefirme o ejecutoriada.
+Galitariad Gl Surinia
+Gisllorinb Ghgurialo
+
 solo al tramite especifico que la provoca. Se da por evacuado
 el tramite correspondiente y se sigue notificando al litigante
 Solo puede hacerse valer mientras el juicio este pendiente y
@@ -2003,7 +2282,7 @@ mientras la sentencia definitiva no estefirme o ejecutoriada.
 Galitariad Gl Surinia
 Gisllorinb Ghgurialo
 
-## Mil y una preguntas en derecho procesal. civil
+Mil y una preguntas en derecho procesal. civil
 
 Sentencias definitivas, sentencias interlocutorias, autos y
 MIENTO.
@@ -2033,7 +2312,7 @@ Sentencia definitiva es la que pone fin a la instancia, resolPregunta: HASTA CUA
 viendoel asuntosometido ala decision del tribunal.
 TE DE NULIDAD DE LO OBRADO POR FALTA DE EMPLAPuede ser:
 
-## Zamiento?
+Zamiento?
 
 Primera clasiflcacion.
 Puede interponerse en cualquier estado del juicio,aun des
@@ -2043,20 +2322,13 @@ pues de dictada sentencia definitiva y aun cuando este ejecutoriada,ya que se re
 3) De segunda instancia.
 (a) Confirmatoria.
 
-## Pregunta:QUE SON LAS RESOLUCIONES JUDICIALES?
-
-(b) Modificatoria.
-Sonlas declaraciones emanadas delos tribunales sobrelos
-(c) Revocatoria.
-puntos sometidos a su decision.
-Segunda clasificacion.
-1) Impugnable.
-
 ## Pregunta: CUAL ES LA CLASIFICACION QUE DA EL C.P.C.EN EL
+
+**Definición Canónica:** 2) No impugnable.
 
 2) No impugnable.
 
-## Art. 158? que importancia tiene esta clasificacion?
+Art. 158? que importancia tiene esta clasificacion?
 
 3) Ejecutoriada.
 GaliarigGlorie
@@ -2069,6 +2341,13 @@ del recurso de casacion, que procede respecto a las que ponen termino al juicio 
 
 ## Pregunta: QUE ES UNA SENTENCIA INTERLOCUTORIA?
 
+**Definición Canónica:** Sentencia interlocutoria es la que falla un incidente establePregunta: &QUE ES UNA SENTENCIA DE TERMINO?
+ciendo derechos permanentes a favor de las partes o que resuelve sobre algun tramite que debe servir de base para la dictacion
+Es la que pone fin a la ultima instancia del juicio, y puede ser
+de una sentencia definitiva o interlocutoria.
+definitiva ointerlocutoria.
+Pregunta: &QUE RELACION HAY ENTRE LAS SENTENCIAS INTERPregunta: &CUANDO SE ENTIENDE QUE UNA SENTENCIA ESTA FIRLOCUTORIASYLOSAUTOS?
+
 Sentencia interlocutoria es la que falla un incidente establePregunta: &QUE ES UNA SENTENCIA DE TERMINO?
 ciendo derechos permanentes a favor de las partes o que resuelve sobre algun tramite que debe servir de base para la dictacion
 Es la que pone fin a la ultima instancia del juicio, y puede ser
@@ -2076,7 +2355,7 @@ de una sentencia definitiva o interlocutoria.
 definitiva ointerlocutoria.
 Pregunta: &QUE RELACION HAY ENTRE LAS SENTENCIAS INTERPregunta: &CUANDO SE ENTIENDE QUE UNA SENTENCIA ESTA FIRLOCUTORIASYLOSAUTOS?
 
-## Me o ejecutoriada? desde que momento esta
+Me o ejecutoriada? desde que momento esta
 
 La sentencia interlocutoria tiene relacion con los autos porEJECUTORIADA?
 que ambas resuelven incidentes. La diferencia esta en que los
@@ -2089,7 +2368,7 @@ taciondeunasentencia definitiva ointerlocutoria.
 es notificada a las partes.
 Pregunta: CLASIFICACION DE LAS SENTENCIAS INTERLOCUTOPorque los recursos que proceden se interpusieron y fueron
 
-## Rias.cual de estas establece la procedencia
+Rias.cual de estas establece la procedencia
 
 fallados.Desde que se notifica el cumplase del fallo del reDEL RECURSO DE CASACION EN LA FORMA?
 curso,o
@@ -2107,9 +2386,11 @@ de la demanda.
 
 ## Pregunta:&HAY ALGUNA RESOLUCION QUE PUEDA CUMPLIRSE
 
+**Definición Canónica:** interlocutoria. Ejs.: la que recibe la causa a prueba, la que
+
 interlocutoria. Ejs.: la que recibe la causa a prueba, la que
 
-## Aunquenoesteejecutoriada?
+Aunquenoesteejecutoriada?
 
 despacha mandamiento de ejecucion y embargo.
 Si, las sentencias que causan ejecutoria pueden cumplirse
@@ -2141,7 +2422,7 @@ Requisitos del articulo 170:
 Numero de rol que se le asigna a la causa, si es la primera
 resolucion.
 
-## -- parte expositiva
+-- parte expositiva
 
 a) Designacion precisa de las partes litigantes, domicilio,
 profesion u oficio.
@@ -2153,7 +2434,7 @@ la autorizacion del Secretario,la sancion es la nulidad.
 c) Igual enunciacion de las excepciones o defensas alegadas
 por el demandado.
 
-## --parte considerativa
+--parte considerativa
 
 Pregunta: REQUISITOS DE LOS DECRETOS.
 d) Consideraciones de hecho y derecho que sirven de funda1) Requisitos generales.
@@ -2162,10 +2443,28 @@ Indicar el tramite que se ordena, o sea, el que da curso proe) Enunciacion de la
 gresivo a los autos.
 de equidad conforme a los cuales se pronuncia el fallo.
 
-## --parte resolutiva
-
+--parte resolutiva
 
 ## Pregunta: REQUISITOS DE LOS AUTOS Y SENTENCIAS INTERLO
+
+**Definición Canónica:** f Decision del asunto controvertido.
+CUTORIAS.
+3)
+Declaracion acerca de las costas.
+1)
+Requisitos generales.
+Expresar si ha sido recibida o no la causa a prueba.
+2)
+Condenacion en costas del incidente que fallan.(Art.144
+Expresar si las partes fueron o no citadas a oir sentencia.
+Consideraciones de hecho y derecho en que se funda.Articu6)
+Opiniones disconformes, si se trata de tribunal colegiado.
+lo 171.
+Nombre del juez o jueces que la hayan dictado y nombre del
+A
+Enunciacion de las leyes y, en su defecto de los principios de
+ministro redactor, si es colegiado.
+equidad con arreglo a los cuales
 
 f Decision del asunto controvertido.
 CUTORIAS.
@@ -2189,6 +2488,12 @@ equidad con arreglo a los cuales se pronuncia.Articulo 171
 
 ## Pregunta: DE UNA BREVE EXPLICACION SOBRE LO QUE ES CADA
 
+**Definición Canónica:** Pero si las consideraciones equivocadas constituyen evenPARTE DE LA SENTENCIA DEFINITIVA.
+tualmente una infraccion de ley que influya en lo dispositivo del
+1)Parte exposittva: Es la individualizacion de las partes y la
+fallo, pueden ser causal que justifique la interposicion de un reenunciacion breve de las acciones y excepciones y sus funcurso decasacion en el fondo.
+damentos. Enunciacion breve significa que no deben transcribirse integramente las solicitudes de las partes.
+
 Pero si las consideraciones equivocadas constituyen evenPARTE DE LA SENTENCIA DEFINITIVA.
 tualmente una infraccion de ley que influya en lo dispositivo del
 1)Parte exposittva: Es la individualizacion de las partes y la
@@ -2196,6 +2501,17 @@ fallo, pueden ser causal que justifique la interposicion de un reenunciacion bre
 damentos. Enunciacion breve significa que no deben transcribirse integramente las solicitudes de las partes.
 
 ## Pregunta:&QUEDEBE CONTENERLA PARTE RESOLUTIVA DE UNA
+
+**Definición Canónica:** b)
+Parteconsiderativa:Esla fundamentacion delapartereSENTENCIA DEFINITIVA DE PRIMERA INSTANCIA?
+solutiva. Debe establecer los hechos sobre los que versa el
+asunto que se falla,haciendo distincion delos que han sido
+La decision del asunto controvertido,el pronunciamiento so
+aceptados por las partes y aquellos sobre los que ha versado
+bre los incidentes que quedaron para ser resueltos en definitiva,
+la discusion.Debe determinar los hechos que se encuentran
+el pronunciamientosobrelas tachas detestigosy elpronunciacomprobados conforme a la ley y los fundamentos para conmiento sobre las costas.
+sid
 
 b)
 Parteconsiderativa:Esla fundamentacion delapartereSENTENCIA DEFINITIVA DE PRIMERA INSTANCIA?
@@ -2211,11 +2527,11 @@ de derecho aplicables al caso y luego enunciar las leyes, o en
 su defecto, los principios de equidad conforme a los cuales
 Pregunta: &QUE PASA SI EL TRIBUNAL OMITE EL FALLO DE ALse pronuncian el fallo.
 
-## Guna accion o excepcion opuesta en tiempo y
+Guna accion o excepcion opuesta en tiempo y
 
 Parte resolutiva: Es la decision del asunto controvertido,
 
-## Forma?
+Forma?
 
 C
 cs la manifestacion mas concreta de la jurisdiccion.Debe
@@ -2224,16 +2540,14 @@ tido, lo que constituye causal que autoriza el recurso de casacion
 hecho valer en el juicio.
 en la forma.
 
-## Pregunta: &QUE SANCION PROCEDE RESPECTO DE UNA SENTENCIA DEFINITIVA A LA CUALFALTAN CONSIDERACIONES
-
-
 ## Pregunta: 2QUE PASA SI FALLA ALGUNA QUE NO SE HIZO VALER
 
+**Definición Canónica:** O considerandos?
 
-## O considerandos?
+O considerandos?
 
 
-## En tiempoyforma?
+En tiempoyforma?
 
 La sentencia definitiva que no contenga considerandos es
 Incurre en el vicio de ultrapetita,que es causal de casacion
@@ -2243,9 +2557,11 @@ pronunciada la sentencia con omision de cualquiera de los requisitos del articul
 
 ## Pregunta: EXCEPCIONES AL PRINCIPIO SEGUN EL CUAL EL FALLO
 
+**Definición Canónica:** DEBE CONTENER LA DECISION DEL ASUNTO COTROPregunta:UNA SENTENCIA DEFINITIVA QUE CONTIENE CONSIDEVERTIDO.
+
 DEBE CONTENER LA DECISION DEL ASUNTO COTROPregunta:UNA SENTENCIA DEFINITIVA QUE CONTIENE CONSIDEVERTIDO.
 
-## Raciones,pero estas son equivocadas,&seria
+Raciones,pero estas son equivocadas,&seria
 
 SUSCEPTIBLE DEL RECURSO DE CASACION EN LAFOR1)La sentencia definitiva de primera instancia puede omitir la
 MA?
@@ -2273,9 +2589,11 @@ ley manda o permite a los tribunales proceder de oficio. Articulo160.Por ejemplo
 
 ## Pregunta:PUEDE FALLAR ESTAS ACCIONES SIN NECESIDAD DE
 
+**Definición Canónica:** conforme al articulo 1683 del C.C.
+
 conforme al articulo 1683 del C.C.
 
-## Casar de oficio o sin necesidad de ordenar al
+Casar de oficio o sin necesidad de ordenar al
 
 La lectura del articulo 170 del C.P.C.y su memorizacion son
 TRIBUNALDE PRIMERA INSTANCIA QUE LA COMPLEobligatorias.
@@ -2284,10 +2602,13 @@ Si, puede fallarlas en estos casos:
 
 ## Pregunta: COMO PUEDEN SER LAS SENTENCIAS DEFINITIVAS DE
 
+**Definición Canónica:** 1）
+Cuando las acciones o excepciones no falladas no son incom--
+
 1）
 Cuando las acciones o excepciones no falladas no son incom--
 
-## Segundainstancia?
+Segundainstancia?
 
 patibles con las falladas.Art. 208 C.P.C. Rige cuando hay
 incompatibilidad.Por ej.:Si seha demandado cumplimiento
@@ -2296,6 +2617,18 @@ rias,revocatorias o modificatorias.
 Cuando el vicio de falta de resolucion del asunto controvertidofuecometido enla sentenciadeunjuicio sumario,pero en
 
 ## Pregunta:REQUISITOS DE LAS SENTENCIAS CONFIRMATORIAS
+
+**Definición Canónica:** este caso, puede hacerlo a peticion de parte. Art. 692 C.P.C.
+DE SEGUNDA INSTANCIA.
+Rige cuando hay omision.
+Deben contener: fecha y lugar en que se dictan, firmas de los
+ministros queladictan,autorizacion del Secretario,declaracion
+Pregunta: REQUISITOS DE LAS SENTENCIAS DE SEGUNDA INSde que se confirma la sentencia apelada.
+TANCIA QUE MODIFIQUEN O REVOQUEN LA DE PRIMEa)Regla general: No tienen requisitos especiales.
+RAINSTANCIA.
+b)Excepcion: Si confirman sin modificacion,y la de primera
+Solo deben cumplir con los requisitos del articulo 170, pero
+instancia (apelada) no cumple con todos o algu
 
 este caso, puede hacerlo a peticion de parte. Art. 692 C.P.C.
 DE SEGUNDA INSTANCIA.
@@ -2337,12 +2670,12 @@ ordenar que se notifique en otros lugares.
 6) Tacita (art. 55 inc. 1°);
 Pregunta: QUE PASA SI NO SE DEJA CONSTANCIA DE ESTA NOTY7) Presunta legal (art. 55 inc. 2°).
 
-## Ficacion en el proceso?
+Ficacion en el proceso?
 
 De toda notificacion personal debe dejarse constancia en el
 Pregunta: CUAL ES LA REGLA GENERAL EN MATERIA DE NOTIFIproceso que sehale fecha,hora y lugar donde se notifico,y el
 
-## Caciones?
+Caciones?
 
 medio como comprobo el ministro de fela identidad del notifiLa notificacion por el ESTADO DIARIO, salvo que la ley diga
 cado.
@@ -2351,9 +2684,11 @@ La omision de la notificacion acarrea la nulidad de la notificacion personal.
 
 ## Pregunta: EN QUE CONSISTE LA NOTIFICACION PERSONAL?
 
+**Definición Canónica:** Pregunta: QUE RESOLUCIONES DEBEN NOTIFICARSE PERSONALEs la que consiste en entregar, a la persona a quien se debe
+
 Pregunta: QUE RESOLUCIONES DEBEN NOTIFICARSE PERSONALEs la que consiste en entregar, a la persona a quien se debe
 
-## Mente?
+Mente?
 
 notificar, copia integra de la resolucion y de la solicitud en que
 ha recaido, cuando sea escrita. (Art. 40 C.P.C.).
@@ -2362,6 +2697,18 @@ o personas a quienes afecten sus resultados.
 2)Cuando la ley dispone que se notifique a alguna persona
 
 ## Pregunta: DONDE SE NOTIFICA PERSONALMENTE?
+
+**Definición Canónica:** para la validez de ciertos actos. Ej.: renuncia del procurador
+1)En lugares y recintos de acceso publico: cualquier dia a cualjudicial; notificacion de cesion de credito nominativo.
+quier hora, procurando causar la menor molestia posible al
+3)Cuando el tribunal lo ordena expresamente.
+notificado.
+ 4) Cuando la ley lo exige expresamente.
+Excepcion: Si se trata de un juicio ejecutivo,no puede efectuarse el requerimiento de pago en estos lugares publicos:
+5) En todo caso.
+se puede notificar la demanda y el receptor debe designar en
+6) Cuando transcurren 6 meses sin que se dicte resolucion en
+la c
 
 para la validez de ciertos actos. Ej.: renuncia del procurador
 1)En lugares y recintos de acceso publico: cualquier dia a cualjudicial; notificacion de cesion de credito nominativo.
@@ -2383,6 +2730,16 @@ GdiariaShgoriae
 
 ## Pregunta: &QUE ES LA NOTIFICACION PERSONAL SUBSIDIARIA?
 
+**Definición Canónica:** Segunda diferencla.
+La notificacion personal subsidiaria es aquella que se realiza
+- Personal. Se efectua entregando las copias personalmente
+al notificado, pero si no es habido, puede notificarse segun el art.
+es habida, despues de buscado en dos dias distintos,en su ha44.
+bitacion, o en el lugar donde habitualmente ejerce su industria,
+- Cedula. Se efectua entregando copia integra de la resoluprofesion o empleo. (Art. 44 C.P.C.).
+cion y los datos necesarios para su acertada inteligencia en el
+domicilio del notificado y si no hay nadie, se fija un aviso en la
+
 Segunda diferencla.
 La notificacion personal subsidiaria es aquella que se realiza
 - Personal. Se efectua entregando las copias personalmente
@@ -2395,18 +2752,22 @@ domicilio del notificado y si no hay nadie, se fija un aviso en la
 
 ## Pregunta: QUE SE ENTREGA?A QUIEN SE PUEDE ENTREGAR?
 
+**Definición Canónica:** puerta.
+Se entrega copia integra de la resolucion y de la solicitud en
+Pregunta: &QUE RESOLUCIONES DEBEN NOTIFICARSE POR CEquehayarecaido,cuandoseaescrita.
+
 puerta.
 Se entrega copia integra de la resolucion y de la solicitud en
 Pregunta: &QUE RESOLUCIONES DEBEN NOTIFICARSE POR CEquehayarecaido,cuandoseaescrita.
 
-## Dula?
+Dula?
 
 Puede entregarse a cualquier persona adulta que se encuen1)La sentencia definitiva de unica o primera instancia.
 tre en la morada o lugar de trabajo.
 2) La que recibe la causa a prueba en el juicio'ordinario.
  3) La que ordene la comparecencia personal de las partes.
 
-## Nadie?
+Nadie?
 
 4)Cuando el tribunal lo ordene.
 Se fija un aviso en la puerta que de noticia de la demanda,
@@ -2422,14 +2783,31 @@ Es la que consiste en entregar en el domicilio del notificado
 
 ## Pregunta: &QUE OBLIGACION TIENEN LAS PARTES EN UN JUICIO
 
+**Definición Canónica:** una cedula que contenga copia integra de la resolucion y los daPARA EFECTOS DE LA NOTIFICACION POR CEDULA?
+tos necesarios para su acertada inteligencia. (Art. 48 C.P.C.).
+
 una cedula que contenga copia integra de la resolucion y los daPARA EFECTOS DE LA NOTIFICACION POR CEDULA?
 tos necesarios para su acertada inteligencia. (Art. 48 C.P.C.).
 
-## Ecomo se sanciona la omision de este deber?
+Ecomo se sanciona la omision de este deber?
 
 En su primera gestion, deben designar un domicilio conocidodentro delos limites urbanos del lugar en quefunciona el
 
 ## Pregunta: DIFERENCIAS DE LA NOTIFICACION POR CEDULA CON
+
+**Definición Canónica:** tribunal. La designacion subsiste mientras no se haga otra, aun
+LA PERSONAL.
+cuandorealmente cambien de domicilio.
+Primera diferencia.
+Sancion: A la parte que no designe domicilio, se le notifica-
+- Personal. Debe entregarse copia integra de la resolucion y
+ran todas las resoluciones por el estado diario.
+la solicitud en que haya recaido,cuando sea escrita.
+- Cedula. Debe entregarse copia integra de la resolucion y los
+Pregunta: NOTIFICACION POR EL ESTADO.
+datos.necesariospara su acertada inteligencia.
+Es la que consiste en incluir la resolucion que se va a notifiBdiuwind BJuriiw
+Baliorid GlSu
 
 tribunal. La designacion subsiste mientras no se haga otra, aun
 LA PERSONAL.
@@ -2460,6 +2838,14 @@ por cedula, previa autorizacion del tribunal.
 
 ## Pregunta: &QUE ES Y CUANDO SE PRODUCE EL DESASIMIENTO?
 
+**Definición Canónica:** Pregunta: &CUANDO PROCEDE?
+El desasimiento es el efecto que producen las sentencias deCuando debe notificarse personalmente o por cedula a perfinitivas o interlocutorias, en virtud del cual, una vez han sido
+sonas cuya individualidad o residencia es dificil determinar, o a
+notificadas a alguna de las partes,no pueden ser modificadas o
+quienes,por su numero, dificulten la practica de la diligencia.
+alteradas por el tribunal que las dicto. (Art. 182 C.P.C.).
+Se produce una vez notificada a ALGUNA de las partes.
+
 Pregunta: &CUANDO PROCEDE?
 El desasimiento es el efecto que producen las sentencias deCuando debe notificarse personalmente o por cedula a perfinitivas o interlocutorias, en virtud del cual, una vez han sido
 sonas cuya individualidad o residencia es dificil determinar, o a
@@ -2470,6 +2856,15 @@ Se produce una vez notificada a ALGUNA de las partes.
 
 ## Pregunta: 2CUANDO SE ENTIENDE QUE HAY NOTIFICACION TACITA?
 
+**Definición Canónica:** Pregunta: REQUISITOS PARA QUE SE PRODUZCA EL DESASIMIENDesde que la parte a quien afecte haga en el juicio cualquier
+TO DEL TRIBUNAL.
+gestion que suponga conocimiento de la resolucion,aunque la
+1)Que se trate de una sentencia interlocutoria o definitiva.
+forma legal, sin antes reclamar de la falta o la nulidad. (Art. 55
+2) Que esa resolucion haya sido notificada a ALGUNA de las
+inc. 1 C.P.C.).
+partes.
+
 Pregunta: REQUISITOS PARA QUE SE PRODUZCA EL DESASIMIENDesde que la parte a quien afecte haga en el juicio cualquier
 TO DEL TRIBUNAL.
 gestion que suponga conocimiento de la resolucion,aunque la
@@ -2479,10 +2874,17 @@ forma legal, sin antes reclamar de la falta o la nulidad. (Art. 55
 inc. 1 C.P.C.).
 partes.
 
-## Pregunta: &CUANDO HAY NOTIFICACION PRESUNTA LEGAL?
-
-
 ## Pregunta: EXCEPCIONES AL DESASIMIENTO. RESOLUCIONES QUE
+
+**Definición Canónica:** Si una parte solicita y obtiene la declaracion de nulidad
+NOPRODUCENDESASIMIENTO.
+de una notificacion, se tendra por notificada desde que se le
+1)La resolucion que recibe la causa a prueba es susceptible de
+notifique la resolucion que declara su nulidad.(Art.55 inc.2°
+reposicion.
+El recurso de aclaracion o interpretacion y de rectificacion o
+enmienda.
+Pregunta: EFECTOS DE LAS RESOLUCIONES JUDICIALES.&CUANLas interlocutorias que declaran la desercion o la prescripcion de la apelacion son susceptibles de reposicion fundado
 
 Si una parte solicita y obtiene la declaracion de nulidad
 NOPRODUCENDESASIMIENTO.
@@ -2494,7 +2896,7 @@ El recurso de aclaracion o interpretacion y de rectificacion o
 enmienda.
 Pregunta: EFECTOS DE LAS RESOLUCIONES JUDICIALES.&CUANLas interlocutorias que declaran la desercion o la prescripcion de la apelacion son susceptibles de reposicion fundado
 
-## Lucionesjudiciales?
+Lucionesjudiciales?
 
 en un error de hecho.
 Los efectos de las resoluciones judiciales son:el DESASI4)El incidente de nulidad procesal de todo lo obrado por falta
@@ -2503,7 +2905,7 @@ de emplazamiento.
 Gliwriel Shhurislt
 Beliarid BtSuriatu
 
-## Maria cerraortiz
+Maria cerraortiz
 
 5)Los autos y decretos no producen desasimiento. Producen
 3) Cosa juzgada sustancial provisional. Aquella que posibiliaccion de cosa juzgada, pero no excepcion.
@@ -2521,6 +2923,17 @@ cuestion (excepcion).
 
 ## Pregunta: DE QUE SENTENCIAS SURGE LA COSA JUZGADA?
 
+**Definición Canónica:** La cosa juzgada surge de las sentencias definitivas o interloPregunta: CLASES DE COSA JUZGADA.
+cutorias firmes.
+ - La accion de cosa juzgada nace solo de sentencias de cona)Primera clasificacton.
+dena.
+1) Cosa juzgada relativa. Aquella que afecta solo a las partes
+que han formado parte de la relacion'procesal respecto de la
+-- La excepcion de cosa juzgada nace de sentencias condenacual se ha dictado la sentencia que la produce.
+toriasy absolutoriasy cualquiera sea sunaturaleza.
+2) Cosa juzgada absoluta. Aquella que produce efectos respecto de todo aquel que ha promovido la cuestion resuelta
+Pr
+
 La cosa juzgada surge de las sentencias definitivas o interloPregunta: CLASES DE COSA JUZGADA.
 cutorias firmes.
  - La accion de cosa juzgada nace solo de sentencias de cona)Primera clasificacton.
@@ -2532,7 +2945,7 @@ toriasy absolutoriasy cualquiera sea sunaturaleza.
 2) Cosa juzgada absoluta. Aquella que produce efectos respecto de todo aquel que ha promovido la cuestion resuelta
 Pregunta: 2QUE CLASE DE COSA JUZGADA EXISTE EN LOS JUIpor la sentencia de que se trata.
 
-## Ciosde alimentos?
+Ciosde alimentos?
 
 b)Segunda clasifcacion.
 Cosa juzgada provisional, ya que estas resoluciones pueden
@@ -2557,6 +2970,21 @@ Bultarisd Blgerinte
 Es relativa; la prestacion solo puede exigirse a aquel a quien
 
 ## Pregunta: EQUE TIPO DE EXCEPCION ES LA COSA JUZGADA?
+
+**Definición Canónica:** la impuso el fallo.
+OPORTUNIDADESPARA ALEGARLA.
+Es prescriptible en 3 anios; es accion ejecutiva.
+La cosa juzgada es excepcion perentoria.
+4）
+Es coercitiva; su cumplimiento puede obtenerse por medios
+Puede alegarse:
+de apremios (es titulo ejecutivo).
+En el juicio ordinario.
+a)Como excepcion dilatoria,dentro del termino de emplaza
+Pregunta: JA QUIEN CORRESPONDE LA ACCION DE COSA JUZGAmiento. (Art. 304 C.P.C.).
+DA?
+b) Como excepcion perentoria en la contestacion de la deCorresponde a aquel en cuyo favor se ha declarado un deremanda. (Arts. 309 y 310 C.P.C.).
+cho en una sentencia firme o ejecutor
 
 la impuso el fallo.
 OPORTUNIDADESPARA ALEGARLA.
@@ -2586,6 +3014,24 @@ establece la ley. (Arts. 464 N" 18 y 465 C.P.C.).
 
 ## Pregunta:REQUISITOS PARA QUE PROCEDA LA ACCION DE COSA
 
+**Definición Canónica:** b) En el juicio sumario. En la audiencia de contestacion y
+JUZGADA.
+conciliacion de 5° dia habil. (Art. 690 C.P.C.).
+1）（
+Que exista una resolucion judicial firme o ejecutoriada o que
+cause ejecutoria.
+3）
+En el procedimiento penal.
+Que la parte pida expresamente el cumplimiento de esa resoComo excepcion de previo y especial pronunciamiento (Art.
+264 letra c) C.P.P.).
+lucionjudicial.
+3）
+ Que la prestacion que impone la sentencia sea actualmente
+4)Como fundamento del recurso de apelacion.
+exigible.
+Si el tribunal acoge o desecha la excepcion de cosa juzgada
+opuesta en primera instancia, sea como 
+
 b) En el juicio sumario. En la audiencia de contestacion y
 JUZGADA.
 conciliacion de 5° dia habil. (Art. 690 C.P.C.).
@@ -2606,6 +3052,17 @@ opuesta en primera instancia, sea como dilatoria o perentoria, se puede apelar d
 
 ## Pregunta: &QUE ES LA EXCEPCION DE COSA JUZGADA?
 
+**Definición Canónica:** 5）
+Como causal del recurso de casacion enla forma.
+Es el efecto que producen las sentencias definitivas o interlocutorias firmes, en virtud del cual no puede volver a discutirSi se ha alegado oportunamente en el juicio y se dicta sense entre las mismas partes la cuestion que ha sido objeto del
+tencia ignorandola. (Arts. 768 N° 6 y 773 C.P.C.).
+fallo.
+6)Como causal del recurso de casacion en el fondo.
+BuliarieBhguriste
+Galiariat StSuritw
+Si el tribunal respectivo al reconocer o desconocer la existenPregunta:REQUISITOS PARA QUE PROCEDA LA EXCEPCION DE
+cia de cosa juzgada comete infraccion de las
+
 5）
 Como causal del recurso de casacion enla forma.
 Es el efecto que producen las sentencias definitivas o interlocutorias firmes, en virtud del cual no puede volver a discutirSi se ha alegado oportunamente en el juicio y se dicta sense entre las mismas partes la cuestion que ha sido objeto del
@@ -2617,11 +3074,11 @@ Galiariat StSuritw
 Si el tribunal respectivo al reconocer o desconocer la existenPregunta:REQUISITOS PARA QUE PROCEDA LA EXCEPCION DE
 cia de cosa juzgada comete infraccion de las leyes decisorias
 
-## Cosa juzgada o, cuales son los limites de la
+Cosa juzgada o, cuales son los limites de la
 
 de la litis.
 
-## Cosajuzgada?
+Cosajuzgada?
 
 7)Como causal del recurso de revision.
 La triple identidad:
@@ -2656,7 +3113,7 @@ vocables, no existe en ellos la cosa juzgada por ser de naturaleza
 juridica administrativa y no jurisdiccional.
 Pregunta: A QUIEN CORRESPONDE LA EXCEPCION DE COSA JUZHay que distinguir:
 
-## Gada?
+Gada?
 
 a) Pueden revocarse las sentencias negativas y las positivas
 no cumplidas.
@@ -2673,10 +3130,10 @@ Pregunta: PARALELO ENTRE ACCION Y EXCEPCION DE COSA JUZno podra considerar prueb
 GADA.
 objeto acreditar lano existencia del delito o la inculpabilidad
 
-## Accion
+Accion
 
 
-## Excepcion
+Excepcion
 
 del condenado.
 b
@@ -2697,6 +3154,18 @@ ley aprovecha el fallo.
 
 ## 3. Se puede hacer valer en di
 
+**Definición Canónica:** traves de demanda de
+versas oportunidades.
+2) Cuando se funden en la circunstancia de no existir relacumplimiento.
+cion alguna entre el hecho que se persigue y el acusado.
+3) Cuando se funden en la circunstancia de no existir en au4. Es prescriptible. 3 anios.
+4. Es imprescriptible.
+tosindicioalgunoencontradelacusado.
+5.Es efecto de sentencias de
+finitivas,interlocutorias,auPregunta: gES NECESARIO QUE EXISTA TRIPLE IDENTIDAD PARA
+tos y decretos firmes o que
+QUE LA SENTENCIA CRIMINALPRODUZCA COSAJUZGAcausen ejecutoria.
+
 traves de demanda de
 versas oportunidades.
 2) Cuando se funden en la circunstancia de no existir relacumplimiento.
@@ -2709,7 +3178,7 @@ finitivas,interlocutorias,auPregunta: gES NECESARIO QUE EXISTA TRIPLE IDENTIDAD 
 tos y decretos firmes o que
 QUE LA SENTENCIA CRIMINALPRODUZCA COSAJUZGAcausen ejecutoria.
 
-## Da en un juicio civil?
+Da en un juicio civil?
 
 6.Es efecto de sentencias defiRegla general: No, solo se requiere que para acoger o renitivas e interlocutorias firchazar la accion civil, sea necesario juzgar al procesado en
 mes o ejecutoriadas.
@@ -2717,9 +3186,11 @@ circunstancias diversas delas resueltas enla sentencia criminal.
 
 ## Pregunta:EFECTOS DE LAS SENTENCIAS CRIMINALES EN JUICIOS
 
+**Definición Canónica:** Excepcion en que se requiere identidad legal de persona:
+
 Excepcion en que se requiere identidad legal de persona:
 
-## Civiles.una sentencia criminal,tiene efecto
+Civiles.una sentencia criminal,tiene efecto
 
 CuandolasentenciaabsolutoriaoqueordenasobreseiDE COSA JUZGADA EN UN JUICIO CIVIL?
 miento definitivo sebasa enlano existencia en autos de
@@ -2769,9 +3240,11 @@ costas adeudadas a los funcionarios que han intervenido.
 
 ## Pregunta: COMO SE PROVEE LA SOLICITUD DE CUMPLIMIENTO
 
+**Definición Canónica:** 2) Si la ejecucion de una sentencia definitiva hace necesaria
+
 2) Si la ejecucion de una sentencia definitiva hace necesaria
 
-## Incidental?
+Incidental?
 
 la iniciacion de un nuevo juicio. En este caso hay dos tribu-
 "Como se pide con citacion". Y si se ha pedido embargo, el
@@ -2782,11 +3255,15 @@ tribunal debe acceder a esa solicitud.
 
 ## Pregunta: COMO SE NOTIFICA ESTA RESOLUCION?
 
+**Definición Canónica:** 1)Al apoderado del vencido.Personalmente o por cedula.
+Pregunta:DESDE QUE MOMENTO PUEDE PEDIRSE LA EJECU.
+2)Si se trata de notificar a un tercero a quien afecta el fallo.
+
 1)Al apoderado del vencido.Personalmente o por cedula.
 Pregunta:DESDE QUE MOMENTO PUEDE PEDIRSE LA EJECU.
 2)Si se trata de notificar a un tercero a quien afecta el fallo.
 
-## Cion de una sentencia?
+Cion de una sentencia?
 
 Personalmente.
 Desde que este ejecutoriada o cause ejecutoria,y se haga
@@ -2794,16 +3271,14 @@ La resolucion que ordena el embargo debe notificarse por
 exigible la prestacion ordenada.
 cedula.
 
-## Pregunta: 2CUAL ES EL PROCEDIMIENTO PARA LA EJECUCION DE
-
-
 ## Pregunta: &PUEDE EL VENCIDO OPONERSE A ESTA EJECUCION O
 
+**Definición Canónica:** Lasresolucionesjudiciales?
 
-## Lasresolucionesjudiciales?
+Lasresolucionesjudiciales?
 
 
-## Cumplimiento incidental del fallo?
+Cumplimiento incidental del fallo?
 
 a)Si el cumplimiento se pide ante el tribunal que la dicto, denSi, pero solo puede oponer las excepciones contempladas en
 tro del plazo de.1 anio desde que la prestacion se hizo exigiel art. 234 C.P.C.
@@ -2812,7 +3287,7 @@ GltoriudGlSuriatw
 Pregunta: gEN QUE PLAZO?
 Pregunta: COMO PROVEE EL TRIBUNAL EL ESCRITO DE OPOSI1)El vencido. Dentro del plazo de citacion, o sea, 3 dias contaCION AL CUMPLIMIENTO INCIDENTAL DE UNA SENTENdos desde la notificacion.
 
-## Cia?
+Cia?
 
 Un tercero a quien afecte el fallo, dentro del plazo de 10 dias
 Estudia las excepciones opuestas y:
@@ -2827,9 +3302,11 @@ como incidente.
 
 ## Pregunta: PUEDE APELARSE DE LA RESOLUCION QUE DESECHA
 
+**Definición Canónica:** cumplir.
+
 cumplir.
 
-## La oposicion?
+La oposicion?
 
 - Novacion, compensacion y transaccion, con los mismos reSi, y se concede en el solo efecto devolutivo. (Art. 241
 quisitos.
@@ -2838,7 +3315,7 @@ los mismos requisitos.
 Pregunta: DESDE QUE MOMENTO PUEDE CUMPLIRSE LA SEN.
 --Perdida de la cosa debida o imposibilidad absoluta para la
 
-## Tenciade que se trata?
+Tenciade que se trata?
 
 ejecucion actual de la obra, si aparecen revestidas de fundamentos plausibles y fundadas en hechos acaecidos con posterioridad
 1)8
@@ -2850,20 +3327,19 @@ Si el vencido dedujo oposicion dentro del plazo de citacion.
 el cumplimiento.
 Desde que la oposicion fue desechada por sentencia de primera o segunda instancia.
 
-## Pregunta: AHORA, TRATANDOSE DEL JUICIO EJECUTIVO NECESARIOPARA EL CUMPLIMIENTO DEL FALLO (CUANDO SE
-
-
 ## Pregunta: QUE REGLAS SE APLICAN PARA EL CUMPLIMIENTO DE
+
+**Definición Canónica:** SOLICITO FUERA DEL PLAZO O ANTE OTRO TRIBUNAL),
 
 SOLICITO FUERA DEL PLAZO O ANTE OTRO TRIBUNAL),
 
-## Eque limitacion tiene elvencido en cuanto a las
+Eque limitacion tiene elvencido en cuanto a las
 
 
-## Cidental?
+Cidental?
 
 
-## Excepciones quepuede oponera laejecucion?
+Excepciones quepuede oponera laejecucion?
 
 Estas reglas estan en los arts. 235 y 236 C.P.C.
 En el juicio ejecutivo para el cumplimiento de un fallo,el
@@ -2893,6 +3369,16 @@ gaciones de hacer (arts. 530 a 544 C.P.C. en relacion con
 publica.
 
 ## 1553 C.C.). Si es necesario embargar y realizar bienes, se
+
+**Definición Canónica:** siguen lasreglasya senaladas.
+2) Si la especie o cuerpo cierto no es habido. Se procede a
+tasarlo conforme a las normas de las tasaciones de los
+6) Si la sentencia condena a devolucion de frutos o a la inarts. 895 a 900 del C.P.C. Enseguida se ordena pagar al
+demnizacion de perjuicios sin haberse discutido en el juiacreedor, para lo cual es necesario distinguir:
+cio sobre la especie y monto de éstos, y conforme a lo establecido en el art. 173 inciso 2", se reservo a las partes el
+- (a) Si hay fondos retenidos. Deben liquidarse junto con
+derechodehacerloenlaejecuciondel fallooen otrojuicio
+las 
 
 siguen lasreglasya senaladas.
 2) Si la especie o cuerpo cierto no es habido. Se procede a
@@ -2932,7 +3418,7 @@ mente expuestas,distinguiendo si hay fondos retenidos o
 bienes realizables que garanticen la accion.
 4) Si la sentencia obliga a pagar una cantidad de genero dePregunta: &PUEDEN EJECUTARSE EN CHILE SENTENCIAS DICTAterminado.Igualmente se siguen las reglas senaladas,
 
-## Dasportribunalesextranjeros?
+Dasportribunalesextranjeros?
 
 distinguiendo si hay fondos retenidos o bienes realizables
 Solopueden cumplirse cuando la Corte Suprema concede la
@@ -2951,13 +3437,15 @@ Los que pueden resolverse de plano. Los que no se tramitan,el juez emite su pron
 
 ## Pregunta: &A QUE TRIBUNAL CORRESPONDE LA EJECUCION DE
 
+**Definición Canónica:** cuando los hechos en que se fundan constan del proceso,
+
 cuando los hechos en que se fundan constan del proceso,
 
-## Una sentencia dictada en pais extranjero una
+Una sentencia dictada en pais extranjero una
 
 cuandolos hechos en quefundan son de publica notoriedad,
 
-## Vezha sidoautorizadaporla corte suprema?
+Vezha sidoautorizadaporla corte suprema?
 
 etc.
 Una vez autorizada, se pide su ejecucion al tribunal a quien
@@ -2973,6 +3461,18 @@ el proceso o una circunstancia esencial para la marcha y
 ritualidad del juicio;
 
 ## Pregunta: COMO SE CLASIFICAN LOS INCIDENTES?
+
+**Definición Canónica:** 3) Los originados en un hecho que acontezca durante el juiPrimera clasificacion:
+cio pero no se promueven tan pronto lleguen a conocimiento
+de la parte respectiva que practica alguna gestion con pos-
+-Ordinarios. Son los que reglamenta el C.P.C. (arts. 82 a 91),
+terioridad a su conocimiento; salvo que se trate de un vicio
+y que son supletorios.
+que anule el proceso o una circunstancia esencial para la
+Especiales. Son los que estan reglamentados en forma esmarcha'o ritualidad del juicio.
+pecial (abandono del procedimiento, desistimiento de la de-
+-Los que deben tramitarse.
+manda, acumulacion de
 
 3) Los originados en un hecho que acontezca durante el juiPrimera clasificacion:
 cio pero no se promueven tan pronto lleguen a conocimiento
@@ -3006,6 +3506,14 @@ juicio.
 
 ## Pregunta: DESDE CUANDO SE CUENTAN LOS SEIS MESES?
 
+**Definición Canónica:** Se cuentandesdelafecha de laultima resolucionrecaida en
+Pregunta:OPORTUNIDAD PARA PROMOVERLOSINCIDENTES.
+una gestion util.
+1)Si nace de un hecho anterior o coetaneo con el juicio debe
+promoverse antes de hacer cualquier gestion principal en el
+juicio, salvo que se trate de un vicio que anule el proceso o
+Pregunta: EN QUE J0ICIOS PROCEDE EL ABANDONO DEL PROCEuna circunstancia esencial para la marcha y ritualidad del
+
 Se cuentandesdelafecha de laultima resolucionrecaida en
 Pregunta:OPORTUNIDAD PARA PROMOVERLOSINCIDENTES.
 una gestion util.
@@ -3014,7 +3522,7 @@ promoverse antes de hacer cualquier gestion principal en el
 juicio, salvo que se trate de un vicio que anule el proceso o
 Pregunta: EN QUE J0ICIOS PROCEDE EL ABANDONO DEL PROCEuna circunstancia esencial para la marcha y ritualidad del
 
-## Dimiento?
+Dimiento?
 
 juicio.
 En toda clase dejuicios,salvo enjuicio de quiebra,division o
@@ -3022,7 +3530,7 @@ En toda clase dejuicios,salvo enjuicio de quiebra,division o
 te respectiva debe promoverlo tan pronto llegue a su conocimiento y antes de realizar cualquier gestion en el pleito,
 salvo que se trate deun vicioque anule el proceso ouna cirPregunta: &QUIEN ES EL TITULAR DEL ABANDONO DEL PROCEDYcunstancia esencial para la marcha y ritualidad del juicio.
 
-## Miento?
+Miento?
 
 3)Si soni varios cuyas causas existen simultaneamente deben
 Solo el demandado.
@@ -3031,8 +3539,9 @@ Pregunta: COMO PUEDE ALEGARLO?
 
 ## Pregunta: 2COMO SE NOTIFICA LA RESOLUCION QUE RECIBE A
 
+**Definición Canónica:** Prueba unincidente?
 
-## Prueba unincidente?
+Prueba unincidente?
 
 Puede alegarlo como accion o como excepcion.
 Por el estado diario. Es inapelable, procede reposicion.
@@ -3064,10 +3573,13 @@ incidente.
 
 ## Pregunta: &QUE ACTITUDES PUEDE ASUMIR EL TRIBUNAL ANTE
 
+**Definición Canónica:** - Despues de ejecutoriada la sentencia. Tres anios desde
+la ultima gestion util en el cuaderno de apremio.
+
 - Despues de ejecutoriada la sentencia. Tres anios desde
 la ultima gestion util en el cuaderno de apremio.
 
-## Esteincidente?
+Esteincidente?
 
 a
 Puede acogerlo. Es sentencia interlocutoria que pone termi-
@@ -3077,6 +3589,17 @@ que vence el plazo para oponerlas.
 b).Puede rechazarlo.En este caso se sigue eljuicio.
 
 ## Pregunta: EFECTOS DE LA DECLARACION DE ABANDONO DEL
+
+**Definición Canónica:** C
+Puede acogerlo o rechazarlo parcialmente y aceptar o no las
+condiciones que ponga el demandado respecto de la parte
+PROCEDIMIENTO.
+acogida; es sentencia interlocutoria que pone termino al juia)El demandante pierde el derecho a continuar el procedimiencio respecto a lo favorecido; y el juicio continua respecto a lo
+to.
+no acogido.
+Subsisten las acciones y excepciones de las partes, y los
+actosy contratos de que resulten derechos definitivamente
+Pregunta: gPUEDE HABER DESISTIMIENTO DE LA DEMAWDA REconstituidos.
 
 C
 Puede acogerlo o rechazarlo parcialmente y aceptar o no las
@@ -3089,11 +3612,22 @@ Subsisten las acciones y excepciones de las partes, y los
 actosy contratos de que resulten derechos definitivamente
 Pregunta: gPUEDE HABER DESISTIMIENTO DE LA DEMAWDA REconstituidos.
 
-## Convencional?
+Convencional?
 
 Si, y se entiende aceptado inmediatamente de presentado y
 
 ## Pregunta: QUE ES EL DESISTIMIENTO DE LA DEMANDA?
+
+**Definición Canónica:** se provee"Como se pide, con citacion".
+Es un acto juridico procesal por el cual el demandante exPerola parte contraria puede oponerse dentrodel plazo de
+presa su voluntad de no seguir adelante con el juicio. (Art. 148
+citacion y en este caso se forma el incidente, cuyo fallo puede
+reservarse para definitiva.
+Pregunta: OPORTUNIDAD PARA DESISTIRSE DE LA DEMANDA.
+Pregunta: EFECTOS DE LA RESOLUCION QUE ACOGE EL DESISTIMIENTODE LA DEMANDA.
+Desde notificada la demanda,en cualquier estado del juicio.
+1）
+Extingue las acciones a que se refiere el desistimiento respecto de las partes y de todos aquellos
 
 se provee"Como se pide, con citacion".
 Es un acto juridico procesal por el cual el demandante exPerola parte contraria puede oponerse dentrodel plazo de
@@ -3112,21 +3646,13 @@ Se presenta un escrito ante el tribunal (De primera o segunen otro juicio.
 da instancia, o ante la Corte Suprema) que provee traslado.
 - Si el demandado acepta lisa y llanamente, se pone termino
 
-## Pregunta:&CUANDO HAY LUGAR A LA ACUMULACION DE AUTOS
-
-al procedimiento.
-
-## Enmateriacivil?
-
-Gdiorialguriane
-KeliorinlGlTeriatate
-a)Cuando la accion o acciones entabladas en un juicio sean
-
 ## Pregunta: EFECTOS DE LA ACUMULACION DE AUTOS.gDESDE
+
+**Definición Canónica:** iguales a las que se han deducido en otro.
 
 iguales a las que se han deducido en otro.
 
-## Cuandoseproducen?
+Cuandoseproducen?
 
 Cuando la accion o acciones entabladas en ambos juicios
 Se suspendenlos juicios que esten mas avanzados hasta que
@@ -3143,10 +3669,15 @@ d)
 En general, siempre que la sentencia que haya de pronunesteejecutoriada.
 ciarse en un juicio deba producir la excepcion de cosa juzgada en otro. (Art. 92 C.P.C.).
 
-## Pregunta: CUESTIONES DE COMPETENCIA.DE QUE FORMAS PUEDE ALEGARSE LA INCOMPETENCIA DEL TRIBUNAL?
-
-
 ## Pregunta:REQUISITOSPARA QUE PROCEDALAACUMULACION DE
+
+**Definición Canónica:** AUTOS.
+La incompetencia del tribunal puede alegarse por inhibitoria
+o por declinatoria. (Art. 101 C.P.C.).
+a)Existencia de una causa legal.
+b)
+Que los juicios se encuentren sometidos a una misma clase
+de procedimiento.
 
 AUTOS.
 La incompetencia del tribunal puede alegarse por inhibitoria
@@ -3158,19 +3689,31 @@ de procedimiento.
 
 ## Pregunta: ANTE QUE TRIBUNAL SE PROPONE LA DECLINATORIA?
 
+**Definición Canónica:** C
+Que la substanciacion de todos ellos este en instancias analogas.
+La declinatoria se propone ante el tribunal a quien se crce
+incompetente para conocer de un asunto que le este sometido,
+indicandole el tribunal que se estima competente y pidiendole
+
 C
 Que la substanciacion de todos ellos este en instancias analogas.
 La declinatoria se propone ante el tribunal a quien se crce
 incompetente para conocer de un asunto que le este sometido,
 indicandole el tribunal que se estima competente y pidiendole
 
-## Pregunta: QUIEN PUEDE PEDIR LA ACUMULACION DE AUTOS?
-
-que se abstenga de conocer. (Art. 111 C.P.C.).
-a)
-Las partes legitimas en cualquiera de los juicios pendientes.
-
 ## Pregunta: EN QUE OPORTUNIDAD SE PUEDE PROPONER?
+
+**Definición Canónica:** b）El juez puede decretarla de oficio cuando todos los juicios
+a)Si se trata de incompetencia absoluta.Se refiere al fuero, la
+pendientes estan ante él.
+materia o la cuantia.Puede proponerse en cualquier estado
+del juicio porque respecto de ella no procede la prorroga y
+porque es uno de los vicios que anula el proceso. No es necePregunta:OPORTUNIDAD PARA PEDIR LA ACUMULACIONDE AU
+sario reclamar antes de hacer cualquier gestion en el juicio.
+TOS.
+(Arts. 84 y 85 C.P.C.).
+En cualquier estado del juicio, antes de la sentencia de terb)
+Si se trata de incompetencia relativa. Se refiere al territorio.
 
 b）El juez puede decretarla de oficio cuando todos los juicios
 a)Si se trata de incompetencia absoluta.Se refiere al fuero, la
@@ -3206,6 +3749,20 @@ conocer de la contienda.
 
 ## Pregunta: ANTE QUE TRIBUNAL SE PROPONE LA INHIBITORIA?
 
+**Definición Canónica:** Se intenta ante el tribunal a quien se cree competente y
+Pregunta: APELACION DE LA RESOLUCION QUE RESUELVE LA INque no esta conociendo, para que se dirija al que esta conoHIBITORIA.
+ciendo pidiendole que se inhiba y le remita los autos. (Art. 102
+Solo son apelables:
+a)
+La del tribunal requirente que niega lugar a la solicitud de
+inhibitoria.
+Pregunta: 2COMO SE TRAMITA?
+b)La resolucion del tribunal requerido que accede a la inhibiHay que distinguir si se propone ante el tribunal requirente
+toria.
+o, ante el tribunal requerido.
+a)Ante el tribunal requirente (que no esta conociendo). Con el
+Pregu
+
 Se intenta ante el tribunal a quien se cree competente y
 Pregunta: APELACION DE LA RESOLUCION QUE RESUELVE LA INque no esta conociendo, para que se dirija al que esta conoHIBITORIA.
 ciendo pidiendole que se inhiba y le remita los autos. (Art. 102
@@ -3220,7 +3777,7 @@ o, ante el tribunal requerido.
 a)Ante el tribunal requirente (que no esta conociendo). Con el
 Pregunta: &QUE TRIBUNAL DEBE CONOCER DE ESTAS APELACIOmerito de lo que exponga el que la pide,y con el merito de los
 
-## Nes?
+Nes?
 
 documentos que presente o que mande agregar el tribunal,
 El tribunal a quien le corresponderia conocer de la contienda
@@ -3229,6 +3786,17 @@ de competencia.
 1) Si accede, dirige exhorto al que esta conociendo, acompanado con la solicitud.
 
 ## Pregunta:QUESONLAS MEDIDASPREJUDICIALES?
+
+**Definición Canónica:** 2) Si niega lugar a la solicitud. Se puede apelar.(5)
+Son actos procesales que pueden solicitarse antes de iniciar
+b
+）Ante el tribunal requerido. Una vez que el tribunal recibe el
+un juicio, con el objeto de prepararlo o de obtener un resultado
+exhorto, debe oir a la parte que litiga ante él. Con el merito
+eficaz.
+de lo que exponga, y el merito de los documentos presentaPregunta: &EN QUE JUICIOS SE APLICAN?
+(5) En este caso no hay incidente.No puede haberlo porquc el juicio esta en
+otro tribunal, y no hay juicio, sino una solicitud.Recordemos que un inSon de aplicacion general en virtud del ar
 
 2) Si niega lugar a la solicitud. Se puede apelar.(5)
 Son actos procesales que pueden solicitarse antes de iniciar
@@ -3254,8 +3822,9 @@ Estan taxativamente senaladas en la ley.
 
 ## Pregunta: CUALES SON LAS MEDIDAS PREJUDICIALES PROBAC)
 
+**Definición Canónica:** Torias?
 
-## Torias?
+Torias?
 
 dj
 Su objetivo es triple: preparatorias, probatorias y precautorias.
@@ -3277,9 +3846,11 @@ d)Otras prejudiciales.
 
 ## Pregunta: &CUALES SON LOS REQUISITOS GENERALES PARA SOLICITARUNAMEDIDAPREJUDICIAL?
 
+**Definición Canónica:** Pregunta: CUALES SON LAS MEDIDAS PREJUDICIALES PROPIAExpresar la accion que se pretende deducir y someramente
+
 Pregunta: CUALES SON LAS MEDIDAS PREJUDICIALES PROPIAExpresar la accion que se pretende deducir y someramente
 
-## Mente tales?
+Mente tales?
 
 sus fundamentos.
 Son aquellas que se refieren a antecedentes necesarios para
@@ -3287,6 +3858,22 @@ la presentacion de la demanda.
 Las medidas prejudiciales son:
 
 ## Pregunta:Y SI SE TRATA DE UNA MEDIDA PREJUDICIALPRECAUTORIA, QUE REQUISITOS DEBEN CUMPLIRSE PARA
+
+**Definición Canónica:** a
+Declaracion jurada acerca de algun hecho relativo a su capaSOLICITARLA?
+cidad para parecer en juicio, o a su personeria o al nombre y
+domicilio de susrepresentantes;
+a
+Expresar la accion que se va a deducir y someramente sus
+fundamentos.
+La exhibicion dela cosa que haya de ser objeto de la accion
+que se trata de entablar;
+b)
+Acompaniar comprobantes que constituyanpresuncion grave del derecho que se reclama.
+C
+La exhibicion de sentencias,testamentos,inventarios,tasaciones,titulos de propiedad u otros instrumentos publicos o
+Que existan motivos graves y calificados.
+privados quepor'sunaturalez
 
 a
 Declaracion jurada acerca de algun hecho relativo a su capaSOLICITARLA?
@@ -3315,25 +3902,23 @@ en los articulos 42 y 43 del Codigo de Comercio; y
 Geliariat ShJurists
 Bdlioriab BlSoritw
 
-## Mil. y una preguntas en derecho procesal civil
+Mil. y una preguntas en derecho procesal civil
 
 Pregunta:DECRETADA LA MEDIDA PREJUDICIAL PRECAUTORIA,
 las multas que se impongan.
 
-## Eque obligacion tiene el solicitante?
+Eque obligacion tiene el solicitante?
 
 e)
 Deben cumplirse con requisitos especificos para el otorgaDebe presentar su demanda en el plazo de 10 dias pidiendo
 miento de medidas precautorias establecidas en la ley.
 que se mantenga la medida decretada. (Art. 280 C.P.C.).
 
-## Pregunta: ANTE QUE TRIBUNAL SE SOLICITAN LAS MEDIDAS
-
-
 ## Pregunta: QUE PASA SI NO DEMANDA DENTRO DE ESE PLAZO?
 
+**Definición Canónica:** Prejudiciales?
 
-## Prejudiciales?
+Prejudiciales?
 
 Ante el tribunal que sea competente para conocer del juicio
 Art. 280 inc. 2°:"Si no se deduce demanda oportunamente,
@@ -3341,21 +3926,16 @@ o no se pide en ella que continuen en vigor las medidas precauposterior.
 torias decretadas, o al.resolver sobre esta peticion el tribunal
 no mantiene dichas medidas, por este solo hecho quedara resPregunta: QUIEN ES EL TITULAR DE LAS MEDIDAS PREJUDICIAponsable el que las haya solicitado de los perjuicios causados,
 
-## Les, o sea quien puede pedirlas?
+Les, o sea quien puede pedirlas?
 
 considerandose doloso su procedimiento.
 El futuro demandante.
 
-## Pregunta: gCUAL ES LA SANCION PARA EL SOLICITANTE EN ESTE
-
-
-## Caso?
-
-
 ## Pregunta: &PUEDE PEDIRLAS EL DEMANDADO EN ALGUN CASO?
 
+**Definición Canónica:** Tiene algun requisito?
 
-## Tiene algun requisito?
+Tiene algun requisito?
 
 Responde de los perjuicios que haya causado y se considera
 doloso su procedimiento.(6)
@@ -3363,13 +3943,17 @@ Excepcionalmente el demandado puede pedir las medidas
 prejudiciales probatorias y el reconocimiento jurado de firma en
 instrumento privado.
 
-## Pregunta:QUE SON LAS MEDIDAS PRECAUTORIAS?
-
-Requisito: que fundadamente tema que va a ser demandado,
-con el objeto de preparar su defensa. (Art. 288 C.P.C.).
-Son actos procesales que tiene por objeto asegurar el resultadodela acciondeducida
-
 ## Pregunta: COMO SE CONCEDEN LAS MEDIDAS PREJUDICIALES?
+
+**Definición Canónica:** Pregunta: OPORTUNIDAD PARA SOLICITAR MEDIDAS PRECAUTO.
+a)Regla general: sin audiencia de la persona contra la cual se
+RIAS.
+piden,
+Pueden solicitarse:
+b)Excepcion: en los casos en que la ley exige su intervencion.
+a)Antes de la demanda como prejudicial precautoria.
+b)En cualquier estado del juicio aun despues de la citacion
+Pregunta: &PUEDE OPONERSE LA PERSONA CONTRA QUIEN SE PIpara oir sentencia.
 
 Pregunta: OPORTUNIDAD PARA SOLICITAR MEDIDAS PRECAUTO.
 a)Regla general: sin audiencia de la persona contra la cual se
@@ -3381,7 +3965,7 @@ a)Antes de la demanda como prejudicial precautoria.
 b)En cualquier estado del juicio aun despues de la citacion
 Pregunta: &PUEDE OPONERSE LA PERSONA CONTRA QUIEN SE PIpara oir sentencia.
 
-## Den?
+Den?
 
 Si, puede oponerse alegando que no es necesaria o que no
 (6）Este es un caso de presuncion de dolo; el dolo no se presume sino en los
@@ -3390,7 +3974,7 @@ casos establecidos en la ley, en los demas casos dcbe probarsc.
 Gadaarisd Ggurisie
 GuftorialBhSuriatesr
 
-## Mil. y una preguntas en derecho procesal civil
+Mil. y una preguntas en derecho procesal civil
 
 Si las pide el demandante reconvencional, solo puede hacercion grave del derecho que se reclama; el juez puede exigir al
 lo después de deducir la reconvencion.
@@ -3398,8 +3982,9 @@ actor caucion por los perjuicios.
 
 ## Pregunta: CUALES SON LAS MEDIDAS PRECAUTORIAS ENUMEPregunta: COMO SE DECRETAN LAS MEDIDAS PRECAUTORIAS?
 
+**Definición Canónica:** Radasenelart.290?
 
-## Radasenelart.290?
+Radasenelart.290?
 
 Deben resolverse de plano, sin audiencia, pero puede origia
 Secuestro de la cosa que es objeto de la demanda.
@@ -3417,12 +4002,37 @@ minados.
 B
 Pregunta: CARACTERISTICAS DE LAS MEDIDAS PRECAUTORIAS.
 
-## Juicioordinario
+Juicioordinario
 
 a
 Son instrumentales porque no tiene fin en si mismas.
 
 ## Pregunta: CARACTERiSTICAS DEL JUICIO ORDINARIO DE MAYOR
+
+**Definición Canónica:** b)
+Son esencialmente provisionales.
+CUANTIA.
+C)
+Son acumulables,
+1) Escrito.
+(p
+Estan limitadas a los bienes necesarios para responder del
+resultado del juicio.
+2) De'mayor cuantia.
+La enumeracion del 290 no es taxativa.
+3) Declarativo.
+e
+f)
+Son de aplicacion general por el art. 3 C.P.C.
+4) De aplicacion general.
+5) Supletorio.
+Pregunta: REQUISITOS PARA SOLICITAR MEDIDAS PRECAUTO6) Comun.
+RIAS.
+7) Es de doble instancia.
+Si se trata de las del art. 290: acompanar antecedentes que
+constituyan presuncion grave del derecho que se reclama.
+Pregunta: FASES DEL JUICIO ORDINARIO.
+El tribunal puede con
 
 b)
 Son esencialmente provisionales.
@@ -3467,6 +4077,17 @@ prescripcion de largo tiempo.
 
 ## Pregunta: &COMO SE INICIA EL JUICIO ORDINARIO?
 
+**Definición Canónica:** 4) Hace litigiosos los derechos para efecto de su cesion.
+Siempre por demanda. Las medidas prejudiciales preparan
+b) Efectos procesales.
+el juicio, no lo inician por si mismas.
+1) Liga al juez y a las partes.
+Pregunta: EFECTOS DE LA INTERPOSICION DE LA DEMANDA.
+2) Retrotrae la sentencia a la fecha de la notificacion de la
+demanda.
+1)Se produce la apertura de la instancia.
+2)Queda fijada la competencia respecto del actor.
+
 4) Hace litigiosos los derechos para efecto de su cesion.
 Siempre por demanda. Las medidas prejudiciales preparan
 b) Efectos procesales.
@@ -3479,6 +4100,20 @@ demanda.
 2)Queda fijada la competencia respecto del actor.
 
 ## Pregunta:PLAZOPARA CONTESTARLA DEMANDA O TERMINO DE
+
+**Definición Canónica:** 3)Se fija la extension del juicio.
+EMPLAZAMIENTOENELJUICIO ORDINARIO.
+Situaciones:
+Pregunta: QUE ES ELEMPLAZAMIENTO?
+A）
+El demandado es notificado en la comuna en que funciona el
+El emplazamiento es la notificacion a la cual se agrega la ortribunal. Siel demandado fue notificado en la comuna donde
+den que el demandado comparezca ante el tribunal porque se ha
+funciona el tribunal el plazo es de 15 diashabiles.Art.258
+interpuesto demanda en su contra o se ha deducido un recurso
+del Cod.Proc. Civil.
+legal,mas el transcurso del terminolegal que tiene el demandado para comparecer ante el tribunal.
+
 
 3)Se fija la extension del juicio.
 EMPLAZAMIENTOENELJUICIO ORDINARIO.
@@ -3496,6 +4131,18 @@ B)Es notificado fuera de los limites de la comuna en que funciona el tribunal, p
 
 ## Pregunta: ELEMENTOS DEL EMPLAZAMIENTO EN DIFERENTES
 
+**Definición Canónica:** JUICIOS.
+risdiccional diversoofuera del territoriodelaRepublica.En
+1)Juicio ordinario. Notificacion hecha en forma legal y transeste caso el plazo para contestar la demanda es de 18 dias
+curso del plazo legal.
+habiles mas el aumento que corresponda al lugar en que
+ 2)Juicio sumario. Notificacion y citacion a audiencia.
+el demandado fue notificado.Ese aumento se determina de
+acuerdo a la Tabla que cada 5 afios forma la Corte Supre3)Juicio ejecutivo. Requerimiento de pago y plazo para opoma considerando la distancia,facilidades y dificultades que
+nerexcepciones,
+existen paralas comunicaciones.
+D
+
 JUICIOS.
 risdiccional diversoofuera del territoriodelaRepublica.En
 1)Juicio ordinario. Notificacion hecha en forma legal y transeste caso el plazo para contestar la demanda es de 18 dias
@@ -3509,6 +4156,24 @@ existen paralas comunicaciones.
 D)En los casos en que proceda la pluralidad de demandantes
 
 ## Pregunta: EFECTOS CIVILES Y PROCESALES DE LA NOTIFICACION
+
+**Definición Canónica:** de acuerdo al art. 18, el plazo para contestar la demanda,
+DE LA DEMANDA O DEL EMPLAZAMIENTO.
+determinado segun lo dispuesto en los dos articulos anteriores,se aumentara en un dia por cada tres demandantes
+a)Efectos civiles.
+sobre diez que existan en el proceso. Con todo, este plazo
+1) Coloca en mora al deudor.
+adicional,nopodra exceder de 30 dias.
+Galiarinl SJeristo
+Calitorieb Bgheristar
+Pregunta: CARACTERiSTICAS DE ESTOS PLAZOS.
+)Contesta la demanda:
+Son:
+a) Opone excepciones;
+1) Legales. Los establece la ley.
+b) Contesta y reconviene;
+2)
+Fatales. El transcurso del tiempo extingue el derecho
 
 de acuerdo al art. 18, el plazo para contestar la demanda,
 DE LA DEMANDA O DEL EMPLAZAMIENTO.
@@ -3534,18 +4199,23 @@ Comunes. Corren para todos los demandados a la vez, hasta
 que termine el ultimo termino parcial.
 4)Discontinuos. Son de dias habiles.
 
-## Pregunta: 2QUE SUCEDE SI EL DEMANDADO SE ALLANA O NO
-
-5)Improrrogable.
-
-## Contradice en materia sustancialloshechos
-
-
-## Sobre los queversa el juicio?
-
-El tribunal manda citar las partes para oir sentencia una vez
-
 ## Pregunta: ACTITUDES QUE PUEDE ASUMIR EL DEMANDADO UNA
+
+**Definición Canónica:** evacuado el traslado de la replica. (Art. 313 C.P.C.).
+VEZ NOTIFICADA LA DEMANDA.
+Una vez notificada la demanda, el demandado puede:
+No defenderse.
+Pregunta:QUE SONLASEXCEPCIONESP
+1)
+Las excepciones son medios de que dispone el demandado
+2)
+Defenderse.
+para defenderse de una accion que se ha interpuesto en su
+3)
+Allanarse.
+contra.
+4)
+Reconvenir.
 
 evacuado el traslado de la replica. (Art. 313 C.P.C.).
 VEZ NOTIFICADA LA DEMANDA.
@@ -3565,8 +4235,9 @@ Reconvenir.
 
 ## Pregunta: EN QUE SE DIFERENCIAN LAS EXCEPCIONES DE LAS
 
+**Definición Canónica:** Alegacionesodefensas?
 
-## Alegacionesodefensas?
+Alegacionesodefensas?
 
 Pregunta: &QUE PASA SI NO SE DEFIENDE?
 -Defensa es el genero, cualquier medio de que se vale el deSe produce la contestacion ficta de la demanda. El actor
@@ -3604,19 +4275,23 @@ Juicio ejecutivo.
 enervar la accion deducida, miran al fondo.
 Todas cn el escrito de opone excepciones; equivalen a la contestacion. (Art.465 C.P.C.).
 
-## Pregunta: &COMO SE OPONEN LAS EXCEPCIONES DILATORIAS?
-
-1) Todas en un mismo escrito;
-
-## Pregunta: ESTAN ENUMERADAS LAS EXCEPCIONES DILATORIAS? &CUALES SON?
-
-2) Antes de contestar la demanda; y
-Estan enumeradas en el art. 303 y son:
-3) En el termino de emplazamiento. (Art. 305 C.P.C.).
-Incompetencia del tribunal ante quien se haya presentado la
-demanda;
-
 ## Pregunta: 2CUANDO SE OPONEN EN EL JUICIO ORDINARIO? EN
+
+**Definición Canónica:** 2)
+Falta de capacidad del demandante o de personeria o repreEL SUMARIO?EN ELEJECUTIVO?
+sentacion legal del que comparece en su nombre;
+a)Juicio ordinario.
+3)
+Litis pendencia;
+1)）Dilatorias.
+Ineptitud del libelo por falta de algun requisito en el modo de
+(a)Dentro del termino de emplazamiento. (Art. 305 C.P.C.).
+proponer la demanda;
+5)El beneficio de excusion; y
+cio pero solo por via de alegacion o defensa. (Art. 305
+En general, todas la que se refieran a la correccion del procedimientosin afectar al fondodela accion deducida.
+torias, pero si son de lato conocimiento, el juez mandara
+contestar 
 
 2)
 Falta de capacidad del demandante o de personeria o repreEL SUMARIO?EN ELEJECUTIVO?
@@ -3643,6 +4318,12 @@ GulioritlBhpuriie
 
 ## Pregunta: &COMO SE TRAMITAN LAS EXCEPCIONES?
 
+**Definición Canónica:** haya opuesto en un mismo escrito, dentro del termino de empla--
+a)Las excepciones dilatorias se tramitan por regla general
+zamiento.
+como incidente de previo y especial pronunciamiento, en el
+cuaderno principal.Art. 307 C.P.C.
+
 haya opuesto en un mismo escrito, dentro del termino de empla--
 a)Las excepciones dilatorias se tramitan por regla general
 zamiento.
@@ -3650,6 +4331,15 @@ como incidente de previo y especial pronunciamiento, en el
 cuaderno principal.Art. 307 C.P.C.
 
 ## Pregunta: QUE SON LAS EXCEPCIONES MIXTAS O ANOMALAS?
+
+**Definición Canónica:** b)Respecto a las excepciones perentorias hay que distinguir:
+Son aquellas perentorias que pueden oponerse como dila1) Si se oponen al contestar la demanda. Se conocen, pruetorias, por razon de economia procesal. Son la cosa juzgada y
+ban y fallan conforme al juicio ordinario,debe recibirse la
+la transaccion. Sin embargo, si éstas son de lato conocimiento,
+causa a prueba.
+el juez puede mandar contestar la demanda y reserva el fallo de
+2) Si se oponen despues de recibida la causa a prueba (exestas excepciones para definitiva. Es decir, que dejan de ser de
+cepciones anomalas: prescripcion, cosa j
 
 b)Respecto a las excepciones perentorias hay que distinguir:
 Son aquellas perentorias que pueden oponerse como dila1) Si se oponen al contestar la demanda. Se conocen, pruetorias, por razon de economia procesal. Son la cosa juzgada y
@@ -3664,9 +4354,11 @@ y pago efectivo de la deuda, siempre que se funde en antecedente escrito). Se tr
 
 ## Pregunta: ES APELABLE LA RESOLUCION QUE RESUELVE SOBRE
 
+**Definición Canónica:** inc. 2° C.P.C.)
+
 inc. 2° C.P.C.)
 
-## Las excepciones dilatorias? en que efecto?
+Las excepciones dilatorias? en que efecto?
 
 3) Si se oponen en segunda despues de recibida la causa a
 Tantola resolucion que desecha como la que acogelas exprueba (excepciones anomalas: prescripcion, cosa juzgada,
@@ -3675,13 +4367,17 @@ transaccion y pago efectivo de la deuda, siempre que se funse concede en el solo
 de en antecedente escrito). Se tramitan como incidente que
 se falla en unica instancia. (Art. 310 inc. final C.P.C.).
 
-## Pregunta: QUE PUEDE HACER EL DEMANDANTE SI SE ACOGEN
-
-
-## Las excepciones dilatorias del demandado?
-
-
 ## Pregunta:&COMO SE FALLAN LAS EXCEPCIONES DILATORIAS?
+
+**Definición Canónica:** Si se acogen las excepciones dilatorias,el juicio no puede
+Las propuestas conjuntamente se fallan a la vez, salvo que
+continuar,pero como son defensas de forma,podra subsanar el
+sea incompetencia del tribunal, porque si la acepta, se abstiene
+defecto y corregir la demanda.Para esto no tiene plazo.
+de pronunciarse sobre las demas. (Art. 306 C.P.C.).
+Si no se puede subsanar el vicio se pone termino al procediEsto es sin perjuicio que el tribunal de alzada, conociendo de
+la apelacion de la resolucion que acogio la incompetencia, puede
+fallar las otras para el caso que no de lugar a la incompetenc
 
 Si se acogen las excepciones dilatorias,el juicio no puede
 Las propuestas conjuntamente se fallan a la vez, salvo que
@@ -3696,8 +4392,9 @@ fallar las otras para el caso que no de lugar a la incompetencia.
 
 ## Pregunta:UNA VEZ CORREGIDA LA DEMANDA O SI SE DESECHAN
 
+**Definición Canónica:** Las excepciones,que plazo tiene el demandadoparacontestarlademanda?
 
-## Las excepciones,que plazo tiene el demandadoparacontestarlademanda?
+Las excepciones,que plazo tiene el demandadoparacontestarlademanda?
 
 Pregunta:PUEDE EL DEMANDADO RENOVAR POR ViA DE ALEGACION O DEFENSA LAS EXCEPCIONES DILATORIAS REUna vez corregidala demanda,o si son desechadas las exCHAZADASPORELTRIBUNAL?
 cepciones dilatorias, el demandado tiene plazo de 10 dias para
@@ -3709,6 +4406,17 @@ GdionialGlFurista
 Bathiariutd GlFeriatus
 
 ## Pregunta: 2QUE ES LA CONTESTACION DE LA DEMANDA? REQUI1)
+
+**Definición Canónica:** Que el tribunal sea competente para conocer de ella estimada
+SITOS.IMPORTANCIA.
+como demanda, o sea admisible la prorroga de competencia.
+Es el escrito en el que se oponen las excepciones y defensas
+La demanda principal y la reconvencional deben estar sujeque el demandado ejercita en contra del demandante.
+tas a la misma clase de procedimiento.
+Debe cumplir con los requisitos del art. 309 C.P.C.
+Procede reconvencion aun cuando por la cuantia debiera ser
+Es importante porque conjuntamente con la demanda forconocida por un tribunal inferior.
+man la cuestion controvertida y quedan fijados los hec
 
 Que el tribunal sea competente para conocer de ella estimada
 SITOS.IMPORTANCIA.
@@ -3724,8 +4432,9 @@ los que se debe rendir la prueba. (La traba de la litis).
 
 ## Pregunta:DEBE TENER LA RECONVENCION ALGUNA RELACION
 
+**Definición Canónica:** Conlademandaprincipal?
 
-## Conlademandaprincipal?
+Conlademandaprincipal?
 
 Pregunta: QUE ES EL ALLANAMIENTO? FORMAS DE ALLANALa demanda reconvencional es una accion que ejercita el deMIENTO.EFECTOS.
 mandado en contra del demandantey en el juicio ordinario pueEl allanamiento es el acto por el cual el demandado admite la
@@ -3741,7 +4450,7 @@ hechos sobre los que versa la demanda.
 -Juicio de arrendamientodela Ley18.101.
 Pregunta: &EN QUE JUICIO TIENE POR OBJETO ENERVAR LA AC.
 
-## Cion principal?
+Cion principal?
 
 El allanamiento, sea expreso o tacito,faculta al tribunal para
 citar a las partes a oir sentencia una vez evacuado el traslado de
@@ -3750,17 +4459,20 @@ la replica. Es decir, no habra termino probatorio.
 
 ## Pregunta:QUEPLAZOTIENEELDEMANDADORECONVENCIONAL
 
+**Definición Canónica:** Pregunta: QUE ES LA RECONVENCION? OPORTUNIDAD PARA RE.
+(DEMANDANTE PRINCIPAL) PARA CONTESTAR LA RECONVENIR.
+
 Pregunta: QUE ES LA RECONVENCION? OPORTUNIDAD PARA RE.
 (DEMANDANTE PRINCIPAL) PARA CONTESTAR LA RECONVENIR.
 
-## Convencion?
+Convencion?
 
 La reconvenciones una contrademanda que ejerce el demanTiene plazo de 6 dias fatales para contestar la demanda redado y que debe hacer en la contestacion de la demanda. (Art.
 convencional.
 314 C.P.C.).
 Pregunta:PUEDE OPONER EXCEPCIONES DILATORIAS A LA REPregunta: REQUISITOS PARA RECONVENIR.
 
-## Convencion?
+Convencion?
 
 Para reconvenir es necesario (Art. 315 C.P.C.):
 Si, dentro del plazo de 6 dias.
@@ -3768,31 +4480,31 @@ Beditoriad StJerite
 Gafioriah GtYuride
 Pregunta:SI SE ACOGEN LAS EXCEPCIONES DILATORIAS OPUESmulo en la demanda, pero sin alterar las que son objeto principal
 
-## Tas contra la demanda reconvencional, tiene
+Tas contra la demanda reconvencional, tiene
 
 del pleito.(Art. 312 C.P.C.).
 
-## Plazo eldemandante reconvencional para corregirla?
-
+Plazo eldemandante reconvencional para corregirla?
 
 ## Pregunta: COMO SE PROVEE EL ESCRITO DE LA REPLICA?
 
+**Definición Canónica:** Si, el demandante reconvencional (a diferencia del principal)
+
 Si, el demandante reconvencional (a diferencia del principal)
 
-## Como se notifica?
+Como se notifica?
 
 tiene plazo de 1o dias para corregir la demanda reconvencional.
 (Art. 317 C.P.C.).
 "Traslado para duplicar". Se notifica por el estado diario.
 
-## Pregunta: &QUE PASA SI NO LA CORRIGE DENTRO DE PLAZO?
-
-
 ## Pregunta: &QUE PLAZO TIENE EL DEMANDADO PARA DUPLICAR?
+
+**Definición Canónica:** Si no la corrige dentro de plazo, se tiene por no presentada
 
 Si no la corrige dentro de plazo, se tiene por no presentada
 
-## Que puede hacer en la duplica?
+Que puede hacer en la duplica?
 
 por el solo ministerio de la ley.
 Tiene 6 dias fatales.
@@ -3804,9 +4516,11 @@ Pero hay una excepcion en el art. 172 que permite al juez
 
 ## Pregunta: QUE HACE EL JUEZ UNA VEZ TERMINADO EL PERiODO
 
+**Definición Canónica:** fallarla desde luego, sin esperar a que se falle la causa principal,
+
 fallarla desde luego, sin esperar a que se falle la causa principal,
 
-## De discusion?
+De discusion?
 
 ya que esta disposicion dice que “cuando en un mismo juicio se
 Procede a estudiarpersonalmenteelprocesopara establecer
@@ -3821,30 +4535,31 @@ controvertidossobre los que debe recaerla prueba.
 Si no los hay, cita a las partes para oir sentencia, sin llamar
 a conciliacion. (Art. 318 C.P.C.).
 
-## Pregunta: QUE PLAZO TIENE EL DEMANDANTE PARA REPLICAR
-
-
-## Ala contestacionalademanda?
-
-Tiene plazo de 6 dias fatales. Si no replica dentro de plazo, se
-
 ## Pregunta:EN QUE CASOS EL JUEZ CITA A OfR SENTENCIA UNA
+
+**Definición Canónica:** entiende precluido su derecho por el solo ministerio de la ley, y
+el tribunal lo declara asi de oficio o a peticion de parte, y confiere
+traslado al demandado para duplicar.
 
 entiende precluido su derecho por el solo ministerio de la ley, y
 el tribunal lo declara asi de oficio o a peticion de parte, y confiere
 traslado al demandado para duplicar.
 
-## Rebeldia,o siha habido reconvencion,una vez
+Rebeldia,o siha habido reconvencion,una vez
 
 Enlos casos del art.313:
 
 ## Pregunta: &QUE PUEDE HACER EL DEMANDANTE EN LA REPLICA?
 
+**Definición Canónica:** 1)Si el demiandado acepta lisa y lanamente las peticiones del
+Puede adicionar, modificar o ampliar las acciones que fordemandante.
+Brdiariee Ghuris
+
 1)Si el demiandado acepta lisa y lanamente las peticiones del
 Puede adicionar, modificar o ampliar las acciones que fordemandante.
 Brdiariee Ghuris
 
-## Mil. y una preguntas en derecho procesal civil
+Mil. y una preguntas en derecho procesal civil
 
 Si el demandado no contradice en materia sustancial los heSin embargo, la redaccion del art. 262 inc. 1° convierte la
 chos sobrelos que versa la demanda.
@@ -3853,8 +4568,9 @@ obligatoriedad en regla general.
 
 ## Prcgunta: COMO ACTUA EL JUEZ EN LA AUDIENCIA DE CONCIPregunta: &QUE ES EL LLAMADO A CONCILIACION?
 
+**Definición Canónica:** Liacion?
 
-## Liacion?
+Liacion?
 
 Es la gestion que hace el juez una vez agotados los tramites
 Propone personalmente bases de arreglo, actua como amide discusion o en cualquier estado de la causa, una vez evacuado
@@ -3866,6 +4582,16 @@ secretario y las partes que deseen.
 Pregunta: EN QUE JUICIOS PROCEDE? CUANDO? EXCEPCIONES.
 
 ## Pregunta: QUE VALOR TIENE ESTA ACTA DE CONCILIACION?
+
+**Definición Canónica:** A)REGLA GENERAL: En todo juicio civil en que sea admisiSe estimara como sentencia ejecutoriada para todos los efecble la transaccion, una vez agotados los tramites de discutos legales. (Art. 267 C.P.C.).
+sion.
+B)EXCEPCION:
+Pregunta: CUAL ES LA NATURALEZA JURiDICA DE LA RESOLU1) Juicios de hacienda, porque en ellos se encuentra comCION QUE RECIBE LA CAUSA A PRUEBA?
+prometido el interes fiscal y tiene reglamentacion propia;
+Es sentencia interlocutoria de segunda clase.
+2) En las gestiones sobre declaracion del derecho legal de
+retencion;
+3) En la citacion de eviccion;
 
 A)REGLA GENERAL: En todo juicio civil en que sea admisiSe estimara como sentencia ejecutoriada para todos los efecble la transaccion, una vez agotados los tramites de discutos legales. (Art. 267 C.P.C.).
 sion.
@@ -3879,9 +4605,11 @@ retencion;
 
 ## Pregunta: QUE DEBE CONTENER LA RESOLUCION QUE RECIBE
 
+**Definición Canónica:** 4) Juicios sobre el estado civil de las personas;
+
 4) Juicios sobre el estado civil de las personas;
 
-## La causa a prueba?
+La causa a prueba?
 
 5) Juicio de separacion de bienes;
 1)
@@ -3899,18 +4627,13 @@ dimientos dePolicia Local.
 (Art. 319 C.P.C.).
 Gdtoricl GtSerit
 
-## Pregunta: &QUE SE PUEDE PEDIR EN ESTA REPOSICION?
-
-
-## Pregunta:ES APELABLELA RESOLUCION QUE DA LUGARA LA
-
-
-## Ampliacion de la prueba?
-
-Que se modifiquen, eliminen o agreguen hechos controvertidos.
-No, esta resolucion es inapelable. (Art. 326 inc. 2° C.P.C.).
-
 ## Pregunta: COMO RESUELVE EL JUEZ ESTA REPOSICION?
+
+**Definición Canónica:** Pregunta: &QUE ES EL TERMINO PROBATOR10?
+Puede resolverla de plano o como incidente,o sea,dando
+traslado a la otra parte.
+Es el espacio de tiempo senalado en la ley, para que las partes rindan sus pruebas. al tenor de los hechos sustanciales y
+pertinentes controvertidos y, en especial la testimonial, para la
 
 Pregunta: &QUE ES EL TERMINO PROBATOR10?
 Puede resolverla de plano o como incidente,o sea,dando
@@ -3918,23 +4641,17 @@ traslado a la otra parte.
 Es el espacio de tiempo senalado en la ley, para que las partes rindan sus pruebas. al tenor de los hechos sustanciales y
 pertinentes controvertidos y, en especial la testimonial, para la
 
-## Pregunta:COMO SE CONCEDE LA APELACION SUBSIDIARIA DE
-
-cual es fatal.
-
-## La reposicionp (en este caso el juez rechazo la
-
-REPOSICION).
-
-## Pregunta: CUANDO SE INICIA EL TERMINO PROBATORIO?
-
-La apelacion subsidiaria de la reposicion se concede en el
-solo efecto devolutivo.(Art.319 inc.final).
-Se inicia:
-1）（
-Con la ultima notificacion por cedula de la resolucion que
-
 ## Pregunta: gPUEDE PEDIRSE AMPLIACION DE LA PRUEBA?
+
+**Definición Canónica:** recibe la causa a prueba o,
+Si,la interlocutoria de prueba puede ampliarse a hechos
+Con la notificacion por el estado de la resolucion recaida en
+nuevos substancialmente relacionados con el asunto que se venla ultima solicitud de reposicion.
+tila, ocurrido durante el probatorio (porque no produce desasimiento, por excepcion). (Art. 321 C.P.C.).
+Pregunta: CARACTERiSTICAS DE ESTE PLAZO.
+1)Comun. Corre para todos desde la ultima notificacion.
+1)Que ocurran hechos nuevos durante el probatorio que ten2) Legal. Lo establece la ley, pero tambien puede ser judicial o
+gan relacion con el asunto controv
 
 recibe la causa a prueba o,
 Si,la interlocutoria de prueba puede ampliarse a hechos
@@ -3967,27 +4684,25 @@ toria.
 Galiasial Bbaucite
 EetiorinsGtSurile
 
-## Mily unapreguntas en derecho procesal civil
-
-
-## Pregunta: COMO SE CLASIFICA EL TERMINO PROBATORIO?
-
+Mily unapreguntas en derecho procesal civil
 
 ## Pregunta:&COMO SE CONCEDE O DECRETA (EN CASO QUE SEA
 
+**Definición Canónica:** 1) Ordinario;
+
 1) Ordinario;
 
-## Dentro de la republica)?
+Dentro de la republica)?
 
 2) Extraordinario; y
 Se decreta “Como se pide, con citacion". Puede haber oposicion y, entonces, habra incidente.
 3) Especial,
 Pregunta: REQUISITOS PARA CONCEDER AUMENTO EXTRAORDIPregunta: CUANTO DURA EL ORDINARIO Y QUE PRUEBAS PUE.
 
-## Nariopararendirpruebafueradelterritorio
+Nariopararendirpruebafueradelterritorio
 
 
-## Den rendirse durante el?
+Den rendirse durante el?
 
 DE LA REPUBLICA.
 El termino probatorio ordinario dura 20 dias, salvo que las
@@ -4005,9 +4720,11 @@ Se concede con audiencia.Art.336 C.P.C.
 
 ## Pregunta: QUE ES EL TERMINO PROBATORIO EXTRAORDINARIO?
 
+**Definición Canónica:** Pregunta: OPORTUNIDAD PARA PEDIR EL AUMENTO EXTRAORDIConsiste en los 20 dias del ordinario mas el aumento segun
+
 Pregunta: OPORTUNIDAD PARA PEDIR EL AUMENTO EXTRAORDIConsiste en los 20 dias del ordinario mas el aumento segun
 
-## Nario delterminoprobatorio.como corre?
+Nario delterminoprobatorio.como corre?
 
 tabla de emplazamiento, dependiendo del lugar para el cual se
 hubiera otorgado.
@@ -4015,14 +4732,21 @@ Antes delvencimientodel ordinario,determinandose el lugar
 donde deba rendirse la prueba.(Art.332 C.P.C.).
 Corre despues del ordinario,sin interrupcion.(Art. 333
 
-## Pregunta:REQUISITOS PARA OTORGARAUMENTO EXTRAORDINARIOPARA RENDIRPRUEBADENTRODE LA REPUBLICA
-
-
-## Pero fuera del territorio jurisdiccional del
-
-TRIBUNAL.
-
 ## Pregunta: EN QUE JUICIOS PROCEDE AUMENTO EXTRAORDINARIODELTERMINOPROBATORIO?
+
+**Definición Canónica:** Art. 336 C.P.C.
+1.- Juicio ordinario de mayor cuantia.
+1)Se concedera siempre que se pida, salvo que haya justo motivo para creer que se pide maliciosamente con el proposito
+2.-Juicio ordinario de menor cuantia.No puede exceder de 20
+de demorar el juicio.
+dias.
+2) No se exige caucion.
+3.-Juicio sumario.No debe exceder de 30 dias en total.
+4.-Juicio'ante arbitros. Se tramitan conforme al juicio ordina-
+(Art. 330 C.P.C.)
+rio.
+GditoriclGlfarislte
+Gulitovriab GtSriatn
 
 Art. 336 C.P.C.
 1.- Juicio ordinario de mayor cuantia.
@@ -4038,7 +4762,7 @@ rio.
 GditoriclGlfarislte
 Gulitovriab GtSriatn
 
-## Maria cerraortiz
+Maria cerraortiz
 
 5.-Juicio ejecutivo. No mas de 20 dias y solo si lo pide el ejecu2)Si no puede rendirse totalmente la prueba de testigos en
 tante.
@@ -4077,8 +4801,9 @@ blicos.
 
 ## Pregunta:&PUEDE HABER OTROS TERMINOS ESPECIALES DE
 
+**Definición Canónica:** Prueba?
 
-## Prueba?
+Prueba?
 
 Pregunta:ENUMERE LOS MEDIOS DEPRUEBA EN ELJUICIO ORDINARIO.
 1)Si al concederse la apelacion subsidiaria de la reposicion el
@@ -4097,6 +4822,12 @@ Instrumento publico o autentico es el autorizado con las solemnidadeslegalespor 
 
 ## Pregunta: &QUE ES LA PRUEBA INSTRUMENTAL O DOCUMENTAL?
 
+**Definición Canónica:** escribano e incorporado en un protocolo o registro publico, se
+llama escritura publica. (Art. 1699 C.C).
+Es aquella que se produce por medio de instrumentos en la
+forma legal.
+Pregunta: &QUE ES UN INSTRUMENTO PRIVADO?
+
 escribano e incorporado en un protocolo o registro publico, se
 llama escritura publica. (Art. 1699 C.C).
 Es aquella que se produce por medio de instrumentos en la
@@ -4105,6 +4836,13 @@ Pregunta: &QUE ES UN INSTRUMENTO PRIVADO?
 
 ## Pregunta: &QUIEN PRODUCE LA PRUEBA INSTRUMENTAL?
 
+**Definición Canónica:** Instrumento privado es aquel en cuyo otorgamiento no ha
+intervenido funcionario publico y no se han observado formalia) Las partes.
+dades.
+- Por propia iniciativa los que tienen en su poder, e incluso
+pueden pedir la exhibicion de los que esten en poder de un
+Pregunta: 2COMO Y CUANDO SE ACOMPANAN LOS INSTRUMENtercero, siempre que esten relacionados y no sean secretos o
+
 Instrumento privado es aquel en cuyo otorgamiento no ha
 intervenido funcionario publico y no se han observado formalia) Las partes.
 dades.
@@ -4112,7 +4850,7 @@ dades.
 pueden pedir la exhibicion de los que esten en poder de un
 Pregunta: 2COMO Y CUANDO SE ACOMPANAN LOS INSTRUMENtercero, siempre que esten relacionados y no sean secretos o
 
-## Tos publicos?,y los privados?
+Tos publicos?,y los privados?
 
 confidenciales. (Art.349 C.P.C.).
 1）Los instrumentos publicos se acompanan con citacion de la
@@ -4132,7 +4870,7 @@ piedad u otros instrumentospublicos oprivados que por su
 naturalezapuedan interesara diversaspersonas."
 b)En cualquier estado del juicio:
 
-## Trumentoprivado?
+Trumentoprivado?
 
 1) En primera instancia.Hasta el vencimiento del probatoEl reconocimiento puede ser expreso, tacito o judicial.
 rio.
@@ -4171,7 +4909,7 @@ Se puede probar por cualquier medio; por excepcion, para
 probar la falta de autenticidad de la escritura publica a traPregunta:2COMO SE PUEDE IMPUGNAR UN ESCRITURA PUBLICA
 ves de la prueba testimonial se deben cumplir los requisitos
 
-## Por falta de autenticidad?
+Por falta de autenticidad?
 
 del art. 429 del C.P.C.
 La falta de autenticidad de un instrumento publico puede
@@ -4190,7 +4928,7 @@ La falta de autenticidad de una escritura publica solo puede
 Pregunta: DE QUE FORMAS PUEDEN IMPUGNARSE LOS INSTRU.
 probarse:
 
-## Mentospublicos?
+Mentospublicos?
 
 1)Por medio de 5 testigos contestes, sin tacha, legalmente exaPor via principal o por via incidental.
 minados y que den razon de sus dichos (abonados).
@@ -4229,7 +4967,7 @@ en contra de quien las hace, en cuyo caso tendran valor de
 confesion extrajudicial.
 Pregunta: &CON QUE INSTRUMENTOS SE CONFRONTA EL DOCU.
 
-## Mentoobjetado?
+Mentoobjetado?
 
 Pregunta:VALOR PROBATORIO DE LOS INSTRUMENTOS PRIVADOS.
 El art. 352 dice que se consideran indubitados para el cotejo:
@@ -4256,7 +4994,7 @@ Bitiaria GtFuris
 la relacion procesal, llamada a prestar declaracion ante el organo
 Pregunta: HAY ALGUN CASO EN QUE PUEDEN TACHARSE DESjurisdiccional respecto de hechos que en forma circunstancial
 
-## Pues?
+Pues?
 
 han caido en dominio de sus sentidos, o que en razon de su actividad, profesion u oficio deduce de su percepcion.
 Si, en el caso que el tribunal haya admitido testigos con
@@ -4271,10 +5009,13 @@ Si, pero solo a los que notoriamente parezcan tener una inhabilidad absoluta. (A
 
 ## Pregunta: &QUE CONDICIONES DEBEN REUNIR LOS TESTIGOS?
 
+**Definición Canónica:** Deben ser capaces y habiles para declarar en juicio. Y es haPregunta: QUE PUEDE HACER LA PARTE A QUIEN SE LE TACHA
+bil para testificar en juicio toda persona a quien la ley no declare
+
 Deben ser capaces y habiles para declarar en juicio. Y es haPregunta: QUE PUEDE HACER LA PARTE A QUIEN SE LE TACHA
 bil para testificar en juicio toda persona a quien la ley no declare
 
-## Un testigo?
+Un testigo?
 
 inhabil.
 Puede dejar que el testigo tachado declare,ya quelas tachas
@@ -4291,19 +5032,13 @@ Las tachas se tramitan como incidente y son apreciadas y
 resueltas en la sentencia definitiva.(8)
 3) Las que denotan falta de imparcialidad.
 
-## Pregunta: ANTE QUE TRIBUNAL DEBE RENDIRSE LA PRUEBA
-
-Pueden ser absolutas o relativas. (Arts. 357 y 358 C.P.C.).
-
-## Testimonial?
-
-Deberendirse ante el tribunal que conoce del asunto,pero
-
 ## Pregunta: COMO SE HACEN VALER ESTAS INHABILIDADES Y
+
+**Definición Canónica:** tambien puederendirse ante un tribunal exhortado.
 
 tambien puederendirse ante un tribunal exhortado.
 
-## Cuando?
+Cuando?
 
 Las inhabilidades se hacen valer por medio de las tachas,
 (8)
@@ -4314,7 +5049,7 @@ Gdiosial Shueria
 BaltaiakSuriate
 Pregunta: &EN QUE PROCEDIMIENTOS NO PROCEDE LA DECLARAmen, respecto a los hechos, siempre es admisible la prueba de
 
-## Cion de testigos mediante exhorto?
+Cion de testigos mediante exhorto?
 
 testigos; respecto a las obligaciones tambien, salvo que se trate
 En las querellas posesorias,
@@ -4332,13 +5067,11 @@ En las querellas posesorias solo pueden declarar cuatro tes2) Las obligaciones q
 555).
 nes.
 
-## Pregunta: 2QUE OBLIGACION TIENE LA PARTE QUE PRETENDE
-
-
 ## Pregunta: EXCEPCIONES EN LAS QUE OBLIGACIONES QUE DEBAN
 
+**Definición Canónica:** Rendirprueba testimonial?
 
-## Rendirprueba testimonial?
+Rendirprueba testimonial?
 
 DIO DE TESTIGOS.
 Debe presentar, dentro de los 5 primeros dias del probatorio,
@@ -4348,9 +5081,11 @@ Si ha sido imposible obtener prueba escrita (por ej.: simulacion).
 
 ## Pregunta: gHAY ALGUNA SANCION SI UNA PARTE NO PRESENTA
 
+**Definición Canónica:** En los actos y contratos expresamente exceptuados: comodato,deposito necesario,etc.
+
 En los actos y contratos expresamente exceptuados: comodato,deposito necesario,etc.
 
-## Minuta o lista?
+Minuta o lista?
 
 1)Si no presenta minuta seran interrogados al tenor de los hechos fijados por el juez en la resolucion que recibe la causa
 Pregunta: VALOR PROBATORIO DE LA DECLARACION DE LOS TESa prueba.
@@ -4363,7 +5098,7 @@ prueba testimonial.
 Presuncion grave si su testimonio se refiere a lo que escucho
 Pregunta:EN QUE CASOS NO ES ADMISIBLE LA PRUEBA DE TESa alguna de las partes, si de esta manera se explica o aclara
 
-## Tigos?
+Tigos?
 
 el hecho de que se trata.
 El art. 1708 C.C., dice que no se admite prueba de testigos
@@ -4373,11 +5108,12 @@ Buliaria GSuriste
 
 ## Pregunta: &QUE VALOR PROBATORIO TIENE UN TESTIGO IMPARPregunta: Y SI LAS DECLARACIONES DE LOS TESTIGOS DE UNA
 
+**Definición Canónica:** Cialy veridico?
 
-## Cialy veridico?
+Cialy veridico?
 
 
-## Mismapartesoncontradictorios?
+Mismapartesoncontradictorios?
 
 Puede ser:
 Las que favorezcan a la otra parte se consideraran presentaPresuncion judicial, o
@@ -4386,7 +5122,7 @@ dos por ella. (Art. 384 regla 6a C.P.C.).
 Plena prueba, si a juicio del tribunal tiene caracteres de
 gravedad y precision suificientes para formar su convenciPregunta: &PUEDE SER TESTIGO UN MENOR DE 14 ANOS? &QUE
 
-## Valorpuedetenersudeclaracion?
+Valorpuedetenersudeclaracion?
 
 El menor de 14 anos es inhabil para declarar como testigo.
 Pregunta: &Y DOS O MAS TESTIGOS ABONADOS? (CONTESTES,
@@ -4397,13 +5133,21 @@ Pregunta: QUE ES LA CONFESION?
 La confesion es el reconocimiento que uno de los litigantes
 Pregunta: &QUE SUCEDE SI LOS TESTIGOS DE UNA PARTE CONhace de la verdad deun hecho que puede producir en su contra
 
-## Tradicen alos de la otra parte?
+Tradicen alos de la otra parte?
 
 consecuencias juridicas.
 Se tendra por cierto lo que declaren los que aun siendo menos,parezcan decir verdad, por estar mejor instruidos de los
 hechos, o ser de mejor fama, mas imparciales y veridicos, o por
 
 ## Pregunta: QUIEN ES EL SUJETO DE LA CONFESION?
+
+**Definición Canónica:** estar mas conformes con otras pruebas.
+Las partes en el litigio son los sujetos de la confesion.
+La prueba debe pesarse y no contarse.
+Art.385 C.P.C.:“(...) todo litigante esta obligado a declarar
+bajojuramento,contestada que sea la demanda,sobrehechos
+Pregunta: &Y SI LOS TESTIGOS DE AMBAS PARTES SON IGUApertenecientes al mismo juicio,cuandolo exija el contendor o
+LES EN IMPARCIALIDAD Y VERACIDAD (CIRCUNSTANlo decrete el tribunal en conformidad al articulo 159."(Articulo
 
 estar mas conformes con otras pruebas.
 Las partes en el litigio son los sujetos de la confesion.
@@ -4413,18 +5157,18 @@ bajojuramento,contestada que sea la demanda,sobrehechos
 Pregunta: &Y SI LOS TESTIGOS DE AMBAS PARTES SON IGUApertenecientes al mismo juicio,cuandolo exija el contendor o
 LES EN IMPARCIALIDAD Y VERACIDAD (CIRCUNSTANlo decrete el tribunal en conformidad al articulo 159."(Articulo
 
-## Cias)?
+Cias)?
 
 159, medidas para mejor resolver).
 Se tendra por cierto lo que declare el mayor numero.
 Pregunta: COMO PUEDE SER LA CONFESION?
 Pregunta:SI LOS TESTIGOS DE UNAY OTRA PARTE SONIGUAPuede ser:
 
-## Les en circunstancias y en numero de manera
+Les en circunstancias y en numero de manera
 
 Espontanea
 
-## Que la sana razon no puede inclinarse poralgunos?
+Que la sana razon no puede inclinarse poralgunos?
 
 a) Judicial
 Se tendra por no probado el hecho.
@@ -4435,6 +5179,19 @@ EditerinGlSuriate
 Fuera de juicio
 
 ## Pregunta: CUANDO ES DIVISIBLE LA CONFESION?
+
+**Definición Canónica:** b) Extrajudicial
+En otro juicio
+1) Regla general: El merito de la confesion no puede dividirse
+en perjuicio del confesante.
+En el mismo juicio ante tribunal
+competente
+2) Excepcion:Puede dividirse cuando comprende hechos diversos desligados entre si, cuando comprende hechos ligados entre si o que se modifican unos a los otros, pero la contraria acrePregunta: OTRAS CLASIFICACIONES DE LA CONFESION.
+dita legalmente la falsedad de los hechos que segun el confesante
+alteran o modifican el hecho confesado.
+Puede ser: pura y simple, calificada y compleja; divisible 0
+indivisible.
+1)Pura y simple. Aqu
 
 b) Extrajudicial
 En otro juicio
@@ -4475,6 +5232,13 @@ niega a declarar o solo da respuestas evasivas.
 
 ## Pregunta: QUE SIGNIFICA QUE LA CONFESION SEA DIVISIBLE?
 
+**Definición Canónica:** Pregunta: DE QUE HECHOS SE LE DA POR CONFESO?
+Que pueden separarse las circunstancias favorables de las
+De los hechos categoricamente afirmados en el pliego, a pedesfavorables en perjuicio del confesante.
+ticion de parte. (Art. 394 C.P.C.).
+Eedlinrind tSarister
+Bitieriad GlSurintu
+
 Pregunta: DE QUE HECHOS SE LE DA POR CONFESO?
 Que pueden separarse las circunstancias favorables de las
 De los hechos categoricamente afirmados en el pliego, a pedesfavorables en perjuicio del confesante.
@@ -4484,10 +5248,13 @@ Bitieriad GlSurintu
 
 ## Pregunta: 2Y QUE PUEDE HACER EN ESTE CASO EL TRIBUNAL
 
+**Definición Canónica:** Pregunta: VALOR PROBATORIO DE LA CONFESION JUDICIAL.
+RESPECTODELOSHECHOS QUE NOESTAN CATEGORIProduce los mismos efectos probatorios,sea espontanea o
+
 Pregunta: VALOR PROBATORIO DE LA CONFESION JUDICIAL.
 RESPECTODELOSHECHOS QUE NOESTAN CATEGORIProduce los mismos efectos probatorios,sea espontanea o
 
-## Camenteafirmados?
+Camenteafirmados?
 
 provocada, expresa o tacita.
 Puede imponer multa o arresto hasta por 30 dias, sin perjuicio de exigir otra vez la declaracion y puede suspender el proceHay que distinguir:
@@ -4509,9 +5276,11 @@ Como medida prejudicial. (Art. 273 N° 1 C.P.C.).
 
 ## Pregunta: CONOCE ALGUN CASO EN QUE SEA INADMISIBLE LA
 
+**Definición Canónica:** Como medida para mejor resolver. (Art. 159 C.P.C.).
+
 Como medida para mejor resolver. (Art. 159 C.P.C.).
 
-## Confesion como medio probatorio?
+Confesion como medio probatorio?
 
 4)Y tambien dentro del termino de emplazamiento en el inci1)En los actos y contratos en que la ley exige instrumento puldente que pueda promoverse por una excepcion dilatoria.
 blico como solemnidad.
@@ -4519,7 +5288,7 @@ Para probar causal de divorcio y en los juicios de nulidad de
 Pregunta: 2QUE SON LAS POSICIONES? &COMO PUEDEN REDAC.
 matrimonio.
 
-## Tarse?
+Tarse?
 
 En los juicios de separacion de bienes por mal estado de los
 Son las preguntas que una parte formula a la otra para que
@@ -4532,6 +5301,18 @@ entiendan facilmente.
 Pregunta: VALOR PROBATORIO DE LA CONFESION EXTRAJUDICIAL.
 
 ## Pregunta: CUANTAS VECES PUEDE PEDIRSE LA CONFESION?
+
+**Definición Canónica:** a)Si es fuera de juicio, verbal. Es base de presuncion judicial,
+En primera instancia, dos veces; en segunda, una vez; pero
+pero si se dio en presencia de la parte que la invoca se estimaen ambos casos puede hacerse una vez mas si se alegan hechos
+ra como presuncion grave que puede llegar a constituir plena
+nuevos. (Art. 385 C.P.C.).
+prueba si, a juicio del tribunal, tiene caracteres de gravedad
+y precision suficientes para formar su convencimiento.
+(9)
+Hay que estudiar el Art.389: quienes estan exentos de comparecery como
+Si es fuera de juicio, cscrita. Tiene valor de prueba instrudeclaran.
+m
 
 a)Si es fuera de juicio, verbal. Es base de presuncion judicial,
 En primera instancia, dos veces; en segunda, una vez; pero
@@ -4550,22 +5331,28 @@ c)Si es ante tribunal incompetente o en otro juicio, constituye
 
 ## Pregunta: A QUE PRINCIPIO HACE EXCEPCION ESTE MEDIO DE
 
+**Definición Canónica:** presuncion grave que puede llegar a constituir plena prueba
+
 presuncion grave que puede llegar a constituir plena prueba
 
-## Prueba?
+Prueba?
 
 si, a juicio del tribunal, tiene caracteres de gravedad y preciAl principio de la territorialidad. (Art. 7 del C.O.T.).
 sion suficientes para formar su convencimiento.
 d)Si el otro juicio es entre las mismas partes, puede constituir
 plena prueba,habiendo motivos poderosos para estimarlo
 
-## Pregunta:VALOR PROBATORIO DE LA INSPECCION PERSONAL
-
-asi.
-DEL TRIBUNAL.
-Tiene el valor de plena prueba siempre que concurran los
-
 ## Pregunta: &QUE ES LA INSPECCION PERSONAL DEL TRIBUNAL?
+
+**Definición Canónica:** siguientes requisitos:
+1) Que la inspeccion personal recaiga sobre hechhos o cirEs el examen que de la cosa litigiosa o del lugar del suceso
+cunstancias materiales;
+realiza el tribunal con elobjeto de aclararla verdad deloshechos
+controvertidos obien de dejar constancia deunhecho.
+2) Que estos hechos o circunstancias materiales sean establecidos (asentados) como resultado de la propia observacion del
+tribunal; y
+Pregunta: eQUE COSAS PUEDEN SER OBJETO DE LA INSPEC.
+3) Que se haya dejado consignado en el acta dichos hechos y
 
 siguientes requisitos:
 1) Que la inspeccion personal recaiga sobre hechhos o cirEs el examen que de la cosa litigiosa o del lugar del suceso
@@ -4577,7 +5364,7 @@ tribunal; y
 Pregunta: eQUE COSAS PUEDEN SER OBJETO DE LA INSPEC.
 3) Que se haya dejado consignado en el acta dichos hechos y
 
-## Cion?
+Cion?
 
 circunstancias materiales.
 Cosas, situaciones de hecho (como lo es en la denuncia de
@@ -4586,6 +5373,15 @@ obra nueva),personas (tal como en la interdiccion).
 Pregunta: QUE ES EL INFORME DE PERITOS?
 
 ## Pregunta: COMO PROCEDE LA INSPECCION PERSONAL DEL TRIBUNAL?HAY CASOSENQUEESOBLIGATORIA?
+
+**Definición Canónica:** Informe de peritos es el medio de prueba que consiste en oir
+1)Regla general: Es facultativa del juez,sea porque lo pide
+determinadas materias y que dicen relacion con el asunto con--
+una parte,o porque la decrete de oficio cuando lo estime
+trovertido que se litiga.
+necesario.
+2)Por excepcion es obligatoria en la denuncia de obra ruinosa
+y en los interdictos especiales.
 
 Informe de peritos es el medio de prueba que consiste en oir
 1)Regla general: Es facultativa del juez,sea porque lo pide
@@ -4597,6 +5393,19 @@ necesario.
 y en los interdictos especiales.
 
 ## Pregunta: CUANDO DEBE OIRSE INFORME DE PERITOS?
+
+**Definición Canónica:** 1）
+“En todos aquellos casos en quela ley asi lo disponga,ya sea
+quesevalga de estas expresionesode otras queindiquen
+Pregunta:&QUIEN PUEDE PEDIRLA?
+la necesidad de consultar opiniones periciales".(Art.409
+Las partes pueden pedirla como medida prejudicial probatoria o durante el probatorio.
+2)Art.411:“Podra tambien oirse el informe deperitos:
+Puede tambien ser de iniciativa del propio tribunal durante
+1°. Sobre puntos de hecho cuya apreciacion se necesiten conoel curso del juicio y como medida para mejor resolver.
+cimientos especiales dealguna ciencia oarte;y
+BlioriGhrin
+2°. Sobre puntos de der
 
 1）
 “En todos aquellos casos en quela ley asi lo disponga,ya sea
@@ -4665,19 +5474,23 @@ Solo procede recurso de reposicion dentro de tercero dia fundado en un error de 
 
 ## Pregunta: &COMO SE TRAMITAN LOS INCIDENTES QUE SE SUSCITANDURANTEELPROBATORIO?
 
+**Definición Canónica:** Los incidentes que se suscitan durante el probatorio se traPregunta: COMO SE NOTIFICA ESTA RESOLUCION?
+mitan en cuaderno separado, por lo tanto no suspenden el curso
+Esta resolucion se notifica por el estado diario.
+de la causa principal. (Art. 339 C.P.C.).
+
 Los incidentes que se suscitan durante el probatorio se traPregunta: COMO SE NOTIFICA ESTA RESOLUCION?
 mitan en cuaderno separado, por lo tanto no suspenden el curso
 Esta resolucion se notifica por el estado diario.
 de la causa principal. (Art. 339 C.P.C.).
 
-## Pregunta: EFECTOS DE LA RESOLUCION QUE CITA A LAS PARTES
-
-
 ## Pregunta:QUE SUCEDE UNA VEZ QUE HA VENCIDO EL TERMINO
+
+**Definición Canónica:** A OIR SENTENCIA.
 
 A OIR SENTENCIA.
 
-## Probatorio?
+Probatorio?
 
 Esta resolucion pone fin al debate y la causa queda en esUna vez vencido el termino probatorio,el expediente queda
 tado de fallo.Ya no se admiten mas escritos ni pruebas, salvo
@@ -4687,9 +5500,11 @@ pueden hacer observaciones a la prueba. (Art. 430 C.P.C.).
 
 ## Pregunta:MENCIONE ALGUNAS EXCEPCIONES A ESTOS EFECPregunta:HAY ALGUNA SANCION PARA LA PARTE QUE NO HAGA
 
+**Definición Canónica:** TOS.
+
 TOS.
 
-## Observacionesalaprueba?
+Observacionesalaprueba?
 
 1.-Medidas para mejor resolver (Art. 159).
 No,no es obligatorio hacer observaciones a la prueba.
@@ -4706,9 +5521,11 @@ el juez cita a las partes para oir sentencia. Art. 432 C.P.C.
 
 ## Pregunta:NATURALEZA JURIDICA DE LA RESOLUCION QUE CITA
 
+**Definición Canónica:** Pregunta: QUE PASA SI SE OMITE LA CITACION PARA OIR SENA LAS PARTES A OIR SENTENCIA.
+
 Pregunta: QUE PASA SI SE OMITE LA CITACION PARA OIR SENA LAS PARTES A OIR SENTENCIA.
 
-## Tencia?
+Tencia?
 
 La resolucion que cita a las partes para oir sentencia es una
 Habria causal para recurrir de casacion en la forma, ya que
@@ -4717,23 +5534,25 @@ este es un tramite esencial.
 GdioriadGSurists
 Baliariad Gl Fariteo
 
-## Mh y una preguntas en derecho procesal civil
-
+Mh y una preguntas en derecho procesal civil
 
 ## Preguuta: QUE SON LAS MEDIDAS PARA MEJOR RESOLVER?
+
+**Definición Canónica:** prueba pendiente,siempre que lo estime necesario para la
+acertada resolucion de la causa.
+Son diligencias probatorias establecidas en la ley y que puede decretar de oficio el tribunal, y eventualmente a peticion de
 
 prueba pendiente,siempre que lo estime necesario para la
 acertada resolucion de la causa.
 Son diligencias probatorias establecidas en la ley y que puede decretar de oficio el tribunal, y eventualmente a peticion de
 
-## parte, con el fin de acreditar o esclarecer alguno de los hechos del
-
-
 ## Pregunta: &COMO SE NOTIFICA LA RESOLUCION QUE DECRETA
+
+**Definición Canónica:** proceso, para su adecuada y justa resolucion. (Art. 159 C.P.C.).
 
 proceso, para su adecuada y justa resolucion. (Art. 159 C.P.C.).
 
-## Medidasparamejorresolver?
+Medidasparamejorresolver?
 
 Se notifica por el estado diario.
 Pregunta: OPORTUNIDAD PARA DECRETARLAS.
@@ -4741,26 +5560,19 @@ Solo dentro del plazo para dictar sentencia.
 
 ## QUE DECRETA UNA MEDIDA PARA MEJOR RESOLPregunta: &COMO SE DECRETAN?
 
+**Definición Canónica:** Ver?
 
-## Ver?
+Ver?
 
 Con conocimiento.
 No, las resoluciones que decretan medidas para mejor resolver son inapelables, excepcionalmente, es apelable en el solo
 efecto devolutivo, la resolucion que dicte un tribunal de primera
 
-## Pregunta: LA ENUMERACION DELARTICULO 159,ES TAXATIVA?
-
-instancia al decretar el informe de peritos.
-
-## ?cuales son las medidas para mejor resolver?
-
-Si, la enumeracion de las medidas para mejor resolver es
-taxativa.
-
 ## Pregunta: EN QUE PLAZO DEBEN CUMPLIRSE LAS MEDIDAS PARA
 
+**Definición Canónica:** Mejorresolver?
 
-## Mejorresolver?
+Mejorresolver?
 
 Las medidas para mejor resolver son:
 Agregacion de cualquier documento que estime necesario
@@ -4776,9 +5588,11 @@ Inspeccion personal del objeto de la cuestion.
 
 ## Pregunta: CUAL ES LA FORMA NORMAL DE TERMINAR EL JUICIO
 
+**Definición Canónica:** 3)
+
 3)
 
-## Ordinario?
+Ordinario?
 
 Informe de peritos.
 La forma normal de terminar un juicio es con la sentencia
@@ -4798,6 +5612,16 @@ Bdiaried Bhgritt
 Blioriat BlSuritw
 
 ## Pregunta: &CUANDO QUEDA UNA CAUSA EN ESTADO DE FALLO?
+
+**Definición Canónica:** C
+La causa queda en estado de fallo desde que se dicta la resoJUICIOS DEMENORY MINIMA CUANTIA
+lucion que cita a las partes para oir sentencia.
+Pregunta: &QUE ES EL JUICIO DE MENOR CUANTIA?
+Pregunta: RECURSOS QUE PROCEDEN CONTRA LA SENTENCIA DEFINITIVA ENELJUICIO ORDINARIO.
+Procedimiento de caracter extraordinario, pero de aplicacion
+general, toda vez que se aplica a todos aquellos asuntos de una
+Apelacion y casacion. Obviamente tambien aclaracion o incuantia superior a 10 U.T.M. e inferior a 500 U.T.M., que no tenterpretacion y rectificacion o enmienda.
+gan senalados por la ley algun procedimi
 
 C
 La causa queda en estado de fallo desde que se dicta la resoJUICIOS DEMENORY MINIMA CUANTIA
@@ -4897,7 +5721,7 @@ D
 Instrumentosprivadosreconocidos omandados a tener por
 reconocidos.
 
-## Juicio ejecutivo
+Juicio ejecutivo
 
 5.
 Confesion judicial.
@@ -4906,9 +5730,11 @@ Titulos al portador o nominativos de obligaciones vencidas
 
 ## Pregunta: &QUE ES EL JUICIO EJECUTIVO DE OBLIGACIONES DE
 
+**Definición Canónica:** que confronten con los talonarios tambien vencidos,y los
+
 que confronten con los talonarios tambien vencidos,y los
 
-## Dar?
+Dar?
 
 talonarios conlos titulos.
 Es un procedimiento especial que tiene por objeto obtener,
@@ -4926,7 +5752,7 @@ sobre todas y cada una de las excepciones opuestas por el ejecutado. De no haccr
 Pregunta: &QUE SE ENTIENDE POR OBLIGACION LiQUIDA Y AC.
 tido. (Esto se refiere a las excepciones del ejecutado mas que la
 
-## Tualmenteexigible?
+Tualmenteexigible?
 
 enumeracion de titulos ejecutivos)
 a)Se enttende por obligacton liquida no solo la que actualAdemas, se demuestra que no es taxativa por el No 7 ya que
@@ -4959,7 +5785,7 @@ alguna modalidad que suspenda su cumplimiento.
 Pregunta: PLAZO DE PRESCRIPCION DE LA ACCION EJECUTIVA.
 Pregunta:SON TITULO EJECUTIVO LAS SENTENCIAS ARBITRALa accion ejecutiva prescribe en tres anios desde que se hace
 
-## Les?
+Les?
 
 exigible la obligacion.
 Una sentencia arbitral tiene la misma fuerza obligatoria que
@@ -4971,16 +5797,14 @@ vidad de los tribunales en materia civil.
 GdioriaSturoa
 Galitoxicdh Ghoriato
 
-## Pregunta: &QUE PASA SI EL JUEZ NO DECLARA LA PRESCRIPCION Y
-
-
 ## Pregunta: &QUE SON LAS GESTIONES PREPARATORIAS DE LA ViA
 
+**Definición Canónica:** Despachamandamientode ejecucion y embargo?
 
-## Despachamandamientode ejecucion y embargo?
+Despachamandamientode ejecucion y embargo?
 
 
-## Ejecutiva?
+Ejecutiva?
 
 En este caso, solo podria reclamar el ejecutado por medio de
 Son procedimientos judiciales previos que puede iniciar el
@@ -4992,9 +5816,11 @@ CION MENOR? POR EJEMPLO, EN EL CASO DE LOS CHEQUES.
 
 ## Pregunta: CUALES SON LAS GESTIONES PREPARATORIAS DE LA
 
+**Definición Canónica:** El juez no puede declarar un plazo de prescripcion menor,
+
 El juez no puede declarar un plazo de prescripcion menor,
 
-## Viaejecutiva?
+Viaejecutiva?
 
 salvo que se haya convertido en nuevo titulo ejecutivo por gestion preparatoria de la via ejecutiva.
 ：Reconocimiento de firma en instrumento privado.
@@ -5025,7 +5851,7 @@ torizada por un ministro de fe o dos testigos de actuacion.
 Pregunta:PUEDE EL DEUDOR COMPARECER ANTE LA PRESENPregunta: OBLIGACION DEL JUEZ ANTES DE PROVEER LA DEMANCIAJUDICIALDESPUES DELAFECHA SENALADAPARA
 DA EJECUTIVA.
 
-## La audiencia?
+La audiencia?
 
 Debe examinar si cumple con los requisitos para entablar
 Si puede, porque el plazo'de la audiencia es un plazo judiaccion ejecutiva.
@@ -5036,6 +5862,13 @@ Por lo tanto, puede comparecer despues pero siempre que lo
 
 ## Pregunta:CUAL ES LA NATURALEZA JURIDICA DE LA RESOLUCION QUE DA POR RECONOCIDA LA FIRMA?
 
+**Definición Canónica:** judicial.
+Es sentencia interlocutoria de segunda clase.
+La prorroga de este plazo debe pedirse antes del vencimiento
+y alegando justa causa, que sera apreciada prudencialmente por
+Debe estar ejecutoriada para que pueda iniciarse la via ejeel juez.
+cutiva.
+
 judicial.
 Es sentencia interlocutoria de segunda clase.
 La prorroga de este plazo debe pedirse antes del vencimiento
@@ -5045,14 +5878,15 @@ cutiva.
 
 ## Pregunta: &QUE PASA SI EL DEUDOR COMPARECE Y RECONOCE
 
+**Definición Canónica:** La firma?
 
-## La firma?
-
-
-## Todoslosinstrumentosprivadosohabraalgu
+La firma?
 
 
-## Noquenolorequiera?
+Todoslosinstrumentosprivadosohabraalgu
+
+
+Noquenolorequiera?
 
 En este caso queda preparada la via ejecutiva, sin necesidad
 que una resolucion judicial lo de por reconocido.
@@ -5074,14 +5908,15 @@ sido autorizada por un Notario o por Oficial del Registro Civil
 Pregunta: QUE PASA SI EL DEUDOR NO COMPARECE A LA AU.
 donde no haya Notario.
 
-## Diencia o sicomparece,peroda respuestasevasivas?
-
+Diencia o sicomparece,peroda respuestasevasivas?
 
 ## Pregunta:EN QUE CONSISTIRAN LOS TITULOS EN ESTOS CASOS
 
+**Definición Canónica:** En estos dos casos,el deudor incurre en el apercibimiento
+
 En estos dos casos,el deudor incurre en el apercibimiento
 
-## En quenoes necesarioelreconocimiento?
+En quenoes necesarioelreconocimiento?
 
 del art. 435, y se tendra por reconocida la firma por resolucion
 judicial.
@@ -5089,7 +5924,7 @@ judicial.
 documento mercantil y el acta de protesto personal.
 En el caso de la letra, pagare o cheque protestados judicialPregunta: &PODRfA TODAViA HACERALGO EL DEUDOR CUYA FIRmente. La gestion judicial del protesto.
 
-## Ma se ha mandado tenerpor reconocida?
+Ma se ha mandado tenerpor reconocida?
 
 Si, puede alegar que no comparecio por caso fortuito o fuerza
 En el caso del instrumento cuya firma ha sido autorizada por
@@ -5103,8 +5938,9 @@ EditariakGlSorintas
 
 ## MARiA CERRA ORTIZ
 
+**Definición Canónica:** Juicioordinario
 
-## Juicioordinario
+Juicioordinario
 
 Pregunta: &QUE ES LA AVALUACION? gCUANDO PROCEDE?
 1) Finalidad: Obtener un medio de prueba.
@@ -5124,9 +5960,11 @@ b)En una cantidad de un genero determinado. (Art. 438 C.P.C.).
 
 ## Pregunta: JES DEFINITIVA LA AVALUACION QUE HACE EL PERITO?
 
+**Definición Canónica:** No,se entiende hecha sin perjuicio del derecho de las partes
+
 No,se entiende hecha sin perjuicio del derecho de las partes
 
-## Juicioejecutivo
+Juicioejecutivo
 
 para que se aumente o disminuya.
 1) Finalidad: Ohtener un titulo ejecutivo.
@@ -5136,7 +5974,7 @@ to por sentencia interlocutoria de segunda clase. Una vez ejecutoriada, queda pr
 4) Si niega no queda preparada la via ejecutiva.
 5) Se refiere a la existencia de una obligacion.
 
-## Rederosdeldeudor?
+Rederosdeldeudor?
 
 6) Para que se le tenga por confeso solo debe citarsele una
 El articulo 1377 del Codigo Civil, establece que el titulo ejecutivo contra el difunto valdra tambien en contra de sus heredevez.
@@ -5145,21 +5983,27 @@ o llevar adelante la ejecucion en contra de éstos, sino pasados
 
 ## Pregunta: QUIEN REALIZA LA CONFRONTACION DE LOS TITULOS
 
+**Definición Canónica:** ocho dias desde la notificacion judicial de sus titulos.
+NOMINATIVOS O AL PORTADOR(ACCIONES,BONOS,
+El articulo 5 del C.P.C., dice que si durante el juicio fallece
+
 ocho dias desde la notificacion judicial de sus titulos.
 NOMINATIVOS O AL PORTADOR(ACCIONES,BONOS,
 El articulo 5 del C.P.C., dice que si durante el juicio fallece
 
-## Etc.) que representan obligaciones vencidas?
+Etc.) que representan obligaciones vencidas?
 
 alguna de las personas que obra por si misma, quedara suspenLa confrontacionla'realiza el juez oun ministro de fe.
 dido el procedimiento y se pondra su estado en conocimiento de
 los herederos para que comparezcan a hacer uso de sus derechos en un plazo igual al del emplazamiento.
 
-## Pregunta: &CON QUE INSTRUMENTOS SE CONFRONTAN?
-
-Se confrontan con los talonarios tambien vencidos.
-
 ## Pregunta: &COMO SE RESUELVE ESTA CONTRADICCION?
+
+**Definición Canónica:** Si la confrontacion resulta conforme, queda preparada la via
+El articulo final del C.P.C., deroga todas las leyes preexistenejecutiva.
+tes que traten las mismas materias,aun en lo no contrario.
+GidiarialGhJuristt
+Baliariub Elgriatte
 
 Si la confrontacion resulta conforme, queda preparada la via
 El articulo final del C.P.C., deroga todas las leyes preexistenejecutiva.
@@ -5169,6 +6013,14 @@ Baliariub Elgriatte
 
 ## MARiA CERRA ORTIZ
 
+**Definición Canónica:** Entonces el problema se resuelve de la siguiente forma:
+tiene: El mandamiento de ejecucion y embargo, el embargo, ena)Si el deudor fallece antes de iniciarse el juicio ejecutivo. Se
+trega al depositario, realizacion de los bienes embargados, conaplica el 1377 del Codigo Civil, y los acreedores solo podran
+signacion del valor, liquidacion del credito y las costas, pago al
+INiCIAR el juicio despues de transcurridos 8 dias de la notiacreedor.
+ficacion judicial a los herederos.
+b)Si el deudor fallece durante el juicio ejecutivo. Hay que disPregunta: QUE PARTICULARIDAD TIENE EL CUADERNO DE APREting
+
 Entonces el problema se resuelve de la siguiente forma:
 tiene: El mandamiento de ejecucion y embargo, el embargo, ena)Si el deudor fallece antes de iniciarse el juicio ejecutivo. Se
 trega al depositario, realizacion de los bienes embargados, conaplica el 1377 del Codigo Civil, y los acreedores solo podran
@@ -5177,7 +6029,7 @@ INiCIAR el juicio despues de transcurridos 8 dias de la notiacreedor.
 ficacion judicial a los herederos.
 b)Si el deudor fallece durante el juicio ejecutivo. Hay que disPregunta: QUE PARTICULARIDAD TIENE EL CUADERNO DE APREtinguir:
 
-## Mio?
+Mio?
 
 1) Si el deudor litigaba personalmente. Se aplica el art. 5
 Comienza con el mandamiento de ejecucion y embargo,pero
@@ -5189,11 +6041,18 @@ y ordene llevar adelante la ejecucion.
 solo se podra CONTINUAR el juicio contra los herederos una vez
 transcurridos 8 dias desde que se les notifique judicialmente.
 
-## Pregunta:EXPLIQUE EN FORMA SOMERA ELPROCEDIMIENTO EN
-
-ELJUICIOEJECUTIVO.
-
 ## Pregunta: CUANTOS CUADERNOS PUEDEN FORMARSE EN UN
+
+**Definición Canónica:** Una vez terminadas las gestiones preparatorias de la via ejeJUICIOEJECUTIVO?
+cutiva,o sin ellas si el titulo es completo,el acreedor presen
+ta demanda ejecutiva,que debe ir a distribucion, salvo que
+Siempre se tendran que formar dos: el principal o ejecutivo y
+haya habido gestion preparatoria.
+el de apremio.Puede tambien formarse un cuaderno de tercerias
+y un cuaderno de incidentes.
+-Antes de proveer la demanda el juez debe ver si cumple con
+los requisitos necesarios para que proceda la accion ejecuLos cuadernos principal y de apremio se tramitan por sepativa.
+rado, de manera que los recursos 
 
 Una vez terminadas las gestiones preparatorias de la via ejeJUICIOEJECUTIVO?
 cutiva,o sin ellas si el titulo es completo,el acreedor presen
@@ -5210,6 +6069,19 @@ la marcha del otro.
 -Si no los reune,deniega la ejecucion.
 
 ## Pregunta: QUE CONTIENE EL CUADERNO PRINCIPAL O EJECUTI-
+
+**Definición Canónica:** -La resolucion que despacha el mandamiento o deniega la
+VO?
+ejecucion es la que se notifica al deudor y se le requiere de
+pago.Desde el requerimiento el ejecutado tiene un plazo de
+Contiene el juicio mismo: Demanda,(puede iniciarse con
+4 dias (en principio) para oponerse a la ejecucion mediante
+gestion preparatoria), excepciones, respuesta a la oposicion,
+las excepciones del 464.
+admisibilidad o inadmisibilidad de las excepciones,recepcion a
+prueba, termino probatorio, plazo para formular observaciones a
+：Una vez evacuado el tramite de la oposicion, el ejecutante
+la prueba,sentencia definitiva
 
 -La resolucion que despacha el mandamiento o deniega la
 VO?
@@ -5228,6 +6100,18 @@ no es obligatorio.
 
 ## Pregunta:&QUE CONTIENE EL CUADERNO DE APREMIO?
 
+**Definición Canónica:** Una vez transcurrido el plazo para responder, con la respuesta o sin ella, el juez declarara admisibles o inadmisibles
+Representa el aspecto compulsivo del juicio ejecutivo. Conlas excepciones opuestas por el ejecutado.
+Giliwrial Ghguriale
+Bditoric GFueria
+Si las declara admisibles.Termina el juicio.
+bl
+La orden de proceder a la traba del embargo con el auxilio de
+la fuerza publica, siermpre que en concepto del tribunal haya
+-Si las declara inadmisibles. Ordena seguir adelante con la
+fundado temor de que el mandamiento sea desobedecido, y
+ejecucion y se pone en marcha el cuaderno de apremio co
+
 Una vez transcurrido el plazo para responder, con la respuesta o sin ella, el juez declarara admisibles o inadmisibles
 Representa el aspecto compulsivo del juicio ejecutivo. Conlas excepciones opuestas por el ejecutado.
 Giliwrial Ghguriale
@@ -5244,23 +6128,20 @@ todo el aspecto compulsivo del juicio.
 Pregunta: &CUAL ES LA NATURALEZA JURiDICA DE LA RESOLUPregunta: 2QUE ES EL MANDAMIENTO DE EJECUCION Y EMBARCION QUE DESPACHA EL MANDAMIENTO DE EJECU.
 GO?
 
-## Cionyembargo?
+Cionyembargo?
 
 Es la resolucion que recae en la demanda ejecutiva y conEs una sentencia interlocutoria de segundo grado.
 siste en una orden escrita de requerir de pago al deudor, y de
 embargarle bienes suficientes si no paga en el acto del requeriPregunta: IMPORTANCIA DE LA RESOLUCION QUE ORDENA DESPACHARMANDAMIENTO.
 Sin esta resolucion no podria efectuarse el requerimiento,
 
-## Pregunta: QUE DEBE CONTENER EL MANDAMIENTO DE EJECUCIONYEMBARGO?
-
-oponer excepciones el ejecutado, ni dictarse sentencia definitiva.
-Debe contener: Art. 443 C.P.C.
-
 ## Pregunta:&QUE RECURSOS PROCEDEN EN CONTRA DEL MANDAa
+
+**Definición Canónica:** La orden de requerir de pago al deudor.
 
 La orden de requerir de pago al deudor.
 
-## Miento de ejecucion y embargo?
+Miento de ejecucion y embargo?
 
 b)
 La orden de embargar bienes suficientes si no paga en el acto
@@ -5284,7 +6165,7 @@ porque es una interlocutoria que pone termino al juicio o
 Pregunta: QUE PUEDE CONTENER EL MANDAMIENTO DE EJECU.
 hace imposible su continuacion. No procede respecto de la
 
-## Cionyembargo?
+Cionyembargo?
 
 que ordena despachar mandamiento porque no pone termino al juicio ni hace imposible su continuacion.
 a
@@ -5293,9 +6174,11 @@ embargo.
 
 ## Pregunta: 2COMO SE NOTIFICA LA DEMANDA EJECUTIVA? &QUE
 
+**Definición Canónica:** (10)Esto es esencial si el acreedor lo sefalo en la demanda, si no lo hizo, no
+
 (10)Esto es esencial si el acreedor lo sefalo en la demanda, si no lo hizo, no
 
-## Es el requerimiento de pago?
+Es el requerimiento de pago?
 
 es esencial.
 La demanda ejecutiva se notifica mediante el requerimiento
@@ -5303,15 +6186,21 @@ Gdiarial GtFerity
 BelioriaGlhiriats
 de pago. Es en realidad una notificacion personal, cn la cual
 
-## Pregunta: OPORTUNIDAD PARA OPONER EXCEPCIONES EN EL
-
-debe entregarse copia integra de la resolucion y el mandamiento
-JUICIO EJECUTIVO.
-de ejecucion y embargo.
-a)Si se notifica en lugar del asiento del tribunal. 4 dias. (Art.
-459 C.P.C.).
-
 ## Pregunta: QUE ROLES CUMPLE EL REQUERIMIENTO DE PAGO?
+
+**Definición Canónica:** bj
+Si se notifica fuera de la comuna asiento del tribunal, pero
+FORMAS DE REQUERIR DE PAGO.
+dentro de su territorio jurisdiccional.4 dias mas. (Art.459
+Cumple dos roles:notificaciony requerimiento.
+Debe notificarse en forma personal, porque es la primera
+Si se notifica fuera de su territorio jurisdiccional,hay que
+distinguir. (Art. 460 C.P.C.):
+gestion, salvo que se haya realizado una gestion preparatoria
+de la via ejecutiva, puesto que en este caso se notifica por ce1) Ante el tribunal exhortado. 4 u 8 dias segun si se notifico
+dula.
+dentro o fuera del lugar donde funciona el tribunal.
+Tiene 
 
 bj
 Si se notifica fuera de la comuna asiento del tribunal, pero
@@ -5336,6 +6225,18 @@ lado mas aumento de la tabla de emplazamiento.(Art. 461
 Pregunta: QUE ES EL EMBARGO?
 
 ## Pregunta: COMO SE FORMULA LA OPOSICION A LA EJECUCION?
+
+**Definición Canónica:** Es una actuacion judicial que consiste en la aprehension
+a)El ejecutado debe oponer TODAS las excepciones en un misreal o simbolica de uno o mas bienes del deudor, por previa ormo escrito.
+den de autoridad competente, ejecutada por un ministro de fe,
+fq
+Debe.expresar con claridad y precision los hechos en que
+con el objeto de pagar con esos bienes al acreedor, o de realizarfunda sus excepciones.
+los y, enseguida, de pagar con su producido a este ultimo.
+C
+Debe expresar con claridad los medios de prueba de que
+piensa valerse. (Art. 465 C.P.C.).
+Pregunta: CARACTERiSTICAS DE LAS EXCEPCIONES EN EL
 
 Es una actuacion judicial que consiste en la aprehension
 a)El ejecutado debe oponer TODAS las excepciones en un misreal o simbolica de uno o mas bienes del deudor, por previa ormo escrito.
@@ -5377,6 +6278,17 @@ torias, no asi las anomalas.
 
 ## Pregunta: &CUALES SON LAS EXCEPCIONES QUE PUEDEN OPONERSEEN EL JUICIOEJECUTIVO?
 
+**Definición Canónica:** Pregunta: RESPUESTA A LAS EXCEPCIONES
+1)  Incompetencia del tribunal ante quien se haya presentado la
+demanda.
+Una vez presentado el escrito de excepciones, el tribunal
+debe dar traslado al ejecutante.
+2)Falta de capacidad del ejecutante o de personeria o de representacion legal del que comparece a su nombre (el ejecutado
+Este tiene plazo fatal de 4 dias para exponer lo que estime
+puede alegar la excepcion del No 7, si es incapaz).
+3)Litis pendencia ante tribunal competente (se diferencia del
+El ejecutante no esta obligado a contestar. Puede o no prejuicio ordinario porque en éste el otro juic
+
 Pregunta: RESPUESTA A LAS EXCEPCIONES
 1)  Incompetencia del tribunal ante quien se haya presentado la
 demanda.
@@ -5393,6 +6305,19 @@ sido promovido por el ejecutante).
 formular la demanda.
 
 ## Pregunta: QUE HACE EL TRIBUNAL UNA VEZ EVACUADO EL TRAMITEDERESPUESTAALAOPOSICION?
+
+**Definición Canónica:** 5)Beneficio de excusion o caducidad de la fianza.
+El tribunal debe declarar si las excepciones son admisibles o
+6)Falsedad del titulo.
+inadmisibles,lo que no significa que sean aceptadas en cuanto
+al fondo. (Art. 466 C.P.C.).
+7) Falta de alguno de los requisitos establecidos por las leyes
+para que el titulo tenga fuerza ejecutiva, sea absolutamente,
+sea con relacion al demandado(falta de cualquiera de los
+requisitos para que proceda la accion ejecutiva y otros).
+Pregunta: &CUANDO LAS DECLARA ADMISIBLES?
+8)Exceso de avaluo en los casos de los incisos 2° y 3° del art.
+a) Las declara admisible cu
 
 5)Beneficio de excusion o caducidad de la fianza.
 El tribunal debe declarar si las excepciones son admisibles o
@@ -5413,14 +6338,13 @@ prueba.
 GlimritBorinty
 Balitorieb Shorit
 
-## Pregunta: &CUANDO LAS DECLARA INADMISIBLES?
-
-
 ## Pregunta: gDESDE CUANDO COMIENZA A CORRER EL TERMINO
+
+**Definición Canónica:** a) Las declara inadmisibles cuando no son las senialadas en
 
 a) Las declara inadmisibles cuando no son las senialadas en
 
-## Probatorioeneljuicioejecutivo?
+Probatorioeneljuicioejecutivo?
 
 el art. 464;
 Desde la notificacion por cedula de la resolucion que recibe
@@ -5431,8 +6355,9 @@ prueba, dicta sentencia definitiva. (Art. 466 C.P.C.).
 
 ## Pregunta: DE CUANTOS DfAS CONSTA EL PROBATORIO EN EL
 
+**Definición Canónica:** Juicioejecutivo?
 
-## Juicioejecutivo?
+Juicioejecutivo?
 
 Pregunta: NATURALEZA JURIDICA DE LA RESOLUCION QUE DE.
 CLARA ADMISIBLES LAS EXCEPCIONES.
@@ -5446,35 +6371,33 @@ debe solicitarlo antes de vencido el termino legal. Esta prorroga
 comienza a correr sin interrupcion despues del probatorio, hasta
 por diez dias mas.
 
-## Pregunta: PROCEDE EL TRAMITE DE LLAMADO A CONCILIACION
-
-
-## Eneljuicioejecutivo?
-
-En el juicio ejecutivo no procede el lamado a conciliacion.
-
 ## Pregunta:PROCEDEN AUMENTOS EXTRAORDINARIOS PARA
+
+**Definición Canónica:** Es una de las excepciones expresamente establecidas en el art.
+RENDIR PRUEBA FUERA DEL TERRITORIO DEL TRIBU262 del C.P.C.
 
 Es una de las excepciones expresamente establecidas en el art.
 RENDIR PRUEBA FUERA DEL TERRITORIO DEL TRIBU262 del C.P.C.
 
-## Nal o fuera de la republica?
+Nal o fuera de la republica?
 
 Solo proceden terminos extraordinarios por acuerdo de las
 
 ## Pregunta: COMO SE NOTIFICA LA RESOLUCION QUE DECLARA
 
+**Definición Canónica:** partes, todos los que ellas designen.(Art. 468 C.P.C.).
+
 partes, todos los que ellas designen.(Art. 468 C.P.C.).
 
-## Admisibles lasexcepcionesy recibe la causaa
+Admisibles lasexcepcionesy recibe la causaa
 
 
-## Prueba?
+Prueba?
 
 Pregunta: &COMO SE RINDE LA PRUEBA EN EL JUICIO EJECU.
 La resolucion que declara admisibles las excepciones en el
 
-## Tivo?
+Tivo?
 
 juicio ejecutivo, y que recibe la causa a prueba se notifica por
 cedula.
@@ -5482,8 +6405,9 @@ Se rinde igual que en el ordinario.
 
 ## Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE ESTA REPregunta: &QUIEN SENALA LOS PUNTOS DE PRUEBA?
 
+**Definición Canónica:** Solucion?
 
-## Solucion?
+Solucion?
 
 Los seniala el juez en la resolucion que recibe la causa a
 Procede reposicion, con apelacion en subsidio, dentro de terprueba. Las partes no pueden presentar minuta de puntos de
@@ -5494,6 +6418,12 @@ BalitoriaGtSeristt
 
 ## Pregunta: &CUANDO SE PRESENTA LA LISTA DE TESTIGOS?
 
+**Definición Canónica:** ciarse sobre todas y cada una de las excepciones opuestas por
+La lista de testigos debe presentarse dentro de los 5 primeros
+el ejecutado, aun cuando haya opuesto varias contenidas en un
+mismo numero.
+dias del probatorio.
+
 ciarse sobre todas y cada una de las excepciones opuestas por
 La lista de testigos debe presentarse dentro de los 5 primeros
 el ejecutado, aun cuando haya opuesto varias contenidas en un
@@ -5502,15 +6432,16 @@ dias del probatorio.
 
 ## Pregunta: 2QUE RECURSO PROCEDE RESPECTO DE LA SENTENPARTESHAGAN OBSERVACIONESALAPRUEBA?
 
+**Definición Canónica:** Ciaejecutiva que no contenga los requisitos
 
-## Ciaejecutiva que no contenga los requisitos
+Ciaejecutiva que no contenga los requisitos
 
 
-## Delart.17o o que nohaya fallado todaslas
+Delart.17o o que nohaya fallado todaslas
 
 Si, una vez vencido el termino probatorio, los autos quedan
 
-## Excepcionesopuestas?
+Excepcionesopuestas?
 
 en la Secretaria para que las partes hagan observaciones a la
 prueba. (Art. 469 C.P.C.).
@@ -5519,11 +6450,11 @@ del asunto controvertido.
 Pregunta: DE CUANTOS DfAS ES ESTE PLAZO?
 Pregunta: DE CUANTAS CLASES PUEDE SER LA SENTENCIA EJEEl plazo es de 6 dias.
 
-## Cutiva?
+Cutiva?
 
 Puede ser de dos clases: absolutoria y condenatoria,
 
-## Lasparteshagan observaciones alapruebap
+Lasparteshagan observaciones alapruebap
 
 Se hayan presentado o no escritos de observaciones a la
 Pregunta: CUANDO ES ABSOLUTORIA?
@@ -5534,31 +6465,21 @@ demanda y ordena alzar el embargo.
 
 ## Pregunta: QUE REQUISITOS DEBE CUMPLIR LA SENTENCIA EJEPregunta: CUANDO ES CONDENATORIA?
 
+**Definición Canónica:** Cutiva odefinitiva?
 
-## Cutiva odefinitiva?
+Cutiva odefinitiva?
 
 Cuando desecha todas las excepciones opuestas,acoge la
 La sentencia definitiva del juicio ejecutivo debe cumplir todemanda y ordena seguir adelante con la ejecucion.
 dos los requisitos del art. 170 C.P.C.
 
-## Pregunta: CUAL ES EL PLAZO PARA DICTAR SENTENCIA EN EL
-
-
-## Pregunta: DE CUANTAS CLASES PUEDE SER LA SENTENCIA CONJUICIOEJECUTIVO?
-
-
-## Denatoria?
-
-Debe dictarse dentro del plazo de 10 dias desde que el pleito
-La sentencia ejecutiva condenatoria puede ser de pago o de
-quede concluso. (Art. 470 C.P.C.).
-remate.
-
 ## Pregunta: &QUE DEBE CONTENER LA SENTENCIA DEFINITIVA DEL
+
+**Definición Canónica:** Pregunta: CUANDO ES DE PAGO?
 
 Pregunta: CUANDO ES DE PAGO?
 
-## Juicioejecutivo?
+Juicioejecutivo?
 
 La sentencia condenatoria es de pago cuando el embargo ha
 Debe contener los requisitos del art. 170,y debe pronunrecaido sobre la especie o cuerpo cierto debido o sobre dinero.
@@ -5576,12 +6497,25 @@ bienes. Es necesario rematarlos para pagar al acreedor con el
 Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE LA SEN.
 producto del remate. Debe hacerse liquidacion.
 
-## Tenciaejecutiva?
+Tenciaejecutiva?
 
 a)Aclaracion o interpretacion y rectificacion o enmienda. Que
 no confige con otros recursos.
 
 ## Pregunta: CUANDO PUEDE CUMPLIRSE EN AMBOS CASOS?
+
+**Definición Canónica:** b)Apelacion:
+1)Si es de pago es necesario que este ejecutoriada para que
+1) Si lo interpone el ejecutante porque fue absolutoria, se
+pueda cumplirse.
+concede en ambos efectos. El cumplimiento se suspende y el
+2)Si es de remate puede cumplirse desde que se ha notificado,
+embargo no se alza mientras no se resuelve el recurso.
+o sea, desde que cause ejecutoria. No es necesario que este
+2) Si lo interpone el ejecutado porque fue condenatoria. Hay
+ejecutoriada.
+que distinguir:
+(a) Si la sentencia de pago. En ambos efectos. No puede pagarse al acreedor mientras no se falle la apelacion, salvo que
 
 b)Apelacion:
 1)Si es de pago es necesario que este ejecutoriada para que
@@ -5598,9 +6532,11 @@ que distinguir:
 
 ## Pregunta: EN QUE CASO SE OMITE DICTAR SENTENCIA EN EL
 
+**Definición Canónica:** el ejecutado caucionelas resultas delrecurso.
+
 el ejecutado caucionelas resultas delrecurso.
 
-## Juicioejecutivo?
+Juicioejecutivo?
 
 (b) Si la sentencia es de remate.En el solo efecto devolutiSi el ejecutado no opone excepciones dentro del plazo favo. La apelacion no suspende la ejecucion. Puede cumplirse
 tal que tiene, se omite la sentencia y basta el mandamiento de
@@ -5614,6 +6550,15 @@ Casacion.Hay que distinguir:
 
 ## Pregunta: QUE CARACTER TIENE ENTONCES ELMANDAMIENTO?
 
+**Definición Canónica:** demanda y ordeno alzar el embargo puede ser cumplida a
+peticion del ejecutado, salvo que el cumplimiento haga impoTiene caracter de sentencia definitiva y de termino,porque
+sible llevar a efecto la que se dicte si se acoge el recurso.
+por el hecho de no haber opuesto excepciones se extinguen todos
+los derechos del deudor.
+2) Si lo interpone el ejecutado. La sentencia que acoge la demanda y ordena continuar la ejecucion puede cumplirse sin
+que el ejecutado pueda exigir al ejecutante que pague fianza
+de resultas.
+
 demanda y ordeno alzar el embargo puede ser cumplida a
 peticion del ejecutado, salvo que el cumplimiento haga impoTiene caracter de sentencia definitiva y de termino,porque
 sible llevar a efecto la que se dicte si se acoge el recurso.
@@ -5623,7 +6568,7 @@ los derechos del deudor.
 que el ejecutado pueda exigir al ejecutante que pague fianza
 de resultas.
 
-## Cutivo?
+Cutivo?
 
 1)Si la sentencia es condenatoria y acoge la demanda.Al ejePregunta: HABLE DE LA COSA JUZGADA EN EL JUICIO EJECUTIVO.
 cutado.
@@ -5636,7 +6581,7 @@ Art. 478 C.P.C.
 b)Excepciones:
 1) Produce cosa juzgada respecto a otro juicio ejecutivo. SalPregunta: gEN QUE OPORTUNIDAD PUEDE EL EJECUTANTE HAvo que haya habido renovacion de la accion ejecutiva.Podria
 
-## Cer reserva de sus acciones?
+Cer reserva de sus acciones?
 
 iniciarse otro juicio ejecutivo.
 El ejecutante tiene dos oportunidades para hacerlo:
@@ -5647,17 +6592,15 @@ tante o de excepciones por el ejecutado.
 Antes que se dicte sentencia de unica o primera instancia en
 el juicio ejecutivo. (Art. 478 C.P.C.).
 
-## Pregunta: cQUE ES LA RENOVACION DE LA ACCION EJECUTIVA?
-
-La renovacion'de la accion ejecutiva se produce cuando la
-accion ha sido rechazada por incompetencia del tribunal, inca
-
 ## Pregunta: &QUE REQUISITOS DEBE CUMPLIR EL EJECUTANTE
+
+**Definición Canónica:** pacidad, ineptitud del libelo o por falta de oportunidad en la eje.
+PARA HACER RESERVA DE SUS ACCIONES EN EL EScucion.
 
 pacidad, ineptitud del libelo o por falta de oportunidad en la eje.
 PARA HACER RESERVA DE SUS ACCIONES EN EL EScucion.
 
-## Crito de respuestaalas excepcionesp
+Crito de respuestaalas excepcionesp
 
 En estos casos, la accion puede renovarse en otro juicio eje.
 Al hacer la reserva debe desistirse de la accion ejecutiva.
@@ -5666,7 +6609,7 @@ cutivo, una vez subsanado el vicio en que se fundaba la excep-
 cion. (Art. 477 C.P.C.).
 Pregunta: QUE EFECTOS TIENEN ESTA RESERVA Y DESISTIPregunta: &A QUE PUEDE REFERIRSE LA FALTA DE OPORTUNIMIENTO?
 
-## Dad en la ejecucion?
+Dad en la ejecucion?
 
 1)Elejecutantepierde derechopara deducir la accion ejecuEsta excepcion no se refiere solo al tiempo.
 tiva.
@@ -5687,9 +6630,11 @@ Galiteriubhguristte
 
 ## Pregunta: QUE DEBE RESOLVER EL JUEZ ANTE LA RESERVA DE
 
+**Definición Canónica:** 2)El ejecutante no puede alegar cosa juzgada.
+
 2)El ejecutante no puede alegar cosa juzgada.
 
-## Acciones del ejecutante en el escrito de respuesta?
+Acciones del ejecutante en el escrito de respuesta?
 
 El ejecutante tiene derecho a' que no se pague al acreedor
 sin que éste caucione previamente las resultas del juicio
@@ -5698,8 +6643,9 @@ ordinario.
 
 ## Pregunta: &EN QUE OPORTUNIDAD PUEDE EL EJECUTADO RESERVARSUS EXCEPCIONES?
 
+**Definición Canónica:** Ordinaria?
 
-## Ordinaria?
+Ordinaria?
 
 1)En el escrito de oposicion a la ejecucion. (Art. 473 C.P.C.). :
 Si,a diferencia del acreedor,el deudor tieneplazopara enta
@@ -5712,15 +6658,16 @@ sentencia definitiva o desde que se notifique el“cumplase".(Art.
 
 ## Pregunta: QUE REQUISITOS DEBE CUMPLIR EL EJECUTADO
 
+**Definición Canónica:** Para hacer reserva de sus excepciones en el
 
-## Para hacer reserva de sus excepciones en el
+Para hacer reserva de sus excepciones en el
 
 
-## Escrito de oposicion a laejecucion?
+Escrito de oposicion a laejecucion?
 
 Pregunta:HAY ALGUNA SANCION PARA EL DEUDOR QUE NO EN1)Debe oponer excepciones.
 
-## Tabla demanda ordinaria dentro de ese plazo?
+Tabla demanda ordinaria dentro de ese plazo?
 
 2）
 Debe solicitar que se reserven sus excepciones para juicio
@@ -5734,12 +6681,13 @@ caucione lasresultas del juicio ordinario.
 
 ## Pregunta:QUE REQUISITOS DEBEN CUMPLIRSE PARA ACCEDER
 
+**Definición Canónica:** Alareservade derechos enla segundaoportunidad que es comun para acreedory deudor?
 
-## Alareservade derechos enla segundaoportunidad que es comun para acreedory deudor?
+Alareservade derechos enla segundaoportunidad que es comun para acreedory deudor?
 
 Pregunta: QUE DEBE HACER EL TRIBUNAL UNA VEZ PRESENTAPara acceder a la reserva de derechos hecha por el acreedor
 
-## Da la oposicion y solicitada la reserva?
+Da la oposicion y solicitada la reserva?
 
 o el deudor antes que se dicte sentencia de unica o primera insDebe dictar sentencia de pago o de remate sin mas tramite,
 tancia en el juicio ejecutivo,el juez debe distinguir:
@@ -5749,6 +6697,21 @@ existencia de la obligacion (su nulidad o validez), solo puede
 acceder si se invocan motivos calificados, que deben hacerse
 
 ## Pregunta:EFECTOS DE LA RESERVA HECHA PORELEJECUTADO
+
+**Definición Canónica:** valer expresamente. Por ejemplo, imposibilidad de rendir la
+EN EL ESCRITO DE OPOSICION,
+prueba.
+1)El ejecutado tiene derecho de interponer demanda ordinaria, ejercitando como accion los mismos derechos que opuso
+existencia de la obligacion, el tribunal accedera siempre a la
+como excepcion en el juicio ejecutivo.
+reserva,aunque no existan motivos calificados.
+BdioritGhSurinte
+BuditariaGlSristw
+Pregunta:EFECTOS DE ESTA RESERVA,
+Siacoge las excepciones,no se pronuncia sobre la reserva de
+Esta reserva impide que la sentencia produzca cosa juzgada
+las excepciones.
+respecto de las acciones o excepci
 
 valer expresamente. Por ejemplo, imposibilidad de rendir la
 EN EL ESCRITO DE OPOSICION,
@@ -5778,7 +6741,7 @@ Pregunta:JHAY ALGUNA SANCION PARA EL ACREEDOR O DEU.
 a)
 Regla general: Todos los bienes del deudor, cualquiera sea su
 
-## Dor que noentable demanda ordinaria dentro
+Dor que noentable demanda ordinaria dentro
 
 naturaleza.
 b)
@@ -5788,6 +6751,13 @@ C.C., 445 C.P.C.).
 
 ## Pregunta: 2QUE EXCEPCIONES PUEDE RESERVAR EL EJECUTAPregunta:QUE ESLAINEMBARGABILIDAD?
 
+**Definición Canónica:** DO?
+Es un privilegio que tiene por objeto evitar que los deudores
+Solo puede reservar las excepciones que opuso en tiempo
+se vean privados de sus mas indispensables medios de subsisy forma en el juicio ejecutivo; respecto de las otras precluye su
+tencia.
+derecho.
+
 DO?
 Es un privilegio que tiene por objeto evitar que los deudores
 Solo puede reservar las excepciones que opuso en tiempo
@@ -5795,10 +6765,15 @@ se vean privados de sus mas indispensables medios de subsisy forma en el juicio 
 tencia.
 derecho.
 
-## Pregunta:PUEDE RENUNCIARSELAINEMBARGABILIDAD?
-
-
 ## Pregunta: &CUANDO SE RESUELVE LA SOLICITUD DE RESERVA?
+
+**Definición Canónica:** 1)Regla general: Es renunciable.
+Se resuelve en la sentencia definitiva.Si el juez,hecha la
+Excepcion: No puede renunciarse si no mira el solo interes
+reserva, no se refiere a ella en la sentencia incurre en el vicio de
+del deudor o si esta prohibida su renuncia (por ejemplo: en
+falta de decision del asunto controvertido,que es causal de cacaso de sueldos). (Art. 12 C.C.).
+sacion en la forma.
 
 1)Regla general: Es renunciable.
 Se resuelve en la sentencia definitiva.Si el juez,hecha la
@@ -5810,9 +6785,11 @@ sacion en la forma.
 
 ## Pregunta: QUE PERSONAS PUEDEN SENALAR BIENES PARA EL
 
+**Definición Canónica:** Pregunta: EXCEPCIONES A LA REGLA ANTERIOR.
+
 Pregunta: EXCEPCIONES A LA REGLA ANTERIOR.
 
-## Embargo?
+Embargo?
 
 1)Si acoge la demanda, no se pronuncia sobre la reserva de
 a
@@ -5838,6 +6815,19 @@ Si ninguno designa, lo hara el ministro de fe. Pero no es libre
 
 ## Pregunta: IMPORTANCIA DE LA ENTREGA REAL O SIMBOLICA, AL
 
+**Definición Canónica:** C
+para hacerlo, ya que debe respetar un orden: dinero, otros
+DEPOSITARIO,DELOS BIENES EMBARGADOS.
+bienes muebles, bienes raices, y salarios y pensiones en los
+Si no se hace la entrega real o simbolica, el embargo no se ha
+casos en que la ley lo permite. (Art. 449 C.P.C.).
+perfeccionado,y legalmente no tiene existencia.
+Consecuencia de esto: no habria objeto ilicito en la enajePregunta:COMO SE EFECTOA ELEMBARGO?
+nacion de esos bienes ni se produciria ninguno de los efectos
+propios del embargo.
+El embargo se entiende hecho por la entrega real o simbolica
+de los bienes al depositario que se desig
+
 C
 para hacerlo, ya que debe respetar un orden: dinero, otros
 DEPOSITARIO,DELOS BIENES EMBARGADOS.
@@ -5853,14 +6843,16 @@ de los bienes al depositario que se designe, aunque este deje la
 
 ## Pregunta: &QUE COSAS NO SE ENTREGAN AL DEPOSITARIO NI
 
+**Definición Canónica:** especie en poder del mismo deudor. (Art. 450 C.P.C.).
+
 especie en poder del mismo deudor. (Art. 450 C.P.C.).
 
-## Sonadministradasporeste?
+Sonadministradasporeste?
 
 a)Alhajas, dinero, especies preciosas o efectos publicos. Se dePregunta: QUE OBLIGACIONES TIENE EL MINISTRO DE FE QUE
 positan en un banco a la orden del juez. (Art. 451 inc. final
 
-## Practicaelembargo?
+Practicaelembargo?
 
 1)Debe levantar acta de la diligencia.
 b)
@@ -5897,6 +6889,16 @@ rechos que tenga el tenedor auin despues de su enajenacion.
 
 ## Pregunta: gEN QUE CASOS HABRA SIEMPRE JUSTO MOTIVO?
 
+**Definición Canónica:** Pregunta: EFECTOS DEL EMBARGO.
+1)Si el embargo ha recaido sobre bienes dificiles de realizar.
+1)El deudor pierde la administracion y la facultad de, disposi2)Si se ha interpuesto una terceria en el juicio.
+cion de los bienes embargados.
+2）
+El acreedor no tiene ninguna preferencia para pagarse sobre
+Pregunta: QUE ES LA EXCLUSION DEL EMBARGO?
+los bienes embargados por el solo hecho del ermbargo.
+La exclusion del embargo es el incidente que puede promoverse cuando se han embargado bienes inembargables.
+
 Pregunta: EFECTOS DEL EMBARGO.
 1)Si el embargo ha recaido sobre bienes dificiles de realizar.
 1)El deudor pierde la administracion y la facultad de, disposi2)Si se ha interpuesto una terceria en el juicio.
@@ -5909,8 +6911,9 @@ La exclusion del embargo es el incidente que puede promoverse cuando se han emba
 
 ## Pregunta: &PUEDE UNA MISMA COSA SER EMBARGADA MAS DE
 
+**Definición Canónica:** Una vez?se acepta el reembargo?
 
-## Una vez?se acepta el reembargo?
+Una vez?se acepta el reembargo?
 
 Pregunta:QUEESLAREDUCCION DELEMBARGO?
 )Doctrina que lo acepta.Dice que nada puede impedir a otro
@@ -5928,7 +6931,7 @@ juicio ejecutivo, al nuevo acreedor solo le quedan dos vias:
 1) interponer en el juicio del primer acreedor una terceria de
 Pregunta: &QUE ES LA CESACION DEL EMBARGO? gCUANDO PUEpago o de prelacion o bien,
 
-## De cesar elembargo?
+De cesar elembargo?
 
 2) interponer una accion ejecutiva ante otro tribunal, limiEl deudor puede,en cualquier momento antes que se retandose a pedirle que dirija oficio al tribunal que conoce de
 maten los bienes, hacer cesar el embargo y liberar sus bienes,
@@ -5941,6 +6944,19 @@ Con esto termina el juicio ejecutivo.
 GodiwnintdGhyuriale
 
 ## Pregunta: QUE ES LA SUSTITUCION DEL EMBARGO?
+
+**Definición Canónica:** La regla general es que se cumple una vez ejecutoriada. Se
+hace liquidacion del credito y las costas, entonces hay que disSolo puede sustituirse el bien embargado por una cantidad
+liquida de dinero, siempre que el embargo no recaiga sobre la
+tinguir:
+especie o cuerpo cierto a que se refiere la ejecucion.Art.457
+El acreedor puede solicitar que se le pague con el dinero
+embargado. El juez ordena que se libre (gire) un cheque a su
+No es licito cambiar el embargo de un bien del deudor por
+orden.
+otrobien del deudor sinconsentimiento del acreedor.
+b)
+）Si el embargo recayo sobre la especie o cuerpo 
 
 La regla general es que se cumple una vez ejecutoriada. Se
 hace liquidacion del credito y las costas, entonces hay que disSolo puede sustituirse el bien embargado por una cantidad
@@ -5957,13 +6973,21 @@ b)
 el juez ordenara la entrega de éste al ejecutante, una vez que
 este firme la sentencia.
 
-## Pregunta:QUEFACULTADES TIENE ELDEPOSITARIO SOBRE LOS
-
-
-## Bienesembargados?
-
-
 ## Pregunta: EN QUE CASOS, POR EXCEPCION, PUEDE CUMPLIRSE
+
+**Definición Canónica:** 1)Puede realizar todos los actos de administracion.(11)
+LA SENTENCIA DE PAGO ANTES DE ESTAR EJECUTO.
+Debe consignar los fondos liquidos que perciba en la admiRIADA?
+nistracion.
+1)Si existe un recurso de apelacion pendiente, siempre que el
+3)
+No puede realizar actos de disposicion de los bienes, salvo
+ejecutante caucione las resultas.
+excepciones.
+Si hay un recurso de casacion interpuesto contra ella, por4)Al expirar el cargo debe rendir cuenta de su administraque la casacion no suspende el cumplimiento, salvo que de
+cion.
+cumplirse no pueda llevarse a efecto lo resuelto si el recurso
+es acogid
 
 1)Puede realizar todos los actos de administracion.(11)
 LA SENTENCIA DE PAGO ANTES DE ESTAR EJECUTO.
@@ -5981,12 +7005,14 @@ es acogido.
 
 ## Pregunta: &QUE ACTOS DE DISPOSICION PUEDE REALIZAR POR
 
+**Definición Canónica:** Pregunta: 2COMO SE CUMPLE LA SENTENCIA EJECUTIVA DE RE.
+
 Pregunta: 2COMO SE CUMPLE LA SENTENCIA EJECUTIVA DE RE.
 
-## Excepcion?
+Excepcion?
 
 
-## Mate?
+Mate?
 
 Puede vender los muebles sujetos a corrupcion, o susceptiLa sentencia ejecutiva es de remate cuando se han embargables de proximo deterioro o cuya conservacion sea dispendiosa,
 do bienes que deben realizarse.
@@ -5995,16 +7021,11 @@ pero siempre previa autorizacion judicialy sin previa tasacion
 Esta puede cumplirse, o sea, los bienes pueden realizarse,
 desde que senotifica sinnecesidad deque esteejecutoriada.
 
-## Pregunta: COMO SE CUMPLE LA SENTENCIA EJECUTIVA DE
-
-
-## Pago?
-
-
 ## Pregunta: REQUIEREN TASACION PREVIA ESTOS BIENES PARA
 
+**Definición Canónica:** Poderserrealizados?
 
-## Poderserrealizados?
+Poderserrealizados?
 
 La sentencia ejecutiva es de pago cuando el embargo ha recaido sobre dinero o sobre la especie o cuerpo cierto debido.
 Muebles, en general, no requieren tasacion previa. Pueden
@@ -6028,10 +7049,15 @@ caso.
 2）Los efectos de comercio que no puedan venderse en el acto.
 Calificacion de las garantias o cauciones.
 
-## Pregunta: CUAL ES LA TASACION DE LOS BIENES INMUEBLES?
-
-
 ## Pregunta: CUANDO PUEDE LLEVARSE A CABO EL REMATE?
+
+**Definición Canónica:** Sera la que figure en el rol de avaluos vigentes.
+Una vez aprobada la tasacion, el tribunal senala, a peticion
+El acreedor presenta certificado del SIl y solicita se tenga ese
+de parte, dia y hora para la subasta, siempre que este ejecutoriaavaluo como tasacion del inmueble. El tribunal provee“Como se
+da la sentencia. El remate debe levarse a cabo en ese dia y hora;
+pide, con citacion". Se notifica por el Estado Diario.
+si no, puede pedirse nulidad del remate. (Art. 488 C.P.C.).
 
 Sera la que figure en el rol de avaluos vigentes.
 Una vez aprobada la tasacion, el tribunal senala, a peticion
@@ -6042,6 +7068,17 @@ pide, con citacion". Se notifica por el Estado Diario.
 si no, puede pedirse nulidad del remate. (Art. 488 C.P.C.).
 
 ## Pregunta:&TIENE ALGON DERECHO EL EJECUTADO EN RELACION
+
+**Definición Canónica:** Pregunta: &QUE SON LAS BASES DEL REMATE?
+Son en general, todas las circunstancias que tiendan a la
+Puede pedir que se haga una nueva tasacion. En este caso
+mejor realizacion del remate. Se refieren principalmente a la forse hace por un perito nombrado por las partes o por el tribunal
+ma en que se pagara el precio, el minimo de las posturas y las
+cauciones que deben rendir los postores para participar en él.
+conforme al articulo 414.
+Una vez practicada la tasacion y fijada la fecha y hora para
+El tribunal pone la tasacion del perito en conocimiento de las
+el remate, corresponde fijar las bases 
 
 Pregunta: &QUE SON LAS BASES DEL REMATE?
 Son en general, todas las circunstancias que tiendan a la
@@ -6068,6 +7105,21 @@ REALIZARSE ANTES DE EFECTUARSE ELREMATE.
 
 ## Pregunta: ES LIBRE EL JUEZ PARA FIJAR LAS BASES DEL REMATE?
 
+**Definición Canónica:** 1)Tasacion de los bienes.
+Si es el juez quien las fija, esta limitado de la siguiente for2).Bases del remate.
+ma:
+GeliaowrielBsYurisla
+Baliariusl GlSuristuw.
+1）
+Debe disponer que el precio se pague de contado, salvo que
+2)Excepcion: Si la subasta es solicitada por un acreedor de
+haya motivos calificados.
+grado posterior, los de grado preferente pueden optar entre
+2)Debe fijar la caucion de cada postor en una cantidad igual
+la subsistencia de sus hipotecas o el pago de sus creditos,
+al 10% de la tasacion, que sera calificada de suficiente por el
+siempre que éstos no estén devengados. (Art. 492 
+
 1)Tasacion de los bienes.
 Si es el juez quien las fija, esta limitado de la siguiente for2).Bases del remate.
 ma:
@@ -6086,9 +7138,11 @@ tribunal sin ulterior recurso.
 
 ## Pregunta: EFECTOS DE LA NO CITACION DE LOS ACREEDORES
 
+**Definición Canónica:** Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE LA RESOHIPOTECARIOS.
+
 Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE LA RESOHIPOTECARIOS.
 
-## Lucion que fija las bases del remate?
+Lucion que fija las bases del remate?
 
 1)Quedan a salvo los derechos de los acreedores hipotecarios
 Apelacion por ambas partes.
@@ -6100,11 +7154,12 @@ subastador de la finca,en ejercicio del derecho de persecucion que le confierela
 
 ## Pregunta: QUE SUCEDE SI SOBRE EL BIEN EMBARGADO EXISTEN HIPOTECAS A FAVOR DE OTRAS PERSONAS QUE
 
+**Definición Canónica:** No sean elejecutante?
 
-## No sean elejecutante?
+No sean elejecutante?
 
 
-## Primeracreedorhipotecario?
+Primeracreedorhipotecario?
 
 El ejecutante debe cumplir con el tramite de citacion de los
 Puede solicitar que se adjudique la finca hipotecada en pago
@@ -6114,16 +7169,14 @@ juicio en resguardo de sus derechos,sus hipotecas se extingan
 En este caso tambien se aplican los arts.2428 C.C., y 492
 y la persona que se adjudique el bien lo obtenga saneado de gravamenes.
 
-## Pregunta: CUALES SON LOS REQUISITOS DE LA CITACION A LOS
-
-
 ## Pregunta:QUE PASA SI LA FINCA ESTA GRAVADA CON OTRAS
 
+**Definición Canónica:** Acreedoreshipotecarios?
 
-## Acreedoreshipotecarios?
+Acreedoreshipotecarios?
 
 
-## Hipotecasposteriores?
+Hipotecasposteriores?
 
 1)El bien raiz debe venderse en subasta publica ordenada por
 Para que se extingan estas hipotecas posteriores la adjudiel juez.
@@ -6137,12 +7190,12 @@ citacion, porque esta adjudicacion equivale a una subasta en
 que la obligacion de pagar el precio se compensa con el credito
 Pregunta: CUAL ES EL EFECTO DE LA CITACION DE LOS ACREEdel acreedor ejecutante.
 
-## Dores hipotecarios?
+Dores hipotecarios?
 
 1)Regla general: Se produce la extincion de sus hipotecas. Art.
 Pregunta: CUANTOS AVISOS DEBEN PUBLICARSE ANTES DEL RE2428 del Codigo Civil.
 
-## Mateyen que diario?
+Mateyen que diario?
 
 GditwriadBbSurisite
 Galtoriab GkSuriatae
@@ -6153,6 +7206,17 @@ sefialado para la subasta.
 Pregunta:&CUANDO DEBEN PUBLICARSEP
 
 ## Pregunta: HASTA CUANDO SUBSISTE LA CAUCION?
+
+**Definición Canónica:** El primer aviso debe publicarse con, a lo menos, 15 dias de
+anticipacion a la fecha de la subasta, sin descontar los dias inLa caucion subsiste hasta que se otorgue escritura definitiva
+habiles.
+de compraventa o hasta que se deposite a la orden del tribunal el
+precio o parte de él que deba pagarse de contado. (Art. 494 inc.
+Pueden publicarse en dias inhabiles.
+1 C.P.C.).
+Pregunta: QUE PASA SI SE OMITEN LOS AVISOS?
+Pregunta: SANCION SI NO SE CONSIGNA LA CAUCION EN LA OPORSi se omiten los avisos, puede pedirse nulidad del remate.
+TUNIDAD SENALADA EN LAS BASES O SI EL SUBASTADOR NO SUSCRIBE LAESC
 
 El primer aviso debe publicarse con, a lo menos, 15 dias de
 anticipacion a la fecha de la subasta, sin descontar los dias inLa caucion subsiste hasta que se otorgue escritura definitiva
@@ -6166,6 +7230,19 @@ Pregunta: SANCION SI NO SE CONSIGNA LA CAUCION EN LA OPORSi se omiten los avisos
 TUNIDAD SENALADA EN LAS BASES O SI EL SUBASTADOR NO SUSCRIBE LAESCRITURA DEFINITIVA DE COMPRAVENTA.
 
 ## Pregunta: ANTE QUE TRIBUNAL SE EFECTUA EL REMATE?
+
+**Definición Canónica:** Si no se consigna la caucion en la oportunidad que seialan
+El remate puede efectuarse:
+las bases,las que cl secretario hara saber en el momento de la
+1)Ante el tribunal que conoce de la ejecucion o bien,
+licitacion,o el subastador no suscribe la escritura definitiva de
+compraventa, el remate quedara sin efecto y se hara efectiva la
+Ante el tribunal dentro de cuya jurisdiccion estan los bienes,
+caucion (Art.494 del C.P.C.).
+si asi se resuelve a peticion de parte y por motivos fundados.
+Pregunta: QUE ES LA CAUCION?
+Pregunta:PROCEDIMIENTO PARA LLEVAR A EFECTO EL REMATE.
+Es la garantia que debe re
 
 Si no se consigna la caucion en la oportunidad que seialan
 El remate puede efectuarse:
@@ -6200,7 +7277,7 @@ Consiste en fianza, o deposito de dinero, generalmente boleta
 estara en el crédito que él esta comprando.
 Pregunta: ES EL REMATE UN VERDADERO CONTRATO DE COMPregunta: PUEDE EL EJECUTADO CONCURRIR AL REMATE Y HAPRAVENTA?
 
-## Cerposturas?
+Cerposturas?
 
 Aunque se verifique en contra de la voluntad del deudor,
 El ejecutado no puede hacer posturas. Solo puede pagar la
@@ -6211,6 +7288,14 @@ cual cl juez actua como representante legal del ejecutado vendedor.
 
 ## Pregunta: &CUANDO DEBE HACERSE ACTA DEL REMATE?
 
+**Definición Canónica:** Algunos autores ubican la enajenacion forzosa dentro del
+Debe levantarse acta del remate luego de la adjudicacion, y
+campo procesal. Citan al profesor Gutierrez de Cabiedes que dese extendera en el registro del secretario que intervenga en subasta.
+sistenteen una declaraciondevoluntaddeljuez,transfiriendo co
+activamentealrematanteenvirtuddesupotestadjurisdiccional,
+determinadosbienes afectados ala ejecucion,y cuyavalidezo
+Pregunta: &DONDE SE OTORGA EL ACTA Y QUIENES DEBEN SUSeficaciaestancondicionadasporlaconcurrencia depresupuestos
+
 Algunos autores ubican la enajenacion forzosa dentro del
 Debe levantarse acta del remate luego de la adjudicacion, y
 campo procesal. Citan al profesor Gutierrez de Cabiedes que dese extendera en el registro del secretario que intervenga en subasta.
@@ -6219,7 +7304,7 @@ activamentealrematanteenvirtuddesupotestadjurisdiccional,
 determinadosbienes afectados ala ejecucion,y cuyavalidezo
 Pregunta: &DONDE SE OTORGA EL ACTA Y QUIENES DEBEN SUSeficaciaestancondicionadasporlaconcurrencia depresupuestos
 
-## Cribirla?
+Cribirla?
 
 y condiciones especificas"
 El acta se otorga en el Registro de Remates del Secretario y
@@ -6230,12 +7315,17 @@ No se admitiran posturas que bajen de los 2/3 de la tasacion, salvo que las part
 
 ## Pregunta:QUEVALOR TIENE ESTA ACTA DE REMATE?
 
+**Definición Canónica:** 493 C.P.C.
+Valdra como escritura publica para efectos del 1801 (para
+efectos de la solemnidad), pero se otorga sin perjuicio de extenPregunta: &PUEDE EL EJECUTANTE CONCURRIR AL REMATE Y
+derse,dentro de tercero dia,la escritura definitiva conlos antecedentes necesarios y demas requisitos legales.(Art. 495 C.P.C.).
+
 493 C.P.C.
 Valdra como escritura publica para efectos del 1801 (para
 efectos de la solemnidad), pero se otorga sin perjuicio de extenPregunta: &PUEDE EL EJECUTANTE CONCURRIR AL REMATE Y
 derse,dentro de tercero dia,la escritura definitiva conlos antecedentes necesarios y demas requisitos legales.(Art. 495 C.P.C.).
 
-## Hacerposturas?
+Hacerposturas?
 
 El ejecutante puede concurrir al remate y hacer posturas
 El acta tiene merito ejecutivo,porque la compraventa ha
@@ -6246,8 +7336,9 @@ obligacion de hacer.
 
 ## Pregunta: &QUE PASA SI EL EJECUTANTE CONCURRE Y REMATA?
 
+**Definición Canónica:** Debe consignar el precio de la subasta?
 
-## Debe consignar el precio de la subasta?
+Debe consignar el precio de la subasta?
 
 Si el ejecutante remata el bien embargado,no esta obliPregunta: &CUANDO QUEDA PERFECTO EL REMATE?
 gado a consignar el precio de la subasta, porque se produce
@@ -6261,13 +7352,19 @@ escritura.
 Bdiariab Gurita
 BaliarialGSeriatw
 
-## MARiA CERRA ORTIZ
-
-
-## Mil y una preguntas en derecho procesal. civil
-
-
 ## Pregunta: REQUISITOS PARA OTORGAR LA ESCRITURA PUBLICA
+
+**Definición Canónica:** lando incidente de nulidad tan pronto llegue a conocimiento de
+DEFINITIVA DEL REMATE.
+quien lo pide y ante de hacer alguna gestion. Solo puede solici1)Orden del tribunal, de oficio o a peticion de parte.
+tarse hasta antes que quede firme la resolucion que ordena extenderla escritura definitiva.
+2)
+El rematante debe depositar el precio que deba pagarse de
+contado a la orden del tribunal.
+El subastador debe ser oido en este incidenteydebe notificarsele por cedula.
+3)El rematante debe pedir que se ordene alzar el embargo y
+que se ordene cancelar las hipotecas.
+4)Debe estar ejecutoriada la resoluc
 
 lando incidente de nulidad tan pronto llegue a conocimiento de
 DEFINITIVA DEL REMATE.
@@ -6283,6 +7380,12 @@ que se ordene cancelar las hipotecas.
 
 ## Pregunta: COMO PUEDE SER NULO EL REMATE POR VICIOS SUSTANTIVOS?
 
+**Definición Canónica:** Como es un contrato, puede ser nulo por omision de alguno
+Pregunta: eQUIENES DEBEN SUSCRIBIRLA?
+de los requisitos para la validez de los contratos.
+El rematante y el juez como representante legal del ejecutado
+vendedor.
+
 Como es un contrato, puede ser nulo por omision de alguno
 Pregunta: eQUIENES DEBEN SUSCRIBIRLA?
 de los requisitos para la validez de los contratos.
@@ -6291,8 +7394,9 @@ vendedor.
 
 ## Pregunta: &COMO Y CUANDO DEBE RECLAMARSE DE LOS VICIOS
 
+**Definición Canónica:** Sustantivos del remate?
 
-## Sustantivos del remate?
+Sustantivos del remate?
 
 Pregunta: CAUSALES DE NULIDAD DEL REMATE.
 La reclamacion por vicios sustantivos del remate debe hacerEl remate en juicio ejecutivo tiene un doble caracter:
@@ -6304,19 +7408,14 @@ aun despues de ejecutoriada la resolucion que ordena extender
 la cscritura definitiva del remate.
 Por lo tanto su nulidad puede tener origen en vicios sustantivos o procesales.
 
-## Pregunta: zQUE PUEDE PEDIR EL EJECUTANTE SI LA SUBASTA
-
-
-## No se lleva acabo por nohaberse presentado
-
-
 ## Pregunta: &CUANDO PUEDE SER NULO EL REMATE POR VICIOS
 
+**Definición Canónica:** Postores?
 
-## Postores?
+Postores?
 
 
-## Procesales?
+Procesales?
 
 El ejecutante puede pedir que se le adjudiquen los bienes
 1)Si no se hicieron las publicaciones.
@@ -6332,6 +7431,12 @@ haga con citacion de los acreedores hipotecarios. La nueva
 
 ## Pregunta: COMO Y CUANDO DEBE RECLAMARSE DE LOS VICIOS
 
+**Definición Canónica:** notificacion puede ser por el estado ya que la primera fue perPROCESALES DELREMATE?
+sonal.
+Debe reclamarse dentro del mismo juicio ejecutivo formu2)Que se reduzca el avaluo aprobado, prudenicialmente. La reGnditaiFuridts
+BlitarialGlFuriie
+duccion no puede exceder de una tercera parte del avalto. Si
+
 notificacion puede ser por el estado ya que la primera fue perPROCESALES DELREMATE?
 sonal.
 Debe reclamarse dentro del mismo juicio ejecutivo formu2)Que se reduzca el avaluo aprobado, prudenicialmente. La reGnditaiFuridts
@@ -6340,13 +7445,15 @@ duccion no puede exceder de una tercera parte del avalto. Si
 
 ## Pregunta: QUE DERECHOS TIENE EL ACREEDOR SOBRE LOS
 
+**Definición Canónica:** el acreedor hace esta solicitud,los bienes se pondran a otra
+
 el acreedor hace esta solicitud,los bienes se pondran a otra
 
-## Bienes muebles que se le entregan en prenda
+Bienes muebles que se le entregan en prenda
 
 vez remate por 2/3 del nuevo avaluo.En el nuevo remate se
 
-## Pretoria?
+Pretoria?
 
 observan las mismas formalidades, salvo que los plazos se
 reducen a la mitad, siempre que no hayan transcurrido mas
@@ -6362,6 +7469,17 @@ El acreedor puede pedir, a su eleccion, cualquiera de estas
 tres cosas:
 
 ## Pregunta: COMO PUEDE PONERLE FIN EL ACREEDOR?
+
+**Definición Canónica:** 1)Que se le adjudiquen los bienes por esos 2/3.
+2) Que se pongan por tercera vez en remate, al precio que el
+Puede solicitar el remate de los bienes o pedir embargo de
+tribunal designe.
+otros.bienes del deudor.
+3)Que se le entreguen los bienes en prenda pretoria. En este
+caso, el deudor puede solicitar que se pongan por uitiPregunta: &QUE SON LAS TERCERIAS?
+ma vez en remate, sin minimo para las posturas. Art. 501
+Son procedimientos accesorios al juicio ejecutivo, en los cuales una tercera persona,distinta delejecutante o ejecutado,hace
+valer un derecho que obsta al pago total o parcial del eje
 
 1)Que se le adjudiquen los bienes por esos 2/3.
 2) Que se pongan por tercera vez en remate, al precio que el
@@ -6384,6 +7502,20 @@ pago.
 inventario solemne. (Art. 503 C.P.C.).
 
 ## Pregunta: CUAL ES LA NATURALEZA JURIDICA DE LAS TERCERIAS?
+
+**Definición Canónica:** Pregunta: CUANTO DURA LA PRENDA PRETORIA?
+Son incidentes del juicio ejecutivo, salvo la de dominio que
+Dura hasta que se extinga totalmente el credito del acreees unjuicio distinto de la ejecucion.
+dor.
+Esto es discutido por la doctrina.
+GlieriadGhJuris
+Gliariuh GhFurists
+Pregunta: CUANDO TENE LUGAR LA TERCERiA DE DOMIN10?
+alce el embargo, porque al momento de éste los bienes en que
+La terceria de dominio tiene lugar cuando un extrano a la
+recayo se encontraban cn su poder y debian presumirse de su
+ejecucion interviene alegando dominio sobre los bienes embargadominio.
+dos. (Art. 518 No 1 C.P.C
 
 Pregunta: CUANTO DURA LA PRENDA PRETORIA?
 Son incidentes del juicio ejecutivo, salvo la de dominio que
@@ -6411,6 +7543,21 @@ Que los bienes embargados no se encuentren en posesion
 del deudor ejecutado al mormento de hacerse el cmbargo.
 
 ## Pregunta: EFECTOS DE LA INTERPOSICION DE UNA TERCERIA DE
+
+**Definición Canónica:** DOMINIO.
+Pregunta: COMO SE TRAMITA?
+No suspende la tramitacion del cuaderno ejecutivo o principal.
+Se tramita segun las reglas del incidente ordinario.
+1）
+Regla general: No suspende la tramitacion del cuaderno de
+apremio;
+Pregunta: EFECTOS DE SU INTERPOSICION.
+2)Excepcion: suspende el cuaderno de apremio si esta apoyada en un instrumento publico otorgado con anterioridad
+No suspende la tramitacion del cuaderno ejecutivo o princia la fecha de la presentacion de la demanda ejecutiva.Este
+pal.
+instrumento debe ser el medio de prueba del dominio del
+1)Por regla general: No suspende el apremio.
+ter
 
 DOMINIO.
 Pregunta: COMO SE TRAMITA?
@@ -6470,12 +7617,14 @@ Pregunta:EFECTOS DE SU INTERPOSICION.
 
 ## Pregunta:QUE OTRO PROCEDIMIENTO TIENE EL TERCERISTA
 
+**Definición Canónica:** 1)No suspende el cuaderno ejecutivo, ni el de apremio.
+
 1)No suspende el cuaderno ejecutivo, ni el de apremio.
 
-## Para concurrir con elejecutante al pago de
+Para concurrir con elejecutante al pago de
 
 
-## Su creditop
+Su creditop
 
 2)Suspende el pago al ejecutante. (Art. 525 C.P.C.).
 Puede iniciar otro juicio ejecutivo ante tribunal competente,
@@ -6487,9 +7636,11 @@ preferencia a este ultimo.
 
 ## Pregunta: &QUE OTROS DERECHOS PUEDE HACER VALER UN TERCEROEN UN JUICIO EJECUTIVO?
 
+**Definición Canónica:** Pregunta: eQUE PASA SI SE RECHAZA LA TERCERiA DE PRELA1）Un comunero puede oponerse a la ejecucion fundado en un
+
 Pregunta: eQUE PASA SI SE RECHAZA LA TERCERiA DE PRELA1）Un comunero puede oponerse a la ejecucion fundado en un
 
-## Cion?
+Cion?
 
 derecho que tiene sobre la cosa embargada.Se tramita como
 Se distribuye el producto del remate entre ambos acreedola terceria de dominio,o sea, como juicio ordinario,sin trares, a prorrata de sus creditos, salvo que el ejecutante justifique
@@ -6512,6 +7663,15 @@ Juicio declarativo y de aplicacion general, breve, rapido, y
 concentrado.
 
 ## Pregunta: ES DE APLICACION GENERAL EL JUICIO SUMARIO?
+
+**Definición Canónica:** Si, es de aplicacion general ya que el art. 680 en su inciso 1°
+Pregunta: CARACTERfSTICAS DEL JUICIO SUMARIO.
+establece que debe utilizarse este procedimiento: “en defecto de
+otra regla especial, a los casos en que la accion deducida requie1)）Declarativo.Destinado a obtener el reconocimiento de un dera, por su naturaleza, tramitacion rapida para que sea eficaz".
+recho.
+Esta es la regla general.
+Comun o de aplicacion general. Se puede hacer valer cualquiera clase de accion, siempre que por su naturaleza,rePregunta:CASOS EN QUE SE APLICA ELJUICIO SUMARIO.
+quiera de un procedimiento rapido para s
 
 Si, es de aplicacion general ya que el art. 680 en su inciso 1°
 Pregunta: CARACTERfSTICAS DEL JUICIO SUMARIO.
@@ -6538,6 +7698,16 @@ La rebeldia del demandadohacepresumirla efectividad del
 
 ## Pregunta: ENTONCES, &POR QUE SE DICE QUE ES ESPECIAL?
 
+**Definición Canónica:** derecho del actor. El actor puede pedir, en rebeldia del deEs especial por suestructura:demanda,AUDIENCIAde conmandado y con fundamento plausible, que se acceda provitestacion y conciliacion y termino probatorio; lo que demuestra
+sionalmente a lopedido.
+que es concentrado.
+7)Breve:
+Es especial, ademas, porque en los casos que enumera el
+--Se reduce a demanda, comparendo de contestacion, termiinciso 2° del art: 680, su aplicacion es obligatoria.
+no probatorio de 8 dias y sentencia.
+-Las resoluciones deben dictarse a mas tardar dentro de
+Pregunta:DIGA ALGUNOS DE ESTOS CASOS EN QUE ES OBLIGAsegun
+
 derecho del actor. El actor puede pedir, en rebeldia del deEs especial por suestructura:demanda,AUDIENCIAde conmandado y con fundamento plausible, que se acceda provitestacion y conciliacion y termino probatorio; lo que demuestra
 sionalmente a lopedido.
 que es concentrado.
@@ -6548,7 +7718,7 @@ no probatorio de 8 dias y sentencia.
 -Las resoluciones deben dictarse a mas tardar dentro de
 Pregunta:DIGA ALGUNOS DE ESTOS CASOS EN QUE ES OBLIGAsegundo dia.
 
-## Torialaaplicacion del juicio sumario.art.680
+Torialaaplicacion del juicio sumario.art.680
 
 - El tribunal de alzada puede pronunciarse, a peticion de
 INCISO 2°,REGLA ESPECIAL.
@@ -6558,7 +7728,7 @@ sumariamente, o en otra forma analoga.
 BditoriadElguariaty
 Befiorie Gguris
 
-## Mil y una preguntas en derecho procesai. civil
+Mil y una preguntas en derecho procesai. civil
 
 2)Juicios sobre deposito necesario y comodato precario.
 En los casos del inciso 1° del articulo 680, una vez iniciado
@@ -6579,7 +7749,7 @@ resultados.
 2)Sustitucion de sumario a ordinario.El juez accedera solo si
 PregUnta: PUEDEN FORMULARSE INCIDENTES DE PREVIO Y ESexisten motivos fundados.
 
-## Pecialpronunciamiento enel juicio sumario?
+Pecialpronunciamiento enel juicio sumario?
 
 El art. 690 dice que: “Los incidentes deberan promoverse y
 Pregunta: OPORTUNIDAD PARA PEDIRLA.
@@ -6597,6 +7767,18 @@ Segundo.
 
 ## Pregunta: SE PUEDE RECONVENIR EN EL JUICIO SUMARIO?
 
+**Definición Canónica:** 1) De ordinario a sumario. Como cxcepcion dilatoria.
+La opinion mayoritaria sostiene que NO, por varias razones.
+2)De sumario a ordinario.Como incidente enla audiencia.
+1)Si se reconviniera, habria que dar plazo al demandado re-,
+convencional para contestar,y el art. 690 establece que la
+Pregunta: 2COMO SE TRAMITA LA SUSTITUCION?
+audiencia nopuede suspenderse.
+Como incidente.
+亿
+La misma naturaleza de este procedimiento excluye esta
+contra demanda que produciria el efecto de alargar el juicio.
+
 1) De ordinario a sumario. Como cxcepcion dilatoria.
 La opinion mayoritaria sostiene que NO, por varias razones.
 2)De sumario a ordinario.Como incidente enla audiencia.
@@ -6609,17 +7791,14 @@ Como incidente.
 La misma naturaleza de este procedimiento excluye esta
 contra demanda que produciria el efecto de alargar el juicio.
 
-## Pregunta: COMO DEBE SER LA DEMANDA EN EL JUICIO SUMARIO?
-
-
-## Pregunta: QUE ES LA SUSTITUCION DEL PROCEDIMIENTO EN EL
-
-Debe ser escrita. Aunque rio la reglamenta el C.P.C., se conJUICIOSUMARIO?
-cluye por aplicacion del articulo 3°.
-Gdioriak ShFervinle
-Bditerich GlFereae
-
 ## Pregunta: CQUE RESOLUCION RECAE EN LA DEMANDA?
+
+**Definición Canónica:** Con el merito de lo que se exponga en la audiencia, se resolSe cita a las partes a audiencia de quinto dia habil despues
+vera la contienda o se recibira la causa a prueba.
+de la ultima notificacion, si este recayere en dia sabado o feriado
+rija el dia habil siguiente.Este plazo se amplia si el demandado
+no esta en el lugar del juicio (solo tiene el aumento del articulo
+Pregunta: 2QUE PASA SI EL DEMANDADO NO SE OPONE AL CUM259). [Art. 683 C.P.C.].
 
 Con el merito de lo que se exponga en la audiencia, se resolSe cita a las partes a audiencia de quinto dia habil despues
 vera la contienda o se recibira la causa a prueba.
@@ -6628,12 +7807,23 @@ rija el dia habil siguiente.Este plazo se amplia si el demandado
 no esta en el lugar del juicio (solo tiene el aumento del articulo
 Pregunta: 2QUE PASA SI EL DEMANDADO NO SE OPONE AL CUM259). [Art. 683 C.P.C.].
 
-## Plimiento provisional de lo pedido?
+Plimiento provisional de lo pedido?
 
 El tribunal debe recibir la causa a prueba o debe dictar
 sentencia definitiva,segunlo estime de derecho.(Art.685
 
 ## Pregunta: &QUE DERECHO TIENE EL DEMANDANTE SI EL DEMANDADO NO CONCURRE A LAAUDIENCIA?
+
+**Definición Canónica:** En rebeldia del demandado, el demandante puede solicitar
+que se acceda provisionalmente a lo pedido en la demanda.
+Eljuez accedera si el demandante lo solicita con fundamento
+La prueba serinde en el plazoy en la forma establecida para
+plausible. (Y el demandado debe estar declarado rebelde)
+los incidentes. (Art. 686 C.P.C.).
+Si el juez no accede provisionalmente a lo pedido en la demanda, recibe la causa a prueba. (Art, 684 C.P.C.).
+Pregunta: PLAZO PARA PRESENTAR LISTA DE TESTIGOS.
+La lista de testigos debe presentarse dentro del plazo de sePregunta:QUé RECURSO PROCEDE CONTRA LA RESOLUCION
+gun
 
 En rebeldia del demandado, el demandante puede solicitar
 que se acceda provisionalmente a lo pedido en la demanda.
@@ -6646,30 +7836,29 @@ Pregunta: PLAZO PARA PRESENTAR LISTA DE TESTIGOS.
 La lista de testigos debe presentarse dentro del plazo de sePregunta:QUé RECURSO PROCEDE CONTRA LA RESOLUCION
 gundo dia de la ultima notificacion de la resolucion que recibe la
 
-## Queaccedealopedidoenla demanda?
+Queaccedealopedidoenla demanda?
 
 causa a prueba.
 Apelacion en el solo efecto devolutivo.Se tramita como inciSe presenta sin minuta depuntos de prueba.
 dente. (Art. 691 incisos 2" y 3° C.P.C.).
 
-## Pregunta:COMO SE NOTIFICA LA RESOLUCION QUE RECIBE LA
-
-
 ## Pregunta: QUE PUEDE HACER EL DEMANDADO SI SE ACCEDE
 
+**Definición Canónica:** Causa a prueba eneljuicio sumario?
 
-## Causa a prueba eneljuicio sumario?
+Causa a prueba eneljuicio sumario?
 
 
-## Provisionalmentealopedidoenlademanda?
+Provisionalmentealopedidoenlademanda?
 
 La notificacion que recibe la causa a prueba en el juicio suEl demandado puede oponerse o no oponerse. (Art. 684
 mario senotificapor cedula.
 
 ## Pregunta:PUEDE SOLICITARSE AUMENTO EXTRAORDINARIO
 
+**Definición Canónica:** Delterminoprobatorioeneljuiciosumario?
 
-## Delterminoprobatorioeneljuiciosumario?
+Delterminoprobatorioeneljuiciosumario?
 
 Debe oponerse dentro del plazo de 5 dias contados desde la
 Si, puede solicitarse, por motivos fundados, cuando deban
@@ -6685,6 +7874,18 @@ EalitorindSlGoeriato
 
 ## Pregunta: PLAZO PARA DICTAR LAS RESOLUCIONES EN EL JUICIO
 
+**Definición Canónica:** Se tramita de acuerdo al procedimiento del art. 8 de la Ley
+SUMARIO.
+19.866, a traves de un Procedimiento Particular.
+1)Resoluciones en general. A mas tardar dentro de segundo
+dia (art. 688).
+Pregunta: MENCIONE BREVEMENTE EL PROCEDIMIENTO.
+2)·Sentencia definitiva.Dentro de los 10 dias siguientes a la
+fecha de la resolucion que cita a las partes a oir sentencia.
+1.El procedimiento sera verbal; pero las partes podran, si quieren, presentar minutas escritas en que se establezcan los
+hechos invocados y las peticiones que se formulen. Deducida
+Pregunta: QUE RECURSOS PROCEDEN EN CONTRA DE LA SENla d
+
 Se tramita de acuerdo al procedimiento del art. 8 de la Ley
 SUMARIO.
 19.866, a traves de un Procedimiento Particular.
@@ -6697,7 +7898,7 @@ fecha de la resolucion que cita a las partes a oir sentencia.
 hechos invocados y las peticiones que se formulen. Deducida
 Pregunta: QUE RECURSOS PROCEDEN EN CONTRA DE LA SENla demanda,citara el tribunal a la audiencia del quinto dia
 
-## Tencia definitiva del juicio sumario?
+Tencia definitiva del juicio sumario?
 
 habil despues delaultima notificacion.
 a)Apelacion.
@@ -6717,11 +7918,11 @@ hasta cuatro testigos por cada parte y la nomina, con la individualizacion de lo
 Pregunta:CUAL ES LA COMPETENCIA DEL TRIBUNAL DE ALZAse presentara en elescrito de demanda;la nomina con los
 testigos del dernandado,hasta antes delas 12:00 horas del
 
-## Daalconocerdelaapelacion deunasentencia
+Daalconocerdelaapelacion deunasentencia
 
 dia que preceda al de la audiencia.
 
-## Definitivadictada enjuicio sumario?
+Definitivadictada enjuicio sumario?
 
 4.La audiencia tendra lugar con solo la parte que asista, se
 El tribunal puede,a solicitud de parte,pronunciarse por via
@@ -6739,11 +7940,15 @@ En ambos casos, la reconvencion sera tramitada y resuelta
 
 ## Pregunta: DE ACUERDO A QUE PROCEDIMIENTO SE TRAMITA EL
 
+**Definición Canónica:** conjuntamente con la cuestion principal.
+JUICIODETERMINACIONDE CONTRATODEARRENDA6. En caso de no producirse avenirmiento total, el juez estaMIENTO DE LA LEY 18.101? TIENE ALGUNA MODIFI
+blecera los puntos sustanciales,pertinentes y controvertidos
+
 conjuntamente con la cuestion principal.
 JUICIODETERMINACIONDE CONTRATODEARRENDA6. En caso de no producirse avenirmiento total, el juez estaMIENTO DE LA LEY 18.101? TIENE ALGUNA MODIFI
 blecera los puntos sustanciales,pertinentes y controvertidos
 
-## Cacion?
+Cacion?
 
 que deban ser acreditados,procediendo de inmediato a la
 Gditorind Glgurinle
@@ -6761,7 +7966,7 @@ cia a realizarse dentro de los 5 dias siguientes,a objeto de
 la prueba que ofrezca. Las partes se entenderan citadas de
 pleno derecho a dicha audiencia.En este caso,cualquiera de
 
-## Enellugardeljuicio?
+Enellugardeljuicio?
 
 las partes podra solicitar se reserve para dicha audiencia el
 No es necesario acreditar que se encuentra en el lugar del
@@ -6778,6 +7983,12 @@ la recepcion de la prueba, las partes seran citadas a oir sentencia.
 
 ## Pregunta:CUANDO DEBE REALIZARSE LA AUDIENCIA?
 
+**Definición Canónica:** audiencia, conjuntamente con la cuestion principal, sin paraDeducida la demanda, citara el tribunal a la audiencia del
+lizar el curso de esta. La sentencia definitiva se pronunciara
+quinto dia habil despues de la ultima notificacion.
+sobre la accion deducida y sobre los incidentes, o solo sobre
+éstos cuando sean previos o incompatibles con aquella.
+
 audiencia, conjuntamente con la cuestion principal, sin paraDeducida la demanda, citara el tribunal a la audiencia del
 lizar el curso de esta. La sentencia definitiva se pronunciara
 quinto dia habil despues de la ultima notificacion.
@@ -6785,6 +7996,13 @@ sobre la accion deducida y sobre los incidentes, o solo sobre
 éstos cuando sean previos o incompatibles con aquella.
 
 ## Pregunta:PUEDE AMPLIARSEESTE PLAZO SIELDEMANDADO SE
+
+**Definición Canónica:** 9.Solo seran apelables la sentencia definitiva de primera insENCUENTRA FUERA DELLUGARDEL JUICIO?
+tancia y las resoluciones que pongan termino al juicio o hagan imposible su continuacion.
+Este plazo no se amplia aunque el demandado se encuentra
+fuera del lugar del juicio.
+Todas las apelaciones se concederan en el solo efecto devolutivo;tendranpreferencia para suvistay falloy durante su
+tramitacion, no se podra conceder orden de no innovar.
 
 9.Solo seran apelables la sentencia definitiva de primera insENCUENTRA FUERA DELLUGARDEL JUICIO?
 tancia y las resoluciones que pongan termino al juicio o hagan imposible su continuacion.
@@ -6795,6 +8013,13 @@ tramitacion, no se podra conceder orden de no innovar.
 
 ## Pregunta: EN QUE OTROS PROCEDIMIENTOS SE APLICA ESTA
 
+**Definición Canónica:** En segunda instancia,podra el tribunal de alzada,a soliciNORMA?
+tud de parte, pronunciarse por via de apelacion sobre todas
+En las querellas posesorias.
+las cuestiones que se hayan debatido en primera para ser
+falladas en definitiva, aun cuando no hayan sido resueltas
+en el fallo apelado.
+
 En segunda instancia,podra el tribunal de alzada,a soliciNORMA?
 tud de parte, pronunciarse por via de apelacion sobre todas
 En las querellas posesorias.
@@ -6802,17 +8027,20 @@ las cuestiones que se hayan debatido en primera para ser
 falladas en definitiva, aun cuando no hayan sido resueltas
 en el fallo apelado.
 
-## Pregunta: &PUEDE RECONVENIR EL DEMANDADO EN EL JUICIO
-
-
 ## 10. Las partes podran comparecer y defenderse personalmenDEARRENDAMIENTO DELALEY18.101?
+
+**Definición Canónica:** te, en primera instancia, en los juicios cuya renta vigente al
+Si, segun el art. 8 N° 5 de la Ley 18.101.
+Gedioriu Stgurisie
+BiliorinkBlTrieiw
+**Concordancias Legales:** Ley 18.101
 
 te, en primera instancia, en los juicios cuya renta vigente al
 Si, segun el art. 8 N° 5 de la Ley 18.101.
 Gedioriu Stgurisie
 BiliorinkBlTrieiw
 
-## Mhl y una preguntas en derecho procesal civil
+Mhl y una preguntas en derecho procesal civil
 
 Pregunta: gEN QUE MOMENTO SE HARA EL LLAMADO A CONCI.
 derechos reales constituidos en ellos,cuando han sido arreLIACION?
@@ -6824,7 +8052,7 @@ dio sirviente y embarazan el goce de la servidumbre, las que
 se sustentan en edificio ajeno que no esta sujeto a servidumPregunta: COMO APRECIA EL JUEZ LA PRUEBA EN ESTOS JUI.
 bre, y obras voladizas que atraviesen el plano vertical de la
 
-## Cios?
+Cios?
 
 linea divisoria de los predios.
 Conforme a las reglas de la sana critica. Art. 8 No 7 de la Ley
@@ -6836,8 +8064,9 @@ Interdictos especiales.A ellos se refieren los arts.577 a 583
 
 ## PregUnta: COMO SE CUMPLE LA SENTENCIA CUANDO ORDENA LA
 
+**Definición Canónica:** Entrega de un inmueble?
 
-## Entrega de un inmueble?
+Entrega de un inmueble?
 
 Se cumple mediante lanzamiento.
 Pregunta: CARACTERISTICAS DE LOS INTEROICTOS POSESO.
@@ -6847,12 +8076,19 @@ Breves y concentrados.
 G
 Siempre se refieren a inmuebles.
 
-## Interdictosposesorios
+Interdictosposesorios
 
 3)
 No hay competencia delegada; no se puede declarar por exhorto en la prueba testimonial.
 
 ## Pregunta:QUE SON LOS INTERDICTOS POSESORIOS?
+
+**Definición Canónica:** Las apelaciones se conceden en el efecto devolutivo. Salvo,
+en que son en ambos efectos:
+Son procedimientos especiales que establece la ley para hacer
+valer las acciones posesorias establecidas por el Codigo Civil.
+-- Si la ley ordena concederlas en ambos efectos, por ejemplo:
+sentencia definitiva de denuncias de obra nueva y obra ruinosa cuando ordena demolicion de las obras;
 
 Las apelaciones se conceden en el efecto devolutivo. Salvo,
 en que son en ambos efectos:
@@ -6862,6 +8098,20 @@ valer las acciones posesorias establecidas por el Codigo Civil.
 sentencia definitiva de denuncias de obra nueva y obra ruinosa cuando ordena demolicion de las obras;
 
 ## Pregunta: CUALES SON LOS INTERDICTOS POSESORIOS?
+
+**Definición Canónica:** -Que el fallo apeladono de lugar al interdicto.
+1)Querella de amparo. Tiene por objeto conservar la pose5）
+Las sentenciasdictadas dejan a salvoel ejercicio delas acsion de bienes raices o derechos reales constituidos sobre
+ciones ordinarias.
+ellos.
+6)
+Son de competencia del juezletrado de la comuna donde esQuerella de restitucion. Tiene por objeto recuperar la posetan situados los bienes.
+sion perdida.
+7)No procede la conciliacion obligatoria.
+3)
+Querella de restablecimiento. Tiene por objeto restablecimiento en la posesion o mera tenencia de los bienes raices o
+BliorialBtSueristtw
+Balitoriab 
 
 -Que el fallo apeladono de lugar al interdicto.
 1)Querella de amparo. Tiene por objeto conservar la pose5）
@@ -6879,9 +8129,11 @@ Balitoriab Gugurite
 
 ## Pregunta: &A QUIEN AMPARAN LAS QUERELLAS POSESORIAS?
 
+**Definición Canónica:** Pregunta: COMPETENCIA EN LOS JUICIOS DE HACIENDA.
+
 Pregunta: COMPETENCIA EN LOS JUICIOS DE HACIENDA.
 
-## Quienes pueden entablarlas?
+Quienes pueden entablarlas?
 
 Hay que distinguir:
 1)Regla general: El poseedor.
@@ -6897,9 +8149,11 @@ quinto dia habil despues de la notificacion del querellado (de
 
 ## Pregunta: 2COMO SE TRAMITAN? A QUE PROCEDIMIENTO SE
 
+**Definición Canónica:** contestacion y prueba) a la que deben concurrir las partes con
+
 contestacion y prueba) a la que deben concurrir las partes con
 
-## Sujetan los juicios de hacienda?
+Sujetan los juicios de hacienda?
 
 todos sus medios de prueba.
 Art. 748:“Los juicios en que tenga interes el Fisco y cuyo conocimientocorrespondaalostribunalesordinarios,sesubstanPregunta:PLAZO PARA DICTAR SENTENCIA DEFINITIVA EN LOS
@@ -6914,11 +8168,19 @@ Pregunta: CONSULTA ENLOS JUICIOSDE HACIENDA.
 Procede consulta siempre que la sentencia sea desfavorable
 PregUnta: QUE PARTICULARIDAD TIENE LA SENTENCIA DEFINIal Fisco.
 
-## Tivadelasquerellasposesorias?
+Tivadelasquerellasposesorias?
 
 Regla general: Deja a salvo el ejercicio de las acciones ordinarias que correspondan.
 
 ## PregUnta:CUANDO ESDESFAVORABLEALFISCOLASENTENCIA?
+
+**Definición Canónica:** Excepcion: La sentencia definitiva de la querella de restableCuando no acoge totalmente su demanda.
+cimiento deja a salvo el ejercicio de las acciones ordinarias y
+Cuandono acoge totalmente su reconvencion.
+tambien las acciones posesorias que correspondan.
+Cuandonorechaza totalmentela demanda en su contra.
+H
+Cuando no rechaza totalmente la reconvencion en su contra.
 
 Excepcion: La sentencia definitiva de la querella de restableCuando no acoge totalmente su demanda.
 cimiento deja a salvo el ejercicio de las acciones ordinarias y
@@ -6928,14 +8190,15 @@ Cuandonorechaza totalmentela demanda en su contra.
 H
 Cuando no rechaza totalmente la reconvencion en su contra.
 
-## Juiciosdehacienda
-
+Juiciosdehacienda
 
 ## Pregunta:COMO SE EJECUTA LA SENTENCIA CONDENATORIA
 
+**Definición Canónica:** Pregunta:&QUE SON LOS JUICIOS DE HACIENDA?
+
 Pregunta:&QUE SON LOS JUICIOS DE HACIENDA?
 
-## En contra del fisco?
+En contra del fisco?
 
 Son aquellos en que tiene interes el Fisco y cuyo conocimienSe Hleva a efecto mediante decreto supremo expedido a traves
 to corresponde a los tribunales ordinarios de justicia.
@@ -6943,17 +8206,13 @@ del Ministerio respectivo.
 GdiawviaslBkJurista
 BalicorinbBierietao
 
-## Pregunta:PROCEDE EMBARGAR BIENES DEL FISCO?
-
-Solo respecto de honorarios por servicios profesionales presNo,porque la sentencia condenatoria en contra del Fisco se
-tados en juicio. (Art. 697 C.P.C.).
-cumplemediante decreto supremo.
-
 ## PregUnta: COMPETENCIA EN LOS JUICIOS SOBRE COBRO DE HOJ
+
+**Definición Canónica:** NORARIOS,
 
 NORARIOS,
 
-## Juiciosobrecuentas
+Juiciosobrecuentas
 
 Son de competencia del juez que conocio en primera instan--
 cia del asunto en que se prestaron los servicios profesionales.
@@ -6976,21 +8235,21 @@ L
 que la pone en conocimiento de la otra parte dandole plazo
 prudente para que la examine. Si no la objeta, el tribunal la
 
-## Acciondedesposeimientocontrael
+Acciondedesposeimientocontrael
 
 tiene por aprobada. Si la objeta, el juicio continua sobre los
 
-## Tercerposeedordelafincahipotecada
+Tercerposeedordelafincahipotecada
 
 puntos objetados con arreglo al procedimiento que corresponda. Se considera la cuenta como demanda y la objecion
 
-## Oacensuada
+Oacensuada
 
 como contestacion.
 El que tlene derecho a exigirla.Puede iniciarlo si el obliPregUnta:QUE ES LA ACCION DE DESPOSEIMIENTO CONTRA EL
 gado no la rinde dentro de plazo.Puede él mismo formular
 
-## Tercerposeedordelafinca hipotecada?
+Tercerposeedordelafinca hipotecada?
 
 la cuenta y presentarla al tribunal; o puede exigir ejecutivamente la obligacion de hacer.
 Esta establecida en el art.2428 del C.C.,yfaculta al acreedor
@@ -6998,16 +8257,18 @@ hipotecario a perseguir la finca hipotecada en manos de quien la
 posea, y a cualquier titulo que la haya adquirido.
 K
 
-## Juiciosobrepagodeciertoshonorarios
+Juiciosobrepagodeciertoshonorarios
 
 Pregunta: COMO SE INICIA EL PROCEDIMIENTO?
 Se inicia con una gestion previa de notificacion al poseedor,
 
 ## Pregunta: RESPECTO DE QUE HONORARIOS PROCEDE EL JUICIO
 
+**Definición Canónica:** para que en el plazo de 1o dias pague la deuda o abandone la
+
 para que en el plazo de 1o dias pague la deuda o abandone la
 
-## Depagode ciertoshonorarios?
+Depagode ciertoshonorarios?
 
 propiedad hipotecada ante el juzgado.
 Gudiorial ShJuristy
@@ -7015,7 +8276,7 @@ elitorigbSiFurite
 Pregunta: &QUE ACTITUDES PUEDE ASUMIR EL TERCER POSEE.
 Puede oponer:
 
-## Dor notificado?
+Dor notificado?
 
 1) todas las que proceden en el juicio ejecutivo y que sean
 1) Puede pagar la deuda;
@@ -7026,12 +8287,22 @@ dor personal.
 M
 Pregunta: &QUE PASA SI PAGA LA DEUDA?
 
-## Juicios arbitrales
+Juicios arbitrales
 
 El acreedor queda satisfecho y el poseedor se subroga en
 todos sus derechos igual que el fiador.
 
 ## Pregunta: &COMO SE TRAMITAN LOS JUICIOS ANTE LOS ARBITROSDEDERECHO?
+
+**Definición Canónica:** Pregunta: ZQUE PASA SI ABANDONA LA FINCA?
+1S
+Se substancian con la concurrencia deun ministro de fe dePor medio del abandono, el tercer poseedor renuncia a la
+signado por el arbitro. Las partes pueden reclamar con cautenencia material de la finca y la pone a disposicion del tribunal
+sales de implicancia o recusacion.
+para que proceda a venderla en publica subasta,con el objeto de
+Si el cumplimiento de una resolucion exige procedimientos
+pagar con su producido al acreedor hipotecario.
+de apremio o medidas compulsivas, o si ha de afectar a terceros. Debe pedirse su ejecucion ante la justicia ord
 
 Pregunta: ZQUE PASA SI ABANDONA LA FINCA?
 1S
@@ -7056,6 +8327,18 @@ partes unanimemente acuerden otra forma.
 
 ## Pregunta: COMO SE INICIA EL JUICIO DE DESPOSEIMIENTO?
 
+**Definición Canónica:** 5）
+Recursos: Apelacion y casacion. Se interponen ante el arbitro quien los concede.
+El acreedor presenta demanda que se somete a las reglas del
+Conoce de los recursos el tribunal que hubiera conocido si
+juicio ordinario o del ejecutivo, segun el titulo en que se funde.
+no hubiera compromiso, salvo que las partes los hayan soSi se trata de juicio ejecutivo, se pide“mandamiento de desmetido tambien a arbitraje.
+poseimiento" contra el tercer poscedor para que se proceda al
+remate y al pago.
+Ante quien se puede pedir el cumplimiento de la sentencia. A
+eleccion del que la pide:
+(1) ante el arbitro 
+
 5）
 Recursos: Apelacion y casacion. Se interponen ante el arbitro quien los concede.
 El acreedor presenta demanda que se somete a las reglas del
@@ -7069,7 +8352,7 @@ eleccion del que la pide:
 (1) ante el arbitro que la dicto, salvo que requiera apremios o
 Pregunta:&QUEEXCEPCIONES PUEDE OPONER EL TERCER POSEEhaya de afectar a terceros,obien
 
-## Doren el juicioejecutivode desposeimiento?
+Doren el juicioejecutivode desposeimiento?
 
 (2) ante el tribunal ordinario que corresponda.
 Ante quien se pide el cumplimiento de otras resoluciones:
@@ -7079,9 +8362,11 @@ legitimo contradictor;
 
 ## Pregunta: 2COMO SE TRAMITAN LOS JUICIOS ANTE ARBITROS
 
+**Definición Canónica:** Las pruebas se suministran sin mayores formalidades: sin
+
 Las pruebas se suministran sin mayores formalidades: sin
 
-## Arbitradores?
+Arbitradores?
 
 notificacion ni intervencion de contradictor y sin previo se1)No requieren de actuario.
 fialamiento de terminoprobatorio(informacion sumaria)que
@@ -7108,10 +8393,15 @@ Cumplimiento de la sentencia:de la misma forma que ante
 los arbitros de derecho.
 N
 
-## Actosjudicialesnocontenciosos
-
+Actosjudicialesnocontenciosos
 
 ## Pregunta: 2QUE SON LOS ACTOS JUDICIALES NO CONTENCIOSOS?
+
+**Definición Canónica:** Son “aquellos que segun la ley requieren la intervencion del
+juez y en que no se promueve contienda entre partes".(Art.817
+CONTENCIOSOS.
+1)No hay partes sino interesados;
+Bliteria GlSuerita
 
 Son “aquellos que segun la ley requieren la intervencion del
 juez y en que no se promueve contienda entre partes".(Art.817
@@ -7119,17 +8409,17 @@ CONTENCIOSOS.
 1)No hay partes sino interesados;
 Bliteria GlSuerita
 
-## Terceraparte
+Terceraparte
 
 
-## Recursos procesales
+Recursos procesales
 
 
-## Mil y una preguntas en derecho procesal. civil
+Mil y una preguntas en derecho procesal. civil
 
 A
 
-## Generalidades
+Generalidades
 
 Pregunta: QUE SON LOS RECURSOS PROCESALES?
 Son medios de impugnacion que la ley confiere a las partes
@@ -7172,10 +8462,20 @@ ficar los errores de copia,dereferencia o de calculos numericos
 que aparezcan de manifiesto en la misma sentencia". (Art. 182
 B
 
-## Recursosdeaclaracionointerpretaciony
-
+Recursosdeaclaracionointerpretaciony
 
 ## Pregunta: CONCEPTO DEL RECURSO DEACLARACION,INTERPRERECTIFICACION O ENMIENDA
+
+**Definición Canónica:** TACION,RECTIFICACION O ENMIENDA.
+Esel medio quela ley concede a laspartespara obtener que
+el mismo tribunal que dicto una resolucion aclare puntos dudoPregunta: DESASIMIENTO DEL TRIBUNAL Y RECURSOS DE ACLA
+sos u obscuros, salve las omisiones o rectifique los errores de co--
+RACION OINTERPRETACION Y RECTIFICACION O ENpia,referencia o calculos numericos que aparezcan de manifiesto
+MIENDA.
+en la misma.
+Principio: El art. 182 del C.P.C.,establece el principio del
+desasimiento del tribunal, en virtud del cual opera una especie
+de“preclusion por consumacion”respecto del tribunal.
 
 TACION,RECTIFICACION O ENMIENDA.
 Esel medio quela ley concede a laspartespara obtener que
@@ -7190,6 +8490,16 @@ de“preclusion por consumacion”respecto del tribunal.
 
 ## Pregunta: CONTRA QUE RESOLUCIONES PROCEDE?
 
+**Definición Canónica:** Una vez que el juez ha pronunciado sentencia ha concluido
+Procede en contra de sentencias definitivas einterlocutosu labor jurisdiccional respecto del objeto de la litis del cual querias.
+da completamente desligado.
+El desasimiento ocurre desde el momento en que la sentenPregunta: &COMO PROCEDE?
+cia es notificada a cualquiera de las partes en el proceso.No es
+Procedeapeticion departe o deoficio.
+necesario que se haya notificado a todas las partes.
+Excepcion: La misma disposicion establece una excepcion
+al principio del desasimiento del tribunal, en virtud de la cual,
+
 Una vez que el juez ha pronunciado sentencia ha concluido
 Procede en contra de sentencias definitivas einterlocutosu labor jurisdiccional respecto del objeto de la litis del cual querias.
 da completamente desligado.
@@ -7202,6 +8512,15 @@ al principio del desasimiento del tribunal, en virtud de la cual,
 
 ## Pregunta: CUALES SON LOS OBJETIVOS DE ESTE RECURSO?
 
+**Definición Canónica:** lucgo de notificada una sentencia definitiva o interlocutoria, a
+a)Aclarar puntos oscuros o dudosos. Corregir, aclarar o excualquiera de las partes, el tribunal podra, a solicitud de parte,
+plicar la cxpresion sin modificar la declaracion de volunaclarar sus puntos oscuros o dudosos, salvar las omisiones y
+tad.
+Gliwial Shusiate
+Bdlitarial GlSurintu
+b)Salvar omisiones.Significa llenar los vacios de que puede
+Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE LA REadolecer cl fallo que contiene una declaracion de voluntad.
+
 lucgo de notificada una sentencia definitiva o interlocutoria, a
 a)Aclarar puntos oscuros o dudosos. Corregir, aclarar o excualquiera de las partes, el tribunal podra, a solicitud de parte,
 plicar la cxpresion sin modificar la declaracion de volunaclarar sus puntos oscuros o dudosos, salvar las omisiones y
@@ -7211,7 +8530,7 @@ Bdlitarial GlSurintu
 b)Salvar omisiones.Significa llenar los vacios de que puede
 Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE LA REadolecer cl fallo que contiene una declaracion de voluntad.
 
-## Solucion que aclara,rectifica o enmienda una
+Solucion que aclara,rectifica o enmienda una
 
 Debe quedar claro que este recurso no debe utilizarse preSENTENCIA?
 tendiendo salvar la omision de una declaracion de voluntad.
@@ -7232,6 +8551,16 @@ seria apelable,con tal que la cuantia de la cosa declarada,
 agregada o rectificada admita el recurso. Art. 190.
 
 ## Pregunta: 2CUAL ES EL PLAZO PARA INTERPONERLO?
+
+**Definición Canónica:** a)Las partes no tienen plazo.
+Pregunta:NATURALEZA JURfDICA DE LA ACLARACION O INTERb)De oficio,el tribunal puede rectificar solo dentro de los
+PRETACIONY RECTIFICACION O ENMIENDA.
+cinco dias siguientes a la primera notificacion de la senPara algunos autores, este o estos recursos, tienen la natencia.
+turaleza juridica de recurso, ya que su proposito es modificar
+la sentencia en un punto respecto del cual hubo un pronunciamiento hasta cierto punto ininteligible para la parte. Entre estos
+Pregunta: 2COMO SE TRAMITAN?
+autores se encuentra Eduardo Couture.
+Se interponen ante el tribunal que dicto 
 
 a)Las partes no tienen plazo.
 Pregunta:NATURALEZA JURfDICA DE LA ACLARACION O INTERb)De oficio,el tribunal puede rectificar solo dentro de los
@@ -7273,7 +8602,7 @@ b) Rec. reposicion
 extraordinario
 terlocutorias).
 
-## Recursode reposicion
+Recursode reposicion
 
 Art.181 inc. 1°
 No se contemplaplazopara interponerlo.
@@ -7288,9 +8617,11 @@ Dentro de tercero dia
 
 ## Pregunta:CONTRA QUE RESOLUCIOWES PROCEDE LA REPOSL
 
+**Definición Canónica:** Plazo
+
 Plazo
 
-## Cion?
+Cion?
 
 Individual
 Discontinuo
@@ -7303,10 +8634,24 @@ Improrrogable
 interlocutorias.
 -No admite ampliacion
 
-## Pregunta: COMO PROCCDE EL RECURSO DE REPOSICION?
-
-
 ## Pregunta: DE EJCMPLOS DE SENTENCIAS INTERLOCUTORIAS QUE
+
+**Definición Canónica:** Siempre a peticion de parte agraviada.
+SEAN SUSCEPTIBLES DE REPOSICION.
+1.- La que recibe la causa a prueba;
+Pregunta: OPORTUNIDAD PARA INTERPONER EL RECURSO DE RE2.-La que declara desierta la apelacion;
+POSICION.
+3.- La del tribunal de alzada que declara inadmisible la apelaEn contra de autos y decretos sin
+cion;
+necesidad de hacer valer nuevos
+4.- La que declara prescrita la apelacion si se funda en un error
+a) Rec. reposicion
+antecedentes.
+de hecho;
+ordinario
+Art.181 inc.2
+5.-La que declara inadmisible el recurso de casacion;
+Plazo: Dentro de 5 dias desde notifi6.- La que declara inadmisibl
 
 Siempre a peticion de parte agraviada.
 SEAN SUSCEPTIBLES DE REPOSICION.
@@ -7330,19 +8675,16 @@ cacion.
 vistopor elPleno dela Corte Suprema.
 Gdinriab StJurictae
 
-## Miil y una preguntas en derecho procesal civil
-
-
-## Pregunta: gES CIERTO QUE NO EXISTE PLAZO PARA INTERPONER
-
+Miil y una preguntas en derecho procesal civil
 
 ## Pregunta:&SUSPENDE LA SOLICITUD DE REPOSICION EL PLAZO
 
+**Definición Canónica:** Elrecurso de reposicion extraordinario?
 
-## Elrecurso de reposicion extraordinario?
+Elrecurso de reposicion extraordinario?
 
 
-## Para apelar?
+Para apelar?
 
 Para interponer el recurso de reposicion extraordinario, la
 Regla general: No lo suspende, por lo tanto es necesario interponer apelacion en subsidio, porque tiene el mismo plazo.
@@ -7379,7 +8721,7 @@ RIO.
 reposicion de un auto o decreto, sin necesidad de alegar nuePregunta:MENCIONE LAS CARACTERfSTICAS DEL RECURSO DE
 vos antecedentes.
 
-## Reposicion
+Reposicion
 
 -El tribunal resuelve de plano, salvo que se trate la interlocu1.-La ley no exige que sea fundado.
 toria de prueba, en cuyo caso puede dar traslado (entonces
@@ -7399,7 +8741,7 @@ GditwieSljurista
 Batiorin Ggurinit
 Pregunta: &QUE RECURSOS PROCEDEN EN CONTRA DE LA RESOtivas de unica ni de 2 instancia. (Art. 187 del Cod. Proc.
 
-## Lucion que rechaza la reposicion?
+Lucion que rechaza la reposicion?
 
 Civil).
 a)Apelacton.
@@ -7424,12 +8766,21 @@ D
 a.-CuandoellosALTERAN LASUBSTANCIACIONREGULAR
 DEL JUICIO: por Ej. Si el tribunal en vez de proveer la deman--
 
-## Recurso.deapelacion
+Recurso.deapelacion
 
 da con “traslado", dice:“vengan las partes a comparendo".
 b.--Cuando ellos RECAEN SOBRE TRAMITES QUE NOESPregunta: CONCEPTO RECURSO DE APELACION.
 
 ## TAN EXPRESAMENTE ORDENADOS PORLA LEY.Se trata
+
+**Definición Canónica:** Es un recurso ordinario (o acto juridico procesal de parte)
+en este caso de tramites que no son obligatorios para el juez,
+que tiene por objeto obtener del tribunal superior respectivo que
+pero que pueden tener lugar en el proceso: por Ej. La resoluenmiende con arreglo a derecho, la resolucion del tribunal infecion que resuelve sobre una medida precautoria.(Dado que
+rior. (Art. 186 C.P.C.).
+su concesion es facultativa para el juez).
+ConstituyelamaterializaciondelprincipiodeladobleinsEn el caso de los autos y los decretos apelables,el recurso de
+tancia.A traves de él, la parte agraviada o que h
 
 Es un recurso ordinario (o acto juridico procesal de parte)
 en este caso de tramites que no son obligatorios para el juez,
@@ -7450,6 +8801,17 @@ acogido.
 
 ## Pregunta:RESOLUCIONES RESPECTO DE LAS CUALES PROCEDE
 
+**Definición Canónica:** declarandoseINCOMPETENTE para conocer el asunto.
+EL RECURSODEAPELACION.
+Salvo, que esta resolucion sea dictada por la Corte Suprema.
+1.-Las sentencias DEFINITIVAS de 1 instancia.
+Esta es la unica resolucion que, no obstante, ser dictada en
+De manera, que no son apelables ni las sentencias defini2° instancia es susceptible del recurso de Apelacion.
+Geliaria GhSuriste
+Balioriu GtSurviate
+Pregunta: &QUE SE PERSIGUE CON LA INTERPOSICION DEL RE.
+-Amparo: 24 horas.
+
 declarandoseINCOMPETENTE para conocer el asunto.
 EL RECURSODEAPELACION.
 Salvo, que esta resolucion sea dictada por la Corte Suprema.
@@ -7461,7 +8823,7 @@ Balioriu GtSurviate
 Pregunta: &QUE SE PERSIGUE CON LA INTERPOSICION DEL RE.
 -Amparo: 24 horas.
 
-## Cursodeapelacion?
+Cursodeapelacion?
 
 -- Proteccion: 5 dias.
 Es obtener del tribunal superior respectivo que ENMIENDE
@@ -7476,6 +8838,15 @@ tencia a la parte recurrente todo lo que pedia en juicio.
 concretas, dejandose constancia en acta. (Art. 189 inc. 3 del
 
 ## Pregunta: CUALES SON LAS RESOLUCIONES INAPELABLES?
+
+**Definición Canónica:** 2.-Debe contener los fundamentos de hecho y derecho en que
+se apoya.Debe ser un estudio critico de la sentencia que se
+1.- Los autos y decretos de 1 instancia que no alteran la substanimpugna, sefialando los agravios que causa al apelante y la
+ciacion del juicio y ordenan tramites establecidos en la ley;
+forma en que enmendarian con una sentencia diversa.
+2.-Las sentencias definitivas e interlocutorias, los autos y de3.-Debe contener peticiones concretas,que deben estar enmarcretos de unica instancia;
+cadas dentro de las acciones y excepciones que se han hecho
+3.-Las sentencias definitivas e i
 
 2.-Debe contener los fundamentos de hecho y derecho en que
 se apoya.Debe ser un estudio critico de la sentencia que se
@@ -7505,15 +8876,17 @@ la ley contempla para deducir este recurso.
 
 ## Pregunta: &QUE TRIBUNALES INTERVIENEN EN EL RECURSO DE
 
+**Definición Canónica:** 3)Plazos especiales de apelacion:
+
 3)Plazos especiales de apelacion:
 
-## Apelacion?
+Apelacion?
 
 -Laudo y ordenata:15 dias.
 1)El tribunal a quo, cual es el tribunal de primera instancia
 Kalitoriai GlSuriaitr
 
-## Mily una preguntas en derecho procesal civiil
+Mily una preguntas en derecho procesal civiil
 
 que dicto la resolucion que se pretende impugnar. Ante él
 pecialmente, las gestiones a que de lugar la interposicion del
@@ -7526,15 +8899,18 @@ cia, superior jerarquico del que dicto la resolucion impugnada. Debe conocer y f
 
 ## Pregunta: COMO PUEDE CONCEDERSE LA APELACION?
 
+**Definición Canónica:** Puede concederse en el solo efecto devolutivo o en ambos
+Pregunta:CUALES SON LOS EFECTOS QUE GENERA LA APELAefectos, comprendiendo devolutivo y suspensivo a la vez.
+
 Puede concederse en el solo efecto devolutivo o en ambos
 Pregunta:CUALES SON LOS EFECTOS QUE GENERA LA APELAefectos, comprendiendo devolutivo y suspensivo a la vez.
 
-## Cion?
+Cion?
 
 La concesion del recurso de apelacion puede generar efecto
 Pregunta:COMO SE CONCEDE PORREGLA GENERALEN MATEdevolutivo y efecto suspensivo.
 
-## Ria civil?
+Ria civil?
 
 1)El efecto devolutivo es de la esencia, no puede faltar en la
 Por regla general, en materia civil se concede en ambos efecapelacion. Su objeto es dar competencia al tribunal supetos. (Arts. 193, 194 y 195 C.P.C.) Pero en la practica la regla
@@ -7552,11 +8928,11 @@ ejecutivos,cuandocs deducidapor eldemandante oejecu
 tante.
 Pregunta:CUAL SERIA LA SANCION PARA LOSACTOS DE UN TRIBUNAL DE PRIMERA INSTANCIA,QUE HA CONTINUATODEVOLUTIVO.
 
-## Do actuandoen elproceso a pesar de haberse
+Do actuandoen elproceso a pesar de haberse
 
 Las excepciones estan en el art. 194 C.P.C.:
 
-## Concedido apelacion enambos efectos?
+Concedido apelacion enambos efectos?
 
 1)）La sentencia definitiva en juicios sumarios y ejecutivos cuanTodo lo obrado por ese tribunal adolecera de nulidad, por
 dolaapelacionesdeducidaporel demandadooejecutado.
@@ -7565,7 +8941,7 @@ falta de competencia.
 3)Las resoluciones pronunciadas en el incidente sobre ejecuPregunta: ES TOTAL LA SUSPENSION DE LA COMPETENCIA DEL
 cion de una sentencia firme,definitiva ointerlocutoria.
 
-## Tribunalinferior?
+Tribunalinferior?
 
  4) Las resoluciones que ordenen alzar medidas precautorias.
 No, porque el tribunal inferior puede atender todos los asun5)Todas las demas resoluciones que por disposicion de ley solo
@@ -7574,6 +8950,18 @@ Cadiosit GlSuriala
 Biliorich BtSuritw
 
 ## MARiA CERRA ORTIZ
+
+**Definición Canónica:** Pregunta: &QUE ES LA ORDEN DE NO INNOVAR?
+-Queda radicado el conocimiento de la apelacion en la sala
+Es la facultad que tiene el tribunal superior para suspender
+que concedio la orden de no innovar y goza de preferencia
+la tramitacion del proceso en el tribunal inferior, cuando se ha
+para su fallo.
+concedido apelacion en el solo efecto devolutivo,a peticion de
+b)Si no es concedida.
+partey por resolucion fundada.
+No se generan los efectos senalados. El recurso de apelacion
+sera visto por la sala, conforme a la preferencia que pueda
 
 Pregunta: &QUE ES LA ORDEN DE NO INNOVAR?
 -Queda radicado el conocimiento de la apelacion en la sala
@@ -7587,21 +8975,17 @@ partey por resolucion fundada.
 No se generan los efectos senalados. El recurso de apelacion
 sera visto por la sala, conforme a la preferencia que pueda
 
-## Pregunta: REQUISITOS DE PROCEDENCIA DE LA ORDEN DE NO
-
-corresponderle segun lasreglas generales.
-INNOVAR.
-1)Que se haya concedido apelacion en el solo efecto devolutivo.
-
 ## Pregunta: QUE ES LA CONSULTA? O gEN QUE CASOS LA SENTENCIA QUE NO ES REVISADA POR EL SUPERIOR POR
+
+**Definición Canónica:** Que el apelante formule solicitud de orden de no innovar
 
 Que el apelante formule solicitud de orden de no innovar
 
-## Medio de la apelacion puede ser revisada por
+Medio de la apelacion puede ser revisada por
 
 ante el tribunal de alzada.
 
-## Otro medio?
+Otro medio?
 
 3)Que el tribunal de alzada dicte resolucion fundada para los
 La sentencia no revisada por via de apelacion puede serlo por
@@ -7716,6 +9100,18 @@ la sentencia apelada en la parte que estima le causa agravio.
 
 ## Pregunta: CUALES SON LOS ACTOS QUE LA COMPONEN?
 
+**Definición Canónica:** Se aplica solo en casos de sentencias que no han acogido
+integramente la pretension de alguna de las partes, o en que se
+1) Notificacion del decreto autos en relacion.
+han acogido pretensiones de ambas, pero se ha rechazado otras,
+2) Fijacion de la causa en tabla.
+por lo cual ambas sufren perjuicio.
+3) Instalacion del tribunal.
+4) Anuncio de la causa.
+Pregunta: QUIEN PUCDE ADHERIR?
+5) Vista de la causa: relacion y alegatos.
+Todo apelado, si el fallo le causa agravio por no haber obtenido lo que pretendia o por haberlo obtenido solo en parte.
+
 Se aplica solo en casos de sentencias que no han acogido
 integramente la pretension de alguna de las partes, o en que se
 1) Notificacion del decreto autos en relacion.
@@ -7730,6 +9126,12 @@ Todo apelado, si el fallo le causa agravio por no haber obtenido lo que pretendi
 
 ## Pregunta: COMO CONOCEN LAS CORTES DE APELACIONES?
 
+**Definición Canónica:** Pregunta: REQUISITOS PARA ADHERIR A LA APELACION.
+Conocen en pleno y en sala.
+1）（
+Que el adherente sea apelado,es decir, que sea aquella de
+las partes en cuyo perjuicio se pretende enmendar el fallo a
+
 Pregunta: REQUISITOS PARA ADHERIR A LA APELACION.
 Conocen en pleno y en sala.
 1）（
@@ -7737,6 +9139,23 @@ Que el adherente sea apelado,es decir, que sea aquella de
 las partes en cuyo perjuicio se pretende enmendar el fallo a
 
 ## Pregunta: COMO RESUELVEN LAS CORTES DE APELACIONES?
+
+**Definición Canónica:** traves delrecurso de apelacion.
+Resuelven “en cuenta", o *previa vista de la causa".
+Que la sentencia respectiva cause agravios al adherente,
+en la parte que lo estime gravoso el apelado (Art. 216 del
+C.P.C).
+Pregunta: CUAL ES LA REGLA GENERAL?
+Que se encuentre pendiente un recurso de apelacion deducia)Regla general.
+do por la parte contraria;
+“"Previa vista de la causa": se resuelven los asuntos jurisdicQue el'adherente no hubiere apelado en tiempo y forma y
+cionales.
+perdido su recurso de apelacion.
+Glariab Ghguosisla
+Bilitorieb Gl guoriate
+Prcgunta: OPORTUNIDAD PARA ADHERIR.
+Excepciones:
+1)
 
 traves delrecurso de apelacion.
 Resuelven “en cuenta", o *previa vista de la causa".
@@ -7789,7 +9208,7 @@ ra, aun cuando no hayan sido falladas.
 El tribunal de segunda puede resolver todas las cuestiones
 Pregunta: CUAL ES LA COMPETENCIA DEL TRIBUNAL DE SEGUNde hecho y derecho que sean pertinentes y se hallen comprendidas en la causa, aunque no se hayan discutido, ni
 
-## Da instancia?
+Da instancia?
 
 fallado en la sentencia de primera.
 Para determinarla hay tres reglas:
@@ -7818,10 +9237,13 @@ Esto solo se aplica en materia civil, porque en materia penal la decision favora
 seaprocedente la revision por via de consulta.
 apelo, puede aprovechar a los demas siempre que los fundamentos en que se base no sean exclusivos del apelante.
 
-## Pregunta: 2QUE RECURSOS PROCEDEN EN CONTRA DE LA RESOLUCION QUE DECLARA LA DESERCION?
-
-
 ## Pregunta: &QUE ES LA DESERCION DE LA APELACION?
+
+**Definición Canónica:** -Reposicion dentro de tercero dia.
+Es la sancion procesal para el apelante que no cumple cier
+Casacion, porque es interlocutoria que pone termino al juitas exigencias legales necesarias para que el tribunal superior
+cio.
+pueda conocer del recurso.
 
 -Reposicion dentro de tercero dia.
 Es la sancion procesal para el apelante que no cumple cier
@@ -7830,6 +9252,15 @@ cio.
 pueda conocer del recurso.
 
 ## Pregunta:QUE ES ELDESISTIMIENTO DE LA APELACION?
+
+**Definición Canónica:** Progunta: &CUANDO SE PRODUCE LA DESERCION DE LA APELAEs la renuncia expresa que hace el apelante del recurso que
+interpuso.
+-En prlmera instancta: Cuando se ha concedido la apelacion en el efecto devolutivo y el apelante no deposita en secretaria del tribunal que la concedio, la suma necesaria para las
+Pregunta:CUANDO SE PRODUCE?
+fotocopias o.compulsas, dentro del plazo de 5 dias desde que se
+Puede producirse tanto en primera como en segunda instannotifica la resolucion que lo concede.
+cia.No tiene tramitacion especial y debe ser resuelto de plano
+-En segunda instancia: Cuando el apelante no c
 
 Progunta: &CUANDO SE PRODUCE LA DESERCION DE LA APELAEs la renuncia expresa que hace el apelante del recurso que
 interpuso.
@@ -7845,7 +9276,7 @@ acuerdo.
 secretaria del tribunal de segunda.
 Pregunta: PUEDE DESISTIRSE DE LA APELACION EL MANDATAPregunta: QUIEN PUEDE SOLICITAR LA DECLARACION DE DECULTADESEXTRAORDINARIASDELMANDATO?
 
-## Sercion?
+Sercion?
 
 El mandatario a quien no se le han concedido las facultades
 1)El apelado puede pedirla cuando el apelante no comparece al
@@ -7866,6 +9297,19 @@ definitiva".
 termino al juicio.
 
 ## Pregunta: CUANDO SE PRODUCE LA PRESCRIPCION DE LA APELACION?
+
+**Definición Canónica:** Pregunta: PRUEBA EN SEGUNDA INSTANCIA EN MATERIA CIVIL.
+Se produce cuando se ha concedido una apelacion, y las partes
+a)
+Regla general.En segunda instancia no se admitira prueba
+dejan transcurrir cierto tiempo sin hacer gestion alguna para que
+alguna.
+el recurso quede en estado de fallarse por el tribunal superior.
+Excepciones:Lo dispuesto en los articulos 310,348y 385,y
+sin perjuicio del 207.
+Pregunta: CUAL ES EL PLAZO DE PRESCRIPCION DE LA APELA1)Art.3i0. Si se hacen valer en segunda instancia las exCION?
+cepciones de prescripcion, cosa juzgada, pago efectivo de la
+1)Si se trata de sentencia
 
 Pregunta: PRUEBA EN SEGUNDA INSTANCIA EN MATERIA CIVIL.
 Se produce cuando se ha concedido una apelacion, y las partes
@@ -7888,6 +9332,23 @@ Requisitos:
 
 ## Pregunta: REQUISITOS PARA OECLARAR LA PRESCRIPCION DE LA
 
+**Definición Canónica:** (c) Se fallan en definitiva, en unica instancia.
+APELACION.
+2)Art.348.Prueba documental.
+1)Que las partes dejen de practicar gestion util necesaria para
+que el tribunal de segunda instancia quede en condiciones
+Requisitos:
+de fallar el recurso.
+(a) Solo puede agregarse hasta la vista de la causa.
+2)
+Que hayan pasado tres meses si es definitiva, o un mes si es
+(b) La agregacion no suspendera en ningun caso la vista de
+interlocutoria,auto o decreto.
+la causa, pero el tribunal no podra fallarla hasta vencido el
+plazo de citacion, si procede.
+3)Que cualquiera de las partes pida la declaracion.
+3) 
+
 (c) Se fallan en definitiva, en unica instancia.
 APELACION.
 2)Art.348.Prueba documental.
@@ -7906,7 +9367,7 @@ plazo de citacion, si procede.
 3) Art. 385. Absolucion de posiciones.
 Pregunta: ZANTE QUE TRIBUNAL PUEDE PEDIRSE LA PRESCRIPRequisitos:
 
-## Cion de la apelacion?
+Cion de la apelacion?
 
 (a) Puede pedirse hasta antes de la vista de la causa.
 Ante aquel ante el cual se han dejado de practicar las gestio-
@@ -7916,7 +9377,7 @@ nuevos, puede pedirse una vez mas.
 4)Art. 2o7. Prueba de testigos como medida para mejor resolPregunta: QUE RECURSOS PROCEDEN CONTRA LA RESOLUCION
 ver decretada por el tribunal.
 
-## Que declara la prescripcion?
+Que declara la prescripcion?
 
 Requisitos:
 1.Reposicion dentro de tercero dia fundado en error de hecho.
@@ -7934,7 +9395,7 @@ para resolver.
 E
 5) Se puede agregar la prueba rendida fuera del tribunal para
 
-## Recursodehecho
+Recursodehecho
 
 que conozca el de segunda instancia.
 Pregunta: QUE ES EL RECURSO DE HECHO?
@@ -7948,12 +9409,17 @@ En los casos en que el tribunal de alzada tramite las cuestiones accesorias como
 
 ## PregUnta:ANTE QUE TRIBUNAL SE INTERPONE?
 
+**Definición Canónica:** cuenta" u ordenar que se traigan en'relacion los autos para resolver, es decir,“previa vista de la causa".
+Ante el superior jerarquico, por la parte agraviada que puede
+ser apelante o apelado.
+Pregunta:QUE RECURSOS PROCEDEN EN CONTRA DE LA RESOLUCION QUE RCCAIGA ENLOSINCIDENTES PRODUCIPregunta: CUANDO PUEDE INTERPONERSE EL RECURSO DE HEDOSENSEGUNDAINSTANCIA?
+
 cuenta" u ordenar que se traigan en'relacion los autos para resolver, es decir,“previa vista de la causa".
 Ante el superior jerarquico, por la parte agraviada que puede
 ser apelante o apelado.
 Pregunta:QUE RECURSOS PROCEDEN EN CONTRA DE LA RESOLUCION QUE RCCAIGA ENLOSINCIDENTES PRODUCIPregunta: CUANDO PUEDE INTERPONERSE EL RECURSO DE HEDOSENSEGUNDAINSTANCIA?
 
-## Cho?
+Cho?
 
 1)Si se trata de un auto, procede reposicion.
 I.-Cuando el tribunal inferior no concede un recurso de apela2)Si se trata de una sentencia interlocutoria de primer grado:
@@ -7968,20 +9434,26 @@ error de hecho.
 
 ## 2. Que el recurso de apelacion se hubiere interpuesto dentro
 
+**Definición Canónica:** 3)Las resoluciones que recaigan en los incidentes que se prodel plazo legal y el juez inferior estime que no fue sino desmuevan en segunda instancia, se dictaran solo por el tribupues de vencido;
+nal de alzada y no seran apelables. Art. 210 C.P.C.
+
 3)Las resoluciones que recaigan en los incidentes que se prodel plazo legal y el juez inferior estime que no fue sino desmuevan en segunda instancia, se dictaran solo por el tribupues de vencido;
 nal de alzada y no seran apelables. Art. 210 C.P.C.
 
-## 3. Que el escrito respectivo contenga los fundamentos de he-
-
-- Excepcion: Puede deducirse apelacion en contra de la resolucion en la cual el tribunal de alzada declare su incompecarece de ellos; y
-tencia para conocer.
-
-## 4. Que en el escrito respectivo se hubieren formulado peBudinriu Blgurinte
-
-Bdlitorial Ghuriate
-ticiones concretas y que el tribunal inferior estime que se
-
 ## Pregunta: COMO PUEDE RESOLVER EL TRIBUNAL DE ALZADA EL
+
+**Definición Canónica:** omitieron.
+RECURSO DEHECHOVERDADERO?EFECTOS.
+I1.-Cuando el tribunal inferior concede un recurso de apelacion
+a) El tribunal puede acoger el verdadero recurso de hecho.
+que no debiohaber concedido.
+- Si determina que la apelacion procede en ambos efectos,
+III.- Cuando el tribunal inferior concede en el solo efecto devoluordenara al inferior la remision del proceso,o lo retendra si
+tivo un recurso de apelacion que debio haber concedido en
+se halla en su poder, y le dara la tramitacion que corresponambos efectos.
+da. (Art. 205 C.P.C).
+IV.-Cuando el tribunal inferior concede el recurso en ambos
+To
 
 omitieron.
 RECURSO DEHECHOVERDADERO?EFECTOS.
@@ -8003,6 +9475,13 @@ de la apelacion que quito competencia al tribunal a quo. (Art.
 
 ## Pregunta:&CUANDO EXISTE RECURSO DE HECHO VERDADERO?
 
+**Definición Canónica:** 206 C.P.C.).
+Cuando se deniega la apelacion que debio concederse.En los
+-Si determina que la apelacion procede en el solo efecto
+otros tres casos se llama falso recurso de hecho.
+devolutivo,el tribunal comunicara al tribunal inferior la resolucion que acogio el recurso de hecho y le ordenara que
+remita compulsas para dar la tramitacion que corresponda a
+
 206 C.P.C.).
 Cuando se deniega la apelacion que debio concederse.En los
 -Si determina que la apelacion procede en el solo efecto
@@ -8011,6 +9490,17 @@ devolutivo,el tribunal comunicara al tribunal inferior la resolucion que acogio 
 remita compulsas para dar la tramitacion que corresponda a
 
 ## PrOgUnta:ANTE QUE TRIBUNAL SE INTERPONE?
+
+**Definición Canónica:** la apelacion que fue denegada.
+Ante el tribunal que debe conocer de la apelacion.
+En este caso, no se produce la nulidad de las gestiones realizadas ante el tribunal de primera instancia posteriores a la
+negativa a conceder la apelacion.No se produce la nulidad
+porque el efecto devolutivo mantuvo la competencia del triDADERO.
+bunal de primera instancia para seguir conociendo del asunCinco dias, mas aumento segun tabla de emplazamiento,
+to.
+contados desde la notificacion de la resolucion que lo deniega.
+El tribunalpuede rechazar el recurso de hechoverdadero.
+En este caso,lo comunica al tribunal
 
 la apelacion que fue denegada.
 Ante el tribunal que debe conocer de la apelacion.
@@ -8026,8 +9516,9 @@ el proceso que se hubiere elevado. (Art. 205 C.P.C.).
 
 ## Pregunta: JQUE PARTICULARIDAD TIENE LA TRAMITACION DE
 
+**Definición Canónica:** Este recurso?
 
-## Este recurso?
+Este recurso?
 
 Pregunta: DIFERENCIAS EN LA TRAMITACION DEL FALSO RECURCon la solicitud del agraviado por la denegacion del recurso,
 SO DE HECHO.
@@ -8044,15 +9535,15 @@ la causa.
 Gdisrir BFeviett
 Enlioriab GlGurita
 
-## Maria cerraortiz
+Maria cerraortiz
 
 
-## Mily unapreguntas en derecho procesal civil
+Mily unapreguntas en derecho procesal civil
 
 F
 3)Causales ESPECIALES: En los juicios de minima cuantia.
 
-## Recursodecasacionenlaforma
+Recursodecasacionenlaforma
 
 Pregunta: &QUE SIGNIFICA CASACION?
 LA FORMA.
@@ -8072,6 +9563,18 @@ tornaviciosoelprocedimientoo cuandonosehancumplidolos
 rcquisitos que la ley establece para la validez de los fallos judiciales,
 
 ## Pregunta: COMO SE INTERPONE EL RECURSO DE CASACION EN
+
+**Definición Canónica:** Pregunta:QUE RESOLOCIONES SON SUSCEPTIBLES DE CASASe presentapor escrito ante el tribunal quepronuncio la reCIONENLAFORMA?
+solucion recurrida,asi debera:
+1)Sentencias definitivas o interlocutorias que ponen terrmino al
+1)
+Expresar el vicio o defecto en que se funda la sentencia recujuicio o hacen imposible su'continuacion.
+rrida;
+Sentencias interlocutorias que no ponen termino al juicio 0
+2)Debe mencionar la ley que concede el recurso por la causal
+hacen imposible su continuacion siempre que hayan sido dicque se invoca;
+tadas en segunda instancia sin previo emplazamiento de la
+Senalar la forma
 
 Pregunta:QUE RESOLOCIONES SON SUSCEPTIBLES DE CASASe presentapor escrito ante el tribunal quepronuncio la reCIONENLAFORMA?
 solucion recurrida,asi debera:
@@ -8107,7 +9610,7 @@ resolucion que trata de invalidarse.
 Gliuwrial GhSeriste
 MARIACERRAORTIZ.
 
-## Mily una preguntas enderecho procesal civil
+Mily una preguntas enderecho procesal civil
 
 2)Tribunal ad quem, cl superior jerarquico para ante el cual se
 interpone correspondiendole conocer y fallar el recurso.
@@ -8118,9 +9621,11 @@ Pregunta: TRAMITACION DEL RECURSO DE CASACION EN LA FORMA ANTE EL TRIBUNAL A QUO
 
 ## Prcgunta: QUE SIGNIFICA PREPARAR EL RECURSO DE CASACION
 
+**Definición Canónica:** 1)El tribunal a quo debe revisar: (1) si se interpuso en tiempo,
+
 1)El tribunal a quo debe revisar: (1) si se interpuso en tiempo,
 
-## En la forma?
+En la forma?
 
 y (2) que tenga patrocinio de abogado.
 Esto significa que para que pueda ser admitido la parte que
@@ -8132,6 +9637,19 @@ resuelve la reposicion es inapelable.
 3)La resolucion que lo declara admisible no es fundada. Debe
 
 ## Pregunta: CUANDO NO ES NECESARIO PREPARARLO?
+
+**Definición Canónica:** determinar las piezas que deben compulsarse o fotocopiar1)Cuando la LEY NO ADMITE RECURSO ALGUNO en contra
+se.
+de la resolucion a que da lugar el recurso.
+4) El recurrente debe hacer deposito (igual que en apelacion).
+CuandolaFALTA OVICIOHATENIDO LUGARENLASENSi el recurso es admisible se ordena la remision de los autos
+TENCIA MISMA,que se trata de casar, se da cn el caso que
+al tribunal ad quem, que debe ser franqueada por el recuantes no hubo oportunidad de entablar el recurso.
+rrente.
+Cuando la FAL'TA ha llegado al conocimiento de la parte,
+DESPUES DE PRONUNCIADALA SENTENCIA.
+4）（
+Cuando se t
 
 determinar las piezas que deben compulsarse o fotocopiar1)Cuando la LEY NO ADMITE RECURSO ALGUNO en contra
 se.
@@ -8153,6 +9671,16 @@ Revisa si cumple con los siguientes requisitos: plazo,procedencia,vicio y causal
 
 ## Pregunta:PUEDE HABER PRUEBA EN LA CASACION EN LA FORMA?
 
+**Definición Canónica:** 3)
+Si el tribunal encuentra meritopara declararlo inadmisible,
+lo declara sin lugar por resolucion fundada. Contra la resoSolo para probar la causal alegada.En este caso el tribunal
+lucion que lo declara inadmisible procede recurso de reposiabre un probatorio que no puede exceder de 30 dias. La prueba
+cion dentro de tercero dia, que debe ser fundado.
+queda restringida a la comprobacion de los hechos que sirven de
+fundamento a la causal o.causales invocadas.
+4）Si el tribunal lo declara admisible,y tambien si estima una
+posible casacion de oficio, ordena traer autos en relacion.
+
 3)
 Si el tribunal encuentra meritopara declararlo inadmisible,
 lo declara sin lugar por resolucion fundada. Contra la resoSolo para probar la causal alegada.En este caso el tribunal
@@ -8164,6 +9692,22 @@ fundamento a la causal o.causales invocadas.
 posible casacion de oficio, ordena traer autos en relacion.
 
 ## Pregunta:MANERAS DE TERMINAR ELRECURSO DE CASACION
+
+**Definición Canónica:** Las partes deben comparecer en la misma forma, plazo y
+EN LA FORMA.
+sanciones que para la apelacion.
+1)Forma normal. Fallo que acoge o rechaza el recurso.
+GditeariabGPariste
+GatiariulGkFuristes
+2)Desercion:
+Ambas cosas las hace en la misma sentencia de casacion:
+-- Por no sacar compulsas dentro de plazo.
+anular la recurrida y dictar la que corresponda.
+- Por no franquear la remision de los autos.
+- Por no comparecer ante el tribunal ad quem dentro de
+Pregunta: EFECTOS DE LA INTERPOSICI6N DEL RECURSO DE CAplazo.
+SACION EN LA FORMA.
+Prescripcion. Igual que en la apelacion. Tres meses si definiAr
 
 Las partes deben comparecer en la misma forma, plazo y
 EN LA FORMA.
@@ -8201,6 +9745,22 @@ Contra excepciones en que el demandado o ejecutado no
 
 ## Pregunta:FALLO QUE ACOGEELRECURSO DE CASACION CN LA
 
+**Definición Canónica:** puede pedir suspension pidiendo que lapartevencedora rinFORMA.
+da fianza de resultas:
+Si el tribunal acoge el recurso, debe,en la misma sentencia,
+(1) Juicios ejecutivos.
+anular cl fallo recurrido indicando el estado al que se repone el
+(2) Juicios posesorios.
+proceso para que sea tramitado y fallado por el tribunal a quicn
+(3) Juicios de desahucio.
+le hubiera tocado conocer si el que la pronuncio hubiera sido
+(4) Juicios de alimentos.
+recusado.
+El tribunal no es obligado a invalidar el fallo recurrido,si
+G
+el vicio consiste en falta de decision de una accion o excepcion
+opuesta oportunamente.
+
 puede pedir suspension pidiendo que lapartevencedora rinFORMA.
 da fianza de resultas:
 Si el tribunal acoge el recurso, debe,en la misma sentencia,
@@ -8217,7 +9777,7 @@ G
 el vicio consiste en falta de decision de una accion o excepcion
 opuesta oportunamente. En este caso el tribunal ad quem puede
 
-## Recurso de casacion enelfondo
+Recurso de casacion enelfondo
 
 devolverlo y ordenar al de primera instancia que lo complete.
 Pero, si el vicio que dio lugar al recurso fue ultrapetita, ha.
@@ -8233,6 +9793,18 @@ fraccion sustancialmente en lo dispositivo del fallo.
 BalitoriaGkSeritw
 
 ## Pregunta: RESPECTO DE QUE RESOLUCIONES PROCEDE?
+
+**Definición Canónica:** sobrelacuestion dederechoobjetodelrecurso,endiversos
+Sentencias definitivas e interlocutorias que pongan termino
+fallos.
+al juicio o hagan imposible su continuacion, que sean inapelab)
+Quedebe examinar el tribunalpara declararloadmisible?
+Debe examinar si se interpuso en tiempo,si la resolucion
+tribunales arbitrales de derecho en los casos en que conocen de
+es susceptible de ser casada, si el escrito expresa en que
+materias de competencia de las Cortes de Apelaciones.
+consiste el error de derecho invocado como causal (infraccion de ley que influye sustancialmente, etc.), y si senala la
+forma e
 
 sobrelacuestion dederechoobjetodelrecurso,endiversos
 Sentencias definitivas e interlocutorias que pongan termino
@@ -8255,6 +9827,21 @@ lo dispositivo del fallo.
 0Plazopara fallar.40dias siguientes a lavista.
 
 ## Pregunta: INTERPOSICION DEL RECURSO DE CASACION EN EL
+
+**Definición Canónica:** Pregunta: FALLO DEL RECURSO DE CASACION EN EL FONDO.
+FONDO.
+1)St acoge el recurso,dicta de inmediato dos sentencias.
+1)Se interpone ante el tribunal que pronuncio la sentencia que
+se trata de anular (Corte de Apelaciones o tribunal arbitral
+-Sentencia de casacion,por la cual invalida la sentencia
+de derecho).
+recurrida.
+Conoce la Corte Suprema.
+- Sentencia de reemplazo, por la cual falla el pleito, aplican
+do e interpretando correctamcnte la ley pero manteniendo
+Plazo para interponerlo: 15 dias desde la notificacion de la
+las consideraciones de hecho de la sentencia recurrida.
+sentencia recurr
 
 Pregunta: FALLO DEL RECURSO DE CASACION EN EL FONDO.
 FONDO.
@@ -8295,11 +9882,11 @@ Esta resolucion debe ser fundada y cs susceptible de reposicion.
 -Si la causal es vicio del procedimiento, debe casar, y determinar el estado en que queda el proceso, facultando al tribu--
 Pregunta: POR QUE CAUSAL PROCEDE LA CASACION EN EL FONnal competente para conocery dictar una nueva sentencia.
 
-## Do respecto de la decision civil de una senten-
+Do respecto de la decision civil de una senten-
 
 --Si se trata de otra causal,debe anular el fallo y fallar en
 
-## Cia criminal?
+Cia criminal?
 
 una misma sentencia.
 Por Ia causal generica del 767 del C.P.C.: infraccion de ley
@@ -8314,14 +9901,25 @@ del fallo.
 H
 I
 
-## Casacion de oficio
+Casacion de oficio
 
 
-## Recursoderevision
+Recursoderevision
 
 Progunta: QUE ES LA CASACION DE OFICIO?
 
 ## PregUnta:QUE ES EL RECURSO DE REVISION?
+
+**Definición Canónica:** Es la facultad que tiene el tribunal para invalidar de oficio
+una resolucion judicial de que conoce por via de apelacion,
+Es un derecho que tienen los afectados por la cosa juzgada
+consulta,casacion o cualquier otra incidencia,cuando apaderivada de una sentencia, para solicitar a la Corte Suprema que
+recen de manifiesto vicios que'autorizan la interposicion del
+la revise, cuando la favorece alguna de las causales legales.
+recurso.
+Pregunta: NATURALEZA JURIDICA DEL RECURSO DE REVISION.
+Pregunta: CASACION EN LA FORMA DE OFICIO.
+Tecnicamente no es un recurso, ya que no concurre el requisito basic
 
 Es la facultad que tiene el tribunal para invalidar de oficio
 una resolucion judicial de que conoce por via de apelacion,
@@ -8342,6 +9940,14 @@ bien pueden pedirla. El tribunal debe oir a los abogados indicandoles los posibl
 
 ## Pregunta: 2CONTRA QUE RESOLUCIONES PROCEDE?
 
+**Definición Canónica:** Requisitos para que proceda. Que el tribunal este cono-
+-- Regla general: Contra cualquier sentencia firme, cualquieciendo del asunto; que exista un vicio que autorice la cara sea la cuantia o el tribunal que la dicto.
+sacion en la forma por alguna de las causales legales; que
+-- Excepcion: sentencias dictadas por la Corte Suprema coaparezca de manifiesto el vicio.
+nociendo los recursos de revision o casacion.
+Bdiaria GhFeriote
+Gelitoia ClSuriets
+
 Requisitos para que proceda. Que el tribunal este cono-
 -- Regla general: Contra cualquier sentencia firme, cualquieciendo del asunto; que exista un vicio que autorice la cara sea la cuantia o el tribunal que la dicto.
 sacion en la forma por alguna de las causales legales; que
@@ -8352,9 +9958,11 @@ Gelitoia ClSuriets
 
 ## Pregunta: CUAL ES EL TRIBUNAL COMPETENTE PARA CONOCER
 
+**Definición Canónica:** Art.811 inc.3 C.P.C.:“Sin embargo, si al terminar el ano no
+
 Art.811 inc.3 C.P.C.:“Sin embargo, si al terminar el ano no
 
-## Del recurso de revision?
+Del recurso de revision?
 
 sehaauinfalladoel juiciodirigidoacomprobar lafalsedadde
 Siempre debe interponerse ante la Corte Suprema que tiene
@@ -8369,6 +9977,20 @@ La parte agraviada.
 Pregunta: FORMA DE INTERPONER EL RECURSO DE REVISION.
 
 ## Pregunta: CAUSALES QUE AUTORIZAN LA INTERPOSICION DEL
+
+**Definición Canónica:** 1)En materia civil: por escrito,mencionando la causal y los
+RECURSO DEREVISION.
+antecedentes o documentos que la acreditan.
+Art. 810 C.P.C.
+2)En materia penal: lo mismo,pero:
+-Si la sentencia se ha fundado en documentos declarados fal-
+-Si la causal es que esta sufriendo condena por el homicidio
+sos por sentencia ejecutoriada, dictada con posterioridad a
+de una persona cuya existencia se ha comprobado despues
+la sentencia que se trata de rever.
+de la sentencia,debe sehialar los medios con que intenta pro
+barlo,
+Si la sentencia se ha dictado en virtud de prueba de testigos,y estos han sido cond
 
 1)En materia civil: por escrito,mencionando la causal y los
 RECURSO DEREVISION.
@@ -8408,7 +10030,7 @@ Pregunta: TRAMITACION DEL RECURSO DE REVISION.
 J
 1)El tribunal lo declarara inadmisible si se ha interpuesto fuera del plazo de un ano.
 
-## Recursodequeja
+Recursodequeja
 
 2)Si lo declara admisible.
 Pregunta: CONCEPTO DEL RECURSO DE QUEJA.
@@ -8475,6 +10097,18 @@ casos en que hay falta o abuso grave:
 
 ## Pregunta: EFECTOS DE LA INTERPOSICION DEL RECURSO DE
 
+**Definición Canónica:** a)Cuando hay errada interpretacion de la ley porvulnerar el
+QUEJA.
+juez las reglas legales establecidas al efecto en los arts.19 a
+24 C.C.
+La sola interposicion del recurso de queja no suspende el
+procedimiento, ni impide que la resolucion a que se refiere prob）Cuando el juez,no obstante el texto expreso de la ley, incuduzca todos sus efectos.
+rre cn contravencion formal dela rmisma al apartarse de ella
+en la dictacion dela sentencia.
+Para lograr la suspension,el recurrente debera solicitar que
+se dicte orden de no innovar, en cualquier estado del recurso.
+Cuando el juez al fallar hace, arbitr
+
 a)Cuando hay errada interpretacion de la ley porvulnerar el
 QUEJA.
 juez las reglas legales establecidas al efecto en los arts.19 a
@@ -8538,12 +10172,22 @@ K
 el recurrente, y que constituirian la falta o abuso grave que
 se imputa al juez o jueces recurridos.
 
-## Recursode revocacionomodificacion
+Recursode revocacionomodificacion
 
 -- Plazo para informar: es un plazo'lcgal y fatal de 8 dias contados desde la fecha de la recepcion del oficio por parte del
 tribunal recurrido.
 
 ## Pregunta: 2CUAL ES EL CONCEPTO DE ESTE RECURSOP
+
+**Definición Canónica:** -- Sancion si no se rinde informe oportunamente: el recurso
+Este recurso tiene por objeto obtener la enmienda de una
+de queja se vera en la Corte sin el informe del juez o jueces
+resolucion judicial no contenciosa,ante el mismo tribunal que
+recurridos,lo que puede tencr incidencia en sus calificaciola dicto,y siernpre que hubieren variado las circunstancias que
+nes.
+motivaron su pronunciamiento.Art.821 del Cod.Proc.Civil.
+-- Vencido el plazo de 8 dias, con el informe o sin él, se procede a la vista del recurso, agregandose preferentemente a la
+Pregunta: CUALES SON LAS CARACTERISTICAS DE ESTE R
 
 -- Sancion si no se rinde informe oportunamente: el recurso
 Este recurso tiene por objeto obtener la enmienda de una
@@ -8576,10 +10220,17 @@ interposicion.
 BliorinlBJuriale
 BidlitariahGlFariate
 
-## Mily unapreguntas enderechoprocesalcivil
-
+Mily unapreguntas enderechoprocesalcivil
 
 ## Pregunta: gCOMO RESUELVE ESTE RECURSO EL TRIBUNAL?
+
+**Definición Canónica:** 6)Puede deducirse por cualquier persona;
+De plano.
+7) Es un atributo de la personalidad;
+L
+8) Es urgente asi lo demuestra el art. 21 de la Constitucion
+Politica de la Republica con la expresion“inmediata".
+**Concordancias Legales:** Constitucion Politica
 
 6)Puede deducirse por cualquier persona;
 De plano.
@@ -8588,10 +10239,24 @@ L
 8) Es urgente asi lo demuestra el art. 21 de la Constitucion
 Politica de la Republica con la expresion“inmediata".
 
-## Recursodeamparo
-
+Recursodeamparo
 
 ## Pregunta: COMO SE CLASIFICA EL AMPARO CONSTITUCIONAL?
+
+**Definición Canónica:** Pregunta: QUE ES EL RECURSO DE AMPARO?
+Se clasifica en:
+Es la accion destinada a terminar una detencion arbitraria e
+1)Recurso de amparo propiamente tal. (Art. 21 incisos 1 y 2
+ilegal dictada en contra de persona determinada.
+C.P.R.);
+2)Recurso de amparo preventivo. (Art. 21 inciso 3 C.P.R.).
+Pregunta: CLASIFICACION DEL RECURSO DE AMPARO.
+Puede ser:
+Pregunta:CUAL ES EL OBJETO DEL AMPARO CONSTITUCIO.
+1)
+CONSTIrUCIONAL. Este a su vez puede ser: 1] Amparo proNAL?
+piamente tal;y 2] Amparopreventivo.
+Evitar o corregir privaciones o restricciones de libertad arbiPROCESAL.Medio franqueado por la ley 
 
 Pregunta: QUE ES EL RECURSO DE AMPARO?
 Se clasifica en:
@@ -8612,6 +10277,15 @@ privacion de libertad.Art. 95 Cod. Proc.Penal.
 
 ## Pregunta:QUE GARANTIZA ELRECURSO DE AMPARO?
 
+**Definición Canónica:** Pregunta.&CuAl ES ELAMPARO CONSTrTUCIONAL?
+Se garantiza la libertad personal, afectada de dos maneras:
+“Es el derecho que establecen las leyes en beneficio de todo
+1) Anulandola; y
+individuoquesehallepresoodetenidoilegalmenteoqueexista'en
+su contra orden de detencion,para que se le ponga en libertad o se
+2)Limitando su legitimo ejercicio.
+suspenda la orden librada en su contra."(Juan Pinito Duran).
+
 Pregunta.&CuAl ES ELAMPARO CONSTrTUCIONAL?
 Se garantiza la libertad personal, afectada de dos maneras:
 “Es el derecho que establecen las leyes en beneficio de todo
@@ -8621,20 +10295,19 @@ su contra orden de detencion,para que se le ponga en libertad o se
 2)Limitando su legitimo ejercicio.
 suspenda la orden librada en su contra."(Juan Pinito Duran).
 
-## Pregunta: CUAL ES LA NATURALEZA JURIDICA DELAMPARO?
-
-
 ## Pregunta:CUALES SON LAS CARACTERISTICAS DEL AMPARO
 
+**Definición Canónica:** Constitucional?
+**Concordancias Legales:** Constitucion
 
-## Constitucional?
+Constitucional?
 
 Se discute para algunos es una accion y para otros un recurso.
 1) Recurso extraordinario;
 2) Es de breve y sumaria tramitacion;
 Pregunta: CUANDO SE LIMITA LA INTERPOSICION DE ESTE RE3) No es formalista;
 
-## Curso?
+Curso?
 
 4) No hay plazo para deducirlo;
 1) En el estado de sitio;
@@ -8644,7 +10317,7 @@ Biliowria Gh Fueviate
 BadlitorirlGiFurietu
 Pregunta: CUALES SON LAS CAUSALES QUE HACEN PROCEDENel encargado de la carcel o del lugar en que este el detenido
 
-## Te elrecurso?
+Te elrecurso?
 
 0 preso, la demora trae responsabilidad penal.
 1) Arresto;
@@ -8656,7 +10329,7 @@ del informe del Juez o autoridad recurrida, la Corte, previo
 y dispondra que la causa se agregue extraordinariamente a
 la tabla del mismo dia y se resolvera con preferencia a cualPregunta: CUAL ES EL TRIBUNAL COMPETENTE PARA INTERPOquier otro asunto.
 
-## Nereste rccurso?
+Nereste rccurso?
 
 No se suspende la vista de la causa y se ve con o sin alegatos.
 Ante la Corte de Apelaciones respectiva.
@@ -8664,6 +10337,16 @@ El recurso se falla en 24 horas, salvo si para pedir antecedentes se necesite ma
 dias, o por el termino de emplazamiento correspondiente, si
 
 ## PregUnta: QUEN PUEDE INTERPONER EL RECURSOY COMO?
+
+**Definición Canónica:** excede los 6 dias.
+Puede: 1) El afectado; 2) Cualquier persona a su nombre.
+Si se acoge el recurso se ordenara la inmediata libertad del
+Debera interponerse por escrito.
+detenido o preso, o que se subsanen los defectos; si se rechaza,se archivaran los antecedentes,salvo si se deduce
+apelacion.
+Pregunta: REFIERASE A LA TRAMITACION DE ESTC RECURSO.
+1)La tramitacion del amparo es BREVE Y SUMARIA, interpuesPregunta:&QUE RECURSO PROCEOE CONTRA LA RESOLUCION
+to, el secretario consigna el dia y hora cn que la solicitud
 
 excede los 6 dias.
 Puede: 1) El afectado; 2) Cualquier persona a su nombre.
@@ -8675,7 +10358,7 @@ Pregunta: REFIERASE A LA TRAMITACION DE ESTC RECURSO.
 1)La tramitacion del amparo es BREVE Y SUMARIA, interpuesPregunta:&QUE RECURSO PROCEOE CONTRA LA RESOLUCION
 to, el secretario consigna el dia y hora cn que la solicitud
 
-## Quefallaelamparo?
+Quefallaelamparo?
 
 haya llegado,luego se lo pasa'al relator para que de cuenta
 inmediata al Tribunal;
@@ -8735,17 +10418,21 @@ Proc.Penal.
 Pregunta:CUAL.ESEL OBJETO DELRECURSO?
 El objeto del recurso cs que examine la LEGALIDAD de su
 
-## Pregunta:CUAL ES LA TRAMITACIONDLAMPARO DEL CODIGO
-
-privacion de libertad.Art.95 del Cod.Proc.Civil.
-
-## Procesalpenal?
-
-1)）Se interpone el amparo sin ninguna clase de formalidad.
-
 ## Pregunta: CUAL ES LA PROCEDENCIA DE ESTE RECURSOP
 
- 2) Inmediatamente el juez ordena que el individuo sea conduciProcedera a toda persona privada de libertad, tendra deredo a su presencia o se constituye personalmente en el sitio o
+**Definición Canónica:** 2) Inmediatamente el juez ordena que el individuo sea conduciProcedera a toda persona privada de libertad, tendra deredo a su presencia o se constituye personalmente en el sitio o
+cho a ser llevada ante el juez de garantia, se comprende en aqui
+lugar donde éstepermanece,
+arresto,detencion o cual medida cautelar personal,ya que el
+El juez procede a examinar si la privacion legal de libertad se
+es mas amplia que el amparo constitucional. Art. 95 inciso 1,1
+ajusta a derecho, y las condiciones fisicas y psiquicas en que
+parte del Cod. Proc. Civil.
+se encuentra el sujeto privado de ella.
+4)El tribu
+**Concordancias Legales:** constitucion
+
+2) Inmediatamente el juez ordena que el individuo sea conduciProcedera a toda persona privada de libertad, tendra deredo a su presencia o se constituye personalmente en el sitio o
 cho a ser llevada ante el juez de garantia, se comprende en aqui
 lugar donde éstepermanece,
 arresto,detencion o cual medida cautelar personal,ya que el
@@ -8758,6 +10445,13 @@ se encuentra el sujeto privado de ella.
 
 ## Pregunta: CUAL ES LA LIMITACION DE SU INTERPOSICION?
 
+**Definición Canónica:** resolucion judicial en la cual se ordena liberar al afectado 0
+se adoptan las medidas que procedan. (Art. 95 del Cod. Proc.
+1)Debe haber privacion de libertad (no procede amparo prePenal).
+ventivo);
+Gdisialurinto
+Baliariub SlSuriate
+
 resolucion judicial en la cual se ordena liberar al afectado 0
 se adoptan las medidas que procedan. (Art. 95 del Cod. Proc.
 1)Debe haber privacion de libertad (no procede amparo prePenal).
@@ -8765,22 +10459,16 @@ ventivo);
 Gdisialurinto
 Baliariub SlSuriate
 
-## MiL Y UNA PREGUNTAS EN DERECHO PROCESAL CIVIL
-
-M
-"El recurso se interpondra por el afectado o por cualquiera otra
-persona en su nombre, capaz de parecer en juicio, aunque no
-
-## Recursodeproteccion
-
-tenga para ello mandato especial (...)'.
-
 ## Pregunta: CONCEPTO DE RECURSO DE PROTECCION
+
+**Definición Canónica:** Pregunta: PLAZO PARA INTERPONER EL RECURSO DE PROTEC.
+Accion que concede la Constitucion Politica de la Republica a
+**Concordancias Legales:** Constitucion Politica; constitucion
 
 Pregunta: PLAZO PARA INTERPONER EL RECURSO DE PROTEC.
 Accion que concede la Constitucion Politica de la Republica a
 
-## Cion
+Cion
 
 cualquier persona que, a consecuencias de una accion u omision
 arbitraria o ilegal, sufra privacion, perturbacion o amenaza en el
@@ -8796,13 +10484,12 @@ tendientes a restablecer el imperio del derecho y a asegurar la
 Este plazo es fatal.
 debida proteccion del afectado.Anibal Cornejo Manriquez.
 
-## Pregunta:CUAL ES LA TRAMITACION EN PRIMERA INSTANCIAP
-
-
 ## Progunta:CUALESELTRIBUNAL COMPETENTE PARA CONOCER
 
+**Definición Canónica:** Este recurso?
+**Concordancias Legales:** constitucion
 
-## Este recurso?
+Este recurso?
 
 --Presentacion del recurso de proteccion por escrito,y sin mayores requisitos formales.
 La Corte de Apelaciones en cuyo territorio jurisdiccional se
@@ -8825,7 +10512,7 @@ efectiva, la persona o personas, funcionarios o autoridad que
 segun el recurso o en concepto del Tribunal son los causantes del acto u omision arbitraria o ilegal.
 Pregunta: SUJETO LEGITIMADO PARA INTERPONER ESTE REPara la recepcion de este recurso, el Tribunal fijara un plazo
 
-## Curso
+Curso
 
 breve y perentorio.
 Segun el art. 2 del AA de la Corte Suprema sobre la TramiAgregacion de la causa en tabla y vista de la causa. Recibitacion del Recurso de Proteccion de Garantias Constitucionales:
@@ -8833,7 +10520,7 @@ do el informe y los antecedentes requeridos, o sin ellos,el
 Gidiariud Blgurisiw
 Balitoriul BtFerils
 
-## Milyunapreguntas enderechoprocesalcivil
+Milyunapreguntas enderechoprocesalcivil
 
 Tribunal ordenara traer los autos en relacion y dispondra
 Para entrar al conocimiento del recurso o para el mejor acieragregar extraordinariamente la causaala tabla del dia sub--
@@ -8844,14 +10531,14 @@ la resolucion del asunto.
 --Prueba. Procede la prueba pero adecuandose a la concentracion del recurso.Puede rendirse hasta la vista de los recurN
 sos, a traves del escrito de interposicion y los informes.
 
-## Acciones de inaplicabilidad por
+Acciones de inaplicabilidad por
 
 Pregunta: FALLO DEL RECURSO DE PROTECCION
 
-## Inconstitucionalidadde la ley e
+Inconstitucionalidadde la ley e
 
 
-## Inconstitucionalidaddelaley
+Inconstitucionalidaddelaley
 
 La Corte apreciara el recurso, informe y antecedentes de
 acuerdo a las reglas de sana critica,y fallara dentro del plazo de
@@ -8859,9 +10546,12 @@ cinco dias, a excepcion de las garantias contempladas en los nu--
 
 ## Progunta: CONCEPTO DE LA ACCION DE INAPLICABILIDAD POR
 
+**Definición Canónica:** meros 1°, 3° inciso 4°, 12°y 13° del art. 19 de la CPR, respecto de
+**Concordancias Legales:** constitucion
+
 meros 1°, 3° inciso 4°, 12°y 13° del art. 19 de la CPR, respecto de
 
-## Inconstitucionalidad delaley
+Inconstitucionalidad delaley
 
 los cuales la sentencia se expedira dentro del segundo dia habil,
 plazos que se contaran desde que se halle en estado la causa.
@@ -8880,7 +10570,7 @@ Firme el fallo de primera instancia por haber transcurrido
 Progunta: CUAL ES LA NATURALEZA JURIDICA DE ESTA AC.
 el plazo para interponer el recurso de apelacion, sin que éste
 
-## Cion?
+Cion?
 
 sehubiere deducido,o dictado sentencia por la corte Suprema
 cuando fuere procedente, se transcribira lo resuelto a la persona,
@@ -8895,6 +10585,15 @@ No se impugna una resolucion judicial, que es la razon de
 
 ## Pregunta:TRAMITACION EN SEGUNDA INSTANCIA
 
+**Definición Canónica:** serdelosrecursos.
+Recibido los autos en la Secretaria de la Corte Suprema, el
+Con el se pretende iniciar un proceso, que tiene por objeto
+Presidente del Tribunal ordenara dar cuenta preferente delreobtener la declaracion deinaplicabilidadpor inconstituciocurso, y si lo estima conveniente o se le solicita con fundamennalidad de un determinado precepto legal en un proceso anto plausible podra ordenarlo traerlo“en relacion” para oir a los
+terior.
+abogados de las partes, en cuyo caso se agregara extraordinaria--
+No se pretende con él obtener la modificacion, enmienda o
+mente el recurso a la tabla 
+
 serdelosrecursos.
 Recibido los autos en la Secretaria de la Corte Suprema, el
 Con el se pretende iniciar un proceso, que tiene por objeto
@@ -8907,14 +10606,16 @@ invalidacion de una resolucion judicial.
 GadiariuGiJuriate
 Baliarireh BhGurigte
 
-## Miil.y una preguntas en derecho procesal civil
-
+Miil.y una preguntas en derecho procesal civil
 
 ## Pregunta: 2CUAL ES EL TRIBUNAL COMPETENTE PARA CONOCER
 
+**Definición Canónica:** Pregunta: REQUISITOS DE PROCEDENCIA
+**Concordancias Legales:** constitucion
+
 Pregunta: REQUISITOS DE PROCEDENCIA
 
-## Estaaccion?
+Estaaccion?
 
 -Que se indique la existencia de una gestion pendiente ante
 Antes de la reforma constitucional del ahio 2005, de la ley
@@ -8926,8 +10627,10 @@ siga la declaracion de inaplicabilidad, pueda resultar decisivo en la resolucion
 
 ## PregUnta:COMO ELTRIBUNAL CONSTITUCIONAL CONOCE ESTA
 
+**Definición Canónica:** Accion?
+**Concordancias Legales:** Constitucion
 
-## Accion?
+Accion?
 
 Que se cumplan los demas requisitos legales.
 Debe conocer de esta accion en pleno y previa vista de la
@@ -8938,7 +10641,7 @@ Pregunta: COMO SE TRAMITAP
 -Presentacion del escrito de solicitud,directamente ante el
 Pregunta: JCUAL ES EL QUORUM NECESARIO PARA PROWUNCIARTribunal Constitucional
 
-## Se acerca delainaplicabilidad?
+Se acerca delainaplicabilidad?
 
 Traslado.Se decreta traslado por 10 dias a las demas partes
 La mayoria de sus miermbros en ejercicio.
@@ -8947,10 +10650,14 @@ Republica y la Camara de Diputados.
 
 ## Progunta:CQUIEN ES LA PARTE LEGITIMADA PARA EJERCER
 
+**Definición Canónica:** Notificacion.El escrito y la rcsolucion recaida en ella deben
+notificarse personalmente a las demas partes. El Tribunal
+**Concordancias Legales:** Constitucion
+
 Notificacion.El escrito y la rcsolucion recaida en ella deben
 notificarse personalmente a las demas partes. El Tribunal
 
-## Estaaccion?
+Estaaccion?
 
 Constitucional ha resuelto que este traslado puede aun notiCualquiera de las partes, o el juez que conoce del asunto.
 ficarse al apoderado o mandatario de las partes. Al recurren--
@@ -8958,9 +10665,12 @@ te se le notifica por carta certificada.
 
 ## Pregunta: OPORTUNIDAD PARA EJERCER LA ACCION DE IWAPLI-
 
+**Definición Canónica:** -Respuesta. Las demas partes o interesados pueden presentar un escrito de respuesta en el cual apoyaran o no al que
+**Concordancias Legales:** Constitucion
+
 -Respuesta. Las demas partes o interesados pueden presentar un escrito de respuesta en el cual apoyaran o no al que
 
-## Cabilidad
+Cabilidad
 
 formulo la solicitud.
 Mientras se encuentre pendiente el asunto judicial, respecto
@@ -8969,7 +10679,7 @@ del cual se quiere obtener la declaracion de inaplicabilidad.
 a) Regla general: No se acepta la prueba, ya que las facultades del Tribunal Constitucional esta limitadas aun simple
 Pregunta: RESPECTO DE CUALES PROCESOS SE PUEDE PERSEestudio juridico que la habilita para declarar si el precepto
 
-## Guir la declaracion de inaplicabilidad?
+Guir la declaracion de inaplicabilidad?
 
 legal de que se trata es inaplicable por ser contrario a la
 Constitucion.
@@ -8979,7 +10689,7 @@ o penal, y tambien respecto de los asuntos judiciales no contencasos de inaplica
 ma,en cuyo caso podria ser necesario acreditar que no se ha
 EieliwialGhfurial
 
-## Mil.y una preguntas en derecho procesal civil
+Mil.y una preguntas en derecho procesal civil
 
 cumplido con algun quorum,u otra exigencia que establezca
 1llar aplicando cl precepto legal, respecto del cual se reclamo su
@@ -8989,6 +10699,16 @@ inaplicabilidad.
 -Se provee autos en relacion,relacion que se notifica a las
 
 ## Pregunta: CONCEPTO ACCION DE INCONSTITUCIONALIDAD
+
+**Definición Canónica:** partes por el estado diario;
+Accion publica,mediante la cual se persigue la declaracion
+-El dia de la causa, efectuada la relacion y con o sin alegatos
+de inconstitucionalidad de un precepto legal con efectos de cade las partes, el recurso queda en estado de fallo;
+racter general.
+-Duracion de los alegatos: media hora, prorrogable por unaEsta accion tambien puede ejercerse de oficio por el Tribunal
+nimidad del tribunal, por igual tiempo.
+Constitucional.
+**Concordancias Legales:** constitucion
 
 partes por el estado diario;
 Accion publica,mediante la cual se persigue la declaracion
@@ -9000,6 +10720,18 @@ nimidad del tribunal, por igual tiempo.
 Constitucional.
 
 ## Pregunta: FALLO DE LA ACCION DE INAPLICABILIDAD
+
+**Definición Canónica:** Pregunta:TRIBUNAL COMPETENTE
+a) Tribunal acoge el recurso: No podra ser aplicado el precepto legal en la resolucion judicial pendiente para el cual se ha
+El tribunal competente es el Tribunal Constitucional.
+interpuesto.
+Esta declaracion se comunica al tribunal que conoce el asunPregunta: 2COMO CONOCE EL TRIBUNAL ESTA ACCION?
+to judicial pendicnte, para que se abstenga de aplicar el precepto
+legal de que se trata en su tramitacion o en su resolucion.
+Conoce en pleno, y previa vista de la causa.
+Si cl tribunal no considera la declaracion de inaplicabilicdad y
+de todas formas aplica el precepto 
+**Concordancias Legales:** Constitucion
 
 Pregunta:TRIBUNAL COMPETENTE
 a) Tribunal acoge el recurso: No podra ser aplicado el precepto legal en la resolucion judicial pendiente para el cual se ha
@@ -9014,7 +10746,7 @@ de todas formas aplica el precepto legal a que se refiere,podran
 deducirse los recursos que procedan en contra de esa resolucion:
 Pregunta: COAL ES EL PLAZO PARA PEDIR LA INCONSTITUCIO.
 
-## Nalidad de la ley?
+Nalidad de la ley?
 
 -Apelacion.Si el tribunal de primera instancia dicta sentencia dando aplicacion al precepto declarado inconstitucional, ya
 No existe plazo fatal,mas bien existe una condicion: que
@@ -9025,7 +10757,7 @@ declaracion del tribunal Constitucional, se infringe la ley, infuyendo sustancia
 -- Recurso de queja: Procede si se cumplen los requisitos lePregunta: CUAL ES EL QUORUM NECESAR1O PARA DECLARAR LA
 gales del mismo.
 
-## Inconstitucionalidad deunprecepto legal?
+Inconstitucionalidad deunprecepto legal?
 
 Ademas, podria presentarse una acusacion constitucional,
 El quorum necesario es de la mayoria de 4/5 de los integrande acuerdo al art. 52 N° 2 letra c) de la Constitucion.
@@ -9042,14 +10774,17 @@ declarado previamente inaplicable un precepto legal por inconstitucionalidad.
 y en la forma prevista en la ley organica constitucional y se
 encuentrefundadarazonablemente.
 
-## BIBLIOGRAFiA
-
-
-## Pregunta: SUJETO LEGITIMADO PARA SOLICITAR LA INCONSTITUCIONALIDAD DE UN PRECEPTO LEGAL
-
-Es recurso debe solicitarse a traves una accion publica.
-
 ## 1)DERECHO PROCESAL.JUICIO ORDINARIOY RECURSOS PROPregunta:COMO SE SOLICITA?
+
+**Definición Canónica:** CESALES.Dario Benavente.Apuntes redactados por Ruben Celis
+Rodriguez.Revisados y actualizados por Juan Colombo Campebll.
+Se solicita por escrito, en el cual se senala la sentencia que
+Editorial Juridica de Chile, afo 1991,
+hubiere declaradopreviamente la inaplicabilidad por inconstitucionalidad y el precepto legal respecto del cual se solicita su
+2)MANUALDE DERECHO PROCESAL.DERECHO PROCESAL ORinconstitucionalidad.
+GANICO. Tomos I y I1. Mario Casarino Viterbo.Editorial Juridica
+de Chile, ano 1995.
+**Concordancias Legales:** constitucion
 
 CESALES.Dario Benavente.Apuntes redactados por Ruben Celis
 Rodriguez.Revisados y actualizados por Juan Colombo Campebll.
@@ -9060,18 +10795,13 @@ hubiere declaradopreviamente la inaplicabilidad por inconstitucionalidad y el pr
 GANICO. Tomos I y I1. Mario Casarino Viterbo.Editorial Juridica
 de Chile, ano 1995.
 
-## Pregunta: TRAMITACION DE LA ACCION DE INCONSTITUCIONALI3)MANUAL DE DERECHO PROCESAL.DERECHO PROCESAL ORDAD
-
-GANICO. Tormnos Il; IV, V y VI. Mario Casarino Viterbo. Editorial
-Se aplica misma tramitacion de la accion deinaplicabilidad
-Juridica de Chile, ano 1995.
-porinconstitucionalidad.
-
-## 4)APUNTES DE CLASES DE DERECHO PROCESAL PENAL. Gonzalo
-
-Cruz.Universidad Autonoma del Sur hoy Universidad Autonoma
-
 ## PregUnta: FALLO DE LA ACCION DE INCONSTITUCIONALIDAD
+
+**Definición Canónica:** de Chile, Temuco, ano 1999.
+Si acoge el recurso, declarara el precepto legal inconstitu5)MANUAL DE PROCEDIMIENTO CIVIL.EL JUICIO EJECUTIVO.
+cional y este tendra efectos de caracter general, y se entendera
+Raul Espinosa Fuentes.Editorial Juridica de Chile, ano 1984.
+derogado desde la publicacion de este fallo en el Diario Oficial.
 
 de Chile, Temuco, ano 1999.
 Si acoge el recurso, declarara el precepto legal inconstitu5)MANUAL DE PROCEDIMIENTO CIVIL.EL JUICIO EJECUTIVO.
@@ -9079,17 +10809,17 @@ cional y este tendra efectos de caracter general, y se entendera
 Raul Espinosa Fuentes.Editorial Juridica de Chile, ano 1984.
 derogado desde la publicacion de este fallo en el Diario Oficial.
 
-## 6)TEMAS FUNDAMENTALES DE DERECHO PROCESAL.Francisco
-
-Hoyos Henrechson. Editorial Juridica de Chile, anio 1987.
-
 ## 7) APUNTES DE CLASES DE DERECHO PROCESAL CIVIL.Francis--
+
+**Definición Canónica:** co Ljubetic.Universidad Autonoma del Sur hoy Universidad Autonoma de Chile,Temuco,ano 1999.
+8)APUNTES DE CLASES.MarioMosquera.Universidad de.Chile.
+GinlterinkSiurile
 
 co Ljubetic.Universidad Autonoma del Sur hoy Universidad Autonoma de Chile,Temuco,ano 1999.
 8)APUNTES DE CLASES.MarioMosquera.Universidad de.Chile.
 GinlterinkSiurile
 
-## Bibliografia
+Bibliografia
 
 9）EL DERECHO PROCESAL FUNCIONAL.Sergio Rodriguez Garces.
 Editorial Vitacura,ano1993.
@@ -9097,24 +10827,26 @@ Editorial Vitacura,ano1993.
 Villegas.Editorial Juridica de Chile,ano 1995.
 11）JUICIO ORDINARIO.Ignacio Rodriguez Papic.Editorial Juridica
 
-## Indice
+Indice
 
 de Chile, aio 1995.
 12)LOS INCIDENTES Y EN ESPECIALELDE NULIDAD PROCESAL.
 Pag.
 Julio Salas Vivaldi.Editorial Juridica de Chile,afio 1989.
 
-## Prologo
-
+Prologo
 
 ## 13)DISPOSICIONES COMUNES A TODO PROCEDIMIENTO.Carlos
 
+**Definición Canónica:** Alberto Stoherl Maes.Editorial Juridica de Chile,anio1980.
+**Concordancias Legales:** Ley 18.101; constitucion
+
 Alberto Stoherl Maes.Editorial Juridica de Chile,anio1980.
 
-## Primera parte
+Primera parte
 
 
-## Derechoprocesalorganico
+Derechoprocesalorganico
 
 A.Aplicacion de la ley procesal.
 B.Jurisdiccion.
@@ -9123,10 +10855,10 @@ D.Bases fundatmentales de organizacion de los tribunales...
 E.Competencia...
 F.Justicia Arbitral.
 
-## Segunda parte
+Segunda parte
 
 
-## Derecho procesalfuncionai
+Derecho procesalfuncionai
 
 A.Disposiciones comunes a todo procedimiento...
 B.Juicio Ordinario....
@@ -9143,15 +10875,15 @@ Finca Hipotecada..
 Biditwiab GhJeriste
 BafiariabGiFuriaw
 
-## Indice
+Indice
 
 L.Juicios Arbitrales...
 M.Actos Judiciales No Contenciosos.
 
-## Terceraparte
+Terceraparte
 
 
-## Recursosprocesales
+Recursosprocesales
 
 A.Generalidades.
 B.Recurso de Aclaracion o Interpretacion y Rectificacion o
@@ -9170,7 +10902,7 @@ M.Recurso de Proteccion.
 N.Acciones'de Inaplicabilidad por Inconstitucionalidad de la
 Ley e Inconistitucionalidad de la Ley.
 
-## Bibliografia
+Bibliografia
 
 INDICE.
 Sdiesrid GhJovise
