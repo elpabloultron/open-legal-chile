@@ -19,6 +19,7 @@ from __future__ import annotations
 import html as _html
 import json
 import os
+import pathlib
 from typing import Any, Dict, List, Optional
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -87,28 +88,142 @@ def _leyenda(grafos: Dict[str, str]) -> str:
     )
 
 
+# Colores por área del derecho. El área de cada nodo sale de su archivo fuente: la carpeta del
+# corpus dice el área de los tratados, y el encabezado de cada documento dice la de los apuntes y
+# los materiales docentes (que están mezclados en una misma carpeta).
+COLORES_AREA = {
+    "civil": "#5ec8e5", "penal": "#ef7d9b", "laboral": "#5ee59d", "familia": "#f2c14e",
+    "procesal": "#9d7bea", "administrativo": "#f2994a", "constitucional": "#4f9dff",
+    "comercial": "#c9c9d6", "judicial": "#8ad0ff", "general": "#8f8fa8", "otros": "#5a5a72",
+}
+
+
+def _areas_del_corpus() -> Dict[str, str]:
+    """Devuelve {nombre de archivo: área} leyendo el corpus.
+
+    Primero el encabezado del documento (area: ...), y si no lo trae, la carpeta donde vive.
+    """
+    import re as _re
+
+    mapa: Dict[str, str] = {}
+    for ruta in pathlib.Path(BASE_DIR).joinpath("doctrina").rglob("*.md"):
+        area = ""
+        try:
+            with open(ruta, "r", encoding="utf-8", errors="ignore") as f:
+                cabecera = f.read(700)
+            encontrado = _re.search(r"^area:\s*(.+)$", cabecera, _re.MULTILINE)
+            area = (encontrado.group(1).strip().strip('"').strip("'") if encontrado else "").lower()
+        except OSError:
+            pass
+        if not area:
+            partes = [x.lower() for x in ruta.parts]
+            for conocida in COLORES_AREA:
+                if conocida in partes:
+                    area = conocida
+                    break
+        mapa[ruta.name] = area or "otros"
+    return mapa
+
+
+def _posiciones_por_area(grafo, areas: Dict[str, str]) -> Dict[str, tuple]:
+    """Acomoda cada área del derecho en su propia región: se ven como grupos, no como maraña."""
+    import math
+
+    import networkx as nx
+
+    del_area: Dict[str, list] = {}
+    for nodo in grafo.nodes:
+        archivo = str(grafo.nodes[nodo].get("source_file") or "")
+        area = areas.get(archivo.rsplit("/", 1)[-1].rsplit("\\", 1)[-1], "")
+        del_area.setdefault(area or "otros", []).append(nodo)
+    if len(del_area) <= 1:
+        return {}
+
+    areas_ordenadas = sorted(del_area.items(), key=lambda kv: -len(kv[1]))
+    columnas = max(2, math.ceil(math.sqrt(len(areas_ordenadas))))
+    filas = math.ceil(len(areas_ordenadas) / columnas)
+    ancho, alto = 4600.0, 3600.0
+    ancho_celda, alto_celda = ancho / columnas, alto / filas
+    ubicaciones: Dict[str, tuple] = {}
+    for i, (area, nodos_del_area) in enumerate(areas_ordenadas):
+        fila, columna = divmod(i, columnas)
+        sub = grafo.subgraph(nodos_del_area)
+        try:
+            pos = nx.spring_layout(sub, seed=7, k=0.5 if len(nodos_del_area) < 3000 else 0.25,
+                                   iterations=25)
+        except Exception:
+            return {}
+        xs = [p[0] for p in pos.values()] or [0.0]
+        ys = [p[1] for p in pos.values()] or [0.0]
+        minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
+        escala = min(ancho_celda / max(1e-9, maxx - minx), alto_celda / max(1e-9, maxy - miny)) * 0.9
+        for nodo, (x, y) in pos.items():
+            ubicaciones[str(nodo)] = (
+                columna * ancho_celda + (x - minx) * escala,
+                fila * alto_celda + (y - miny) * escala,
+            )
+    return ubicaciones
+
+
+def _posiciones(grafo) -> Dict[str, tuple]:
+    """Calcula dónde va cada nodo.
+
+    El visor apaga la física cuando hay muchos nodos (si no, el navegador se arrastra), y sin
+    física vis-network necesita coordenadas: si no se las dan, apila todos en el centro y se ve un
+    círculo con líneas. Calcularlas una vez acá sale mucho más barato que en el navegador.
+    """
+    import networkx as nx
+
+    n = grafo.number_of_nodes()
+    if n <= 400:  # pocos: la física del visor los acomoda sola
+        return {}
+    try:
+        iteraciones = 60 if n <= 2500 else 25
+        pos = nx.spring_layout(grafo, seed=7, k=0.6 if n <= 2500 else 0.3, iterations=iteraciones)
+    except Exception:
+        return {}  # sin scipy no hay disposición: se avisa en la nota del HTML
+    ancho, alto = 4200.0, 3200.0
+    return {str(k): (float(v[0]) * ancho, float(v[1]) * alto) for k, v in pos.items()}
+
+
 def _html_del_grafo(grafo, titulo: str, nota: str, salida: str) -> str:
     """Escribe el HTML y devuelve la ruta."""
+    areas_corpus = _areas_del_corpus()
+    ubicaciones = _posiciones_por_area(grafo, areas_corpus) or _posiciones(grafo)
+    if len(grafo) > 400 and not ubicaciones:
+        nota = (nota + "\n\n(Ojo: no se pudo calcular la disposición de los nodos —falta scipy en el "
+                "entorno—; el visor los va a amontonar en el centro.)")
     nodos = []
     for n, datos in grafo.nodes(data=True):
         etiqueta = str(datos.get("label") or n)
         tipo = str(datos.get("tipo") or "")
         grado = grafo.degree(n)
-        nodos.append({
+        archivo = str(datos.get("source_file") or "").rsplit("/", 1)[-1].rsplit("\\", 1)[-1]
+        area = areas_corpus.get(archivo, "")
+        nodo = {
             "id": str(n),
             "label": etiqueta[:60],
             "title": f"{etiqueta}<br><i>{tipo or 'nodo'}</i> · {grado} conexión(es)",
-            "color": COLORES.get(tipo, "#c9c9d6"),
+            "color": COLORES_AREA.get(area) or COLORES.get(tipo, "#c9c9d6"),
+            "grupo": area or "otros",
             "size": 10 + min(22, 3 * grado),
             "value": grado,
-        })
+        }
+        if str(n) in ubicaciones:
+            nodo["x"], nodo["y"] = ubicaciones[str(n)]
+        nodos.append(nodo)
     aristas = []
     for u, v, datos in grafo.edges(data=True):
         if str(u) in {x["id"] for x in nodos} and str(v) in {x["id"] for x in nodos}:
             aristas.append({"from": str(u), "to": str(v),
                             "title": str(datos.get("tipo") or datos.get("label") or "")})
+    hay_areas = len({x.get("grupo") for x in nodos} - {"otros"}) > 1
+    if hay_areas:
+        leyenda = _leyenda({g: COLORES_AREA.get(g, "#5a5a72") for g in sorted({x["grupo"] for x in nodos})})
+        if nota:
+            nota += "\n\nCada color es un área del derecho y cada área ocupa su propia región."
     tipos = sorted({x["color"] for x in nodos})
-    leyenda = _leyenda({("institución" if c == COLORES["institucion"] else
+    leyenda = leyenda if hay_areas else _leyenda({("institución" if c == COLORES["institucion"] else
                          "obra / documento" if c == COLORES["obra"] else
                          "sección" if c == COLORES["seccion"] else
                          "norma" if c == COLORES["norma"] else "otro"): c for c in tipos})
