@@ -24,6 +24,37 @@ def compilar_manifiesto_biblioteca() -> Dict[str, Any]:
     return mgr.compilar_manifiesto_corpus()
 
 
+ARCHIVO_TOKEN = "~/.openlegal/hf_token"
+
+
+def resolver_token_hf(token: Optional[str] = None) -> Optional[str]:
+    """Busca el token de Hugging Face, en orden: parámetro, entorno, archivo local.
+
+    El archivo (~/.openlegal/hf_token, permisos 0600) es la vía preferida: el token no tiene que
+    pasar por una línea de comando —donde quedaría en el historial del shell y en la lista de
+    procesos— ni por ninguna conversación.
+    """
+    if token and token.strip():
+        return token.strip()
+    for variable in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN"):
+        valor = os.environ.get(variable)
+        if valor and valor.strip():
+            return valor.strip()
+    ruta = os.path.expanduser(ARCHIVO_TOKEN)
+    try:
+        if os.path.isfile(ruta):
+            # Si quedó con permisos abiertos, se cierran: el token es una llave de escritura.
+            if os.name == "posix" and (os.stat(ruta).st_mode & 0o077):
+                os.chmod(ruta, 0o600)
+            with open(ruta, "r", encoding="utf-8") as f:
+                contenido = f.read().strip()
+            if contenido:
+                return contenido
+    except OSError:
+        pass
+    return None
+
+
 class OnlineLibrarySyncManager:
     """Gestor de empaquetado, catalogación y publicación de la Biblioteca Jurídica Chilena en Markdown."""
 
@@ -378,7 +409,7 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
         y el Knowledge Graph de LegalGraphify en Hugging Face Datasets Hub usando huggingface_hub.
         Requiere un token de Hugging Face con permisos de escritura (HF_TOKEN o parámetro token).
         """
-        hf_token = token or os.environ.get("HF_TOKEN")
+        hf_token = resolver_token_hf(token)
         if not hf_token:
             return {
                 "exito": False,
@@ -387,7 +418,8 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
                     "Para publicar automáticamente en Hugging Face:\n"
                     "1. Crea una cuenta gratuita en https://huggingface.co/join\n"
                     "2. Genera un Access Token con rol 'Write' en https://huggingface.co/settings/tokens\n"
-                    "3. En tu terminal ejecuta: export HF_TOKEN='hf_...'\n"
+                    "3. Guardalo en un archivo tuyo:  printf '%s' 'hf_...' > ~/.openlegal/hf_token\n"
+                      "   (o poné HF_TOKEN en el entorno). El archivo manda permisos 0600.\n"
                     f"4. Reejecuta este comando para crear y subir '{repo_id}'."
                 )
             }
@@ -502,3 +534,31 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def estado_huggingface(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile") -> dict:
+    """Comprueba la conexión con Hugging Face sin publicar nada.
+
+    Devuelve la cuenta, el rol del token y si el dataset existe. Nunca devuelve el token.
+    """
+    token = resolver_token_hf()
+    if not token:
+        return {"conectado": False,
+                "falta": f"no hay token: guardalo en {ARCHIVO_TOKEN} (permisos 0600)",
+                "como": "printf '%s' 'hf_...' > ~/.openlegal/hf_token && chmod 600 ~/.openlegal/hf_token"}
+    try:
+        import importlib
+        hf = importlib.import_module("huggingface_hub")
+        api = hf.HfApi(token=token)
+        quien = api.whoami()
+        cuenta = quien.get("name") or (quien.get("auth") or {}).get("accessToken", {}).get("displayName")
+        rol = ((quien.get("auth") or {}).get("accessToken") or {}).get("role")
+        try:
+            datos = api.dataset_info(repo_id)
+            existe, archivos = True, len(getattr(datos, "siblings", []) or [])
+        except Exception:
+            existe, archivos = False, 0
+        return {"conectado": True, "cuenta": cuenta, "rol_del_token": rol,
+                "dataset": repo_id, "existe": existe, "archivos": archivos}
+    except Exception as e:
+        return {"conectado": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
