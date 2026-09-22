@@ -86,8 +86,42 @@ library_sync_mgr = OnlineLibrarySyncManager()
 legal_graphify_engine = LegalGraphifyEngine()
 
 import case_intake
+import grafo_vista
 
 TOOLS = [
+    {
+        "name": "grafo_ver_corpus",
+        "description": (
+            "Usala cuando pidan ver el grafo: «mostrame el grafo», «cómo se ve el corpus», «graficá "
+            "el conocimiento jurídico», «mostrame el grafo de despido». Escribe un archivo HTML "
+            "interactivo (nodos, relaciones, detalle al pasar el mouse) que se abre en el navegador, "
+            "para el corpus completo o un subgrafo de una consulta. Devuelve la ruta del archivo."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "consulta": {"type": "string", "description": "Tema a mirar (p. ej. 'despido'); sin esto, el corpus completo"},
+                "max_nodos": {"type": "integer", "description": "Cuántos nodos mostrar como máximo (por defecto 250, recortados por PageRank)"}
+            }
+        }
+    },
+    {
+        "name": "grafo_ver_caso",
+        "description": (
+            "Usala cuando pidan «graficá este caso», «mostrame el expediente como grafo», «cómo se ve "
+            "esta carpeta» o quieran ver las relaciones entre los documentos de un caso. Lee la "
+            "carpeta, arma el grafo (cada documento un nodo, cada sección colgando de él) y escribe "
+            "un HTML que se abre en el navegador. Dice qué documentos leyó y cuáles saltó, con el "
+            "motivo."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "ruta": {"type": "string", "description": "Carpeta del caso (con sus documentos)"}
+            },
+            "required": ["ruta"]
+        }
+    },
     {
         "name": "caso_analizar",
         "description": (
@@ -1087,7 +1121,11 @@ def _con_avisos(resultado):
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
-        if name == "caso_analizar":
+        if name == "grafo_ver_corpus":
+            return grafo_vista.ver_corpus(args.get("consulta"), int(args.get("max_nodos") or 250))
+        elif name == "grafo_ver_caso":
+            return grafo_vista.ver_caso(args.get("ruta", ""))
+        elif name == "caso_analizar":
             return case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
                                              args.get("consulta", ""))
         elif name == "caso_ejecutar":
