@@ -86,8 +86,26 @@ library_sync_mgr = OnlineLibrarySyncManager()
 legal_graphify_engine = LegalGraphifyEngine()
 
 import case_intake
+import pjud_connector
 
 TOOLS = [
+    {
+        "name": "pjud_consultar_causa",
+        "description": (
+            "Valida un Rol/RIT chileno, dice a qué jurisdicción apunta y arma la consulta del "
+            "estado de la causa en la Oficina Judicial Virtual: dónde, con qué clave, qué pasos y "
+            "por qué la suite no lo hace sola (el portal pide ClaveÚnica y captcha, y esto no "
+            "automatiza el acceso a credenciales personales). NO devuelve el estado de la causa: "
+            "eso hay que consultarlo."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "rit": {"type": "string", "description": "Rol/RIT, por ejemplo 'T-1234-2026' o 'Rol 12345-2026'"}
+            },
+            "required": ["rit"]
+        }
+    },
     {
         "name": "caso_analizar",
         "description": (
@@ -1084,7 +1102,9 @@ def _con_avisos(resultado):
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
-        if name == "caso_analizar":
+        if name == "pjud_consultar_causa":
+            return pjud_connector.instrucciones_de_consulta(args.get("rit", ""))
+        elif name == "caso_analizar":
             return case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
                                              args.get("consulta", ""))
         elif name == "caso_ejecutar":

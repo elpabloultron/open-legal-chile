@@ -248,4 +248,4 @@ class TestMCPServerNewTools:
         # 71 desde que se sumaron las dos de la mesa de entrada (caso_analizar y caso_ejecutar),
         # arriba de las 69 que traían las del SII: oficios por año, descarga de oficios, actos de
         # direcciones regionales, convenios internacionales y jurisprudencia judicial.
-        assert len(TOOLS) == 71
+        assert len(TOOLS) == 72

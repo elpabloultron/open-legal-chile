@@ -200,3 +200,130 @@ class PJUDClient:
             return True
         except Exception:
             return False
+
+# --------------------------------------------------------------------------- consulta de causas
+#
+# La Oficina Judicial Virtual (OJV) es el único lugar donde vive el estado de una causa, y está
+# detrás de ClaveÚnica y de un captcha. Eso no se automatiza: se le dice a la persona qué hacer,
+# con el enlace y los pasos. Esta parte del conector no inventa un resultado que no tiene.
+
+JURISDICCIONES_POR_LETRA = {
+    "C": ("civil", "Juzgado Civil"),
+    "T": ("laboral", "Juzgado de Letras del Trabajo"),
+    "L": ("laboral", "Juzgado de Letras del Trabajo"),
+    "F": ("familia", "Juzgado de Familia"),
+    "P": ("penal", "Juzgado de Garantía"),
+    "I": ("penal", "Tribunal de Juicio Oral en lo Penal"),
+    "V": ("familia", "Juzgado de Familia (violencia intrafamiliar)"),
+    "S": ("civil", "Juzgado Civil (ejecutivo)"),
+    "G": ("civil", "Juzgado Civil (gestión)"),
+}
+
+OJV = "https://oficinajudicialvirtual.pjud.cl"
+
+
+def analizar_rit(rit: str) -> Dict[str, Any]:
+    """Valida el formato de un Rol/RIT chileno y dice a qué jurisdicción apunta.
+
+    La letra es una pista fuerte pero no universal: los tribunales no rotulan igual en todo el
+    país, y el penal suele ir sin letra. Cuando no se puede afirmar, se dice.
+    """
+    limpio = (rit or "").strip().upper().replace(" ", "")
+    if not limpio:
+        return {"error": "hace falta el Rol/RIT (por ejemplo 'T-1234-2026' o 'Rol 12345-2026')"}
+
+    letra = None
+    numero = None
+    anio = None
+    m = re.match(r"^([A-Z])?[-–]?\s*(\d{1,6})[-–](\d{4})$", limpio)
+    if m:
+        letra, numero, anio = m.group(1), int(m.group(2)), int(m.group(3))
+    elif re.match(r"^ROL?(\d{1,6})[-–](\d{4})$", limpio):
+        m = re.match(r"^ROL?(\d{1,6})[-–](\d{4})$", limpio)
+        numero, anio = int(m.group(1)), int(m.group(2))
+    else:
+        return {
+            "rit": rit,
+            "valido": False,
+            "error": (
+                "el formato no calza con un Rol/RIT chileno. Se espera algo como 'C-1234-2026' "
+                "(civil), 'T-1234-2026' (laboral), 'F-1234-2026' (familia) o 'Rol 12345-2026' "
+                "(Corte). Revisá el número tal como sale en la carpeta del tribunal."
+            ),
+        }
+
+    if anio is not None and not (1900 <= anio <= 2100):
+        return {"rit": rit, "valido": False,
+                "error": f"el año {anio} no parece de una causa: revisá el Rol/RIT"}
+
+    jurisdiccion, tribunal = (None, None)
+    advertencias: List[str] = []
+    if letra:
+        if letra in JURISDICCIONES_POR_LETRA:
+            jurisdiccion, tribunal = JURISDICCIONES_POR_LETRA[letra]
+        else:
+            advertencias.append(
+                f"la letra «{letra}» no está entre las que se conocen (C, T, L, F, P, I, V, S, G): "
+                "confirmá la jurisdicción en la carpeta del tribunal"
+            )
+    else:
+        advertencias.append(
+            "el Rol va sin letra: suele ser Corte de Apelaciones, Corte Suprema o una causa penal "
+            "de tribunal de garantía. La jurisdicción no se puede afirmar desde el número."
+        )
+
+    return {
+        "rit": limpio,
+        "valido": True,
+        "letra": letra,
+        "numero": numero,
+        "anio": anio,
+        "jurisdiccion": jurisdiccion,
+        "tribunal_probable": tribunal,
+        "advertencias": advertencias,
+    }
+
+
+def instrucciones_de_consulta(rit: str) -> Dict[str, Any]:
+    """Dónde y cómo se consulta una causa, y por qué la suite no lo hace por su cuenta."""
+    analisis = analizar_rit(rit)
+    if "error" in analisis and not analisis.get("valido", True):
+        return analisis
+
+    jurisdiccion = analisis.get("jurisdiccion")
+    seccion = {
+        "civil": "Consulta de causas > Civil",
+        "laboral": "Consulta de causas > Laboral",
+        "familia": "Consulta de causas > Familia",
+        "penal": "Consulta de causas > Penal",
+    }.get(jurisdiccion or "", "Consulta de causas")
+
+    return {
+        **analisis,
+        "consulta": {
+            "donde": f"Oficina Judicial Virtual (OJV) — {OJV}",
+            "enlace": OJV,
+            "que_vas_a_necesitar": [
+                "ClaveÚnica o clave del Poder Judicial",
+                "responder el captcha de la portada",
+            ],
+            "pasos": [
+                "Entrar a la Oficina Judicial Virtual con tu clave",
+                f"Ir a «{seccion}»",
+                f"Escribir el Rol/RIT completo y buscar: {analisis.get('rit')}",
+                "Si el tribunal no está en la OJV, la causa se consulta en la secretaría del "
+                "tribunal o por su sitio propio",
+            ],
+            "por_que_no_lo_hace_la_suite": (
+                "el portal exige sesión con ClaveÚnica y un captcha. Open Legal Chile no "
+                "automatiza el acceso a sistemas que piden credenciales personales ni resuelve "
+                "captchas: la consulta la hace la persona. Lo que sí hace la suite es dejarte el "
+                "RIT validado, la sección exacta y el enlace."
+            ),
+            "lo_que_si_puede_hacer_la_suite": [
+                "pjud_search_jurisprudencia: buscar fallos relacionados con el caso",
+                "pjud_interpretar_proveido: entender un proveído que hayas copiado",
+                "pjud_analizar_sentencia: desglosar una sentencia (Art. 170 CPC)",
+            ],
+        },
+    }
