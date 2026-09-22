@@ -937,6 +937,23 @@ TOOLS = [
         }
     },
     {
+        "name": "graphify_resumen_comunidades",
+        "description": (
+            "Usala cuando pidan un panorama: «¿qué hay en el corpus?», «dame el resumen general», "
+            "«qué temas cubre», «resumen por comunidades», o cuando la consulta sea amplia y no "
+            "apunte a una institución concreta. Devuelve el resumen jerárquico del grafo (GraphRAG): "
+            "cada comunidad con su tamaño, su área y sus nodos representativos, en unos cientos de "
+            "tokens en vez de recorrer miles de nodos. Para el detalle de una institución, usar "
+            "graphify_consulta_subgrafo."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "top_n": {"type": "integer", "description": "Cuántas comunidades mostrar (por defecto 12)"}
+            }
+        }
+    },
+    {
         "name": "graphify_consulta_subgrafo",
         "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9% al 90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo. La medición es reproducible: docs/medicion_tokens.md.",
         "inputSchema": {
@@ -1614,6 +1631,8 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
         elif name == "suite_auto_update":
             from update_checker import run_auto_update
             return run_auto_update()
+        elif name == "graphify_resumen_comunidades":
+            return legal_graphify_engine.resumen_por_comunidades(int(args.get("top_n") or 12))
         elif name == "graphify_consulta_subgrafo":
             q = args.get("query")
             if not q:
