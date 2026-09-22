@@ -371,6 +371,8 @@ El servidor MCP expone **72 herramientas oficiales** categorizadas funcionalment
 ---
 
 ### V. Mesa de Entrada de Casos
+* **`pjud_consultar_causa`**: valida un Rol/RIT, dice a qué jurisdicción apunta y arma la consulta del estado de la causa en la Oficina Judicial Virtual (dónde, con qué clave y qué pasos). No devuelve el estado: la OJV pide ClaveÚnica y captcha, y la suite no automatiza el acceso a credenciales personales.
+
 
 * **`caso_analizar`**: recibe una carpeta de expediente, un texto o una consulta en lenguaje natural y devuelve un plan —materia, fuero probable, instituciones, herramientas en orden con su por qué, y lo que falta—. No modifica nada ni consulta servicios externos. La materia la decide con reglas (Rol/RIT y palabras clave chilenas), no adivinando.
 * **`caso_ejecutar`**: ejecuta ese plan contra las fuentes reales (BCN, PJUD, CGR, DT, SII, CMF, SMA, doctrina indexada y los documentos de la carpeta). Cada paso informa su estado; uno que falla queda anotado con su error y uno sin parámetros se saltea con su motivo. Nunca devuelve un resultado inventado.
