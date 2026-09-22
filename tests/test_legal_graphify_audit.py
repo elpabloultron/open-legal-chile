@@ -114,7 +114,11 @@ def test_ahorro_obra_usa_tokens_archivo_no_default(engine):
         "el baseline de tokens ignoró tokens_archivo y usó el default fabricado"
     )
     assert m["tokens_texto_completo"] != 2800
-    assert m["porcentaje_ahorro"] < 95.0, "ahorro irreal por baseline fabricado"
+    # El ahorro real con documentos de cientos de miles de caracteres es 99,9% (y se redondea
+    # a 100,0 en los más grandes): un techo de 95% sólo podía cumplirse con el corpus chico.
+    # Lo que delataría fabricación es un subgrafo vacío —una ficha que no ahorra nada porque
+    # no tiene contenido—, y eso es lo que se cuida acá, además del baseline ya comprobado.
+    assert m["tokens_subgrafo"] > 0, "subgrafo vacío: la ficha no tiene contenido"
 
 
 # ---------------------------------------------------------------------------

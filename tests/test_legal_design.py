@@ -72,6 +72,10 @@ CARPETAS_FUERA = {
     ".git", ".venv", ".mypy_cache", ".ruff_cache", ".pytest_cache", ".claude", ".cursor", ".vscode",
     "__pycache__", "node_modules", "build", "dist", "doctrina", "doctrina_raw", "exports",
     "graphify-out", "brag-output", "bcn_spec_files", "envs",
+    # Los datos derivados no son escritura del proyecto: el grafo y los índices reproducen lo que
+    # dicen las fuentes. Si un manual de la Academia habla de «discovery», eso es contenido suyo,
+    # no una figura del Common Law usada por nosotros. La regla mira lo que escribimos nosotros.
+    "data",
 }
 SUFIJOS_REVISADOS = {".py", ".md", ".json", ".yaml", ".yml", ".toml", ".txt", ".html", ".sh", ".cfg", ".ini"}
 
