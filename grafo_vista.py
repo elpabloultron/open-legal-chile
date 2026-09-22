@@ -202,8 +202,12 @@ def ver_caso(ruta: str, salida: Optional[str] = None) -> Dict[str, Any]:
             if not (texto or "").strip():
                 saltados.append({"archivo": str(documento), "motivo": "quedó sin texto (¿escaneado sin OCR?)"})
                 continue
+            # El texto va tal como viene: si el documento trae su título (# ...), el motor lo usa
+            # como nombre del nodo; si no lo trae, cae al nombre del archivo. Anteponer un título
+            # propio borraba el del documento.
             destino = Path(temporal) / f"{i:02d}_{documento.stem[:50]}.md"
-            destino.write_text(f"# {documento.name}\n\n{texto}\n", encoding="utf-8")
+            destino.write_text(texto if texto.lstrip().startswith("#") else f"# {documento.stem}\n\n{texto}\n",
+                               encoding="utf-8")
             leidos.append({"archivo": str(documento), "caracteres": len(texto)})
 
         if not leidos:
