@@ -125,15 +125,18 @@ def test_json_que_no_es_node_link_avisa(engine, tmp_path):
 
 def test_recall_por_corpus_encuentra_lo_que_no_es_un_nodo(engine):
     """
-    'compraventa' aparece en el texto de 4 tratados pero no es el nombre de ninguna
-    institución: antes el motor respondía "no encontrado" y el tema sí estaba en la doctrina.
+    «afianzamiento» aparece en el texto de un tratado pero no es el nombre de ninguna
+    institución ni está en la definición de ninguna: antes el motor respondía "no encontrado"
+    y el tema sí estaba en la doctrina. («compraventa» servía para esta prueba hasta que el
+    corpus ampliado la volvió el nombre de una sección: el motor ahora la resuelve por nombre,
+    que es mejor. Por eso se busca una palabra que sólo viva en el cuerpo del texto.)
     """
-    r = engine.calcular_ahorro_tokens("compraventa")
+    r = engine.calcular_ahorro_tokens("afianzamiento")
     assert r.get("encontrado") is True, "el tema está en la doctrina: no puede decir que no"
 
     # Y debe avisar que la coincidencia es de texto, no de nombre del nodo
     avisos = engine.advertencias
-    assert any("compraventa" in a and "TEXTO" in a for a in avisos), (
+    assert any("afianzamiento" in a and "TEXTO" in a for a in avisos), (
         f"falta el aviso de coincidencia textual: {avisos}"
     )
 
