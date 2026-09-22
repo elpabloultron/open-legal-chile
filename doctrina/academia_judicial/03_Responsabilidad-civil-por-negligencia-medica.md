@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Civil | **Materia:** Civil
 
-## Serie de
-
-
-## Documentos                                                                                           09 1
-
-civilMATERIALES
-      médica
-
-
 ## Docentes
 
+**Definición Canónica:** civil por
+                                                         negligencia
 
-                                                   civil por
+civil por
                                                          negligencia
 
                                                          médica
@@ -37,19 +30,14 @@ civilMATERIALES
 
                                                    Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos                                                                                     2
-
-civilMATERIALES
-      médica
-
-
 ## Docentes
 
+**Definición Canónica:** Academia                Álvaro
+                                                                      Vidal
+                                        Judicial
+                                        de Chile
 
-                                        Academia                Álvaro
+Academia                Álvaro
                                                                       Vidal
                                         Judicial
                                         de Chile
@@ -63,12 +51,13 @@ civilMATERIALES
                                         Material
                                         docente Nº 5
 
-## ISBN Nº
-
-
 ## 2021-a-2263
 
-                                        Santiago,
+**Definición Canónica:** Santiago,
+                                        Chile 2020
+Responsabilidad                                                                                                    3
+
+Santiago,
                                         Chile 2020
 Responsabilidad                                                                                                    3
 
@@ -97,186 +86,48 @@ civilMATERIALES
 
                                            El régimen legal de la relación médico-paciente y de la responsabilidad civil médica             19
 
-
-## 1. El contrato médico                                                                               24
-
-
-
-## 1.1 Presupuesto de la responsabilidad civil médica: el contrato médico                           25
-
-
-
-## 1.2 Fisonomía del contrato médico                                                                30
-
-
-
-## 1.3 Consentimiento informado, deberes de información y contrato médico                           34
-
-
-
 ## 1.3.1   Presentación                                                                        34
 
-
-                                          1.3.2         La información previa como presupuesto para la autodeterminación:
+**Definición Canónica:** 1.3.2         La información previa como presupuesto para la autodeterminación:
                                         		              acepta o rechaza la atención médica                                                 34
 
-
-## 1.3.3   El consentimiento informado                                                         37
-
-
-
-## 1.3.4   El deber de información: reconocimiento y contenido                                 40
-
-
-
-## 1.3.5   El deber de informar aspectos distintos del tratamiento y sus consecuencias         46
-
-
-
-## 1.3.6   Formalidades del deber de información                                               49
-
-
-
-## 1.3.7   Límites al deber de información                                                     50
-
-
-
-## 1.3.8   Los límites al consentimiento informado                                             54
-
-
-
-## 1.3.9   Causalidad hipotética y consentimiento tácito informado                             56
-
-
-
-## 1.3.10 Incumplimiento del deber de información y consecuencias jurídicas                    64
-
-
-
-## 1.3.11 Naturaleza de la responsabilidad que surge por infracción del deber de información   67
-
-
-
-## 1.4 El contenido del contrato médico                                                             70
-
-
-                                                1.4.1   ¿A qué se obliga el profesional médico? La obligación de medios                     70
-
-
-## 1.4.2   La lex artis médica                                                                 76
-
-
-
-## 1.4.3   Integración del contrato y buena fe: situación con la LDDP                          83
-
-
-
-## 1.4.4   Los deberes del médico: entre la buena fe y la LDDP                                 86
-
-
-
-## 1.4.5   Obligaciones y deberes del paciente                                                 88
-
-
-
-## 1.4.6   Los deberes de colaboración del paciente más allá de la norma legal                 89
-
-
-
-## 1.4.7   La infracción del deber de colaboración                                             91
-
-
+1.3.2         La información previa como presupuesto para la autodeterminación:
+                                        		              acepta o rechaza la atención médica                                                 34
 
 ## 1.4.8   Las consecuencias de la infracción de los deberes de colaboración del paciente      92
 
-Responsabilidad                                                                    Índice                                                                     5
+**Definición Canónica:** Responsabilidad                                                                    Índice                                                                     5
+
+Responsabilidad                                                                    Índice                                                                     5
 
                                         2. El incumplimiento y la imputabilidad                                                                        100
 
                                            2.1 Incumplimiento, diligencia y culpa                                                                      101
 
-
-## 2.1.1         Una misma anatomía del incumplimiento e imputabilidad para las obligaciones
-
-                                        		              de medios y las obligaciones de resultado                                                      101
-
-
-## 2.1.2   Incumplimiento e imputabilidad subjetiva en las obligaciones de medios                         106
-
-
-
-## 2.1.3   Cumplimiento e incumplimiento en las obligaciones de medios                                    108
-
-
-
-## 2.1.4   El incumplimiento y la culpa de la persona deudora en las obligaciones de medios               111
-
-
-
-## 2.1.5 Acerca de lo debido en las obligaciones de medios                                                113
-
-
-
-## 2.1.6   La función de la diligencia exigible en las obligaciones de medios                             118
-
-
-
-## 2.1.7   Síntesis                                                                                       126
-
-
-
-## 2.1.8   La excepción: la obligación de resultado en el ámbito médico                                   127
-
-
-                                           2.2 La prueba del incumplimiento y la culpa                                                                 130
-
-
-## 2.2.1   La pregunta                                                                                    130
-
-
-
-## 2.2.2   La antinomia de las obligaciones de medios: presunción de incumplimiento culpable              131
-
-
-
 ## 2.2.3         La prueba del incumplimiento y la presunción de imputabilidad en las obligaciones
 
-                                        		              de medios. Otra manera de entender las cosas.                                                  140
+**Definición Canónica:** de medios. Otra manera de entender las cosas.                                                  140
+
+de medios. Otra manera de entender las cosas.                                                  140
 
                                                 2.2.4    ¿Cómo resuelven los tribunales?                                                               149
 
                                            2.3 El error médico                                                                                         155
 
-
 ## 3. La responsabilidad del médico por el hecho de sus auxiliares y por el defecto de los insumos
 
-                                           para la ejecución de la prestación                                                                          159
+**Definición Canónica:** para la ejecución de la prestación                                                                          159
+
+para la ejecución de la prestación                                                                          159
 
                                            3.1 La responsabilidad del médico por el hecho de sus auxiliares                                            160
 
-
-## 3.1.1   La ejecución de la prestación y los auxiliares del médico                                      160
-
-
-                                                3.1.2   ¿Los proveedores del deudor son considerados auxiliares?                                       161
-
-
-## 3.1.3   La ejecución del contrato médico, naturalmente, requiere de la intervención de auxiliares      163
-
-
-
-## 3.1.4   El incumplimiento del médico debido a la falta de cumplimiento del auxiliar                    165
-
-
-
-## 3.1.5   La responsabilidad del médico por el hecho de sus auxiliares                                   167
-
-
-
 ## 3.1.6   El médico responde por el hecho de los auxiliares que integran su equipo médico                173
 
+**Definición Canónica:** 3.1.7         ¿Contra quién puede dirigirse el paciente en supuestos de incumplimiento debido
+                                        		              a la falta del auxiliar del médico?                                                            182
 
-                                          3.1.7         ¿Contra quién puede dirigirse el paciente en supuestos de incumplimiento debido
+3.1.7         ¿Contra quién puede dirigirse el paciente en supuestos de incumplimiento debido
                                         		              a la falta del auxiliar del médico?                                                            182
 
                                            3.2 Responsabilidad civil de la figura médica por la utilización de insumos y/o instrumental con defectos   190
@@ -288,107 +139,20 @@ civilMATERIALES
                                            4.2 El daño emergente                                                                                       198
 Responsabilidad                                                                      Índice                                                                  6
 
-
-## 4.2.1   Reconocimiento legal y su noción                                                             198
-
-
-
-## 4.2.2          Daño emergente por ilícito médico: lesión del interés de indemnidad personal
-
-                                        		               y a la integridad patrimonial                                                                198
-
-
-## 4.2.3   Prevención sobre la certidumbre del daño emergente futuro                                    199
-
-
-                                           4.3 Lucro cesante                                                                                          200
-
-
-## 4.3.1   Reconocimiento legal y noción                                                                200
-
-
-
-## 4.3.2   Lucro cesante y lesión al interés de integridad patrimonial                                  201
-
-
-
-## 4.3.3   Un obstáculo: la certidumbre del lucro cesante                                               201
-
-
-
-## 4.3.4   El lucro cesante en la responsabilidad civil médica                                          204
-
-
-
-## 4.3.5   El contenido del lucro cesante                                                               207
-
-
-
-## 4.3.6   Sobre la cuantificación del lucro cesante                                                    208
-
-
-
-## 4.3.7   Lucro cesante reflejo o por repercusión                                                      209
-
-
-
-## 4.3.8   A modo de síntesis                                                                           210
-
-
-                                           4.4 El daño moral                                                                                          211
-
-
-## 4.4.1   El punto de partida: la regla de la previsibilidad y el fin de protección del contrato       211
-
-
-
-## 4.4.2   El daño moral contractual es indemnizable                                                    214
-
-
-
-## 4.4.3   Síntesis                                                                                     219
-
-
-                                           4. 5 El daño corporal como manifestación del daño moral                                                    220
-
-
-## 4.5.1   La noción de daño corporal y su relación con el daño moral                                   220
-
-
-
-## 4.5.2   La peculiaridad del daño corporal                                                            221
-
-
-                                           4.6 Pérdida de una chance u oportunidad                                                                    224
-
-
-## 4.6.1   Acerca de la noción de pérdida de una chance224
-
-
-
-## 4.6.2   Dos cuestiones previas: ni lucro cesante, ni daño eventual                                   226
-
-
-
-## 4.6.3   Los requisitos como daño indemnizable                                                        227
-
-
-
-## 4.6.4   Pérdida de la oportunidad de los familiares de la víctima de compartir más tiempo con ella   236
-
-
-
 ## 4.6.5   Conclusiones                                                                                 237
 
+**Definición Canónica:** 5. La responsabilidad de las instituciones públicas prestadoras de salud                                      238
 
-                                        5. La responsabilidad de las instituciones públicas prestadoras de salud                                      238
+5. La responsabilidad de las instituciones públicas prestadoras de salud                                      238
 
                                            5.1 Ideas previas                                                                                          239
 
-
 ## 5.2 Presupuesto para el ejercicio de la acción indemnizatoria de daños en contra de un
 
-                                        		    prestador de salud: la mediación prejudicial                                                            240
+**Definición Canónica:** prestador de salud: la mediación prejudicial                                                            240
+**Concordancias Legales:** artículo 21 de la Ley Nº 18.575; Ley Nº 18.575
+
+prestador de salud: la mediación prejudicial                                                            240
 
                                            5.3 Generalidades                                                                                          247
 
@@ -398,11 +162,12 @@ civilMATERIALES
                                           5.5 Situación de los órganos excluidos del inciso 2º del artículo 21 de la Ley Nº 18.575:
                                         		    los hospitales militares                                                               260
 
-
 ## 5.6 Las infecciones intrahospitalarias                                                    266
 
+**Definición Canónica:** Glosario272
+**Concordancias Legales:** artículo 3; artículo 51; artículo 171; artículo 183; artículo 38; artículo 51 de la Ley Nº 19.30023; artículo 2329 del CC24. En la responsabilidad; artículo 1556; artículo 51 de la Ley N; Ley Nº 16.744; Ley Nº 18.290; Ley Nº 18.490; Ley Nº 18.916; Ley Nº 19.300; Ley Nº 18.302; Ley Nº 20.4168; Ley Nº 18.575; Ley Nº 19.733; Ley Nº 19.628; Ley Nº 19.966; Ley Nº 20.584; Ley Nº 19.640; Ley Nº 18.696; Ley Nº 17.336; Ley Nº 2222; Ley Nº 19.30023; Ley N°19.300; D.F.L. Nº 458; Constitución Política; constitucion
 
-                                        Glosario272
+Glosario272
 
                                         Ejercicios de aplicación                                                                     277
 
@@ -685,7 +450,12 @@ civilMATERIALES
 
 ## 200027. Se trata de un caso en el que se demanda el cumplimiento
 
-                                        principios que inspiran               específico de un contrato de compraventa, en el cual dicho cumpli-
+**Definición Canónica:** principios que inspiran               específico de un contrato de compraventa, en el cual dicho cumpli-
+                                        aquella norma especial                miento correspondería al otorgamiento de la escritura pública que,
+                                        y lo que ella busca.                  quien ofreció vender, se negaba a suscribir. Junto con lo anterior, se
+**Concordancias Legales:** artículo 3; artículo 768; artículo 19; artículo 1546; artículos 1547; Ley Nº 19.496; Ley N° 20.584; Ley N° 19.966; constitucion; Constitución Política
+
+principios que inspiran               específico de un contrato de compraventa, en el cual dicho cumpli-
                                         aquella norma especial                miento correspondería al otorgamiento de la escritura pública que,
                                         y lo que ella busca.                  quien ofreció vender, se negaba a suscribir. Junto con lo anterior, se
 
@@ -962,10 +732,13 @@ civilMATERIALES
                                                                              responsabilidad civil derivada de su incumplimiento. Se sabe que la
                                                                              responsabilidad contractual se manifiesta en una indemnización, y
 
-
 ## 39   Y, en general, como todo contrato de servicios; en este sentido: BRANTT y MEJÍAS (2016), p. 75; RODRÍGUEZ
 
-                                               (2014), p. 794.
+**Definición Canónica:** (2014), p. 794.
+                                          40   RODRÍGUEZ (2014), p. 794.
+**Concordancias Legales:** artículo 1546 del Código Civil; artículo 1547; artículo 4; artículos 8; artículos 38; Ley N° 20.584; Ley Nº 19.966
+
+(2014), p. 794.
                                           40   RODRÍGUEZ (2014), p. 794.
 
 Responsabilidad                                                           Introducción                                                          22
@@ -1047,10 +820,12 @@ civilMATERIALES
                                         El contrato médico
 Responsabilidad                                                             1. El contrato médico                                                       25
 
-
 ## 1.1           Presupuesto de la responsabilidad
 
-                                                                              civil médica: el contrato médico
+**Definición Canónica:** civil médica: el contrato médico
+**Concordancias Legales:** artículo 1545; artículos 1546; artículo 1556 del Código Civil; artículo 1558 del Código Ci; artículo 8 de la LDDC; artículo 155849; artículo 1546 del Código Civil; artículo 1547 del Código Civil que prevé; artículo 1444 del Código Civil; Ley N° 20.584
+
+civil médica: el contrato médico
 
                                                                               De lo expuesto en las notas preliminares, la fuente de la responsabi-
                                                                               lidad civil médica es el contrato de prestación de servicios médicos43,
@@ -1242,10 +1017,11 @@ civilMATERIALES
 
 Responsabilidad                                                             1. El contrato médico                                                     30
 
-
 ## 1.2           Fisonomía del
 
-                                                                              contrato médico
+**Definición Canónica:** contrato médico
+
+contrato médico
 
                                         En uno de los                         En uno de los primeros trabajos sobre contrato médico en Chile, el de
                                         primeros trabajos                     Hilharreborde y Labarca, el contrato médico se define como aquel “en
@@ -1284,7 +1060,11 @@ civilMATERIALES
 
 ## 55   BRANTT (2017), p. 507; PIZARRO (2017), p. 107. El contrato se perfecciona por el sólo consentimiento. Sin
 
-                                                embargo, en la formación del consentimiento, deberán observarse las exigencias previstas en la LDDP.
+**Definición Canónica:** embargo, en la formación del consentimiento, deberán observarse las exigencias previstas en la LDDP.
+                                           56   BRANTT (2017), p. 507.
+**Concordancias Legales:** artículo 1; artículo 1546 del Código Civil60. Al res; artículo 4
+
+embargo, en la formación del consentimiento, deberán observarse las exigencias previstas en la LDDP.
                                            56   BRANTT (2017), p. 507.
 
 Responsabilidad                                                             1. El contrato médico                                                  31
@@ -1401,15 +1181,15 @@ civilMATERIALES
 
 Responsabilidad                                                   1. El contrato médico                                                  34
 
-
-## 1.3        Consentimiento informado, deberes de
-
-                                                                    información y contrato médico
-
-
 ## 1.3.1 Presentación
 
-                                                                    En lo que sigue, se examinará el consentimiento informado, que es
+**Definición Canónica:** En lo que sigue, se examinará el consentimiento informado, que es
+                                                                    la voluntad, elemento de la esencia de todo contrato; sin embargo,
+                                                                    tratándose del contrato médico debe poseer una cualificación, es decir,
+                                                                    ha de ser informada. Las cuestiones que plantea este consentimiento
+                                                                    informado, y de las que me haré cargo, son las siguient
+
+En lo que sigue, se examinará el consentimiento informado, que es
                                                                     la voluntad, elemento de la esencia de todo contrato; sin embargo,
                                                                     tratándose del contrato médico debe poseer una cualificación, es decir,
                                                                     ha de ser informada. Las cuestiones que plantea este consentimiento
@@ -1426,10 +1206,17 @@ civilMATERIALES
                                                                     En fin, la quinta, la responsabilidad que se sigue de la infracción al
                                                                     deber de información por parte del profesional médico.
 
-
 ## 1.3.2 La información previa como
 
-                                                                    presupuesto para la autodeterminación:
+**Definición Canónica:** presupuesto para la autodeterminación:
+                                        La prestación objeto        acepta o rechaza la atención médica
+                                        del contrato médico         La prestación objeto del contrato médico representa una operación
+                                        representa una              compleja al involucrar una serie de procedimientos que inciden en
+                                                                    la salud de aquella persona que se somete a la opinión, estudio, diag-
+                                        operación 
+**Concordancias Legales:** artículo 1445 del Código Civil
+
+presupuesto para la autodeterminación:
                                         La prestación objeto        acepta o rechaza la atención médica
                                         del contrato médico         La prestación objeto del contrato médico representa una operación
                                         representa una              compleja al involucrar una serie de procedimientos que inciden en
@@ -1528,18 +1315,27 @@ civilMATERIALES
                                                                             De esta manera, la autodeterminación se resguarda a través del con-
                                                                             sentimiento informado.
 
-
 ## 65   DE LA MAZA (2010), p. 95; DE AZAMBUJA (2006), p. 149. En palabras de este último autor: “El principio de
 
-                                             autonomía puede ser sintetizado, por tanto, como el poder de decidir y usar el propio cuerpo, fundamentado
+**Definición Canónica:** autonomía puede ser sintetizado, por tanto, como el poder de decidir y usar el propio cuerpo, fundamentado
+                                             en el señorío y responsabilidad que tenemos sobre él”.
+
+autonomía puede ser sintetizado, por tanto, como el poder de decidir y usar el propio cuerpo, fundamentado
                                              en el señorío y responsabilidad que tenemos sobre él”.
 
 Responsabilidad                                                            1. El contrato médico                                                37
 
-
 ## 1.3.3 El consentimiento informado
 
-                                        La persona, entonces,                El consentimiento informado, entonces, surge como respuesta a la
+**Definición Canónica:** La persona, entonces,                El consentimiento informado, entonces, surge como respuesta a la
+                                        consentirá, o no,                    necesidad de proteger el ejercicio del derecho de autodeterminación
+                                                                             del paciente. La persona, entonces, consentirá, o no, someterse a
+                                        someterse a cualquier
+                                                                             cualquier procedimiento o tratamiento médico, siempre que dis-
+        
+**Concordancias Legales:** artículo 14 de la LDDP recogen lo que hasta
+
+La persona, entonces,                El consentimiento informado, entonces, surge como respuesta a la
                                         consentirá, o no,                    necesidad de proteger el ejercicio del derecho de autodeterminación
                                                                              del paciente. La persona, entonces, consentirá, o no, someterse a
                                         someterse a cualquier
@@ -1601,7 +1397,13 @@ civilMATERIALES
 
 ## parte, el consentimiento informado cobra relevancia para la acepta-
 
-                                                                          ción de los riesgos propios del caso, esto es, aquel riesgo específico
+**Definición Canónica:** ción de los riesgos propios del caso, esto es, aquel riesgo específico
+                                                                          de causar una lesión que incluso una intervención correctamente
+                                                                          realizada lleva consigo, pero en ningún caso puede redimir la culpa
+                                                                          del médico, ni puede avalar una notoria desproporción entre el riesgo
+                                                                          asumido y el efecto o daño caus
+
+ción de los riesgos propios del caso, esto es, aquel riesgo específico
                                                                           de causar una lesión que incluso una intervención correctamente
                                                                           realizada lleva consigo, pero en ningún caso puede redimir la culpa
                                                                           del médico, ni puede avalar una notoria desproporción entre el riesgo
@@ -1616,10 +1418,11 @@ civilMATERIALES
                                                                           ¿cómo se llega a obtenerlo? O, ¿qué pasos deben seguirse por la figura
                                                                           médica para que el paciente preste su consentimiento informado?
 
-
 ## 67   Corte Suprema, 10 de marzo de 2016, Rol Nº 21373-2015; en el mismo sentido, véase Corte de Apelaciones
 
-                                             de Santiago, 27 de mayo de 2013, Rol Nº 7995-2011.
+**Definición Canónica:** de Santiago, 27 de mayo de 2013, Rol Nº 7995-2011.
+
+de Santiago, 27 de mayo de 2013, Rol Nº 7995-2011.
 
 Responsabilidad                                                         1. El contrato médico                                                  39
 
@@ -1660,7 +1463,11 @@ civilMATERIALES
 
 ## 70   Véase Corte de Apelaciones de Concepción, 14 de octubre de 2012, Rol Nº 1473-2012 y Corte Suprema, 28
 
-                                             de enero de 2011, Rol Nº 5849-2009.
+**Definición Canónica:** de enero de 2011, Rol Nº 5849-2009.
+                                        71   BARROS (2010), p. 683.
+**Concordancias Legales:** artículo 1546 del Código Civil73; artículo 10 de la LDDP consa; artículo 14 de la LDDP; artículo 10
+
+de enero de 2011, Rol Nº 5849-2009.
                                         71   BARROS (2010), p. 683.
 
 Responsabilidad                                                             1. El contrato médico                                                   40
@@ -1739,10 +1546,14 @@ civilMATERIALES
                                                                              enfermedad, de las alternativas de tratamiento disponibles para su
                                                                              recuperación y de los riesgos que ello pueda representar, así como
 
-
 ## 74   Convendrá tener a la vista como referencia el caso español. Particularmente, el artículo 4.1 de la Ley Nº
 
-                                             41/2002 que prescribe que los pacientes deben conocer “toda” la información, estableciendo como mínimos
+**Definición Canónica:** 41/2002 que prescribe que los pacientes deben conocer “toda” la información, estableciendo como mínimos
+                                             la finalidad y la naturaleza de cada intervención, sus riesgos y sus consecuencias. Al mismo tiempo, se obliga
+                                             al médico a entregar detalles sobre el diagnóstico y las alternativas.
+**Concordancias Legales:** artículo 10; artículo 14
+
+41/2002 que prescribe que los pacientes deben conocer “toda” la información, estableciendo como mínimos
                                              la finalidad y la naturaleza de cada intervención, sus riesgos y sus consecuencias. Al mismo tiempo, se obliga
                                              al médico a entregar detalles sobre el diagnóstico y las alternativas.
 
@@ -1940,10 +1751,16 @@ civilMATERIALES
                                                                              real de los riesgos asociados a los procedimientos y tratamientos
                                                                              posibles de ser aplicados.
 
-
 ## 1.3.5 El deber de informar aspectos distintos
 
-                                                                             del tratamiento y sus consecuencias
+**Definición Canónica:** del tratamiento y sus consecuencias
+                                                                             La LDDP no sólo impone a los prestadores de servicios médicos el
+                                                                             deber de informar sobre los procedimientos y tratamientos posibles
+                                                                             e idóneos, junto a los riesgos asociados a cada uno. También queda
+                                                                             obligado a informar acerca de otros aspectos diversos de 
+**Concordancias Legales:** artículo 8; artículo 9; artículo 11; artículos 9
+
+del tratamiento y sus consecuencias
                                                                              La LDDP no sólo impone a los prestadores de servicios médicos el
                                                                              deber de informar sobre los procedimientos y tratamientos posibles
                                                                              e idóneos, junto a los riesgos asociados a cada uno. También queda
@@ -2061,10 +1878,17 @@ civilMATERIALES
                                           causalmente en la omisión o defecto de información por parte del
                                           profesional obligado a informar.
 
-
 ## 1.3.6 Formalidades del deber de información
 
-                                          Conforme lo que dispone la norma, existen diversas formas de sumi-
+**Definición Canónica:** Conforme lo que dispone la norma, existen diversas formas de sumi-
+                                          nistrar la información. De hecho, la entrega de esta información es
+                                          per se consensual. No obstante, por lo general, resultará aconsejable
+                                          hacer constar por escrito del suministro de dicha información, sus-
+                                          cribiéndose por el paciente un instrumento privado que contiene el
+                                          consentimiento informado. Generalmente, según sea 
+**Concordancias Legales:** artículo 14
+
+Conforme lo que dispone la norma, existen diversas formas de sumi-
                                           nistrar la información. De hecho, la entrega de esta información es
                                           per se consensual. No obstante, por lo general, resultará aconsejable
                                           hacer constar por escrito del suministro de dicha información, sus-
@@ -2114,10 +1938,15 @@ civilMATERIALES
                                           es oral, sin perjuicio de aquellos casos en que se exige que debe
                                           otorgarse por escrito.
 
-
 ## 1.3.7 Límites al deber de información
 
-                                          Según se ha dicho, el médico tratante debe informar al paciente y,
+**Definición Canónica:** Según se ha dicho, el médico tratante debe informar al paciente y,
+                                          si no lo hace, puede incurrir en responsabilidad civil por los daños
+                                          conectados causalmente con la falta de información o información
+                                          defectuosa. A estos efectos, habrá que considerar que la LDDP prevé
+                                          ciertos límites.
+
+Según se ha dicho, el médico tratante debe informar al paciente y,
                                           si no lo hace, puede incurrir en responsabilidad civil por los daños
                                           conectados causalmente con la falta de información o información
                                           defectuosa. A estos efectos, habrá que considerar que la LDDP prevé
@@ -2125,10 +1954,16 @@ civilMATERIALES
 
 Responsabilidad                                                          1. El contrato médico                                                 51
 
-
 ## 1. Los riesgos atípicos. Según se ha visto, la información debe recaer
 
-                                                                              sobre los riesgos más probables a que se expone un paciente, de-
+**Definición Canónica:** sobre los riesgos más probables a que se expone un paciente, de-
+                                                                              jando de lado aquellos que resulten improbables. Hay acuerdo en
+                                                                              la doctrina en que el personal médico no debe informar acerca de
+                                                                              riesgos marginales o prácticamente inexistentes. El problema que
+                                                                              presenta esta posición refier
+**Concordancias Legales:** artículo 16
+
+sobre los riesgos más probables a que se expone un paciente, de-
                                                                               jando de lado aquellos que resulten improbables. Hay acuerdo en
                                                                               la doctrina en que el personal médico no debe informar acerca de
                                                                               riesgos marginales o prácticamente inexistentes. El problema que
@@ -2193,10 +2028,17 @@ civilMATERIALES
                                                si la asume. En este último caso es posible considerar aspectos
                                                personales y dar mayor prevalencia al aspecto concreto”.
 
-
 ## 2. La situación de los privados de razón, las emergencias y su
 
-                                             regulación en la LDDP. La LDDP establece ciertas excepciones
+**Definición Canónica:** regulación en la LDDP. La LDDP establece ciertas excepciones
+                                             al deber de información. Si bien la norma no exime al médico de
+                                             informar, el receptor de la información no es el paciente, sino su
+                                             representante. Aparece una variante de la protección de la auto-
+                                             determinación del paciente, dado que la ley entrega la decisión
+                                             respecto del sometimiento a un tratamiento o procedimi
+**Concordancias Legales:** artículo 10
+
+regulación en la LDDP. La LDDP establece ciertas excepciones
                                              al deber de información. Si bien la norma no exime al médico de
                                              informar, el receptor de la información no es el paciente, sino su
                                              representante. Aparece una variante de la protección de la auto-
@@ -2266,11 +2108,16 @@ civilMATERIALES
                                           tad y no sea posible obtener el consentimiento de su representante
                                           legal, apoderado o cuidador.
 
-
 ## 1.3.8 Los límites al consentimiento informado
 
+**Definición Canónica:** En cuanto a los límites del consentimiento informado, no hay desvia-
+                                          ciones respecto del deber de informar, que se mantiene intacto –con
+                                          su reglas y límites ya examinados–, sino que refieren a casos en los
+                                          que no se requiere de la voluntad de paciente para la intervención
+                                          o tratamiento médico.
+**Concordancias Legales:** artículo 15; artículo 12 del Código Civil
 
-                                          En cuanto a los límites del consentimiento informado, no hay desvia-
+En cuanto a los límites del consentimiento informado, no hay desvia-
                                           ciones respecto del deber de informar, que se mantiene intacto –con
                                           su reglas y límites ya examinados–, sino que refieren a casos en los
                                           que no se requiere de la voluntad de paciente para la intervención
@@ -2335,10 +2182,16 @@ civilMATERIALES
 
 Responsabilidad                                                   1. El contrato médico                                                  56
 
-
 ## 1.3.9 Causalidad hipotética y
 
-                                                                    consentimiento tácito informado
+**Definición Canónica:** consentimiento tácito informado
+                                                                    En lo que toca a los problemas de causalidad asociados al deber de
+                                                                    información, se identifican los siguientes supuestos:
+                                                                    a. El primero, la figura médica informa correctamente a la persona,
+                                                                       pero por una actuación contraria a la lex artis, se producen daños.
+                                    
+
+consentimiento tácito informado
                                                                     En lo que toca a los problemas de causalidad asociados al deber de
                                                                     información, se identifican los siguientes supuestos:
                                                                     a. El primero, la figura médica informa correctamente a la persona,
@@ -2679,10 +2532,17 @@ civilMATERIALES
 
                                                                      consentimiento del paciente y menos de liberar a ese médico.
 
-
 ## 1.3.10 Incumplimiento del deber de
 
-                                                                     información y consecuencias jurídicas
+**Definición Canónica:** información y consecuencias jurídicas
+                                                                     El incumplimiento del deber de información del profesional médico
+                                                                     puede asumir diversas formas. Una de ellas será el caso en que el
+                                        En mi opinión, si hay        médico no preste la información, es decir, un incumplimiento total
+                                        incumplimiento del           del deber de información, lo que deriva en la falta de un consenti-
+                   
+**Concordancias Legales:** artículo 14 de la LDDP; artículo 10; artículo 1698
+
+información y consecuencias jurídicas
                                                                      El incumplimiento del deber de información del profesional médico
                                                                      puede asumir diversas formas. Una de ellas será el caso en que el
                                         En mi opinión, si hay        médico no preste la información, es decir, un incumplimiento total
@@ -2788,15 +2648,16 @@ civilMATERIALES
 
 Responsabilidad                                                       1. El contrato médico                                                  67
 
-
-## 1.3.11 Naturaleza de la responsabilidad que surge
-
-                                                                        por infracción del deber de información
-
-
 ## 1.3.11.1 Generalidades
 
-                                                                        El régimen al que se somete esta materia es al de responsabilidad
+**Definición Canónica:** El régimen al que se somete esta materia es al de responsabilidad
+                                                                        contractual, toda vez que la relación médico-paciente reposa sobre
+                                                                        la base de un contrato de prestación de servicios médicos. Dicho
+                                                                        contrato, muchas veces, pasa desapercibido entre las partes, puesto
+                                                                        que no está sometido a ningún tipo de solemnid
+**Concordancias Legales:** artículo 1546 del Código Civil
+
+El régimen al que se somete esta materia es al de responsabilidad
                                                                         contractual, toda vez que la relación médico-paciente reposa sobre
                                                                         la base de un contrato de prestación de servicios médicos. Dicho
                                                                         contrato, muchas veces, pasa desapercibido entre las partes, puesto
@@ -2841,10 +2702,14 @@ civilMATERIALES
                                                                            por otro, los deberes de información y diligencia que debe observar
                                                                            el paciente”100.
 
-
 ## 1.3.11.2 Consecuencias del incumplimiento del deber de
 
-                                                                           información
+**Definición Canónica:** información
+                                                                           Al incumplirse el deber de información, nos encontraremos ante
+                                                                           un caso de incumplimiento contractual y, por lo tanto, habrá que
+**Concordancias Legales:** artículo 1553
+
+información
                                                                            Al incumplirse el deber de información, nos encontraremos ante
                                                                            un caso de incumplimiento contractual y, por lo tanto, habrá que
 
@@ -2887,10 +2752,12 @@ civilMATERIALES
 
 Responsabilidad                                                            1. El contrato médico                                                  70
 
-
 ## 1.4           El contenido del
 
-                                                                             contrato médico
+**Definición Canónica:** contrato médico
+**Concordancias Legales:** artículo 1438 del Código; artículo 1547 del Código Civil. Una diligencia distinta de la p; artículo 1547
+
+contrato médico
 
                                                                              Al hablar del contenido del contrato médico, nos referimos a lo
                                                                              pactado: aquello a lo que las partes han convenido, y en este caso,
@@ -3009,8 +2876,10 @@ civilMATERIALES
 
 ## 110   PEÑAILILLO (2003), p. 498
 
+**Definición Canónica:** Responsabilidad                                                                 1. El contrato médico                                                 73
+**Concordancias Legales:** artículo 1547
 
-Responsabilidad                                                                 1. El contrato médico                                                 73
+Responsabilidad                                                                 1. El contrato médico                                                 73
 
                                                                                   fectamente (lo hace mal), hay incumplimiento de contrato. Y ese
                                                                                   incumplimiento, salvo la prueba del caso fortuito, le atribuirá respon-
@@ -3136,10 +3005,15 @@ civilMATERIALES
 
 Responsabilidad                                                            1. El contrato médico                                                     76
 
-
 ## 1.4.2 La lex artis médica
 
-                                                                             En materia médica, el profesional está obligado a la lex artis117 que se
+**Definición Canónica:** En materia médica, el profesional está obligado a la lex artis117 que se
+                                                                             integra a la prestación objeto del contrato médico, dándole contenido.
+                                                                             La lex artis consiste en aquella práctica aceptada como correcta por
+                                                                             un cuerpo de profesionales médicos altamente calificados.
+**Concordancias Legales:** artículo 1546 del Código Civil
+
+En materia médica, el profesional está obligado a la lex artis117 que se
                                                                              integra a la prestación objeto del contrato médico, dándole contenido.
                                                                              La lex artis consiste en aquella práctica aceptada como correcta por
                                                                              un cuerpo de profesionales médicos altamente calificados.
@@ -3218,7 +3092,10 @@ civilMATERIALES
 
 ## 121   Corte Suprema, 25 de abril de 2017, Rol Nº 38151-2016; también véase Corte Suprema, 13 de noviembre de
 
-                                              2017, Rol Nº 99898-2016.
+**Definición Canónica:** 2017, Rol Nº 99898-2016.
+**Concordancias Legales:** artículo 1546 de Código Civil; artículo 1546 del Código Civil
+
+2017, Rol Nº 99898-2016.
 
 Responsabilidad                                                          1. El contrato médico                                                  78
 
@@ -3261,7 +3138,10 @@ civilMATERIALES
 
 ## 123   Corte Suprema, 22 de agosto de 2012, Rol Nº 3240-2012; así también véase Corte Suprema, 5 de junio de
 
-                                              2013, Rol Nº 5883-2012.
+**Definición Canónica:** 2013, Rol Nº 5883-2012.
+**Concordancias Legales:** artículo 4; artículo 1546 del Código Civil; artículo 1444; artículo 1548; artículo 1445; artículo 1445 del A lo anterior
+
+2013, Rol Nº 5883-2012.
 
 Responsabilidad                                                              1. El contrato médico                                                   79
 
@@ -3506,7 +3386,10 @@ civilMATERIALES
 
 ## 131   Un desarrollo de dichas exigencias puede encontrarse en LÓPEZ y ELORRIAGA (2017), pp. 445 y ss.; y en
 
-                                                 BOETSCH (2011), pp. 100 y ss.
+**Definición Canónica:** BOETSCH (2011), pp. 100 y ss.
+**Concordancias Legales:** artículo 1546 del Código Civil
+
+BOETSCH (2011), pp. 100 y ss.
 
 Responsabilidad                                                          1. El contrato médico                                                    85
 
@@ -3559,10 +3442,13 @@ civilMATERIALES
                                                                                o fase precontractual, pasando por la celebración, hasta la ejecución
                                                                                del contrato y las relaciones postcontractuales’ (op. cit., pág. 9)”.
 
-
 ## 1.4.4 Los deberes del médico: entre
 
-                                                                               la buena fe y la LDDP
+**Definición Canónica:** la buena fe y la LDDP
+                                                                               Tratándose del contrato médico, si bien la buena fe objetiva constitu-
+                                                                               ye fuente de deberes de conducta que se incorporan a la prestación
+
+la buena fe y la LDDP
                                                                                Tratándose del contrato médico, si bien la buena fe objetiva constitu-
                                                                                ye fuente de deberes de conducta que se incorporan a la prestación
 
@@ -3587,10 +3473,14 @@ civilMATERIALES
                                         síquica de la persona a                después de la ejecución de la prestación comprometida, es decir,
                                         tratarse.                              durante todo el iter contractual.
 
-
 ## 133   La jurisprudencia más reciente ha refrendado la fuerza integradora de la buena fe objetiva. Véase Corte
 
-                                                 Suprema, 29 de mayo de 2014, Rol N° 2073-2013; Corte de Apelaciones de Antofagasta, 25 de julio de 2014,
+**Definición Canónica:** Suprema, 29 de mayo de 2014, Rol N° 2073-2013; Corte de Apelaciones de Antofagasta, 25 de julio de 2014,
+                                                 Rol N° 165-2014; Corte Suprema, 26 de agosto de 2015, Rol Nº 1587-2009.
+                                           134   PIZARRO (2017), pp. 34 y ss., y 75 y ss.
+**Concordancias Legales:** artículo 4 de la LDDP; Artículos 14; artículo 1546 del Código Civil
+
+Suprema, 29 de mayo de 2014, Rol N° 2073-2013; Corte de Apelaciones de Antofagasta, 25 de julio de 2014,
                                                  Rol N° 165-2014; Corte Suprema, 26 de agosto de 2015, Rol Nº 1587-2009.
                                            134   PIZARRO (2017), pp. 34 y ss., y 75 y ss.
 
@@ -3640,10 +3530,17 @@ civilMATERIALES
                                                                            también encuentra su asiento en el aludido principio de la buena fe
                                                                            del artículo 1546 del Código Civil.
 
-
 ## 1.4.5 Obligaciones y deberes del paciente
 
-                                        Sobre el paciente                  Sobre el paciente también pesan obligaciones y deberes cuya ob-
+**Definición Canónica:** Sobre el paciente                  Sobre el paciente también pesan obligaciones y deberes cuya ob-
+                                        también pesan                      servancia garantiza la correcta atención médica o, si se quiere, la
+                                                                           correcta ejecución del contrato de prestación de servicios médicos.
+                                        obligaciones y deberes
+                                        cuya observancia                   Del mismo modo que sucede con los deberes de los médicos, la
+                
+**Concordancias Legales:** artículo 36 de la LDDP impone al paciente un deber; artículo 34
+
+Sobre el paciente                  Sobre el paciente también pesan obligaciones y deberes cuya ob-
                                         también pesan                      servancia garantiza la correcta atención médica o, si se quiere, la
                                                                            correcta ejecución del contrato de prestación de servicios médicos.
                                         obligaciones y deberes
@@ -3706,10 +3603,17 @@ civilMATERIALES
                                                                          de los primeros. Corresponderá en estos casos, o morigerar la respon-
                                                                          sabilidad del profesional médico, o bien, simplemente, descartarla139.
 
-
 ## 1.4.6 Los deberes de colaboración del
 
-                                                                         paciente más allá de la norma legal
+**Definición Canónica:** paciente más allá de la norma legal
+                                                                         Si bien la LDDP impone al paciente –familiares y representantes– un
+                                                                         deber de colaboración que, según la disposición citada, se entien-
+                                                                         de satisfecho, “informando (al médico) de manera veraz acerca de
+                                                                         sus necesidades y problemas de salud y de todos los antecedentes
+       
+**Concordancias Legales:** artículo 1546 del Código
+
+paciente más allá de la norma legal
                                                                          Si bien la LDDP impone al paciente –familiares y representantes– un
                                                                          deber de colaboración que, según la disposición citada, se entien-
                                                                          de satisfecho, “informando (al médico) de manera veraz acerca de
@@ -3763,10 +3667,17 @@ civilMATERIALES
 
 Responsabilidad                         1. El contrato médico                                                91
 
-
 ## 1.4.7 La infracción del deber de colaboración
 
-                                          Convendrá comenzar por identificar aquellos supuestos típicos de
+**Definición Canónica:** Convendrá comenzar por identificar aquellos supuestos típicos de
+                                          infracción al deber de colaboración del paciente. Estos se configuran,
+                                          por ejemplo:
+                                          a. Omitiendo información, o entregando una incompleta o
+                                             falsa. Aquello, puede materializarse de las siguientes formas: i)
+                                             silenciar o negar alergias a fármacos cuya administración puede
+                                             resu
+
+Convendrá comenzar por identificar aquellos supuestos típicos de
                                           infracción al deber de colaboración del paciente. Estos se configuran,
                                           por ejemplo:
                                           a. Omitiendo información, o entregando una incompleta o
@@ -3811,10 +3722,13 @@ civilMATERIALES
                                                                             en forma indicada, como la omisión de inyecciones de insulina
                                                                             en un paciente diabético.
 
-
 ## 1.4.8 Las consecuencias de la infracción de
 
-                                                                         los deberes de colaboración del paciente
+**Definición Canónica:** los deberes de colaboración del paciente
+                                                                         Sin embargo, queda por dilucidar qué efectos produce la infracción
+**Concordancias Legales:** artículo 34 de la LDDP
+
+los deberes de colaboración del paciente
                                                                          Sin embargo, queda por dilucidar qué efectos produce la infracción
 
                                                                          de los deberes de colaboración del paciente, incluido del artículo
@@ -3868,10 +3782,16 @@ civilMATERIALES
                                                                               resultando pertinente acudir a las ya advertidas tres reglas del que
                                                                               recoge el moderno derecho de contratos.
 
-
 ## 1.4.8.1 El incumplimiento imputable al paciente
 
-                                                                              Por lo que toca a la primera regla, la de la acción u omisión del
+**Definición Canónica:** Por lo que toca a la primera regla, la de la acción u omisión del
+                                                                              acreedor como causa del incumplimiento, convendrá prestar aten-
+                                                                              ción al artículo 8:101 (1) de los Principios Europeos de Derecho de
+                                                                              Contratos –PECL– (aplicable en materia de treatment contract) que
+                                                                              expresa, bajo el título 
+**Concordancias Legales:** artículo 8
+
+Por lo que toca a la primera regla, la de la acción u omisión del
                                                                               acreedor como causa del incumplimiento, convendrá prestar aten-
                                                                               ción al artículo 8:101 (1) de los Principios Europeos de Derecho de
                                                                               Contratos –PECL– (aplicable en materia de treatment contract) que
@@ -3884,7 +3804,10 @@ civilMATERIALES
 
 ## 144   Al respecto, véase PANTALEÓN (1991), pp. 1580-1582; MORALES MORENO (2010), pp. 157-158; y DE LA MAZA
 
-                                                (2018), pp. 635 y ss.
+**Definición Canónica:** (2018), pp. 635 y ss.
+**Concordancias Legales:** artículos 80 de la Con; artículo 1558 del CC; artículo 1556; artículo 1546 del Código Civil146
+
+(2018), pp. 635 y ss.
 
 Responsabilidad                                                          1. El contrato médico                                                 94
 
@@ -3951,10 +3874,14 @@ civilMATERIALES
                                           suministrar una información incorrecta, constituye la causa exclusiva
                                           de daño.
 
-
 ## 1.4.8.2 La contribución a la producción del daño
 
-                                          Esta regla, junto a la de mitigar los daños, produce el efecto de
+**Definición Canónica:** Esta regla, junto a la de mitigar los daños, produce el efecto de
+                                          reducir la indemnización, debido a que supone que el paciente ha
+                                          participado, parcialmente, en la producción del perjuicio.
+**Concordancias Legales:** artículo 9; artículo 7.4.7
+
+Esta regla, junto a la de mitigar los daños, produce el efecto de
                                           reducir la indemnización, debido a que supone que el paciente ha
                                           participado, parcialmente, en la producción del perjuicio.
 
@@ -3971,7 +3898,11 @@ civilMATERIALES
 
 ## parte asume el riesgo, la cuantía del resarcimiento se reducirá en la
 
-                                          medida en que tales factores hayan contribuido al daño, tomando
+**Definición Canónica:** medida en que tales factores hayan contribuido al daño, tomando
+                                          en consideración la conducta de cada una de las partes”.
+**Concordancias Legales:** artículo 3; artículo 4; artículos 1556; artículo 2330
+
+medida en que tales factores hayan contribuido al daño, tomando
                                           en consideración la conducta de cada una de las partes”.
 
 Responsabilidad                                                            1. El contrato médico                                                              96
@@ -4001,10 +3932,16 @@ civilMATERIALES
                                                                              eventuales alergias a medicamentos. El punto es que, el paciente,
                                                                              teniendo conocimiento acerca de que es alérgico a derivados de la
 
-
 ## 147   Artículo IV.C.–8:110: “Remedies for non-performance
 
-                                              With regard to any non-performance of an obligation under a contract for treatment, Book III, Chapter 3
+**Definición Canónica:** With regard to any non-performance of an obligation under a contract for treatment, Book III, Chapter 3
+                                              (Remedies for Non-performance) and IV.C.–2:111 (Client’s right to terminate) apply with the following adap-
+                                              tations:
+                                              (a) the treatment provider may not withhold performance or terminate the contractual relationship under
+                                              that Chapter if this would seriously endanger the health of the patient; and
+              
+
+With regard to any non-performance of an obligation under a contract for treatment, Book III, Chapter 3
                                               (Remedies for Non-performance) and IV.C.–2:111 (Client’s right to terminate) apply with the following adap-
                                               tations:
                                               (a) the treatment provider may not withhold performance or terminate the contractual relationship under
@@ -4015,7 +3952,14 @@ civilMATERIALES
 
 ## 148   Corte Suprema, 3 de marzo de 2020, Rol Nº 12473-2018. En este caso, un viñedo demanda al Banco BBVA
 
-                                              por un incumplimiento de contrato de prestación de servicio de pago a proveedores. La infracción imputada
+**Definición Canónica:** por un incumplimiento de contrato de prestación de servicio de pago a proveedores. La infracción imputada
+                                              obedecería a que un contador de la actora habría realizado giros en transferencia y emisión de vales vista,
+                                              lo que el banco cursó sin autorización de la demandante, cuestión descubierta en una auditoría en 2011. Sin
+                                              embargo, dicha irregularidad no se descubrió sino luego de años sin auditar la empresa, de tal manera que
+                                  
+**Concordancias Legales:** artículos 1556
+
+por un incumplimiento de contrato de prestación de servicio de pago a proveedores. La infracción imputada
                                               obedecería a que un contador de la actora habría realizado giros en transferencia y emisión de vales vista,
                                               lo que el banco cursó sin autorización de la demandante, cuestión descubierta en una auditoría en 2011. Sin
                                               embargo, dicha irregularidad no se descubrió sino luego de años sin auditar la empresa, de tal manera que
@@ -4044,10 +3988,16 @@ civilMATERIALES
                                                                              ciones constituyen concausas y hacen procedente una reducción de
                                                                              la indemnización.
 
-
 ## 1.4.8.3 La regla de la mitigación149
 
-                                                                             El acreedor afectado por el incumplimiento debe adoptar las medidas
+**Definición Canónica:** El acreedor afectado por el incumplimiento debe adoptar las medidas
+                                                                             que sean razonables en consideración a las circunstancias tendientes
+                                                                             a aminorar el daño. La colaboración aquí se confunde con el deber
+                                                                             de autocuidado que pesa sobre el paciente. Sin embargo, en atención
+                                                                             a que la ejecución de
+**Concordancias Legales:** artículo 9; artículo 77 de la CISG; artículo 7.4.8; artículo 1546; artículo 1558
+
+El acreedor afectado por el incumplimiento debe adoptar las medidas
                                                                              que sean razonables en consideración a las circunstancias tendientes
                                                                              a aminorar el daño. La colaboración aquí se confunde con el deber
                                                                              de autocuidado que pesa sobre el paciente. Sin embargo, en atención
@@ -4134,15 +4084,17 @@ civilMATERIALES
 Responsabilidad                                                             2. El incumplimiento y                                                101
 civil médica                                                                   la imputabilidad
 
-
-## 2.1           Incumplimiento, diligencia
-
-                                                                              y culpa
-
-
 ## 2.1.1 Una misma anatomía del incumplimiento
 
-                                                                              e imputabilidad para las obligaciones de
+**Definición Canónica:** e imputabilidad para las obligaciones de
+                                                                              medios y las obligaciones de resultado
+                                                                              Resultará útil comenzar indicando que, si bien el ámbito más propicio
+                                                                              de las obligaciones de medios es aquel de los contratos médicos151,
+                                                                              no quiere decir que la figura médica sólo contrae esta clase de obli-
+
+**Concordancias Legales:** artículo 1547 del Código Civil; artículo 1556; artículo 1547 del Código Ci
+
+e imputabilidad para las obligaciones de
                                                                               medios y las obligaciones de resultado
                                                                               Resultará útil comenzar indicando que, si bien el ámbito más propicio
                                                                               de las obligaciones de medios es aquel de los contratos médicos151,
@@ -4346,10 +4298,15 @@ civil médica                                                               la i
 Responsabilidad                                                         2. El incumplimiento y                                                 106
 civil médica                                                               la imputabilidad
 
-
 ## 2.1.2 Incumplimiento e imputabilidad
 
-                                                                          subjetiva en las obligaciones de medios
+**Definición Canónica:** subjetiva en las obligaciones de medios
+                                                                          En la responsabilidad civil médica, la pregunta es doble: ¿en qué
+                                                                          consiste el incumplimiento del contrato por parte del profesional de
+                                                                          la salud? Y, enseguida, ¿cuál es el criterio de imputabilidad subjetiva
+                                                                          que le atribuye responsabilidad?
+
+subjetiva en las obligaciones de medios
                                                                           En la responsabilidad civil médica, la pregunta es doble: ¿en qué
                                                                           consiste el incumplimiento del contrato por parte del profesional de
                                                                           la salud? Y, enseguida, ¿cuál es el criterio de imputabilidad subjetiva
@@ -4416,7 +4373,15 @@ civil médica                                                                   
 
 ## título de culpa y dolo,               requisitos diferenciados. Así lo reconocen los autores y la sentencia
 
-                                                                              citada. Y tal distinción ha de predicarse respecto del incumplimiento
+**Definición Canónica:** citada. Y tal distinción ha de predicarse respecto del incumplimiento
+                                        asumiendo que la
+                                                                              de cualquier obligación. Así, habrá incumplimientos imputables al
+                                        culpa se presume (2);                 deudor –que será la regla al aceptarse que hay genuina presunción de
+                                        el daño derivado del                  imputabilidad (inciso 3º, artículo 1547 del CC)–; y también, incum-
+                                    
+**Concordancias Legales:** artículo 1547
+
+citada. Y tal distinción ha de predicarse respecto del incumplimiento
                                         asumiendo que la
                                                                               de cualquier obligación. Así, habrá incumplimientos imputables al
                                         culpa se presume (2);                 deudor –que será la regla al aceptarse que hay genuina presunción de
@@ -4445,10 +4410,16 @@ civil médica                                                               la i
                                                                           responsabilidad. Son, por así decirlo, dos planos diversos que, si bien
                                                                           normalmente se acompañan, puede que no sea así.
 
-
 ## 2.1.3 Cumplimiento e incumplimiento
 
-                                                                          en las obligaciones de medios
+**Definición Canónica:** en las obligaciones de medios
+                                                                          Convendrá acudir a la voz más autorizada en derecho de contratos,
+                                                                          a la de Morales Moreno, quien nos enseña que, a propósito de la no-
+                                                                          ción de incumplimiento neutro, esta puede predicarse respecto de
+                                                                          cualquiera obligación y, en el caso de las obligaciones medios, aquello
+   
+
+en las obligaciones de medios
                                                                           Convendrá acudir a la voz más autorizada en derecho de contratos,
                                                                           a la de Morales Moreno, quien nos enseña que, a propósito de la no-
                                                                           ción de incumplimiento neutro, esta puede predicarse respecto de
@@ -4516,7 +4487,11 @@ civil médica                                                               la i
 
 ## 1. Lo esencial, lo que caracteriza al concepto de incumplimiento
 
-                                             (…) es que no se ha realizado el contrato en los términos en él
+**Definición Canónica:** (…) es que no se ha realizado el contrato en los términos en él
+                                             previstos y, por tanto, no ha quedado satisfecho el interés del
+                                             acreedor. Es indiferente que el incumplimiento consista, como
+
+(…) es que no se ha realizado el contrato en los términos en él
                                              previstos y, por tanto, no ha quedado satisfecho el interés del
                                              acreedor. Es indiferente que el incumplimiento consista, como
 
@@ -4534,7 +4509,10 @@ civil médica                                                              la im
 
 ## 2. En las obligaciones de medios, la necesaria consideración de la
 
-                                                                            conducta del deudor para poder establecer que existe incumpli-
+**Definición Canónica:** conducta del deudor para poder establecer que existe incumpli-
+                                                                            miento no es consecuencia de que en ellas el incumplimiento no
+
+conducta del deudor para poder establecer que existe incumpli-
                                                                             miento no es consecuencia de que en ellas el incumplimiento no
 
                                                                             consista en la insatisfacción del interés del acreedor, ponderada
@@ -4582,10 +4560,17 @@ civil médica                                                         la imputab
 
                                                                     la persona deudora, cuando no le sea imputable.
 
-
 ## 2.1.4 El incumplimiento y la culpa de la persona
 
-                                                                    deudora en las obligaciones de medios
+**Definición Canónica:** deudora en las obligaciones de medios
+                                        Se ha sostenido que,        No obstante lo anterior, se ha sostenido que, en las obligaciones de
+                                        en las obligaciones         medio, no cabría afirmar el carácter neutro del incumplimiento por-
+                                                                    que en esta clase de obligaciones el deudor se obliga a desplegar una
+                                        de medio, no                conducta diligente, de modo que, si incumple, tal incumplimiento
+                  
+**Concordancias Legales:** artículo 1547 inciso 3; constitución
+
+deudora en las obligaciones de medios
                                         Se ha sostenido que,        No obstante lo anterior, se ha sostenido que, en las obligaciones de
                                         en las obligaciones         medio, no cabría afirmar el carácter neutro del incumplimiento por-
                                                                     que en esta clase de obligaciones el deudor se obliga a desplegar una
@@ -4658,10 +4643,17 @@ civil médica                                                        la imputabi
                                                                    operan las cargas probatorias para esta clase de obligaciones. Sobre
                                                                    este último punto me detendré al finalizar este apartado.
 
-
 ## 2.1.5 Acerca de lo debido en las obligaciones
 
-                                                                   de medios
+**Definición Canónica:** de medios
+                                        Aunque el Código          Aunque el Código Civil no recepcionó la clasificación de obligaciones
+                                        Civil no recepcionó       de medios y de resultado, la doctrina y la jurisprudencia la reconoce
+                                                                  y se hace cargo de ella como objeto de estudio y para la resolución
+                                        la clasificación          de juicios sobre responsabilidad civil contractual, respectivamente.
+                                        de obliga
+**Concordancias Legales:** artículo 1547 del Código Civil. Así parece reconocerlo; artículo 1547; artículo 1547 del Código Civil que debe emplear el médico; artículo 1558
+
+de medios
                                         Aunque el Código          Aunque el Código Civil no recepcionó la clasificación de obligaciones
                                         Civil no recepcionó       de medios y de resultado, la doctrina y la jurisprudencia la reconoce
                                                                   y se hace cargo de ella como objeto de estudio y para la resolución
@@ -4868,10 +4860,14 @@ civil médica                                                                   
                                                                                 ¿cuál es el rol que le cabe diligencia debida, según el inciso 1° del
                                                                                 artículo 1547?
 
-
 ## 2.1.6 La función de la diligencia exigible
 
-                                                                                en las obligaciones de medios
+**Definición Canónica:** en las obligaciones de medios
+                                        Para descubrir la                       Para descubrir la función de la diligencia en las obligaciones de
+                                        función de la diligencia                medios, habrá que aceptar que en ellas la persona deudora, fuera de
+**Concordancias Legales:** artículo 1547; artículo 1444 del Código Civil; artículo 1547 del Código Civil; artículo 8; artículo 3; artículo 1547 del Código Civil en su inciso 3; artículo 45; constitución
+
+en las obligaciones de medios
                                         Para descubrir la                       Para descubrir la función de la diligencia en las obligaciones de
                                         función de la diligencia                medios, habrá que aceptar que en ellas la persona deudora, fuera de
 
@@ -5202,10 +5198,15 @@ civil médica                                                                la 
 Responsabilidad                                                           2. El incumplimiento y                                                   126
 civil médica                                                                 la imputabilidad
 
-
 ## 2.1.7 Síntesis
 
-                                                                            Por lo que toca al incumplimiento y a la imputación subjetiva de
+**Definición Canónica:** Por lo que toca al incumplimiento y a la imputación subjetiva de
+                                                                            responsabilidad, puede afirmarse que en la obligación de medios
+                                                                            el deudor no se obliga a ser diligente o a actuar diligentemente,
+                                                                            sino a una prestación de hacer que, en el caso del contrato médico,
+                                                                            generalmente la integra el juez o
+
+Por lo que toca al incumplimiento y a la imputación subjetiva de
                                                                             responsabilidad, puede afirmarse que en la obligación de medios
                                                                             el deudor no se obliga a ser diligente o a actuar diligentemente,
                                                                             sino a una prestación de hacer que, en el caso del contrato médico,
@@ -5241,10 +5242,15 @@ civil médica                                                                 la
 Responsabilidad                                                             2. El incumplimiento y                                                        127
 civil médica                                                                   la imputabilidad
 
-
 ## 2.1.8 La excepción: la obligación de
 
-                                                                              resultado en el ámbito médico
+**Definición Canónica:** resultado en el ámbito médico
+                                                                              Finalmente, asumiendo que la distinción entre obligaciones de medios
+                                                                              y de resultado no incide ni en la forma de concebir el incumplimiento
+                                                                              ni en el régimen de responsabilidad, me detendré en algunos casos
+                                                                              de obligaciones de resultado en el ámbito médico.
+
+resultado en el ámbito médico
                                                                               Finalmente, asumiendo que la distinción entre obligaciones de medios
                                                                               y de resultado no incide ni en la forma de concebir el incumplimiento
                                                                               ni en el régimen de responsabilidad, me detendré en algunos casos
@@ -5352,15 +5358,14 @@ civil médica                                                                la 
 Responsabilidad                               2. El incumplimiento y                                               130
 civil médica                                     la imputabilidad
 
-
-## 2.2     La prueba del incumplimiento
-
-                                                y la culpa
-
-
 ## 2.2.1 La pregunta
 
-                                                Llegados a este punto, la pregunta que convendrá formular es: ¿cómo
+**Definición Canónica:** Llegados a este punto, la pregunta que convendrá formular es: ¿cómo
+                                                se distribuye la carga de la prueba del incumplimiento en las obli-
+                                                gaciones de medios?
+**Concordancias Legales:** artículo 1698; artículo 1547; artículo 1698 del Código Civil ha sido aplicada extensivamente
+
+Llegados a este punto, la pregunta que convendrá formular es: ¿cómo
                                                 se distribuye la carga de la prueba del incumplimiento en las obli-
                                                 gaciones de medios?
 
@@ -5426,10 +5431,13 @@ civil médica                                                                 la
                                                                             debida diligencia o cuidado, a menos que la ley expresamente ponga
                                                                             la prueba de la culpa a cargo del acreedor (…)”188.
 
-
 ## 187   DOMÍNGUEZ (2012), pp. 1-4 (en El Mercurio Legal). Para un comentario acerca de la entrevista, véase CAR-
 
-                                              VAJAL (2012), pp. 565-604.
+**Definición Canónica:** VAJAL (2012), pp. 565-604.
+                                        188   ALESSANDRI (2005), p. 54.
+**Concordancias Legales:** artículo 1547; artículo 1698; artículo 1547 del Código Civil191; artículo 1547 inciso 3; artículo 1547 del Código Civil se; artículo 1698 del Código Civil. Sin embargo
+
+VAJAL (2012), pp. 565-604.
                                         188   ALESSANDRI (2005), p. 54.
 
 Responsabilidad                                                           2. El incumplimiento y                                                  132
@@ -5584,7 +5592,14 @@ civil médica                                                                  l
 
 ## 2. La extensión del artículo 1698 a los cumplimientos imper-
 
-                                             fectos. Según se ha dicho, esta opinión no distingue según se
+**Definición Canónica:** fectos. Según se ha dicho, esta opinión no distingue según se
+                                             trate de falta de cumplimiento y cumplimiento imperfecto. Por
+                                             el contrario, lo que hace es extrapolar una regla que, si bien calza
+                                             perfectamente con el caso de falta de cumplimiento, no sucede
+                                             lo mismo con el cumplimiento imperfecto.
+**Concordancias Legales:** artículo 1698; artículo 1437 del Código Civil; artículo 1567 del Código Civil; artículo 1547; artículo 1547.3 del CC.CH
+
+fectos. Según se ha dicho, esta opinión no distingue según se
                                              trate de falta de cumplimiento y cumplimiento imperfecto. Por
                                              el contrario, lo que hace es extrapolar una regla que, si bien calza
                                              perfectamente con el caso de falta de cumplimiento, no sucede
@@ -5667,7 +5682,14 @@ civil médica                                                                  l
 
 ## 4. Las sentencias. Una primera sentencia de la Corte Suprema, de
 
-                                                                                25 de abril de 2017198, al resolver sobre la responsabilidad civil de
+**Definición Canónica:** 25 de abril de 2017198, al resolver sobre la responsabilidad civil de
+                                                                                dos médicos, comienza expresando: “Que en el caso concreto, al
+                                                                                alegarse la responsabilidad contractual de la demandada, la actora
+                                                                                escogió una opción que el tribunal debe observar, ateniéndose
+                                                                                a la causa de pedi
+**Concordancias Legales:** artículo 1547 del Código Civil; artículo 1547 del Código Civil. Por consiguiente; artículo 1547; artículo 1547 del Código Civil es que se libera al acreedor; artículo 1698
+
+25 de abril de 2017198, al resolver sobre la responsabilidad civil de
                                                                                 dos médicos, comienza expresando: “Que en el caso concreto, al
                                                                                 alegarse la responsabilidad contractual de la demandada, la actora
                                                                                 escogió una opción que el tribunal debe observar, ateniéndose
@@ -5773,10 +5795,16 @@ civil médica                                                             la imp
 Responsabilidad                                                              2. El incumplimiento y                                                          140
 civil médica                                                                    la imputabilidad
 
-
 ## 2.2.3 La prueba del incumplimiento y la presunción
 
-                                                                               de imputabilidad en las obligaciones de medios.
+**Definición Canónica:** de imputabilidad en las obligaciones de medios.
+                                                                               Otra manera de entender las cosas.
+                                                                               Convendrá comenzar indicando que, según se ha explicado en el
+                                                                               apartado del incumplimiento, en las obligaciones de medios, al igual
+                                                                               que en las obligaciones de resultado, se distingue la prestación (obli
+**Concordancias Legales:** artículo 1547 del Código Civil es de aplicación a; artículo 1547; artículo 1558; artículo 1698
+
+de imputabilidad en las obligaciones de medios.
                                                                                Otra manera de entender las cosas.
                                                                                Convendrá comenzar indicando que, según se ha explicado en el
                                                                                apartado del incumplimiento, en las obligaciones de medios, al igual
@@ -5850,10 +5878,14 @@ civil médica                                                                  l
                                                                              inciso 3° del artículo 1547 en el segundo, de la responsabilidad o
                                                                              imputación subjetiva del incumplimiento”203.
 
-
 ## 202   DOMÍNGUEZ (2011), pp. 34 y 45. El problema de la culpa presunta contractual y las obligaciones de medios
 
-                                              y de resultado. Habrá que anticipar que la autora más adelante aborda los llamados “alivios probatorios” en
+**Definición Canónica:** y de resultado. Habrá que anticipar que la autora más adelante aborda los llamados “alivios probatorios” en
+                                              beneficio del paciente. Más adelante se tratará el punto.
+                                        203   VIDAL y BRANTT (2012), p. 285.
+**Concordancias Legales:** artículo 1698; artículo 1547; artículo 1698 del Código Civil; artículo 1547 inciso 3; artículo 1698 del Código Civil. De un lado; artículos 8; artículo 1547 del Código Civil
+
+y de resultado. Habrá que anticipar que la autora más adelante aborda los llamados “alivios probatorios” en
                                               beneficio del paciente. Más adelante se tratará el punto.
                                         203   VIDAL y BRANTT (2012), p. 285.
 
@@ -6359,10 +6391,11 @@ civil médica                                                                la 
 Responsabilidad                                                                2. El incumplimiento y                                                  155
 civil médica                                                                      la imputabilidad
 
-
 ## 2.3             El error
 
-                                                                                 médico
+**Definición Canónica:** médico
+
+médico
 
                                                                                  Se ha señalado que, por el afán de dejar indemne al paciente, en
                                                                                  caso de ocurrir daños a causa de la acción médica, se suele atribuir
@@ -6531,15 +6564,15 @@ civil médica                                                         la imputab
 Responsabilidad                                                               3. La responsabilidad del médico por                                          160
 civil médica                                                                      el hecho de sus auxiliares y por
 
-
-## 3.1           La responsabilidad del médico por
-
-                                                                                el hecho de sus auxiliares
-
-
 ## 3.1.1 La ejecución de la prestación
 
-                                                                                y los auxiliares del médico
+**Definición Canónica:** y los auxiliares del médico
+                                                                                Al examinar la responsabilidad del médico por el hecho de sus auxi-
+                                                                                liares, se asume que, usualmente, la ejecución de la prestación objeto
+                                                                                del contrato médico, por su propia naturaleza, considera la partici-
+                                                                                pación de terceros, realizando actos materia
+
+y los auxiliares del médico
                                                                                 Al examinar la responsabilidad del médico por el hecho de sus auxi-
                                                                                 liares, se asume que, usualmente, la ejecución de la prestación objeto
                                                                                 del contrato médico, por su propia naturaleza, considera la partici-
@@ -6762,10 +6795,18 @@ civil médica                                el hecho de sus auxiliares y por
                                           el acto médico, y a lo sumo intervienen otros terceros –que no tienen
                                           la calidad de auxiliar–.
 
-
 ## 3.1.4 El incumplimiento del médico debido
 
-                                          a la falta de cumplimiento del auxiliar
+**Definición Canónica:** a la falta de cumplimiento del auxiliar
+                                          Si le ejecución del contrato médico usualmente requiere de la par-
+                                          ticipación de terceros auxiliares que realicen actos materiales de
+                                          cumplimiento y que, por esta razón, debe aceptarse que el paciente,
+                                          al contratar con la figura médica, consiente implícitamente en la
+                                          introducción de estos terceros, habrá que considerar la hipótesis
+                
+**Concordancias Legales:** artículo 1545 del Código Civil
+
+a la falta de cumplimiento del auxiliar
                                           Si le ejecución del contrato médico usualmente requiere de la par-
                                           ticipación de terceros auxiliares que realicen actos materiales de
                                           cumplimiento y que, por esta razón, debe aceptarse que el paciente,
@@ -6859,10 +6900,16 @@ civil médica                                                                   
                                         Civil se puede afirmar               Me detendré en la primera cuestión para después, sobre la base de
                                         esta responsabilidad?                su respuesta, examinar la segunda.
 
-
 ## 3.1.5 La responsabilidad del médico
 
-                                                                             por el hecho de sus auxiliares
+**Definición Canónica:** por el hecho de sus auxiliares
+                                                                             Por lo que toca a la primera, convendrá comenzar advirtiendo que,
+                                                                             en el Código Civil, a diferencia de lo que sucede en materia extra-
+                                                                             contractual (artículo 2320 y 2322), no existe en materia contractual
+                                                                             una norma que consagre una regla general según la cual la 
+**Concordancias Legales:** artículo 2320; artículo 79; artículo 1; artículo 8; artículos 3; artículo 86; artículo 1189; artículo 1679; artículo 1590 del Código Civil; artículos 1925; artículos 2000; artículos 2014; artículo 2135; artículos 2242
+
+por el hecho de sus auxiliares
                                                                              Por lo que toca a la primera, convendrá comenzar advirtiendo que,
                                                                              en el Código Civil, a diferencia de lo que sucede en materia extra-
                                                                              contractual (artículo 2320 y 2322), no existe en materia contractual
@@ -7089,10 +7136,16 @@ civil médica                                                                   
                                         (auxiliares) o, por                  tivamente por sus auxiliares238.
                                         el contrario, su
 
-
 ## 3.1.6 El médico responde por el hecho de los
 
-                                        responsabilidad queda                auxiliares que integran su equipo médico
+**Definición Canónica:** responsabilidad queda                auxiliares que integran su equipo médico
+                                        sometida al límite                   Al aceptar como correcta la regla de que la persona deudora responde
+                                        del caso fortuito                    por el hecho de sus auxiliares, sometido al límite del caso fortuito en
+                                        que impidiera el                     los términos explicados, corresponde ahora avanzar hacia el ámbito
+                                                                             de la 
+**Concordancias Legales:** artículos 2320; artículo 1679; artículo 1679 del Código Civil asimila el; artículo 2320; artículo 45 del Código Civil
+
+responsabilidad queda                auxiliares que integran su equipo médico
                                         sometida al límite                   Al aceptar como correcta la regla de que la persona deudora responde
                                         del caso fortuito                    por el hecho de sus auxiliares, sometido al límite del caso fortuito en
                                         que impidiera el                     los términos explicados, corresponde ahora avanzar hacia el ámbito
@@ -7298,7 +7351,10 @@ civil médica                                                                  e
 
 ## parte en dicha convención, por lo que la demanda en su contra no
 
-                                                                            podrá prosperar en los términos propuestos por la demandante (…).
+**Definición Canónica:** podrá prosperar en los términos propuestos por la demandante (…).
+**Concordancias Legales:** artículos 1556; artículo 1526; artículo 1526 del Código Civil; artículo 1435 del Código Civil; artículo 1511 del Código Civil; artículo 1526 del Código Civil consiste en acudir al régimen de; artículo 2118 del Código Civil. Según el precepto; artículo 1444 del Código Civil; artículos 2135
+
+podrá prosperar en los términos propuestos por la demandante (…).
 
                                                                             Adicionado a lo anterior, en el caso subjudice el deudor Servicios
                                                                             Odontológicos Ltda., responde tanto la culpa propia como por la
@@ -7789,10 +7845,11 @@ civil médica                                                                   
 Responsabilidad                                                       3. La responsabilidad del médico por                                190
 civil médica                                                              el hecho de sus auxiliares y por
 
-
 ## 3.2       Responsabilidad civil de la figura médica por la
 
-                                                                        utilización de insumos y/o instrumental con defectos
+**Definición Canónica:** utilización de insumos y/o instrumental con defectos
+
+utilización de insumos y/o instrumental con defectos
 
                                                                         Acaso, al preguntarse sobre la responsabilidad de la figura médica por
                                                                         la utilización de insumos y/o instrumental con defectos que sean la
@@ -7944,11 +8001,15 @@ civil médica                                  extrapatrimonial en la
 Responsabilidad                                                               4. El daño patrimonial y                                             195
 civil médica                                                                      extrapatrimonial en la
 
-
 ## 4.1           Introducción
 
+**Definición Canónica:** Habiendo examinado la prestación a la que se obliga el profesional
+                                                                                médico y el rol de la diligencia, unido al criterio de atribución de
+                                                                                responsabilidad, convendrá detenerse en el daño objeto de la in-
+                                                                                demnización.
+**Concordancias Legales:** artículo 2315; artículo 1558 del Código Civil259. Debe tratarse de un interés; artículo 1558
 
-                                                                                Habiendo examinado la prestación a la que se obliga el profesional
+Habiendo examinado la prestación a la que se obliga el profesional
                                                                                 médico y el rol de la diligencia, unido al criterio de atribución de
                                                                                 responsabilidad, convendrá detenerse en el daño objeto de la in-
                                                                                 demnización.
@@ -8049,15 +8110,14 @@ civil médica                                                                  e
 Responsabilidad                                                            4. El daño patrimonial y                                              198
 civil médica                                                                   extrapatrimonial en la
 
-
-## 4.2           El daño
-
-                                                                             emergente
-
-
 ## 4.2.1 Reconocimiento legal y su noción
 
-                                                                             Probablemente, la expresión más clara y cierta del perjuicio como
+**Definición Canónica:** Probablemente, la expresión más clara y cierta del perjuicio como
+                                                                             elemento de la responsabilidad civil contractual es el daño emergente,
+                                                                             recogida por el artículo 1556 del Código Civil.
+**Concordancias Legales:** artículo 1556 del Código Civil
+
+Probablemente, la expresión más clara y cierta del perjuicio como
                                                                              elemento de la responsabilidad civil contractual es el daño emergente,
                                                                              recogida por el artículo 1556 del Código Civil.
 
@@ -8107,11 +8167,16 @@ civil médica                                                                   
                                                                              poral (gastos de hospitalización o de renovación de prótesis, por
                                                                              ejemplo)”268.
 
-
 ## 4.2.3 Prevención sobre la certidumbre
 
+**Definición Canónica:** del daño emergente futuro
+                                                                             Convendrá destacar, entonces, que el daño emergente corresponde
+                                                                             a la disminución patrimonial del paciente y que no sólo compren-
+                                                                             de aquella disminución presente (anterior al juicio), sino también
+                                                                             aquella futura, siempre, claro está, que se satisfaga el requisito de 
+**Concordancias Legales:** artículo 1558
 
-                                                                             del daño emergente futuro
+del daño emergente futuro
                                                                              Convendrá destacar, entonces, que el daño emergente corresponde
                                                                              a la disminución patrimonial del paciente y que no sólo compren-
                                                                              de aquella disminución presente (anterior al juicio), sino también
@@ -8130,15 +8195,16 @@ civil médica                                                                   
 Responsabilidad                                                         4. El daño patrimonial y                                            200
 civil médica                                                                extrapatrimonial en la
 
-
-## 4.3          Lucro
-
-                                                                          cesante
-
-
 ## 4.3.1 Reconocimiento legal y noción
 
-                                                                          Un primer comentario sobre el lucro cesante consiste en destacar
+**Definición Canónica:** Un primer comentario sobre el lucro cesante consiste en destacar
+                                                                          que, al igual que el daño emergente, la ley reconoce su carácter de
+                                                                          daño indemnizable en sede contractual (artículo 1556 del Código
+                                                                          Civil). A pesar del reconocimiento legal del lucro cesante en materia
+                                                                          contractual, han sido pocos los autor
+**Concordancias Legales:** artículo 1556 del Código
+
+Un primer comentario sobre el lucro cesante consiste en destacar
                                                                           que, al igual que el daño emergente, la ley reconoce su carácter de
                                                                           daño indemnizable en sede contractual (artículo 1556 del Código
                                                                           Civil). A pesar del reconocimiento legal del lucro cesante en materia
@@ -8187,11 +8253,15 @@ civil médica                                                                   
                                                                               determinado valor que, de haberse cumplido el contrato, sí habría
                                                                               incorporado272.
 
-
 ## 4.3.2 Lucro cesante y lesión al interés
 
+**Definición Canónica:** de integridad patrimonial
+                                                                              Una de las peculiaridades del daño patrimonial en casos de respon-
+                                                                              sabilidad médica, según se advirtió respecto del daño emergente,
+                                                                              consiste en que, por la lesión que provoca el incumplimiento en el
+                                        El punto que hace                     interés de integridad personal del paciente (incorporado en el 
 
-                                                                              de integridad patrimonial
+de integridad patrimonial
                                                                               Una de las peculiaridades del daño patrimonial en casos de respon-
                                                                               sabilidad médica, según se advirtió respecto del daño emergente,
                                                                               consiste en que, por la lesión que provoca el incumplimiento en el
@@ -8211,7 +8281,11 @@ civil médica                                                                   
 
 ## 4.3.3 Un obstáculo: la certidumbre del lucro cesante
 
-                                        existencia y extensión                El punto que hace del lucro cesante una partida difícil de ser acep-
+**Definición Canónica:** existencia y extensión                El punto que hace del lucro cesante una partida difícil de ser acep-
+                                        con exactitud (su                     tada en su reclamación resarcitoria, es su carácter de daño futuro y
+                                        certidumbre).                         especulativo o hipotético. No hay manera de determinar su existencia
+
+existencia y extensión                El punto que hace del lucro cesante una partida difícil de ser acep-
                                         con exactitud (su                     tada en su reclamación resarcitoria, es su carácter de daño futuro y
                                         certidumbre).                         especulativo o hipotético. No hay manera de determinar su existencia
 
@@ -8302,7 +8376,9 @@ civil médica                                                                  e
 
 ## 278   Corte Suprema, 2 de mayo de 2017, Rol Nº 100796-2016. En el mismo sentido: Corte Suprema, 5 de marzo de
 
-                                              2018, Rol Nº 82482-2016.
+**Definición Canónica:** 2018, Rol Nº 82482-2016.
+
+2018, Rol Nº 82482-2016.
 
 Responsabilidad                                                               4. El daño patrimonial y                                            204
 civil médica                                                                      extrapatrimonial en la
@@ -8323,10 +8399,15 @@ civil médica                                                                   
                                                                                 zación, no se da lugar a ella y la razón para negarla es la misma: no
                                                                                 se satisface la exigencia general de la certidumbre.
 
-
 ## 4.3.4 El lucro cesante en la responsabilidad
 
-                                        Lo cierto es que, en la                 En esta materia, el obstáculo es el mismo que aquel que se ha expli-
+**Definición Canónica:** Lo cierto es que, en la                 En esta materia, el obstáculo es el mismo que aquel que se ha expli-
+                                        práctica, tal como lo                   cado en el apartado anterior, razón por la cual habrá que considerar
+                                        apunta acertadamente                    especialmente el criterio de la probabilidad del daño dentro del curso
+                                        Miranda, esta                           normal de las cosas.
+                                        dificultad del lucro                    Lo cierto 
+
+Lo cierto es que, en la                 En esta materia, el obstáculo es el mismo que aquel que se ha expli-
                                         práctica, tal como lo                   cado en el apartado anterior, razón por la cual habrá que considerar
                                         apunta acertadamente                    especialmente el criterio de la probabilidad del daño dentro del curso
                                         Miranda, esta                           normal de las cosas.
@@ -8420,7 +8501,13 @@ civil médica                                                                  e
 
 ## título profesional. El tribunal, considerando que no se acreditó si
 
-                                                                            era efectivo que le faltara cursar un año para terminar sus estudios y
+**Definición Canónica:** era efectivo que le faltara cursar un año para terminar sus estudios y
+                                                                            titularse, ni el monto al que ascendería la indemnización por lucro
+                                                                            cesante, rechazó la demanda. La corte no tuvo por cierta la concu-
+                                                                            rrencia del lucro cesante alegado expresando lo siguiente: “De esta
+                                                                            forma, no se probó la 
+
+era efectivo que le faltara cursar un año para terminar sus estudios y
                                                                             titularse, ni el monto al que ascendería la indemnización por lucro
                                                                             cesante, rechazó la demanda. La corte no tuvo por cierta la concu-
                                                                             rrencia del lucro cesante alegado expresando lo siguiente: “De esta
@@ -8450,10 +8537,15 @@ civil médica                                                                   
                                                                               la indemnización de este daño, quedando pendiente la cuestión de
                                                                               su valoración.
 
-
 ## 4.3.5 El contenido del lucro cesante
 
-                                                                              Con respecto a su contenido, el lucro cesante, cuando se trata de
+**Definición Canónica:** Con respecto a su contenido, el lucro cesante, cuando se trata de
+                                                                              daños en las personas (que es el caso de la responsabilidad civil mé-
+                                                                              dica), se relaciona directamente con la disminución de la capacidad
+                                                                              de trabajo que se sigue del daño moral286. Piénsese en la pérdida de
+                                                                              una extremidad 
+
+Con respecto a su contenido, el lucro cesante, cuando se trata de
                                                                               daños en las personas (que es el caso de la responsabilidad civil mé-
                                                                               dica), se relaciona directamente con la disminución de la capacidad
                                                                               de trabajo que se sigue del daño moral286. Piénsese en la pérdida de
@@ -8538,10 +8630,15 @@ civil médica                                                                  e
                                                                             (cabe reparación) o permanente sin posibilidad de recuperación o
                                                                             la muerte292.
 
-
 ## 4.3.7 Lucro cesante reflejo o por repercusión
 
-                                                                            Por lo que toca al lucro cesante reflejo, esto es, aquel que sufren
+**Definición Canónica:** Por lo que toca al lucro cesante reflejo, esto es, aquel que sufren
+                                                                            víctimas indirectas o por repercusión como consecuencia de verse
+                                                                            privadas de ingresos que legítimamente se les proporcionaba para su
+                                                                            sustentación, manutención o educación –la víctima de la mala praxis,
+                                                                            como es el casi del cónyug
+
+Por lo que toca al lucro cesante reflejo, esto es, aquel que sufren
                                                                             víctimas indirectas o por repercusión como consecuencia de verse
                                                                             privadas de ingresos que legítimamente se les proporcionaba para su
                                                                             sustentación, manutención o educación –la víctima de la mala praxis,
@@ -8599,15 +8696,17 @@ civil médica                                                                  e
 Responsabilidad                           4. El daño patrimonial y                                                 211
 civil médica                                  extrapatrimonial en la
 
-
-## 4.4   El daño
-
-                                              moral
-
-
 ## 4.4.1 El punto de partida: la regla de la
 
-                                              previsibilidad y el fin de protección del contrato
+**Definición Canónica:** previsibilidad y el fin de protección del contrato
+                                              Habrá que comenzar advirtiendo que, tratándose del contrato
+                                              médico, la procedencia de la indemnización del daño moral por
+                                              incumplimiento encuentra su justificación en la regla del artículo
+                                              1558 del Código Civil. Si se hubiera dado atención a la naturaleza de
+                                              la prestación objeto de este contrato –cuya ejecución compro
+**Concordancias Legales:** artículo 1558 del Código Civil. Si se hubiera dado atención a l; artículo 1558 del CC que establece el; artículos 1590; artículo 1558; artículo 1545; artículo 1558 del Código Civil el que nos permite incluir ciert; artículo 1556 del Código Civil; artículo 1556
+
+previsibilidad y el fin de protección del contrato
                                               Habrá que comenzar advirtiendo que, tratándose del contrato
                                               médico, la procedencia de la indemnización del daño moral por
                                               incumplimiento encuentra su justificación en la regla del artículo
@@ -8761,10 +8860,15 @@ civil médica                                                                   
                                         consintió tácitamente                 poseer la persona deudora, más si hoy prácticamente todo cae dentro
                                         en repararlo.                         de la órbita de lo previsible.
 
-
 ## 4.4.2 El daño moral contractual es indemnizable
 
-                                                                              Hay acuerdo acerca de que el daño moral por incumplimiento con-
+**Definición Canónica:** Hay acuerdo acerca de que el daño moral por incumplimiento con-
+                                                                              tractual será indemnizable en la medida que sea razonablemente
+                                                                              previsible al tiempo del contrato. El énfasis está puesto en la previ-
+                                                                              sibilidad del daño a partir de la naturaleza del objeto del contrato.
+**Concordancias Legales:** artículo 1558
+
+Hay acuerdo acerca de que el daño moral por incumplimiento con-
                                                                               tractual será indemnizable en la medida que sea razonablemente
                                                                               previsible al tiempo del contrato. El énfasis está puesto en la previ-
                                                                               sibilidad del daño a partir de la naturaleza del objeto del contrato.
@@ -8787,7 +8891,10 @@ civil médica                                                                   
 
 ## parte –y esto es lo que podría conjurar el riesgo de una aceptación
 
-                                                                             inflacionaria del daño moral– la previsibilidad equivaldría a algo así
+**Definición Canónica:** inflacionaria del daño moral– la previsibilidad equivaldría a algo así
+                                                                             como los riesgos asumidos por las partes al momento de contratar”301.
+
+inflacionaria del daño moral– la previsibilidad equivaldría a algo así
                                                                              como los riesgos asumidos por las partes al momento de contratar”301.
 
                                                                              Y prosigue, concluyendo: “Esta parece ser la mirada de la doctrina.
@@ -8895,7 +9002,14 @@ civil médica                                                                   
 
 ## 306 En una reciente sentencia de la Corte Suprema (Corte Suprema, 4 de abril de 2018, Rol Nº 12176-2017), co-
 
-                                              nociendo de una demanda de indemnización por responsabilidad contractual, fundada en un contrato de
+**Definición Canónica:** nociendo de una demanda de indemnización por responsabilidad contractual, fundada en un contrato de
+                                              prestación de servicios educacionales, verificadas las circunstancias que configuran la producción de daño
+                                              moral, el peso de la prueba se invierte, debiendo la demandada acreditar que el hecho que se le imputa no pudo
+                                              producir el daño moral reclamado. En concreto, la corte señaló: “Sin embargo, en determinadas situaciones,
+                                     
+**Concordancias Legales:** artículo 1558 del Código Civil dispone que son de la primera cl
+
+nociendo de una demanda de indemnización por responsabilidad contractual, fundada en un contrato de
                                               prestación de servicios educacionales, verificadas las circunstancias que configuran la producción de daño
                                               moral, el peso de la prueba se invierte, debiendo la demandada acreditar que el hecho que se le imputa no pudo
                                               producir el daño moral reclamado. En concreto, la corte señaló: “Sin embargo, en determinadas situaciones,
@@ -8948,7 +9062,10 @@ civil médica                                                                  e
 
 ## 308 Corte Suprema, 25 de septiembre de 2007, Rol Nº 4103-2005. En el mismo sentido, véase Corte Suprema, 12
 
-                                            de abril de 2011, Rol Nº 6778-2018, citada por DE LA MAZA (2018), p. 290 y Corte Suprema, 30 de octubre de
+**Definición Canónica:** de abril de 2011, Rol Nº 6778-2018, citada por DE LA MAZA (2018), p. 290 y Corte Suprema, 30 de octubre de
+                                            2012, citada por DE LA MAZA (2018), p. 290.
+
+de abril de 2011, Rol Nº 6778-2018, citada por DE LA MAZA (2018), p. 290 y Corte Suprema, 30 de octubre de
                                             2012, citada por DE LA MAZA (2018), p. 290.
 
 Responsabilidad                         4. El daño patrimonial y                                            219
@@ -8964,10 +9081,11 @@ civil médica                                extrapatrimonial en la
                                           determinada, en este caso el deber de previsión, diligencia y cuidado
                                           del paciente que es posible esperar”.
 
-
 ## 4.4.3 Síntesis
 
-                                          En materia de daño moral por incumplimiento de contrato médico,
+**Definición Canónica:** En materia de daño moral por incumplimiento de contrato médico,
+
+En materia de daño moral por incumplimiento de contrato médico,
 
                                           la previsibilidad permite justificar, a partir de la consideración de
                                           la naturaleza de la prestación médica –de contenido personal–, la
@@ -8987,15 +9105,15 @@ civil médica                                extrapatrimonial en la
 Responsabilidad                                                             4. El daño patrimonial y                                            220
 civil médica                                                                    extrapatrimonial en la
 
-
-## 4.5                El daño corporal como
-
-                                                                                   manifestación del daño moral
-
-
 ## 4.5.1 La noción de daño corporal y su
 
-                                                                              relación con el daño moral
+**Definición Canónica:** relación con el daño moral
+                                        El daño corporal                      El daño corporal es aquella partida que, junto al daño moral puro,
+                                        es aquella partida                    tiene lugar por excelencia en el ámbito de la responsabilidad civil
+                                                                              médica. Así lo reconoce Miranda al afirmar lo siguiente: “El daño o
+                                        que, junto al daño                    lesión a la integridad física o psíquica es la consecuenci
+
+relación con el daño moral
                                         El daño corporal                      El daño corporal es aquella partida que, junto al daño moral puro,
                                         es aquella partida                    tiene lugar por excelencia en el ámbito de la responsabilidad civil
                                                                               médica. Así lo reconoce Miranda al afirmar lo siguiente: “El daño o
@@ -9151,15 +9269,16 @@ civil médica                                                                 ex
 Responsabilidad                                                           4. El daño patrimonial y                                            224
 civil médica                                                                  extrapatrimonial en la
 
-
-## 4.6                Pérdida de una chance
-
-                                                                                 u oportunidad
-
-
 ## 4.6.1 Acerca de la noción de pérdida
 
-                                                                            de una chance
+**Definición Canónica:** de una chance
+                                                                            En la responsabilidad civil, se indemnizan los daños que se causaron,
+                                                                            sea por el incumplimiento contractual o un hecho ilícito, que satis-
+                                                                            fagan el requisito de la certidumbre suficiente. Con independencia a
+                                                                            cómo se module esta exigencia según la partida de daño que se trate,
+     
+
+de una chance
                                                                             En la responsabilidad civil, se indemnizan los daños que se causaron,
                                                                             sea por el incumplimiento contractual o un hecho ilícito, que satis-
                                                                             fagan el requisito de la certidumbre suficiente. Con independencia a
@@ -9263,10 +9382,13 @@ civil médica                                                                   
                                                                                  cometido por un tercero le ha impedido tener la oportunidad de
                                                                                  participar en la definición de esas probabilidades”323.
 
-
 ## 4.6.2 Dos cuestiones previas: ni lucro
 
-                                                                                 cesante, ni daño eventual
+**Definición Canónica:** cesante, ni daño eventual
+                                                                                 El profesor Barros advierte dos cuestiones previas particularmente
+                                                                                 importantes.
+
+cesante, ni daño eventual
                                                                                  El profesor Barros advierte dos cuestiones previas particularmente
                                                                                  importantes.
 
@@ -9408,7 +9530,9 @@ civil médica                                                                   
 
 ## 334   RÍOS y SILVA (2014), p. 267
 
-                                           335   TAPIA (2012), p. 651.
+**Definición Canónica:** 335   TAPIA (2012), p. 651.
+
+335   TAPIA (2012), p. 651.
 
 Responsabilidad                                                            4. El daño patrimonial y                                                 230
 civil médica                                                                   extrapatrimonial en la
@@ -9531,10 +9655,11 @@ civil médica                                                                 ex
                                                                            de la pérdida de la chance para efectos de determinar la relación de
                                                                            causalidad”.
 
-
 ## 346   Corte Suprema, 29 de agosto de 2017, Rol Nº 101769-2016. En igual sentido, véase Corte Suprema, 14 de
 
-                                              septiembre de 2016, Rol Nº 35566-2015.
+**Definición Canónica:** septiembre de 2016, Rol Nº 35566-2015.
+
+septiembre de 2016, Rol Nº 35566-2015.
 
 Responsabilidad                                                           4. El daño patrimonial y                                              233
 civil médica                                                                  extrapatrimonial en la
@@ -9661,7 +9786,11 @@ civil médica                                                                   
 
 ## 349   Esta sentencia habrá que ubicarla en un lugar intermedio entre aquellas que reconocen la pérdida de una
 
-                                              chance de la víctima del ilícito médico, y aquellas del apartado siguiente que aluden a casos en que la pérdida
+**Definición Canónica:** chance de la víctima del ilícito médico, y aquellas del apartado siguiente que aluden a casos en que la pérdida
+                                              recae en la oportunidad de terceros de acompañar a la víctima o de haber podido compartir más tiempo con
+                                              ella.
+
+chance de la víctima del ilícito médico, y aquellas del apartado siguiente que aluden a casos en que la pérdida
                                               recae en la oportunidad de terceros de acompañar a la víctima o de haber podido compartir más tiempo con
                                               ella.
 
@@ -9683,10 +9812,15 @@ civil médica                                                                   
 
                                                                               que hubiera sido eficaz para frenar la distonía que presentaba”350.
 
-
 ## 4.6.4 Pérdida de la oportunidad de los familiares
 
-                                                                              de la víctima de compartir más tiempo con ella
+**Definición Canónica:** de la víctima de compartir más tiempo con ella
+                                                                              La Corte Suprema también ha accedido a la indemnización del daño
+                                        La Corte Suprema                      que una negligencia médica ha ocasionado en los y las parientes de
+                                        también ha accedido                   la víctima del ilícito civil, ordenando resarcir la pérdida de la oportu-
+                                        a la indemnización                    nidad de haber podido estar más tie
+
+de la víctima de compartir más tiempo con ella
                                                                               La Corte Suprema también ha accedido a la indemnización del daño
                                         La Corte Suprema                      que una negligencia médica ha ocasionado en los y las parientes de
                                         también ha accedido                   la víctima del ilícito civil, ordenando resarcir la pérdida de la oportu-
@@ -9707,10 +9841,11 @@ civil médica                                                                   
                                         de no haber mediado                   autos, quienes demandan en calidad de víctimas directas –pues no
                                         la negligencia médica.                demanda por el daño sufrido por la paciente– sino que su propio
 
-
 ## 350 Corte Suprema, 11 de mayo de 2017, Rol Nº 47936-2016. En igual sentido, véase Corte Suprema, 26 de di-
 
-                                               ciembre de 2017, Rol Nº 11526/2017.
+**Definición Canónica:** ciembre de 2017, Rol Nº 11526/2017.
+
+ciembre de 2017, Rol Nº 11526/2017.
 
 Responsabilidad                                                           4. El daño patrimonial y                                                 237
 civil médica                                                                  extrapatrimonial en la
@@ -9726,10 +9861,13 @@ civil médica                                                                  e
                                                                             impedido el deceso del paciente, sino que también a los actores,
                                                                             pues sólo este es el daño que puede atribuirse a los demandados”351.
 
-
 ## 4.6.5 Conclusiones
 
-                                                                            Se advierte, entonces, que la pérdida de una chance o de una oportu-
+**Definición Canónica:** Se advierte, entonces, que la pérdida de una chance o de una oportu-
+                                                                            nidad ha pasado a ocupar un lugar gravitante como partida indem-
+                                                                            nizatoria por mala praxis médica.
+
+Se advierte, entonces, que la pérdida de una chance o de una oportu-
                                                                             nidad ha pasado a ocupar un lugar gravitante como partida indem-
                                                                             nizatoria por mala praxis médica.
 
@@ -9750,10 +9888,13 @@ civil médica                                                                  e
                                                                             hecho, no es la pérdida de la vida, sino la pérdida de las chances que
                                                                             le quedaban cuando el médico intervino (...)”352.
 
-
 ## 351   Corte Suprema, 29 de agosto de 2017, Rol Nº 101769-2016; así también véase Corte Suprema, 6 de noviembre
 
-                                              de 2017, Rol Nº 62104/2016 y Corte Suprema, 24 de abril de 2019, Rol Nº 7108-2017.
+**Definición Canónica:** de 2017, Rol Nº 62104/2016 y Corte Suprema, 24 de abril de 2019, Rol Nº 7108-2017.
+                                        352   Citado por TRIGO (2008), pp. 191-192 y en la sentencia de la Corte Suprema, 25 de octubre de 2016, Rol Nº
+                                              22751-2015.
+
+de 2017, Rol Nº 62104/2016 y Corte Suprema, 24 de abril de 2019, Rol Nº 7108-2017.
                                         352   Citado por TRIGO (2008), pp. 191-192 y en la sentencia de la Corte Suprema, 25 de octubre de 2016, Rol Nº
                                               22751-2015.
 
@@ -9764,10 +9905,11 @@ civil médica                                                                  e
 Responsabilidad                                                             5. La responsabilidad de las                                        239
 civil médica                                                                    instituciones públicas
 
-
 ## 5.1           Ideas
 
-                                                                              previas
+**Definición Canónica:** previas
+
+previas
 
                                                                               Habiendo examinado la responsabilidad del médico por los daños que
                                                                               pueda causar en la ejecución de su prestación médica, corresponde
@@ -9806,10 +9948,13 @@ civil médica                                                                   
 Responsabilidad                                                    5. La responsabilidad de las                                        240
 civil médica                                                           instituciones públicas
 
-
 ## 5.2         Presupuesto para el ejercicio de la acción
 
-                                                                     indemnizatoria de daños en contra de un
+**Definición Canónica:** indemnizatoria de daños en contra de un
+                                                                     prestador de salud: la mediación prejudicial
+**Concordancias Legales:** artículo 43; artículo 16 bis; artículo 54; Ley Nº 19.966
+
+indemnizatoria de daños en contra de un
                                                                      prestador de salud: la mediación prejudicial
 
                                         La Ley Auge, en su           La Ley Auge, en su artículo 43, dispone que, previo a impetrar una
@@ -9876,7 +10021,14 @@ civil médica                                                                  i
 
 ## parte, la Superintendencia lo pone en conocimiento de la nómina de
 
-                                                                            mediadores que ha propuesto el reclamante, a fin que designe uno
+**Definición Canónica:** mediadores que ha propuesto el reclamante, a fin que designe uno
+                                                                            de ellos, si no hay acuerdo, o el prestador no designa mediador, se
+                                                                            entenderá fracasada la mediación y en este caso la superintenden-
+                                                                            cia emite un certificado al reclamante para el evento que este haga
+                                                                            ejercicio de las acciones jur
+**Concordancias Legales:** artículo 93; artículo 45 de la Ley Nº 19.966; artículo 45 de la Ley Nº; Ley Nº 19.966; constitucion; Constitución Política
+
+mediadores que ha propuesto el reclamante, a fin que designe uno
                                                                             de ellos, si no hay acuerdo, o el prestador no designa mediador, se
                                                                             entenderá fracasada la mediación y en este caso la superintenden-
                                                                             cia emite un certificado al reclamante para el evento que este haga
@@ -9955,7 +10107,11 @@ civil médica                                instituciones públicas
 
 ## 19.966. De esa forma, aunque la mediación fracase, la requirente no
 
-                                          queda impedida de acceder a los tribunales ordinarios para obtener
+**Definición Canónica:** queda impedida de acceder a los tribunales ordinarios para obtener
+                                          la satisfacción de su pretensión”.
+**Concordancias Legales:** artículo 19 de la CPRCh y; artículo 76 de la Carta. Se lee de su disidencia; artículo 43 de la Ley Nº 19.966; artículo 76 de la Carta Fundamental; artículo 43; Ley Nº 19.966; constitucion
+
+queda impedida de acceder a los tribunales ordinarios para obtener
                                           la satisfacción de su pretensión”.
 
                                           Con todo, la sentencia fue acordada con el voto en contra de los mi-
@@ -10095,11 +10251,16 @@ civil médica                                                                 in
 Responsabilidad                                                             5. La responsabilidad de las                                          247
 civil médica                                                                    instituciones públicas
 
-
 ## 5.3          Generalidades
 
+**Definición Canónica:** Los artículos 6º, 7º y                Como sabemos, el Estado es responsable por la lesión de derechos
+                                        el inciso 2º del artículo             que cause la Administración del Estado y sus órganos con su actividad.
+                                                                              Los artículos 6º, 7º y el inciso 2º del artículo 38, todos de la CPRCh,
+                                        38, todos de la CPRCh,                erigen el principio de responsabilidad del Estado por los daños que
+                                        erigen el pr
+**Concordancias Legales:** artículos 6; artículo 38; constitucion
 
-                                        Los artículos 6º, 7º y                Como sabemos, el Estado es responsable por la lesión de derechos
+Los artículos 6º, 7º y                Como sabemos, el Estado es responsable por la lesión de derechos
                                         el inciso 2º del artículo             que cause la Administración del Estado y sus órganos con su actividad.
                                                                               Los artículos 6º, 7º y el inciso 2º del artículo 38, todos de la CPRCh,
                                         38, todos de la CPRCh,                erigen el principio de responsabilidad del Estado por los daños que
@@ -10153,10 +10314,12 @@ civil médica                                                               inst
 Responsabilidad                                                          5. La responsabilidad de las                                          249
 civil médica                                                                 instituciones públicas
 
-
 ## 5.4         Régimen
 
-                                                                           legal
+**Definición Canónica:** legal
+**Concordancias Legales:** artículo 4; artículo 38 de la CPRCh; artículo 42; artículo 38; artículo 39 de la Ley Auge fija el plazo de pres; artículo 2332 del CC y ofrece los mismos; artículo 2332; Ley Nº 18.575
+
+legal
 
                                         Los hospitales y                   Los hospitales y servicios públicos de salud pública integran la Ad-
                                         servicios públicos de              ministración del Estado, cuyo régimen de responsabilidad se somete
@@ -10237,7 +10400,10 @@ civil médica                                                                 in
 
 ## 363   Corte de Apelaciones de Santiago, 25 de noviembre de 2015, Rol Nº 4467/2015; también véase Corte de
 
-                                              Apelaciones de Santiago, 19 de noviembre de 2013, Rol Nº 3248-2011.
+**Definición Canónica:** Apelaciones de Santiago, 19 de noviembre de 2013, Rol Nº 3248-2011.
+**Concordancias Legales:** artículo 41; artículo 38; artículos 2314; artículo 42 de la Ley Nº 18.575; artículo 42 de la Ley de Bases de la Administración del Estado; artículo 38 de la Ley N; artículo 38 de la Ley Auge; Ley Nº 18.575; Ley Nº 18.695; Ley Nº 19.966; Ley N° 19.966; Constitucion
+
+Apelaciones de Santiago, 19 de noviembre de 2013, Rol Nº 3248-2011.
 
 Responsabilidad                                                               5. La responsabilidad de las                                          251
 civil médica                                                                      instituciones públicas
@@ -10616,10 +10782,13 @@ civil médica                                instituciones públicas
 Responsabilidad                                                   5. La responsabilidad de las                                         260
 civil médica                                                          instituciones públicas
 
-
 ## 5.5         Situación de los órganos excluidos del
 
-                                                                    inciso 2º del artículo 21 de la Ley
+**Definición Canónica:** inciso 2º del artículo 21 de la Ley
+                                                                    Nº 18.575: los hospitales militares
+**Concordancias Legales:** artículo 21 de la Ley; artículo 38 de la CPRCh y el artículo 4º de la Ley Nº; artículo 42; artículo 21; artículos 2314; artículo 2314 del CC. Esta doctrina; artículo 42 de la Ley Nº 18.575; artículo 2314; artículos 2320; artículo 2314 del Código; artículo 2; artículo 4; artículo 21 inciso 2; artículo 2314 del Código Civil; artículo 42 de la LBGAE. Bermúdez; artículo 41; artículo 21 de la Ley N; artículo 1; artículo 38 de la Ley Auge. Inicialmente; artículos 38; artículos 4; artículo 38 de la Ley N; artículo 40 de la Ley d; Ley Nº 18.575; Ley N° 18.575; Ley Nº 19.966; Ley N°19.966; Ley N°18.575
+
+inciso 2º del artículo 21 de la Ley
                                                                     Nº 18.575: los hospitales militares
 
                                         Las Fuerzas Armadas y       Queda pendiente referirse a la situación de los hospitales militares y
@@ -10857,7 +11026,13 @@ civil médica                                                                   
 
 ## título 2° de la Ley Nº 18.575, acudiendo a las normas del título 35
 
-                                                                             del CC, hoy no cabe duda que los hospitales públicos, incluyendo los
+**Definición Canónica:** del CC, hoy no cabe duda que los hospitales públicos, incluyendo los
+                                                                             militares, responden por falta de servicio de acuerdo a las normas
+                                                                             vigentes. Con todo, no debe olvidarse lo dicho sobre la funcionalidad
+                                                                             de esta responsabilidad: si se quiere perseguir la responsabilidad
+                                                                             del Estado por el d
+
+del CC, hoy no cabe duda que los hospitales públicos, incluyendo los
                                                                              militares, responden por falta de servicio de acuerdo a las normas
                                                                              vigentes. Con todo, no debe olvidarse lo dicho sobre la funcionalidad
                                                                              de esta responsabilidad: si se quiere perseguir la responsabilidad
@@ -10872,10 +11047,12 @@ civil médica                                                                   
 Responsabilidad                                                              5. La responsabilidad de las                                           266
 civil médica                                                                     instituciones públicas
 
-
 ## 5.6           Las infecciones
 
-                                                                               intrahospitalarias
+**Definición Canónica:** intrahospitalarias
+**Concordancias Legales:** artículo 19; artículo 1698 del Código Civil y en la escueta referencia de ha
+
+intrahospitalarias
 
                                         Son infecciones                        Son infecciones intrahospitalarias aquellas que padece el paciente
                                                                                en la clínica u hospital sin que sean atribuibles al tratamiento o
@@ -10997,7 +11174,9 @@ civil médica                                                                   
 
 ## 394   Corte de Apelaciones de Concepción, fecha 9 de mayo de 2014, Rol Nº 1674-2013, 1º Juzgado de Letras de
 
-                                                 Los Ángeles.
+**Definición Canónica:** Los Ángeles.
+
+Los Ángeles.
 
 Responsabilidad                                                        5. La responsabilidad de las                                         269
 civil médica                                                               instituciones públicas
@@ -11088,7 +11267,13 @@ civil médica                                                                 in
 
 ## 2.   Características del régimen jurídico de la res-
 
-                                             ponsabilidad civil médica en Chile: Caracteriza       5.   Contenido del deber de información: El deber de
+**Definición Canónica:** ponsabilidad civil médica en Chile: Caracteriza       5.   Contenido del deber de información: El deber de
+                                             a este régimen de responsabilidad la ausencia              información tiene por finalidad que la decisión del
+                                             de sistema y dispersión normativa. No existe una           paciente de someterse a una intervención o tra-
+                                             regulación sistemática de la responsabilidad civil         tamiento médico, sea adoptada considerando los
+**Concordancias Legales:** artículo 10; Ley Nº 16.966; Ley Nº 20.584
+
+ponsabilidad civil médica en Chile: Caracteriza       5.   Contenido del deber de información: El deber de
                                              a este régimen de responsabilidad la ausencia              información tiene por finalidad que la decisión del
                                              de sistema y dispersión normativa. No existe una           paciente de someterse a una intervención o tra-
                                              regulación sistemática de la responsabilidad civil         tamiento médico, sea adoptada considerando los
@@ -11105,7 +11290,14 @@ civil médica                                                                 in
 
 ## 3.   Consecuencia del incumplimiento del deber de               derecho a ser informada, en forma oportuna y
 
-                                             información: Al incumplirse el deber de informa-           comprensible, por parte del médico u otro pro-
+**Definición Canónica:** información: Al incumplirse el deber de informa-           comprensible, por parte del médico u otro pro-
+                                             ción, nos encontraremos ante un caso de incum-             fesional tratante, acerca del estado de su salud,
+                                             plimiento contractual y, por lo tanto, habrá que           del posible diagnóstico de su enfermedad, de
+                                             analizar los diversos remedios que se derivan de           las alternativas de tratamiento disponibles para
+                                      
+**Concordancias Legales:** artículo 1553 del Código Civil; artículo 2330 del Código Civil; artículo 1547 del Código Civil
+
+información: Al incumplirse el deber de informa-           comprensible, por parte del médico u otro pro-
                                              ción, nos encontraremos ante un caso de incum-             fesional tratante, acerca del estado de su salud,
                                              plimiento contractual y, por lo tanto, habrá que           del posible diagnóstico de su enfermedad, de
                                              analizar los diversos remedios que se derivan de           las alternativas de tratamiento disponibles para
@@ -11147,10 +11339,16 @@ civil médica                                                                 in
                                              experimenta un daño que se diferencia del dolor o          culpa, que atribuye responsabilidad conforme al
                                              sufrimiento que puede sufrir la víctima.                   artículo 1547 del Código Civil.
 
-
 ## 9.   Daño moral en sede contractual (en general): Es        14. Error médico: Es aquella falla que comete el
 
-                                             aquel que, conforme al contrato, era razonable-            profesional médico en la ejecución del contrato,
+**Definición Canónica:** aquel que, conforme al contrato, era razonable-            profesional médico en la ejecución del contrato,
+                                             mente previsible para el deudor al tiempo de su            sea porque yerra en el diagnóstico, tratamiento o
+                                             celebración, desde que el fin de protección com-           procedimiento realizado al paciente, cometida por
+                                             prende intereses no patrimoniales. Una previsi-            causas externas a su práctica o conocimiento y
+                                 
+**Concordancias Legales:** artículo 1558 del Código Civil. cada por la ciencia; artículo 42 de la Ley Nº 18.575 y 38; artículo 1558 del Código Civil. Con; artículo 14; artículo 15; Ley Nº 18.575; Ley Nº 19.966; Ley Nº 20.584
+
+aquel que, conforme al contrato, era razonable-            profesional médico en la ejecución del contrato,
                                              mente previsible para el deudor al tiempo de su            sea porque yerra en el diagnóstico, tratamiento o
                                              celebración, desde que el fin de protección com-           procedimiento realizado al paciente, cometida por
                                              prende intereses no patrimoniales. Una previsi-            causas externas a su práctica o conocimiento y
@@ -11271,7 +11469,12 @@ civil médica                                                                 in
 
 ## 21. Lex artis: En materia médica, el estándar de
 
-                                                                                                         caso, la mediación se frustrará y habilitará a ac-
+**Definición Canónica:** caso, la mediación se frustrará y habilitará a ac-
+                                            conducta a que se obliga la figura médica en su
+                                                                                                         cionar de perjuicios contra el prestador de salud.
+                                            conducta es el de la lex artis, que no es más que
+
+caso, la mediación se frustrará y habilitará a ac-
                                             conducta a que se obliga la figura médica en su
                                                                                                          cionar de perjuicios contra el prestador de salud.
                                             conducta es el de la lex artis, que no es más que
@@ -11292,7 +11495,14 @@ civil médica                                                                 in
 
 ## 29. Prueba de la culpa: En materia de responsabilidad
 
-                                        25. Mitigación del daño: Consiste en la carga que              contractual, la prueba de la culpa dice relación
+**Definición Canónica:** 25. Mitigación del daño: Consiste en la carga que              contractual, la prueba de la culpa dice relación
+                                            pesa sobre la persona deudora de, en caso de               con la demostración de la diligencia, o su falta –
+                                            sobrevenirle un perjuicio, aminorar o alivianar sus        culpa– empleada por la persona deudora, la que
+                                            efectos perniciosos para que el daño no se torne           recae sobre esta, conforme al artículo 1547 del
+                                 
+**Concordancias Legales:** artículo 1547
+
+25. Mitigación del daño: Consiste en la carga que              contractual, la prueba de la culpa dice relación
                                             pesa sobre la persona deudora de, en caso de               con la demostración de la diligencia, o su falta –
                                             sobrevenirle un perjuicio, aminorar o alivianar sus        culpa– empleada por la persona deudora, la que
                                             efectos perniciosos para que el daño no se torne           recae sobre esta, conforme al artículo 1547 del
@@ -11333,12 +11543,15 @@ civil médica                                                                 in
                                             la cirugía estética, la revisión de exámenes, o bien       lo que habría acción directa.
                                             porque así las partes lo convinieron libremente.
 
-## 31. Responsabilidad médica por culpa: La responsa-
-
-
 ## 28. Pérdida de una chance u oportunidad: Es aque-              bilidad de la figura médica es una que se funda
 
-                                            lla partida indemnizatoria, reconocida doctrinal           en su negligencia, siéndole aplicables las reglas
+**Definición Canónica:** lla partida indemnizatoria, reconocida doctrinal           en su negligencia, siéndole aplicables las reglas
+                                            y jurisprudencialmente, en virtud de la cual se            generales atinentes a los deberes de cuidado,
+                                            resarce, como indica su nomenclatura, el hecho             aunque en este caso no de cualquier sujeto u
+                                            de haberse perdido una determinada oportunidad             operador del tráfico, sino de un profesional de la
+                                        
+
+lla partida indemnizatoria, reconocida doctrinal           en su negligencia, siéndole aplicables las reglas
                                             y jurisprudencialmente, en virtud de la cual se            generales atinentes a los deberes de cuidado,
                                             resarce, como indica su nomenclatura, el hecho             aunque en este caso no de cualquier sujeto u
                                             de haberse perdido una determinada oportunidad             operador del tráfico, sino de un profesional de la
@@ -11353,10 +11566,18 @@ civil médica                                                                 in
                                             cialidad, considerando las circunstancias externas
                                             en que realizó la intervención.
 
-
 ## 32. Responsabilidad por uso de instrumental defec-
 
-                                            tuoso: El perfecto estado del instrumental médico,
+**Definición Canónica:** tuoso: El perfecto estado del instrumental médico,
+                                            insumos y medicamentos y su correcto uso vienen
+                                            impuestos por la lex artis e integran la obligación
+                                            que pesa sobre la figura médica. En este contexto,
+                                            es posible que el paciente vea lesionado su interés
+                                            en los casos de uso de instrumentos defectuosos
+                                            o medicamentos vencidos o en mal e
+**Concordancias Legales:** artículo 1698; artículo 1547; artículo 21 inciso 2; artículo 42; artículo 42 de la Ley Nº 18.575; artículo 38; artículo 4; artículo 38 de la Ley Auge. En; artículo 2314; artículo 21; Ley Nº 18.575
+
+tuoso: El perfecto estado del instrumental médico,
                                             insumos y medicamentos y su correcto uso vienen
                                             impuestos por la lex artis e integran la obligación
                                             que pesa sobre la figura médica. En este contexto,
@@ -11478,10 +11699,12 @@ civil médica                                                                 in
                                                  es decir, de aquellos cuyo contenido viene, en gran medida, dispuesto por la legislación y
                                                  que no es disponible para las partes.
 
-
 ## 6.   Supongamos que una persona fallece a causa de una equivocación del profesional o
 
-                                             equipo médico en el diagnóstico y tratamiento de una patología, ¿necesariamente habrá
+**Definición Canónica:** equipo médico en el diagnóstico y tratamiento de una patología, ¿necesariamente habrá
+                                             lugar a responsabilidad civil médica?
+
+equipo médico en el diagnóstico y tratamiento de una patología, ¿necesariamente habrá
                                              lugar a responsabilidad civil médica?
 
                                               —— Respuesta: Lógicamente, no. Si bien es cierto que podría pensarse que una equivocación en
@@ -11495,10 +11718,12 @@ civil médica                                                                 in
                                                  de manera que es difícil identificarla y se arriesga un tratamiento para salvarle, dicho error
                                                  será excusable y no acarreará responsabilidad.
 
-
 ## 7.   En cuanto al tiempo en el que el daño tiene lugar, generalmente, en la responsabilidad
 
-                                             médica, ¿genera alguna dificultad definir su indemnización?
+**Definición Canónica:** médica, ¿genera alguna dificultad definir su indemnización?
+**Concordancias Legales:** artículo 1556 del Código Civil; artículo 1558 del Código Civil; artículo 41; artículo 2314; artículo 39 de la Ley Nº 19.996 señala que la acción de daños d; artículo 2330 del Código Civil; artículo 39 de la Ley Nº 19.669; Ley Nº 19.966; Ley Nº 19.996; Ley Nº 19.669
+
+médica, ¿genera alguna dificultad definir su indemnización?
 
                                               —— Respuesta: En primer lugar, en sede de responsabilidad médica, el daño las más de las veces
                                                  es futuro, es decir, que se producirá o concretará con el paso del tiempo, y esto sucede en
@@ -11601,23 +11826,36 @@ civil médica                                                                 in
 
                                         Bibliografía
 
-
 ## 1.    AEDO, Cristián (2018): “La inobservancia al deber    14. BRANTT, María Graciela (2009): “La exigencia
 
-                                              de colaboración del acreedor en el derecho chi-          de exterioridad en el caso fortuito: su construc-
+**Definición Canónica:** de colaboración del acreedor en el derecho chi-          de exterioridad en el caso fortuito: su construc-
+                                              leno: un caso de incumplimiento contractual”, en         ción a partir de la distribución de los riegos del
+                                              Revista de Derecho (Valdivia) (volumen 29, Nº 2).        contrato”, en Revista de Derecho de la Pontificia
+                                                                                                       Universidad Católica (Nº 33).
+
+de colaboración del acreedor en el derecho chi-          de exterioridad en el caso fortuito: su construc-
                                               leno: un caso de incumplimiento contractual”, en         ción a partir de la distribución de los riegos del
                                               Revista de Derecho (Valdivia) (volumen 29, Nº 2).        contrato”, en Revista de Derecho de la Pontificia
                                                                                                        Universidad Católica (Nº 33).
 
 ## 2.    ALESSANDRI, Arturo (1943): De la responsabi-
 
-                                              lidad extracontractual en el derecho civil chile-    15. BRANTT, María Graciela (2010): El caso fortuito y
+**Definición Canónica:** lidad extracontractual en el derecho civil chile-    15. BRANTT, María Graciela (2010): El caso fortuito y
+                                              no (Santiago, Editorial Universitaria).                  su incidencia en el derecho de la responsabilidad
+                                                                                                       civil contractual (Santiago, LegalPublishing).
+
+lidad extracontractual en el derecho civil chile-    15. BRANTT, María Graciela (2010): El caso fortuito y
                                               no (Santiago, Editorial Universitaria).                  su incidencia en el derecho de la responsabilidad
                                                                                                        civil contractual (Santiago, LegalPublishing).
 
 ## 3.    ALESSANDRI, Arturo (1983): De la responsabili-
 
-                                              dad extracontractual en el derecho civil chileno     16. BRANTT, María Graciela (2016): “La responsabi-
+**Definición Canónica:** dad extracontractual en el derecho civil chileno     16. BRANTT, María Graciela (2016): “La responsabi-
+                                              (Santiago, Editorial Conosur).                           lidad contractual por terceros. Una explicación a
+                                                                                                       partir de la asunción de riesgos en el contrato”,
+                                        4.    ALESSANDRI, Arturo (2010): De los contratos              en AA.VV., Estudios de derecho civil XI (Santiago,
+
+dad extracontractual en el derecho civil chileno     16. BRANTT, María Graciela (2016): “La responsabi-
                                               (Santiago, Editorial Conosur).                           lidad contractual por terceros. Una explicación a
                                                                                                        partir de la asunción de riesgos en el contrato”,
                                         4.    ALESSANDRI, Arturo (2010): De los contratos              en AA.VV., Estudios de derecho civil XI (Santiago,
@@ -11630,39 +11868,69 @@ civil médica                                                                 in
 
 ## 6.    BARAONA, Jorge (1997): “Responsabilidad
 
-                                              contractual y factores de imputación de daños:       18. CÁRDENAS, Hugo A. (2011): “La reinterpretación
+**Definición Canónica:** contractual y factores de imputación de daños:       18. CÁRDENAS, Hugo A. (2011): “La reinterpretación
+                                              apuntes para una relectura en clave objetiva”,           del artículo 1547 del Código Civil chileno: el fin de
+                                              en Revista Chilena de Derecho (volumen 24, Nº 1).        una antigua presunción”, en Revista de Derecho
+                                                                                                       (vol. 33).
+**Concordancias Legales:** artículo 1547 del Código Civil chileno
+
+contractual y factores de imputación de daños:       18. CÁRDENAS, Hugo A. (2011): “La reinterpretación
                                               apuntes para una relectura en clave objetiva”,           del artículo 1547 del Código Civil chileno: el fin de
                                               en Revista Chilena de Derecho (volumen 24, Nº 1).        una antigua presunción”, en Revista de Derecho
                                                                                                        (vol. 33).
 
 ## 7.    BARROS, Enrique (2010-2020): Tratado de res-
 
-                                              ponsabilidad extracontractual (Santiago, Edito-      19.   CÁRDENAS, Hugo y MORENO, Jaime (2011):
+**Definición Canónica:** ponsabilidad extracontractual (Santiago, Edito-      19.   CÁRDENAS, Hugo y MORENO, Jaime (2011):
+                                              rial Jurídica de Chile).                                   Responsabilidad médica. Estándares jurispruden-
+                                                                                                         ciales de la falta de servicio (Santiago, Abeledo
+
+ponsabilidad extracontractual (Santiago, Edito-      19.   CÁRDENAS, Hugo y MORENO, Jaime (2011):
                                               rial Jurídica de Chile).                                   Responsabilidad médica. Estándares jurispruden-
                                                                                                          ciales de la falta de servicio (Santiago, Abeledo
 
 ## 8.    BERMÚDEZ, Jorge (2012): Las relaciones entre el
 
-                                                                                                         Perrot-Thomson Reuters).
+**Definición Canónica:** Perrot-Thomson Reuters).
+                                              derecho administrativo y el derecho común (San-
+                                              tiago, Abeledo Perrot).                              20. CARRASCO PERERA, Ángel (2017): Derecho de
+                                                                                                       contratos (Pamplona, Aranzadi).
+
+Perrot-Thomson Reuters).
                                               derecho administrativo y el derecho común (San-
                                               tiago, Abeledo Perrot).                              20. CARRASCO PERERA, Ángel (2017): Derecho de
                                                                                                        contratos (Pamplona, Aranzadi).
 
 ## 9.    BERMÚDEZ, Jorge (2014): Derecho administrativo
 
-                                              general (Santiago, Thomson Reuters).                 21. CHABAS, Francois (2004): Cien años de res-
+**Definición Canónica:** general (Santiago, Thomson Reuters).                 21. CHABAS, Francois (2004): Cien años de res-
+                                                                                                       ponsabilidad civil en Francia (Paris, Van Dieren
+
+general (Santiago, Thomson Reuters).                 21. CHABAS, Francois (2004): Cien años de res-
                                                                                                        ponsabilidad civil en Francia (Paris, Van Dieren
 
 ## 10. BETTI, Emilio et al (2001): Teoría general del ne-
 
-                                                                                                       Editeur).
+**Definición Canónica:** Editeur).
+                                            gocio jurídico: 4 estudios fundamentales (Lima,
+                                            Ara).                                                  22. CLARO SOLAR, Luis (1992): Explicaciones de
+                                                                                                       derecho civil chileno y comparado (Santiago,
+
+Editeur).
                                             gocio jurídico: 4 estudios fundamentales (Lima,
                                             Ara).                                                  22. CLARO SOLAR, Luis (1992): Explicaciones de
                                                                                                        derecho civil chileno y comparado (Santiago,
 
 ## 11.   BLANCO, Lourdes (2006): “El deber de informa-
 
-                                                                                                       Editorial Jurídica de Chile).
+**Definición Canónica:** Editorial Jurídica de Chile).
+                                              ción en la medicina voluntaria o satisfactiva”, en
+                                              AA.VV., Estudios de derecho de obligaciones. Ho-     23. CONTARDO, Juan Ignacio (2007): “Algunas con-
+                                              menaje al profesor Mariano Alonso Pérez (Madrid,         sideraciones sobre la valorización de los daños
+                                              La Ley).                                                 extracontractuales”, en http://repositorio.ugm.cl/
+                    
+
+Editorial Jurídica de Chile).
                                               ción en la medicina voluntaria o satisfactiva”, en
                                               AA.VV., Estudios de derecho de obligaciones. Ho-     23. CONTARDO, Juan Ignacio (2007): “Algunas con-
                                               menaje al profesor Mariano Alonso Pérez (Madrid,         sideraciones sobre la valorización de los daños
@@ -11671,12 +11939,22 @@ civil médica                                                                 in
 
 ## 12. BOETSCH, Cristian (2011): La buena fe contrac-
 
-                                            tual (Santiago, Editorial Jurídica de Chile).          24. CORRAL, Hernán (2011-2013): Lecciones de
+**Definición Canónica:** tual (Santiago, Editorial Jurídica de Chile).          24. CORRAL, Hernán (2011-2013): Lecciones de
+                                                                                                       responsabilidad civil extracontractual (Santiago,
+
+tual (Santiago, Editorial Jurídica de Chile).          24. CORRAL, Hernán (2011-2013): Lecciones de
                                                                                                        responsabilidad civil extracontractual (Santiago,
 
 ## 13. BRANTT, María Graciela (2008): “Los deberes
 
-                                                                                                       Editorial Jurídica de Chile, Thomson Reuters).
+**Definición Canónica:** Editorial Jurídica de Chile, Thomson Reuters).
+                                            de información y seguridad en el contrato de
+                                            atención médica y la responsabilidad por su in-        25. DE AZAMBUJA, Jussaura y de Azambuja Loch,
+                                            cumplimiento”, en AA.VV., Colección de Estudios            Fernanda (2006): “El marco ético y jurídico del
+                                            de derecho civil en Homenaje a la Profesora Inés           consentimiento informado”, en Revista Jurídica
+                  
+
+Editorial Jurídica de Chile, Thomson Reuters).
                                             de información y seguridad en el contrato de
                                             atención médica y la responsabilidad por su in-        25. DE AZAMBUJA, Jussaura y de Azambuja Loch,
                                             cumplimiento”, en AA.VV., Colección de Estudios            Fernanda (2006): “El marco ético y jurídico del
@@ -11686,22 +11964,35 @@ civil médica                                                                 in
 
 Responsabilidad                                                                                    Bibliografía                                        284
 
-
 ## 26. DE CASTRO Y BRAVO, Federico (1967): El negocio         40. ELORRIAGA, Fabián (2006): “El perjuicio patri-
 
-                                            jurídico (Madrid, Instituto Nacional de Estudios           monial por daños físicos en la doctrina y jurispru-
+**Definición Canónica:** jurídico (Madrid, Instituto Nacional de Estudios           monial por daños físicos en la doctrina y jurispru-
+                                            Jurídicos).                                                dencia chilenas”, en Revista Anales Derecho UC,
+                                                                                                       Temas de Responsabilidad Civil.
+
+jurídico (Madrid, Instituto Nacional de Estudios           monial por daños físicos en la doctrina y jurispru-
                                             Jurídicos).                                                dencia chilenas”, en Revista Anales Derecho UC,
                                                                                                        Temas de Responsabilidad Civil.
 
 ## 27.   DE LA MAZA, Íñigo (2010a): “Consentimiento
 
-                                              informado, una visión panorámica”, en Revista Ius    41. FERNÁNDEZ COSTALES, Javier (1988): El contra-
+**Definición Canónica:** informado, una visión panorámica”, en Revista Ius    41. FERNÁNDEZ COSTALES, Javier (1988): El contra-
+                                              et Praxis (volumen 16, Nº 2).                            to de servicios médicos (Madrid, Editorial Civi-
+                                                                                                       tas).
+
+informado, una visión panorámica”, en Revista Ius    41. FERNÁNDEZ COSTALES, Javier (1988): El contra-
                                               et Praxis (volumen 16, Nº 2).                            to de servicios médicos (Madrid, Editorial Civi-
                                                                                                        tas).
 
 ## 28. DE LA MAZA, Íñigo (2018): “Previsibilidad y cau-
 
-                                            salidad”, en AA.VV., Estudios de derecho civil XIII    42. FERRADA, Juan Carlos (2004): “La responsabili-
+**Definición Canónica:** salidad”, en AA.VV., Estudios de derecho civil XIII    42. FERRADA, Juan Carlos (2004): “La responsabili-
+                                            (Santiago, Thomson Reuters).                               dad patrimonial de la Administración del Estado
+                                                                                                       en Chile, una breve revisión del Estado actual de
+                                        29. DE LA MAZA, Íñigo (2018): “El daño moral en ma-            la discusión”, en Marín, Juan Carlos, La responsa-
+                                    
+
+salidad”, en AA.VV., Estudios de derecho civil XIII    42. FERRADA, Juan Carlos (2004): “La responsabili-
                                             (Santiago, Thomson Reuters).                               dad patrimonial de la Administración del Estado
                                                                                                        en Chile, una breve revisión del Estado actual de
                                         29. DE LA MAZA, Íñigo (2018): “El daño moral en ma-            la discusión”, en Marín, Juan Carlos, La responsa-
@@ -11713,12 +12004,15 @@ civil médica                                                                 in
                                             de objeto e indemnización de daños”, en Revista            tural del Notariado).
                                             Chilena de Derecho (volumen 41, Nº 3).
 
-## 44. GONZALEZ CRUZ, Francisco Javier y ACEVEDO
-
-
 ## 31. DIEZ SCHWERTER, José Luis (2008): “Responsa-               FERRER, Santiago (2013): “Revisión crítica del
 
-                                            bilidad civil derivada de accidentes del trabajo y         estatuto de responsabilidad civil por daños nu-
+**Definición Canónica:** bilidad civil derivada de accidentes del trabajo y         estatuto de responsabilidad civil por daños nu-
+                                            enfermedades profesionales: Aspectos relevantes            cleares en chile”, en Revista Chilena de Derecho
+                                            de su regulación y operatoria actual”, en Revista          (volumen 40, Nº 1).
+                                            de Derecho de la Pontificia Universidad Católica
+                                            de Valparaíso, (N1 339).                               45. GUZMÁN, Alejandro (200
+
+bilidad civil derivada de accidentes del trabajo y         estatuto de responsabilidad civil por daños nu-
                                             enfermedades profesionales: Aspectos relevantes            cleares en chile”, en Revista Chilena de Derecho
                                             de su regulación y operatoria actual”, en Revista          (volumen 40, Nº 1).
                                             de Derecho de la Pontificia Universidad Católica
@@ -11727,33 +12021,45 @@ civil médica                                                                 in
                                         32. DÍEZ-PICAZO, Luis (2008): Fundamentos del de-              la Pontificia Universidad Católica (volumen 29).
                                             recho civil patrimonial I (Madrid, Civitas).
 
-## 46. HILHARREBORDE, Piwonka y LABARCA, María
-
-
 ## 33. DÍEZ-PICAZO, Luis (2009): Fundamentos del de-              (1980): Algunas consideraciones sobre la res-
 
-                                            recho civil patrimonial II (Madrid, Civitas).              ponsabilidad contractual del médico cirujano
+**Definición Canónica:** recho civil patrimonial II (Madrid, Civitas).              ponsabilidad contractual del médico cirujano
+                                                                                                       (Santiago).
+
+recho civil patrimonial II (Madrid, Civitas).              ponsabilidad contractual del médico cirujano
                                                                                                        (Santiago).
 
 ## 34. DÍEZ-PICAZO, Luis (2010): Fundamentos del de-
 
-                                            recho civil patrimonial III (Madrid, Civitas).         47. HUNTER, Iván (2010): “Iura novit curia en la ju-
+**Definición Canónica:** recho civil patrimonial III (Madrid, Civitas).         47. HUNTER, Iván (2010): “Iura novit curia en la ju-
+                                                                                                       risprudencia civil chilena”, en Revista de Derecho
+
+recho civil patrimonial III (Madrid, Civitas).         47. HUNTER, Iván (2010): “Iura novit curia en la ju-
                                                                                                        risprudencia civil chilena”, en Revista de Derecho
 
 ## 35. DOMÍNGUEZ, Carmen (2006): “La reparación del
 
-                                                                                                       (Valdivia) (volumen 23, Nº 2).
+**Definición Canónica:** (Valdivia) (volumen 23, Nº 2).
                                             daño moral derivado del contrato en el derecho
                                             civil chileno: realidad y límites”, en Cuaderno de     48. JARAMILLO, Carlos Ignacio (2008): Responsabili-
                                             Análisis Jurídico III (Santiago, Ediciones Universi-       dad civil médica (Bogotá, Javegraf).
                                             dad Diego Portales).
 
-## 49. JORDANO FRAGA, Francisco (1991): “Obliga-
-
+(Valdivia) (volumen 23, Nº 2).
+                                            daño moral derivado del contrato en el derecho
+                                            civil chileno: realidad y límites”, en Cuaderno de     48. JARAMILLO, Carlos Ignacio (2008): Responsabili-
+                                            Análisis Jurídico III (Santiago, Ediciones Universi-       dad civil médica (Bogotá, Javegraf).
+                                            dad Diego Portales).
 
 ## 36. DOMÍNGUEZ, Carmen (2010): “El problema de la               ciones de medios y de resultado (A propósito de
 
-                                            culpa presunta contractual y las obligaciones de           alguna jurisprudencia reciente)”, en Anuario de
+**Definición Canónica:** culpa presunta contractual y las obligaciones de           alguna jurisprudencia reciente)”, en Anuario de
+                                            medio y obligaciones de resultado: sus implican-           Derecho Civil (volumen 44, Nº 1).
+                                            cias para la responsabilidad médica”, en Cuader-
+                                            nos de Análisis Jurídico. Responsabilidad médica,      50. LARROUCAU, Jorge (2014): “¿Cómo se prueba la
+                                            vol. VI (Santiago, Universidad Diego Portales).            responsabili
+
+culpa presunta contractual y las obligaciones de           alguna jurisprudencia reciente)”, en Anuario de
                                             medio y obligaciones de resultado: sus implican-           Derecho Civil (volumen 44, Nº 1).
                                             cias para la responsabilidad médica”, en Cuader-
                                             nos de Análisis Jurídico. Responsabilidad médica,      50. LARROUCAU, Jorge (2014): “¿Cómo se prueba la
@@ -11770,21 +12076,33 @@ civil médica                                                                 in
 
 ## 39. ELORRIAGA, Fabián (2002): “Daño físico y lucro             contractual del Estado”, en AA.VV., La respon-
 
-                                            cesante”, en AA.VV., Derecho de daños (Santiago            sabilidad extracontractual del Estado (Santiago,
+**Definición Canónica:** cesante”, en AA.VV., Derecho de daños (Santiago            sabilidad extracontractual del Estado (Santiago,
+                                            de Chile, Lexis Nexis).                                    Metropolitana).
+
+cesante”, en AA.VV., Derecho de daños (Santiago            sabilidad extracontractual del Estado (Santiago,
                                             de Chile, Lexis Nexis).                                    Metropolitana).
 
 Responsabilidad                                                                                      Bibliografía                                           285
 
-
 ## 53. LÓPEZ MESA, Marcelo (2007): Tratado de respon-           66. PIERRY, Pedro (1995): “Algunos aspectos de la
 
-                                            sabilidad médica: responsabilidad civil, penal y             responsabilidad extracontractual del Estado por
+**Definición Canónica:** sabilidad médica: responsabilidad civil, penal y             responsabilidad extracontractual del Estado por
+                                            hospitalaria (Buenos Aires, Legis Argentina).                falta de servicio”, en Revista de Derecho y Juris-
+                                                                                                         prudencia (volumen 92, Nº 17).
+
+sabilidad médica: responsabilidad civil, penal y             responsabilidad extracontractual del Estado por
                                             hospitalaria (Buenos Aires, Legis Argentina).                falta de servicio”, en Revista de Derecho y Juris-
                                                                                                          prudencia (volumen 92, Nº 17).
 
 ## 54. MARTENS, Sebastian y WILLENS, Constantine
 
-                                            (2018): Article 8:107, en Jansen, Nils y Zimmer-         67.   PIERRY, Pedro (2000): “La responsabilidad extra-
+**Definición Canónica:** (2018): Article 8:107, en Jansen, Nils y Zimmer-         67.   PIERRY, Pedro (2000): “La responsabilidad extra-
+                                            mann, Reinhard, Commentary of European Con-                    contractual del Estado por falta de servicio”, en
+                                            tract Law (Oxford, Oxford University Press).                   Revista de Derecho del Consejo de Defensa del
+                                                                                                           Estado (Nº 1).
+                                        55. MEDINA, Gabr
+
+(2018): Article 8:107, en Jansen, Nils y Zimmer-         67.   PIERRY, Pedro (2000): “La responsabilidad extra-
                                             mann, Reinhard, Commentary of European Con-                    contractual del Estado por falta de servicio”, en
                                             tract Law (Oxford, Oxford University Press).                   Revista de Derecho del Consejo de Defensa del
                                                                                                            Estado (Nº 1).
@@ -11797,15 +12115,21 @@ civil médica                                                                 in
 
 ## 56. MEJIAS, Claudia (2018): “El derecho común pre-
 
-                                            supuesto en el ordenamiento jurídico nacional.           69. PIZARRO, Carlos (2014): “El contrato médico.
+**Definición Canónica:** supuesto en el ordenamiento jurídico nacional.           69. PIZARRO, Carlos (2014): “El contrato médico.
+                                            Una revisión de su contenido”, en Revista Chilena            Calificación, contenido y responsabilidad”, en
+
+supuesto en el ordenamiento jurídico nacional.           69. PIZARRO, Carlos (2014): “El contrato médico.
                                             Una revisión de su contenido”, en Revista Chilena            Calificación, contenido y responsabilidad”, en
 
                                             de Derecho (volumen 45, Nº 3).                               Revista Chilena de Derecho (volumen 41, Nº 3).
 
-
 ## 57.   MEJÍAS, Claudia (2019): “La pérdida de una chan-       70. PIZARRO, Carlos (2015): “En oposición al con-
 
-                                              ce. Una revisión a partir de los requisitos del daño       sentimiento hipotético informado”, en Revista de
+**Definición Canónica:** ce. Una revisión a partir de los requisitos del daño       sentimiento hipotético informado”, en Revista de
+                                              indemnizable”, en AA.VV., Estudios de derecho              Derecho de la Pontificia Universidad Católica (Nº
+                                              civil XIX (Santiago, Thomson Reuters).                     44).
+
+ce. Una revisión a partir de los requisitos del daño       sentimiento hipotético informado”, en Revista de
                                               indemnizable”, en AA.VV., Estudios de derecho              Derecho de la Pontificia Universidad Católica (Nº
                                               civil XIX (Santiago, Thomson Reuters).                     44).
 
@@ -11821,7 +12145,13 @@ civil médica                                                                 in
 
 ## 73. ROMERO, Alejandro, “Corte Suprema, 25 de sep-
 
-                                        60. PADILLA, Ricardo (2013): “Por una correcta apli-             tiembre de 1996”, en Revista Chilena de Derecho
+**Definición Canónica:** 60. PADILLA, Ricardo (2013): “Por una correcta apli-             tiembre de 1996”, en Revista Chilena de Derecho
+                                            cación de la doctrina de los actos propios”, en              (volumen 25, Nº 2).
+                                            Revista Chilena de Derecho Privado (volumen 20,
+                                            Nº 1).                                                   74. RUTHERFORD, Romy (2013): “La reparación del
+                                                                                                         daño moral deriv
+
+60. PADILLA, Ricardo (2013): “Por una correcta apli-             tiembre de 1996”, en Revista Chilena de Derecho
                                             cación de la doctrina de los actos propios”, en              (volumen 25, Nº 2).
                                             Revista Chilena de Derecho Privado (volumen 20,
                                             Nº 1).                                                   74. RUTHERFORD, Romy (2013): “La reparación del
@@ -11832,13 +12162,21 @@ civil médica                                                                 in
 
 ## 62. PANTALEON, Fernando (1991): “El sistema de
 
-                                            responsabilidad contractual (materiales para un          75. SAN MARTIN (2018): La culpa de la víctima en la
+**Definición Canónica:** responsabilidad contractual (materiales para un          75. SAN MARTIN (2018): La culpa de la víctima en la
+                                            debate)”, en Anuario de Derecho Civil (volumen               responsabilidad civil (Santiago, DER Ediciones).
+                                            44, Nº 3).
+
+responsabilidad contractual (materiales para un          75. SAN MARTIN (2018): La culpa de la víctima en la
                                             debate)”, en Anuario de Derecho Civil (volumen               responsabilidad civil (Santiago, DER Ediciones).
                                             44, Nº 3).
 
 ## 76. SAN MARTIN, Lilian (2009): “Sobre la naturale-
 
-                                        63. PENAILILLO, Daniel (2018): “Sobre el lucro cesan-            za jurídica de la ‘cooperación’ del acreedor en el
+**Definición Canónica:** 63. PENAILILLO, Daniel (2018): “Sobre el lucro cesan-            za jurídica de la ‘cooperación’ del acreedor en el
+                                            te”, en Revista de Derecho Concepción (volumen               cumplimiento contractual”, en Revista de Dere-
+                                            86, Nº 243).                                                 cho Concepción (Nº 255-256).
+
+63. PENAILILLO, Daniel (2018): “Sobre el lucro cesan-            za jurídica de la ‘cooperación’ del acreedor en el
                                             te”, en Revista de Derecho Concepción (volumen               cumplimiento contractual”, en Revista de Dere-
                                             86, Nº 243).                                                 cho Concepción (Nº 255-256).
 
@@ -11849,23 +12187,37 @@ civil médica                                                                 in
 
 ## 78. STITCHKIN, David (2009): El mandato civil (San-
 
-                                        65. PEÑAILILLO, Daniel (2009): “Responsabilidad                  tiago, Editorial Jurídica de Chile).
+**Definición Canónica:** 65. PEÑAILILLO, Daniel (2009): “Responsabilidad                  tiago, Editorial Jurídica de Chile).
+                                            contractual objetiva”, en AA.VV., Estudios de
+                                            derecho civil IV. Jornadas Nacionales de Derecho
+                                            Civil (Santiago, LegalPublishing).
+
+65. PEÑAILILLO, Daniel (2009): “Responsabilidad                  tiago, Editorial Jurídica de Chile).
                                             contractual objetiva”, en AA.VV., Estudios de
                                             derecho civil IV. Jornadas Nacionales de Derecho
                                             Civil (Santiago, LegalPublishing).
 
 Responsabilidad                                                                                   Bibliografía                                         286
 
-
 ## 79.   STUDY GROUP ON A EUROPEAN CIVIL CODE                92. VIDAL, Álvaro (2013) “La indemnización de daños
 
-                                              (2007): Principles of European Law of Service           por incumplimiento y estar contractualmente
+**Definición Canónica:** (2007): Principles of European Law of Service           por incumplimiento y estar contractualmente
+                                              Contracts.                                              obligado”, en AA.VV., Estudios de derecho civil IX
+                                                                                                      (Santiago, LegalPublishing).
+
+(2007): Principles of European Law of Service           por incumplimiento y estar contractualmente
                                               Contracts.                                              obligado”, en AA.VV., Estudios de derecho civil IX
                                                                                                       (Santiago, LegalPublishing).
 
 ## 80. TAPIA, Mauricio (2003): “Responsabilidad civil
 
-                                            médica: riesgo terapéutico, perjuicio de nacer y      93. VIDAL, Álvaro (2013): “Criterios para la proce-
+**Definición Canónica:** médica: riesgo terapéutico, perjuicio de nacer y      93. VIDAL, Álvaro (2013): “Criterios para la proce-
+                                            otros problemas actuales”, en Revista de Derecho          dencia de la indemnización del daño moral por
+                                            (Valdivia) (volumen 15, Nº 2).                            incumplimiento contractual. Una mirada desde
+                                                                                                      el derecho contractual”, en Estudios de derecho
+                                        81. TAPIA
+
+médica: riesgo terapéutico, perjuicio de nacer y      93. VIDAL, Álvaro (2013): “Criterios para la proce-
                                             otros problemas actuales”, en Revista de Derecho          dencia de la indemnización del daño moral por
                                             (Valdivia) (volumen 15, Nº 2).                            incumplimiento contractual. Una mirada desde
                                                                                                       el derecho contractual”, en Estudios de derecho
@@ -11877,7 +12229,12 @@ civil médica                                                                 in
 
 ## 82. TAPIA, Mauricio (2012b) pérdida chance postgrado.         la sentencia de la Corte Suprema de 7 de sep-
 
-                                                                                                      tiembre de 2010”, en Revista de Derecho Univer-
+**Definición Canónica:** tiembre de 2010”, en Revista de Derecho Univer-
+                                        83. TAPIA, Mauricio (2012b): Pérdida de una chance.
+                                                                                                      sidad Católica del Norte (volumen 19, Nº 1).
+                                            Su indemnización en la jurisprudencia chilena”, en
+
+tiembre de 2010”, en Revista de Derecho Univer-
                                         83. TAPIA, Mauricio (2012b): Pérdida de una chance.
                                                                                                       sidad Católica del Norte (volumen 19, Nº 1).
                                             Su indemnización en la jurisprudencia chilena”, en
@@ -11885,18 +12242,16 @@ civil médica                                                                 in
                                             Revista de Derecho de la Escuela de Postgrado
                                             de la Universidad de Chile (Nº 2).
 
-
-## 84. TAPIA, Mauricio (2019): Caso fortuito o fuerza
-
-                                            mayor (Santiago, Thomson Reuters).
-                                                                                                       Jurisprudencia citada
-
-## 1.   Adriana Catalán López con Servicio de Salud Me-
-
-
 ## 85. VALDIVIA, José Miguel (2019): “La responsabi-
 
-                                                                                                       tropolitano (2018): Corte Suprema, 2 de octubre
+**Definición Canónica:** tropolitano (2018): Corte Suprema, 2 de octubre
+                                            lidad por falta de servicio en la administración
+                                                                                                       de 2018, Rol N° 41890-2017;
+                                            hospitalaria en la jurisprudencia chilena”, en
+                                            Revista de Derecho Concepción (volumen 87, Nº         2.   Almacenes Pullman Limitada contra Sociedad
+                                            246).                                          
+
+tropolitano (2018): Corte Suprema, 2 de octubre
                                             lidad por falta de servicio en la administración
                                                                                                        de 2018, Rol N° 41890-2017;
                                             hospitalaria en la jurisprudencia chilena”, en
@@ -11906,18 +12261,31 @@ civil médica                                                                 in
 
 ## 86. VIDAL, Álvaro (2000): “La construcción de la
 
-                                            regla contractual en el derecho civil de los con-     3.   Angélica Beltrán Véliz y otro con Hospital Clínico
+**Definición Canónica:** regla contractual en el derecho civil de los con-     3.   Angélica Beltrán Véliz y otro con Hospital Clínico
+                                            tratos”, en Revista de Derecho de la Pontificia            Universidad Mayor y otro (2015): Corte Suprema,
+                                            Universidad Católica (Nº 21).                              30 de marzo de 2015, Rol N° 30907-2014;
+
+regla contractual en el derecho civil de los con-     3.   Angélica Beltrán Véliz y otro con Hospital Clínico
                                             tratos”, en Revista de Derecho de la Pontificia            Universidad Mayor y otro (2015): Corte Suprema,
                                             Universidad Católica (Nº 21).                              30 de marzo de 2015, Rol N° 30907-2014;
 
 ## 87. VIDAL, Álvaro (2002): “La responsabilidad civil del   4.   Bernarda Olmos Bruna con M. Angélica Hernán-
 
-                                            profesional médico”, en Revista de Derecho del             dez Pino (2018): Corte Suprema, 21 de febrero de
+**Definición Canónica:** profesional médico”, en Revista de Derecho del             dez Pino (2018): Corte Suprema, 21 de febrero de
+                                            Consejo de Defensa del Estado (Nº 8).                      2018, Rol N° 7085-2017;
+
+profesional médico”, en Revista de Derecho del             dez Pino (2018): Corte Suprema, 21 de febrero de
                                             Consejo de Defensa del Estado (Nº 8).                      2018, Rol N° 7085-2017;
 
 ## 88. VIDAL, Álvaro (2006): “La responsabilidad del         5.   Bidasoa Limitada y otros con Patricia Isaacs
 
-                                            deudor por incumplimiento de su tercero encar-             Castro y otro (2018): Corte Suprema, 12 de julio
+**Definición Canónica:** deudor por incumplimiento de su tercero encar-             Castro y otro (2018): Corte Suprema, 12 de julio
+                                            gado en la compraventa internacional de mer-               de 2018, Rol N° 35723-2017;
+                                            caderías”, en Cuadernos de Análisis Jurídico III
+                                            (Santiago, Ediciones Universidad Diego Portales).     6.   Campos Ramírez con Isabel del Carmen con
+                                                                                                       Servicio de Salud de 
+
+deudor por incumplimiento de su tercero encar-             Castro y otro (2018): Corte Suprema, 12 de julio
                                             gado en la compraventa internacional de mer-               de 2018, Rol N° 35723-2017;
                                             caderías”, en Cuadernos de Análisis Jurídico III
                                             (Santiago, Ediciones Universidad Diego Portales).     6.   Campos Ramírez con Isabel del Carmen con
@@ -11930,13 +12298,22 @@ civil médica                                                                 in
 
 ## 90. VIDAL, Álvaro (2008): “La carga de mitigar las
 
-                                            pérdidas del acreedor”, AA.VV., Estudios de dere-     8.   Claudia Quilodrán Ramírez con Servicio de Salud
+**Definición Canónica:** pérdidas del acreedor”, AA.VV., Estudios de dere-     8.   Claudia Quilodrán Ramírez con Servicio de Salud
+                                            cho civil (Santiago, LegalPublishing).                     de Concepción (2017): Corte Suprema, 13 de no-
+                                                                                                       viembre de 2017, Rol N° 99898-2016;
+
+pérdidas del acreedor”, AA.VV., Estudios de dere-     8.   Claudia Quilodrán Ramírez con Servicio de Salud
                                             cho civil (Santiago, LegalPublishing).                     de Concepción (2017): Corte Suprema, 13 de no-
                                                                                                        viembre de 2017, Rol N° 99898-2016;
 
 ## 91. VIDAL, Álvaro (2008): “Las acciones civiles deri-
 
-                                            vadas del daño ambiental en la ley Nº 19.300”, en     9.   Claudio Silva Calderón con Mutual de Seguridad
+**Definición Canónica:** vadas del daño ambiental en la ley Nº 19.300”, en     9.   Claudio Silva Calderón con Mutual de Seguridad
+                                            Revista de Derecho de la Pontificia Universidad            Cámara Chilena de la Construcción (2019): Corte
+                                            Católica (Nº 29).                                          Suprema, 15 de abril de 2019, Rol N° 2779-2018;
+**Concordancias Legales:** ley Nº 19.300
+
+vadas del daño ambiental en la ley Nº 19.300”, en     9.   Claudio Silva Calderón con Mutual de Seguridad
                                             Revista de Derecho de la Pontificia Universidad            Cámara Chilena de la Construcción (2019): Corte
                                             Católica (Nº 29).                                          Suprema, 15 de abril de 2019, Rol N° 2779-2018;
 
@@ -11951,73 +12328,85 @@ civil médica                                                                 in
                                               nes de Antofagasta, 25 de julio de 2014, Rol N°        14421-2013;
                                               165-2014;
 
-## 26. Fresia del Rosario Gutiérrez Sánches con Servicio
-
-
 ## 12. Cristina Hormazábal Andrade con GD Ingeniería            de Salud de Concepción (2012): Corte de Apela-
 
-                                            y Construcción Limitada y otros (2018): Corte            ciones de Concepción, 14 de octubre de 2012, Rol
+**Definición Canónica:** y Construcción Limitada y otros (2018): Corte            ciones de Concepción, 14 de octubre de 2012, Rol
                                             Suprema, 16 de abril de 2018, Rol N° 7180-2017;          N° 1473-2013;
 
+y Construcción Limitada y otros (2018): Corte            ciones de Concepción, 14 de octubre de 2012, Rol
+                                            Suprema, 16 de abril de 2018, Rol N° 7180-2017;          N° 1473-2013;
 
 ## 13. Cristóbal Tienken Fernández con Clínica Las          27.   Carlos Henríquez Durán y otro (2007): Corte de
 
-                                            Condes S.A. (2014): Corte de Apelaciones de                Apelaciones de Rancagua, 4 de septiembre de
+**Definición Canónica:** Condes S.A. (2014): Corte de Apelaciones de                Apelaciones de Rancagua, 4 de septiembre de
                                             Santiago, 23 de abril de 2014, Rol N° 5396-2014;           2007, Rol N° 1481-2006;
 
+Condes S.A. (2014): Corte de Apelaciones de                Apelaciones de Rancagua, 4 de septiembre de
+                                            Santiago, 23 de abril de 2014, Rol N° 5396-2014;           2007, Rol N° 1481-2006;
 
 ## 14. Directores del Complejo Hospitalario San José        28. Hugo Aedo Gallardo con Nazar Logística Limita-
 
+**Definición Canónica:** con Valeska Pino Garrido (2018): Corte de Ape-           da y otros (2014): Corte Suprema, 24 de noviem-
+                                            laciones de Santiago, 13 de julio de 2018, Rol N°        bre de 2014, Rol N° 2547-2014;
+                                            43412-2018;
 
-                                            con Valeska Pino Garrido (2018): Corte de Ape-           da y otros (2014): Corte Suprema, 24 de noviem-
+con Valeska Pino Garrido (2018): Corte de Ape-           da y otros (2014): Corte Suprema, 24 de noviem-
                                             laciones de Santiago, 13 de julio de 2018, Rol N°        bre de 2014, Rol N° 2547-2014;
                                             43412-2018;
 
 ## 29. Inversiones Clarkson y Compañía Limitada con
 
-                                        15. Directores del Complejo Hospitalario San José            Humberto Guillermo Donoso Caamaño (2014):
+**Definición Canónica:** 15. Directores del Complejo Hospitalario San José            Humberto Guillermo Donoso Caamaño (2014):
                                             con Valeska Pino Garrido (2018): Corte Suprema,          Corte Suprema, 29 de mayo de 2014, Rol N°
                                             1 de agosto de 2018, Rol N° 16876-2018;                  2073-2013;
 
+15. Directores del Complejo Hospitalario San José            Humberto Guillermo Donoso Caamaño (2014):
+                                            con Valeska Pino Garrido (2018): Corte Suprema,          Corte Suprema, 29 de mayo de 2014, Rol N°
+                                            1 de agosto de 2018, Rol N° 16876-2018;                  2073-2013;
 
 ## 16. Manuel Eugenio Elgueta Ariztía con Pizarreño S.A     30. Jacqueline González Cantillana y otros con
 
-                                            (2013): Corte de Apelaciones de Santiago, 19 de          Sociedad Clínica del Maule y otro (2018): Corte
+**Definición Canónica:** (2013): Corte de Apelaciones de Santiago, 19 de          Sociedad Clínica del Maule y otro (2018): Corte
                                             noviembre de 2013, Rol N° 3248-2011;                     Suprema, 12 de junio de 2018, Rol N° 3385-2018;
 
+(2013): Corte de Apelaciones de Santiago, 19 de          Sociedad Clínica del Maule y otro (2018): Corte
+                                            noviembre de 2013, Rol N° 3248-2011;                     Suprema, 12 de junio de 2018, Rol N° 3385-2018;
 
 ## 17.   Rodrigo Erazo Reyes con Treizman Sacks Lucy        31. Marco Antonio Jaramillo Amoyao con Fisco de
 
-                                              (2012): Corte Suprema, 22 de agosto de 2012, Rol       Chile (2017): Corte Suprema, 24 de abril de 2017,
+**Definición Canónica:** (2012): Corte Suprema, 22 de agosto de 2012, Rol       Chile (2017): Corte Suprema, 24 de abril de 2017,
                                               N° 3240-2012;                                          Rol N° 52961-2016;
 
+(2012): Corte Suprema, 22 de agosto de 2012, Rol       Chile (2017): Corte Suprema, 24 de abril de 2017,
+                                              N° 3240-2012;                                          Rol N° 52961-2016;
 
 ## 18. Estado de Chile con Minimal Enterprises Com-         32. John Durson Wagner y otros con Luciano Basauri
 
-                                            pany y otro (2018): Corte Suprema, 26 de junio de        Tochetton y otro (2013): Corte de Apelaciones de
+**Definición Canónica:** pany y otro (2018): Corte Suprema, 26 de junio de        Tochetton y otro (2013): Corte de Apelaciones de
                                             2018, Rol N° 36757-2017;                                 Santiago, 15 de octubre de 2013, Rol N° 151-2012;
 
+pany y otro (2018): Corte Suprema, 26 de junio de        Tochetton y otro (2013): Corte de Apelaciones de
+                                            2018, Rol N° 36757-2017;                                 Santiago, 15 de octubre de 2013, Rol N° 151-2012;
 
 ## 19.   Eugenio Domínguez Delpiano y otro con René         33. José Ibáñez Castillo con Instituto Hijas de San
 
-                                              Donoso Rodríguez y otro (2016): Corte de Ape-          Camilo (2018): Corte Suprema, 5 de marzo de
+**Definición Canónica:** Donoso Rodríguez y otro (2016): Corte de Ape-          Camilo (2018): Corte Suprema, 5 de marzo de
                                               laciones de Santiago, 8 de julio de 2016, Rol N°       2018, Rol N° 82482-2016;
                                               7473-2014;
 
-## 34. José Urrutia Soto y otros con Servicio de Salud
-
-
-## 20. Eulalia Campos Jiménez con Servicio de Salud             del Bío Bío (2015): Corte Suprema, 15 de julio de
-
-                                            del Maule (2017): Corte Suprema, 25 de abril de          2015, Rol N° 4156-2015;
-                                            2017, Rol N° 38151-2016;
-
-## 35. Josefina Escárate Lorca y otros con Inmobiliaria
-
+Donoso Rodríguez y otro (2016): Corte de Ape-          Camilo (2018): Corte Suprema, 5 de marzo de
+                                              laciones de Santiago, 8 de julio de 2016, Rol N°       2018, Rol N° 82482-2016;
+                                              7473-2014;
 
 ## 21. Nayade Fernández Medel con Clínica Las Condes            Clínica San Carlos S.A. y otro (2018): Corte Su-
 
-                                            S.A., Milenko Ivankovic Bizaca, Juan Alcelde Saa-        prema, 29 de enero de 2018, Rol N° 19182-2017;
+**Definición Canónica:** S.A., Milenko Ivankovic Bizaca, Juan Alcelde Saa-        prema, 29 de enero de 2018, Rol N° 19182-2017;
+                                            vedra (2013): Corte de Apelaciones de Santiago,
+                                            27 de mayo de 2013, Rol N° 7995-2011;                36. Juan Contreras Parra con Servicio de Salud de
+                                                                                                     Concepción (2017): Corte Suprema, 9 de noviem-
+                                        22. Fisco de Chile con Molibdenos y Metales S.A. y           bre de 2
+
+S.A., Milenko Ivankovic Bizaca, Juan Alcelde Saa-        prema, 29 de enero de 2018, Rol N° 19182-2017;
                                             vedra (2013): Corte de Apelaciones de Santiago,
                                             27 de mayo de 2013, Rol N° 7995-2011;                36. Juan Contreras Parra con Servicio de Salud de
                                                                                                      Concepción (2017): Corte Suprema, 9 de noviem-
@@ -12028,31 +12417,40 @@ civil médica                                                                 in
 
 ## 23. Fresia Gutiérrez Sánchez con Servicio de Salud             Suprema, 29 de agosto de 2017, Rol N° 101769-
 
-                                            de Concepción (2013): Corte Suprema, 2 de octu-            2016;
+**Definición Canónica:** de Concepción (2013): Corte Suprema, 2 de octu-            2016;
+                                            bre de 2013, Rol N° 4325-2013;
+
+de Concepción (2013): Corte Suprema, 2 de octu-            2016;
                                             bre de 2013, Rol N° 4325-2013;
 
 Responsabilidad                                                                                  Bibliografía                                          288
 
-
 ## 38. Juan Sarabia Tolosa y otros con Servicio de Sa-      53. Macarena Estay Estay y otro con Ilustre Munici-
 
-                                            lud de Iquique y otros (2016): Corte Suprema, 12         palidad de San Felipe (2017): Corte Suprema, 4 de
+**Definición Canónica:** lud de Iquique y otros (2016): Corte Suprema, 12         palidad de San Felipe (2017): Corte Suprema, 4 de
+                                            de septiembre de 2016, Rol N° 9481-2016;                 julio de 2017, Rol N° 95114-2016;
+
+lud de Iquique y otros (2016): Corte Suprema, 12         palidad de San Felipe (2017): Corte Suprema, 4 de
                                             de septiembre de 2016, Rol N° 9481-2016;                 julio de 2017, Rol N° 95114-2016;
 
                                         39. Juan Vargas Salinas con Amalia Bahamonde             54. María López Oñatt con Fisco de Chile (2014):
                                             Oyarzo y otro (2014): Corte Suprema, 27 de no-           Corte de Apelaciones de Santiago, 27 de noviem-
                                             viembre de 2014, Rol N° 12048-2013;                      bre de 2014, Rol N° 711-2014;
 
-
 ## 40. Juan Vásquez Olivares con Servicio de Salud de       55. María Rossi Sánchez con Colegio Academia de
 
-                                            Coquimbo (2016): Corte Suprema, 14 de septiem-           Humanidades (2018): Corte Suprema, 4 de abril
+**Definición Canónica:** Coquimbo (2016): Corte Suprema, 14 de septiem-           Humanidades (2018): Corte Suprema, 4 de abril
                                             bre de 2016, Rol N° 35566-2015;                          de 2018, Rol N° 12176-2017;
 
+Coquimbo (2016): Corte Suprema, 14 de septiem-           Humanidades (2018): Corte Suprema, 4 de abril
+                                            bre de 2016, Rol N° 35566-2015;                          de 2018, Rol N° 12176-2017;
 
 ## 41. Judith Cecilia González Concha con Clínica Los       56. Maricel Vallejos García con Servicio de Salud
 
-                                            Abetos (2012): Corte de Apelaciones de Valparaí-         Metropolitano Sur Oriente (2017): Corte Suprema,
+**Definición Canónica:** Abetos (2012): Corte de Apelaciones de Valparaí-         Metropolitano Sur Oriente (2017): Corte Suprema,
+                                            so, 20 de abril de 2012, Rol N° 2141-2011;               25 de abril de 2017, Rol N° 34836-2016;
+
+Abetos (2012): Corte de Apelaciones de Valparaí-         Metropolitano Sur Oriente (2017): Corte Suprema,
                                             so, 20 de abril de 2012, Rol N° 2141-2011;               25 de abril de 2017, Rol N° 34836-2016;
 
                                         42. Julia Haydée Delgado Romero y otros con Ponti-       57.   Mariela Pérez Barril y otro con Servicio de Salud
@@ -12060,46 +12458,72 @@ civil médica                                                                 in
 
                                             Suprema, Rol N° 582-2011;                                  de 2017, Rol N° 62104-2016;
 
-
 ## 43. Katherine Gajardo Orellana con Patricio Stevens      58. Megafrut Limitada con Andes Logistics de Chile
 
-                                            Moya (2016): Corte Suprema, 10 de marzo de               S.A. y otro (2015): Corte de Apelaciones de San-
+**Definición Canónica:** Moya (2016): Corte Suprema, 10 de marzo de               S.A. y otro (2015): Corte de Apelaciones de San-
                                             2016, Rol N° 21373-2015;                                 tiago, 20 de enero de 2015, Rol N° 1690-2014.
 
+Moya (2016): Corte Suprema, 10 de marzo de               S.A. y otro (2015): Corte de Apelaciones de San-
+                                            2016, Rol N° 21373-2015;                                 tiago, 20 de enero de 2015, Rol N° 1690-2014.
 
 ## 44. Katherine Torrontegui González y otra con Clínica    59. Milan Ceric Aguila con Servicio de Salud de Viña
 
-                                            Las Violetas S.A. y otros (2018): Corte Suprema,         del Mar Quillota (2016): 19 de diciembre de 2016,
+**Definición Canónica:** Las Violetas S.A. y otros (2018): Corte Suprema,         del Mar Quillota (2016): 19 de diciembre de 2016,
                                             31 de enero de 2018, Rol N° 9189-2017                    Rol N° 76225-2016;
 
+Las Violetas S.A. y otros (2018): Corte Suprema,         del Mar Quillota (2016): 19 de diciembre de 2016,
+                                            31 de enero de 2018, Rol N° 9189-2017                    Rol N° 76225-2016;
 
 ## 45. Katty Vásquez Contreras y otros con Hospital         60. Héctor Montecinos Peralta con Hospital Clínico
 
-                                            Carlos Van Buren (2015): Corte Suprema, 3 de             Pontificia Universidad Católica de Chile (2007):
+**Definición Canónica:** Carlos Van Buren (2015): Corte Suprema, 3 de             Pontificia Universidad Católica de Chile (2007):
+                                            diciembre de 2015, Rol N° 29365-2014;                    Corte Suprema, 25 de septiembre de 2007, Rol N°
+                                                                                                     4103-2005;
+
+Carlos Van Buren (2015): Corte Suprema, 3 de             Pontificia Universidad Católica de Chile (2007):
                                             diciembre de 2015, Rol N° 29365-2014;                    Corte Suprema, 25 de septiembre de 2007, Rol N°
                                                                                                      4103-2005;
 
 ## 46. Jorge Arnaldo Leal Labrín con Servicio de Salud
 
-                                            Metropolitano (2019): Corte Suprema, 24 de abril     61. Myriam Anabalón Fierro y otros con Servicio de
+**Definición Canónica:** Metropolitano (2019): Corte Suprema, 24 de abril     61. Myriam Anabalón Fierro y otros con Servicio de
+                                            de 2019, Rol N° 7108-2017;                               Salud Araucanía (2016): Corte Suprema, 25 de
+                                                                                                     octubre de 2016, Rol N° 22751-2015;
+
+Metropolitano (2019): Corte Suprema, 24 de abril     61. Myriam Anabalón Fierro y otros con Servicio de
                                             de 2019, Rol N° 7108-2017;                               Salud Araucanía (2016): Corte Suprema, 25 de
                                                                                                      octubre de 2016, Rol N° 22751-2015;
 
 ## 47. Elsa León Muñoz con Mauricio Hinostroza Scheel
 
-                                            (2014): Corte de Apelaciones de Concepción, 19       62. Enrique Carlos Netz Puschmann con The Wessex
+**Definición Canónica:** (2014): Corte de Apelaciones de Concepción, 19       62. Enrique Carlos Netz Puschmann con The Wessex
+                                            de julio de 2014, Rol N° 625-2013;                       School (2010): Corte Suprema, 7 de septiembre
+                                                                                                     de 2010, Rol N° 1089-2009;
+
+(2014): Corte de Apelaciones de Concepción, 19       62. Enrique Carlos Netz Puschmann con The Wessex
                                             de julio de 2014, Rol N° 625-2013;                       School (2010): Corte Suprema, 7 de septiembre
                                                                                                      de 2010, Rol N° 1089-2009;
 
 ## 48. Leonel Ramírez Robledo con Fisco de Chile
 
-                                            (2013): Corte Suprema, 29 de octubre de 2013, Rol    63. No consigna con Jar Ingeniería y Servicios a la
+**Definición Canónica:** (2013): Corte Suprema, 29 de octubre de 2013, Rol    63. No consigna con Jar Ingeniería y Servicios a la
+                                            N° 3-2013;                                               Minería y Cía. Ltda (2006): 12 de diciembre de
+                                                                                                     2006, Rol N° 971-2006;
+
+(2013): Corte Suprema, 29 de octubre de 2013, Rol    63. No consigna con Jar Ingeniería y Servicios a la
                                             N° 3-2013;                                               Minería y Cía. Ltda (2006): 12 de diciembre de
                                                                                                      2006, Rol N° 971-2006;
 
 ## 49. Lucy Treizman Sacks y otros con Rodrigo Erazo
 
-                                            Reyes y otra (2013): Corte Suprema, 5 de junio de    64. Manuel Enrique Ojeda Soto con Servicio de Salud
+**Definición Canónica:** Reyes y otra (2013): Corte Suprema, 5 de junio de    64. Manuel Enrique Ojeda Soto con Servicio de Salud
+                                            2013, Rol N° 5883-2012;                                  Viña del Mar – Quillota (2018): Corte de Apela-
+                                                                                                     ciones de Valparaíso, 11 de diciembre de 2018,
+                                        50. Luis Salgado Delgado y otro con Fisco de Chile           Rol N° 776-2008;
+                                            (2014): Corte Suprema, 29 de abril d
+**Concordancias Legales:** Constitucion
+
+Reyes y otra (2013): Corte Suprema, 5 de junio de    64. Manuel Enrique Ojeda Soto con Servicio de Salud
                                             2013, Rol N° 5883-2012;                                  Viña del Mar – Quillota (2018): Corte de Apela-
                                                                                                      ciones de Valparaíso, 11 de diciembre de 2018,
                                         50. Luis Salgado Delgado y otro con Fisco de Chile           Rol N° 776-2008;
@@ -12118,16 +12542,23 @@ civil médica                                                                 in
 
 Responsabilidad                                                                                    Bibliografía                                           289
 
-
 ## 68. Patricia Corvalan Castillo con Servicio de Salud       81. Sociedad Educacional Colegio Alemán de Arica
 
-                                            Metropolitano Occidente (2017): Corte Suprema,             Limitada y otra con Banco del Estado de Chile
+**Definición Canónica:** Metropolitano Occidente (2017): Corte Suprema,             Limitada y otra con Banco del Estado de Chile
+                                            11 de mayo de 2017, Rol N° 47936-2016;                     (2011): Corte Suprema, 25 de enero de 2011, Rol
+                                                                                                       N° 3738-2009;
+
+Metropolitano Occidente (2017): Corte Suprema,             Limitada y otra con Banco del Estado de Chile
                                             11 de mayo de 2017, Rol N° 47936-2016;                     (2011): Corte Suprema, 25 de enero de 2011, Rol
                                                                                                        N° 3738-2009;
 
 ## 69. Patricia Loreto Muñoz Oliva con Servicio de Salud
 
-                                            de Talcahuano (2003): Corte de Apelaciones de          82. Sofía Sarria Muñoz y otros con Tambillos Ser-
+**Definición Canónica:** de Talcahuano (2003): Corte de Apelaciones de          82. Sofía Sarria Muñoz y otros con Tambillos Ser-
+                                            Concepción, 27 de enero de 2003, Rol N° 2135-              vicios Mineros S.A. (2017): Corte Suprema, 2 de
+                                            2000;                                                      mayo de 2017, Rol N° 100796-2016;
+
+de Talcahuano (2003): Corte de Apelaciones de          82. Sofía Sarria Muñoz y otros con Tambillos Ser-
                                             Concepción, 27 de enero de 2003, Rol N° 2135-              vicios Mineros S.A. (2017): Corte Suprema, 2 de
                                             2000;                                                      mayo de 2017, Rol N° 100796-2016;
 
@@ -12136,12 +12567,13 @@ civil médica                                                                 in
                                             Apelaciones de Santiago, 7 de noviembre de                 2013, Rol N° 2121-2009;
                                             2014, Rol N° 3365-2014;
 
-## 84. Sylvia Miranda Hernández con Hospital Clínico
-
-
 ## 71.   Paz López Osorio con Ilustre Municipalidad de            San Borja Arriarán (2016): Corte Suprema, 14 de
 
-                                              Recoleta y otro (2015): Corte de Apelaciones de          diciembre de 2016;
+**Definición Canónica:** Recoleta y otro (2015): Corte de Apelaciones de          diciembre de 2016;
+                                              Santiago, 25 de noviembre de 2015, Rol N° 4467-
+                                              2015;                                                85. Juan Carlos Telechea González contra Banco
+
+Recoleta y otro (2015): Corte de Apelaciones de          diciembre de 2016;
                                               Santiago, 25 de noviembre de 2015, Rol N° 4467-
                                               2015;                                                85. Juan Carlos Telechea González contra Banco
 
@@ -12166,48 +12598,10 @@ civil médica                                                                 in
 
 ## 76. Reynaldo Santana Duarte y otro con Corpora-
 
-                                            ción de Desarrollo Social de Providencia y otro        90. Zorín S.A. con Compañía Siderúrgica Huachipa-
+**Definición Canónica:** ción de Desarrollo Social de Providencia y otro        90. Zorín S.A. con Compañía Siderúrgica Huachipa-
                                             (2018): Corte Suprema, 27 de junio de 2018, Rol            to S.A. (2012): Corte Suprema, 31 de octubre de
                                             N° 38145-2017;                                             2012, Rol N° 3325-2012.
 
-
-## 77.   Rolando Unda Muñoz y otra con Clínica del Maule
-
-                                              S.A. y otro (2014): Corte de Apelaciones de Talca,
-                                              17 de julio de 2014, Rol N° 10438-2013;
-
-
-## 78. Ruby Saez Montoya contra Sociedad Médica Clí-
-
-                                            nica Francesa S.A. (2005): Corte de Apelaciones
-                                            de Concepción, 1 de septiembre de 2005, Rol N°
-                                            1045-2003;
-
-
-## 79.   Sandra Angélica Saavedra Encina con Superin-
-
-                                              tendencia de Salud (2015): Corte de Apelaciones
-                                              de Santiago, 17 de agosto de 2015, Rol N° 60233-
-                                              2015;
-
-
-## 80. María Gabriela Silva Escandón contra María Luisa
-
-                                            Dosque Contreras (1993): Corte de Apelaciones
-                                            de Concepción, 1 de diciembre de 1993, Rol N°
-                                            1171-1992;
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+ción de Desarrollo Social de Providencia y otro        90. Zorín S.A. con Compañía Siderúrgica Huachipa-
+                                            (2018): Corte Suprema, 27 de junio de 2018, Rol            to S.A. (2012): Corte Suprema, 31 de octubre de
+                                            N° 38145-2017;                                             2012, Rol N° 3325-2012.

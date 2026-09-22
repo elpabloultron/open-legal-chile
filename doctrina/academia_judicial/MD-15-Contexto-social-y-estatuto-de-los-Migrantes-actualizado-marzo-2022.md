@@ -13,40 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-## Serie de documentos
-
-
-## Materiales docentes
-
-
-
-## Contexto social y
-
-
-## Estatuto de los
-
-
-## Migrantes en chile
-
-
-                                                              Dra. Regina Ingrid Díaz Tolosa
-
-Material docente N° 1   Versión actualizada a marzo de 2022             WWW.ACADEMIAJUDICIAL.CL
-
-## Isbn n° 2021-a-2279
-
-Santiago, Chile 2020
-
-## Materiales docentes
-
-
-## Contexto social y estatuto de los migrantes en chile
-
-
 ## Academia judicial de chile
 
+**Definición Canónica:** Resumen:
+                                                       Este material docente, luego de entregar un contexto en relación con la población migrante en
+                                                       el mundo y en Chile, enfatiza los desafíos que acarrean a los Estados receptores y puntualiza las
+                                                       principales recomendaciones realizadas por las relatorías especiales sobre migración de la ONU;
+                                                       sistematiza los estándares normativos existentes en el derecho internacional sobre 
 
-                                                       Resumen:
+Resumen:
                                                        Este material docente, luego de entregar un contexto en relación con la población migrante en
                                                        el mundo y en Chile, enfatiza los desafíos que acarrean a los Estados receptores y puntualiza las
                                                        principales recomendaciones realizadas por las relatorías especiales sobre migración de la ONU;
@@ -83,52 +58,11 @@ Santiago, Chile 2020
         1.1. Sobre la inexistencia de un derecho a inmigrar                                                                19
         1.2. Sobre los estándares internacionales que tutelan la movilidad humana                                          21
 
-## 1.2.1. Prohibiciones e impedimentos de ingreso                                                             21
-
-
-## 1.2.2. Migración irregular e ingreso clandestino                                                           22
-
-
-## 1.2.3. La medida de expulsión                                                                              24
-
-
-## 1.2.4. Derechos de las personas migrantes                                                                  25
-
-
-## 1.2.4.1. Derechos comunes a todas las personas, y especialmente relevantes para la integración de los
-
-                migrantes en los Estados de acogida                                                                        26
-
-## 1.2.4.1.1. Principio rector: derecho a la igualdad y no discriminación                                     26
-
-
-## 1.2.4.1.2. Derechos sociales                                                                               27
-
-
-## 1.2.4.1.3. Derechos políticos                                                                              27
-
-
-## 1.2.4.2. Derechos específicos de las personas migrantes                                                    28
-
-
-## 1.2.4.2.1. Debido proceso y otras salvaguardas en caso de procedimientos de expulsión                      28
-
-
-## 1.2.4.2.2. Derecho a la reunificación o reagrupación familiar                                              28
-
-
-## 1.2.5. Estatutos especiales: niños migrantes, víctimas de trata y apátridas                                29
-
-
-## 1.2.5.1. Niñez migrante                                                                                    29
-
-
-## 1.2.5.2. Víctimas de trata o tráfico de personas                                                           30
-
-
 ## 1.2.5.3. Apátridas                                                                                         31
 
-     2. El estatuto especial de los solicitantes de asilo y refugiados                                                     31
+**Definición Canónica:** 2. El estatuto especial de los solicitantes de asilo y refugiados                                                     31
+
+2. El estatuto especial de los solicitantes de asilo y refugiados                                                     31
 
      LA POLÍTICA MIGRATORIA CHILENA                                                                                        34
      1. Las fuentes legales y administrativas que regulan la migración                                                     34
@@ -140,19 +74,16 @@ Santiago, Chile 2020
 
                                                                                                Índice de contenidos
 
-
-## 04   las vías de reclamación contra expulsiones en chile: administrativas y judicial43
-
-
-## 1. Los recursos administrativos de reclamación contra expulsiones
-
-
-## 2. Las acciones judiciales de reclamación contra expulsiones
-
-
 ## 2.1. La acción especial de reclamación del artículo 89 del Decreto Ley No. 1.094 de 1975
 
-        2.2. La acción de amparo constitucional como vía de reclamación en contra de todo tipo de expulsión                        44
+**Definición Canónica:** 2.2. La acción de amparo constitucional como vía de reclamación en contra de todo tipo de expulsión                        44
+     3. El desarrollo de criterios jurisprudenciales de los tribunales superiores de justicia                                      45
+        3.1. Aplicación de la Convención Americana sobre Derechos Humanos                                                          46
+                3.1.1. Artículo 22 sobre derecho de circulación y de residencia (legalidad y motivación de la medida de expulsión) 46
+                3.1.2. Artículo 7 sobre derecho a la libertad personal (
+**Concordancias Legales:** Artículo 22; Artículo 7; Artículo 8; Artículo 17; constitucion
+
+2.2. La acción de amparo constitucional como vía de reclamación en contra de todo tipo de expulsión                        44
      3. El desarrollo de criterios jurisprudenciales de los tribunales superiores de justicia                                      45
         3.1. Aplicación de la Convención Americana sobre Derechos Humanos                                                          46
                 3.1.1. Artículo 22 sobre derecho de circulación y de residencia (legalidad y motivación de la medida de expulsión) 46
@@ -173,10 +104,15 @@ Santiago, Chile 2020
         1.4. Trabajo                                                                                                              58
      2. El derecho a la reunificación familiar                                                                                    58
 
-
 ## Examen de compatibilidad entre los estándares internacionales
 
-     SOBRE MIGRACIÓN Y EL SISTEMA JURÍDICO CHILENO                                                                               60
+**Definición Canónica:** SOBRE MIGRACIÓN Y EL SISTEMA JURÍDICO CHILENO                                                                               60
+     1. Rechazos o revocación de visas, medidas de abandono y otras causales de expulsión                                         60
+     2. Las prohibiciones e impedimentos de ingreso                                                                               60
+     3. La migración irregular, el ingreso clandestino y otras infracciones migratorias                                           61
+     4. Derechos de las personas migrantes                                
+
+SOBRE MIGRACIÓN Y EL SISTEMA JURÍDICO CHILENO                                                                               60
      1. Rechazos o revocación de visas, medidas de abandono y otras causales de expulsión                                         60
      2. Las prohibiciones e impedimentos de ingreso                                                                               60
      3. La migración irregular, el ingreso clandestino y otras infracciones migratorias                                           61
@@ -186,59 +122,13 @@ Santiago, Chile 2020
 
 07   LA NUEVA LEY DE MIGRACIÓN Y EXTRANJERÍA N° 21.325.
 
-## 1. Derecho de extranjería
-
-
-## 1.1. Prohibiciones de ingreso
-
-
-## 1.2. Permisos de residencia
-
-
-## 1.3. Causales de expulsión                                           71
-
-
-## 1.4. Infracciones migratorias                                        74
-
-
-## 2. Derecho Migratorio                                                   75
-
-
-## 2.1. Principios fundamentales de protección                          75
-
-
-## 2.2. Derechos sociales                                               76
-
-
-## 2.2.1. Derecho al acceso a la salud                         76
-
-
-## 2.2.2. Derecho al acceso a la educación                     76
-
-
-## 2.2.3. Derecho al acceso a la vivienda                      77
-
-
-## 2.2.4. Derecho al trabajo                                   78
-
-
-## 2.3. Derechos políticos                                              78
-
-
-## 2.4. Debido proceso y tutela judicial efectiva                       79
-
-
-## 2.5. Derecho a la reunificación familiar                             80
-
-
-
-## Glosario y bibliografía citada                                          81
-
-
-
 ## Introducción
 
-               En los últimos años ha existido un incremento de las inmigraciones, tanto a nivel mundial como en Chile, lo cual justifica
+**Definición Canónica:** En los últimos años ha existido un incremento de las inmigraciones, tanto a nivel mundial como en Chile, lo cual justifica
+               el estudio del estatuto normativo aplicable a este fenómeno, a nivel internacional e interno.
+**Concordancias Legales:** artículo 5; Artículo 26 de la CVDT; artículo 27; Artículo 27 de la CVDT; Constitución; constitucion
+
+En los últimos años ha existido un incremento de las inmigraciones, tanto a nivel mundial como en Chile, lo cual justifica
                el estudio del estatuto normativo aplicable a este fenómeno, a nivel internacional e interno.
 
                Según el Portal de datos mundiales sobre la migración, desarrollado por la Organización de las Naciones Unidas (ONU),
@@ -365,30 +255,26 @@ Free Zones of Upper Savoy and the District Of Gex, 1932, p. 12, un Estado no pue
 
 UNIDAD I:
 
-
-## El aumento de la movilidad
-
-
-## Humana en el mundo y en chile
-
-
-
-## 1. Población migrante en el mundo
-
-
 ## 1.1. Sobre las causas posibles de la migración. Migración voluntaria y forzada
 
-                                                                   El ser humano, desde su existencia, se ha movilizado incesantemente con el propósito de tener bienestar y mejoras socioeUNIDAD I:                                                          conómicas. En esa búsqueda, la migración ha constituido una de las formas de cumplir con ese objetivo. 1 Así, la migración es
+**Definición Canónica:** El ser humano, desde su existencia, se ha movilizado incesantemente con el propósito de tener bienestar y mejoras socioeUNIDAD I:                                                          conómicas. En esa búsqueda, la migración ha constituido una de las formas de cumplir con ese objetivo. 1 Así, la migración es
+                                                                   un fenómeno global que desde la Antigüedad ha generado la necesidad de crear normas que regulen el actuar y los derechos
+
+El ser humano, desde su existencia, se ha movilizado incesantemente con el propósito de tener bienestar y mejoras socioeUNIDAD I:                                                          conómicas. En esa búsqueda, la migración ha constituido una de las formas de cumplir con ese objetivo. 1 Así, la migración es
                                                                    un fenómeno global que desde la Antigüedad ha generado la necesidad de crear normas que regulen el actuar y los derechos
 
 EL AUMENTO DE LA                                                   y deberes que se reconocen a determinadas personas, las cuales han salido de su lugar de origen para establecerse en otro
                                                                    diferente de manera temporal o definitiva.2 No es casualidad que, hoy en día, cientos de personas se trasladen desde sus paí-
                                                                    ses de origen a otros destinos para tener un mejor empleo, cursar estudios, contraer matrimonio o reunirse con sus familias
 
-
 ## Movilidad humana en
 
-                                                                   radicadas en el exterior. En efecto, entre las principales motivaciones de la migración se consideran la desintegración y dife-
+**Definición Canónica:** radicadas en el exterior. En efecto, entre las principales motivaciones de la migración se consideran la desintegración y dife-
+                                                                   rencia salarial entre los países; el mayor conocimiento de las personas respecto a las condiciones socioeconómicas de otras
+                                                                   jurisdicciones gracias a las redes sociales y al Internet; e, incluso, la baja en los precios del transporte que han disminuido los
+                                                                   costos de las m
+
+radicadas en el exterior. En efecto, entre las principales motivaciones de la migración se consideran la desintegración y dife-
                                                                    rencia salarial entre los países; el mayor conocimiento de las personas respecto a las condiciones socioeconómicas de otras
                                                                    jurisdicciones gracias a las redes sociales y al Internet; e, incluso, la baja en los precios del transporte que han disminuido los
                                                                    costos de las migraciones –y desplazamientos– hasta en las más adversas condiciones.3
@@ -427,6 +313,10 @@ fenómeno de la movilidad humana en el mundo y en Chile.            Asimismo, ha
                                                                                                                                                                          Tabla No. 2. Porcentaje de incremento de los migrantes en cada década desde 1990
 
 ## 1.2. Estadísticas a nivel mundial
+
+**Definición Canónica:** La migración internacional es un fenómeno que ha ido en aumento a nivel mundial, las estadísticas muestran que en los últi-                         Año                                             Cantidad de migrantes (millones)               Incremento en relación con la década anterior (%)
+mos 30 años sube de un 2,9% a un 3,5%, en relación con la población mundial.9 La última medición mundial correspondiente
+                                                                                                                                                    1990                                  
 
 La migración internacional es un fenómeno que ha ido en aumento a nivel mundial, las estadísticas muestran que en los últi-                         Año                                             Cantidad de migrantes (millones)               Incremento en relación con la década anterior (%)
 mos 30 años sube de un 2,9% a un 3,5%, en relación con la población mundial.9 La última medición mundial correspondiente
@@ -497,7 +387,14 @@ a mediados de 2019 por país, mientras que en la Figura No. 6 por región geogr�
 
 ## North america                      europe                            asia
 
-   Estados Unidos de América                                                                               India
+**Definición Canónica:** Estados Unidos de América                                                                               India
+                    Alemania                                                                            México
+               Arabia Saudita                                                                             China
+         Federación de Rusia                                                             Federación de Rusia
+                  Reino unido                                                           República Árabe Siria
+      Emiratos Árabes Unidos                    
+
+Estados Unidos de América                                                                               India
                     Alemania                                                                            México
                Arabia Saudita                                                                             China
          Federación de Rusia                                                             Federación de Rusia
@@ -578,10 +475,12 @@ región, corresponden a América del Sur 8,2 millones de personas.20
 19.- OIM (2019), p. 43.                                                                                                           22.- OIM (2019), p. 108.
 20.- PORTAL DE DATOS MUNDIALES SOBRE LA MIGRACIÓN (2020b).                                                                        23.- SELEE y BOLTER (2020), p. 5.
 
-
 ## 2. Población migrante en Chile. Chile como polo de
 
-                                                                                                                                                  Figura No. 10. Distribución porcentual de la población extranjera residente en Chile según país,
+**Definición Canónica:** Figura No. 10. Distribución porcentual de la población extranjera residente en Chile según país,
+                                                                                                                                                                           estimada al 31 de diciembre, años 2018 - 2019
+
+Figura No. 10. Distribución porcentual de la población extranjera residente en Chile según país,
                                                                                                                                                                            estimada al 31 de diciembre, años 2018 - 2019
 
    atracción migratoria                                                                                                                    35
@@ -658,8 +557,10 @@ Argentina                       66.899                          79.464          
                                                                                                                                                                                                                                        Fuente: INE (2017).
 Ecuador                         19.133                          41.403                    22.270                            116
 
-
 ## 3. Desafíos y recomendaciones para los Estados
+
+**Definición Canónica:** España                          14.474                          22.524                    8.050                             56
+R. Dominicana                   2.510                           20.080                    17.570                            700
 
 España                          14.474                          22.524                    8.050                             56
 R. Dominicana                   2.510                           20.080                    17.570                            700
@@ -702,7 +603,12 @@ Maule                                                 10.780                    
 
 ## 3.2. Principales recomendaciones realizadas por las relatorías especiales sobre
 
-                                                                                                                                                                                                                                                                           Permitir las asociaciones de migrantes y la participación de los migrantes en los sindicatos como medio de
+**Definición Canónica:** Permitir las asociaciones de migrantes y la participación de los migrantes en los sindicatos como medio de
+           migración de las Naciones Unidas
+                                                                                                                                                                                                       Exclusión social, debido a la falta de integración social y
+                                                                                                                                                                                              
+
+Permitir las asociaciones de migrantes y la participación de los migrantes en los sindicatos como medio de
            migración de las Naciones Unidas
                                                                                                                                                                                                        Exclusión social, debido a la falta de integración social y
                                                                                                                                                                                                                                                                            salvaguardar sus derechos y mantener un diálogo continuo con los dirigentes políticos y los organismos
@@ -848,40 +754,31 @@ contribución económica y social a la sociedad; entre otros.43
 
 UNIDAD II:
 
-
-## El estatuto internacional
-
-
-## De protección de las
-
-
-## Personas migrantes
-
-
-UNIDAD II:
-
-## 1. Las fuentes internacionales que protegen los
-
-EL ESTATUTO                                                            derechos de las personas migrantes
-
 ## 1.1. Sobre la inexistencia de un derecho a inmigrar
 
+**Definición Canónica:** INTERNACIONAL DE                                                    Si se considera inmigrar como “llegar a otro país para establecerse en él”, no existe norma de derecho internacional que
+                                                                    establezca expresamente a la inmigración como un derecho de todo ser humano. Los derechos relacionados que se re-
 
 INTERNACIONAL DE                                                    Si se considera inmigrar como “llegar a otro país para establecerse en él”, no existe norma de derecho internacional que
                                                                     establezca expresamente a la inmigración como un derecho de todo ser humano. Los derechos relacionados que se re-
 
-
 ## Protección de las
 
-                                                                    conocen son el de emigrar, el de circular libremente una vez que se ha ingresado a otro Estado y el derecho a retornar
+**Definición Canónica:** conocen son el de emigrar, el de circular libremente una vez que se ha ingresado a otro Estado y el derecho a retornar
+                                                                    al Estado del que se es nacional. Ello se puede confirmar si se revisan los principales tratados internacionales sobre
+                                                                    derechos humanos aplicables en materia de inmigración, a nivel universal y americano, los cuales han sido redactados
+                                                                    en consonancia con las declaraciones de d
+
+conocen son el de emigrar, el de circular libremente una vez que se ha ingresado a otro Estado y el derecho a retornar
                                                                     al Estado del que se es nacional. Ello se puede confirmar si se revisan los principales tratados internacionales sobre
                                                                     derechos humanos aplicables en materia de inmigración, a nivel universal y americano, los cuales han sido redactados
                                                                     en consonancia con las declaraciones de derechos que les anteceden.1 En Tabla No. 8 es posible contrastar los textos
 
-
 ## Personas migrantes
 
-                                                                    de estos instrumentos internacionales tanto a nivel universal como americano.
+**Definición Canónica:** de estos instrumentos internacionales tanto a nivel universal como americano.
+
+de estos instrumentos internacionales tanto a nivel universal como americano.
 
                                                                                            Tabla No. 8. Principales disposiciones internacionales que regulan la movilidad humana
 
@@ -892,6 +789,8 @@ Objetivo: Analizar las fuentes normativas y jurisprudenciales del     DUDH, 1948
 
 ## 2. Toda persona tiene derecho a salir de cualquier país, incluso del propio, y a regresar a su país”
 
+**Definición Canónica:** derecho internacional que protegen los derechos de las personas                                                               “1. Toda persona que se halle legalmente en el territorio de un Estado tendrá derecho a circular libremente
+
 derecho internacional que protegen los derechos de las personas                                                               “1. Toda persona que se halle legalmente en el territorio de un Estado tendrá derecho a circular libremente
 
 migrantes y refugiados, tanto a nivel universal como regional.        PIDCP, 1966
@@ -900,7 +799,14 @@ migrantes y refugiados, tanto a nivel universal como regional.        PIDCP, 196
 
 ## 3. Los derechos antes mencionados no podrán ser objeto de restricciones salvo cuando éstas se hallen pre-
 
-                                                                                                                              vistas en la ley, sean necesarias para proteger la seguridad nacional, el orden público, la salud o la moral
+**Definición Canónica:** vistas en la ley, sean necesarias para proteger la seguridad nacional, el orden público, la salud o la moral
+                                                                      Artículo 12
+                                                                                                                              públicas o los derechos y libertades de terceros, y sean compatibles con los demás derechos reconocidos en
+                                                                                                                              el presente Pacto.
+                               
+**Concordancias Legales:** Artículo 12; Artículo 13; artículo 2.1; Artículo 8; artículo 22
+
+vistas en la ley, sean necesarias para proteger la seguridad nacional, el orden público, la salud o la moral
                                                                       Artículo 12
                                                                                                                               públicas o los derechos y libertades de terceros, y sean compatibles con los demás derechos reconocidos en
                                                                                                                               el presente Pacto.
@@ -957,14 +863,23 @@ migrantes y refugiados, tanto a nivel universal como regional.        PIDCP, 196
 
 ## 6. En caso de expulsión, el interesado tendrá oportunidad razonable, antes o después de la partida, para
 
-                                                           arreglar lo concerniente al pago de los salarios y otras prestaciones que se le adeuden y al cumplimiento de
+**Definición Canónica:** arreglar lo concerniente al pago de los salarios y otras prestaciones que se le adeuden y al cumplimiento de
+                                                           sus obligaciones pendientes.                                                                                      Así también consta en las interpretaciones realizadas a estas disposiciones por los órganos expertos que se han creado
+                                                           7. Sin perjuicio de la ejecución de una decisión de expulsión, el trabajador migratorio o familiar suyo que sea   en el sistema universal de
+
+arreglar lo concerniente al pago de los salarios y otras prestaciones que se le adeuden y al cumplimiento de
                                                            sus obligaciones pendientes.                                                                                      Así también consta en las interpretaciones realizadas a estas disposiciones por los órganos expertos que se han creado
                                                            7. Sin perjuicio de la ejecución de una decisión de expulsión, el trabajador migratorio o familiar suyo que sea   en el sistema universal de protección de los derechos humanos para vigilar el ejercicio de los derechos humanos. En
                                                            objeto de ella podrá solicitar autorización de ingreso en un Estado que no sea su Estado de origen.
 
 ## 8. Los gastos a que dé lugar el procedimiento de expulsión de un trabajador migratorio o un familiar suyo no
 
-                                                                                                                                                                             efecto, el Comité de Derechos Humanos, encargado de supervisar la aplicación del PIDCP por sus Estados parte, en la
+**Definición Canónica:** efecto, el Comité de Derechos Humanos, encargado de supervisar la aplicación del PIDCP por sus Estados parte, en la
+                                                           correrán por su cuenta. Podrá exigírsele que pague sus propios gastos de viaje.                                   Observación General No. 15 de 1986, sobre la situación de los extranjeros con arreglo al Pacto, pár. 5º, afirma que “[e]
+                                                           9. La expulsión del Estado de empleo no menoscabará por sí sola ninguno de los derechos que haya adqui-           l Pacto no recono
+**Concordancias Legales:** artículo 79; artículo 12.3 del PIDCP alude a las restricciones legales estab; artículo 22.3 de la Convención Americana sobre Derechos Humanos; Artículo 22.3; Artículo 2.1; Artículo 1; Artículo 7; artículo 13 del PIDCP que las garantías para oponerse a una d; Artículo 12; artículo 12 del Pacto; artículo 5; artículo 25.3; artículo 28; artículo 30; artículo 22.6 de la CADH establece que; artículo 67; artículo 68; artículo 8 de la CADH; artículo 69; artículo 22 de la CTMF prohíbe la expulsión colectiva y estable; Artículo 3; Artículo 4; artículo 13 del PIDCP; artículo 13; Artículo 13 del PIDCP también es aplicable a los migrantes ir; artículo 22 de la CTMF; artículo 22 de la CADH se refiere a las expulsiones de extranje; artículo 22.6
+
+efecto, el Comité de Derechos Humanos, encargado de supervisar la aplicación del PIDCP por sus Estados parte, en la
                                                            correrán por su cuenta. Podrá exigírsele que pague sus propios gastos de viaje.                                   Observación General No. 15 de 1986, sobre la situación de los extranjeros con arreglo al Pacto, pár. 5º, afirma que “[e]
                                                            9. La expulsión del Estado de empleo no menoscabará por sí sola ninguno de los derechos que haya adqui-           l Pacto no reconoce a los extranjeros el derecho a entrar en el territorio de un Estado Parte ni de residir en él. En principio, co-
                                                            rido de conformidad con la legislación de ese Estado un trabajador migratorio o un familiar suyo, incluido el
@@ -1193,9 +1108,12 @@ Disposición internacional                                     Contenido de la n
  rie C No.251, 2012, párs. 154, 158-160; serie C No.218,       allá del tiempo permitido, esto porque ello forma para de las garantías que componen el debido proceso del
  2010, pár. 100).                                              artículo 8 de la CADH, por tanto se garantizan a toda persona
 
-
 ## 1.2.3. La medida de expulsión
 
+**Definición Canónica:** Ninguna norma de derecho internacional prohíbe la expulsión de extranjeros del territorio de un Estado, pero la libertad de éste encuentra ciertos límites (ver Tabla No. 12). La expulsión no debe ir acompañada de daños, vejaciones
+o sufrimientos innecesarios, que pudieran considerarse inhumanos. Además, el Estado debe articular y conceder un                                                                   21.- DÍAZ (2016), p. 195. Ver artículo 13 PIDCP.
+                                                                                                                                             
+**Concordancias Legales:** artículo 13
 
 Ninguna norma de derecho internacional prohíbe la expulsión de extranjeros del territorio de un Estado, pero la libertad de éste encuentra ciertos límites (ver Tabla No. 12). La expulsión no debe ir acompañada de daños, vejaciones
 o sufrimientos innecesarios, que pudieran considerarse inhumanos. Además, el Estado debe articular y conceder un                                                                   21.- DÍAZ (2016), p. 195. Ver artículo 13 PIDCP.
@@ -1207,6 +1125,9 @@ bido proceso se aplica al derecho de expulsión, tanto a sus causales como al pr
                             Tabla No. 12. Principales disposiciones internacionales sobre expulsión
 
 ## 1.2.4. Derechos de las personas migrantes
+
+**Definición Canónica:** Disposición internacional                     Texto de la norma
+**Concordancias Legales:** Artículo 13
 
 Disposición internacional                     Texto de la norma
 
@@ -1227,14 +1148,23 @@ Disposición internacional                     Texto de la norma
 
 ## 3. La decisión les será comunicada en un idioma que puedan entender. Les será comunicada por escrito si lo
 
-                                               solicitasen y ello no fuese obligatorio por otro concepto y, salvo en circunstancias excepcionales justificadas
+**Definición Canónica:** solicitasen y ello no fuese obligatorio por otro concepto y, salvo en circunstancias excepcionales justificadas
+                                                                                                                                                                    estos derechos, sin embargo, en la práctica se observan numerosas limitaciones para los no nacionales, pues se trata
+                                               por razones de seguridad nacional, se indicarán también los motivos de la decisión. Se informará a los inte-         de derechos prestacionales, que respecto de
+
+solicitasen y ello no fuese obligatorio por otro concepto y, salvo en circunstancias excepcionales justificadas
                                                                                                                                                                     estos derechos, sin embargo, en la práctica se observan numerosas limitaciones para los no nacionales, pues se trata
                                                por razones de seguridad nacional, se indicarán también los motivos de la decisión. Se informará a los inte-         de derechos prestacionales, que respecto de los extranjeros son percibidos como una concesión graciosa del Estado
                                                resados de estos derechos antes de que se pronuncie la decisión o, a más tardar, en ese momento.                     que puede por ello revocarlos sin dar mayores explicaciones. Por tanto, no se debe olvidar, que en base al principio de
 
 ## 4. Salvo cuando una autoridad judicial dicte una decisión definitiva, los interesados tendrán derecho a expo-
 
-                                               ner las razones que les asistan para oponerse a su expulsión, así como a someter su caso a revisión ante la          igualdad y no discriminación, ante la falta de norma específica para migrantes, estos están sujetos a la normativa gene-
+**Definición Canónica:** ner las razones que les asistan para oponerse a su expulsión, así como a someter su caso a revisión ante la          igualdad y no discriminación, ante la falta de norma específica para migrantes, estos están sujetos a la normativa gene-
+                                               autoridad competente, a menos que razones imperiosas de seguridad nacional se opongan a ello. Hasta tanto            ral que regula el ejercicio de los derechos humanos -tanto a nivel internacional como constitucional26-, en especial los
+                                               se haga dicha revisión, tendrá
+**Concordancias Legales:** Artículo 22; constitucion
+
+ner las razones que les asistan para oponerse a su expulsión, así como a someter su caso a revisión ante la          igualdad y no discriminación, ante la falta de norma específica para migrantes, estos están sujetos a la normativa gene-
                                                autoridad competente, a menos que razones imperiosas de seguridad nacional se opongan a ello. Hasta tanto            ral que regula el ejercicio de los derechos humanos -tanto a nivel internacional como constitucional26-, en especial los
                                                se haga dicha revisión, tendrán derecho a solicitar que se suspenda la ejecución de la decisión de expulsión.
  Artículo 22 CTMF                              5. Cuando una decisión de expulsión ya ejecutada sea ulteriormente revocada, la persona interesada tendrá
@@ -1244,7 +1174,11 @@ Disposición internacional                     Texto de la norma
 
 ## 6. En caso de expulsión, el interesado tendrá oportunidad razonable, antes o después de la partida, para
 
-                                               arreglar lo concerniente al pago de los salarios y otras prestaciones que se le adeuden y al cumplimiento de         torias, en las que aún domina un enfoque de seguridad, debieran ser actualizadas en consideración de una perspectiva
+**Definición Canónica:** arreglar lo concerniente al pago de los salarios y otras prestaciones que se le adeuden y al cumplimiento de         torias, en las que aún domina un enfoque de seguridad, debieran ser actualizadas en consideración de una perspectiva
+                                               sus obligaciones pendientes.                                                                                         de protección de los derechos humanos, pues los migrantes no constituyen una “clase” de personas, que merezcan por
+                                               7. Sin perjuicio de la ejecución de una 
+
+arreglar lo concerniente al pago de los salarios y otras prestaciones que se le adeuden y al cumplimiento de         torias, en las que aún domina un enfoque de seguridad, debieran ser actualizadas en consideración de una perspectiva
                                                sus obligaciones pendientes.                                                                                         de protección de los derechos humanos, pues los migrantes no constituyen una “clase” de personas, que merezcan por
                                                7. Sin perjuicio de la ejecución de una decisión de expulsión, el trabajador migratorio o familiar suyo que sea
                                                objeto de ella podrá solicitar autorización de ingreso en un Estado que no sea su Estado de origen.
@@ -1254,13 +1188,21 @@ Disposición internacional                     Texto de la norma
 
 ## 9. La expulsión del Estado de empleo no menoscabará por sí sola ninguno de los derechos que haya adqui-
 
-                                               rido de conformidad con la legislación de ese Estado un trabajador migratorio o un familiar suyo, incluido el        A continuación, se sistematizan los derechos humanos que requieren de una especial atención tratándose de personas
+**Definición Canónica:** rido de conformidad con la legislación de ese Estado un trabajador migratorio o un familiar suyo, incluido el        A continuación, se sistematizan los derechos humanos que requieren de una especial atención tratándose de personas
+                                               derecho a recibir los salarios y otras prestaciones que se le adeuden.                                               migrantes, de acuerdo con los estándares internacionales que se han ido desarrollando ya hace algunas décadas en la
+                                                                                        
+
+rido de conformidad con la legislación de ese Estado un trabajador migratorio o un familiar suyo, incluido el        A continuación, se sistematizan los derechos humanos que requieren de una especial atención tratándose de personas
                                                derecho a recibir los salarios y otras prestaciones que se le adeuden.                                               migrantes, de acuerdo con los estándares internacionales que se han ido desarrollando ya hace algunas décadas en la
                                                                                                                                                                     materia, en dos partes. La primera, agrupa a aquellos derechos fundamentales que son comunes a todas las personas,
 
 ## 1. Toda persona que se halle legalmente en el territorio de un Estado tiene derecho a circular por el mismo
 
-                                               y, a residir en él con sujeción a las disposiciones legales.                                                         pero que en relación con los migrantes adquieren una vital importancia; la segunda, se refiere a los derechos humanos
+**Definición Canónica:** y, a residir en él con sujeción a las disposiciones legales.                                                         pero que en relación con los migrantes adquieren una vital importancia; la segunda, se refiere a los derechos humanos
+                                               2. Toda persona tiene derecho a salir libremente de cualquier país, inclusive del propio.                            que protegen especialmente a las personas migrantes (ver Tabla No. 13).
+                                               3. El ejercicio de los derechos anteriores no puede ser restringido sino en virtud
+
+y, a residir en él con sujeción a las disposiciones legales.                                                         pero que en relación con los migrantes adquieren una vital importancia; la segunda, se refiere a los derechos humanos
                                                2. Toda persona tiene derecho a salir libremente de cualquier país, inclusive del propio.                            que protegen especialmente a las personas migrantes (ver Tabla No. 13).
                                                3. El ejercicio de los derechos anteriores no puede ser restringido sino en virtud de una ley, en la medida indis-
                                                pensable en una sociedad democrática, para prevenir infracciones penales o para proteger la seguridad na-
@@ -1268,24 +1210,35 @@ Disposición internacional                     Texto de la norma
 
 ## 4. El ejercicio de los derechos reconocidos en el inciso 1 puede asimismo ser restringido por la ley, en zonas
 
-                                               determinadas, por razones de interés público.                                                                           Derechos comunes a todas las personas, y especial-    1. Principio rector: derecho a la igualdad y no discriminación
+**Definición Canónica:** determinadas, por razones de interés público.                                                                           Derechos comunes a todas las personas, y especial-    1. Principio rector: derecho a la igualdad y no discriminación
+                                               5. Nadie puede ser expulsado del territorio del Estado del cual es nacional, ni ser privado del derecho a in-           mente relevantes para la integración de los migran-   2. Derechos sociales
+ Artículo 22 CADH                              gresar en el mismo.                                                       
+**Concordancias Legales:** Artículo 22
+
+determinadas, por razones de interés público.                                                                           Derechos comunes a todas las personas, y especial-    1. Principio rector: derecho a la igualdad y no discriminación
                                                5. Nadie puede ser expulsado del territorio del Estado del cual es nacional, ni ser privado del derecho a in-           mente relevantes para la integración de los migran-   2. Derechos sociales
  Artículo 22 CADH                              gresar en el mismo.                                                                                                     tes en los Estados de acogida                         3. Derechos políticos
 
-## 6. El extranjero que se halle legalmente en el territorio de un Estado parte en la presente Conven-
-
-                                               ción, sólo podrá ser expulsado de él en cumplimiento de una decisión adoptada conforme a la ley.
-
 ## 7. Toda persona tiene el derecho de buscar y recibir asilo en territorio extranjero en caso de persecución por
 
-                                                                                                                                                                       Derechos que protegen específicamente a personas      1. Debido proceso y otras salvaguardas en caso de procedimientos de expulsión
+**Definición Canónica:** Derechos que protegen específicamente a personas      1. Debido proceso y otras salvaguardas en caso de procedimientos de expulsión
+                                               delitos políticos o comunes conexos con los políticos y de acuerdo con la legislación de cada Estado y los
+                                                                                                                                                                       migrantes                                             2. Derecho a la reunificación o reagrupación familiar
+                                       
+
+Derechos que protegen específicamente a personas      1. Debido proceso y otras salvaguardas en caso de procedimientos de expulsión
                                                delitos políticos o comunes conexos con los políticos y de acuerdo con la legislación de cada Estado y los
                                                                                                                                                                        migrantes                                             2. Derecho a la reunificación o reagrupación familiar
                                                convenios internacionales.
 
 ## 8. En ningún caso el extranjero puede ser expulsado o devuelto a otro país, sea o no de origen, donde su
 
-                                               derecho a la vida o a la libertad personal está en riesgo de violación a causa de raza, nacionalidad, religión,
+**Definición Canónica:** derecho a la vida o a la libertad personal está en riesgo de violación a causa de raza, nacionalidad, religión,
+                                               condición social o de sus opiniones políticas.
+                                               9. Es prohibida la expulsión colectiva de extranjeros.
+**Concordancias Legales:** Artículo 1.1; Artículo 7; Artículo 1; Artículo 2.1; Artículo 26
+
+derecho a la vida o a la libertad personal está en riesgo de violación a causa de raza, nacionalidad, religión,
                                                condición social o de sus opiniones políticas.
                                                9. Es prohibida la expulsión colectiva de extranjeros.
 
@@ -1345,7 +1298,13 @@ Disposición internacional                Texto de la norma
 
 ## 1. Los Estados Partes en esta Convención se comprometen a respetar los derechos y libertades reconocidos
 
-                                          en ella y a garantizar su libre y pleno ejercicio a toda persona que esté sujeta a su jurisdicción, sin discrimi-
+**Definición Canónica:** en ella y a garantizar su libre y pleno ejercicio a toda persona que esté sujeta a su jurisdicción, sin discrimi-
+ Art. 1 CADH 1969
+                                          nación alguna por motivos de raza, color, sexo, idioma, religión, opiniones políticas o de cualquier otra índole,
+                                          origen nacional o social, posición económica, nacimiento o cualquier otra condición social.                          28.- PISARELLO (2006), p. 23.
+                                           2. Para los efectos de esta Convención, persona es todo ser humano.             
+
+en ella y a garantizar su libre y pleno ejercicio a toda persona que esté sujeta a su jurisdicción, sin discrimi-
  Art. 1 CADH 1969
                                           nación alguna por motivos de raza, color, sexo, idioma, religión, opiniones políticas o de cualquier otra índole,
                                           origen nacional o social, posición económica, nacimiento o cualquier otra condición social.                          28.- PISARELLO (2006), p. 23.
@@ -1360,7 +1319,10 @@ Disposición internacional                Texto de la norma
 
 ## 1.2.4.1.2. Derechos sociales
 
-                                                                                                                                                                                                     Derecho                                                             Disposiciones internacionales aplicables
+**Definición Canónica:** Derecho                                                             Disposiciones internacionales aplicables
+**Concordancias Legales:** artículo 22.9 de la CADH; artículo 7; Constitucion; constitución
+
+Derecho                                                             Disposiciones internacionales aplicables
 
 Los migrantes son titulares de derechos sociales, independiente de la situación de regularidad en el país de acogida, pues
                                                                                                                                                                                                       Acceso a prestaciones básicas de salud (asistencia sani-             DUDH, 1948, art. 25; CEDR, 1965, art. 5.e.iv; PIDESC, 1966, art. 12; CteDESC, OG No.14 sobre el derecho al
@@ -1478,7 +1440,12 @@ tienen la obligación de velar por que sus procedimientos de expulsión ofrezcan
 
 ## 1.2.5.1. Niñez migrante
 
-                                                 de disolución, se adoptarán disposiciones que aseguren la protección necesaria de los hijos, sobre la base única del interés y
+**Definición Canónica:** de disolución, se adoptarán disposiciones que aseguren la protección necesaria de los hijos, sobre la base única del interés y
+                                                 conveniencia de ellos.                                                                                                                                      Los niños han sido reconocidos como un grupo humano que requiere de especial protección. Así, el artículo 20 de la
+                                                 5. La ley debe reconocer iguales derechos tanto a los hijos nacidos fuera de matrimonio como a los nacid
+**Concordancias Legales:** artículo 20
+
+de disolución, se adoptarán disposiciones que aseguren la protección necesaria de los hijos, sobre la base única del interés y
                                                  conveniencia de ellos.                                                                                                                                      Los niños han sido reconocidos como un grupo humano que requiere de especial protección. Así, el artículo 20 de la
                                                  5. La ley debe reconocer iguales derechos tanto a los hijos nacidos fuera de matrimonio como a los nacidos dentro del mismo.
                                                                                                                                                                                                              Convención sobre los Derechos del Niño de 1989 señala que:
@@ -1522,6 +1489,10 @@ cance de la perturbación en la vida diaria del niño si cambiara su situación 
 del niño en relación con el interés público imperativo que su busca proteger.63
 
 ## 1.2.5.2. Víctimas de trata o tráfico de personas
+
+**Definición Canónica:** De este modo, el niño debe permanecer en su núcleo familiar, salvo que existan razones determinantes, en función del
+interés superior de aquél, para optar por separarlo de su familia. Por consiguiente, las separaciones legales de un menor         La trata de personas, principalmente de mujeres y niños, con fines de explotación sexual o laboral, es un fenómeno
+de su familia solo pueden proceder si están debidamente justificadas en el interés superior del niño, son excepcionales           transnacional, criminal y organizado, que afecta directamente los derechos humanos de las víctimas. Por su p
 
 De este modo, el niño debe permanecer en su núcleo familiar, salvo que existan razones determinantes, en función del
 interés superior de aquél, para optar por separarlo de su familia. Por consiguiente, las separaciones legales de un menor         La trata de personas, principalmente de mujeres y niños, con fines de explotación sexual o laboral, es un fenómeno
@@ -1570,10 +1541,12 @@ equiparado a un transeúnte o a una persona en tránsito.74                     
                                                                                                                                                                                                                        zado de sus peticiones.80 En consecuencia, cuando un extranjero alegue ante un Estado un riesgo en caso de devolución,
                                                                                                                                                                                                                        las autoridades competentes de ese Estado deberán, al menos, entrevistar a la persona y realizar una evaluación previa
 
-
 ## 2. El estatuto especial de los solicitantes de asilo y
 
-                                                                                                                                                                                                                       o preliminar, a efectos de determinar si existe o no ese riesgo en caso de expulsión. Esto implica respetar las garantías
+**Definición Canónica:** o preliminar, a efectos de determinar si existe o no ese riesgo en caso de expulsión. Esto implica respetar las garantías
+                                                                                                                                                                                                                       mínimas referidas, como parte de la debida oportunidad de exponer las razones que lo asistan en contra de su expul-
+
+o preliminar, a efectos de determinar si existe o no ese riesgo en caso de expulsión. Esto implica respetar las garantías
                                                                                                                                                                                                                        mínimas referidas, como parte de la debida oportunidad de exponer las razones que lo asistan en contra de su expul-
 
    refugiados
@@ -1634,18 +1607,25 @@ el reasentamiento o la integración social, de acuerdo con el interés superior 
 
 UNIDAD III:
 
-
 ## La política migratoria chilena
 
-
-UNIDAD III:                                                1. Las fuentes legales y administrativas que regulan la
+**Definición Canónica:** UNIDAD III:                                                1. Las fuentes legales y administrativas que regulan la
                                                               migración
 LA POLÍTICA                                                El Decreto Ley No. 1.094 de 1975, es la ley chilena sobre migraciones la cual establece normas sobre extranjeros en Chi-
 
+UNIDAD III:                                                1. Las fuentes legales y administrativas que regulan la
+                                                              migración
+LA POLÍTICA                                                El Decreto Ley No. 1.094 de 1975, es la ley chilena sobre migraciones la cual establece normas sobre extranjeros en Chi-
 
 ## Migratoria chilena
 
-                                                           le, principalmente, trata sobre las normas relativas a ingreso y permanencia en el país de extranjeros, tipos de visados,
+**Definición Canónica:** le, principalmente, trata sobre las normas relativas a ingreso y permanencia en el país de extranjeros, tipos de visados,
+                                                           infracciones y sanciones administrativas y causales de expulsión; es de antigua data y concebida bajo un paradigma en
+                                                           el cual predomina la seguridad nacional, en consecuencia, carece del reconocimiento de los derechos de las personas
+                                                           migrantes en consonancia con los cánones desarrollados en el derech
+**Concordancias Legales:** constitucion
+
+le, principalmente, trata sobre las normas relativas a ingreso y permanencia en el país de extranjeros, tipos de visados,
                                                            infracciones y sanciones administrativas y causales de expulsión; es de antigua data y concebida bajo un paradigma en
                                                            el cual predomina la seguridad nacional, en consecuencia, carece del reconocimiento de los derechos de las personas
                                                            migrantes en consonancia con los cánones desarrollados en el derecho internacional de los derechos humanos. Se tra-
@@ -1659,10 +1639,16 @@ extranjería y migratorio chileno.                          derechos humanos, ta
                                                            cuarlos a los estándares internacionales: Ley No. 20.430 y Ley No. 20.507, respectivamente. En los acápites siguientes
                                                            hemos sistematizado los principales contenidos de la Ley.
 
-
 ## 2. Las diversas calidades migratorias de los extranjeros
 
-                                                              en Chile
+**Definición Canónica:** en Chile
+                                                           De acuerdo con la sistematización realizada por el Departamento de Extranjería y Migración (ver Figura No. 12) es posi-
+                                                           ble clasificar las calidades migratorias en tres grandes grupos: a) Quienes permanecen en el territorio por un lapso tem-
+                                                           poral corto o transitorio, por lo que son no residentes, entre los cuales podemos considerar a quienes visitan el país por
+                                                 
+**Concordancias Legales:** DL 1094; Constitucion
+
+en Chile
                                                            De acuerdo con la sistematización realizada por el Departamento de Extranjería y Migración (ver Figura No. 12) es posi-
                                                            ble clasificar las calidades migratorias en tres grandes grupos: a) Quienes permanecen en el territorio por un lapso tem-
                                                            poral corto o transitorio, por lo que son no residentes, entre los cuales podemos considerar a quienes visitan el país por
@@ -1686,10 +1672,12 @@ extranjería y migratorio chileno.                          derechos humanos, ta
                                                            5.- Las residencias oficiales están destinadas a los miembros del Cuerpo Diplomático y Consular acreditados ante el gobierno y los de organizaciones internaciones reconocidas por Chile, otorgada
                                                            exclusivamente por el Ministerio de Relaciones Exteriores. Ver arts. 19 a 21 del DL 1094 de 1975.
 
-
 ## 3. Los permisos de residencia
 
-                                                Figura No. 12. Calidades o categorías migratorias en Chile
+**Definición Canónica:** Figura No. 12. Calidades o categorías migratorias en Chile
+**Concordancias Legales:** artículos 22; artículo 50 del Reglamento especifica en un listado en qué ca; artículo 51; artículo 2; artículos 23; artículos 35; artículos 27; artículos 29; artículo 33 del DL 1094; artículo 33 bis del DL 1094; artículos 34; DL 1094; DL 1.094
+
+Figura No. 12. Calidades o categorías migratorias en Chile
 
                                                                                                                                                     Los residentes, quienes tienen esta intención de permanecer en el país en el mediano y largo plazo, deben tramitar ante el
                                                                                                                                                     DEM su solicitud de visación temporal o definitiva, según corresponda, a fin de tener su situación migratoria regularizada.
@@ -1745,6 +1733,10 @@ Visa por motivos laborales14 (ya no se encuentra vigente, derogada en Piñera II
 
 ## De orientación internacional                                            de oportunidades
 
+**Definición Canónica:** Visa por unión civil.16
+                                                                                                                                                                                                                Visa de Orientación Internacional:                       Visa de Oportunidades:
+                                                                                                                                                                                                                Profesionales con postgrados en algunas de las           Visa con foco en áreas 
+
 Visa por unión civil.16
                                                                                                                                                                                                                 Visa de Orientación Internacional:                       Visa de Oportunidades:
                                                                                                                                                                                                                 Profesionales con postgrados en algunas de las           Visa con foco en áreas prioritarias y criterios terriVisa temporaria para niños, niñas y adolescentes.17                                                                                                                                                             150 mejores instituciones académicas extranje-           toriales para personas que quieran venir a nuestro
@@ -1758,6 +1750,10 @@ Visas consulares. Aquellas cuya solicitud se realiza exclusivamente a través de
 Ministerio de Relaciones Exteriores de Chile. Ver Figura No. 13.                                                                                                                                                             REUNIFICACIÓN                                    DEMOCRÁTICA VENEZUELA
 
 ## Familiar haití
+
+**Definición Canónica:** 7.1) Visa de Oportunidades: orientada a los migrantes de todos los países que quieran venir a nuestro país a emprender y trabajar, en especial en el área de la salud o de la transformación digital.20                                                                                                                            Con el interés de contribuir a la reunificación          Esta visa sólo podrá ser solicitada en los consulados
+                                                                                                                                                                      
+**Concordancias Legales:** artículos 27; artículos 29; artículo 50; artículos 19; artículos 34; artículos 41; artículo 15; Artículo 63 del DL 1094 de 1975. El Decreto Ley No. 1.094 de; artículo 13; artículo 63; DL 1.094; DL 1094
 
 7.1) Visa de Oportunidades: orientada a los migrantes de todos los países que quieran venir a nuestro país a emprender y trabajar, en especial en el área de la salud o de la transformación digital.20                                                                                                                            Con el interés de contribuir a la reunificación          Esta visa sólo podrá ser solicitada en los consulados
                                                                                                                                                                                                                 familiar de los ciudadanos haitianos, el Gobierno        de Chile en Venezuela. Confiere un permiso de resi7.2) Visa de Orientación Internacional: orientada a aquellos extranjeros que deseen emprender y trabajar en nuestro                                                                                             de Chile establece un visado de 1 año, prorro-           dencia temporaria por un año, prorrogable. Luego del
@@ -1889,10 +1885,13 @@ previo informe de Policía de Investigaciones.27
 
                                                                                                                                                                                                                                     b) Visado otorgado en Chile                                                 En contravención del artículo 63 (Rechazo imperativo de visados) Ver Tabla No. 18.
 
-
 ## 4. Rechazos o revocación de visas, medidas de
 
-   abandono y otras causales de expulsión
+**Definición Canónica:** abandono y otras causales de expulsión
+                                                                                                                                                                                                                                                                                                                (c.1) que ejecuten actos contrarios a los intereses de Chile o constituyan un peligro para el Estado;
+**Concordancias Legales:** artículos 63; artículo 67; Artículo 65 del DL 1094 de 1975. En el Decreto Ley No. 1094; artículo 15 del DL 1094 de 1975 son las siguientes; artículo 19; artículo 51 del Reglamento; artículo 15; artículo 63; Artículo 64; Artículos 64; Artículo 67 del Decreto Ley NO.1094 de 1975; Artículo 65; Artículo 63 del Decreto Ley 1094 de 1975; Artículo 66 del Decreto Ley 1094 de 1975; artículo 68; artículo 69; artículo 75; artículo 71; artículo 72; artículo 80; artículo 82; Ley 1094; DL 1094; Constitucion; Constitución
+
+abandono y otras causales de expulsión
                                                                                                                                                                                                                                                                                                                 (c.1) que ejecuten actos contrarios a los intereses de Chile o constituyan un peligro para el Estado;
 
                                                                                                                                                                                                                                                                                                                 (c.2) que se dediquen al tráfico ilícito de drogas o armas, al contrabando, al tráfico ilegal de migrantes y trata
@@ -2018,10 +2017,14 @@ a la medida facultativa de expulsión.
                                                                                    tan vivir en Chile sin constituir carga social;
                                                                                                                                                                                                            (No.7) no cumplan con los requisitos de ingreso establecidos en la normativa de migración vigente, y
 
-
 ## 5. Las prohibiciones e impedimentos de ingreso
 
-                                                                                                                                                                                                           (No.8) encontrándose fuera del territorio nacional, hayan prescrito las acciones penales o las penas correspondientes
+**Definición Canónica:** (No.8) encontrándose fuera del territorio nacional, hayan prescrito las acciones penales o las penas correspondientes
+                                                                                                                                                                                                           a algunos de los siguientes delitos en los que hubieran incurrido: (a) ingreso o intento de egreso, valiéndose de docu-
+                                                                                                                                                               
+**Concordancias Legales:** artículos 24; artículo 2; artículo 16 del Decreto Ley en comento; artículos 15; artículo 10; Artículo 17 del Decreto Ley No.1094 de 1975; artículo 15
+
+(No.8) encontrándose fuera del territorio nacional, hayan prescrito las acciones penales o las penas correspondientes
                                                                                                                                                                                                            a algunos de los siguientes delitos en los que hubieran incurrido: (a) ingreso o intento de egreso, valiéndose de docu-
                                                                                                                                                                                                            mentos falsificados, adulterados o expedidos a nombre de otra persona o hagan uso de ellos durante su residencia; (b)
 El Reglamento de Extranjería de 1984 en sus artículos 24 y 25 establece que el Ministerio del Interior resuelve la pro-                                                                                    ingreso o intento de egreso clandestino; (c) ingreso existiendo a su respecto causales de impedimento o prohibición.
@@ -2040,10 +2043,13 @@ que durante su residencia incurran en alguno de los actos u omisiones señalados
 35.- DÍAZ (2016), p. 190.                                                                                                                                                                                  escrita de uno de ellos o del Tribunal competente, debidamente refrendada por autoridad chilena.
 36.- DÍAZ (2016), p. 189.
 
-
 ## 6. La migración irregular, el ingreso clandestino y otras
 
-                                                                                                                                                                                                los que prolongan su permanencia con permiso de turismo vencido38. Lo cual es sancionado con multa de 1 a 20 suel-
+**Definición Canónica:** los que prolongan su permanencia con permiso de turismo vencido38. Lo cual es sancionado con multa de 1 a 20 suel-
+                                                                                                                                                                                                dos vitales39, sin perjuicio de que pueda disponerse su abandono obligado del país o su expulsión (artículo 71). En el
+**Concordancias Legales:** artículo 71; artículo 84; artículo 68; artículo 69; artículo 87; artículo 75; artículo 71 del Decreto Ley en comento incluye el caso del tu; artículo 99 del Reglamento 5. Extranjeros que continúan resid; artículo 114 del Reglamento de Extranjería
+
+los que prolongan su permanencia con permiso de turismo vencido38. Lo cual es sancionado con multa de 1 a 20 suel-
                                                                                                                                                                                                 dos vitales39, sin perjuicio de que pueda disponerse su abandono obligado del país o su expulsión (artículo 71). En el
 
    infracciones migratorias
@@ -2096,25 +2102,15 @@ consular, u otro similar con una finalidad migratoria, por ejemplo, pedir visaci
 
      UNIDAD IV:
 
-
-## Las vías de reclamación
-
-     CONTRA EXPULSIONES EN CHILE:
-
-## Administrativas y judicial
-
-
-UNIDAD IV:
-
-## 1. Los recursos administrativos de reclamación contra
-
-                                                                     expulsiones
-LAS VÍAS DE                                                       La primera vía de reclamación que tienen los migrantes que se encuentren en situación de expulsión es la administra-
-
-
 ## Reclamación contra
 
-                                                                  tiva, sea que esta medida haya sido impuesta como consecuencia de un rechazo o revocación de un visado o sea una
+**Definición Canónica:** tiva, sea que esta medida haya sido impuesta como consecuencia de un rechazo o revocación de un visado o sea una
+                                                                  sanción a una infracción migratoria (ver causales de expulsión en Tabla No. 12). Luego por aplicación de la Ley de Bases
+                                                                  Generales de Procedimientos Administrativos, Ley No. 19.880 de 2003, proceden en contra de la orden de expulsión
+                                                                  los recursos de: invalidación, reposición, jerárquico y
+**Concordancias Legales:** artículo 89 del Decreto Ley No; artículo 89; artículos 53; artículo 84 inciso 2; Constitucion
+
+tiva, sea que esta medida haya sido impuesta como consecuencia de un rechazo o revocación de un visado o sea una
                                                                   sanción a una infracción migratoria (ver causales de expulsión en Tabla No. 12). Luego por aplicación de la Ley de Bases
                                                                   Generales de Procedimientos Administrativos, Ley No. 19.880 de 2003, proceden en contra de la orden de expulsión
                                                                   los recursos de: invalidación, reposición, jerárquico y extraordinario de revisión.1.
@@ -2187,7 +2183,10 @@ terminaron sin ser conocidos por la Corte Suprema (ver Tabla No. 24).           
 
 ## 2.2. La acción de amparo constitucional como vía de reclamación en contra de
 
-                         2010                          11                           8                             3                             22
+**Definición Canónica:** 2010                          11                           8                             3                             22
+**Concordancias Legales:** artículo 89 del Decreto Ley No. 1.094 de 1975; artículo 89 del Decreto Ley No.1094 de 1975; DL 1094; constitucion
+
+2010                          11                           8                             3                             22
 
                          2011                          9                            13                            3                             25                                                                  todo tipo de expulsión
                          2012                          8                            15                            1                             24
@@ -2234,10 +2233,12 @@ Luego, si los casos de amparo los agrupamos de acuerdo con su resultado en recha
 
                        Tabla No. 27. Acciones de amparo constitucional, en casos de expulsión,
 
-
 ## 3. El desarrollo de criterios jurisprudenciales de los
 
-                            período 2008-2018, clasificadas de acuerdo con su resultado
+**Definición Canónica:** período 2008-2018, clasificadas de acuerdo con su resultado
+**Concordancias Legales:** artículo 5; Constitución
+
+período 2008-2018, clasificadas de acuerdo con su resultado
 
                                                                                                                                 tribunales superiores de justicia
                                       Rechazados              Acogidos            Total
@@ -2271,7 +2272,14 @@ Luego, si los casos de amparo los agrupamos de acuerdo con su resultado en recha
 
 ## 3.1. Aplicación de la Convención Americana sobre Derechos Humanos
 
-                                                                                                     Total de amparos a
+**Definición Canónica:** Total de amparos a
+                                           Aplica DI                % respecto del total
+                                                                                                     cogidos
+                                                                                                                          La CADH9, aplicable en virtud del artículo 5 inciso 2° de la Constitución Política de la República, ha sido expresamente
+                    2011                   1                        100%                             1                    invocada por los t
+**Concordancias Legales:** artículo 5 inciso 2; artículos 7; Constitución Política
+
+Total de amparos a
                                            Aplica DI                % respecto del total
                                                                                                      cogidos
                                                                                                                           La CADH9, aplicable en virtud del artículo 5 inciso 2° de la Constitución Política de la República, ha sido expresamente
@@ -2283,7 +2291,14 @@ Luego, si los casos de amparo los agrupamos de acuerdo con su resultado en recha
 
 ## 3.1.1. Artículo 22 sobre derecho de circulación y de residencia (legalidad y motivación de la medi-
 
-                    2014                   3                        20%                              15
+**Definición Canónica:** 2014                   3                        20%                              15
+                                                                                                                                 da de expulsión)
+                    2015                   10                       29%                              34
+                                                                                                                          El artículo 22 de la CADH sobre derecho de circulación y residencia, en su numeral 6° señala que los extranjeros pue-
+                    2016  
+**Concordancias Legales:** artículo 22 de la CADH sobre derecho de circulación y residenci
+
+2014                   3                        20%                              15
                                                                                                                                  da de expulsión)
                     2015                   10                       29%                              34
                                                                                                                           El artículo 22 de la CADH sobre derecho de circulación y residencia, en su numeral 6° señala que los extranjeros pue-
@@ -2302,13 +2317,14 @@ Luego, si los casos de amparo los agrupamos de acuerdo con su resultado en recha
                                                        Frecuencia                          % respecto del total           carga social para el Estado. ¿Se le va a expulsar igualmente? ¿Se puede afirmar en tal caso que la medida de expulsión
                                                                                                                           fue adoptada de conformidad a la ley?
 
-## Dudh                               1                                   1,8%
-
-                                                                                                                          ¿Cómo se comprueba la concurrencia de las circunstancias que configuran la causal legal de expulsión? ¿Puede la au-
-
 ## PIDCP y CTMF                       1                                   1,8%
 
-                                                                                                                          toridad administrativa hacer calificaciones acerca de circunstancias que normalmente corresponde determinar a un
+**Definición Canónica:** toridad administrativa hacer calificaciones acerca de circunstancias que normalmente corresponde determinar a un
+                    Acuerdo Mercosur                   1                                   1,8%                           tribunal de justicia? Por ejemplo, veracidad o falsedad de declaraciones, comisión de delitos.11
+                    Tratados                           2                                   3,5%
+                                                                                                                          ¿Cómo se interpretan los conceptos jurídicos abier
+
+toridad administrativa hacer calificaciones acerca de circunstancias que normalmente corresponde determinar a un
                     Acuerdo Mercosur                   1                                   1,8%                           tribunal de justicia? Por ejemplo, veracidad o falsedad de declaraciones, comisión de delitos.11
                     Tratados                           2                                   3,5%
                                                                                                                           ¿Cómo se interpretan los conceptos jurídicos abiertos o indeterminados para evitar configuren arbitrariedad adminis-
@@ -2316,8 +2332,12 @@ Luego, si los casos de amparo los agrupamos de acuerdo con su resultado en recha
 
 ## Cadh                               7                                   13%
 
+**Definición Canónica:** CDN                                39                                  71%                            9.- Ratificada el 10 de agosto de 1990, fue promulgada en Chile por Decreto Supremo No.873, publicado en el Diario Oficial, el 5 de enero de 1991.
+                                                                                                                          10.- Cfr. DÍAZ (2016a), pp. 196-201, especialmente artículo 13 PIDCP, artículo 22.6 CADH, artículo 22 CTMF, Observación General del Comité de Derechos Humanos: NO.15 de 1986, párrs. 9 y 10, No.27 de 1999,
+                    Tota
+**Concordancias Legales:** artículo 13; artículo 22.6; artículo 22; artículos 4; Artículo 78 del Decreto en comento señala al respecto que; artículo 15; artículo 22 de la CADH. Nuestras cortes han examinado la utilid; artículo 22 de la CADH.24 senta condena por delito de falsedad; Artículo 7; artículo 7 de la CADH.25 Luego; artículo 17 del DL 1094 en relación con el artículo 15 No.2; artículos 164; Artículo 8; artículo 8 de la CADH; artículo 78 del Decreto Ley No.1094 de 1975; Artículo 84 inciso 1; artículo 22 de la CADH; artículo 5 inciso 2; artículos 3; Artículo 17; DL 1094; Constitución Política
 
-                    CDN                                39                                  71%                            9.- Ratificada el 10 de agosto de 1990, fue promulgada en Chile por Decreto Supremo No.873, publicado en el Diario Oficial, el 5 de enero de 1991.
+CDN                                39                                  71%                            9.- Ratificada el 10 de agosto de 1990, fue promulgada en Chile por Decreto Supremo No.873, publicado en el Diario Oficial, el 5 de enero de 1991.
                                                                                                                           10.- Cfr. DÍAZ (2016a), pp. 196-201, especialmente artículo 13 PIDCP, artículo 22.6 CADH, artículo 22 CTMF, Observación General del Comité de Derechos Humanos: NO.15 de 1986, párrs. 9 y 10, No.27 de 1999,
                     Total                              55                                  100%                           párrs. 13 y 14; CtIDH: serie C No.282, de 28 de agosto de 2014; serie C No.272, 25 de noviembre de 2013; serie C No.251, de 24 de octubre 2012; serie C No.218, de 23 noviembre 2010; serie A No.18, de 17 de septiem-
                                                                                                                           bre de 2003; Observación General No.2 del Comité de Protección de los Derechos de Todos los Trabajadores Migratorios y de sus Familiares de 2013, párrs. 49 a 59. Proyecto de artículos sobre expulsión de extranjeros
@@ -2401,6 +2421,12 @@ la CADH sobre protección de la familia, en tanto el No.1 establece que “[l]a 
 
 ## Dl 1094)
 
+**Definición Canónica:** A continuación, en la Tabla No. 30 se presenta un cuadro resumen sobre los criterios jurisprudenciales que han ido
+                                                                                                                                                                                                            29                                                       5                                                        5
+desarrollando los tribunales de justicia chilenos para acoger acciones de amparo en contra de decretos de expulsión,
+fundados en la aplicación de disposiciones de la
+**Concordancias Legales:** artículo 17; Artículo 22; Artículo 7; Artículo 8; artículo 15; artículo 68; DL 1094
+
 A continuación, en la Tabla No. 30 se presenta un cuadro resumen sobre los criterios jurisprudenciales que han ido
                                                                                                                                                                                                             29                                                       5                                                        5
 desarrollando los tribunales de justicia chilenos para acoger acciones de amparo en contra de decretos de expulsión,
@@ -2472,7 +2498,11 @@ proporcionalidad y fundamentación propias de una decisión no arbitraria (ver T
 
 ## 3.2.1. Casos de incorporación de la CDN como obiter dictum
 
-                                                                                                                                                                                                                         Finalmente, respecto de casos analizados que versan sobre causales de expulsión imperativas por revocación del perEn los casos en los cuales el uso de la CDN es parte de las consideraciones complementarias o adicionales (72 % de los casos),                                                                                           miso de residencia (art. 67 del DL 1094), siendo esta revocación facultativa (art. 64 DL 1094), el motivo principal para
+**Definición Canónica:** Finalmente, respecto de casos analizados que versan sobre causales de expulsión imperativas por revocación del perEn los casos en los cuales el uso de la CDN es parte de las consideraciones complementarias o adicionales (72 % de los casos),                                                                                           miso de residencia (art. 67 del DL 1094), siendo esta revocación facultativa (art. 64 DL 1094), el motivo principal para
+se alude al interés superior del niño como derrotero sine qua non en todos los asuntos y decisiones en que deban intervenir                         
+**Concordancias Legales:** artículo 9 de la CDN; DL 1094
+
+Finalmente, respecto de casos analizados que versan sobre causales de expulsión imperativas por revocación del perEn los casos en los cuales el uso de la CDN es parte de las consideraciones complementarias o adicionales (72 % de los casos),                                                                                           miso de residencia (art. 67 del DL 1094), siendo esta revocación facultativa (art. 64 DL 1094), el motivo principal para
 se alude al interés superior del niño como derrotero sine qua non en todos los asuntos y decisiones en que deban intervenir                                                                                              acoger el amparo, en uno de los casos, es la desproporcionalidad y falta de justificación de la decisión de rechazo del
 las autoridades y órganos públicos, entre los cuales ciertamente los tribunales, nunca habrán de decidir sin considerarlo.                                                                                               permiso de residencia. Se trataba de un caso de solicitud de permiso de residencia sujeto a contrato de trabajo, por
 Luego, este interés se concreta en atención al artículo 9 de la CDN, el cual “obliga a cualquier esfuerzo para que el niño no se                                                                                         tener antecedentes penales en su país de origen, consistente en un delito de hurto calificado sancionado con 24 meses
@@ -2505,6 +2535,10 @@ Estado para mantenerse en Chile sin limitación en el tiempo.
                                                                                                                                                                                                                                                             1.1. Por falta de habitualidad del delito.
 
 ## 1.2. Por falta de gravedad del delito para tener la entidad
+
+**Definición Canónica:** En el 28 % de los casos, la CDN ya no se cita como un argumento en adición, sino se la considera en la ratio decidendi                                                                                                                                      de los descritos en el artículo 15 n.º 2 del DL 1094.           La autoridad administrativa al decretar la medida de expul-
+                                                                                                                                                                                                             Causal de expulsión
+**Concordancias Legales:** artículo 15; artículo 17; DL 1094; D.L. 1094; constitucion
 
 En el 28 % de los casos, la CDN ya no se cita como un argumento en adición, sino se la considera en la ratio decidendi                                                                                                                                      de los descritos en el artículo 15 n.º 2 del DL 1094.           La autoridad administrativa al decretar la medida de expul-
                                                                                                                                                                                                              Causal de expulsión facultativa del
@@ -2548,20 +2582,11 @@ No.6366-2013, párrs. 3-4; rol No.6649-2013, párrs. 4-5; rol No.2309-2015, pár
 
     05     UNIDAD V:
 
-
-## Los derechos
-
-
-## De las personas
-
-
-## Migrantes
-
-
-UNIDAD V:
-
-
 ## Los derechos de las personas migrantes
+
+**Definición Canónica:** Objetivo: Analizar el contenido y alcance de los derechos sociales de las personas migrantes, en general, y en particular
+del derecho a la reunificación familiar y de la protección especial de aquellos grupos migrantes más vulnerables.
+**Concordancias Legales:** artículo 19 de la Constitución; artículo 12 del PDESC; artículo 43 de la CTMF; artículo 24.1 de la CDN; artículo 45 de la CTMF; artículo 10 del PDESC; artículo 2; Ley 18.469; Ley 18.933; Ley 19.381; Ley 20.015; Ley 19.966; Ley 3501; constitucion; Constitución Política; Constitución
 
 Objetivo: Analizar el contenido y alcance de los derechos sociales de las personas migrantes, en general, y en particular
 del derecho a la reunificación familiar y de la protección especial de aquellos grupos migrantes más vulnerables.
@@ -2658,18 +2683,25 @@ CTMF (art. 28)                      Acceso a la atención médica de urgencia
 
 Fuentes nacionales
 
-
 ## ¿qué ocurre si estoy en situación irregular y no tengo recursos?
 
+**Definición Canónica:** Constitucionales                     Art. 19 No. 9. La Constitución asegura a todas las personas: El derecho a la protección de la salud (…).                   Las personas migrantes que no poseen cédula de identidad chilena (RUN) y que sean carentes de recursos, también podrán acceder en
+                                                                                                                                                                forma gratuita a las prestaciones de la red pública de salud, en igualdad de condiciones que los chilenos, quedando cubiertos bajo la catego-
+        
+**Concordancias Legales:** Constitucion; Constitución
 
 Constitucionales                     Art. 19 No. 9. La Constitución asegura a todas las personas: El derecho a la protección de la salud (…).                   Las personas migrantes que no poseen cédula de identidad chilena (RUN) y que sean carentes de recursos, también podrán acceder en
                                                                                                                                                                 forma gratuita a las prestaciones de la red pública de salud, en igualdad de condiciones que los chilenos, quedando cubiertos bajo la catego-
                                                                                                                                                                 ría de FONASA Tramo A.
 
-
 ## ¿cuáles son los establecimientos de salud pública a los que puedo acceder?
 
-                                    Las que regulan el Sistema Nacional Público de Atención de Salud, en especial:
+**Definición Canónica:** Las que regulan el Sistema Nacional Público de Atención de Salud, en especial:
+                                    Decreto Ley No. 2.763 regula el Sistema Nacional de Servicios de Salud
+                                    Ley No. 18.469 regula el ejercicio del derecho constitucional a la protección de la salud y crea un régimen de prestacio-   A todos aquellos centros de salud primaria, servicios de urgencia, postas y hospitales públicos (por tanto, se excluyen clínicas, centros médiLegales                             nes de salud                                                                
+**Concordancias Legales:** constitucion
+
+Las que regulan el Sistema Nacional Público de Atención de Salud, en especial:
                                     Decreto Ley No. 2.763 regula el Sistema Nacional de Servicios de Salud
                                     Ley No. 18.469 regula el ejercicio del derecho constitucional a la protección de la salud y crea un régimen de prestacio-   A todos aquellos centros de salud primaria, servicios de urgencia, postas y hospitales públicos (por tanto, se excluyen clínicas, centros médiLegales                             nes de salud                                                                                                                cos, laboratorios y consultas médicas privadas). Si usted requiere atención de salud y se encuentra en alguna de estas situaciones: - no tiene
                                     Ley No. 18.933, modificada por la Ley No. 19.381 y la Ley No. 20.015 que crea la Superintendencia de Instituciones          visa o permiso de residencia, y por tanto no tiene RUN, - no es beneficiario de ningún convenio que le dé derecho a asistencia médica, - no
@@ -2678,7 +2710,11 @@ Constitucionales                     Art. 19 No. 9. La Constitución asegura a t
 
 ## ¿cuáles son las prestaciones de salud a las que puedo acceder?
 
-                                    Acceso a la salud en la red pública:
+**Definición Canónica:** Acceso a la salud en la red pública:
+                                    General: Resolución Exenta No. 3.972 de 2007, Aprueba Convenio de Colaboración Técnica entre Ministerio del Inte-           En caso de urgencia médica que signifique un riesgo para su vida, usted tiene derecho a atención en cualquier establecimiento público o
+                                    rior y Seguridad Pública y el Fondo Nacional de Salud.                                                                      privado de salud, independientemente de que su situación migratoria sea irregular. Todas las personas migra
+
+Acceso a la salud en la red pública:
                                     General: Resolución Exenta No. 3.972 de 2007, Aprueba Convenio de Colaboración Técnica entre Ministerio del Inte-           En caso de urgencia médica que signifique un riesgo para su vida, usted tiene derecho a atención en cualquier establecimiento público o
                                     rior y Seguridad Pública y el Fondo Nacional de Salud.                                                                      privado de salud, independientemente de que su situación migratoria sea irregular. Todas las personas migrantes tienen derecho a acceder
                                     Refugiados: Convenio entre el FONASA y la Subsecretaría del Interior, aprobado por la Resolución Exenta No. 2.453 de        a prestaciones de salud pública como: métodos de regulación de fertilidad, controles nutricionales, vacunas, mamografías, Papanicolau,
@@ -2707,7 +2743,11 @@ Administrativas                                                                 
 
 ## 1.2. Educación
 
-                                                                                                                                                                                                                                                                                                           Educación
+**Definición Canónica:** Educación
+En esta materia, se debe tener en consideración el artículo 19 No. 10 de la Constitución                                                                                                                                                                                                                   Para Todos
+**Concordancias Legales:** artículo 19; artículo 13 del PDESC25; artículo 28.1 de la CDN; artículo 30 de la CTMF; artículo 2; artículo 3; Constitución; Constitución Política
+
+Educación
 En esta materia, se debe tener en consideración el artículo 19 No. 10 de la Constitución                                                                                                                                                                                                                   Para Todos
 
 sobre derecho a la educación, y que Chile se ha comprometido internacionalmente a                                                                         Ley General
@@ -2872,6 +2912,11 @@ nes y adultas (ver Figura No. 19). Este identificador se mantendrá vigente hast
 
 ## Ipe/ipa
 
+**Definición Canónica:** y se obtenga la cédula de identidad chilena, momento en el cual se deberá avisar a la institución escolar para remplazar el                                                                                                                  Sin RUN, sin
+                                                                                                                                                                                                                                            pasaporte, ni
+IPE por el RUN entregado por el Servicio de Registro Civil e Identificación.                        
+**Concordancias Legales:** Artículo 103; artículo 16; Constitucion; Constitución
+
 y se obtenga la cédula de identidad chilena, momento en el cual se deberá avisar a la institución escolar para remplazar el                                                                                                                  Sin RUN, sin
                                                                                                                                                                                                                                             pasaporte, ni
 IPE por el RUN entregado por el Servicio de Registro Civil e Identificación.                                                                                                                                                               documentación                            Regularizar                 Departamento de                                Solicitar cambio de
@@ -2971,8 +3016,13 @@ de Educación que plasma la Política Nacional de Estudiantes Extranjeros 2018-2
 En esta materia debemos destacar que el año 2015, por vía administrativa se había creado una visa temporal por mo-                                                                                            trabajo o enfermedades profesionales; formar o participar en organizaciones sindicales de trabajadores y negociar cotivos laborales, la cual se erigía como una alternativa con mejores características que la visa de residencia sujeta a                                                                                        lectivamente.49
 contrato43, desde el punto de vista de promover la situación regular de los migrantes. La persona solo requería un con-
 
-
 ## 2. El derecho a la reunificación familiar
+
+**Definición Canónica:** trato de trabajo suscrito en Chile, de acuerdo con la ley laboral chilena vigente (obligación de pago de sueldo mínimo,
+cumplimiento en el pago de cotizaciones de salud y previsión social), pero el empleador no tenía la obligación de pagar
+el o los pasajes de regreso del migrante y su familia a su país natal, al término de la relación laboral. Permiso por un año,
+prorrogable.44 Sin embargo, esta visa fue eliminada el año 2018.45                                                                                                                                            Si bien la Constitución chil
+**Concordancias Legales:** artículo 1; artículo 45; artículo 49; artículo 3; artículo 4; artículo 19; artículos 3; artículo 10; artículo 11; artículo 125; artículo 131; artículos 23; DL 1094; Constitución; constitucion
 
 trato de trabajo suscrito en Chile, de acuerdo con la ley laboral chilena vigente (obligación de pago de sueldo mínimo,
 cumplimiento en el pago de cotizaciones de salud y previsión social), pero el empleador no tenía la obligación de pagar
@@ -3017,29 +3067,12 @@ laborales y derechos fundamentales en el trabajo.                               
 
 UNIDAD VI:
 
-
-## Examen de compatibilidad entre
-
-
-## Los estándares internacionales
-
-
-## Sobre migración y el sistema
-
-
-## Jurídico chileno
-
-
-UNIDAD VI:
-
-
-## Examen de compatibilidad entre los
-
-
-## Estándares internacionales sobre
-
-
 ## Migración y el sistema jurídico chileno
+
+**Definición Canónica:** Objetivo: Efectuar un examen de compatibilidad entre los estándares internacionales de protección de las personas
+migrantes y las normas chilenas que regulan el fenómeno de la migración, y analizar cómo los tribunales de justicia
+están aplicando directamente las normas internacionales.
+**Concordancias Legales:** artículo 15; artículos 15; artículo 87; artículo 69
 
 Objetivo: Efectuar un examen de compatibilidad entre los estándares internacionales de protección de las personas
 migrantes y las normas chilenas que regulan el fenómeno de la migración, y analizar cómo los tribunales de justicia
@@ -3071,8 +3104,11 @@ Luego, bajo alguna de las condiciones indicadas en el artículo 69 del mismo cue
 si el extranjero violó esta prohibición a través de un ingreso clandestino, la pena aumenta a presidio menor en su grado
 máximo (3 años y un día y 5 años); y si ingresa por lugar no habilitado aumenta el rango, presidio menor en su grado mí-
 
-
 ## 3. La migración irregular, el ingreso clandestino y otras
+
+**Definición Canónica:** nimo a máximo (61 días a 5 años). Al respecto, se observa que el estándar internacional recomienda no aplicar sanciones
+de carácter punitivo a la migración irregular, y, en consecuencia, en este caso, el imponer una medida punitiva al migrante
+**Concordancias Legales:** artículo 34; artículo 15; artículo 194; artículo 196; artículo 35; artículo 45; artículo 49; artículos 200; artículo 77 bis del Decreto Ley en análisis; artículos 197; artículo 158; artículo 78; artículo 78 del Decreto Ley 1094 de 1975; artículo 146; Ley 18.216; Ley 1094
 
 nimo a máximo (61 días a 5 años). Al respecto, se observa que el estándar internacional recomienda no aplicar sanciones
 de carácter punitivo a la migración irregular, y, en consecuencia, en este caso, el imponer una medida punitiva al migrante
@@ -3127,8 +3163,10 @@ medidas cautelares que se hubieren decretado (artículo 78 del Decreto Ley 1094 
 ello significa el levantamiento de las órdenes de abandono o expulsión, no obstante que el artículo 146 inciso final del
 Reglamento de Extranjería establece que en caso de ingreso clandestino se deberá disponer la expulsión del territorio
 
-
 ## 4. Derechos de las personas migrantes
+
+**Definición Canónica:** nacional tras el sobreseimiento definitivo producto del desistimiento de la denuncia?
+**Concordancias Legales:** artículo 80; artículo 19; artículo 21; artículo 3; artículo 22; artículo 5; artículo 72 bis del Decreto Ley de Migraciones; artículos 3; artículo 10; artículo 11; artículo 138; artículo 87 del Decreto Ley en comento; artículo 136; artículo 129; artículo 125; artículo 126; constitucion; Constitución
 
 nacional tras el sobreseimiento definitivo producto del desistimiento de la denuncia?
 
@@ -3170,28 +3208,15 @@ familiar (artículo 125). Asimismo, contempla expresamente la prohibición de ex
 
 UNIDAD VII:
 
-
-## La nueva ley de migración y
-
-EXTRANJERÍA N° 21.325.
-
-UNIDAD VII:
-
-
-## La nueva ley de migración y extranjería
-
-N° 21.325.
-Objetivo: Analizar los cambios legislativos introducidos al derecho de extranjería y migratorio chileno con la dictación
-de la Ley de Migración y Extranjería N° 21.325.
-
-
-## 1. Derecho de extranjería
-
-                                                                                                                           Prohibiciones imperativas en la nueva Ley N° 21.325 de 2021 en correlato con la anterior legislación
-
 ## 1.1. Prohibiciones de ingreso
 
-                                                                                                                            Ficha N° 1. Prohibición de ingreso fundada en la protección de la seguridad nacional
+**Definición Canónica:** Ficha N° 1. Prohibición de ingreso fundada en la protección de la seguridad nacional
+La Ley N° 21.325 de 2021, incorpora en su artículo 29 una nueva figura, la del ingreso condicionado, casos en los cuales
+la policía puede autorizar el ingreso a quien no cumpla los requisitos de admisión por razones de índole humanitaria.                                                                                             Correlación o equivalencia con
+                                                                                                                            Causal de la Ley N° 21.325 de
+**Concordancias Legales:** artículo 29; artículo 15; artículo 2; artículo 68; artículo 69; artículo 411; artículo 141; artículos 395; artículos 47; Artículo 1; Artículo 26; artículos 68; artículo 35; artículo 32; artículo 64; artículo 137; artículo 33; artículo 33 de la Ley N; Artículo 129 de la Ley N; Artículo 71; Artículo 70; Artículos 66; Artículo 17; Artículo 67 del Decreto Ley N; artículo 91; Artículo 67; artículo 37; artículo 5; artículo 19; artículo 3; artículos 25; Ley N° 21.325; Ley N° 1.094; Ley N° 20.430; Ley N° 21.385; Ley Nº 18.216; Ley 21.325; Ley N° 20.609; DL 1.094; DL N° 1.094
+
+Ficha N° 1. Prohibición de ingreso fundada en la protección de la seguridad nacional
 La Ley N° 21.325 de 2021, incorpora en su artículo 29 una nueva figura, la del ingreso condicionado, casos en los cuales
 la policía puede autorizar el ingreso a quien no cumpla los requisitos de admisión por razones de índole humanitaria.                                                                                             Correlación o equivalencia con
                                                                                                                             Causal de la Ley N° 21.325 de 2021
@@ -3695,6 +3720,10 @@ expresa mención explícita a ciertos derechos de las personas migrantes45, lo c
 
 ## 2.2. Derechos sociales
 
+**Definición Canónica:** del legislador de adecuarse a los paradigmas de protección de los sistemas internacionales de protección de derechos                                                                                                          2.2.1. Derecho al acceso a la salud
+humanos, aunque todavía hay determinados aspectos con limitaciones que impedirían una óptima inclusión de las per-                                                                                                            La Ley N° 21.325 de Migración y Extranjería, en su artículo 15 reconoce el derecho al acceso a la salud en los siguiente
+**Concordancias Legales:** artículo 15; artículo 3; artículo 44 de la CTMF. Así también; artículo 17 inciso 1; artículo 11; Artículo 13 inciso 5; artículos 1; Artículo 103; artículo 17 de la Ley de Migración N; Ley N° 21.325; Ley N° 21.091; Constitución; Constitucion
+
 del legislador de adecuarse a los paradigmas de protección de los sistemas internacionales de protección de derechos                                                                                                          2.2.1. Derecho al acceso a la salud
 humanos, aunque todavía hay determinados aspectos con limitaciones que impedirían una óptima inclusión de las per-                                                                                                            La Ley N° 21.325 de Migración y Extranjería, en su artículo 15 reconoce el derecho al acceso a la salud en los siguientes
 sonas migrantes en Chile.                                                                                                                                                                                                     términos:
@@ -3754,7 +3783,12 @@ de Educación que plasma la Política Nacional de Estudiantes Extranjeros 2018-2
 
 ## 2.2.3. Derecho al acceso a la vivienda
 
-     Normas que protegen el derecho a la educación de los migrantes                                                                                                               El criterio introducido por vía administrativa 2014-2015 de solo exigir al migrante ser titular de residencia definitiva
+**Definición Canónica:** Normas que protegen el derecho a la educación de los migrantes                                                                                                               El criterio introducido por vía administrativa 2014-2015 de solo exigir al migrante ser titular de residencia definitiva
+                                                                                                                                                                                  para acceder a subsidios habitacionales, sin exigir un requisito adicional de antigüedad en la posesión de tal calidad, se
+     
+**Concordancias Legales:** Artículo 19; artículo 17; Artículo 103; artículo 2; artículo 175; artículo 74; artículo 18 del Código del Trabajo; artículo 14; artículo 18 de la Constitución; artículo 13; artículo 6; artículo 18 de la Ley Orgánica Constitucional de los; artículo 1; artículo 104 de la Constitución Política de 1925; artículo 132; Ley N° 20.370; Ley N° 20.845; Ley N° 21.325; Ley N° 21.091; Ley N° 20.261; Ley N° 1.094; Ley N° 18.834; Ley N° 18.556; ley Nº 20.430; Ley N° 18.60380; Ley N° 20.050; Ley N° 19.880; constitucion; Constitución; Constitución Política
+
+Normas que protegen el derecho a la educación de los migrantes                                                                                                               El criterio introducido por vía administrativa 2014-2015 de solo exigir al migrante ser titular de residencia definitiva
                                                                                                                                                                                   para acceder a subsidios habitacionales, sin exigir un requisito adicional de antigüedad en la posesión de tal calidad, se
                                                                                                                                                                                   mantiene y recoge en la Ley de Migración N° 21.325 de 2021 implícitamente, pues indica que “[l]os extranjeros titula-
      Fuentes internacionales
@@ -3914,8 +3948,13 @@ a “cualquier persona”. Se hace presente que sigue siendo igualmente proceden
 sino que puede ejercerse en cuanto se encuentre vigente la orden de expulsión que perturba la libertad de circulación
 del extranjero.
 
-
 ## 2.5. Derecho a la reunificación familiar
+
+**Definición Canónica:** Si bien la Constitución chilena reconoce a la familia como núcleo fundamental de la sociedad como base de la institucionalidad chilena (artículo 1° inciso 2°), el Decreto Ley N° 1.094 de 1975 es una normativa preconstitucional y preconvencional que no recoge un enfoque de derechos humanos, por lo que omite referencia expresa a la protección de
+la familia, la unidad o reunificación familiar y el interés superior del niño como principios y parámetros relevantes para
+decidir sobre la expulsión de una persona.
+En contraste, la nueva Ley de Migración y Extranjería N° 21.325 de 2021 incluye un lista
+**Concordancias Legales:** artículo 1; artículos 53; Ley N° 1.094; Ley N° 19.880; Ley N° 21.325; Constitución; constitucion
 
 Si bien la Constitución chilena reconoce a la familia como núcleo fundamental de la sociedad como base de la institucionalidad chilena (artículo 1° inciso 2°), el Decreto Ley N° 1.094 de 1975 es una normativa preconstitucional y preconvencional que no recoge un enfoque de derechos humanos, por lo que omite referencia expresa a la protección de
 la familia, la unidad o reunificación familiar y el interés superior del niño como principios y parámetros relevantes para
@@ -3934,10 +3973,13 @@ otorga la posibilidad de solicitar la residencia definitiva a los ascendientes e
 
                                                                                   ciaria, no autónomo o sometido a cualquier otra limitación de soberanía”.        con la ubicación de refugiados en una comunidad en el país del reasenta-         otras formas de coacción, al fraude, al engaño, al abuso de poder o de una
 
-
 ## Glosario
 
-                                                                                                                                                                   miento.                                                                          situación de vulnerabilidad o a la concesión o recepción de pagos o bene-
+**Definición Canónica:** miento.                                                                          situación de vulnerabilidad o a la concesión o recepción de pagos o bene-
+                                                                                  Emigración: Acto de salir de un Estado con el propósito de asentarse en                                                                                           ficios para obtener el consentimiento de una persona que tenga autoridad
+                                                                                  otro. Las normas internacionales de derechos h
+
+miento.                                                                          situación de vulnerabilidad o a la concesión o recepción de pagos o bene-
                                                                                   Emigración: Acto de salir de un Estado con el propósito de asentarse en                                                                                           ficios para obtener el consentimiento de una persona que tenga autoridad
                                                                                   otro. Las normas internacionales de derechos humanos establecen el de-           Rechazo en frontera: Acto de un Estado para devolver, de la manera que           sobre otra, con fines de explotación. (art. 3 (a) del Protocolo para prevenir,
                                                                                   recho de toda persona de salir de cualquier país, incluido el suyo. Sólo en      sea, a una persona al territorio de otro Estado en el cual su vida o su liber-   suprimir y sancionar la trata de personas, especialmente mujeres y niños,
@@ -3988,20 +4030,29 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
                                                                                   15.   CEA EGAÑA, José Luis (1997): “Los tratados de derechos humanos              28.   DÍAZ GARCÍA, Iván (2013): “Ley chilena contra la discriminación :                 tps://www.minsal.cl/wp-content/uploads/2018/05/2018.03.08_PO-
 
-
 ## Bibliografía
 
-                                                                                        y la Constitución Política de la República”, Ius et Praxis (vol. 2 No.2):         una evaluación desde los derechos internacional y constitucional”,                LITICA-DE-SALUD-DE-MIGRANTES.pdf> [visitado el 14/03/2020].
+**Definición Canónica:** y la Constitución Política de la República”, Ius et Praxis (vol. 2 No.2):         una evaluación desde los derechos internacional y constitucional”,                LITICA-DE-SALUD-DE-MIGRANTES.pdf> [visitado el 14/03/2020].
+                                                                                        pp. 81 – 92.                                                                      en Revista Chilena de Derecho, vol. 40 N° 2, pp. 635 – 668.
+**Concordancias Legales:** Constitución Política; constitucion
+
+y la Constitución Política de la República”, Ius et Praxis (vol. 2 No.2):         una evaluación desde los derechos internacional y constitucional”,                LITICA-DE-SALUD-DE-MIGRANTES.pdf> [visitado el 14/03/2020].
                                                                                         pp. 81 – 92.                                                                      en Revista Chilena de Derecho, vol. 40 N° 2, pp. 635 – 668.
 
 ## 42.   ESCOBAR ROCA, Guillermo (director) (2012): Derechos sociales y
 
-                                                                                  16.   CENTRO DE DERECHOS HUMANOS (2014): “Derechos de los mi-                     29.   DÍAZ TOLOSA, Regina Ingrid (2008): “Pautas de interpretación de                   tutela antidiscriminatoria. (Pamplona, Thomson Reuters Aranzadi).
+**Definición Canónica:** 16.   CENTRO DE DERECHOS HUMANOS (2014): “Derechos de los mi-                     29.   DÍAZ TOLOSA, Regina Ingrid (2008): “Pautas de interpretación de                   tutela antidiscriminatoria. (Pamplona, Thomson Reuters Aranzadi).
 
+16.   CENTRO DE DERECHOS HUMANOS (2014): “Derechos de los mi-                     29.   DÍAZ TOLOSA, Regina Ingrid (2008): “Pautas de interpretación de                   tutela antidiscriminatoria. (Pamplona, Thomson Reuters Aranzadi).
 
 ## Citada
 
-                                                                                        grantes y refugiados”, Informe Anual sobre Derechos Humanos en Chile              los tratados internacionales derivados del deber de promoción de
+**Definición Canónica:** grantes y refugiados”, Informe Anual sobre Derechos Humanos en Chile              los tratados internacionales derivados del deber de promoción de
+                                                                                        2014 (Santiago, Ediciones Universidad Diego Portales) pp. 333-376.                los derechos humanos impuesto a la judicatura chilena por la Cons-          43.   FERNÁNDEZ, P. (2001): “El derecho de reagrupación familiar de los
+                                                                                                                                       
+**Concordancias Legales:** Artículo 2; Constitucion
+
+grantes y refugiados”, Informe Anual sobre Derechos Humanos en Chile              los tratados internacionales derivados del deber de promoción de
                                                                                         2014 (Santiago, Ediciones Universidad Diego Portales) pp. 333-376.                los derechos humanos impuesto a la judicatura chilena por la Cons-          43.   FERNÁNDEZ, P. (2001): “El derecho de reagrupación familiar de los
                                                                                                                                                                           titución Política”, en Anuario de Derecho Constitucional Latinoameri-             extranjeros”. Derecho y conocimiento, 1, 375-394.
                                                                                   17.   CIUDADANO GLOBAL (2013): “Reflexiones de un deber ser. Hacia                      cano (vol. XIV), pp. 499-522.
@@ -4049,7 +4100,12 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 8.    BENADAVA, Santiago (2004): Derecho Internacional Público (8ª edi-
 
-                                                                                      la movilidad humana. Sexto informe de 28 de abril de 2017, Consejo            36.   DÍAZ TOLOSA, Regina Ingrid, Díaz Fuenzalida, Juan Pablo y Esis Vi-
+**Definición Canónica:** la movilidad humana. Sexto informe de 28 de abril de 2017, Consejo            36.   DÍAZ TOLOSA, Regina Ingrid, Díaz Fuenzalida, Juan Pablo y Esis Vi-
+      ción, Santiago, Abeledo Perrot).                                                                                                                                                                                                                50.   GARCÍA JARAMILLO, Leonardo (2016): “De la “constitucionaliza-
+                                                                                      de Derechos Humanos – ONU, A/HRC/35/25.          
+**Concordancias Legales:** artículo 5; Ley 20.609; constitucion; Constitución Política; Constitución
+
+la movilidad humana. Sexto informe de 28 de abril de 2017, Consejo            36.   DÍAZ TOLOSA, Regina Ingrid, Díaz Fuenzalida, Juan Pablo y Esis Vi-
       ción, Santiago, Abeledo Perrot).                                                                                                                                                                                                                50.   GARCÍA JARAMILLO, Leonardo (2016): “De la “constitucionaliza-
                                                                                       de Derechos Humanos – ONU, A/HRC/35/25.                                             llarroel, Ivette (2018): “La tutela judicial efectiva en Chile de los ex-
                                                                                                                                                                           tranjeros en situación de expulsión”, en Documento de Trabajo No.2                ción” a la “convencionalización” del ordenamiento jurídico. La con9.    BERTELSEN REPETTO, Raúl (1996): “Rango jurídico de los tratados
@@ -4101,7 +4157,12 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 84.   MUÑOZ LEÓN, Fernando (2013): “No a ‘separados pero iguales’
 
-      Comisión de Derechos Humanos, Comisión de Derechos Humanos                 71.   MEDINA Quiroga, Cecilia (1994): “El Derecho internacional de los                 en Chile: Un análisis del derecho antidiscriminación chileno a partir     98.   ORGANIZACIÓN INTERNACIONAL PARA LAS MIGRACIONES
+**Definición Canónica:** Comisión de Derechos Humanos, Comisión de Derechos Humanos                 71.   MEDINA Quiroga, Cecilia (1994): “El Derecho internacional de los                 en Chile: Un análisis del derecho antidiscriminación chileno a partir     98.   ORGANIZACIÓN INTERNACIONAL PARA LAS MIGRACIONES
+      – ONU, documento E/CN.4/1998/76, 10 de marzo de 1998.                            Derechos Humanos y el ordenamiento jurídico chileno”, AA.VV.,                    de su primera sentencia”, Estudios Constitucionales, vol. 11, N° 2: pp.         (OIM) (2006): Glosario sobre Migración (Ginebra, OIM).
+58.   G
+**Concordancias Legales:** artículo 5; artículo 49; Artículo 22; artículo 12; Ley N° 20.915; Ley N° 21.091; Ley N° 21.325; Ley Nº 18.834; Constitucion; Constitución
+
+Comisión de Derechos Humanos, Comisión de Derechos Humanos                 71.   MEDINA Quiroga, Cecilia (1994): “El Derecho internacional de los                 en Chile: Un análisis del derecho antidiscriminación chileno a partir     98.   ORGANIZACIÓN INTERNACIONAL PARA LAS MIGRACIONES
       – ONU, documento E/CN.4/1998/76, 10 de marzo de 1998.                            Derechos Humanos y el ordenamiento jurídico chileno”, AA.VV.,                    de su primera sentencia”, Estudios Constitucionales, vol. 11, N° 2: pp.         (OIM) (2006): Glosario sobre Migración (Ginebra, OIM).
 58.   GRUPO DE TRABAJO INTERGUBERNAMENTAL DE EXPERTOS                                  Constitución, tratados y derechos esenciales (Santiago, Corporación              201-228.
                                                                                        Nacional de Reparación y Reconciliación) pp. 3-54.                                                                                                         99.   ORGANIZACIÓN INTERNACIONAL PARA LAS MIGRACIONES
@@ -4214,10 +4275,14 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 121. SUPERINTENDENCIA DE SALUD (2019): “Trato digno, enfoque                                                                                                            elementos indeseables, de 12 de diciembre de 1918. Disponible en:                  dos en Virtud de Tratados, HRI/GEN/1/Rev.9 (Vol. I), 27 de mayo de
      personas migrantes”, Informe de fiscalización de la Intendencia de                                                                                                 http://bcn.cl/1qke6 [visitado el 02/06/2015].                                      2008, pp. 268-272.
 
-
 ## Normas jurídicas citadas
 
-     Prestadores, Unidad de Fiscalización de los Derechos de las Personas,
+**Definición Canónica:** Prestadores, Unidad de Fiscalización de los Derechos de las Personas,
+     disponible en línea https://www.supersalud.gob.cl/normativa/668/                                                                                               15. Ley No. 19.880, establece bases de los procedimientos administra-              28. Oficio Circular No. 1.179, que informa la suscripción de acuerdos
+     articles-17896_recurso_1.pdf                                                                                                                                       tivos que rigen los actos de los órganos de l
+**Concordancias Legales:** artículo 5; Ley N° 20.050; Constitucion; Constitución Política
+
+Prestadores, Unidad de Fiscalización de los Derechos de las Personas,
      disponible en línea https://www.supersalud.gob.cl/normativa/668/                                                                                               15. Ley No. 19.880, establece bases de los procedimientos administra-              28. Oficio Circular No. 1.179, que informa la suscripción de acuerdos
      articles-17896_recurso_1.pdf                                                                                                                                       tivos que rigen los actos de los órganos de la Administración del Es-              tendientes a resolver situaciones migratorias de ciudadanos extran-
                                                                                                                                                                         tado, de 29 de mayo de 2003, actualizada al 20 de agosto de 2008.                  jeros que se indican, del Jefe del Departamento de Extranjería y Mi122. TAPIA VALDÉS, Jorge (2003): “Efectos de los tratados sobre Dere-            1.   Circular No. 7, instruye sobre visación temporaria por motivos la-                Disponible en http://bcn.cl/1m07f [visitado el 02/06/2015].                        gración al Intendente de la Región Metropolitana y gobernadores
@@ -4267,7 +4332,12 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 38. Zenteno con Ministerio del Interior y Seguridad Pública (2015): CA Iqui-
 
-    duc.cl/wp-content/uploads/sites/88/2017/04/7-ORD.894-Mine-
+**Definición Canónica:** duc.cl/wp-content/uploads/sites/88/2017/04/7-ORD.894-Mine-
+    duc-Migrante.pdf [visitado el 15/03/2020].                                                                                                                    18. Graells con Intendente Región De O’Higgins (2013): Corte Suprema, 17             que, 19 de junio de 2015 (amparo), rol No.70-2015.
+                                                                              1.    Opinión Consultiva OC-18/03 sobre Condición Jurídica y Derechos de                de junio de 2013 (apelación amparo), Rol N° 3952-13.
+35. Oficio ORD-A-14 No. 
+
+duc.cl/wp-content/uploads/sites/88/2017/04/7-ORD.894-Mine-
     duc-Migrante.pdf [visitado el 15/03/2020].                                                                                                                    18. Graells con Intendente Región De O’Higgins (2013): Corte Suprema, 17             que, 19 de junio de 2015 (amparo), rol No.70-2015.
                                                                               1.    Opinión Consultiva OC-18/03 sobre Condición Jurídica y Derechos de                de junio de 2013 (apelación amparo), Rol N° 3952-13.
 35. Oficio ORD-A-14 No. 2.551, permiso de residencia en trámite y cé-               los Migrantes Indocumentados (2003): Corte Interamericana de De-                                                                                               39. Álvarez con Ministerio del Interior (2016): CS, 1 de enero de 2016
@@ -4276,7 +4346,12 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 2.    Requerimiento de inaplicabilidad por inconstitucionalidad de Banco de
 
-    de 16 de junio de 2009. Disponible en: http://web.minsal.cl/portal/             Crédito e Inversiones S. A. respecto del artículo 12, inciso final, del Có-                                                                                        2016 (apelación amparo), rol No. 50031-2016.
+**Definición Canónica:** de 16 de junio de 2009. Disponible en: http://web.minsal.cl/portal/             Crédito e Inversiones S. A. respecto del artículo 12, inciso final, del Có-                                                                                        2016 (apelación amparo), rol No. 50031-2016.
+    url/item/71823178b680853ce04001011f01784d.pdf [visitado el                                                                                                    20. Loyola con Departamento de Extranjería y Migración del Ministerio del
+                                                                            
+**Concordancias Legales:** artículo 12; Constitucion
+
+de 16 de junio de 2009. Disponible en: http://web.minsal.cl/portal/             Crédito e Inversiones S. A. respecto del artículo 12, inciso final, del Có-                                                                                        2016 (apelación amparo), rol No. 50031-2016.
     url/item/71823178b680853ce04001011f01784d.pdf [visitado el                                                                                                    20. Loyola con Departamento de Extranjería y Migración del Ministerio del
                                                                                     digo del Trabajo, en la causa Rol No.2556-2008, del Primer Juzgado de             Interior y Seguridad Pública y otro (2013): CS, 6 de enero de 2013
     30/10/2015].                                                                                                                                                                                                                                   41. Montoya con Ministerio del Interior y Seguridad Pública (2016): CS, 16
@@ -4287,7 +4362,12 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 3.    Caso Vélez Loor vs. Panamá (2010): Corte Interamericana de Dere-
 
-    secretarios ministeriales de salud, de 11 de junio de 2008. Dispo-              chos Humanos, 23 de noviembre de 2010. Serie C No. 218.                       22. Solís con Intendencia de Tarapacá y otros (2013): CS, 3 de septiembre
+**Definición Canónica:** secretarios ministeriales de salud, de 11 de junio de 2008. Dispo-              chos Humanos, 23 de noviembre de 2010. Serie C No. 218.                       22. Solís con Intendencia de Tarapacá y otros (2013): CS, 3 de septiembre
+    nible en: http://www.minsal.cl/salud-del-inmigrante/ [visitado el                                                                                                                                                                              43. Bedoya con Departamento de Extranjería y Migración del Ministerio del
+                                                   
+**Concordancias Legales:** artículos 364; constitucion
+
+secretarios ministeriales de salud, de 11 de junio de 2008. Dispo-              chos Humanos, 23 de noviembre de 2010. Serie C No. 218.                       22. Solís con Intendencia de Tarapacá y otros (2013): CS, 3 de septiembre
     nible en: http://www.minsal.cl/salud-del-inmigrante/ [visitado el                                                                                                                                                                              43. Bedoya con Departamento de Extranjería y Migración del Ministerio del
                                                                                                                                                                       de 2013 (apelación amparo), rol No. 6366-2013.                                   Interior (2017): CAS, 17 de abril de 2017 (amparo), rol No. 803-2017.
     30/10/2015].                                                              4.    Requerimiento de inaplicabilidad por inconstitucionalidad de Leonardo
@@ -4303,7 +4383,12 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 5.    Caso Nadege y otros vs. República Dominicana (2012): Corte Interame-
 
-    326 del Ministerio de Relaciones Exteriores, Diario Oficial, 27 mayo                                                                                              abril 2014 (apelación amparo), rol No. 7804-2014.                                de abril de 2017 (apelación amparo), rol No. 12208-2017.
+**Definición Canónica:** 326 del Ministerio de Relaciones Exteriores, Diario Oficial, 27 mayo                                                                                              abril 2014 (apelación amparo), rol No. 7804-2014.                                de abril de 2017 (apelación amparo), rol No. 12208-2017.
+                                                                                    ricana de Derechos Humanos, 24 de octubre 2012. Serie C No.251.
+    1989.
+                                                                                                                                              
+
+326 del Ministerio de Relaciones Exteriores, Diario Oficial, 27 mayo                                                                                              abril 2014 (apelación amparo), rol No. 7804-2014.                                de abril de 2017 (apelación amparo), rol No. 12208-2017.
                                                                                     ricana de Derechos Humanos, 24 de octubre 2012. Serie C No.251.
     1989.
                                                                                                                                                                   26. Caso de personas dominicanas y haitianas expulsadas vs. República Do-        47. Morales con Ministerio del Interior y Seguridad Pública (2017): CS, 22
@@ -4337,15 +4422,26 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 55. Hernández con Departamento de Extranjería y Migración del Ministe-
 
-    rio del Interior y Seguridad Pública (2018): CS, 13 de febrero de 2018      13. Figura No. 13. Visas consulares.                                       15. Tabla No. 15. Derechos sociales garantizados para personas migran-
+**Definición Canónica:** rio del Interior y Seguridad Pública (2018): CS, 13 de febrero de 2018      13. Figura No. 13. Visas consulares.                                       15. Tabla No. 15. Derechos sociales garantizados para personas migran-
+    (apelación amparo), rol No. 2540-2018.                                                                                                                     tes: estándar mínimo.
+
+rio del Interior y Seguridad Pública (2018): CS, 13 de febrero de 2018      13. Figura No. 13. Visas consulares.                                       15. Tabla No. 15. Derechos sociales garantizados para personas migran-
     (apelación amparo), rol No. 2540-2018.                                                                                                                     tes: estándar mínimo.
 
 ## 14. Figura No. 14. Información electrónica para trámites de migración
+
+**Definición Canónica:** 56. Ragoub con Ministerio del Interior y Seguridad Pública (2018): CS, 7 de         en Extranjería.                                                        16. Tabla No. 16. Principales disposiciones internacionales sobre pro-
+    febrero de 2018 (apelación amparo), rol No. 2269-2018.                                                                                                     tección de la familia..
 
 56. Ragoub con Ministerio del Interior y Seguridad Pública (2018): CS, 7 de         en Extranjería.                                                        16. Tabla No. 16. Principales disposiciones internacionales sobre pro-
     febrero de 2018 (apelación amparo), rol No. 2269-2018.                                                                                                     tección de la familia..
 
 ## 15. Figura No. 15. Interposición de acciones judiciales por extranjeros
+
+**Definición Canónica:** 57. Renaud con Intendencia Regional de Arica y Parinacota-Policía de Inves-         en casos de expulsión, período 2008-2018.                              17. Tabla No. 17. Visados temporales en Chile.
+    tigaciones de Chile (2018): CAS, 6 de marzo de 2018 (amparo), rol No.       16. Figura No. 16. Resultado de las acciones interpuestas por extranje-    18. Tabla No. 18. Causales imperativas de rechazo de visados.
+    284-2018.                                                                       ros (%) en casos de expulsión, período 2008-2018.
+                                               
 
 57. Renaud con Intendencia Regional de Arica y Parinacota-Policía de Inves-         en casos de expulsión, período 2008-2018.                              17. Tabla No. 17. Visados temporales en Chile.
     tigaciones de Chile (2018): CAS, 6 de marzo de 2018 (amparo), rol No.       16. Figura No. 16. Resultado de las acciones interpuestas por extranje-    18. Tabla No. 18. Causales imperativas de rechazo de visados.
@@ -4366,12 +4462,22 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 62. Yugar con Ministerio del Interior y Seguridad Pública (2018): CS, 23 de
 
-    enero de 2018 (apelación amparo), rol No. 1152-2018.
+**Definición Canónica:** enero de 2018 (apelación amparo), rol No. 1152-2018.
+                                                                                ÍNDICE TABLAS                                                              24. Tabla No. 24. Acciones especiales de reclamación interpuestas ante
+                                                                                                                                                               la Corte Suprema, período 2008-2018, clasificadas de acuerdo con
+                                                                                                 
+
+enero de 2018 (apelación amparo), rol No. 1152-2018.
                                                                                 ÍNDICE TABLAS                                                              24. Tabla No. 24. Acciones especiales de reclamación interpuestas ante
                                                                                                                                                                la Corte Suprema, período 2008-2018, clasificadas de acuerdo con
                                                                                                                                                                su resultado.
 
 ## 1.   Tabla No. 1. Evolución de la población migrante en Chile, período
+
+**Definición Canónica:** ÍNDICE FIGURAS                                                                       1982-2018.                                                            25. Tabla No. 25. Motivo de inadmisibilidad de acciones especiales de
+                                                                                                                                                               reclamación interpuestas ante la Corte Suprema, período 2008-
+                                                                                2.   Tabla No. 2. Porcentaje de incremento de los migrantes en cada       
+**Concordancias Legales:** constitucion
 
 ÍNDICE FIGURAS                                                                       1982-2018.                                                            25. Tabla No. 25. Motivo de inadmisibilidad de acciones especiales de
                                                                                                                                                                reclamación interpuestas ante la Corte Suprema, período 2008-
@@ -4386,36 +4492,21 @@ trata de un país independiente o de un territorio bajo administración fidu-   
 
 ## 3.   Figura No. 3. Cantidad de migrantes internacionales por región de
 
-     destino.                                                                   5.   Tabla No. 5. Recomendaciones para hacer frente a obstáculos ins-      28. Tabla No. 28. Aplicación de normas internacionales en amparos aco-
+**Definición Canónica:** destino.                                                                   5.   Tabla No. 5. Recomendaciones para hacer frente a obstáculos ins-      28. Tabla No. 28. Aplicación de normas internacionales en amparos aco-
+                                                                                     titucionales.                                                             gidos, período 2008-2018.
+
+destino.                                                                   5.   Tabla No. 5. Recomendaciones para hacer frente a obstáculos ins-      28. Tabla No. 28. Aplicación de normas internacionales en amparos aco-
                                                                                      titucionales.                                                             gidos, período 2008-2018.
 
 ## 4.   Figura No. 4. Los 20 principales países de destino (izquierda) y de
 
-     origen (derecha) de los migrantes internacionales en 2019 (en millo-       6.   Tabla No. 6. Recomendaciones para hacer frente a obstáculos so-       29. Tabla No. 29. Normas internacionales aplicadas en amparos acogi-
+**Definición Canónica:** origen (derecha) de los migrantes internacionales en 2019 (en millo-       6.   Tabla No. 6. Recomendaciones para hacer frente a obstáculos so-       29. Tabla No. 29. Normas internacionales aplicadas en amparos acogi-
+     nes).                                                                           ciales.                                                                   dos, período 2008-2018.
+5.   Figura No. 5. Población de migrantes internacionales a mediado de          7.   Tabla No. 7. Recomendaciones para hacer frente a obstáculos eco-      30. Tabla No. 30. Aplicación de la CADH por
+
+origen (derecha) de los migrantes internacionales en 2019 (en millo-       6.   Tabla No. 6. Recomendaciones para hacer frente a obstáculos so-       29. Tabla No. 29. Normas internacionales aplicadas en amparos acogi-
      nes).                                                                           ciales.                                                                   dos, período 2008-2018.
 5.   Figura No. 5. Población de migrantes internacionales a mediado de          7.   Tabla No. 7. Recomendaciones para hacer frente a obstáculos eco-      30. Tabla No. 30. Aplicación de la CADH por los tribunales superiores
      2019, cantidad por país.                                                        nómicos.                                                                  de justicia chilenos.
 6.   Figura No. 6. Población de migrantes internacionales a mediado de          8.   Tabla No. 8. Principales disposiciones internacionales que regulan    31. Tabla No. 31. Distribución de casos que aplican la CDN, de acuerdo
      2019, cantidad por región.                                                      la movilidad humana.                                                      con la causal legal que funda la medida de expulsión, período 20137.   Figura No. 7. Número de refugiados de los cinco principales países         9.   Tabla No. 9. Principales disposiciones internacionales que regulan        18.
-
-
-## Serie de documentos
-
-
-## Materiales docentes
-
-
-
-## Contexto social y
-
-
-## Estatuto de los
-
-
-## Migrantes en chile
-
-
-                      Dra. Regina Ingrid Díaz Tolosa
-
-
-## 2020                            www.academiajudicial.cl

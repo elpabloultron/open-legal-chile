@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Familia | **Materia:** Familia
 
-## Derecho de familia1
-
-
-
-## La familia y el matrimonio
-
-
-Sumario:
-
-## Primera parte: la familia
-
-
 ## I.- generalidades sobre la familia
+
+**Definición Canónica:** 1.- Concepto de familia.
+2.- Composición de la familia, desde un punto de vista jurídico.
+3.- La familia no es persona jurídica.
+4.- La “familia tradicional” y la “familia moderna”. Evolución legislativa en Derecho de
+Familia.
 
 1.- Concepto de familia.
 2.- Composición de la familia, desde un punto de vista jurídico.
@@ -34,6 +28,13 @@ Sumario:
 Familia.
 
 ## Ii.- el parentesco
+
+**Definición Canónica:** 1.- Definición y clasificación.
+2.- Los cónyuges no son parientes por afinidad.
+3.- Los convivientes civiles no son en realidad parientes por afinidad.
+4.- Materias en que tiene incidencia el parentesco por afinidad.
+5.- Cómputo del parentesco.
+6.- Importancia del parentesco.
 
 1.- Definición y clasificación.
 2.- Los cónyuges no son parientes por afinidad.
@@ -44,39 +45,23 @@ Familia.
 
 ## Iii.- el derecho de familia y los derechos de familia
 
+**Definición Canónica:** 1.- Concepto de Derecho de Familia y de derechos de familia.
+2.- Características del Derecho de Familia y de los derechos de familia.
+3.- El Derecho de Familia es Derecho Privado.
+4.- Principios fundamentales del Derecho de Familia.
+
 1.- Concepto de Derecho de Familia y de derechos de familia.
 2.- Características del Derecho de Familia y de los derechos de familia.
 3.- El Derecho de Familia es Derecho Privado.
 4.- Principios fundamentales del Derecho de Familia.
 
-## Segunda parte: de los esponsales
-
-1.- Definición.
-2.- Características.
-3.- Carencia de obligatoriedad de los esponsales.
-4.- Efectos secundarios que producen los esponsales.
-
-## Tercera parte: el contrato de matrimonio
-
-
-## I.- generalidades sobre el matrimonio
-
-1.- Definición.
-2.- Características.
-3.- Principales diferencias entre el matrimonio y los contratos patrimoniales.
-4.- Principios inspiradores de la Ley de Matrimonio Civil.
-
-## Ii.- condiciones de existencia y de validez del matrimonio
-
-1.- Condiciones de existencia del matrimonio.
-2.- Condiciones de validez del matrimonio.
-
-## Iii.- de la separación de los cónyuges
-
-1.- De la separación de hecho.
-2.- De la separación judicial.
-
 ## Iv.- de la terminacion del matrimonio
+
+**Definición Canónica:** 1.- Causales que producen la terminación del matrimonio.
+2.- De la terminación del matrimonio por muerte de uno de los cónyuges.
+3.- De la terminación del matrimonio por muerte presunta.
+4.- De la eventual terminación del matrimonio por rectificación de sexo y nombre por
+razón de identidad de género tramitada por uno de los cónyuges.
 
 1.- Causales que producen la terminación del matrimonio.
 2.- De la terminación del matrimonio por muerte de uno de los cónyuges.
@@ -86,8 +71,9 @@ razón de identidad de género tramitada por uno de los cónyuges.
 
 ## V.- de la nulidad del matrimonio
 
+**Definición Canónica:** Fecha de última modificación: 3 de febrero de 2026.
 
-    Fecha de última modificación: 3 de febrero de 2026.
+Fecha de última modificación: 3 de febrero de 2026.
 
                          La Familia y el Matrimonio – Juan Andrés Orrego Acuña         1
 1.- Características de la nulidad matrimonial.
@@ -95,32 +81,18 @@ razón de identidad de género tramitada por uno de los cónyuges.
 3.- De la titularidad y del ejercicio de la acción de nulidad.
 4.- De los efectos de la nulidad de matrimonio.
 
-## Vi.- del divorcio
-
-1.- Concepto de divorcio.
-2.- Causales de divorcio.
-3.- De la titularidad y el ejercicio de la acción de divorcio.
-4.- De los efectos del divorcio.
-
-## Vii.- de las reglas comunes a ciertos casos de separacion, nulidad y
-
-
-## Divorcio
-
-1.- De la compensación económica.
-2.- De la conciliación.
-
-## Viii.- de la ley aplicable al matrimonio y del reconocimiento de las
-
-
-## Sentencias extranjeras
-
-1.- Principio general.
-2.- Todo matrimonio celebrado en Chile, se rige por la ley chilena.
-3.- Recepción en Chile, de las sentencias de divorcio o de nulidad de matrimonio,
-dictadas en el extranjero.
-
 ## Ix.- de los efectos del matrimonio
+
+**Definición Canónica:** 1.- Concepto y enumeración.
+2.- Análisis de los derechos-deberes o derechos-obligaciones
+2.1. Deber de fidelidad.
+2.2.- Obligación de socorro.
+2.3.- Deber de ayuda mutua.
+2.4.- Deber de protección recíproca.
+2.5.- Deber de convivencia.
+2.6.- Deber de respeto recíproco.
+2.7.- Deber eventual de cohabitación.
+2.8.- Obligación eventual de pagar compensación económica.
 
 1.- Concepto y enumeración.
 2.- Análisis de los derechos-deberes o derechos-obligaciones
@@ -133,13 +105,21 @@ dictadas en el extranjero.
 2.7.- Deber eventual de cohabitación.
 2.8.- Obligación eventual de pagar compensación económica.
 
-## Cuarta parte: del concubinato
-
-1.- Concepto.
-2.- Recepción en nuestra legislación.
-3.- Recepción en nuestra jurisprudencia.
-
 ## Quinta parte: de la mediación familiar
+
+**Definición Canónica:** 1.- Concepto y características.
+2.- Principios de la mediación familiar.
+3.- Clases de mediación familiar.
+4.- Inicio de la mediación.
+5.- Causas de inhabilidad para desempeñarse como mediador.
+6.- Comunicación al mediador.
+7.- Diligencias preliminares del mediador.
+8.- Reglas especiales sobre la mediación en causas relativas al derecho de alimentos.
+9.- Mediación por vía remota mediante videoconferencia.
+10.- Duración de la mediación.
+11.- Resultados de la mediación.
+12.- Registro de mediadores.
+13.- Costos de la mediación.
 
 1.- Concepto y características.
 2.- Principios de la mediación familiar.
@@ -157,6 +137,11 @@ dictadas en el extranjero.
 
 ## Sexta parte: del acuerdo de unión civil
 
+**Definición Canónica:** 1.- Origen de la institución y concepto.
+2.- Características del acuerdo de unión civil.
+3.- Requisitos del acuerdo de unión civil.
+3.1. Requisitos de existencia.
+
 1.- Origen de la institución y concepto.
 2.- Características del acuerdo de unión civil.
 3.- Requisitos del acuerdo de unión civil.
@@ -171,21 +156,27 @@ Acuerdos de Unión Civil.
 7.- Causales de término del acuerdo de unión civil.
 7.1. Por muerte natural de uno de los convivientes civiles.
 
-## 7.2. Por muerte presunta de uno de los convivientes civiles, de conformidad a lo
-
-dispuesto
-
 ## 7.3. Por la comprobación judicial de la muerte de uno de los convivientes civiles
+
+**Definición Canónica:** efectuada por el juez del último domicilio que el difunto haya tenido en Chile, en los
+términos prescritos en los arts. 95 y 96 del Código Civil.
+7.4. Por el matrimonio de los convivientes civiles entre sí, cuando proceda.
 
 efectuada por el juez del último domicilio que el difunto haya tenido en Chile, en los
 términos prescritos en los arts. 95 y 96 del Código Civil.
 7.4. Por el matrimonio de los convivientes civiles entre sí, cuando proceda.
 
-## 7.5. Por mutuo acuerdo de los convivientes civiles, que deberá constar por escritura
-
-pública o acta otorgada ante Oficial del Registro Civil.
-
 ## 7.6. Por voluntad unilateral de uno de los convivientes civiles, que deberá constar por
+
+**Definición Canónica:** escritura pública o acta otorgada ante Oficial del Registro Civil.
+7.7. Por declaración de nulidad del Acuerdo.
+8.- De los acuerdos de unión civil celebrados en el extranjero.
+9.- Semejanzas y diferencias entre el contrato de matrimonio y el acuerdo de unión
+civil.
+9.1. Semejanzas entre el acuerdo de unión civil y el matrimonio.
+9.2. Diferencias entre el acuerdo de unión civil y el matrimonio.
+10.- Modificaciones a diversos cuerpos legales.
+CUESTIONARIO.
 
 escritura pública o acta otorgada ante Oficial del Registro Civil.
 7.7. Por declaración de nulidad del Acuerdo.
@@ -197,9 +188,10 @@ civil.
 10.- Modificaciones a diversos cuerpos legales.
 CUESTIONARIO.
 
-
 ## Primera parte: la familia
 
+**Definición Canónica:** I.- GENERALIDADES SOBRE LA FAMILIA.
+**Concordancias Legales:** artículo 1749 del Código Civil a menos que se haya pactado sepa; artículos 42; Ley Nº 20.530; Ley Nº 21.150; Ley N° 21.430; Ley Nº 14.908; Ley N° 20.066; Ley Nº 20.830; Ley N° 19.253; Ley N° 20.830; Constitución Política; Constitución; constitucion
 
 I.- GENERALIDADES SOBRE LA FAMILIA.
 
@@ -570,8 +562,19 @@ a) El cónyuge;
 b) Los consanguíneos mayores de edad, sean en línea recta o colateral; y
 c) Los afines, sean en línea recta o colateral.
 
-
 ## 2.2.    El art. 321, al disponer a quiénes se debe alimentos, alude el precepto a los
+
+**Definición Canónica:** familiares más cercanos del alimentante, con quienes ha de entenderse que “forma
+una familia” (con la sola salvedad del donante, de una donación cuantiosa, no
+rescindida ni revocada). Establece la norma: “Se deben alimentos:
+1º. Al cónyuge;
+2º. A los descendientes;
+3º. A los ascendientes;
+4º. A los hermanos, y
+5º. Al que hizo una donación cuantiosa, si no hubiere sido rescindida o revocada.
+        La acción del donante se dirigirá contra el donatario.
+        No se deben alimentos a las personas aquí designadas, en los casos en que una
+ley expresa se los niegue”.
 
 familiares más cercanos del alimentante, con quienes ha de entenderse que “forma
 una familia” (con la sola salvedad del donante, de una donación cuantiosa, no
@@ -593,8 +596,16 @@ d) Las personas que viven con el usuario o habitador y a costa de éstos (“all
 y
 e) Las personas a quienes el usuario o habitador deben alimentos.
 
-
 ## 2.4.    Los arts. 988 a 990 y el 992 y la Ley Nº 20.830, al regular la sucesión
+
+**Definición Canónica:** intestada, señalan como miembros de una familia para estos efectos:
+a) Al cónyuge o conviviente civil;
+b) Los parientes consanguíneos en la línea recta; y
+c) Los parientes consanguíneos en la línea colateral, hasta el sexto grado inclusive.
+        La familia, entonces, estaría compuesta por aquellas personas que, de alguna
+manera, tienen derechos hereditarios en la sucesión intestada de una persona. La
+lejanía en el parentesco desprende de la familia a ciertas personas.
+**Concordancias Legales:** artículo 150 del Código; artículo 137; Ley N° 20.830; Ley N° 3.500; Ley N° 20.255; Ley Nº 18.802; Ley Nº 19.585; Ley Nº 20.680; Ley Nº 5.521; Ley N° 7.612; Ley N° 19.221; Ley N° 5.680; Ley N° 10.271; Ley N° 18.802; Ley N° 20.680; Ley N° 5.521; Ley N° 19.585; Ley N° 19.335; Ley N° 19.422
 
 intestada, señalan como miembros de una familia para estos efectos:
 a) Al cónyuge o conviviente civil;
@@ -859,6 +870,15 @@ chilena? Consigna como sus principales características:
 
 ## 1. Nuestro Derecho reconoce una estructura basada en el reconocimiento de la validez
 
+**Definición Canónica:** de los matrimonios civiles y religiosos, pero todavía, observaba el profesor Ruz,
+limitando el matrimonio a la unión de un hombre y una mujer, sin reconocer la familia
+monoparental ni menos a la familia homosexual. A su vez, se observa un tímido
+reconocimiento de la separación de hecho en la Ley de Matrimonio Civil. Con todo, a
+partir de la Ley Nº 21.400, de 10 de diciembre de 2021, se ha regulado en la
+legislación chilena el llamado “matrimonio igualitario”, que pueden celebrar personas
+del mismo o diferente sexo.
+**Concordancias Legales:** Ley Nº 21.400
+
 de los matrimonios civiles y religiosos, pero todavía, observaba el profesor Ruz,
 limitando el matrimonio a la unión de un hombre y una mujer, sin reconocer la familia
 monoparental ni menos a la familia homosexual. A su vez, se observa un tímido
@@ -869,11 +889,22 @@ del mismo o diferente sexo.
 
 ## 2. Doble estándar en materia de indisolubilidad matrimonial: fin de una hipocresía real
 
+**Definición Canónica:** y mantenimiento de la hipocresía legal de indisolubilidad. A pesar de que el art. 102
+del Código Civil consagra su carácter indisoluble, hoy gozamos de un matrimonio
+“disoluble”, con el reconocimiento del divorcio desvincular.
+
 y mantenimiento de la hipocresía legal de indisolubilidad. A pesar de que el art. 102
 del Código Civil consagra su carácter indisoluble, hoy gozamos de un matrimonio
 “disoluble”, con el reconocimiento del divorcio desvincular.
 
 ## 3. Debilitamiento de la autoridad paterna: hoy, hablamos de “autoridad parental”, para
+
+**Definición Canónica:** referirnos a la que detentan ambos padres en condiciones igualitarias. Lo mismo cabe
+señalar respecto del ejercicio de las facultades que otorga la patria potestad. Así puede
+afirmarse a partir de la Ley Nº 20.680, del año 2013. Como expondremos al tratar de
+los actuales principios del Derecho de Familia, en nuestros días se aprecia igualdad
+entre los padres en lo concerniente a estas dos potestades.
+**Concordancias Legales:** Ley Nº 20.680
 
 referirnos a la que detentan ambos padres en condiciones igualitarias. Lo mismo cabe
 señalar respecto del ejercicio de las facultades que otorga la patria potestad. Así puede
@@ -882,6 +913,16 @@ los actuales principios del Derecho de Familia, en nuestros días se aprecia igu
 entre los padres en lo concerniente a estas dos potestades.
 
 ## 4. Incongruencia entre la “plena capacidad de la mujer casada” y los resabios de la
+
+**Definición Canónica:** autoridad marital, habiendo sociedad conyugal: por una parte, se le reconoce a la
+mujer plena libertad en lo relativo a la administración de su patrimonio reservado,
+mientras que por otro lado se le da un tratamiento de incapaz en lo concerniente a la
+administración de los bienes sociales y propios, entregada al marido por regla general.
+5. “Libertad vigilada” para el marido: progresivamente, se han incorporado en el
+Código Civil restricciones a la administración que el marido hace de la sociedad
+conyugal, de manera que, para una serie de actos y contratos, requiere obtener la
+autorización de 
+**Concordancias Legales:** Ley Nº 18.802
 
 autoridad marital, habiendo sociedad conyugal: por una parte, se le reconoce a la
 mujer plena libertad en lo relativo a la administración de su patrimonio reservado,
@@ -907,6 +948,16 @@ hecha por la Ley Nº 18.802, del año 1989), pues tiene obligaciones y limitacio
 
 ## 6. Igualdad de la calidad de hijos: un gran paso formal y de fondo, afirma el profesor
 
+**Definición Canónica:** Ruz, fue la eliminación de aquella odiosa y discriminatoria nomenclatura de hijos de
+filiación legítima, natural o ilegítima (Ley Nº 19.585, de 1998). Hoy, conforme al art.
+33 del Código Civil, todos los hijos que tengan una filiación determinada tienen
+igualdad de derechos, cuestión particularmente relevante en materia sucesoria. Aún
+más, de tener el hijo filiación indeterminada a la muerte de su progenitor (que en vida
+no lo reconoció), podrá el primero accionar en contra de los herederos “aparentes” de
+dicho padre o madre, para que se declare su filiación y sus derechos a la herencia.
+     
+**Concordancias Legales:** Ley Nº 19.585
+
 Ruz, fue la eliminación de aquella odiosa y discriminatoria nomenclatura de hijos de
 filiación legítima, natural o ilegítima (Ley Nº 19.585, de 1998). Hoy, conforme al art.
 33 del Código Civil, todos los hijos que tengan una filiación determinada tienen
@@ -929,6 +980,16 @@ Civil y a leyes especiales en materia de Derecho de Familia20:
 
 ## 3. Decreto Ley N° 328 de 1925 y la Ley N° 5.521 de 19 de diciembre de 1934, que
 
+**Definición Canónica:** reemplazó al primero, por los cuales se mejoró sensiblemente la situación jurídica de la
+mujer y particularmente de la mujer casada. Esta Ley N° 5.521, además de sancionar
+la institución del patrimonio reservado de la mujer, consagrado en el art. 150 del
+Código Civil, modificó la definición de patria potestad, que en su texto primitivo era
+privativa del padre, incorporando como titular de la misma a la madre y precisando en
+qué casos le correspondía asumirla. Cabe consignar que ella tuvo por antecedente el
+citado Decreto Ley N° 328 de 1925, dictado por el gobierno de facto de la época, por
+ini
+**Concordancias Legales:** Ley N° 5.521; Ley Nº 4.808
+
 reemplazó al primero, por los cuales se mejoró sensiblemente la situación jurídica de la
 mujer y particularmente de la mujer casada. Esta Ley N° 5.521, además de sancionar
 la institución del patrimonio reservado de la mujer, consagrado en el art. 150 del
@@ -946,17 +1007,28 @@ supradicha.
 
 ## 5. Ley N° 5.680, de 13 de septiembre de 193521: esta Ley, extendió de cinco a diez
 
+**Definición Canónica:** años, la edad hasta la cual los hijos varones permanecerían bajo el cuidado personal
+de la madre. Cumpliendo diez años, los varones pasaban a quedar bajo el cuidado
+personal del padre, permaneciendo las hijas con la madre.
+
 años, la edad hasta la cual los hijos varones permanecerían bajo el cuidado personal
 de la madre. Cumpliendo diez años, los varones pasaban a quedar bajo el cuidado
 personal del padre, permaneciendo las hijas con la madre.
 
 ## 6. Ley N° 5.750 de 2 de diciembre de 1935, que permitió investigar la paternidad
 
+**Definición Canónica:** ilegítima para el efecto que el hijo ilegítimo pudiera demandar alimentos de su padre.
+Dicha ley también suprimió la categoría de hijos de dañado ayuntamiento, dividiendo
+los hijos “ilegítimos” en naturales y simplemente ilegítimos.
+
 ilegítima para el efecto que el hijo ilegítimo pudiera demandar alimentos de su padre.
 Dicha ley también suprimió la categoría de hijos de dañado ayuntamiento, dividiendo
 los hijos “ilegítimos” en naturales y simplemente ilegítimos.
 
 ## 7. Ley N° 7.612 de 21 de octubre de 1943, en virtud de la cual se permite alterar las
+
+**Definición Canónica:** capitulaciones matrimoniales durante el matrimonio sustituyendo el régimen de
+**Concordancias Legales:** Ley N° 7.613
 
 capitulaciones matrimoniales durante el matrimonio sustituyendo el régimen de
 
@@ -969,40 +1041,27 @@ promulgación, Santiago de Chile, Editorial Nascimento, 1955, pp. 10 y 11.
 disminuyó de 25 a 21 años la mayoría de edad.
 8. Ley N° 7.613, de 21 de octubre de 1943, que establece la adopción ordinaria.
 
-## 9. Ley N° 10.271 de 2 de abril de 1952, una las más importantes reformas al Código
-
-Civil, que autoriza la investigación de la filiación natural, simplifica el reconocimiento
-de los hijos naturales y mejora los derechos hereditarios del cónyuge y de los
-señalados hijos naturales.
-
 ## 10. Ley N° 14.908, de 5 de octubre de 1962, sobre abandono de familia y pago de
+
+**Definición Canónica:** pensiones alimenticias.
+11. Ley N° 16.346, de 20 de octubre de 1965, sobre legitimación adoptiva.
+12. Ley N° 16.618, de 8 de marzo de 1967, Ley de Menores.
+13. Ley N° 18.703, de 10 de mayo de 1988, sobre adopción.
+**Concordancias Legales:** Ley N° 16.346; Ley N° 16.618; Ley N° 18.703
 
 pensiones alimenticias.
 11. Ley N° 16.346, de 20 de octubre de 1965, sobre legitimación adoptiva.
 12. Ley N° 16.618, de 8 de marzo de 1967, Ley de Menores.
 13. Ley N° 18.703, de 10 de mayo de 1988, sobre adopción.
 
-## 14. Ley N° 18.802, de 9 de junio de 1989. La principal reforma al Código Civil que
-
-introdujo esta ley fue suprimir, al menos en teoría, la incapacidad relativa de la mujer
-casada en sociedad conyugal.
-
-## 15. Ley N° 19.221, de 1 de junio de 1993, que rebajó de 21 a 18 años la mayoría de
-
-edad.
-
-## 16. Ley N° 19.325, de 27 de agosto de 1994, primer cuerpo legal sobre violencia
-
-intrafamiliar.
-
-## 17. Ley N° 19.335, de 23 de septiembre de 1994, que incorporó en el Código Civil la
-
-institución de los bienes familiares y el régimen de participación en los gananciales.
-
-## 18. Ley N° 19.585, del 26 de octubre de 1998, vigente a partir del 27 de octubre de
-
-
 ## 1999. La llamada “Ley de Filiación”, supuso la reforma más profunda al Código Civil en
+
+**Definición Canónica:** materia de Derecho de Familia y Derecho Sucesorio, y su importancia es equiparable a
+la que tuvo la Ley N° 10.271. Sin duda, la modificación más relevante consistió en
+establecer la igualdad ante la ley en la condición de los hijos matrimoniales y no
+matrimoniales, en reemplazo del antiguo distingo entre hijos legítimos y naturales,
+eliminando de paso la categoría de hijos simplemente ilegítimos.
+**Concordancias Legales:** Ley N° 10.271
 
 materia de Derecho de Familia y Derecho Sucesorio, y su importancia es equiparable a
 la que tuvo la Ley N° 10.271. Sin duda, la modificación más relevante consistió en
@@ -1010,79 +1069,18 @@ establecer la igualdad ante la ley en la condición de los hijos matrimoniales y
 matrimoniales, en reemplazo del antiguo distingo entre hijos legítimos y naturales,
 eliminando de paso la categoría de hijos simplemente ilegítimos.
 
-## 19. Ley N° 19.620, sobre adopción de menores, de 5 de agosto de 1999. Concentró la
-
-normativa sobre adopción, ahora circunscrita sólo a menores de edad y derogó de paso
-las leyes 7.613 (que permitía la adopción de mayores de edad) y 18.703.
-
-## 20. Ley N° 19.741, de 24 de julio de 2001, que introduce modificaciones a los
-
-alimentos.
-
-## 21. Ley N° 19.947, de 17 de mayo de 2004, que contiene la segunda Ley de
-
-Matrimonio Civil, que reemplazó la antigua que nos regía desde el año 1884.
-
-## 22. Ley N° 19.968, de 30 de agosto de 2004, que crea los Tribunales de Familia y
-
-establece el procedimiento aplicable en los juicios que antes éstos se ventilen.
-23. Ley N° 20.030, de fecha 5 de julio de 2005, que incide en la prueba de la filiación.
-
-## 24. Ley N° 20.066, de fecha 7 de octubre de 2005, segunda Ley de Violencia
-
-intrafamiliar, que sustituyó a la Ley N° 19.325.
-
-## 25. Ley N° 20.152, de 9 de enero de 2007, que modifica normas sobre el derecho de
-
-alimentos.
-
-## 26. Ley N° 20.286, de 15 de septiembre de 2008, que modifica la Ley sobre Tribunales
-
-de Familia. La misma ley excluye toda forma de maltrato físico y psicológico a los
-hijos.
-
-## 27. Ley N° 20.680, de 21 de junio de 2013, que modifica normas sobre el cuidado
-
-personal y la patria potestad.
-28. Ley N° 20.830, de 21 de abril de 2015, que crea Acuerdo de Unión Civil.
-
-## 29. Ley Nº 21.120, de 10 de diciembre de 2018, que Reconoce y da protección al
-
-derecho a la identidad de género.
-
-## 30. Ley Nº 21.264, de 11 de septiembre de 2020, que suprime impedimento de
-
-segundas nupcias para la mujer.
-
-                   La Familia y el Matrimonio – Juan Andrés Orrego Acuña                17
-
-## 31. Ley Nº 21.334, de 14 de mayo de 2021, sobre determinación del orden de los
-
-apellidos de los hijos por acuerdo de los padres.
-
-## 32. Ley Nº 21.389, de 18 de noviembre de 2021, que crea el Registro Nacional de
-
-Deudores de Pensiones de Alimentos y modifica diversos cuerpos legales para
-perfeccionar el sistema de pago de las pensiones de alimentos.
-
-## 33. Ley Nº 21.400, de 10 de diciembre de 2021, que modifica diversos cuerpos legales
-
-para regular, en igualdad de condiciones, el matrimonio entre personas del mismo
-sexo.
-
-## 34. Ley N° 21.430, de 15 de marzo de 2022, sobre garantías y protección integral de
-
-los derechos de la niñez y adolescencia.
-
-## 35. Ley N° 21.484, de 7 de septiembre de 2022, que se refiere a la responsabilidad
-
-parental y pago efectivo de deudas de pensiones de alimentos
-
-## 36. Ley Nº 21.515, de 28 de diciembre de 2022, que modifica diversos cuerpos legales
-
-para establecer la mayoría de edad como requisito esencial para la celebración del
-
 ## 37. Ley N° 21.676, de 24 de junio de 2024, que extiende plazo para la inscripción del
+
+**Definición Canónica:** matrimonio religioso ante el Registro Civil.
+       A las normas anteriores, pueden agregarse convenciones internacionales
+suscritas y ratificadas por nuestro país, propias del Derecho de Familia, como por
+ejemplo la Convención sobres los Derechos del Niño (Diario Oficial de 27 de septiembre
+de 1990) y la Convención sobre la eliminación de todas las formas de discriminación
+contra la mujer (Diario Oficial de fecha 9 de diciembre de 1989 y su protocolo
+facultativo del año 2000).
+       Esta manifiesta dinámica legislativa demuestra que nuestra sociedad ha
+buscado en forma ininterrumpida, adecua
+**Concordancias Legales:** artículo 42 del Código Civil; artículos 990; artículo 2329 del Código Civil que establece que por regla gene; artículos 195; artículo 189; artículo 1; artículo 332 del Código Civil; Artículo 51; Artículo 148; Artículo 105; Artículo 16; Ley N° 20.830; Ley Nº 21.400; Ley N° 20.720; Ley N° 19.585; Ley N° 20.680; Ley Nº 20.830; Ley Nº 1.361; Ley Nº 19.947; Ley N° 21.430; Ley Nº 19.968; Ley Nº 19.620; Ley Nº 14.908; Ley Nº 20.680; Ley Nº 19.585; Ley N° 19.947; Ley Nº 21.515; Ley N° 14.908; Ley N° 19.968; Ley N° 20.286; constitucion; constitución; Constitución Política
 
 matrimonio religioso ante el Registro Civil.
        A las normas anteriores, pueden agregarse convenciones internacionales
@@ -2877,26 +2875,27 @@ esa normativa.
 Oficial de fecha 15 de septiembre de 2008. Tras esta modificación, los tribunales de
 familia son competentes para conocer de los siguientes asuntos:
 
-## 1. Las causas relativas al derecho de cuidado personal de los niños, niñas o
-
-adolescentes;
-
-## 2. Las causas relativas al derecho y el deber del padre o de la madre que no tenga el
-
-cuidado personal del hijo, a mantener con éste una relación directa y regular;
-
 ## 3. Las causas relativas al ejercicio, suspensión o pérdida de la patria potestad; a la
+
+**Definición Canónica:** emancipación y a las autorizaciones a que se refieren los párrafos 2. y 3. del Título X
+del Libro I del Código Civil (párrafo 2: “Del derecho legal de goce sobre los bienes de
+los hijos y de su administración”; párrafo 3: “De la representación legal de los hijos”);
+4. Las causas relativas al derecho de alimentos;
 
 emancipación y a las autorizaciones a que se refieren los párrafos 2. y 3. del Título X
 del Libro I del Código Civil (párrafo 2: “Del derecho legal de goce sobre los bienes de
 los hijos y de su administración”; párrafo 3: “De la representación legal de los hijos”);
 4. Las causas relativas al derecho de alimentos;
 
-## 5. Los disensos para contraer matrimonio (que ya no operan en realidad, pues no
-
-puede contraer matrimonio un menor de edad);
-
 ## 6. Las guardas, con excepción de aquellas relativas a pupilos mayores de edad, y
+
+**Definición Canónica:** aquellas que digan relación con la curaduría de la herencia yacente, sin perjuicio de lo
+establecido en el inc. 2° del art. 494 del Código Civil (por ende, toda guarda que se
+decrete sobre una persona mayor de edad, por causa de demencia o disipación, debe
+ventilarse ante un juzgado civil; lo mismo cabe respecto de la declaración de yacencia
+de la herencia; el inc. 2º del art. 494 dispone: “Los curadores para pleito o ad litem
+son dados por la judicatura que conoce en el pleito, y si fueren procuradores de
+número no necesitarán que se les discierna el cargo”);
 
 aquellas que digan relación con la curaduría de la herencia yacente, sin perjuicio de lo
 establecido en el inc. 2° del art. 494 del Código Civil (por ende, toda guarda que se
@@ -2906,52 +2905,43 @@ de la herencia; el inc. 2º del art. 494 dispone: “Los curadores para pleito o
 son dados por la judicatura que conoce en el pleito, y si fueren procuradores de
 número no necesitarán que se les discierna el cargo”);
 
-## 7. Todos los asuntos en que aparezcan niños, niñas o adolescentes gravemente
-
-vulnerados o amenazados en sus derechos, respecto de los cuales se requiera adoptar
-una medida de protección conforme al art. 30 de la Ley de Menores;
-
-## 8. Las acciones de filiación y todas aquellas que digan relación con la constitución o
-
-modificación del estado civil de las personas;
-
 ## 9. Todos los asuntos en que se impute la comisión de cualquier falta a adolescentes
+
+**Definición Canónica:** mayores de 14 y menores de 16 años de edad, y las que se imputen a adolescentes
+mayores de 16 y menores de 18 años, que no se encuentren contempladas en el inc.
+3º del art. 1º de la N° Ley N° 20.084. Tratándose de hecho punibles cometidos por un
+niño o niña, el juez de familia procederá de acuerdo a lo prescrito en el artículo 102 N;
+**Concordancias Legales:** artículo 102; Ley N° 20.084
 
 mayores de 14 y menores de 16 años de edad, y las que se imputen a adolescentes
 mayores de 16 y menores de 18 años, que no se encuentren contempladas en el inc.
 3º del art. 1º de la N° Ley N° 20.084. Tratándose de hecho punibles cometidos por un
 niño o niña, el juez de familia procederá de acuerdo a lo prescrito en el artículo 102 N;
 
-## 10. La autorización para la salida de niños, niñas o adolescentes del país, en los casos
-
-en que corresponda de acuerdo con la ley;
-
-## 11. Las causas relativas al maltrato de niños, niñas o adolescentes de acuerdo a lo
-
-dispuesto en el inciso 2° del art. 62 de la Ley N° 16.618;
-
-## 12. Los procedimientos previos a la adopción, de que trata el Título II de la Ley N°
-
-19.620;
-13. El procedimiento de adopción a que se refiere el Título III de la Ley N° 19.620;
-
 ## 14. Los siguientes asuntos que se susciten entre cónyuges, relativos al régimen
+
+**Definición Canónica:** patrimonial del matrimonio y los bienes familiares:
+a) Separación judicial de bienes;
+b) Las causas sobre declaración y desafectación de bienes familiares y la constitución
+de derechos de usufructo, uso o habitación sobre los mismos;
+**Concordancias Legales:** constitución
 
 patrimonial del matrimonio y los bienes familiares:
 a) Separación judicial de bienes;
 b) Las causas sobre declaración y desafectación de bienes familiares y la constitución
 de derechos de usufructo, uso o habitación sobre los mismos;
 
-## 15. Las acciones de separación, nulidad y divorcio reguladas en la Ley de Matrimonio
-
-Civil;
-
-## 16. Los actos de violencia intrafamiliar; y
-
-
-                   La Familia y el Matrimonio – Juan Andrés Orrego Acuña               51
-
 ## 17. Toda otra materia que la ley les encomiende (por ejemplo, arts. 13 y 18 de la Ley
+
+**Definición Canónica:** Nº 21.120 que “Reconoce y da protección al derecho a la identidad de género”).
+         Cabe consignar que la Ley N° 20.286, al modificar el art. 8 de la Ley N° 19.968,
+suprimió la letra b) del antiguo numeral 15, que decía: “b) Autorizaciones judiciales
+comprendidas en los Párrafos 1. y 2. del Título VI del Libro I; y en los Párrafos 1., 3. y
+4. del Título XII y en el Título XXII-A, del Libro IV; todos del Código Civil”. Todas estas
+materias, entonces, son ahora de competencia de los juzgados civiles. Son ellas las
+autorizaciones a que aluden las siguientes disposiciones del Código Civil:
+i.-
+**Concordancias Legales:** artículo 67 de la Ley N; artículo 4; artículo 33; artículo 8; artículos 1456; artículos 5; artículo 9 de la Ley de 1884. La Ley de 1884; artículos 9; artículos 18; artículo 14 de la Ley de Matrimonio Civil; artículos 13179; Ley N° 20.286; Ley N° 19.968; Ley N° 20.830; Ley N° 19.947; Ley Nº 21.515; Ley N°19.968; Ley N° 19.904; Ley N° 19.620; Ley N° 19.335; Ley Nº 19.947; Ley N° 21.515; Ley Nº 21.264; Ley N° 21.389; Ley N° 19.25372; Ley N° 19.90474; Ley Nº 19.904; Constitución
 
 Nº 21.120 que “Reconoce y da protección al derecho a la identidad de género”).
          Cabe consignar que la Ley N° 20.286, al modificar el art. 8 de la Ley N° 19.968,
@@ -3968,6 +3958,16 @@ producirán los mismos efectos que el matrimonio civil, siempre que cumplan con 
 requisitos contemplados en la Ley de Matrimonio Civil, en especial lo prescrito en el
 
 ## Capítulo II de la citada ley, que estamos analizando. Dichos efectos civiles se
+
+**Definición Canónica:** producirán desde la inscripción del matrimonio ante un Oficial del Registro Civil (art.
+20, inc. 1º).
+        Esta disposición, aunque sorprenda a algunos, había sido propuesta cuando se
+discutió la Ley de 1884. En efecto, al iniciarse la discusión particular del proyecto que
+había presentado el diputado Ricardo Letelier, los congresales se dividieron entre el
+proyecto de la comisión y otro, presentado por el diputado Julio Zegers, quien proponía
+incluir la siguiente norma: “Produce efectos civiles el matrimonio que se celebra con
+arreglo al rito católico o al de otra religión reconocida por e
+**Concordancias Legales:** artículo 20; artículos 29; artículo 20 de la Ley de Matrimonio Civil; artículos 5; artículos 15 del Código Civil y 15 de la Ley de 1884. Ahora; artículo 80 de la Ley de Matrimonio Civil; Artículo 25; artículo 25 de la Ley de Matrimonio Civil establece que la fech; artículos 222; artículos 321; artículos 55; artículos 141; artículo 48 ter de la Ley de Menores; artículos 155; artículos 988; artículos 172; artículo 323; artículo 332; artículo 225; artículos 42; artículo 38 de la Ley de 1884; artículo 5; artículo 44; artículo 51; artículo 43; artículo 32; artículo 68 del Código Civil italiano y pretende resolver el; artículos 44; artículos 6; artículo 122 del Código Civil; ley N° 19.947; ley 19.638; Ley N° 19.63886; Ley N° 19.638; Ley N° 21.676; Ley N° 4.808; Ley Nº 21.400; Ley N° 14.908; Ley N° 19.968; Ley N° 20.066
 
 producirán desde la inscripción del matrimonio ante un Oficial del Registro Civil (art.
 20, inc. 1º).
@@ -6019,6 +6019,16 @@ y en su conjunto, concurriendo con hijos legítimos, no podían llevar más de u
 
 ## parte de la herencia o de la mitad legitimaria en su caso. Tras la reforma, todos los
 
+**Definición Canónica:** hijos de filiación determinada heredan en condiciones igualitarias.
+        Pero el matrimonio putativo también puede tener gran importancia para ambos
+presuntos cónyuges o sólo para uno de los presuntos cónyuges. Al respecto,
+debiéramos distinguir según si los efectos del matrimonio nulo fueron “comunes” o sólo
+“individuales”. Veamos un ejemplo de cada caso:
+i.- Así, por ejemplo, si habiendo sociedad conyugal y durante el matrimonio después
+declarado nulo se había adquirido a título oneroso un inmueble por cualquiera de los
+cónyuges, y después fue enajenado por el marido (que estaba de mala f
+**Concordancias Legales:** artículo 706; artículo 122; artículos 2304; artículo 54 de la Ley de Matrimonio Civil; artículo 55 de la Ley de Matrimonio Civil. En el primero; artículo 1552 del Código Civil; artículos 357; Ley N° 19.947; Ley N° 19.968
+
 hijos de filiación determinada heredan en condiciones igualitarias.
         Pero el matrimonio putativo también puede tener gran importancia para ambos
 presuntos cónyuges o sólo para uno de los presuntos cónyuges. Al respecto,
@@ -6425,6 +6435,9 @@ ocurre cualquiera de los siguientes hechos:
 
 ## 1. Atentado contra la vida o malos tratamientos graves contra la integridad física o
 
+**Definición Canónica:** psíquica del cónyuge o de alguno de los hijos.
+**Concordancias Legales:** artículo 358; artículo 54; artículo 54 inciso 1; artículo 54 de la Ley número 19.947; artículos 186; Ley 19.947
+
 psíquica del cónyuge o de alguno de los hijos.
 
     Barrientos Grandón Javier, Novales Alquézar, Aranzazú, ob. cit., p. 364. El profesor Carlos López Díaz
@@ -6565,6 +6578,17 @@ tratamientos graves y repetidos en contra de la cónyuge y los hijos (…) por l
 dará lugar al divorcio solicitado.”190
 
 ## 2. Trasgresión grave y reiterada de los deberes de convivencia, socorro y fidelidad
+
+**Definición Canónica:** propios del matrimonio. El abandono continuo o reiterado del hogar común, es una
+forma de trasgresión grave de los deberes del matrimonio.191 192
+        Respecto del deber de convivencia, es natural que su incumplimiento constituya
+una causal de divorcio, si tenemos presente que uno de los tres fines esenciales del
+matrimonio es “vivir juntos”; con todo, no olvidemos que el art. 133 del Código Civil
+previene que uno de los cónyuges puede exonerarse del deber de vivir juntos, cuando
+“le asista razones graves para no hacerlo”, circunstancia que deberá acreditar quien la
+alega.
+        Nótese qu
+**Concordancias Legales:** artículo 54; artículo 132; artículo 132 del Código Civil; artículo 54 inciso 3; artículo 26 de la Ley de Matrimonio Civil no exige reiteración; artículo 132 del Código Civil es sólo una forma; artículo 131 del Código Civil; artículo 21; artículo 54 de la Ley número 19.947; artículo 20 del Código Civil al prescribir que; artículo 5; artículo 132 del Código Civil sólo señala que el adulterio con; Ley N° 19.335; constitución
 
 propios del matrimonio. El abandono continuo o reiterado del hogar común, es una
 forma de trasgresión grave de los deberes del matrimonio.191 192
@@ -6971,6 +6995,18 @@ cónyuges, como sí lo hace la separación judicial.
 
 ## 3. Condena ejecutoriada por la comisión de alguno de los crímenes o simples delitos
 
+**Definición Canónica:** contra el orden de las familias y contra la moralidad pública, o contra las personas,
+previstos en el Libro II, Títulos VII y VIII, del Código Penal, que involucre una grave
+ruptura de la armonía conyugal212.
+        Puede observarse que deben cumplirse tres requisitos para que opere esta
+causal:
+i) Que se trate de la comisión de ciertos delitos, los más graves que contempla el
+Código Penal;
+ii) Que se dicte sentencia, y esta quede ejecutoriada; y
+iii) Que la comisión del delito, además, provoque una grave ruptura de la armonía
+conyugal213, lo que deberá probar quien demande el divorcio.
+     
+
 contra el orden de las familias y contra la moralidad pública, o contra las personas,
 previstos en el Libro II, Títulos VII y VIII, del Código Penal, que involucre una grave
 ruptura de la armonía conyugal212.
@@ -6992,6 +7028,12 @@ normativo opera tanto respecto del condenado que se encuentre cumpliendo con la
 pena como asimismo con el que cumplió con su condena.215
 
 ## 4. Alcoholismo o drogadicción que constituya un impedimento grave para la
+
+**Definición Canónica:** convivencia armoniosa entre los cónyuges o entre éstos y los hijos 216.
+        Al respecto, señala una sentencia de fecha 5 de mayo de 2008 de la Corte de
+Apelaciones de San Miguel: “SEGUNDO: Que los testigos de la demandante
+demuestran que el demandado efectivamente consumía alcohol, situación que sin otros
+**Concordancias Legales:** artículo 54; artículo 226 del Código Civil. Los hechos mencionados; artículo 2; artículo 62; artículo 19 de la Constitución Política; artículo 19 de la Carta Fundamental. El Tribunal Constitucional; artículo 3; artículo 55; artículo 9; artículo 70 de la Ley número 18.175 señala los juicios que esca; artículo 232 del Código Civil. Cabe destacar que esta disposic; artículo 55 de la Ley número 19.947; artículo 55 de la Ley Nº 19.947; artículos 22; artículo 28; artículo 55 de la Ley 19.947; artículo 67 de la Ley 19.968 se declara que; artículo 55 inciso 1; artículo 55 inciso 4; artículo 55 de la Ley de Matrimonio Civil; artículos 28; artículos 67 de la Ley 19.968 y 186 y siguientes del Código de P; artículo 29; artículos 56; artículo 24 de la Ley de 1884. Como destaca el profesor Cour; Ley Nº 19.947; Ley N° 19.947; Ley 19.947; Ley Nº 14.908; Ley N° 19.968; Ley 19.968; Constitucion; Constitución Política
 
 convivencia armoniosa entre los cónyuges o entre éstos y los hijos 216.
         Al respecto, señala una sentencia de fecha 5 de mayo de 2008 de la Corte de
@@ -8079,8 +8121,10 @@ de divorcio, como lo da a entender claramente el art. 31 del Código Civil, al a
 persona “que está o ha estado casada”. Por lo tanto, los divorciados, siguen siendo
 parientes por afinidad, con los consanguíneos del cónyuge de quien se han divorciado.
 
-
 ## Vii.- de las reglas comunes a ciertos casos de separacion, nulidad
+
+**Definición Canónica:** Y DIVORCIO.
+**Concordancias Legales:** artículos 71; artículos 103; Artículo 17; artículos 80; artículo 62; artículo 64 de la Ley Nº 19.947; artículo 58 de la Ley sobre Tribunales de Familia270 pues confo; artículo 58; artículos 60; artículo 66; artículo 19 de la Constitución Política de la República en su n; artículo 19; artículo 21; artículo 14 de la Ley 14.908; artículo 67; artículos 14 de la Ley 14.908; artículo 14 de la Ley 14.908 en relación a lo dispuesto en el i; artículo 66 de la Ley 19.947; Artículo 22; artículo 29; Ley N° 20.286; Ley N° 10.271; Ley 19.947; Ley N° 20.239; Ley Nº 21.120; Ley Nº 19.968; Ley Nº 20.830; Ley Nº 19.947; Ley N° 20.255; ley N° 19.947; ley N° 3.500; Ley Nº 20.286; Ley N° 14.908; Ley 14.908; Ley 19.968; Constitucion; Constitución; Constitución Política
 
 Y DIVORCIO.
 
@@ -9273,6 +9317,9 @@ el inc. 2º del art. 67, ya referidas (art. 70).
 
 ## Viii.- de la ley aplicable al matrimonio y del reconocimiento de
 
+**Definición Canónica:** LAS SENTENCIAS EXTRANJERAS.
+**Concordancias Legales:** artículos 120; artículos 242; artículo 245; artículo 42; artículos 54; artículo 83 de la Ley N; artículo 245 del Código de Enjuiciamiento Civil; artículos 174; artículos 14; Ley Nº 19.947; Ley N° 20.286; Ley N° 19.947; Ley N° 19.585; Ley N° 18.802; Ley N° 19.335; Ley N° 14.908.293
+
 LAS SENTENCIAS EXTRANJERAS.
 
 1.- Principio general.
@@ -9677,6 +9724,16 @@ lo contrajo, pero dejará de producir efectos civiles desde que falte la buena f
 
 ## parte de ambos cónyuges”. Se trata de un matrimonio que tenía la apariencia de
 
+**Definición Canónica:** válido, al menos para uno de los ex presuntos cónyuges. Por ello, a pesar de que se
+declare su nulidad, no se entienden extinguidos los efectos que hubiera producido,
+reconociéndolos la ley, como si el matrimonio hubiere sido válidamente contraído. Y
+entre tales efectos, podrá encontrarse el crédito por alimentos. Cabe indicar que el art.
+52 de la Ley de Matrimonio Civil establece que se presume que los cónyuges han
+contraído matrimonio de buena fe y con justa causa de error, salvo que en el juicio de
+nulidad se probare lo contrario y así se declare en la sentencia. Dicho en otros
+términos: en
+**Concordancias Legales:** Ley N° 18.802; Ley N° 20.066; Constitucion
+
 válido, al menos para uno de los ex presuntos cónyuges. Por ello, a pesar de que se
 declare su nulidad, no se entienden extinguidos los efectos que hubiera producido,
 reconociéndolos la ley, como si el matrimonio hubiere sido válidamente contraído. Y
@@ -9817,9 +9874,10 @@ según el caso concreto, es de existencia meramente eventual y puede llegar a su
 sólo en caso de divorcio (o nulidad).” Como expresan los profesores Pizarro y Vidal, se
 trata de una obligación cuya fuente es la ley.
 
-
 ## Cuarta parte: del concubinato
 
+**Definición Canónica:** 1.- Concepto.
+**Concordancias Legales:** artículo 1749 del Código Civil a menos que se haya pactado sepa; artículo 227; Ley Nº 20.066; Ley Nº 15.386; Ley Nº 16.744; Ley Nº 3.500; Ley Nº 19.253
 
 1.- Concepto.
 
@@ -10023,11 +10081,13 @@ concubinos (fallos de fecha 26 de abril de 2011, autos Rol N° 7.568-2009; y de 
 14 de octubre de 2010, autos Rol N° 1.421-2009, en el segundo con un voto disidente
 que estuvo por acoger demanda).
 
-
 ## Quinta parte: de la mediación familiar
 
+**Definición Canónica:** La materia se encuentra regulada en la Ley N° 19.968, sobre Tribunales de
+Familia, Título V, artículos 103 a 114, “De la Mediación Familiar”.
+**Concordancias Legales:** artículos 103; Ley N° 19.968
 
-       La materia se encuentra regulada en la Ley N° 19.968, sobre Tribunales de
+La materia se encuentra regulada en la Ley N° 19.968, sobre Tribunales de
 Familia, Título V, artículos 103 a 114, “De la Mediación Familiar”.
 
 1.- Concepto y características.
@@ -10079,6 +10139,16 @@ mediación.
 
 ## 2. Voluntariedad: la mediación es eminentemente voluntaria, de manera que los
 
+**Definición Canónica:** participantes en ella podrán retirarse del proceso en cualquier momento, sea que ello
+ocurra en la primera sesión de mediación, o en cualquier otro momento. Según
+veremos, la voluntariedad no obsta para que la ley establezca algunas materias de
+mediación obligatoria, pero aún en tales casos, subsiste la facultad de los participantes
+para retirarse de la misma. Dicho de otro modo: en algunos casos, están obligados a
+comparecer ante un mediador, pero no a perseverar en la mediación.
+3. Confidencialidad: se originan los siguientes efectos de este principio:
+i) El mediador deberá guardar reserva d
+**Concordancias Legales:** Artículo 247 del Código Penal
+
 participantes en ella podrán retirarse del proceso en cualquier momento, sea que ello
 ocurra en la primera sesión de mediación, o en cualquier otro momento. Según
 veremos, la voluntariedad no obsta para que la ley establezca algunas materias de
@@ -10117,6 +10187,12 @@ efecto por el tribunal competente (art. 107, inc. 4º).
 
 ## 5. Interés superior del niño: por el cual, en el curso de la mediación, el mediador
 
+**Definición Canónica:** velará siempre para que se tome en consideración el interés superior del niño, niña o
+adolescente, en su caso, pudiendo citarlos sólo si su presencia es estrictamente
+indispensable para el desarrollo de la mediación. La norma anterior debe armonizarse
+con lo dispuesto en el art. 16, que consagra el derecho del niño, niña o adolescente, a
+ser oído.
+
 velará siempre para que se tome en consideración el interés superior del niño, niña o
 adolescente, en su caso, pudiendo citarlos sólo si su presencia es estrictamente
 indispensable para el desarrollo de la mediación. La norma anterior debe armonizarse
@@ -10124,6 +10200,10 @@ con lo dispuesto en el art. 16, que consagra el derecho del niño, niña o adole
 ser oído.
 
 ## 6. Opiniones de terceros: en virtud de este principio, el mediador velará para que se
+
+**Definición Canónica:** consideren las opiniones de los terceros que no hubieren sido citados a la audiencia, a
+quienes también podrá citar.
+**Concordancias Legales:** artículo 8 de la Ley; artículos 96; artículo 111; artículo 161; artículos 361; Ley N° 19.620; Ley N° 20.066; Ley N° 19.968; Ley N° 21.394
 
 consideren las opiniones de los terceros que no hubieren sido citados a la audiencia, a
 quienes también podrá citar.
@@ -10458,9 +10538,10 @@ competencia en asuntos de familia, contratando al efecto los servicios de person
 jurídicas o naturales, a fin de que sean ejecutados por quienes se encuentren inscritos
 en el Registro de Mediador.
 
-
 ## Sexta parte: del acuerdo de unión civil
 
+**Definición Canónica:** 1.- Origen de la institución y concepto.
+**Concordancias Legales:** artículos 8; artículos 1; artículo 15 de la Ley. vii; artículos 14; Ley N° 20.830; Ley N° 19.477
 
 1.- Origen de la institución y concepto.
 
@@ -10902,6 +10983,16 @@ por quienes no hayan celebrado el contrato. La primera, regulada por la Ley Nº
 
 ## 20.830. La segunda, carente de regulación sistemática, pues diversas normas
 
+**Definición Canónica:** desperdigadas en distintos cuerpos legales aluden a ella. El “concubinato”, entonces,
+queda circunscrito a la segunda especie de convivencia (y bajo el entendido que hoy
+los convivientes podrían serlo del mismo sexo y no como históricamente se entendió,
+en cuanto se exigía diferencia de sexo pues igual cosa ocurría para celebrar el contrato
+de matrimonio). Cabe destacar al efecto que el art. 24 dispone que las leyes y
+reglamentos que hacen alusión a los convivientes, sea con esta expresión u otras que
+puedan entenderse referidas a ellos, serán igualmente aplicables a los convivientes
+civiles. 
+**Concordancias Legales:** artículo 42 del Código Civil; artículo 455; artículo 461; artículo 15 de la Ley N; artículo 1317 del Código Civil; artículo 26; artículos 2304; Ley Nº 20.830; Ley N° 14.908; Ley N° 20.830
+
 desperdigadas en distintos cuerpos legales aluden a ella. El “concubinato”, entonces,
 queda circunscrito a la segunda especie de convivencia (y bajo el entendido que hoy
 los convivientes podrían serlo del mismo sexo y no como históricamente se entendió,
@@ -11083,6 +11174,13 @@ precepto, en lo que concierne a la división de las cosas comunes, se remite a l
 de la partición de la herencia, y entre ellas, en consecuencia, podrá invocarse el art.
 
 ## 1317. Pero dicha partición no implicaría poner término al pacto de comunidad, sino que
+
+**Definición Canónica:** liquidar sólo los bienes que sean comunes a la época de la demanda de partición. Por
+lo tanto, los bienes que cualquiera de los convivientes civiles adquiere con
+posterioridad a título oneroso, serán comunes. Para que expire el pacto de comunidad,
+será necesario que así lo pacten los convivientes civiles o que expire el acuerdo de
+unión civil.
+**Concordancias Legales:** artículos 1736; Ley N° 19.947; ley N° 2.763; Ley N° 20.830; Ley N° 3.500; Ley N° 20.255
 
 liquidar sólo los bienes que sean comunes a la época de la demanda de partición. Por
 lo tanto, los bienes que cualquiera de los convivientes civiles adquiere con
@@ -11421,8 +11519,17 @@ los cónyuges, y no los derechos o beneficios que las leyes les confieren.
 
 7.1. Por muerte natural de uno de los convivientes civiles.
 
-
 ## 7.2. Por muerte presunta de uno de los convivientes civiles, de conformidad a lo
+
+**Definición Canónica:** dispuesto en el art. 43 de la Ley de Matrimonio Civil. En consecuencia, expirará el
+Acuerdo siempre:
+i.- Que hayan transcurrido cinco años desde las últimas noticias y setenta años desde
+el nacimiento del desaparecido;
+ii.- Que hayan transcurrido cinco años desde que una persona recibió una herida grave
+en la guerra, o le sobrevino otro peligro semejante, y no se ha sabido más de ella;
+iii.- Que hayan transcurrido diez años desde la fecha de las últimas noticias, fijada en
+la sentencia que declara la presunción de muerte, cualquiera que fuese la edad del
+desaparecido si viviere;
 
 dispuesto en el art. 43 de la Ley de Matrimonio Civil. En consecuencia, expirará el
 Acuerdo siempre:
@@ -11440,16 +11547,25 @@ la pérdida de una nave o aeronave que no apareciere dentro de tres meses;
 v.- Que haya transcurrido un año, desde el día presuntivo de la muerte, en el caso de
 un sismo o catástrofe.
 
-
 ## 7.3. Por la comprobación judicial de la muerte de uno de los convivientes civiles
+
+**Definición Canónica:** efectuada por el juez del último domicilio que el difunto haya tenido en Chile, en los
+términos prescritos en los arts. 95 y 96 del Código Civil.
 
 efectuada por el juez del último domicilio que el difunto haya tenido en Chile, en los
 términos prescritos en los arts. 95 y 96 del Código Civil.
 
 7.4. Por el matrimonio de los convivientes civiles entre sí.
 
-
 ## 7.5. Por mutuo acuerdo de los convivientes civiles, que deberá constar por escritura
+
+**Definición Canónica:** pública o acta otorgada ante Oficial del Registro Civil.
+       La escritura pública o el acta se anotará al margen de la inscripción del acuerdo
+de unión civil en el Registro Especial de Acuerdos de Unión Civil. La ley no señala plazo
+para efectuar la anotación o subinscripción, pero sí advierte que el término del Acuerdo
+producirá efectos desde que se realice dicho trámite.
+       Como puede observarse, el Acuerdo es resciliable.
+       La facultad de resciliar el contrato debe entenderse irrenunciable.
 
 pública o acta otorgada ante Oficial del Registro Civil.
        La escritura pública o el acta se anotará al margen de la inscripción del acuerdo
@@ -11459,8 +11575,17 @@ producirá efectos desde que se realice dicho trámite.
        Como puede observarse, el Acuerdo es resciliable.
        La facultad de resciliar el contrato debe entenderse irrenunciable.
 
-
 ## 7.6. Por voluntad unilateral de uno de los convivientes civiles, que deberá constar por
+
+**Definición Canónica:** escritura pública o acta otorgada ante Oficial del Registro Civil.
+         Dicha escritura o acta, también deberá subinscribirse al margen de la
+inscripción del acuerdo de unión civil en el Registro Especial de Acuerdos de Unión
+Civil. El acuerdo de unión civil se entenderá terminado al practicar esta anotación
+marginal (art 26, último inciso).
+         En cualquiera de estos casos –es decir, sea que la declaración unilateral se
+formule por escritura pública o por acta suscrita en el Registro Civil-, exige la Ley que
+el acto sea notificado al otro conviviente civil, mediante gestión voluntari
+**Concordancias Legales:** artículo 7; artículo 26; Artículo 46; artículo 5; Artículo 48; artículo 258; artículo 42 del Código Civil o la persona con la que haya man; artículo 688 del Código Civil; Ley N° 20.830; Ley Nº 19.968; Ley Nº 20.830; Ley N° 19.620; Ley N° 150; Ley N° 19.947; Ley N° 20.000; Ley N° 20.340; Ley N° 16.271; Ley N° 18.314; Ley N° 16.744; Ley N° 20.255; Ley N° 18.883; Ley N° 3.500; Ley N° 18.834; Ley N° 1.282; ley N°2552; constitución
 
 escritura pública o acta otorgada ante Oficial del Registro Civil.
          Dicha escritura o acta, también deberá subinscribirse al margen de la
@@ -12412,9 +12537,19 @@ penalidad (art. 43 de la Ley).
 prevista para la Ley N° 20.000, en cuanto a disponer medidas especiales de protección
 para ciertas personas, entre las que se incluye al conviviente civil.
 
-
 ## Cuestionario
 
+**Definición Canónica:** 1.- ¿Por qué se afirma que las definiciones de “Familia” del Diccionario de la Lengua
+son problemáticas desde el punto de vista del Derecho?
+2.- ¿Qué normas de la Constitución Política se refieren a la familia? Señale brevemente
+qué disponen.
+3.- Señale siete artículos del Código Civil que se refieren a la familia y en cada caso,
+indique la materia a la que se refieren.
+4.- Indique cinco normas de rango legal especiales, que se refieren a la familia y en
+cada caso, indique la materia a la que se refieren.
+5.- ¿Cómo se definía la familia “tradicional”? ¿Cuáles eran las vertientes de la misma?
+6
+**Concordancias Legales:** Ley N° 18.802; Ley N° 21.430; Ley Nº 19.947; Ley Nº 19.968; Ley Nº 20.830; Constitución Política
 
 1.- ¿Por qué se afirma que las definiciones de “Familia” del Diccionario de la Lengua
 son problemáticas desde el punto de vista del Derecho?

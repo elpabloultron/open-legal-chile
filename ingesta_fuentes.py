@@ -22,11 +22,17 @@ import json
 import os
 import pathlib
 import re
-import subprocess
+import shutil
+import tempfile
+import subprocess  # nosec B404 (sólo para pdftotext/pdftoppm, binarios fijos)
 import unicodedata
 from typing import Any, Dict, List, Optional, Tuple
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent
+
+# Ruta completa del binario: además de callar el aviso de bandit, evita depender del PATH.
+PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
+PDFTOPPM = shutil.which("pdftoppm") or "pdftoppm"
 DOCTRINA = BASE_DIR / "doctrina"
 FUENTES = pathlib.Path.home() / ".openlegal" / "fuentes"
 
@@ -73,12 +79,12 @@ def inferir_materia(archivo: str, material: str = "") -> Tuple[str, str]:
 
 def _texto_de_pdf(ruta: pathlib.Path, max_paginas: Optional[int] = None) -> Tuple[str, str]:
     """Devuelve (texto, cómo). Intenta pdftotext y, si no hay capa de texto, OCR."""
-    orden = ["pdftotext", "-layout"]
+    orden = [PDFTOTEXT, "-layout"]
     if max_paginas:
         orden += ["-f", "1", "-l", str(max_paginas)]
     orden += [str(ruta), "-"]
     try:
-        r = subprocess.run(orden, capture_output=True, text=True, timeout=600)
+        r = subprocess.run(orden, capture_output=True, text=True, timeout=600)  # nosec B603
         texto = r.stdout or ""
     except Exception:
         texto = ""
@@ -95,11 +101,9 @@ def _texto_de_pdf(ruta: pathlib.Path, max_paginas: Optional[int] = None) -> Tupl
         motor = forensic_ocr.ForensicOCREngine()
         if not motor.is_available():
             return texto, "pdftotext (sin capa de texto y sin motor de OCR)"
-        import tempfile  # noqa: PLC0415
-
         with tempfile.TemporaryDirectory() as temporal:
-            subprocess.run(["pdftoppm", "-r", "200", "-png", str(ruta), f"{temporal}/pag"],
-                           capture_output=True, timeout=1800)
+            subprocess.run([PDFTOPPM, "-r", "200", "-png", str(ruta), f"{temporal}/pag"],
+                           capture_output=True, timeout=1800)  # nosec B603
             partes = []
             for imagen in sorted(pathlib.Path(temporal).glob("*.png")):
                 parte = motor._run_rapidocr(str(imagen)) if motor.is_rapidocr_available() else ""
@@ -138,6 +142,33 @@ def _limpiar(texto: str) -> str:
     return texto.strip()
 
 
+PATRONES_NORMA = [
+    re.compile(r"[Aa]rtículos?\s+(?:N[°º]\s*)?[\d\.]+(?:\s+(?:bis|ter))?"
+               r"(?:\s+(?:inciso|inc\.)\s*\d+)?"
+               r"(?:\s+(?:del?|de la)\s+[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ\.\s]{2,44})?"),
+    re.compile(r"[Ll]ey\s+(?:N[°º]\s*)?[\d\.]{4,}"),
+    re.compile(r"\bD\.?L\.?\s*(?:N[°º]\s*)?[\d\.]{3,}"),
+    re.compile(r"\bD\.?F\.?L\.?\s*(?:N[°º]\s*)?[\d\.]{2,}"),
+    re.compile(r"[Cc]onstituci[oó]n(?:\s+Pol[ií]tica)?"),
+    re.compile(r"\b(?:CPC|CPP|CT|CC|COIP|CPR|COC|COT)\b"),
+]
+
+
+def _concordancias(texto: str, limite: int = 40) -> str:
+    """Saca del texto las normas que cita, en forma compacta para la ficha del índice."""
+    hallazgos, vistos = [], set()
+    for patron in PATRONES_NORMA:
+        for m in patron.finditer(texto):
+            ref = re.sub(r"\s+", " ", m.group(0)).strip(" .,;:")
+            clave = ref.lower()
+            if clave not in vistos and 4 < len(ref) < 90:
+                vistos.add(clave)
+                hallazgos.append(ref)
+                if len(hallazgos) >= limite:
+                    return "; ".join(hallazgos)
+    return "; ".join(hallazgos)
+
+
 def _es_titulo(linea: str) -> bool:
     """Heurística de encabezado: mayúsculas, numeración, «CAPÍTULO», o línea corta sin punto."""
     t = linea.strip()
@@ -154,20 +185,46 @@ def _es_titulo(linea: str) -> bool:
 
 
 def _a_markdown(texto: str, titulo: str) -> str:
-    """Convierte el texto plano en algo con estructura: `##` donde parece haber secciones."""
-    lineas = texto.split("\n")
-    salida: List[str] = []
-    en_seccion = False
-    for linea in lineas:
+    """Arma secciones `##` con la ficha que el índice de doctrina sabe leer.
+
+    El índice parte el documento por `## ` y, dentro de cada parte, busca «**Definición Canónica:**»
+    y «**Concordancias Legales:**». Un documento sin secciones no se indexa: por eso, si la
+    heurística no encuentra ninguna, el documento entero va como una sola sección con su título.
+    """
+    secciones: List[Tuple[str, str]] = []
+    actual: Optional[str] = None
+    buffer: List[str] = []
+    for linea in texto.split("\n"):
         if _es_titulo(linea):
-            if not en_seccion:
-                en_seccion = True
-            salida.append("")
-            salida.append(f"## {linea.strip().capitalize() if linea.strip().isupper() else linea.strip()}")
-            salida.append("")
+            if actual is not None:
+                secciones.append((actual, "\n".join(buffer)))
+            actual, buffer = linea.strip(), []
         else:
-            salida.append(linea)
-    return "\n".join(salida).strip()
+            buffer.append(linea)
+    if actual is not None:
+        secciones.append((actual, "\n".join(buffer)))
+
+    partes: List[str] = []
+    for nombre, cuerpo in secciones:
+        cuerpo = cuerpo.strip()
+        if len(cuerpo) < 200:  # una sección sin contenido no es una institución
+            continue
+        parrafos = [x.strip() for x in re.split(r"\n\s*\n", cuerpo) if x.strip()]
+        definicion = parrafos[0][:600] if parrafos else ""
+        concordancias = _concordancias(cuerpo)
+        limpio_nombre = nombre.capitalize() if nombre.isupper() else nombre
+        bloque = [f"## {limpio_nombre}", "", f"**Definición Canónica:** {definicion}"]
+        if concordancias:
+            bloque.append(f"**Concordancias Legales:** {concordancias}")
+        bloque += ["", cuerpo]
+        partes.append("\n".join(bloque))
+
+    if not partes:  # sin secciones el índice no ve el documento: va entero como una
+        concordancias = _concordancias(texto)
+        partes = [f"## {titulo}\n\n**Definición Canónica:** {texto[:600]}\n"
+                  + (f"**Concordancias Legales:** {concordancias}\n" if concordancias else "")
+                  + f"\n{texto}"]
+    return "\n\n".join(partes).strip()
 
 
 def convertir_pdf(ruta: pathlib.Path, titulo: str, autor: str, area: str, materia: str,
@@ -254,10 +311,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PDF → Markdown para el corpus de doctrina")
     parser.add_argument("--limite", type=int, default=None)
     parser.add_argument("--desde", type=str, default="")
-    parser.add_argument("--informe", type=str, default="/tmp/ingesta_informe.json")
+    parser.add_argument("--informe", type=str, default="")
     args = parser.parse_args()
     resultado = convertir_todo(limite=args.limite, desde=args.desde)
-    pathlib.Path(args.informe).write_text(json.dumps(resultado, ensure_ascii=False, indent=1),
+    destino_informe = pathlib.Path(args.informe) if args.informe else (
+        pathlib.Path(tempfile.gettempdir()) / "ingesta_informe.json")
+    destino_informe.write_text(json.dumps(resultado, ensure_ascii=False, indent=1),
                                           encoding="utf-8")
     print(f"\nCONVERTIDOS: {resultado['convertidos']}")
-    print(f"informe: {args.informe}")
+    print(f"informe: {destino_informe}")

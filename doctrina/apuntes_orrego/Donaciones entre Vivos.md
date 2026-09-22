@@ -13,14 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Donaciones entre vivos1
-
-
-1. Las liberalidades y las donaciones entre vivos.
-
-        Como bien lo plantea Alejandro Guzmán Brito, las donaciones entre vivos forman
-
 ## parte de un sistema más general, cual es el de las liberalidades. Por “liberalidad”, se
+
+**Definición Canónica:** entiende “aquella virtud moral que consiste en distribuir alguien generosamente sus bienes
+sin esperar recompensa”, o como la “disposición de bienes a favor de alguien sin ninguna
+prestación suya”. 2 Las liberalidades son el género y las donaciones irrevocables una
+especie de liberalidad. Las liberalidades se encuentran a lo largo de todo el Código Civil.
+Así, en el Libro Primero, a propósito de las fundaciones; en el Libro Segundo, al tratar de la
+propiedad fiduciaria; en el Libro Tercero, respecto de las asignaciones a título singular, de
+las donaciones revocables y de las donaciones irrevoc
+**Concordancias Legales:** constitución
 
 entiende “aquella virtud moral que consiste en distribuir alguien generosamente sus bienes
 sin esperar recompensa”, o como la “disposición de bienes a favor de alguien sin ninguna
@@ -38,8 +40,10 @@ los legados. Las fundaciones, el fideicomiso, el censo, la renta vitalicia y el 
 pueden pertenecer a una u otra categoría. Los tres últimos, además, pueden ser onerosos y
 entonces dejan de ser liberalidades.3
 
-
 ## 2. Razón de la reglamentación de la donación entre vivos en el Libro III y normas que las
+
+**Definición Canónica:** reglamentan.
+**Concordancias Legales:** artículo 1416; artículo 1493; artículos 1386; artículos 1391; artículo 1411; artículos 963; artículo 1391; artículos 1136; artículo 18 de la Ley número 16.271; artículo 2; artículo 1386
 
 reglamentan.
 
@@ -124,6 +128,16 @@ a. La donación es, por regla general, un contrato.
 entre vivos es un acto por el cual una persona transfiere gratuita e irrevocablemente una
 
 ## parte de sus bienes a otra persona, que la acepta.”12 Comentando esta definición, Meza
+
+**Definición Canónica:** Barros y Somarriva señalan que habría sido mejor aludir a un “contrato” antes que a un
+“acto”. De cualquier manera, no ponen en duda que estemos ante un contrato, pues se
+requiere del concurso de las voluntades del donante y donatario. Por lo demás, agregan, tal
+carácter se ratifica en el inciso 2º del artículo 1416, transcrito.13 14
+        Con todo, no hay contrato aunque sí donación, en los siguientes casos:
+● Cuando la donación consiste en la remisión gratuita de deudas;
+● En el pago de lo que no se debe, a sabiendas.
+● En la remisión de una prenda o de una hipoteca, estando insolvente el 
+**Concordancias Legales:** artículo 1416; artículos 693; artículo 1386; artículo 675; artículo 1439; artículos 1089; artículo 1089; artículos 1493; artículo 1420; artículo 1398; artículo 1092; artículo 1426; artículo 1440 del Código Civil. El contrato reporta utilidad pa; artículo 1442; artículo 1401; artículo 1137; artículo 1428; artículo 1393; artículo 2299; artículo 1387; artículo 1389; artículo 1388; artículo 251; artículo 254; artículo 402; artículo 255; artículo 1749; artículo 1735; artículo 1759; artículo 1742; artículos 1390; artículo 1390; artículo 962; artículos 963; artículo 1391; artículo 1392; artículo 1412; artículo 1654; artículo 1411; artículo 1394
 
 Barros y Somarriva señalan que habría sido mejor aludir a un “contrato” antes que a un
 “acto”. De cualquier manera, no ponen en duda que estemos ante un contrato, pues se
@@ -1055,6 +1069,8 @@ deberán insinuarse.” (artículo 1434).
 
 ## título” (artículo 1436), es decir, a las reglas generales de las donaciones.70
 
+**Definición Canónica:** 5. Efectos de las donaciones entre vivos.
+**Concordancias Legales:** artículo 1417; artículo 1625 del Código Civil; artículo 1626; artículo 1408; artículo 1422; artículo 1423; artículo 1435; artículo 1489; artículo 1426; artículo 1092; artículo 1407; artículo 1409; artículo 1418; artículo 1421; artículo 1419; artículo 1380; artículos 1426; artículo 1427; artículo 1551; artículos 1090; artículo 1090 del Código Civil; artículos 1089; artículo 1416; artículo 907; artículos 908; artículo 1424; artículo 1187; artículo 1186; artículo 1425; artículo 1426 del Código Civil sin más y en todo caso; artículo 1428; artículos 968; artículo 1430; artículo 1431; artículos 904; artículo 1429; artículo 1432; artículos 1490; artículos 898; artículo 1464
 
 5. Efectos de las donaciones entre vivos.
 

@@ -13,10 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## La tradición1
-
-
 ## Sumario: 1.- Regulación y definición. 2.- Características. 3.- Campo de
+
+**Definición Canónica:** aplicación e importancia. 4.- Entrega y tradición. 5.- Requisitos de la
+tradición. a) Presencia de dos partes. b) Consentimiento del tradente y del
+adquirente. c) Existencia de un título traslaticio de dominio. d) La entrega de la cosa,
+con la intención de transferir el dominio. 6.- Efectos de la tradición. a) Efectos de la
+tradición, cuando el tradente es dueño de la cosa que entrega. b) Efectos de la
+tradición cuando el tradente no es dueño de la cosa que se entrega. c) Adquisición del
+dominio por el tradente, con posterioridad a la tradición. d) Cuando puede pedirse la
+tradición. e) Tradici
 
 aplicación e importancia. 4.- Entrega y tradición. 5.- Requisitos de la
 tradición. a) Presencia de dos partes. b) Consentimiento del tradente y del
@@ -35,6 +41,15 @@ derecho de herencia. d) Tradición de los derechos personales. CUESTIONARIO.
         Regula el Código Civil la tradición en los arts. 670 a 699, que conforman el
 
 ## Título VI “De la tradición”, del Libro II. Se divide en tres párrafos: “1. Disposiciones
+
+**Definición Canónica:** generales” (arts. 670 a 683); “2. De la tradición de las cosas corporales muebles”
+(arts. 684 y 685); y “3. De las otras especies de tradición” (arts. 686 a 699). También
+debemos considerar las normas del Título XXV del Libro IV, “De la cesión de derechos”,
+que se divide en tres párrafos: “1. De los créditos personales” (arts. 1901 a 1908); “2.
+Del derecho de herencia” (arts. 1909 y 1910); “3. De los derechos litigiosos” (arts.
+1911 a 1914).
+        Por ahora, revisaremos con el pertinente detalle los arts. 670 a 699. Los arts.
+1901 a 1908 y 1911 a 1914 se revisarán cuando tratemos de la “Cesi
 
 generales” (arts. 670 a 683); “2. De la tradición de las cosas corporales muebles”
 (arts. 684 y 685); y “3. De las otras especies de tradición” (arts. 686 a 699). También
@@ -108,6 +123,16 @@ d) Modo de adquirir que puede operar a título gratuito o a título oneroso: si 
 antecedente es una donación, será a título gratuito; si es una compraventa, será a
 
 ## título oneroso. Se suele afirmar que es el único de los modos de adquirir que puede
+
+**Definición Canónica:** operar a título oneroso, con la salvedad que, en la accesión, hay ciertas figuras en las
+que el adquirente debe efectuar un pago, aunque no como requisito para adquirir el
+dominio, sino a consecuencia de la adquisición del dominio. No se trata entonces de
+que el “título” sea oneroso, pues en la accesión sólo hay modo, no título, y la
+obligación se hace exigible después de que se adquiere el dominio, y no antes, como
+ocurre en la tradición. Con todo, nos remitimos a lo expuesto al tratar de “Los Modos
+de adquirir”, en cuanto ahí señalamos que en nuestra opinión la prescripción también
+puede ope
+**Concordancias Legales:** artículos 670
 
 operar a título oneroso, con la salvedad que, en la accesión, hay ciertas figuras en las
 que el adquirente debe efectuar un pago, aunque no como requisito para adquirir el
@@ -503,6 +528,16 @@ que le sirve de título traslaticio de dominio. Esto es lo que se denomina “in
 
 ## título en la tradición”. Lo mismo cabe decir si hay ausencia de título traslaticio. Desde
 
+**Definición Canónica:** este punto de vista, se dice que la ley concibe la tradición como un acto causado (por
+un título) y no abstracto o independiente.
+        Pero el alcance de la nulidad de la tradición por falta de título o título nulo, no
+queda perfectamente definido. Esta indefinición se advierte en relación con el efecto
+posesorio de la tradición. Cuando el art. 675 dispone que la falta de título o la nulidad
+de éste anula la tradición, no deja en claro si esa nulidad priva de todo efecto, hasta el
+punto de estimar que no sólo no transfirió el dominio, sino que además nunca el
+adquirente recibió la cosa con 
+**Concordancias Legales:** artículo 670 del Código Civil
+
 este punto de vista, se dice que la ley concibe la tradición como un acto causado (por
 un título) y no abstracto o independiente.
         Pero el alcance de la nulidad de la tradición por falta de título o título nulo, no
@@ -567,13 +602,20 @@ justo título y sirve al adquirente para iniciar una posesión regular. Aún má
 permite al sucesor añadir la posesión de los antecesores con sus calidades y vicios.
 b.2) El tradente es poseedor irregular: si el adquirente está de buena fe y tiene justo
 
-## título, mejora el título que tenía su tradente y el título y la tradición servirán de justo
-
-
 ## título para la posesión regular. En este caso, no le conviene al actual poseedor agregar
 
+**Definición Canónica:** La Tradición – Juan Andrés Orrego Acuña                        10
+la posesión de su antecesor, porque si lo hace, la posesión regular del primero se
+transformará en irregular, pues la agregación de posesiones opera con sus calidades y
+vicios.
+b.3) El tradente es un mero tenedor de la cosa entregada por él o a su nombre: siendo
+el tradente un mero tenedor, jamás puede llegar a adquirir la cosa por prescripción,
+porque la mera tenencia excluye la posesión (con la excepción contemplada en el art.
+2510 regla tercera). Pero aún en este caso, el adquirente sí tendrá el derecho de ganar
+por la presc
+**Concordancias Legales:** artículo 470
 
-                          La Tradición – Juan Andrés Orrego Acuña                        10
+La Tradición – Juan Andrés Orrego Acuña                        10
 la posesión de su antecesor, porque si lo hace, la posesión regular del primero se
 transformará en irregular, pues la agregación de posesiones opera con sus calidades y
 vicios.
@@ -749,6 +791,15 @@ mueble como usufructuario, arrendatario, comodatario, depositario, o a cualquier
 
 ## título no translaticio de dominio; y recíprocamente por el mero contrato en que el
 
+**Definición Canónica:** dueño se constituye usufructuario, comodatario, arrendatario, etc.”.
+        Esta tradición puede ser de dos clases: real y ficta.
+        Tradición real o verdadera, también llamada “de mano en mano”, es la que se
+hace física o materialmente, sea entregando la cosa el tradente al adquirente, sea
+permitiendo el primero al segundo la aprensión material de la cosa tradida, y
+manifestando uno la voluntad de transferir y el otro la voluntad de adquirir el dominio:
+art. 684, inc. 1º. Tradición ficta o simbólica es la que se hace por medio de una ficción,
+símbolo o señal, que representa la cosa trad
+
 dueño se constituye usufructuario, comodatario, arrendatario, etc.”.
         Esta tradición puede ser de dos clases: real y ficta.
         Tradición real o verdadera, también llamada “de mano en mano”, es la que se
@@ -812,6 +863,16 @@ entrega, otros en cambio, han entendido que también es ésta una forma de tradi
 real, al permitir la tenencia de las llaves la posibilidad de tomar inmediata posesión por
 
 ## parte del adquirente. La ley no exige en todo caso que el almacén, cofre, etc., esté a la
+
+**Definición Canónica:** vista de las partes, pero la entrega de las llaves debe ser real.
+4º Encargándose el uno de poner la cosa a disposición del otro en el lugar
+convenido: del tenor del precepto, se observa que aquí queda efectuada la tradición
+al convenirse el encargo. El tradente, ahora sólo mero tenedor de la cosa, se obliga a
+ponerla a disposición del adquirente en algún lugar. Como no se exige que se cumpla
+el encargo para entender verificada la tradición, ésta queda efectuada desde luego, sin
+esperar a que efectivamente el tradente ponga la cosa tradida en el lugar convenido.
+De ahí a que se diga que, en es
+**Concordancias Legales:** artículo 684 del Código Civil; artículo 1801 inciso 2; Ley N° 20.930; Ley Nº 6.977; constitución
 
 vista de las partes, pero la entrega de las llaves debe ser real.
 4º Encargándose el uno de poner la cosa a disposición del otro en el lugar
@@ -1164,6 +1225,16 @@ la propiedad raíz al registro comienza a perfilarse en el Proyecto de Código C
 
 ## 1853. Su art. 822 señalaba que la tradición podía ser real o simbólica. El art. 823
 
+**Definición Canónica:** prescribía acto seguido: “La [tradición] real de las cosas corporales muebles se hace
+pasándolas de mano a mano; la de los inmuebles, entrando en ellas el que la recibe, a
+presencia del que las entrega; manifestándose en el uno la voluntad de transferir, i en
+el otro la de adquirirlo”. Y agregaba el art. 826: “Se podrá también efectuar la
+tradición de las heredades y casas, registrando la escritura pública de enajenación en
+la competente oficina del Conservador de Bienes Raíces y firmando el Conservador la
+partida, junto con ambas partes o sus apoderados. Transferido de este modo el
+dominio, n
+**Concordancias Legales:** artículo 826; artículo 686; artículos 690; artículos 78; Artículo 78; Constitución
+
 prescribía acto seguido: “La [tradición] real de las cosas corporales muebles se hace
 pasándolas de mano a mano; la de los inmuebles, entrando en ellas el que la recibe, a
 presencia del que las entrega; manifestándose en el uno la voluntad de transferir, i en
@@ -1423,6 +1494,14 @@ superficie y planos, si los hay.
 
 ## 5. La persona natural o jurídica a cuyo favor se haga la inscripción, con indicación del
 
+**Definición Canónica:** derecho o calidad que asume.
+         Dicha información deberá precisar el número de cédula de identidad, en el caso
+de chilenos residentes en Chile; el de la cédula de identidad para extranjeros, en el
+caso de extranjeros residentes en el país; por último, el número de pasaporte, en el
+caso de extranjeros y chilenos residentes en el extranjero.
+         Si se trata de persona natural, deberá indicarse su estado civil, según aparezca
+en el título.
+
 derecho o calidad que asume.
          Dicha información deberá precisar el número de cédula de identidad, en el caso
 de chilenos residentes en Chile; el de la cédula de identidad para extranjeros, en el
@@ -1431,13 +1510,18 @@ caso de extranjeros y chilenos residentes en el extranjero.
          Si se trata de persona natural, deberá indicarse su estado civil, según aparezca
 en el título.
 
-## 6. La persona de quien procedan inmediatamente los bienes o derechos que deban
-
-inscribirse.
-7. Última inscripción que la preceda.
-8. La indicación de que se ha constituido como bien familiar, según sea el caso.
-
 ## 9. La indicación, cuando proceda, de que se trata de tierras indígenas de conformidad
+
+**Definición Canónica:** con lo dispuesto en el artículo 12 de la ley Nº 19.253, que establece normas sobre
+protección, fomento y desarrollo de los indígenas, y crea la Corporación Nacional de
+Desarrollo Indígena.
+10. Otras observaciones relevantes no comprendidas en los numerales anteriores,
+cuando corresponda”.
+         En cuanto a la referencia que debe hacerse a la inscripción anterior, esta
+exigencia también se contempla en el art. 692 del Código Civil, que dispone: “Siempre
+que se transfiera un derecho que ha sido antes inscrito, se mencionará la precedente
+inscripción en la nueva”. El art. 80 de la Ley del Regi
+**Concordancias Legales:** artículo 12; ley Nº 19.253
 
 con lo dispuesto en el artículo 12 de la ley Nº 19.253, que establece normas sobre
 protección, fomento y desarrollo de los indígenas, y crea la Corporación Nacional de
@@ -1501,6 +1585,18 @@ enunciaciones:
 
 ## 5. El registro parcial en que debe hacerse la inscripción y el número que en él le
 
+**Definición Canónica:** corresponde.
+        El REGISTRO está integrado por tres libros o registros parciales que lleva el
+Conservador:
+i) Registro de Propiedad;
+ii) Registro de Hipotecas y Gravámenes; y
+iii) Registro de Interdicciones y Prohibiciones de Enajenar (art. 31).
+        Todos son anuales (art. 36). Los arts. 32 y 33 establecen las inscripciones que
+deben hacerse en cada libro. Las características materiales de estos Libros o Registros
+parciales están señaladas en los arts. 34 y siguientes. Cabe destacar que la
+jurisprudencia ha determinado que la inscripción practicada en un Registro que no
+corresponde ad
+
 corresponde.
         El REGISTRO está integrado por tres libros o registros parciales que lleva el
 Conservador:
@@ -1517,6 +1613,9 @@ nombres de los otorgantes (art. 41); este índice es de especial importancia pr�
 para la ubicación de los títulos y contribuye a caracterizar el Registro. Además, en un
 
 ## apéndice de este índice se inventarían los documentos agregados al final del Registro
+
+**Definición Canónica:** (art. 42).
+**Concordancias Legales:** Ley N° 21.772
 
 (art. 42).
 
@@ -1585,30 +1684,18 @@ años reincida en alguna de las siguientes conductas o incurra en dos o más de 
 
 ## 1. Si no anota en el repertorio los títulos en el acto de recibirlos o no lo cierra
 
+**Definición Canónica:** diariamente, como se prescribe en el artículo 28.
+2. Si no lleva los registros en el orden que preceptúan las leyes o reglamentos.
+3. Si efectúa indebidamente, niega o retarda sin causa justificada alguna inscripción.
+**Concordancias Legales:** artículo 28
+
 diariamente, como se prescribe en el artículo 28.
 2. Si no lleva los registros en el orden que preceptúan las leyes o reglamentos.
 3. Si efectúa indebidamente, niega o retarda sin causa justificada alguna inscripción.
 
-## 4. Si los certificados o copias que emite adolecen de alteraciones o inexactitudes
-
-injustificadas.
-
-## 5. Si al cobrar por sus servicios infringe lo dispuesto en el artículo 492 del Código
-
-Orgánico de Tribunales.
-
-## 6. Si incumple injustificadamente los deberes de mantención y operación de sistemas
-
-computacionales, archivo electrónico, comunicación digital y restantes estándares
-tecnológicos establecidos en los artículos 5 y 5 bis y en los reglamentos que sean
-aplicables.
-
-## 7. Si incumple el deber de informar a la Unidad de Análisis Financiero, con arreglo a lo
-
-prescrito en la ley Nº 19.913, que crea la Unidad de Análisis Financiero y modifica
-diversas disposiciones en materia de lavado y blanqueo de activos.
-
 ## 8. Si incumple injustificadamente los horarios de funcionamiento del oficio o el ejercicio
+
+**Definición Canónica:** personal de sus funciones, establecidos por las leyes o reglamentos”.
 
 personal de sus funciones, establecidos por las leyes o reglamentos”.
 
@@ -1694,6 +1781,18 @@ auténticos, vale decir, que hagan fe por sí mismos y que sirvan inmediatamente
 
 ## título al dominio, al derecho real o asiento practicable (…). Este principio se vincula con
 
+**Definición Canónica:** el de legalidad”.60
+        En palabras de Sepúlveda, “La forma documental que se exige para que la
+inmensa mayoría de los títulos tengan acceso al Registro es el instrumento público o
+   Zárate González, Santiago, ob. cit., p. 340.
+   Sepúlveda Larroucau, Marco Antonio, ob. cit., p 193.
+   Borda, Guillermo A., ob. cit., p. 432.
+   Mohor Albornoz, Elías, “El sistema registral chileno”, Ponencia, Encuentro de Antigua, Guatemala, 17 al 21
+de febrero de 2003, p. 4, disponible en www.ipra-cinder.info (consultada el 2 de enero de 2025).
+   Trapani de Espeche, Dora, ob. cit., p. 5.
+   Borda, Guiller
+**Concordancias Legales:** artículo 690 del Código Civil y artículos 13; artículo 12 del D.L. N; D.L. N° 2.695
+
 el de legalidad”.60
         En palabras de Sepúlveda, “La forma documental que se exige para que la
 inmensa mayoría de los títulos tengan acceso al Registro es el instrumento público o
@@ -1726,6 +1825,16 @@ referida a los inmuebles), al derecho inscribible, al titular inscrito, al títu
 determinación, “se deben encontrar debidamente identificados la finca, el derecho, el
 
 ## título y el titular. En definitiva, el asiento debe estar extendido en términos claros y
+
+**Definición Canónica:** completos”;65 como expresa Trapani, “Se tiende por este principio a que tanto objetiva
+como jurídicamente aparezca perfectamente determinado el dominio o derecho real
+que se inscribe y su titular”.66
+        Para Guillermo A. Borda, conforme a este principio, se “Requiere que la cosa
+sobre la cual recae la inscripción esté determinada con toda precisión. Nuestra ley 67
+exige que el asiento se redacte sobre la base de breves notas que indicarán la
+ubicación y descripción del inmueble, sus medidas, superficie y linderos y cuantas
+especificaciones resulten necesarias para su completa individualiz
+**Concordancias Legales:** artículos 6; artículo 50; artículo 1689 del Código Civil; artículos 1837; artículo 19; artículos 32; artículo 53; artículo 1962 del Código Civil y cualquier otro acto o contrato; artículo 2438 del Código Civil; Constitución Política; constitución; constitucion
 
 completos”;65 como expresa Trapani, “Se tiende por este principio a que tanto objetiva
 como jurídicamente aparezca perfectamente determinado el dominio o derecho real
@@ -2307,6 +2416,9 @@ Cortes han concluido que el Conservador puede rehusar una inscripción si detect
 
 ## título un vicio de nulidad relativa y en otras oportunidades sólo si el vicio en cuestión
 
+**Definición Canónica:** es constitutivo de nulidad absoluta.
+**Concordancias Legales:** artículo 13; artículo 13 del Reglamento118 o de otros artículos. Limitarse
+
 es constitutivo de nulidad absoluta.
 
                           La Tradición – Juan Andrés Orrego Acuña                       41
@@ -2464,6 +2576,9 @@ adquieren el carácter de “injustos”, expresa lo siguiente: “La inscripci�
 
 ## título nulo absoluta como relativamente produce efectos no deseados en el Registro de
 
+**Definición Canónica:** forma inmediata, sin necesidad de declaración judicial alguna (artículo 1687 del Código
+**Concordancias Legales:** artículo 1687 del Código Peñailillo Arévalo; artículos 13; artículo 708; artículo 704; artículo 1689
+
 forma inmediata, sin necesidad de declaración judicial alguna (artículo 1687 del Código
 
     Peñailillo Arévalo, Daniel, ob. cit., N° 133, pp. 827 y 828.
@@ -2492,6 +2607,11 @@ que el marido pueda enajenar un inmueble de la sociedad conyugal o si el cónyug
 propietario pretende enajenar un inmueble declarado bien familiar y no conste en el
 
 ## título la autorización del cónyuge no propietario o de la justicia en subsidio. En el
+
+**Definición Canónica:** primer caso, sería evidente la vulneración de los arts. 1749 y 1757 del Código Civil. En
+el segundo caso, es notoria también la infracción a los arts. 142 a 144 del Código Civil.
+En estos casos, en consecuencia, nos parece razonable la negativa del Conservador.
+**Concordancias Legales:** artículo 2169 del Código Civil; artículo 58; artículo 58 del Reglamento del Registro Conservatorio de Bien; artículos 16; artículo 64; artículos 345; artículo 539 del Código Orgánico de Tribunales; Ley 20.930; Ley N° 1.939; Ley N° 21.772; Ley N° 20.711; constitución
 
 primer caso, sería evidente la vulneración de los arts. 1749 y 1757 del Código Civil. En
 el segundo caso, es notoria también la infracción a los arts. 142 a 144 del Código Civil.
@@ -2679,6 +2799,16 @@ que deben ser presentados en el extranjero, facilitando su circulación entre lo
 
 ## Parte”. Agrega el Decreto “Que los documentos públicos otorgados por un Estado Parte
 
+**Definición Canónica:** de la Convención no deberán ser sometidos al procedimiento de legalización si
+respecto de estos se ha otorgado un certificado denominado ‘Apostilla’ por la autoridad
+designada por el Estado del que dimana dicho documento”.
+        La Convención, de esta manera, crea un nuevo sistema de legalización de
+instrumentos otorgados en país extranjero, que viene a sumarse al tradicional
+denominado “cadena de firmas” o “cadena de legalizaciones”. El último, sólo operará
+respecto de países que no sean partes de la Convención de la Apostilla.
+        Como consecuencia de lo anterior, la citada Ley N° 20.7
+**Concordancias Legales:** Ley N° 20.711
+
 de la Convención no deberán ser sometidos al procedimiento de legalización si
 respecto de estos se ha otorgado un certificado denominado ‘Apostilla’ por la autoridad
 designada por el Estado del que dimana dicho documento”.
@@ -2718,19 +2848,17 @@ art. quedó con el siguiente tenor:
         “Una vez protocolizados, valdrán como instrumentos públicos:
 1. Los testamentos cerrados y abiertos en forma legal;
 
-## 2. Los testamentos solemnes abiertos que se otorguen en hojas sueltas, siempre que
-
-su protocolización se haya efectuado a más tardar, dentro del primer día siguiente
-hábil al de su otorgamiento;
-
-## 3. Los testamentos menos solemnes o privilegiados que no hayan sido autorizados por
-
-notario, previo decreto del juez competente;
-
-## 4. Las actas de ofertas de pago, y
-
-
 ## 5. Los instrumentos otorgados en el extranjero, las transcripciones y las traducciones
+
+**Definición Canónica:** efectuadas por el intérprete oficial o los peritos nombrados al efecto por el juez
+competente y debidamente legalizadas, que sirvan para otorgar escrituras en Chile.
+        Sin perjuicio de lo anterior, los documentos públicos que hayan sido
+autenticados mediante el sistema de apostilla, según lo dispuesto en el artículo 345 bis
+del Código de Procedimiento Civil, no requerirán de protocolización para tener el valor
+de instrumentos públicos. La apostilla no requerirá certificación de ninguna clase para
+ser considerada auténtica”.
+        De esta manera, las escrituras públicas otorgadas en un 
+**Concordancias Legales:** artículo 345 bis del Código de Procedimiento Civil; artículo 1; artículo 85 del Reglamento Conservatorio de Bienes Raíces125; Ley 20.711
 
 efectuadas por el intérprete oficial o los peritos nombrados al efecto por el juez
 competente y debidamente legalizadas, que sirvan para otorgar escrituras en Chile.
@@ -2799,6 +2927,16 @@ a. Si falta en el título alguna de las “designaciones legales”, sólo podr�
 medio de escritura pública. Tales “designaciones legales” son las indicadas en el art.
 
 ## 690. Esta escritura rectificará y complementará aquella que fue objetada, de manera
+
+**Definición Canónica:** que el “título” estará integrado por ambas.
+b. Si falta: i) la designación de los herederos o legatarios a que se refiere el artículo
+79, inciso 1º (respecto de la inscripción de un testamento); ii) las designaciones
+necesarias en el caso del inciso 2º del mismo artículo (respecto de la inscripción de
+una sentencia o decreto); iii) la designación de los personeros y representantes legales
+que exige el Nº 1 del artículo 81 (respecto de la inscripción de una hipoteca), se
+salvarán por medio de minutas suscritas por las partes.
+c. Si el título tuviere designaciones defectuosas o insuficientes: se
+**Concordancias Legales:** artículo 79; artículo 81; artículo 39; artículo 85; artículo 4; artículo 254 del Código de Procedimiento Civil; artículo 18; artículos 19; artículos 552; artículo 7; artículo 52 del Reglamento del Conservador de Bienes Raíces12; artículo 446 del Código Orgánico de Tribunales; artículo 210 del Código Penal130 el que; artículo 688 del Código Civil. Tal sería entonces el fin espec; artículo 8; artículo 882; artículo 688; artículo 580 del Código Civil; artículo 1903 del Código Civil; Ley N° 20.492; Ley N° 16.665; Ley N° 19.903; Ley 19.903; Ley N° 16.271; Ley Nº 18.802; Ley Nº 18.092; constitución
 
 que el “título” estará integrado por ambas.
 b. Si falta: i) la designación de los herederos o legatarios a que se refiere el artículo
@@ -3614,6 +3752,16 @@ escrito, pues faltaría el documento para hacer la entrega material.
          En consecuencia, la tradición no sólo puede efectuarse por la entrega física del
 
 ## título, sino que también de una manera simbólica, como sería permitiendo o
+
+**Definición Canónica:** autorizando al cesionario para tener el crédito por suyo. Así sucede cuando por medio
+de una escritura, se traspasa el crédito que consta en otra escritura pública de mutuo,
+expresando el dueño del crédito su voluntad de transferirlo y el cesionario la suya de
+aceptarlo, verificándose la entrega por ese instrumento de cesión y no por la entrega
+de copia de la escritura de mutuo (en la práctica sin embargo, se entrega copia de la
+misma, dejando constancia de ello en la escritura de cesión, para despejar cualquier
+riesgo).
+         La tradición de un crédito no escriturado conlleva sin embargo u
+**Concordancias Legales:** artículos 1707; artículos 13; Ley Nº 18.092
 
 autorizando al cesionario para tener el crédito por suyo. Así sucede cuando por medio
 de una escritura, se traspasa el crédito que consta en otra escritura pública de mutuo,

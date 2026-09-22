@@ -13,13 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## De la responsabilidad precontractual con especial
-
-
 ## Énfasis en los tratos negociales previos1
 
+**Definición Canónica:** Juan Andrés Orrego Acuña2
+**Concordancias Legales:** artículos 97; artículo 1554 del Código Civil; artículos 98; artículo 1560 del Código Civil; artículo 1566 del Código Civil; artículo 98; artículo 100 del Código de Comercio; artículo 4; artículo 1554; artículo 1881 del Código Civil; artículo 99 del Código de Comercio; artículo 99 del Código de Comercio chileno; artículo 1150 del Código Civil argentino; artículo 1150; artículo 1056; artículo 2314; artículo 1056 del Código Civil argentino; artículo 1687; artículo 902 del Código Civil argentino; artículos 90376; Artículo 903 del Código Civil argentino; Artículo 904 del Código Civil argentino; Artículo 905 del Código Civil argentino; artículos 1337; Artículo 1337; Artículo 1338; artículo 227; constitución
 
-                                                         Juan Andrés Orrego Acuña2
+Juan Andrés Orrego Acuña2
 
 1.-) Planteamiento del problema y concepto.
 
@@ -1306,8 +1305,19 @@ de la buena fe, so pena de responder por los daños que culposamente cause a la 
 
 ## parte.”
 
+**Definición Canónica:** Aunque no sea derecho vigente, también cabe destacar el “Anteproyecto de Código
+europeo de contratos”82 preparado por la Academia de Pavía, que dedica algunos preceptos
+a la materia:
+“Artículo 6:
+1° Cada una de las partes es libre de emprender tratos en vista de la conclusión de un
+contrato sin que pueda imputársele la menor responsabilidad en el caso de que el contrato
+no sea estipulado, salvo si su comportamiento es contrario a la buena fe.
+2° Obra en contra de la buena fe la parte que emprende o continúa los tratos sin intención
+de llegar a la conclusión del contrato.
+3° Si en el curso de l
+**Concordancias Legales:** Artículo 6; Artículo 7
 
-        Aunque no sea derecho vigente, también cabe destacar el “Anteproyecto de Código
+Aunque no sea derecho vigente, también cabe destacar el “Anteproyecto de Código
 europeo de contratos”82 preparado por la Academia de Pavía, que dedica algunos preceptos
 a la materia:
 “Artículo 6:
@@ -1340,6 +1350,9 @@ ha sido concluído o si es tachado de nulidad, la parte que ha obrado en contra 
 fe es tenida responsable frente a la otra en la medida prevista en el párrafo 4 del artículo
 
 ## 6. Si el contrato ha sido concluído queda obligada a restituir la suma o a entregar la
+
+**Definición Canónica:** indemnización que el juez estime conforme a la equidad, salvo el derecho de la otra parte
+de atacar el contrato por error.”
 
 indemnización que el juez estime conforme a la equidad, salvo el derecho de la otra parte
 de atacar el contrato por error.”

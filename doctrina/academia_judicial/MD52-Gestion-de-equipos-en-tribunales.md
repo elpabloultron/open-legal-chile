@@ -13,20 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 52           Gestión
-
-             de equipos
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             en tribunales
+                       electrónica
+             Alejandro Pérsico Paris
+                       de causas
+             Fernando Castro  Sapiains
 
-                  Tramitación
+Tramitación
              en tribunales
                        electrónica
              Alejandro Pérsico Paris
@@ -90,40 +86,12 @@ Materiales Docentes                                                        ﻿
 
 Contenido
 
-
-## 5       Reflexión inicial
-
-
-## 6       Capítulo 1
-
-        Comunicación organizacional efectiva
-        en el contexto de tribunales
-
-## 34      Capítulo 2
-
-        Herramientas de gestión del desempeño de los
-        y las integrantes de equipos de trabajo de tribunales
-
-## 42      Capítulo 3
-
-        Gestión de tareas en contextos de diversidad cultural
-        e inclusión
-
-## 53      Capítulo 4
-
-        La reunión efectiva como instrumento
-        de planificación y coordinación en tribunales
-
-## 63      Capítulo 5
-
-        Retroalimentación del trabajo de los equipos
-        y relación con sistema de evaluación del personal
-        a su cargo
-
 ## 76      Referencias
 
+**Definición Canónica:** Academia Judicial de Chile                        Gestión de equipos en tribunales
+Materiales Docentes                                                Reflexión inicial
 
-Academia Judicial de Chile                        Gestión de equipos en tribunales
+Academia Judicial de Chile                        Gestión de equipos en tribunales
 Materiales Docentes                                                Reflexión inicial
 
 Reflexión inicial
@@ -159,8 +127,10 @@ a la mayoría de las áreas de la vida: familia, amigos y comunidad.
 Academia Judicial de Chile                        Gestión de equipos en tribunales
 Materiales Docentes                                                      Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Comunicación organizacional efectiva
+en el contexto de tribunales
 
 Comunicación organizacional efectiva
 en el contexto de tribunales
@@ -477,28 +447,9 @@ a nota 5.
 Ítem                                                                   Colega 1      Colega 2
 Mi colega
 
-## 1. Mantuvo contacto visual e interés en lo que decía la otra
-
-persona
-
-## 2. Utilizó el sondeo más que hacer sugerencias
-
-
-
-## 3. Interrumpió lo que decía la otra persona
-
-
-
-## 4. Manifestó un adecuado involucramiento emocional con lo que
-
-decía la otra persona
-
-## 5. Empleó una variedad de tipos de respuestas en sus
-
-argumentos
-
 ## 6. Utilizó respuestas reflexivas
 
+**Definición Canónica:** Ejercicio de escucha activa 2
 
 Ejercicio de escucha activa 2
 
@@ -900,20 +851,11 @@ su posibilidad de manejar diferentes claves de forma simultánea, por su
 facilidad para permitir una rápida retroalimentación y por su carácter
 (figura 13).
 
-
-## 5   Cara a cara
-
-
-
-## 4     Teléfono
-
-
-               Riqueza del canal
-
 ## 3    Correo electrónico
 
+**Definición Canónica:** 2    Cartas, memorandos...
 
-                                       2    Cartas, memorandos...
+2    Cartas, memorandos...
 
                                    1   Boletines, informes...
 
@@ -931,23 +873,30 @@ difusión de la información, programas de retroalimentación y programas de asi
 
 ## 1. Los programas de difusión de la información consisten en hacer
 
+**Definición Canónica:** que la información esté disponible para todas las personas, con independencia de quienes sean los encargados de la toma de decisiones. Para
+la puesta en marcha de esta iniciativa es necesario que todos y todas
+participen de forma activa en la forma y el contenido para encontrar las
+opciones de difusión de información que más se adapten a las necesidades (manuales, comunicaciones escritas, comunicaciones electrónicas,
+reuniones, entre otras).
+
 que la información esté disponible para todas las personas, con independencia de quienes sean los encargados de la toma de decisiones. Para
 la puesta en marcha de esta iniciativa es necesario que todos y todas
 participen de forma activa en la forma y el contenido para encontrar las
 opciones de difusión de información que más se adapten a las necesidades (manuales, comunicaciones escritas, comunicaciones electrónicas,
 reuniones, entre otras).
 
-## 2. Los programas de retroalimentación buscan mantener y mejorar
-
-las relaciones entre el personal y el supervisor o supervisora, participando en los procesos de toma de decisiones y el establecimiento de planes
-de trabajo.
-
-## 3. Los programas de asistencia tienen por objeto ayudar al personal
-
-con problemas emocionales o psicológicos, que afectan su rendimiento
-laboral.
-
 ## 4. Los programas de reconocimiento al personal permiten estimular
+
+**Definición Canónica:** las relaciones internas y la comunicación a través del reconocimiento y
+la recompensa al personal que realiza contribuciones importantes para
+la organización. Las recompensas que se den pueden tener un carácter
+monetario o no monetario. Lo importante es que se demuestre que hay
+una valoración y un agradecimiento por los comportamientos del personal.
+   Los efectos de una comunicación interna eficaz se pueden ver en la
+tabla 7.
+   Es menester, entonces, que en las dependencias del Poder Judicial, los
+responsables de su funcionamiento encaren estos desafíos de manera
+estructurada, buscando las m
 
 las relaciones internas y la comunicación a través del reconocimiento y
 la recompensa al personal que realiza contribuciones importantes para
@@ -989,13 +938,9 @@ Revisando la realidad del personal de su propia dependencia en tribunales, defin
 Considere la creación o mantenimiento de programas de difusión de la información,
 programas de retroalimentación y programas de asistencia al funcionario y a la funcionaria.
 
-
-## 2. Piense y explique a cuál le daría prioridad y porqué
-
-
-
 ## 3. Cuales serían los resultados esperados del programa al que le daría prioridad
 
+**Definición Canónica:** La confianza en la comunicación
 
 La confianza en la comunicación
 
@@ -1180,8 +1125,11 @@ vida, la de nuestros pares, colaboradores y colaboradoras.
 Academia Judicial de Chile                         Gestión de equipos en tribunales
 Materiales Docentes                                                      Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Herramientas de gestión del desempeño de los y las
+integrantes de equipos de trabajo de tribunales
+**Concordancias Legales:** Constitución Política
 
 Herramientas de gestión del desempeño de los y las
 integrantes de equipos de trabajo de tribunales
@@ -1241,6 +1189,8 @@ acciones que contempla dicho proceso que, para ser efectivo, idealmente debe inc
 
 ## 1. Establecimiento de objetivos mutuos. Las personas deben tener una
 
+**Definición Canónica:** idea clara de lo que se supone que deben hacer y las prioridades en sus
+
 idea clara de lo que se supone que deben hacer y las prioridades en sus
 
 Academia Judicial de Chile                              Gestión de equipos en tribunales
@@ -1271,6 +1221,10 @@ atendidas con actividades de desarrollo, por ejemplo, capacitación y
 entrenamiento.
 
 ## 4. Retroalimentación. La persona encargada de realizar la evaluación
+
+**Definición Canónica:** le informa al evaluado sobre los resultados obtenidos, así como también
+se identificarán todos los aspectos positivos. Esta etapa será tratada en
+detalle en un próximo capítulo.
 
 le informa al evaluado sobre los resultados obtenidos, así como también
 se identificarán todos los aspectos positivos. Esta etapa será tratada en
@@ -1308,6 +1262,8 @@ necesidad de implementar iniciativas de desarrollo.
    4. Asesoría. La evaluación brinda información que servirá para orientar a los colaboradores y colaboradoras.
 
 ## 5. Planeación y desarrollo de la carrera profesional. Guía las decisiones
+
+**Definición Canónica:** sobre posibilidades profesionales específicas.
 
 sobre posibilidades profesionales específicas.
 
@@ -1421,8 +1377,10 @@ conducta motivada y que dicen directa relación con en el nivel de satisfacción
 Academia Judicial de Chile                    Gestión de equipos en tribunales
 Materiales Docentes                                                 Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Gestión de tareas en contextos de diversidad
+cultural e inclusión
 
 Gestión de tareas en contextos de diversidad
 cultural e inclusión
@@ -1715,17 +1673,11 @@ Consideraciones a tener en cuenta
 persona es mujer refiérase a ella como «la colaboradora, la trabajadora,
 la funcionaria, etcétera» (Poder Judicial, 2021).
 
-## 2. Emplee perífrasis y giros cuando no aplican genéricos colectivos
-
-o abstractos. Por ejemplo, en vez de decir «los interesados» utilice «las
-personas interesadas».
-
-## 3. Use palabras genéricas inclusivas: sustituya el masculino plural
-
-genérico por palabras genéricas pero inclusivas. Por ejemplo, hable de
-«personas adultas mayores».
-
 ## 4. Ponga especial atención al contenido de lo que está manifestando
+
+**Definición Canónica:** en aquellos casos donde el sesgo de género puede estar muy relacionado
+con el tratamiento del lenguaje: en casos de violencia de género y acoso
+sexual y en casos relacionados a grupos vulnerables en general.
 
 en aquellos casos donde el sesgo de género puede estar muy relacionado
 con el tratamiento del lenguaje: en casos de violencia de género y acoso
@@ -1738,8 +1690,10 @@ sexual y en casos relacionados a grupos vulnerables en general.
 
 Materiales Docentes                                                  Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La reunión efectiva como instrumento
+de planificación y coordinación en tribunales
 
 La reunión efectiva como instrumento
 de planificación y coordinación en tribunales
@@ -1761,7 +1715,14 @@ de las metas, tanto personales como institucionales.
 
 ## 1. Para el tribunal como organización
 
-    • Contribuyen a la formulación y al despliegue de la estrategia ins-
+**Definición Canónica:** • Contribuyen a la formulación y al despliegue de la estrategia ins-
+       titucional
+    • Genera oportunidades para practicar una gestión participativa en
+       la planificación y coordinación del funcionamiento del tribunal
+    • Proporcionan la posibilidad de solucionar un gran número de ne-
+       cesidades y desafíos, tanto de la organización como de las personas
+
+• Contribuyen a la formulación y al despliegue de la estrategia ins-
        titucional
     • Genera oportunidades para practicar una gestión participativa en
        la planificación y coordinación del funcionamiento del tribunal
@@ -1770,10 +1731,16 @@ de las metas, tanto personales como institucionales.
 
 Materiales Docentes                                                   Capítulo 4
 
-
 ## 2. Para los equipos de trabajo
 
-   • Proporcionan oportunidades para aprender a trabajar en equipo,
+**Definición Canónica:** • Proporcionan oportunidades para aprender a trabajar en equipo,
+       orientados por los valores, objetivos y la estrategia organizacional.
+   • Permite a sus integrantes valorar diferentes puntos de vista y gene-
+       rar ideas en conjunto.
+   • Dan la oportunidad para resolver desafíos y problemas de manera
+       colaborativa.
+
+• Proporcionan oportunidades para aprender a trabajar en equipo,
        orientados por los valores, objetivos y la estrategia organizacional.
    • Permite a sus integrantes valorar diferentes puntos de vista y gene-
        rar ideas en conjunto.
@@ -1782,7 +1749,15 @@ Materiales Docentes                                                   Capítulo 
 
 ## 3. Para las personas
 
-   • Compartir sus ideas, expresar sentimientos y entregarse apoyo
+**Definición Canónica:** • Compartir sus ideas, expresar sentimientos y entregarse apoyo
+       mutuo
+   • Constituyen una oportunidad de inclusión y participación
+   • Contribuyen a su compromiso con los resultados, acciones, metas
+       y procesos que han aportado y generado.
+   • Permite a los integrantes valorar y aprender de los demás y de to-
+       dos los procesos de tarea del área.
+
+• Compartir sus ideas, expresar sentimientos y entregarse apoyo
        mutuo
    • Constituyen una oportunidad de inclusión y participación
    • Contribuyen a su compromiso con los resultados, acciones, metas
@@ -1987,6 +1962,11 @@ de manera adecuada, es asignar roles entre los asistentes:
 
 ## 1. Registrar información. Lleva registro de los temas tratados, registro
 
+**Definición Canónica:** de un acta, de las decisiones y compromisos. Según el tipo de reunión,
+en este rol, la persona asignada para tomar acta deberá registrar los temas relevantes que ayudarán a que los asistentes tengan una idea clara
+de la tarea, control de avance y plazos asignados a cada uno/una. Permite realizar el posterior control de avances de los temas relevantes y los
+responsables.
+
 de un acta, de las decisiones y compromisos. Según el tipo de reunión,
 en este rol, la persona asignada para tomar acta deberá registrar los temas relevantes que ayudarán a que los asistentes tengan una idea clara
 de la tarea, control de avance y plazos asignados a cada uno/una. Permite realizar el posterior control de avances de los temas relevantes y los
@@ -1995,13 +1975,18 @@ responsables.
 Academia Judicial de Chile                                     Gestión de equipos en tribunales
 Materiales Docentes                                                                  Capítulo 4
 
-
 ## 2. Moderar. En algunos casos, cuando los equipos están en una etapa
+
+**Definición Canónica:** de madurez, el líder podrá incluso asignar un rol de moderador a otra
+persona, ya sea porque quiere tener la oportunidad de observar y escuchar en perspectiva a su equipo, o porque quiere preparar a los participantes en la conducción de reuniones, etcétera.
 
 de madurez, el líder podrá incluso asignar un rol de moderador a otra
 persona, ya sea porque quiere tener la oportunidad de observar y escuchar en perspectiva a su equipo, o porque quiere preparar a los participantes en la conducción de reuniones, etcétera.
 
 ## 3. Exponer. Cuando se abordará un tema específico y en profundidad
+
+**Definición Canónica:** y se invita a un relator externo o a uno o más miembros del equipo a
+exponer.
 
 y se invita a un relator externo o a uno o más miembros del equipo a
 exponer.
@@ -2092,8 +2077,9 @@ Quiero que nuestras reuniones sean un excelente uso de su tiempo. Con ese fin, h
 más adelante. Después de recibir todas las respuestas, buscaré temas subyacentes y compartiré lo que he
 aprendido con todos ustedes.
 
-
 ## 1. Como facilitador de nuestras reuniones, ¿cuáles son las cosas clave que esperas de mí? ¿Cuáles son tus
+
+**Definición Canónica:** expectativas?
 
 expectativas?
 
@@ -2106,8 +2092,11 @@ Formato de evaluación de la reunión, adaptado de Steven Rogelberg,2019.
 
 Materiales Docentes                                                   Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Retroalimentación del trabajo de los equipos
+y relación con sistema de evaluación del personal
+a su cargo
 
 Retroalimentación del trabajo de los equipos
 y relación con sistema de evaluación del personal
@@ -2245,6 +2234,14 @@ uso de notas que pueda usar en la reunión es muy recomendable.
 
 ## 1. Estime el tiempo necesario para la reunión, para ello considere la
 
+**Definición Canónica:** información que desea compartir y la complejidad de la conversación
+que puede seguir, de modo que el tiempo total sea suficiente, tanto para
+la entrega de información como para los demás momentos de la reunión (que se explicarán más adelante).
+   2. Asegure la disponibilidad de un lugar apropiado para la reunión,
+de modo que la conversación puede llevarse a cabo en un sitio con la
+privacidad necesaria y sin interrupciones que alteren su desarrollo. Por
+último, programe su tiempo y convoque al colaborador al que va a retroalimentar, para ello tenga en cuenta su agenda y su efectiva disponibilid
+
 información que desea compartir y la complejidad de la conversación
 que puede seguir, de modo que el tiempo total sea suficiente, tanto para
 la entrega de información como para los demás momentos de la reunión (que se explicarán más adelante).
@@ -2254,6 +2251,10 @@ privacidad necesaria y sin interrupciones que alteren su desarrollo. Por
 último, programe su tiempo y convoque al colaborador al que va a retroalimentar, para ello tenga en cuenta su agenda y su efectiva disponibilidad por la totalidad del tiempo estimado.
 
 ## 3. En buena medida la validación y credibilidad de retroalimentar se
+
+**Definición Canónica:** juzgará en base a la preparación percibida de la instancia. Cuando se
+aprecian reuniones improvisadas, o evidencia feble o cuestionable; o
+cuando se trata de meros rumores infundados sin verificación, la instancia completa y la factibilidad de cualquier cambio se ve comprometida.
 
 juzgará en base a la preparación percibida de la instancia. Cuando se
 aprecian reuniones improvisadas, o evidencia feble o cuestionable; o
@@ -2369,10 +2370,11 @@ Un enfoque para llevar a cabo procesos de retroalimentación del desempeño es u
 Academia Judicial de Chile                           Gestión de equipos en tribunales
 Materiales Docentes                                                        Capítulo 5
 
-
 ## S          t               a                r
 
-                Situación    Tarea          Acción          Resultado
+**Definición Canónica:** Situación    Tarea          Acción          Resultado
+
+Situación    Tarea          Acción          Resultado
 
                               Figura 21. Modelo STAR.
 

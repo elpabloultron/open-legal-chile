@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Lorena
+                                                    Donoso
+             Autores                                Abarca
 
-                                                Lorena
+Lorena
                                                     Donoso
              Autores                                Abarca
 
@@ -35,19 +29,23 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Lorena
+                              Donoso
+                              Abarca
+                          Abogada de la Universidad de Chile, es
+                          Magíster en Informática y Derecho por
+                          la Universidad Complutense de Madrid.
+                          Árbitra de NIC Chile para la resolución
+                          de conflictos sobre nombres de domi-
+                          nio en internet, también es consejera
+                          del Instituto Chileno de Derecho y Tec-
+                          nologías y profesora asociada del De-
+   
+**Concordancias Legales:** Ley Nº 19.628; Constitucion
 
-                          Lorena
+Lorena
                               Donoso
                               Abarca
                           Abogada de la Universidad de Chile, es
@@ -138,22 +136,11 @@ ISBN N°                   Hurtado y consejero del Instituto
 
                                                          2.1 La protección de datos en Europa                                                                          39
 
-
-## 2.1.1 Convenio Nº 108 del Consejo de Europa, de 28 de enero de 1981                                     42
-
-
-
-## 2.1.2 El determinante fallo del Tribunal Constitucional Alemán en el caso de la Ley del Censo de 1983   45
-
-
-
-## 2.1.3 Directiva 95/46/CE, del Parlamento Europeo y del Consejo de 24 de octubre de 1995                  51
-
-
-
 ## 2.1.4 Reglamento General de Protección de Datos (RGPD), de 25 de mayo de 2018, como estándar
 
-                                                                     de facto para la interpretación de la protección de datos personales en Chile                     54
+**Definición Canónica:** de facto para la interpretación de la protección de datos personales en Chile                     54
+
+de facto para la interpretación de la protección de datos personales en Chile                     54
 
                                                          2.2 Estándares de protección de datos personales de la OCDE (2002)                                            57
 
@@ -161,10 +148,12 @@ ISBN N°                   Hurtado y consejero del Instituto
 
                                                          2.4 Estándares de protección de datos personales para los Estados iberoamericanos (OEA, 2016)                 66
 
-
 ## 2.5 Acuerdo de Asociación entre la Comunidad Europea y Chile y sus efectos en materia de protección
 
-                                                              de datos personales                                                                                      69
+**Definición Canónica:** de datos personales                                                                                      69
+**Concordancias Legales:** Ley Nº 19.628; Ley Nº 19.268; constitucion
+
+de datos personales                                                                                      69
 
                                                       3. El desarrollo normativo de la protección de datos en Chile                                                    72
 
@@ -182,132 +171,11 @@ ISBN N°                   Hurtado y consejero del Instituto
 
 Protección                                                                                                                                                       5
 
-
-## 4. Principios y derechos en materia de tratamiento de datos personales. Análisis desde la doctrina
-
-                                                          y la jurisprudencia.                                                                             110
-
-
-## 4.1 Principio de lealtad y licitud del tratamiento de datos                                       111
-
-
-
-## 4.2 Principio general de legitimación                                                             112
-
-
-
-## 4.2.1 El consentimiento del interesado                                                      112
-
-
-
-## 4.2.2 La autorización legal como legitimante                                                114
-
-
-
-## 4.2.3 El interés legítimo como “legitimante”                                                118
-
-
-
-## 4.3 Principio de transparencia (información y publicidad)                                         123
-
-
-
-## 4.3.1 Deber de notificación y Registro                                                      123
-
-
-
-## 4.3.2 Deber de información                                                                  124
-
-
-
-## 4.4 Principio de finalidad                                                                        129
-
-
-
-## 4.5 Principio de calidad                                                                          131
-
-
-
-## 4.5.1 Condiciones relativas a la calidad de los datos personales                            131
-
-
-
-## 4.5.2 Proporcionalidad                                                                      136
-
-
-
-## 4.5.3 Temporalidad del tratamiento                                                          138
-
-
-
-## 4.5.4 Calidad de proceso                                                                    139
-
-
-
-## 4.5.5 Cumplimiento de derechos de los titulares de datos                                    139
-
-
-
-## 4.6 Principio de control                                                                          141
-
-
-
-## 5. Deberes legales especialmente exigibles                                                           144
-
-
-
-## 5.1 Deber de seguridad en el tratamiento de datos personales                                      145
-
-
-
-## 5.2 Protección de datos desde el diseño                                                           149
-
-
-
-## 5.2.1 Proactivo, no reactivo ni remedial                                                    152
-
-
-
-## 5.2.2 Privacidad como configuración determinada o por defecto                               152
-
-
-
-## 5.3 Evaluaciones de impacto y consulta previa                                                     158
-
-
-
-## 5.4 Responsabilidad demostrada                                                                    162
-
-
-
-## 5.5 Enfoque de riesgos y gestión de seguridad de los datos personales                             163
-
-
-
-## 6. Los derechos de los titulares de datos frente a la doctrina y jurisprudencia                      166
-
-
-
-## 6.1 Derecho de acceso                                                                             167
-
-
-
-## 6.2 Derecho de rectificación                                                                      169
-
-
-
-## 6.3 Derecho de cancelación o supresión                                                            170
-
-
-
-## 6.4 Derecho de oposición                                                                          171
-
-
-
 ## 6.5 Cambios en el ámbito de los derechos a partir de la entrada en vigencia del RGPD              173
 
+**Definición Canónica:** Protección                                                                                                                                                                   6
 
-Protección                                                                                                                                                                   6
+Protección                                                                                                                                                                   6
 
                                                          6.6 Aplicación del derecho de cancelación a internet: el “derecho al olvido”                                  175
 
@@ -328,47 +196,12 @@ ISBN N°                   Hurtado y consejero del Instituto
 
                                                          8.2 El tratamiento de datos por los organismos de inteligencia y seguridad                                    207
 
-
-## 8.2.1 Policía de Investigaciones                                                                        207
-
-
-
-## 8.2.2 Carabineros de Chile                                                                              208
-
-
-
-## 8.2.3 Agencia Nacional de Inteligencia                                                                  209
-
-
-
-## 8.2.4 Protección de datos y actividades de videovigilancia para la mantención de la seguridad pública   210
-
-
-                                                         8.3 Autorización para realizar tratamiento de datos personales por otros organismos públicos                  216
-
-
-## 8.3.1 Defensoría de la Niñez                                                                            216
-
-
-
-## 8.3.2 Instituto Nacional de Derechos Humanos                                                            217
-
-
-
-## 8.3.3 Servicio Electoral                                                                                218
-
-
-                                                         8.4 Tratamiento de datos personales y la prueba en juicio                                                     219
-
-
-## 8.4.1 Tratamiento de datos de imágenes y video para preconstitución de pruebas en juicios civiles       219
-
-
-
 ## 8.4.2 Tratamiento de datos de videovigilancia como prueba en los juicios laborales                      220
 
+**Definición Canónica:** 9. Desafíos de la protección de datos en el tránsito a la automatización                                         224
+**Concordancias Legales:** Ley Nº 19.628; Constitucion
 
-                                                      9. Desafíos de la protección de datos en el tránsito a la automatización                                         224
+9. Desafíos de la protección de datos en el tránsito a la automatización                                         224
 
                                                          9.1 El fenómeno de la minería de datos y el big data y las formas de control judicial                         225
 
@@ -477,10 +310,11 @@ ISBN N°                   Hurtado y consejero del Instituto
 Protección                                                           1. La problemática de la protección                                    11
 de Datos                                                                de datos personales
 
-
 ## 1.1     Antecedentes históricos del derecho
 
-                                                                       fundamental a la protección de datos
+**Definición Canónica:** fundamental a la protección de datos
+
+fundamental a la protección de datos
 
                                                                        Hasta inicios de la década de 1980, los países pertenecientes a los
                                                                        sistemas jurídicos de derecho continental europeo, como Chile,
@@ -549,7 +383,13 @@ de Datos                                                                        
 
 ## 2        Específicamente el artículo nace como una forma de reacción de Samuel D. Warren, adinerado empresario
 
-                                                               del papel y famoso personaje de la vida social y política norteamericana, cuyas fiestas y affaires eran el co-
+**Definición Canónica:** del papel y famoso personaje de la vida social y política norteamericana, cuyas fiestas y affaires eran el co-
+                                                               midillo de los periódicos de la época en la ciudad de Boston, los cuales le perseguían, cámara fotográfica en
+                                                               ristre, para luego publicar en diarios y revistas noticias sobre él y su familia con detalles personales altamente
+                                                               desagradables. Warren acudió a su compañero de estudios en Harvard, Louis D
+**Concordancias Legales:** constitucion; Constitución
+
+del papel y famoso personaje de la vida social y política norteamericana, cuyas fiestas y affaires eran el co-
                                                                midillo de los periódicos de la época en la ciudad de Boston, los cuales le perseguían, cámara fotográfica en
                                                                ristre, para luego publicar en diarios y revistas noticias sobre él y su familia con detalles personales altamente
                                                                desagradables. Warren acudió a su compañero de estudios en Harvard, Louis Dembitz Brandeis, quien llegaría
@@ -762,10 +602,12 @@ de Datos                                                                        
 Protección                                                                                  1. La problemática de la protección                                           18
 de Datos                                                                                       de datos personales
 
-
 ## 1.4              El aporte alemán: derecho a la
 
-                                                                                              autodeterminación informativa
+**Definición Canónica:** autodeterminación informativa
+**Concordancias Legales:** artículo 2; artículo 1; Constitucion; Constitución
+
+autodeterminación informativa
 
                                                                                               Al igual que el resto de los países de Europa, en el ordenamiento
                                                                                               jurídico de Alemania no existe la Privacy ni se la ha recogido; tampo-
@@ -878,10 +720,15 @@ de Datos                                                                        
                                                       operaciones pueden                       diciones en que dichas operaciones pueden llevarse a cabo. Se trata
                                                       llevarse a cabo.                         de controlar la utilización de las informaciones personales indepen-
 
-
 ## 13       Debe tenerse presente que el derecho a la protección de los datos personales como tal (no nos estamos
 
-                                                               refiriendo a la Privacy) se entiende de manera distinta en el sistema del common law y particularmente en
+**Definición Canónica:** refiriendo a la Privacy) se entiende de manera distinta en el sistema del common law y particularmente en
+                                                               el ordenamiento jurídico norteamericano. “La principal diferencia entre Europa y EE. UU. es que el derecho a
+                                                               la protección de datos en el viejo continente es percibido como derecho fundamental mientras que en EE.
+                                                               UU. es vista como una problemática del derecho de la defensa de la competencia y defensa de 
+**Concordancias Legales:** Constitucion
+
+refiriendo a la Privacy) se entiende de manera distinta en el sistema del common law y particularmente en
                                                                el ordenamiento jurídico norteamericano. “La principal diferencia entre Europa y EE. UU. es que el derecho a
                                                                la protección de datos en el viejo continente es percibido como derecho fundamental mientras que en EE.
                                                                UU. es vista como una problemática del derecho de la defensa de la competencia y defensa de los derechos
@@ -915,10 +762,12 @@ de Datos                                                                        
 Protección                                                                                   1. La problemática de la protección                                            22
 de Datos                                                                                        de datos personales
 
-
 ## 1.5               La autodeterminación informativa
 
-                                                                                               y su recogida en Chile
+**Definición Canónica:** y su recogida en Chile
+**Concordancias Legales:** artículo 19; Ley Nº 19.628; Ley Nº 21.096; Ley Nº19.628; Constitucion; Constitución Política; Constitución
+
+y su recogida en Chile
 
                                                                                                A partir del pronunciamiento del Constitucional alemán, surge una
                                                                                                abundante normativa que acompaña el proceso de consolidación de
@@ -1113,10 +962,12 @@ de Datos                                                                        
 Protección                                                           1. La problemática de la protección                                                 27
 de Datos                                                                de datos personales
 
-
 ## 1.6     Conceptos esenciales: datos, banco de
 
-                                                                       datos, tratamiento y responsables
+**Definición Canónica:** datos, tratamiento y responsables
+**Concordancias Legales:** artículo 1; artículo 2; artículo 4; Ley Nº 19.628
+
+datos, tratamiento y responsables
 
                                                                        En materia de protección de datos personales, existen cuatro pilares
                                                                        fundamentales que hay que retener, no solo porque son las bases del
@@ -1331,10 +1182,12 @@ de Datos                                                                      de
 Protección                                                                         1. La problemática de la protección                                  32
 de Datos                                                                              de datos personales
 
-
 ## 1.7            Categorías de datos personales y sus
 
-                                                                                     implicancias desde la óptica de su protección
+**Definición Canónica:** implicancias desde la óptica de su protección
+**Concordancias Legales:** Artículo 2; artículo 10 de la Ley Nº 19.628 es; artículo 17; artículos 1; artículo 17 de la Ley; artículo 19 de la Constitución Política de la República; artículo 19 de la Carta Fundamental de la recurren; artículos 18; artículo 18; artículo 19; artículo 4; artículo 2515 del Código Civil; artículo 13 bis de la Ley N; artículo 15 inciso 2; artículo 15 de la Ley N; artículo 6; artículo 19 de la Carta Fundamental de la recurrente; Ley Nº 19.628; Ley N°19.628; Ley Nº 20.575; Ley Nº 20.027; Ley N° 19.628; Ley N° 19.848; Ley N° 19.899; Ley N° 19.287; ley 19.628; constitucion; Constitución Política
+
+implicancias desde la óptica de su protección
 
                                                                                      Existe consenso doctrinario en que no hay datos personales irrele-
                                                                                      vantes desde la óptica del resguardo del derecho que nos ocupa, pues
@@ -1628,10 +1481,12 @@ de Datos                                                                        
 Protección                                                                                 2. Estándares internacionales de protección                                 39
 de Datos                                                                                      de datos personales
 
-
 ## 2.1              La protección
 
-                                                                                             de datos en Europa
+**Definición Canónica:** de datos en Europa
+**Concordancias Legales:** constitucion
+
+de datos en Europa
 
                                                                                              Los derechos fundamentales del hombre no son más que la evo-
                                                                                              lución de las ideas de libertad e igualdad lanzadas desde la antigua
@@ -1795,10 +1650,17 @@ de Datos                                                                        
                                                                   ficheros y libertades               Informática y Libertades (CNIL).
                                                                   (06.01.1978)
 
-
 ## 2.1.1 Convenio Nº 108 del Consejo de
 
-                                                                 Europa, de 28 de enero de 1981
+**Definición Canónica:** Europa, de 28 de enero de 1981
+                                                                 La discusión pública y el desarrollo supranacional de los conceptos
+                                                                 y nociones asociadas al abuso del tratamiento de datos personales,
+                                                                 decantó en que el Consejo de Europa tomara cartas en el asunto y
+                                                                 adoptara su Convenio Nº 108, llamado “Convenio del Consejo de
+                                               
+**Concordancias Legales:** Ley N° 19.030
+
+Europa, de 28 de enero de 1981
                                                                  La discusión pública y el desarrollo supranacional de los conceptos
                                                                  y nociones asociadas al abuso del tratamiento de datos personales,
                                                                  decantó en que el Consejo de Europa tomara cartas en el asunto y
@@ -1904,10 +1766,16 @@ de Datos                                                                        
                                                                                               tocolo por el cual se moderniza el Convenio Nº 108, para adecuarlo
                                                                                               a los nuevos desarrollos tecnológicos.30
 
-
 ## 2.1.2 El determinante fallo del Tribunal Constitucional
 
-                                                                                              Alemán en el caso de la Ley del Censo de 1983
+**Definición Canónica:** Alemán en el caso de la Ley del Censo de 1983
+                                                                                              Mientras el Convenio Nº 108 todavía buscaba adhesiones entre los
+                                                                                              países de Europa, el 4 de marzo de 1982 fue aprobado en la entonces
+                                                                                              República Federal de Alemania la ley del censo de población31, censo
+                                                                      
+**Concordancias Legales:** Constitucion; Constitución
+
+Alemán en el caso de la Ley del Censo de 1983
                                                                                               Mientras el Convenio Nº 108 todavía buscaba adhesiones entre los
                                                                                               países de Europa, el 4 de marzo de 1982 fue aprobado en la entonces
                                                                                               República Federal de Alemania la ley del censo de población31, censo
@@ -2022,7 +1890,14 @@ de Datos                                                                        
 
 ## título de información procurará no llamar la atención con esa clase de
 
-                                                                 comportamiento. Quien sepa de antemano que su participación, por
+**Definición Canónica:** comportamiento. Quien sepa de antemano que su participación, por
+                                                                 ejemplo, en una reunión o en una iniciativa cívica va a ser registrada
+                                                                 por las autoridades y que podrán derivarse riesgos para él por este
+                                                                 motivo renunciará presumiblemente a lo que supone un ejercicio
+                                                                 de los correspondientes derechos fundamentales”.
+**Concordancias Legales:** Constitucion
+
+comportamiento. Quien sepa de antemano que su participación, por
                                                                  ejemplo, en una reunión o en una iniciativa cívica va a ser registrada
                                                                  por las autoridades y que podrán derivarse riesgos para él por este
                                                                  motivo renunciará presumiblemente a lo que supone un ejercicio
@@ -2144,10 +2019,15 @@ de Datos                                                                        
 Protección                                                                                 2. Estándares internacionales de protección                                 51
 de Datos                                                                                      de datos personales
 
-
 ## 2.1.3 Directiva 95/46/CE, del Parlamento Europeo
 
-                                                                                             y del Consejo de 24 de octubre de 1995
+**Definición Canónica:** y del Consejo de 24 de octubre de 1995
+                                                                                             Diez años después de la entrada en vigencia del Convenio Nº 108, se
+                                                                                             aprobó la “Directiva 95/46/CE, del Parlamento Europeo y del Consejo,
+                                                                                             de 24 de octubre de 2015, relativa a la Protección de las Personas
+                                                                              
+
+y del Consejo de 24 de octubre de 1995
                                                                                              Diez años después de la entrada en vigencia del Convenio Nº 108, se
                                                                                              aprobó la “Directiva 95/46/CE, del Parlamento Europeo y del Consejo,
                                                                                              de 24 de octubre de 2015, relativa a la Protección de las Personas
@@ -2193,10 +2073,16 @@ de Datos                                                                        
                                                                                                no ofrezcan un nivel de protección adecuado respecto de los datos
                                                                                                personales de los europeos.
 
-
 ## Parte la Directiva complementando algunas definiciones ausentes en
 
-                                                                                               el Convenio, como el concepto de tratamiento de datos personales,
+**Definición Canónica:** el Convenio, como el concepto de tratamiento de datos personales,
+                                                                                               que entiende como “cualquier operación o conjunto de operaciones,
+                                                                                               efectuadas o no mediante procedimientos automatizados, y aplicadas
+                                                                                               a datos personales, como la recogida, registro, organización, conser-
+                                              
+**Concordancias Legales:** artículo 12; artículo 14; Ley Nº 19.628
+
+el Convenio, como el concepto de tratamiento de datos personales,
                                                                                                que entiende como “cualquier operación o conjunto de operaciones,
                                                                                                efectuadas o no mediante procedimientos automatizados, y aplicadas
                                                                                                a datos personales, como la recogida, registro, organización, conser-
@@ -2281,10 +2167,17 @@ de Datos                                                                        
                                                                  su totalidad en nuestra vigente Ley Nº 19.628, de 1999, sobre pro-
                                                                  tección de la vida privada.
 
-
 ## 2.1.4 Reglamento General de Protección de
 
-                                                                 Datos (RGPD), de 25 de mayo de 2018, como
+**Definición Canónica:** Datos (RGPD), de 25 de mayo de 2018, como
+                                                                 estándar de facto para la interpretación de la
+                                                                 protección de datos personales en Chile
+                                                                 La medianoche del 24 de mayo de 2018, los principios, derechos
+                                                                 y normas relativos a protección de datos personales se volvieron a
+                                                                 barajar con efec
+**Concordancias Legales:** artículo 85
+
+Datos (RGPD), de 25 de mayo de 2018, como
                                                                  estándar de facto para la interpretación de la
                                                                  protección de datos personales en Chile
                                                                  La medianoche del 24 de mayo de 2018, los principios, derechos
@@ -2407,10 +2300,11 @@ de Datos                                                                        
 Protección                                                                                  2. Estándares internacionales de protección                            57
 de Datos                                                                                       de datos personales
 
-
 ## 2.2              Estándares de protección de datos
 
-                                                                                              personales de la OCDE (2002)41
+**Definición Canónica:** personales de la OCDE (2002)41
+
+personales de la OCDE (2002)41
 
                                                                                               En un intento por establecer estándares en materia de protección de
                                                                                               datos personales, en el seno del Consejo de la OCDE se acordaron
@@ -2491,10 +2385,12 @@ de Datos                                                                        
 Protección                                                           2. Estándares internacionales de protección                             60
 de Datos                                                                de datos personales
 
-
 ## 2.3     Principios en materia de protección de datos
 
-                                                                       personales en la Resolución de Madrid (2009)
+**Definición Canónica:** personales en la Resolución de Madrid (2009)
+**Concordancias Legales:** artículo 4; Artículo 9; artículo 7; Ley N° 19.628; Ley N°19.628
+
+personales en la Resolución de Madrid (2009)
 
                                                                        A partir de la adopción de la Directiva 95/46/CE, se fue conforman-
                                                                        do una activa colaboración de diversas autoridades de protección
@@ -2716,10 +2612,11 @@ de Datos                                                                        
 Protección                                                                                 2. Estándares internacionales de protección                                66
 de Datos                                                                                      de datos personales
 
-
 ## 2.4              Estándares de protección de datos personales
 
-                                                                                             para los Estados iberoamericanos (OEA, 2016)46
+**Definición Canónica:** para los Estados iberoamericanos (OEA, 2016)46
+
+para los Estados iberoamericanos (OEA, 2016)46
 
                                                                                              Como ya se señaló, los estándares contenidos en la Resolución de
                                                                                              Madrid datan de 2009, pero en el año 2016 se acordó, en el marco
@@ -2755,7 +2652,13 @@ de Datos                                                                        
 
 ## 47       Véanse al respecto los documentos emanados de la XXV Cumbre Iberoamericana de Jefes de Estado y de
 
-                                                               Gobierno. Disponibles en línea [consulta: 15.10.2020].
+**Definición Canónica:** Gobierno. Disponibles en línea [consulta: 15.10.2020].
+                                                      48       La Red Iberoamericana de Protección de Datos (RIPD), creada en 2003, es un foro para la integración de
+                                                               quienes desarrollan iniciativas y proyectos relacionados con la protección de datos personales, tanto del
+                                                               sector público como en el privado, en Iberoamérica.
+**Concordancias Legales:** Constitucion
+
+Gobierno. Disponibles en línea [consulta: 15.10.2020].
                                                       48       La Red Iberoamericana de Protección de Datos (RIPD), creada en 2003, es un foro para la integración de
                                                                quienes desarrollan iniciativas y proyectos relacionados con la protección de datos personales, tanto del
                                                                sector público como en el privado, en Iberoamérica.
@@ -2815,10 +2718,13 @@ de Datos                                                                        
 Protección                                                                                   2. Estándares internacionales de protección                                   69
 de Datos                                                                                        de datos personales
 
-
 ## 2.5               Acuerdo de Asociación entre la Comunidad
 
-                                                                                               Europea y Chile y sus efectos en materia de
+**Definición Canónica:** Europea y Chile y sus efectos en materia de
+                                                                                               protección de datos personales
+**Concordancias Legales:** artículo 202; Ley Nº 19.628
+
+Europea y Chile y sus efectos en materia de
                                                                                                protección de datos personales
 
                                                                                                Hemos mencionado bastante el Reglamento General de Protección
@@ -2906,7 +2812,9 @@ de Datos                                                                        
 
 ## X                x                   x   x
 
-                                                       datos, proporcionalidad
+**Definición Canónica:** datos, proporcionalidad
+
+datos, proporcionalidad
 
                                                        Calidad, calidad de datos,
                                                        protección de datos desde el                  X                X                   X   X   X
@@ -2916,7 +2824,9 @@ de Datos                                                                        
 
 ## X                x                   x       x
 
-                                                       seguridad
+**Definición Canónica:** seguridad
+
+seguridad
 
                                                        Temporalidad, limitación del plazo
                                                                                                                       X
@@ -2930,7 +2840,9 @@ de Datos                                                                        
 
 ## X                   x       x
 
-                                                       individual
+**Definición Canónica:** individual
+
+individual
 
                                                        Coordinación, colaboración                                     X                   X
 
@@ -2938,7 +2850,10 @@ de Datos                                                                        
 
 ## X                   x       x
 
-                                                       consentimiento
+**Definición Canónica:** consentimiento
+**Concordancias Legales:** artículo 19; Ley Nº 19.628
+
+consentimiento
 
                                                                  El desarrollo
                                                                    normativo
@@ -2971,10 +2886,12 @@ de Datos                                                                        
                                                       tratamiento de        protege todas las esferas de la persona respecto del tratamiento que
                                                       datos personales”.    terceros hagan de la información que le concierne.
 
-
 ## 3.1              La reforma constitucional
 
-                                                                                             de 2018
+**Definición Canónica:** de 2018
+**Concordancias Legales:** artículo 15; artículo 92; artículo 16; artículo 2.6; artículo 94; artículo 19 de la Constitución Política de la República; artículo 19; artículo 20 de la Constitución; ley Nº 20.285; ley N° 20.285; Ley Nº 21.096; Ley Nº 19.628; Ley Nº 20.584; Ley Nº 20.050; DL Nº 799; Constitución; constitucion; Constitución Política
+
+de 2018
 
                                                                                              Empujado por la tendencia internacional, en 2018 se reconoció como
                                                                                              garantía fundamental en la Constitución de la República de Chile
@@ -3156,10 +3073,12 @@ de Datos                                                                        
 Protección                                                           3. El desarrollo normativo de la protección                           78
 de Datos                                                                de datos en Chile
 
-
 ## 3.2     La Ley Nº 19.628 de 1999
 
-                                                                       y sus modificaciones
+**Definición Canónica:** y sus modificaciones
+**Concordancias Legales:** artículo Nº 2 del Código del Trabajo; artículos 16; artículo 17; artículo 18; artículo 16; artículo 13 bis; artículo 17 de la Ley Nº 19.628; artículo 9; artículo 19 de la Carta; artículo 2; artículo 17 de la Ley Nº 19.628. Sin perjuicio; artículo 3; artículo 4; Ley Nº 19.628; Ley Nº 19.812; Ley Nº 10.740; Ley N° 19.899; Ley N° 19.812; Ley Nº 19.899; Ley Nº 20.463; Ley Nº 20.591; Ley Nº 20.285; Ley Nº 20.575; ley N° 19.628
+
+y sus modificaciones
 
                                                                        La Ley Nº 19.628 ha sido objeto de sucesivas modificaciones, la ma-
                                                                        yoría de ellas como reacción ante situaciones de abuso o en las cuales
@@ -3545,10 +3464,12 @@ de Datos                                                                        
 Protección                                                           3. El desarrollo normativo de la protección                                88
 de Datos                                                                de datos en Chile
 
-
 ## 3.3     La protección de datosy
 
-                                                                       las leyes procesales
+**Definición Canónica:** las leyes procesales
+**Concordancias Legales:** artículo 1; artículo 19; artículo 21 de la Ley Nº 19.628 se refiere a los organismos; artículos 5; artículo 7; artículo 11; artículo 2; artículo 23 de la Ley Nº 19.628. Los motores; artículo 9; artículo 21; Ley Nº 19.628; Ley Nº 20.886; ley 19.628; Constitución Política; Constitución
+
+las leyes procesales
 
                                                                        La Ley Nº 19.628 no excluye a priori el tratamiento de datos per-
                                                                        sonales efectuado en el marco de las leyes procesales. En efecto, la
@@ -3705,10 +3626,12 @@ de Datos                                                                        
 Protección                                                           3. El desarrollo normativo de la protección                            92
 de Datos                                                                de datos en Chile
 
-
 ## 3.4     Las políticas judiciales en materia de
 
-                                                                       protección de datos personales
+**Definición Canónica:** protección de datos personales
+**Concordancias Legales:** artículo 2; artículo 23; artículo 34; artículo 21 de la Ley N; artículo 2 de la Ley N; artículo 38 de la Ley N; artículos 9; Ley Nº 20.886; Ley Nº 19.628; Ley 20.886; Ley N° 20.886; Ley N° 20.285; Ley N° 19.628; Ley N° 18.216; D.L. N° 409; constitucion
+
+protección de datos personales
 
                                                                        La entrada en vigor de la Ley Nº 20.886, sobre tramitación electró-
                                                                        nica de juicios civiles, ha reimpulsado la informatización del Poder
@@ -4017,10 +3940,12 @@ de Datos                                                                        
 Protección                                                           3. El desarrollo normativo de la protección                           100
 de Datos                                                                de datos en Chile
 
-
 ## 3.5     Acción de habeas data y su
 
-                                                                       aplicación práctica en Chile
+**Definición Canónica:** aplicación práctica en Chile
+**Concordancias Legales:** artículo 12 de la Ley Nº 19.628; artículo 12 de la Ley Nº; artículo 15; artículo 16 de la Ley Nº 19.628. En el siguiente esquema; Ley Nº 19.628; Ley Nº 20.285
+
+aplicación práctica en Chile
 
                                                                        La ley de protección de datos estableció, como mecanismo de tute-
                                                                        la efectiva, la acción de habeas data, la cual se basó en el recurso de
@@ -4218,7 +4143,14 @@ de Datos                                                                de datos
 
 ## parte porque los requisitos que se exigen no son fáciles de cumplir
 
-                                                                 para las personas, y también porque se han preferido otras vías para
+**Definición Canónica:** para las personas, y también porque se han preferido otras vías para
+                                                                 reclamar el derecho. Es así como una de las más utilizadas por los
+                                                                 titulares de datos, para acceder a su información en poder del Estado,
+                                                                 es el acceso a la información pública, que como se dijo ha sido llamado
+                                                                 “habeas data impropio” por el Consejo para la Transparencia, 
+**Concordancias Legales:** constitucion
+
+para las personas, y también porque se han preferido otras vías para
                                                                  reclamar el derecho. Es así como una de las más utilizadas por los
                                                                  titulares de datos, para acceder a su información en poder del Estado,
                                                                  es el acceso a la información pública, que como se dijo ha sido llamado
@@ -4287,10 +4219,12 @@ de Datos                                                                de datos
 Protección                                                                                   3. El desarrollo normativo de la protección                                  108
 de Datos                                                                                        de datos en Chile
 
-
 ## 3.6               El régimen infraccionalen la
 
-                                                                                               Ley Nº 19.268
+**Definición Canónica:** Ley Nº 19.268
+**Concordancias Legales:** artículo 173 del Código de Procedimiento Civil. En; artículos 16; artículo 23; artículo 17; artículo 18; artículo 16; Ley Nº 19.268; Ley Nº 19.628; Ley N° 19.628; Ley Nº 20.575
+
+Ley Nº 19.268
 
                                                                                                De acuerdo a la Ley Nº 19.628, el titular del registro o banco de
                                                                                                datos deberá indemnizar el daño patrimonial y moral que causare
@@ -4374,10 +4308,11 @@ de Datos                                                                        
 Protección                                                           4. Principios y derechos en materia de tratamiento de datos personales.   111
 de Datos                                                                Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.1     Principio de lealtad y licitud
 
-                                                                       del tratamiento de datos
+**Definición Canónica:** del tratamiento de datos
+
+del tratamiento de datos
 
                                                                        De acuerdo con la tendencia internacional, en Chile se consideran
                                                                        básicamente dos condiciones de licitud del tratamiento de datos per-
@@ -4400,10 +4335,12 @@ de Datos                                                                Análisi
 Protección                                                                                  4. Principios y derechos en materia de tratamiento de datos personales.    112
 de Datos                                                                                       Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.2               Principio general
 
-                                                                                              de legitimación
+**Definición Canónica:** de legitimación
+**Concordancias Legales:** artículo 4; Ley Nº 19.628; ley N° 19.628
+
+de legitimación
 
                                                                                               Conforme al artículo 4º de la Ley Nº 19.628, en Chile se reconocen
                                                                                               dos fuentes de legitimación del tratamiento de datos personales:
@@ -4428,10 +4365,16 @@ de Datos                                                                        
                                                                                               las garantías establecidas en su favor y, por tanto, se encuentre en
                                                                                               condiciones de prestar su consentimiento libre e informado.
 
-
 ## 4.2.1 El consentimiento del interesado
 
-                                                                                              El consentimiento es la manifestación de voluntad acompañada
+**Definición Canónica:** El consentimiento es la manifestación de voluntad acompañada
+                                                                                              del conocimiento efectivo de las particularidades específicas del
+                                                                                              tratamiento, incluyendo qué datos que le conciernen serán trata-
+                                                                                              dos, cuáles son los mecanismos de recogida, para qué se usarán, a
+                                                            
+**Concordancias Legales:** artículo 4; artículo 12; artículo 17; artículo 11; Ley Nº 19.629
+
+El consentimiento es la manifestación de voluntad acompañada
                                                                                               del conocimiento efectivo de las particularidades específicas del
                                                                                               tratamiento, incluyendo qué datos que le conciernen serán trata-
                                                                                               dos, cuáles son los mecanismos de recogida, para qué se usarán, a
@@ -4503,10 +4446,16 @@ de Datos                                                                        
 
                                                                                                 la compañía respecto de sus trabajadores”.
 
-
 ## 4.2.2 La autorización legal como legitimante
 
-                                                                                              La obligación de recabar el consentimiento no es absoluta, pues la
+**Definición Canónica:** La obligación de recabar el consentimiento no es absoluta, pues la
+                                                                                              ley prevé hipótesis en las cuales no se requiere el consentimiento
+                                                                                              del afectado66, a saber:
+                                                                                              a. El tratamiento de datos personales que provengan o se recolec-
+                                                                                             
+**Concordancias Legales:** artículo 4; artículo 1; artículo 17; artículo 84 de la Ley General de; artículo 2053 del Código Civil; artículo 2095 del Código Civil; Artículo 1511; Ley Nº 19.628; Ley Nº 18.010; Ley Nº 20.575; constitución
+
+La obligación de recabar el consentimiento no es absoluta, pues la
                                                                                               ley prevé hipótesis en las cuales no se requiere el consentimiento
                                                                                               del afectado66, a saber:
                                                                                               a. El tratamiento de datos personales que provengan o se recolec-
@@ -4685,10 +4634,16 @@ de Datos                                                                        
                                                                                               una norma de carácter general y supletorio, cuya aplicación deberá
                                                                                               analizarse en cada área concreta.
 
-
 ## 4.2.3 El interés legítimo como “legitimante”
 
-                                                                                              Las legislaciones reconocen situaciones en las cuales será legítimo
+**Definición Canónica:** Las legislaciones reconocen situaciones en las cuales será legítimo
+                                                                                              el tratamiento de datos personales, sin que medie el consentimien-
+                                                                                              to del afectado. Si bien podríamos haber tratado este punto en el
+                                                                                              acápite de autorización legal como legitimante, estimamos que es
+                                                    
+**Concordancias Legales:** artículo 370 del Código de Comercio; Artículos 2; artículo 1; Ley N° 3.918; Ley Nº 18.046
+
+Las legislaciones reconocen situaciones en las cuales será legítimo
                                                                                               el tratamiento de datos personales, sin que medie el consentimien-
                                                                                               to del afectado. Si bien podríamos haber tratado este punto en el
                                                                                               acápite de autorización legal como legitimante, estimamos que es
@@ -4702,7 +4657,10 @@ de Datos                                                                        
 
 ## 74       PUGA VIAL, Juan Esteban: La sociedad anónima y otras sociedades por acciones en el derecho chileno y
 
-                                                               comparado. Editorial Jurídica, edición 2011; p. 69.
+**Definición Canónica:** comparado. Editorial Jurídica, edición 2011; p. 69.
+**Concordancias Legales:** artículo 6; Artículo 29; artículo 7 de la Directiva 46; artículo 7 de la Directiva 95; artículo 7; Ley Nº 19.628
+
+comparado. Editorial Jurídica, edición 2011; p. 69.
 
 Protección                                                     4. Principios y derechos en materia de tratamiento de datos personales.   119
 de Datos                                                          Análisis desde la doctrina y la jurisprudencia.
@@ -4860,20 +4818,25 @@ de Datos                                                                        
                                                                                               excluyendo así de forma categórica y generalizada todo tratamiento
                                                                                               de datos que no figuren en tales fuentes”.
 
-
 ## 77       CONTRERAS, Pablo: “Interés legítimo y tratamiento de datos personales: antecedentes comparados y re-
 
-                                                               gulación en Chile”. En Revista Chilena de Derecho y Tecnologías, versión en línea ISSB 0719-2584. Vol. 8 Nº 1,
+**Definición Canónica:** gulación en Chile”. En Revista Chilena de Derecho y Tecnologías, versión en línea ISSB 0719-2584. Vol. 8 Nº 1,
+                                                               Santiago, junio de 2019.
+                                                      78       Autos acumulados C–468/10 y C–469/10 (caso ASNEF), disponible en línea [consulta: 02.02.2021].
+
+gulación en Chile”. En Revista Chilena de Derecho y Tecnologías, versión en línea ISSB 0719-2584. Vol. 8 Nº 1,
                                                                Santiago, junio de 2019.
                                                       78       Autos acumulados C–468/10 y C–469/10 (caso ASNEF), disponible en línea [consulta: 02.02.2021].
 
 Protección                                                                                    4. Principios y derechos en materia de tratamiento de datos personales.   123
 de Datos                                                                                         Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.3                   Principio de transparencia
 
-                                                                                                   (información y publicidad)
+**Definición Canónica:** (información y publicidad)
+**Concordancias Legales:** artículos 3; Ley N° 19.628
+
+(información y publicidad)
 
                                                                                                    Este principio encuentra su fundamento legal en los artículos 3º y
                                                                                                    4º de la Ley N° 19.628. Para su realización, el responsable deberá
@@ -4895,10 +4858,15 @@ de Datos                                                                        
                                                                                                    del tratamiento de datos generalizado). Adicionalmente, incluyen el
                                                                                                    deber de información, que es requisito del consentimiento.
 
-
 ## 4.3.1 Deber de notificación y Registro
 
-                                                                                                   A la época de la dictación de nuestra ley, como regla general se
+**Definición Canónica:** A la época de la dictación de nuestra ley, como regla general se
+                                                                                                   preveía el deber de notificación, obligación que recae en el respon-
+                                                                                                   sable del tratamiento, o en su caso en su representante, de efectuar
+                                                                                                   una comunicación a la autoridad de control con anterioridad a la
+                                   
+
+A la época de la dictación de nuestra ley, como regla general se
                                                                                                    preveía el deber de notificación, obligación que recae en el respon-
                                                                                                    sable del tratamiento, o en su caso en su representante, de efectuar
                                                                                                    una comunicación a la autoridad de control con anterioridad a la
@@ -4926,10 +4894,15 @@ de Datos                                                                        
                                                                                                comunican la creación o modificación de los registros o bancos de
                                                                                                datos que mantienen.80
 
-
 ## 4.3.2 Deber de información
 
-                                                                                               El deber de información está íntimamente relacionado con obtener
+**Definición Canónica:** El deber de información está íntimamente relacionado con obtener
+                                                                                               el consentimiento del interesado. En este contexto, el principio de
+                                                                                               información exige que poner en conocimiento del titular de los
+                                                                                               datos solicitados todos los antecedentes necesarios acerca de las cir-
+                                                
+
+El deber de información está íntimamente relacionado con obtener
                                                                                                el consentimiento del interesado. En este contexto, el principio de
                                                                                                información exige que poner en conocimiento del titular de los
                                                                                                datos solicitados todos los antecedentes necesarios acerca de las cir-
@@ -5086,10 +5059,12 @@ de Datos                                                                        
 Protección                                                                                4. Principios y derechos en materia de tratamiento de datos personales.   129
 de Datos                                                                                     Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.4             Principio
 
-                                                                                            de finalidad
+**Definición Canónica:** de finalidad
+**Concordancias Legales:** artículo 9; artículo 1; Ley Nº 19.628; Ley Nº 20.575
+
+de finalidad
 
                                                                                             El principio de finalidad exige que los datos personales que no pro-
                                                                                             vengan de fuentes accesibles al público deben utilizarse solo para
@@ -5125,10 +5100,11 @@ de Datos                                                                        
                                                                                             riesgo comercial y para el proceso de crédito”, y por ende la
                                                                                             comunicación de esta
 
-
 ## 86       Cfr. Resolución de Madrid; p. 10
 
-                                                      87       Entendemos que estos pueden ser de su esencia, de su naturaleza o meramente accidentales.
+**Definición Canónica:** 87       Entendemos que estos pueden ser de su esencia, de su naturaleza o meramente accidentales.
+
+87       Entendemos que estos pueden ser de su esencia, de su naturaleza o meramente accidentales.
 
 Protección                                                     4. Principios y derechos en materia de tratamiento de datos personales.   130
 de Datos                                                          Análisis desde la doctrina y la jurisprudencia.
@@ -5148,10 +5124,12 @@ de Datos                                                          Análisis desd
 Protección                                                           4. Principios y derechos en materia de tratamiento de datos personales.   131
 de Datos                                                                Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.5     Principio de
 
-                                                                       calidad
+**Definición Canónica:** calidad
+**Concordancias Legales:** artículo 6
+
+calidad
 
                                                                        El principio de calidad del tratamiento de datos personales cons-
                                                                        tituye el paraguas bajo el cual se engloban las consecuencias de un
@@ -5176,10 +5154,17 @@ de Datos                                                                Análisi
                                                                        y la temporalidad del tratamiento de los datos personales, entre otros
                                                                        factores relevantes, como se verá a continuación.
 
-
 ## 4.5.1 Condiciones relativas a la calidad
 
-                                                                       de los datos personales
+**Definición Canónica:** de los datos personales
+                                                                       Para que los datos personales sean idóneos, deberán ser adecuados,
+                                                                       pertinentes y no excesivos, esto es, limitados a lo necesario en relación
+                                                                       a los fines para los cuales son tratados. Al respecto se debe considerar
+                                                                       lo dispuesto en el artículo 9º de la Ley Nº 19.628, en tanto exige que
+       
+**Concordancias Legales:** artículo 9; Ley Nº 19.628
+
+de los datos personales
                                                                        Para que los datos personales sean idóneos, deberán ser adecuados,
                                                                        pertinentes y no excesivos, esto es, limitados a lo necesario en relación
                                                                        a los fines para los cuales son tratados. Al respecto se debe considerar
@@ -5224,10 +5209,16 @@ de Datos                                                          Análisis desd
                                                                  sucesos en el sentido antes referido, privó al actor de una oportunidad
                                                                  o una chance”.
 
-
 ## 4.5.1.1 Pertinencia de los datos
 
-                                                                 Que los datos sean pertinentes implica que correspondan al ámbito
+**Definición Canónica:** Que los datos sean pertinentes implica que correspondan al ámbito
+                                                                 y finalidad del registro o banco de datos, esto es, que los datos sean
+                                                                 adecuados, atingentes y no excesivos con relación a los fines para los
+                                                                 que se recaben y para los que se traten posteriormente. De lo ante-
+                                                                 rior surgen consecuencias jurídicas de la mayor relevancia, a sa
+**Concordancias Legales:** Ley Nº 19.628
+
+Que los datos sean pertinentes implica que correspondan al ámbito
                                                                  y finalidad del registro o banco de datos, esto es, que los datos sean
                                                                  adecuados, atingentes y no excesivos con relación a los fines para los
                                                                  que se recaben y para los que se traten posteriormente. De lo ante-
@@ -5260,10 +5251,15 @@ de Datos                                                          Análisis desd
                                                                  la finalidad para la cual se ha creado el banco de datos y según la cual
                                                                  los datos solo son accesibles para estos fines”.
 
-
 ## 4.5.1.2 Exactitud y actualización
 
-                                                                 Los datos registrados deben reflejar con veracidad la situación real
+**Definición Canónica:** Los datos registrados deben reflejar con veracidad la situación real
+                                                                 del titular en un momento determinado. De esta manera, infringe el
+                                                                 principio todo aquel tratamiento que, de cualquier manera, pueda in-
+                                                                 ducir a un error de apreciación de la situación personal del interesado.
+**Concordancias Legales:** artículo 5; artículos 17; artículo 19; artículo 12; artículo 18; Ley Nº 19.628
+
+Los datos registrados deben reflejar con veracidad la situación real
                                                                  del titular en un momento determinado. De esta manera, infringe el
                                                                  principio todo aquel tratamiento que, de cualquier manera, pueda in-
                                                                  ducir a un error de apreciación de la situación personal del interesado.
@@ -5367,10 +5363,14 @@ de Datos                                                          Análisis desd
                                                                      Con todo, se comunicará a los tribunales de justicia la información
                                                                      que requieran con motivo de juicios pendientes”.
 
-
 ## 4.5.1.3 Razonabilidad
 
-                                                                 Más allá de la idoneidad y pertinencia de los datos personales que
+**Definición Canónica:** Más allá de la idoneidad y pertinencia de los datos personales que
+                                                                 sean objeto de tratamiento, la razonabilidad en materia de calidad
+                                                                 del tratamiento de datos dice relación con el cumplimiento de las
+                                                                 reglas y procedimientos generalmente aceptados (estándares) en el
+
+Más allá de la idoneidad y pertinencia de los datos personales que
                                                                  sean objeto de tratamiento, la razonabilidad en materia de calidad
                                                                  del tratamiento de datos dice relación con el cumplimiento de las
                                                                  reglas y procedimientos generalmente aceptados (estándares) en el
@@ -5393,10 +5393,14 @@ de Datos                                                          Análisis desd
                                                                  será la ciencia médica la que otorgará los parámetros a considerar,
                                                                  y así sucesivamente.
 
-
 ## 4.5.2 Proporcionalidad
 
-                                                                 Este principio implica que el tratamiento de datos de carácter per-
+**Definición Canónica:** Este principio implica que el tratamiento de datos de carácter per-
+                                                                 sonal deberá circunscribirse a aquellos que resulten adecuados,
+                                                                 pertinentes y no excesivos en relación con las finalidades previstas
+                                                                 de acuerdo al principio recién analizado.
+
+Este principio implica que el tratamiento de datos de carácter per-
                                                                  sonal deberá circunscribirse a aquellos que resulten adecuados,
                                                                  pertinentes y no excesivos en relación con las finalidades previstas
                                                                  de acuerdo al principio recién analizado.
@@ -5450,10 +5454,14 @@ de Datos                                                                        
                                                                                                   patrimonial y crédito del cliente, y que los algoritmos de análisis
                                                                                                   sean transparentes y no discriminatorios.
 
-
 ## 4.5.3 Temporalidad del tratamiento
 
-                                                                                              La Ley Nº 19.628, en materia de temporalidad, solo considera la regla
+**Definición Canónica:** La Ley Nº 19.628, en materia de temporalidad, solo considera la regla
+                                                                                              relativa a los datos sobre morosidades, que vimos antes y según la
+                                                                                              cual los datos solo podrán comunicarse hasta un máximo de 5 años
+**Concordancias Legales:** artículos 17; Ley Nº 19.628; Ley Nº 19.496
+
+La Ley Nº 19.628, en materia de temporalidad, solo considera la regla
                                                                                               relativa a los datos sobre morosidades, que vimos antes y según la
                                                                                               cual los datos solo podrán comunicarse hasta un máximo de 5 años
 
@@ -5484,10 +5492,16 @@ de Datos                                                                        
 Protección                                                     4. Principios y derechos en materia de tratamiento de datos personales.   139
 de Datos                                                          Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.5.4 Calidad de proceso
 
-                                                                 Los procesos asociados al tratamiento de datos deben ser de calidad
+**Definición Canónica:** Los procesos asociados al tratamiento de datos deben ser de calidad
+                                                                 y ello implica, al menos, contar con una política de privacidad que
+                                                                 se haga cargo de:
+                                                                 — que se definan perfiles de acceso y privilegios que den cuenta
+                                                                   de la función de cada una de las personas que entra en contacto
+                                                       
+
+Los procesos asociados al tratamiento de datos deben ser de calidad
                                                                  y ello implica, al menos, contar con una política de privacidad que
                                                                  se haga cargo de:
                                                                  — que se definan perfiles de acceso y privilegios que den cuenta
@@ -5513,15 +5527,14 @@ de Datos                                                          Análisis desd
                                                                  — adecuación de los contratos de trabajo para la inclusión de cláu-
                                                                    sulas relativas al deber de secreto en el tratamiento de datos por
 
-## parte de los trabajadores, y
-
-                                                                 — capacitaciones permanentes a los cuadros funcionarios en el
-                                                                   tratamiento adecuado de los datos.
-
-
 ## 4.5.5 Cumplimiento de derechos de los titulares de datos
 
-                                                                 Se cumplirá con esta exigencia si el titular del registro o banco de
+**Definición Canónica:** Se cumplirá con esta exigencia si el titular del registro o banco de
+                                                                 datos dispone de todas las medidas necesarias para que el interesado
+                                                                 pueda ejercer sus derechos de acceso, rectificación, cancelación y
+                                                                 oposición al tratamiento de datos.
+
+Se cumplirá con esta exigencia si el titular del registro o banco de
                                                                  datos dispone de todas las medidas necesarias para que el interesado
                                                                  pueda ejercer sus derechos de acceso, rectificación, cancelación y
                                                                  oposición al tratamiento de datos.
@@ -5541,10 +5554,11 @@ de Datos                                                          Análisis desd
 Protección                                                           4. Principios y derechos en materia de tratamiento de datos personales.   141
 de Datos                                                                Análisis desde la doctrina y la jurisprudencia.
 
-
 ## 4.6     Principio de
 
-                                                                       control
+**Definición Canónica:** control
+
+control
 
                                                                        Este principio exige que existan mecanismos para comprobar que la
                                                                        actividad del responsable del registro o banco de datos personales
@@ -5643,10 +5657,12 @@ de Datos                                                          Análisis desd
 Protección                                                                                    5. Deberes legales                                                              145
 de Datos                                                                                         especialmente exigibles
 
-
 ## 5.1                Deber de seguridad en el tratamiento
 
-                                                                                                de datos personales
+**Definición Canónica:** de datos personales
+**Concordancias Legales:** artículo 17; Artículo 11; Artículo 7; Ley Nº 19.628
+
+de datos personales
 
                                                                                                 En cumplimiento del deber de seguridad, el responsable del tra-
                                                                                                 tamiento de datos personales debe aplicar las medidas técnicas y
@@ -5798,10 +5814,12 @@ de Datos                                                          especialmente 
 Protección                                                           5. Deberes legales                                                     149
 de Datos                                                                especialmente exigibles
 
-
 ## 5.2     Protección de datos
 
-                                                                       desde el diseño
+**Definición Canónica:** desde el diseño
+**Concordancias Legales:** artículo 25; Ley Nº 19.628
+
+desde el diseño
 
                                                                        El proyecto de reforma de la Ley Nº 19.628 busca establecer el
                                                                        deber de incluir las reglas de protección de datos desde el diseño
@@ -5919,7 +5937,12 @@ de Datos                                                                        
 
 ## 2. El responsable del tratamiento aplicará las medidas técnicas y organizativas apropiadas con miras a ga-
 
-                                                               rantizar que, por defecto, solo sean objeto de tratamiento los datos personales que sean necesarios para cada
+**Definición Canónica:** rantizar que, por defecto, solo sean objeto de tratamiento los datos personales que sean necesarios para cada
+                                                               uno de los fines específicos del tratamiento. Esta obligación se aplicará a la cantidad de datos personales
+                                                               recogidos, a la extensión de su tratamiento, a su plazo de conservación y a su accesibilidad. Tales medidas
+                                                               garantizarán en particular que, por defecto, los datos personales no sean accesibles,
+
+rantizar que, por defecto, solo sean objeto de tratamiento los datos personales que sean necesarios para cada
                                                                uno de los fines específicos del tratamiento. Esta obligación se aplicará a la cantidad de datos personales
                                                                recogidos, a la extensión de su tratamiento, a su plazo de conservación y a su accesibilidad. Tales medidas
                                                                garantizarán en particular que, por defecto, los datos personales no sean accesibles, sin la intervención de la
@@ -5927,7 +5950,13 @@ de Datos                                                                        
 
 ## 3. Podrá utilizarse un mecanismo de certificación aprobado con arreglo al artículo 42 como elemento que
 
-                                                               acredite el cumplimiento de las obligaciones establecidas en los apartados 1 y 2 del presente artículo”.
+**Definición Canónica:** acredite el cumplimiento de las obligaciones establecidas en los apartados 1 y 2 del presente artículo”.
+                                                      95       La opinión 05/2014, del Grupo de trabajo sobre protección de datos personales del Artículo 29 (WP29), sobre
+                                                               técnicas de anonimización en la web, en su número 4 se refiere a la seudonomización como “la sustitución de
+                                                               un atributo (normalmente un atributo único) por otro en un registro. Por consiguiente, sig
+**Concordancias Legales:** Artículo 29
+
+acredite el cumplimiento de las obligaciones establecidas en los apartados 1 y 2 del presente artículo”.
                                                       95       La opinión 05/2014, del Grupo de trabajo sobre protección de datos personales del Artículo 29 (WP29), sobre
                                                                técnicas de anonimización en la web, en su número 4 se refiere a la seudonomización como “la sustitución de
                                                                un atributo (normalmente un atributo único) por otro en un registro. Por consiguiente, sigue existiendo una alta
@@ -5951,10 +5980,13 @@ de Datos                                                                        
                                                                                             diseño se basa en los siguientes siete principios96, que debieran ser
                                                                                             integrados en la arquitectura de los sistemas que tratan datos personales.
 
-
 ## 5.2.1 Proactivo, no reactivo ni remedial
 
-                                                                                            En lo que nos interesa, el modelamiento mismo del contrato inteli-
+**Definición Canónica:** En lo que nos interesa, el modelamiento mismo del contrato inteli-
+                                                                                            gente evalúa y considera los posibles riesgos de intrusiones ilegítimas
+                                                                                            y afectaciones a la privacidad, antes de que estos se materialicen.
+
+En lo que nos interesa, el modelamiento mismo del contrato inteli-
                                                                                             gente evalúa y considera los posibles riesgos de intrusiones ilegítimas
                                                                                             y afectaciones a la privacidad, antes de que estos se materialicen.
 
@@ -5963,10 +5995,15 @@ de Datos                                                                        
                                                                                             prácticas de seguridad estrictas, con altos niveles de protección, de
                                                                                             acuerdo a los más altos estándares legislativos, técnicos y organizativos.
 
-
 ## 5.2.2 Privacidad como configuración
 
-                                                                                            determinada o por defecto
+**Definición Canónica:** determinada o por defecto
+                                                                                            La arquitectura de sistema debiera tener la configuración de las reglas
+                                                                                            de privacidad más estrictas que deban aplicarse a cada dato personal
+                                                                                            que es objeto de tratamiento, sin necesidad de que el usuario haga
+                                                                                          
+
+determinada o por defecto
                                                                                             La arquitectura de sistema debiera tener la configuración de las reglas
                                                                                             de privacidad más estrictas que deban aplicarse a cada dato personal
                                                                                             que es objeto de tratamiento, sin necesidad de que el usuario haga
@@ -5978,10 +6015,12 @@ de Datos                                                                        
                                                                                             siguientes ejes de análisis nos permitirán determinar si el responsable
                                                                                             de la base de datos actuó con la debida diligencia. Asimismo, en un
 
-
 ## 96       CAVOUKIAN, Ann: Privacy by Design. The 7 Foundational Principles. Implementation and Mapping of Fair
 
-                                                               Information Practices. Disponible en línea [consulta: 21.09.2020].
+**Definición Canónica:** Information Practices. Disponible en línea [consulta: 21.09.2020].
+**Concordancias Legales:** artículo 11; artículo 2; artículo 20; Ley Nº 19.744; ley 19.628; ley 20285; ley 19.629
+
+Information Practices. Disponible en línea [consulta: 21.09.2020].
 
 Protección                                                                              5. Deberes legales                                                            153
 de Datos                                                                                   especialmente exigibles
@@ -6245,10 +6284,11 @@ de Datos                                                          especialmente 
 Protección                                                                                  5. Deberes legales                                                         158
 de Datos                                                                                       especialmente exigibles
 
-
 ## 5.3               Evaluaciones de impacto
 
-                                                                                              y consulta previa
+**Definición Canónica:** y consulta previa
+
+y consulta previa
 
                                                                                               En general se habla de evaluación de impacto cuando se quiere
                                                                                               medir y establecer la diferencia respecto de alguna variable que se
@@ -6361,8 +6401,14 @@ de Datos                                                                        
 
 ## parte de la implementación del programa”.101 Se trata de una especie
 
+**Definición Canónica:** de test de daños, entendido como proceso de ponderación entre el
+                                                                                              beneficio generado por la operación de tratamiento de datos y el
+                                                                                              efecto negativo que esta misma pueda traer en los derechos de la
+                                                                                              persona del titular. Esta metodología no es ajena al estudio tradicional
+                                                  
+**Concordancias Legales:** artículo 35; artículo 9; artículo 10; artículos 63
 
-                                                                                              de test de daños, entendido como proceso de ponderación entre el
+de test de daños, entendido como proceso de ponderación entre el
                                                                                               beneficio generado por la operación de tratamiento de datos y el
                                                                                               efecto negativo que esta misma pueda traer en los derechos de la
                                                                                               persona del titular. Esta metodología no es ajena al estudio tradicional
@@ -6405,10 +6451,11 @@ de Datos                                                          especialmente 
 Protección                                                                                  5. Deberes legales                                                          162
 de Datos                                                                                       especialmente exigibles
 
-
 ## 5.4               Responsabilidad
 
-                                                                                              demostrada
+**Definición Canónica:** demostrada
+
+demostrada
 
                                                                                               Se trata de que los responsables del tratamiento de datos personales
                                                                                               adopten medidas técnicas y organizativas que sean efectivas y veri-
@@ -6450,10 +6497,12 @@ de Datos                                                                        
 Protección                                                                                  5. Deberes legales                                                               163
 de Datos                                                                                       especialmente exigibles
 
-
 ## 5.5               Enfoque de riesgos y gestión de
 
-                                                                                              seguridad de los datos personales
+**Definición Canónica:** seguridad de los datos personales
+**Concordancias Legales:** Ley Nº 19.628
+
+seguridad de los datos personales
 
                                                                                               De acuerdo al Reglamento General de Protección de Datos (RGPD),
                                                                                               las medidas técnicas y organizativas a que nos hemos referido deben
@@ -6589,10 +6638,12 @@ de Datos                                                                        
                                                                                               o convención (art. 13 de la Ley Nº 19.628), por constituir precisa-
                                                                                               mente el núcleo del derecho fundamental a la protección de datos.
 
-
 ## 6.1              Derecho
 
-                                                                                              de acceso
+**Definición Canónica:** de acceso
+**Concordancias Legales:** artículo 12 de la Ley Nº 19.628; Ley N° 19.628; Ley Nº 19.628
+
+de acceso
 
                                                                                               Se ha establecido como derecho primario en materia de protección
                                                                                               de datos, lo que implica que el responsable del tratamiento de datos
@@ -6652,10 +6703,12 @@ de Datos                                                          frente a la do
 Protección                                                                    6. Los derechos de los titulares de datos                              169
 de Datos                                                                         frente a la doctrina y jurisprudencia
 
-
 ## 6.2           Derecho
 
-                                                                                de rectificación
+**Definición Canónica:** de rectificación
+**Concordancias Legales:** Ley N° 19.628
+
+de rectificación
 
                                                       Se trata de un            El derecho de rectificación es el que tiene el titular de los datos para
                                                                                 solicitar, a la persona responsable, la rectificación o modificación de
@@ -6687,10 +6740,11 @@ de Datos                                                                        
 Protección                                                           6. Los derechos de los titulares de datos                             170
 de Datos                                                                frente a la doctrina y jurisprudencia
 
-
 ## 6.3     Derecho de cancelacióno
 
-                                                                       supresión
+**Definición Canónica:** supresión
+
+supresión
 
                                                                        El derecho de cancelación otorga la facultad de exigir la eliminación
                                                                        o supresión de los datos de carácter personal que pudieran resultar
@@ -6720,10 +6774,12 @@ de Datos                                                                frente a
 Protección                                                           6. Los derechos de los titulares de datos                             171
 de Datos                                                                frente a la doctrina y jurisprudencia
 
-
 ## 6.4     Derecho
 
-                                                                       de oposición
+**Definición Canónica:** de oposición
+**Concordancias Legales:** artículo 3; artículo 20; Ley Nº 20.285
+
+de oposición
 
                                                                        Finalmente, el último de los derechos ARCO es el derecho de opo-
                                                                        sición, que habilita al titular de los datos a oponerse al tratamiento
@@ -6785,10 +6841,12 @@ de Datos                                                          frente a la do
 Protección                                                                                    6. Los derechos de los titulares de datos                                       173
 de Datos                                                                                         frente a la doctrina y jurisprudencia
 
-
 ## 6.5                Cambios en el ámbito de los derechos a partir
 
-                                                                                                de la entrada en vigencia del RGPD
+**Definición Canónica:** de la entrada en vigencia del RGPD
+**Concordancias Legales:** Constitución
+
+de la entrada en vigencia del RGPD
 
                                                                                                 El panorama internacional de los derechos de las personas en materia
                                                                                                 de protección de datos, que había sido estable en el tiempo, cambió el
@@ -6849,10 +6907,12 @@ de Datos                                                                        
 Protección                                                                                 6. Los derechos de los titulares de datos                                  175
 de Datos                                                                                      frente a la doctrina y jurisprudencia
 
-
 ## 6.6              Aplicación del derecho de cancelacióna
 
-                                                                                             internet: el “derecho al olvido”
+**Definición Canónica:** internet: el “derecho al olvido”
+**Concordancias Legales:** Artículo 29; artículo 2 de la Directiva 95; Constitucion
+
+internet: el “derecho al olvido”
 
                                                                                              Si bien el derecho al olvido “ha ocupado una amplia literatura me-
                                                                                              diática y jurídica durante el último lustro acompañando la explosiva
@@ -7101,7 +7161,12 @@ de Datos                                                                        
 
 ## 121      Recordemos que tratamiento de datos personales es, para la Directiva 95/46/CE “cualquier operación o
 
-                                                               conjunto de operaciones, efectuadas o no mediante procedimientos automatizados y aplicadas a datos
+**Definición Canónica:** conjunto de operaciones, efectuadas o no mediante procedimientos automatizados y aplicadas a datos
+                                                               personales, como la recogida, registro, organización, conservación, elaboración o modificación, extracción,
+                                                               consulta, utilización, comunicación por transmisión, difusión o cualquier otra forma que facilite el acceso a
+                                                               los mismos, cotejo o interconexión, así como su bloqueo, supresión o destrucción”.
+
+conjunto de operaciones, efectuadas o no mediante procedimientos automatizados y aplicadas a datos
                                                                personales, como la recogida, registro, organización, conservación, elaboración o modificación, extracción,
                                                                consulta, utilización, comunicación por transmisión, difusión o cualquier otra forma que facilite el acceso a
                                                                los mismos, cotejo o interconexión, así como su bloqueo, supresión o destrucción”.
@@ -7144,10 +7209,13 @@ de Datos                                                                        
                                                                                             solo para facilitar el acceso a los contenidos, sino que aprovecha esta
                                                                                             actividad para incluir publicidad asociada a los patrones de búsqueda
 
-
 ## 122      RALLO LOMBARTE, Artemi: “El debate europeo sobre el derecho al olvido en internet”. En Hacia un Nuevo
 
-                                                               Derecho Europeo de Protección de Datos, editado por Rallo Lombarte y Rosario García Mahamut, Tirant lo
+**Definición Canónica:** Derecho Europeo de Protección de Datos, editado por Rallo Lombarte y Rosario García Mahamut, Tirant lo
+                                                               Blanch, Valencia, 2015; p. 735.
+**Concordancias Legales:** Ley N° 19.628
+
+Derecho Europeo de Protección de Datos, editado por Rallo Lombarte y Rosario García Mahamut, Tirant lo
                                                                Blanch, Valencia, 2015; p. 735.
 
 Protección                                                                                  6. Los derechos de los titulares de datos                                    182
@@ -7359,7 +7427,13 @@ de Datos                                                                        
 
 ## 126      Como se recordará, Edward Snowden era un consultor tecnológico estadounidense, antiguo empleado de la
 
-                                                               Agencia Central de Inteligencia (CIA) y de la Agencia de Seguridad Nacional (NSA), que en junio del 2013
+**Definición Canónica:** Agencia Central de Inteligencia (CIA) y de la Agencia de Seguridad Nacional (NSA), que en junio del 2013
+                                                               hizo públicos, a través de los periódicos The Guardian (Reino Unido) y The Washington Post (Estados Unidos),
+                                                               documentos secretos sobre la existencia de varios proyectos en curso de vigilancia masiva en las redes de
+                                                               comunicaciones electrónicas por parte de algunos gobiernos, en concomitancia con emblemátic
+**Concordancias Legales:** constitucion
+
+Agencia Central de Inteligencia (CIA) y de la Agencia de Seguridad Nacional (NSA), que en junio del 2013
                                                                hizo públicos, a través de los periódicos The Guardian (Reino Unido) y The Washington Post (Estados Unidos),
                                                                documentos secretos sobre la existencia de varios proyectos en curso de vigilancia masiva en las redes de
                                                                comunicaciones electrónicas por parte de algunos gobiernos, en concomitancia con emblemáticas empresas
@@ -7409,7 +7483,13 @@ de Datos                                                                        
 
 ## 129      CÓRDOBA CASTROVERDE, Diego y DÍEZ-PICAZO GIMÉNEZ, Ignacio: “Reflexiones sobre los retos de la
 
-                                                               protección de la privacidad en un entorno tecnológico”. En El Derecho a la Privacidad en un Nuevo Entorno
+**Definición Canónica:** protección de la privacidad en un entorno tecnológico”. En El Derecho a la Privacidad en un Nuevo Entorno
+                                                               Tecnológico, VV.AA., Centro de Estudios Políticos y Constitucionales, Madrid, 2016; pp. 113-114. Entendemos
+                                                               que lo “claro y explícito” está referido a los alcances del derecho de supresión de datos personales y no a que
+                                                               el tribunal haya expresado que existía un derecho al olvido, pues ello no ocurrió.
+**Concordancias Legales:** Artículo 17; Constitucion
+
+protección de la privacidad en un entorno tecnológico”. En El Derecho a la Privacidad en un Nuevo Entorno
                                                                Tecnológico, VV.AA., Centro de Estudios Políticos y Constitucionales, Madrid, 2016; pp. 113-114. Entendemos
                                                                que lo “claro y explícito” está referido a los alcances del derecho de supresión de datos personales y no a que
                                                                el tribunal haya expresado que existía un derecho al olvido, pues ello no ocurrió.
@@ -7488,10 +7568,15 @@ de Datos                                                                        
                                                                                               el cumplimiento de una misión realizada en interés público o en
                                                                                               el ejercicio de poderes públicos conferidos al responsable, o por
 
-
 ## 131      RALLO LOMBARTE, Artemi: “El debate europeo sobre el derecho al olvido en internet”. En Hacia un nuevo
 
-                                                               derecho europeo de protección de datos, editado por Rallo y Rosario García Mahamut, Tirant lo Blanch, Va-
+**Definición Canónica:** derecho europeo de protección de datos, editado por Rallo y Rosario García Mahamut, Tirant lo Blanch, Va-
+                                                               lencia, 2015; pp. 728-729.
+                                                      132      PAUNER CHULVI, Cristina: “Implicancias del futuro reglamento europeo sobre protección de datos”. En Los
+                                                               derechos a la intimidad y a la privacidad en el siglo XXI, coordinado por Antonio Fayos Gardó, Dykinson, Ma-
+                                                               dr
+
+derecho europeo de protección de datos, editado por Rallo y Rosario García Mahamut, Tirant lo Blanch, Va-
                                                                lencia, 2015; pp. 728-729.
                                                       132      PAUNER CHULVI, Cristina: “Implicancias del futuro reglamento europeo sobre protección de datos”. En Los
                                                                derechos a la intimidad y a la privacidad en el siglo XXI, coordinado por Antonio Fayos Gardó, Dykinson, Ma-
@@ -7535,10 +7620,14 @@ de Datos                                                                        
                                                                                               accesibilidad permanentepuede incidir negativamente en su carrera
                                                                                               laboral, su crédito o sus relaciones sociales”.134
 
-
 ## 133      MUÑOZ MASSOUH, Ana María: “Eliminación de datos personales en internet: el reconocimiento del derecho
 
-                                                               al olvido”. En Revista Chilena de Derecho y Tecnología Vol. 4 N° 2, Facultad de Derecho de la Universidad de
+**Definición Canónica:** al olvido”. En Revista Chilena de Derecho y Tecnología Vol. 4 N° 2, Facultad de Derecho de la Universidad de
+                                                               Chile, Santiago de Chile, 2015; p. 224. Disponible en línea [consulta: 15.10.2020].
+                                                      134      MIERES MIERES, Luis Javier: El derecho al olvido digital, Fundación Alternativas, Madrid, 2014; p. 51.
+**Concordancias Legales:** Constitucion
+
+al olvido”. En Revista Chilena de Derecho y Tecnología Vol. 4 N° 2, Facultad de Derecho de la Universidad de
                                                                Chile, Santiago de Chile, 2015; p. 224. Disponible en línea [consulta: 15.10.2020].
                                                       134      MIERES MIERES, Luis Javier: El derecho al olvido digital, Fundación Alternativas, Madrid, 2014; p. 51.
 
@@ -7587,7 +7676,12 @@ de Datos                                                                        
 
 ## 137      DAVARA FERNÁNDEZ DE MARCOS, Elena: “El Reglamento Europeo de Protección de Datos”. En Derecho
 
-                                                               digital. Perspectiva interdisciplinar, obra en colaboración dirigida por Víctor Cazurro Barahona, J.M. Bosch
+**Definición Canónica:** digital. Perspectiva interdisciplinar, obra en colaboración dirigida por Víctor Cazurro Barahona, J.M. Bosch
+                                                               Editor, Barcelona, 2017; p. 198.
+                                                      138      Sentencia del Tribunal Constitucional de España 58/2018, de 4 de junio de 2018 (ECLI:ES:TC:2018:58).
+**Concordancias Legales:** artículo 12; Ley Nº 19.628; Constitucion; Constitución
+
+digital. Perspectiva interdisciplinar, obra en colaboración dirigida por Víctor Cazurro Barahona, J.M. Bosch
                                                                Editor, Barcelona, 2017; p. 198.
                                                       138      Sentencia del Tribunal Constitucional de España 58/2018, de 4 de junio de 2018 (ECLI:ES:TC:2018:58).
 
@@ -7672,10 +7766,12 @@ de Datos                                                                        
 Protección                                                                        7. Eventuales modificaciones a la normativa vigente y su impacto              195
 de Datos                                                                            en el control judicial. La situación actual y los cambios que se debaten.
 
-
 ## 7.1            Autoridades
 
-                                                                                    de control
+**Definición Canónica:** de control
+**Concordancias Legales:** artículo 16; Ley Nº 19.628; ley N° 20.285; Ley Nº 20.285
+
+de control
 
                                                                                     Los estándares en materia de protección de datos no se limitan a los
                                                                                     principios y derechos que deben ser considerados en la legislación,
@@ -7765,10 +7861,12 @@ de Datos                                                         en el control j
 Protección                                                           7. Eventuales modificaciones a la normativa vigente y su impacto              198
 de Datos                                                               en el control judicial. La situación actual y los cambios que se debaten.
 
-
 ## 7.2    El nuevo derecho
 
-                                                                      a la portabilidad de los datos
+**Definición Canónica:** a la portabilidad de los datos
+**Concordancias Legales:** Ley Nº 19.628; constitucion
+
+a la portabilidad de los datos
 
                                                                       Como ya se ha mencionado anteriormente, a partir de la entrada en
                                                                       vigencia en 2018 del Reglamento General de Protección de Datos
@@ -7804,10 +7902,12 @@ de Datos                                                               en el con
 Protección                                                           7. Eventuales modificaciones a la normativa vigente y su impacto              199
 de Datos                                                               en el control judicial. La situación actual y los cambios que se debaten.
 
-
 ## 7.3    Notificación de vulneraciones
 
-                                                                      de seguridad
+**Definición Canónica:** de seguridad
+**Concordancias Legales:** Ley Nº 19.628
+
+de seguridad
 
                                                                       Desde hace bastante tiempo se venía discutiendo, en ámbitos aca-
                                                                       démicos, la necesidad de establecer un sistema de notificaciones
@@ -7871,10 +7971,12 @@ de Datos                                                         en el control j
 Protección                                                           7. Eventuales modificaciones a la normativa vigente y su impacto              201
 de Datos                                                               en el control judicial. La situación actual y los cambios que se debaten.
 
-
 ## 7.4    Régimen
 
-                                                                      infraccional
+**Definición Canónica:** infraccional
+**Concordancias Legales:** Ley Nº 19.628
+
+infraccional
 
                                                                       Uno de los talones de Aquiles más conocidos de nuestra actual
                                                                       legislación es la inexistencia de un régimen sancionatorio para los
@@ -7929,10 +8031,12 @@ de Datos                                                         en el control j
 Protección                                                                   8. El tratamiento de datos                                           204
 de Datos                                                                        por el Estado
 
-
 ## 8.1           Legitimación para
 
-                                                                               el tratamiento de datos
+**Definición Canónica:** el tratamiento de datos
+**Concordancias Legales:** artículo 23; artículo 8; artículo 19; Ley Nº 19.628; Constitución Política; constitucion
+
+el tratamiento de datos
 
                                                                                La Ley Nº 19.628 dispone que los organismos públicos podrán
                                                                                realizar operaciones de tratamiento de datos dentro de la órbita de
@@ -8024,19 +8128,24 @@ de Datos                                                                        
 Protección                                                           8. El tratamiento de datos                                            207
 de Datos                                                                por el Estado
 
-
 ## 8.2     El tratamiento de datos por los organismos
 
-                                                                       de inteligencia y seguridad
+**Definición Canónica:** de inteligencia y seguridad
+
+de inteligencia y seguridad
 
                                                                        Las fuerzas de orden y seguridad tienen atribuciones para tratar datos
                                                                        personales y en los siguientes acápites nos referiremos a las normas
                                                                        relacionadas a esta materia.
 
-
 ## 8.2.1 Policía de Investigaciones
 
-                                                                       El Decreto Ley Nº 2460, ley orgánica de la Policía de Investigaciones
+**Definición Canónica:** El Decreto Ley Nº 2460, ley orgánica de la Policía de Investigaciones
+                                                                       de Chile (PDI), establece que será misión de esta policía “investigar
+                                                                       los delitos de conformidad a las instrucciones que al efecto dicte el
+**Concordancias Legales:** artículo 5; artículo 2; artículos 4; Ley Nº 2460; ley Nº 19.628; ley 19.628
+
+El Decreto Ley Nº 2460, ley orgánica de la Policía de Investigaciones
                                                                        de Chile (PDI), establece que será misión de esta policía “investigar
                                                                        los delitos de conformidad a las instrucciones que al efecto dicte el
 
@@ -8106,10 +8215,13 @@ de Datos                                                                por el E
                                                                  tercero que no tenga la calidad de titular del dato que consulta”, o que
                                                                  no acredite personería para actuar en su nombre.
 
-
 ## 8.2.2 Carabineros de Chile
 
-                                                                 La Ley Nº 8.961, ley orgánica de Carabineros de Chile, en su artículo
+**Definición Canónica:** La Ley Nº 8.961, ley orgánica de Carabineros de Chile, en su artículo
+                                                                 2º inciso segundo establece que esta institución tiene “la función
+**Concordancias Legales:** artículo 2; Ley Nº 8.961; ley N° 19.628; constitucion
+
+La Ley Nº 8.961, ley orgánica de Carabineros de Chile, en su artículo
                                                                  2º inciso segundo establece que esta institución tiene “la función
 
 Protección                                                     8. El tratamiento de datos                                             209
@@ -8130,10 +8242,17 @@ de Datos                                                                por el E
                                                                       Protección de la Vida Privada, particularmente en lo relativo a la
                                                                       protección de los titulares de datos”.
 
-
 ## 8.2.3 Agencia Nacional de Inteligencia
 
-                                                                 La Ley Nº 19.974 “sobre el sistema de inteligencia del Estado y
+**Definición Canónica:** La Ley Nº 19.974 “sobre el sistema de inteligencia del Estado y
+                                                                 crea la Agencia Nacional de Inteligencia”, ley orgánica de la Agencia
+                                                                 Nacional de Inteligencia, dispone que el objetivo de este órgano es
+                                                                 “producir inteligencia para asesorar al Presidente de la República y
+                                                                 a los diversos niveles superiores de conducción del Estado, en con-
+ 
+**Concordancias Legales:** artículo 1; artículo 22; Ley Nº 19.974; ley Nº 18.575
+
+La Ley Nº 19.974 “sobre el sistema de inteligencia del Estado y
                                                                  crea la Agencia Nacional de Inteligencia”, ley orgánica de la Agencia
                                                                  Nacional de Inteligencia, dispone que el objetivo de este órgano es
                                                                  “producir inteligencia para asesorar al Presidente de la República y
@@ -8186,10 +8305,16 @@ de Datos                                                                        
                                                                                               sean comunicados, adoptando los resguardos necesarios para evitar
                                                                                               accesos indebidos, fugas de datos y desviaciones de finalidad.
 
-
 ## 8.2.4 Protección de datos y actividades
 
-                                                                                              de videovigilancia para la mantención
+**Definición Canónica:** de videovigilancia para la mantención
+                                                                                              de la seguridad pública
+                                                                                              Antes de entrar al análisis del tratamiento de datos en este ámbito,
+                                                                                              es importante considerar que no toda captación de imágenes es
+                                                                                              considerada videovigilancia142,
+**Concordancias Legales:** artículo 22
+
+de videovigilancia para la mantención
                                                                                               de la seguridad pública
                                                                                               Antes de entrar al análisis del tratamiento de datos en este ámbito,
                                                                                               es importante considerar que no toda captación de imágenes es
@@ -8216,29 +8341,48 @@ de Datos                                                                        
                                                                                                 Estado y el ciudadano recurren a la videovigilancia porque es fuente
                                                                                                 de información y porque procura una mayor seguridad. En efecto,
 
-
 ## 1. Las personas físicas o jurídicas, públicas o privadas, podrán llevar a cabo el tratamiento de imágenes a
 
-                                                               través de sistemas de cámaras o videocámaras con la finalidad de preservar la seguridad de las personas o
+**Definición Canónica:** través de sistemas de cámaras o videocámaras con la finalidad de preservar la seguridad de las personas o
+                                                               bienes, así como de sus instalaciones.
+
+través de sistemas de cámaras o videocámaras con la finalidad de preservar la seguridad de las personas o
                                                                bienes, así como de sus instalaciones.
 
 ## 2. Solo podrán captarse imágenes de la vía pública en la medida que resulte imprescindible para la finalidad
 
-                                                               mencionada en el apartado anterior.
+**Definición Canónica:** mencionada en el apartado anterior.
+                                                               No obstante, será posible la captación de la vía pública en una extensión superior cuando fuese necesario para
+                                                               garantizar la seguridad de bienes o instalaciones estratégicos o de infraestructuras vinculadas al transporte,
+                                                               sin que en ningún caso pueda suponer la captación de imágenes del interior de un domicilio privado.
+
+mencionada en el apartado anterior.
                                                                No obstante, será posible la captación de la vía pública en una extensión superior cuando fuese necesario para
                                                                garantizar la seguridad de bienes o instalaciones estratégicos o de infraestructuras vinculadas al transporte,
                                                                sin que en ningún caso pueda suponer la captación de imágenes del interior de un domicilio privado.
 
 ## 3. Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de
 
-                                                               ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o
+**Definición Canónica:** ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o
+                                                               instalaciones. En tal caso, las imágenes deberán ser puestas a disposición de la autoridad competente en un
+                                                               plazo máximo de setenta y dos horas desde que se tuviera conocimiento de la existencia de la grabación.
+                                                               No será de aplicación a estos tratamientos la obligación de bloqueo prevista en el art. 32 d
+
+ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o
                                                                instalaciones. En tal caso, las imágenes deberán ser puestas a disposición de la autoridad competente en un
                                                                plazo máximo de setenta y dos horas desde que se tuviera conocimiento de la existencia de la grabación.
                                                                No será de aplicación a estos tratamientos la obligación de bloqueo prevista en el art. 32 de esta ley orgánica.
 
 ## 4. El deber de información previsto en el artículo 12 del Reglamento (UE) 2017/679 se entenderá cumplido
 
-                                                               mediante la colocación de un dispositivo informativo en lugar suficientemente visible identificando, al menos,
+**Definición Canónica:** mediante la colocación de un dispositivo informativo en lugar suficientemente visible identificando, al menos,
+                                                               la existencia del tratamiento, la identidad del responsable y la posibilidad de ejercitar los derechos previstos
+                                                               en los artículos 15 a 22 del Reglamento (UE) 2016/679. También podrá incluirse en el dispositivo informativo
+                                                               un código de conexión o dirección de internen de esta información.
+           
+**Concordancias Legales:** artículos 15; artículo 2
+
+mediante la colocación de un dispositivo informativo en lugar suficientemente visible identificando, al menos,
                                                                la existencia del tratamiento, la identidad del responsable y la posibilidad de ejercitar los derechos previstos
                                                                en los artículos 15 a 22 del Reglamento (UE) 2016/679. También podrá incluirse en el dispositivo informativo
                                                                un código de conexión o dirección de internen de esta información.
@@ -8251,7 +8395,12 @@ de Datos                                                                        
 
 ## 6. El tratamiento de los datos personales procedentes de las imágenes y sonidos obtenidos mediante la uti-
 
-                                                               lización de cámaras y videocámaras por las fuerzas y cuerpos de seguridad y por los órganos competentes
+**Definición Canónica:** lización de cámaras y videocámaras por las fuerzas y cuerpos de seguridad y por los órganos competentes
+                                                               para la vigilancia y control en los centros penitenciarios y para el control, regulación, vigilancia y disciplina
+                                                               del tráfico, se regirá por la legislación de transposición de la directiva (UE) 2016/680, cuando el tratamiento
+                                                               tenga fines de prevención, investigación, detección o enjuiciamiento de infraccio
+
+lización de cámaras y videocámaras por las fuerzas y cuerpos de seguridad y por los órganos competentes
                                                                para la vigilancia y control en los centros penitenciarios y para el control, regulación, vigilancia y disciplina
                                                                del tráfico, se regirá por la legislación de transposición de la directiva (UE) 2016/680, cuando el tratamiento
                                                                tenga fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de
@@ -8263,7 +8412,10 @@ de Datos                                                                        
 
 ## 8. El tratamiento por el empleador de datos obtenidos a través de sistemas de cámaras o videocámaras se
 
-                                                               somete a lo dispuesto en el artículo 89 de esta ley orgánica”.
+**Definición Canónica:** somete a lo dispuesto en el artículo 89 de esta ley orgánica”.
+**Concordancias Legales:** artículo 89; artículo 5.1; artículo 21; ley 19.628; constitucion
+
+somete a lo dispuesto en el artículo 89 de esta ley orgánica”.
 
 Protección                                                                                   8. El tratamiento de datos                                                    212
 de Datos                                                                                        por el Estado
@@ -8433,15 +8585,16 @@ de Datos                                                                        
 Protección                                                           8. El tratamiento de datos                                              216
 de Datos                                                                por el Estado
 
-
-## 8.3     Autorización para realizar tratamiento de datos
-
-                                                                       personales por otros organismos públicos
-
-
 ## 8.3.1 Defensoría de la Niñez
 
-                                                                       Este organismo ha sido dotado de competencias para tratar datos
+**Definición Canónica:** Este organismo ha sido dotado de competencias para tratar datos
+                                                                       personales en la Ley Nº 21.067, en concordancia con el artículo 20
+                                                                       de la Ley Nº 19.628. La Defensoría de la Niñez tiene como objeto
+                                                                       “la difusión, promoción y protección de los derechos de que son
+                                                                       titulares los niños, de acuerdo a la Constitución Políti
+**Concordancias Legales:** artículo 20 de la Ley Nº 19.628. La Defensoría de la Niñez tien; artículo 4; artículo 8; Ley Nº 21.067; Ley Nº 19.628; Ley N° 19.628; Constitución Política; constitucion
+
+Este organismo ha sido dotado de competencias para tratar datos
                                                                        personales en la Ley Nº 21.067, en concordancia con el artículo 20
                                                                        de la Ley Nº 19.628. La Defensoría de la Niñez tiene como objeto
                                                                        “la difusión, promoción y protección de los derechos de que son
@@ -8485,10 +8638,17 @@ de Datos                                                                por el E
                                                                       mente lo dispuesto en la Ley N° 19.628, sobre Protección de la
                                                                       Vida Privada”.
 
-
 ## 8.3.2 Instituto Nacional de Derechos Humanos
 
-                                                                 Conforme a la Ley N° 20.405, que crea el Instituto Nacional de
+**Definición Canónica:** Conforme a la Ley N° 20.405, que crea el Instituto Nacional de
+                                                                 Derechos Humanos, el Instituto tiene por objeto la promoción y
+                                                                 protección de “los derechos humanos de las personas que habiten
+                                                                 en el territorio de Chile, establecidos en las normas constitucionales
+                                                                 y legales; en los tratados internacionales suscritos y ratificados por
+        
+**Concordancias Legales:** artículo 3; Ley N° 20.405; constitucion
+
+Conforme a la Ley N° 20.405, que crea el Instituto Nacional de
                                                                  Derechos Humanos, el Instituto tiene por objeto la promoción y
                                                                  protección de “los derechos humanos de las personas que habiten
                                                                  en el territorio de Chile, establecidos en las normas constitucionales
@@ -8524,10 +8684,14 @@ de Datos                                                                por el E
 
 Protección                                                     8. El tratamiento de datos                                             218
 
-
 ## 8.3.3 Servicio Electoral
 
-                                                                 De acuerdo al artículo 1º de la ley orgánica del Servel, este servicio
+**Definición Canónica:** De acuerdo al artículo 1º de la ley orgánica del Servel, este servicio
+                                                                 tiene acceso directo a los datos electorales de todas las personas
+                                                                 registradas en el Servicio de Registro Civil e Identificación:
+**Concordancias Legales:** artículo 1; ley N° 19.628
+
+De acuerdo al artículo 1º de la ley orgánica del Servel, este servicio
                                                                  tiene acceso directo a los datos electorales de todas las personas
                                                                  registradas en el Servicio de Registro Civil e Identificación:
 
@@ -8556,10 +8720,12 @@ de Datos                                                                por el E
 Protección                                                                              8. El tratamiento de datos                                             219
 de Datos                                                                                   por el Estado
 
-
 ## 8.4              Tratamiento de datos personales
 
-                                                                                          y la prueba en juicio
+**Definición Canónica:** y la prueba en juicio
+**Concordancias Legales:** constitución
+
+y la prueba en juicio
 
                                                                                           En el ámbito procesal, se realizan tratamientos de datos personales
                                                                                           ya sea por el tratamiento de datos que realiza el Poder Judicial en el
@@ -8568,11 +8734,15 @@ de Datos                                                                        
                                                                                           cobrado relevancia en el contexto de la implementación de sistemas
                                                                                           de videovigilancia en la ciudad.
 
-
 ## 8.4.1 Tratamiento de datos de imágenes y video
 
+**Definición Canónica:** para preconstitución de pruebas en juicios civiles
+                                                                                          En materia civil, la videovigilancia se ha empleado tanto en la precons-
+                                                                                          titución de pruebas como en la producción de las mismas durante el
+                                                                                          proceso, y estas son operaciones de tratamiento de datos personales.
+**Concordancias Legales:** constitución
 
-                                                                                          para preconstitución de pruebas en juicios civiles
+para preconstitución de pruebas en juicios civiles
                                                                                           En materia civil, la videovigilancia se ha empleado tanto en la precons-
                                                                                           titución de pruebas como en la producción de las mismas durante el
                                                                                           proceso, y estas son operaciones de tratamiento de datos personales.
@@ -8621,10 +8791,16 @@ de Datos                                                                        
                                                                                                una agencia de detectives privados debidamente habilitada para
                                                                                                realizar esta actividad de acuerdo al derecho interno de España.
 
-
 ## 8.4.2 Tratamiento de datos de videovigilancia
 
-                                                                                            como prueba en los juicios laborales
+**Definición Canónica:** como prueba en los juicios laborales
+                                                                                            En materia laboral, la videovigilancia se fundado en la necesidad de
+                                                                                            garantizar la seguridad del entorno de trabajo y de paso la de moni-
+                                                                                            torear las actividades de las personas que laboran en él. En su empleo
+                                                                              
+**Concordancias Legales:** artículo 20 bis; artículo 89
+
+como prueba en los juicios laborales
                                                                                             En materia laboral, la videovigilancia se fundado en la necesidad de
                                                                                             garantizar la seguridad del entorno de trabajo y de paso la de moni-
                                                                                             torear las actividades de las personas que laboran en él. En su empleo
@@ -8672,7 +8848,13 @@ de Datos                                                                        
 
 ## 1. Los empleadores podrán tratar las imágenes obtenidas a través de sistemas de cámaras o videocámaras
 
-                                                               para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respec-
+**Definición Canónica:** para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respec-
+                                                               tivamente, en el artículo 20.3 del Estatuto de los trabajadores y en la legislación de función pública,
+                                                               siempre que estas funciones se ejerzan dentro de su marco legal y con los límites inherentes al mismo. Los
+                                                               emplea- dores habrán de informar con carácter previo, y de forma expresa, clara y concisa,
+**Concordancias Legales:** artículo 20.3 del Estatuto de los trabajadores y en la legislac
+
+para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respec-
                                                                tivamente, en el artículo 20.3 del Estatuto de los trabajadores y en la legislación de función pública,
                                                                siempre que estas funciones se ejerzan dentro de su marco legal y con los límites inherentes al mismo. Los
                                                                emplea- dores habrán de informar con carácter previo, y de forma expresa, clara y concisa, a los
@@ -8683,12 +8865,21 @@ de Datos                                                                        
 
 ## 2. En ningún caso se admitirá la instalación de sistemas de grabación de sonidos ni de videovigilancia en
 
-                                                               lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como
+**Definición Canónica:** lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como
+                                                               vestuarios, aseos, comedores y análogos.
+
+lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como
                                                                vestuarios, aseos, comedores y análogos.
 
 ## 3. La utilización de sistemas similares a los referidos en los apartados anteriores para la grabación de soni-
 
-                                                               dos en el lugar de trabajo se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad
+**Definición Canónica:** dos en el lugar de trabajo se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad
+                                                               de las instalaciones, bienes y personas derivados de la actividad que se desarrolle en el centro de trabajo y
+                                                               siempre respetando el principio de proporcionalidad, el de intervención mínima y las garantías previstas en los
+                                                               apartados anteriores. La supresión de los sonidos conservados por estos sistemas d
+**Concordancias Legales:** artículo 22; artículo 18.4 de la Constitución española; artículo 5; Constitución; Constitucion
+
+dos en el lugar de trabajo se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad
                                                                de las instalaciones, bienes y personas derivados de la actividad que se desarrolle en el centro de trabajo y
                                                                siempre respetando el principio de proporcionalidad, el de intervención mínima y las garantías previstas en los
                                                                apartados anteriores. La supresión de los sonidos conservados por estos sistemas de grabación se realizará
@@ -8778,10 +8969,12 @@ de Datos                                                                        
 Protección                                                           9. Desafíos de la protección de datos                                      225
 de Datos                                                                en el tránsito a la automatización
 
-
 ## 9.1     El fenómeno de la minería de datos y el
 
-                                                                       bigdata y las formas de control judicial
+**Definición Canónica:** bigdata y las formas de control judicial
+**Concordancias Legales:** artículo 9; artículo 19 de la Carta Fundamental; Ley Nº 20.591; Ley Nº 19.628; constitucion
+
+bigdata y las formas de control judicial
 
                                                                        La predicción del comportamiento humano ya no es asunto de men-
                                                                        talistas y está muy lejos de ser brujería. A través de operaciones de big
@@ -8980,10 +9173,12 @@ de Datos                                                                        
 Protección                                                           9. Desafíos de la protección de datos                                  230
 de Datos                                                                en el tránsito a la automatización
 
-
 ## 9.2     El “targeting”, los algoritmos y la
 
-                                                                       predicción de consumo
+**Definición Canónica:** predicción de consumo
+**Concordancias Legales:** Ley Nº 19.628; Ley Nº 18.216; constitucion
+
+predicción de consumo
 
                                                                        El etiquetado (targeting) y clasificación de las personas en base a sus
                                                                        hábitos, creencias y deseos, es una de las labores en que los algoritmos
@@ -9118,10 +9313,11 @@ de Datos                                                          en el tránsit
 Protección                                                                                  9. Desafíos de la protección de datos                                     234
 de Datos                                                                                       en el tránsito a la automatización
 
-
 ## 9.3               Internet de las cosas (IoT) y tratamientode
 
-                                                                                              datos personales
+**Definición Canónica:** datos personales
+
+datos personales
 
                                                                                               Uno de los soportes fundamentales de la cuarta Revolución Industrial
                                                                                               es la amplia expansión de las tecnologías de internet de las cosas
@@ -9197,7 +9393,14 @@ de Datos                                                                        
 
 ## 157      UNIÓN INTERNACIONAL DE TELECOMUNICACIONES. Descripción general de Internet de los objetos. Reco-
 
-                                                               mendación UIT-T Y.2060, Ginebra, 2014; p. 6.
+**Definición Canónica:** mendación UIT-T Y.2060, Ginebra, 2014; p. 6.
+                                                      158      Si hacemos caso de Yakubuv-Trembach, no deberíamos fascinarnos con las definiciones, pues “Internet de
+                                                               las Cosas es un concepto evolutivo y no estático, según el Centro Criptológico Nacional, que lo define tanto
+                                                               por su parte física y conectividad, cosas que perciben, actúan y se comunican (artefactos, vehículos, edi-
+                                               
+**Concordancias Legales:** Artículo 29160; Artículo 29; artículo 29 de la Directiva; Artículo 4.2 del Reglamento; Ley Nº 19.628; constitucion
+
+mendación UIT-T Y.2060, Ginebra, 2014; p. 6.
                                                       158      Si hacemos caso de Yakubuv-Trembach, no deberíamos fascinarnos con las definiciones, pues “Internet de
                                                                las Cosas es un concepto evolutivo y no estático, según el Centro Criptológico Nacional, que lo define tanto
                                                                por su parte física y conectividad, cosas que perciben, actúan y se comunican (artefactos, vehículos, edi-
@@ -9331,10 +9534,12 @@ de Datos                                                                        
 Protección                                                                                  9. Desafíos de la protección de datos                                    239
 de Datos                                                                                       en el tránsito a la automatización
 
-
 ## 9.4               Videovigilancia e imágenes
 
-                                                                                              como datos personales
+**Definición Canónica:** como datos personales
+**Concordancias Legales:** Ley Nº 19.628
+
+como datos personales
 
                                                                                               Desde siempre se ha sabido que videos e imágenes, en la medida
                                                                                               que muestren datos de personas identificadas o identificables, están
@@ -9387,10 +9592,16 @@ de Datos                                                          en el tránsit
 Protección                                                                               9. Desafíos de la protección de datos                                            241
 de Datos                                                                                    en el tránsito a la automatización
 
-
 ## 9.5                Datos en internet
 
-                                                                                            y redes sociales
+**Definición Canónica:** y redes sociales
+                                                                                            No es de extrañar que en una sociedad red como la que habitamos,
+                                                                                            en la que sus miembros se comunican e interactúan entre sí a través
+                                                                                            de plataformas informáticas que interrelacionan flujos de datos, el
+                                                                                            tema de la pro
+**Concordancias Legales:** artículo 19; constitucion; Constitución Política
+
+y redes sociales
                                                                                             No es de extrañar que en una sociedad red como la que habitamos,
                                                                                             en la que sus miembros se comunican e interactúan entre sí a través
                                                                                             de plataformas informáticas que interrelacionan flujos de datos, el
@@ -9456,19 +9667,3 @@ de Datos                                                                        
                                                                                  no supone un ejercicio ilimitado e irrestricto de tal derecho en términos que le
                                                                                  permita atribuir públicamente al actor un actuar reñido con la ley y poco profesional
                                                                                  (Considerando 7º).
-
-
-## Serie de
-
-
-## Documentos 244
-
-
-## Materiales   44
-
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

@@ -13,16 +13,20 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## De la regularización de la p sesión de
-
-
-## La pequeña pr piedad raíz y de la
-
-
 ## C nstitución del d mini s bre ella1
 
+**Definición Canónica:** Con fecha 21 de j lio de 1979, se p blicó en el Diario Oficial el Decreto Ley Nº
+2.695,2 del Ministerio de Tierras y Colonización (hoy, Ministerio de Bienes Nacionales),
+q e “Fija normas para reg larizar la posesión de la peq eña propiedad raíz y para la
+constit ción del dominio sobre ella”.
+        A s vez, s Reglamento act al consta en el Decreto S premo Nº 541, del
+Ministerio de Bienes Nacionales, p blicado en el Diario Oficial con fecha 17 de oct bre
+de 1996.
+        Esta normativa alteró completamente el sistema de la posesión inscrita, q e
+consagra el Código Civil, p es según examinaremo
+**Concordancias Legales:** Ley Nº 2.695; Ley Nº 6.382; Ley 2.695; Ley 6.382; Ley Nº 15.020; Ley Nº 18.148; Ley Nº 18.866; Ley Nº 19.455; Ley Nº 19.686; Ley Nº 19.858; Ley Nº 19.930; Ley Nº 21.108; Ley N° 21.633; Ley N° 21.737; DL Nº 2.695; DL Nº 3.516; DL Nº 1.939; DL Nº 701; DFL Nº 326; DFL Nº 83
 
-        Con fecha 21 de j lio de 1979, se p blicó en el Diario Oficial el Decreto Ley Nº
+Con fecha 21 de j lio de 1979, se p blicó en el Diario Oficial el Decreto Ley Nº
 2.695,2 del Ministerio de Tierras y Colonización (hoy, Ministerio de Bienes Nacionales),
 q e “Fija normas para reg larizar la posesión de la peq eña propiedad raíz y para la
 constit ción del dominio sobre ella”.
@@ -292,6 +296,13 @@ tanto, el avalúo fiscal del predio no debe s perar los $68.306.000.-
 q e esté vigente en la fecha q e se presente la respectiva solicit d, referido al total o
 
 ## parte del bien raíz, proporcionado por el Servicio de Imp estos Internos. El criterio del
+
+**Definición Canónica:** legislador, entonces, para calificar n predio como “peq eña propiedad raíz”, no
+atiende a la s perficie del mismo, sino a s avalúo fiscal; y
+c) Q e carezcan los al didos poseedores materiales de tít lo inscrito.
+        Cabe señalar q e no hay restricciones en el DL acerca del número de inm ebles
+q e na misma persona nat ral o j rídica p ede reg larizar.
+**Concordancias Legales:** Ley Nº 6.071; Ley Nº 19.537; Ley N° 21.442; Ley 2.695; Ley Nº 10.271.12; Ley Nº 16.741; Ley Nº 17.729; Ley Nº 19.253; Ley Nº 19.455; DL Nº 2.695; DL Nº 3.516; DL Nº 752; D.L. 2695
 
 legislador, entonces, para calificar n predio como “peq eña propiedad raíz”, no
 atiende a la s perficie del mismo, sino a s avalúo fiscal; y

@@ -13,12 +13,28 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Teoria general de las obligaciones1
-
-
-
 ## Segunda parte: efectos de las obligaciones
 
+**Definición Canónica:** Sumario:
+9.- Efectos de las obligaciones.
+9.1. Generalidades.
+9.2. La ejecución forzada.
+a) El derecho de prenda general.
+b) Ejecución forzada en las obligaciones de dar.
+c) Ejecución forzada en las obligaciones de hacer.
+d) Ejecución forzada en las obligaciones de no hacer.
+9.3. La cesión de bienes.
+a) Concepto.
+b) Características.
+c) Requisitos.
+d) Causales de oposición a la cesión de bienes.
+e) La cesión puede hacerse a uno o varios acreedores.
+f) Efectos de la cesión de bienes.
+9.4. La prelación de créditos.
+a) Ideas generales.
+b) Causas de preferencia en nuestro Derecho.
+c) Característica
+**Concordancias Legales:** artículos 1545
 
 Sumario:
 9.- Efectos de las obligaciones.
@@ -109,6 +125,18 @@ conjunto de medios que la ley confiere al acreedor para obtener el cumplimiento
 íntegro de la obligación, por parte del deudor, cuando éste no la cumpla en todo o en
 
 ## parte o esté en mora de cumplirla o para obtener el pago de una indemnización
+
+**Definición Canónica:** compensatoria y moratoria, cuando el deudor en definitiva no cumpla con su
+obligación.4
+        Estos derechos, que la ley confiere al acreedor, son tres:
+1º Un derecho principal para exigir, en cuanto sea posible, la ejecución forzada de la
+obligación.
+        Alternativamente, si el acreedor decide no perseverar en el contrato, puede
+también demandar la resolución del contrato (si es posible dejar sin efecto los efectos
+que el contrato haya generado) o la terminación de la convención (cuando no es
+posible reversar dichos efectos). En uno y otro caso la sentencia producirá la extinción
+del co
+**Concordancias Legales:** artículo 1618; artículo 2465; artículos 2465; artículo 1618 del Código Civil; artículo 445 del Código de Procedimiento Civil y en numerosas; artículos 40; artículo 5; Ley N° 20.930; ley N°2552
 
 compensatoria y moratoria, cuando el deudor en definitiva no cumpla con su
 obligación.4
@@ -314,6 +342,13 @@ Procedimiento Civil). Entablada la demanda ejecutiva, el juez examinará el tít
 (recordemos que excepcionalmente, el juez puede declarar de oficio la prescripción del
 
 ## título en que se funde la demanda ejecutiva) y despachará mandamiento de ejecución
+
+**Definición Canónica:** y embargo, tramitándose la causa hasta subastar bienes suficientes del deudor. El
+remate de bienes muebles se efectúa por un martillero, en pública subasta, previa
+publicación de avisos; y el de bienes raíces, también en pública subasta y previa
+publicación de avisos, pero en el Tribunal. Efectuado el remate, se hará pago al
+acreedor, de acuerdo a lo dispuesto en el artículo 2469 del Código Civil.
+**Concordancias Legales:** artículo 2469 del Código Civil. c; artículo 533; artículos 486; artículo 1555 del Código Civil; artículos 4; artículo 4; artículo 43; artículo 2472 del Código Civil preferirán a todo otro crédito c; Ley N° 14.908; Ley N° 20.720; Ley N° 19.250; Ley N° 20.190; Ley N° 5.687; constitución
 
 y embargo, tramitándose la causa hasta subastar bienes suficientes del deudor. El
 remate de bienes muebles se efectúa por un martillero, en pública subasta, previa
@@ -704,6 +739,10 @@ dados los términos de la norma. Creemos que, si la intención del legislador hu
 sido restringir la norma sólo al mencionado cuerpo legal, lo habría expresado. Por otra
 
 ## parte, puede ocurrir que una norma general esté incorporada en una materia
+
+**Definición Canónica:** específica o en una ley especial. En todo caso, por ahora la pregunta sólo tiene
+importancia teórica, pues no existe hoy una ley similar a la antigua prenda industrial.
+**Concordancias Legales:** artículo 163 bis; artículo 163 bis del Código del Trabajo16 estarán sujetas a los mi; artículo 163 bis del Código del Trabajo; artículo 201; artículo 198; artículos 2476; artículos 2477; artículo 2476; artículo 2478; artículo 2478 del Código Civil se dispone que; artículo 1698 del Código Civil; artículo 2478 del Código Civil. CUARTO; artículo 2472; artículo 2478 del Código Civil; artículo 1698; artículos 813; artículo 2490 del Código Civil; artículo 2483 del Código Civil que la preferencia se entiende c; Ley N° 20.720; Ley Nº 21.389; Ley N° 3.500; Ley N° 4.287; Ley N° 20.190; Ley Nº 20.190; Ley N° 19.335; Ley N° 5.521; Ley N° 18.802; Ley Nº 5.521; Ley Nº 18.802; Ley N° 21.442; constitución
 
 específica o en una ley especial. En todo caso, por ahora la pregunta sólo tiene
 importancia teórica, pues no existe hoy una ley similar a la antigua prenda industrial.
@@ -1600,35 +1639,34 @@ subordinación que afecta a su título.
 
 ## 2. La subordinación puede ser total o parcial. En el primer caso, ninguna parte del
 
+**Definición Canónica:** crédito podrá cobrarse sino una vez pagado otro crédito que se designa. En el segundo
+caso, podrá cobrarse una parte del crédito, y el saldo, sólo una vez que se pague otro
+crédito que se designa.
+3. La subordinación debe operar respecto de uno o más créditos determinados.
+
 crédito podrá cobrarse sino una vez pagado otro crédito que se designa. En el segundo
 caso, podrá cobrarse una parte del crédito, y el saldo, sólo una vez que se pague otro
 crédito que se designa.
 3. La subordinación debe operar respecto de uno o más créditos determinados.
 
-## 4. La subordinación puede operar respecto de créditos presentes o futuros. En todo
-
-caso, éstos últimos deben quedar determinados al momento de la subordinación.
-
-## 5. La subordinación es irrevocable, cuando se establece unilateralmente, sea por el
-
-acreedor, sea por el deudor que emite títulos de crédito.
-
 ## 6. La subordinación y el término anticipado de la misma, son actos solemnes. Podrá
+
+**Definición Canónica:** terminar anticipadamente cuando la subordinación hubiere tenido un origen
+convencional, entendiéndose que las mismas partes que concurrieron a su
+establecimiento, deben hacerlo para ponerle término por anticipado.
 
 terminar anticipadamente cuando la subordinación hubiere tenido un origen
 convencional, entendiéndose que las mismas partes que concurrieron a su
 establecimiento, deben hacerlo para ponerle término por anticipado.
 
-## 7. La subordinación es obligatoria para el deudor, que haya tomado conocimiento de la
-
-misma.
-
-## 8. La subordinación será inherente al crédito, de manera que si se transfiere o
-
-transmite, el adquirente deberá respetarla, so pena de reembolsar lo que se le pague
-por el deudor.
-
 ## 9. La subordinación suspende el cómputo de la prescripción de las acciones de cobro
+
+**Definición Canónica:** del crédito.
+        Cerrando los comentarios acerca de la prelación de créditos, agreguemos que,
+en la práctica, hay al menos dos casos de créditos, contemplados en la Ley N° 20.720,
+sobre insolvencia y reemprendimiento, que deben entenderse como de “sexta clase”,
+pues deben pagarse con posterioridad a los créditos valistas. Son ellos:
+**Concordancias Legales:** artículos 72; artículo 74; artículo 2472 del Código Civil preferirán a todo otro crédito c; artículo 1556; artículos 1557; artículo 1558; artículos 2314; artículo 2317; artículos 2107; Artículo 2107; Artículo 2108; Artículo 2109; Artículo 2110; Ley N° 20.720
 
 del crédito.
         Cerrando los comentarios acerca de la prelación de créditos, agreguemos que,
@@ -1739,6 +1777,10 @@ destruidos o perjudicados”, mientras que por “daños y perjuicios” se enti
 “compensación que se exige a quien ha causado un daño, para reparar este”. Por su
 
 ## parte, “perjuicio” se define como el “detrimento patrimonial que debe ser indemnizado
+
+**Definición Canónica:** por quien lo causa” y también como la “indemnización que se ha de pagar por este
+detrimento”.
+**Concordancias Legales:** artículo 1556; artículos 1553; artículo 1489 inciso 2; artículo 1489 del Código Civil. Por otra parte; artículo 1489 del Código Civil; artículo 1553; artículo 1489; artículos 1857; artículos 133; artículos 1828; artículo 1556 del Código Civil; artículos 1489
 
 por quien lo causa” y también como la “indemnización que se ha de pagar por este
 detrimento”.
@@ -2001,11 +2043,17 @@ ante un cumplimiento doble de la obligación, lo que implicaría enriquecimiento
 para una de las partes: art. 1537.
         Excepcionalmente, puede hacerlo en los siguientes casos:
 
-## 2.1. Cuando en la cláusula penal, se estipula expresamente que por el pago de la pena
-
-no se entiende extinguida la obligación principal (artículos 1537, parte final y 1543).
-
 ## 2.2. En la transacción (art. 2463). Como expresa Vodanovic, “La solución de la ley
+
+**Definición Canónica:** tiende a asegurar el cumplimiento de un contrato que se celebró con sacrificios mutuos
+y con el laudable propósito de evitar un litigio o darlo por terminado. No respetar tan
+sanas aspiraciones merece que contra el incumplidor se hagan efectivas
+acumulativamente las prestaciones de la transacción y la pena”. Se pregunta el mismo
+autor: “¿Podría estipularse que, si una de las partes no ejecuta la transacción, la parte
+cumplidora pueda demandar la resolución del contrato y el pago de la pena? Ninguna
+razón de orden legal hay para responder negativamente. Dicha estipulación sería
+válida”.36
+     
 
 tiende a asegurar el cumplimiento de un contrato que se celebró con sacrificios mutuos
 y con el laudable propósito de evitar un litigio o darlo por terminado. No respetar tan
@@ -2017,12 +2065,11 @@ razón de orden legal hay para responder negativamente. Dicha estipulación ser�
 válida”.36
         Como conclusiones respecto de la indemnización compensatoria:
 
-## 1. Sí admite la ley, en las obligaciones de hacer o de no hacer, el pedir
-
-“indistintamente” el cumplimiento de la obligación o la indemnización de perjuicios
-(con las dos prevenciones formuladas).
-
 ## 2. Tratándose de contratos bilaterales, no admite la ley, en las obligaciones de dar, por
+
+**Definición Canónica:** regla general, el pedir “indistintamente” la resolución o el cumplimiento de la
+obligación o la indemnización, salvo en la excepción legal (cláusula penal, cuando el
+deudor está en mora, art. 1537, parte inicial, interpretada a contrario sensu). Pero a
 
 regla general, el pedir “indistintamente” la resolución o el cumplimiento de la
 obligación o la indemnización, salvo en la excepción legal (cláusula penal, cuando el
@@ -2031,6 +2078,14 @@ deudor está en mora, art. 1537, parte inicial, interpretada a contrario sensu).
 caso, una demanda de daños y perjuicios en los términos que se han descrito, debe ser considerada como
 
 ## parte de lo que el vendedor debe en ‘cumplimiento del contrato’, de acuerdo con los términos del artículo
+
+**Definición Canónica:** 1489 del Código Civil. En efecto, conforme con el artículo 1591, ‘el pago total de la deuda comprende el de
+los intereses e indemnizaciones que se deban’. Dado que en este juicio se pretenden indemnizaciones
+derivadas de un incumplimiento contractual, asociadas a una entrega imperfecta de la cosa vendida, debe
+entenderse que el acreedor está ejerciendo una acción de cumplimiento contractual, para ser debidamente
+pagado por el deudor, aunque la acción esté reducida a las indemnizaciones que el actor estima que la
+sociedad demandada le adeuda por incumplimiento del contrato (…) Respecto del rubr
+**Concordancias Legales:** artículo 1591
 
 1489 del Código Civil. En efecto, conforme con el artículo 1591, ‘el pago total de la deuda comprende el de
 los intereses e indemnizaciones que se deban’. Dado que en este juicio se pretenden indemnizaciones
@@ -2055,6 +2110,13 @@ Jurídica ConoSur Ltda., Nº 183, p. 140.
 contrato ya no puede cumplirse o se haya cumplido, aunque de manera imperfecta.
 
 ## 3. Si se trata de contratos unilaterales que originan obligaciones de dar, no existe
+
+**Definición Canónica:** inconveniente    para    demandar      directamente     indemnización   de    perjuicios
+compensatorios o el cumplimiento de lo pactado.
+4. No admite, por regla general, acumulación de la obligación y de la indemnización,
+no pueden pedirse “conjuntamente”, salvo en los mencionados casos excepcionales
+(cláusula penal y transacción).
+**Concordancias Legales:** artículo 898; artículo 44 del Código Civil; artículos 1560; artículo 45 del Código Civil estima irresistible es el hecho; artículo 1567 del Código Civil; artículo 1670; artículo 1558; artículo 2178; artículo 1670 del Código Civil; artículo 1558 inciso 2; Artículos 1547; artículos 2152; artículo 2116; artículo 2152; artículo 2153; constitución
 
 inconveniente    para    demandar      directamente     indemnización   de    perjuicios
 compensatorios o el cumplimiento de lo pactado.
@@ -3403,13 +3465,29 @@ ilícitos, dado el tratamiento separado que les otorga el Código Civil más ade
 
 ## Título XXXV del mismo Libro IV).94
 
-         La misma opinión sostiene Alessandri: “Las reglas que rigen la responsabilidad
+**Definición Canónica:** La misma opinión sostiene Alessandri: “Las reglas que rigen la responsabilidad
+contractual constituyen el derecho común en materia de responsabilidad. La
+responsabilidad delictual y cuasidelictual es de excepción. Estimamos que sobre este
+particular no puede caber duda entre nosotros, pues el Código Civil chileno, a
+diferencia del francés, -que regla la responsabilidad contractual en la sección IV del
+
+La misma opinión sostiene Alessandri: “Las reglas que rigen la responsabilidad
 contractual constituyen el derecho común en materia de responsabilidad. La
 responsabilidad delictual y cuasidelictual es de excepción. Estimamos que sobre este
 particular no puede caber duda entre nosotros, pues el Código Civil chileno, a
 diferencia del francés, -que regla la responsabilidad contractual en la sección IV del
 
 ## Capítulo III del Título III del Libro III, o sea, a propósito de los contratos o de las
+
+**Definición Canónica:** obligaciones convencionales en general, -se ocupa de ella en el Título 12 del Libro IV
+bajo el epígrafe genérico Del efecto de las obligaciones, sin referirla a una especie
+determinada. A esto se agrega que los arts. 2314 y siguientes, a diferencia también de
+lo que hace el Código francés, que sólo habla del daño causado por un hecho o culpa
+del hombre o de las personas de quienes se es responsable o de las cosas que se
+tienen bajo su guarda, mencionan concretamente el delito y el cuasidelito, y, al reglar
+la responsabilidad delictual y cuasidelictual, entienden referirla únicamente a la que
+e
+**Concordancias Legales:** artículo 2288; artículo 2308; artículo 256; artículo 391; artículos 1748; artículo 44; artículo 44 del Código Civil define la culpa leve como
 
 obligaciones convencionales en general, -se ocupa de ella en el Título 12 del Libro IV
 bajo el epígrafe genérico Del efecto de las obligaciones, sin referirla a una especie
@@ -3644,11 +3722,12 @@ debemos atender:
 1. A lo que las partes hubieren estipulado en el contrato.
 2. A falta de estipulación, lo que dispongan leyes especiales, de haberlas.
 
-## 3. A falta de estipulación y de normas especiales, habrá que estar a lo dispuesto en
-
-normas del Código Civil, específicas de cada contrato o para ciertas instituciones.
-
 ## 4. A falta de estipulación en el contrato o de normas especiales, sean ajenas al Código
+
+**Definición Canónica:** o propias de éste, debemos aplicar lo dispuesto en el art. 1547, es decir, según si el
+contrato beneficie a las dos partes o a una sola de ellas. Esta es la norma general y
+supletoria en esta materia.
+**Concordancias Legales:** artículos 1547 inc. 3; artículo 1558
 
 o propias de éste, debemos aplicar lo dispuesto en el art. 1547, es decir, según si el
 contrato beneficie a las dos partes o a una sola de ellas. Esta es la norma general y
@@ -3749,6 +3828,15 @@ Se ha entendido que esta disposición apunta a dolo que no ocasione un delito ci
 pues de lo contrario constituiría una inútil repetición de la regla del inc. 1º del art.
 
 ## 2317. En otras palabras, esta norma se referiría al dolo como maquinación fraudulenta
+
+**Definición Canónica:** o vicio del consentimiento o al dolo en el cumplimiento de las obligaciones. Así, si
+varios contratantes incurrieron en dolo para inducir a la contraparte a contratar, o si
+varios contratantes infringen una obligación común, y mediare dolo en tal infracción,
+serán solidariamente responsables por los perjuicios que el incumplimiento ocasione a
+la contraparte o al acreedor, respectivamente. Se trata de casos de responsabilidad
+originada con ocasión de la celebración de un contrato, que después se declara nulo,
+siendo la responsabilidad extracontractual o en el segundo caso, contractual, por ende
+**Concordancias Legales:** artículo 44 del Código Civil no hace distinciones; artículo 44 del Código Civil. Por otra
 
 o vicio del consentimiento o al dolo en el cumplimiento de las obligaciones. Así, si
 varios contratantes incurrieron en dolo para inducir a la contraparte a contratar, o si
@@ -3933,6 +4021,14 @@ civiles que entre el dolo y la culpa lata establece el artículo 44 del Código 
 
 ## parte, el elemento intencional que es la esencia del dolo constituirá siempre un factor
 
+**Definición Canónica:** difícil de probar (…). La culpa lata, en cambio, se puede desprender de antecedentes
+objetivos más fáciles de establecer; por ello nuestro criterio se funda también en la
+posibilidad o facilidad de la prueba”.115
+         Cabe advertir, sin embargo, que esta asimilación de los efectos de la culpa
+grave al dolo, no se produce en el art. 1300, a propósito de los albaceas, quienes
+afrontan consecuencias más severas si actúan dolosamente, y menos severas si actúan
+culpablemente, aunque incurran en culpa grave. En efecto, si bien en ambos casos
+
 difícil de probar (…). La culpa lata, en cambio, se puede desprender de antecedentes
 objetivos más fáciles de establecer; por ello nuestro criterio se funda también en la
 posibilidad o facilidad de la prueba”.115
@@ -4064,11 +4160,25 @@ necesidad de respetar absolutamente los contratos legalmente celebrados, por una
 
 ## parte, y las razones de equidad que buscan atenuar el rigor de las cláusulas
 
+**Definición Canónica:** contractuales. La doctrina de la imprevisión intenta encontrar una base sólida para
+justificar una revisión del contrato, sin atentar con ello contra la necesaria estabilidad
+contractual, la seguridad jurídica entre los contratantes.
+
 contractuales. La doctrina de la imprevisión intenta encontrar una base sólida para
 justificar una revisión del contrato, sin atentar con ello contra la necesaria estabilidad
 contractual, la seguridad jurídica entre los contratantes.
 
 ## Parte de la doctrina intenta buscar los fundamentos de la imprevisión en los
+
+**Definición Canónica:** textos positivos: fundamentalmente en el art. 1546, sosteniéndose que una revisión
+del contrato se justificaría al señalar tal precepto que el contrato debe cumplirse de
+BUENA FE, aconteciendo ello cuando se ejecuta de acuerdo con la intención de las
+partes, repugnando a lo anterior que una parte se enriquezca a expensas de la otra en
+términos no previstos. También en relación al art. 1546 se dice que al obligar los
+contratos a su ejecución de buena fe, obligan no sólo a lo que en ellos se expresa. Se
+agrega que el art. 1545 (principal escollo entre nosotros a la teoría de la imprevisión),
+con
+**Concordancias Legales:** artículo 1458.118
 
 textos positivos: fundamentalmente en el art. 1546, sosteniéndose que una revisión
 del contrato se justificaría al señalar tal precepto que el contrato debe cumplirse de
@@ -4356,6 +4466,16 @@ circunstancia de que no deba responder ninguno de los contratantes, perderá est
 
 ## parte el derecho a la contraprestación”; El Código Civil peruano, por su parte, en su
 
+**Definición Canónica:** art. 1431, establece: “En los contratos con prestaciones recíprocas, si la prestación a
+cargo de una de las partes deviene imposible sin culpa de los contratantes, el contrato
+queda resuelto de pleno derecho. En este caso, el deudor liberado pierde el derecho a
+la contraprestación y debe restituir lo que ha recibido. Empero, las partes pueden
+convenir que el riesgo esté a cargo del acreedor”. El Código Civil español, en su art.
+1182, dispone a su vez: “Quedará extinguida la obligación que consista en entregar
+una cosa determinada cuando ésta se perdiere o destruyere sin culpa del deudor y
+ante
+**Concordancias Legales:** artículo 578; Ley N° 19.496; Ley N° 21.461; Ley N° 18.101
+
 art. 1431, establece: “En los contratos con prestaciones recíprocas, si la prestación a
 cargo de una de las partes deviene imposible sin culpa de los contratantes, el contrato
 queda resuelto de pleno derecho. En este caso, el deudor liberado pierde el derecho a
@@ -4633,6 +4753,15 @@ este nombre; pero consigna en el art. 1552 la substancia de la excepción que ex
 
 ## parte de los contratantes el cumplimiento recíproco y simultáneo del contrato en lo que
 
+**Definición Canónica:** a cada uno toca para tener derecho a constituir al otro contratante en mora de
+ejecutarlo y poder exigirle el cumplimiento. En efecto, en las circunstancias normales,
+es decir, cuando ninguna de las partes está obligada por la convención a ejecutar
+primero su obligación, la ejecución de las obligaciones de las dos partes debe ser
+concomitante, ‘dando dando’, ‘pasando pasando’ (zug und zug, como dicen los
+alemanes); y si una de las partes que no ha ejecutado su obligación se presenta
+demandando el cumplimiento de la obligación de la otra parte, ésta puede
+excepcionarse con aquel incumplimiento,
+
 a cada uno toca para tener derecho a constituir al otro contratante en mora de
 ejecutarlo y poder exigirle el cumplimiento. En efecto, en las circunstancias normales,
 es decir, cuando ninguna de las partes está obligada por la convención a ejecutar
@@ -4667,6 +4796,11 @@ otorgarle repudiando, sin embargo, las cargas que como compensación para la otr
 
 ## parte le impone. Es preciso reconocer al contratante perseguido el derecho de poner
 
+**Definición Canónica:** coto a las maniobras de su adversario rehusándole el cumplimiento de la obligación a
+su cargo, mientras la contraprestación correlativa no le haya sido suministrada u
+ofrecida. La excepción non adimpleti contractus es, pues, un medio de defensa de
+buena fe que el que se halla obligado en virtud de una relación sinalagmática, sin estar
+
 coto a las maniobras de su adversario rehusándole el cumplimiento de la obligación a
 su cargo, mientras la contraprestación correlativa no le haya sido suministrada u
 ofrecida. La excepción non adimpleti contractus es, pues, un medio de defensa de
@@ -4681,7 +4815,17 @@ prestación debida hasta el cumplimiento de la contraprestación que incumbe a l
 
 ## parte”.127
 
-        Hernán Corral, aludiendo también a este artículo, formula conceptos similares:
+**Definición Canónica:** Hernán Corral, aludiendo también a este artículo, formula conceptos similares:
+“El texto sólo señala que en los contratos bilaterales ninguno de los contratantes está
+en mora al incumplir lo pactado mientras el otro no cumple o no se allana a cumplir. La
+mora se exige sólo para la indemnización de perjuicios, pero la jurisprudencia y la
+doctrina han ampliado esta institución para paralizar las demandas de cumplimiento o
+de resolución. El demandado puede alegar que el demandante no ha cumplido con su
+propia obligación por lo que no puede pretender que cumpla con la suya”.128
+        En la compr
+**Concordancias Legales:** artículo 170 del Código de Procedimiento Civil. En efecto no p; artículo 1552 del Código Civil; artículos 1489; artículo 1489; artículo 1552
+
+Hernán Corral, aludiendo también a este artículo, formula conceptos similares:
 “El texto sólo señala que en los contratos bilaterales ninguno de los contratantes está
 en mora al incumplir lo pactado mientras el otro no cumple o no se allana a cumplir. La
 mora se exige sólo para la indemnización de perjuicios, pero la jurisprudencia y la
@@ -4963,6 +5107,12 @@ pág. 419; Arturo Alessandri, comentario a la sentencia publicada en R.D.J., t. 
 1ª, pág. 693; Somarriva, Obligaciones y Contratos ante la Jurisprudencia, N° 20, pág.
 
 ## 14. Hay abundante jurisprudencia. Así, por ejemplo, se ha fallado que ‘si una de las
+
+**Definición Canónica:** partes del contrato de promesa de compraventa no ha cumplido enteramente con su
+obligación de pagar el precio, mal puede demandar la resolución del contrato con
+indemnización de perjuicios a la otra, que tampoco ha cumplido’ (R.D.J., t. 81, sec. 1ª,
+pág. 158)”.142
+**Concordancias Legales:** artículos 1556; artículo 19; artículos 1930; artículo 24 del Código Civil; artículo 170; artículo 2329; artículo 1558; Ley N° 18.010; Constitución Política; constitucion
 
 partes del contrato de promesa de compraventa no ha cumplido enteramente con su
 obligación de pagar el precio, mal puede demandar la resolución del contrato con
@@ -5475,24 +5625,13 @@ incumplimiento de un contrato:
 1. Porque se ha superado una interpretación literal del art. 1556.
 2. Porque dicho artículo, por lo demás, no excluye la indemnización por daño moral.
 
-## 3. Porque otros preceptos del Código Civil (arts. 539, 544 y 1544) aceptan indemnizar
-
-todo daño, incluyendo por ende el daño moral.
-
-## 4. Porque se ha extendido el concepto de daño emergente, incluyendo tanto el daño
-
-patrimonial como el moral.
-
-## 5. Porque la doctrina nacional se ha ido uniformando en orden a entender el daño en
-
-términos amplios.
-
-## 6. Donde existe la misma razón, debe existir la misma disposición: si se admite
-
-indemnizar el daño moral en el campo de los delitos y cuasidelitos, no se divisa razón
-para excluirlo en el campo contractual.
-
 ## 7. Donde la ley no distingue, no cabe distinguir el intérprete: la ley, al referirse al daño
+
+**Definición Canónica:** emergente, no lo circunscribe al daño patrimonial.
+8. El principio general, que se consagra en la Constitución Política y en el Código Civil,
+es el de resarcir todos los perjuicios sufridos por una persona, a menos que la
+indemnización se excluya por motivos fundados.
+**Concordancias Legales:** Constitución Política
 
 emergente, no lo circunscribe al daño patrimonial.
 8. El principio general, que se consagra en la Constitución Política y en el Código Civil,
@@ -5500,6 +5639,10 @@ es el de resarcir todos los perjuicios sufridos por una persona, a menos que la
 indemnización se excluya por motivos fundados.
 
 ## 9. Como principio general, procede decretar indemnización por daño moral en la esfera
+
+**Definición Canónica:** contractual cuando el incumplimiento deriva del dolo o de la culpa grave, atendido lo
+dispuesto en el art. 1558, que hace responsable al deudor, en este caso, “de todo
+perjuicio”.
 
 contractual cuando el incumplimiento deriva del dolo o de la culpa grave, atendido lo
 dispuesto en el art. 1558, que hace responsable al deudor, en este caso, “de todo
@@ -5553,6 +5696,16 @@ pudo prever al tiempo de celebrarse el contrato, que sucederían caso de no ejec
 lo convenido; porque a ellos solamente parece que ha querido sujetarse el deudor.
 
 ## 161. Y aun en cuanto a estos presúmese por lo regular que se limitó la intención de las
+
+**Definición Canónica:** partes a los que pudiera sufrir el acreedor con respecto a la misma cosa objeto de la
+obligación, sin tomar en cuenta lo que por otro motivo experimentase en sus demás
+bienes, aunque tuviesen su origen en la falta de cumplimiento de que tratamos. Por lo
+mismo no es el deudor responsable de los últimos, y sí sólo de los primeros: damni
+interesse propter ipsam rem non habitam.151 Ejemplos. I. Supongamos que yo he
+vendido a alguno un caballo, y que comprometiéndome a entregárselo dentro de cierto
+tiempo, no he podido verificarlo en el término convenido. Si en este intervalo ha subido
+el precio de
+**Concordancias Legales:** artículos 1537; artículo 8; artículo 1544; artículos 1965; artículo 2466; Ley N° 18.010; Ley Nº 20.720
 
 partes a los que pudiera sufrir el acreedor con respecto a la misma cosa objeto de la
 obligación, sin tomar en cuenta lo que por otro motivo experimentase en sus demás
@@ -6266,6 +6419,16 @@ derecho de ejecución que fluye de la garantía general establecida en los Arts.
 
 ## 2469. En efecto, el Art. 2465 permite efectuar la ejecución de todos los bienes del
 
+**Definición Canónica:** deudor, los que a él pertenecen. Pero puede ocurrir que en el patrimonio del deudor
+existan otros bienes de que él no es dueño, sino que corresponden a otras personas. El
+inc. 1º del Art. 2466 deja bien en claro que estas personas conservarán su dominio; lo
+que es evidente, y si se llegaran a embargar, deducirían la correspondiente tercería de
+dominio. Dicho de otra manera, los acreedores no pueden perseguir los bienes
+mismos, no los pueden embargar y sacar a remate. Pero en estos bienes el deudor
+puede tener ciertos derechos reales, como prenda y usufructo que el Código menciona
+expresamente;
+**Concordancias Legales:** artículo 546 del Código de Procedimiento Civil. Ahora bien; artículo 2466; artículo 2162; artículo 1677 del C. Civil; artículo 1677; artículo 1962; artículo 1965; artículo 1394; artículos 1238; artículo 1689; artículo 1683
+
 deudor, los que a él pertenecen. Pero puede ocurrir que en el patrimonio del deudor
 existan otros bienes de que él no es dueño, sino que corresponden a otras personas. El
 inc. 1º del Art. 2466 deja bien en claro que estas personas conservarán su dominio; lo
@@ -6794,6 +6957,16 @@ actos aludidos, uno objetivo y otro subjetivo:
 
 ## 2468. Un acto causa perjuicio a los acreedores, en este contexto, cuando ocasiona la
 
+**Definición Canónica:** “insolvencia” del deudor o aumenta una insolvencia preexistente. En otros términos,
+cuando se produce una disminución en el patrimonio del deudor, en forma tal que los
+demás bienes que quedan en poder del deudor son insuficientes para hacer pago al
+acreedor o acreedores. En efecto, “insolvente”, según el Diccionario de la Lengua
+Española, es aquél que no tiene con qué pagar sus deudas.
+         Dos requisitos se exigen a su vez respecto de la insolvencia:
+i) Debe ser contemporánea con el ejercicio de la acción pauliana. Por lo tanto, no serán
+atacables por medio de esta acción, los actos del d
+**Concordancias Legales:** artículo 2468 del Código Civil; artículo 44 del Código Civil lo define como; artículo 2314 del Código Civil. No es posible asimilar al dolo; artículo 2317 inciso 2; artículo 2317; artículo 2468; artículo 1681; artículos 287; artículo 263; artículo 264; artículo 2; artículos 263; Ley N° 20.720
+
 “insolvencia” del deudor o aumenta una insolvencia preexistente. En otros términos,
 cuando se produce una disminución en el patrimonio del deudor, en forma tal que los
 demás bienes que quedan en poder del deudor son insuficientes para hacer pago al
@@ -7288,6 +7461,10 @@ regula los procedimientos concursales de la Persona Deudora. Los artículos 263 
 
 ## Título 1, “Del procedimiento Concursal de Renegociación de la Persona Deudora”. El artículo 263, se refiere a
 
+**Definición Canónica:** la “Resolución de Admisibilidad” como aquella que declara admisible la solicitud de inicio del Procedimiento
+Concursal de Renegociación. El artículo 264 regula los efectos de dicha resolución.
+**Concordancias Legales:** artículo 264; artículo 2468 del Código Civil
+
 la “Resolución de Admisibilidad” como aquella que declara admisible la solicitud de inicio del Procedimiento
 Concursal de Renegociación. El artículo 264 regula los efectos de dicha resolución.
 
@@ -7393,6 +7570,16 @@ CUESTIONARIO.
 1.- ¿En qué Título del Código Civil se trata de los efectos de las obligaciones? En dicho
 
 ## Título, ¿qué preceptos regulan en realidad los efectos de los contratos y cuáles regulan
+
+**Definición Canónica:** los efectos de las obligaciones?
+2.- ¿Cuáles son los efectos del contrato y cuáles los efectos de las obligaciones?
+3.- ¿Cómo se definen los efectos de las obligaciones?
+4.- ¿Qué derechos confiere la ley al acreedor, en el marco de los efectos de las
+obligaciones?
+5.- ¿De qué derecho dispone el acreedor, para obtener la ejecución forzada de la
+obligación? ¿En qué preceptos se consagra este derecho y qué facultades se confieren
+al acreedor en cada uno de ellos?
+**Concordancias Legales:** Ley Nº 20.720
 
 los efectos de las obligaciones?
 2.- ¿Cuáles son los efectos del contrato y cuáles los efectos de las obligaciones?

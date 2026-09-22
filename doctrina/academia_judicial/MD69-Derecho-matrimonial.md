@@ -13,20 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## 69           Derecho
-
-             matrimonial
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+                        electrónica
+             Jorge del Picó Rubio
+             Marcela Acuña San Martín
+                        de causas
 
-                        Tramitación
+Tramitación
                         electrónica
              Jorge del Picó Rubio
              Marcela Acuña San Martín
@@ -96,99 +91,10 @@ Materiales Docentes                                                             
 
 Contenido
 
-
-## 6       Introducción
-
-
-## 8       Capítulo 1
-
-        La unión afectivo-sexual de pareja y su ordenación jurídica
-        en el derecho matrimonial chileno
-
-## 8       Persona, unión de hecho, unión civil y matrimonio
-
-
-## 14      Unión de hecho y unión jurídicamente formalizada
-
-
-## 23      El acuerdo de unión civil: Recepción legal del pacto
-
-        		      de convivencia civil
-
-## 31      El matrimonio: Visión general de la institución, sus fundamentos y
-
-        		      su justificación jurídica y social
-
-
-## 46      Capítulo 2
-
-        Régimen legal del matrimonio: Desarrollo particular
-        del matrimonio como acto jurídico
-
-## 46      Introducción al régimen legal del matrimonio
-
-
-## 47      El matrimonio como acto jurídico
-
-
-## 57      Requisitos del matrimonio y sistemas matrimoniales
-
-
-## 63      Celebración del matrimonio: Sistemas matrimoniales, matrimonio
-
-        		      civil y matrimonio religioso
-
-
-## 73      Capítulo 3
-
-        El matrimonio como estado
-
-## 73      El estado matrimonial: Efectos personales y patrimoniales
-
-
-## 82      Bienes familiares
-
-
-## 90      Convenciones matrimoniales y pactos de sustitución
-
-
-## 94      Regímenes económicos del matrimonio
-
-
-## 143     Momento crítico del matrimonio
-
-
-
-## 154     Capítulo 4
-
-        La terminación del matrimonio y sus efectos civiles
-
-## 154     Introducción
-
-
-## 155     El divorcio
-
-
-
-## 169   Disolución del matrimonio por voluntad del cónyuge de quien
-
-      		    ha obtenido rectificación de partida de nacimiento por razones
-      		    de identidad de género
-
-## 170   La compensación económica
-
-
-
-## 213   Capítulo 5
-
-      Algunas cuestiones particulares del matrimonio
-      desde la función judicial
-
-
-## 226   Glosario
-
-
 ## 234   Referencias
+
+**Definición Canónica:** Materiales Docentes                                             Introducción
+**Concordancias Legales:** Ley 21.400; Ley 19.947
 
 Materiales Docentes                                             Introducción
 
@@ -239,8 +145,11 @@ para el uso del lenguaje inclusivo de la Academia Judicial, basado en el
 Manual para el uso del lenguaje inclusivo no sexista del Poder Judicial de
 Chile.
 
-
 ## Capítulo 1
+
+**Definición Canónica:** La unión afectivo-sexual de pareja y su ordenación
+jurídica en el derecho matrimonial chileno
+**Concordancias Legales:** artículo 365 del Código Penal; Ley 21.400; Ley 20.830
 
 La unión afectivo-sexual de pareja y su ordenación
 jurídica en el derecho matrimonial chileno
@@ -358,8 +267,13 @@ el campo legal, ha tenido una notoria evolución con un marcado énfasis
 inclusivo en las últimas décadas. En tal sentido, el tratamiento legal ha
 evolucionado desde la proscripción y penalización de la homosexualidad (tanto de la conducta como de la «condición»), hasta su aceptación
 
-
 ## 1 La derogación del artículo 365 del Código Penal, el 24 de agosto de 2022, estuvo
+
+**Definición Canónica:** precedida por la reforma de dicho artículo en 1999, que suprimió la criminalización
+de la homosexualidad en Chile por medio de la sanción penal de la sodomía entre
+adultos, subsistiendo la especificidad discriminatoria respecto de los menores de
+dieciocho años.
+**Concordancias Legales:** artículo 365 del Código Penal; artículo 365 del Código Pe; Ley 20.400; Ley 21.400; constitución; constitucion
 
 precedida por la reforma de dicho artículo en 1999, que suprimió la criminalización
 de la homosexualidad en Chile por medio de la sanción penal de la sodomía entre
@@ -713,6 +627,10 @@ dieciocho años, hasta el 24 de agosto de 2022, en que la norma legal fue defini
 
 ## 8 La ley se promulgó durante el gobierno del presidente Sebastián Piñera, quien
 
+**Definición Canónica:** destacó el hito de su aprobación expresando: «Es un buen día para la libertad y la
+familia en nuestro país». «Presidente Piñera promulga Ley de Matrimonio Igualitario», La Tercera, 9 de diciembre de 2021, disponible en https://bit.ly/3Kkec3M.
+**Concordancias Legales:** artículo 1 de la Ley 20.830; artículo 42 del Código Civil. En cuanto a su efecto princ; artículo 1; artículo 26; artículo 7 de la Ley 20.830; artículo 8 de la Ley 20.830; artículos 1456; artículos 124; artículos 7; Ley 20.830; Ley 21.515; constitución
+
 destacó el hito de su aprobación expresando: «Es un buen día para la libertad y la
 familia en nuestro país». «Presidente Piñera promulga Ley de Matrimonio Igualitario», La Tercera, 9 de diciembre de 2021, disponible en https://bit.ly/3Kkec3M.
 
@@ -840,8 +758,16 @@ Civil. Finalmente, fue derogada la norma que prohibía celebrar un nuevo AUC, cu
 plazo cuando no hubiere habido señales de preñez (artículos 7 a 10 de la
 Ley 20.830).
 
-
 ## 11 La Ley de Matrimonio Civil (LMC) de 2004, en la versión original del artículo 5
+
+**Definición Canónica:** inciso segundo, dispuso que no podrán contraer matrimonio «los menores de dieciséis años». Dicha disposición, previa al aumento de edad dispuesto por la Ley 21.515
+de 2022, ya había introducido un cambio importante respecto de lo dispuesto en la
+primitiva LMC de 1884, que fijaba la edad mínima en 12 y 14 para mujeres y varones
+respectivamente. Aquí el fundamento para establecer el umbral de edad suficiente
+para la celebración del matrimonio civil radicaba en la llegada de la pubertad y la
+consiguiente capacidad física para procrear, aun cuando se tratara de niños. Luego,
+la reforma de 2004 cam
+**Concordancias Legales:** artículos 5; artículo 5 de la Ley 20.830; artículo 12 de la Ley 20.830; artículo 13; artículo 15; artículo 1 de la Ley 20.830; artículo 14 de la Ley 20.830; artículo 15 de la Ley 20.830; artículo 22 de la Ley 20.830; artículo 4 de la Ley 20.830; artículo 42 del Código Civil; Ley 21.515; Ley 20.830
 
 inciso segundo, dispuso que no podrán contraer matrimonio «los menores de dieciséis años». Dicha disposición, previa al aumento de edad dispuesto por la Ley 21.515
 de 2022, ya había introducido un cambio importante respecto de lo dispuesto en la
@@ -913,8 +839,12 @@ esencialmente centrada en la pareja de los convivientes más que en la
 generación de efectos familiares o de parentesco. Sin perjuicio de ello, el
 artículo 4 de la Ley 20.830, en concordancia con el artículo 42 del Código Civil, dispone que, «entre un conviviente civil y los consanguíneos de
 
-
 ## 13 Aplican en este caso las normas del párrafo tercero del título XXXIV del libro
+
+**Definición Canónica:** IV del Código Civil, referidas al cuasicontrato de comunidad y las disposiciones
+contenidas en los números 1 y 2 del artículo 15 de la Ley 20.830.
+ 14 Véase artículo 15, números 1, 2 y 3, de la Ley 20.830.
+**Concordancias Legales:** artículo 15 de la Ley 20.830. 14 Véase artículo 15; artículo 16 de la Ley 20.830; artículo 5 del Decreto Ley 3.500; artículo 28 de la Ley 20.830; artículo 27; artículos 29; artículos 62; artículo 26; artículo 6; Ley 20.830; Ley 3.500; Ley 19.947.17
 
 IV del Código Civil, referidas al cuasicontrato de comunidad y las disposiciones
 contenidas en los números 1 y 2 del artículo 15 de la Ley 20.830.
@@ -976,13 +906,11 @@ En ese sentido, dispone el artículo 27:
 
 A continuación, se presenta un cuadro comparativo entre el matrimonio y el acuerdo de unión civil (tabla 1), que facilita conocer sus diferencias y permite caracterizar ambos estatutos civiles.
 
-
-## 16 Las letras d), e) y f) del artículo 26 refieren al término del acuerdo de unión
-
-civil por mutuo acuerdo, por voluntad unilateral de uno de los convivientes civiles y
-por declaración judicial de nulidad del acuerdo, respectivamente.
-
 ## 17 Referidos a la determinación de la existencia del menoscabo económico, la
+
+**Definición Canónica:** cuantía de la compensación y la forma de pago, principalmente.
+ 18 Referida a la voluntad unilateral de uno de los convivientes civiles.
+**Concordancias Legales:** constitución
 
 cuantía de la compensación y la forma de pago, principalmente.
  18 Referida a la voluntad unilateral de uno de los convivientes civiles.
@@ -1166,8 +1094,10 @@ considerarse que el matrimonio es un contrato especial, concretamente un contrat
 negocio jurídico en tanto que en ambos es necesario que la manifestación de voluntad se encuentre dirigida a un propósito que constituye la
 materia del respectivo negocio.19
 
-
 ## 19 La tesis es desarrollada a lo largo de su obra El derecho de familia de 1947, a su
+
+**Definición Canónica:** vez es criticada por De Ruggiero, 1977: 69.
+**Concordancias Legales:** artículo 102 del Código Civil; Ley 21.400; constitución
 
 vez es criticada por De Ruggiero, 1977: 69.
 
@@ -1467,8 +1397,12 @@ hasta la muerte», La Tercera, 13 de febrero de 2023, disponible en https://bit.
 Academia Judicial de Chile                                                Derecho matrimonial
 Materiales Docentes                                                                Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Régimen legal del matrimonio:
+Desarrollo particular del matrimonio
+como acto jurídico
+**Concordancias Legales:** Ley 19.947; Ley 21.400; Ley 20.830
 
 Régimen legal del matrimonio:
 Desarrollo particular del matrimonio
@@ -1497,8 +1431,10 @@ los fundamentos de los institutos aquí descritos y sobre las complejidades invo
                      Figura 1. Evolución del vínculo conyugal en Chile.
                                Fuente: Elaboración propia.
 
-
 ## 1 Para la evolución del régimen civil del matrimonio en Chile, véase Del Picó
+
+**Definición Canónica:** (2015: 37-72).
+**Concordancias Legales:** artículo 102 del Código Civil; artículo 80; artículo 80 de la Ley 19.947; artículo 2; artículo 5; Ley 21.400; Ley 19.947; constitución
 
 (2015: 37-72).
 
@@ -1634,8 +1570,12 @@ con otra persona, implican una violación del deber de fidelidad que caracteriza
    Cabe destacar que la derogación del delito de adulterio, algunos años
 antes de la entrada en vigor de la LMC, ya había restado fuerza a la exigi-
 
-
 ## 3 El artículo 5 número 4 de la Ley 19.947, dispone: «Los que se hallaren privados
+
+**Definición Canónica:** del uso de razón; y los que por un trastorno o anomalía síquica, fehacientemente
+diagnosticada, sean incapaces de modo absoluto para formar la comunidad de vida
+que implica el matrimonio».
+**Concordancias Legales:** artículo 102 del Código Civil. En tal sentido; artículo 102 del Código Civil; artículo 102 del Código Civil con las disposiciones de la Ley; artículo 5; artículo 8; artículo 102 del Código Civil. Esta característica determina n; artículo 20; artículo 4 de la Ley de Matrimonio Civil; Ley 19.947; Ley 21.400; constitución
 
 del uso de razón; y los que por un trastorno o anomalía síquica, fehacientemente
 diagnosticada, sean incapaces de modo absoluto para formar la comunidad de vida
@@ -1937,6 +1877,9 @@ Los requisitos de validez matrimonial se encuentran establecidos genéricamente 
 
 ## capítulo II referido a la regulación de la celebración del matrimonio, en
 
+**Definición Canónica:** los siguientes términos:
+**Concordancias Legales:** artículos 5; artículo 5 de la LMC; artículos 6; artículo 6 de la Ley 19.947 de 2004; artículo 7; artículo 2; Ley 19.947
+
 los siguientes términos:
 
        La celebración del matrimonio exige que ambos contrayentes sean le-
@@ -2000,12 +1943,12 @@ normativo que asegure la libertad de la voluntad de ambos contrayentes,
 evitando los vicios que pudieren afectar dicha libertad. La LMC, en el
 inciso primero del artículo 2, exige que la manifestación del consenti-
 
-
-## 4 Véase, además, lo establecido en las leyes 7.613, 16.346, 18.703 y 19.620, sobre
-
-adopción.
-
 ## 5 Véanse los artículos 105 a 107 y 109 a 115 del Código Civil, en concordancia con
+
+**Definición Canónica:** el artículo 9 de la Ley 19.947. Asimismo, las disposiciones de la Ley 21.264, Diario
+Oficial, 11 de septiembre de 2020.
+ 6 Sobre el consentimiento matrimonial, véase Mondaca Miranda (2014: 99-138).
+**Concordancias Legales:** artículo 9 de la Ley 19.947. Asimismo; artículo 18; artículo 102 del Código Civil. El supuesto de incumplimiento d; artículo 102 del Código Civil dispone que el matrimonio es un; artículo 11 de la LMC; artículo 15 de la Ley 19.947; artículo 39 de la Ley sobre Registro Civil; artículo 20 de la LMC reconoció la celebración del matrimonio e; Ley 19.947; Ley 21.264
 
 el artículo 9 de la Ley 19.947. Asimismo, las disposiciones de la Ley 21.264, Diario
 Oficial, 11 de septiembre de 2020.
@@ -2261,8 +2204,12 @@ dominante, que establecía la precedencia absoluta del matrimonio civil
 obligatorio. El artículo 20 de la LMC reconoció la celebración del matrimonio en sede de alguna religión civilmente organizada, cumplidos que
 sean los requisitos establecidos al efecto.9
 
-
 ## 9 La cuestión del reconocimiento del matrimonio civil y, posteriormente, las
+
+**Definición Canónica:** competencias respecto del registro del matrimonio religioso, la precedencia de la
+celebración respecto del matrimonio civil y la procedencia del divorcio vincular,
+marcaron un siglo y medio de diferencias políticas, doctrinarias y judiciales en
+**Concordancias Legales:** artículo 20 de la LMC; artículo 20 de la Ley 19.630. La norma reconoce eficacia civil; Ley 19.630; Ley 19.947
 
 competencias respecto del registro del matrimonio religioso, la precedencia de la
 celebración respecto del matrimonio civil y la procedencia del divorcio vincular,
@@ -2338,6 +2285,11 @@ celebración del matrimonio, debe constar que nada se opone a su celebración v�
 
 ## parte de los contrayentes, ante un testigo cualificado, que generalmente
 
+**Definición Canónica:** es un sacerdote autorizado, quien pide y recibe tal consentimiento en
+nombre de la Iglesia, y ante dos testigos. Lo que distingue al matrimonio
+en el seno de la Iglesia católica, es que el centro lo constituye la manifestación del consentimiento matrimonial de los esposos.
+**Concordancias Legales:** Ley 19.638
+
 es un sacerdote autorizado, quien pide y recibe tal consentimiento en
 nombre de la Iglesia, y ante dos testigos. Lo que distingue al matrimonio
 en el seno de la Iglesia católica, es que el centro lo constituye la manifestación del consentimiento matrimonial de los esposos.
@@ -2350,6 +2302,15 @@ Las entidades religiosas minoritarias pueden celebrar matrimonios religiosos con
 personalidad jurídica de derecho público, lo que regula la Ley 19.638 de
 
 ## 1999. Este cuerpo legal ha permitido que puedan gozar del estatuto de
+
+**Definición Canónica:** personas jurídicas de derecho público no solo las iglesias evangélicas —
+de tradición histórica y pentecostal— sino también todas aquellas confesiones que así lo soliciten y que cumplan los requisitos establecidos
+por la ley.
+   Las comunidades religiosas evangélicas han mantenido la secuencia
+tradicional de la realización de los matrimonios, celebrando primero la
+ceremonia civil y luego procediendo a una bendición de la unión conyugal por parte del ministro de culto de la iglesia respectiva. Esta posición se explica por las circunstancias históricas del surgimiento de estas
+entidades en el ma
+**Concordancias Legales:** artículo 80 de la LMC; artículo 2; artículos 5; artículo 81 de la LMC; artículo 82; Ley 21.400
 
 personas jurídicas de derecho público no solo las iglesias evangélicas —
 de tradición histórica y pentecostal— sino también todas aquellas confesiones que así lo soliciten y que cumplan los requisitos establecidos
@@ -2417,8 +2378,10 @@ ly/4532aDP.
 
 Materiales Docentes                                                  Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** El matrimonio como estado
+**Concordancias Legales:** artículos 14; artículos 131; artículo 17.4; Ley 20.830; Constitución Política
 
 El matrimonio como estado
 
@@ -2470,12 +2433,21 @@ la adecuada equivalencia de responsabilidades de los cónyuges en cuanto al matr
 
 ## 2 A título ejemplar téngase presente la presunción legal de paternidad del marido
 
+**Definición Canónica:** del artículo 184 del Código Civil, a la que expresamente se remite el artículo 21 de la
+Ley de Acuerdo de Unión Civil. En el ámbito sucesorio, la concurrencia del cónyuge
+sobreviviente con los hijos o con los ascendientes del cónyuge difunto en el primer
+o segundo orden de la sucesión intestada, respectivamente, según los artículos 988 y
+**Concordancias Legales:** artículo 184 del Código Civil; artículo 21 de la Ley de Acuerdo de Unión Civil. En el ámbito s; artículos 988
+
 del artículo 184 del Código Civil, a la que expresamente se remite el artículo 21 de la
 Ley de Acuerdo de Unión Civil. En el ámbito sucesorio, la concurrencia del cónyuge
 sobreviviente con los hijos o con los ascendientes del cónyuge difunto en el primer
 o segundo orden de la sucesión intestada, respectivamente, según los artículos 988 y
 
 ## 989 Código Civil; la calidad de legitimario conforme al artículos 1182 Código Civil; y
+
+**Definición Canónica:** el derecho de adjudicación preferente del artículo 1337 regla décima del Código Civil.
+**Concordancias Legales:** artículo 1337; artículos 131
 
 el derecho de adjudicación preferente del artículo 1337 regla décima del Código Civil.
 
@@ -2504,8 +2476,15 @@ al deber de fidelidad— está constituida también por otras conductas de
 gran significación que dan cuenta de la falta de lealtad entre las o los
 cónyuges.3
 
-
 ## 3 Sentencia de la Corte Suprema, rol 15.889-19, 3 de junio de 2020: «Sexto: Que el
+
+**Definición Canónica:** incumplimiento del deber de fidelidad del otro cónyuge, como causal de divorcio, se
+configura con la acreditación de la concurrencia de situaciones que demuestren no
+solo la ruptura del compromiso de lealtad sexual que implica el matrimonio, situación que coincide con la definición de adulterio que entrega el artículo 132 del Código Civil, que lo confina a la existencia de trato carnal de uno de los cónyuges con un
+tercero, sino también cualquier otro hecho que implique una relación que no guarde
+los límites de lo común o habitual con alguien ajeno al vínculo matrimonial, que dé
+cuenta de una
+**Concordancias Legales:** artículo 132 del Código Civil; artículo 26 de la LMC; artículo 54; artículo 33 de la LMC; artículo 155 del Código Civil; artículo 131; artículo 321; Ley 21.400
 
 incumplimiento del deber de fidelidad del otro cónyuge, como causal de divorcio, se
 configura con la acreditación de la concurrencia de situaciones que demuestren no
@@ -2541,13 +2520,13 @@ de lo dispuesto por el artículo 321 número 1 del Código Civil. Se trata,
 por tanto, de un deber de contenido patrimonial cuando se refiere a los
 alimentos.6
 
-
-## 4 Antes de la modificación de la Ley 21.400, el inciso primero del artículo 132 del
-
-Código Civil disponía: «Cometen adulterio la mujer casada que yace con varón que
-no sea su marido y el varón casado que yace con una mujer que no sea su cónyuge».
-
 ## 5 Hasta 1994 el adulterio era un delito consagrado en el artículo 375 del Código
+
+**Definición Canónica:** Penal, conforme al cual, cometía adulterio la mujer casada que yacía con varón que
+no era su marido y el que yacía con ella sabiendo que era casada. La Ley 19.335 de
+2004 suprimió el adulterio como delito penal derogando los artículo 375 a 381 del
+Código Penal.
+**Concordancias Legales:** artículo 375; Ley 19.335
 
 Penal, conforme al cual, cometía adulterio la mujer casada que yacía con varón que
 no era su marido y el que yacía con ella sabiendo que era casada. La Ley 19.335 de
@@ -2555,6 +2534,10 @@ no era su marido y el que yacía con ella sabiendo que era casada. La Ley 19.335
 Código Penal.
 
 ## 6 El artículo 14 de la Ley 20.830 también establece que los convivientes estarán
+
+**Definición Canónica:** obligados a solventar los gastos generados por su vida en común, de conformidad a
+sus facultades económicas y al régimen patrimonial que exista entre ellos, no constituyendo este un efecto personal y recíproco entre los convivientes, sino una obligación económica respecto de la vida convivencial.
+**Concordancias Legales:** artículo 1740; artículo 134 del Código Civil; artículo 174 del Código Civil; artículo 175 del Código Civil; artículo 160 del Código Civil impone a ambos el deber de prove; artículo 26 de la LMC; artículo 54; artículo 155 del Código Civil; artículo 131 del Código Civil; artículo 102 del Código Civil cuando alude a auxiliarse mutuam
 
 obligados a solventar los gastos generados por su vida en común, de conformidad a
 sus facultades económicas y al régimen patrimonial que exista entre ellos, no constituyendo este un efecto personal y recíproco entre los convivientes, sino una obligación económica respecto de la vida convivencial.
@@ -2607,10 +2590,20 @@ un régimen de sociedad conyugal, el incumplimiento de este deber por
 
 ## parte del marido autoriza a la mujer para pedir la separación judicial de
 
+**Definición Canónica:** bienes (artículo 155 del Código Civil). En todos los demás casos, el incumplimiento por parte de cualquiera de los cónyuges puede ser constitutivo de causal culpable de separación judicial o de divorcio.7
+**Concordancias Legales:** artículo 155 del Código Civil
+
 bienes (artículo 155 del Código Civil). En todos los demás casos, el incumplimiento por parte de cualquiera de los cónyuges puede ser constitutivo de causal culpable de separación judicial o de divorcio.7
 
-
 ## 7 Sentencia de la Corte de Apelaciones de San Miguel, rol 425-2021, 20 de julio de
+
+**Definición Canónica:** 2021: «Cuarto: Que, no obstante, en el tópico de malos tratamientos graves está bien
+direccionada la opinión del Ministerio Público judicial, toda vez que circunscrita la
+pretensión de M.A.N. a la causal prevista en el artículo 54 de la Ley de Matrimonio
+Civil, por concurrir las circunstancias de sus números 1 y 2, lo cierto es que la declaración de los testigos de la actora, C.G.N. y M.G.N., permite comprobar los graves y
+malos tratamiento de obra y sicológicos que sufrió la cónyuge durante la convivencia común que precisamente hizo intolerable la vida matrimonial. Los dos testigos
+son hijos
+**Concordancias Legales:** artículo 54 de la Ley de Matrimonio Civil; artículo 131 del Código Civil que las o los cónyuges; artículo 26; artículo 133 del Código Civil; artículos 26; artículo 54; artículos 102
 
 2021: «Cuarto: Que, no obstante, en el tópico de malos tratamientos graves está bien
 direccionada la opinión del Ministerio Público judicial, toda vez que circunscrita la
@@ -2666,6 +2659,10 @@ que impone el matrimonio, a que se refieren los artículos 102 y 131 del Código
 en especial la consideración reciproca de respeto y protección».
 
 ## 8 Antes de la entrada en vigor de la Ley 18.802 de 1989, la norma solo imponía a
+
+**Definición Canónica:** la mujer el deber de respeto a su marido; el marido, en cambio, debía protección a
+su mujer.
+**Concordancias Legales:** artículo 33 de la Ley de Matrimonio Civil; artículo 102 del Código Civil que señala la procreación como u; artículo 26; artículo 54; artículo 33 de la LMC; artículo 136 del Código Civil establece; artículos 150; artículo 14 de la Ley 20.830 establece que los convivientes civ; artículos 141; artículo 15; Ley 20.830
 
 la mujer el deber de respeto a su marido; el marido, en cambio, debía protección a
 su mujer.
@@ -2773,8 +2770,13 @@ como la propiedad y es independiente del régimen económico del matrimonio.
    Esta esencialidad de la residencia familiar —y de los bienes que la
 guarnecen— ha motivado el establecimiento de regímenes jurídicos es-
 
-
 ## 10 En dicha comunidad los bienes adquiridos a título oneroso durante la vigencia
+
+**Definición Canónica:** del acuerdo se consideran indivisos por mitades entre los convivientes civiles, excepto los muebles de uso personal necesario del conviviente que los ha adquirido.
+Se tiene por fecha de adquisición de los bienes aquella en que el título haya sido
+otorgado. A la comunidad así formada, se aplican las reglas del párrafo 3.° del título
+XXXIV del libro IV del Código Civil.
+**Concordancias Legales:** artículo 149 del Código Civil al señalar que; artículo 141 del Código Civil; Ley 19.335
 
 del acuerdo se consideran indivisos por mitades entre los convivientes civiles, excepto los muebles de uso personal necesario del conviviente que los ha adquirido.
 Se tiene por fecha de adquisición de los bienes aquella en que el título haya sido
@@ -2807,16 +2809,15 @@ Bienes que pueden ser declarados familiares
 Según establece el artículo 141 del Código Civil, son bienes familiares:
 el inmueble de propiedad de cualquiera de las o los cónyuges que sirva
 
-
-## 11 Algunos antecedentes de derecho comparado sobre la protección de la vivienda
-
-familiar se pueden ver en Corral Talciani (2007: 47 y ss.).
-
-## 12 Sobre el modelo de constitución de bienes familiares en nuestro país, se puede
-
-ver Acuña San Martín (2011).
-
 ## 13 El artículo 141 del Código Civil fija un ámbito de aplicación amplio al establecer
+
+**Definición Canónica:** que determinados bienes pueden ser declarados bienes familiares «cualquiera sea el
+régimen de bienes del matrimonio»; como bien advierte la doctrina nacional, lo anterior cobra mayor relevancia en los regímenes de participación en los gananciales
+o separación de bienes, pues en ambos las o los cónyuges pueden —en principio—
+disponer libremente de sus bienes, no así en la sociedad conyugal, donde es normal
+la enajenación del inmueble por el marido con el consentimiento de la mujer. Véase
+Tomasello Hart (1995: 146).
+**Concordancias Legales:** artículo 141 del Código Civil
 
 que determinados bienes pueden ser declarados bienes familiares «cualquiera sea el
 régimen de bienes del matrimonio»; como bien advierte la doctrina nacional, lo anterior cobra mayor relevancia en los regímenes de participación en los gananciales
@@ -2883,6 +2884,14 @@ anotación marginal en la inscripción de dominio respectiva.19
 
 ## 17 De la familia original se pasa a una familia derivada, constituida por hijos o
 
+**Definición Canónica:** hijas menores de edad y uno de los progenitores; en estos casos para la Corte Suprema, «la familia que la ley tutela es aquella parte subsistente del núcleo original que
+se cobijó en el inmueble, constituida por los hijos comunes y al menos uno de los
+cónyuges». Si producto de la separación, hijos o hijas se dividen y unos pasan a vivir
+con un progenitor y los restantes con la otra u otro, la afectación del bien familiar se
+debe mantener en favor de hijos o hijas menores de edad, aunque sean de un menor
+número: «Luego del término de la convivencia, se formaron dos familias, cada una
+con una re
+
 hijas menores de edad y uno de los progenitores; en estos casos para la Corte Suprema, «la familia que la ley tutela es aquella parte subsistente del núcleo original que
 se cobijó en el inmueble, constituida por los hijos comunes y al menos uno de los
 cónyuges». Si producto de la separación, hijos o hijas se dividen y unos pasan a vivir
@@ -2897,11 +2906,12 @@ En este caso, los litigantes se casaron en 1994, tuvieron tres hijos (19, 17 y 1
 en 2013 cesó su convivencia y el marido abandonó el hogar —de su dominio— con
 los dos hijos mayores, quedando en el inmueble la mujer con la hija menor de edad.
 
-## 18 Conforme al artículo 8 número 14 de la Ley 19.968 de 2004, son de competencia
-
-de los tribunales de familia las causas sobre declaración y desafectación de bienes familiares y la constitución de derechos de usufructo, uso o habitación sobre los mismos.
-
 ## 19 Comenta Tomasello que este sistema difiere del contemplado en el proyecto del
+
+**Definición Canónica:** ejecutivo de 1991 y también de la indicación sustitutiva de 1992, los que proponían
+que la declaración de desafectación se hiciera por cualquiera de los cónyuges mediante escritura pública, anotada al margen de la inscripción de dominio respectiva
+(1995: 148).
+**Concordancias Legales:** artículo 141; artículo 146 del Código Civil; artículo 145 del Código Civil; constitución
 
 ejecutivo de 1991 y también de la indicación sustitutiva de 1992, los que proponían
 que la declaración de desafectación se hiciera por cualquiera de los cónyuges mediante escritura pública, anotada al margen de la inscripción de dominio respectiva
@@ -2938,8 +2948,14 @@ muerte de uno de los cónyuges o por divorcio. En tales casos, quien sea
 propietario del bien familiar o cualquiera de sus causahabientes deberá
 formular la petición correspondiente al tribunal.
 
-
 ## 20 La subinscripción mediante anotación marginal en el Registro de Propiedad
+
+**Definición Canónica:** del Conservador de Bienes Raíces respectivo tiene una clara y relevante finalidad de
+publicidad, pues, tratándose de inmuebles, la declaración es una cuestión de interés
+también para los acreedores del propietario; la declaración produce efectos respecto
+de ellos y les resulta oponible, desde la correspondiente anotación. Véase Ramos
+Pazos (2005: 341).
+**Concordancias Legales:** artículo 141 del Código Civil.23 Se ha agregado una tercera
 
 del Conservador de Bienes Raíces respectivo tiene una clara y relevante finalidad de
 publicidad, pues, tratándose de inmuebles, la declaración es una cuestión de interés
@@ -2972,12 +2988,10 @@ dominio de uno de los cónyuges».24
 
  21 Sentencia de la Corte de Apelaciones de San Miguel, rol 673-2010, 20 de diciembre de 2010.
 
-## 22 Sentencia de la Corte de Apelaciones de Concepción, rol 126-2014, 30 de junio
-
-de 2014.
- 23 Sentencia de la Corte Suprema, rol 9010-2018, 29 de abril de 2019.
-
 ## 24 Sentencia de la Corte de Apelaciones de Valdivia, rol 642-05, 2 de septiembre
+
+**Definición Canónica:** de 2005. El 21 de septiembre de 2006, la Corte Suprema rechazó el recurso de casación deducido en contra de la referida sentencia.
+**Concordancias Legales:** artículo 146 del Código Civil; artículo 142 del Código Civil; artículo 144 del Código Civil; artículo 143 del Código Civil; artículo 1682 del Código Civil; artículo 143; artículo 148 del Código Civil; artículo 147 del Código Civil; artículo 146; artículos 1715; artículo 1715; artículo 1721; artículo 1717 del Código Civil; artículo 153; artículo 1720; artículo 1406; artículo 1719; artículo 167; artículo 1725; artículo 1727; artículo 1744; artículo 1749; artículo 135; artículo 1716; artículo 1723 del Código Civil. Sin embargo; artículo 1722; Ley 21.515; Ley 21.400; constitución
 
 de 2005. El 21 de septiembre de 2006, la Corte Suprema rechazó el recurso de casación deducido en contra de la referida sentencia.
 
@@ -3160,8 +3174,15 @@ las y los cónyuges, es decir, es irrevocable.
 oponible a terceros. No obstante, en caso alguno perjudicará los derechos válidamente adquiridos por terceros respecto de cualquiera de las
 y los cónyuges.
 
-
 ## 27 En términos semejantes, el artículo 15 de la Ley 20.830 regula el pacto de los
+
+**Definición Canónica:** convivientes civiles para sustituir el régimen de comunidad por el de separación
+total de bienes, el cual, debe otorgarse por escritura pública y no surtirá efectos entre las partes ni respecto de terceros, sino desde que esa escritura se subinscriba al
+margen de la respectiva inscripción del acuerdo de unión civil, para cuyo efecto la
+subinscripción solo podrá practicarse dentro de los treinta días siguientes a la fecha
+de la escritura en que se pacte la separación. El pacto que en ella conste no perjudicará, en caso alguno, los derechos válidamente adquiridos por terceros respecto de
+cada 
+**Concordancias Legales:** artículo 135 del Código Civil; artículo 135 del Código Civil conforme a la modificación de la; Ley 21.400
 
 convivientes civiles para sustituir el régimen de comunidad por el de separación
 total de bienes, el cual, debe otorgarse por escritura pública y no surtirá efectos entre las partes ni respecto de terceros, sino desde que esa escritura se subinscriba al
@@ -3224,8 +3245,14 @@ lo cual, la autonomía de voluntad es limitada en este ámbito.
 sexo (artículo 135 del Código Civil conforme a la modificación de la Ley
 21.400), la separación de bienes y el régimen de participación en los gananciales, aplicables a todo tipo de matrimonios.28
 
-
 ## 28 Según Tapia (2007), en nuestro país la codificación decimonónica reconoció
+
+**Definición Canónica:** en el Código Civil un modelo prácticamente único de familia, fundada en el matrimonio y en la sociedad conyugal, que otorgaba al marido preponderantes facultades
+económicas y personales sobre la mujer y los hijos, lo que guardaba correspondencia con una economía principalmente agrícola. Con posterioridad, la evolución social fue haciendo insuficiente esa regulación. Son innumerables los cambios sociales
+que hicieron variar esta situación, pero generalmente se citan la urbanización, la
+industrialización y el acceso de la mujer al mercado laboral, como los hitos claves.
+Este último fenómeno fue 
+**Concordancias Legales:** artículo 159 del Código Civil; artículo 159; artículo 162 del Código Civil; artículo 163 del Código Civil; artículo 503 del Código Civil en cuanto el marido y la mujer n; artículo 161 del Código Civil; artículos 160; artículo 152 del Código Civil; artículo 1720 del Código Civil; artículo 19; artículos 14; artículo 165 del Código Civil. Además; artículo 153; artículos 155; artículo 19 de la Ley 14.908. Conforme al artículo 155 son caus; artículos 131; artículo 450; artículo 1762 del Código Civil; artículo 156 del Código Civil; artículo 298 del Código de Procedimiento Civil toda vez que la; artículo 157 del Código Civil; artículo 155; artículo 158 del Código Civil; artículos 158; Artículo 34 de la LMC; artículo 147 del Código Civil; artículo 159 del Código Civil e incorpora a su patrimonio lo q; artículos 161; artículo 40 de la LMC es que; artículo 1723 del Código Civil; artículo 165 del Código Civil; artículo 135; artículo 135 del Código Civil; artículo 1723 del Código Civil. En estos matrimonios la separac; artículo 1723; artículo 227 del Código Orgánico de Tribunales; artículo 165; artículos 1792; Ley 14.908; Ley 19.968
 
 en el Código Civil un modelo prácticamente único de familia, fundada en el matrimonio y en la sociedad conyugal, que otorgaba al marido preponderantes facultades
 económicas y personales sobre la mujer y los hijos, lo que guardaba correspondencia con una economía principalmente agrícola. Con posterioridad, la evolución social fue haciendo insuficiente esa regulación. Son innumerables los cambios sociales
@@ -3504,8 +3531,14 @@ por la diferencia respectiva. Se trata de una participación limitada a las
 ganancias con compensación de beneficios; no se forma una comunidad
 diferida de bienes, sino que tiene lugar un ajuste de cuentas, que tiene
 
-
 ## 33 Un comentario respecto de los países en que se han recepcionado estas dos
+
+**Definición Canónica:** modalidades en Schmidt Hott, 1995: 43 y ss.
+ 34 Para Rodríguez Grez, este régimen es «aquel en el cual ambos cónyuges conservan la facultad de administrar sus bienes, sin otras restricciones que aquellas
+consagradas expresamente en la ley, debiendo, al momento de su extinción, compensarse las utilidades que cada uno obtuvo a título oneroso, configurándose un
+crédito en numerario a favor de aquel que obtuvo menos gananciales, de modo que
+ambos participen por mitades en el excedente líquido» (2014: 236).
+**Concordancias Legales:** artículo 1723 del Código Civil. Los matrimonios contraídos en e; artículo 1792; artículos 142; artículos 1792; artículo 1736
 
 modalidades en Schmidt Hott, 1995: 43 y ss.
  34 Para Rodríguez Grez, este régimen es «aquel en el cual ambos cónyuges conservan la facultad de administrar sus bienes, sin otras restricciones que aquellas
@@ -3626,38 +3659,13 @@ inicio del régimen.
 enumeración no taxativa del artículo 1792-8 del Código Civil (semejante
 a la del artículo 1736 que regula la sociedad conyugal) los siguientes:
 
-## 1. Los bienes que uno de los cónyuges poseía antes del régimen de
-
-       bienes, aunque la prescripción o transacción con que los haya he-
-       cho suyos haya operado o se haya convenido durante la vigencia
-       del régimen.
-
-
-## 2. Los bienes que se poseían antes del régimen de bienes por un títu-
-
-      lo vicioso, siempre que el vicio se haya purgado durante la vigencia
-      del régimen de bienes por la ratificación o por otro medio legal.
-
-## 3. Los bienes que vuelven a una o uno de los cónyuges por la nulidad
-
-      o resolución de un contrato o por haberse revocado una donación.
-
-## 4. Los bienes litigiosos cuya posesión pacífica haya adquirido cual-
-
-      quiera de las o los cónyuges durante la vigencia del régimen.
-
-## 5. El derecho de usufructo que se haya consolidado con la nuda pro-
-
-      piedad que pertenece al mismo cónyuge.
-
-## 6. Lo que se paga a cualquiera de los cónyuges por capitales de cré-
-
-      ditos constituidos antes de la vigencia del régimen. Lo mismo se
-      aplica a los intereses devengados antes y pagados después.
-
 ## 7. La proporción del precio pagado con anterioridad al inicio del ré-
 
-      gimen, por los bienes adquiridos de resultas de contratos de pro-
+**Definición Canónica:** gimen, por los bienes adquiridos de resultas de contratos de pro-
+      mesa.
+**Concordancias Legales:** artículo 1792; artículos 1792; artículo 1730; artículo 147 del Código Civil; artículo 2481
+
+gimen, por los bienes adquiridos de resultas de contratos de pro-
       mesa.
 
 Patrimonio final
@@ -3784,6 +3792,10 @@ gananciales».
 
 ## 36 Vigente el régimen de participación en los gananciales, el eventual crédito es de
 
+**Definición Canónica:** carácter condicional; su nacimiento dependerá de que existan gananciales. De ahí
+que el legislador le dé carácter de incomerciable e irrenunciable.
+**Concordancias Legales:** artículo 1792
+
 carácter condicional; su nacimiento dependerá de que existan gananciales. De ahí
 que el legislador le dé carácter de incomerciable e irrenunciable.
 
@@ -3855,8 +3867,16 @@ Es el régimen legal de bienes de aquellos matrimonios que se celebran
 entre personas de distinto sexo y puede definirse como la sociedad de
 bienes que se forma por el hecho de contraer matrimonio y a falta de
 
-
 ## 37 Para develar el sentido de esta regla resulta muy útil el texto original del artículo
+
+**Definición Canónica:** 1739 del Código Civil. La norma excluía de la presunción a los bienes muebles de
+uso personal necesario, alcanzando a los de uso personal, pero no necesarios; es
+decir, bienes muebles suntuarios o prescindibles, como joyas, una gran biblioteca,
+una colección de armas o de relojes, etcétera. En el caso de la participación en los
+gananciales el legislador no hace esta distinción, por lo que, en opinión de Vidal
+Olivares, se excluyen de la presunción todos los bienes muebles de uso personal,
+sean necesarios o no (2004: 445).
+**Concordancias Legales:** artículos 135; artículo 135 del Código Civil; artículo 1764 del Código Civil. Quienes lo contraen no pueden a; artículo 1723; artículos 166; artículo 1725 del Código Civil regula
 
 1739 del Código Civil. La norma excluía de la presunción a los bienes muebles de
 uso personal necesario, alcanzando a los de uso personal, pero no necesarios; es
@@ -3924,8 +3944,16 @@ cónyuge. Las deudas pueden ser personales del marido o de la mujer y,
 sin embargo, ser la sociedad la obligada al pago, sin perjuicio de las compensaciones correspondientes. La situación del pasivo es distinta entre
 cónyuges y respecto de terceros: en el primer caso se genera la contribu-
 
-
 ## 38 Superintendencia de Seguridad Social, Oficio 62409, 6 de junio de 2015. En el
+
+**Definición Canónica:** mismo oficio la Superintendencia aclara que «el solo hecho de que los contratantes
+se encuentren unidos por vínculo matrimonial, no invalida el contrato de trabajo.
+Lo determinante, en estos casos, es la relación que se da entre los patrimonios de
+los sujetos. En el caso de la sociedad conyugal, la confusión parcial que se produce
+entre el patrimonio del marido y el patrimonio de la mujer —que es administrado
+por el marido— impide la existencia de un vínculo laboral y, por ende, la utilización
+de una licencia médica».
+**Concordancias Legales:** artículo 1740 del Código Civil reglamenta esencialmente el pasi; artículo 1725 del Código Civil que componen el haber de l; artículo 150 del Código Civil; artículo 1433 del Código Civil; artículo 1725
 
 mismo oficio la Superintendencia aclara que «el solo hecho de que los contratantes
 se encuentren unidos por vínculo matrimonial, no invalida el contrato de trabajo.
@@ -3994,8 +4022,15 @@ ingresar, comprendiendo las siguientes partidas:
      haber de la o el cónyuge respectivo o al haber aparente, según el
      caso.39 Una situación actualmente controvertida en tribunales es la
 
-
 ## 39 El artículo 1736 inciso primero del Código Civil dispone: «La especie adquirida
+
+**Definición Canónica:** durante la sociedad no pertenece a ella aunque se haya adquirido a título oneroso,
+cuando la causa o título de la adquisición ha precedido a ella», contemplando, de
+manera no taxativa, casos de excepción a la regla general del artículo 1725 del Código Civil. Por el contrario, si la causa o título de la adquisición tiene lugar durante
+la sociedad y la adquisición se retarda por ignorancia o por haberse impedido o
+entorpecido injustamente, el bien ingresa al haber real, aunque la sociedad conyugal se hubiere disuelto (artículo 1737 inciso primero del Código Civil). El principio
+enunciado se apli
+**Concordancias Legales:** artículo 1725 del Código Civil. Por el contrario; artículo 1737; artículo 1736; artículos 1728; artículo 567 del Código Civil; artículo 1725; artículos 646; artículo 1730
 
 durante la sociedad no pertenece a ella aunque se haya adquirido a título oneroso,
 cuando la causa o título de la adquisición ha precedido a ella», contemplando, de
@@ -4046,11 +4081,20 @@ https://bit.ly/44ZRDdd.
 
 ## 41 La Ley 17/2021 introdujo modificaciones al Código Civil español en aras del
 
+**Definición Canónica:** reconocimiento de los animales como seres vivos dotados de sensibilidad; los modificados artículos 90, 91, 94 bis y 103 del Código Civil español contemplan el destino
+y el cuidado de los animales de compañía en casos de crisis matrimoniales, teniendo
+siempre en cuenta expresamente el bienestar de los mismos.
+**Concordancias Legales:** artículos 90
+
 reconocimiento de los animales como seres vivos dotados de sensibilidad; los modificados artículos 90, 91, 94 bis y 103 del Código Civil español contemplan el destino
 y el cuidado de los animales de compañía en casos de crisis matrimoniales, teniendo
 siempre en cuenta expresamente el bienestar de los mismos.
 
 ## 42 La regulación del descubrimiento de un tesoro se encuentra en los artículos
+
+**Definición Canónica:** 625 a 628 del Código Civil, en el ámbito de la ocupación como modo de adquirir el
+dominio de las cosas.
+**Concordancias Legales:** artículo 1725; artículos 1725; artículo 581; artículo 1738; artículo 1731; artículo 1739
 
 625 a 628 del Código Civil, en el ámbito de la ocupación como modo de adquirir el
 dominio de las cosas.
@@ -4085,8 +4129,11 @@ o el cónyuge adquiera a título oneroso una vez disuelta la sociedad conyugal y
 de los cónyuges: tratándose de bienes muebles, si la o el cónyuge contratante hizo entrega o tradición del bien respectivo al tercero de buena fe,
 el tercero estará cubierto de toda reclamación que los cónyuges intenten
 
-
 ## 43 La ley asimila el hallazgo de un tesoro a una adquisición a título gratuito y
+
+**Definición Canónica:** como se trata de bienes muebles, ingresan al haber relativo o aparente de la sociedad
+conyugal.
+**Concordancias Legales:** artículo 1739; artículo 1725 del Código Civil. Lo mismo aplica a los bie; artículo 1736; artículos 1726
 
 como se trata de bienes muebles, ingresan al haber relativo o aparente de la sociedad
 conyugal.
@@ -4121,8 +4168,11 @@ especie.
     • Los bienes raíces adquiridos durante la vigencia de la sociedad
       conyugal a título gratuito (artículos 1726 y 1732). La donación
 
-
 ## 44 Estas normas buscan proteger a los terceros que de buena fe contratan con uno
+
+**Definición Canónica:** de los cónyuges. Falta la buena fe si el bien figura en un registro público a nombre
+del otro cónyuge.
+**Concordancias Legales:** artículo 1727; artículo 1746; artículo 1771; artículo 1725; artículo 1733 del Código Civil; artículo 1733
 
 de los cónyuges. Falta la buena fe si el bien figura en un registro público a nombre
 del otro cónyuge.
@@ -4192,8 +4242,14 @@ inciso sexto del artículo 1733 del Código Civil:
       da, o por los valores invertidos, y conservando este el derecho de llevar
       a efecto la subrogación, comprando otra finca.
 
-
 ## 45 Como modalidad de la subrogación por compra, en la práctica podría darse
+
+**Definición Canónica:** una subrogación por anticipación, consistente en comprar primero un bien raíz y
+después vender un inmueble propio para pagar su precio. Para que el bien adquirido
+quede excluido del haber absoluto de la sociedad conyugal deben concurrir todos
+los requisitos del artículo 1733 del Código Civil, especialmente la manifestación del
+ánimo de subrogar.
+**Concordancias Legales:** artículo 1733 del Código Civil
 
 una subrogación por anticipación, consistente en comprar primero un bien raíz y
 después vender un inmueble propio para pagar su precio. Para que el bien adquirido
@@ -4202,6 +4258,9 @@ los requisitos del artículo 1733 del Código Civil, especialmente la manifestac
 ánimo de subrogar.
 
 ## 46 A partir del tenor expreso del número 2 del artículo 1727 del Código Civil se ha
+
+**Definición Canónica:** hecho presente que no parece posible circunscribir el caso exclusivamente a inmuebles, cuando la propia ley no lo hace (Rodríguez Grez, 2014: 87 y 88).
+**Concordancias Legales:** artículo 1750 del Código Civil; artículo 1740; artículo 1751; artículo 2151; artículos 150; artículo 137; artículo 1750
 
 hecho presente que no parece posible circunscribir el caso exclusivamente a inmuebles, cuando la propia ley no lo hace (Rodríguez Grez, 2014: 87 y 88).
 
@@ -4255,7 +4314,20 @@ Materiales Docentes                                                   Capítulo 
 
 ## 1750. Se comprenden también en este grupo las deudas propia-
 
-     mente personales de la mujer en todo lo que cedan en beneficio
+**Definición Canónica:** mente personales de la mujer en todo lo que cedan en beneficio
+     del marido o de la sociedad.
+   • Las obligaciones que tienen por fuente un delito o cuasidelito
+     cometido por la mujer. Pueden ser pagadas con bienes sociales
+     (artículos 1740 número 3 y 1748) y pueden perseguirse en los bie-
+     nes propios de la mujer, conforme al derecho de garantía general
+     patrimonial de todo acreedor (artículos 2465 y 2469 del Código
+     Civil).
+   • Las obligaciones de la mujer que tienen por fuente la ley (como los
+     alimentos) o un cuasicontrato (como en una comunidad).
+   Una vez pa
+**Concordancias Legales:** artículos 1740; artículos 2465; artículo 1740
+
+mente personales de la mujer en todo lo que cedan en beneficio
      del marido o de la sociedad.
    • Las obligaciones que tienen por fuente un delito o cuasidelito
      cometido por la mujer. Pueden ser pagadas con bienes sociales
@@ -4276,8 +4348,10 @@ a distinguir un pasivo definitivo y un pasivo provisorio.
    El pasivo definitivo está formado por las deudas sociales, es decir,
 aquellas deudas que paga la sociedad durante su vigencia y que, a su
 
-
 ## 47 En todo caso, y aunque puede ser controvertido, parece que cada cónyuge solo
+
+**Definición Canónica:** puede comprometer los bienes de la mujer que se encuentren bajo su directa administración, y no bajo la administración de la o el cónyuge que no ha contratado.
+**Concordancias Legales:** artículo 1748 del Código Civil; artículo 1770 del Código Civil
 
 puede comprometer los bienes de la mujer que se encuentren bajo su directa administración, y no bajo la administración de la o el cónyuge que no ha contratado.
 
@@ -4309,8 +4383,13 @@ del inventario y avalúo y hasta un año después contado desde dicha terminaci�
 a petición de los interesados, previo conocimiento de causa (artículo
 1770 del Código Civil).
 
-
 ## 48 Dentro de este pasivo se encuentran las deudas de los numerales 1, 2, 4 y 5 del
+
+**Definición Canónica:** artículo 1740 del Código Civil. Toda deuda contraída durante el matrimonio por el
+marido o por la mujer con mandato del marido se presume social, por tanto, para
+destruir la presunción, es necesario demostrar que el contrato cedió en beneficio
+exclusivo de la o el cónyuge (artículo 1750 inciso segundo del Código Civil).
+**Concordancias Legales:** artículo 1740 del Código Civil. Toda deuda contraída durante el; artículo 1750
 
 artículo 1740 del Código Civil. Toda deuda contraída durante el matrimonio por el
 marido o por la mujer con mandato del marido se presume social, por tanto, para
@@ -4318,6 +4397,10 @@ destruir la presunción, es necesario demostrar que el contrato cedió en benefi
 exclusivo de la o el cónyuge (artículo 1750 inciso segundo del Código Civil).
 
 ## 49 Se comprenden en el pasivo relativo o provisorio las deudas del numeral 3 del
+
+**Definición Canónica:** artículo 1740 y a las deudas de los artículos 1742, 1746, 1747 y 1748 del Código Civil,
+entre otras.
+**Concordancias Legales:** artículo 1740; artículos 1742; artículo 1734; artículo 1771; artículo 1725; artículo 1748; artículo 1773; artículo 1749; artículo 138
 
 artículo 1740 y a las deudas de los artículos 1742, 1746, 1747 y 1748 del Código Civil,
 entre otras.
@@ -4412,13 +4495,11 @@ contra la mujer:
       rrollo de las posibilidades de la mujer para prestar servicio a su país y a
       la humanidad.
 
-
-## 50 Artículo 2481 del Código Civil: «La cuarta clase de créditos comprende: 3.º Los
-
-de las mujeres casadas, por los bienes de su propiedad que administra el marido,
-sobre los bienes de este o, en su caso, los que tuvieren los cónyuges por gananciales».
-
 ## 51 Adoptada por Resolución 34/180 de 18 de diciembre de 1979 por la Asamblea
+
+**Definición Canónica:** General de las Naciones Unidas y ratificada por Chile. Decreto 789, Diario Oficial,
+9 de diciembre de 1989.
+**Concordancias Legales:** artículo 15.2; artículo 16; artículo 1749 del Código Civil; artículos 1748; artículo 23.4; artículo 150; artículo 1751 del Código Civil; artículo 137 del Código Civil; artículo 1757; artículos 2509; artículo 1749; artículo 1756; artículo 1579; artículos 1754; artículo 1754; artículo 1755; artículo 1322; artículo 1326; artículo 1733; artículos 150; artículos 138
 
 General de las Naciones Unidas y ratificada por Chile. Decreto 789, Diario Oficial,
 9 de diciembre de 1989.
@@ -4574,8 +4655,12 @@ este ha sido declarado interdicto por demencia o por sordera o sordomudez, así 
 sociedad conyugal.
    Si la administración versa sobre bienes sociales la mujer no administra como dueña (así lo hace el marido conforme al artículo 1749 Código Civil), sino como curadora de bienes ajenos,58 extendiéndose su
 
-
 ## 55 El Código Civil no se pronuncia sobre la sanción en caso de actuación de la
+
+**Definición Canónica:** mujer en actos que involucren sus bienes propios sin contar con autorización de la
+justicia. La doctrina se encuentra dividida entre quienes se inclinan por la nulidad
+relativa (Rodríguez Grez, 2014: 137-140) y quienes defienden la nulidad absoluta de
+los actos (Ramos Pazos, 2005: 226 y ss.).
 
 mujer en actos que involucren sus bienes propios sin contar con autorización de la
 justicia. La doctrina se encuentra dividida entre quienes se inclinan por la nulidad
@@ -4584,12 +4669,22 @@ los actos (Ramos Pazos, 2005: 226 y ss.).
 
 ## 56 Se configura una excepción al artículo 1754 del Código Civil en cuanto prohíbe
 
+**Definición Canónica:** a la mujer realizar actos sobre sus bienes propios que administre su marido.
+ 57 La misma posibilidad de recurrir a la justicia se aplica para nombrar partidor,
+provocar la partición y para concurrir en ella en los casos en que la mujer tenga
+parte en la herencia (artículo 138 bis inciso final).
+**Concordancias Legales:** artículo 138 bis
+
 a la mujer realizar actos sobre sus bienes propios que administre su marido.
  57 La misma posibilidad de recurrir a la justicia se aplica para nombrar partidor,
 provocar la partición y para concurrir en ella en los casos en que la mujer tenga
 parte en la herencia (artículo 138 bis inciso final).
 
 ## 58 Ello supone, la aplicación —en lo que fuere pertinente— de los artículos 390
+
+**Definición Canónica:** y siguientes del Código Civil, los que plantean exigencias especiales para una serie
+de actos; por ejemplo, venta en pública subasta de bienes raíces (artículo 394 del
+**Concordancias Legales:** artículo 394; artículo 391; artículo 1759; artículos 150; artículo 425; artículo 450; artículo 1762; artículos 450; artículo 1763; artículo 397
 
 y siguientes del Código Civil, los que plantean exigencias especiales para una serie
 de actos; por ejemplo, venta en pública subasta de bienes raíces (artículo 394 del
@@ -4622,11 +4717,10 @@ se extingue la sociedad conyugal.
 
 Código Civil), o aceptación de herencias con beneficio de inventario (artículo 397).
 
-## 59 Debe rendir cuenta de su administración, (artículos 415 y 417 del Código Civil)
-
-y responde de culpa leve en la administración.
-
 ## 60 Situación que ya no debería presentarse, con motivo de la modificación de la
+
+**Definición Canónica:** edad para contraer matrimonio que estableció la Ley 21.515.
+**Concordancias Legales:** artículo 1764 del Código Civil; artículo 1772 del Código Civil; artículo 1739; artículo 1776 del Código Civil; artículos 1764; artículo 1753; artículo 1784; artículo 1719; artículo 1723 del Código Civil. En su virtud la mujer pierde; artículo 1782; artículo 1785; artículo 1782 del Código Civil; artículo 1767; artículo 1777 del Código Civil; artículo 1765 del Código Civil; artículo 1765 del Código Civil en relación con artículos 1253; artículos 858; artículo 1766 del Código Civil; artículo 1765; artículo 1768 del Código Civil sanciona ciertas conductas en la; artículo 657 del Código de Procedimiento Civil permite que la; artículo 1769; artículo 1770; artículo 1771; artículo 1746; Artículo 1773 del Código Civil; artículo 1774; artículo 1768; artículos 1777; artículo 1777; artículo 687; artículo 150 del Código Civil; artículos 166; artículo 161 del Código Civil; artículo 159 del Código Civil; artículos 1754; Ley 21.515
 
 edad para contraer matrimonio que estableció la Ley 21.515.
 
@@ -4860,14 +4954,20 @@ complementación posterior que puede alterar el estatuto regulatorio.
 reservado renunciando a los gananciales de la sociedad conyugal o, por
 el contrario, participar de la liquidación de la comunidad, con lo cual,
 
-
 ## 66 Así lo dispone el inciso tercero del artículo 150 del Código Civil: «Incumbe a la
+
+**Definición Canónica:** mujer acreditar, tanto respecto del marido como de terceros, el origen y dominio de
+los bienes adquiridos en conformidad a este artículo. Para este efecto podrá servirse
+de todos los medios de prueba establecidos por la ley».
 
 mujer acreditar, tanto respecto del marido como de terceros, el origen y dominio de
 los bienes adquiridos en conformidad a este artículo. Para este efecto podrá servirse
 de todos los medios de prueba establecidos por la ley».
 
 ## 67 Sentencia de la Corte de Apelaciones de Santiago, rol 16122-2018, 18 de marzo
+
+**Definición Canónica:** de 2020.
+**Concordancias Legales:** artículo 150 del Código Civil; artículo 1777; artículos 166; artículo 166 del Código Civil; artículo 159; artículo 150; artículo 167 del Código Civil establece la administración sepa; artículo 166
 
 de 2020.
 
@@ -4907,6 +5007,15 @@ solidaria o subsidiariamente con la mujer o que se haya beneficiado él
 o la familia común en la parte que a él le correspondía proveer. Por su
 
 ## parte, igual que con las donaciones, herencias o legados, los acreedores
+
+**Definición Canónica:** del marido no tienen acción sobre estos bienes que la mujer administra,
+salvo que prueben que el contrato celebrado por él cedió en utilidad de
+la mujer o de la familia común.
+   Se produce también una separación parcial de bienes cuando la mujer casada en sociedad conyugal ejerce la patria potestad de los hijos e
+hijas y en virtud de ello tiene la facultad de usar sus bienes y percibir sus
+frutos. La mujer se considerará separada parcialmente de bienes respecto de su ejercicio y de lo que en él obtenga. Según señala el artículo 252
+del Código Civil, esta separación se rige por las normas del 
+**Concordancias Legales:** artículo 252 del Código Civil; artículo 150; artículos 141; artículo 15 de la Ley 20.830 a obl; artículos 1715; artículo 1723; artículo 15 de la Ley 20.830; artículos 152; artículo 15; artículo 135; artículos 135; artículos 1792; artículo 21 de la Ley de Matrimonio Civil; artículo 26; artículo 23 de la LMC. En ausencia de demanda o acuerdo entre l; artículo 25 de la Ley 19.947; Ley 20.830; Ley 19.947
 
 del marido no tienen acción sobre estos bienes que la mujer administra,
 salvo que prueben que el contrato celebrado por él cedió en utilidad de
@@ -5170,6 +5279,15 @@ El régimen legal del convenio está contenido en el primer párrafo del
 
 ## capítulo III de la LMC, artículos 21 a 24, dentro de la regulación de la
 
+**Definición Canónica:** separación de hecho. La ley prescribe que el objeto del acuerdo es regular las relaciones mutuas de las o los cónyuges, en su nuevo estado de
+separados.
+   En tanto marco general, el convenio deberá comprender todas las relaciones económicas que subsistirán entre las o los propios cónyuges
+luego de la separación, como ocurre con el aporte para el pago de las
+deudas comunes. En tanto marco especial, el legislador incluyó taxativamente a los alimentos que se deban, así como también las materias
+vinculadas al régimen de bienes del matrimonio.
+   Respecto de la situación de hijos e hijas, en caso 
+**Concordancias Legales:** artículo 22 de la Ley 19.947; artículo 24 de la LMC; artículos 22; artículo 1470 del Código Civil. Respecto de la sucesión; artículo 1723 del Código Civil. Finalmente; artículo 304 del Código Civil. Por otra parte; artículo 305 del Código Civil; Ley 19.947; constitución
+
 separación de hecho. La ley prescribe que el objeto del acuerdo es regular las relaciones mutuas de las o los cónyuges, en su nuevo estado de
 separados.
    En tanto marco general, el convenio deberá comprender todas las relaciones económicas que subsistirán entre las o los propios cónyuges
@@ -5308,8 +5426,10 @@ su inciso primero, en los siguientes términos:
        La edad y la muerte podrán acreditarse o probarse por las respectivas
       partidas de nacimiento o bautismo, y de muerte.
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La terminación del matrimonio y sus efectos civiles
+**Concordancias Legales:** artículo 42; artículo 19; artículo 53 de la LMC; artículo 54; artículo 54 de la LMC constituye una causal subjetiva genérica; Ley 21.120; Ley 21.367; Ley 19.947; constitución
 
 La terminación del matrimonio y sus efectos civiles
 
@@ -5491,6 +5611,15 @@ Matrimonio Civil son las siguientes:
 
 ## 4 Véase la sentencia de la Corte Suprema en Recurso de casación en el fondo, 7
 
+**Definición Canónica:** de mayo de 2014, rol 7795-2013. En el considerando tercero la Corte dispone: «Que,
+en lo que concierne a la causal propiamente tal, se debe tener presente que no la
+conforma la condición o tendencia homosexual; pues, según dan cuenta las actas
+que recogen el debate al interior de la Comisión de Constitución del Senado, en
+segundo trámite constitucional, lo que configura es un “comportamiento externo
+objetivo y no la mera condición o inclinación homosexual”. La orientación sexual
+del individuo, esto es, la atracción que tiene como objeto de enamoramiento, predominante o exclusivo, a una persona
+**Concordancias Legales:** Constitución; constitucion
+
 de mayo de 2014, rol 7795-2013. En el considerando tercero la Corte dispone: «Que,
 en lo que concierne a la causal propiamente tal, se debe tener presente que no la
 conforma la condición o tendencia homosexual; pues, según dan cuenta las actas
@@ -5525,8 +5654,15 @@ por ambos cónyuges al contraer el matrimonio, el que exige mantener
 relaciones sexuales exclusivas con el otro u otra cónyuge.5 Respecto de
 los actos que constituyen infidelidad, consideramos que la base objetiva
 
-
 ## 5 La prueba de la infidelidad es en extremo difícil, ya que tal como lo destaca
+
+**Definición Canónica:** Hunter, en todo conflicto familiar existirán siempre dos versiones de los hechos.
+El proceso judicial, según destaca este autor, «debe servir de instrumento para la
+reconstrucción de los hechos que constituyen el objeto de la prueba, única forma
+de propender a la justicia de la decisión en una tradición racionalista de la prueba»,
+que en el caso de la infidelidad en un juicio de derecho de familia, constituirá «una
+razón suficiente no solo para poner término al matrimonio (cuando haga intolerable la vida en común) sino además para privar o disminuir al cónyuge de una
+eventual compensación econ
 
 Hunter, en todo conflicto familiar existirán siempre dos versiones de los hechos.
 El proceso judicial, según destaca este autor, «debe servir de instrumento para la
@@ -5546,6 +5682,13 @@ que se debe considerar es la consumación de relaciones sexuales por
 
 ## parte de un cónyuge o una cónyuge con una persona ajena a la pareja
 
+**Definición Canónica:** conyugal. La inclusión de otras acciones tiende a considerar como aspecto enjuiciable a los sentimientos y afectos alojados en la intimidad
+absoluta de las personas y, desde un punto de vista práctico, estos se
+encuentran en el terreno de la máxima subjetividad y, por consiguiente,
+son de difícil prueba.6
+   c) Condena ejecutoriada por la comisión de alguno de los crímenes o
+simples delitos contra el orden de las familias y contra la moralidad pública o contra las personas: comprendiendo la participación del cónyuge demandado como autor, cómplice o encubridor en los delitos de homicidio, lesio
+
 conyugal. La inclusión de otras acciones tiende a considerar como aspecto enjuiciable a los sentimientos y afectos alojados en la intimidad
 absoluta de las personas y, desde un punto de vista práctico, estos se
 encuentran en el terreno de la máxima subjetividad y, por consiguiente,
@@ -5563,8 +5706,17 @@ la causal como haciendo referencia a aquellos casos en que la situación
 se convierte en una carga personal que la ley estima excesiva para una
 persona normal.
 
-
 ## 6 Sin embargo, existen pronunciamientos judiciales en dicho sentido: «Que el
+
+**Definición Canónica:** incumplimiento del deber de fidelidad del otro cónyuge, como causal de divorcio,
+se configura con la acreditación de la concurrencia de situaciones que demuestren
+no solo la ruptura del compromiso de lealdad sexual que implica el matrimonio,
+situación que coincide con la definición de adulterio que entrega el artículo 132 del
+Código Civil antes citado, que los confina a la existencia de trato carnal de uno de
+los cónyuges por un tercero, sino también cualquier otro hecho que implique una
+relación que no guarde los límites de lo común o habitual con alguien ajeno al vínculo
+matrimonial, que dé 
+**Concordancias Legales:** artículo 132 del Código Civil antes citado; artículo 55 de la LMC
 
 incumplimiento del deber de fidelidad del otro cónyuge, como causal de divorcio,
 se configura con la acreditación de la concurrencia de situaciones que demuestren
@@ -5613,8 +5765,10 @@ convivencia efectivamente ha ocurrido, por los medios que el legislador
 ha establecido y que ya hemos tratado en un apartado precedente con
 ocasión del momento crítico del estado matrimonial.7
 
-
 ## 7 Véase Sentencia de la Corte Suprema, rol 7964-2010, de 20 de enero de 2011. La
+
+**Definición Canónica:** sentencia indicada, en su considerando primero, expresa: «Se confunde la naturaleza jurídica del divorcio con los requisitos que se exige para solicitarlo. Explica que el
+**Concordancias Legales:** artículo 55; artículos 22
 
 sentencia indicada, en su considerando primero, expresa: «Se confunde la naturaleza jurídica del divorcio con los requisitos que se exige para solicitarlo. Explica que el
 
@@ -5675,8 +5829,15 @@ por un quiebre o ruptura matrimonial. Tal es el caso contemplado en
 el artículo 55 inciso tercero de la Ley de Matrimonio Civil chilena, que
 reconoce al juez o jueza la posibilidad de negar la solicitud de divorcio
 
-
 ## 8 Los matrimonios celebrados con anterioridad a la entrada en vigencia de la
+
+**Definición Canónica:** ley no tendrán limitaciones en los medios de prueba necesarios para acreditarlo,
+pudiendo recurrir a los medios tradicionales, como la prueba testimonial y documental, siempre que ellos permitan al juez o jueza formarse plena convicción sobre
+el hecho y se entenderá que el cese de la convivencia no se ha producido con anterioridad a las fechas de la notificación de la demanda en una causa por alimentos que se
+deban, bienes familiares, cuidado personal o en cualquier procedimiento destinado
+a reglar las relaciones mutuas entre cónyuges o entre estos y sus hijos o hijas.
+  9 Esta limitación al r
+**Concordancias Legales:** artículo 55
 
 ley no tendrán limitaciones en los medios de prueba necesarios para acreditarlo,
 pudiendo recurrir a los medios tradicionales, como la prueba testimonial y documental, siempre que ellos permitan al juez o jueza formarse plena convicción sobre
@@ -5715,6 +5876,14 @@ sanción, esto es, la LMC de 2004.12
  10 Procede, por tanto, el rechazo judicial cuando se trate de una demanda de divorcio por mutuo consentimiento o por falta imputable al otro u otra cónyuge.
 
 ## 11 Si se produjo durante el periodo de convivencia conyugal, no procede alegarlo
+
+**Definición Canónica:** con posterioridad.
+ 12 La sentencia dispone, en lo pertinente, lo siguiente: «Que, por lo demás respecto a la cláusula de dureza, esta Corte ha resuelto que el artículo 55 inciso tercero
+de la Ley 19.947, al negar la acción de divorcio al cónyuge que no ha cumplido en
+forma reiterada con su obligación alimenticia, le está imponiendo una sanción que
+de conformidad al artículo 9 del Código Civil, no puede tener aplicación cuando el
+incumplimiento ha ocurrido antes de la entrada en vigencia de la ley que establece
+**Concordancias Legales:** artículo 55; artículo 9 del Código Civil; artículos 59; artículo 53; artículo 59; artículo 42; artículos 131; artículo 145; artículo 60 de la LMC. Por tanto; artículo 60; artículo 60 de la LMC; artículo 1790 del Código Civil; artículo 53 de la LMC; artículo 54 de la LMC; artículo 9 del Código Civil. Por lo tanto; artículo 20 de la Ley 19.947 y su reglamen; artículo 20; artículo 42 de la LMC que el matrimonio termina por voluntad de; artículo 19; artículos 18; Ley 19.947; Ley 21.120; Ley 21.400
 
 con posterioridad.
  12 La sentencia dispone, en lo pertinente, lo siguiente: «Que, por lo demás respecto a la cláusula de dureza, esta Corte ha resuelto que el artículo 55 inciso tercero
@@ -5853,14 +6022,22 @@ una persona con vínculo matrimonial vigente.15
 Recibida la solicitud, el juez o la jueza la admitirá a tramitación y citará
 a las o los cónyuges a audiencia preparatoria de juicio. La sentencia definitiva se dictará con el solo mérito de la solicitud, y procede en el mismo
 
-
 ## 14 La Ley 21.120 de 2018 originalmente consideraba como causal directa de término
+
+**Definición Canónica:** del matrimonio la sentencia firme que acoge la solicitud de rectificación de sexo y
+nombre por razón de identidad de género, de modo coherente con la inexistencia de
+los matrimonios de personas del mismo sexo, lo que cambio a partir de la Ley 21.400.
+**Concordancias Legales:** Ley 21.400
 
 del matrimonio la sentencia firme que acoge la solicitud de rectificación de sexo y
 nombre por razón de identidad de género, de modo coherente con la inexistencia de
 los matrimonios de personas del mismo sexo, lo que cambio a partir de la Ley 21.400.
 
 ## 15 Desde la entrada en vigor de la Ley 21.515 de 2022 el procedimiento de la Ley
+
+**Definición Canónica:** 21.120 para mayores de edad siempre es administrativo, estén o no casados; se reserva el procedimiento judicial para menores de edad, que no pueden estar casados
+conforme a la incapacidad de minoría de edad que genera la Ley 21.515.
+**Concordancias Legales:** artículo 42 de la LMC; artículos 61; artículo 60 de la LMC; Ley 21.515; Ley 19.968
 
 21.120 para mayores de edad siempre es administrativo, estén o no casados; se reserva el procedimiento judicial para menores de edad, que no pueden estar casados
 conforme a la incapacidad de minoría de edad que genera la Ley 21.515.
@@ -5916,8 +6093,17 @@ respecto del cual se pide una reparación, pues el divorcio es una institución 
 operado vigente el matrimonio y de la situación socioeconómica de entrada al mismo.17 A diferencia de otros efectos del divorcio, que pueden
 tener carácter previo o provisional, la compensación tiene siempre ca-
 
-
 ## 16 La doctrina que distingue entre los daños que produce el divorcio en sí mismo
+
+**Definición Canónica:** y los daños que se producen con ocasión de los hechos que dan lugar al divorcio
+(por ejemplo, el incumplimiento de deberes conyugales) estima que los primeros no
+pueden ni deben ser indemnizados, ya que no existe la antijuridicidad del hecho, al
+ser el divorcio una solución que la ley suministra ante la ruptura del matrimonio;
+en consecuencia, no puede ser considerado una fuente generadora de daño (Herane
+Vives, 2006). Volviendo sobre la compensación económica, resulta que ninguno de
+los daños referidos puede ser indemnizado por medio de ella, pues su finalidad es
+diversa y su fuente específic
+**Concordancias Legales:** Artículo 61 de la Ley 19.947; Artículo 27 de la Ley 20.830; Artículo 19 de la Ley 21.120; Ley 20.830; Ley 21.120; Ley 19.947
 
 y los daños que se producen con ocasión de los hechos que dan lugar al divorcio
 (por ejemplo, el incumplimiento de deberes conyugales) estima que los primeros no
@@ -5972,8 +6158,10 @@ derecho a la identidad de género         Cuando se solicita la disolución del 
                                          por razones de identidad de género.
 Fuente: Elaboración propia.
 
-
 ## 18 En este sentido, véase la sentencia de la Corte Suprema, 2 de julio de 2008, rol
+
+**Definición Canónica:** 3506-2008.
+**Concordancias Legales:** artículo 27 de la Ley 20.830; Ley 20.830
 
 3506-2008.
 
@@ -6009,6 +6197,11 @@ artículo 27 de la Ley 20.830.
 
 ## 20 También puede proceder en el caso de término del matrimonio conforme al
 
+**Definición Canónica:** artículo 19 de la Ley 21.120. Respecto del AUC puede proceder cuando este ha
+terminado por mutuo acuerdo, declaración unilateral de voluntad o declaración de
+nulidad.
+**Concordancias Legales:** artículo 19 de la Ley 21.120. Respecto del AUC puede proceder c; Ley 21.120
+
 artículo 19 de la Ley 21.120. Respecto del AUC puede proceder cuando este ha
 terminado por mutuo acuerdo, declaración unilateral de voluntad o declaración de
 nulidad.
@@ -6038,8 +6231,15 @@ manera, se protege al que tiene la condición de «más débil».
       desequilibrio económico entre los cónyuges, causado por la terminación
       del matrimonio y la necesidad o carencia de medios de uno de ellos
 
-
 ## 21 Así lo ha precisado la jurisprudencia: «No es la compensación económica una
+
+**Definición Canónica:** institución creada para reparar este tipo de perjuicio y puede la actora, si así lo estima, perseguir la responsabilidad del demandado de acuerdo a las normas generales
+del Código Civil, en la sede y de acuerdo al procedimiento correspondientes, pero
+lo que no puede pretender es que el supuesto perjuicio que le habrían irrogado los
+malos tratos del demandado le sean indemnizados por la vía del artículo 61 de la
+Ley de Matrimonio Civil». Sentencia de la Corte de Apelaciones de Santiago, 4 de
+noviembre de 2010, rol 890-2010.
+**Concordancias Legales:** artículo 61 de la Ley de Matrimonio Civil
 
 institución creada para reparar este tipo de perjuicio y puede la actora, si así lo estima, perseguir la responsabilidad del demandado de acuerdo a las normas generales
 del Código Civil, en la sede y de acuerdo al procedimiento correspondientes, pero
@@ -6049,6 +6249,12 @@ Ley de Matrimonio Civil». Sentencia de la Corte de Apelaciones de Santiago, 4 d
 noviembre de 2010, rol 890-2010.
 
 ## 22 En ese sentido Vidal Olivares (2009b: 18-20). Por su parte, Corral Talciani
+
+**Definición Canónica:** (2007: 25 y 26) precisa que la compensación no tiene naturaleza alimenticia o asistencial y que tampoco es una manifestación del enriquecimiento sin causa o una
+forma de responsabilidad civil contractual objetiva por lucro cesante o pérdida de
+una chance; en definitiva, se adscribe dentro de las indemnizaciones por sacrificio,
+esto es, un supuesto de indemnización por afectación autorizada de derechos ajenos.
+**Concordancias Legales:** artículo 61 de la Ley de Matrimonio Civil; artículo 61 de la LMC establece; artículo 441
 
 (2007: 25 y 26) precisa que la compensación no tiene naturaleza alimenticia o asistencial y que tampoco es una manifestación del enriquecimiento sin causa o una
 forma de responsabilidad civil contractual objetiva por lucro cesante o pérdida de
@@ -6199,6 +6405,10 @@ compensación» (artículo 441 Código Civil y Comercial argentino).
 
 ## 27 Una alusión sintética a las cinco principales posiciones sobre el significado de
 
+**Definición Canónica:** menoscabo económico se ofrece en Vidal Olivares (2008).
+  28 Sentencia de la Corte Suprema, 23 de junio de 2016, rol 32970-2016.
+**Concordancias Legales:** artículo 61 de la LMC requiere que la o el excónyuge que reclam
+
 menoscabo económico se ofrece en Vidal Olivares (2008).
   28 Sentencia de la Corte Suprema, 23 de junio de 2016, rol 32970-2016.
 
@@ -6237,8 +6447,9 @@ también específica (Acuña San Martín, 2019: 333 y ss.):
       requisito; dicha circunstancia no elimina per se la imposibilidad
       normativa que da lugar a la compensación.29
 
-
 ## 29 La jurisprudencia ha precisado al respecto: «En ese contexto, el hecho que la
+
+**Definición Canónica:** demandante reconvencional hubiere desempeñado dicho trabajo “desde su casa” –
 
 demandante reconvencional hubiere desempeñado dicho trabajo “desde su casa” –
 
@@ -6281,6 +6492,12 @@ el tiempo». Corte de Apelaciones de Santiago, sentencia de 18 de agosto de 2010
 
 ## 30 La jurisprudencia ha determinado: «Que la actora reconvencional debe ser
 
+**Definición Canónica:** compensada del menoscabo económico sufrido con el matrimonio, aun cuando el
+dedicarse a la familia haya sido una opción de vida, ya que no es exigencia una
+prueba concreta y específica de haber tenido la oportunidad laboral». Sentencia de
+la Corte de Apelaciones de Concepción, 16 de febrero de 2011, rol 519-2010.
+ 31 Sentencia de la Corte Suprema, 10 de julio de 2018, rol 41802-2017.
+
 compensada del menoscabo económico sufrido con el matrimonio, aun cuando el
 dedicarse a la familia haya sido una opción de vida, ya que no es exigencia una
 prueba concreta y específica de haber tenido la oportunidad laboral». Sentencia de
@@ -6319,6 +6536,15 @@ lugar a la compensación (Acuña San Martín, 2019: 337).
 rol 168-2010.
 
 ## 33 La jurisprudencia ha reconocido que: «El presupuesto consistente en no haber
+
+**Definición Canónica:** ejercido un trabajo remunerado no es menester que haya sido producto de una imposición del cónyuge a quien se demanda de compensación económica, ya que la
+norma no lo exige ni es una institución que suponga la culpa del cónyuge obligado,
+como ocurre en materia de responsabilidad civil. En consecuencia, basta con que
+no haya trabajado, producto de haberse dedicado al cuidado de los hijos o del hogar
+común, siendo indiferente que se deba a una decisión personal, un acuerdo entre los
+cónyuges o una imposición de parte del otro» (Sentencia de la Corte Suprema, 10 de
+diciembre de 2018, rol 2829-201
+**Concordancias Legales:** artículo 224 del Código Civil; artículo 63 de la LMC tanto la compensación como su monto y for; artículo 55 de la LMC se limita a reconocer la existencia del m; artículo 62; artículo 65; artículo 63 de la LMC; artículo 55; artículo 5; artículo 3; Ley 21.515
 
 ejercido un trabajo remunerado no es menester que haya sido producto de una imposición del cónyuge a quien se demanda de compensación económica, ya que la
 norma no lo exige ni es una institución que suponga la culpa del cónyuge obligado,
@@ -6496,8 +6722,11 @@ tomado partido y ha impuesto la necesidad de resolver estas materias
 —incluyendo la aprobación o no de los acuerdos— cuidando proteger
 siempre el interés superior de la o el cónyuge más débil, (artículo 3 inciso primero de la LMC).
 
-
 ## 40 Ley 21.515 que modifica diversos cuerpos legales para establecer la mayoría de
+
+**Definición Canónica:** edad como un requisito esencial para la celebración del matrimonio, publicada en el
+Diario Oficial el 28 de diciembre de 2022.
+**Concordancias Legales:** artículo 64 de la LMC; artículo 62 de la Ley de Matrimonio Civil; artículo 62 de la LMC conforme al cual; artículo 54; artículo 62 de la Ley de Matrimonio Civil La duración del matri; artículo 61 de la LMC. Por lo mismo; artículo 61 de la Ley de Matrimonio Civil para la procedencia d; artículo 62; artículo 66 de la LMC; artículos 61; Ley 19.947
 
 edad como un requisito esencial para la celebración del matrimonio, publicada en el
 Diario Oficial el 28 de diciembre de 2022.
@@ -6736,6 +6965,9 @@ tienen distinta cualificación profesional, valorados de modo diverso en
 
 ## 45 Turner Saelzer advierte sobre la necesidad de alejar la compensación de una
 
+**Definición Canónica:** suerte de garantía o aseguramiento de un cierto estatus económico.
+**Concordancias Legales:** artículo 61 de la LMC. Los tribunales han precisado que; artículo 62 de la LMC que han sido probados y; artículo 61 de la LMC; artículo 62 de la LMC se refieren a la situación presente y esp; artículo 62; artículo 62 de la Ley de Matrimonio Civil; artículo 62 de la LMC.52 La Corte ha insistido en que las y los; constitución
+
 suerte de garantía o aseguramiento de un cierto estatus económico.
 
 el mercado laboral, no puede pretender uno que se compense el mayor
@@ -6909,6 +7141,10 @@ susceptible de ser calculada mediante simples operaciones aritméticas.57
 
 ## 56 Sentencia de la Corte Suprema, 20 de septiembre de 2018, rol 2455-2018. La
 
+**Definición Canónica:** pensión por desequilibrio regulada en el Código Civil español puede quedar establecida de modo vitalicio o temporal, esta última opción es inusual.
+ 57 Sentencia de la Corte Suprema, 4 de noviembre de 2015, rol 6817-2015.
+**Concordancias Legales:** artículo 63 de la LMC establece que tanto la determinación de l; artículo 65 de la LMC o la del artículo 80 de la Ley 20.255; artículo 65; artículo 17; artículo 65 de la LMC; Ley 20.255; constitución
+
 pensión por desequilibrio regulada en el Código Civil español puede quedar establecida de modo vitalicio o temporal, esta última opción es inusual.
  57 Sentencia de la Corte Suprema, 4 de noviembre de 2015, rol 6817-2015.
 
@@ -6970,8 +7206,14 @@ podrá establecer las siguientes modalidades», permite dos interpretaciones:
       tura de la norma se advierte que la enumeración allí contemplada,
       no es taxativa, y no podría ser de otra forma, por las distintas po-
 
-
 ## 58 Agregado por Ley 20.239, de 8 de febrero de 2007. Conforme al artículo 2 de
+
+**Definición Canónica:** la Ley 20.239, las compensaciones económicas que se benefician con el tratamiento
+tributario dispuesto por el número 31 del artículo 17 de la Ley sobre Impuesto a la
+Renta, son aquellas que se pagaron o paguen a los cónyuges en virtud de las normas
+de la Ley 19.947, a contar del 17 de noviembre de 2004. Así en Dictamen 1.838, de 27
+de mayo de 2009, del Servicio de Impuestos Internos de Chile.
+**Concordancias Legales:** artículo 17 de la Ley sobre Impuesto a la Renta; Ley 20.239; Ley 19.947
 
 la Ley 20.239, las compensaciones económicas que se benefician con el tratamiento
 tributario dispuesto por el número 31 del artículo 17 de la Ley sobre Impuesto a la
@@ -6980,6 +7222,10 @@ de la Ley 19.947, a contar del 17 de noviembre de 2004. Así en Dictamen 1.838, 
 de mayo de 2009, del Servicio de Impuestos Internos de Chile.
 
 ## 59 Algunos comentarios sobre esta norma de protección de intereses de terceros
+
+**Definición Canónica:** en Vidal Olivares (2009: 74).
+ 60 Sentencia de la Corte Suprema, 9 de mayo de 2011, considerando noveno.
+**Concordancias Legales:** artículo 80; artículo 62 de la Ley 19.947; Ley 20.255; Ley 19.947; Ley 3.500
 
 en Vidal Olivares (2009: 74).
  60 Sentencia de la Corte Suprema, 9 de mayo de 2011, considerando noveno.
@@ -7017,6 +7263,9 @@ por el juez o la jueza desde la cuenta de capitalización individual de la o
  62 Algunas críticas a esta disposición se encuentran en Pizarro Wilson (2009: 160162).
 
 ## 63 Modificado por la Norma de Carácter General 126, de fecha 1 de septiembre
+
+**Definición Canónica:** de 2014.
+**Concordancias Legales:** artículo 81; artículo 66 de la Ley de Ma; artículos 65; artículo 65; artículo 66; artículo 65 de la LMC; artículo 66 de la LMC; artículo 14 de la Ley 14.908; artículo 66 de la LMC. La jurisprudencia; artículo 14; artículo 7; Ley 20.255; Ley 14.908; Ley 19.947; constitución
 
 de 2014.
 
@@ -7231,12 +7480,10 @@ siempre después de los créditos preferentes y privilegiados. En este orden de 
       pensación económica, pues se trata de un crédito común o valista. Así,
       este crédito no goza de ninguna clase de preferencia. El beneficiario está
 
-
-## 67 Sentencia de la Corte de Apelaciones de Puerto Montt, 15 de febrero de 2011, rol
-
-10-2011, considerando quinto.
-
 ## 68 Sentencia de la Corte de Apelaciones de Valparaíso, 25 de marzo de 2011, rol
+
+**Definición Canónica:** 162-2011.
+**Concordancias Legales:** artículos 65; artículo 66 de la Ley de Matrimo; artículo 66; artículo 65 de la LMC; Ley 19.947
 
 162-2011.
 
@@ -7313,8 +7560,10 @@ la salvedad de su obligación de informar.
 que la renuncia se efectúe luego de sobrevenida la crisis matrimonial o
 antes de esta.
 
-
 ## 71 Sentencia de la Corte de Apelaciones de Rancagua, 16 de marzo de 2016, rol
+
+**Definición Canónica:** 30-2016.
+**Concordancias Legales:** artículo 55; artículo 12 del Código Civil; artículo 1717 del Código Civil; artículo 3 de la LMC
 
 30-2016.
 
@@ -7407,18 +7656,19 @@ o acreedora.
 
  72 Comentado en Marcela Acuña San Martín, «¿Qué reglas son aplicables al crédito de compensación económica, en especial a su prescripción?», El Mercurio Legal, 2017.
 
-## 73 Sentencia de la Corte de Apelaciones de Santiago, 3 de mayo de 2017, rol 10979­
-
-2016.
-
 ## 74 El artículo 101 del Código Civil español establece: «El derecho a la pensión se
+
+**Definición Canónica:** extingue por el cese de la causa que lo motivó, por contraer el acreedor nuevo matrimonio o por vivir maritalmente con otra persona».
 
 extingue por el cese de la causa que lo motivó, por contraer el acreedor nuevo matrimonio o por vivir maritalmente con otra persona».
 
 Materiales Docentes                                                 Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Algunas cuestiones particulares del matrimonio
+desde la función judicial
+**Concordancias Legales:** artículo 54 de la Ley de Matrimonio Civil; artículo 58; artículo 2; artículo 20 de la Ley 19.638; artículo 20 de la LMC que reconoce la vigencia de ordenamientos; artículo 102 del Código Civil; artículo 20 de la Ley 19.638 y en la falta de explicitación de; artículo 102 del Código Civil. El segundo problema remite a; artículos 5; artículo 80; artículo 8; artículo 15; Ley 19.638; Ley 21.400; Ley 19.947; Ley 20.830; constitución
 
 Algunas cuestiones particulares del matrimonio
 desde la función judicial
@@ -7615,8 +7865,12 @@ matrimonial como beneficiaria exclusiva y excluyente de los bienes familiares. S
 de relaciones familiares posteriores al divorcio, como de familias derivadas de vínculos diversos al matrimonio, como ocurre con el acuerdo
 de unión civil conforme al artículo 15 inciso final de la Ley 20.830. Por
 
-
 ## 2 Voto disidente en sentencia de la Corte Suprema, de 15 de abril de 2009, rol
+
+**Definición Canónica:** 1086-2009.
+ 3 Sentencia de la Corte Suprema, 14 de enero de 2019, rol 7488-2018.
+ 4 Sentencia de la Corte Suprema, 12 de septiembre de 2011, rol 4316-2011.
+**Concordancias Legales:** artículo 141 del Código Civil.5 Bienes familiares; artículo 146 del Código Civil
 
 1086-2009.
  3 Sentencia de la Corte Suprema, 14 de enero de 2019, rol 7488-2018.
@@ -7649,8 +7903,13 @@ la familia.
    Puede tratarse de sociedades de cualquier naturaleza, civiles o comerciales, colectivas, de responsabilidad limitada, en comandita, anónimas
 o por acciones, tanto nacionales como extranjeras, y cualquiera sea el
 
-
 ## 5 Sentencia de la Corte Suprema, 24 de septiembre de 2018, rol 129­2018. En igual
+
+**Definición Canónica:** sentido, entre otras, sentencia de la Corte Suprema, 4 mayo de 2009, rol 1968-09;
+sentencia de la Corte Suprema, 21 de septiembre 2009, rol 5275-09; sentencia de la
+Corte Suprema, 8 de julio de 2016, rol 6837-2016; sentencia de la Corte Suprema, 24
+de abril de 2019, rol 22177-2018.
+**Concordancias Legales:** artículo 146 del Código Civil a las empresas individuales de r; artículos 55; Ley 19.857; Ley 19.968
 
 sentido, entre otras, sentencia de la Corte Suprema, 4 mayo de 2009, rol 1968-09;
 sentencia de la Corte Suprema, 21 de septiembre 2009, rol 5275-09; sentencia de la
@@ -7687,6 +7946,9 @@ mínimo de seguridad jurídica; en cambio, para otros, no es necesario
  6 Corral Talciani (2007: 54) plantea, sin embargo, la improcedencia de la afectación parcial de una parte de esos derechos o acciones.
 
 ## 7 Sentencia de la Corte de Apelaciones de Concepción, 25 de junio de 2009, rol
+
+**Definición Canónica:** 192-2009.
+**Concordancias Legales:** artículo 574 del Código Civil referido a los bienes que forman; artículos 574; artículo 16 de la Ley 19.968; artículo 141 del Código Civil; artículo 145 del Código Civil agregado por la LMC; artículo 1792; artículo 61 de la Ley de Matrimonio Civil se han determinado la; artículo 62 de la Ley de Matrimonio civil; Ley 19.968
 
 192-2009.
 
@@ -7866,8 +8128,10 @@ En definitiva, la duración del matrimonio no puede observarse desligada de la v
       muy breve, aunque la duración del matrimonio se ha ya extendido por
       largos años.11
 
-
 ## 10 Sentencia de la Corte Suprema, 8 de noviembre de 2022, rol 4659-2022. En igual
+
+**Definición Canónica:** sentido sentencia de la Corte Suprema, 28 de septiembre de 2022, rol 46610-2022.
+ 11 Sentencia de la Corte Suprema, 17 de agosto de 2022, rol 91561-2021.
 
 sentido sentencia de la Corte Suprema, 28 de septiembre de 2022, rol 46610-2022.
  11 Sentencia de la Corte Suprema, 17 de agosto de 2022, rol 91561-2021.
@@ -8111,7 +8375,19 @@ Materiales Docentes                                                 Glosario
 
 ## título y los que resulten de la liquidación de la sociedad conyugal o
 
-   del régimen de participación en los gananciales que hubiere existido
+**Definición Canónica:** del régimen de participación en los gananciales que hubiere existido
+   entre ellos y los que adquieran, durante el régimen.
+Separación de hecho: Situación fáctica, caracterizada por la simple se-
+   paración de cuerpos ocurrida entre las o los cónyuges, unido en la
+   mayoría de los casos a un distanciamiento físico de uno de ellos res-
+   pecto de la residencia común.
+Separación judicial: Separación de los cónyuges que se caracteriza por
+   tener su origen en una declaración judicial, cumplidos que sean los
+   presupuestos legales de procedencia. Se puede solicitar al tribunal
+   cuando conc
+**Concordancias Legales:** artículo 17 de la Convención Ame; Artículo 11; artículo 62; Ley 19.947; Ley 19.335; constitución; Constitucion
+
+del régimen de participación en los gananciales que hubiere existido
    entre ellos y los que adquieran, durante el régimen.
 Separación de hecho: Situación fáctica, caracterizada por la simple se-
    paración de cuerpos ocurrida entre las o los cónyuges, unido en la

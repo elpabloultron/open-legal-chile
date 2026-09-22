@@ -13,19 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos                                                            09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Gobierno judicial
+                 Curso habilitante
+                 para Fiscal Judicial
+                 y Ministro de Corte
 
-             Gobierno judicial
+Gobierno judicial
                  Curso habilitante
                  para Fiscal Judicial
                  y Ministro de Corte
@@ -41,19 +36,22 @@ extraccion: pdftotext
 
                Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Carla
+                                    Troncoso
+                                    Bustamante
+                          Abogada de la U. de Chile, ha servido
+                          sucesivamente los siguientes cargos
+                          como miembro del escalafón primario
+                          del Poder Judicial: secretaria del Pri-
+                          mer Juzgado de Letras de Copiapó,
+                          jueza de Tribunal Oral en lo Penal de
+                          Antofagasta, jueza del Decimocuarto
+                          Juzgado de Garantía de Santiago,
+   
 
-                          Carla
+Carla
                                     Troncoso
                                     Bustamante
                           Abogada de la U. de Chile, ha servido
@@ -107,179 +105,21 @@ Santiago,                 es ministra de la Corte de ApelacioChile 2020         
 
 ## Sumario — Apelación
 
-Curso habilitante para Fiscal                                                                                                                   4
+**Definición Canónica:** Curso habilitante para Fiscal                                                                                                                   4
+
+Curso habilitante para Fiscal                                                                                                                   4
 
                                          Índice de contenidos
 
                                          Tabla de abreviaturas                                                                            6
 
-
-## 1. Breves consideraciones sobre el gobierno judicial en Chile                                    7
-
-
-
-## 1.1 Introducción                                                                              8
-
-
-
-## 1.2 Sobre los modelos comparados de gobierno judicial                                         10
-
-
-
-## 1.2.1   Consejo General del Poder Judicial (España)                                     10
-
-
-
-## 1.2.2   Consiglio Superiore della Magistratura (Italia)11
-
-
-
-## 1.2.3   El Consejo Superior de la Judicatura (Colombia)                                 12
-
-
-
-## 1.2.4   El caso chileno                                                                 15
-
-
-
-## 1.3 Conclusiones preliminares                                                                 16
-
-
-
-## 2. Funcionamiento de las Cortes y tareas del ministro                                            17
-
-
-
-## 2.1 Corte de Apelaciones                                                                      18
-
-
-
-## 2.2 Categorías de tribunales                                                                  19
-
-
-
-## 2.3 Funcionamiento ordinario y extraordinario de las Cortes de Apelaciones                    21
-
-
-
-## 2.4 Formas en que las Cortes de Apelaciones conocen los asuntos sometidos a su conocimiento   23
-
-
-
-## 2.5 El funcionamiento en Pleno                                                                24
-
-
-
-## 2.6 Quórum para funcionamiento del tribunal Pleno                                             25
-
-
-
-## 2.7 Las Cortes de Apelaciones pueden conocer los asuntos sometidos a su decisión en cuenta o
-
-                                         		    previa vista del recurso (art. 68 COT)                                                     33
-
-
-## 2.8 Formación de las tablas (arts. 69 COT y 163 CPC)                                          36
-
-
-
-## 2.9 Integración de las Cortes de Apelaciones                                                  39
-
-
-
-## 2.10 Dirección de la audiencia, retardo y suspensión de la vista de la causa                  41
-
-
-
-## 2.11 Los acuerdos de las Cortes de Apelaciones                                                53
-
-
-
-## 2.12 De la sala tramitadora                                                                   55
-
-
-
-## 2.13 Ley de Tramitación Electrónica                                                           59
-
-
-
-## 2.14 Los presidentes de Corte de Apelaciones                                                  63
-
-
-
-## 2.15 Conocimiento de asuntos disciplinarios, administrativos y económicos                     67
-
-
-
-## 2.16 Visitas                                                                                  70
-
-
-
-## 2.17 Las facultades económicas                                                                72
-
-Curso habilitante para Fiscal                                                        Índice                                                      5
-
-
-## 3. Sobre la Fiscalía Judicial                                                                    77
-
-
-
-## 3.1 Introducción                                                                              78
-
-
-
-## 3.2 Composición y organización de la Fiscalía Judicial                                        79
-
-
-
-## 3.3 Sobre las funciones de los fiscales judiciales                                             81
-
-
-
-## 3.3.1   Funciones reguladas por el Código Orgánico de Tribunales                         81
-
-
-
-## 3.3.2   Funciones reguladas en leyes generales                                           92
-
-
-
-## 3.3.3   Funciones dispuestas por instrucciones de la Corte Suprema                       97
-
-
-
-## 3.3.4   Funciones impartidas por la jefatura superior del Servicio                      103
-
-
-
-## 4. Régimen disciplinario                                                                         107
-
-
-
-## 4.1 Introducción                                                                              108
-
-
-
-## 4.1.1   Del control ético a la responsabilidad administrativa funcionaria               109
-
-
-
-## 4.1.2   Del procedimiento para investigar y establecer la responsabilidad funcionaria   114
-
-
-
-## 4.1.3   Etapas del procedimiento ordinario                                              117
-
-
-
-## 4.1.4   Sobre otros procedimientos para investigar responsabilidad disciplinaria        129
-
-
-
 ## 4.1.5   Adecuaciones dispuestas por el Acta 103-2018 sobre acoso sexual                 131
 
+**Definición Canónica:** Enlaces relacionados                                                                             134
+Curso habilitante para Fiscal                                                                 6
+**Concordancias Legales:** Constitución Política
 
-                                         Enlaces relacionados                                                                             134
+Enlaces relacionados                                                                             134
 Curso habilitante para Fiscal                                                                 6
 
                                                       Tabla de abreviaturas
@@ -313,11 +153,16 @@ Santiago,                 es ministra de la Corte de ApelacioChile 2020         
 Curso habilitante para Fiscal                                     1. Breves consideraciones sobre el                                       8
 Judicial y Ministro de Corte                                         gobierno judicial en Chile
 
-
 ## 1.1        Introducción
 
+**Definición Canónica:** El objetivo de             Por mucho tiempo se ha tratado, con seguridad con mayor contun-
+                                                                    dencia y profundidad, la relación existente entre el ejercicio de la
+                                         este material
+                                                                    judicatura y la organización y funcionamiento de los tribunales. Sin
+                                         docente es que el          embargo, se ha hecho desde la perspectiva de la garantía de la inde-
+                                         al
 
-                                         El objetivo de             Por mucho tiempo se ha tratado, con seguridad con mayor contun-
+El objetivo de             Por mucho tiempo se ha tratado, con seguridad con mayor contun-
                                                                     dencia y profundidad, la relación existente entre el ejercicio de la
                                          este material
                                                                     judicatura y la organización y funcionamiento de los tribunales. Sin
@@ -369,10 +214,11 @@ Judicial y Ministro de Corte                                         gobierno ju
 Curso habilitante para Fiscal                  1. Breves consideraciones sobre el                                    10
 Judicial y Ministro de Corte                      gobierno judicial en Chile
 
-
 ## 1.2     Sobre los modelos comparados
 
-                                                 de gobierno judicial
+**Definición Canónica:** de gobierno judicial
+
+de gobierno judicial
 
                                                  La manera en que estos asuntos han sido asumidos permite distinguir
                                                  distintos modelos de gobierno, de los cuales reseñaremos algunos
@@ -385,10 +231,17 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 
                                                  sistema chileno ha efectuado y la forma en que se concretan.
 
-
 ## 1.2.1 Consejo General del Poder Judicial (España)
 
-                                                 Regulado por la Ley Orgánica 6/1985 en su Libro II, “Del Gobierno
+**Definición Canónica:** Regulado por la Ley Orgánica 6/1985 en su Libro II, “Del Gobierno
+                                                 del Poder Judicial”, el Consejo General del Poder Judicial es un
+                                                 órgano constitucional colegiado, autónomo, integrado por jueces y
+                                                 otros juristas, que ejerce funciones de gobierno del Poder Judicial
+                                                 con la finalidad de garantizar la independencia de los jueces en el
+                                                 ejercicio de su funció
+**Concordancias Legales:** constitucion
+
+Regulado por la Ley Orgánica 6/1985 en su Libro II, “Del Gobierno
                                                  del Poder Judicial”, el Consejo General del Poder Judicial es un
                                                  órgano constitucional colegiado, autónomo, integrado por jueces y
                                                  otros juristas, que ejerce funciones de gobierno del Poder Judicial
@@ -426,11 +279,15 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
                                            interno a los jueces y fiscales. El director es el funcionario de mayor
                                            rango en la escala del personal administrativo.
 
-
 ## 1.2.2 Consiglio Superiore della Magistratura (Italia)
 
+**Definición Canónica:** La Constitución, al definir la organización del poder ejecutivo,
+                                           atribuye al Ministerio de Justicia la administración de los órganos
+                                           jurisdiccionales, en razón de sus especiales funciones y cometidos y
+                                           de su relación con el poder judicial.
+**Concordancias Legales:** Constitución
 
-                                           La Constitución, al definir la organización del poder ejecutivo,
+La Constitución, al definir la organización del poder ejecutivo,
                                            atribuye al Ministerio de Justicia la administración de los órganos
                                            jurisdiccionales, en razón de sus especiales funciones y cometidos y
                                            de su relación con el poder judicial.
@@ -476,10 +333,17 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
                                            interno a los jueces y fiscales. El director es el funcionario de mayor
                                            rango en la escala del personal administrativo.
 
-
 ## 1.2.3 El Consejo Superior de la Judicatura (Colombia)
 
-                                           La Constitución Política de 1991 no sólo consagró el principio de la
+**Definición Canónica:** La Constitución Política de 1991 no sólo consagró el principio de la
+                                           autonomía administrativa y política de la Rama Judicial de Colom-
+                                           bia, sino que dispuso la creación de los órganos que la estructuran y
+                                           les atribuyó las funciones y competencias necesarias, otorgándoles
+                                           la capacidad de decisión y manejo de sus recursos. Estas funciones
+                                           se asumen por un cuerpo colegiado permanente, 
+**Concordancias Legales:** Artículo 85 de la Ley 270 de; Constitución Política; Constitucion
+
+La Constitución Política de 1991 no sólo consagró el principio de la
                                            autonomía administrativa y política de la Rama Judicial de Colom-
                                            bia, sino que dispuso la creación de los órganos que la estructuran y
                                            les atribuyó las funciones y competencias necesarias, otorgándoles
@@ -493,22 +357,26 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
                                            1996, son funciones de la Sala Administrativa del Consejo Superior
                                            de la Judicatura:
 
-## 1. Elaborar el proyecto de presupuesto de la Rama Judicial que
-
-                                              deberá remitirse al Gobierno Nacional, el cual deberá incorporar
-                                              el proyecto que proponga la Fiscalía General de la Nación.
-
 ## 2. Elaborar el proyecto de Plan Sectorial de Desarrollo para la Rama
 
-                                              Judicial, con su correspondiente plan de inversiones y someterlo
+**Definición Canónica:** Judicial, con su correspondiente plan de inversiones y someterlo
+                                              a la aprobación del Consejo en pleno.
+
+Judicial, con su correspondiente plan de inversiones y someterlo
                                               a la aprobación del Consejo en pleno.
 
 Curso habilitante para Fiscal            1. Breves consideraciones sobre el                                    13
 
-
 ## 3. Autorizar la celebración de contratos y convenios de cooperación
 
-                                              e intercambio que deban celebrarse, conforme a la Constitución
+**Definición Canónica:** e intercambio que deban celebrarse, conforme a la Constitución
+                                              y las leyes, para asegurar el funcionamiento de sus programas y
+                                              el cumplimiento de sus fines, cuya competencia corresponda a
+                                              la Sala conforme a la presente ley.
+                                           4. Aprobar los proyectos de inversión de la Rama Judicial.
+**Concordancias Legales:** Constitución
+
+e intercambio que deban celebrarse, conforme a la Constitución
                                               y las leyes, para asegurar el funcionamiento de sus programas y
                                               el cumplimiento de sus fines, cuya competencia corresponda a
                                               la Sala conforme a la presente ley.
@@ -516,107 +384,77 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 
 ## 5. Crear, ubicar, redistribuir, fusionar, trasladar, transformar y su-
 
-                                              primir tribunales, las salas de estos y los juzgados, cuando así se
+**Definición Canónica:** primir tribunales, las salas de estos y los juzgados, cuando así se
+                                              requiera para la más rápida y eficaz administración de justicia, así
+                                              como crear salas desconcentradas en ciudades diferentes de las
+                                              sedes de los distritos judiciales, de acuerdo con las necesidades
+
+primir tribunales, las salas de estos y los juzgados, cuando así se
                                               requiera para la más rápida y eficaz administración de justicia, así
                                               como crear salas desconcentradas en ciudades diferentes de las
                                               sedes de los distritos judiciales, de acuerdo con las necesidades
 
                                               de estos.
 
-## 6. Fijar la división del territorio para efectos judiciales, tomando en
-
-                                              consideración para ello el mejor servicio público.
-
-## 7. Determinar la estructura y la planta de personal del Consejo
-
-                                              Superior de la Judicatura.
-
-## 8. Designar a los empleados de la Sala cuya provisión según la ley
-
-                                              no corresponda al Director Ejecutivo de Administración Judicial
-
 ## 9. Determinar la estructura y las plantas de personal de las corpo-
 
-                                              raciones y juzgados. Para tal efecto podrá crear, suprimir, fusionar
+**Definición Canónica:** raciones y juzgados. Para tal efecto podrá crear, suprimir, fusionar
                                               y trasladar cargos en la Rama Judicial, determinar sus funciones
                                               y señalar los requisitos para su desempeño que no hayan sido
                                               fijados por la ley.
 
-## 10. Enviar a la Corte Suprema de Justicia y al Consejo de Estado
-
-                                               listas superiores a cinco candidatos para proveer las vacantes de
-                                               magistrados que se presenten en estas corporaciones.
-
-## 11. Elaborar y presentar a la Corte Suprema de Justicia y al Consejo de
-
-                                               Estado listas para la designación de magistrados de los respectivos
-                                               tribunales, de conformidad con las normas sobre carrera judicial.
-
-## 12. Dictar los reglamentos relacionados con la organización y fun-
-
-                                               ciones internas asignadas a los distintos cargos.
+raciones y juzgados. Para tal efecto podrá crear, suprimir, fusionar
+                                              y trasladar cargos en la Rama Judicial, determinar sus funciones
+                                              y señalar los requisitos para su desempeño que no hayan sido
+                                              fijados por la ley.
 
 ## 13. Regular los trámites judiciales y administrativos que se adelanten
 
-                                               en los despachos judiciales, en los aspectos no previstos por el
+**Definición Canónica:** en los despachos judiciales, en los aspectos no previstos por el
+                                               legislador.
+
+en los despachos judiciales, en los aspectos no previstos por el
                                                legislador.
 
 Curso habilitante para Fiscal            1. Breves consideraciones sobre el                                     14
 
-
-## 14. Cuando lo estime conveniente, establecer servicios administra-
-
-                                               tivos comunes a los diferentes despachos judiciales.
-
-## 15. Declarar la urgencia manifiesta para contratar de acuerdo con el
-
-                                               estatuto de contratación estatal.
-
 ## 16. Dictar los reglamentos sobre seguridad y bienestar social de los
 
-                                               funcionarios y empleados de la Rama Judicial, de acuerdo con
+**Definición Canónica:** funcionarios y empleados de la Rama Judicial, de acuerdo con
                                                las leyes que en la materia expida el Congreso de la República.
                                            17. Administrar la carrera judicial.
 
-## 18. Realizar la calificación integral de servicios de los magistrados
-
-                                               de tribunal.
-
+funcionarios y empleados de la Rama Judicial, de acuerdo con
+                                               las leyes que en la materia expida el Congreso de la República.
+                                           17. Administrar la carrera judicial.
 
 ## 19. Establecer indicadores de gestión de los despachos judiciales e
 
-                                               índices de rendimiento, lo mismo que indicadores de desempeño
+**Definición Canónica:** índices de rendimiento, lo mismo que indicadores de desempeño
                                                para los funcionarios y empleados judiciales con fundamento en
                                                los cuales se realice su control y evaluación correspondientes.
 
-## 20. Regular, organizar y llevar el Registro Nacional de Abogados y
-
-                                               expedir la correspondiente Tarjeta Profesional, previa verificación
-                                               de los requisitos señalados por la ley.
-
-## 21. Establecer el régimen y la remuneración de los auxiliares de la
-
-                                               justicia.
-                                           22. Reglamentar la carrera judicial.
-
-## 23. Elaborar y desarrollar el plan de formación, capacitación, y adies-
-
-                                               tramiento de los funcionarios y empleados de la Rama Judicial.
+índices de rendimiento, lo mismo que indicadores de desempeño
+                                               para los funcionarios y empleados judiciales con fundamento en
+                                               los cuales se realice su control y evaluación correspondientes.
 
 ## 24. Coadyuvar para la protección y seguridad personal de los funcio-
 
-                                               narios y de la Rama Judicial.
+**Definición Canónica:** narios y de la Rama Judicial.
                                            25. Designar al director de la Escuela Judicial.
                                            26. Fijar los días y horas de servicio de los despachos judiciales.
 
-## 27. Aprobar los reconocimientos y distinciones que se otorguen a
-
-                                               los funcionarios y empleados de la Rama Judicial por servicios
-                                               excepcionales prestados en favor de la administración de justicia.
+narios y de la Rama Judicial.
+                                           25. Designar al director de la Escuela Judicial.
+                                           26. Fijar los días y horas de servicio de los despachos judiciales.
 
 ## 28. Llevar el control del rendimiento y gestión institucional de la
 
-                                               Corte Constitucional, de la Corte Suprema de Justicia, del Consejo
+**Definición Canónica:** Corte Constitucional, de la Corte Suprema de Justicia, del Consejo
+                                               de Estado y de la Fiscalía General de la Nación. Para tal efecto
+**Concordancias Legales:** Constitucion
+
+Corte Constitucional, de la Corte Suprema de Justicia, del Consejo
                                                de Estado y de la Fiscalía General de la Nación. Para tal efecto
 
 Curso habilitante para Fiscal            1. Breves consideraciones sobre el                                       15
@@ -627,10 +465,16 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
                                                 las soluciones a los casos de congestión que se presenten.
                                            29. Elegir al auditor del Consejo, y las demás que le confieran las leyes.
 
-
 ## 1.2.4 El caso chileno
 
-                                           Conforme al Acta 186-2014 de 29 de octubre de 2014, sobre acuerdo
+**Definición Canónica:** Conforme al Acta 186-2014 de 29 de octubre de 2014, sobre acuerdo
+                                           en materia de gobierno judicial, el pleno de la Excma. Corte Supre-
+                                           ma resolvió: “Artículo 1: Se acuerda instar por la separación de las
+                                           funciones jurisdiccionales de las no jurisdiccionales que ejerce la
+                                           Corte Suprema; Artículo 2: La forma de concretar esta separación
+**Concordancias Legales:** Artículo 1; Artículo 2
+
+Conforme al Acta 186-2014 de 29 de octubre de 2014, sobre acuerdo
                                            en materia de gobierno judicial, el pleno de la Excma. Corte Supre-
                                            ma resolvió: “Artículo 1: Se acuerda instar por la separación de las
                                            funciones jurisdiccionales de las no jurisdiccionales que ejerce la
@@ -666,10 +510,12 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 Curso habilitante para Fiscal                  1. Breves consideraciones sobre el                                     16
 Judicial y Ministro de Corte                      gobierno judicial en Chile
 
-
 ## 1.3     Conclusiones
 
-                                                 preliminares
+**Definición Canónica:** preliminares
+**Concordancias Legales:** constitucion
+
+preliminares
 
                                                  Esta muy apretada síntesis nos permite distinguir modelos de gobier-
                                                  no judicial que transitan desde una composición plural, de integrantes
@@ -714,10 +560,12 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
                                          tareas del ministro
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                     18
 
-
 ## 2.1     Corte de
 
-                                                 Apelaciones
+**Definición Canónica:** Apelaciones
+**Concordancias Legales:** artículo 76 de la CPR prevé expresamente que corresponde el eje; artículo 76; artículo 10 del COT y el artículo
+
+Apelaciones
 
                                                  Abordaremos aquí las categorías de tribunales, en particular cómo
                                                  se organizan y operan las Cortes de Apelaciones en su trabajo diario
@@ -745,7 +593,14 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 
 ## 170 Nº 5 del CPC, que consagra el principio de inexcusabilidad. El
 
-                                                 incumplimiento del deber de jurisdicción puede acarrear diversas
+**Definición Canónica:** incumplimiento del deber de jurisdicción puede acarrear diversas
+                                                 especies de responsabilidad, como lo son la responsabilidad política
+                                                 por notable abandono de deberes (art. 52 Nº 2 letra c de la CPR), la
+                                                 responsabilidad ministerial (arts. 79 CPR, 324 COT, 224 y 225 CP) y
+                                                 la responsabilidad disciplinaria (art. 79 CPR).
+**Concordancias Legales:** artículo 19
+
+incumplimiento del deber de jurisdicción puede acarrear diversas
                                                  especies de responsabilidad, como lo son la responsabilidad política
                                                  por notable abandono de deberes (art. 52 Nº 2 letra c de la CPR), la
                                                  responsabilidad ministerial (arts. 79 CPR, 324 COT, 224 y 225 CP) y
@@ -759,10 +614,12 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                       19
 
-
 ## 2.2     Categorías de
 
-                                                 tribunales
+**Definición Canónica:** tribunales
+**Concordancias Legales:** artículo 1 del COT establece que la facultad de conocer las; artículo 2; artículo 5 del COT señala los tribunales que establece la le; artículo 82 de la CPR; artículo 53 del COT; Constitucion
+
+tribunales
 
                                                  El artículo 1 del COT establece que la facultad de conocer las causas
                                                  civiles y criminales, de juzgarlas y de hacer ejecutar lo juzgado, per-
@@ -800,13 +657,17 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 
 Curso habilitante para Fiscal            2. Funcionamiento de las Cortes y                                         20
 
-
-## 52 COT); 3) presidente de la CA de Santiago (artículo
-
-
 ## 51 COT); 4) un ministro de la CA respectiva (artículo 50
 
-                                                        COT).
+**Definición Canónica:** COT).
+                                               ——       Los juzgados de letras, que reconocen como superior
+                                                        jerárquico a la CA respectiva y ejercen su competencia
+                                                        para el conocimiento de la generalidad de las materias
+                                                        en primera y única instancia.
+                                               ——       Los juzgados de garantía, tribunales letrados conformados
+                                                        por uno 
+
+COT).
                                                ——       Los juzgados de letras, que reconocen como superior
                                                         jerárquico a la CA respectiva y ejercen su competencia
                                                         para el conocimiento de la generalidad de las materias
@@ -837,10 +698,12 @@ Judicial y Ministro de Corte                      gobierno judicial en Chile
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                      21
 
-
 ## 2.3     Funcionamiento ordinario y extraordinario
 
-                                                 de las Cortes de Apelaciones
+**Definición Canónica:** de las Cortes de Apelaciones
+**Concordancias Legales:** artículo 78 de la Carta; artículos 253; artículo 62 del COT prescribe; DFL 338
+
+de las Cortes de Apelaciones
 
                                                  Como se anotó precedentemente, las Cortes de Apelaciones son
                                                  tribunales ordinarios, conformados por ministros y fiscales, relatores,
@@ -912,10 +775,12 @@ Judicial y Ministro de Corte                                        tareas del m
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                 23
 
-
 ## 2.4     Formas en que las Cortes de Apelaciones conocen
 
-                                                 los asuntos sometidos a su conocimiento
+**Definición Canónica:** los asuntos sometidos a su conocimiento
+**Concordancias Legales:** artículo 66
+
+los asuntos sometidos a su conocimiento
 
                                                  Veremos que los tribunales de segunda instancia pueden conocer
                                                  materias en sala o en pleno, según sea la naturaleza de los asuntos
@@ -927,10 +792,12 @@ Judicial y Ministro de Corte                                        tareas del m
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                        24
 
-
 ## 2.5     El funcionamiento
 
-                                                 en Pleno
+**Definición Canónica:** en Pleno
+**Concordancias Legales:** artículo 66
+
+en Pleno
 
                                                  Tiene lugar cuando la Corte funciona como una sola unidad con
                                                  todos (o la mayoría de) sus miembros.
@@ -951,10 +818,11 @@ Judicial y Ministro de Corte                                        tareas del m
 Curso habilitante para Fiscal                                            2. Funcionamiento de las Cortes y                                                    25
 Judicial y Ministro de Corte                                                 tareas del ministro
 
-
 ## 2.6               Quórum para funcionamiento
 
-                                                                           del tribunal Pleno
+**Definición Canónica:** del tribunal Pleno
+
+del tribunal Pleno
 
                                                                            Se requiere a lo menos la concurrencia de la mayoría absoluta de los
                                                                            miembros de que se componga la Corte. En cambio, con arreglo al
@@ -985,15 +853,16 @@ Judicial y Ministro de Corte                                                 tar
                                            Primera       1. Recurso de amparo y amparo económico.             1. Desafuero de diputados y senadores.
                                           instancia
 
-## 2. Recurso de protección.                            2. Juicios de amovilidad contra jueces de
-
-                                         (art. 63 Nº 2
-                                                         3. Querella de capítulos.                               letras.
-
 ## Cot)
 
+**Definición Canónica:** 1. Recursos de apelación en causas ci-
+                                                             viles, de familia, del trabajo, de actos
+                                                             no contenciosos, conocidas en primera
+                                                                                                              1. Recursos de apelación, de casación en la
+                                                             instancia por jueces de letras o uno de
+                                          Segunda                                                      
 
-                                                         1. Recursos de apelación en causas ci-
+1. Recursos de apelación en causas ci-
                                                              viles, de familia, del trabajo, de actos
                                                              no contenciosos, conocidas en primera
                                                                                                               1. Recursos de apelación, de casación en la
@@ -1038,15 +907,14 @@ Judicial y Ministro de Corte                                 tareas del ministro
 
                                          I. Cuenta de la presidencia.
 
-## 1. Presidente da cuenta del resultado del cumplimiento de las metas de control de ges-
-
-                                              tión, correspondientes al año 2019.
-
-                                         II. Concursos y nombramientos.
-
 ## 1. Rol Nº 1093-2019. Fijación de audiencia pública y convocatoria para formación de
 
-                                              terna para proveer el cargo de juez titular del Juzgado de Garantía de Curacaví, quinta
+**Definición Canónica:** terna para proveer el cargo de juez titular del Juzgado de Garantía de Curacaví, quinta
+                                              categoría, grado VII del escalafón primario del Poder Judicial, vacante por traslado de
+                                              doña Claudia Arriagada Santelices al cargo de juez titular del Segundo Juzgado de
+                                              Letras de Buin.
+
+terna para proveer el cargo de juez titular del Juzgado de Garantía de Curacaví, quinta
                                               categoría, grado VII del escalafón primario del Poder Judicial, vacante por traslado de
                                               doña Claudia Arriagada Santelices al cargo de juez titular del Segundo Juzgado de
                                               Letras de Buin.
@@ -1054,23 +922,22 @@ Judicial y Ministro de Corte                                 tareas del ministro
 Curso habilitante para Fiscal                            2. Funcionamiento de las Cortes y                                          27
 Judicial y Ministro de Corte                                 tareas del ministro
 
-
 ## 2. Formación de terna para la designación de juez (a) interino (a) del Tribunal de Juicio
 
-                                            Oral en lo Penal de Talagante por promoción de don Daniel Ricardi Mac-Evoy.
+**Definición Canónica:** Oral en lo Penal de Talagante por promoción de don Daniel Ricardi Mac-Evoy.
                                             Fondos autorizados por el término de 123 días, desde el 27 de diciembre de 2019 al
                                             27 de abril de 2020.
 
-
-## 3. Designación de juez (a) suplente del Primer Juzgado Civil de Puente Alto, por feriado
-
-                                            legal de don Cristián García Charles. Fondos autorizados por el término de 15 días,
-                                            desde el 20 de enero al 3 de febrero de 2020.
-
+Oral en lo Penal de Talagante por promoción de don Daniel Ricardi Mac-Evoy.
+                                            Fondos autorizados por el término de 123 días, desde el 27 de diciembre de 2019 al
+                                            27 de abril de 2020.
 
 ## 4. Designación de relator (a) interino (a) de esta CA, por nombramiento de doña
 
-                                            Paulina Jerez Ode como jueza titular en el Segundo Juzgado de Familia de San
+**Definición Canónica:** Paulina Jerez Ode como jueza titular en el Segundo Juzgado de Familia de San
+                                            Miguel, atendida la renuncia presentada por doña Camila Philp Salgado. Saldo de
+
+Paulina Jerez Ode como jueza titular en el Segundo Juzgado de Familia de San
                                             Miguel, atendida la renuncia presentada por doña Camila Philp Salgado. Saldo de
 
                                             fondos autorizados por el término de 124 días desde el 22 de octubre de 2019 y hasta
@@ -1082,93 +949,67 @@ Judicial y Ministro de Corte                                 tareas del ministro
 
 ## 1. Rol Nº 888-2018. Excma. CS revoca la sentencia dictada por el Tribunal Pleno
 
-                                              de esta Corte el 23 de mayo de 2019, que impuso a la jueza titular del Juzgado de
+**Definición Canónica:** de esta Corte el 23 de mayo de 2019, que impuso a la jueza titular del Juzgado de
                                               Garantía de XXX, señora xxx, la medida disciplinaria de amonestación privada.
 
-
-## 2. Rol Nº 652-2019. Excma. CS confirma la sentencia dictada por el Tribunal Pleno de
-
-                                            esta Corte el 26 de agosto de 2019, que acordó por unanimidad la remoción de la
-                                            secretaria XXX, señora XXXX.
-
+de esta Corte el 23 de mayo de 2019, que impuso a la jueza titular del Juzgado de
+                                              Garantía de XXX, señora xxx, la medida disciplinaria de amonestación privada.
 
 ## 3. Rol Nº1046-2019. Fiscal judicial de la tercera fiscalía señora Carla Troncoso
 
-                                            Bustamante, informa al tenor de lo solicitado por el Tribunal Pleno el pasado 23 de
+**Definición Canónica:** Bustamante, informa al tenor de lo solicitado por el Tribunal Pleno el pasado 23 de
                                             diciembre, en investigación Rol ingreso fiscalía Nº 13-2019 seguida en contra del
                                             Conservador de Bienes Raíces XXXXX.
 
-
-## 4. Rol Nº 1328-2019. Reclamo deducido por don Adrián Zúñiga Banales en contra
-
-                                            del Juzgado XXX, refiriendo incumplimiento de acuerdo colaborativo en materia
-                                            proteccional aprobado en la causa RIT P-1203-2019.
-
+Bustamante, informa al tenor de lo solicitado por el Tribunal Pleno el pasado 23 de
+                                            diciembre, en investigación Rol ingreso fiscalía Nº 13-2019 seguida en contra del
+                                            Conservador de Bienes Raíces XXXXX.
 
 ## 5. Rol Nº 1339-2019. Reclamo deducido por las abogadas señoras Marcela Miranda
 
-                                            Fuentes y Vanessa Ferretto Sanhueza en contra de la mediadora doña Jenny Aguirre
+**Definición Canónica:** Fuentes y Vanessa Ferretto Sanhueza en contra de la mediadora doña Jenny Aguirre
+                                            Rosas, refiriendo incumplimiento en la obligación establecida en el artículo 112
+                                            inciso final de la Ley Nº 19.968.
+**Concordancias Legales:** artículo 112; Ley Nº 19.968
+
+Fuentes y Vanessa Ferretto Sanhueza en contra de la mediadora doña Jenny Aguirre
                                             Rosas, refiriendo incumplimiento en la obligación establecida en el artículo 112
                                             inciso final de la Ley Nº 19.968.
 
 Curso habilitante para Fiscal                            2. Funcionamiento de las Cortes y                                          28
 Judicial y Ministro de Corte                                 tareas del ministro
 
-
 ## 6. Rol Nº 7-2020. Recurso de apelación interpuesto por la abogado señora XXXX, en
 
-                                            contra de la resolución dictada por el Décimo Juzgado de Garantía de Santiago, que
+**Definición Canónica:** contra de la resolución dictada por el Décimo Juzgado de Garantía de Santiago, que
+                                            la sanciona con suspensión del ejercicio de la profesión por el término de quince
+                                            días, por no haber asistido a audiencia de procedimiento abreviado en causa RUC Nº
+                                            1900813723-7, RIT Nº2886-2019.
+
+contra de la resolución dictada por el Décimo Juzgado de Garantía de Santiago, que
                                             la sanciona con suspensión del ejercicio de la profesión por el término de quince
                                             días, por no haber asistido a audiencia de procedimiento abreviado en causa RUC Nº
                                             1900813723-7, RIT Nº2886-2019.
 
                                          IV. Calificaciones
 
-## 1. Rol Nº 14-2019. Recurso de apelación de calificación deducido por el juez titular del
-
-                                              Juzgado XXXXXX.
-
-
-## 2. Rol Nº 30-2020. Recurso de apelación de calificación deducido por el juez titular del
-
-
-                                            Segundo Juzgado de XXXX.
-
-
-## 3. Rol Nº 20-2020. Recurso de apelación de calificación deducido por la secretaria
-
-                                            titular del Primer Juzgado Civil de Puente Alto, señora Claudia Parga Ríos.
-
-                                         V. Asuntos administrativos
-
-## 1. Rol Nº 1267-2019. Excma. CS solicita informe acerca de las dudas y dificultades que
-
-                                              hayan ocurrido en la inteligencia y aplicación de las leyes y de los vacíos que hubiesen
-                                              notado en ellas, durante el año 2019.
-
-
-## 2. Rol Nº 185-2017. Jueza del Juzgado de Familia de Puente Alto, señora Claudia Cerda
-
-                                            Lara, presenta excusa a designación como integrante del Comité Paritario de Puente
-                                            Alto, para el periodo 2020-2021.
-
-
-## 3. Rol Nº 822-2017. Solicitud de jueces destinados para el Juzgado de Familia de
-
-                                            Puente Alto y para el Juzgado de Familia de San Bernardo, en aplicación el artículo
-                                            101 de COT.
-
-                                         VI. Visitas
-
 ## 1. Rol Nº 25-2020. Acta de visita practicada por la ministro suplente señora Carmen
 
-                                              Gloria Escanilla Pérez a la primera notaría con asiento en la comuna de La Granja,
+**Definición Canónica:** Gloria Escanilla Pérez a la primera notaría con asiento en la comuna de La Granja,
+                                              servida por doña Verónica Villaseñor Pavez, correspondiente al bimestre mayo-junio
+                                              de 2019.
+
+Gloria Escanilla Pérez a la primera notaría con asiento en la comuna de La Granja,
                                               servida por doña Verónica Villaseñor Pavez, correspondiente al bimestre mayo-junio
                                               de 2019.
 
 ## 2. Rol Nº 26-2020. Acta de visita practicada por la ministro suplente señora Carmen
 
-                                              Gloria Escanilla Pérez a la primera notaría con asiento en la comuna de La Granja,
+**Definición Canónica:** Gloria Escanilla Pérez a la primera notaría con asiento en la comuna de La Granja,
+                                              servida por doña Verónica Villaseñor Pavez, correspondiente al bimestre julio-agosto
+                                              de 2019.
+
+Gloria Escanilla Pérez a la primera notaría con asiento en la comuna de La Granja,
                                               servida por doña Verónica Villaseñor Pavez, correspondiente al bimestre julio-agosto
                                               de 2019.
 
@@ -1202,10 +1043,15 @@ Judicial y Ministro de Corte                                  tareas del ministr
                                          quien felicita al relator ad hoc señor Gregory Rojas Cerda, por el desempeño en su labor
                                          profesional.
 
-
 ## Capj
 
-                                         Director señor Ricardo L. Guzmán Sanza
+**Definición Canónica:** Director señor Ricardo L. Guzmán Sanza
+                                         Rol Nº 35-2020 –Comunica mediante oficio circular 6RH Nº 3 de 07.01.2020 apertura del
+                                         primer concurso de becas de perfeccionamiento para el Poder Judicial y la CAPJ año 2020,
+                                         cuyo proceso de postulación es a partir del 6 de enero y hasta el 17 de febrero del año en curso.
+**Concordancias Legales:** artículo 66 del COT
+
+Director señor Ricardo L. Guzmán Sanza
                                          Rol Nº 35-2020 –Comunica mediante oficio circular 6RH Nº 3 de 07.01.2020 apertura del
                                          primer concurso de becas de perfeccionamiento para el Poder Judicial y la CAPJ año 2020,
                                          cuyo proceso de postulación es a partir del 6 de enero y hasta el 17 de febrero del año en curso.
@@ -1312,10 +1158,13 @@ Judicial y Ministro de Corte                                 tareas del ministro
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                          33
 
-
 ## 2.7     Las Cortes de Apelaciones pueden conocer
 
-                                                 los asuntos sometidos a su decisión en cuenta
+**Definición Canónica:** los asuntos sometidos a su decisión en cuenta
+                                                 o previa vista del recurso (art. 68 COT)
+**Concordancias Legales:** artículo 69; artículo 68; artículo 199; artículos 162; artículo 800; artículo 162; artículo 162 del CPC establece; artículo 192 del CPC; artículo 549 del COT. Curso habilitante para Fiscal
+
+los asuntos sometidos a su decisión en cuenta
                                                  o previa vista del recurso (art. 68 COT)
 
                                                  De acuerdo con lo previsto en el artículo 69 del mencionado estatuto
@@ -1422,10 +1271,12 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                     36
 
-
 ## 2.8     Formación de las tablas
 
-                                                 (arts. 69 COT y 163 CPC)
+**Definición Canónica:** (arts. 69 COT y 163 CPC)
+**Concordancias Legales:** artículo 192 del CPC; artículo 69 del COT; artículo 548; artículo 163; artículo 163 del CPC; artículo 165
+
+(arts. 69 COT y 163 CPC)
 
                                                  Como ya se adelantó, corresponde al presidente de la CA formar, el
                                                  último día hábil de cada semana, una tabla de los asuntos que verá el
@@ -1533,10 +1384,12 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal                  2. Funcionamiento de las Cortes y                                    39
 
-
 ## 2.9     Integración de las
 
-                                                 Cortes de Apelaciones
+**Definición Canónica:** Cortes de Apelaciones
+**Concordancias Legales:** artículo 215 del COT; Ley Nº 19.810
+
+Cortes de Apelaciones
 
                                                  En este acápite explicaremos cómo se conforman las salas de las
                                                  Cortes de Apelaciones, esto es, quiénes son llamados a integrar si
@@ -1586,10 +1439,12 @@ Judicial y Ministro de Corte                                             tareas 
 Curso habilitante para Fiscal              2. Funcionamiento de las Cortes y                                       41
 Judicial y Ministro de Corte                   tareas del ministro
 
-
 ## 2.10     Dirección de la audiencia, retardo
 
-                                                  y suspensión de la vista de la causa
+**Definición Canónica:** y suspensión de la vista de la causa
+**Concordancias Legales:** artículo 21; artículo 165; artículo 69; Ley Nº 20.066; Ley Nº 17.798; Constitución; Constitución Política
+
+y suspensión de la vista de la causa
 
                                              A continuación revisaremos las facultades del presidente de sala;
                                              causales por las cuales una causa no se ve en la audiencia fijada al
@@ -1767,21 +1622,28 @@ Judicial y Ministro de Corte                                             tareas 
 
 ## 1. Por impedirlo el examen de las causas colocadas en lugar prefe-
 
-
-                                              rente, o la continuación de la vista de otro pleito pendiente del
+**Definición Canónica:** rente, o la continuación de la vista de otro pleito pendiente del
                                               día anterior. Es el caso, por ejemplo, en que no es posible anun-
                                               ciar hasta la última causa, porque el conocimiento de asuntos
                                               anteriores lo impide, atendido el número de alegatos anunciados
                                               para la audiencia.
 
-## 2. Por falta de miembros del tribunal en número suficiente para
-
-                                              pronunciar sentencia; si uno de los miembros está inhabilitado
-                                              o es recusado.
+rente, o la continuación de la vista de otro pleito pendiente del
+                                              día anterior. Es el caso, por ejemplo, en que no es posible anun-
+                                              ciar hasta la última causa, porque el conocimiento de asuntos
+                                              anteriores lo impide, atendido el número de alegatos anunciados
+                                              para la audiencia.
 
 ## 3. Por muerte del abogado patrocinante, del procurador o del liti-
 
-                                              gante que gestione por sí en el pleito. En estos casos, la vista de
+**Definición Canónica:** gante que gestione por sí en el pleito. En estos casos, la vista de
+                                              la causa se suspenderá por quince días contados desde la noti-
+                                              ficación al patrocinado o mandante de la muerte del abogado o
+                                              del procurador, o desde la muerte del litigante que obraba por
+                                              sí mismo, en su caso; es necesario acompañar el certificado de
+                                              defunción.
+
+gante que gestione por sí en el pleito. En estos casos, la vista de
                                               la causa se suspenderá por quince días contados desde la noti-
                                               ficación al patrocinado o mandante de la muerte del abogado o
                                               del procurador, o desde la muerte del litigante que obraba por
@@ -1790,13 +1652,24 @@ Judicial y Ministro de Corte                                             tareas 
 
 ## 4. Por muerte del cónyuge o de alguno de los descendientes o as-
 
-                                              cendientes del abogado defensor, ocurrida dentro de los ocho días
+**Definición Canónica:** cendientes del abogado defensor, ocurrida dentro de los ocho días
+                                              anteriores al designado para la vista. Debe adjuntar el certificado
+                                              de nacimiento respectivo.
+
+cendientes del abogado defensor, ocurrida dentro de los ocho días
                                               anteriores al designado para la vista. Debe adjuntar el certificado
                                               de nacimiento respectivo.
 
 ## 5. Por solicitarlo alguna de las partes o pedirlo de común acuerdo
 
-                                              los procuradores o los abogados de ellas. Cada parte podrá hacer
+**Definición Canónica:** los procuradores o los abogados de ellas. Cada parte podrá hacer
+                                              uso de este derecho por una sola vez.
+                                               En todo caso, sólo podrá ejercitarse este derecho hasta por dos
+                                               veces, cualquiera que sea el número de partes litigantes, obren
+                                               o no por una sola cuerda.
+**Concordancias Legales:** Ley Nº 20.886
+
+los procuradores o los abogados de ellas. Cada parte podrá hacer
                                               uso de este derecho por una sola vez.
                                                En todo caso, sólo podrá ejercitarse este derecho hasta por dos
                                                veces, cualquiera que sea el número de partes litigantes, obren
@@ -1826,7 +1699,14 @@ Judicial y Ministro de Corte                                             tareas 
 
 ## 6. Por tener alguno de los abogados otra vista o comparecencia
 
-                                              a que asistir en el mismo día ante otro tribunal. El presidente
+**Definición Canónica:** a que asistir en el mismo día ante otro tribunal. El presidente
+                                              respectivo podrá conceder la suspensión por una sola vez o sim-
+                                              plemente retardar la vista, atendidas las circunstancias. En caso
+                                              que un abogado tenga dos o más vistas en el mismo día y ante el
+                                              mismo tribunal, en salas distintas, preferirá el amparo, luego la
+                                              protección y en seguida la causa que se anunci
+
+a que asistir en el mismo día ante otro tribunal. El presidente
                                               respectivo podrá conceder la suspensión por una sola vez o sim-
                                               plemente retardar la vista, atendidas las circunstancias. En caso
                                               que un abogado tenga dos o más vistas en el mismo día y ante el
@@ -1841,7 +1721,13 @@ Judicial y Ministro de Corte                                             tareas 
 
 ## 7. Por ordenarlo así el tribunal, por resolución fundada, al disponer
 
-                                              la práctica de algún trámite que sea estrictamente indispensable
+**Definición Canónica:** la práctica de algún trámite que sea estrictamente indispensable
+                                              cumplir en forma previa a la vista de la causa. La orden de traer
+                                              algún expediente o documento a la vista no suspenderá la vista
+                                              de la causa y la resolución se cumplirá terminada esta.
+**Concordancias Legales:** artículo 356 del CPP señala que no; artículo 357; artículo 165 del CPC; artículo 166; artículo 198; artículo 163; artículo 222; artículo 223 del CPC; artículo 358 del CPR; artículos 103; artículo 358; artículo 82 del COT. San Miguel; artículo 358 del CPP; artículo 344; artículo 384; artículo 482 del Código del ramo
+
+la práctica de algún trámite que sea estrictamente indispensable
                                               cumplir en forma previa a la vista de la causa. La orden de traer
                                               algún expediente o documento a la vista no suspenderá la vista
                                               de la causa y la resolución se cumplirá terminada esta.
@@ -2121,10 +2007,12 @@ Judicial y Ministro de Corte                                          tareas del
 Curso habilitante para Fiscal               2. Funcionamiento de las Cortes y                                     53
 Judicial y Ministro de Corte                    tareas del ministro
 
-
 ## 2.11      Los acuerdos de las
 
-                                                   Cortes de Apelaciones
+**Definición Canónica:** Cortes de Apelaciones
+**Concordancias Legales:** artículos 72
+
+Cortes de Apelaciones
 
                                               A fin de precaver los inconvenientes que pueden suscitarse ante un
                                               tribunal colegiado, respecto del estudio de los antecedentes del pro-
@@ -2177,10 +2065,12 @@ Judicial y Ministro de Corte                    tareas del ministro
 Curso habilitante para Fiscal               2. Funcionamiento de las Cortes y                                    55
 Judicial y Ministro de Corte                    tareas del ministro
 
-
 ## 2.12      De la sala
 
-                                                   tramitadora
+**Definición Canónica:** tramitadora
+**Concordancias Legales:** artículo 70 del COT; artículo 189 del CPC; artículo 201 del CPC; artículo 768 del CPC; artículo 768 inciso 2; artículo 766; artículo 181 del CPC; artículos 181; artículo 67 de la Ley Nº 19.968 en su nu; artículo 4; artículo 67; Ley Nº 19.968; Ley Nº 14.908; Ley 19.968
+
+tramitadora
 
                                              De acuerdo con lo que regla el artículo 70 del COT, la tramitación
                                              de los asuntos entregados a las Cortes de Apelaciones corresponderá,
@@ -2330,10 +2220,12 @@ Judicial y Ministro de Corte                    tareas del ministro
 Curso habilitante para Fiscal               2. Funcionamiento de las Cortes y                                      59
 Judicial y Ministro de Corte                    tareas del ministro
 
-
 ## 2.13      Ley de Tramitación
 
-                                                   Electrónica
+**Definición Canónica:** Electrónica
+**Concordancias Legales:** artículo 197 del Código Adjetivo; artículo 200; artículo 197; artículo 201; artículo 768 del CPC; Artículo 165; artículo 198 del COT; artículos 258; Ley Nº 20.886
+
+Electrónica
 
                                               No podemos dejar de hacer presente algunas consideraciones sobre
                                               la Ley Nº 20.886, que entró en vigencia en algunos territorios de la
@@ -2506,10 +2398,12 @@ Judicial y Ministro de Corte                                                    
 Curso habilitante para Fiscal              2. Funcionamiento de las Cortes y                                     63
 Judicial y Ministro de Corte                   tareas del ministro
 
-
 ## 2.14     Los presidentes de
 
-                                                  Corte de Apelaciones
+**Definición Canónica:** Corte de Apelaciones
+**Concordancias Legales:** artículo 90 del COT establece las atribuciones de los preside
+
+Corte de Apelaciones
 
                                              En este pasaje, nos detendremos en las atribuciones de los presi-
                                              dentes de Corte de Apelaciones, su forma de designación y tiempo
@@ -2537,7 +2431,14 @@ Judicial y Ministro de Corte                   tareas del ministro
 
 ## 2. Instalar diariamente la sala o salas, según el caso, para su funcio-
 
-                                                namiento, haciendo llamar, si fuere necesario, a los funcionarios
+**Definición Canónica:** namiento, haciendo llamar, si fuere necesario, a los funcionarios
+                                                que deben integrarlas. Se levantará acta de la instalación, auto-
+                                                rizada por el secretario, indicándose en ella los nombres de los
+                                                ministros asistentes y de los que no hubieren concurrido, con
+                                                expresión de la causa que motivare su inasistencia. Una copia de
+                                                esta acta se fijará en la tabla de l
+
+namiento, haciendo llamar, si fuere necesario, a los funcionarios
                                                 que deben integrarlas. Se levantará acta de la instalación, auto-
                                                 rizada por el secretario, indicándose en ella los nombres de los
                                                 ministros asistentes y de los que no hubieren concurrido, con
@@ -2546,7 +2447,11 @@ Judicial y Ministro de Corte                   tareas del ministro
 
 ## 3. Formar, el último día hábil de cada semana, en conformidad a la
 
-                                                ley, las tablas de que deba ocuparse el tribunal o sus salas en la
+**Definición Canónica:** ley, las tablas de que deba ocuparse el tribunal o sus salas en la
+                                                semana siguiente. Se destinará un día por lo menos, fuera de las
+**Concordancias Legales:** artículo 82
+
+ley, las tablas de que deba ocuparse el tribunal o sus salas en la
                                                 semana siguiente. Se destinará un día por lo menos, fuera de las
 
 Curso habilitante para Fiscal            2. Funcionamiento de las Cortes y                                     64
@@ -2557,35 +2462,25 @@ Judicial y Ministro de Corte                   tareas del ministro
 
 ## 4. Abrir y cerrar las sesiones del tribunal, anticipar o prorrogar las
 
-                                              horas del despacho en caso que así lo requiera algún asunto ur-
+**Definición Canónica:** horas del despacho en caso que así lo requiera algún asunto ur-
                                               gente y grave, y convocar extraordinariamente al tribunal cuando
                                               fuere necesario.
 
-## 5. Mantener el orden dentro de la sala del tribunal, amonestando
-
-                                              a cualquiera persona que lo perturbe y aun haciéndole salir de
-                                              la sala en caso necesario.
-
-
-## 6. Dirigir los debates del tribunal, concediendo la palabra a los
-
-                                              miembros que la pidieren.
-
-## 7. Fijar las cuestiones que hayan de debatirse y las proposiciones
-
-                                              sobre las cuales haya de recaer la votación.
-
-## 8. Poner a votación las materias discutidas cuando el tribunal haya
-
-                                              declarado concluido el debate.
-
-## 9. Enviar al presidente de la CS, antes del 15 de febrero de cada
-
-                                              año, la estadística a que se refiere el artículo 589.
+horas del despacho en caso que así lo requiera algún asunto ur-
+                                              gente y grave, y convocar extraordinariamente al tribunal cuando
+                                              fuere necesario.
 
 ## 10. Dar cuenta al presidente de la CS de las causas en que no se haya
 
-                                               dictado sentencia en el plazo de treinta días, contados desde el
+**Definición Canónica:** dictado sentencia en el plazo de treinta días, contados desde el
+                                               término de la vista, y de los motivos del retardo. Las resoluciones
+                                               que el presidente dictare en uso de las atribuciones que se le
+                                               confieren en el artículo referido, exceptuadas las de los números
+                                               1, 2, 9 y 10, no podrán en caso alguno prevalecer contra el voto
+                                               del tribunal.
+**Concordancias Legales:** artículo 3 del COT reza; artículos 80; artículos 530; artículos 546 del COT y 287 del CPP; Constitución; constitucion; Constitución Política
+
+dictado sentencia en el plazo de treinta días, contados desde el
                                                término de la vista, y de los motivos del retardo. Las resoluciones
                                                que el presidente dictare en uso de las atribuciones que se le
                                                confieren en el artículo referido, exceptuadas las de los números
@@ -2768,11 +2663,15 @@ Judicial y Ministro de Corte                                          tareas del
 Curso habilitante para Fiscal              2. Funcionamiento de las Cortes y                                      70
 Judicial y Ministro de Corte                   tareas del ministro
 
-
 ## 2.16     Visitas
 
+**Definición Canónica:** Las distintas Cortes de Apelaciones designarán anualmente a uno o
+                                             más de sus ministros para que, durante el respectivo año calendario,
+                                             actúen como ministros visitadores en los juzgados y en los oficios de
+                                             los notarios, conservadores y archiveros que se les asignen, a fin de
+                                             ejercer la inspección y vigilancia de los mismos.
 
-                                             Las distintas Cortes de Apelaciones designarán anualmente a uno o
+Las distintas Cortes de Apelaciones designarán anualmente a uno o
                                              más de sus ministros para que, durante el respectivo año calendario,
                                              actúen como ministros visitadores en los juzgados y en los oficios de
                                              los notarios, conservadores y archiveros que se les asignen, a fin de
@@ -2847,10 +2746,12 @@ Judicial y Ministro de Corte                   tareas del ministro
 Curso habilitante para Fiscal               2. Funcionamiento de las Cortes y                                      72
 Judicial y Ministro de Corte                    tareas del ministro
 
-
 ## 2.17      Las facultades
 
-                                                   económicas
+**Definición Canónica:** económicas
+**Concordancias Legales:** artículo 96 del COT; artículos 32; artículos 530; artículo 535; artículo 536 del COT prescribe; artículo 537; artículo 542 del COT; artículos 532; artículo 3; Constitucion
+
+económicas
 
                                               Remiten a aquellas atribuciones que se entregan a los tribunales de
                                               justicia con el propósito de llevar adelante la administración de los
@@ -3036,11 +2937,17 @@ Judicial y Ministro de Corte                                             tareas 
                                          Fiscalía Judicial
 Curso habilitante para Fiscal                                      3. Sobre la Fiscalía Judicial                                         78
 
-
 ## 3.1        Introducción
 
+**Definición Canónica:** El presente trabajo         La Fiscalía Judicial tiene como misión fundamental representar ante
+                                                                     los tribunales de justicia el interés general de la sociedad.
+                                         tiene por finalidad
+                                         abordar del modo más        La reforma al sistema de enjuiciamiento penal en Chile se articuló
+                                         completo y práctico         derogando el sistema inquisitivo vigente por más de un siglo, a fin de
+                                    
+**Concordancias Legales:** artículos 78
 
-                                         El presente trabajo         La Fiscalía Judicial tiene como misión fundamental representar ante
+El presente trabajo         La Fiscalía Judicial tiene como misión fundamental representar ante
                                                                      los tribunales de justicia el interés general de la sociedad.
                                          tiene por finalidad
                                          abordar del modo más        La reforma al sistema de enjuiciamiento penal en Chile se articuló
@@ -3079,10 +2986,12 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal                                       3. Sobre la Fiscalía Judicial                                           79
 
-
 ## 3.2         Composición y organización
 
-                                                                      de la Fiscalía Judicial
+**Definición Canónica:** de la Fiscalía Judicial
+**Concordancias Legales:** artículos 483
+
+de la Fiscalía Judicial
 
                                                                       La Fiscalía Judicial está constituida por el Fiscal Judicial de la Corte
                                                                       Suprema, quien es el jefe del servicio, y por los fiscales judiciales de
@@ -3135,10 +3044,12 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal                  3. Sobre la Fiscalía Judicial                                           81
 
-
 ## 3.3     Sobre las funciones
 
-                                                 de los fiscales judiciales
+**Definición Canónica:** de los fiscales judiciales
+**Concordancias Legales:** artículo 350 del COT
+
+de los fiscales judiciales
 
                                                  Se presenta a continuación una síntesis de los distintos textos legales
                                                  y reglamentarios que regulan el funcionamiento y las competencias
@@ -3156,19 +3067,29 @@ Judicial y Ministro de Corte                                             tareas 
                                                  ——        en las instrucciones de la Excma. Corte Suprema
                                                  ——        en las instrucciones de la jefatura superior del Servicio.
 
-
 ## 3.3.1 Funciones reguladas por el
 
-                                                 Código Orgánico de Tribunales
+**Definición Canónica:** Código Orgánico de Tribunales
                                                  Conforme a este cuerpo normativo, que regula y organiza tanto las
                                                  funciones de los tribunales como de los auxiliares de la administración
                                                  de justicia chilenos, definiendo o desarrollando las competencias y
                                                  sus atribuciones, el Fiscal Judicial desempeña diversos roles.
 
+Código Orgánico de Tribunales
+                                                 Conforme a este cuerpo normativo, que regula y organiza tanto las
+                                                 funciones de los tribunales como de los auxiliares de la administración
+                                                 de justicia chilenos, definiendo o desarrollando las competencias y
+                                                 sus atribuciones, el Fiscal Judicial desempeña diversos roles.
 
 ## 3.3.1.1 Rol del fiscal en la tramitación de los juicios o “vis-
 
-                                                 ta al fiscal”
+**Definición Canónica:** ta al fiscal”
+                                                 Nuevamente, el actuar de la Fiscalía Judicial dependerá de la natu-
+                                                 raleza de los negocios al que la ley le convoca, como parte principal,
+                                                 como tercero, o como auxiliar del juez.
+**Concordancias Legales:** artículo 356 del COT la ac; artículo 26 bis del CPrP; artículo 54; artículo 514 del CPrP dispone que; artículo 541 del CPrP; artículo 546; artículo 109 del CPC dispone que; artículo 753 del CPC; Ley Nº 20.886; Ley Nº 19.947; Ley Nº 21.120; constitucion
+
+ta al fiscal”
                                                  Nuevamente, el actuar de la Fiscalía Judicial dependerá de la natu-
                                                  raleza de los negocios al que la ley le convoca, como parte principal,
                                                  como tercero, o como auxiliar del juez.
@@ -3532,10 +3453,16 @@ Judicial y Ministro de Corte                                             tareas 
                                                 esa vista es para apoyar con otros antecedentes al juez al tiempo
                                                 de resolver, en lugar de pretender sustituir su juicio.
 
-
 ## 3.3.1.2 Fiscales judiciales como miembros e integrantes
 
-                                           de la Corte de Apelaciones
+**Definición Canónica:** de la Corte de Apelaciones
+                                           El artículo 58 del COT, al tiempo de precisar el número de fiscales,
+                                           prevé que “el ejercicio de sus funciones será reglado por el tribunal
+                                           como lo estime conveniente para el mejor servicio, con audiencia
+                                           de estos funcionarios”.
+**Concordancias Legales:** artículo 58 del COT; artículo 360; artículo 90
+
+de la Corte de Apelaciones
                                            El artículo 58 del COT, al tiempo de precisar el número de fiscales,
                                            prevé que “el ejercicio de sus funciones será reglado por el tribunal
                                            como lo estime conveniente para el mejor servicio, con audiencia
@@ -3610,18 +3537,22 @@ Judicial y Ministro de Corte                                             tareas 
 
                                            es calificado y responde disciplinariamente.
 
-
 ## 3.3.2 Funciones reguladas en leyes generales
 
-                                           Además del Código Orgánico del Trabajo, se encuentra desperdigada
+**Definición Canónica:** Además del Código Orgánico del Trabajo, se encuentra desperdigada
                                            en otras leyes la intervención del fiscal judicial en la tramitación de
                                            ciertos procedimientos.
 
+Además del Código Orgánico del Trabajo, se encuentra desperdigada
+                                           en otras leyes la intervención del fiscal judicial en la tramitación de
+                                           ciertos procedimientos.
 
 ## 3.3.2.1 Labores asignadas en el CPrP
 
+**Definición Canónica:** a. Control de las órdenes de detención
+**Concordancias Legales:** artículo 75 del Código de Procedimiento Penal dispone que; artículo 696
 
-                                           a. Control de las órdenes de detención
+a. Control de las órdenes de detención
 
                                                 El artículo 75 del Código de Procedimiento Penal dispone que
                                                 “el Fiscal de la Corte Suprema tendrá la supervigilancia del
@@ -3726,10 +3657,16 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal            3. Sobre la Fiscalía Judicial                                            95
 
-
 ## 3.3.2.2. Reclamo de ilegalidad municipal
 
-                                           Previsto en el artículo 151 de la Ley Nº 19.865, orgánica de Muni-
+**Definición Canónica:** Previsto en el artículo 151 de la Ley Nº 19.865, orgánica de Muni-
+                                           cipalidades, este especial recurso también requiere la intervención
+                                           del fiscal. La norma distingue una fase preliminar administrativa
+                                           y una eventual reclamación en sede judicial, en un procedimiento
+                                           concentrado en única instancia que se sigue ante la CA.
+**Concordancias Legales:** artículo 151 de la Ley Nº 19.865; artículo 24 de la LOCM; Ley Nº 19.865
+
+Previsto en el artículo 151 de la Ley Nº 19.865, orgánica de Muni-
                                            cipalidades, este especial recurso también requiere la intervención
                                            del fiscal. La norma distingue una fase preliminar administrativa
                                            y una eventual reclamación en sede judicial, en un procedimiento
@@ -3834,10 +3771,17 @@ Judicial y Ministro de Corte                                             tareas 
                                            cuestión que ha sido múltiples veces reiterada por la jurisprudencia
                                            administrativa (CGR) y judicial.
 
-
 ## 3.3.3 Funciones dispuestas por
 
-                                           instrucciones de la Corte Suprema
+**Definición Canónica:** instrucciones de la Corte Suprema
+                                           Los fiscales judiciales, en tanto funcionarios auxiliares, se sujetan al
+                                           control directo del Pleno de la Excma. Corte Suprema. Las instruccio-
+                                           nes que desde la CS se les ha impartido se encuentran desperdigadas
+                                           en una serie de órdenes o recomendaciones que, en la mayoría de los
+                                           casos, se siguen más por una costumbre que por su conocimiento.
+**Concordancias Legales:** artículo 353; artículos 553
+
+instrucciones de la Corte Suprema
                                            Los fiscales judiciales, en tanto funcionarios auxiliares, se sujetan al
                                            control directo del Pleno de la Excma. Corte Suprema. Las instruccio-
                                            nes que desde la CS se les ha impartido se encuentran desperdigadas
@@ -3921,7 +3865,16 @@ Judicial y Ministro de Corte                                             tareas 
 
 ## capítulo relativo a esa materia, adelantando sólo que la labor que
 
-                                              compete a los fiscales es la de instructores de las investigaciones
+**Definición Canónica:** compete a los fiscales es la de instructores de las investigaciones
+                                              sumarias.
+                                           e. Declaración de patrimonio e intereses: mediante el Acta 118-2016,
+                                              el Pleno de la CS reguló la forma de ejecución de las obligaciones
+                                              contenidas en la Ley Nº 20.880. Esta ley, al derogar las disposi-
+                                              ciones de los artículos 323 bis y 323 bis A del COT, generó todo
+                            
+**Concordancias Legales:** artículos 323 bis; artículo 1; artículo 10 del Acta 118; artículo 11; artículo 16 de la Ley Nº 20.880; Ley Nº 20.880
+
+compete a los fiscales es la de instructores de las investigaciones
                                               sumarias.
                                            e. Declaración de patrimonio e intereses: mediante el Acta 118-2016,
                                               el Pleno de la CS reguló la forma de ejecución de las obligaciones
@@ -4075,10 +4028,17 @@ Judicial y Ministro de Corte                                             tareas 
                                            pública permite que los ciudadanos ejerzan el control social tan
                                            necesario para un sistema democrático sano y legitimado.
 
-
 ## 3.3.4 Funciones impartidas por la
 
-                                           jefatura superior del Servicio
+**Definición Canónica:** jefatura superior del Servicio
+                                           Previene el artículo 350 inciso 2 del COT, específicamente, que los
+                                           fiscales judiciales están sujetos a las instrucciones que les imparta el
+                                           jefe del servicio, verbalmente o por escrito, en los casos en que este
+                                           funcionario considere necesario seguir un procedimiento especial
+                                           tendiente a uniformar la acción del referido ministerio.
+**Concordancias Legales:** artículo 350 inciso 2 del COT
+
+jefatura superior del Servicio
                                            Previene el artículo 350 inciso 2 del COT, específicamente, que los
                                            fiscales judiciales están sujetos a las instrucciones que les imparta el
                                            jefe del servicio, verbalmente o por escrito, en los casos en que este
@@ -4094,10 +4054,17 @@ Judicial y Ministro de Corte                                             tareas 
                                            es una sola, compuesta de los fiscales que la integran, por lo que la
                                            medición para tales fines se ejecuta como una sola unidad.
 
-
 ## 3.3.4.1 Las visitas de cárcel
 
-                                           Las visitas a establecimientos penitenciarios se encuentran reguladas
+**Definición Canónica:** Las visitas a establecimientos penitenciarios se encuentran reguladas
+                                           en el COT a propósito de la reglamentación de las visitas en gene-
+                                           ral (Párrafo 2 del título XVI). No es casual que esté comprendida
+                                           al tiempo de regularse la jurisdicción disciplinaria, la inspección y
+                                           vigilancia de los servicios judiciales, y desde la comprensión de estas
+                                           reglas se advierte que en principio su i
+**Concordancias Legales:** artículos 567; artículo 581; artículo 353; artículos 25 de la Declaración Universal de Derechos Humanos; artículo 12; constitución
+
+Las visitas a establecimientos penitenciarios se encuentran reguladas
                                            en el COT a propósito de la reglamentación de las visitas en gene-
                                            ral (Párrafo 2 del título XVI). No es casual que esté comprendida
                                            al tiempo de regularse la jurisdicción disciplinaria, la inspección y
@@ -4227,11 +4194,17 @@ Judicial y Ministro de Corte                                             tareas 
                                                  los procedimientos, así como la interpretación de las reglas aplicables,
                                                  todo en función de la aplicación práctica de este estatuto.
 
-
 ## 4.1     Introducción
 
+**Definición Canónica:** Como se ha dicho, el sistema disciplinario se encuentra reglamentado
+                                                 tanto en el Código Orgánico de Tribunales como en instrucciones de
+                                                 la Corte Suprema. Estas últimas se contienen en diversas actas que
+                                                 regulan el accionar de los fiscales, en tanto instructores preferentes
+                                                 de los procedimientos ordinarios, y en la de los ministros, cuando
+                                                 en Pleno actúa
+**Concordancias Legales:** artículos 530; constitucion
 
-                                                 Como se ha dicho, el sistema disciplinario se encuentra reglamentado
+Como se ha dicho, el sistema disciplinario se encuentra reglamentado
                                                  tanto en el Código Orgánico de Tribunales como en instrucciones de
                                                  la Corte Suprema. Estas últimas se contienen en diversas actas que
                                                  regulan el accionar de los fiscales, en tanto instructores preferentes
@@ -4268,10 +4241,13 @@ Judicial y Ministro de Corte                                             tareas 
                                                                    resolver autónomamente– debiera estar reglamentado a nivel orgá-
                                                                    nico constitucional.
 
-
 ## 4.1.1 Del control ético a la responsabilidad
 
-                                                                   administrativa funcionaria
+**Definición Canónica:** administrativa funcionaria
+                                                                   No han sido pocos los requerimientos presentados y admitidos a
+**Concordancias Legales:** artículo 544; Constitucion
+
+administrativa funcionaria
                                                                    No han sido pocos los requerimientos presentados y admitidos a
 
                                                                    tramitación por el Tribunal Constitucional, el que llamado a pronun-
@@ -4386,8 +4362,10 @@ Judicial y Ministro de Corte                                             tareas 
 
 ## parte deben ponderar no sólo el desempeño del funcionario por un
 
+**Definición Canónica:** Curso habilitante para Fiscal                                  4. Régimen disciplinario                                              112
+**Concordancias Legales:** artículos 311; constitucion
 
-Curso habilitante para Fiscal                                  4. Régimen disciplinario                                              112
+Curso habilitante para Fiscal                                  4. Régimen disciplinario                                              112
 
                                          Al igualar las          acto concreto, sino también la forma en que conduce su vida privada.
                                                                  Todo esto, en tiempos en que el uso de redes sociales hace cada vez
@@ -4493,10 +4471,17 @@ Judicial y Ministro de Corte                                             tareas 
                                            Revista Ius et Praxis, Año 24, Nº 2, 2018, pp. 513-548 (Universidad de
                                            Talca, Facultad de Ciencias Jurídicas y Sociales).
 
-
 ## 4.1.2 Del procedimiento para investigar y
 
-                                           establecer la responsabilidad funcionaria
+**Definición Canónica:** establecer la responsabilidad funcionaria
+                                           Ahora, ocupándonos de lo adjetivo, el actual procedimiento está
+                                           reglamentado en el Acta 15-2018. Sin perjuicio de que esta regula
+                                           tanto el procedimiento ordinario como otros especiales, trataremos
+                                           de modo particular aquí el procedimiento ordinario, pues en este
+                                           último fiscales y ministros serán comúnmente llamados a intervenir.
+**Concordancias Legales:** artículo 531 del Código; artículos 5; artículo 3 del Acta 15; artículo 2
+
+establecer la responsabilidad funcionaria
                                            Ahora, ocupándonos de lo adjetivo, el actual procedimiento está
                                            reglamentado en el Acta 15-2018. Sin perjuicio de que esta regula
                                            tanto el procedimiento ordinario como otros especiales, trataremos
@@ -4623,17 +4608,26 @@ Judicial y Ministro de Corte                                             tareas 
                                                 misma acción u omisión. Sin perjuicio de esta clara definición,
                                                 la cuestión es poder configurar un hecho diverso.
 
-
 ## 4.1.3 Etapas del procedimiento ordinario
 
-                                           Este procedimiento, como se adelantó, es el principal y supletorio
+**Definición Canónica:** Este procedimiento, como se adelantó, es el principal y supletorio
                                            de otros especiales a los que se remite su tramitación. Conforme el
                                            Acta 15-2018, las etapas de su desarrollo se describen a continuación.
 
+Este procedimiento, como se adelantó, es el principal y supletorio
+                                           de otros especiales a los que se remite su tramitación. Conforme el
+                                           Acta 15-2018, las etapas de su desarrollo se describen a continuación.
 
 ## 4.1.3.1 Etapa de instrucción
 
-                                           Aunque el Acta 15-2018 no lo exige, resulta necesario que sea el
+**Definición Canónica:** Aunque el Acta 15-2018 no lo exige, resulta necesario que sea el
+                                           órgano resolutor el que, al tiempo de remitir la causa al instructor,
+                                           precise –al menos en sus contornos generales– los hechos que se
+                                           mandatan investigar. Aunque es el instructor quien deberá fijar los
+                                           hechos al tiempo que formule cargos, si encuentra que hay mérito
+**Concordancias Legales:** artículos 18; artículo 21; artículo 12; artículo 19 del Acta 15; artículos 19; Constitución Política
+
+Aunque el Acta 15-2018 no lo exige, resulta necesario que sea el
                                            órgano resolutor el que, al tiempo de remitir la causa al instructor,
                                            precise –al menos en sus contornos generales– los hechos que se
                                            mandatan investigar. Aunque es el instructor quien deberá fijar los
@@ -4944,10 +4938,17 @@ Judicial y Ministro de Corte                                             tareas 
 
                                                 parcialmente la causa.
 
-
 ## 4.1.3.2 Etapa resolutiva
 
-                                           Dictada la formulación de cargos, debe notificarse personalmente o
+**Definición Canónica:** Dictada la formulación de cargos, debe notificarse personalmente o
+                                           por carta para que, en el plazo de cinco u ocho días hábiles, el inves-
+                                           tigado pueda presentar su defensa a través del escrito de descargos.
+                                           Es recomendable que en la resolución se incluya la declaración de
+                                           que todos los medios de prueba que obran en la carpeta están a
+                                           disposición del investigado, para el caso de no 
+**Concordancias Legales:** artículo 2; artículo 22; artículo 23
+
+Dictada la formulación de cargos, debe notificarse personalmente o
                                            por carta para que, en el plazo de cinco u ocho días hábiles, el inves-
                                            tigado pueda presentar su defensa a través del escrito de descargos.
                                            Es recomendable que en la resolución se incluya la declaración de
@@ -5035,10 +5036,15 @@ Judicial y Ministro de Corte                                             tareas 
                                            otorguen a los hechos una calificación jurídica diversa, pero en este
                                            caso deberán cuidar de no superar las restricciones de la congruencia.
 
-
 ## 4.1.3.3 Etapa de impugnación y revisión
 
-                                           Es procedente el recurso de apelación en contra de la decisión del
+**Definición Canónica:** Es procedente el recurso de apelación en contra de la decisión del
+                                           órgano resolutor, tribunal de primera instancia o Corte de Apelacio-
+                                           nes. Para el caso que el resolutor sea la CS, el recurso procedente es
+                                           el de reposición, según lo regula el artículo 25.
+**Concordancias Legales:** artículo 25
+
+Es procedente el recurso de apelación en contra de la decisión del
                                            órgano resolutor, tribunal de primera instancia o Corte de Apelacio-
                                            nes. Para el caso que el resolutor sea la CS, el recurso procedente es
                                            el de reposición, según lo regula el artículo 25.
@@ -5052,11 +5058,11 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal                                      4. Régimen disciplinario                                                           128
 
-
 ## 1. Instrucción
 
+**Definición Canónica:** Desestima de plano/deriva a órgano competente
 
-                                                                                                       Desestima de plano/deriva a órgano competente
+Desestima de plano/deriva a órgano competente
 
                                                             Resolución                              Dispone                         Inhabilitado
                                                             órgano resolutor                        investigación
@@ -5086,11 +5092,17 @@ Judicial y Ministro de Corte                                             tareas 
                                                                                                Formula cargos
                                                                                                                                  reapertura
 
-
 ## 2. Resolución
 
+**Definición Canónica:** Informe final
+                                           Notificación         Defensa                                                              (3 días)
+                                                                                                   Prueba
+                                              cargos            acusado                        (testigos y otras)
+                                         (personal, carta       (5 días+3)                      (máx. 10 días)
+                                            o especial)
+                                                         
 
-                                                                                                                                  Informe final
+Informe final
                                            Notificación         Defensa                                                              (3 días)
                                                                                                    Prueba
                                               cargos            acusado                        (testigos y otras)
@@ -5117,11 +5129,11 @@ Judicial y Ministro de Corte                                             tareas 
 
 Curso habilitante para Fiscal                                                4. Régimen disciplinario                                                      129
 
-
 ## 3. Impugnación
 
+**Definición Canónica:** Acusado
 
-                                                                             Acusado
+Acusado
 
                                           Impugnación
 
@@ -5147,10 +5159,16 @@ Judicial y Ministro de Corte                                             tareas 
                                                                                Como se anticipó, este es el procedimiento ordinario en el que les
                                                                                corresponderá participar tanto a los fiscales como a los ministros.
 
-
 ## 4.1.4 Sobre otros procedimientos para
 
-                                                                               investigar responsabilidad disciplinaria
+**Definición Canónica:** investigar responsabilidad disciplinaria
+                                                                               El procedimiento general –como se ha reiterado– es el que se aplica
+                                                                               a todos los asuntos que se ventilen en los juzgados y Cortes del país,
+                                                                               con expresa excepción de los tribunales reformados, los que cuen-
+                                                                               tan con un procedimiento especial que 
+**Concordancias Legales:** artículo 389; artículo 28; artículo 12 inciso 4; artículo 27; artículo 29; Ley Nº 20.880
+
+investigar responsabilidad disciplinaria
                                                                                El procedimiento general –como se ha reiterado– es el que se aplica
                                                                                a todos los asuntos que se ventilen en los juzgados y Cortes del país,
                                                                                con expresa excepción de los tribunales reformados, los que cuen-
@@ -5207,10 +5225,15 @@ Judicial y Ministro de Corte                                             tareas 
                                            en general, apercibidos los funcionarios, estos cumplen corrigiendo
                                            o explicando las inconsistencias advertidas.
 
-
 ## 4.1.5 Adecuaciones dispuestas por el
 
-                                           Acta 103-2018 sobre acoso sexual
+**Definición Canónica:** Acta 103-2018 sobre acoso sexual
+                                           El procedimiento ordinario además, como se precisó, es el que se
+                                           aplica para conocer de las denuncias por acoso sexual, especialmente
+                                           reguladas en el Acta 103-2018, que contiene un protocolo de actua-
+**Concordancias Legales:** artículo 3; constitucion
+
+Acta 103-2018 sobre acoso sexual
                                            El procedimiento ordinario además, como se precisó, es el que se
                                            aplica para conocer de las denuncias por acoso sexual, especialmente
                                            reguladas en el Acta 103-2018, que contiene un protocolo de actua-
@@ -5303,25 +5326,10 @@ Judicial y Ministro de Corte                                             tareas 
 
                                          Enlaces relacionados
 
-
-## 1.   Secretaría técnica de Género y No Discrimina-
-
-                                              ción del Poder Judicial
-
-                                         2.   Compendio de Autos Acordados de la Excma.
-                                              Corte Suprema
-
-
-## 3.   Oficina Judicial Virtual del Poder Judicial
-
-
-
 ## Serie de
+
+**Definición Canónica:** Curso habilitante para Fiscal                                                     Introducción   DOCUMENTOS 136
+Judicial y Ministro de Corte                                                                     MATERIALES
 
 Curso habilitante para Fiscal                                                     Introducción   DOCUMENTOS 136
 Judicial y Ministro de Corte                                                                     MATERIALES
-
-## Docentes
-
-
-                                   Academia Judicial de Chile | www.academiajudicial.cl

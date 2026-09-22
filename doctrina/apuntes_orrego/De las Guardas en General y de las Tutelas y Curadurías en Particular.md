@@ -13,11 +13,25 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Familia | **Materia:** Familia
 
-## De las guardas en general y de las tutelas y
-
-
 ## Curadurías en part cular1
 
+**Definición Canónica:** Sumario:
+I.- GENERALIDADES SOBRE LAS GUARDAS.
+1.- Regulación.
+2.- Concepto.
+3.- Caracteres comunes a tutelas y curadurías.
+4.- Clasificación de las guardas.
+II.- DESIGNACIÓN DE LOS GUARDADORES.
+1.- Guarda testamentaria.
+2.- Guarda legítima.
+3.- Guarda dativa.
+III.- DILIGENCIAS Y FORMALIDADES QUE ANTECEDEN AL EJERCICIO DE LA GUARDA.
+1.- El discernimiento.
+2.- La fianza.
+3.- El inventario.
+4.- Momento a partir del cual el tutor o curador detenta la administración de los bienes
+del pupilo y por ende ha de entenderse representante legal del incapaz.
+5.- Efectos que se producen si el guardador actú
 
 Sumario:
 I.- GENERALIDADES SOBRE LAS GUARDAS.
@@ -57,6 +71,16 @@ IV.- ADMINISTRACIÓN DE LOS GUARDADORES.
 
 ## V.- obligaciones del guardador y responsabilidades inherentes al
 
+**Definición Canónica:** CARGO.
+1.- Obligaciones del guardador.
+2.- Responsabilidad del guardador.
+2.1. Responsabilidad civil.
+2.2. Responsabilidad penal.
+VI.- CASO DEL GUARDADOR APARENTE Y DEL GUARDADOR OFICIOSO.
+1.- Guardador aparente.
+2.- Guardador oficioso.
+VII.- INCAPACIDADES Y EXCUSAS PARA EJERCER LA GUARDA.
+
 CARGO.
 1.- Obligaciones del guardador.
 2.- Responsabilidad del guardador.
@@ -93,26 +117,26 @@ entender claramente.
 7.- Reglas relativas a la curaduría adjunta.
 8.- Reglas relativas a la curaduría especial.
 
-
-## .- general dades sobre las guardas
-
-
-1.- Regulación
-
-        Regula el Código Civil las guardas en el Libro I, Títulos XIX al XXXII, que
-comprenden los arts. 338 a 544. En total, son 14 Títulos, del siguiente tenor:
-
 ## Título XIX: “DE LAS TUTELAS Y CURADURÍAS EN GENERAL”, arts. 338 a 372, con
+
+**Definición Canónica:** cuatro párrafos: “1. Definiciones y reglas generales” (arts. 338 a 353); “2. De la tutela
+o curaduría testamentaria” (arts. 354 a 365); “3. De la tutela o curaduría legítima”
+(arts. 366 a 369); “4. De la tutela o curaduría dativa” (arts. 370 a 372).
 
 cuatro párrafos: “1. Definiciones y reglas generales” (arts. 338 a 353); “2. De la tutela
 o curaduría testamentaria” (arts. 354 a 365); “3. De la tutela o curaduría legítima”
 (arts. 366 a 369); “4. De la tutela o curaduría dativa” (arts. 370 a 372).
 
-## Título XX: “DE LAS DILIGENCIAS Y FORMALIDADES QUE DEBEN PRECEDER AL
-
-EJERCICIO DE LA TUTELA O CURADURÍA”, arts. 373 a 389.
-
 ## Título XXI: “DE LA ADMINISTRACIÓN DE LOS TUTORES Y CURADORES
+
+**Definición Canónica:** RELATIVAMENTE A LOS BIENES”, arts. 390 a 427.
+Título XXII: “REGLAS RELATIVAS A LA TUTELA”, arts. 428 a 434.
+Título XXIII: “REGLAS ESPECIALES RELATIVAS A LA CURADURÍA DEL MENOR”, arts.
+435 a 441.
+Título XXIV: “REGLAS ESPECIALES RELATIVAS A LA CURADURÍA DEL DISIPADOR”,
+arts. 442 a 455.
+Título XXV: “REGLAS ESPECIALES RELATIVAS A LA CURADURÍA DEL DEMENTE”, arts.
+456 a 468.
 
 RELATIVAMENTE A LOS BIENES”, arts. 390 a 427.
 Título XXII: “REGLAS RELATIVAS A LA TUTELA”, arts. 428 a 434.
@@ -125,6 +149,13 @@ Título XXV: “REGLAS ESPECIALES RELATIVAS A LA CURADURÍA DEL DEMENTE”, arts
 
 ## Título XXVI: “REGLAS ESPECIALES RELATIVAS A LA CURADURÍA DEL SORDO O
 
+**Definición Canónica:** SORDOMUDO”, arts. 469 a 472.
+Título XXVII: “DE LA CURADURÍA DE BIENES”, arts. 473 a 491.
+Título XXVIII: “DE LOS CURADORES ADJUNTOS”, arts. 492 y 493.
+Título XXIX: “DE LOS CURADORES ESPECIALES”, arts. 494 y 495.
+Título XXX: “DE LAS INCAPACIDADES Y EXCUSAS PARA LA TUTELA O CURADURÍA”,
+arts. 496 a 525, con tres párrafos: “1. De las incapacidades” (arts. 497 a 513); “2. De
+
 SORDOMUDO”, arts. 469 a 472.
 Título XXVII: “DE LA CURADURÍA DE BIENES”, arts. 473 a 491.
 Título XXVIII: “DE LOS CURADORES ADJUNTOS”, arts. 492 y 493.
@@ -136,16 +167,11 @@ arts. 496 a 525, con tres párrafos: “1. De las incapacidades” (arts. 497 a 
 las excusas” (arts. 514 a 523); y “3. Reglas comunes a las incapacidades y a las
 excusas” (arts. 524 y 525).
 
-## Título XXXI: “DE LA REMUNERACIÓN DE LOS TUTORES Y CURADORES”, arts. 526 a
-
-538.
-Título XXXII: “DE LA REMOCIÓN DE LOS TUTORES Y CURADORES”, arts. 539 a 544.
-        También debemos tener presente el Libro IV DEL Código de Procedimiento Civil,
-
-## “DE LOS ACTOS JUDICIALES NO CONTENCIOSOS”, Título VI, “DEL NOMBRAMIENTO DE
-
-
 ## TUTORES Y CURADORES Y DEL DISCERNIMIENTO DE ESTOS CARGOS”, conformado
+
+**Definición Canónica:** por dos párrafos: “1. Del nombramiento de tutores y curadores” (arts. 838 a 852) y
+“2. Del discernimiento de la tutela o curaduría” (arts. 853 a 857).
+**Concordancias Legales:** artículo 971; artículo 436; Ley Nº 7.612; Ley N° 7.612; Ley N° 5.521; Ley N° 18.600
 
 por dos párrafos: “1. Del nombramiento de tutores y curadores” (arts. 838 a 852) y
 “2. Del discernimiento de la tutela o curaduría” (arts. 853 a 857).
@@ -426,9 +452,10 @@ patria potestad por decreto del juez (art. 366 del Código Civil).
        Son guardas dativas aquellas conferidas por la justicia a falta de otra tutela o
 curaduría (art. 370 del Código Civil).
 
-
 ## .- des gnac ón de los guardadores
 
+**Definición Canónica:** 1.- Guarda testamentaria
+**Concordancias Legales:** artículo 357
 
 1.- Guarda testamentaria
 
@@ -661,21 +688,16 @@ interino.
 iv.- El menor adulto tiene derecho a proponer la persona que ha de desempeñar el
 cargo (arts. 437, inc. 3º Código Civil y 840 Código de Procedimiento Civil).30
 
-
-## .- d l genc as y formal dades que anteceden al ejerc c o de la
-
-
-## Guarda
-
-
-        El Código Civil regula la materia en el Título XX del Libro Primero, “DE LAS
-
-## Diligencias y formalidades que deben preceder al ejercicio de la tutela
-
-O CURADURIA”, arts. 373 a 389 del Código Civil; y en el Libro IV del Código de
-Procedimiento Civil, “DE LOS ACTOS JUDICIALES NO CONTENCIOSOS”, Título VI, “DEL
-
 ## Nombramiento de tutores y curadores y del discernimiento de estos
+
+**Definición Canónica:** CARGOS”, párrafo 2º, “2. Del discernimiento de la tutela o curaduría”, arts. 838 a 857.
+        De acuerdo con estas normas, tres son las “diligencias y formalidades” que
+deben cumplirse antes de que el tutor o curador comience a ejercer la guarda: el
+discernimiento, la fianza y el inventario. Las revisaremos en el mismo orden. Sin
+embargo, antes de hacerlo, debemos tener presente que la doctrina se ha preguntado
+cuál es el sentido y alcance de la frase “diligencias y formalidades” que se incluye en el
+epígrafe del citado Título XX del Libro I del Código Civil. De la oración, pareciera
+despren
 
 CARGOS”, párrafo 2º, “2. Del discernimiento de la tutela o curaduría”, arts. 838 a 857.
         De acuerdo con estas normas, tres son las “diligencias y formalidades” que
@@ -811,6 +833,15 @@ cargo, no sólo al tutor o curador dativo a quien nombra, sino al tutor o curado
 legítimo y al tutor o curador testamentario. El discernimiento tiene por objeto, por una
 
 ## parte, que el juez se cerciore de que el tutor o curador es persona legalmente hábil
+
+**Definición Canónica:** para el cargo, es decir, que no tiene incapacidad alguna para su desempeño; y por
+otra parte, hacer efectiva la prestación de la fianza o caución a que el tutor o curador
+esté obligado, y fijar el día preciso en que entra a servir el cargo y desde el cual ha de
+comenzar su responsabilidad. Todo esto es común a toda clase de tutores o curadores;
+y era, por lo mismo, lógico que se exigiera el discernimiento del cargo para toda clase
+de tutores o curadores, sin distinción alguna entre testamentarios, legítimos y dativos.
+El discernimiento viene a ser así, un título que acredita la personalidad de
+**Concordancias Legales:** artículo 109; artículo 380; artículo 1448 del Código Civil; artículo 377 del Código Civil se ocupa de esto; artículo 377; artículo 377 del CC sanciona la falta de discernimiento con la; Ley Nº 19.968
 
 para el cargo, es decir, que no tiene incapacidad alguna para su desempeño; y por
 otra parte, hacer efectiva la prestación de la fianza o caución a que el tutor o curador
@@ -1277,6 +1308,16 @@ podido resultar perjuicio al pupilo. Esta materia ha sido discutida en la doctri
 
 ## parte de ésta señala que la sanción a la falta de discernimiento debió haber sido la
 
+**Definición Canónica:** inoponibilidad, puesto que no debería afectar al pupilo los actos realizados por el
+guardador sin previo discernimiento debido a que es necesario tener poder de
+representación para actuar a nombre de otro y, si no tiene tal poder, la actuación no
+debe obligar al presunto representado o pupilo. También, se ha cuestionado la
+naturaleza de la nulidad (si es relativa o absoluta). Para la jurisprudencia, la falta de
+discernimiento genera nulidad relativa por ser ésta formalidad un requisito establecido
+para el valor del acto, en consideración a la incapacidad del pupilo. En cambio, para
+una parte d
+**Concordancias Legales:** artículo 377 del Código Civil establece dicha nulidad; artículo 377 del Código Civil; artículo 10 del Código Civil establece la nulidad absoluta pa; artículos 10; artículo 377; artículo 373; artículo 373 del Código Civil; artículo 1682 del Código Civil; artículo 426 inciso 1; artículos 393; artículo 1682 del Código Civil para que un requisito produzca n; artículo 377 del Código Civil como una verdadera ratificación; artículos 1693; artículo 377 del Código Civil no valida todos los actos anteri
+
 inoponibilidad, puesto que no debería afectar al pupilo los actos realizados por el
 guardador sin previo discernimiento debido a que es necesario tener poder de
 representación para actuar a nombre de otro y, si no tiene tal poder, la actuación no
@@ -1606,9 +1647,10 @@ doctrina sustentada por don Arturo Alessandri Rodríguez y por don Arturo Alessa
 Besa, en orden a que la nulidad que afectaría a los actos del guardador, sería la
 nulidad absoluta. Nos remitimos a los argumentos expuestos precedentemente.
 
-
 ## V.- adm n strac ón de los guardadores
 
+**Definición Canónica:** 1.- Principi s generales
+**Concordancias Legales:** artículo 393; artículos 494; artículo 394; artículo 393 del Código Civil; artículos 393; artículo 400; artículo 1236; Ley Nº 18.010; Ley Nº 7.612; Ley Nº 1.123; constitución
 
 1.- Principi s generales
 
@@ -2777,6 +2819,16 @@ conservar e incrementar el patrimonio del pupilo, es evidente que no puede donar
 
 ## parte alguna de él. Esta es la regla general. Excepcionalmente permite la ley que
 
+**Definición Canónica:** puedan hacerse pequeñas donaciones de dinero u otros bienes muebles del pupilo (…),
+pero no deja al tutor o curador en libertad de proceder según su propio criterio, sino
+que le exige que obtenga decreto previo del juez que lo autorice a hacer la donación,
+que el juez proceda a conceder su autorización con conocimiento de causa, que ésta
+sea grave y que la cuantía de la donación sea proporcionada a las facultades del
+patrimonio del pupilo y no sufran por ella un menoscabo notable los capitales
+productivos (…). Debe evidentemente el juez proceder a otorgar esta autorización de la
+donación con c
+**Concordancias Legales:** artículo 321; artículo 412 del Código Civil se aplicará a los directores y e
+
 puedan hacerse pequeñas donaciones de dinero u otros bienes muebles del pupilo (…),
 pero no deja al tutor o curador en libertad de proceder según su propio criterio, sino
 que le exige que obtenga decreto previo del juez que lo autorice a hacer la donación,
@@ -3055,12 +3107,10 @@ en representación de sus hijos, sino que a éstos habría que designarles un cu
 especial, ya que entre ambos hay intereses controvertidos en la liquidación de la
 sociedad conyugal.149
 
-
-## V.- obl gac ones del guardador y responsab l dades nherentes al
-
-
 ## Cargo
 
+**Definición Canónica:** 1.- Obligaci nes del guardad r.
+**Concordancias Legales:** artículos 1557; artículo 424; artículo 416; artículo 425; artículo 467
 
 1.- Obligaci nes del guardad r.
 
@@ -3345,9 +3395,10 @@ diferencia por ejemplo del delito de estafa, donde si bien quien realiza la disp
 patrimonial generalmente será el afectado (salvo el caso de una estafa triangular), el
 engaño lo realiza un agente externo”.161
 
-
 ## V .- caso del guardador aparente y del guardador of c oso
 
+**Definición Canónica:** 1.- Guardad r aparente.
+**Concordancias Legales:** Ley N° 21.121; Ley N° 7.612
 
 1.- Guardad r aparente.
 
@@ -3452,9 +3503,9 @@ entonces con rigor”.167
 levísima si retarda su ocurrencia ante el juez, en lugar de responder de la culpa leve,
 como es la regla general para un guardador.
 
-
 ## V     .- ncapac dades y excusas para ejercer la guarda
 
+**Definición Canónica:** 1.- Reglas generales.
 
 1.- Reglas generales.
 
@@ -3710,6 +3761,16 @@ releva de todas sus funciones al propietario, corresponderá su décima íntegra
 primero por todo el tiempo que durare su cargo; pero si el propietario retiene alguna
 
 ## parte de sus funciones, retendrá también una parte proporcionada de su décima. / Si
+
+**Definición Canónica:** la remuneración consistiere en una cuota hereditaria o legado, y el propietario hubiere
+hecho necesario el nombramiento del interino por una causa justificable, como la de un
+encargo público, o la de evitar algún grave perjuicio en sus intereses, conservará su
+herencia o legado íntegramente, y el interino recibirá la décima de los frutos de lo que
+administre”.
+        De la norma, puede desprenderse lo siguiente: i) Si el guardador interino releva
+por completo de sus funciones al guardador propietario, corresponderá íntegramente al
+primero la remuneración; ii) Si el interino asume sólo una par
+**Concordancias Legales:** artículo 116; artículo 781; artículo 539; artículos 378; artículo 357; artículo 437; artículo 689; artículo 260; artículo 451; artículo 839; artículos 443; artículo 447; artículo 503; artículo 135; artículos 440; Ley N° 21.515; Ley N° 19.968; Ley N° 7.612; Ley N° 20.286; Ley N° 4.808; Ley N° 20.830; Ley N° 18.600; Ley N° 20.422; ley Nº 19.284; Ley N° 19.284
 
 la remuneración consistiere en una cuota hereditaria o legado, y el propietario hubiere
 hecho necesario el nombramiento del interino por una causa justificable, como la de un
@@ -5027,6 +5088,16 @@ cualquiera de estas medidas”.
 
 ## De los enfermos mentales, de los alcoholicos y de los que presenten
 
+**Definición Canónica:** ESTADO DE DEPENDENCIA DE OTRAS DROGAS Y SUBSTANCIAS”, con sus arts. 130 a
+134, complementa lo dispuesto en el Código Civil. El art. 130 se refiere a la
+“internación” de la persona con discapacidad mental, y el art. 131 expresa que dicha
+internación puede ser voluntaria, administrativa, judicial o de urgencia.
+        Igualmente, debe tenerse presente en esta materia lo dispuesto en el Código
+Procesal Penal (arts. 458 a 465), si el demente hubiere realizado conductas
+constitutivas de un ilícito penal. Su art. 457 establece dos medidas de seguridad: i)
+Internación en un establecimiento psiquiátr
+**Concordancias Legales:** artículos 454; artículo 267; Ley N° 19.585; Ley N° 21.515
+
 ESTADO DE DEPENDENCIA DE OTRAS DROGAS Y SUBSTANCIAS”, con sus arts. 130 a
 134, complementa lo dispuesto en el Código Civil. El art. 130 se refiere a la
 “internación” de la persona con discapacidad mental, y el art. 131 expresa que dicha
@@ -5608,7 +5679,10 @@ padre o la madre son privados de la administración de los bienes del hijo o de 
 
 ## parte de ellos, según el artículo 251”.248
 
-      Ramos Pazos, René, ob. cit., Nº 764, pp. 579 y 580.
+**Definición Canónica:** Ramos Pazos, René, ob. cit., Nº 764, pp. 579 y 580.
+**Concordancias Legales:** artículo 419
+
+Ramos Pazos, René, ob. cit., Nº 764, pp. 579 y 580.
 
       De las guardas en general y de las tutelas y curadurías en particular – Juan Andrés Orrego Acuña   101
         El Código Civil se refiere a estos curadores adjuntos en el Título XXVIII del Libro

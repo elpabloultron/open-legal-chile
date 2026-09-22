@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## Capitulo x : el censo
 
+**Definición Canónica:** a) Conceptos generales.112111
+**Concordancias Legales:** artículo 2022; artículos 2024; artículo 2023; artículo 2024; artículo 2031; Artículo 2025; Artículo 2028; artículo 2026; artículo 2032; Artículo 2027; Constitución
 
 a) Conceptos generales.112111
 
@@ -103,6 +105,10 @@ sino solemnidad del acto jurídico. La venta de un derecho de censo
 también debe constar por escritura pública, de acuerdo con el artículo
 
 ## 1801. Si el censo no se inscribe, el censuario sólo estará obligado en favor
+
+**Definición Canónica:** del censualista en los términos del acto constitutivo, pero como una
+obligación puramente personal.
+**Concordancias Legales:** artículo 2031; artículos 2033; artículo 2480; artículo 2035; artículo 2041; artículo 2038; artículo 2029; artículo 2030; artículo 2039; artículo 2040; artículo 2042; artículo 2036; artículo 2037; artículos 2043; artículo 2045; constitución
 
 del censualista en los términos del acto constitutivo, pero como una
 obligación puramente personal.

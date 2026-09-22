@@ -13,11 +13,11 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Capitulo vi: sucesion parte testada
-
-
 ## Y parte intestada.1
 
+**Definición Canónica:** Sumario:
+1.- Normas que la regulan.
+2.- Casos en que puede darse la asignación mixta.
 
 Sumario:
 1.- Normas que la regulan.
@@ -109,6 +109,15 @@ menor a la que le correspondía recibir como heredero abintestato. Esta regla,
 conforme a lo expresado, se deduce interpretando a contrario sensu el inc. 2º del art.
 
 ## 996. El problema se plantea sobre la base de precisar en qué consiste “la porción que
+
+**Definición Canónica:** corresponda abintestato” al asignatario testamentario. Si esta porción se calcula sobre
+el remanente que resulta una vez deducida la asignación testamentaria, el asignatario
+favorecido por el testador se perjudicaría. Lo único que dificulta la interpretación es lo
+que se debe entender por “corresponder abintestato” en este caso: si lo que le tocaría
+al heredero testamentario en el remanente que ha quedado intestado, o lo que llevaría
+en la sucesión si ésta fuera íntegramente intestada. Un ejemplo aclarará las dos
+posiciones posibles: concurren dos hermanos del causante a una herencia de
+$100.0
 
 corresponda abintestato” al asignatario testamentario. Si esta porción se calcula sobre
 el remanente que resulta una vez deducida la asignación testamentaria, el asignatario
@@ -272,6 +281,19 @@ CAPÍTULO II: REQUISITOS DEL TESTAMENTO.
 
 ## Capitulo iii: clasificacion del testamento
 
+**Definición Canónica:** 1.- Generalidades.
+2.- Del testamento solemne otorgado en Chile.
+2.1. Aspectos generales.
+2.2. El testamento solemne público, abierto o nuncupativo.
+2.3. Testamento solemne cerrado o secreto.
+3.- Del testamento solemne otorgado en país extranjero.
+3.1. Testamento otorgado en país extranjero en conformidad a la ley extranjera.
+3.2. Testamento otorgado en país extranjero en conformidad a la ley chilena.
+CAPÍTULO IV: DEL REGISTRO NACIONAL DE TESTAMENTOS.
+CAPÍTULO V: DE LA NULIDAD DEL TESTAMENTO.
+1.- Principio general.
+2.- Causales de nulidad del testamento.
+
 1.- Generalidades.
 2.- Del testamento solemne otorgado en Chile.
 2.1. Aspectos generales.
@@ -306,10 +328,11 @@ revocado.
 11.- Clases de revocación.
 12.- Revocación tácita de legados.
 
-
 ## Capitulo i: regulación, concepto y caracteristicas del
 
-                             TESTAMENTO.
+**Definición Canónica:** TESTAMENTO.
+
+TESTAMENTO.
 
 1.- Regulación del testamento.
 
@@ -327,6 +350,10 @@ condicionales” (arts. 1070 a 1079); (iii) “De las asignaciones testamentaria
 las asignaciones a título universal” (arts. 1097 a 1103); (vi) “De las asignaciones a
 
 ## título singular” (arts. 1104 a 1135); (vii) “De las donaciones revocables” (arts. 1136 a
+
+**Definición Canónica:** 1146); (viii) “Del derecho de acrecer” (arts. 1147 a 1155); (ix) “De las sustituciones”
+(arts. 1156 a 1166).
+**Concordancias Legales:** artículo 1019; artículo 203 del Código Civil; artículos 1456; artículos 1057; Ley Nº 19.904; Ley N° 19.947
 
 1146); (viii) “Del derecho de acrecer” (arts. 1147 a 1155); (ix) “De las sustituciones”
 (arts. 1156 a 1166).
@@ -1238,9 +1265,10 @@ singular? ¿Qué principio debe tenerse presente en este caso? Proporcione un ej
 23.- ¿Qué opiniones se han formulado acerca de la clase de nulidad que podría operar,
 en los casos previstos en los arts. 1057, 1058 y 1132 del Código Civil?
 
-
 ## Capitulo iii: clasificacion del testamento
 
+**Definición Canónica:** 1.- Generalidades.
+**Concordancias Legales:** artículo 1033; artículo 1048; artículo 1042; artículos 1011; artículo 1015; artículo 1026; artículo 1016; artículo 1012; artículo 1019; Artículo 700; artículo 707; Artículo 802; artículos 1027; Ley Nº 19.221
 
 1.- Generalidades.
 
@@ -1993,8 +2021,10 @@ preceptos, el testamento puede otorgarse de dos formas:
 3.1. Testamento otorgado en conformidad a la ley extranjera.
 3.2. Testamento otorgado en conformidad a la ley chilena.
 
-
 ## 3.1. Testamento otorgado en país extranjero en conformidad a la ley
+
+**Definición Canónica:** extranjera.
+**Concordancias Legales:** artículo 17; artículos 345; artículos 17; artículo 1027; artículo 707 del Código Civil peruano
 
 extranjera.
 
@@ -2232,14 +2262,19 @@ ológrafo otorgado en el extranjero?
 38.- ¿Qué requisitos debe cumplir un testamento otorgado en país extranjero en
 conformidad con la ley chilena, para tener efectos en Chile?
 
-
-## Capítulo iv: del registro
-
-
 ## Nacional de testamentos
 
+**Definición Canónica:** La Ley Nº 19.903, publicada en el Diario Oficial de fecha 10 de octubre de 2003,
+creó un Registro Nacional de Testamentos (art. 13), que es público y se lleva en la
+base central de datos del sistema automatizado del Servicio de Registro Civil e
+Identificación, con las formalidades establecidas en el reglamento.
+        El art. 14 dispone por su parte que el hecho de haberse otorgado o
+protocolizado un testamento deberá anotarse en el registro nacional respectivo, en la
+oportunidad establecida en el art. 439 del Código Orgánico de Tribunales. Este
+precepto, cuyo tenor fue reemplazado por la Ley
+**Concordancias Legales:** Artículo 439; artículo 431; artículo 1020 del Código Civil; Ley Nº 19.903; Ley Nº 18.181
 
-        La Ley Nº 19.903, publicada en el Diario Oficial de fecha 10 de octubre de 2003,
+La Ley Nº 19.903, publicada en el Diario Oficial de fecha 10 de octubre de 2003,
 creó un Registro Nacional de Testamentos (art. 13), que es público y se lleva en la
 base central de datos del sistema automatizado del Servicio de Registro Civil e
 Identificación, con las formalidades establecidas en el reglamento.
@@ -2328,12 +2363,10 @@ de la publicación.
 3.- ¿Cómo se incorpora información en el Registro Nacional de Testamentos?
 4.- ¿Qué se reemplazó por el Registro Nacional de Testamentos?
 
-
-## Capítulo v: de la nulidad del
-
-
 ## Testamento más solemne
 
+**Definición Canónica:** 1.- Principio general.
+**Concordancias Legales:** artículo 1016; artículo 1026
 
 1.- Principio general.
 
@@ -2699,9 +2732,10 @@ sólo puede demandarse una vez fallecido el testador?
 nulidad de testamento antes del fallecimiento del testador? ¿Qué opinión ha formulado
 la cátedra acerca de esta posibilidad?
 
-
 ## Capítulo vi: de la revocación del testamento
 
+**Definición Canónica:** 1.- Regulación.
+**Concordancias Legales:** artículo 999 del Código Civil; Artículo 799; Artículo 2514; Artículo 800; constitución
 
 1.- Regulación.
 

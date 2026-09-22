@@ -13,19 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-44           Ley 20.000:
-             problemas
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             actuales en
+                  electrónica
+             su interpretación
+                  de causas
+             Lorena Rebolledo Latorre
+             Manuel Rodríguez Vega
+**Concordancias Legales:** Ley 20.000
 
-                  Tramitación
+Tramitación
              actuales en
                   electrónica
              su interpretación
@@ -76,56 +75,9 @@ Materiales Docentes                                                        ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Aspectos político-criminales
-
-## 28      Capítulo 2
-
-        Delitos de tráfico y microtráfico de drogas
-
-## 53      Capítulo 3
-
-        Delito de cultivo de especies vegetales
-        (artículo 8 Ley 20.000)
-
-## 62      Capítulo 4
-
-        Faltas del artículo 50 de la Ley 20.000
-
-## 78      Capítulo 5
-
-        Delito de asociación ilícita (artículo 16 Ley 20.000)
-
-## 88      Capítulo 6
-
-        Antijuridicidad y culpabilidad
-
-## 98      Capítulo 7
-
-        Autoría y participación en el delito
-        de tráfico de drogas
-
-## 110     Capítulo 8
-
-        Concursos de delitos
-
-## 122     Capítulo 9
-
-        Circunstancias modificatorias y penas
-
-## 136     Capítulo 10
-
-        Técnicas especiales de investigación criminal
-
-## 163     Referencias
-
-
-Materiales Docentes                                                         Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Aspectos político-criminales
 
 Aspectos político-criminales
 
@@ -304,6 +256,13 @@ organizaciones criminales, quienes siempre ostentan en sus fichas una “muy bue
 o “buena conducta”» (Observatorio del Narcotráfico en Chile, 2021: 26).
 
 ## 5 La cafeína como materia prima fue incluida como sustancia química sujeta a
+
+**Definición Canónica:** control penal mediante la dictación del Decreto 40 del 23 de junio de 2021, pasando,
+por lo tanto, a pertenecer al listado de precursores y sustancias químicas esenciales
+del Decreto 1.358 del 17 de abril de 2007. La razón de esta modificación atiende a que
+es utilizada como adulterante de diversas drogas en Chile, por ejemplo, en cocaínas
+(clorhidrato o base) y en comprimidos de éxtasis.
+**Concordancias Legales:** artículo 35; artículo 36; artículo 3; artículo 5; artículos 6; artículo 2; artículo 7; artículos 8; artículo 10; artículo 11; artículos 12; artículos 19; Ley 1.261; constitucion
 
 control penal mediante la dictación del Decreto 40 del 23 de junio de 2021, pasando,
 por lo tanto, a pertenecer al listado de precursores y sustancias químicas esenciales
@@ -506,8 +465,12 @@ acuerdos o arreglos bilaterales o multilaterales.
 Síntesis de la evolución legislativa
 A continuación, se ofrece una reseña de los cambios legislativos relativos al tráfico ilícito de estupefacientes y sustancias sicotrópicas, en nuestro país (Arrieta, 2010: 149-165).
 
-
 ## 7 En cumplimiento de estas obligaciones internacionales, se discute actualmente
+
+**Definición Canónica:** en el Senado el «Proyecto de ley que modifica diversos cuerpos legales con el objeto
+de mejorar la persecución del narcotráfico y crimen organizado, regular el destino
+de los bienes incautados en esos delitos y fortalecer las instituciones de rehabilitación y reinserción social», una de las normas que se incluye es el «comiso por equivalencia». Boletín 13.588-07 del 16 de junio de 2020.
+**Concordancias Legales:** artículos 313; artículos 253; artículos 319; artículos 7; artículo 9; Ley 17.155; Ley 17.934; Ley 18.403; Ley 19.366
 
 en el Senado el «Proyecto de ley que modifica diversos cuerpos legales con el objeto
 de mejorar la persecución del narcotráfico y crimen organizado, regular el destino
@@ -566,6 +529,17 @@ lo que tuvo lugar con la dictación de la Ley 19.366, del 30 de enero de
 
 ## 1995. Si bien el texto contemplaba la mayoría de las materias reguladas
 
+**Definición Canónica:** en las leyes anteriores, introduce profundas modificaciones en relación
+con los tipos penales y las técnicas de investigación, al contemplar, por
+primera vez, las entregas vigiladas (artículo 29), la figura del informante
+y el agente encubierto (artículo 34), la interceptación de las comunicaciones y documentos privados y la vigilancia de personas (artículo
+31), en consonancia con las exigencias contenidas en la Convención de
+Viena de 1988.
+   Esta ley fue modificada por la actual Ley 20.000, del 16 de febrero de
+2005, que viene a sancionar todas las actividades del denominado ciclo
+del tráfic
+**Concordancias Legales:** artículo 29; artículo 34; artículo 31; Ley 20.000
+
 en las leyes anteriores, introduce profundas modificaciones en relación
 con los tipos penales y las técnicas de investigación, al contemplar, por
 primera vez, las entregas vigiladas (artículo 29), la figura del informante
@@ -614,8 +588,10 @@ a los derechos y garantías fundamentales.
       ca de drogas al establecer la protección de la persona en un entor-
       no de acceso a oportunidades e integración social.
 
-
 ## 8 Capítulo basado en el Informe Técnico sobre Alternativas al Encarcelamiento
+
+**Definición Canónica:** para los Delitos relacionados con Drogas, CICAD/OEA (2015).
+**Concordancias Legales:** Ley 20.000
 
 para los Delitos relacionados con Drogas, CICAD/OEA (2015).
 
@@ -708,6 +684,10 @@ policía y fiscales, se dieron a conocer las razones principales relacionadas co
 alternativas, a cargo de la policía, de derivación previa al juicio. Por una
 
 ## parte, hay temor frente a la posibilidad de que estos programas inciten
+
+**Definición Canónica:** prácticas de corrupción; por otra, podría significar dejar en manos de la
+policía la acción penal.
+**Concordancias Legales:** artículos 50; artículo 4; artículo 8; Ley 20.000
 
 prácticas de corrupción; por otra, podría significar dejar en manos de la
 policía la acción penal.
@@ -924,8 +904,10 @@ de la Excma. Corte Suprema que
  13 Corte de Apelaciones, rol 666-22, del 1 de julio de 2022.
  14 Corte Suprema, rol 11.828-22, del 17 de agosto de 2022, considerando quinto.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Delitos de tráfico y microtráfico de drogas
+**Concordancias Legales:** artículo 3; artículo 3 de la Ley 20.000; artículo 1; Ley 20.000
 
 Delitos de tráfico y microtráfico de drogas
 
@@ -946,8 +928,14 @@ sirvan para obtenerlas, sanciona las acciones consistentes en inducir,
 promover o facilitar su uso o consumo por cualquier medio, lo que se
 ha denominado tráfico ilícito «en sentido amplio», desde que abarca
 
-
 ## 1 No obstante la imprecisión de las expresiones «tráfico de drogas» y «microtráfico
+
+**Definición Canónica:** de drogas», nos valdremos de ellas para referirnos a estos delitos, dado su uso general y arraigado en nuestro medio, y para simplificar su diferenciación y denominación a lo largo del texto.
+ 2 Corte Suprema, rol 39.732-21, del 4 de abril de 2022.
+ 3 Artículo 3 Ley 20.000: «Las penas establecidas en el artículo 1 se aplicarán también a quienes trafiquen, bajo cualquier título, con las sustancias a que dicha disposición se refiere, o con las materias primas que sirvan para obtenerlas y a quienes,
+por cualquier medio, induzcan, promuevan o faciliten el uso o consumo de tales
+sustancias. Se ente
+**Concordancias Legales:** Artículo 3; artículo 1; artículo 4; artículo 4 de la Ley 20.000; artículo 368 del Código Penal para el delito de tráfico de dro; artículos 369; artículos 3; artículo 5 de la Ley 19.366; Artículo 5; artículo 4 de la Ley 20.000 no crea una figura delictual difer; artículo 4 de la Ley 20.000 solo contiene una regla de aminora; artículos 41; artículo 3.11; artículo 4.12; Ley 20.000; Ley 19.366
 
 de drogas», nos valdremos de ellas para referirnos a estos delitos, dado su uso general y arraigado en nuestro medio, y para simplificar su diferenciación y denominación a lo largo del texto.
  2 Corte Suprema, rol 39.732-21, del 4 de abril de 2022.
@@ -1132,6 +1120,10 @@ una figura privilegiada a una de carácter autónoma.
 
 ## 12 Matus y Ramírez (2019: 504) señalan que las conductas que se mencionan en el
 
+**Definición Canónica:** artículo 4 no son diferentes de la facilitación de sustancias para el consumo ajeno, el
+tráfico en sentido amplio y estricto.
+**Concordancias Legales:** artículo 4; artículo 3
+
 artículo 4 no son diferentes de la facilitación de sustancias para el consumo ajeno, el
 tráfico en sentido amplio y estricto.
 
@@ -1162,13 +1154,19 @@ son quienes se encuentran en posesión de los mencionados antecedentes fácticos
 de una amplia discrecionalidad, puesto que los mencionados conceptos
 no procuran normas ni son constitutivos para la sentencia.14 En ese orden, se ha declarado que
 
-
 ## 13 Cisternas (2011: 33 y 34; 2013: 13) y Rettig (2013: 68). En Corte Suprema, rol
+
+**Definición Canónica:** 3.206-07, del 3 de septiembre de 2007, se afirma que el tráfico sobre una pequeña
+cantidad de droga «recibe una sanción menor, porque el reproche es menor, precisamente por la disminuida afectación del bien jurídico involucrado».
 
 3.206-07, del 3 de septiembre de 2007, se afirma que el tráfico sobre una pequeña
 cantidad de droga «recibe una sanción menor, porque el reproche es menor, precisamente por la disminuida afectación del bien jurídico involucrado».
 
 ## 14 Corte Suprema, rol 2.005-05, del 19 de julio de 2005, sin embargo, en el mismo
+
+**Definición Canónica:** pronunciamiento se precisó que, naturalmente, ello no implica que al hacer sus decisiones los tribunales puedan apartarse de las directrices ofrecidas por la cláusula
+regulativa. También véanse Corte Suprema, rol 7.555-08, del 15 de abril de 2009; Corte Suprema, rol 7.937-08, del 3 de diciembre de 2009; y Corte Suprema, rol 24.860-17,
+del 24 de julio de 2017. Rebolledo (2016a: 104) concuerda en que el dotar de contenido a esa expresión «quedó entregado a los jueces de la instancia».
 
 pronunciamiento se precisó que, naturalmente, ello no implica que al hacer sus decisiones los tribunales puedan apartarse de las directrices ofrecidas por la cláusula
 regulativa. También véanse Corte Suprema, rol 7.555-08, del 15 de abril de 2009; Corte Suprema, rol 7.937-08, del 3 de diciembre de 2009; y Corte Suprema, rol 24.860-17,
@@ -1194,6 +1192,14 @@ su uso personal exclusivo y próximo en el tiempo, pero destinada al tráfico.17
 
 ## 16 Corte Suprema, rol 2.005-05, del 19 de julio de 2005. Decisiones similares en
 
+**Definición Canónica:** Corte Suprema, rol 1.506-05, del 2 de enero de 2007; Corte Suprema, rol 3.819-06,
+del 25 de enero de 2007; Corte Suprema, rol 23.309-18, del 18 de diciembre de 2018; y
+Corte Suprema, rol 69.685-21, del 16 de junio de 2022. En Corte Suprema, rol 24.86017, del 24 de julio de 2017, se señala que «los pesos brutos y netos de la droga, su
+naturaleza, su pureza, la cantidad de dosis en que podría fraccionarse o aumentarse
+con sustancias de corte, el número y sector de consumidores que podrían acceder
+a ella y el daño a su salud al que con aquella se les expone, así como otros elementos relevantes se
+**Concordancias Legales:** artículo 3; artículo 4 de la Ley 20.000; Ley 20.000
+
 Corte Suprema, rol 1.506-05, del 2 de enero de 2007; Corte Suprema, rol 3.819-06,
 del 25 de enero de 2007; Corte Suprema, rol 23.309-18, del 18 de diciembre de 2018; y
 Corte Suprema, rol 69.685-21, del 16 de junio de 2022. En Corte Suprema, rol 24.86017, del 24 de julio de 2017, se señala que «los pesos brutos y netos de la droga, su
@@ -1214,6 +1220,9 @@ se encuentre, entre otros».
 
 ## 17 Véanse Matus y Ramírez (2019: 504), Politoff, Matus y Ramírez (2009: 585); Ruiz
 
+**Definición Canónica:** (2009: 427); y Matus y Ramírez (2015: 446).
+**Concordancias Legales:** artículo 3
+
 (2009: 427); y Matus y Ramírez (2015: 446).
 
 Materiales Docentes                                                            Capítulo 2
@@ -1232,8 +1241,16 @@ por ejemplo, que tratándose de 2.095 gramos de cocaína de pureza de
 ende, calificarlo como microtráfico por corresponder a una pequeña
 cantidad.19
 
-
 ## 18 Winter (2016: 201) y Castro (2021: 65 y 66) indican que la jurisprudencia ha
+
+**Definición Canónica:** demostrado en términos generales que una alta concentración del principio activo
+de la droga incautada, sería indiciaria de que ella estaría destinada a la comisión del
+delito de tráfico y, a la inversa, una baja pureza llevaría a pensar que la misma se utilizaría para la comisión del delito de microtráfico. Sentido distinto plantea la Corte
+de Apelaciones de Antofagasta, rol 39-2021, del 24 de febrero de 2021, al declarar
+que «no se perfila la pureza como un argumento que permita sustentar la decisión
+jurisdiccional de recalificar por el delito de microtráfico, considerando que esta, de
+acuer
+**Concordancias Legales:** artículo 3; artículos 3; artículo 15; artículo 13 de la Ley 20.000; artículo 248 bis del Código Penal; artículo 13 de la Ley 20.000 y artículo 248 bis del Código Pena; artículo 19 de la Ley 20.000; Ley 20.000
 
 demostrado en términos generales que una alta concentración del principio activo
 de la droga incautada, sería indiciaria de que ella estaría destinada a la comisión del
@@ -1328,12 +1345,10 @@ llamado caso de la compra sin entrega material (Matus y Ramírez (2019:
 
  22 Especialmente, véase Roxin (2016: 154-155) y Cox (2012: 205-259).
 
-## 23 Frieyro (2017: 76) señala que el elemento objetivo de la posesión requiere una
-
-mera capacidad de decisión sobre la droga.
-
 ## 24 Como refiere Montero La Rubia (2007: 68), la jurisprudencia española ha re-
 
+**Definición Canónica:** Materiales Docentes                                                      Capítulo 2
+**Concordancias Legales:** artículos 3; artículo 3 de la Ley 20.000. suelto que cuando; artículos 15; artículo 1 de la Ley 20.000 Para la determinación del objeto; artículo 1; Ley 20.000
 
 Materiales Docentes                                                      Capítulo 2
 
@@ -1388,13 +1403,15 @@ provocar graves efectos tóxicos o daños considerables a la salud, como a
 las que no sean capaces de provocarlos.27 También incluyen ambas figuras
 a las materias primas que sirvan para obtener las referidas sustancias.
 
-
-## 25 Una exposición de la doctrina y jurisprudencia española que descarta la mera
-
-convivencia como motivo bastante para atribuir la posesión de droga encontrada en
-el domicilio común, en Frieyro (2017: 244 y ss.).
-
 ## 26 Droga es una sustancia no alimenticia empleada para producir un efecto en la
+
+**Definición Canónica:** es­tructura o funciones de un organismo humano o animal. Es también una sustan­
+cia empleada para el diagnóstico, cura, tratamiento o prevención de las enferme­
+dades del hombre o de otro animal. Estupefaciente es una droga que, administrada
+en dosis terapéuticas, disminuye la percepción de los impulsos sensoriales, en especial del dolor, por el cerebro; en grandes dosis causa estupor, coma o convulsiones.
+Sicotrópico es cualquier droga o agente que presenta una afinidad peculiar por la
+psiquis o tiene efectos peculiares sobre la misma (Instituto de Salud Pública, 2017:
+62-63). Véase también R
 
 es­tructura o funciones de un organismo humano o animal. Es también una sustan­
 cia empleada para el diagnóstico, cura, tratamiento o prevención de las enferme­
@@ -1405,6 +1422,13 @@ psiquis o tiene efectos peculiares sobre la misma (Instituto de Salud Pública, 
 62-63). Véase también Rebolledo (2004: 8-12).
 
 ## 27 Si el delito de tráfico del artículo 3 recae sobre sustancias o drogas capaces de
+
+**Definición Canónica:** provocar graves efectos tóxicos o daños considerables a la salud, y sobre sustancias
+que no produzcan esos efectos, la rebaja referida no será aplicable, sin perjuicio de
+que pueda considerarse esa dualidad al determinar la pena dentro del grado, salvo
+que el porcentaje de las primeras en relación con el total sea muy menor. La jurisprudencia española, con relación al artículo 368 de su Código Penal, que prescribe
+sanciones diversas según si la droga causa o no grave daño a la salud, resuelve imponiendo la pena prevista para el primer caso (Frieyro, 2017: 163).
+**Concordancias Legales:** artículo 368; artículo 3; artículo 1; artículo 4; artículo 1.30; artículo 63; Ley 20.000
 
 provocar graves efectos tóxicos o daños considerables a la salud, y sobre sustancias
 que no produzcan esos efectos, la rebaja referida no será aplicable, sin perjuicio de
@@ -1441,6 +1465,13 @@ no justificará la rebaja punitiva.
 
 ## 30 Corte de Apelaciones de Valparaíso, rol 135-06, del 6 de marzo de 2006, explica
 
+**Definición Canónica:** que el artículo 4 «abarca las sustancias mencionadas en los incisos primero y segundo del artículo 1, estableciendo a continuación las sanciones a dicha conducta, que
+como se aprecia son de menor entidad a las que corresponden cuando la cantidad
+de la sustancia no permite la tipificación de esta figura, de manera entonces que necesariamente debe concluirse que en la especie no tiene aplicación la rebaja contemplada en el inciso segundo del artículo 1, de la Ley 20.000». A igual conclusión llegó
+la Corte de Apelaciones de Santiago, rol 1.233-06, del 11 de agosto de 2006, y la Corte
+de Apelacion
+**Concordancias Legales:** artículo 4; artículo 1; Ley 20.000
+
 que el artículo 4 «abarca las sustancias mencionadas en los incisos primero y segundo del artículo 1, estableciendo a continuación las sanciones a dicha conducta, que
 como se aprecia son de menor entidad a las que corresponden cuando la cantidad
 de la sustancia no permite la tipificación de esta figura, de manera entonces que necesariamente debe concluirse que en la especie no tiene aplicación la rebaja contemplada en el inciso segundo del artículo 1, de la Ley 20.000». A igual conclusión llegó
@@ -1451,6 +1482,8 @@ de 2005 y la Corte de Apelaciones de Santiago, rol 785-06, del 2 de mayo de 2006
 
 ## 31 La calificación de «nominal» de nuestro sistema es sostenida por Valladares
 
+**Definición Canónica:** Materiales Docentes                                                           Capítulo 2
+**Concordancias Legales:** artículos 1; artículo 3 de la Ley 20.000 En las conductas de inducir; artículo 3; Ley 20.000; Ley 19.366
 
 Materiales Docentes                                                           Capítulo 2
 
@@ -1488,6 +1521,10 @@ la Corte Suprema en esta materia, en Rodríguez (2019: 79 y ss.).
 
 ## 33 Para Frieyro (2017: 182), comentando la tipificación del artículo 368 del Código
 
+**Definición Canónica:** Penal español de 1995, señala que por tratarse de un delito doloso, se requiere que
+el sujeto activo tenga conocimiento de que la sustancia está prohibida y un ánimo
+**Concordancias Legales:** artículo 3; artículo 4
+
 Penal español de 1995, señala que por tratarse de un delito doloso, se requiere que
 el sujeto activo tenga conocimiento de que la sustancia está prohibida y un ánimo
 
@@ -1520,6 +1557,14 @@ hay un elemento subjetivo adicional al mismo dolo de la inducción, promoción o
 facilitación del uso o consumo por otro de las sustancias prohibidas.
 
 ## 34 Lo que la ley ha pretendido estableciendo estas «modalidades de tráfico» es
+
+**Definición Canónica:** reprimir dicha actividad aun cuando solo se haya acreditado una cualquiera de las
+conductas que la constituyen, no siendo necesario demostrar que esta sea parte de
+una actividad de tráfico (Matus y Ramírez, 2019: 500).
+ 35 Así se concluye en el fallo citado por Matus y Ramírez (2019: 500). En Corte Suprema, rol 39.732-21, del 4 de abril de 2022, se afirma que «en el inciso segundo y en
+el tercero de los artículos 3 y 4, respectivamente, comienza con las palabras “Se entenderá”, lo que constituye una ficción que, por su naturaleza de tal, es análoga con
+una especie de presunción; la convención 
+**Concordancias Legales:** artículos 3; artículo 4 de la Ley 20.000 El inciso primero del artículo 4; artículo 17 del Código Penal; Ley 20.000
 
 reprimir dicha actividad aun cuando solo se haya acreditado una cualquiera de las
 conductas que la constituyen, no siendo necesario demostrar que esta sea parte de
@@ -1562,6 +1607,13 @@ disposición.
 
 ## 37 Usaremos aquí el vocablo «exención» en términos amplios, siendo discutida
 
+**Definición Canónica:** la categorización que debe dársele a este elemento del tipo penal del microtráfico.
+Navarro (2005: 264), Matus (2005: 336), González (2010: 111), Corte Suprema, rol
+12.564-18, del 16 de agosto de 2018, y Corte Suprema, rol 33.723-2019, del 10 de marzo de 2020, aluden a una causal «atipicidad»; Aravena (2013: 94) y Matus y Ramírez
+(2015: 447) señalan que corresponde a un «elemento negativo» del delito; Martorell
+(2007: 245) lo menciona como excluyente de responsabilidad; y Mañalich (2004a:
+**Concordancias Legales:** Constitucion
+
 la categorización que debe dársele a este elemento del tipo penal del microtráfico.
 Navarro (2005: 264), Matus (2005: 336), González (2010: 111), Corte Suprema, rol
 12.564-18, del 16 de agosto de 2018, y Corte Suprema, rol 33.723-2019, del 10 de marzo de 2020, aluden a una causal «atipicidad»; Aravena (2013: 94) y Matus y Ramírez
@@ -1583,11 +1635,24 @@ la antijuridicidad de la conducta y esta deja de estar prohibida por la ley».
 
 ## 38 En Corte Suprema, rol 12.564-18, del 16 de agosto de 2018, se señala que «los
 
+**Definición Canónica:** tipos penales descritos precedentemente [artículos 3 y 4] no exigen, como lo sostiene la defensa, el elemento de la comercialización». Ratifica este onus probandi
+en el acusado, Corte Suprema, rol 6.909-16, del 5 de abril de 2016; Corte Suprema,
+rol 255-20, del 2 de marzo de 2020 y Corte Suprema, rol 24.703-20, del 2 de julio de
+**Concordancias Legales:** artículos 3
+
 tipos penales descritos precedentemente [artículos 3 y 4] no exigen, como lo sostiene la defensa, el elemento de la comercialización». Ratifica este onus probandi
 en el acusado, Corte Suprema, rol 6.909-16, del 5 de abril de 2016; Corte Suprema,
 rol 255-20, del 2 de marzo de 2020 y Corte Suprema, rol 24.703-20, del 2 de julio de
 
 ## 2020. Desestima esta causal de exclusión de responsabilidad por falta de prueba de
+
+**Definición Canónica:** la defensa de las circunstancias que la componen, Corte Suprema, rol 27.790-16, del
+6 de julio de 2016; Corte Suprema, rol 35.154-16, del 27 de julio de 2016; Corte Suprema, rol 5-17, del 2 de marzo de 2017; Corte Suprema, rol 41.356-17, del 5 de diciembre
+de 2017; Corte Suprema, rol 24.869-2017, del 18 de julio de 2017; Corte Suprema, rol
+41.412 -17, del 29 de noviembre de 2017; Corte Suprema, rol 12.831-18, del 23 de agosto
+de 2018; y Corte Suprema, rol 30.252-21, del 2 de agosto de 2021, esta última en la que
+se resuelve que «la aseveración del acusado de ser consumidor de sustancias estupe
+**Concordancias Legales:** artículo 297 del Código Procesal Penal. En el caso concreto; artículo 4; Constitucion
 
 la defensa de las circunstancias que la componen, Corte Suprema, rol 27.790-16, del
 6 de julio de 2016; Corte Suprema, rol 35.154-16, del 27 de julio de 2016; Corte Suprema, rol 5-17, del 2 de marzo de 2017; Corte Suprema, rol 41.356-17, del 5 de diciembre
@@ -1648,6 +1713,13 @@ sin lo cual no puede ser condenado». Véase también Matus (2008: 10), Ruiz (20
 García (2013: 49).
 
 ## 39 En Corte Suprema, rol 30.252-21, del 2 de agosto de 2021, se establece que «el
+
+**Definición Canónica:** contexto en que el acusado fue detenido, la cantidad de droga encontrada en su
+poder permiten descartar tal alegación [la exención], así como estimar que por el
+gramaje [84 gramos 300 miligramos de cannabis sativa] era suficiente para elaborar
+un número importante de dosis que descarta el consumo personal, más si se considera que no fue acreditada la circunstancia que el acusado presentara un consumo
+problemático».
+**Concordancias Legales:** artículo 4; artículo 374 del Código Procesal Penal en relación con el requ; artículo 342; artículo 1; Ley 20.000
 
 contexto en que el acusado fue detenido, la cantidad de droga encontrada en su
 poder permiten descartar tal alegación [la exención], así como estimar que por el
@@ -1756,6 +1828,15 @@ en que pudiese haberlo evitado, Rebolledo (2016b: 58, nota 2).
 
 ## 42 Situaciones subjetivas de esta naturaleza pueden igualmente encuadrarse en la
 
+**Definición Canónica:** figura denominada «ignorancia deliberada», lo que constituye una manifestación
+más del dolo. Al respecto, la jurisprudencia española afirma la imputación subjetiva
+en el tráfico de drogas, excluyendo con ello la alegación de error de tipo, para todo
+quien actúa «sin querer conocer aquello que puede y debe saber asumiendo y aceptando con ello todas las consecuencias de su actuar ilícito». En esta clase de casos la
+acción es realizada con una consciencia de la probabilidad del riesgo, lo que es un
+baremo suficiente para la constatación del denominado «dolo eventual», o bien la
+supuesta posterior
+**Concordancias Legales:** artículo 3; artículo 1; artículo 4; artículo 69 del Código Penal
+
 figura denominada «ignorancia deliberada», lo que constituye una manifestación
 más del dolo. Al respecto, la jurisprudencia española afirma la imputación subjetiva
 en el tráfico de drogas, excluyendo con ello la alegación de error de tipo, para todo
@@ -1793,8 +1874,14 @@ En el caso del artículo 4, tal error no tendrá relevancia más allá de que
 pueda ser considerado por el sentenciador al fijar la pena dentro del
 grado, conforme al artículo 69 del Código Penal.
 
-
 ## 43 Matus y Ramírez (2019: 482), quienes agregan que no podría exigirse que se
+
+**Definición Canónica:** conocieran los elementos activos de dichas sustancias, los efectos fisiológicos que
+producen o su precisa inclusión en los listados del Reglamento, casos en los cuales
+solo entre un círculo muy reducido de especialistas podrían encontrarse los autores
+de estos delitos.
+ 44 Matus y Ramírez (2019: 484), citando jurisprudencia.
+**Concordancias Legales:** artículo 18 de la Ley 20.000 que pena los delitos que trata esa; artículo 17; artículo 368 del Código Penal español; Ley 20.000
 
 conocieran los elementos activos de dichas sustancias, los efectos fisiológicos que
 producen o su precisa inclusión en los listados del Reglamento, casos en los cuales
@@ -1826,6 +1913,14 @@ conforme a los principios generales, serían actos de mera participación en el 
 
 ## 46 Matus y Ramírez (2019: 483 y 484) explican que esta asimilación de la tentativa
 
+**Definición Canónica:** a la consumación, ya a nivel de la descripción típica, tiene como efecto el excluir
+a sus autores del beneficio del desistimiento, por ejemplo, en el transporte para el
+tráfico, donde el desistimiento del transporte no excluye la pena por el delito consumado basado en la posesión ilícita de tales sustancias. Además, en estos casos no es
+posible conceptualmente la tentativa, y los actos que aparentemente la constituyen
+solo pueden verse como actos preparatorios, de los cuales solo es punible la conspiración.
+  47 En Corte Suprema, rol 9.583-22, del 22 de junio de 2022, se decide que no constitu
+**Concordancias Legales:** artículo 15; artículo 8 del Código Penal; artículo 50; Ley 20.000
+
 a la consumación, ya a nivel de la descripción típica, tiene como efecto el excluir
 a sus autores del beneficio del desistimiento, por ejemplo, en el transporte para el
 tráfico, donde el desistimiento del transporte no excluye la pena por el delito consumado basado en la posesión ilícita de tales sustancias. Además, en estos casos no es
@@ -1854,8 +1949,11 @@ ocurrió)».
 
 Materiales Docentes                                                            Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Delito de cultivo de especies vegetales
+(artículo 8 Ley 20.000)
+**Concordancias Legales:** artículo 8; artículo 8 de la Ley 20.000; artículos 50; artículo 5 del Reglamento de la Ley 20.000; Ley 20.000
 
 Delito de cultivo de especies vegetales
 (artículo 8 Ley 20.000)
@@ -1915,8 +2013,13 @@ Decreto Supremo 867, del 8 de agosto de 2007, el objeto material del
 delito de cultivo ilícito lo constituyen las especies vegetales productoras de sustancias estupefacientes o sicotrópicas listadas bajo un sistema
 nominal, a saber: Cannabis Sativa L; Cacto Peyote; Catha Edulis (Khat);
 
-
 ## 2 Balmaceda sostiene acertadamente que en caso de justificarse que las especies
+
+**Definición Canónica:** vegetales están destinadas a un uso o consumo personal exclusivo y próximo en el
+tiempo deberán aplicarse las sanciones de los artículos 50 y siguientes. Es decir, entendemos que se trata del uso del verbo justificar, «probar algo». Véase este concepto
+en https://dle.rae.es/justificar.
+  3 Corte Suprema, rol 4.949-15, del 4 de junio de 2015.
+**Concordancias Legales:** artículos 50
 
 vegetales están destinadas a un uso o consumo personal exclusivo y próximo en el
 tiempo deberán aplicarse las sanciones de los artículos 50 y siguientes. Es decir, entendemos que se trata del uso del verbo justificar, «probar algo». Véase este concepto
@@ -1945,17 +2048,27 @@ cannabinoles y otras sustancias químicas en el cannabis, pues aun desconociénd
 
 ## 5 El término pureza es erróneo en las especies vegetales, pues atiende a considerar
 
+**Definición Canónica:** a una droga más o menos pura conforme a procesos químicos de producción como
+ocurre con la cocaína. Lo correcto es sostener la determinación del principio activo
+o concentración de este en la planta. Sobre este tema, ampliamente, véase Acuña
+(2007: 12 y 13).
+
 a una droga más o menos pura conforme a procesos químicos de producción como
 ocurre con la cocaína. Lo correcto es sostener la determinación del principio activo
 o concentración de este en la planta. Sobre este tema, ampliamente, véase Acuña
 (2007: 12 y 13).
 
-## 6 La especie vegetal cannabis tiene más de 400 principios activos, siendo el más
-
-abundante y potente el Delta 9 Tetrahidrocannabinol (THC). Su forma sintética es
-el dronabinol.
-
 ## 7 Corte Suprema, rol 41.356-2017, del 5 de diciembre de 2017; Corte Suprema, rol
+
+**Definición Canónica:** 12.869-2018, del 1 de agosto de 2018; Corte Suprema, rol 12.564-2018, del 16 de agosto
+de 2018; Corte Suprema, rol 12.831-2018, del 23 de agosto de 2018; Corte Suprema,
+rol 23.005-2018, del 5 de noviembre de 2018; Corte Suprema, rol 153-2019, del 13 de
+febrero de 2019; Corte Suprema, rol 4264-2019 del 4 de abril de 2019; Corte Suprema,
+rol 29.118-19, del 6 de enero de 2020; Corte Suprema, rol 29.948-2019, del 24 febrero
+de 2020 y Corte Suprema, rol 69.685-21, del 16 de junio de 2022, fallo este último
+referido al delito de tráfico de drogas del artículo 3. Rodríguez (2019: 67-84) expone
+y anal
+**Concordancias Legales:** artículo 3; artículo 8; artículo 9 de la Ley 20.000 y los artículos 6 y siguientes del; artículo 2; Ley 20.000; Ley 18.403
 
 12.869-2018, del 1 de agosto de 2018; Corte Suprema, rol 12.564-2018, del 16 de agosto
 de 2018; Corte Suprema, rol 12.831-2018, del 23 de agosto de 2018; Corte Suprema,
@@ -1989,8 +2102,15 @@ productoras de drogas. Y ello no es nuevo, data precisamente del origen
 de esta norma, la Ley 18.403, que en su artículo 2 sancionaba a «los que,
 sin contar con la competente autorización, siembren, cultiven, cosechen
 
-
 ## 8 Información recabada de la Agencia Nacional de Medicamentos (Anamed), del
+
+**Definición Canónica:** Instituto de Salud Pública de Chile, que corresponde a autorizaciones solicitadas
+al SAG desde el 2016 a la fecha. Sobre la concentración de los principios activos
+del cannabis, véase Senda (2021: 6). Vale la pena destacar un estudio reciente, pionero en Latinoamérica realizado por el Instituto de Salud Pública de Chile (ISP),
+el Ministerio Público y el Servicio Nacional para la Prevención y Rehabilitación
+del Consumo de Drogas y Alcohol (Senda), denominado «Estudio análisis químico del cannabis incautado en Chile», que entregó evidencia científica respecto de
+la composición química del cannab
+**Concordancias Legales:** artículo 9 de la Ley 20.000; artículo 8 de la Ley 20.000; artículo 373; artículo 374; artículo 342; Ley 20.000; Constitucion
 
 Instituto de Salud Pública de Chile, que corresponde a autorizaciones solicitadas
 al SAG desde el 2016 a la fecha. Sobre la concentración de los principios activos
@@ -2156,8 +2276,10 @@ decimoquinto y siguientes):
 
 Materiales Docentes                                                        Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Faltas del artículo 50 de la Ley 20.000
+**Concordancias Legales:** artículo 50 de la Ley 20.000 El artículo 50 de la Ley 20.000 s; artículo 1; Ley 20.000
 
 Faltas del artículo 50 de la Ley 20.000
 
@@ -2183,8 +2305,11 @@ personal en lugar privado de la sustancia absorbe la aparente tipicidad
 de este acto preparatorio (porte en lugares públicos para el consumo en
 lugares privados) (Matus y Ramírez, 2019: 514).1
 
-
 ## 1 Requiere dicha «ostentación» para la sanción de la falta en estudio, Corte de
+
+**Definición Canónica:** Apelaciones de Santiago, rol 513-05, del 25 de noviembre de 2005 y, por el contrario,
+desestima esa exigencia la Corte de Apelaciones de Santiago, rol 2.465-06, del 2 de
+**Concordancias Legales:** artículo 50; artículo 8; Ley 20.000
 
 Apelaciones de Santiago, rol 513-05, del 25 de noviembre de 2005 y, por el contrario,
 desestima esa exigencia la Corte de Apelaciones de Santiago, rol 2.465-06, del 2 de
@@ -2221,6 +2346,13 @@ consumen drogas en un lugar o recinto privado sin que se hayan puesto de acuerdo
 para ello o cuando el consumo, porte o tenencia se encuentra justificado por tratamiento médico.
 
 ## 2 Corte Suprema, rol 4.949-15, del 4 de junio de 2015. Las razones entregadas en
+
+**Definición Canónica:** este pronunciamiento, en síntesis, son las siguientes: 1) Estructura gramatical del artículo 8: este precepto está redactado con base en la conducta de un autor individual,
+pero esta técnica legislativa no excluye la coautoría ni la participación en un delito,
+a menos que la naturaleza de este no la permita. 2) Análisis semántico: la expresión
+«personal exclusivo» en el contexto de una disposición que admite la coautoría y la
+participación, nada más supone excluir del uso o consumo de la sustancia obtenida
+**Concordancias Legales:** artículo 8; artículo 4 de la Ley 20.000; artículo 50 de la Ley 20.000; artículo 50; Ley 20.000; Ley 19.366
 
 este pronunciamiento, en síntesis, son las siguientes: 1) Estructura gramatical del artículo 8: este precepto está redactado con base en la conducta de un autor individual,
 pero esta técnica legislativa no excluye la coautoría ni la participación en un delito,
@@ -2262,12 +2394,9 @@ alcance de estas expresiones alude al conjunto de los autores o partícipes. Cas
 también el artículo de la anterior Ley 19.366, explica que se limitaron las posibilidades de consumo a una perspectiva totalmente individual. Una revisión crítica al
 referido pronunciamiento judicial en Rebolledo (2020a: 62 y 63).
 
-## 3 Frieyro (2017: 73 y 74) sostiene la atipicidad del consumo compartido por ser
-
-asimilable al autoconsumo, en los que está ausente el animus dirigido a promover,
-favorecer, o facilitar el consumo ilegal de las sustancias.
-
 ## 4 Martorell (2007: 246) expresa que al considerar que el consumo sea «próximo
+
+**Definición Canónica:** en el tiempo» se abandona la razón de ser de la exclusión de la sanción penal (consumo) mezclando el tema tratado más bien con consideraciones de carácter probatorio que no debieron estar presentes en la redacción de la norma, pues si el fun-
 
 en el tiempo» se abandona la razón de ser de la exclusión de la sanción penal (consumo) mezclando el tema tratado más bien con consideraciones de carácter probatorio que no debieron estar presentes en la redacción de la norma, pues si el fun-
 
@@ -2288,6 +2417,15 @@ es solo consumidor de esta, no se observa razón para diferenciar —como elemen
 típico— su lejanía o proximidad en el tiempo, toda vez que ello no cambia su condición de consumidor. Igual opinión manifiesta Cisternas (2013: 8).
 
 ## 5 Como refiere Bustos (2009: 592), dadas las dificultades para distinguir cuándo el
+
+**Definición Canónica:** sujeto posee para su propio consumo y cuándo para traficar, algunos han propuesto,
+como criterio cuantitativo objetivo, «la dosis media de tres días de un toxicómano»,
+acotando que habría que considerarlo como criterio básico (es decir, en este caso
+nunca habrá delito) pero no único, pues además en otros casos habrá que considerar las circunstancias personales y del hecho, por lo que, en caso de duda, debe
+estimarse que es mera tenencia. En España, para la delimitación entre autoconsumo
+y tráfico, el Instituto Nacional de Toxicología elaboró en 2004 un cuadro con las
+cantidades que se consider
+**Concordancias Legales:** artículo 8 de la Ley 20.000 por razones similares; Ley 20.000; Ley 20.000.8
 
 sujeto posee para su propio consumo y cuándo para traficar, algunos han propuesto,
 como criterio cuantitativo objetivo, «la dosis media de tres días de un toxicómano»,
@@ -2353,6 +2491,9 @@ de cannabis sativa en proceso de secado, con un peso neto de 1.493,2 gramos; y, 
 
 ## 8 Reflexión expresada en Corte Suprema, rol 14.863-16, del 4 de abril de 2016. Igual
 
+**Definición Canónica:** visión parece haber adoptado la Comisión Especial de drogas que estudió el artículo
+**Concordancias Legales:** artículos 3; artículo 50; Ley 20.000
+
 visión parece haber adoptado la Comisión Especial de drogas que estudió el artículo
 
 Materiales Docentes                                                           Capítulo 4
@@ -2395,6 +2536,12 @@ julio de 2001. Cuenta en Sesión 4, Legislatura 345: 55 y ss.).
 
 ## 10 Cisternas (2011: 111, 142 y 143), quien además enuncia los criterios indiciarios
 
+**Definición Canónica:** que han utilizado los tribunales para delimitar las conductas de tráfico, microtráfico
+y consumo. También sobre este aspecto, Matus (1999: 93 y 94); Navarro (2005: 279);
+Politoff, Matus y Ramírez (2009: 576); Arrieta (2011: 86-108); y Matus y Ramírez
+(2015: 420). Frieyro (2017: 90 y 91) señala que para probar que la droga está destinada a realizar actos de difusión para su consumo ilegal, hay que acudir a la prueba de
+indicios, entre los que se encuentran la cantidad de la sustancia aprehendida, acre-
+
 que han utilizado los tribunales para delimitar las conductas de tráfico, microtráfico
 y consumo. También sobre este aspecto, Matus (1999: 93 y 94); Navarro (2005: 279);
 Politoff, Matus y Ramírez (2009: 576); Arrieta (2011: 86-108); y Matus y Ramírez
@@ -2422,6 +2569,14 @@ el momento de la intervención policial, variedad de drogas poseídas, utensilio
 
 ## 11 En Corte Suprema, rol 33.723-19, del 10 de marzo de 2020, se declara que «no
 
+**Definición Canónica:** basta con demostrar que el imputado es consumidor, sino además ha de probarse
+que el estupefaciente poseído sería ingerido por este y en un breve lapso», agregando que «la circunstancia de ser consumidor de la clase de droga hallada no explica,
+por sí sola, que estas fueren a ser utilizadas en un tiempo próximo, más aún si no hay
+un relato detallado del imputado sobre el presunto consumo previo ni de la ocasión
+o el lugar al que se dirigía para ingerir la sustancia. Por el contrario, la dosificación
+de las sustancias y la inusual cantidad de dinero en efectivo que portaba, son presupuestos fác
+**Concordancias Legales:** artículo 4; Ley 20.000
+
 basta con demostrar que el imputado es consumidor, sino además ha de probarse
 que el estupefaciente poseído sería ingerido por este y en un breve lapso», agregando que «la circunstancia de ser consumidor de la clase de droga hallada no explica,
 por sí sola, que estas fueren a ser utilizadas en un tiempo próximo, más aún si no hay
@@ -2431,6 +2586,14 @@ de las sustancias y la inusual cantidad de dinero en efectivo que portaba, son p
 en relación con el 1, ambos de la Ley 20.000».
 
 ## 12 Matus y Ramírez (2019: 475). En Corte Suprema, rol 24.909-17, del 12 de julio de
+
+**Definición Canónica:** 2017, se expresa que las circunstancias fijadas en el fallo no permiten afirmar que la
+droga o sustancia portada estaba destinada al consumo personal exclusivo y próximo en el tiempo, consistiendo esas circunstancias en que no se aportó prueba más o
+menos objetiva de la calidad de consumidor del acusado —más allá de sus propios
+dichos—, «la cantidad de papelillos contenedores de marihuana —57—, y porque el
+propio imputado señaló que el día de los hechos portaba $7.000, dinero que se dividía en billetes de $1.000, lo que conforme las máximas de la experiencia es propio
+de quienes comercian pequ
+**Concordancias Legales:** artículo 4 de la Ley 20.000 en su inciso final; Ley 20.000
 
 2017, se expresa que las circunstancias fijadas en el fallo no permiten afirmar que la
 droga o sustancia portada estaba destinada al consumo personal exclusivo y próximo en el tiempo, consistiendo esas circunstancias en que no se aportó prueba más o
@@ -2455,8 +2618,12 @@ para decidir si se está en presencia de un consumidor o de un traficante,
 criterio que tuvo en consideración el artículo 4 de la Ley 20.000 en su
 inciso final, al incorporarlo como un elemento de juicio más.14
 
-
 ## 13 Según Rey (1999: 74), se debe acoger una exégesis del texto penal que permita
+
+**Definición Canónica:** deducir el destino al tráfico de la droga ostentada por el poseedor-consumidor, a
+través de actos objetivados exteriormente que puedan resultar peligrosos para el
+bien jurídico protegido, no siendo suficientes de por sí las meras intenciones del
+mismo.
 
 deducir el destino al tráfico de la droga ostentada por el poseedor-consumidor, a
 través de actos objetivados exteriormente que puedan resultar peligrosos para el
@@ -2464,6 +2631,15 @@ bien jurídico protegido, no siendo suficientes de por sí las meras intenciones
 mismo.
 
 ## 14 Corte Suprema, rol 37.797-15, del 26 de enero de 2016. En Corte Suprema, rol
+
+**Definición Canónica:** 45.630-17, del 27 de febrero 2018, se descarta que se esté frente a la posesión de droga
+para consumo exclusivo, respecto de un «exiguo» gramaje de droga, dado, entre
+«otros elementos que deben ponderarse para efectos de la calificación jurídica de la
+conducta», un grado de pureza del «61%». Cisternas (2011: 201-208) explica que la
+pureza de la droga es un elemento para distinguir entre el delito de tráfico, microtráfico y la falta de consumo, y que el agregar sustancias inocuas o más dañinas que
+el mismo sicotrópico o estupefaciente, tiene como objetivo acrecentar su volumen
+para aumentar las
+**Concordancias Legales:** artículo 4 de la Ley 20.000; artículo 4; artículo 3; artículo 50 de la Ley 20.000; artículo 50; Ley 20.000; Ley 19.366
 
 45.630-17, del 27 de febrero 2018, se descarta que se esté frente a la posesión de droga
 para consumo exclusivo, respecto de un «exiguo» gramaje de droga, dado, entre
@@ -2524,12 +2700,10 @@ demuestra Mañalich (2004a: 354) y Aravena (1998: 205), ya bajo la vigencia de l
 19.366, para la determinación si la droga estaba destinada a su tráfico o al autoconsumo, la judicatura no solo tenía en cuenta el peso de la droga, sino que también su
 calidad (grado de pureza).
 
-## 15 Véanse Matus (2005: 336), Navarro (2005: 278); Martorell (2007: 245), Ruiz
-
-(2009: 423), y González (2010: 119 y 120).
- 16 Corte Suprema, rol 73.896-16, del 28 de noviembre de 2016.
-
 ## 17 Matus y Ramírez (2019: 514). Comparten este predicamento García (2013: 45) y
+
+**Definición Canónica:** Aravena (2013: 96).
+**Concordancias Legales:** artículo 206 del Código Procesal Penal o algún indicio de aque; artículo 85; artículo 50
 
 Aravena (2013: 96).
 
@@ -2553,8 +2727,15 @@ está fuertemente devaluada, pues resulta obvio el control, registro, disciplina
 para mantener el desarrollo normal del recinto», por lo que resulta procedente su sanción por el artículo 50 al ser sorprendido en un registro
 con cannabis sativa en su vestimenta.18
 
-
 ## 18 Corte de Apelaciones de Santiago, rol 676-05, del 14 de diciembre de 2005. En
+
+**Definición Canónica:** sentido opuesto, Corte de Apelaciones de La Serena, rol 35-06, del 8 de marzo de
+2006, al declarar que «el artículo 50 de la Ley 20.000 no consideró dentro de los
+casos ejemplares los establecimientos carcelarios, no pudiendo aplicarse la analogía
+en materia penal; y, considerando que en la especie la sustancia incautada se encontraba en la celda del condenado, lugar que tiene las características de privado y por
+ende acceso restringido, estos sentenciadores estiman que el establecimiento carcelario, pese a ser un edificio público dependiente de la administración del Estado, no
+puede estimarse
+**Concordancias Legales:** artículo 50 de la Ley 20.000 no consideró dentro de los casos e; artículo 50; artículo 4; Ley 20.000
 
 sentido opuesto, Corte de Apelaciones de La Serena, rol 35-06, del 8 de marzo de
 2006, al declarar que «el artículo 50 de la Ley 20.000 no consideró dentro de los
@@ -2611,8 +2792,15 @@ de otro que, de no haber ocurrido, habría realizado el propio facilitador.
 Además, esa utilidad llevará a reiterar la conducta e incrementarla sucesivamente con el objeto de aumentar las ganancias, insertándose en el
 círculo económico que va ínsito en la comercialización de la droga, con
 
-
 ## 20 Requisito demandado por la jurisprudencia española, como lo expone Frieyro
+
+**Definición Canónica:** (2017: 223-226), aunque con pronunciamientos que han ampliado el margen de tolerancia al admitir que las personas que formen parte el grupo no sean drogodependientes, sino meros consumidores de fin de semana, como lo refiere Montero La
+Rubia (2007: 29).
+  21 Según Rey (1999: 42 y 43), se debe considerar como propio consumo el uso y cesión de droga dentro del grupo de consumidores, aunque se encargue a uno de ellos,
+como mero mandatario, adquirir la droga. Destaca que, para sostener la impunidad
+de estas conductas, debe existir únicamente la intención de consumir la sustancia,
+con exclusión de 
+**Concordancias Legales:** artículo 50.24
 
 (2017: 223-226), aunque con pronunciamientos que han ampliado el margen de tolerancia al admitir que las personas que formen parte el grupo no sean drogodependientes, sino meros consumidores de fin de semana, como lo refiere Montero La
 Rubia (2007: 29).
@@ -2657,13 +2845,16 @@ de la sustancia.
 reunido —siempre bajo las condiciones ya reseñadas— requiere alguna
 preparación, mejora o adición antes de su uso, y esto se ejecuta por el
 
-
-## 23 La ausencia de contraprestación es un requisito exigido por la jurisprudencia
-
-española para afirmar la atipicidad en este tipo de casos, como lo expone Frieyro
-(2017: 226) y Montero La Rubia (2007: 25).
-
 ## 24 Rey (1999: 89) no califica como acto de tráfico aquella adquisición destinada
+
+**Definición Canónica:** tanto para uso propio, como para el de un círculo cerrado de amigos, siempre y
+cuando haya existido un acuerdo (demostrado) por parte de estos de consumir la
+droga, y se haya comisionado al sujeto para adquirirla. En estos casos, el comprador
+es un mero mandatario o instrumento del ejercicio de la posesión, si va a consumirla igualmente. En su opinión, se trata de conductas derivadas del consumo, a
+veces de personas que se encuentran en estados personales de toxicomanía, que no
+representan peligro alguno de difusión efectiva de la droga y que, por tanto, deben
+quedar impunes. Cuestión distinta
+**Concordancias Legales:** artículos 1; artículo 4; artículo 50; Ley 20.000
 
 tanto para uso propio, como para el de un círculo cerrado de amigos, siempre y
 cuando haya existido un acuerdo (demostrado) por parte de estos de consumir la
@@ -2703,8 +2894,12 @@ como falta del citado artículo 50.
    La prueba del ordenamiento a un tratamiento médico solo resulta admisible si la conducta recae sobre «pequeñas cantidades» de sustancias
 o drogas, es decir, acciones que de no tener el señalado destino se san-
 
-
 ## 25 Corresponde a una conducta activa, a diferencia de la omisiva sancionada en el
+
+**Definición Canónica:** artículo 12 de la Ley 20.000 por la mera tolerancia del consumo de los asistentes por
+quien está a cargo del establecimiento. Como ya se mencionó, la jurisprudencia española incluye dentro de los requisitos para la atipicidad del consumo compartido,
+que la participación consumista venga referida a un pequeño número de drogodependientes, véase Montero La Rubia (2007: 29).
+**Concordancias Legales:** artículo 12 de la Ley 20.000 por la mera tolerancia del consumo; artículo 4; artículo 3; artículos 4; Ley 20.000
 
 artículo 12 de la Ley 20.000 por la mera tolerancia del consumo de los asistentes por
 quien está a cargo del establecimiento. Como ya se mencionó, la jurisprudencia española incluye dentro de los requisitos para la atipicidad del consumo compartido,
@@ -2741,6 +2936,14 @@ cantidades de sustancias con fecha de caducidad muy cercana, imposibles de consu
 
 ## 27 El denominado «consumo compasivo» consiste en la entrega altruista y sin
 
+**Definición Canónica:** contraprestación a familiares y allegados de cantidades mínimas de drogas con el
+fin de aliviar el síndrome de abstinencia. Sobre esta materia, Frieyro (2017: 235 y ss.)
+lo condiciona a los siguientes requisitos: i) que no exista riesgo de transmisión de la
+droga a otras personas distintas al familiar al que va destinada; ii) gratuidad; iii) que
+se trate de cantidades mínimas de estupefaciente para su consumo inmediato; y iv)
+que se facilite la sustancia con el fin de aliviar el síndrome de abstinencia.
+**Concordancias Legales:** artículo 4
+
 contraprestación a familiares y allegados de cantidades mínimas de drogas con el
 fin de aliviar el síndrome de abstinencia. Sobre esta materia, Frieyro (2017: 235 y ss.)
 lo condiciona a los siguientes requisitos: i) que no exista riesgo de transmisión de la
@@ -2772,8 +2975,14 @@ esta eximente.29
 puede aducir un error de tipo excluyente del dolo, al creer que se presenta el elemento negativo del artículo 4, por estar destinada la droga o
 sustancia a un tratamiento terapéutico, con las consecuencias igualmente liberatorias de responsabilidad.
 
-
 ## 28 Como se invocó por el recurrente en Corte Suprema, rol 4.949-2015, del 4 de
+
+**Definición Canónica:** junio de 2015.
+ 29 El artículo 6 de la Ley 20.000 sanciona al médico cirujano, odontólogo o médico veterinario que recete alguna de las sustancias señaladas en el artículo 1, sin
+necesidad médica o terapéutica, no así cuando la sustancia sirve a esa necesidad,
+pero no se encuentra autorizado ese uso por la autoridad sanitaria. De otra opinión
+es Rebolledo (2020a: 65; 2020b: 89).
+**Concordancias Legales:** artículo 6 de la Ley 20.000 sanciona al médico cirujano; artículo 1; Ley 20.000
 
 junio de 2015.
  29 El artículo 6 de la Ley 20.000 sanciona al médico cirujano, odontólogo o médico veterinario que recete alguna de las sustancias señaladas en el artículo 1, sin
@@ -2783,8 +2992,10 @@ es Rebolledo (2020a: 65; 2020b: 89).
 
 Materiales Docentes                                                     Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Delito de asociación ilícita (artículo 16 Ley 20.000)
+**Concordancias Legales:** artículo 16; artículo 19; artículos 322; artículos 292; Ley 20.000; Constitución Política
 
 Delito de asociación ilícita (artículo 16 Ley 20.000)
 
@@ -2875,8 +3086,15 @@ association de malfaitures francesa)» (Malamud, 2016: 154 y 155; Grisolía,
 Crímenes y Simples Delitos contra el Orden y la Seguridad Públicos cometidos por particulares», en el párrafo 10 «De las asociaciones ilícitas».
    A su turno, la Constitución Política de la República de Chile contem-
 
-
 ## 1 Internet ofrece una amplia gama de uso, algunos la comparan con un iceberg
+
+**Definición Canónica:** para describir los niveles que se presentan en la Web, donde la superficie es lo que
+todos conocemos y donde navegamos día a día. La Internet profunda se encuentra
+invisible, no conectada a los motores de búsqueda que utilizamos. Este lado oculto
+del iceberg se divide en dos: Deep Web y Dark Web. En la Deep Web puedes encontrar contenido que infringe la ley, como el tráfico de drogas y delitos relativos a la
+Ley de Armas, homicidios y pornografía infantil, mientras que en la Dark Web se
+pueden encontrar los videos más oscuros de toda Internet.
+**Concordancias Legales:** artículo 19; artículo 292 del Código Penal establece que; artículo 8 del Código Penal; artículo 17; artículos 50; artículo 513; artículo 292; artículos 293; artículo 294 bis; artículo 295 del Código Penal contiene una excusa legal absolu; artículo 295 bis; artículo 16 de la Ley 20.000; Ley 20.000; Ley 20.393; Ley 20.830; constitucion
 
 para describir los niveles que se presentan en la Web, donde la superficie es lo que
 todos conocemos y donde navegamos día a día. La Internet profunda se encuentra
@@ -3020,14 +3238,15 @@ de la Ley 20.000:
       de los delitos contemplados en esta ley serán sancionados, por este solo
       hecho, según las normas que siguen:
 
-## 1. Con presidio mayor en sus grados medio a máximo, al que financie
-
-      de cualquier forma, ejerza el mando o dirección, o planifique el o los
-      delitos que se propongan.
-
 ## 2. Con presidio mayor en sus grados mínimo a medio, al que suminis-
 
-      tre vehículos, armas, municiones, instrumentos, alojamientos, escondi-
+**Definición Canónica:** tre vehículos, armas, municiones, instrumentos, alojamientos, escondi-
+      te, lugar de reunión o cualquiera otra forma de colaboración para la
+      consecución de los fines de la organización.
+Materiales Docentes                                                    Capítulo 5
+**Concordancias Legales:** artículo 294 bis; artículo 74 del Código Penal para los efectos de la apli; artículo 22 de la Ley 20.000; artículo 295 del Código Penal; artículo 295 bis; artículo 16 de la Ley 20.000 lo describe en su inciso primero; artículo 19; artículo 16; artículo 292 del Código Penal; Ley 20.000
+
+tre vehículos, armas, municiones, instrumentos, alojamientos, escondi-
       te, lugar de reunión o cualquiera otra forma de colaboración para la
       consecución de los fines de la organización.
 Materiales Docentes                                                    Capítulo 5
@@ -3122,8 +3341,10 @@ previamente respecto del artículo 292 del Código Penal, con las diferencias pr
 
 Materiales Docentes                                                            Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Antijuridicidad y culpabilidad
+**Concordancias Legales:** constitucion
 
 Antijuridicidad y culpabilidad
 
@@ -3191,6 +3412,8 @@ dogmática, como base mínima para llegar a aceptar la punibilidad de todas las 
 
 ## 4 Mañalich (2004a: 348), Navarro (2005: 266), Marcazzolo (2009: 93), González
 
+**Definición Canónica:** Materiales Docentes                                                            Capítulo 6
+**Concordancias Legales:** artículo 8 de la Ley 20.000 se demanda que se; artículo 1 de la Ley 20.000; Ley 20.000
 
 Materiales Docentes                                                            Capítulo 6
 
@@ -3216,6 +3439,15 @@ peligrosidad de la sustancia misma.
 de exponer las restricciones que la jurisprudencia del mismo tribunal ha ido edificando a los alcances de la figura.
 
 ## 6 Bustos (2009: 592) plantea que es «un delito de lesión del bien jurídico salud
+
+**Definición Canónica:** pública», siendo necesario demostrar la toxicidad, esto es, que se afecta la salud
+pública (no solo en cuanto droga, sino también por su composición y presentación
+al público), concluyendo que, no basta con probar los elementos objetivos del tipo
+legal, es necesario siempre, además, que se determine «la nocividad concreta del
+hecho respecto de la salud», mientras que Hernández (1992: 132) sostiene que se
+trata de delitos de peligro concreto, con peculiaridades si se quiere, que exigen que
+se produzca un peligro real para el bien jurídico, esto es, para el bien jurídico individual complementari
+**Concordancias Legales:** artículo 4; artículo 4 de la Ley 20.000.11 Es decir; Ley 19.366; Ley 20.000.11
 
 pública», siendo necesario demostrar la toxicidad, esto es, que se afecta la salud
 pública (no solo en cuanto droga, sino también por su composición y presentación
@@ -3243,8 +3475,13 @@ las disquisiciones contenidas en esos fallos de tiempo atrás se hacen a
 pie forzado por las deficiencias de la legislación vigente a la sazón que
 no resultan predicables a la actual, al menos en ese punto, y que impiden, por tanto, echar mano a ellas mecánicamente.12
 
-
 ## 8 Corte Suprema, rol 8.340-19, del 11 de julio de 2019. Oxman (2017: 71) cuestiona
+
+**Definición Canónica:** la comprensión, en fallos como los arriba referidos, de que la estructura del delito
+de microtráfico sea la de un delito de peligro concreto y de resultado, lo que, en su
+opinión, se debe a que tradicionalmente se entiende, erróneamente, que los delitos
+de peligro abstracto son siempre de mera actividad a diferencia de los delitos de
+peligro concreto que son de resultado.
 
 la comprensión, en fallos como los arriba referidos, de que la estructura del delito
 de microtráfico sea la de un delito de peligro concreto y de resultado, lo que, en su
@@ -3253,6 +3490,13 @@ de peligro abstracto son siempre de mera actividad a diferencia de los delitos d
 peligro concreto que son de resultado.
 
 ## 9 Corte Suprema, rol 37.989-17, del 12 de octubre de 2017. En Corte Suprema, rol
+
+**Definición Canónica:** 25.388-21, del 5 de julio de 2021 se expresa que «si bien se ha querido catalogar el tráfico ilícito de drogas como un delito de peligro abstracto —lo que ha sido denegado
+en fallos anteriores de esta Sala—, en el que la peligrosidad típica de una acción es
+motivo para su penalización, sin que en el caso concreto se haga depender la punibilidad de la producción real de un peligro, pues la evitación de concretos peligros y
+lesiones es solo el motivo del legislador y no un requisito del tipo (Roxin, 1997: 336 y
+407), no por ello puede dejar de verificarse si el hecho cuya tipicidad se examina tu
+**Concordancias Legales:** artículo 4 de la Ley 20.000; Ley 20.000; Constitucion
 
 25.388-21, del 5 de julio de 2021 se expresa que «si bien se ha querido catalogar el tráfico ilícito de drogas como un delito de peligro abstracto —lo que ha sido denegado
 en fallos anteriores de esta Sala—, en el que la peligrosidad típica de una acción es
@@ -3271,6 +3515,8 @@ de una peligrosidad concreta y que, por ende, debe ser acreditada en el proceso�
 
 ## 12 Cisternas (2011: 68) explica que antes de la entrada en vigor de la Ley 20.000 se
 
+**Definición Canónica:** Materiales Docentes                                                            Capítulo 6
+**Concordancias Legales:** artículo 4 de la Ley 20.000; artículo 1; artículo 4; Ley 20.000
 
 Materiales Docentes                                                            Capítulo 6
 
@@ -3324,8 +3570,16 @@ tiene la aptitud para ocasionar los efectos tóxicos o daños a la salud que
 demanda el artículo 1 al que se remite el artículo 4,16 o si no se prueba
 la pureza de la planta de cannabis sativa.17 Estos pronunciamientos, aun
 
-
 ## 16 Un listado y análisis de esos fallos en el período 2016 a 2018, en Rodríguez
+
+**Definición Canónica:** (2019: 80-101). También, sobre esta materia, Castro (2012: 131-146), Hrzic (2013: 107118), Peña (2013: 119-125), Winter (2016: 200 y 201) y Oxman (2017: 67-85), quien
+señala en la pág. 76, que el delito de microtráfico solo requiere la realización de una
+acción riesgosa que crea un peligro abstracto de involucrar a otro en un contexto de
+tráfico, con independencia de si la misma conducta produce o no el citado estado de
+ofensividad material entendido como potencialidad lesiva de la sustancia. Ni en sus
+pronunciamientos anteriores ni en los más recientes la Corte Suprema ha requerido
+la demostr
+**Concordancias Legales:** artículo 3 de la Ley 20.000; Ley 20.000
 
 (2019: 80-101). También, sobre esta materia, Castro (2012: 131-146), Hrzic (2013: 107118), Peña (2013: 119-125), Winter (2016: 200 y 201) y Oxman (2017: 67-85), quien
 señala en la pág. 76, que el delito de microtráfico solo requiere la realización de una
@@ -3346,6 +3600,12 @@ Suprema, rol 41.779-17, del 18 de diciembre de 2017; Corte Suprema, rol 45.639-1
 Suprema, rol 26.100-18, del 10 de diciembre de 2018.
 
 ## 17 En el caso del artículo 8 de la Ley 20.000, salvo algunos fallos aislados, la Corte
+
+**Definición Canónica:** Suprema no ha requerido demostrar la «pureza» de la planta, declarando en Corte
+Suprema, rol 24.869-2017, del 18 de julio de 2017, que «la presencia de los principios
+activos de la sustancia de rigor es suficiente para calificarla como aquellas que constituyen el objeto material del delito de cultivo». Véanse también Corte Suprema, rol
+41.412-2017, del 29 de noviembre de 2017; Corte Suprema, rol 23.005-2018, del 5 de
+noviembre de 2018; Corte Suprema, rol 29.118-2019, del 6 de enero de 2020, y Corte
 
 Suprema no ha requerido demostrar la «pureza» de la planta, declarando en Corte
 Suprema, rol 24.869-2017, del 18 de julio de 2017, que «la presencia de los principios
@@ -3383,6 +3643,12 @@ esos fallos que requieren la prueba de la pureza de la planta, en Rodríguez (20
 
 ## 18 Medina (2016: 256) cuestiona el carácter de bien jurídico de la idea de salud
 
+**Definición Canónica:** pública, afirmando que esta no es un concepto que pueda ser construido sino como
+la sumatoria acumulada de la salud individual de un número significativo de individuos, pues el que la cantidad de sujetos sea considerable o indeterminada no cambia
+cualitativamente la idea de que la salud no es más que un estado predicable respecto
+de entes biológicos concretos y no de un abstracto constructo social desligado de los
+sujetos individuales. En la misma línea, Winter (2016: 200).
+
 pública, afirmando que esta no es un concepto que pueda ser construido sino como
 la sumatoria acumulada de la salud individual de un número significativo de individuos, pues el que la cantidad de sujetos sea considerable o indeterminada no cambia
 cualitativamente la idea de que la salud no es más que un estado predicable respecto
@@ -3390,6 +3656,15 @@ de entes biológicos concretos y no de un abstracto constructo social desligado 
 sujetos individuales. En la misma línea, Winter (2016: 200).
 
 ## 19 Oxman (2017: 72 y 73) señala que dada la naturaleza de esta figura no puede
+
+**Definición Canónica:** pretenderse un examen ex post sobre la base de la acreditación de un peligro real y
+efectivo, en términos de probabilidad o posibilidad cierta de la sustancia ilícita de
+ser nociva (expresado este punto en términos de exigencia de pureza), porque ello
+supondría desnaturalizar los tipos de peligro abstracto y convertirlos en delitos de
+peligro concreto para la salud individual. Castro (2021: 80), por su lado, afirma que
+el daño al bien jurídico se provoca cada vez que se encuentra presente el principio
+activo de una sustancia, con independencia del grado de pureza que posea.
+**Concordancias Legales:** artículo 4 de la Ley 20.000; artículo 50; Ley 20.000
 
 pretenderse un examen ex post sobre la base de la acreditación de un peligro real y
 efectivo, en términos de probabilidad o posibilidad cierta de la sustancia ilícita de
@@ -3427,8 +3702,12 @@ considerar para racionalizar los límites de la intervención punitiva y
 concluir la ausencia de antijuridicidad material de una conducta de tráfico, igualmente pueden emplearse como elementos de interpretación
 que restringen las acciones descritas de modo abstracto y general en el
 
-
 ## 20 Corte Suprema, rol 25.388-21, del 5 de julio de 2021. Expone la evolución de la
+
+**Definición Canónica:** jurisprudencia española respecto a entregas gratuitas a familiares internos en centros penitenciarios, Montero La Rubia (2007: 27 y 28).
+ 21 Sobre los conceptos de dosis mínima psicoactiva y dosis de abuso, desarrollados por la jurisprudencia española, y su relación con el principio de insignificancia,
+véase Frieyro (2017: 257 y ss.).
+**Concordancias Legales:** artículo 10; Ley 20.000
 
 jurisprudencia española respecto a entregas gratuitas a familiares internos en centros penitenciarios, Montero La Rubia (2007: 27 y 28).
  21 Sobre los conceptos de dosis mínima psicoactiva y dosis de abuso, desarrollados por la jurisprudencia española, y su relación con el principio de insignificancia,
@@ -3463,8 +3742,15 @@ pueda presentarse, como en quien, producto de las graves secuelas de
 una severa y dilatada adicción puede calificarse como privado de razón
 por causa independiente de su voluntad22 y, durante ese estado, a fin de
 
-
 ## 22 Lema (2019: 484) explica que no debe excluirse la «independencia» a que alude
+
+**Definición Canónica:** el artículo 10 núm. 1 del Código Penal, porque el consumo que origina la adicción
+sea voluntario, pues la independencia debe revisarse desde el prisma de la capacidad
+de autocontrol del sujeto, con relación a lograr autodeterminar su propia voluntad
+conforme a derecho en el momento concreto de la ocurrencia de los hechos. Dicho
+de otra manera, debe estudiarse si es que la adicción se vuelve independiente del
+consumo voluntario, controlando la voluntad del sujeto, interfiriendo en las motivaciones del sujeto en orden a su obtención de droga a consumir.
+**Concordancias Legales:** artículo 10; artículos 1; Ley 20.000
 
 el artículo 10 núm. 1 del Código Penal, porque el consumo que origina la adicción
 sea voluntario, pues la independencia debe revisarse desde el prisma de la capacidad
@@ -3495,8 +3781,11 @@ la ocurrencia de los hechos se encontraba bajo los efectos de dicha droga.
 
 Materiales Docentes                                                     Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Autoría y participación en el delito
+de tráfico de drogas
+**Concordancias Legales:** artículo 3; artículo 15; artículo 4; artículo 19; Ley 20.000
 
 Autoría y participación en el delito
 de tráfico de drogas
@@ -3592,6 +3881,10 @@ indiferencia que se aprecia en la doctrina de la ignorancia deliberada.
   2 TS español número 16-00, del 10 de enero de 2000.
 
 ## 3 Una de las obras más importantes en relación con la willful blindness, es aquella
+
+**Definición Canónica:** publicada en 1994 por los profesores estadounidenses Douglas Husak y Craig Callender, quienes entregan los elementos que definen las situaciones que pueden ser
+consideradas dentro del concepto de ignorancia deliberada.
+**Concordancias Legales:** artículo 368; artículo 3 de la Ley 20.000 está construido sobre la base de p; artículo 368 del Código Penal; artículo 368 del Código Pe; artículo 368 del Código Penal ha definido; artículos 369 bis; artículo 368 del Código Penal todos los comportamientos que su; artículo 15 del Código Penal.13 A su turno; artículo 51 del Código Penal; artículos 368; Ley 20.000
 
 publicada en 1994 por los profesores estadounidenses Douglas Husak y Craig Callender, quienes entregan los elementos que definen las situaciones que pueden ser
 consideradas dentro del concepto de ignorancia deliberada.
@@ -3933,8 +4226,10 @@ el concepto extensivo de autor:
 
 Materiales Docentes                                                         Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Concursos de delitos
+**Concordancias Legales:** artículo 5 de la Ley 19.366 y; artículo 4 de la Ley 20.000; artículo 4; artículo 3; Ley 19.366; Ley 20.000
 
 Concursos de delitos
 
@@ -4030,8 +4325,16 @@ operaciones o modus operandi diversos.7
    En efecto, como factor determinante en la singularización y castigo
 como delitos independientes, se ha considerado la realización de actos
 
-
 ## 5 Matus y Ramírez (2019: 502) señalan que la actividad de tráfico, si bien puede
+
+**Definición Canónica:** comenzar con la primera transferencia o suministro, también puede continuar en
+el tiempo y no varía su naturaleza con el número de transferencias o suministros
+que se realicen, ni con el hecho de que quien transfiere, necesariamente posee las
+sustancias que se tratan, de modo que tal sujeto no comete tantos delitos de tráfico
+como sustancias posee, o como ventas o suministros aislados realiza, sino uno solo.
+  6 Corte Suprema, rol 23.309-18, del 18 de diciembre de 2018.
+  7 Rebolledo (2021: 350) explica que nuestra legislación especial sobre drogas reconoce la autonomía de diversos actos prepa
+**Concordancias Legales:** artículo 3; artículo 1; artículo 2; artículos 3; artículo 17; artículo 74 del Código Penal. Matus y Ramírez; artículo 351 del Código Procesal Penal
 
 comenzar con la primera transferencia o suministro, también puede continuar en
 el tiempo y no varía su naturaleza con el número de transferencias o suministros
@@ -4078,8 +4381,13 @@ cuanto
 
   La calificación como un solo delito de tráfico o microtráfico de drogas en virtud de la figura de emprendimiento analizada, no importa que
 
-
 ## 8 Corte Suprema, rol 10.197-17, del 4 de mayo de 2017. Se arriba a igual conclusión
+
+**Definición Canónica:** en Corte Suprema, rol 10.162-10, del 24 de febrero de 2011, que corresponde a dos
+ventas de marihuana el 9 y 16 de diciembre de 2009, donde a raíz de la primera el
+comprador entrega antecedentes que sirven para solicitar una orden de entrada y registro al domicilio del acusado y, cuando la policía se disponía a ejecutar esa orden,
+sorprende al acusado realizando una segunda venta, momento en que es detenido.
+**Concordancias Legales:** artículo 69 del Código Penal; artículo 3; artículo 4; artículo 351 del Código Procesal Penal; artículo 3.9; artículo 8 de la Ley 20.000 Los actos descritos en el artículo; artículo 3 de la Ley 20.000; artículo 43 de la Ley 20.000 cuando se sorprende al hechor con; Ley 20.000
 
 en Corte Suprema, rol 10.162-10, del 24 de febrero de 2011, que corresponde a dos
 ventas de marihuana el 9 y 16 de diciembre de 2009, donde a raíz de la primera el
@@ -4131,8 +4439,16 @@ cuando se sorprende al hechor con marihuana o cannabis sativa y, además, con pl
 su grado de pureza, sin reflexionar sobre la relevancia de la tenencia de
 las últimas.11 Al así decidir este grupo de casos, el máximo tribunal, táci-
 
-
 ## 10 Matus (1998: 138 y 139) agrega que al mismo resultado se llegaría si se miran
+
+**Definición Canónica:** estos hechos desde el punto de vista del delito básico: aquí, puesto que el delito de
+tráfico, en sentido amplio, es también un delito de emprendimiento, los actos de
+cultivo, elaboración y tráfico pueden verse como meros hechos cuantitativamente
+irrelevantes dentro de la empresa global que los reúne, esto es, se comete siempre un
+único delito de tráfico en sentido amplio. Sobre lo mismo, Matus (1999: 248). Ruiz
+(2009: 417 y 418) expone que, conforme a la doctrina mayoritaria, se considera absorbido en el mayor disvalor de injusto de delitos como el de tráfico ilícito de drogas
+del artículo 3,
+**Concordancias Legales:** artículo 3; artículo 368 del Código Penal español precisamente enuncia los; artículo 74 del Código Penal
 
 estos hechos desde el punto de vista del delito básico: aquí, puesto que el delito de
 tráfico, en sentido amplio, es también un delito de emprendimiento, los actos de
@@ -4151,6 +4467,14 @@ opuesta esgrime Zavidich (2010: 158), al postular que debe aplicarse la acumulac
 material de penas del artículo 74 del Código Penal.
 
 ## 11 Corte Suprema, rol 94.899-16, del 25 de enero de 2017 (111,9 gramos de cannabis
+
+**Definición Canónica:** sativa y «una planta de cannabis»); Corte Suprema, rol 39.757-17, del 15 de noviembre
+de 2017 (34,6 gramos de cannabis sativa y «dos plantas de cannabis sativa»); Corte
+Suprema, rol 40.287-17, del 30 de noviembre de 2017 (88,81 gramos de cannabis sativa y «dos plantas vivas del género cannabis sativa»); Corte Suprema, rol 20.441-18,
+del 2 de octubre de 2018 (3,4 gramos de marihuana «y una planta viva de 82 centímetros de la misma especie»); Corte Suprema, rol 22.932-18, del 31 de octubre de 2018
+(184,7 gramos de marihuana y «dos plantas del género cannabis sativa»); y Corte
+Suprema, rol 24.896
+**Concordancias Legales:** artículo 8 de la Ley 20.000; artículo 74 del Código Penal; artículos 3; artículo 8; Ley 20.000
 
 sativa y «una planta de cannabis»); Corte Suprema, rol 39.757-17, del 15 de noviembre
 de 2017 (34,6 gramos de cannabis sativa y «dos plantas de cannabis sativa»); Corte
@@ -4211,8 +4535,17 @@ cultivó, el delito será el del citado artículo 8, a pesar de que la posesión
 de tales especies pueda verse también como constitutiva de tráfico, en
 tanto no se produzca su transferencia a un tercero.13
 
-
 ## 12 Corte Suprema, rol 12.564-18, del 16 de agosto de 2018. La disquisición de la
+
+**Definición Canónica:** Corte resulta problemática, ya que de haberse demostrado que la plantación tenía
+por objeto el consumo personal exclusivo y próximo en el tiempo de quien está
+a cargo de la misma —como echa de menos el fallo—, ello descartaría un tráfico
+posterior y, por ende, aquella no podría ser un acto preparatorio de este. En Corte
+Suprema, rol 12.869-18, del 1 de agosto de 2018, la sentencia recurrida califica como
+dos delitos, del artículo 3 y 8 de la Ley 20.000 los siguientes hechos: se sorprende
+al imputado con contenedores de sumidades floridas de cannabis sativa, plantas de
+cannabis sativa en proces
+**Concordancias Legales:** artículo 3; artículo 75; Ley 20.000
 
 Corte resulta problemática, ya que de haberse demostrado que la plantación tenía
 por objeto el consumo personal exclusivo y próximo en el tiempo de quien está
@@ -4243,6 +4576,8 @@ la asimila, para los efectos del castigo, al concurso ideal».
 
 ## 13 Matus (1999: 222) complementa que lo mismo puede decirse de los actos de
 
+**Definición Canónica:** Materiales Docentes                                                           Capítulo 8
+**Concordancias Legales:** artículo 8 de la Ley 20.000 también corresponde a uno de empre; artículo 8 de la Ley 20.000; artículo 8; artículo 3 de la Ley 20.000; Ley 20.000
 
 Materiales Docentes                                                           Capítulo 8
 
@@ -4279,6 +4614,10 @@ por lo que la sanción impuesta de cuatro años de presidio se encuentra dentro 
 marco penal que podía fijar la sentencia».
 
 ## 14 Rebolledo (2016a: 112) señala que el desvío de precursores químicos no son
+
+**Definición Canónica:** actos preparatorios especialmente punibles, dado que aparecen descritos como figuras diversas, tanto en su faz objetiva como subjetiva, siendo improcedente, por
+tanto, considerar unidad jurídica de acción respecto al tráfico de drogas al alero de
+**Concordancias Legales:** artículo 3 de la Ley 20.000 es un delito de emprendimien; artículo 3; artículo 2; artículo 1; artículo 3 de la Ley 20.000; artículo 74 del Código Penal; Ley 20.000
 
 actos preparatorios especialmente punibles, dado que aparecen descritos como figuras diversas, tanto en su faz objetiva como subjetiva, siendo improcedente, por
 tanto, considerar unidad jurídica de acción respecto al tráfico de drogas al alero de
@@ -4361,6 +4700,9 @@ del Código Penal».
 
 ## 17 Ya fue dicho que el artículo 368 del Código Penal español de 1995 señala los
 
+**Definición Canónica:** actos de «elaboración» y «tráfico» como modalidades mediante las cuales se puede
+realizar la conducta prohibida de promoción, favorecimiento o facilitación del consumo ilegal de drogas que se sanciona en dicha disposición.
+
 actos de «elaboración» y «tráfico» como modalidades mediante las cuales se puede
 realizar la conducta prohibida de promoción, favorecimiento o facilitación del consumo ilegal de drogas que se sanciona en dicha disposición.
 
@@ -4376,8 +4718,10 @@ Materiales Docentes                                                        Capí
 
 Materiales Docentes                                                       Capítulo 9
 
-
 ## Capítulo 9
+
+**Definición Canónica:** Circunstancias modificatorias y penas
+**Concordancias Legales:** artículo 19 de la Ley 20.000 El artículo 19 de la Ley 20.000 de; artículo 68 del Código Penal en cuanto a la forma en que ha d; artículo 19; artículo 16; Ley 20.000
 
 Circunstancias modificatorias y penas
 
@@ -4403,8 +4747,15 @@ de personas se sanciona con mayor dureza,
        porque la ejecución en conjunto de una operación de tráfico, además
       de favorecer su impunidad, conlleva resolución delictiva común, ya que
 
-
 ## 1 También, Corte Suprema, rol 22.179-21, del 8 de abril de 2022, en la que expresa
+
+**Definición Canónica:** que «la agravación debió operar en cada uno de los grados designados por la ley al
+delito de tráfico de sustancias estupefacientes, que es presidio mayor en su grado
+mínimo a presidio mayor en su grado medio, por lo que al aumentarlo en un grado,
+debió establecerse en presidio mayor en su grado medio a presidio mayor en su
+grado máximo, sanción en función de la cual luego debió aplicarse el artículo 68 del
+Código Penal, por tratarse de una pena de dos grados de una pena divisible».
+**Concordancias Legales:** artículo 68 del Código Penal
 
 que «la agravación debió operar en cada uno de los grados designados por la ley al
 delito de tráfico de sustancias estupefacientes, que es presidio mayor en su grado
@@ -4439,6 +4790,14 @@ un fin delictivo común, como el elemento característico de esta modificatoria,
 véanse Corte Suprema, rol 3.697-19, del 23 de abril de 2019; Corte Suprema, rol 724819, del 6 de mayo de 2019; y Corte Suprema, rol 119.194-20, del 4 de febrero de 2021.
 
 ## 3 Para Hernández (2007: 14), la agrupación o reunión «no cuenta con el grado de
+
+**Definición Canónica:** organización propio de una asociación ilícita, en términos de jerarquía y disciplina
+internas». Contreras (2021: 275) considera que el aumento en la penalidad que conlleva la agravante en examen se justifica en la forma como se cometen determinados
+delitos, que involucra la asociación u organización de personas con una proyección
+de permanencia y estabilidad para cometer delitos de la forma más eficiente posible,
+reduciendo los riesgos aparejados de la actividad criminal, maximizando las ganancias que se logren obtener. En Corte Suprema, rol 3.206-07, del 3 de septiembre de
+2007, se ha decidid
+**Concordancias Legales:** artículo 19; artículo 369; artículo 368
 
 organización propio de una asociación ilícita, en términos de jerarquía y disciplina
 internas». Contreras (2021: 275) considera que el aumento en la penalidad que conlleva la agravante en examen se justifica en la forma como se cometen determinados
@@ -4508,8 +4867,13 @@ bandas organizadas, corrupción de los custodios, y alteración del orden
 interno producto de los mismos efectos de la droga en los recluidos que
 la consumen,8 dificultando el control de la población penal por la auto-
 
-
 ## 7 En Corte Suprema, rol 1.351-18, del 8 de marzo de 2018 y Corte Suprema, rol
+
+**Definición Canónica:** 4.492-22, del 10 de junio de 2022, se razona que «el precepto considera más disvalioso, desde el punto de vista del reproche penal, que el tráfico se realice en recintos militares, policiales, asistenciales, de detención, etcétera, por las especiales funciones
+que ahí se realizan y la mayor peligrosidad que el desarrollo de estos delitos puede
+tener en ellos, estimados especialmente valiosos para el desarrollo de las prioridades sociales, lo que tiene coherencia sistemática incluso al mirar alguna de las otras
+agravantes que contempla el artículo 19 ya referido, como son las letras f) y g), se
+**Concordancias Legales:** artículo 19; Ley 19.366
 
 4.492-22, del 10 de junio de 2022, se razona que «el precepto considera más disvalioso, desde el punto de vista del reproche penal, que el tráfico se realice en recintos militares, policiales, asistenciales, de detención, etcétera, por las especiales funciones
 que ahí se realizan y la mayor peligrosidad que el desarrollo de estos delitos puede
@@ -4524,6 +4888,9 @@ redacción de la ley».
 
 ## 8 En Corte Suprema, rol 45.630-17, del 27 de febrero de 2018, se cuenta entre los
 
+**Definición Canónica:** elementos que permiten descartar que la droga poseída por internos de un recinto
+penal estuviera destinada a un consumo exclusivo, el que «en un recinto de reclusión […] la posibilidad de acceso a dichas dosis es significativamente más dificulto-
+
 elementos que permiten descartar que la droga poseída por internos de un recinto
 penal estuviera destinada a un consumo exclusivo, el que «en un recinto de reclusión […] la posibilidad de acceso a dichas dosis es significativamente más dificulto-
 
@@ -4537,6 +4904,13 @@ de libertad—, sino solo a gendarmes u otras visitas de los internos,10
 sa que en cualquier otro tipo de recinto, por las medidas de seguridad existentes».
 
 ## 9 En Corte de Apelaciones de Valparaíso, rol 148-18, del 12 de febrero de 2018, se
+
+**Definición Canónica:** señala que el aumento de pena establecido en la letra h) del artículo 19 tiene soporte
+en «los perniciosos efectos que trae el tráfico de drogas —con sus evidentes beneficios económicos— en los recintos carcelarios, en cuanto induce a la corrupción de las
+personas que tienen acceso al recinto, facilita la existencia de conflictos por el control
+de su distribución, dificulta la disciplina al interior de los penales y favorece adicciones que exponen a quienes las sufren a tratos degradantes y que afectan la dignidad
+humana». En opinión de Reyes (2017: 305), dichos fundamentos de la agravación so
+**Concordancias Legales:** artículo 19; Ley 20.000
 
 señala que el aumento de pena establecido en la letra h) del artículo 19 tiene soporte
 en «los perniciosos efectos que trae el tráfico de drogas —con sus evidentes beneficios económicos— en los recintos carcelarios, en cuanto induce a la corrupción de las
@@ -4605,6 +4979,11 @@ ello dejan de ser recintos que forman parte de la unidad penal».
 
 ## 12 Politoff, Matus y Ramírez (2009: 619), refiriéndose a la calificante de la letra g)
 
+**Definición Canónica:** del mismo artículo 19, pero previniendo que también se extiende ese razonamiento
+a la de la letra h) en examen, rechazan que se presente la agravación si al momento
+de la comisión del delito no están reunidas en el recinto personas indeterminadas.
+**Concordancias Legales:** artículo 19; artículo 22 de la Ley 20.000 La minorante14 de cooperación efic; Ley 20.000
+
 del mismo artículo 19, pero previniendo que también se extiende ese razonamiento
 a la de la letra h) en examen, rechazan que se presente la agravación si al momento
 de la comisión del delito no están reunidas en el recinto personas indeterminadas.
@@ -4641,6 +5020,13 @@ febrero de 2018, y Vásquez Barriga (2016: 424), y Cabezas (2018: 629).
 
 ## 14 En relación con esta atenuante especial cabe subrayar la disposición contenida
 
+**Definición Canónica:** en el artículo 62 de la Ley 20.000: «No se aplicará ninguna de las penas sustitutivas
+contempladas en la Ley 18.216 a la persona que haya sido condenada con anterioridad por alguno de los crímenes o simples delitos contemplados en esta ley o en la
+Ley 19.366, en virtud de sentencia ejecutoriada, haya cumplido o no, efectivamente,
+la condena, a menos que le sea reconocida la circunstancia atenuante establecida en
+el artículo 22».
+**Concordancias Legales:** artículo 62 de la Ley 20.000; artículo 22; Ley 20.000; Ley 18.216; Ley 19.366
+
 en el artículo 62 de la Ley 20.000: «No se aplicará ninguna de las penas sustitutivas
 contempladas en la Ley 18.216 a la persona que haya sido condenada con anterioridad por alguno de los crímenes o simples delitos contemplados en esta ley o en la
 Ley 19.366, en virtud de sentencia ejecutoriada, haya cumplido o no, efectivamente,
@@ -4654,8 +5040,15 @@ identificación de sus responsables; o sirva para prevenir o impedir la
 perpetración o consumación de otros delitos de igual o mayor gravedad
 contemplados en la Ley 20.000,15 la cual, una vez calificada de tal, podría producir el efecto de rebajar la pena hasta en dos grados.16
 
-
 ## 15 En la primera hipótesis la colaboración recae sobre la misma investigación que
+
+**Definición Canónica:** afecta al imputado, e implica que son los datos aportados por el colaborador y no
+otros (que eventualmente ya sean manejados por la policía o el fiscal) los que permitan lograr estos objetivos. Mientras en la segunda hipótesis, el colaborador aporta
+datos a un proceso extraño al que se sigue en su contra, y gracias a ellos el Ministerio
+Público ha podido iniciar nuevas investigaciones que finalmente han logrado evitar
+la consumación de otros delitos tanto o más graves que los cometidos por el imputado. En Corte de Apelaciones de Santiago, rol 809-06, del 16 de mayo de 2006, se
+decidió que se c
+**Concordancias Legales:** artículos 65; artículo 22; artículo 11; artículo 22 de la Ley 20.000 y el artículo 11 número 9 del Códi; artículo 395 del Código Procesal Penal y en el inciso cuarto d; artículo 407; artículo 62; artículo 1 de la Ley 18.216; artículo 1 de la Ley 18.216 también prohíbe la imposición de l; artículo 3 del D. L. 321 dispone que las personas condenadas; artículo 2; ley 20.000; Ley 18.216; Ley 19.366; Ley 18.403.20; Ley 20.000.22
 
 afecta al imputado, e implica que son los datos aportados por el colaborador y no
 otros (que eventualmente ya sean manejados por la policía o el fiscal) los que permitan lograr estos objetivos. Mientras en la segunda hipótesis, el colaborador aporta
@@ -4781,8 +5174,15 @@ dos tercios de la pena —la mitad de la condena constituye la regla general en 
 que esta mayor exigencia es procedente únicamente respecto de los delitos en que la conducta sancionada consista en la elaboración o tráfico
 de estupefacientes, y no a todo delito contenido en la Ley 20.000.22
 
-
 ## 20 El inciso séptimo del citado artículo 1 de la Ley 18.216 establece que «para los
+
+**Definición Canónica:** efectos de esta ley, no se considerarán las condenas por crimen o simple delito cumplidas, respectivamente, diez o cinco años antes de la comisión del nuevo ilícito»,
+lo que ha generado pronunciamientos dispares sobre la posibilidad de aplicar esta
+norma también a los condenados por simples delitos y crímenes señalados en la
+Ley 20.000, en oposición a la aparente prohibición absoluta que consagra el mencionado artículo 62. Se esgrime principalmente a favor de la prevalencia de esta
+disposición el principio de especialidad, mientras que la aplicación preferente del
+mencionado inciso séptimo se 
+**Concordancias Legales:** artículo 62; artículo 62 de la Ley 20.000. 21 La letra f; artículos 49; artículo 46; artículo 52; artículo 50; artículos 7; artículos 45; artículo 54; Ley 20.000
 
 efectos de esta ley, no se considerarán las condenas por crimen o simple delito cumplidas, respectivamente, diez o cinco años antes de la comisión del nuevo ilícito»,
 lo que ha generado pronunciamientos dispares sobre la posibilidad de aplicar esta
@@ -4824,12 +5224,11 @@ del tiempo aún no se encontraba cumplida al accionar y, por ende, «lo que busc
 recurrente, a través de la presente acción, es una declaración de derechos que no es
 propia de una acción urgente y cautelar».
 
-## 23 Según prescribe el mismo artículo 52, la regulación y revocación de la pena de
-
-servicios en favor de la comunidad, se regirá por las disposiciones contenidas en los
-artículos 49 a 49 sexies del Código Penal.
-
 ## 24 Como se adelantó, en caso de no pago de la multa impuesta por la comisión de
+
+**Definición Canónica:** simples delitos y crímenes de la Ley 20.000, debe acudirse a las reglas generales de
+los artículos 49 y siguientes del Código Penal, en lo que corresponda.
+**Concordancias Legales:** artículos 49; artículo 16; artículo 74 del Código Penal; artículo 17; artículo 8 del Código Penal que excluye su punibilidad; artículo 18; artículos 1; Ley 20.000
 
 simples delitos y crímenes de la Ley 20.000, debe acudirse a las reglas generales de
 los artículos 49 y siguientes del Código Penal, en lo que corresponda.
@@ -4863,12 +5262,11 @@ restando agregar que deben llevarse a cabo, en opinión de algún autor, a
 partir del grado único en que consista la pena o del grado mínimo que
 contemple, si está compuesta de dos o más grados.26
 
-
-## 25 Un estudio sobre esta materia con relación a la Ley 19.366, pero que en gran
-
-parte sigue vigente, en Matus (2000: 415 y ss.).
-
 ## 26 Matus (2000: 454 y 455) afirma que definidos el grado o los grados de que se
+
+**Definición Canónica:** compone una pena, las disminuciones en grado que impone la ley, según las reglas
+de los números 1 y 2 del artículo 61 del Código Penal, se hacen a partir del grado
+**Concordancias Legales:** artículo 61 del Código Penal; artículo 19; artículo 20; artículo 11 del Código Penal; Ley 20.000
 
 compone una pena, las disminuciones en grado que impone la ley, según las reglas
 de los números 1 y 2 del artículo 61 del Código Penal, se hacen a partir del grado
@@ -4898,12 +5296,10 @@ cumplida.
 único en que consista o del grado mínimo que contemple, si está compuesta de dos
 o más grados.
 
-## 27 Matus y Ramírez (2019: 494) parecen plantearlo como facultativo al señalar que
-
-esta elevación «puede» hacerse desde el mínimo.
-
-
 ## Capítulo 10
+
+**Definición Canónica:** Técnicas especiales de investigación criminal
+**Concordancias Legales:** artículo 1; artículo 3; artículo 11; artículo 2; artículo 23; artículo 23 de la Ley 20.000 nos entrega una definición; artículos 1; Ley 19.366; Ley 20.000
 
 Técnicas especiales de investigación criminal
 
@@ -4996,8 +5392,10 @@ a las drogas.
 Esta técnica de investigación ha de utilizarse cuando se presuma fundadamente que ella facilitará la individualización de otros partícipes, sea
 en el país o en el extranjero, como, asimismo, la individualización de
 
-
 ## 1 Oficio FN 936 (2017: 19-20). Al respecto, recientemente, Corte Suprema, rol
+
+**Definición Canónica:** 7.876-22, del 15 de junio de 2022.
+**Concordancias Legales:** artículo 39 de la Ley 20.000 que dispone; artículo 132 del Código Procesal Penal podrá ser ampliad; artículo 9 del Código Procesal Penal. Detención por orden j; artículo 76 del Código de Procedimiento Civil; artículo 24; artículo 222 del Código Procesal Penal; artículo 19; artículo 222; artículo 223; artículo 224 del Código Procesal Penal; artículo 24 de la Ley 20.000; artículo 588 bis; artículo 141; artículo 223 del Código Procesal Penal; Ley 20.000; Ley 19.366; Constitución Política
 
 7.876-22, del 15 de junio de 2022.
 
@@ -5252,8 +5650,16 @@ función del resultado de la investigación.
       vención, las exigencias de motivación anteriormente expuestas han de
       observarse también en la resolución acordada con carácter previo a
 
-
 ## 3 La doctrina del Tribunal Supremo español considera que el control de la medida
+
+**Definición Canónica:** de interceptación telefónica se verifica a través de los informes que la policía debe
+proporcionar de manera regular al juez, a fin de que este cuente con la necesaria
+información acerca de los resultados obtenidos (STS número 629/2011, del 23 de
+junio de 2011). Esta doctrina jurisprudencial ha sido incorporada al artículo 588 bis
+g) de la Ley de Enjuiciamiento Criminal, bajo el rótulo de «control de la medida»,
+conforme a la cual se exige que la Policía Judicial informe su desarrollo y resultados
+en la forma y con la periodicidad que el juez determine.
+**Concordancias Legales:** artículo 588 bis; artículo 224 del Código Procesal Penal; artículo 297 del Código Procesal Penal. Si la intervención; artículos 222; artículo 225; artículo 223; artículo 579 bis; constitucion
 
 de interceptación telefónica se verifica a través de los informes que la policía debe
 proporcionar de manera regular al juez, a fin de que este cuente con la necesaria
@@ -5359,8 +5765,16 @@ procedimientos, seguidos por hechos que pudieren constituir un delito
 que merezca pena de crimen, puede hacerse uso conforme a las normas
 referidas.4
 
-
 ## 4 Véase, Ivelic (2019: 58-111) y Corte Suprema rol 46.489-16, del 5 de septiembre de
+
+**Definición Canónica:** 2016: «Que, en consecuencia, la diligencia intrusiva realizada en la investigación de
+los hechos calificados como delito de tráfico de estupefacientes cuya información ha
+sido utilizada en este proceso, no merece reparo alguno. En efecto, se otorgó autorización para la interceptación con completa sujeción a las normas que la previenen,
+en los términos previstos en los artículos 222 del Código Procesal Penal y 24 de la
+Ley 20.000, de manera que tras la información obtenida de las interceptaciones del
+17 de marzo de 2014 en adelante, que daban cuenta de actos preparatorios del delito
+objeto del 
+**Concordancias Legales:** artículos 222 del Código Procesal Penal y 24 de la Ley 20.000; artículos 1 de la Ley 19.640 y 3 del Código Procesal Penal. En; artículo 222; artículo 24 de la Ley 20.000 tratándose de la in; artículo 223 del Código Procesal Penal; artículos 9; artículo 25; Ley 20.000; Ley 19.640; Ley 19.366; Constitución Política
 
 2016: «Que, en consecuencia, la diligencia intrusiva realizada en la investigación de
 los hechos calificados como delito de tráfico de estupefacientes cuya información ha
@@ -5442,8 +5856,14 @@ reveladores.
    Como técnica de investigación queda entregada su aplicación al Ministerio Público, por ello es el fiscal quien debe autorizar el nombramiento de un agente encubierto, revelador o informante en calidad de
 encubierto o revelador.5
 
-
 ## 5 Situación distinta es la que acontece en otros cuerpos legales, donde es el Juez de
+
+**Definición Canónica:** Garantía quien autoriza esta técnica. A saber, Código Penal: Delitos de pornografía
+y prostitución infantil (artículo 369 ter); y delitos de tráfico ilícito de migrantes y
+trata de personas (artículo 411 octies); Ley 21.459 Establece Normas sobre Delitos
+Informáticos, Deroga la Ley 19.223 y Modifica otros cuerpos legales con el objeto de
+adecuarlos al Convenio de Budapest (Agente encubierto en línea: artículo 12).
+**Concordancias Legales:** artículo 369 ter; artículo 411; artículo 12; artículo 25 de la Ley 20.000 define el agente encubierto como; artículo 25; artículo 16 de la Ley 20.000; Ley 21.459; Ley 19.223; Ley 20.000; Ley 19.366; Constitución
 
 Garantía quien autoriza esta técnica. A saber, Código Penal: Delitos de pornografía
 y prostitución infantil (artículo 369 ter); y delitos de tráfico ilícito de migrantes y
@@ -5557,8 +5977,14 @@ de una historia ficticia
 La Dirección Nacional del Servicio de Registro Civil e Identificación
 deberá otorgar los medios necesarios para la oportuna y debida ma-
 
-
 ## 7 La conducta del agente provocador es constitutiva de una acción de microtráfico
+
+**Definición Canónica:** incidental efectuado por él mismo, forzando una entrega de una pequeña cantidad
+de droga, siendo contrario a la legitimidad de un Estado de Derecho condenar la
+criminalidad que uno de sus agentes ha generado. El agente encubierto es, en doctrina, quien fingiendo estar de acuerdo con las personas sospechosas de ser traficantes de drogas, las mueve a cometer dichas acciones delictivas, con la intención de
+impedir su consumación una vez comenzada su ejecución, para poner a los autores
+a disposición de la justicia, con las pruebas obtenidas. Corte de Apelaciones de Santiago, del 29 septiembre de 2
+**Concordancias Legales:** artículo 25; artículo 4 de la Ley 20.000. Requisitos; Ley 20.000; Ley 19.366
 
 incidental efectuado por él mismo, forzando una entrega de una pequeña cantidad
 de droga, siendo contrario a la legitimidad de un Estado de Derecho condenar la
@@ -5599,8 +6025,10 @@ respecto, Pacheco señala
        uno de los objetivos principales de la sustitución de la Ley 19.366 por la
       actualmente vigente Ley 20.000, fue ampliar y perfeccionar los métodos
 
-
 ## 9 Corte Suprema, rol 95.545-21, del 9 de junio de 2022. Autorización otorgada por
+
+**Definición Canónica:** el Ministerio Público, vía correo electrónico.
+**Concordancias Legales:** artículo 25; artículo 10; Artículo 227; artículo 25 de la Ley 20.000; artículo 334 del Código Procesal Penal; artículo 83; artículo 22 de la Ley 20.000 establece que la cooperación efica; artículo 22 de la Ley 20.000 y lo expresado anteriormente; artículo 22; artículo 373; artículo 22 de la Ley 20.000; Ley 20.000; constitucion
 
 el Ministerio Público, vía correo electrónico.
 
@@ -5898,6 +6326,9 @@ facultad privativa de los jueces de la instancia».15
  14 Corte Suprema, rol 2.958-07, del 7 de agosto de 2007.
 
 ## 15 Corte Suprema, rol 58.246-21, del 20 marzo de 2022. En el mismo sentido, con
+
+**Definición Canónica:** anterioridad, Corte de Apelaciones de La Serena 2002 (Repertorio, 2018: 589).
+**Concordancias Legales:** artículo 4 de la Ley 20.000; artículo 4; artículo 19; artículo 62 de la Ley 20.000 respecto del artículo 1 inciso q; artículo 10; artículos 74; artículo 19 de la Ley 20.000; artículo 8 de la Ley 20.000; artículo 43 de la Ley 20.000; Ley 20.000; Ley 18.216; Ley 19.366; Constitucion
 
 anterioridad, Corte de Apelaciones de La Serena 2002 (Repertorio, 2018: 589).
 

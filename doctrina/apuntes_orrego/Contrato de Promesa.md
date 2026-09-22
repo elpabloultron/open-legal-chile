@@ -15,6 +15,12 @@ extraccion: pdftotext
 
 ## Contrato de promesa1
 
+**Definición Canónica:** Sumario:
+1.- Regulación y concepto
+2.- Características del contrato de promesa
+3.- La promesa, contrato distinto del prometido
+4.- La promesa puede referirse a toda clase de contratos
+5.- Requisitos del contrato de promesa
 
 Sumario:
 1.- Regulación y concepto
@@ -23,17 +29,16 @@ Sumario:
 4.- La promesa puede referirse a toda clase de contratos
 5.- Requisitos del contrato de promesa
 
-## 5.1. La promesa debe constar por escrito
-
-
-## 5.2. Que el contrato prometido no sea de aquellos que las leyes declaren ineficaces
-
-
-## 5.3. Que la promesa contenga un plazo o condición que señale la época de la
-
-celebración del contrato prometido
-
 ## 5.4. Que en la promesa se especifique de tal manera el contrato prometido, que sólo
+
+**Definición Canónica:** falten para que sea perfecto, la tradición de la cosa, o las solemnidades que las leyes
+prescriban
+6.- Inscripción del contrato de promesa de compraventa
+7.- El contrato de promesa en la Ley N° 21.442 sobre Copropiedad Inmobiliaria.
+8.- La lesión enorme y el contrato de promesa
+9.- Normas relativas al contrato de promesa, en la Ley General de Urbanismo y
+Construcciones
+**Concordancias Legales:** Ley N° 21.442
 
 falten para que sea perfecto, la tradición de la cosa, o las solemnidades que las leyes
 prescriban
@@ -43,11 +48,16 @@ prescriban
 9.- Normas relativas al contrato de promesa, en la Ley General de Urbanismo y
 Construcciones
 
-## 9.1. Prohibición de celebrar contratos de promesa de compraventa, si están pendientes
-
-los trabajos de urbanización
-
 ## 9.2. Obligación de caucionar con un seguro o boleta bancaria, ciertos contratos de
+
+**Definición Canónica:** promesa
+10.- El contrato de promesa en el Código de Minería
+11.- Efectos del contrato de promesa
+12.- Cesión del contrato de promesa
+13.- Extinción del contrato de promesa.
+14.- Modelo de contrato de promesa.
+Cuestionario.
+**Concordancias Legales:** artículo 1554; Ley N° 20.830; Ley Nº 20.830; Ley Nº 19.253
 
 promesa
 10.- El contrato de promesa en el Código de Minería
@@ -488,8 +498,10 @@ fuere la de celebrar actos y contratos sobre una determinada cosa, pues ello imp
 celebrar el contrato de promesa), sin perjuicio que tales embargos o prohibiciones se
 alcen antes o al momento de celebrar el contrato prometido.
 
-
 ## 5.3. Que la promesa contenga un plazo o condición que fije la época de la celebración
+
+**Definición Canónica:** del contrato prometido.
+**Concordancias Legales:** artículo 1551 del Código Civil. Sostener que vencido tal plazo; artículo 1553
 
 del contrato prometido.
 
@@ -648,8 +660,11 @@ tiene un carácter amplio y extensivo.
 vemos cómo podría cumplirse la exigencia en orden a que la modalidad fije la época en
 la que debe celebrarse el contrato prometido.
 
-
 ## 5.4. Que en la promesa se especifique de tal manera el contrato prometido, que sólo
+
+**Definición Canónica:** falten para que sea perfecto, la tradición de la cosa, o las solemnidades que las leyes
+prescriban.
+**Concordancias Legales:** artículo 1554 del Código Civil; artículos 1681; artículo 1683 del Código Civil señala que la nulidad absoluta; artículo 1554; artículo 1683; artículo 1554 del Código Civil constituye un requisito que ha c; artículo 1554 del Código Civil que son de la esencia de la prom; artículo 1683 del Código Civil; artículo 1682; artículo 1682 del Código Civil que conlleva su nulidad absoluta
 
 falten para que sea perfecto, la tradición de la cosa, o las solemnidades que las leyes
 prescriban.
@@ -1000,6 +1015,16 @@ para contratar o no, en cierto plazo.
 
 ## parte interesada, inscriban en el Registro de Hipotecas y Gravámenes, los contratos de
 
+**Definición Canónica:** promesa de compraventa de inmuebles, en la medida que se hubieren celebrado por
+escritura pública. Ello, habida cuenta que el art. 53 del Reglamento del Registro
+Conservatorio de Bienes Raíces dispone que “Pueden inscribirse: (…) 2°. (…) El
+arrendamiento en el caso del artículo 1962 del Código Civil y cualquier otro acto o
+contrato cuya inscripción sea permitida por la ley”. La frase final sería la que
+posibilitaría inscribir una promesa de compraventa.
+        Sin embargo, el punto es muy discutible. En efecto, cabe advertir (reiterando lo
+que hemos señalado en nuestro apunte de La Tradición)
+**Concordancias Legales:** artículo 1962 del Código Civil y cualquier otro acto o contrato; artículo 53 del Reglamento13. Pero; artículos 32; artículo 53; artículo 2438 del Código Civil; artículo 85 de la Ley N; artículo 1889 del Código Civil; artículo 1.889 del Código Civil; artículo 1554; Ley N° 21.442; Ley N° 16.742; Ley Nº 19.281; constitución
+
 promesa de compraventa de inmuebles, en la medida que se hubieren celebrado por
 escritura pública. Ello, habida cuenta que el art. 53 del Reglamento del Registro
 Conservatorio de Bienes Raíces dispone que “Pueden inscribirse: (…) 2°. (…) El
@@ -1247,8 +1272,10 @@ Revisaremos esto en el contrato de compraventa, en el estudio de la lesión enor
 9.- Otras normas relativas al contrato de promesa, en la Ley General de
 Urbanismo y Construcciones.
 
-
 ## 9.1. Prohibición de celebrar contratos de promesa de compraventa, si están
+
+**Definición Canónica:** pendientes los trabajos de urbanización.
+**Concordancias Legales:** constitución
 
 pendientes los trabajos de urbanización.
 
@@ -1278,8 +1305,10 @@ del dominio, tales como ventas, promesas de venta, reservas de sitios, adjudicac
 en lote o constitución de comunidades o sociedades tendientes a la formación de
 nuevas poblaciones, en contravención a lo dispuesto en el presente párrafo”.
 
-
 ## 9.2. Obligación de caucionar con un seguro o boleta bancaria, ciertos
+
+**Definición Canónica:** contratos de promesa.
+**Concordancias Legales:** artículo 169; artículo 1552; artículo 170 del Código de Procedimiento Civil. En efecto no p; artículo 1552 del Código Civil; Ley Nº 19.932; Ley Nº 19.281
 
 contratos de promesa.
 
@@ -1519,6 +1548,9 @@ otra parte estará facultada para demandar una indemnización. En estos casos, e
 
 ## parte entregue a dicho intermediario un documento por el monto de dicha pena (un
 
+**Definición Canónica:** cheque por ejemplo), que el contratante que estuvo dispuesto a cumplir la promesa
+podrá solicitar a dicho corredor y posteriormente cobrar.
+
 cheque por ejemplo), que el contratante que estuvo dispuesto a cumplir la promesa
 podrá solicitar a dicho corredor y posteriormente cobrar.
 
@@ -1658,15 +1690,11 @@ En la práctica, ya no será posible obtener el cumplimiento forzado del contrat
 
 14.- Modelo de contrato de promesa.
 
-
-## Modelo para uso académico
-
-
-
 ## Promesa de compraventa25
 
+**Definición Canónica:** _____________________________________
 
-                      _____________________________________
+_____________________________________
 
                                                       A
 
@@ -1779,15 +1807,13 @@ Reglamento de Copropiedad del Edificio, que rola inscrito a fojas _____________
 número _________ del Registro de Hipotecas y Gravámenes del Conservador de
 Bienes Raíces de ______________, correspondiente al año _______.
 
-
-## (sólo cuando se trata de la promesa de primera venta de una unidad que
-
-
-## Forma parte de un condominio acogido a la ley de copropiedad
-
-INMOBILIARIA. QUINTO: Se deja constancia que la parte vendedora hizo entrega a la
-
 ## parte compradora de una copia en soporte digital y material, del primer reglamento de
+
+**Definición Canónica:** copropiedad del condominio, que consta en escritura pública de fecha
+________________, Repertorio N° ___________, otorgada en la Notaría de
+_____________ de don (doña) ______________________, de conformidad a lo
+dispuesto en el artículo 9 de la Ley N° 21.442 sobre Copropiedad Inmobiliaria).
+**Concordancias Legales:** artículo 9 de la Ley N; Ley N° 21.442
 
 copropiedad del condominio, que consta en escritura pública de fecha
 ________________, Repertorio N° ___________, otorgada en la Notaría de

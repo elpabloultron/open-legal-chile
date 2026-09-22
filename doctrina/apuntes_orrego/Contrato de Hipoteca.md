@@ -15,6 +15,25 @@ extraccion: pdftotext
 
 ## Contrato de hipoteca1
 
+**Definición Canónica:** Sumario:
+1.- Concepto y regulación.
+2.- Importancia.
+3.- Características de la hipoteca, como derecho.
+4.- Clases de hipoteca.
+5.- Casos de hipoteca legal.
+6.- El contrato hipotecario.
+6.1. Concepto.
+6.2. Características del contrato hipotecario.
+7. Elementos de la hipoteca.
+7.1. Capacidad.
+7.2. Formalidades del contrato de hipoteca.
+7.3. Cosas susceptibles de hipotecarse.
+7.4. Obligaciones susceptibles de caucionarse con hipoteca.
+8. Efectos de la hipoteca.
+8.1. Extensión de la garantía.
+8.2. Efectos de la hipoteca con respecto al dueño del inmueble hipotecado.
+8.3. Efectos de la hipoteca res
+**Concordancias Legales:** Ley N° 20.720; Ley N° 18.916; constitución
 
 Sumario:
 1.- Concepto y regulación.
@@ -277,6 +296,11 @@ g) Es indivisible.
 
 ## 1526 N° 1 y 2408, puede decirse que cada parte del inmueble hipotecado
 
+**Definición Canónica:** garantiza la totalidad del crédito, y que a su vez cada parte del crédito está
+caucionado con la totalidad del bien hipotecado. La indivisibilidad entonces, puede
+mirarse a través del inmueble dado en garantía o desde el punto de vista del crédito
+garantizado.
+
 garantiza la totalidad del crédito, y que a su vez cada parte del crédito está
 caucionado con la totalidad del bien hipotecado. La indivisibilidad entonces, puede
 mirarse a través del inmueble dado en garantía o desde el punto de vista del crédito
@@ -297,6 +321,11 @@ ii.- Si es uno solo el inmueble hipotecado: de acuerdo con el art. 1526 N° 1, i
 repite el art. 2408, la acción hipotecaria se dirige contra el que posea en todo o en
 
 ## parte el inmueble hipotecado. De manera que si en la sucesión del deudor uno de los
+
+**Definición Canónica:** herederos se adjudica el inmueble gravado, contra él se dirige la acción, y si el bien se
+divide en lotes, distribuyéndose entre los herederos, el acreedor puede ejercitar su
+acción por el total en cada uno de los lotes.
+**Concordancias Legales:** artículo 662 del Código de Procedimiento Civil; Artículo 221; Ley N° 20.555; Ley N° 19.496; Ley N° 20.720; Ley N° 20.855; constitución
 
 herederos se adjudica el inmueble gravado, contra él se dirige la acción, y si el bien se
 divide en lotes, distribuyéndose entre los herederos, el acreedor puede ejercitar su
@@ -689,6 +718,16 @@ respectiva cancelación por el Conservador de Bienes Raíces respectivo (inc. 7�
 
 ## 17 D). De esta manera, cuatro obligaciones de hacer tiene el acreedor hipotecario, una
 
+**Definición Canónica:** que siempre debe ejecutar y otras tres eventuales: la primera, consistente en informar
+al deudor, en el plazo de 20 días. Cumplida esta primera obligación, y siempre que así
+lo pida el deudor, el acreedor deberá cumplir con las otras tres obligaciones, ya
+reseñadas: alzar la hipoteca, tramitar su cancelación e informar al deudor de todo lo
+anterior.
+► También en el caso de hipotecas con cláusula de garantía general, el propio deudor
+puede tomar la iniciativa para obtener el alzamiento de la hipoteca. Dispone la ley
+citada que si no existieren obligaciones pendientes para con el proveedor cauci
+**Concordancias Legales:** Ley N° 20.855; Ley N° 19.496; constitución
+
 que siempre debe ejecutar y otras tres eventuales: la primera, consistente en informar
 al deudor, en el plazo de 20 días. Cumplida esta primera obligación, y siempre que así
 lo pida el deudor, el acreedor deberá cumplir con las otras tres obligaciones, ya
@@ -918,6 +957,9 @@ análisis particular de la hipoteca nos detendremos en los siguientes elementos:
 
 ## 7.3. Cosas susceptibles de hipotecarse; y
 
+**Definición Canónica:** 7.4. Obligaciones que se pueden caucionar con hipoteca.
+**Concordancias Legales:** Ley N° 21.442; Ley N° 20.711; constitución
+
 7.4. Obligaciones que se pueden caucionar con hipoteca.
 
 7.1. Capacidad.
@@ -1099,6 +1141,16 @@ que deben ser presentados en el extranjero, facilitando su circulación entre lo
 
 ## Parte”. Agrega el Decreto “Que los documentos públicos otorgados por un Estado Parte
 
+**Definición Canónica:** de la Convención no deberán ser sometidos al procedimiento de legalización si
+respecto de estos se ha otorgado un certificado denominado ‘Apostilla’ por la autoridad
+designada por el Estado del que dimana dicho documento”.
+        La Convención, de esta manera, crea un nuevo sistema de legalización de
+instrumentos otorgados en país extranjero, que viene a sumarse al tradicional
+denominado “cadena de firmas” o “cadena de legalizaciones”. El último, sólo operará
+respecto de países que no sean partes de la Convención de la Apostilla.
+        Como consecuencia de lo anterior, la citada Ley N° 20.7
+**Concordancias Legales:** Ley N° 20.711
+
 de la Convención no deberán ser sometidos al procedimiento de legalización si
 respecto de estos se ha otorgado un certificado denominado ‘Apostilla’ por la autoridad
 designada por el Estado del que dimana dicho documento”.
@@ -1138,19 +1190,17 @@ art. quedó con el siguiente tenor:
         “Una vez protocolizados, valdrán como instrumentos públicos:
 1. Los testamentos cerrados y abiertos en forma legal;
 
-## 2. Los testamentos solemnes abiertos que se otorguen en hojas sueltas, siempre que
-
-su protocolización se haya efectuado a más tardar, dentro del primer día siguiente
-hábil al de su otorgamiento;
-
-## 3. Los testamentos menos solemnes o privilegiados que no hayan sido autorizados por
-
-notario, previo decreto del juez competente;
-
-## 4. Las actas de ofertas de pago, y
-
-
 ## 5. Los instrumentos otorgados en el extranjero, las transcripciones y las traducciones
+
+**Definición Canónica:** efectuadas por el intérprete oficial o los peritos nombrados al efecto por el juez
+competente y debidamente legalizadas, que sirvan para otorgar escrituras en Chile.
+        Sin perjuicio de lo anterior, los documentos públicos que hayan sido
+autenticados mediante el sistema de apostilla, según lo dispuesto en el artículo 345 bis
+del Código de Procedimiento Civil, no requerirán de protocolización para tener el valor
+de instrumentos públicos. La apostilla no requerirá certificación de ninguna clase para
+ser considerada auténtica”.
+        De esta manera, las escrituras públicas otorgadas en un 
+**Concordancias Legales:** artículo 345 bis del Código de Procedimiento Civil; artículo 1; artículo 85 del Reglamento Conservatorio de Bienes Raíces21 s; artículo 39; artículo 85; artículos 16; artículos 345; Ley 20.711; ley Nº 21.442; Ley N° 21.772; Ley N° 14.908; constitución
 
 efectuadas por el intérprete oficial o los peritos nombrados al efecto por el juez
 competente y debidamente legalizadas, que sirvan para otorgar escrituras en Chile.
@@ -1364,6 +1414,15 @@ prendables, anticipándose su futura condición de muebles.
 
 ## 757. Establece dicha disposición que si ella se impone sin autorización judicial y sin
 
+**Definición Canónica:** audiencia de las personas que de acuerdo al art. 761 tienen derecho a impetrar medidas
+conservativas, el fideicomisario no será obligado a reconocerla. Se justifica plenamente
+que el fiduciario no tenga libertad absoluta para hipotecar, porque podría perjudicar con
+ello al fideicomisario si al verificarse la condición pasare a él la propiedad. El juez autorizará
+la hipoteca cuando fuere de utilidad para el fideicomiso –por ejemplo, porque urge hacer
+mejoras necesarias en un inmueble-, pero no si se constituyere para satisfacer un interés
+personal del propietario fiduciario. Podría ocurrir, en 
+**Concordancias Legales:** artículo 803; constitución
+
 audiencia de las personas que de acuerdo al art. 761 tienen derecho a impetrar medidas
 conservativas, el fideicomisario no será obligado a reconocerla. Se justifica plenamente
 que el fiduciario no tenga libertad absoluta para hipotecar, porque podría perjudicar con
@@ -1411,6 +1470,10 @@ hipoteca sobre su derecho, se ha desprendido por ese solo hecho de una parte de 
 mismo derecho, de modo que no puede renunciar a lo que no le pertenece. Por otra
 
 ## parte, hay que tener presente el art. 12 del C.C. que prescribe que los derechos
+
+**Definición Canónica:** conferidos por las leyes pueden renunciarse con tal que sólo miren al interés
+individual del renunciante y que no esté prohibida su renuncia. Es evidente que en el
+**Concordancias Legales:** artículo 1491; artículos 2414; artículo 2418; artículo 2418 del Código Civil; artículo 1815; artículo 2427; artículo 2413; artículo 1461; artículos 2431; artículo 2432; artículo 2431; artículo 645; artículo 2605; artículo 2413 del Código actual reza; artículo 2339; artículo 1442; Ley N° 21.442; constitución
 
 conferidos por las leyes pueden renunciarse con tal que sólo miren al interés
 individual del renunciante y que no esté prohibida su renuncia. Es evidente que en el
@@ -2343,6 +2406,13 @@ inscripción no ha existido embargo que afecte a la validez del gravamen”.53
 
 ## 8.1. Extensión de la garantía, es decir, cosas que comprende la hipoteca, efectos con
 
+**Definición Canónica:** relación al inmueble hipotecado.
+8.2. Situación en que queda el constituyente de la hipoteca.
+8.3. Derechos del acreedor hipotecario.
+        De lo expresado, podemos visualizar que los efectos son objetivos (que inciden
+en la finca hipotecada) y subjetivos (que se refieren a las partes contratantes).
+**Concordancias Legales:** artículo 2421 del Código Civil sólo se refiere a los aumentos o; artículo 434; artículo 54 del Código de Procedimiento Civil; artículo 464; Ley N° 21.442; Ley Nº 2.186; Ley N° 14.908; constitución
+
 relación al inmueble hipotecado.
 8.2. Situación en que queda el constituyente de la hipoteca.
 8.3. Derechos del acreedor hipotecario.
@@ -2640,6 +2710,16 @@ inoponible al Banco acreedor, y se ordena cancelar el usufructo inscrito a fs. (
 
 ## 2011. Cuarto: Que se hace necesario entonces determinar los efectos jurídicos
 
+**Definición Canónica:** procesales de la actual situación del ejecutado y de la usufructuaria (…). Lo cierto es,
+que el ejecutado hipotecó la plena propiedad del inmueble antes singularizado, de
+manera que el usufructo constituido con posterioridad no afecta la garantía
+real del acreedor. Si bien el Código Civil carece de una norma expresa que consagre
+la inoponibilidad del usufructo, tal efecto emana de la naturaleza misma de la garantía
+hipotecaria y a esa conclusión se arriba de interpretar armónicamente los artículos
+2408, 2411 y 2424 del Código Civil. Quinto: Que el ejecutante pretende seguir
+adelante el juicio 
+**Concordancias Legales:** artículos 2408; artículos 144; artículo 186 del Código de Procedimiento Civil
+
 procesales de la actual situación del ejecutado y de la usufructuaria (…). Lo cierto es,
 que el ejecutado hipotecó la plena propiedad del inmueble antes singularizado, de
 manera que el usufructo constituido con posterioridad no afecta la garantía
@@ -2707,6 +2787,16 @@ se verán disminuidos y la jurisprudencia ha concluido que tiene derecho a ignor
 a perseguir el bien en su totalidad o parte de manos de quien lo detente y a cualquier
 
 ## título que sea”. También el profesor don Andrés Cuneo Machiavello en un artículo
+
+**Definición Canónica:** contenido en la Revista de Derecho y Jurisprudencia Tomo LXXXV del año 1988
+titulado “el usufructo constituido con posterioridad a una hipoteca: su eficacia frente al
+acreedor hipotecario” señala: ”El usufructo se extingue, en consecuencia, por el hecho
+de la subasta, que consuma de un modo definitivo la inoponibilidad del gravamen
+respecto del acreedor hipotecario”. Indicando como conclusión: “independientemente
+de su origen judicial o voluntario, el usufructo constituido con posterioridad a la
+hipoteca es inoponible al acreedor hipotecario. Por tal razón no puede producir efectos
+en su contr
+**Concordancias Legales:** artículo 9 de Ley 14.980; artículo 16; artículo 11; artículos 2428 del Código Civil y 492 del Código de Procedimient; artículo 2428 del Código Civil podrán o exigir el pago de sus c; artículo 492; artículo 2480 del Código Civil lo equipara a la hipoteca; artículo 2428 del Código Civil; artículo 2480; artículo 2428 del Código Civil por cuanto dicha norma; artículo 2477 del Código Civil y darle curso al pago de las hip; artículo 2428; artículo 2397; artículo 521; Ley 14.980; Ley N° 21.442; Ley N° 2.695; Ley Nº 26.639; DL N° 2.695; constitución
 
 contenido en la Revista de Derecho y Jurisprudencia Tomo LXXXV del año 1988
 titulado “el usufructo constituido con posterioridad a una hipoteca: su eficacia frente al
@@ -3584,7 +3674,17 @@ contrato: existe comprador, vendedor, cosa debida y precio; y también constituy
 
 ## título traslaticio de dominio”.66
 
-         Concordamos con la opinión de Manuel Somarriva. En efecto, al operar una
+**Definición Canónica:** Concordamos con la opinión de Manuel Somarriva. En efecto, al operar una
+“adjudicación” con cargo al crédito, se ha dado cabal cumplimiento a lo que exige el
+artículo 2428 del Código Civil, para que se produzca la purga de las hipotecas. El inciso
+2º del precepto citado, exige que la subasta sea hecha con citación personal del
+referido acreedor hipotecario, en el término de emplazamiento. Si así ocurrió, la
+hipoteca se purgará. En parte alguna de esta norma, se exige que para operar la purga
+de la hipoteca, necesariamente deba ser un tercero –y no el ejecutante de autos-,
+quien deba comprar el
+**Concordancias Legales:** artículo 2428 del Código Civil
+
+Concordamos con la opinión de Manuel Somarriva. En efecto, al operar una
 “adjudicación” con cargo al crédito, se ha dado cabal cumplimiento a lo que exige el
 artículo 2428 del Código Civil, para que se produzca la purga de las hipotecas. El inciso
 2º del precepto citado, exige que la subasta sea hecha con citación personal del
@@ -3640,11 +3740,12 @@ equitativo que una parte pueda compeler a la otra a cumplir, sin cumplir ella mi
 
 a) Contrato de hipoteca con cláusulas de garantía general.
 
-
 ## Hipoteca67
 
+**Definición Canónica:** _____________________________________
+**Concordancias Legales:** artículos 235; artículo 2355 del Código Civil y al beneficio de retractación c; artículo 2339; artículos 1526; artículos 142; artículo 27 de la Ley número cuatro mil ochocientos ocho; Ley 20.190; constitución
 
-                         _____________________________________
+_____________________________________
 
                                                      A
 
@@ -3989,11 +4090,12 @@ que inmueble está exento del pago de contribuciones).
 b) Contrato de hipoteca que cauciona una obligación específica o con cláusula de
 garantía general pero limitada a un cierto monto.
 
-
 ## Hipoteca
 
+**Definición Canónica:** _____________________________________
+**Concordancias Legales:** artículos 235; artículo 2355 del Código Civil y al beneficio de retractación c; artículo 2339; artículos 1526; artículos 142; artículo 27 de la Ley número 4.808; Ley 20.190; Ley N° 20.720; constitución
 
-                    _____________________________________
+_____________________________________
 
                                               A
 

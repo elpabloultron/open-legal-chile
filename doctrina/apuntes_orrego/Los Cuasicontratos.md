@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## Los cuasicontratos1
 
+**Definición Canónica:** 1. - Concepto.
+**Concordancias Legales:** artículo 2293; artículo 7; artículo 2286; artículo 2287; artículo 2288 inciso 1; artículo 2289; artículo 2290; artículo 2295 inciso 1; artículo 2295; artículo 1485 inciso 2; artículo 1495 inciso 1; artículo 2299; artículo 1397; artículo 2297; artículo 1470; artículos 2297; artículo 8; artículos 2300 inciso 1; artículos 2300 inciso 2; Artículo 2302; artículos 1812; artículo 688
 
 1. - Concepto.
 
@@ -596,11 +598,18 @@ sujetarán a las mismas reglas que en la partición de la herencia.(arts. 1317 a
 remitimos a los argumentos de aquellos que rechazan y de aquellos que aceptan tal
 hipótesis, estudiados a propósito de la prescripción adquisitiva.
 
-
 ## La ley como fuente de las obligaciones
 
+**Definición Canónica:** La ley es en realidad la fuente mediata de todas las obligaciones.
+       Pero se denominan obligaciones legales, aquellas que no reconocen como causa
+generadora ninguna otra fuente. Nacen de la sola disposición de la ley. Esta es su
+antecedente único, directo, inmediato. Tienen un carácter excepcional, requieren de texto
+expreso de la ley. (art. 2284)
+       Es especialmente en el campo del Derecho de Familia donde encontramos casos de
+obligaciones legales, especialmente en las relaciones filiales y maritales, en el derecho de
+alimentos, etc.
 
-       La ley es en realidad la fuente mediata de todas las obligaciones.
+La ley es en realidad la fuente mediata de todas las obligaciones.
        Pero se denominan obligaciones legales, aquellas que no reconocen como causa
 generadora ninguna otra fuente. Nacen de la sola disposición de la ley. Esta es su
 antecedente único, directo, inmediato. Tienen un carácter excepcional, requieren de texto

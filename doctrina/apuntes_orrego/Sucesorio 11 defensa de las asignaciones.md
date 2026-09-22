@@ -13,11 +13,21 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Undecima parte: de la defensa
-
-
 ## De las asignaciones1
 
+**Definición Canónica:** S mario:
+1.- Aspectos generales.
+2.- Acción de reforma de testamento.
+a) Nat raleza de la acción de reforma de testamento.
+b) Concepto y elementos de la acción de reforma de testamento.
+c) Características de la acción de reforma de testamento.
+d) Objeto de la acción de reforma de testamento.
+e) Legitimación activa y pasiva en la acción de reforma de testamento.
+f) Acción de reforma de testamento y preterición.
+g) Acción de reforma de testamento y acción de petición de herencia.
+3.- Acción de petición de herencia.
+a) Nat raleza de la acción de petición de herencia.
+b) Concepto y elementos de la
 
 S mario:
 1.- Aspectos generales.
@@ -137,6 +147,15 @@ llevarán aq ella parte de s asignación q e no lesione las asignaciones forzosa
 c.2) Es na acción personal. La acción corresponde al legitimario lesionado en todo o
 
 ## parte de s asignación por efecto de la vol ntad expresa del ca sante, expresada en
+
+**Definición Canónica:** s testamento. Esta acción, por lo mismo, deberá intentarse en contra de los
+asignatarios vol ntarios c yas asignaciones sobrepasen aq ellas protegidas por la ley.
+Así, por ejemplo, si el ca sante asigna expresamente toda la mitad legitimaria a no
+de s s hijos, teniendo tres, la acción debe interponerse contra aq el hijo asignatario de
+toda la mitad legitimaria, con el objeto q e s asignación se red zca a n tercio de la
+mitad legitimaria.
+        Para Somarriva, la acción también procedería si el testador, teniendo no o más
+hijos, por ejemplo, otorga testamento en el c al instit ye como hereder
 
 s testamento. Esta acción, por lo mismo, deberá intentarse en contra de los
 asignatarios vol ntarios c yas asignaciones sobrepasen aq ellas protegidas por la ley.
@@ -753,7 +772,16 @@ conocidas:
 
 ## 12. En efecto, s ren ncia no está prohibida por la ley y la acción está
 
-       establecida en el solo interés del heredero despojado de la herencia. Por cierto,
+**Definición Canónica:** establecida en el solo interés del heredero despojado de la herencia. Por cierto,
+       la ren ncia sólo p ede operar na vez fallecido el ca sante (art. 1463).
+   · La acción es transmisible: es perfectamente transmisible, porq e el verdadero
+       heredero q e fallece transmite a s s herederos el conj nto del patrimonio, en el
+       c al va incl ida esta acción de carácter patrimonial.
+   · La acción es transferible: afirmarlo, es lo mismo q e decir q e el cesionario de
+       los derechos hereditarios del verdadero heredero p ede invocar la acción de
+       petición de herencia. La transf
+
+establecida en el solo interés del heredero despojado de la herencia. Por cierto,
        la ren ncia sólo p ede operar na vez fallecido el ca sante (art. 1463).
    · La acción es transmisible: es perfectamente transmisible, porq e el verdadero
        heredero q e fallece transmite a s s herederos el conj nto del patrimonio, en el
@@ -798,7 +826,17 @@ i)      Prescripción de 5 años: la acción de petición de herencia prescribe 
 
 ## 1269. En este caso, es indisc tible q e la acción de petición de herencia se
 
-        exting e porq e el falso heredero ha adq irido la herencia por prescripción
+**Definición Canónica:** exting e porq e el falso heredero ha adq irido la herencia por prescripción
+        adq isitiva ordinaria de 5 años, p es le servirá de j sto tít lo el decreto
+        j dicial o la resol ción administrativa de posesión efectiva.
+            Consec encia de q e sea prescripción ordinaria, es el hecho q e se
+        s spenda en favor de las personas en meradas en el art. 2509.
+            Ahora bien, sabemos q e la prescripción ordinaria exige, además de
+        j sto tít lo, b ena fe. Es evidente entonces, señala Somarriva, q e en este
+        caso también debe existir b ena fe de parte del fa
+**Concordancias Legales:** artículos 2498; artículo 2517 del Código Civil; artículo 1269 del Código Civil; artículo 704; artículo 1269 del Código Civil prevé que
+
+exting e porq e el falso heredero ha adq irido la herencia por prescripción
         adq isitiva ordinaria de 5 años, p es le servirá de j sto tít lo el decreto
         j dicial o la resol ción administrativa de posesión efectiva.
             Consec encia de q e sea prescripción ordinaria, es el hecho q e se
@@ -897,6 +935,14 @@ Pero el heredero putativo, en el caso del inciso final del artículo 704, podrá
 prescripción de cinco años’. Opuesta la excepción de prescripción en los términos que se explicitaron en la
 
 ## parte expositiva del fallo de casación que antecede, cabe no obstante recordar, que como ha señalado la
+
+**Definición Canónica:** doctrina y la jurisprudencia de esta Corte Suprema, resulta improcedente colegir del contenido de la norma
+recién transcrita una eventual ‘prescripción extintiva’ de la acción, toda vez que ‘por tratarse de una acción
+propietaria, que no se pierde por el no uso, la norma a aplicar debe ser el artículo 2517, según la cual la
+acción de petición de herencia sólo se va a extinguir cuando el poseedor haya adquirido el derecho de
+herencia por prescripción adquisitiva ordinaria o extraordinaria’ (C. de Santiago, 5 de junio de 1990, Rev.
+Der. y Jur., t. LXXXVII, sec. 2ª, pág. 122; C. Suprema, 28 de oc
+**Concordancias Legales:** artículo 2517; artículo 1264 del Código Civil
 
 doctrina y la jurisprudencia de esta Corte Suprema, resulta improcedente colegir del contenido de la norma
 recién transcrita una eventual ‘prescripción extintiva’ de la acción, toda vez que ‘por tratarse de una acción

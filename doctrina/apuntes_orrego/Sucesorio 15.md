@@ -13,17 +13,19 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## El beneficio de inventario
-
-
-## Que invoca el heredero1
-
-
-
 ## I. los beneficios en el código civil chileno
 
+**Definición Canónica:** Nuestro Código Civil consagra, en diversas materias, una serie de “beneficios”.
+La palabra “beneficio” proviene del latín “beneficium”, formada a su vez por las voces
+“bene” y “facere”, literalmente “hacer bien”. La expresión, en su sentido natural y
+obvio, no tiene un significado especial. En efecto, el Diccionario de la Lengua Española,
+en su acepción más cercana a la jurídica, define el “beneficio”, sencillamente como el
+“Derecho que compete a uno por ley o privilegio”.2 La disyunción “ley o privilegio”
+debiéramos descartarla para los efectos jurídicos, pues todo privilegio ha de fundarse
+e
+**Concordancias Legales:** artículos 1568; artículo 150 del Código Civil. Sucesorio
 
-        Nuestro Código Civil consagra, en diversas materias, una serie de “beneficios”.
+Nuestro Código Civil consagra, en diversas materias, una serie de “beneficios”.
 La palabra “beneficio” proviene del latín “beneficium”, formada a su vez por las voces
 “bene” y “facere”, literalmente “hacer bien”. La expresión, en su sentido natural y
 obvio, no tiene un significado especial. En efecto, el Diccionario de la Lengua Española,
@@ -137,9 +139,10 @@ los tres últimos, que tienen características propias y objetivos disímiles. P
 podríamos agregar que los nueve primeros son beneficios propiamente tales, y los tres
 últimos beneficios “sui generis” o especiales.
 
-
 ## Ii. el beneficio de inventario, que invoca el heredero
 
+**Definición Canónica:** 1. Origen de la institución.
+**Concordancias Legales:** Constitución
 
 1. Origen de la institución.
 
@@ -208,11 +211,19 @@ hereditarios, pero las acciones de éstos quedaban a cubierto de toda prescripci
 c. El heredero, además, debía firmar el inventario, y declarar que no se había omitido
 en él ningún bien de la sucesión.12
 
-
 ## 2. Concepto
 
+**Definición Canónica:** La ley, mediante una ficción, y con el fin de evitar que se produzca una solución
+de continuidad o interrupción en la cadena de poseedores, establece en los artículos
+688 y 722 del Código Civil la denominada “posesión legal de la herencia”, en cuya
+virtud, y aunque el heredero ignore su condición de tal, se le tiene como poseedor de
+la herencia dejada por el causante. Con todo, ello no significa que dicho heredero
+forzosamente deba continuar con tal condición, pues se le abren diversos caminos:
+aceptar pura y simplemente la herencia; aceptar con beneficio de inventario; repudiar
+la asignación 
+**Concordancias Legales:** artículos 688; artículo 2512 del Código Civil; artículos 1269; artículo 1232 del Código Civil; artículo 1238 del Código Civil; artículo 1247; artículo 1249 del Código Civil previene que el testador no podr; artículo 1227 del Código Civil; artículo 3362 del Código Civil de la República Argentina; artículo 1010 del Código Civil español dispone; artículo 1078 del Código Civil de la República Oriental del Uru; artículo 1250; artículo 995; artículo 1251 del Código Civil; artículo 1248 del Código Civil
 
-        La ley, mediante una ficción, y con el fin de evitar que se produzca una solución
+La ley, mediante una ficción, y con el fin de evitar que se produzca una solución
 de continuidad o interrupción en la cadena de poseedores, establece en los artículos
 688 y 722 del Código Civil la denominada “posesión legal de la herencia”, en cuya
 virtud, y aunque el heredero ignore su condición de tal, se le tiene como poseedor de
@@ -336,8 +347,11 @@ e. Los coherederos, cuando uno o algunos de los restantes integrantes de la suce
 quieran aceptar la asignación con beneficio de inventario (artículo 1248 del Código
 Civil).
 
-
 ## 4. Efectos que se originan, cuando las personas jurídicas de Derecho Público y los
+
+**Definición Canónica:** incapaces, debidamente representados, no aceptan la herencia con beneficio de
+inventario.
+**Concordancias Legales:** artículo 1250; artículo 1688 del Código Civil; artículo 1252 del Código Civil; artículos 1241; artículo 1241; artículo 1242; artículo 1244; artículo 1243; artículo 1256 del Código Civil; artículo 1256; artículo 1231; artículo 1248 del Código Civil; artículo 1248; artículo 1395 del Código Civil de Colombia; artículo 1292 del Código Civil de Ecuador; artículo 1248 del Código Civil chileno.22 Distinta es l; artículo 3361; artículo 1007; artículo 782 del Código Civil francés y el artículo 1096 del C; artículo 1002 del Código de Luisiana. Olmos; artículo 1245 del Código Civil; artículo 3363 del Código Civil argentino; artículo 1792 del Código Civil brasileño; artículo 661 del Código Civil peruano; artículo 858 del Código de Procedimiento Civil; artículo 1255; artículo 1587; artículo 1792; artículos 859; artículo 3366; artículo 1234; artículo 1237; artículo 382 del Código Civil alude a las menciones que debe c; artículos 1247; artículo 1260; artículos 1245; artículo 1257; artículos 1259; artículo 1610; artículo 2487
 
 incapaces, debidamente representados, no aceptan la herencia con beneficio de
 inventario.
@@ -987,8 +1001,10 @@ beneficiario ha recibido la especie o cuerpo cierto adeudado, deberá pagarlo, y
 transferirlo excede la parte o cuota que le corresponde, tendrá acción para que los
 demás herederos le enteren la parte o cuota que a ellos corresponde en la deuda.” 54
 
-
 ## 10. Situación del heredero beneficiario, que paga deudas que exceden el valor de los
+
+**Definición Canónica:** bienes recibidos en la herencia.
+**Concordancias Legales:** artículo 1470 del Código Civil; artículo 12 del Código Civil; artículo 1610
 
 bienes recibidos en la herencia.
 

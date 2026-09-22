@@ -13,50 +13,10 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Septima parte: la sucesion semi forzosa. 1
-
-
-Sumario:
-
-## 1.- introducción
-
-
-## 2.- formación de cuarta de mejoras
-
-
-## 3.- personas que pueden ser titulares de cuarta de mejoras
-
-4.- CARACTERISTICAS DE LA CUARTA DE MEJORAS.
-
-## 4.1 Las mejoras constituyen una asignación forzosa
-
-
-## 4.2 Las mejoras no se presumen
-
-
-## 4.2.1. Regla general
-
-
-## 4.2.2. Casos de “mejoras tácitas”
-
-
-## 4.3 Las mejoras, por regla general, no admiten modalidades o gravámenes
-
-
-## 5.- promesa de no disponer de la cuarta de mejoras
-
-
-## 5.1 Objeto del pacto
-
-
-## 5.2 Requisitos del pacto
-
-
-## 5.3 Efectos de la promesa de no disposición
-
-
 ## 5.4 Sanción por la infracción de la promesa
 
+**Definición Canónica:** 1.- INTRODUCCION.
+**Concordancias Legales:** artículo 1193; artículo 1184; artículo 1195; Ley N° 19.585; Ley N° 20.830; Ley N° 18.802
 
 1.- INTRODUCCION.
 
@@ -158,6 +118,14 @@ legitimarios tienen acción de reforma de testamento, ya que se ha dispuesto de 
 
 ## parte de la herencia con infracción de ley (art. 1216). Dejada sin efecto dicha
 
+**Definición Canónica:** disposición, el todo o la parte de la cuarta de mejoras, en su caso, incrementará las
+legítimas rigorosas, transformándolas en efectivas, lo cual favorecerá a los
+legitimarios.
+       El testador, en consecuencia, distribuirá libremente entre los potenciales
+asignatarios a la cuarta de mejoras, pudiendo designar sustitutos para el caso de que
+alguno llegare a faltar o no quisiera suceder. Pero no hay lugar al derecho de
+representación, porque esta no es una asignación intestada.
+
 disposición, el todo o la parte de la cuarta de mejoras, en su caso, incrementará las
 legítimas rigorosas, transformándolas en efectivas, lo cual favorecerá a los
 legitimarios.
@@ -172,6 +140,11 @@ representación, porque esta no es una asignación intestada.
 4.2 No se presume, por regla general.
 
 ## 4.3 No es susceptible de sujetarse a modalidades o gravámenes, salvo las excepciones
+
+**Definición Canónica:** legales.
+       Atendidas estas características de la cuarta de mejora, las asignaciones que se
+dejen con cargo a ella, también las tendrán.
+**Concordancias Legales:** artículo 988; artículo 252; artículos 1189; Ley N° 19.585
 
 legales.
        Atendidas estas características de la cuarta de mejora, las asignaciones que se
@@ -385,11 +358,14 @@ parte en que se exceda se imputará a la cuarta de libre disposición (art. 1194
 afectar a las mejoras, y luego éstas, que pueden afectar a las asignaciones de libre
 disposición. Así resulta de concordar los artículos 1189, 1193 y 1194. 3
 
-
 ## 5.- promesa de no disponer de la cuarta de mejoras. 4
 
+**Definición Canónica:** Excepcionalmente, nuestra ley permite un pacto sobre sucesión futura: art.
+1463, inc. 2º. Recordemos que, como principio general, hay objeto ilícito y por ende
+nulidad absoluta en los pactos sobre sucesión futura (art. 1682). Sin embargo, el art.
+1204 permite un pacto de tal naturaleza.
 
-       Excepcionalmente, nuestra ley permite un pacto sobre sucesión futura: art.
+Excepcionalmente, nuestra ley permite un pacto sobre sucesión futura: art.
 1463, inc. 2º. Recordemos que, como principio general, hay objeto ilícito y por ende
 nulidad absoluta en los pactos sobre sucesión futura (art. 1682). Sin embargo, el art.
 1204 permite un pacto de tal naturaleza.
@@ -540,58 +516,18 @@ causa de muerte”, III, Santiago de Chile, Imprenta Nascimento, 1942, p. 470.
                          Sucesorio 8 – Juan Andrés Orrego Acuña                                      9
 Sumario:
 
-## 1.- alimentos forzosos
-
-
-## 1.1. Baja general de la herencia
-
-
-## 1.2. Carácter de deuda hereditaria de los alimentos
-
-
-## 1.3. Los alimentos no aprovechan de los acervos imaginarios
-
-
-## 1.4. Carácter mudable de los alimentos: cosa juzgada provisional en materia de
-
-alimentos
-
-## 1.5. Imposición del pago de alimentos a determinados asignatarios. Responsabilidad
-
-subsidiaria de los legatarios, ante el pago de los alimentos
-
-## 1.6. Resumen de las reglas a que se somete el pago de los alimentos como asignación
-
-forzosa
-2.- LEGITIMAS RIGOROSAS.
-
-## 2.1. Preferencias
-
-
-## 2.2. Imputaciones
-
-
-## 2.3. Resolución de las donaciones hechas en razón de legítimas a quien al momento de
-
-fallecer el causante no era legitimario
-
-## 2.4. Restituciones: casos en que el legitimario puede exigir un saldo o puede estar
-
-obligado a pagarlo él
-
-## 2.5 Situaciones que pueden presentarse en el pago de las legítimas, según Somarriva
-
-
-## 3.- mejoras
-
-
-## 4.- asignaciones voluntarias a titulo universal
-
-
 ## 5.- asignaciones voluntarias a titulo singular
 
+**Definición Canónica:** Analizaremos a continuación la forma en que deben pagarse las asignaciones,
+sean ellas testamentarias, abintestato, forzosas o semiforzosas.
+       Las asignaciones forzosas tienen preferencia absoluta; luego se pagan las
+asignaciones semiforzosas; y finalmente las testamentarias y abintestato.
+       Cabe indicar también que los legados son asignaciones testamentarias, salvo los
+alimentos que por ley se deben a ciertas personas cuando revisten el carácter de
+asignación forzosa (art. 1168), en cuyo caso, como veremos, tienen especial
+preferencia para su pago.
 
-       Analizaremos a continuación la forma en que deben pagarse las asignaciones,
+Analizaremos a continuación la forma en que deben pagarse las asignaciones,
 sean ellas testamentarias, abintestato, forzosas o semiforzosas.
        Las asignaciones forzosas tienen preferencia absoluta; luego se pagan las
 asignaciones semiforzosas; y finalmente las testamentarias y abintestato.
@@ -661,8 +597,9 @@ testamento, por consiguiente, deberá proceder a su pago inmediatamente después
 cubiertas o asegurado el pago de las deudas que el causante tenía en vida (deudas
 hereditarias).
 
-
 ## 1.4. Carácter mudable de los alimentos: cosa juzgada provisional en materia de
+
+**Definición Canónica:** alimentos.
 
 alimentos.
 
@@ -680,8 +617,9 @@ incluso desaparecer después de la muerte del causante, si los medios de la suce
 guardan relación con la cuantía de la misma o si cambian las circunstancias de fortuna
 del alimentario. 15
 
-
 ## 1.5. Imposición del pago de alimentos a determinados asignatarios. Responsabilidad
+
+**Definición Canónica:** subsidiaria de los legatarios, ante el pago de los alimentos.
 
 subsidiaria de los legatarios, ante el pago de los alimentos.
 
@@ -739,8 +677,9 @@ legatarios que, como expresamente dice la ley, si deben contribuir al pago de la
 legítimas, de las mejoras y de las deudas hereditarias, también deben contribuir al
 pago de los alimentos, cuando estos revisten el carácter de asignación forzosa. 16
 
-
 ## 1.6. Resumen de las reglas a que se somete el pago de los alimentos como asignación
+
+**Definición Canónica:** forzosa.
 
 forzosa.
 
@@ -799,6 +738,7 @@ debiendo computarse en esta mitad todas las donaciones que el causante ha hecho 
 
 ## título de legítimas. 18
 
+**Definición Canónica:** 2.2. Imputaciones.
 
 2.2. Imputaciones.
 
@@ -850,6 +790,16 @@ punto, Somarriva se inclina a pensar que también deben imputarse las asignacion
 
 ## título universal. 19
 
+**Definición Canónica:** a.3) Desembolsos hechos por el causante para el pago de las deudas de algún
+descendiente.
+        El tercer rubro que es necesario imputar para el cálculo de las legítimas está
+indicado en el art. 1203. Estos desembolsos se imputan a las legítimas siempre que
+hayan sido útiles para el pago de las deudas, y se entiende naturalmente que el pago
+ha sido útil cuando extinguió la deuda, y hasta el monto en que la extinguió.
+        Relacionando el art. 1203 con la cesión de derechos, la Corte Suprema resolvió
+que el cesionario de un legitimario a quien el causante había pagado en vida
+determinadas 
+**Concordancias Legales:** constitucion
 
 a.3) Desembolsos hechos por el causante para el pago de las deudas de algún
 descendiente.
@@ -1069,19 +1019,17 @@ testigos. 26
         El art. 1198 es por tanto una norma limitativa de los medios de prueba que
 puede hacer valer el asignatario para acreditar que la donación o legado se hizo a
 
-## título de mejora o como asignación con cargo a la parte de libre disposición. Por ello, el
-
-interesado no podría acreditar la voluntad del causante por un medio distinto a los
-señalados: testamento, escritura de donación u otro acto posterior auténtico.
-
-
-## 2.3. Resolución de las donaciones hechas en razón de legítimas a quien al momento de
-
-fallecer el causante no era legitimario.
-
-         La ley se ha puesto en el caso de que el causante haya hecho donaciones a
-
 ## título de legítima a personas que eran legitimarios, pero que pierden esta calidad
+
+**Definición Canónica:** posteriormente; o que, no siéndolos, no llegan a adquirirla. En ambos casos, optó el
+legislador por resolver la donación, lo que demuestra que toda donación a título de
+legítima es condicional, cuando el donatario no es legitimario, pero puede llegar a
+serlo. 27 En otras palabras, la donación se resolverá si el donatario no es legitimario al
+momento de abrirse la sucesión. La ley, como decíamos, se pone en dos situaciones:
+a) Que se haya hecho una donación revocable o irrevocable a título de legítima a una
+persona que al momento de la donación no era legitimario del causante. Si el donatario
+n
+**Concordancias Legales:** Ley N° 19.585
 
 posteriormente; o que, no siéndolos, no llegan a adquirirla. En ambos casos, optó el
 legislador por resolver la donación, lo que demuestra que toda donación a título de
@@ -1171,8 +1119,9 @@ la resolución de la donación, por haber sobrevenido una condición resolutoria
 recuperar así las especies donadas. Esta es la solución que, a juicio de Rodríguez Grez,
 más se aviene con el sistema en su integridad. 28
 
-
 ## 2.4. Restituciones: casos en que el legitimario puede exigir un saldo o puede estar
+
+**Definición Canónica:** obligado a pagarlo él.
 
 obligado a pagarlo él.
 
@@ -1236,6 +1185,8 @@ establece en la sociedad conyugal otro caso de dación en pago legal.
                              Sucesorio 8 – Juan Andrés Orrego Acuña                     21
 
 ## 2.5 Situaciones que pueden presentarse en el pago de las legítimas, según
+
+**Definición Canónica:** Somarriva. 30
 
 Somarriva. 30
 
@@ -1321,6 +1272,16 @@ sobreviviente no sólo cope la cuarta de mejoras, sino que incluso vaya a afecta
 
 ## parte de libre disposición. En conformidad con el art. 1194, este exceso o esta
 
+**Definición Canónica:** diferencia se saca de la parte de libre disposición, con preferencia a toda otra
+inversión.
+        Por esta razón es que las legítimas rigorosas tienen preferencia absoluta para
+su pago, primero en la mitad legitimaria, luego en la cuarta de mejoras y finalmente
+en la cuarta de libre disposición (arts. 1193 y 1194).
+d) Caso en que de todos modos no haya como pagar las legítimas y las mejoras.
+        El art. 1196 se pone en el caso de que, a pesar de todo, no exista lo suficiente
+para pagar las legítimas y mejoras completas calculadas en conformidad a las reglas
+precedentes. Advierte Somarriv
+
 diferencia se saca de la parte de libre disposición, con preferencia a toda otra
 inversión.
         Por esta razón es que las legítimas rigorosas tienen preferencia absoluta para
@@ -1385,6 +1346,16 @@ ii.- Que las asignaciones que se hacen con cargo a la cuarta de mejoras excedan 
 
 ## parte de la herencia, en cuyo caso el déficit se cubre con la cuarta de libre disposición
 
+**Definición Canónica:** con preferencia a cualquier otra disposición del causante.
+        Los arts. 1189, 1193 y 1194 dejan perfectamente en claro que la cuarta de libre
+disposición es una cuarta contribuyente, puesto que ella puede estar afectada porque
+el causante, en vida, hizo a sus legitimarios donaciones superiores a lo que, en
+definitiva, habrá de corresponderles, o porque el testador se excedió en la cuantía de
+las disposiciones (o donaciones) que se hacen con cargo a la cuarta de mejoras.
+        Veamos ahora, qué ocurre si se hacen donaciones revocables o irrevocables al
+asignatario de cuarta de mejoras.
+ 
+
 con preferencia a cualquier otra disposición del causante.
         Los arts. 1189, 1193 y 1194 dejan perfectamente en claro que la cuarta de libre
 disposición es una cuarta contribuyente, puesto que ella puede estar afectada porque
@@ -1411,6 +1382,16 @@ revocable o irrevocable se imputará a su legítima, a menos que en el testament
 respectiva escritura o en acto posterior auténtico aparezca que la donación se hizo a
 
 ## título de mejora. Por lo mismo, toda donación hecha a un legitimario se presume
+
+**Definición Canónica:** hecha en razón de su legítima, salvo que dicho legitimario acredite que ha sido hecha a
+título de mejora o con cargo a la cuarta de libre disposición.
+        Quien no tiene carácter de legitimario, pero puede ser asignatario de cuarta de
+mejoras, no está sujeto a presunción alguna. La donación, revocable o irrevocable, se
+entenderá hecha con cargo a la parte de libre disposición, a no ser que el causante
+haya expresado en su testamento, en la escritura respectiva o en acto posterior
+auténtico, que era su voluntad imputarla a la cuarta de mejoras.
+        Ninguna incompatibilidad existe en ser
+**Concordancias Legales:** artículo 1363; artículos 1189; artículo 1141
 
 hecha en razón de su legítima, salvo que dicho legitimario acredite que ha sido hecha a
 título de mejora o con cargo a la cuarta de libre disposición.

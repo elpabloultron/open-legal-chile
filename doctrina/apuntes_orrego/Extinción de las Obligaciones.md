@@ -13,12 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Teoria general de las obligaciones1
-
-
-
 ## Tercera parte: extinción de las obligaciones
 
+**Definición Canónica:** Sumario:
+I.- Generalidades. 1.- Concepto, regulación y enumeración. 2.- Clasificación. II.- El
+mutuo disenso o resciliación. 1.- Concepto. 2.- Requisitos. 3.- Alcance de la
+resciliación. 4.- Efectos de la resciliación. III.- El pago. A) Solución o pago efectivo.
+1.- Concepto, enumeración, naturaleza jurídica y regulación. 2.- Por quién puede
+hacerse el pago. 3.- Condiciones requeridas para la validez o eficacia del pago en las
+obligaciones de dar. 4.- A quién debe hacerse el pago. 5.- Dónde debe hacerse el
+pago. 6.- Cuándo debe hacerse el pago. 7.- Gastos del pago. 8.- Cómo debe hacerse el
+pag
+**Concordancias Legales:** artículos 1473; artículos 1568; artículos 1628; artículos 1652; artículos 1655; artículos 1665; artículos 1670; artículos 1681; artículos 2446; artículos 2514
 
 Sumario:
 I.- Generalidades. 1.- Concepto, regulación y enumeración. 2.- Clasificación. II.- El
@@ -161,9 +167,10 @@ cierto debido, la compensación legal y la confusión.
         En cambio, son actos jurídicos, por ejemplo, la resciliación, el pago, la novación,
 la compensación convencional, la transacción y la remisión.
 
-
 ## Ii.-    el mutuo disenso o resciliación
 
+**Definición Canónica:** 1.-     Concepto
+**Concordancias Legales:** artículo 1567; artículo 1567 del Código Civil; artículo 1687 del Código Civil. A nuestro juicio; artículo 1567 del Código Civil alude expresamente a este requis; artículos 1445; artículo 1567 inciso 1; artículo 12 del C. Civil que; artículo 12 del Código Civil; artículo 2451 del Código Civil; artículos 334; artículo 5; artículo 1801 inciso 2; artículo 1689; artículos 1490; Ley N° 20.830
 
 1.-     Concepto
 
@@ -868,11 +875,19 @@ ajenos. En consecuencia, puede sostenerse que la resciliación opera siempre con
 efecto retroactivo entre las partes, pero no es oponible ni puede lesionar derechos
 adquiridos por terceros que arrancan del acto que se deja sin efecto”.48
 
-
 ## Iii.- el pago
 
+**Definición Canónica:** El pago está regulado en el Título XIV del Libro IV, “De los modos de extinguirse
+las obligaciones y primeramente de la solución o pago efectivo”, arts. 1568 a 1627,
+que se agrupan en un total de diez párrafos: párrafo 1° “Del pago efectivo en general”;
+párrafo 2° “Por quién puede hacerse el pago”; párrafo 3° “A quién debe hacerse el
+pago”; párrafo 4° “Dónde debe hacerse el pago”; párrafo 5° “Cómo debe hacerse el
+pago”; párrafo 6° “De la imputación del pago”; párrafo 7° “Del pago por
+consignación”; párrafo 8° “Del pago con subrogación”; párrafo 9° Del pago con cesión
+de bienes o por acción eje
+**Concordancias Legales:** artículos 1522; artículos 1610; artículos 2132; artículo 2128; artículos 1583; artículos 1569; artículos 1106; artículos 1511; artículos 1591; artículos 1547; artículos 1708; Ley N° 20.720; Ley Nº 18.010; Ley N° 18.010; constitución
 
-       El pago está regulado en el Título XIV del Libro IV, “De los modos de extinguirse
+El pago está regulado en el Título XIV del Libro IV, “De los modos de extinguirse
 las obligaciones y primeramente de la solución o pago efectivo”, arts. 1568 a 1627,
 que se agrupan en un total de diez párrafos: párrafo 1° “Del pago efectivo en general”;
 párrafo 2° “Por quién puede hacerse el pago”; párrafo 3° “A quién debe hacerse el
@@ -1444,11 +1459,19 @@ similar, se contempla en el art. 18 de la Ley N° 18.010, sobre operaciones de c
 pago.
       Se trata de presunciones de carácter simplemente legal.
 
-
 ## B) pago por consignación
 
+**Definición Canónica:** El deudor no sólo tiene la obligación, sino también el derecho a pagar, como
+consecuencia de su interés en que la obligación se extinga. Si el acreedor se resiste a
+recibir el pago, tal resistencia no debe perjudicar al deudor, pudiendo sobreponerse a
+ella mediante el pago por consignación.
+         Cabe tener presente que la negativa del acreedor no justifica el incumplimiento
+del deudor, ni purga la mora en que pueda incurrir. En todo caso, la mora del acreedor
+exonera al deudor del cuidado ordinario de la cosa cuando ésta es un cuerpo cierto y le
+dará derecho para demandar perjuicios (arts.
+**Concordancias Legales:** artículos 1600
 
-         El deudor no sólo tiene la obligación, sino también el derecho a pagar, como
+El deudor no sólo tiene la obligación, sino también el derecho a pagar, como
 consecuencia de su interés en que la obligación se extinga. Si el acreedor se resiste a
 recibir el pago, tal resistencia no debe perjudicar al deudor, pudiendo sobreponerse a
 ella mediante el pago por consignación.
@@ -1645,9 +1668,10 @@ nueva (art. 1607). Hay una verdadera novación, y por tanto cesa la responsabili
 los fiadores y codeudores y el acreedor perderá los privilegios y garantías de su crédito
 primitivo.
 
-
 ## C) pago con subrogación
 
+**Definición Canónica:** 1.- La subrogación en general.
+**Concordancias Legales:** artículos 1727; artículos 1366; artículo 1610; artículos 1611; artículos 1640; Ley N° 18.092; constitucion
 
 1.- La subrogación en general.
 
@@ -1945,6 +1969,15 @@ d) Si el crédito se cede parcialmente, el cesionario y el acreedor que mantiene
 
 ## parte del crédito, se encuentran en igualdad de condiciones frente al deudor (sin
 
+**Definición Canónica:** perjuicio que el porcentaje del crédito del que sean titulares puede ser diverso).
+        En el pago con subrogación legal, el primer acreedor tiene derecho a pagarse
+preferentemente por el saldo de su crédito.
+e) En la cesión a título oneroso, el cedente contrae la responsabilidad convenida y en
+todo caso, se hace responsable de la existencia del crédito (art. 1907). Por eso se dice
+que el cesionario tiene contra el cedente una acción de garantía. Se explica lo anterior,
+porque en este caso lo que hay es una venta del crédito.
+        En la subrogación no hay tal acción de garantía, pues no 
+
 perjuicio que el porcentaje del crédito del que sean titulares puede ser diverso).
         En el pago con subrogación legal, el primer acreedor tiene derecho a pagarse
 preferentemente por el saldo de su crédito.
@@ -1956,11 +1989,16 @@ porque en este caso lo que hay es una venta del crédito.
 del crédito. Con todo, si no existe el crédito o si éste era inferior al monto pagado, el
 subrogado podrá demandar al subrogante por pago de lo no debido.55
 
-
 ## D) pago con beneficio de competencia
 
+**Definición Canónica:** Constituye una excepción a la regla general, en virtud de la cual el pago debe
+ser total y el acreedor no está obligado a recibir un pago parcial.
+       Se define en el art. 1625: “Beneficio de competencia es el que se concede a
+ciertos deudores para no ser obligados a pagar más de lo que buenamente puedan,
+dejándoseles en consecuencia lo indispensable para una modesta sustentación, según
+su clase y circunstancias, y con cargo de devolución cuando mejoren de fortuna”.
 
-       Constituye una excepción a la regla general, en virtud de la cual el pago debe
+Constituye una excepción a la regla general, en virtud de la cual el pago debe
 ser total y el acreedor no está obligado a recibir un pago parcial.
        Se define en el art. 1625: “Beneficio de competencia es el que se concede a
 ciertos deudores para no ser obligados a pagar más de lo que buenamente puedan,
@@ -1999,11 +2037,19 @@ incompatibles. Así lo dispone el art. 1627.
 insoluta: art. 1625. Se trata de una excepción-según ya se expresó-, a la regla general
 del art. 1591, en virtud de la cual el pago debe ser íntegro.
 
-
 ## Iv.- la dacion en pago
 
+**Definición Canónica:** Es un modo de extinguir las obligaciones que consiste en la prestación de una
+cosa o la ejecución o abstención de un hecho diversos de los debidos, con el
+consentimiento del acreedor.
+       Como principio general, las obligaciones deben cumplirse literalmente, en la
+forma convenida (art. 1545); el acreedor no está obligado a recibir una cosa distinta
+de la debida, ni siquiera a pretexto de ser ésta cosa distinta de igual o mayor valor que
+la debida (art. 1569).
+       Nada impide sin embargo, que el acreedor acepte que se le pague con una cosa
+diferente. La dación en pago es el resultado de u
 
-       Es un modo de extinguir las obligaciones que consiste en la prestación de una
+Es un modo de extinguir las obligaciones que consiste en la prestación de una
 cosa o la ejecución o abstención de un hecho diversos de los debidos, con el
 consentimiento del acreedor.
        Como principio general, las obligaciones deben cumplirse literalmente, en la
@@ -2142,11 +2188,11 @@ Nótese que la petición del deudor se hizo antes del vencimiento del plazo, el 
 mantuvo inalterable, porque si se hubiere hecho al vencimiento del mismo, habría
 operado una dación en pago.
 
-
 ## V.- la novación
 
+**Definición Canónica:** Se refiere a ella el Código Civil en el Título XV del Libro IV, arts. 1628 a 1651.
 
-       Se refiere a ella el Código Civil en el Título XV del Libro IV, arts. 1628 a 1651.
+Se refiere a ella el Código Civil en el Título XV del Libro IV, arts. 1628 a 1651.
 
 1.- Concepto y naturaleza jurídica: art. 1628.
 
@@ -2439,6 +2485,16 @@ acciones, en el caso que el deudor primitivo sea acreedor del nuevo deudor: art�
 
 ## 1636. Así, por ejemplo, Juan debe $5.000.000.- a Pedro, y en lugar de pagarle tal
 
+**Definición Canónica:** suma, le cede la acción que tiene en contra de María, por la misma suma. Ésta será
+ahora deudora de Pedro, pero no por novación por cambio de deudor, pues ella no
+consintió en tal sustitución.
+        La novación por cambio de deudor no requiere el consentimiento del primitivo
+deudor: art. 1631, N° 3, inc. 2º. Esta regla es consecuencia del principio consignado
+en el art. 1572, que permite pagar a cualquier persona, sin consentimiento e incluso
+contra la voluntad del deudor. En todo caso, nada impide que la novación se verifique
+con el consentimiento del deudor primitivo. Se denomina entonces 
+**Concordancias Legales:** artículos 1519; artículos 1642; constitución
+
 suma, le cede la acción que tiene en contra de María, por la misma suma. Ésta será
 ahora deudora de Pedro, pero no por novación por cambio de deudor, pues ella no
 consintió en tal sustitución.
@@ -2595,11 +2651,14 @@ ii.- Si el delegado pagó, extingue su obligación para con el delegante.
 iii.- El delegante puede repetir contra el delegatario como si él mismo hubiera
 efectuado el pago indebido.
 
-
 ## Vi.-       la remisión
 
+**Definición Canónica:** Se encuentra regulada en los artículos 1652 a 1654, Título XVI del Libro IV. El
+Código Civil la denomina indistintamente como “… remisión o condonación de una
+deuda” (art. 1652).
+**Concordancias Legales:** artículos 1652; artículos 1128; artículo 1653; artículo 1397; artículo 15 del Código Civil colombiano; artículo 12; Ley N° 20.720
 
-      Se encuentra regulada en los artículos 1652 a 1654, Título XVI del Libro IV. El
+Se encuentra regulada en los artículos 1652 a 1654, Título XVI del Libro IV. El
 Código Civil la denomina indistintamente como “… remisión o condonación de una
 deuda” (art. 1652).
 
@@ -2835,11 +2894,12 @@ obligación en parte. A su vez, si el acreedor remite parcialmente la deuda de u
 los codeudores solidarios para accionar contra los demás debe deducir la parte
 condonada: art. 1518. 76
 
-
 ## Vii.- la compensación
 
+**Definición Canónica:** Se reglamenta en los arts. 1655 a 1664, Título XVII del Libro IV.
+**Concordancias Legales:** artículos 1655
 
-           Se reglamenta en los arts. 1655 a 1664, Título XVII del Libro IV.
+Se reglamenta en los arts. 1655 a 1664, Título XVII del Libro IV.
 
         Es un modo de extinción de obligaciones recíprocas existentes entre dos
 personas, hasta concurrencia de la de menor valor.
@@ -3105,11 +3165,12 @@ compensación con el crédito del actor.
         La compensación judicial o reconvencional produce sus efectos a partir del fallo
 judicial que la declara.
 
-
 ## Viii.- la confusión
 
+**Definición Canónica:** Está regulada en los arts. 1665 a 1669, Título XVIII del Libro IV.
+**Concordancias Legales:** artículos 195; artículo 937; artículos 1683; artículo 434
 
-           Está regulada en los arts. 1665 a 1669, Título XVIII del Libro IV.
+Está regulada en los arts. 1665 a 1669, Título XVIII del Libro IV.
 
          Dispone el art. 1665: “Cuando concurren en una misma persona las calidades
 de acreedor y deudor se verifica de derecho una confusión que extingue la deuda y
@@ -3545,6 +3606,10 @@ no obstante que la sentencia de la Corte de Apelaciones de Valparaíso, Rev., t.
 
 ## parte, sec. 1ª, pág. 348, el 12 de agosto de 1938, haciendo suyo el razonamiento del
 
+**Definición Canónica:** juez, haya podido sostener la tesis contraria y, en nuestro parecer, errónea. Es que el
+Código Civil guarda silencio acerca de la oportunidad y de la forma en que se puede
+**Concordancias Legales:** Ley N° 21.394
+
 juez, haya podido sostener la tesis contraria y, en nuestro parecer, errónea. Es que el
 Código Civil guarda silencio acerca de la oportunidad y de la forma en que se puede
 
@@ -3553,6 +3618,14 @@ Código Civil guarda silencio acerca de la oportunidad y de la forma en que se p
 2021. El tenor del precepto, antes de la modificación, era el siguiente: “El tribunal denegará la ejecución si el
 
 ## título presentado tiene más de tres años, contados desde que la obligación se haya hecho exigible; salvo que
+
+**Definición Canónica:** se compruebe la subsistencia de la acción ejecutiva por alguno de los medios que sirven para deducir esta
+acción en conformidad al artículo 434”. Había consenso, considerando dicha redacción, en cuanto a que el
+tribunal carecía de la facultad que se le confería por el art. 442 del Código de Procedimiento Civil, si se
+trataba de prescripciones especiales, como aquellas que se contemplan para la acción ejecutiva en la Ley N°
+18.092, referida a letras de cambio y pagarés. Hoy, en cambio, puesto que el art. 442 no alude a la
+prescripción de tres años del Código Civil sino que en general a cualquie
+**Concordancias Legales:** artículo 434; artículo 309; artículo 310; artículos 310 del Código de Procedimiento Civil y 2524 y 2517 d; artículos 2493; Ley N° 18.092
 
 se compruebe la subsistencia de la acción ejecutiva por alguno de los medios que sirven para deducir esta
 acción en conformidad al artículo 434”. Había consenso, considerando dicha redacción, en cuanto a que el
@@ -3627,6 +3700,16 @@ pasivo. (…) En la teoría moderna, una y otra vía procesal no son sino el der
 jurisdicción, de modo que en cada acción y excepción hay sólo una ‘pretensión’ de la
 
 ## parte respectiva, que, si está fundada en un derecho efectivo, será acogida y, por lo
+
+**Definición Canónica:** mismo, el derecho reconocido a nivel jurisdiccional. Esta posición la ha recogido la
+jurisprudencia en varias oportunidades, expresando que la prescripción extintiva puede
+alegarse, sea como acción o como excepción, ya que ningún precepto sustantivo o
+procesal la ha limitado a la excepción. En sentido similar, otra sentencia sostuvo que
+‘la prescripción debe ser formalmente alegada en sede jurisdiccional, sea por vía de
+acción o por vía de excepción…’; y una tercera agrega que ‘junto con declarar que la
+prescripción extintiva puede alegarse como acción, declarar prescrita la obligación del
+ven
+**Concordancias Legales:** artículo 310 del Código de Procedimiento Civil permite que ell; artículo 310 del Código de Procedimiento Civil sólo es aplicab; artículo 2253 del Código Francés prescribe que; Artículo 1937; Artículo 1143; artículo 2225; artículo 1166; artículo 2503; artículo 2503 del Código Civil no habría interrupción si no hay; artículos 2518; artículo 2518 inciso 3; artículo 2518; Ley N° 18.092; Ley Nº 6.162
 
 mismo, el derecho reconocido a nivel jurisdiccional. Esta posición la ha recogido la
 jurisprudencia en varias oportunidades, expresando que la prescripción extintiva puede
@@ -4219,6 +4302,16 @@ que quiere interrumpir (dueño o acreedor, según el caso) le estaría siendo re
 
 ## parte del plazo; nunca gozaría de todo el plazo que la ley le confiere para interrumpir
 
+**Definición Canónica:** porque debe reservar un tiempo de la última parte del plazo para lograr la notificación
+del demandado. Más aún, surgirían diferencias entre actores; algunos disfrutarían de
+menos plazo que otros dependiendo de la mayor o menor dificultad real para
+notificarlos (sin contar con la posibilidad de que el demandado despliegue maniobras
+para evadir o postergar la notificación). Esa privación parcial de plazo y la anotada
+desigualdad no son aceptables, y son evitadas con esta alternativa. Además de estos
+argumentos específicos, hay otras apreciaciones conceptuales que militan también a
+favor de la su
+**Concordancias Legales:** artículo 2518 del Código Civil dispone que la prescripción que; artículo 2503; artículo 2.503 del Código Civil exige; artículo 2518 del Código Civil; artículo 2503 del Código Civil; artículo 55 del Código de Procedimiento Civil; artículo 2332 del Código Civil; artículos 2518; artículo 2246; Ley N° 18.082
+
 porque debe reservar un tiempo de la última parte del plazo para lograr la notificación
 del demandado. Más aún, surgirían diferencias entre actores; algunos disfrutarían de
 menos plazo que otros dependiendo de la mayor o menor dificultad real para
@@ -4379,7 +4472,17 @@ en una sentencia que figura en la Revista de Derecho y Jurisprudencia, tomo XXII
 
 ## sección primera, página 73”.123
 
-        Ramón Domínguez Águila comparte también este predicamento: “Tanto la
+**Definición Canónica:** Ramón Domínguez Águila comparte también este predicamento: “Tanto la
+doctrina nacional como la jurisprudencia concuerdan en que es apta para interrumpir la
+prescripción, la demanda presentada ante un tribunal incompetente. No encontramos
+entre los autores voces disidentes en esta materia. Y en ello hay concordancia con las
+soluciones del derecho comparado. Desde luego el art. 2246 del Código Francés
+contempla expresamente el efecto interruptivo de una citación ante la justicia hecha
+incluso ante un tribunal incompetente y allí se ha resuelto que incluso produciría ese
+efecto una demanda ante t
+**Concordancias Legales:** artículo 1516
+
+Ramón Domínguez Águila comparte también este predicamento: “Tanto la
 doctrina nacional como la jurisprudencia concuerdan en que es apta para interrumpir la
 prescripción, la demanda presentada ante un tribunal incompetente. No encontramos
 entre los autores voces disidentes en esta materia. Y en ello hay concordancia con las
@@ -4504,6 +4607,15 @@ i.- Tratándose de obligaciones solidarias: art. 2519, ya citado.
         Sin embargo, esta excepción no se aplicará a los codeudores solidarios de un
 
 ## título de crédito mercantil, de los regulados en la Ley Nº 18.092, conforme lo dispone
+
+**Definición Canónica:** su art. 100.
+        Nos remitimos a lo que estudiamos en los efectos de las obligaciones solidarias.
+ii.- Tratándose de obligaciones indivisibles: art. 1529.
+        Establece esta norma: “La prescripción interrumpida respecto de uno de los
+deudores de la obligación indivisible, lo es igualmente respecto de los otros”.
+        Recuérdese lo revisado a propósito de los efectos de las obligaciones
+indivisibles.
+**Concordancias Legales:** artículo 1682 del Código Civil; artículos 2381; artículos 766; artículos 2521; artículo 2523; artículos 2503; artículo 2521; artículo 2515; artículos 1691; artículos 2964; Artículos 191; Artículos 212; Artículos 217; Ley Nº 14.908; Ley Nº 20.930
 
 su art. 100.
         Nos remitimos a lo que estudiamos en los efectos de las obligaciones solidarias.

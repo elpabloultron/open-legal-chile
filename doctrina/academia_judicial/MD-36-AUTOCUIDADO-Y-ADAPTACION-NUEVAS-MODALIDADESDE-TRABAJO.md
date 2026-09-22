@@ -13,20 +13,20 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## 36           Autocuidado
-
-             y adaptación
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             a nuevas
+                  electrónica
+             modalidades
+                  de causas
+             de trabajo
+             Ricardo Pulido
+             Cristián Villarroel
+             Carla García
+             Matías Tupper
 
-                  Tramitación
+Tramitación
              a nuevas
                   electrónica
              modalidades
@@ -102,39 +102,9 @@ Materiales Docentes                                                     ﻿
 
 Contenido
 
-
-## 5       Introducción
-
-
-## 8       Capítulo 1
-
-        Normativa sobre seguridad y salud en el trabajo en Chile
-        y su relación con los ambientes laborales
-
-## 20      Capítulo 2
-
-        Organización del trabajo y riesgos psicosociales laborales
-
-## 42      Capítulo 3
-
-        Autocuidado y cuidado de equipos
-
-## 52      Capítulo 4
-
-        Mindfulness como estrategia de autocuidado
-        científicamente validada
-
-## 103     Capítulo 5
-
-        Dimensión social del autocuidado
-
-## 108     Capítulo 6
-
-        Desafíos del autocuidado basado en mindfulness
-        en el Poder Judicial
-
 ## 114     Referencias
 
+**Definición Canónica:** Materiales Docentes                                            Introducción
 
 Materiales Docentes                                            Introducción
 
@@ -222,8 +192,11 @@ del país.
 
 Materiales Docentes                                                   Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Normativa sobre seguridad y salud en el trabajo
+en Chile y su relación con los ambientes laborales
+**Concordancias Legales:** Ley 16.744
 
 Normativa sobre seguridad y salud en el trabajo
 en Chile y su relación con los ambientes laborales
@@ -248,8 +221,10 @@ instituciones públicas (Instituto de Seguridad Laboral, ISL); y administración
 de la ley y, por tanto, sus trabajadores y trabajadoras quedan protegidos
 ante la ocurrencia de accidentes y enfermedades propios del trabajo.
 
-
 ## 1 Organización Mundial de la Salud. Nota Descriptiva 389 sobre la protección de
+
+**Definición Canónica:** la salud de los trabajadores, 2017. Disponible en https://bit.ly/3uxHLH9.
+**Concordancias Legales:** Ley 16.744
 
 la salud de los trabajadores, 2017. Disponible en https://bit.ly/3uxHLH9.
 
@@ -375,6 +350,15 @@ el trabajo.
 
 ## parte de esta discusión que pone el acento en mejorar las condiciones
 
+**Definición Canónica:** de trabajo. El 2006, promulgó el Código de Buenas Prácticas Laborales para promover, dentro del Estado, condiciones de trato respetuoso y
+no discriminatorio para todos los y las funcionarias. En segundo lugar,
+el 2015, el Instructivo Presidencial 1 sobre Buenas Prácticas Laborales
+en Desarrollo de Personas en el Estado, definió tres ámbitos de acción:
+derechos laborales, que estén garantizados para las funcionarias y los
+funcionarios; condiciones laborales, referido a ámbitos estructurales; y
+ambientes laborales. Este último referido casi por completo al ámbito de
+la calidad de vida laboral, b
+
 de trabajo. El 2006, promulgó el Código de Buenas Prácticas Laborales para promover, dentro del Estado, condiciones de trato respetuoso y
 no discriminatorio para todos los y las funcionarias. En segundo lugar,
 el 2015, el Instructivo Presidencial 1 sobre Buenas Prácticas Laborales
@@ -428,8 +412,10 @@ implicaría contratar a más personas.
 lentamente revolucionando el mundo del trabajo y los hábitos laborales,
 permitiendo que una persona trabajara desde prácticamente cualquier
 
-
 ## 2 Para más información sobre normas de gestión y desarrollo de personas del
+
+**Definición Canónica:** Servicio Civil puede visitar https://bit.ly/3NAmt2W.
+**Concordancias Legales:** Ley 20.940
 
 Servicio Civil puede visitar https://bit.ly/3NAmt2W.
 
@@ -492,8 +478,10 @@ la tecnología en sus instituciones puede cambiar sustancialmente su trabajo; un
 trabajo en sus servicios y un 13% piensa que su propio puesto de trabajo
 podría ser eliminado.
 
-
 ## 3 El Servicio Civil cuenta con un banco de buenas prácticas laborales del sector
+
+**Definición Canónica:** público, el que puede ser revisado en el siguiente enlace https://bit.ly/3GB4pna.
+**Concordancias Legales:** artículo 7; Ley 21.342; constitucion
 
 público, el que puede ser revisado en el siguiente enlace https://bit.ly/3GB4pna.
 
@@ -609,8 +597,11 @@ del programa de apoyo psicológico online para funcionarios y funcionarias del P
 
 Materiales Docentes                                                    Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Organización del trabajo
+y riesgos psicosociales laborales
+**Concordancias Legales:** Ley 16.744
 
 Organización del trabajo
 y riesgos psicosociales laborales
@@ -961,8 +952,11 @@ afectar su seguridad y salud y que tienen un origen externo a la empresa,
 organización o institución. Entre ellos se identifican los que derivan de
 situaciones de violencia protagonizadas por personas ajenas a los lugares de trabajo (Boulet y Le Bourdais, 2016; Einersen y Skogstad, 1996).
 
-
 ## 3 Véase también la Encuesta Nacional de Calidad de Vida (Encavi) del Ministerio
+
+**Definición Canónica:** de Salud, 2006 y la Encuesta Laboral (Encla) de la Dirección del Trabajo, 2009 y
+2011.
+**Concordancias Legales:** Ley 19.882; Ley 20.955; Constitución
 
 de Salud, 2006 y la Encuesta Laboral (Encla) de la Dirección del Trabajo, 2009 y
 2011.
@@ -1089,10 +1083,20 @@ tribunales del país define el maltrato laboral como:
    En dicha política del Poder Judicial se define qué tipo de acciones
 pueden ser constitutivas de maltrato o acoso laboral, entre las que destacan:
 
-
 ## 1. Trato inadecuado: todo acto de violencia contra la integridad físi-
 
-      ca o moral, la libertad física y los bienes de quien se desempeñe como
+**Definición Canónica:** ca o moral, la libertad física y los bienes de quien se desempeñe como
+      funcionario o funcionaria; toda expresión verbal injuriosa o ultrajante
+      que lesione la integridad moral o los derechos a la intimidad y al buen
+      nombre de quienes participen en una relación de trabajo de tipo labo-
+      ral o todo comportamiento tendiente a menoscabar la autoestima y la
+      dignidad de quien participe en una relación de trabajo de tipo laboral,
+      tales como:
+        - Llamados de atención o efectuar descalificaciones delante de terceras
+      personas, entre otras.
+        - Hostigam
+
+ca o moral, la libertad física y los bienes de quien se desempeñe como
       funcionario o funcionaria; toda expresión verbal injuriosa o ultrajante
       que lesione la integridad moral o los derechos a la intimidad y al buen
       nombre de quienes participen en una relación de trabajo de tipo labo-
@@ -1131,7 +1135,17 @@ pueden ser constitutivas de maltrato o acoso laboral, entre las que destacan:
 
 ## 3. Entorpecimiento laboral: toda acción tendiente a obstaculizar el
 
-      cumplimiento de la labor o hacerla más gravosa o retardarla con perjui-
+**Definición Canónica:** cumplimiento de la labor o hacerla más gravosa o retardarla con perjui-
+      cio para el funcionario o funcionaria. Constituyen acciones de entorpe-
+      cimiento laboral, entre otras:
+       - La privación, ocultación o inutilización de los insumos, documentos
+      o instrumentos para la adecuada ejecución de su labor.
+       - La destrucción, pérdida de información o retención de información
+      crucial para su trabajo o manipularla para inducirle a error en su des-
+      empeño laboral, y acusarle después de negligencia o faltas profesionales.
+       - El ocultamiento de correspondenci
+
+cumplimiento de la labor o hacerla más gravosa o retardarla con perjui-
       cio para el funcionario o funcionaria. Constituyen acciones de entorpe-
       cimiento laboral, entre otras:
        - La privación, ocultación o inutilización de los insumos, documentos
@@ -1143,15 +1157,18 @@ pueden ser constitutivas de maltrato o acoso laboral, entre las que destacan:
        - La estigmatización de algunas labores presuntamente de menor im-
       portancia.
 
-## 4. Desprotección laboral: toda conducta tendiente a poner en riesgo
-
-      la integridad y la seguridad de la funcionaria o funcionario mediante
-      órdenes o asignación de funciones sin el cumplimiento de los requisitos
-      mínimos de protección y seguridad.
-
 ## 5. Iniquidad laboral: excesivas sobrecargas de trabajo; asignación de
 
-      funciones a menosprecio la funcionaria o funcionario con intencionali-
+**Definición Canónica:** funciones a menosprecio la funcionaria o funcionario con intencionali-
+      dad de menoscabo, constantes cambios injustificados de labores o dejar-
+      lo sin funciones que ejercer. No debe entenderse como inequidad labo-
+      ral la sobrecarga de trabajo producto de falta de dotación o el aumento
+      de carga producto de ausencia por licencias médicas o feriado legal, así
+      como la reasignación temporal de funciones producto de la falta com-
+      probada de competencias.
+**Concordancias Legales:** Ley 20.005
+
+funciones a menosprecio la funcionaria o funcionario con intencionali-
       dad de menoscabo, constantes cambios injustificados de labores o dejar-
       lo sin funciones que ejercer. No debe entenderse como inequidad labo-
       ral la sobrecarga de trabajo producto de falta de dotación o el aumento
@@ -1385,8 +1402,9 @@ sin discriminación, que permitan avanzar en la construcción de la igualdad de 
 
 Materiales Docentes                                              Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Autocuidado y cuidado de equipos
 
 Autocuidado y cuidado de equipos
 
@@ -1695,6 +1713,16 @@ relevante dado por la aceleración de la vivencia del tiempo y la omniconectivid
 
 ## parte y a cualquier hora, disponible. La hiperestimulación se relaciona
 
+**Definición Canónica:** también con el exceso de oportunidades de consumo a toda hora y en
+todo lugar (por ejemplo de series, noticieros, videos, etcétera) lo que
+crea una constante distracción y alejamiento de la propia experiencia.
+Todo esto desarrolla una cultura de la inmediatez, volviéndonos cada
+vez menos tolerantes a los tiempos lentos y a las esperas, que son los lapsos necesarios para sentir y reconocer lo que nos pasa y tomar medidas
+de autocuidado oportuno.
+   En otras palabras, nuestra cultura no favorece el autocuidado, por el
+contrario, nos ofrece, y muchas veces nos demanda, que adquiramos
+estrategias 
+
 también con el exceso de oportunidades de consumo a toda hora y en
 todo lugar (por ejemplo de series, noticieros, videos, etcétera) lo que
 crea una constante distracción y alejamiento de la propia experiencia.
@@ -1715,8 +1743,10 @@ con fomentar prácticas de cuidado entre pares, autocuidado y responsabilidad.
 
  4 Cuenta pública 2021, Comité Nacional de Riesgos Psicosociales del Poder Judicial.
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Mindfulness como estrategia de autocuidado
+científicamente validada
 
 Mindfulness como estrategia de autocuidado
 científicamente validada
@@ -2554,6 +2584,16 @@ acción frente al estrés y sus principales evidencias científicas, en esta
 
 ## sección veremos los cinco aspectos centrales que deben ser explorados
 
+**Definición Canónica:** y cultivados con constancia para que la práctica del mindfulness generando los cambios necesarios hacia el bienestar y un estilo de vida más
+saludable y consciente. Estos cinco elementos son:
+   • Reconocer y trabajar con las resistencias y el malestar.
+   • Tomar consciencia de las tendencias autocríticas para aprender a
+      contrarrestarlas y la de la necesidad de cultivar espacios de acep-
+      tación y seguridad.
+   • Entender la asertividad y el manejo de los límites como un elemen-
+      to protector central para el autocuidado.
+   • Aprender a reconocer los estados emocionales y pone
+
 y cultivados con constancia para que la práctica del mindfulness generando los cambios necesarios hacia el bienestar y un estilo de vida más
 saludable y consciente. Estos cinco elementos son:
    • Reconocer y trabajar con las resistencias y el malestar.
@@ -3383,8 +3423,9 @@ De esta manera, tener consciencia de nuestras necesidades en situaciones de cuid
 
 Materiales Docentes                                              Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Dimensión social del autocuidado
 
 Dimensión social del autocuidado
 
@@ -3525,8 +3566,10 @@ negligencias que suelen presentarse en las organizaciones.
 
 Materiales Docentes                                              Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Desafíos del autocuidado basado
+en mindfulness en el Poder Judicial
 
 Desafíos del autocuidado basado
 en mindfulness en el Poder Judicial
@@ -3588,8 +3631,10 @@ distintos Estados del país:
       zaje y la enseñanza de esta técnica, las inmersiones tomaron una
       forma cada vez más estructurada y específica, dando lugar a entre-
 
-
 ## 1 Academia Judicial de Chile (2020). «Informe de Detección de Necesidades
+
+**Definición Canónica:** 2020».
+ 2 Poder Judicial (2021). «Política de clima laboral». Tercera versión.
 
 2020».
  2 Poder Judicial (2021). «Política de clima laboral». Tercera versión.
@@ -3684,12 +3729,9 @@ en mindfulness contribuye notablemente a superar las barreras iniciales.
 es uno de los valores centrales que definen la identidad y sentido de
 pertenencia de sus miembros.5 La cultura del sacrificio no considera el
 
-
-## 4 Cuenta Pública del Comité Nacional de Riesgos Psicosociales del Poder Judicial
-
-(2021).
-
 ## 5 Cuenta Pública del Comité Nacional de Riesgos Psicosociales del Poder Judicial
+
+**Definición Canónica:** (2021).
 
 (2021).
 

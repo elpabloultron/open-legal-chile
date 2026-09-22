@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Violencia
+             Intrafamiliar:
 
-             Violencia
+Violencia
              Intrafamiliar:
 
                                        Mauricio
@@ -71,12 +64,13 @@ extraccion: pdftotext
                         innovación      y   el     prototipado de
 ISBN N°                 soluciones para tribunales. Ha sido
 
-## 2022-a-1844
-
-
 ## parte activa en la implementación
 
-                        dela Ley de Tramitación Electrónica.
+**Definición Canónica:** dela Ley de Tramitación Electrónica.
+Tramitación                                                                                                    3
+**Concordancias Legales:** Ley Nº 20.886
+
+dela Ley de Tramitación Electrónica.
 Tramitación                                                                                                    3
 
                                         Resumen
@@ -107,164 +101,12 @@ ISBN N°                 soluciones para tribunales. Ha sido
 
                                         Índice de contenidos
 
-
-## 1. Introducción a la tramitación electrónica                                                     6
-
-
-
-## 1.1 Breve historia de la adopción tecnológica en la justicia chilena                        10
-
-
-
-## 1.1.1 El registro de los actos procesales                                             10
-
-
-
-## 1.1.2 Cambio tecnológico vinculado a la Reforma Procesal Penal                         11
-
-
-
-## 1.1.3 La Ley N° 19.968 y la reforma a la justicia de familia                          13
-
-
-
-## 1.1.4 Acta N° 91-2007                                                                 15
-
-
-
-## 1.1.5 Acta N° 98-2009                                                                 16
-
-
-
-## 1.1.6 Reforma a la justicia laboral                                                   17
-
-
-
-## 1.1.7 Tramitación digital en materia civil                                            18
-
-
-
-## 1.2 Tramitación electrónica de los procedimientos judiciales                                 21
-
-
-
-## 1.2.1 Fundamentos del proyecto                                                         21
-
-
-
-## 1.2.2 Objetivos y beneficios perseguidos por el proyecto                              24
-
-
-
-## 1.2.3 Implementación de la ley                                                        29
-
-
-
-## 1.2.4 Fundamentos para innovar en la tramitación electrónica de justicia en Chile     42
-
-
-
-## 2. Aspectos jurídicos y normativos de la Ley Nº 20.886                                         47
-
-
-
-## 2.1 Alcances prácticos de la Ley Nº 20.886                                                  48
-
-
-
-## 2.1.1 Ámbito de aplicación de la Ley Nº 20.886                                        50
-
-
-
-## 2.1.2 Materialización de los principios de la Ley de Tramitación Electrónica          60
-
-
-
-## 2.1.3 Uso obligatorio de los sistemas informáticos                                    68
-
-
-
-## 2.1.4 Excepciones al ingreso de presentaciones en la Oficina Judicial Virtual         70
-
-
-
-## 2.1.5 Presentación de documentos                                                      75
-
-
-
-## 2.1.6 Patrocinio y poder electrónico                                                  79
-
-
-
-## 2.1.7 Notificaciones. Principales modificaciones introducidas por la ley.             83
-
-
-
-## 2.1.8 Registro de actuaciones receptoriales. Exigencias legales y reglamentarias.     90
-
-
-
-## 2.1.9 Relación con otras instituciones                                                93
-
-
-
-## 2.1.10 Teletrabajo y audiencias por videoconferencia, ¿hasta dónde se puede llegar?   100
-
-
-
-## 3. El futuro de la tramitación electrónica                                                     117
-
-
-
-## 3.1 Tramitación electrónica en tiempos de crisis                                            118
-
-
-
-## 3.1.1 La crisis como motor de cambio                                                  119
-
-Tramitación                                                                                                                               5
-
-
-## 3.2 Tramitación judicial electrónica desde la perspectiva de la transformación digital   123
-
-
-
-## 3.2.1 Transformación digital                                                        124
-
-
-
-## 3.2.2 Gobierno electrónico en Chile                                                 126
-
-
-
-## 3.2.3 Proceso de innovación                                                         127
-
-
-
-## 3.3 Componentes de la tramitación electrónica                                            143
-
-
-
-## 3.3.1 Componentes del back office                                                   144
-
-
-
-## 3.3.2 Componentes del front office                                                  154
-
-
-
-## 3.4 Nuevas herramientas tecnológicas                                                     166
-
-
-
-## 3.4.1 El rol de las tecnologías en el futuro de la tramitación electrónica          167
-
-
-
 ## 3.4.2 Tecnologías aplicables a la labor de la justicia                              167
 
+**Definición Canónica:** Bibliografía                                                                                201
+**Concordancias Legales:** Ley Nº 20.886
 
-                                        Bibliografía                                                                                201
+Bibliografía                                                                                201
 
                                                                Introducción a
                                                                 la tramitación
@@ -381,17 +223,24 @@ Electrónica                                                                    
 Tramitación                                                                                 1. Introducción a la tramitación                                             10
 Electrónica                                                                                    electrónica
 
-
 ## 1.1                    Breve historia de la adopción
 
-                                                                                                   tecnológica en la justicia chilena
+**Definición Canónica:** tecnológica en la justicia chilena
+
+tecnológica en la justicia chilena
 
                                                                                               La historia previa a la Reforma Procesal Penal es, básicamente, la de
                                                                                               una extensa tramitación de la propia ley, ocurrida en los años
 
 ## 90. Los detalles de este largo empeño legislativo no son objeto del
 
-                                                                                              presente curso, pero sí es relevante señalar que a partir de aquel el
+**Definición Canónica:** presente curso, pero sí es relevante señalar que a partir de aquel el
+                                                                                              Poder Judicial comenzó a formalizar los lineamientos técnicos y
+                                                                                              procedimentales para el correcto funcionamiento de la justicia penal
+                                                                                              como la conocemos hoy. No es impreciso señalar que este primer
+                                                    
+
+presente curso, pero sí es relevante señalar que a partir de aquel el
                                                                                               Poder Judicial comenzó a formalizar los lineamientos técnicos y
                                                                                               procedimentales para el correcto funcionamiento de la justicia penal
                                                                                               como la conocemos hoy. No es impreciso señalar que este primer
@@ -409,10 +258,16 @@ Electrónica                                                                    
                                                                                               cuanto a los procesos de reforma, y a cómo estos cimentaron la base
                                                                                               para llegar a la tramitación electrónica.
 
-
 ## 1.1.1 El registro de los actos procesales
 
-                                                                                              La primera innovación tecnológica que derivó de la Reforma Procesal
+**Definición Canónica:** La primera innovación tecnológica que derivó de la Reforma Procesal
+                                                                                              Penal puso énfasis en el registro de la labor de tribunales vinculado
+                                                                                              a las causas de su conocimiento. Esta nueva concepción del registro
+                                                                                              constituye la base de los esfuerzos que confluyeron, 15 años después,
+                                          
+**Concordancias Legales:** artículos 39; artículo 39; artículo 41; Ley Nº 19.6962; Ley N° 19.696; Ley Nº 20.074.3
+
+La primera innovación tecnológica que derivó de la Reforma Procesal
                                                                                               Penal puso énfasis en el registro de la labor de tribunales vinculado
                                                                                               a las causas de su conocimiento. Esta nueva concepción del registro
                                                                                               constituye la base de los esfuerzos que confluyeron, 15 años después,
@@ -449,10 +304,16 @@ Electrónica                                                                    
                                                                                               modificaciones a la primera redacción, que resultaron en la Ley Nº
                                                                                               20.074.3
 
-
 ## 1.1.2 Cambio tecnológico vinculado
 
-                                                                                              a la Reforma Procesal Penal
+**Definición Canónica:** a la Reforma Procesal Penal
+                                                                                              Desde la perspectiva orgánica, el principal hito de la Reforma Proce-
+                                                                                              sal Penal consistió en la separación de la labor administrativa de la
+                                                                                              jurisdiccional. De esta manera, la reforma dispuso un cambio radical
+                                                                                 
+**Concordancias Legales:** Ley N° 20.074
+
+a la Reforma Procesal Penal
                                                                                               Desde la perspectiva orgánica, el principal hito de la Reforma Proce-
                                                                                               sal Penal consistió en la separación de la labor administrativa de la
                                                                                               jurisdiccional. De esta manera, la reforma dispuso un cambio radical
@@ -536,10 +397,16 @@ Electrónica                                                                    
                                                                                              materia penal, siguiendo en la línea de los procesos de interconexión
                                                                                              que cada vez se encontraban más consolidados.
 
-
 ## 1.1.3 La Ley N° 19.968 y la reforma a la justicia de familia
 
-                                                                                             La reforma a la justicia de familia vino inmediatamente después del
+**Definición Canónica:** La reforma a la justicia de familia vino inmediatamente después del
+                                                                                             término de la implementación de la Reforma Procesal Penal y se
+                                                                                             vio reflejada con la promulgación de la Ley Nº 19.968. La principal
+                                                                                             promesa de este cambio legislativo radicó en que los justiciables
+                                                        
+**Concordancias Legales:** Ley Nº 19.968; Ley N° 20.286; Ley N° 19.968
+
+La reforma a la justicia de familia vino inmediatamente después del
                                                                                              término de la implementación de la Reforma Procesal Penal y se
                                                                                              vio reflejada con la promulgación de la Ley Nº 19.968. La principal
                                                                                              promesa de este cambio legislativo radicó en que los justiciables
@@ -645,10 +512,15 @@ Electrónica                                                                    
 Tramitación                                                                                1. Introducción a la tramitación                                            16
 Electrónica                                                                                   electrónica
 
-
 ## 1.1.5 Acta N° 98-2009
 
-                                                                                             Luego del aprendizaje que significó la reforma a la justicia de familia,
+**Definición Canónica:** Luego del aprendizaje que significó la reforma a la justicia de familia,
+                                                                                             el Poder Judicial tomó un rol más activo y participativo en la cons-
+                                                                                             trucción de soluciones. Además de realizar considerables esfuerzos
+                                                                                             para enfrentar los desafíos propios de la accidentada reforma inicial,
+                                         
+
+Luego del aprendizaje que significó la reforma a la justicia de familia,
                                                                                              el Poder Judicial tomó un rol más activo y participativo en la cons-
                                                                                              trucción de soluciones. Además de realizar considerables esfuerzos
                                                                                              para enfrentar los desafíos propios de la accidentada reforma inicial,
@@ -711,10 +583,15 @@ Electrónica                                                                    
                                                                                                 tiendo disponer de un sistema con alto grado de seguridad en la
                                                                                                 dictación de órdenes y contraórdenes de detención.
 
-
 ## 1.1.6 Reforma a la justicia laboral
 
-                                                                                             Luego de las reformas a la justicia penal y a la de familia, ocurrió lo
+**Definición Canónica:** Luego de las reformas a la justicia penal y a la de familia, ocurrió lo
+                                                                                             propio en materia laboral. Las exigencias de una nueva economía,
+                                                                                             traducidas en relaciones laborales más modernas y dinámicas, relevó
+                                                                                             la necesidad de establecer procesos más simples, con menor forma-
+                                                  
+
+Luego de las reformas a la justicia penal y a la de familia, ocurrió lo
                                                                                              propio en materia laboral. Las exigencias de una nueva economía,
                                                                                              traducidas en relaciones laborales más modernas y dinámicas, relevó
                                                                                              la necesidad de establecer procesos más simples, con menor forma-
@@ -752,10 +629,16 @@ Electrónica                                                                    
                                                                  en el resguardo efectivo de los derechos de los actores participantes
                                                                  en una relación laboral.
 
-
 ## 1.1.7 Tramitación digital en materia civil
 
-                                                                 La implementación del Acta N° 54-2014, que regula la tramitación
+**Definición Canónica:** La implementación del Acta N° 54-2014, que regula la tramitación
+                                                                 electrónica en los tribunales con competencia civil, concreta el úl-
+                                                                 timo de los pasos hacia la obligatoriedad del registro electrónico de
+                                                                 las causas. Si bien los juzgados con competencia en materia civil ya
+                                                                 disponían de un sistema informático, mantenían vigentes a su respec
+**Concordancias Legales:** Ley Nº 19.799
+
+La implementación del Acta N° 54-2014, que regula la tramitación
                                                                  electrónica en los tribunales con competencia civil, concreta el úl-
                                                                  timo de los pasos hacia la obligatoriedad del registro electrónico de
                                                                  las causas. Si bien los juzgados con competencia en materia civil ya
@@ -796,10 +679,15 @@ Electrónica                                                                    
                                                                  acontecía en los tribunales con competencia en materia civil, la cual
                                                                  no se encontraba reformada y requería profundas modificaciones.
 
-
 ## 1.1.7.1 Expediente electrónico
 
-                                                                 Junto al proceso de consolidación en la implementación de sistemas
+**Definición Canónica:** Junto al proceso de consolidación en la implementación de sistemas
+                                                                 informáticos en los distintos territorios jurisdiccionales del país, y de
+                                                                 la mano de unidades de apoyo administrativo, se comenzó a apoyar
+                                                                 la digitalización de piezas ingresadas por las partes y el etiquetado
+                                                                 de los expedientes, permitiendo además la difusión de las nuevas
+
+Junto al proceso de consolidación en la implementación de sistemas
                                                                  informáticos en los distintos territorios jurisdiccionales del país, y de
                                                                  la mano de unidades de apoyo administrativo, se comenzó a apoyar
                                                                  la digitalización de piezas ingresadas por las partes y el etiquetado
@@ -815,10 +703,15 @@ Electrónica                                                                    
                                                                  las causas en tramitación, dejándose además constancia de cada
                                                                  pieza del expediente en el sistema.
 
-
 ## 1.1.7.2 Firma electrónica
 
-                                                                 Entre los principales beneficios que comenzaron a experimentar los
+**Definición Canónica:** Entre los principales beneficios que comenzaron a experimentar los
+                                                                 tribunales con competencia civil a partir de la digitalización de los
+                                                                 expedientes, está la baja en la afluencia de público en los tribunales,
+                                                                 la disminución en el extravío de los expedientes y documentos y la
+                                                                 posibilidad de reorientar las tareas internas del tribunal. Esto
+
+Entre los principales beneficios que comenzaron a experimentar los
                                                                  tribunales con competencia civil a partir de la digitalización de los
                                                                  expedientes, está la baja en la afluencia de público en los tribunales,
                                                                  la disminución en el extravío de los expedientes y documentos y la
@@ -844,10 +737,14 @@ Electrónica                                                                    
 Tramitación                                                                        1. Introducción a la tramitación                                    21
 Electrónica                                                                           electrónica
 
-
 ## 1.2                 Tramitación
 
-                                                                                          electrónica  de             los
+**Definición Canónica:** electrónica  de             los
+                                                                                          procedimientos
+                                                                                          judiciales
+**Concordancias Legales:** Artículo 2; Ley N° 20.886; Ley Nº 20.886; Ley Nº 21.180
+
+electrónica  de             los
                                                                                           procedimientos
                                                                                           judiciales
 
@@ -984,10 +881,15 @@ Electrónica                                                                    
                                                       dejando a salvo la       resultantes del trabajo de diseño de la norma.
                                                       posibilidad de, en
 
-
 ## 1.2.2.1 Expediente digital
 
-                                                      casos excepcionales,     La Ley Nº 20.886 consagra el concepto de “expediente digital”, que
+**Definición Canónica:** casos excepcionales,     La Ley Nº 20.886 consagra el concepto de “expediente digital”, que
+                                                      ingresar escritos        asegura fidelidad, preservación y reproducción, dejando a salvo la
+                                                      de forma material.       posibilidad de, en casos excepcionales, ingresar escritos de forma
+                                                                               material, como veremos más adelante.
+**Concordancias Legales:** Ley Nº 20.886
+
+casos excepcionales,     La Ley Nº 20.886 consagra el concepto de “expediente digital”, que
                                                       ingresar escritos        asegura fidelidad, preservación y reproducción, dejando a salvo la
                                                       de forma material.       posibilidad de, en casos excepcionales, ingresar escritos de forma
                                                                                material, como veremos más adelante.
@@ -1091,10 +993,15 @@ Electrónica                                                                    
                                                                                 presencial al virtual, ha resultado ser uno de los mayores beneficios
                                                                                 perceptibles por los usuarios en relación con la Ley Nº 20.886
 
-
 ## 1.2.2.4 Interconexiones
 
-                                                                                Interoperabilidad es la capacidad de dos sistemas independientes
+**Definición Canónica:** Interoperabilidad es la capacidad de dos sistemas independientes
+                                                                                de intercambiar sus datos e, incluso, de intervenir coordinadamen-
+                                                                                te en una transacción. Probablemente, uno de los mayores anhelos
+                                                                                del Estado en materia de transformación digital sea la necesidad de
+                                                                                avanzar en la i
+
+Interoperabilidad es la capacidad de dos sistemas independientes
                                                                                 de intercambiar sus datos e, incluso, de intervenir coordinadamen-
                                                                                 te en una transacción. Probablemente, uno de los mayores anhelos
                                                                                 del Estado en materia de transformación digital sea la necesidad de
@@ -1140,10 +1047,16 @@ Electrónica                                                                    
                                                                                                nexión con cierto grado de automatización en el envío y recepción
                                                                                                de la información.
 
-
 ## 1.2.2.5 Transparencia y acceso al expediente
 
-                                                                                               Como ya fue planteado, si bien los conceptos de transparencia y
+**Definición Canónica:** Como ya fue planteado, si bien los conceptos de transparencia y
+                                                                                               acceso tienen estrecho vínculo con la idea del expediente electró-
+                                                                                               nico, es importante destacar la posibilidad de que los intervinientes,
+                                                                                               tanto respecto de los abogados litigantes como de las partes, tienen
+                                            
+**Concordancias Legales:** Ley Nº 20.886
+
+Como ya fue planteado, si bien los conceptos de transparencia y
                                                                                                acceso tienen estrecho vínculo con la idea del expediente electró-
                                                                                                nico, es importante destacar la posibilidad de que los intervinientes,
                                                                                                tanto respecto de los abogados litigantes como de las partes, tienen
@@ -1166,10 +1079,16 @@ Electrónica                                                                    
                                                                  la que mandata a la Corte Suprema para regular esta y otras materias
                                                                  asociadas, a través de autos acordados.
 
-
 ## 1.2.2.6 Notificaciones electrónicas
 
-                                                                 Si bien la Ley Nº 20.886 estableció importantes modificaciones a la
+**Definición Canónica:** Si bien la Ley Nº 20.886 estableció importantes modificaciones a la
+                                                                 labor de los receptores judiciales, entre ellas el establecimiento de la
+                                                                 obligatoriedad del uso de la firma digital avanzada en sus actuaciones,
+                                                                 como también la georreferenciación de las mismas, no se incluyeron
+                                                                 modificaciones importantes en el ámbito de notificaciones ju
+**Concordancias Legales:** Ley Nº 20.886
+
+Si bien la Ley Nº 20.886 estableció importantes modificaciones a la
                                                                  labor de los receptores judiciales, entre ellas el establecimiento de la
                                                                  obligatoriedad del uso de la firma digital avanzada en sus actuaciones,
                                                                  como también la georreferenciación de las mismas, no se incluyeron
@@ -1196,10 +1115,16 @@ Electrónica                                                                    
 
 Tramitación                                                    1. Introducción a la tramitación                                       29
 
-
 ## 1.2.2.7 Disminución de los costos asociados
 
-                                                                 al proceso para las partes
+**Definición Canónica:** al proceso para las partes
+                                                                 Una consecuencia necesaria y directa de la tramitación electrónica
+                                                                 es la eliminación la necesidad de sacar fotocopias o compulsas de los
+                                                                 expedientes, con lo cual se eliminan las cargas procesales de consignar
+                                                                 los gastos necesarios para las compulsas, así como el franqueo de los
+                                  
+
+al proceso para las partes
                                                                  Una consecuencia necesaria y directa de la tramitación electrónica
                                                                  es la eliminación la necesidad de sacar fotocopias o compulsas de los
                                                                  expedientes, con lo cual se eliminan las cargas procesales de consignar
@@ -1207,10 +1132,13 @@ Electrónica                                                                    
                                                                  gastos de envío de los expedientes hacia los tribunales superiores,
                                                                  cuando se tramitan algunos recursos.
 
-
 ## 1.2.2.8 Disminución de costos y
 
-                                                                 compromiso con el medioambiente
+**Definición Canónica:** compromiso con el medioambiente
+                                                                 La implementación de la ley ha resultado en una reducción de los
+**Concordancias Legales:** constitucion
+
+compromiso con el medioambiente
                                                                  La implementación de la ley ha resultado en una reducción de los
 
                                                                  costos de papel para el Poder Judicial, ya que el soporte primario de
@@ -1227,10 +1155,16 @@ Electrónica                                                                    
                                                                  luego de la declaración de estado de excepción constitucional de
                                                                  marzo de 2020.
 
-
 ## 1.2.3 Implementación de la ley
 
-                                                                 La implementación de la Ley de Tramitación Electrónica resultó ser
+**Definición Canónica:** La implementación de la Ley de Tramitación Electrónica resultó ser
+                                                                 un esfuerzo multidisciplinario con pocos precedentes. Si bien se ha
+                                                                 puesto énfasis en los aspectos normativos y tecnológicos, también
+                                                                 se trabajó en una serie de medidas habilitantes que permitieron en-
+                                                                 tender este proceso como un esfuerzo de transformación desafiante.
+**Concordancias Legales:** Ley Nº 20.886
+
+La implementación de la Ley de Tramitación Electrónica resultó ser
                                                                  un esfuerzo multidisciplinario con pocos precedentes. Si bien se ha
                                                                  puesto énfasis en los aspectos normativos y tecnológicos, también
                                                                  se trabajó en una serie de medidas habilitantes que permitieron en-
@@ -1302,10 +1236,16 @@ Electrónica                                                                    
                                                                  los receptores judiciales para el retiro y devolución de causas,
                                                                  presentar demandas y escritos judiciales, entre otros.
 
-
 ## 1.2.3.2 Ajustes a los sistemas de tramitación
 
-                                                                 El cambio de paradigma en el acceso, aquel que permitió que los
+**Definición Canónica:** El cambio de paradigma en el acceso, aquel que permitió que los
+                                                                 usuarios migraran de la interacción física y presencial en tribunales
+                                                                 hacia el uso de una plataforma única de tramitación judicial, tuvo
+                                                                 efectos relevantes en la forma de operar de los sistemas de tramitación
+                                                                 como eran conocidos hasta antes de la Ley Nº 20.886.
+**Concordancias Legales:** Ley Nº 20.886
+
+El cambio de paradigma en el acceso, aquel que permitió que los
                                                                  usuarios migraran de la interacción física y presencial en tribunales
                                                                  hacia el uso de una plataforma única de tramitación judicial, tuvo
                                                                  efectos relevantes en la forma de operar de los sistemas de tramitación
@@ -1335,10 +1275,16 @@ Electrónica                                                                    
                                                                  seguridad, tiempos de actualización y la integración entre los sistemas
                                                                  sin que exista precedente alguno de una transformación similar.
 
-
 ## 1.2.3.3 Reglamentación interna
 
-                                                                 Uno de los aspectos clave contenidos en la Ley Nº 20.886 es que esta
+**Definición Canónica:** Uno de los aspectos clave contenidos en la Ley Nº 20.886 es que esta
+                                                                 delegó parte de su potestad normativa en la Corte Suprema, la que
+                                                                 a través de autos acordados debió establecer directrices para hacer
+                                                                 aplicable y operativas las disposiciones contenidas en su articulado. Es
+                                                                 así como se dicta el Acta Nº 37-2016 el día 15 de abril del mism
+**Concordancias Legales:** Ley Nº 20.886
+
+Uno de los aspectos clave contenidos en la Ley Nº 20.886 es que esta
                                                                  delegó parte de su potestad normativa en la Corte Suprema, la que
                                                                  a través de autos acordados debió establecer directrices para hacer
                                                                  aplicable y operativas las disposiciones contenidas en su articulado. Es
@@ -1382,10 +1328,12 @@ Electrónica                                                                    
                                                                  De esta manera, la Corte Suprema complementó las disposiciones
                                                                  de la ley, según esta misma instruía.
 
-
 ## 1.2.3.4 Capacitación
 
-                                                                 Con el fin de facilitar la comprensión de la ley en atención al breve
+**Definición Canónica:** Con el fin de facilitar la comprensión de la ley en atención al breve
+**Concordancias Legales:** artículo 2; artículo 11
+
+Con el fin de facilitar la comprensión de la ley en atención al breve
 
                                                                  periodo existente entre la publicación y su entrada en vigencia, el
                                                                  Poder Judicial desarrolló una serie de actividades tendientes a ma-
@@ -1448,10 +1396,16 @@ Electrónica                                                                    
                                                                            nivel nacional, sin perjuicio de los acuerdos que a nivel local se gene-
                                                       más idóneo.          ren entre los tribunales y las distintas instituciones correspondientes.
 
-
 ## 1.2.3.6 Nuevas aplicaciones
 
-                                                                                    La Ley Nº 20.886 estableció que los receptores debían dejar un
+**Definición Canónica:** La Ley Nº 20.886 estableció que los receptores debían dejar un
+                                                                                    registro georreferenciado cuando realizaran diligencias de notifica-
+                                                                                    ción, embargo y retiro de especies. En este último caso, además, se
+                                                                                    contempló la necesidad de acompañar un registro de imagen o video
+                                                                                  
+**Concordancias Legales:** Ley Nº 20.886
+
+La Ley Nº 20.886 estableció que los receptores debían dejar un
                                                                                     registro georreferenciado cuando realizaran diligencias de notifica-
                                                                                     ción, embargo y retiro de especies. En este último caso, además, se
                                                                                     contempló la necesidad de acompañar un registro de imagen o video
@@ -1562,10 +1516,13 @@ Electrónica                                                                    
                                                                                              cuando se realiza una diligencia en altura, ya que el sensor ubicará
                                                                                              la localización espacial siempre en el plano horizontal.
 
-
 ## 1.2.3.7 Estado diario
 
-                                                                                             La Ley Nº 20.886 introdujo la confección centralizada del estado
+**Definición Canónica:** La Ley Nº 20.886 introdujo la confección centralizada del estado
+                                                                                             diario a cargo de la Corporación Administrativa del Poder Judicial.
+**Concordancias Legales:** Ley Nº 20.886
+
+La Ley Nº 20.886 introdujo la confección centralizada del estado
                                                                                              diario a cargo de la Corporación Administrativa del Poder Judicial.
 
                                                                                              Si bien este aspecto podría tratarse de un elemento secundario, im-
@@ -1574,10 +1531,16 @@ Electrónica                                                                    
                                                                                              electrónica avanzada, estandarizando la información a nivel nacional
                                                                                              y poniéndola en línea a través del portal web del Poder Judicial.
 
-
 ## 1.2.3.8 Firma electrónica
 
-                                                                                             La Ley Nº 20.886 introdujo modificaciones relacionadas con la utili-
+**Definición Canónica:** La Ley Nº 20.886 introdujo modificaciones relacionadas con la utili-
+                                                                                             zación de la firma electrónica. Si bien su uso en el territorio nacional
+                                                                                             ya se encontraba reconocido y regulado por la Ley Nº 19.799, su
+                                                                                             implementación en procedimientos judiciales no se había asentado
+                                                  
+**Concordancias Legales:** Ley Nº 20.886; Ley Nº 19.799
+
+La Ley Nº 20.886 introdujo modificaciones relacionadas con la utili-
                                                                                              zación de la firma electrónica. Si bien su uso en el territorio nacional
                                                                                              ya se encontraba reconocido y regulado por la Ley Nº 19.799, su
                                                                                              implementación en procedimientos judiciales no se había asentado
@@ -1651,10 +1614,16 @@ Electrónica                                                                    
                                                                  duda contribuye a materializar uno de los principales objetivos de
                                                                  la norma, cual es la tramitación a distancia.
 
-
 ## 1.2.3.9 Notificación electrónica
 
-                                                                 La Ley Nº 20.886 reconoció de modo transversal las notificaciones
+**Definición Canónica:** La Ley Nº 20.886 reconoció de modo transversal las notificaciones
+                                                                 electrónicas, lo que si bien ya era practicado en los tribunales refor-
+                                                                 mados, ahora se reconoce para todos los procedimientos y tribunales
+                                                                 a los que les resulta aplicable la ley. Adicionalmente, se señala que el
+                                                                 tribunal podrá aceptar este medio electrónico de notificación
+**Concordancias Legales:** Ley Nº 20.886
+
+La Ley Nº 20.886 reconoció de modo transversal las notificaciones
                                                                  electrónicas, lo que si bien ya era practicado en los tribunales refor-
                                                                  mados, ahora se reconoce para todos los procedimientos y tribunales
                                                                  a los que les resulta aplicable la ley. Adicionalmente, se señala que el
@@ -1668,10 +1637,16 @@ Electrónica                                                                    
                                                                  utilización de diversos medios para realizar una notificación eficaz
                                                                  conforme sean los usos tecnológicos de la época.
 
-
 ## 1.2.3.10 Fortalecimiento de la        plataforma     tecnológica
 
-                                                                 Como se ha sostenido, la implementación de la Ley N° 20.886 o Ley
+**Definición Canónica:** Como se ha sostenido, la implementación de la Ley N° 20.886 o Ley
+                                                                 de Tramitación Electrónica es uno de los proyectos de moderniza-
+                                                                 ción más desafiantes que haya abordado el Estado de Chile durante
+                                                                 las últimas décadas. El trabajo promovido por el Poder Judicial, y
+                                                                 encomendado a la Corporación Administrativa del Poder Judicial,
+**Concordancias Legales:** Ley N° 20.886
+
+Como se ha sostenido, la implementación de la Ley N° 20.886 o Ley
                                                                  de Tramitación Electrónica es uno de los proyectos de moderniza-
                                                                  ción más desafiantes que haya abordado el Estado de Chile durante
                                                                  las últimas décadas. El trabajo promovido por el Poder Judicial, y
@@ -1781,10 +1756,16 @@ Electrónica                                                                    
                                                                  que actualmente se cuenta con una mesa destinada a solucionar las
                                                                  problemáticas internas y otra con un foco eminentemente externo.
 
-
 ## 1.2.4 Fundamentos para innovar en la
 
-                                                                 tramitación electrónica de justicia en Chile
+**Definición Canónica:** tramitación electrónica de justicia en Chile
+                                                                 Para contextualizar los desafíos presentes y futuros de la tramitación
+                                                                 electrónica, es necesario considerar qué factores motivan la nece-
+                                                                 sidad de innovar, transformando digitalmente el ámbito de justicia.
+                                                                 A continuación se describen los principales motores de innovación
+                       
+
+tramitación electrónica de justicia en Chile
                                                                  Para contextualizar los desafíos presentes y futuros de la tramitación
                                                                  electrónica, es necesario considerar qué factores motivan la nece-
                                                                  sidad de innovar, transformando digitalmente el ámbito de justicia.
@@ -1792,10 +1773,15 @@ Electrónica                                                                    
                                                                  en el Poder Judicial chileno, los que pueden también extrapolarse a
                                                                  las instituciones del sistema de justicia en su conjunto.
 
-
 ## 1.2.4.1 Incremento sostenido del ingreso de causas
 
-                                                                 El Poder Judicial ha enfrentado un aumento sostenido del ingreso
+**Definición Canónica:** El Poder Judicial ha enfrentado un aumento sostenido del ingreso
+                                                                 de causas durante los últimos años (35 % entre 2014 y 2019), lo que
+                                                                 tiene un impacto directo en la carga de trabajo de los tribunales y, por
+                                                                 consiguiente, en la necesidad de mayor dotación para hacer frente
+                                                                 de manera óptima a la labor jurisdiccional.
+
+El Poder Judicial ha enfrentado un aumento sostenido del ingreso
                                                                  de causas durante los últimos años (35 % entre 2014 y 2019), lo que
                                                                  tiene un impacto directo en la carga de trabajo de los tribunales y, por
                                                                  consiguiente, en la necesidad de mayor dotación para hacer frente
@@ -1812,11 +1798,16 @@ Electrónica                                                                    
                                                                  Ilustración 1: Proyección del ingreso de causas al Poder Judicial,
                                                                  entre 2014 y 2019
 
-
 ## 1.2.4.2 Aumento del presupuesto PJUD
 
+**Definición Canónica:** Durante los últimos años, el presupuesto PJUD ha crecido de ma-
+                                                                 nera relevante, particularmente en los ítems de recursos humanos
+                                                                 e iniciativas de inversión. Esta situación se ha dado principalmente
+                                                                 debido al incremento de la carga de trabajo en tribunales del país y
+                                                                 a la necesidad de modernizar la infraestructura institucional, pero es
+  
 
-                                                                 Durante los últimos años, el presupuesto PJUD ha crecido de ma-
+Durante los últimos años, el presupuesto PJUD ha crecido de ma-
                                                                  nera relevante, particularmente en los ítems de recursos humanos
                                                                  e iniciativas de inversión. Esta situación se ha dado principalmente
                                                                  debido al incremento de la carga de trabajo en tribunales del país y
@@ -1827,10 +1818,16 @@ Electrónica                                                                    
                                                                  Ilustración 2: Distribución de la ejecución presupuestaria por
                                                                  subtítulo, entre 2014 y 2019
 
-
 ## 1.2.4.3 Cobertura tecnológica en Chile
 
-                                                                 De acuerdo con el reporte Broadband Statistics, de la OCDE, los
+**Definición Canónica:** De acuerdo con el reporte Broadband Statistics, de la OCDE, los
+                                                                 accesos de internet móvil en el país crecieron en 69,8 % desde 2015
+                                                                 a junio 2019. Por su parte, en términos de penetración, estos pasaron
+                                                                 de registrar 55,7 conexiones móviles por cada 100 habitantes en
+                                                                 junio de 2015, a 94,6 conexiones móviles por cada 100 habitantes
+         
+
+De acuerdo con el reporte Broadband Statistics, de la OCDE, los
                                                                  accesos de internet móvil en el país crecieron en 69,8 % desde 2015
                                                                  a junio 2019. Por su parte, en términos de penetración, estos pasaron
                                                                  de registrar 55,7 conexiones móviles por cada 100 habitantes en
@@ -1846,10 +1843,15 @@ Electrónica                                                                    
                                                                  tación Electrónica ha mostrado que el uso tecnológico es una forma
                                                                  de disminuir los costos ajenos a la propia actividad jurisdiccional.
 
-
 ## 1.2.4.4 Prospección y experiencia internacional
 
-                                                                 La experiencia de otros países en materia de modernización de la
+**Definición Canónica:** La experiencia de otros países en materia de modernización de la
+                                                                 justicia da cuenta de nuevas oportunidades de innovación, adecuadas
+                                                                 a un contexto donde las restricciones de presupuesto, la sustentabili-
+                                                                 dad y la innovación pública son los principales componentes de una
+                                                                 nueva aproximación hacia el desarrollo de servicios que mejoren la
+
+La experiencia de otros países en materia de modernización de la
                                                                  justicia da cuenta de nuevas oportunidades de innovación, adecuadas
                                                                  a un contexto donde las restricciones de presupuesto, la sustentabili-
                                                                  dad y la innovación pública son los principales componentes de una
@@ -1863,10 +1865,16 @@ Electrónica                                                                    
                                                                  permita crear valor público. Esto se revisa con mayor detalle en el
                                                                  capítulo tercero de este trabajo.
 
-
 ## 1.2.4.5 Mayor disponibilidad tecnológica
 
-                                                                 La actual disponibilidad de herramientas en el mercado ofrece una
+**Definición Canónica:** La actual disponibilidad de herramientas en el mercado ofrece una
+                                                                 clara oportunidad para la apertura de la institución a las nuevas po-
+                                                                 sibilidades tecnológicas. En este sentido, en línea con la orientación
+                                                                 de eficiencia en costos, resulta necesario complementar el estándar
+                                                                 tecnológico institucional para diversificar su uso, lo que trae c
+**Concordancias Legales:** Ley Nº 20.886
+
+La actual disponibilidad de herramientas en el mercado ofrece una
                                                                  clara oportunidad para la apertura de la institución a las nuevas po-
                                                                  sibilidades tecnológicas. En este sentido, en línea con la orientación
                                                                  de eficiencia en costos, resulta necesario complementar el estándar
@@ -1945,10 +1953,12 @@ Electrónica                                                             de la L
                                                                        puedan discernir la mejor forma de realizar sus funciones dentro del
                                                                        marco de la Ley de Tramitación Electrónica.
 
-
 ## 2.1          Alcances prácticosde la
 
-                                                                            Ley Nº 20.886
+**Definición Canónica:** Ley Nº 20.886
+**Concordancias Legales:** artículo 4; Ley Nº 20.886; constitucion
+
+Ley Nº 20.886
 
                                                                        La Ley de Tramitación Electrónica modifica la forma como se regis-
                                                                        tran los procesos judiciales, pasando desde el expediente físico en
@@ -2007,10 +2017,17 @@ Electrónica                                                             de la L
 
 Tramitación                                                    2. Aspectos jurídicos y normativos                                       50
 
-
 ## 2.1.1 Ámbito de aplicación de la Ley Nº 20.886
 
-                                                                 Si bien es cierto que la Ley Nº 20.886 define claramente el ámbito
+**Definición Canónica:** Si bien es cierto que la Ley Nº 20.886 define claramente el ámbito
+                                                                 de su aplicación en el primero de sus artículos, existe una serie de
+                                                                 aspectos relacionados que no fueron reglamentados suficientemente
+                                                                 por el legislador, generando inconvenientes prácticos que fueron re-
+                                                                 sueltos de forma paulatina por la aplicación concreta de las normas,
+
+**Concordancias Legales:** artículo 1; artículo 5; artículo 3; artículo 2; artículo 12; artículo 28; Ley Nº 20.886; ley Nº 19.968; constitucion
+
+Si bien es cierto que la Ley Nº 20.886 define claramente el ámbito
                                                                  de su aplicación en el primero de sus artículos, existe una serie de
                                                                  aspectos relacionados que no fueron reglamentados suficientemente
                                                                  por el legislador, generando inconvenientes prácticos que fueron re-
@@ -2203,10 +2220,16 @@ Electrónica                                                             de la L
                                                                  y los tribunales externos, se mantiene vigente la instrucción conte-
                                                                  nida en el AD 35-2019 de la Corte Suprema, aludido anteriormente.
 
-
 ## 2.1.1.1 Aplicación de las normas de la Ley Nº 20.886
 
-                                                                 En su artículo 2º transitorio, el cuerpo legal señala que sus disposi-
+**Definición Canónica:** En su artículo 2º transitorio, el cuerpo legal señala que sus disposi-
+                                                                 ciones solo serán aplicables a las causas iniciadas con posterioridad a
+                                                                 su entrada en vigencia, entendiéndose como iniciadas desde la fecha
+                                                                 de presentación de la demanda o medida prejudicial, según sea el
+                                                                 caso. Sobre este particular, el mismo artículo dispone que la Co
+**Concordancias Legales:** artículo 2; artículo 3
+
+En su artículo 2º transitorio, el cuerpo legal señala que sus disposi-
                                                                  ciones solo serán aplicables a las causas iniciadas con posterioridad a
                                                                  su entrada en vigencia, entendiéndose como iniciadas desde la fecha
                                                                  de presentación de la demanda o medida prejudicial, según sea el
@@ -2221,10 +2244,17 @@ Electrónica                                                             de la L
 
 Tramitación                                                    2. Aspectos jurídicos y normativos                                       55
 
-
 ## 2.1.1.2 Reglamentación del Acta Nº 71-2016, relativa
 
-                                                                 a la aplicación de normas de la Ley Nº 20.886
+**Definición Canónica:** a la aplicación de normas de la Ley Nº 20.886
+                                                                 La ley hace aplicable sus disposiciones a las causas iniciadas con
+                                                                 posterioridad a su vigencia, ¿pero qué ocurre con las normas relati-
+                                                                 vas a firma electrónica, receptores, entre otras, en causas que ya se
+                                                                 iniciaron? ¿No se aplicarán a causas ya iniciadas a pesar de que en
+                    
+**Concordancias Legales:** artículos 5; artículo 9; artículo 200 del Código de Procedimiento Civil; artículo 545 del Código Orgánico de Tribunales; artículo 2; artículo 200 del CPC. Tramitación; artículo 12; artículo 12 de la Ley Nº 20.886 se sustituyó el artículo 197 de; artículo 197; Ley Nº 20.886; Ley N° 20.886
+
+a la aplicación de normas de la Ley Nº 20.886
                                                                  La ley hace aplicable sus disposiciones a las causas iniciadas con
                                                                  posterioridad a su vigencia, ¿pero qué ocurre con las normas relati-
                                                                  vas a firma electrónica, receptores, entre otras, en causas que ya se
@@ -2442,10 +2472,17 @@ Electrónica                                                             de la L
                                                                      y segunda instancia, atendiendo a la fecha de inicio de la causa
                                                                      que fue anterior a la vigencia de la ley.
 
-
 ## 2.1.2 Materialización de los principios de
 
-                                                                 la Ley de Tramitación Electrónica
+**Definición Canónica:** la Ley de Tramitación Electrónica
+                                                                 Como se ha señalado precedentemente, el artículo 2º de la Ley Nº
+                                                                 20.886 establece que la tramitación de causas fijada por esta ley se
+                                                                 rige por los principios de equivalencia funcional del soporte electró-
+                                                                 nico, de fidelidad, publicidad, buena fe, actualización de los sistemas
+                             
+**Concordancias Legales:** artículo 2; Ley Nº 20.886; Ley Nº 19.799
+
+la Ley de Tramitación Electrónica
                                                                  Como se ha señalado precedentemente, el artículo 2º de la Ley Nº
                                                                  20.886 establece que la tramitación de causas fijada por esta ley se
                                                                  rige por los principios de equivalencia funcional del soporte electró-
@@ -2469,10 +2506,16 @@ Electrónica                                                             de la L
 Tramitación                                                                                   2. Aspectos jurídicos y normativos                                        61
 Electrónica                                                                                      de la Ley Nº 20.886
 
-
 ## 2.1.2.1 Documento y firma electrónica
 
-                                                                                                  Nuestro legislador construyó un concepto bastante amplio de docu-
+**Definición Canónica:** Nuestro legislador construyó un concepto bastante amplio de docu-
+                                                                                                  mento electrónico, considerando su carácter funcional y apartándose
+                                                                                                  de una estructura determinada, aplicando el principio de neutralidad
+                                                                                                  tecnológica. Señala, en el artículo 2° letra d de la Ley Nº 19.799,
+                                   
+**Concordancias Legales:** artículo 2; artículo 9; artículo 10; artículo 4; artículo 169; Ley Nº 19.799; Ley Nº 20.886
+
+Nuestro legislador construyó un concepto bastante amplio de docu-
                                                                                                   mento electrónico, considerando su carácter funcional y apartándose
                                                                                                   de una estructura determinada, aplicando el principio de neutralidad
                                                                                                   tecnológica. Señala, en el artículo 2° letra d de la Ley Nº 19.799,
@@ -2603,7 +2646,13 @@ Electrónica                                                                    
 
 ## 2.1.2.2 Carpeta electrónica
 
-                                                      carpeta electrónica,                      El principal aspecto determinado por la Ley Nº 20.886 es la creación
+**Definición Canónica:** carpeta electrónica,                      El principal aspecto determinado por la Ley Nº 20.886 es la creación
+                                                      se señalan sus                            de la carpeta electrónica, que reemplaza al expediente de papel en
+                                                      principales                               materia civil. Hasta ese momento, para el registro y conservación de
+                                                                                                los actos procesales, en reemplazo de la aguja y el papel, se dis
+**Concordancias Legales:** artículo 2; Artículo 29 del Código de Procedimiento Civil. Tramitación; artículo 29 del CPC; Ley Nº 20.886
+
+carpeta electrónica,                      El principal aspecto determinado por la Ley Nº 20.886 es la creación
                                                       se señalan sus                            de la carpeta electrónica, que reemplaza al expediente de papel en
                                                       principales                               materia civil. Hasta ese momento, para el registro y conservación de
                                                                                                 los actos procesales, en reemplazo de la aguja y el papel, se dispone la
@@ -2673,14 +2722,13 @@ Electrónica                                                                    
                                                                                               en el que se manifiesta la aplicación del principio de equivalencia
                                                                                               funcional y el de carpeta electrónica definido en la ley.
 
-
-## 20       Artículo 62 del Acta Nº 71-2016
-
-
 ## 21       Artículo 62 inciso cuarto del Acta Nº 71-2016
 
+**Definición Canónica:** Tramitación                                                                               2. Aspectos jurídicos y normativos                                     66
+Electrónica                                                                                  de la Ley Nº 20.886
+**Concordancias Legales:** artículo 1; Ley Nº 20.886
 
-Tramitación                                                                               2. Aspectos jurídicos y normativos                                     66
+Tramitación                                                                               2. Aspectos jurídicos y normativos                                     66
 Electrónica                                                                                  de la Ley Nº 20.886
 
                                                                                                Caso 3: Pronunciamiento de la Corte Suprema sobre elprincipio
@@ -2719,11 +2767,12 @@ Electrónica                                                                    
                                                                                                 labor, pues de manera paralela a la confección del tradicional
                                                                                                 expediente impreso en papel de la causa, mantuvo un cua-
 
-
 ## 22       Causa rol Nº 6030-2018 de la Corte Suprema
 
+**Definición Canónica:** Tramitación                                                    2. Aspectos jurídicos y normativos                                      67
+**Concordancias Legales:** Ley Nº 20.886
 
-Tramitación                                                    2. Aspectos jurídicos y normativos                                      67
+Tramitación                                                    2. Aspectos jurídicos y normativos                                      67
 
                                                                      derno electrónico, en el que se debieron reflejar todas las
                                                                      resoluciones, actuaciones y presentaciones que se verificaran
@@ -2792,7 +2841,14 @@ Electrónica                                                                    
 
 ## 2.1.3 Uso obligatorio de los sistemas informáticos
 
-                                                      procesales, sino que     Si bien la obligatoriedad en el uso de los sistemas informáticos no
+**Definición Canónica:** procesales, sino que     Si bien la obligatoriedad en el uso de los sistemas informáticos no
+                                                      también existen          está consagrada entre los principios definidos por el artículo 2º de
+                                                      efectos que son          la Ley Nº 20.886, debe entenderse como uno más. Ya se ha seña- lado
+                                                                               que esta obligación formaba parte del articulado del Acta Nº 91-2007
+                                                      determinad
+**Concordancias Legales:** artículo 2; Ley Nº 20.886
+
+procesales, sino que     Si bien la obligatoriedad en el uso de los sistemas informáticos no
                                                       también existen          está consagrada entre los principios definidos por el artículo 2º de
                                                       efectos que son          la Ley Nº 20.886, debe entenderse como uno más. Ya se ha seña- lado
                                                                                que esta obligación formaba parte del articulado del Acta Nº 91-2007
@@ -2858,10 +2914,16 @@ Electrónica                                                                    
                                                                                              que cerca de la mitad de las resoluciones se firmaron con nomen-
                                                                                              claturas de alcance general.
 
-
 ## 2.1.4 Excepciones al ingreso de presentaciones
 
-                                                                                             en la Oficina Judicial Virtual
+**Definición Canónica:** en la Oficina Judicial Virtual
+                                                                                             La Ley Nº 20.886 determina, por primera vez, una interacción electró-
+                                                                                             nica obligatoria entre el Poder Judicial y sus usuarios. Todo el desarrollo
+                                                                                             tecnológico y la tramitación digital implementada por la institución
+                                                                           
+**Concordancias Legales:** artículo 3; Ley Nº 20.886
+
+en la Oficina Judicial Virtual
                                                                                              La Ley Nº 20.886 determina, por primera vez, una interacción electró-
                                                                                              nica obligatoria entre el Poder Judicial y sus usuarios. Todo el desarrollo
                                                                                              tecnológico y la tramitación digital implementada por la institución
@@ -2891,11 +2953,13 @@ Electrónica                                                                    
                                                                                              Clave Única del Estado para ingresar a la OJV.23 De esta forma se ha
                                                                                              garantizado que todos ellos dispongan al menos de firma elec-
 
-
 ## 23       Artículo 3º del Acta Nº 85-2019
 
+**Definición Canónica:** Tramitación                                                                                 2. Aspectos jurídicos y normativos                                      71
+Electrónica                                                                                    de la Ley Nº 20.886
+**Concordancias Legales:** Artículo 5; Artículo 4; Ley Nº 20.886; Ley Nº 19.799
 
-Tramitación                                                                                 2. Aspectos jurídicos y normativos                                      71
+Tramitación                                                                                 2. Aspectos jurídicos y normativos                                      71
 Electrónica                                                                                    de la Ley Nº 20.886
 
                                                                                               trónica simple, cumpliendo así con los requisitos definidos por la
@@ -2986,10 +3050,16 @@ Electrónica                                                                    
                                                                  laciones respectiva, asignando automáticamente el rol en el tribunal
                                                                  donde haya radicado la causa.
 
-
 ## 2.1.4.1 Horario de funcionamiento de la OJV
 
-                                                                 El acceso virtual al servicio ofrece la posibilidad de realizarlo en un ho-
+**Definición Canónica:** El acceso virtual al servicio ofrece la posibilidad de realizarlo en un ho-
+                                                                 rario extendido, desde la perspectiva del usuario o usuaria. Uno de los
+                                                                 aspectos destacados, durante la tramitación de la Ley Nº 20.886, fue la
+                                                                 posibilidad de que los usuarios del sistema de justicia pudieran realizar
+                                                                 sus peticiones o requerimientos sin que fuera 
+**Concordancias Legales:** artículo 38; Artículo 59 del Código de Procedimiento Civil. Tramitación; Ley Nº 20.886
+
+El acceso virtual al servicio ofrece la posibilidad de realizarlo en un ho-
                                                                  rario extendido, desde la perspectiva del usuario o usuaria. Uno de los
                                                                  aspectos destacados, durante la tramitación de la Ley Nº 20.886, fue la
                                                                  posibilidad de que los usuarios del sistema de justicia pudieran realizar
@@ -3062,10 +3132,16 @@ Electrónica                                                                    
                                                                                                   vía Oficina Judicial Virtual presenta dos horarios punta: entre las 11
                                                                                                   y las 13 horas y luego, en la tarde, entre las 16 y las 18.
 
-
 ## 2.1.5 Presentación de documentos
 
-                                                                                                  En relación con la forma en que se deben presentar los documentos,
+**Definición Canónica:** En relación con la forma en que se deben presentar los documentos,
+                                                                                                  la Ley Nº 20.886 señala una serie de distinciones que es necesario
+                                                                                                  tener a la vista28:
+                                                                                                  — Documento digital. Los documentos electrónicos son aquellos
+                                                                                          
+**Concordancias Legales:** Artículo 6; Artículo 47 del Acta Nº 71; Ley Nº 20.886; constitucion
+
+En relación con la forma en que se deben presentar los documentos,
                                                                                                   la Ley Nº 20.886 señala una serie de distinciones que es necesario
                                                                                                   tener a la vista28:
                                                                                                   — Documento digital. Los documentos electrónicos son aquellos
@@ -3192,10 +3268,13 @@ Electrónica                                                                    
                                                                                                En este proyecto, se proponen modificaciones a la Ley Nº 20.886
                                                                                                fundamentalmente en los siguientes temas31:
 
-
 ## 2.1.5.1 Patrocinio y mandato judicial
 
-                                                                                               por firma electrónica simple
+**Definición Canónica:** por firma electrónica simple
+                                                                                               En la actualidad, la Ley Nº 20.886 dispone en su artículo 7º que el
+**Concordancias Legales:** artículo 7; Ley Nº 20.886
+
+por firma electrónica simple
                                                                                                En la actualidad, la Ley Nº 20.886 dispone en su artículo 7º que el
 
                                                                                                patrocinio y poder puede constituirse mediante firma electrónica
@@ -3207,10 +3286,16 @@ Electrónica                                                                    
                                                                                                mandante y mandatario ante el ministro de fe del tribunal mediante
                                                                                                videoconferencia.
 
-
 ## 2.1.5.2 Presentación de documentos
 
-                                                                                               materiales por vía electrónica
+**Definición Canónica:** materiales por vía electrónica
+                                                                                               El mismo proyecto modifica el artículo 6º de la Ley Nº 20.886, con-
+                                                                                               sagrando como regla general que los documentos en formato físico
+                                                                                               puedan presentarse por vía electrónica, de manera que solo en caso
+                                                                                    
+**Concordancias Legales:** artículo 6; Ley Nº 20.886
+
+materiales por vía electrónica
                                                                                                El mismo proyecto modifica el artículo 6º de la Ley Nº 20.886, con-
                                                                                                sagrando como regla general que los documentos en formato físico
                                                                                                puedan presentarse por vía electrónica, de manera que solo en caso
@@ -3225,10 +3310,16 @@ Electrónica                                                                    
 Tramitación                                                                                  2. Aspectos jurídicos y normativos                                           79
 Electrónica                                                                                     de la Ley Nº 20.886
 
-
 ## 2.1.5.3 Interconexión con instituciones privadas y
 
-                                                                                                  realización de inscripciones por interesados
+**Definición Canónica:** realización de inscripciones por interesados
+                                                                                                  El proyecto introduce asimismo reformas a los artículos 2º y 11 de
+                                                                                                  la Ley Nº 20.886, con el objeto de potenciar la interconexión y los
+                                                                                                  principios de actualización y de cooperación entre los tribunales y
+                                                          
+**Concordancias Legales:** artículos 2; Ley Nº 20.886
+
+realización de inscripciones por interesados
                                                                                                   El proyecto introduce asimismo reformas a los artículos 2º y 11 de
                                                                                                   la Ley Nº 20.886, con el objeto de potenciar la interconexión y los
                                                                                                   principios de actualización y de cooperación entre los tribunales y
@@ -3245,19 +3336,31 @@ Electrónica                                                                    
                                                                                                   públicas y privadas como también en relación a la remisión de oficios
                                                                                                   de forma electrónica.
 
-
 ## 2.1.5.4 Habilitación de transferencias bancarias
 
-                                                                                                  Se establece, en el artículo 516 del Código Orgánico de Tribunales, la
+**Definición Canónica:** Se establece, en el artículo 516 del Código Orgánico de Tribunales, la
+                                                                                                  posibilidad de que los pagos que deban hacer los tribunales puedan
+                                                                                                  efectuarse también por medio de transferencia electrónica desde la
+                                                                                                  cuenta corriente del tribunal, entregándole a la Corte Suprema su
+                                   
+**Concordancias Legales:** artículo 516 del Código Orgánico de Tribunales
+
+Se establece, en el artículo 516 del Código Orgánico de Tribunales, la
                                                                                                   posibilidad de que los pagos que deban hacer los tribunales puedan
                                                                                                   efectuarse también por medio de transferencia electrónica desde la
                                                                                                   cuenta corriente del tribunal, entregándole a la Corte Suprema su
                                                                                                   regulación.
 
-
 ## 2.1.6 Patrocinio y poder electrónico
 
-                                                                                                  La Ley Nº 20.886 incorpora una nueva forma de constituir el pa-
+**Definición Canónica:** La Ley Nº 20.886 incorpora una nueva forma de constituir el pa-
+                                                                                                  trocinio y el mandato judicial, mediante la utilización de firma elec-
+                                                                                                  trónica avanzada.32 Estas nuevas formas resultan complementariasa
+                                                                                                  las existentes en nuestro ordenamiento jurídico, particularmente lo
+                                     
+**Concordancias Legales:** artículo 6; Artículo 7; Ley Nº 20.886; Ley Nº 18.120; Ley Nº 19.799; Ley 20.886
+
+La Ley Nº 20.886 incorpora una nueva forma de constituir el pa-
                                                                                                   trocinio y el mandato judicial, mediante la utilización de firma elec-
                                                                                                   trónica avanzada.32 Estas nuevas formas resultan complementariasa
                                                                                                   las existentes en nuestro ordenamiento jurídico, particularmente lo
@@ -3372,10 +3475,13 @@ Electrónica                                                                    
                                                                                                   dictar lo pertinente para dar debida tramitación de las excep-
                                                                                                   ciones deducidas por dicho ejecutado”.35
 
-
 ## 2.1.6.1 Modificaciones a la Ley Nº 20.886
 
-                                                                                              Como se ha señalado anteriormente, el proyecto de ley del boletín Nº
+**Definición Canónica:** Como se ha señalado anteriormente, el proyecto de ley del boletín Nº
+                                                                                              13.752-07 propone modificaciones al artículo 7º de la Ley Nº 20.886.
+**Concordancias Legales:** artículo 7; Ley Nº 20.886
+
+Como se ha señalado anteriormente, el proyecto de ley del boletín Nº
                                                                                               13.752-07 propone modificaciones al artículo 7º de la Ley Nº 20.886.
 
                                                                                                   Artículo 7°. Introdúcense las siguientes modificaciones a la ley
@@ -3399,15 +3505,16 @@ Electrónica                                                                    
 Tramitación                                                                                  2. Aspectos jurídicos y normativos                                          83
 Electrónica                                                                                     de la Ley Nº 20.886
 
-
-## 2.1.7 Notificaciones. Principales
-
-                                                                                                  modificaciones introducidas por la ley.
-
-
 ## 2.1.7.1 Modificaciones introducidas por la Ley Nº 20.886
 
-                                                                                                  La Ley Nº 20.886 establece la posibilidad de que cualquiera de las
+**Definición Canónica:** La Ley Nº 20.886 establece la posibilidad de que cualquiera de las
+                                                                                                  partes pueda pedir para sí una forma de notificación electrónica, la
+                                                      Las resoluciones                            que el tribunal podrá aceptar aun cuando la ley disponga que una
+                                                                                                  determinada resolución deba notificarse por cédula si, en su opinión,
+                                   
+**Concordancias Legales:** artículo 50; Artículo 8; Ley Nº 20.886
+
+La Ley Nº 20.886 establece la posibilidad de que cualquiera de las
                                                                                                   partes pueda pedir para sí una forma de notificación electrónica, la
                                                       Las resoluciones                            que el tribunal podrá aceptar aun cuando la ley disponga que una
                                                                                                   determinada resolución deba notificarse por cédula si, en su opinión,
@@ -3456,11 +3563,16 @@ Electrónica                                                                    
                                                                                                mente, se autorizó la firma hasta las 22 horas durante la pandemia,
                                                                                                por resolución dictada en el AD 335-2020.
 
-
 ## 2.1.7.2 Normas que establecen medios alternativos
 
+**Definición Canónica:** de notificación en las reformas procesales
+                                                                                               El artículo 31 del Código Procesal Penal establece que “cualquier
+                                                                                               interviniente en el procedimiento podrá proponer para sí otras for-
+                                                                                               mas de notificación, que el tribunal podrá aceptar si, en su opinión,
+                                                                    
+**Concordancias Legales:** artículo 31 del Código Procesal Penal establece que; Artículo 23; Artículo 439 del Código del Trabajo; Artículo 442 del Código del Trabajo. Tramitación; artículos 38; artículo 30; artículo 46; artículo 62; artículo 3; artículo 4; Ley Nº 20.886; Ley Nº 19.968; Ley Nº 20.087; Ley Nº 21.241; Ley Nº 18.287; Ley Nº 21.226; Ley N° 21.180; Ley Nº 21.180; Ley N° 19.880; constitucion
 
-                                                                                               de notificación en las reformas procesales
+de notificación en las reformas procesales
                                                                                                El artículo 31 del Código Procesal Penal establece que “cualquier
                                                                                                interviniente en el procedimiento podrá proponer para sí otras for-
                                                                                                mas de notificación, que el tribunal podrá aceptar si, en su opinión,
@@ -3694,10 +3806,15 @@ Electrónica                                                                    
                                                                                 normas del debido proceso para no dejar en indefensión a ninguna
                                                                                 de las partes.
 
-
 ## 2.1.7.3 Modificaciones en el boletín Nº 13.752-07
 
-                                                                                El proyecto de ley que establece modificaciones post estado de ex-
+**Definición Canónica:** El proyecto de ley que establece modificaciones post estado de ex-
+                                                                                cepción constitucional, ya informado favorablemente por la Corte
+                                                                                Suprema, establece una serie de modificaciones en el ámbito de las
+                                                                                notificaciones judiciales. Entre ellas podemos mencionar:
+**Concordancias Legales:** artículo 44 del Código de Procedimiento; Artículo 4; Artículo 9; Artículo 7; artículo 532 del Código Orgánico de Tribunales; Ley Nº 20.886; constitucion
+
+El proyecto de ley que establece modificaciones post estado de ex-
                                                                                 cepción constitucional, ya informado favorablemente por la Corte
                                                                                 Suprema, establece una serie de modificaciones en el ámbito de las
                                                                                 notificaciones judiciales. Entre ellas podemos mencionar:
@@ -3823,10 +3940,12 @@ Electrónica                                                                    
                                                                                 multa o suspensión de sus funciones. En caso de reincidencia, el o la
                                                                                 juez deberá aplicar la medida de suspensión de funciones por un mes.
 
-
 ## 2.1.9 Relación con otras instituciones
 
-                                                                                En este apartado se describirán las iniciativas desarrolladas por el
+**Definición Canónica:** En este apartado se describirán las iniciativas desarrolladas por el
+                                                                                Poder Judicial para gestionar las comunicaciones con otras insti-
+
+En este apartado se describirán las iniciativas desarrolladas por el
                                                                                 Poder Judicial para gestionar las comunicaciones con otras insti-
 
                                                                                 tuciones en sus distintas dimensiones. Se analizarán las diversas
@@ -3887,10 +4006,17 @@ Electrónica                                                                    
                                                                  como también con la transparencia y rendición de cuentas hacia la
                                                                  ciudadanía.
 
-
 ## 2.1.9.1 Beneficios de la interconexión
 
-                                                                 En el ámbito interno del PJUD, las primeras experiencias en materia
+**Definición Canónica:** En el ámbito interno del PJUD, las primeras experiencias en materia
+                                                                 de comunicaciones electrónicas con otras instituciones se dan a tra-
+                                                                 vés de la reforma procesal penal, particularmente con el Ministerio
+                                                                 Público. A partir de convenios que se fueron formalizando en cada
+                                                                 jurisdicción del país, se implementa un servicio de interconexión
+   
+**Concordancias Legales:** Ley Nº 20.886
+
+En el ámbito interno del PJUD, las primeras experiencias en materia
                                                                  de comunicaciones electrónicas con otras instituciones se dan a tra-
                                                                  vés de la reforma procesal penal, particularmente con el Ministerio
                                                                  Público. A partir de convenios que se fueron formalizando en cada
@@ -3965,10 +4091,16 @@ Electrónica                                                                    
                                                                                                 una configuración dada también por las tecnologías que son utilizadas
                                                                                                 en sus operaciones diarias.
 
-
 ## 2.1.9.2 La Ley Nº 20.886 y la relación
 
-                                                                                                con otras instituciones
+**Definición Canónica:** con otras instituciones
+                                                                                                La Ley Nº 20.886 permitió sistematizar y profundizar todas aque-
+                                                                                                llas iniciativas existentes en los distintos sistemas de tramitación,
+                                                                                                que perseguían establecer procesos interconectados con distintas
+                                                                                        
+**Concordancias Legales:** artículo 2; Artículo 11 de la Ley Nº 20.886. Tramitación; Ley Nº 20.886; Ley Nº 19.799
+
+con otras instituciones
                                                                                                 La Ley Nº 20.886 permitió sistematizar y profundizar todas aque-
                                                                                                 llas iniciativas existentes en los distintos sistemas de tramitación,
                                                                                                 que perseguían establecer procesos interconectados con distintas
@@ -4041,19 +4173,31 @@ Electrónica                                                                    
                                                                  Nº 20.886, esta entraría en vigencia seis meses después de su publi-
                                                                  cación en el Diario Oficial, lo que se produjo el 15 de diciembre de
 
-
 ## 2015. Ello se tradujo en un tiempo muy reducido para ejecutar todas
 
-                                                                 las acciones que el Poder Judicial debía desarrollar para la implemen-
+**Definición Canónica:** las acciones que el Poder Judicial debía desarrollar para la implemen-
                                                                  tación de la ley. Y, en el ámbito de las comunicaciones, el tiempo era
                                                                  más insuficiente aun, considerando que debía coordinarse el trabajo
                                                                  con muchas instituciones, cada una de ellas con una realidad diferente
                                                                  en el ámbito tecnológico y presupuestario.
 
+las acciones que el Poder Judicial debía desarrollar para la implemen-
+                                                                 tación de la ley. Y, en el ámbito de las comunicaciones, el tiempo era
+                                                                 más insuficiente aun, considerando que debía coordinarse el trabajo
+                                                                 con muchas instituciones, cada una de ellas con una realidad diferente
+                                                                 en el ámbito tecnológico y presupuestario.
 
 ## 2.1.9.3 Comunicaciones y mecanismos utilizados
 
-                                                                 A partir de las coordinaciones establecidas, se definieron distintas
+**Definición Canónica:** A partir de las coordinaciones establecidas, se definieron distintas
+                                                                 formas de comunicación:
+                                                                 a. Respecto de las interconexiones ya desarrolladas, se definió que
+                                                                    estas constituirían la forma de comunicación oficial con la insti-
+                                                                    tución respectiva. Así, con el Ministerio Público, el Registro Civil
+                                     
+**Concordancias Legales:** artículo 329; artículo 10; artículo 1; artículo 9; artículo 16; artículo 19; Ley Nº 21.226; Ley Nº 18.216; Ley Nº 20.886; constitucion
+
+A partir de las coordinaciones establecidas, se definieron distintas
                                                                  formas de comunicación:
                                                                  a. Respecto de las interconexiones ya desarrolladas, se definió que
                                                                     estas constituirían la forma de comunicación oficial con la insti-
@@ -4346,10 +4490,14 @@ Electrónica                                                                   d
                                                                  del “Protocolo de manejo y prevención ante COVID-19 en tribunales
                                                                  y unidades judiciales”.
 
-
 ## 2.1.10.1 Atención de usuarios y usuarias
 
-                                                                 Los tribunales podrán utilizar, complementaria o alternativamente,
+**Definición Canónica:** Los tribunales podrán utilizar, complementaria o alternativamente,
+                                                                 distintos canales de atención cuando se trate de consultas generales,
+                                                                 de tramitación judicial asociada de una causa y, finalmente, de los
+                                                                 asuntos específicos relacionados a un tribunal determinado.
+
+Los tribunales podrán utilizar, complementaria o alternativamente,
                                                                  distintos canales de atención cuando se trate de consultas generales,
                                                                  de tramitación judicial asociada de una causa y, finalmente, de los
                                                                  asuntos específicos relacionados a un tribunal determinado.
@@ -4416,10 +4564,17 @@ Electrónica                                                                   d
 
                                                                    presencialmente.
 
-
 ## 2.1.10.2 Audiencias
 
-                                                                 Para esta dimensión, el protocolo ha distinguido distintos momentos
+**Definición Canónica:** Para esta dimensión, el protocolo ha distinguido distintos momentos
+                                                                 para su regulación. A continuación se mencionarán los que, a nuestro
+                                                                 juicio, son los más relevantes.
+                                                                 a. Agendamiento. Cuando, en el mismo momento de programar
+                                                                    la audiencia, el tribunal determina que esta se realizará por
+                                                
+**Concordancias Legales:** artículo 10 de la Ley Nº 21.226; artículo 10 de la Ley Nº 21.226. En un comienzo; artículo 40; artículo 82 de la Constitución Política de la República; artículo 28 del Acta N; Ley Nº 20.886; Ley Nº 21.226; Ley N° 19.718; constitucion; Constitución; Constitución Política
+
+Para esta dimensión, el protocolo ha distinguido distintos momentos
                                                                  para su regulación. A continuación se mencionarán los que, a nuestro
                                                                  juicio, son los más relevantes.
                                                                  a. Agendamiento. Cuando, en el mismo momento de programar
@@ -4619,7 +4774,15 @@ Electrónica                                                                    
 
 ## Título III -Audiencias por Videoconferencia- dispone: “El
 
-                                                                     tribunal podrá realizar audiencias por videoconferencia con
+**Definición Canónica:** tribunal podrá realizar audiencias por videoconferencia con
+                                                                     el objeto de dar continuidad a la administración de justicia,
+                                                                     velando en todo momento por la vigencia de los derechos y
+                                                                     garantías procesales de las partes e intervinientes. Las audien-
+                                                                     cias realizadas por esta vía deben ser coordinadas previamente
+                
+**Concordancias Legales:** artículos 1; artículo 1; artículo 10 de la Ley N; Ley N° 21.226; constitucion
+
+tribunal podrá realizar audiencias por videoconferencia con
                                                                      el objeto de dar continuidad a la administración de justicia,
                                                                      velando en todo momento por la vigencia de los derechos y
                                                                      garantías procesales de las partes e intervinientes. Las audien-
@@ -4675,10 +4838,15 @@ Electrónica                                                                    
                                                                  ma, mediante auto acordado, la determinación de la forma y de las
                                                                  zonas geográficas en que ello podrá operar.
 
-
 ## 2.1.10.3 Teletrabajo
 
-                                                                 Durante los años 2018 y 2019, el Poder Judicial avanzó de manera
+**Definición Canónica:** Durante los años 2018 y 2019, el Poder Judicial avanzó de manera
+                                                                 decidida en el establecimiento de precisiones respecto al teletrabajo
+                                                                 institucional. Este esfuerzo, materializado a través de la labor de la
+                                                                 Comisión de Apoyo a la Tramitación Electrónica, vinculó una serie
+**Concordancias Legales:** Ley Nº 20.886; Ley Nº 21.220
+
+Durante los años 2018 y 2019, el Poder Judicial avanzó de manera
                                                                  decidida en el establecimiento de precisiones respecto al teletrabajo
                                                                  institucional. Este esfuerzo, materializado a través de la labor de la
                                                                  Comisión de Apoyo a la Tramitación Electrónica, vinculó una serie
@@ -4869,10 +5037,17 @@ Electrónica                                                             electr�
                                                                  ocasión en que las decisiones de modernización institucional se ponen
                                                                  a prueba, debiendo funcionar y asegurar respuesta a la ciudadanía.
 
-
 ## 3.1.1 La crisis como motor de cambio
 
-                                                                 Durante 2020 y parte de 2021, la crisis del COVID-19 permitió
+**Definición Canónica:** Durante 2020 y parte de 2021, la crisis del COVID-19 permitió
+                                                                 validar las herramientas dispuestas por la institución a un nivel tal,
+                                                                 que hoy estas son parte de una normalidad que llegó para quedarse.
+                                                                 La pandemia confirmó que el Poder Judicial ha adoptado el camino
+                                                                 correcto en cuanto a modernización de la justicia. La emergencia
+          
+**Concordancias Legales:** artículo 318 del Código Penal a quienes pongan en riesgo la sa
+
+Durante 2020 y parte de 2021, la crisis del COVID-19 permitió
                                                                  validar las herramientas dispuestas por la institución a un nivel tal,
                                                                  que hoy estas son parte de una normalidad que llegó para quedarse.
                                                                  La pandemia confirmó que el Poder Judicial ha adoptado el camino
@@ -4966,10 +5141,13 @@ Electrónica                                                             electr�
 Tramitación                                                                  3. El futuro de la tramitación                                           123
 Electrónica                                                                     electrónica
 
-
 ## 3.2                Tramitación    judicial
 
-                                                                                    electrónica desde la
+**Definición Canónica:** electrónica desde la
+                                                                                    perspectiva   de     la
+                                                                                    transformación digital
+
+electrónica desde la
                                                                                     perspectiva   de     la
                                                                                     transformación digital
 
@@ -5020,10 +5198,13 @@ Electrónica                                                                    
                                                                  Es aquí donde la comprensión de los principales lineamientos de la
                                                                  transformación digital cobra mayor fuerza.
 
-
 ## 3.2.1 Transformación digital
 
-                                                                 La transformación digital puede ser comprendida como el cambio
+**Definición Canónica:** La transformación digital puede ser comprendida como el cambio
+                                                                 profundo, en todos los aspectos de la vida humana, que deriva de la
+                                                                 aplicación de tecnologías digitales. Desde la teoría, este concepto
+
+La transformación digital puede ser comprendida como el cambio
                                                                  profundo, en todos los aspectos de la vida humana, que deriva de la
                                                                  aplicación de tecnologías digitales. Desde la teoría, este concepto
 
@@ -5077,10 +5258,15 @@ Electrónica                                                                    
 
 Tramitación                                                    3. El futuro de la tramitación                                        126
 
-
 ## 3.2.2 Gobierno electrónico en Chile
 
-                                                                 Como parte de la necesaria digitalización e incorporación de TIC en
+**Definición Canónica:** Como parte de la necesaria digitalización e incorporación de TIC en
+                                                                 los órganos del Estado, se han desarrollado e implementado distintas
+                                                                 normativas e iniciativas que conforman lo que hoy puede llamarse
+                                                                 gobierno electrónico en Chile.
+**Concordancias Legales:** Ley Nº 21.180; Ley Nº 19.880
+
+Como parte de la necesaria digitalización e incorporación de TIC en
                                                                  los órganos del Estado, se han desarrollado e implementado distintas
                                                                  normativas e iniciativas que conforman lo que hoy puede llamarse
                                                                  gobierno electrónico en Chile.
@@ -5141,7 +5327,12 @@ Electrónica                                                                    
 
 ## 3.2.3 Proceso de innovación
 
-                                                      en la mantención
+**Definición Canónica:** en la mantención
+                                                                              El proceso de innovación puede funcionar como base del esquema
+                                                      del Estado de           asociado al desarrollo de herramientas para fortalecer la tramitación
+                                                      derecho en el país.     electrónica, tanto en la activación del trabajo colaborativo del equipo
+
+en la mantención
                                                                               El proceso de innovación puede funcionar como base del esquema
                                                       del Estado de           asociado al desarrollo de herramientas para fortalecer la tramitación
                                                       derecho en el país.     electrónica, tanto en la activación del trabajo colaborativo del equipo
@@ -5673,10 +5864,15 @@ Electrónica                                                                    
                                                                                                reforma por vía legislativa, a pesar de que estas discusiones suelen
                                                                                                demandar un tiempo importante.
 
-
 ## 3.2.3.2 Valor vinculado al proceso de innovación
 
-                                                                                               El valor público no es otra cosa que la percepción de los beneficios
+**Definición Canónica:** El valor público no es otra cosa que la percepción de los beneficios
+                                                                                               por parte de la ciudadanía, menos los costos en los cuales se debió
+                                                                                               incurrir para obtenerlos.50 En términos concretos, cualquier imple-
+                                                                                               mentación que resuelva un problema específico de las personas a
+                                              
+
+El valor público no es otra cosa que la percepción de los beneficios
                                                                                                por parte de la ciudadanía, menos los costos en los cuales se debió
                                                                                                incurrir para obtenerlos.50 En términos concretos, cualquier imple-
                                                                                                mentación que resuelva un problema específico de las personas a
@@ -5715,10 +5911,11 @@ Electrónica                                                                    
 Tramitación                                                          3. El futuro de la tramitación                                                           143
 Electrónica                                                             electrónica
 
-
 ## 3.3          Componentes de la
 
-                                                                            tramitaciónelectrónica
+**Definición Canónica:** tramitaciónelectrónica
+
+tramitaciónelectrónica
 
                                                                        Para el diseño de una estrategia de transformación digital de la
                                                                        justicia, es fundamental comprender los diferentes componentes o
@@ -5792,10 +5989,17 @@ Electrónica                                                             electr�
                                                                  la función judicial en virtud de la orgánica que hoy se establece en
                                                                  diferentes cuerpos normativos.
 
-
 ## 3.3.1 Componentes del back office
 
-                                                                 En el caso del back office, es posible separar la gestión interna en dos
+**Definición Canónica:** En el caso del back office, es posible separar la gestión interna en dos
+                                                                 siguientes ámbitos:
+                                                                 — Gestión jurisdiccional. Comprende toda acción vinculada direc-
+                                                                   tamente con el propósito de impartir justicia. Diversos estudios
+                                                                   establecen que el concepto “jurisdiccional”, en este marco, refiere
+                                             
+**Concordancias Legales:** constitución
+
+En el caso del back office, es posible separar la gestión interna en dos
                                                                  siguientes ámbitos:
                                                                  — Gestión jurisdiccional. Comprende toda acción vinculada direc-
                                                                    tamente con el propósito de impartir justicia. Diversos estudios
@@ -5836,10 +6040,15 @@ Electrónica                                                                   e
 
 Tramitación                                                    3. El futuro de la tramitación                                         146
 
-
 ## 3.3.1.1 Gestión administrativa de tribunales
 
-                                                                 Según lo revisado en el primer capítulo de este trabajo, unos de los
+**Definición Canónica:** Según lo revisado en el primer capítulo de este trabajo, unos de los
+                                                                 principios fundamentales de los procesos de reforma a la justicia en
+                                                                 Chile es el de la separación de la función administrativa de la juris-
+                                                                 diccional. La visión que hay detrás de este enfoque es, justamente, la
+                                                                 de relevar el valor de la administración como un medio de so
+
+Según lo revisado en el primer capítulo de este trabajo, unos de los
                                                                  principios fundamentales de los procesos de reforma a la justicia en
                                                                  Chile es el de la separación de la función administrativa de la juris-
                                                                  diccional. La visión que hay detrás de este enfoque es, justamente, la
@@ -5880,10 +6089,15 @@ Electrónica                                                                   e
                                                                  — Agendamiento de audiencias
                                                                  — Control de gestión
 
-
 ## 3.3.1.2 Estadísticas jurisdiccionales
 
-                                                                 Si bien la recopilación de datos y la producción de estadísticas ju-
+**Definición Canónica:** Si bien la recopilación de datos y la producción de estadísticas ju-
+                                                                 risdiccionales son aspectos que no están en el centro del servicio
+                                                                 judicial, es fundamental su consideración, especialmente ante la
+                                                                 implementación de cualquier mecanismo de registro, control y segui-
+                                                                 miento de causas, como lo son los sistemas de tramitación judicial.
+
+Si bien la recopilación de datos y la producción de estadísticas ju-
                                                                  risdiccionales son aspectos que no están en el centro del servicio
                                                                  judicial, es fundamental su consideración, especialmente ante la
                                                                  implementación de cualquier mecanismo de registro, control y segui-
@@ -5964,10 +6178,15 @@ Electrónica                                                                   e
 
 Tramitación                                                    3. El futuro de la tramitación                                         150
 
-
 ## 3.3.1.3 Sistemas de tramitación de causas
 
-                                                                 En relación con la tramitación de causas, conocidos y ampliamente
+**Definición Canónica:** En relación con la tramitación de causas, conocidos y ampliamente
+                                                                 extendidos en el Poder Judicial son los sistemas de tramitación. Se
+                                                                 debe recordar que el surgimiento de estas herramientas vino apa-
+                                                                 rejado con la implementación de las reformas de justicia, según se
+                                                                 abordó en el primer capítulo.
+
+En relación con la tramitación de causas, conocidos y ampliamente
                                                                  extendidos en el Poder Judicial son los sistemas de tramitación. Se
                                                                  debe recordar que el surgimiento de estas herramientas vino apa-
                                                                  rejado con la implementación de las reformas de justicia, según se
@@ -6069,10 +6288,15 @@ Electrónica                                                                   e
                                                                  oficinas que autocompleta formularios utilizando los datos almace-
                                                                  nados en bases de datos compartidas.
 
-
 ## 3.3.1.4 Apoyo a la decisión jurisdiccional
 
-                                                                 Los sistemas de apoyo judicial son extensiones del sistema de tra-
+**Definición Canónica:** Los sistemas de apoyo judicial son extensiones del sistema de tra-
+                                                                 mitación, diseñados para digitalizar y respaldar las tareas judiciales
+                                                                 y procesales. Apoyan la redacción de documentos judiciales a través
+                                                                 de formularios electrónicos preestablecidos, llenos de datos que son
+                                                                 cargados automáticamente por el mismo sistema. Además, ofrecen un
+
+Los sistemas de apoyo judicial son extensiones del sistema de tra-
                                                                  mitación, diseñados para digitalizar y respaldar las tareas judiciales
                                                                  y procesales. Apoyan la redacción de documentos judiciales a través
                                                                  de formularios electrónicos preestablecidos, llenos de datos que son
@@ -6140,10 +6364,14 @@ Electrónica                                                                   e
                                                                  eficiencia de los procedimientos al reducir el tiempo necesario para
                                                                  manejar los casos y, por lo tanto, mejora la eficiencia.
 
-
 ## 3.3.1.5 Expediente electrónico
 
-                                                                 El expediente judicial electrónico es un instrumento público, dis-
+**Definición Canónica:** El expediente judicial electrónico es un instrumento público, dis-
+                                                                 puesto en medios de registro digitales, que resulta de la agregación
+                                                                 de las distintas actuaciones, de las partes y del órgano judicial, en
+                                                                 forma de legajo. El objetivo del expediente judicial consiste en re-
+
+El expediente judicial electrónico es un instrumento público, dis-
                                                                  puesto en medios de registro digitales, que resulta de la agregación
                                                                  de las distintas actuaciones, de las partes y del órgano judicial, en
                                                                  forma de legajo. El objetivo del expediente judicial consiste en re-
@@ -6165,10 +6393,15 @@ Electrónica                                                                   e
                                                                  herramientas de despliegue, que faciliten la consulta y navegación a
                                                                  través de los documentos que contiene.
 
-
 ## 3.3.2 Componentes del front office
 
-                                                                 En relación con el front office, es decir, los servicios dispuestos para
+**Definición Canónica:** En relación con el front office, es decir, los servicios dispuestos para
+                                                                 la interacción con los usuarios de los tribunales, en esta sección se
+                                                                 expone mayor detalle. Cabe recordar que esta dimensión de la trami-
+                                                                 tación ha sido subdividida en dos grandes áreas: servicios judiciales,
+                                                                 entre los que se cuentan la Oficina Judicial Virtual, las 
+
+En relación con el front office, es decir, los servicios dispuestos para
                                                                  la interacción con los usuarios de los tribunales, en esta sección se
                                                                  expone mayor detalle. Cabe recordar que esta dimensión de la trami-
                                                                  tación ha sido subdividida en dos grandes áreas: servicios judiciales,
@@ -6179,10 +6412,17 @@ Electrónica                                                                   e
 
 Tramitación                                                    3. El futuro de la tramitación                                             155
 
-
 ## 3.3.2.1 Oficina Judicial Virtual
 
-                                                                 La Oficina Judicial Virtual (OJV) es un sistema de presentación
+**Definición Canónica:** La Oficina Judicial Virtual (OJV) es un sistema de presentación
+                                                                 electrónica. En términos concretos, un sistema de presentaciones
+                                                                 es un dispositivo anexo al sistema de tramitación, que habilita una
+                                                                 oficina central electrónica capaz de proporcionar e intercambiar
+                                                                 datos y documentos procesales entre las muchas partes involucradas en
+        
+**Concordancias Legales:** Ley Nº 20.886
+
+La Oficina Judicial Virtual (OJV) es un sistema de presentación
                                                                  electrónica. En términos concretos, un sistema de presentaciones
                                                                  es un dispositivo anexo al sistema de tramitación, que habilita una
                                                                  oficina central electrónica capaz de proporcionar e intercambiar
@@ -6248,10 +6488,15 @@ Electrónica                                                                   e
 
 Tramitación                                                    3. El futuro de la tramitación                                        157
 
-
 ## 3.3.2.2 Audiencias
 
-                                                                 Las audiencias judiciales constituyen un marco de trabajo que presenta
+**Definición Canónica:** Las audiencias judiciales constituyen un marco de trabajo que presenta
+                                                                 una serie de desafíos de interés para la tramitación electrónica. En
+                                                                 aquellas competencias que se sustentan en la oralidad, la audiencia
+                                                                 judicial constituye el aspecto central, puesto que básicamente todos
+                                                                 los aspectos de la tramitación se resuelven en torno a ellas.
+
+Las audiencias judiciales constituyen un marco de trabajo que presenta
                                                                  una serie de desafíos de interés para la tramitación electrónica. En
                                                                  aquellas competencias que se sustentan en la oralidad, la audiencia
                                                                  judicial constituye el aspecto central, puesto que básicamente todos
@@ -6293,10 +6538,15 @@ Electrónica                                                                   e
                                                                  Ilustración 17: Vista de agenda de audiencias de remates judi-
                                                                  ciales en OJV
 
-
 ## 3.3.2.3 Notificaciones
 
-                                                                 La notificación judicial es otra función relevante de la labor jurisdic-
+**Definición Canónica:** La notificación judicial es otra función relevante de la labor jurisdic-
+                                                                 cional, que si bien se aborda usualmente en formato análogo, también
+                                                                 puede ser ofrecido a través de sistemas de notificación electrónica.
+                                                                 Esto es posible cuando el destinatario ha proporcionado información
+                                                                 de contacto electrónico al tribunal para utilizarla con tales
+
+La notificación judicial es otra función relevante de la labor jurisdic-
                                                                  cional, que si bien se aborda usualmente en formato análogo, también
                                                                  puede ser ofrecido a través de sistemas de notificación electrónica.
                                                                  Esto es posible cuando el destinatario ha proporcionado información
@@ -6340,10 +6590,15 @@ Electrónica                                                                   e
                                                                  mejora la seguridad jurídica en un ámbito crítico para el correcto
                                                                  desarrollo de los procesos judiciales.
 
-
 ## 3.3.2.4 Consulta de causas
 
-                                                                 La consulta de causas en una funcionalidad inherente al sistema de
+**Definición Canónica:** La consulta de causas en una funcionalidad inherente al sistema de
+                                                                 presentaciones judiciales. El concepto de base es simple: si el usuario
+                                                                 tiene permitido hacer sus presentaciones al tribunal a través de un
+                                                                 medio electrónico como lo es la OJV, debe tener acceso de consulta
+                                                                 cuando lo estime necesario.
+
+La consulta de causas en una funcionalidad inherente al sistema de
                                                                  presentaciones judiciales. El concepto de base es simple: si el usuario
                                                                  tiene permitido hacer sus presentaciones al tribunal a través de un
                                                                  medio electrónico como lo es la OJV, debe tener acceso de consulta
@@ -6363,10 +6618,15 @@ Electrónica                                                                   e
                                                                  Ilustración 18: Página de consulta de causas de la Oficina Ju-
                                                                  dicial Virtual, del PJUD
 
-
 ## 3.3.2.5 Pagos online
 
-                                                                 Otro servicio relevante, que debe ser dispuesto en los medios elec-
+**Definición Canónica:** Otro servicio relevante, que debe ser dispuesto en los medios elec-
+                                                                 trónicos vinculados a los tribunales, es el de pago en línea. Depen-
+                                                                 diendo de la jurisdicción, los sistemas de pago permiten simplificar
+                                                                 la emisión/recepción de tasas judiciales, depósitos judiciales, pagos por
+                                                                 consignación, entre otros.
+
+Otro servicio relevante, que debe ser dispuesto en los medios elec-
                                                                  trónicos vinculados a los tribunales, es el de pago en línea. Depen-
                                                                  diendo de la jurisdicción, los sistemas de pago permiten simplificar
                                                                  la emisión/recepción de tasas judiciales, depósitos judiciales, pagos por
@@ -6376,10 +6636,16 @@ Electrónica                                                                   e
                                                                  prácticas corruptas, mejorando así la integridad del sistema. Además,
                                                                  los pagos en línea agilizan el procedimiento judicial.
 
-
 ## 3.3.2.6 Atención autónoma
 
-                                                                 Las tecnologías de atención autónoma o autoservicio (SST) son
+**Definición Canónica:** Las tecnologías de atención autónoma o autoservicio (SST) son
+                                                                 interfaces tecnológicas que permiten a los usuarios o clientes re-
+                                                                 solver sus necesidades con prescindencia de la participación de un
+                                                                 empleado o funcionario de atención. Las tecnologías de autoservicio
+                                                                 están reemplazando muchas interacciones de servicios cara a cara,
+          
+
+Las tecnologías de atención autónoma o autoservicio (SST) son
                                                                  interfaces tecnológicas que permiten a los usuarios o clientes re-
                                                                  solver sus necesidades con prescindencia de la participación de un
                                                                  empleado o funcionario de atención. Las tecnologías de autoservicio
@@ -6475,10 +6741,15 @@ Electrónica                                                                   e
                                                                  los funcionarios de atención de público hacia aquellas necesidades
                                                                  que realmente exigen la asistencia y orientación de un ser humano.
 
-
 ## 3.3.2.7 Atención asistida
 
-                                                                 Como ya ha sido posible vislumbrar a partir de las consideraciones
+**Definición Canónica:** Como ya ha sido posible vislumbrar a partir de las consideraciones
+                                                                 previas, la atención asistida es aquella que involucra la participación
+                                                                 directa de un ser humano, cuya misión es resolver el máximo de so-
+                                                                 licitudes provenientes de los usuarios. Los funcionarios de atención
+                                                                 de público de los tribunales han venido cumpliendo este rol desde
+
+Como ya ha sido posible vislumbrar a partir de las consideraciones
                                                                  previas, la atención asistida es aquella que involucra la participación
                                                                  directa de un ser humano, cuya misión es resolver el máximo de so-
                                                                  licitudes provenientes de los usuarios. Los funcionarios de atención
@@ -6604,10 +6875,11 @@ Electrónica                                                                   e
 Tramitación                                                          3. El futuro de la tramitación                                        166
 Electrónica                                                             electrónica
 
-
 ## 3.4     Nuevas herramientas
 
-                                                                       tecnológicas
+**Definición Canónica:** tecnológicas
+
+tecnológicas
 
                                                                        Como ya ha sido establecido en varias secciones de este curso, los
                                                                        procesos de reforma a la justicia de las últimas dos décadas han con-
@@ -6653,10 +6925,15 @@ Electrónica                                                             electr�
                                                                  que sin lugar a dudas tendrán impacto en la labor judicial durante
                                                                  la presente década.
 
-
 ## 3.4.1 El rol de las tecnologías en el futuro
 
-                                                                 de la tramitación electrónica
+**Definición Canónica:** de la tramitación electrónica
+                                                                 La adopción de nuevas tecnologías para los tribunales debería surgir
+                                                                 como consecuencia natural de la implementación de soluciones que
+                                                                 justifiquen su incorporación. Es decir, se debe comenzar desde un
+                                                                 problema u oportunidad claramente delineada.
+
+de la tramitación electrónica
                                                                  La adopción de nuevas tecnologías para los tribunales debería surgir
                                                                  como consecuencia natural de la implementación de soluciones que
                                                                  justifiquen su incorporación. Es decir, se debe comenzar desde un
@@ -6683,10 +6960,15 @@ Electrónica                                                             electr�
                                                                  ción tecnológica y para establecer los ámbitos prioritarios donde se
                                                                  centrarán los esfuerzos.
 
-
 ## 3.4.2 Tecnologías aplicables a la labor de la justicia
 
-                                                                 Como ha sido planteado, la mera novedad tecnológica no es suficiente
+**Definición Canónica:** Como ha sido planteado, la mera novedad tecnológica no es suficiente
+                                                                 argumento para hacer innovación y propender a la transformación
+                                                                 digital de la justicia. Ya se ha destacado la idea de que la innovación
+                                                                 debe comenzar por la identificación de una oportunidad o problemática
+                                                                 inicial, que sería desarrollada hasta llegar al punto de crear va
+
+Como ha sido planteado, la mera novedad tecnológica no es suficiente
                                                                  argumento para hacer innovación y propender a la transformación
                                                                  digital de la justicia. Ya se ha destacado la idea de que la innovación
                                                                  debe comenzar por la identificación de una oportunidad o problemática
@@ -6774,23 +7056,35 @@ Electrónica                                                                    
 
 ## 1. Procesamiento de documentos, donde la máquina puede
 
-                                                                    aprender a identificar instancias y apoyar en la estructuración
+**Definición Canónica:** aprender a identificar instancias y apoyar en la estructuración
+                                                                    de datos, lo cual puede ser muy útil para mejorar los índices de
+                                                                    calidad de los registros.
+
+aprender a identificar instancias y apoyar en la estructuración
                                                                     de datos, lo cual puede ser muy útil para mejorar los índices de
                                                                     calidad de los registros.
 
 Tramitación                                                    3. El futuro de la tramitación                                        170
 
-
 ## 2. Automatización de tareas repetitivas, donde la máquina debe
 
-                                                                    aprender, detectar incidencias y corregir futuros resultados, siendo
+**Definición Canónica:** aprender, detectar incidencias y corregir futuros resultados, siendo
                                                                     aplicable en tareas de revisión o en el procesamiento de causas
                                                                     cuyo proceso es altamente estructurado.
 
+aprender, detectar incidencias y corregir futuros resultados, siendo
+                                                                    aplicable en tareas de revisión o en el procesamiento de causas
+                                                                    cuyo proceso es altamente estructurado.
 
 ## 3. Procesamiento de voz, donde la máquina es capaz de procesar
 
-                                                                    un registro de audio completo, identificando a los intervinientes,
+**Definición Canónica:** un registro de audio completo, identificando a los intervinientes,
+                                                                    clasificando las fases procesales de una audiencia, separando y
+                                                                    transcribiendo voces superpuestas, identificando instancias es-
+                                                                    pecíficas, estructurando registros en bases de datos, entre varias
+                                                                    otras posibilidades.
+
+un registro de audio completo, identificando a los intervinientes,
                                                                     clasificando las fases procesales de una audiencia, separando y
                                                                     transcribiendo voces superpuestas, identificando instancias es-
                                                                     pecíficas, estructurando registros en bases de datos, entre varias
@@ -6798,15 +7092,25 @@ Electrónica                                                                    
 
 ## 4. Servicios al usuario, donde la máquina aprende el lenguaje
 
+**Definición Canónica:** natural y es capaz de comunicarse con otras personas a través de
+                                                                    chat (incluyendo WhatsApp), correo electrónico e incluso voz, lo
+                                                                    cual tiene una amplitud de aplicaciones en el área de atención
+                                                                    a las personas.
 
-                                                                    natural y es capaz de comunicarse con otras personas a través de
+natural y es capaz de comunicarse con otras personas a través de
                                                                     chat (incluyendo WhatsApp), correo electrónico e incluso voz, lo
                                                                     cual tiene una amplitud de aplicaciones en el área de atención
                                                                     a las personas.
 
 ## 5. Modelos predictivos, donde la máquina es capaz de aprender
 
-                                                                    de registros previos y predecir el resultado de una determinada
+**Definición Canónica:** de registros previos y predecir el resultado de una determinada
+                                                                    acción. En este mismo marco, este ámbito de aplicación permitiría,
+                                                                    por ejemplo, sentar las bases de una herramienta de jurispruden-
+                                                                    cia activa, que incluso sea capaz de proponer ciertos resultados a
+                                                                    un juez, teniendo a la vista las variables consideradas en causas
+
+de registros previos y predecir el resultado de una determinada
                                                                     acción. En este mismo marco, este ámbito de aplicación permitiría,
                                                                     por ejemplo, sentar las bases de una herramienta de jurispruden-
                                                                     cia activa, que incluso sea capaz de proponer ciertos resultados a
@@ -7083,10 +7387,15 @@ Electrónica                                                                    
                                                                                              las capacidades humanas para abordar de forma eficiente la labor de
                                                                                              impartir justicia en los tiempos y forma establecidos por la ley.
 
-
 ## 3.4.2.2 Redes sociales
 
-                                                                                             Las redes y plataformas sobre las que interactúan personas e institu-
+**Definición Canónica:** Las redes y plataformas sobre las que interactúan personas e institu-
+                                                                                             ciones en la era digital presentan un potencial aún en desarrollo. La
+                                                                                             presencia digital alude un espacio vasto e ilimitado, cuya utilización
+                                                                                             en base a un comportamiento ético depende casi exclusivamente de
+                                             
+
+Las redes y plataformas sobre las que interactúan personas e institu-
                                                                                              ciones en la era digital presentan un potencial aún en desarrollo. La
                                                                                              presencia digital alude un espacio vasto e ilimitado, cuya utilización
                                                                                              en base a un comportamiento ético depende casi exclusivamente de
@@ -7291,10 +7600,16 @@ Electrónica                                                                    
                                                                       usuarios de los tribunales, más personas podrán recibir la
                                                                       justicia que merecen.
 
-
 ## 3.4.2.3 Interoperabilidad
 
-                                                                 La interoperabilidad del sistema de justicia ha sido un anhelo his-
+**Definición Canónica:** La interoperabilidad del sistema de justicia ha sido un anhelo his-
+                                                                 tórico del Poder Judicial. Hoy, ya cuenta con diferentes estándares
+                                                                 de interconexión con instituciones colaboradoras, pero dada la
+                                                                 disponibilidad tecnológica que ha alcanzado el aparato público, no hay
+                                                                 dudas de que es factible avanzar hacia la implementación de
+          
+
+La interoperabilidad del sistema de justicia ha sido un anhelo his-
                                                                  tórico del Poder Judicial. Hoy, ya cuenta con diferentes estándares
                                                                  de interconexión con instituciones colaboradoras, pero dada la
                                                                  disponibilidad tecnológica que ha alcanzado el aparato público, no hay
@@ -7365,10 +7680,16 @@ Electrónica                                                                    
                                                                  Ilustración 24: Componentes de la tramitación electrónica vin-
                                                                  culados a la interoperabilidad
 
-
 ## 3.4.2.4 Realidad virtual
 
-                                                                 En cuanto a las tecnologías de visualización, el uso de herramientas
+**Definición Canónica:** En cuanto a las tecnologías de visualización, el uso de herramientas
+                                                                 de realidad virtual ya se ha extendido en otros contextos judiciales.
+                                                                 Sus aplicaciones van desde la presentación de la prueba en audien-
+                                                                 cia, hasta la reconstrucción de situaciones vinculadas a la comisión
+                                                                 de delitos.
+**Concordancias Legales:** Constitucion
+
+En cuanto a las tecnologías de visualización, el uso de herramientas
                                                                  de realidad virtual ya se ha extendido en otros contextos judiciales.
                                                                  Sus aplicaciones van desde la presentación de la prueba en audien-
                                                                  cia, hasta la reconstrucción de situaciones vinculadas a la comisión
@@ -7625,10 +7946,13 @@ Electrónica                                                                    
                                                                  Ilustración 27: Componentes de la tramitación electrónica donde
                                                                  es posible utilizar realidad aumentada
 
-
 ## 3.4.2.6 Blockchain
 
-                                                                 Aunque la mayoría de la gente piensa en esta tecnología por su rela-
+**Definición Canónica:** Aunque la mayoría de la gente piensa en esta tecnología por su rela-
+                                                                 ción con criptomonedas como los Bitcoin, las cadenas de bloques o
+                                                                 blockchain ofrecen una capa de seguridad que es útil de muchas otras
+
+Aunque la mayoría de la gente piensa en esta tecnología por su rela-
                                                                  ción con criptomonedas como los Bitcoin, las cadenas de bloques o
                                                                  blockchain ofrecen una capa de seguridad que es útil de muchas otras
 
@@ -7766,10 +8090,16 @@ Electrónica                                                                    
                                                                  Ilustración 28: Componentes de la tramitación electrónica donde
                                                                  es posible utilizar blockchain
 
-
 ## 3.4.2.7 Teletrabajo, jurisdicción en línea
 
-                                                                 y ubicuidad de las operaciones
+**Definición Canónica:** y ubicuidad de las operaciones
+                                                                 La experiencia del teletrabajo nos ha dado señales importantes de
+                                                                 que la materialidad de las dependencias judiciales se puede trasladar
+                                                                 al mundo virtual, donde ya no será necesario disponer de un for-
+                                                                 mato tradicional de edificación para los tribunales, sino de espacios
+                                      
+
+y ubicuidad de las operaciones
                                                                  La experiencia del teletrabajo nos ha dado señales importantes de
                                                                  que la materialidad de las dependencias judiciales se puede trasladar
                                                                  al mundo virtual, donde ya no será necesario disponer de un for-
@@ -7960,17 +8290,30 @@ Electrónica                                                                    
 
 ## 1.    Ley Nº 20.886 sobre tramitación electrónica de los
 
-                                                            procedimientos judiciales y su historia.                            16.   Planificación Estratégica del Poder
+**Definición Canónica:** procedimientos judiciales y su historia.                            16.   Planificación Estratégica del Poder
+                                                                                                                                      Judicial 2021-2025.
+
+procedimientos judiciales y su historia.                            16.   Planificación Estratégica del Poder
                                                                                                                                       Judicial 2021-2025.
 
 ## 2.    Ley Nº 19.799 sobre documento electrónico y
 
-                                                            firma digital.                                                      17.   Tramitación electrónica de los
+**Definición Canónica:** firma digital.                                                      17.   Tramitación electrónica de los
+                                                                                                                                      procedimientos ju- diciales: Chile,
+
+firma digital.                                                      17.   Tramitación electrónica de los
                                                                                                                                       procedimientos ju- diciales: Chile,
 
 ## 3.    Ley Nº 20.285 sobre transparencia y acceso a la
 
-                                                                                                                                      Latinoamérica y el mundo, memo- ria
+**Definición Canónica:** Latinoamérica y el mundo, memo- ria
+                                                            información pública.
+                                                                                                                                      para optar al grado de Licenciado de
+                                                      4.    Ley Nº 19.626 sobre protección de la vida privada.                        CienciasJurídicas y Sociales de la
+                                                                                                                                      Universid
+**Concordancias Legales:** Ley Nº 19.626
+
+Latinoamérica y el mundo, memo- ria
                                                             información pública.
                                                                                                                                       para optar al grado de Licenciado de
                                                       4.    Ley Nº 19.626 sobre protección de la vida privada.                        CienciasJurídicas y Sociales de la
@@ -7978,7 +8321,10 @@ Electrónica                                                                    
 
 ## 5.    Ley Nº 21.180 sobre transformación digital del
 
-                                                            Estado.                                                             18.   Oficina para la Inteligencia Artificial, de
+**Definición Canónica:** Estado.                                                             18.   Oficina para la Inteligencia Artificial, de
+                                                                                                                                      la divi- sión de Servicios Digitales de
+
+Estado.                                                             18.   Oficina para la Inteligencia Artificial, de
                                                                                                                                       la divi- sión de Servicios Digitales de
 
                                                       6.    Acta Nº 85-2019 de la Corte Suprema.                                      Gobierno, del ReinoUnido (2020): “A
@@ -7994,31 +8340,16 @@ Electrónica                                                                    
                                                                                                                                       Disponi-ble online.
                                                       11.   Acta Nº 13-2021 sobre remates en línea.
 
-## 20.   Conferencia Administrativa de los Estados Uni-
-
-
 ## 12.   AD Nº 35-2019 de la Corte Suprema.                         dos (Administrative Conference of the United
 
-                                                                                                                       States, 2020): “Government by Algorithm: Artifi-
+**Definición Canónica:** States, 2020): “Government by Algorithm: Artifi-
+                                                      13.   Proyecto de ley contenido en el boletín Nº 13.752-         cial Intelligence in Federal Administrative Agen-
+                                                            07, que modifica distintos cuerpos normativos.             cies”. Disponible online.
+                                                      14.   Página web tramitacionelectronica.cl del Poder       21.   Poder Judicial de Chile (2020): “Poder Judicial en
+                                                            Judicia
+
+States, 2020): “Government by Algorithm: Artifi-
                                                       13.   Proyecto de ley contenido en el boletín Nº 13.752-         cial Intelligence in Federal Administrative Agen-
                                                             07, que modifica distintos cuerpos normativos.             cies”. Disponible online.
                                                       14.   Página web tramitacionelectronica.cl del Poder       21.   Poder Judicial de Chile (2020): “Poder Judicial en
                                                             Judicial.                                                  la Era Digital”. Disponible online.
-
-## 15.   Planificación Estratégica del Poder Judicial
-
-
-
-## Serie de
-
-
-## Documentos 204
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

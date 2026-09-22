@@ -15,6 +15,21 @@ extraccion: pdftotext
 
 ## Teoria de la prueba1
 
+**Definición Canónica:** Sumario:
+1.- Acepciones de la palabra prueba.
+2.- La prueba en el Derecho Civil y en el Derecho Procesal.
+3.- Objeto de la prueba.
+4.- El “onus probandi” o carga o peso de la prueba.
+5.- Clasificación doctrinaria de los hechos jurídicos, para los efectos probatorios.
+6.- Excepciones a los principios sobre el peso de la prueba.
+7.- Prueba de los hechos negativos.
+8.- Sistemas probatorios.
+8.1. Según las atribuciones del juez.
+8.2. Según la admisibilidad y valor de los medios de prueba.
+9.- Enumeración y concepto de los medios de prueba.
+10.- Admisibilidad de los medios de prueba.
+11.- Valor pro
+**Concordancias Legales:** artículo 8 del Código Civil; artículo 411; artículo 89 del Código de Procedimiento Civil alude a los hec; artículo 318 del Código de Procedimiento Civil establece que l; artículo 1698 del Código Civil; artículo 1444 del Código Civil; artículos 12; artículo 1462 del Código Civil; artículo 428 del Código de Procedimiento Civil; artículo 426 del Código de Procedimiento Civil que; artículo 384; artículos 159; artículo 341 del Código de Procedimiento Civil. Vodanovi; artículo 1698; artículo 1701 del Código Civil; artículo 1708 del Código Civil.14 11; artículo 309 del Código Civil; artículo 1901 del Código Civil; artículo 1699; artículo 1708 del Código Civil; artículos 1682; artículo 1701; artículo 1713; artículo 1700 del Código Civil distingue entre las partes y los; artículo 1700; artículo 17; artículo 1700 del Código Civil; artículo 1706 del Código Civil. En otras palabras; artículo 342 del Código de Procedimiento Civil; artículo 455 del Código Orgánico de Tribunales; artículo 345 del Código de Procedimiento Civil. Se entenderá q; artículo 347 del Código de Procedimiento Civil; Ley N° 19.496; Ley N° 20.711; constitución
 
 Sumario:
 1.- Acepciones de la palabra prueba.
@@ -833,19 +848,17 @@ Quedó con el siguiente tenor:
         “Una vez protocolizados, valdrán como instrumentos públicos:
 1. Los testamentos cerrados y abiertos en forma legal;
 
-## 2. Los testamentos solemnes abiertos que se otorguen en hojas sueltas, siempre que su
-
-protocolización se haya efectuado a más tardar, dentro del primer día siguiente hábil al de
-su otorgamiento;
-
-## 3. Los testamentos menos solemnes o privilegiados que no hayan sido autorizados por
-
-notario, previo decreto del juez competente;
-
-## 4. Las actas de ofertas de pago, y
-
-
 ## 5. Los instrumentos otorgados en el extranjero, las transcripciones y las traducciones
+
+**Definición Canónica:** efectuadas por el intérprete oficial o los peritos nombrados al efecto por el juez
+competente y debidamente legalizadas, que sirvan para otorgar escrituras en Chile.
+        Sin perjuicio de lo anterior, los documentos públicos que hayan sido autenticados
+mediante el sistema de apostilla, según lo dispuesto en el artículo 345 bis del Código de
+Procedimiento Civil, no requerirán de protocolización para tener el valor de instrumentos
+públicos. La apostilla no requerirá certificación de ninguna clase para ser considerada
+auténtica”.
+        De esta manera, las escrituras públicas otorgadas en un 
+**Concordancias Legales:** artículo 345 bis del Código de Procedimiento Civil; artículo 1; artículo 85 del Reglamento Conservatorio de Bienes Raíces34 s; artículo 39; artículo 412; artículo 1682 del Código Civil; artículo 10; artículo 85; artículo 1026; artículo 1016; artículos 1708; artículo 704; artículo 1876; artículo 17 del Código Civil; artículos 350; artículo 429 del Código de Procedimiento Civil; artículo 384 del Código de Procedimiento Civil; artículo 429; artículo 426 del Código Orgánico de Tribunales; artículo 429 del Código de Procedimiento Civil que las disposi; artículo 1711; artículo 1707; artículo 1700 del Código Civil; artículo 1700; artículo 1876 inciso 2; artículo 1709; artículo 1699 del Código Civil39. A su vez; artículo 403 del Código Orgánico de Tribunales la define como; artículo 399 del Código Orgánico de Tribunales los define como; artículo 401 del Código Orgánico de Tribunales señala sus func; artículos 404; Ley 20.711
 
 efectuadas por el intérprete oficial o los peritos nombrados al efecto por el juez
 competente y debidamente legalizadas, que sirvan para otorgar escrituras en Chile.
@@ -1123,9 +1136,10 @@ interesada. Tal solicitud cabe respecto de cualquier instrumento, público o pri
 documento protocolizado no es entonces una escritura pública, pues no se extiende en el
 registro o protocolo del notario, sino que se agrega al final del mismo.
 
-
 ## 14.4. Los instrumentos privados.40
 
+**Definición Canónica:** a) Concepto.
+**Concordancias Legales:** artículos 1701; artículo 1704; artículo 1023; artículo 1702 del Código Civil; artículo 1702; artículo 1700; artículo 1703; artículo 346; artículo 419 del Código Orgánico de Tribunales; artículos 1704; artículo 1705
 
 a) Concepto.
 
@@ -1258,9 +1272,10 @@ mismas reglas indicadas para los asientos:
            deudor le hizo un abono de $ 1.000.000.-, pero dejando constancia que aún se le
            adeudan $ 2.000.000.-)
 
-
 ## 14.5. Las contraescrituras.49
 
+**Definición Canónica:** a) Concepto.
+**Concordancias Legales:** artículo 1707; artículo 1545 del Código Civil; artículo 428 del Código de Procedimiento Civil
 
 a) Concepto.
 
@@ -1392,11 +1407,14 @@ testigos presenciales-, o porque tuvieron conocimiento del mismo –testigos de 
        Lo que caracteriza a los testigos es no tener interés alguno en el acto que
 atestiguan.55
 
-
 ## 15.2. Actos que no pueden probarse por testigos.56
 
+**Definición Canónica:** La prueba de testigos no se admite respecto de los actos que deben constar por
+escrito (artículos 1708 y 1709), ni en cuanto el testimonio adicione o altere lo expresado
+en un acto o contrato (artículo 1709). Estudiaremos ambos casos por separado.
+**Concordancias Legales:** artículos 1708; artículo 1709; artículos 1554; artículos 1682; artículo 647; artículo 1710; artículo 1709 del Código Civil; artículo 128 del Código de Comercio dispone que; artículo 1711; artículo 1211; artículos 2236; artículo 2175; artículo 2237
 
-        La prueba de testigos no se admite respecto de los actos que deben constar por
+La prueba de testigos no se admite respecto de los actos que deben constar por
 escrito (artículos 1708 y 1709), ni en cuanto el testimonio adicione o altere lo expresado
 en un acto o contrato (artículo 1709). Estudiaremos ambos casos por separado.
 
@@ -1592,11 +1610,13 @@ c) Cuando la ley expresamente la admite.
 sea el valor de la cosa prestada (artículo 2175); lo mismo ocurre en el depósito necesario
 (artículo 2237).
 
-
 ## 15.4 Valor probatorio de la prueba de testigos.72
 
+**Definición Canónica:** Se regula la materia en los artículos 383 y 384 del Código de Procedimiento Civil,
+que distinguen entre testigos de oídas y testigos presenciales:
+**Concordancias Legales:** artículos 383; artículo 383; artículo 384; artículo 426 del Código de Procedimiento Civil; artículos 47; artículo 1712; artículo 426 del Código de Procedimiento Civil establece que u; artículos 1682; artículo 401 del Código de Procedimiento Civil que por regla g; artículo 1713 del Código Civil y 402 del Código de Procedimient; artículo 398 del Código de Procedimiento Civil regula la mater; artículo 1713 del Código Civil sólo se refiere a los hechos per; artículo 399 del Código de Procedimiento Civil agrega también; artículo 402 del Código de Procedimiento Civil; artículo 1701; artículo 157 del Código Civil; artículo 1739 inciso 2; artículo 2485 del Código Civil. 18; artículo 1714 del Código Civil dispone que sobre la inspección; artículos 403; artículo 408 del Código de Procedimiento Civil; artículo 409 del Código de Procedimiento Civil establece que; artículo 411 del Código de Procedimiento Civil; artículo 425 del Código de Procedimiento Civil que
 
-       Se regula la materia en los artículos 383 y 384 del Código de Procedimiento Civil,
+Se regula la materia en los artículos 383 y 384 del Código de Procedimiento Civil,
 que distinguen entre testigos de oídas y testigos presenciales:
 
 a) Testigos de oídas: son aquellos “que relatan hechos que no han percibido por sus

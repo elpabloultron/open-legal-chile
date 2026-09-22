@@ -15,6 +15,11 @@ extraccion: pdftotext
 
 ## El derecho civil y la codificación1
 
+**Definición Canónica:** Sumario:
+1.- Definición de Derecho civil, origen de la denominación “Derecho civil” y
+contenido del Derecho civil. 1.1. Definición de Derecho civil. 1.2. Origen y evolución
+de la denominación “Derecho civil”. 1.3. Contenido del Derecho civil. 2.- Carácter
+general y común del Derecho civil. 3.- La codificación y el Código Civil chileno.
 
 Sumario:
 1.- Definición de Derecho civil, origen de la denominación “Derecho civil” y
@@ -22,12 +27,11 @@ contenido del Derecho civil. 1.1. Definición de Derecho civil. 1.2. Origen y ev
 de la denominación “Derecho civil”. 1.3. Contenido del Derecho civil. 2.- Carácter
 general y común del Derecho civil. 3.- La codificación y el Código Civil chileno.
 
-## 3.1. La codificación. 3.2. Génesis del Código Civil chileno. 3.3. Fuentes del Código Civil
-
-chileno. 3.4. Repercusión del Código Civil chileno en América. 3.5. Estructura del Código
-Civil chileno. 3.6. Principios fundamentales del Derecho civil y del Código Civil chileno.
-
 ## 3.7. Principales leyes complementarias del Código Civil. 4.- Tendencias actuales del
+
+**Definición Canónica:** Derecho civil. 4.1. Cierto grado de descodificación. 4.2. Constitucionalización del
+Derecho civil. 4.3. La internacionalización del Derecho civil. Bibliografía. Cuestionario.
+**Concordancias Legales:** Constitucion
 
 Derecho civil. 4.1. Cierto grado de descodificación. 4.2. Constitucionalización del
 Derecho civil. 4.3. La internacionalización del Derecho civil. Bibliografía. Cuestionario.
@@ -410,7 +414,18 @@ sistema económico liberal, que permitía a los extranjeros traficar en la ciuda
 
 ## título que los ciudadanos.30
 
-        En la misma región, durante la tercera dinastía de Ur, la legendaria ciudad
+**Definición Canónica:** En la misma región, durante la tercera dinastía de Ur, la legendaria ciudad
+Sumeria (2328-2220 a.C.), el Rey Shulgi promulga, para el conjunto de su reino, un
+código que marca un estado muy avanzado del Derecho civil y mercantil, regulándose,
+entre otras materias, la orden de pago, el depósito bancario, el crédito y la
+responsabilidad.31
+        Otra compilación jurídica de la antigüedad que debe destacarse, corresponde al
+célebre Código del Rey de Babilonia Hammurabi (2003-1916 a.C.). Con él, se alcanzará
+el nivel más alto de la codificación en la zona situada al oriente del Mediterráneo. Su
+
+**Concordancias Legales:** constitucion; constitución
+
+En la misma región, durante la tercera dinastía de Ur, la legendaria ciudad
 Sumeria (2328-2220 a.C.), el Rey Shulgi promulga, para el conjunto de su reino, un
 código que marca un estado muy avanzado del Derecho civil y mercantil, regulándose,
 entre otras materias, la orden de pago, el depósito bancario, el crédito y la
@@ -1079,6 +1094,15 @@ h) Reanudación de la labor codificadora en la Europa medieval.
 
 ## parte de la “Baja Edad Media” (siglos XII a XV),80 prevalecerá el Derecho consuetudinario
 
+**Definición Canónica:** y la doctrina (ius commune) por sobre el Derecho legislado (iura propia). Incluso, en los
+casos en que se escrituró el Derecho, se trató más bien de compilar la costumbre y la
+doctrina, más que las leyes. Lo que se explica pues los jueces fallaban conforme a las
+dos primeras. Ejemplos de recopilaciones de la doctrina, ahora durante la “Baja Edad
+Media”, fueron la “Magna Glossa” que Acursio (1182-1263) hizo a la totalidad del Corpus
+Iuris Civilis (con lo cual su obra desplazó a las glosas que se habían hecho en los años
+precedentes a partes del Corpus Iuris) y el “Libro de las Leyes”, mejor con
+**Concordancias Legales:** Constitución
+
 y la doctrina (ius commune) por sobre el Derecho legislado (iura propia). Incluso, en los
 casos en que se escrituró el Derecho, se trató más bien de compilar la costumbre y la
 doctrina, más que las leyes. Lo que se explica pues los jueces fallaban conforme a las
@@ -1244,6 +1268,15 @@ de la ley, seres inanimados que no pueden mitigar la fuerza y el rigor de la ley
         Estos planteamientos se reflejaron palmariamente en el Código Civil francés de
 
 ## 1804. Como expresa Riccardo Ferrante, “La ley mediante la cual se promulgó el Código
+
+**Definición Canónica:** el 30 de ventoso del año xii (el 21 de marzo de 1804) prescribió, en las materias allí
+tratadas, la total derogación del derecho romano, de las ordenanzas reales, de las
+costumbres y de cualquier otra fuente normativa. De este modo, se trata del primer
+código europeo que, a favor de la ley, arrasó las tradicionales fuentes del derecho. El
+derecho es ahora del Estado y es monopolio –según el esquema de Montesquieu- del
+‘poder legislativo’, único detentador de la facultad de producir normas jurídicas contra
+cualquier visión pluri-ordinamental. Además, el Código determinó definitivamente la
+unida
 
 el 30 de ventoso del año xii (el 21 de marzo de 1804) prescribió, en las materias allí
 tratadas, la total derogación del derecho romano, de las ordenanzas reales, de las
@@ -1503,8 +1536,10 @@ cuales, a través de los siglos, no habían sido redactadas por escrito. En gene
 
 ## parte de estas costumbres procedían del derecho germánico importado en la Galia por
 
+**Definición Canónica:** Martínez Tapia, Ramón (1996), ob. cit., pp. 171 y 172.
+**Concordancias Legales:** Constitución
 
-      Martínez Tapia, Ramón (1996), ob. cit., pp. 171 y 172.
+Martínez Tapia, Ramón (1996), ob. cit., pp. 171 y 172.
 
 los invasores bárbaros en los siglos V y VI después de Jesucristo. Diferían, sin embargo,
 según las regiones, y en algunos detalles variaban aun de pueblo en pueblo. Los países
@@ -1754,6 +1789,16 @@ promulgación, se aplicaban en Chile las leyes españolas, comoquiera que formá
 
 ## parte del Imperio, como Capitanía General dependiente del Virreinato de Lima.119 Así
 
+**Definición Canónica:** ocurriría durante 270 años. El Derecho español, sin embargo, seguiría aplicándose
+durante la República, durante más de treinta años corridos desde la proclamación de la
+Independencia. Particularmente, se aplicaban normas que tenían su fuente en:
+i.- El Fuero Juzgo (elaborado en Castilla en 1241 bajo el reinado de Fernando III y que
+consiste en la traducción del Liber Iudiciorum).
+ii.- El Fuero Real (habría sido promulgado en 1254-1255 por Alfonso X, Rey de Castilla
+y León).
+iii.- Las Leyes de Estilo, que contienen comentarios al Fuero Real. Se trata de una
+colección de 252 leyes dictadas en la
+
 ocurriría durante 270 años. El Derecho español, sin embargo, seguiría aplicándose
 durante la República, durante más de treinta años corridos desde la proclamación de la
 Independencia. Particularmente, se aplicaban normas que tenían su fuente en:
@@ -1817,12 +1862,26 @@ deben obtener en la nación la misma autoridad que las del Fuero Real de que son
 
 ## apéndice, y como posteriores a éstas, guardarse con preferencia cuando hubiese
 
+**Definición Canónica:** contradicción entre unas y otras”.121
+         Jaime Eyzaguirre, por su parte, expresa que “En los momentos de producirse la
+revolución de la independencia, el orden de aplicación del derecho supletorio castellano,
+era, en suma, el siguiente:
+
 contradicción entre unas y otras”.121
          Jaime Eyzaguirre, por su parte, expresa que “En los momentos de producirse la
 revolución de la independencia, el orden de aplicación del derecho supletorio castellano,
 era, en suma, el siguiente:
 
 ## 1. Las leyes dictadas con posterioridad a la Novísima Recopilación, que era la más
+
+**Definición Canónica:** reciente.
+2. La Novísima Recopilación (1805).
+3. La Nueva Recopilación (1567).
+4. Las Leyes de Toro (1505) incluido por otra parte en la nueva recopilación.
+5. Las Ordenanzas Reales de Castilla (Ordenanzas de Montalvo, 1484).
+6. El Ordenamiento de Alcalá (1348).
+7. Las Leyes de Estilo, el Fuero Real y los fueros municipales que se probaren en uso.
+8. Las Partidas.
 
 reciente.
 2. La Novísima Recopilación (1805).
@@ -1834,6 +1893,9 @@ reciente.
 8. Las Partidas.
 
 ## 9. A falta de toda ley, el juez debía recurrir al monarca y no le estaba permitido fallar
+
+**Definición Canónica:** por equidad”.122
+**Concordancias Legales:** artículo 1; constitución
 
 por equidad”.122
 
@@ -2549,6 +2611,15 @@ al Gobierno, un informe más detallado acerca de la iniciativa codificadora.
 
 ## 1831. En él, se indicaba que la codificación no podía ser una compilación simplificada y
 
+**Definición Canónica:** regularmente ordenada de las leyes españolas entonces vigentes, “porque, siendo el
+régimen y principios establecidos en aquellos códigos tan opuestos a nuestro sistema
+político y a las actuales luces y costumbres, resultarían la misma confusión y embarazos
+en que hoy tropieza la administración pública”. Se agregaba que la codificación no podía
+ser obra de una reunión de individuos, en que habría discordias, diversidad de principios
+y demás entorpecimientos que impedirían dar al trabajo la armonía de todas sus partes
+y la necesaria combinación de unas leyes con otras. La ejecución de una obra d
+**Concordancias Legales:** Artículo 1
+
 regularmente ordenada de las leyes españolas entonces vigentes, “porque, siendo el
 régimen y principios establecidos en aquellos códigos tan opuestos a nuestro sistema
 político y a las actuales luces y costumbres, resultarían la misma confusión y embarazos
@@ -2803,6 +2874,15 @@ satisfecho como para alabar, desde las páginas de El Araucano, los progresos de
 Instituto cuando los estudiantes dieron sus exámenes finales públicos en diciembre de
 
 ## 1833. Infante tenía muy buenos reflejos, y lo demostró con su agilidad característica
+
+**Definición Canónica:** cuando respondió: ‘¿Qué mejoras ha recibido la enseñanza pública? El Valdiviano cree,
+que si se digiese [sic] empeoramiento, atraso, vicios, preocupaciones, se diría la verdad’.
+Declaró además que si había algo que celebrar era la calidad anterior del Instituto, que
+por supuesto él había ayudado a fundar en 1813, y el talento de los estudiantes. Pero
+el nuevo plan restauraba ‘el que obraba en los tiempos de la Inquisición y la barbarie
+española’. En cuanto a la enseñanza del derecho, se concentró en el romano. Haciendo
+uso de su típico sistema de referencias a Bello, declaró: ¡Bello plan para 
+**Concordancias Legales:** artículo 4; artículo 44
 
 cuando respondió: ‘¿Qué mejoras ha recibido la enseñanza pública? El Valdiviano cree,
 que si se digiese [sic] empeoramiento, atraso, vicios, preocupaciones, se diría la verdad’.
@@ -3138,6 +3218,15 @@ comenzará a difundir un nuevo texto legal: su propio fuero. Pese a la existenci
 importante debate en torno a la autoría y fecha de redacción del Fuero Real, la mayor
 
 ## parte de los especialistas está de acuerdo en que nos encontramos ante una obra
+
+**Definición Canónica:** elaborada al principio del reinado. De la misma forma, tampoco ha de sorprendernos
+que fuese aquel territorio donde ese particularismo jurídico revestía mayor vigor, esto
+es, el área de Castilla la Vieja, el elegido por el monarca para comenzar una actividad
+política de concesiones de su propio fuero (…). No obstante, muy pronto el monarca
+decide dilatar la geografía de concesiones del Fuero Real, ampliando sustancialmente su
+escenario más allá de los límites territoriales de Castilla la Vieja. De hecho, el mayor
+número de concesiones se produce a partir de 1256, y es entonces cuando Alfonso X
+**Concordancias Legales:** Constitución
 
 elaborada al principio del reinado. De la misma forma, tampoco ha de sorprendernos
 que fuese aquel territorio donde ese particularismo jurídico revestía mayor vigor, esto
@@ -3690,6 +3779,16 @@ de uso frecuente en las leyes.
 
 ## 3. Efectos de la ley; 4. Interpretación de la ley; 5. Definición de varias palabras de uso
 
+**Definición Canónica:** frecuente en las leyes; y 6. Derogación de las leyes.
+iii.- El Libro Primero: “De las personas”.
+         Se extiende desde el art. 54 al 564, ambos inclusive (511 artículos nominales).
+         Reglamenta lo relativo a las personas naturales, su nacionalidad y domicilio,
+principio y fin de su existencia; el matrimonio; los esponsales; obligaciones y derechos
+entre los cónyuges (entre ellos, los bienes familiares y la separación parcial o total de
+bienes); la filiación; de las acciones de filiación; de los derechos y obligaciones entre los
+padres y los hijos; la patria potestad; las pruebas de
+**Concordancias Legales:** artículo 226; artículos 19; Ley Nº 19.585; Ley Nº 7.612; constitución
+
 frecuente en las leyes; y 6. Derogación de las leyes.
 iii.- El Libro Primero: “De las personas”.
          Se extiende desde el art. 54 al 564, ambos inclusive (511 artículos nominales).
@@ -3902,37 +4001,13 @@ complementarias. Son los siguientes:
 1. Principios de carácter general                  1.1. La omnipotencia de la ley.
                                                    1.2. La buena fe.
 
-## 1.3. La reparación del enriquecimiento sin
-
-                                                   causa.
-                                                   1.4. La responsabilidad.
-
-
-## 2. Principios relativos a las personas y la familia
-
-                                             2.1. La dignidad de las personas.
-
-## 2.2. La igualdad ante la ley.260
-
-                                             2.3. Protección y fortalecimiento de la familia.
-                                             2.4. Protección del matrimonio.
-
-## 2.5. El interés superior de los hijos y en
-
-                                             particular de los no emancipados.
-                                             2.6. Protección del cónyuge más débil.
-
-
-## 3. Principios relativos a los bienes
-
-
-## 3.1. La propiedad privada y la libre circulación
-
-                                                   de la riqueza.
-
 ## 3.2. Mayor protección a la propiedad y
 
-                                                   posesión de los bienes raíces.
+**Definición Canónica:** posesión de los bienes raíces.
+                                                   3.3. Patrimonio unitario.
+**Concordancias Legales:** Artículo 1; artículo 332 del Código Civil; Artículo 51; artículos 955; Ley Nº 20.530; Ley Nº 21.150; Ley Nº 1.361; Ley Nº 19.947; Ley Nº 19.585; Ley Nº 19.968; Ley Nº 14.908; Ley N° 14.908; Ley N° 19.947; Ley N° 18.101; Constitución Política; constitucion; constitución
+
+posesión de los bienes raíces.
                                                    3.3. Patrimonio unitario.
 
 4. Principios relativos a los contratos            4.1. La autonomía de la voluntad.
@@ -5374,6 +5449,17 @@ exacta, sea razonablemente equivalente al precio que la otra parte se obliga a p
 ella. Lo mismo puede afirmarse acerca del contrato de permuta: las especies que cada
 
 ## parte se obliga a entregar a la otra deben tener un valor que, al menos de manera
+
+**Definición Canónica:** aproximada, sea equivalente.
+        Otro tanto debe sostenerse respecto de algunos contratos unilaterales, es decir
+aquellos en que se obliga sólo una de las partes, como es el caso del contrato de mutuo.
+Así, si se pacta que el mutuario, además de restituir el capital, deberá pagar una suma
+adicional por concepto de intereses, éstos no deben ser desmesurados. Según se
+estudiará, el propio legislador establece límites en el monto de los intereses (tasa
+máxima convencional).
+        Conforme a lo expuesto, el principio de la justicia contractual opera tanto en
+contratos bilaterales como en con
+**Concordancias Legales:** Ley N° 18.010; Ley N° 19.947; Ley N° 4.808; Ley N° 17.344; Ley N° 21.760; Ley N° 20.500; Ley N° 2.695; Ley N° 21.442; Ley N° 19.039; Ley N° 17.336; Ley N° 18.101; Ley N° 19.281; Ley N° 20.190; Ley N° 19.799; Ley N° 19.253; Ley N° 20.930; Ley N° 20.830; Ley N° 19.903; Ley N° 14.908; Ley Nº 16.271; Ley Nº 21.120; Ley Nº 21.334; constitucion; Constitución; Constitución Política
 
 aproximada, sea equivalente.
         Otro tanto debe sostenerse respecto de algunos contratos unilaterales, es decir

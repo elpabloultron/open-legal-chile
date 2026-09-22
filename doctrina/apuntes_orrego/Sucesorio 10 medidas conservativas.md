@@ -13,11 +13,10 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Decima parte: de las medidas conservativas
-
-
 ## Que corresponden a los interesados. 1
 
+**Definición Canónica:** 1.- Generalidades.
+**Concordancias Legales:** artículos 487; artículos 42; Ley N° 16.271; Ley N° 1.939
 
 1.- Generalidades.
 
@@ -502,6 +501,10 @@ declarado en un fallo que el denunciante a quien se adjudique en recompensa una
 
 ## parte de la herencia, no pasa por este hecho a ser heredero. La denuncia de la
 
+**Definición Canónica:** herencia vacante debe hacerse ante la Dirección de Tierras y Bienes Nacionales del
+Ministerio de Bienes Nacionales, concretamente en la oficina de partes del citado
+**Concordancias Legales:** Ley N° 1.939
+
 herencia vacante debe hacerse ante la Dirección de Tierras y Bienes Nacionales del
 Ministerio de Bienes Nacionales, concretamente en la oficina de partes del citado
 
@@ -632,6 +635,12 @@ comprende todos los de la sucesión o sólo una parte de ellos.
 iii.- No parece posible que en una misma sucesión coexista un albacea con tenencia de
 
 ## parte de los bienes del testador y un curador de la herencia yacente encargado de
+
+**Definición Canónica:** administrar los bienes restantes.
+iv.- Finalmente, el albacea sin tenencia de bienes, es un curador de bienes y como tal,
+en ausencia de los herederos, y a falta de disposición en el título de los ejecutores
+testamentarios que resuelva este problema, tiene las facultades que a los curadores de
+la herencia yacente les confieren los arts. 487 a 490. 35
 
 administrar los bienes restantes.
 iv.- Finalmente, el albacea sin tenencia de bienes, es un curador de bienes y como tal,

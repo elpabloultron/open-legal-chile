@@ -13,20 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 49           Pueblos
-
-             originarios
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** y acceso
+             a la justicia
+             Francisca de la Maza
+             Luis Eugenio Campos
+             Antonia Rivas
+             Claudio Fuentes
 
-             y acceso
+y acceso
              a la justicia
              Francisca de la Maza
              Luis Eugenio Campos
@@ -100,25 +96,13 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 5       Unidad 1
-
-        Hacia una desconstrucción de los prejuicios
-        y estereotipos relativos a indígenas y afrodescendientes
-
-## 28      Unidad 2
-
-        Pueblos originarios y pueblo tribal afrodescendiente
-        en Chile
-
-## 46      Unidad 3
-
-        Derechos de los pueblos originarios
-        y pueblo tribal afrodescendiente en Chile
-
 ## 108     Unidad 4
 
-        Desafíos para el servicio de justicia
+**Definición Canónica:** Desafíos para el servicio de justicia
+        en la promoción de la interculturalidad
+**Concordancias Legales:** constitucion
+
+Desafíos para el servicio de justicia
         en la promoción de la interculturalidad
 
 Unidad 1
@@ -261,6 +245,15 @@ designan al colonizado en América.
    Se establecen de este modo relaciones sociales en función de las diferencias, en particular de las diferencias extremas entre quienes forman
 
 ## parte de la sociedad. Esto también reafirma las relaciones racializadas
+
+**Definición Canónica:** y la conformación de estereotipos y de prejuicios. Estos dos conceptos
+están estrechamente relacionados con el concepto de discriminación.
+   Respecto al concepto de discriminar, en un sentido amplio, significa separar, clasificar, distinguir una cosa de otra, lo que permite hacer
+distinciones y comparaciones que ayudan a comprender el entorno que
+nos rodea. Ejemplo de ello es la capacidad de discriminar entre una situación de peligro de otra que no lo es, o entre situaciones formales y
+recreativas, que requieren distintos comportamientos. Pero también la
+discriminación hace referencia a un tr
+**Concordancias Legales:** artículo 60 de la Constitución del Ecuador; artículo 171; artículo 6; artículo 10; artículo 17; artículo 76 de la Constitución del Ecuador establece que; artículo 171 de la Constitución del Ecuador se establece que; artículo 63; Ley 19.253; Ley 17.729; Ley 2.568; constitucion; Constitución
 
 y la conformación de estereotipos y de prejuicios. Estos dos conceptos
 están estrechamente relacionados con el concepto de discriminación.
@@ -1275,6 +1268,16 @@ como los de Ecuador, a principios de los noventa, y el de Chiapas en
 
 ## 1994. Lo anterior también fue marcado por las protestas en torno a la
 
+**Definición Canónica:** conmemoración de los quinientos años de la llegada de Cristóbal Colón
+a América, lo que generó la demanda de reconocimiento a los indígenas
+y críticas al proceso de colonización. Todos estos aspectos serán abordados de manera sistemática más adelante, cuando se trabaje los diversos
+instrumentos legales, tanto nacionales como internacionales, que hacen
+referencia a la población originaria.
+   A pesar de los avances registrados en los años noventa, a fines de
+esa década comenzaron a desarrollarse variadas disputas resultantes de
+la implementación de proyectos extractivistas en tierras indígenas,
+**Concordancias Legales:** artículo 43 de la Declaración; artículo 3; artículo 5; artículo 7; artículo 9; artículo 33; artículos 18; Constitucion; Constitución
+
 conmemoración de los quinientos años de la llegada de Cristóbal Colón
 a América, lo que generó la demanda de reconocimiento a los indígenas
 y críticas al proceso de colonización. Todos estos aspectos serán abordados de manera sistemática más adelante, cuando se trabaje los diversos
@@ -1629,8 +1632,10 @@ inversa. Por este motivo, los propios pueblos indígenas también se han
 opuesto a la existencia de definiciones cerradas o formales en el plano
 internacional, prefiriendo la flexibilidad y privilegiando el derecho de
 
-
 ## 2 Todos los casos contenciosos y no contenciosos sobre derechos de los pueblos
+
+**Definición Canónica:** indígenas pueden consultarse en https://bit.ly/3uL0Cie.
+**Concordancias Legales:** artículo 1 del Convenio 169 de la OIT sobre Pueblos Indígena; artículo 33 de la DNUDPI afirma que
 
 indígenas pueden consultarse en https://bit.ly/3uL0Cie.
 
@@ -1650,10 +1655,18 @@ estos pueden interferir en las definiciones.
 conforme a sus costumbres y tradiciones». El Convenio 169, por su parte, contiene una declaración de cobertura más que una definición única
 de «pueblos indígenas», indicando que se aplica:
 
-
 ## 1. A los pueblos tribales en países independientes, cuyas condiciones
 
-      sociales, culturales y económicas les distingan de otros sectores de la
+**Definición Canónica:** sociales, culturales y económicas les distingan de otros sectores de la
+      colectividad nacional, y que estén regidos total o parcialmente por sus
+      propias costumbres o tradiciones o por una legislación especial;
+       a los pueblos en países independientes, considerados indígenas por el
+      hecho de descender de poblaciones que habitaban en el país o en una
+      región geográfica a la que pertenece el país en la época de la conquista o
+      la colonización o del establecimiento de las actuales fronteras estatales y
+      que, cualquiera que sea su situación jurídica, conservan to
+
+sociales, culturales y económicas les distingan de otros sectores de la
       colectividad nacional, y que estén regidos total o parcialmente por sus
       propias costumbres o tradiciones o por una legislación especial;
        a los pueblos en países independientes, considerados indígenas por el
@@ -1665,15 +1678,14 @@ de «pueblos indígenas», indicando que se aplica:
 
    Asimismo, se indica que:
 
-
-## 2. La conciencia de su identidad indígena o tribal deberá considerarse
-
-      un criterio fundamental para determinar los grupos a los que se aplican
-      las disposiciones del presente Convenio.
-
 ## 3. La utilización del término «pueblos» en este Convenio no deberá
 
-      interpretarse en el sentido de que tenga implicación alguna en lo que
+**Definición Canónica:** interpretarse en el sentido de que tenga implicación alguna en lo que
+      atañe a los derechos que pueda conferirse a dicho término en el derecho
+      internacional.
+**Concordancias Legales:** artículo 1.2 del Convenio 169 de la OIT; artículo 1.1 del Convenio 169 de la OIT; artículo 4 de la DNUDPI; artículo 4; artículo 5; artículo 34
+
+interpretarse en el sentido de que tenga implicación alguna en lo que
       atañe a los derechos que pueda conferirse a dicho término en el derecho
       internacional.
 
@@ -1776,8 +1788,11 @@ mostrará más adelante. Se trata de un derecho que puede ser ejercido
 tanto de forma individual como colectiva y que, en base al derecho a la
 autodeterminación y sus sistemas tradicionales o consuetudinarios de
 
-
 ## 4 Véase «El derecho a la tierra en el marco de la Declaración de las Naciones Unidas
+
+**Definición Canónica:** sobre los Derechos de los Pueblos Indígenas: Un enfoque centrado en los derechos
+humanos», estudio del Mecanismo de Expertos sobre los Derechos de los Pueblos
+Indígenas (A/HRC/45/38), 15 de julio de 2020, disponible en https://bit.ly/3aDNDIo.
 
 sobre los Derechos de los Pueblos Indígenas: Un enfoque centrado en los derechos
 humanos», estudio del Mecanismo de Expertos sobre los Derechos de los Pueblos
@@ -1844,6 +1859,11 @@ Derechos de los Pueblos Indígenas (A/HRC/EMRIP/2019/2/Rev.1), 18 de septiembre
 de 2019, disponible en https://bit.ly/3O42h9p.
 
 ## 7 Véase «Consentimiento libre…» e «Informe provisorio del estudio sobre los
+
+**Definición Canónica:** pueblos indígenas y el derecho a participar en la adopción de decisiones», informe
+del Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas (A/HRC/
+EMRIP/2010/2), 17 de mayo de 2010, disponible en https://bit.ly/3Ppj0Fd.
+**Concordancias Legales:** artículos 6; artículo 6; artículo 19; artículo 10; artículo 11; artículo 28; artículo 29; artículo 32; artículo 6 del Convenio 169; artículo 18 de la DNUDPI también es claro en señalar que; artículo 5
 
 pueblos indígenas y el derecho a participar en la adopción de decisiones», informe
 del Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas (A/HRC/
@@ -1967,13 +1987,12 @@ fue indicado por el exrelator especial Anaya en 2012 (Anaya, 2012b).
 Este acceso debe garantizarse tanto de manera individual como colectiva.12 Otra dimensión enfatizada por los mecanismos especiales sobre
 derechos de los pueblos indígenas es que los Estados deben poner parti-
 
-
-## 10 Véase «Los derechos humanos y las cuestiones indígenas», informe del relator
-
-especial Rodolfo Stavenhagen (E/CN.4/2004/80), 26 de enero de 2004, disponible
-en https://bit.ly/3Iz3VPk.
-
 ## 11 Véase «Acceso a la justicia en la promoción y protección de los derechos de los
+
+**Definición Canónica:** pueblos indígenas», estudio del Mecanismo de Expertos sobre los Derechos de los
+Pueblos Indígenas (A/HRC/24/50, párrafo 6), 30 de julio de 2013, disponible en https://bit.ly/3z4cdLN.
+ 12 Véase «Acceso a la justicia…».
+**Concordancias Legales:** artículo 4 de la DNUDPI; artículo 5; artículo 34; artículo 40; artículo 8; artículo 9; artículo 12; artículo 14; artículo 22; artículo 21; artículos 3
 
 pueblos indígenas», estudio del Mecanismo de Expertos sobre los Derechos de los
 Pueblos Indígenas (A/HRC/24/50, párrafo 6), 30 de julio de 2013, disponible en https://bit.ly/3z4cdLN.
@@ -2042,6 +2061,9 @@ bit.ly/3AztEnd.
 
 ## 14 Véase «Las mujeres indígenas y sus derechos humanos en las Américas» (OEA/
 
+**Definición Canónica:** Ser.L/V/II. Doc. 44/17), CIDH, 17 de abril de 2017, disponible en https://bit.ly/3ACYr2a.
+**Concordancias Legales:** artículos 7; artículo 22 de la Declaración
+
 Ser.L/V/II. Doc. 44/17), CIDH, 17 de abril de 2017, disponible en https://bit.ly/3ACYr2a.
 
 Academia Judicial de Chile                    Pueblos originarios y acceso a la justicia
@@ -2068,14 +2090,24 @@ Humanos
 En el año 2007, Gabriela Blas junto a su hijo D. E. B., de 3 años y 11 meses en ese momento, ambos pertenecientes al pueblo indígena aimara, se
 encontraban realizando labores de pastoreo en la comuna de General La-
 
-
 ## 15 Véase «Proyecto de recomendación general núm. 28 relativa al artículo 2 de
+
+**Definición Canónica:** la Convención sobre la eliminación de todas las formas de discriminación contra
+la mujer», Comité para la Eliminación de la Discriminación contra la Mujer (CEDAW/C/GC/28), 16 de diciembre de 2010, disponible en https://bit.ly/3uHM036.
+ 16 Véase «Acceso a la justicia…».
 
 la Convención sobre la eliminación de todas las formas de discriminación contra
 la mujer», Comité para la Eliminación de la Discriminación contra la Mujer (CEDAW/C/GC/28), 16 de diciembre de 2010, disponible en https://bit.ly/3uHM036.
  16 Véase «Acceso a la justicia…».
 
 ## 17 Véase «Informe definitivo del Estudio sobre los pueblos indígenas y el derecho a
+
+**Definición Canónica:** participar en la adopción de decisiones», informe del Mecanismo de Expertos sobre
+los Derechos de los Pueblos indígenas (A/HRC/18/42), 17 de agosto de 2011, disponible en https://bit.ly/3IyN3YZ.
+ 18 Véase «Papel de los idiomas y la cultura en la promoción y protección de los derechos y la identidad de los pueblos indígenas», estudio del Mecanismo de Expertos
+sobre los Derechos de los Pueblos Indígenas (A/HRC/21/53), 16 de agosto de 2012,
+disponible en https://bit.ly/3AOiY5Y.
+**Concordancias Legales:** artículo 1.1; artículo 2; artículo 5; artículo 7; artículo 8.1; artículo 17; artículo 19; artículo 24; artículo 25; artículo 26; artículos 7
 
 participar en la adopción de decisiones», informe del Mecanismo de Expertos sobre
 los Derechos de los Pueblos indígenas (A/HRC/18/42), 17 de agosto de 2011, disponible en https://bit.ly/3IyN3YZ.
@@ -2109,8 +2141,10 @@ C.B.B. que fue dada en adopción internacional sin su consentimiento.
    Sin embargo, en el año 2015 se dio inicio a un proceso de solución
 amistosa19 entre Gabriela Blas y sus representantes y el Estado, que tras
 
-
 ## 19 Véase «Informe Núm. 138/18, Petición 687-11. Solución Amistosa G.B.B. y
+
+**Definición Canónica:** C.B.B.», CIDH, 21 de noviembre de 2018, disponible en https://bit.ly/3P7NwE0.
+**Concordancias Legales:** artículo 5 inciso 3; constitucion; Constitución; Constitución Política
 
 C.B.B.», CIDH, 21 de noviembre de 2018, disponible en https://bit.ly/3P7NwE0.
 
@@ -2231,13 +2265,12 @@ los tratados de derechos humanos ratificados por Chile respecto de a los
 derechos de los pueblos indígenas que se encuentren vigentes, deben ser
 considerados e incorporados también en la nueva Constitución.22
 
-
-## 21 De hecho, los cinco parlamentarios que se autoidentifican como indígenas, de
-
-un total de ciento noventa y ocho integrantes de ambas Cámaras, fueron electos por
-partidos políticos y no en representación de los pueblos indígenas.
-
 ## 22 Chile ha ratificado todos los tratados internacionales sustanciales suscritos y
+
+**Definición Canónica:** vigentes en el marco de Naciones Unidas, a excepción del Protocolo Facultativo
+del Pacto Internacional de Derechos Económicos Sociales y Culturales (2008). Todos los tratados que han sido ratificados por Chile están disponibles en https://bit.
+ly/3AXMuG6.
+**Concordancias Legales:** Ley 19.253
 
 vigentes en el marco de Naciones Unidas, a excepción del Protocolo Facultativo
 del Pacto Internacional de Derechos Económicos Sociales y Culturales (2008). Todos los tratados que han sido ratificados por Chile están disponibles en https://bit.
@@ -2275,8 +2308,11 @@ poseen estos pueblos, ya sea por regulaciones o traspasos de tierras fiscales ef
 de su propiedad en virtud de otros títulos (Meza-Lopehandía, 2019). La
 ley promueve la ampliación de las tierras para las y los indígenas y sus
 
-
 ## 23 Recientemente (2020) fue aprobada por la Cámara de Diputados el proyecto de
+
+**Definición Canónica:** reforma de la Ley 19.253 para reconocer al pueblo selk’nam como parte de las «etnias» reconocidas por el Estado de Chile, pero aún se encuentra pendiente el trámite
+en el Senado.
+**Concordancias Legales:** artículo 20; artículo 20 de la Ley 19.253 está vinculada al concepto de; Ley 19.253; constitución
 
 reforma de la Ley 19.253 para reconocer al pueblo selk’nam como parte de las «etnias» reconocidas por el Estado de Chile, pero aún se encuentra pendiente el trámite
 en el Senado.
@@ -2296,6 +2332,15 @@ factor productivo y no como un elemento de la cosmovisión indígena.
 La idea que funda al artículo 20 de la Ley 19.253 está vinculada al concepto de «tierra insuficiente» o de «merma territorial» asociada a un
 
 ## título entregado por el Estado; un concepto vagamente definido que se
+
+**Definición Canónica:** relaciona a la insuficiencia productiva o pobreza, más que a una noción
+de reparación de derechos vulnerados por la acción del Estado. De este
+modo, no existe un mecanismo legal de restitución de tierras indígenas,
+especialmente para aquellas tierras ancestrales que no cuentan con un
+título reconocido por el Estado, sino uno de compra de tierras para indígenas.
+   Varias organizaciones y pueblos indígenas han estimado que el reconocimiento otorgado por la Ley Indígena está por debajo de los estándares establecidos tanto en los instrumentos internacionales que le
+son aplicables como en los orde
+**Concordancias Legales:** artículo 8 del DS 66; artículo 16 del DS 66. El DS 66 establece cuáles son las m; Ley 20.249; Ley 21.151
 
 relaciona a la insuficiencia productiva o pobreza, más que a una noción
 de reparación de derechos vulnerados por la acción del Estado. De este
@@ -2377,8 +2422,13 @@ ser consultadas:
 
    Respecto a las medidas legislativas, el DS 66 señala que:
 
-
 ## 26 Tales puntos de inflexión sobre el Convenio motivaron el pronunciamiento del
+
+**Definición Canónica:** Tribunal Constitucional (TC) en dos ocasiones. En abril de 2008, el TC señaló que
+las normas relativas a la consulta indígena (artículo 6, número 1 letra a, y número 2;
+y artículo 7 número 1) eran constitucionales y normas autoejecutables y, por lo tanto,
+debían aplicarse de forma inmediata y directa a la entrada en vigencia del Convenio.
+**Concordancias Legales:** artículo 6; artículo 7; Constitucion
 
 Tribunal Constitucional (TC) en dos ocasiones. En abril de 2008, el TC señaló que
 las normas relativas a la consulta indígena (artículo 6, número 1 letra a, y número 2;
@@ -2386,6 +2436,13 @@ y artículo 7 número 1) eran constitucionales y normas autoejecutables y, por l
 debían aplicarse de forma inmediata y directa a la entrada en vigencia del Convenio.
 
 ## 27 Su artículo 2: «La consulta es un deber de los órganos de la Administración del
+
+**Definición Canónica:** Estado y un derecho de los pueblos indígenas susceptibles de ser afectados directamente por la adopción de medidas legislativas o administrativas, que se materializa
+a través de un procedimiento apropiado, de buena fe, con la finalidad de llegar a un
+acuerdo o lograr el consentimiento acerca de las medidas susceptibles de afectarlos
+directamente y que debe realizarse de conformidad con los principios recogidos en
+el Título II del presente reglamento».
+**Concordancias Legales:** constitucion
 
 Estado y un derecho de los pueblos indígenas susceptibles de ser afectados directamente por la adopción de medidas legislativas o administrativas, que se materializa
 a través de un procedimiento apropiado, de buena fe, con la finalidad de llegar a un
@@ -2399,7 +2456,12 @@ el Título II del presente reglamento».
 
 ## parte de estos cuando sean causa directa de un impacto significativo y
 
-      específico sobre los pueblos indígenas en su calidad de tales, afectando
+**Definición Canónica:** específico sobre los pueblos indígenas en su calidad de tales, afectando
+      el ejercicio de sus tradiciones y costumbres ancestrales, prácticas reli-
+      giosas, culturales o espirituales, o la relación con sus tierras indígenas.
+**Concordancias Legales:** artículo 3; artículo 4; artículo 7; Constitución; constitucion
+
+específico sobre los pueblos indígenas en su calidad de tales, afectando
       el ejercicio de sus tradiciones y costumbres ancestrales, prácticas reli-
       giosas, culturales o espirituales, o la relación con sus tierras indígenas.
 
@@ -2473,8 +2535,14 @@ a las naciones originarias, establecen el derecho a la autodeterminación
 y a una gama amplia de derechos colectivos, que se analizarán en las
 páginas siguientes.
 
-
 ## 28 El Fondo para el Desarrollo de los Pueblos Indígenas de América Latina y El
+
+**Definición Canónica:** Caribe (FILAC) es un organismo internacional de derecho público creado en 1992
+por la II Cumbre Iberoamericana de Jefes de Estado y de Gobierno celebrada en
+Madrid, con el fin de apoyar los procesos de autodesarrollo y promoción de los derechos de los pueblos, comunidades y organizaciones indígenas de América Latina
+y el Caribe, cuyos órganos de gobierno y funcionamiento se basan en relaciones
+paritarias entre Estados y pueblos indígenas.
+**Concordancias Legales:** artículo 8; Artículo 75; Artículo 1; Artículo 2; Artículo 3; Artículo 43; artículo 1 del Convenio 169 sobre Pueblos Indí; artículo 32 de la Constitución Política del Estado; Artículo 231; Artículo 7; Artículo 56; Artículo 83; Artículo 63; Artículo 66; Artículo 346; constitucion; constitución; Constitución Política
 
 Caribe (FILAC) es un organismo internacional de derecho público creado en 1992
 por la II Cumbre Iberoamericana de Jefes de Estado y de Gobierno celebrada en
@@ -2634,6 +2702,17 @@ Honduras        derechos e intereses de las comunidades indígenas existentes en
                 sus propias instituciones sociales, económicas, culturales y políticas, o
 
 ## parte de ellas. […]
+
+**Definición Canónica:** México
+                c) Esta Constitución reconoce a los pueblos y comunidades afromexicanas,
+                cualquiera que sea su autodenominación, como parte de la composición
+                pluricultural de la nación. Tendrán en lo conducente los derechos señalados
+                en los apartados anteriores del presente artículo en los términos que
+                establezcan las leyes, a fin de garantizar su libre determinación, autonomía,
+                desarrollo e inclusión social.
+                Artículo 5: Son principios de la nación nicaragüense: la libertad; la justicia;
+    
+**Concordancias Legales:** Artículo 5; Artículo 8; Artículo 90; Artículo 62; Artículo 140; Artículo 2; Artículo 119; Artículo 126; artículo 135 de la Constitución; Artículo 1; Artículo 13; Artículo 14; Artículo 15; Artículo 18; Artículo 36; Artículo 44; Artículo 55; Artículo 96; Artículo 99; Artículo 108; Artículo 139; Artículo 162; Artículo 190; Artículo 191; Artículo 234; Artículo 235; Artículo 236; Artículo 238; Artículo 252; Artículo 307; Artículo 309; Artículo 322; Artículo 329; Artículo 344; Artículo 383; Ley 20.249; Constitución; constitucion; Constitución Política
 
 México
                 c) Esta Constitución reconoce a los pueblos y comunidades afromexicanas,
@@ -3623,7 +3702,12 @@ en el caso de la población indígena los niveles de pobreza se mantuvieron rela
 
 ## 34            Indígena   No indígena
 
-                      28                   23,4
+**Definición Canónica:** 28                   23,4
+                             24,2
+               20                   21,2
+                                                     18,3
+
+28                   23,4
                              24,2
                20                   21,2
                                                      18,3
@@ -3810,8 +3894,10 @@ cuanto al género. Este se ha instalado en las diversas instituciones y medios d
 en consideración que el lenguaje crea realidad, hay que poner especial
 énfasis en que los términos empleados resulten inclusivos, también en
 
-
 ## 3 Véase «Lenguaje inclusivo en cuanto al género», Organización de las Naciones
+
+**Definición Canónica:** Unidas, julio de 2019, disponible en https://bit.ly/3o5Vqlj.
+**Concordancias Legales:** Ley 20.957; Constitución Política
 
 Unidas, julio de 2019, disponible en https://bit.ly/3o5Vqlj.
 

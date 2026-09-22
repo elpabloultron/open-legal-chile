@@ -13,17 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## Las acciones protectoras1
-
-
-Sumario:
-
-## I.- diversas formas de protección
-
-1.- Medidas generales de protección del dominio.
-2.- Medidas de protección en el Derecho Privado.
-
 ## Ii.- la accion reivindicatoria
+
+**Definición Canónica:** 1.- Concepto.
+2.- Condiciones o requisitos para entablarla.
+3.- Contra quien se puede reivindicar.
+4.- Extinción de la acción reivindicatoria por prescripción.
+5.- Medidas precautorias.
+6.- Prestaciones mutuas.
 
 1.- Concepto.
 2.- Condiciones o requisitos para entablarla.
@@ -32,17 +29,15 @@ Sumario:
 5.- Medidas precautorias.
 6.- Prestaciones mutuas.
 
-## Iii.- de las acciones posesorias
-
-1.- Generalidades.
-2.- Las acciones posesorias en particular.
-Cuestionario.
-
-
 ## I.-       diversas formas de protección
 
+**Definición Canónica:** El dominio y los demás derechos reales necesitan de protección jurídica, cuando
+un tercero pretende vulnerarlos o efectivamente los vulnera. El ordenamiento jurídico
+consulta varios instrumentos de los que el titular dispone para la preservación de su
+derecho.
+**Concordancias Legales:** constitucion; Constitución
 
-       El dominio y los demás derechos reales necesitan de protección jurídica, cuando
+El dominio y los demás derechos reales necesitan de protección jurídica, cuando
 un tercero pretende vulnerarlos o efectivamente los vulnera. El ordenamiento jurídico
 consulta varios instrumentos de los que el titular dispone para la preservación de su
 derecho.
@@ -56,6 +51,9 @@ es la expropiación por causa de utilidad pública (art. 19 N° 24 C.P.R.). En e
 esta garantía, la Constitución otorga a los afectados el recurso de protección (art. 20
 
 ## C.p.r.)
+
+**Definición Canónica:** c)      Los delitos contra la propiedad, cuya tipificación constituye otra forma de
+protección del dominio (art. 432 y ss. del Código Penal).
 
 c)      Los delitos contra la propiedad, cuya tipificación constituye otra forma de
 protección del dominio (art. 432 y ss. del Código Penal).
@@ -91,9 +89,10 @@ camino podrá resultar más expedito para el demandante, pues la prueba del cont
 puede ser menos dificultosa para el perjudicado que la prueba de dominio, necesaria
 para reivindicar.
 
-
 ## Ii.-   la accion reivindicatoria
 
+**Definición Canónica:** 1.-    Regulación y concepto
+**Concordancias Legales:** artículos 904; artículo 898; Artículo 915 del Código Civil; artículo 915; Constitución Política
 
 1.-    Regulación y concepto
 
@@ -503,6 +502,15 @@ restitución de la cosa al injusto detentador, se apliquen en contra de este las
 
 ## Título ‘De la reivindicación’; no todas, lógicamente, sino sólo las que se concilien con la
 
+**Definición Canónica:** acción ejercitada. Por lo general las reglas a las que en el título de la reivindicación se
+refieren a prestaciones por deterioros, frutos y mejoras”.11
+        La tercera teoría, subraya Selman, es el resultado de una interpretación
+armónica con las demás normas del Código Civil. Postula, tal y como lo señala el tenor
+literal del art. 915, que un sujeto que posee a nombre ajeno y retiene indebidamente
+una cosa, puede ser objeto de las reglas del Título XII del Libro II del Código Civil,
+siempre que se restrinja esta noción a lo dispuesto en los arts. 719 inc. 2°, 720 y 721
+**Concordancias Legales:** artículos 901; artículo 908
+
 acción ejercitada. Por lo general las reglas a las que en el título de la reivindicación se
 refieren a prestaciones por deterioros, frutos y mejoras”.11
         La tercera teoría, subraya Selman, es el resultado de una interpretación
@@ -812,9 +820,10 @@ d)     Derecho de retención del poseedor vencido.
       El poseedor tiene un derecho legal de retención, mientras el reivindicante no
 pague o asegure el pago a su satisfacción (art. 914).
 
-
 ## Iii    de las acciones posesorias
 
+**Definición Canónica:** 1.-    Generalidades.
+**Concordancias Legales:** artículo 916
 
 1.-    Generalidades.
 
@@ -950,6 +959,19 @@ d)     Acciones posesorias especiales:       d.1) Reglas comunes.
 complementarse con aquellas contempladas en el Libro III, “De los juicios especiales”,
 
 ## Título IV, “De los Interdictos”, del Código de Procedimiento Civil. Específicamente, en
+
+**Definición Canónica:** los arts. 549 y siguientes.
+        El art. 549 de este último Código, alude a los fines de estas acciones:
+“Los interdictos o juicios posesorios sumarios pueden intentarse:
+1° Para conservar la posesión de bienes raíces o de derechos reales constituidos en
+ellos;
+2° Para recuperar esta misma posesión;
+3° Para obtener el restablecimiento en la posesión o mera tenencia de los mismos
+bienes, cuando dicha posesión o mera tenencia hayan sido violentamente arrebatadas;
+4° Para impedir una obra nueva;
+5° Para impedir que una obra ruinosa o peligrosa cause daño; y
+6° Para hacer efectivas las demás ac
+**Concordancias Legales:** artículos 554; artículos 930; artículos 932; artículo 149 de la Ley General de Urbanismo y Construcciones. ii; artículos 2323; artículo 937
 
 los arts. 549 y siguientes.
         El art. 549 de este último Código, alude a los fines de estas acciones:

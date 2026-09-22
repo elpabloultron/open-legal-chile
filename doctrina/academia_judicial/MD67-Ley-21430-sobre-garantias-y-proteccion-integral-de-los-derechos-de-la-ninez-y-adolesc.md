@@ -13,20 +13,19 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-## 67           Ley 21.430
-
-             sobre garantías
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             y protección
+                  electrónica
+             integral  de
+                  de causas
+             los derechos
+             de la niñez
+             y adolescencia
+**Concordancias Legales:** artículo 7; Ley 21.430
 
-                  Tramitación
+Tramitación
              y protección
                   electrónica
              integral  de
@@ -101,102 +100,10 @@ Materiales Docentes                                                     ﻿
 
 Contenido
 
-
-## 6       Introducción
-
-
-## 6       Antecedentes históricos
-
-
-
-## 15      Capítulo 1
-
-        Antecedentes generales
-
-## 15      Fundamentos
-
-
-## 19      Estructura y características generales
-
-
-## 20      El proceso de reformas legales
-
-
-## 23      El nuevo derecho de la niñez
-
-
-
-## 26      Capítulo 2
-
-        Análisis particular
-
-## 26      Normas generales y principios: Objeto, sujeto
-
-        		      y obligados
-
-## 33      Los principios rectores
-
-
-## 34      Profusión de principios
-
-
-## 36      Principios centrales
-
-
-
-## 46      Capítulo 3
-
-        Derechos y garantías
-
-## 46      Panorámica del catálogo
-
-
-## 50      Derechos civiles y políticos
-
-
-## 52      Derechos económicos, sociales y culturales
-
-
-## 54      Derechos novedosos
-
-
-
-## 56      Capítulo 4
-
-        Protección integral
-
-## 56      Normas de aplicación general
-
-
-## 58      Deberes de la administración del Estado
-
-
-## 61      Oficinas Locales de la Niñez
-
-
-## 67      Procedimiento de protección administrativa
-
-
-## 77      Derivación entre tribunales de familia
-
-        		      y las Oficinas Locales de la Niñez
-
-
-## 81   Capítulo 5
-
-     Sistema de garantías
-
-## 81    Institucionalidad de atención a la niñez
-
-
-## 84    Institucionalidad de monitoreo de derechos humanos
-
-
-## 89    Plan Nacional
-
-
-
 ## 90   Referencias
+
+**Definición Canónica:** Materiales Docentes                                                      Introducción
+**Concordancias Legales:** artículo 1; artículo 20; artículo 17; artículo 14.8; Ley 19.585; Ley 19.620; Constitución
 
 Materiales Docentes                                                      Introducción
 
@@ -389,13 +296,12 @@ una declaración más ambiciosa y específica en la Ley General de Educación, a
    Un caso paradigmático era el del artículo 14.8 Uno de los graves problemas del sistema de protección actual era la carencia de un debido
 proceso, por lo que se pretendía consagrar como un derecho a este debi-
 
-
-## 7 Una versión anterior de este análisis crítico en Francisco Estrada, «La elusiva
-
-protección a los niños», Ciper Chile, 6 de octubre 2015. Disponible en https://bit.
-ly/3YacmHB.
-
 ## 8 Artículo 14: «Debido proceso y especialización. El Estado velará por asegurar
+
+**Definición Canónica:** que todo niño pueda hacer valer en los procedimientos en que interviniere los derechos y garantías que le confieren la Constitución, los tratados internacionales vigentes en Chile y las leyes.
+ Los órganos del Estado propenderán a una efectiva especialización de todos los
+funcionarios cuyas tareas digan relación con la protección de los derechos del niño».
+**Concordancias Legales:** Constitución; constitucion
 
 que todo niño pueda hacer valer en los procedimientos en que interviniere los derechos y garantías que le confieren la Constitución, los tratados internacionales vigentes en Chile y las leyes.
  Los órganos del Estado propenderán a una efectiva especialización de todos los
@@ -432,8 +338,10 @@ un nuevo proyecto; etcétera. Es decir, incluso en relación al proyecto del
 durante la votación del proyecto en la sala de la Cámara, se rechazaron
 los títulos III y IV casi en su totalidad, debido a que el proyecto pretendía crear un sistema de protección administrativa sin recursos asociados ni tampoco se concretaba su aplicación territorial; implicaba una
 
-
 ## 9 Una recopilación de informes que dan cuenta de las crisis en Castillo-Gallardo
+
+**Definición Canónica:** (2022).
+**Concordancias Legales:** artículo 41; artículo 42; artículo 84; artículo 66; artículo 74; constitucion
 
 (2022).
 
@@ -482,8 +390,10 @@ una vez despachado el oficio de ley con fecha 25 de junio de 2021, contando con 
 
 Materiales Docentes                                                           Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Antecedentes generales
+**Concordancias Legales:** artículos 2; artículo 4; artículo 1; artículo 51; artículo 2; artículo 13; artículo 29; artículo 20 de la Ley 20.084; artículo 49.1 de la CDN para entrar en vigencia; artículo 15; Ley 21.430; Ley 21.090; Ley 21.067; Ley 21.527; Ley 21.140; Ley 21.302; Ley 20.084; Ley 16.618; Constitución Política
 
 Antecedentes generales
 
@@ -814,8 +724,11 @@ normas de derecho interno al instrumento internacional».
 artículo 15 —que señala «a) Recoger a los menores en situación irregular con necesidad de asistencia o protección»—, es necesario sostener
 que el derecho de menores pervive en nuestro ordenamiento junto a
 
-
 ## 3 Entró en vigencia el 2 de septiembre de 1990. A enero de 2023, 196 estados la
+
+**Definición Canónica:** han ratificado.
+ 4 Disponible en https://bit.ly/3gS5E5c.
+**Concordancias Legales:** Ley 21.430; Ley 20.370; Ley 20.539; Ley 21.128; Ley 21.120; Ley 20.584; Ley 20.084; Ley 21.527; Ley 21.160; Ley 21.013; Ley 21.057; Ley 16.618; Ley 20.032; Ley 21.302; Ley 20.680; Ley 20.830; Ley 21.334; Ley 21.400
 
 han ratificado.
  4 Disponible en https://bit.ly/3gS5E5c.
@@ -873,8 +786,10 @@ diversos ámbitos de desarrollo» (Estrada, 2022c: 3).
 
 Materiales Docentes                                                          Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Análisis particular
+**Concordancias Legales:** Ley 21.430
 
 Análisis particular
 
@@ -939,14 +854,14 @@ informe de Chile, el Comité de Derechos del Niño, órgano encargado de
 la aplicación del tratado compuesto por dieciocho expertos,1 expresó su
 preocupación sobre este específico punto:
 
-
-## 8. El Comité celebra las diversas medidas legislativas adoptadas para
-
-      promover los derechos del niño y la información de que se ha presentado
-      al parlamento una ley sobre la protección integral de los derechos del
-
-
 ## 1 Dieciocho y no diez, como erradamente afirman Carreta y Barcia (2019). La
+
+**Definición Canónica:** Asamblea General, en su resolución 50/155 del 21 de diciembre de 1995, aprobó la
+enmienda al artículo 43, párrafo dos, de la Convención sobre los Derechos del Niño,
+reemplazando la palabra «diez» por la palabra «dieciocho». La enmienda entró en
+vigor el 18 de noviembre del 2002 tras haber sido aceptada por una mayoría de dos
+tercios de los Estados parte (128 de 191).
+**Concordancias Legales:** artículo 43
 
 Asamblea General, en su resolución 50/155 del 21 de diciembre de 1995, aprobó la
 enmienda al artículo 43, párrafo dos, de la Convención sobre los Derechos del Niño,
@@ -963,17 +878,26 @@ tercios de los Estados parte (128 de 191).
 
 ## 9. Recordando su anterior recomendación (CRC/C/CHL/CO/3, párra-
 
-      fo 8), el Comité recomienda al Estado parte que concluya rápidamente
+**Definición Canónica:** fo 8), el Comité recomienda al Estado parte que concluya rápidamente
+      el proceso de reforma legislativa y promulgue una ley sobre la protec-
+      ción integral de los derechos del niño, con arreglo a la Convención sobre
+      los Derechos del Niño.
+
+fo 8), el Comité recomienda al Estado parte que concluya rápidamente
       el proceso de reforma legislativa y promulgue una ley sobre la protec-
       ción integral de los derechos del niño, con arreglo a la Convención sobre
       los Derechos del Niño.
 
    Y en su informe del 2018 reiteró esta idea al declarar:
 
-
 ## 124. El Comité recomienda que el Estado parte adopte el paradigma de
 
-      protección integral de la Convención, especialmente: a) Aprobando con
+**Definición Canónica:** protección integral de la Convención, especialmente: a) Aprobando con
+      urgencia la ley de protección integral de la infancia y garantizando que
+      ésta sea conforme con la Convención.
+**Concordancias Legales:** artículo 15; artículo 1; artículo 16; artículo 3 de la Ley 21.302 y en el artículo 1 de la Ley 21.05; artículo 26; artículo 2319; artículo 2321 del Código Civil se consagra una presunción de re; artículo 102; artículo 11 de la Ley 21.430; artículo 222 del Código Civil; artículo 4 de la Convención exige que los Estados partes adopt; artículos 16; artículo 4; Ley 16.618; Ley 21.430; Ley 26.061; Ley 17.823; Ley 19.968; Ley 21.302; Ley 21.057; Ley 20.084; Constitución Política
+
+protección integral de la Convención, especialmente: a) Aprobando con
       urgencia la ley de protección integral de la infancia y garantizando que
       ésta sea conforme con la Convención.
 
@@ -1208,8 +1132,10 @@ y en esto seguimos a Alexy (1988: 143 y 144), son «normas que exigen un
 cumplimiento pleno y, en esta medida, pueden siempre ser solo cumplidas o incumplidas. Si una regla es válida, entonces es obligatorio hacer
 precisamente lo que ordena, ni más ni menos».
 
-
 ## 3 El artículo 4 de la Ley 21.302 contempla veinte principios rectores. Un examen de
+
+**Definición Canónica:** estos en Estrada (2021a).
+**Concordancias Legales:** artículo 7 de la Ley 21.430 procura delimitar; Ley 21.430
 
 estos en Estrada (2021a).
 
@@ -1249,8 +1175,10 @@ son la buena fe, la protección del cónyuge más débil y el interés superior
 del niño o niña, principio rector del derecho de familia al que el artículo
 7 de la Ley 21.430 procura delimitar (Estrada, 2022c).
 
-
 ## 4 Barberis hace referencia al libro de G.H. Von Wright, Norm and action. A logical
+
+**Definición Canónica:** enquiry (1963).
+**Concordancias Legales:** artículo 34 de la Ley 21.430 que regula la protección de la hon; artículo 7 de la Ley 21.430 recurre repetidamente a construcci; Ley 21.430
 
 enquiry (1963).
 
@@ -1315,10 +1243,20 @@ del Comité de Derechos del Niño (2013):
 
 ## 7 Dictamen contra Chile por situación de niños y niñas en residencias 1 de junio
 
+**Definición Canónica:** de 2018 y Comité de DN, Dictamen contra Chile por infracción al artículo 3 en relación con los artículos 9 y 23 de la CDN, 16 de junio de 2022.
+ 8 A modo de ejemplo, Corte Suprema, 8 de junio de 2015, rol 27.304.
+**Concordancias Legales:** artículo 3; artículos 9
+
 de 2018 y Comité de DN, Dictamen contra Chile por infracción al artículo 3 en relación con los artículos 9 y 23 de la CDN, 16 de junio de 2022.
  8 A modo de ejemplo, Corte Suprema, 8 de junio de 2015, rol 27.304.
 
 ## 9 Por ejemplo: artículo 3 de la Ley 26.061 (Argentina), artículo 8 del Código de la
+
+**Definición Canónica:** Infancia y la Adolescencia Ley 1.098, 8 de noviembre de 2006 (Colombia), artículo 6
+del Código de la Niñez y la Adolescencia Ley 17.823 (Uruguay) y artículo 8 de la Ley
+de Reforma Parcial de la Ley Orgánica de Protección del Niño y del Adolescente de
+2016 (Venezuela).
+**Concordancias Legales:** artículo 6 del Código de la Niñez y la Adolescencia Ley 17.8; artículo 8 de la Ley de Reforma Parcial de la Ley Orgánica de; artículo 8; artículo 12; artículo 18; artículo 32; artículo 5 de la Convención estipula que tanto la dirección co; artículo 11; artículo 31; artículo 19; artículo 5 de la CDN es claro en ese sentido y resuelve el pun; artículo 41; artículo 5; artículo 15; Ley 1.098; Ley 17.823; Ley 20.609; Ley 21.430; Ley 18.575; Ley 20.084; constitucion; Constitución Política; Constitución
 
 Infancia y la Adolescencia Ley 1.098, 8 de noviembre de 2006 (Colombia), artículo 6
 del Código de la Niñez y la Adolescencia Ley 17.823 (Uruguay) y artículo 8 de la Ley
@@ -1612,8 +1550,10 @@ Disponible en https://bit.ly/3NGqJRo.
 
 Materiales Docentes                                                       Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Derechos y garantías
+**Concordancias Legales:** artículo 56 de la Ley 21.430 se refiere a deberes y responsabil; artículos 23; artículo 768; artículo 28 de la Ley 21.430desaprovecha la ocasión de positivi; artículo 40.1 de la Convención de Derechos del Niño y el carácter; Ley 21.430; Ley 20.084; constitucion
 
 Derechos y garantías
 
@@ -1786,6 +1726,13 @@ la atención respecto al engrosamiento con que se regula el derecho a la
 Apelaciones de Santiago, 23 de noviembre de 2022, rol 104.041-2022.
 
 ## 2 Solo a modo de ejemplo podemos citar Corte Suprema, 4 de junio de 2019, rol
+
+**Definición Canónica:** 32.952-2018, Corte Suprema, 4 de marzo de 2020, rol 2729-2020, Corte Suprema,
+31 de diciembre de 2020, rol 150.431-2020 (disponible en https://bit.ly/3NjkG3H) y
+Corte Suprema, 6 de enero de 2023, rol 12.750-2022.
+ 3 Corte Suprema, 18 de agosto de 2015, rol 124-2015.
+ 4 Corte Suprema, 18 de abril de 2012, rol 2995-2012.
+**Concordancias Legales:** artículo 26; artículo 41.8; artículo 30 de la Ley 21.430 se regula la libertad de pensamien; artículo 7; artículo 38.3; artículos 39; artículos 41; artículo 3; artículos 4; artículo 10; artículo 42; artículo 45; artículos 53; artículo 55; artículo 48; artículos 46; Ley 21.128; Ley 21.430; Ley 20.370; Ley 20.845; Ley 19.688.5; constitucion
 
 32.952-2018, Corte Suprema, 4 de marzo de 2020, rol 2729-2020, Corte Suprema,
 31 de diciembre de 2020, rol 150.431-2020 (disponible en https://bit.ly/3NjkG3H) y
@@ -1966,15 +1913,10 @@ Materiales Docentes                                                          Cap
      lescentes». Se agrega un deber de participación de la niñez en «el
      diseño y la configuración de estos espacios».
 
-
-## 6 Quizá las excepciones son la Ley 19.814, sobre alcoholes, bebidas alcohólicas y la
-
-Ley 20.606, sobre composición nutricional de los alimentos y su publicidad.
-
-Materiales Docentes                                                         Capítulo 4
-
-
 ## Capítulo 4
+
+**Definición Canónica:** Protección integral
+**Concordancias Legales:** artículo 57
 
 Protección integral
 
@@ -2044,7 +1986,16 @@ Materiales Docentes                                                         Cap�
 
 ## 3. Protección especial. Dentro de las acciones de protección de dere-
 
-      chos se desarrollará la protección especial, la que está destinada a niños,
+**Definición Canónica:** chos se desarrollará la protección especial, la que está destinada a niños,
+      niñas y adolescentes que necesitan de servicios y prestaciones que pro-
+      vean una atención diferenciada y especializada, incorporando acciones
+      de reparación psicosocial y restitución de derechos, cuando éstos se han
+      vistos amenazados o vulnerados.
+       La protección especial podrá ser administrativa o judicial, de acuerdo
+      con las funciones y competencias señaladas en la presente ley.
+**Concordancias Legales:** artículo 59; artículo 61; artículo 62; artículo 63; artículo 70 de la Ley 19.968; artículo 3 de la Ley 20.032; artículo 175 del Código Procesal Penal; artículo 175; artículo 64 de la Ley 21.430 desarrolla el necesario deber de r; artículo 247; artículo 231; artículo 64; artículo 57; artículo 65; artículo 66; artículo 72; Ley 19.968; Ley 20.032; Ley 21.430
+
+chos se desarrollará la protección especial, la que está destinada a niños,
       niñas y adolescentes que necesitan de servicios y prestaciones que pro-
       vean una atención diferenciada y especializada, incorporando acciones
       de reparación psicosocial y restitución de derechos, cuando éstos se han
@@ -2237,6 +2188,16 @@ construirá en forma coparticipativa, en base a los procedimientos establecidos 
 
 ## 66. Estos procedimientos deben respetar y resguardar los derechos de
 
+**Definición Canónica:** los niños, niñas y adolescentes, y observar las garantías de un debido
+proceso.
+   Adoptado el acuerdo, la Oficina Local de la Niñez dará inicio a la
+implementación de la o las medidas de protección administrativa, derivando a los niños, niñas y adolescentes y sus familias a los órganos
+competentes, en concordancia con el plan de intervención y el acuerdo, mencionados en el inciso precedente, a fin de que puedan acceder
+a las prestaciones sociales necesarias para el debido resguardo de los
+derechos de los niños, niñas y adolescentes. De esta forma se actúa de
+manera coordinada con dichos órgan
+**Concordancias Legales:** artículo 35; artículos 71; artículos 58; artículo 72; artículos 57; artículos 65; artículos 68; artículo 57; artículo 1; artículo 58; Ley 21.430; Ley 21.302; Ley 21.527
+
 los niños, niñas y adolescentes, y observar las garantías de un debido
 proceso.
    Adoptado el acuerdo, la Oficina Local de la Niñez dará inicio a la
@@ -2402,8 +2363,10 @@ sin distinciones. Así, pareciera que un director de colegio deberá, como
 aplicador de algún procedimiento de resguardo de derechos, respetar
 los veinte principios del Servicio de Protección Especializada y los del
 
-
 ## 1 Adicionalmente, en el artículo 6 letra h) de la Ley 21.302 se habla de «supervisión
+
+**Definición Canónica:** y fiscalización».
+**Concordancias Legales:** artículo 59; artículo 50; artículo 21; artículo 4; artículo 12 de la Convención; artículo 60; artículo 12; artículo 5; Ley 21.430; Constitucion
 
 y fiscalización».
 
@@ -2472,8 +2435,11 @@ de acciones constitucionales de amparo y protección.
    El 18 de enero del 2023 se publicó en el Diario Oficial el reglamento
 de esta acción.4 Lo que el reglamento dispone en su artículo 5 es que
 
-
 ## 4 Decreto número 11, aprueba reglamento que regula el procedimiento de tutela
+
+**Definición Canónica:** administrativa de derechos para garantizar un debido proceso y la efectiva cautela
+de estos, según lo previsto en el artículo 60 de la Ley 21.430.
+**Concordancias Legales:** artículo 60 de la Ley 21.430. la secretaria regional ministeri; artículos 61; artículos 65; artículos 68; Artículo 68; Artículo 69; Artículo 70; Artículo 71; Artículo 72; Artículo 73; Artículo 74; artículo 30 de la Ley de Menores y al artículo 71 de la Ley de; Ley 21.430
 
 administrativa de derechos para garantizar un debido proceso y la efectiva cautela
 de estos, según lo previsto en el artículo 60 de la Ley 21.430.
@@ -2518,21 +2484,12 @@ procedimiento, pero nada de esto se disciplina.
    El artículo 72 desarrolla el procedimiento de protección administrativa (figura 1) y, a través de una confusa redacción, indica que el procedimiento debe cumplir con una serie de requisitos, los que pasa a enunciar
 en 11 numerales.
 
-
-## 1. Inicio del          2. Medidas
-
-
-## 3. Diagnóstico
-
-                procedimiento            cautelares
-
-
-## 6. Control              5. Decisión
-
-
 ## 4. Prueba
 
-               de la ejecución          y derivación
+**Definición Canónica:** de la ejecución          y derivación
+**Concordancias Legales:** artículo 50; artículo 7; artículo 66; artículo 72; artículo 71; artículo 94 de la Ley 19.968; artículo 240; artículo 73; artículo 68; artículo 2 de la Ley 21.302; Ley 21.430; Ley 19.968; Ley 21.302; Ley 16.618; Ley 20.032; constitucion
+
+de la ejecución          y derivación
 
                               Figura 1. Fases del procedimiento.
 
@@ -2735,21 +2692,29 @@ y alta complejidad, de donde se colige que los casos de baja o leve complejidad 
    Luego, el inciso segundo señala varios casos en que resulta obligada la
 derivación desde la sede administrativa a la judicial:
 
-
 ## 1. Si la intervención con la familia en contexto de voluntariedad no
 
-      sea posible conforme al diagnóstico previo realizado, requiriéndose la
+**Definición Canónica:** sea posible conforme al diagnóstico previo realizado, requiriéndose la
       adopción de medidas de protección que afecten sustantivamente los
       derechos de los niños, niñas y adolescentes y sus familias, que son de
       exclusiva competencia de los tribunales de familia.
 
-## 2. Si la intervención […] se ve frustrada durante la etapa de implemen-
-
-      tación y seguimiento por la no adherencia al plan de intervención.
+sea posible conforme al diagnóstico previo realizado, requiriéndose la
+      adopción de medidas de protección que afecten sustantivamente los
+      derechos de los niños, niñas y adolescentes y sus familias, que son de
+      exclusiva competencia de los tribunales de familia.
 
 ## 3. Si la intervención en un caso de protección administrativa universal
 
-      se ve frustrada durante la etapa de implementación y seguimiento por
+**Definición Canónica:** se ve frustrada durante la etapa de implementación y seguimiento por
+      incumplimiento grave o contravenciones reiteradas e injustificadas de
+      las medidas adoptadas por la Oficina Local de la Niñez, por parte de los
+      adultos a cargo de la protección y cuidado del niño, niña o adolescente,
+      y considerando de manera primordial el interés superior del niño, niña
+      o adolescente, se requiere continuar con el procedimiento de protección
+      en sede judicial.
+
+se ve frustrada durante la etapa de implementación y seguimiento por
       incumplimiento grave o contravenciones reiteradas e injustificadas de
       las medidas adoptadas por la Oficina Local de la Niñez, por parte de los
       adultos a cargo de la protección y cuidado del niño, niña o adolescente,
@@ -2759,7 +2724,13 @@ derivación desde la sede administrativa a la judicial:
 
 ## 4. Cuando, además de las causas que dieron origen a la protección
 
-      administrativa, aparezcan nuevos antecedentes de vulneración de de-
+**Definición Canónica:** administrativa, aparezcan nuevos antecedentes de vulneración de de-
+      rechos de igual o mayor entidad que los que dieron inicio a la interven-
+      ción en contexto de protección administrativa y proceda lo establecido
+      en los numerales 1 y 3.
+**Concordancias Legales:** artículo 18
+
+administrativa, aparezcan nuevos antecedentes de vulneración de de-
       rechos de igual o mayor entidad que los que dieron inicio a la interven-
       ción en contexto de protección administrativa y proceda lo establecido
       en los numerales 1 y 3.
@@ -2793,8 +2764,11 @@ padres y a los representantes legales para el desempeño de sus funciones
 en lo que respecta a la crianza del niño». Y con «asistencia apropiada»
 no se entiende la citación a unas sesiones en horario laboral, ni reunio-
 
-
 ## 7 Sobre familias multiproblemáticas este estupendo paper de Gómez, Muñoz y
+
+**Definición Canónica:** Haz (2007). Se advierte que expertos como Sergio Bernales y Camilo Morales consideran que la expresión ha reforzado el estigma del déficit y prefieren la expresión
+«familias multiacontecidas».
+**Concordancias Legales:** artículo 71
 
 Haz (2007). Se advierte que expertos como Sergio Bernales y Camilo Morales consideran que la expresión ha reforzado el estigma del déficit y prefieren la expresión
 «familias multiacontecidas».
@@ -2812,29 +2786,22 @@ diagnosticador. Luego, el numeral suma la circunstancia de afectación
 sustantiva de derechos de los niños y niñas y, al final, incorpora el elemento realmente diferenciador: que dichas medidas sean de competencia exclusiva de los tribunales.
    La siguiente es una síntesis de las reglas de distribución de competencias del artículo 71:
 
-## 1. Imposibilidad de intervención voluntaria con la familia y medidas
-
-       de protección de exclusiva competencia de los tribunales de familia.
-
-## 2. Protección administrativa especial: intervención frustrada por no
-
-       adherencia al plan de intervención.
-
-## 3. Protección administrativa universal: intervención frustrada por
-
-       incumplimiento grave o contravenciones reiteradas e injustifica-
-       das del plan.
-
 ## 4. Nuevos antecedentes de vulneración de derechos de igual o mayor
 
-       entidad que los que dieron inicio a la intervención en contexto de
+**Definición Canónica:** entidad que los que dieron inicio a la intervención en contexto de
+       protección administrativa y proceda lo establecido en numerales
+       1 y 3.
+
+entidad que los que dieron inicio a la intervención en contexto de
        protección administrativa y proceda lo establecido en numerales
        1 y 3.
 
 Materiales Docentes                                                       Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Sistema de garantías
+**Concordancias Legales:** artículo 75; artículo 76; artículo 36; artículo 82; artículo 66; artículo 17; Ley 21.430; Ley 20.530
 
 Sistema de garantías
 
@@ -2932,8 +2899,12 @@ donde se fija que:
        Ejercerán sus funciones, especialmente, cuando para la protección de
       los derechos de los niños, niñas y adolescentes que son sujetos del Servi-
 
-
 ## 1 El 13 de enero de 2023 fue publicado en el Diario Oficial el decreto número 12 que
+
+**Definición Canónica:** aprueba el reglamento que determina la integración y funcionamiento de las mesas
+de articulación interinstitucional de la oferta dirigida a niños, niñas y adolescentes,
+según lo previsto en la letra i) del artículo 66 de la Ley 21.430, sobre garantías y protección integral de los derechos de la niñez y adolescencia.
+**Concordancias Legales:** artículo 66 de la Ley 21.430; artículo 18 bis; artículo 74; artículo 66; artículo 17; artículo 16 de la Ley 20.530 dispone que; artículo 77; artículo 61; artículos 90; artículo 50 de la Ley 20.084; artículos 2; artículo 3; artículo 15; Ley 21.430; Ley 21.302; Ley 20.530; Ley 20.084; Ley 20.405; Ley 21.067
 
 aprueba el reglamento que determina la integración y funcionamiento de las mesas
 de articulación interinstitucional de la oferta dirigida a niños, niñas y adolescentes,
@@ -3054,25 +3025,15 @@ de protección, sea que reciban o no recursos por parte del Estado». Para
 cumplir este deber, la Defensoría (2022) ha definido un proceso basado
 en diversas fuentes de información:
 
-## 1. Visitas a instituciones o centros que tienen bajo su responsabili-
-
-      dad la atención, cuidado, custodia y protección de niños, niñas y
-      adolescentes.
-
-## 2. Misiones de observación que levantan información sobre la situa-
-
-      ción de ejercicio y goce de derechos de niños, niñas y adolescentes
-      amenazados o vulnerados.
-
-## 3. Obtención y sistematización de información primaria y secunda-
-
-      ria en temas de niñez y adolescencia, a través del Observatorio de
-      Derechos de la Defensoría de la Niñez.
-   4. Realización de estudios.
-
 ## 5. Seguimiento de la legislación del Estado referida o vinculada a los
 
-      derechos de los niños, niñas y adolescentes.
+**Definición Canónica:** derechos de los niños, niñas y adolescentes.
+  El informe de la Defensoría de la Niñez (2022) da cuenta de que, en el
+período de investigación, se desarrollaron veinte visitas a residencias de
+protección y dos a centros de privación de libertad.
+**Concordancias Legales:** artículo 78; artículo 79; artículo 80; artículo 13 del Protocolo facultativo de la Convención sobre; Ley 21.154; Ley 21.430; Ley 19.968; Ley N° 21.302; Ley N° 21.430; Constitución Política; Constitucion
+
+derechos de los niños, niñas y adolescentes.
   El informe de la Defensoría de la Niñez (2022) da cuenta de que, en el
 período de investigación, se desarrollaron veinte visitas a residencias de
 protección y dos a centros de privación de libertad.
@@ -3439,7 +3400,19 @@ Juretić, Jerko, Francisca Dussaillant, Gabriela Saieg, María Pía Martin,
 
 ## 4. Centro de Sistemas Públicos, Universidad de Chile para UNICEF
 
-   Chile. Disponible en https://uni.cf/3rPZBnz.
+**Definición Canónica:** Chile. Disponible en https://uni.cf/3rPZBnz.
+Juste, Marián (1996). Bases para una nueva legislación en materia de pro-
+   tección especial a la infancia y adolescencia. UNICEF.
+Lansdown, Gerison (2005). La evolución de las facultades del niño. Uni-
+   cef y Save the Children. Florencia: Instituto de Investigaciones Inno-
+   centi de UNICEF. Disponible en https://bit.ly/3nZCwxr.
+Lathrop, Fabiola (2017). «Cuidado personal y copaternidad: Comenta-
+   rio a la sentencia de la Corte Suprema de Chile de 23 de mayo de 2017
+   (rol número 99.861-16)». Revista de Derecho (Universidad Católica
+   del No
+**Concordancias Legales:** Ley Nº 21.067; Ley 21.430; constitucion; constitución
+
+Chile. Disponible en https://uni.cf/3rPZBnz.
 Juste, Marián (1996). Bases para una nueva legislación en materia de pro-
    tección especial a la infancia y adolescencia. UNICEF.
 Lansdown, Gerison (2005). La evolución de las facultades del niño. Uni-

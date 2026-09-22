@@ -13,12 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## Comentarios acerca de las reformas hechas
-
-
 ## Al código civil y otros cuerpos legales por
 
-                  LA LEY N° 21.400 Y POR LA LEY N° 21.515.
+**Definición Canónica:** LA LEY N° 21.400 Y POR LA LEY N° 21.515.
+**Concordancias Legales:** artículo 6; artículo 113; artículo 112; artículo 1723; Ley N° 21.400; Ley N° 21.515; Ley N° 19.947; Ley N° 20.830; Ley N° 4.808; Ley N° 16.744; Ley N° 21.334; Ley N° 21.120; DFL N° 150
+
+LA LEY N° 21.400 Y POR LA LEY N° 21.515.
 
        La Ley N° 21.400, que “Modifica diversos cuerpos legales para regular, en igualdad
 de condiciones, el matrimonio entre personas del mismo sexo”, se publicó en el Diario Oficial
@@ -227,6 +227,13 @@ en el artículo 1723. / Los que se hayan casado en país extranjero se mirarán 
 separados de bienes, a menos que inscriban su matrimonio en el Registro de la Primera
 
 ## Sección de la Comuna de Santiago, y pacten en ese acto sociedad conyugal o régimen de
+
+**Definición Canónica:** participación en los gananciales, dejándose constancia de ello en dicha inscripción.
+Tratándose de matrimonios entre personas del mismo sexo casadas en país extranjero, sólo
+podrán pactar el régimen de participación en los gananciales”.
+        El nuevo inc. se explica, considerando que los cónyuges del mismo sexo no pueden
+optar por el régimen de sociedad conyugal.
+**Concordancias Legales:** artículo 187; artículos 212; artículos 183; artículo 186; artículo 208; artículo 229; artículo 203; artículo 19; artículo 20 de la Ley de Matrimonio Civil deberá estar suscrita; Artículo 44; Ley N° 19.585; Ley N° 21.400; ley Nº 21.120; Ley Nº 21.400; Ley N° 21.120; Ley N° 21.830; Ley N° 4.808; Ley N° 16.744; Ley N° 21.334; DFL N° 150
 
 participación en los gananciales, dejándose constancia de ello en dicha inscripción.
 Tratándose de matrimonios entre personas del mismo sexo casadas en país extranjero, sólo
@@ -693,6 +700,11 @@ según los casos, se determine en aplicación de las reglas siguientes:
 
 ## 1. En la inscripción de nacimiento del primero de los hijos comunes, los progenitores
 
+**Definición Canónica:** determinarán, de común acuerdo, el orden de transmisión de sus respectivos primeros
+apellidos, que valdrá para todos sus hijos comunes. En caso de no manifestarse acuerdo al
+momento de inscribir al primero de los hijos comunes, se entenderá su voluntad de que el
+orden de los apellidos sea determinado mediante sorteo ante el Oficial del Registro Civil.
+
 determinarán, de común acuerdo, el orden de transmisión de sus respectivos primeros
 apellidos, que valdrá para todos sus hijos comunes. En caso de no manifestarse acuerdo al
 momento de inscribir al primero de los hijos comunes, se entenderá su voluntad de que el
@@ -700,12 +712,26 @@ orden de los apellidos sea determinado mediante sorteo ante el Oficial del Regis
 
 ## 2. En toda inscripción de nacimiento en que al tiempo de la inscripción quede determinada
 
+**Definición Canónica:** la filiación del nacido respecto de ambos progenitores, el oficial del Registro Civil procederá
+según el orden de los apellidos fijado en la inscripción de nacimiento del primero de los hijos
+comunes de dichas personas; y si no tuvieren más hijos comunes, según el orden que se
+determine al practicarse la inscripción, de conformidad a lo dispuesto en la regla precedente.
+
 la filiación del nacido respecto de ambos progenitores, el oficial del Registro Civil procederá
 según el orden de los apellidos fijado en la inscripción de nacimiento del primero de los hijos
 comunes de dichas personas; y si no tuvieren más hijos comunes, según el orden que se
 determine al practicarse la inscripción, de conformidad a lo dispuesto en la regla precedente.
 
 ## 3. En la inscripción de nacimiento de un hijo cuya filiación al tiempo de la inscripción quede
+
+**Definición Canónica:** determinada sólo respecto de uno de los progenitores, se inscribirá al nacido con el respectivo
+primer apellido de dicho progenitor. En este caso, cuando con posterioridad obrare
+determinación de la filiación no determinada al tiempo de la inscripción de nacimiento, si
+hubiere otro u otros hijos comunes de dichos progenitores, se estará al orden de los apellidos
+fijado en la inscripción de nacimiento del primero de sus hijos comunes. Si, por el contrario,
+no hubiere más hijos comunes de dichos progenitores, el primer apellido del progenitor que
+quedó determinado al momento de la inscripción de
+**Concordancias Legales:** artículo 9; artículo 92; artículo 7; artículo 16 de la Ley de Matrimonio Civil; Ley N° 21.120; ley N° 2.128; ley N° 19.947
 
 determinada sólo respecto de uno de los progenitores, se inscribirá al nacido con el respectivo
 primer apellido de dicho progenitor. En este caso, cuando con posterioridad obrare
@@ -819,6 +845,8 @@ la presente ley”.
 
 ## Procedimiento administrativo de rectificación de la inscripción
 
+**Definición Canónica:** RELATIVA AL SEXO Y NOMBRE SOLICITADA POR PERSONA MENOR DE EDAD”.
+
 RELATIVA AL SEXO Y NOMBRE SOLICITADA POR PERSONA MENOR DE EDAD”.
 
 5.- Se derogó el epígrafe del Párrafo 1° del Título IV.
@@ -833,6 +861,14 @@ establecido en el Párrafo 2° del presente Título”.
 
 ## Partida de nacimiento de las personas mayores de catorce y
 
+**Definición Canónica:** MENORES DE DIECIOCHO AÑOS. Las personas mayores de catorce y menores de
+dieciocho años de edad podrán solicitar la rectificación del sexo y nombre con que aparezcan
+individualizadas en su partida de nacimiento para que sea coincidente con su identidad de
+género. Con todo, una vez que alcancen la mayoría de edad, podrán requerir una nueva
+rectificación en conformidad a los procedimientos que correspondan. Los documentos de
+identificación y cualquier otro instrumento público o privado que se emitan una vez llevada
+a cabo la rectificación de que trata esta ley deberán reconocer y respetar el nuev
+
 MENORES DE DIECIOCHO AÑOS. Las personas mayores de catorce y menores de
 dieciocho años de edad podrán solicitar la rectificación del sexo y nombre con que aparezcan
 individualizadas en su partida de nacimiento para que sea coincidente con su identidad de
@@ -845,6 +881,9 @@ nombre del mayor de catorce y menor de dieciocho años”.
 7.- Se reemplazó el epígrafe del Párrafo 2° del Título IV, por el siguiente TÍTULO IV BIS,
 
 ## nuevo: “TÍTULO IV BIS DE LA SOLICITUD DE DISOLUCIÓN DEL VÍNCULO
+
+**Definición Canónica:** MATRIMONIAL”.
+**Concordancias Legales:** Artículo 18; Artículo 19; ley N° 19.968; ley N° 19.947
 
 MATRIMONIAL”.
 
@@ -869,6 +908,15 @@ económica de conformidad a las disposiciones del Párrafo 1° del Capítulo VII
 Matrimonio Civil, contenida en el artículo primero de la ley N° 19.947, y del Párrafo 4° del
 
 ## Título III de la ley N° 19.968. El juez se pronunciará en la sentencia definitiva con el solo
+
+**Definición Canónica:** mérito de la solicitud, procediendo en el mismo acto a declarar la terminación del matrimonio
+en virtud de la causal del numeral 5° del artículo 42 de la Ley de Matrimonio Civil, y regulará
+sus efectos. Asimismo, resolverá cualquier otra materia que se hubiere ventilado en el
+procedimiento. En virtud de la causal de término del matrimonio establecida en el numeral
+5° del artículo 42 de la referida Ley de Matrimonio Civil, los comparecientes se entenderán
+para todos los efectos legales como divorciados. Los efectos personales y patrimoniales
+derivados de la terminación del matrimonio regulados
+**Concordancias Legales:** artículo 42 de la Ley de Matrimonio Civil; artículo 42; artículo 55; Artículo 5; Artículo 46; Ley N° 19.947; Ley N° 16.618; Ley N° 21.120; Ley N° 21.400; ley Nº 19.947; ley Nº 21.120; Ley N° 21.264
 
 mérito de la solicitud, procediendo en el mismo acto a declarar la terminación del matrimonio
 en virtud de la causal del numeral 5° del artículo 42 de la Ley de Matrimonio Civil, y regulará
@@ -1012,6 +1060,8 @@ de los bienes raíces en que tengan parte sus pupilos, sin autorización judicia
 no habrá menester esta autorización para provocar la partición de los bienes en que tenga
 
 ## parte su mujer: le bastará el consentimiento de su mujer, si no estuviere imposibilitada de
+
+**Definición Canónica:** prestarlo, o el de la justicia en subsidio”.
 
 prestarlo, o el de la justicia en subsidio”.
 

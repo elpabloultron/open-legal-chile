@@ -15,6 +15,13 @@ extraccion: pdftotext
 
 ## Teoria del acto juridico1
 
+**Definición Canónica:** Sumario:
+I.- IDEAS GENERALES. 1.- Inserción de los actos jurídicos en las normas jurídicas.
+2.- Origen de la noción de “acto jurídico”. 3.- Los hechos y los actos jurídicos. 4.-
+Concepto de acto jurídico. II.- CLASIFICACION DE LOS ACTOS JURIDICOS. 1.-
+Clasificaciones legales. 2.- Clasificaciones doctrinarias.             III.- ELEMENTOS
+CONSTITUTIVOS DEL ACTO JURIDICO. 1.- Elementos o cosas que son esenciales.
+2.- Elementos o cosas de la naturaleza. 3.- Elementos o cosas accidentales. IV.-
 
 Sumario:
 I.- IDEAS GENERALES. 1.- Inserción de los actos jurídicos en las normas jurídicas.
@@ -25,6 +32,16 @@ CONSTITUTIVOS DEL ACTO JURIDICO. 1.- Elementos o cosas que son esenciales.
 2.- Elementos o cosas de la naturaleza. 3.- Elementos o cosas accidentales. IV.-
 
 ## Requisitos de existencia y de validez de los actos juridicos. 1.-
+
+**Definición Canónica:** Concepto. 2.- Enumeración. 3.- La voluntad. 4.- La capacidad. 5.- El objeto. 6.- La
+causa. 7.- Las formalidades. V.- LOS EFECTOS DE LOS ACTOS JURÍDICOS. 1.-
+Concepto. 2.- Las partes. 3.- Los terceros. VI.- INEFICACIA DE LOS ACTOS
+JURÍDICOS. 1.- Acepciones de la ineficacia jurídica. 2.- Diferencias entre la
+inexistencia y la nulidad. 3.- El Código Civil chileno frente a la inexistencia y la nulidad.
+4.- La nulidad. 5.- Ineficacia jurídica en sentido estricto. VII.- LA
+REPRESENTACIÓN. 1.- Concepto. 2.- Origen histórico de la representación. 3.-
+Naturaleza jurídica de la representación. 4.- La re
+**Concordancias Legales:** artículo 1445 del Código Civil; artículo 1460; artículo 1461; artículo 1 del Código; Constitución
 
 Concepto. 2.- Enumeración. 3.- La voluntad. 4.- La capacidad. 5.- El objeto. 6.- La
 causa. 7.- Las formalidades. V.- LOS EFECTOS DE LOS ACTOS JURÍDICOS. 1.-
@@ -321,6 +338,15 @@ doctrina formula efectivamente el distingo entre los derechos subjetivos, por un
 
 ## parte, y las potestades, por otra parte. El distingo se funda en que el derecho subjetivo
 
+**Definición Canónica:** se ejercita para la satisfacción de un interés propio, mientras que la potestad se
+ejercita para la satisfacción de un interés ajeno.
+        Aunque el distingo es formalmente correcto, no es absoluto, pues en algunos
+casos, las potestades también originan derechos subjetivos. En efecto, se entiende por
+derecho subjetivo “la facultad para actuar o potestad que un particular tiene,
+sancionada por una norma jurídica.”18 Ahora bien, por ejemplo, tratándose del
+reconocimiento de un hijo, se originará la potestad parental sobre su persona y la
+patria potestad sobre sus bienes. Ambas potestades orig
+
 se ejercita para la satisfacción de un interés propio, mientras que la potestad se
 ejercita para la satisfacción de un interés ajeno.
         Aunque el distingo es formalmente correcto, no es absoluto, pues en algunos
@@ -482,7 +508,19 @@ expresiones, cuando alude al “contrato o convención” como el acto por el cu
 
 ## parte se obliga para con otra a dar, hacer o no hacer alguna cosa.20
 
-        Los contratos a su vez, también pueden clasificarse en unilaterales y bilaterales
+**Definición Canónica:** Los contratos a su vez, también pueden clasificarse en unilaterales y bilaterales
+(art. 1439 del Código Civil).
+        El contrato es unilateral cuando una de las partes se obliga para con otra que
+no contrae obligación alguna. El contrato es bilateral cuando las partes contratantes se
+obligan recíprocamente.
+        Como vemos, esta clasificación no atiende al número de voluntades necesarias
+para que se perfeccione o nazca el acto jurídico, sino que, al número de obligados,
+partiendo de la base que ya hay acuerdo de voluntades, o sea, ya existe una
+convención o acto jurídico bilateral.
+     
+**Concordancias Legales:** artículo 2437; artículos 1802; artículo 1877; artículo 1879 del Código Civil. El modo es una carga es; artículo 1445; artículo 1467; Ley N° 21.442; Ley Nº 19.620; Ley Nº 19.451
+
+Los contratos a su vez, también pueden clasificarse en unilaterales y bilaterales
 (art. 1439 del Código Civil).
         El contrato es unilateral cuando una de las partes se obliga para con otra que
 no contrae obligación alguna. El contrato es bilateral cuando las partes contratantes se
@@ -1096,8 +1134,17 @@ suma de dinero; si se pacta que el precio se pagará parte en una suma de dinero
      Vial del Río, Víctor, ob. cit., p. 35.
      Ducci Claro, Carlos, ob. cit., p. 224.
 
-
 ## parte en especies y éstas últimas valen más que el dinero, el contrato será de permuta
+
+**Definición Canónica:** y no de compraventa).
+ii.- En el contrato de comodato: gratuidad (si hay precio, estaremos ante un contrato
+de arrendamiento).
+iii.- En el contrato de sociedad: “animo societario”, obligación de aporte, participación
+en las utilidades y contribución a las pérdidas.
+iv.- En el usufructo, el plazo extintivo.
+v.- En el contrato de transacción: la existencia de un derecho dudoso o discutido y las
+concesiones recíprocas de las partes.
+**Concordancias Legales:** artículo 5; artículo 99 del C. de Comercio; artículo 1453; artículo 1454; artículos 1837; artículos 676; artículo 2216; Ley N° 18.101; Ley Nº 19.496; Ley N° 19.496; constitución
 
 y no de compraventa).
 ii.- En el contrato de comodato: gratuidad (si hay precio, estaremos ante un contrato
@@ -2848,6 +2895,15 @@ que la amenaza (…) la ley [sin embargo] la sanciona sólo como falta en el Art
 
 ## 16. La amenaza, en cambio, requiere el empleo de fuerza moral. En este sentido se
 
+**Definición Canónica:** parece a la intimidación, pero se diferencian en que esta última exige causar temor
+con el anuncio (expreso o tácito) del empleo inminente de violencia o fuerza
+física, en tanto que la amenaza supone el anuncio de otra clase de males o bien el
+empleo de fuerza física, pero no con carácter inmediato, inminente, sino más remoto
+en el tiempo. En suma, la intimidación es una clase especial de coacción o amenaza,
+que consiste en atemorizar con el empleo inminente de violencia o fuerza física. La
+coacción supone el efectivo empleo de esta última, y la amenaza, crear temor con el
+anuncio de otros mal
+
 parece a la intimidación, pero se diferencian en que esta última exige causar temor
 con el anuncio (expreso o tácito) del empleo inminente de violencia o fuerza
 física, en tanto que la amenaza supone el anuncio de otra clase de males o bien el
@@ -2945,8 +3001,13 @@ contratante que se ve beneficiado de ella? No parece necesario, del tenor del ar
 
 ## 1457. Pensamos que, si uno de los contratantes alega y prueba que celebró el contrato
 
+**Definición Canónica:** a consecuencia de las amenazas que sufrió de una persona distinta de su contraparte
+en el contrato, y dicha contraparte sostiene por su parte que el desconocía lo hecho
+por tal tercero (y en el juicio no se puede probar connivencia entre ambos) podría
+igualmente declararse la nulidad del contrato.
+**Concordancias Legales:** artículo 972 del Código Civil; artículo 2317; artículo 1234; artículo 1445 del Código Civil. Hemos señalado que la c; artículos 456; artículo 82; artículos 55; artículos 13; artículo 18 bis; artículo 4; artículos 440; artículo 21; artículos 25; artículo 65; artículo 2319; artículo 324; artículo 16 de la Ley N; artículo 1; artículo 1019; artículo 13 de la Ley de Matrimonio Civil; Ley Nº 18.802; Ley N° 18.600; Ley N° 19.284; Ley N° 20.422; Ley N° 19.968; Ley N° 20.830
 
-a consecuencia de las amenazas que sufrió de una persona distinta de su contraparte
+a consecuencia de las amenazas que sufrió de una persona distinta de su contraparte
 en el contrato, y dicha contraparte sostiene por su parte que el desconocía lo hecho
 por tal tercero (y en el juicio no se puede probar connivencia entre ambos) podría
 igualmente declararse la nulidad del contrato.
@@ -4255,8 +4316,17 @@ i) Art. 251, para administrar y gozar de su peculio profesional o industrial. La
 efecto, permite también que el menor actúe por sí solo, en el caso de ejercer cualquier
 empleo o profesión liberal, industria u oficio.103 En estos casos, los bienes adquiridos
 
-
 ## “Capítulo II. DE LA CAPACIDAD PARA CONTRATAR Y OTRAS NORMAS RELATIVAS A LA PROTECCIÓN DEL
+
+**Definición Canónica:** TRABAJO DE NIÑOS, NIÑAS Y ADOLESCENTES.
+Artículo 13.- Para los efectos de las leyes laborales se entiende por:
+a) Mayor de edad: toda persona que ha cumplido dieciocho años. Estas personas podrán contratar
+libremente la prestación de sus servicios.
+b) Adolescente con edad para trabajar: toda persona que ha cumplido quince años y que sea menor de
+dieciocho años. Estas personas pueden ser contratadas para la prestación de sus servicios, previo
+cumplimiento de los requisitos y condiciones establecidos en este Código.
+c) Adolescente sin edad para trabajar: toda persona que ha cumplido catorce años
+**Concordancias Legales:** Artículo 13; artículo 16; Artículo 14; artículo 150 del Código Civil. En cualquier caso; artículo 251 del Código Civil y será considerado plenamente ca; Artículo 15; artículo 185; Artículo 15 bis; artículo 18 bis; Artículo 18; Artículo 18 ter; artículos 18 bis; artículos 18 ter; artículos 5; artículo 1447; artículo 1445; artículos 1438; artículo 1814; artículo 1462; artículo 1462 del Código Civil. Otra sentencia; artículo 1463; artículo 1059; artículo 1192; artículo 1464; artículo 1810; Ley N° 20.830; Ley N° 19.968; Ley N° 18.695; Ley Nº 19.968; Ley N° 19.620; Ley Nº 18.695; constitución; constitucion; Constitución Política
 
 TRABAJO DE NIÑOS, NIÑAS Y ADOLESCENTES.
 Artículo 13.- Para los efectos de las leyes laborales se entiende por:
@@ -5187,6 +5257,16 @@ tiempo del contrato”. De ello se deduce, a contrario sensu, que ES JURÍDICAME
 
 ## Irrelevante si el tercero tenía o no conocimiento de la prohibición al
 
+**Definición Canónica:** TIEMPO DEL CONTRATO CUANDO SE TRATA DE INMUEBLES. El legislador, en este
+último caso, optó por establecer una regla objetiva, que está por lo demás en perfecta
+armonía con el sistema del Registro Conservatorio de Bienes Raíces.
+        Algo similar se dispone en el art. 453 del mismo Código de Procedimiento Civil,
+esta vez cuando se trata de una cosa embargada en el marco de un procedimiento
+ejecutivo.
+        Se podrá estar o no de acuerdo con la justicia material de estas normas, pero
+siendo claro su sentido, no puede desatenderse su tenor literal, ni aun a pretexto de
+**Concordancias Legales:** artículos 297; artículo 1466; artículo 1682; Artículo 1131; Artículo 1132; Artículo 1133; artículo 1445; artículo 1467; artículo 1552; Ley Nº 19.733
+
 TIEMPO DEL CONTRATO CUANDO SE TRATA DE INMUEBLES. El legislador, en este
 último caso, optó por establecer una regla objetiva, que está por lo demás en perfecta
 armonía con el sistema del Registro Conservatorio de Bienes Raíces.
@@ -5722,6 +5802,18 @@ f) La doctrina anticausalista y la réplica de los causalistas.
 Formuló sus planteamientos en su Tratado elemental de Derecho Civil, publicado en
 
 ## 1899. Postula que la noción de causa es ajena al derecho romano y además falsa e
+
+**Definición Canónica:** inútil. Vial del Río resume los postulados del autor francés en los términos que
+seguidamente se expresan.142
+        Postula Planiol, en primer lugar, que la causa es una noción falsa, cuestión
+que se advierte en cada una de las diversas clases de contrato que distingue Domat.
+Así:
+i.- En los contratos bilaterales, plantea Planiol, Jean Domat olvida que las obligaciones
+que recíprocamente son causa de la otra, nacen simultáneamente, y por ende ninguna
+puede ser causa de la otra (pues por lógica, la causa ha de acaecer antes de su
+efecto).
+ii.- En los contratos reales, Domat no tiene en cuenta
+**Concordancias Legales:** artículo 1467 del Código Civil; artículo 2456; artículo 1560; artículo 2299 del Código Civil. Igual necesidad de causa real c; artículo 1973; artículo 1683 del Código Civil; artículo 1468 del Código Civil; artículo 1687 del Código Civil; artículo 1682 del Código Civil; artículos 1443; Ley Nº 18.092; Ley Nº 18.101; Ley Nº 18.046; Ley Nº 20.190; constitución
 
 inútil. Vial del Río resume los postulados del autor francés en los términos que
 seguidamente se expresan.142
@@ -7237,6 +7329,16 @@ por acto entre vivos (en cuyo caso hablamos de transferencia) o por causa de mue
 
 ## título universal (herencia) o a titulo singular (legado), según el art. 951 del Código
 
+**Definición Canónica:** Civil; mientras que la transferencia o sucesión por acto entre vivos sólo puede ser a
+título singular, por regla general (excepcionalmente, lo será a título universal,
+tratándose de la tradición del derecho real de herencia).
+        En síntesis, quien transmite un derecho en alguna de las situaciones indicadas,
+se denomina causante, y quien lo adquiere causahabiente, siendo estos últimos, para
+considerarlos terceros relativos, los sucesores o cesionarios de las partes. Estos
+reciben el derecho de su causante en las mismas condiciones en que éste lo tenía: el
+derecho pasa del causante al suces
+**Concordancias Legales:** artículo 1445 del Código Civil como necesarios para que una per; artículo 1682; artículos 1056; artículo 2503 del Código Civil; artículo 1707 del Código Civil; artículo 704 del Código Civil; artículo 1469 del Código Civil que; artículos 11; artículo 12 del Código Civil; artículo 1684 del Código Civil; artículo 412 del Código Civil; artículo 1796 del Código Civil; artículo 1466 del Código Civil; artículo 1683; artículo 1683 del Código Civil no se trata de la presunción de; artículo 8; artículos 1683; Ley Nº 18.046; constitución
+
 Civil; mientras que la transferencia o sucesión por acto entre vivos sólo puede ser a
 título singular, por regla general (excepcionalmente, lo será a título universal,
 tratándose de la tradición del derecho real de herencia).
@@ -8299,6 +8401,16 @@ que la ley castiga negando la acción de nulidad es un acto personalísimo; y po
 
 ## parte la representación autoriza al representante para ejecutar actos lícitos a nombre
 
+**Definición Canónica:** del representado; pero no para ejecutar actos ilícitos y violar la ley. La sentencia de la
+Corte Suprema a que nos referimos sienta, por lo tanto, una conclusión inaceptable.
+Esta doctrina no ha sido la que ha predominado en este caso ni tratándose de los
+herederos de las partes”.222
+        La misma opinión sustenta Alessandri Rodríguez, quien se refiere a la misma
+sentencia citada por Claro Solar: “En nuestro sentir, la doctrina de la Corte Suprema
+no se ajusta a la ley; porque el dolo que es lo que la ley castiga en el artículo 1683 es
+un acto personalísimo; no se puede cometer un delito po
+**Concordancias Legales:** artículo 1683
+
 del representado; pero no para ejecutar actos ilícitos y violar la ley. La sentencia de la
 Corte Suprema a que nos referimos sienta, por lo tanto, una conclusión inaceptable.
 Esta doctrina no ha sido la que ha predominado en este caso ni tratándose de los
@@ -8405,6 +8517,15 @@ de Valparaíso, julio de 1899; Corte de Valdivia, mayo de 1910, mayo de 1911, ju
 septiembre de 1920, septiembre de 1927, julio de 1930, octubre de 1934 y octubre de
 
 ## 1938. Se sintetiza esta corriente en los siguientes términos: “Están inhabilitados para
+
+**Definición Canónica:** alegar la nulidad absoluta los herederos del que ejecutó el acto o celebró el contrato
+sabiendo o debiendo saber el vicio que lo invalidaba. Los herederos no podrían invocar
+por una parte el carácter de herederos para demostrar el interés que tienen para pedir
+la declaración de la nulidad absoluta del acto, y desentenderse de ese carácter para
+evitar que les alcance la prohibición que gravita sobre sus antecesores para alegar la
+nulidad. Los herederos representan y continúan la persona del difunto sin solución de
+continuidad alguna; le suceden en todos sus derechos y obligaciones contractuales
+**Concordancias Legales:** artículo 1683 del Código Civil en cuanto prohíbe alegar la nuli; artículo 1683; artículo 1685; artículos 1683; artículo 1683 del Código Civil establece un plazo de saneamient; artículo 2514; artículo 1890; artículos 974; artículo 2329 del Código Civil; artículo 1453; artículo 1454; artículos 1453; artículo 2330; artículo 1455; artículo 1470; artículo 2319; artículo 1688 del Código Civil. Esta última disposición permite; Ley N° 19.499
 
 alegar la nulidad absoluta los herederos del que ejecutó el acto o celebró el contrato
 sabiendo o debiendo saber el vicio que lo invalidaba. Los herederos no podrían invocar
@@ -9444,6 +9565,17 @@ posea, con tal que teniendo en consideración el fin perseguido por las partes d
 considerarse que ellas lo habrían querido si hubiesen conocido la nulidad”. Por su
 
 ## parte, dispone el parágrafo 141 del Código Civil alemán: “Si un negocio jurídico nulo
+
+**Definición Canónica:** satisface los requisitos de otro negocio jurídico, vale el último, si se ha de entender
+que su validez sería deseada con conocimiento de la nulidad”.
+        Lo mismo ocurre en el Código Civil y Comercial argentino: “Artículo 384.-
+Conversión. El acto nulo puede convertirse en otro diferente válido cuyos requisitos
+esenciales satisfaga, si el fin práctico perseguido por las partes permite suponer que
+ellas lo habrían querido si hubiesen previsto la nulidad”.
+        Para que opere la conversión, la doctrina ha señalado que deben concurrir dos
+requisitos, uno objetivo y otro subjetivo:
+i.- Que 
+**Concordancias Legales:** Artículo 384; artículos 747; artículos 1137; artículos 769; artículo 1951 del Código Civil; artículo 1448; artículo 1709; artículo 1796; artículo 83; Ley N° 18.101; Ley Nº 20.720; Ley Nº 19.496; Ley Nº 18.600; Ley Nº 20.422; constitucion
 
 satisface los requisitos de otro negocio jurídico, vale el último, si se ha de entender
 que su validez sería deseada con conocimiento de la nulidad”.
@@ -11161,9 +11293,3 @@ acción de simulación?
 ellas?
 493.- ¿Cómo se define el “fraude a la ley”? Proporcione un ejemplo.
 494.- ¿En qué se diferenciarían la simulación y el fraude a la ley, en opinión de una
-
-## parte de la doctrina?
-
-495.- ¿Qué diferencias menciona Vodanovic entre la simulación y el fraude a la ley?
-
-      ____________________________****_______________________________

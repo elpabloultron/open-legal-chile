@@ -13,17 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## Colección
-
-             Corrupción
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             Sebastián Valenzuela Agüero
 
-                      Tramitación
+Tramitación
              Sebastián Valenzuela Agüero
 
                       electrónica
@@ -96,178 +91,9 @@ Materiales Docentes                                                            �
 
 Contenido
 
-
-## 6       Capítulo 1
-
-        El fenómeno de la corrupción a nivel mundial
-
-## 6       Introducción
-
-
-## 8       Concepto de corrupción
-
-
-## 13      Clasificación de la corrupción
-
-
-## 15      Principales características de la corrupción
-
-
-## 16      Factores que favorecen la corrupción
-
-
-## 22      Efectos de la corrupción
-
-
-## 28      Estrategias contra la corrupción
-
-
-## 32      Estrategias normativas contra la corrupción
-
-
-
-## 56      Capítulo 2
-
-        El fenómeno de la corrupción en Chile
-
-## 56      Introducción
-
-
-## 86      El sistema de justicia penal y la corrupción
-
-
-
-## 109     Capítulo 3
-
-        Estrategias institucionales y normativas
-        contra la corrupción
-
-## 109     Estrategias institucionales
-
-
-## 123     Estrategias normativas
-
-
-
-## 186     Capítulo 4
-
-        La función pública como bien jurídico protegido
-        en los delitos de corrupción
-
-## 186     La importancia de un bien jurídico protegido en los delitos
-
-        		      de corrupción
-
-## 189     La Administración pública como posible bien jurídico tutelado
-
-
-## 191     La función pública como bien jurídico tutelado
-
-
-## 194     Consecuencias y prevenciones de la función pública como bien
-
-        		      jurídico protegido
-
-## 198     Delitos contra la función pública como delitos de infracción
-
-        		      de deber
-
-## 206 Capítulo 5
-
-    Concepto penal de funcionario público
-
-## 206   Consideraciones previas para su delimitación
-
-
-## 211   Concepto penal de funcionario público
-
-
-## 220   Conclusión
-
-
-
-## 222   Capítulo 6
-
-      Autoría y participación en los delitos de corrupción
-
-## 222   Los delitos de corrupción como delitos especiales
-
-
-## 223   La (in)comunicabilidad de la calidad del sujeto activo
-
-
-## 228   Delitos especiales y delitos de infracción de deber
-
-
-## 231   Soluciones normativas en derecho comparado y en Chile
-
-
-
-## 233   Capítulo 7
-
-      Principales delitos contra la Administración pública que
-      afectan la imparcialidad de la función pública
-
-## 233   Explicación preliminar
-
-
-## 234   Cohecho
-
-
-## 239   Cohecho en razón del cargo (artículo 248, inciso primero)
-
-
-## 247   Cohecho por acto propio (artículo 248, inciso segundo)
-
-
-## 250   Cohecho por infracción de deberes (artículo 248 bis)
-
-
-## 253   Cohecho por crímenes o simples delitos (artículo 249)
-
-
-## 255   Cohecho del particular (soborno)
-
-
-## 258   Cohecho a funcionario público extranjero (artículo 251 bis)
-
-
-## 263   Aumento de penas de la Ley 21.121
-
-
-
-## 264   Capítulo 8
-
-      Principales delitos contra la Administración pública que
-      afectan aspectos patrimoniales
-
-## 264   Malversación de caudales públicos
-
-
-## 287   Fraude al fisco (artículo 239)
-
-
-
-## 294   Capítulo 9
-
-      Principales delitos contra la administración
-      de justicia cometidos por funcionarios, abogados
-      y procuradores
-
-## 294   Comentarios generales
-
-
-## 296   Prevaricación judicial
-
-
-
-## 305   Referencias
-
-Academia Judicial de Chile            El fenómeno de la corrupción a nivel mundial
-Materiales Docentes                                                      Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** El fenómeno de la corrupción a nivel mundial
 
 El fenómeno de la corrupción a nivel mundial
 
@@ -312,12 +138,16 @@ Nacional de Ética Pública sobre Probidad y Prevención de la Corrupción (1994
 Interés, el Tráfico de Influencias y la Corrupción (2015). Pese a que estas
 constataron que Chile posee una «impresionante historia de probidad»
 
-
-## 1 Certeramente alude Ferrajoli a un infraestado detrás de ese aparente Estado de
-
-derecho.
-
 ## 2 Esto se ve reflejado en el contexto nacional por la promulgación en 2009 de
+
+**Definición Canónica:** la Ley 20.393, que establece la responsabilidad penal de las personas jurídicas, y
+recientemente en 2018 por la incorporación de los llamados delitos de «corrupción
+entre particulares» en nuestro Código Penal (artículos 287 bis y 287 ter), a través de
+la Ley 21.121.
+ 3 En este sentido, resulta paradigmático el caso de la empresa de energía Enron,
+una de las más grandes compañías de Estados Unidos. En 2001 fue descubierta una
+defraudación en sus estados financieros que arrastraba una deuda de 30.000 millones de dólares, lo que provocó la quiebra más grande en la historia de ese país y afectó a 
+**Concordancias Legales:** artículos 287 bis; Ley 20.393; Ley 21.121
 
 la Ley 20.393, que establece la responsabilidad penal de las personas jurídicas, y
 recientemente en 2018 por la incorporación de los llamados delitos de «corrupción
@@ -354,12 +184,14 @@ se plantea que no es exclusiva, aunque sí en especial, del ámbito público.
 No obstante, la definición con foco en los funcionarios del Estado se refleja en los documentos de organismos internacionales como el Fondo
 Monetario Internacional y el Banco Mundial, y también en las convenciones internacionales contra la corrupción, que si bien no dan un concepto determinado de corrupción, sí explicitan los actos corruptos, con
 
-
-## 5 En ese sentido, la crítica revisión desde 1833 hasta nuestros días en Guzmán
-
-Dalbora (2022).
-
 ## 6 En la 23.ª edición de 2014 se eliminaron las acepciones de «alteración o vicio
+
+**Definición Canónica:** en un libro o escrito» y «vicio o abuso introducido en las cosas no materiales», y se
+agregó «deterioro de valores, usos o costumbres». Se mantuvo la referida a organizaciones, especialmente públicas, y una última, «diarrea, descomposición», que aun
+reconociéndose actualmente en desuso, confirma su connotación negativa. RAE,
+Diccionario de la lengua española, «Corrupción», disponible en https://dle.rae.es/
+corrupción.
+**Concordancias Legales:** artículo 21; artículo 22; artículos 232; artículo 228 de la Ordenanza de Aduanas; Constitución
 
 en un libro o escrito» y «vicio o abuso introducido en las cosas no materiales», y se
 agregó «deterioro de valores, usos o costumbres». Se mantuvo la referida a organizaciones, especialmente públicas, y una última, «diarrea, descomposición», que aun
@@ -395,8 +227,12 @@ por parte de privados cuando actúan en la provisión de servicios públicos o c
 aduanera (artículo 228 de la Ordenanza de Aduanas), dado que se limita el concepto de corrupción a una desviación del interés general. Sin
 embargo, como veremos en este mismo apartado, también puede haber
 
-
 ## 7 Esta concepción también fue seguida por la Comisión Nacional de Ética Pública
+
+**Definición Canónica:** sobre Probidad y Prevención de la Corrupción, de 1994, al señalar que la corrupción
+se daba en aquellos casos en que «un agente público, en el ejercicio de sus funciones
+que le atribuye la legislación vigente, consigue un beneficio privado (que puede ser
+monetario o de otra naturaleza)».
 
 sobre Probidad y Prevención de la Corrupción, de 1994, al señalar que la corrupción
 se daba en aquellos casos en que «un agente público, en el ejercicio de sus funciones
@@ -438,6 +274,9 @@ pública.
 
 ## 9 Puede considerarse una irregularidad administrativa contraria a la probidad el
 
+**Definición Canónica:** que un funcionario público destine parte de su jornada laboral a actividades personales, lo que no necesariamente constituye un ilícito penal.
+**Concordancias Legales:** artículos 21
+
 que un funcionario público destine parte de su jornada laboral a actividades personales, lo que no necesariamente constituye un ilícito penal.
 
    Entonces, para aproximarnos a un concepto jurídicamente relevante de corrupción, y siguiendo lo dicho a propósito de la definición del
@@ -455,13 +294,16 @@ del poder público para obtener beneficios privados» (Rose-Ackerman
 y Palifka, 2016: 32; traducción libre). La excepción, como vimos, viene
 dada por los artículos 21 y 22 de la CNUCC de 2003.
 
-
-## 10 Párrafo introducido, junto con los artículos 287 bis y 287 ter, por la Ley 21.121
-
-de 2018.
- 11 Véase la sección «Clasificación de la corrupción».
-
 ## 12 A modo de ejemplo, y sin perjuicio de que volveremos sobre ello en la sección
+
+**Definición Canónica:** «Convención Interamericana contra la Corrupción», podemos destacar la Convención Interamericana, que identifica las clases de comportamientos que deben ser
+catalogados como «actos de corrupción» en su artículo 6.1: «a) El requerimiento o la
+aceptación, directa o indirectamente, por un funcionario público o una persona que
+ejerza funciones públicas, de cualquier objeto de valor pecuniario u otros beneficios
+como dádivas, favores, promesas o ventajas para sí mismo o para otra persona o
+entidad a cambio de la realización u omisión de cualquier acto en el ejercicio de sus
+funciones públicas; b) el
+**Concordancias Legales:** artículo 6.1; artículo 51; Ley 18.575
 
 «Convención Interamericana contra la Corrupción», podemos destacar la Convención Interamericana, que identifica las clases de comportamientos que deben ser
 catalogados como «actos de corrupción» en su artículo 6.1: «a) El requerimiento o la
@@ -504,13 +346,12 @@ preeminencia del interés general sobre el particular» (Ley 18.575, artículo
 este último. Así también se recoge en nuestra legislación al tipificarse el
 delito de administración fraudulenta, cuando se dispone que se comete
 
-
-## 13 Como correctamente se precisó en diversos tipos penales incorporados por la
-
-Ley 21.121 de 2018 y que veremos más adelante. Ya con anterioridad y en el mismo
-sentido, Garzón Valdés (1996).
-
 ## 14 Por ello no es del todo acertado entenderla como «la obtención de cualquier
+
+**Definición Canónica:** tipo de beneficio, no solo económico, aunque fundamentalmente económico de manera ilegal y aprovechando una posición de poder» (Carbonell, 2013: 4).
+  15 En contra, Artaza Varela (2016: 317), quien señala que, desde la perspectiva relacional, «queda claro que el acto de corrupción requiere tanto de quien otorga una
+ventaja ilícita, como de aquel que actúa en razón de la misma».
+**Concordancias Legales:** artículo 470
 
 tipo de beneficio, no solo económico, aunque fundamentalmente económico de manera ilegal y aprovechando una posición de poder» (Carbonell, 2013: 4).
   15 En contra, Artaza Varela (2016: 317), quien señala que, desde la perspectiva relacional, «queda claro que el acto de corrupción requiere tanto de quien otorga una
@@ -576,6 +417,8 @@ corrupción en forma genérica, sin diferenciar si esta se lleva a cabo en el
 
 ## 19 Artículo 240 numeral 7, artículo 287, artículo 287 ter y artículo 470 numeral 11
 
+**Definición Canónica:** del Código Penal.
+
 del Código Penal.
 
 Academia Judicial de Chile              El fenómeno de la corrupción a nivel mundial
@@ -610,8 +453,10 @@ didácticos, mencionaremos las principales que en la actualidad encontramos en l
    • Heterogenización: Tal como hemos analizado a propósito de los
      elementos necesarios para su definición y los criterios para su cla-
 
-
 ## 20 Patricio Orellana, «Corrupción y probidad: Problema y soluciones», Probidad
+
+**Definición Canónica:** en Chile, 2002, disponible en https://bit.ly/42cXKsj.
+**Concordancias Legales:** Ley 20.900; Ley 20.915; Ley 21.233; constitucion
 
 en Chile, 2002, disponible en https://bit.ly/42cXKsj.
 
@@ -732,8 +577,11 @@ hacia el rápido éxito material, lo que lleva a disminuir la consideración
 de la legitimidad de los medios en desmedro del resultado obtenido, aun
 si dichos medios son ostensiblemente actos corruptos. Incluso, es posi-
 
-
 ## 25 Eso explica la Convención para Combatir el Cohecho a Servidores Públicos
+
+**Definición Canónica:** Extranjeros en Transacciones Comerciales Internacionales de la Organización para
+la Cooperación y el Desarrollo Económico, que fue incorporada en nuestra legislación en 2001 e introdujo el delito de cohecho a funcionario público extranjero. Véase
+la sección «Convención para Combatir el Cohecho de Servidores Públicos Extranjeros en Transacciones Comerciales Internacionales».
 
 Extranjeros en Transacciones Comerciales Internacionales de la Organización para
 la Cooperación y el Desarrollo Económico, que fue incorporada en nuestra legislación en 2001 e introdujo el delito de cohecho a funcionario público extranjero. Véase
@@ -789,8 +637,13 @@ se generan en el sector privado,27 y en especial en aquellos ámbitos en
 que privados asumen funciones públicas, sin que quede claro el estatuto
 aplicable a menos que la propia ley lo señale, lo que es excepcional.28
 
-
 ## 26 En extenso sobre este tema, no solo referido a delitos sobre corrupción, véase
+
+**Definición Canónica:** Kleimann (2010).
+ 27 Paradigmática es la tardía incorporación en nuestro país de los delitos de administración desleal y corrupción entre particulares mediante la Ley 21.121 en 2018.
+ 28 En ese sentido, es destacable el caso en que la Ley 20.393, que Establece la Responsabilidad Penal de las Personas Jurídicas, al señalar, a propósito de las certificadoras de los modelos de prevención de delitos, que «se entenderá que las personas
+naturales que participan en las actividades de certificación realizadas por las entidades señaladas en la letra anterior cumplen una función pública en los términos 
+**Concordancias Legales:** artículo 260 del Código Penal; artículo 4; artículo 2; Ley 21.121; Ley 20.393; Ley 20.032
 
 Kleimann (2010).
  27 Paradigmática es la tardía incorporación en nuestro país de los delitos de administración desleal y corrupción entre particulares mediante la Ley 21.121 en 2018.
@@ -833,6 +686,9 @@ responsabilidad civil que por los mismos hechos pueda corresponderle a la person
 natural que ejecutó los hechos» (artículo 2, numeral 6).
 
 ## 29 Según los autores, en los países donde hay más corrupción el lucro doméstico
+
+**Definición Canónica:** de las empresas, tomando en cuenta las ganancias y activos en los propios países,
+tiende a ser mayor. En un sentido similar, Huber (2009).
 
 de las empresas, tomando en cuenta las ganancias y activos en los propios países,
 tiende a ser mayor. En un sentido similar, Huber (2009).
@@ -885,8 +741,12 @@ procesos que garantizan el acceso igualitario a servicios sociales (Asúa
 Batarrita, 1997). Debido a lo anterior, a continuación profundizaremos
 brevemente en la postura de la Corte Interamericana de Derechos Hu-
 
-
 ## 31 Incluso, está demostrado que cuando los indicadores señalan mayores niveles
+
+**Definición Canónica:** de corrupción, ello se traduce en una mayor prima de riesgo en los mercados de
+deuda, existiendo una fuerte correlación inversa entre las calificaciones emitidas
+por las tres principales agencias de calificación y los principales indicadores de corrupción: los países con peores indicadores tienen una calificación de mayor riesgo
+soberano (Araki y Panizza, 2019).
 
 de corrupción, ello se traduce en una mayor prima de riesgo en los mercados de
 deuda, existiendo una fuerte correlación inversa entre las calificaciones emitidas
@@ -894,6 +754,14 @@ por las tres principales agencias de calificación y los principales indicadores
 soberano (Araki y Panizza, 2019).
 
 ## 32 Oficina de las Naciones Unidas contra las Drogas y el Delito, «Corrupción y
+
+**Definición Canónica:** género», 2019, disponible en https://bit.ly/3MM5yf2. En Chile, se destaca el trabajo
+de Constanza Toro Justiniano, quien si bien analiza los efectos diferenciados de la
+corrupción en hombres y mujeres, cuestiona aquellas conclusiones referidas a que
+la participación política de las mujeres reduciría los niveles de corrupción, fundadas
+en que serían menos susceptibles de incurrir en este tipo de irregularidades. Véase
+Toro Justiniano (2009).
+**Concordancias Legales:** constitucion
 
 género», 2019, disponible en https://bit.ly/3MM5yf2. En Chile, se destaca el trabajo
 de Constanza Toro Justiniano, quien si bien analiza los efectos diferenciados de la
@@ -1134,8 +1002,11 @@ cada país.36
    Finalmente, en el ámbito normativo, el ordenamiento jurídico debe
 establecer una sólida potestad sancionatoria que recurra y a la vez armonice las herramientas que provee tanto el derecho penal como el derecho administrativo sancionador, mediante procedimientos eficientes
 
-
 ## 36 Un ejemplo destacable en esta materia es Transparencia Internacional, una
+
+**Definición Canónica:** organización no gubernamental fundada en 1993 con sede en Berlín y con representación en más de sesenta países, incluido Chile. Dicha organización elabora periódicamente el Índice Mundial de Percepción de la Corrupción y la Conferencia
+Internacional anti Corrupción. Véase https://www.transparency.org/.
+**Concordancias Legales:** Ley 20.371
 
 organización no gubernamental fundada en 1993 con sede en Berlín y con representación en más de sesenta países, incluido Chile. Dicha organización elabora periódicamente el Índice Mundial de Percepción de la Corrupción y la Conferencia
 Internacional anti Corrupción. Véase https://www.transparency.org/.
@@ -1195,8 +1066,12 @@ se refiere específicamente a la materia. Fue adoptada en Caracas el 29 de
 marzo de 1996 con la firma de 21 países y entró en vigor el 3 de junio de
 1997, treinta días después de que un segundo Estado depositara el instrumento de ratificación. En el caso de Chile, se aprobó por el Congreso
 
-
 ## 37 Artículo 6 numeral 2 del Código Orgánico de Tribunales. En dicho numeral ya
+
+**Definición Canónica:** se encontraban incluidos «la malversación de caudales públicos, fraudes y exacciones ilegales, la infidelidad en la custodia de documentos, la violación de secretos, el
+cohecho, cometidos por funcionarios públicos chilenos o por extranjeros al servicio
+de la República».
+**Concordancias Legales:** Constitución
 
 se encontraban incluidos «la malversación de caudales públicos, fraudes y exacciones ilegales, la infidelidad en la custodia de documentos, la violación de secretos, el
 cohecho, cometidos por funcionarios públicos chilenos o por extranjeros al servicio
@@ -1282,8 +1157,13 @@ el denominado Portal Anticorrupción de las Américas,40 el Mecanismo
 incluye las buenas prácticas que los Estados llevan adelante para implementar las disposiciones de la Convención Interamericana contra la
 Corrupción de manera efectiva.41
 
-
 ## 39 El 4 de junio de 2001, en el marco de la Asamblea General de la OEA celebrada
+
+**Definición Canónica:** en San José de Costa Rica, se adoptó el Mecanismo de Seguimiento de la Implementación de la Convención Interamericana contra la Corrupción (MESICIC), en
+los términos previstos en el «Documento de Buenos Aires sobre el Mecanismo de
+Seguimiento de la Implementación de la Convención Interamericana contra la Corrupción», el cual comenzó a operar en enero de 2002.
+ 40 Veáse Portal Anticorrupción de las Américas, disponible en https://bit.ly/3C86mG8.
+ 41 Las guías legislativas disponibles son: conflicto de intereses, recursos públicos, obligación de denunciar, declaración de activos, órganos de cont
 
 en San José de Costa Rica, se adoptó el Mecanismo de Seguimiento de la Implementación de la Convención Interamericana contra la Corrupción (MESICIC), en
 los términos previstos en el «Documento de Buenos Aires sobre el Mecanismo de
@@ -1315,11 +1195,23 @@ y representantes del MESICIC», disponible en https://bit.ly/3qon4yn.
 
 ## 43 Las materias objeto de las recomendaciones tienen distintos fundamentos. Si
 
+**Definición Canónica:** bien la mayoría obedece a recomendaciones que provienen de evaluaciones anteriores, especialmente respecto de la tercera ronda (de 2010), otras se deben a que
+fueron especialmente seleccionadas para esta ronda. Tal es el caso de la aplicación
+del artículo XVI, que, como ya señalamos, se refiere al secreto bancario.
+
 bien la mayoría obedece a recomendaciones que provienen de evaluaciones anteriores, especialmente respecto de la tercera ronda (de 2010), otras se deben a que
 fueron especialmente seleccionadas para esta ronda. Tal es el caso de la aplicación
 del artículo XVI, que, como ya señalamos, se refiere al secreto bancario.
 
 ## 44 Entre ellos, los artículos 30 y 31 de la Ley sobre Impuesto a la Renta, contenida en
+
+**Definición Canónica:** el artículo 1 del Decreto Ley 824 de 1974. En particular, en el artículo 31 se consagran
+determinadas deducciones especiales, entre ellas «los sueldos, salarios y otras remuneraciones pagadas o adeudadas por la prestación de servicios personales, incluso
+las gratificaciones legales y contractuales, y asimismo, toda cantidad por concepto
+de gastos de representación», «las donaciones efectuadas cuyo único fin sea la realización de programas de instrucción básica o media gratuitas, técnica, profesional o
+universitaria en el país, ya sean privados o fiscales, solo en cuanto no excedan del 2%
+de la
+**Concordancias Legales:** artículo 1 del Decreto Ley 824 de 1974. En particular; artículo 31; artículo 6; artículos 60; Ley 20.322; Ley 20.406; Ley 21.210
 
 el artículo 1 del Decreto Ley 824 de 1974. En particular, en el artículo 31 se consagran
 determinadas deducciones especiales, entre ellas «los sueldos, salarios y otras remuneraciones pagadas o adeudadas por la prestación de servicios personales, incluso
@@ -1350,6 +1242,14 @@ y otras medidas de coordinación interinstitucional,49 el informe de 2022
 
 ## 46 Entre ellas destacan las siguientes del Servicio de Impuestos Internos (SII): i)
 
+**Definición Canónica:** Instrucciones sobre modificaciones introducidas al artículo 21 y 31 de la Ley sobre
+Impuesto a la Renta por los números 11 y 13 del artículo segundo de la Ley 21.210,
+publicado en el Diario Oficial del 24 de febrero de 2020; ii) Oficio 2.750, del 13 de octubre de 2021, sobre la improcedencia de crédito fiscal (impuesto al valor agregado o
+IVA) soportado en el pago de primas de seguros de vida y complementarios de salud
+contratados por empresa en beneficio de sus trabajadores, por no guardar relación
+directa con la actividad de la empresa; iii) Oficio 671, del 1 de marzo de 2022, relacionado co
+**Concordancias Legales:** artículo 21; artículo 8 de la Convención referida y ratificar como criterio; Ley 21.210
+
 Instrucciones sobre modificaciones introducidas al artículo 21 y 31 de la Ley sobre
 Impuesto a la Renta por los números 11 y 13 del artículo segundo de la Ley 21.210,
 publicado en el Diario Oficial del 24 de febrero de 2020; ii) Oficio 2.750, del 13 de octubre de 2021, sobre la improcedencia de crédito fiscal (impuesto al valor agregado o
@@ -1372,13 +1272,10 @@ relacionadas al lavado de activos, delitos funcionarios y financiamiento del ter
 como criterio de este Servicio la improcedencia de considerar gastos necesarios para
 producir la renta las dádivas de cohecho o soborno que puedan otorgarse a un funcionario nacional o extranjero».
 
-## 48 OEA MESICIC, «Informe final: República de Chile», SG/MESICIC/doc.618/22
-
-Rev.4, 15 de septiembre de 2022, recomendación 1.4.2 (p. 25), en relación con el
-párrafo 75 de la sección 1.2 del capítulo II del Informe, disponible en https://bit.
-ly/3OOGNl1.
-
 ## 49 Por ejemplo, se destaca el hecho de que desde 2020 se coordina el trabajo
+
+**Definición Canónica:** interinstitucional entre el Servicio de Impuestos Internos y el Ministerio Público
+**Concordancias Legales:** artículo 34 del Código Tributario contiene una excepción al s; artículo 241 bis del Código Penal en virtud de la Ley 21.121 de 20; Ley 21.121
 
 interinstitucional entre el Servicio de Impuestos Internos y el Ministerio Público
 
@@ -1435,8 +1332,15 @@ denuncias relacionadas con conductas que podrían constituir casos de
 soborno transnacional, e identificar también las causas por las cuales no
 se está detectando con mayor frecuencia este delito.54
 
-
 ## 52 OEA MESICIC, «Informe final», 28. Respecto de esta materia, cabe destacar
+
+**Definición Canónica:** que el Estado de Chile también argumentó la existencia del proyecto de reforma
+tributaria (Boletín 15.170-05), que incluye por primera vez en el Código Tributario la
+figura del «denunciante anónimo tributario», y se agrega un nuevo artículo a dicho
+Código (artículo 100 ter), que permite que se pueda acceder a beneficios a cambio
+de información que ayude a desbaratar operaciones contrarias a la normativa tributaria. De acuerdo con el proyecto de ley, «si, producto de la información proporcionada, se impusiere judicialmente al imputado o infractor la obligación de pagar un
+monto de dinero no inf
+**Concordancias Legales:** artículo 100 ter
 
 que el Estado de Chile también argumentó la existencia del proyecto de reforma
 tributaria (Boletín 15.170-05), que incluye por primera vez en el Código Tributario la
@@ -1453,6 +1357,8 @@ de 100 unidades tributarias anuales».
 
 ## 54 En lo que aparece de manera transversal a lo largo del informe, pero aquí re-
 
+**Definición Canónica:** Enriquecimiento ilícito
+**Concordancias Legales:** Artículo 1 de la Ley sobre Cuentas Corrientes y Cheques; Artículos 62; Artículo 2 de la Ley 19.913; Artículo 5; Ley 19.913; Ley 3.538; DFL 707; constitucion
 
 Enriquecimiento ilícito
 
@@ -1587,6 +1493,11 @@ Marino, Somalia, Surinam y Siria.
 
 ## 61 Fue a propósito de las tratativas para la elaboración de la Convención de las
 
+**Definición Canónica:** Naciones Unidas contra la Delincuencia Organizada Transnacional, en que se decidió desarrollar un instrumento jurídico internacional específico para la corrupción,
+pues originalmente se contemplaría en dicha Convención abordar la corrupción en
+relación con el crimen organizado y la participación de funcionarios públicos. Dicha Convención fue aprobada por la Asamblea General el 15 de noviembre de 2000.
+**Concordancias Legales:** artículo 13; artículo 12; artículo 21; artículo 22; artículo 26
+
 Naciones Unidas contra la Delincuencia Organizada Transnacional, en que se decidió desarrollar un instrumento jurídico internacional específico para la corrupción,
 pues originalmente se contemplaría en dicha Convención abordar la corrupción en
 relación con el crimen organizado y la participación de funcionarios públicos. Dicha Convención fue aprobada por la Asamblea General el 15 de noviembre de 2000.
@@ -1611,8 +1522,16 @@ malversación o peculado en el sector privado (artículo 22).63
 extiende a la responsabilidad de las personas jurídicas (artículo 26), ya
 que los Estados deben adoptar las medidas necesarias para establecer la
 
-
 ## 62 Entre las medidas que se señalan se encuentran: la elaboración de códigos
+
+**Definición Canónica:** de conducta, mecanismos para la identificación de personas jurídicas y naturales involucradas en el establecimiento y la gestión de empresas, la imposición de
+restricciones apropiadas y por tiempo razonable a las actividades profesionales de
+exfuncionarios públicos o a la contratación de funcionarios públicos en el sector
+privado tras su renuncia o jubilación cuando esas actividades o esa contratación estén directamente relacionadas con las funciones desempeñadas o supervisadas por
+esos funcionarios públicos durante su permanencia en el cargo, entre otros (artículo
+12 CNUCC).
+  63 Estas normas
+**Concordancias Legales:** artículo 12; artículos 287 bis; artículo 470; artículo 26; artículo 11; artículo 15; artículo 16.1; artículo 17; artículo 23; artículo 25; artículos 27.1; artículo 16.2; artículo 18; artículo 19; artículo 20; artículo 24; artículo 21; artículo 22; artículo 30; artículo 32; artículo 33; artículo 63; Constitución
 
 de conducta, mecanismos para la identificación de personas jurídicas y naturales involucradas en el establecimiento y la gestión de empresas, la imposición de
 restricciones apropiadas y por tiempo razonable a las actividades profesionales de
@@ -1706,8 +1625,13 @@ enero de 2002.66
    Al tratarse de una materia tan específica, como su nombre lo indica,
 la existencia de divergencias entre los ordenamientos jurídicos de los
 
-
 ## 65 El primer ciclo de revisión de Chile, por parte de El Salvador y Ucrania, fue
+
+**Definición Canónica:** realizado entre 2010 y 2011, y consideró el análisis de los capítulos 3 (penalización y
+aplicación de la ley) y 4 (cooperación internacional). El segundo ciclo de revisión,
+que corresponde a Jamaica y Uzbekistán, cubre los capítulos 2 (medidas preventivas) y 5 (recuperación de activos). Este proceso se inició en enero de 2020, cuando el
+Ministerio de Relaciones Exteriores remitió a la UNODC el Cuestionario de Autoevaluación, documento que sirve como base para el proceso de examen. Posteriormente, en marzo de 2020 se celebró la primera teleconferencia con los países examinadores y la UNODC para
+**Concordancias Legales:** artículo 1.1
 
 realizado entre 2010 y 2011, y consideró el análisis de los capítulos 3 (penalización y
 aplicación de la ley) y 4 (cooperación internacional). El segundo ciclo de revisión,
@@ -1736,8 +1660,13 @@ que ofrece o promete un soborno a un funcionario público—, sin ocuparse del c
 público que solicita o acepta el soborno.69 Por lo tanto, queda relegado
 a cada Estado, en representación del cual se desempeña el servidor público, la decisión tanto sobre la tipificación misma como sobre la forma
 
-
 ## 67 En efecto, los Comentarios sobre la Convención para Combatir el Cohecho
+
+**Definición Canónica:** de Servidores Públicos Extranjeros en Transacciones Comerciales Internacionales
+establecen en su apartado 2: «Esta Convención busca garantizar una equivalencia
+funcional entre las medidas tomadas por las partes para sancionar el cohecho de
+servidores públicos extranjeros, sin exigir uniformidad ni cambios en los principios
+fundamentales del régimen jurídico de una parte».
 
 de Servidores Públicos Extranjeros en Transacciones Comerciales Internacionales
 establecen en su apartado 2: «Esta Convención busca garantizar una equivalencia
@@ -1746,6 +1675,14 @@ servidores públicos extranjeros, sin exigir uniformidad ni cambios en los princ
 fundamentales del régimen jurídico de una parte».
 
 ## 68 La adopción de un texto con carácter vinculante por parte de la Conferencia
+
+**Definición Canónica:** Negociadora, que fue el grupo de la OCDE encargado de preparar el texto de la Convención, no fue tarea fácil por lo señalado aquí. Sin embargo, para no entorpecer la
+firma de un acuerdo, se decidió que algunas cuestiones referentes al Convenio se
+explicaran en unos Comentarios, un documento separado del mismo adoptado por
+la Conferencia Negociadora. Su naturaleza jurídica es controvertida, pues no forman
+parte del Convenio, no tienen carácter vinculante y no son objeto de firma o ratificación por los Estados que suscriban el Convenio. Por lo anterior, se ha señalado que
+ofrecen un «elemento si
+**Concordancias Legales:** artículo 1.4
 
 Negociadora, que fue el grupo de la OCDE encargado de preparar el texto de la Convención, no fue tarea fácil por lo señalado aquí. Sin embargo, para no entorpecer la
 firma de un acuerdo, se decidió que algunas cuestiones referentes al Convenio se
@@ -1780,8 +1717,17 @@ o representante de un organismo público internacional» (artículo 1.4
 [a]). Se trata de una definición relativamente amplia y funcional, que se
 expande aún más si se consideran las definiciones que los Comentarios
 
-
 ## 70 Decimos eventualmente porque bien puede el particular ofrecer un beneficio
+
+**Definición Canónica:** indebido y ser rechazado por el servidor público.
+ 71 «Sin embargo, no es un delito si la ventaja fuera permitida o requerida por un
+reglamento o ley escrita del país del servidor público extranjero, incluido el derecho
+jurisprudencial».
+ 72 «También es un delito, independientemente de, inter alia, el valor de la ventaja,
+sus resultados, las ideas de la costumbre local, la tolerancia de esos pagos por parte
+de las autoridades locales, o la supuesta necesidad del pago para obtener o quedarse
+con negocios o con otra ventaja indebida» (comentario 7).
+**Concordancias Legales:** artículo 1.4
 
 indebido y ser rechazado por el servidor público.
  71 «Sin embargo, no es un delito si la ventaja fuera permitida o requerida por un
@@ -1811,13 +1757,13 @@ orientado a conseguir o conservar un contrato u otro beneficio irregular
 en la realización de actividades económicas internacionales. Dada esta
 ilícita finalidad, según el Convenio, no constituyen delito los denominados pagos de facilitación, es decir, aquellos que se realizan para agilizar
 
-
-## 73 Función pública incluye cualquier actividad de interés público, delegada por
-
-un país extranjero; por ejemplo, el cumplimiento de una tarea delegada por este en
-relación con adquisiciones públicas (comentario 12).
-
 ## 74 Una empresa pública es cualquier empresa, independientemente de su figura
+
+**Definición Canónica:** legal, sobre la cual un gobierno o gobiernos puedan directa o indirectamente ejercer
+una influencia dominante. Este se considera debe ser el caso, entre otros, cuando el o
+los gobiernos son los tenedores de la mayor parte del capital suscrito de la empresa,
+controlan la mayoría de los votos suscritos a las acciones emitidas por la empresa o
+pueden nombrar a la mayoría de los miembros del consejo de supervisión, del órgano administrativo o directivo de la empresa. (comentario 14).
 
 legal, sobre la cual un gobierno o gobiernos puedan directa o indirectamente ejercer
 una influencia dominante. Este se considera debe ser el caso, entre otros, cuando el o
@@ -1826,6 +1772,12 @@ controlan la mayoría de los votos suscritos a las acciones emitidas por la empr
 pueden nombrar a la mayoría de los miembros del consejo de supervisión, del órgano administrativo o directivo de la empresa. (comentario 14).
 
 ## 75 Organismo público internacional incluye a cualquier organismo internacional
+
+**Definición Canónica:** constituido por Estados, gobiernos y por otros organismos públicos internacionales,
+cualquiera que sea el tipo de organización y el ámbito de competencia; incluido, por
+ejemplo, un organismo de integración económica regional como las Comunidades
+Europeas (comentario 17).
+**Concordancias Legales:** artículo 1; artículo 2 del Convenio; artículo 3.2; artículo 3.1; artículo 3.3; artículo 2 de la Convención OCDE; artículo 4.1; artículo 7; artículo 8.1; artículo 9.1; artículo 9.3; artículo 10; artículo 10.2; artículo 10.3; artículo 12; Ley 21.121
 
 constituido por Estados, gobiernos y por otros organismos públicos internacionales,
 cualquiera que sea el tipo de organización y el ámbito de competencia; incluido, por
@@ -1922,8 +1874,13 @@ de la Fase 4, en que concluyó que Chile implementó completamente 2
 recomendaciones, implementó parcialmente 18 recomendaciones y no
 implementó 28 recomendaciones. Entre las principales recomendacio-
 
-
 ## 79 La Fase 3 culminó con la evaluación de nuestro país en octubre de 2017, en
+
+**Definición Canónica:** París. En dicha oportunidad el, WGB decidió que Chile avanzara a la Fase 4 de evaluación. Además, se emitió una nota de prensa sobre la situación de nuestro país, la
+cual hizo hincapié en los avances del entonces proyecto de ley que «modifica el Código Penal en lo relativo a los delitos de cohecho y soborno, aumentando las penas,
+tipifica los delitos de soborno entre particulares y de administración desleal; y la Ley
+20.393», actual Ley 21.121.
+**Concordancias Legales:** artículo 8.1 de la Convención; Ley 20.393; Ley 21.121
 
 París. En dicha oportunidad el, WGB decidió que Chile avanzara a la Fase 4 de evaluación. Además, se emitió una nota de prensa sobre la situación de nuestro país, la
 cual hizo hincapié en los avances del entonces proyecto de ley que «modifica el Código Penal en lo relativo a los delitos de cohecho y soborno, aumentando las penas,
@@ -1964,8 +1921,9 @@ señalar las siguientes:
 su objeto, con el fin de corromper a agentes públicos de otros Estados o de ocultar
 tal corrupción.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** El fenómeno de la corrupción en Chile
 
 El fenómeno de la corrupción en Chile
 
@@ -1995,24 +1953,30 @@ pública en Chile en comparación con otros países de la región:
 
 ## 1. La crudeza y larga duración de la guerra contra el pueblo mapuche
 
-      en el sur, lo cual transformó a Chile en un lugar donde se concen-
+**Definición Canónica:** en el sur, lo cual transformó a Chile en un lugar donde se concen-
       traban militares españoles en busca de gloria y no riqueza y donde
       un cierto nivel de precariedad marcó parte importante de la histo-
       ria del país.
 
-## 2. La relativa pobreza y aislamiento geográfico que prefiguraron una
-
-      nación exenta y libre de la «maldición de los recursos naturales»,
-      al menos hasta la guerra del Pacífico (1879-1884).
-
-## 3. Las características propias de la aristocracia castellano-vasca que
-
-      ejerció el poder y la preeminencia social que trajo al país un cierto
-      sentido del esfuerzo y la austeridad.
+en el sur, lo cual transformó a Chile en un lugar donde se concen-
+      traban militares españoles en busca de gloria y no riqueza y donde
+      un cierto nivel de precariedad marcó parte importante de la histo-
+      ria del país.
 
 ## 4. Finalmente, un fuerte sentido patriótico que ha caracterizado a
 
-      los chilenos y cuyo orgullo incluye la forma de actuar proba y co-
+**Definición Canónica:** los chilenos y cuyo orgullo incluye la forma de actuar proba y co-
+      rrecta.
+   Por otro lado, como segunda conclusión, existe un estancamiento de
+la percepción y el control de la corrupción durante los últimos años,
+pues si bien el país presenta buenos indicadores a nivel comparado, al
+observar las series de tiempo de las principales mediciones es posible
+identificar que Chile no ha logrado mejorar sus puntuaciones durante
+los últimos años.
+   Ahora bien, la singularidad de Chile no se explicaría porque esté
+completamente exento de corrupción o porque sus instituciones democráticas se ate
+
+los chilenos y cuyo orgullo incluye la forma de actuar proba y co-
       rrecta.
    Por otro lado, como segunda conclusión, existe un estancamiento de
 la percepción y el control de la corrupción durante los últimos años,
@@ -2027,8 +1991,11 @@ demanda de distintos sectores de la sociedad por proponer reformas
 institucionales que atenúen el riesgo de que vuelvan a repetirse y mejorar los mecanismos de persecución y sanción de los responsables.3 Esto
 es lo que se observa a la luz de nuestra historia reciente.
 
-
 ## 3 Un interesante relato sobre la forma de enfrentar el fenómeno de la corrupción
+
+**Definición Canónica:** por parte de la clase política en aquellos años, y con una adecuada contextualización
+de los casos, se encuentra en Del Solar (2021). Lo señalado a continuación se basa
+principalmente en dicho texto.
 
 por parte de la clase política en aquellos años, y con una adecuada contextualización
 de los casos, se encuentra en Del Solar (2021). Lo señalado a continuación se basa
@@ -2055,10 +2022,19 @@ Hospital Militar, Dirección de Previsión de Carabineros, Oficina Nacional del 
 
 ## 5 Este caso que afectó a la Empresa Nacional de Petróleo (ENAP) consistió en
 
+**Definición Canónica:** un contrato para desmalezar el recinto de la Refinería de Petróleos de Concón de
+ENAP, con un sobreprecio considerable. Dicha diferencia de precio habría permitido financiar una campaña senatorial de quien era el ministro de Minería del gobierno de Patricio Aylwin y quien había perdido la elección senatorial de 1989.
+
 un contrato para desmalezar el recinto de la Refinería de Petróleos de Concón de
 ENAP, con un sobreprecio considerable. Dicha diferencia de precio habría permitido financiar una campaña senatorial de quien era el ministro de Minería del gobierno de Patricio Aylwin y quien había perdido la elección senatorial de 1989.
 
 ## 6 Se trata del caso con mayor impacto mediático y político para la época, que
+
+**Definición Canónica:** podría haber conducido a la privatización de Codelco. Consistió en el manejo fraudulento de la política de ventas a futuro del cobre producido por la empresa estatal,
+la mayor productora mundial. En este caso, un operador de ventas a futuro llamado
+Juan Pablo Dávila provocó millonarias pérdidas a la empresa, a costa de su enriquecimiento personal. Así el caso fue conocido como el «Davilazo», en el cual una
+investigación penal terminó con una condena por fraude al fisco y siete años de cárcel más otros tres años de reclusión nocturna. A lo anterior cabría agregar los casos
+que durante esta époc
 
 podría haber conducido a la privatización de Codelco. Consistió en el manejo fraudulento de la política de ventas a futuro del cobre producido por la empresa estatal,
 la mayor productora mundial. En este caso, un operador de ventas a futuro llamado
@@ -2085,8 +2061,15 @@ recomendaciones no pudieron ser materializadas antes de que nuevos
 casos de corrupción generaran escándalo público y motivaran la creación de nuevas comisiones de expertos para sugerir medidas preventivas. Así, muchas medidas fueron reiteradas en algunos casos más de
 una vez en informes posteriores, mientras que otras que no estuvieron
 
-
 ## 7 Decreto 943, de 1994, del Ministerio del Interior. La Comisión se conformó por
+
+**Definición Canónica:** ocho personas designadas directamente por el presidente de la República: Ricardo
+Rivadeneira, militante de Renovación Nacional y miembro del Consejo de Defensa
+del Estado; Guillermo Arthur, militante de la Unión Demócrata Independiente y exministro del Trabajo de Pinochet; Óscar Godoy, académico del Instituto de Ciencia
+Política de la Universidad Católica; Máximo Pacheco Gómez, militante democratacristiano y exsenador; Hernán Vodanovic, militante socialista y exsenador; Augusto
+Parra, militante radical y rector de la Universidad de Concepción; Eugenio Velasco,
+militante radical y miembro del T
+**Concordancias Legales:** Constitucion
 
 ocho personas designadas directamente por el presidente de la República: Ricardo
 Rivadeneira, militante de Renovación Nacional y miembro del Consejo de Defensa
@@ -2099,6 +2082,13 @@ Consejo de Defensa del Estado.
 
 ## 8 Dentro de este capítulo se encontraba la Recomendación 11, referida al «Poder
 
+**Definición Canónica:** Judicial y probidad», que incluía lo siguiente: «a) Mayor publicidad e información a
+los usuarios de los tribunales acerca de lo permitido y lo prohibido. b) Implementar
+sistema de reclamos y canales de denuncias de irregularidades. c) Promover internamente el valor del servicio público. d) Terminar con las prácticas de obtener favores
+o ventajas. e) Instar a la Corte Suprema a ejercer con mayor celo posible su potestad
+correccional y disciplinaria. f) Creación de la Academia Judicial. g) Mejoramiento
+de la carrera funcionaria».
+
 Judicial y probidad», que incluía lo siguiente: «a) Mayor publicidad e información a
 los usuarios de los tribunales acerca de lo permitido y lo prohibido. b) Implementar
 sistema de reclamos y canales de denuncias de irregularidades. c) Promover internamente el valor del servicio público. d) Terminar con las prácticas de obtener favores
@@ -2107,6 +2097,11 @@ correccional y disciplinaria. f) Creación de la Academia Judicial. g) Mejoramie
 de la carrera funcionaria».
 
 ## 9 En este capítulo se estableció la necesidad de tipificar correctamente el tráfico de
+
+**Definición Canónica:** influencias, el enriquecimiento ilícito, el uso indebido de información privilegiada,
+el nepotismo y el clientelismo. Además, se recomendó el fortalecimiento de mecanismos para favorecer las denuncias por actos de corrupción, la reforma al procedimiento penal para contar con procesos penales orales y la creación de un Ministerio
+Público y una Fiscalía Anticorrupción.
+**Concordancias Legales:** Ley 19.653; Ley 19.450; Ley 19.645; Ley 20.880; Ley 20.414; Ley 19.501; Ley 19.886; constitucion
 
 influencias, el enriquecimiento ilícito, el uso indebido de información privilegiada,
 el nepotismo y el clientelismo. Además, se recomendó el fortalecimiento de mecanismos para favorecer las denuncias por actos de corrupción, la reforma al procedimiento penal para contar con procesos penales orales y la creación de un Ministerio
@@ -2218,14 +2213,26 @@ la modernización de la gestión pública, en un plazo de tan solo dos semanas (
 no era de sorprender que el informe de dicha Comisión expresamente
 dejara sin abordar medidas que tuvieran que ver con la persecución penal de la corrupción.18 Quizá ese mismo factor jugó en contra de proponer medidas específicas en materia de financiamiento electoral, pese a
 
-
 ## 15 En este caso, la Contraloría General de la República detectó irregularidades
+
+**Definición Canónica:** en 70 de 77 proyectos financiados por esta entidad del Estado encargada de la promoción del deporte, en los que se adjudicaban fondos a proyectos inexistentes para
+financiar actividades políticas. La investigación determinó más tarde que 114 proyectos más, que habían sido adjudicados en 2005, también habían sido utilizados
+para cometer fraude.
 
 en 70 de 77 proyectos financiados por esta entidad del Estado encargada de la promoción del deporte, en los que se adjudicaban fondos a proyectos inexistentes para
 financiar actividades políticas. La investigación determinó más tarde que 114 proyectos más, que habían sido adjudicados en 2005, también habían sido utilizados
 para cometer fraude.
 
 ## 16 Una de las empresas que participaba de las licitaciones de Chiledeportes era
+
+**Definición Canónica:** Publicam, que mientras era investigada dejó ver su participación en otro ilícito, la
+venta de facturas ideológicamente falsas para rendir gastos y así evadir impuestos.
+El problema es que dos de las facturas de Publicam habían sido presentadas como
+justificación de gastos electorales en el nuevo sistema de control de gasto electoral
+en la campaña del senador Guido Girardi, quien no obstante alegó desconocimiento
+total de los hechos, mientras que su administrador electoral fue condenado a 541
+días de pena remitida. El hecho generó una investigación más amplia para detectar
+«empresas fantasma», 
 
 Publicam, que mientras era investigada dejó ver su participación en otro ilícito, la
 venta de facturas ideológicamente falsas para rendir gastos y así evadir impuestos.
@@ -2267,6 +2274,12 @@ evidenciaba por esos años (Arís, Engel y Jaraquemada, 2018: 105).
 
 ## 20 El resto de las medidas consistía en extender la cobertura del Sistema de Alta
 
+**Definición Canónica:** Dirección Pública, perfeccionar el gobierno corporativo del Servicio Civil, fortalecer los procedimientos de selección y otorgarle nuevas funciones al Consejo de la
+Alta Dirección Pública. Por otra parte, se propusieron una serie de medidas, como
+la creación de un sistema de protección al denunciante, regular la puerta giratoria
+entre el sector público y el privado, fortalecer las comisiones de ética en el Congreso, corregir vacíos en la regulación de los conflictos de intereses y crear una ley que
+regulara el lobby.
+
 Dirección Pública, perfeccionar el gobierno corporativo del Servicio Civil, fortalecer los procedimientos de selección y otorgarle nuevas funciones al Consejo de la
 Alta Dirección Pública. Por otra parte, se propusieron una serie de medidas, como
 la creación de un sistema de protección al denunciante, regular la puerta giratoria
@@ -2274,6 +2287,13 @@ entre el sector público y el privado, fortalecer las comisiones de ética en el
 regulara el lobby.
 
 ## 21 Se trata del primer fallo de una corte internacional que de manera expresa
+
+**Definición Canónica:** reconoce el derecho al acceso a la información como incluido en la libertad de expresión. El caso se originó en una negativa del Comité de Inversiones Extranjeras
+(CIE), en 1998, de entregar información referente a un proyecto forestal denominado Río Cóndor, rechazo que fue refrendado por el Poder Judicial. A raíz de ello, en
+2006, la Corte Interamericana de Derechos Humanos condenó al Estado de Chile
+por haber contravenido la Convención Interamericana de Derechos Humanos en
+sus artículos 13 y 25, que consagran el derecho a la libertad de expresión y pensamiento y el derecho a la protección ju
+**Concordancias Legales:** artículos 13; Ley 20.285; Ley 20.730; constitucion
 
 reconoce el derecho al acceso a la información como incluido en la libertad de expresión. El caso se originó en una negativa del Comité de Inversiones Extranjeras
 (CIE), en 1998, de entregar información referente a un proyecto forestal denominado Río Cóndor, rechazo que fue refrendado por el Poder Judicial. A raíz de ello, en
@@ -2308,8 +2328,15 @@ empresas. El caso se originó con la tramitación de la Ley de Pesca, ingresada 
 extracción de especies marinas establecidas en una anterior ley de 2002,
 y que estaban por expirar. El proyecto era fuertemente resistido por grupos de pescadores artesanales, quienes denunciaban una excesiva concentración de los derechos de explotación en cuatro grupos empresariales que controlaban el 75% de la capacidad pesquera industrial de Chile,
 
-
 ## 22 La reforma de 1999 no había sido suficiente, ya que se vio severamente afectado
+
+**Definición Canónica:** y restringido el ejercicio del derecho por dos grandes razones. Primero, porque era
+necesario recurrir a los tribunales de justicia frente a cualquier denegación de información. Segundo, porque si bien se establecía un claro procedimiento, con etapas y
+plazos para acceder a documentos en poder del Estado, en la propia ley se facultaba
+a los organismos públicos a declarar por vía reglamentaria las causales de reserva de
+la información (Del Solar, 2021: 33).
+  23 Un detalle de estos casos, en el que se basa este resumen —aunque solo actualizado a 2018—, se encuentra en Arís, Engel y Jaraquemada 
+**Concordancias Legales:** artículo 248 del Código Penal. El caso concluyó con sendas; Ley 21.121; Ley 20.393.26
 
 y restringido el ejercicio del derecho por dos grandes razones. Primero, porque era
 necesario recurrir a los tribunales de justicia frente a cualquier denegación de información. Segundo, porque si bien se establecía un claro procedimiento, con etapas y
@@ -2390,6 +2417,8 @@ a un parlamentario en la historia de Chile.
 
 ## 26 Este fallo marcó un precedente dentro de la escasa jurisprudencia de la Ley
 
+**Definición Canónica:** 20.393, toda vez que se trató de la primera condena en juicio oral respecto de una persona jurídica que sí contaba, formalmente, con un modelo de prevención de delitos.
+
 20.393, toda vez que se trató de la primera condena en juicio oral respecto de una persona jurídica que sí contaba, formalmente, con un modelo de prevención de delitos.
 
 del entonces gerente del grupo Penta, Hugo Bravo, holding que pagaba
@@ -2414,8 +2443,14 @@ y Carlos Alberto Délano, fueron condenados por delitos tributarios cada
 uno a cuatro años de libertad vigilada intensiva, 857.084.267 de pesos de
 multa y, como parte de las condiciones del programa de intervención
 
-
 ## 27 Debe tenerse presente que en ese momento no existía legislación que tipificara
+
+**Definición Canónica:** como delito electoral esta clase de conductas.
+ 28 Aparecieron involucrados reconocidos militantes de la Unión Demócrata Independiente (UDI), Renovación Nacional (RN), del recientemente formado partido
+Ciudadanos, de la Democracia Cristiana (DC), algunas figuras de la antigua Concertación e incluso un ministro de la Nueva Mayoría.
+ 29 Una de las razones principales que impidió sancionar por cohecho fue la necesidad de acreditar la conexión de estos pagos con el favorecimiento de la autoridad
+en relación a una actuación específica, lo que volvió a relevar la necesidad de tipificar el cohecho «e
+**Concordancias Legales:** Ley 21.121
 
 como delito electoral esta clase de conductas.
  28 Aparecieron involucrados reconocidos militantes de la Unión Demócrata Independiente (UDI), Renovación Nacional (RN), del recientemente formado partido
@@ -2484,8 +2519,12 @@ Público y las querellas inicialmente presentadas por el SII. La acusación
 se presentó en 2018, la preparación del juicio oral se extendió por trece
 meses y en enero de 2023 se inició el juicio oral.31
 
-
 ## 30 Entre los antecedentes que reveló Jorratt, indicó que el ministro del Interior
+
+**Definición Canónica:** le había dicho que si era necesario el SII debía «retirar con camiones» desde las
+oficinas de SQM toda la información contable que involucrara el financiamiento
+irregular a participantes de la campaña electoral de la entonces presidenta Bachelet.
+  31 Se trata de la acusación por delitos tributarios y cohecho en contra de ocho personas, incluidas entre ellas el ex gerente general de SQM, Patricio Contesse, el exsenador Pablo Longueira y el ex candidato presidencial Marco Enríquez-Ominami.
 
 le había dicho que si era necesario el SII debía «retirar con camiones» desde las
 oficinas de SQM toda la información contable que involucrara el financiamiento
@@ -2515,6 +2554,13 @@ y Dávalos.
 disponible en https://www.cepchile.cl/.
 
 ## 34 Decreto 2, de 2015, del Ministerio Secretaría General de la Presidencia. Más
+
+**Definición Canónica:** información sobre el Consejo se encuentra en sitio web oficial del CAP: http://consejoanticorrupcion.cl/.
+ 35 Sus miembros fueron: Agustín Squella, abogado y académico; Álvaro Castañón, abogado y coordinador legislativo de la Fundación Ciudadano Inteligente; Andrea Repetto, economista, académica y miembro del directorio de Espacio Público;
+Benito Baranda, sicólogo y director de la Fundación América Solidaria; Claudio
+Fuentes, cientista político y académico; Daniel Zovatto, cientista político y director
+de Idea Internacional; Alfredo Etcheberry, abogado y académico; José Andrés Murillo, filósof
+**Concordancias Legales:** Ley 20.880; Ley 21.238; Ley 20.958; Ley 21.000; Constitucion
 
 información sobre el Consejo se encuentra en sitio web oficial del CAP: http://consejoanticorrupcion.cl/.
  35 Sus miembros fueron: Agustín Squella, abogado y académico; Álvaro Castañón, abogado y coordinador legislativo de la Fundación Ciudadano Inteligente; Andrea Repetto, economista, académica y miembro del directorio de Espacio Público;
@@ -2564,6 +2610,15 @@ Engel, economista, académico y presidente de Espacio Público, quien fue design
 por la presidenta Bachelet para presidir este consejo.
 
 ## 36 Cabe destacar que, dada la relevancia del tema y el mayor protagonismo de la
+
+**Definición Canónica:** sociedad civil en la construcción de medidas y seguimiento de sus implementaciones,
+se creó también el Observatorio Anticorrupción (Observatorio u OAC), creado por
+Espacio Público y Ciudadano Inteligente en noviembre de 2015. Este observatorio se
+instaló como una instancia mediadora entre la actividad legislativa y la ciudadanía,
+acercando las discusiones que se daban en el Congreso a los líderes de opinión, medios de comunicación, organizaciones de la sociedad civil y ciudadanos en general.
+Asimismo, ha elaborado informes periódicos con el estado de implementación de las
+propuestas de la CAP.
+**Concordancias Legales:** Ley 20.900; Ley 20.860; Ley 20.945; Ley 20.870; Ley 20.922; Ley 20.911; Ley 21.121; Ley 21.314; Ley 21.078; Ley 21.044; Ley 20.915; Ley 20.955; Ley 20.393; constitucion
 
 sociedad civil en la construcción de medidas y seguimiento de sus implementaciones,
 se creó también el Observatorio Anticorrupción (Observatorio u OAC), creado por
@@ -2706,14 +2761,25 @@ se han implementado. Así por ejemplo, se propuso que sea obligatorio
 para las personas jurídicas de cierto tamaño implementar los sistemas
 de prevención de delitos, en tanto que para las empresas más pequeñas
 
-
 ## 37 Véase la sección «Ley 21.121, que Modifica el Código Penal y Otras Normas
+
+**Definición Canónica:** Legales para la Prevención, Detección y Persecución de la Corrupción».
+ 38 Antes las multas eran de 200 UTM hasta las 20.000 UTM. Mediante el proyecto, estas se elevaron a un tramo que va desde las 400 UTM hasta las 300.000 UTM
+(artículo 12 de la Ley 20.393).
+**Concordancias Legales:** artículo 12 de la Ley 20.393; Ley 20.393
 
 Legales para la Prevención, Detección y Persecución de la Corrupción».
  38 Antes las multas eran de 200 UTM hasta las 20.000 UTM. Mediante el proyecto, estas se elevaron a un tramo que va desde las 400 UTM hasta las 300.000 UTM
 (artículo 12 de la Ley 20.393).
 
 ## 39 En virtud del comiso por equivalencia, se permite que, cuando por cualquier
+
+**Definición Canónica:** circunstancia no sea posible decomisar el producto del delito y demás bienes, efectos, objetos, documentos, instrumentos, dineros o sus valores, se podrá aplicar el
+comiso a una suma de dinero equivalente a su valor. En el caso del comiso de las
+ganancias que se derivan del ilícito, se permite decomisar, además, y en todos los
+casos, los activos patrimoniales cuyo valor correspondiere a la cuantía de las ganancias obtenidas a través de la perpetración del delito, incluyendo los frutos obtenidos
+y las utilidades que se hubieren originado, cualquiera que sea su naturaleza jurídica.
+**Concordancias Legales:** Ley 20.900
 
 circunstancia no sea posible decomisar el producto del delito y demás bienes, efectos, objetos, documentos, instrumentos, dineros o sus valores, se podrá aplicar el
 comiso a una suma de dinero equivalente a su valor. En el caso del comiso de las
@@ -2752,8 +2818,11 @@ campañas, entre otras.
    Sin embargo, en lo que nos interesa, se estableció un mecanismo sancionatorio amplio, administrativo y penal. Así, regularon como causales
 de pérdida del cargo el hecho de sobrepasar el límite de gasto electoral
 
-
 ## 40 Parte de estas propuestas se incluyen en un proyecto de ley que actualmente
+
+**Definición Canónica:** se encuentra en segundo trámite constitucional en la Comisión de Constitución del
+Senado (Boletín 13.205-07).
+**Concordancias Legales:** constitucion; Constitución
 
 se encuentra en segundo trámite constitucional en la Comisión de Constitución del
 Senado (Boletín 13.205-07).
@@ -2771,8 +2840,14 @@ que afectaron al Ejército y a Carabineros, quienes todavía continúan con
 sus procesos judiciales, los que se resumen a continuación.42
    Respecto del Ejército, se trata un caso de corrupción asociado al desvío de fondos de la Ley Reservada del Cobre43 por miembros de las Fuer-
 
-
 ## 41 En este último punto hubo un debate importante, pues la postura inicial de
+
+**Definición Canónica:** los legisladores era establecer un plazo de un año tanto para las infracciones o faltas como para la comisión de delitos. Por su parte, el Observatorio Anticorrupción
+propuso que el plazo se considerara desde que el candidato realiza la rendición de
+cuentas al Servel, y no desde que se comete el delito. Finalmente, para los delitos el
+plazo de la prescripción quedó en dos años, lapso que sigue siendo evaluado insatisfactoriamente por la sociedad civil. Véase Arís, Engel y Jaraquemada (2018: 46).
+  42 Basados en la referencia de estos casos, pero también solo hasta 2018, en Arís,
+Engel y Jaraqu
 
 los legisladores era establecer un plazo de un año tanto para las infracciones o faltas como para la comisión de delitos. Por su parte, el Observatorio Anticorrupción
 propuso que el plazo se considerara desde que el candidato realiza la rendición de
@@ -2782,6 +2857,15 @@ plazo de la prescripción quedó en dos años, lapso que sigue siendo evaluado i
 Engel y Jaraquemada (2018: 93 y 94).
 
 ## 43 En ese entonces se trataba de la Ley 13.196 de 1958, que básicamente establecía
+
+**Definición Canónica:** un gravamen de 15% por los ingresos que obtenía el fisco producto de un sistema
+de tipo de cambio múltiple que en aquellos años afectaba a la venta obligatoria de
+divisas de la gran minería del cobre al Banco Central. En 1974 se modificó la ley
+(Decreto Ley 239) para bajar el gravamen a 10%, pero fijando un piso anual de financiamiento de 90 millones de dólares y un tope de gasto de la partida del Ministerio
+de Defensa Nacional que no podía exceder el 3,5% del producto nacional bruto. Con
+posterioridad, mediante el Decreto Ley 1.530 de 1976, se permitió a las instituciones
+castrenses adeudarse
+**Concordancias Legales:** Ley 1.530; Ley 18.445; Ley 20.424; Ley 20.977; Ley 21.174; Ley 13.196
 
 un gravamen de 15% por los ingresos que obtenía el fisco producto de un sistema
 de tipo de cambio múltiple que en aquellos años afectaba a la venta obligatoria de
@@ -2831,6 +2915,10 @@ su rol en la utilización de los fondos provenientes de la Ley Reservada del Cob
 
 ## 45 Esto se materializó inmediatamente, toda vez que, al publicarse la Ley 20.977
 
+**Definición Canónica:** el 22 de diciembre de 2016 en el Diario Oficial, en la misma edición y a través de un
+inserto se publicó el texto íntegro y actualizado de la Ley 13.196.
+**Concordancias Legales:** Ley 13.196
+
 el 22 de diciembre de 2016 en el Diario Oficial, en la misma edición y a través de un
 inserto se publicó el texto íntegro y actualizado de la Ley 13.196.
 
@@ -2860,8 +2948,16 @@ curso, se ha logrado establecer que existieron tres mecanismos mediante los cual
        que les correspondía según sus asignaciones. Luego, se les infor-
        maba del supuesto procedimiento para hacer la devolución de este
 
-
 ## 46 Ya en 2015 el Banco del Estado identificó movimientos irregulares en una
+
+**Definición Canónica:** cuenta corriente de Carabineros de Chile, cuestión que informó el 9 de diciembre
+de ese año al general Flavio Echeverría, jefe de Finanzas de Carabineros. Echeverría
+aseguró entonces que se trataba de un «error en el sistema de cálculos» y que se
+desarrollaría una investigación interna para resolver la situación. Sin embargo, la
+advertencia fue ignorada y la investigación nunca se llevó a cabo. Por otra parte,
+en noviembre de 2018, el excontralor Ramiro Mendoza declaró haber tenido desde
+2010 conocimiento sobre posibles irregularidades en las finanzas de Carabineros;
+sin embargo, había decidid
 
 cuenta corriente de Carabineros de Chile, cuestión que informó el 9 de diciembre
 de ese año al general Flavio Echeverría, jefe de Finanzas de Carabineros. Echeverría
@@ -2902,8 +2998,10 @@ a la corrupción de tal envergadura. Parte de ello47 se ha considerado
 y se sigue considerando en la discusión de distintos proyectos de ley,
 aunque posiblemente lo ocurrido en los últimos años con el denominado estallido social, la pandemia producida por el covid-19 y el proceso
 
-
 ## 47 Como veremos más adelante, a propósito de las estrategias normativas, en la
+
+**Definición Canónica:** sección «Estrategias normativas contra la corrupción».
+**Concordancias Legales:** Ley 21.121; Ley 21.211; Ley 21.174; Ley 21.180; constitucion
 
 sección «Estrategias normativas contra la corrupción».
 
@@ -3014,20 +3112,10 @@ Julio de 2018    Proyecto de ley que modifica la           Ley 21.180, Transform
                  materia de documentos electrónicos
                  (Boletín 11.882-06).
 
-## 1. Denominado «Proyecto de ley que modifica diversos cuerpos legales con el objeto de fortalecer la
-
-integridad pública, probidad y transparencia en las municipalidades».
-
-## 2. Denominado «Proyecto de ley que establece un nuevo estatuto de protección en favor del
-
-denunciante de actos contra la probidad administrativa».
-
-## 3. Denominado «Proyecto de ley que moderniza la Ley 19.886 y otras leyes, para mejorar la calidad
-
-del gasto público, aumentar los estándares de probidad y transparencia e introducir principios de
-economía circular en las compras del Estado».
-
 ## 4. Existe una propuesta en este sentido del Consejo de Modernización del Estado, documento
+
+**Definición Canónica:** disponible en https://bit.ly/45UblYy.
+5. Ya se había ingresado un Mensaje en este sentido en mayo de 2016 (Boletín 10.727-06).
 
 disponible en https://bit.ly/45UblYy.
 5. Ya se había ingresado un Mensaje en este sentido en mayo de 2016 (Boletín 10.727-06).
@@ -3046,6 +3134,18 @@ monitoreo del avance.50
 
 ## parte de una actualización regular del marco legal, que han tenido por
 
+**Definición Canónica:** objetivo:
+   • Garantizar el derecho de acceso a información pública, incentivar
+      la rendición de cuentas y la participación ciudadana.
+   • Incrementar la probidad administrativa.
+   • Regular los conflictos de intereses, el lobby y la gestión de intere-
+      ses.
+   • Regular el financiamiento de la política y transparentar la activi-
+      dad electoral.
+   • Promover la meritocracia del empleo público y establecer estánda-
+      res de comportamiento para el desempeño probo y transparente
+      de la función que desarrollan los funcionarios públicos.
+
 objetivo:
    • Garantizar el derecho de acceso a información pública, incentivar
       la rendición de cuentas y la participación ciudadana.
@@ -3061,6 +3161,13 @@ objetivo:
  49 Consulta disponible en https://consultaintegridad.gob.cl.
 
 ## 50 Información provista por la Comisión de Probidad y Transparencia, «¿Qué
+
+**Definición Canónica:** es la Estrategia Nacional de Integridad Pública?», disponible en https://bit.ly/3N43RK8. En la reunión que se hace mención participaron, según la misma fuente, el
+presidente de la República, de manera virtual, y de manera presencial el presidente
+del Senado, el presidente de la Corte Suprema, el presidente de la Cámara de Diputados, el fiscal nacional, la presidenta del Tribunal Constitucional y el ministro y la
+subsecretaria general de la Presidencia. Asistieron, además, los ministros de Hacienda y Educación, entre otros, y los jefes de servicio con competencias en materias
+de anticorrupción.
+**Concordancias Legales:** Constitucion
 
 es la Estrategia Nacional de Integridad Pública?», disponible en https://bit.ly/3N43RK8. En la reunión que se hace mención participaron, según la misma fuente, el
 presidente de la República, de manera virtual, y de manera presencial el presidente
@@ -3179,6 +3286,15 @@ particular por la Bridef,55 en general se ha constatado la falta de especia-
 
 ## 52 Las dificultades pueden deberse a la acreditación de elementos subjetivos o la
 
+**Definición Canónica:** determinación de la infracción de deberes, a propósito del delito de cohecho. Por
+ejemplo, se ha señalado que en el caso de parlamentarios imputados se identifica
+una dispersión normativa, en tanto no existe un catálogo claro de sus deberes en la
+regulación legal y reglamentaria que rige su función. Ello habría agregado barreras y
+escollos para investigar, ya que el lugar hacia el cual debería apuntar la investigación
+se vuelve difuso (Duce y otros, 2019: 93 y 94).
+ 53 Sección «Estrategias institucionales contra la corrupción».
+ 54 Así, en la práctica también intervienen por ejemplo en la PDI 
+
 determinación de la infracción de deberes, a propósito del delito de cohecho. Por
 ejemplo, se ha señalado que en el caso de parlamentarios imputados se identifica
 una dispersión normativa, en tanto no existe un catálogo claro de sus deberes en la
@@ -3191,6 +3307,9 @@ de Activos (Brilac). Asimismo, en el caso de Carabineros de Chile, también corr
 Investigación de Organizaciones Criminales.
 
 ## 55 Los propios actores del sistema, como jueces y fiscales, han reconocido que
+
+**Definición Canónica:** la creación de esta unidad le otorgó cierta autonomía, habida cuenta la que la PDI
+**Concordancias Legales:** artículo 97
 
 la creación de esta unidad le otorgó cierta autonomía, habida cuenta la que la PDI
 
@@ -3222,12 +3341,13 @@ de funcionarios y autoridades de un gobierno en ejercicio. Igualmente destacable
 es el reconocimiento de la reserva con que se llevan a cabo las investigaciones, considerando aquí que es de normal ocurrencia la filtración de datos, declaraciones,
 pericias, en variadas investigaciones. Véase Duce y otros (2019: 72 y 73).
 
-## 56 Esta facultad se encuentra contenida en el artículo 162 del Código Tributario
-
-y en el artículo 7 letra g) del Decreto con Fuerza de Ley 7, del 30 de septiembre de
-1980, que fija el texto de la Ley Orgánica del Servicio de Impuestos Internos.
-
 ## 57 Correctamente se ha puesto en duda que sea posible fundamentar esta especial
+
+**Definición Canónica:** facultad en el fin recaudatorio del SII, toda vez que no tendría funciones de recaudación, las cuales corresponderían a la Tesorería General de la República, en tanto
+que el Servicio ni siquiera llega a conocer en la práctica si los resultados del ejercicio
+de sus facultades recaudan más o menos dinero. La función del SII sería entonces de
+fiscalización y, por lo tanto, su interés institucional estaría en el cumplimiento de la
+ley tributaria, no en la recaudación (Duce y otros, 2019: n. 145).
 
 facultad en el fin recaudatorio del SII, toda vez que no tendría funciones de recaudación, las cuales corresponderían a la Tesorería General de la República, en tanto
 que el Servicio ni siquiera llega a conocer en la práctica si los resultados del ejercicio
@@ -3271,6 +3391,12 @@ de obtener una condena en el caso respectivo.
 
 ## 59 En reportaje de La Tercera del 21 de septiembre de 2019, se relata que el director
 
+**Definición Canónica:** del servicio, Jorrat, y el subdirector, Vargas, señalaron que el ministro del Interior
+Peñailillo no tuvo la fuerza para parar la persecución a SQM, pero que lo intentó.
+Sebastián Labrín y Víctor Cofré, «Capítulo 3: La UDI entra por Morandé 80», La
+Tercera, 21 de septiembre de 2019, disponible en https://bit.ly/3N6Rkpc.
+**Concordancias Legales:** artículo 162 del Código Tributario; artículo 54; artículo 162 del Código Tributario establece que las investiga; Ley 19.806; Ley 19.884; Ley 20.900; Constitucion
+
 del servicio, Jorrat, y el subdirector, Vargas, señalaron que el ministro del Interior
 Peñailillo no tuvo la fuerza para parar la persecución a SQM, pero que lo intentó.
 Sebastián Labrín y Víctor Cofré, «Capítulo 3: La UDI entra por Morandé 80», La
@@ -3307,6 +3433,10 @@ constitutivos de delitos tributarios sancionados con pena privativa de libertad 
 podrán ser iniciadas por denuncia o querella del Servicio de Impuestos Internos».
 
 ## 62 No hay que olvidar que en aquellos casos en que el SII ya había presentado una
+
+**Definición Canónica:** querella, igualmente muchas de esas causas terminaron por sobreseimiento, dado
+que los tribunales consideraron que el actuar de las personas imputadas obedecía
+**Concordancias Legales:** artículo 97
 
 querella, igualmente muchas de esas causas terminaron por sobreseimiento, dado
 que los tribunales consideraron que el actuar de las personas imputadas obedecía
@@ -3383,8 +3513,10 @@ Decisión de no perseverar                 627             13,4%         91.396 
 * Respecto del total de delitos terminados.
 Fuente: Elaboración propia a partir de datos de Ministerio Público.
 
-
 ## 64 Ministerio Público, «Boletín estadístico anual: Enero-diciembre 2021», 18 de
+
+**Definición Canónica:** enero de 2022, disponible en https://bit.ly/3b6Qjhy.
+**Concordancias Legales:** artículos 222; artículo 226 bis; artículos 248; artículo 222 del CPP exige pena de crimen no se refiere únicam; artículo 21 del Código Penal. Este debate se dio en el denomi; Ley 20.000; Ley 19.913; Ley 17.798; Ley 20.818; Ley 21.121
 
 enero de 2022, disponible en https://bit.ly/3b6Qjhy.
 
@@ -3448,8 +3580,14 @@ cohecho, como veremos más adelante.68
    En relación con las técnicas de investigación y medidas intrusivas,
 es necesario detenerse en la regulación del secreto bancario en nuestro país. Ya vimos que como parte de las estrategias globales contra la
 
-
 ## 66 Sentencia del Tercer Tribunal Oral en lo Penal, RIT 60-2016, 9 de junio de
+
+**Definición Canónica:** 2016, considerando undécimo (primer fallo, anulado).
+ 67 Corte de Apelaciones de Santiago, 16 de agosto de 2016, rol 2.271-2016, que acogió recurso de nulidad interpuesto por el Ministerio Público y anuló primer juicio
+oral. Corte Suprema, 17 de diciembre de 2018, rol 94.972-2016, que rechazó recurso
+de nulidad interpuesto por la defensa en el contexto del segundo juicio oral.
+ 68 Sección «Aumento de penas de la Ley 21.121».
+**Concordancias Legales:** Ley 21.121; Ley 3.71
 
 2016, considerando undécimo (primer fallo, anulado).
  67 Corte de Apelaciones de Santiago, 16 de agosto de 2016, rol 2.271-2016, que acogió recurso de nulidad interpuesto por el Ministerio Público y anuló primer juicio
@@ -3468,8 +3606,15 @@ regulación se encuentra en, a lo menos, cuatro cuerpos normativos:
    • Capítulo 16 de la Ley General de Bancos, Decreto con Fuerza de
       Ley 3.71
 
-
 ## 69 Artículo 16, secreto bancario: «1) El Estado parte requerido no podrá negarse
+
+**Definición Canónica:** a proporcionar la asistencia solicitada por el Estado parte requirente amparándose
+en el secreto bancario. Este artículo será aplicado por el Estado parte requerido, de
+conformidad con su derecho interno, sus disposiciones de procedimiento o con los
+acuerdos bilaterales o multilaterales que lo vinculen con el Estado parte requirente.
+2) El Estado parte requirente se obliga a no utilizar las informaciones protegidas
+por el secreto bancario que reciba, para ningún fin distinto del proceso para el cual
+hayan sido solicitadas, salvo autorización del Estado parte requerido».
 
 a proporcionar la asistencia solicitada por el Estado parte requirente amparándose
 en el secreto bancario. Este artículo será aplicado por el Estado parte requerido, de
@@ -3479,12 +3624,16 @@ acuerdos bilaterales o multilaterales que lo vinculen con el Estado parte requir
 por el secreto bancario que reciba, para ningún fin distinto del proceso para el cual
 hayan sido solicitadas, salvo autorización del Estado parte requerido».
 
-## 70 Artículo 9, ayuda jurídica recíproca: «Una parte no deberá declinar el prestar
-
-ayuda jurídica recíproca para asuntos penales dentro del ámbito de esta Convención
-aduciendo el secreto bancario».
-
 ## 71 El inciso primero del artículo 154 del Decreto con Fuerza de Ley 3 dispone una
+
+**Definición Canónica:** estricta confidencialidad —denominada secreto— respecto de las operaciones de
+depósitos y captaciones bancarias, cuya información los bancos solo pueden dar
+a conocer al titular, a quien haya sido expresamente autorizado por él o ella, o su
+representante legal: «Las operaciones de depósitos y captaciones de cualquier naturaleza que reciban los bancos en virtud de la presente ley estarán sujetas a secreto
+bancario y no podrán proporcionarse antecedentes relativos a dichas operaciones
+sino a su titular o a quien haya sido expresamente autorizado por él o a la persona
+que lo represente legalmente
+**Concordancias Legales:** Artículo 1 de la Ley sobre Cuentas Corrientes y Cheques; Artículos 62; Artículo 2; Artículo 5; Ley 21.130; Ley 20.818; Ley 707.72; Ley 19.913; Ley 3.538
 
 estricta confidencialidad —denominada secreto— respecto de las operaciones de
 depósitos y captaciones bancarias, cuya información los bancos solo pueden dar
@@ -3523,6 +3672,14 @@ ha implicado un cambio sustancial.
 
 ## 72 El artículo primero del DFL 707 establece: «La cuenta corriente bancaria es un
 
+**Definición Canónica:** contrato a virtud del cual un banco se obliga a cumplir las órdenes de pago de otra
+persona hasta concurrencia de las cantidades de dinero que hubiere depositado en
+ella o del crédito que se haya estipulado. El banco deberá mantener en estricta reserva, respecto de terceros, el movimiento de la cuenta corriente y sus saldos, y solo
+podrá proporcionar estas informaciones al librador o a quien este haya facultado expresamente. No obstante, los Tribunales de Justicia podrán ordenar la exhibición de
+determinadas partidas de la cuenta corriente en causas civiles y criminales seguidas
+con el librado
+**Concordancias Legales:** artículos 27; artículo 236 del Código Procesal Penal; Ley 19.913
+
 contrato a virtud del cual un banco se obliga a cumplir las órdenes de pago de otra
 persona hasta concurrencia de las cantidades de dinero que hubiere depositado en
 ella o del crédito que se haya estipulado. El banco deberá mantener en estricta reserva, respecto de terceros, el movimiento de la cuenta corriente y sus saldos, y solo
@@ -3540,11 +3697,11 @@ relacionado con cuentas corrientes bancarias, incluidos, entre otros, sus movimi
 su apertura, de personas, comunidades, entidades o asociaciones de hecho que sean
 objeto de la investigación y que se relacionen con aquella».
 
-## 73 En los actuales incisos quinto, sexto y séptimo del artículo 154 del DFL 3. El
-
-inciso tercero del artículo 1 del DFL 707 se expresa en el mismo sentido.
-
 ## 74 Se establece así también en el artículo 154 del DFL 3, en el artículo 1 del DFL 707
+
+**Definición Canónica:** y en el inciso primero del artículo 62 del Código Tributario. Además, se establece
+expresamente que en lo referente a artículos 27 y 28 de la Ley sobre Lavado de Ac-
+**Concordancias Legales:** artículo 62 del Código Tributario. Además; artículos 27; artículo 236 del CPP; artículo 1 del DFL 707; artículo 236; Ley 21.000; DFL 707
 
 y en el inciso primero del artículo 62 del Código Tributario. Además, se establece
 expresamente que en lo referente a artículos 27 y 28 de la Ley sobre Lavado de Ac-
@@ -3567,6 +3724,15 @@ operar aunque no estuviera regulada expresamente en este inciso).
 
 ## 75 Los artículos 62 y 62 bis del Código Tributario regulan este procedimiento, el
 
+**Definición Canónica:** cual se erige como un límite a la facultad fiscalizadora del Servicio de Impuestos
+Internos, puesto que si el fiscalizado se opusiere a la solicitud del SII, se debe dirigir
+ante los TTA para obtener la información, tribunales que también pueden en virtud
+de esta normativa cuando conozcan de un proceso sancionatorio. Si el SII requiriere
+información para verificar la veracidad e integridad de las declaraciones de impuestos, o la falta de ellas, así como si entidades internacionales solicitaren la misma
+información, el SII debe regirse por el procedimiento dispuesto para este efecto. En
+cualqui
+**Concordancias Legales:** artículo 62; Ley 21.130
+
 cual se erige como un límite a la facultad fiscalizadora del Servicio de Impuestos
 Internos, puesto que si el fiscalizado se opusiere a la solicitud del SII, se debe dirigir
 ante los TTA para obtener la información, tribunales que también pueden en virtud
@@ -3584,6 +3750,11 @@ efectos, el Servicio deberá recabar la autorización judicial a que se refiere 
 tercero del presente artículo».
 
 ## 76 Estas atribuciones se encuentran contempladas en el artículo 5 numeral 5 del
+
+**Definición Canónica:** Decreto Ley 3.538, que regula en detalle el procedimiento mediante el cual la Comisión para el Mercado Financiero puede acceder a dicha información, previo acuerdo
+del Consejo de la Comisión, con autorización de un ministro de la Corte de Apelaciones de Santiago y bajo estrictas condiciones de confidencialidad, ya sea para sus
+procesos sancionatorios por infracciones a las leyes de mercado de valores y seguros, o bien para atender solicitudes de asistencia de reguladores extranjeros.
+**Concordancias Legales:** artículo 2; artículos 307; artículo 211; artículos 211 bis; artículo 246 bis; Ley 3.538; Ley 19.913; Ley 20.205; Constitución
 
 Decreto Ley 3.538, que regula en detalle el procedimiento mediante el cual la Comisión para el Mercado Financiero puede acceder a dicha información, previo acuerdo
 del Consejo de la Comisión, con autorización de un ministro de la Corte de Apelaciones de Santiago y bajo estrictas condiciones de confidencialidad, ya sea para sus
@@ -3683,8 +3854,11 @@ este sistema de denuncias y los procedimientos que de estas se deriven. 78
    Más allá de la investigación, debemos también tener presente que en
 nuestro país existen reglas especiales sobre querellantes, las que inciden
 
-
 ## 77 Informe final de Chile, vigésima octava reunión del Comité de Expertos del
+
+**Definición Canónica:** MESICIC, aprobado en la sesión plenaria del 17 de marzo de 2017, pp. 65-66, disponible en https://bit.ly/43DPItT.
+ 78 Volveremos sobre esta ley a propósito de las últimas estrategias legislativas.
+**Concordancias Legales:** artículo 111; artículo 182 del CPP; artículo 36; Ley 20.000
 
 MESICIC, aprobado en la sesión plenaria del 17 de marzo de 2017, pp. 65-66, disponible en https://bit.ly/43DPItT.
  78 Volveremos sobre esta ley a propósito de las últimas estrategias legislativas.
@@ -3719,8 +3893,10 @@ Sin embargo, bien puede plantearse la necesidad de hacer extensivas reglas espec
 drogas, y que en su artículo 36 permite al Ministerio Público mantener
 el secreto de piezas de investigación hasta su cierre. Asimismo, la propia
 
-
 ## 79 Sin perjuicio de que, como veremos en la sección siguiente, la amplitud de
+
+**Definición Canónica:** querellantes puede ocasionar espacios de corrupción dentro del sistema de justicia.
+**Concordancias Legales:** artículo 32; Ley 19.913
 
 querellantes puede ocasionar espacios de corrupción dentro del sistema de justicia.
 
@@ -3753,6 +3929,15 @@ Lamentablemente, esto sigue sucediendo hasta hoy.81
 
 ## 81 En una causa llevada por la Fiscalía Metropolitana Oriente, el exdirector de
 
+**Definición Canónica:** Educación de la Municipalidad de Providencia, Mariano Rosenzvaig, y el exdirector
+de Administración y Finanzas, Jaime Brito, fueron formalizados en 2020 por hechos
+constitutivos de malversación de caudales públicos en el período de 2012 a 2016,
+por montos correspondientes a 1.643 millones de pesos, y se señaló en la audiencia
+de formalización que arriesgaban una pena desde los cinco años y un día hasta los
+quince años. En noviembre de 2022, el Ministerio Público presentó un escrito ante
+el Octavo Juzgado de Garantía de Santiago: «Vengo a solicitar […] citar a todos los
+intervinientes de esta c
+
 Educación de la Municipalidad de Providencia, Mariano Rosenzvaig, y el exdirector
 de Administración y Finanzas, Jaime Brito, fueron formalizados en 2020 por hechos
 constitutivos de malversación de caudales públicos en el período de 2012 a 2016,
@@ -3783,17 +3968,16 @@ ser juicios de tan larga duración, las jornadas diarias terminan de manera
 anticipada para liberar tiempo diario de los jueces a otras causas o bien
 para redactar documentos que luego podrían incorporarse a la sentencia;
 
-
-## 82 Pueden señalarse a la fecha los casos Fragatas, Corpesca y Carabineros
-
-
-## 83 Ministerio Público, «Boletín estadístico anual: Enero-diciembre 2018», tabla
-
-10, disponible en https://bit.ly/3b6Qjhy.
- 84 Ministerio Público, «Boletín estadístico anual: enero-diciembre 2018», tabla10,
-disponible en https://bit.ly/3b6Qjhy.
-
 ## 85 En diciembre de 2019, a través del Oficio FN 1111-2019, el Ministerio Público
+
+**Definición Canónica:** propuso alternativas para mejorar estas complejidades. Así, respecto de la nulidad
+del juicio oral debido a su suspensión por más de diez días, señala que los jueces
+deberían ser más flexibles y no obligar a anular un juicio por esa razón. También se
+propuso incluir la figura del testigo hostil, a través de la cual se podrán utilizar las
+herramientas de la contrainterrogación en el examen directo, ya que algunos testigos son reacios a responder preguntas del Ministerio Público en juicios e incluso
+cambian declaraciones hechas antes por escrito. Además, se propone aumentar el
+plazo para interpo
+**Concordancias Legales:** artículo 283; Ley 21.394
 
 propuso alternativas para mejorar estas complejidades. Así, respecto de la nulidad
 del juicio oral debido a su suspensión por más de diez días, señala que los jueces
@@ -3823,8 +4007,14 @@ oral y, cuando se llega, en un porcentaje no menor se producen absoluciones. Con
 que estaría relacionado con un mayor estándar de exigencia probatoria
 desde los tribunales, en comparación a otros delitos.87
 
-
 ## 86 Los problemas relativos al desarrollo que tienen las audiencias de preparación
+
+**Definición Canónica:** de juicio oral en nuestro país se han documentado en diversos estudios, los que han
+demostrado, entre otros hallazgos, que tienen un promedio excesivamente breve
+de duración, con un escaso desarrollo técnico argumentativo por parte de los intervinientes y un comportamiento pasivo de los jueces, al no solicitar antecedentes
+adicionales para resolver sobre la admisibilidad de la prueba (Duce, 2020).
+  87 Interesante la recopilación que presenta el estudio de Espacio Público al recordar que un fiscal regional, a cargo de la persecución penal del caso Basura, ha enfatizado las dificultades de obte
+**Concordancias Legales:** artículo 274; Ley 21.121
 
 de juicio oral en nuestro país se han documentado en diversos estudios, los que han
 demostrado, entre otros hallazgos, que tienen un promedio excesivamente breve
@@ -3875,6 +4065,11 @@ causa RIT 309-2018, también del Tercer Tribunal de Juicio Oral en lo Penal de S
 
 ## 89 Por ejemplo, la tramitación de recursos de inaplicabilidad ante el Tribunal
 
+**Definición Canónica:** Constitucional, la gestión ante las Cortes de Apelaciones y Suprema de desafueros, y
+la disponibilidad de equipos especializados para pruebas periciales sobre evidencia
+digital o auditorías forenses.
+**Concordancias Legales:** Constitucion
+
 Constitucional, la gestión ante las Cortes de Apelaciones y Suprema de desafueros, y
 la disponibilidad de equipos especializados para pruebas periciales sobre evidencia
 digital o auditorías forenses.
@@ -3912,8 +4107,10 @@ por prácticas corruptas son altísimos; además, cualquiera de ellos que
 se concrete genera un enorme impacto, lo que ha llevado a sostener
 que «es simplemente imposible realizar una campaña exitosa contra la
 
-
 ## 90 Asamblea General de las Naciones Unidas, «Informe del relator especial sobre
+
+**Definición Canónica:** la independencia de magistrados y abogados», A/72/140, 25 de julio de 2017, párr. 66,
+disponible en https://undocs.org/A/72/140.
 
 la independencia de magistrados y abogados», A/72/140, 25 de julio de 2017, párr. 66,
 disponible en https://undocs.org/A/72/140.
@@ -3962,8 +4159,11 @@ la recibe da cuenta de canales de favores recíprocos de insospechadas
 ramificaciones, si no derechamente de pagos y beneficios para un fin
 ilícito.
 
-
 ## 93 Esto es lo que habría ocurrido con la decisión de Alberto Ayala, entonces fiscal
+
+**Definición Canónica:** regional metropolitano oriente, de separar del caso Corpesca a los fiscales Carlos
+Gajardo y José Antonio Villalobos en 2015. Véase Claudia Miño, «Fiscal Ayala defiende salida de Gajardo del caso Corpesca y acusa filtraciones», Biobío Chile, 10 de
+junio de 2015, disponible en https://bit.ly/43Dr9xx; y Duce y otros (2019: 103).
 
 regional metropolitano oriente, de separar del caso Corpesca a los fiscales Carlos
 Gajardo y José Antonio Villalobos en 2015. Véase Claudia Miño, «Fiscal Ayala defiende salida de Gajardo del caso Corpesca y acusa filtraciones», Biobío Chile, 10 de
@@ -3972,8 +4172,10 @@ junio de 2015, disponible en https://bit.ly/43Dr9xx; y Duce y otros (2019: 103).
 Academia Judicial de Chile   Estrategias institucionales y normativas contra la corrupción
 Materiales Docentes                                                             Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Estrategias institucionales y normativas
+contra la corrupción
 
 Estrategias institucionales y normativas
 contra la corrupción
@@ -3996,8 +4198,12 @@ siete medidas destinadas a construir instituciones con las capacidades
 humanas, normativas y de gestión necesarias para asegurar que la Administración del Estado pueda responder de manera oportuna a las demandas de la ciudadanía y actuando siempre conforme a los principios
 de integridad, transparencia, rendición de cuentas y control:
 
-
 ## 1 Para ello, se consideró inicialmente que los principales desafíos en materia de
+
+**Definición Canónica:** combate a la corrupción consistían en: i) regular los conflictos de intereses; ii) promover el establecimiento de sistemas de prevención organizacional; iii) establecer
+mecanismos de protección a quienes denuncian; iv) fortalecer las instituciones de
+control e investigación; y v) avanzar en penas efectivas y disuasorias.
+**Concordancias Legales:** artículo 185; artículo 2 de la Ley Orgánica del Ministerio Público; artículo 18 de la Ley 19.640 permite que el fiscal nacional; Ley 19.886; Ley 19.640
 
 combate a la corrupción consistían en: i) regular los conflictos de intereses; ii) promover el establecimiento de sistemas de prevención organizacional; iii) establecer
 mecanismos de protección a quienes denuncian; iv) fortalecer las instituciones de
@@ -4099,8 +4305,15 @@ fiscal nacional o un fiscal regional. En efecto, el artículo 18 de la Ley
 asuma la investigación de un delito cuando la investidura de las personas involucradas como imputadas o víctimas lo haga necesario para
 garantizar la independencia y autonomía de la investigación.3 El artícu-
 
-
 ## 2 Corresponde al Dictamen E370752, del 20 de julio de 2023. Lo novedoso sobre
+
+**Definición Canónica:** esta última medida no es que las bases de licitación deban incluir la evaluación sobre
+si se cuenta por los oferentes con «programas de identidad». Lo novedoso es que se
+evalúe que estos programas sean «efectivamente» conocidos por el personal. Esto es
+coherente con la reforma introducida por la Ley de Delitos Económicos, en que un
+modelo de prevención no solo debe ser diseñado adecuadamente, sino además debe
+ser implementado efectivamente, es decir, que sea conocido y aplicado por todos
+quienes integran la organización.
 
 esta última medida no es que las bases de licitación deban incluir la evaluación sobre
 si se cuenta por los oferentes con «programas de identidad». Lo novedoso es que se
@@ -4111,6 +4324,10 @@ ser implementado efectivamente, es decir, que sea conocido y aplicado por todos
 quienes integran la organización.
 
 ## 3 Así sucedió en el caso Penta, en el cual el entonces fiscal nacional Sabas Chahuán
+
+**Definición Canónica:** hizo uso de las facultades del artículo 18 y asumió la investigación con el apoyo de
+un equipo de trabajo.
+**Concordancias Legales:** artículo 18; artículos 41; Ley 20.414; constitucion
 
 hizo uso de las facultades del artículo 18 y asumió la investigación con el apoyo de
 un equipo de trabajo.
@@ -4233,8 +4450,16 @@ fortalecimiento del Ministerio Público. En efecto, si bien fue presentado
 un proyecto de ley por parte del Ejecutivo en 2014, no ha tenido movimiento desde 2015. Es por ello que el Ministerio Público ha debido modificar vía administrativa su estructura creando, por ejemplo, Fiscalías
 de Alta Complejidad y una Unidad Especializada Anticorrupción.11 Esta
 
-
 ## 10 Sobre esto, el informe de la OCDE en relación con las instrucciones vigentes y
+
+**Definición Canónica:** los casos analizados señaló: «A falta de una guía más detallada sobre suspensiones
+condicionales del procedimiento (SCP) o procedimientos abreviados (PA), los fiscales han aplicado sus propios criterios. En la visita in situ, los fiscales explicaron por
+qué instaron o no por SCP/PA en casos específicos de corrupción. Las razones iban
+desde la solidez del caso (Asfaltos, Moreira y Wagner), la cooperación del infractor
+(Asfaltos Chilenos, Ceresita y SQM) y la disposición del imputado a pagar una suma
+de dinero (Moreira y Caval), a la presencia de un modelo de prevención de delitos
+(SQM), régimen
+**Concordancias Legales:** artículo 17
 
 los casos analizados señaló: «A falta de una guía más detallada sobre suspensiones
 condicionales del procedimiento (SCP) o procedimientos abreviados (PA), los fiscales han aplicado sus propios criterios. En la visita in situ, los fiscales explicaron por
@@ -4292,6 +4517,13 @@ otros organismos relacionados.
 bit.ly/3NvCPwn.
 
 ## 13 En abril de 2022 se descubrió que una asistente de fiscal se dedicaba a exigir
+
+**Definición Canónica:** sobornos a imputados para terminar sus causas a cambio de recalificar los delitos.
+Así, se habrían detectado pagos de entre 300.000 y 500.000 pesos en al menos una
+decena de casos por manejo de vehículos en estado de ebriedad mayoritariamente.
+Jaime Morales Amaya, «Asistente de fiscal es acusada de cobrar a imputados para
+cerrar las causas recalificando los delitos», Cooperativa, 5 de abril de 2022, disponible en https://bit.ly/3NGHwE1.
+**Concordancias Legales:** constitucion; Constitución
 
 sobornos a imputados para terminar sus causas a cambio de recalificar los delitos.
 Así, se habrían detectado pagos de entre 300.000 y 500.000 pesos en al menos una
@@ -4394,8 +4626,13 @@ que han fallado en determinadas materias en su carrera judicial.17
 ya incluido en la Agenda de Integridad Pública y Transparencia de 2019,
 lo que llevó a la presentación de un proyecto de ley y una reforma constitucional para modificar el sistema de nombramiento de jueces.18 Bási-
 
-
 ## 17 Además, falta regulación sobre conflictos de interés e inhabilitaciones que
+
+**Definición Canónica:** pueden afectar a parlamentarios, en casos en que corresponda pronunciarse sobre
+postulantes que han intervenido en decisiones de desafuero de correligionarios de
+partido o conglomerado político, cuestión que efectivamente se dio en Chile en 2017
+y 2018 respecto de cinco actuales o anteriores parlamentarios (Duce y otros, 2019:
+53 y 54).
 
 pueden afectar a parlamentarios, en casos en que corresponda pronunciarse sobre
 postulantes que han intervenido en decisiones de desafuero de correligionarios de
@@ -4404,6 +4641,12 @@ y 2018 respecto de cinco actuales o anteriores parlamentarios (Duce y otros, 201
 53 y 54).
 
 ## 18 Proyecto de ley presentado en abril de 2021 que moderniza el nombramiento
+
+**Definición Canónica:** de jueces y fiscales (Boletín 14.191-07 y Boletín 14.192-07). Actualmente se encuentra
+en primer trámite constitucional en la Cámara de Diputados, pero sin movimiento
+desde enero de 2022. Para la presentación del proyecto en 2018 el Ministerio de Justicia y Derechos Humanos convocó a una mesa interinstitucional de trabajo sobre
+este tema, que reunió a destacados profesionales de asociaciones, universidades y
+**Concordancias Legales:** constitucion
 
 de jueces y fiscales (Boletín 14.191-07 y Boletín 14.192-07). Actualmente se encuentra
 en primer trámite constitucional en la Cámara de Diputados, pero sin movimiento
@@ -4439,6 +4682,14 @@ Derecho de la Pontificia Universidad Católica de Chile, el Centro de Justicia p
 Américas y la Asociación Nacional de Magistrados.
 
 ## 19 No debe olvidarse que otro desafío pendiente relacionado se refiere a asegurar
+
+**Definición Canónica:** el mérito, la transparencia y la probidad en el proceso de selección de los auxiliares
+de la administración de justicia, en particular respecto de la organización y nombramiento de notarios y conservadores. Si bien se han presentado Mensajes presentados por el Ejecutivo desde hace más de una década, no se ha concretado reforma
+alguna. El último corresponde a un proyecto presentado en septiembre de 2018, que
+desde enero de 2020 pasó a segundo trámite constitucional en el Senado, donde a
+pesar de más de 35 urgencias suma y 22 discusiones inmediatas ingresadas por el
+Ejecutivo entre enero de 2020
+**Concordancias Legales:** artículo 3; Ley 19.913; Ley 20.119; Ley 20.818; Ley 21.314; Ley 21.488; Ley 21.521; Ley 21.575; constitucion; Constitución
 
 el mérito, la transparencia y la probidad en el proceso de selección de los auxiliares
 de la administración de justicia, en particular respecto de la organización y nombramiento de notarios y conservadores. Si bien se han presentado Mensajes presentados por el Ejecutivo desde hace más de una década, no se ha concretado reforma
@@ -4581,12 +4832,11 @@ las empresas de arriendo de vehículos; las personas que se dediquen a la
 fabricación o venta de armas; los clubes de tiro, caza y pesca; las personas naturales o jurídicas que se dediquen a la compraventa de equinos
 de raza pura; los comerciantes de metales preciosos; los comerciantes de
 
-
-## 22 Delitos contemplados en el artículo 39, inciso primero de la Ley General de
-
-Bancos (del Decreto con Fuerza de Ley 3, del Ministerio de Hacienda, de 1997).
-
 ## 23 Delitos contemplados en los números 8 y 9 del mismo artículo respecto de los
+
+**Definición Canónica:** delitos contemplados en los párrafos 4 bis y 4 ter del título noveno del libro II del
+Código Penal.
+**Concordancias Legales:** artículo 27 de la Ley tipifica el lavado de activos
 
 delitos contemplados en los párrafos 4 bis y 4 ter del título noveno del libro II del
 Código Penal.
@@ -4606,6 +4856,17 @@ de ocultar o disimular, ya no el origen, sino derechamente los propios
 bienes provenientes de dichos ilícitos, a sabiendas de su origen. Por su
 
 ## parte, la letra b) de dicho artículo sanciona al que adquiera, posea, tenga
+
+**Definición Canónica:** o use los referidos bienes señalados en el literal anterior, con ánimo de
+lucro, cuando al momento de recibirlos ha conocido su origen ilícito.
+Es de destacar que este mismo artículo sanciona la conducta negligente
+respecto de los tres tipos penales ya señalados. Por último, este artículo
+se encarga de aclarar que también se consideran como ilícitos los activos
+que provengan de hechos ocurridos en el extranjero, cuando estos sean
+alguno de los señalados en la propia ley y, a su vez, sean constitutivos de
+delito en el país donde se produjeron.
+   En cuanto a la penalidad, para los tres delitos 
+**Concordancias Legales:** artículo 27; Artículo 10 de la Ley 17.798; artículo 39; Artículo 168; artículo 178; artículo 81 de la Ley 17.336; Artículos 59; artículo 97 del Código Tributario; Artículos 141; artículos 468; artículo 467 del Código Penal; Artículo 7 de la Ley 20.009; artículos 139; artículos 305; artículo 305; artículo 38; artículo 27 de la Ley 19.913; artículo 251 bis; Ley 20.000; Ley 18.314; Ley 17.798; Ley 18.045; Ley 17.336; Ley 18.840; Ley 20.009; Ley 18.892; Ley 20.818; Ley 19.913; Ley 20.393; Constitucion
 
 o use los referidos bienes señalados en el literal anterior, con ánimo de
 lucro, cuando al momento de recibirlos ha conocido su origen ilícito.
@@ -4865,6 +5126,14 @@ Irlanda, Estados Unidos, Canadá y Australia), España, Italia, Austria,
 
 ## 29 Artículo 2: «Responsabilidad de las personas morales. Cada parte tomará las
 
+**Definición Canónica:** medidas que sean necesarias, de conformidad con sus principios jurídicos, para establecer la responsabilidad de las personas morales por el cohecho de un servidor
+público extranjero».
+ 30 Artículo 3.2: «En el caso de que, conforme al régimen jurídico de una parte,
+la responsabilidad penal no sea aplicable a las personas morales, dicha parte deberá
+asegurar que esas personas morales serán sujetas a sanciones eficaces, proporcionales y disuasorias de carácter no penal, incluidas las sanciones monetarias por el
+cohecho de servidores públicos extranjeros».
+**Concordancias Legales:** Artículo 3.2
+
 medidas que sean necesarias, de conformidad con sus principios jurídicos, para establecer la responsabilidad de las personas morales por el cohecho de un servidor
 público extranjero».
  30 Artículo 3.2: «En el caso de que, conforme al régimen jurídico de una parte,
@@ -4873,6 +5142,11 @@ asegurar que esas personas morales serán sujetas a sanciones eficaces, proporci
 cohecho de servidores públicos extranjeros».
 
 ## 31 En España véase Gracia Martin (2016: 73), quien señala que las tesis favorables
+
+**Definición Canónica:** a la responsabilidad penal de las personas jurídicas son «opiniones y afirmaciones
+apenas argumentadas y hechas de un vacío de teoría jurídica que no se sustenta en
+absoluto en el minimum minimorum del saber jurídico permanente válido y, por
+esto, de obligada observancia y respeto».
 
 a la responsabilidad penal de las personas jurídicas son «opiniones y afirmaciones
 apenas argumentadas y hechas de un vacío de teoría jurídica que no se sustenta en
@@ -4907,8 +5181,10 @@ control administrativo —tanto ex ante como ex post— de la operación
 de las entidades, con el consiguiente entorpecimiento de su actividad,
 de modo que probablemente resulte más conveniente para la empresa
 
-
 ## 32 En el caso de Alemania no existe responsabilidad penal de las personas, sino
+
+**Definición Canónica:** que las sanciones a las empresas concurren por vía administrativa mediante la aplicación de multas en virtud de una Ley de Contravenciones Administrativas.
+ 33 Un resumen de esas fundamentaciones en Artaza Varela (2021: 43-66).
 
 que las sanciones a las empresas concurren por vía administrativa mediante la aplicación de multas en virtud de una Ley de Contravenciones Administrativas.
  33 Un resumen de esas fundamentaciones en Artaza Varela (2021: 43-66).
@@ -4940,6 +5216,14 @@ Salmones Colbún       Juzgado de         Cohecho        2013        Condena en
 Ltda.                 Garantía de Talca,                            procedimiento abreviado
 
 ## Rit 9.211-2012
+
+**Definición Canónica:** Sociedad Áridos       Juzgado de            Cohecho     2014        Condena en
+Maggi Ltda.           Garantía de                                   procedimiento abreviado
+                      Chillán, RIT 1.104Industrias Ceresita   Tercer Juzgado        Cohecho     2014        Suspensión condicional
+S. A.                 de Garantía de                                del procedimiento
+                      Santiago, RIT 157Asevertrans Ltda.     Tribunal de Juicio    Cohecho     2015        Sentencia absolutoria en
+                      Oral en lo Penal                              juicio oral
+
 
 Sociedad Áridos       Juzgado de            Cohecho     2014        Condena en
 Maggi Ltda.           Garantía de                                   procedimiento abreviado
@@ -4994,16 +5278,13 @@ El modelo de imputación
 En general, es posible entender que existen dos grandes modelos de imputación penal de la persona jurídica. Primero, existe el denominado
 modelo de responsabilidad derivada, en virtud35 del cual prácticamente
 
-
-## 34 El hecho de que los casos han referido respecto del mismo delito, y que solo en
-
-dos casos se haya dictado una sentencia condenatoria en juicio oral, no ha permitido
-consolidar criterios jurisprudenciales asentados sobre la aplicación de la Ley 20.393.
-
 ## 35 Dicha ley establece que las reformas a la Ley 20.393 entrarán en vigor el primer
 
+**Definición Canónica:** Academia Judicial de Chile   Estrategias institucionales y normativas contra la corrupción
+Materiales Docentes                                                             Capítulo 3
+**Concordancias Legales:** artículo 4; artículo 5 de la Ley 20.393; artículo 60; artículo 5 de la Ley 20.303; artículo 1 de la Ley 20.393 se ha expandido en buena medida; artículo 136; artículo 139; artículo 139 bis; artículo 139 ter; artículo 15; artículos 448; artículo 14; artículo 3; artículo 62 del Decreto Ley 211; artículo 65; Ley 20.393; Ley 20.303; Ley 2009; Ley 20.931; Ley 21.121; Ley 21.132; Ley 21.140; Ley 21.227; Ley 21.325; Ley 21.412; Ley 21.488; Ley 21.459; Ley 19.913
 
-Academia Judicial de Chile   Estrategias institucionales y normativas contra la corrupción
+Academia Judicial de Chile   Estrategias institucionales y normativas contra la corrupción
 Materiales Docentes                                                             Capítulo 3
 
 se produce una trasferencia de la responsabilidad penal de las personas
@@ -5143,6 +5424,13 @@ de la aplicación de la Ley 19.913 (artículo 65).
 
 ## 38 Por ejemplo, en Italia, cuando se trata de delitos cometidos por los directivos
 
+**Definición Canónica:** se presume la responsabilidad penal de la persona jurídica. Sobre esta materia, cabe
+hacer notar que la OCDE ha recomendado a Chile modificar la legislación en un
+sentido incluso más radical que la solución italiana, con eliminar la posibilidad de
+defensa de la persona jurídica cuando el delito haya sido cometido por una persona
+natural del más alto nivel de la organización. Véase OCDE (2018: 70, recomendación a).
+**Concordancias Legales:** constitución
+
 se presume la responsabilidad penal de la persona jurídica. Sobre esta materia, cabe
 hacer notar que la OCDE ha recomendado a Chile modificar la legislación en un
 sentido incluso más radical que la solución italiana, con eliminar la posibilidad de
@@ -5189,8 +5477,10 @@ ejemplo, la sentencia del caso Asevertrans, que dispuso:
       con otro, tanto es así que quien ejecutó los delitos bases es el propio J. F.
       en beneficio de la empresa y por ende él, de modo que se infringiría el
 
-
 ## 39 Sentencia del caso Educer, Tribunal de Juicio Oral en lo Penal de Talca, RIT
+
+**Definición Canónica:** 95-2019. La sentencia cita el texto de Artaza Varela (2021: 163-170).
+**Concordancias Legales:** artículo 3 de la Ley 20.393; artículo 3; Ley 20.393.41; Ley 20.393
 
 95-2019. La sentencia cita el texto de Artaza Varela (2021: 163-170).
 
@@ -5297,8 +5587,15 @@ con la Ley de Delitos Económicos. En efecto, ya no se exige este requisito, y �
 punible se perpetre exclusivamente en contra de la propia persona jurídica (artículo 3 Ley 20.393).44
    d) Que exista un vínculo entre el delito base y el defecto de organi-
 
-
 ## 43 En contra Navas y Jaar (2018: 1.036), que señalan: «Sin embargo, este criterio
+
+**Definición Canónica:** debería entenderse en términos objetivos sin considerar a las intenciones que perseguían los sujetos individuales, sino si efectivamente la persona se vio beneficiada
+por el delito cometido».
+  44 Pese a lo justificado de esta reforma, los problemas que esto genera son diversos cuando la propia empresa resulta perjudicada por el delito, pero también
+terceros —por ejemplo, un gerente de administración y finanzas se apropia de fondos de la empresa y también de fondos de terceros que se mantienen en custodia—.
+La empresa sería víctima y a la vez imputada del mismo delito —si no implementó
+efectiv
+**Concordancias Legales:** artículo 3; artículo 4; Ley 20.393
 
 debería entenderse en términos objetivos sin considerar a las intenciones que perseguían los sujetos individuales, sino si efectivamente la persona se vio beneficiada
 por el delito cometido».
@@ -5365,8 +5662,15 @@ Jaar, 2018: 1039):46
       efectiva de un modelo y que realizara asimismo labores de supervisión
       y mejora. No se destinaron por parte de la corporación recursos ni
 
-
 ## 45 Por ejemplo, en el caso Educer, la sentencia señaló: «Por último, la comisión
+
+**Definición Canónica:** del delito por Silva Delgado fue consecuencia de la ausencia de toda medida de
+prevención interna por parte de Educer Ltda., puesto que, tal como se analizó en el
+numeral 42 del considerando décimo quinto, hechas las indagaciones pertinentes,
+incautados los documentos de la empresa, habiéndose entrevistado a parte de su
+personal, la policía no logró recabar ningún antecedente relativo a que la persona
+jurídica aludida hubiere adoptado e implementado «modelos de organización, administración y supervisión para prevenir delitos como el cometido», tal como lo explicó el testigo Luis Gutiérrez. Asi
+**Concordancias Legales:** artículo 4 de la Ley 20.393; artículo 4 de la Ley 20.293; Ley 20.393; Ley 20.293
 
 del delito por Silva Delgado fue consecuencia de la ausencia de toda medida de
 prevención interna por parte de Educer Ltda., puesto que, tal como se analizó en el
@@ -5390,6 +5694,9 @@ Sentencia del caso Colbún, Juzgado de Garantía de Talca, RIT 9.211-2012.
 
 ## 46 Los dos fallos anteriores a que se refiere corresponden a los casos Pehuenche
 
+**Definición Canónica:** y Ceresita.
+**Concordancias Legales:** artículo 4
+
 y Ceresita.
 
 Academia Judicial de Chile   Estrategias institucionales y normativas contra la corrupción
@@ -5409,13 +5716,17 @@ Materiales Docentes                                                             
 sí establece una regulación de al menos cómo entendería la ley satisfechos los deberes de dirección y supervisión, y que corresponden a los
 siguientes:
 
-## 1. La designación de un encargado de prevención dotado de auto-
-
-       nomía.
-
 ## 2. La provisión de los medios y facultades suficientes para el
 
-       desempeño de sus funciones, entre los que deben considerarse
+**Definición Canónica:** desempeño de sus funciones, entre los que deben considerarse
+       a lo menos: a) los recursos y medios materiales necesarios, en
+       consideración al tamaño y capacidad económica de la persona
+       jurídica; b) acceso directo a la administración para informar
+       oportunamente por un medio idóneo, de las medidas y planes
+       implementados en el cumplimiento de su cometido y para rendir
+       cuenta de su gestión y reportar a lo menos semestralmente.
+
+desempeño de sus funciones, entre los que deben considerarse
        a lo menos: a) los recursos y medios materiales necesarios, en
        consideración al tamaño y capacidad económica de la persona
        jurídica; b) acceso directo a la administración para informar
@@ -5425,7 +5736,17 @@ siguientes:
 
 ## 3. El establecimiento de un sistema de prevención de delitos, que
 
-       debe ponerse en conocimiento de todos los trabajadores y colabo-
+**Definición Canónica:** debe ponerse en conocimiento de todos los trabajadores y colabo-
+       radores y contemplar a lo menos lo siguiente: a) la identificación
+       de las actividades o procesos de la entidad en cuyo contexto se
+       genere o incremente el riesgo de comisión de delitos; b) el estable-
+       cimiento de protocolos, reglas y procedimientos específicos que
+       permitan a quienes intervengan en tales actividades o procesos
+       programar y ejecutar sus tareas o labores de una manera que pre-
+       venga la comisión de delitos; c) la identificación de los procedi-
+       mientos de administr
+
+debe ponerse en conocimiento de todos los trabajadores y colabo-
        radores y contemplar a lo menos lo siguiente: a) la identificación
        de las actividades o procesos de la entidad en cuyo contexto se
        genere o incremente el riesgo de comisión de delitos; b) el estable-
@@ -5449,7 +5770,18 @@ Materiales Docentes                                                             
 
 ## 4. El establecimiento de métodos para la aplicación efectiva del mo-
 
-       delo de prevención de los delitos y su supervisión a fin de detectar
+**Definición Canónica:** delo de prevención de los delitos y su supervisión a fin de detectar
+       y corregir sus fallas, así como actualizarlo de acuerdo al cambio de
+       circunstancias de la respectiva entidad, permitiéndose además la
+       posibilidad de certificar la adopción e implementación de dicho
+       modelo.
+   Ahora bien, lo más importante que cabe mencionar sobre este punto,
+como una observación general sobre estos contenidos que menciona la
+ley, es que la implementación de un modelo de prevención no puede
+limitarse a un mero cumplimiento formal, a la elaboración de un documento escrito con señalam
+**Concordancias Legales:** artículo 4 de la Ley 20.393.48 De ahí entonces que el fund; artículo 3; artículo 4; Ley 20.393.48; Ley 20.730
+
+delo de prevención de los delitos y su supervisión a fin de detectar
        y corregir sus fallas, así como actualizarlo de acuerdo al cambio de
        circunstancias de la respectiva entidad, permitiéndose además la
        posibilidad de certificar la adopción e implementación de dicho
@@ -5547,12 +5879,11 @@ por terceros independientes y mecanismos de perfeccionamiento o actualización a
 
 Ley 20.730, Regula el Lobby y las Gestiones que
 
-
-## 49 Sentencia del caso Educer, Tribunal de Juicio Oral en lo Penal de Talca, RIT
-
-95-2019.
-
 ## 50 Debe advertirse que, sin embargo, la ley omitió mandatar a algún organismo
+
+**Definición Canónica:** que pudiese dictar directrices sobre el diseño o implementación de programas, o sobre estándares de dichos evaluadores. Eso sí ocurre tanto en experiencias comparadas
+como en Chile, en programas de compliance de libre competencia (Fiscalía Nacional
+Económica) y prevención de lavados de activos (Unidad de Análisis Financiero).
 
 que pudiese dictar directrices sobre el diseño o implementación de programas, o sobre estándares de dichos evaluadores. Eso sí ocurre tanto en experiencias comparadas
 como en Chile, en programas de compliance de libre competencia (Fiscalía Nacional
@@ -5567,6 +5898,15 @@ y Funcionarios
 Erróneamente en nuestro país el lobby ha tenido una connotación negativa, aunque todo proceso de toma de decisiones por parte de la autoridad debe ser escrutado y sujeto a transparencia, pues puede, por una
 
 ## parte, estar sometido a influencias negativas que impliquen verdaderas
+
+**Definición Canónica:** capturas regulatorias por grupos de interés por sobre el interés general;
+pero por otra, también puede tener una connotación positiva por la provisión de datos, el acceso de actores relevantes y la participación para la
+definición de políticas públicas.
+   De ahí entonces que lo relevante del lobby no es su prohibición, sino
+su regulación, camino que han seguido distintos países desde antes de
+2014, cuando se publicó en Chile una normativa especial sobre la materia. Entre esos países destacan Estados Unidos (1940), Alemania (1951),
+Australia (1983), Canadá (1989), Polonia (2005), Hungría (2006
+**Concordancias Legales:** artículo 19; Ley 20.393; Ley 20.730; Ley 20.285; constitucion; Constitución Política
 
 capturas regulatorias por grupos de interés por sobre el interés general;
 pero por otra, también puede tener una connotación positiva por la provisión de datos, el acceso de actores relevantes y la participación para la
@@ -5591,6 +5931,12 @@ virtud de un proyecto de ley presentado en 2003.52
   51 Debían considerarse, además, recientes e importantes modificaciones normativas, como la reforma constitucional de 2005, que estableció el principio de publicidad; y la Ley 20.285, sobre Acceso a la Información Pública.
 
 ## 52 Boletín 3.407-07 de 2003, que se trataba de un Mensaje presentado como fruto
+
+**Definición Canónica:** de las recomendaciones de la Comisión Nacional de Ética Pública convocada durante
+el gobierno del presidente Eduardo Frei Ruiz-Tagle (1994), cuyo informe concluyó en
+1996, y al que nos referimos en la sección introductoria de este capítulo. Incluso se
+ha destacado como antecedente originario una moción de la Cámara de Diputados
+correspondiente al Boletín 966-07, del 15 de abril de 1993 (Mora Ortega, 2021: 128).
 
 de las recomendaciones de la Comisión Nacional de Ética Pública convocada durante
 el gobierno del presidente Eduardo Frei Ruiz-Tagle (1994), cuyo informe concluyó en
@@ -5624,8 +5970,16 @@ regulación de la ley:
       de los servicios públicos, intendentes y gobernadores, secretarios
       regionales ministeriales y embajadores, y jefes de gabinete de las
 
-
 ## 53 Acertadamente, la ley estableció una implementación gradual, que sirvió para
+
+**Definición Canónica:** impedir que se repitiera el problema suscitado durante la puesta en marcha de la Ley
+20.285, sobre Acceso a la Información Pública, referente al retraso evidente de las
+municipalidades y de los organismos regionales. Por ello, y con una diferencia de un
+año en comparación a las máximas autoridades, la ley se hizo aplicable a consejeros
+regionales, alcaldes, concejales, secretarios ejecutivos de los consejos regionales, directores de obras municipales y secretarios municipales.
+ 54 Cabe señalar que si bien la ley distingue entre gestores de interés y lobbistas,
+los cuales solo se diferencian en
+**Concordancias Legales:** artículo 2; Ley 20.285; Constitucion
 
 impedir que se repitiera el problema suscitado durante la puesta en marcha de la Ley
 20.285, sobre Acceso a la Información Pública, referente al retraso evidente de las
@@ -5670,8 +6024,14 @@ corresponde a la Resolución 210/2022, del director de la Corporación
 Administrativa del Poder Judicial, en la cual incluye como sujetos pasivos de lobby a:
    • Ministros de la Corte Suprema que integran el Consejo Superior.
 
-
 ## 55 Puede cuestionarse que se incluya a estos últimos, considerando que las bases de
+
+**Definición Canónica:** compras de bienes y servicios prohíben en general todo contacto con algún oferente.
+ 56 Los oficiales generales, el jefe y subjefe del Estado Mayor Conjunto y los encargados de las adquisiciones. Antes de la reforma efectuada por la Ley 21.427 de
+2022, en lugar de los denominados oficiales generales solo se contemplaba a los comandantes en jefe, el director general de la Policía de Investigaciones de Chile y el
+general director de Carabineros de Chile.
+ 57 El presidente, el vicepresidente y los consejeros.
+**Concordancias Legales:** Ley 21.427
 
 compras de bienes y servicios prohíben en general todo contacto con algún oferente.
  56 Los oficiales generales, el jefe y subjefe del Estado Mayor Conjunto y los encargados de las adquisiciones. Antes de la reforma efectuada por la Ley 21.427 de
@@ -5710,8 +6070,15 @@ ley. Entre otras:
       realizadas por profesionales e investigadores.
     • Las declaraciones efectuadas o las informaciones entregadas ante
 
-
 ## 58 No era necesario señalarlo, pues como se indicó, se encuentra expresamente
+
+**Definición Canónica:** incorporado en la ley como sujeto pasivo de lobby.
+ 59 Posterior a la Resolución 210/2022 se dictó una última resolución, la 395/2022,
+que actualizó los integrantes de algunos Consejos de Coordinación Zonal. Con todo,
+hubiese sido preferible mantener un único documento en que estén disponibles, de
+manera actualizada, todos los sujetos pasivo integrantes del Poder Judicial. Las resoluciones pueden revisarse en «Resolución que establece funcionarios sujetos pasivos
+de lobby», Poder Judicial, disponible en https://bit.ly/447QOyc.
+**Concordancias Legales:** artículo 5; Ley 20.730
 
 incorporado en la ley como sujeto pasivo de lobby.
  59 Posterior a la Resolución 210/2022 se dictó una última resolución, la 395/2022,
@@ -5792,8 +6159,12 @@ fin de las barreras de entrada en el acceso a las autoridades y funcionarios, co
 decisiones, aunque debe tenerse presente que el lobby no constituye un
 mecanismo de participación ciudadana propiamente tal, al no involu-
 
-
 ## 60 El artículo 251 sexies del Código Penal dispone en su inciso primero: «No será
+
+**Definición Canónica:** constitutivo de los delitos contemplados en los artículos 248, 250, incisos segundo y
+tercero, y 251 bis aceptar, dar u ofrecer donativos oficiales o protocolares, o aquellos
+de escaso valor económico que autoriza la costumbre como manifestaciones de cortesía y buena educación».
+**Concordancias Legales:** artículos 248; artículo 19; Ley 20.730; Ley 20.880; Ley 19.653; Ley 18.575; Ley 20.088; Constitucion; Constitución Política
 
 constitutivo de los delitos contemplados en los artículos 248, 250, incisos segundo y
 tercero, y 251 bis aceptar, dar u ofrecer donativos oficiales o protocolares, o aquellos
@@ -5895,8 +6266,12 @@ como expresión de la personalidad está amparada por el derecho a la
 privacidad, en virtud de lo dispuesto en el artículo 19, numeral 4 de la
 Constitución Política, de modo que el acceso a la información de la declaración es de carácter excepcional. Una segunda postura fue partidaria
 
-
 ## 63 Por ejemplo, Televisión Nacional de Chile, la Empresa de los Ferrocarriles del
+
+**Definición Canónica:** Estado, la Empresa Nacional de Minería, la Corporación Nacional del Cobre de
+Chile y el Banco del Estado de Chile.
+ 64 La Ley 20.088 introdujo también el delito de enriquecimiento ilícito, incorporando un nuevo artículo 241 bis en el Código Penal.
+**Concordancias Legales:** artículo 241 bis; artículo 8 de la Constitución; Ley 20.088; Ley 20.414; Constitucion; Constitución
 
 Estado, la Empresa Nacional de Minería, la Corporación Nacional del Cobre de
 Chile y el Banco del Estado de Chile.
@@ -5929,12 +6304,13 @@ ellas vinculadas a la regulación de los conflictos de intereses. Así, el infor
 garantizar la prevención de conflictos, puesto que la información no se
 presentaba en un formato que facilitara el cruce de información, no
 
-
-## 65 Sentencia del Tribunal Constitucional, rol 460, 2005, considerandos trigésimo
-
-y trigésimo segundo.
-
 ## 66 La reforma constitucional también estableció que la ley determinará los casos
+
+**Definición Canónica:** y las condiciones en que las autoridades delegarán a terceros la administración de
+aquellos bienes y obligaciones que supongan conflicto de interés en el ejercicio de
+la función pública, así como considerar otras medidas apropiadas para resolverlos
+y, en situaciones calificadas, disponer la enajenación de todo o parte de esos bienes.
+**Concordancias Legales:** artículo 8; artículo 1; artículo 8 de la Constitución Política de la República y el ar; Ley 20.880; Ley 18.575; Ley 19.653; Ley 20.088; constitucion; Constitución Política
 
 y las condiciones en que las autoridades delegarán a terceros la administración de
 aquellos bienes y obligaciones que supongan conflicto de interés en el ejercicio de
@@ -6000,8 +6376,17 @@ quedan obligadas a esta declaración de intereses:
        del Instituto Nacional de Derechos Humanos y del Consejo Na-
        cional de Televisión.
 
-
 ## 67 En 2003 se había incorporado una definición de conflicto de intereses en el
+
+**Definición Canónica:** ejercicio de la función pública en el artículo 5 de la Ley 19.896, a propósito de la
+contratación a honorarios por la Administración del Estado, a fin de evitar este tipo
+de conflictos en caso de que la persona contratada prestare servicios en cualquier
+calidad jurídica en otra repartición pública. El inciso cuarto de dicha norma señala
+que «se entenderá que hay conflicto de intereses cuando las labores encomendadas
+en los diversos organismos pongan a la persona a quien se le ha encomendado tareas
+en ambos, en situación de lesionar los objetivos de cualquiera de esas entidades o
+cuando sus pro
+**Concordancias Legales:** artículo 5 de la Ley 19.896; Ley 19.896; Ley 19.940; Ley 20.378; Ley 20.410; Ley 18.948; Ley 18.575; Ley 20.880; Constitucion
 
 ejercicio de la función pública en el artículo 5 de la Ley 19.896, a propósito de la
 contratación a honorarios por la Administración del Estado, a fin de evitar este tipo
@@ -6079,8 +6464,9 @@ de Intereses y Patrimonio, fiscaliza las más de 100.000 declaraciones
 juradas basada en técnicas de análisis de datos masivos o big data, en
 los que se aplican algoritmos semiautomatizados a la información con-
 
-
 ## 68 En el caso de ciertas autoridades, se incluye la obligación de incluir el nombre
+
+**Definición Canónica:** completo de sus parientes por consanguinidad en toda la línea recta que se encuentren vivos y en el segundo grado tanto en la línea colateral como por afinidad.
 
 completo de sus parientes por consanguinidad en toda la línea recta que se encuentren vivos y en el segundo grado tanto en la línea colateral como por afinidad.
 
@@ -6098,12 +6484,14 @@ Análisis Financiero.
    Con todo, se han reconocido deficiencias que subsisten para un efectivo control a través del procesamiento de datos de la Contraloría, las
 que, en consecuencia, han sido recogidas para la elaboración de propuestas en la Estrategia Nacional Anticorrupción de la Contraloría General de la República, que se detalló en capítulo «Contraloría General
 
-
-## 69 Respecto de la Contraloría General de la República, la Cámara de Diputados
-
-es la encargada de verificar su debido cumplimiento.
-
 ## 70 Respecto de los órganos de la Administración del Estado, el ente contralor, de
+
+**Definición Canónica:** oficio o a petición de parte, apercibirá a quien no cumpla o cumpla tardía o imperfectamente para que presente o rectifique la respectiva declaración dentro del plazo
+de diez días hábiles, notificándolo por carta certificada. Si el funcionario u autoridad obligada a efectuarla se mantiene en su incumplimiento, tras un procedimiento administrativo, la Contraloría propondrá al jefe de servicio, o a quien haga sus
+veces, mediante resolución fundada, la aplicación de una multa a beneficio fiscal de
+cinco a cincuenta unidades tributarias mensuales, la que será reiterada hasta por
+cuatro meses. Tran
+**Concordancias Legales:** Ley 21.121; Constitución
 
 oficio o a petición de parte, apercibirá a quien no cumpla o cumpla tardía o imperfectamente para que presente o rectifique la respectiva declaración dentro del plazo
 de diez días hábiles, notificándolo por carta certificada. Si el funcionario u autoridad obligada a efectuarla se mantiene en su incumplimiento, tras un procedimiento administrativo, la Contraloría propondrá al jefe de servicio, o a quien haga sus
@@ -6156,8 +6544,10 @@ de la Corrupción
 La dictación de la Ley 21.121 ha sido sin duda la modificación sustantiva
 en materia penal más importante en los últimos años contra la corrup-
 
-
 ## 71 Específicamente en la propuesta 12, consistente en «perfeccionar y ampliar las
+
+**Definición Canónica:** obligaciones en materia de declaración de intereses y patrimonio (DIP)».
+**Concordancias Legales:** artículo 248 bis del Código Penal; artículo 241; artículo 248 bis; artículo 249; artículo 250; artículo 251 bis; artículo 248; artículo 251; Ley 20.393.72; Ley 21.121; Ley 18.216; constitucion
 
 obligaciones en materia de declaración de intereses y patrimonio (DIP)».
 
@@ -6325,10 +6715,16 @@ privativa de libertad, que se extenderá desde los cinco años y un día a
 los diez años.
    En una descripción que sin duda puede ser considerada excesivamente casuística, la norma consideró las siguientes hipótesis:
 
-
 ## 1. Cuando hayan sido cometidos por un empleado público que
 
-      desempeñe un cargo de elección popular, de exclusiva confianza de
+**Definición Canónica:** desempeñe un cargo de elección popular, de exclusiva confianza de
+      estos, de alta dirección pública del primer nivel jerárquico o por un
+      fiscal del Ministerio Público o por cualquiera que ejerza jurisdicción;
+      por los comandantes en jefe de las Fuerzas Armadas, del Ejército, de la
+      Armada, de la Fuerza Aérea, o por la máxima autoridad de Carabineros
+      o la Policía de Investigaciones.
+
+desempeñe un cargo de elección popular, de exclusiva confianza de
       estos, de alta dirección pública del primer nivel jerárquico o por un
       fiscal del Ministerio Público o por cualquiera que ejerza jurisdicción;
       por los comandantes en jefe de las Fuerzas Armadas, del Ejército, de la
@@ -6337,7 +6733,18 @@ los diez años.
 
 ## 2. Cuando hayan sido cometidos por un empleado público con ocasión
 
-      de su intervención en cualquiera de los siguientes procesos:
+**Definición Canónica:** de su intervención en cualquiera de los siguientes procesos:
+         a. La designación de una persona en un cargo o función pública.
+         b. Un procedimiento de adquisición, contratación o concesión supe-
+         rior a las 1.000 UTM en que participe un órgano o empresa del Esta-
+         do, o una empresa o asociación en que este tenga una participación
+         mayoritaria; o en el cumplimiento o la ejecución de los contratos o
+         concesiones que se suscriban o autoricen en el marco de dichos pro-
+         cedimientos.
+         c. El otorgamiento de permisos o autorizaciones para
+**Concordancias Legales:** artículo 260 bis; artículo 260 ter; artículo 260; artículos 287 bis; artículo 470; Ley 21.121
+
+de su intervención en cualquiera de los siguientes procesos:
          a. La designación de una persona en un cargo o función pública.
          b. Un procedimiento de adquisición, contratación o concesión supe-
          rior a las 1.000 UTM en que participe un órgano o empresa del Esta-
@@ -6420,14 +6827,21 @@ la corrupción entre privados opta por un modelo que busca tutelar la
 competencia leal en los mercados.
    b) Administración desleal (artículo 470, numeral 11). A nivel comparado, se trata de un tipo penal presente en la mayoría de las legislaciones modernas, erigiéndose como un pilar fundamental en la protección penal del patrimonio. Se trata de un delito que sanciona atentados
 
-
 ## 73 Aquellas que desempeñen un cargo de elección popular, de exclusiva confianza
+
+**Definición Canónica:** de estos, de alta dirección pública del primer nivel jerárquico o por un fiscal del Ministerio Público o por cualquiera que, perteneciendo o no al orden judicial, ejerza
+jurisdicción, o los comandantes de las Fuerzas Armadas y los generales directores
+de Carabineros y la PDI.
 
 de estos, de alta dirección pública del primer nivel jerárquico o por un fiscal del Ministerio Público o por cualquiera que, perteneciendo o no al orden judicial, ejerza
 jurisdicción, o los comandantes de las Fuerzas Armadas y los generales directores
 de Carabineros y la PDI.
 
 ## 74 Consejo Asesor Presidencial Contra los Conflictos de Interés, el Tráfico de
+
+**Definición Canónica:** Influencias y la Corrupción, «Informe final», 24 de abril de 2015, p. 45, disponible en
+https://bit.ly/446cD0T.
+**Concordancias Legales:** artículo 470; Ley 21.121
 
 Influencias y la Corrupción, «Informe final», 24 de abril de 2015, p. 45, disponible en
 https://bit.ly/446cD0T.
@@ -6495,8 +6909,10 @@ calidad. La segunda se refiere a la administración desleal del patrimonio de so
 es proteger un patrimonio que en general puede estar compuesto por
 intereses muchas veces no representados en el órgano de administración (socios minoritarios), sobre todo pensando en aquellas sociedades
 
-
 ## 76 Sentencia de la Corte de Apelaciones de Santiago, rol 1420-2014, 21 de julio de
+
+**Definición Canónica:** 2014. Un análisis en detalle de la incorporación de esta figura se encuentra en Bofill,
+Jelvez y Contreras (2019).
 
 2014. Un análisis en detalle de la incorporación de esta figura se encuentra en Bofill,
 Jelvez y Contreras (2019).
@@ -6526,8 +6942,15 @@ era el único dueño:
       adquirir la propiedad para la sociedad El Lago Inmobiliaria y Comercial
       SpA.77
 
-
 ## 77 Sentencia del Tribunal Oral en lo Penal de Villarrica, RIT 1-2022, 29 de mayo
+
+**Definición Canónica:** de 2022. La sentencia, recurrida de nulidad, sufrió una modificación como sentencia de reemplazo, ya que erróneamente el Tribunal consideró como agravante el
+tratarse de una sociedad anónima especial, en circunstancias que se trataba de una
+sociedad por acciones. El Tribunal lo había considerado así al señalar: «Las sociedades por acciones son por concepto y según lo dispone el artículo 424 del Código
+de Comercio un tipo de sociedad en que la participación en el capital se representa
+en acciones, corresponde a un tipo especial de sociedad anónima cerrada, en lo no
+previsto por sus estatutos y 
+**Concordancias Legales:** artículo 424 del Código de Comercio un tipo de sociedad en que; artículo 424 del Código de Comercio; artículo 251; artículo 260 bis; artículo 103; artículo 485 del Código del Trabajo para referir expresamente; artículos 90; artículos 88; Ley 18.046; Ley 20.393; Ley 21.212; Ley 21.121
 
 de 2022. La sentencia, recurrida de nulidad, sufrió una modificación como sentencia de reemplazo, ya que erróneamente el Tribunal consideró como agravante el
 tratarse de una sociedad anónima especial, en circunstancias que se trataba de una
@@ -6743,8 +7166,10 @@ de Funcionarios Municipales
 A fin de conciliar el nuevo sistema de denuncias ante un órgano de control externo, con los mecanismos de reclamación y protección que rigen
 en la actualidad a favor de los funcionarios públicos y municipales, no
 
-
 ## 78 Decreto 2.421 de 1964, que Fija el Texto Refundido de la Ley de Organización y
+
+**Definición Canónica:** Atribuciones de la Contraloría General de la República, Ley 10.336.
+**Concordancias Legales:** artículos 90; artículos 88; artículo 211; artículo 211 bis; artículo 211 ter; artículo 264 bis; Ley 10.336; Ley 20.205
 
 Atribuciones de la Contraloría General de la República, Ley 10.336.
 
@@ -6837,8 +7262,13 @@ a propósito de este sistema de denuncias y los procedimientos que de
 estas se deriven. Así, se establece una pena aún más alta si la relevación
 indebida de la información se refiere a la identidad del denunciante.79
 
-
 ## 79 En cuanto a la vigencia de la ley, habiéndose dictado el XXX, se establece un
+
+**Definición Canónica:** período de vacancia, supeditándose su entrada en vigor transcurridos treinta días
+contados desde la fecha de la publicación en el Diario Oficial de un reglamento del
+Ministerio Secretaría General de la Presidencia, y suscrito también por el ministro de Hacienda, que debe regular los aspectos técnicos, de operatividad y de cualquier otra especie necesarios para la adecuada implementación y funcionamiento
+del canal de denuncia administrado por la Contraloría. El plazo para dictar dicho
+reglamento es de seis meses a contar de la publicación de la ley. Con todo, las modificaciones en el Código Pro
 
 período de vacancia, supeditándose su entrada en vigor transcurridos treinta días
 contados desde la fecha de la publicación en el Diario Oficial de un reglamento del
@@ -6852,8 +7282,11 @@ de tres meses desde la publicación de la ley para dictar instrucciones generale
 Academia Judicial de Chile                      La función pública como bien jurídico
 Materiales Docentes                                                       Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La función pública como bien jurídico protegido
+en los delitos de corrupción
+**Concordancias Legales:** artículo 119; artículo 388; Constitución
 
 La función pública como bien jurídico protegido
 en los delitos de corrupción
@@ -6883,6 +7316,11 @@ la Administración pública puede ser una manifestación de corrupción,
 
 ## 2 Habida cuenta que en el propio párrafo 5 las figuras de malversación se hacen
 
+**Definición Canónica:** extensibles «al que se halle encargado por cualquier concepto de fondos, rentas o
+efectos municipales o pertenecientes a un establecimiento público de instrucción o
+beneficencia» (artículo 238 del Código Penal).
+**Concordancias Legales:** artículo 238 del Código Penal
+
 extensibles «al que se halle encargado por cualquier concepto de fondos, rentas o
 efectos municipales o pertenecientes a un establecimiento público de instrucción o
 beneficencia» (artículo 238 del Código Penal).
@@ -6897,6 +7335,15 @@ cuales es paradigmática la prevaricación contenida en el mismo título
 5 (párrafo 4), aunque también la función jurisdiccional se protege en el
 
 ## título 4 del mismo libro Segundo, con delitos como el falso testimonio
+
+**Definición Canónica:** y el perjurio (párrafo 4), y también en el título 4, en la obstrucción a la
+investigación (párrafo 2 bis), figuras estas tres últimas que admiten ser
+cometidas por particulares.
+   Fuera del Código Penal encontramos más figuras, como en la legislación electoral, cuyos delitos no requieren obviamente a un empleado
+público como sujeto activo. Es más, reciente legislación ha salvaguardado el hecho de que, aun tratándose de particulares, se deja expresamente
+establecido que su labor constituye una función pública en los términos
+del artículo 260 del Código Penal, como el caso de los certificadores
+**Concordancias Legales:** artículo 260 del Código Penal; artículo 4; Ley 20.393; Ley 19.645; Ley 20.088; Ley 21.121
 
 y el perjurio (párrafo 4), y también en el título 4, en la obstrucción a la
 investigación (párrafo 2 bis), figuras estas tres últimas que admiten ser
@@ -6950,8 +7397,13 @@ corrupción, que haga posible entender qué es lo en verdad protegido en
 los delitos que puedan estar vinculados a esta y que finalmente permiten
 fundamentar su criminalización.
 
-
 ## 4 Piénsese en quien, mientras desempeña sus funciones en un establecimiento
+
+**Definición Canónica:** penal, aplica torturas en contra de una persona privada de libertad, motivadas en
+una discriminación por la orientación sexual de la persona privada de libertad. Si no
+lo consideramos corrupto, ¿cambiaría en algo nuestra opinión si además intervino
+como incentivo previo la promesa de un pago de dinero por parte de otros funcionarios para aplicar esa tortura? Y si quien comete la tortura fuere un particular, con
+aquiescencia de un funcionario, ¿sería un acto corrupto la tortura del particular?
 
 penal, aplica torturas en contra de una persona privada de libertad, motivadas en
 una discriminación por la orientación sexual de la persona privada de libertad. Si no
@@ -6960,6 +7412,11 @@ como incentivo previo la promesa de un pago de dinero por parte de otros funcion
 aquiescencia de un funcionario, ¿sería un acto corrupto la tortura del particular?
 
 ## 5 En contra Ramírez (2021: 14), quien en una reciente obra referida precisamente
+
+**Definición Canónica:** a la corrupción solo trata los delitos de los párrafos 5, 6, 9 y 9 bis del Código Penal,
+esto es, malversación, fraude al fisco y cohecho, habida cuenta de que consisten en
+«delitos relacionados con aspectos patrimoniales de la función pública».
+**Concordancias Legales:** artículo 1; artículo 260; artículo 8; artículo 52; artículo 53; artículo 119; artículo 388; artículos 216; artículo 236 del Código Penal; artículo 240 del Código Penal; Ley 18.575; Ley 19.645; Ley 20.730; Ley 20.880; Constitucion
 
 a la corrupción solo trata los delitos de los párrafos 5, 6, 9 y 9 bis del Código Penal,
 esto es, malversación, fraude al fisco y cohecho, habida cuenta de que consisten en
@@ -7258,6 +7715,12 @@ sido reconocido por nuestra jurisprudencia.16
 
 ## 14 En este sentido, resulta interesante la opinión de Cury Urzúa (1986: 226), quien
 
+**Definición Canónica:** ya entonces sostenía, respecto de la aplicación pública diferente, que no se justificaba su criminalización, pues «dispone el ordenamiento de recursos menos lesivos y
+quizás más eficaces para reaccionar en contra de infracciones de este género». Asimismo, en cuanto a la figura de la negociación incompatible, señalaba que «lo que
+se castiga es la ejecución de una acción a la que se encuentra no ya reprobable, sino,
+tan solo, temible o, menos aún, sospechosa, porque crea una apariencia de falta de
+parcialidad y honestidad».
+
 ya entonces sostenía, respecto de la aplicación pública diferente, que no se justificaba su criminalización, pues «dispone el ordenamiento de recursos menos lesivos y
 quizás más eficaces para reaccionar en contra de infracciones de este género». Asimismo, en cuanto a la figura de la negociación incompatible, señalaba que «lo que
 se castiga es la ejecución de una acción a la que se encuentra no ya reprobable, sino,
@@ -7265,6 +7728,10 @@ tan solo, temible o, menos aún, sospechosa, porque crea una apariencia de falta
 parcialidad y honestidad».
 
 ## 15 Una relación de la evolución del derecho administrativo sancionador de los
+
+**Definición Canónica:** últimos treinta años puede verse en Cordero Vega (2020).
+ 16 Por ejemplo, el Tribunal Constitucional ha señalado: «Los principios inspiradores del orden penal contemplados en la Constitución Política de la República
+**Concordancias Legales:** artículo 494; Constitucion; Constitución Política
 
 últimos treinta años puede verse en Cordero Vega (2020).
  16 Por ejemplo, el Tribunal Constitucional ha señalado: «Los principios inspiradores del orden penal contemplados en la Constitución Política de la República
@@ -7437,13 +7904,10 @@ infringido para lograr una diferenciación cualitativa de las infracciones
 disciplinarias, por lo que no cualquier infracción debe ser constitutiva
 de un ilícito penal (García Arán, 1990: 25).23
 
-
-## 22 Esta crítica ha sido replicada en Chile al señalarse que «la determinación de
-
-cuándo un tipo es de infracción de deber y cuándo no se convierte en un ejercicio
-fundamentalmente intuitivo y generador de un elevado nivel de inseguridad jurídica» (Gómez Martín, 2012: 16).
-
 ## 23 Incluso, para establecer un criterio diferenciador con el derecho administrativo
+
+**Definición Canónica:** sancionador, se ha llegado establecer la exigencia de una afectación adicional, consistente en la lesión de la confianza pública en el ejercicio del poder administrativo
+o judicial (Bacigalupo, 1983: 1097 y 1098).
 
 sancionador, se ha llegado establecer la exigencia de una afectación adicional, consistente en la lesión de la confianza pública en el ejercicio del poder administrativo
 o judicial (Bacigalupo, 1983: 1097 y 1098).
@@ -7481,8 +7945,9 @@ sin los deberes que conlleva el ejercicio de dicha función.
    Sin embargo, Rodríguez Collao y Ossandón Widow van más allá y
 aceptan la conceptualización de los delitos de infracción de deber, pero
 
-
 ## 24 En el caso de Colombia se puede citar a Suárez Sánchez (2000). En el caso de
+
+**Definición Canónica:** Perú, a García Cavero (1999, 2003).
 
 Perú, a García Cavero (1999, 2003).
 
@@ -7517,11 +7982,12 @@ certera los límites y criterios para identificar cuándo se está ante una
 institución penalmente relevante capaz de generar los deberes extrapenales; y ii) por las consecuencias que puede llegar a generar sobre todo
 en materia de interpretación para determinar la autoría.25 Respecto de la
 
-
 ## 25 Cabe advertir que incluso bajo el reconocimiento de estos delitos como figuras
 
+**Definición Canónica:** Academia Judicial de Chile                        La función pública como bien jurídico
+Materiales Docentes                                                         Capítulo 4
 
-Academia Judicial de Chile                        La función pública como bien jurídico
+Academia Judicial de Chile                        La función pública como bien jurídico
 Materiales Docentes                                                         Capítulo 4
 
 función pública, es particularmente sensible este segundo problema, y
@@ -7536,6 +8002,11 @@ Ossandón Widow, 2021: 124 y 125).
 
 ## 27 Con referencia especial a la consideración de los delitos de infracción de deber
 
+**Definición Canónica:** respecto de la malversación de caudales públicos y fraude al fisco, Mañalich (2012:
+359) señala: «Hay buenas razones para sostener que la categoría de los delitos de
+infracción de deber —al igual que la categoría contrapuesta, que supuestamente la
+volvería necesaria como su complemento, a saber: la categoría del dominio del hecho— es dogmáticamente inservible».
+
 respecto de la malversación de caudales públicos y fraude al fisco, Mañalich (2012:
 359) señala: «Hay buenas razones para sostener que la categoría de los delitos de
 infracción de deber —al igual que la categoría contrapuesta, que supuestamente la
@@ -7544,8 +8015,9 @@ volvería necesaria como su complemento, a saber: la categoría del dominio del 
 Academia Judicial de Chile                          Concepto penal de funcionario público
 Materiales Docentes                                                           Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Concepto penal de funcionario público
 
 Concepto penal de funcionario público
 
@@ -7568,12 +8040,11 @@ administrativo, en cuanto el término funcionario alude a cierta autoridad, en t
 funcionario y realiza tareas ejecutivas. Decimos que se trata más bien
 de una definición teórica, ya que en Chile en la práctica administrativa
 
-
-## 1 Fuera del título 5, algunos delitos en que se alude a funcionario público como
-
-sujeto activo son los artículos 109 y 411 bis, y en el encabezado del párrafo 4 del título
-
 ## 3. Dentro del título 5, los artículos 229 y 230 utilizan el término respecto del sujeto
+
+**Definición Canónica:** activo. En cambio, como sujeto pasivo, dentro del propio título 5 se utiliza en el cohecho a funcionario público extranjero (artículos 251 bis y 251 ter), y fuera de dicho
+título, en los artículos 261 y 384.
+**Concordancias Legales:** artículos 251 bis; artículos 261; artículo 260 del Código Penal; artículo 260 del Código Penal Año Texto del artículo; artículo 260
 
 activo. En cambio, como sujeto pasivo, dentro del propio título 5 se utiliza en el cohecho a funcionario público extranjero (artículos 251 bis y 251 ter), y fuera de dicho
 título, en los artículos 261 y 384.
@@ -7644,8 +8115,15 @@ aplicación se extendía a la administración municipal, en particular al
 tratarse de alcaldes y regidores. Más tarde, la reforma de 1962 tuvo cambios a nivel orgánico pero también a nivel funcional: desde el punto de
 vista orgánico, amplió expresamente su alcance a empresas y organismos creados por el Estado o dependientes de él, lo que permitía, por
 
-
 ## 2 Con la modernización del Estado de Chile en la primera mitad del siglo XX, se
+
+**Definición Canónica:** habían creado las siguientes instituciones de carácter fiscal o autónomo, entre otras:
+Caja Nacional de Empleados Públicos y Periodistas, Caja de Retiro y Previsión Social de los Ferrocarriles del Estado, Caja de Previsión de Carabineros de Chile, Caja
+de Retiro y Previsión Social de los Empleados Municipales de la República, Caja de
+Retiro y Montepío de las Fuerzas de la Defensa Nacional, Caja de Seguro Obligatorio, Caja de Ahorros de Empleados Públicos, Caja Nacional de Ahorros, Caja de
+Crédito Prendario y Popular, Instituto de Crédito Industrial, Sección Accidentes del
+Trabajo de la Caja Na
+**Concordancias Legales:** artículo 260 del Código Penal; artículo 260 del Código Penal aun teniendo dicho origen. Es; artículo 2; artículo 10; artículo 260
 
 habían creado las siguientes instituciones de carácter fiscal o autónomo, entre otras:
 Caja Nacional de Empleados Públicos y Periodistas, Caja de Retiro y Previsión Social de los Ferrocarriles del Estado, Caja de Previsión de Carabineros de Chile, Caja
@@ -7730,8 +8208,12 @@ elección popular:
       las personas que ocupan un cargo público, sea de planta o a contrata,
       sino también aquellas que adscriben a una función pública, la condición
 
-
 ## 3 Se trata de Carlos Cruz Lorenzen, acusado por el delito de fraude al fisco, quien
+
+**Definición Canónica:** se desempeñaba como coordinador general de Concesiones, función que no tenía
+un cargo propiamente tal reconocido en la planta del Ministerio de Obras Públicas.
+ 4 Sentencia de la Corte Suprema, rol 2.321-2007, 19 de mayo de 2008.
+**Concordancias Legales:** artículo 8; artículo 260; artículo 4; artículo 260 del Código Penal; artículo 260 del Código Penal Ya nos hemos referido respecto; artículo 260 del Código Penal. Este artículo contiene una defi; Ley 20.393; Constitución
 
 se desempeñaba como coordinador general de Concesiones, función que no tenía
 un cargo propiamente tal reconocido en la planta del Ministerio de Obras Públicas.
@@ -7771,8 +8253,10 @@ crímenes y simples delitos cometidos por empleados públicos en el desempeño d
 tratos crueles, inhumanos o degradantes, y de otros agravios inferidos
 por funcionarios públicos a los derechos garantidos por la Constitución»), ambos del Libro Segundo del Código Penal.
 
-
 ## 5 Sentencia de la Corte Suprema, rol 2.321-2007, 19 de mayo de 2008 (el destacado
+
+**Definición Canónica:** es nuestro).
+**Concordancias Legales:** artículo 193; artículo 199; artículo 260; artículo 260.7; artículo 260 del Código Penal Pese a que ya nos hemos referid
 
 es nuestro).
 
@@ -7807,6 +8291,13 @@ le atribuye el sentido correcto, de modo que no hay en este caso una afectación
 principio de legalidad.
 
 ## 7 En ese mismo sentido la política de actuación del Ministerio Público, al señalar
+
+**Definición Canónica:** que: «Atendido el desarrollo conceptual de que ha sido objeto el concepto del artículo 260 del Código Penal, se instruye instar por su aplicación siempre que el tipo
+penal exija la calidad de funcionario público, aunque se encuentre fuera del título 5
+o del párrafo 4 del título 3, ambos del Libro Segundo del Código Penal, amparados
+en la corriente doctrinaria que insta por un alcance amplio de la disposición legal».
+Ministerio Público, «Instrucción general que imparte criterios de actuación en delitos de corrupción», Oficio FN 278/2022, 8 de abril de 2022, p. 3.
+**Concordancias Legales:** artículo 260 del Código Penal; artículo 260; artículo 4; Ley 20.393
 
 que: «Atendido el desarrollo conceptual de que ha sido objeto el concepto del artículo 260 del Código Penal, se instruye instar por su aplicación siempre que el tipo
 penal exija la calidad de funcionario público, aunque se encuentre fuera del título 5
@@ -7880,13 +8371,10 @@ delitos, según el artículo 4 literal c) de la Ley 20.393: «Se entenderá que
 las personas naturales que participan en las actividades de certificación
 realizadas por las entidades señaladas en la letra anterior cumplen una
 
-
-## 8 Entre otros, puede mencionarse a Etcheberry (2010: 205), Balmaceda Hoyos
-
-(2012: 56) y Matus y Ramírez (2015: 271 y 272).
- 9 Jurisprudencia citada por Politoff, Matus y Ramírez (2006: 487).
-
 ## 10 Sentencia Corte de Apelaciones de Santiago, rol 2.100-2021, 11 de noviembre
+
+**Definición Canónica:** de 2021.
+**Concordancias Legales:** artículo 260 del Código Penal; artículo 150; artículo 2; artículo 2 de la Ley 18.334; artículo 1; Ley 20.032; Ley 18.334
 
 de 2021.
 
@@ -7925,6 +8413,9 @@ en un proceso de certificación en particular, por ejemplo.
 
 ## 12 Se ha cuestionado esta referencia por estimarse precisamente redundante, al ya
 
+**Definición Canónica:** comprenderse en el propio artículo 260 (Matus y Ramírez, 2017: 192).
+**Concordancias Legales:** artículo 260
+
 comprenderse en el propio artículo 260 (Matus y Ramírez, 2017: 192).
 
 Academia Judicial de Chile                       Concepto penal de funcionario público
@@ -7952,8 +8443,14 @@ dependientes de él, lo que también ha sido reconocido por la jurisprudencia al
        Según se desprende del artículo 260 transcrito, el concepto que intere-
       sa es susceptible de desglosarse en dos elementos constitutivos principa-
 
-
 ## 13 Bien lo constatan Rodríguez Collao y Ossandón Widow al señalar que ha sido
+
+**Definición Canónica:** un concepto omitido o derechamente excluido por autores como Etcheberry, Guzmán Dálbora, Bullemore y Mackinnon, e incluso ellos mismos con anterioridad. Sin
+embargo, en la actualidad lo consideran un concepto autónomo, ya que, si bien por
+lo general «quien desempeñe un cargo público ejercerá también una función pública, eso no es necesariamente así, en especial si se emplea un concepto restrictivo de
+función pública, que abarque únicamente la labor propia del Estado en función del
+principio de subsidiariedad». Esta concepción restrictiva la entiende por cuanto, «si
+rige un criterio de subsidia
 
 un concepto omitido o derechamente excluido por autores como Etcheberry, Guzmán Dálbora, Bullemore y Mackinnon, e incluso ellos mismos con anterioridad. Sin
 embargo, en la actualidad lo consideran un concepto autónomo, ya que, si bien por
@@ -7973,6 +8470,16 @@ Materiales Docentes                                                      Capítu
    Desde luego, en primer lugar caben todos los organismos que forman
 
 ## parte de la Administración pública, centralizada o no, y que comprende
+
+**Definición Canónica:** de acuerdo a la Ley 18.575 a ministerios, delegaciones y los órganos y
+servicios públicos creados para el cumplimiento de la función administrativa, incluidos la Contraloría General de la República, el Banco Central, las Fuerzas Armadas y las Fuerzas de Orden y Seguridad Pública,
+los gobiernos regionales, las municipalidades y las empresas públicas
+creadas por ley. Pero también se incluye al Poder Legislativo y Poder
+Judicial, y organismos autónomos constitucionales, como el Ministerio
+Público o el Tribunal Constitucional.
+   Pero también pueden incluirse instituciones de derecho privado, en
+t
+**Concordancias Legales:** artículo 260; artículo 255; Ley 18.575; constitucion
 
 de acuerdo a la Ley 18.575 a ministerios, delegaciones y los órganos y
 servicios públicos creados para el cumplimiento de la función administrativa, incluidos la Contraloría General de la República, el Banco Central, las Fuerzas Armadas y las Fuerzas de Orden y Seguridad Pública,
@@ -7998,10 +8505,16 @@ puede ser entendida como una función pública, el hecho de ser desem-
 
 ## 15 Sentencia Tribunal Oral en lo Penal de Castro, RIT 36-2009, 7 de octubre de
 
+**Definición Canónica:** 2009. En el mismo sentido, se ha considerado aplicable al tratarse de una Corporación de Desarrollo Social de una municipalidad: sentencia Corte de Apelaciones de
+Antofagasta, rol 199-2010, 14 de julio de 2010.
+
 2009. En el mismo sentido, se ha considerado aplicable al tratarse de una Corporación de Desarrollo Social de una municipalidad: sentencia Corte de Apelaciones de
 Antofagasta, rol 199-2010, 14 de julio de 2010.
 
 ## 16 Sentencia Corte de Apelaciones de Puerto Montt, rol 77-2011, 19 de mayo de
+
+**Definición Canónica:** 2008.
+**Concordancias Legales:** artículo 260; artículo 260 del Código Penal; artículo 19; artículo 1 de la Ley 18.575; Ley 18.575; Constitución; Constitucion
 
 2008.
 
@@ -8069,6 +8582,12 @@ deberá ser, asimismo, de cuórum calificado».
 
 ## 21 Este criterio también puede ser utilizado para distinguir la calidad de servidor
 
+**Definición Canónica:** público en el derecho administrativo.
+ 22 Recordemos que en el caso de Refinería de Petróleos de Concón, por ejemplo,
+se utilizó como criterio la injerencia de la Contraloría General de la República o la
+remisión de información al Congreso Nacional.
+**Concordancias Legales:** artículo 260; artículo 260 del Código Penal; artículo 1 de la Ley 18.575; Ley 18.575; Constitución Política; Constitucion
+
 público en el derecho administrativo.
  22 Recordemos que en el caso de Refinería de Petróleos de Concón, por ejemplo,
 se utilizó como criterio la injerencia de la Contraloría General de la República o la
@@ -8120,8 +8639,10 @@ del concepto.
 Academia Judicial de Chile       Autoría y participación en los delitos de corrupción
 Materiales Docentes                                                        Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Autoría y participación en los delitos de corrupción
+**Concordancias Legales:** artículos 229; artículos 223; artículo 227; artículo 231; artículos 109
 
 Autoría y participación en los delitos de corrupción
 
@@ -8176,8 +8697,12 @@ impropios), por lo cual el extraneus siempre responderá por el delito
 especial. Esta postura, que ha tenido un apoyo más bien minoritario en
 nuestra doctrina,2 se apoya, entre otros, en los siguientes argumentos:
 
-
 ## 1 Empleamos el término comunicabilidad por ser ampliamente utilizado por la
+
+**Definición Canónica:** doctrina para tratar esta problemática, aunque en estricto rigor no es exactamente correcto: «Porque aquí no se trata de comunicar la calidad de funcionario a un
+extraneus, esto es, de extenderle o transmitirle esa calidad, sino que el asunto es si
+puede imputarse a una persona en virtud de un tipo penal pese a que este parece
+dirigirse, en principio, solo a determinados sujetos» (Ossandón Widow, 2012: 61).
 
 doctrina para tratar esta problemática, aunque en estricto rigor no es exactamente correcto: «Porque aquí no se trata de comunicar la calidad de funcionario a un
 extraneus, esto es, de extenderle o transmitirle esa calidad, sino que el asunto es si
@@ -8185,6 +8710,9 @@ puede imputarse a una persona en virtud de un tipo penal pese a que este parece
 dirigirse, en principio, solo a determinados sujetos» (Ossandón Widow, 2012: 61).
 
 ## 2 Véase Garrido Montt (1997: 330 y ss.), Novoa Monreal (2005), Varas Videla
+
+**Definición Canónica:** (1941) y Schepeler (1953).
+**Concordancias Legales:** artículos 51; artículo 64 del Código Penal
 
 (1941) y Schepeler (1953).
 
@@ -8208,14 +8736,26 @@ esta cuestión, que se refiere a elementos del tipo penal (Garrido Montt,
 
 ## parte especial que sancionan expresamente al extraneus (artículo 250
 
+**Definición Canónica:** del Código Penal, por ejemplo) en nada modifican la aceptación de la
+tesis de la comunicabilidad; pues de no existir esta norma, este sujeto
+debería responder como coautor del delito especial de cohecho (artículos 248 y 248 bis).
+   A diferencia de la doctrina, esta tesis sí ha tenido mayor recepción a
+nivel jurisprudencial.4
+**Concordancias Legales:** artículos 248
+
 del Código Penal, por ejemplo) en nada modifican la aceptación de la
 tesis de la comunicabilidad; pues de no existir esta norma, este sujeto
 debería responder como coautor del delito especial de cohecho (artículos 248 y 248 bis).
    A diferencia de la doctrina, esta tesis sí ha tenido mayor recepción a
 nivel jurisprudencial.4
 
-
 ## 3 Artículo 64 del Código Penal: «Las circunstancias atenuantes o agravantes que
+
+**Definición Canónica:** consistan en la disposición moral del delincuente, en sus relaciones particulares con
+el ofendido o en otra causa personal, servirán para atenuar o agravar la responsabilidad de solo aquellos autores, cómplices o encubridores en quienes concurran. Las
+que consistan en la ejecución material del hecho o en los medios empleados para
+realizarlo, servirán para atenuar o agravar la responsabilidad únicamente de los que
+tuvieren conocimiento de ellas antes o en el momento de la acción o de su cooperación para el delito».
 
 consistan en la disposición moral del delincuente, en sus relaciones particulares con
 el ofendido o en otra causa personal, servirán para atenuar o agravar la responsabilidad de solo aquellos autores, cómplices o encubridores en quienes concurran. Las
@@ -8224,6 +8764,12 @@ realizarlo, servirán para atenuar o agravar la responsabilidad únicamente de l
 tuvieren conocimiento de ellas antes o en el momento de la acción o de su cooperación para el delito».
 
 ## 4 Sentencia de la Corte de Apelaciones de Santiago, rol 9.341-2006, 30 de marzo
+
+**Definición Canónica:** de 2007; sentencia de la Corte Suprema, rol 2.321-2007, 19 de mayo de 2008; sentencia de la Corte Suprema, rol 638-2008, 1 de julio de 2008 (en relación con delitos tributarios); sentencia de la Corte de Apelaciones de Concepción, rol 392-2008, 22 de
+enero de 2009; sentencia de la Corte de Apelaciones de San Miguel, rol 244-2011, 1
+de septiembre de 2011; y sentencia de la Corte de Apelaciones de Santiago, rol 2.2842010, 11 de agosto de 2014. Dentro de la jurisprudencia más reciente, apoyándose
+incluso en la indivisibilidad del título de castigo: sentencia del Tribunal Oral en lo
+**Concordancias Legales:** artículo 75 del Código Penal. iii; artículo 250 del Código Penal; artículo 64
 
 de 2007; sentencia de la Corte Suprema, rol 2.321-2007, 19 de mayo de 2008; sentencia de la Corte Suprema, rol 638-2008, 1 de julio de 2008 (en relación con delitos tributarios); sentencia de la Corte de Apelaciones de Concepción, rol 392-2008, 22 de
 enero de 2009; sentencia de la Corte de Apelaciones de San Miguel, rol 244-2011, 1
@@ -8258,6 +8804,14 @@ el legislador no ha querido que se comunicaran las circunstancias agravantes o a
 Penal de Los Ángeles, RIT 8-2019, 18 de marzo de 2019.
 
 ## 5 Fue defendida inicialmente por Cury Urzúa (1992). Sin embargo, luego cambió
+
+**Definición Canónica:** su postura a una comunicabilidad limitada, tanto porque cambió su interpretación
+del artículo 64 del Código Penal como para evitar vacíos de punibilidad: «No es posible ignorar el injusto que encierra la conducta de quien dolosamente colabora con
+el juez en la redacción y fundamentación de la sentencia contraria a la ley vigente y
+expresa, o la del que instruye a sabiendas al testigo para que preste una declaración
+mendaz» (Cury Urzúa, 2005: 646 y 647).
+ 6 Véase la sección «Delitos especiales y delitos de infracción de deber».
+**Concordancias Legales:** artículo 64 del Código Penal como para evitar vacíos de punib; artículo 233 del Código Penal; artículo 470; artículo 234 del Código Penal; artículo 64 del Código Penal; artículo 64
 
 su postura a una comunicabilidad limitada, tanto porque cambió su interpretación
 del artículo 64 del Código Penal como para evitar vacíos de punibilidad: «No es posible ignorar el injusto que encierra la conducta de quien dolosamente colabora con
@@ -8363,8 +8917,15 @@ ser autor quien lesiona un deber especial extrapenal que existe antes la
 formulación típica.
    Sin embargo, diversos autores, partiendo por Jakobs, han seguido profundizando esta conceptualización y sus consecuencias hasta establecer
 
-
 ## 10 Sentencia de la Corte de Apelaciones de San Miguel, rol 3.417-1998, 9 de agosto
+
+**Definición Canónica:** de 1999; sentencia de la Corte de Apelaciones de Santiago, rol 900-2011, 24 de octubre de 2011; sentencia de la Corte de Apelaciones de Santiago, rol 4.691-2020, 20 de
+octubre de 2020. Respecto de la Corte Suprema, cabría mencionar el fallo correspondiente a rol 3.799-2013, del 30 de septiembre de 2013, que alude precisamente a
+esta postura en fallos anteriores, rol 2.321-2007 y rol 4.507-2007. También existe un
+voto de prevención de los ministros Dolmestch y Künsemüller en la sentencia de la
+Corte Suprema, rol 17.014-2015, 17 de diciembre de 2015.
+ 11 Sección «La función pública como bien jur
+**Concordancias Legales:** artículo 233
 
 de 1999; sentencia de la Corte de Apelaciones de Santiago, rol 900-2011, 24 de octubre de 2011; sentencia de la Corte de Apelaciones de Santiago, rol 4.691-2020, 20 de
 octubre de 2020. Respecto de la Corte Suprema, cabría mencionar el fallo correspondiente a rol 3.799-2013, del 30 de septiembre de 2013, que alude precisamente a
@@ -8405,8 +8966,9 @@ en la infracción del deber del funcionario» (Ossandón Widow, 2012b:
 76). Así, dado que este deber es secundario, no puede fundamentar ninguna forma de autoría respecto de estos delitos de infracción de deber,
 aunque el particular tenga el dominio de la situación fáctica; es el funcionario obligado a proteger el patrimonio fiscal quien tiene la competencia primaria, pues a él se dirige la norma penal.
 
-
 ## 12 Ya hemos señalado que no necesariamente todo delito especial propio es un
+
+**Definición Canónica:** delito de infracción de deber.
 
 delito de infracción de deber.
 
@@ -8447,6 +9009,9 @@ al deber cualificado de un juez de ajustarse a la ley al dictar sentencia» (cit
 Balmaceda Hoyos, 2012: 70).
 
 ## 14 Sentencia del Tribunal Oral en lo Penal de Quillota, RIT 83-2013, 26 de octubre
+
+**Definición Canónica:** de 2013.
+**Concordancias Legales:** artículo 65.3 del Código Penal español señala; artículo 250 de Código Penal se sanciona a; artículo 248; artículos 248; artículo 150; artículo 194; artículo 300; Ley 20.968
 
 de 2013.
 
@@ -8510,6 +9075,11 @@ se refiere este artículo».
 
 ## 16 Cabe señalar que con esto no se agotan los problemas de comunicabilidad y de
 
+**Definición Canónica:** autoría y participación en materia de delitos vinculados a corrupción. Así, subsisten
+interrogantes en aquellos casos en que: i) en un delito especial el autor es un extraneus y participa accesoriamente el intraneus; y ii) existe una autoría mediata, sea
+de un instrumento no cualificado o cualificado. En detalle sobre estos casos, véase
+Rodríguez Collao y Ossandón Widow (2021: 142 y 143, 151-159).
+
 autoría y participación en materia de delitos vinculados a corrupción. Así, subsisten
 interrogantes en aquellos casos en que: i) en un delito especial el autor es un extraneus y participa accesoriamente el intraneus; y ii) existe una autoría mediata, sea
 de un instrumento no cualificado o cualificado. En detalle sobre estos casos, véase
@@ -8518,8 +9088,11 @@ Rodríguez Collao y Ossandón Widow (2021: 142 y 143, 151-159).
 Academia Judicial de Chile          Principales delitos contra la Administración pública
 Materiales Docentes                                                           Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Principales delitos contra la Administración pública
+que afectan la imparcialidad de la función pública
+**Concordancias Legales:** Ley 19.645; Ley 19.829; Ley 20.341; Ley 20.730; Ley 21.121; Ley 20.393; Ley 19.645.5; Constitución
 
 Principales delitos contra la Administración pública
 que afectan la imparcialidad de la función pública
@@ -8608,13 +9181,10 @@ jurisprudencia luego de la modificación por la Ley 19.645.5
 del estudio posterior de las distintas conductas típicas en específico, es
 claro que basta la realización de cualquiera de ellas para la consuma-
 
-
-## 3 Un exhaustivo análisis de los conceptos dados por la doctrina, sobre todo la
-
-española, en Rodríguez Collao y Ossandón Widow (2021: 353-356).
- 4 En el mismo sentido Rodríguez Collao y Ossandón Widow (2021: 362). Destacable en ese sentido Mañalich (2018).
-
 ## 5 Sentencia de la Corte Suprema, rol 496-2011, 4 de diciembre de 2012; y sentencia
+
+**Definición Canónica:** de la Corte de Apelaciones de Santiago, rol 2.735-2010, 24 de enero de 2012.
+**Concordancias Legales:** artículo 248; artículo 251; artículo 250; artículo 251 bis; Ley 21.121
 
 de la Corte de Apelaciones de Santiago, rol 2.735-2010, 24 de enero de 2012.
 
@@ -8709,8 +9279,11 @@ principio de imparcialidad como eje central del correcto funcionamiento de la Ad
       principio de igualdad y la prohibición de toda forma de discriminación
       arbitraria (Artaza Varela, 2016: 322).
 
-
 ## 9 Donde se ha discutido no solo cuál es el objeto de tutela, sino también si existe
+
+**Definición Canónica:** un único bien jurídico protegido, tanto por el cohecho del funcionario como por el
+del particular, o si, por el contrario, ambas clases de cohecho buscan cautelar intereses diferentes.
+**Concordancias Legales:** artículo 248; Ley 21.121
 
 un único bien jurídico protegido, tanto por el cohecho del funcionario como por el
 del particular, o si, por el contrario, ambas clases de cohecho buscan cautelar intereses diferentes.
@@ -8745,8 +9318,10 @@ Collao y Ossandón Widow, 2021: 367). Como señalamos, no se requiere
 en caso alguno que el funcionario reciba algo del particular para que su
 comportamiento se considere típico.
 
-
 ## 10 Para Rodríguez Collao y Ossandón Widow (2021: 366), las dos hipótesis del
+
+**Definición Canónica:** artículo 248, esto es, incisos primero y segundo, constituyen la figura básica de cohecho.
+**Concordancias Legales:** artículo 248; Ley 21.121
 
 artículo 248, esto es, incisos primero y segundo, constituyen la figura básica de cohecho.
 
@@ -8772,8 +9347,16 @@ especificada.12
    Cabe analizar también si tiene alguna relevancia la cuantía del beneficio económico solicitado o aceptado por el funcionario público, así
 como el hecho de que consista en atenciones que resultan corrientes en
 
-
 ## 11 Se ha observado acertadamente que la incorporación de esta segunda variante
+
+**Definición Canónica:** de beneficio «(de otra naturaleza), produce una distorsión en relación con la figura
+de exacción ilegal del artículo 241, que solo se refiere al funcionario que exige un
+beneficio, que solo puede ser económico» (Oliver Calderón, 2021: 784). El vacío entonces se refiere al caso en que el funcionario exige un beneficio de otra naturaleza.
+Una opción podría ser, planteada por el mismo Oliver Calderón, considerar que
+quien exige también solicita, por lo que podría eventualmente aplicarse la figura de
+cohecho del artículo 248 inciso segundo. El inconveniente sería que tendría menor
+pena que si la e
+**Concordancias Legales:** artículo 241; artículo 248
 
 de beneficio «(de otra naturaleza), produce una distorsión en relación con la figura
 de exacción ilegal del artículo 241, que solo se refiere al funcionario que exige un
@@ -8785,6 +9368,9 @@ pena que si la exigencia tratase sobre un beneficio económico, lo que por supue
 como plantea Oliver Calderón, requiere de una corrección legal.
 
 ## 12 Sentencia de la Corte de Apelaciones de Santiago, rol 726-2010, 13 de junio de
+
+**Definición Canónica:** 2010.
+**Concordancias Legales:** artículo 251; artículos 248; artículo 251 bis; artículo 248; artículos 248 bis; artículo 250; Ley 21.121
 
 2010.
 
@@ -8822,8 +9408,10 @@ sistemática para dicha exclusión, compartimos que:
       cuando las conductas de solicitar o consentir en dar donativos se basan
       en las mismas consideraciones (Oliver Calderón, 2021: 793).
 
-
 ## 13 Este último término sí se considera en el inciso segundo de la norma, donde
+
+**Definición Canónica:** precisamente se señala en qué casos no es aplicable, a pesar de que carece de sentido
+excluirlo, toda vez que no fue mencionado antes.
 
 precisamente se señala en qué casos no es aplicable, a pesar de que carece de sentido
 excluirlo, toda vez que no fue mencionado antes.
@@ -8858,8 +9446,11 @@ por nuestra jurisprudencia.15 Sobre este segundo criterio, el Ministerio
 Público ha señalado en relación con el concepto de regalo que autoriza
 la costumbre como manifestación de cortesía y buena educación, que
 
-
 ## 14 Ministerio Público, «Instrucción general que imparte criterios de actuación
+
+**Definición Canónica:** en delitos de corrupción», 10.
+ 15 Sentencia de la Corte de Apelaciones de Antofagasta, rol 370-2010, 16 de diciembre de 2010. A raíz de esta sentencia, en detalle: García Palominos (2019a).
+**Concordancias Legales:** artículo 248 del Código Penal constituye una de las principale; artículos 332; artículo 372; artículos 318; artículo 62; artículo 248; artículos 422; artículo 259; artículo 251 bis; Ley 21.121; Ley 18.575; Constitucion
 
 en delitos de corrupción», 10.
  15 Sentencia de la Corte de Apelaciones de Antofagasta, rol 370-2010, 16 de diciembre de 2010. A raíz de esta sentencia, en detalle: García Palominos (2019a).
@@ -8954,6 +9545,16 @@ deficiencia de la investigación». Informe de la Comisión Mixta, 22 de octubre
 2018, Boletín 10.739-07, pp. 211 y 213-214, disponible en https://bit.ly/44nP1F2.
 
 ## 19 El autor menciona como ejemplo —mirándolos desde el cohecho del particular
+
+**Definición Canónica:** en relación con el artículo 248 inciso primero— el caso de un millonario filántropo
+que ofrece a todos los funcionarios públicos del país que, por encontrarse asignados
+al último grado de la Escala Única de Sueldos de la Administración pública, reciben
+una remuneración baja, una cantidad importante de dinero por una sola vez y al
+mismo tiempo para todos, en reconocimiento a la abnegada labor que ejercen. O
+bien, el caso de una persona que siente una especial atracción sexual por quienes
+ejercen determinados cargos en la Administración del Estado, solo por ejercerlos,
+por lo que les envía mensa
+**Concordancias Legales:** artículo 248; artículo 62; artículo 250 bis; artículo 251; artículo 62 de la Ley 18.575. Así; artículo 62 de la Ley 18.575. Ello permite darle un sentido a l; artículo 248 del Código Penal señala; Ley 18.575; Ley 21.121
 
 en relación con el artículo 248 inciso primero— el caso de un millonario filántropo
 que ofrece a todos los funcionarios públicos del país que, por encontrarse asignados
@@ -9064,8 +9665,14 @@ con el cargo
 Esta exigencia típica es la diferencia sustancial en relación con la figura
 básica del inciso primero, pues necesariamente el beneficio debe solicitarse o aceptarse por o para la ejecución de un acto.
 
-
 ## 21 Al tratarse de una figura penal distinta del artículo 248 inciso primero, bien
+
+**Definición Canónica:** pudo establecerse en un artículo distinto. No obstante, durante la tramitación del
+proyecto de ley en el cual se incorporó el tipo básico antes estudiado, se optó por
+mantenerla en el mismo artículo, pasando a ser un inciso segundo, debido al gran
+volumen de referencias a este artículo que podían existir en nuestra legislación desde otras normas tanto dentro como fuera del Código Penal.
+  22 Dependiendo de la modalidad, podría verificarse una malversación de caudales públicos.
+**Concordancias Legales:** artículo 248
 
 pudo establecerse en un artículo distinto. No obstante, durante la tramitación del
 proyecto de ley en el cual se incorporó el tipo básico antes estudiado, se optó por
@@ -9093,13 +9700,21 @@ no sería típica la conducta de la persona que, desempeñándose como
 guardia de una municipalidad, solicita o acepta un beneficio económico para destruir un expediente de sumario administrativo instruido en
 contra de otro empleado municipal, toda vez que este acto no se encuentra dentro de su esfera de competencia.
 
-
 ## 23 Los autores refieren también la doctrina española en referencia a su Código
+
+**Definición Canónica:** Penal, que presenta similitudes con el caso chileno. A nivel de jurisprudencia también se ha reconocido: por ejemplo, aunque referente al artículo 248 bis del Código
+Penal, sentencia de la Corte Suprema, rol 5.898-2008, 26 de enero de 2008.
+**Concordancias Legales:** artículo 248 bis del Código Penal
 
 Penal, que presenta similitudes con el caso chileno. A nivel de jurisprudencia también se ha reconocido: por ejemplo, aunque referente al artículo 248 bis del Código
 Penal, sentencia de la Corte Suprema, rol 5.898-2008, 26 de enero de 2008.
 
 ## 24 De ahí la clasificación ampliamente aceptada por la doctrina sobre cohecho
+
+**Definición Canónica:** antecedente (se solicita o acepta el beneficio para la ejecución posterior de un acto)
+y cohecho subsiguiente (se solicita o acepta el beneficio por la ejecución posterior
+de un acto).
+**Concordancias Legales:** artículo 248 bis; artículo 251; artículo 249; artículo 240 bis; artículo 250; Ley 21.121
 
 antecedente (se solicita o acepta el beneficio para la ejecución posterior de un acto)
 y cohecho subsiguiente (se solicita o acepta el beneficio por la ejecución posterior
@@ -9273,8 +9888,14 @@ vino a poner fin a este problema, al contemplar expresamente la pena de
 cárcel para la figura agravada de cohecho del artículo 249. Con todo, se
 ha reparado que se han generado nuevos problemas penológicos, toda
 
-
 ## 30 En este sentido, Mañalich (2018: 108), para quien siempre sería aplicable en
+
+**Definición Canónica:** estos casos el artículo 248 bis.
+ 31 Para evitar este problema, un sector de la doctrina nacional proponía una interpretación restrictiva del artículo 250, que permitiera concluir que la pena privativa
+de libertad que este contemplaba para el particular que ofrecía o consentía en dar
+un beneficio a un empleado para que cometiera ciertos delitos funcionarios solo se
+aplicara si el empleado en efecto cometía el delito funcionario.
+**Concordancias Legales:** artículo 248 bis; artículo 250; artículo 249; artículo 248; artículos 248; Ley 21.121; Ley 20.341
 
 estos casos el artículo 248 bis.
  31 Para evitar este problema, un sector de la doctrina nacional proponía una interpretación restrictiva del artículo 250, que permitiera concluir que la pena privativa
@@ -9355,8 +9976,10 @@ si se depositara una suma de dinero en la cuenta corriente bancaria
 de un funcionario, a través de una transferencia electrónica, sin antes
 comunicárselo. En un caso así no se está ofreciendo nada, sino que se
 
-
 ## 32 Sentencia de la Corte de Apelaciones de Santiago, rol 2.735-2010, 24 de enero
+
+**Definición Canónica:** de 2012.
+**Concordancias Legales:** artículo 250 bis; artículos 248
 
 de 2012.
 
@@ -9390,8 +10013,12 @@ El artículo 250 bis dispone:
 una actuación de las previstas en los tipos básico o agravado de cohecho
 del funcionario de los artículos 248 o 248 bis, que medie en una causa
 
-
 ## 33 El autor señala que «una cosa distinta es que, antes de esta ley, en cualquier
+
+**Definición Canónica:** causa penal por soborno, la comprobación de un comportamiento consistente en
+dar un beneficio a un funcionario, haya podido servir para inferir su previo ofrecimiento o la acción de haber consentido en darlo, únicas conductas del particular
+que eran típicas para efectos de este delito».
+**Concordancias Legales:** artículo 250 bis; artículo 250 bis del Código Penal; artículo 250 del Código Penal. Cohecho a funcionario público; artículo 251 bis
 
 causa penal por soborno, la comprobación de un comportamiento consistente en
 dar un beneficio a un funcionario, haya podido servir para inferir su previo ofrecimiento o la acción de haber consentido en darlo, únicas conductas del particular
@@ -9427,8 +10054,10 @@ El artículo 251 bis dispone:
       internacionales o de una actividad económica desempeñada en el ex-
       tranjero, ofreciere, prometiere, diere o consintiere en dar a un funciona-
 
-
 ## 34 Sentencia de la Corte de Apelaciones de Santiago, 726-2010, 21 de junio de
+
+**Definición Canónica:** 2010.
+**Concordancias Legales:** artículo 250 bis; artículos 251 bis; Ley 19.829; Ley 20.341
 
 2010.
 
@@ -9461,6 +10090,13 @@ en Chile expresamente esta figura para cumplir con el mandato derivado de la Con
  35 En virtud de la Ley 20.341 de 2009 que llevó dichos artículos a un nuevo párrafo 9 bis, denominado «Cohecho a funcionarios públicos extranjeros», y que consagró en los artículos 251 bis y 251 ter esta figura.
 
 ## 36 El artículo 8, inciso primero, dispone: «Con sujeción a su Constitución y a los
+
+**Definición Canónica:** principios fundamentales de su ordenamiento jurídico, cada Estado parte prohibirá
+y sancionará el acto de ofrecer u otorgar a un funcionario público de otro Estado, directa o indirectamente, por parte de sus nacionales, personas que tengan residencia
+habitual en su territorio y empresas domiciliadas en él, cualquier objeto de valor pecuniario u otros beneficios, como dádivas, favores, promesas o ventajas, a cambio de
+que dicho funcionario realice u omita cualquier acto, en el ejercicio de sus funciones
+públicas, relacionado con una transacción de naturaleza económica o comercial».
+**Concordancias Legales:** artículo 251 ter; artículo 1.4; artículo 6; artículo 248; artículo 248 bis; artículo 249; artículo 251 bis; Ley 21.121
 
 principios fundamentales de su ordenamiento jurídico, cada Estado parte prohibirá
 y sancionará el acto de ofrecer u otorgar a un funcionario público de otro Estado, directa o indirectamente, por parte de sus nacionales, personas que tengan residencia
@@ -9598,8 +10234,10 @@ público extranjero         años], inhabilitación [de 3 años     grado mínim
 Academia Judicial de Chile    Principales delitos que afectan aspectos patrimoniales
 Materiales Docentes                                                       Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Principales delitos contra la Administración pública
+que afectan aspectos patrimoniales
 
 Principales delitos contra la Administración pública
 que afectan aspectos patrimoniales
@@ -9622,6 +10260,10 @@ El delito de malversación de caudales públicos consiste, a grandes rasgos, en 
 de apropiación o alteración de bienes públicos o equiparados a ellos, por
 
 ## parte de quien los tiene a su cargo en virtud de una específica función
+
+**Definición Canónica:** también pública» (Guzmán Dálbora, 2009a: 332). Por ello, existe consenso en que la malversación, conforme lo señala esta definición, se trata de una mala inversión de recursos públicos, que puede corresponder
+a una apropiación de los recursos, lo que se conoce como peculado, pero
+**Concordancias Legales:** artículo 233; artículo 234; artículo 235; artículo 236; artículo 237; artículo 238
 
 también pública» (Guzmán Dálbora, 2009a: 332). Por ello, existe consenso en que la malversación, conforme lo señala esta definición, se trata de una mala inversión de recursos públicos, que puede corresponder
 a una apropiación de los recursos, lo que se conoce como peculado, pero
@@ -9649,6 +10291,14 @@ pertenecen a particulares.2
  1 En cambio, para otros, el bien jurídico protegido sería la probidad administrativa (Politoff, Matus y Ramírez, 2006: 469 y 470).
 
 ## 2 Por ello, para distinguir de la malversación propia, algunos llaman malversación
+
+**Definición Canónica:** impropia aquella cometida por particulares (artículo 238), o bien para referirse a los
+casos en que no hay apropiación, sino una mera distracción (artículo 235), o para
+referirse a los casos de malversación por imprudencia (artículo 234). Dado lo equívoco del concepto, hemos optado por prescindir de él.
+ 3 En Italia se despenalizó en 1990 la malversación por aplicación pública diferente,
+en tanto en Alemania se derogaron los delitos de malversación por su evidente desproporción con el tipo común de la apropiación indebida. En España, por su parte,
+con el Código Penal de 1995 se despenalizaron 
+**Concordancias Legales:** artículo 238; artículo 235; artículo 234; artículo 237; artículo 233; artículo 236; artículo 17
 
 impropia aquella cometida por particulares (artículo 238), o bien para referirse a los
 casos en que no hay apropiación, sino una mera distracción (artículo 235), o para
@@ -9685,6 +10335,13 @@ Unidas contra la Corrupción, que dispone en su artículo 17:
 
 ## 5 Estas críticas en general son tratadas en Rodríguez Collao y Ossandón Widow
 
+**Definición Canónica:** (2021: 444 y 445). También en Guzmán Dálbora (2009a: 346 y 347), aunque defiende
+la punibilidad de la malversación por aplicación pública diferente, ya que «permite
+sancionar una vasta gama de conductas que entorpecen seriamente el impulso administrativo, la gestión objetiva de los medios económicos del Estado y los fines de
+beneficio social a que responden». Además, destaca su propuesta de reemplazar la
+malversación por distracción por una que sancione el «empleo indebido de mano de
+obra o de servicios pagados por el Estado».
+
 (2021: 444 y 445). También en Guzmán Dálbora (2009a: 346 y 347), aunque defiende
 la punibilidad de la malversación por aplicación pública diferente, ya que «permite
 sancionar una vasta gama de conductas que entorpecen seriamente el impulso administrativo, la gestión objetiva de los medios económicos del Estado y los fines de
@@ -9693,6 +10350,13 @@ malversación por distracción por una que sancione el «empleo indebido de mano
 obra o de servicios pagados por el Estado».
 
 ## 6 En contra, Rodríguez Collao y Ossandón Widow (2021: 443), para quienes el
+
+**Definición Canónica:** numeral 1 del artículo 6, en su literal c), abarcaría en términos bastante amplios la
+malversación: «La realización por parte de un funcionario público o una persona
+que ejerza funciones públicas de cualquier acto u omisión en el ejercicio de sus
+funciones, con el fin de obtener ilícitamente beneficios para sí mismo o para un
+tercero».
+**Concordancias Legales:** artículo 6
 
 numeral 1 del artículo 6, en su literal c), abarcaría en términos bastante amplios la
 malversación: «La realización por parte de un funcionario público o una persona
@@ -9729,8 +10393,15 @@ figura residual aplicable al particular que interviene junto al funcionario
 público, sino que se señala la apropiación indebida, el hurto o la estafa
 dependiendo de las circunstancias concretas del acto y la modalidad
 
-
 ## 7 Sentencia de la Corte de Apelaciones de Rancagua, rol 59-2010, 10 de marzo de
+
+**Definición Canónica:** 2010.
+  8 Con excepción de Mañalich (2012: 362), quien señala que: «Los delitos de malversación constituyen delitos especiales (propios). Esto se debe, única y exclusivamente, a que la posición del destinatario de la norma cuyo quebrantamiento es delictivo solo puede ser ocupada por una persona que exhibe el estatus de funcionario
+público, tal como este se encuentra definido por el artículo 260 del Código Penal.
+Las normas cuyo quebrantamiento puede ser constitutivo de alguna modalidad de
+malversación punible, en otros términos, son normas específicamente dirigidas a
+aquellas personas que exhi
+**Concordancias Legales:** artículo 260 del Código Penal. Las normas cuyo quebrantamiento; artículo 233; artículo 233 del Código Penal castiga la forma más grave de pe
 
 2010.
   8 Con excepción de Mañalich (2012: 362), quien señala que: «Los delitos de malversación constituyen delitos especiales (propios). Esto se debe, única y exclusivamente, a que la posición del destinatario de la norma cuyo quebrantamiento es delictivo solo puede ser ocupada por una persona que exhibe el estatus de funcionario
@@ -9773,15 +10444,19 @@ empleado que realiza o puede ya realizar sobre la cosa actos que solo
 
 ## 10 Sentencia de la Corte Suprema, rol 122.925, del 29 de mayo de 2023. En igual
 
+**Definición Canónica:** sentido, las sentencias también de la Corte Suprema en rol 13.823-2014, del 16 de
+abril de 2015; rol 29.891-2014, de 8 de octubre de 2015; y rol 59.856-2022, del 3 de
+mayo de 2023, a los que hace precisamente referencia el primer fallo indicado.
+
 sentido, las sentencias también de la Corte Suprema en rol 13.823-2014, del 16 de
 abril de 2015; rol 29.891-2014, de 8 de octubre de 2015; y rol 59.856-2022, del 3 de
 mayo de 2023, a los que hace precisamente referencia el primer fallo indicado.
 
-## 11 Si bien hemos denominado la figura del artículo 233 como malversación por
-
-apropiación, por ser tradicionalmente la terminología utilizada en doctrina y jurisprudencia, por lo que expondremos aquí cabría referirse más bien a una malversación por sustracción.
-
 ## 12 Para Guzmán Dálbora, no es asimilable la figura porque, a diferencia del hurto
+
+**Definición Canónica:** y la apropiación indebida, aquí no se exige ánimo de lucro y es posible la comisión
+por omisión.
+**Concordancias Legales:** artículo 238 del Código Penal extiende la posibilidad de consi
 
 y la apropiación indebida, aquí no se exige ánimo de lucro y es posible la comisión
 por omisión.
@@ -9880,6 +10555,13 @@ bienes (Rodríguez Collao y Ossandón Widow, 2021: 451).
 
 ## 16 Bien se señala que, excepcionalmente, el artículo 238 del Código Penal extiende
 
+**Definición Canónica:** la sanción de estos delitos a cualquiera, funcionario público o particular, que «por
+cualquier concepto» se halle «encargado» de fondos municipales o pertenecientes
+a una institución pública de instrucción o beneficencia. En este caso, la relación del
+empleado o del particular con la cosa no debe provenir exclusivamente del reglamento o la ley, y puede fundarse en una orden administrativa dada por el funcionario competente (Politoff, Matus, y Ramírez, 2006: 493).
+ 17 Sentencia de la Corte Suprema, rol 735-2006, 30 de enero de 2006.
+**Concordancias Legales:** artículo 233; artículo 235; artículo 63
+
 la sanción de estos delitos a cualquiera, funcionario público o particular, que «por
 cualquier concepto» se halle «encargado» de fondos municipales o pertenecientes
 a una institución pública de instrucción o beneficencia. En este caso, la relación del
@@ -9914,8 +10596,13 @@ jurisprudencia. Por ejemplo, se ha señalado:
       públicos o de particulares en depósito, consignación o secuestro, obli-
       gación que compete al tesorero municipal.20
 
-
 ## 18 Sentencia de la Corte de Apelaciones de Coyhaique, rol 31-2009, 28 de abril de
+
+**Definición Canónica:** 2009.
+  19 Sentencia de la Corte Suprema, rol 38.490-2017, 24 de agosto de 2018. La relevancia del fallo es que constituye una sentencia de reemplazo, en el denominado
+«caso Riggs», precisamente porque, entre otras causas, el fallo de segunda instancia
+había absuelto a tres acusados por estimar que no se había cumplido con la exigencia legal «de que los bienes públicos o privados estén vinculados al funcionario por
+una especial relación de custodia determinada por disposiciones legales o reglamentarias del derecho administrativo».
 
 2009.
   19 Sentencia de la Corte Suprema, rol 38.490-2017, 24 de agosto de 2018. La relevancia del fallo es que constituye una sentencia de reemplazo, en el denominado
@@ -9924,6 +10611,9 @@ había absuelto a tres acusados por estimar que no se había cumplido con la exi
 una especial relación de custodia determinada por disposiciones legales o reglamentarias del derecho administrativo».
 
 ## 20 Sentencia de la Corte de Apelaciones de Concepción, rol 13.060-2002, 7 de
+
+**Definición Canónica:** abril de 2006.
+**Concordancias Legales:** artículo 233; artículo 235; artículo 235.22; artículo 234
 
 abril de 2006.
 
@@ -9952,6 +10642,11 @@ en este último caso sería aplicable la figura del artículo 234, que analizare
 496) y Guzmán Dálbora (2009b: 362).
 
 ## 23 Se ha señalado correctamente que, en caso de existir un error de tipo, referido
+
+**Definición Canónica:** por ejemplo a la calidad de funcionario o al carácter de los bienes, nunca tendría
+aplicación este tipo penal, ni siquiera tratándose de un error de tipo evitable, por no
+admitir ejecución culposa (Rodríguez Collao y Ossandón Widow, 2021: 459).
+**Concordancias Legales:** artículo 235; artículo 233 de la Ley 21.121 Hipótesis Antes de; artículo 234; artículo 233; Ley 21.121
 
 por ejemplo a la calidad de funcionario o al carácter de los bienes, nunca tendría
 aplicación este tipo penal, ni siquiera tratándose de un error de tipo evitable, por no
@@ -10025,14 +10720,23 @@ pueden serlo el empleado que tiene los fondos a su cargo como el superior suyo q
 solo tiene sentido si, como vimos, se tiene una concepción restrictiva de
 la expresión «teniendo a cargo» para aplicar el artículo 233. Sin perjuicio
 
-
 ## 24 En la sección anterior señalábamos que resultaba más adecuada denominar la
+
+**Definición Canónica:** figura del artículo 233 como malversación por sustracción en lugar de apropiación.
+Sin embargo, en este caso no cabría hablar de malversación por sustracción imprudente, pues, como veremos, por un lado está la imprudencia del funcionario y por
+otro la sustracción de un tercero.
+**Concordancias Legales:** artículo 233
 
 figura del artículo 233 como malversación por sustracción en lugar de apropiación.
 Sin embargo, en este caso no cabría hablar de malversación por sustracción imprudente, pues, como veremos, por un lado está la imprudencia del funcionario y por
 otro la sustracción de un tercero.
 
 ## 25 Sin embargo, si el fundamento del delito fuese principalmente la infracción al
+
+**Definición Canónica:** deber de cuidado del funcionario en virtud de su posición de garante, no tendría
+mayor sentido tener el mismo régimen de penalidad del artículo 233 para la pena
+privativa de libertad, pues bajo ese régimen lo principal es la cuantía de lo sustraído.
+**Concordancias Legales:** artículo 233; artículo 235
 
 deber de cuidado del funcionario en virtud de su posición de garante, no tendría
 mayor sentido tener el mismo régimen de penalidad del artículo 233 para la pena
@@ -10069,8 +10773,13 @@ figuras, como el sujeto activo o el objeto material, veremos a continuación
 aquellos aspectos que representan una diferencia, aunque sin duda lo
 más relevante al estudiar este tipo de malversación es precisamente
 
-
 ## 26 Sentencia del Tribunal Oral en lo Penal de Quillota, RIT 83-2013, 26 de octubre
+
+**Definición Canónica:** de 2013.
+ 27 Sentencia de la Corte Suprema, 30 de junio de 1971.
+ 28 Sentencia de la Corte de Apelaciones de Concepción, 2 de noviembre de 1911.
+ 29 Sentencia de la Corte de Apelaciones de Concepción, 30 de agosto de 1904.
+**Concordancias Legales:** artículo 233; artículo 235
 
 de 2013.
  27 Sentencia de la Corte Suprema, 30 de junio de 1971.
@@ -10142,6 +10851,15 @@ optarían por un criterio subjetivo si los bienes han sido entregados en adminis
 
 ## 33 Sentencia de la Corte Suprema, rol 38.490-2007, 24 de agosto de 2018; en el
 
+**Definición Canónica:** mismo sentido, sentencia de la Corte de Apelaciones de Copiapó, rol 454-2014, 25
+de enero de 2018. Un tercer criterio diferenciador ha sido propuesto por Mañalich
+(2012: 366-372), para quien los criterios anteriores parten de la base de que son aplicables a las mismas hipótesis, en circunstancias que el autor postula que se aplican
+a contextos distintos. Así, el artículo 235 es aplicable al funcionario que tiene los
+fondos en calidad de depositaria, en tanto que el artículo 235 es aplicable respecto
+de aquel que los tiene con facultades de administración o inversión, es decir, como
+funcionario
+**Concordancias Legales:** artículo 235; artículo 233; artículo 236
+
 mismo sentido, sentencia de la Corte de Apelaciones de Copiapó, rol 454-2014, 25
 de enero de 2018. Un tercer criterio diferenciador ha sido propuesto por Mañalich
 (2012: 366-372), para quien los criterios anteriores parten de la base de que son aplicables a las mismas hipótesis, en circunstancias que el autor postula que se aplican
@@ -10176,8 +10894,12 @@ además explicaría sin dificultad que en una y otra disposición el legislador 
 para el servicio como criterio auxiliar de cuantificación del injusto correspondiente, para los efectos de la magnitud de la penalidad del hecho
 (Mañalich, 2012: 370).
 
-
 ## 34 Agregan los autores que si dicha conclusión, perjudicial al funcionario, es por
+
+**Definición Canónica:** expresa disposición de la ley, de igual modo no habría inconvenientes para la conclusión contraria a favor de este, esto es, que si hay objetivamente reintegro, aun
+cuando la sustracción original tenía como propósito no reintegrarse, debe aplicarse
+el artículo 235.
+**Concordancias Legales:** artículo 235; artículos 233; artículo 433 del Código Penal español; artículo 85; artículo 1; artículo 233
 
 expresa disposición de la ley, de igual modo no habría inconvenientes para la conclusión contraria a favor de este, esto es, que si hay objetivamente reintegro, aun
 cuando la sustracción original tenía como propósito no reintegrarse, debe aplicarse
@@ -10253,6 +10975,9 @@ artículo 235.
 
 ## 38 Sentencia de la Corte de Apelaciones de Antofagasta, rol 47-2006, 21 de abril
 
+**Definición Canónica:** de 2006.
+**Concordancias Legales:** artículo 235; artículo 236; artículo 236 del Código Penal dispone
+
 de 2006.
 
 Academia Judicial de Chile     Principales delitos que afectan aspectos patrimoniales
@@ -10290,8 +11015,11 @@ El artículo 236 del Código Penal dispone:
        El empleado público que arbitrariamente diere a los caudales o efectos
       que administre una aplicación pública diferente de aquella a que estu-
 
-
 ## 39 Cabe señalar que lo problemático de esto es volver a concepciones subjetivas
+
+**Definición Canónica:** sobre la sustracción para diferenciar uno u otro caso.
+ 40 Sentencia de la Corte Suprema, 18 de diciembre de 1996.
+**Concordancias Legales:** artículo 236; artículos 233; artículo 237; artículo 237 del Código Penal dispone; artículo 238 del Código Penal Este artículo 238 dispone; artículo 67; artículo 239; artículo 239 del Código Penal dispone; artículo 240; artículo 240 bis; artículo 241; artículo 241 bis; artículos 468; artículo 470
 
 sobre la sustracción para diferenciar uno u otro caso.
  40 Sentencia de la Corte Suprema, 18 de diciembre de 1996.
@@ -10495,8 +11223,17 @@ Matus y Ramírez, 2006: 498).46
 anterior incurriría en una serie de imprecisiones que llevan no solo
 a un entendimiento erróneo del delito de fraude al fisco, sino que incluso generan problemas en su aplicación práctica, toda vez que este
 
-
 ## 45 Sentencia de la Corte Suprema, rol 13.823-2014, 16 de abril de 2015; sentencia
+
+**Definición Canónica:** de la Corte Suprema, rol 29.891-2014, 8 de octubre de 2015; sentencia de la Corte
+Suprema, rol 496-2011, 4 de diciembre de 2012; sentencia de la Corte Suprema, rol
+2.834-2006, 3 de mayo de 2007; sentencia de la Corte Suprema, rol 744-2006, 25 de
+febrero de 2007.
+ 46 En similar sentido, pero más general, Etcheberry (2010: 247), quien señala que,
+«de acuerdo a las reglas generales, y no siendo este un delito de posición, el tercero
+defraudador, que no quebranta un deber funcionario, comete el respectivo delito
+contra la propiedad (alguna forma de defraudación)». Con todo, como veremos a
+continua
 
 de la Corte Suprema, rol 29.891-2014, 8 de octubre de 2015; sentencia de la Corte
 Suprema, rol 496-2011, 4 de diciembre de 2012; sentencia de la Corte Suprema, rol
@@ -10567,8 +11304,17 @@ su consentimiento. Este tercero obviamente no quebranta ningún deber
 vinculado a la función pública, por lo que no debiese ser considerado
 autor de este delito.49 Por ello, en estos casos la doctrina y la jurisprudencia50 han entendido aplicable un tipo penal base, que para Politoff,
 
-
 ## 48 Sentencia de la Corte Suprema, rol 7.006-2021, 23 de marzo de 2022. En el
+
+**Definición Canónica:** mismo fallo se señala: «Los hechos vienen presentados como fraude al fisco, que
+no se puede entender como la estafa del artículo 468, sino como una forma de
+administración desleal, ya que se trata de una persona jurídica, con lo que pierde
+asidero desde ya la procedencia del engaño y no requeriría de una puesta en escena,
+pues el que podía ser confundido no es una persona natural». En similar sentido
+la sentencia de la Corte Suprema, rol 32.464-2014, 25 de mayo de 2015: «El delito
+tipificado en el artículo 239 del Código Penal ha de ser conceptualizado como un
+delito de administración desleal 
+**Concordancias Legales:** artículo 468; artículo 239 del Código Penal ha de ser conceptualizado como u
 
 mismo fallo se señala: «Los hechos vienen presentados como fraude al fisco, que
 no se puede entender como la estafa del artículo 468, sino como una forma de
@@ -10589,8 +11335,11 @@ del Tribunal Oral en lo Penal de Los Ángeles, RIT 8-2019, 18 de marzo de 2019 (
 
 ## 50 Sentencia de la Corte Suprema, rol 2.924-2008, 15 de julio de 2009; sentencia
 
+**Definición Canónica:** Academia Judicial de Chile         Principales delitos que afectan aspectos patrimoniales
+Materiales Docentes                                                            Capítulo 8
+**Concordancias Legales:** artículo 473; artículo 468; artículo 470; artículo 233
 
-Academia Judicial de Chile         Principales delitos que afectan aspectos patrimoniales
+Academia Judicial de Chile         Principales delitos que afectan aspectos patrimoniales
 Materiales Docentes                                                            Capítulo 8
 
 Matus y Ramírez (2006: 498), por ejemplo, puede ser responsable tanto
@@ -10620,6 +11369,12 @@ mediata con agente doloso» (Politoff, Matus y Ramírez, 2006: 475 y 476).
 de la Corte Suprema, rol 13.823-2014, 16 de abril de 2015; sentencia de la Corte Suprema, rol 29.891-2014, 8 de octubre de 2015.
 
 ## 51 Estos autores reparan en que muchas veces los tribunales sancionan al particular
+
+**Definición Canónica:** por el delito de estafa, sin analizar en detalle la concurrencia de todos elementos de dicho tipo penal común. No obstante, como vimos, recientemente la jurisprudencia ha
+validado la tesis de que su naturaleza se asimila más bien a una administración desleal.
+ 52 Sin embargo, estos autores restringen las operaciones a aquellas «entre el Estado y un particular», en circunstancias que bien puede cometerse este delito por
+operaciones entre dos organismos públicos.
+**Concordancias Legales:** Ley 21.121
 
 por el delito de estafa, sin analizar en detalle la concurrencia de todos elementos de dicho tipo penal común. No obstante, como vimos, recientemente la jurisprudencia ha
 validado la tesis de que su naturaleza se asimila más bien a una administración desleal.
@@ -10665,8 +11420,10 @@ grado la pena, ahora derechamente se subió el marco compuesto de dos
 grados. Respecto del inciso final (perjuicio mayor a 400 UTM), se aumentó el marco penal, agregando al presidio mayor en grado mínimo el
 grado máximo.54
 
-
 ## 54 Se ha señalado que esta graduación de la pena privativa de libertad, al igual
+
+**Definición Canónica:** que la graduación de la multa, se corresponde con la modalidad establecida para la
+administración desleal (Rodríguez Collao y Ossandón Widow, 2021: 491).
 
 que la graduación de la multa, se corresponde con la modalidad establecida para la
 administración desleal (Rodríguez Collao y Ossandón Widow, 2021: 491).
@@ -10674,8 +11431,12 @@ administración desleal (Rodríguez Collao y Ossandón Widow, 2021: 491).
 Academia Judicial de Chile            Principales delitos cometidos por funcionarios
 Materiales Docentes                                                       Capítulo 9
 
-
 ## Capítulo 9
+
+**Definición Canónica:** Principales delitos contra la administración
+de justicia cometidos por funcionarios, abogados
+y procuradores
+**Concordancias Legales:** artículo 73; artículo 77; artículo 76; artículos 223; artículo 223; Constitución
 
 Principales delitos contra la administración
 de justicia cometidos por funcionarios, abogados
@@ -10748,16 +11509,13 @@ y 227. Primero, el artículo 223 dispone:
       tua para cargos y oficios públicos, derechos políticos y profesiones titu-
       lares y la de presidio o reclusión menores en cualesquiera de sus grados:
 
-## 1. Cuando a sabiendas fallaren contra ley expresa y vigente en causa
-
-      criminal o civil.
-
-## 2. Suprimido.1
-
-
 ## 3. Cuando ejerciendo las funciones de su empleo o valiéndose del po-
 
-      der que este les da, seduzcan o soliciten a persona imputada o que litigue
+**Definición Canónica:** der que este les da, seduzcan o soliciten a persona imputada o que litigue
+      ante ellos.
+**Concordancias Legales:** Artículo 224
+
+der que este les da, seduzcan o soliciten a persona imputada o que litigue
       ante ellos.
 
    Artículo 224:
@@ -10766,26 +11524,15 @@ y 227. Primero, el artículo 223 dispone:
       oficios públicos en cualquiera de sus grados y la de presidio o reclusión
       menores en sus grados mínimos a medios:
 
-## 1. Cuando por negligencia o ignorancia inexcusables dictaren senten-
-
-      cia manifiestamente injusta en causa criminal.
-
-## 2. Cuando a sabiendas contravinieren a las leyes que reglan la sustan-
-
-      ciación de los juicios, en términos de producir nulidad en todo o en
-      parte sustancial.
-
-## 3. Cuando maliciosamente nieguen o retarden la administración de
-
-      justicia y el auxilio o protección que legalmente se les pida.
-
-## 4. Cuando maliciosamente omitan decretar la prisión de alguna per-
-
-      sona, habiendo motivo legal para ello, o no lleven a efecto la decretada,
-      pudiendo hacerlo.
-
-
 ## 1 Este numeral contemplaba la denominada prevaricación-cohecho, numeral que
+
+**Definición Canónica:** fue derogado por la Ley 21.121. En efecto, era una figura especial del cohecho del
+artículo 248 del Código Penal, aplicable únicamente a los magistrados de justicia
+que aceptan dádivas o convengan aceptarlas por hacer o dejar de hacer algún acto
+propio de su cargo.
+Academia Judicial de Chile             Principales delitos cometidos por funcionarios
+Materiales Docentes                                                        Capítulo 9
+**Concordancias Legales:** artículo 248 del Código Penal; Ley 21.121
 
 fue derogado por la Ley 21.121. En efecto, era una figura especial del cohecho del
 artículo 248 del Código Penal, aplicable únicamente a los magistrados de justicia
@@ -10794,18 +11541,13 @@ propio de su cargo.
 Academia Judicial de Chile             Principales delitos cometidos por funcionarios
 Materiales Docentes                                                        Capítulo 9
 
-
-## 5. Cuando maliciosamente retuvieren en calidad de preso a un indivi-
-
-      duo que debiera ser puesto en libertad con arreglo a la ley.
-
-## 6. Cuando revelen los secretos del juicio o den auxilio o consejo a cual-
-
-      quiera de las partes interesadas en él, en perjuicio de la contraria.
-
 ## 7. Cuando con manifiesta implicancia, que les sea conocida y sin ha-
 
-      berla hecho saber previamente a las partes, fallaren en causa criminal o
+**Definición Canónica:** berla hecho saber previamente a las partes, fallaren en causa criminal o
+      civil.
+**Concordancias Legales:** Artículo 225
+
+berla hecho saber previamente a las partes, fallaren en causa criminal o
       civil.
 
    Artículo 225:
@@ -10815,40 +11557,13 @@ Materiales Docentes                                                        Capí
       solo en esta última, cuando por negligencia o ignorancia inexcusables:
        1. Dictaren sentencia manifiestamente injusta en causa civil.
 
-## 2. Contravinieren a las leyes que reglan la sustanciación de los juicios
-
-      en términos de producir nulidad en todo o en parte sustancial.
-
-## 3. Negaren o retardaren la administración de justicia y el auxilio o pro-
-
-      tección que legalmente se les pida.
-
-## 4. Omitieren decretar la prisión de alguna persona, habiendo motivo
-
-      legal para ello, o no llevaren a efecto la decretada, pudiendo hacerlo.
-
-## 5. Retuvieren preso por más de cuarenta y ocho horas a un individuo
-
-      que debiera ser puesto en libertad con arreglo a la ley.
-
-   Artículo 227:
-
-       Se aplicarán respectivamente las penas determinadas en los artículos
-      precedentes:
-
-## 1. A las personas que, desempeñando por ministerio de la ley los cargos
-
-      de miembros de los tribunales de justicia colegiados o unipersonales,
-      fueren condenadas por alguno de los crímenes o simples delitos enume-
-      rados en dichos artículos.
-
-## 2. A los subdelegados e inspectores que incurrieren en iguales infrac-
-
-      ciones.
-
 ## 3. A los compromisarios, peritos y otras personas que, ejerciendo atri-
 
-      buciones análogas, derivadas de la ley, del tribunal o del nombramiento
+**Definición Canónica:** buciones análogas, derivadas de la ley, del tribunal o del nombramiento
+      de las partes, se hallaren en idénticos casos.
+**Concordancias Legales:** artículo 223; artículo 227 del Código Penal; Constitucion
+
+buciones análogas, derivadas de la ley, del tribunal o del nombramiento
       de las partes, se hallaren en idénticos casos.
 
 Academia Judicial de Chile              Principales delitos cometidos por funcionarios
@@ -10876,8 +11591,14 @@ funciones auxiliares a la administración de justicia de carácter cuasijurisdic
 como sucede particularmente con la decisión de mantener o no detenida a una persona en los casos de detención por delito flagrante (Politoff,
 Matus y Ramírez, 2006: 529 y 530).5
 
-
 ## 2 Ha quedado obsoleta la referencia del artículo 227 numeral 2 a subdelegados e
+
+**Definición Canónica:** inspectores.
+ 3 Con algunas limitaciones según el artículo 12 de su Ley Orgánica, que señala:
+«Las decisiones, decretos e informes que los miembros del Tribunal expidan en los
+asuntos de que conozcan, no les impondrán responsabilidad» (Matus y Ramírez,
+2015: 327).
+**Concordancias Legales:** artículo 12
 
 inspectores.
  3 Con algunas limitaciones según el artículo 12 de su Ley Orgánica, que señala:
@@ -10886,6 +11607,10 @@ asuntos de que conozcan, no les impondrán responsabilidad» (Matus y Ramírez,
 2015: 327).
 
 ## 4 Sentencia de la Corte de Apelaciones de Santiago, rol 13.268-2006, 16 de agosto
+
+**Definición Canónica:** de 2007.
+ 5 En el mismo sentido Rodríguez Collao y Ossandón Widow (2021: 215 y 216),
+**Concordancias Legales:** artículo 324 del Código Orgánico de Tribunales; artículo 79 de la Constitución; artículo 324; artículos 424; artículo 223; artículo 224; artículo 225; Constitución; constitucion
 
 de 2007.
  5 En el mismo sentido Rodríguez Collao y Ossandón Widow (2021: 215 y 216),
@@ -10997,8 +11722,11 @@ una causa criminal, y el artículo 225 numeral 1, si se trata de una causa civil
 caso. En todos estos se concuerda que, pese a que las fórmulas varían, la
 conducta sería la misma respecto del artículo 223 numeral 1.10
 
-
 ## 8 Sentencia de la Corte Suprema, 31 de enero de 1996. En otro caso de una causa
+
+**Definición Canónica:** civil, estimó que no había prevaricación dado que la conducta abusiva del magistrado requiere como condicional basal que genere la nulidad de la actuación judicial:
+sentencia de la Corte de Apelaciones de Temuco, rol 1.100-2011, 9 de enero de 2012.
+ 9 Sentencia de la Corte de Apelaciones de Valparaíso, 13 de agosto de 1901.
 
 civil, estimó que no había prevaricación dado que la conducta abusiva del magistrado requiere como condicional basal que genere la nulidad de la actuación judicial:
 sentencia de la Corte de Apelaciones de Temuco, rol 1.100-2011, 9 de enero de 2012.
@@ -11006,8 +11734,11 @@ sentencia de la Corte de Apelaciones de Temuco, rol 1.100-2011, 9 de enero de 20
 
 ## 10 Estos casos de imprudencia en materia de prevaricación han fundado el valor
 
+**Definición Canónica:** Academia Judicial de Chile               Principales delitos cometidos por funcionarios
+Materiales Docentes                                                          Capítulo 9
+**Concordancias Legales:** artículo 224; artículo 225; artículo 246; artículo 223
 
-Academia Judicial de Chile               Principales delitos cometidos por funcionarios
+Academia Judicial de Chile               Principales delitos cometidos por funcionarios
 Materiales Docentes                                                          Capítulo 9
 
 Otras formas de torcida administración de justicia (artículo 224
@@ -11034,6 +11765,14 @@ prevaricación del artículo 223 numeral 1.
 dogmático del error de prohibición, toda vez que aquí nos encontramos con personal altamente calificado de acuerdo al sujeto activo que tratamos.
 
 ## 11 La jurisprudencia ha señalado que «este tipo penal está construido sobre la base
+
+**Definición Canónica:** de la expresión “implicancia”, en sentido amplio, y comprende también las causales
+de recusación, ya que no podría entenderse de otro modo la expresión “sin hacerla
+hecho saber previamente a las partes”, desde que las implicancias deben ser declaradas de oficio por el juez y son irrenunciables, mientras que las recusaciones solo
+pueden ser entabladas por la parte perjudicada, la que no puede hacerse valer si el
+juez no le da a conocer la causal en cuestión» (sentencia de la Corte Suprema, rol
+21.395-2014, 31 de julio de 2014).
+**Concordancias Legales:** artículo 223
 
 de la expresión “implicancia”, en sentido amplio, y comprende también las causales
 de recusación, ya que no podría entenderse de otro modo la expresión “sin hacerla
@@ -11074,8 +11813,13 @@ hay acuerdo en que se incluya a los apoderados de estas personas. Por
 ejemplo, quienes excluyen estos casos, justifican que el fundamento de
 la norma tiene que ver con la falta de libertad que el legislador presume
 
-
 ## 12 Aunque sostienen estos autores que tampoco «representa necesariamente un
+
+**Definición Canónica:** atentado en contra del correcto desempeño de la función pública, aunque constituya
+un atentado contra el principio de probidad que informa la función jurisdiccional,
+así como las demás funciones públicas». En nuestra opinión, el realizar estas conductas ejerciendo funciones o aprovechándose de ellas sí afecta un correcto desempeño de la función pública, no en cuanto a sus resultados, sino en cuanto a la forma
+de desempeñarla, y aunque ello explicaría que sí se asocia con la probidad administrativa, un desempeño con falta de probidad no podría estimarse correcto.
+**Concordancias Legales:** artículo 258; artículos 248; artículo 97; Ley 20.818; Ley 21.121; constitucion
 
 atentado en contra del correcto desempeño de la función pública, aunque constituya
 un atentado contra el principio de probidad que informa la función jurisdiccional,

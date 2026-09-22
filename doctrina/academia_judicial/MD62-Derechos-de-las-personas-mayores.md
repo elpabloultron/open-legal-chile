@@ -13,20 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 62           Derechos
-
-             de las personas
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             mayores
+                       electrónica
+             Jessica Arenas Paredes
+                       de causas
 
-                  Tramitación
+Tramitación
              mayores
                        electrónica
              Jessica Arenas Paredes
@@ -76,120 +71,10 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 6       Capítulo 1
-
-        Envejecimiento y vejez
-
-## 6       El envejecimiento
-
-
-## 10      Persona mayor
-
-
-## 31      La revolución demográfica del envejecimiento
-
-
-
-## 47      Capítulo 2
-
-        La comunidad internacional frente
-        al envejecimiento y el itinerario hacia
-        los derechos fundamentales
-
-## 47      Introducción
-
-
-## 48      Primera etapa: Las asambleas mundiales
-
-        		      sobre el envejecimiento
-
-## 57      Segunda etapa: Implementación del Plan
-
-        		      de Acción Internacional sobre el envejecimiento
-
-## 65      Tercera etapa: La Convención Interamericana
-
-        		      sobre la Protección de los Derechos Humanos
-        		      de las Personas Mayores
-
-
-## 81      Capítulo 3
-
-        Las personas mayores como sujetos de derecho
-        en el ordenamiento jurídico chileno
-
-## 81      Derecho a la igualdad y no discriminación
-
-        		      de las personas mayores en el ordenamiento
-        		      jurídico interno
-
-## 88      Derecho a la independencia y a la autonomía
-
-        		      en el orden constitucional y legal
-
-## 91      El buen trato hacia la persona mayor
-
-
-## 95      La violencia intrafamiliar hacia la persona mayor
-
-        		      en el ordenamiento jurídico chileno
-
-
-## 121   Capítulo 4
-
-      La persona mayor y la institucionalidad
-
-## 121   El Poder Judicial y el acceso a la justicia
-
-      		    de las personas mayores
-
-## 137   Servicio Nacional del Adulto Mayor (Senama)
-
-
-## 160   Corporaciones de asistencia judicial
-
-
-## 164   Oficinas de adulto mayor y oficinas de protección
-
-      		    de los derechos del adulto mayor (Opdam)
-
-## 165   Asociaciones de personas mayores
-
-
-
-## 167   Anexo 1
-
-      Glosario gerontológico
-
-## 176   Anexo 2
-
-      Indicadores de violencia hacia
-      las personas mayores
-
-## 178   Anexo 3
-
-      Decálogo de buen trato a las personas
-      mayores para servicios públicos y privados
-
-## 179   Anexo 4
-
-      Beneficios del Estado para las personas mayores
-
-## 191   Anexo 5
-
-      Protocolo de acceso a la justicia
-      de las personas mayores
-
-## 191   Contexto normativo
-
-
-## 196   Referencias
-
-Materiales Docentes                                                       Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Envejecimiento y vejez
+**Concordancias Legales:** artículo 2
 
 Envejecimiento y vejez
 
@@ -312,8 +197,10 @@ Envejecimiento activo
 
 Surge al interior de la OMS con la finalidad de complementar el enfoque del envejecimiento saludable, considerando que la mantención de la
 
-
 ## 1 Para saber más sobre la Década del Envejecimiento Saludable (2021-2030), véase
+
+**Definición Canónica:** https://bit.ly/42hbx17.
+**Concordancias Legales:** artículo 2; artículo 1; artículo 1 de la Ley 19.8282 que introduce el concepto de adul; artículo 16 inciso 3; Ley 19.828; Ley 19.8282; Ley 21.144
 
 https://bit.ly/42hbx17.
 
@@ -1205,116 +1092,36 @@ Población (millones)
 
                           Fecha          Países                                              Porcentajes
 
-
-## 2009           Martinica                                              20,0
-
-
-## 2011           Cuba                                                      17,7
-
-
-## 2013           Barbados,                                              19,30
-
-                                         Curacao,                                                20,3
-                                         Puerto Rico                                            20,0
-
-## 2014           Guadalupe                                              20,0
-
-
-## 2016           Aruba                                                   19,0
-
-
-## 2021           Uruguay                                                20,5
-
-
-## 2023           Chile                                                  20,5
-
-
-## 2024           Trinidad y Tobago                                       19,3
-
-
 ## 2025           Santa Lucía                                               17,7
 
+**Definición Canónica:** Academia Judicial de Chile                                Derechos de las personas mayores
+Materiales Docentes                                                               Capítulo 1
 
-Academia Judicial de Chile                                Derechos de las personas mayores
+Academia Judicial de Chile                                Derechos de las personas mayores
 Materiales Docentes                                                               Capítulo 1
 
                    Tabla 3. América Latina y El Caribe (continuación)
 
     Fecha          Países                                               Porcentajes
 
-
-## 2027           Costa Rica                                               19,0
-
-
-## 2030           Brasil                                                   18,9
-
-
-## 2031           Antigua y Barbuda                                        20,2
-
-
-## 2032           Colombia,                                                18,9
-
-                   San Vicente y las Granadinas                             19,3
-
-## 2034           Bahamas                                                  19,2
-
-
-## 2037           Jamaica                                                  19,5
-
-
-## 2040           Granada,                                                 18,8
-
-                   Perú                                                     20,3
-
-## 2042           Argentina,                                               20,4
-
-                   México                                                   19,5
-
-## 2044           El Salvador,                                             19,2
-
-                   Panamá                                                   21,0
-
-## 2047           República Dominicana,                                    20,2
-
-                   Venezuela (República Bolivariana de)                     19,9
-
-## 2048           Ecuador                                                  20,6
-
-
-## 2049           Nicaragua                                                20,0
-
-
-## 2052           Suriname                                                 20,1
-
-
-## 2053           Belice,                                                  20,1
-
-                   Honduras                                                 19,3
-
-## 2054           Guyana,                                                  20,1
-
-                   Paraguay                                                 20,0
-
-## 2058           Bolivia (Estado Plurinacional de)                        20,2
-
-
-## 2060           Guatemala                                                20,3
-
-
-## 2066           Haití                                                    19,8
-
-
 ## 2075           Guayana Francesa                                         21,6
 
-
-   Como puede observarse en la tabla 3, el proceso de envejecimiento
+**Definición Canónica:** Como puede observarse en la tabla 3, el proceso de envejecimiento
 de Latinoamérica se proyecta en un período de 60 años, lo que da cuenta de la heterogeneidad de la región y a la vez facilita la cooperación
 internacional para facilitar el proceso de transición en los países más
 tardíos, particularmente de aquellos con economías más frágiles. La tabla 4 explica el modo en que se desarrolló el envejecimiento en nuestro
 continente y sus consecuencias.8
 
+Como puede observarse en la tabla 3, el proceso de envejecimiento
+de Latinoamérica se proyecta en un período de 60 años, lo que da cuenta de la heterogeneidad de la región y a la vez facilita la cooperación
+internacional para facilitar el proceso de transición en los países más
+tardíos, particularmente de aquellos con economías más frágiles. La tabla 4 explica el modo en que se desarrolló el envejecimiento en nuestro
+continente y sus consecuencias.8
 
 ## 8 Cepal, «Etapas del proceso de envejecimiento demográfico de los países de
+
+**Definición Canónica:** América Latina y el Caribe y desafíos respecto del cumplimiento de la Agenda 2030
+para el Desarrollo Sostenible y el Consenso de Montevideo sobre Población y Desarrollo», Cepal, 29 de diciembre de 2021.
 
 América Latina y el Caribe y desafíos respecto del cumplimiento de la Agenda 2030
 para el Desarrollo Sostenible y el Consenso de Montevideo sobre Población y Desarrollo», Cepal, 29 de diciembre de 2021.
@@ -1566,10 +1373,13 @@ porcentaje de población femenina mayor, situación que no se replica en
 Magallanes que teniendo uno de los más altos porcentajes de población
 mayor, el número de mujeres y hombres mayores es casi equivalente, situación que es excepcional en relación con las otras regiones más envejecidas en que se mantiene la tendencia de la feminización de la vejez.
 
-
 ## 8                  Hombres
 
-     Arica y Parinacota
+**Definición Canónica:** Arica y Parinacota
+                                                                                 Mujeres
+              Tarapacá                                7
+
+Arica y Parinacota
                                                                                  Mujeres
               Tarapacá                                7
 
@@ -1858,8 +1668,11 @@ Materiales Docentes                                                             
 
 Materiales Docentes                                                       Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** La comunidad internacional frente
+al envejecimiento y el itinerario hacia
+los derechos fundamentales
 
 La comunidad internacional frente
 al envejecimiento y el itinerario hacia
@@ -1900,7 +1713,15 @@ Materiales Docentes                                                             
 
 ## 1992                Conferencia Re-     2ª Conferencia        Informe del
 
-                                gional Intergu-    Regional Inter-        secretario
+**Definición Canónica:** gional Intergu-    Regional Inter-        secretario
+        • Plan de acción         bernamental       gubernamental          general de
+          Internacional             sobre          sobre envejeci-         Naciones
+                               envejecimiento,     miento, Brasilia      Unidas, 2011
+                               Santiago 2003            2007
+           Períodos
+       interasambleas
+
+gional Intergu-    Regional Inter-        secretario
         • Plan de acción         bernamental       gubernamental          general de
           Internacional             sobre          sobre envejeci-         Naciones
                                envejecimiento,     miento, Brasilia      Unidas, 2011
@@ -1963,28 +1784,15 @@ poblacional y sus alcances demográficos, insuficientemente relevados
 por los países en desarrollo; por lo que formula 62 recomendaciones
 para su ejecución, distribuidas en áreas sectoriales y establece los siguientes objetivos (párrafo 3):
 
-## 1. Fomentar la comprensión de las consecuencias económicas, so-
-
-        ciales y culturales del envejecimiento en el proceso de desarrollo.
-
-## 2. Promover la comprensión de las cuestiones humanitarias y de de-
-
-        sarrollo relacionadas con el envejecimiento.
-
-## 3. Proponer y estimular políticas y programas destinados a garan-
-
-        tizar la seguridad social y económica de las personas de edad, así
-        como darles oportunidades de contribuir al desarrollo y compartir
-        sus beneficios.
-
-## 4. Presentar alternativas y opciones de política compatibles con los
-
-        principios relativos al envejecimiento de la población y a las nece-
-        sidades de las propias personas de edad.
-
 ## 5. Alentar el desarrollo de una enseñanza, una capacitación y una
 
-        investigación que respondan adecuadamente al envejecimiento de
+**Definición Canónica:** investigación que respondan adecuadamente al envejecimiento de
+        la población mundial.
+ Sin embargo, el Plan no estuvo exento de aspectos críticos, siendo los
+más relevantes los siguientes:
+**Concordancias Legales:** artículo 1; artículo 6
+
+investigación que respondan adecuadamente al envejecimiento de
         la población mundial.
  Sin embargo, el Plan no estuvo exento de aspectos críticos, siendo los
 más relevantes los siguientes:
@@ -2176,65 +1984,58 @@ de edad y el       sociedad y en el desarrollo        de edad.
 desarrollo                                         2. Participación de las personas de edad en
                                                       las decisiones a todos los niveles.
 
-## 2. El empleo y el               1. Brindar oportunidades de empleo a todas
-
-                   envejecimiento de la fuerza        las personas de edad que deseen trabajar.
-                   de trabajo
-
-
-## 3. Desarrollo rural, migración 1. Mejorar las condiciones de vida e
-
-                   y urbanización                    infraestructura de las zonas rurales.
-
-## 2. Alivio de la marginación de las personas de
-
-                                                     edad en las zonas rurales.
-
-## 3. Integración de los migrantes de edad
-
-                                                     avanzada en sus nuevas comunidades.
-
-
 ## 4. Acceso al conocimiento, la 1. Igualdad de oportunidades en
 
-                   educación y la capacitación      educación permanente, capacitación y
+**Definición Canónica:** educación y la capacitación      educación permanente, capacitación y
+                                                    readiestramiento, orientación profesional y
+                                                    acceso a los servicios de colocación laboral.
+
+educación y la capacitación      educación permanente, capacitación y
                                                     readiestramiento, orientación profesional y
                                                     acceso a los servicios de colocación laboral.
 
 ## 2. Utilización plena de las posibilidades
 
-                                                    y los conocimientos de las personas,
+**Definición Canónica:** y los conocimientos de las personas,
                                                     reconociendo los beneficios de la
                                                     experiencia adquirida con la edad.
 
-
-## 5. Solidaridad                  1. Fortalecer la solidaridad mediante la
-
-                   intergeneracional                  equidad y la reciprocidad entre las
-                                                      generaciones.
-
-
-## 6. Erradicación de la pobreza 1. Reducción de la pobreza entre las personas
-
-                                                    de edad.
+y los conocimientos de las personas,
+                                                    reconociendo los beneficios de la
+                                                    experiencia adquirida con la edad.
 
 ## 7. Seguridad de los ingresos,   1. Promoción de programas que permitan a
 
-                   protección social, seguridad       todos los trabajadores obtener protección
+**Definición Canónica:** protección social, seguridad       todos los trabajadores obtener protección
+                   social y prevención de la          social o seguridad social básica.
+                   pobreza.                        2. Asegurar ingresos mínimos suficientes para
+                                                      las personas de edad.
+
+protección social, seguridad       todos los trabajadores obtener protección
                    social y prevención de la          social o seguridad social básica.
                    pobreza.                        2. Asegurar ingresos mínimos suficientes para
                                                       las personas de edad.
 
 ## 8. Situaciones de               1. Igualdad de acceso a los alimentos, la
 
-                   emergencia                         vivienda y la atención médica y otros
+**Definición Canónica:** emergencia                         vivienda y la atención médica y otros
+                                                      servicios durante y después de los
+                                                      desastres naturales y otras situaciones de
+                                                      emergencia humanitaria.
+
+emergencia                         vivienda y la atención médica y otros
                                                       servicios durante y después de los
                                                       desastres naturales y otras situaciones de
                                                       emergencia humanitaria.
 
 ## 2. Posibilitar que las personas de edad
 
-                                                      contribuyan al restablecimiento y la
+**Definición Canónica:** contribuyan al restablecimiento y la
+                                                      reconstrucción de las comunidades y la
+                                                      trama social después de las situaciones de
+                                                      emergencia.
+
+contribuyan al restablecimiento y la
                                                       reconstrucción de las comunidades y la
                                                       trama social después de las situaciones de
                                                       emergencia.
@@ -2252,40 +2053,36 @@ II. El fomento      1. El fomento de la salud y     1. Reducción de los efectos
     el bienestar       la vida                         sufrir enfermedades y, por consiguiente, la
     en la vejez                                        posible dependencia en la vejez.
 
-## 2. Elaboración de políticas para prevenir la
-
-                                                       mala salud entre las personas de edad.
-
-## 3. Acceso de todas las personas de edad a los
-
-                                                       alimentos y a una nutrición adecuada.
-
-
-## 2. Acceso universal y           1. Eliminación de las desigualdades sociales
-
-                       equitativo a los servicios      y económicas por edad, sexo o por otros
-                       de atención de la salud         motivos.
-
 ## 2. Desarrollo y fortalecimiento de los servicios
 
-                                                       de atención primaria de salud para atender
+**Definición Canónica:** de atención primaria de salud para atender
                                                        a las necesidades de las personas de edad
                                                        y promover su inclusión en el proceso.
 
-## 3. Instituir un continuo de atención de la
-
-                                                       salud para atender a las necesidades de las
-                                                       personas de edad.
+de atención primaria de salud para atender
+                                                       a las necesidades de las personas de edad
+                                                       y promover su inclusión en el proceso.
 
 ## 4. Participación de las personas de edad
 
-                                                       en el desarrollo y fortalecimiento de los
+**Definición Canónica:** en el desarrollo y fortalecimiento de los
+                                                       servicios de atención primaria de salud y
+                                                       de atención a largo plazo.
+
+en el desarrollo y fortalecimiento de los
                                                        servicios de atención primaria de salud y
                                                        de atención a largo plazo.
 
 ## 3. Las personas de edad y el    1. Mejorar la evaluación de los efectos del VIH/
 
-                       VIH/sida                        sida sobre la salud de las personas de edad.
+**Definición Canónica:** VIH/sida                        sida sobre la salud de las personas de edad.
+                                                    2. Proporcionar información adecuada,
+                                                       capacitar para la prestación de cuidados
+                                                       y proporcionar asistencia médica y apoyo
+                                                       social a las personas de edad seropositivas
+                                                       y a quienes les brindan cuidados.
+
+VIH/sida                        sida sobre la salud de las personas de edad.
                                                     2. Proporcionar información adecuada,
                                                        capacitar para la prestación de cuidados
                                                        y proporcionar asistencia médica y apoyo
@@ -2294,30 +2091,47 @@ II. El fomento      1. El fomento de la salud y     1. Reducción de los efectos
 
 ## 3. Fortalecimiento y reconocimiento de la
 
-                                                       contribución de las personas de edad al
+**Definición Canónica:** contribución de las personas de edad al
+                                                       desarrollo en su rol de cuidadores de niños
+                                                       con enfermedades crónicas, incluido el VIH/
+                                                       sida.
+
+contribución de las personas de edad al
                                                        desarrollo en su rol de cuidadores de niños
                                                        con enfermedades crónicas, incluido el VIH/
                                                        sida.
 
 ## 4. Capacitación de los          1. Mejorar la información y la capacitación de
 
-                       proveedores de servicios        los profesionales de la salud y de servicios
+**Definición Canónica:** proveedores de servicios        los profesionales de la salud y de servicios
                        de salud y de los               sociales sobre las necesidades de las
                        profesionales de la salud       personas de edad.
 
+proveedores de servicios        los profesionales de la salud y de servicios
+                       de salud y de los               sociales sobre las necesidades de las
+                       profesionales de la salud       personas de edad.
 
 ## 5. Necesidades relacionadas     1. Desarrollo de servicios amplios de atención
 
-                       con la salud mental de las      de la salud mental que comprendan
+**Definición Canónica:** con la salud mental de las      de la salud mental que comprendan
                        personas de edad                desde la prevención hasta la intervención
                                                        temprana, la prestación de servicios de
                                                        tratamiento y la gestión de los problemas
                                                        de salud mental de las personas de edad
 
+con la salud mental de las      de la salud mental que comprendan
+                       personas de edad                desde la prevención hasta la intervención
+                                                       temprana, la prestación de servicios de
+                                                       tratamiento y la gestión de los problemas
+                                                       de salud mental de las personas de edad
 
 ## 6. Las personas de edad con 1. Mantenimiento de una capacidad funcional
 
-                       discapacidad                máxima durante toda la vida y promoción
+**Definición Canónica:** discapacidad                máxima durante toda la vida y promoción
+                                                   de la participación plena de las personas de
+                                                   edad con discapacidad.
+
+discapacidad                máxima durante toda la vida y promoción
                                                    de la participación plena de las personas de
                                                    edad con discapacidad.
 
@@ -2335,35 +2149,13 @@ III. Creación de   1. La vivienda y las          1. Promover el envejecimiento 
      favorable                                      para promover la independencia de las
                                                     personas de edad.
 
-## 3. Mejorar la disponibilidad de transporte
-
-                                                    accesible y económicamente asequible
-                                                    para las personas de edad.
-
-
-## 2. Asistencia y apoyo a las   1. Ofrecer asistencia y servicios continuados
-
-                      personas que prestan          a las personas de edad, y apoyo a las
-                      asistencia.                   personas que prestan asistencia.
-
-## 2. Apoyo a la función asistencial que
-
-                                                    desempeñan las personas de edad,
-                                                    particularmente las mujeres de edad.
-
-## 3. Abandono maltrato y        1. Eliminación de todas las formas de
-
-                      violencia                     abandono, abuso y violencia contra las
-                                                    personas de edad.
-
-## 2. Creación de servicios de apoyo para
-
-                                                    atender a los casos de abuso y maltrato
-                                                    contra las personas de edad.
-
 ## 4. Imágenes del               1. Mayor reconocimiento público de la
 
-                      envejecimiento                autoridad, la sabiduría, la productividad y
+**Definición Canónica:** envejecimiento                autoridad, la sabiduría, la productividad y
+                                                    otras contribuciones importantes de las
+                                                    personas de edad.
+
+envejecimiento                autoridad, la sabiduría, la productividad y
                                                     otras contribuciones importantes de las
                                                     personas de edad.
 
@@ -2562,26 +2354,18 @@ Materiales Docentes                                                             
 
 Derecho                        Contenido
 
-
-## 1. El acceso a la justicia
-
-   (párr. 4).
-2. Participación política,
-   pública y social de las
-   personas mayores,
-   exhortando al respeto
-   de la autonomía e
-   independencia de la
-   persona mayor (párr.5).
-
-## 3. Derecho a la seguridad      • Universalización del derecho
-
-   social (párr. 7)            • Sostenibilidad de las pensiones
-                               • Complementariedad de programas como salud y vivienda
-
 ## 4. Derecho a la salud (párr. 7) • Universalización del derecho
 
-                                • Políticas de atención integral de la salud preventiva, modelos
+**Definición Canónica:** • Políticas de atención integral de la salud preventiva, modelos
+                                  de atención multidisciplinarios, desarrollo y acceso a cuidados
+                                  paliativos.
+                                • Acceso preferencial a medicamentos
+                                • Derecho a un consentimiento previo, libre e informado
+                                • Protección de los derechos y la dignidad de las personas
+                                  mayores en residencias.
+                                • Formación de recursos humanos en geriatría y geront
+
+• Políticas de atención integral de la salud preventiva, modelos
                                   de atención multidisciplinarios, desarrollo y acceso a cuidados
                                   paliativos.
                                 • Acceso preferencial a medicamentos
@@ -2592,15 +2376,17 @@ Derecho                        Contenido
                                   capacitación con enfoque de derechos humanos para los
                                   equipos de salud.
 
-## 5. Derecho a los servicios     • Crear y garantizar servicios sociales para el cuidado de
-
-   sociales (párr. 7)            personas mayores
-                               • Medidas de apoyo a las familias cuidadoras,
-
-
 ## 6. Derecho al empleo           • Promover igualdad de trato y de oportunidades, condiciones
 
-   (párr. 8)                     de trabajo, orientación, capacitación y formación en todos los
+**Definición Canónica:** (párr. 8)                     de trabajo, orientación, capacitación y formación en todos los
+                                 niveles.
+                               • Adoptar políticas que promuevan la participación y la
+                                 reincorporación en el mercado laboral de los trabajadores
+                                 mayores, de ser necesario en jornadas flexibles, parciales o
+                                 reducidas.
+                               • Estimular el emprendimiento y facilitar el acceso al Crédito
+
+(párr. 8)                     de trabajo, orientación, capacitación y formación en todos los
                                  niveles.
                                • Adoptar políticas que promuevan la participación y la
                                  reincorporación en el mercado laboral de los trabajadores
@@ -2610,7 +2396,15 @@ Derecho                        Contenido
 
 ## 7. Erradicación del maltrato   • Aplicar políticas y procedimientos para prevenir, sancionar y
 
-   hacia la persona mayor        erradicar todo tipo de maltrato y abuso contra las personas
+**Definición Canónica:** hacia la persona mayor        erradicar todo tipo de maltrato y abuso contra las personas
+   (párr. 9)                     mayores, incluida la penalización de los responsables,
+                               • Prevenir y garantizar la protección especial de las personas
+                                 mayores que, por su identidad de género, orientación sexual,
+                                 estado de salud o discapacidad, religión, origen étnico,
+                                 situación de calle u otras condiciones de vulnerabilidad,
+                                 corren mayor peligro
+
+hacia la persona mayor        erradicar todo tipo de maltrato y abuso contra las personas
    (párr. 9)                     mayores, incluida la penalización de los responsables,
                                • Prevenir y garantizar la protección especial de las personas
                                  mayores que, por su identidad de género, orientación sexual,
@@ -2622,7 +2416,14 @@ Derecho                        Contenido
 
 ## 8. Derecho a la vivienda       • Acceso a una vivienda adecuada, alta prioridad en la
 
-   (párr. 10)                    asignación de viviendas o tierras, en especial en situaciones
+**Definición Canónica:** (párr. 10)                    asignación de viviendas o tierras, en especial en situaciones
+                                 derivadas de crisis, propiciando un entorno seguro y
+                                 saludable, incluido el acceso a servicios y facilidades de
+                                 transporte,
+                               • Crear y reacondicionar espacios públicos amigables y seguros,
+                                 garantizando la accesibilidad de las personas mayores.
+
+(párr. 10)                    asignación de viviendas o tierras, en especial en situaciones
                                  derivadas de crisis, propiciando un entorno seguro y
                                  saludable, incluido el acceso a servicios y facilidades de
                                  transporte,
@@ -2631,7 +2432,14 @@ Derecho                        Contenido
 
 ## 9. Derecho a la educación      • Promover políticas contra el analfabetismo entre las mujeres y
 
-   (párr. 11)                    hombres mayores,
+**Definición Canónica:** (párr. 11)                    hombres mayores,
+                               • Acceso a actividades recreativas, culturales y deportivas.
+                               • Programas de educación que permitan a las personas
+                                 mayores de diferentes grupos y etnias compartir desde un
+                                 enfoque intercultural,
+                               • Impulsar acciones para reducir la brecha tecnológica
+
+(párr. 11)                    hombres mayores,
                                • Acceso a actividades recreativas, culturales y deportivas.
                                • Programas de educación que permitan a las personas
                                  mayores de diferentes grupos y etnias compartir desde un
@@ -2646,10 +2454,18 @@ Materiales Docentes                                                             
 
 Derecho                          Contenido
 
-
 ## 10. Derecho a la no              • Reconocer el papel que desempeñan las personas mayores en
 
-  discriminación (párr.12)         el desarrollo, con especial énfasis en las mujeres mayores,
+**Definición Canónica:** discriminación (párr.12)         el desarrollo, con especial énfasis en las mujeres mayores,
+                                 • Asegurar la incorporación y participación equitativa de las
+                                   mujeres y hombres mayores en el diseño y la aplicación de las
+                                   políticas, programas y planes que les conciernen,
+                                 • Garantizar el acceso equitativo de las mujeres y hombres
+                                   mayores a la seguridad social y otras medidas de protección
+                                   social.
+
+
+discriminación (párr.12)         el desarrollo, con especial énfasis en las mujeres mayores,
                                  • Asegurar la incorporación y participación equitativa de las
                                    mujeres y hombres mayores en el diseño y la aplicación de las
                                    políticas, programas y planes que les conciernen,
@@ -2661,7 +2477,15 @@ Derecho                          Contenido
 
 ## 11. Derecho a la protección      • Incluir la asistencia prioritaria y preferencial a las personas
 
-   frente a situaciones de         mayores en los planes de socorro para casos de desastre,
+**Definición Canónica:** frente a situaciones de         mayores en los planes de socorro para casos de desastre,
+   emergencia o desastres        • Elaborar directrices nacionales que incluyan a las personas
+   naturales (párr. 13)            mayores como un grupo prioritario y de atención preferencial
+                                   en la preparación para los casos de desastre.
+                                 • Prestar una atención prioritaria y preferencial a las
+                                   necesidades de las personas mayores en situaciones de
+                                   reconstrucción después de 
+
+frente a situaciones de         mayores en los planes de socorro para casos de desastre,
    emergencia o desastres        • Elaborar directrices nacionales que incluyan a las personas
    naturales (párr. 13)            mayores como un grupo prioritario y de atención preferencial
                                    en la preparación para los casos de desastre.
@@ -2758,8 +2582,9 @@ Los derechos humanos de las personas mayores
 
 Las normas internacionales de derechos humanos son de aplicación universal, todas las personas o grupos sin distinción de ningún tipo, sin embargo, la evolución del régimen internacional de derechos humanos ha
 
-
 ## 1 Un ejemplo de ello es la charla de Viviana Bilezker con Isolina Dabove sobre los
+
+**Definición Canónica:** derechos de las personas mayores, disponible en https://bit.ly/3qEwTYU.
 
 derechos de las personas mayores, disponible en https://bit.ly/3qEwTYU.
 
@@ -2928,8 +2753,12 @@ vinculantes de derechos humanos con relación a la protección de sus
 derechos, el que serviría de base para la preparación de Convención
 Interamericana.
 
-
 ## 2 Esta propuesta arranca de la Declaración de Brasilia de 2007, que propuso hacer
+
+**Definición Canónica:** consultas a los Estados respecto de la viabilidad de una Convención.
+Academia Judicial de Chile                                  Derechos de las personas mayores
+Materiales Docentes                                                                Capítulo 2
+**Concordancias Legales:** artículo 1; artículo 2; artículo 3; artículo 3 de la Convención. Los derechos protegidos El anál; artículo 6; artículo 7; artículo 12
 
 consultas a los Estados respecto de la viabilidad de una Convención.
 Academia Judicial de Chile                                  Derechos de las personas mayores
@@ -3192,7 +3021,13 @@ Materiales Docentes                                                   Capítulo 
 
 ## 2. Derechos vigentes
 
-  Son aquellos contemplados en las normas de Derecho Internacional
+**Definición Canónica:** Son aquellos contemplados en las normas de Derecho Internacional
+de los derechos humanos, pero que deben adaptarse a las necesidades
+específicas, ya sea mediante nuevas interpretaciones o bien ampliando
+contenidos.
+   • Nuevas interpretaciones de derechos: Son derechos que forman
+
+Son aquellos contemplados en las normas de Derecho Internacional
 de los derechos humanos, pero que deben adaptarse a las necesidades
 específicas, ya sea mediante nuevas interpretaciones o bien ampliando
 contenidos.
@@ -3200,7 +3035,18 @@ contenidos.
 
 ## parte de otros instrumentos internacionales, a los que la Conven-
 
-      ción le aporta nuevos elementos para establecer obligaciones espe-
+**Definición Canónica:** ción le aporta nuevos elementos para establecer obligaciones espe-
+      cíficas del Estado hacia las personas mayores. En esta subcategoría
+      encontramos: el consentimiento libre e informado en el ámbito de
+      la salud (artículo 11), la igualdad y no discriminación (artículo 5) y
+      a la seguridad y a una vida sin violencia (artículo 9 y 10).
+   • Ampliación de contenidos: Comprende en general, los derechos
+      económicos, sociales y culturales, toda vez si bien éstos han sido
+      reconocidos el Pacto Internacional de Derechos, Económicos, So-
+      ciales y Culturales y, por ta
+**Concordancias Legales:** artículo 11; artículo 5; artículo 9; artículo 17; artículo 18; artículo 19; artículo 20
+
+ción le aporta nuevos elementos para establecer obligaciones espe-
       cíficas del Estado hacia las personas mayores. En esta subcategoría
       encontramos: el consentimiento libre e informado en el ámbito de
       la salud (artículo 11), la igualdad y no discriminación (artículo 5) y
@@ -3217,7 +3063,14 @@ contenidos.
 
 ## 3. Derechos extendidos
 
-   Son derechos dirigidos específicamente para colectivos, en este caso
+**Definición Canónica:** Son derechos dirigidos específicamente para colectivos, en este caso
+personas mayores, que no han disfrutado de ellos por omisión o discriminación. En particular se han considerado dos derechos: el de accesibilidad y movilidad de las personas, y las situaciones de riesgo y
+emergencias humanitarias, derechos que están consagrados en la Convención sobre los Derechos de las Personas con Discapacidad, que no
+son aplicables a las personas mayores, quienes no fueron incluidas en la
+norma a diferencia de los niños y las mujeres. De este modo, la ConvenMateriales Docentes                              
+**Concordancias Legales:** artículo 4
+
+Son derechos dirigidos específicamente para colectivos, en este caso
 personas mayores, que no han disfrutado de ellos por omisión o discriminación. En particular se han considerado dos derechos: el de accesibilidad y movilidad de las personas, y las situaciones de riesgo y
 emergencias humanitarias, derechos que están consagrados en la Convención sobre los Derechos de las Personas con Discapacidad, que no
 son aplicables a las personas mayores, quienes no fueron incluidas en la
@@ -3233,7 +3086,7 @@ general, para su cumplimiento, se específica del siguiente modo:
 
 ## 1. Adoptar medidas para prevenir, sancionar y erradicar aquellas
 
-       prácticas contrarias a la presente Convención, tales como aisla-
+**Definición Canónica:** prácticas contrarias a la presente Convención, tales como aisla-
        miento, abandono, sujeciones físicas prolongadas, hacinamiento,
        expulsiones de la comunidad, la negación de nutrición, infantili-
        zación, tratamientos médicos inadecuados o desproporcionados,
@@ -3241,45 +3094,32 @@ general, para su cumplimiento, se específica del siguiente modo:
        crueles, inhumanos o degradantes que atenten contra la seguridad
        e integridad de la persona mayor.
 
-## 2. Adoptar medidas afirmativas y realizar los ajustes razonables para
-
-       el ejercicio de los derechos establecidos en la Convención, abs-
-       teniéndose de adoptar medidas legislativas incompatibles con la
-       misma.
-
-## 3. Adoptar y fortalecer todas las medidas, incluido un adecuado ac-
-
-       ceso a la justicia a fin garantizar a la persona mayor un trato dife-
-       renciado y preferencial en todos los ámbitos.
-
-## 4. Adoptar las medidas necesarias, hasta el máximo de los recursos
-
-       disponibles y tomando en cuenta su grado de desarrollo, a fin de
-       lograr progresivamente, la plena efectividad de los derechos eco-
-       nómicos, sociales y culturales.
-
-## 5. Promover instituciones públicas especializadas en la protección y
-
-       promoción de los derechos de la persona mayor y su desarrollo
-       integral.
+prácticas contrarias a la presente Convención, tales como aisla-
+       miento, abandono, sujeciones físicas prolongadas, hacinamiento,
+       expulsiones de la comunidad, la negación de nutrición, infantili-
+       zación, tratamientos médicos inadecuados o desproporcionados,
+       entre otras, y todas aquellas que constituyan malos tratos o penas
+       crueles, inhumanos o degradantes que atenten contra la seguridad
+       e integridad de la persona mayor.
 
 ## 6. Promover la más amplia participación de la sociedad civil y de
 
-       otros actores sociales, en particular de la persona mayor, en la ela-
+**Definición Canónica:** otros actores sociales, en particular de la persona mayor, en la ela-
+       boración, aplicación y control de políticas públicas y legislación
+       dirigida a la implementación de la presente Convención.
+
+otros actores sociales, en particular de la persona mayor, en la ela-
        boración, aplicación y control de políticas públicas y legislación
        dirigida a la implementación de la presente Convención.
 
 Materiales Docentes                                                      Capítulo 2
 
-
-## 7. Promover la recopilación de información adecuada, incluidos da-
-
-      tos estadísticos y de investigación, que le permitan formular y apli-
-      car políticas, a fin de dar efecto a la presente Convención.
-
 ## 8. Uno de los estereotipos más extendidos respecto de las personas
 
-      mayores, es pensar que «los viejos son como niños» y, por tanto,
+**Definición Canónica:** mayores, es pensar que «los viejos son como niños» y, por tanto,
+      hay que tratarlos como tales.
+
+mayores, es pensar que «los viejos son como niños» y, por tanto,
       hay que tratarlos como tales.
 
 Entrada en vigencia y mecanismo de seguimiento
@@ -3318,8 +3158,11 @@ Ministerio de Justicia y Derechos Humanos de Argentina.6
 
 Materiales Docentes                                                        Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Las personas mayores como sujetos de derecho
+en el ordenamiento jurídico chileno
+**Concordancias Legales:** artículo 28 del Pacto Internacional de Derechos Civiles y Pol; artículo 5; artículo 2; artículo 1; Artículo 1 inciso 1; Artículo 1 inciso 4; Artículo 19; Artículo 2 inciso 4; artículos 5; artículo 19 de la Constitución en cuanto a que solo la capacida; artículo 18 del Reglamento de Prácticos establece las causale; artículo 80 de la Constitución en cuanto establece en 75 años e; artículos 3; artículos 1; artículo 3; Ley 20.609; Ley 20.584; Ley 20.422; Ley 20.370; Ley 19.496; constitucion; Constitución
 
 Las personas mayores como sujetos de derecho
 en el ordenamiento jurídico chileno
@@ -3669,11 +3512,23 @@ a ejercer su derecho fundamental a la independencia y autonomía:
 
 ## 7 El artículo 10 letra b) establece que se deberá gestionar, asegurar y registrar que
 
+**Definición Canónica:** al ingreso del residente se determine su condición de funcionalidad mediante el Índice de Katz y el Test de Memoria Acortado (SPMSQ) Pfeiffer, siendo su aplicación
+de responsabilidad del mismo director que será remunerado por el servicio que se
+prestará.
+
 al ingreso del residente se determine su condición de funcionalidad mediante el Índice de Katz y el Test de Memoria Acortado (SPMSQ) Pfeiffer, siendo su aplicación
 de responsabilidad del mismo director que será remunerado por el servicio que se
 prestará.
 
 ## 8 Si bien usualmente se requiere un tutor de la persona mayor como responsable
+
+**Definición Canónica:** de este principalmente en cuanto al pago y otras necesidades de esta, la regla general
+es que sea el tutor quien firma el contrato de prestación de servicios y, por tanto, es
+la voluntad del tutor la que determina la permanencia de la persona mayor en el
+Eleam, todo ello independiente de la capacidad de la persona mayor. Por esta razón,
+no es extraño que se accione vía recurso de amparo a fin de egresar de un Eleam, ya
+que en principio esto no es posible sin la voluntad del tutor.
+**Concordancias Legales:** artículo 3 de la Convención establece el principio de buen tra; artículo 9 inciso 2 de la Convención consagra el derecho de la persona; Ley 18.60011; Ley 18.600
 
 de este principalmente en cuanto al pago y otras necesidades de esta, la regla general
 es que sea el tutor quien firma el contrato de prestación de servicios y, por tanto, es
@@ -3796,8 +3651,10 @@ mayores, principalmente en los Eleam, centros diurnos y establecimientos de salu
 ámbito se pueden advertir prácticas contrarias a la Convención como
 aislamiento, sujeciones físicas prolongadas, infantilización, despersona-
 
-
 ## 12 Véase la campaña de la cámara de diputados sobre la mejora de las políticas
+
+**Definición Canónica:** públicas para los adultos mayores, disponible en https://bit.ly/42C93u8.
+**Concordancias Legales:** artículo 92; artículo 5; artículo 7; artículo 489 del Código Penal; artículo 400; artículo 5 inciso 1; artículo 5 inciso 2; artículo 5 de la Ley 20.066 Vínculo El vínculo entre la víct; artículo 5 de la Ley 20.066; artículo 2; Ley 19.325; Ley 19.968; Ley 20.066; Ley 20.427; Ley 21.013; Ley 20.42713
 
 públicas para los adultos mayores, disponible en https://bit.ly/42C93u8.
 
@@ -4148,6 +4005,13 @@ de la violencia que concurren en esta hipótesis tenemos los siguientes:
 
 ## 1. Sujetos y vinculación: el artículo 92 número 8 de la Ley 19.968 no
 
+**Definición Canónica:** lo señala expresamente, sin embargo, al ser una medida cautelar regulada expresamente en un procedimiento especial de violencia intrafamiliar, se requiere de un sujeto activo que ejerza violencia (denunciado/
+demandado) y un sujeto pasivo calificado —persona mayor que requiere cuidados— respecto de quien se ejerce la violencia (denunciante/demandante/víctima).
+    En cuanto al vínculo entre sujeto activo y pasivo, este debe satisfacer
+la hipótesis de los incisos 1 o 2 del artículo 5 de la Ley 20.066, exigencia que puede plantear algunas dificultades intrínsecas a la conducta de
+abandono, ya se
+**Concordancias Legales:** artículo 5 de la Ley 20.066; artículo 5 de la Ley 20.066 no prestase asistencia o cuidado a; artículo 323 del Código Civil; artículo 6 inciso 1; artículo 321 del Código Civil que establece el orden de prelac; artículo 6 inciso 2; artículo 7; Ley 20.066
+
 lo señala expresamente, sin embargo, al ser una medida cautelar regulada expresamente en un procedimiento especial de violencia intrafamiliar, se requiere de un sujeto activo que ejerza violencia (denunciado/
 demandado) y un sujeto pasivo calificado —persona mayor que requiere cuidados— respecto de quien se ejerce la violencia (denunciante/demandante/víctima).
     En cuanto al vínculo entre sujeto activo y pasivo, este debe satisfacer
@@ -4209,6 +4073,14 @@ abordarse desde el ámbito social y sanitario según corresponda.
 
 ## 2. Conducta: el abandono naturalmente se entiende como dejar de
 
+**Definición Canónica:** hacer, es decir, una conducta omisiva, sin embargo, también puede identificarse con conductas activas en orden a causar intencionadamente un
+daño a través de los cuidados o bien conductas negligentes.
+    En cuanto a las conductas omisivas, la jurisprudencia nacional ha
+sido consistente en incluirla como conducta constitutiva de violencia
+intrafamiliar,15 tal y como lo razona la siguiente sentencia de primera
+instancia:
+**Concordancias Legales:** artículo 8
+
 hacer, es decir, una conducta omisiva, sin embargo, también puede identificarse con conductas activas en orden a causar intencionadamente un
 daño a través de los cuidados o bien conductas negligentes.
     En cuanto a las conductas omisivas, la jurisprudencia nacional ha
@@ -4262,8 +4134,11 @@ Convención:
       un estado vigil, sin alteraciones sensoro perceptivas y con un deterio-
       ro cognitivo acorde a su edad, circunstancias que dotan a esta volun-
 
-
 ## 16 Centro de Medidas Cautelares, rol 7289-2016 sentencia, 12 de diciembre de
+
+**Definición Canónica:** 2016.
+  17 Se rigen por el Decreto 14, Ministerio de Salud, 2010 y el Decreto 49, M. Planificación, 2011.
+**Concordancias Legales:** artículos 6; artículo 90; artículo 7 de la Ley con la anuencia de la; artículo 7 de la Ley patrimonial; artículo 14 de la Ley 20.066 establece que; artículo 5; Ley 20.066; Ley 2.066; Ley 21.013; Ley 19.968
 
 2016.
   17 Se rigen por el Decreto 14, Ministerio de Salud, 2010 y el Decreto 49, M. Planificación, 2011.
@@ -4718,12 +4593,10 @@ modo ejemplar, tenemos las siguientes sentencias:
       seis días siguientes en el mismo mes y, el tercero, el 10 de julio de 2016
       […] de manera tal que en el año 2016 entre el mes de febrero y julio, los
 
-
-## 21 Ilustrísima Corte de Apelaciones de La Serena, rol 178-2019 sentencia, 22 de
-
-mayo de 2019, C. 11.
-
 ## 22 Juzgado de Garantía de Concepción, rit 10510-2012 sentencia, 5 de marzo de
+
+**Definición Canónica:** 2013, C. 14.
+**Concordancias Legales:** artículo 5 de la Ley 20.066; Ley 20.066; Ley 21.013; Ley 20.422
 
 2013, C. 14.
 
@@ -4757,12 +4630,10 @@ Ley 20.422.
    De este modo, las modificaciones introducidas al Código Penal por la
 Ley 21.013 tenían por objeto sancionar:
 
-
-## 23 Ilustrísima Corte de Apelaciones de La Serena, rol 103-2017 sentencia, 13 de
-
-abril de 2017, C. 6
-
 ## 24 Ilustrísima Corte de Apelaciones de Puerto Montt, rol 741-2020 sentencia, 9
+
+**Definición Canónica:** de noviembre de 2020, C.3.
+ 25 Ministerio Público, Oficio número 792/2014, 20 de octubre de 2014.
 
 de noviembre de 2020, C.3.
  25 Ministerio Público, Oficio número 792/2014, 20 de octubre de 2014.
@@ -4770,15 +4641,16 @@ de noviembre de 2020, C.3.
 Academia Judicial de Chile                                      Derechos de las personas mayores
 Materiales Docentes                                                                    Capítulo 3
 
-
-## 1. Aquellas conductas —acciones u omisiones— que no sean consti-
-
-       tutivas del delito de lesiones corporales.
-    2. Que atenten contra la integridad física, psíquica o la dignidad.
-
 ## 3. Respecto de niños, niñas o adolescentes menores de 18 años de
 
-       edad, personas adultas mayores o personas en situación de disca-
+**Definición Canónica:** edad, personas adultas mayores o personas en situación de disca-
+       pacidad en los términos de la Ley 20.422.
+    4. Fuera de un contexto intrafamiliar.
+   La figura 10 explica las nuevas figuras penales introducidas por la Ley
+21.013 centradas exclusivamente en las personas mayores:
+**Concordancias Legales:** Ley 20.422; Ley 21.013; Ley 21.012
+
+edad, personas adultas mayores o personas en situación de disca-
        pacidad en los términos de la Ley 20.422.
     4. Fuera de un contexto intrafamiliar.
    La figura 10 explica las nuevas figuras penales introducidas por la Ley
@@ -4832,7 +4704,16 @@ Código Penal        Art. 403         Establece una nueva pena de inhabilidad, e
 
 ## título VIII del libro II de este código (Del maltrato a menores
 
-                                     de dieciocho años de edad, adultos mayores o personas
+**Definición Canónica:** de dieciocho años de edad, adultos mayores o personas
+                                     en situación de discapacidad), en contra de una persona
+                                     mayor, además será condenado a la pena de inhabilitación
+                                     absoluta temporal para ejercer los cargos contemplados
+                                     en el artículo 39 ter, en cualquiera de sus grados. En caso
+                                     de reincidencia en delitos de la misma especie, el juez
+                                     podrá imponer la inhabilitación absoluta
+**Concordancias Legales:** artículo 39 ter; artículos 39 bis; artículo 403 bis inciso 1 del Código Penal del siguiente modo; artículo 403 bis inciso 2 del Código Penal del siguiente modo; artículo 403 bis inciso 2; artículo 403 bis; Ley 21013; Ley 20.422; DL 645
+
+de dieciocho años de edad, adultos mayores o personas
                                      en situación de discapacidad), en contra de una persona
                                      mayor, además será condenado a la pena de inhabilitación
                                      absoluta temporal para ejercer los cargos contemplados
@@ -5013,10 +4894,12 @@ la víctima y     trato degra-
 
                 Figura 13. Elementos del tipo penal de trato degradante.
 
-
 ## 27 Juzgado de Garantía de Pitrufquen, rit 1201-2017 sentencia, de 11 de junio de
 
- 2017.
+**Definición Canónica:** 2017.
+**Concordancias Legales:** Constitucion
+
+2017.
 
 Materiales Docentes                                                     Capítulo 3
 
@@ -5043,13 +4926,10 @@ ejemplo, vestir o disfrazar a una persona frente a terceros con la finalidad de 
 
  28 Sentencia del Tribunal Supremo, 34/2008 sentencia, 27 de febrero de 2008.
 
-## 29 Sentencia del Tribunal Constitucional, 4476-2018, 24 de enero de 2019
-
-
-Materiales Docentes                                                        Capítulo 4
-
-
 ## Capítulo 4
+
+**Definición Canónica:** La persona mayor y la institucionalidad
+**Concordancias Legales:** artículo 31
 
 La persona mayor y la institucionalidad
 
@@ -5109,6 +4989,9 @@ de solución de controversias con la finalidad de evitar la exposición innecesa
 
 ## parte, la inversión de recursos destinados a la capacitación del Poder
 
+**Definición Canónica:** Judicial, en general en materia de derechos de las personas mayores,
+incluyendo a las policías y Gendarmería, con lo que se enfatiza la necesidad de atención especializada de la persona mayor.
+
 Judicial, en general en materia de derechos de las personas mayores,
 incluyendo a las policías y Gendarmería, con lo que se enfatiza la necesidad de atención especializada de la persona mayor.
 
@@ -5157,7 +5040,17 @@ Discriminación del Poder JudicialI                     Judicial disfruten de es
 
 ## 2. Impulsar el desarrollo de políticas y acciones
 
-                                                       dirigidas a garantizar la igualdad y la no
+**Definición Canónica:** dirigidas a garantizar la igualdad y la no
+                                                       discriminación de todas las personas en el
+                                                       acceso a la justicia.
+                                                    Ejes estratégicos
+Política de igualdad de género y no
+discriminaciónII                                    1. No discriminación de género.
+                                                    2. Enfoque de género en acceso a la justicia.
+                                                    3. No violencia de género.
+               
+
+dirigidas a garantizar la igualdad y la no
                                                        discriminación de todas las personas en el
                                                        acceso a la justicia.
                                                     Ejes estratégicos
@@ -5172,10 +5065,15 @@ vulnerablesIII                                      1. Personas con discapacidad
 
                                                     2. Niños, niñas y adolescentes.
 
-
 ## 3. Personas migrantes y sujetas a protección
 
-                                                       internacional.
+**Definición Canónica:** internacional.
+                                                    4. Personas, pueblos y comunidades indígenas.
+                                                    5. Mujeres víctimas de violencia de género.
+Comisión de lenguaje claro
+**Concordancias Legales:** artículo 2; artículo 98; artículo 5 de la Ley 20.066; artículo 2 de la Convención. Sobre su contexto normativo; Ley 19.968; Ley 19.828; Ley 21.144; Ley 20.066; Constitución
+
+internacional.
                                                     4. Personas, pueblos y comunidades indígenas.
                                                     5. Mujeres víctimas de violencia de género.
 Comisión de lenguaje claro
@@ -5669,6 +5567,9 @@ comisión destacan:
 
 ## 3 En esta afirmación entendemos que el concepto adulto mayor era el que en esos
 
+**Definición Canónica:** momentos se empleaba en términos estadísticos y que correspondía a 65 años, ya que
+no existía un concepto legal que lo definiera como categoría etaria. Actualmente, la
+
 momentos se empleaba en términos estadísticos y que correspondía a 65 años, ya que
 no existía un concepto legal que lo definiera como categoría etaria. Actualmente, la
 
@@ -5706,6 +5607,10 @@ temas de la vejez a través de una institucionalidad permanente, despa-
 población mayor en Chile corresponde a un 18% de la población total (Cepal, 2021).
 
 ## 4 Estas expectativas fueron superadas en el año 2021 en que se da cuenta que la
+
+**Definición Canónica:** población total de adultos mayores en Chile es de 3.449.362 (Cepal, 2021).
+ 5 Ministerio de Secretaría de la Presidencia, Decreto 203, de 1996.
+**Concordancias Legales:** artículo 2; artículo 3 de la Ley 19.828; Ley 19.828
 
 población total de adultos mayores en Chile es de 3.449.362 (Cepal, 2021).
  5 Ministerio de Secretaría de la Presidencia, Decreto 203, de 1996.
@@ -5845,11 +5750,13 @@ Materiales Docentes                                                             
 
          U. Gestión de las personas                                            U. Auditoría interna
 
-
 ## Siac
 
+**Definición Canónica:** Div. de gestión y                     Div. planificación                 Div. administración y
+      coordinación territorial                      y control                            finanzas
+**Concordancias Legales:** artículo 6
 
-         Div. de gestión y                     Div. planificación                 Div. administración y
+Div. de gestión y                     Div. planificación                 Div. administración y
       coordinación territorial                      y control                            finanzas
 
                  U. de Gestión
@@ -6052,8 +5959,24 @@ Materiales Docentes                                                             
 
                    Salud y cuidados         Vida saludable               Especialistas
 
-
 ## Mds                          a                                                a
+
+**Definición Canónica:** Minsal                       A                    A                           A
+Mineduc                                                                       A
+Mintrab
+Minju
+Sernam
+Interior
+Transporte
+Vivir Sano                                        A
+Segegob                                           A
+Segpress
+Mineco
+Minvu
+MOP
+A: Acciones comprometidas (2012-2014)
+P: Propuestas de acciones (2015)
+Fuente: Senama, 2012: 12.
 
 Minsal                       A                    A                           A
 Mineduc                                                                       A
@@ -6080,6 +6003,19 @@ Fuente: Senama, 2012: 12.
 
 ## Mds                    a                                        p                        a
 
+**Definición Canónica:** Minsal
+Mineduc                                 A
+Mintrab                A                A                       A
+Minju                  P
+Sernam                                  A                                                P
+Interior               P
+Transporte
+Vivir Sano
+Segegob
+Segpress
+Mineco                 A                                                                 P
+Minvu                                                                                    A
+
 Minsal
 Mineduc                                 A
 Mintrab                A                A                       A
@@ -6095,6 +6031,10 @@ Minvu                                                                           
 
 ## Mop                                                                                      p
 
+**Definición Canónica:** A: Acciones comprometidas (2012-2014)
+P: Propuestas de acciones (2015)
+Fuente: Senama, 2012: 12.
+
 A: Acciones comprometidas (2012-2014)
 P: Propuestas de acciones (2015)
 Fuente: Senama, 2012: 12.
@@ -6108,6 +6048,24 @@ Materiales Docentes                                                             
                                justicia     y difusión                           subjetivo
 
 ## Mds               a              a             a            a           a             a
+
+**Definición Canónica:** Minsal                                                                  P             P
+Mineduc                                        A            A
+Mintrab                                                     A
+Minju             P              A
+Sernam            A
+Interior          A
+Transporte
+Vivir Sano
+Segegob
+Segpress                                       A
+Mineco
+Minvu
+MOP
+A: Acciones comprometidas (2012-2014)
+P: Propuestas de acciones (2015)
+Fuente: Senama, 2012: 12.
+**Concordancias Legales:** artículo 13 del Decreto 49
 
 Minsal                                                                  P             P
 Mineduc                                        A            A
@@ -6392,8 +6350,12 @@ los siguientes criterios:
     • Cobertura, referido a la cantidad de cupos disponibles utilizados
        por residentes beneficiarios del programa.
 
-
 ## 10 Lo mismo se aplica en casos no judicializados en que personas de sesenta o
+
+**Definición Canónica:** más años que se encuentren en situación de maltrato evaluado por el propio Servicio (Decreto 49, Ministerio de Planificación, 2011, artículo 8).
+ 11 Para saber más revise el Protocolo para los Eleam, disponible en https://bit.
+ly/42AqXh2.
+**Concordancias Legales:** artículo 8
 
 más años que se encuentren en situación de maltrato evaluado por el propio Servicio (Decreto 49, Ministerio de Planificación, 2011, artículo 8).
  11 Para saber más revise el Protocolo para los Eleam, disponible en https://bit.
@@ -6487,42 +6449,12 @@ intereses de las personas mayores, aunque efectúen las derivaciones pertinentes
 buen trato a las personas mayores para servicios públicos y privados:12
   1. Las personas mayores tienen un trato preferente.
 
-## 2. Tratar a las personas mayores por su nombre evitar decir abuelita
-
-     o abuelito, anciana o anciano.
-
-## 3. Contar con espacios adecuados e inclusivos para la atención y el
-
-     desplazamiento de las personas mayores.
-
-## 4. Disponer de señaléticas e información clara y visible, escuchar las
-
-     necesidades e inquietudes de las personas mayores y entregar res-
-     puestas adecuadas.
-
-## 5. Escuchar con atención las necesidades de las personas mayores y
-
-     entregar respuestas adecuadas.
-
-## 6. Entregar información clara y precisa y dirigirse siempre a la perso-
-
-     na mayor aún cuando esté acompañada.
-
-## 7. Respetar y promover la autonomía de las personas mayores escu-
-
-     char su opinión y respetar sus decisiones.
-
-## 8. Mantener el respeto y la confidencialidad en la atención. Evitando
-
-     prejuicios y toda discriminación.
-
-## 9. Reconocer la diversidad y la heterogeneidad de las personas ma-
-
-     yores para entregar un mejor servicio.
-
 ## 10. Ofrecer apoyo para la realización de trámites en plataformas digi-
 
-     tales u otros medios tecnológicos si la persona mayor lo requiere.
+**Definición Canónica:** tales u otros medios tecnológicos si la persona mayor lo requiere.
+**Concordancias Legales:** artículo 1; artículo 523; artículo 7; artículo 12; artículo 6 de la Ley 19.828 Materiales Docentes; Ley 20.595.13; Ley 20.255; Ley 20.595; Ley 17.995; Ley 19.828; Ley 19.418; Ley 20.500; constitución
+
+tales u otros medios tecnológicos si la persona mayor lo requiere.
 
 Eje de la participación de la persona mayor: Programa Voluntariado
 País de Mayores
@@ -7202,8 +7134,11 @@ Psicológica         • Deben contrastarse con posibles enfermedades mentales p
                       relaciones.
                     • Retraimiento, quejas somáticas, anorexia y pérdida de peso.
 
-
 ## 1 Extraído del material de estudio del Máster Interdisciplinar en Prevención y
+
+**Definición Canónica:** Tratamiento de la Violencia Familiar: Infancia, Pareja y Personas Mayores, de la
+Universidad de Barcelona. Módulo «Malos tratos a las personas mayores». Mercè
+Tabueña, Montserrat Coma, Jordi Muñoz, Francesc Orfila.
 
 Tratamiento de la Violencia Familiar: Infancia, Pareja y Personas Mayores, de la
 Universidad de Barcelona. Módulo «Malos tratos a las personas mayores». Mercè
@@ -7329,15 +7264,11 @@ Comunas             Sí2                                                        
 Amigables
 Ayudas Técnicas     Sí3                                                 70%                                        Sí         Sí                                            Sí
 
-## Senadis
-
-
-Fondo Nacional      Sí4                                                                                            Sí         Sí                                 A          Sí
-de Proyectos
-Inclusivos,
-
 ## Fonapi
 
+**Definición Canónica:** Programa Red         Sí                                                                      Sí                    Sí                            Sí              D          Sí
+Local de Apoyos
+y Cuidados
 
 Programa Red         Sí                                                                      Sí                    Sí                            Sí              D          Sí
 Local de Apoyos
@@ -7361,6 +7292,14 @@ demencias al Plan
 
 ## Auge
 
+**Definición Canónica:** Gratuidad desde      Sí                                                                                                           Sí              Sí                      Sí                   V
+los 60 años en
+Fonasa
+Programa de          Sí                                                                                                           Sí              Sí                      Sí                   V              Sí
+Alimentación
+Complementaria
+para el Adulto
+Mayor (PACAM)
 
 Gratuidad desde      Sí                                                                                                           Sí              Sí                      Sí                   V
 los 60 años en
@@ -7377,6 +7316,11 @@ Adulto Mayor
 
 ## (empam)
 
+**Definición Canónica:** Programa Nacional                          Sí                                                                                     Sí              Sí                      Sí                   A
+de Inmunizaciones
+(PNI) con foco en
+Personas Mayores
+**Concordancias Legales:** Ley 20.850; Constitución
 
 Programa Nacional                          Sí                                                                                     Sí              Sí                      Sí                   A
 de Inmunizaciones
@@ -7489,10 +7433,15 @@ Solidaria de Vejez
 
 ## (pbsv)
 
+**Definición Canónica:** Aporte Previsional                                Sí       60%                                                            Sí               Sí               Sí          D                      Sí
+Solidario de Vejez
+
 Aporte Previsional                                Sí       60%                                                            Sí               Sí               Sí          D                      Sí
 Solidario de Vejez
 
 ## (apsv)
+
+**Definición Canónica:** Bono Bodas de Oro              Sí1                                                                                        Sí               Sí               Sí          Sí                     Sí
 
 Bono Bodas de Oro              Sí1                                                                                        Sí               Sí               Sí          Sí                     Sí
 
@@ -7567,6 +7516,10 @@ Viviendas y Barrios
 
 ## Ds.255-ds.27
 
+**Definición Canónica:** Arriendo: Programa                Sí                                         70%                                                            Sí                                              Sí
+de Subsidio
+de Arriendo de
+Vivienda
 
 Arriendo: Programa                Sí                                         70%                                                            Sí                                              Sí
 de Subsidio
@@ -7652,8 +7605,10 @@ de Nuestra Tierra
 
 ## 2 Según la necesidad del solicitante
 
+**Definición Canónica:** Academia Judicial de Chile                                                                                                       Derechos de las personas mayores
+Materiales Docentes                                                                                                                                       Anexo 4
 
-Academia Judicial de Chile                                                                                                       Derechos de las personas mayores
+Academia Judicial de Chile                                                                                                       Derechos de las personas mayores
 Materiales Docentes                                                                                                                                       Anexo 4
 
                                Tabla 12. Ministerio de Bienes Nacionales
@@ -7666,6 +7621,9 @@ regularización de
 
 ## título de dominio
 
+**Definición Canónica:** Circuitos              Sí                                                                                                         Sí             Sí                    Sí                  P           Sí
+Patrimoniales
+Adulto Mejor
 
 Circuitos              Sí                                                                                                         Sí             Sí                    Sí                  P           Sí
 Patrimoniales
@@ -7686,11 +7644,13 @@ Movimiento
 
  Cuenta Rut                              Sí                                                                                      Sí                                   Sí
 
-
 ## 1 Con Acta de Radicación a su favor
 
+**Definición Canónica:** Academia Judicial de Chile                                                                                           Derechos de las personas mayores
+Materiales Docentes                                                                                                                           Anexo 4
+**Concordancias Legales:** Artículos 2; Artículos 1
 
-Academia Judicial de Chile                                                                                           Derechos de las personas mayores
+Academia Judicial de Chile                                                                                           Derechos de las personas mayores
 Materiales Docentes                                                                                                                           Anexo 4
 
                                         Tabla 15. Otros temas de interés
@@ -7734,8 +7694,11 @@ Tratados internacionales
    • Convención sobre los Derechos de las Personas con Discapa-
      cidad, promulgada y publicada en 2008. Artículos 2, 5, 8, 13, 16.
 
-
 ## 1 En el cuerpo del texto se hace alusión a que el catálogo de normas del Protocolo
+
+**Definición Canónica:** sería presentado como anexo, precisamente, porque no hay otra recopilación de normas sobre la materia y el protocolo aun siendo del Poder Judicial es de muy difícil
+acceso vía internet. Por tanto, esta información desplegada como anexo es pertinente, necesaria y útil.
+**Concordancias Legales:** Artículos 1; Artículo 12; Artículo 9; Artículo 19; artículo 92; artículo 400 del Código Penal que dispone una agravante s; Artículo 456 bis del Código Penal; artículo 390; Artículo 352 del Código Penal que sanciona al que dejare de pr; Artículo 489 del Código Penal; Artículo 21 del Código Penal que establece penas de inhabilid; Artículo 223 del Código Civil; Artículo 447 del Código Civil; Artículo 338 del Código Civil que regula el sistema tutelar; Ley 19.828; Ley 19.968; Ley 20.442; Ley 18.600; Ley 20.427; Ley 20.066; Ley 21.144; Ley 20.732; Ley 20.531; Ley 20.584; Ley 21.168; Ley 21.013; Constitución Política; Constitución; constitucion
 
 sería presentado como anexo, precisamente, porque no hay otra recopilación de normas sobre la materia y el protocolo aun siendo del Poder Judicial es de muy difícil
 acceso vía internet. Por tanto, esta información desplegada como anexo es pertinente, necesaria y útil.

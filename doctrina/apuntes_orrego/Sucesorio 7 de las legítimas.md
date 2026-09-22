@@ -13,248 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-5.- De las legítimas.1
-
-5.1. Consideraciones iniciales.
-
-       Son, sin lugar a duda, las asignaciones preferentes y privilegiadas en el sistema
-sucesorio chileno.
-       Afirmar que las legítimas son “preferentes”, significa que ellas se pagarán
-inmediatamente después de la deducción de las bajas generales y de las agregaciones
-que corresponda en el caso de formación de acervos imaginarios, y antes que se
-enteren las demás asignaciones dejadas con cargo a la cuarta de mejoras y a la cuarta
-de libre disposición. El carácter preferente alude entonces al momento en que se
-enteran las legítimas.
-       Expresar que las legítimas son “privilegiadas”, implica que ellas gozan de una
-especial protección jurídica, es decir, que reciben del legislador un tratamiento que
-asegura que los herederos forzosos reciban lo que en rigor les corresponde por
-disposición de la ley. El carácter privilegiado se refiere entonces a la protección que
-reciben del legislador.
-       Son la asignación forzosa más importante y de mayor aplicación práctica. Como
-tales, las legítimas deben ser respetadas por el testador y si no lo hace, sus
-legitimarios podrán intentar la acción de reforma del testamento.
-       Debemos tener presente que no son términos sinónimos el de legitimario y el
-de asignatario forzoso. El primero es una especie del segundo, pues también es
-asignatario forzoso el titular de alimentos que se debían por ley por el causante y el
-favorecido por la cuarta de mejoras.2
-
-5.2. Concepto de legítima.
-
-        El art. 1181 define las legitimas como “aquella cuota de los bienes de un difunto
-que la ley asigna a ciertas personas llamadas legitimarios”.
-        Agrega la ley, quizá innecesariamente, que los legitimarios son herederos.
-Decimos que quizá innecesariamente, pues como a los legitimarios les corresponde
-una cuota de los bienes del difunto y no bienes determinados de éste, aplicando la
-regla general del art. 951 se llegaría a idéntica conclusión.
-        Lo anterior permite hacer concluir a Somarriva, que los términos heredero
-forzoso y legitimario, son sinónimos.3
-        La definición, entonces, contiene dos elementos que sirven para caracterizar la
-legítima:
-i.- Se trata de una cuota de los bienes de un difunto, y por consiguiente, como lo
-hemos dicho, el titular de la asignación es heredero en conformidad al art. 951.
-ii.- Los asignatarios son ciertas personas llamadas legitimarios y que están señaladas
-en forma expresa en la ley.4
-        Pero la legítima es, ante todo, una asignación forzosa de que no puede ser
-privado el legitimario, a menos que, por causas legales, haya sido desheredado, es
-decir, excluido de la sucesión por el propio causante mediante una cláusula
-testamentaria (y probado el hecho en que se funda), o por la declaración de indignidad
-a requerimiento de cualquier persona interesada en la exclusión del legitimario. De ahí
-
-  Fecha de última modificación: 4 de junio de 2025.
-  Somarriva Undurraga, Manuel, Derecho Sucesorio, Santiago de Chile, Editorial Jurídica de Chile, 2009,
-séptima edición actualizada, pp. 367 y 368.
-  Somarriva Undurraga, Manuel, ob. cit., p. 368.
-  Rodríguez Grez, Pablo, Instituciones de Derecho Sucesorio. Pérdida, defensa y pago de las asignaciones.
-Ejecutores testamentarios. Partición, Santiago de Chile, Editorial Jurídica de Chile, 1994, Volumen 1, p. 328.
-
-                           Sucesorio 7 – Juan Andrés Orrego Acuña                                           1
-que se haya dicho que “la indignidad es                   un   desheredamiento   legal   y   el
-desheredamiento una indignidad testamentaria”.5
-
-5.3. Enumeración de los legitimarios.
-
-        El art. 1182 establece quienes son legitimarios:
-a) Los hijos, personalmente o representados por su descendencia.
-b) Los ascendientes.
-c) El cónyuge o conviviente civil sobreviviente.
-        A los señalados en el art. 1182, debemos agregar el conviviente civil
-sobreviviente, de conformidad a lo previsto en el inc. 1° del art. 16 de la Ley N°
-20.830, que citamos en el estudio de la sucesión abintestato, y que ahora reiteramos:
-“Cada conviviente civil será heredero intestado y legitimario del otro y concurrirá en la
-sucesión de la misma forma y gozará de los mismos derechos que corresponden al
-cónyuge sobreviviente”.
-
-a) Los hijos.
-
-       Se incluyen en esta denominación todos los hijos de filiación determinada, sea
-ésta matrimonial o no matrimonial.
-       La ley no hace diferencia alguna entre todos ellos (art. 33 del Código Civil).
-       Los hijos pueden ser llamados personalmente (en cuyo caso heredarán por
-cabeza), o representados por su descendencia (en cuyo caso heredarán por estirpe).
-Se aplica entonces, el derecho de representación de que trata el art. 984, ya
-analizado. Conviene recordar que la representación sólo se da en la línea de los
-descendientes. Puede representarse al asignatario que falta porque ha muerto, o ha
-sido declarado indigno de suceder, o ha sido desheredado, o ha repudiado la
-asignación. En síntesis, puede representarse a un asignatario vivo o a un asignatario
-muerto.
-
-b) Los ascendientes.
-
-        La ley dice que son legitimarios “los ascendientes”, no “los padres”. Ello
-significa que los ascendientes de grado más próximo desplazan a los de grado más
-distante.
-        Si el ascendiente de grado más próximo (en el supuesto de que sólo haya uno)
-es desheredado o declarado indigno o repudia la asignación, es llamado a la sucesión
-el ascendiente de grado siguiente. Así ocurrirá si el padre es declarado indigno o
-desheredado, pasando a ser legitimario el abuelo. No se trata del derecho de
-representación, por cierto, sino de la ausencia del legitimario que es sustituido por el
-que sigue en el grado de parentesco.
-        Con todo, no cualquier ascendiente es en verdad legitimario. En efecto, dispone
-el art. 1182, inc. 2º, que no serán legitimarios los ascendientes del causante si la
-paternidad o la maternidad que constituye (padre o madre) o de la que deriva su
-parentesco (abuelo, por ejemplo), ha sido determinada judicialmente contra la
-oposición del respectivo padre o madre, salvo si el hijo, por escritura pública o por acto
-testamentario, hubiere restablecido en sus derechos al padre o madre (art. 203, último
-inciso). Esta figura es análoga a la que existía tratándose de los padres naturales,
-quienes sólo tenían la calidad de legitimarios en la medida que hubieren reconocido
-voluntariamente al hijo.
-
-    Rodríguez Grez, Pablo, ob. cit., p. 328.
-
-                              Sucesorio 7 – Juan Andrés Orrego Acuña                         2
-c) El cónyuge sobreviviente o el conviviente civil sobreviviente.
-
-       Recogiendo la tendencia casi unánime de nuestra doctrina, la Ley N° 19.585 del
-año 1998 incluyó al cónyuge sobreviviente entre los legitimarios, suprimiendo de paso
-la porción conyugal. En verdad, en los hechos el cónyuge sobreviviente era en la
-práctica un legitimario, pues su porción conyugal se pagaba con cargo a la legítima (lo
-que desataba las críticas de la doctrina, pues no pocas veces se destinaba una parte
-importante de la mitad legitimaria a quien técnicamente no tenía calidad de
-legitimario).
-       Excepcionalmente, quedará privado de su legítima el cónyuge que por culpa
-suya haya dado ocasión a la separación judicial (art. 994 del Código Civil).
-       A su vez, según lo expresamos, el art. 16 de la Ley N° 20.830, incluye entre los
-legitimarios al conviviente civil sobreviviente.
-       El art. 1182 del Código Civil es un precepto de carácter taxativo, con la
-salvedad de lo dispuesto en el art. 16 de la Ley N° 20.830. No existen más legitimarios
-que los expresamente señalados como tales por ambos artículos.
-
-5.4. Cómo concurren los legitimarios.
-
-a) La legítima se distribuye de acuerdo con las reglas de la sucesión intestada.6
-
-       Materia muy importante es resolver cómo concurren los legitimarios. En efecto,
-una persona puede tener padres, hijos y cónyuge sobreviviente o conviviente civil
-sobreviviente y todos ellos son legitimarios; pero no todos ellos son llamados a la
-sucesión del causante.
-       De ahí que el art. 1183 establezca la siguiente regla: “Los legitimarios
-concurren y son excluidos y representados según el orden y reglas de la sucesión
-intestada”.
-       Esto significa que se aplicarán las reglas concernientes a los dos primeros
-órdenes sucesorios (arts. 988 y 989), que ya estudiamos, para definir quiénes deben
-concurrir o ser excluidos de la mitad legitimaria.
-
-b) La legítima se distribuye entre los legitimarios y no concurren a ella todos los
-herederos abintestato.7
-
-       El art. 1183 no ha dicho que en la legítima concurran todos los herederos
-abintestato; dispone que la legítima corresponde a los legitimarios de acuerdo con las
-reglas de la sucesión intestada. Recordemos que son nociones diferentes la de
-herederos forzosos y herederos abintestato. Sólo los primeros concurren al pago de las
-legítimas. La mitad legitimaria no se divide entre todos los herederos abintestato, sino
-que los legitimarios se la distribuyen entre sí de acuerdo con las reglas de la sucesión
-intestada. En tal sentido, después de la reforma de la Ley N° 19.585, son herederos
-abintestato, pero no legitimarios, los hermanos y los otros colaterales, hasta el sexto
-grado inclusive. En cambio, tienen la doble calidad de legitimarios y herederos
-abintestato los hijos, los ascendientes (por regla general) y el cónyuge sobreviviente o
-el conviviente civil sobreviviente.
-
-c) En el resto de la herencia, por regla general, no se aplican las reglas de la sucesión
-intestada. Excepción.8
-
-  Somarriva Undurraga, Manuel, ob. cit., pp. 373 y 374.
-  Somarriva Undurraga, Manuel, ob. cit., p. 374.
-  Somarriva Undurraga, Manuel, ob. cit., p. 374.
-
-                           Sucesorio 7 – Juan Andrés Orrego Acuña                      3
-        El precepto en estudio (art. 1183) nos dice que los legitimarios concurren, son
-excluidos y representados de acuerdo con las reglas de la sucesión intestada. Sin
-embargo, lo dicho sólo se aplica dentro de la mitad legitimaria. Los legitimarios, en la
-cuarta de mejoras o en la cuarta de libre disposición, no concurren de acuerdo con las
-reglas de la sucesión intestada.
-        La razón es que el testador puede repartir la cuarta de mejoras entre los
-asignatarios que establece la ley, como mejor le plazca. Si la cuarta de mejoras
-supone una expresa manifestación de voluntad del testador, no cabe aplicar en ella las
-reglas de la sucesión abintestato.
-        Lo propio ocurre con la parte de libre disposición; no van a jugar en ella las
-reglas de la sucesión intestada, pues el testador puede disponer de esa porción a su
-arbitrio, puede dejarla a quien quiera.
-        En conclusión, salvo respecto de la mitad legitimaria, el resto de la herencia se
-distribuye conforme a las disposiciones del testador.
-        Sin embargo, puede ocurrir que éste no disponga de la cuarta de mejoras y de
-la cuarta de libre disposición, o si lo hace, que su disposición no tenga efectos.
-Entonces, nos encontramos frente a la legítima efectiva que establece el art. 1191, la
-que se distribuirá entre los legitimarios también de acuerdo a las reglas de la sucesión
-intestada (antes de la reforma de la Ley N° 19.585, en la porción de que el testador no
-había dispuesto concurrirían también los demás herederos abintestato, pues en
-conformidad al art. 1191, inc. final, sobre las reglas de este precepto primaban las de
-la sucesión intestada. Ahora, sin embargo, no hay posibilidad de colisión entre
-legitimarios y otros herederos abintestato. En consecuencia, ha quedado sin aplicación
-práctica el inc. 3º del art. citado, que debió derogarse por el legislador).
-
-d) Análisis de la forma como concurren y son excluidos los legitimarios.
-
-d.1) Puede ocurrir que el causante haya dejado hijos y cónyuge sobreviviente o
-conviviente civil sobreviviente. En este caso, conforme al art. 988, son llamados los
-hijos y el cónyuge sobreviviente o el conviviente civil sobreviviente, quedando
-excluidos los padres. En consecuencia, la mitad legitimaria se dividirá entre los hijos y
-el cónyuge sobreviviente o el conviviente civil sobreviviente en la forma establecida en
-dicho precepto, sin perjuicio del acrecimiento del art. 1191 y de las asignaciones que el
-causante les deje por testamento.
-d.2) Si concurren ascendientes y cónyuge sobreviviente o conviviente civil
-sobreviviente, la mitad legitimaria se distribuirá entre ellos, conforme al art. 989. En
-este caso, la herencia se dividirá en tres partes, dos para el cónyuge o conviviente civil
-y una para los ascendientes de grado más próximo.
-d.3) Si sólo concurren hermanos, rige el art. 990. En este caso, si el causante nada
-dispuso, se llevarán la herencia quienes no tienen calidad de legitimarios.
-d.4) Si sólo concurren otros colaterales, hasta el sexto grado, ellos llevarán la
-herencia. Igual que en el caso anterior, la herencia pertenecerá a quienes no tienen la
-calidad de legitimarios.
-d.5) Finalmente, si ninguno de los anteriores concurre, la herencia yacente, luego
-transformada en vacante, pertenecerá al Fisco, quien obviamente tampoco es
-legitimario.
-       Reiteramos entonces que tras la reforma introducida al Código Civil por la Ley
-N° 19.585 a los órdenes sucesorios, ya no es posible que concurran a la herencia
-intestada legitimarios con quienes no lo son. De haber al menos un legitimario, de él
-será toda la herencia. En cambio, antes de la aludida reforma, era posible que
-concurrieran legitimarios con quienes no lo eran (como ocurría, por ejemplo, en el
-antiguo segundo orden regular, en el cual concurrían ascendientes legítimos, cónyuge
-
-                      Sucesorio 7 – Juan Andrés Orrego Acuña                            4
-e hijos naturales; los dos primeros no tenían la calidad de legitimarios, calidad que hoy
-sí tienen; o en el tercer orden regular, en el cual concurrían hijos naturales, cónyuge y
-hermanos legítimos, no teniendo los dos últimos calidad de legitimarios).
-        De tal forma, siempre las normas de la sucesión intestada respetan la mitad
-legitimaria para los legitimarios, evitando que, muerto abintestato el causante, dicha
-mitad legitimaria pueda ser sobrepasada o desconocida, por aplicación de las normas
-de la sucesión intestada, como veremos más adelante. De lo dicho, se infiere que la
-sucesión intestada determina qué legitimarios heredan cuando concurren dos o más de
-diversa naturaleza. Asimismo, las reglas de la sucesión intestada están basadas en el
-respeto a la mitad legitimaria.
-        En consecuencia, si el causante muere intestado pueden aplicarse las normas
-de la sucesión intestada, sin que por ello se lesionen los derechos de los legitimarios; y
-si muere testado (si dispuso de la parte de libre disposición, la que corresponderá a un
-cuarto de la herencia, de haber legitimarios) las normas de la sucesión intestada
-servirán para saber quienes son llamados y quienes son excluidos de la sucesión
-forzosa. Esta regla tiene por lo mismo gran importancia, ya que permite aplicar las
-normas de la sucesión intestada sin afectar los derechos de los legitimarios, cuando el
-causante no ha dispuesto de sus bienes por testamento.
-
-
 ## 5.5. La legítima como asignación privilegiada y preferente.9
 
+**Definición Canónica:** La legítima es sin duda, la asignación preferente en nuestro sistema sucesorio.
+Ello se desprende de varias disposiciones que la colocan en una posición de privilegio
+respecto de las demás asignaciones sucesorias. En efecto, el legitimario es un heredero
+forzoso al cual se le conceden los siguientes privilegios y las siguientes preferencias:
 
-       La legítima es sin duda, la asignación preferente en nuestro sistema sucesorio.
+La legítima es sin duda, la asignación preferente en nuestro sistema sucesorio.
 Ello se desprende de varias disposiciones que la colocan en una posición de privilegio
 respecto de las demás asignaciones sucesorias. En efecto, el legitimario es un heredero
 forzoso al cual se le conceden los siguientes privilegios y las siguientes preferencias:
@@ -427,6 +193,12 @@ legítimas rigorosas de los demás legitimarios. En realidad, como dice Rodrígu
 la ley se ha expresado impropiamente: en efecto, si un legitimario no lleva todo o
 
 ## parte de su legítima, nada se agrega a la mitad legitimaria, sino que ella se dividirá por
+
+**Definición Canónica:** un factor menos (menos legitimarios) y con ello se elevará su cuantía. Por lo tanto, no
+hay en este caso acrecimiento o agregación alguna, sino la consecuencia lógica de que
+la mitad legitimaria se distribuya entre menos legitimarios. De allí que en este
+supuesto, la legítima siga siendo rigorosa.12
+**Concordancias Legales:** Ley N° 19.585; Ley N° 18.802; Ley N° 19.585.18; constitución
 
 un factor menos (menos legitimarios) y con ello se elevará su cuantía. Por lo tanto, no
 hay en este caso acrecimiento o agregación alguna, sino la consecuencia lógica de que
@@ -804,6 +576,15 @@ Cuarta de libre disposición:         $ 25.000.000.-
 beneficiando con la donación irrevocable hecha al hijo B, lo que no permite el art.
 
 ## 1199. Procede entonces descontar de ella la parte en que se están aprovechando de
+
+**Definición Canónica:** esa donación; de ella, en el ejemplo, dos cuartos benefician a la mitad legitimaria, un
+cuarto a la cuarta de mejoras y otra cuarta a la cuarta de libre disposición. Debemos
+descontar entonces, de la cuarta de libre disposición, la cuarta parte de $5.000.000.-,
+es decir, $1.250.000.- Esta última suma, debe repartirse entre la mitad legitimaria y la
+cuarta de mejoras en proporción de dos a uno (porque la mitad legitimaria es el doble
+de la cuarta de mejoras). O sea, que la mitad legitimaria lleva $833.000.- y la cuarta
+de mejoras $417.000.- Tenemos entonces que la herencia queda distribuida así
+**Concordancias Legales:** Ley N° 19.335; Ley N° 19.585; Ley N° 18.802; constitución
 
 esa donación; de ella, en el ejemplo, dos cuartos benefician a la mitad legitimaria, un
 cuarto a la cuarta de mejoras y otra cuarta a la cuarta de libre disposición. Debemos

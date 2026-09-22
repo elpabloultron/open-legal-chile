@@ -15,6 +15,7 @@ extraccion: pdftotext
 
 ## Del abuso de los derechos1
 
+**Definición Canónica:** 1.- Planteamiento del problema
 
 1.- Planteamiento del problema
 
@@ -135,17 +136,13 @@ hace de la propiedad sin utilidad de su dueño y sólo con la intención de dañ
         ¿Qué requisitos deben concurrir para dar por establecido un acto emulativo? Se
 mencionan tres por la doctrina:
 
-## 1. Debe existir animus nocendi, esto es, el ánimo o intención de dañar, al momento de
-
-realizar el acto;
-
-## 2. Debe realizarse un ejercicio extraordinario del derecho, es decir, fuera de la esfera de
-
-normalidad; y
-
 ## 3. El acto debe carecer de utilidad para quien ejerce el derecho.7
 
-        Sin duda, parece ser lo más difícil, determinar cuando se ejerce un derecho
+**Definición Canónica:** Sin duda, parece ser lo más difícil, determinar cuando se ejerce un derecho
+extraordinariamente, “fuera de la esfera de la normalidad”.
+**Concordancias Legales:** artículo 844 del Código Civil italiano
+
+Sin duda, parece ser lo más difícil, determinar cuando se ejerce un derecho
 extraordinariamente, “fuera de la esfera de la normalidad”.
 
        Para la teoría de las inmisiones, y a diferencia del componente subjetivo implícito
@@ -184,6 +181,9 @@ torno al “abuso del derecho”, aparecerían tres nociones:
 1. La equidad;
 
 ## 2. Los actos de emulación; y
+
+**Definición Canónica:** 3. Los actos de inmisión.
+**Concordancias Legales:** artículo 2110 del Código Civil; artículo 2108; artículos 2355; artículo 280 del Código de Procedimiento Civil; artículo 56 del Código de Aguas; artículo 100 del Código de Comercio; artículos 2314; artículo 2284 del Código Del Abuso de los Derec; artículo 2284 del Código Civil; artículo 1546 del Código Civil; artículo 1545; artículo 112 del Código Civil; artículo 854 del Código Civil; artículo 942 del Código Civil; artículo 1184 del Código Civil; artículo 1317 del Código Civil; artículo 1137; artículo 191; artículo 1206 del Código Civil; artículo 1225; artículos 1781; constitucion
 
 3. Los actos de inmisión.
 

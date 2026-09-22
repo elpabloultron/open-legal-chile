@@ -15,6 +15,14 @@ extraccion: pdftotext
 
 ## Segunda parte: la sucesion intestada1
 
+**Definición Canónica:** S mario:
+Introd cción: Concepto y aplicación.
+Capít lo I: El derecho de representación.
+1.- Origen y evol ción histórica de la instit ción.
+2.- S cesión por derecho personal y por derecho de representación.
+3.- Concepto de derecho de representación.
+4.- Personas q e intervienen en la representación.
+5.- Req isitos para q e opere el derecho de representación.
 
 S mario:
 Introd cción: Concepto y aplicación.
@@ -27,7 +35,21 @@ Capít lo I: El derecho de representación.
 
 ## 5.1. Debe tratarse de na herencia en la q e se apliq en las reglas de la s cesión
 
-   intestada.
+**Definición Canónica:** intestada.
+5.2. Sólo opera en la línea descendente, no en la ascendente.
+5.3. Sólo opera en alg nos de los órdenes de s cesión: los q e contempla el art. 986.
+5.4. Es necesario q e falte el representado.
+6.- Origen legal del derecho de representación.
+7.- Efectos de la representación.
+8.- El efecto retroactivo de las leyes y el derecho de representación.
+9.- Paralelo entre los derechos de representación y transmisión.
+Capít lo II: Principios q e informan la s cesión intestada.
+1.- Principio de aplicación s bsidiaria.
+2.- Principio de ig aldad.
+3.- Principio del patrimonio nitario.
+4.- Principi
+
+intestada.
 5.2. Sólo opera en la línea descendente, no en la ascendente.
 5.3. Sólo opera en alg nos de los órdenes de s cesión: los q e contempla el art. 986.
 5.4. Es necesario q e falte el representado.
@@ -72,8 +94,15 @@ C estionario.
 
 ## Introducción: concepto y aplicación
 
+**Definición Canónica:** En el Tít lo II del Libro III, arts. 980 a 998 del Código Civil, reg la el legislador esta
+materia. P ede definirse como aquella sucesión que regla el legislad r, haya              n
+testament .
+     L hace en l s tres cas s que señala el art. 980:
+a) C ando el dif nto no ha disp esto totalmente de s s bienes.
+b) C ando al disponer de s s bienes, no lo hizo conforme a derecho.
+c) C ando s s disposiciones no han tenido efecto.
 
-  En el Tít lo II del Libro III, arts. 980 a 998 del Código Civil, reg la el legislador esta
+En el Tít lo II del Libro III, arts. 980 a 998 del Código Civil, reg la el legislador esta
 materia. P ede definirse como aquella sucesión que regla el legislad r, haya              n
 testament .
      L hace en l s tres cas s que señala el art. 980:
@@ -112,6 +141,19 @@ de manera expresa o tácita.
 
 ## parte, y por ende la herencia se regirá por las normas de la s cesión intestada, en los
 
+**Definición Canónica:** sig ientes casos:
+i.- C ando el testamento es declarado totalmente n lo o parcialmente n lo.
+ii.- C ando el testamento es reformado totalmente o parcialmente, por decreto
+j dicial.
+iii.- C ando el heredero o el legatario llamados por el testamento, rep dian s s
+asignaciones.
+iv.- C ando el heredero o el legatario llamados por el testamento, res ltan ser
+incapaces o indignos de s ceder al ca sante.
+v.- C ando el heredero o el legatario llamados por el testamento, fallecen antes de la
+m erte del testador.
+vi.- C ando cad ca el testamento privilegiado o menos solemne.
+vii.- C ando el testamento e
+
 sig ientes casos:
 i.- C ando el testamento es declarado totalmente n lo o parcialmente n lo.
 ii.- C ando el testamento es reformado totalmente o parcialmente, por decreto
@@ -131,9 +173,10 @@ sexo ni primogenit ra: arts. 981 y 982. Estas disposiciones tienen na explicaci�
 histórica, p es en la legislación anterior al Código Civil, sí se establecían diferencias
 por tales conceptos.
 
-
 ## Capitulo i: el derecho de representacion
 
+**Definición Canónica:** 1.- Origen y evolución histórica de la institución.
+**Concordancias Legales:** Ley N° 19.585
 
 1.- Origen y evolución histórica de la institución.
 
@@ -592,18 +635,23 @@ l gar del seg ndo en la s cesión del ca sante, se le atrib ye el mismo grado de
 parentesco y los mismos derechos hereditarios.
 5.- Requisitos para que opere el derecho de representación.
 
-
 ## 5.1 Debe tratarse de na herencia en la q e se apliq en las reglas de la s cesión
 
-   intestada.
+**Definición Canónica:** intestada.
 5.2. Sólo opera en la línea descendente, no en la ascendente.
 5.3. Sólo opera en alg nos de los órdenes de s cesión: los q e contempla el art. 986.
 5.4. Es necesario q e falte el representado.
 
+intestada.
+5.2. Sólo opera en la línea descendente, no en la ascendente.
+5.3. Sólo opera en alg nos de los órdenes de s cesión: los q e contempla el art. 986.
+5.4. Es necesario q e falte el representado.
 
 ## 5.1. Debe tratarse de una herencia en la que se apliquen las reglas de la
 
-  sucesión intestada.
+**Definición Canónica:** sucesión intestada.
+
+sucesión intestada.
 
    A diferencia de lo q e oc rre con el derecho de transmisión, q e opera tanto en la
 s cesión testada como intestada, el derecho de representación sólo opera en na
@@ -842,6 +890,9 @@ operando respecto de ella el derecho de representación), sea porq e además de 
 
 ## parte de s s bienes -por ejemplo, disponiendo de la c arta de libre disposición y/o de la c arta de mejoras-
 
+**Definición Canónica:** (en c yo caso, la herencia correspondiente a la mitad legitimaria, siempre se regirá por las normas de la
+s cesión intestada, operando de ig al manera respecto de ella el derecho de representación).
+
 (en c yo caso, la herencia correspondiente a la mitad legitimaria, siempre se regirá por las normas de la
 s cesión intestada, operando de ig al manera respecto de ella el derecho de representación).
 
@@ -948,11 +999,13 @@ falleció desp és q e el ca sante sin pron nciarse acerca de la herencia q e se
 defirió, s cederán en dicha herencia en n c arenta por ciento la primera y en n
 veinte por ciento cada no de los otros tres).
 
-
 ## Capitulo ii: principios que informan la sucesion intestada
 
+**Definición Canónica:** Entre los principios f ndamentales, destacamos, sig iendo principalmente a
+Rodríg ez Grez13, los sig ientes:
+**Concordancias Legales:** Ley N° 21.400
 
-      Entre los principios f ndamentales, destacamos, sig iendo principalmente a
+Entre los principios f ndamentales, destacamos, sig iendo principalmente a
 Rodríg ez Grez13, los sig ientes:
 
      Rodríg ez Grez, Pablo, Instituci nes de Derech   Suces ri . De l s cinc   tip s de sucesión en el Códig
@@ -1083,12 +1136,22 @@ obligaciones q e han q edado vacantes por la m erte del ca sante. El art. 995
 consagra este principio. Este último principio, se vinc la con el principio de la
 propiedad privada y la libre circ lación de la riq eza.
 
-
-## Capitulo iii: los herederos abintestato
-
-
 ## Y sus derechos en la sucesion
 
+**Definición Canónica:** 1.- Quiénes son herederos abintestato.
+      Están enumerad s en el art. 983 del Códig Civil:
+1º Los descendientes del ca sante.
+2º Los ascendientes del ca sante.
+3º S cóny ge sobreviviente.
+4º S s colaterales.
+5º El adoptado en s caso.
+6º El Fisco.
+        A los anteriores, debemos agregar al conviviente civil sobreviviente, de
+conformidad a lo previsto en los artíc los 16, 17 y 18 de la Ley N° 20.830, q e crea el
+ac erdo de nión civil. El inc. 1° del art. 16, dispone: “Cada conviviente civil será
+hereder intestad y legitimario del otro y conc rrirá en la s cesión de la misma forma
+y gozará d
+**Concordancias Legales:** Ley N° 20.830; Ley N° 21.400; Ley Nº 19.620; Ley Nº 19.585; Ley Nº 20.830; Ley N° 7.613; Ley N° 19.620; Ley N° 19.585; Ley Nº 7.613; Ley N° 16.618; Ley N° 18.703; Ley Nº 1.939; Ley N° 1.939
 
 1.- Quiénes son herederos abintestato.
       Están enumerad s en el art. 983 del Códig Civil:
@@ -1759,12 +1822,10 @@ obligación de probar q e no existían otros herederos, imponiendo el peso de la
 a q ienes alegaban la excl sión de éste como consec encia de la existencia de
 herederos preferentes.
 
-
-## Capitulo iv: situacion del conyuge que ha dado motivo a la
-
-
 ## Separación judicial por su culpa y del matrimonio nulo
 
+**Definición Canónica:** 1.- Situación del cónyuge que ha dado motivo a la separación judicial de los
+cónyuges por su culpa.
 
 1.- Situación del cónyuge que ha dado motivo a la separación judicial de los
 cónyuges por su culpa.
@@ -1853,11 +1914,15 @@ antes de la contestación de la demanda. Pero esta norma, dice Rodríg ez, sólo
 aplicación en aq ella materia, y ni siq iera allí se pierde la b ena fe por la notificación
 de la demanda, sino por la contestación de ella.
 
-
 ## Capitulo v: los extranjeros y la sucesion intestada
 
+**Definición Canónica:** Los extranjeros tienen los mismos derechos q e los chilenos en las s cesiones
+abintestato abiertas en Chile: art. 997. Esta norma no hace sino aplicar en el derecho
+s cesorio, el principio general contemplado en el art. 57. Ambos preceptos son
+manifestaciones del principio de ig aldad ante la ley.
+**Concordancias Legales:** Ley N° 20.830; Ley N° 19.620; Ley N° 18.703
 
-       Los extranjeros tienen los mismos derechos q e los chilenos en las s cesiones
+Los extranjeros tienen los mismos derechos q e los chilenos en las s cesiones
 abintestato abiertas en Chile: art. 997. Esta norma no hace sino aplicar en el derecho
 s cesorio, el principio general contemplado en el art. 57. Ambos preceptos son
 manifestaciones del principio de ig aldad ante la ley.

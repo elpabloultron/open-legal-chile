@@ -13,11 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## La prescripcion1
-
-
-
 ## Sumario: 1.- Regulación y definición. 2.- Crítica de la reglamentación conjunta
+
+**Definición Canónica:** de la prescripción adquisitiva y extintiva y justificación de la prescripción. 3.-
+Reglas comunes a toda prescripción. a) Necesidad de alegar la prescripción: art.
+2493. b) La prescripción puede renunciarse: art. 2494. c) Las reglas relativas a la
+prescripción son iguales para todas las personas: art. 2497. 4.- La prescripción
+adquisitiva. 4.1. Definición. 4.2. Características de la prescripción adquisitiva. 4.3.
+Requisitos de la prescripción adquisitiva. a) Cosa susceptible de prescripción. b)
+Posesión. c) Transcurso de un plazo. 4.4. Clases de prescripción adquisitiva. a)
+Prescripción ordina
+**Concordancias Legales:** artículos 951; artículos 2498; artículos 686
 
 de la prescripción adquisitiva y extintiva y justificación de la prescripción. 3.-
 Reglas comunes a toda prescripción. a) Necesidad de alegar la prescripción: art.
@@ -343,6 +349,15 @@ prescripción adquisitiva extraordinaria, por ausencia de buena fe inicial.
 
 ## capítulo referido a la posesión. El Código Civil indica, sin embargo, ciertas reglas
 
+**Definición Canónica:** posesorias al tratar de la prescripción, a las que también hemos aludido. Sólo resta
+mencionar la que señala el art. 2499, respecto de los llamados actos de mera facultad
+y actos de mera tolerancia.
+        Señala el precepto: “La omisión de actos de mera facultad, y la mera tolerancia
+de actos de que no resulta gravamen, no confieren posesión, ni dan fundamento a
+prescripción alguna. / Así el que durante muchos años dejó de edificar en un terreno
+suyo, no por eso confiere a su vecino el derecho de impedirle que edifique. / Del
+mismo modo, el que tolera que el ganado de su vecino transite por 
+
 posesorias al tratar de la prescripción, a las que también hemos aludido. Sólo resta
 mencionar la que señala el art. 2499, respecto de los llamados actos de mera facultad
 y actos de mera tolerancia.
@@ -476,6 +491,16 @@ i.- Interrupción natural por un hecho de la naturaleza: “Cuando sin haber pas
 la posesión a otras manos, se ha hecho imposible el ejercicio de actos posesorios” (art.
 
 ## 2502 Nº 1). El Código Civil señala como ejemplo, una heredad permanentemente
+
+**Definición Canónica:** inundada. Agrega el precepto que la interrupción natural de esta clase no produce otro
+efecto que el de descontarse su duración. Mientras dure la imposibilidad de ejercer
+actos posesorios, no se computará dicho plazo para los efectos de la prescripción. Pero
+una vez que cese dicha imposibilidad, recomenzará el cómputo (si la heredad inundada
+deja de estarlo antes de 5 años, retirándose definitivamente las aguas, vuelve a sus
+antiguos dueños, pero si la inundación permanente dura más de 5 años, una vez que
+cese no sólo hace perder la posesión del terreno, sino que también el dominio de éste,
+el
+**Concordancias Legales:** Ley N° 2.695; constitución
 
 inundada. Agrega el precepto que la interrupción natural de esta clase no produce otro
 efecto que el de descontarse su duración. Mientras dure la imposibilidad de ejercer
@@ -705,6 +730,16 @@ referido Ministerio se inscriba en el Conservador de Bienes Raíces competente. 
 su art. 15: “La resolución del Servicio que acoja la solicitud se considerará como justo
 
 ## título. Una vez practicada su inscripción en el Registro del Conservador de Bienes
+
+**Definición Canónica:** Raíces, el interesado adquirirá la calidad de poseedor regular del inmueble para todos
+los efectos legales, aunque existieren en favor de otras personas inscripciones que no
+hubieran sido materialmente canceladas. Transcurridos dos años completos de
+posesión inscrita no interrumpida, contados desde la fecha de la inscripción, el
+interesado se hará dueño del inmueble por prescripción, la que no se suspenderá en
+caso alguno. La resolución indicada en el inciso primero y la sentencia a que se refiere
+el artículo 25 de esta ley se subinscribirán al margen de la respectiva inscripción de
+dominio a 
+**Concordancias Legales:** artículo 25; artículo 2509; artículo 1792
 
 Raíces, el interesado adquirirá la calidad de poseedor regular del inmueble para todos
 los efectos legales, aunque existieren en favor de otras personas inscripciones que no
@@ -1096,8 +1131,11 @@ extintiva en el Código Civil?
 4.- ¿Por qué la prescripción se regula en la parte final del Libro IV del Código Civil?
 5.- ¿Qué importancia práctica tiene la prescripción?
 
-
 ## Parte de la doctrina, según se verá al estudiar la hipoteca, rechaza la posibilidad de adquirir por
+
+**Definición Canónica:** prescripción este derecho real. En esta posición, Fernando Alessandri Rodríguez y Pablo Rodríguez Grez. Cfr.
+Nuestro apunte de contrato de hipoteca, en www.juanandresorrego.cl, apuntes, Teoría del contrato y
+contratos en particular.
 
 prescripción este derecho real. En esta posición, Fernando Alessandri Rodríguez y Pablo Rodríguez Grez. Cfr.
 Nuestro apunte de contrato de hipoteca, en www.juanandresorrego.cl, apuntes, Teoría del contrato y

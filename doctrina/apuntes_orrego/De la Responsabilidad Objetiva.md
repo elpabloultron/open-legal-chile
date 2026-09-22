@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## De la responsabilidad objetiva1
 
+**Definición Canónica:** Sumario:
+**Concordancias Legales:** constitución
 
 Sumario:
 
@@ -234,8 +236,10 @@ desplegar todas sus fuerzas y capacidades con el fin de evitar los daños que pu
 de su actividad. Por eso, algunos autores han dicho que esta responsabilidad tiene un
 efecto educativo.
 
-
 ## 4.4. Principio de la equidad, del interés preponderante o principio de preponderancia del
+
+**Definición Canónica:** mayor interés social.
+**Concordancias Legales:** constitución
 
 mayor interés social.
 
@@ -485,8 +489,9 @@ conducta del autor.
 retroceso histórico que nos lleva a los tiempos bárbaros, anteriores a la Ley Aquilia, en
 que se atendía a la materialidad de los hechos.
 
-
 ## 6.2. No es efectivo que el problema de la responsabilidad se simplifique por el hecho de
+
+**Definición Canónica:** suprimir la culpa y de reducir aquél a una mera cuestión de causalidad.
 
 suprimir la culpa y de reducir aquél a una mera cuestión de causalidad.
 
@@ -525,8 +530,10 @@ tal contexto, la iniciativa del individuo debe mantenerse libre en una sociedad,
 bien entendido que será el iniciador de una actividad el que asumirá el costo y el riesgo y
 no las víctimas designadas por el azar.
 
-
 ## 6.4. La teoría del riesgo, lejos de extender el ámbito de la responsabilidad y de contribuir a
+
+**Definición Canónica:** desarrollar el espíritu de solidaridad, tiende a hacerlo desaparecer.
+**Concordancias Legales:** artículo 2284 del Código Civil; artículo 2329 del Código Civil
 
 desarrollar el espíritu de solidaridad, tiende a hacerlo desaparecer.
 
@@ -895,6 +902,16 @@ incluso, está exento de responsabilidad).
 
 ## parte superior de un edificio, cuando no puede establecerse con precisión quién es el
 
+**Definición Canónica:** responsable (artículo 2328 del Código Civil), con mayor razón, ha de sostenerse la
+responsabilidad de quien dejó el arma al alcance del demente y en condiciones de
+disparar. Nótese que en el caso del artículo 2328, puede resultar responsable una persona
+que ni siquiera ha creado un riesgo, a diferencia de aquél que efectivamente hace pender
+de su piso macetas u objetos susceptibles de caer al vacío.
+6° Si entendemos que el acto dañoso es uno, pero integrado por dos o más conductas
+diversas, debemos entender, paralelamente, que aquello que une dichas conductas es una
+relación causal fundada en 
+**Concordancias Legales:** artículo 2328 del Código Civil; artículo 2328; artículo 2316; artículo 1458; artículo 2303 del Código Civil; artículo 2328 del Código Civil. Se trata del daño causa
+
 responsable (artículo 2328 del Código Civil), con mayor razón, ha de sostenerse la
 responsabilidad de quien dejó el arma al alcance del demente y en condiciones de
 disparar. Nótese que en el caso del artículo 2328, puede resultar responsable una persona
@@ -969,6 +986,9 @@ se habría visto privada de toda reparación posible.
 vinculación material con el daño. Basta que la cosa haya caído o haya sido arrojada de una
 
 ## parte del edificio para que la responsabilidad afecte a todos quienes moran o residen en
+
+**Definición Canónica:** él. Se podría decir que el riesgo es inherente a los edificios en altura.
+**Concordancias Legales:** artículo 2327 del Código Civil; artículo 2327; Artículo 19; Artículo 25; artículos 49; artículo 49; artículo 3; artículo 56; artículo 66; artículo 58; artículo 55; artículos 56; artículo 57; artículo 61; artículo 60; artículo 65; Ley 18.302; Constitución Política; constitución
 
 él. Se podría decir que el riesgo es inherente a los edificios en altura.
 
@@ -1131,6 +1151,13 @@ a.9. Intervención subsidiaria del Estado: artículo 65.
 su responsabilidad, podrá solicitar la garantía del Estado, y éste podrá concederla, por la
 
 ## parte no cubierta del seguro o por su totalidad. Para Armando Uribe, “el Estado debe ser
+
+**Definición Canónica:** el operador directo o indirecto de toda operación nuclear y él debe asumir toda la
+responsabilidad objetiva por los daños o perjuicios que ocurran sin más excusa para
+exonerarse de dicha responsabilidad que la prueba fehaciente del descuido o negligencia
+de la o las víctimas de los daños, sin perjuicio de la facultad de repetir en contra del
+verdadero operador, ya sea éste un individuo, una sociedad o una empresa.”
+**Concordancias Legales:** artículos 144; artículo 3 del Convenio y en el artículo 144 de la Ley de Na; artículo 3; artículo 144 de la Ley de Navegación dispone que el mismo régime; artículo 3 del Convenio; artículo 144; artículo 148; artículo 5 del Convenio y artículo 145 del Decreto Ley 2.222; artículo 146 del Decreto Ley 2.222 y el artículo 7 del Conveni; artículo 3 de la Convención como los artículos 144 y 147 de la; artículo 147 de la Ley de Navegación dispone que en el caso de i; artículos 142; artículo 826 del Código de Comercio; artículo 2 del Convenio; artículo 144 de la Ley de Navegación dispone que se trata de dañ; artículo 144 de la Ley de Navegación y artículo 3 del Convenio; artículo 144 de la Ley de Navegación y el artículo 3 del Conveni; artículo 148 de la Ley de Navegación; artículo 830; artículo 882; artículo 883; artículo 44; artículo 163; artículo 170; artículo 8; artículo 2372 del Código Civil; artículos 2320; Ley 2.222; Ley Nº 18.290; Ley Nº 18.287; Ley 18.290
 
 el operador directo o indirecto de toda operación nuclear y él debe asumir toda la
 responsabilidad objetiva por los daños o perjuicios que ocurran sin más excusa para

@@ -13,11 +13,10 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Fundamentos constitucionales de
-
-
 ## La responsabilidad extracontractual1
 
+**Definición Canónica:** 1.- Responsabilidad y justicia.
+**Concordancias Legales:** artículo 19; artículo 1; artículo 7; artículo 36; artículo 38; artículos 4; artículo 4; artículo 44 de la Ley 18.575; artículo 4 de la Ley número; Ley 18.575; constitucion; Constitución Política; Constitución
 
 1.- Responsabilidad y justicia.
 
@@ -165,6 +164,16 @@ Constitución Política y en la ley, a favor de los ciudadanos perjudicados cuan
 como en este caso, concurren los presupuestos del artículo 4 de la Ley número
 
 ## 18.575. Otro caso emblemático de responsabilidad civil del Fisco por falta de
+
+**Definición Canónica:** servicio, es el del Estero Minte. Los actores, herederos de las 27 personas fallecidas,
+demandaron indemnizaciones por daños patrimoniales y morales en contra del Fisco
+de Chile, fundándose en la responsabilidad del Ministerio de Obras Públicas por
+falta de servicio. Algunos han pretendido sostener que la falta de servicio consiste
+en que el órgano administrativo se comportó mal, que no actuó como debía actuar.
+Sin embargo, esta fórmula desemboca en el regreso más o menos disimulado a la
+culpa, pues la culpa precisamente existe cuando el demandado, confrontando a un
+hombre medio (apreciación i
+**Concordancias Legales:** artículo 62 de la Ley Orgánica de Municipalidades; artículo 53; artículo 19; artículo 6; artículo 2331 del Código Civil; artículo 2321; artículo 2059 del Código Civil; constitucion; Constitución
 
 servicio, es el del Estero Minte. Los actores, herederos de las 27 personas fallecidas,
 demandaron indemnizaciones por daños patrimoniales y morales en contra del Fisco

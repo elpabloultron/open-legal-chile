@@ -13,135 +13,22 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Familia | **Materia:** Familia
 
-## De la filiacion y de la relación
-
-
-## Jurídica entre progenitores e hijos1
-
-
-Sumario:
-
-## Capítulo i: generalidades
-
-1.- Concepto de filiación
-2.- Características de la filiación
-3.- Clasificación
-4.- Categorías de hijos
-
 ## Capítulo ii: de la determinación de la filiación
+
+**Definición Canónica:** 1.- Fundamento de la determinación de la filiación: el derecho a la identidad personal
+2.- Determinación de la filiación matrimonial
+3.- Determinación de la filiación no matrimonial
+4.- Repudiación de la filiación no matrimonial
 
 1.- Fundamento de la determinación de la filiación: el derecho a la identidad personal
 2.- Determinación de la filiación matrimonial
 3.- Determinación de la filiación no matrimonial
 4.- Repudiación de la filiación no matrimonial
 
-## Capítulo iii: de las acciones de filiación
-
-1.- Reglas generales
-
-## 1.1. Principios fundamentales
-
-
-## 1.2. Características del juicio de filiación
-
-
-## 1.3. Reglas probatorias
-
-
-## 1.4. Acción para impetrar la nulidad del reconocimiento
-
-
-## 1.5. Efectos de la sentencia que determina la filiación, contra la oposición del
-
-respectivo progenitor.
-2.- De las acciones de reclamación de la filiación
-
-## 2.1. Quienes son legítimos contradictores
-
-
-## 2.2. Situación del hijo póstumo o cuando uno de sus progenitores fallece dentro del
-
-plazo de 180 días contados desde el parto
-
-## 2.3. Situación del hijo fallecido siendo incapaz
-
-
-## 2.4. Petición de alimentos en las acciones de reclamación
-
-
-## 2.5. Presunción en caso de concubinato
-
-
-## 2.6. Imprescriptibilidad y ausencia de cosa juzgada en las acciones de reclamación
-
-3.- De las acciones de impugnación de la filiación
-
-## 3.1. Impugnación de la paternidad
-
-
-## 3.2. Impugnación de la maternidad
-
-3.3. caso en el cual la filiación no puede ser impugnada
-4.- Normas transitorias de la Ley N° 19.585
-5.- Efecto retroactivo de algunas normas de la Ley N° 19.585
-
-## Capítulo iv: de los derechos, deberes y obligaciones entre los
-
-
-## Progenitores y los hijos
-
-1.- Efectos personales de la filiación: la autoridad parental
-
-## 1.1. Deberes de los hijos para con sus progenitores
-
-
-## 1.2. Deberes de los progenitores para con sus hijos
-
-
-## 1.3. Situación del hijo abandonado y alimentado y criado por otros
-
-
-## 1.4. Situación del hijo ausente de su casa y que se halla en urgente necesidad
-
-1.5. carácter provisional de las resoluciones judiciales en estas materias
-2.- Efectos patrimoniales de la filiación: la patria potestad
-
-## 2.1. Concepto
-
-
-## 2.2. Sujetos pasivos de la patria potestad
-
-
-## 2.3. Sujetos activos de la patria potestad
-
-
-    Fecha de última modificación: 5 de enero de 2024.
-
-                   La Filiación y La Protección de los Incapaces – Juan Andrés Orrego Acuña
-
-## 2.4. Efecto de las subinscripciones
-
-
-## 2.5. Casos en los cuales los progenitores carecen de la patria potestad
-
-
-## 2.6. Duración y efectos de la patria potestad
-
-
-## 2.7. Del derecho legal de goce sobre los bienes de los hijos
-
-
-## 2.8. De la administración de los bienes del hijo
-
-
-## 2.9. De la representación legal de los hijos
-
-
-## 2.10. De la suspensión de la patria potestad
-
-
 ## 2.11. De la emancipación
 
+**Definición Canónica:** CAPITULO I: GENERALIDADES.
+**Concordancias Legales:** artículos 183; Artículo 7; Ley Nº 21.400; Ley Nº 19.620; ley Nº 19.585
 
 CAPITULO I: GENERALIDADES.
 
@@ -466,24 +353,30 @@ ambos progenitores se negaren a ello.
         Revisemos el tenor de estos preceptos:
         “Artículo 7.
 
-## 1. El niño será inscripto inmediatamente después de su nacimiento y tendrá derecho
-
-desde que nace a un nombre, a adquirir una nacionalidad y, en la medida de lo
-posible, a conocer a sus padres y a ser cuidado por ellos.
-
 ## 2. Los Estados Partes velarán por la aplicación de estos derechos de conformidad con
+
+**Definición Canónica:** su legislación nacional y las obligaciones que hayan contraído en virtud de los
+instrumentos internacionales pertinentes en esta esfera, sobre todo cuando el niño
+resultara de otro modo apátrida”.
+        “Artículo 8.
+**Concordancias Legales:** Artículo 8
 
 su legislación nacional y las obligaciones que hayan contraído en virtud de los
 instrumentos internacionales pertinentes en esta esfera, sobre todo cuando el niño
 resultara de otro modo apátrida”.
         “Artículo 8.
 
-## 1. Los Estados Partes se comprometen a respetar el derecho del niño a preservar su
-
-identidad, incluidos la nacionalidad, el nombre y las relaciones familiares de
-conformidad con la ley sin injerencias ilícitas.
-
 ## 2. Cuando un niño sea privado ilegalmente de algunos de los elementos de su
+
+**Definición Canónica:** identidad o de todos ellos, los Estados Partes deberán prestar la asistencia y protección
+apropiadas con miras a restablecer rápidamente su identidad”.
+        El tribunal Constitucional, en la sentencia Rol N° 1.340-2009, se refiere a este
+derecho en los siguientes términos: “Que, en esta perspectiva, el reconocimiento del
+derecho a la identidad personal en cuanto emanación de la dignidad humana implica la
+posibilidad que toda persona humana sea ella misma y no otra, lo que se traduce en
+que tiene derecho a ser inscrita inmediatamente después de que nace, a tener un
+nombre desde dicho momento
+**Concordancias Legales:** artículo 7; artículo 5; artículos 183; artículo 186; artículos 212; artículo 216 del Código Civil; artículo 199 bis; artículo 188; artículo 988; artículo 199; Ley Nº 19.585; Ley Nº 4.808; Ley Nº 10.271; Ley N° 20.030; Ley N° 10.271; Ley N° 5.750; Ley N° 4.408; Ley Nº 5.750; Ley N° 17.999; Ley N° 19.585; Constitucion; Constitución Política; constitución
 
 identidad o de todos ellos, los Estados Partes deberán prestar la asistencia y protección
 apropiadas con miras a restablecer rápidamente su identidad”.
@@ -1269,8 +1162,10 @@ los herederos, actuando individual o colectivamente, disponen de otras acciones,
 son la de impugnación de la paternidad (art. 216, inc. final) y la de impugnación de la
 maternidad (art. 218).
 
-
 ## 1.5. Efectos de la sentencia que determina la filiación, contra la oposición del
+
+**Definición Canónica:** respectivo progenitor.
+**Concordancias Legales:** artículo 1182; artículo 5; artículos 205; artículo 271 del Código Civil; artículo 317; artículos 195; artículo 206 del Código Civil; artículo 206 del Código Civil. En consecuencia; artículo 317 del Código Civil. La otra interpretación estima q; artículo 205; artículo 317 del Código Civil; artículo 206 del Código Civil establece una excepción a esta r; artículo 317 del Código Civil. Por su parte; artículo 1097 del Código Civil; artículo 7 de la Convención de los Derechos del Niño y el artí; artículos 206; artículo 206; artículos 1097; artículo 195 del Código Civil; Ley N° 19.585; Ley Nº 19.585; constitucion; Constitución
 
 respectivo progenitor.
 
@@ -1631,8 +1526,10 @@ principio, pareciera que sólo puede reclamarse la filiación no matrimonial, pu
 Sin embargo, no se divisa razón alguna para excluir la reclamación de la filiación
 matrimonial.
 
-
 ## 2.2. Situación del hijo póstumo o cuando alguno de los progenitores fallece dentro del
+
+**Definición Canónica:** plazo de 180 días contados desde el parto.
+**Concordancias Legales:** artículo 76 del Código Civil; artículo 180; artículo 206; artículo 206 del Código Civil; artículos 206; artículo 5; artículos 1; Ley Nº 19.585; constitucion; Constitución; Constitución Política
 
 plazo de 180 días contados desde el parto.
 
@@ -1909,6 +1806,12 @@ adolescente desde el año 1998, momento en el cual nació el interés para accio
 
 ## parte de su hermano, y no al dictarse la sentencia de alimentos. Por cierto, en caso de
 
+**Definición Canónica:** haber estimado la Corte que el actor sí tenía interés actual, habría sido necesario,
+también, acreditar que la paternidad era falsa, es decir, que carecía de fundamento
+biológico.
+         Otra sentencia, también de la Corte Suprema, de fecha 18 de abril de 2011,
+rechaza la acción de impugnación deducida por la abuela de la menor que había sido
+
 haber estimado la Corte que el actor sí tenía interés actual, habría sido necesario,
 también, acreditar que la paternidad era falsa, es decir, que carecía de fundamento
 biológico.
@@ -1946,8 +1849,10 @@ que la madre ha tomado conocimiento en el momento que pretendía salir del país
 su hijo). El mismo momento en que tomó conocimiento sirve para determinar desde
 cuando “tuvo ese interés y pudo hacer valer su derecho”.
 
-
 ## 3.1.3. Impugnación de la paternidad tratándose de los hijos nacidos antes del
+
+**Definición Canónica:** matrimonio de sus padres (art. 216, inc. 4º).
+**Concordancias Legales:** artículo 217; artículos 217; artículo 1; artículo 2; artículo 6; artículo 280; artículos 271; artículos 280; Ley Nº 19.585
 
 matrimonio de sus padres (art. 216, inc. 4º).
 
@@ -2139,6 +2044,9 @@ art. 955 del Código Civil.
             La Filiación y la Protección de los Incapaces – Juan Andrés Orrego Acuña   37
 
 ## Capitulo iv: de los derechos, deberes y obligaciones entre los
+
+**Definición Canónica:** PROGENITORES Y LOS HIJOS.
+**Concordancias Legales:** artículo 220; artículo 220 del Código Civil; artículo 220 del Código Civil impone al hijo significa ayuda p; artículos 321; artículo 220 del Código Civil una disposición especial; artículo 321; artículo 968; artículo 1208 del Código Civil. Afirma Manuel Somarriva Undurra; artículo 219; artículo 221; artículo 1; artículo 1208; artículo 324 del Código Civil. Pero este mismo artículo ha zan; artículo 358; artículos 222; artículos 224; artículos 225; artículo 228; artículo 42 de la Ley N; artículo 21 de la Ley N; artículo 18; artículos 5; artículo 16; artículo 12; artículo 159 del Código Civil español dispone; Ley N° 21.430; Ley N° 20.680; Ley N° 16.618; Ley N° 19.947; Ley N° 20.830; Ley N° 19.968; Constitución
 
 PROGENITORES Y LOS HIJOS.
 
@@ -2865,6 +2773,9 @@ no matrimonio, y de haberlo, si hay o no régimen de sociedad conyugal y en este
 
 ## 1.1. Gastos correspondientes a las expensas ordinarias: serán de cargo de la sociedad
 
+**Definición Canónica:** conyugal, conforme al art. 230 del Código Civil. En armonía con el precepto
+**Concordancias Legales:** Ley N° 20.680
+
 conyugal, conforme al art. 230 del Código Civil. En armonía con el precepto
 
      Cfr. historia de la Ley N° 20.680, en www.congreso.cl
@@ -2877,6 +2788,16 @@ del Código Civil reitera que las expensas de educación de un descendiente y la
 hicieren para establecerle y casarle, se imputarán, por regla general, a los gananciales.
 
 ## 1.2. Gastos correspondientes a las expensas extraordinarias: serán también de cargo
+
+**Definición Canónica:** de la sociedad conyugal, en las condiciones señaladas; sin embargo, si el hijo tuviere
+bienes propios, estas expensas extraordinarias se imputarán a dichos bienes en cuanto
+cupieren en ellos y en cuanto le hubieren sido efectivamente útiles; a menos que
+conste de un modo auténtico que el marido, o la mujer, o ambos de consuno, quisieron
+hacerlas de lo suyo (art. 1744 del Código Civil).
+2º Si no existe matrimonio o habiéndolo no hay sociedad conyugal sino alguno de los
+regímenes alternativos, los padres contribuirán en proporción a sus respectivas
+facultades económicas (art. 230, inc. 1º del Có
+**Concordancias Legales:** artículo 234; Artículo 19; artículo 240 del Código Civil. En este caso; artículos 244; artículos 150; artículos 13; artículos 15; artículo 246; artículo 251; artículo 150 del Código Civil; artículo 13; artículo 252; artículo 243; Ley N° 19.96837; Ley N° 19.585; Ley N° 4.447; Ley N° 18.802; Ley N° 20.286; Ley N° 19.968; Ley N° 21.430; Ley N° 16.618; Ley Nº 19.585; Ley Nº 20.680; Ley Nº 20.679; Ley N° 2.079; Ley Nº 2.079; Constitución Política; Constitución
 
 de la sociedad conyugal, en las condiciones señaladas; sin embargo, si el hijo tuviere
 bienes propios, estas expensas extraordinarias se imputarán a dichos bienes en cuanto
@@ -3521,6 +3442,15 @@ referida a un impedimento que tenga origen legal o judicial, pero no en la volun
 donante o del testador. Esta afirmación se funda en relacionar los arts. 253, 257 y
 
 ## 344. En efecto, los padres estarán “impedidos” de ejercer el derecho legal de goce en
+
+**Definición Canónica:** dos casos: i) cuando se suspenda la patria potestad en alguno de los casos previstos
+en el art. 267; y ii) cuando los padres sean privados de la administración de los bienes
+del hijo o de una parte de ellos, según el art. 257. En estos dos casos, conforme al art.
+344, se dará curador al hijo, general si se suspendió la patria potestad y adjunto si se
+privó a los padres de la administración. Es razonable entender que en estos casos los
+padres estarán impedidos de ejercer el derecho legal de goce, pues fueron privados de
+la facultad para administrar los bienes del hijo. El art. 344, con todo, no
+**Concordancias Legales:** artículo 251; artículo 344; Ley Nº 19.585; Ley N° 19.968; Ley N° 14.908
 
 dos casos: i) cuando se suspenda la patria potestad en alguno de los casos previstos
 en el art. 267; y ii) cuando los padres sean privados de la administración de los bienes

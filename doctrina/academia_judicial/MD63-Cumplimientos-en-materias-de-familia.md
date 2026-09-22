@@ -13,20 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## 63           Cumplimiento
-
-             en materia
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** de familia
+             Carolina Salinas Suárez
+             Alejandra Retamal Retamal
+**Concordancias Legales:** Constitucion
 
-             de familia
+de familia
              Carolina Salinas Suárez
              Alejandra Retamal Retamal
 
@@ -88,111 +82,10 @@ Materiales Docentes                                                      ﻿
 
 Contenido
 
-
-## 6       Introducción
-
-
-## 8       Capítulo 1
-
-        Cumplimiento y ejecución de resoluciones judiciales
-
-## 8 Principios y reglas generales
-
-
-## 10 Procedimientos contemplados por la Ley 19.968
-
-            y los procedimientos de ejecución contemplados
-            para la competencia de familia
-
-## 12 Unidad de cumplimiento en tribunales de familia
-
-
-
-## 15      Capítulo 2
-
-        Cumplimiento e incumplimiento del pago de los alimentos
-
-## 15 Generalidades
-
-
-## 45 Sistema de cumplimiento de pensiones de alimentos
-
-
-## 71 Registro Nacional de Deudores de Pensiones de Alimentos
-
-
-
-## 83      Capítulo 3
-
-        Cumplimiento e incumplimiento del régimen de relación
-        directa y regular
-
-## 83 Introducción
-
-
-## 84 Derechos y deberes que implica la relación directa
-
-             y regular
-        96 Factores asociados a la determinación del régimen,
-             cumplimiento, suspensión o restricción
-
-## 108 Tipos de incumplimiento del régimen y sanciones
-
-             correspondientes
-
-Academia Judicial de Chile                                 Autocuidado
-Materiales Docentes                                                   ﻿
-
-
-## 116     Capítulo 4
-
-        Incumplimiento del ejercicio del derecho-deber de cuidado
-        personal de los hijos e hijas
-
-## 116 Presupuestos para determinar el cuidado personal
-
-
-## 119 Incumplimiento del derecho-deber de cuidado personal
-
-
-
-## 129     Capítulo 5
-
-        Aspectos relevantes asociados al cumplimiento del pago
-        de la compensación económica
-
-## 130 Modalidades de pago de la compensación económica
-
-
-## 145 Seguridades para el pago de la compensación económica
-
-
-
-## 148     Capítulo 6
-
-        Aspectos relevantes asociados al cumplimiento de las medidas
-        de protección: Leyes 21.302 y 21.430
-
-## 148 Principios y objetivos
-
-
-## 155 Actores que intervienen en la etapa de cumplimiento
-
-             de las medidas de protección: Grados de responsabilidad
-             y consecuencias
-        165 Cumplimiento y alzamiento según el tipo de medidas:
-             Particularidades
-
-## 168 Cumplimiento de las medidas en el procedimiento
-
-             administrativo
-
-
-## 175     Glosario
-
-
 ## 179     Referencias
 
+**Definición Canónica:** Materiales Docentes                                               Introducción
+**Concordancias Legales:** artículo 233; artículo 175; artículo 231; artículos 233
 
 Materiales Docentes                                               Introducción
 
@@ -232,15 +125,19 @@ de resolución y el tipo de procedimiento. Administrativamente existen
 ciertas diferencias en relación con las unidades de cumplimiento de estos tribunales, dependiendo si se trata de juzgados de familia de menor,
 mediano y mayor tamaño.1 Serán esas particularidades las que se analizarán en los capítulos siguientes.
 
-
 ## 1 Se entienden como juzgados de familia de menor tamaño aquellos compuestos
+
+**Definición Canónica:** por uno a cinco jueces o juezas; de mediano tamaño los compuestos por seis a nueve; y de mayor tamaño, por diez a quince.
 
 por uno a cinco jueces o juezas; de mediano tamaño los compuestos por seis a nueve; y de mayor tamaño, por diez a quince.
 
 Materiales Docentes                                                   Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Cumplimiento y ejecución
+de resoluciones judiciales
+**Concordancias Legales:** artículo 76 de la Constitución; artículo 176 del Código de Procedimiento Civil; artículo 231 del Código de Procedimiento Civil y al ar; Ley 19.968; constitucion; Constitución
 
 Cumplimiento y ejecución
 de resoluciones judiciales
@@ -329,7 +226,17 @@ En general, la Ley 19.968 contempla cinco tipos de procedimientos:
 
 ## 1. Procedimiento ordinario. Este será aplicable a todos los asuntos
 
-     contenciosos cuyo conocimiento corresponda a los juzgados de
+**Definición Canónica:** contenciosos cuyo conocimiento corresponda a los juzgados de
+     familia y que no tengan señalado otro distinto en la Ley 19.968 u
+     otras leyes. Este procedimiento se entenderá, además, como suple-
+     torio respecto a otras causas. El procedimiento comenzará por de-
+     manda escrita. En casos calificados, la judicatura —por resolución
+     fundada— podrá autorizar a la parte demandante a interponer su
+     demanda oralmente, de todo lo cual se levantará acta de inmedia-
+     to (artículos 55 y 56 de la Ley 19.968).
+**Concordancias Legales:** artículos 55; Ley 19.968
+
+contenciosos cuyo conocimiento corresponda a los juzgados de
      familia y que no tengan señalado otro distinto en la Ley 19.968 u
      otras leyes. Este procedimiento se entenderá, además, como suple-
      torio respecto a otras causas. El procedimiento comenzará por de-
@@ -340,10 +247,20 @@ En general, la Ley 19.968 contempla cinco tipos de procedimientos:
 
 Materiales Docentes                                                   Capítulo 1
 
-
 ## 2. Procedimiento para la aplicación judicial de medidas de protec-
 
-      ción de los derechos de niños, niñas o adolescentes. En los casos
+**Definición Canónica:** ción de los derechos de niños, niñas o adolescentes. En los casos
+      en que la ley exige o autoriza la intervención judicial para adoptar
+      las medidas de protección jurisdiccionales establecidas en la Ley
+      21.340 que crea el Sistema Integral de Protección y Garantías de los
+      Derechos de la Niñez y Adolescencia, tendientes a la protección de
+      los derechos de los niños, niñas o adolescentes cuando estos se en-
+      contraren amenazados o vulnerados, se aplicará el procedimiento
+      contenido en el párrafo primero, título 4 de la Ley de Tribunales
+      de Familia (artíc
+**Concordancias Legales:** artículo 68; Ley 21.340; Ley 19.968
+
+ción de los derechos de niños, niñas o adolescentes. En los casos
       en que la ley exige o autoriza la intervención judicial para adoptar
       las medidas de protección jurisdiccionales establecidas en la Ley
       21.340 que crea el Sistema Integral de Protección y Garantías de los
@@ -358,20 +275,40 @@ Materiales Docentes                                                   Capítulo 
 
 ## 69 Ley 19.968). Lo anterior, deberá estar coordinado con lo previs-
 
-      to en la Ley 21.340, especialmente en lo dispuesto por los artículos
+**Definición Canónica:** to en la Ley 21.340, especialmente en lo dispuesto por los artículos
+      65 y siguientes; y en la Ley 21.302, que crea el Servicio Nacional de
+      Protección Especializada a la Niñez y Adolescencia.
+**Concordancias Legales:** artículos 65; Ley 21.340; Ley 21.302
+
+to en la Ley 21.340, especialmente en lo dispuesto por los artículos
       65 y siguientes; y en la Ley 21.302, que crea el Servicio Nacional de
       Protección Especializada a la Niñez y Adolescencia.
 
 ## 3. Procedimiento relativo a los actos de violencia intrafamiliar. Este
 
-      procedimiento regirá cuando al juzgado de familia le correspon-
+**Definición Canónica:** procedimiento regirá cuando al juzgado de familia le correspon-
+      da conocer los conflictos a que dé origen la comisión de actos de
+      violencia intrafamiliar, regulados en la Ley 20.066 (artículo 81 Ley
+      19.968).
+**Concordancias Legales:** artículo 81; Ley 20.066; Ley 19.968
+
+procedimiento regirá cuando al juzgado de familia le correspon-
       da conocer los conflictos a que dé origen la comisión de actos de
       violencia intrafamiliar, regulados en la Ley 20.066 (artículo 81 Ley
       19.968).
 
 ## 4. Procedimiento relativo a actos judiciales no contenciosos. Los ac-
 
-      tos judiciales no contenciosos cuyo conocimiento corresponda a
+**Definición Canónica:** tos judiciales no contenciosos cuyo conocimiento corresponda a
+      los jueces y juezas de familia se regirán por las normas contempla-
+      das en la Ley 19.968 y, en lo no previsto en ellas, por el libro 4 del
+      Código de Procedimiento Civil, a menos que resulten incompati-
+      bles con la naturaleza de los procedimientos que esta ley establece,
+      particularmente en lo relativo a la exigencia de oralidad (artículo
+      102 Ley 19.968).
+**Concordancias Legales:** artículo 102; Ley 19.968
+
+tos judiciales no contenciosos cuyo conocimiento corresponda a
       los jueces y juezas de familia se regirán por las normas contempla-
       das en la Ley 19.968 y, en lo no previsto en ellas, por el libro 4 del
       Código de Procedimiento Civil, a menos que resulten incompati-
@@ -381,7 +318,14 @@ Materiales Docentes                                                   Capítulo 
 
 ## 5. Procedimiento contravencional ante los tribunales de familia. Las
 
-      faltas contenidas en la legislación vigente que sean cometidas por
+**Definición Canónica:** faltas contenidas en la legislación vigente que sean cometidas por
+      adolescentes constituirán contravenciones de carácter administra-
+      tivo para todos los efectos legales y su juzgamiento se sujetará al
+      procedimiento regulado en los artículos 102a y siguientes de la Ley
+      19.968.
+**Concordancias Legales:** artículos 102; artículo 27 de la Ley 19.968; Ley 19.968; Ley 14.908; Ley 16.618
+
+faltas contenidas en la legislación vigente que sean cometidas por
       adolescentes constituirán contravenciones de carácter administra-
       tivo para todos los efectos legales y su juzgamiento se sujetará al
       procedimiento regulado en los artículos 102a y siguientes de la Ley
@@ -440,6 +384,13 @@ tribunal (Poder Judicial, 2017).
 
 ## parte de la Unidad de Sala, Causas y Cumplimiento a un administrativo
 
+**Definición Canónica:** liquidador (figura 1), quien tiene como principal objetivo confeccionar
+las liquidaciones de deudas o certificaciones, de acuerdo con las normas
+legales y contables vigentes, dejando constancia a través del Sistema Informático de Tribunales de Familia. Además, debe revisar exhaustivamente los cálculos de las liquidaciones y certificaciones.
+   Dada la particular naturaleza de los procedimientos, la unidad en
+cuestión desarrolla las gestiones necesarias para la adecuada y cabal
+ejecución de las resoluciones judiciales en el ámbito familiar, particularmente de aquellas que requieren de cumplimie
+
 liquidador (figura 1), quien tiene como principal objetivo confeccionar
 las liquidaciones de deudas o certificaciones, de acuerdo con las normas
 legales y contables vigentes, dejando constancia a través del Sistema Informático de Tribunales de Familia. Además, debe revisar exhaustivamente los cálculos de las liquidaciones y certificaciones.
@@ -480,8 +431,11 @@ Atención de Público            Jefe de Sala            Jefe de Causas         
 
          Figura 1. Organigrama juzgados de familia de mediano y mayor tamaño.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Cumplimiento e incumplimiento
+del pago de los alimentos
+**Concordancias Legales:** artículos 3; artículos 11; artículo 17; artículo 16; artículos 131; artículos 1; artículo 543; artículos 44; artículos 2; artículo 20; artículos 5; artículo 7; Ley 14.908; Ley 16.618; Ley 19.968; Ley 21.430; Ley 20.066; Ley 20.880
 
 Cumplimiento e incumplimiento
 del pago de los alimentos
@@ -522,8 +476,15 @@ efectos que produce el vínculo filiativo y genera la obligación correlativa
 de ambos padres de otorgarlo a sus hijos e hijas», pues «está encaminado a garantizar la subsistencia del alimentario y su fundamento radica
 en el derecho a la vida».1
 
-
 ## 1 Sentencia de la Corte Suprema, rol 91.731, 1 de febrero de 2023: «Sexto: Que el
+
+**Definición Canónica:** derecho de alimentos es uno de los principales efectos que produce el vínculo filiativo y genera la obligación correlativa de ambos padres de otorgarlos a sus hijos
+e hijas en proporción a sus respectivas facultades económicas. Está encaminado a
+garantizar la subsistencia del alimentario y su fundamento radica en el derecho a la
+vida; como usualmente se ha dicho, los alimentos son las subsistencias que se dan a
+ciertas personas, que les permiten subvenir a las necesidades de su existencia, que
+a lo menos deben cubrir el sustento diario, la alimentación, vestuario, salud, movilización, vivienda
+**Concordancias Legales:** artículo 27; artículo 323 del Código Civil señala que; artículo 6 de la Convención de los Derechos del Niño; artículo 323; artículo 1.469 del Código Civil; artículo 334; artículos 334; Ley 21.389; Ley 21.484
 
 derecho de alimentos es uno de los principales efectos que produce el vínculo filiativo y genera la obligación correlativa de ambos padres de otorgarlos a sus hijos
 e hijas en proporción a sus respectivas facultades económicas. Está encaminado a
@@ -648,8 +609,11 @@ Del análisis conjunto de las normas contenidas en los artículos 334 y 335
 del Código Civil, pareciera que el fundamento de la imprescriptibilidad
 sería que el derecho a pedir alimentos está fuera del comercio humano.4
 
-
 ## 4 Al respecto, existen opiniones divergentes, véase Vodanovic (1994: 223): «Siendo
+
+**Definición Canónica:** el fin del derecho de alimentos la subsistencia y mantenimiento de la vida, no se
+concibe que prescriba. Siempre y cada vez que concurran en un sujeto las condiciones para que tal derecho legal se haga actual y exigible, puede demandarlo. No
+**Concordancias Legales:** artículo 336; artículo 2.514 del Código Civil
 
 el fin del derecho de alimentos la subsistencia y mantenimiento de la vida, no se
 concibe que prescriba. Siempre y cada vez que concurran en un sujeto las condiciones para que tal derecho legal se haga actual y exigible, puede demandarlo. No
@@ -683,6 +647,13 @@ de acuerdo con el principio “nadie se alimenta para el pretérito, no se vive 
 pretérito” […] pero sí podrá solicitarlo para el futuro, desde que los demande».
 
 ## 5 Sentencia de la Corte de Apelaciones de Concepción, rol 141-2021, 20 de mayo
+
+**Definición Canónica:** de 2021.
+ 6 Sentencia de la Corte Suprema, rol 5.558-2013, 17 de diciembre de 2013.
+ 7 En mismo sentido lo explica Abeliuk (2014: 1203): «Fundamentalmente es la inactividad del acreedor la que provoca la prescripción, su desinterés por cobrar, porque si este acciona, interrumpe el transcurso de la prescripción. Pero también puede
+interrumpirla el reconocimiento del deudor de su obligación». En relación con la
+interrupción de la prescripción, nuestra Corte Suprema ha sostenido que el pago
+**Concordancias Legales:** artículo 336; artículo 19 bis de la Ley 14.908; artículo 1.618; artículo 229 del Código Orgánico de Tribunales; Ley 14.908; Ley 21.484
 
 de 2021.
  6 Sentencia de la Corte Suprema, rol 5.558-2013, 17 de diciembre de 2013.
@@ -724,6 +695,10 @@ Suprema, rol 75.433, 27 de noviembre de 2020, considerando quinto).
 
 ## 8 Artículo 19 bis Ley 14.908: «El plazo de prescripción para las acciones ejecutivas
 
+**Definición Canónica:** de cobro por deudas de pensión alimenticia será de tres años y se convertirá en ordinaria por dos años más, y se comenzará a computar desde el momento en que el
+alimentario o alimentaria cumpla 21 años».
+**Concordancias Legales:** artículo 2.451 del Código Civil; artículo 11; Ley 14.908
+
 de cobro por deudas de pensión alimenticia será de tres años y se convertirá en ordinaria por dos años más, y se comenzará a computar desde el momento en que el
 alimentario o alimentaria cumpla 21 años».
 
@@ -734,27 +709,15 @@ ley señala. De acuerdo con el citado artículo 11, inciso tercero, de la Ley
 14.908, la judicatura solo podrá dar su aprobación a las transacciones
 sobre alimentos futuros a que hace referencia el artículo 2.451 del Código Civil, si se cumplen los siguientes presupuestos:
 
-## 1. Que se disponga el pago mensual y anticipado de un monto expre-
-
-       sado en unidades tributarias mensuales.
-
-## 2. Que el pago sea hecho mediante depósito o transferencia a una
-
-       cuenta de ahorro u otro instrumento equivalente dispuesto exclu-
-       sivamente para el cumplimiento de esta obligación.
-
-## 3. Que se especifique la época del mes en que dicho depósito o trans-
-
-       ferencia ha de realizarse.
-
-## 4. El acuerdo deberá especificar las circunstancias consideradas por
-
-       las partes para determinar la capacidad económica del alimentan-
-       te y las necesidades del alimentario.
-
 ## 5. El acuerdo deberá indicar la proporción en la que los padres debe-
 
-       rán contribuir, conforme a sus capacidades económicas, a solucio-
+**Definición Canónica:** rán contribuir, conforme a sus capacidades económicas, a solucio-
+       nar los gastos extraordinarios del hijo o hija en común, entendién-
+       dose por tales aquellas necesidades que surgen con posterioridad
+       y cuya existencia no era posible prever, tales como el caso de hos-
+       pitalizaciones y gastos médicos de urgencia.
+
+rán contribuir, conforme a sus capacidades económicas, a solucio-
        nar los gastos extraordinarios del hijo o hija en común, entendién-
        dose por tales aquellas necesidades que surgen con posterioridad
        y cuya existencia no era posible prever, tales como el caso de hos-
@@ -762,7 +725,18 @@ sobre alimentos futuros a que hace referencia el artículo 2.451 del Código Civ
 
 ## 6. Tendrán asimismo validez los acuerdos de constitución de dere-
 
-       chos de usufructo y de uso o habitación sobre bienes del alimen-
+**Definición Canónica:** chos de usufructo y de uso o habitación sobre bienes del alimen-
+       tante, realizados de conformidad a lo dispuesto en el artículo 9 de
+       la Ley 14.908, y válidos los aportes económicos a los que se obligue
+       el alimentante para el otorgamiento de prestaciones o beneficios
+       en favor del alimentario, que surgen de una relación contractual
+       suya que permite satisfacer las necesidades del alimentario en con-
+       diciones más favorables, tales como el aporte de la cotización para
+       salud o el pago de la prima del seguro de salud. Estas prestaciones
+       deberán 
+**Concordancias Legales:** artículo 9; Ley 14.908
+
+chos de usufructo y de uso o habitación sobre bienes del alimen-
        tante, realizados de conformidad a lo dispuesto en el artículo 9 de
        la Ley 14.908, y válidos los aportes económicos a los que se obligue
        el alimentante para el otorgamiento de prestaciones o beneficios
@@ -774,10 +748,17 @@ sobre alimentos futuros a que hace referencia el artículo 2.451 del Código Civ
        acuerdo, y su incumplimiento debe ser alegado por el alimentario
        tan pronto lo conozca, objetando la liquidación.
 
-
 ## 7. El monto de la pensión, expresado en unidades tributarias men-
 
-      suales, no podrá ser inferior al establecido en el artículo 3 de la
+**Definición Canónica:** suales, no podrá ser inferior al establecido en el artículo 3 de la
+      Ley 14.908, esto es, 40% del ingreso mínimo remuneracional que
+      corresponda, según la edad del alimentante, y tratándose de dos o
+      más menores dicho monto no podrá ser inferior al 30% por cada
+      uno de ellos, debiéndose sí respetar la norma de que la pensión no
+      puede, en principio, exceder del 50% de las rentas del alimentante.
+**Concordancias Legales:** artículo 3 de la Ley 14.908; artículo 331 del Código Civil señala que; artículo 5 de la Ley 14.908; artículo 54; Ley 14.908; Ley 19.968
+
+suales, no podrá ser inferior al establecido en el artículo 3 de la
       Ley 14.908, esto es, 40% del ingreso mínimo remuneracional que
       corresponda, según la edad del alimentante, y tratándose de dos o
       más menores dicho monto no podrá ser inferior al 30% por cada
@@ -803,8 +784,14 @@ por parte del alimentario.
 medidas cautelares que procedan, incluyendo la fijación de alimentos
 provisorios cuando corresponda» (figura 1).10
 
-
 ## 9 Solo puede existir una primera demanda en causas de alimentos, por tanto, una
+
+**Definición Canónica:** demanda de aumento de alimentos no amerita cobrar el aumento desde su interposición. Véase al respecto, sentencia Corte Suprema, rol 8.455-2015, 5 de enero de
+2016, considerando octavo.
+ 10 La Ley de Tribunales de Familia tutela el acceso a la determinación de los alimentos provisorios incluso antes del inicio del procedimiento. En el artículo 109, se
+dispone, a propósito del procedimiento de mediación en causas relativas al derecho
+de alimentos, que: «Tratándose de casos que versen, en todo o parte, sobre el derecho de alimentos, el mediador, en la primera sesión, deberá informar al alimentar
+**Concordancias Legales:** artículo 109; artículo 536 del Código Orgánico de; artículo 4 de la Ley 14.908; artículo 332; artículo 54; artículo 324; artículo 968; Ley 14.908
 
 demanda de aumento de alimentos no amerita cobrar el aumento desde su interposición. Véase al respecto, sentencia Corte Suprema, rol 8.455-2015, 5 de enero de
 2016, considerando octavo.
@@ -898,12 +885,16 @@ representan para quien juzga, lo que implica un ejercicio lógico vertido
 en la sentencia a partir de las probanzas rendidas en juicio por las partes, cuestión no liviana, que podría implicar la revisión de la causa en
 instancias superiores e incluso la anulación de sentencias.12 La prueba
 
-
-## 11 Artículo 329 del Código Civil: «En la tasación de los alimentos se deberán tomar
-
-siempre en consideración las facultades del deudor y sus circunstancias domésticas».
-
 ## 12 Al respecto, véase la sentencia de la Corte Suprema, rol 29.228-2018, 3 de febrero
+
+**Definición Canónica:** 2020: «Cuarto: Que, la sentencia cuya invalidación se pide, efectivamente incurrió
+en infracción de las reglas de la sana crítica, como se denuncia, toda vez que para aumentar la rebaja de la pensión alimenticia concedida en primera instancia, carece de
+un razonamiento probatorio que lo justifique, como quiera que para concluir que la
+madre debe asumir los gastos de educación de uno de sus hijos que cursan estudios
+universitarios y que corresponde rebajar aún más el pago que mediante depósito
+realiza el actor, se funda en que “resulta adecuado a la nueva realidad económica de
+las partes” pero 
+**Concordancias Legales:** artículo 230 del Código Civil; artículo 32; artículos 28; artículo 3 de la Ley 14.908 señala que; Ley 19.968; Ley 14.908
 
 2020: «Cuarto: Que, la sentencia cuya invalidación se pide, efectivamente incurrió
 en infracción de las reglas de la sana crítica, como se denuncia, toda vez que para aumentar la rebaja de la pensión alimenticia concedida en primera instancia, carece de
@@ -1009,6 +1000,9 @@ el alimentante y las necesidades del alimentario.15
  14 Sentencia de la Corte Suprema, rol 76.194-2020, 27 de noviembre de 2020, considerando quinto.
 
 ## 15 Al igual que los acuerdos, toda resolución que fije una pensión de alimentos
+
+**Definición Canónica:** deberá disponer el pago mensual y anticipado de un monto expresado en unidades
+**Concordancias Legales:** artículo 7; artículo 17 de la Ley 14.908; artículo 6 de la Ley 18.010; artículo 9 de la Ley 14.908; artículo 9; artículo 6; artículo 333 del Código Civil; artículo 175 del Código Civil que señala que el cón; artículo 324 del Código Civil; artículo 3; artículo 10; artículo 7 de la Ley 14.908; artículo 12; Ley 14.908; Ley 18.010; Ley 21.389; Constitución
 
 deberá disponer el pago mensual y anticipado de un monto expresado en unidades
 
@@ -1145,8 +1139,11 @@ Para efectos de su cumplimiento, la Ley 14.908 en el artículo 12 ordena
 al juez o jueza de familia liquidar de oficio mensualmente la pensión y
 notificar dicha liquidación a las partes. Esto se debe hacer para facilitar:
 
-
 ## 17 Con todo, la puesta en marcha de un sistema automatizado de liquidación de
+
+**Definición Canónica:** deuda por concepto de alimentos, que se está introduciendo en las principales jurisdicciones del país, supone un proceso de conversión manual en un primer momento y,
+luego, completamente automatizado, lo que permitiría lograr el objetivo de la reforma.
+**Concordancias Legales:** artículo 12; artículo 12 de la Ley 14.908 que por regla general las resoluci; artículo 23 de la Ley 19.968 que Crea los Tribunales de; Ley 14.908; Ley 19.968
 
 deuda por concepto de alimentos, que se está introduciendo en las principales jurisdicciones del país, supone un proceso de conversión manual en un primer momento y,
 luego, completamente automatizado, lo que permitiría lograr el objetivo de la reforma.
@@ -1178,8 +1175,15 @@ cumplimiento de la pensión alimenticia deberán notificarse en la forma
 electrónica que el alimentante hubiere indicado, según lo dispuesto en
 el inciso final del artículo 23 de la Ley 19.968 que Crea los Tribunales de
 
-
 ## 18 El artículo 17 de la Ley 14.908, contempla lo relativo al pago de intereses desde
+
+**Definición Canónica:** la mora del alimentante: «Los alimentos adeudados devengarán el interés corriente
+para operaciones reajustables, determinado por la Comisión para el Mercado Financiero, de acuerdo a lo establecido en el artículo 6 de la Ley 18.010, que establece normas sobre operaciones de crédito y otras obligaciones en dinero que indica.
+La entidad financiera en la que se abra una cuenta de ahorro u otro instrumento
+equivalente, para el cumplimiento de la pensión alimenticia, deberá proporcionar
+al tribunal todos los medios y antecedentes necesarios para poner a disposición de
+las partes una liquidación con 
+**Concordancias Legales:** artículo 6 de la Ley 18.010; artículo 52 del Código de Procedimiento Civil. En relación; artículo 2; artículo 12; Ley 18.010
 
 la mora del alimentante: «Los alimentos adeudados devengarán el interés corriente
 para operaciones reajustables, determinado por la Comisión para el Mercado Financiero, de acuerdo a lo establecido en el artículo 6 de la Ley 18.010, que establece normas sobre operaciones de crédito y otras obligaciones en dinero que indica.
@@ -1236,6 +1240,7 @@ fiscal de 3 a 15 unidades tributarias mensuales.
 
 ## 2. Deben imputarse en aquella proporción que exceda a la contribu-
 
+**Definición Canónica:** Materiales Docentes                                                         Capítulo 2
 
 Materiales Docentes                                                         Capítulo 2
 
@@ -1243,14 +1248,16 @@ Materiales Docentes                                                         Cap�
       que está establecida en la sentencia o en el acuerdo vigente.
    3. Debe procederse previo traslado al alimentario.
 
-## 4. La resolución que acoja dicha solicitud deberá ser fundada, te-
-
-      niendo en especial consideración el interés superior del niño, niña
-      o adolescente.
-
 ## 5. No se podrá imputar al pago mensual una suma que exceda del
 
-      veinte por ciento del monto de la pensión fijada o aprobada, de-
+**Definición Canónica:** veinte por ciento del monto de la pensión fijada o aprobada, de-
+      biendo proceder, si fuera necesario, a prorratear la suma total a
+      imputar al pago de las pensiones sucesivas.
+  c) Transformación universal de «causas en tramitación» a «causas en
+cumplimiento», para materializar el objetivo del legislador.19
+**Concordancias Legales:** artículo 321 del Código Civil; artículos 102; artículo 1.740; artículo 160 del Código Civil; artículos 174; artículos 21; artículo 19; artículos 14; artículo 54 de la Ley de Matrimonio Civil; artículo 55; artículo 332; artículo 230 del Código Civil. Dichos gastos pesan sobre el pa; artículo 232; artículo 223 del Código Civil; artículo 321; artículo 204 del Código Civil señala que cuando la filiación h; artículo 324 del Código Civil; artículos 203; artículo 3; artículo 232 del Código Civil; artículo 968; artículo 1.208; artículo 324 del Código Civil establece que en el caso de inju; artículo 324; artículos 323; artículo 1; artículo 75 del Código Civil; artículo 184 del Código Civil. En caso de no serlo; artículo 8 de la Ley 19.968 sobre Tribunales de Familia; artículo 1 de la Ley 14.908 que será competente el tribunal de; Ley 14.908; Ley 19.968; constitucion
+
+veinte por ciento del monto de la pensión fijada o aprobada, de-
       biendo proceder, si fuera necesario, a prorratear la suma total a
       imputar al pago de las pensiones sucesivas.
   c) Transformación universal de «causas en tramitación» a «causas en
@@ -1471,8 +1478,14 @@ demandante de alimentos —y por ende, entre ellos, a los menores— la
 facultad de elegir entre el tribunal del domicilio del demandando o del
 demandante, protegen el interés superior de los menores y, en tal caso,
 
-
 ## 22 Conforme a los principios que informan la materia, en especial los consagrados
+
+**Definición Canónica:** en los tratados internacionales que Chile ha suscrito, que permiten sostener la procedencia de los alimentos en resguardo de la vida e integridad física, considerando
+que siempre habrá lugar a demandar posteriormente la restitución y la indemnización de perjuicios, si hubo dolo para obtener alimentos (solidariamente a todos lo
+que han participado en el dolo), según lo dispone el artículo 328 del Código Civil.
+ 23 Mismo criterio contemplado en el artículo 1.471 del Código Orgánico del Tribunales que señala: «Será juez competente para conocer de las demandas de alimentos
+el del domicilio del ali
+**Concordancias Legales:** artículo 328 del Código Civil. 23 Mismo criterio contemplado; artículo 1.471 del Código Orgánico del Tribunales que señala; artículo 106 de la Ley 19.968; Ley 19.968; Ley 14.908
 
 en los tratados internacionales que Chile ha suscrito, que permiten sostener la procedencia de los alimentos en resguardo de la vida e integridad física, considerando
 que siempre habrá lugar a demandar posteriormente la restitución y la indemnización de perjuicios, si hubo dolo para obtener alimentos (solidariamente a todos lo
@@ -1499,8 +1512,15 @@ contempla que los alimentos que se demandan en favor de los hijos e hijas pueden
 Lo anterior, conforme a las facultades que emanan de la patria potestad
 que ejercen los padres (que incluye la representación legal de los hijos
 
-
 ## 24 Artículo 19 Ley 19.968: «Representación: En todos los asuntos de competencia
+
+**Definición Canónica:** de los juzgados de familia en que aparezcan involucrados intereses de niños, niñas,
+adolescentes, o incapaces, el juez deberá velar porque éstos se encuentren debidamente representados. El juez designará a un abogado perteneciente a la respectiva
+Corporación de Asistencia Judicial o a cualquier institución pública o privada que
+se dedique a la defensa, promoción o protección de sus derechos, en los casos en que
+carezcan de representante legal o cuando, por motivos fundados, el juez estime que
+sus intereses son independientes o contradictorios con los de aquél a quien corresponda legalmente su 
+**Concordancias Legales:** artículo 109; artículo 332 del Código Civil; artículo 19; artículo 1; artículo 19 de la Ley 19.968; artículo 1 de la Ley 14.908; artículo 147 del Código Orgánico de Tribuna; artículo 17 de la Ley 18.600 en relación con el artículo 1; artículo 11 de la Ley 14.908; artículo 14 de la Ley 14.908 será de competencia del tribu; artículo 14; artículo 27 de la Ley 19.968; artículo 11 de la Ley 14.908 señala que toda resolución judicia; artículo 12; artículo 23 de la Ley que Crea los Juzgados de Familia; artículos 231; artículo 237; artículo 233; artículo 66 de la Ley 19.968; artículo 170 del Código de Procedimiento Civil; artículo 12 de la Ley 14.908; artículos 14; Ley 19.968; Ley 14.908; Ley 18.600; Ley 19.918; Ley 20.152; Ley 5.750; Ley 14.550; Ley 21.389; Ley 21.484; Ley 21.398; Constitución
 
 de los juzgados de familia en que aparezcan involucrados intereses de niños, niñas,
 adolescentes, o incapaces, el juez deberá velar porque éstos se encuentren debidamente representados. El juez designará a un abogado perteneciente a la respectiva
@@ -1741,8 +1761,15 @@ nuevos mecanismos. Al respecto, reciente jurisprudencia ha sostenido
 que la existencia de retenciones de dinero haría innecesaria la aplicación
 de apremios de otra naturaleza.27
 
-
 ## 27 Sentencia de la Corte de Apelaciones de Santiago, rol amparo 393-2023, 27 de
+
+**Definición Canónica:** febrero de 2023: «Tercero: que, efectivamente, la Ley 14.908, en su artículo 14, faculta a la judicatura a decretar las medidas de apremio que denuncia el recurrente;
+sin embargo, es menester que la deuda que mantenga el alimentante no sea posible
+extinguirla por algún otro medio pues, si como sucede en la especie, se encuentra retenida por orden del mismo Tribunal de Familia, en la cuenta corriente del
+alimentante del Banco Falabella, la suma de $4.730.290.- la que es suficiente para
+extinguir la obligación, el arresto decretado junto con los demás apremios pierde su
+sustento. Cuarto: Que, en
+**Concordancias Legales:** artículo 14; artículo 21 de la Carta Fundamental y auto acordado sobre trami; Ley 14.908
 
 febrero de 2023: «Tercero: que, efectivamente, la Ley 14.908, en su artículo 14, faculta a la judicatura a decretar las medidas de apremio que denuncia el recurrente;
 sin embargo, es menester que la deuda que mantenga el alimentante no sea posible
@@ -1770,6 +1797,15 @@ de arresto, arraigo, suspensión de licencia de conducir y envío de antecedente
 registro de deudores del amparado».
 
 ## 28 Sentencia de la Corte Suprema, rol 91.731-2021, 1 de febrero de 2023, señala en
+
+**Definición Canónica:** lo pertinente que: «Séptimo: […] Considerando que mientras el niño fue menor de
+edad se encontraba al cuidado de su madre y que, ante la falta de contribución económica del padre, debió ella subvenir íntegramente, con dineros propios, todas las
+necesidades y gastos de manutención del hijo para otorgarle las condiciones de vida
+necesarias para su desarrollo físico, mental, espiritual, moral y social, circunstancia
+que el padre no podía menos que saber y permite presumir, en forma inequívoca,
+que tácitamente aceptó que la madre solucionara las obligaciones alimenticias que le
+correspondían, debe
+**Concordancias Legales:** artículo 23; artículos 14; Artículo 14 de Ley 14.908; artículo 14; Ley 19.968; Ley 14.908; constitucion
 
 lo pertinente que: «Séptimo: […] Considerando que mientras el niño fue menor de
 edad se encontraba al cuidado de su madre y que, ante la falta de contribución económica del padre, debió ella subvenir íntegramente, con dineros propios, todas las
@@ -1891,8 +1927,16 @@ obrar con alguna certeza en la interposición de los recursos.33
    b) Arraigo del deudor de alimentos. El inciso sexto del artículo 14 de
 la Ley 14.908 hace procedente el arraigo a quien cumpla con los requisi-
 
-
 ## 32 El rol de las policías en la efectividad de las órdenes de arresto resulta vital para
+
+**Definición Canónica:** el éxito de la medida. Despachada la orden a la Policía de Investigaciones o a Carabineros de Chile, estos deben cumplirla en el plazo de sesenta días; transcurrido
+dicho plazo, el juez podrá ordenar a la fuerza pública investigar su paradero y adoptará todas las medidas necesarias para hacer efectivo el apremio. Si transcurridos
+sesenta días desde que el juez ordenó a la fuerza pública investigar el paradero del
+alimentante y este no fuese localizado, el juez podrá declararlo rebelde y solicitar su
+incorporación al Registro Nacional de Prófugos de la Justicia, contemplado en la
+Ley 20.593.
+ 3
+**Concordancias Legales:** artículo 10; artículo 16 de la Ley 14.908. No obstante; artículo 5 de la Ley 14.908 dis; artículos 207; artículo 55; artículo 5; artículo 19; artículos 14; Ley 20.593; Ley 14.908
 
 el éxito de la medida. Despachada la orden a la Policía de Investigaciones o a Carabineros de Chile, estos deben cumplirla en el plazo de sesenta días; transcurrido
 dicho plazo, el juez podrá ordenar a la fuerza pública investigar su paradero y adoptará todas las medidas necesarias para hacer efectivo el apremio. Si transcurridos
@@ -2043,23 +2087,20 @@ el artículo 19, número 1 de la Ley 14.908:
       y 16, procederá en su caso, ante el tribunal que corresponda y siempre a
       petición del titular de la acción respectiva, lo siguiente:
 
-
-## 35 Véase artículo 5, inciso final, de la Ley 14.908 con la redacción dada por la Ley
-
-21.389 del 18 de noviembre de 2021.
-
-Materiales Docentes                                                         Capítulo 2
-
-       1. Decretar la separación de bienes de los cónyuges.
-
-## 2. Autorizar a la mujer para actuar conforme a lo dispuesto en el inciso
-
-      segundo del artículo 138 del Código Civil, sin que sea necesario acredi-
-      tar el perjuicio a que se refiere dicho inciso.
-
 ## 3. Autorizar la salida del país de los hijos menores de edad sin nece-
 
-      sidad del consentimiento del alimentante, en cuyo caso procederá en
+**Definición Canónica:** sidad del consentimiento del alimentante, en cuyo caso procederá en
+      conformidad a lo dispuesto en el inciso sexto del artículo 49 de la Ley
+      16.618.
+       La circunstancia señalada en el inciso anterior será especialmente con-
+      siderada para resolver sobre:
+       a) La falta de contribución a que hace referencia el artículo 225 del
+      Código Civil.
+       b) La emancipación judicial por abandono del hijo a que se refiere el
+      artículo 271, número 2, del Código Civil.
+**Concordancias Legales:** artículo 49 de la Ley 16.618. La circunstancia señ; artículo 225 del Código Civil. b; artículo 271; artículo 16; artículo 30; Ley 16.618; Ley 14.90836
+
+sidad del consentimiento del alimentante, en cuyo caso procederá en
       conformidad a lo dispuesto en el inciso sexto del artículo 49 de la Ley
       16.618.
        La circunstancia señalada en el inciso anterior será especialmente con-
@@ -2073,12 +2114,13 @@ Materiales Docentes                                                         Cap�
 de una medida cautelar propiamente tal, de aquellas de naturaleza asegurativa de un derecho ya declarado, la regula tanto el artículo 16 número 2 de la Ley 14.90836 como el artículo 30 de la misma ley.37 El primero
 de ellos referido a la retención que ordena la judicatura a solicitud de
 
-## parte y el segundo, a la retención automática que la Tesorería General
-
-de la República debe realizar cuando al revisar el Registro Nacional de
-
-
 ## 36 Artículo 16, número 2 de la Ley 14.908: «[El juez] ordenará, en el mes de marzo
+
+**Definición Canónica:** de cada año, a la Tesorería General de la República, que retenga de la devolución
+anual de impuestos a la renta que corresponda percibir a deudores de pensiones
+alimenticias, los montos insolutos y las pensiones que se devenguen hasta la fecha
+en que debió haberse verificado la devolución. La Tesorería deberá comunicar al
+tribunal respectivo el hecho de la retención y el monto de la misma».
 
 de cada año, a la Tesorería General de la República, que retenga de la devolución
 anual de impuestos a la renta que corresponda percibir a deudores de pensiones
@@ -2087,6 +2129,16 @@ en que debió haberse verificado la devolución. La Tesorería deberá comunicar
 tribunal respectivo el hecho de la retención y el monto de la misma».
 
 ## 37 Artículo 30 Ley 14.908: «Retención de la devolución de impuestos a la renta. En
+
+**Definición Canónica:** el mes de marzo de cada año, la Tesorería General de la República, antes del pago de
+la devolución anual de impuestos a la renta, deberá consultar, en la forma y por los
+medios dispuestos en el artículo 23, si el contribuyente aparece inscrito en el registro
+en calidad de deudor de alimentos. Si el contribuyente tiene inscripción vigente en
+el registro, la Tesorería General de la República deberá retener de la devolución, con
+preferencia a otro tipo de deudas que generen retención, una suma equivalente al
+monto de los alimentos adeudados y pagar dicha suma al alimentario a través del
+depósito 
+**Concordancias Legales:** artículo 23; artículo 10 de la Ley 14.908; artículo 8 de la Ley 14.908; Ley 14.908; Constitución
 
 el mes de marzo de cada año, la Tesorería General de la República, antes del pago de
 la devolución anual de impuestos a la renta, deberá consultar, en la forma y por los
@@ -2140,8 +2192,14 @@ prestación en dinero, a fin de que retenga y entregue la suma o cuotas
 periódicas fijadas en ella directamente al alimentario, a su representante
 legal o a la persona a cuyo cuidado esté.
 
-
 ## 38 La Ley 21.389 modificó el antiguo tenor del artículo 8, apuntando a uno de los
+
+**Definición Canónica:** nudos críticos que la aplicación de la ley tenía: la retención como última opción para
+la modalidad de pago de las pensiones. Pese a que el texto de la ley no lo planteaba
+así y siendo evidente que era la mejor manera de prevenir la evasión de la deuda, los
+tribunales eran reacios a ordenar la retención como regla general al fijar la forma de
+pago de las pensiones.
+**Concordancias Legales:** artículos 161; artículo 163 del Código del Trabajo o se pac; Ley 21.389
 
 nudos críticos que la aplicación de la ley tenía: la retención como última opción para
 la modalidad de pago de las pensiones. Pese a que el texto de la ley no lo planteaba
@@ -2184,8 +2242,10 @@ trámite, cada vez que el alimentante no cumpla con la obligación alimenticia a
       del término de la relación laboral y en que conste el pago de las
       indemnizaciones señaladas.
 
-
 ## 39 En caso de que haya más de un empleador, el tribunal ordenará el pago en los
+
+**Definición Canónica:** términos más convenientes para el alimentario (artículo 11 bis de la Ley 14.908).
+**Concordancias Legales:** artículo 11 bis de la Ley 14.908; artículo 13; artículos 8; artículo 8; artículos 161; artículo 163 del Código del Trabajo; artículo 177 del Código del Trabajo. Tratándose de las obligac; Artículo 16; Ley 14.908; Ley 21.484
 
 términos más convenientes para el alimentario (artículo 11 bis de la Ley 14.908).
 
@@ -2296,8 +2356,16 @@ fondos:
        vez constatada la deuda, el juez ordene la retención de los fondos
        que el alimentario tenga en sus cuentas bancarias u otros instru-
 
-
 ## 41 El inciso segundo del artículo 31 de la Ley 14.908 señala: «Si el vendedor del
+
+**Definición Canónica:** vehículo o inmueble tiene vigente una inscripción en el registro en calidad de deudor de alimentos, la entidad a cargo de practicar la inscripción de dominio solo
+podrá admitir la solicitud cuando se deje constancia en el título traslaticio, por un
+notario público, de que el cincuenta por ciento del dinero correspondiente al precio
+de venta, o una proporción inferior si ésta es suficiente para solucionar el total de
+la deuda, ha sido retenido y pagado al alimentario, o que se han otorgado garantías
+que aseguran el pago en un plazo no mayor a cinco días hábiles contados desde la
+inscripción. Pa
+**Concordancias Legales:** Artículo 12 bis de la Ley 14.908; artículo 12 bis de la Ley 14.908 son; Artículo 12 bis de Ley 14.908 señala que; artículo 11 de la Ley 14.908 señala que toda resolución judicia; artículo 12; artículos 11; artículo 12 de la Ley 14.908 que el procedimiento ejecutivo ini; artículo 23 de la Ley 19.968; artículo 12 de la Ley 14.908.43 En relación con las notifica; artículo 2 de la Ley 14.908 dispone que el abogado patrocinant; artículo 19 bis de la Ley 14.908; artículos 434; Ley 14.908; Ley 21.989; Ley 19.968; Ley 14.908.43
 
 vehículo o inmueble tiene vigente una inscripción en el registro en calidad de deudor de alimentos, la entidad a cargo de practicar la inscripción de dominio solo
 podrá admitir la solicitud cuando se deje constancia en el título traslaticio, por un
@@ -2413,8 +2481,10 @@ de su derecho en conformidad al procedimiento de apremio en juicio
 ejecutivo, es decir, bastará como sentencia, aplicando los artículos 434 y
 siguientes del Código de Procedimiento Civil. Si las excepciones opues-
 
-
 ## 43 En estos casos no tendrá aplicación lo dispuesto en el artículo 52 del Código de
+
+**Definición Canónica:** Procedimiento Civil.
+**Concordancias Legales:** artículo 12 de la Ley 14.908 no deja lugar a dudas que el resqu; artículo 19; artículo 12 bis de la Ley 14.908 sin resultados. Es decir; artículo 18 de la Ley 14.908; artículo 12 bis de la Ley 14.908; artículos 19; artículo 3 del Decreto Ley 3.500 de 1980; Ley 14.908; Ley 21.484; Ley 3.500; Ley 21.389
 
 Procedimiento Civil.
 
@@ -2637,8 +2707,16 @@ mediante una regulación establecida por un reglamento.44
     reglamento, si la persona por la que se consulta tiene inscripciones
     vigentes en el registro en calidad de deudor de alimentos.
 
-
 ## 44 Reglamento de la Ley 21.389 consta en el Decreto Supremo 62, publicado en el
+
+**Definición Canónica:** Diario Oficial el 29 de julio de 2022. Su artículo 1 letra d) se refiere a la «Plataforma Electrónica Centralizada» en los siguientes términos: «Herramienta informática
+dispuesta para el funcionamiento del registro, en la cual el Servicio efectuará las
+inscripciones que el tribunal competente le ordene, y cuya finalidad es recibir la
+información, almacenar electrónicamente los documentos y permitir a las personas
+con interés legítimo consultar si una persona tiene inscripción vigente en el Registro
+en calidad de deudor de alimentos, otorgando la correspondiente certificación o
+comprobante de c
+**Concordancias Legales:** artículo 1; artículo 23; artículo 24 de la Ley 14.908 señala que el tribunal competente; artículo 24 de Ley 14.908; artículo 12; artículo 22; Ley 14.908
 
 Diario Oficial el 29 de julio de 2022. Su artículo 1 letra d) se refiere a la «Plataforma Electrónica Centralizada» en los siguientes términos: «Herramienta informática
 dispuesta para el funcionamiento del registro, en la cual el Servicio efectuará las
@@ -2701,7 +2779,17 @@ Ley 14.908, contempla que:
 
 ## parte cuando la complejidad del asunto así lo aconsejare. En con-
 
-     tra de la resolución que resuelve la reposición no procederá recur-
+**Definición Canónica:** tra de la resolución que resuelve la reposición no procederá recur-
+     so alguno.
+   • Tampoco será recurrible la decisión que rechaza la objeción dedu-
+     cida.
+   • Para enervar la orden de inscripción el alimentante podrá, dentro
+     del plazo para presentar objeciones o, en su caso, hasta el día si-
+     guiente a que se falle la objeción o solicitud de reposición, efectuar
+     el pago íntegro de la deuda por pensión alimenticia.
+**Concordancias Legales:** artículo 11 del Decreto Supremo 62 reglamenta el acceso y est; artículo 26; artículo 32; artículo 23; artículo 2.472 del Código Civil. Como consecuencia; artículo 2.472 del Código Civil. Para estos efectos; artículo 494 del Código de Procedimiento Civil; artículos 100; artículo 35; artículo 33; artículo 36; artículo 1; artículo 39 de la Ley 14.908 que regu; artículo 10 de la Ley 19.947; artículo 20; artículo 6; artículo 49 de la Ley 16.618 o Ley de Menores; artículo 27 de la Ley; Ley 20.720; Ley 19.175; Ley 14.908; Ley 21.484; Ley 19.947; Ley 19.620; Ley 16.618
+
+tra de la resolución que resuelve la reposición no procederá recur-
      so alguno.
    • Tampoco será recurrible la decisión que rechaza la objeción dedu-
      cida.
@@ -2990,14 +3078,21 @@ en el registro, a través de distintas inscripciones, la cuantía retenida deber
 
 ## 14.908. Para realizar las presentaciones judiciales deberá disponerse de
 
+**Definición Canónica:** formularios especiales, cuyo contenido y formato serán determinados
+por la Corporación Administrativa del Poder Judicial. Dichas presentaciones deberán realizarse a través de la plataforma electrónica del Poder
+Judicial, por el medio de identificación que el sistema provee.
+
 formularios especiales, cuyo contenido y formato serán determinados
 por la Corporación Administrativa del Poder Judicial. Dichas presentaciones deberán realizarse a través de la plataforma electrónica del Poder
 Judicial, por el medio de identificación que el sistema provee.
 
 Materiales Docentes                                                         Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Cumplimiento e incumplimiento del régimen
+de relación directa y regular
+**Concordancias Legales:** artículos 9; artículos 222; artículo 543; artículos 48; artículos 8; artículos 2; artículo 229 del Código Civil entiende que; artículo 225; artículo 224 del Código Civil; artículo 229 del Códi
 
 Cumplimiento e incumplimiento del régimen
 de relación directa y regular
@@ -3084,6 +3179,15 @@ Suprema, rol 91.796-2021, 22 de junio de 2022.
 
 ## 3 Así lo establece el inciso quinto del artículo 229 del Código Civil: «Sea que se
 
+**Definición Canónica:** decrete judicialmente el régimen de relación directa y regular o en la aprobación de
+acuerdos de los padres en estas materias, el juez deberá asegurar la mayor participación y corresponsabilidad de estos en la vida del hijo, estableciendo las condiciones
+que fomenten una relación sana y cercana».
+  La Corte de Apelaciones de Antofagasta establece, en cuanto a la regulación judicial
+de este régimen, que «no es libre para el juez de resolver conforme prudencialmente
+le parezca, sino que debe fijarlo en la resolución judicial fundada, considerando su
+interés superior, la edad del hijo, la vincula
+**Concordancias Legales:** artículo 222 del Código Civil consigna que
+
 decrete judicialmente el régimen de relación directa y regular o en la aprobación de
 acuerdos de los padres en estas materias, el juez deberá asegurar la mayor participación y corresponsabilidad de estos en la vida del hijo, estableciendo las condiciones
 que fomenten una relación sana y cercana».
@@ -3133,6 +3237,10 @@ ejercicio de corresponsabilidad responsable, más allá de su propio estado emoc
 al progenitor que no detentará el cuidado personal» (sentencia Corte de Apelaciones Antofagasta, rol 601-2021, 26 de enero de 2022).
 
 ## 4 Sentencia de la Corte de Apelaciones San Miguel, rol 278-2020, 31 de julio de
+
+**Definición Canónica:** 2020. En el mismo sentido, véase la sentencia de la Corte de Apelaciones de Concepción, rol 60-2022, 3 de mayo de 2022; y la sentencia de la Corte de Apelaciones
+de Punta Arenas, rol 142-2021, 12 de noviembre de 2021.
+**Concordancias Legales:** artículo 224 del Código Civil; artículo 225; artículo 229; artículo 14 de la Ley 19.968; artículo 18 de la Convención de los Derechos del Niño establece; artículo 229 del Código Civil establece que; artículo 229 del Código Civil está consagrada como un; artículo 16 de la Ley 19.968 y de En el escenario de que el; artículo 49 de la Ley de Menores; Ley 19.968
 
 2020. En el mismo sentido, véase la sentencia de la Corte de Apelaciones de Concepción, rol 60-2022, 3 de mayo de 2022; y la sentencia de la Corte de Apelaciones
 de Punta Arenas, rol 142-2021, 12 de noviembre de 2021.
@@ -3313,6 +3421,13 @@ Corte Suprema, rol 4.963-2019, 30 de marzo de 2020).
 
 ## 11 En ese sentido, nuestra jurisprudencia ha comentado: «Noveno: que, conviene
 
+**Definición Canónica:** recordar que la solicitud de salida del país de NNA, se encuentra tratada en el artículo 49 de la Ley 16.618, norma que establece que la salida de NNA desde Chile
+deberá sujetarse a las normas que señala. Así, el inciso sexto de la misma disposición
+señala: “En caso de que no pudiere otorgarse o sin motivo plausible se negare la autorización por uno de aquellos que en virtud de este artículo debe prestarla, podrá
+ser otorgada por el juez de letras de menores del lugar en que tenga su residencia el
+menor. El juez, para autorizar la salida del menor en estos casos, tomará en consideración el ben
+**Concordancias Legales:** artículo 49 de la Ley 16.618; artículo 8 de la Ley 19.968; Ley 16.618; Ley 19.968
+
 recordar que la solicitud de salida del país de NNA, se encuentra tratada en el artículo 49 de la Ley 16.618, norma que establece que la salida de NNA desde Chile
 deberá sujetarse a las normas que señala. Así, el inciso sexto de la misma disposición
 señala: “En caso de que no pudiere otorgarse o sin motivo plausible se negare la autorización por uno de aquellos que en virtud de este artículo debe prestarla, podrá
@@ -3325,6 +3440,10 @@ país, en los casos en que corresponda de acuerdo con la ley”» (sentencia de 
 de Apelaciones de Santiago, rol 4.384-2021, 10 de junio de 2022).
 
 ## 12 Sentencia de la Corte Suprema, rol 134.271-2022, 13 de diciembre de 2022. En el
+
+**Definición Canónica:** mismo sentido, véase la sentencia de la Corte Suprema, rol 75.982-2021, 4 de abril de
+2022 y la sentencia de la Corte Suprema, rol 75.911-2021, 3 de marzo de 2022.
+**Concordancias Legales:** artículo 12
 
 mismo sentido, véase la sentencia de la Corte Suprema, rol 75.982-2021, 4 de abril de
 2022 y la sentencia de la Corte Suprema, rol 75.911-2021, 3 de marzo de 2022.
@@ -3352,14 +3471,29 @@ la ley nacional».
 
 ## 1. Artículo 16 de la Ley de Tribunales de Familia: «El interés superior
 
-       del niño, niña o adolescente, y su derecho a ser oído, son princi-
+**Definición Canónica:** del niño, niña o adolescente, y su derecho a ser oído, son princi-
+       pios rectores que el juez de familia debe tener siempre como con-
+       sideración principal en la resolución del asunto sometido a su co-
+       nocimiento».
+
+del niño, niña o adolescente, y su derecho a ser oído, son princi-
        pios rectores que el juez de familia debe tener siempre como con-
        sideración principal en la resolución del asunto sometido a su co-
        nocimiento».
 
 ## 2. En nuestro Código Civil, el artículo 227 establece: «En las materias
 
-       a que se refieren los artículos precedentes, el juez oirá a los hijos y
+**Definición Canónica:** a que se refieren los artículos precedentes, el juez oirá a los hijos y
+       a los parientes». El artículo 229, por su parte, indica que para de-
+       terminar el régimen «los padres, o el juez en su caso, fomentarán
+       una relación sana y cercana entre el padre o madre que no ejerce
+       el cuidado personal y su hijo, velando por el interés superior de
+       este último, su derecho a ser oído y la evolución de sus facultades»,
+       mientras que el artículo 242 agrega: «Para adoptar sus resolucio-
+       nes el juez atenderá, como consideración primordial, al interés su-
+**Concordancias Legales:** artículo 229; artículo 242
+
+a que se refieren los artículos precedentes, el juez oirá a los hijos y
        a los parientes». El artículo 229, por su parte, indica que para de-
        terminar el régimen «los padres, o el juez en su caso, fomentarán
        una relación sana y cercana entre el padre o madre que no ejerce
@@ -3373,7 +3507,18 @@ la ley nacional».
 
 ## 3. Finalmente, desde marzo del 2022, a este conjunto de normas se
 
-      le debe sumar lo dispuesto en el artículo 28 de la Ley sobre Ga-
+**Definición Canónica:** le debe sumar lo dispuesto en el artículo 28 de la Ley sobre Ga-
+      rantías y Protección Integral de los Derechos de la Niñez y Ado-
+      lescencia: «Todo niño, niña o adolescente tiene derecho a que sus
+      opiniones sean oídas y debidamente consideradas, de acuerdo con
+      su edad, madurez y grado de desarrollo, en los procedimientos
+      o actuaciones administrativas o judiciales en que se decida sobre
+      alguna cuestión particular cuya determinación pueda afectar sus
+      derechos o intereses, especialmente en el ámbito familiar, escolar,
+      sanitario, comunitario, administ
+**Concordancias Legales:** artículo 28 de la Ley sobre Ga; artículos 12 de la Convención sobre los Derechos del Niño y 16; artículo 16 de la Ley 19.968; artículo 229 del Código Civil a la luz del interés superior de; artículo 12 de la Convención sobre los Derechos del Niño; artículo 768; artículo 800; artículo 795; artículo 229 del Código Civil describe ciertos elementos que e; artículo 229 del Código Civil La edad del hijo o hija La edad; artículo 225 del Código Civil establece que ante la falta de a; Ley 19.968
+
+le debe sumar lo dispuesto en el artículo 28 de la Ley sobre Ga-
       rantías y Protección Integral de los Derechos de la Niñez y Ado-
       lescencia: «Todo niño, niña o adolescente tiene derecho a que sus
       opiniones sean oídas y debidamente consideradas, de acuerdo con
@@ -3589,12 +3734,10 @@ párrafo 49 (2013: 12):
        La determinación del interés superior del niño debe comenzar con una
       evaluación de las circunstancias específicas que hacen que el niño sea
 
-
-## 17 En la familia los hijos e hijas reciben las primeras orientaciones para su pleno
-
-desarrollo.
-
 ## 18 La familia es el lugar en que las personas conocen las normas sociales y sus
+
+**Definición Canónica:** principales costumbres.
+**Concordancias Legales:** artículos 225; Ley 19.968
 
 principales costumbres.
 
@@ -3710,7 +3853,11 @@ considerando séptimo:
 
 ## parte de tales criterios y que ello, además, se avenía con los deseos ex-
 
-      presados por la niña, por lo que la decisión también es respetuosa del
+**Definición Canónica:** presados por la niña, por lo que la decisión también es respetuosa del
+      derecho que a este respecto le reconoce la Convención sobre los Dere-
+      chos del Niño.
+
+presados por la niña, por lo que la decisión también es respetuosa del
       derecho que a este respecto le reconoce la Convención sobre los Dere-
       chos del Niño.
 
@@ -3771,8 +3918,15 @@ Elementos analizados por la Corte de Apelaciones de San Miguel
      dos de esa relación).21
    • Situación educacional y social. «El niño ha asistido al mismo co-
 
-
 ## 19 Considerando segundo: «Que en relación a ello ha de tenerse presente que el
+
+**Definición Canónica:** padre detenta el cuidado personal del niño y su patria potestad, y también, en su
+época, el de su hermano quién actualmente es mayor de edad tal como consta del
+certificado de nacimiento acompañado en autos. A ese acuerdo se llegó entre los padres por conciliación en causa RIT C 3.963-2015, de diecinueve de enero de dos mil
+dieciséis y se declaró que la patria potestad del menor, a esa fecha de seis años, será
+ejercida por el padre D.A.N.L. y que se subinscribió el 28 de enero de 2016. En ese
+mismo contexto, en aquella ocasión se fijó una relación directa y regular respecto de
+la madre la que 
 
 padre detenta el cuidado personal del niño y su patria potestad, y también, en su
 época, el de su hermano quién actualmente es mayor de edad tal como consta del
@@ -3786,6 +3940,12 @@ actos de violencia intrafamiliar de la madre hacia el padre, la que luego de un 
 
 ## 20 Considerando tercero: «Que ahora la madre señala estar en condiciones de
 
+**Definición Canónica:** retomar el cuidado del hijo, conforme las razones que expuso en su demanda, es
+decir tener un trabajo estable, que en la actualidad no representa ser una amenaza
+para sus hijos y porque el demandado formó una familia nueva, con un hijo recién
+nacido y asevera que tiene conocimiento de que sus hijos solo pernoctan en la casa
+del padre y que en el día están con sus abuelos paternos».
+
 retomar el cuidado del hijo, conforme las razones que expuso en su demanda, es
 decir tener un trabajo estable, que en la actualidad no representa ser una amenaza
 para sus hijos y porque el demandado formó una familia nueva, con un hijo recién
@@ -3793,6 +3953,14 @@ nacido y asevera que tiene conocimiento de que sus hijos solo pernoctan en la ca
 del padre y que en el día están con sus abuelos paternos».
 
 ## 21 Considerando cuarto: «El padre adquirió una vivienda en donde vive con sus
+
+**Definición Canónica:** dos hijos, Lucas y Benjamín, este último, que ha ido cambiando de domicilio, ya que
+se fue en un intertanto a vivir con su abuela materna, según lo declaró el padre en
+el informe del IML de 8 de junio de 2019, pero que, en la actualidad, según refiere el
+niño Lucas, cuanto la testigo del demandado reside nuevamente con el padre. Asimismo, en el mismo domicilio vive su pareja y los dos hijos nacidos de esa relación,
+en donde el preadolescente dispone de una habitación para él y todo lo necesario
+para sus actividades escolares y recreacionales. Anteriormente, vivían en una casa
+arrendada en simi
 
 dos hijos, Lucas y Benjamín, este último, que ha ido cambiando de domicilio, ya que
 se fue en un intertanto a vivir con su abuela materna, según lo declaró el padre en
@@ -3819,8 +3987,12 @@ arrendada en similares condiciones».
      fluctuaciones motivacionales, y oscilaciones en la percepción de
      los demás, lo que propicia, a su vez, algunos errores en la interpre-
 
-
 ## 22 Considerando cuarto: «El niño ha asistido al mismo colegio desde que vive con
+
+**Definición Canónica:** su padre, es un buen alumno, no presenta problemas escolares, ni de aprendizaje,
+tiene un promedio de notas 6,3, es muy sociable y ha manifestado su deseo de vivir
+con su madre, tanto en la entrevista realizada en el año 2019, en el Instituto Médico
+Legal cuanto en la audiencia reservada efectuada en el tribunal».
 
 su padre, es un buen alumno, no presenta problemas escolares, ni de aprendizaje,
 tiene un promedio de notas 6,3, es muy sociable y ha manifestado su deseo de vivir
@@ -3828,6 +4000,12 @@ con su madre, tanto en la entrevista realizada en el año 2019, en el Instituto 
 Legal cuanto en la audiencia reservada efectuada en el tribunal».
 
 ## 23 Considerando décimo tercero: «Que, si bien el niño ha manifestado como ya se
+
+**Definición Canónica:** dijo su deseo de vivir con la madre, al adoptar una decisión que lo afecte directa o
+indirectamente deberá atenderse a su interés superior […] No se trata de desconocer el deseo del niño, pero en el ámbito de su interés superior, no está en condiciones
+de reconocer las desventajas que la situación que vislumbra como deseada puede
+acarrearle, en cuanto a su cambio de vida y de relaciones tanto afectivas como de
+guía y de cuidado».
 
 dijo su deseo de vivir con la madre, al adoptar una decisión que lo afecte directa o
 indirectamente deberá atenderse a su interés superior […] No se trata de desconocer el deseo del niño, pero en el ámbito de su interés superior, no está en condiciones
@@ -3837,6 +4015,12 @@ guía y de cuidado».
 
 ## 24 Considerando noveno: «En relación al niño, el evaluador deja constancia de
 
+**Definición Canónica:** que, respecto a su afectividad, se observa angustia y preocupación por la situación
+que está viviendo (evaluaciones por cuidado personal) y concluye que está claro
+que tanto su madre como su padre se preocupan por él, sin embargo, actualmente
+siente la falta del cariño y contención que le brinda su madre, ya que el padre se ha
+distanciado en el tiempo centrándose solo en su función proveedora y normativa».
+
 que, respecto a su afectividad, se observa angustia y preocupación por la situación
 que está viviendo (evaluaciones por cuidado personal) y concluye que está claro
 que tanto su madre como su padre se preocupan por él, sin embargo, actualmente
@@ -3844,6 +4028,13 @@ siente la falta del cariño y contención que le brinda su madre, ya que el padr
 distanciado en el tiempo centrándose solo en su función proveedora y normativa».
 
 ## 25 Considerando sexto: «Que en relación a ello ha de decirse, en primer lugar, que
+
+**Definición Canónica:** de la entrevista personal al niño, cuanto de la declaración brindada en la Fiscalía del
+Ministerio Público, hay un elemento que gatilla este deseo de vivir con su madre y
+es un castigo que el padre le infringió, por haberlo desobedecido y contestado mal,
+en un incidente doméstico específico, que provocó el llamado telefónico del niño a
+su madre, la asistencia de Carabineros al lugar de los hechos, los que verificaron que
+no había ningún problema».
 
 de la entrevista personal al niño, cuanto de la declaración brindada en la Fiscalía del
 Ministerio Público, hay un elemento que gatilla este deseo de vivir con su madre y
@@ -3871,6 +4062,12 @@ no había ningún problema».
 facilidad».
 
 ## 27 Considerando séptimo: «Puede reaccionar con impulsividad ante situaciones
+
+**Definición Canónica:** de conflicto, e impacientarse, ante tareas o roles que demanden dedicación, especialmente por características de autocentramiento y elevada necesidad de atención.
+Estas características personales explicarían dificultades reiteradas en el establecimiento de límites y priorización de las necesidades de su hijo, y que se detallan,
+consistentes en expresión abierta de palabras soeces (garabatos), críticas, sarcasmos
+y descalificaciones abiertas contra el padre de sus hijos (expresadas a solas, frente
+a amistades y/o en presencia de los niños), y agresiones verbales y/o físicas presenciales o telef
 
 de conflicto, e impacientarse, ante tareas o roles que demanden dedicación, especialmente por características de autocentramiento y elevada necesidad de atención.
 Estas características personales explicarían dificultades reiteradas en el establecimiento de límites y priorización de las necesidades de su hijo, y que se detallan,
@@ -3927,12 +4124,19 @@ riesgo, el conflicto que desde larga data mantiene con el padre de sus hijos y l
 
 ## 29 Considerando duodécimo: «En el campo de las cooperaciones mutuas, ha sido
 
+**Definición Canónica:** la madre la que ha reconocido que ha tenido comportamientos no adecuados en
+este sentido, encargándose, debido a la situación que provocó el quiebre de la relación de pareja, de efectuar hostigamientos y funas, que obviamente resquebrajan la
+debida colaboración y disposición que los padres deben tener frente a la crianza de
+los hijos».
+
 la madre la que ha reconocido que ha tenido comportamientos no adecuados en
 este sentido, encargándose, debido a la situación que provocó el quiebre de la relación de pareja, de efectuar hostigamientos y funas, que obviamente resquebrajan la
 debida colaboración y disposición que los padres deben tener frente a la crianza de
 los hijos».
 
 ## 30 Considerando séptimo: «En relación al padre, dicha institución concluye que
+
+**Definición Canónica:** “no refiere fallas en el ejercicio de su rol paterno, por lo que, de acuerdo al cuestionario aplicado, no reporta una tendencia a ejercer malos tratos hacia sus hijos”».
 
 “no refiere fallas en el ejercicio de su rol paterno, por lo que, de acuerdo al cuestionario aplicado, no reporta una tendencia a ejercer malos tratos hacia sus hijos”».
 
@@ -3956,8 +4160,15 @@ orientación y directrices ciertas que le permitan seguir avanzando en su
 desarrollo tanto físico como emocional.32 Por otro lado, la madre deja
 en evidencia las falencias en todas las áreas necesarias para el buen desarrollo y crianza del niño.33 Por esas consideraciones, el tribunal superior
 
-
 ## 31 Sentencia de la Corte Apelaciones de San Miguel, rol 1.069-2021, 25 de enero de
+
+**Definición Canónica:** 2022, considerando decimotercero.
+ 32 Considerando décimo quinto: «Que, si bien el padre ha patentado algunos problemas de crianza con su hijo, debido a la comunicación entre ambos, no es menos
+cierto que los aspectos evidenciados por la madre desde el punto de vista de su
+propia forma de relacionarse y resolver los problemas conforme las dificultades que
+se han ido presentando a lo largo de su vida, no permiten dar seguridad que servirá
+de sostén para su hijo en un adecuado desarrollo en una etapa crucial de su vida, en
+que requiere no solo afecto, si no que contención, orientación y directri
 
 2022, considerando decimotercero.
  32 Considerando décimo quinto: «Que, si bien el padre ha patentado algunos problemas de crianza con su hijo, debido a la comunicación entre ambos, no es menos
@@ -3974,6 +4185,11 @@ que tampoco, conforme las conclusiones de los informes se encuentra en posición
 actualmente de hacerse cargo de su hijo, sin generarle conflictos».
 
 ## 33 Considerando décimo sexto: «Que, en síntesis, el informe psicológico evacuado
+
+**Definición Canónica:** por el Instituto Médico Legal deja en evidencia las falencias en todas las áreas necesarias para el buen desarrollo y crianza del niño, referida a la falta en el control de impulsos, autocentrismo, inmediatismo, puerilidad y tendencia a la hostilidad y revanchismo en el manejo de conflictos, normalización de la violencia, y debilitamiento en
+habilidades parentales, instrumentalismo en las relaciones, superficialidad afectiva,
+indiferencia respecto de necesidades ajenas, impaciencia, rechazo a los demás, irritabilidad, sensibilidad a rechazos y desaires, dominancia, agresividad, lo que torna no
+**Concordancias Legales:** artículo 48 de la Ley de Menores establece; artículo 66; artículo 229 del Código Civil; artículo 543 del Código de Procedimiento Civil. En igual; artículo 229 del Código Civil señala
 
 por el Instituto Médico Legal deja en evidencia las falencias en todas las áreas necesarias para el buen desarrollo y crianza del niño, referida a la falta en el control de impulsos, autocentrismo, inmediatismo, puerilidad y tendencia a la hostilidad y revanchismo en el manejo de conflictos, normalización de la violencia, y debilitamiento en
 habilidades parentales, instrumentalismo en las relaciones, superficialidad afectiva,
@@ -4099,8 +4315,13 @@ el hijo o hija y, por otra parte, aunque existan sanciones legales ante el
 incumplimiento, estas nunca podrán obligar a un progenitor a mantener una relación genuina con el hijo.
    La ley, además de apremiar con la suspensión o restricción del ré-
 
-
 ## 34 Sin perjuicio de lo anterior, la profesora Etcheberry (2019) ha establecido cinco
+
+**Definición Canónica:** causales por las cuales se puede suspender o restringir el régimen: a) si el padre o
+madre no custodio no cumple con el régimen fijado y ello perjudica el bienestar del
+niño; b) si la filiación fue determinada judicialmente contra la oposición del padre
+o la madre; c) si se perjudica al hijo; d) si el hijo fue abandonado, y e) si el hijo fue
+separado de su lado por resolución judicial.
 
 causales por las cuales se puede suspender o restringir el régimen: a) si el padre o
 madre no custodio no cumple con el régimen fijado y ello perjudica el bienestar del
@@ -4109,6 +4330,9 @@ o la madre; c) si se perjudica al hijo; d) si el hijo fue abandonado, y e) si el
 separado de su lado por resolución judicial.
 
 ## 35 Véase la sentencia de la Corte Suprema, rol 4.387-2018, 13 de junio de 2018 y la
+
+**Definición Canónica:** sentencia de la Corte Suprema, rol 41.539-2017, 22 de marzo de 2018.
+**Concordancias Legales:** artículo 543 del Código de Procedimiento Civil; artículo 49 bis de la Ley 16.618 es la que habilita al padre o madr; Ley 16.618
 
 sentencia de la Corte Suprema, rol 41.539-2017, 22 de marzo de 2018.
 
@@ -4147,8 +4371,10 @@ Se desarrolló latamente el deber que tiene la madre o padre custodio en
 relación con la actitud de colaboración que debe mantener con el otro
 progenitor en beneficio de su hijo o hija y, además, el deber de abste-
 
-
 ## 36 Véase la sentencia de la Corte Suprema, rol 1.275-2020, 12 de noviembre de
+
+**Definición Canónica:** 2020; la sentencia de la Corte Suprema, rol 6.978-2017, 9 de marzo de 2017, y la sentencia de la Corte de Apelaciones de Temuco, rol 10-2017, 20 de enero 2017.
+**Concordancias Legales:** artículo 48 de la Ley 16.618 establece; artículo 66 de la Ley de Menores; artículo 543 del Código de Procedimiento Civil; Ley 16.618; constitucion
 
 2020; la sentencia de la Corte Suprema, rol 6.978-2017, 9 de marzo de 2017, y la sentencia de la Corte de Apelaciones de Temuco, rol 10-2017, 20 de enero 2017.
 
@@ -4234,6 +4460,8 @@ tiene a su cargo (Etcheberry, 2017: 264). En paralelo, deberá tomar me-
 
 ## 38 Sentencia de la Corte de Apelaciones de San Miguel, rol 278-2020, 31 de julio
 
+**Definición Canónica:** de 2020.
+
 de 2020.
 
 Materiales Docentes                                                      Capítulo 3
@@ -4294,6 +4522,9 @@ desarrollar, en un ambiente que lo beneficie. En estos casos, la judicatura podr
 
 ## parte) y decretar medidas de revinculación. Asimismo, podrá modificar
 
+**Definición Canónica:** lo fijado y orientar su decisión en lo que resulte más beneficioso para los
+hijos e hijas.
+
 lo fijado y orientar su decisión en lo que resulte más beneficioso para los
 hijos e hijas.
 
@@ -4301,8 +4532,11 @@ hijos e hijas.
 
 Materiales Docentes                                                         Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Incumplimiento del ejercicio del derecho-deber
+de cuidado personal de los hijos e hijas
+**Concordancias Legales:** artículos 3; artículos 222; artículo 543; artículos 16 bis; artículos 8; artículos 2; artículo 224 del Código Civil; artículo 229; artículo 225 del Código Civil; Ley 16.618; Ley 19.968; Ley 21.430
 
 Incumplimiento del ejercicio del derecho-deber
 de cuidado personal de los hijos e hijas
@@ -4403,8 +4637,15 @@ la judicatura (sentencia constitutiva de derechos, pues altera la situación
 anterior a la sentencia, estableciendo acciones diversas para que esta se
 cumpla).2
 
-
 ## 1 Inciso final artículo 225 del Código Civil: «Mientras una nueva subinscripción
+
+**Definición Canónica:** relativa al cuidado personal no sea cancelada por otra posterior, todo nuevo acuerdo
+o resolución será inoponible a terceros».
+ 2 Específicamente, debe ejecutarse una obligación de hacer que consiste en la entrega del hijo o hija al otro progenitor o a un tercero, pero dada la particularidad de
+lo resuelto en ellas, es natural que el legislador haya previsto un régimen especial de
+cumplimiento, en caso de que esto no se cumpla voluntariamente. De tal manera,
+«el juez podrá apremiar en la forma establecida en el artículo 543 del Código de Procedimiento Civil, a quien fuere condenado por resoluc
+**Concordancias Legales:** artículo 543 del Código de Procedimiento Civil; artículo 242 del Código Civil establece en su inciso primero; artículo 225; artículo 225 del Código Civil; artículo 226; artículo 229 del Código Civil; artículo 226 del Código Civil; artículo 42 de la Ley de Menores que señala; Ley 20.680
 
 relativa al cuidado personal no sea cancelada por otra posterior, todo nuevo acuerdo
 o resolución será inoponible a terceros».
@@ -4572,8 +4813,10 @@ Menores que señala:
       su moralidad; 7.º Cuando cualesquiera otras causas coloquen al menor
       en peligro moral o material.
 
-
 ## 6 Este tipo de medidas se entienden de ultima ratio, es decir, que son aplicadas
+
+**Definición Canónica:** después de haber agotados todos los demás medios contemplados para la restauración de los derechos vulnerados.
+**Concordancias Legales:** artículo 222; artículo 244 del Código Civil nos indica que el cuidado person; artículo 226
 
 después de haber agotados todos los demás medios contemplados para la restauración de los derechos vulnerados.
 
@@ -4609,12 +4852,13 @@ como lo establece la jurisprudencia:
       adulto ejercer el cuidado de un niño, se debe relacionar, en consecuen-
       cia, con una alteración de carácter grave y permanente, constitutiva de
 
-
-## 7 Sentencia de la Corte Suprema, rol 36.584-2015, 13 de abril de 2016, considerando
-
-octavo.
-
 ## 8 Artículo 222 del Código Civil: «La preocupación fundamental de los padres es
+
+**Definición Canónica:** el interés superior del hijo, para lo cual procurarán su mayor realización espiritual y
+material posible, y lo guiarán en el ejercicio de los derechos esenciales que emanan
+de la naturaleza humana de modo conforme a la evolución de sus facultades».
+Materiales Docentes                                                       Capítulo 4
+**Concordancias Legales:** artículo 12; artículo 226 del Código Civil y artículo 42 números 3
 
 el interés superior del hijo, para lo cual procurarán su mayor realización espiritual y
 material posible, y lo guiarán en el ejercicio de los derechos esenciales que emanan
@@ -4655,6 +4899,12 @@ es muy excepcional y debe ser expresa.11 A modo de ejemplo, algunos de
 
 ## 11 Sentencia de la Corte de Apelaciones de Santiago, rol 1.356-2015, 14 de julio de
 
+**Definición Canónica:** 2016, considerando decimoséptimo: «Que, en el contexto anterior, únicamente puede tenerse por establecido que los padres del adolescente F.B.T.L. no han velado por
+su crianza y cuidado personal, puesto que lo dejaron bajo el cuidado de su abuela, la
+actora señora A.S.C., en términos tales que hoy la madre (única progenitora biológica) ha reconocido que no tiene contacto con él y desconoce su número de teléfono,
+con lo que corresponde tener por justificado que incurrieron en la causal de inhabilidad a que se refiere el ya transcrito número 3 del artículo 42 de la Ley 16.618».
+**Concordancias Legales:** artículo 42 de la Ley 16.618; artículo 42; artículo 226 del Código Civil; artículo 225; Ley 16.618
+
 2016, considerando decimoséptimo: «Que, en el contexto anterior, únicamente puede tenerse por establecido que los padres del adolescente F.B.T.L. no han velado por
 su crianza y cuidado personal, puesto que lo dejaron bajo el cuidado de su abuela, la
 actora señora A.S.C., en términos tales que hoy la madre (única progenitora biológica) ha reconocido que no tiene contacto con él y desconoce su número de teléfono,
@@ -4694,11 +4944,10 @@ solo configurarlas con toda precisión, sino también ponderarlas de manera expr
 y transparente», sentencia de la Corte Suprema, rol 16275-2016, 5 de septiembre de
 2016, considerando noveno.
 
-## 14 Sentencia de la Corte Suprema, rol 36.584, 13 de abril de 2016, considerando
-
-octavo.
-
 ## 15 Sentencia de la Corte Suprema, rol 36.584, 13 de abril de 2016, considerando
+
+**Definición Canónica:** noveno y décimo.
+**Concordancias Legales:** artículo 226; artículo 225; artículo 227 del Código Civil; artículo 543 del Código de Procedimiento Civil; Artículo 43 de la Ley de Menores
 
 noveno y décimo.
 
@@ -4806,6 +5055,17 @@ exigir su cumplimiento ante el tribunal correspondiente».
 
 ## 19 Artículo 44 de la Ley de Menores: «La asignación familiar que corresponda a
 
+**Definición Canónica:** los padres del menor la percibirán los establecimientos o personas naturales que,
+por disposición del juez o del Consejo Técnico de la Casa de Menores, tengan a su
+cargo al menor.
+ »En el caso indicado en el inciso anterior, la asignación familiar solo podrá pagarse
+a los establecimientos o personas que indique el juez de letras de menores».
+ 20 Inciso primero del artículo 45 de la Ley de Menores: «El juez podrá ordenar,
+dentro de las normas del juicio de alimentos y sujeto a las mismas disposiciones de
+procedimiento y apremio que el padre, madre o la persona obligada a proporcionar
+alimentos 
+**Concordancias Legales:** artículo 45 de la Ley de Menores
+
 los padres del menor la percibirán los establecimientos o personas naturales que,
 por disposición del juez o del Consejo Técnico de la Casa de Menores, tengan a su
 cargo al menor.
@@ -4819,6 +5079,15 @@ lo tenga a su cargo».
 
 ## 21 Inciso segundo del artículo 45 de la Ley de Menores: «Si los menores que se
 
+**Definición Canónica:** encontraren en la situación indicada en el inciso anterior, tuvieren bienes propios,
+su representante legal deberá destinar, de las rentas provenientes de dichos bienes,
+las cantidades que fueren necesarias para su cuidado y educación, de acuerdo con el
+monto y plazo fijados por el juez de letras de menores».
+ 22 Artículo 229 del Código Civil: «El padre o madre que no tenga el cuidado personal del hijo tendrá el derecho y el deber de mantener con él una relación directa
+y regular, la que se ejercerá con la frecuencia y libertad acordada directamente con
+quien lo tiene a su cuidado según las co
+**Concordancias Legales:** Artículo 229 del Código Civil; artículo 225
+
 encontraren en la situación indicada en el inciso anterior, tuvieren bienes propios,
 su representante legal deberá destinar, de las rentas provenientes de dichos bienes,
 las cantidades que fueren necesarias para su cuidado y educación, de acuerdo con el
@@ -4831,8 +5100,11 @@ hijo».
 
 Materiales Docentes                                                         Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Aspectos relevantes asociados al cumplimiento
+del pago de la compensación económica
+**Concordancias Legales:** artículo 102; artículos 61; artículos 8; artículos 80; artículo 63; artículo 64; Ley 19.947; Ley 19.968; Ley 20.255
 
 Aspectos relevantes asociados al cumplimiento
 del pago de la compensación económica
@@ -4854,8 +5126,16 @@ segundo lugar, en el caso de que no exista acuerdo, el artículo 64 y 65
 indican que será la judicatura quien determina la procedencia, el monto
 y la forma de pago.1
 
-
 ## 1 Artículo 64 Ley 19.947: «A falta de acuerdo, corresponderá al juez determinar la
+
+**Definición Canónica:** procedencia de la compensación económica y fijar su monto.
+  »Si no se solicitare en la demanda, el juez informará a los cónyuges la existencia de
+este derecho durante la audiencia preparatoria.
+  »Pedida en la demanda, en escrito complementario de la demanda o en la reconvención, el juez se pronunciará sobre la procedencia de la compensación económica
+y su monto, en el evento de dar lugar a ella, en la sentencia de divorcio o nulidad».
+  Artículo 65 Ley 19.947: «En la sentencia, además, el juez determinará la forma de
+pago de la compensación, para lo cual podrá establecer las siguientes modal
+**Concordancias Legales:** Artículo 65; artículo 66; artículos 65; artículo 65 de la Ley de Matrimonio Civil; artículos 61; artículo 19.6; Ley 19.947; Ley 14.908; Constitución
 
 procedencia de la compensación económica y fijar su monto.
   »Si no se solicitare en la demanda, el juez informará a los cónyuges la existencia de
@@ -5018,12 +5298,11 @@ hipótesis:
       alimenticia, por tratarse de un derecho que asiste al alimentario, cuyo
       fundamento radica en la necesidad de sobrevivencia de toda persona,
 
-
-## 4 Sentencia de la Corte Suprema, rol 343-2023, 9 de enero 2023, considerando
-
-cuarto, voto en contra del ministro señor Simpértigue.
-
 ## 5 Sentencia de la Corte Suprema, rol 343-2023, 9 de enero 2023, considerando
+
+**Definición Canónica:** cuarto, voto en contra del ministro señor Simpértigue.
+ 6 Sentencia de la Corte Suprema, rol 343-2023, 9 de enero 2023, considerando tercero, voto en contra, ministro señor Simpértigue.
+**Concordancias Legales:** artículo 19.7; artículo 19; artículo 21; Ley 14.908; Constitución Política; Constitución
 
 cuarto, voto en contra del ministro señor Simpértigue.
  6 Sentencia de la Corte Suprema, rol 343-2023, 9 de enero 2023, considerando tercero, voto en contra, ministro señor Simpértigue.
@@ -5065,16 +5344,13 @@ legalidad).
       de cuotas de una compensación económica. La comentada asimilación
       legal carece de esa virtud.9
 
-
-## 7 Sentencia de la Corte Suprema, rol 45.618-2017, 2 de enero de 2018, considerando
-
-cuarto del voto en contra, ministro señor Lagos.
- 8 Sentencia de la Corte de Apelaciones de Santiago, rol 2.620-2020, 17 de noviembre de 2020, considerando séptimo.
-
 ## 9 Sentencia de la Corte de Apelaciones de Santiago, rol 2.620-2020, 17 de noviem-
 
+**Definición Canónica:** e) Prohibición de arresto por deuda en el derecho internacional (voto
+disidente).
+**Concordancias Legales:** artículo 77 de la Convención Americana prohíbe la detención por; artículo 66; artículos 61; artículo 66 de la Ley de Matrimonio Civil; Ley 19.947; Ley 14.908; constitucion
 
-   e) Prohibición de arresto por deuda en el derecho internacional (voto
+e) Prohibición de arresto por deuda en el derecho internacional (voto
 disidente).
 
        El artículo 77 de la Convención Americana prohíbe la detención por
@@ -5112,6 +5388,9 @@ bre de 2020, considerandos octavo y noveno.
  10 Sentencia de la Corte Suprema, rol 16.960-2018, 30 de julio de 2018, considerando sexto (voto disidente).
 
 ## 11 Sentencia de la Corte de Apelaciones de Santiago, rol 275-2021, 18 de febrero
+
+**Definición Canónica:** 2021, considerando sexto.
+**Concordancias Legales:** artículo 66 de la Ley de Matrimonio Civil; artículo 14 de la Ley 14.908; artículo 66; Ley 14.908; constitucion
 
 2021, considerando sexto.
 
@@ -5153,11 +5432,10 @@ considerando segundo, sentencia de reemplazo: «De acuerdo a lo que prescribe el
 inciso segundo del artículo 66 de la mencionada ley, y por no haberse ofrecido garantías para su efectivo y oportuno pago, cada cuota se considerará alimentos para
 el efecto de su cumplimiento».
 
-## 13 Sentencia de la Corte de Apelaciones de Valparaíso, rol 180-2019, 23 de marzo
-
-de 2019, considerando tercero.
-
 ## 14 Sentencia de la Corte de Apelaciones de Santiago, rol 1.525-2019, 9 de julio de
+
+**Definición Canónica:** 2019, considerando sexto.
+**Concordancias Legales:** artículo 66 de la Ley 19.948; artículo 14 de la Ley 14.908 para obtener su cumplimiento; Ley 14.908; Ley 19.948; Ley 20.720
 
 2019, considerando sexto.
 
@@ -5195,12 +5473,10 @@ alimenticia.
       fuerza el argumento sobre su naturaleza, lo que por lo demás ha sido
       reconocida en el Oficio Circular SIR 1 de la superintendencia del ramo.16
 
-
-## 15 Sentencia de la Corte de Apelaciones de Santiago, rol 3.316-2018, 10 de julio de
-
-2019, considerandos tercero y cuarto.
-
 ## 16 Sentencia de la Corte Suprema, rol 16.960-2018, 30 de julio 2018, prevención
+
+**Definición Canónica:** ministro señor Prado.
+**Concordancias Legales:** artículo 66 de la Ley 19.947 y del artículo 14 de la Ley 14.908; artículo 19; artículo 5 de la Constitución Política de la República; artículo 7.7 de la Convención Americana de Derechos Humanos y el; artículo 7.7 de la Convención. Si la Corte con; artículo 65 de la Ley 19.947 al establecer las mo; Ley 19.947; Ley 14.908; Ley 14.908.20; Constitucion; Constitución Política
 
 ministro señor Prado.
 
@@ -5277,6 +5553,14 @@ el pago de una cuota —si la obligación fue fraccionada— se ha entendido que
  18 Sentencia de la Corte Suprema, rol 10.627-2018, 28 de mayo de 2019, considerando noveno.
 
 ## 19 Véase, sentencia de la Corte de Apelaciones de Santiago, rol 4.491-2013, 13 de
+
+**Definición Canónica:** mayo de 2014; y sentencia de la Corte Suprema, rol 10.627-2018, 28 de mayo de 2019.
+ 20 Véase, sentencia de la Corte Suprema, rol 39.635-2017, 26 de septiembre de 2017,
+considerando segundo: «Que el apelante, solicita la revocación de la sentencia que
+rechazó la acción constitucional de amparo, y en su lugar se ordene dejar sin efecto
+la orden de arresto nocturno por el no pago de los montos adeudados por concepto
+de compensación económica, sosteniendo la improcedencia de tal medida, atendida la naturaleza de la obligación y lo dispuesto en el artículo 66 de la Ley 19.947,
+**Concordancias Legales:** artículo 66 de la Ley 19.947; artículo 65 de la Ley 19.947; artículo 66; artículo 14 de la Ley 14.908; artículos 61; artículo 65; Ley 19.947; Ley 14.908; constitucion; constitución
 
 mayo de 2014; y sentencia de la Corte Suprema, rol 10.627-2018, 28 de mayo de 2019.
  20 Véase, sentencia de la Corte Suprema, rol 39.635-2017, 26 de septiembre de 2017,
@@ -5355,8 +5639,17 @@ ejercicio de las facultades de uso y goce del inmueble en que recae, las
 que pasan a radicarse en el usufructuario, el anterior propietario pleno
 solo conserva la posibilidad de disposición.22 Por otra parte, nuestra ju-
 
-
 ## 21 Sentencia de la Corte Suprema, rol 4.523-2019, 3 de febrero 2020, considerando
+
+**Definición Canónica:** sexto.
+  22 Véase, sentencia de la Corte Suprema, rol 17.659-2019, 28 de diciembre de 202,
+considerando octavo: «Que, de este modo, necesariamente debe concluirse que al
+llevarse a cabo la venta, cesión y transferencia del dominio íntegro del inmueble a la
+demandada Solís Rifo, la propiedad del usufructo del inmueble estaba en discusión,
+sin que conste que su enajenación haya sido autorizada por el juez que conocía del
+juicio de divorcio y compensación económica. Más aún, la constitución de un derecho de usufructo, a título de compensación económica en un juicio tramitado ante
+un juzgado de fa
+**Concordancias Legales:** artículo 65; constitución
 
 sexto.
   22 Véase, sentencia de la Corte Suprema, rol 17.659-2019, 28 de diciembre de 202,
@@ -5378,7 +5671,16 @@ que pertenezca a la sociedad conyugal:
 
 ## 2. Constitución de derechos de usufructo, uso o habitación, respecto
 
-      de bienes que sean de propiedad del cónyuge deudor». Es decir, que
+**Definición Canónica:** de bienes que sean de propiedad del cónyuge deudor». Es decir, que
+      debe tratarse de un bien de propiedad exclusiva del deudor, lo que no se
+      cumple en el caso, puesto que el inmueble en cuestión es de la sociedad
+      conyugal, de la cual la demandante forma parte; desconociéndose los
+      efectos y requisitos del derecho real en estudio, desde que el mismo su-
+      pone la coexistencia por separado de la nuda propiedad y la del usufruc-
+      tuario, las que en este caso se confunden, desapareciendo el derecho.23
+**Concordancias Legales:** Artículo 80; artículo 62 de la Ley 19.947; Artículo 81; Ley 20.255; Ley 19.947; Ley 3.500; constitución
+
+de bienes que sean de propiedad del cónyuge deudor». Es decir, que
       debe tratarse de un bien de propiedad exclusiva del deudor, lo que no se
       cumple en el caso, puesto que el inmueble en cuestión es de la sociedad
       conyugal, de la cual la demandante forma parte; desconociéndose los
@@ -5491,11 +5793,10 @@ derechos del inmueble social (pago mixto).
  26 Sentencia de la Corte de Apelaciones de Santiago, rol 434-2020, 7 de enero 2021,
 parte resolutiva.
 
-## 27 Sentencia de la Corte de Apelaciones de Valparaíso, rol 81-2020, 26 de agosto de
-
-2020, considerando sexto.
-
 ## 28 Sentencia de la Corte de Apelaciones de San Miguel, rol 404-2020, 7 de julio de
+
+**Definición Canónica:** 2020, parte resolutiva.
+**Concordancias Legales:** artículo 65 de la Ley 19.947 ordena que; artículo 66; artículo 65 de la Ley 19.947; Ley 19.947; Ley 14.908; constitución
 
 2020, parte resolutiva.
 
@@ -5552,12 +5853,15 @@ económica en $10.000.000 (diez millones de pesos) que se pagara el demandado do
 se reajustaran anualmente de acuerdo al alza que experimente el Índice
 de Precios al Consumidor (IPC) o el sistema de reajuste que lo reemplace, fijándose como seguridad para el pago de la misma, la retención por
 
-## parte del empleador del demandado, oficiándose una vez ejecutoriada la
-
-sentencia a la empresa Inversiones Alsacia al efecto».31
-
-
 ## 30 Así lo destaca Carlos Pizarro (2009: 153): «En opinión de la profesora Maricruz
+
+**Definición Canónica:** Gómez de la Torre […]: “si se paga en cuotas, el valor de esta se expresará en una
+unidad reajustable. El juez deberá determinar seguridades para que se haga efectivo
+el pago. Para ello, podrá ordenar la constitución de una caución por parte del cónyuge deudor, o disponer que el empleador del cónyuge retenga el monto a pagar,
+deduciéndolo de su remuneración [...] Podría también establecer una cláusula de
+aceleración del crédito, en el evento de que el cónyuge no pagare una o más de las
+cuotas en que se hubiere dividido la deuda”».
+**Concordancias Legales:** constitución
 
 Gómez de la Torre […]: “si se paga en cuotas, el valor de esta se expresará en una
 unidad reajustable. El juez deberá determinar seguridades para que se haga efectivo
@@ -5567,6 +5871,8 @@ aceleración del crédito, en el evento de que el cónyuge no pagare una o más 
 cuotas en que se hubiere dividido la deuda”».
 
 ## 31 Sentencia de la Corte de Apelaciones de Santiago, rol 3.174-2018, 26 de julio de
+
+**Definición Canónica:** 2019, parte resolutiva.
 
 2019, parte resolutiva.
 
@@ -5581,16 +5887,20 @@ pago de una de las cuotas se hará exigible el total de lo adeudado».32
       ción de enajenar, la retención judicial o descuento de un porcentaje de
       remuneraciones por parte del empleador.
 
-
 ## 32 Sentencia de la Corte de Apelaciones de Santiago, rol 3.174-2018, 26 de julio de
+
+**Definición Canónica:** 2019, parte resolutiva.
 
 2019, parte resolutiva.
 
 Academia Judicial de Chile                              Cumplimiento en materia de familia
 Materiales Docentes                                                            Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Aspectos relevantes asociados al cumplimiento de
+las medidas de protección: Leyes 21.302 y 21.430
+**Concordancias Legales:** artículos 5; artículos 177; artículo 494; artículo 30; artículos 8; artículos 18; artículos 1; Ley 16.618; Ley 19.968; Ley 21.302; Ley 21.430
 
 Aspectos relevantes asociados al cumplimiento de
 las medidas de protección: Leyes 21.302 y 21.430
@@ -5615,8 +5925,13 @@ tenido consecuencias directas en materia de protección y un impacto
 aún inconcluso en el trabajo de las unidades jurisdiccionales, en especial
 en la gestión de las causas relacionadas.
 
-
 ## 1 En materia de protección se ha verificado un cambio normativo e institucional
+
+**Definición Canónica:** de gran relevancia en los últimos dos años, a partir de dos hitos recientes: la creación
+del Servicio de Protección Especializada de la Niñez y Adolescencia, conocido como
+Servicio Mejor Niñez (Ley 21.302, que reemplaza en parte a su antecesor legal el Servicio Nacional de Menores, Sename) y el Sistema de Garantías y Protección Integral
+de los Derechos de la Niñez y Adolescencia (Ley 21.430), promulgado en marzo de
+**Concordancias Legales:** Ley 21.302; Ley 21.430
 
 de gran relevancia en los últimos dos años, a partir de dos hitos recientes: la creación
 del Servicio de Protección Especializada de la Niñez y Adolescencia, conocido como
@@ -5624,6 +5939,11 @@ Servicio Mejor Niñez (Ley 21.302, que reemplaza en parte a su antecesor legal e
 de los Derechos de la Niñez y Adolescencia (Ley 21.430), promulgado en marzo de
 
 ## 2022. En un contexto de incipiente puesta en marcha de la nueva legislación y los
+
+**Definición Canónica:** nuevos servicios, cobra relevancia la observación de los principios procedimentales
+y recomendaciones de organismos internacionales respecto a la manera en que debe
+verificarse el respeto a los derechos de niños, niñas y adolescentes.
+Materiales Docentes                                                   Capítulo 6
 
 nuevos servicios, cobra relevancia la observación de los principios procedimentales
 y recomendaciones de organismos internacionales respecto a la manera en que debe
@@ -5687,8 +6007,14 @@ mismo, sino que también debe tenerse en cuenta para interpretar y hacer respeta
       legalmente bajo su cuidado.
    Se ha sostenido, además, que tanto la especialización como la diligencia excepcional deben ser principios orientadores del sistema de protección especial de derechos de niños, niñas y adolescentes:
 
-
 ## 3 Este es el principio rector con respecto a los derechos fundamentales de cada
+
+**Definición Canónica:** sujeto de protección, que permite la visualización de cuáles son las vulneraciones de
+derechos en las que el Estado se debe hacer responsable e intervenir, a fin de evitar el
+daño biosicosocial asociado a esta situación. Por otra parte, es también el más confuso, pues al no estar definido por la Convención de Derechos del Niño es el agente
+quien debe hacerlo caso a caso, lo que no siempre ocurre. El llamado es, siempre, a
+su explicitación. Sobre en particular, véase González y Pulgar (2022).
+**Concordancias Legales:** artículo 8 de la Ley 19.968.4 Se aplicará el procedimiento esp; artículos 68; artículo 30 de la Ley de Menores; artículo 1 de la Ley 20.084. Se aplicará procedimiento infracc; artículo 62 de la Ley 16.618; artículo 19; artículo 68; artículo 71 de la Ley 21.430 detalla algunas situaciones en que; Artículo 71; artículo 65; Ley 19.968.4; Ley 19.968; Ley 21.302; Ley 20.084; Ley 16.618; Ley 21.430
 
 sujeto de protección, que permite la visualización de cuáles son las vulneraciones de
 derechos en las que el Estado se debe hacer responsable e intervenir, a fin de evitar el
@@ -5827,21 +6153,31 @@ hace imprescindible dicha derivación:
 
 ## 1. Si la intervención con la familia en contexto de voluntariedad no
 
-      sea posible conforme al diagnóstico previo realizado, requiriéndose la
+**Definición Canónica:** sea posible conforme al diagnóstico previo realizado, requiriéndose la
       adopción de medidas de protección que afecten sustantivamente los
       derechos de los niños, niñas y adolescentes y sus familias, que son de
       exclusiva competencia de los tribunales de familia, debiendo enviarse
       los antecedentes a los tribunales competentes, de oficio o a petición de
       parte.
 
-## 2. Si la intervención en un caso de protección administrativa especiali-
-
-      zada se ve frustrada durante la etapa de implementación y seguimiento
-      por la no adherencia al plan de intervención.
+sea posible conforme al diagnóstico previo realizado, requiriéndose la
+      adopción de medidas de protección que afecten sustantivamente los
+      derechos de los niños, niñas y adolescentes y sus familias, que son de
+      exclusiva competencia de los tribunales de familia, debiendo enviarse
+      los antecedentes a los tribunales competentes, de oficio o a petición de
+      parte.
 
 ## 3. Si la intervención en un caso de protección administrativa universal
 
-      se ve frustrada durante la etapa de implementación y seguimiento por
+**Definición Canónica:** se ve frustrada durante la etapa de implementación y seguimiento por
+      incumplimiento grave o contravenciones reiteradas e injustificadas de
+      las medidas adoptadas por la Oficina Local de la Niñez, por parte de los
+      adultos a cargo de la protección y cuidado del niño, niña o adolescente,
+      y considerando de manera primordial el interés superior del niño, niña
+      o adolescente, se requiere continuar con el procedimiento de protección
+      en sede judicial.
+
+se ve frustrada durante la etapa de implementación y seguimiento por
       incumplimiento grave o contravenciones reiteradas e injustificadas de
       las medidas adoptadas por la Oficina Local de la Niñez, por parte de los
       adultos a cargo de la protección y cuidado del niño, niña o adolescente,
@@ -5851,7 +6187,13 @@ hace imprescindible dicha derivación:
 
 ## 4. Cuando, además de las causas que dieron origen a la protección
 
-      administrativa, aparezcan nuevos antecedentes de vulneración de de-
+**Definición Canónica:** administrativa, aparezcan nuevos antecedentes de vulneración de de-
+      rechos de igual o mayor entidad que los que dieron inicio a la interven-
+      ción en contexto de protección administrativa y proceda lo establecido
+      en los numerales 1 y 3.
+**Concordancias Legales:** artículo 30 de la Ley de Menores también se refiere a las medid; artículo 8; artículo 30 de la Ley de Menores solo menciona dos medidas pero; artículo 2 de la Ley 21.430; Ley 21.430
+
+administrativa, aparezcan nuevos antecedentes de vulneración de de-
       rechos de igual o mayor entidad que los que dieron inicio a la interven-
       ción en contexto de protección administrativa y proceda lo establecido
       en los numerales 1 y 3.
@@ -5929,8 +6271,10 @@ según lo establece el artículo 2 de la Ley 21.430:
    En segundo lugar, la legislación confía el cuidado de los hijos e hijas
 al resto de la familia.7 Esto lo podemos advertir a propósito del corolario
 
-
 ## 7 Nuestra legislación, a partir de la entrada en vigencia de la Ley 21.430 (Sobre
+
+**Definición Canónica:** Garantías y Protección Integral de los Derechos de la Niñez y Adolescencia) reconoce la importancia de darle protección a la familia como grupo fundamental de la
+**Concordancias Legales:** artículo 71 de la Ley 19.968. Así; artículo 77 de la Ley 19.968; artículo 2; artículo 64 de la Ley 21.430; artículo 3 de la Ley 20.032; artículo 63 de la Ley 21.430; Artículo 33 de la Ley 21.302; artículo 31; artículo 9; artículo 125 de la Ley 18.834; artículo 177 del Código Procesal Penal.9 c; artículo 76 de la Ley 19.968; artículo 57 de la Ley 21.430; Ley 19.968; Ley 21.430; Ley 21.302; Ley 20.032; Ley 18.834; Constitución
 
 Garantías y Protección Integral de los Derechos de la Niñez y Adolescencia) reconoce la importancia de darle protección a la familia como grupo fundamental de la
 
@@ -6042,8 +6386,10 @@ protección judicial:
       nal especializada, establecida en la Ley 19.968, que crea los Tribunales
       de Familia, y conforme a un debido proceso legal y a los demás derechos
 
-
 ## 9 El artículo 177 del Código Procesal Penal, remite a lo establecido en el artículo
+
+**Definición Canónica:** 494 del Código Penal: «Sufrirán la pena de multa de una a cuatro unidades tributarias mensuales».
+**Concordancias Legales:** artículo 28; artículos 79; Ley 19.968; Ley 21.430; Constitución Política
 
 494 del Código Penal: «Sufrirán la pena de multa de una a cuatro unidades tributarias mensuales».
 
@@ -6121,8 +6467,15 @@ su derecho a ser oído).10 En palabras de Rey-Galindo (2019: 41-42):
       restrinjan injustificadamente la capacidad de los NNA de acceder a la
       justicia.
 
-
 ## 10 Artículo 28 de la Ley 21.430, derecho a ser oído: «Todo niño, niña o adolescente
+
+**Definición Canónica:** tiene derecho a que sus opiniones sean oídas y debidamente consideradas, de acuerdo con su edad, madurez y grado de desarrollo, en los procedimientos o actuaciones
+administrativas o judiciales en que se decida sobre alguna cuestión particular cuya
+determinación pueda afectar sus derechos o intereses, especialmente en el ámbito
+familiar, escolar, sanitario, comunitario, administrativo y/o judicial. En el ejercicio
+del derecho se resguardarán las condiciones de discreción, intimidad, seguridad,
+recepción de apoyo, libertad y adecuación de la situación».
+**Concordancias Legales:** artículo 50 de la Ley 21.430 dispone; Ley 21.430; Constitución Política
 
 tiene derecho a que sus opiniones sean oídas y debidamente consideradas, de acuerdo con su edad, madurez y grado de desarrollo, en los procedimientos o actuaciones
 administrativas o judiciales en que se decida sobre alguna cuestión particular cuya
@@ -6165,8 +6518,12 @@ Para que la medida de protección tenga éxito, es necesario que se cumplan una 
 con la implementación de políticas públicas que sustenten el actual sistema de protección de la niñez. La Ley sobre Garantías y Protección Integral de los Derechos de la Niñez y Adolescencia reconoce como parte
 del Sistema de Garantías y Protección Integral de los Derechos de la Niñez y Adolescencia al Ministerio de Desarrollo Social y Familia; Comité
 
-
 ## 11 Inciso final artículo 18 Ley 19.968: «Tratándose de los procedimientos señalados
+
+**Definición Canónica:** en los párrafos 1 y 2 del título 4 de esta ley, la intervención del abogado del niño, niña
+o adolescente será obligatoria y su omisión se sancionará con la nulidad de todo lo
+obrado».
+**Concordancias Legales:** artículo 58 de la Ley 21.430 ordena que la coordinación n; artículo 75; artículo 78 de la Ley 21.430 se indica; artículo 79; artículo 80; artículo 71 de la Ley 21.430. Ahora bien; artículos 18; artículo 30 de la Ley 16.618 establece que tendrá un carácter e; artículo 76 de la Ley 19.968; artículo 76 de la Ley 19.968. Respecto a la calificación dia; artículo 78 de la Ley 19.968 dispone que; artículo 71 de la Ley 21.430. La Corte Suprema ordenó; artículo 69 de la Ley 21.430 entiende que esta medida se torna; artículo 74; Artículo 3; artículos 67; artículo 66; artículo 72; artículo 71 de la Ley 21.430; artículo 70; artículo 71; artículo 71 de la Ley 21.430. El tribunal podrá disponer el apr; artículo 94 de la Ley 19.968 que crea los Tribunales de Familia; artículo 240; artículo 65; artículo 73 de la Ley 21.430; Ley 21.430; Ley 21.302; Ley 16.618; Ley 19.968; constitución; Constitucion
 
 en los párrafos 1 y 2 del título 4 de esta ley, la intervención del abogado del niño, niña
 o adolescente será obligatoria y su omisión se sancionará con la nulidad de todo lo

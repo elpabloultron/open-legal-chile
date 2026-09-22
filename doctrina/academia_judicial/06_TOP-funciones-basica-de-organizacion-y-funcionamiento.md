@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** de organización y
+              funcionamiento
 
-              de organización y
+de organización y
               funcionamiento
 
              Autores
@@ -39,19 +32,21 @@ extraccion: pdftotext
                                                  Poblete
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** José
+                                      Marinello
+                                      Federici
+                            Juez titular del 7° Tribunal Oral de San-
+                            tiago, es Magíster en Derecho Laboral
+                            de la Universidad de Chile y Magíster
+                            en Ciencia Política de la ANEPE. Pro-
+                            fesor de Carabineros de Chile en De-
+                            recho Procesal y docente de la Uni-
+                            versidad de Aconcagua en Derecho
+                            Procesal y Der
 
-                            José
+José
                                       Marinello
                                       Federici
                             Juez titular del 7° Tribunal Oral de San-
@@ -80,13 +75,11 @@ somosreal.cl
 docente Nº 31               docente en el instituto Iplacex de SanSantiago, Chile             tiago en diversas cátedras. Ha cumplido
                             diversos cometidos como juez suplente.
 
-
-## Isbn n°
-
-
 ## 2022-a-1854
 
-Tribunales Orales                                                                                              3
+**Definición Canónica:** Tribunales Orales                                                                                              3
+
+Tribunales Orales                                                                                              3
 
                                         Resumen
 
@@ -118,240 +111,11 @@ docente Nº 31               docente en el instituto Iplacex de SanSantiago, Chi
 
                                         Índice de contenidos
 
-
-## 1. Introducción al proceso penal vigente                                      6
-
-
-
-## 1.1 Evolución histórica del sistema de justicia criminal                   7
-
-
-
-## 1.1.1   Antiguo procedimiento                                         7
-
-
-
-## 1.1.2   Nuevo procedimiento                                          12
-
-
-
-## 1.1.3   Salidas alternativas                                         17
-
-
-
-## 1.1.4   Principales principios y garantías del nuevo proceso penal   18
-
-
-
-## 1.1.5   Los sujetos procesales en el proceso penal                   23
-
-
-
-## 2. El proceso penal                                                          27
-
-
-
-## 2.1 Etapa de investigación y formalización                                28
-
-
-
-## 2.1.1 Investigación                                                  28
-
-
-
-## 2.1.2 Formalización                                                  30
-
-
-
-## 2.2 Fase intermedia, acusación y auto de apertura                         34
-
-
-
-## 2.2.1 Fase intermedia                                                34
-
-
-
-## 2.2.2 Acusación                                                      34
-
-
-
-## 2.2.3   Auto de apertura                                             36
-
-
-
-## 2.3 Remisión al tribunal oral, juicio oral, recursos y ejecución          38
-
-
-
-## 2.3.1   Remisión al tribunal oral                                    38
-
-
-
-## 2.3.2   Juicio oral                                                  39
-
-
-
-## 2.3.3   Recursos respecto de la sentencia                            43
-
-
-
-## 2.3.4 Ejecución                                                      43
-
-
-
-## 3. Los tribunales orales                                                     45
-
-
-
-## 3.1 Regulación y características                                          46
-
-
-
-## 3.1.1 Regulación                                                     46
-
-
-
-## 3.1.2   Características principales                                  46
-
-
-
-## 3.1.3   Territorio donde ejercen su actividad                        48
-
-
-
-## 3.1.4 Competencia                                                    49
-
-
-
-## 3.2 Estructura orgánica dentro del Poder Judicial                         52
-
-
-
-## 3.2.1   Los tribunales en la orgánica de Chile                       52
-
-
-
-## 3.2.2   Orgánica de los tribunales orales                            54
-
-Tribunales Orales                                                                  Índice                                        5
-
-
-## 3.3 Estructura orgánica dentro del tribunal y descripción de funciones           55
-
-
-
-## 3.3.1   Consideraciones generales                                          55
-
-
-
-## 3.3.2   La integración y distribución                                      55
-
-
-
-## 3.3.3 Las decisiones en el tribunal                                        55
-
-
-
-## 3.3.4   Comité de jueces                                                   57
-
-
-
-## 3.3.5   El juez presidente del Comité de jueces (art. 24 COT)              59
-
-
-
-## 3.3.6   El administrador de tribunal                                       61
-
-
-
-## 3.3.7   De la organización administrativa                                  63
-
-
-
-## 3.3.8   Cargos de jefes de unidad de un tribunal oral                      65
-
-
-
-## 3.3.9   Cargos de funcionario en un tribunal oral                          69
-
-
-
-## 4. Tramitación en un tribunal oral                                                  84
-
-
-
-## 4.1 Ingreso de causas                                                            85
-
-
-
-## 4.2 Audiencias de un tribunal oral en lo penal                                   88
-
-
-
-## 4.2.1   Audiencia de juicio oral y de aplicación de medida de seguridad    88
-
-
-
-## 4.2.2   Otras audiencias ante tribunal oral en lo penal                    95
-
-
-
-## 4.2.3   Situación por pandemia                                             98
-
-
-
-## 4.2.4   Sistema de grabación y respaldo de audiencias                      98
-
-
-
-## 4.3 Ingreso y término de una causa                                              100
-
-
-
-## 4.3.1   Ingreso de causas                                                 100
-
-
-
-## 4.3.2   Término de una causa                                              102
-
-
-
-## 4.4 El sistema de tramitación                                                   104
-
-
-
-## 4.4.1 Ingreso de un auto de apertura                                      105
-
-
-
-## 4.4.2 Causas pendientes de RIT                                            105
-
-
-
-## 4.4.3 Gestión de causas                                                   106
-
-
-
-## 4.4.4 Ingreso de solicitudes o escritos                                   107
-
-
-
-## 4.4.5 Notificaciones                                                      109
-
-
-
-## 4.4.6 Tramitación de solicitudes                                          111
-
-
-
-## 4.4.7 Tramitación en audiencia                                            112
-
-
-
 ## 4.4.8 Devolución de la causa al juzgado de garantía                       114
 
+**Definición Canónica:** Anexos                                                                             118
 
-                                        Anexos                                                                             118
+Anexos                                                                             118
 
                                         Bibliografía                                                                       142
 
@@ -362,15 +126,15 @@ docente Nº 31               docente en el instituto Iplacex de SanSantiago, Chi
 Tribunales Orales                                                                           1. Introducción al proceso                                                  7
 en lo Penal:                                                                                   penal vigente
 
-
-## 1.1               Evolución histórica del sistema
-
-                                                                                              de justicia criminal
-
-
 ## 1.1.1 Antiguo procedimiento
 
-                                                                                                  El 31 de diciembre de 1894, durante la presidencia de Jorge
+**Definición Canónica:** El 31 de diciembre de 1894, durante la presidencia de Jorge
+                                                                                              Montt, se promulgó el Código de Procedimiento Penal, en cuyo
+                                                                                              Mensaje por parte del Ejecutivo al Senado y la Cámara de Diputados
+                                                                                              se plasmó, en gran medida, el estado de la justicia penal en Chile en
+                                                            
+
+El 31 de diciembre de 1894, durante la presidencia de Jorge
                                                                                               Montt, se promulgó el Código de Procedimiento Penal, en cuyo
                                                                                               Mensaje por parte del Ejecutivo al Senado y la Cámara de Diputados
                                                                                               se plasmó, en gran medida, el estado de la justicia penal en Chile en
@@ -571,7 +335,11 @@ en lo Penal:                                                                    
 
 ## sumario y se iniciaba caso que en ella podía pedirse la absolución del acusado o bien la
 
-                                                                            atenuación de su responsabilidad penal; también podía contestarse
+**Definición Canónica:** atenuación de su responsabilidad penal; también podía contestarse
+                                                      formalmente la fase la eventual demanda civil, si es que aquella había sido deducida
+                                                      plenaria o de juicio. previamente por querellante.
+
+atenuación de su responsabilidad penal; también podía contestarse
                                                       formalmente la fase la eventual demanda civil, si es que aquella había sido deducida
                                                       plenaria o de juicio. previamente por querellante.
 
@@ -584,7 +352,13 @@ en lo Penal:                                                                    
 
 ## sumario, y que constaban todas en un expediente foliado, podían ser
 
-                                                                 conocidas en esta etapa si en la fase investigativa se había mantenido
+**Definición Canónica:** conocidas en esta etapa si en la fase investigativa se había mantenido
+                                                                 secreta, y surgía entonces la posibilidad de controvertir las pruebas
+                                                                 rendidas o de presentar nuevas probanzas, abriéndose un término
+                                                                 probatorio para ello. El juez incluso podía dictar medidas para mejor
+                                                                 acierto del fallo, previas a la sentencia.
+
+conocidas en esta etapa si en la fase investigativa se había mantenido
                                                                  secreta, y surgía entonces la posibilidad de controvertir las pruebas
                                                                  rendidas o de presentar nuevas probanzas, abriéndose un término
                                                                  probatorio para ello. El juez incluso podía dictar medidas para mejor
@@ -613,10 +387,17 @@ en lo Penal:                                                                    
                                                                  conocemos como principio de publicidad y probidad que determina
                                                                  el actuar jurisdiccional.
 
-
 ## 1.1.2 Nuevo procedimiento
 
-                                                                 En junio de 1995 se inició la tramitación del proyecto de ley que
+**Definición Canónica:** En junio de 1995 se inició la tramitación del proyecto de ley que
+                                                                 establecía un nuevo código de juzgamiento criminal, la que culminó
+                                                                 con la promulgación, el 29 de septiembre del 2000, durante la pre-
+                                                                 sidencia de Ricardo Lagos, del Código Procesal Penal vigente con
+                                                                 algunas modificaciones desde esa fecha, dándose curso progresivo a
+        
+**Concordancias Legales:** constitucion; Constitución Política
+
+En junio de 1995 se inició la tramitación del proyecto de ley que
                                                                  establecía un nuevo código de juzgamiento criminal, la que culminó
                                                                  con la promulgación, el 29 de septiembre del 2000, durante la pre-
                                                                  sidencia de Ricardo Lagos, del Código Procesal Penal vigente con
@@ -841,10 +622,17 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                              1. Introducción al proceso                                            18
 
-
 ## 1.1.4 Principales principios y garantías
 
-                                                                 del nuevo proceso penal
+**Definición Canónica:** del nuevo proceso penal
+                                                                 El nuevo sistema procesal penal ha explicitado en gran medida los
+                                                                 principios sobre los que se funda, entendiendo por tales aquellos
+                                                                 supuestos básicos que deben regir el enjuiciamiento criminal. Su
+                                                                 enunciación general está dada tanto en la Constitución Política de
+                                                    
+**Concordancias Legales:** Constitución Política
+
+del nuevo proceso penal
                                                                  El nuevo sistema procesal penal ha explicitado en gran medida los
                                                                  principios sobre los que se funda, entendiendo por tales aquellos
                                                                  supuestos básicos que deben regir el enjuiciamiento criminal. Su
@@ -852,10 +640,13 @@ en lo Penal:                                                                    
                                                                  la República como en tratados internacionales de derechos humanos
                                                                  suscritos y ratificados por nuestro país.
 
-
 ## 1.1.4.1 Principio de juez natural
 
-                                                                 Tal como se señaló antes, a propósito del devenir histórico del
+**Definición Canónica:** Tal como se señaló antes, a propósito del devenir histórico del
+                                                                 procedimiento penal en nuestro país, desde que Chile cuenta con
+**Concordancias Legales:** artículo 2
+
+Tal como se señaló antes, a propósito del devenir histórico del
                                                                  procedimiento penal en nuestro país, desde que Chile cuenta con
 
                                                                  legislación procesal propia se ha garantizado la realización de un
@@ -886,10 +677,16 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                              1. Introducción al proceso                                               19
 
-
 ## 1.1.4.2 Exclusividad de la investigación penal
 
-                                                                 El artículo 3° entregó la exclusividad de la investigación penal al
+**Definición Canónica:** El artículo 3° entregó la exclusividad de la investigación penal al
+                                                                 Ministerio Público, que tiene el mandato de dirigir la investigación de
+                                                                 los hechos constitutivos de delito, aquellos que determinaren la par-
+                                                                 ticipación punible y los que acreditaren la inocencia del imputado, en
+                                                                 la forma prevista por la Constitución y la ley. De esta for
+**Concordancias Legales:** artículo 3; artículo 1; Constitución
+
+El artículo 3° entregó la exclusividad de la investigación penal al
                                                                  Ministerio Público, que tiene el mandato de dirigir la investigación de
                                                                  los hechos constitutivos de delito, aquellos que determinaren la par-
                                                                  ticipación punible y los que acreditaren la inocencia del imputado, en
@@ -907,10 +704,16 @@ en lo Penal:                                                                    
                                                                      público, desarrollado en conformidad con las normas de este
                                                                      cuerpo legal”.
 
-
 ## 1.1.4.3 Oralidad, publicidad e inmediación
 
-                                                                 La particular novedad del juicio oral presentada en la norma pre-
+**Definición Canónica:** La particular novedad del juicio oral presentada en la norma pre-
+                                                                 viamente transcrita, respecto del antiguo sistema, radica en que a
+                                                                 diferencia del anterior procedimiento los jueces que juzgan no han
+                                                                 tomado parte en la investigación, ni tampoco han resuelto aspectos
+                                                                 relativos a aquella, tal como se plasmó en los párrafos anteriores.
+     
+
+La particular novedad del juicio oral presentada en la norma pre-
                                                                  viamente transcrita, respecto del antiguo sistema, radica en que a
                                                                  diferencia del anterior procedimiento los jueces que juzgan no han
                                                                  tomado parte en la investigación, ni tampoco han resuelto aspectos
@@ -942,11 +745,17 @@ en lo Penal:                                                                    
                                                                  la producción de prueba, lo que por otro lado ha sido justificado
                                                                  además en aras de la celeridad requerida por el juzgamiento penal.
 
-
 ## 1.1.4.4 Presunción de inocencia
 
+**Definición Canónica:** Se ha contemplado también en el Código Procesal Penal, de manera
+                                                                 expresa en su artículo 4°, el principio que obliga a tratar al imputado
+                                                                 como inocente mientras no haya sido dictada en su contra una sen-
+                                                                 tencia condenatoria. Por esta razón, desde el germen de la reforma se
+                                                                 sostuvo que medidas cautelares como la prisión preventiva deberían
 
-                                                                 Se ha contemplado también en el Código Procesal Penal, de manera
+**Concordancias Legales:** artículo 4
+
+Se ha contemplado también en el Código Procesal Penal, de manera
                                                                  expresa en su artículo 4°, el principio que obliga a tratar al imputado
                                                                  como inocente mientras no haya sido dictada en su contra una sen-
                                                                  tencia condenatoria. Por esta razón, desde el germen de la reforma se
@@ -973,10 +782,16 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                              1. Introducción al proceso                                               21
 
-
 ## 1.1.4.5 Derecho            a   defensa        y    contradictoriedad
 
-                                                                 Adicionalmente a lo anterior, se ha reconocido el derecho a la de-
+**Definición Canónica:** Adicionalmente a lo anterior, se ha reconocido el derecho a la de-
+                                                                 fensa efectiva del imputado, estableciéndose un organismo público
+                                                                 y técnico encargado de proporcionarla durante toda la sustanciación
+                                                                 del procedimiento, lo que se condice con el principio de contradic-
+                                                                 toriedad, puesto que la defensa podrá controvertir las imputaciones
+   
+
+Adicionalmente a lo anterior, se ha reconocido el derecho a la de-
                                                                  fensa efectiva del imputado, estableciéndose un organismo público
                                                                  y técnico encargado de proporcionarla durante toda la sustanciación
                                                                  del procedimiento, lo que se condice con el principio de contradic-
@@ -985,10 +800,12 @@ en lo Penal:                                                                    
                                                                  pruebas para desvirtuarlas, ante un tribunal que no tomará parte en
                                                                  la discusión sino que resolverá sin realizar labor probatoria.
 
-
 ## 1.1.4.6 Protección a la víctima
 
-                                                                 En paralelo, el nuevo sistema procesal penal impone a los fiscales la
+**Definición Canónica:** En paralelo, el nuevo sistema procesal penal impone a los fiscales la
+**Concordancias Legales:** artículo 6
+
+En paralelo, el nuevo sistema procesal penal impone a los fiscales la
 
                                                                  obligación de velar por los intereses de las víctimas y, a los jueces, la
                                                                  de garantizar sus derechos durante el procedimiento. Hoy la víctima
@@ -1023,10 +840,17 @@ en lo Penal:                                                                    
                                                                      do facilitar al máximo su participación en los trámites en que
                                                                      debiere intervenir”.
 
-
 ## 1.1.4.7 Vigencia de derechos fundamentales
 
-                                                                 El sistema procesal penal propende también a la aplicación directa
+**Definición Canónica:** El sistema procesal penal propende también a la aplicación directa
+                                                                 de las normas constitucionales e internacionales de derechos huma-
+                                                                 nos relevantes, lo que obedece a la necesidad de reforzar la noción
+                                                                 de que el procedimiento penal se organiza a partir del desarrollo de
+                                                                 los principios generales del ordenamiento jurídico, que regulan la
+  
+**Concordancias Legales:** constitucion
+
+El sistema procesal penal propende también a la aplicación directa
                                                                  de las normas constitucionales e internacionales de derechos huma-
                                                                  nos relevantes, lo que obedece a la necesidad de reforzar la noción
                                                                  de que el procedimiento penal se organiza a partir del desarrollo de
@@ -1040,10 +864,15 @@ en lo Penal:                                                                    
                                                                  internacional, interpretando y aplicando las primeras, de modo que
                                                                  den cumplimiento a las exigencias contenidas en las dos últimas.
 
-
 ## 1.1.4.8 Legalidad
 
-                                                                 De lo anterior se desprende que es también un presupuesto necesario,
+**Definición Canónica:** De lo anterior se desprende que es también un presupuesto necesario,
+                                                                 del nuevo sistema procesal penal, la legalidad, contemplándose como
+                                                                 garantía específica en el artículo 19 N° 3 de la Constitución Política
+                                                                 de la República, que en su inciso quinto establece:
+**Concordancias Legales:** artículo 19; artículo 5; Constitución Política; Constitución
+
+De lo anterior se desprende que es también un presupuesto necesario,
                                                                  del nuevo sistema procesal penal, la legalidad, contemplándose como
                                                                  garantía específica en el artículo 19 N° 3 de la Constitución Política
                                                                  de la República, que en su inciso quinto establece:
@@ -1066,13 +895,16 @@ en lo Penal:                                                                    
 Tribunales Orales                                                                  1. Introducción al proceso                                             23
 en lo Penal:                                                                          penal vigente
 
-
-## 1.1.5 Los sujetos procesales en el proceso penal
-
-
 ## 1.1.5.1 Ministerio Público
 
-                                                                                     El artículo 83 de la Constitución Política de la República establece el
+**Definición Canónica:** El artículo 83 de la Constitución Política de la República establece el
+                                                                                     Ministerio Público como un organismo autónomo y jerarquizado de
+                                                                                     rango constitucional, encargando a la Ley Orgánica Constitucional
+                                                                                     del Ministerio Público la regulación de sus funciones, más allá de lo
+                                                                         
+**Concordancias Legales:** artículo 83 de la Constitución Política de la República estable; Constitución Política; constitucion
+
+El artículo 83 de la Constitución Política de la República establece el
                                                                                      Ministerio Público como un organismo autónomo y jerarquizado de
                                                                                      rango constitucional, encargando a la Ley Orgánica Constitucional
                                                                                      del Ministerio Público la regulación de sus funciones, más allá de lo
@@ -1111,10 +943,16 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                              1. Introducción al proceso                                            24
 
-
 ## 1.1.5.2 El imputado
 
-                                                                 Aunque no está definido, se menciona en el artículo 12 del Código
+**Definición Canónica:** Aunque no está definido, se menciona en el artículo 12 del Código
+                                                                 Procesal Penal, refiriendo que tiene derecho a participar en todas las
+                                                                 actuaciones judiciales, salvo excepción establecida en la ley, y tiene
+                                                                 derecho a defensa letrada, sea esta de su confianza (privada) o penal
+                                                                 pública, en cuyo caso será nombrada por el tribunal.
+**Concordancias Legales:** artículo 12 del Código
+
+Aunque no está definido, se menciona en el artículo 12 del Código
                                                                  Procesal Penal, refiriendo que tiene derecho a participar en todas las
                                                                  actuaciones judiciales, salvo excepción establecida en la ley, y tiene
                                                                  derecho a defensa letrada, sea esta de su confianza (privada) o penal
@@ -1132,10 +970,15 @@ en lo Penal:                                                                    
                                                                  detención ilegítima, mediante el procedimiento de amparo ante el
                                                                  juez de garantía.
 
-
 ## 1.1.5.3 Defensoría Penal Pública
 
-                                                                 Es consecuencia ineludible del debido proceso y de la creación del
+**Definición Canónica:** Es consecuencia ineludible del debido proceso y de la creación del
+                                                                 Ministerio Público, a efectos de resguardar y asegurar la igualdad y
+                                                                 equilibrio entre la actividad persecutora del Estado y la vigencia de
+                                                                 derechos básicos y fundamentales del imputado, que goza de presunción
+                                                                 de inocencia y no puede ser condenado sino en virtud de sentenci
+
+Es consecuencia ineludible del debido proceso y de la creación del
                                                                  Ministerio Público, a efectos de resguardar y asegurar la igualdad y
                                                                  equilibrio entre la actividad persecutora del Estado y la vigencia de
                                                                  derechos básicos y fundamentales del imputado, que goza de presunción
@@ -1165,10 +1008,15 @@ en lo Penal:                                                                    
                                                                  sus planteamientos y puntos de vista, a más de sus cuestionamientos
                                                                  jurídicos y de hecho referidos a la acusación de la cual es objeto.
 
-
 ## 1.1.5.4 La víctima y el querellante
 
-                                                                 Víctima es la parte ofendida por un delito, sujeto procesal que no puede
+**Definición Canónica:** Víctima es la parte ofendida por un delito, sujeto procesal que no puede
+                                                                 ser entendido como un mero testigo, puesto que este en esencia es
+                                                                 un tercero ajeno al conflicto que depone respecto de lo que toman
+                                                                 conocimiento. El artículo 109 del Código Procesal Penal le reconoce
+**Concordancias Legales:** artículo 109 del Código Procesal Penal le reconoce
+
+Víctima es la parte ofendida por un delito, sujeto procesal que no puede
                                                                  ser entendido como un mero testigo, puesto que este en esencia es
                                                                  un tercero ajeno al conflicto que depone respecto de lo que toman
                                                                  conocimiento. El artículo 109 del Código Procesal Penal le reconoce
@@ -1186,10 +1034,15 @@ en lo Penal:                                                                    
                                                                  bilidad civil consecuencia del delito, lo que podrá hacer en ciertos
                                                                  casos ante los tribunales penales.
 
-
 ## 1.1.5.5 El tribunal
 
-                                                                 En esencia, el tribunal en sí mismo no reviste la calidad de intervi-
+**Definición Canónica:** En esencia, el tribunal en sí mismo no reviste la calidad de intervi-
+                                                                 niente, puesto que no formula pretensión alguna y le está vedado
+                                                                 realizar actividad probatoria, que es propia de las partes. Sin embargo,
+                                                                 su rol es clave al momento de trabarse la relación procesal.
+**Concordancias Legales:** Ley N° 19.696; constitucion
+
+En esencia, el tribunal en sí mismo no reviste la calidad de intervi-
                                                                  niente, puesto que no formula pretensión alguna y le está vedado
                                                                  realizar actividad probatoria, que es propia de las partes. Sin embargo,
                                                                  su rol es clave al momento de trabarse la relación procesal.
@@ -1245,10 +1098,15 @@ en lo Penal:                                                                    
 
                                                                                       El proceso penal                                                    7
 
-
 ## 7   Hasta ahora hemos ocupado el término proceso penal para referirnos a los procedimientos que
 
-                                                                   han tenido aplicación en nuestro sistema, aun cuando ambos términos no son sinónimos. Es
+**Definición Canónica:** han tenido aplicación en nuestro sistema, aun cuando ambos términos no son sinónimos. Es
+                                                                   bueno explicar que el proceso como tal es una forma de solucionar conflictos de intereses de
+                                                                   relevancia jurídica, mediante la intervención de un tercero imparcial llamado juez que resolverá
+                                                                   el asunto sometido a su conocimiento dictando una sentencia que podrá ser ejecutada. En dicho
+                          
+
+han tenido aplicación en nuestro sistema, aun cuando ambos términos no son sinónimos. Es
                                                                    bueno explicar que el proceso como tal es una forma de solucionar conflictos de intereses de
                                                                    relevancia jurídica, mediante la intervención de un tercero imparcial llamado juez que resolverá
                                                                    el asunto sometido a su conocimiento dictando una sentencia que podrá ser ejecutada. En dicho
@@ -1260,15 +1118,15 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                                    2. El proceso penal                                                      28
 
-
-## 2.1     Etapa de investigación
-
-                                                                       y formalización
-
-
 ## 2.1.1 Investigación
 
-                                                                       El nuevo sistema concibe la instrucción como una etapa previa al
+**Definición Canónica:** El nuevo sistema concibe la instrucción como una etapa previa al
+                                                                       juicio, en la que uno de los intervinientes, el fiscal, con el auxilio de
+                                                                       la policía y otros organismos especializados, debe investigar la exis-
+                                                                       tencia del hecho punible denunciado y determinar la participación
+                                                                       de sujetos, recabando los medios de prue
+
+El nuevo sistema concibe la instrucción como una etapa previa al
                                                                        juicio, en la que uno de los intervinientes, el fiscal, con el auxilio de
                                                                        la policía y otros organismos especializados, debe investigar la exis-
                                                                        tencia del hecho punible denunciado y determinar la participación
@@ -1384,7 +1242,14 @@ en lo Penal:                                                                    
 
 ## 2.1.2 Formalización
 
-                                                      los casos en que        Como se señaló precedentemente, la actividad investigativa del fiscal
+**Definición Canónica:** los casos en que        Como se señaló precedentemente, la actividad investigativa del fiscal
+                                                      su actividad afecte     es eminentemente desformalizada, pero para aquellos casos en que sea
+                                                      o pueda afectar         necesario requerir la intervención judicial por primera vez en relación
+                                                                              con una medida determinada, o cuando se pretenda formalizar la
+                                                      esos derechos,
+**Concordancias Legales:** Ley Nº 18.216
+
+los casos en que        Como se señaló precedentemente, la actividad investigativa del fiscal
                                                       su actividad afecte     es eminentemente desformalizada, pero para aquellos casos en que sea
                                                       o pueda afectar         necesario requerir la intervención judicial por primera vez en relación
                                                                               con una medida determinada, o cuando se pretenda formalizar la
@@ -1492,15 +1357,15 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                                    2. El proceso penal                                                     34
 
-
-## 2.2     Fase intermedia, acusación
-
-                                                                       y auto de apertura
-
-
 ## 2.2.1 Fase intermedia
 
-                                                                       La formulación de la acusación por parte del fiscal dará lugar a la
+**Definición Canónica:** La formulación de la acusación por parte del fiscal dará lugar a la
+                                                                       citación a una audiencia intermedia llamada a cumplir diversas fun-
+                                                                       ciones, siendo las más importantes dar pie a la formalización de la
+                                                                       defensa frente a la acusación, permitir el control judicial de la misma
+                                                                       y, en su caso, preparar la realización d
+
+La formulación de la acusación por parte del fiscal dará lugar a la
                                                                        citación a una audiencia intermedia llamada a cumplir diversas fun-
                                                                        ciones, siendo las más importantes dar pie a la formalización de la
                                                                        defensa frente a la acusación, permitir el control judicial de la misma
@@ -1528,10 +1393,16 @@ en lo Penal:                                                                    
                                                                        transformarse en la etapa final del procedimiento, si se acuerda la
                                                                        aplicación del procedimiento abreviado ante el propio juez de garantía.
 
-
 ## 2.2.2 Acusación
 
-                                                                       Por medio de la acusación, el fiscal manifiesta la intención de per-
+**Definición Canónica:** Por medio de la acusación, el fiscal manifiesta la intención de per-
+                                                                       seguir la responsabilidad penal del imputado y el artículo 259 del
+                                                                       Código Procesal Penal establece su contenido: la individualización de
+                                                                       el o los acusados, entendiéndose que estos debieron ser previamente
+                                                                       formalizados durante la instrucción, y agr
+**Concordancias Legales:** artículo 259 del Código Procesal Penal establece su contenido
+
+Por medio de la acusación, el fiscal manifiesta la intención de per-
                                                                        seguir la responsabilidad penal del imputado y el artículo 259 del
                                                                        Código Procesal Penal establece su contenido: la individualización de
                                                                        el o los acusados, entendiéndose que estos debieron ser previamente
@@ -1585,10 +1456,16 @@ en lo Penal:                                                                    
                                                                  radas nulas y aquellas que hubieren sido obtenidas con inobservancia
                                                                  de garantías fundamentales.
 
-
 ## 2.2.3 Auto de apertura
 
-                                                                 El artículo 260 y siguientes del Código Procesal Penal señala que,
+**Definición Canónica:** El artículo 260 y siguientes del Código Procesal Penal señala que,
+                                                                 presentada la acusación, el juez de garantía ordenará su notificación
+                                                                 a todos los intervinientes y citará, dentro de las 24 horas siguientes, a
+                                                                 la audiencia de preparación del juicio oral, la que deberá tener lugar
+                                                                 en un plazo no inferior a 25 ni superior a 35 días.
+**Concordancias Legales:** artículo 260; artículo 277 del Código Procesal Penal señala que
+
+El artículo 260 y siguientes del Código Procesal Penal señala que,
                                                                  presentada la acusación, el juez de garantía ordenará su notificación
                                                                  a todos los intervinientes y citará, dentro de las 24 horas siguientes, a
                                                                  la audiencia de preparación del juicio oral, la que deberá tener lugar
@@ -1643,15 +1520,16 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                                                             2. El proceso penal                                                               38
 
-
-## 2.3                Remisión al tribunal oral, juicio
-
-                                                                                                oral, recursos y ejecución
-
-
 ## 2.3.1 Remisión al tribunal oral
 
-                                                                                                El artículo 281 del Código Procesal Penal establece que el juez de
+**Definición Canónica:** El artículo 281 del Código Procesal Penal establece que el juez de
+                                                                                                garantía hará llegar el auto de apertura del juicio oral al tribunal
+                                                                                                competente, dentro de las 48 horas siguientes al momento en que
+                                                                                                quedare firme, poniendo a disposición del Tribunal de Juicio Oral en
+                                           
+**Concordancias Legales:** artículo 281 del Código Procesal Penal establece que el juez d; artículos 3311; artículo 141; Ley Nº 20.084
+
+El artículo 281 del Código Procesal Penal establece que el juez de
                                                                                                 garantía hará llegar el auto de apertura del juicio oral al tribunal
                                                                                                 competente, dentro de las 48 horas siguientes al momento en que
                                                                                                 quedare firme, poniendo a disposición del Tribunal de Juicio Oral en
@@ -1707,10 +1585,14 @@ en lo Penal:                                                                    
                                                                                                   nación provisoria, aplicándoseles analógicamente lo dispuesto en el
                                                                                                   artículo 141 inciso final del Código Procesal Penal.
 
-
 ## 2.3.2 Juicio oral
 
-                                                                                                  El juicio deberá constituir la oportunidad para la formulación de la
+**Definición Canónica:** El juicio deberá constituir la oportunidad para la formulación de la
+                                                                                                  acusación, el ejercicio de la defensa, la presentación de la prueba, el
+                                                                                                  debate sobre la misma y la dictación de la sentencia.
+**Concordancias Legales:** Artículo 33; artículo 287; artículos 282; Artículo 282; Artículo 283; artículo 252; Artículo 284; artículo 258; artículo 76; Artículo 285; Artículo 286; artículo 103; artículo 106; artículo 269; Artículo 288; artículo 120; Artículo 289; Artículo 290; Artículo 291
+
+El juicio deberá constituir la oportunidad para la formulación de la
                                                                                                   acusación, el ejercicio de la defensa, la presentación de la prueba, el
                                                                                                   debate sobre la misma y la dictación de la sentencia.
 
@@ -1909,10 +1791,16 @@ en lo Penal:                                                                    
                                                                                     fundamentales, en cuyo caso será conocido por la Corte Suprema
                                                                                     mediante su sala penal.
 
-
 ## 2.3.4 Ejecución
 
-                                                                                    Una vez ejecutoriada la sentencia, por el transcurso del plazo para
+**Definición Canónica:** Una vez ejecutoriada la sentencia, por el transcurso del plazo para
+                                                                                    la interposición de los recursos sin que se hayan interpuesto, o ha-
+                                                                                    biéndose interpuesto han sido fallados, quedamos ante una senten-
+                                                                                    cia que deberá cumplirse. Al efecto, el Tribunal de Juicio Oral en lo
+                                                                           
+**Concordancias Legales:** Ley Nº 18.216; Ley Nº 19.696
+
+Una vez ejecutoriada la sentencia, por el transcurso del plazo para
                                                                                     la interposición de los recursos sin que se hayan interpuesto, o ha-
                                                                                     biéndose interpuesto han sido fallados, quedamos ante una senten-
                                                                                     cia que deberá cumplirse. Al efecto, el Tribunal de Juicio Oral en lo
@@ -1956,24 +1844,25 @@ en lo Penal:                                                                    
 Tribunales Orales                                                    3. Los tribunales                                                         46
 en lo Penal:                                                            orales
 
-
-## 3.1     Regulación y
-
-                                                                       características
-
-
 ## 3.1.1 Regulación
 
-                                                                       Los Tribunales de Juicio Oral en lo Penal están regulados fundamen-
+**Definición Canónica:** Los Tribunales de Juicio Oral en lo Penal están regulados fundamen-
+                                                                       talmente en los artículos 17 al 21 del Código Orgánico de Tribunales,
+                                                                       que son los preceptos vigentes que componen el Párrafo segundo
+                                                                       del Título II de dicho Código.
+**Concordancias Legales:** artículos 17
+
+Los Tribunales de Juicio Oral en lo Penal están regulados fundamen-
                                                                        talmente en los artículos 17 al 21 del Código Orgánico de Tribunales,
                                                                        que son los preceptos vigentes que componen el Párrafo segundo
                                                                        del Título II de dicho Código.
 
-
 ## 3.1.2 Características principales
 
+**Definición Canónica:** a. Son tribunales ordinarios.
+**Concordancias Legales:** artículo 21; artículo 92 del Código Procesal Penal; artículo 80 de la CPR; artículo 21 del COT se encarga de se; artículo 18; constitución
 
-                                                                       a. Son tribunales ordinarios.
+a. Son tribunales ordinarios.
 
                                                                        b. Son tribunales colegiados, en cuanto a su composición y funcio-
                                                                           namiento. El número de jueces que componen cada Tribunal de
@@ -2076,10 +1965,16 @@ en lo Penal:                                                            orales
                                                                  k. Tienen como superior jerárquico a la Corte de Apelaciones
                                                                     respectiva.
 
-
 ## 3.1.3 Territorio donde ejercen su actividad
 
-                                                                 Tienen su asiento en una comuna y ejercen su competencia respecto
+**Definición Canónica:** Tienen su asiento en una comuna y ejercen su competencia respecto
+                                                                 de ella o de una agrupación de ellas (artículo 21 COT). En este artículo
+                                                                 se encarga el legislador de establecer el número de jueces que tendrá
+                                                                 cada Tribunal de Juicio Oral en lo Penal, la comuna en la cual tienen
+                                                                 su asiento y el territorio respecto del cual poseen competenc
+**Concordancias Legales:** artículo 21
+
+Tienen su asiento en una comuna y ejercen su competencia respecto
                                                                  de ella o de una agrupación de ellas (artículo 21 COT). En este artículo
                                                                  se encarga el legislador de establecer el número de jueces que tendrá
                                                                  cada Tribunal de Juicio Oral en lo Penal, la comuna en la cual tienen
@@ -2089,10 +1984,16 @@ en lo Penal:                                                            orales
 
 Tribunales Orales                                              3. Los tribunales                                                      49
 
-
 ## 3.1.4 Competencia
 
-                                                                 Los tribunales de juicio oral en lo penal poseen la plenitud de la
+**Definición Canónica:** Los tribunales de juicio oral en lo penal poseen la plenitud de la
+                                                                 competencia para conocer del juicio oral en el actual sistema proce-
+                                                                 sal penal, la cual es ejercida en única instancia, dado que no resulta
+                                                                 procedente interponer el recurso de apelación en contra de sus
+                                                                 resoluciones, cabiendo solo la interposición del recurso de nulidad.
+**Concordancias Legales:** artículo 18; artículo 14 del COT. De acuerdo con ello; artículo 406; artículo 388; artículo 364; artículo 372; artículo 281; artículo 283 del CPP; artículo 149 del CPP; artículo 290; Ley N° 20.084
+
+Los tribunales de juicio oral en lo penal poseen la plenitud de la
                                                                  competencia para conocer del juicio oral en el actual sistema proce-
                                                                  sal penal, la cual es ejercida en única instancia, dado que no resulta
                                                                  procedente interponer el recurso de apelación en contra de sus
@@ -2190,10 +2091,12 @@ en lo Penal:                                                                    
 Tribunales Orales                                                                            3. Los tribunales                                                               52
 en lo Penal:                                                                                    orales
 
-
 ## 3.2               Estructura orgánica dentro
 
-                                                                                               del Poder Judicial
+**Definición Canónica:** del Poder Judicial
+**Concordancias Legales:** artículo 5; Ley Nº 19.908; DL 1939; Constitución; constitucion
+
+del Poder Judicial
 
                                                       La Constitución de                       3.2.1 Los tribunales en la orgánica de Chile
                                                                                                En nuestro país, el ejercicio de la jurisdicción no está encomendado
@@ -2279,17 +2182,28 @@ en lo Penal:                                                                    
 
 ## 19 Nº 3 CPR]”. EVANS (2004); p. 144. Natalia Muñoz, a propósito de las actuaciones de las superintendencias
 
-                                                               de la administración del Estado, sostiene que para “gran parte de los autores nacionales, la etapa en sede
+**Definición Canónica:** de la administración del Estado, sostiene que para “gran parte de los autores nacionales, la etapa en sede
+                                                               administrativa no constituye fase jurisdiccional, la que comenzaría recién cuando se presenta la reclamación
+                                                               ante la Corte de Apelaciones respectiva o ante otro tribunal perteneciente al Poder Judicial”, tesis que se
+                                                               opone a la de Enrique Evans. MUÑOZ (2007); p. 899.
+
+de la administración del Estado, sostiene que para “gran parte de los autores nacionales, la etapa en sede
                                                                administrativa no constituye fase jurisdiccional, la que comenzaría recién cuando se presenta la reclamación
                                                                ante la Corte de Apelaciones respectiva o ante otro tribunal perteneciente al Poder Judicial”, tesis que se
                                                                opone a la de Enrique Evans. MUÑOZ (2007); p. 899.
 
 Tribunales Orales                                              3. Los tribunales                                                     54
 
-
 ## 3.2.2 Orgánica de los tribunales orales
 
-                                                                 En el caso de los tribunales orales, son considerados tribunales
+**Definición Canónica:** En el caso de los tribunales orales, son considerados tribunales
+                                                                 ordinarios, además de ser colegiados en cuanto a su composición y
+                                                                 funcionamiento, letrados, de derecho y permanentes, con competencia
+                                                                 especial, que ejercen sus facultades sobre una comuna o agrupación
+                                                                 de comunas y conocen en única instancia exclusivamente del juicio
+        
+
+En el caso de los tribunales orales, son considerados tribunales
                                                                  ordinarios, además de ser colegiados en cuanto a su composición y
                                                                  funcionamiento, letrados, de derecho y permanentes, con competencia
                                                                  especial, que ejercen sus facultades sobre una comuna o agrupación
@@ -2310,15 +2224,16 @@ en lo Penal:                                                                    
 Tribunales Orales                                                    3. Los tribunales                                                         55
 en lo Penal:                                                            orales
 
-
-## 3.3     Estructura orgánica dentro del
-
-                                                                       tribunaly descripción de funciones
-
-
 ## 3.3.1 Consideraciones generales
 
-                                                                       Estos tribunales son colegiados, pues funcionarán en una o más
+**Definición Canónica:** Estos tribunales son colegiados, pues funcionarán en una o más
+                                                                       salas integradas por tres de sus miembros. Sin perjuicio de lo ante-
+                                                                       rior, también podrán integrar cada sala otros jueces en calidad de
+                                                                       alternos, con el solo propósito de subrogar, si fuere necesario, a los
+                                                                       miembros que se vieren impedidos de continuar 
+**Concordancias Legales:** artículo 281
+
+Estos tribunales son colegiados, pues funcionarán en una o más
                                                                        salas integradas por tres de sus miembros. Sin perjuicio de lo ante-
                                                                        rior, también podrán integrar cada sala otros jueces en calidad de
                                                                        alternos, con el solo propósito de subrogar, si fuere necesario, a los
@@ -2331,10 +2246,13 @@ en lo Penal:                                                            orales
                                                                        cuando existieren circunstancias que permitieren presumir que con
                                                                        el número ordinario no se podrá cumplir con dicha exigencia legal).
 
-
 ## 3.3.2 La integración y distribución
 
-                                                                       La integración de salas en estos tribunales, incluyendo a los “jueces
+**Definición Canónica:** La integración de salas en estos tribunales, incluyendo a los “jueces
+                                                                       alternos” de cada una, se determinará mediante sorteo anual a efec-
+                                                                       tuarse durante el mes de enero de cada año.
+
+La integración de salas en estos tribunales, incluyendo a los “jueces
                                                                        alternos” de cada una, se determinará mediante sorteo anual a efec-
                                                                        tuarse durante el mes de enero de cada año.
 
@@ -2344,15 +2262,15 @@ en lo Penal:                                                            orales
                                                                        a propuesta del juez presidente, y aplicarse bajo la responsabilidad
                                                                        del administrador del tribunal.
 
-
-## 3.3.3 Las decisiones en el tribunal
-
-                                                                       En esta materia, rigen las reglas que se presentan a continuación.
-
-
 ## 1. Se aplicarán, en lo que no resulte contrario a las normas especia-
 
-                                                                          les contenidas en el párrafo 2º del Título II del Código Orgánico
+**Definición Canónica:** les contenidas en el párrafo 2º del Título II del Código Orgánico
+                                                                          de Tribunales, ni a las reglas sobre “acuerdos” en las Cortes de
+                                                                          Apelaciones contenidas en los artículos 72, 81, 83, 84 y 89 de ese
+                                                                          cuerpo legal, a saber:
+**Concordancias Legales:** artículos 72
+
+les contenidas en el párrafo 2º del Título II del Código Orgánico
                                                                           de Tribunales, ni a las reglas sobre “acuerdos” en las Cortes de
                                                                           Apelaciones contenidas en los artículos 72, 81, 83, 84 y 89 de ese
                                                                           cuerpo legal, a saber:
@@ -2403,18 +2321,11 @@ en lo Penal:                                                            orales
                                                                          su voto a formar sentencia y qué miembros han sostenido
                                                                          opinión contraria.
 
-
-## 2. Solo podrán concurrir a las decisiones del tribunal los jueces que
-
-                                                                    hubieren asistido a la totalidad de la audiencia del juicio oral.
-
-## 3. La decisión deberá ser adoptada por la mayoría de los miembros
-
-                                                                    de la sala.
-
 ## 4. Cuando existiere dispersión de votos en relación con una deci-
 
-                                                                    sión, la sentencia o la determinación de la pena, si aquella fuere
+**Definición Canónica:** sión, la sentencia o la determinación de la pena, si aquella fuere
+
+sión, la sentencia o la determinación de la pena, si aquella fuere
 
                                                                     condenatoria, el juez que sostenga la opinión más desfavorable
                                                                     al condenado deberá optar por alguna de las otras. Si se produ-
@@ -2424,7 +2335,14 @@ en lo Penal:                                                            orales
 
 ## 5. Si por motivo de falta de alguno de los jueces de la sala (falle-
 
-                                                                    cimiento, destitución, traslado o jubilación, imposibilidad por
+**Definición Canónica:** cimiento, destitución, traslado o jubilación, imposibilidad por
+                                                                    enfermedad o alguna inhabilidad física o moral) la audiencia
+                                                                    seguirá su curso y no se verá de nuevo la causa, aunque deje de
+                                                                    tomar parte en el acuerdo alguno de los que concurrieron a la
+                                                                    vista, siempre que el fallo sea acordado por el voto conforme de
+            
+
+cimiento, destitución, traslado o jubilación, imposibilidad por
                                                                     enfermedad o alguna inhabilidad física o moral) la audiencia
                                                                     seguirá su curso y no se verá de nuevo la causa, aunque deje de
                                                                     tomar parte en el acuerdo alguno de los que concurrieron a la
@@ -2432,19 +2350,24 @@ en lo Penal:                                                            orales
                                                                     la mayoría del total de jueces que haya intervenido en la vista
                                                                     de la causa.
 
-
 ## 3.3.4 Comité de jueces
 
-                                                                 Habrá un Comité de jueces en todos los Tribunales de Juicio Oral en
+**Definición Canónica:** Habrá un Comité de jueces en todos los Tribunales de Juicio Oral en
                                                                  lo Penal. La cantidad mínima de jueces de un tribunal oral es de 3 y
                                                                  solo en aquellos donde exista más de una sala se deberá proceder a la
                                                                  correspondiente elección de los cinco miembros del Comité de jueces.
 
+Habrá un Comité de jueces en todos los Tribunales de Juicio Oral en
+                                                                 lo Penal. La cantidad mínima de jueces de un tribunal oral es de 3 y
+                                                                 solo en aquellos donde exista más de una sala se deberá proceder a la
+                                                                 correspondiente elección de los cinco miembros del Comité de jueces.
 
 ## 1. De su integración
 
+**Definición Canónica:** a. En aquellos tribunales compuestos por 5 jueces o menos, el
+                                                                         Comité de jueces se formará por todos ellos.
 
-                                                                      a. En aquellos tribunales compuestos por 5 jueces o menos, el
+a. En aquellos tribunales compuestos por 5 jueces o menos, el
                                                                          Comité de jueces se formará por todos ellos.
 
 Tribunales Orales                                              3. Los tribunales                                                      58
@@ -2468,8 +2391,15 @@ en lo Penal:                                                            orales
 
 ## 2. De sus funciones
 
+**Definición Canónica:** a. Aprobar el “procedimiento objetivo y general” a que se refie-
+                                                                         ren los artículos 15 y 17 del Código Orgánico de Tribunales,
+                                                                         a los que nos hemos referido antes, en relación con la forma
+                                                                         en que se distribuirán las causas.
+                                                                      b. Designar, de entre la terna que le presente el juez presidente,
+                      
+**Concordancias Legales:** artículos 15
 
-                                                                      a. Aprobar el “procedimiento objetivo y general” a que se refie-
+a. Aprobar el “procedimiento objetivo y general” a que se refie-
                                                                          ren los artículos 15 y 17 del Código Orgánico de Tribunales,
                                                                          a los que nos hemos referido antes, en relación con la forma
                                                                          en que se distribuirán las causas.
@@ -2491,10 +2421,16 @@ en lo Penal:                                                            orales
 
 Tribunales Orales                                              3. Los tribunales                                                     59
 
-
 ## 3.3.5 El juez presidente del Comité
 
-                                                                 de jueces (art. 24 COT)
+**Definición Canónica:** de jueces (art. 24 COT)
+                                                                 El nivel superior de decisión en este tipo de tribunales está a cargo
+                                                                 del Comité de jueces, presidido por el juez presidente, a quien se le
+                                                                 asignan funciones específicas de decisión y coordinación, además de
+                                                                 relacionarse directamente con el administrador del tribunal.
+**Concordancias Legales:** artículo 24 del COT; artículos 15
+
+de jueces (art. 24 COT)
                                                                  El nivel superior de decisión en este tipo de tribunales está a cargo
                                                                  del Comité de jueces, presidido por el juez presidente, a quien se le
                                                                  asignan funciones específicas de decisión y coordinación, además de
@@ -2568,10 +2504,16 @@ en lo Penal:                                                                   o
 Tribunales Orales                                                                          3. Los tribunales                                                        61
 en lo Penal:                                                                                  orales
 
-
 ## 3.3.6 El administrador de tribunal18
 
-                                                                                             Consecuente con el proceso de modernización del sistema judicial
+**Definición Canónica:** Consecuente con el proceso de modernización del sistema judicial
+                                                                                             chileno y su adecuación a la legislación internacional relativa a los
+                                                                                             derechos humanos, incorporada en nuestro ordenamiento jurídico
+                                                                                             a través del artículo 5º de la Constitución Política, el Estado chileno
+                                                   
+**Concordancias Legales:** artículo 5; artículo 389; artículo 517; Constitución Política
+
+Consecuente con el proceso de modernización del sistema judicial
                                                                                              chileno y su adecuación a la legislación internacional relativa a los
                                                                                              derechos humanos, incorporada en nuestro ordenamiento jurídico
                                                                                              a través del artículo 5º de la Constitución Política, el Estado chileno
@@ -2674,10 +2616,13 @@ en lo Penal:                                                                    
                                                                                                 equipo, a propiciar un clima de cuidado mutuo, respeto y cola-
                                                                                                 boración al interior del tribunal.
 
-
 ## 3.3.7 De la organización administrativa
 
-                                                                                              Los tribunales enunciados se organizarán en cinco “unidades admi-
+**Definición Canónica:** Los tribunales enunciados se organizarán en cinco “unidades admi-
+                                                                                              nistrativas”19 para el cumplimiento eficaz y eficiente de las funciones
+                                                                                              que se distinguen a continuación.
+
+Los tribunales enunciados se organizarán en cinco “unidades admi-
                                                                                               nistrativas”19 para el cumplimiento eficaz y eficiente de las funciones
                                                                                               que se distinguen a continuación.
 
@@ -2689,18 +2634,25 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                              3. Los tribunales                                                      64
 
-
 ## 1. Sala
 
+**Definición Canónica:** — Esta unidad administrativa será la responsable y tendrá a
+                                                                        su cargo la organización y asistencia a la realización de las
+                                                                        audiencias.
 
-                                                                      — Esta unidad administrativa será la responsable y tendrá a
+— Esta unidad administrativa será la responsable y tendrá a
                                                                         su cargo la organización y asistencia a la realización de las
                                                                         audiencias.
 
 ## 2. Atención de público
 
+**Definición Canónica:** — Otorgar una adecuada atención, orientación e información
+                                                                        al público que concurra al juzgado o tribunal, especialmente
+                                                                        a la víctima, al defensor y al imputado.
+                                                                      — Recibir la información relacionada a una causa que estos
+                                                                        entreguen.
 
-                                                                      — Otorgar una adecuada atención, orientación e información
+— Otorgar una adecuada atención, orientación e información
                                                                         al público que concurra al juzgado o tribunal, especialmente
                                                                         a la víctima, al defensor y al imputado.
                                                                       — Recibir la información relacionada a una causa que estos
@@ -2710,8 +2662,12 @@ en lo Penal:                                                                    
 
 ## 3. Servicios
 
+**Definición Canónica:** — Esta unidad administrativa reunirá las labores de soporte
+                                                                        técnico de la red computacional del juzgado o tribunal, de
+                                                                        contabilidad y de apoyo a la actividad administrativa del
+                                                                        juzgado o tribunal.
 
-                                                                      — Esta unidad administrativa reunirá las labores de soporte
+— Esta unidad administrativa reunirá las labores de soporte
                                                                         técnico de la red computacional del juzgado o tribunal, de
                                                                         contabilidad y de apoyo a la actividad administrativa del
                                                                         juzgado o tribunal.
@@ -2722,8 +2678,12 @@ en lo Penal:                                                                    
 
 ## 4. Administración de causas
 
+**Definición Canónica:** — Esta unidad desarrollará toda la labor relativa al manejo de
+                                                                        causas y registros del proceso penal en el juzgado o tribunal,
+                                                                        incluidas las relativas a las notificaciones, al manejo de las
+                                                                        fechas y salas para las audiencias y el archivo judicial básico.
 
-                                                                      — Esta unidad desarrollará toda la labor relativa al manejo de
+— Esta unidad desarrollará toda la labor relativa al manejo de
                                                                         causas y registros del proceso penal en el juzgado o tribunal,
                                                                         incluidas las relativas a las notificaciones, al manejo de las
                                                                         fechas y salas para las audiencias y el archivo judicial básico.
@@ -2737,17 +2697,26 @@ en lo Penal:                                                                    
 
 Tribunales Orales                                              3. Los tribunales                                                         65
 
-
 ## 5. Apoyo a testigos y peritos
 
-                                                                    Está destinada a brindar adecuada y rápida atención, informa-
+**Definición Canónica:** Está destinada a brindar adecuada y rápida atención, informa-
                                                                     ción y orientación a los testigos y peritos citados a declarar en el
                                                                     transcurso de un juicio oral.
 
+Está destinada a brindar adecuada y rápida atención, informa-
+                                                                    ción y orientación a los testigos y peritos citados a declarar en el
+                                                                    transcurso de un juicio oral.
 
 ## 3.3.8 Cargos de jefes de unidad de un tribunal oral
 
-                                                                 Cada una de las unidades en que se organiza un tribunal oral debe
+**Definición Canónica:** Cada una de las unidades en que se organiza un tribunal oral debe
+                                                                 estar a cargo de un jefe de unidad. En cuanto a los requisitos de título
+                                                                 de estos profesionales, se les exige una carrera profesional de al menos
+                                                                 8 semestres de duración en las áreas de administración o contabilidad,
+                                                                 en el caso del jefe de servicios; para el jefe de la unid
+**Concordancias Legales:** artículo 214 del Código
+
+Cada una de las unidades en que se organiza un tribunal oral debe
                                                                  estar a cargo de un jefe de unidad. En cuanto a los requisitos de título
                                                                  de estos profesionales, se les exige una carrera profesional de al menos
                                                                  8 semestres de duración en las áreas de administración o contabilidad,
@@ -2914,11 +2883,16 @@ en lo Penal:                                                                    
                                                                         prioritariamente al administrador (siempre que exista más
                                                                         de un jefe de unidad en la orgánica del tribunal).
 
-
 ## 3.3.9 Cargos de funcionario en un tribunal oral
 
+**Definición Canónica:** a. Asistente administrativo
+                                                                    El cargo de asistente administrativo surge de la necesidad de
+                                                                    contar con apoyo en las labores de administrador y del tribunal
+                                                                    en general, con el objetivo de facilitar y apoyar la gestión de este.
+                                                                    Para servir en este cargo se requiere preferentemente título de una
+                                    
 
-                                                                 a. Asistente administrativo
+a. Asistente administrativo
                                                                     El cargo de asistente administrativo surge de la necesidad de
                                                                     contar con apoyo en las labores de administrador y del tribunal
                                                                     en general, con el objetivo de facilitar y apoyar la gestión de este.
@@ -3197,7 +3171,10 @@ en lo Penal:                                                                    
 
 ## parte de la jefatura, llevando así un control de la contabilidad
 
-                                                                      del tribunal.
+**Definición Canónica:** del tribunal.
+**Concordancias Legales:** Ley Nº 19.696
+
+del tribunal.
 
                                                                       Para servir este cargo se requiere título técnico de una universidad,
                                                                       instituto profesional o centro de formación técnica del Estado, o
@@ -3468,10 +3445,11 @@ en lo Penal:                                                            tribunal
 Tribunales Orales                                                    4. Tramitación en un                                                       88
 en lo Penal:                                                            tribunal oral
 
-
 ## 4.2     Audiencias de un tribunal
 
-                                                                       oral en lo penal
+**Definición Canónica:** oral en lo penal
+
+oral en lo penal
 
                                                                        Por lo general, la audiencia de juicio propiamente tal es aquella que el
                                                                        común de las personas entiende y se desarrolla en un Tribunal de Juicio
@@ -3487,10 +3465,13 @@ en lo Penal:                                                            tribunal
                                                                        tribunal, de alguno de los intervinientes, de terceros colaboradores
                                                                        del sistema judicial o en virtud de mandato de la propia ley.
 
-
 ## 4.2.1 Audiencia de juicio oral y de
 
-                                                                       aplicación de medida de seguridad
+**Definición Canónica:** aplicación de medida de seguridad
+                                                                       Tanto su forma como su tramitación son prácticamente iguales, solo
+                                                                       con algunas diferencias que se referirán al final de este apartado.
+
+aplicación de medida de seguridad
                                                                        Tanto su forma como su tramitación son prácticamente iguales, solo
                                                                        con algunas diferencias que se referirán al final de este apartado.
 
@@ -3773,18 +3754,27 @@ en lo Penal:                                                            tribunal
 
                                                                  para su propia persona.
 
-
 ## 4.2.2 Otras audiencias ante tribunal oral en lo penal
 
-                                                                 Como se indicara antes, la audiencia de juicio oral es la más conocida,
+**Definición Canónica:** Como se indicara antes, la audiencia de juicio oral es la más conocida,
                                                                  extensa y tal vez compleja de las que se desarrollan en dependencias
                                                                  de un tribunal oral en lo penal, pero hay otras más específicas y que
                                                                  se individualizan en los próximos acápites.
 
+Como se indicara antes, la audiencia de juicio oral es la más conocida,
+                                                                 extensa y tal vez compleja de las que se desarrollan en dependencias
+                                                                 de un tribunal oral en lo penal, pero hay otras más específicas y que
+                                                                 se individualizan en los próximos acápites.
 
 ## 4.2.2.1 Toma de declaración a testigo o perito
 
-                                                                 Los tribunales orales en lo penal, a requerimiento de otros tribunales
+**Definición Canónica:** Los tribunales orales en lo penal, a requerimiento de otros tribunales
+                                                                 orales de distintas ciudades, cumplirán exhortos entre aquellos que
+                                                                 solicitan se tome declaración a través de videoconferencia a testigos o
+                                                                 peritos con domicilio en la ciudad de asiento del tribunal exhortado
+                                                                 y que deban declarar ese día en una ciudad distinta. En este
+
+Los tribunales orales en lo penal, a requerimiento de otros tribunales
                                                                  orales de distintas ciudades, cumplirán exhortos entre aquellos que
                                                                  solicitan se tome declaración a través de videoconferencia a testigos o
                                                                  peritos con domicilio en la ciudad de asiento del tribunal exhortado
@@ -3808,10 +3798,16 @@ en lo Penal:                                                            tribunal
                                                                  señale con claridad al exhortante cuáles son las condiciones con que
                                                                  cuenta para poder cumplir el encargo.
 
-
 ## 4.2.2.2 Audiencia de discusión de medida cautelar
 
-                                                                 Estas pueden ser decretadas en virtud de mandato legal, cuando ha
+**Definición Canónica:** Estas pueden ser decretadas en virtud de mandato legal, cuando ha
+                                                                 transcurrido el plazo de 6 meses desde la última revisión de la prisión
+                                                                 preventiva que afecte al acusado, plazo que se cuenta efectivamente
+                                                                 desde la última audiencia desarrollada a tal efecto ante el juzgado
+                                                                 de garantía que remitió el auto de apertura, puesto que desde su
+ 
+
+Estas pueden ser decretadas en virtud de mandato legal, cuando ha
                                                                  transcurrido el plazo de 6 meses desde la última revisión de la prisión
                                                                  preventiva que afecte al acusado, plazo que se cuenta efectivamente
                                                                  desde la última audiencia desarrollada a tal efecto ante el juzgado
@@ -3832,10 +3828,15 @@ en lo Penal:                                                            tribunal
                                                                  caso que la presencia del acusado en estas audiencias, así como en
                                                                  la de juicio oral, es requisito esencial.
 
-
 ## 4.2.2.3 Audiencias de sobreseimiento
 
-                                                                 Se dan a petición de parte y eventualmente a instancias del propio
+**Definición Canónica:** Se dan a petición de parte y eventualmente a instancias del propio
+                                                                 tribunal. Si el sobreseimiento es definitivo, por ejemplo por falle-
+                                                                 cimiento del acusado, o porque el Ministerio Público se quedó sin
+                                                                 prueba luego de haber sido declarada inadmisible la presentada en la
+                                                                 audiencia de preparación de juicio oral, y tal decisión es confirmada
+
+Se dan a petición de parte y eventualmente a instancias del propio
                                                                  tribunal. Si el sobreseimiento es definitivo, por ejemplo por falle-
                                                                  cimiento del acusado, o porque el Ministerio Público se quedó sin
                                                                  prueba luego de haber sido declarada inadmisible la presentada en la
@@ -3855,10 +3856,15 @@ en lo Penal:                                                            tribunal
                                                                  escuchar a los intervinientes sobre el punto, y en consecuencia el
                                                                  sobreseimiento temporal de la causa.
 
-
 ## 4.2.2.4 Audiencias de cautela de garantía
 
-                                                                 Proceden por las más diversas situaciones, como por ejemplo riesgo
+**Definición Canónica:** Proceden por las más diversas situaciones, como por ejemplo riesgo
+                                                                 constatado por la defensa respecto de la vida o integridad de su repre-
+                                                                 sentado privado de libertad, o porque este no ha comparecido a las
+                                                                 visitas que su defensor le ha hecho. Siempre deberán ser solicitadas
+                                                                 por el interviniente y agendadas lo antes posible, notificándose 
+
+Proceden por las más diversas situaciones, como por ejemplo riesgo
                                                                  constatado por la defensa respecto de la vida o integridad de su repre-
                                                                  sentado privado de libertad, o porque este no ha comparecido a las
                                                                  visitas que su defensor le ha hecho. Siempre deberán ser solicitadas
@@ -3868,20 +3874,31 @@ en lo Penal:                                                            tribunal
                                                                  terceros que deban comparecer por tener algo que referir sobre el
                                                                  punto, como los casos mencionados puede ser Gendarmería de Chile.
 
-
 ## 4.2.2.5 Revisión de sanción aplicada por régimen interno
 
-                                                                 de Gendarmería al acusado privado de libertad
+**Definición Canónica:** de Gendarmería al acusado privado de libertad
+                                                                 En este caso, la solicitud de aprobación de la sanción llega aparejada
+                                                                 al informe de aquella aplicada por Gendarmería al interno, pudiendo
+                                                                 realizarse una audiencia para que el tribunal aprecie los antecedentes
+                                                                 fundantes de esta, o bien puede ser solicitada por la defensa como
+                 
+
+de Gendarmería al acusado privado de libertad
                                                                  En este caso, la solicitud de aprobación de la sanción llega aparejada
                                                                  al informe de aquella aplicada por Gendarmería al interno, pudiendo
                                                                  realizarse una audiencia para que el tribunal aprecie los antecedentes
                                                                  fundantes de esta, o bien puede ser solicitada por la defensa como
                                                                  si se tratase de una cautela de garantías.
 
-
 ## 4.2.2.6 Audiencias de control de detención
 
-                                                                 Se realizan, en la generalidad de los casos, cuando se informa que
+**Definición Canónica:** Se realizan, en la generalidad de los casos, cuando se informa que
+                                                                 un acusado respecto del cual se despachó una orden de detención, o
+                                                                 eventualmente se ordenó su prisión preventiva por no haber compa-
+                                                                 recido a la audiencia de juicio estando válidamente emplazado, ha sido
+                                                                 habido en virtud de dicha orden. En tal circunstancia, la policía que
+
+Se realizan, en la generalidad de los casos, cuando se informa que
                                                                  un acusado respecto del cual se despachó una orden de detención, o
                                                                  eventualmente se ordenó su prisión preventiva por no haber compa-
                                                                  recido a la audiencia de juicio estando válidamente emplazado, ha sido
@@ -3895,10 +3912,15 @@ en lo Penal:                                                            tribunal
 
 Tribunales Orales                                              4. Tramitación en un                                                     98
 
-
 ## 4.2.3 Situación por pandemia
 
-                                                                 La emergencia planteada por la pandemia de COVID-19 ha provo-
+**Definición Canónica:** La emergencia planteada por la pandemia de COVID-19 ha provo-
+                                                                 cado que las formas habituales de realización de audiencias varíen
+                                                                 sustancialmente. Hoy el trabajo a distancia por vía remota es la forma
+                                                                 habitual de laborar, salvo que se establezca otra cosa o que por razones
+                                                                 fundadas se requiera realizar una audiencia de manera presencial. N
+
+La emergencia planteada por la pandemia de COVID-19 ha provo-
                                                                  cado que las formas habituales de realización de audiencias varíen
                                                                  sustancialmente. Hoy el trabajo a distancia por vía remota es la forma
                                                                  habitual de laborar, salvo que se establezca otra cosa o que por razones
@@ -3918,10 +3940,16 @@ en lo Penal:                                                            tribunal
                                                                  cias del tribunal, verificando así su identidad como ministros de fe
                                                                  y facilitándoles así el acceso a la justicia.
 
-
 ## 4.2.4 Sistema de grabación y respaldo de audiencias
 
-                                                                 Siguiendo las instrucciones de la Excelentísima Corte Suprema,
+**Definición Canónica:** Siguiendo las instrucciones de la Excelentísima Corte Suprema,
+                                                                 que con fecha 28 de enero de 2002 y mediante Acuerdo de Pleno
+                                                                 estableció como único método oficial de registro de audiencias el
+                                                                 Sistema de Audio, se instala en los computadores de cada sala de
+                                                                 la reforma procesal penal el programa “Audiograbber”, aplicación
+                   
+
+Siguiendo las instrucciones de la Excelentísima Corte Suprema,
                                                                  que con fecha 28 de enero de 2002 y mediante Acuerdo de Pleno
                                                                  estableció como único método oficial de registro de audiencias el
                                                                  Sistema de Audio, se instala en los computadores de cada sala de
@@ -3943,11 +3971,15 @@ en lo Penal:                                                            tribunal
                                                                  que lo requieran mediante los convenios de interconexión con las
                                                                  otras instituciones de la reforma.
 
-
 ## 4.2.4.1 Esquema de grabación con “Audiograbber”
 
+**Definición Canónica:** Las ventajas de este sistema, aparte de lo ya indicado, es que su lectura
+                                                                 luego de grabarse es bastante rápida y se puede agregar el nombre
+                                                                 que se desee a la pista de audio. Es por ello que se ha implementado
+                                                                 un sistema de registro centralizado en base al código del tribunal, el
+                                                                 RIT, el RUC de la causa y la fecha del registro, de esta for
 
-                                                                 Las ventajas de este sistema, aparte de lo ya indicado, es que su lectura
+Las ventajas de este sistema, aparte de lo ya indicado, es que su lectura
                                                                  luego de grabarse es bastante rápida y se puede agregar el nombre
                                                                  que se desee a la pista de audio. Es por ello que se ha implementado
                                                                  un sistema de registro centralizado en base al código del tribunal, el
@@ -3962,15 +3994,16 @@ en lo Penal:                                                            tribunal
 Tribunales Orales                                                    4. Tramitación en un                                                   100
 en lo Penal:                                                            tribunal oral
 
-
-## 4.3     Ingreso y término
-
-                                                                       de una causa
-
-
 ## 4.3.1 Ingreso de causas
 
-                                                                       Como ya se indicó en el acápite 4.1, el ingreso de causas está dado
+**Definición Canónica:** Como ya se indicó en el acápite 4.1, el ingreso de causas está dado
+                                                                       principalmente por la remisión de los antecedentes de un juzgado de
+                                                                       garantía, sin perjuicio de que también es posible ingresar una causa
+                                                                       manualmente debido a una denuncia que se efectúe en el tribunal,
+                                                                       si bien esto sucede en contadas ocasiones.
+**Concordancias Legales:** artículo 17 del Código Orgánico de; artículo 33 del Código Procesal Penal20; Artículo 33; artículo 287
+
+Como ya se indicó en el acápite 4.1, el ingreso de causas está dado
                                                                        principalmente por la remisión de los antecedentes de un juzgado de
                                                                        garantía, sin perjuicio de que también es posible ingresar una causa
                                                                        manualmente debido a una denuncia que se efectúe en el tribunal,
@@ -4057,10 +4090,17 @@ en lo Penal:                                                                    
                                                                  tener una agenda ordenada, con los registros necesarios y una carga
                                                                  laboral equivalente entre los jueces del tribunal.
 
-
 ## 4.3.2 Término de una causa
 
-                                                                 Luego de haberse realizado la audiencia de juicio oral y ya habién-
+**Definición Canónica:** Luego de haberse realizado la audiencia de juicio oral y ya habién-
+                                                                 dose realizado la audiencia de comunicación de sentencia, las partes
+                                                                 tienen un plazo de 10 días para interponer un recurso de nulidad
+                                                                 contra la sentencia (artículos 372 al 374 CPP). Cuando el recurso
+                                                                 presentado ya ha sido resuelto por la instancia respectiva (Corte de
+   
+**Concordancias Legales:** artículos 372
+
+Luego de haberse realizado la audiencia de juicio oral y ya habién-
                                                                  dose realizado la audiencia de comunicación de sentencia, las partes
                                                                  tienen un plazo de 10 días para interponer un recurso de nulidad
                                                                  contra la sentencia (artículos 372 al 374 CPP). Cuando el recurso
@@ -4109,10 +4149,11 @@ en lo Penal:                                                                    
 Tribunales Orales                                                    4. Tramitación en un                                                   104
 en lo Penal:                                                            tribunal oral
 
-
 ## 4.4     El sistema de
 
-                                                                       tramitación
+**Definición Canónica:** tramitación
+
+tramitación
 
                                                                        La entrada en vigencia de la reforma procesal penal permitió estan-
                                                                        darizar en buena parte el trabajo de los tribunales, tanto en materia
@@ -4153,17 +4194,23 @@ en lo Penal:                                                            tribunal
 
 Tribunales Orales                                              4. Tramitación en un                                                  105
 
-
 ## 4.4.1 Ingreso de un auto de apertura
 
-                                                                 Para el ingreso de un auto de apertura, el sistema entregará los datos
+**Definición Canónica:** Para el ingreso de un auto de apertura, el sistema entregará los datos
                                                                  asociados a la causa con el solo ingreso del RUC. Validada la infor-
                                                                  mación, se procederá a generar el RIT del tribunal.
 
+Para el ingreso de un auto de apertura, el sistema entregará los datos
+                                                                 asociados a la causa con el solo ingreso del RUC. Validada la infor-
+                                                                 mación, se procederá a generar el RIT del tribunal.
 
 ## 4.4.2 Causas pendientes de RIT
 
-                                                                 Este menú es para aquellas causas a las cuales no se les ha generado
+**Definición Canónica:** Este menú es para aquellas causas a las cuales no se les ha generado
+                                                                 RIT. Para ello se selecciona el botón “Causas pendientes” y se des-
+                                                                 plegará la siguiente pantalla:
+
+Este menú es para aquellas causas a las cuales no se les ha generado
                                                                  RIT. Para ello se selecciona el botón “Causas pendientes” y se des-
                                                                  plegará la siguiente pantalla:
 
@@ -4178,10 +4225,15 @@ en lo Penal:                                                            tribunal
                                                                  sada en el tribunal, por lo que se debe proceder a asignar la fecha
                                                                  del juicio y la sala que conocerá de esta.
 
-
 ## 4.4.3 Gestión de causas
 
-                                                                 Para tramitar una causa, se debe hacer en el módulo de gestión, el
+**Definición Canónica:** Para tramitar una causa, se debe hacer en el módulo de gestión, el
+                                                                 cual está orientado a proporcionar todas las herramientas para un
+                                                                 completo registro de las actuaciones judiciales asociadas a una causa
+                                                                 (lo ordenado en audiencias, resoluciones y sentencias), de manera de
+                                                                 tener la materialidad de la causa lo más fidedigna posible.
+
+Para tramitar una causa, se debe hacer en el módulo de gestión, el
                                                                  cual está orientado a proporcionar todas las herramientas para un
                                                                  completo registro de las actuaciones judiciales asociadas a una causa
                                                                  (lo ordenado en audiencias, resoluciones y sentencias), de manera de
@@ -4227,10 +4279,15 @@ en lo Penal:                                                                    
                                                                                                   rellantes) conocen que la causa se encuentra en el tribunal, por lo
                                                                                                   que cualquier solicitud o petición se debe hacer llegar por escrito.
 
-
 ## 4.4.4 Ingreso de solicitudes o escritos
 
-                                                                                              Los tribunales habitualmente recibían solicitudes en documentos
+**Definición Canónica:** Los tribunales habitualmente recibían solicitudes en documentos
+                                                                                              físicos, donde un oficial de sala o persona a cargo del mesón de
+                                                                                              atención timbraba una copia, debiendo dejarse tantas copias como
+                                                                                              intervinientes hubiere en el proceso.
+**Concordancias Legales:** Ley N° 20.88621
+
+Los tribunales habitualmente recibían solicitudes en documentos
                                                                                               físicos, donde un oficial de sala o persona a cargo del mesón de
                                                                                               atención timbraba una copia, debiendo dejarse tantas copias como
                                                                                               intervinientes hubiere en el proceso.
@@ -4258,10 +4315,12 @@ en lo Penal:                                                                    
                                                                  documentos a los tribunales, para luego procederse a resolver las
                                                                  diferentes solicitudes.
 
-
 ## 4.4.4.1 Atención de público
 
-                                                                 Todo escrito ingresado al tribunal se debe trabajar en el módulo de
+**Definición Canónica:** Todo escrito ingresado al tribunal se debe trabajar en el módulo de
+                                                                 atención a público, diseñado con el fin de proveer información a
+
+Todo escrito ingresado al tribunal se debe trabajar en el módulo de
                                                                  atención a público, diseñado con el fin de proveer información a
 
                                                                  quienes desean consultar los movimientos realizados en una causa
@@ -4290,10 +4349,13 @@ en lo Penal:                                                                    
                                                                  por causa, audiencia, y multa, siendo muy útil especialmente en el
                                                                  submenú la búsqueda por nombre o número de cédula de identidad.
 
-
 ## 4.4.4.2 Búsqueda de causas
 
-                                                                 Para realizar una búsqueda de causa se debe activar el botón co-
+**Definición Canónica:** Para realizar una búsqueda de causa se debe activar el botón co-
+                                                                 rrespondiente. El sistema cuenta con criterios de búsqueda tales
+                                                                 como: rol único, fecha de ingreso, tipo de causa, forma de inicio,
+
+Para realizar una búsqueda de causa se debe activar el botón co-
                                                                  rrespondiente. El sistema cuenta con criterios de búsqueda tales
                                                                  como: rol único, fecha de ingreso, tipo de causa, forma de inicio,
 
@@ -4303,11 +4365,15 @@ en lo Penal:                                                                    
                                                                  causas pertenecientes a otros tribunales, solo es posible consultar
                                                                  participantes y delitos.
 
-
 ## 4.4.5 Notificaciones
 
+**Definición Canónica:** Para realizar un adecuado control de las notificaciones de las personas
+                                                                 que deben venir a juicio y cuál fue el resultado de esa comunicación,
+                                                                 existe el submenú administrador de notificaciones, que tiene por
+                                                                 propósito entregar las herramientas necesarias para que el usuario
+                                                                 del tribunal pueda efectuar una correcta notificación a los partic
 
-                                                                 Para realizar un adecuado control de las notificaciones de las personas
+Para realizar un adecuado control de las notificaciones de las personas
                                                                  que deben venir a juicio y cuál fue el resultado de esa comunicación,
                                                                  existe el submenú administrador de notificaciones, que tiene por
                                                                  propósito entregar las herramientas necesarias para que el usuario
@@ -4362,10 +4428,13 @@ en lo Penal:                                                                    
                                                                  el Gran Concepción. En zonas más pequeñas, es un funcionario del
                                                                  tribunal quien realiza esta actividad.
 
-
 ## 4.4.6 Tramitación de solicitudes
 
-                                                                 Cuando las partes hacen solicitudes al tribunal mediante escritos
+**Definición Canónica:** Cuando las partes hacen solicitudes al tribunal mediante escritos
+                                                                 presentados vía atención de público (en forma digital, como ya se
+                                                                 indicó), se deben seguir los siguientes pasos:
+
+Cuando las partes hacen solicitudes al tribunal mediante escritos
                                                                  presentados vía atención de público (en forma digital, como ya se
                                                                  indicó), se deben seguir los siguientes pasos:
 
@@ -4397,10 +4466,15 @@ en lo Penal:                                                                    
                                                                  por el juez, si bien en algunos tribunales orales se ha definido que to-
                                                                  das o algunas resoluciones sean firmadas por los tres jueces de la sala.
 
-
 ## 4.4.7 Tramitación en audiencia
 
-                                                                 Los pasos previamente señalados son conducentes a la principal acti-
+**Definición Canónica:** Los pasos previamente señalados son conducentes a la principal acti-
+                                                                 vidad de un tribunal oral. Luego de recibir el documento del juzgado
+                                                                 de garantía (auto de apertura), de ingresarlo al tribunal, de que operen
+                                                                 todos los procesos administrativos relativos a la asignación de jueces
+                                                                 y de fecha, de notificar la fecha de juicio oral a los int
+
+Los pasos previamente señalados son conducentes a la principal acti-
                                                                  vidad de un tribunal oral. Luego de recibir el documento del juzgado
                                                                  de garantía (auto de apertura), de ingresarlo al tribunal, de que operen
                                                                  todos los procesos administrativos relativos a la asignación de jueces
@@ -4463,10 +4537,16 @@ en lo Penal:                                                                    
                                                                     teriormente remitir a las partes la sentencia completa vía correo
                                                                     electrónico automático del sistema.
 
-
 ## 4.4.8 Devolución de la causa al juzgado de garantía
 
-                                                                 Trascurrido el plazo legal (10 días luego de comunicada la sentencia),
+**Definición Canónica:** Trascurrido el plazo legal (10 días luego de comunicada la sentencia),
+                                                                 el jefe de Causas, o ministro de fe, procede a certificar en el registro
+                                                                 digital de la causa el estampado o certificado que da cuenta de no
+                                                                 haberse interpuesto recurso alguno. Con ese certificado, el juez presi-
+                                                                 dente procede a dictar la resolución que corresponda indi
+**Concordancias Legales:** Ley Nº 20.886
+
+Trascurrido el plazo legal (10 días luego de comunicada la sentencia),
                                                                  el jefe de Causas, o ministro de fe, procede a certificar en el registro
                                                                  digital de la causa el estampado o certificado que da cuenta de no
                                                                  haberse interpuesto recurso alguno. Con ese certificado, el juez presi-
@@ -4548,11 +4628,11 @@ en lo Penal:                                                           tribunal 
                                         Anexos
 Tribunales Orales                                                                  Anexos                                                            119
 
-
 ## 1. Manual de usuario software Audiograbber 1.81
 
+**Definición Canónica:** Índice
 
-                                                                  Índice
+Índice
 
                                                                   Software Audiograbber
 
@@ -4674,10 +4754,11 @@ en lo Penal:                                                           tribunal 
 
                                                                Nivel de Volumen Saturado (No Recomendado)
 
-
 ## Sección de nombre de archivo
 
-                                                               Esta sección está destinada para asignar un nombre al archivo MP3 que estamos creando.
+**Definición Canónica:** Esta sección está destinada para asignar un nombre al archivo MP3 que estamos creando.
+
+Esta sección está destinada para asignar un nombre al archivo MP3 que estamos creando.
 
                                                                En la sección “Artista”, se ingresa el primer parámetro del nombre del archivo, y en
                                                                la sección “Álbum”, la segunda parte del archivo, quedando dentro de la carpeta que
@@ -4697,11 +4778,15 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                Anexos                                                              125
 
-
 ## Sección ID3-TAG
 
+**Definición Canónica:** Esta sección, permite al encargado de actas, poder incluir información adicional al
+                                                               archivo MP3 creado. Al ejecutar el archivo con el programa “Windows Media Player”
+                                                               (ya instalado en los computadores de las salas de corte), veremos toda la información
+                                                               adicional que le asignemos a un archivo, por ejemplo:, fechas, números de causas,
+                                                               nombre de los 
 
-                                                               Esta sección, permite al encargado de actas, poder incluir información adicional al
+Esta sección, permite al encargado de actas, poder incluir información adicional al
                                                                archivo MP3 creado. Al ejecutar el archivo con el programa “Windows Media Player”
                                                                (ya instalado en los computadores de las salas de corte), veremos toda la información
                                                                adicional que le asignemos a un archivo, por ejemplo:, fechas, números de causas,
@@ -4716,10 +4801,13 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                Anexos                                                            126
 
-
 ## Sección de control de grabación
 
-                                                               En esta sección nos encontramos con los controles básicos de grabación, como son
+**Definición Canónica:** En esta sección nos encontramos con los controles básicos de grabación, como son
+                                                               el botón de Grabar, Detener, Abortar, Pausa y Corte, además de las pestañas de Brusco y
+                                                               Suave; Que a continuación serán descritas detalladamente:
+
+En esta sección nos encontramos con los controles básicos de grabación, como son
                                                                el botón de Grabar, Detener, Abortar, Pausa y Corte, además de las pestañas de Brusco y
                                                                Suave; Que a continuación serán descritas detalladamente:
 
@@ -4749,21 +4837,20 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                Anexos                                                           127
 
-
 ## Sección barra de estado
 
-                                                               En esta sección podremos presenciar todo lo que sucede al momento de estar grabando.
+**Definición Canónica:** En esta sección podremos presenciar todo lo que sucede al momento de estar grabando.
                                                                Presenta secciones bien diferenciadas, enunciadas a continuación:
 
-
-## Sección etiqueta id3
-
-                                                               No se utiliza debido a que está destinado a otra aplicación.
-
+En esta sección podremos presenciar todo lo que sucede al momento de estar grabando.
+                                                               Presenta secciones bien diferenciadas, enunciadas a continuación:
 
 ## Sección mezclador
 
-                                                               Esta sección del programa, es utilizada para controlar los niveles de entrada de se
+**Definición Canónica:** Esta sección del programa, es utilizada para controlar los niveles de entrada de se
+                                                               señal de audio.
+
+Esta sección del programa, es utilizada para controlar los niveles de entrada de se
                                                                señal de audio.
 
                                                                Anteriormente fue detallada la sección NIVEL DE VOLUMEN, la cual nos indicaba el
@@ -4772,17 +4859,22 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                               Anexos                                                           128
 
-
 ## Sección de opciones
 
-                                                               En esta sección no se ejecutará nada, ya que todo está pre-seteado. Es importante
+**Definición Canónica:** En esta sección no se ejecutará nada, ya que todo está pre-seteado. Es importante
                                                                recalcar que no se habilite ninguna de las funciones ya establecidas porque puede
                                                                producir un funcionamiento erróneo al software.
 
+En esta sección no se ejecutará nada, ya que todo está pre-seteado. Es importante
+                                                               recalcar que no se habilite ninguna de las funciones ya establecidas porque puede
+                                                               producir un funcionamiento erróneo al software.
 
 ## Sección cerrar
 
-                                                               Este botón nos indica que cerrar la opción de grabación por entrada de línea y Audio-
+**Definición Canónica:** Este botón nos indica que cerrar la opción de grabación por entrada de línea y Audio-
+                                                               grabber volverá a su pantalla inicial.
+
+Este botón nos indica que cerrar la opción de grabación por entrada de línea y Audio-
                                                                grabber volverá a su pantalla inicial.
 
 Tribunales Orales                                                                Anexos                                                                  129
@@ -4807,10 +4899,13 @@ en lo Penal:                                                           tribunal 
                                                                       C:\mis documentos\mp3 sesiones
                                                                       Aquí se encontraran todas las sesiones grabadas.
 
-
 ## 4.   En la sección de Barra de estado me aparece Grabar a archivo Wave, ¿Qué hago?
 
-                                                                    — Esto es debido a que no se ha seleccionado la opción MP3 en el menú principal, esto,
+**Definición Canónica:** — Esto es debido a que no se ha seleccionado la opción MP3 en el menú principal, esto,
+                                                                          se soluciona de la siguiente manera:
+Tribunales Orales                                                                 Anexos                                                             130
+
+— Esto es debido a que no se ha seleccionado la opción MP3 en el menú principal, esto,
                                                                           se soluciona de la siguiente manera:
 Tribunales Orales                                                                 Anexos                                                             130
 
@@ -4823,11 +4918,12 @@ en lo Penal:                                                           tribunal 
                                                                          — Luego, seleccionar la calidad de 24Kb/s, 11.025Hz Stereo.
                                                                          — Luego presionar Aceptar
 
-
 ## 5.   Definitivamente no puedo encontrar mis sesiones, ¿Qué hago?
 
+**Definición Canónica:** — Es posible que se encuentren en la carpeta que se describirá a continuación:
+                                                                      C:\Audiograbber
 
-                                                                    — Es posible que se encuentren en la carpeta que se describirá a continuación:
+— Es posible que se encuentren en la carpeta que se describirá a continuación:
                                                                       C:\Audiograbber
 
                                                                Ante cualquier comentario o consulta referente al software o al sistema de audio, no
@@ -4835,45 +4931,32 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                   Anexos                                                               131
 
-
-## 2. Propuesta de distribución de causas
-
-
-                                                                                                                         Santiago, XX de enero de 20XX.
-
-
-## Señores miembros del comite de jueces
-
-
-
 ## Xxxxxx tribunal de juicio oral en lo penal de santiago
 
+**Definición Canónica:** De conformidad con lo dispuesto en los artículos 15, 17 y 24 letra c) del Código Orgánico
+**Concordancias Legales:** artículos 15
 
-                                                                  De conformidad con lo dispuesto en los artículos 15, 17 y 24 letra c) del Código Orgánico
+De conformidad con lo dispuesto en los artículos 15, 17 y 24 letra c) del Código Orgánico
 
                                                                   de Tribunales, el Juez Presidente de este Tribunal viene en proponer a US. la siguiente:
 
-
-## Propuesta de procedimiento general y objetivo de distribución
-
-
-## De causas, conforme lo dispuesto en el artículo 17 del código
-
-
-## Orgánico de tribunales
-
-
-
 ## 1.   Siendo anual el procedimiento en cuestión, el que se aprueba rige desde el día
 
-                                                                        01 de enero del año en curso, hasta el 31 de diciembre de 20XX, teniendo por
+**Definición Canónica:** 01 de enero del año en curso, hasta el 31 de diciembre de 20XX, teniendo por
                                                                         finalidad esencial equiparar la carga de trabajo de cada uno de los jueces que
                                                                         conformen el Tribunal.
 
+01 de enero del año en curso, hasta el 31 de diciembre de 20XX, teniendo por
+                                                                        finalidad esencial equiparar la carga de trabajo de cada uno de los jueces que
+                                                                        conformen el Tribunal.
 
 ## 2.   Correspondiendo a los Tribunales de Juicio Oral en lo Penal ejercer sus
 
-                                                                        funciones en salas integradas por tres miembros, para la conformación de éstas
+**Definición Canónica:** funciones en salas integradas por tres miembros, para la conformación de éstas
+                                                                        la administración distinguirá entre la asignación de juez redactor, por un lado,
+                                                                        y jueces presidentes e integrantes, por otro.
+
+funciones en salas integradas por tres miembros, para la conformación de éstas
                                                                         la administración distinguirá entre la asignación de juez redactor, por un lado,
                                                                         y jueces presidentes e integrantes, por otro.
 
@@ -4914,10 +4997,12 @@ en lo Penal:                                                           tribunal 
                                                                     juez alterno en aquellos casos en que de manera excepcional se requiera su
                                                                     presencia en alguna audiencia de juicio oral.
 
-
 ## 3.   La subrogación de un juez redactor la asumirá aquel magistrado que designe el
 
-                                                                    administrador, que presente a la fecha de la asignación una menor carga de trabajo
+**Definición Canónica:** administrador, que presente a la fecha de la asignación una menor carga de trabajo
+                                                                    atendida su asistencia al Tribunal y que se encontrare “libre” de redacciones.
+
+administrador, que presente a la fecha de la asignación una menor carga de trabajo
                                                                     atendida su asistencia al Tribunal y que se encontrare “libre” de redacciones.
 
                                                                     Se procurará siempre que las redacciones sean asignadas a jueces de este Tribunal.
@@ -4937,10 +5022,14 @@ en lo Penal:                                                           tribunal 
                                                                     subrogar no estuviere cumpliendo ni debiere cumplir alguna de esas funciones
                                                                     en su tribunal.
 
-
 ## 4.   Si por cualquier motivo un juicio no se efectúa en la fecha prevista, se
 
-                                                                    mantendrá para el nuevo juicio la asignación del juez redactor, salvo que se
+**Definición Canónica:** mantendrá para el nuevo juicio la asignación del juez redactor, salvo que se
+                                                                    tratare de un subrogante y el titular estuviera en condiciones de ocupar el
+                                                                    lugar que inicialmente le correspondía de acuerdo con las reglas generales
+                                                                    establecidas en el apartado segundo.
+
+mantendrá para el nuevo juicio la asignación del juez redactor, salvo que se
                                                                     tratare de un subrogante y el titular estuviera en condiciones de ocupar el
                                                                     lugar que inicialmente le correspondía de acuerdo con las reglas generales
                                                                     establecidas en el apartado segundo.
@@ -4955,10 +5044,15 @@ en lo Penal:                                                           tribunal 
                                                                     trabajo del juez en el tribunal y, especialmente, la circunstancia de encontrarse
                                                                     o no privado de libertad alguno de los acusados en la causa.
 
-
 ## 5.   Así las cosas, cada juez sabrá de antemano en que juicio debe intervenir y cuál
 
-                                                                    es la labor específica que debe desempeñar. Cualquier cambio a dicho orden por
+**Definición Canónica:** es la labor específica que debe desempeñar. Cualquier cambio a dicho orden por
+                                                                    algún motivo de fuerza mayor será justificado por el Administrador, en su calidad
+                                                                    de encargado de la ejecución del presente Procedimiento, en una plantilla
+                                                                    electrónica que llevará personalmente al efecto y a la cual podrán acceder todos
+                                                                    los magistra
+
+es la labor específica que debe desempeñar. Cualquier cambio a dicho orden por
                                                                     algún motivo de fuerza mayor será justificado por el Administrador, en su calidad
                                                                     de encargado de la ejecución del presente Procedimiento, en una plantilla
                                                                     electrónica que llevará personalmente al efecto y a la cual podrán acceder todos
@@ -4970,24 +5064,27 @@ en lo Penal:                                                           tribunal 
                                                                     del libro de ingresos, que contendrá las menciones esenciales que le permitan
                                                                     determinar en qué juicio deberá intervenir y en qué calidad.
 
-
 ## 6.   En lo concerniente a la calidad de juez redactor, el sistema rotativo que se
 
-                                                                    implementa no considera de modo alguno criterios como el número de
+**Definición Canónica:** implementa no considera de modo alguno criterios como el número de
+                                                                    imputados, cantidad de prueba ofrecida en el auto apertura, pluralidad de delitos
+                                                                    materia de la acusación y/o tiempo aproximado de duración de la audiencia.
+
+implementa no considera de modo alguno criterios como el número de
                                                                     imputados, cantidad de prueba ofrecida en el auto apertura, pluralidad de delitos
                                                                     materia de la acusación y/o tiempo aproximado de duración de la audiencia.
 
 Tribunales Orales                                                                Anexos                                                                134
 
-
-## 7.   Para los efectos de la asignación de causas entre los distintos jueces el juicio
-
-                                                                    anulado se entenderá como un ingreso nuevo.
-
-
 ## 8.   A fin de asegurar la transparencia del procedimiento, los autos de apertura
 
-                                                                    de juicio oral serán rescatados del sistema informático, por la Unidad de
+**Definición Canónica:** de juicio oral serán rescatados del sistema informático, por la Unidad de
+                                                                    Administración de Causas del Tribunal y bajo la directa responsabilidad del jefe
+                                                                    de la misma, en el más breve plazo posible, desde que fueren remitidos. Entre los
+                                                                    antecedentes que se le presenten al juez presidente de sala para proveer dicha
+                                                                    resolución s
+
+de juicio oral serán rescatados del sistema informático, por la Unidad de
                                                                     Administración de Causas del Tribunal y bajo la directa responsabilidad del jefe
                                                                     de la misma, en el más breve plazo posible, desde que fueren remitidos. Entre los
                                                                     antecedentes que se le presenten al juez presidente de sala para proveer dicha
@@ -5004,10 +5101,15 @@ en lo Penal:                                                           tribunal 
                                                                     alguna de ellas o ambas a la vez, con el acuerdo de la mayoría de los jueces que
                                                                     deban conocer del juicio.
 
-
 ## 9.   En caso de que otro Tribunal de Juicio Oral en lo Penal (o bien el Coordinador
 
-                                                                    del Centro de Justicia), solicite un subrogante de este Tribunal, corresponderá
+**Definición Canónica:** del Centro de Justicia), solicite un subrogante de este Tribunal, corresponderá
+                                                                    al Administrador determinar qué juez deberá concurrir, de entre quienes no
+                                                                    se encuentren integrando una sala y siempre que ello no afecte el normal
+                                                                    funcionamiento del Tribunal. Las subrogaciones solicitadas por otro Tribunal
+                                                                    o por la Coordinación d
+
+del Centro de Justicia), solicite un subrogante de este Tribunal, corresponderá
                                                                     al Administrador determinar qué juez deberá concurrir, de entre quienes no
                                                                     se encuentren integrando una sala y siempre que ello no afecte el normal
                                                                     funcionamiento del Tribunal. Las subrogaciones solicitadas por otro Tribunal
@@ -5032,10 +5134,15 @@ en lo Penal:                                                           tribunal 
                                                                    redactores, aquellos jueces que en el periodo a evaluar tengan una menor carga
                                                                    de trabajo, atendida su presencia en el Tribunal.
 
-
 ## 10. Con la misma finalidad de propender al equilibrio en la carga de trabajo entre
 
-                                                                   los jueces del Tribunal, tanto durante los meses de marzo y abril como en los
+**Definición Canónica:** los jueces del Tribunal, tanto durante los meses de marzo y abril como en los
+                                                                   meses de septiembre y octubre, al programar las audiencias la administración
+                                                                   dará preferencia a aquellos jueces que -para los efectos de sus calificaciones-
+                                                                   tengan un desempeño inferior al promedio atendida su presencia en el
+                                                                   Tribunal y la función especí
+
+los jueces del Tribunal, tanto durante los meses de marzo y abril como en los
                                                                    meses de septiembre y octubre, al programar las audiencias la administración
                                                                    dará preferencia a aquellos jueces que -para los efectos de sus calificaciones-
                                                                    tengan un desempeño inferior al promedio atendida su presencia en el
@@ -5045,10 +5152,15 @@ en lo Penal:                                                           tribunal 
 
                                                                    siempre que manifieste de manera expresa su conformidad con ello.
 
-
 ## 11. Los exhortos que ingresen serán tramitados en forma rotativa por cada uno
 
-                                                                   de los jueces del Tribunal, según el número que hayan obtenido en el sorteo
+**Definición Canónica:** de los jueces del Tribunal, según el número que hayan obtenido en el sorteo
+                                                                   respectivo, comenzando por el número 1 y hasta llegar al X, para luego
+                                                                   comenzar una segunda ronda en los mismos términos. En caso de ausencia
+                                                                   del juez llamado a conocer del asunto, lo subrogará aquel que le suceda en el
+                                                                   orden numérico antes señalado y en c
+
+de los jueces del Tribunal, según el número que hayan obtenido en el sorteo
                                                                    respectivo, comenzando por el número 1 y hasta llegar al X, para luego
                                                                    comenzar una segunda ronda en los mismos términos. En caso de ausencia
                                                                    del juez llamado a conocer del asunto, lo subrogará aquel que le suceda en el
@@ -5056,10 +5168,15 @@ en lo Penal:                                                           tribunal 
                                                                    el mismo procedimiento de manera sucesiva, cuantas veces sea necesario,
                                                                    hasta que el asunto sea tramitado por alguno de los jueces del Tribunal.
 
-
 ## 12. La providencia del auto de apertura de juicio oral será dictada por el Juez
 
-                                                                   Presidente de Sala, al igual que las resoluciones de mero trámite que se
+**Definición Canónica:** Presidente de Sala, al igual que las resoluciones de mero trámite que se
+                                                                   requieran en esa causa. En caso de ausencia, las realizará el juez redactor, a
+                                                                   falta de ambos el que oficia de tercero integrante, a falta de estos, el Juez que
+                                                                   se encuentre de turno semanal en el Tribunal. Finalmente, si no fuera posible
+                                                                   ninguna de las alter
+
+Presidente de Sala, al igual que las resoluciones de mero trámite que se
                                                                    requieran en esa causa. En caso de ausencia, las realizará el juez redactor, a
                                                                    falta de ambos el que oficia de tercero integrante, a falta de estos, el Juez que
                                                                    se encuentre de turno semanal en el Tribunal. Finalmente, si no fuera posible
@@ -5078,33 +5195,47 @@ en lo Penal:                                                           tribunal 
                                                                    Cuando hubiere un Juez suplente en reemplazo de un titular, este asumirá la
                                                                    firma de las resoluciones que correspondan al titular que subroga.
 
-
 ## 13. Los órdenes de prelación establecidos en el acápite 11 y en el párrafo primero
 
-                                                                   del número que antecede sólo serán alterados los días sábado, ocasión en la cual
+**Definición Canónica:** del número que antecede sólo serán alterados los días sábado, ocasión en la cual
                                                                    las tramitaciones respectivas serán de cargo del juez que se encuentre de turno.
 
+del número que antecede sólo serán alterados los días sábado, ocasión en la cual
+                                                                   las tramitaciones respectivas serán de cargo del juez que se encuentre de turno.
 
 ## 14. Si durante el periodo de vigencia del presente acuerdo, con ocasión de nuevos
 
-                                                                   nombramientos, se produjera un aumento en el número de jueces, al (a los)
+**Definición Canónica:** nombramientos, se produjera un aumento en el número de jueces, al (a los)
                                                                    recién llegado(s) le(s) corresponderá(n) el (los) número(s) XX y siguientes, en
                                                                    su caso.
 
+nombramientos, se produjera un aumento en el número de jueces, al (a los)
+                                                                   recién llegado(s) le(s) corresponderá(n) el (los) número(s) XX y siguientes, en
+                                                                   su caso.
 
 ## 15. Se propenderá a que las audiencias más breves, tales como: revisión de
 
-                                                                   medidas cautelares, sobreseimientos, sean asumidas por la misma sala a la
+**Definición Canónica:** medidas cautelares, sobreseimientos, sean asumidas por la misma sala a la
+                                                                   que le corresponda o le haya correspondido la realización del juicio oral y
+                                                                   sus integrantes conservarán el mismo rol que debieren cumplir en dicha
+                                                                   audiencia principal, salvo que sus integrantes no se encuentren en servicio o
+                                                                   en audiencias prolongadas, que no
+
+medidas cautelares, sobreseimientos, sean asumidas por la misma sala a la
                                                                    que le corresponda o le haya correspondido la realización del juicio oral y
                                                                    sus integrantes conservarán el mismo rol que debieren cumplir en dicha
                                                                    audiencia principal, salvo que sus integrantes no se encuentren en servicio o
                                                                    en audiencias prolongadas, que notoriamente retarden esta audiencia, en cuyo
                                                                    caso operará la subrogación establecida en el numeral 3 de este Procedimiento.
 
-
 ## 16. Los magistrados del Tribunal deberán abstenerse de introducir modificaciones
 
-                                                                   a la agenda confeccionada por el administrador en conformidad a las reglas
+**Definición Canónica:** a la agenda confeccionada por el administrador en conformidad a las reglas
+                                                                   que anteceden. En caso de inobservancia de esta regla por los señores jueces
+                                                                   el Administrador dará cuenta de lo sucedido al Juez Presidente del Comité de
+                                                                   jueces y si la infracción la cometiere éste a quien lo subrogue en dicho cargo.
+
+a la agenda confeccionada por el administrador en conformidad a las reglas
                                                                    que anteceden. En caso de inobservancia de esta regla por los señores jueces
                                                                    el Administrador dará cuenta de lo sucedido al Juez Presidente del Comité de
                                                                    jueces y si la infracción la cometiere éste a quien lo subrogue en dicho cargo.
@@ -5117,20 +5248,29 @@ en lo Penal:                                                           tribunal 
                                                                    del Comité de jueces, órgano que tendrá dichas consideraciones en cuenta al
                                                                    momento de emitir su informe respecto de las calificaciones del administrador.
 
-
 ## 17. Las dificultades de interpretación que a la administración suscite la aplicación
 
-                                                                   de este Procedimiento General y Objetivo, serán resueltas por el Comité
+**Definición Canónica:** de este Procedimiento General y Objetivo, serán resueltas por el Comité
+                                                                   de Jueces. Las controversias de interpretación que se susciten entre el
+                                                                   administrador y alguno de los jueces y las que se susciten entre algunos de
+                                                                   estos últimos, serán resueltas por este mismo órgano.
+
+de este Procedimiento General y Objetivo, serán resueltas por el Comité
                                                                    de Jueces. Las controversias de interpretación que se susciten entre el
                                                                    administrador y alguno de los jueces y las que se susciten entre algunos de
                                                                    estos últimos, serán resueltas por este mismo órgano.
 
 Tribunales Orales                                                               Anexos                                                          137
 
-
 ## 18. Toda sala que dicte una resolución será responsable de los efectos que esta
 
-                                                                   produzca, incluso fuera del horario normal de funcionamiento del Tribunal.
+**Definición Canónica:** produzca, incluso fuera del horario normal de funcionamiento del Tribunal.
+                                                                   No corresponde a otros magistrados resolver cuestiones que hayan sido objeto
+                                                                   de debate y resolución por cualquier sala de este Tribunal, debiendo, si es que
+                                                                   existe algún inconveniente en las resoluciones dictadas, ser llamados para su
+                                                                   solución los mismos ju
+
+produzca, incluso fuera del horario normal de funcionamiento del Tribunal.
                                                                    No corresponde a otros magistrados resolver cuestiones que hayan sido objeto
                                                                    de debate y resolución por cualquier sala de este Tribunal, debiendo, si es que
                                                                    existe algún inconveniente en las resoluciones dictadas, ser llamados para su
@@ -5138,11 +5278,12 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                    Anexos                                                              138
 
-
 ## 3. Resolución que fija fecha de juicio
 
+**Definición Canónica:** Santiago, XX de (mes) de dos mil (año).
+**Concordancias Legales:** artículos 29; artículo 33 del Código
 
-                                                                   Santiago, XX de (mes) de dos mil (año).
+Santiago, XX de (mes) de dos mil (año).
 
                                                                    Por recibido auto de apertura de juicio oral procedente del XX° Juzgado de Garantía
                                                                    de (ciudad).
@@ -5180,11 +5321,12 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                Anexos                                                             139
 
-
 ## Rit 0 - 2021
 
+**Definición Canónica:** Resolución dictada por doña (nombre Juez 1), Juez presidente de sala del Tribunal
+                                                               de Juicio Oral en lo Penal de (ciudad).
 
-                                                               Resolución dictada por doña (nombre Juez 1), Juez presidente de sala del Tribunal
+Resolución dictada por doña (nombre Juez 1), Juez presidente de sala del Tribunal
                                                                de Juicio Oral en lo Penal de (ciudad).
 
                                                                En Santiago, a XX de (mes) de dos mil (año), notifiqué por el estado diario la presente
@@ -5194,11 +5336,15 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                    Anexos                                                         140
 
-
 ## 4. Certificado de ejecutoria
 
+**Definición Canónica:** CERTIFICO: Que el plazo establecido en el artículo 372, inciso segundo del Código
+                                                                   Procesal Penal se encuentra vencido y que los intervinientes no presentaron recurso
+                                                                   de nulidad en contra del Juicio Oral o sentencia definitiva en causa RIT 1-2021, RUC
+                                                                                   2100000000-0. (ciudad), X de (mes) de dos mil (año).
+**Concordancias Legales:** artículo 372
 
-                                                                   CERTIFICO: Que el plazo establecido en el artículo 372, inciso segundo del Código
+CERTIFICO: Que el plazo establecido en el artículo 372, inciso segundo del Código
                                                                    Procesal Penal se encuentra vencido y que los intervinientes no presentaron recurso
                                                                    de nulidad en contra del Juicio Oral o sentencia definitiva en causa RIT 1-2021, RUC
                                                                                    2100000000-0. (ciudad), X de (mes) de dos mil (año).
@@ -5209,23 +5355,12 @@ en lo Penal:                                                           tribunal 
 
 Tribunales Orales                                                                   Anexos                                                             141
 
-
-## 5. Modelo de resolución de exhorto
-
-
-                                                                  (ciudad), XX de (mes) de dos mil (año).
-
-                                                                  Cúmplase, diligenciado devuélvase.
-
-
-## Exhorto rit           0 - 2021
-
-
-
 ## Ruc:              2000000000-0
 
+**Definición Canónica:** Resolución dictada por doña xxxxxxxxxxxxxxxxxx, Juez Titular del Tribunal de Juicio
+                                                                  Oral en lo Penal de (ciudad).
 
-                                                                  Resolución dictada por doña xxxxxxxxxxxxxxxxxx, Juez Titular del Tribunal de Juicio
+Resolución dictada por doña xxxxxxxxxxxxxxxxxx, Juez Titular del Tribunal de Juicio
                                                                   Oral en lo Penal de (ciudad).
 
                                                                   En Santiago, a XX de (mes) de dos mil (año), notifiqué por el estado diario, la resolu-
@@ -5244,10 +5379,16 @@ en lo Penal:                                                         tribunal or
 
                                         Bibliografía
 
-
 ## Capítulo 1                                                    4.   CHAHUÁN SARRÁS, Sabas: Manual del Nuevo
 
-                                                                                                           Procedimiento Penal, 8ª edición. Editorial Thom-
+**Definición Canónica:** Procedimiento Penal, 8ª edición. Editorial Thom-
+                                        1.   HORVITZ LENNON, María Inés y LÓPEZ MASLE,                     son Reuters, 2019.
+                                             Julián: Derecho Procesal Penal Chileno. Principios,
+                                             sujetos procesales, medidas cautelares, etapa de         5.   MATURANA MIQUEL, Cristián y MONTERO
+                                             la investigación. Tomo I. Editorial Jurídica de Chile,        LÓPEZ, Raúl: Derecho Procesal Penal Tomo I. Edi-
+                             
+
+Procedimiento Penal, 8ª edición. Editorial Thom-
                                         1.   HORVITZ LENNON, María Inés y LÓPEZ MASLE,                     son Reuters, 2019.
                                              Julián: Derecho Procesal Penal Chileno. Principios,
                                              sujetos procesales, medidas cautelares, etapa de         5.   MATURANA MIQUEL, Cristián y MONTERO
@@ -5261,65 +5402,62 @@ en lo Penal:                                                         tribunal or
 
 ## 7.   ORELLANA TORRES, Fernando: Manual de Dere-
 
+**Definición Canónica:** 3.   ORTIZ SCHINDLER, Enrique y MEDINA RAMÍREZ,                    cho Procesal Tomo V. Editorial Librotecnia, 2009.
+                                             Marco Antonio: Manual del Nuevo Proceso Penal.
+                                             Editorial Maximiliano Kolbe, 2006.                       8.   SILVA MONTES, Rodrigo: Manual de Procedi-
+                                                                                                           miento Penal, 4ª edición. Editorial Jurídica de
+                                                                                       
 
-                                        3.   ORTIZ SCHINDLER, Enrique y MEDINA RAMÍREZ,                    cho Procesal Tomo V. Editorial Librotecnia, 2009.
+3.   ORTIZ SCHINDLER, Enrique y MEDINA RAMÍREZ,                    cho Procesal Tomo V. Editorial Librotecnia, 2009.
                                              Marco Antonio: Manual del Nuevo Proceso Penal.
                                              Editorial Maximiliano Kolbe, 2006.                       8.   SILVA MONTES, Rodrigo: Manual de Procedi-
                                                                                                            miento Penal, 4ª edición. Editorial Jurídica de
                                                                                                            Chile, 2018.
 
-## Capítulo 2
-
-
-## 1.   BINDER, Alberto: Introducción al Derecho Proce-          Capítulo 4
-
-                                             sal Penal. Ad-hoc, Buenos Aires, 1999.
-
 ## 1.   OBERG YÁÑEZ, Héctor: “Juzgados de Garantía y
 
-                                        2.   CHAHUAN, Sabas: Manual del Nuevo Procedi-                     Tribunales de Juicio Oral”, en Revista de Derecho
+**Definición Canónica:** 2.   CHAHUAN, Sabas: Manual del Nuevo Procedi-                     Tribunales de Juicio Oral”, en Revista de Derecho
+                                             miento Penal. Conosur, 2002.                                  (Universidad de Concepción) N° 206; pp. 25-35.
+
+2.   CHAHUAN, Sabas: Manual del Nuevo Procedi-                     Tribunales de Juicio Oral”, en Revista de Derecho
                                              miento Penal. Conosur, 2002.                                  (Universidad de Concepción) N° 206; pp. 25-35.
 
                                         3.   HORVITZ LENNON, María Inés y LÓPEZ MASLE,                2.   BLANCO SUÁREZ, Rafael: Código Procesal Penal
                                              Julián: Derecho Procesal Penal Chileno. Tomo I y              Sistematizado con Jurisprudencia. Editorial Me-
                                              Tomo II. Editorial Jurídica de Chile, 2005.                   tropolitana, 2017.
 
-
 ## 4.   NÚÑEZ VÁSQUEZ, Juan Cristóbal: Tratado del               3.   MATURANA        MIQUEL, Cristián  y MONTERO
 
-                                             Proceso Penal y del Juicio Oral. Tomo I y Tomo 2.             LÓPEZ, Raúl: Derecho Procesal Penal Tomo I. Edi-
+**Definición Canónica:** Proceso Penal y del Juicio Oral. Tomo I y Tomo 2.             LÓPEZ, Raúl: Derecho Procesal Penal Tomo I. Edi-
                                              Editorial Jurídica de Chile, 2001.                            torial Abeledo Perrot, 2010.
 
+Proceso Penal y del Juicio Oral. Tomo I y Tomo 2.             LÓPEZ, Raúl: Derecho Procesal Penal Tomo I. Edi-
+                                             Editorial Jurídica de Chile, 2001.                            torial Abeledo Perrot, 2010.
 
 ## 5.   ORTIZ SCHINDLER, Enrique y MEDINA RAMÍREZ,               4.   ORELLANA TORRES, Fernando: Manual de De-
 
-                                             Marco Antonio: Manual del Nuevo Proceso Penal.                recho Procesal Tomo V. Editorial Metropolitana,
+**Definición Canónica:** Marco Antonio: Manual del Nuevo Proceso Penal.                recho Procesal Tomo V. Editorial Metropolitana,
                                              Editorial Maximiliano Kolbe, 2006.                            2018.
 
-
-## Capítulo 3
-
+Marco Antonio: Manual del Nuevo Proceso Penal.                recho Procesal Tomo V. Editorial Metropolitana,
+                                             Editorial Maximiliano Kolbe, 2006.                            2018.
 
 ## 1.   BORDALÍ SALAMANCA, Andrés (2009): “Orga-
 
-                                             nización judicial en el derecho chileno: un poder
+**Definición Canónica:** nización judicial en el derecho chileno: un poder
                                              fragmentado”, en Revista Chilena de Derecho Vol.
                                              36 N° 2; pp. 215-244.
 
-
-## 2.   BLANCO SUAREZ, Rafael: Código Procesal Penal
-
-                                             sistematizado con jurisprudencia. Editorial Me-
-                                             tropolitana, 2017.
-
-
-## 3.   EVANS DE LA CUADRA, Enrique: Los derechos
-
-                                             fundamentales Tomo II, 3ª edición. Editorial Jurí-
-                                             dica de Chile, 2004.
-←   Índice de contenidos
+nización judicial en el derecho chileno: un poder
+                                             fragmentado”, en Revista Chilena de Derecho Vol.
+                                             36 N° 2; pp. 215-244.
 
 ## Serie de
+
+**Definición Canónica:** Tribunales Orales                                   1.     DOCUMENTOS
+en lo Penal:                                               145
+nociones básicas                                           MATERIALES
+de organización                                            DOCENTES
 
 Tribunales Orales                                   1.     DOCUMENTOS
 en lo Penal:                                               145

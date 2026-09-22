@@ -13,11 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## La propiedad1
-
-
-
 ## Sumario: Introducción. 1.- Dominio y propiedad. 2.- Definiciones. 3.- Principios acerca
+
+**Definición Canónica:** de la propiedad, consagrados en la Constitución Política de la República. 4.-
+Características. 5.- Evolución histórica del derecho de propiedad. 6.- Formas de
+propiedad. 7.- Facultades inherentes al dominio. 7.1. Facultades materiales. 7.2.
+Facultades jurídicas. 8.- Contenido pasivo del derecho de propiedad. 8.1. Las
+obligaciones reales. 8.2. Las cargas reales. 8.3. Responsabilidad por la propiedad. 9.-
+Objeto del dominio. 10.- Diversas clases de propiedad. 11.- Extinción de la propiedad.
+**Concordancias Legales:** Constitución Política
 
 de la propiedad, consagrados en la Constitución Política de la República. 4.-
 Características. 5.- Evolución histórica del derecho de propiedad. 6.- Formas de
@@ -27,6 +31,10 @@ obligaciones reales. 8.2. Las cargas reales. 8.3. Responsabilidad por la propied
 Objeto del dominio. 10.- Diversas clases de propiedad. 11.- Extinción de la propiedad.
 
 ## 11.1. Extinción por adquirir la propiedad otra persona. 11.2. Extinción sin que se
+
+**Definición Canónica:** adquiera la propiedad por otra persona. 11.3. Extinción por la voluntad del propietario.
+11.4. Extinción sin mediar voluntad del propietario.
+**Concordancias Legales:** artículo 19; Artículo 923; artículo 10; artículo 2178; artículo 8; artículo 2; Ley N° 1.939; Ley N° 19.300; Ley Nº 2.186; Ley Nº 16.615; Ley N° 17.336; Constitución Política; constitucion; Constitución
 
 adquiera la propiedad por otra persona. 11.3. Extinción por la voluntad del propietario.
 11.4. Extinción sin mediar voluntad del propietario.
@@ -670,6 +678,13 @@ quiritario, la transferencia del dominio se hacía por medio de la mancipatio, q
 
 ## título traslaticio y tradición a la vez, lo que implicaba que no podía celebrarla quien no
 
+**Definición Canónica:** era dueño de la cosa.
+        Será al amparo del ius gentium, que aparecerá, junto al derecho formal de
+propiedad, una propiedad de hecho, tutelada por el pretor (propiedad bonitaria o
+vulgar). En el ámbito de esta propiedad, el pretor crea el contrato de compraventa, en
+el cual no se exigía que el vendedor fuere dueño de la cosa vendida. El vendedor no
+**Concordancias Legales:** Artículo 1; artículos 582; Artículo 42; Ley Nº 17.288; Ley Nº 20.930; Ley N° 18.101; Ley N° 19.496; Ley N° 2.222; Constitución Política; constitucion; constitución
+
 era dueño de la cosa.
         Será al amparo del ius gentium, que aparecerá, junto al derecho formal de
 propiedad, una propiedad de hecho, tutelada por el pretor (propiedad bonitaria o
@@ -1302,6 +1317,16 @@ unilateral. Para que se produzca la pérdida del derecho de propiedad, basta la 
 de una sola persona: la del propietario renunciante, no es necesaria aceptación por
 
 ## parte de nadie. Se trata además de un negocio jurídico unilateral no recepticio. No es
+
+**Definición Canónica:** menester que la declaración de voluntad sea recibida por otra persona, porque no
+tiene ningún destinatario determinado”.28
+        A su vez, como hemos adelantado, pareciera que sólo cabe el abandono
+tratándose de cosas muebles y de inmuebles no inscritos, pues si el bien raíz está
+inscrito, la sola circunstancia de que el propietario “abandone” el predio no supone que
+por ese sólo hecho pase al patrimonio del Estado. En otras palabras, mientras subsista
+la inscripción a favor de quien “abandona” el inmueble, no podría entenderse que ha
+operado lo dispuesto en el art. 590 del Código Civil. Per
+**Concordancias Legales:** Ley N° 1.939; Ley N° 21.772; Ley N° 18.290; Ley Nº 21.020; Ley N° 2.695; constitución
 
 menester que la declaración de voluntad sea recibida por otra persona, porque no
 tiene ningún destinatario determinado”.28
@@ -2160,6 +2185,10 @@ posible, ya que lo admite el Código para la comunidad de la pared medianera (ar
 
 ## 858.2 CC). La renuncia, sin embargo, no permitirá liberarse de obligaciones que ya
 
+**Definición Canónica:** han nacido, sino sólo eximirse de obligaciones que nazcan después de la renuncia. Si
+esto fuera considerado aún excesivamente perjudicial, podría utilizarse la teoría del
+**Concordancias Legales:** artículo 12 del Código Civil; artículo 728; artículo 52; artículo 590; artículo 26; artículos 27; artículos 19; artículo 11; artículo 590 del Código Civil; artículo 58 del Reglamento del Registro Conservatorio de Bien; artículo 58; artículo 693 del Código Civil; Ley N° 1.939; Ley N° 2.695; Ley N° 21.442; D.L. N° 1.939; constitución; Constitución Política
+
 han nacido, sino sólo eximirse de obligaciones que nazcan después de la renuncia. Si
 esto fuera considerado aún excesivamente perjudicial, podría utilizarse la teoría del
 
@@ -2392,12 +2421,16 @@ la suma de dinero necesaria para enterarlas.
 este último caso, por ejemplo, en el ámbito de la Ley N° 21.442, Ley de Copropiedad
 Inmobiliaria).
 
-
-## La copropiedad
-
-
-
 ## Sumario: 1.- Generalidades. 2.- Definición de comunidad y de copropiedad. 3.-
+
+**Definición Canónica:** Naturaleza jurídica de la copropiedad. 4.- Tipos de comunidad. 5.- La comunidad en el
+Código Civil Chileno. 6.- Fuentes de la indivisión. 7.- Clases de indivisión. 8.- Derechos
+de los copropietarios. 9.- La coposesión. 10.- La Copropiedad Inmobiliaria: Ley N°
+21.442. 10.1. De la naturaleza jurídica de los condominios. 10.2. Bienes que
+configuran un condominio. 10.3. Tipos de condominios. 10.4. Derechos, obligaciones y
+limitaciones de los copropietarios. 10.5. Del reglamento de copropiedad. 10.6. De la
+administración de las copropiedades. 11.- Extinción de la comunidad. Cuestionario.
+**Concordancias Legales:** artículos 2304; artículo 2081; Ley N° 21.442; Ley Nº 21.442
 
 Naturaleza jurídica de la copropiedad. 4.- Tipos de comunidad. 5.- La comunidad en el
 Código Civil Chileno. 6.- Fuentes de la indivisión. 7.- Clases de indivisión. 8.- Derechos
@@ -2728,6 +2761,16 @@ universalidad se aplica o imprime en cada uno de los bienes que la integran y en
 
 ## parte de ellos (así, si en la comunidad existe un inmueble y un automóvil, cada
 
+**Definición Canónica:** comunero tiene una cuota en uno y otro bien); y, por otro lado, recíprocamente,
+significa que la naturaleza de los bienes queda impresa o se refleja en la cuota, de
+modo que la naturaleza de ésta será la que tengan aquellos. Así, si en la comunidad
+sólo existen muebles, la cuota es mueble; si sólo hay inmuebles, la cuota será
+inmueble. La dificultad surge cuando hay bienes de ambas clases.
+         ¿Acogió el Código Civil la comunicación entre la cuota y los bienes? Para la
+doctrina nacional dominante, la respuesta es negativa: vale decir, nuevamente nuestro
+Código Civil se habría apartado de 
+**Concordancias Legales:** artículo 655 del Código de Procedimiento Civil establece que p; Ley N° 21.442
+
 comunero tiene una cuota en uno y otro bien); y, por otro lado, recíprocamente,
 significa que la naturaleza de los bienes queda impresa o se refleja en la cuota, de
 modo que la naturaleza de ésta será la que tengan aquellos. Así, si en la comunidad
@@ -3050,6 +3093,9 @@ ocupantes de una unidad a cualquier título).
         Las limitaciones o restricciones recaen sobre las personas que, a cualquier
 
 ## título, ocupen las unidades, sean copropietarios, o titulares de otros derechos reales o
+
+**Definición Canónica:** titulares de derechos personales.
+**Concordancias Legales:** artículo 8; Ley N° 21.442; Constitución Política
 
 titulares de derechos personales.
 

@@ -13,20 +13,21 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 50           Atención
-
-             de usuarios
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             en situaciones
+                  electrónica
+             complejas    y
+                  de causas
+                             de
+             vulnerabilidad
+             Mario Alruiz Valenzuela
+             Jaime Cruces Neira
+             Nelson Lorca Poblete
+             Juan Orlando Villalón Cabezas
 
-                  Tramitación
+Tramitación
              en situaciones
                   electrónica
              complejas    y
@@ -107,42 +108,10 @@ molestos o enojados, la comunicación efectiva y el uso del
 lenguaje claro y no sexista en el Poder Judicial.
 Contenido
 
-
-## 5     Capítulo 1
-
-      El Poder Judicial como servicio a los usuarios
-
-## 27    Capítulo 2
-
-      Acceso a la justicia
-
-## 32    Capítulo 3
-
-      Concepto de atención de usuarias y usuarios
-
-## 38    Capítulo 4
-
-      Política de atención de usuarios
-
-## 50    Capítulo 5
-
-      Concepto de usuarios y usuarias en situaciones
-      complejas o de vulnerabilidad
-
-## 90    Capítulo 6
-
-      Usuarios en situaciones complejas
-
-## 101   Capítulo 7
-
-      Comunicación efectiva
-
-## 111   Referencias
-
-Materiales Docentes                                                        Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** El Poder Judicial como servicio a los usuarios
+**Concordancias Legales:** artículo 76 de la Constitución Política de la República de 1980; artículo 4 del Código Orgánico de Tribunales; artículo 76 de la Carta Fundamental; artículo 16; Artículo 520; artículo 166 del Código de Procedimiento Civil; artículo 500 del Código Orgánico de Tribunales; artículo 595 del Código Orgánico de Tribunales; artículo 455 del Código Orgánico de Tribunales y de dar a las; Ley 19.968; Ley 17.322; Ley 20.022; Ley 20.052; Ley 20.285; Ley 20.880; Constitución; Constitución Política; constitucion
 
 El Poder Judicial como servicio a los usuarios
 
@@ -855,8 +824,9 @@ estas a las usuarias y los usuarios en situaciones complejas o vulnerables
 
 Materiales Docentes                                                        Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Acceso a la justicia
 
 Acceso a la justicia
 
@@ -1010,8 +980,10 @@ donde la ciudadanía nos requiera y seamos necesarios».
 
 Materiales Docentes                                                    Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Concepto de atención de usuarias y usuarios
+**Concordancias Legales:** artículo 33
 
 Concepto de atención de usuarias y usuarios
 
@@ -1222,8 +1194,10 @@ siguientes sistemas.
 
 Materiales Docentes                                                        Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Política de atención de usuarios
+**Concordancias Legales:** Constitución
 
 Política de atención de usuarios
 
@@ -1454,19 +1428,15 @@ funcionarios y funcionarias, que son las mismas bajo la modalidad presencial com
 Academia Judicial de Chile                                 Atención de usuarios en situaciones complejas
 Materiales Docentes                                                                            Capítulo 4
 
-
-## Protocolo
-
-
-
-## Atención telefónica
-
-                            Recomendaciones para una atención telefónica eficaz
-
-
 ## 1   SALUDAR AMABLEMENTE al contestar
 
-               la llamada. IDENTIFICARSE con el
+**Definición Canónica:** la llamada. IDENTIFICARSE con el
+               nombre y/o con el juzgado/tribunal.                Tratar con RESPETO al usuario/a.
+                                                                  Tratar por el nombre y/o tratar de “usted”,
+                                                                  sin distraer la atención con otras
+                                                                  actividades.
+
+la llamada. IDENTIFICARSE con el
                nombre y/o con el juzgado/tribunal.                Tratar con RESPETO al usuario/a.
                                                                   Tratar por el nombre y/o tratar de “usted”,
                                                                   sin distraer la atención con otras
@@ -1697,14 +1667,11 @@ Materiales Docentes                                                             
 Academia Judicial de Chile                                    Atención de usuarios en situaciones complejas
 Materiales Docentes                                                                               Capítulo 4
 
-
-## Protocolo
-
-
-
 ## Atención video llamada
 
-                                          ¡Primero prepara tu video llamada!
+**Definición Canónica:** ¡Primero prepara tu video llamada!
+
+¡Primero prepara tu video llamada!
 
              Verifica primero el correcto funcionamiento de     Debes presentarte al inicio de la atención por video
              la plataforma (cámara y micrófono).                llamada.
@@ -1720,20 +1687,33 @@ Materiales Docentes                                                             
                                                                se requiera mantener el micrófono activado.
              opcionalmente un fondo virtual corporativo.
 
-
 ## 1 saludar
 
-                                                                    Tratar con RESPETO al usuario/a.
+**Definición Canónica:** Tratar con RESPETO al usuario/a.
                          AMABLEMENTE al contestar
              la video llamada. IDENTIFICARSE con el
                                                                     Tratar por el nombre y/o tratar de “usted”,
                                                                     sin distraer la atención con otras
                nombre y/o con el juzgado/tribunal.                  actividades.
 
+Tratar con RESPETO al usuario/a.
+                         AMABLEMENTE al contestar
+             la video llamada. IDENTIFICARSE con el
+                                                                    Tratar por el nombre y/o tratar de “usted”,
+                                                                    sin distraer la atención con otras
+               nombre y/o con el juzgado/tribunal.                  actividades.
 
 ## 3 Recordar que es una VIDEO LLAMADA. Si
 
-             es necesario revisar el uso básico de la
+**Definición Canónica:** es necesario revisar el uso básico de la
+                                                                    Preguntar EN QUÉ LO PUEDO AYUDAR,
+                                                                    escuchar con atención, manteniendo un         4
+               plataforma (micrófono y cámara), y                   trato     igualitario   (género,      edad,
+               recordarle al usuario/a la existencia de los         nacionalidad, condición física, etc.)
+               otros canales de atención.
+                                                                    Entregar ORIE
+
+es necesario revisar el uso básico de la
                                                                     Preguntar EN QUÉ LO PUEDO AYUDAR,
                                                                     escuchar con atención, manteniendo un         4
                plataforma (micrófono y cámara), y                   trato     igualitario   (género,      edad,
@@ -1743,16 +1723,21 @@ Materiales Docentes                                                             
 
 ## 5 Sondear en las NECESIDADES DEL
 
-            USUARIO/A, escuchando activamente y
+**Definición Canónica:** USUARIO/A, escuchando activamente y
                                                                     al usuario/a, empleando un lenguaje claro
                                                                     y preciso. Orientar acerca de los pasos a
                realizando preguntas indagatorias (para              seguir (documentos, plazos, fechas, etc.)
                qué, quién, cuándo?)
 
+USUARIO/A, escuchando activamente y
+                                                                    al usuario/a, empleando un lenguaje claro
+                                                                    y preciso. Orientar acerca de los pasos a
+               realizando preguntas indagatorias (para              seguir (documentos, plazos, fechas, etc.)
+               qué, quién, cuándo?)
 
 ## 7 derivar
 
-             Indicar
+**Definición Canónica:** Indicar
                      O GESTIONAR LA SOLICITUD.
                      cómo   continuar con   el
                                                                     Verificar COMPRENSIÓN Y CHEQUEAR
@@ -1760,10 +1745,23 @@ Materiales Docentes                                                             
                requerimiento    y   dar   alternativas   de         reforzar los puntos más importantes de la
                solución.                                            información entregada.
 
+Indicar
+                     O GESTIONAR LA SOLICITUD.
+                     cómo   continuar con   el
+                                                                    Verificar COMPRENSIÓN Y CHEQUEAR
+                                                                    CONFORMIDAD con la atención recibida,         8
+               requerimiento    y   dar   alternativas   de         reforzar los puntos más importantes de la
+               solución.                                            información entregada.
 
 ## 9 CERRAR    la atención VERIFICANDO que
 
-            el usuario/a no tenga más dudas sobre el
+**Definición Canónica:** el usuario/a no tenga más dudas sobre el
+                                                                    DESPEDIRSE de manera AMABLE Y
+                                                                    RESPETUOSA, esperando que sea el              10
+              motivo de su llamada. Puede entregar                  usuario/a quien termine primero la video
+              información complementaria.                           llamada.
+
+el usuario/a no tenga más dudas sobre el
                                                                     DESPEDIRSE de manera AMABLE Y
                                                                     RESPETUOSA, esperando que sea el              10
               motivo de su llamada. Puede entregar                  usuario/a quien termine primero la video
@@ -1844,15 +1842,16 @@ Materiales Docentes                                                             
 
           Modelo de Atención de Usuarios (2014)
 
-
-## Actitudes de servicio
-
-                                                                 Así atendemos en el Poder Judicial
-
 ## Respeto
 
+**Definición Canónica:** El usuario/a tiene el derecho a ser atendido sin                                      USO DEL LENGUAJE
+            faltas en la entrega comunicacional. A saber:
+            no gritar, lenguaje moderado, modales, etc.              Es fundamental tratar con respeto a los usuarios/as,
+                                                                     una manera de demostrarlo es tratando a todos de
+                                                                     “usted”, trata a cada persona de “Señor o Señora”, no
+                                                                     uses di
 
-            El usuario/a tiene el derecho a ser atendido sin                                      USO DEL LENGUAJE
+El usuario/a tiene el derecho a ser atendido sin                                      USO DEL LENGUAJE
             faltas en la entrega comunicacional. A saber:
             no gritar, lenguaje moderado, modales, etc.              Es fundamental tratar con respeto a los usuarios/as,
                                                                      una manera de demostrarlo es tratando a todos de
@@ -1861,7 +1860,15 @@ Materiales Docentes                                                             
 
 ## Confianza con discresión
 
-                                                                     deben ser explicados inmediatamente.
+**Definición Canónica:** deben ser explicados inmediatamente.
+            Ganarse la confianza del usuario/a sin invadir
+            su intimidad.                                                                        DEMOSTRAR INTERÉS
+                                                                     Es muy importante que nuestro usuario/a perciba
+                                                                     que el Poder Judicial está para atenderlo, no
+            RESPONSABILIDAD                                          distraerse con terceras personas, priorizar al
+                                         
+
+deben ser explicados inmediatamente.
             Ganarse la confianza del usuario/a sin invadir
             su intimidad.                                                                        DEMOSTRAR INTERÉS
                                                                      Es muy importante que nuestro usuario/a perciba
@@ -1887,20 +1894,27 @@ Materiales Docentes                                                             
 
 ## Mira a los ojos
 
-
-            Cuando una persona mira a los ojos, nos                    ACTITUD POSITIVA Y CON ANIMO DE AYUDAR
+**Definición Canónica:** Cuando una persona mira a los ojos, nos                    ACTITUD POSITIVA Y CON ANIMO DE AYUDAR
             transmite seguridad y confianza. Al mirar a
             nuestros usuarios/as a los ojos les demostramos          El comportamiento positivo crea un ambiente más
             atención e interés.                                      agradable   que     hace    que   las situaciones
                                                                      problemáticas se resuelvan mejor.
 
-
-## Ser amable
-
+Cuando una persona mira a los ojos, nos                    ACTITUD POSITIVA Y CON ANIMO DE AYUDAR
+            transmite seguridad y confianza. Al mirar a
+            nuestros usuarios/as a los ojos les demostramos          El comportamiento positivo crea un ambiente más
+            atención e interés.                                      agradable   que     hace    que   las situaciones
+                                                                     problemáticas se resuelvan mejor.
 
 ## Trato personalizado
 
-            Es importante considerar al usuario/a que                El usuario/a se encontrará mejor si aprecia que se le
+**Definición Canónica:** Es importante considerar al usuario/a que                El usuario/a se encontrará mejor si aprecia que se le
+            tenemos al frente como persona, tratarlo con             trata de manera individual y humana. Procurar llamar
+            respeto y cordialidad, considerando sus                  al usuario/a por su nombre, en lugar de “oiga” o
+            características particulares.                            simplemente “usted” y sobre todo adaptándose a sus
+                                                                     necesidades concretas.
+
+Es importante considerar al usuario/a que                El usuario/a se encontrará mejor si aprecia que se le
             tenemos al frente como persona, tratarlo con             trata de manera individual y humana. Procurar llamar
             respeto y cordialidad, considerando sus                  al usuario/a por su nombre, en lugar de “oiga” o
             características particulares.                            simplemente “usted” y sobre todo adaptándose a sus
@@ -1908,8 +1922,10 @@ Materiales Docentes                                                             
 
            Figura 14. Modelo de Atención de Usuarios: actitudes de servicio.
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Concepto de usuarios y usuarias en situaciones
+complejas o de vulnerabilidad
 
 Concepto de usuarios y usuarias en situaciones
 complejas o de vulnerabilidad
@@ -2065,6 +2081,12 @@ generales que lo informan. Estos son:
 
 ## 2. Adolescente: Todo ser humano entre los catorce años cumplidos y
 
+**Definición Canónica:** menor de dieciocho años.
+  3. NNA: Abreviación para referirse a niño, niña y adolescente.
+  4. Profesionales: Las personas que están en contacto con NNA o tienen la responsabilidad de atender sus necesidades en el sistema judicial.
+Se incluye a quienes se dedican a la defensa o representación de NNA;
+personal de apoyo; especialistas de servicios de protección de menores;
+
 menor de dieciocho años.
   3. NNA: Abreviación para referirse a niño, niña y adolescente.
   4. Profesionales: Las personas que están en contacto con NNA o tienen la responsabilidad de atender sus necesidades en el sistema judicial.
@@ -2076,28 +2098,12 @@ y abogadas defensores; personal diplomático y consular; jueces y juezas; minist
 encargadas de hacer cumplir la ley; profesionales médicos y de la salud
 mental, trabajadores sociales, etcétera.
 
-## 5. Proceso de justicia: Actos relacionados con la presentación de una
-
-denuncia o demanda, con la causa, con el juicio y las actuaciones posteriores a él, en que esté involucrado, en cualquier condición procesal, un
-NNA, sin importar la materia.
-
-## 6. Tutor, tutora o adulto responsable del niño/a: Persona legalmente
-
-reconocida como responsable de velar por los intereses del NNA, en
-caso de que el padre, la madre, abuelos o abuelas, u otros que no tengan
-la patria potestad y/o el cuidado personal hayan fallecido.
-
-## 7. Victimización secundaria: Aquella producida por la respuesta de
-
-instituciones y/o de personas en relación con la víctima (NNA) y no
-como resultado directo de un acto delictivo o de vulneración de sus
-derechos.
-
-## 8. Victimización reiterada: Situación en que una persona es víctima
-
-de más de un incidente delictivo a lo largo de un período determinado.
-
 ## 9. Testimonio de NNA: Declaración que se presta mediante el uso del
+
+**Definición Canónica:** lenguaje oral, escrito, y también con ayudas técnicas de comunicación,
+mediante la asistencia de una persona experta, especializada en conocimiento de los NNA y de la comunicación con ellos, lo que permite que
+quede manifiesto su interés superior.
+   10. Interés manifiesto del NNA: Intereses propios del NNA, representados por un abogado.
 
 lenguaje oral, escrito, y también con ayudas técnicas de comunicación,
 mediante la asistencia de una persona experta, especializada en conocimiento de los NNA y de la comunicación con ellos, lo que permite que
@@ -2127,12 +2133,25 @@ NNA, para la efectividad de sus derechos.
 
 ## 3. El derecho a ser oído y opinar en todos los asuntos que le afectan y a
 
+**Definición Canónica:** que sean debidamente tomadas en consideración sus opiniones: La Convención sobre los Derechos del Niño reconoce este derecho en función
+de su edad y madurez, para lo que se deberá dar al NNA la oportunidad
+de ser escuchado en todo procedimiento judicial o administrativo que le
+afecte, de forma directa o por medio de un representante.
+
 que sean debidamente tomadas en consideración sus opiniones: La Convención sobre los Derechos del Niño reconoce este derecho en función
 de su edad y madurez, para lo que se deberá dar al NNA la oportunidad
 de ser escuchado en todo procedimiento judicial o administrativo que le
 afecte, de forma directa o por medio de un representante.
 
 ## 4. El derecho a la vida digna, supervivencia y desarrollo: Garantizarlo
+
+**Definición Canónica:** en la medida de lo posible, en cualquier decisión judicial que se tome
+en relación con NNA. El derecho a la vida, supone proveer lo necesario
+para que esta revista condiciones dignas tales como el acceso al agua,
+a la alimentación, a la salud y a la educación; si el Estado no garantiza
+estos aspectos constituye una violación de este derecho por su parte.
+   En relación con el derecho al desarrollo, el Comité de Derechos Humanos ha interpretado el término desarrollo como un concepto integral
+que involucra todos los aspectos de la vida del niño, como son el desarrollo físico, mental, espiritual,
 
 en la medida de lo posible, en cualquier decisión judicial que se tome
 en relación con NNA. El derecho a la vida, supone proveer lo necesario
@@ -2194,6 +2213,12 @@ plena y efectiva participación en la sociedad, en igualdad de condiciones que l
 
 ## 2. Tipos de discapacidad: Existen diversos tipos, que dependen de la
 
+**Definición Canónica:** diversidad funcional de que se trate. Una persona puede presentar varios tipos de discapacidad a la vez (discapacidad múltiple).
+   3. Persona con discapacidad: Aquella que tiene deficiencias físicas,
+mentales, intelectuales o sensoriales, que al interactuar con el medio
+pueden impedir su participación plena y efectiva en la sociedad, en
+igualdad de condiciones.
+
 diversidad funcional de que se trate. Una persona puede presentar varios tipos de discapacidad a la vez (discapacidad múltiple).
    3. Persona con discapacidad: Aquella que tiene deficiencias físicas,
 mentales, intelectuales o sensoriales, que al interactuar con el medio
@@ -2201,6 +2226,11 @@ pueden impedir su participación plena y efectiva en la sociedad, en
 igualdad de condiciones.
 
 ## 4. Ajustes razonables: Son modificaciones, adaptaciones necesarias y
+
+**Definición Canónica:** adecuadas que se requieren para garantizar a las personas con discapacidad el goce o ejercicio de todos los derechos humanos y libertades
+fundamentales, en igualdad de condiciones. Los ajustes razonables no
+deben imponer una carga desproporcionada o indebida.
+**Concordancias Legales:** artículo 3 de la Convención de las Naciones Unidas sobre los D
 
 adecuadas que se requieren para garantizar a las personas con discapacidad el goce o ejercicio de todos los derechos humanos y libertades
 fundamentales, en igualdad de condiciones. Los ajustes razonables no
@@ -2219,18 +2249,12 @@ discriminaciones y prejuicios.
    Obliga a quienes operan con normas vinculadas al tema a emplear
 siempre los estándares más altos a favor de las personas con discapacidad.
 
-## 3. Igualdad y no discriminación. Busca más allá de la igualdad formal
-
-establecida por normas como la CDPD y la Constitución Política, tomar
-en cuenta las circunstancias particulares de cada persona con discapacidad a las que se les aplica la ley.
-
-## 4. Accesibilidad. Tiene por objeto eliminar las barreras de tipo física
-
-o actitudinal que impiden a las personas con discapacidad ejercer su
-autonomía personal y obstaculizan su interacción con el entorno o el
-ejercicio de sus derechos.
-
 ## 5. Respeto a la dignidad inherente, autonomía individual, libertad para
+
+**Definición Canónica:** tomar las propias decisiones e independencia de las personas con discapacidad. Reconoce la personalidad y capacidad jurídica de todas las personas
+con discapacidad y la libertad de ellas para tomar sus propias decisiones
+y preferencias, sin cuestionar la sabiduría en su adopción. Considera sistemas de apoyo que deben ser proporcionales y adaptados a las circunstancias de la persona con discapacidad, los que deben aplicarse durante
+el menor plazo posible. Asimismo, considera un sistema de salvaguardias, que impidan los abusos y las sustituciones a la voluntad.
 
 tomar las propias decisiones e independencia de las personas con discapacidad. Reconoce la personalidad y capacidad jurídica de todas las personas
 con discapacidad y la libertad de ellas para tomar sus propias decisiones
@@ -2239,11 +2263,21 @@ el menor plazo posible. Asimismo, considera un sistema de salvaguardias, que imp
 
 ## 6. Participación e inclusión plenas y efectivas en la sociedad. Cobra
 
+**Definición Canónica:** relevancia al articularse con los otros principios antedichos, ya que en
+su conjunto promueven y permiten la inclusión de las personas con discapacidad en la sociedad, haciendo efectivo el ejercicio de los derechos
+de los cuales son titulares.
+
 relevancia al articularse con los otros principios antedichos, ya que en
 su conjunto promueven y permiten la inclusión de las personas con discapacidad en la sociedad, haciendo efectivo el ejercicio de los derechos
 de los cuales son titulares.
 
 ## 7. Respeto por la diferencia. Implica la aceptación de la discapacidad
+
+**Definición Canónica:** como parte de la diversidad y condición humana, asumiendo una visión positiva e integral de ella, así exhorta a considerar a las personas
+con discapacidad como titulares de derechos. Finalmente, reconoce que
+existe una diversidad de discapacidades y de necesidades particulares.
+   8. Respeto a la evolución de las facultades de niñas y niños con discapacidad, derecho a preservar su identidad. Junto con el respeto por el
+principio relativo al interés superior del niño o niña, es necesario respetar el derecho a ser oído y a opinar de los asuntos que le afectan a estos,
 
 como parte de la diversidad y condición humana, asumiendo una visión positiva e integral de ella, así exhorta a considerar a las personas
 con discapacidad como titulares de derechos. Finalmente, reconoce que
@@ -2263,6 +2297,14 @@ el ejercicio de sus derechos.
 
 ## 1. Observar los principios en todas las etapas del proceso en los que
 
+**Definición Canónica:** intervenga una persona con discapacidad, sin importar la materia del
+mismo ni el carácter de su participación.
+   2. Considerar la condición de discapacidad de las personas, en la etapa de ejecución del fallo, a fin de adoptar las medidas que dentro del
+marco de la ley, sean las más apropiadas para un cumplimiento efectivo.
+   3. Eliminar todo trato discriminatorio a personas con discapacidad,
+a lo largo de todas las etapas del procedimiento, sin importar la calidad
+con la que participen en él.
+
 intervenga una persona con discapacidad, sin importar la materia del
 mismo ni el carácter de su participación.
    2. Considerar la condición de discapacidad de las personas, en la etapa de ejecución del fallo, a fin de adoptar las medidas que dentro del
@@ -2273,13 +2315,11 @@ con la que participen en él.
 
 Ajustes razonables
 
-
-## 1. Implementar ajustes razonables para un efectivo respeto y ejercicio
-
-de los derechos de las personas con discapacidad, atendiendo aquellas
-barreras impuestas por el entorno que dificultan el ejercicio de estos.
-
 ## 2. Tener en cuenta los diversos tipos de discapacidad existente, así
+
+**Definición Canónica:** como las necesidades particulares de las personas con discapacidad, a
+fin de garantizar que los ajustes razonables logren eficazmente, tanto la
+igualdad de oportunidades, como el acceso a la justicia.
 
 como las necesidades particulares de las personas con discapacidad, a
 fin de garantizar que los ajustes razonables logren eficazmente, tanto la
@@ -2287,18 +2327,20 @@ igualdad de oportunidades, como el acceso a la justicia.
 
 ## 3. Asegurar que se estén implementando los ajustes razonables de
 
+**Definición Canónica:** manera adecuada, mediante comunicación directa con las personas con
+discapacidad. Lo anterior permitirá vencer barreras actitudinales, prejuicios y estigmas, mediante una interacción mayor entre las y los operadores de justicia y las personas con discapacidad.
+
 manera adecuada, mediante comunicación directa con las personas con
 discapacidad. Lo anterior permitirá vencer barreras actitudinales, prejuicios y estigmas, mediante una interacción mayor entre las y los operadores de justicia y las personas con discapacidad.
 
-## 4. Considerar la posibilidad de brindar un ajuste razonable en caso de
-
-que una de las partes se autoidentifique como persona con discapacidad
-o se tenga una duda fundada acerca de la existencia de una discapacidad.
-
-Lenguaje, comunicación e información
-
-
 ## 1. Usar un lenguaje no ofensivo y no discriminatorio para referirse a las
+
+**Definición Canónica:** personas con discapacidad. Eliminar el empleo de términos peyorativos
+comúnmente empleados por la legislación civil, que hacen referencia
+a una pérdida funcional e implican una carencia de valor, tales como:
+discapacitados, minusválidos, inválidos, imbéciles, retrasados mentales,
+dementes, entre otros. Se recomienda revisar el texto titulado Recomendaciones para el uso del lenguaje en discapacidad elaborado por el Servicio Nacional de la Discapacidad (Senadis).
+   2. Redactar las resoluciones judiciales en un lenguaje inclusivo y respetuoso de los derechos humanos de las personas con discapaci
 
 personas con discapacidad. Eliminar el empleo de términos peyorativos
 comúnmente empleados por la legislación civil, que hacen referencia
@@ -2309,12 +2351,14 @@ dementes, entre otros. Se recomienda revisar el texto titulado Recomendaciones p
    3. Proporcionar toda la información relacionada con el procedimiento desde un inicio y en todas sus etapas. Los datos tienen que ser presentados de manera completa, actualizada y en formatos comprensibles
 y accesibles.
 
-## 4. Garantizar la accesibilidad al entorno físico, a las comunicaciones
-
-y a la información, eliminando no solo las barreras de tipo físico, sino
-también las actitudinales.
-
 ## 5. Preguntar a la persona con discapacidad cuál es la forma o el medio
+
+**Definición Canónica:** en que requiere o prefiere recibir la información, sin dar por sentada
+alguna modalidad.
+   6. Informar a los notificadores y notificadoras que la persona a notificar tiene discapacidad, para que la información se les brinde en lenguaje
+sencillo y accesible, evitando los tecnicismos. De no saberlo con anterioridad, se recomienda dejar constancia de que la persona notificada
+presenta alguna discapacidad evidente, para que el tribunal tenga conocimiento de ello.
+   7. Informar, previo a la realización de una actuación judicial especialmente en los casos de personas con discapacidad visual, acerc
 
 en que requiere o prefiere recibir la información, sin dar por sentada
 alguna modalidad.
@@ -2329,6 +2373,8 @@ relevante que en él se tratará.
 
 ## 8. Informar a todos los asistentes a la actuación judicial respecto de
 
+**Definición Canónica:** quiénes intervendrán en ella, en particular cuando existirá personal de
+
 quiénes intervendrán en ella, en particular cuando existirá personal de
 
 apoyo para las personas con discapacidad —como intérpretes— o auxilio animal —como perros guía— o algún tipo de ayuda técnica, a fin de
@@ -2340,8 +2386,13 @@ con discapacidad y no con las de apoyo.
 
 Accesibilidad física
 
-
 ## 1. Generar conciencia en la institución respecto de la importancia del
+
+**Definición Canónica:** diseño universal en la infraestructura de los tribunales, con la finalidad
+de que ese entorno contemple las necesidades del mayor número de personas.
+   2. Aplicar, en caso de que las instalaciones no prevean los requerimientos de accesibilidad y diseño universal, los debidos ajustes razonables, acción necesaria para garantizar el derecho de acceso a la justicia
+de las personas con discapacidad, en igualdad de condiciones que las
+personas sin discapacidad.
 
 diseño universal en la infraestructura de los tribunales, con la finalidad
 de que ese entorno contemple las necesidades del mayor número de personas.
@@ -2351,13 +2402,13 @@ personas sin discapacidad.
 
 Atención
 
-
-## 1. Priorizar la atención y resolución de los juicios en los que se involucre
-
-a una persona con discapacidad, evitando retrasos en la tramitación de
-los mismos.
-
 ## 2. Asegurar la puntualidad en el inicio de las audiencias. Se estima
+
+**Definición Canónica:** pertinente que el horario de dichas audiencias se fije previa consulta con
+las personas con discapacidad para garantizar que sea el más adecuado,
+tomando en cuenta si deben administrarse algún medicamento, asistir
+a alguna cita o tratamiento médico, o bien, si requieren de la presencia
+de un apoyo personal.
 
 pertinente que el horario de dichas audiencias se fije previa consulta con
 las personas con discapacidad para garantizar que sea el más adecuado,
@@ -2367,6 +2418,8 @@ de un apoyo personal.
 
 ## 3. Evitar comparecencias innecesarias. Distinguir de manera correcta
 
+**Definición Canónica:** entre las comparecencias innecesarias y las excepciones a la comparecencia. Si existen las condiciones para que la persona con discapacidad comparezca en las dependencias del tribunal debe prevalecer este criterio.
+
 entre las comparecencias innecesarias y las excepciones a la comparecencia. Si existen las condiciones para que la persona con discapacidad comparezca en las dependencias del tribunal debe prevalecer este criterio.
 
 Discriminación múltiple
@@ -2374,11 +2427,13 @@ Discriminación múltiple
 1. Atender otros factores que pueden originar la discriminación múltiple de las personas con discapacidad, por ejemplo cuestiones de origen
 étnico, de edad o de género.
 
-## 2. Atender especialmente los casos en que participen personas con
-
-múltiples discapacidades, quienes pueden ser objeto de discriminaciones múltiples.
-
 ## 3. Considerar en todos los asuntos en los que intervengan mujeres
+
+**Definición Canónica:** con discapacidad, criterios orientados a combatir la desigualdad entre
+las mujeres y hombres con discapacidad, adoptando medidas encaminadas a erradicar los estereotipos de género, fomentar la toma de decisiones de las mujeres con discapacidad, particularmente en cuestiones
+relacionadas con su salud, su familia, su patrimonio, o cuando sean víctimas de delitos de índole sexual o relacionados con violencia de género,
+aplicando un mayor grado de atención en estos últimos supuestos.
+   4. Procurar, en la medida de lo posible, auxiliarse con un equipo multidisciplinario de profesionales de áreas r
 
 con discapacidad, criterios orientados a combatir la desigualdad entre
 las mujeres y hombres con discapacidad, adoptando medidas encaminadas a erradicar los estereotipos de género, fomentar la toma de decisiones de las mujeres con discapacidad, particularmente en cuestiones
@@ -2523,6 +2578,9 @@ un espacio, utilización de colores que faciliten la orientación de las persona
 
 ## 3. Información en formato digital, a través de pantallas que indiquen
 
+**Definición Canónica:** la ubicación de las salas de audiencias y demás dependencias.
+   4. Instalaciones en diseño universal.
+
 la ubicación de las salas de audiencias y demás dependencias.
    4. Instalaciones en diseño universal.
 
@@ -2534,11 +2592,24 @@ Conceptos
 
 ## 2. Deportación: Acto jurídico administrativo dictado por la autoridad
 
+**Definición Canónica:** migratoria que ordena abandonar el territorio nacional a la persona extranjera que no reúna los requisitos migratorios para permanecer en el
+país. La deportación trae aparejada una restricción para ingresar al país
+por un tiempo determinado.
+
 migratoria que ordena abandonar el territorio nacional a la persona extranjera que no reúna los requisitos migratorios para permanecer en el
 país. La deportación trae aparejada una restricción para ingresar al país
 por un tiempo determinado.
 
 ## 3. Migración internacional: Movimiento de personas que dejan su país
+
+**Definición Canónica:** de origen o en el que tienen residencia habitual, para establecerse temporal o permanentemente en otro país.
+   4. Apátrida: Aquella persona que no es considerada nacional por ningún Estado, conforme a su legislación.
+   5. Refugiada/o:
+    • Aquella persona que se encuentra fuera del país de su nacionali-
+       dad debido a temores fundados de ser perseguida por motivos de
+       raza, religión, nacionalidad, pertenencia a un determinado grupo
+       social u opiniones políticas y que, a causa de dichos temores, no
+       pueda o no quiera acogerse a la protección de su país
 
 de origen o en el que tienen residencia habitual, para establecerse temporal o permanentemente en otro país.
    4. Apátrida: Aquella persona que no es considerada nacional por ningún Estado, conforme a su legislación.
@@ -2566,24 +2637,32 @@ tierra, mar y aire.
 
 ## 7. Situación migratoria: Condición en la que se encuentra una persona
 
+**Definición Canónica:** extranjera en consideración a si cumple o no las disposiciones migratorias para su ingreso y estancia en el país. Se considera que dicha persona
+tiene situación migratoria regular cuando ha cumplido las disposiciones
+y que tiene situación migratoria irregular cuando no ha cumplido con
+las mismas.
+
 extranjera en consideración a si cumple o no las disposiciones migratorias para su ingreso y estancia en el país. Se considera que dicha persona
 tiene situación migratoria regular cuando ha cumplido las disposiciones
 y que tiene situación migratoria irregular cuando no ha cumplido con
 las mismas.
 
-## 8. Tráfico de personas: Es la facilitación de la entrada ilegal de una
-
-persona en un Estado en el cual esa persona no es nacional o residente
-permanente con el fin de obtener, directa o indirectamente, un beneficio
-financiero u otro beneficio material.
-
 ## 9. Trata de personas: Es un delito que consiste en el uso de diversas
+
+**Definición Canónica:** formas de coacción, como la amenaza, la fuerza, el rapto, el engaño, el
+abuso de poder o de una situación de vulnerabilidad con el objeto de
+captar, transportar, trasladar, acoger o recibir personas en país extranjero con fines de explotación laboral, sexual, entre otras.
 
 formas de coacción, como la amenaza, la fuerza, el rapto, el engaño, el
 abuso de poder o de una situación de vulnerabilidad con el objeto de
 captar, transportar, trasladar, acoger o recibir personas en país extranjero con fines de explotación laboral, sexual, entre otras.
 
 ## 10. Arraigo: Es el proceso a través del cual se establece una relación
+
+**Definición Canónica:** particular con el territorio, cuyo resultado es crear lazos que mantienen
+algún tipo de «atadura» con el lugar. La formación de arraigos puede
+tener una diversidad de motivaciones, pero básicamente podemos distinguir tres:
+    • Por elección y decisión personal;
 
 particular con el territorio, cuyo resultado es crear lazos que mantienen
 algún tipo de «atadura» con el lugar. La formación de arraigos puede
@@ -2599,6 +2678,12 @@ Materiales Docentes                                                        Capí
 
 ## 11. Protección internacional: Es la ayuda que se ofrece a una persona
 
+**Definición Canónica:** que está fuera de su país y no puede regresar a él porque su vida corre
+peligro. El desplazamiento forzado de las personas que necesitan protección internacional se debe a diversos motivos como guerras, violación
+de derechos humanos y/o persecución. La protección internacional, en
+general, está dirigida a tres grupos de personas: refugiados, personas
+que no son refugiadas que necesitan protección internacional, y apátridas.
+
 que está fuera de su país y no puede regresar a él porque su vida corre
 peligro. El desplazamiento forzado de las personas que necesitan protección internacional se debe a diversos motivos como guerras, violación
 de derechos humanos y/o persecución. La protección internacional, en
@@ -2606,6 +2691,8 @@ general, está dirigida a tres grupos de personas: refugiados, personas
 que no son refugiadas que necesitan protección internacional, y apátridas.
 
 ## 12. Permiso de residencia: Es aquel que permite a extranjeros solicitar
+
+**Definición Canónica:** una autorización legal para residir en un país.
 
 una autorización legal para residir en un país.
 
@@ -2622,19 +2709,9 @@ Principios generales
       diferencias de tratamiento entre seres humanos que no se correspondan
       con su única e idéntica naturaleza.
 
-
-## 2. Pro persona: Criterio que impone la necesidad de aplicar la norma
-
-más amplia o la interpretación más extensiva, cuando se trata de reconocer derechos, e inversamente, la norma más restrictiva cuando se
-trata de establecer restricciones a los derechos reconocidos.
-
-## 3. Interés superior del niño, niña o adolescente migrante: Es el bienestar
-
-del niño, niña o adolescente, basado en la dignidad del ser humano, en
-las características especiales de los niños, niñas y adolescentes y en la
-necesidad de propiciar su adecuado desarrollo.
-
 ## 4. No devolución: Aquel que establece la prohibición de llevar a cabo
+
+**Definición Canónica:** cualquier medida, cuyo efecto sea devolver a una persona solicitante de
 
 cualquier medida, cuyo efecto sea devolver a una persona solicitante de
 
@@ -2643,16 +2720,20 @@ puedan verse amenazadas, o donde corra peligro de persecución incluyendo su int
 
 ## 5. Unidad familiar: Se refiere a que la separación de los niños, niñas y
 
+**Definición Canónica:** adolescentes de su núcleo familiar únicamente debe realizarse bajo una
+justificación clara y con una duración temporal. Tan pronto lo permitan
+las circunstancias, estos o estas deben ser devueltos a sus padres.
+
 adolescentes de su núcleo familiar únicamente debe realizarse bajo una
 justificación clara y con una duración temporal. Tan pronto lo permitan
 las circunstancias, estos o estas deben ser devueltos a sus padres.
 
-## 6. Presunción de inocencia: Toda persona acusada de haber cometido
-
-un delito debe ser considerada inocente, mientras no se establezca lo
-contrario, mediante una resolución judicial definitiva.
-
 ## 7. Prontitud y prioridad: Implica adoptar las medidas necesarias para
+
+**Definición Canónica:** garantizar que las resoluciones judiciales y su ejecución sean oportunas
+y sin retrasos innecesarios. Principios de especial importancia, pues el
+tiempo que duran los procedimientos judiciales y administrativos es un
+factor determinante en la decisión, de las personas migrantes y solicitantes de asilo, de abandonar la defensa de sus derechos.
 
 garantizar que las resoluciones judiciales y su ejecución sean oportunas
 y sin retrasos innecesarios. Principios de especial importancia, pues el
@@ -2661,12 +2742,23 @@ factor determinante en la decisión, de las personas migrantes y solicitantes de
 
 ## 8. Confidencialidad: Implica que los datos personales de las personas
 
+**Definición Canónica:** migrantes y sujetas de protección internacional no se deben publicar
+cuando ellas así lo pidan.
+   9. Coordinación: Comunicación constante entre las instancias competentes en los casos, para evitar retrasos y lograr la correcta resolución
+de los mismos.
+
 migrantes y sujetas de protección internacional no se deben publicar
 cuando ellas así lo pidan.
    9. Coordinación: Comunicación constante entre las instancias competentes en los casos, para evitar retrasos y lograr la correcta resolución
 de los mismos.
 
 ## 10. Excepcionalidad en la detención: Las prácticas migratorias deben
+
+**Definición Canónica:** partir de una presunción de libertad, por lo que la detención debe aplicarse como criterio de última ratio.
+   11. Asistencia humanitaria: Los Estados tienen la obligación de proporcionar protección y asistencia humanitaria a las personas desplazadas.
+   12. Acceso a la justicia considerando la situación de las personas migrantes y sujetas de protección internacional: Para que exista acceso a la
+justicia es necesario que haya un debido proceso. En términos de la Corte Interamericana de Derechos Humanos se requiere «que un justiciable
+—persona que puede o debe someterse a un tribunal de justici
 
 partir de una presunción de libertad, por lo que la detención debe aplicarse como criterio de última ratio.
    11. Asistencia humanitaria: Los Estados tienen la obligación de proporcionar protección y asistencia humanitaria a las personas desplazadas.
@@ -2685,8 +2777,17 @@ a la protección judicial.
 
 Recomendaciones
 
-
 ## 1. Eliminar cualquier trato discriminatorio en contra de las personas
+
+**Definición Canónica:** migrantes entendiendo que se encuentran en una situación de vulnerabilidad.
+   En caso de hacer una distinción, esta deberá ser razonable, objetiva,
+proporcional y respetar sus derechos humanos.
+    2. Evitar actos discriminatorios. No solo implica omitir realizarlos,
+sino que las y los jueces deben llevar a cabo acciones que posibiliten el
+ejercicio del derecho de acceso a la justicia, para que realmente se vuelva
+efectivo.
+    3. Reconocer la perspectiva de género como fundamental en la migración, puesto que son las mujeres migrantes las que, en general, están
+sujetas a mayores situaciones d
 
 migrantes entendiendo que se encuentran en una situación de vulnerabilidad.
    En caso de hacer una distinción, esta deberá ser razonable, objetiva,
@@ -2698,12 +2799,16 @@ efectivo.
     3. Reconocer la perspectiva de género como fundamental en la migración, puesto que son las mujeres migrantes las que, en general, están
 sujetas a mayores situaciones de vulnerabilidad.
 
-## 4. Consultar a las mujeres migrantes si tienen hijos en el país, con el
-
-objeto de considerar las implicancias de su expulsión o de su privación
-de libertad y cuáles son las redes familiares en Chile de sus hijos menores de edad.
-
 ## 5. Entendiendo que existe una precondición de vulnerabilidad del
+
+**Definición Canónica:** migrante, interpretar y aplicar las normas de la manera más amplia a fin
+de beneficiar la protección de estas personas.
+   6. Especial atención con los niños o niñas separados o no acompañados de su familia. Al momento de resolver una causa en que intervenga
+un niño o niña migrante, considerar y evaluar a fondo su identidad,
+esto es, su nacionalidad, antecedentes étnicos, culturales y lingüísticos,
+crianza, y las vulnerabilidades y necesidades especiales de protección.
+Garantizar su derecho a la educación; derecho a la identidad; el acceso
+a la salud; los tratamientos para enfermedades; y la r
 
 migrante, interpretar y aplicar las normas de la manera más amplia a fin
 de beneficiar la protección de estas personas.
@@ -2741,6 +2846,14 @@ garantías del debido proceso.
 
 ## 9. Asegurar la atención de manera prioritaria a aquellas causas en que
 
+**Definición Canónica:** intervenga un migrante en situación de vulnerabilidad, bien a través de
+los servicios previos de atención (CAJ o Clínicas jurídicas) o, en su caso,
+ordenar lo pertinente para que se atienda la vulnerabilidad constatada
+del migrante. En caso de solicitantes de asilo que por cualquier motivo
+acuden a los tribunales, mantener la reserva de sus datos y, siempre, de
+su condición de refugiados o de solicitantes frente a cualquier tercero,
+en especial frente al país de origen o perseguidor.
+
 intervenga un migrante en situación de vulnerabilidad, bien a través de
 los servicios previos de atención (CAJ o Clínicas jurídicas) o, en su caso,
 ordenar lo pertinente para que se atienda la vulnerabilidad constatada
@@ -2750,6 +2863,11 @@ su condición de refugiados o de solicitantes frente a cualquier tercero,
 en especial frente al país de origen o perseguidor.
 
 ## 10. En casos de personas solicitantes de asilo y refugiadas con causas
+
+**Definición Canónica:** en tribunales de justicia se sugiere mantener la reserva de sus datos para
+evitar una amenaza para estas personas y sus familias. Actuar coordinadamente con embajadas y consulados además de otras instituciones
+para prestar apoyo psicológico, de salud o para actos del registro civil,
+entre otros.
 
 en tribunales de justicia se sugiere mantener la reserva de sus datos para
 evitar una amenaza para estas personas y sus familias. Actuar coordinadamente con embajadas y consulados además de otras instituciones
@@ -2761,6 +2879,16 @@ como último recurso.
    12. Propender a que la asistencia humanitaria sea destinada a las personas migrantes que se encuentran en situación de vulnerabilidad.
 
 ## 13. Garantizar que se cumplan los siguientes derechos al acceder a la
+
+**Definición Canónica:** justicia:
+    • Derecho a la información, asistencia legal, defensa pública y dere-
+       cho a un intérprete.
+    • Derecho a asistencia consular, y a que se informe sobre ello, así
+       como respecto de la excepción que existe en el caso de las personas
+       que solicitan el reconocimiento de la condición de refugiado.
+    • Sistemas adecuados de identificación de personas que se encuen-
+       tran en situación de vulnerabilidad para asegurar que se garanti-
+       cen sus derechos.
 
 justicia:
     • Derecho a la información, asistencia legal, defensa pública y dere-
@@ -2776,22 +2904,18 @@ Protocolo de acceso a la justicia de personas,
 comunidades y pueblos indígenas
 Conceptos
 
-
-## 1. Indígena: Aquel que se identifica como indígena o tiene conciencia de
-
-pertenecer a una comunidad o pueblo indígena y que tiene la determinación de transmitir su identidad a las nuevas generaciones.
-
 ## 2. Pueblos indígenas: Personas que tienen preexistencia y descienden
+
+**Definición Canónica:** de poblaciones que habitaban el continente antes de la colonización europea y que conservan sus instituciones sociales, económicas, culturales
+y políticas, o parte de ellas, las que les dan identidad sociopolítica diferente al resto de la población del Estado nacional.
 
 de poblaciones que habitaban el continente antes de la colonización europea y que conservan sus instituciones sociales, económicas, culturales
 y políticas, o parte de ellas, las que les dan identidad sociopolítica diferente al resto de la población del Estado nacional.
 
-## 3. Territorio indígena: Porción de territorio ocupado, poseído o usado
-
-por los pueblos y comunidades indígenas, y que comprenden la totalidad del hábitat que permite su reproducción y continuidad material,
-social, cultural y espiritual.
-
 ## 4. Instituciones indígenas: Aquellas que los pueblos y comunidades
+
+**Definición Canónica:** indígenas reconocen como tales, con base en sus sistemas normativos
+internos, las cuales pueden o no coincidir con otras instituciones del Estado en el que se encuentran. Considera sus sistemas de representación
 
 indígenas reconocen como tales, con base en sus sistemas normativos
 internos, las cuales pueden o no coincidir con otras instituciones del Estado en el que se encuentran. Considera sus sistemas de representación
@@ -2799,6 +2923,12 @@ internos, las cuales pueden o no coincidir con otras instituciones del Estado en
 a través de autoridades ancestrales y mecanismos de decisión específicos, generalmente de naturaleza colectiva.
 
 ## 5. Lenguas indígenas: Lenguas propias de los pueblos originarios de
+
+**Definición Canónica:** América y que expresan sus saberes ancestrales, enriqueciendo las formas de relacionarse con su entorno.
+   6. Interculturalidad: Oportunidad que tienen las sociedades actuales,
+que se caracterizan por su diversidad, de generar espacios de diálogo,
+intercambio y representación entre las diferentes culturas respetando
+sus costumbres y tradiciones.
 
 América y que expresan sus saberes ancestrales, enriqueciendo las formas de relacionarse con su entorno.
    6. Interculturalidad: Oportunidad que tienen las sociedades actuales,
@@ -2826,6 +2956,10 @@ parte del Estado.
 
 ## 3. Maximización de la autonomía y acceso a la justicia: Considerando
 
+**Definición Canónica:** las especificidades culturales de los pueblos, comunidades y personas
+indígenas. Se deben encontrar en condiciones de ejercer el control de
+sus propias instituciones, ya sea jurídica, cultural o socialmente, pu-
+
 las especificidades culturales de los pueblos, comunidades y personas
 indígenas. Se deben encontrar en condiciones de ejercer el control de
 sus propias instituciones, ya sea jurídica, cultural o socialmente, pu-
@@ -2844,6 +2978,13 @@ encuentran, tanto de manera individual como colectiva. En estas instancias la au
 
 ## 4. Protección especial a sus territorios y recursos naturales: Es uno de
 
+**Definición Canónica:** los derechos fundamentales para que los pueblos indígenas puedan reproducirse, mantener y desarrollar sus culturas. El concepto de «territorio indígena» no debe limitarse únicamente al de propiedad, sino a
+un sentido más amplio que comprende el hábitat que históricamente
+han poseído o usado para el desarrollo de sus actividades económicas y
+culturales. La protección de los territorios indígenas no solo se debe extender a aquellos que ocupen de forma directa, sino también a aquellos
+que utilicen para otros fines. Por ejemplo, se debe garantizar el acceso a
+territorios considerados sagrados o qu
+
 los derechos fundamentales para que los pueblos indígenas puedan reproducirse, mantener y desarrollar sus culturas. El concepto de «territorio indígena» no debe limitarse únicamente al de propiedad, sino a
 un sentido más amplio que comprende el hábitat que históricamente
 han poseído o usado para el desarrollo de sus actividades económicas y
@@ -2853,6 +2994,13 @@ territorios considerados sagrados o que destinen para la celebración de
 sus ceremonias.
 
 ## 5. Participación, consulta y consentimiento frente a cualquier acción
+
+**Definición Canónica:** que los afecte: Es el derecho de los pueblos indígenas a participar en la
+adopción de decisiones que puedan llegar a afectar sus derechos e intereses. Es fundamental para el pleno ejercicio de derechos, materializar
+sus propias prioridades para el desarrollo, la preservación cultural, al
+agua, al medio ambiente sano, entre otros. La obligación de consulta es
+un principio general del derecho internacional. Se encuentra íntimamente relacionado con el principio de la libre determinación y protección de los territorios indígenas, ya que permite resguardar el respeto a
+sus derechos.
 
 que los afecte: Es el derecho de los pueblos indígenas a participar en la
 adopción de decisiones que puedan llegar a afectar sus derechos e intereses. Es fundamental para el pleno ejercicio de derechos, materializar
@@ -2870,6 +3018,12 @@ propios de los núcleos o colectivos indígenas.
 
 ## 2. Evitar incurrir en tratos discriminatorios por el hecho de asumir la
 
+**Definición Canónica:** condición de indígena. Se sugiere propender a la «discriminación positiva», es decir, privilegiar la adopción de medidas especiales a favor de
+las personas y comunidades indígenas. Por ejemplo, aplicando penas
+alternativas a las privativas de libertad, favorecer la búsqueda de medidas de acuerdo, autorizar la asistencia a rituales previos a las audiencias,
+restringir la presencia policial en los tribunales, entre otras.
+   3. Preocuparse acerca de la admisión de acciones procesales interpuestas por personas indígenas que concurran a tribunales en representación de intereses individuales o cole
+
 condición de indígena. Se sugiere propender a la «discriminación positiva», es decir, privilegiar la adopción de medidas especiales a favor de
 las personas y comunidades indígenas. Por ejemplo, aplicando penas
 alternativas a las privativas de libertad, favorecer la búsqueda de medidas de acuerdo, autorizar la asistencia a rituales previos a las audiencias,
@@ -2879,6 +3033,15 @@ de los derechos que desean ejercer, y siempre que se acredite un vínculo
 causal entre el hecho recurrido y los actores.
 
 ## 4. Evaluar a partir de datos tales como lugar de origen, idioma de
+
+**Definición Canónica:** sus padres, o el tipo de asunto, si las personas que intervienen en un
+proceso judicial son miembros de una comunidad o pueblo indígena.
+Lo anterior es importante a efectos de adecuar las resoluciones al caso
+concreto, teniendo en consideración los elementos de esa cultura. Se
+sugiere otorgar relevancia a los dichos de una persona para determinar
+el carácter indígena de la misma, dejando constancia de dicha declaración. Se sugiere poner en conocimiento a la persona miembro de una
+comunidad o pueblo indígena respecto de cuáles son sus derechos. Por
+ejemplo, el de ser asistido por un traductor y
 
 sus padres, o el tipo de asunto, si las personas que intervienen en un
 proceso judicial son miembros de una comunidad o pueblo indígena.
@@ -2900,6 +3063,15 @@ corresponda conforme a la normativa vigente.
 
 ## 6. Respetar la autonomía de los pueblos indígenas, en el ámbito de sus
 
+**Definición Canónica:** autoridades, instituciones, sistemas jurídicos y opciones de desarrollo.
+Para ello se sugiere hacer una valoración integral del caso, manteniendo
+presente los siguientes aspectos: Comprender la lógica jurídica indígena y convalidar las resoluciones y elecciones que se realicen conforme
+a ello, siempre y cuando respeten principios generales sobre derechos
+humanos. Para verificar la existencia de sistemas normativos indígenas
+se puede solicitar apoyo de asesores técnicos o de la misma comunidad
+indígena involucrada. Tomar en cuenta las costumbres y especificidades
+culturales, tanto para determin
+
 autoridades, instituciones, sistemas jurídicos y opciones de desarrollo.
 Para ello se sugiere hacer una valoración integral del caso, manteniendo
 presente los siguientes aspectos: Comprender la lógica jurídica indígena y convalidar las resoluciones y elecciones que se realicen conforme
@@ -2915,6 +3087,13 @@ a las esperadas por la sociedad dominante.
 mejor apreciación del mismo.
 
 ## 7. Identificar si el asunto del que se está en conocimiento, involucra el
+
+**Definición Canónica:** territorio o los recursos naturales de un individuo o comunidad indígena y favorecer la reivindicación o recuperación de los mismos. La presencia de indígenas en áreas geográficas puede servir de presunción de
+derecho para formar convicción de la existencia de derechos sobre los
+recursos y los territorios que han venido poseyendo u ocupando. Se sugiere permitir el acceso de personas o colectivos indígenas a territorios
+que por costumbre han sido históricamente usados para la realización
+de actividades culturales o rituales propios de dichas comunidades.
+   8. Adecuar los procesos relevantes qu
 
 territorio o los recursos naturales de un individuo o comunidad indígena y favorecer la reivindicación o recuperación de los mismos. La presencia de indígenas en áreas geográficas puede servir de presunción de
 derecho para formar convicción de la existencia de derechos sobre los
@@ -2951,19 +3130,15 @@ de libertad, tanto si se producen en la vida pública como en la privada».
 
 Conceptos
 
-
-## 1. Sexo: Características físicas y biológicas que distinguen a hombres y
-
-mujeres.
-   2. Género: Se refiere a los roles, comportamientos, actividades y atributos que una sociedad en una época determinada considera propios de
-cada sexo.
-
-
-## 3. Roles de género: Las tareas o actividades que se espera desempeñe
-
-una persona por el sexo al que pertenece.
-
 ## 4. Estereotipos de género: Generalizaciones preconcebidas a partir de
+
+**Definición Canónica:** determinadas características culturales asociadas a los géneros, sobre
+cómo es y cómo debe comportarse un hombre y una mujer.
+   5. Violencia de género: Término genérico para cualquier acto perjudicial incurrido en contra de la voluntad de una persona, y que está
+basado en diferencias socialmente adjudicadas entre los sexos. La naturaleza y el alcance de los distintos tipos de violencia varían entre las
+culturas, países y regiones. Algunos ejemplos son la violencia sexual,
+incluida la explotación/el abuso sexual, la prostitución forzada y la trata
+de personas; violencia doméstica; trata de per
 
 determinadas características culturales asociadas a los géneros, sobre
 cómo es y cómo debe comportarse un hombre y una mujer.
@@ -2978,11 +3153,22 @@ otro lugar.
 
 ## 6. Violencia de género contra las mujeres: Todo acto de violencia de
 
+**Definición Canónica:** género que resulte, o pueda tener como resultado un daño físico, sexual o psicológico para la mujer, inclusive las amenazas de tales actos, la
+coacción o la privación arbitraria de libertad, tanto si se producen en la
+vida pública como en la privada.
+
 género que resulte, o pueda tener como resultado un daño físico, sexual o psicológico para la mujer, inclusive las amenazas de tales actos, la
 coacción o la privación arbitraria de libertad, tanto si se producen en la
 vida pública como en la privada.
 
 ## 7. Mujer víctima directa: Aquella mujer de cualquier edad que sufra el
+
+**Definición Canónica:** daño físico, psicológico, sexual, económico, laboral, social en su cuerpo
+y/o en su mente.
+   8. Otras víctimas: Las mujeres de cualquier edad que de forma indirecta sufran los actos de violencia física, psicológica, sexual, económica,
+laboral y/o social derivado del vínculo sanguíneo, afín o cualquier otro
+vínculo con la víctima directa, ya sea por estar presente en el momento
+del acto de violencia o recibir las consecuencias del mismo.
 
 daño físico, psicológico, sexual, económico, laboral, social en su cuerpo
 y/o en su mente.
@@ -2993,6 +3179,11 @@ del acto de violencia o recibir las consecuencias del mismo.
 
 ## 9. Víctimas indirectas y colaterales: Todas las personas que tienen un
 
+**Definición Canónica:** vínculo sanguíneo, afín u otro de cualquier índole con las víctimas directas o indirectas.
+   10. Declaración de hechos: Es la manifestación que hace la víctima directa y/o víctima indirecta del acto violento de todas las circunstancias
+de tiempo, modo y lugar, así como los detalles de cada acto ocurrido
+en su contra. La declaración de hechos no debe ser calificada por el o la
+
 vínculo sanguíneo, afín u otro de cualquier índole con las víctimas directas o indirectas.
    10. Declaración de hechos: Es la manifestación que hace la víctima directa y/o víctima indirecta del acto violento de todas las circunstancias
 de tiempo, modo y lugar, así como los detalles de cada acto ocurrido
@@ -3001,6 +3192,13 @@ en su contra. La declaración de hechos no debe ser calificada por el o la
 funcionaria judicial que la recibe, para evitar el riesgo de que solo documente lo que a su criterio sea relevante.
 
 ## 11. No revictimización: Desde los estudios del Derecho Penal y las
+
+**Definición Canónica:** agresiones a la paz social siempre ha existido una víctima y un victimario. En el sistema inquisitivo la víctima se concebía como un objeto
+al que no se le daba la atención que merecía como persona y una reparación al daño causado, reparación que no es precisamente económica.
+Con el sistema acusatorio y la ciencia victimológica, el papel de la víctima ha dado un giro importante y ha pasado a ser una persona sujeto
+de derechos, al punto que desde la ciencia victimológica se ha tratado
+de trascender que el protagonismo científico reside en la víctima y su
+humanidad, lo que nos conduce a logros o
 
 agresiones a la paz social siempre ha existido una víctima y un victimario. En el sistema inquisitivo la víctima se concebía como un objeto
 al que no se le daba la atención que merecía como persona y una reparación al daño causado, reparación que no es precisamente económica.
@@ -3014,6 +3212,13 @@ psicológicos; y iii) victimización terciaria: la que le provoca la sociedad
 al recriminarle y culpabilizarla por el hecho que sufrió.
 
 ## 12. Interseccionalidad: Es una herramienta metodológica que permite
+
+**Definición Canónica:** entender cómo se cruzan y concurren en una persona o en un colectivo, diferentes categorías sospechosas de discriminación, tornando más
+grave la experiencia de desventaja, por ejemplo: mujer, mapuche, adolescente, pobre, embarazada que reclama un servicio de salud. La figura
+de la interseccionalidad ayuda en la comprensión de cómo estos casos
+comportan mayor gravedad y, por lo tanto, requieren de un análisis de
+mayor complejidad en la toma de las decisiones judiciales.
+   13. Perspectiva de género: Es una herramienta que permite ver y entender la situación de desventaja en que han vivido y con
 
 entender cómo se cruzan y concurren en una persona o en un colectivo, diferentes categorías sospechosas de discriminación, tornando más
 grave la experiencia de desventaja, por ejemplo: mujer, mapuche, adolescente, pobre, embarazada que reclama un servicio de salud. La figura
@@ -3086,7 +3291,13 @@ según clasificación de Naciones Unidas el año 2006.
 
 ## parte de un agresor
 
-                                                  Incluye iniciación sexual forzada y violaciones en citas o en
+**Definición Canónica:** Incluye iniciación sexual forzada y violaciones en citas o en
+                       que no es la pareja o
+                                                  estado alterado de conciencia.
+                       expareja
+                                                  Violaciones «correctivas» de mujeres lesbianas.
+
+Incluye iniciación sexual forzada y violaciones en citas o en
                        que no es la pareja o
                                                   estado alterado de conciencia.
                        expareja
@@ -3206,6 +3417,12 @@ o en cualquier otra esfera.
 
 ## 2. Atención integral a la mujer víctima: Está constituida por todas las
 
+**Definición Canónica:** medidas, de cualquier naturaleza, que las y los funcionarios de justicia
+adopten con la finalidad de restituir a la víctima directa e indirecta, a
+la situación en que se encontraba antes de la verificación del hecho de
+violencia, con el objetivo de reparar y posibilitar la reconstrucción de su
+proyecto de vida.
+
 medidas, de cualquier naturaleza, que las y los funcionarios de justicia
 adopten con la finalidad de restituir a la víctima directa e indirecta, a
 la situación en que se encontraba antes de la verificación del hecho de
@@ -3213,6 +3430,9 @@ violencia, con el objetivo de reparar y posibilitar la reconstrucción de su
 proyecto de vida.
 
 ## 3. Evitar la victimización secundaria: Desarrollar todas las acciones
+
+**Definición Canónica:** necesarias para evitar las consecuencias psicológicas, sociales, jurídicas
+y económicas negativas que pueden ocasionar las relaciones de la víctima con el sistema judicial.
 
 necesarias para evitar las consecuencias psicológicas, sociales, jurídicas
 y económicas negativas que pueden ocasionar las relaciones de la víctima con el sistema judicial.
@@ -3225,6 +3445,12 @@ proceso y hasta el momento del fallo, incluyendo la etapa de cumplimiento del mi
 
 ## 2. Considerar que la violencia contra las mujeres puede generar en las
 
+**Definición Canónica:** víctimas una serie de efectos en su salud y bienestar, por lo que es necesario brindarles un trato adecuado durante todo el proceso.
+   3. Instruir a todas las personas que integran los tribunales, con independencia de su competencia, acerca del trato especializado que deben
+recibir las víctimas de violencia, de cómo orientarlas y derivarlas a las
+instituciones que correspondan, para garantizar un debido acceso a la
+justicia y una tutela judicial efectiva. Especialmente, se recomienda advertirles que deben abstenerse de realizar cualquier comentario u observación de carácter sexista y evitar, 
+
 víctimas una serie de efectos en su salud y bienestar, por lo que es necesario brindarles un trato adecuado durante todo el proceso.
    3. Instruir a todas las personas que integran los tribunales, con independencia de su competencia, acerca del trato especializado que deben
 recibir las víctimas de violencia, de cómo orientarlas y derivarlas a las
@@ -3233,6 +3459,12 @@ justicia y una tutela judicial efectiva. Especialmente, se recomienda advertirle
 corresponsabilizar a la víctima.
 
 ## 4. Brindar a las víctimas mecanismos que les permitan acceder en
+
+**Definición Canónica:** forma real, oportuna y efectiva a la justicia, respetando su diversidad
+de condiciones. Entre las medidas y mecanismos se podrían considerar:
+    • Identificar la pertenencia de la víctima a alguna comunidad cultu-
+       ral, étnica y/o lingüística, coordinando de forma oportuna facili-
+       tadores culturales y/o sistemas de interpretación de ser necesario.
 
 forma real, oportuna y efectiva a la justicia, respetando su diversidad
 de condiciones. Entre las medidas y mecanismos se podrían considerar:
@@ -3252,8 +3484,17 @@ de condiciones. Entre las medidas y mecanismos se podrían considerar:
 
 Cuestiones previas al proceso
 
-
 ## 1. Infraestructura: Evaluar los riesgos a que se enfrentan las mujeres que
+
+**Definición Canónica:** se acercan a los tribunales a denunciar situaciones de violencia, a fin de
+solicitar las mejoras que resulten pertinentes para asegurar su protección. Entre ellas se podrían considerar:
+    • Contar con accesos y salidas iluminadas.
+    • Disponer de espacios privados para realizar la denuncia a fin de
+       resguardar su privacidad y evitar la victimización secundaria.
+    • Disponer, en la medida de lo posible, de espacios para la lactancia
+       materna y para el cuidado de los niños y niñas que acompañan a
+       sus madres a fin de garantizar los derechos de estos y, asimismo,
+       fa
 
 se acercan a los tribunales a denunciar situaciones de violencia, a fin de
 solicitar las mejoras que resulten pertinentes para asegurar su protección. Entre ellas se podrían considerar:
@@ -3284,8 +3525,17 @@ implementar buenas prácticas en la medida de lo posible.
 
 Dentro del proceso
 
-
 ## 1. Prestar atención inmediata, integral, coordinada, interinstitucional y
+
+**Definición Canónica:** sostenible a las víctimas, durante todo el proceso. Atender a la víctima en
+el mínimo tiempo posible a partir de su presencia en el tribunal, a través
+de un integrante del tribunal que escuche personalmente su declaración, garantizando su privacidad y activando los canales de articulación
+con los servicios de atención que sean pertinentes.
+    • En el caso de que la denuncia no sea recibida de manera presen-
+      cial, realizar todas las gestiones necesarias para invitar a la víctima
+      a hacerse presente al tribunal a presentar su denuncia y a partici-
+      par en las audiencias.
+    • T
 
 sostenible a las víctimas, durante todo el proceso. Atender a la víctima en
 el mínimo tiempo posible a partir de su presencia en el tribunal, a través
@@ -3338,7 +3588,18 @@ con los servicios de atención que sean pertinentes.
 
 ## 2. Velar por una protección efectiva a las víctimas
 
-   • Consensuar y utilizar una herramienta (Protocolo) que oriente a
+**Definición Canónica:** • Consensuar y utilizar una herramienta (Protocolo) que oriente a
+       los jueces y juezas para identificar factores de riesgo que alerten la
+       necesidad de protección de las víctimas.
+   • Otorgar las medidas cautelares y de protección que sean pertinen-
+       tes y asegurar su ejecución a través de la indicación precisa de quién
+       es el responsable y la fijación de un plazo perentorio para su cum-
+       plimiento. Así también, sería pertinente la entrega de informes de
+       cumplimiento por parte de las instituciones que corresponda, y el
+       establecimiento de un sistema 
+**Concordancias Legales:** artículo 15 de la Ley 20.066 y artículo 92 de la Ley 19.96; Ley 20.066; Ley 19.968; constitucion
+
+• Consensuar y utilizar una herramienta (Protocolo) que oriente a
        los jueces y juezas para identificar factores de riesgo que alerten la
        necesidad de protección de las víctimas.
    • Otorgar las medidas cautelares y de protección que sean pertinen-
@@ -3443,6 +3704,11 @@ determinadas, en salas especializadas y con jueces preferentes.
 
 ## 2. Respecto de la violencia de género que pueden experimentar las
 
+**Definición Canónica:** mujeres privadas de libertad, poner especial atención en las visitas de
+cárcel, por situación de vulnerabilidad en que se encuentran. Asimismo,
+efectuar las acciones de coordinación que sean pertinentes con los Tribunales de Familia y Gendarmería, a fin de otorgarles espacios adecuados y oportunidades para que las mujeres privadas de libertad puedan
+vincularse con sus hijos.
+
 mujeres privadas de libertad, poner especial atención en las visitas de
 cárcel, por situación de vulnerabilidad en que se encuentran. Asimismo,
 efectuar las acciones de coordinación que sean pertinentes con los Tribunales de Familia y Gendarmería, a fin de otorgarles espacios adecuados y oportunidades para que las mujeres privadas de libertad puedan
@@ -3450,8 +3716,9 @@ vincularse con sus hijos.
 
 Materiales Docentes                                                      Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Usuarios en situaciones complejas
 
 Usuarios en situaciones complejas
 
@@ -3604,6 +3871,8 @@ logra sus objetivos.
 
 ## 1. Contacto. El objetivo de este paso es contactarse con la persona y
 
+**Definición Canónica:** lograr su completa atención. Para esto es necesario lo siguiente:
+
 lograr su completa atención. Para esto es necesario lo siguiente:
 
 Materiales Docentes                                                    Capítulo 6
@@ -3631,6 +3900,16 @@ Materiales Docentes                                                    Capítulo
      ofrecerle mi apoyo y orientación en lo que necesite».
 
 ## 3. Traslado a lugar tranquilo. Solo efectuar en el caso que el tribunal
+
+**Definición Canónica:** cuente con un lugar adecuado y una persona con disponibilidad de conducir al usuario o miembro del tribunal afectado a este, a fin de que se
+sienta acompañado, contenido y escuchado. De no ser posible trasladar
+a la persona a otro lugar de atención, ayude a que la persona se reponga,
+atendiéndola mediante la siguiente secuencia:
+   Pregunte amablemente y con seguridad: «¿cuál es su nombre?, ¿qué
+necesita?, ¿qué le sucede?, ¿cómo puedo ayudarle?».
+   Dígale frases como la siguiente: «Si usted quiere, puedo llevarla a un
+lugar donde podrá estar más tranquilo(a) y podremos conversar sobre
+la situ
 
 cuente con un lugar adecuado y una persona con disponibilidad de conducir al usuario o miembro del tribunal afectado a este, a fin de que se
 sienta acompañado, contenido y escuchado. De no ser posible trasladar
@@ -3696,6 +3975,17 @@ acepte las posibilidades de ayuda, información y orientación, movilizándole r
 
 ## 8. Cierre. El objetivo es lograr reunir a la persona rápidamente con
 
+**Definición Canónica:** una red de apoyo cercana y viable. Realice lo siguiente:
+  • Pregúntele a la persona cómo se siente. Según la respuesta, y si
+     esta da cuenta que la persona se siente con mucha angustia, miedo
+     o inseguridad para retomar su rutina, y en el caso de un usuario
+     de tribunal que manifiesta inseguridad de trasladarse a su hogar
+     por el estado en que se encuentra, se sugiere intentar reunirla con
+     algún acompañante o familiar cercano, en caso de no estar acom-
+     pañado.
+  • En el caso de que la persona afectada sea un integrante del tri-
+     bunal, se puede averiguar si algún
+
 una red de apoyo cercana y viable. Realice lo siguiente:
   • Pregúntele a la persona cómo se siente. Según la respuesta, y si
      esta da cuenta que la persona se siente con mucha angustia, miedo
@@ -3742,6 +4032,15 @@ cada objetivo. Solo se debe avanzar al paso siguiente si fue alcanzado el
 anterior.
 
 ## 1. Contacto. Su finalidad es acercarse a la persona que expresa enfado
+
+**Definición Canónica:** o molestia y lograr su completa atención. Para esto establezca contacto
+visual con la persona, salúdela y preséntese. Escuche activamente lo que
+dice, manifestando una actitud de interés, manteniendo una distancia
+física prudente.
+   Si es posible, ofrecer trasladarse a un lugar en que se mantengan separados del resto de los usuarios, para entregar una atención personalizada. No manifestar molestia y hacer caso omiso a los comentarios
+negativos o agresivos que el usuario expresa. Demuestre una actitud de
+firmeza y apoyo a la persona.
+   2. Técnica de reflejo. Su objetivo es que la persona sien
 
 o molestia y lograr su completa atención. Para esto establezca contacto
 visual con la persona, salúdela y preséntese. Escuche activamente lo que
@@ -3793,14 +4092,9 @@ Materiales Docentes                                                   Capítulo 
 conozca este protocolo y disponer del apoyo del personal de seguridad
 del tribunal.
 
-## 5. Cierre. Pretende concluir una atención exitosa y despedirse de la
-
-persona amablemente, expresando un gesto de acogida y despedida.
-
-Materiales Docentes                                                    Capítulo 7
-
-
 ## Capítulo 7
+
+**Definición Canónica:** Comunicación efectiva
 
 Comunicación efectiva
 
@@ -3820,10 +4114,15 @@ tanto, se trata de una habilidad que se puede desarrollar y mejorar.
 
 Características de la comunicación
 
-
 ## 1. Propósitos
 
-    • Informar: Proporciona datos, por ejemplo, un noticiario.
+**Definición Canónica:** • Informar: Proporciona datos, por ejemplo, un noticiario.
+    • Emocionar: Transmite sentimientos, verbigracia, una tarjeta de
+       felicitaciones.
+    • Transmitir el mensaje: Su finalidad es entregar el mensaje de ma-
+       nera cierta, completa, evitando la pérdida de información.
+
+• Informar: Proporciona datos, por ejemplo, un noticiario.
     • Emocionar: Transmite sentimientos, verbigracia, una tarjeta de
        felicitaciones.
     • Transmitir el mensaje: Su finalidad es entregar el mensaje de ma-
@@ -3831,10 +4130,19 @@ Características de la comunicación
 
 Materiales Docentes                                                     Capítulo 7
 
-
 ## 2. Carácter dinámico de la comunicación
 
-   • No es posible dejar de comunicar: Debido a que las formas de co-
+**Definición Canónica:** • No es posible dejar de comunicar: Debido a que las formas de co-
+      municación son diversas, no necesariamente verbales, los gestos,
+      las posturas, ropa e incluso el silencio envían mensajes al receptor
+      en forma constante. Todo nuestro «ser» está en constante comuni-
+      cación, aun cuando no se pretenda hacerlo.
+   • Irreversibilidad de la comunicación: Una vez pronunciadas las pa-
+      labras, no es posible retractarse de su contenido por cuanto ya fue
+      recibido por nuestro interlocutor (diferente es la posibilidad de
+      aclarar lo dicho). Del mismo modo, la comuni
+
+• No es posible dejar de comunicar: Debido a que las formas de co-
       municación son diversas, no necesariamente verbales, los gestos,
       las posturas, ropa e incluso el silencio envían mensajes al receptor
       en forma constante. Todo nuestro «ser» está en constante comuni-
@@ -3856,7 +4164,17 @@ Materiales Docentes                                                     Capítul
 
 ## 3. Factores que intervienen en la comunicación
 
-   • Emisor: Quien expresa el mensaje y está de acuerdo con la inten-
+**Definición Canónica:** • Emisor: Quien expresa el mensaje y está de acuerdo con la inten-
+       ción de transmitirlo.
+   • Mensaje: Información representada por medio de un código que
+       el emisor transmite o quiere transmitir al receptor.
+   • Canal: Medio usado para hacer llegar el mensaje.
+   • Receptor: Persona que recibe el mensaje.
+   • Código: Es el idioma del mensaje.
+   • Contexto: Situación física o psicológica en que se sitúa la comuni-
+       cación.
+
+• Emisor: Quien expresa el mensaje y está de acuerdo con la inten-
        ción de transmitirlo.
    • Mensaje: Información representada por medio de un código que
        el emisor transmite o quiere transmitir al receptor.
@@ -3868,15 +4186,28 @@ Materiales Docentes                                                     Capítul
 
 ## 4. Proceso activo
 
-   Se trata de un proceso dinámico, en el cual todos los elementos (factores) intervienen en algún momento. Además, su desarrollo es en un
+**Definición Canónica:** Se trata de un proceso dinámico, en el cual todos los elementos (factores) intervienen en algún momento. Además, su desarrollo es en un
+contexto concreto con un código y un canal determinado.
+
+Se trata de un proceso dinámico, en el cual todos los elementos (factores) intervienen en algún momento. Además, su desarrollo es en un
 contexto concreto con un código y un canal determinado.
 
 Materiales Docentes                                                      Capítulo 7
 
-
 ## 5. Comunicación institucional
 
-    • Desarrollo de la idea: Primer paso que le da sentido a la comuni-
+**Definición Canónica:** • Desarrollo de la idea: Primer paso que le da sentido a la comuni-
+       cación, se piensa y despliega la idea que se pretende transmitir.
+    • Codificación: Se trata de poner el mensaje en un código común
+       para emisor y receptor, por ejemplo, el uso de un idioma común
+       que ambos entiendan.
+    • Decodificación: El receptor descifra el mensaje, decodifica e inter-
+       preta para construir una idea del mensaje. Si esa idea es equivalen-
+       te a lo que ha dicho el emisor, se ha logrado la comprensión.
+    • Aceptación: Tras decodificar el mensaje, se puede aceptar o recha-
+
+
+• Desarrollo de la idea: Primer paso que le da sentido a la comuni-
        cación, se piensa y despliega la idea que se pretende transmitir.
     • Codificación: Se trata de poner el mensaje en un código común
        para emisor y receptor, por ejemplo, el uso de un idioma común
@@ -3903,41 +4234,38 @@ Materiales Docentes                                                      Capítu
 Tipos de comunicación
 Criterios de clasificación
 
-
-## 1. Tipo de código
-
-    • No lingüístico: Son imágenes, muecas, colores, etcétera.
-    • Lingüístico: Puede ser oral o escrita.
-
 ## 2. Relación entre emisor y receptor
 
-   • Interpersonal: Si emisor y receptor son personas distintas.
+**Definición Canónica:** • Interpersonal: Si emisor y receptor son personas distintas.
+   • Intrapersonal: Si emisor y receptor son la misma persona.
+
+• Interpersonal: Si emisor y receptor son personas distintas.
    • Intrapersonal: Si emisor y receptor son la misma persona.
 
 Materiales Docentes                                                     Capítulo 7
 
-
 ## 3. Participación entre emisor y receptor
 
-   • Unilateral: Si no hay intercambio de roles entre emisor y receptor,
+**Definición Canónica:** • Unilateral: Si no hay intercambio de roles entre emisor y receptor,
        por ejemplo, un discurso.
    • Recíproca: Si emisor y receptor intercambiar ideas, por ejemplo,
        un diálogo o un conversatorio.
 
-## 4. Ubicación del receptor
-
-   • Indirecta: Si el emisor y el receptor se encuentran separados por
-      tiempo o espacio.
-   • Directa: Si el emisor y el receptor se encuentran juntos.
-
-## 5. Tipo de mensaje
-
-    • Privada: Si el mensaje está dirigido a un conjunto cerrado o limi-
-       tado de receptores.
-    • Pública: Si el mensaje está dirigido a un conjunto abierto de recep-
-       tores.
+• Unilateral: Si no hay intercambio de roles entre emisor y receptor,
+       por ejemplo, un discurso.
+   • Recíproca: Si emisor y receptor intercambiar ideas, por ejemplo,
+       un diálogo o un conversatorio.
 
 ## 6. Verbal o lingüística/ no verbal o no lingüística. La comunicación
+
+**Definición Canónica:** verbal es aquella que utiliza la palabra para transmitir el mensaje la que,
+a su vez, puede ser oral o escrita (conversaciones, correos electrónicos).
+La comunicación verbal oral tiene a su favor que es más rápida, existe retroalimentación y proporciona mayor cantidad de información en
+menos tiempo. En cuanto a sus desventajas, tiene un elevado potencial
+de distorsión y el riesgo de interpretación personal es mayor.
+   En cuanto a la comunicación verbal escrita tiene como ventaja que
+existe un registro de la comunicación permanente tangible y verificable,
+asimismo, el contenido del mensaje es 
 
 verbal es aquella que utiliza la palabra para transmitir el mensaje la que,
 a su vez, puede ser oral o escrita (conversaciones, correos electrónicos).
@@ -3960,6 +4288,10 @@ Materiales Docentes                                                     Capítul
 las expresiones faciales y tono de voz.
 
 ## 7. Gráfica. Referida a señales cuyo significado es conocido por una
+
+**Definición Canónica:** comunidad o grupo determinado, por ejemplo, señalética del tránsito.
+   8. Electrónica. A través del uso de medios digitales, que también pueden ser verbales o escritos: mensaje de voz o mensajes de texto enviado
+a través de aplicaciones como Whatsapp.
 
 comunidad o grupo determinado, por ejemplo, señalética del tránsito.
    8. Electrónica. A través del uso de medios digitales, que también pueden ser verbales o escritos: mensaje de voz o mensajes de texto enviado
@@ -4073,12 +4405,25 @@ por cuanto:
 
 ## 1. Sensibilización y difusión del lenguaje claro en las labores del Poder
 
+**Definición Canónica:** Judicial. Se trata de acciones de promoción y socialización del lenguaje
+claro y de su importancia en la función jurisdiccional como en la atención a usuarios.
+   2. Formación dentro del Poder Judicial. Son las actividades de capacitación en materia de lenguaje claro dirigidas a funcionarios y a jueces
+del Poder Judicial.
+
 Judicial. Se trata de acciones de promoción y socialización del lenguaje
 claro y de su importancia en la función jurisdiccional como en la atención a usuarios.
    2. Formación dentro del Poder Judicial. Son las actividades de capacitación en materia de lenguaje claro dirigidas a funcionarios y a jueces
 del Poder Judicial.
 
 ## 3. Articulación interna. Referida a la coordinación que debe existir
+
+**Definición Canónica:** en todos los proyectos relacionados a acceso a la justicia y atención de
+usuarios que llevan a cabo en el Poder Judicial.
+   4. Coordinación interinstitucional. Relacionado con acciones de vinculación externa con otras instituciones públicas.
+   Asimismo, la Comisión elaboró un Glosario de términos legales1junto a la Dirección de Asuntos Internacionales y Derechos Humanos de
+la Corte Suprema, apoyados por la doctora en Filología, doña Claudia
+Poblete, lo que refleja uno de los principales objetivos a los que se encuentra avocado el Poder Judicial, que es el de acercar el quehacer de los
+tribun
 
 en todos los proyectos relacionados a acceso a la justicia y atención de
 usuarios que llevan a cabo en el Poder Judicial.
@@ -4092,8 +4437,9 @@ simplificar el entendimiento de la comunidad sobre la función que desarrollan l
 los servicios judiciales, un listado de los términos jurídicos comúnmente utilizados en tribunales, a fin de acercar a la comunidad el lenguaje
 técnico de una forma más sencilla, mediante la exposición de términos
 
-
 ## 1 El Glosario de términos legales se puede encontrar en el siguiente enlace: https://
+
+**Definición Canónica:** bit.ly/3yF6w5E.
 
 bit.ly/3yF6w5E.
 
@@ -4125,8 +4471,9 @@ ciudadanas.
    La promoción del lenguaje inclusivo busca cuestionar el uso del lenguaje que invisibiliza y, potencialmente, refuerza la discriminación a las
 mujeres u otros grupos, por cuanto a partir de los discursos se construyen relaciones de poder.
 
-
 ## 2 El Manual para el uso del lenguaje inclusivo no sexista en el Poder Judicial se
+
+**Definición Canónica:** puede encontrar en el siguiente enlace https://bit.ly/3yCh7hK.
 
 puede encontrar en el siguiente enlace https://bit.ly/3yCh7hK.
 
@@ -4148,8 +4495,18 @@ sexista es que contribuye a perpetuar estereotipos sexistas o de género.
       los derechos humanos y las libertades fundamentales en igualdad de
       condiciones a todas las personas.
 
-
 ## 2. Principio de enfoque de género en el acceso a la justicia. Entendido
+
+**Definición Canónica:** como «la incorporación del enfoque de género en todo el quehacer del
+Poder Judicial, tanto en lo referido a la solución efectiva de los conflictos
+y el ejercicio de la labor jurisdiccional, como en los servicios de atención
+de usuarios y usuarias».
+   De este modo, la promoción del uso del lenguaje inclusivo apunta a
+evitar el sexismo y la consecuente discriminación que produce. El propósito es que todas las personas se sientan comprendidas al momento
+en que los tribunales de justicia se comunican, principalmente, a través
+de sus resoluciones como también al prestar atención a los usuarios y
+u
+**Concordancias Legales:** Ley 20.880
 
 como «la incorporación del enfoque de género en todo el quehacer del
 Poder Judicial, tanto en lo referido a la solución efectiva de los conflictos

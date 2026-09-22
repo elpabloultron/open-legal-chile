@@ -13,20 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-
 ## Docentes
 
+**Definición Canónica:** Convenio
+             169 de la OIT
+                 sobre
+                 Pueblos
+                 Indígenas
 
-             Convenio
+Convenio
              169 de la OIT
                  sobre
                  Pueblos
@@ -43,20 +38,21 @@ extraccion: pdftotext
 
              Academi a   Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-
 ## Docentes
 
+**Definición Canónica:** Sebastián
+                                     Donoso
+                                     Rodrígue z
+                                Abogado de la Pontificia Universidad Católica
+                                de Chile. Magíster en Social Policy and Plan-
+                                ning in Developing Countries (London School
+                                of Economics). Profesor asociado de legisla-
+                                ción indígena en la Facultad de Derecho de la
+                                Pontificia Universidad Católica de Chile, in-
+                                v
+**Concordancias Legales:** constitucion
 
-                                Sebastián
+Sebastián
                                      Donoso
                                      Rodrígue z
                                 Abogado de la Pontificia Universidad Católica
@@ -91,13 +87,11 @@ Santiago,
 Chile 2021
                                 Consejo Consultivo.
 
-
-## Isbn n°
-
-
 ## 2022-a-1853
 
-Convenio 169                                                                                                           3
+**Definición Canónica:** Convenio 169                                                                                                           3
+
+Convenio 169                                                                                                           3
 
                                          Resumen
 
@@ -123,55 +117,19 @@ Chile 2021
 
                                          1. El Convenio 169 como tratado de derechos humanos                                                               8
 
-
-## 1.1 El Convenio 169 en manos de los jueces: criterios generales de aplicación judicial de los
-
-                                                  tratad os internacion ales                                                                               9
-
-
-## 1.1.1   La dimensión normativa y hermenéutica del Tratado                                                10
-
-
-
-## 1.1.2 Como se interpreta el Convenio 169: criterios e insumos técnicos                                   12
-
-
-
-## 1.1.3   La cláusula de flexibilida d                                                                     16
-
-
-
-## 1.1.4   Otros instrumentos de protección de los derechos humanos de los pueblos indígenas                17
-
-
-
-## 1.2 La historia de la ratificación: jurisprudencia del Tribunal Constitucional más desarrollo reglamentario
-
-                                                y legisla tiv o posterior                                                                                 30
-
-
-## 1.2.1   El fallo del Tribunal Constitucional de 2000                                                     30
-
-
-
 ## 1.2.2   Desarrollo legislativo ulterior y aplicación directa                                             33
 
-
-                                                 1.2.3   A quiénes protege el Convenio: quiénes forman parte de los pueblos indígenas y tribales.
+**Definición Canónica:** 1.2.3   A quiénes protege el Convenio: quiénes forman parte de los pueblos indígenas y tribales.
                                                          Pueblos indígenas rurales y urbanos                                                              36
 
-
-## 1.2.4 Dimensión individual                                                                               45
-
-
-
-## 1.2.5 Pertenencia y autoidentificación                                                                   47
-
-
+1.2.3   A quiénes protege el Convenio: quiénes forman parte de los pueblos indígenas y tribales.
+                                                         Pueblos indígenas rurales y urbanos                                                              36
 
 ## 1.3 Qué protege el Convenio: derechos individuales y derechos colectivos, identidad cultural
 
-                                                y autodeterm ina ción                                                                                     50
+**Definición Canónica:** y autodeterm ina ción                                                                                     50
+
+y autodeterm ina ción                                                                                     50
 
                                          2. La consulta y las formas de participación en el Convenio                                                      52
 
@@ -185,64 +143,41 @@ Chile 2021
 
                                             2.5 El derecho-deber de consulta indígena. Principios rectores o estándares                                   61
 
-
 ## 2.6 El derecho-deber de consulta indígena. Desarrollo e interpretación de sus principios rectores
 
-                                                o estándares                                                                                              64
+**Definición Canónica:** o estándares                                                                                              64
+**Concordancias Legales:** artículo 6 del Convenio
+
+o estándares                                                                                              64
 
                                             2.7 Vinculabilidad de la consulta                                                                             70
 
                                             2.8 Reglamentación interna de la consulta del artículo 6 del Convenio                                         73
 
-
-## 2.8.1   Reglamentación temprana de la consulta del artículo 6: el Decreto Supremo N° 124 de 2009         74
-
-
-
 ## 2.8.2   Reglamentación doméstica actualmente vigente de la consulta del artículo 6                       74
 
+**Definición Canónica:** 2.9 Consulta de medidas legislativas                                                                          82
+Convenio 169                                                                           Índice                                                                     5
+**Concordancias Legales:** artículo 7 del Convenio
 
-                                            2.9 Consulta de medidas legislativas                                                                          82
+2.9 Consulta de medidas legislativas                                                                          82
 Convenio 169                                                                           Índice                                                                     5
 
                                             2.10 El mecanismo de participación del artículo 7 del Convenio                                                   91
 
-
 ## 2.11 El estándar de consentimiento en el Convenio. El artículo 16 y el traslado de los pueblos
 
-                                                 indígenas de las tierras que ocupan                                                                         94
+**Definición Canónica:** indígenas de las tierras que ocupan                                                                         94
+
+indígenas de las tierras que ocupan                                                                         94
 
                                             2.12 La consulta en la jurisprudencia de los tribunales ordinarios y ambientales                                100
 
-
-## 2.12.1 Qué medidas se consultan                                                                           100
-
-
-
-## 2.12.2 En qué casos de consulta (medidas susceptibles de causar afectación directa a pueblos indígenas)   105
-
-
-
-## 2.12.3 Como se consulta                                                                                   109
-
-
-
-## 2.12.4 A quién se consulta                                                                                110
-
-
-
-## 2.12.5 Qué consecuencias tiene la omisión de la consulta                                                  112
-
-
-
-## 2.12.6 Qué sucede si la comunidad no participa en un proceso de consulta o se retira de él                114
-
-
-
 ## 2.12.7 Jurisprudencia en sede de protección                                                               117
 
+**Definición Canónica:** 2.13 La consulta en la jurisprudencia administrativa                                                            120
 
-                                            2.13 La consulta en la jurisprudencia administrativa                                                            120
+2.13 La consulta en la jurisprudencia administrativa                                                            120
 
                                          3. Tierras, territorio y recursos naturales                                                                        122
 
@@ -251,54 +186,20 @@ Chile 2021
                                             3.2 Las tierras en el Convenio: vinculación con el derecho a la libre determinación,
                                                  ‘importancia especial’ y deberes para los gobiernos                                                        124
 
-
 ## 3.2.1 Las tierras y el derecho a la libre determinación                                                   125
 
-
-                                                  3.2.2   ‘Importancia especial’ de la relación de los pueblos indígenas con las tierras; introducción
+**Definición Canónica:** 3.2.2   ‘Importancia especial’ de la relación de los pueblos indígenas con las tierras; introducción
                                                           del concepto de territorio                                                                        125
 
-
-## 3.2.3   Derechos de los pueblos indígenas sobre las tierras y deberes correlativos de los gobiernos       127
-
-
-
-## 3.3 El régimen de protección de las tierras indígenas. Los derechos que reconoce y deberes que
-
-                                                establece el Conven io                                                                                      129
-
-
-## 3.3.1   Régimen de las tierras indígenas en el Convenio: aproximación al concepto ‘tierras’
-
-                                                          en sentido amplio                                                                                 131
-
-
-## 3.3.2   Régimen de las tierras indígenas en el Convenio: alcance del concepto ‘tierras’                   133
-
-
-
-## 3.3.3   Régimen de las tierras indígenas en el Convenio: consideración especial de los aspectos
-
-                                                          colectivos de la relación entre los pueblos indígenas y las tierras o territorios                 133
-
-
-## 3.3.4   Derechos de los pueblos indígenas sobre las tierras y deberes correlativos de los gobiernos       136
-
-
-                                            3.4 El régimen de los recursos naturales. Los derechos que reconoce el Convenio 169                             138
-
-
-## 3.4.1 El régimen de los recursos naturales y su vinculación con el concepto de territorio                 138
-
-
-
-## 3.4.2 El régimen de los recursos naturales. Artículo 15                                                   141
-
-
+3.2.2   ‘Importancia especial’ de la relación de los pueblos indígenas con las tierras; introducción
+                                                          del concepto de territorio                                                                        125
 
 ## 3.5 Reglas especiales respecto al traslado o reasentamiento de los pueblos indígenas
 
-                                                de las tierras que ocupan. Artículo 16                                                                      143
+**Definición Canónica:** de las tierras que ocupan. Artículo 16                                                                      143
+**Concordancias Legales:** Artículo 16; Artículo 19
+
+de las tierras que ocupan. Artículo 16                                                                      143
 
                                             3.6 Mecanismos de ‘ampliación’ de las tierras indígenas en el Convenio 169. Artículo 19                         148
 Convenio 169                                                                           Índice                                                                      6
@@ -311,17 +212,19 @@ Chile 2021
 
                                                   3.8.2   Estatus de las Áreas de Desarrollo Indígena en relación al concepto de territorio                      157
 
-
 ## 3.8.3   Constitución de servidumbres mineras sobre tierras indígenas. Relación con las
 
-                                                          disposicion es del Convenio                                                                            160
+**Definición Canónica:** disposicion es del Convenio                                                                            160
+
+disposicion es del Convenio                                                                            160
 
                                          4. El componente indígena en los litigios judiciales                                                                    163
 
-
 ## 4.1   El Convenio 169 y la reinterpretación de los derechos fundamentales constitucionales en clave
 
-                                                  indígena: recurs os de protección y amparo                                                                     174
+**Definición Canónica:** indígena: recurs os de protección y amparo                                                                     174
+
+indígena: recurs os de protección y amparo                                                                     174
 
                                                   4.1.1   El acceso a la justicia                                                                                175
 
@@ -331,19 +234,22 @@ Chile 2021
 
                                             4.2   Las normas especiales en materia civil: conflictos civiles, electorales y asociativos                          181
 
-
 ## 4.3   Normativa en materia laboral y de seguridad social: las comunidades como empleadoras
 
-                                                  y los indígen as como trabajad ores                                                                            184
+**Definición Canónica:** y los indígen as como trabajad ores                                                                            184
+
+y los indígen as como trabajad ores                                                                            184
 
                                             4.4   El impacto del Convenio en materia penal: persecución penal e instituciones de justicia penal indígena         188
 
                                                   4.4.1   Persecución penal estatal de los miembros de comunidades indígenas                                     188
 
-
 ## 4.4.2   La comunidad sancionadora: el deber del juez de considerar las instituciones
 
-                                                          de justicia penal indígena                                                                             197
+**Definición Canónica:** de justicia penal indígena                                                                             197
+**Concordancias Legales:** artículo 10 de la Ley N; Ley N° 19.253; Ley N° 20.249; Ley Nº 19.300
+
+de justicia penal indígena                                                                             197
 
                                          5. La incardinación del Convenio en la normativa especial vigente en Chile                                              200
 
@@ -369,59 +275,32 @@ Chile 2021
 
                                                   5.3.2   El sancionatorio ambiental                                                                             223
 
-
 ## 5.3.3   La tutela jurisdiccional en los procedimientos de evaluación ambiental: el acceso
 
-                                                          a la justicia de los pueblos indígenas                                                                 224
+**Definición Canónica:** a la justicia de los pueblos indígenas                                                                 224
+**Concordancias Legales:** Ley Nº 16.441
+
+a la justicia de los pueblos indígenas                                                                 224
 
                                             5.4   Ley Nº 16.441 que crea el Departamento de Isla de Pascua y otras normas especiales sobre Rapa Nui              229
 Convenio 169                                                                                       Índice                                                                    7
 Pueblos Indigenas
 
-
-## 5.4.1   La Ley Nº 16.441, que crea el Departamento de Isla de Pascua                                       231
-
-
-
-## 5.4.2   Ley Nº 21.070, que regula el ejercicio de los derechos a residir, permanecer y trasladarse hacia
-
-                                                                        y desde el territorio especial de Isla de Pascua                                                   234
-
-
 ## 5.5   Normativa sectorial sobre recursos naturales, con particular referencia a la que es aplicada
 
-                                                                por los jueces civiles (concesiones mineras, contencioso del Código de Aguas y contencioso
+**Definición Canónica:** por los jueces civiles (concesiones mineras, contencioso del Código de Aguas y contencioso
                                                                 especial del art. 56 de la Ley N° 19.253)                                                                  236
+**Concordancias Legales:** Ley N° 19.253
 
-
-## 5.5.1   Código de Minería, concesiones mineras y pueblos indígenas                                         236
-
-
-
-## 5.5.2   Las aguas y los pueblos indígenas en la normati va domés ti ca                                     244
-
-
-                                                          5.6   Normativa sectorial sobre patrimonio cultural indígena                                                     273
-
-
-## 5.6.1   Normativa sectorial doméstica                                                                      274
-
-
-
-## 5.6.2   El patrimonio cultural indígena en la jurisprudencia de los tribunales ordinarios                  276
-
-
-                                                          5.7   Salud y educación                                                                                          281
-
-
-## 5.7.1   Salud y autodeterminación                                                                          281
-
-
+por los jueces civiles (concesiones mineras, contencioso del Código de Aguas y contencioso
+                                                                especial del art. 56 de la Ley N° 19.253)                                                                  236
 
 ## 5.7.2   Educación                                                                                          285
 
+**Definición Canónica:** Bibliogra fía                                                                                                        289
+**Concordancias Legales:** artículo 5; Constitución; Constitucion
 
-                                                      Bibliogra fía                                                                                                        289
+Bibliogra fía                                                                                                        289
 
                                                                   El Convenio 169
                                                                     como tratado
@@ -501,10 +380,16 @@ de la OIT sobre                                                                 
                                                                                                  que afirmó ese tribunal cuando declaró condicionalmente que
                                                                                                  el tratado no violaba la Constitución.1
 
-
 ## 1.1.1 La dimensión normativa y
 
-                                                                                              hermenéutica del Tratado
+**Definición Canónica:** hermenéutica del Tratado
+                                                                                              Desde el punto de vista funcional, el Convenio 169 es norma deci-
+                                                                                              soria litis y, salvo algunas disposiciones que requieren de desarrollo
+                                                                                              legislativo, es en gran medida una norma autoejecutable, esto es,
+                                                                                          
+**Concordancias Legales:** artículo 17; artículos 8; Ley N° 19.970; constitucion; Constitución
+
+hermenéutica del Tratado
                                                                                               Desde el punto de vista funcional, el Convenio 169 es norma deci-
                                                                                               soria litis y, salvo algunas disposiciones que requieren de desarrollo
                                                                                               legislativo, es en gran medida una norma autoejecutable, esto es,
@@ -566,10 +451,16 @@ de la OIT sobre                                                                 
                                                                                                      fin del Convenio. Ello sería buscando la forma de obtención de
                                                                                                      la muestra que fuera menos lesiva a los derechos del indígena.
 
-
 ## 1.1.2 Como se interpreta el Convenio
 
-                                                                                                169: criterios e insumos técnicos
+**Definición Canónica:** 169: criterios e insumos técnicos
+                                                                                                La primera cuestión que debe tenerse present e es que la interpre-
+                                                                                                tación del Convenio no se ciñe a las normas de interpretación del
+                                                                                                Código Civil. Se aplica, por el contrario, las reglas de la Convención
+                                                                          
+**Concordancias Legales:** artículos 31
+
+169: criterios e insumos técnicos
                                                                                                 La primera cuestión que debe tenerse present e es que la interpre-
                                                                                                 tación del Convenio no se ciñe a las normas de interpretación del
                                                                                                 Código Civil. Se aplica, por el contrario, las reglas de la Convención
@@ -584,7 +475,15 @@ de la OIT sobre                                                                 
 
 ## 2. Para los efectos de la interpretación de un tratado. el contexto comprenderá, además del texto, incluidos
 
-                                                                su preámbulo y anexos:
+**Definición Canónica:** su preámbulo y anexos:
+                                                                a) todo acuerdo que se refiera al tratado y haya sido concertado entre todas las partes con motivo de la
+                                                                celebración del tratado:
+                                                                b) todo instrumento formulado por una o más partes con motivo de la celebración del tratado y aceptado
+                                                                por las demás como instrumento referente al tratado;
+                                   
+**Concordancias Legales:** artículo 31
+
+su preámbulo y anexos:
                                                                 a) todo acuerdo que se refiera al tratado y haya sido concertado entre todas las partes con motivo de la
                                                                 celebración del tratado:
                                                                 b) todo instrumento formulado por una o más partes con motivo de la celebración del tratado y aceptado
@@ -639,17 +538,28 @@ de la OIT sobre                                                                 
 
 ## 33. Interpretación de tratados autenticados en dos o más idiomas. 1. Cuando un tratado haya sido autenti-
 
-                                                                cado en dos o más idiomas, el texto hará igualmente fe en cada idioma, a menos que el tratado disponga o
+**Definición Canónica:** cado en dos o más idiomas, el texto hará igualmente fe en cada idioma, a menos que el tratado disponga o
+                                                                las partes convengan que en caso de discrepancia prevalecerá uno de los textos.
+
+cado en dos o más idiomas, el texto hará igualmente fe en cada idioma, a menos que el tratado disponga o
                                                                 las partes convengan que en caso de discrepancia prevalecerá uno de los textos.
 
 ## 2. Una versión del tratado en idioma distinto de aquel en que haya sido autenticado el texto será considerada
 
-                                                                como texto auténtico únicamente si el tratado así lo dispone o las partes así lo convienen.
+**Definición Canónica:** como texto auténtico únicamente si el tratado así lo dispone o las partes así lo convienen.
+                                                                3. Se presumirá que los términos del tratado tienen en cada texto auténtico igual sentido.
+
+como texto auténtico únicamente si el tratado así lo dispone o las partes así lo convienen.
                                                                 3. Se presumirá que los términos del tratado tienen en cada texto auténtico igual sentido.
 
 ## 4. Salvo en el caso en que prevalezca un texto determinado conforme a lo previsto en el párrafo 1, cuand o
 
-                                                                la comparación de los textos auténticos revele una diferencia de sentido que no pueda resolverse con la
+**Definición Canónica:** la comparación de los textos auténticos revele una diferencia de sentido que no pueda resolverse con la
+                                                                aplicación de los artículos 31 y 39, se adoptará el sentido que mejor concilie esos textos, habida cuenta del
+                                                                objeto y fin del tratado”.
+**Concordancias Legales:** artículos 31
+
+la comparación de los textos auténticos revele una diferencia de sentido que no pueda resolverse con la
                                                                 aplicación de los artículos 31 y 39, se adoptará el sentido que mejor concilie esos textos, habida cuenta del
                                                                 objeto y fin del tratado”.
 
@@ -754,10 +664,14 @@ de la OIT sobre                                                                 
                                                                   es relativamente breve. Como sea, hay allí un insumo importante a
                                                                   tener present e por los operadores del Convenio.
 
-
 ## 1.1.3 La cláusula de flexibilidad
 
-                                                                  Con relación a las medidas que los estados adopten para cumplir con
+**Definición Canónica:** Con relación a las medidas que los estados adopten para cumplir con
+                                                                  las disposiciones del Convenio 169, el mismo instrumento señala en
+                                                                  su artículo 34:
+**Concordancias Legales:** artículo 34; artículo 28 del Convenio 107; constitucion
+
+Con relación a las medidas que los estados adopten para cumplir con
                                                                   las disposiciones del Convenio 169, el mismo instrumento señala en
                                                                   su artículo 34:
 
@@ -807,10 +721,14 @@ de la OIT sobre                                                                 
                                                                                                 estados de ofrecer más de una forma de cumplir con las obligaciones
                                                                                                 del Convenio.
 
-
 ## 1.1.4 Otros instrumentos de protección de los
 
-                                                                                                derechos humanos de los pueblos indígenas
+**Definición Canónica:** derechos humanos de los pueblos indígenas
+                                                                                                El convenio 169 no se interpreta ni aplica en un vacío normativ o.
+                                                                                                Existen numerosos instrumentos internacionales generales en
+                                                                                                materia de derechos humanos que también ofrecen alguna forma
+
+derechos humanos de los pueblos indígenas
                                                                                                 El convenio 169 no se interpreta ni aplica en un vacío normativ o.
                                                                                                 Existen numerosos instrumentos internacionales generales en
                                                                                                 materia de derechos humanos que también ofrecen alguna forma
@@ -834,10 +752,14 @@ de la OIT sobre                                                                 
                                                                    y protección de
                                                                    derechos de los PP.II.
 
-
 ## 1.1.4.1 Sistema de Naciones Unidas
 
-                                                                                              Chile es parte de catorce instrumentos del sistema de Naciones
+**Definición Canónica:** Chile es parte de catorce instrumentos del sistema de Naciones
+                                                                                              Unidas14 y están a la cabeza el PIDCP y el PIDESC. Del primero, la
+                                                                                              norma particular más relevant e es el artículo 27 que dispone:
+**Concordancias Legales:** artículo 27; artículo 27 del Pacto Internacional de Derechos Civiles y Pol; Ley N° 20.000; constitucion
+
+Chile es parte de catorce instrumentos del sistema de Naciones
                                                                                               Unidas14 y están a la cabeza el PIDCP y el PIDESC. Del primero, la
                                                                                               norma particular más relevant e es el artículo 27 que dispone:
 
@@ -925,7 +847,12 @@ de la OIT sobre                                                                 
 
 ## (ccpr)
 
-                                                                                                Comité para la Eliminación      Nº 21: Derecho a la autodeterminación
+**Definición Canónica:** Comité para la Eliminación      Nº 21: Derecho a la autodeterminación
+                                                                                                de la Discriminación Racial
+                                                                                                (CERD)                          Nº 34: Discriminación contra personas
+                                                                                                                                afrodescendientes
+
+Comité para la Eliminación      Nº 21: Derecho a la autodeterminación
                                                                                                 de la Discriminación Racial
                                                                                                 (CERD)                          Nº 34: Discriminación contra personas
                                                                                                                                 afrodescendientes
@@ -1006,23 +933,27 @@ de la OIT sobre                                                                 
                                                                                              o a modelos culturales conexos, lo que, en consecuencia, da
                                                                                              lugar al deber de celebrar consultas” (cursivas añadidas).18
 
-
 ## 1.1.4.2 El sistema interamericano
 
-                                                                                        Para el sistema de la Organización de Estados Americanos, com-
+**Definición Canónica:** Para el sistema de la Organización de Estados Americanos, com-
+                                                                                        plementan el Convenio 169 las disposiciones de la Convención
+                                                                                        Americana de Derechos Humanos, la Declaración Americana de
+                                                                                        derechos de los pueblos indígenas (2016), la doctrina de la Comisión
+                                                                                    
+
+Para el sistema de la Organización de Estados Americanos, com-
                                                                                         plementan el Convenio 169 las disposiciones de la Convención
                                                                                         Americana de Derechos Humanos, la Declaración Americana de
                                                                                         derechos de los pueblos indígenas (2016), la doctrina de la Comisión
                                                                                         Interamericana y, particularmente, la jurisprudencia de la Corte IDH.19
 
-
-## 17        relator especial de naciones unidas sobre la situación de los derechos humanos y li-
-
-                                                                BERTADE S FUNDAME NTALE S DE LOS PUEBLOS INDÍGENAS (2009) párr. 43.
-
 ## 18        relator especial de naciones unidas sobre la situación de los derechos humanos y li-
 
-                                                                BERTADE S FUNDAME NTALE S DE LOS PUEBLOS INDÍGENAS (2009), párr. 43.
+**Definición Canónica:** BERTADE S FUNDAME NTALE S DE LOS PUEBLOS INDÍGENAS (2009), párr. 43.
+                                                      19        AG/RES.2888 (XLVI-O/16) , 14 de junio de 2016.
+**Concordancias Legales:** constitucion; constitución
+
+BERTADE S FUNDAME NTALE S DE LOS PUEBLOS INDÍGENAS (2009), párr. 43.
                                                       19        AG/RES.2888 (XLVI-O/16) , 14 de junio de 2016.
 
 Convenio 169                                                                                  1. El Conv enio 169 como tratado                                                 23
@@ -1055,7 +986,14 @@ de la OIT sobre                                                                 
 
 ## 21        Cf. www.celade.cepal.org
 
-                                                      22        Perrotti (2004).
+**Definición Canónica:** 22        Perrotti (2004).
+                                                      23        Véanse los siguientes fallos de la Corte Constitucional de Colombia: T- 282-11 (12 de abril de 2011), T-704 de
+                                                                2006 (22 de agosto de 2006); C-030 de 2008 (23 de enero de 2008); C-401 de 2005 (14 de abril de 2005);
+                                                                SU-039 de 1997 (3 de febrero de 1997); C-169 de 2001 (14 de febrero de 2001); SU-383 de 2003 (13 de mayo
+                                                              
+**Concordancias Legales:** artículo 29; artículo 21 de la Convención protege el derecho a la propiedad; Constitucion; Constitución; Constitución Política
+
+22        Perrotti (2004).
                                                       23        Véanse los siguientes fallos de la Corte Constitucional de Colombia: T- 282-11 (12 de abril de 2011), T-704 de
                                                                 2006 (22 de agosto de 2006); C-030 de 2008 (23 de enero de 2008); C-401 de 2005 (14 de abril de 2005);
                                                                 SU-039 de 1997 (3 de febrero de 1997); C-169 de 2001 (14 de febrero de 2001); SU-383 de 2003 (13 de mayo
@@ -1335,10 +1273,16 @@ de la OIT sobre                                                                 
                                                                                                más desarrollo reglamentario y legislativo
                                                                                                posterior
 
-
 ## 1.2.1 El fallo del Tribunal Constitucional de 2000
 
-                                                                                               El Tribunal Constitucional desde fines de la década de los 90 ha
+**Definición Canónica:** El Tribunal Constitucional desde fines de la década de los 90 ha
+                                                                                               venido configurando una serie de criterios para el control preventivo
+                                                                                               de los tratados internacionales, criterios que tuvieron su aplicación
+                                                                                               en la sentencia rol N° 309 de 2000.29 Esta sentencia es importante,
+                                          
+**Concordancias Legales:** artículo 9; Artículo 14.1; Constitucion; Constitución
+
+El Tribunal Constitucional desde fines de la década de los 90 ha
                                                                                                venido configurando una serie de criterios para el control preventivo
                                                                                                de los tratados internacionales, criterios que tuvieron su aplicación
                                                                                                en la sentencia rol N° 309 de 2000.29 Esta sentencia es importante,
@@ -1397,13 +1341,16 @@ de la OIT sobre                                                                 
                                                                 sistencia. A este respecto, deberá prestarse particular atención a la situación de los pueblos nómadas y de
                                                                 los agricultore s itinerantes.
 
-## 2. Los gobiernos deberán tomar las medidas que sean necesarias para determinar las tierras que los pueblos in-
-
-                                                                teresados ocupan tradicionalmente y garantizar la protección efectiva de sus derechos de propiedad y posesión.
-
 ## 3. Deberán instituirse procedimientos adecuados en el marco del sistema jurídico nacional para solucionar
 
-                                                                las reivindicaciones de tierras formuladas por los pueblos interesados”.
+**Definición Canónica:** las reivindicaciones de tierras formuladas por los pueblos interesados”.
+                                                      32        “Que en cuanto a la inconstitucionalidad que se le imputa al Convenio, en relación a la necesidad de expropiar
+                                                                tierras para ser entregadas a los pueblos indígenas, además de la razón antes mencionada, esto es, que el
+                                                                Convenio no ejecuta por sí mismo las medidas sino que invita al Estado a ponerlas en ejecución, debe preci-
+          
+**Concordancias Legales:** artículo 19; artículo 1; artículo 17; artículo 54 de la Constitución; Ley Nº 19.253; constitucion; Constitución Política; Constitución
+
+las reivindicaciones de tierras formuladas por los pueblos interesados”.
                                                       32        “Que en cuanto a la inconstitucionalidad que se le imputa al Convenio, en relación a la necesidad de expropiar
                                                                 tierras para ser entregadas a los pueblos indígenas, además de la razón antes mencionada, esto es, que el
                                                                 Convenio no ejecuta por sí mismo las medidas sino que invita al Estado a ponerlas en ejecución, debe preci-
@@ -1505,10 +1452,16 @@ de la OIT sobre                                                                 
                                                                        son de competencia exclusiva del presidente de la
                                                                        República.
 
-
 ## 1.2.2 Desarrollo legislativo           ulterior y aplicación     directa
 
-                                                                  La incorporación al derecho interno del Convenio 169 ciertamente
+**Definición Canónica:** La incorporación al derecho interno del Convenio 169 ciertamente
+                                                                  trastoca el orden de distintas instituciones políticas, administrativas,
+                                                                  civiles, penales y procesales. Ello habría aconsejado que, en forma
+                                                                  previa a su aprobación, las normas internas incompatibles con el
+                                                                  convenio hubiesen sido revisadas y reformadas para evitar conflic
+**Concordancias Legales:** artículo 6; artículo 22 de la Ley N; artículos 62; artículos 34; artículo 1; Artículo 2; Artículo 3; Ley N° 18.918; Ley N° 21.298; ley Nº 19.253; Ley N° 19.253; Ley N° 21.151; Constitucion; Constitución; Constitución Política
+
+La incorporación al derecho interno del Convenio 169 ciertamente
                                                                   trastoca el orden de distintas instituciones políticas, administrativas,
                                                                   civiles, penales y procesales. Ello habría aconsejado que, en forma
                                                                   previa a su aprobación, las normas internas incompatibles con el
@@ -1810,10 +1763,13 @@ de la OIT sobre                                                                 
                                                                        esta última a situación reclama estar, por ejemplo, el pueblo
                                                                        gitano o Rom.
 
-
 ## 1.2.3.1 Dimensión colectiva
 
-                                                                  La primera dimensión a atender en el caso de los pueblos indígenas
+**Definición Canónica:** La primera dimensión a atender en el caso de los pueblos indígenas
+                                                                  es su consustancial carácter colectivo.
+**Concordancias Legales:** artículo 6; artículo 7; artículo 768 del Código de Procedi; Ley N° 19.253; Ley N° 20.500; Ley N° 19.300; Ley N° 20.249; constitución; constitucion
+
+La primera dimensión a atender en el caso de los pueblos indígenas
                                                                   es su consustancial carácter colectivo.
 
                                                                   Un pueblo indígena es un grupo de individuos (i) que se distingue de
@@ -2032,10 +1988,14 @@ de la OIT sobre                                                                 
 
                                                                   Síntesis de la dimensión colectiva
 
-
 ## 1.2.4 Dimensión individual
 
-                                                                  Los grupos están conformados por individuos, y tanto los tratados
+**Definición Canónica:** Los grupos están conformados por individuos, y tanto los tratados
+                                                                  internacionales tales como el Convenio 169 reconocen derechos
+                                                                  de esos individuos. Sin embargo, como ya se ha dicho, el eje de la
+                                                                  protección propia del Convenio 169 no es tanto el individuo como el
+
+Los grupos están conformados por individuos, y tanto los tratados
                                                                   internacionales tales como el Convenio 169 reconocen derechos
                                                                   de esos individuos. Sin embargo, como ya se ha dicho, el eje de la
                                                                   protección propia del Convenio 169 no es tanto el individuo como el
@@ -2106,10 +2066,17 @@ de la OIT sobre                                                                 
                                                                        541-2014, confirmada por sentencia de la Corte Suprema, 1
                                                                        de abril de 2015, rol N° 130-2015.
 
-
 ## 1.2.5 Pertenencia y autoidentificación
 
-                                                                  Entre los primeros derechos individuales propios de la condición
+**Definición Canónica:** Entre los primeros derechos individuales propios de la condición
+                                                                  indígena habría que considerar el derecho a pertenecer a una or-
+                                                                  ganización indígena y a ser reconocido como tal. Estos derechos, si
+                                                                  bien están relacionados, no son idénticos. El derecho a ser recono-
+                                                                  cido, es el derecho a adscribir a un grupo humano indígena. A él se
+  
+**Concordancias Legales:** Artículo 2; artículo 12; artículos 2; Ley N° 19.253
+
+Entre los primeros derechos individuales propios de la condición
                                                                   indígena habría que considerar el derecho a pertenecer a una or-
                                                                   ganización indígena y a ser reconocido como tal. Estos derechos, si
                                                                   bien están relacionados, no son idénticos. El derecho a ser recono-
@@ -2231,11 +2198,15 @@ de la OIT sobre                                                          de dere
 
                                                                         Tabla comparativa
 
-
 ## C 107, 1957                       c 169, 1989
 
+**Definición Canónica:** I. Principios generales           I. Política general: identidad,
+                                                                                                            integridad, igualdad, consulta (6),
+                                                                                                            autodeterminación (7), costumbre
+                                                                                                            (8)
+                                                                          II. Tierras (11-14)               II. Tierras: territorios, der
 
-                                                                          I. Principios generales           I. Política general: identidad,
+I. Principios generales           I. Política general: identidad,
                                                                                                             integridad, igualdad, consulta (6),
                                                                                                             autodeterminación (7), costumbre
                                                                                                             (8)
@@ -2255,11 +2226,15 @@ de la OIT sobre                                                          de dere
 
 Convenio 169                                                    1. El Conv enio 169 como tratado                                              51
 
-
 ## C 107, 1957                      c 169, 1989
 
+**Definición Canónica:** VII. Contacto y cooperación
+                                                                                                     transfronteriza
+                                                                    VIII. Disposiciones generales:   IX. Disposiciones generales:
+                                                                    flexibilidad (28) y garantía     flexibilidad (34) y garantía de status
+                                                                    status quo (29)                  quo (35)
 
-                                                                                                     VII. Contacto y cooperación
+VII. Contacto y cooperación
                                                                                                      transfronteriza
                                                                     VIII. Disposiciones generales:   IX. Disposiciones generales:
                                                                     flexibilidad (28) y garantía     flexibilidad (34) y garantía de status
@@ -2281,11 +2256,16 @@ de la OIT sobre                                                          de dere
 Convenio 169                                                               2. La consulta y las formas de participación                           53
 de la OIT sobre                                                               en el Conv enio
 
-
 ## 2.1.         Introducción
 
+**Definición Canónica:** Un elemento            El capítulo V del Convenio trata de la “Participación, consulta y
+                                                                             consentimiento”. Pero no se trata de un capítulo más. La propia
+                                                      transversal en         OIT declara que las disposiciones sobre consulta constituyen la
+                                                      el Convenio es         “piedra angular” del Convenio. En efecto, un elemento transversal
+                                                      la necesidad de        en el Con
+**Concordancias Legales:** artículo 6; artículo 7
 
-                                                      Un elemento            El capítulo V del Convenio trata de la “Participación, consulta y
+Un elemento            El capítulo V del Convenio trata de la “Participación, consulta y
                                                                              consentimiento”. Pero no se trata de un capítulo más. La propia
                                                       transversal en         OIT declara que las disposiciones sobre consulta constituyen la
                                                       el Convenio es         “piedra angular” del Convenio. En efecto, un elemento transversal
@@ -2313,10 +2293,13 @@ de la OIT sobre                                                               en
 Convenio 169                                                                          2. La consulta y las formas de participación                            54
 de la OIT sobre                                                                          en el Conv enio
 
-
 ## 2.2      Las disposiciones sobre participación y
 
-                                                                                        consulta como la ‘piedra angular’ del
+**Definición Canónica:** consulta como la ‘piedra angular’ del
+                                                                                        Convenio
+**Concordancias Legales:** artículos 6
+
+consulta como la ‘piedra angular’ del
                                                                                         Convenio
 
                                                                                         Ya se anticipó que la propia OIT declara que las disposiciones sobre
@@ -2421,10 +2404,12 @@ de la OIT sobre                                                                 
 Convenio 169                                                          2. La consulta y las formas de participación                                       57
 de la OIT sobre                                                          en el Conv enio
 
-
 ## 2.3     La participación y consulta en relación con
 
-                                                                        el derecho a la libre determinación
+**Definición Canónica:** el derecho a la libre determinación
+**Concordancias Legales:** artículo 7
+
+el derecho a la libre determinación
 
                                                                         Un segundo elemento relevante es la relación entre los mecanismos
                                                                         de participación y consulta y el derecho a la libre determinación de
@@ -2453,7 +2438,15 @@ de la OIT sobre                                                          en el C
 
 ## 1 N° 1).                       y bienestar espiritual     libremente
 
-                                                                                                        y a las tierras que        su desarrollo
+**Definición Canónica:** y a las tierras que        su desarrollo
+                                                                                                        ocupan o utilizan de       económico, social y
+                                                                                                        alguna manera, y de        cultural.
+                                                                                                        controlar, en la medida
+                                                                                                        de lo posible, su propio
+          
+**Concordancias Legales:** artículo 7; artículo 7 del Convenio cuando establece que
+
+y a las tierras que        su desarrollo
                                                                                                         ocupan o utilizan de       económico, social y
                                                                                                         alguna manera, y de        cultural.
                                                                                                         controlar, en la medida
@@ -2503,10 +2496,12 @@ de la OIT sobre                                                          en el C
 Convenio 169                                                                              2. La consulta y las formas de participación                                      59
 de la OIT sobre                                                                              en el Conv enio
 
-
 ## 2.4              Mecanismos de participación y consulta en
 
-                                                                                            el Convenio
+**Definición Canónica:** el Convenio
+**Concordancias Legales:** Artículo 2; Artículo 5; Artículo 6; Artículo 7; Artículo 15; Artículo 16; Artículo 17; Artículo 22; Artículo 23; Artículo 27; Artículo 28
+
+el Convenio
 
                                                                                             El Convenio contiene una serie de disposiciones que establecen
                                                                                             mecanismos de participación y consulta. Estos mecanismos se in-
@@ -2644,10 +2639,15 @@ de la OIT sobre                                                          en el C
                                                                                                  medidas legislativ as o administr ativas
                                                                                                  susceptibles de afectarles directamen te;
 
-
 ## 2. Las consultas llevadas a cabo en aplicación de
 
-                                                                                               este Convenio deberán efectuarse de buena fe
+**Definición Canónica:** este Convenio deberán efectuarse de buena fe
+                                                                                               y de una manera apropiada a las circunstancias,
+                                                                                               con la finalidad de llegar a un acuerdo o lograr el
+                                                                                               consentimiento acerca de las medidas propuestas.
+**Concordancias Legales:** artículo 6; artículo 6 del Convenio consagra; artículo 34 del Convenio; Artículo 6 del Convenio 169; artículo 6 del Convenio; artículos 2; Constitución
+
+este Convenio deberán efectuarse de buena fe
                                                                                                y de una manera apropiada a las circunstancias,
                                                                                                con la finalidad de llegar a un acuerdo o lograr el
                                                                                                consentimiento acerca de las medidas propuestas.
@@ -3019,10 +3019,12 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                2. La consulta y las formas de participación                              70
 de la OIT sobre                                                                                en el Conv enio
 
-
 ## 2.7              Vinculabilidad
 
-                                                                                              de la consulta
+**Definición Canónica:** de la consulta
+**Concordancias Legales:** artículo 16 del Convenio
+
+de la consulta
 
                                                                                               En relación al estándar según el cual la consulta debe llevarse a cabo
                                                                                               con la finalidad de llegar a un acuerdo o lograr el consentimiento
@@ -3130,10 +3132,12 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                2. La consulta y las formas de participación                                        73
 de la OIT sobre                                                                                en el Conv enio
 
-
 ## 2.8                Reglamentación interna de la consulta
 
-                                                                                              del artículo 6 del Convenio
+**Definición Canónica:** del artículo 6 del Convenio
+**Concordancias Legales:** artículo 6 del Convenio; artículo 4; artículo 34; Ley N° 20.9; Ley N° 20.249; ley N° 19.253
+
+del artículo 6 del Convenio
 
                                                                                               En el ámbito interno la regulación de la consulta es relativamente
                                                                                               reducida, lo que en todo caso no ha impedido su aplicación dado que,
@@ -3185,10 +3189,16 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                  2. La consulta y las formas de participación                             74
 de la OIT sobre                                                                                  en el Conv enio
 
-
 ## 2.8.1 Reglamentación temprana de la consulta del
 
-                                                                                                artículo 6: el Decreto Supremo N° 124 de 2009
+**Definición Canónica:** artículo 6: el Decreto Supremo N° 124 de 2009
+                                                                                                Solo diez días después de la entrada en vigencia del Convenio 169
+                                                                                                en Chile, con fecha 25 de septiembre de 2009, entró en vigencia el
+                                                                                                Decreto Supremo N° 124 (‘DS 124’) dictado por el entonces Mi-
+                                                                       
+**Concordancias Legales:** artículo 6; artículo 34 de la Ley N; artículo 6 del Convenio; Ley N° 19.253.49
+
+artículo 6: el Decreto Supremo N° 124 de 2009
                                                                                                 Solo diez días después de la entrada en vigencia del Convenio 169
                                                                                                 en Chile, con fecha 25 de septiembre de 2009, entró en vigencia el
                                                                                                 Decreto Supremo N° 124 (‘DS 124’) dictado por el entonces Mi-
@@ -3207,10 +3217,14 @@ de la OIT sobre                                                                 
                                                                                                 entrada en vigencia de la actual reglamentación de la consulta que
                                                                                                 se menciona a continuación.
 
-
 ## 2.8.2 Reglamentación doméstica actualmente
 
-                                                                                                vigente de la consulta del artículo 6
+**Definición Canónica:** vigente de la consulta del artículo 6
+                                                                                                Actualment e, la consulta del artículo 6 del Convenio ha sido objeto
+                                                                                                de las siguient es dos reglamentaciones:
+**Concordancias Legales:** artículo 6; artículo 6 del Convenio ha sido objeto
+
+vigente de la consulta del artículo 6
                                                                                                 Actualment e, la consulta del artículo 6 del Convenio ha sido objeto
                                                                                                 de las siguient es dos reglamentaciones:
 
@@ -3227,8 +3241,10 @@ de la OIT sobre                                                                 
 
 ## (‘ds 66’).50
 
+**Definición Canónica:** 49        Diario Oficial, 25 de septiembre del 2009.
+                                                      50        Diario Oficial, 4 de marzo del 2014.
 
-                                                      49        Diario Oficial, 25 de septiembre del 2009.
+49        Diario Oficial, 25 de septiembre del 2009.
                                                       50        Diario Oficial, 4 de marzo del 2014.
 
 Convenio 169                                                                               2. La consulta y las formas de participación                                        75
@@ -3237,10 +3253,16 @@ de la OIT sobre                                                                 
                                                                                                En el cuadro inserto a continuación se explican y comparan ambas
                                                                                                regulaciones con mayor detalle.
 
-
 ## Ds 66                                   ds 40
 
-                                                                                 Reglamento general de consulta          Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta          Reglamenta consulta en el marco del SEIA
+                                                       Órgano u órganos          Artículo 12                             Artículo 85
+                                                       responsables de
+                                                       desarrollar la consulta   El órgano de la Administración          El Servicio de Evaluación Ambiental debe diseñar
+                                                                                 del Estado que deba adoptar la          y desarrollar el proceso
+**Concordancias Legales:** Artículo 12; Artículo 85; Artículo 7 inciso 3; Artículo 8; artículo 16; artículos 7; artículo 4 de la Ley; ley Nº19.300
+
+Reglamento general de consulta          Reglamenta consulta en el marco del SEIA
                                                        Órgano u órganos          Artículo 12                             Artículo 85
                                                        responsables de
                                                        desarrollar la consulta   El órgano de la Administración          El Servicio de Evaluación Ambiental debe diseñar
@@ -3311,7 +3333,14 @@ de la OIT sobre                                                                 
 
 ## Ds 66                                  ds 40
 
-                                                                           Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
+                                                                                                                   efectuarse con la finalidad de llegar a un acuerdo
+                                                                                                                   o lograr el consentimiento. No obstante, el no
+                                                                                                                   alcanzar dicha finalidad no implica la afectación
+                           
+**Concordancias Legales:** Artículo 11; artículo 32; Artículo 3; Artículo 85; Artículo 9; ley N° 19.253; ley N°19.880
+
+Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
                                                                                                                    efectuarse con la finalidad de llegar a un acuerdo
                                                                                                                    o lograr el consentimiento. No obstante, el no
                                                                                                                    alcanzar dicha finalidad no implica la afectación
@@ -3386,7 +3415,14 @@ de la OIT sobre                                                                 
 
 ## Ds 66                                  ds 40
 
-                                                                          Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
+                                                       Estándares y       y correcta con la finalidad de               No obstante, el no alcanzar dicha finalidad
+                                                       principios de la   llegar a un acuerdo o lograr el              no implica la afectación del derecho a la
+                                                       consulta           consentimiento previo, libre                 consulta.
+                                                                   
+**Concordancias Legales:** artículos 9; Artículo 10; artículo 16; artículo 4; Artículo 11
+
+Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
                                                        Estándares y       y correcta con la finalidad de               No obstante, el no alcanzar dicha finalidad
                                                        principios de la   llegar a un acuerdo o lograr el              no implica la afectación del derecho a la
                                                        consulta           consentimiento previo, libre                 consulta.
@@ -3462,7 +3498,16 @@ de la OIT sobre                                                                 
 
 ## Ds 66                                  ds 40
 
-                                                                               Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
+                                                       Estándares y            Artículo 11. Carácter previo de la
+                                                       principios de la        consulta.
+                                                       consulta
+                                                                               La consulta a los pueblos
+                                                                               indígenas será previa,
+                                              
+**Concordancias Legales:** Artículo 11; artículo 13; artículos 16; Artículo 16; Artículo 8; artículo 16 del DS 66 en lo que se refiere a las
+
+Reglamento general de consulta         Reglamenta consulta en el marco del SEIA
                                                        Estándares y            Artículo 11. Carácter previo de la
                                                        principios de la        consulta.
                                                        consulta
@@ -3503,29 +3548,24 @@ de la OIT sobre                                                                 
                                                                                las siguientes etapas:                  artículo 16 del DS 66 en lo que se refiere a las
                                                                                                                        etapas:
 
-## 1. Planificación del Proceso de
-
-                                                                                  Consulta.                            1. Planificación del Proceso de Consulta.
-
-
 ## 2. Entrega de información               2. Entrega de información y difusión del proceso
 
-                                                                                  y difusión del proceso de               de consulta.
+**Definición Canónica:** y difusión del proceso de               de consulta.
                                                                                   consulta.
                                                                                                                        3. Deliberación interna de los pueblos indígenas.
 
-## 3. Deliberación interna de los
-
-                                                                                  pueblos indígenas.                   4. Diálogo.
-
-
-## 4 Diálogo.                              5. Sistematización, comunicación de resultados y
-
-                                                                                                                          término del proceso de consulta.
+y difusión del proceso de               de consulta.
+                                                                                  consulta.
+                                                                                                                       3. Deliberación interna de los pueblos indígenas.
 
 ## 5. Sistematización, comunicación
 
-                                                                                 de resultados y término del
+**Definición Canónica:** de resultados y término del
+                                                                                 proceso de consulta.
+                                                       Plazos de la consulta   Artículo 17                             Artículo 8 DS 66
+**Concordancias Legales:** Artículo 17; Artículo 8
+
+de resultados y término del
                                                                                  proceso de consulta.
                                                        Plazos de la consulta   Artículo 17                             Artículo 8 DS 66
 
@@ -3542,7 +3582,13 @@ de la OIT sobre                                                                 
 
 ## Ds 66                                     ds 40
 
-                                                                                   Reglamento general de consulta            Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta            Reglamenta consulta en el marco del SEIA
+                                                       Plazos de la consulta        Sin perjuicio de lo anterior,            que los plazos para la realización de la consulta
+                                                                                    el órgano responsable de la              corresponden al plazo del proceso de evaluación
+                                                                                    medida, previo diálogo con las           del proyecto en el SEIA, incluyendo la ampli
+**Concordancias Legales:** artículo 32; Artículo 85; artículos 2; artículo 4; artículo 21; artículo 1; artículo 5; artículo 2; ley N°19.880; ley N° 19.880; ley Nº 19.253
+
+Reglamento general de consulta            Reglamenta consulta en el marco del SEIA
                                                        Plazos de la consulta        Sin perjuicio de lo anterior,            que los plazos para la realización de la consulta
                                                                                     el órgano responsable de la              corresponden al plazo del proceso de evaluación
                                                                                     medida, previo diálogo con las           del proyecto en el SEIA, incluyendo la ampliación
@@ -3611,7 +3657,14 @@ de la OIT sobre                                                                 
 
 ## Ds 66                                 ds 40
 
-                                                                                 Reglamento general de consulta        Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta        Reglamenta consulta en el marco del SEIA
+                                                       Actores                   según el alcance de la afectación
+                                                       involucr ados en la       de la medida que sea susceptible
+                                                       consulta                  de afectarles directamente
+                                                                                 (artículo 6° inciso 1°).
+**Concordancias Legales:** artículo 6; artículo 15; artículo 1; artículo 5; Artículo 12; Artículo 85; Artículo 13; artículo 7; ley Nº 19.253; Ley N° 21.151
+
+Reglamento general de consulta        Reglamenta consulta en el marco del SEIA
                                                        Actores                   según el alcance de la afectación
                                                        involucr ados en la       de la medida que sea susceptible
                                                        consulta                  de afectarles directamente
@@ -3682,7 +3735,14 @@ de la OIT sobre                                                                 
 
 ## Ds 66                                 ds 40
 
-                                                                                 Reglamento general de consulta        Reglamenta consulta en el marco del SEIA
+**Definición Canónica:** Reglamento general de consulta        Reglamenta consulta en el marco del SEIA
+                                                       Rol del órgano            Asimismo, cualquier persona              — En caso que no exista constancia que un
+                                                       responsable de            interesada, natural o jurídica, o         individuo tenga la calidad de indígena
+                                                       desarrollar la consulta   instituciones representativas             conforme a la ley N° 19.253, deberá acreditar
+                          
+**Concordancias Legales:** Artículo 14; artículo 4; ley N° 19.253
+
+Reglamento general de consulta        Reglamenta consulta en el marco del SEIA
                                                        Rol del órgano            Asimismo, cualquier persona              — En caso que no exista constancia que un
                                                        responsable de            interesada, natural o jurídica, o         individuo tenga la calidad de indígena
                                                        desarrollar la consulta   instituciones representativas             conforme a la ley N° 19.253, deberá acreditar
@@ -3738,10 +3798,12 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                 2. La consulta y las formas de participación                                          82
 de la OIT sobre                                                                                 en el Conv enio
 
-
 ## 2.9               Consulta de medidas
 
-                                                                                                legislativas
+**Definición Canónica:** legislativas
+**Concordancias Legales:** artículo 4; Artículo 17; Artículo 11 inciso 3; constitucion
+
+legislativas
 
                                                                                                 Tal como ya se ha indicado, uno de los estándares del derecho-deber de
                                                                                                 consulta indígena es que este se aplica tanto a medidas administrativas
@@ -3799,7 +3861,10 @@ de la OIT sobre                                                                 
 
 ## parte a la interpretación que el Tribunal Constitucional ofreció en la
 
-                                                                                               primera sentencia que dictó sobre el Convenio en el año 2000. En
+**Definición Canónica:** primera sentencia que dictó sobre el Convenio en el año 2000. En
+**Concordancias Legales:** artículo 22 de la Ley N; artículos 62; artículos 34; artículo 6; Ley N° 18.918; Constitucion
+
+primera sentencia que dictó sobre el Convenio en el año 2000. En
 
                                                                                                efecto, el Tribunal Constitucional en su sentencia Rol N° 309 de 4
                                                                                                de agosto de 2000, señaló que la norma convencional de la consulta:
@@ -3861,7 +3926,14 @@ de la OIT sobre                                                            en el
 
 ## parte, no propició reforma reglamentaria alguna para contrapesar
 
-                                                                          las presuntas limitaciones de la reglamentación administrativa. En
+**Definición Canónica:** las presuntas limitaciones de la reglamentación administrativa. En
+                                                                          efecto, la regulación administrativa no puede invadir la autonomía
+                                                                          parlamentaria y, por lo tanto, la criticada referencia exclusiva a las
+                                                                          iniciativas de origen presidencial (art. 7º del DS 66) debe interpre-
+                                                                          tarse solamente como consecue
+**Concordancias Legales:** artículo 6; artículo 24 de la Constitución de la OIT por el Sindicato Inter; Ley Nº20.641; Ley 2010; Ley N° 20.4; Ley Nº21.045; Ley Nº 19.253; Ley Nº 16.4; Ley Nº 21.298; Constitución; constitucion
+
+las presuntas limitaciones de la reglamentación administrativa. En
                                                                           efecto, la regulación administrativa no puede invadir la autonomía
                                                                           parlamentaria y, por lo tanto, la criticada referencia exclusiva a las
                                                                           iniciativas de origen presidencial (art. 7º del DS 66) debe interpre-
@@ -4140,10 +4212,12 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                  2. La consulta y las formas de participación                                       91
 de la OIT sobre                                                                                  en el Conv enio
 
-
 ## 2.10              El mecanismo de participación
 
-                                                                                                del artículo 7 del Convenio
+**Definición Canónica:** del artículo 7 del Convenio
+**Concordancias Legales:** artículo 7 del Convenio; artículo 7; artículos 6
+
+del artículo 7 del Convenio
 
                                                                                                 El artículo 7 N° 1 segunda parte constituye, como ya se ha visto, la
                                                                                                 otra disposición clave del Convenio en lo que se refiere a mecanismos
@@ -4200,11 +4274,16 @@ de la OIT sobre                                                                 
                                                                       Un caso de implement aci ón del artículo 7 N° 1 del Conve -
                                                                       nio: el proceso de participación para la construcción del
 
-
 ## Capítulo Indígena de la Política Energética 2050
 
+**Definición Canónica:** Entre 2014 y 2016, el Ministerio de Energía llevó a cabo un
+                                                                       proceso de participación para la construcción del Capítulo
+                                                                       Indígena de la Política Energética 2050, proceso que desde
+                                                                       el punto de vista normativo se fundamentó explícitamente
+                                                                       en el artículo 7 N° 1 del Convenio.
+**Concordancias Legales:** artículo 7; artículo 16
 
-                                                                       Entre 2014 y 2016, el Ministerio de Energía llevó a cabo un
+Entre 2014 y 2016, el Ministerio de Energía llevó a cabo un
                                                                        proceso de participación para la construcción del Capítulo
                                                                        Indígena de la Política Energética 2050, proceso que desde
                                                                        el punto de vista normativo se fundamentó explícitamente
@@ -4254,7 +4333,10 @@ de la OIT sobre                                                                 
 
 ## parte. Resta, entonces, revisar la forma en que el Convenio aborda
 
-                                                                                                el estándar del consentimiento.
+**Definición Canónica:** el estándar del consentimiento.
+**Concordancias Legales:** artículo 16 del Convenio pone especial acento en la
+
+el estándar del consentimiento.
 
                                                                                                 En concreto, el Convenio incluye una disposición especial respecto al
                                                                                                 traslado de los pueblos indígenas de las tierras que ocupan, figura que
@@ -4288,10 +4370,16 @@ de la OIT sobre                                                                 
                                                                    consulta                 de este artículo, los pueblos interesados no deberán
                                                                                             ser trasladados de las tierras que ocupan.
 
-
 ## 2. Cuando excepcionalmente el traslado y la
 
-                                                                                            reubicación de esos pueblos se consideren
+**Definición Canónica:** reubicación de esos pueblos se consideren
+                                                                                            necesarios, solo deberán efectuarse con su
+                                                                                            consentimiento, dado librem ente y con pleno
+                                                                                            conocimiento de causa. Cuando no pueda
+                                                                                            obtenerse su consentim iento, el traslado y la
+                
+
+reubicación de esos pueblos se consideren
                                                                                             necesarios, solo deberán efectuarse con su
                                                                                             consentimiento, dado librem ente y con pleno
                                                                                             conocimiento de causa. Cuando no pueda
@@ -4303,17 +4391,26 @@ de la OIT sobre                                                                 
                                                                                             tengan la posibilidad de estar efectivamente
                                                                                             representados.
 
-
 ## 3. Siempre que sea posible, estos pueblos deberán
 
-                                                                                            tener el derecho de regresar a sus tierras
+**Definición Canónica:** tener el derecho de regresar a sus tierras
                                                                                             tradicionales en cuanto dejen de existir las causas
                                                                                             que motivaron su traslado y reubicación.
 
+tener el derecho de regresar a sus tierras
+                                                                                            tradicionales en cuanto dejen de existir las causas
+                                                                                            que motivaron su traslado y reubicación.
 
 ## 4. Cuando el retorno no sea posible, tal como
 
-                                                                                            se determine por acuerdo o, en ausencia de
+**Definición Canónica:** se determine por acuerdo o, en ausencia de
+                                                                                            tales acuerdos, por medio de procedimientos
+                                                                                            adecuados, dichos pueblos deberán recibir, en
+                                                                                            todos los casos posibles, tierras cuya calidad y
+                                                                                            cuyo estatuto jurídico sean por lo menos iguales
+ 
+
+se determine por acuerdo o, en ausencia de
                                                                                             tales acuerdos, por medio de procedimientos
                                                                                             adecuados, dichos pueblos deberán recibir, en
                                                                                             todos los casos posibles, tierras cuya calidad y
@@ -4325,10 +4422,14 @@ de la OIT sobre                                                                 
                                                                                             dinero o en especie, deberá concedérseles dicha
                                                                                             indemnización, con las garantías apropiadas.
 
-
 ## 5 Deberá indemnizarse plenamente a las personas
 
-                                                                                           trasladadas y reubicadas por cualquier pérdida o
+**Definición Canónica:** trasladadas y reubicadas por cualquier pérdida o
+                                                                                           daño que hayan sufrido como consecuencia de su
+                                                                                           desplazamiento (artículo 16).
+**Concordancias Legales:** artículo 16
+
+trasladadas y reubicadas por cualquier pérdida o
                                                                                            daño que hayan sufrido como consecuencia de su
                                                                                            desplazamiento (artículo 16).
 
@@ -4400,8 +4501,14 @@ de la OIT sobre                                                                 
 
 ## 16 N° 3). Según la Guía del Convenio, “el artículo 16(3) estipula
 
+**Definición Canónica:** que en los casos en los que la reubicación haya sido necesaria, los
+                                                                                               pueblos indígenas deberán tener el derecho de regresar en cuanto
+                                                                                               deje de existir la causa por la que debieron abandonar las tierras. Por
+                                                                                               ejemplo, en el caso de una guerra o desastre natural, pueden regresar
+                                        
+**Concordancias Legales:** artículo 16
 
-                                                                                               que en los casos en los que la reubicación haya sido necesaria, los
+que en los casos en los que la reubicación haya sido necesaria, los
                                                                                                pueblos indígenas deberán tener el derecho de regresar en cuanto
                                                                                                deje de existir la causa por la que debieron abandonar las tierras. Por
                                                                                                ejemplo, en el caso de una guerra o desastre natural, pueden regresar
@@ -4483,19 +4590,23 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                 2. La consulta y las formas de participación                                 100
 de la OIT sobre                                                                                 en el Conv enio
 
-
 ## 2.12             La consulta en la jurisprudencia de los
 
-                                                                                               tribunales ordinarios y ambientales
+**Definición Canónica:** tribunales ordinarios y ambientales
+
+tribunales ordinarios y ambientales
 
                                                                                                A continuación se revisan los principales criterios desarrollados por
                                                                                                la jurisprudencia judicial en relación a la consulta.74
 
-
 ## 2.12.1 Qué medidas se consultan
 
+**Definición Canónica:** — Homologación de la significancia de impactos que hace exigi -
+                                                                                                  ble el ingreso de un Estudio de Impacto Ambiental (EIA) con
+                                                                                                  la susceptibilidad de afectación directa que hace procedente
+**Concordancias Legales:** artículo 11; artículo 7; artículo 7 del DS 66 en concordancia con el Convenio 169 OIT; artículos 7; artículo 6; artículo 5 de la Constitución; artículo 6 del Convenio 169; artículo 27; Ley N° 19.253; Constitución Política; constitución
 
-                                                                                                — Homologación de la significancia de impactos que hace exigi -
+— Homologación de la significancia de impactos que hace exigi -
                                                                                                   ble el ingreso de un Estudio de Impacto Ambiental (EIA) con
                                                                                                   la susceptibilidad de afectación directa que hace procedente
 
@@ -4701,10 +4812,12 @@ de la OIT sobre                                                                 
 
 Convenio 169                                                    2. La consulta y las formas de participación                        105
 
-
 ## 2.12.2 En qué casos de consulta (medidas susceptibles
 
-                                                                  de causar afectación directa a pueblos indígenas)
+**Definición Canónica:** de causar afectación directa a pueblos indígenas)
+**Concordancias Legales:** artículo 6
+
+de causar afectación directa a pueblos indígenas)
 
                                                                   — Relevancia y explicitación razonable de la afectación: El
                                                                     escrutinio del procedimiento administrativo que precede a la
@@ -4819,7 +4932,15 @@ de la OIT sobre                                                                 
 
 ## 6 N° 1 letra a) y N° 2, en relación con el Decreto N° 66 de 15
 
-                                                                       de noviembre de 2014 del Ministerio de Desarrollo Social. (…)”
+**Definición Canónica:** de noviembre de 2014 del Ministerio de Desarrollo Social. (…)”
+                                                                       (caso consulta obras concesión Parque Nacional Villarrica) .
+                                                                  — La consulta indígena no es procedente si los antecedentes
+                                                                    aportados por el recurso permiten concluir que las actividades
+                                                                    proyectadas no importan una afectación a pueblos indígenas:
+                    
+**Concordancias Legales:** artículos 6
+
+de noviembre de 2014 del Ministerio de Desarrollo Social. (…)”
                                                                        (caso consulta obras concesión Parque Nacional Villarrica) .
                                                                   — La consulta indígena no es procedente si los antecedentes
                                                                     aportados por el recurso permiten concluir que las actividades
@@ -4898,11 +5019,16 @@ de la OIT sobre                                                                 
                                                                        19115-2021 (caso consulta plan de gestión Reserva de la Biósfera
                                                                        La Campana-Peñuelas).
 
-
 ## 2.12.3 Como se consulta
 
+**Definición Canónica:** — No procede el término anticipado de un proceso de consulta
+                                                                    indígena si este afecta el derecho de consulta de las comu-
+                                                                    nidades incluidas en el mismo: “(…) que conforme a lo antes
+                                                                    señalado se desprende claramente que el proceso de consulta
+                                                                    persigue informar a los intervinientes y supuestamente afectados
+                      
 
-                                                                  — No procede el término anticipado de un proceso de consulta
+— No procede el término anticipado de un proceso de consulta
                                                                     indígena si este afecta el derecho de consulta de las comu-
                                                                     nidades incluidas en el mismo: “(…) que conforme a lo antes
                                                                     señalado se desprende claramente que el proceso de consulta
@@ -4935,11 +5061,12 @@ de la OIT sobre                                                                 
                                                                        Corte Suprema, 30 de enero de 2017, rol N° 65349-2016 (caso
                                                                        Terminal GNL Penco-Lirquén) .
 
-
 ## 2.12.4 A quién se consulta
 
+**Definición Canónica:** — Principio de no discriminación: La consulta debe realizarse
+**Concordancias Legales:** Ley N° 19.300
 
-                                                                  — Principio de no discriminación: La consulta debe realizarse
+— Principio de no discriminación: La consulta debe realizarse
 
                                                                     tomando en cuenta a todas las comunidades afectadas, sin ex-
                                                                     clusiones arbitrarias.
@@ -5036,10 +5163,12 @@ de la OIT sobre                                                                 
                                                                          dicha comunidad, sin que exista susceptibilidad de afectación
                                                                          directa a otras.” (Caso Sondajes de Prospección Paguanta).
 
-
 ## 2.12.5 Qué consecuencias tiene
 
-                                                                  la omisión de la consulta
+**Definición Canónica:** la omisión de la consulta
+**Concordancias Legales:** artículo 11 de la Ley N; Ley N° 19.300
+
+la omisión de la consulta
 
                                                                   — Invalidación de la medida administrativa en caso de omisión de
                                                                     una consulta que es procedente:
@@ -5130,10 +5259,12 @@ de la OIT sobre                                                                 
                                                                     26 de junio de 2014, rol N° 11396-2014 (caso Recuperación Ex
                                                                     Pozo Áridos).
 
-
 ## 2.12.6 Qué sucede si la comunidad no participa
 
-                                                                  en un proceso de consulta o se retira de él
+**Definición Canónica:** en un proceso de consulta o se retira de él
+**Concordancias Legales:** constitucion
+
+en un proceso de consulta o se retira de él
 
                                                                   — El estándar de buena fe es recíproco: El deber de buena fe se
                                                                     extiende a las comunidades, por lo que el deber de la autoridad
@@ -5243,11 +5374,12 @@ de la OIT sobre                                                                 
                                                                                                     la evaluación ambiental del ‘Proyecto Continuidad Operacional
                                                                                                     Cerro Colorado’).
 
-
 ## 2.12.7 Jurisprudencia en sede de protección
 
+**Definición Canónica:** — Criterio de deferencia del escrutinio de legalidad hacia los tri -
+**Concordancias Legales:** Ley N° 20.600
 
-                                                                                               — Criterio de deferencia del escrutinio de legalidad hacia los tri -
+— Criterio de deferencia del escrutinio de legalidad hacia los tri -
 
                                                                                                  bunales ambientales: A contar del año 2014 existe una tendencia
                                                                                                  a deferir el escrutinio de legalidad –relativo al cumplimiento de la
@@ -5261,10 +5393,13 @@ de la OIT sobre                                                                 
                                                                                                  ambientales, salvo que se requiera una cautela de urgencia de
                                                                                                  derechos fundamentales.
 
-
 ## 1.12     Corte Suprema, 22 de mayo de 2014,“Consejo de Pueblos
 
-                                                                                                             Atacameños y otros vs. Comisión de Evaluación Ambiental
+**Definición Canónica:** Atacameños y otros vs. Comisión de Evaluación Ambiental
+                                                                                                             II Región”, rol N° 1097-2013 (Planta de Secado y Com-
+**Concordancias Legales:** artículo 17; artículos 25; Ley N° 20.600; Ley N° 19.300
+
+Atacameños y otros vs. Comisión de Evaluación Ambiental
                                                                                                              II Región”, rol N° 1097-2013 (Planta de Secado y Com-
 
                                                       76        Corte Suprema, 29 de abril de 2014, “Junta de Vecinos JJ.VV vs. Comisión de Evaluación Ambiental V Región”
@@ -5305,10 +5440,16 @@ de la OIT sobre                                                                 
                                                                                 no hubieren sido debidamente consideradas en los funda-
                                                                                 mentos de la resolución de calificación ambiental”.
 
-
 ## 1.13     Corte Suprema, 10 de noviembre de 2015,“Comunidad
 
-                                                                                Indígena Tralcao Mapu y otros vs. Comisión de Evaluación
+**Definición Canónica:** Indígena Tralcao Mapu y otros vs. Comisión de Evaluación
+                                                                                Ambiental Región de Los Ríos”, rol N° 10640-2015 (caso
+                                                                                Pulpa Textil Celulosa Arauco), considerando 5º: “Que de
+                                                                                lo razonado se sigue que si los recurrentes han pedido
+                                                                                que esta Corte invalide una resolución de calificación
+  
+
+Indígena Tralcao Mapu y otros vs. Comisión de Evaluación
                                                                                 Ambiental Región de Los Ríos”, rol N° 10640-2015 (caso
                                                                                 Pulpa Textil Celulosa Arauco), considerando 5º: “Que de
                                                                                 lo razonado se sigue que si los recurrentes han pedido
@@ -5322,10 +5463,14 @@ de la OIT sobre                                                                 
                                                                                 mediante la acción de protección cautelar urgente que
                                                                                 ha sido intentada”.
 
-
 ## 1.14     Corte de Apelaciones de Temuco, 16 de noviembre de
 
-                                                                                2015, “Lof Trancura y otros vs. Comisión de Evaluación
+**Definición Canónica:** 2015, “Lof Trancura y otros vs. Comisión de Evaluación
+                                                                                Ambiental Región de la Araucanía”, rol N° 3956-2015,
+                                                                                confirmada por la Corte Suprema, 29 de diciembre de
+                                                                                2015, rol N° 33154-2015 (caso Central Añihuerraq ui).
+
+2015, “Lof Trancura y otros vs. Comisión de Evaluación
                                                                                 Ambiental Región de la Araucanía”, rol N° 3956-2015,
                                                                                 confirmada por la Corte Suprema, 29 de diciembre de
                                                                                 2015, rol N° 33154-2015 (caso Central Añihuerraq ui).
@@ -5348,18 +5493,24 @@ de la OIT sobre                                                                 
 Convenio 169                                                       2. La consulta y las formas de participación                             120
 de la OIT sobre                                                       en el Conv enio
 
-
 ## 2.13   La consulta en la jurisprudencia
 
-                                                                       administrativa
+**Definición Canónica:** administrativa
+
+administrativa
 
                                                                        A continuación se revisan los principales criterios desarrollados por la
                                                                        jurisprudencia administrativa de Contraloría General de la República
 
-
 ## 2 Decreto que reglamenta el ejercicio de la función docente
 
-                                                                            de los educadores o educadoras tradicionales de los pueblos
+**Definición Canónica:** de los educadores o educadoras tradicionales de los pueblos
+                                                                            indígenas debe ser sometido a consulta: Representa decreto
+                                                                            462/2009, del Ministerio de Educación, que “Reglamenta el
+                                                                            ejercicio de la función docente para el sector Lengua Indígena
+**Concordancias Legales:** ley N° 19.253
+
+de los educadores o educadoras tradicionales de los pueblos
                                                                             indígenas debe ser sometido a consulta: Representa decreto
                                                                             462/2009, del Ministerio de Educación, que “Reglamenta el
                                                                             ejercicio de la función docente para el sector Lengua Indígena
@@ -5378,10 +5529,15 @@ de la OIT sobre                                                       en el Conv
 
                                                                               2.1 Dictamen N° 50.452, 30 de agosto de 2010.
 
-
 ## 3 Acto administrativo que crea un Área de Desarrollo Indígena
 
-                                                                            debe dar cuenta de la realización del respectivo proceso de
+**Definición Canónica:** debe dar cuenta de la realización del respectivo proceso de
+                                                                            participación indígena: En el acto administrativo que crea
+                                                                            un Área de Desarrollo Indígena se debe dejar expresa cons-
+                                                                            tancia del hecho de haberse realizado el respectivo proceso
+                                                                            de participación de los pueblos indígenas.
+
+debe dar cuenta de la realización del respectivo proceso de
                                                                             participación indígena: En el acto administrativo que crea
                                                                             un Área de Desarrollo Indígena se debe dejar expresa cons-
                                                                             tancia del hecho de haberse realizado el respectivo proceso
@@ -5389,10 +5545,13 @@ de la OIT sobre                                                       en el Conv
 
                                                                               3.1 Dictamen N° 23.719, 18 de abril de 2013.
 
-
 ## 4 Compete a la autoridad ambiental determinar si una comu-
 
-                                                                            nidad indígena debe ser incluida en un proceso de consulta
+**Definición Canónica:** nidad indígena debe ser incluida en un proceso de consulta
+                                                                            indígena: Compete a la autoridad ambiental ponderar las
+                                                                            consideraciones técnicas en cuya virtud se determina si un pro-
+
+nidad indígena debe ser incluida en un proceso de consulta
                                                                             indígena: Compete a la autoridad ambiental ponderar las
                                                                             consideraciones técnicas en cuya virtud se determina si un pro-
 
@@ -5424,11 +5583,16 @@ de la OIT sobre                                                       en el Conv
 Convenio 169                                                                 3. Tierras, territorio                                                 123
 de la OIT sobre                                                                 y recursos naturales
 
-
 ## 3.1         Introducción
 
+**Definición Canónica:** Aunque el derecho-deber de consulta indígena es –por declaración
+                                                                               de la propia OIT– la ‘piedra angular’ del Convenio, las disposiciones
+                                                                               sobre tierras y territorios conforman otro de los aspectos centrales
+                                                                               no solo de este tratado sino también del marco legal e institucional
+                                                                               aplicable a
+**Concordancias Legales:** artículo 1; artículo 7; artículo 13; artículos 14; Ley N° 19.253
 
-                                                                               Aunque el derecho-deber de consulta indígena es –por declaración
+Aunque el derecho-deber de consulta indígena es –por declaración
                                                                                de la propia OIT– la ‘piedra angular’ del Convenio, las disposiciones
                                                                                sobre tierras y territorios conforman otro de los aspectos centrales
                                                                                no solo de este tratado sino también del marco legal e institucional
@@ -5496,7 +5660,14 @@ de la OIT sobre                                                                 
 
 ## 1. Los pueblos indígen as       1 Al aplicar las disposiciones de esta parte       Reconocen ciertos
 
-                                                          deberán tener el derecho       del Convenio, los gobiernos deberán              derechos de los pueblos
+**Definición Canónica:** deberán tener el derecho       del Convenio, los gobiernos deberán              derechos de los pueblos
+                                                          de decidir sus propias         respetar la importancia especial que para        indígenas sobre las
+                                                          priorid ades en lo que         las culturas y valores espirituales de los       tierras y establecen
+                                                          atañe al proces o de           pueblos indígenas reviste su relación con        una serie de deberes
+                    
+**Concordancias Legales:** artículos 15
+
+deberán tener el derecho       del Convenio, los gobiernos deberán              derechos de los pueblos
                                                           de decidir sus propias         respetar la importancia especial que para        indígenas sobre las
                                                           priorid ades en lo que         las culturas y valores espirituales de los       tierras y establecen
                                                           atañe al proces o de           pueblos indígenas reviste su relación con        una serie de deberes
@@ -5515,10 +5686,16 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                3. Tierras, territorio                                                          125
 de la OIT sobre                                                                                y recursos naturales
 
-
 ## 3.2.1 Las tierras y el derecho
 
-                                                                                              a la libre determinación
+**Definición Canónica:** a la libre determinación
+                                                                                              Un primer elemento relevante en la estructura del Convenio en
+                                                                                              materia de tierras es la vinculación que hace con el derecho a la libre
+                                                                                              determinación de los pueblos indígenas. Como se sabe, el Convenio
+                                                                                             
+**Concordancias Legales:** artículo 7; artículo 1; artículo 13; artículo 13 del Convenio agrega en su N; artículos 15; Ley N° 19.253
+
+a la libre determinación
                                                                                               Un primer elemento relevante en la estructura del Convenio en
                                                                                               materia de tierras es la vinculación que hace con el derecho a la libre
                                                                                               determinación de los pueblos indígenas. Como se sabe, el Convenio
@@ -5631,10 +5808,16 @@ de la OIT sobre                                                                 
                                                                   Por su importancia en este sistema regulatorio, en la sección 3.4.1 se
                                                                   abordará con mayor profundidad el concepto de territorio.
 
-
 ## 3.2.3 Derechos de los pueblos indígenas sobre las
 
-                                                                  tierras y deberes correlativos de los gobiernos
+**Definición Canónica:** tierras y deberes correlativos de los gobiernos
+                                                                  Como ya se dijo, el Convenio dedica toda una sección –la Parte II
+                                                                  ‘Tierras’– al tratamiento de las tierras y territorios. Ya se ha explica-
+                                                                  do el contenido y alcance del artículo 13, con su declaración sobre
+                                                                  la ‘importancia especial’ e introducción del concepto de territorio.
+**Concordancias Legales:** artículo 13; Artículo 7; Artículo 14; Artículo 15; Artículo 16; Artículo 17; Artículo 18; Artículo 19; artículos 14; artículo 13 del Convenio abre la Parte II sobre las; artículos 15
+
+tierras y deberes correlativos de los gobiernos
                                                                   Como ya se dijo, el Convenio dedica toda una sección –la Parte II
                                                                   ‘Tierras’– al tratamiento de las tierras y territorios. Ya se ha explica-
                                                                   do el contenido y alcance del artículo 13, con su declaración sobre
@@ -5873,10 +6056,16 @@ de la OIT sobre                                                                 
                                                                                                      rrollo en la medida en que este afecte sus vidas... y las tierras
                                                                                                      que ocupan o utilizan de alguna manera”.8 1
 
-
 ## 3.3.2 Régimen de las tierras indígenas en el
 
-                                                                                                Convenio: alcance del concepto ‘tierras’
+**Definición Canónica:** Convenio: alcance del concepto ‘tierras’
+                                                                                                Si bien no parece ser el objetivo de los artículos 13 y 14 el consa-
+                                                                                                grar una definición exhaustiva y ejemplar de las tierras indígenas, la
+                                                                                                apreciación conjunta de ambas disposiciones permite concluir que
+                                                                  
+**Concordancias Legales:** artículos 13; artículo 14 del Convenio utiliza
+
+Convenio: alcance del concepto ‘tierras’
                                                                                                 Si bien no parece ser el objetivo de los artículos 13 y 14 el consa-
                                                                                                 grar una definición exhaustiva y ejemplar de las tierras indígenas, la
                                                                                                 apreciación conjunta de ambas disposiciones permite concluir que
@@ -5900,10 +6089,16 @@ de la OIT sobre                                                                 
                                                                                                 a las tierras (como sinónimo de ancestral o consuetudinario) y luego
                                                                                                 para mencionar el tipo de actividades que se realizaban en ellas.
 
-
 ## 3.3.3 Régimen de las tierras indígenas en
 
-                                                                                                el Convenio: consideración especial de los
+**Definición Canónica:** el Convenio: consideración especial de los
+                                                                                                aspectos colectivos de la relación entre los
+                                                                                                pueblos indígenas y las tierras o territorios
+                                                                                                Ya se anticipó que el artículo 13 fija los contornos de una aproxima-
+                                                                                                ción al conc
+**Concordancias Legales:** artículo 13; artículo 21 de la Convención Americana. Desconocer; artículo 21 de la Convención para millones de
+
+el Convenio: consideración especial de los
                                                                                                 aspectos colectivos de la relación entre los
                                                                                                 pueblos indígenas y las tierras o territorios
                                                                                                 Ya se anticipó que el artículo 13 fija los contornos de una aproxima-
@@ -5952,10 +6147,12 @@ de la OIT sobre                                                                 
                                                                                                    “…En tal medida, están protegidas por la Convención Americana
                                                                                                    sobre Derechos Humanos, por ejemplo, modalidades de propie-
 
-
 ## 82        Comisión Interamericana de Derechos Humanos, Derechos de los pueblos indígenas y tribales sobre sus
 
-                                                                tierras ancestrales y recursos naturales. Normas y jurisprudencia del Sistema Interamericano de Derechos
+**Definición Canónica:** tierras ancestrales y recursos naturales. Normas y jurisprudencia del Sistema Interamericano de Derechos
+                                                                Humanos, p. 27.
+
+tierras ancestrales y recursos naturales. Normas y jurisprudencia del Sistema Interamericano de Derechos
                                                                 Humanos, p. 27.
 
 Convenio 169                                                                                  3. Tierras, territorio                                                 135
@@ -5999,10 +6196,12 @@ de la OIT sobre                                                                 
 
 Convenio 169                                                    3. Tierras, territorio                                                   136
 
-
 ## 3.3.4 Derechos de los pueblos indígenas sobre las
 
-                                                                  tierras y deberes correlativos de los gobiernos
+**Definición Canónica:** tierras y deberes correlativos de los gobiernos
+**Concordancias Legales:** artículos 14; artículo 14
+
+tierras y deberes correlativos de los gobiernos
 
                                                                   Como ya se ha dicho, la Parte II del Convenio contiene una serie de
                                                                   disposiciones (artículos 14 al 19) que se refieren tanto a derechos
@@ -6024,7 +6223,15 @@ de la OIT sobre                                                                 
 
 ## parte del Convenio no entran en detalles respecto a la forma de
 
-                                                                  cumplimiento de los respectivos deberes, quedando entregado a los
+**Definición Canónica:** cumplimiento de los respectivos deberes, quedando entregado a los
+                                                                  gobiernos el discernimiento acerca de las medidas más apropiadas
+                                                                  para implementar los mismos, cuya naturaleza (tipo de medidas) y
+                                                                  alcance (titularidad de las tierras a las que aplican) dependerán de
+                                                                  cada contexto y situación particular. Ejemplo de lo anterior es el
+    
+**Concordancias Legales:** artículo 14; artículo 17; artículo 18; artículos 15
+
+cumplimiento de los respectivos deberes, quedando entregado a los
                                                                   gobiernos el discernimiento acerca de las medidas más apropiadas
                                                                   para implementar los mismos, cuya naturaleza (tipo de medidas) y
                                                                   alcance (titularidad de las tierras a las que aplican) dependerán de
@@ -6096,15 +6303,16 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                  3. Tierras, territorio                                                  138
 de la OIT sobre                                                                                  y recursos naturales
 
-
-## 3.4               El régimen de los recursos naturales. Los
-
-                                                                                                derechos que reconoce el Convenio 169
-
-
 ## 3.4.1 El régimen de los recursos naturales y su
 
-                                                                                                vinculación con el concepto de territorio
+**Definición Canónica:** vinculación con el concepto de territorio
+                                                                                                Ya hemos visto que el artículo 13 del Convenio, luego de afirmar “la
+                                                                                                importancia especial que para las culturas y valores espirituales de los
+                                                                                                pueblos interesados reviste su relación con las tierras o territorios” y
+                                                       
+**Concordancias Legales:** artículo 13 del Convenio; artículos 15; artículo 13; artículo 15; artículo 16; artículo 26; artículo 27; Ley N° 19.253; Ley N° 20.249
+
+vinculación con el concepto de territorio
                                                                                                 Ya hemos visto que el artículo 13 del Convenio, luego de afirmar “la
                                                                                                 importancia especial que para las culturas y valores espirituales de los
                                                                                                 pueblos interesados reviste su relación con las tierras o territorios” y
@@ -6217,7 +6425,13 @@ de la OIT sobre                                                                 
 
 ## 71 MIDEPLAN, 1997.                               Schmidt, Provincia de Cautín, Región de
 
-                                                                                                                                la Araucanía.
+**Definición Canónica:** la Araucanía.
+                                                        Alto Bio Bio           Decreto Supremo Nº         Mapuche -             Comuna de Santa Bárbara, Provincia del
+                                                                               93 MIDEPLAN, 1997.         Pehuenche             Bío-Bío, Región del Bío-Bío.
+                                                        Jiwasa Oraje           Decreto Supremo Nº         Aymara y              Comunas de Colchane, Huara, Camiña,
+                                                                               67 MIDEPLAN, 2001. 
+
+la Araucanía.
                                                         Alto Bio Bio           Decreto Supremo Nº         Mapuche -             Comuna de Santa Bárbara, Provincia del
                                                                                93 MIDEPLAN, 1997.         Pehuenche             Bío-Bío, Región del Bío-Bío.
                                                         Jiwasa Oraje           Decreto Supremo Nº         Aymara y              Comunas de Colchane, Huara, Camiña,
@@ -6236,7 +6450,10 @@ de la OIT sobre                                                                 
 
 ## 168 MIDEPLAN, 2004                               Galvarino, Los Sauces, Traiguén, Lumaco
 
-                                                                                                                                y Purén, Provincias de Malleco y Cautín,
+**Definición Canónica:** y Purén, Provincias de Malleco y Cautín,
+                                                                                                                                Región de la Araucanía.
+
+y Purén, Provincias de Malleco y Cautín,
                                                                                                                                 Región de la Araucanía.
 
 Convenio 169                                                                           3. Tierras, territorio                                                           141
@@ -6252,7 +6469,13 @@ de la OIT sobre                                                                 
 
 ## 279 MIDEPLAN, 2005                             Antártica Chilena, Región de Magallanes
 
-                                                                                                                           y Antártica Chilena.
+**Definición Canónica:** y Antártica Chilena.
+                                                        Ercilla             Decreto Supremo            Mapuche             Comunas de Ercilla y Traiguén, Provincia
+                                                                            N° 35 Ministerio de                            de Malleco, Región de la Araucanía.
+                                                                            Desarrollo Social,
+**Concordancias Legales:** Artículo 15; artículo 15 del Convenio establece para los gobiernos un debe; Artículo 16; constitución
+
+y Antártica Chilena.
                                                         Ercilla             Decreto Supremo            Mapuche             Comunas de Ercilla y Traiguén, Provincia
                                                                             N° 35 Ministerio de                            de Malleco, Región de la Araucanía.
                                                                             Desarrollo Social,
@@ -6343,7 +6566,13 @@ de la OIT sobre                                                                 
 
 ## 2. Cuando excepcionalmente el traslado y la reubicación de esos
 
-                                                                                             pueblos se consideren necesarios, solo deberán efectuarse con
+**Definición Canónica:** pueblos se consideren necesarios, solo deberán efectuarse con
+                                                                                             su consentimiento, dado libremente y con pleno conocimiento de
+                                                                                             causa. Cuando no pueda obtenerse su consentimiento, el traslado y
+                                                                                             la reubicación solo deberá tener lugar al término de procedimientos
+                                                              
+
+pueblos se consideren necesarios, solo deberán efectuarse con
                                                                                              su consentimiento, dado libremente y con pleno conocimiento de
                                                                                              causa. Cuando no pueda obtenerse su consentimiento, el traslado y
                                                                                              la reubicación solo deberá tener lugar al término de procedimientos
@@ -6351,16 +6580,23 @@ de la OIT sobre                                                                 
                                                                                              públicas, cuando haya lugar, en que los pueblos interesados tengan la
                                                                                              posibilidad de estar efectivamente representados.
 
-
 ## 3. Siempre que sea posible, estos pueblos deberán tener el derecho de
 
-                                                                                             regresar a sus tierras tradicionales en cuanto dejen de existir las causas
+**Definición Canónica:** regresar a sus tierras tradicionales en cuanto dejen de existir las causas
                                                                                              que motivaron su traslado y reubicación.
 
+regresar a sus tierras tradicionales en cuanto dejen de existir las causas
+                                                                                             que motivaron su traslado y reubicación.
 
 ## 4. Cuando el retorno no sea posible, tal como se determine por acuerdo
 
-                                                                                             o, en ausencia de tales acuerdos, por medio de procedimientos
+**Definición Canónica:** o, en ausencia de tales acuerdos, por medio de procedimientos
+                                                                                             adecuados, dichos pueblos deberán recibir, en todos los casos posibles,
+                                                                                             tierras cuya calidad y cuyo estatuto jurídico sean por lo menos iguales
+                                                                                             a los de las tierras que ocupaban anteriormente, y que les permitan
+                                               
+
+o, en ausencia de tales acuerdos, por medio de procedimientos
                                                                                              adecuados, dichos pueblos deberán recibir, en todos los casos posibles,
                                                                                              tierras cuya calidad y cuyo estatuto jurídico sean por lo menos iguales
                                                                                              a los de las tierras que ocupaban anteriormente, y que les permitan
@@ -6369,10 +6605,13 @@ de la OIT sobre                                                                 
                                                                                              especie, deberá concedérseles dicha indemnización, con las garantías
                                                                                              apropiadas.
 
-
 ## 5. Deberá indemnizarse plenamente a las personas trasladadas y
 
-                                                                                             reubicadas por cualquier pérdida o daño que hayan sufrido como
+**Definición Canónica:** reubicadas por cualquier pérdida o daño que hayan sufrido como
+                                                                                             consecuencia de su desplazamiento (artículo 16).
+**Concordancias Legales:** artículo 16
+
+reubicadas por cualquier pérdida o daño que hayan sufrido como
                                                                                              consecuencia de su desplazamiento (artículo 16).
 
                                                                                           En su Guía del Convenio, la OIT introduce esta disposición con las
@@ -6459,7 +6698,14 @@ de la OIT sobre                                                                 
 
 ## 16 N° 3). Según la Guía del Convenio, “el artículo 16(3) estipula
 
-                                                                  que en los casos en los que la reubicación haya sido necesaria, los
+**Definición Canónica:** que en los casos en los que la reubicación haya sido necesaria, los
+                                                                  pueblos indígenas deberán tener el derecho de regresar en cuanto
+                                                                  deje de existir la causa por la que debieron abandonar las tierras. Por
+                                                                  ejemplo, en el caso de una guerra o desastre natural, pueden regresar
+                                                                  a sus tierras cuando tales situaciones finalicen.”
+**Concordancias Legales:** artículo 16; Artículo 19; artículo 14; artículos 13
+
+que en los casos en los que la reubicación haya sido necesaria, los
                                                                   pueblos indígenas deberán tener el derecho de regresar en cuanto
                                                                   deje de existir la causa por la que debieron abandonar las tierras. Por
                                                                   ejemplo, en el caso de una guerra o desastre natural, pueden regresar
@@ -6615,10 +6861,12 @@ de la OIT sobre                                                                 
 Convenio 169                                                                              3. Tierras, territorio                                                         150
 de la OIT sobre                                                                              y recursos naturales
 
-
 ## 3.7               Protección ambiental de las tierras
 
-                                                                                            indígenas en el Convenio
+**Definición Canónica:** indígenas en el Convenio
+**Concordancias Legales:** artículo 7 del Convenio en sus números 3 y 4 se; artículo 1; artículo 13; artículos 15; artículo 14; artículo 17; artículo 7; artículo 4 inciso 2; artículo 39; artículo 20; artículo 21; artículo 19; artículo 63; artículo 12 de la Ley Indígena; artículos 9; artículo 13 de la Ley N; artículo 22; Ley N° 19.253; Ley N° 19.300; constitución
+
+indígenas en el Convenio
 
                                                                                             Por su parte, el artículo 7 del Convenio en sus números 3 y 4 se
                                                                                             hace cargo de la ‘importancia especial’ de la relación de los pueblos
@@ -6863,10 +7111,13 @@ de la OIT sobre                                                          y recur
                                                                         la jurisprudencia judicial en relación a las tierras, territorio y recursos
                                                                         naturales.
 
-
 ## 3.8.1 Alcance del concepto de territorio
 
-                                                                        — La voz ‘terrenos’ del artículo 64 de la Ley N° 19.253 interpre-
+**Definición Canónica:** — La voz ‘terrenos’ del artículo 64 de la Ley N° 19.253 interpre-
+                                                                          tada como ‘territorio’ en el marco de un proceso de regulari -
+**Concordancias Legales:** artículo 64 de la Ley N; artículo 64 de la Ley Indígena; artículo 1; artículo 64; artículo 65 de la Ley en comento; artículo 15; artículo 13; artículos 15; artículo 12 de la Ley N; artículo 3; Ley N° 19.253; Ley Nº 19.253
+
+— La voz ‘terrenos’ del artículo 64 de la Ley N° 19.253 interpre-
                                                                           tada como ‘territorio’ en el marco de un proceso de regulari -
 
                                                                           zación de un derecho de aprovechamiento de aguas.
@@ -7017,10 +7268,12 @@ de la OIT sobre                                                          y recur
                                                                   — Corte Suprema, 22 de julio de 2020, rol N° 28121-2019 (caso
                                                                     Comunidad de Solor, Fisco y Laguna Céjar).
 
-
 ## 3.8.2 Estatus de las Áreas de Desarrollo Indígena
 
-                                                                  en relación al concepto de territorio
+**Definición Canónica:** en relación al concepto de territorio
+**Concordancias Legales:** artículo 13; artículo 14; Ley N° 19.253; Ley Nº 19.253; constitucion; Constitución Política
+
+en relación al concepto de territorio
 
                                                                   — Solicitud de transferencia de inmueble fiscal presentada por
                                                                     una comunidad indígena, dentro de un Área de Desarrollo
@@ -7123,10 +7376,13 @@ de la OIT sobre                                                          y recur
                                                                   — Corte Suprema, 4 de mayo de 2016, rol N° 6628-2015, sentencia
                                                                     de reemplazo (caso servidum bre Cerro Colorado).
 
-
 ## 3.8.3 Constitución    de    servidumbres
 
-                                                                  mineras sobre tierras indígenas. Relación
+**Definición Canónica:** mineras sobre tierras indígenas. Relación
+                                                                  con las disposiciones del Convenio
+**Concordancias Legales:** artículo 56 de la Ley N; artículo 23 del Código de Procedimiento Civil; artículo 15.2; artículos 5; artículo 19; Ley N° 19.253; Ley N° 19.657; Ley Nº 17.729; Ley Nº 19.253; Ley Nº 4.802; Ley Nº 14.511; Ley N° 16.441; constitución; Constitución Política; Constitucion
+
+mineras sobre tierras indígenas. Relación
                                                                   con las disposiciones del Convenio
 
                                                                   — Procedimiento para la constitución de una servidumbre legal
@@ -7432,8 +7688,11 @@ de la OIT sobre                                                                 
 
                                                       96        Véase la sentencia del Tribunal Constitucional del 24 de diciembre de 2015, rol Nº 2252-2013.
 
-
 ## 4. El componen te indígena
+
+**Definición Canónica:** Convenio 169                                                                                                                             169
+de la OIT sobre                                                   en los litigios judiciales
+**Concordancias Legales:** artículo 2; artículo 8; artículo 8 del Convenio 169 señala que al aplicar el derecho
 
 Convenio 169                                                                                                                             169
 de la OIT sobre                                                   en los litigios judiciales
@@ -7605,10 +7864,13 @@ de la OIT sobre                                                    en los litigi
 Convenio 169                                                          4. El componen te indígena                                                 174
 de la OIT sobre                                                          en los litigios judiciales
 
-
 ## 4.1     El Convenio 169 y la reinterpretación de los
 
-                                                                        derechos fundamentales constitucionales en
+**Definición Canónica:** derechos fundamentales constitucionales en
+                                                                        clave indígena: recursos de protección y amparo
+**Concordancias Legales:** Ley N° 19.300; constitucion; Constitución
+
+derechos fundamentales constitucionales en
                                                                         clave indígena: recursos de protección y amparo
 
                                                                         Una de las primeras áreas en las que encontró progresiva cabida la
@@ -7674,10 +7936,16 @@ de la OIT sobre                                                    en los litigi
 
                                                                   Cuestiones críticas en los litigios constitucionales cautelares
 
-
 ## 4.1.1 El acceso a la justicia
 
-                                                                  Las reglas de Brasilia incluyen expresamente a las comunidades indíge-
+**Definición Canónica:** Las reglas de Brasilia incluyen expresamente a las comunidades indíge-
+                                                                  nas. En materia constitucional debe además estar presente el carácter
+                                                                  colectivo de los derechos indígenas, carácter del cual ha de desprenderse
+                                                                  una consecuencia procesal: si se trata de derechos colectivos, lo lógico
+                                                                  es que se reconozca legitimación también a los g
+**Concordancias Legales:** artículo 19; constitucion; Constitución
+
+Las reglas de Brasilia incluyen expresamente a las comunidades indíge-
                                                                   nas. En materia constitucional debe además estar presente el carácter
                                                                   colectivo de los derechos indígenas, carácter del cual ha de desprenderse
                                                                   una consecuencia procesal: si se trata de derechos colectivos, lo lógico
@@ -7718,10 +7986,17 @@ de la OIT sobre                                                    en los litigi
                                                                         denunciadas” (Tribunal Constitucional, sentencia del 29 de enero
                                                                         de 2020, considerando 64º).
 
-
 ## 4.1.2 La interpretación evolutiva
 
-                                                                  y el enfoque intercultural
+**Definición Canónica:** y el enfoque intercultural
+                                                                  La jurisprudencia constitucional nacional y la jurisprudencia de la
+                                                                  corte interamericana de derechos humanos tienen como criterio
+                                                                  constante aquel que sostiene que los tratados y las normas de de-
+                                                                  rechos humanos son reglas cuya interpretación no es estática en el
+                                              
+**Concordancias Legales:** artículo 21 de la Convención Ame; Ley Nº 21.298; constitucion; constitución
+
+y el enfoque intercultural
                                                                   La jurisprudencia constitucional nacional y la jurisprudencia de la
                                                                   corte interamericana de derechos humanos tienen como criterio
                                                                   constante aquel que sostiene que los tratados y las normas de de-
@@ -7781,20 +8056,28 @@ de la OIT sobre                                                    en los litigi
                                                                         la evolución de los tiempos y, en particular, a las condiciones
                                                                         de vida actuales.
 
-
 ## 147. A su vez, el artículo 29.b de la Convención establece que
 
-                                                                        ninguna disposición puede ser interpretada en el sentido de
+**Definición Canónica:** ninguna disposición puede ser interpretada en el sentido de
+
+ninguna disposición puede ser interpretada en el sentido de
 
                                                                         ‘limitar el goce y ejercicio de cualquier derecho o libertad que
                                                                         pueda estar reconocido de acuerdo con las leyes de cualquiera
                                                                         de los Estados partes o de acuerdo con otra convención en
                                                                         que sea parte uno de dichos Estados’.
 
-
 ## 148. Mediante una interpretación evolutiva de los instru-
 
-                                                                        mentos internacionales de protección de derechos humanos,
+**Definición Canónica:** mentos internacionales de protección de derechos humanos,
+                                                                        tomando en cuenta las normas de interpretación aplicables y,
+                                                                        de conformidad con el artículo 29.b de la Convención –que
+                                                                        prohíbe una interpretación restrictiva de los derechos–, esta
+                                                                        Corte considera que el artículo 21 de la Convención protege
+             
+**Concordancias Legales:** artículo 29; artículo 21 de la Convención protege; constitucion
+
+mentos internacionales de protección de derechos humanos,
                                                                         tomando en cuenta las normas de interpretación aplicables y,
                                                                         de conformidad con el artículo 29.b de la Convención –que
                                                                         prohíbe una interpretación restrictiva de los derechos–, esta
@@ -7841,10 +8124,15 @@ de la OIT sobre                                                                 
                                                                                                    privadas de libertad, embarazadas o con hijos lactantes, así
                                                                                                    como a aquella relativa a la erradicación de todas las formas
 
-
 ## 98 Véase Comisión de Derechos Humanos (1993) párrs. 14 y 15: “14. It cannot be denied that both individuals
 
-                                                           and collectivities are often victimized as a result of gross violations of human rights. most of the gross vio-
+**Definición Canónica:** and collectivities are often victimized as a result of gross violations of human rights. most of the gross vio-
+                                                           lations of human rights. Most of the gross violations listed in the previous paragraph inherently affect rights
+                                                           of individuals and rights of collectivities. This was also assumed in Sub-Commission resolution 1989/13 which
+                                                           provided some useful guidelines with respect to the question of who is entitled to repara
+**Concordancias Legales:** artículo 56; Ley Nº 19.253; ley N° 19.657; constitucion; Constitución Política
+
+and collectivities are often victimized as a result of gross violations of human rights. most of the gross vio-
                                                            lations of human rights. Most of the gross violations listed in the previous paragraph inherently affect rights
                                                            of individuals and rights of collectivities. This was also assumed in Sub-Commission resolution 1989/13 which
                                                            provided some useful guidelines with respect to the question of who is entitled to reparation. In this regard
@@ -8014,10 +8302,13 @@ de la OIT sobre                                                    en los litigi
 Convenio 169                                                                              4. El componen te indígena                                                           184
 de la OIT sobre                                                                              en los litigios judiciales
 
-
 ## 4.3               Normativa en materia laboral y de seguridad
 
-                                                                                            social: las comunidades como empleadoras y los
+**Definición Canónica:** social: las comunidades como empleadoras y los
+                                                                                            indígenas como trabajadores
+**Concordancias Legales:** Artículo 15; Artículo 20
+
+social: las comunidades como empleadoras y los
                                                                                             indígenas como trabajadores
 
                                                                                             Si comparamos el Convenio 107 con el 169, es posible observar en el
@@ -8038,10 +8329,15 @@ de la OIT sobre                                                                 
                                                        beneficiarse de la protección que la ley concede a           protegidos eficazmente por la legislación aplicable a los
                                                        los trabajadores en general.                                 trabajadores en general.
 
-
 ## 2. Todo Miembro hará cuanto esté en su poder                 2. Los gobiernos deberán hacer cuanto esté en su
 
-                                                       para evitar cualquier discriminación entre los               poder por evitar cualquier discriminación entre los
+**Definición Canónica:** para evitar cualquier discriminación entre los               poder por evitar cualquier discriminación entre los
+                                                       trabajadores pertenecientes a las poblaciones en             trabajadores pertenecientes a los pueblos interesados y
+                                                       cuestión y los demás trabajadores, especialmente             los demás trabajadores, especialmente en lo relativo a:
+                                                       en lo relativo a:
+                                                                      
+
+para evitar cualquier discriminación entre los               poder por evitar cualquier discriminación entre los
                                                        trabajadores pertenecientes a las poblaciones en             trabajadores pertenecientes a los pueblos interesados y
                                                        cuestión y los demás trabajadores, especialmente             los demás trabajadores, especialmente en lo relativo a:
                                                        en lo relativo a:
@@ -8091,10 +8387,15 @@ de la OIT sobre                                                                 
                                                                                                                       hombres y mujeres en el empleo y de protección contra
                                                                                                                       el hostigamiento sexual.
 
-
 ## 4. Deberá prestarse especial atención a la creación
 
-                                                                                                                      de servicios adecuados de inspección del trabajo en
+**Definición Canónica:** de servicios adecuados de inspección del trabajo en
+                                                                                                                      las regiones donde ejerzan actividades asalariadas
+                                                                                                                      trabajadores pertenecientes a los pueblos interesados,
+                                                                                                                      a fin de garantizar el cumplimiento de las disposiciones
+**Concordancias Legales:** Ley N° 21.070
+
+de servicios adecuados de inspección del trabajo en
                                                                                                                       las regiones donde ejerzan actividades asalariadas
                                                                                                                       trabajadores pertenecientes a los pueblos interesados,
                                                                                                                       a fin de garantizar el cumplimiento de las disposiciones
@@ -8225,10 +8526,17 @@ de la OIT sobre                                                          en los 
                                                                         indígenas de acuerdo con su derecho consuetudinario. A continuación
                                                                         veremos brevemente estas dos dimensiones.
 
-
 ## 4.4.1 Persecución penal estatal de los
 
-                                                                        miembros de comunidades indígenas
+**Definición Canónica:** miembros de comunidades indígenas
+                                                                        A. Deber de no discriminación:
+                                                                        El principio de no discriminación pesa tanto sobre la legislación penal
+                                                                        que sanciona conductas que pueden ser cometidas por miembros
+                                                                        de los pueblos indígenas como a los jueces encargados de aplicarla.
+                                              
+**Concordancias Legales:** artículo 13 de la Ley N; artículos 13; Ley N° 16.641; Ley N° 16.441; Constitucion; Constitución
+
+miembros de comunidades indígenas
                                                                         A. Deber de no discriminación:
                                                                         El principio de no discriminación pesa tanto sobre la legislación penal
                                                                         que sanciona conductas que pueden ser cometidas por miembros
@@ -8440,7 +8748,14 @@ de la OIT sobre                                                                 
 
 ## 169. Con todo, hay todavía inconvenientes prácticos. Por ejemplo, y
 
-                                                                                               a diferencia de lo que sucede en los procedimientos y contenciosos
+**Definición Canónica:** a diferencia de lo que sucede en los procedimientos y contenciosos
+                                                                                               administrativos ambientales, no se advierte en materia penal una
+                                                                                               metodología uniforme para la presentación y ponderación de infor-
+                                                                                               mes periciales de carácter antropológico, como tampoco hay claridad
+                                                 
+**Concordancias Legales:** artículo 54; artículo 12; artículo 19; Ley Nº 19.253; Ley Nº 20.066; ley N° 20.066; Ley N° 20.066.4; Constitución Política
+
+a diferencia de lo que sucede en los procedimientos y contenciosos
                                                                                                administrativos ambientales, no se advierte en materia penal una
                                                                                                metodología uniforme para la presentación y ponderación de infor-
                                                                                                mes periciales de carácter antropológico, como tampoco hay claridad
@@ -8568,7 +8883,13 @@ de la OIT sobre                                                                 
 
 ## 8.2 CADH). Si bien la garantía del debido proceso no comprende
 
-                                                                                                específicamente la existencia de un defensor especialista en causas
+**Definición Canónica:** específicamente la existencia de un defensor especialista en causas
+                                                                                                con componente indígena (y, por lo tanto, no debería impugnarse
+                                                                                                un proceso donde este tipo de defensores faltase), ella sí exige que al
+                                                                                                inculpado se le permita demostrar, por los medios probatorios que
+                                          
+
+específicamente la existencia de un defensor especialista en causas
                                                                                                 con componente indígena (y, por lo tanto, no debería impugnarse
                                                                                                 un proceso donde este tipo de defensores faltase), ella sí exige que al
                                                                                                 inculpado se le permita demostrar, por los medios probatorios que
@@ -8595,10 +8916,15 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                 4. El componen te indígena                                                197
 de la OIT sobre                                                                                 en los litigios judiciales
 
-
 ## 4.4.2 La comunidad sancionadora: el deber del juez de
 
-                                                                                               considerar las instituciones de justicia penal indígena
+**Definición Canónica:** considerar las instituciones de justicia penal indígena
+                                                                                               Esta es la obligación, condicionada al respet o hacia el ordenamien-
+                                                                                               to jurídico nacional y a los derechos humanos internacionalm ent e
+                                                                                               conocidos, reconocida en el art. 9 del Convenio.
+**Concordancias Legales:** artículo 9; Constitucion
+
+considerar las instituciones de justicia penal indígena
                                                                                                Esta es la obligación, condicionada al respet o hacia el ordenamien-
                                                                                                to jurídico nacional y a los derechos humanos internacionalm ent e
                                                                                                conocidos, reconocida en el art. 9 del Convenio.
@@ -8644,7 +8970,15 @@ de la OIT sobre                                                    en los litigi
 
 ## 54.1 Constitución), es claro que el Tribunal Constitucional carece de
 
-                                                                  atribuciones para formular declaraciones interpretativas a los trata -
+**Definición Canónica:** atribuciones para formular declaraciones interpretativas a los trata -
+                                                                  dos internacionales. La cuestión, por lo tanto, permanece abierta y
+                                                                  sigue siendo posible que, al amparo del artículo 9º del Convenio,
+                                                                  se demande alguna forma de reconocimiento de las instituciones
+                                                                  propias de administración de justicia. Ciertamente, ello dependerá
+ 
+**Concordancias Legales:** artículo 9; Constitución; constitucion
+
+atribuciones para formular declaraciones interpretativas a los trata -
                                                                   dos internacionales. La cuestión, por lo tanto, permanece abierta y
                                                                   sigue siendo posible que, al amparo del artículo 9º del Convenio,
                                                                   se demande alguna forma de reconocimiento de las instituciones
@@ -8706,11 +9040,13 @@ de la OIT sobre                                                                 
                                                                                 producido la incardinación del Convenio en la normativa especial
                                                                                 (domésticas) vigente actualment e en Chile.
 
-
 ## 5.1            Ley N° 19.253
 
+**Definición Canónica:** La Ley N° 19.253          La Ley N° 19.253 o Ley Indígena entró en vigencia en octubre de
+                                                      o Ley Indígena            1993, cuatro años después de la adopción del Convenio. Lo anterior
+**Concordancias Legales:** artículo 1; artículo 13; Ley N° 19.253
 
-                                                      La Ley N° 19.253          La Ley N° 19.253 o Ley Indígena entró en vigencia en octubre de
+La Ley N° 19.253          La Ley N° 19.253 o Ley Indígena entró en vigencia en octubre de
                                                       o Ley Indígena            1993, cuatro años después de la adopción del Convenio. Lo anterior
 
                                                                                 significa que durante su discusión legislativa ya estaba vigente y se
@@ -8766,10 +9102,16 @@ de la OIT sobre                                                    normativ a es
 
                                                                                                                Artículo 13
 
-
 ## 1. Al aplicar las disposiciones
 
-                                                                                                               de esta parte del Convenio, los
+**Definición Canónica:** de esta parte del Convenio, los
+                                                                                                               gobiernos deberán respetar la
+                                                                                                               importancia especial que para las
+                                                                                                               culturas y valores espirituales de
+                                                                                                               los pueblos interesados r
+**Concordancias Legales:** Artículo 1; Artículos 1; Artículo 2; Artículo 4; Artículo 3; Artículo 8; Artículo 5; Artículo 40; Artículos 46; Artículo 7; Artículo 13; Ley N° 19.253; Ley N° 19.300; Ley N° 20.249; Ley N° 20.193
+
+de esta parte del Convenio, los
                                                                                                                gobiernos deberán respetar la
                                                                                                                importancia especial que para las
                                                                                                                culturas y valores espirituales de
@@ -8823,8 +9165,10 @@ de la OIT sobre                                                    normativ a es
 
 ## N° 19.253
 
+**Definición Canónica:** Artículos 26 y 27 Ley N° 19.253
+**Concordancias Legales:** Artículos 26; Artículo 14; Artículos 55; Artículos 27; Artículos 28; Ley N° 19.253; Ley N° 20.249
 
-                                                                                          Artículos 26 y 27 Ley N° 19.253
+Artículos 26 y 27 Ley N° 19.253
 
                                                                                           Ley N° 20.249
 
@@ -8843,8 +9187,14 @@ de la OIT sobre                                                          normati
 
 ## 5.2     Marino de los Pueblos Originarios’ o ECMPO
 
+**Definición Canónica:** Por muchos años la Ley N° 19.253 de 1993 fue el único cuerpo legal
+                                                                        especial aplicable a los pueblos indígenas de Chile. Sin embargo, en
+                                                                        el año 2008 entró en vigencia la Ley N° 20.249 que crea el ‘Espa-
+                                                                        cio Costero Marino de los Pueblos Originarios’, también conocida
+                                                                        como Ley Lafquenche (en adelante ‘Ley N° 20.2
+**Concordancias Legales:** Ley N° 19.253; Ley N° 20.249
 
-                                                                        Por muchos años la Ley N° 19.253 de 1993 fue el único cuerpo legal
+Por muchos años la Ley N° 19.253 de 1993 fue el único cuerpo legal
                                                                         especial aplicable a los pueblos indígenas de Chile. Sin embargo, en
                                                                         el año 2008 entró en vigencia la Ley N° 20.249 que crea el ‘Espa-
                                                                         cio Costero Marino de los Pueblos Originarios’, también conocida
@@ -8854,10 +9204,17 @@ de la OIT sobre                                                          normati
 
                                                                         disposiciones del Convenio.
 
-
 ## 5.2.1 La Ley N° 20.249 en síntesis
 
-                                                                        En el cuadro que se incluye a continuación se incluye una síntesis
+**Definición Canónica:** En el cuadro que se incluye a continuación se incluye una síntesis
+                                                                        de la Ley N° 20.249:
+                                                                         Fundamento          El reconocimiento de los ‘espacios territoriales del
+                                                                         de la ley           borde costero’ que han sido utilizados ancestral y
+                                                                                             consuetudinariamente por los pueblos originarios (la
+    
+**Concordancias Legales:** Ley N° 20.249
+
+En el cuadro que se incluye a continuación se incluye una síntesis
                                                                         de la Ley N° 20.249:
                                                                          Fundamento          El reconocimiento de los ‘espacios territoriales del
                                                                          de la ley           borde costero’ que han sido utilizados ancestral y
@@ -8875,10 +9232,12 @@ de la OIT sobre                                                          normati
                                                                                              de los recursos naturales por parte de las comunidades
                                                                                              indígenas vinculadas al borde costero.
 
-
 ## 5.2.2 El ECMPO
 
-                                                                        De acuerdo al artículo 2° letra e) de la Ley N° 20.249, ECMPO es aquel:
+**Definición Canónica:** De acuerdo al artículo 2° letra e) de la Ley N° 20.249, ECMPO es aquel:
+**Concordancias Legales:** artículo 2; artículo 1; artículo 6; artículo 8; Ley N° 20.249
+
+De acuerdo al artículo 2° letra e) de la Ley N° 20.249, ECMPO es aquel:
 
                                                                              “Espacio costero marino delimitado, cuya administración es en-
                                                                              tregada a comunidades indígenas o asociaciones de ellas, cuyos
@@ -8941,10 +9300,16 @@ de la OIT sobre                                                                 
 Convenio 169                                                    5. La incardinaci ón del Conv enio en la                                 206
 de la OIT sobre                                                    normativ a especial v igente en Chile
 
-
 ## 5.2.3 A quiénes aplica
 
-                                                                  Del texto del proyecto que se transformó en la Ley N° 20.249 se de-
+**Definición Canónica:** Del texto del proyecto que se transformó en la Ley N° 20.249 se de-
+                                                                  duce que la iniciativa estaba originalmente destinada a los “mapuche
+                                                                  lafkenche”, es decir, a los mapuches que habitan en la costa de las
+                                                                  regiones del Biobío a Aysén. Por tal razón, esta ley aun es conocida
+                                                                  y mencionada por algunos como ‘Ley Lafkenche’.
+**Concordancias Legales:** artículo 1; Ley N° 20.249; ley Nº 19.253; Ley N° 19.253
+
+Del texto del proyecto que se transformó en la Ley N° 20.249 se de-
                                                                   duce que la iniciativa estaba originalmente destinada a los “mapuche
                                                                   lafkenche”, es decir, a los mapuches que habitan en la costa de las
                                                                   regiones del Biobío a Aysén. Por tal razón, esta ley aun es conocida
@@ -8965,10 +9330,15 @@ de la OIT sobre                                                    normativ a es
                                                                   en la medida que acrediten un uso consuetudinario de los espacios
                                                                   costeros marinos respectivos.
 
-
 ## 5.2.4 Normas de discriminación positiva
 
-                                                                  en el artículo 10 de la Ley N° 20.249
+**Definición Canónica:** en el artículo 10 de la Ley N° 20.249
+                                                                  El artículo 10 de la Ley N° 20.249 establece dos normas de discrimi-
+                                                                  nación positiva a favor de la o las comunidades indígenas solicitantes
+                                                                  de un ECMPO.
+**Concordancias Legales:** artículo 10 de la Ley N; Artículo 10; artículo 8; Ley N° 20.249
+
+en el artículo 10 de la Ley N° 20.249
                                                                   El artículo 10 de la Ley N° 20.249 establece dos normas de discrimi-
                                                                   nación positiva a favor de la o las comunidades indígenas solicitantes
                                                                   de un ECMPO.
@@ -9026,10 +9396,17 @@ de la OIT sobre                                                    normativ a es
                                                                                                              fines, se debe preferir la solicitud de
                                                                                                              ECMP O.
 
-
 ## 5.2.5 Ley N° 20.249, Convenio y concepto
 
-                                                                  de ‘territorios’
+**Definición Canónica:** de ‘territorios’
+                                                                  La Ley N° 20.249 ha sido resaltada como un ejemplo de una norma-
+                                                                  tiva que recoge el concepto de ‘territorios’ establecido por el artículo
+                                                                  13 del Convenio, el que según se vio comprende “la totalidad del
+                                                                  hábitat de las regiones que los pueblos interesados ocupan o utilizan
+                                              
+**Concordancias Legales:** artículo 13 del Convenio; Ley N° 20.249
+
+de ‘territorios’
                                                                   La Ley N° 20.249 ha sido resaltada como un ejemplo de una norma-
                                                                   tiva que recoge el concepto de ‘territorios’ establecido por el artículo
                                                                   13 del Convenio, el que según se vio comprende “la totalidad del
@@ -9093,10 +9470,13 @@ de la OIT sobre                                                    normativ a es
                                                                     mantener las tradiciones y el uso de los recursos naturales por
                                                                     parte de las comunidades indígenas vinculadas al borde costero.
 
-
 ## 5.2.6 Ley N° 20.249, ECMPO y Convenio
 
-                                                                  en la jurisprudencia judicial
+**Definición Canónica:** en la jurisprudencia judicial
+                                                                  A continuación se revisan los principales criterios desarrollados por la
+**Concordancias Legales:** artículo 10; artículo 1; artículo 3; artículo 19; Ley N° 20.249; Ley 19.880; Ley Nº 19.300; Constitución Política; constitucion
+
+en la jurisprudencia judicial
                                                                   A continuación se revisan los principales criterios desarrollados por la
 
                                                                   jurisprudencia judicial y administrativa en relación a la Ley N° 20.249,
@@ -9202,10 +9582,16 @@ de la OIT sobre                                                          normati
 Convenio 169                                                                              5. La incardinaci ón del Conv enio en la                                212
 de la OIT sobre                                                                              normativ a especial v igente en Chile
 
-
 ## 5.3.1 La evaluación ambiental
 
-                                                                                            La evaluación ambiental constituye un instrumento preventivo de
+**Definición Canónica:** La evaluación ambiental constituye un instrumento preventivo de
+                                                                                            protección del medio ambiente diseñado como un procedimiento
+                                                                                            que busca determinar –sobre la base de una Declaración o Estudio
+                                                                                            de Impacto Ambiental– si un proyecto o actividad se ajusta o no a
+                                                                    
+**Concordancias Legales:** Ley N° 19.300
+
+La evaluación ambiental constituye un instrumento preventivo de
                                                                                             protección del medio ambiente diseñado como un procedimiento
                                                                                             que busca determinar –sobre la base de una Declaración o Estudio
                                                                                             de Impacto Ambiental– si un proyecto o actividad se ajusta o no a
@@ -9241,11 +9627,13 @@ de la OIT sobre                                                                 
                                                                                             ingresa como Estudio de Impacto Ambiental o como Declaración de
                                                                                             Impacto Ambiental. Es en el primero de estos casos donde se pre-
 
-
 ## 121       Bermúdez (2014); p. 262
 
+**Definición Canónica:** Convenio 169                                                             5. La incardinaci ón del Conv enio en la                             213
+de la OIT sobre                                                             normativ a especial v igente en Chile
+**Concordancias Legales:** artículo 11 de la Ley Nº 19.300; artículo 8; artículo 85; artículo 11; Ley Nº 19.300
 
-Convenio 169                                                             5. La incardinaci ón del Conv enio en la                             213
+Convenio 169                                                             5. La incardinaci ón del Conv enio en la                             213
 de la OIT sobre                                                             normativ a especial v igente en Chile
 
                                                                            senta el componente humano indígena como objeto de protección,
@@ -9317,7 +9705,10 @@ de la OIT sobre                                                                 
 
 ## parte del patrimonio inmaterial que custodian y administran las
 
-                                                                                              comunidades indígenas.
+**Definición Canónica:** comunidades indígenas.
+**Concordancias Legales:** artículo 11 de la Ley; artículo N° 1; artículo 2; artículo 7; Artículo 86; artículo 36; artículo 48; artículos 36; Artículo 26; artículo 85; artículo 83; artículos 7; artículo 132; ley N° 19.253; Ley Nº 19.300; Ley N° 19.300; constitución
+
+comunidades indígenas.
 
 Convenio 169                                                                                5. La incardinaci ón del Conv enio en la                                215
 de la OIT sobre                                                                                normativ a especial v igente en Chile
@@ -9675,10 +10066,15 @@ de la OIT sobre                                                                 
                                                                                                    de indígena conforme a la ley N° 19.253, deberá acreditar dicha
                                                                                                    calidad según lo dispuest o en la normativa vigente”.
 
-
 ## 5.3.2 El sancionatorio ambiental
 
-                                                                                              El incumplimiento de las condiciones de operación establecidas en
+**Definición Canónica:** El incumplimiento de las condiciones de operación establecidas en
+                                                                                              una RCA, como asimismo la ejecución de proyectos y el desarrollo de
+                                                                                              actividades sin la correspondiente RCA son, entre otras, infracciones
+                                                                                              sancionadas por la Superintendencia del Medio Ambiente. Por lo
+                                                   
+
+El incumplimiento de las condiciones de operación establecidas en
                                                                                               una RCA, como asimismo la ejecución de proyectos y el desarrollo de
                                                                                               actividades sin la correspondiente RCA son, entre otras, infracciones
                                                                                               sancionadas por la Superintendencia del Medio Ambiente. Por lo
@@ -9699,10 +10095,16 @@ de la OIT sobre                                                                 
 Convenio 169                                                                                  5. La incardinaci ón del Conv enio en la                                      224
 de la OIT sobre                                                                                  normativ a especial v igente en Chile
 
-
 ## 5.3.3 La  tutela     jurisdiccional    en   los
 
-                                                                                                procedimientos de evaluación ambiental: el
+**Definición Canónica:** procedimientos de evaluación ambiental: el
+                                                                                                acceso a la justicia de los pueblos indígenas134
+                                                                                                A partir del año 2014 comienza a consolidarse la tesis según la cual,
+                                                                                                con carácter general, el escrutinio de legalidad de las resoluciones de
+                                                                              
+**Concordancias Legales:** artículo 17; artículos 25; artículos 29; artículo 20; artículo 29 de la Ley N; artículo 11 de la Ley N; Ley N° 20.600; Ley N° 19.300; Ley Nº 20.600; ley Nº 19.300; Ley Nº 19.880; Ley Nº 16.441; constitucion
+
+procedimientos de evaluación ambiental: el
                                                                                                 acceso a la justicia de los pueblos indígenas134
                                                                                                 A partir del año 2014 comienza a consolidarse la tesis según la cual,
                                                                                                 con carácter general, el escrutinio de legalidad de las resoluciones de
@@ -9897,8 +10299,14 @@ de la OIT sobre                                                          normati
 
 ## 5.4     Pascua y otras normas especiales sobre Rapa Nui
 
+**Definición Canónica:** Como se sabe, la soberanía del Estado de Chile sobre Rapa Nui o la
+                                                                        Isla de Pascua se remonta al acuerdo de voluntades suscrito entre
+                                                                        las autoridades chilenas y los “jefe de la Isla” del 9 de septiembre
+                                                                        de 1888. El texto, que iba en la línea de muchos acuerdos suscritos
+                                                                        durante el siglo XIX entre gobiernos occid
+**Concordancias Legales:** artículo 1489 del Código Civil; artículo 1439 del Código Civil. La Corte de Apelaciones de Valp; artículo 1439; artículo 1438 del Código; artículos 7; ley N° 2.885; Ley N° 19.253; Ley Nº 21.070; D.L. Nº 2.885; D.L. Nº 2.695
 
-                                                                        Como se sabe, la soberanía del Estado de Chile sobre Rapa Nui o la
+Como se sabe, la soberanía del Estado de Chile sobre Rapa Nui o la
                                                                         Isla de Pascua se remonta al acuerdo de voluntades suscrito entre
                                                                         las autoridades chilenas y los “jefe de la Isla” del 9 de septiembre
                                                                         de 1888. El texto, que iba en la línea de muchos acuerdos suscritos
@@ -9991,10 +10399,16 @@ de la OIT sobre                                                                 
                                                                                               trativa especial. Entre estas leyes debemos destacar especialmente
                                                                                               dos, la N° 16.441 de 1966 y la más reciente Ley Nº 21.070.
 
-
 ## 5.4.1 La Ley Nº 16.441, que crea el
 
-                                                                                              Departamento de Isla de Pascua
+**Definición Canónica:** Departamento de Isla de Pascua
+                                                                                              Esta Ley tuvo una connotación histórica, dado que incorporó a la
+                                                                                              organización administrativa del Estado el territorio de Isla de Pascua
+                                                                                              y creó la Municipalidad. Hoy día, como se sabe, el departamento ha
+                                                                                    
+**Concordancias Legales:** artículos 13; artículo 1; artículo 13 de la Ley N; artículo 54 de la Ley N; artículo 13; artículo 19; Ley Nº 16.441; Ley N° 19.253; Ley N° 16.441; Constitucion; Constitución
+
+Departamento de Isla de Pascua
                                                                                               Esta Ley tuvo una connotación histórica, dado que incorporó a la
                                                                                               organización administrativa del Estado el territorio de Isla de Pascua
                                                                                               y creó la Municipalidad. Hoy día, como se sabe, el departamento ha
@@ -10109,10 +10523,17 @@ de la OIT sobre                                                    normativ a es
 Convenio 169                                                    5. La incardinaci ón del Conv enio en la                               234
 de la OIT sobre                                                    normativ a especial v igente en Chile
 
-
 ## 5.4.2 Ley Nº 21.070, que regula el ejercicio de los
 
-                                                                  derechos a residir, permanecer y trasladarse hacia
+**Definición Canónica:** derechos a residir, permanecer y trasladarse hacia
+                                                                  y desde el territorio especial de Isla de Pascua
+                                                                  El año 2007 se aprobó la reforma constitucional contenida en la
+                                                                  Ley Nº 20.193, que autorizó la dictación de “estatutos especiales”
+                                                                  para los “territorios especiales” de Isla de Pascua y el Archipiélago
+                                   
+**Concordancias Legales:** Artículo 126 bis; artículo 19; artículo 106 bis; Ley Nº 20.193; Ley Nº 21.070; Ley N° 19.253; constitucion
+
+derechos a residir, permanecer y trasladarse hacia
                                                                   y desde el territorio especial de Isla de Pascua
                                                                   El año 2007 se aprobó la reforma constitucional contenida en la
                                                                   Ley Nº 20.193, que autorizó la dictación de “estatutos especiales”
@@ -10173,10 +10594,15 @@ de la OIT sobre                                                                 
                                                                                              contencioso del Código de Aguas y contencioso
                                                                                              especial del art. 56 de la Ley N° 19.253)
 
-
 ## 5.5.1 Código de Minería, concesiones
 
-                                                                                             mineras y pueblos indígenas
+**Definición Canónica:** mineras y pueblos indígenas
+                                                                                             El Código de Minería no incluye disposiciones que se refieran a pue-
+                                                                                             blos indígenas o a la forma en que sus disposiciones pueden afectar
+                                                                                             los derechos, prioridades, usos o intereses de aquellos, lo que tal vez
+**Concordancias Legales:** Artículo 1; Artículo 2; Artículo 120; artículo 6; artículos 34; artículo 15; artículo 34 del Convenio; artículo 6 del Convenio ni el Reglamento General de Consulta; artículo 6 del Convenio 169 de la OIT; artículos 120; artículos 234; artículo 123 del Código de Minería; artículo 56 de la Ley N; Ley N° 19.253; Ley N° 19.657; constitución
+
+mineras y pueblos indígenas
                                                                                              El Código de Minería no incluye disposiciones que se refieran a pue-
                                                                                              blos indígenas o a la forma en que sus disposiciones pueden afectar
                                                                                              los derechos, prioridades, usos o intereses de aquellos, lo que tal vez
@@ -10518,10 +10944,16 @@ de la OIT sobre                                                                 
                                                                                              de Iquique, 10 de mayo de 2011, rol N° 53-2011. Fallo ejecutoriado
                                                                                              (caso servidumbre geoterm ia).
 
-
 ## 5.5.2 Las aguas y los pueblos indígenas
 
-                                                                                           en la normativa doméstica
+**Definición Canónica:** en la normativa doméstica
+                                                                                           Disposiciones de la Ley N° 19.253 que
+                                                                                           se refieren a las aguas indígenas
+                                                                                           A continuación se revisan las disposiciones de la Ley N° 19.253 que
+                                                                                           se refieren a las aguas indígenas y que son más relevantes al analizar
+**Concordancias Legales:** Artículos 20; Artículo 64; artículo 3; Artículo 20; Artículo 21; artículo 40; Artículo 22; Artículo 26; Artículo 39; artículo 64 de la Ley Indígena establece una protección especia; artículo 64 de la Ley Indígena; artículos 64; artículos 58; Ley N° 19.253; constitución
+
+en la normativa doméstica
                                                                                            Disposiciones de la Ley N° 19.253 que
                                                                                            se refieren a las aguas indígenas
                                                                                            A continuación se revisan las disposiciones de la Ley N° 19.253 que
@@ -10672,7 +11104,14 @@ de la OIT sobre                                                                 
 
 ## Conadi
 
-                                                                                              Se rigen por el derecho común, es       Se rigen por el derecho común, es
+**Definición Canónica:** Se rigen por el derecho común, es       Se rigen por el derecho común, es
+                                                                                              decir, por el Código de Aguas de        decir, por el Código de Aguas de
+                                                                                              1981.                                   1981, y por las disposiciones de
+                                                                                                                                      la Ley Indígena, en particular su
+                        
+**Concordancias Legales:** artículo 22; artículo 589 del Código Civil como el artículo; artículo 13; artículo 13 de la Ley N; artículos 129 bis; artículo 64 de la Ley Indígena; artículo 64; Ley N° 19.253; Ley Nº 19.253
+
+Se rigen por el derecho común, es       Se rigen por el derecho común, es
                                                                                               decir, por el Código de Aguas de        decir, por el Código de Aguas de
                                                                                               1981.                                   1981, y por las disposiciones de
                                                                                                                                       la Ley Indígena, en particular su
@@ -10849,10 +11288,16 @@ de la OIT sobre                                                    normativ a es
                                                                   de Aguas, sin perjuicio de los derechos de aprovechamiento que hayan
                                                                   constituido terceros en conformidad a este último.
 
-
 ## 5.5.2.1 El Código de Aguas y los usos ‘ancestrales’
 
-                                                                  Ya se ha esclarecido que los derechos de aprovechamiento de aguas de
+**Definición Canónica:** Ya se ha esclarecido que los derechos de aprovechamiento de aguas de
+                                                                  propiedad de indígenas se rigen por el Código de Aguas. Solo hacen
+                                                                  excepción a esta regla el artículo 64 ya aludido y la prohibición de
+                                                                  enajenar que afecta a los derechos de aguas adquiridos con recursos
+                                                                  del Fondo para Tierras y Aguas de CONADI. Aclarado lo anterior,
+**Concordancias Legales:** artículo 64; artículo 19; artículos 58; artículo 2; artículo 177; artículo 4; artículo 7 del Decreto; artículo 7; artículo 7 del Decreto Ley N; artículo 181; artículo 3; artículo 64 de la Ley Indígena; artículo 2603; artículo 19 de la Carta Fundamental. Del; artículo 13; Ley N° 2603; Ley N° 20.411; Ley N° 20.491; Ley N° 20.017; Ley N° 19.253; Ley Nº 2.603; Constitución Política; Constitución; constitucion
+
+Ya se ha esclarecido que los derechos de aprovechamiento de aguas de
                                                                   propiedad de indígenas se rigen por el Código de Aguas. Solo hacen
                                                                   excepción a esta regla el artículo 64 ya aludido y la prohibición de
                                                                   enajenar que afecta a los derechos de aguas adquiridos con recursos
@@ -11207,10 +11652,14 @@ de la OIT sobre                                                    normativ a es
                                                                        casos, que ocupan o utilizan de alguna otra manera, y en particular
                                                                        los aspectos colectivos de esa relación.
 
-
 ## 2. La utilización del término “tierras” en los artículos 15 y 16 de-
 
-                                                                       berá incluir el concepto de territorios, lo que cubre la totalidad
+**Definición Canónica:** berá incluir el concepto de territorios, lo que cubre la totalidad
+                                                                       del hábitat de las regiones que los pueblos interesados ocupan o
+                                                                       utilizan de alguna otra manera”.
+**Concordancias Legales:** artículo 14; artículo 15; artículo 19; artículo 23; artículos 13; artículo 64; artículo 13 del Convenio 169 establece que; artículos 15
+
+berá incluir el concepto de territorios, lo que cubre la totalidad
                                                                        del hábitat de las regiones que los pueblos interesados ocupan o
                                                                        utilizan de alguna otra manera”.
 
@@ -11300,7 +11749,14 @@ de la OIT sobre                                                    normativ a es
 
 ## parte, el artículo 14 señala en su N° 1 que “deberá reconocerse a los
 
-                                                                  pueblos interesados el derecho de propiedad y de posesión sobre las
+**Definición Canónica:** pueblos interesados el derecho de propiedad y de posesión sobre las
+                                                                  tierras que tradicionalmente ocupan. Además, en los casos apropiados,
+                                                                  deberán tomarse medidas para salvaguardar el derecho de los pueblos
+                                                                  interesados a utilizar tierras que no estén exclusivamente ocupadas
+                                                                  por ellos, pero a las que hayan tenido tradicionalmente acceso
+**Concordancias Legales:** artículo 2; artículo 64 de la Ley Indígena; artículo 1; artículo 64; artículo 65 de la Ley en comento; artículo 15; artículo 13; artículos 15; artículo 19; artículo 20 del Código de Aguas; artículo 64 de la Ley N; artículos 64; artículos 13; artículo 3; artículo 7; artículo 6; artículo 5 de la Constitución; artículo 6 del Convenio; artículo 27; Ley N° 19.253; Ley N° 2603; Constitución Política; constitucion; constitución
+
+pueblos interesados el derecho de propiedad y de posesión sobre las
                                                                   tierras que tradicionalmente ocupan. Además, en los casos apropiados,
                                                                   deberán tomarse medidas para salvaguardar el derecho de los pueblos
                                                                   interesados a utilizar tierras que no estén exclusivamente ocupadas
@@ -11782,10 +12238,14 @@ de la OIT sobre                                                            norma
                                                                               culturales y políticas, o parte de ellas.
                                                                             Artículo 2
 
-
 ## 1. Los gobiernos deberán asumir la responsabilidad de desarrollar, con
 
-                                                                            la participación de los pueblos interesados, una acción coordinada
+**Definición Canónica:** la participación de los pueblos interesados, una acción coordinada
+                                                                            y sistemática con miras a proteger los derechos de esos pueblos y a
+                                                                            garantizar el respeto de su integridad.
+**Concordancias Legales:** Artículo 4
+
+la participación de los pueblos interesados, una acción coordinada
                                                                             y sistemática con miras a proteger los derechos de esos pueblos y a
                                                                             garantizar el respeto de su integridad.
 
@@ -11796,10 +12256,14 @@ de la OIT sobre                                                            norma
                                                                               social y cultural, sus costumbres y tradiciones, y sus instituciones;
                                                                             Artículo 4
 
-
 ## 1. Deberán adoptarse las medidas especiales que se precisen para
 
-                                                                            salvaguardar las personas, las instituciones, los bienes, el trabajo, las
+**Definición Canónica:** salvaguardar las personas, las instituciones, los bienes, el trabajo, las
+                                                                            culturas y el medio ambiente de los pueblos interesados.
+                                                                            Artículo 5°
+**Concordancias Legales:** Artículo 5; Artículo 10
+
+salvaguardar las personas, las instituciones, los bienes, el trabajo, las
                                                                             culturas y el medio ambiente de los pueblos interesados.
                                                                             Artículo 5°
 
@@ -11811,10 +12275,12 @@ de la OIT sobre                                                            norma
                                                                             integridad de los valores, prácticas e instituciones de esos pueblos.
                                                                             Artículo 10
 
-
 ## 1. Cuando se impongan sanciones penales previstas por la legislación
 
-                                                                            general a miembros de dichos pueblos deberán tenerse en cuenta sus
+**Definición Canónica:** general a miembros de dichos pueblos deberán tenerse en cuenta sus
+                                                                            características económicas, sociales y culturales.
+
+general a miembros de dichos pueblos deberán tenerse en cuenta sus
                                                                             características económicas, sociales y culturales.
 
 Convenio 169                                                                                  5. La incardinaci ón del Conv enio en la                                          274
@@ -11833,10 +12299,16 @@ de la OIT sobre                                                                 
                                                                                                 tiene directa relación con la normativa sectorial sobre patrimonio
                                                                                                 cultural indígena que se explica a continuación.
 
-
 ## 5.6.1 Normativa sectorial doméstica
 
-                                                                                                     Como se sabe, la Ley N° 17.288 de 1970 que legisla sobre monu-
+**Definición Canónica:** Como se sabe, la Ley N° 17.288 de 1970 que legisla sobre monu-
+                                                                                                     mentos nacionales no contiene referencias expresas al patrimonio
+                                                                                                     cultural indígena. Su única referencia a elementos propios del
+                                                                                                     patrimonio cultural de los pueblos indígenas está en su artículo
+                                         
+**Concordancias Legales:** artículo 1; Artículo 28; Artículo 29; Artículo 11; Artículo 10; Ley N° 17.288; Ley N° 19.253; Ley N° 19.300
+
+Como se sabe, la Ley N° 17.288 de 1970 que legisla sobre monu-
                                                                                                      mentos nacionales no contiene referencias expresas al patrimonio
                                                                                                      cultural indígena. Su única referencia a elementos propios del
                                                                                                      patrimonio cultural de los pueblos indígenas está en su artículo
@@ -11942,10 +12414,13 @@ de la OIT sobre                                                                 
                                                                                                 para incluir explícitamente el patrimonio cultural inmaterial como
                                                                                                 un objeto de protección.1 4 2
 
-
 ## 5.6.2 El patrimonio cultural indígena en la
 
-                                                                                                jurisprudencia de los tribunales ordinarios
+**Definición Canónica:** jurisprudencia de los tribunales ordinarios
+                                                                                                A continuación se revisan los principales criterios desarrollados por
+**Concordancias Legales:** artículo 2; artículo 2 del Reglamento; artículo 3 del Reglamento; artículo 20; artículo 5; Ley N° 17.288; Constitución Política
+
+jurisprudencia de los tribunales ordinarios
                                                                                                 A continuación se revisan los principales criterios desarrollados por
 
                                                                                                 la jurisprudencia judicial en relación al patrimonio cultural indígena
@@ -12129,10 +12604,16 @@ de la OIT sobre                                                          normati
                                                                         Salud
                                                                 5.7     y educación
 
-
 ## 5.7.1 Salud y autodeterminación
 
-                                                                        Sin perjuicio de que los pueblos indígenas gozan, como la genera-
+**Definición Canónica:** Sin perjuicio de que los pueblos indígenas gozan, como la genera-
+                                                                        lidad de la población, de todos los derechos sociales vinculadas a
+                                                                        la protección de la salud que les pueda garantizar la Constitución,
+                                                                        el Convenio ha tenido especial atención en resguardar la conexión
+                                                                        que existe entre la autodeterminación e ir a 
+**Concordancias Legales:** artículo 25; Constitución
+
+Sin perjuicio de que los pueblos indígenas gozan, como la genera-
                                                                         lidad de la población, de todos los derechos sociales vinculadas a
                                                                         la protección de la salud que les pueda garantizar la Constitución,
                                                                         el Convenio ha tenido especial atención en resguardar la conexión
@@ -12147,27 +12628,39 @@ de la OIT sobre                                                          normati
                                                                              a fin de que puedan gozar del máximo nivel posible de salud
                                                                              física y mental.
 
-
 ## 2. Los servicios de salud deberán organizarse, en la medida de lo
 
-                                                                             posible, a nivel comunitario. Estos servicios deberán planearse
+**Definición Canónica:** posible, a nivel comunitario. Estos servicios deberán planearse
+                                                                             y administrarse en cooperación con los pueblos interesados y
+                                                                             tener en cuenta sus condiciones económicas, geográficas, socia-
+                                                                             les y culturales, así como sus métodos de prevención, prácticas
+                                                                             curativas y medicam ent os tradicionale
+
+posible, a nivel comunitario. Estos servicios deberán planearse
                                                                              y administrarse en cooperación con los pueblos interesados y
                                                                              tener en cuenta sus condiciones económicas, geográficas, socia-
                                                                              les y culturales, así como sus métodos de prevención, prácticas
                                                                              curativas y medicam ent os tradicionales.
 
-
 ## 3. El sistema de asistencia sanitaria deberá dar la preferencia a
 
-                                                                             la formación y al empleo de personal sanitario de la comunidad
+**Definición Canónica:** la formación y al empleo de personal sanitario de la comunidad
                                                                              local y centrarse en los cuidados primarios de salud, manteniendo
                                                                              al mismo tiempo estrechos vínculos con los demás niveles de
                                                                              asistencia sanitaria.
 
+la formación y al empleo de personal sanitario de la comunidad
+                                                                             local y centrarse en los cuidados primarios de salud, manteniendo
+                                                                             al mismo tiempo estrechos vínculos con los demás niveles de
+                                                                             asistencia sanitaria.
 
 ## 4. La prestación de tales servicios de salud deberá coordinarse
 
-                                                                             con las demás medidas sociales, económicas y culturales que se
+**Definición Canónica:** con las demás medidas sociales, económicas y culturales que se
+                                                                             tomen en el país”.
+**Concordancias Legales:** artículo 12 del Pacto. El; Artículo 7; Ley Nº 20.584
+
+con las demás medidas sociales, económicas y culturales que se
                                                                              tomen en el país”.
 
 Convenio 169                                                                                5. La incardinaci ón del Conv enio en la                                   282
@@ -12316,10 +12809,16 @@ de la OIT sobre                                                                 
                                                                                              de un representante de las comunidades en los procedimientos de
                                                                                              selección de personal de los hospitales interculturales.148
 
-
 ## 5.7.2    Educación
 
-                                                                                             El Convenio es especialmente exhaustivo en materia educacional,
+**Definición Canónica:** El Convenio es especialmente exhaustivo en materia educacional,
+                                                                                             lo que no debería llamar la atención dado que, por una parte, la
+                                                                                             educación es el principal transmisor de la cultura e identidad que
+                                                                                             dicho tratado pretende proteger y que, por otra, que la educación es
+                                                        
+**Concordancias Legales:** artículo 3; artículos 28; Ley Nº 20.370; Ley Nº 19.253; Constitución
+
+El Convenio es especialmente exhaustivo en materia educacional,
                                                                                              lo que no debería llamar la atención dado que, por una parte, la
                                                                                              educación es el principal transmisor de la cultura e identidad que
                                                                                              dicho tratado pretende proteger y que, por otra, que la educación es
@@ -12465,7 +12964,15 @@ de la OIT sobre                                                            norma
 
 ## 2.    BARRIENTOS, Ignacio (2009): “Licitud del porte
 
-                                                                                                               15-63.
+**Definición Canónica:** 15-63.
+                                               y so de la hoja de coca: un caso de aplicación
+                                               judicial del Derecho internacional de los dere -          12.   GOBIERNO DE CHILE (2010): “Memoria Presenta-
+                                               chos humanos y de la declaración de Naciones                    da por el Gobierno de Chile en conformidad con
+                                               Unidas sobre derechos de los pueblos indígenas”,                las disposiciones del artículo 22 de la Constitu -
+                       
+**Concordancias Legales:** artículo 22 de la Constitu
+
+15-63.
                                                y so de la hoja de coca: un caso de aplicación
                                                judicial del Derecho internacional de los dere -          12.   GOBIERNO DE CHILE (2010): “Memoria Presenta-
                                                chos humanos y de la declaración de Naciones                    da por el Gobierno de Chile en conformidad con
@@ -12477,8 +12984,14 @@ de la OIT sobre                                                            norma
 
 ## 3.    BERMÚDEZ, Jorge (2014): Fundamentos de Dere-
 
+**Definición Canónica:** disposiciones del CONVENIO SOBRE PUEBLOS
+                                               cho ambiental (Valparaíso: EUV), p. 262                         INDÍGENAS Y TRIBALES, 1989 (NÚM. 169), ratifi-
+                                                                                                               cado por Chile el 15 de septiembre de 2008”.
+                                         4.    COMISIÓN DE DERECHOS HUMANOS (1993):
+                                               “Study concerning the right to restitution, com -         13.   JARA, Álvaro (1956): Legislación indigenista de
+  
 
-                                                                                                               disposiciones del CONVENIO SOBRE PUEBLOS
+disposiciones del CONVENIO SOBRE PUEBLOS
                                                cho ambiental (Valparaíso: EUV), p. 262                         INDÍGENAS Y TRIBALES, 1989 (NÚM. 169), ratifi-
                                                                                                                cado por Chile el 15 de septiembre de 2008”.
                                          4.    COMISIÓN DE DERECHOS HUMANOS (1993):
@@ -12489,7 +13002,13 @@ de la OIT sobre                                                            norma
 
 ## 14.   LENZERINI, Federico (2008): “Reparations for
 
-                                         5.    COMISIÓN DE EXPERTOS EN APLICACIÓN DE                           Indigenous Peoples in International Law and
+**Definición Canónica:** 5.    COMISIÓN DE EXPERTOS EN APLICACIÓN DE                           Indigenous Peoples in International Law and
+                                               CONVENIOS Y RECOMENDACIONES (2009):                             Comparative Law: An Introduction”, en Lenzerini,
+                                               “Observación General, publicación 2009, Conve-                  Federico (Ed.) Reparations for Indigenous Peoples
+                                               nio sobre pueblos indígenas y tribales, 1989 (núm.              (Oxford: Oxford University Press), pp. 16-18.
+        
+
+5.    COMISIÓN DE EXPERTOS EN APLICACIÓN DE                           Indigenous Peoples in International Law and
                                                CONVENIOS Y RECOMENDACIONES (2009):                             Comparative Law: An Introduction”, en Lenzerini,
                                                “Observación General, publicación 2009, Conve-                  Federico (Ed.) Reparations for Indigenous Peoples
                                                nio sobre pueblos indígenas y tribales, 1989 (núm.              (Oxford: Oxford University Press), pp. 16-18.
@@ -12497,7 +13016,13 @@ de la OIT sobre                                                            norma
 
 ## 15.   MOREIRA, Antonio (2013): “Supra-Legality of
 
-                                         6.    COMISIÓN DE EXPERTOS EN APLICACIÓN DE                           International Human Rights Treaties and Consti-
+**Definición Canónica:** 6.    COMISIÓN DE EXPERTOS EN APLICACIÓN DE                           International Human Rights Treaties and Consti-
+                                               CONVENIOS Y RECOMENDACIONES (2011):                             tutional Interpretation”, SUR International Journal
+                                               “Observación General, publicación 2011, Conve-                  on Human Rights 18, 205-223.
+                                               nio sobre pueblos indígenas y tribales, 1989 (núm.
+                                               169)”, Organización Internacional 
+
+6.    COMISIÓN DE EXPERTOS EN APLICACIÓN DE                           International Human Rights Treaties and Consti-
                                                CONVENIOS Y RECOMENDACIONES (2011):                             tutional Interpretation”, SUR International Journal
                                                “Observación General, publicación 2011, Conve-                  on Human Rights 18, 205-223.
                                                nio sobre pueblos indígenas y tribales, 1989 (núm.
@@ -12506,7 +13031,13 @@ de la OIT sobre                                                            norma
 
 ## 7.    comisión de expertos en aplicación de
 
-                                                                                                               biental: desarrollo reglamentario y configuración
+**Definición Canónica:** biental: desarrollo reglamentario y configuración
+                                               CONVENIOS Y RECOMENDACIONES (2014):                             judicial”, Anuario de Derecho Público Universidad
+                                               “Informe de la Comisión de Expertos en Aplica -                 Diego Portales, pp. 317-338.
+                                               ción de Convenios y Recomendaciones de la OIT.
+                                               ILC.103/III (1A)”, Conferencia Internacional del          17.   NÚÑEZ, Manuel (2015): “Estándares de cautela
+
+biental: desarrollo reglamentario y configuración
                                                CONVENIOS Y RECOMENDACIONES (2014):                             judicial”, Anuario de Derecho Público Universidad
                                                “Informe de la Comisión de Expertos en Aplica -                 Diego Portales, pp. 317-338.
                                                ción de Convenios y Recomendaciones de la OIT.
@@ -12516,7 +13047,14 @@ de la OIT sobre                                                            norma
 
 ## 8.    comisión interamericana de derechos
 
-                                                                                                               tarios al fallo Morro (IV)”, en FERMANDOIS, A. y
+**Definición Canónica:** tarios al fallo Morro (IV)”, en FERMANDOIS, A. y
+                                               HUMANOS (2010): “Derechos de los pueblos                        GARCÍA, J. (Eds.), Sentencias Destacadas 2014.
+                                               indígenas y tribales sobre sus tierras ancestrales              Una mirada desde la perspectiva de las políticas
+                                               y recursos naturales. Normas y jurisprudencia del               públicas (Libertad y Desarrollo, Santiago), pp. 19-36.
+                                               Sistema Interamerica
+**Concordancias Legales:** artículos 6; Constitución
+
+tarios al fallo Morro (IV)”, en FERMANDOIS, A. y
                                                HUMANOS (2010): “Derechos de los pueblos                        GARCÍA, J. (Eds.), Sentencias Destacadas 2014.
                                                indígenas y tribales sobre sus tierras ancestrales              Una mirada desde la perspectiva de las políticas
                                                y recursos naturales. Normas y jurisprudencia del               públicas (Libertad y Desarrollo, Santiago), pp. 19-36.
@@ -12540,7 +13078,13 @@ de la OIT sobre                                                            norma
 
 ## 29.   SWEPSTON, LEE (1990): “A New Step in Interna-
 
-                                         20.   ORGANIZACIÓN INTERNACIONAL DEL TRA-                           tional Law on Indigenous Peoples: ILO Convention
+**Definición Canónica:** 20.   ORGANIZACIÓN INTERNACIONAL DEL TRA-                           tional Law on Indigenous Peoples: ILO Convention
+                                               BAJO (1956a): Conferencia Internacional del                   No. 169 of 1989”, Oklahoma City University Law
+                                               Trabajo, Informe VI (1), Protección e integración             Review 15, p. 677-714
+                                               de las poblaciones indígenas y de otras pobla-
+                                               ciones tribuales y semitribu al es en los países, 40ª  
+
+20.   ORGANIZACIÓN INTERNACIONAL DEL TRA-                           tional Law on Indigenous Peoples: ILO Convention
                                                BAJO (1956a): Conferencia Internacional del                   No. 169 of 1989”, Oklahoma City University Law
                                                Trabajo, Informe VI (1), Protección e integración             Review 15, p. 677-714
                                                de las poblaciones indígenas y de otras pobla-
@@ -12553,80 +13097,63 @@ de la OIT sobre                                                            norma
                                                de las poblaciones indígenas en los países inde-              Recopilación de legislación indígena (1813-2017)
                                                pendientes, 39ª reunión, Ginebra, 1956, pp. 16-17.            (Santiago: Librotecnia).
 
-
 ## 22.   organización internacional del traba-                   32.   villegas, myrna y mella-seguel, eduardo
 
-                                               JO (2003): Convenio número 169 sobre pueblos                  (2017): Cuando la costumbre se vuelve ley (San-
+**Definición Canónica:** JO (2003): Convenio número 169 sobre pueblos                  (2017): Cuando la costumbre se vuelve ley (San-
+                                               indígenas y tribales. Un manual (Ginebra: Organi-             tiago: LOM).
+                                               zación Internacional del Trabajo).                      33.   MANRÍQUEZ-HIZAU T, Mónica, LAGOS-FERNÁN-
+
+JO (2003): Convenio número 169 sobre pueblos                  (2017): Cuando la costumbre se vuelve ley (San-
                                                indígenas y tribales. Un manual (Ginebra: Organi-             tiago: LOM).
                                                zación Internacional del Trabajo).                      33.   MANRÍQUEZ-HIZAU T, Mónica, LAGOS-FERNÁN-
 
 ## 23.   ORGANIZACIÓN INTERNACIONAL DEL TRA-                           DEZ, Cristián, REBOLLEDO-SANHU EZA, Jame
 
-                                               BAJO (2013): “Comprender el Convenio sobre                    y FIGUEROA HUENCHO, Verónica (2018): “Salud
+**Definición Canónica:** BAJO (2013): “Comprender el Convenio sobre                    y FIGUEROA HUENCHO, Verónica (2018): “Salud
+                                               pueblos indígenas y tribales, 1989 (núm. 169).                intercultural en Chile: desarrollo histórico y de -
+                                               Manual para los mandantes tripartitos de la OIT”,             safíos actuales”, Revista Salud Pública 20/6, pp.
+                                               Programa para Promover el Convenio 169 (PRO                   759-763.
+                                               169), Dep
+
+BAJO (2013): “Comprender el Convenio sobre                    y FIGUEROA HUENCHO, Verónica (2018): “Salud
                                                pueblos indígenas y tribales, 1989 (núm. 169).                intercultural en Chile: desarrollo histórico y de -
                                                Manual para los mandantes tripartitos de la OIT”,             safíos actuales”, Revista Salud Pública 20/6, pp.
                                                Programa para Promover el Convenio 169 (PRO                   759-763.
                                                169), Departamento de Normas Internacionales
                                                del Trabajo.
 
-
-## 24.   PERROTTI, Alejandro (2004): Habilitación constitu-
-
-                                               cional para la integración comunitaria (Montevideo:
-                                               U. Austral-Konrad Adenauer Stiftung, 2004).
-
-
-## 25.   relator especial de naciones unidas so-
-
-
-## Bre la situación de los derechos huma-
-
-
 ## Nos y libertades fundamentales de los
 
-                                               PUEBLOS INDÍGENAS (2008): Promoción y pro-
+**Definición Canónica:** PUEBLOS INDÍGENAS (2008): Promoción y pro-
                                                tección de todos los derechos humanos, políticos,
                                                económicos, sociales y culturales, incluido en dere-
                                                cho al desarrollo. H/HRC/9/9, 11 de agosto de 2008
 
-
-## 26.   relator especial de naciones unidas so-
-
-
-## Bre la situación de los derechos huma-
-
+PUEBLOS INDÍGENAS (2008): Promoción y pro-
+                                               tección de todos los derechos humanos, políticos,
+                                               económicos, sociales y culturales, incluido en dere-
+                                               cho al desarrollo. H/HRC/9/9, 11 de agosto de 2008
 
 ## Nos y libertades fundamentales de los
 
-                                               PUEBLOS INDÍGENAS (2013): Informe del Relator
+**Definición Canónica:** PUEBLOS INDÍGENAS (2013): Informe del Relator
                                                Especial sobre los derechos de los pueblos indí -
                                                genas. Las industrias extractivas y los pueblos
                                                indígenas. A/HRC/24/41, 1 de julio de 2013,
 
-
-## 27.   relator especial de naciones unidas so-
-
-
-## Bre la situación de los derechos huma-
-
+PUEBLOS INDÍGENAS (2013): Informe del Relator
+                                               Especial sobre los derechos de los pueblos indí -
+                                               genas. Las industrias extractivas y los pueblos
+                                               indígenas. A/HRC/24/41, 1 de julio de 2013,
 
 ## Nos y libertades fundamentales de los
 
-                                               PUEBLOS INDÍGENAS (2009): “Promoción y protec-
+**Definición Canónica:** PUEBLOS INDÍGENAS (2009): “Promoción y protec-
                                                ción de todos los derechos humanos, civiles, eco-
                                                nómicos, sociales y culturales incluido el derecho al
                                                desarrollo”, A/HRC/12/34, 15 de julio de 2009
 
-## Serie de
-
-
-## Documentos   293
-
-
-## Materiales
-
-
-## Doce nt es
-
-
-Academia   Judicial   de Chile | www.academiajudicial.cl
+PUEBLOS INDÍGENAS (2009): “Promoción y protec-
+                                               ción de todos los derechos humanos, civiles, eco-
+                                               nómicos, sociales y culturales incluido el derecho al
+                                               desarrollo”, A/HRC/12/34, 15 de julio de 2009

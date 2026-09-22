@@ -13,11 +13,10 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Contrato de mutuo
-
-
 ## O préstamo de consumo1
 
+**Definición Canónica:** 1.- Regulación, definición legal y partes del contrato.
+**Concordancias Legales:** Ley Nº 18.010; Ley N° 18.010
 
 1.- Regulación, definición legal y partes del contrato.
 
@@ -109,6 +108,9 @@ de Derecho, Universidad Católica de Valparaíso, XIX, Valparaíso, 1998, pp. 20
 hipótesis planteada por la profesora Doyharcabal, existe otro caso en el propio CC.: el contemplado en el art.
 
 ## 1610 N° 6, en las normas del pago con subrogación legal. Conforme al precepto, el préstamo que un tercero le
+
+**Definición Canónica:** hace al deudor, debe constar en escritura pública.
+**Concordancias Legales:** artículo 21; artículo 2192; artículo 31; artículos 6; artículo 3; artículo 2203 del Código Civil. Conforme se expuso; Ley N° 18.010; Ley Nº 18.010; Ley N° 18.840; Ley N° 18.833; Ley N° 20.715; Ley Nº 21.398; Constitucion
 
 hace al deudor, debe constar en escritura pública.
 

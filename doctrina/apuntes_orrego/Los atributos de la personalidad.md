@@ -13,12 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## Los atributos de la personalidad1
-
-
-Sumario: 1.- Concepto y enumeración. 2.- La capacidad de goce. 2.1. Definición.
-
 ## 2.2. Clases de capacidad. 2.3. Capacidad de goce, atributo de la personalidad. 2.4. La
+
+**Definición Canónica:** incapacidad de ejercicio es excepcional. 2.5. Incapacidades de goce especiales o
+particulares. 3.- La nacionalidad. 3.1. Definición. 3.2. Igualdad de los chilenos y
+extranjeros ante el Derecho civil. 3.3. Adquisición y pérdida de la nacionalidad. 3.4.
+Nacionalidad y ciudadanía. 3.5. Excepciones al principio establecido en el art. 57 del
+Código Civil. 4.- El nombre. 4.1. Definición. 4.2. Clasificación. 5.- El estado civil. 5.1.
+Definición. 5.2. Consecuencias del estado civil. 5.3. Fuentes del estado civil. 5.4.
+Características del estado civil. 5.5. La familia y el parentesco. 5.6. Prueba del e
+**Concordancias Legales:** artículo 997; artículo 5; artículo 6; artículos 17 bis; artículo 1; Ley Nº 4.601; Ley Nº 19.473; Ley Nº 18.892; Ley Nº 1.939; Ley Nº 21.334; Ley Nº 21.334.6; Ley N° 21.334; Ley Nº 17.344; ley N° 4.808; Constitución Política; Constitución; Constitucion
 
 incapacidad de ejercicio es excepcional. 2.5. Incapacidades de goce especiales o
 particulares. 3.- La nacionalidad. 3.1. Definición. 3.2. Igualdad de los chilenos y
@@ -669,6 +673,15 @@ del artículo 1° (cuando se solicite inversión de los apellidos) sólo operar�
 solicitante, sin que resulte extensivo a los ascendientes, y no alterará la filiación. Por su
 
 ## parte, el cambio del orden de los apellidos del solicitante provocará el cambio del
+
+**Definición Canónica:** respectivo apellido de transmisión a los hijos menores de edad, debiendo procederse
+por igual respecto de todos ellos. Sin perjuicio de lo anterior, si el solicitante tuviere uno
+o más hijos mayores de 14 y menores de 18 años de edad, éstos deberán manifestar su
+consentimiento mediante declaración escrita extendida ante el tribunal, caso en el cual
+también se deberá proceder por igual respecto de todos los hijos menores de edad. Para
+estos efectos, el solicitante deberá pedir también, en el mismo acto en que solicite el
+cambio del orden de sus apellidos, la modificación pertinente en las parti
+**Concordancias Legales:** artículo 17 ter de la Ley N; artículos 17 bis; artículo 104; artículo 42 del Código Civil; artículo 225; artículo 64; Artículo 19; artículos 580; Ley N° 4.808; Ley Nº 21.120; Ley Nº 21.334; Ley Nº 4.808; Ley Nº 17.344; Ley Nº 19.628; ley N° 17.344; ley N° 19.628; ley N° 2.128; Ley Nº 19.039; Ley Nº 17.336; Ley Nº 19.968; Ley N° 20.830; Ley Nº 21.400; Ley Nº 19.585; Ley N° 14.908; Ley N° 19.947; Ley Nº 18.815; Ley Nº 19.857; constitución; Constitución Política
 
 respectivo apellido de transmisión a los hijos menores de edad, debiendo procederse
 por igual respecto de todos ellos. Sin perjuicio de lo anterior, si el solicitante tuviere uno

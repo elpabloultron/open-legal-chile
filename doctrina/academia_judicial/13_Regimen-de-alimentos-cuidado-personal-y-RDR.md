@@ -13,19 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Régimen de
+             Alimentos, Cuidado
+             personal y
+             Relación directa
+             y regular
+                  en la decisión
+                  judicial
 
-             Régimen de
+Régimen de
              Alimentos, Cuidado
              personal y
              Relación directa
@@ -44,19 +42,22 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Francesco
+                               Carretta
+                               Muñoz
+                          Doctor en Derecho de la Pontificia
+                          Universidad Católica de Valparaíso,
+                          Francesco Carretta Muñoz es profe-
+                          sor de Derecho Procesal de la misma
+                          casa de estudios. Abogado formado
+                          en la Universidad Austral de Chile, se
+                          desempeña como magistrado en el
+                          Juzgado de Familia de Valparaíso y
+                       
 
-                          Francesco
+Francesco
                                Carretta
                                Muñoz
                           Doctor en Derecho de la Pontificia
@@ -119,153 +120,12 @@ Chile 2020                de Justicia.
 
                                          Introducción7
 
-
-## 1. Régimen de cuidado personal                                              10
-
-
-
-## 1.1 Concepto y alcance                                                    11
-
-
-
-## 1.2 La óptica actual de apreciación del derecho                          13
-
-
-
-## 1.3 Sistematización y estructura del derecho                             14
-
-
-
-## 1.4 Contenido                                                            15
-
-
-
-## 1.5 Principios rectores                                                  17
-
-
-
-## 1.6 Reglas de atribución                                                 24
-
-
-
-## 1.7 Criterios para el establecimiento judicial del régimen               34
-
-
-
-## 1.8 Normas procesales sobre el régimen de cuidado personal               39
-
-
-
-## 1.9 Preguntas orientadoras                                               43
-
-
-
-## 2. Relación directa y regular                                               44
-
-
-
-## 2.1 Introducción                                                         45
-
-
-
-## 2.2 Fundamentos y principios que dirigen la institución                  46
-
-
-
-## 2.3 Principio de corresponsabilidad, cuidado personal compartido y RDR   48
-
-
-
-## 2.4 Definición y consagración legal                                      50
-
-
-
-## 2.5 Determinación del régimen                                             51
-
-
-
-## 2.6 Compensación de la RDR                                               59
-
-
-
-## 2.7 RDR con los abuelos y terceros                                        61
-
-
-
-## 2.8 Preguntas orientadoras                                                64
-
-
-
-## 3. El derecho de alimentos                                                  65
-
-
-
-## 3.1 El fundamento del derecho de alimentos y su importancia              66
-
-
-
-## 3.2 Plan de estudio                                                      68
-
-
-
-## 3.3 Aspectos sustantivos del derecho de alimentos                        69
-
-
-
-## 3.4 Aspectos procesales del derecho de alimentos                         101
-
-
-
-## 3.5 Determinación del derecho: alimentos devengados                      102
-
-
-
-## 3.6 Los acuerdos sobre alimentos                                         103
-
-Régimen de Alimentos,                                                              Índice                                                         5
-
-
-## 3.7 El juicio de alimentos                                                                     107
-
-
-
-## 3.8 Ejecución forzosa de los alimentos                                                         113
-
-
-
-## 3.9 Método patrimonial: el juicio ejecutivo de alimentos                                       123
-
-
-
-## 3.10 Método subsidiario: la demanda en contra de los abuelos                                   125
-
-
-
-## 3.11 Medidas accesorias                                                                        127
-
-
-
-## 3.12 Tutela cautelar en el procedimiento de determinación y cobro de los alimentos             130
-
-
-
-## 3.13 Tutela de la buena fe en el juicio de alimentos                                           138
-
-
-
-## 3.14 Protección de la buena fe procesal en la tramitación del procedimiento                    143
-
-
-
-## 3.15 Franquicias a los alimentantes en los procedimientos seguidos en su contra por el no pago
-
-                                         		     de los alimentos                                                                           147
-
-
 ## 3.16 Preguntas orientadoras                                                                    153
 
+**Definición Canónica:** Glosario155
+**Concordancias Legales:** Ley N° 14.908; Ley N° 16.618; Ley N° 19.968; Ley N° 5.750
 
-                                         Glosario155
+Glosario155
 
                                          Bibliografía156
 Régimen de Alimentos,                                                                                   6
@@ -447,10 +307,12 @@ Chile 2020                de Justicia.
 Régimen de Alimentos,                                                 1. Régimen de                                                             11
 Cuidado personal                                                         Cuidado personal
 
-
 ## 1.1      Concepto
 
-                                                                        y alcance
+**Definición Canónica:** y alcance
+**Concordancias Legales:** artículo 224 del Código Civil
+
+y alcance
 
                                                                         Este instituto, el régimen de cuidado personal de los hijos, suele reci-
                                                                         bir en el acervo común otras denominaciones como custodia, tuición,
@@ -542,10 +404,12 @@ Cuidado personal                                          Cuidado personal
 Régimen de Alimentos,                                                       1. Régimen de                                                           13
 Cuidado personal                                                               Cuidado personal
 
-
 ## 1.2           La óptica actual de
 
-                                                                              apreciación del derecho
+**Definición Canónica:** apreciación del derecho
+**Concordancias Legales:** artículo 225 del Código Civil en favor de la madre; ley 20.680
+
+apreciación del derecho
 
                                                                               En la legislación inmediatamente anterior a la actual, el legislador y
                                                                               los operadores jurídicos estimaban que el cuidado de los hijos siem-
@@ -582,10 +446,12 @@ Cuidado personal                                                               C
 Régimen de Alimentos,                            1. Régimen de                                                        14
 Cuidado personal                                    Cuidado personal
 
-
 ## 1.3         Sistematización y
 
-                                                     estructura del derecho
+**Definición Canónica:** estructura del derecho
+**Concordancias Legales:** artículos 224
+
+estructura del derecho
 
                                                      El derecho está tratado principalmente en los artículos 224, 225,
                                                      225-2, 226 y 227 del Código Civil, donde se distribuye con un cier-
@@ -608,11 +474,16 @@ Cuidado personal                                    Cuidado personal
 Régimen de Alimentos,                                              1. Régimen de                                                          15
 Cuidado personal                                                      Cuidado personal
 
-
 ## 1.4        Contenido
 
+**Definición Canónica:** Su contenido se sustenta en la premisa anteriormente citada: “toca
+                                                                     de consuno a los padres, o al padre o madre sobreviniente, el cuida-
+                                                                     do personal de sus hijos” (art. 224 CC). Luego, la misma disposición
+                                                                     precisa que dicho mandato es independiente de la forma como los
+                                                                     padres desarrollen su convivencia. La norma no atiende 
+**Concordancias Legales:** artículo 224 del Código Civil
 
-                                                                     Su contenido se sustenta en la premisa anteriormente citada: “toca
+Su contenido se sustenta en la premisa anteriormente citada: “toca
                                                                      de consuno a los padres, o al padre o madre sobreviniente, el cuida-
                                                                      do personal de sus hijos” (art. 224 CC). Luego, la misma disposición
                                                                      precisa que dicho mandato es independiente de la forma como los
@@ -665,10 +536,11 @@ Cuidado personal                                                      Cuidado pe
 Régimen de Alimentos,                                                    1. Régimen de                                                          17
 Cuidado personal                                                            Cuidado personal
 
-
 ## 1.5           Principios
 
-                                                                           rectores
+**Definición Canónica:** rectores
+
+rectores
 
                                                                            Los principios involucrados en la relación de cuidado entre padres
                                                                            e hijos son variados y complejos. Se han identificado varios cuyo
@@ -692,10 +564,16 @@ Cuidado personal                                                            Cuid
                                                                            óptimo es que se encuentren expresamente señalados en la ley. Esta
                                                                            es su forma o exteriorización más segura.
 
-
 ## 1.5.1 El interés superior del niño
 
-                                                                           Sabida es la amplia generalidad del concepto del interés superior,
+**Definición Canónica:** Sabida es la amplia generalidad del concepto del interés superior,
+                                                                           lo que conlleva en ocasiones una excesiva discrecionalidad judicial.
+                                                                           Tanto es así que, precisamente, en una disputa sobre cuidado per-
+                                                                           sonal que se produjo en una corte de EE. UU., se verificaron siete
+                                                                           opiniones diferentes sobre lo q
+**Concordancias Legales:** artículo 222 del Código Civil; artículo 45; artículo 225
+
+Sabida es la amplia generalidad del concepto del interés superior,
                                                                            lo que conlleva en ocasiones una excesiva discrecionalidad judicial.
                                                                            Tanto es así que, precisamente, en una disputa sobre cuidado per-
                                                                            sonal que se produjo en una corte de EE. UU., se verificaron siete
@@ -786,10 +664,14 @@ Cuidado personal                                                                
                                                                                                                                     artículo
                                                                                                                                       225-2
 
-
 ## 1.5.2 El derecho a ser oído y la autonomía progresiva
 
-                                                                                El derecho del niño a ser oído es uno de los vértices de la CDN. Esta,
+**Definición Canónica:** El derecho del niño a ser oído es uno de los vértices de la CDN. Esta,
+                                                                                al tratarse de un tratado internacional sobre derechos humanos, limita
+                                                                                el ejercicio de la soberanía nacional de manera que los órganos esta-
+**Concordancias Legales:** artículo 12 de la CDN; artículo 5 de la CDN. En dicha norma se; artículo 225
+
+El derecho del niño a ser oído es uno de los vértices de la CDN. Esta,
                                                                                 al tratarse de un tratado internacional sobre derechos humanos, limita
                                                                                 el ejercicio de la soberanía nacional de manera que los órganos esta-
 
@@ -889,10 +771,13 @@ Cuidado personal                                                             Cui
                                                                             En ellos pondera con un especial énfasis la edad del NNA como para
                                                                             establecer el peso de su opinión recabada en la audiencia confidencial.
 
-
 ## 1.5.3 El principio de corresponsabilidad
 
-                                                                            Según la ley, el principio de corresponsabilidad significa que ambos
+**Definición Canónica:** Según la ley, el principio de corresponsabilidad significa que ambos
+                                                                            padres, vivan juntos o separados, deben participar activa, equitativa
+**Concordancias Legales:** artículo 224 del Código Civil
+
+Según la ley, el principio de corresponsabilidad significa que ambos
                                                                             padres, vivan juntos o separados, deben participar activa, equitativa
 
                                                                             y permanentemente en la crianza y educación de sus hijos. El prin-
@@ -949,20 +834,23 @@ Cuidado personal                                                             Cui
 Régimen de Alimentos,                          1. Régimen de                                                          24
 Cuidado personal                                  Cuidado personal
 
-
 ## 1.6     Reglas de
 
-                                                 atribución
+**Definición Canónica:** atribución
+
+atribución
 
                                                  Las reglas atribución se refieren a los parámetros de determinación
                                                  que el legislador contempla para saber a cuál de los padres o quién
                                                  deberá ejercer este derecho. Estos puede provenir de tres fuentes:
                                                  la ley, la voluntad de las partes o la decisión judicial.
 
-
 ## 1.6.1 Legal
 
-                                                 Si los padres viven juntos, se aplica la regla general y tocará a ellos
+**Definición Canónica:** Si los padres viven juntos, se aplica la regla general y tocará a ellos
+                                                 de consuno ejercer el cuidado. Antes, la misma norma le otorga el
+
+Si los padres viven juntos, se aplica la regla general y tocará a ellos
                                                  de consuno ejercer el cuidado. Antes, la misma norma le otorga el
 
                                                  cuidado personal al padre o madre que había reconocido al hijo.
@@ -1058,10 +946,14 @@ Cuidado personal                                                             Cui
                                                                             no podría reclamar el RCP alegando dicha convivencia.16 La norma
                                                                             se refiere exclusivamente a los padres.
 
-
 ## 1.6.2 Convencional
 
-                                                                            Si los padres viven separados, deben determinar de común acuerdo si
+**Definición Canónica:** Si los padres viven separados, deben determinar de común acuerdo si
+                                                                            la custodia la ejercerá uno sólo de ellos o ambos. En este último caso
+                                                                            se habla de custodia compartida, que no es lo mismo que el principio
+                                                                            de la corresponsabilidad según se examinó precedentemente.
+
+Si los padres viven separados, deben determinar de común acuerdo si
                                                                             la custodia la ejercerá uno sólo de ellos o ambos. En este último caso
                                                                             se habla de custodia compartida, que no es lo mismo que el principio
                                                                             de la corresponsabilidad según se examinó precedentemente.
@@ -1098,10 +990,16 @@ Cuidado personal                                                             Cui
                                            Finalmente, puede revocarse o modificarse cumpliendo las mismas
                                            solemnidades con las que se otorgó.
 
-
 ## 1.6.3 Judicial
 
-                                           El o la juez, con independencia de los acuerdos a los que hayan llegado
+**Definición Canónica:** El o la juez, con independencia de los acuerdos a los que hayan llegado
+                                           los padres, siempre puede determinar entregarle la custodia de un
+                                           hijo a uno de ellos, o incluso a un tercero. El primer caso puede tener
+                                           lugar cuando las circunstancias lo requieran o el interés superior del
+                                           niño lo haga conveniente. El segundo, sólo por inhabilidad física o
+                                           moral de ambos padres.
+
+El o la juez, con independencia de los acuerdos a los que hayan llegado
                                            los padres, siempre puede determinar entregarle la custodia de un
                                            hijo a uno de ellos, o incluso a un tercero. El primer caso puede tener
                                            lugar cuando las circunstancias lo requieran o el interés superior del
@@ -1111,10 +1009,14 @@ Cuidado personal                                                             Cui
                                            No obstante, la ley otorga una serie de parámetros para esta deter-
                                            minación, los que serán analizados al final de este capítulo.
 
-
 ## 1.6.3.1 Otorgamiento a uno de los padres
 
-                                           Si el juez determina entregarle el cuidado al padre no custodio o a
+**Definición Canónica:** Si el juez determina entregarle el cuidado al padre no custodio o a
+                                           uno de progenitores, cuando el cuidado es compartido (lo que en la
+                                           práctica significa disolver aquel régimen) se observa que la norma exige
+                                           dos parámetros amplios donde pueden caber una serie de situaciones.
+
+Si el juez determina entregarle el cuidado al padre no custodio o a
                                            uno de progenitores, cuando el cuidado es compartido (lo que en la
                                            práctica significa disolver aquel régimen) se observa que la norma exige
                                            dos parámetros amplios donde pueden caber una serie de situaciones.
@@ -1174,10 +1076,14 @@ Cuidado personal                                                              Cu
                                                                              y las circunstancias concretas, al igual que la importancia de cada
                                                                              elemento en la evaluación general”18.
 
-
 ## 1.6.3.2 Otorgamiento a un tercero
 
-                                                                             En este caso, naturalmente el NNA ya no posee a sus padres como
+**Definición Canónica:** En este caso, naturalmente el NNA ya no posee a sus padres como
+                                                                             uno de los referentes que le puedan brindar una buena crianza. Ya
+                                                                             sea porque estos no lo han reconocido o porque sus habilidades son
+                                                                             puestas en entredicho, y para ello el o la juez deberá atender a una
+
+En este caso, naturalmente el NNA ya no posee a sus padres como
                                                                              uno de los referentes que le puedan brindar una buena crianza. Ya
                                                                              sea porque estos no lo han reconocido o porque sus habilidades son
                                                                              puestas en entredicho, y para ello el o la juez deberá atender a una
@@ -1185,10 +1091,16 @@ Cuidado personal                                                              Cu
                                                                              serie de factores legales en relación con otra serie de circunstancias,
                                                                              cuya prueba no es fácil de recabar.
 
-
 ## 1.6.3.2.1 NNA no reconocido por ninguno de sus
 
-                                                                             progenitores
+**Definición Canónica:** progenitores
+                                                                             Las situaciones en que se entrega el cuidado a un tercero parten por
+                                                                             aquel caso en que un NNA no haya sido reconocido por ninguno
+                                                                             de sus padres. Esta situación es peculiar, teniendo en consideración
+                                                                             que generalmente un niño nacerá en un hospital y de esta manera,
+               
+
+progenitores
                                                                              Las situaciones en que se entrega el cuidado a un tercero parten por
                                                                              aquel caso en que un NNA no haya sido reconocido por ninguno
                                                                              de sus padres. Esta situación es peculiar, teniendo en consideración
@@ -1253,10 +1165,16 @@ Cuidado personal                                                              Cu
 Régimen de Alimentos,                                                     1. Régimen de                                                           31
 Cuidado personal                                                             Cuidado personal
 
-
 ## 1.6.3.2.2 Inhabilidad física o moral de ambos padres
 
-                                                                            Antes de las modificaciones del año 2013, la ley hablaba de la in-
+**Definición Canónica:** Antes de las modificaciones del año 2013, la ley hablaba de la in-
+                                                                            habilidad física o moral de ambos padres o la de uno de ellos. En
+                                                                            efecto, en este último caso una norma permitía entregar el cuidado
+                                                                            al padre no custodio cuando el que tenía su cuidado incurría en
+                                                                            maltrato, descuido u otra causa 
+**Concordancias Legales:** artículo 42 de la Ley N; Ley N° 16.618
+
+Antes de las modificaciones del año 2013, la ley hablaba de la in-
                                                                             habilidad física o moral de ambos padres o la de uno de ellos. En
                                                                             efecto, en este último caso una norma permitía entregar el cuidado
                                                                             al padre no custodio cuando el que tenía su cuidado incurría en
@@ -1291,10 +1209,13 @@ Cuidado personal                                                             Cui
                                                                             5º Cuando hubieren sido condenados por secuestro o abandono de
                                                                                 menores;
 
-
 ## 19   Esto producía un estoppel para el padre no custodio y, aunque la norma es más amplia, esta se aplicaba
 
-                                              esencialmente al no pago de alimentos. Su fundamento era la inconsecuencia que representa para un padre
+**Definición Canónica:** esencialmente al no pago de alimentos. Su fundamento era la inconsecuencia que representa para un padre
+                                              exigir el cuidado de un hijo cuando a su vez este no le otorga sustento.
+**Concordancias Legales:** artículo 225
+
+esencialmente al no pago de alimentos. Su fundamento era la inconsecuencia que representa para un padre
                                               exigir el cuidado de un hijo cuando a su vez este no le otorga sustento.
 
 Régimen de Alimentos,                    1. Régimen de                                                          32
@@ -1368,10 +1289,12 @@ Cuidado personal                                                             Cui
 Régimen de Alimentos,                                             1. Régimen de                                                          34
 Cuidado personal                                                     Cuidado personal
 
-
 ## 1.7        Criterios para el establecimiento
 
-                                                                    judicial del régimen
+**Definición Canónica:** judicial del régimen
+**Concordancias Legales:** artículo 225; artículo 229
+
+judicial del régimen
 
                                                                     Los criterios descritos en el artículo 225-2 del Código Civil orien-
                                                                     tan al juez para determinar cuál de los progenitores está en mejor
@@ -1581,20 +1504,24 @@ Cuidado personal                                          Cuidado personal
 Régimen de Alimentos,                                               1. Régimen de                                                        39
 Cuidado personal                                                       Cuidado personal
 
-
 ## 1.8     Normas procesales sobre el régimen
 
-                                                                      de Cuidado personal
+**Definición Canónica:** de Cuidado personal
+
+de Cuidado personal
 
                                                                       Las reglas procesales en esta materia no se agotan en las leyes es-
                                                                       peciales que las contienen. Es por ello que el operador, fuera de las
                                                                       normas adjetivas contenidas en la LTF, también debe estar atento a
                                                                       las normas generales establecidas para el procedimiento civil.
 
-
 ## 1.8.1 Competencia
 
-                                                                      La ley no ha modificado, a diferencia de otras materias del derecho
+**Definición Canónica:** La ley no ha modificado, a diferencia de otras materias del derecho
+                                                                      de familia, la competencia general de los tribunales para conocer de
+**Concordancias Legales:** artículo 182 del Código de; artículo 54; Artículo 130; Artículo 134; Artículo 141; Ley N° 19.968
+
+La ley no ha modificado, a diferencia de otras materias del derecho
                                                                       de familia, la competencia general de los tribunales para conocer de
 
                                                                       este tópico. Por lo tanto, han de aplicarse las normas generales que
@@ -1640,10 +1567,16 @@ Cuidado personal                                                                
                                                                                no pueden sufrir modificaciones por la vía judicial, pues la seguridad
                                                                                jurídica resulta transgredida.
 
-
 ## 1.8.2 Procedimiento
 
-                                                                               De acuerdo con lo previsto por el artículo 8 Nº 1 de la LTF, las causas
+**Definición Canónica:** De acuerdo con lo previsto por el artículo 8 Nº 1 de la LTF, las causas
+                                                                               sobre cuidado personal deben ser conocidas y sustanciadas por los
+                                                                               tribunales de familia conforme a las normas del procedimiento ordi-
+                                                                               nario. Este se estructura en base a dos audiencias, una preparatoria y
+                                                                               otra de
+**Concordancias Legales:** artículo 8; artículo 61; artículo 12 de la CDN; artículo 16 de la LTF; artículo 800 del CPC señala que
+
+De acuerdo con lo previsto por el artículo 8 Nº 1 de la LTF, las causas
                                                                                sobre cuidado personal deben ser conocidas y sustanciadas por los
                                                                                tribunales de familia conforme a las normas del procedimiento ordi-
                                                                                nario. Este se estructura en base a dos audiencias, una preparatoria y
@@ -1690,10 +1623,15 @@ Cuidado personal                                                          Cuidad
                                                                          das, debe ser subinscritas al margen de la inscripción de nacimiento
                                                                          del hijo dentro de los treinta días subsiguientes a su otorgamiento.
 
-
 ## 1.8.3 Cumplimiento
 
-                                                                         Las decisiones que se dictan en esta materia pueden ir en dos sen-
+**Definición Canónica:** Las decisiones que se dictan en esta materia pueden ir en dos sen-
+                                                                         tidos: manteniendo el cuidado personal con aquel de los padres que
+                                                                         siempre lo ha detentado, o entregándoselo a aquel que no lo ejerce
+                                                                         actualmente y que puede ser el padre, la madre o un tercero.
+**Concordancias Legales:** artículo 543 del Código; artículo 443 del Código obtener el cumplimiento de la obli
+
+Las decisiones que se dictan en esta materia pueden ir en dos sen-
                                                                          tidos: manteniendo el cuidado personal con aquel de los padres que
                                                                          siempre lo ha detentado, o entregándoselo a aquel que no lo ejerce
                                                                          actualmente y que puede ser el padre, la madre o un tercero.
@@ -1736,10 +1674,11 @@ Cuidado personal                                                      Cuidado pe
 Régimen de Alimentos,                          1. Régimen de                                                      43
 Cuidado personal                                  Cuidado personal
 
-
 ## 1.9     Preguntas
 
-                                                 orientadoras
+**Definición Canónica:** orientadoras
+
+orientadoras
 
                                                  a. ¿Es lo mismo el cuidado personal compartido y el principio de
                                                     corresponsabilidad?
@@ -1756,11 +1695,16 @@ Cuidado personal                                  Cuidado personal
 Régimen de Alimentos,                                                    2. Relación directa                                                  45
 Cuidado personal                                                             y regular
 
-
 ## 2.1        Introducción
 
+**Definición Canónica:** El derecho a mantener una relación directa y regular con los hijos es
+                                                                           una forma de mitigar los indeseables efectos que para estos produce
+                                                                           una ruptura familiar. En especial, una de las consecuencias inmediatas
+                                                                           que produce la separación, cual es el rompimiento de la cotidianei-
+                                                                           dad a la que un NNA est
+**Concordancias Legales:** Artículo 22
 
-                                                                           El derecho a mantener una relación directa y regular con los hijos es
+El derecho a mantener una relación directa y regular con los hijos es
                                                                            una forma de mitigar los indeseables efectos que para estos produce
                                                                            una ruptura familiar. En especial, una de las consecuencias inmediatas
                                                                            que produce la separación, cual es el rompimiento de la cotidianei-
@@ -1799,10 +1743,11 @@ Cuidado personal                                                             y r
 Régimen de Alimentos,                                                  2. Relación directa                                                    46
 Cuidado personal                                                           y regular
 
-
 ## 2.2       Fundamentos y principios
 
-                                                                         que dirigen la institución
+**Definición Canónica:** que dirigen la institución
+
+que dirigen la institución
 
                                                                          La base sobre la que se forja este derecho es la filiación, “el vínculo
                                                                          jurídico de familia entre el padre, la madre y el hijo, y viceversa”29.
@@ -1859,10 +1804,12 @@ Cuidado personal                                                           y reg
 Régimen de Alimentos,                                                    2. Relación directa                                                     48
 Cuidado personal                                                             y regular
 
-
 ## 2.3          Principio de corresponsabilidad, Cuidado
 
-                                                                           personal compartido y RDR
+**Definición Canónica:** personal compartido y RDR
+**Concordancias Legales:** artículo 229 del Código Civil en cuanto no se estableció un ré; artículo 229 del Código Civil no es que importe; artículo 229 del Código Civil
+
+personal compartido y RDR
 
                                                                            Un aspecto relevante que debe ser considerado es la relación que se
                                                                            gesta entre estos derechos: la corresponsabilidad, el cuidado personal
@@ -1941,10 +1888,12 @@ Cuidado personal                                                              y 
 Régimen de Alimentos,                                             2. Relación directa                                                  50
 Cuidado personal                                                      y regular
 
-
 ## 2.4        Definición
 
-                                                                    y consagración legal
+**Definición Canónica:** y consagración legal
+**Concordancias Legales:** artículo 9
+
+y consagración legal
 
                                                                     La Convención sobre los Derechos del Niño establece en su artículo 9
                                                                     N° 3, lo siguiente: “Los Estados Partes respetarán el derecho del niño
@@ -1982,20 +1931,24 @@ Cuidado personal                                                      y regular
 Régimen de Alimentos,                          2. Relación directa                                                    51
 Cuidado personal                                   y regular
 
-
 ## 2.5     Determinación
 
-                                                 del régimen
+**Definición Canónica:** del régimen
+
+del régimen
 
                                                  La determinación del régimen se refiere a la forma como la legislación
                                                  distribuye el ejercicio del derecho. Como se verá a continuación, la
                                                  ley permite que esto lo puedan efectuar las partes, de común acuer-
                                                  do, o el juez.
 
-
 ## 2.5.1 Determinación convencional
 
-                                                 Desde luego que quienes deberían conocer con mayor precisión la
+**Definición Canónica:** Desde luego que quienes deberían conocer con mayor precisión la
+                                                 forma como se relacionarán con sus hijos si viven separados, son los
+**Concordancias Legales:** artículo 225; artículo 229; artículo 225 del Código Civil. Como se verá más
+
+Desde luego que quienes deberían conocer con mayor precisión la
                                                  forma como se relacionarán con sus hijos si viven separados, son los
 
                                                  padres. Una actitud amistosa de dialogo entre ellos no sólo permite
@@ -2095,10 +2048,17 @@ Cuidado personal                                   y regular
                                                                                         Conjuntamente con un acuerdo
                                                                                         por cuidado personal
 
-
 ## 2.5.2 Determinación judicial
 
-                                                 Naturalmente, el juez intervendrá en la regulación del derecho
+**Definición Canónica:** Naturalmente, el juez intervendrá en la regulación del derecho
+                                                 cuando los padres no se pongan de acuerdo y uno de ellos decida
+                                                 demandar al otro. En dicho caso, la primera actuación que tendrá
+                                                 sobre este es mediante la fijación de un régimen provisorio, tanto
+                                                 si se pide antes del juicio, como medida cautelar prejudicial, como
+                                                 si se solicita durante su tr
+**Concordancias Legales:** artículo 229 del Código Civil. Esto es; artículo 229 del Código Civil. Si no se le ha pedido; artículo 238; artículo 203
+
+Naturalmente, el juez intervendrá en la regulación del derecho
                                                  cuando los padres no se pongan de acuerdo y uno de ellos decida
                                                  demandar al otro. En dicho caso, la primera actuación que tendrá
                                                  sobre este es mediante la fijación de un régimen provisorio, tanto
@@ -2147,10 +2107,16 @@ Cuidado personal                                                             y r
                                                                            es determinada contra la oposición del padre o madre, conforme al
                                                                            artículo 203 del mismo Código.
 
-
 ## 2.5.3 Facultad oficiosa del juez en el
 
-                                                                           establecimiento del régimen
+**Definición Canónica:** establecimiento del régimen
+                                                                           Se ha dicho que, a partir de las disposiciones sustantivas revisadas
+                                                                           en este acápite y lo dispuesto en el artículo 48 de la Ley N° 16.618,
+                                                                           el juez oficiosamente puede fijar las visitas para aquel padre que no
+                                                                           posea el cuidado personal, cuando se resuelva un litigio sobre 
+**Concordancias Legales:** artículo 48 de la Ley N; artículo 14 de la LTF; Ley N° 16.618
+
+establecimiento del régimen
                                                                            Se ha dicho que, a partir de las disposiciones sustantivas revisadas
                                                                            en este acápite y lo dispuesto en el artículo 48 de la Ley N° 16.618,
                                                                            el juez oficiosamente puede fijar las visitas para aquel padre que no
@@ -2195,10 +2161,15 @@ Cuidado personal                                                      y regular
                                                                     orientadas a mitigar la confrontación entre las partes, privilegiando
                                                                     las soluciones acordadas por ellas”.
 
-
 ## 2.5.4 Incumplimiento del régimen
 
-                                                                    Se debe distinguir si quien incumple el RDR es el padre custodio o
+**Definición Canónica:** Se debe distinguir si quien incumple el RDR es el padre custodio o
+                                                                    el otro. Si es el custodio, la forma que este tiene de no cumplirlo es
+                                                                    obstaculizándolo, y si es quien no tiene el cuidado personal, lo puede
+                                                                    hacer no cumpliéndolo o cumpliéndolo parcialmente. En uno y otro
+                                                                    caso, las consecuencias son distintas.
+
+Se debe distinguir si quien incumple el RDR es el padre custodio o
                                                                     el otro. Si es el custodio, la forma que este tiene de no cumplirlo es
                                                                     obstaculizándolo, y si es quien no tiene el cuidado personal, lo puede
                                                                     hacer no cumpliéndolo o cumpliéndolo parcialmente. En uno y otro
@@ -2207,10 +2178,16 @@ Cuidado personal                                                      y regular
 Régimen de Alimentos,                    2. Relación directa                                                   56
 Cuidado personal                             y regular
 
-
 ## 2.5.4.1 Incumplimiento del padre titular del régimen
 
-                                           Si por mera desidia, el padre que se comprometió a visitar a sus hijos
+**Definición Canónica:** Si por mera desidia, el padre que se comprometió a visitar a sus hijos
+                                           en un tiempo determinado derechamente no lo hace, o lo ejecuta en
+                                           forma intermitente, se produce un fuerte atentado al interés superior
+                                           de sus hijos, pues se rompe con esto la expectativa que el NNA tiene
+                                           de ejercer este derecho.
+**Concordancias Legales:** artículo 48; artículo 49 de la LM establece que el incumpli
+
+Si por mera desidia, el padre que se comprometió a visitar a sus hijos
                                            en un tiempo determinado derechamente no lo hace, o lo ejecuta en
                                            forma intermitente, se produce un fuerte atentado al interés superior
                                            de sus hijos, pues se rompe con esto la expectativa que el NNA tiene
@@ -2294,10 +2271,17 @@ Cuidado personal                                                          y regu
 Régimen de Alimentos,                    2. Relación directa                                                    58
 Cuidado personal                             y regular
 
-
 ## 2.5.4.2 Incumplimiento del padre custodio
 
-                                           Si el padre o madre que tiene el cuidado personal de sus hijos impide
+**Definición Canónica:** Si el padre o madre que tiene el cuidado personal de sus hijos impide
+                                           que esto se lleve a cabo, o se limite de alguna forma, la ley contempla
+                                           multas o arrestos. La norma que lo establece es el artículo 66 inciso
+                                           final de la LM. En el primer caso, que no excedan de una unidad
+                                           tributaria mensual de acuerdo con lo dispuesto en el artículo 229
+                                           del CC en relación con lo dispuesto en el a
+**Concordancias Legales:** artículo 66; artículo 229 del CC en relación con lo dispuesto en el artícul; artículo 225
+
+Si el padre o madre que tiene el cuidado personal de sus hijos impide
                                            que esto se lleve a cabo, o se limite de alguna forma, la ley contempla
                                            multas o arrestos. La norma que lo establece es el artículo 66 inciso
                                            final de la LM. En el primer caso, que no excedan de una unidad
@@ -2334,10 +2318,12 @@ Cuidado personal                             y regular
 Régimen de Alimentos,                                              2. Relación directa                                                  59
 Cuidado personal                                                       y regular
 
-
 ## 2.6       Compensación
 
-                                                                     de la RDR
+**Definición Canónica:** de la RDR
+**Concordancias Legales:** artículo 48; artículo 224 del Código Civil
+
+de la RDR
 
                                                                      Suele acontecer que por enfermedad del hijo, caso fortuito, o por
                                                                      obstaculización del régimen de RDR, uno de los padres no pueda
@@ -2414,10 +2400,12 @@ Cuidado personal                             y regular
 Régimen de Alimentos,                          2. Relación directa                                                       61
 Cuidado personal                                   y regular
 
-
 ## 2.7     RDR con los abuelos
 
-                                                 y terceros
+**Definición Canónica:** y terceros
+**Concordancias Legales:** artículo 229; artículos 323; artículo 229 del Código Civil; artículo 48 de la LM lo trata en los siguientes; Ley N° 20.680
+
+y terceros
 
                                                  Una modificación a partir de la Ley N° 20.680, del año 2013, introdujo
                                                  el artículo 229-2 al Código Civil y estableció lo siguiente: “El hijo tiene
@@ -2514,10 +2502,11 @@ Cuidado personal                             y regular
 Régimen de Alimentos,                          2. Relación directa                                               64
 Cuidado personal                                   y regular
 
-
 ## 2.8     Preguntas
 
-                                                 orientadoras
+**Definición Canónica:** orientadoras
+
+orientadoras
 
                                                  a. ¿Existe alguna relación entre el principio de corresponabilidad,
                                                     el Cuidado personal compartido y la Relación directa y regular?
@@ -2537,10 +2526,12 @@ Cuidado personal                                   y regular
 Régimen de Alimentos,                          3. El derecho                                                        66
 Cuidado personal                                   de Alimentos
 
-
 ## 3.1     El fundamento del derecho de
 
-                                                 Alimentos y su importancia
+**Definición Canónica:** Alimentos y su importancia
+**Concordancias Legales:** artículo 19; Constitución
+
+Alimentos y su importancia
 
                                                  A las estadísticas dadas a conocer al comienzo de este trabajo y
                                                  que, cuantitativamente, revelan que la mayor cantidad de causas
@@ -2599,20 +2590,25 @@ Cuidado personal                                                                
 
                                                                               ¿Cómo se solicita una pensión de alimentos?
 
-
 ## 37   VODANOVIC (2004), p. 5
 
-                                           38   FUEYO (1959), p. 554.
+**Definición Canónica:** 38   FUEYO (1959), p. 554.
+                                           39   CA Concepción, rol N° 377-2008, 13 de junio de 2008.
+                                           40   GREEVEN (2018), pp. 3-4.
+
+38   FUEYO (1959), p. 554.
                                            39   CA Concepción, rol N° 377-2008, 13 de junio de 2008.
                                            40   GREEVEN (2018), pp. 3-4.
 
 Régimen de Alimentos,                          3. El derecho                                                         68
 Cuidado personal                                   de Alimentos
 
-
 ## 3.2     Plan
 
-                                                 de estudio
+**Definición Canónica:** de estudio
+**Concordancias Legales:** Ley N° 14.908
+
+de estudio
 
                                                  Esta materia puede separarse en dos áreas: la sustantiva o civil y la
                                                  procesal o adjetiva. En la primera serán analizados los aspectos de
@@ -2632,10 +2628,11 @@ Cuidado personal                                   de Alimentos
 Régimen de Alimentos,                                                   3. El derecho                                                       69
 Cuidado personal                                                            de Alimentos
 
-
 ## 3.3          Aspectos sustantivos
 
-                                                                          del derecho de Alimentos
+**Definición Canónica:** del derecho de Alimentos
+
+del derecho de Alimentos
 
                                                                           Se entiende por aspectos sustantivos del derecho de alimentos
                                                                           aquellos lineamientos que establece el Código Civil desde donde se
@@ -2643,10 +2640,11 @@ Cuidado personal                                                            de A
                                                                           determinación de su medida y el inicio, la duración y la extinción
                                                                           de estos.
 
-
 ## 3.3.1 Concepto y contenido del derecho
 
-                                                                          Puesto que la ley no define el derecho de alimentos y se limita a
+**Definición Canónica:** Puesto que la ley no define el derecho de alimentos y se limita a
+
+Puesto que la ley no define el derecho de alimentos y se limita a
 
                                                                           entregar los parámetros necesarios para su concreción, es posible
                                                                           acudir a los conceptos que Vodanovic y Fueyo han ideado sobre él.
@@ -2754,11 +2752,12 @@ Cuidado personal                                          de Alimentos
 
 Régimen de Alimentos,                    3. El derecho                                                                       72
 
-
 ## 3.3.2 Características
 
+**Definición Canónica:** De orden
+                                                                                    público
 
-                                                                                   De orden
+De orden
                                                                                     público
 
                                                                 No es
@@ -2777,19 +2776,28 @@ Cuidado personal                                          de Alimentos
                                                                     Intransferible e
                                                                      Intransmisible       Imprescriptible
 
-
 ## 3.3.3 Clasificación de los Alimentos
 
-                                           La clasificación de este derecho se refiere a la sistematización que se
+**Definición Canónica:** La clasificación de este derecho se refiere a la sistematización que se
                                            puede ejercer sobre él en base a ciertos criterios ordenatorios, que
                                            permiten una mejor comprensión global de aquel. La categorización
                                            ofrecida a continuación es la que se suele encontrar en manuales
                                            referidos al tema.
 
+La clasificación de este derecho se refiere a la sistematización que se
+                                           puede ejercer sobre él en base a ciertos criterios ordenatorios, que
+                                           permiten una mejor comprensión global de aquel. La categorización
+                                           ofrecida a continuación es la que se suele encontrar en manuales
+                                           referidos al tema.
 
 ## 3.3.3.1 Según la fuente de la obligación
 
-                                           Pueden ser legales o voluntarios. Los legales son aquellos cuyo objeto,
+**Definición Canónica:** Pueden ser legales o voluntarios. Los legales son aquellos cuyo objeto,
+                                           causa y titulares están expresamente señalados por el legislador. Por
+                                           lo mismo, se sujetan a las reglas establecidas en la ley que se estudian
+                                           en el presente trabajo.
+
+Pueden ser legales o voluntarios. Los legales son aquellos cuyo objeto,
                                            causa y titulares están expresamente señalados por el legislador. Por
                                            lo mismo, se sujetan a las reglas establecidas en la ley que se estudian
                                            en el presente trabajo.
@@ -2802,10 +2810,15 @@ Cuidado personal                                          de Alimentos
                                            de parentesco que, como señala la ley, quedan comprendidos dentro
                                            de los forzosos.
 
-
 ## 3.3.3.2 Según el contenido de la pensión alimenticia
 
-                                           Pueden ser necesarios o congruos. Los congruos “son los que habilitan
+**Definición Canónica:** Pueden ser necesarios o congruos. Los congruos “son los que habilitan
+                                           al alimentario para subsistir modestamente de un modo correspon-
+                                           diente a su posición social” (art. 323 CC). Los necesarios eran los que
+                                           servían para sustentar la vida y fueron eliminados del Código Civil.
+**Concordancias Legales:** artículo 332 del Código Civil
+
+Pueden ser necesarios o congruos. Los congruos “son los que habilitan
                                            al alimentario para subsistir modestamente de un modo correspon-
                                            diente a su posición social” (art. 323 CC). Los necesarios eran los que
                                            servían para sustentar la vida y fueron eliminados del Código Civil.
@@ -2817,10 +2830,16 @@ Cuidado personal                                          de Alimentos
                                            comprenderán también la obligación de proporcionar la enseñanza
                                            de alguna profesión u oficio.
 
-
 ## 3.3.3.3 Según el momento procesal en que se decretan y
 
-                                           la permanencia o transitoriedad de las prestaciones
+**Definición Canónica:** la permanencia o transitoriedad de las prestaciones
+                                           Los alimentos pueden ser provisorios o definitivos. Los segundos
+                                           son los que se decretan en la sentencia de término y se dan por toda
+                                           la vida del alimentario, en la medida que se mantengan las circuns-
+                                           tancias que legitimaron la demanda.
+**Concordancias Legales:** artículo 4 de la Ley Nº 14.908; Ley Nº 14.908
+
+la permanencia o transitoriedad de las prestaciones
                                            Los alimentos pueden ser provisorios o definitivos. Los segundos
                                            son los que se decretan en la sentencia de término y se dan por toda
                                            la vida del alimentario, en la medida que se mantengan las circuns-
@@ -2871,10 +2890,15 @@ Cuidado personal                                                  de Alimentos
                                            — Forzosos                        — Necesarios                       — Definitivos
                                           — Voluntarios                          — Congruos                     — Provisorios
 
-
 ## 3.3.4 Titulares
 
-                                                                Este aspecto cubre lo relacionado a aquellas personas que, según
+**Definición Canónica:** Este aspecto cubre lo relacionado a aquellas personas que, según
+                                                                la ley, pueden exigir alimentos y aquellas respecto de las cuales se
+                                                                pueden exigir. En términos simples, sólo pueden demandar y ser
+                                                                demandados aquellos sujetos señalados a continuación y, según se
+                                                                analizará más adelante, en el estricto orden legal.
+
+Este aspecto cubre lo relacionado a aquellas personas que, según
                                                                 la ley, pueden exigir alimentos y aquellas respecto de las cuales se
                                                                 pueden exigir. En términos simples, sólo pueden demandar y ser
                                                                 demandados aquellos sujetos señalados a continuación y, según se
@@ -2882,10 +2906,15 @@ Cuidado personal                                                  de Alimentos
 
 Régimen de Alimentos,                    3. El derecho                                                             75
 
-
 ## 3.3.4.1 Alimentos entre cónyuges
 
-                                           El artículo 134 del Código Civil señala: “El marido y la mujer deben
+**Definición Canónica:** El artículo 134 del Código Civil señala: “El marido y la mujer deben
+                                           proveer a las necesidades de la familia común, atendiendo a sus
+                                           facultades económicas y al régimen de bienes que exista entre ellos.
+                                           El juez, si fuere necesario, reglará la contribución”.
+**Concordancias Legales:** artículo 134 del Código Civil señala; artículo 60 de la Ley N; Ley N° 19.947
+
+El artículo 134 del Código Civil señala: “El marido y la mujer deben
                                            proveer a las necesidades de la familia común, atendiendo a sus
                                            facultades económicas y al régimen de bienes que exista entre ellos.
                                            El juez, si fuere necesario, reglará la contribución”.
@@ -2907,10 +2936,15 @@ Cuidado personal                                                  de Alimentos
                                                     el derecho de alimentos, sin perjuicio del derecho a la com-
                                                     pensación económica.
 
-
 ## 3.3.4.2 Alimentos a los ascendientes
 
-                                           Los hijos, titulares del derecho de alimentos respecto a sus ascen-
+**Definición Canónica:** Los hijos, titulares del derecho de alimentos respecto a sus ascen-
+                                           dientes, son quienes con mayor frecuencia recurren a solicitarlos
+                                           judicialmente. Sobre todo cuando son menores de edad. Si son varios,
+                                           la obligación de todos ellos se distribuye a prorrata, conforme a sus
+                                           necesidades.
+
+Los hijos, titulares del derecho de alimentos respecto a sus ascen-
                                            dientes, son quienes con mayor frecuencia recurren a solicitarlos
                                            judicialmente. Sobre todo cuando son menores de edad. Si son varios,
                                            la obligación de todos ellos se distribuye a prorrata, conforme a sus
@@ -2925,29 +2959,43 @@ Cuidado personal                                                  de Alimentos
 
 Régimen de Alimentos,                    3. El derecho                                                          76
 
-
 ## 3.3.4.3 Alimentos a los descendientes
 
-                                           Debido a la reciprocidad de la obligación alimenticia, los padres
+**Definición Canónica:** Debido a la reciprocidad de la obligación alimenticia, los padres
+                                           también tienen derecho a demandar de alimentos a sus hijos, y aun
+                                           más, también tienen derecho a hacerlo los abuelos, cualquiera sea
+                                           la forma en que se haya determinado la filiación de sus nietos (no
+                                           les afecta la privación de derechos al padre, según el artículo 203 del
+                                           Código Civil).
+**Concordancias Legales:** artículo 203 del Código Civil
+
+Debido a la reciprocidad de la obligación alimenticia, los padres
                                            también tienen derecho a demandar de alimentos a sus hijos, y aun
                                            más, también tienen derecho a hacerlo los abuelos, cualquiera sea
                                            la forma en que se haya determinado la filiación de sus nietos (no
                                            les afecta la privación de derechos al padre, según el artículo 203 del
                                            Código Civil).
 
-
 ## 3.3.4.4 Alimentos a los hermanos
 
-                                           Se debe alimentos a todos los hermanos, cualquiera sea la filiación
+**Definición Canónica:** Se debe alimentos a todos los hermanos, cualquiera sea la filiación
+                                           que detenten.
+
+Se debe alimentos a todos los hermanos, cualquiera sea la filiación
                                            que detenten.
 
                                            Se sujetan a los mismos límites de edad y capacidad que los de los
                                            hijos (art. 332 inc. 2° del Código Civil).
 
-
 ## 3.3.4.5 Entre los titulares del contrato de donación
 
-                                           La ley señala que se deben alimentos al que hizo una donación
+**Definición Canónica:** La ley señala que se deben alimentos al que hizo una donación
+                                           cuantiosa, mientras esta no haya sido rescindida o revocada. Esto se
+                                           refiere al contrato de donación por el cual una persona transfiere,
+                                           gratuita e irrevocablemente, una parte de sus bienes a otra persona,
+                                           lo que requiere de un trámite llamado insinuación.
+
+La ley señala que se deben alimentos al que hizo una donación
                                            cuantiosa, mientras esta no haya sido rescindida o revocada. Esto se
                                            refiere al contrato de donación por el cual una persona transfiere,
                                            gratuita e irrevocablemente, una parte de sus bienes a otra persona,
@@ -2959,18 +3007,27 @@ Cuidado personal                                                  de Alimentos
                                            caso, si se produce una controversia. Como sea, reunidos los requisitos,
                                            el donante puede dirigir su acción en contra del donatario.
 
-
 ## 3.3.5 Inicio, duración y extinción de los Alimentos
 
-                                           Como se verá en este acápite, los alimentos están sujetos a límites
+**Definición Canónica:** Como se verá en este acápite, los alimentos están sujetos a límites
                                            temporales que guardan relación con una serie de factores rela-
                                            cionados a sus titulares, o a circunstancias específicas que pueden
                                            generarlos o extinguirlos.
 
+Como se verá en este acápite, los alimentos están sujetos a límites
+                                           temporales que guardan relación con una serie de factores rela-
+                                           cionados a sus titulares, o a circunstancias específicas que pueden
+                                           generarlos o extinguirlos.
 
 ## 3.3.5.1 Inicio
 
-                                           Desde luego, el derecho de alimentos y la obligación alimenticia nace
+**Definición Canónica:** Desde luego, el derecho de alimentos y la obligación alimenticia nace
+                                           cuando se genera el acto o hecho que le sirve de causa. Esto puede
+                                           ocurrir en virtud de alguna de las formas que el ordenamiento jurídico
+                                           establece para este efecto. Puede ser el nacimiento, el reconocimiento
+**Concordancias Legales:** artículo 331 del Código Civil
+
+Desde luego, el derecho de alimentos y la obligación alimenticia nace
                                            cuando se genera el acto o hecho que le sirve de causa. Esto puede
                                            ocurrir en virtud de alguna de las formas que el ordenamiento jurídico
                                            establece para este efecto. Puede ser el nacimiento, el reconocimiento
@@ -3025,10 +3082,16 @@ Cuidado personal                                                        de Alime
                                                                       legalmente el deber judicial de pronunciarse sobre los alimentos al
                                                                       proveer la demanda, no tiene sentido tampoco.
 
-
 ## 3.3.5.1.1 Tasación de los alimentos provisorios, a propósito
 
-                                                                      de la “primera demanda”
+**Definición Canónica:** de la “primera demanda”
+                                                                      La duda que puede plantearse hoy es si, para la tasación de los ali-
+                                                                      mentos que se realiza en un momento posterior a la sentencia, ha
+                                                                      de considerarse el valor de estos en el tiempo intermedio entre su
+                                                                      fijación al inicio del proceso y la dictación de la sentencia, o sólo los
+                     
+
+de la “primera demanda”
                                                                       La duda que puede plantearse hoy es si, para la tasación de los ali-
                                                                       mentos que se realiza en un momento posterior a la sentencia, ha
                                                                       de considerarse el valor de estos en el tiempo intermedio entre su
@@ -3067,10 +3130,16 @@ Cuidado personal                                                        de Alime
                                            rebaja virtual del monto provisorio en 100, lo que es a todas luces
                                            perjudicial para él.
 
-
 ## 3.3.5.2 Duración
 
-                                           La ley señala que los alimentos duran toda la vida del alimentario,
+**Definición Canónica:** La ley señala que los alimentos duran toda la vida del alimentario,
+                                           mientras se mantengan las circunstancias que legitimaron la demanda.
+                                           Esto quiere decir que si caduca el título por el cual fueron otorgados,
+                                           terminará ipso facto el derecho a percibirlos. Lo que plantea algunos
+                                           inconvenientes en la práctica, pues en ocasiones, a pesar de haber-
+                                           se cumplido la condición por la que se
+
+La ley señala que los alimentos duran toda la vida del alimentario,
                                            mientras se mantengan las circunstancias que legitimaron la demanda.
                                            Esto quiere decir que si caduca el título por el cual fueron otorgados,
                                            terminará ipso facto el derecho a percibirlos. Lo que plantea algunos
@@ -3085,25 +3154,39 @@ Cuidado personal                                                        de Alime
 
                                            Estas dudas serán revisadas más adelante.
 
-
 ## 3.3.5.3 Extinción
 
-                                           Las causales de extinción poseen un alcance complejo puesto que,
+**Definición Canónica:** Las causales de extinción poseen un alcance complejo puesto que,
                                            como será examinado, sus normas producen varias dudas interpre-
                                            tativas que han suscitado controversia tanto en la doctrina como en
                                            la jurisprudencia.
 
+Las causales de extinción poseen un alcance complejo puesto que,
+                                           como será examinado, sus normas producen varias dudas interpre-
+                                           tativas que han suscitado controversia tanto en la doctrina como en
+                                           la jurisprudencia.
 
 ## 3.3.5.3.1 Muerte del alimentario
 
-                                           La muerte extingue el derecho a pedir los alimentos, pero no así las
+**Definición Canónica:** La muerte extingue el derecho a pedir los alimentos, pero no así las
                                            pensiones adeudadas que son transmisibles, ya que en ese caso se
                                            trata de un crédito personal como cualquier otro.
 
+La muerte extingue el derecho a pedir los alimentos, pero no así las
+                                           pensiones adeudadas que son transmisibles, ya que en ese caso se
+                                           trata de un crédito personal como cualquier otro.
 
 ## 3.3.5.3.2 Edad y estudios del alimentario
 
-                                           Las pensiones se pagan hasta que el hijo tiene 21 años o, pasada di-
+**Definición Canónica:** Las pensiones se pagan hasta que el hijo tiene 21 años o, pasada di-
+                                           cha edad, hasta que tiene 28 si es que está estudiando una profesión
+                                           u oficio. Una exégesis de la norma permite determinar que en el
+                                           primer caso se tiene el derecho hasta el último día que la persona
+                                           tiene 20 años, mientras que en el segundo, se tiene hasta el último
+                                           día que tiene 28.
+**Concordancias Legales:** artículo 332 del Código Civil; artículo 323; artículo 323 del Código Civil. Dicha postura es la
+
+Las pensiones se pagan hasta que el hijo tiene 21 años o, pasada di-
                                            cha edad, hasta que tiene 28 si es que está estudiando una profesión
                                            u oficio. Una exégesis de la norma permite determinar que en el
                                            primer caso se tiene el derecho hasta el último día que la persona
@@ -3166,11 +3249,16 @@ Cuidado personal                                                              de
                                                                             asumida por esta Corte, según consta en la sentencia dictada en los
                                                                             autos número de ingreso 65.309-16 con fecha 10 de enero de 2017”46.
 
-
 ## 3.3.5.3.3 Injuria atroz
 
+**Definición Canónica:** En los casos en que el alimentario ha cometido delitos graves en
+                                                                            contra de la persona del alimentante, conforme al artículo 968 del
+                                                                            Código Civil cesa la obligación que este tiene respecto de aquel. No
+                                                                            obstante, el artículo 324 del mismo Código expresa: “…pero si la
+                                                                            conducta del alimentario fuere
+**Concordancias Legales:** artículo 968 del Código Civil cesa la obligación que este tien; artículo 324
 
-                                                                            En los casos en que el alimentario ha cometido delitos graves en
+En los casos en que el alimentario ha cometido delitos graves en
                                                                             contra de la persona del alimentante, conforme al artículo 968 del
                                                                             Código Civil cesa la obligación que este tiene respecto de aquel. No
                                                                             obstante, el artículo 324 del mismo Código expresa: “…pero si la
@@ -3178,20 +3266,32 @@ Cuidado personal                                                              de
                                                                             en la conducta del alimentante, podrá el juez moderar el rigor de
                                                                             esta disposición”.
 
-
 ## 3.3.5.3.4 Dolo
 
-                                                                            Si una persona obtiene dolosamente una pensión de alimentos, supón-
+**Definición Canónica:** Si una persona obtiene dolosamente una pensión de alimentos, supón-
+                                                                            gase el caso de quien ha falseado su calidad de estudiante mediante
+                                                                            certificados adulterados, para con eso demandar los alimentos, es
+                                                                            justo que pueda ser condenado a la restitución y la indemnización
+                                                                            de perjuicios; pero no sólo 
+**Concordancias Legales:** artículo 328 del Código Civil
+
+Si una persona obtiene dolosamente una pensión de alimentos, supón-
                                                                             gase el caso de quien ha falseado su calidad de estudiante mediante
                                                                             certificados adulterados, para con eso demandar los alimentos, es
                                                                             justo que pueda ser condenado a la restitución y la indemnización
                                                                             de perjuicios; pero no sólo él, sino que, como señala el artículo 328
                                                                             del Código Civil, todos los que han participado del dolo.
 
-
 ## 3.3.5.3.5 Sentencia en juicio de filiación
 
-                                                                            Según la ley, si la filiación es declarada en contra de la voluntad del
+**Definición Canónica:** Según la ley, si la filiación es declarada en contra de la voluntad del
+                                                                            padre o madre, a estos se le quitan todos los derechos, entre ellos el
+                                                                            de alimentos que les asiste respecto a su hijo o hija, mientras que a
+                                                                            estos se les mantienen todos los derechos que los benefician respecto
+                                                                            a sus progeni
+**Concordancias Legales:** artículo 328 del Código Civil habla que sea
+
+Según la ley, si la filiación es declarada en contra de la voluntad del
                                                                             padre o madre, a estos se le quitan todos los derechos, entre ellos el
                                                                             de alimentos que les asiste respecto a su hijo o hija, mientras que a
                                                                             estos se les mantienen todos los derechos que los benefician respecto
@@ -3217,17 +3317,26 @@ Cuidado personal                                                                
 
                                                                               le diera ese efecto al silencio.47
 
-
 ## 3.3.6 La prescripción
 
-                                                                              Dentro de todas las causales de extinción de la obligación alimen-
+**Definición Canónica:** Dentro de todas las causales de extinción de la obligación alimen-
                                                                               ticia, por lejos la prescripción es la que más dudas plantea, tanto en
                                                                               doctrina como en jurisprudencia.
 
+Dentro de todas las causales de extinción de la obligación alimen-
+                                                                              ticia, por lejos la prescripción es la que más dudas plantea, tanto en
+                                                                              doctrina como en jurisprudencia.
 
 ## 3.3.6.1 Problemática
 
-                                                                              Las interrogantes que se trazan sobre este tópico son las siguientes:
+**Definición Canónica:** Las interrogantes que se trazan sobre este tópico son las siguientes:
+                                                                              a. ¿Prescriben el derecho de alimentos o las pensiones alimenticias?
+                                                                              b. El plazo establecido para este efecto ¿es de prescripción o ca-
+                                                                                 ducidad?
+                                                                              c. ¿Se suspende la prescripción en el caso de los NNA?
+               
+
+Las interrogantes que se trazan sobre este tópico son las siguientes:
                                                                               a. ¿Prescriben el derecho de alimentos o las pensiones alimenticias?
                                                                               b. El plazo establecido para este efecto ¿es de prescripción o ca-
                                                                                  ducidad?
@@ -3243,10 +3352,15 @@ Cuidado personal                                                                
 Régimen de Alimentos,                                                    3. El derecho                                                         83
 Cuidado personal                                                             de Alimentos
 
-
 ## 3.3.6.2 Intención del legislador
 
-                                                                           Para entender los pormenores que surgen a partir de las interro-
+**Definición Canónica:** Para entender los pormenores que surgen a partir de las interro-
+                                                                           gantes planteadas, es preciso recurrir a los anales de la ley. En ellos
+                                                                           se aprecia, con toda claridad, que la intención del legislador con la
+                                                                           promulgación de esta ley era evitar las maniobras dilatorias que el
+                                                                           demandado en este tipo de
+
+Para entender los pormenores que surgen a partir de las interro-
                                                                            gantes planteadas, es preciso recurrir a los anales de la ley. En ellos
                                                                            se aprecia, con toda claridad, que la intención del legislador con la
                                                                            promulgación de esta ley era evitar las maniobras dilatorias que el
@@ -3302,10 +3416,16 @@ Cuidado personal                                                               d
 
                                                                              haya perseguido el pago de su crédito.
 
-
 ## 3.3.6.3 Suspensión de la prescripción
 
-                                                                             Otras tesis más moderadas estiman que prescriben las pensiones
+**Definición Canónica:** Otras tesis más moderadas estiman que prescriben las pensiones
+                                                                             alimenticias, pero ello tiene ciertas diferencias y matices con la sus-
+                                                                             pensión de la prescripción. Hay algunos que la aplican sin variaciones
+                                                                             a lo establecido en la ley sustantiva, por lo que trascurridos diez años
+                                                                             desde que la 
+**Concordancias Legales:** artículo 336 del Código; artículos 2514; artículo 2509; artículo 2520 del Código Civil. Dicha suspensión se aplica; artículos 2523; artículo 2520 inc. 2; artículos 1692; artículos 1683; artículo 2520 inciso 2; artículos 186; artículo 2520 del Código Civil; artículo 2520; artículo 442 del Código de Procedimiento Civil; artículo 2520 del Código Civil no
+
+Otras tesis más moderadas estiman que prescriben las pensiones
                                                                              alimenticias, pero ello tiene ciertas diferencias y matices con la sus-
                                                                              pensión de la prescripción. Hay algunos que la aplican sin variaciones
                                                                              a lo establecido en la ley sustantiva, por lo que trascurridos diez años
@@ -3488,10 +3608,13 @@ Cuidado personal                                                              de
                                                                             la otra, que sí procede porque el artículo 2520 del Código Civil no
                                                                             contiene ninguna excepción sobre la materia”52.
 
-
 ## 3.3.6.4 Interrupción
 
-                                                                            En cuanto a la interrupción, se aprecian los siguientes criterios. Una
+**Definición Canónica:** En cuanto a la interrupción, se aprecian los siguientes criterios. Una
+                                                                            sentencia de la Corte de Apelaciones de Santiago expone:
+**Concordancias Legales:** artículo 27 de la Convención Internacional de los Derechos; artículo 434; artículo 2518 del CC; artículo 2518 del Código
+
+En cuanto a la interrupción, se aprecian los siguientes criterios. Una
                                                                             sentencia de la Corte de Apelaciones de Santiago expone:
 
                                          52   CS rol N° 5558-2013, 17 de diciembre de 2013.
@@ -3558,10 +3681,16 @@ Cuidado personal                                                             de 
                                                                            Civil, posee la aptitud suficiente de producir el efecto jurídico en
                                                                            comento.
 
-
 ## 3.3.6.5 Inconvenientes procesales con la excepción de
 
-                                                                           prescripción
+**Definición Canónica:** prescripción
+                                                                           Sea cual fuere la opinión sobre el particular, al poco tiempo de
+                                                                           meditarla se asoman problemas procesales si, para su aplicación, se
+                                                                           deben aunar las normas adjetivas y la norma civil, que se consigna a
+                                                                           continuación para ilustrar de mejor forma esta cuestión:
+**Concordancias Legales:** artículo 578 del Código Civil da; Ley Nº 14.908
+
+prescripción
                                                                            Sea cual fuere la opinión sobre el particular, al poco tiempo de
                                                                            meditarla se asoman problemas procesales si, para su aplicación, se
                                                                            deben aunar las normas adjetivas y la norma civil, que se consigna a
@@ -3666,11 +3795,13 @@ Cuidado personal                                                              de
                                                                             contraria para que en el plazo de tres días pueda objetarla. Se usa el
                                                                             esquema de los incidentes. Es en ese lapso que suele alegarse.
 
-
 ## 57   RAMOS (1999), pp. 448-449
 
+**Definición Canónica:** Régimen de Alimentos,                                                     3. El derecho                                                          93
+Cuidado personal                                                              de Alimentos
+**Concordancias Legales:** artículos 11; artículo 442 del CPC; artículos 2515 del Código Civil y 442 del de Procedimiento Ci; Ley N° 14.908
 
-Régimen de Alimentos,                                                     3. El derecho                                                          93
+Régimen de Alimentos,                                                     3. El derecho                                                          93
 Cuidado personal                                                              de Alimentos
 
                                                                             También se procede a decretar oficiosamente la prescripción asu-
@@ -3745,10 +3876,17 @@ Cuidado personal                                                                
 
 Régimen de Alimentos,                                             3. El derecho                                                         95
 
-
 ## 3.3.7 Alimentos pagados después
 
-                                                                    de caducado el derecho
+**Definición Canónica:** de caducado el derecho
+                                         Quien paga después         El caso más habitual de este asunto en la práctica judicial es el de
+                                         de la mayoría de           aquellos hijos que han pasado con creces la edad límite para percibir
+                                                                    los alimentos, es decir los 21 o los 28 años, y siguen percibiéndolos
+                                         edad del alimentario
+                                                                    hasta que el alimentante se da cue
+**Concordancias Legales:** artículo 8 de la Ley Nº 19.968; Ley Nº 19.968
+
+de caducado el derecho
                                          Quien paga después         El caso más habitual de este asunto en la práctica judicial es el de
                                          de la mayoría de           aquellos hijos que han pasado con creces la edad límite para percibir
                                                                     los alimentos, es decir los 21 o los 28 años, y siguen percibiéndolos
@@ -3795,10 +3933,16 @@ Cuidado personal                                                            de A
                                                                           dichos juzgados pueden conocer de acuerdo con lo establecido en
                                                                           el artículo 8 de la Ley Nº 19.968.
 
-
 ## 3.3.8 Determinación del quantum de la pensión
 
-                                                                          Se puede decir que el marco normativo chileno permite determinar
+**Definición Canónica:** Se puede decir que el marco normativo chileno permite determinar
+                                                                          de manera bastante sencilla el monto de la prestación de alimentos,
+                                                                          pues sus reglas entregan parámetros precisos y detallados para este
+                                                                          efecto. No obstante, se debe tener presente que el cálculo tiene re-
+                                                                          glas distintas según se trate de a
+**Concordancias Legales:** artículo 3; Ley Nº 14.908
+
+Se puede decir que el marco normativo chileno permite determinar
                                                                           de manera bastante sencilla el monto de la prestación de alimentos,
                                                                           pues sus reglas entregan parámetros precisos y detallados para este
                                                                           efecto. No obstante, se debe tener presente que el cálculo tiene re-
@@ -3950,14 +4094,16 @@ Cuidado personal                                                                
                                          X+Y= Z                                                                          Debemos averiguar que
                                                                                                                       porcentaje debe solventar X e
 
-## X=x*100/z=%x
-
-                                                                                                                             Y de esos 300.
-
 ## Y=y*100/z=%y
 
+**Definición Canónica:** 62%                    $ 186
+                                                                                                850*100=85000
+                                                                                          X
+                                                                                                                            Esto significa que a X le corresponde
+                                                                                                                            aportar el 62% de las necesidades
+                                                 
 
-                                                                                                                                   62%                    $ 186
+62%                    $ 186
                                                                                                 850*100=85000
                                                                                           X
                                                                                                                             Esto significa que a X le corresponde
@@ -3966,8 +4112,14 @@ Cuidado personal                                                                
 
 ## X+y=1370
 
+**Definición Canónica:** 37,9%                   $ 114
+                                                                                                520*100=52000
+                                                                                          Y
+                                                                                                                            Esto significa que a Y le corresponde
+                                                                                                                            aportar el 37.9% de las necesidades
+                                              
 
-                                                                                                                                  37,9%                   $ 114
+37,9%                   $ 114
                                                                                                 520*100=52000
                                                                                           Y
                                                                                                                             Esto significa que a Y le corresponde
@@ -3988,11 +4140,16 @@ Cuidado personal                                                 de Alimentos
                                                                                                           porcentaje debe solventar X e
                                                                                                                  Y de esos 300
 
-
 ## X+y=220
 
+**Definición Canónica:** 68%                     $ 204                                       $ 75
+                                             150*100=1500
+                                         X                                                             Como se aprecia
+                                                                                                     en ambos casos se ha
+                                                            Esto significa que a X le corresponde    excedido el 50% de
+                                                             aportar el 68% de las necesidades        las r
 
-                                                                  68%                     $ 204                                       $ 75
+68%                     $ 204                                       $ 75
                                              150*100=1500
                                          X                                                             Como se aprecia
                                                                                                      en ambos casos se ha
@@ -4028,10 +4185,11 @@ Cuidado personal                                                 de Alimentos
 Régimen de Alimentos,                      3. El derecho                                                          101
 Cuidado personal                               de Alimentos
 
-
 ## 3.4   Aspectos procesales
 
-                                               del derecho de Alimentos
+**Definición Canónica:** del derecho de Alimentos
+
+del derecho de Alimentos
 
                                                Como se ha mencionado en este trabajo, una cosa es el derecho de
                                                alimentos en abstracto y otra es su concreción. Ambas facetas poseen
@@ -4078,10 +4236,11 @@ Cuidado personal                                   de Alimentos
 Régimen de Alimentos,                                               3. El derecho                                                        103
 Cuidado personal                                                        de Alimentos
 
-
 ## 3.6         Los acuerdos
 
-                                                                      sobre Alimentos
+**Definición Canónica:** sobre Alimentos
+
+sobre Alimentos
 
                                                                       Son tres las formas en virtud de las cuales las partes pueden ponerse
                                                                       de acuerdo en el pago de una pensión de alimentos. Más allá de cada
@@ -4089,10 +4248,12 @@ Cuidado personal                                                        de Alime
                                                                       un acuerdo de voluntades, les son aplicables todas las normas sus-
                                                                       tantivas que regulan los vicios de la voluntad
 
-
 ## 3.6.1 Mediación
 
-                                                                      De acuerdo con el artículo 106 de la LTF, la mediación es previa
+**Definición Canónica:** De acuerdo con el artículo 106 de la LTF, la mediación es previa
+**Concordancias Legales:** artículo 106 de la LTF; artículo 109 de la LTF; artículo 54
+
+De acuerdo con el artículo 106 de la LTF, la mediación es previa
 
                                                                       y obligatoria para estos asuntos, aun cuando estén asociados a una
                                                                       acción por divorcio o separación judicial.
@@ -4135,10 +4296,11 @@ Cuidado personal                                                        de Alime
                                            no justifica su ausencia, el requirente quedará habilitado para iniciar
                                            el procedimiento judicial”.
 
-
 ## 3.6.2 Avenimiento y conciliación
 
-                                           El avenimiento y la conciliación se producen durante la tramitación
+**Definición Canónica:** El avenimiento y la conciliación se producen durante la tramitación
+
+El avenimiento y la conciliación se producen durante la tramitación
 
                                            del juicio. La diferencia entre ellas es que el primero es por solicitud
                                            espontánea de las partes, mientras que la segunda es motivada por
@@ -4150,10 +4312,14 @@ Cuidado personal                                                        de Alime
 
                                            En ambos casos la aprobación judicial le da el carácter de sentencia.
 
-
 ## 3.6.3 Transacción
 
-                                           Se trata de un contrato por el que las partes arreglan un litigio
+**Definición Canónica:** Se trata de un contrato por el que las partes arreglan un litigio
+                                           pendiente o precaven uno eventual. La diferencia con las formas
+                                           anteriores de composición, revisadas en el párrafo precedente, es
+                                           que esta se produce fuera del juicio.
+
+Se trata de un contrato por el que las partes arreglan un litigio
                                            pendiente o precaven uno eventual. La diferencia con las formas
                                            anteriores de composición, revisadas en el párrafo precedente, es
                                            que esta se produce fuera del juicio.
@@ -4171,10 +4337,16 @@ Cuidado personal                                                        de Alime
 Régimen de Alimentos,                                               3. El derecho                                                       105
 Cuidado personal                                                        de Alimentos
 
-
 ## 3.6.4 Efectos comunes
 
-                                                                      Las condiciones que la ley señala para la aprobación de todos los
+**Definición Canónica:** Las condiciones que la ley señala para la aprobación de todos los
+                                                                      instrumentos revisados en este párrafo pueden entenderse previs-
+                                                                      tos en el artículo 11 de la LPA en su inciso tercero. Dicha norma se
+                                                                      señala que: “El juez sólo podrá dar su aprobación a las transacciones
+                                                                      sobre alimentos futuros, a que hace referencia el 
+**Concordancias Legales:** artículo 11 de la LPA en su inciso tercero. Dicha norma se; artículo 2.451 del Código Civil; artículo 3
+
+Las condiciones que la ley señala para la aprobación de todos los
                                                                       instrumentos revisados en este párrafo pueden entenderse previs-
                                                                       tos en el artículo 11 de la LPA en su inciso tercero. Dicha norma se
                                                                       señala que: “El juez sólo podrá dar su aprobación a las transacciones
@@ -4223,10 +4395,11 @@ Cuidado personal                                                        de Alime
 Régimen de Alimentos,                                3. El derecho                                                                       107
 Cuidado personal                                         de Alimentos
 
-
 ## 3.7        El juicio
 
-                                                       de Alimentos
+**Definición Canónica:** de Alimentos
+
+de Alimentos
 
                                                        Esta clase de juicio posee una estructura cuyas fuentes se encuentran
                                                        en la LTF, el CPC y la LPA. En las diversas normas que lo nutren se
@@ -4235,14 +4408,24 @@ Cuidado personal                                         de Alimentos
 
 ## parte débil de la relación procesal que mantendrá con el alimentante
 
-                                                       en su tramitación. Teniendo en cuenta aquello, en la consecución
+**Definición Canónica:** en su tramitación. Teniendo en cuenta aquello, en la consecución
                                                        de los actos que se desarrollan en el iter procesal se debe estar a las
                                                        normas y particularidades que se examinan a continuación.
 
+en su tramitación. Teniendo en cuenta aquello, en la consecución
+                                                       de los actos que se desarrollan en el iter procesal se debe estar a las
+                                                       normas y particularidades que se examinan a continuación.
 
 ## 3.7.1 Supletoriedad
 
-                                                       Es importante tener presente la amplia supletoriedad que, ante las
+**Definición Canónica:** Es importante tener presente la amplia supletoriedad que, ante las
+                                                       posibles lagunas que pueda tener el procedimiento de alimentos,
+                                                       asume el Código de Procedimiento Civil según lo faculta la LTF en
+                                                       cuatro materias: (i) las disposiciones comunes a todo procedimiento,
+                                                       (ii) las reglas sobre la tramitación del juicio ordinario, (iii) las medidas
+                                     
+
+Es importante tener presente la amplia supletoriedad que, ante las
                                                        posibles lagunas que pueda tener el procedimiento de alimentos,
                                                        asume el Código de Procedimiento Civil según lo faculta la LTF en
                                                        cuatro materias: (i) las disposiciones comunes a todo procedimiento,
@@ -4253,11 +4436,13 @@ Cuidado personal                                         de Alimentos
                                                        siempre y cuando se respete la naturaleza del procedimiento, cuya
                                                        principal característica es la oralidad.
 
-
 ## 3.7.2 Competencia relativa
 
+**Definición Canónica:** Demanda         El juez de familia del domicilio del alimentante o del alimentario, a elección
+                                             de          de este último.
+                                         alimentos
 
-                                         Demanda         El juez de familia del domicilio del alimentante o del alimentario, a elección
+Demanda         El juez de familia del domicilio del alimentante o del alimentario, a elección
                                              de          de este último.
                                          alimentos
 
@@ -4271,10 +4456,17 @@ Cuidado personal                                         de Alimentos
 
 Régimen de Alimentos,                    3. El derecho                                                        108
 
-
 ## 3.7.3 Competencia absoluta
 
-                                           El factor materia está previsto en el artículo 8 de la LTF. Según esta
+**Definición Canónica:** El factor materia está previsto en el artículo 8 de la LTF. Según esta
+                                           norma, los tribunales de familia son competentes para conocer todo
+                                           tipo de asuntos que digan relación con el derecho de alimentos.
+                                           Debe recordarse que de acuerdo con el estatuto orgánico, estos son
+                                           tribunales especiales, lo que significa que sólo pueden avocarse al
+                                           conocimiento de las materias que específicamente
+**Concordancias Legales:** artículo 8 de la LTF. Según esta
+
+El factor materia está previsto en el artículo 8 de la LTF. Según esta
                                            norma, los tribunales de familia son competentes para conocer todo
                                            tipo de asuntos que digan relación con el derecho de alimentos.
                                            Debe recordarse que de acuerdo con el estatuto orgánico, estos son
@@ -4282,18 +4474,26 @@ Cuidado personal                                         de Alimentos
                                            conocimiento de las materias que específicamente señala la ley y en
                                            ellos no es procedente la prórroga de la competencia.
 
-
 ## 3.7.4 Patrocinio
 
-                                           En todos los casos, en los juicios de alimentos se debe comparecer
+**Definición Canónica:** En todos los casos, en los juicios de alimentos se debe comparecer
+                                           con la debida representación y patrocinio de abogado habilitado para
+
+En todos los casos, en los juicios de alimentos se debe comparecer
                                            con la debida representación y patrocinio de abogado habilitado para
 
                                            el ejercicio de la profesión.
 
-
 ## 3.7.5 Representación judicial
 
-                                           En el caso de los NNA, asumen su representación quienes según la
+**Definición Canónica:** En el caso de los NNA, asumen su representación quienes según la
+                                           ley son sus representantes legales. También lo puede hacer el cura-
+                                           dor ad litem, a falta de representante legal o si se estima por el juez
+                                           que el NNA tiene intereses contradictorios o independientes de sus
+                                           representantes legales.
+**Concordancias Legales:** artículo 19; artículo 332 del Código Civil
+
+En el caso de los NNA, asumen su representación quienes según la
                                            ley son sus representantes legales. También lo puede hacer el cura-
                                            dor ad litem, a falta de representante legal o si se estima por el juez
                                            que el NNA tiene intereses contradictorios o independientes de sus
@@ -4332,10 +4532,14 @@ Cuidado personal                                     de Alimentos
                                                    por ello por lo que esta norma soluciona el problema al conferirle la
                                                    posibilidad de accionar en contra del incumplidor.
 
-
 ## 3.7.6 Legitimación
 
-                                                   La legitimación se refiere a la manera en que la ley responde a las
+**Definición Canónica:** La legitimación se refiere a la manera en que la ley responde a las
+                                                   preguntas ¿quién puede demandar? y ¿contra quién se puede inter-
+                                                   poner una demanda?
+**Concordancias Legales:** artículos 321
+
+La legitimación se refiere a la manera en que la ley responde a las
                                                    preguntas ¿quién puede demandar? y ¿contra quién se puede inter-
                                                    poner una demanda?
 
@@ -4350,54 +4554,24 @@ Cuidado personal                                     de Alimentos
                                                    la demanda en contra de los órdenes superiores, de acuerdo con el
                                                    esquema que se presenta a continuación.
 
-
-## 1           Al cónyuge
-
-
-
-## 2               A los descendientes
-
-
-
-## 3                   A los ascendientes
-
-
-
-## 4                 A los hermanos
-
-
-
 ## 5               Al que hizo una donación cuantiosa
 
+**Definición Canónica:** Régimen de Alimentos,                            3. El derecho                                                          110
+Cuidado personal                                     de Alimentos
 
-Régimen de Alimentos,                            3. El derecho                                                          110
+Régimen de Alimentos,                            3. El derecho                                                          110
 Cuidado personal                                     de Alimentos
 
                                                    Si bien el alimentante puede reclamar alimentos de varias de las
                                                    personas enumeradas anteriormente, sólo puede hacerlo respetando
                                                    el siguiente orden:
 
-
-## 1          Al donatario
-
-
-
-## 2               Al cónyuge
-
-
-
-## 3                   A los descendientes
-
-
-
-## 4                 A los ascendientes
-
-
-
 ## 5               A los hermanos
 
+**Definición Canónica:** Dado que en un mismo escalón pueden haber varios sujetos obliga-
+                                                   dos, en ese caso se debe seguir las reglas siguientes:
 
-                                                   Dado que en un mismo escalón pueden haber varios sujetos obliga-
+Dado que en un mismo escalón pueden haber varios sujetos obliga-
                                                    dos, en ese caso se debe seguir las reglas siguientes:
 
                                                    ——       Entre varios ascendientes o descendientes, debe recurrirse a
@@ -4411,10 +4585,14 @@ Cuidado personal                                     de Alimentos
                                                    ——       Sólo en el caso de insuficiencia de todos los obligados por el
                                                             Título preferente, podrá recurrirse a otro.
 
-
 ## 3.7.7 Estructura y fases de su tramitación
 
-                                                   La tramitación de un juicio de alimentos está estructurada sobre la
+**Definición Canónica:** La tramitación de un juicio de alimentos está estructurada sobre la
+                                                   base del procedimiento ordinario de cognición establecido en la LTF.
+                                                   Este consta de dos audiencias, una preparatoria y otra de juicio que
+**Concordancias Legales:** artículo 54
+
+La tramitación de un juicio de alimentos está estructurada sobre la
                                                    base del procedimiento ordinario de cognición establecido en la LTF.
                                                    Este consta de dos audiencias, una preparatoria y otra de juicio que
 
@@ -4450,10 +4628,15 @@ Cuidado personal                                                           de Al
                                                                             - Acceso provisio-
                                                                                nal a lo pedido
 
-
 ## 3.7.8 Alimentos provisorios
 
-                                                                         Son dos las normas que rigen esta materia: las señaladas en los artí-
+**Definición Canónica:** Son dos las normas que rigen esta materia: las señaladas en los artí-
+                                                                         culos 327 del Código Civil y 4 de la LPA. Sin embargo, aun cuando
+                                                                         no hay divergencias entre ellas, puede entenderse por temporalidad y
+                                                                         especialidad que la norma aplicable es esta última. En virtud de ella el
+                                                                         juez debe pronunciarse sobre l
+
+Son dos las normas que rigen esta materia: las señaladas en los artí-
                                                                          culos 327 del Código Civil y 4 de la LPA. Sin embargo, aun cuando
                                                                          no hay divergencias entre ellas, puede entenderse por temporalidad y
                                                                          especialidad que la norma aplicable es esta última. En virtud de ella el
@@ -4496,10 +4679,12 @@ Cuidado personal                                                           de Al
 
 Régimen de Alimentos,                                             3. El derecho                                                       113
 
-
 ## 3.8        Ejecución forzosa
 
-                                                                    de los Alimentos
+**Definición Canónica:** de los Alimentos
+**Concordancias Legales:** artículo 11; Ley N° 14.908; Ley N° 5.750; Ley N° 14.550; Ley Nº 19.968
+
+de los Alimentos
 
                                                                     Lo que se estudiará a continuación está referido a la forma como el
                                                                     ordenamiento jurídico concibe los mecanismos que considera idóneos
@@ -4543,10 +4728,17 @@ Cuidado personal                                                     de Alimento
 
                                                                    Cómo exigir el pago de pensión de alimentos
 
-
 ## 3.8.1 Características generales del
 
-                                                                   procedimiento de ejecución
+**Definición Canónica:** procedimiento de ejecución
+                                                                   El sistema para el pago de las pensiones alimenticias es ecléctico.
+                                                                   Intenta reunir y conciliar valores y principios de diversas fuentes y
+                                                                   tiempos, en una conjunción de normas que ofrece a priori esta di-
+                                                                   ficultad. Estamos en presencia de varios conjuntos de normas, que
+                                   
+**Concordancias Legales:** Ley Nº 14.908
+
+procedimiento de ejecución
                                                                    El sistema para el pago de las pensiones alimenticias es ecléctico.
                                                                    Intenta reunir y conciliar valores y principios de diversas fuentes y
                                                                    tiempos, en una conjunción de normas que ofrece a priori esta di-
@@ -4581,10 +4773,14 @@ Cuidado personal                                                               d
                                                                              subsidiaria en contra de los abuelos es necesaria una sentencia previa
                                                                              ejecutoriada en contra del principal obligado, etcétera.63
 
-
 ## 3.8.2 Métodos de cumplimiento y estructura
 
-                                                                             del procedimiento ejecutivo
+**Definición Canónica:** del procedimiento ejecutivo
+                                                                             Se observa un sistema que para compelir al cumplimiento de la
+                                                                             obligación, cual es el fin de la etapa ejecutiva de todo proceso (que
+                                                                             se sabe es eventual), recurre a tres métodos.
+
+del procedimiento ejecutivo
                                                                              Se observa un sistema que para compelir al cumplimiento de la
                                                                              obligación, cual es el fin de la etapa ejecutiva de todo proceso (que
                                                                              se sabe es eventual), recurre a tres métodos.
@@ -4634,21 +4830,31 @@ Cuidado personal                                                        de Alime
 
                                             juicio de divorcio
 
-
 ## 3.8.3 Métodos coactivos de cumplimiento
 
-                                                                      La coactividad en estos casos refiere a los mecanismos que la ley
+**Definición Canónica:** La coactividad en estos casos refiere a los mecanismos que la ley
+                                                                      utiliza para constreñir al alimentante para que cumpla con su obli-
+                                                                      gación. Estos buscan producir en el incumplidor una amenaza del
+                                                                      uso de la fuerza, para que a través de ella no le quede otra alternativa
+                                                                      que pagar, salvo que posea una justificación cali
+
+La coactividad en estos casos refiere a los mecanismos que la ley
                                                                       utiliza para constreñir al alimentante para que cumpla con su obli-
                                                                       gación. Estos buscan producir en el incumplidor una amenaza del
                                                                       uso de la fuerza, para que a través de ella no le quede otra alternativa
                                                                       que pagar, salvo que posea una justificación calificada como para no
                                                                       hacerlo. Se pueden clasificar en directos e indirectos.
 
-
 ## 3.8.3.1 Método directo: arresto
 
+**Definición Canónica:** La norma base en esta materia se encuentra en el artículo 14 de la
+                                                                      Ley N° 19.968 y se estructura en mérito de tres interrogantes:
+                                                                      ——       ¿Cuándo son procedentes los arrestos?
+                                                                      ——       ¿A favor de quién se establecen?
+                                                                      ——       ¿Cómo se pueden solicitar?
+**Concordancias Legales:** artículo 14 de la Ley N; Ley N° 19.968
 
-                                                                      La norma base en esta materia se encuentra en el artículo 14 de la
+La norma base en esta materia se encuentra en el artículo 14 de la
                                                                       Ley N° 19.968 y se estructura en mérito de tres interrogantes:
                                                                       ——       ¿Cuándo son procedentes los arrestos?
                                                                       ——       ¿A favor de quién se establecen?
@@ -4686,10 +4892,15 @@ Cuidado personal                                                        de Alime
                                             Alimentante                 Hijos                      Sin más trámite
                                             incumple obligación
 
-
 ## 3.8.3.1.1 Clasificación
 
-                                           La ley establece dos tipos de arresto: nocturno y total. Para este último
+**Definición Canónica:** La ley establece dos tipos de arresto: nocturno y total. Para este último
+                                           caso usa la palabra “arresto”, por lo que a través un análisis literal
+                                           de la norma donde está inserta, se llega a la conclusión acerca de
+                                           su naturaleza. En todo caso, esto no produce problemas en doctrina
+                                           y jurisprudencia.
+
+La ley establece dos tipos de arresto: nocturno y total. Para este último
                                            caso usa la palabra “arresto”, por lo que a través un análisis literal
                                            de la norma donde está inserta, se llega a la conclusión acerca de
                                            su naturaleza. En todo caso, esto no produce problemas en doctrina
@@ -4723,7 +4934,13 @@ Cuidado personal                                                        de Alime
 
 ## 3.8.3.1.2 Procedimiento de apremio
 
-                                                                    Toda orden de arresto, como es obvio, comienza por una solicitud.
+**Definición Canónica:** Toda orden de arresto, como es obvio, comienza por una solicitud.
+                                                                    Aunque la ley habla de la posibilidad de despacharlas de oficio, esto
+                                                                    no ocurre. No parece coherente aplicar una medida tan gravosa si la
+                                                                    persona a quien beneficia no desea deducirla.
+**Concordancias Legales:** artículo 7; artículo 14; artículo 88 del CPC. Si al incidentista se le rechazan
+
+Toda orden de arresto, como es obvio, comienza por una solicitud.
                                                                     Aunque la ley habla de la posibilidad de despacharlas de oficio, esto
                                                                     no ocurre. No parece coherente aplicar una medida tan gravosa si la
                                                                     persona a quien beneficia no desea deducirla.
@@ -4791,10 +5008,13 @@ Cuidado personal                                                 de Alimentos
 
                                                                                 No debe                  Reliquida
 
-
 ## 3.8.3.1.3 Tramitación de los arrestos
 
-                                                                 Luego de cumplido el procedimiento general visto anteriormente, el
+**Definición Canónica:** Luego de cumplido el procedimiento general visto anteriormente, el
+                                                                 tribunal debe ordenar a la fuerza pública (policías) que conduzca al
+                                                                 alimentante directamente a Gendarmería para el cumplimiento del
+
+Luego de cumplido el procedimiento general visto anteriormente, el
                                                                  tribunal debe ordenar a la fuerza pública (policías) que conduzca al
                                                                  alimentante directamente a Gendarmería para el cumplimiento del
 
@@ -4834,10 +5054,17 @@ Cuidado personal                                                     de Alimento
 
                                                                    Arresto por no pago de pensión de alimentos
 
-
 ## 3.8.3.2 Método indirecto: excepción de no pago de los
 
-                                                                   Alimentos
+**Definición Canónica:** Alimentos
+                                                                   Esta excepción está contemplada en la Ley N° 19.947, de Matrimo-
+                                                                   nio Civil, cuyo artículo 55 señala: “Habrá lugar también al divorcio
+                                                                   cuando se verifique un cese efectivo de la convivencia conyugal du-
+                                                                   rante el transcurso de, a lo menos, tres años, salvo que, a solicitud
+                                                  
+**Concordancias Legales:** artículo 55; Ley N° 19.947; Ley Nº 5.750
+
+Alimentos
                                                                    Esta excepción está contemplada en la Ley N° 19.947, de Matrimo-
                                                                    nio Civil, cuyo artículo 55 señala: “Habrá lugar también al divorcio
                                                                    cuando se verifique un cese efectivo de la convivencia conyugal du-
@@ -4928,10 +5155,16 @@ Cuidado personal                                                     de Alimento
                                                                     expreso. Otro tanto se dijo sobre esto a propósito de la prescripción
                                                                     (véase 3.3.6).
 
-
 ## Parte la norma señalando que el requerimiento de pago se notificará al
 
-                                                                    ejecutado, personalmente o por cédula, la que contendrá copia íntegra
+**Definición Canónica:** ejecutado, personalmente o por cédula, la que contendrá copia íntegra
+                                                                    de la resolución y los datos necesarios para su acertada inteligencia.
+                                                                    La notificación se efectuará por un receptor-visitador del mismo
+                                                                    tribunal, por los asistentes sociales agregados o pertenecientes al
+                                                                    juzgado, por receptores de juzgados de letras o, excep
+**Concordancias Legales:** artículo 44 del Código de Procedimiento
+
+ejecutado, personalmente o por cédula, la que contendrá copia íntegra
                                                                     de la resolución y los datos necesarios para su acertada inteligencia.
                                                                     La notificación se efectuará por un receptor-visitador del mismo
                                                                     tribunal, por los asistentes sociales agregados o pertenecientes al
@@ -5002,10 +5235,12 @@ Cuidado personal                                                                
 
 Régimen de Alimentos,                                             3. El derecho                                                         125
 
-
 ## 3.10             Método subsidiario: la demanda
 
-                                                                         en contra de los abuelos
+**Definición Canónica:** en contra de los abuelos
+**Concordancias Legales:** artículo 232 del Código; artículo 4 de la Ley Nº 14.908. La primera de estas normas; artículo 232 del Código Civil; Ley Nº 14.908
+
+en contra de los abuelos
 
                                                                     Las normas en juego en este asunto son dos, el artículo 232 del Código
                                                                     Civil y el artículo 4 de la Ley Nº 14.908. La primera de estas normas
@@ -5056,10 +5291,11 @@ Cuidado personal                                                            de A
 Régimen de Alimentos,                                                         3. El derecho                                                                            127
 Cuidado personal                                                                  de Alimentos
 
-
 ## 3.11                     Medidas
 
-                                                                                       accesorias
+**Definición Canónica:** accesorias
+
+accesorias
 
                                                                                 Son cuatro las medidas que el legislador contempla para asegurar los
                                                                                 fines del procedimiento. Su accesoriedad indica que no pueden per-
@@ -5077,10 +5313,12 @@ Cuidado personal                                                                
                                                                                     de conducir                                  en sociedad            jos sin permiso
                                                                                                                                  conyugal               del deudor
 
-
 ## 3.11.1 Suspensión de licencia de conducir
 
-                                                                                Establecido en la LPA y en el auto acordado de la Corte Superma
+**Definición Canónica:** Establecido en la LPA y en el auto acordado de la Corte Superma
+                                                                                N° 55-2008, se desarrolla de la siguiente forma:
+
+Establecido en la LPA y en el auto acordado de la Corte Superma
                                                                                 N° 55-2008, se desarrolla de la siguiente forma:
 
                                          Suspensión de licencia
@@ -5113,10 +5351,17 @@ Cuidado personal                                                                
 
 Régimen de Alimentos,                    3. El derecho                                                         128
 
-
 ## 3.11.2 Autorización de salida del país de
 
-                                           los hijos sin permiso del deudor
+**Definición Canónica:** los hijos sin permiso del deudor
+                                           Esta medida se enmarca en la acción cautelar que se requiere para
+                                           que los NNA puedan salir del país, por un motivo que sea acorde a
+                                           su interés superior, conforme lo dispone el artículo 49 de la ley de
+                                           Menores. Se exige la autorización de ambos padres y, si uno de ellos
+                                           se opone, el otro puede recurrir al juez en interés de su hijo.
+**Concordancias Legales:** artículo 49; artículos 14; ley Nº 16.618
+
+los hijos sin permiso del deudor
                                            Esta medida se enmarca en la acción cautelar que se requiere para
                                            que los NNA puedan salir del país, por un motivo que sea acorde a
                                            su interés superior, conforme lo dispone el artículo 49 de la ley de
@@ -5145,10 +5390,18 @@ Cuidado personal                                                                
                                            mandado se oponga expresamente o cuando no es ubicable para dar
                                            su consentimiento, desde que la norma no hace distinción.
 
-
 ## 3.11.3 Medidas relacionadas el
 
-                                           régimen de sociedad conyugal
+**Definición Canónica:** régimen de sociedad conyugal
+                                           La LPA señala que, en el evento de haberse decretado apremios en dos
+                                           oportunidades en contra del alimentante, el alimentario puede solicitar:
+                                           a. La separación de bienes.
+                                           b. Si se trata de la mujer, autorizarla para administrar extraordina-
+                                              riamente la sociedad conyugal sin que sea necesario acreditar el
+                                              pe
+**Concordancias Legales:** artículo 225 del Código Civil; artículo 271
+
+régimen de sociedad conyugal
                                            La LPA señala que, en el evento de haberse decretado apremios en dos
                                            oportunidades en contra del alimentante, el alimentario puede solicitar:
                                            a. La separación de bienes.
@@ -5167,10 +5420,11 @@ Cuidado personal                                                                
 Régimen de Alimentos,                                               3. El derecho                                                          130
 Cuidado personal                                                        de Alimentos
 
-
 ## 3.12             Tutela cautelar en el procedimiento de
 
-                                                                           determinación y cobro de los Alimentos
+**Definición Canónica:** determinación y cobro de los Alimentos
+
+determinación y cobro de los Alimentos
 
                                                                       Los métodos cautelares, como su nombre lo indica, no buscan la
                                                                       satisfacción directa o indirecta del crédito cuyo pago se persigue, sino
@@ -5192,10 +5446,16 @@ Cuidado personal                                                        de Alime
                                                                                               prenda         remuneraciones       impuestos
                                                                          precautorias
 
-
 ## 3.12.1 Medidas precautorias
 
-                                                                      Como su nombre lo señala, tienen por objeto asegurar el resultado de
+**Definición Canónica:** Como su nombre lo señala, tienen por objeto asegurar el resultado de
+                                                                      la acción, más que compeler al pago. Las medidas cautelares tienen
+                                         Las medidas                  una gran aplicación en esta materia, ya que el deudor es generalmente
+                                         cautelares tienen            mirado con desconfianza en la tramitación del juicio y sobre todo,
+                                         una gran aplicación          en la etapa ejecutiva.
+**Concordancias Legales:** Artículo 22; artículo 71; Artículo 54; Artículo 6; artículos 1; artículo 92
+
+Como su nombre lo señala, tienen por objeto asegurar el resultado de
                                                                       la acción, más que compeler al pago. Las medidas cautelares tienen
                                          Las medidas                  una gran aplicación en esta materia, ya que el deudor es generalmente
                                          cautelares tienen            mirado con desconfianza en la tramitación del juicio y sobre todo,
@@ -5294,10 +5554,15 @@ Cuidado personal                                                        de Alime
 
 Régimen de Alimentos,                    3. El derecho                                                          133
 
-
 ## 3.12.2 Arraigo
 
-                                           El arraigo es la medida que impide que el demandado abandone el
+**Definición Canónica:** El arraigo es la medida que impide que el demandado abandone el
+                                           país. Como se trata de una medida cautelar es necesario que, de ser
+                                           solicitada por el alimentario, las circunstancias en virtud de las cuales
+                                           se pide la medida reúnan los requisitos generales de concesión vistos
+                                           en el párrafo anterior.
+
+El arraigo es la medida que impide que el demandado abandone el
                                            país. Como se trata de una medida cautelar es necesario que, de ser
                                            solicitada por el alimentario, las circunstancias en virtud de las cuales
                                            se pide la medida reúnan los requisitos generales de concesión vistos
@@ -5358,10 +5623,15 @@ Cuidado personal                                                        de Alime
                                                                                                   el país, no
                                                                                                   caucionado
 
-
 ## 3.12.3 Hipoteca o prenda
 
-                                           Se trata de cauciones reales que, por ende, recaen sobre los bienes
+**Definición Canónica:** Se trata de cauciones reales que, por ende, recaen sobre los bienes
+                                           del deudor: inmuebles para el caso de la hipoteca y muebles para el
+                                           caso de la prenda. Desde luego que, por el principio de proporcio-
+                                           nalidad que guía a la tutela cautelar, el monto de los bienes siempre
+                                           debe ser acorde a la deuda alimenticia que se pretende garantizar.
+
+Se trata de cauciones reales que, por ende, recaen sobre los bienes
                                            del deudor: inmuebles para el caso de la hipoteca y muebles para el
                                            caso de la prenda. Desde luego que, por el principio de proporcio-
                                            nalidad que guía a la tutela cautelar, el monto de los bienes siempre
@@ -5376,10 +5646,15 @@ Cuidado personal                                                        de Alime
                                            fundado para estimar que el alimentante se ausentará del país, sin
                                            perjuicio del arraigo.
 
-
 ## 3.12.4 Garantías de la devolución de impuestos
 
-                                           Respecto de la retención de impuestos, las únicas reglas son que,
+**Definición Canónica:** Respecto de la retención de impuestos, las únicas reglas son que,
+                                           existiendo una o más pensiones insolutas y a petición de parte, el o
+                                           la juez adoptará la siguiente medida: ordenará, en el mes de marzo
+                                           de cada año, a la Tesorería General de la República que retenga de la
+                                           devolución anual de impuestos a la renta que corresponda percibir
+
+Respecto de la retención de impuestos, las únicas reglas son que,
                                            existiendo una o más pensiones insolutas y a petición de parte, el o
                                            la juez adoptará la siguiente medida: ordenará, en el mes de marzo
                                            de cada año, a la Tesorería General de la República que retenga de la
@@ -5407,10 +5682,16 @@ Cuidado personal                                                              de
                                                              pensiones insolutas)                pensiones que                       retención
                                                                                                   devenguen                      - Monto retenido
 
-
 ## 3.12.5 Retención de las remuneraciones
 
-                                                                            Las resoluciones judiciales que ordenen el pago de una pensión ali-
+**Definición Canónica:** Las resoluciones judiciales que ordenen el pago de una pensión ali-
+                                                                            menticia provisoria o definitiva por parte un trabajador dependiente
+                                                                            establecerán (es norma imperativa) como modalidad de pago la
+                                                                            retención de sus remuneraciones por parte del empleador (la letra
+                                                                            de la ley no autoriza para hacer
+**Concordancias Legales:** artículo 59 del Código del Trabajo establece que en el contra; artículo 8 de la Ley Nº 14.908. Régimen de Alimentos; Ley Nº 14.908
+
+Las resoluciones judiciales que ordenen el pago de una pensión ali-
                                                                             menticia provisoria o definitiva por parte un trabajador dependiente
                                                                             establecerán (es norma imperativa) como modalidad de pago la
                                                                             retención de sus remuneraciones por parte del empleador (la letra
@@ -5478,16 +5759,16 @@ Cuidado personal                                                              de
 Régimen de Alimentos,                                            3. El derecho                                                         138
 Cuidado personal                                                     de Alimentos
 
-
-## 3.13           Tutela de la buena fe
-
-                                                                        en el juicio de Alimentos
-
-                                                                   En distintas normas, la ley busca proteger al alimentario, que es la
-
 ## parte débil de la relación en el desarrollo de la tramitación del pro-
 
-                                                                   ceso de alimentos, mediante diversos mecanismos. Estos pueden
+**Definición Canónica:** ceso de alimentos, mediante diversos mecanismos. Estos pueden
+                                                                   ordenarse en base a aquellos que buscan establecer la transparencia
+                                                                   patrimonial del deudor y los que tiene por objeto proteger la buena fe
+                                                                   de los litigantes en la tramitación del proceso. Con ello se propende
+                                                                   a evitar la maniobras dilatorias, contumaces o arteras a las 
+**Concordancias Legales:** artículo 2; Artículo 2 de la Ley ducta ilícita; Ley N° 20.886
+
+ceso de alimentos, mediante diversos mecanismos. Estos pueden
                                                                    ordenarse en base a aquellos que buscan establecer la transparencia
                                                                    patrimonial del deudor y los que tiene por objeto proteger la buena fe
                                                                    de los litigantes en la tramitación del proceso. Con ello se propende
@@ -5540,19 +5821,31 @@ Cuidado personal                                           de Alimentos
                                                                                                              — Multa por incidentes
                                                                                                                 dilatorios
 
-
 ## 3.13.1 Transparencia patrimonial del deudor
 
-                                                         Estos mecanismos atienden a saber cuál es el verdadero estado de
+**Definición Canónica:** Estos mecanismos atienden a saber cuál es el verdadero estado de
                                                          los negocios del alimentante y su real patrimonio. Ocurren porque
                                                          no es extraño que en este tipo de juicios el deudor trate de sacar
                                                          bienes de su patrimonio u ocultar información con tal de pagar una
                                                          pensión de menor valor.
 
+Estos mecanismos atienden a saber cuál es el verdadero estado de
+                                                         los negocios del alimentante y su real patrimonio. Ocurren porque
+                                                         no es extraño que en este tipo de juicios el deudor trate de sacar
+                                                         bienes de su patrimonio u ocultar información con tal de pagar una
+                                                         pensión de menor valor.
 
 ## 3.13.2 Declaración de patrimonio
 
-                                                         De acuerdo con el artículo 5 de la LPA, los requisitos para solicitar
+**Definición Canónica:** De acuerdo con el artículo 5 de la LPA, los requisitos para solicitar
+                                                         la declaración patrimonial del deudor son los siguientes:
+                                                         a. El tribunal, de oficio, debe ordenar expresamente al demandado
+                                                            que acompañe todos los antecedentes necesarios para saber cuál
+                                                            es su patrimonio.
+                                                         b. El tribunal debe citar al deman
+**Concordancias Legales:** artículo 5 de la LPA; artículo 543 del Código de Procedimiento; artículo 207 del Código Penal; artículo 212 del Código Penal
+
+De acuerdo con el artículo 5 de la LPA, los requisitos para solicitar
                                                          la declaración patrimonial del deudor son los siguientes:
                                                          a. El tribunal, de oficio, debe ordenar expresamente al demandado
                                                             que acompañe todos los antecedentes necesarios para saber cuál
@@ -5610,10 +5903,17 @@ Cuidado personal                                                             de 
 
 Régimen de Alimentos,                    3. El derecho                                                       141
 
-
 ## 3.13.3 Acción pauliana de Alimentos
 
-                                           En la misma disposición estudiada a propósito de la declaración
+**Definición Canónica:** En la misma disposición estudiada a propósito de la declaración
+                                           jurada de patrimonio del deudor, la ley dispone que: “Los actos ce-
+                                           lebrados por el alimentante con terceros de mala fe, con la finalidad
+                                           de reducir su patrimonio en perjuicio del alimentario, así como los
+                                           actos simulados o aparentes ejecutados con el propósito de perjudi-
+                                           car al alimentario, podrán revocarse conforme a
+**Concordancias Legales:** artículo 2.468 del Código Civil. Para estos efectos
+
+En la misma disposición estudiada a propósito de la declaración
                                            jurada de patrimonio del deudor, la ley dispone que: “Los actos ce-
                                            lebrados por el alimentante con terceros de mala fe, con la finalidad
                                            de reducir su patrimonio en perjuicio del alimentario, así como los
@@ -5671,10 +5971,12 @@ Cuidado personal                                                             de 
 Régimen de Alimentos,                      3. El derecho                                                          143
 Cuidado personal                               de Alimentos
 
-
 ## 3.14     Protección de la buena fe procesal en
 
-                                                  la tramitación del procedimiento
+**Definición Canónica:** la tramitación del procedimiento
+**Concordancias Legales:** artículo 530; Ley N° 20.886
+
+la tramitación del procedimiento
 
                                              No hay duda de que la Ley N° 20.886 sobre Tramitación Electrónica es
                                              aplicable a los procedimientos de familia. Así se señala, expresamente,
@@ -5721,10 +6023,14 @@ Cuidado personal                                                           de Al
                                                                          que implican sus actos. Aunque también se discute por la doctrina
                                                                          si esta figura puede aplicarse en el proceso.67
 
-
 ## 3.14.1 Multa por incidentes dilatorios
 
-                                                                         Por la supletoriedad que asume el Código de Procedimiento Civil en
+**Definición Canónica:** Por la supletoriedad que asume el Código de Procedimiento Civil en
+                                                                         la tramitación del proceso de familia, es posible aplicar lo dispuesto
+                                                                         en el artículo 88 de dicho Código:
+**Concordancias Legales:** artículo 88
+
+Por la supletoriedad que asume el Código de Procedimiento Civil en
                                                                          la tramitación del proceso de familia, es posible aplicar lo dispuesto
                                                                          en el artículo 88 de dicho Código:
 
@@ -5746,10 +6052,15 @@ Cuidado personal                                                           de Al
                                                                          depósito fijado, se tendrá por no interpuesto y se extinguirá el derecho
                                                                          a promoverlo nuevamente”.
 
-
 ## 3.14.2 Fair play en la ejecución
 
-                                                                         Desde luego que, en la ejecución, también resulta aplicable el prin-
+**Definición Canónica:** Desde luego que, en la ejecución, también resulta aplicable el prin-
+                                                                         cipio de la buena fe de la manera en que fue estudiada en el título
+                                                                         anterior, y también a propósito de lo dicho sobre incidentes dilatorios.
+                                                                         Además se debe tener presente lo ya señalado cuando se expuso el
+**Concordancias Legales:** artículo 88 del CPC para detener las
+
+Desde luego que, en la ejecución, también resulta aplicable el prin-
                                                                          cipio de la buena fe de la manera en que fue estudiada en el título
                                                                          anterior, y también a propósito de lo dicho sobre incidentes dilatorios.
                                                                          Además se debe tener presente lo ya señalado cuando se expuso el
@@ -5763,10 +6074,16 @@ Cuidado personal                                                       de Alimen
                                                                      mecanismo la aplicación del artículo 88 del CPC para detener las
                                                                      solicitudes de liquidación que se hacen con un mero afán dilatorio.
 
-
 ## 3.14.3 Mala fe del empleador del alimentante
 
-                                                                     Dos situaciones se establecen en cuanto a quién debe pagar las re-
+**Definición Canónica:** Dos situaciones se establecen en cuanto a quién debe pagar las re-
+                                                                     muneraciones del alimentante. Una, si no da cuenta del término de
+                                                                     la relación laboral con él, caso en el cual se le aplican las sanciones
+                                                                     establecidas en el artículo 8 de la LPA, pero siempre y cuando se le
+                                                                     advierta de esta circunstancia en el oficio que or
+**Concordancias Legales:** artículo 8 de la LPA
+
+Dos situaciones se establecen en cuanto a quién debe pagar las re-
                                                                      muneraciones del alimentante. Una, si no da cuenta del término de
                                                                      la relación laboral con él, caso en el cual se le aplican las sanciones
                                                                      establecidas en el artículo 8 de la LPA, pero siempre y cuando se le
@@ -5781,10 +6098,15 @@ Cuidado personal                                                       de Alimen
                                                                      a retener la pensión, incurrirá en multa a beneficio fiscal equivalente
                                                                      al doble de la cantidad mandada a retener.
 
-
 ## 3.14.4 Mala fe de terceros
 
-                                                                     La ley establece responsabilidad solidaria para quienes dificultan
+**Definición Canónica:** La ley establece responsabilidad solidaria para quienes dificultan
+                                                                     o imposibilitan el cumplimiento de la obligación alimenticia. Esto
+                                                                     quiere decir que el alimentario puede cobrar la pensión a cualquiera
+                                                                     de aquellos que ejerzan el obstáculo para el pago por el total de la
+                                                                     deuda.
+
+La ley establece responsabilidad solidaria para quienes dificultan
                                                                      o imposibilitan el cumplimiento de la obligación alimenticia. Esto
                                                                      quiere decir que el alimentario puede cobrar la pensión a cualquiera
                                                                      de aquellos que ejerzan el obstáculo para el pago por el total de la
@@ -5812,10 +6134,14 @@ Cuidado personal                                                       de Alimen
                                            antecedentes al Ministerio Público para la investigación del hecho,
                                            dadas las garantías que se pueden ver afectadas para el tercero.
 
-
 ## 3.14.5 Mala fe del deudor
 
-                                           Aparte de las situaciones cubiertas por el artículo 2 de la ley sobre
+**Definición Canónica:** Aparte de las situaciones cubiertas por el artículo 2 de la ley sobre
+                                           tramitación electrónica, hay ciertas situaciones específicas que es-
+                                           tablece la LPA y son dos.
+**Concordancias Legales:** artículo 2
+
+Aparte de las situaciones cubiertas por el artículo 2 de la ley sobre
                                            tramitación electrónica, hay ciertas situaciones específicas que es-
                                            tablece la LPA y son dos.
 
@@ -5838,10 +6164,12 @@ Cuidado personal                                                       de Alimen
 Régimen de Alimentos,                                           3. El derecho                                                                     147
 Cuidado personal                                                    de Alimentos
 
-
 ## 3.15         Franquicias a los alimentantes en los
 
-                                                                       procedimientos seguidos en su contra
+**Definición Canónica:** procedimientos seguidos en su contra
+                                                                       por el no pago de los Alimentos
+
+procedimientos seguidos en su contra
                                                                        por el no pago de los Alimentos
 
                                                                   Una forma de balancear las prerrogativas que se le conceden al ali-
@@ -5849,10 +6177,11 @@ Cuidado personal                                                    de Alimentos
                                                                   de cobro que pueden ser ejercidos en contra del alimentante, es a
                                                                   través de los beneficios que a continuación se revisan.
 
-
 ## 3.15.1 Suspensión de los apremios
 
-                                                                  En todos los casos que se mencionan a continuación, debe existir
+**Definición Canónica:** En todos los casos que se mencionan a continuación, debe existir
+
+En todos los casos que se mencionan a continuación, debe existir
 
                                                                   una verdadera justificación de la causa que motiva la suspensión.
                                                                   Esto quiere decir que la parte debe presentar pruebas que acrediten
@@ -5872,10 +6201,17 @@ Cuidado personal                                                    de Alimentos
 
                                                                      Circunstancias extraordinarias que impidan o tornen grave el apremio
 
-
 ## 3.15.2 Recurso de amparo
 
-                                                                  Como ya se ha dicho antes en este trabajo, aunque el legislador
+**Definición Canónica:** Como ya se ha dicho antes en este trabajo, aunque el legislador
+                                                                  mira con desconfianza al demandado de este tipo de juicio, aquello
+                                                                  no lo ha vedado de ampararse cuando estima que está ilegitima o
+                                                                  arbitrariamente amenazada o privada en forma efectiva su libertad.
+                                                                  Es por ello que, en aplicación del artículo 21 de la Constitución, se
+    
+**Concordancias Legales:** artículo 21 de la Constitución; artículo 23; artículo 331 del Código Civil; Ley Nº 14.908; Constitución; constitucion
+
+Como ya se ha dicho antes en este trabajo, aunque el legislador
                                                                   mira con desconfianza al demandado de este tipo de juicio, aquello
                                                                   no lo ha vedado de ampararse cuando estima que está ilegitima o
                                                                   arbitrariamente amenazada o privada en forma efectiva su libertad.
@@ -6057,10 +6393,11 @@ Cuidado personal                                                 de Alimentos
 Régimen de Alimentos,                      3. El derecho                                                        153
 Cuidado personal                               de Alimentos
 
-
 ## 3.16     Preguntas
 
-                                                  orientadoras
+**Definición Canónica:** orientadoras
+
+orientadoras
 
                                              a. ¿Es lo mismo el derecho de alimentos y los alimentos devengados?
                                              b. ¿Es posible mirar la pensión de alimentos como un crédito de
@@ -6093,23 +6430,12 @@ Cuidado personal                               de Alimentos
                                               a través de alguna de las formas previstas por el
                                               legislador.
 
-
-## 2.   Arraigo: medida cautelar que consiste en la pro-
-
-                                              hibición de salir del país de un alimentante que
-                                              tiene una deuda por alimentos.
-
-
-## 3.   Arresto: medida cautelar que tiene por objeto
-
-                                              compeler el pago de los alimentos al deudor de
-                                              una pensión alimenticia. Puede ser nocturno o
-                                              total.
-
-
 ## 4.   Atribución: parámetro por el cual el legislador dis-
 
-                                              tribuye el cuidado personal de los hijos a sus pa-
+**Definición Canónica:** tribuye el cuidado personal de los hijos a sus pa-
+                                              dres que puede ser legal, judicial o convencional.
+
+tribuye el cuidado personal de los hijos a sus pa-
                                               dres que puede ser legal, judicial o convencional.
 
                                          5.   Corresponsabilidad: significa que ambos padres,
@@ -6117,38 +6443,46 @@ Cuidado personal                               de Alimentos
                                               equitativa y permanentemente en la crianza y
                                               educación de sus hijos.
 
-
 ## 6.   Cuidado personal: es el derecho-deber de los
 
-                                              padres sobre los hijos, por el que deben partici-
+**Definición Canónica:** padres sobre los hijos, por el que deben partici-
                                               par activa, equitativa y permanentemente en su
                                               crianza y educación.
 
+padres sobre los hijos, por el que deben partici-
+                                              par activa, equitativa y permanentemente en su
+                                              crianza y educación.
 
 ## 7.   Demanda subsidiaria de alimentos: es la acción
 
-                                              que se puede intentar en contra de los abuelos del
+**Definición Canónica:** que se puede intentar en contra de los abuelos del
                                               alimentario cuando el obligado principal incumple
                                               el pago de la pensión.
 
+que se puede intentar en contra de los abuelos del
+                                              alimentario cuando el obligado principal incumple
+                                              el pago de la pensión.
 
 ## 8.   Derecho de alimentos: el derecho que tienen
 
-                                              determinadas personas en estado de necesidad
+**Definición Canónica:** determinadas personas en estado de necesidad
                                               de exigir alimentos a otras también determinadas,
                                               las cuales están obligadas a proporcionárselos
                                               por mandato de la ley o la voluntad de las partes o
                                               unilateral de un tercero.
 
-
-## 9.   Filiación: es el vínculo jurídico de familia entre el
-
-                                              padre, la madre y el hijo, y viceversa.
-
+determinadas personas en estado de necesidad
+                                              de exigir alimentos a otras también determinadas,
+                                              las cuales están obligadas a proporcionárselos
+                                              por mandato de la ley o la voluntad de las partes o
+                                              unilateral de un tercero.
 
 ## 10. Mediación: consiste en la búsqueda, por un tercero
 
-                                             imparcial, de una solución colaborativa al conflic-
+**Definición Canónica:** imparcial, de una solución colaborativa al conflic-
+                                             to de las partes.
+
+imparcial, de una solución colaborativa al conflic-
                                              to de las partes.
 
                                          11. Regla presunta de la capacidad del alimentante:
@@ -6164,49 +6498,77 @@ Cuidado personal                               de Alimentos
                                          1.    ABELIUK, René (2000): La filiación y sus efectos            de filosofía y teoría del derecho (Volúmen 7), pp.
                                                (Santiago, Editorial Jurídica de Chile).                    115-147.
 
-
 ## 2.    ACUÑA, Marcela (2018): El cuidado personal de         15. GREEVEN, Nel (2018): Derecho de alimentos
 
-                                               los hijos (Santiago, Thomson Reuters).                    como derecho humano y apremios para obtener
+**Definición Canónica:** los hijos (Santiago, Thomson Reuters).                    como derecho humano y apremios para obtener
+                                                                                                         el cumplimiento (Santiago: Librotecnia).
+
+los hijos (Santiago, Thomson Reuters).                    como derecho humano y apremios para obtener
                                                                                                          el cumplimiento (Santiago: Librotecnia).
 
 ## 3.    BARCIA, Rodrigo (2011): Fundamentos del dere-
 
-                                               cho de familia y de la infancia (Santiago, Legal-     16. GREEVEN, Nel (2017): Filiación. Derechos hu-
+**Definición Canónica:** cho de familia y de la infancia (Santiago, Legal-     16. GREEVEN, Nel (2017): Filiación. Derechos hu-
+                                               publishing).                                              manos fundamentales y problemas de su actual
+                                                                                                         normativa (Santiago: Librotecnia)
+
+cho de familia y de la infancia (Santiago, Legal-     16. GREEVEN, Nel (2017): Filiación. Derechos hu-
                                                publishing).                                              manos fundamentales y problemas de su actual
                                                                                                          normativa (Santiago: Librotecnia)
 
 ## 4.    Cámara de Diputados de Chile (1933-1935): Se-
 
-                                               siones de discusión legislativa del proyecto de ley   17.   GUASTINI, Riccardo (2013): Distinguendo ancora
+**Definición Canónica:** siones de discusión legislativa del proyecto de ley   17.   GUASTINI, Riccardo (2013): Distinguendo ancora
+                                               sobre responsabilidad paterna y pago de pensio-             (Madrid: Marcial Pons).
+                                               nes alimenticias (Santiago).
+
+siones de discusión legislativa del proyecto de ley   17.   GUASTINI, Riccardo (2013): Distinguendo ancora
                                                sobre responsabilidad paterna y pago de pensio-             (Madrid: Marcial Pons).
                                                nes alimenticias (Santiago).
 
 ## 18. GUTIÉRREZ, Álvaro (2004): “Evolución histórica
 
+**Definición Canónica:** 5.    CARRETTA, Francesco (2013): La coherencia en              de la tutela jurisdiccional del derecho de alimen-
+                                               el proceso civil (Santiago, Thomson Reuters).             tos”, en Anuario Mexicano de Historia del Derecho
+                                                                                                         (Vol. 16), pp. 1-36.
 
-                                         5.    CARRETTA, Francesco (2013): La coherencia en              de la tutela jurisdiccional del derecho de alimen-
+5.    CARRETTA, Francesco (2013): La coherencia en              de la tutela jurisdiccional del derecho de alimen-
                                                el proceso civil (Santiago, Thomson Reuters).             tos”, en Anuario Mexicano de Historia del Derecho
                                                                                                          (Vol. 16), pp. 1-36.
 
 ## 6.    CARRETTA, Francesco (2015): “Aproximación al
 
-                                               estudio sobre la legitimación subsidiaria pasi-       19.   KATZ, Elizabeth (2019): “Criminal Law in a Civil
+**Definición Canónica:** estudio sobre la legitimación subsidiaria pasi-       19.   KATZ, Elizabeth (2019): “Criminal Law in a Civil
                                                va en los juicios de alimentos en del derecho de            Guise: The Evolution of Family Courts”, en The
                                                familia chileno”, en Revista de Derecho de Familia          University of Chicago Law Review (Vol. 86, N° 5),
                                                (Vol. III, Nº 7).                                           pp. 1241-1310.
 
+estudio sobre la legitimación subsidiaria pasi-       19.   KATZ, Elizabeth (2019): “Criminal Law in a Civil
+                                               va en los juicios de alimentos en del derecho de            Guise: The Evolution of Family Courts”, en The
+                                               familia chileno”, en Revista de Derecho de Familia          University of Chicago Law Review (Vol. 86, N° 5),
+                                               (Vol. III, Nº 7).                                           pp. 1241-1310.
 
 ## 7.    CARRETTA, Francesco (2018): “El derecho a ser         20. KOHN, Lisa (2008): “Tracing the Foundations
 
-                                               oído en la justicia de familia: la esencialidad del       of the Best Interests of the Child Standard in
+**Definición Canónica:** oído en la justicia de familia: la esencialidad del       of the Best Interests of the Child Standard in
+                                               derecho versus la esencialidad del trámite de la          American Jurisprudence”, en Journal of Law and
+                                               audiencia confidencial”, en Revista Chilena de            Family Studies, pp. 337-375.
+                                               Derecho, (Vol. 45, N° 2), pp. 407-426.
+
+oído en la justicia de familia: la esencialidad del       of the Best Interests of the Child Standard in
                                                derecho versus la esencialidad del trámite de la          American Jurisprudence”, en Journal of Law and
                                                audiencia confidencial”, en Revista Chilena de            Family Studies, pp. 337-375.
                                                Derecho, (Vol. 45, N° 2), pp. 407-426.
 
 ## 21. LUZZATI, Claudio (2012): Principi e principi. La
 
-                                         8.    Comité de los Derechos del Niño de Naciones               genericità nel diritto (Torino, Giappichelli Editore).
+**Definición Canónica:** 8.    Comité de los Derechos del Niño de Naciones               genericità nel diritto (Torino, Giappichelli Editore).
+                                               Unidas (2013): Observación General N° 14, sobre
+                                               el derecho del niño a que su interés superior sea     22. NÚÑEZ, Carlos (2013): “La obligación de alimen-
+                                               una consideración primordial.                             tos de los abuelos”, en Revista Chilena de Dere-
+                                                                               
+
+8.    Comité de los Derechos del Niño de Naciones               genericità nel diritto (Torino, Giappichelli Editore).
                                                Unidas (2013): Observación General N° 14, sobre
                                                el derecho del niño a que su interés superior sea     22. NÚÑEZ, Carlos (2013): “La obligación de alimen-
                                                una consideración primordial.                             tos de los abuelos”, en Revista Chilena de Dere-
@@ -6214,16 +6576,27 @@ Cuidado personal                               de Alimentos
 
 ## 9.    COUTURE, Eduardo (1993): Fundamentos del de-
 
-                                               recho procesal civil (Buenos Aires, De Palma).        23. ORREGO, Juan (2015): “Prescripción de la acción
+**Definición Canónica:** recho procesal civil (Buenos Aires, De Palma).        23. ORREGO, Juan (2015): “Prescripción de la acción
+                                                                                                         para obtener el pago de pensiones alimenticias
+                                         10. DOMÍNGUEZ, Ramón (2004): La prescripción                    devengadas: doctrina y jurisprudencia reciente”,
+                                             extintiva. Doctrina y jurisprudencia (Santiago,             en Revista de Derecho de Familia (Vol. I N°5 ), pp.
+                               
+
+recho procesal civil (Buenos Aires, De Palma).        23. ORREGO, Juan (2015): “Prescripción de la acción
                                                                                                          para obtener el pago de pensiones alimenticias
                                          10. DOMÍNGUEZ, Ramón (2004): La prescripción                    devengadas: doctrina y jurisprudencia reciente”,
                                              extintiva. Doctrina y jurisprudencia (Santiago,             en Revista de Derecho de Familia (Vol. I N°5 ), pp.
                                              Editorial Jurídica de Chile).                               15-35.
 
-
 ## 11.   ETCHEBERRY, Leonor; VELOSO, Paulina y MU-             24. QUINTANA, María (2009): “Legislación y juris-
 
-                                               ÑOZ, Andrea (1999): El nuevo estatuto filiativo           prudencia sobre cuidado personal del niño y la
+**Definición Canónica:** ÑOZ, Andrea (1999): El nuevo estatuto filiativo           prudencia sobre cuidado personal del niño y la
+                                               y las modificaciones al derecho sucesorio, a la           relación directa y regular con él”, en Revista de
+                                               luz de las normas y principios de la Ley N° 19.585        Derecho de la Pontificia Universidad Católica de
+                                               (Santiago, SERNAM).                                       Valparaíso (N° 33 ), pp. 149-172.
+**Concordancias Legales:** Ley N° 19.585
+
+ÑOZ, Andrea (1999): El nuevo estatuto filiativo           prudencia sobre cuidado personal del niño y la
                                                y las modificaciones al derecho sucesorio, a la           relación directa y regular con él”, en Revista de
                                                luz de las normas y principios de la Ley N° 19.585        Derecho de la Pontificia Universidad Católica de
                                                (Santiago, SERNAM).                                       Valparaíso (N° 33 ), pp. 149-172.
@@ -6232,23 +6605,23 @@ Cuidado personal                               de Alimentos
                                              the Child (Martinus Nijhoff Publishers).                    dado personal y el ejercicio de la relación directa
                                                                                                          y regular a la luz de la jurisprudencia actual”, en
 
-## 13. FUEYO, Fernando (1959): Derecho civil (Santiago,            Revista de Derecho de la Pontifcia Universidad
-
-                                             Imprenta y Litografía Universo).                            Católica de Valparaíso (N° 43), pp. 241-258.
-
 ## 14. GARRIDO, Ricardo (2013): “El interés superior           26. RAMOS, René (1999): “Derechos y obligaciones
 
-                                             del niño y el razonamiento jurídico”, en Anuario            entre los padres e hijos de familia”, en: Revista de
+**Definición Canónica:** del niño y el razonamiento jurídico”, en Anuario            entre los padres e hijos de familia”, en: Revista de
+
+del niño y el razonamiento jurídico”, en Anuario            entre los padres e hijos de familia”, en: Revista de
 
 Régimen de Alimentos,                                                                              Bibliografía   157
 
                                                Derecho de la Universidad Católica de Valparaíso
                                                (N° 20), pp. 23-37.
 
-
 ## 27.   RAVETLLAT, Isaac (2012): “El interés superior del
 
-                                               niño: concepto y delimitación del término”, en
+**Definición Canónica:** niño: concepto y delimitación del término”, en
+                                               Educatio siglo XXI (Vol. 30 N° 2 ), pp. 89-108.
+
+niño: concepto y delimitación del término”, en
                                                Educatio siglo XXI (Vol. 30 N° 2 ), pp. 89-108.
 
                                          28. RAVETLLAT, Isaac y PINOCHET, Ruperto (2015):
@@ -6258,88 +6631,22 @@ Cuidado personal                               de Alimentos
                                              no”, en Revista Chilena de Derecho (Vol. 42 N° 3),
                                              pp. 903 - 934.
 
-
 ## 29. RÍOS, Víctor (2016): La prescripción extintiva
 
-                                             en la etapa de ejecución de la relación jurídica
+**Definición Canónica:** en la etapa de ejecución de la relación jurídica
                                              alimentaria, Pontificia Universidad Católica de
                                              Valparaíso (tesis de grado).
 
-
-## 30. SCHAUER, Frederick (1991): Playing by the Rules
-
-                                             (Oxford: Clarendon Law Series).
-
+en la etapa de ejecución de la relación jurídica
+                                             alimentaria, Pontificia Universidad Católica de
+                                             Valparaíso (tesis de grado).
 
 ## 31. STUVEN, Ana (2015): “La Iglesia católica chilena
 
-                                             en el siglo XIX. Encuentros y desencuentros con
+**Definición Canónica:** en el siglo XIX. Encuentros y desencuentros con
                                              la modernidad filosófica”, en Teología y vida (Vol.
                                              56, N° 2), pp. 187-217.
 
-
-## 32. VODANOVIC H., Antonio (2004): Derecho de
-
-                                             alimentos (Santiago, LexisNexis ).
-
-                                               Jurisprudencia citada
-
-
-## 1.    Corte de Apelaciones de Concepción, rol N° 377-
-
-                                               2008, de 13 de junio de 2008.
-
-
-## 2.    Corte Suprema, rol N° 6225-2018, de 29 de octu-
-
-                                               bre de 2018.
-
-
-## 3.    Corte de Apelaciones de Santiago, rol N° 459-
-
-                                               2014, de 3 de junio de 2014.
-
-
-## 4.    Corte Suprema, rol N° 5558-2013, de 17 de di-
-
-                                               ciembre de 2013.
-
-
-## 5.    Corte de Apelaciones de Santiago, rol N° 3104-
-
-                                               2015, de 8 de febrero de 2016.
-
-
-## 6.    Corte Suprema, rol N° 5558-2013, de 17 de di-
-
-                                               ciembre de 2013.
-
-
-## 7.    Corte Suprema, rol N° 5558-2013, de 17 de di-
-
-                                               ciembre de 2013
-
-
-## 8.    Corte de Apelaciones de Valparaíso, rol N°178-
-
-                                               2016, de 12 de mayo de 2016.
-
-
-## 9.    Corte Suprema, rol N° 22916-2018, de diciembre
-
-                                               de 2019.
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+en el siglo XIX. Encuentros y desencuentros con
+                                             la modernidad filosófica”, en Teología y vida (Vol.
+                                             56, N° 2), pp. 187-217.

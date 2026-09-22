@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Administrativo | **Materia:** Administrativo
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Acceso a la
+             Información Pública y
 
-             Acceso a la
+Acceso a la
              Información Pública y
 
                                                Leonardo
@@ -46,19 +39,21 @@ extraccion: pdftotext
                                                     Soto
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Leonardo
+                              Castillo
+                              Cárdenas
+                          Abogado, docente en Derecho Económico
+                          y Comercial Universidad de La Frontera y
+                          U. Católica de Temuco. Máster Universitario
+                          en Análisis Económico del Derecho U. Com-
+                          plutense; Magíster en Política y Gobierno,
+                          FLACSO. Doctorando en Derecho, U. de Sa-
+                          lamanca. Diplomado en Propiedad Intelec-
+                          tual PUC, Diplo
 
-                          Leonardo
+Leonardo
                               Castillo
                               Cárdenas
                           Abogado, docente en Derecho Económico
@@ -99,26 +94,21 @@ Santiago,
                           Internacional de Justicia Abierta (RIJA).
 Chile 2021
 
-
-## Isbn n°
-
-
-## 2022-a-1852
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Soledad
+                               Morales
+                               Trapp
+                          Abogada y Magíster en Ciencias Sociales,
+                          Universidad de La Frontera. Estudiante Doc-
+                          torado en Estado de Derecho y Gobernanza,
+                          Universidad de Salamanca (España). Diplo-
+                          mada en Docencia Universitaria, Universidad
+                          de La Frontera. Profesora de Derecho Proce-
+                          sal. Académica de la Escuela de Derecho de
+                          la Unive
 
-                          Soledad
+Soledad
                                Morales
                                Trapp
                           Abogada y Magíster en Ciencias Sociales,
@@ -177,43 +167,31 @@ Chile 2021                de la Corte de Apelaciones de Temuco.
 
                                            1.1   Concepto de Transparencia                                                                                 9
 
-
-## 1.1.1   Nociones previas                                                                                  9
-
-
-
-## 1.1.2   Importancia de la transparencia para la función jurisdiccional                                  18
-
-
-
-## 1.1.3   La transparencia como concepto filosófico, económico y de buen gobierno                          21
-
-
-                                           1.2   Evolución del principio de transparencia y el acceso a la información                                    25
-
-
 ## 1.2.1   Proyecciones del principio de transparencia y el derecho de acceso a la información             25
 
-
-                                                 1.2.2   Análisis de antecedentes en instrumentos de Derechos Humanos que permiten concretarlo:
+**Definición Canónica:** 1.2.2   Análisis de antecedentes en instrumentos de Derechos Humanos que permiten concretarlo:
                                                          Declaración Universal de Derechos Humanos, Pacto Internacional de Derechos Civiles
                                                          y Políticos, Convención Americana de Derechos Humanos                                           27
 
+1.2.2   Análisis de antecedentes en instrumentos de Derechos Humanos que permiten concretarlo:
+                                                         Declaración Universal de Derechos Humanos, Pacto Internacional de Derechos Civiles
+                                                         y Políticos, Convención Americana de Derechos Humanos                                           27
 
 ## 1.2.3   Análisis de antecedentes a la dictación de la Ley Nº 20.285: Ley Nº 20.050 de Reforma
 
-                                                         Constitucional, aspectos relevantes de la Sentencia Claude Reyes y otros versus Chile, breve
+**Definición Canónica:** Constitucional, aspectos relevantes de la Sentencia Claude Reyes y otros versus Chile, breve
                                                          referencia a la “Comisión Engel”                                                                33
+**Concordancias Legales:** Constitucion
 
-
-## 1.2.4   Resolución 1/2018 Comisión Interamericana de Derechos Humanos: Corrupción
-
-                                                         y Derechos Humanos                                                                              38
-
+Constitucional, aspectos relevantes de la Sentencia Claude Reyes y otros versus Chile, breve
+                                                         referencia a la “Comisión Engel”                                                                33
 
 ## 1.2.5   Reconocimiento jurisprudencial en el Tribunal Constitucional, Consejo para la Transparencia
 
-                                                         y Corte Interamericana de Derechos Humanos                                                      39
+**Definición Canónica:** y Corte Interamericana de Derechos Humanos                                                      39
+**Concordancias Legales:** Ley Nº 20.285
+
+y Corte Interamericana de Derechos Humanos                                                      39
 
                                         2. Análisis de la Ley Nº 20.285                                                                                   44
 
@@ -227,15 +205,12 @@ Chile 2021                de la Corte de Apelaciones de Temuco.
 
                                            2.5   Transparencia Activa y Derecho de Acceso a la Información Pública                                        68
 
-
-## 2.5.1   Obligaciones y derechos que provienen de la Transparencia Activa                                70
-
-
-
 ## 2.5.2   Obligaciones y derechos que provienen del Derecho a Acceso a la Información Pública              81
 
+**Definición Canónica:** 2.5.3   ¿A quiénes se aplican las obligaciones de transparencia activa y las obligaciones del derecho
+                                                         de acceso a la información pública?                                                             84
 
-                                                 2.5.3   ¿A quiénes se aplican las obligaciones de transparencia activa y las obligaciones del derecho
+2.5.3   ¿A quiénes se aplican las obligaciones de transparencia activa y las obligaciones del derecho
                                                          de acceso a la información pública?                                                             84
 
                                            2.6   Reclamos, plazos y sanciones                                                                             89
@@ -259,10 +234,11 @@ Chile 2021                de la Corte de Apelaciones de Temuco.
 
                                            3.1 La Transparencia en el Poder judicial y en el ámbito jurisdiccional                                            137
 
-
 ## 3.1.1   Bases del ejercicio de la Transparencia en el Poder Judicial: Acta Nº 754-2019 de la Corte Suprema
 
-                                                         y Política de la Corporación Administrativa del Poder Judicial                                       137
+**Definición Canónica:** y Política de la Corporación Administrativa del Poder Judicial                                       137
+
+y Política de la Corporación Administrativa del Poder Judicial                                       137
 
                                                  3.1.2   Portal de Transparencia del Poder Judicial                                                           139
 
@@ -302,11 +278,16 @@ Chile 2021                de la Corte de Apelaciones de Temuco.
 Acceso a la                                                                                1. Acceso a la Información                                                 9
 Información                                                                                   Pública y Transparencia
 
-
 ## 1.1              Concepto de
 
+**Definición Canónica:** De modo preliminar, sobre el concepto de “transparencia” se puede
+                                                                                             indicar que está relacionado con la necesidad de contar con meca-
+                                                                                             nismos y herramientas para que ciudadanos y ciudadanas puedan
+                                                                                             conocer la labor del gobierno y los órganos del Estado. De tal modo,
+                                                          
+**Concordancias Legales:** artículo 13; Ley Nº 18.575; Constitucion
 
-                                                                                             De modo preliminar, sobre el concepto de “transparencia” se puede
+De modo preliminar, sobre el concepto de “transparencia” se puede
                                                                                              indicar que está relacionado con la necesidad de contar con meca-
                                                                                              nismos y herramientas para que ciudadanos y ciudadanas puedan
                                                                                              conocer la labor del gobierno y los órganos del Estado. De tal modo,
@@ -333,10 +314,15 @@ Información                                                                    
                                                                                              si un punto de partida que nos permitirá ir aproximándonos a estas
                                                                                              materias, de manera de facilitar la inmersión.
 
-
 ## 1.1.1 Nociones previas
 
-                                                                                             Sin lugar a dudas, “buen gobierno” y “derechos humanos” son con-
+**Definición Canónica:** Sin lugar a dudas, “buen gobierno” y “derechos humanos” son con-
+                                                                                             ceptos fundamentales para la solidez y buena salud del Estado y de
+                                                                                             la sociedad a la cual sirve. Los conceptos de “transparencia” y “dere-
+                                                                                             cho a la información pública”, además de encontrarse íntimamente
+**Concordancias Legales:** artículo 8; artículo 66; artículo 21 de la Ley N; artículo 15 de la Déclaration des Droits de l; artículo 19 de la Declaración Universal de; artículo 19; Ley N° 20.050; Ley N° 20.285; Constitución; constitucion
+
+Sin lugar a dudas, “buen gobierno” y “derechos humanos” son con-
                                                                                              ceptos fundamentales para la solidez y buena salud del Estado y de
                                                                                              la sociedad a la cual sirve. Los conceptos de “transparencia” y “dere-
                                                                                              cho a la información pública”, además de encontrarse íntimamente
@@ -685,10 +671,16 @@ Información                                                                    
 Acceso a la                                                                                  1. Acceso a la Información                                                      18
 Información                                                                                     Pública y Transparencia
 
-
 ## 1.1.2 Importancia de la transparencia
 
-                                                                                               para la función jurisdiccional
+**Definición Canónica:** para la función jurisdiccional
+                                                                                               La transparencia ha sido constitucionalizada, mediante las reformas
+                                                                                               introducidas el año 2005, en particular, en el artículo octavo de nuestra
+                                                                                               carta fundamental, donde destacamos su ubicación en las bases de la
+                                                                          
+**Concordancias Legales:** constitucion
+
+para la función jurisdiccional
                                                                                                La transparencia ha sido constitucionalizada, mediante las reformas
                                                                                                introducidas el año 2005, en particular, en el artículo octavo de nuestra
                                                                                                carta fundamental, donde destacamos su ubicación en las bases de la
@@ -734,25 +726,27 @@ Información                                                                    
                                                                      asimismo el resultado de la votación final que ellos obtuvieron,
                                                                      individualizando a quienes expresaron sus preferencias.
 
-
-## 2. Abogados integrantes: se dispuso la confección de listas de
-
-                                                                     los mismos, previo llamado a presentar antecedentes.
-
-
 ## 3. Ley de transparencia y acceso a la información: se dispuso
 
-                                                                     dar aplicación inmediata a las exigencias que impone esa nor-
+**Definición Canónica:** dar aplicación inmediata a las exigencias que impone esa nor-
+                                                                     mativa, continuando con la orden de que toda información esté
+                                                                     fácilmente disponible para cualquier usuario o ciudadano que
+                                                                     la requiera. Cabe aclarar que la ley de transparencia empezaba a
+
+dar aplicación inmediata a las exigencias que impone esa nor-
                                                                      mativa, continuando con la orden de que toda información esté
                                                                      fácilmente disponible para cualquier usuario o ciudadano que
                                                                      la requiera. Cabe aclarar que la ley de transparencia empezaba a
 
                                                                      regir en el año 2009.
 
-
 ## 4. Creación de la Comisión de Transparencia e Información
 
-                                                                     del Poder Judicial: a fin de dar cumplimiento permanente a las
+**Definición Canónica:** del Poder Judicial: a fin de dar cumplimiento permanente a las
+                                                                     disposiciones de la Ley N° 20.285 al interior del Poder Judicial”.
+**Concordancias Legales:** artículo 77; artículo 9; artículo 8 de la Ley Nº 20.285; artículo 7; Ley N° 20.285; Ley Nº 20.285; Ley Nº 21.210; Constitución
+
+del Poder Judicial: a fin de dar cumplimiento permanente a las
                                                                      disposiciones de la Ley N° 20.285 al interior del Poder Judicial”.
 
                                                                  Si bien la Ley Nº 20.285 se aplica a las autoridades que señala el ar-
@@ -840,10 +834,16 @@ Información                                                                    
                                                                      ción de sentencias que el artículo octavo contempla respecto de
                                                                      los Tribunales Tributarios y Aduaneros”.
 
-
 ## 1.1.3 La transparencia como concepto
 
-                                                                 filosófico, económico y de buen gobierno
+**Definición Canónica:** filosófico, económico y de buen gobierno
+                                                                 Los conceptos de transparencia y acceso a la información pública
+                                                                 están íntimamente relacionados de manera codependiente: no es
+                                                                 posible acceder de manera eficaz a la información pública sin trans-
+                                                                 parencia y no se puede desarrollar una política de transparencia,
+                                     
+
+filosófico, económico y de buen gobierno
                                                                  Los conceptos de transparencia y acceso a la información pública
                                                                  están íntimamente relacionados de manera codependiente: no es
                                                                  posible acceder de manera eficaz a la información pública sin trans-
@@ -902,7 +902,9 @@ Información                                                                    
 
 ## 25       Foucault, M. (2002): Defender la sociedad, (México D. F, Fondo de Cultura Económica), p. 205
 
-                                                      26       Weber, M. (1996): Economía y Sociedad, (Madrid: Fondo de Cultura Económica).
+**Definición Canónica:** 26       Weber, M. (1996): Economía y Sociedad, (Madrid: Fondo de Cultura Económica).
+
+26       Weber, M. (1996): Economía y Sociedad, (Madrid: Fondo de Cultura Económica).
 
 Acceso a la                                                                                 1. Acceso a la Información                                            23
 Información                                                                                    Pública y Transparencia
@@ -970,15 +972,17 @@ Información                                                                    
 Acceso a la                                                          1. Acceso a la Información                                           25
 Información                                                             Pública y Transparencia
 
-
-## 1.2     Evolución del principio de transparencia
-
-                                                                       y el acceso a la información
-
-
 ## 1.2.1 Proyecciones del principio de transparencia
 
-                                                                       y el derecho de acceso a la información
+**Definición Canónica:** y el derecho de acceso a la información
+                                                                       De acuerdo al sistema de información legislativo, actualmente hay
+                                                                       14 proyectos de ley en tramitación para modificar la Ley Nº 20.285.
+                                                                       Si ampliamos la búsqueda al término “transparencia”, existen 49
+                                                                       iniciativas en diferentes estados de avance, y 18 buscando por “ac-
+          
+**Concordancias Legales:** artículo 61 del Estatuto Administrativo. Recordemos que la pr; Ley Nº 20.285; Constitución; constitucion
+
+y el derecho de acceso a la información
                                                                        De acuerdo al sistema de información legislativo, actualmente hay
                                                                        14 proyectos de ley en tramitación para modificar la Ley Nº 20.285.
                                                                        Si ampliamos la búsqueda al término “transparencia”, existen 49
@@ -1057,10 +1061,16 @@ Información                                                                    
                                                                                                Por lo tanto, se esperaría que el ímpetu no se transforme en cantos
                                                                                                de sirena que lleven a colisionar gravemente con otras garantías.
 
-
 ## 1.2.2 Análisis de antecedentes en instrumentos
 
-                                                                                               de Derechos Humanos que permiten concretarlo:
+**Definición Canónica:** de Derechos Humanos que permiten concretarlo:
+                                                                                               Declaración Universal de Derechos Humanos,
+                                                                                               Pacto Internacional de Derechos Civiles y Políticos,
+                                                                                               Convención Americana de Derechos Humanos
+                                                                                               La Declaración de los Derechos del Ho
+**Concordancias Legales:** artículo 15; artículo 19; Ley Nº 19.653
+
+de Derechos Humanos que permiten concretarlo:
                                                                                                Declaración Universal de Derechos Humanos,
                                                                                                Pacto Internacional de Derechos Civiles y Políticos,
                                                                                                Convención Americana de Derechos Humanos
@@ -1096,18 +1106,24 @@ Información                                                                    
 
                                                                      “1. Nadie podrá ser molestado a causa de sus opiniones.
 
-
 ## 2. Toda persona tiene derecho a la libertad de expresión; este
 
-                                                                     derecho comprende la libertad de buscar, recibir y difundir infor-
+**Definición Canónica:** derecho comprende la libertad de buscar, recibir y difundir infor-
                                                                      maciones e ideas de toda índole, sin consideración de fronteras,
                                                                      ya sea oralmente, por escrito o en forma impresa o artística, o
                                                                      por cualquier otro procedimiento de su elección.
 
+derecho comprende la libertad de buscar, recibir y difundir infor-
+                                                                     maciones e ideas de toda índole, sin consideración de fronteras,
+                                                                     ya sea oralmente, por escrito o en forma impresa o artística, o
+                                                                     por cualquier otro procedimiento de su elección.
 
 ## 3. El ejercicio del derecho previsto en el párrafo 2° de este artículo
 
-                                                                     entraña deberes y responsabilidades especiales.
+**Definición Canónica:** entraña deberes y responsabilidades especiales.
+**Concordancias Legales:** artículo 13; Artículo 19; artículo 19 de la Declaración Universal de Derechos; Artículo 13 de la Convención Americana; Ley Nº 20.285
+
+entraña deberes y responsabilidades especiales.
 
                                                                      Por consiguiente, puede estar sujeto a ciertas restricciones que
                                                                      deberán, sin embargo, estar expresamente fijadas por la ley y ser
@@ -1296,11 +1312,12 @@ Información                                                                    
                                                                                                América Latina y el Caribe (CEPAL), red de apoyo de organizaciones
                                                                                                de la sociedad civil y la academia.
 
-
 ## 31       Puede ser revisado en línea [consulta: 15.09.2020]
 
+**Definición Canónica:** Acceso a la                                                                                  1. Acceso a la Información                                                      33
+Información                                                                                     Pública y Transparencia
 
-Acceso a la                                                                                  1. Acceso a la Información                                                      33
+Acceso a la                                                                                  1. Acceso a la Información                                                      33
 Información                                                                                     Pública y Transparencia
 
                                                                                                En el caso de la Agenda para el Desarrollo Sostenible 2030 de la
@@ -1315,10 +1332,16 @@ Información                                                                    
                                                                                                proteger las libertades fundamentales, de conformidad con las leyes
                                                                                                nacionales y los acuerdos internacionales”.
 
-
 ## 1.2.3 Análisis de antecedentes a la dictación de la Ley
 
-                                                                                               Nº 20.285: Ley Nº 20.050 de Reforma Constitucional,
+**Definición Canónica:** Nº 20.285: Ley Nº 20.050 de Reforma Constitucional,
+                                                                                               aspectos relevantes de la Sentencia Claude Reyes y
+                                                                                               otros versus Chile, breve referencia a la “Comisión Engel”
+                                                                                               La Ley N° 20.285 tiene su antecedente en la sentencia pronunciada
+                                                                                       
+**Concordancias Legales:** Artículo 8; artículos 13 del Pacto de San; Ley Nº 20.050; Ley N° 20.285; Ley N° 19.884; Ley N° 19.964; Ley Nº 19.884; Ley Nº 19.653; Ley Nº 19.913; Ley Nº 19.974; Ley Nº 20.880; Ley Nº 19.628; Constitucion; Constitución Política
+
+Nº 20.285: Ley Nº 20.050 de Reforma Constitucional,
                                                                                                aspectos relevantes de la Sentencia Claude Reyes y
                                                                                                otros versus Chile, breve referencia a la “Comisión Engel”
                                                                                                La Ley N° 20.285 tiene su antecedente en la sentencia pronunciada
@@ -1434,7 +1457,14 @@ Información                                                                    
 
 ## 219. Párr. 230),34 al señalar que en cuanto al Derecho a la libertad de
 
-                                                                                              pensamiento y de expresión, a las garantías judiciales y a la protección
+**Definición Canónica:** pensamiento y de expresión, a las garantías judiciales y a la protección
+                                                                                              judicial, en relación con las obligaciones de respetar y garantizar los
+                                                                                              derechos y el deber de adoptar disposiciones de derecho interno:
+                                                                                              “Asimismo, para garantizar el ejercicio pleno y efectivo de este derecho
+                                   
+**Concordancias Legales:** artículo 13 de la Convención Americana
+
+pensamiento y de expresión, a las garantías judiciales y a la protección
                                                                                               judicial, en relación con las obligaciones de respetar y garantizar los
                                                                                               derechos y el deber de adoptar disposiciones de derecho interno:
                                                                                               “Asimismo, para garantizar el ejercicio pleno y efectivo de este derecho
@@ -1466,11 +1496,13 @@ Información                                                                    
                                                                                               asistencia necesarios a los solicitantes, promuevan una cultura de
                                                                                               transparencia, coadyuven a transparentar la gestión pública, y actúen
 
-
 ## 34       Disponible en línea [consulta: 15.09.2020]
 
+**Definición Canónica:** Acceso a la                                                                                  1. Acceso a la Información                                              37
+Información                                                                                     Pública y Transparencia
+**Concordancias Legales:** artículo 1; Ley Nº 20.285; Ley Nº 20.880
 
-Acceso a la                                                                                  1. Acceso a la Información                                              37
+Acceso a la                                                                                  1. Acceso a la Información                                              37
 Información                                                                                     Pública y Transparencia
 
                                                                                                con diligencia, profesionalidad y lealtad institucional. Es decir, que
@@ -1510,10 +1542,16 @@ Información                                                                    
 
 Acceso a la                                                    1. Acceso a la Información                                                 38
 
-
 ## 1.2.4 Resolución 1/2018 Comisión Interamericana de
 
-                                                                 Derechos Humanos: Corrupción y Derechos Humanos
+**Definición Canónica:** Derechos Humanos: Corrupción y Derechos Humanos
+                                                                 La Resolución 1/2018 sobre “Corrupción y Derechos Humanos”
+                                                                 realiza también recomendaciones específicas dirigidas a los sistemas
+                                                                 de justicia, las que resultan de importancia para el presente texto.
+                                                                 Así, entre ellas se menciona, en primer lugar, el pleno respeto a los
+                         
+
+Derechos Humanos: Corrupción y Derechos Humanos
                                                                  La Resolución 1/2018 sobre “Corrupción y Derechos Humanos”
                                                                  realiza también recomendaciones específicas dirigidas a los sistemas
                                                                  de justicia, las que resultan de importancia para el presente texto.
@@ -1588,10 +1626,16 @@ Información                                                                    
                                                                  transporte o saneamiento, que resultan esenciales para la realización
                                                                  de los derechos económicos, sociales, culturales y ambientales”.
 
-
 ## 1.2.5 Reconocimiento jurisprudencial en el Tribunal
 
-                                                                 Constitucional, Consejo para la Transparencia y
+**Definición Canónica:** Constitucional, Consejo para la Transparencia y
+                                                                 Corte Interamericana de Derechos Humanos
+                                                                 Al respecto se reproducen algunos considerandos relevantes de sen-
+                                                                 tencias de la Corte Interamericana de Derechos Humanos relativos
+                                                                 a la materia en comento:
+**Concordancias Legales:** Constitucion
+
+Constitucional, Consejo para la Transparencia y
                                                                  Corte Interamericana de Derechos Humanos
                                                                  Al respecto se reproducen algunos considerandos relevantes de sen-
                                                                  tencias de la Corte Interamericana de Derechos Humanos relativos
@@ -1602,10 +1646,16 @@ Información                                                                    
                                                                  a. Caso Gomes Lund y otros (“Guerrilha do Araguaia”)
                                                                     versusBrasil. Sentencia del 24 de noviembre de 2010.
 
-
 ## 197. El Tribunal también ha establecido que el artículo 13 de la
 
-                                                                     Convención, al estipular expresamente los derechos a buscar y a
+**Definición Canónica:** Convención, al estipular expresamente los derechos a buscar y a
+                                                                     recibir informaciones, protege el derecho que tiene toda persona
+                                                                     a solicitar el acceso a la información bajo el control del Estado,
+                                                                     con las salvedades permitidas bajo el régimen de restricciones
+                                                                     de la Convención. Consecuentemente, dicho artículo ampara
+       
+
+Convención, al estipular expresamente los derechos a buscar y a
                                                                      recibir informaciones, protege el derecho que tiene toda persona
                                                                      a solicitar el acceso a la información bajo el control del Estado,
                                                                      con las salvedades permitidas bajo el régimen de restricciones
@@ -1635,10 +1685,16 @@ Información                                                                    
                                                                      ción requerida por las autoridades judiciales o administrativas
                                                                      encargadas de la investigación o proceso pendientes. (…)
 
-
 ## 229. Con todo, el derecho de acceder a la información pública
 
-                                                                     en poder del Estado no es un derecho absoluto, pudiendo es-
+**Definición Canónica:** en poder del Estado no es un derecho absoluto, pudiendo es-
+                                                                     tar sujeto a restricciones. Sin embargo, estas deben, en primer
+                                                                     término, estar previamente fijadas por ley –en sentido formal y
+                                                                     material– como medio para asegurar que no queden al arbitrio
+                                                                     del poder público. En segundo lugar, las restricciones establecidas
+**Concordancias Legales:** artículo 13.2 de la Convención Americana
+
+en poder del Estado no es un derecho absoluto, pudiendo es-
                                                                      tar sujeto a restricciones. Sin embargo, estas deben, en primer
                                                                      término, estar previamente fijadas por ley –en sentido formal y
                                                                      material– como medio para asegurar que no queden al arbitrio
@@ -1657,20 +1713,30 @@ Información                                                                    
                                                                      o interfieran en la menor medida posible el efectivo ejercicio del
                                                                      derecho de buscar y recibir la información.
 
-
 ## 230. Asimismo, para garantizar el ejercicio pleno y efectivo de
 
-
-                                                                     este derecho es necesario que la legislación y la gestión estatales
+**Definición Canónica:** este derecho es necesario que la legislación y la gestión estatales
                                                                      se rijan por los principios de buena fe y de máxima divulgación,
                                                                      de modo que toda la información en poder del Estado se pre-
                                                                      suma pública y accesible, sometida a un régimen limitado de
                                                                      excepciones. (…)
 
+este derecho es necesario que la legislación y la gestión estatales
+                                                                     se rijan por los principios de buena fe y de máxima divulgación,
+                                                                     de modo que toda la información en poder del Estado se pre-
+                                                                     suma pública y accesible, sometida a un régimen limitado de
+                                                                     excepciones. (…)
 
 ## 231. Igualmente, la Corte destaca la obligación de garantizar la
 
-                                                                     efectividad de un procedimiento adecuado para la tramitación y
+**Definición Canónica:** efectividad de un procedimiento adecuado para la tramitación y
+                                                                     resolución de las solicitudes de información, que fije plazos para
+                                                                     resolver y entregar la información, y que se encuentre bajo la
+                                                                     responsabilidad de funcionarios debidamente capacitados. Final-
+                                                                     mente, ante la denegación de acceso a determinada información
+     
+
+efectividad de un procedimiento adecuado para la tramitación y
                                                                      resolución de las solicitudes de información, que fije plazos para
                                                                      resolver y entregar la información, y que se encuentre bajo la
                                                                      responsabilidad de funcionarios debidamente capacitados. Final-
@@ -1684,10 +1750,14 @@ Información                                                                    
                                                                  b. Caso Rosendo Radilla versus México, sentencia del 23 de
                                                                     noviembre de 2009.
 
-
 ## 258. Tomando en cuenta lo anterior, y en aplicación del artículo
 
-                                                                     29 b) de la Convención Americana, la Corte considera que debe
+**Definición Canónica:** 29 b) de la Convención Americana, la Corte considera que debe
+                                                                     entenderse que el derecho de las víctimas en este caso a obtener
+                                                                     copias de la averiguación previa conducida por la Procuraduría
+                                                                     General de la República no está sujeto a reservas de confidenciali-
+
+29 b) de la Convención Americana, la Corte considera que debe
                                                                      entenderse que el derecho de las víctimas en este caso a obtener
                                                                      copias de la averiguación previa conducida por la Procuraduría
                                                                      General de la República no está sujeto a reservas de confidenciali-
@@ -1705,10 +1775,15 @@ Información                                                                    
                                                                  c. Caso Contreras y otros versus El Salvador, sentencia del 31
                                                                     de agosto de 2011.
 
-
 ## 169. Para la Corte, en el presente caso ha quedado demostrado
 
-                                                                     que las autoridades de las Fuerzas Armadas y del Ministerio de
+**Definición Canónica:** que las autoridades de las Fuerzas Armadas y del Ministerio de
+                                                                     la Defensa Nacional denegaron sistemáticamente a la autoridad
+                                                                     judicial y al Ministerio Público información y acceso a los archivos
+                                                                     y expedientes militares. (…) Este Tribunal estima que tal negativa
+                                                                     ha impedido que en las investigaciones que se desarrollan se id
+
+que las autoridades de las Fuerzas Armadas y del Ministerio de
                                                                      la Defensa Nacional denegaron sistemáticamente a la autoridad
                                                                      judicial y al Ministerio Público información y acceso a los archivos
                                                                      y expedientes militares. (…) Este Tribunal estima que tal negativa
@@ -1718,10 +1793,16 @@ Información                                                                    
                                                                      los datos personales de aquellos que han sido sindicados dentro
                                                                      del proceso.
 
-
 ## 170. El Tribunal estima que el derecho a conocer la verdad tiene
 
-                                                                     como efecto necesario que en una sociedad democrática se co-
+**Definición Canónica:** como efecto necesario que en una sociedad democrática se co-
+                                                                     nozca la verdad sobre los hechos de graves violaciones de dere-
+                                                                     chos humanos. Esta es una justa expectativa que el Estado debe
+                                                                     satisfacer, por un lado, mediante la obligación de investigar las
+                                                                     violaciones de derechos humanos y, por el otro, con la divulgación
+   
+
+como efecto necesario que en una sociedad democrática se co-
                                                                      nozca la verdad sobre los hechos de graves violaciones de dere-
                                                                      chos humanos. Esta es una justa expectativa que el Estado debe
                                                                      satisfacer, por un lado, mediante la obligación de investigar las
@@ -1741,10 +1822,16 @@ Información                                                                    
                                                                                                d. Caso Myrna Mack versus Guatemala, sentencia del 25 de
                                                                                                   noviembre de 2003.
 
-
 ## 180. La Corte considera que en caso de violaciones de derechos
 
-                                                                                                   humanos, las autoridades estatales no se pueden amparar en
+**Definición Canónica:** humanos, las autoridades estatales no se pueden amparar en
+                                                                                                   mecanismos como el secreto de Estado o la confidencialidad
+                                                                                                   de la información, o en razones de interés público o seguridad
+                                                                                                   nacional, para dejar de aportar la información requerida por las
+                                                         
+**Concordancias Legales:** Ley Nº 20.285; Constitucion
+
+humanos, las autoridades estatales no se pueden amparar en
                                                                                                    mecanismos como el secreto de Estado o la confidencialidad
                                                                                                    de la información, o en razones de interés público o seguridad
                                                                                                    nacional, para dejar de aportar la información requerida por las
@@ -1769,11 +1856,16 @@ Información                                                                    
 
 Acceso a la                                                          2. Análisis de la                                                     45
 
-
 ## 2.1    Introducción
 
+**Definición Canónica:** El presente capítulo tiene por objeto conocer y comprender la es-
+                                                                       tructura de la Ley de Transparencia, con la finalidad de identificar
+                                                                       los conceptos de transparencia activa y pasiva. Respecto de la trans-
+                                                                       parencia activa permitir conocer qué instituciones están obligadas
+                                                                       a publicar sus datos y, a la vez, qué datos 
+**Concordancias Legales:** Ley N° 20.285
 
-                                                                       El presente capítulo tiene por objeto conocer y comprender la es-
+El presente capítulo tiene por objeto conocer y comprender la es-
                                                                        tructura de la Ley de Transparencia, con la finalidad de identificar
                                                                        los conceptos de transparencia activa y pasiva. Respecto de la trans-
                                                                        parencia activa permitir conocer qué instituciones están obligadas
@@ -1796,20 +1888,24 @@ Información                                                                    
 
 Acceso a la                                                          2. Análisis de la                                                   46
 
-
 ## 2.2     Estructura de la
 
-                                                                       Ley Nº 20.285
+**Definición Canónica:** Ley Nº 20.285
+**Concordancias Legales:** Ley Nº 20.285; Ley N° 20.285
+
+Ley Nº 20.285
 
                                                                        La Ley N° 20.285, que regula el acceso a la información pública, se
                                                                        estructura en base a seis títulos conforme al esquema siguiente:
 
 Acceso a la                                                          2. Análisis de la                                                      47
 
-
 ## 2.3     Contenido y alcance del Principio de
 
-                                                                       Transparencia de la Función Pública
+**Definición Canónica:** Transparencia de la Función Pública
+**Concordancias Legales:** artículo 8 de la Consti; artículo 3 de la Ley Nº 20.285; artículo 4; artículo 5; artículo 10 de la Ley; artículo 6; artículo 1; artículo 15 de la Declaración de los Derechos del Hombre y del; artículo 41 de la Carta de los Derechos Funda; artículo 6 de la Constitución Política de la República al mand; Ley N° 20.050; Ley Nº 20.285; constitucion; Constitución Política; Constitución
+
+Transparencia de la Función Pública
 
                                                                        En este punto es importante recordar que el artículo 8 de la Consti-
                                                                        tución Política de la República, en el texto establecido por la reforma
@@ -2040,10 +2136,12 @@ Información                                                                    
 Acceso a la                                                                   2. Análisis de la                                                      53
 Información                                                                      Ley Nº 20.285
 
-
 ## 2.4     Principios que guían el establecimiento
 
-                                                                                y aplicación de la Ley Nº 20.285
+**Definición Canónica:** y aplicación de la Ley Nº 20.285
+**Concordancias Legales:** artículo 11 de la Ley de Acceso a la Información Pública establ; artículo 11 de la Ley Nº 20.285 ya mencionado; artículo 11; artículo 19 de la Declaración Universal de Derechos Humanos de; artículo 5; artículo 11 de la LAIP expresa; artículo 8; artículo 13 de la Convención Americana y; artículo 13 de la Convención Americana; artículo 13.2 de la Convención Americana; artículo 30; artículo 1; artículo 4; artículo 3; artículo 2 de la Ley de Acceso a la Información Pública; artículo 2; artículo 74 de la Constitución consagra el derecho de to; artículo 8 de la Ley; artículo 50 de la Ley dispone que es una ley de; artículo 6 de la Ley Federal de Transparencia y Acceso a la In; Artículo 61; artículo 13 de la Convención Americana de Derechos Humanos; artículos 7; artículo 21; artículo 3 de la Ley Federal de Transparencia y; artículo 33 de la Ley de Transparencia; artículo 26; artículo 7 de la Ley N; artículo 9; artículo 18; artículo 17; Ley Nº 20.285; Ley N° 19.628; Ley N° 20.422; Ley N° 19.880; Constitución; Constitución Política; constitucion
+
+y aplicación de la Ley Nº 20.285
 
                                                                                 El artículo 11 de la Ley de Acceso a la Información Pública establece
                                                                                 los principios que guían el texto de la Ley Nº 20.285 y que sirven como
@@ -2669,7 +2767,14 @@ Información                                                                    
 
 ## 38       Corte IDH. Caso Claude Reyes y otros. Fondo, Reparaciones y Costas. Sentencia del 19 de septiembre de
 
-                                                               2006. Disponible en línea [consulta: 15.09.2020].
+**Definición Canónica:** 2006. Disponible en línea [consulta: 15.09.2020].
+                                                      39       Corte IDH. Caso Gomes Lund y otros (Guerrilha do Araguaia) versus Brasil. Excepciones Preliminares, Fondo,
+                                                               Reparaciones y Costas. Sentencia del 24 de noviembre de 2010. Disponible en línea [consulta: 15.09.2020].
+                                                      40       CIDH. Alegatos ante la Corte Interamericana de Derechos Humanos en el caso Claude Reyes y otros. Trans-
+                                            
+**Concordancias Legales:** Artículo 2; Ley Nº 20.285
+
+2006. Disponible en línea [consulta: 15.09.2020].
                                                       39       Corte IDH. Caso Gomes Lund y otros (Guerrilha do Araguaia) versus Brasil. Excepciones Preliminares, Fondo,
                                                                Reparaciones y Costas. Sentencia del 24 de noviembre de 2010. Disponible en línea [consulta: 15.09.2020].
                                                       40       CIDH. Alegatos ante la Corte Interamericana de Derechos Humanos en el caso Claude Reyes y otros. Trans-
@@ -2685,7 +2790,14 @@ Información                                                                    
 
 ## 43       República de Guatemala. Ley de Acceso a la Información Pública. Decreto Número 57-2008. Disponible en
 
-                                                               línea [consulta: 15.09.2020].
+**Definición Canónica:** línea [consulta: 15.09.2020].
+                                                      44       Estados Unidos Mexicanos. Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental.
+                                                               11 de junio de 2002. Disponible en línea [consulta: 15.09.2020].
+                                                      45        República de El Salvador. Ley de Acceso a la Información Pública. Aprobada por Decreto 534 de 011. Dispo-
+                                                               nible en línea [consulta: 15.09.2020].
+**Concordancias Legales:** Artículos 13
+
+línea [consulta: 15.09.2020].
                                                       44       Estados Unidos Mexicanos. Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental.
                                                                11 de junio de 2002. Disponible en línea [consulta: 15.09.2020].
                                                       45        República de El Salvador. Ley de Acceso a la Información Pública. Aprobada por Decreto 534 de 011. Dispo-
@@ -2716,7 +2828,14 @@ Información                                                                    
 
 ## 51       OEA, Asamblea General, Resolución AG/RES. 2607 (XL-O/10), a través de la cual acoge una “Ley Modelo
 
-                                                               Interamericana sobre Acceso a la Información”. 08 de junio de 2010.
+**Definición Canónica:** Interamericana sobre Acceso a la Información”. 08 de junio de 2010.
+                                                      52       Constitución Política de la República de Guatemala (1985) (Reformada por Acuerdo legislativo No. 18-93 del
+                                                               17 de noviembre de 1993).
+                                                               Disponible en línea (texto en inglés) [consulta: 15.09.2020].
+                                                      53       República del Ecuador, Ley Orgánica de Transparencia y Acceso a la Información Públic
+**Concordancias Legales:** Artículo 12; artículo 12 de la Ley dispone que; artículo 8; artículo 5; artículo 24; artículo 273 de la Constitución Política; Ley N° 27806; Ley Nº 18.381; Ley Nº 20.285; Constitución Política; Constitución
+
+Interamericana sobre Acceso a la Información”. 08 de junio de 2010.
                                                       52       Constitución Política de la República de Guatemala (1985) (Reformada por Acuerdo legislativo No. 18-93 del
                                                                17 de noviembre de 1993).
                                                                Disponible en línea (texto en inglés) [consulta: 15.09.2020].
@@ -2760,7 +2879,15 @@ Información                                                                    
 
 ## 63       Estados Unidos de América. Public Law 110–175—Dec. 31, 2007. Openness Promotes Effectiveness in Our
 
-                                                               National Government Act Of 2007.
+**Definición Canónica:** National Government Act Of 2007.
+                                                               Disponible en línea “The American people firmly believe that our system of government must itself be governed
+                                                               by a presumption of openness”. [consulta: 15.09.2020].
+                                                      64       Suprema Corte de los Estados Unidos, Caso Departamento de Estado de Estados Unidos versus Ray et al.
+                                                               (502 U.S. 164, 173 (1991).
+                      
+**Concordancias Legales:** Artículo 4; Artículo 1; artículo 8; Ley Nº 20.285; Ley Nº 20.050; Constitución Política
+
+National Government Act Of 2007.
                                                                Disponible en línea “The American people firmly believe that our system of government must itself be governed
                                                                by a presumption of openness”. [consulta: 15.09.2020].
                                                       64       Suprema Corte de los Estados Unidos, Caso Departamento de Estado de Estados Unidos versus Ray et al.
@@ -2783,15 +2910,20 @@ Información                                                                    
 
 ## 71       Rol Nº 7284-2009. SISTEMA TRANSMISIÓN DEL SUR S.A. CONTRA S.E.C
 
-                                                      72       Vial, T. (2010): “La Ley de Transparencia y Acceso a la Información Pública: Esquema general y regulación del
+**Definición Canónica:** 72       Vial, T. (2010): “La Ley de Transparencia y Acceso a la Información Pública: Esquema general y regulación del
+                                                               derecho de acceso a la información”, en Anuario de Derecho Público Universidad Diego Portales.
+
+72       Vial, T. (2010): “La Ley de Transparencia y Acceso a la Información Pública: Esquema general y regulación del
                                                                derecho de acceso a la información”, en Anuario de Derecho Público Universidad Diego Portales.
 
 Acceso a la                                                          2. Análisis de la                                                         65
 
-
 ## 2.5     Transparencia Activa y Derecho de
 
-                                                                       Acceso a la Información Pública
+**Definición Canónica:** Acceso a la Información Pública
+**Concordancias Legales:** constitucion
+
+Acceso a la Información Pública
 
                                                                        La Transparencia, es decir, verdad de los hechos acaecidos en un escenario
                                                                        y tiempo determinados. En los órganos de la administración consiste
@@ -2815,20 +2947,22 @@ Información                                                                    
 
 ## 1. La obligación que los actos y documentos que han sido objeto de
 
-                                                                          publicación en el Diario Oficial y aquellos que digan relación con
+**Definición Canónica:** publicación en el Diario Oficial y aquellos que digan relación con
                                                                           las funciones, competencias y responsabilidades de los órganos
                                                                           de la Administración del Estado, deben estar a disposición per-
                                                                           manente del público y en la Web del servicio respectivo;
 
-## 2. La obligación que los órganos de la Administración del Estado
-
-                                                                          deben mantener en sus páginas web información precisa sobre
-                                                                          determinado aspectos de la organización; y,
-
+publicación en el Diario Oficial y aquellos que digan relación con
+                                                                          las funciones, competencias y responsabilidades de los órganos
+                                                                          de la Administración del Estado, deben estar a disposición per-
+                                                                          manente del público y en la Web del servicio respectivo;
 
 ## 3. La posibilidad de reclamar para el caso que no se cumpla con la
 
-                                                                          transparencia activa ante el Consejo para la Transparencia.
+**Definición Canónica:** transparencia activa ante el Consejo para la Transparencia.
+**Concordancias Legales:** Artículo 19; Artículo 13; Ley Nº 20.285
+
+transparencia activa ante el Consejo para la Transparencia.
 
                                                                        Por otra parte, el Derecho de Acceso a la Información es un principio
                                                                        reconocido y consagrado a nivel internacional y ha adquirido el reco-
@@ -2911,10 +3045,16 @@ Información                                                                    
                                                                                            instrumento para concretar otros derechos, los que pueden ser de
                                                                                            diversa índole (civiles, políticos, económicos, sociales y culturales).
 
-
 ## 2.5.1 Obligaciones y derechos que provienen
 
-                                                                                           de la Transparencia Activa
+**Definición Canónica:** de la Transparencia Activa
+                                                                                           La transparencia activa, en consecuencia, es el derecho de todo ciu-
+                                                                                           dadano o ciudadana a que los organismo públicos, obligados a ello,
+                                                                                           entreguen información actualizada de la organización de manera que
+                                                                                           cualqu
+**Concordancias Legales:** artículo 7 de la Ley Nº 20.285; artículo 5; Ley Nº 20.285; constitucion
+
+de la Transparencia Activa
                                                                                            La transparencia activa, en consecuencia, es el derecho de todo ciu-
                                                                                            dadano o ciudadana a que los organismo públicos, obligados a ello,
                                                                                            entreguen información actualizada de la organización de manera que
@@ -2955,22 +3095,24 @@ Información                                                                    
                                                                  La Ley Nº 20.285, afianza la transparencia activa de acuerdo a los
                                                                  siguientes criterios:
 
-
 ## 1. Establece que los actos y documentos que han sido objeto de
 
-                                                                    publicación en el Diario Oficial y aquellos que digan relación
+**Definición Canónica:** publicación en el Diario Oficial y aquellos que digan relación
                                                                     con las funciones, competencias y responsabilidades de los órga-
                                                                     nos de la Administración del Estado, deben estar a disposición
                                                                     permanente del público y en el sitio web del servicio respectivo;
 
-## 2. Establece que los órganos de la Administración del Estado deben
-
-                                                                    mantener en sus páginas web información precisa sobre deter-
-                                                                    minado aspectos de la organización; y
+publicación en el Diario Oficial y aquellos que digan relación
+                                                                    con las funciones, competencias y responsabilidades de los órga-
+                                                                    nos de la Administración del Estado, deben estar a disposición
+                                                                    permanente del público y en el sitio web del servicio respectivo;
 
 ## 3. Establece la posibilidad de reclamar para el caso que no se cumpla
 
-                                                                    con la transparencia activa ante el Consejo para la Transparencia.
+**Definición Canónica:** con la transparencia activa ante el Consejo para la Transparencia.
+**Concordancias Legales:** artículo 7; artículo 9; artículo 21 de la Ley N; artículos 45; artículo 8; artículos 7; Ley Nº 20.285; Ley N° 19.940; Ley N° 19.880; Ley N° 20.285; Ley N° 19.886; Ley N° 19.862; Ley N° 19.628; Constitucion; Constitución; Constitución Política
+
+con la transparencia activa ante el Consejo para la Transparencia.
 
 Acceso a la                                                                                  2. Análisis de la                                                      69
 Información                                                                                     Ley Nº 20.285
@@ -3393,10 +3535,16 @@ Información                                                                    
                                                                                              En resumen, se pueden destacar los siguientes principios que deben
                                                                                              cumplirse en materia de transparencia activa:
 
-
 ## 2.5.2 Obligaciones y derechos que provienen del
 
-                                                                                             Derecho a Acceso a la Información Pública
+**Definición Canónica:** Derecho a Acceso a la Información Pública
+                                                                                             Conforme al artículo 8 de la Ley Nº 20.285 “cualquier persona podrá
+                                                                                             presentar un reclamo ante el Consejo si alguno de los organismos de
+                                                                                             la Administración no informa” en su página web la información pre-
+                                                                            
+**Concordancias Legales:** artículo 8 de la Ley Nº 20.285; artículos 78; artículo 8 de la Constitución Política de la República de 1980; artículo 10 de la Ley Nº 20.285; artículo 12 de la Ley Nº 20.285; artículo 12; artículo 16 de la Ley Nº 20.285; artículo 20; artículo 13 de la Ley Nº 20.285; artículo 2; artículo 2 de Ley de Transparencia la; artículo 1; artículo 8; artículos 10; artículo 6; artículos 3; artículo 7; artículo 9; artículo 22; artículo 86; artículo 5 del Código Orgánico de Tribunales; Ley Nº 20.285; Ley Nº 20.050; Ley Nº 18.695; Ley Nº 19.940; Constitución Política; constitucion; Constitución
+
+Derecho a Acceso a la Información Pública
                                                                                              Conforme al artículo 8 de la Ley Nº 20.285 “cualquier persona podrá
                                                                                              presentar un reclamo ante el Consejo si alguno de los organismos de
                                                                                              la Administración no informa” en su página web la información pre-
@@ -3715,10 +3863,12 @@ Información                                                                    
 
 Acceso a la                                                          2. Análisis de la                                                     85
 
-
 ## 2.6     Reclamos, plazos
 
-                                                                       y sanciones
+**Definición Canónica:** y sanciones
+**Concordancias Legales:** artículos 45; artículo 48; artículo 49; artículo 28; artículo 25; artículo 27; Ley Nº 20.285
+
+y sanciones
 
                                                                        Los reclamos que se realizan ante el Consejo para Transparencia
                                                                        pueden efectuarse presencialmente o por vía virtual a través del sitio
@@ -3841,10 +3991,16 @@ Información                                                                    
 Acceso a la                                                                                   2. Análisis de la                                                               88
 Información                                                                                      Ley Nº 20.285
 
-
 ## 1. Fase de solicitud de información por vía administrativa: Confor-
 
-                                                                                                   me al artículo 12 de la Ley de Acceso a la Información Pública,
+**Definición Canónica:** me al artículo 12 de la Ley de Acceso a la Información Pública,
+                                                                                                   cualquier persona podrá solicitar información a los órganos obli-
+                                                                                                   gados a otorgarla, la que se formulará por escrito o por medio de
+                                                                                                   sitios electrónicos pudiendo indicar su voluntad de ser notificada
+                                        
+**Concordancias Legales:** artículo 12 de la Ley de Acceso a la Información Pública; artículos 46; Artículo 46; Artículo 47; artículo 13; artículo 15; artículo 16; artículo 14; Ley N° 19.880; Ley Nº 20.285
+
+me al artículo 12 de la Ley de Acceso a la Información Pública,
                                                                                                    cualquier persona podrá solicitar información a los órganos obli-
                                                                                                    gados a otorgarla, la que se formulará por escrito o por medio de
                                                                                                    sitios electrónicos pudiendo indicar su voluntad de ser notificada
@@ -3943,10 +4099,16 @@ Información                                                                    
                                                                          Administración del Estado, deberá entregar la información
                                                                          solicitada en la forma y medio que el requirente haya solicitado.
 
-
 ## 2. Fase de reclamo ante el Consejo para la Transparencia: con el
 
-                                                                    objeto de que las autoridades cumplan con su obligación del deber
+**Definición Canónica:** objeto de que las autoridades cumplan con su obligación del deber
+                                                                    de publicidad de los actos administrativos y ante el evento de una
+                                                                    negativa para acceder a la información pública, o no publicidad
+                                                                    de la información, la Ley Nº 20.285 contempla un sistema de
+                                                                    amparo ante el Consejo para la Transparencia a través de dos vías:
+**Concordancias Legales:** artículo 7; artículo 24 de la Ley Nº 20.285; artículo 14; artículo 24 de la Ley de Transparencia; artículo 45 de la Ley Nº 20.285; Ley Nº 20.285
+
+objeto de que las autoridades cumplan con su obligación del deber
                                                                     de publicidad de los actos administrativos y ante el evento de una
                                                                     negativa para acceder a la información pública, o no publicidad
                                                                     de la información, la Ley Nº 20.285 contempla un sistema de
@@ -4104,10 +4266,14 @@ Información                                                                    
 Acceso a la                                                     2. Análisis de la                                                 95
 Información                                                        Ley Nº 20.285
 
-
 ## 3. Reclamo de Ilegalidad ante la Corte de Apelaciones: en contra
 
-                                                                     de la decisión del Consejo para la Transparencia que deniegue
+**Definición Canónica:** de la decisión del Consejo para la Transparencia que deniegue
+                                                                     la información procederá el reclamo de ilegalidad ante la Corte
+                                                                     de Apelaciones del domicilio del reclamante.
+**Concordancias Legales:** artículo 21 de la Ley Nº 20.285; artículo 20; artículo 21; artículo 7 de la Ley Nº 20.285; artículos 7; artículo 24; artículo 7; Ley Nº 20.285
+
+de la decisión del Consejo para la Transparencia que deniegue
                                                                      la información procederá el reclamo de ilegalidad ante la Corte
                                                                      de Apelaciones del domicilio del reclamante.
 
@@ -4290,7 +4456,14 @@ Información                                                                    
 
 ## parte del Consejo Nacional de Televisión en
 
-                                                                                                                 el concurso público referido a los programas
+**Definición Canónica:** el concurso público referido a los programas
+                                                                                                                 culturales del año 2015, pero no reclamar
+                                                                                                                 por la falta de completitud o de acceso al
+                                                                                                                 listado de la información que las normas
+                                                                                          
+**Concordancias Legales:** artículo 17 de la Ley; artículo 13; artículos 17; Ley Nº 20.285; Ley Nº 18.575
+
+el concurso público referido a los programas
                                                                                                                  culturales del año 2015, pero no reclamar
                                                                                                                  por la falta de completitud o de acceso al
                                                                                                                  listado de la información que las normas
@@ -4319,7 +4492,12 @@ Información                                                                    
 
 ## C3420-2082
 
-                                                                    contribuyente.                                     la tramitación de los procedimientos en los
+**Definición Canónica:** contribuyente.                                     la tramitación de los procedimientos en los
+                                                                                                                       que tengan la condición de interesados, y
+                                                                    Reclamo Acogido                                    obtener copia autorizada de los documentos
+**Concordancias Legales:** artículo 7; artículo 2 de la Ley de Transparencia; artículo 1; artículo 2 del Reglamento de la Ley de Transparencia; Ley N° 18.314; Ley Nº 20.285; Ley Nº 19.253
+
+contribuyente.                                     la tramitación de los procedimientos en los
                                                                                                                        que tengan la condición de interesados, y
                                                                     Reclamo Acogido                                    obtener copia autorizada de los documentos
 
@@ -4471,7 +4649,13 @@ Información                                                                    
 
 ## C1790-14
 
-                                                                    Específicamente, reclama porque no pudo acceder a información relativa a la prueba para
+**Definición Canónica:** Específicamente, reclama porque no pudo acceder a información relativa a la prueba para
+                                                                    el cargo de receptor judicial de Talca y de la respectiva terna, además, de manifestar su
+                                                                    disconformidad por no ser elegido en dicha terna, pese a que habría obtenido nota máxima
+                                                                    en la prueba.
+**Concordancias Legales:** Ley Nº 20.285
+
+Específicamente, reclama porque no pudo acceder a información relativa a la prueba para
                                                                     el cargo de receptor judicial de Talca y de la respectiva terna, además, de manifestar su
                                                                     disconformidad por no ser elegido en dicha terna, pese a que habría obtenido nota máxima
                                                                     en la prueba.
@@ -4488,18 +4672,26 @@ Información                                                                    
 
 ## C268-12
 
-                                                                            referida a la copia de la sentencia dictada en la causa RIT N° 149-2010 pronunciada por el
+**Definición Canónica:** referida a la copia de la sentencia dictada en la causa RIT N° 149-2010 pronunciada por el
+                                                                            mismo Tribunal contra la persona individualizada.
+
+referida a la copia de la sentencia dictada en la causa RIT N° 149-2010 pronunciada por el
                                                                             mismo Tribunal contra la persona individualizada.
 
                                                       84       En este sentido, las resoluciones del Consejo para la Transparencia C373-10, C628-10, C802-10 y C1020-11.
 
 Acceso a la                                                          2. Análisis de la                                                        104
 
-
 ## 2.7     Consejo para la
 
+**Definición Canónica:** En el Título V de la Ley Nº 20.285, compuesto por los artículos 31
+                                                                       a 44, se crea y regula al organismo encargado de velar por el buen
+                                                                       cumplimiento de esta ley, estableciéndose como una corporación
+                                                                       autónoma de derecho público, con personalidad jurídica y patrimo-
+                                                                       nio propio.
+**Concordancias Legales:** artículos 31; artículo 32; artículo 33; Ley Nº 20.285; Ley Nº 19.628
 
-                                                                       En el Título V de la Ley Nº 20.285, compuesto por los artículos 31
+En el Título V de la Ley Nº 20.285, compuesto por los artículos 31
                                                                        a 44, se crea y regula al organismo encargado de velar por el buen
                                                                        cumplimiento de esta ley, estableciéndose como una corporación
                                                                        autónoma de derecho público, con personalidad jurídica y patrimo-
@@ -4575,7 +4767,14 @@ Información                                                                    
 
 ## parte de los órganos de la Administración del Estado, y requerir a
 
-                                                                      éstos para que ajusten sus procedimientos y sistemas de atención
+**Definición Canónica:** éstos para que ajusten sus procedimientos y sistemas de atención
+                                                                      de público a dicha legislación; formular recomendaciones a los
+                                                                      órganos de la Administración del Estado tendientes a perfec-
+                                                                      cionar la transparencia de su gestión y a facilitar el acceso a la
+                                                                      información que posean; proponer al Presidente de la República
+**Concordancias Legales:** artículo 37 de la Ley Nº 20.285 no podrán ser designados; artículo 38 de la Ley de Transparencia; artículo 33 de la Ley Nº 20.285 y se grafican en la siguiente t; artículo 34 de la Ley de Transparencia; Ley Nº 19.628; Ley Nº 20.285; Constitución; Constitucion
+
+éstos para que ajusten sus procedimientos y sistemas de atención
                                                                       de público a dicha legislación; formular recomendaciones a los
                                                                       órganos de la Administración del Estado tendientes a perfec-
                                                                       cionar la transparencia de su gestión y a facilitar el acceso a la
@@ -4750,10 +4949,12 @@ Información                                                                    
 
 Acceso a la                                                          2. Análisis de la                                                    110
 
-
 ## 2.8     Excepciones al deber
 
-                                                                       de publicidad
+**Definición Canónica:** de publicidad
+**Concordancias Legales:** artículo 8; artículo 21 de la Ley Nº 20.285 reitera esta idea; artículo 7; Ley Nº 20.285; Constitución Política
+
+de publicidad
 
                                                                        El artículo 8° de la Constitución Política de la República contempla
                                                                        cuatro casos en que el órgano o servicio requerido puede negarse a la
@@ -4781,10 +4982,16 @@ Información                                                                    
 
                                                                        A continuación, se profundiza en cada una de estas causales.
 
-
 ## 2.8.1 El debido cumplimiento de las funciones del órgano
 
-                                                                       La primera causal de reserva o secreto que indica la ley, hace refe-
+**Definición Canónica:** La primera causal de reserva o secreto que indica la ley, hace refe-
+                                                                       rencia a “cuando su publicidad, comunicación o conocimiento afecte
+                                                                       el debido cumplimiento de las funciones del órgano requerido”,
+                                                                       indicando de acuerdo al artículo 21 de la misma, que esta causal
+                                                                       puede materializarse en los siguientes casos: cuando
+**Concordancias Legales:** artículo 21; artículo 7; artículo 182 del Código Procesal Penal; artículo 182 del Código Procesal; artículos 227; artículo 80; artículo 182; artículo 12 del Código Procesal Penal señala. La sentencia; artículo 20; Ley Nº 20.285; Constitucion
+
+La primera causal de reserva o secreto que indica la ley, hace refe-
                                                                        rencia a “cuando su publicidad, comunicación o conocimiento afecte
                                                                        el debido cumplimiento de las funciones del órgano requerido”,
                                                                        indicando de acuerdo al artículo 21 de la misma, que esta causal
@@ -5058,10 +5265,13 @@ Información                                                                    
                                                                       desproporcionados que involucraría entregar lo solicitado (De-
                                                                       cisión de Amparo rol Nº C3614-16 del 03 de febrero de 2017).
 
-
 ## 2.8.2 Los derechos de las personas
 
-                                                                 La segunda causal de reserva o secreto concurre cuando a través de
+**Definición Canónica:** La segunda causal de reserva o secreto concurre cuando a través de
+                                                                 la entrega de la información se afectan los derechos de las personas
+**Concordancias Legales:** artículo 154 bis del Código del Trabajo; artículo 21; artículo 7; Ley Nº 20.285; Ley Nº 19.628; constitucion; constitución
+
+La segunda causal de reserva o secreto concurre cuando a través de
                                                                  la entrega de la información se afectan los derechos de las personas
 
                                                                  y esto acontece por razones de seguridad, salud, cuando se afecta
@@ -5263,10 +5473,15 @@ Información                                                                    
                                                                                               corresponde a datos sensibles (Decisión de Amparo rol Nº A211-09
                                                                                               del 11 de septiembre de 2009).
 
-
 ## 2.8.3 La seguridad de la nación
 
-                                                                                              Una tercera causal de reserva o secreto se presenta cuando se afecta
+**Definición Canónica:** Una tercera causal de reserva o secreto se presenta cuando se afecta
+                                                                                              la seguridad de la nación, lo que acontece cuando se trata de infor-
+                                                                                              mación que hace referencia a la defensa nacional, la mantención del
+                                                                                              orden y la seguridad pública.
+**Concordancias Legales:** artículo 436 del Código de Justicia Militar no cabe su sola in
+
+Una tercera causal de reserva o secreto se presenta cuando se afecta
                                                                                               la seguridad de la nación, lo que acontece cuando se trata de infor-
                                                                                               mación que hace referencia a la defensa nacional, la mantención del
                                                                                               orden y la seguridad pública.
@@ -5340,10 +5555,17 @@ Información                                                                    
 
 Acceso a la                                                    2. Análisis de la                                                      124
 
-
 ## 2.8.4 El interés nacional
 
-                                                                 Otra causal de reserva o secreto acontece cuando se ve afectado el
+**Definición Canónica:** Otra causal de reserva o secreto acontece cuando se ve afectado el
+                                                                 interés nacional y esto sucede cuando se trata de informaciones
+                                                                 sobre la salud pública, las relaciones internacionales y los intereses
+                                                                 económicos o comerciales del país. El numeral 4º del artículo 21
+                                                                 señala “cuando su publicidad, comunicación o conocimiento afecte
+        
+**Concordancias Legales:** artículo 21
+
+Otra causal de reserva o secreto acontece cuando se ve afectado el
                                                                  interés nacional y esto sucede cuando se trata de informaciones
                                                                  sobre la salud pública, las relaciones internacionales y los intereses
                                                                  económicos o comerciales del país. El numeral 4º del artículo 21
@@ -5375,10 +5597,16 @@ Información                                                                    
                                                                  unilateral pudiera afectar la comunicación entre países (Decisión de
                                                                  Amparo rol Nº C440-09 del 11 de diciembre de 2009).
 
-
 ## 2.8.5 Causal genérica
 
-                                                                 Finaliza el artículo 21 indicando una última causal genérica que señala
+**Definición Canónica:** Finaliza el artículo 21 indicando una última causal genérica que señala
+                                                                 “cuando se trate de documentos, datos o informaciones que una ley
+                                                                 de quórum calificado haya declarado reservados o secretos, de acuerdo
+                                                                 a las causales señaladas en el artículo 8º de la Constitución Política”.
+                                                                 El reglamento hace referencia a la causal en los mismos tér
+**Concordancias Legales:** artículo 21; artículo 8; artículo 22; Ley Nº 20.050; Ley Nº 20.285; Constitución Política; Constitucion; Constitución
+
+Finaliza el artículo 21 indicando una última causal genérica que señala
                                                                  “cuando se trate de documentos, datos o informaciones que una ley
                                                                  de quórum calificado haya declarado reservados o secretos, de acuerdo
                                                                  a las causales señaladas en el artículo 8º de la Constitución Política”.
@@ -5510,15 +5738,17 @@ Información                                                             en el �
                                                                        el ámbito jurisdiccional y comprender los procedimientos adminis-
                                                                        trativos judiciales, además de los mecanismos para su cumplimiento.
 
-
-## 3.1     La Transparencia en el Poder judicial
-
-                                                                       y en el ámbito jurisdiccional
-
-
 ## 3.1.1 Bases del ejercicio de la Transparencia
 
-                                                                       en el Poder Judicial: Acta Nº 754-2019 de la
+**Definición Canónica:** en el Poder Judicial: Acta Nº 754-2019 de la
+                                                                       Corte Suprema y Política de la Corporación
+                                                                       Administrativa del Poder Judicial
+                                                                       En el mes de mayo de 2019 se anuncia por el Presidente de la Corte
+                                                                       Suprema de ese periodo, el Ministro Haroldo Brito, una serie de me-
+                                                           
+**Concordancias Legales:** artículo 8; Constitución
+
+en el Poder Judicial: Acta Nº 754-2019 de la
                                                                        Corte Suprema y Política de la Corporación
                                                                        Administrativa del Poder Judicial
                                                                        En el mes de mayo de 2019 se anuncia por el Presidente de la Corte
@@ -5618,10 +5848,16 @@ Información                                                             en el �
                                                                  que se manejará esta información con prudencia, confidencialidad y
                                                                  reserva, garantizando el pleno anonimato de su identidad.
 
-
 ## 3.1.2 Portal de Transparencia del Poder Judicial
 
-                                                                 El Portal de Transparencia del Poder Judicial comienza señalando en
+**Definición Canónica:** El Portal de Transparencia del Poder Judicial comienza señalando en
+                                                                 su declaración de principios que “desarrolla su labor cumpliendo altos
+                                                                 estándares en materia de transparencia, a nivel nacional e internacio-
+                                                                 nal, con una política de amplia publicidad, conforme a lo establecido
+                                                                 en la Constitución Política de la República, en el Código Or
+**Concordancias Legales:** Ley Nº 20.285; Ley Nº 20.416; Ley Nº 19.862; Constitución Política
+
+El Portal de Transparencia del Poder Judicial comienza señalando en
                                                                  su declaración de principios que “desarrolla su labor cumpliendo altos
                                                                  estándares en materia de transparencia, a nivel nacional e internacio-
                                                                  nal, con una política de amplia publicidad, conforme a lo establecido
@@ -5738,10 +5974,15 @@ Información                                                             en el �
                                                                  Transparencia, y presencialmente o por carta postal en el lugar de
                                                                  ubicación de la Corte Suprema.
 
-
 ## 3.1.3 Comisión de Transparencia del Poder Judicial
 
-                                                                 De acuerdo a lo que indica el Acta N° 240-2008, se resolvió crear
+**Definición Canónica:** De acuerdo a lo que indica el Acta N° 240-2008, se resolvió crear
+                                                                 una Comisión de Transparencia y Acceso a la Información del Poder
+                                                                 Judicial, cuyas atribuciones serían determinadas a través de un auto
+                                                                 acordado de la Corte Suprema.
+**Concordancias Legales:** artículo 82 de la Constitución Política de la República; artículo 96; artículos 542; artículo 8; Ley Nº 20.285; Ley N° 20.285; Constitución Política; Constitucion; Constitución
+
+De acuerdo a lo que indica el Acta N° 240-2008, se resolvió crear
                                                                  una Comisión de Transparencia y Acceso a la Información del Poder
                                                                  Judicial, cuyas atribuciones serían determinadas a través de un auto
                                                                  acordado de la Corte Suprema.
@@ -5966,15 +6207,16 @@ Información                                                                    
 Acceso a la                                                          3. Límites del acceso a la Información                                  140
 Información                                                             en el ámbito judicial
 
-
-## 3.2     Otras temáticas
-
-                                                                       de interés
-
-
 ## 3.2.1 Transparencia y “Justicia Abierta”
 
-                                                                       El concepto de Justicia Abierta se enmarca dentro de un concepto
+**Definición Canónica:** El concepto de Justicia Abierta se enmarca dentro de un concepto
+                                                                       más global: el Gobierno Abierto como una de las manifestaciones
+                                                                       más modernas de la democracia, que propone una forma innovadora
+                                                                       de los procesos de toma de decisiones, basada principalmente en los
+                                                                       conceptos de transparencia y participación ciudadana. E
+**Concordancias Legales:** Ley Nº 20.285; constitución; Constitución Política
+
+El concepto de Justicia Abierta se enmarca dentro de un concepto
                                                                        más global: el Gobierno Abierto como una de las manifestaciones
                                                                        más modernas de la democracia, que propone una forma innovadora
                                                                        de los procesos de toma de decisiones, basada principalmente en los
@@ -6504,10 +6746,15 @@ Información                                                                    
                                                                  como publicar datos. A continuación, se recapitulan los 6 principios
                                                                  de forma general:
 
-
 ## 1. Abiertos por defecto: Representa un cambio real en como opera el go-
 
-                                                                  bierno y como interactúa con los ciudadanos. Por el momento, a menudo
+**Definición Canónica:** bierno y como interactúa con los ciudadanos. Por el momento, a menudo
+                                                                  tenemos que pedir a los funcionarios la información específica que que-
+                                                                  remos. Datos abiertos por defecto invierte esta ecuación y estipula que
+                                                                  debería haber una presunción de publicación para todos, los gobiernos
+                                                                  deben justificar los datos que se mantienen cerrados
+
+bierno y como interactúa con los ciudadanos. Por el momento, a menudo
                                                                   tenemos que pedir a los funcionarios la información específica que que-
                                                                   remos. Datos abiertos por defecto invierte esta ecuación y estipula que
                                                                   debería haber una presunción de publicación para todos, los gobiernos
@@ -6516,10 +6763,14 @@ Información                                                                    
                                                                   ciudadanos también deben confiar en que los datos abiertos no compro-
                                                                   meterán su derecho a la privacidad
 
-
 ## 2. Oportunos y Exhaustivos: Los datos abiertos solo son valiosos si si-
 
-                                                                  guen siendo relevantes. Hacer que la información se publique de forma
+**Definición Canónica:** guen siendo relevantes. Hacer que la información se publique de forma
+                                                                  rápida y completa es fundamental para su potencial de éxito. En la me-
+                                                                  dida de lo posible, los gobiernos deberían proporcionar datos en su forma
+                                                                  original y sin modificaciones
+
+guen siendo relevantes. Hacer que la información se publique de forma
                                                                   rápida y completa es fundamental para su potencial de éxito. En la me-
                                                                   dida de lo posible, los gobiernos deberían proporcionar datos en su forma
                                                                   original y sin modificaciones
@@ -6527,37 +6778,54 @@ Información                                                                    
 Acceso a la                                                                                 3. Límites del acceso a la Información                                         152
 Información                                                                                    en el ámbito judicial
 
-
 ## 3. Accesibles y Utilizables: Asegurarse de que los datos sean legibles por
 
-                                                                                               máquinas y fáciles de encontrar hará que lleguen más lejos. Los portales
+**Definición Canónica:** máquinas y fáciles de encontrar hará que lleguen más lejos. Los portales
+                                                                                               son una forma de lograrlo, pero también es importante pensar en la expe-
+                                                                                               riencia de usuario de quienes acceden a los datos, incluidos los formatos
+                                                                                               de archivo en los que se proporciona la información. Los datos deben ser
+                      
+
+máquinas y fáciles de encontrar hará que lleguen más lejos. Los portales
                                                                                                son una forma de lograrlo, pero también es importante pensar en la expe-
                                                                                                riencia de usuario de quienes acceden a los datos, incluidos los formatos
                                                                                                de archivo en los que se proporciona la información. Los datos deben ser
                                                                                                gratuitos bajo una licencia abierta, como por ejemplo las desarrolladas
                                                                                                por Creative Commons
 
-
 ## 4. Comparables e Interoperables: Los datos tienen un efecto multiplica-
 
-                                                                                               dor, cuanto más acceso se tenga a conjuntos de datos de calidad, y más
+**Definición Canónica:** dor, cuanto más acceso se tenga a conjuntos de datos de calidad, y más
                                                                                                fácil sea hablar entre ellos, más valor se podrá obtener. Los estándares
                                                                                                de datos comúnmente acordados juegan un papel crucial para que esto
                                                                                                suceda.
 
+dor, cuanto más acceso se tenga a conjuntos de datos de calidad, y más
+                                                                                               fácil sea hablar entre ellos, más valor se podrá obtener. Los estándares
+                                                                                               de datos comúnmente acordados juegan un papel crucial para que esto
+                                                                                               suceda.
 
 ## 5. Para mejorar la Gobernanza y la Participación Ciudadana: Los datos
 
-                                                                                               abiertos tienen la capacidad de permitir que los ciudadanos (y otros en el
+**Definición Canónica:** abiertos tienen la capacidad de permitir que los ciudadanos (y otros en el
+                                                                                               gobierno) tengan una mejor idea de lo que están haciendo los funciona-
+                                                                                               rios y los políticos. Esta transparencia puede mejorar los servicios públi-
+
+abiertos tienen la capacidad de permitir que los ciudadanos (y otros en el
                                                                                                gobierno) tengan una mejor idea de lo que están haciendo los funciona-
                                                                                                rios y los políticos. Esta transparencia puede mejorar los servicios públi-
 
                                                                                                cos y ayudar a que los gobiernos rindan cuentas
 
-
 ## 6. Para el Desarrollo Inclusivo y la Innovación: Por último, los datos abier-
 
-                                                                                               tos pueden ayudar a impulsar el desarrollo económico inclusivo. Por
+**Definición Canónica:** tos pueden ayudar a impulsar el desarrollo económico inclusivo. Por
+                                                                                               ejemplo, un mayor acceso a los datos puede hacer que la agricultura sea
+                                                                                               más eficiente o puede usarse para abordar el cambio climático. A menu-
+                                                                                               do pensamos en los datos abiertos como una forma de mejorar el des-
+                                    
+
+tos pueden ayudar a impulsar el desarrollo económico inclusivo. Por
                                                                                                ejemplo, un mayor acceso a los datos puede hacer que la agricultura sea
                                                                                                más eficiente o puede usarse para abordar el cambio climático. A menu-
                                                                                                do pensamos en los datos abiertos como una forma de mejorar el des-
@@ -6602,10 +6870,16 @@ Información                                                                    
                                                                                               mediante la co-creación entre los distintos actores convocados. En
                                                                                               total se realizaron 8 mesas de trabajo en distintas regiones del país.104
 
-
 ## 3.2.2 Justicia Abierta
 
-                                                                                              Open Justice se ha desarrollado bajo cuatro conceptos fundamen-
+**Definición Canónica:** Open Justice se ha desarrollado bajo cuatro conceptos fundamen-
+                                                                                              tales, orientados a las buenas prácticas judiciales, propiciando no
+                                                                                              solo la justicia abierta, sino también el concepto de datos abiertos
+                                                                                              y colaboración judicial, todos elementos unidos a las innovaciones
+                                                  
+**Concordancias Legales:** constitucion
+
+Open Justice se ha desarrollado bajo cuatro conceptos fundamen-
                                                                                               tales, orientados a las buenas prácticas judiciales, propiciando no
                                                                                               solo la justicia abierta, sino también el concepto de datos abiertos
                                                                                               y colaboración judicial, todos elementos unidos a las innovaciones
@@ -6999,19 +7273,27 @@ Información                                                                    
 
                                                       Glosario
 
-
 ## 1.   Amparo: Es un mecanismo de reclamo con el            10. Justicia Abierta: Es un modelo de gobernanza
 
-                                                           objeto de que las autoridades cumplan con su             que busca replantear la relación hacia el justicia-
+**Definición Canónica:** objeto de que las autoridades cumplan con su             que busca replantear la relación hacia el justicia-
+                                                           obligación del deber de publicidad de los actos          ble para favorecer la transparencia en los servici-
+                                                           administrativos y ante el evento de una negativa         os, los procesos y la información, la participación
+                                                           para acceder a la información pública, o no publi-       ciudadana y la colaboración para promov
+
+objeto de que las autoridades cumplan con su             que busca replantear la relación hacia el justicia-
                                                            obligación del deber de publicidad de los actos          ble para favorecer la transparencia en los servici-
                                                            administrativos y ante el evento de una negativa         os, los procesos y la información, la participación
                                                            para acceder a la información pública, o no publi-       ciudadana y la colaboración para promover la paz
                                                            cidad de la información.                                 social y fortalecer la democracia.
 
-
 ## 2.   Consejo para la Transparencia: El Consejo para la    11. Corrupción: Conjunto de actos contrarios a la
 
-                                                           Transparencia (CPLT) es una corporación autóno-          transparencia y a la ley, generalmente delitos, que
+**Definición Canónica:** Transparencia (CPLT) es una corporación autóno-          transparencia y a la ley, generalmente delitos, que
+                                                           ma de derecho público, con personalidad jurídica         son cometidos por funcionarios públicos y autori-
+                                                           y patrimonio propio, creado por la Ley de Trans-         dades a través del abuso de poder que compren-
+                                                           parencia de la Función Pública y de Acceso a la          de la mal utilización de los recursos públicos
+
+Transparencia (CPLT) es una corporación autóno-          transparencia y a la ley, generalmente delitos, que
                                                            ma de derecho público, con personalidad jurídica         son cometidos por funcionarios públicos y autori-
                                                            y patrimonio propio, creado por la Ley de Trans-         dades a través del abuso de poder que compren-
                                                            parencia de la Función Pública y de Acceso a la          de la mal utilización de los recursos públicos para
@@ -7024,10 +7306,16 @@ Información                                                                    
                                                            secreto o de acceso restringido por la Con-              prevalecer el interés general por sobre el interés
                                                            stitución y/o por alguna ley.                            particular.
 
-
 ## 4.   Libertad de la información: Derecho a acceder a      13. Función Pública: Conjunto de actuaciones que
 
-                                                           la información que se encuentra en poder de las          realiza el Estado a través de sus funcionarios o
+**Definición Canónica:** la información que se encuentra en poder de las          realiza el Estado a través de sus funcionarios o
+                                                           entidades públicas                                       integrantes de la administración pública, en razón
+                                                                                                                    de las normas que conforman un Estado de Dere-
+                                                      5.   Máxima Divulgación: Los órganos de la Admin-             cho.
+                                           
+**Concordancias Legales:** constitucion
+
+la información que se encuentra en poder de las          realiza el Estado a través de sus funcionarios o
                                                            entidades públicas                                       integrantes de la administración pública, en razón
                                                                                                                     de las normas que conforman un Estado de Dere-
                                                       5.   Máxima Divulgación: Los órganos de la Admin-             cho.
@@ -7039,7 +7327,13 @@ Información                                                                    
 
 ## 6.   Transparencia Activa: Derecho de todo ciu-
 
-                                                           dadano a que los organismos públicos obligados       15. Gobierno Abierto: Modelo de organización y
+**Definición Canónica:** dadano a que los organismos públicos obligados       15. Gobierno Abierto: Modelo de organización y
+                                                           a ello entreguen información actualizada de la or-       relación entre ciudadanos y la administración
+                                                           ganización de manera que cualquier integrante de         del Estado que se caracteriza por fomentar
+                                                           la sociedad pueda consultar dicha información en         los principios de transparencia, colaboración y
+               
+
+dadano a que los organismos públicos obligados       15. Gobierno Abierto: Modelo de organización y
                                                            a ello entreguen información actualizada de la or-       relación entre ciudadanos y la administración
                                                            ganización de manera que cualquier integrante de         del Estado que se caracteriza por fomentar
                                                            la sociedad pueda consultar dicha información en         los principios de transparencia, colaboración y
@@ -7049,21 +7343,38 @@ Información                                                                    
 
 ## 7.   Transparencia Pasiva: Procedimiento admin-
 
-                                                           istrativo para requerir entrega de información,      16. Información Pública: Aquella contenida en los
+**Definición Canónica:** istrativo para requerir entrega de información,      16. Información Pública: Aquella contenida en los
+                                                           cualquiera sea el formato o soporte en que se            actos y resoluciones de los órganos de la Admin-
+                                                           encuentre contenida.                                     istración del Estado, sus fundamentos, los docu-
+                                                                                                                    mentos que le sirvan de sustento o complemento
+
+istrativo para requerir entrega de información,      16. Información Pública: Aquella contenida en los
                                                            cualquiera sea el formato o soporte en que se            actos y resoluciones de los órganos de la Admin-
                                                            encuentre contenida.                                     istración del Estado, sus fundamentos, los docu-
                                                                                                                     mentos que le sirvan de sustento o complemento
 
 ## 8.   Transparencia: En los órganos de la adminis-             directo y esencial, los procedimientos que se
 
-                                                           tración consiste en situar la información a dis-         utilicen para su dictación, la información elabo-
+**Definición Canónica:** tración consiste en situar la información a dis-         utilicen para su dictación, la información elabo-
+                                                           posición de los ciudadanos interesados en la             rada con presupuesto público, y toda información
+                                                           gestión de un servicio público.                          que obre en poder de los órganos de la adminis-
+                                                                                                                    tración, cualquiera sea su formato, soporte, fec
+
+tración consiste en situar la información a dis-         utilicen para su dictación, la información elabo-
                                                            posición de los ciudadanos interesados en la             rada con presupuesto público, y toda información
                                                            gestión de un servicio público.                          que obre en poder de los órganos de la adminis-
                                                                                                                     tración, cualquiera sea su formato, soporte, fecha
 
 ## 9.   Reclamo Ilegalidad: Acción de impugnación que
 
-                                                                                                                    de creación, origen, clasificación o procesamiento,
+**Definición Canónica:** de creación, origen, clasificación o procesamiento,
+                                                           se dirige en contra de las resoluciones u omi-
+                                                                                                                    salvo las excepciones que señalen la Constitución
+                                                           siones ilegales.
+                                                                                                                    y las leyes.
+**Concordancias Legales:** Constitución
+
+de creación, origen, clasificación o procesamiento,
                                                            se dirige en contra de las resoluciones u omi-
                                                                                                                     salvo las excepciones que señalen la Constitución
                                                            siones ilegales.
@@ -7071,10 +7382,15 @@ Información                                                                    
 
 Acceso a la                                                                                                      Glosario                                            167
 
-
 ## 17. Principio de Transparencia: Consiste en respetar       26. Órgano, Servicio, Órgano Requerido, Órgano Ad-
 
-                                                          y cautelar la publicidad de los actos, resoluciones,       ministrativo, Órgano o Servicio Público, o Sujeto
+**Definición Canónica:** y cautelar la publicidad de los actos, resoluciones,       ministrativo, Órgano o Servicio Público, o Sujeto
+                                                          procedimientos y documentos de la adminis-                 Pasivo: Cualquier órgano de la Administración
+                                                          tración, así como la de sus fundamentos, y en              del Estado correspondiente a aquellos señalados
+                                                          facilitar el acceso de cualquier persona a esa in-         en el inciso primero del artículo 2º de la Ley
+**Concordancias Legales:** artículo 2
+
+y cautelar la publicidad de los actos, resoluciones,       ministrativo, Órgano o Servicio Público, o Sujeto
                                                           procedimientos y documentos de la adminis-                 Pasivo: Cualquier órgano de la Administración
                                                           tración, así como la de sus fundamentos, y en              del Estado correspondiente a aquellos señalados
                                                           facilitar el acceso de cualquier persona a esa in-         en el inciso primero del artículo 2º de la Ley Nº
@@ -7083,58 +7399,94 @@ Información                                                                    
 
 ## 27. Terceros: Cualquier persona distinta del requirente
 
-                                                      18. Principio de Máxima Divulgación: Los órganos de            o del órgano público, que pueda ver afectados sus
+**Definición Canónica:** 18. Principio de Máxima Divulgación: Los órganos de            o del órgano público, que pueda ver afectados sus
+                                                          la Administración del Estado deben proporcionar            derechos con la entrega de la información que
+                                                          información en los términos más amplios posi-              se solicita en el procedimiento administrativo de
+                                                          bles, excluyendo solo aquello que esté sujeto a las        acceso.
+                                
+**Concordancias Legales:** constitucion
+
+18. Principio de Máxima Divulgación: Los órganos de            o del órgano público, que pueda ver afectados sus
                                                           la Administración del Estado deben proporcionar            derechos con la entrega de la información que
                                                           información en los términos más amplios posi-              se solicita en el procedimiento administrativo de
                                                           bles, excluyendo solo aquello que esté sujeto a las        acceso.
                                                           excepciones constitucionales o legales.
 
-
 ## 19. Principio de Apertura: Toda información en poder
 
-                                                          de los órganos de la Administración del Estado se
+**Definición Canónica:** de los órganos de la Administración del Estado se
                                                           presume pública, a menos que esté sujeta a las
                                                           excepciones señaladas.
 
+de los órganos de la Administración del Estado se
+                                                          presume pública, a menos que esté sujeta a las
+                                                          excepciones señaladas.
 
 ## 20. Principio de Relevancia: Se presume relevante
 
-                                                          toda información que posean los órganos de la
+**Definición Canónica:** toda información que posean los órganos de la
                                                           Administración del Estado, cualquiera sea su
                                                           formato, soporte, fecha de creación, origen, clasi-
                                                           ficación o procesamiento.
 
+toda información que posean los órganos de la
+                                                          Administración del Estado, cualquiera sea su
+                                                          formato, soporte, fecha de creación, origen, clasi-
+                                                          ficación o procesamiento.
 
 ## 21. Principio de Oportunidad: Los órganos de la
 
-                                                          Administración del Estado deben proporcionar
+**Definición Canónica:** Administración del Estado deben proporcionar
                                                           respuesta a las solicitudes de información dentro
                                                           de los plazos legales, con la máxima celeridad y
                                                           evitando todo tipo de trámites dilatorios.
 
+Administración del Estado deben proporcionar
+                                                          respuesta a las solicitudes de información dentro
+                                                          de los plazos legales, con la máxima celeridad y
+                                                          evitando todo tipo de trámites dilatorios.
 
 ## 22. Principio de Gratuidad: Obliga a los órganos y
 
-                                                          servicios de la Administración del Estado a en-
+**Definición Canónica:** servicios de la Administración del Estado a en-
                                                           tregar gratuitamente la información que les sea
                                                           requerida en un procedimiento administrativo de
                                                           acceso, pudiendo cobrarse solo los costos direc-
                                                           tos de reproducción y los demás valores que una
                                                           ley expresamente autorice cobrar.
 
+servicios de la Administración del Estado a en-
+                                                          tregar gratuitamente la información que les sea
+                                                          requerida en un procedimiento administrativo de
+                                                          acceso, pudiendo cobrarse solo los costos direc-
+                                                          tos de reproducción y los demás valores que una
+                                                          ley expresamente autorice cobrar.
 
 ## 23. Costos Directos de Reproducción: Todos los
 
-                                                          costos asociados al proceso de copiado de un
+**Definición Canónica:** costos asociados al proceso de copiado de un
                                                           documento u otro tipo de soporte, en la medida
                                                           que sea necesario incurrir en ellos para obtener la
                                                           información en el soporte que el requirente haya
                                                           solicitado.
 
+costos asociados al proceso de copiado de un
+                                                          documento u otro tipo de soporte, en la medida
+                                                          que sea necesario incurrir en ellos para obtener la
+                                                          información en el soporte que el requirente haya
+                                                          solicitado.
 
 ## 24. Procedimiento Administrativo de Acceso a la In-
 
-                                                          formación: Sucesión de actos trámite vinculados
+**Definición Canónica:** formación: Sucesión de actos trámite vinculados
+                                                          entre sí, a través de los cuales una persona, en
+                                                          ejercicio del derecho de acceso a la información,
+                                                          requiere a un órgano de la Administración del
+                                                          Estado la entrega de información que obre en su
+                                                          poder y que concluye con una decisión formal de
+                     
+
+formación: Sucesión de actos trámite vinculados
                                                           entre sí, a través de los cuales una persona, en
                                                           ejercicio del derecho de acceso a la información,
                                                           requiere a un órgano de la Administración del
@@ -7142,10 +7494,15 @@ Información                                                                    
                                                           poder y que concluye con una decisión formal de
                                                           este.
 
-
 ## 25. Solicitante, Requirente, Peticionario o Sujeto Ac-
 
-                                                          tivo: Cualquier persona que solicita información
+**Definición Canónica:** tivo: Cualquier persona que solicita información
+                                                          pública, sin que a este respecto tenga aplicación
+                                                          incapacidad alguna, incluidas las personas natu-
+                                                          rales o jurídicas, públicas o privadas, nacionales o
+                                                          extranjeras.
+
+tivo: Cualquier persona que solicita información
                                                           pública, sin que a este respecto tenga aplicación
                                                           incapacidad alguna, incluidas las personas natu-
                                                           rales o jurídicas, públicas o privadas, nacionales o
@@ -7164,7 +7521,14 @@ Información                                                                    
 
 ## 2.    Ackerman, J. (2013): Los retos de la transparencia
 
-                                                            a partir de la reforma constitucional en materia       15.   Chul Han, B. (2013): La Sociedad de la transpa-
+**Definición Canónica:** a partir de la reforma constitucional en materia       15.   Chul Han, B. (2013): La Sociedad de la transpa-
+                                                            de derechos humanos, en Lachenal, C. y Ruiz, A.              rencia, (Barcelona: Herder).
+                                                            (Coords.) ; Derecho de acceso a la información:
+                                                            La visión de los usuarios, (México: GEDISA).           16.   Consejo para la Transparencia (2018), Unidad de
+                                                                
+**Concordancias Legales:** Ley Nº 19.653; constitucion
+
+a partir de la reforma constitucional en materia       15.   Chul Han, B. (2013): La Sociedad de la transpa-
                                                             de derechos humanos, en Lachenal, C. y Ruiz, A.              rencia, (Barcelona: Herder).
                                                             (Coords.) ; Derecho de acceso a la información:
                                                             La visión de los usuarios, (México: GEDISA).           16.   Consejo para la Transparencia (2018), Unidad de
@@ -7186,21 +7550,38 @@ Información                                                                    
 
 ## 7.    Bentham, J. (1791): Panopticon or the inspection
 
-                                                                                                                         la nación”, en Revista Ius et Praxis, año 18, Nº 2.,
+**Definición Canónica:** la nación”, en Revista Ius et Praxis, año 18, Nº 2.,
+                                                            house. Volume 1, (London: Ed. T. Payne).
+                                                                                                                         ISSN 0717 – 2877.
+                                                      8.    Bentham, J. (1999): Essay of political tactics,
+
+la nación”, en Revista Ius et Praxis, año 18, Nº 2.,
                                                             house. Volume 1, (London: Ed. T. Payne).
                                                                                                                          ISSN 0717 – 2877.
                                                       8.    Bentham, J. (1999): Essay of political tactics,
 
 ## 19.   Contreras, P. (2014): Secretos de Estado: Trans-
 
-                                                            (Oxford: Clarendon Press).
+**Definición Canónica:** (Oxford: Clarendon Press).
+                                                                                                                         parencia y seguridad nacional, (Santiago: Legal
+                                                      9.    Bobbio, N. (2003): Teoría general de la política,            Publishing, Thompson Reuters).
+                                                            (Madrid: Trotta).
+
+(Oxford: Clarendon Press).
                                                                                                                          parencia y seguridad nacional, (Santiago: Legal
                                                       9.    Bobbio, N. (2003): Teoría general de la política,            Publishing, Thompson Reuters).
                                                             (Madrid: Trotta).
 
 ## 20.   Elena, S. (2015): Datos abiertos para una justi-
 
-                                                      10.   Calderón, C. y Lorenzo, S. (2010): Open govern-              cia abierta: Un análisis de caso de los Poderes
+**Definición Canónica:** 10.   Calderón, C. y Lorenzo, S. (2010): Open govern-              cia abierta: Un análisis de caso de los Poderes
+                                                            ment. Gobierno abierto, (Madrid: Algón).                     Judiciales de Brasil, Costa Rica, México y Perú,
+                                                                                                                         Proyecto ILDA-Iniciativa Latinoamericana por los
+                                                      11.   Camacho, G. (2018): Ley Nº 20.285: Sobre acceso              Datos Abiertos.
+        
+**Concordancias Legales:** Ley Nº 20.285
+
+10.   Calderón, C. y Lorenzo, S. (2010): Open govern-              cia abierta: Un análisis de caso de los Poderes
                                                             ment. Gobierno abierto, (Madrid: Algón).                     Judiciales de Brasil, Costa Rica, México y Perú,
                                                                                                                          Proyecto ILDA-Iniciativa Latinoamericana por los
                                                       11.   Camacho, G. (2018): Ley Nº 20.285: Sobre acceso              Datos Abiertos.
@@ -7209,22 +7590,24 @@ Información                                                                    
                                                             Administración del Estado, (Santiago: Thompson               Aires: Siglo XXI).
                                                             Reuters).
 
-## 22.   Foucault, M. (2002): Defender la sociedad, (Méxi-
-
-                                                      12.   Canetti, E. (1994): Masa y Poder, (Barcelona. Mu-            co, D. F: Fondo de Cultura Económica).
-                                                            chnik).
-
 ## 23.   González, J. (2013): “El derecho de acceso a la in-
 
-                                                      13.   Carpizo, J. (2003): “Derecho a la información en             formación pública: Principales derechos y garan-
+**Definición Canónica:** 13.   Carpizo, J. (2003): “Derecho a la información en             formación pública: Principales derechos y garan-
+                                                            México: Propuestas para su regulación”, en Revis-            tías implicados en el derecho federal argentino”,
+                                                            ta Mexicana de Comunicación, ISSN 0187-8190,                 en Revista de Direitos Fundamentais e Democra-
+                                                            Vol. 13, Nº 68.                                              cia, Curitiba, Vol. 14, 
+
+13.   Carpizo, J. (2003): “Derecho a la información en             formación pública: Principales derechos y garan-
                                                             México: Propuestas para su regulación”, en Revis-            tías implicados en el derecho federal argentino”,
                                                             ta Mexicana de Comunicación, ISSN 0187-8190,                 en Revista de Direitos Fundamentais e Democra-
                                                             Vol. 13, Nº 68.                                              cia, Curitiba, Vol. 14, Nº 14, Julho/Dezembro 2013.
 
-
 ## 24.   Habermas, J. (1981): Historia y critica de la opi-
 
-                                                                                                                         nión pública: La transformación estructural de la
+**Definición Canónica:** nión pública: La transformación estructural de la
+                                                                                                                         vida pública, (Barcelona: Ed. Gustavo Gili).
+
+nión pública: La transformación estructural de la
                                                                                                                          vida pública, (Barcelona: Ed. Gustavo Gili).
 
 Acceso a la                                                                                                       Bibliografía                                              169
@@ -7238,7 +7621,13 @@ Información                                                                    
 
 ## 38.   Ramírez-Alujas, A. (2011): “Gobierno abierto y
 
-                                                      27.   Juica, M. (2013): “Transparencia en el Poder Judi-          modernización de la gestión pública: Tendencias
+**Definición Canónica:** 27.   Juica, M. (2013): “Transparencia en el Poder Judi-          modernización de la gestión pública: Tendencias
+                                                            cial de Chile: Diseño, política y estructuras para          actuales y el (inevitable) camino que viene. Re-
+                                                            cumplir con este principio”, en Revista de Derecho          flexiones seminales”, en Revista Enfoques 5, Vol.
+                                                            Universidad Finis Terrae: Transparencia y Acce-             IX, Nº 15.
+                
+
+27.   Juica, M. (2013): “Transparencia en el Poder Judi-          modernización de la gestión pública: Tendencias
                                                             cial de Chile: Diseño, política y estructuras para          actuales y el (inevitable) camino que viene. Re-
                                                             cumplir con este principio”, en Revista de Derecho          flexiones seminales”, en Revista Enfoques 5, Vol.
                                                             Universidad Finis Terrae: Transparencia y Acce-             IX, Nº 15.
@@ -7254,7 +7643,14 @@ Información                                                                    
 
 ## 30.   Larraín, H. (2014): Una agenda para el Parlamento
 
-                                                                                                                        en Revista International Journal of Engineering
+**Definición Canónica:** en Revista International Journal of Engineering
+                                                            Abierto, en Cheyre, J. E. y Cobo, N. (Eds.): Trans-
+                                                                                                                        Research and Development, E-ISSN: 2278-067X,
+                                                            parencia en Chile: Logros y desafíos a cinco años
+                                                                                                                        p-ISSN: 2278-800X, Volumen 14, Issue 8.
+     
+
+en Revista International Journal of Engineering
                                                             Abierto, en Cheyre, J. E. y Cobo, N. (Eds.): Trans-
                                                                                                                         Research and Development, E-ISSN: 2278-067X,
                                                             parencia en Chile: Logros y desafíos a cinco años
@@ -7267,7 +7663,14 @@ Información                                                                    
 
 ## 31.   Larroulet, C. (2013): “La agenda del gobierno en
 
-                                                                                                                        Pública, Vol. XIII. Nº 23, (Santiago: Universidad
+**Definición Canónica:** Pública, Vol. XIII. Nº 23, (Santiago: Universidad
+                                                            materia de transparencia y participación”, en
+                                                                                                                        Central de Chile).
+                                                            Revista de Derecho Universidad Finis Terrae:
+                                                            Transparencia y Acceso a la información, Se-          42.   Stuart Mill, J. (1859): Ensayo sobre la libertad,
+                              
+
+Pública, Vol. XIII. Nº 23, (Santiago: Universidad
                                                             materia de transparencia y participación”, en
                                                                                                                         Central de Chile).
                                                             Revista de Derecho Universidad Finis Terrae:
@@ -7277,7 +7680,13 @@ Información                                                                    
 
 ## 43.   Vial, T. (2010): “La Ley de transparencia y acceso
 
-                                                      32.   López Ayllón, S. (2000): El derecho a la informa-           a la información pública: Esquema general y re-
+**Definición Canónica:** 32.   López Ayllón, S. (2000): El derecho a la informa-           a la información pública: Esquema general y re-
+                                                            ción como derecho fundamental, en Carpizo, J. y             gulación del derecho de acceso a la información”,
+                                                            Carbonell, M. (Coords): Derecho a la información y          en Santiago: Anuario de Derecho Público, Univer-
+                                                            derechos humanos, (México: UNAM).                           sidad Diego Portales.
+     
+
+32.   López Ayllón, S. (2000): El derecho a la informa-           a la información pública: Esquema general y re-
                                                             ción como derecho fundamental, en Carpizo, J. y             gulación del derecho de acceso a la información”,
                                                             Carbonell, M. (Coords): Derecho a la información y          en Santiago: Anuario de Derecho Público, Univer-
                                                             derechos humanos, (México: UNAM).                           sidad Diego Portales.
@@ -7287,7 +7696,14 @@ Información                                                                    
 
 ## 45.   Villanueva, E. (2010): Publicidad oficial: Trans-
 
-                                                      34.   Nogueira, H. (2000): El derecho a la información            parencia y equidad, (México: Jus Distribuidora
+**Definición Canónica:** 34.   Nogueira, H. (2000): El derecho a la información            parencia y equidad, (México: Jus Distribuidora
+                                                            en el ámbito constitucional comparado, en Car-              Editorial S.A).
+                                                            pizo, J. y Carbonell, M. (Coords): Derecho a la in-
+                                                            formación y derechos humanos (México: UNAM).          46.   Villanueva, E. (2010): Derecho de acceso a la in-
+                                                                     
+**Concordancias Legales:** Ley Nº 19.885; Ley Nº 20.880; constitucion; Constitución Política
+
+34.   Nogueira, H. (2000): El derecho a la información            parencia y equidad, (México: Jus Distribuidora
                                                             en el ámbito constitucional comparado, en Car-              Editorial S.A).
                                                             pizo, J. y Carbonell, M. (Coords): Derecho a la in-
                                                             formación y derechos humanos (México: UNAM).          46.   Villanueva, E. (2010): Derecho de acceso a la in-
@@ -7323,7 +7739,11 @@ Información                                                                    
 
 ## 12.   Ley Nº 19.628. Sobre Protección de la vida priva-
 
-                                                            de la República de Chile.
+**Definición Canónica:** de la República de Chile.
+                                                                                                                         da. Ministerio Secretaría General de la Presiden-
+**Concordancias Legales:** Ley Nº 18.575; Constitucion
+
+de la República de Chile.
                                                                                                                          da. Ministerio Secretaría General de la Presiden-
 
                                                       2.    Ley Nº 18.575. Orgánica Constitucional de Ba-                cia. Publicada en Diario Oficial el 28 de agosto de
@@ -7332,7 +7752,13 @@ Información                                                                    
 
 ## 13.   Ley Nº 20.422. Establece normas sobre igualdad
 
-                                                            Publicada en Diario Oficial el 05 de diciembre de
+**Definición Canónica:** Publicada en Diario Oficial el 05 de diciembre de
+                                                                                                                         de oportunidades e inclusión social de personas
+                                                            1986.
+                                                                                                                         con discapacidad. Ministerio de Planificación. Pu-
+                                                      3.    Decreto con Fuerza de Ley Nº 1-19.653. Ministerio            blicada en Diario Ofic
+
+Publicada en Diario Oficial el 05 de diciembre de
                                                                                                                          de oportunidades e inclusión social de personas
                                                             1986.
                                                                                                                          con discapacidad. Ministerio de Planificación. Pu-
@@ -7341,7 +7767,15 @@ Información                                                                    
 
 ## 14.   Ley Nº 19.880. Establece bases de los procedi-
 
-                                                            refundido, coordinado y sistematizado de la Ley
+**Definición Canónica:** refundido, coordinado y sistematizado de la Ley
+                                                                                                                         mientos administrativos que rigen los actos de
+                                                            Nº 18.575. Publicada en Diario Oficial el 17 de
+                                                                                                                         los órganos de la Administración del Estado. Mi-
+                                                            noviembre de 2001.
+                           
+**Concordancias Legales:** Ley Nº 20.050; Ley Nº 19.886; Constitucion; Constitución
+
+refundido, coordinado y sistematizado de la Ley
                                                                                                                          mientos administrativos que rigen los actos de
                                                             Nº 18.575. Publicada en Diario Oficial el 17 de
                                                                                                                          los órganos de la Administración del Estado. Mi-
@@ -7356,12 +7790,16 @@ Información                                                                    
                                                             Oficial el 26 de Agosto de 2005.
                                                                                                                          Diario Oficial el 30 de julio de 2003.
 
-## 5.    Ley Nº 20.285. Sobre Acceso a la Información
-
-
 ## 16.   Ley Nº 19.862. Establece Registros de las Perso-
 
-                                                            Pública. Ministerio Secretaría General de la                 nas Jurídicas receptoras de Fondos Públicos. Mi-
+**Definición Canónica:** Pública. Ministerio Secretaría General de la                 nas Jurídicas receptoras de Fondos Públicos. Mi-
+                                                            Presidencia. Publicada en Diario Oficial el 20 de            nisterio de Hacienda. Publicada en Diario Oficial
+                                                            agosto de 2008.                                              el 08 de febrero de 2003.
+                                                      6.    Ley Nº 21.210. Moderniza la Legislación Tributa-       17.   Ley Nº 18.695. Ley Orgánica Constitucional de
+     
+**Concordancias Legales:** Ley Nº 21.210; Ley Nº 18.695; Ley Nº 19.653; Ley Nº 19.884; Ley Nº 19.940; Constitucion
+
+Pública. Ministerio Secretaría General de la                 nas Jurídicas receptoras de Fondos Públicos. Mi-
                                                             Presidencia. Publicada en Diario Oficial el 20 de            nisterio de Hacienda. Publicada en Diario Oficial
                                                             agosto de 2008.                                              el 08 de febrero de 2003.
                                                       6.    Ley Nº 21.210. Moderniza la Legislación Tributa-       17.   Ley Nº 18.695. Ley Orgánica Constitucional de
@@ -7381,7 +7819,10 @@ Información                                                                    
 
 ## 9.    Decreto con Fuerza de Ley Nº 3. Ministerio Se-
 
-                                                            cretaría General de la Presidencia. Fija el texto
+**Definición Canónica:** cretaría General de la Presidencia. Fija el texto
+                                                            refundido, coordinado y sistematizado de la Ley
+
+cretaría General de la Presidencia. Fija el texto
                                                             refundido, coordinado y sistematizado de la Ley
 
 Acceso a la                                                                                                     Bibliografía                                          171
@@ -7393,15 +7834,27 @@ Información                                                                    
 
 ## 32.   Auto acordado, Acta Nº 754 - 2019 Corte Supre-
 
-                                                      20.   Ley Nº 20.416. Fija normas especiales para las            ma. Establece la base del ejercicio de la Transpa-
+**Definición Canónica:** 20.   Ley Nº 20.416. Fija normas especiales para las            ma. Establece la base del ejercicio de la Transpa-
+                                                            empresas de menor tamaño. Ministerio de Eco-              rencia en el Poder Judicial.
+                                                            nomía, Fomento y Reconstrucción. Publicada en
+                                                            Diario Oficial el 03 de febrero de 2010.
+**Concordancias Legales:** Ley Nº 20.416
+
+20.   Ley Nº 20.416. Fija normas especiales para las            ma. Establece la base del ejercicio de la Transpa-
                                                             empresas de menor tamaño. Ministerio de Eco-              rencia en el Poder Judicial.
                                                             nomía, Fomento y Reconstrucción. Publicada en
                                                             Diario Oficial el 03 de febrero de 2010.
 
-
 ## 21.   Decreto Supremo N° 26. Ministerio Secretaría
 
-                                                            General de la Presidencia. Reglamento sobre el
+**Definición Canónica:** General de la Presidencia. Reglamento sobre el
+                                                                                                                      Jurisprudencia
+                                                            secreto o reserva de los actos y documentos de      1.    Rol N° C432-10 Consejo para la Transparencia.
+                                                            la Administración del Estado. Publicado en Diario
+                                                            Oficial el 07 de mayo de 2001.                      2.    Rol N° C268-12 Consejo para 
+**Concordancias Legales:** Ley Nº 20.285
+
+General de la Presidencia. Reglamento sobre el
                                                                                                                       Jurisprudencia
                                                             secreto o reserva de los actos y documentos de      1.    Rol N° C432-10 Consejo para la Transparencia.
                                                             la Administración del Estado. Publicado en Diario
@@ -7424,7 +7877,13 @@ Información                                                                    
 
 ## 25.   Auto acordado, Acta N° 240 - 2008 Corte Su-
 
-                                                            prema. Se resuelve crear una Comisión de Trans-     10.   Rol N° C5780-18 Consejo para la Transparencia.
+**Definición Canónica:** prema. Se resuelve crear una Comisión de Trans-     10.   Rol N° C5780-18 Consejo para la Transparencia.
+                                                            parencia y Acceso a la Información del Poder
+                                                                                                                11.   Rol N° C1105-20 Consejo para la Transparencia.
+                                                            Judicial.
+                                                                                                                12.   Rol N° C3773-20 Consejo para la Trans
+
+prema. Se resuelve crear una Comisión de Trans-     10.   Rol N° C5780-18 Consejo para la Transparencia.
                                                             parencia y Acceso a la Información del Poder
                                                                                                                 11.   Rol N° C1105-20 Consejo para la Transparencia.
                                                             Judicial.
@@ -7432,307 +7891,133 @@ Información                                                                    
 
 ## 26.   Auto acordado, Acta Nº 253 - 2008 Corte Supre-
 
-                                                            ma. Crea la Comisión de Transparencia del Poder     13.   Rol N° 7938 - 2010. Corte de Apelaciones de
+**Definición Canónica:** ma. Crea la Comisión de Transparencia del Poder     13.   Rol N° 7938 - 2010. Corte de Apelaciones de
                                                             Judicial y Acceso a la Información del Poder              Santiago.
                                                             Judicial.
 
-## 14.   Rol N°1803 - 2010. Corte de Apelaciones de
-
-                                                      27.   Auto acordado, Acta Nº 263-2008 Corte Supre-              Santiago.
-                                                            ma, Nombró a los integrantes de la Comisión.
+ma. Crea la Comisión de Transparencia del Poder     13.   Rol N° 7938 - 2010. Corte de Apelaciones de
+                                                            Judicial y Acceso a la Información del Poder              Santiago.
+                                                            Judicial.
 
 ## 15.   Rol Nº 7938-2010. Corte de Apelaciones de San-
 
-                                                      28.   Auto acordado, Acta Nº 146 - 2009 Corte Su-               tiago.
+**Definición Canónica:** 28.   Auto acordado, Acta Nº 146 - 2009 Corte Su-               tiago.
+                                                            prema. Amplía extensión de los documentos que
+                                                            deben publicarse.                                   16.   Rol Nº 7938 - 2010. Corte de Apelaciones de
+                                                                                                                      Santiago.
+
+28.   Auto acordado, Acta Nº 146 - 2009 Corte Su-               tiago.
                                                             prema. Amplía extensión de los documentos que
                                                             deben publicarse.                                   16.   Rol Nº 7938 - 2010. Corte de Apelaciones de
                                                                                                                       Santiago.
 
 ## 29.   Auto acordado, Acta Nº 135 - 2015 Corte Supre-
 
-                                                            ma. Sobre audiencia pública ante las Cortes de      17.   Rol Nº 6032 - 2010. Corte de Apelaciones de
+**Definición Canónica:** ma. Sobre audiencia pública ante las Cortes de      17.   Rol Nº 6032 - 2010. Corte de Apelaciones de
                                                             Apelaciones para el nombramiento de cargos,               Santiago.
                                                             declarándose su obligatoriedad.
 
-## 18.   Rol N° 6543 - 2011. Corte de Apelaciones de
-
-                                                      30.   Auto acordado, Acta Nº 124-2019 Corte Suprema.            Santiago.
-                                                            Regula la Agenda Pública en el Poder Judicial.
-
-## 19.   Rol Nº 6704 - 2011. Corte de Apelaciones de
-
-                                                      31.   Auto acordado, Acta Nº 133-2019 Corte Supre-              Santiago.
-
-
-## 20.   Rol Nº 7497 - 2011. Corte de Apelaciones de San-
-
-                                                                                                                      tiago.
-
-
-## 21.   Rol Nº 4708 - 2012. Corte de Apelaciones de
-
-                                                                                                                      Santiago.
-
-Acceso a la                                                                                                   Bibliografía                                        172
-
-
-## 22.   Rol Nº 312 - 2013. Corte de Apelaciones de San-   45.   Decisión de Amparo. Rol A95-09. Consejo para la
-
-                                                            tiago.                                                  Trasparencia.
-
-
-## 23.   Rol Nº 8242 - 2015. Corte de Apelaciones de       46.   Decisión de Amparo. Rol Nº A159-09. Consejo
-
-                                                            Santiago.                                               para la Transparencia.
-
-
-## 24.   Rol Nº 8242 - 2015. Corte de Apelaciones de       47.   Decisión de Amparo. Rol Nº A1-09. Consejo para
-
-                                                            Santiago.                                               la Transparencia.
-
-
-## 25.   Rol Nº 2066 - 2016. Corte de Apelaciones de       48.   Decisión de Amparo. Rol Nº A38-09. Consejo para
-
-                                                            Santiago.                                               la Transparencia.
-
-
-## 26.   Rol Nº 4060 - 2013. Corte Suprema.                49.   Decisión de Amparo. Rol Nº A48-09. Consejo
-
-                                                      27.   Rol Nº 10474 - 2013. Corte Suprema.
-
-## 50.   Decisión de Amparo. Rol Nº A91-09. Consejo para
-
-                                                      28.   Rol Nº 13501 - 2013. Corte Suprema.                     la Transparencia.
-
-## 29.   Rol Nº 24118 - 2014. Corte Suprema.               51.   Decisión de Amparo. Rol Nº A47-09. Consejo para
-
-
-                                                      30.   Rol Nº 23134 - 2014. Corte Suprema.
-
-## 52.   Decisión de Amparo. Rol Nº A126-09. Consejo
-
-                                                      31.   Rol Nº 49981 - 2016. Corte Suprema.
-
-## 32.   Decisión de Amparo. Rol N° A190-09. Consejo
-
-
-## 53.   Decisión de Amparo. Nº A307-09. Consejo para la
-
-                                                                                                                    Transparencia.
-
-## 33.   Decisión de Amparo. Rol N° A13-09. Corte Ape-
-
-
-## 54.   Decisión de Amparo. Rol Nº C434-09. Consejo
-
-                                                            laciones.
-
-## 34.   Decisión de Amparo. Rol N° A45-09. Consejo
-
-
-## 55.   Decisión de Amparo. Rol Nº A193-09. Consejo
-
-                                                            para la Trasparencia.
-
-## 35.   Decisión de Amparo. Rol Nº A96-09. Consejo para
-
-
-## 56.   Decisión de Amparo. Rol Nº C440-09. Consejo
-
-                                                            la Trasparencia.
-
-## 36.   Decisión de Amparo. Rol Nº A47-09. Consejo para
-
-
-## 57.   Decisión de Amparo. Rol Nº A45-09. Consejo para
-
-
-## 37.   Decisión de Amparo. Rol Nº A107-09. Consejo
-
-
-## 58.   Decisión de Amparo. Rol Nº A45-09. Consejo para
-
-
-## 38.   Decisión de Amparo. Rol Nº A115-09. Consejo
-
-
-## 59.   Decisión de Amparo. Rol Nº A297-09. Consejo
-
-
-## 39.   Decisión de Amparo. Rol Nº A68-09. Consejo para
-
-
-## 60.   Decisión de Amparo. Rol Nº A114-09. Consejo
-
-
-## 40.   Decisión de Amparo. Rol Nº A151-09. Consejo
-
-
-## 61.   Decisión de Amparo. Rol Nº C576-09. Consejo
-
-
-## 41.   Decisión de Amparo. Rol Nº C380-09. Consejo
-
-
-## 62.   Decisión de Amparo. Rol Nº A147-09. Consejo
-
-
-## 42.   Decisión de Amparo. Rol Nº A47-09. Consejo para
-
-
-## 63.   Decisión de Amparo. Rol Nº C486-09. Consejo
-
-
-## 43.   Decisión de Amparo. Rol Nº A11-09. Consejo para
-
-
-## 64.   Decisión de Amparo. Rol Nº C512-09. Consejo
-
-
-## 44.   Decisión de Amparo. Rol Nº A79-09. Consejo para
-
-
-## 65.   Decisión de Amparo. Rol Nº C486-09. Consejo
-
-
-Acceso a la                                                                                                   Bibliografía                                           173
-
-
-## 66.   Decisión de Amparo. Rol N° C373-10. Corte de      87.   Decisión de Amparo. Rol Nº C1377-11. Consejo
-
-                                                            Apelaciones.                                            para la Transparencia.
-
-
-## 67.   Decisión de Amparo. Rol Nº C648-10. Consejo       88.   Decisión de Amparo. Rol Nº C939-12. Consejo
-
-
-
-## 68.   Decisión de Amparo. Rol Nº C719-10. Consejo       89.   Decisión de Amparo. Rol Nº C216-12. Consejo
-
-
-
-## 69.   Decisión de Amparo. Rol Nº C327-10. Consejo       90.   Decisión de Amparo. Rol Nº C525-12. Consejo
-
-
-
-## 70.   Decisión de Amparo. Rol Nº A247-10. Consejo       91.   Decisión de Amparo. Rol Nº C980-12. Consejo
-
-
-
-## 71.   Decisión de Amparo. Rol Nº C83-10. Consejo para   92.   Decisión de Amparo. Rol Nº C884-13. Consejo
-
-                                                            la Transparencia.                                       para la Transparencia.
-
-
-## 72.   Decisión de Amparo. Rol Nº C203-10. Consejo       93.   Decisión de Amparo. Rol Nº C377-13. Consejo
-
-
-
-## 73.   Decisión de Amparo. Rol Nº C351-10. Consejo       94.   Decisión de Amparo. Rol Nº C884-13. Consejo
-
-
+ma. Sobre audiencia pública ante las Cortes de      17.   Rol Nº 6032 - 2010. Corte de Apelaciones de
+                                                            Apelaciones para el nombramiento de cargos,               Santiago.
+                                                            declarándose su obligatoriedad.
 
 ## 74.   Decisión de Amparo. Rol Nº C396-10. Consejo       95.   Decisión de Amparo. Rol Nº C1154-13, Rol Nº
 
-                                                            para la Transparencia.                                  C1155-13 y Rol Nº C1156-13 Acumuladas. Conse-
+**Definición Canónica:** para la Transparencia.                                  C1155-13 y Rol Nº C1156-13 Acumuladas. Conse-
+                                                                                                                    jo para la Transparencia.
+
+para la Transparencia.                                  C1155-13 y Rol Nº C1156-13 Acumuladas. Conse-
                                                                                                                     jo para la Transparencia.
 
 ## 75.   Decisión de Amparo. Rol Nº C652-10. Consejo
 
-                                                            para la Transparencia.                            96.   Decisión de Amparo. Rol Nº C1321-14. Consejo
+**Definición Canónica:** para la Transparencia.                            96.   Decisión de Amparo. Rol Nº C1321-14. Consejo
                                                                                                                     para la Trasparencia.
 
-## 76.   Decisión de Amparo. Rol Nº C396-10. Consejo
-
-                                                            para la Transparencia.                            97.   Decisión de Amparo. Rol Nº C1345-14. Consejo
-
-## 77.   Decisión de Amparo. Rol Nº C 457-10. Consejo
-
-                                                            para la Transparencia.                            98.   Decisión de Amparo. Rol Nº C933-14. Consejo
+para la Transparencia.                            96.   Decisión de Amparo. Rol Nº C1321-14. Consejo
+                                                                                                                    para la Trasparencia.
 
 ## 78.   Decisión de Amparo. Rol Nº C193-10. Consejo
 
-                                                            para la Transparencia.                            99.   Decisión de Amparo. Rol Nº C2493-15. Consejo de
+**Definición Canónica:** para la Transparencia.                            99.   Decisión de Amparo. Rol Nº C2493-15. Consejo de
                                                                                                                     Transparencia.
 
-## 79.   Decisión de Amparo. Rol Nº C517-11. Consejo
-
-                                                            para la Transparencia.                            100. Decisión de Amparo. Rol Nº C3614-16. Consejo
+para la Transparencia.                            99.   Decisión de Amparo. Rol Nº C2493-15. Consejo de
+                                                                                                                    Transparencia.
 
 ## 80.   Decisión de Amparo. Rol Nº C517-11. Consejo
 
-                                                            para la Transparencia.                            101. Decisión de Amparo. Rol Nº C2271-16 y Rol Nº
+**Definición Canónica:** para la Transparencia.                            101. Decisión de Amparo. Rol Nº C2271-16 y Rol Nº
+                                                                                                                   C2272-16. Consejo para la Transparencia.
+
+para la Transparencia.                            101. Decisión de Amparo. Rol Nº C2271-16 y Rol Nº
                                                                                                                    C2272-16. Consejo para la Transparencia.
 
 ## 81.   Decisión de Amparo. Rol Nº C515-11. Consejo
 
-                                                            para la Transparencia.                            102. Sentencia Tribunal Constitucional. Rol Nº 634-
+**Definición Canónica:** para la Transparencia.                            102. Sentencia Tribunal Constitucional. Rol Nº 634-
+                                                                                                                   2007.
+**Concordancias Legales:** Constitucion
+
+para la Transparencia.                            102. Sentencia Tribunal Constitucional. Rol Nº 634-
                                                                                                                    2007.
 
 ## 82.   Decisión de Amparo. Rol Nº C102-11. Consejo
 
-                                                            para la Transparencia.                            103. Sentencia Tribunal Constitucional. Rol Nº 1051-
+**Definición Canónica:** para la Transparencia.                            103. Sentencia Tribunal Constitucional. Rol Nº 1051-
+                                                                                                                   2008.
+**Concordancias Legales:** Constitucion
+
+para la Transparencia.                            103. Sentencia Tribunal Constitucional. Rol Nº 1051-
                                                                                                                    2008.
 
 ## 83.   Decisión de Amparo. Rol Nº C188-11. Consejo
 
-                                                            para la Transparencia.                            104. Sentencia Tribunal Constitucional. Rol Nº 2153-
+**Definición Canónica:** para la Transparencia.                            104. Sentencia Tribunal Constitucional. Rol Nº 2153-
+                                                                                                                   2011.
+**Concordancias Legales:** Constitucion
+
+para la Transparencia.                            104. Sentencia Tribunal Constitucional. Rol Nº 2153-
                                                                                                                    2011.
 
 ## 84.   Decisión de Amparo. Rol Nº C121-11. Consejo
 
-                                                            para la Transparencia.                            105. Sentencia Tribunal Constitucional. Rol Nº 2153-
+**Definición Canónica:** para la Transparencia.                            105. Sentencia Tribunal Constitucional. Rol Nº 2153-
+                                                                                                                   11-INA.
+**Concordancias Legales:** Constitucion
+
+para la Transparencia.                            105. Sentencia Tribunal Constitucional. Rol Nº 2153-
                                                                                                                    11-INA.
 
 ## 85.   Decisión de Amparo. Rol Nº C70-11. Consejo para
 
-                                                            la Transparencia.                                 106. Sentencia Tribunal Constitucional. Rol Nº 2153-
+**Definición Canónica:** la Transparencia.                                 106. Sentencia Tribunal Constitucional. Rol Nº 2153-
                                                                                                                    2011- INA.
+**Concordancias Legales:** Constitucion
 
-## 86.   Decisión de Amparo. Rol Nº C102-11. Consejo
-
-
-Acceso a la                                                                                                    Bibliografía                                            174
-
-
-## 107. Sentencia Tribunal Constitucional. Rol Nº 2278-     9.    Estados Unidos Mexicanos. Ley Federal de
-
-
-## 2012.                                                     Transparencia y Acceso a la Información Pública
-
-                                                                                                                     Gubernamental. 11 de junio de 2002.
+la Transparencia.                                 106. Sentencia Tribunal Constitucional. Rol Nº 2153-
+                                                                                                                   2011- INA.
 
 ## 108. Sentencia Tribunal Constitucional. Rol Nº 2246-
 
-                                                           2012-INA.                                           10.   Estados Unidos Mexicanos. Ley Federal de
+**Definición Canónica:** 2012-INA.                                           10.   Estados Unidos Mexicanos. Ley Federal de
+                                                                                                                     Transparencia y Acceso a la Información Pública
+                                                      109. Sentencia Tribunal Constitucional. Rol N° 1990-           Gubernamental del 11 de junio de 2002.
+                                                           2012.
+**Concordancias Legales:** Constitucion
+
+2012-INA.                                           10.   Estados Unidos Mexicanos. Ley Federal de
                                                                                                                      Transparencia y Acceso a la Información Pública
                                                       109. Sentencia Tribunal Constitucional. Rol N° 1990-           Gubernamental del 11 de junio de 2002.
                                                            2012.
 
-## 11.   Estados Unidos de América. Primera Enmienda a
-
-                                                      110. Sentencia Tribunal Constitucional. Rol Nº 2919-           la Constitución.
-                                                           2015-INA.
-
-## 12.   Estados Unidos de América. The Freedom of In-
-
-                                                      111. Sentencia Tribunal Constitucional. Rol Nº 2919-           formation Act. 5 U.S.C. § 552.
-                                                           2015-INA.
-
-## 13.   Estados Unidos de América. Public Law 110–
-
-
-## 112. Sentencia Tribunal Constitucional. Rol Nº 2997-           175—Dec. 31, 2007. Openness Promotes Effecti-
-
-                                                           2016 INA.                                                 veness in Our National Government Act Of 2007.
-
-## 113. Sentencia Tribunal Constitucional. Rol Nº 2997-
-
-
-
 ## 14.   Organización de Estados Americanos. Asamblea
 
-                                                           2016- INA.                                                General. AG/RES. 2607 (XL-O/10). Ley Modelo
+**Definición Canónica:** 2016- INA.                                                General. AG/RES. 2607 (XL-O/10). Ley Modelo
+                                                                                                                     Interamericana sobre Acceso a la Información. 8
+                                                                                                                     de junio de 2010
+
+2016- INA.                                                General. AG/RES. 2607 (XL-O/10). Ley Modelo
                                                                                                                      Interamericana sobre Acceso a la Información. 8
                                                                                                                      de junio de 2010
 
@@ -7741,13 +8026,20 @@ Información                                                                    
 
 ## 1.   Comisión Interamericana de Derechos Huma-
 
-                                                           nos. Declaración de Principios sobre Libertad de    16.   República del Ecuador. Ley Orgánica de Transpa-
+**Definición Canónica:** nos. Declaración de Principios sobre Libertad de    16.   República del Ecuador. Ley Orgánica de Transpa-
+                                                           Expresión.                                                rencia y Acceso a la Información Pública. Ley Nº
+                                                                                                                     24 del 18 de mayo de 2004.
+
+nos. Declaración de Principios sobre Libertad de    16.   República del Ecuador. Ley Orgánica de Transpa-
                                                            Expresión.                                                rencia y Acceso a la Información Pública. Ley Nº
                                                                                                                      24 del 18 de mayo de 2004.
 
 ## 2.   Comisión Interamericana de Derechos Huma-
 
-                                                           nos. Resolución 1/2018: Corrupción y Derechos       17.   República de El Salvador. Ley de Acceso a la
+**Definición Canónica:** nos. Resolución 1/2018: Corrupción y Derechos       17.   República de El Salvador. Ley de Acceso a la
+                                                           Humanos.                                                  Información Pública.
+
+nos. Resolución 1/2018: Corrupción y Derechos       17.   República de El Salvador. Ley de Acceso a la
                                                            Humanos.                                                  Información Pública.
 
                                                       3.   Corte Interamericana de Derechos Humanos.           18.   República de El Salvador. Ley de Acceso a la In-
@@ -7757,7 +8049,13 @@ Información                                                                    
 
 ## 19.   República de Guatemala. Ley de Acceso a la
 
-                                                      4.   Corte Interamericana de Derechos Humanos.                 Información Pública. Decreto Nº 57-2008.
+**Definición Canónica:** 4.   Corte Interamericana de Derechos Humanos.                 Información Pública. Decreto Nº 57-2008.
+                                                           Caso Gomes Lund y otros (Guerrilha do Ara-          20.   República de Panamá. Ley de Transparencia en
+                                                           guaia) versus Brasil. Excepciones Preliminares,
+                                                                                                                     la Gestión Pública. Ley N° 6 del 22 de enero de
+                                                           Fon
+
+4.   Corte Interamericana de Derechos Humanos.                 Información Pública. Decreto Nº 57-2008.
                                                            Caso Gomes Lund y otros (Guerrilha do Ara-          20.   República de Panamá. Ley de Transparencia en
                                                            guaia) versus Brasil. Excepciones Preliminares,
                                                                                                                      la Gestión Pública. Ley N° 6 del 22 de enero de
@@ -7767,7 +8065,14 @@ Información                                                                    
 
 ## 21.   República del Perú. Ley de Transparencia y Acce-
 
-                                                      5.   Corte Interamericana de Derechos Humanos.
+**Definición Canónica:** 5.   Corte Interamericana de Derechos Humanos.
+                                                                                                                     so a la Información Pública. Ley N° 27806 del 02
+                                                           Alegatos ante la Corte Interamericana de Dere-            de agosto de 2002.
+                                                           chos Humanos en el caso Claude Reyes y otros.
+                                                           Transcritos en: Corte IDH. Caso Claude Reyes y      22.   República Oriental del Urugua
+**Concordancias Legales:** Ley N° 27806; Ley Nº 18.381
+
+5.   Corte Interamericana de Derechos Humanos.
                                                                                                                      so a la Información Pública. Ley N° 27806 del 02
                                                            Alegatos ante la Corte Interamericana de Dere-            de agosto de 2002.
                                                            chos Humanos en el caso Claude Reyes y otros.
@@ -7777,7 +8082,14 @@ Información                                                                    
 
 ## 6.   Comité Jurídico Interamericano. Resolución Nº
 
-                                                           147. 73 Período ordinario de sesiones: Principios   23.   Suprema Corte de los Estados Unidos. Caso De-
+**Definición Canónica:** 147. 73 Período ordinario de sesiones: Principios   23.   Suprema Corte de los Estados Unidos. Caso De-
+                                                           sobre el Derecho de Acceso a la Información.              partamento de Estado de Estados Unidos versus
+                                                                                                                     Ray et al. (502 U.S. 164, 173 (1991)).
+                                                      7.   Constitución Política de Colombia.
+                                                                                   
+**Concordancias Legales:** Constitución Política
+
+147. 73 Período ordinario de sesiones: Principios   23.   Suprema Corte de los Estados Unidos. Caso De-
                                                            sobre el Derecho de Acceso a la Información.              partamento de Estado de Estados Unidos versus
                                                                                                                      Ray et al. (502 U.S. 164, 173 (1991)).
                                                       7.   Constitución Política de Colombia.
@@ -7785,43 +8097,10 @@ Información                                                                    
 
 ## 8.   Constitución Política de la República de Guate-           Principios y recomendaciones para la promoción
 
-                                                           mala de 1985. Reformada por Acuerdo Legislativo           de la justicia abierta en los poderes, órganos y
+**Definición Canónica:** mala de 1985. Reformada por Acuerdo Legislativo           de la justicia abierta en los poderes, órganos y
                                                            Nº 18-93 del 17 de noviembre de 1993.
                                                                                                                      organismos judiciales iberoamericanos.
 
-
-## Serie de
-
-Acceso a la Información                            1.     DOCUMENTOS 176
-Pública y Transparencia                                                76
-
-## Materiales
-
-
-## Docentes
-
-
-ial
- c
- udi
- J
- a
- mi
- de
- a
- c
- A
- s
- e
- nt
- e
- c
- do
- s
- al
- e
- ri
- e
-Mat
-
-   Academia Judicial de Chile | www.academiajudicial.cl
+mala de 1985. Reformada por Acuerdo Legislativo           de la justicia abierta en los poderes, órganos y
+                                                           Nº 18-93 del 17 de noviembre de 1993.
+                                                                                                                     organismos judiciales iberoamericanos.

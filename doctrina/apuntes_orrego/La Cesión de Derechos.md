@@ -13,138 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-CAPITULO IX: LA CESION DE DERECHOS.
-
-1.- Generalidades.
-
-        Tanto los derechos reales como los personales, exceptuándose solamente los
-personalísimos, pueden ser objeto de enajenaciones o transferencias. La cesión de los
-derechos reales sigue las reglas de todos los contratos, con excepción del derecho real de
-herencia, para el cual el CC. ha establecido normas especiales. Tratándose de los derechos
-personales, la ley también ha dispuesto normas particulares en los arts. 1901 a 1908, bajo el
-epígrafe “De los créditos personales”. Los arts. 1909 y 1910 regulan la cesión del derecho
-real de herencia, mientras que los arts. 1911 a 1914 se refieren a los derechos litigiosos.
-
-2.- Clases de créditos y formas de cederlos.
-
-        Tanto en el art. 1901 como en el título de este párrafo, se habla de cesión de
-“créditos personales”, lo que en verdad es una redundancia, porque "crédito" es sinónimo
-de derecho personal.
-        Si bien todos los derechos personales o créditos pueden cederse, excepto los
-personalísimos, no todos pueden cederse de la misma forma. Para determinar la manera de
-transferirlos, hay que distinguir entre créditos nominativos, a la orden y al portador.
-        Son créditos NOMINATIVOS aquellos que sólo deben pagarse a una determinada
-persona, como el crédito del vendedor en contra del comprador para reclamar el precio de
-la compraventa.
-        Son créditos A LA ORDEN aquellos que contienen, antes del nombre de la persona
-a quien deben pagarse, la expresión “a la orden”: cheques, letras de cambio, pagarés en los
-que no se ha tarjado la mencionada expresión o que se han girado, aceptado o suscrito "a la
-orden".
-        Son créditos AL PORTADOR aquellos que no contienen el nombre de la persona a
-quien deben ser pagados, y que en consecuencia pueden ser cobrados por cualquiera
-persona que se presente con ellos. Llevan usualmente la expresión “al portador”: cheques
-en los que no se eliminó dichas palabras, billetes de banco, bonos, etc.
-        Los créditos nominativos se transfieren en conformidad a los arts. 1901 a 1908,
-advirtiendo la última disposición que los créditos a la orden y al portador se rigen por otras
-normas. Los créditos a la orden se transfieren por medio del endoso, que es la orden que el
-acreedor da al deudor de efectuar el pago a la persona del endosatario. En cuanto a los
-créditos al portador, se transfieren por la sola entrega material del título. Rigen la cesión de
-los créditos a la orden y al portador, las normas de la Ley Nº 18.092, sobre letras de
-cambio, aplicables también a los pagarés.
-
-3.- Cesión de créditos nominativos.
-
-3.1. Concepto.
-
-       La cesión de créditos es la convención por la cual un acreedor cede voluntariamente
-sus derechos contra el deudor a un tercero que llega a ser acreedor en lugar de aquél. El
-
-                       La cesión de derechos – Juan Andrés Orrego Acuña                       1
-enajenante toma el nombre de cedente, el adquirente del crédito es el cesionario, y el
-deudor contra el cual existe el crédito que constituye el objeto del traspaso, se llama deudor
-cedido.
-
-3.2. Naturaleza jurídica de la cesión.
-
-         Se planteaba en la doctrina si la cesión de créditos era un contrato o la manera de
-hacer la tradición de los derechos personales. Se sostenía por algunos que la cesión de
-derechos personales no era otra cosa que un contrato de compraventa de cosas incorporales.
-Tal es el concepto que de la cesión de derechos tiene el CC. italiano.
-         En nuestra legislación, sin embargo, y así se sostiene unánimemente hoy en día por
-la doctrina, la cesión de derechos personales no es un contrato, sino la manera de efectuar la
-tradición de los derechos personales. No es un contrato generador de obligaciones, sino la
-manera de cumplir o consumar el contrato, la manera en que se transfiere el dominio sobre
-un derecho. Tal naturaleza jurídica concuerda con el concepto precedentemente indicado.
-         Las razones para sostener lo anterior son las siguientes:
-a) El art. 1810 se refiere tanto a la compraventa de cosas corporales como incorporales,
-vale decir derechos, cuya enajenación no esté prohibida por la ley. Los arts. 1901 y
-siguientes no se refieren por tanto a la compraventa.
-b) El art. 1901 distingue entre el acto mismo de la cesión y el título en cuya virtud se
-realiza, vale decir, se distingue entre la enajenación y el antecedente jurídico que permite
-realizar la primera. Corrobora lo anterior al art. 1912.
-         Cabe precisar que el título puede ser gratuito u oneroso, lo que prueba que la cesión
-no es un contrato de compraventa de cosas incorporales, pues la cesión podría tener por
-título la donación, por ejemplo.
-c) Si se aceptara que la cesión de las cosas incorporales fuera venta, ésta sería un contrato
-real, ya que el art. 1901 exige la entrega del título, conclusión que pugnaría con todas las
-normas de la compraventa, y especialmente con el art. 1810, que alude a la venta de cosas
-incorporales, contrato consensual y no real.
-d) El art. 1901 distingue entre “título” como antecedente jurídico (compraventa o
-donación, por ejemplo) y como instrumento material en que consta el derecho.
-e) El art. 1907 alude directamente a la cesión de un crédito a título oneroso.
-f) El art. 1901 reproduce prácticamente la regla del art. 699, que se refiere a la tradición de
-los derechos personales (como se indica en una sentencia de agosto de 1918, de la Corte
-Suprema, los arts. 699 y 1901 disponen sustancialmente lo mismo, aunque el primero es
-más genérico).
-         Nuestra jurisprudencia ha ratificado la conclusión anterior, según queda de
-manifiesto en sendos fallos de la Corte Suprema de mayo de 1935, septiembre de 1937 y
-marzo de 1945, y de la Corte de Concepción, de mayo de 1941.
-
-3.3. Forma de perfeccionar la cesión.
-
-a) Personas que intervienen.
-
-       En toda cesión de créditos, intervienen tres personas:
-* El cedente: que es el acreedor, titular del derecho personal y que lo transfiere a otro.
-
-                       La cesión de derechos – Juan Andrés Orrego Acuña                      2
-* El cesionario: que es la persona que adquiere el derecho cedido y pasa a ocupar el lugar
-del acreedor.
-* El deudor: sujeto pasivo del derecho cedido, que queda obligado en favor del cesionario.
-        Si en la cesión intervienen tres personas, hay que analizar la manera como se
-perfecciona respecto de todos ellos. En la cesión de créditos hay dos etapas: la primera se
-desarrolla entre el cedente y el cesionario y tiende a dejar perfeccionada entre ellos la
-cesión; la segunda etapa se desarrolla con el deudor, y tiende a ponerlo en conocimiento de
-que la persona del acreedor ha cambiado.
-
-b) Perfeccionamiento de la cesión entre cedente y cesionario.
-
-        Puesto que la cesión de créditos es la tradición de los derechos personales y puesto
-que dicho modo de adquirir requiere un título traslaticio de dominio, es necesario que entre
-el cedente y el cesionario exista un contrato traslaticio de dominio, que puede ser de venta,
-permuta, donación, etc. En esta fase, para nada interviene el deudor ni los terceros. La
-existencia del título es de exclusiva incumbencia del cedente y cesionario (Corte de
-Santiago, julio de 1932).
-        Celebrado el contrato que ha de servir de título traslaticio de dominio, será necesario
-realizar la tradición del derecho personal; y como sobre este crédito o derecho personal
-tiene el cedente un derecho de dominio, ya que según el art. 583 sobre las cosas
-incorporales hay también una especie de propiedad, será este derecho de dominio sobre el
-crédito el que el cedente deberá transferir al cesionario.
-        Tratándose de los créditos nominativos, la tradición se efectuará mediante la
-ENTREGA DEL TITULO hecha por el cedente al cesionario, de acuerdo a lo previsto en
-los arts. 1901 y 699.
-        Al efectuarse la tradición, debe anotarse en el título entregado el traspaso del
-derecho, designando al cesionario y bajo la firma del cedente (art. 1903).
-        En ciertos casos, el crédito cedido no consta en un instrumento que pueda
-traspasarse. En tal hipótesis, debe especificarse el crédito en la escritura de cesión,
-sirviendo la misma escritura de título que deberá entregarse al cesionario. En tal sentido, un
-fallo de la Corte de Santiago de 1892 deja en claro que no obsta a la validez de la cesión la
-circunstancia de no haber habido entrega material del título por el cedente al cesionario.
-Versando la cesión sobre un mero derecho no documentado (honorarios) ni justipreciado
-entonces, la tradición de tal derecho vale si se hace por escritura pública y afecta a terceros
-y al deudor si la cesión se notifica a éste. Así las cosas, al hablar la ley de la entrega del
-
 ## título, no ha querido referirse indudablemente a su entrega material, pues lo que se
+
+**Definición Canónica:** transfiere en este caso, mediante la tradición, no es una cosa material, el documento mismo
+en que consta, sino un derecho, una cosa incorporal, un crédito, que existe con
+independencia del título, como se deduce con sólo considerar que si se tratara, por ejemplo,
+de un crédito que no consta por escritura pública y sujeto únicamente a la buena fe del
+deudor, que constará de palabra, no podría cederse por no existir título material, o sea, un
+documento. No sólo puede efectuarse la tradición de un derecho personal por la entrega
+material de su título, sino que también, como ocurre con los bienes
 
 transfiere en este caso, mediante la tradición, no es una cosa material, el documento mismo
 en que consta, sino un derecho, una cosa incorporal, un crédito, que existe con
@@ -415,6 +292,13 @@ importa negar la necesidad de una tradición para adquirir la herencia, ya que e
 parece a la tradición pedir la posesión efectiva o entablar la acción de partición. Por otra
 
 ## parte, se crea una solución de continuidad o vacío en el Registro de Propiedad, cuestión que
+
+**Definición Canónica:** repugna al legislador, como aparece de manifiesto en el propio Mensaje del CC., al
+encomiar el disponer de un registro completo de toda la propiedad territorial y sus
+mutaciones.
+        Alessandri y Somarriva no comparten estas críticas, y se pliegan a la tesis de la
+jurisprudencia mayoritaria, reiterando que la herencia es una universalidad jurídica
+independiente de las cosas que la componen.
 
 repugna al legislador, como aparece de manifiesto en el propio Mensaje del CC., al
 encomiar el disponer de un registro completo de toda la propiedad territorial y sus

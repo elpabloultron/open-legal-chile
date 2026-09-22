@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## Del deposito y del secuestro 1
 
+**Definición Canónica:** 1.-) Definición.
+**Concordancias Legales:** artículo 2211; artículo 2215; artículo 1688; artículo 1662; artículo 2233; artículo 2474
 
 1.-) Definición.
 

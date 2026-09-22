@@ -13,11 +13,27 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Novena parte: pérdida
-
-
 ## De las asignaciones forzosas1
 
+**Definición Canónica:** Sumario:
+Introducción.
+1.- Indignidades.
+a) Clasificación.
+b) Quiénes pueden alegar la indignidad.
+c) Efectos de la indignidad.
+d) La indignidad debe declararse judicialmente. Excepciones.
+2.- Desheredamiento.
+a) Concepto.
+b) Requisitos.
+c) Causales de desheredación.
+d) Prueba y calificación de la causa de desheredación.
+e) Multiplicidad de causas de desheredación.
+f) Excepción a la obligación de probar la causa de desheredación.
+g) Efectos del desheredamiento.
+h) Revocación del desheredamiento.
+i) Tiempo de prescripción del desheredamiento.
+j) Efectos del desheredamiento respecto del deshered
+**Concordancias Legales:** artículo 968; artículo 1208 del Código Civil; artículo 416; artículo 44 del Código Civil; artículo 1208; artículo 44; artículo 20 del Código Civil. De esta manera; artículos 44; artículo 172 del Código Civil; artículos 904; artículos 898; artículo 1216; artículo 1216 del Código Civil; Ley Nº 20.830; Ley N° 21.515
 
 Sumario:
 Introducción.

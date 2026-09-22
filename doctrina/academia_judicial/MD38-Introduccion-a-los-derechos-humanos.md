@@ -13,20 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-## 38           Introducción
-
-             a los derechos
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             humanos
+                       electrónica
+             Regina Ingrid Díaz Tolosa
+                       de causas
+             Alejandra Pérez Ceballos
+             Juan Pablo Díaz Fuenzalida
 
-                  Tramitación
+Tramitación
              humanos
                        electrónica
              Regina Ingrid Díaz Tolosa
@@ -94,24 +91,9 @@ Materiales Docentes                                    ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Teoría de los derechos humanos
-
-## 101     Capítulo 2
-
-        Ámbitos específicos de protección
-
-## 190     Capítulo 3
-
-        Mecanismos para la salvaguarda
-
-## 325     Referencias
-
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Teoría de los derechos humanos
 
 Teoría de los derechos humanos
 
@@ -238,8 +220,11 @@ estos últimos continuaron exigiendo participación e igualdad de derechos y de 
 leyes y reformas importantes que fueron concediéndole derechos a los
 plebeyos de forma paulatina, como la lex aebutia, que durante el siglo
 
-
 ## 1 Pueblo latino que se asentó en el valle de las siete colinas y del que se dice que
+
+**Definición Canónica:** habría fundado Roma.
+ 2 Sacerdotes intérpretes de la voluntad divina a través de diversos rituales.
+**Concordancias Legales:** Constitución
 
 habría fundado Roma.
  2 Sacerdotes intérpretes de la voluntad divina a través de diversos rituales.
@@ -309,6 +294,9 @@ habitantes del Imperio romano, incluidos los extranjeros.
 Pompeyo y Craso. El segundo estuvo integrado por Marco Antonio, Octavio y Lépido.
 
 ## 5 Hombres menores de 14 y mujeres menores de 12 años sometidos a la patria
+
+**Definición Canónica:** potestad de un pater familia.
+**Concordancias Legales:** artículo 9; artículo 4; artículo 3; artículo 6; artículo 1; artículo 5; artículos 19; artículo 12; artículo 19; constitucion; Constitución; Constitución Política
 
 potestad de un pater familia.
 
@@ -1557,6 +1545,17 @@ de Indemnización de Trabajadores y en el seguro de enfermedad. Por su
 
 ## parte, en Estados Unidos, junto al presidente Roosevelt, podemos verlo
 
+**Definición Canónica:** en la aprobación de la Ley de la Seguridad Social en 1935, y en Reino
+Unido con el Plan Beveridge, que consideró su primer sistema unificado
+de seguridad social en 1942. Luego, desde Naciones Unidas, con la Declaración Universal de Derechos Humanos con el artículo 22, en el que
+se menciona que «toda persona, como miembro de la sociedad, tiene
+derecho a la seguridad social».
+   A diferencia de los derechos civiles y políticos, en los que debe haber
+poca intervención del Estado, en los derechos sociales podemos ver que
+adquiere una mayor relevancia. Así, ya sea regulando, subvencionando u
+otorga
+**Concordancias Legales:** artículo 22; artículo 10; artículo 19; Constitución; Constitucion
+
 en la aprobación de la Ley de la Seguridad Social en 1935, y en Reino
 Unido con el Plan Beveridge, que consideró su primer sistema unificado
 de seguridad social en 1942. Luego, desde Naciones Unidas, con la Declaración Universal de Derechos Humanos con el artículo 22, en el que
@@ -1795,10 +1794,15 @@ favor de las personas.
    Así, encontramos el artículo 19, número 8, de la Constitución, que
 consagra lo siguiente:
 
-
 ## 8. El derecho a vivir en un medioambiente libre de contaminación. Es
 
-      deber del Estado velar para que este derecho no sea afectado y tutelar la
+**Definición Canónica:** deber del Estado velar para que este derecho no sea afectado y tutelar la
+      preservación de la naturaleza.
+       La ley podrá establecer restricciones específicas al ejercicio de determi-
+      nados derechos o libertades para proteger el medioambiente.
+**Concordancias Legales:** artículo 20; artículo 19; artículo 5; Constitución; constitucion
+
+deber del Estado velar para que este derecho no sea afectado y tutelar la
       preservación de la naturaleza.
        La ley podrá establecer restricciones específicas al ejercicio de determi-
       nados derechos o libertades para proteger el medioambiente.
@@ -1818,10 +1822,14 @@ genera un bloque de constitucionalidad en el que se integran una serie
 de tratados internacionales sobre derechos humanos, siempre que hayan sido ratificados por Chile y se encuentren vigentes.
   En consecuencia, de acuerdo con el artículo 19, número 2, se establece:
 
-
 ## 2. La igualdad ante la ley. En Chile no hay persona ni grupos privile-
 
-      giados. En Chile no hay esclavos y el que pise su territorio queda libre.
+**Definición Canónica:** giados. En Chile no hay esclavos y el que pise su territorio queda libre.
+      Hombres y mujeres son iguales ante la ley.
+       Ni la ley ni autoridad alguna podrán establecer diferencias arbitrarias.
+**Concordancias Legales:** artículo 5; artículo 5 de la Carta Fundamental. En efecto; artículo 5 de la Constitución; artículo 135; artículo 26; artículo 27 de la Convención; artículo 46; Constitución Política; constitucion; Constitución
+
+giados. En Chile no hay esclavos y el que pise su territorio queda libre.
       Hombres y mujeres son iguales ante la ley.
        Ni la ley ni autoridad alguna podrán establecer diferencias arbitrarias.
 
@@ -1931,12 +1939,11 @@ preciso tener en vista otras fuentes, que, no siendo tratados, podrían
 dar luces sobre materias afines a derechos humanos. En ese sentido, encontramos declaraciones, resoluciones y proclamaciones, entre otras,
 las que no son vinculantes para los Estados, pero pueden servir de re-
 
-
-## 11 Para más información, véase Chapter XXIII: Law of Teatries, Organización de
-
-las Naciones Unidas, disponible en https://bit.ly/3Nf7ETM.
-
 ## 12 Decreto Supremo 381, que promulga la Convención sobre el Derecho de los
+
+**Definición Canónica:** Tratados y su anexo suscritos por el gobierno de Chile en Viena el 23 de mayo de
+1969, Ministerio de Relaciones Exteriores, publicado el 22 de junio de 1981.
+**Concordancias Legales:** Constitución; constitucion
 
 Tratados y su anexo suscritos por el gobierno de Chile en Viena el 23 de mayo de
 1969, Ministerio de Relaciones Exteriores, publicado el 22 de junio de 1981.
@@ -2024,6 +2031,15 @@ Número    Derecho
 
 ## 1         Derechos de libertad
 
+**Definición Canónica:** I         Derechos y libertades en el entorno digital
+II        Derecho a la identidad en el entorno digital
+III       Derecho a la protección de datos
+IV        Derecho al pseudonimato
+V         Derecho de la persona a no ser localizada y perfilada
+VI        Derecho a la ciberseguridad
+VII       Derecho a la herencia digital
+VIII      Derecho a la igualdad y a la no discriminación en el entorno digital
+
 I         Derechos y libertades en el entorno digital
 II        Derecho a la identidad en el entorno digital
 III       Derecho a la protección de datos
@@ -2035,12 +2051,24 @@ VIII      Derecho a la igualdad y a la no discriminación en el entorno digital
 
 ## 2         Derechos de igualdad
 
+**Definición Canónica:** IX        Derecho de acceso a internet
+X         Protección de las personas menores de edad en el entorno digital
+XI        Accesibilidad universal en el entorno digital
+XII       Brechas de acceso al entorno digital
+
 IX        Derecho de acceso a internet
 X         Protección de las personas menores de edad en el entorno digital
 XI        Accesibilidad universal en el entorno digital
 XII       Brechas de acceso al entorno digital
 
 ## 3         Derechos de participación y de conformación del espacio público
+
+**Definición Canónica:** XIII      Derecho a la neutralidad de internet
+XIV       Libertad de expresión y libertad de información
+XV        Derecho a recibir libremente información veraz
+XVI       Derecho a la participación ciudadana por medios digitales
+XVII      Derecho a la educación digital
+          Derechos digitales de la ciudadanía en sus relaciones con las administraciones
 
 XIII      Derecho a la neutralidad de internet
 XIV       Libertad de expresión y libertad de información
@@ -2049,18 +2077,19 @@ XVI       Derecho a la participación ciudadana por medios digitales
 XVII      Derecho a la educación digital
           Derechos digitales de la ciudadanía en sus relaciones con las administraciones
 
-## Xviii
-
-          públicas
-
-## 4         Derechos del entorno laboral y empresarial
-
-XIX       Derechos en el ámbito laboral
-XX        La empresa en el entorno digital
-
 ## 5         Derechos digitales en entornos específicos
 
-          Derecho de acceso a datos con fines de archivo en interés público, fines
+**Definición Canónica:** Derecho de acceso a datos con fines de archivo en interés público, fines
+XXI       de investigación científica o histórica, fines estadísticos, y fines de innovación
+          y desarrollo
+XXII      Derecho a un desarrollo tecnológico y a un entorno digital sostenible
+XXIII     Derecho a la protección de la salud en el entorno digital
+XXIV      Libertad de creación y derecho de acceso a la cultura en el entorno digital
+XXV       Derechos ante la inteligencia artificial
+XXVI      Derechos digitales en el empleo de las neurotecnologías
+**Concordancias Legales:** artículo 19; constitucion; Constitución
+
+Derecho de acceso a datos con fines de archivo en interés público, fines
 XXI       de investigación científica o histórica, fines estadísticos, y fines de innovación
           y desarrollo
 XXII      Derecho a un desarrollo tecnológico y a un entorno digital sostenible
@@ -2099,8 +2128,15 @@ Principios
                    Contenido
 transversales
 
-
 ## 1. Inteligencia    La inteligencia artificial debe contribuir al bienestar integral de
+
+**Definición Canónica:** artificial con     las personas. Las acciones estarán orientadas a que las personas
+centro en el       tengan una mejor calidad de vida, aprovechando los beneficios de la
+bienestar de       inteligencia artificial y abordando sus riesgos y potenciales impactos
+las personas,      negativos, con un irrestricto respeto a los derechos humanos de
+respeto a          toda la ciudadanía. Tanto los algoritmos como los datos utilizados
+los derechos       para entrenar los sistemas automatizados, especialmente cuando se
+humanos y la       trata de datos personales, deben ser sistemas seguros. Las accione
 
 artificial con     las personas. Las acciones estarán orientadas a que las personas
 centro en el       tengan una mejor calidad de vida, aprovechando los beneficios de la
@@ -2123,8 +2159,15 @@ Principios
                    Contenido
 transversales
 
-
 ## 2. Inteligencia    La inteligencia artificial tiene un gran potencial para que los países
+
+**Definición Canónica:** artificial para    emergentes, como Chile, puedan diversificar su matriz económica
+el desarrollo      y hacer más productivas sus industrias, así como fomentar su
+sostenible         ecosistema de investigación, tecnología, innovación y las aplicaciones
+                   comerciales derivadas de él. Las acciones se orientarán a potenciar
+                   el uso y desarrollo de la tecnología en el país, el fortalecimiento del
+                   ecosistema y la incorporación de la inteligencia artificial como un
+                   eje del desarrollo sostenible del país, esto es, con considerac
 
 artificial para    emergentes, como Chile, puedan diversificar su matriz económica
 el desarrollo      y hacer más productivas sus industrias, así como fomentar su
@@ -2135,8 +2178,17 @@ sostenible         ecosistema de investigación, tecnología, innovación y las 
                    eje del desarrollo sostenible del país, esto es, con consideraciones
                    sociales y medioambientales.
 
-
 ## 3. Inteligencia    Debido a la estrecha dependencia que existe entre el entrenamiento
+
+**Definición Canónica:** artificial         de algoritmos y el uso de datos para ello, la transparencia y
+inclusiva          explicabilidad se transforman en elementos relevantes para la
+                   concepción de una inteligencia artificial inclusiva, por ende, las
+                   acciones pondrán especial énfasis en los atributos de integridad y
+                   calidad de los datos para garantizar que sus sesgos sean conocidos y
+                   tratados adecuadamente.
+                   La inteligencia artificial no debe discriminar en base a categorías
+                   protegidas ni ser utilizada e
+**Concordancias Legales:** artículos 55
 
 artificial         de algoritmos y el uso de datos para ello, la transparencia y
 inclusiva          explicabilidad se transforman en elementos relevantes para la
@@ -2269,8 +2321,11 @@ mejora del nivel de vida y de los derechos humanos entre las naciones.15
 Si bien es cierto que el objetivo principal de la ONU es el mantenimiento
 de la paz y de la seguridad internacional, un propósito complementario a
 
-
 ## 15 Para más información, véase el preámbulo, artículo 1, 55.c y 62.2 de la CONU
+
+**Definición Canónica:** como respaldo. Además, Cassese (2005: 59) destaca que el principio general de respetar los derechos humanos, y por ende la dignidad intrínseca de la persona humana (por el solo hecho de ser persona), deriva de su más sólida garantía en el Sistema
+de las Naciones Unidas. En el mismo sentido, véase Fenwick (1963: 47, 203-204) y
+Shaw (2008: 276-277).
 
 como respaldo. Además, Cassese (2005: 59) destaca que el principio general de respetar los derechos humanos, y por ende la dignidad intrínseca de la persona humana (por el solo hecho de ser persona), deriva de su más sólida garantía en el Sistema
 de las Naciones Unidas. En el mismo sentido, véase Fenwick (1963: 47, 203-204) y
@@ -2297,6 +2352,12 @@ la Organización, y su primera manifestación concreta es la Declaración
 Universal de Derechos Humanos de 1948, seguida por los Pactos de
 
 ## 1966. El vacío de la Carta en cuanto a no contener una enumeración
+
+**Definición Canónica:** de los derechos humanos y de las libertades fundamentales fue prontamente colmado con la Declaración Universal de Derechos Humanos,
+la cual, aunque no instauró ningún derecho de reclamación de los particulares ante instancias internacionales ni estableció mecanismos jurídicos de control, tuvo una importancia innegable como expresión de
+la conciencia jurídica de la comunidad internacional (Diez de Velasco,
+2007: 655-656; Brownlie, 2008: 559-560; Acosta y Duque, 2008: 23-25;
+Shaw, 2008: 279).
 
 de los derechos humanos y de las libertades fundamentales fue prontamente colmado con la Declaración Universal de Derechos Humanos,
 la cual, aunque no instauró ningún derecho de reclamación de los particulares ante instancias internacionales ni estableció mecanismos jurídicos de control, tuvo una importancia innegable como expresión de
@@ -2414,6 +2475,9 @@ Diez de Velasco, 2007: 651; Carrillo-Santarelli, 2012: 839-840).
 
 ## 17 Para más información, véase Díez de Velasco (2007: 673-676) y Consejo de
 
+**Definición Canónica:** Derechos Humanos, «Método de denuncias asumido por el Consejo de derechos
+humanos», disponible en https://bit.ly/3ah8FMc.
+
 Derechos Humanos, «Método de denuncias asumido por el Consejo de derechos
 humanos», disponible en https://bit.ly/3ah8FMc.
 
@@ -2465,18 +2529,27 @@ Materiales Docentes                                                             
 
 ## Título/Mandato                        de la Comisión de
 
-                          por primera                        por última    de Derechos
+**Definición Canónica:** por primera                        por última    de Derechos
+                                      Derechos Humanos
+                          vez en                             vez en        Humanos
+
+por primera                        por última    de Derechos
                                       Derechos Humanos
                           vez en                             vez en        Humanos
 
 Grupo de
 Trabajo sobre las
 
-## E/cn.4/res/1980/20/
-
-Desapariciones               1980                                2020      A/HRC/RES/45/3
-
 ## (xxxvi)
+
+**Definición Canónica:** Forzadas o
+Involuntarias
+sobre ejecuciones
+extrajudiciales,             1982    E/CN.4/1982/35              2020      A/HRC/RES/44/5
+sumarias o
+arbitrarias
+sobre la tortura y
+otros tratos o penas         1985    E/CN.4/1985/33              2020
 
 Forzadas o
 Involuntarias
@@ -2487,13 +2560,14 @@ arbitrarias
 sobre la tortura y
 otros tratos o penas         1985    E/CN.4/1985/33              2020
 
-## Res/43/20
-
-crueles, inhumanos o
-degradantes
-sobre la libertad                                                          A/HRC/
-
 ## 1986    e/cn.4/1986/20              2019
+
+**Definición Canónica:** de religión o de                                                           RES/40/10
+creencias
+sobre la venta y la
+explotación sexual
+de niños, incluidos la
+prostitución infantil,                                                     A/HRC/
 
 de religión o de                                                           RES/40/10
 creencias
@@ -2504,6 +2578,14 @@ prostitución infantil,                                                     A/HR
 
 ## 1990    e/cn.4/1990/68              2020
 
+**Definición Canónica:** la utilización de niños                                                    RES/43/22
+en la pornografía y
+demás material que
+muestre abusos
+sexuales de menores
+Grupo de Trabajo
+sobre la Detención           1991    E/CN.4/1991/42              2019
+
 la utilización de niños                                                    RES/43/22
 en la pornografía y
 demás material que
@@ -2512,22 +2594,12 @@ sexuales de menores
 Grupo de Trabajo
 sobre la Detención           1991    E/CN.4/1991/42              2019
 
-## Res/42/22
-
-Arbitraria
-sobre la promoción
-y protección del
-
-## 1993    e/cn.4/1993/45              2020      a/hrc/res/43/4
-
-derecho a la libertad
-de opinión y de
-expresión
-sobre las formas
-contemporáneas
-de racismo,                                                                A/HRC/
-
 ## 1993    e/cn.4/1993/20              2020
+
+**Definición Canónica:** discriminación                                                             RES/43/36
+racial, xenofobia y
+formas conexas de
+intolerancia
 
 discriminación                                                             RES/43/36
 racial, xenofobia y
@@ -2542,7 +2614,11 @@ Materiales Docentes                                                             
 
 ## Título/Mandato                      de la Comisión de
 
-                        por primera                         por última    de Derechos
+**Definición Canónica:** por primera                         por última    de Derechos
+                                    Derechos Humanos
+                        vez en                              vez en        Humanos
+
+por primera                         por última    de Derechos
                                     Derechos Humanos
                         vez en                              vez en        Humanos
 
@@ -2563,6 +2639,16 @@ ecológicamente               1995   E/CN.4/1995/81              2020
 
 ## Res/45/17
 
+**Definición Canónica:** racionales de las
+sustancias y los
+desechos peligrosos
+(Relator Especial
+sobre tóxicos y
+derechos humanos)
+sobre el derecho a la        1998   E/CN.4/1998/33              2020      A/HRC/RES/44/3
+educación
+sobre la extrema                                                          A/HRC/
+
 racionales de las
 sustancias y los
 desechos peligrosos
@@ -2573,13 +2659,13 @@ sobre el derecho a la        1998   E/CN.4/1998/33              2020      A/HRC/
 educación
 sobre la extrema                                                          A/HRC/
 
-## 1998   e/cn.4/1998/25              2020
-
-pobreza y los                                                             RES/44/13
-derechos humanos
-sobre los derechos
-
 ## 1999   e/cn.4/1999/44              2020      a/hrc/res/43/6
+
+**Definición Canónica:** humanos de los
+migrantes
+sobre el derecho a la        2000   E/CN.4/2000/10              2019      A/HRC/RES/40/7
+alimentación
+sobre la situación                                                        A/HRC/
 
 humanos de los
 migrantes
@@ -2588,6 +2674,14 @@ alimentación
 sobre la situación                                                        A/HRC/
 
 ## 2000   e/cn.4/2000/61              2020
+
+**Definición Canónica:** de los defensores de                                                      RES/43/16
+derechos humanos
+Experta
+independiente sobre
+las consecuencias
+de la deuda externa
+y las obligaciones                                                        A/HRC/
 
 de los defensores de                                                      RES/43/16
 derechos humanos
@@ -2598,6 +2692,12 @@ de la deuda externa
 y las obligaciones                                                        A/HRC/
 
 ## 2000   a/hrc/res/2000/82           2020
+
+**Definición Canónica:** financieras                                                               RES/43/10
+internacionales
+conexas de los
+Estados para el pleno
+goce de
 
 financieras                                                               RES/43/10
 internacionales
@@ -2613,7 +2713,11 @@ Materiales Docentes                                                             
 
 ## Título/Mandato                       de la Comisión de
 
-                         por primera                         por última     de Derechos
+**Definición Canónica:** por primera                         por última     de Derechos
+                                     Derechos Humanos
+                         vez en                              vez en         Humanos
+
+por primera                         por última     de Derechos
                                      Derechos Humanos
                          vez en                              vez en         Humanos
 
@@ -2626,49 +2730,12 @@ sobre una vivienda
 adecuada como
 elemento integrante          2000    E/CN.4/2000/9               2020
 
-## Res/43/14
-
-del derecho a
-un nivel de vida
-adecuado
-sobre los derechos                                                          A/HRC/
-
-## 2001    e/cn.4/2001/57              2019
-
-de los pueblos                                                              RES/42/20
-indígenas
-Grupo de Trabajo de
-Expertos sobre los           2002    E/CN.4/2002/68              2017
-
-## Res/36/23
-
-Afrodescendientes
-sobre el derecho
-de toda persona al                                                          A/HRC/
-
-## 2002    e/cn.4/2002/31              2019
-
-disfrute del más alto                                                       RES/42/16
-nivel posible de salud
-física y mental
-sobre los derechos
-
-## 2004        e/cn.4/2004/55              2019       a/hrc/res/41/15
-
-humanos de los
-desplazados internos
-sobre la trata
-
-## A/hrc/res/44/
-
-de personas,             2004        E/CN.4/2004/110             2020
-especialmente
-mujeres y niños
-Experto
-independiente
-sobre los derechos
-
 ## 2005        e/cn.4/2005/55              2020       a/hrc/res/44/11
+
+**Definición Canónica:** humanos y
+la solidaridad
+internacional
+Fuente: Elaboración propia a partir de material de la Organización de las Naciones Unidas.1
 
 humanos y
 la solidaridad
@@ -2712,8 +2779,10 @@ Fuente: Elaboración propia a partir de material de la Organización de las Naci
        2) Una compilación de los informes de expertos y grupos de traba-
       jo independientes conocidos como los procedimientos especiales, los
 
-
 ## 19 Organización de las Naciones Unidas, «Procedimientos especiales del Consejo
+
+**Definición Canónica:** de Derechos Humanos», disponible en https://bit.ly/3x2FVi7.
+ 20 Naciones Unidas, «Procedimientos especiales del Consejo de Derechos Humanos», disponible en https://bit.ly/3NRKiDh.
 
 de Derechos Humanos», disponible en https://bit.ly/3x2FVi7.
  20 Naciones Unidas, «Procedimientos especiales del Consejo de Derechos Humanos», disponible en https://bit.ly/3NRKiDh.
@@ -2724,54 +2793,14 @@ Materiales Docentes                                                            C
 
                              1er                          Mandato
 
-## Título/Mandato                         Resolución                        Resolución
-
-                             mandato                      vigente
-sobre las formas
-contemporáneas de la            2007   A/HRC/RES/6/14         2019
-
-## Res/42/10
-
-esclavitud, incluidas sus
-causas y consecuencias
-Relator Especial sobre
-los derechos humanos                                                     A/HRC/
-
-## 2008    a/hrc/res/7/22         2019
-
-al agua potable y el                                                     RES/42/5
-saneamiento
-Relatora Especial sobre                                                  A/HRC/
-
-## 2009    a/hrc/res/10/23        2021
-
-los derechos culturales                                                  RES/46/9
-Relator Especial sobre
-los derechos a la                                                        A/HRC/
-
-## 2010   a/hrc/res/15/21        2019
-
-libertad de reunión                                                      RES/41/12
-pacífica y de asociación
-Grupo de Trabajo sobre
-la discriminación contra        2010   A/HRC/RES/15/23        2019
-
-## Res/41/6
-
-las mujeres y las niñas
-Relator Especial sobre la
-promoción de la verdad,
-la justicia, la reparación      2011   A/HRC/RES/18/7         2020
-
-## Res/45/10
-
-y las garantías de no
-repetición
-Grupo de Trabajo sobre
-la cuestión de los
-derechos humanos                                                         A/HRC/
-
 ## 2011   a/hrc/res/17/4         2020
+
+**Definición Canónica:** y las empresas                                                           RES/44/15
+transnacionales y otras
+empresas
+Experto independiente
+sobre la promoción de
+un orden internacional          2011   A/HRC/RES/18/6         2020
 
 y las empresas                                                           RES/44/15
 transnacionales y otras
@@ -2780,41 +2809,9 @@ Experto independiente
 sobre la promoción de
 un orden internacional          2011   A/HRC/RES/18/6         2020
 
-## Res/45/4
-
-democrático y
-equitativo
-sobre la cuestión de
-las obligaciones de
-derechos humanos
-relacionadas con el             2012   A/HRC/RES/19/10        2021
-
-## Res/46/7
-
-disfrute de un medio
-ambiente sin riesgos,
-limpio, saludable y
-sostenible
-
-Experta independiente
-sobre el disfrute de
-
-## A/hrc/                            a/hrc/
-
-todos los derechos           2013                         2019
-
-## Res/24/20                         res/42/12
-
-humanos por las
-personas de edad
-
-Materiales Docentes                                                              Capítulo 1
-
-                             1er                            Mandato
-
 ## Título/Mandato                           Resolución                        Resolución
 
-                             mandato                        vigente
+**Definición Canónica:** mandato                        vigente
 sobre los derechos                       A/HRC/                            A/HRC/
                              2014                           2020
 de las personas con                      RES/26/20                         RES/44/10
@@ -2824,27 +2821,23 @@ las repercusiones
 negativas de las
 medidas coercitivas          2014        A/HRC/RES/27/21    2020
 
-## Res/45/5
-
-unilaterales en el
-disfrute de los derechos
-humanos
-Experto Independiente
-sobre el disfrute de
-los derechos humanos         2015        A/HRC/RES/28/6     2021
-
-## Res/46/12
-
-de las personas con
-albinismo
-Relator Especial sobre el                                                  A/HRC/
-
-## 2015           a/hrc/res/28/16 2021
-
-derecho a la privacidad                                                    RES/46/16
-Relator Especial sobre el                                                  A/HRC/
+mandato                        vigente
+sobre los derechos                       A/HRC/                            A/HRC/
+                             2014                           2020
+de las personas con                      RES/26/20                         RES/44/10
+discapacidad
+Relator Especial sobre
+las repercusiones
+negativas de las
+medidas coercitivas          2014        A/HRC/RES/27/21    2020
 
 ## 2016           a/hrc/res/33/14 2019
+
+**Definición Canónica:** derecho al desarrollo                                                      RES/42/23
+Experto Independiente
+sobre la protección
+contra la violencia y
+la discriminación por        2016        A/HRC/RES/32/2     2019
 
 derecho al desarrollo                                                      RES/42/23
 Experto Independiente
@@ -2852,24 +2845,14 @@ sobre la protección
 contra la violencia y
 la discriminación por        2016        A/HRC/RES/32/2     2019
 
-## Res/41/18
-
-motivos de orientación
-sexual o identidad de
-género
-Relatora Especial sobre
-la eliminación de la
-discriminación contra                                                      A/HRC/
-
-## 2017        a/hrc/res/35/9     2020
-
-las personas afectadas                                                     RES/44/6
-por la lepra y sus
-familiares
-sobre la promoción y
-la protección de los
-
 ## 2021        a/hrc/res/48/14
+
+**Definición Canónica:** derechos humanos en
+el contexto del cambio
+climático
+Fuente: Elaboración propia a partir de material de ACNUDH, isponible en https://bit.
+ly/3x5gzzZ.
+**Concordancias Legales:** artículo 52
 
 derechos humanos en
 el contexto del cambio
@@ -3061,6 +3044,14 @@ con los propósitos y principios de las Naciones Unidas.
 
 ## 22 Se destaca la aparición del sistema unido al fenómeno del panamericanismo
 
+**Definición Canónica:** en el período inmediatamente posterior a la Segunda Guerra Mundial, ya que, en
+la Resolución IX de la Conferencia Interamericana sobre Problemas de la Guerra y
+la Paz (Chapultepec, 1945) y en el Tratado Interamericano de Asistencia Recíproca
+(TIAR, 1947), se señala como fundamento de la paz en el continente a la garantía
+de los derechos humanos. Para más información, véase Fenwick (1963: 230-236),
+Kaplan y Katzenbach (1965: 367), Ayala (1999: 105-106), Barberis (1999: 3-4) y Diez
+de Velasco (2007: 695 y 696).
+
 en el período inmediatamente posterior a la Segunda Guerra Mundial, ya que, en
 la Resolución IX de la Conferencia Interamericana sobre Problemas de la Guerra y
 la Paz (Chapultepec, 1945) y en el Tratado Interamericano de Asistencia Recíproca
@@ -3087,6 +3078,13 @@ Convención Interamericana sobre Desapariciones Forzadas
                                                                13 de enero de 2010
 
 ## (a-60)
+
+**Definición Canónica:** Convención Interamericana para Prevenir y Sancionar la
+                                                               15 de septiembre de 1988
+Tortura (A-51)
+Eliminación de todas las Formas de Discriminación contra las
+                                                             24 de diciembre de 2001
+Personas con Discapacidad (A-65)
 
 Convención Interamericana para Prevenir y Sancionar la
                                                                15 de septiembre de 1988
@@ -3120,8 +3118,16 @@ derechos humanos y de conducir investigaciones in loco con el consentimiento del
 
 ## 24 Conforme destaca Diez de Velasco (2007: 700), esta última facultad de visitas
 
+**Definición Canónica:** Con respecto al ejercicio de todas estas facultades, la CIDH informa
+anualmente a la Asamblea General de la OEA. También, ha realizado
+varios informes especiales con respecto a la situación de los derechos
+humanos en determinados Estados y relatores especiales han trabajado
+en relación con grupos específicos de personas, por ejemplo, indígenas,
+mujeres, niños y migrantes. Además, puede indicar medidas provisorias
+en casos urgentes, a petición de parte o de propia iniciativa a los Estados, a fin de prevenir daños irreparables a las personas.25
+   En la tabla 18 se detallan las relatorías de la 
 
-   Con respecto al ejercicio de todas estas facultades, la CIDH informa
+Con respecto al ejercicio de todas estas facultades, la CIDH informa
 anualmente a la Asamblea General de la OEA. También, ha realizado
 varios informes especiales con respecto a la situación de los derechos
 humanos en determinados Estados y relatores especiales han trabajado
@@ -3148,6 +3154,8 @@ Respetar (abstenerse de interferir con el disfrute de un derecho)
 
 ## (acnudh, 2009: 14)
 
+**Definición Canónica:** La obligación de respetar significa que los Estados están obligados a abstenerse de interferir en el disfrute de los derechos por parte de los individuos y de los grupos (Unión Interparlamentaria y ACNUDH, 2016: 34).
+   Si bien en virtud del derecho internacional los Estados son los principales titulares de deberes que asumen obligaciones en relación con los
 
 La obligación de respetar significa que los Estados están obligados a abstenerse de interferir en el disfrute de los derechos por parte de los individuos y de los grupos (Unión Interparlamentaria y ACNUDH, 2016: 34).
    Si bien en virtud del derecho internacional los Estados son los principales titulares de deberes que asumen obligaciones en relación con los
@@ -3155,6 +3163,8 @@ La obligación de respetar significa que los Estados están obligados a abstener
 constituye un método de trabajo antes que un mecanismo de control autónomo.
 
 ## 25 Para más detalle, véase Diez de Velasco (2007: 700 y 701) sobre los mecanismos
+
+**Definición Canónica:** extraconvencionales de protección de los derechos humanos en la región americana.
 
 extraconvencionales de protección de los derechos humanos en la región americana.
 
@@ -3192,6 +3202,14 @@ Proteger (evitar que otros interfieran con el disfrute de un derecho)
 
 ## (acnudh, 2009: 14)
 
+**Definición Canónica:** La obligación de proteger exige que los Estados protejan a los individuos
+contra los abusos de agentes no estatales, agentes estatales extranjeros o
+agentes estatales que actúen al margen de sus funciones públicas. Esta
+obligación entraña una dimensión tanto preventiva como de reparación. En consecuencia, un Estado tiene el deber de promulgar leyes que
+protejan los derechos humanos, adoptar medidas para proteger a los
+individuos cuando tenga conocimiento (o pudiera haber tenido conocimiento) de amenazas a los derechos humanos y garantizar el acceso
+a recursos jurídicos imparciales en caso de s
+**Concordancias Legales:** artículos 1; artículo 19; artículo 5; artículo 5 de la Constitución; artículo 1; artículo 2; artículo 5 de Ley 20.405; artículo 3 de la Ley 20.405; artículos 20; artículo 3; artículo 6; Ley 20.505; Ley 20.405; Ley 20.885; Constitución Política; Constitución; Constitucion
 
 La obligación de proteger exige que los Estados protejan a los individuos
 contra los abusos de agentes no estatales, agentes estatales extranjeros o
@@ -3677,8 +3695,11 @@ de Género y No Discriminación
 
 Elaboración y difusión de guías que protocolicen la atención y entrega
 
-
 ## 33 Subsecretaría de Derechos Humanos, «Segundo Plan Nacional de Derechos
+
+**Definición Canónica:** Humanos, es aprobado por el Comité Interministerial de Derechos Humanos», 28
+de diciembre de 2021, disponible en https://bit.ly/3wZ5VuK.
+**Concordancias Legales:** artículo 1; artículo 5; artículo 19; Constitución
 
 Humanos, es aprobado por el Comité Interministerial de Derechos Humanos», 28
 de diciembre de 2021, disponible en https://bit.ly/3wZ5VuK.
@@ -3759,10 +3780,14 @@ encuentran vigentes.
    • El numeral 2 del artículo 19 relativo a la igualdad ante la ley y no
      discriminación:
 
-
 ## 2. La igualdad ante la ley. En Chile no hay persona ni grupos privile-
 
-      giados. En Chile no hay esclavos y el que pise su territorio queda libre.
+**Definición Canónica:** giados. En Chile no hay esclavos y el que pise su territorio queda libre.
+      Hombres y mujeres son iguales ante la ley. Ni la ley ni autoridad alguna
+      podrán establecer diferencias arbitrarias.
+**Concordancias Legales:** artículo 19
+
+giados. En Chile no hay esclavos y el que pise su territorio queda libre.
       Hombres y mujeres son iguales ante la ley. Ni la ley ni autoridad alguna
       podrán establecer diferencias arbitrarias.
 
@@ -3786,10 +3811,15 @@ encuentran vigentes.
    • El numeral 26 del artículo 19, conocido como la garantía de las
      garantías:
 
-
 ## 26. La seguridad de que los preceptos legales que por mandato de la
 
-      Constitución regulen o complementen las garantías que esta establece
+**Definición Canónica:** Constitución regulen o complementen las garantías que esta establece
+      o que las limiten en los casos en que ella lo autoriza no podrán afectar
+      los derechos en su esencia, ni imponer condiciones, tributos o requisitos
+      que impidan su libre ejercicio.
+**Concordancias Legales:** artículo 20; artículo 21; artículo 19; artículo 76; artículo 2; Constitución
+
+Constitución regulen o complementen las garantías que esta establece
       o que las limiten en los casos en que ella lo autoriza no podrán afectar
       los derechos en su esencia, ni imponer condiciones, tributos o requisitos
       que impidan su libre ejercicio.
@@ -3829,28 +3859,41 @@ por Chile y que se encuentren vigentes, destacan las siguientes normas:
       políticos; y en su número 3, relativo a otorgar posibilidad de un
       recurso efectivo ante vulneraciones de derechos civiles y políticos:
 
-
 ## 1. Cada uno de los Estados partes en el presente Pacto se compromete
 
-      a respetar y a garantizar a todos los individuos que se encuentren en
+**Definición Canónica:** a respetar y a garantizar a todos los individuos que se encuentren en
       su territorio y estén sujetos a su jurisdicción los derechos reconocidos
       en el presente Pacto, sin distinción alguna de raza, color, sexo, idioma,
       religión, opinión política o de otra índole, origen nacional o social, po-
       sición económica, nacimiento o cualquier otra condición social.
 
+a respetar y a garantizar a todos los individuos que se encuentren en
+      su territorio y estén sujetos a su jurisdicción los derechos reconocidos
+      en el presente Pacto, sin distinción alguna de raza, color, sexo, idioma,
+      religión, opinión política o de otra índole, origen nacional o social, po-
+      sición económica, nacimiento o cualquier otra condición social.
 
 ## 2. Cada Estado parte se compromete a adoptar, con arreglo a sus pro-
 
-      cedimientos constitucionales y a las disposiciones del presente Pacto, las
+**Definición Canónica:** cedimientos constitucionales y a las disposiciones del presente Pacto, las
+      medidas oportunas para dictar las disposiciones legislativas o de otro
+      carácter que fueren necesarias para hacer efectivos los derechos reco-
+      nocidos en el presente Pacto y que no estuvieren ya garantizados por
+      disposiciones legislativas o de otro carácter.
+**Concordancias Legales:** constitucion
+
+cedimientos constitucionales y a las disposiciones del presente Pacto, las
       medidas oportunas para dictar las disposiciones legislativas o de otro
       carácter que fueren necesarias para hacer efectivos los derechos reco-
       nocidos en el presente Pacto y que no estuvieren ya garantizados por
       disposiciones legislativas o de otro carácter.
 
-
 ## 3. Cada uno de los Estados partes en el presente Pacto se compromete
 
-      a garantizar que:
+**Definición Canónica:** a garantizar que:
+**Concordancias Legales:** artículo 14
+
+a garantizar que:
 
        a) Toda persona cuyos derechos o libertades reconocidos en el presen-
       te Pacto hayan sido violados podrá interponer un recurso efectivo, aun
@@ -3865,10 +3908,19 @@ por Chile y que se encuentren vigentes, destacan las siguientes normas:
 
   Asimismo, el artículo 14, número 1, del referido tratado, consagra expresamente el derecho a acceso a la justicia con las debidas garantías:
 
-
 ## 1. Todas las personas son iguales ante los tribunales y cortes de jus-
 
-      ticia. Toda persona tendrá derecho a ser oída públicamente y con las
+**Definición Canónica:** ticia. Toda persona tendrá derecho a ser oída públicamente y con las
+      debidas garantías por un tribunal competente, independiente e impar-
+      cial, establecido por la ley, en la substanciación de cualquier acusación
+      de carácter penal formulada contra ella o para la determinación de sus
+      derechos u obligaciones de carácter civil. La prensa y el público podrán
+      ser excluidos de la totalidad o parte de los juicios por consideraciones
+      de mora, orden público o seguridad nacional en una sociedad demo-
+      crática, o cuando lo exija el interés de la vida privada de las
+**Concordancias Legales:** artículo 8
+
+ticia. Toda persona tendrá derecho a ser oída públicamente y con las
       debidas garantías por un tribunal competente, independiente e impar-
       cial, establecido por la ley, en la substanciación de cualquier acusación
       de carácter penal formulada contra ella o para la determinación de sus
@@ -3889,10 +3941,15 @@ por Chile y que se encuentren vigentes, destacan las siguientes normas:
      rente al acceso a la justicia, esto es, el derecho de toda persona a ser
      oída por un juez o tribunal competente menciona que:
 
-
 ## 1. Toda persona tiene derecho a ser oída, con las debidas garantías y
 
-      dentro de un plazo razonable, por un juez o tribunal competente, inde-
+**Definición Canónica:** dentro de un plazo razonable, por un juez o tribunal competente, inde-
+      pendiente e imparcial, establecido con anterioridad por la ley, en la sus-
+      tanciación de cualquier acusación penal formulada contra ella, o para
+      la determinación de sus derechos y obligaciones de orden civil, laboral,
+      fiscal o de cualquier otro carácter.
+
+dentro de un plazo razonable, por un juez o tribunal competente, inde-
       pendiente e imparcial, establecido con anterioridad por la ley, en la sus-
       tanciación de cualquier acusación penal formulada contra ella, o para
       la determinación de sus derechos y obligaciones de orden civil, laboral,
@@ -3900,7 +3957,18 @@ por Chile y que se encuentren vigentes, destacan las siguientes normas:
 
 ## 2. Toda persona inculpada de delito tiene derecho a que se presuma
 
-      su inocencia mientras no se establezca legalmente su culpabilidad. Du-
+**Definición Canónica:** su inocencia mientras no se establezca legalmente su culpabilidad. Du-
+      rante el proceso, toda persona tiene derecho, en plena igualdad, a las
+      siguientes garantías mínimas:
+        a) Derecho del inculpado de ser asistido gratuitamente por el traductor
+      o intérprete si no comprende o no habla el idioma del juzgado o tribunal.
+        b) Comunicación previa y detallada al inculpado de la acusación for-
+      mulada.
+        c) Concesión al inculpado del tiempo y de los medios adecuados para
+      la preparación de su defensa.
+        d) Derecho del inculpado de defenderse person
+
+su inocencia mientras no se establezca legalmente su culpabilidad. Du-
       rante el proceso, toda persona tiene derecho, en plena igualdad, a las
       siguientes garantías mínimas:
         a) Derecho del inculpado de ser asistido gratuitamente por el traductor
@@ -3923,27 +3991,32 @@ por Chile y que se encuentren vigentes, destacan las siguientes normas:
       rarse culpable.
         h) Derecho de recurrir del fallo ante juez o tribunal superior.
 
-## 3. La confesión del inculpado solamente es válida si es hecha sin coac-
-
-      ción de ninguna naturaleza.
-
-## 4. El inculpado absuelto por una sentencia firme no podrá ser someti-
-
-      do a nuevo juicio por los mismos hechos.
-
 ## 5. El proceso penal debe ser público, salvo en lo que sea necesario para
 
+**Definición Canónica:** preservar los intereses de la justicia.
+**Concordancias Legales:** artículo 25; Constitucion
 
-      preservar los intereses de la justicia.
+preservar los intereses de la justicia.
 
    También, del referido Tratado, el artículo 25, relativo a la protección
 judicial, y, más en concreto al derecho a un recurso eficaz que ampare
 los derechos de la Convención y de los derechos fundamentales reconocidos por las respectivas Constituciones e inclusive la ley, menciona:
 
-
 ## 1. Toda persona tiene derecho a un recurso sencillo y rápido o a cual-
 
-      quier otro recurso efectivo ante los jueces o tribunales competentes, que
+**Definición Canónica:** quier otro recurso efectivo ante los jueces o tribunales competentes, que
+      la ampare contra actos que violen sus derechos fundamentales recono-
+      cidos por la Constitución, la ley o la presente Convención, aun cuando
+      tal violación sea cometida por personas que actúen en ejercicio de sus
+      funciones oficiales.
+       2. Los Estados parte se comprometen:
+       a) A garantizar que la autoridad competente prevista por el sistema
+      legal del Estado decidirá sobre los derechos de toda persona que inter-
+      ponga tal recurso.
+       b) A desarrollar las posibilidades de rec
+**Concordancias Legales:** artículo 5; Constitución; Constitución Política; constitucion
+
+quier otro recurso efectivo ante los jueces o tribunales competentes, que
       la ampare contra actos que violen sus derechos fundamentales recono-
       cidos por la Constitución, la ley o la presente Convención, aun cuando
       tal violación sea cometida por personas que actúen en ejercicio de sus
@@ -3995,13 +4068,21 @@ bien, sobre la naturaleza y el alcance de sus efectos:
       el campo de validez de las normas, para dar efectividad a los de-
       rechos humanos, guiado por el fin y objeto de la CADH. En una
 
-
 ## 34 Sagüés (2010: 119) destaca que «el criterio de la Corte Interamericana no es
+
+**Definición Canónica:** siempre lineal o uniforme, y que quizá contiene algunas desprolijidades preocupantes»; García Ramírez (2016: 174-175) se refiere a la dispersión de interpretaciones en
+los países de la región americana; y Henríquez (2018: 352-357) muestra la construcción equívoca del concepto de control de convencionalidad.
 
 siempre lineal o uniforme, y que quizá contiene algunas desprolijidades preocupantes»; García Ramírez (2016: 174-175) se refiere a la dispersión de interpretaciones en
 los países de la región americana; y Henríquez (2018: 352-357) muestra la construcción equívoca del concepto de control de convencionalidad.
 
 ## 35 Fuentes (2008: 487) niega la existencia de norma internacional que obligue a
+
+**Definición Canónica:** los jueces a realizar este control. Benavides (2017: 374) lo considera como una creación pretoriana que expande las competencias judiciales sin respaldo convencional.
+Aguilar (2019b: 360-390) examina los artículos 26 y 27 de la Convención de Viena
+sobre el Derecho de los Tratados como los fundamentos del control, mientras que
+hay un análisis crítico de ellos en García y Contreras (2020: 192-196).
+**Concordancias Legales:** artículos 26; artículo 5 de la Constitución; Constitución
 
 los jueces a realizar este control. Benavides (2017: 374) lo considera como una creación pretoriana que expande las competencias judiciales sin respaldo convencional.
 Aguilar (2019b: 360-390) examina los artículos 26 y 27 de la Convención de Viena
@@ -4031,14 +4112,24 @@ cánones hermenéuticos teleológicos y evolutivos (Benadava, 1992: 46;
 Díaz, 2008: 511-517; Díaz, 2013: 302-305; Nash, 2012: 63; Nash, 2013: 158171; Nogueira, 2013: 18-20; Candia, 2016: 114-119; Nogueira, 2017: 181-182;
 y García y Contreras, 2020: 7). En este contexto, la llamada «interpretación conforme a las normas internacionales»37 alude a aquel proce-
 
-
 ## 36 En materia de aplicación del derecho internacional sobre derechos humanos
+
+**Definición Canónica:** en los ordenamientos jurídicos internos existen en derecho comparado una multiplicidad de fórmulas constitucionales que de una u otra forma refieren a cómo
+implementarlo. Para más información, véase Añaños (2015), Acosta (2016: 20-21) y
+Schönsteiner y otros (2020: 8).
+**Concordancias Legales:** constitucion
 
 en los ordenamientos jurídicos internos existen en derecho comparado una multiplicidad de fórmulas constitucionales que de una u otra forma refieren a cómo
 implementarlo. Para más información, véase Añaños (2015), Acosta (2016: 20-21) y
 Schönsteiner y otros (2020: 8).
 
 ## 37 Terminología que proviene de la analogía con la doctrina de la interpretación
+
+**Definición Canónica:** de las normas infraconstitucionales «conforme» con la Constitución (Sagüés, 2010:
+130 y Aguilar, 2019a: 90). Se identifica por primera vez en el caso Radilla Pacheco (Serie 209, 2009, pár. 338), aunque no refiere expresamente al término (Sagüés,
+2010: 130; Delpiano, 2013: 277; Ferrer, 2016: 341; Olano, 2016: 78; Nogueira, 2017: 181;
+García y Contreras, 2020: 180). Ferrer (2011, 549) se refiere a ella como una «técnica hermenéutica por medio de la cual los derechos y libertades constitucionales
+**Concordancias Legales:** constitucion; Constitución
 
 de las normas infraconstitucionales «conforme» con la Constitución (Sagüés, 2010:
 130 y Aguilar, 2019a: 90). Se identifica por primera vez en el caso Radilla Pacheco (Serie 209, 2009, pár. 338), aunque no refiere expresamente al término (Sagüés,
@@ -4069,8 +4160,9 @@ y fuentes internacionales), para lograr su mayor eficacia y protección», una f
 de las «más efectivas para lograr la armonización entre el derecho nacional y el derecho internacional». También Aguilar (2019a: 92) y García y Contreras (2020: 19)
 la destacan como mecanismo de armonización entre norma internacional e interna.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Ámbitos específicos de protección
 
 Ámbitos específicos de protección
 
@@ -4111,30 +4203,44 @@ por el Grupo de las Naciones Unidas para el Desarrollo (GNUD),2 la
 cual refuerza los parámetros de entendimiento entre las naciones en la
 promoción del progreso y la cooperación, al proclamar que:
 
-
 ## 1. Todos los programas de cooperación para el desarrollo, las políticas
 
-      y la asistencia técnica deben promover la realización de los derechos
+**Definición Canónica:** y la asistencia técnica deben promover la realización de los derechos
+      humanos tal como se establece en la Declaración Universal de Derechos
+      Humanos y otros instrumentos internacionales de derechos humanos.
+
+y la asistencia técnica deben promover la realización de los derechos
       humanos tal como se establece en la Declaración Universal de Derechos
       Humanos y otros instrumentos internacionales de derechos humanos.
 
 ## 2. Las normas de derechos humanos contenidas en la Declaración Uni-
 
-      versal de Derechos Humanos y otros instrumentos internacionales de
+**Definición Canónica:** versal de Derechos Humanos y otros instrumentos internacionales de
+      derechos humanos y los principios derivados de la misma guían toda la
+      cooperación y programación para el desarrollo en todos los sectores y
+      en todas las fases del proceso de programación.
+
+versal de Derechos Humanos y otros instrumentos internacionales de
       derechos humanos y los principios derivados de la misma guían toda la
       cooperación y programación para el desarrollo en todos los sectores y
       en todas las fases del proceso de programación.
 
 ## 3. La cooperación al desarrollo contribuye al desarrollo de las capaci-
 
-      dades de los «titulares de deberes» para cumplir con sus obligaciones
+**Definición Canónica:** dades de los «titulares de deberes» para cumplir con sus obligaciones
+      y/o de los «titulares de derechos» para reclamar sus derechos.
+
+dades de los «titulares de deberes» para cumplir con sus obligaciones
       y/o de los «titulares de derechos» para reclamar sus derechos.
 
    Luego, fue la propia Organización de las Naciones Unidas la que, en
 2006, reforzó el concepto de enfoque basado en derechos humanos, advirtiendo su relevancia a nivel nacional e internacional de la siguiente manera:
 
-
 ## 2 Para más información, véase HRBA Portal, «The Human Rights Based Approach
+
+**Definición Canónica:** to Development Cooperation: Towards a Common Understanding Among UN
+Agencies», disponible en https://bit.ly/3zDNGOz.
+**Concordancias Legales:** Ley 20.885
 
 to Development Cooperation: Towards a Common Understanding Among UN
 Agencies», disponible en https://bit.ly/3zDNGOz.
@@ -4167,8 +4273,15 @@ debiendo fijarse prioridades al momento de satisfacer necesidades:
       públicas para que puedan garantizar los derechos de manera efectiva,
       a la vez que promueve el fortalecimiento de las capacidades de las per-
 
-
 ## 3 Ley que introduce modificaciones en el Decreto Ley 3.346 del Ministerio de
+
+**Definición Canónica:** Justicia, promulgado y publicado en 1980.
+ 4 Para más información, véase Primer Plan Nacional de Derechos Humanos,
+«¿Qué es el plan?», disponible en https://bit.ly/3QhnM9f.
+ 5 El documento es una adaptación realizada por la Subsecretaría de Derechos Humanos de la guía «Ganar Derechos: Lineamientos para la formulación de políticas
+públicas», publicada por el Instituto de Políticas Públicas en Derechos Humanos del
+Mercosur (IPPDH) en 2014.
+**Concordancias Legales:** Ley 20.405
 
 Justicia, promulgado y publicado en 1980.
  4 Para más información, véase Primer Plan Nacional de Derechos Humanos,
@@ -4192,30 +4305,13 @@ analizar y reducir las desigualdades en la atención de la ciudadanía, implemen
 otros» (Poder Judicial y Subcomité de Atención de Usuarios, 2018: 111).
 Luego, identifica sus principales características (Poder Judicial y Subcomité de Atención de Usuarios, 2018: 112):
 
-## 1. Establece como objetivo principal la realización de los derechos
-
-        humanos.
-
-## 2. Orienta su accionar en los principios y en las normas contenidos
-
-        en los tratados internacionales de derechos humanos en todas las
-        fases del proceso de programación.
-
-## 3. Identifica a los titulares de derechos y aquello a lo que tienen dere-
-
-        cho, y a los correspondientes titulares de deberes y las obligaciones
-        que les incumben.
-
-## 4. Considera primordialmente a los grupos vulnerables o de especial
-
-        protección.
-    5. Promueve la articulación de diferentes intervenciones del Estado,
-        es decir, tener un fuerte componente multidisciplinario e interins-
-        titucional.
-
 ## 6. Incorpora ampliamente la participación de la sociedad civil y el
 
-        diálogo constante con los responsables del diseño e implementa-
+**Definición Canónica:** diálogo constante con los responsables del diseño e implementa-
+        ción de las políticas públicas.
+**Concordancias Legales:** artículo 4; artículo 1.1 de la Convención Americana; artículo 29; artículo 1; Ley 21.120; Ley 20.820
+
+diálogo constante con los responsables del diseño e implementa-
         ción de las políticas públicas.
 
 Enfoque de género
@@ -4312,10 +4408,19 @@ se reconoce que:
 
    Refuerza la Corte IDH (2021: párrafo 143), en el caso Barbosa de Souza y otros vs. Brasil, evitar las prácticas con sesgos de géneros que provocan actos discriminatorios basados en estereotipos preconcebidos:
 
-
 ## 143. En el caso Velásquez Paiz y otros vs. Guatemala, la Corte reiteró
 
-      que el estereotipo de género se refiere a una preconcepción de atribu-
+**Definición Canónica:** que el estereotipo de género se refiere a una preconcepción de atribu-
+      tos, conductas o características poseídas o papeles que son o deberían
+      ser ejecutados por hombres y mujeres respectivamente, y que es posible
+      asociar la subordinación de la mujer a prácticas basadas en estereotipos
+      de género socialmente dominantes y socialmente persistentes. En este
+      sentido, su creación y uso se convierte en una de las causas y consecuen-
+      cias de la violencia de género en contra de la mujer, condiciones que
+      se agravan cuando se reflejan, implícita o explícitamente, 
+**Concordancias Legales:** artículo 1; artículo 4.8 de la Convención sobre la Protección y la Promoción
+
+que el estereotipo de género se refiere a una preconcepción de atribu-
       tos, conductas o características poseídas o papeles que son o deberían
       ser ejecutados por hombres y mujeres respectivamente, y que es posible
       asociar la subordinación de la mujer a prácticas basadas en estereotipos
@@ -4364,8 +4469,12 @@ artículo 1:
 y la Promoción de la Diversidad de las Expresiones Culturales8 del 20
 de octubre de 2005, se define el concepto de interculturalidad en los
 
-
 ## 7 Declaración adoptada por la 31.ª reunión de la Conferencia General de Unesco
+
+**Definición Canónica:** en París el 2 de noviembre de 2001.
+ 8 Firmada con ocasión de la 33.º Conferencia General de la ONU para la Educación, la Ciencia y la Cultura en París, llevada a cabo entre el 3 y el 21 de octubre de
+2005.
+**Concordancias Legales:** artículo 1; artículo 28; artículo 2 de la Declaración Universal de Derechos Humanos; Artículo 2; artículo 26 del Pacto Internacional de Derechos Civiles y Pol; Artículo 26; artículo 3 del Pacto Internacional de Derechos Civiles; artículo 1 de la Convención Americana sobre Derechos Humanos e; Ley 19.253
 
 en París el 2 de noviembre de 2001.
  8 Firmada con ocasión de la 33.º Conferencia General de la ONU para la Educación, la Ciencia y la Cultura en París, llevada a cabo entre el 3 y el 21 de octubre de
@@ -4505,10 +4614,19 @@ igual título a gozar de todos los derechos económicos, sociales y culturales e
 cuales los Estados parte se comprometen en protección al principio de
 igualdad ante la ley y no discriminación:
 
-
 ## 138. Sobre el principio de igualdad ante la ley y la no discriminación, la
 
-      Corte ha señalado que la noción de igualdad se desprende directamente
+**Definición Canónica:** Corte ha señalado que la noción de igualdad se desprende directamente
+      de la unidad de naturaleza del género humano y es inseparable de la
+      dignidad esencial de la persona, frente a la cual es incompatible toda si-
+      tuación que, por considerar superior a un determinado grupo, conduz-
+      ca a tratarlo con privilegio; o que, a la inversa, por considerarlo inferior,
+      lo trate con hostilidad o de cualquier forma lo discrimine del goce de
+      derechos que sí se reconocen a quienes no se consideran incursos en tal
+      situación. En la actual etapa de la evolución del derec
+**Concordancias Legales:** Constitucion
+
+Corte ha señalado que la noción de igualdad se desprende directamente
       de la unidad de naturaleza del género humano y es inseparable de la
       dignidad esencial de la persona, frente a la cual es incompatible toda si-
       tuación que, por considerar superior a un determinado grupo, conduz-
@@ -4526,19 +4644,12 @@ igualdad ante la ley y no discriminación:
    Constitucionalmente, estos derechos se encuentran protegidos de la
 siguiente manera:
 
-
-## 1. La igualdad ante la ley e igual protección de la ley en el ejercicio de
-
-      los derechos. Prohibición de toda forma de discriminación arbitraria.
-      Hombres y mujeres son iguales ante la ley (artículo 19, número 2 y 3).
-
-## 2. El derecho a participar con igualdad de oportunidades en la vida
-
-      nacional (artículo 1).
-
 ## 3. La no discriminación arbitraria en el trato que deben dar el Estado y
 
-      sus organismos en materia económica (artículo 19, número 22).
+**Definición Canónica:** sus organismos en materia económica (artículo 19, número 22).
+**Concordancias Legales:** artículo 19; artículo 1; artículo 2; Ley 20.609; Constitucion; Constitución
+
+sus organismos en materia económica (artículo 19, número 22).
 
    Por su parte, el Tribunal Constitucional chileno, en concordancia con
 los derechos fundamentales reconocidos y garantizados en nuestra Carta Fundamental, en el fallo de la causa rol 986-2007 del 30 de enero de
@@ -4581,8 +4692,12 @@ la Constitución o en los tratados internacionales sobre derechos humanos ratifi
       clusión o restricción que carezca de justificación razonable, efectuada
       por agentes del Estado o particulares, y que cause privación, perturba-
 
-
 ## 11 Ley que lleva el nombre de Daniel Zamudio Vera, joven asesinado en razón
+
+**Definición Canónica:** de su orientación sexual y expresión de género el 27 de marzo de 2012. Este hecho
+motivó la celeridad de la tramitación del proyecto de ley ingresado al Congreso el 14
+de marzo de 2005 bajo el Mensaje 315-352.
+**Concordancias Legales:** artículo 19 de la Constitución Política de la Repúbli; artículo 3; artículo 19 de la Cons; artículo 2; Ley 20.609; Constitución Política; constitucion
 
 de su orientación sexual y expresión de género el 27 de marzo de 2012. Este hecho
 motivó la celeridad de la tramitación del proyecto de ley ingresado al Congreso el 14
@@ -4735,8 +4850,9 @@ Así, los 17 Objetivos que han sido acordados son:14
       los ecosistemas terrestres, gestionar sosteniblemente los bosques,
       luchar contra la desertificación, detener e invertir la degradación
 
-
 ## 14 Para conocer el detalle de las metas establecidas para cada Objetivo, véase
+
+**Definición Canónica:** ONU (2015: 17-32).
 
 ONU (2015: 17-32).
 
@@ -4771,6 +4887,8 @@ metas para el logro de este objetivo son:
 17 Objetivos para las personas y para el planeta», disponible en https://bit.ly/2xAD3v9.
 
 ## 16 Organización de las Naciones Unidas, «Resolución aprobada por la Asamblea
+
+**Definición Canónica:** General el 25 de septiembre de 2015», disponible en https://bit.ly/2YJWS1D.
 
 General el 25 de septiembre de 2015», disponible en https://bit.ly/2YJWS1D.
 
@@ -4881,6 +4999,15 @@ un juicio justo en un período de tiempo razonablemente corto. Sin embargo, el 3
 
 ## 2005. En los últimos tres años, se registraron aumentos significativos en
 
+**Definición Canónica:** todas las regiones de Asia y Oceanía.
+   El hacinamiento en las cárceles continúa siendo un problema grave
+en muchos países, que muchas veces genera condiciones inhumanas, la
+violación de derechos humanos, la violencia entre los reclusos y pocas
+perspectivas de rehabilitación. El hacinamiento está acelerando la propagación del covid-19 en las cárceles y en las prisiones de todo el mundo
+debido a la frecuente falta de equipos de protección y de acceso a una
+atención sanitaria adecuada. De los 190 países de todo el mundo de los
+que se dispone de datos, casi el 60% contaba con poblaciones carcela
+
 todas las regiones de Asia y Oceanía.
    El hacinamiento en las cárceles continúa siendo un problema grave
 en muchos países, que muchas veces genera condiciones inhumanas, la
@@ -4942,7 +5069,18 @@ Desarrollo Sostenible, entre ellos destacan los siguientes:
 
 ## parte en la Convención Marco de las Naciones Unidas sobre el
 
-     Cambio Climático, de lograr, para 2020, el objetivo de movilizar
+**Definición Canónica:** Cambio Climático, de lograr, para 2020, el objetivo de movilizar
+     conjuntamente 100.000 millones de dólares anuales procedentes
+     de todas las fuentes a fin de atender las necesidades de los países
+     en desarrollo con respecto a la adopción de medidas concretas de
+     mitigación y la transparencia de su aplicación, y poner en pleno
+     funcionamiento el Fondo Verde para el Clima capitalizándolo lo
+     antes posible.
+   • 13.b. Promover mecanismos para aumentar la capacidad para la
+     planificación y la gestión eficaces en relación con el cambio climá-
+     tico en los países men
+
+Cambio Climático, de lograr, para 2020, el objetivo de movilizar
      conjuntamente 100.000 millones de dólares anuales procedentes
      de todas las fuentes a fin de atender las necesidades de los países
      en desarrollo con respecto a la adopción de medidas concretas de
@@ -5211,8 +5349,11 @@ mejor adaptados a las circunstancias particulares de tales conflictos. Las
 disposiciones de los diversos convenios de derechos humanos se elaboraron, en su mayoría, sin tener en cuenta las condiciones propias de
 los conflictos armados.20 En síntesis, los Convenios de Ginebra pueden
 
-
 ## 19 Para más información, véase Schindler (1979: 3): «El derecho internacional
+
+**Definición Canónica:** humanitario, como parte del derecho de la guerra o del derecho de los conflictos
+armados, tiende a garantizar a las personas puestas fuera de combate, o que ya no
+participan en las hostilidades, una protección y un trato humano».
 
 humanitario, como parte del derecho de la guerra o del derecho de los conflictos
 armados, tiende a garantizar a las personas puestas fuera de combate, o que ya no
@@ -5220,6 +5361,8 @@ participan en las hostilidades, una protección y un trato humano».
 
 ## 20 Para más información, véase Schindler (1979: 10): «Eso se ve, por ejemplo, en el
 
+**Definición Canónica:** Materiales Docentes                                                            Capítulo 2
+**Concordancias Legales:** artículo 3; artículo 2; Artículo 5; artículos 49; Artículo 77 del Estatuto de la Corte Penal Internacional; artículo 110
 
 Materiales Docentes                                                            Capítulo 2
 
@@ -5359,6 +5502,12 @@ decomiso del producto, los bienes y los haberes procedentes directa o indirectam
 
 ## 25 Para más información, véase Comité Internacional de la Cruz Roja (2006: 6 y
 
+**Definición Canónica:** 13, Cruz Roja Americana (2006: 1 y 4), que se refieren a la ratificación de los Protocolos I y II de 1977 que complementan las Convenciones, ampliando las normas humanitarias recogidas en ellas, y señala que, hasta 2006, 166 países habían ratificado
+el Protocolo I y 162 el II.
+ 26 Artículo 3 común a los CG: «En caso de conflicto armado sin carácter internacional y que surja en el territorio de una de las Altas Partes Contratantes, cada una
+de las partes contendientes tendrá la obligación de aplicar, como mínimo, las disposiciones siguientes: 1) las personas que no participen directamente en la
+**Concordancias Legales:** Artículo 3; Constitucion
+
 13, Cruz Roja Americana (2006: 1 y 4), que se refieren a la ratificación de los Protocolos I y II de 1977 que complementan las Convenciones, ampliando las normas humanitarias recogidas en ellas, y señala que, hasta 2006, 166 países habían ratificado
 el Protocolo I y 162 el II.
  26 Artículo 3 común a los CG: «En caso de conflicto armado sin carácter internacional y que surja en el territorio de una de las Altas Partes Contratantes, cada una
@@ -5438,6 +5587,13 @@ imponerles sanciones efectivas.
 
 ## 29 Confrontar con Bassiouni (1996: 63 y 65-66). Con respecto a los efectos que se
 
+**Definición Canónica:** generan de reconocerse el carácter de ius cogens de ciertos crímenes internacionales
+y las dificultades prácticas que han existido para darle plena aplicación, confrontar
+con los capítulos III y IV de dicha obra.
+ 30 Por ejemplo, principalmente en los delitos de asesinato, de tortura, de exterminio y de genocidio se protege el derecho humano a la vida y a la integridad física y
+psíquica; en los delitos de esclavitud, de encarcelamiento y de desaparición forzada
+se protege el derecho humano a la libertad; en los delitos de persecución y de desaparición forzada de personas y de apartheid se prot
+
 generan de reconocerse el carácter de ius cogens de ciertos crímenes internacionales
 y las dificultades prácticas que han existido para darle plena aplicación, confrontar
 con los capítulos III y IV de dicha obra.
@@ -5474,8 +5630,10 @@ Transicional, 2009: 1).
 básicos, sin representar un listado taxativo han sido: a) acciones penales para investigar judicialmente a los responsables de las violaciones
 de los derechos humanos; b) comisiones de verdad para investigar e
 
-
 ## 31 Corte Constitucional de Colombia, acción de tutela incoada por el defensor del
+
+**Definición Canónica:** pueblo, Regional de Bogotá, contra la Red de Solidaridad Social (2000, sentencia
+T-1635/00, párrafo III.1).
 
 pueblo, Regional de Bogotá, contra la Red de Solidaridad Social (2000, sentencia
 T-1635/00, párrafo III.1).
@@ -5492,15 +5650,17 @@ de las víctimas y aumentar la conciencia moral sobre los abusos cometidos y pre
 Transicional, 2009: 1).
    En el sistema de las Naciones Unidas cabe mencionar como principales fuentes de la justicia transicional las siguientes:
 
-## 7. Conjunto de principios actualizado para la protección y la promo-
-
-       ción de los derechos humanos mediante la lucha contra la impu-
-       nidad (Comisión de Derechos Humanos, E/CN.4/2005/102/Add.1,
-       8 de febrero de 2005).
-
 ## 8. Principios y directrices básicos sobre el derecho de las víctimas de
 
-       violaciones manifiestas de las normas internacionales de derechos
+**Definición Canónica:** violaciones manifiestas de las normas internacionales de derechos
+       humanos y de violaciones graves del derecho internacional huma-
+       nitario a interponer recursos y obtener reparaciones (Asamblea
+       General, Resolución 60/147, 16 de diciembre de 2005).
+    9. Resolución 12/11 sobre derechos humanos y justicia de transición,
+       y 12/12 sobre derecho a la verdad (Consejo de Derechos Humanos,
+       1 de octubre de 2009).
+
+violaciones manifiestas de las normas internacionales de derechos
        humanos y de violaciones graves del derecho internacional huma-
        nitario a interponer recursos y obtener reparaciones (Asamblea
        General, Resolución 60/147, 16 de diciembre de 2005).
@@ -5510,7 +5670,14 @@ Transicional, 2009: 1).
 
 ## 10. Relatoría especial sobre verdad, justicia, reparación y garantías
 
-       de no repetición, cuyo primer mandato data de 2011 (Resolución
+**Definición Canónica:** de no repetición, cuyo primer mandato data de 2011 (Resolución
+       del Consejo de Derechos Humanos A/HRC/RES/18/7) y el último
+       vigente de 2020 (Resolución del Consejo de Derechos Humanos
+       A/HRC/RES/45/10).
+   El académico argentino Fabian Salvioli fue designado, a partir del 1 de
+mayo de 2018, como el relator de esta Relatoría, y se ha dedicado en los
+
+de no repetición, cuyo primer mandato data de 2011 (Resolución
        del Consejo de Derechos Humanos A/HRC/RES/18/7) y el último
        vigente de 2020 (Resolución del Consejo de Derechos Humanos
        A/HRC/RES/45/10).
@@ -5625,18 +5792,17 @@ ni la manera en la que sus cuerpos fueron hechos desaparecer; también,
 que a algunos les han rebajado la condena por aplicación de circunstancias atenuantes y la figura de la media prescripción (párrafos 24 a 28).
    Finalmente, en reparación,35 se creó la Corporación Nacional de Re-
 
-
-## 33 Informe Nacional presentado de conformidad con el párrafo 15 a, Anexo a la
-
-Resolución 5/1 del Consejo de Derechos Humanos, A/HRC/WG.6/5/CHL/1, párrafo
-20: «Calificó en su informe final a 3.195 víctimas».
-
 ## 34 Informe Nacional presentado de conformidad con el párrafo 23: «Calificó a las
+
+**Definición Canónica:** víctimas que sufrieron privación de libertad y torturas por razones políticas, situaciones no incluidas en la investigación efectuada por la Comisión Rettig. La Comisión Valech recibió el testimonio de 35.868 personas, de las cuales 28.459 personas
+residentes en el país y en el extranjero quedaron calificadas como víctimas».
 
 víctimas que sufrieron privación de libertad y torturas por razones políticas, situaciones no incluidas en la investigación efectuada por la Comisión Rettig. La Comisión Valech recibió el testimonio de 35.868 personas, de las cuales 28.459 personas
 residentes en el país y en el extranjero quedaron calificadas como víctimas».
 
 ## 35 Informe Nacional, presentado de conformidad con el párrafo 32, destaca que
+
+**Definición Canónica:** «la inversión del Estado en medidas de reparación a las víctimas de violación de de-
 
 «la inversión del Estado en medidas de reparación a las víctimas de violación de de-
 
@@ -5668,6 +5834,12 @@ rechos humanos ha sido contundente. Entre 2000 y 2008 […] ha superado los 1.60
 millones de dólares».
 
 ## 36 Nótese que, en la década de del ochenta, la Comisión Europea de Derechos
+
+**Definición Canónica:** Humanos, a propósito del caso Mrs. W. v. The United Kingdom (1983, requerimiento
+9348/81: 194,195) señaló que, si bien el terrorismo es visto como un problema internacional y se recomienda la cooperación en su prosecución y castigo, no existen decisiones uniformes que lo consideren norma de ius cogens internacional; el control
+del terrorismo en todos los aspectos es exclusivamente una materia de jurisdicción
+interna. Luego, Kelly (2004: 69) destaca que existe un antes y después tratándose
+de terrorismo, tras el atentado a las torres gemelas en Estados Unidos el 11 de septiembre de 2001, con re
 
 Humanos, a propósito del caso Mrs. W. v. The United Kingdom (1983, requerimiento
 9348/81: 194,195) señaló que, si bien el terrorismo es visto como un problema internacional y se recomienda la cooperación en su prosecución y castigo, no existen decisiones uniformes que lo consideren norma de ius cogens internacional; el control
@@ -5708,6 +5880,14 @@ este crimen internacional en el marco de las normas internacionales que requiere
 la adecuación de sus normas internas a los compromisos internacionales».
 
 ## 37 Confrontar con Minagawa (1968: 8), Kelly (2004: 76) y Mariño (2005: 825 y
+
+**Definición Canónica:** 826). Además, considérese que ello queda de manifiesto en la precisión de contenido
+de la norma que prohíbe el uso o amenaza de la fuerza que realiza la Declaración
+sobre los Principios de Derecho Internacional referentes a las relaciones de amistad
+y a la cooperación entre los Estados de conformidad con la Carta de las Naciones
+Unidas de 1970: «Todo Estado tiene el deber de abstenerse de organizar, instigar,
+ayudar o participar en actos de guerra civil o en actos de terrorismo en otro Estado o
+de consentir actividades organizadas dentro de su territorio encaminadas a la comisión de dichos act
 
 826). Además, considérese que ello queda de manifiesto en la precisión de contenido
 de la norma que prohíbe el uso o amenaza de la fuerza que realiza la Declaración
@@ -5924,6 +6104,9 @@ vulnerabilidad:
 
 ## 41 Adoptadas en la XIV Cumbre Judicial Iberoamericana celebrada en Brasilia
 
+**Definición Canónica:** entre el 4 y el 6 de marzo de 2008.
+**Concordancias Legales:** artículo 1; artículo 19 de la Convención Americana sobre Derechos Humanos; artículo 19 de la CADH
+
 entre el 4 y el 6 de marzo de 2008.
 
       lidad en cada país dependerá de sus características específicas, o incluso
@@ -6026,12 +6209,9 @@ otros grupos prioritarios, informa a través de un panorama estadístico
 las cifras de la figura 3:44
    Por su parte, la Corte Interamericana de Derechos Humanos, en la
 
-
-## 43 Informe que aborda el período comprendido entre 29 de junio de 2020 y el 29
-
-de junio de 2021, disponible en https://bit.ly/39u64P7.
-
 ## 44 Defensoría de la Niñez, «Datos clave y estadísticas de la niñez y adolescencia
+
+**Definición Canónica:** en Chile», disponible en https://bit.ly/3yop0Y3.
 
 en Chile», disponible en https://bit.ly/3yop0Y3.
 
@@ -6042,10 +6222,13 @@ en Chile», disponible en https://bit.ly/3yop0Y3.
 
                                                 Pueblos originarios
 
-
 ## 596.582                                                Después de la Región Metropolitana la mayor
 
-                                                                     cantidad de niños, niñas y adolescentes
+**Definición Canónica:** cantidad de niños, niñas y adolescentes
+                                                                     de pueblos originarios se concentran en
+                                                                     La Araucanía, Los Lagos y Biobío.
+
+cantidad de niños, niñas y adolescentes
                                                                      de pueblos originarios se concentran en
                                                                      La Araucanía, Los Lagos y Biobío.
 
@@ -6106,7 +6289,17 @@ de familia:
 
 ## parte del Estado. No obstante, la Corte recuerda que no existe un mode-
 
-      lo único de familia. Por ello, la definición de familia no debe restringirse
+**Definición Canónica:** lo único de familia. Por ello, la definición de familia no debe restringirse
+      por la noción tradicional de una pareja y sus hijos, pues también pueden
+      ser titulares del derecho a la vida familiar otros parientes, como los tíos,
+      primos y abuelos, para enumerar sólo algunos miembros posibles de la
+      familia extensa, siempre que tengan lazos cercanos personales. Además,
+      en muchas familias la(s) persona(s) a cargo de la atención, el cuidado
+      y el desarrollo de una niña o niño en forma legal o habitual no son los
+      padres biológicos (Corte IDH, 2014: párrafo 272)
+**Concordancias Legales:** artículo 2 de la Declaración Universal de los Derechos Humanos; artículo 1 de la Convención Americana de Derechos Humanos refu; artículo 26; artículo 1; artículo 2; constitucion
+
+lo único de familia. Por ello, la definición de familia no debe restringirse
       por la noción tradicional de una pareja y sus hijos, pues también pueden
       ser titulares del derecho a la vida familiar otros parientes, como los tíos,
       primos y abuelos, para enumerar sólo algunos miembros posibles de la
@@ -6207,10 +6400,18 @@ se recalca el compromiso de los Estados parte: velar por la protección
 de los derechos fundamentales y, en especial consideración, los de las
 mujeres y niñas. Como se puede ver:
 
-
 ## 18. Los derechos humanos de la mujer y de la niña son parte inaliena-
 
-      ble, integral e indivisible de los derechos humanos universales. La par-
+**Definición Canónica:** ble, integral e indivisible de los derechos humanos universales. La par-
+      ticipación plena e igualitaria de la mujer en la vida política, civil, econó-
+      mica, social y cultural, en los planos nacional, regional e internacional, y
+      la erradicación de todas las formas de discriminación por razón de sexo
+      son objetivos prioritarios de la comunidad internacional.
+       La violencia de género y todas las formas de acoso y explotación se-
+      xual, incluidas las resultantes de los prejuicios culturales y la trata inter-
+      nacional, son incompatibles con la dignidad y el va
+
+ble, integral e indivisible de los derechos humanos universales. La par-
       ticipación plena e igualitaria de la mujer en la vida política, civil, econó-
       mica, social y cultural, en los planos nacional, regional e internacional, y
       la erradicación de todas las formas de discriminación por razón de sexo
@@ -6267,10 +6468,9 @@ mujeres de 2018,47 las cifras que revelan son alarmantes.
   En el caso González y otras (Campo Algodonero) vs. México,48 la Corte
 IDH recuerda la importancia de evitar los actos de violencia y discriminación contra las mujeres:
 
-
 ## 401. En similar forma, el Tribunal considera que el estereotipo de géne-
 
-      ro se refiere a una preconcepción de atributos o características poseídas
+**Definición Canónica:** ro se refiere a una preconcepción de atributos o características poseídas
       o papeles que son o deberían ser ejecutados por hombres y mujeres res-
       pectivamente. Teniendo en cuenta las manifestaciones efectuadas por
       el Estado (supra párrafo 398), es posible asociar la subordinación de la
@@ -6278,8 +6478,22 @@ IDH recuerda la importancia de evitar los actos de violencia y discriminación c
       nantes y socialmente persistentes, condiciones que se agravan cuando
       los estereotipos se reflejan, implícita o explícitamente, en políticas y
 
+ro se refiere a una preconcepción de atributos o características poseídas
+      o papeles que son o deberían ser ejecutados por hombres y mujeres res-
+      pectivamente. Teniendo en cuenta las manifestaciones efectuadas por
+      el Estado (supra párrafo 398), es posible asociar la subordinación de la
+      mujer a prácticas basadas en estereotipos de género socialmente domi-
+      nantes y socialmente persistentes, condiciones que se agravan cuando
+      los estereotipos se reflejan, implícita o explícitamente, en políticas y
 
 ## 45 Comité de las Naciones Unidas para la Eliminación de todas las Formas de
+
+**Definición Canónica:** Discriminación contra la Mujer, 69.° período de sesiones en Ginebra, Suiza, de 2018.
+Observaciones finales al séptimo informe periódico de Chile sobre la implementación de la Convención sobre la Eliminación de todas las Formas de Discriminación
+contra la Mujer en el país. De acuerdo con el documento, el Estado de Chile deberá
+reportar nuevamente ante el Comité CEDAW en marzo de 2022.
+ 46 Organización Panamericana de la Salud, «Violencia contra la mujer», disponible en https://bit.ly/3tCwXqS.
+ 47 Organización Mundial de la Salud, «Prevalencia estimada de la violencia contra las mujeres», 2018, 
 
 Discriminación contra la Mujer, 69.° período de sesiones en Ginebra, Suiza, de 2018.
 Observaciones finales al séptimo informe periódico de Chile sobre la implementación de la Convención sobre la Eliminación de todas las Formas de Discriminación
@@ -6294,10 +6508,17 @@ reportar nuevamente ante el Comité CEDAW en marzo de 2022.
                Figura 4. Estimaciones mundiales y de la región de Las Américas de la violencia
                          de pareja y la violencia sexual inflingida por otros en el 2018.
 
-
 ## Prevalencia a lo largo de la vida
 
-                                                              En las mujeres de 15 a 49 años que han
+**Definición Canónica:** En las mujeres de 15 a 49 años que han
+                                                              estado alguna vez casadas o en pareja
+                                        27%                   y que han sufrido violencia física o sexual
+  Violencia                                                   por el esposo o el compañero actual o anterior
+  de pareja                                                   por lo menos una vez en su vida (desde los
+                                     25%                      15 años). Esto da un promedio de 53 millones
+                                  
+
+En las mujeres de 15 a 49 años que han
                                                               estado alguna vez casadas o en pareja
                                         27%                   y que han sufrido violencia física o sexual
   Violencia                                                   por el esposo o el compañero actual o anterior
@@ -6306,10 +6527,19 @@ reportar nuevamente ante el Comité CEDAW en marzo de 2022.
                                                               de mujeres y un máximo de 66 millones de
                                                               mujeres en esta Región.
 
-
 ## Prevalencia en los 12 meses precedentes
 
-                                                              En las mujeres de 15 a 49 años que han
+**Definición Canónica:** En las mujeres de 15 a 49 años que han
+                          13%                                 estado alguna vez casadas o en pareja
+                                                              y que han sufrido violencia física o sexual
+                                                              por el esposo o el compañero actual o anterior
+  Violencia          7%                                       en los 12 meses precedentes.
+     sexual
+  inflingida                                                  PREVALENCIA A LO LARGO DE LA VIDA
+  por otros         6%                         
+**Concordancias Legales:** artículo 5; artículo 6; artículo 7; artículo 8; artículo 9; artículo 10; artículo 11; artículo 12; artículo 13; artículo 14; artículo 15; artículo 16; artículo 17; artículo 18; artículo 19; artículo 20; artículo 21; artículo 22; artículo 23; artículo 24; artículo 25; artículo 26; artículo 27; artículo 28; artículo 29; artículo 30; artículo 31; artículo 74 bis del Código de Procedimiento Penal
+
+En las mujeres de 15 a 49 años que han
                           13%                                 estado alguna vez casadas o en pareja
                                                               y que han sufrido violencia física o sexual
                                                               por el esposo o el compañero actual o anterior
@@ -6477,8 +6707,11 @@ de una especial atención tratándose de personas migrantes, de acuerdo
 con los estándares internacionales que se han ido desarrollando, ya hace
 algunas décadas en la materia, en dos partes. La primera, agrupa a aque-
 
-
 ## 49 Observación General 18 del CteDH de 1989, párrafo 13; Observación General
+
+**Definición Canónica:** 20 del Comité de Derechos Económicos, Sociales y Culturales, sobre la no discriminación y los derechos económicos, sociales y culturales de 2009, párrafo 13; Recomendación General 30 del Comité para la Eliminación de la Discriminación Racial,
+sobre la discriminación contra los no ciudadanos de 2005, párrafos 3 y 4.
+**Concordancias Legales:** artículos 1; artículo 2 de la Declaración Americana sobre Derechos y Debere; artículos 2.1; artículo 2.2 del Pacto Internacional de Derechos Económicos; artículo 1 de la Convención Americana sobre Derechos Humanos d; artículos 1.1
 
 20 del Comité de Derechos Económicos, Sociales y Culturales, sobre la no discriminación y los derechos económicos, sociales y culturales de 2009, párrafo 13; Recomendación General 30 del Comité para la Eliminación de la Discriminación Racial,
 sobre la discriminación contra los no ciudadanos de 2005, párrafos 3 y 4.
@@ -6542,8 +6775,13 @@ igualdad con los nacionales y, tratándose de la educación secundaria
 y superior, debe ser generalizada y el acceso igualitario para todos en
 función de sus capacidades y méritos;51 acceso a ayudas en materia de
 
-
 ## 50 Para más información, véase Declaración Universal de los Derechos Humanos
+
+**Definición Canónica:** (1948: artículo 25); CEDR (1965: artículo 5.e.iv); Pacto Internacional de Derechos
+Económicos, Sociales y Culturales (1966: artículo 12); Observación General 14 del
+CteDESC, sobre el derecho al disfrute del más alto nivel posible de salud de 2000,
+párrafos 18-24; CDN (1989: artículo 242); CTMF (1990, artículos 28 y 43.1.e); Recomendación General 30 del CteCEDR (2005: párrafo 36).
+**Concordancias Legales:** artículo 25; artículo 5; artículo 12; artículo 242; artículos 28
 
 (1948: artículo 25); CEDR (1965: artículo 5.e.iv); Pacto Internacional de Derechos
 Económicos, Sociales y Culturales (1966: artículo 12); Observación General 14 del
@@ -6551,6 +6789,9 @@ CteDESC, sobre el derecho al disfrute del más alto nivel posible de salud de 20
 párrafos 18-24; CDN (1989: artículo 242); CTMF (1990, artículos 28 y 43.1.e); Recomendación General 30 del CteCEDR (2005: párrafo 36).
 
 ## 51 Para más información, véase Declaración Universal de los Derechos Humanos
+
+**Definición Canónica:** ( 1948: artículo 26); CEDR (1965: artículo 5.e.v); PDESC (1966: artículos 13 y 14);
+**Concordancias Legales:** artículo 26; artículo 5; artículos 13; artículo 28; artículos 30
 
 ( 1948: artículo 26); CEDR (1965: artículo 5.e.v); PDESC (1966: artículos 13 y 14);
 
@@ -6577,10 +6818,21 @@ artículos 30, 43.1.a); Recomendación General 30 del CteCEDR (2005: párrafo 30
 
 ## 52 Para más información, véase Declaración Universal de los Derechos Humanos
 
+**Definición Canónica:** (1948: artículo 25); CEDR (1965: artículo 5.e.iii); PDESC (1966: artículo 11.1); Observación General 4 del CteDESC, sobre el derecho a una vivienda adecuada (1992); Observación General 7 del CteDESC, sobre los desalojos forzosos (1997: párrafo 10); CTMF
+(1990: artículo 43.1.d); Recomendación General 30 del CteCEDR (2005: párrafo 32).
+**Concordancias Legales:** artículo 25; artículo 5; artículo 11.1; artículo 43.1
+
 (1948: artículo 25); CEDR (1965: artículo 5.e.iii); PDESC (1966: artículo 11.1); Observación General 4 del CteDESC, sobre el derecho a una vivienda adecuada (1992); Observación General 7 del CteDESC, sobre los desalojos forzosos (1997: párrafo 10); CTMF
 (1990: artículo 43.1.d); Recomendación General 30 del CteCEDR (2005: párrafo 32).
 
 ## 53 Para más información, véase Declaración Universal de los Derechos Humanos
+
+**Definición Canónica:** (1948: artículos 23 y 24); DADH (1948: artículos 14 y 37); CEDR (1965: artículo 5.e.i
+y ii); PDESC (1966: artículos 6-8, 10.3, 40); Observación General 18 del CteDESC,
+sobre el derecho al trabajo (2006); Observación General 23 del CteDESC, sobre derecho a condiciones justas y favorables de trabajo (2016); CTMF (1990: artículos 25
+y 26, 52-56); Corte IDH, Opinión Consultiva 18 (2003); Recomendación General 30
+del CteCEDR (2005: párrafos: 33-35).
+**Concordancias Legales:** artículos 23; artículos 14; artículo 5; artículos 6; artículos 25
 
 (1948: artículos 23 y 24); DADH (1948: artículos 14 y 37); CEDR (1965: artículo 5.e.i
 y ii); PDESC (1966: artículos 6-8, 10.3, 40); Observación General 18 del CteDESC,
@@ -6588,12 +6840,11 @@ sobre el derecho al trabajo (2006); Observación General 23 del CteDESC, sobre d
 y 26, 52-56); Corte IDH, Opinión Consultiva 18 (2003); Recomendación General 30
 del CteCEDR (2005: párrafos: 33-35).
 
-## 54 Para más información, véase Declaración Universal de los Derechos Humanos
-
-(1948: artículo 25); CEDR (1965: artículo 5.e.iv); PIDESC (1966: artículo 9); CteDESC,
-OG 19 sobre el derecho a la seguridad social (2008); CTMF (1990: artículo 27).
-
 ## 55 Para más información, véase Bill of Rights inglés de 1689, la Declaración de
+
+**Definición Canónica:** Derechos de Virginia de 1776 en Estados Unidos y la Declaración de Derechos del
+Hombre y del Ciudadano de 1789 en Francia.
+**Concordancias Legales:** artículo 23.2 de la Convención Americana sobre Derechos Humanos s; artículo 21 de la Declaración Universal de los Derechos Humanos; artículo 2; artículo 25 del Pacto Internacional de Derechos Civiles y Pol; artículo 20 de la Declaración Americana de Derechos y Deberes d; artículo 23 de la Convención Americana sobre Derechos Humanos d; artículo 1; artículo 5; artículo 22.8; artículo 22.9; artículo 22.1; artículos 16.3 de la Declaración Universal de los Derechos Humanos; artículo 23.1 del Pacto Internacional de Derechos Civiles y Pol; artículo 10.1 del PIDESC de 1966 y en el artículo 17 de la CADH
 
 Derechos de Virginia de 1776 en Estados Unidos y la Declaración de Derechos del
 Hombre y del Ciudadano de 1789 en Francia.
@@ -6684,6 +6935,11 @@ el artículo 10.1 del PIDESC de 1966 y en el artículo 17 de la CADH de
 
 ## 1969. Luego, ninguno de estos instrumentos internacionales reconoce
 
+**Definición Canónica:** expresamente y de manera autónoma el derecho a la reagrupación familiar (Sánchez-Rodas, 2006: 298). Por su parte, la CTMF de 1990, en su
+artículo 44, se refiere expresamente a la obligación de adoptar las medidas apropiadas para asegurar la protección de la unidad de la familia del
+trabajador migratorio, y manda a los Estados a que al menos faciliten la
+**Concordancias Legales:** artículo 44
+
 expresamente y de manera autónoma el derecho a la reagrupación familiar (Sánchez-Rodas, 2006: 298). Por su parte, la CTMF de 1990, en su
 artículo 44, se refiere expresamente a la obligación de adoptar las medidas apropiadas para asegurar la protección de la unidad de la familia del
 trabajador migratorio, y manda a los Estados a que al menos faciliten la
@@ -6693,6 +6949,9 @@ trabajador migratorio, y manda a los Estados a que al menos faciliten la
 155, 168-174.
 
 ## 61 Para más información, véase CTMF, 1990, artículo 23; Observación General 2
+
+**Definición Canónica:** del CteTMF de 2013, párrafo 59.
+ 62 Para más información, véase Corte IDH, Caso Nadege , 2012, serie C 251, párrafo 166, Caso Vélez, 2010, serie C 218, párrafos 149-158.
 
 del CteTMF de 2013, párrafo 59.
  62 Para más información, véase Corte IDH, Caso Nadege , 2012, serie C 251, párrafo 166, Caso Vélez, 2010, serie C 218, párrafos 149-158.
@@ -6728,6 +6987,11 @@ los lazos familiares y no tanto de que los vínculos sean naturales o legales, a
 la existencia de un vínculo de dependencia. Véase también Goic (2004: 248-249).
 
 ## 64 Para más información, véase Fernández (2001: 392). Así, la Recomendación
+
+**Definición Canónica:** General 30 del CteCEDR de 2005, en su párrafo 28, recomienda «evitar la expulsión
+de los no ciudadanos, especialmente de los residentes de larga data, que pueda tener
+como resultado una interferencia desproporcionada en el derecho a la vida familiar».
+**Concordancias Legales:** artículo 13; artículo 20; artículo 21; artículo 24; artículo 26; artículo 2; artículos 8; Artículo 8
 
 General 30 del CteCEDR de 2005, en su párrafo 28, recomienda «evitar la expulsión
 de los no ciudadanos, especialmente de los residentes de larga data, que pueda tener
@@ -6768,46 +7032,36 @@ legislación, con el sistema jurídico e incluso con la aplicación de penas:
 
        Artículo 8
 
-## 1. Al aplicar la legislación nacional a los pueblos interesados deberán
-
-
-      tomarse debidamente en consideración sus costumbres o su derecho
-      consuetudinario.
-
 ## 2. Dichos pueblos deberán tener el derecho de conservar sus costumbres
 
-      e instituciones propias, siempre que estas no sean incompatibles con los
+**Definición Canónica:** e instituciones propias, siempre que estas no sean incompatibles con los
       derechos fundamentales definidos por el sistema jurídico nacional ni con
       los derechos humanos internacionalmente reconocidos. Siempre que sea
       necesario, deberán establecerse procedimientos para solucionar los con-
       flictos que puedan surgir en la aplicación de este principio.
 
-## 3. La aplicación de los párrafos 1 y 2 de este artículo no deberá impedir
-
-      a los miembros de dichos pueblos ejercer los derechos reconocidos a to-
-      dos los ciudadanos del país y asumir las obligaciones correspondientes.
-        Artículo 9
+e instituciones propias, siempre que estas no sean incompatibles con los
+      derechos fundamentales definidos por el sistema jurídico nacional ni con
+      los derechos humanos internacionalmente reconocidos. Siempre que sea
+      necesario, deberán establecerse procedimientos para solucionar los con-
+      flictos que puedan surgir en la aplicación de este principio.
 
 ## 1. En la medida en que ello sea compatible con el sistema jurídico nacio-
 
-      nal y con los derechos humanos internacionalmente reconocidos, deberán
+**Definición Canónica:** nal y con los derechos humanos internacionalmente reconocidos, deberán
       respetarse los métodos a los que los pueblos interesados recurren tradi-
       cionalmente para la represión de los delitos cometidos por sus miembros.
 
-## 2. Las autoridades y los tribunales llamados a pronunciarse sobre cues-
-
-      tiones penales deberán tener en cuenta las costumbres de dichos pue-
-      blos en la materia.
-        Artículo 10
-
-## 1. Cuando se impongan sanciones penales previstas por la legislación
-
-      general a miembros de dichos pueblos deberán tenerse en cuenta sus
-      características económicas, sociales y culturales.
+nal y con los derechos humanos internacionalmente reconocidos, deberán
+      respetarse los métodos a los que los pueblos interesados recurren tradi-
+      cionalmente para la represión de los delitos cometidos por sus miembros.
 
 ## 2. Deberá darse la preferencia a tipos de sanción distintos del encarce-
 
-      lamiento.
+**Definición Canónica:** lamiento.
+**Concordancias Legales:** artículo 1
+
+lamiento.
 
    Otro instrumento específico, aunque no es vinculante, es la Declaración de Naciones Unidas sobre los Derechos de los Pueblos Indígenas,
 adoptada por la Asamblea General de Naciones Unidas, el 13 de septiembre de 2007. Así, la Declaración reconoce los derechos básicos de
@@ -6835,17 +7089,24 @@ de las Personas con Discapacidad. Entre las personas con discapacidad
 incluyen a aquellas que tengan deficiencias físicas, mentales, intelectuales o sensoriales a largo plazo que, al interactuar con diversas barreras, puedan impedir su participación plena y efectiva en la sociedad, en
 igualdad de condiciones con las demás.68
 
-
 ## 65 Convención sobre los derechos de las personas con discapacidad, disponible
+
+**Definición Canónica:** en https://bit.ly/2MEvgpp.
+ 66 Biblioteca del Congreso Nacional de Chile, «Decreto 201: Promulga la Convención de las Naciones Unidas sobre los Derechos de las Personas con Discapacidad y su Protocolo Facultativo», disponible en https://bit.ly/3Hti7sH.
 
 en https://bit.ly/2MEvgpp.
  66 Biblioteca del Congreso Nacional de Chile, «Decreto 201: Promulga la Convención de las Naciones Unidas sobre los Derechos de las Personas con Discapacidad y su Protocolo Facultativo», disponible en https://bit.ly/3Hti7sH.
 
-## 67 Última revisión de 27 de julio de 2021. Disponible en: https://www.ohchr.org/SP/
-
-ProfessionalInterest/Pages/OptionalProtocolRightsPersonsWithDisabilities.aspx
-
 ## 68 Para más información, véase el artículo 1, inciso segundo, de la Convención
+
+**Definición Canónica:** sobre los Derechos de las Personas con Discapacidad: 1. Los Estados Partes asegurarán que las personas con discapacidad tengan acceso a la justicia en igualdad de
+condiciones con las demás, incluso mediante ajustes de procedimiento y adecuados
+a la edad, para facilitar el desempeño de las funciones efectivas de esas personas
+como participantes directos e indirectos, incluida la declaración como testigos, en
+todos los procedimientos judiciales, con inclusión de la etapa de investigación y
+otras etapas preliminares. 2. A fin de asegurar que las personas con discapacidad
+tengan acceso efectivo a 
+**Concordancias Legales:** artículo 3; artículo 4; artículo 5; artículo 6; artículo 7; artículo 8; artículo 9; artículo 10; artículo 11; artículo 12; artículo 13; artículo 14; artículo 15; artículo 16; artículo 17; artículo 18; artículo 19; artículo 20; artículo 21; artículo 22; artículo 23; artículo 24; artículo 25; artículo 26; artículo 27; artículo 28; artículo 29; artículo 30
 
 sobre los Derechos de las Personas con Discapacidad: 1. Los Estados Partes asegurarán que las personas con discapacidad tengan acceso a la justicia en igualdad de
 condiciones con las demás, incluso mediante ajustes de procedimiento y adecuados
@@ -6889,6 +7150,8 @@ policial y penitenciario.
 
 ## 70 Para más información, véase el artículo 1, sobre Protocolo facultativo de la
 
+**Definición Canónica:** Convención sobre los derechos de las personas con discapacidad.
+
 Convención sobre los derechos de las personas con discapacidad.
 
 presentan un recurso de protección en favor de las personas sordomudas del país en contra de diversos canales de Televisión. En opinión de
@@ -6919,6 +7182,10 @@ determinar derechos, lo que hace en el articulado es especificar una se-
 contra las Personas con Discapacidad», disponible en https://bit.ly/2YeKk2K.
 
 ## 74 Para más información, véase artículo 2, sobre Convención Interamericana
+
+**Definición Canónica:** para la Eliminación de todas las Formas de Discriminación Contra las Personas
+con Discapacidad.
+**Concordancias Legales:** artículo 28 de la Ley 20.422 no era exigible a la época de ocur; artículo 5.1 de la Convención consagra en términos generales el; artículo 5.2; artículo 5.2 de la Convención Americana acarreará necesariamente; artículo 5.1; Ley 20.422; Ley 19.284
 
 para la Eliminación de todas las Formas de Discriminación Contra las Personas
 con Discapacidad.
@@ -7065,11 +7332,16 @@ contra la Mujer recomendó al Estado de Chile:
 
        Adoptar de manera prioritaria una completa definición legal sobre to-
 
-
 ## 81 Corte Suprema, rol 18252-2017, del 27 de noviembre de 2018
 
+**Definición Canónica:** das las formas de discriminación contra las mujeres, así como a superar
+      la cultura machista y los estereotipos discriminatorios sobre el rol de las
+      mujeres en la familia y la sociedad. Las y los expertos también instaron
+      al país a adoptar medidas para combatir la discriminación múltiple, por
+      ejemplo contra mujeres con discapacidad, indígenas, afrodescendientes,
+      migrantes y mujeres lesbianas, bisexuales, transgénero e intersex (LBTI).82
 
-      das las formas de discriminación contra las mujeres, así como a superar
+das las formas de discriminación contra las mujeres, así como a superar
       la cultura machista y los estereotipos discriminatorios sobre el rol de las
       mujeres en la familia y la sociedad. Las y los expertos también instaron
       al país a adoptar medidas para combatir la discriminación múltiple, por
@@ -7083,10 +7355,17 @@ graves actos de violencia física y psicológica, específicamente siendo la
 víctima perteneciente a las personas LGBTI. Destacamos lo señalado en
 sus párrafos 90 y 93:
 
-
 ## 90. La Corte Interamericana ha reconocido que las personas LGBTI
 
-      han sido históricamente víctimas de discriminación estructural, estig-
+**Definición Canónica:** han sido históricamente víctimas de discriminación estructural, estig-
+      matización, diversas formas de violencia y violaciones a sus derechos
+      fundamentales. En este sentido, ya ha establecido que la orientación
+      sexual, identidad de género o expresión de género de la persona son
+      categorías protegidas por la Convención. En consecuencia, el Estado no
+      puede actuar en contra de una persona por motivo de su orientación
+      sexual, su identidad de género y/o su expresión de género.
+
+han sido históricamente víctimas de discriminación estructural, estig-
       matización, diversas formas de violencia y violaciones a sus derechos
       fundamentales. En este sentido, ya ha establecido que la orientación
       sexual, identidad de género o expresión de género de la persona son
@@ -7096,7 +7375,16 @@ sus párrafos 90 y 93:
 
 ## 93. La violencia contra las personas LGBTI tiene un fin simbólico, la
 
-      víctima es elegida con el propósito de comunicar un mensaje de exclu-
+**Definición Canónica:** víctima es elegida con el propósito de comunicar un mensaje de exclu-
+      sión o de subordinación. Sobre este punto, la Corte ha señalado que
+      la violencia ejercida por razones discriminatorias tiene como efecto o
+      propósito el de impedir o anular el reconocimiento, goce o ejercicio de
+      los derechos humanos y libertades fundamentales de la persona obje-
+      to de dicha discriminación, independientemente de si dicha persona
+      se auto-identifica o no con una determinada categoría. Esta violencia,
+      alimentada por discursos de odio, puede dar lugar a crímenes de odio.
+
+víctima es elegida con el propósito de comunicar un mensaje de exclu-
       sión o de subordinación. Sobre este punto, la Corte ha señalado que
       la violencia ejercida por razones discriminatorias tiene como efecto o
       propósito el de impedir o anular el reconocimiento, goce o ejercicio de
@@ -7109,8 +7397,11 @@ sus párrafos 90 y 93:
 
        La identidad de género, es una garantía inherente a la condición de per-
 
-
 ## 82 Comité para la Eliminación de Todas las Formas de Discriminación contra la
+
+**Definición Canónica:** Mujer. 69.° período de sesiones en Ginebra, Suiza, 2018). Observaciones finales al séptimo informe periódico de Chile sobre la implementación de la Convención sobre la
+Eliminación de Todas las Formas de Discriminación contra la Mujer en el país.
+**Concordancias Legales:** Ley 21.120
 
 Mujer. 69.° período de sesiones en Ginebra, Suiza, 2018). Observaciones finales al séptimo informe periódico de Chile sobre la implementación de la Convención sobre la
 Eliminación de Todas las Formas de Discriminación contra la Mujer en el país.
@@ -7173,22 +7464,21 @@ de privación de libertad en los Estados miembros de la OEA. Para ello, y
 entre otras funciones, la Relatoría realiza visitas a los Estados, promueve
 los mecanismos del Sistema Interamericano de Derechos Humanos a
 
-
 ## 83 Adoptadas en el Primer Congreso de las Naciones Unidas sobre Prevención del
+
+**Definición Canónica:** Delito y Tratamiento del Delincuente en 1955 y aprobadas por el Consejo Económico y Social en sus resoluciones 663 C (XXIV) del 31 de julio de 1957, y 2076 (LXII)
+del 13 de mayo de 1977.
+ 84 Adoptadas por la Asamblea General en su resolución 40/33 del 28 de noviembre de 1985.
 
 Delito y Tratamiento del Delincuente en 1955 y aprobadas por el Consejo Económico y Social en sus resoluciones 663 C (XXIV) del 31 de julio de 1957, y 2076 (LXII)
 del 13 de mayo de 1977.
  84 Adoptadas por la Asamblea General en su resolución 40/33 del 28 de noviembre de 1985.
 
-## 85 Adoptado por la Asamblea General en su resolución 40/34 del 29 de noviembre
-
-de 1985.
-
-## 86 Adoptado por la Asamblea General en su resolución 43/173 del 9 de diciembre
-
-de 1988.
-
 ## 87 Adoptados y proclamados por la Asamblea General en su resolución 45/111 del
+
+**Definición Canónica:** 14 de diciembre de 1990.
+ 88 Adoptadas por la Asamblea General en su resolución 45/110 del 14 de diciembre de 1990.
+ 89 Adoptadas por la Asamblea General en su resolución 45/113 del 14 de diciembre de 1990.
 
 14 de diciembre de 1990.
  88 Adoptadas por la Asamblea General en su resolución 45/110 del 14 de diciembre de 1990.
@@ -7227,8 +7517,9 @@ Buenas Prácticas sobre la Protección de las Personas Privadas de Libertad en l
       la persona ofendida por el delito, c) sea necesario para proteger la
       seguridad de la sociedad (gravedad del delito, existencia de ante-
 
-
 ## 90 OEA, «Relatoría sobre los Derechos de las Personas Privadas de Libertad y
+
+**Definición Canónica:** para la Prevención y Combate a la Tortura», disponible en https://bit.ly/3xSrOxo.
 
 para la Prevención y Combate a la Tortura», disponible en https://bit.ly/3xSrOxo.
 
@@ -7350,8 +7641,10 @@ o restringirse debido a (INDH, 2014: 10):
 
 Materiales Docentes                                                           Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Mecanismos para la salvaguarda
+**Concordancias Legales:** artículo 25 del Acta Constitutiva y las reformas en 1847.1 En; artículo 1; Constitucion; Constitución
 
 Mecanismos para la salvaguarda
 
@@ -7378,8 +7671,13 @@ reformas en 1847.1 En Chile, surge a propósito de las Actas Constitucionales, e
   Como se desprende, la redacción es muy similar a la que se mantuvo
 en la Constitución de 1980, considerándose, incluso, la gran reforma de
 
-
 ## 1 Artículo 25. Los tribunales de la Federación ampararán a cualquier habitante
+
+**Definición Canónica:** de la República, en el ejercicio y conservación de los derechos que le concedan esta
+Constitución y las leyes constitucionales, contra todo ataque de los poderes legislativo y ejecutivo, ya de la Federación, ya de los Estados, limitándose dichos tribunales
+a impartir su protección en el caso particular sobre que verse el proceso, sin hacer
+ninguna declaración general con respecto a la ley o del acto que lo motivare.
+**Concordancias Legales:** artículo 20; artículo 19; artículo 19 de la Constitución; artículo 25 de la Convención Americana sobre Derechos Humanos; artículo 2 del Pacto de Derechos Civiles y Políticos; Constitución; constitucion; Constitución Política
 
 de la República, en el ejercicio y conservación de los derechos que le concedan esta
 Constitución y las leyes constitucionales, contra todo ataque de los poderes legislativo y ejecutivo, ya de la Federación, ya de los Estados, limitándose dichos tribunales
@@ -7492,6 +7790,14 @@ Civiles y Políticos,5 ambos ratificados por Chile y vigentes.
 
 ## 4 Artículo 25. Protección Judicial: 1) Toda persona tiene derecho a un recurso
 
+**Definición Canónica:** sencillo y rápido o a cualquier otro recurso efectivo ante los jueces o tribunales
+competentes, que la ampare contra actos que violen sus derechos fundamentales reconocidos por la Constitución, la ley o la presente Convención, aun cuando tal violación sea cometida por personas que actúen en ejercicio de sus funciones oficiales.
+2) Los Estados parte se comprometen: a) a garantizar que la autoridad competente
+prevista por el sistema legal del Estado decidirá sobre los derechos de toda persona
+que interponga tal recurso; b) a desarrollar las posibilidades de recurso judicial; y c)
+a garantizar el
+**Concordancias Legales:** Constitución
+
 sencillo y rápido o a cualquier otro recurso efectivo ante los jueces o tribunales
 competentes, que la ampare contra actos que violen sus derechos fundamentales reconocidos por la Constitución, la ley o la presente Convención, aun cuando tal violación sea cometida por personas que actúen en ejercicio de sus funciones oficiales.
 2) Los Estados parte se comprometen: a) a garantizar que la autoridad competente
@@ -7502,6 +7808,8 @@ que se haya estimado procedente el recurso.
 
 ## 5 Artículo 2: 1) Cada uno de los Estados parte en el presente Pacto se compromete
 
+**Definición Canónica:** Materiales Docentes                                                          Capítulo 3
+**Concordancias Legales:** artículo 20; artículo 19; artículo 21 de la Constitución de la Política de la República; Artículo 21; artículos 331; artículos 309; artículo 19 de la Constitución. En adelante veremos algunos cas; artículo 28 del Decreto Supremo 518 de 1979; artículo 53 del D.S. 518. Otros casos interesantes que se; artículo 7; constitucion; Constitución
 
 Materiales Docentes                                                          Capítulo 3
 
@@ -7654,13 +7962,16 @@ penitenciario) para presentar un recurso de amparo. No obstante a que
 se rechazó la acción, un caso para apreciarlo fue uno en el que se presentó un amparo para entrar a un determinado lugar, que era un recinto
 privado.11
 
-
-## 9 Para más información, véase Convencion Americana sobre Derechos Humanos
-
-Suscrita en la Conferencia Especializada Interamericana sobre Derechos Humanos
-(B-32), disponible en https://bit.ly/3azwLCr.
-
 ## 10 Véase, por ejemplo, rol 160-2005 Corte Suprema: La votación fue de tres a
+
+**Definición Canónica:** favor del arresto por deuda, pero hubo dos votos en contra de ministros Cury y
+Juica, quienes estuvieron por revocar la resolución en alzada y acoger el recurso de
+amparo, estimando que el apremio decretado constituye una amenaza ilegítima a la
+libertad personal del recurrente, ya que el pago compulsivo de una cotización previsional deriva de una actuación que importa una prisión por deuda que en nuestro
+sistema jurídico está proscrita y, en atención a lo dispuesto en el artículo 7, número
+7, del Pacto de San José de Costa Rica en relación con lo establecido en el artículo 5
+de la Constitución
+**Concordancias Legales:** artículo 7; artículo 5 de la Constitución Política de la República; Constitución Política
 
 favor del arresto por deuda, pero hubo dos votos en contra de ministros Cury y
 Juica, quienes estuvieron por revocar la resolución en alzada y acoger el recurso de
@@ -7672,12 +7983,20 @@ de la Constitución Política de la República.
 
 ## 11 El Considerando cuarto de la sentencia de rol 15-2016, de la ICA, confirmada
 
+**Definición Canónica:** por la Corte Suprema fue relevante: «Cuarto: Que los recurrentes han entendido
+amagada su libertad ambulatoria con motivo del cierre del paso de un camino que
+les permitía llegar a un lugar determinado, a la altura del kilómetro 10 del sector de
+Puerto Trumao a fin de realizar una ceremonia religiosa ancestral del pueblo mapuche el domingo 17 de enero de 2016, negándoseles el acceso. Los recurridos, por su
+
 por la Corte Suprema fue relevante: «Cuarto: Que los recurrentes han entendido
 amagada su libertad ambulatoria con motivo del cierre del paso de un camino que
 les permitía llegar a un lugar determinado, a la altura del kilómetro 10 del sector de
 Puerto Trumao a fin de realizar una ceremonia religiosa ancestral del pueblo mapuche el domingo 17 de enero de 2016, negándoseles el acceso. Los recurridos, por su
 
 ## parte, señalaron que se trata de un recinto privado y que se les debe pedir permiso
+
+**Definición Canónica:** con la debida antelación para el ingreso y salida correspondientes, en horario prudente, y de día».
+**Concordancias Legales:** artículo 95; artículo 21 de la Constitución Política de la República; artículo 19; artículo 12 de la Constitución consagra una acción de reclamaci; Ley 18.917; Constitución Política; constitucion; Constitución
 
 con la debida antelación para el ingreso y salida correspondientes, en horario prudente, y de día».
 
@@ -7790,8 +8109,10 @@ de irregularidad migratoria (Departamento de Extranjería y Migración,
 2017: 6; Departamento de Extranjería y Migración, oficios 27.601 del 14
 de agosto de 2014, y 32.754 del 6 de octubre de 2014; Dirección Nacional
 
-
 ## 13 Como explica Cea (2008: 312), si la Corte rechaza la acción, no queda más que
+
+**Definición Canónica:** conformarse con tal decisión, ya que no se contemplan acciones para su impugnación.
+**Concordancias Legales:** artículo 5; artículo 24; artículo 20.2; artículo 7; artículo 29; artículo 486; artículo 1; artículos 485; artículo 1 del Código del Trabajo; artículo 1 de la Ley 21.280 declara interpretado el inciso pri; artículo 485; artículo 485 del Código del Trabajo. Derechos fundamentales d; artículo 485 del Código del Trabajo; artículo 20 de la Constitución y el artículo 2 del mismo Código; artículo 19; artículo 2; artículo 20 de la Constitución Política; artículo 489 bis; artículo 306 del Código de Procedimiento Penal establece que e; artículo 20 de la Constitu; artículo 19 de la Constitución; artículo 20 de la Constitución Política tratán; artículos 6; artículo 38; artículo 6 de la Ley 19.640. Sujeto activo El titular de la; artículos 19 de la Constitución Política de la República; artículo 12; artículos 84; artículo 2 de la Declaración Universal de Derechos Humanos señ; artículo 19 de la Constitución Política de la Repúbli; artículo 5 de la Ley 20.609. Interposición La acción puede s; artículo 4 de la Ley 20.609. Además; artículo 14 de la Ley 20.609. Con respecto a la forma de int; artículo 3; artículo 6 de la Ley 20.609 señala expresamente en qué caso no; Artículo 6; artículo 10 del Código Procesal Penal; artículo 10; artículo 14; artículo 16
 
 conformarse con tal decisión, ya que no se contemplan acciones para su impugnación.
 
@@ -8549,24 +8870,15 @@ plan, esto es, diciembre de 2021.18
 Meta 1. La creación de un sistema de cumplimiento de obligaciones
 internacionales
 
-
-## 1. Implementación de un sistema de monitoreo de recomendaciones
-
-       de los órganos de tratado del sistema internacional de tratados (ID
-       571). Plataforma no instalada.
-
-## 2. Mecanismo nacional de presentación de informes para organis-
-
-       mos del sistema universal de derechos humanos (ID 572). No se
-       implementó.
-
-## 3. Diseño de procedimiento de pago para cumplimiento de obliga-
-
-       ciones internacionales (ID 573). No se implementó.
-
 ## 4. Implementación y monitoreo de sentencia de la Corte Interameri-
 
-       cana de Derechos Humanos (Corte IDH) caso Norín Catriman en
+**Definición Canónica:** cana de Derechos Humanos (Corte IDH) caso Norín Catriman en
+       materia de salud (ID 574). Cumplimiento total. Se reconoce la cali-
+       dad de víctimas de ocho personas (Segundo Aniceto Norín Catri-
+       mán, Pascual Huentequeo Pichún Paillalao, Víctor Manuel Anca-
+       laf Llaupe, Florencio Jaime Marileo Saravia, Juan Patricio Marileo
+
+cana de Derechos Humanos (Corte IDH) caso Norín Catriman en
        materia de salud (ID 574). Cumplimiento total. Se reconoce la cali-
        dad de víctimas de ocho personas (Segundo Aniceto Norín Catri-
        mán, Pascual Huentequeo Pichún Paillalao, Víctor Manuel Anca-
@@ -8604,7 +8916,17 @@ internacionales
 
 ## 5. Implementación de sentencia de la Corte Interamericana de Dere-
 
-      chos Humanos (Corte IDH) caso Edmundo Alex Lemun Saavedra
+**Definición Canónica:** chos Humanos (Corte IDH) caso Edmundo Alex Lemun Saavedra
+      y Otros (ID 575). Cumplimiento total. El Ministerio de Salud ha
+      desarrollado el Plan Pri Lemun, que es ejecutado en el Servicio de
+      Salud Araucanía Norte. Se reconoce la calidad de víctimas a diez
+      familiares de Alex Lemun (padres y hermanos). Fonasa crea la ca-
+      tegoría como beneficiarios Pri-Lemun. La reparación incluye: gra-
+      tuidad de las prestaciones de salud física, sicológica, siquiátricas
+      y dentales; medicamentos gratuitos y traslados para la atención;
+      y difusión del Plan y de la vulne
+
+chos Humanos (Corte IDH) caso Edmundo Alex Lemun Saavedra
       y Otros (ID 575). Cumplimiento total. El Ministerio de Salud ha
       desarrollado el Plan Pri Lemun, que es ejecutado en el Servicio de
       Salud Araucanía Norte. Se reconoce la calidad de víctimas a diez
@@ -8628,7 +8950,17 @@ internacionales
 
 ## 6. Implementación del Acuerdo de Solución Amistosa caso Comu-
 
-      nidad Indígena Aymara de Chusmiza-Usmagama y sus miembros,
+**Definición Canónica:** nidad Indígena Aymara de Chusmiza-Usmagama y sus miembros,
+      Chile (ID 576). Cumplimiento parcial. La Corte Interamericana de
+      Derechos Humanos, con respecto a la implementación del Acuer-
+      do de Solución Amistosa del caso 12.904, Comunidad Indígena
+      Aymara de Chusmiza-Usmagama y sus miembros, Chile, resuelve
+      la construcción de baños termales Chusmiza. En atención al tipo
+      de medidas de reparación propuestas en el Acuerdo, el Ministerio
+      de Salud no forma parte de los órganos encargados de su imple-
+      mentación propiamente tal, pero sí participaría por me
+
+nidad Indígena Aymara de Chusmiza-Usmagama y sus miembros,
       Chile (ID 576). Cumplimiento parcial. La Corte Interamericana de
       Derechos Humanos, con respecto a la implementación del Acuer-
       do de Solución Amistosa del caso 12.904, Comunidad Indígena
@@ -8644,7 +8976,15 @@ internacionales
 
 ## 7. Cumplimiento de sentencia caso Norin Catriman en materia de
 
-      educación (ID 577). Cumplimiento total. Asignación de recur-
+**Definición Canónica:** educación (ID 577). Cumplimiento total. Asignación de recur-
+      sos, vía glosa presupuestaria (beca cumplimiento de sentencias y
+      acuerdos-caso Norín Catrimán y Caso Lemun Saavedra), para cu-
+      brir estudios de educación superior en instituciones acreditadas,
+      de beneficiarios individualizados en el 1.077, del 9 de mayo de 2017
+      del Ministerio de Desarrollo Social. Para más información, véase
+      https://bit.ly/3aLboye.
+
+educación (ID 577). Cumplimiento total. Asignación de recur-
       sos, vía glosa presupuestaria (beca cumplimiento de sentencias y
       acuerdos-caso Norín Catrimán y Caso Lemun Saavedra), para cu-
       brir estudios de educación superior en instituciones acreditadas,
@@ -8654,7 +8994,12 @@ internacionales
 
 ## 8. Cumplimiento de Acuerdo de Solución Amistosa caso César Pe-
 
-      ralta Wetzel y otros vs Chile (ID 578). Cumplimiento total. Se pro-
+**Definición Canónica:** ralta Wetzel y otros vs Chile (ID 578). Cumplimiento total. Se pro-
+      mulgó la Ley 21.400, que modifica diversos cuerpos legales para
+      regular, en igualdad de condiciones, el matrimonio de parejas del
+**Concordancias Legales:** Ley 21.400
+
+ralta Wetzel y otros vs Chile (ID 578). Cumplimiento total. Se pro-
       mulgó la Ley 21.400, que modifica diversos cuerpos legales para
       regular, en igualdad de condiciones, el matrimonio de parejas del
 
@@ -8668,10 +9013,20 @@ Meta 2. La generación de información y estudios sobre el cumplimiento
 de los compromisos internacionales en derechos humanos, y promoción
 de la participación en instancias regionales e internacionales
 
-
 ## 1. Mecanismo para promover y coordinar la participación de la so-
 
-      ciedad civil en la acción internacional en materia de derechos hu-
+**Definición Canónica:** ciedad civil en la acción internacional en materia de derechos hu-
+      manos (ID 579). Cumplimiento parcial. Se está en la etapa de de-
+      finición y coordinación de un mecanismo idóneo y eficiente para
+      promover la participación de la sociedad civil en las instancias in-
+      ternacionales vinculadas a procesos periódicos donde se tratan las
+      obligaciones de los Estados derivadas de la convención de ONU
+      de las cuales el país es parte. Ello, sobre la base de los principios de
+      participación ciudadana contenidos en la Ley 20.500 y la resolu-
+      ción exentas 262 del
+**Concordancias Legales:** Ley 20.500
+
+ciedad civil en la acción internacional en materia de derechos hu-
       manos (ID 579). Cumplimiento parcial. Se está en la etapa de de-
       finición y coordinación de un mecanismo idóneo y eficiente para
       promover la participación de la sociedad civil en las instancias in-
@@ -8692,7 +9047,15 @@ de la participación en instancias regionales e internacionales
 
 ## 2. Plataforma digital con información sobre desempeño de Chile en
 
-      el sistema internacional (ID 580). Cumplimiento total. Una plata-
+**Definición Canónica:** el sistema internacional (ID 580). Cumplimiento total. Una plata-
+      forma digital se encuentra activa en sitio web de Cancillería, apar-
+      tado Política Exterior, subapartado derechos humanos, donde se
+      registran los principales acontecimientos que tienen relación con
+      nuestra acción internacional en materia de derechos humanos.
+      Para más información, véase https://bit.ly/3zaCBUo y https://bit.
+      ly/3yN92qn.
+
+el sistema internacional (ID 580). Cumplimiento total. Una plata-
       forma digital se encuentra activa en sitio web de Cancillería, apar-
       tado Política Exterior, subapartado derechos humanos, donde se
       registran los principales acontecimientos que tienen relación con
@@ -8702,8 +9065,15 @@ de la participación en instancias regionales e internacionales
 
 ## 3. Cumplimiento de sentencia caso Norin Catriman en materia de
 
+**Definición Canónica:** educación (ID 577). Cumplimiento total. Asignación de recur-
+      sos, vía glosa presupuestaria (beca cumplimiento de sentencias y
+      acuerdos-caso Norín Catrimán y Caso Lemun Saavedra), para cu-
+      brir estudios de educación superior en instituciones acreditadas,
+      de beneficiarios individualizados en el 1.077, del 9 de mayo de 2017
+      del Ministerio de Desarrollo Social. Para más información, véase
+      https://bit.ly/3aLboye.
 
-      educación (ID 577). Cumplimiento total. Asignación de recur-
+educación (ID 577). Cumplimiento total. Asignación de recur-
       sos, vía glosa presupuestaria (beca cumplimiento de sentencias y
       acuerdos-caso Norín Catrimán y Caso Lemun Saavedra), para cu-
       brir estudios de educación superior en instituciones acreditadas,
@@ -8713,7 +9083,17 @@ de la participación en instancias regionales e internacionales
 
 ## 4. Cumplimiento de Acuerdo de Solución Amistosa caso César Pe-
 
-      ralta Wetzel y otros vs Chile (ID 578). Cumplimiento total. Se pro-
+**Definición Canónica:** ralta Wetzel y otros vs Chile (ID 578). Cumplimiento total. Se pro-
+      mulgó la Ley 21.400, que modifica diversos cuerpos legales para
+      regular, en igualdad de condiciones, el matrimonio de parejas del
+      mismo sexo, el 9 de diciembre de 2021, la cual además de recono-
+      cer el matrimonio igualitario, fortalece las protecciones jurídicas
+      de las familias diversas, incluyendo garantías para la igualdad y no
+      discriminación en los ámbitos de filiación y régimen de cuidados,
+      entre otros.
+**Concordancias Legales:** Ley 21.400
+
+ralta Wetzel y otros vs Chile (ID 578). Cumplimiento total. Se pro-
       mulgó la Ley 21.400, que modifica diversos cuerpos legales para
       regular, en igualdad de condiciones, el matrimonio de parejas del
       mismo sexo, el 9 de diciembre de 2021, la cual además de recono-
@@ -8726,10 +9106,20 @@ Meta 2. La generación de información y estudios sobre el cumplimiento
 de los compromisos internacionales en derechos humanos, y promoción
 de la participación en instancias regionales e internacionales
 
-
 ## 1. Mecanismo para promover y coordinar la participación de la so-
 
-      ciedad civil en la acción internacional en materia de derechos hu-
+**Definición Canónica:** ciedad civil en la acción internacional en materia de derechos hu-
+      manos (ID 579). Cumplimiento parcial. Se está en la etapa de de-
+      finición y coordinación de un mecanismo idóneo y eficiente para
+      promover la participación de la sociedad civil en las instancias in-
+      ternacionales vinculadas a procesos periódicos donde se tratan las
+      obligaciones de los Estados derivadas de la convención de ONU
+      de las cuales el país es parte. Ello, sobre la base de los principios de
+      participación ciudadana contenidos en la Ley 20.500 y la resolu-
+      ción exentas 262 del
+**Concordancias Legales:** Ley 20.500
+
+ciedad civil en la acción internacional en materia de derechos hu-
       manos (ID 579). Cumplimiento parcial. Se está en la etapa de de-
       finición y coordinación de un mecanismo idóneo y eficiente para
       promover la participación de la sociedad civil en las instancias in-
@@ -8751,7 +9141,15 @@ de la participación en instancias regionales e internacionales
 
 ## 2. Plataforma digital con información sobre desempeño de Chile en
 
-      el sistema internacional (ID 580). Cumplimiento total. Una plata-
+**Definición Canónica:** el sistema internacional (ID 580). Cumplimiento total. Una plata-
+      forma digital se encuentra activa en sitio web de Cancillería, apar-
+      tado Política Exterior, subapartado derechos humanos, donde se
+      registran los principales acontecimientos que tienen relación con
+      nuestra acción internacional en materia de derechos humanos.
+      Para más información, véase https://bit.ly/3zaCBUo y https://bit.
+      ly/3yN92qn.
+
+el sistema internacional (ID 580). Cumplimiento total. Una plata-
       forma digital se encuentra activa en sitio web de Cancillería, apar-
       tado Política Exterior, subapartado derechos humanos, donde se
       registran los principales acontecimientos que tienen relación con
@@ -8762,17 +9160,29 @@ de la participación en instancias regionales e internacionales
 Meta 3. Promover que la normativa interna del Estado sea acorde a
 estándares internacionales de derechos humanos
 
-
 ## 1. Informe de impacto Protocolo San Salvador (ID 581).Cumplimien-
 
-       to parcial. El informe fue elaborado por el área a cargo del mis-
+**Definición Canónica:** to parcial. El informe fue elaborado por el área a cargo del mis-
+       mo en el último trimestre del año 2021. El informe se encuentra
+       en revisión de autoridad. Para más información, véase https://bit.
+       ly/3IImS20.
+
+to parcial. El informe fue elaborado por el área a cargo del mis-
        mo en el último trimestre del año 2021. El informe se encuentra
        en revisión de autoridad. Para más información, véase https://bit.
        ly/3IImS20.
 
 ## 2. Reconocimiento de estándares de derechos humanos en proyec-
 
-       tos de ley del Ejecutivo (ID 582). Cumplimiento total. Se envía a
+**Definición Canónica:** tos de ley del Ejecutivo (ID 582). Cumplimiento total. Se envía a
+       todos los Ministerios el Oficio ordinario 013 el 5 de enero de 2021:
+       “Establece consideraciones en relación con el marco internacional
+       de derechos humanos en Proyectos de Ley”. Se realiza informe que
+       da cuenta de los Proyectos enviados al Congreso que hacen refe-
+       rencia a estándares de derechos humanos. Para más información,
+       véase https://bit.ly/3RFOBnU.
+
+tos de ley del Ejecutivo (ID 582). Cumplimiento total. Se envía a
        todos los Ministerios el Oficio ordinario 013 el 5 de enero de 2021:
        “Establece consideraciones en relación con el marco internacional
        de derechos humanos en Proyectos de Ley”. Se realiza informe que
@@ -8796,23 +9206,31 @@ Meta 1. Tomar todas las medidas necesarias para que se investigue
 y sancione a quienes hubieran cometido violaciones a los derechos
 humanos durante la dictadura
 
-
 ## 1. Estudio comparado de comisiones de verdad (ID 1). Cumplimien-
 
-      to total. Versión final del estudio está elaborada. Una copia digital
+**Definición Canónica:** to total. Versión final del estudio está elaborada. Una copia digital
       puede solicitarse mediante el portal de transparencia de la Subse-
       cretaría de Derechos Humanos. Disponible en https://bit.ly/3yO-
       qDOM.
 
-## 2. Informe de posibles mecanismos de acceso a la justicia para vícti-
-
-      mas de tortura y prisión política (ID 2). Cumplimiento parcial. La
-      versión final del documento se encuentra en revisión. Disponible
-      en https://bit.ly/3yNNIkQ.
+to total. Versión final del estudio está elaborada. Una copia digital
+      puede solicitarse mediante el portal de transparencia de la Subse-
+      cretaría de Derechos Humanos. Disponible en https://bit.ly/3yO-
+      qDOM.
 
 ## 3. Estudio de jurisprudencia y evaluación de modificación normativa
 
-      (ID 3). Cumplimiento total. Versión final del Informe elaborada.
+**Definición Canónica:** (ID 3). Cumplimiento total. Versión final del Informe elaborada.
+      Una copia digital puede solicitarse mediante el portal de transpa-
+      rencia de la Subsecretaría de Derechos Humanos. Disponible en
+      https://bit.ly/3PkP25S.
+   4. Informe en derecho sobre derogación de Ley de Amnistía (ID 4).
+      Cumplimiento total. Versión final del Informe elaborada. Una co-
+      pia digital puede solicitarse mediante el portal de transparencia de
+      la Subsecretaría de Derechos Humanos. Disponible en https://bit.
+      ly/3uTCFpb.
+
+(ID 3). Cumplimiento total. Versión final del Informe elaborada.
       Una copia digital puede solicitarse mediante el portal de transpa-
       rencia de la Subsecretaría de Derechos Humanos. Disponible en
       https://bit.ly/3PkP25S.
@@ -8824,17 +9242,22 @@ humanos durante la dictadura
 
 ## 5. Estudio para identificar los beneficios de los miembros de las Fuer-
 
-      zas Armadas condenados por crímenes de lesa humanidad (ID 5).
+**Definición Canónica:** zas Armadas condenados por crímenes de lesa humanidad (ID 5).
+      No implementada. Para más información, véase https://bit.ly/3a-
+      FHFa4.
+
+zas Armadas condenados por crímenes de lesa humanidad (ID 5).
       No implementada. Para más información, véase https://bit.ly/3a-
       FHFa4.
 
 Meta 2. Implementar una política integral de reparación para todas las
 víctimas de la dictadura
 
-
 ## 1. Reparación en salud: Cobertura de usuarios PRAIS (ID 14). Cum-
 
-      plimiento total. Personas inscritas en Base Nacional Fondo Nacio-
+**Definición Canónica:** plimiento total. Personas inscritas en Base Nacional Fondo Nacio-
+
+plimiento total. Personas inscritas en Base Nacional Fondo Nacio-
 
  19 Para más información, véase https://bit.ly/3aLu3dh.
 
@@ -8848,7 +9271,17 @@ víctimas de la dictadura
 
 ## 2. Reparación en salud: Atención de usuarios PRAIS (ID 15). Cum-
 
-      plimiento total. Se da continuidad a la entrega de atención espe-
+**Definición Canónica:** plimiento total. Se da continuidad a la entrega de atención espe-
+      cializada en trauma biosicosocial por parte de los dispositivos
+      PRAIS a la población usuaria del programa. Con la finalidad de
+      prestar apoyo constante a la gestión realizada por los profesiona-
+      les que integran la red PRAIS y con ello contribuir en la atención
+      oportuna de la población beneficiaria del programa, desde el nivel
+      central se realiza asesoría clínica a los profesionales tratantes en
+      materias de traumatización extrema, consecuencias y secuelas de
+      las violaciones de derech
+
+plimiento total. Se da continuidad a la entrega de atención espe-
       cializada en trauma biosicosocial por parte de los dispositivos
       PRAIS a la población usuaria del programa. Con la finalidad de
       prestar apoyo constante a la gestión realizada por los profesiona-
@@ -8862,7 +9295,14 @@ víctimas de la dictadura
 
 ## 3. Reparación en salud: Atención a personas reconocidas en Comi-
 
-      sión de Prisión Política y Tortura (ID 16). Cumplimiento total. Se
+**Definición Canónica:** sión de Prisión Política y Tortura (ID 16). Cumplimiento total. Se
+      da prioridad en la atención en los dispositivos PRAIS a las perso-
+      nas calificadas por la Ley 19.992 y 20.405 dirigidas a los usuarios
+      calificados por la Comisión Valech. Disponible en https://bit.ly/3I-
+      IGtPs.
+**Concordancias Legales:** Ley 19.992
+
+sión de Prisión Política y Tortura (ID 16). Cumplimiento total. Se
       da prioridad en la atención en los dispositivos PRAIS a las perso-
       nas calificadas por la Ley 19.992 y 20.405 dirigidas a los usuarios
       calificados por la Comisión Valech. Disponible en https://bit.ly/3I-
@@ -8870,7 +9310,16 @@ víctimas de la dictadura
 
 ## 4. Evaluación del Programa de Reparación y Atención Integral de
 
-      Salud (PRAIS) a los afectados por violaciones a los derechos hu-
+**Definición Canónica:** Salud (PRAIS) a los afectados por violaciones a los derechos hu-
+      manos (ID 17). Cumplimiento total. Se da continuidad al proce-
+      so de revisión técnico estructural del programa. el cual permitirá
+      generar un diagnóstico integral del estado de funcionamiento e
+      indicadores anuales del mismo. El proceso de revisión estructural
+      continuará su curso, cuya finalización se proyecta para mediados
+      del próximo año, siendo una acción de continuidad. Disponible en
+      https://bit.ly/3oal3kS.
+
+Salud (PRAIS) a los afectados por violaciones a los derechos hu-
       manos (ID 17). Cumplimiento total. Se da continuidad al proce-
       so de revisión técnico estructural del programa. el cual permitirá
       generar un diagnóstico integral del estado de funcionamiento e
@@ -8881,7 +9330,10 @@ víctimas de la dictadura
 
 ## 5. Política de reparación en educación: Becas Chile (ID 18). Cum-
 
-      plimiento total. Existen postulantes con asignación de puntaje de
+**Definición Canónica:** plimiento total. Existen postulantes con asignación de puntaje de
+      reparación en el programa Becas Chile. Disponible en https://bit.
+
+plimiento total. Existen postulantes con asignación de puntaje de
       reparación en el programa Becas Chile. Disponible en https://bit.
 
       ly/3PuogHK.
@@ -8897,29 +9349,43 @@ del patrimonio histórico en esta materia, y por la articulación de las
 instituciones públicas dedicadas al rescate, conservación y difusión de
 dicho patrimonio.
 
-
 ## 1. Mesa intersectorial para la protección de Sitios de Memoria (ID
 
-      21). Cumplimiento total. La mesa propone, de manera coordinada,
+**Definición Canónica:** 21). Cumplimiento total. La mesa propone, de manera coordinada,
+      metas que aportan productos necesarios para la visibilización de
+      los sitios de memoria, su cuidado y protección. Para más informa-
+      ción, véase https://bit.ly/3aI9Q8f.
+
+21). Cumplimiento total. La mesa propone, de manera coordinada,
       metas que aportan productos necesarios para la visibilización de
       los sitios de memoria, su cuidado y protección. Para más informa-
       ción, véase https://bit.ly/3aI9Q8f.
 
 ## 2. Diseño e implementación de protocolos sobre sitios de memoria
 
-      histórica del sector defensa (ID 22). Cumplimiento parcial. Reco-
+**Definición Canónica:** histórica del sector defensa (ID 22). Cumplimiento parcial. Reco-
       pilación de información relacionada a protocolos sobre sitios de
       memoria histórica y elaboración de informe preliminar. Para más
       información, véase https://bit.ly/3o70Qwj.
 
-## 3. Instalación de placas conmemorativas en recintos militares (ID
-
-      23). Sin implementación. Para más información, véase https://bit.
-      ly/3o96E8A.
+histórica del sector defensa (ID 22). Cumplimiento parcial. Reco-
+      pilación de información relacionada a protocolos sobre sitios de
+      memoria histórica y elaboración de informe preliminar. Para más
+      información, véase https://bit.ly/3o70Qwj.
 
 ## 4. Memoria histórica: Integración a la comunidad (ID 24). Cumpli-
 
-      miento total. Considerado la contingencia sanitaria nacional deri-
+**Definición Canónica:** miento total. Considerado la contingencia sanitaria nacional deri-
+      vada del covid-19, los sitios de memoria se encontraron cerrados
+      al público y las actividades se adaptaron a modalidad virtual, ac-
+      tividades en Facebook Live, Zoom o YouTube. Paulatinamente se
+      generaron acciones presenciales, en la medida que lo fue permi-
+      tiendo el Plan Paso a Paso. Disponible en https://bit.ly/3AVZDiY.
+   5. Memoria histórica: Identificación de sitios de memoria (ID 25).
+      Cumplimiento total. Se decidió, por parte del servicio, idear una
+      licitación pública para la seña
+
+miento total. Considerado la contingencia sanitaria nacional deri-
       vada del covid-19, los sitios de memoria se encontraron cerrados
       al público y las actividades se adaptaron a modalidad virtual, ac-
       tividades en Facebook Live, Zoom o YouTube. Paulatinamente se
@@ -8949,18 +9415,27 @@ dicho patrimonio.
 
 ## 6. Memoria histórica: Difusión de memoria histórica (ID 26). Cum-
 
-       plimiento parcial. Archivo de la Vicaría de la Solidaridad. El por-
+**Definición Canónica:** plimiento parcial. Archivo de la Vicaría de la Solidaridad. El por-
        centaje del archivo que se encuentra digitalizado corresponde a un
        90%. Para más información, véase https://bit.ly/3cmhEwD.
 
-## 7. Informe Justicia Transicional (ID 27). Cumplimiento parcial. El in-
-
-       forme se encuentra elaborado y en revisión. Disponible en https://
-       bit.ly/3aGYLnK.
+plimiento parcial. Archivo de la Vicaría de la Solidaridad. El por-
+       centaje del archivo que se encuentra digitalizado corresponde a un
+       90%. Para más información, véase https://bit.ly/3cmhEwD.
 
 ## 8. Memoria histórica: Reimpresión de libros de Sitios de Memoria
 
-       (ID 28). Cumplimiento parcial. Se contrató a una persona de apo-
+**Definición Canónica:** (ID 28). Cumplimiento parcial. Se contrató a una persona de apo-
+       yo para la realización de la investigación historiográfica, búsque-
+       da de materiales audiovisuales de prensa histórica (periódicos y
+       diarios), redacción de las reseñas de cada uno de los sitios de me-
+       moria contemplados y se avanzó con la revisión de los archivos
+       fotográficos. Producto de la restricción presupuestaria dada por la
+       situación sanitaria derivada de la pandemia por covid-19 se tuvo
+       que reasignar este presupuesto. Falta el diseño del libro y la impre-
+       sión de este
+
+(ID 28). Cumplimiento parcial. Se contrató a una persona de apo-
        yo para la realización de la investigación historiográfica, búsque-
        da de materiales audiovisuales de prensa histórica (periódicos y
        diarios), redacción de las reseñas de cada uno de los sitios de me-
@@ -8987,10 +9462,17 @@ Meta 1. Realizar las reformas institucionales y normativas necesarias
 para cumplir los estándares internacionales de derechos humanos en
 materia de prevención de la tortura
 
-
 ## 1. Promover la prevención de la tortura en el sector de salud: Creación
 
-      de comisión de trabajo (ID 557). Cumplimiento parcial. Curso de
+**Definición Canónica:** de comisión de trabajo (ID 557). Cumplimiento parcial. Curso de
+      “Formación de formadores en Prevención, investigación y sanción
+      de la tortura”, impartido por la Universidad de Chile, coordinado
+      por el Instituto Nacional de Derechos Humanos. En 2020 se capa-
+      citan tres funcionarios; en 2021, seis. Se debiera replicar este curso
+      para funcionarios del sector de salud como una acción permanen-
+      te. Para más información, véase https://bit.ly/3o9SKTO.
+
+de comisión de trabajo (ID 557). Cumplimiento parcial. Curso de
       “Formación de formadores en Prevención, investigación y sanción
       de la tortura”, impartido por la Universidad de Chile, coordinado
       por el Instituto Nacional de Derechos Humanos. En 2020 se capa-
@@ -9000,7 +9482,14 @@ materia de prevención de la tortura
 
 ## 2. Promover la prevención de la tortura en el sector de salud: Ela-
 
-      boración de Plan cuatrianual (ID 558). Cumplimiento parcial. En
+**Definición Canónica:** boración de Plan cuatrianual (ID 558). Cumplimiento parcial. En
+      2021, la planificación y ejecución de los Servicios de Salud se ha
+      visto afectada por el brote de covid-19, que se traduce en una alta
+      demanda asistencial, y por lo cual se ha priorizado actividades de
+      capacitación directamente ligadas a la contingencia. Para más in-
+      formación, véase https://bit.ly/3zbWwCj.
+
+boración de Plan cuatrianual (ID 558). Cumplimiento parcial. En
       2021, la planificación y ejecución de los Servicios de Salud se ha
       visto afectada por el brote de covid-19, que se traduce en una alta
       demanda asistencial, y por lo cual se ha priorizado actividades de
@@ -9009,7 +9498,15 @@ materia de prevención de la tortura
 
 ## 3. Incorporar el Protocolo de Estambul en los procedimientos de
 
-      constatación de lesiones en el sector salud (ID 559). Cumplimiento
+**Definición Canónica:** constatación de lesiones en el sector salud (ID 559). Cumplimiento
+      parcial. Necesidad de dar la instrucción de implementar la confec-
+      ción de Informe Médico de Lesiones en las urgencias de las re-
+      des asistenciales, debe ir acompañado de la instrucción sobre la
+      emisión y la identificación de a quien entregar este documento
+      en el contexto de una constatación de lesiones, especialmente en
+      usuarios privados de libertad. Para esto de canalizó, mediante me-
+
+constatación de lesiones en el sector salud (ID 559). Cumplimiento
       parcial. Necesidad de dar la instrucción de implementar la confec-
       ción de Informe Médico de Lesiones en las urgencias de las re-
       des asistenciales, debe ir acompañado de la instrucción sobre la
@@ -9027,7 +9524,17 @@ materia de prevención de la tortura
 
 ## 4. Verificar y perfeccionar las condiciones de la privación de libertad
 
-      en instalaciones y vehículos (ID 560).Cumplimiento total. En la
+**Definición Canónica:** en instalaciones y vehículos (ID 560).Cumplimiento total. En la
+      actualidad, los vehículos que se comenzarán a adquirir y cuando la
+      disponibilidad presupuestaria lo permita, o bien, a través de fon-
+      dos de desarrollo regional, son vehículos policiales adaptados a la
+      función policial y que se encuentran en el portal mercado públi-
+      co, donde el vehículo SUV mantiene las condiciones equivalentes
+      a los vehículos diseño policial de fábrica, en lo que se refiere al
+      traslado de detenidos ya que los radio patrullas y camionetas, no
+      cuentan con habitáculo 
+
+en instalaciones y vehículos (ID 560).Cumplimiento total. En la
       actualidad, los vehículos que se comenzarán a adquirir y cuando la
       disponibilidad presupuestaria lo permita, o bien, a través de fon-
       dos de desarrollo regional, son vehículos policiales adaptados a la
@@ -9040,7 +9547,17 @@ materia de prevención de la tortura
 
 ## 5. Implementación de equipos investigativos multidisciplinarios para
 
-      investigación de la tortura y otros tratos crueles, inhumanos y de-
+**Definición Canónica:** investigación de la tortura y otros tratos crueles, inhumanos y de-
+      gradantes (ID 561) Cumplimiento total. Mediante Orden 4 del 7 de
+      mayo de 2018, de la Subdirección General de Carabineros, se con-
+      formó un equipo de trabajo cuya misión es diseñar e implemen-
+      tar todas las acciones que permitan dar cumplimiento a las tareas
+      específicas que establece el Plan Nacional de Derechos Humanos
+      para Carabineros de Chile, determinándose las acciones, objeti-
+      vos y tareas específicas. Equipo investigativo (pericial) compuesto
+      por diferentes especialistas, c
+
+investigación de la tortura y otros tratos crueles, inhumanos y de-
       gradantes (ID 561) Cumplimiento total. Mediante Orden 4 del 7 de
       mayo de 2018, de la Subdirección General de Carabineros, se con-
       formó un equipo de trabajo cuya misión es diseñar e implemen-
@@ -9067,7 +9584,16 @@ materia de prevención de la tortura
 
 ## 6. Mejorar procedimientos penitenciarios sobre regulación y uso de
 
-      celdas solitarias en las Unidades Penales y Prevención de la Tortu-
+**Definición Canónica:** celdas solitarias en las Unidades Penales y Prevención de la Tortu-
+      ra (ID 562). Cumplimiento parcial. La Unidad de Procedimientos
+      Penitenciarios de Gendarmería de Chile está trabajando en con-
+      junto con el Departamento de Derechos Humanos, en la recopi-
+      lación y priorización de todos los procedimientos vigentes, con el
+      objeto de actualizarlos y realizar los ajustes que sean necesarios
+      para incorporarle un enfoque de derechos humanos. Para más in-
+      formación, véase https://bit.ly/3REJtAE.
+
+celdas solitarias en las Unidades Penales y Prevención de la Tortu-
       ra (ID 562). Cumplimiento parcial. La Unidad de Procedimientos
       Penitenciarios de Gendarmería de Chile está trabajando en con-
       junto con el Departamento de Derechos Humanos, en la recopi-
@@ -9078,18 +9604,31 @@ materia de prevención de la tortura
 
 ## 7. Promover factores protectores y evitar conductas de riesgo en las
 
-      y los funcionarios de Gendarmería (ID 563). Cumplimiento total.
+**Definición Canónica:** y los funcionarios de Gendarmería (ID 563). Cumplimiento total.
       El Subdepartamento de Salud de los funcionarios desarrolló un
       programa de salud para ellos, el cual cuenta con diversas acciones
       que promueven factores protectores de conductas de riesgo. Para
       más información, véase https://bit.ly/3yPk7aq.
 
-## 8. Promoción de la instrucción general del Fiscal Nacional que im-
-
+y los funcionarios de Gendarmería (ID 563). Cumplimiento total.
+      El Subdepartamento de Salud de los funcionarios desarrolló un
+      programa de salud para ellos, el cual cuenta con diversas acciones
+      que promueven factores protectores de conductas de riesgo. Para
+      más información, véase https://bit.ly/3yPk7aq.
 
 ## parte criterios de actuación en delitos de tortura y otros tratos
 
-      crueles, inhumanos o degradantes (ID 564). Cumplimiento total.
+**Definición Canónica:** crueles, inhumanos o degradantes (ID 564). Cumplimiento total.
+      En materia de capacitaciones sobre tortura y otros tratos crueles
+      inhumanos o degradantes, debido a la pandemia, estas se reali-
+      zaran en línea, habiéndose comprometido la realización de un
+      programa de capacitación especializado, según los lineamientos
+      investigativos de estos delitos según el nuevo Oficio de Violen-
+      cia Institucional próximo a dictarse en materia de tortura y otros
+      tratos crueles inhumanos o degradantes, muertes bajo custodia,
+      control o cuidado del Estado y desaparici
+
+crueles, inhumanos o degradantes (ID 564). Cumplimiento total.
       En materia de capacitaciones sobre tortura y otros tratos crueles
       inhumanos o degradantes, debido a la pandemia, estas se reali-
       zaran en línea, habiéndose comprometido la realización de un
@@ -9102,7 +9641,14 @@ materia de prevención de la tortura
 
 ## 9. Coordinación interinstitucional para el abordaje de delitos de
 
-      tortura y otros tratos crueles, inhumanos o degradantes (ID 565).
+**Definición Canónica:** tortura y otros tratos crueles, inhumanos o degradantes (ID 565).
+      Cumplimiento total. Realización de reuniones de coordinación
+      interinstitucional con el Instituto de Derechos Humanos a objeto
+      analizar líneas de acción conjuntas en pro de lograr mejores re-
+      sultados investigativos en las causas en que ellos son querellantes,
+      específicamente nos encontramos revisando conjuntamente a ni-
+
+tortura y otros tratos crueles, inhumanos o degradantes (ID 565).
       Cumplimiento total. Realización de reuniones de coordinación
       interinstitucional con el Instituto de Derechos Humanos a objeto
       analizar líneas de acción conjuntas en pro de lograr mejores re-
@@ -9116,7 +9662,17 @@ materia de prevención de la tortura
 
 ## 10. Realizar pericias conforme a los estándares del Protocolo de Es-
 
-      tambul y Protocolo de Minnesota (ID 566). Cumplimiento parcial.
+**Definición Canónica:** tambul y Protocolo de Minnesota (ID 566). Cumplimiento parcial.
+      No se cuenta con registro centralizado para poder informar el nú-
+      mero exacto de requerimientos, sin embargo, se puede indicar que
+      el 100% de los requerimientos conforme al Protocolo de Estambul
+      se realiza por peritos que conocen el estándar y han recibido ca-
+      pacitación. En el caso del Protocolo de Minnesota, recién en no-
+      viembre de 2018 se ha realizado la primera actividad sobre abor-
+      daje forense de muertes potencialmente ilícitas en custodia, donde
+      se revisó el Protocolo de Minn
+
+tambul y Protocolo de Minnesota (ID 566). Cumplimiento parcial.
       No se cuenta con registro centralizado para poder informar el nú-
       mero exacto de requerimientos, sin embargo, se puede indicar que
       el 100% de los requerimientos conforme al Protocolo de Estambul
@@ -9131,10 +9687,18 @@ materia de prevención de la tortura
 Meta 2. Mejorar y profundizar el conocimiento del fenómeno a partir de
 la producción de información cuantitativa y cualitativa
 
-
 ## 1. Análisis estadístico e identificación de lugares de riesgo que re-
 
-      quieren de intervención específica (ID 567). Cumplimiento total.
+**Definición Canónica:** quieren de intervención específica (ID 567). Cumplimiento total.
+      Conformación de un “Observatorio de casos de tortura, apremios
+      ilegítimos y abusos contra particulares”, delitos consensuados en-
+      tre el Departamento de Análisis Criminal y el del Departamento
+      de Gestión en Derechos Humanos. La fuente de información co-
+      rresponderá a los casos registrados a nivel nacional, a través del
+      Sistema de Automatización Policial. Para más información, véase
+      https://bit.ly/3RH7LK6.
+
+quieren de intervención específica (ID 567). Cumplimiento total.
       Conformación de un “Observatorio de casos de tortura, apremios
       ilegítimos y abusos contra particulares”, delitos consensuados en-
       tre el Departamento de Análisis Criminal y el del Departamento
@@ -9146,10 +9710,14 @@ la producción de información cuantitativa y cualitativa
 Meta 3. Formación y capacitación en derechos humanos para la
 prevención de la tortura y otros tratos crueles, inhumanos y degradantes
 
-
 ## 1. Capacitar a las y los funcionarios de salud en materia de preven-
 
-      ción de la tortura (ID 568).Cumplimiento parcial. En 2021, bajo
+**Definición Canónica:** ción de la tortura (ID 568).Cumplimiento parcial. En 2021, bajo
+      estado de catástrofe sanitaria, no se planificaron actividades de ca-
+      pacitación por los Servicios de Salud en la temática de prevención
+      de la tortura en los Planes Anuales de Capacitación. Para más in-
+
+ción de la tortura (ID 568).Cumplimiento parcial. En 2021, bajo
       estado de catástrofe sanitaria, no se planificaron actividades de ca-
       pacitación por los Servicios de Salud en la temática de prevención
       de la tortura en los Planes Anuales de Capacitación. Para más in-
@@ -9158,7 +9726,13 @@ prevención de la tortura y otros tratos crueles, inhumanos y degradantes
 
 ## 2. Diseño de programas específicos de educación en prevención, de-
 
-      tección e investigación de tortura (ID 569). Cumplimiento total.
+**Definición Canónica:** tección e investigación de tortura (ID 569). Cumplimiento total.
+      Existen 43 procesos educacionales de función policial, de los cua-
+      les el 100% tienen aprobado asignaturas, talleres y módulos rela-
+      cionadas con derechos humanos y prevención de la tortura. Para
+      más información, véase https://bit.ly/3coxTJX.
+
+tección e investigación de tortura (ID 569). Cumplimiento total.
       Existen 43 procesos educacionales de función policial, de los cua-
       les el 100% tienen aprobado asignaturas, talleres y módulos rela-
       cionadas con derechos humanos y prevención de la tortura. Para
@@ -9166,7 +9740,17 @@ prevención de la tortura y otros tratos crueles, inhumanos y degradantes
 
 ## 3. Capacitar a las y los funcionarios de Establecimientos Penitencia-
 
-      rios, sobre prevención de Tortura y otros tratos crueles, inhuma-
+**Definición Canónica:** rios, sobre prevención de Tortura y otros tratos crueles, inhuma-
+      nos o degradantes (ID 570). Cumplimiento total. Gendarmería de
+      Chile, a través de su Área de Subdirección de Reinserción Social,
+      ha instruido a todas las regiones del país, por medio del Oficio
+      Circular 173, a incluir en sus Programas Regionales de Derechos
+      Humanos la realización de al menos una capacitación durante
+      2021 sobre prohibición de la tortura y oros tratos o penas crueles,
+      inhumanos o degradantes, enfocándose en estándares de prohibi-
+      ción de la tortura y uso de la fuerza
+
+rios, sobre prevención de Tortura y otros tratos crueles, inhuma-
       nos o degradantes (ID 570). Cumplimiento total. Gendarmería de
       Chile, a través de su Área de Subdirección de Reinserción Social,
       ha instruido a todas las regiones del país, por medio del Oficio
@@ -9203,15 +9787,15 @@ Meta 1. Sensibilizar a la población y promover una cultura de los
 derechos humanos. Implementar mecanismos para fomentar en la
 sociedad el conocimiento y promoción de los derechos humanos
 
-
-## 1. Actualización de Bases Curriculares y promoción de derechos hu-
-
-      manos (ID 56).Cumplimiento total. Educación parvularia, III y IV
-      Medio. Para más información, véase https://bit.ly/3OcVc6y.
-
 ## 2. Plan de Formación Ciudadana en materia de Educación en De-
 
-      rechos Humanos (ID 57).Cumplimiento total. Realización de ta-
+**Definición Canónica:** rechos Humanos (ID 57).Cumplimiento total. Realización de ta-
+      ller con Yad Vashem, Centro Mundial para la Conmemoración
+      del Holocausto, dirigido a docentes de historia y encargados de
+      formación ciudadana sobre derechos humanos y genocidios. Para
+      más información, véase https://bit.ly/3Oi8uyC.
+
+rechos Humanos (ID 57).Cumplimiento total. Realización de ta-
       ller con Yad Vashem, Centro Mundial para la Conmemoración
       del Holocausto, dirigido a docentes de historia y encargados de
       formación ciudadana sobre derechos humanos y genocidios. Para
@@ -9219,7 +9803,17 @@ sociedad el conocimiento y promoción de los derechos humanos
 
 ## 3. Participación Ciudadana en el Sistema de Salud (ID 58). Cumpli-
 
-      miento parcial. Los consejos consultivos en la actualidad cuentan
+**Definición Canónica:** miento parcial. Los consejos consultivos en la actualidad cuentan
+      con un mecanismo que asegura su renovación y democratización.
+      Este corresponde a un proceso de elecciones de consejeros, el cual
+      se ejecuta según tiempo de renovación establecido en cada uno de
+      sus reglamentos internos. Con el fin de fortalecer este mecanismo,
+      se está trabajando en regularizar, según normativa, el funciona-
+      miento en primera instancia de los COSOC, para corregir errores
+      y falta de requisitos. Esta labor se pretende extender al resto de
+      los Consejos Consultivos. Par
+
+miento parcial. Los consejos consultivos en la actualidad cuentan
       con un mecanismo que asegura su renovación y democratización.
       Este corresponde a un proceso de elecciones de consejeros, el cual
       se ejecuta según tiempo de renovación establecido en cada uno de
@@ -9237,8 +9831,9 @@ sociedad el conocimiento y promoción de los derechos humanos
 
 ## 5. Estrategias de colaboración con Sociedad Civil para implementa-
 
+**Definición Canónica:** 21 Para más información, véase https://bit.ly/3Pur2N9.
 
- 21 Para más información, véase https://bit.ly/3Pur2N9.
+21 Para más información, véase https://bit.ly/3Pur2N9.
 
       ción de enfoque de derechos humanos (ID 60). Cumplimiento to-
       tal. Se han establecido instancias de intercambio con distintas ONG
@@ -9251,7 +9846,14 @@ sociedad el conocimiento y promoción de los derechos humanos
 
 ## 6. Programa Nacional de Formación de Monitoras y Monitores Co-
 
-      munitarios en Violencias contra las Mujeres (ID 61). Cumplimien-
+**Definición Canónica:** munitarios en Violencias contra las Mujeres (ID 61). Cumplimien-
+      to total. En el período comprendido por el Plan de Derechos Hu-
+      manos se implementa un programa de formación de monitoras y
+      monitores comunitarios para la Prevención de Violencia contra
+      las Mujeres (VCM), que se ajusta y reorienta a lo largo del período.
+      Para más información, véase https://bit.ly/3PuR8zF.
+
+munitarios en Violencias contra las Mujeres (ID 61). Cumplimien-
       to total. En el período comprendido por el Plan de Derechos Hu-
       manos se implementa un programa de formación de monitoras y
       monitores comunitarios para la Prevención de Violencia contra
@@ -9260,14 +9862,27 @@ sociedad el conocimiento y promoción de los derechos humanos
 
 ## 7. Elaboración de cartillas con recomendaciones para abordaje tele-
 
-      visivo de grupos vulnerados (ID 62). Cumplimiento total. En 2021,
+**Definición Canónica:** visivo de grupos vulnerados (ID 62). Cumplimiento total. En 2021,
+      nuevas cartillas sobre cobertura televisiva de suicidios y sobre co-
+      bertura de la pandemia. Para más información, véase https://bit.
+      ly/3OlJ6s0.
+
+visivo de grupos vulnerados (ID 62). Cumplimiento total. En 2021,
       nuevas cartillas sobre cobertura televisiva de suicidios y sobre co-
       bertura de la pandemia. Para más información, véase https://bit.
       ly/3OlJ6s0.
 
 ## 8. Campaña de Sensibilización en Derechos Humanos (ID 63). Cum-
 
-      plimiento total. La campaña realizada se orientó principalmente a
+**Definición Canónica:** plimiento total. La campaña realizada se orientó principalmente a
+      medios digitales. El portal www.derechoshumanos.gob.cl fue di-
+      fundido y quedará como un insumo relevante para quienes quie-
+      ran conocer más de derechos humanos, porque es una plataforma
+      que se mantiene en el tiempo, recoge toda la institucionalidad de
+      derechos humanos y puede ser actualizada de manera permanen-
+      te. Para más información, véase https://bit.ly/3RyCIQV.
+
+plimiento total. La campaña realizada se orientó principalmente a
       medios digitales. El portal www.derechoshumanos.gob.cl fue di-
       fundido y quedará como un insumo relevante para quienes quie-
       ran conocer más de derechos humanos, porque es una plataforma
@@ -9277,7 +9892,13 @@ sociedad el conocimiento y promoción de los derechos humanos
 
 ## 9. Implementación curso para público general de introducción a los
 
-      derechos humanos ((ID 64). Cumplimiento total. Se elaboró y vir-
+**Definición Canónica:** derechos humanos ((ID 64). Cumplimiento total. Se elaboró y vir-
+      tualizó un curso sobre derechos humanos para toda la ciudadanía.
+      El 9 de diciembre de 2021 se realizó el lanzamiento del curso, don-
+      de las personas puedes inscribirse a través del portal www.dere-
+      choshumanos.gob.cl. Disponible en https://bit.ly/3o9GzGy.
+
+derechos humanos ((ID 64). Cumplimiento total. Se elaboró y vir-
       tualizó un curso sobre derechos humanos para toda la ciudadanía.
       El 9 de diciembre de 2021 se realizó el lanzamiento del curso, don-
       de las personas puedes inscribirse a través del portal www.dere-
@@ -9285,7 +9906,10 @@ sociedad el conocimiento y promoción de los derechos humanos
 
 ## 10. Reconocimiento de buenas prácticas de educación en derechos
 
-      humanos (ID 65). Cumplimiento total. Difusión de la convoca-
+**Definición Canónica:** humanos (ID 65). Cumplimiento total. Difusión de la convoca-
+      toria y participación como coorganizadores de dos versiones del
+
+humanos (ID 65). Cumplimiento total. Difusión de la convoca-
       toria y participación como coorganizadores de dos versiones del
 
        IV Premio Iberoamericano de Educación en Derechos Humanos
@@ -9295,10 +9919,16 @@ sociedad el conocimiento y promoción de los derechos humanos
 Meta 2. Adopción y aplicación de estrategias de educación en derechos
 humanos en los sistemas de enseñanza
 
-
 ## 1. Asesoría Técnica para incorporación de enfoque de derechos a Mi-
 
-      nisterio de Educación (ID 66). Cumplimiento parcial. En 2021, se
+**Definición Canónica:** nisterio de Educación (ID 66). Cumplimiento parcial. En 2021, se
+      realizó un proceso de asistencia técnica en temas de memoria y
+      derechos humanos, con el propósito de elaborar orientaciones téc-
+      nicas dirigidas a las comunidades educativas para que desarrollen
+      actividades de memoria histórica. Para más información, véase ht-
+      tps://bit.ly/3PgjQo5.
+
+nisterio de Educación (ID 66). Cumplimiento parcial. En 2021, se
       realizó un proceso de asistencia técnica en temas de memoria y
       derechos humanos, con el propósito de elaborar orientaciones téc-
       nicas dirigidas a las comunidades educativas para que desarrollen
@@ -9307,7 +9937,13 @@ humanos en los sistemas de enseñanza
 
 ## 2. Incorporación de enfoque de Derechos Humanos en el quehacer
 
-      de establecimientos educacionales (ID 67). Cumplimiento parcial.
+**Definición Canónica:** de establecimientos educacionales (ID 67). Cumplimiento parcial.
+      Orientaciones enviadas anualmente a través de supervisiones para
+      los distintos planes (formación ciudadana, gestión de la conviven-
+      cia, de inclusión y de seguridad escolar). Para más información,
+      véase https://bit.ly/3aJpwYJ.
+
+de establecimientos educacionales (ID 67). Cumplimiento parcial.
       Orientaciones enviadas anualmente a través de supervisiones para
       los distintos planes (formación ciudadana, gestión de la conviven-
       cia, de inclusión y de seguridad escolar). Para más información,
@@ -9315,25 +9951,24 @@ humanos en los sistemas de enseñanza
 
 ## 3. Información para la construcción de políticas públicas educati-
 
-      vas (ID 68). Cumplimiento parcial. Publicaciones de diagnósticos
+**Definición Canónica:** vas (ID 68). Cumplimiento parcial. Publicaciones de diagnósticos
       constantes en la plataforma https://migrantes.mineduc.cl, relacio-
       nado a la inclusión en educación desde la unidad educación para
       todos. Para más información, véase https://bit.ly/3o6U2ib.
 
-## 4. Diseño de procesos participativos con enfoque de derechos hu-
-
-      manos (ID 69) Cumplimiento total. Publicación de resultados de
-      “Apoderados empoderados”. Para más información véase https://
-      bit.ly/3obY1u5 y https://bit.ly/3PoPL5w.
-
-## 5. Diseño de protocolo para una política de Educación con enfoque
-
-      de derechos humanos (ID 70). Sin implementación. Para más in-
-      formación, véase https://bit.ly/3AVKPRp.
+vas (ID 68). Cumplimiento parcial. Publicaciones de diagnósticos
+      constantes en la plataforma https://migrantes.mineduc.cl, relacio-
+      nado a la inclusión en educación desde la unidad educación para
+      todos. Para más información, véase https://bit.ly/3o6U2ib.
 
 ## 6. Plan de Formación Ciudadana: Apoyo a la implementación (ID
 
-      71). Cumplimiento total. La totalidad de los colegios tienen imple-
+**Definición Canónica:** 71). Cumplimiento total. La totalidad de los colegios tienen imple-
+      mentados los planes de Educación Ciudadana. Para más informa-
+      ción, véase https://bit.ly/3zbvnzz.
+   7. Plan de Formación Ciudadana: Estudios de evaluación (ID 72).
+
+71). Cumplimiento total. La totalidad de los colegios tienen imple-
       mentados los planes de Educación Ciudadana. Para más informa-
       ción, véase https://bit.ly/3zbvnzz.
    7. Plan de Formación Ciudadana: Estudios de evaluación (ID 72).
@@ -9341,14 +9976,20 @@ humanos en los sistemas de enseñanza
       Cumplimiento total. Evaluación de impacto elaborado por PNUD.
       Para más información, véase https://bit.ly/3OeZGtt.
 
-## 8. Plan de Formación Ciudadana: Estudio de impacto en calidad edu-
-
-      cativa (ID 73). Cumplimiento total. Para más información, véase
-      https://bit.ly/2kLKnNp y https://bit.ly/3Ofrr53.
-
 ## 9. Plan de Formación Ciudadana: Orientaciones al sistema escolar
 
-      (ID 74). Cumplimiento total. Orientaciones “Ciudadanía Digi-
+**Definición Canónica:** (ID 74). Cumplimiento total. Orientaciones “Ciudadanía Digi-
+      tal” que ya están publicadas en la web y en proceso de distribu-
+      ción en su versión física. Para más información, véase https://bit.
+      ly/3Ph86BG.
+   10. Plan de Mejoramiento Educativo y Derechos Humanos (ID 75).
+      Cumplimiento total. 1) El curso Interculturalidad: Inclusión de
+      estudiantes extranjeros y extranjeras, con 98 matriculados y ma-
+      triculadas, finalizó el 8 de enero de 2021; 2) el curso Desafío de
+      enseñar lengua y cultura de pueblos originarios, que contó con 25
+      matriculados y mat
+
+(ID 74). Cumplimiento total. Orientaciones “Ciudadanía Digi-
       tal” que ya están publicadas en la web y en proceso de distribu-
       ción en su versión física. Para más información, véase https://bit.
       ly/3Ph86BG.
@@ -9378,7 +10019,11 @@ humanos en los sistemas de enseñanza
 
 ## 11. Coordinación de acciones regionales para la educación sobre el
 
-      Holocausto y otros genocidios (ID 76). Cumplimiento parcial.
+**Definición Canónica:** Holocausto y otros genocidios (ID 76). Cumplimiento parcial.
+      Realización de taller con Yad Vashem, centro mundial para la
+      conmemoración del holocausto, dirigido a docentes de historia y
+
+Holocausto y otros genocidios (ID 76). Cumplimiento parcial.
       Realización de taller con Yad Vashem, centro mundial para la
       conmemoración del holocausto, dirigido a docentes de historia y
 
@@ -9389,15 +10034,20 @@ humanos en los sistemas de enseñanza
       dido establecer contacto con las partes involucradas. Disponible
       en https://bit.ly/3zbR7v5.
 
-## 12. Plan de Formación Ciudadana: Prevención de genocidio y atro-
-
-      cidades masivas (ID 77). Cumplimiento total. Programa educati-
-      vo Ciudadanos para Chile Yad Vashem. Disponible en https://bit.
-      ly/3o7jZyb.
-
 ## 13. Plan de Formación Ciudadana: Coordinación con organismos in-
 
-      ternacionales (ID 78). Cumplimiento parcial. Ejecución convenio
+**Definición Canónica:** ternacionales (ID 78). Cumplimiento parcial. Ejecución convenio
+      con Yad Vashem. Debido a la pandemia de covid-19 se encuentran
+      suspendidas todas las actividades programadas. Disponible en ht-
+      tps://bit.ly/3PcVAn1.
+   14. Desarrollo curricular y enfoque de derechos humanos (ID 79).
+      Cumplimiento total. Análisis del contexto social nacional e inter-
+      nacional a través de evaluaciones internas y externas del sistema
+      escolar, requerimientos de los actores principales que implemen-
+      tan los programas de estudios. Exploración de realidades a través
+      de div
+
+ternacionales (ID 78). Cumplimiento parcial. Ejecución convenio
       con Yad Vashem. Debido a la pandemia de covid-19 se encuentran
       suspendidas todas las actividades programadas. Disponible en ht-
       tps://bit.ly/3PcVAn1.
@@ -9418,30 +10068,41 @@ humanos en los sistemas de enseñanza
 
 ## 16. Formación y capacitación en derechos humanos para funciona-
 
-      rios/as y profesionales de la salud (ID 81). Cumplimiento parcial.
+**Definición Canónica:** rios/as y profesionales de la salud (ID 81). Cumplimiento parcial.
       Durante 2021, bajo Estado de Catástrofe Sanitaria, se han planifi-
       cado dos actividades de capacitación por dos servicios de salud en
       la temática de salud y derechos humanos en los Planes Anuales de
       Capacitación, con corte al 30 de abril. Disponible en https://bit.
       ly/3uXrH1J.
 
-## 17. Realización de cuadernillo pedagógico sobre cine documental y
-
-
-      memoria (ID 82). Cumplimiento total. El cuaderno se encuentra
-      disponible en https://bit.ly/3uWdouu. Para más información, véa-
-      se https://bit.ly/3cl0Hmu.
+rios/as y profesionales de la salud (ID 81). Cumplimiento parcial.
+      Durante 2021, bajo Estado de Catástrofe Sanitaria, se han planifi-
+      cado dos actividades de capacitación por dos servicios de salud en
+      la temática de salud y derechos humanos en los Planes Anuales de
+      Capacitación, con corte al 30 de abril. Disponible en https://bit.
+      ly/3uXrH1J.
 
 ## 18. Política de Convivencia con Enfoque de Derechos (ID 83). Cum-
 
-      plimiento parcial. Las regiones de Antofagasta, Maule y Ñuble
+**Definición Canónica:** plimiento parcial. Las regiones de Antofagasta, Maule y Ñuble
+      actualmente no cuentan con equipos de personas facilitadoras ni
+      funcionarias del programa. Para más información, véase https://
+      bit.ly/3uQSjBG.
+
+plimiento parcial. Las regiones de Antofagasta, Maule y Ñuble
       actualmente no cuentan con equipos de personas facilitadoras ni
       funcionarias del programa. Para más información, véase https://
       bit.ly/3uQSjBG.
 
 ## 19. Implementación de la Política Nacional de la Lectura y el Libro
 
-      2015 – 2020 (ID 84). Cumplimiento parcial. La Política 2015-2020
+**Definición Canónica:** 2015 – 2020 (ID 84). Cumplimiento parcial. La Política 2015-2020
+      finalizó con un 66% de medidas implementadas en total. Especí-
+      ficamente para el ámbito de Lectura, 16 de las 25 medidas fueron
+      implementadas, es decir, un 64%. Para más información, véase ht-
+      tps://bit.ly/3z5XEGD.
+
+2015 – 2020 (ID 84). Cumplimiento parcial. La Política 2015-2020
       finalizó con un 66% de medidas implementadas en total. Especí-
       ficamente para el ámbito de Lectura, 16 de las 25 medidas fueron
       implementadas, es decir, un 64%. Para más información, véase ht-
@@ -9449,7 +10110,17 @@ humanos en los sistemas de enseñanza
 
 ## 20. Implementación del Plan Nacional de la Lectura 2015 – 2020 (ID
 
-      85). Cumplimiento parcial. El Plan Nacional de la Lectura se en-
+**Definición Canónica:** 85). Cumplimiento parcial. El Plan Nacional de la Lectura se en-
+      marca en los principios que fundan la Política Nacional de la Lectu-
+      ra y el Libro 2015-2020, los que reconocen la necesidad de asegurar
+      la participación de la comunidad, promover y proteger la diversi-
+      dad cultural, la interculturalidad y las características distintivas de
+      cada territorio del país. Esto se materializa en las siguientes orien-
+      taciones del Plan Nacional de la Lectura: una convocatoria amplia
+      y plural, la inclusión efectiva de la población, la articulación de en-
+      tid
+
+85). Cumplimiento parcial. El Plan Nacional de la Lectura se en-
       marca en los principios que fundan la Política Nacional de la Lectu-
       ra y el Libro 2015-2020, los que reconocen la necesidad de asegurar
       la participación de la comunidad, promover y proteger la diversi-
@@ -9481,7 +10152,17 @@ humanos en los sistemas de enseñanza
 
 ## 21. Transversalización de la educación en Derechos Humanos (ID
 
-      86). Cumplimiento parcial. Reuniones bilaterales con ministerios
+**Definición Canónica:** 86). Cumplimiento parcial. Reuniones bilaterales con ministerios
+      y servicios que participan en el Modelo “Aulas del Bienestar” (2016)
+      para coordinar la llegada a la escuela de diversa oferta programáti-
+      ca, considerando las demandas de los establecimientos educacio-
+      nales. Para más información, véase https://bit.ly/3AXAGDY.
+   22. Transparencia y derechos humanos (ID 87). Cumplimiento total.
+      Cursos de Perfeccionamiento Docente coordinados con CIAE de
+      la Universidad de Chile y Facultad de Humanidades Universidad
+      Austral de Chile Cursos de Capacitación e
+
+86). Cumplimiento parcial. Reuniones bilaterales con ministerios
       y servicios que participan en el Modelo “Aulas del Bienestar” (2016)
       para coordinar la llegada a la escuela de diversa oferta programáti-
       ca, considerando las demandas de los establecimientos educacio-
@@ -9498,23 +10179,26 @@ Meta 3. Incluir la educación en derechos humanos en la formación y
 capacitación para funcionarios y funcionarias públicas, de las Fuerzas
 Armadas y de Orden y Seguridad
 
-
-## 1. Formación docente y enfoque de derechos humanos (ID 88). Cum-
-
-      plimiento total. Ord/ N° 010/95 mediante el cual se ingresa la pro-
-      puesta de Estándares para la Formación Inicial Docente. Disponi-
-      ble en https://bit.ly/3AU7OMK.
-
 ## 2. Formación para los y las trabajadoras del sistema educativo en de-
 
-      rechos humanos (ID 89).Cumplimiento total. La Superintenden-
+**Definición Canónica:** rechos humanos (ID 89).Cumplimiento total. La Superintenden-
+      cia de Educación actualizó las orientaciones “Resguardo de dere-
+      chos en la escuela. Una responsabilidad compartida”. Disponible
+      en https://bit.ly/3PjEXpB.
+
+rechos humanos (ID 89).Cumplimiento total. La Superintenden-
       cia de Educación actualizó las orientaciones “Resguardo de dere-
       chos en la escuela. Una responsabilidad compartida”. Disponible
       en https://bit.ly/3PjEXpB.
 
 ## 3. Coordinación ministerial en derechos humanos (ID 90). Cumpli-
 
-      miento total. Coordinación con el Departamento de Formación
+**Definición Canónica:** miento total. Coordinación con el Departamento de Formación
+      y Capacitación de la Subsecretaría de Derechos Humanos para
+      efectos de diseñar e institucionalizar la cooperación, donde la sub-
+      secretaría de DDHH ha ofrecido la capacitación y asesoría corres-
+
+miento total. Coordinación con el Departamento de Formación
       y Capacitación de la Subsecretaría de Derechos Humanos para
       efectos de diseñar e institucionalizar la cooperación, donde la sub-
       secretaría de DDHH ha ofrecido la capacitación y asesoría corres-
@@ -9523,14 +10207,29 @@ Armadas y de Orden y Seguridad
 
 ## 4. Programa de núcleo básico de derechos humanos para las Fuerzas
 
-      Armadas (ID 91).Cumplimiento total. A la fecha, 4947 alumnos
+**Definición Canónica:** Armadas (ID 91).Cumplimiento total. A la fecha, 4947 alumnos
+      han recibido formación en derechos humanos a través de clases
+      que imparten contenidos del Núcleo Básico de Educación en De-
+      rechos Humanos. Disponible https://bit.ly/3cl1rrM.
+
+Armadas (ID 91).Cumplimiento total. A la fecha, 4947 alumnos
       han recibido formación en derechos humanos a través de clases
       que imparten contenidos del Núcleo Básico de Educación en De-
       rechos Humanos. Disponible https://bit.ly/3cl1rrM.
 
 ## 5. Núcleo Especializado de derechos humanos en la carrera militar
 
-      (ID 92). Cumplimiento total. Mediante la Resolución Exenta N°
+**Definición Canónica:** (ID 92). Cumplimiento total. Mediante la Resolución Exenta N°
+      3752/353, del 14 de noviembre del 2019, se creó del Núcleo Especia-
+      lizado de Educación en Derechos Humanos, que tendrá por obje-
+      tivo incorporar contenidos de derechos humanos en los cursos de
+      formación continua programados en las Fuerzas Armadas, según
+      necesidades específicas por programas y planes de estudio de las
+      instituciones de las FF.AA. Asimismo, se aprobó el contenido del
+      Núcleo Especializado y se dispuso su incorporación en los pro-
+      gramas formativos de especialización, y de
+
+(ID 92). Cumplimiento total. Mediante la Resolución Exenta N°
       3752/353, del 14 de noviembre del 2019, se creó del Núcleo Especia-
       lizado de Educación en Derechos Humanos, que tendrá por obje-
       tivo incorporar contenidos de derechos humanos en los cursos de
@@ -9550,7 +10249,13 @@ Armadas y de Orden y Seguridad
 
 ## 6. Formación de funcionarios/as públicos en derechos humanos (ID
 
-      93). Cumplimiento total. Desde el año 2019, se cuenta con una
+**Definición Canónica:** 93). Cumplimiento total. Desde el año 2019, se cuenta con una
+      plataforma de formación que imparte el curso de “Introducción a
+      los derechos humanos para funcionarios/as públicas”. A diciembre
+      del 2021, se han certificado 10.243 funcionarios y funcionaria. Dis-
+      ponible en https://bit.ly/3PgfNYO.
+
+93). Cumplimiento total. Desde el año 2019, se cuenta con una
       plataforma de formación que imparte el curso de “Introducción a
       los derechos humanos para funcionarios/as públicas”. A diciembre
       del 2021, se han certificado 10.243 funcionarios y funcionaria. Dis-
@@ -9558,7 +10263,14 @@ Armadas y de Orden y Seguridad
 
 ## 7. Diagnóstico sobre necesidades de capacitación en derechos huma-
 
-      nos para funcionarios/as públicos (ID 94). Cumplimiento total.
+**Definición Canónica:** nos para funcionarios/as públicos (ID 94). Cumplimiento total.
+      El Diagnóstico fue realizado por la Universidad Diego Portales, a
+      través del Centro de Derechos Humanos en el año 2018. Disponi-
+      ble en https://bit.ly/3IHO54M. Su objetivo fue conocer las necesi-
+      dades, oferta y cobertura disponible en capacitación y educación
+      en derechos humanos de los y las funcionarias públicas de los ser-
+
+nos para funcionarios/as públicos (ID 94). Cumplimiento total.
       El Diagnóstico fue realizado por la Universidad Diego Portales, a
       través del Centro de Derechos Humanos en el año 2018. Disponi-
       ble en https://bit.ly/3IHO54M. Su objetivo fue conocer las necesi-
@@ -9572,7 +10284,16 @@ Armadas y de Orden y Seguridad
 
 ## 8. Asesoría técnica a Fuerzas Armadas con enfoque de derechos hu-
 
-      manos (ID 95). Cumplimiento parcial. Desde el inicio de la imple-
+**Definición Canónica:** manos (ID 95). Cumplimiento parcial. Desde el inicio de la imple-
+      mentación del Plan, hubo una instancia de trabajo con las Fuer-
+      zas Armadas para desarrollar un proceso de colaboración en la
+      incorporación del enfoque de derechos humanos al material de
+      formación. Se acordó el envío del material y de contenidos para
+      su revisión, sin embargo, por diversas razones de contingencia, no
+      fue recibido. El trabajo igualmente fue desarrollado de manera in-
+      terna por la institución. Disponible en https://bit.ly/3yPxqHU.
+
+manos (ID 95). Cumplimiento parcial. Desde el inicio de la imple-
       mentación del Plan, hubo una instancia de trabajo con las Fuer-
       zas Armadas para desarrollar un proceso de colaboración en la
       incorporación del enfoque de derechos humanos al material de
@@ -9583,27 +10304,31 @@ Armadas y de Orden y Seguridad
 
 ## 9. Capacitación en derechos humanos a funcionarios/as de Gendar-
 
-      mería (ID 96) Cumplimiento total. Los funcionarios/as de Gen-
+**Definición Canónica:** mería (ID 96) Cumplimiento total. Los funcionarios/as de Gen-
       darmería han participado de las imparticiones del curso e-learning
       sobre “Introducción a los Derechos Humanos para funcionarios/
       as públicas”. Al 30 de noviembre de 2021, 458 personas han realiza-
       do el curso. Disponible en https://bit.ly/3PQf3tF.
 
-## 10. Sensibilización en materia de derechos humanos para funciona-
-
-      rios/as públicos (ID 97). Cumplimiento total. Participación en to-
-      das las sesiones convocadas por el INDH. Disponible en https://
-      bit.ly/3O6Z7So.
-
-## 11. Apoyo técnico en Subcomisión de Educación de la Mesa de Pre-
-
-      vención de la Tortura (ID 98).Cumplimiento total. Participación
-      en todas las sesiones convocadas por el INDH. Disponible en ht-
-      tps://bit.ly/3O6Z7So.
+mería (ID 96) Cumplimiento total. Los funcionarios/as de Gen-
+      darmería han participado de las imparticiones del curso e-learning
+      sobre “Introducción a los Derechos Humanos para funcionarios/
+      as públicas”. Al 30 de noviembre de 2021, 458 personas han realiza-
+      do el curso. Disponible en https://bit.ly/3PQf3tF.
 
 ## 12. Incorporar Formación en derechos humanos para funcionarios/
 
-      as de Municipalidades y Gobiernos Regionales (ID 99). Cumpli-
+**Definición Canónica:** as de Municipalidades y Gobiernos Regionales (ID 99). Cumpli-
+      miento parcial. Se incorpora módulo de formación transversal
+      introductoria en Derechos Humanos a la malla curricular del Di-
+      plomado En Liderazgo y Gestión de Equipos, Diplomado en Segu-
+      ridad Ciudadana (En 2021, por razones presupuestarias no se rea-
+      lizó el tercer Diplomado). Disponible en https://bit.ly/3IKBGgr.
+   13. Sensibilización y capacitación en materia de derechos humanos,
+      migración y salud a funcionarias/os (ID 100). Cumplimiento to-
+      tal. Para la elaboración de los Planes Anuales
+
+as de Municipalidades y Gobiernos Regionales (ID 99). Cumpli-
       miento parcial. Se incorpora módulo de formación transversal
       introductoria en Derechos Humanos a la malla curricular del Di-
       plomado En Liderazgo y Gestión de Equipos, Diplomado en Segu-
@@ -9621,7 +10346,15 @@ Armadas y de Orden y Seguridad
 
 ## 14. Formación y capacitación en derechos humanos: Implementación
 
-      de enfoque de derechos humanos en planes de formación y capa-
+**Definición Canónica:** de enfoque de derechos humanos en planes de formación y capa-
+      citación (ID 101). Cumplimiento parcial. Todos los Planes Anuales
+      de Capacitación, han debido modificar sus actividades programa-
+      das por la contingencia sanitaria, donde se han eliminado o rea-
+      signado capacitaciones y recursos de otras líneas, para cubrir las
+      necesidades emergentes por el brote de COVID-19. Disponible en
+      https://bit.ly/3cnBUOJ.
+
+de enfoque de derechos humanos en planes de formación y capa-
       citación (ID 101). Cumplimiento parcial. Todos los Planes Anuales
       de Capacitación, han debido modificar sus actividades programa-
       das por la contingencia sanitaria, donde se han eliminado o rea-
@@ -9631,7 +10364,14 @@ Armadas y de Orden y Seguridad
 
 ## 15. Formación y capacitación en derechos humanos para funciona-
 
-      rios/as y profesionales de la salud (ID 102). Cumplimiento parcial.
+**Definición Canónica:** rios/as y profesionales de la salud (ID 102). Cumplimiento parcial.
+      Durante el 2021 bajo Estado de Catástrofe Sanitaria, se han plani-
+      ficado 2 actividades de capacitación por 2 Servicios de Salud en
+      la temática de Salud y Derechos Humanos en los Planes Anuales
+      de Capacitación, con fecha de corte al 30 de abril. Disponible en
+      https://bit.ly/3Pv2JPd.
+
+rios/as y profesionales de la salud (ID 102). Cumplimiento parcial.
       Durante el 2021 bajo Estado de Catástrofe Sanitaria, se han plani-
       ficado 2 actividades de capacitación por 2 Servicios de Salud en
       la temática de Salud y Derechos Humanos en los Planes Anuales
@@ -9640,21 +10380,27 @@ Armadas y de Orden y Seguridad
 
 ## 16. Ampliar cobertura de capacitación en Trata de Personas a fun-
 
-      cionarios/as de salud (ID 103). Cumplimiento parcial. Durante el
+**Definición Canónica:** cionarios/as de salud (ID 103). Cumplimiento parcial. Durante el
       2021 bajo Estado de Catástrofe Sanitaria, se han planificado 1 acti-
       vidades de capacitación por 1 Servicios de Salud en la temática de
       trata de personas en los Planes Anuales de Capacitación, con fecha
       de corte al 30 de noviembre. Disponible en https://bit.ly/3uSQvrE.
 
-## 17. Formación a funcionarios/as públicos del Ministerio de la Mujer y
-
-      la Equidad de Género (ID 104). Cumplimiento total. Capacitacio-
-      nes en modalidad presencial y a través de Microsoft Teams. Dispo-
-      nible en https://bit.ly/3uTk3p9.
+cionarios/as de salud (ID 103). Cumplimiento parcial. Durante el
+      2021 bajo Estado de Catástrofe Sanitaria, se han planificado 1 acti-
+      vidades de capacitación por 1 Servicios de Salud en la temática de
+      trata de personas en los Planes Anuales de Capacitación, con fecha
+      de corte al 30 de noviembre. Disponible en https://bit.ly/3uSQvrE.
 
 ## 18. Curso E-learning “Herramientas para el abordaje de la Violen-
 
-      cia Contra la Mujer” (ID 105). Cumplimiento total. En el período
+**Definición Canónica:** cia Contra la Mujer” (ID 105). Cumplimiento total. En el período
+      comprendido entre los años 2018 y 2021, 2.251 funcionarios/as ha
+      aprobado el Curso Herramientas para el abordaje de la Violencia
+      Contra las Mujeres, de un total de 2.573 funcionarias/os inscritas/
+      os en el mismo período. Disponible en https://bit.ly/3oaBXjy.
+
+cia Contra la Mujer” (ID 105). Cumplimiento total. En el período
       comprendido entre los años 2018 y 2021, 2.251 funcionarios/as ha
       aprobado el Curso Herramientas para el abordaje de la Violencia
       Contra las Mujeres, de un total de 2.573 funcionarias/os inscritas/
@@ -9662,8 +10408,18 @@ Armadas y de Orden y Seguridad
 
 ## 19. Curso E-learning “Curso de inducción a las políticas proequidad
 
+**Definición Canónica:** de género” (ID 106). Cumplimiento total. Desde abril de 2019, año
+      en que inicia el funcionamiento del curso a la fecha se capacitaron
+      9.000 funcionarios/as públicos. Disponible en https://bit.ly/3P-
+      f2Lel.
+   20. Educación en derechos humanos y función policial (ID 107).
+      Cumplimiento total. Conjunto de capacitaciones a nivel Nacional
+      asociados las temáticas de nuestras áreas de gestión tales como
+      Violencia de Género, Perspectiva de Género, Enfoque de Dere-
+      chos, Interculturalidad y Diversidad Sexual en el trabajo policial,
+      entre otros. Fuente de 
 
-      de género” (ID 106). Cumplimiento total. Desde abril de 2019, año
+de género” (ID 106). Cumplimiento total. Desde abril de 2019, año
       en que inicia el funcionamiento del curso a la fecha se capacitaron
       9.000 funcionarios/as públicos. Disponible en https://bit.ly/3P-
       f2Lel.
@@ -9677,7 +10433,14 @@ Armadas y de Orden y Seguridad
 
 ## 21. Capacitación a funcionarios/as de la Defensoría Penal Pública en
 
-      Derechos Humanos (ID 108). Cumplimiento total. Realización de
+**Definición Canónica:** Derechos Humanos (ID 108). Cumplimiento total. Realización de
+      talleres introductorios a nivel nacional, en los sistemas de protec-
+      ción internacional de los derechos humanos y la aplicación de es-
+      tándares de derecho internacional de los derechos humanos para
+      la defensa penal. Fuente de consulta: https://planderechoshuma-
+      nos.gob.cl/reporte/historico/9/108.
+
+Derechos Humanos (ID 108). Cumplimiento total. Realización de
       talleres introductorios a nivel nacional, en los sistemas de protec-
       ción internacional de los derechos humanos y la aplicación de es-
       tándares de derecho internacional de los derechos humanos para
@@ -9686,7 +10449,17 @@ Armadas y de Orden y Seguridad
 
 ## 22. Incorporar enfoque de derechos humanos en la formación de las
 
-      y los aspirantes a oficiales de Gendarmería y Gendarmes Alum-
+**Definición Canónica:** y los aspirantes a oficiales de Gendarmería y Gendarmes Alum-
+      nos/as (ID 109). Cumplimiento parcial. El Depto. de DDHH en
+      conjunto con la Escuela de Gendarmería, desarrollaron el Instru-
+      mento para la evaluación del efectivo enfoque de DDHH en los
+      AAOO. El Instrumento evalúa el efectivo entendimiento por parte
+      de los alumnos, tras su proceso de práctica en unidades penales
+      de la región metropolitana y después de cursar las asignaturas de
+      “Derechos Humanos Segundo Semestre” y “Derechos Humanos y
+      la Labor Penitenciaria”. Lamentablemente, se deberá 
+
+y los aspirantes a oficiales de Gendarmería y Gendarmes Alum-
       nos/as (ID 109). Cumplimiento parcial. El Depto. de DDHH en
       conjunto con la Escuela de Gendarmería, desarrollaron el Instru-
       mento para la evaluación del efectivo enfoque de DDHH en los
@@ -9702,15 +10475,26 @@ Armadas y de Orden y Seguridad
 
 ## 23. Capacitar a funcionarios/as de Establecimientos Penitenciarios
 
-      en materias de derechos humanos (ID 110). Cumplimiento total.
+**Definición Canónica:** en materias de derechos humanos (ID 110). Cumplimiento total.
       Se capacitó a 4.451 funcionarios/as en 249 jornadas. Fuente de
       consulta:     https://planderechoshumanos.gob.cl/reporte/histori-
       co/9/110.
 
+en materias de derechos humanos (ID 110). Cumplimiento total.
+      Se capacitó a 4.451 funcionarios/as en 249 jornadas. Fuente de
+      consulta:     https://planderechoshumanos.gob.cl/reporte/histori-
+      co/9/110.
 
 ## 24. Realizar visitas anuales al Museo de la Memoria y los Derechos
 
-      Humanos por parte de los aspirantes a oficiales y gendarmes alum-
+**Definición Canónica:** Humanos por parte de los aspirantes a oficiales y gendarmes alum-
+      nos de la Escuela de Gendarmería (ID 111).Cumplimiento parcial.
+      Producto de la pandemia, y el plan paso a paso, este año 2021 los
+      aspirantes a oficiales y gendarmes alumnos no realizaron visitas al
+      Mueso de la Memoria. Fuente de consulta: https://planderechos-
+      humanos.gob.cl/reporte/historico/9/111.
+
+Humanos por parte de los aspirantes a oficiales y gendarmes alum-
       nos de la Escuela de Gendarmería (ID 111).Cumplimiento parcial.
       Producto de la pandemia, y el plan paso a paso, este año 2021 los
       aspirantes a oficiales y gendarmes alumnos no realizaron visitas al
@@ -9719,14 +10503,25 @@ Armadas y de Orden y Seguridad
 
 ## 25. Educación en derechos humanos para funcionarios/as públicos
 
-      (ID 112). Cumplimiento total. Ajuste de contenido de capacitación
+**Definición Canónica:** (ID 112). Cumplimiento total. Ajuste de contenido de capacitación
+      para funcionarios, incluyendo enfoque de DDHH e implementa-
+      ción de capacitaciones. Fuente de consulta: https://planderechos-
+      humanos.gob.cl/reporte/historico/9/112.
+
+(ID 112). Cumplimiento total. Ajuste de contenido de capacitación
       para funcionarios, incluyendo enfoque de DDHH e implementa-
       ción de capacitaciones. Fuente de consulta: https://planderechos-
       humanos.gob.cl/reporte/historico/9/112.
 
 ## 26. Educación en derechos humanos a funcionarios/as del Consejo
 
-      para la Transparencia (ID 113). Cumplimiento total. Realización
+**Definición Canónica:** para la Transparencia (ID 113). Cumplimiento total. Realización
+      de convocatoria y difusión de la actividad entre funcionarios del
+      CPLT Diseño de ppt sobre DDHH y Transparencia Implementa-
+      ción de la actividad. Fuente de consulta: https://planderechoshu-
+      manos.gob.cl/reporte/historico/9/113.
+
+para la Transparencia (ID 113). Cumplimiento total. Realización
       de convocatoria y difusión de la actividad entre funcionarios del
       CPLT Diseño de ppt sobre DDHH y Transparencia Implementa-
       ción de la actividad. Fuente de consulta: https://planderechoshu-
@@ -9734,7 +10529,17 @@ Armadas y de Orden y Seguridad
 
 ## 27. Capacitación a funcionarios/as del Ministerio de Obras Públicas
 
-      (ID 114). Cumplimiento total. En 2018, dos jornadas realizadas con
+**Definición Canónica:** (ID 114). Cumplimiento total. En 2018, dos jornadas realizadas con
+      asistencia total de 75 funcionarios MOP. En 2019, curso virtual: 57
+      funcionarios inscritos de los diversos servicios. En 2020, se rea-
+      lizó Programa Capacitación Género Nivel Básico que consideró
+      un módulo denominado “Una breve introducción a los Derechos
+      Humanos e Institucionalidad en Chile”, 422 personas aprueban la
+      capacitación. En 2021, 118 personas de los diversos servicios del
+      MOP fueron capacitados. Fuente de consulta: https://plandere-
+      choshumanos.gob.cl/reporte/historico/
+
+(ID 114). Cumplimiento total. En 2018, dos jornadas realizadas con
       asistencia total de 75 funcionarios MOP. En 2019, curso virtual: 57
       funcionarios inscritos de los diversos servicios. En 2020, se rea-
       lizó Programa Capacitación Género Nivel Básico que consideró
@@ -9751,7 +10556,11 @@ Armadas y de Orden y Seguridad
 
 ## 29. Capacitaciones del Observatorio de participación ciudadana y no
 
-      discriminación con enfoque de derechos humanos (ID 116). Cum-
+**Definición Canónica:** discriminación con enfoque de derechos humanos (ID 116). Cum-
+      plimiento total. En el período 2018-2021, se han capacitado 17.057
+      funcionarios/as pertenecientes a distintos servicios e instituciones
+
+discriminación con enfoque de derechos humanos (ID 116). Cum-
       plimiento total. En el período 2018-2021, se han capacitado 17.057
       funcionarios/as pertenecientes a distintos servicios e instituciones
 
@@ -9760,7 +10569,16 @@ Armadas y de Orden y Seguridad
 
 ## 30. Evaluación de programa de fortalecimiento de habilidades para
 
-      una atención de calidad con enfoque de derechos humanos (ID
+**Definición Canónica:** una atención de calidad con enfoque de derechos humanos (ID
+      117). Cumplimiento total. Los funcionarios/as que fueron capa-
+      citados en las jornadas de Fortalecimiento de Habilidades para
+      Funcionarios OIRS y otros puntos de atención de personas (823
+      personas), evaluaron el Programa, proponiendo las siguientes me-
+      joras: 1. Dada su importancia, es necesario realizar este tipo de
+      capacitaciones con mayor frecuencia. 2. Potenciar la utilización de
+      lenguaje claro y simple (menos normativo) en las capacitaciones.
+
+una atención de calidad con enfoque de derechos humanos (ID
       117). Cumplimiento total. Los funcionarios/as que fueron capa-
       citados en las jornadas de Fortalecimiento de Habilidades para
       Funcionarios OIRS y otros puntos de atención de personas (823
@@ -9771,7 +10589,17 @@ Armadas y de Orden y Seguridad
 
 ## 3. Reducir el contenido jurídico y académico. 4. Adecuar el conte-
 
-      nido de las capacitaciones al contexto que enfrentan los funciona-
+**Definición Canónica:** nido de las capacitaciones al contexto que enfrentan los funciona-
+      rios (por ejemplo, considerar realidad rural y no solo urbana, y te-
+      máticas como tolerancia a la frustración, empatía, trato inclusivo
+      y mejoría del clima laboral). 5. Generar una mayor interacción con
+      los asistentes a la capacitación. Hacer más actividades tipo taller,
+      y menos charlas. 6. Mejorar la utilización de los recursos digitales
+      en las capacitaciones. 7. Mejorar aspectos logísticos, como el audio
+      y los horarios. Fuente de consulta: https://planderechoshumanos.
+      gob.cl/rep
+
+nido de las capacitaciones al contexto que enfrentan los funciona-
       rios (por ejemplo, considerar realidad rural y no solo urbana, y te-
       máticas como tolerancia a la frustración, empatía, trato inclusivo
       y mejoría del clima laboral). 5. Generar una mayor interacción con
@@ -9783,7 +10611,17 @@ Armadas y de Orden y Seguridad
 
 ## 31. Enfoque de derechos humanos en la atención de Oficina de Infor-
 
-      maciones, Reclamos y Sugerencias (OIRS) (ID 118). Cumplimiento
+**Definición Canónica:** maciones, Reclamos y Sugerencias (OIRS) (ID 118). Cumplimiento
+      total. Contacto y coordinación con la Subsecretaría de Derechos
+      Humanos, con el Departamento de Extranjería y Migración del
+      Ministerio del Interior y Seguridad Pública, y con el Ministerio de
+      la Mujer y la Equidad de Género, para obtener una retroalimenta-
+      ción especializada en DDHH, Migración, Interculturalidad y Gé-
+      nero. Determinación de los aspectos que serán considerados en
+      la reformulación del programa, derivados de la evaluación de los
+      funcionarios que asistieron a las jornadas
+
+maciones, Reclamos y Sugerencias (OIRS) (ID 118). Cumplimiento
       total. Contacto y coordinación con la Subsecretaría de Derechos
       Humanos, con el Departamento de Extranjería y Migración del
       Ministerio del Interior y Seguridad Pública, y con el Ministerio de
@@ -9797,7 +10635,11 @@ Armadas y de Orden y Seguridad
 
 ## 32. Fortalecimiento de habilidades de las y los funcionarios con en-
 
-      foque de derechos (ID 119). Cumplimiento total. Realización de
+**Definición Canónica:** foque de derechos (ID 119). Cumplimiento total. Realización de
+      jornadas de capacitación: se programaron cinco capacitaciones de
+      carácter regional y en formato digital, que fueron tituladas como
+
+foque de derechos (ID 119). Cumplimiento total. Realización de
       jornadas de capacitación: se programaron cinco capacitaciones de
       carácter regional y en formato digital, que fueron tituladas como
 
@@ -9811,7 +10653,15 @@ Armadas y de Orden y Seguridad
 
 ## 33. Curso E-learning Derechos Humanos para funcionarios/as de
 
-      la Subsecretaria de Telecomunicaciones (ID 120). Cumplimiento
+**Definición Canónica:** la Subsecretaria de Telecomunicaciones (ID 120). Cumplimiento
+      parcial. Luego de la convocatoria del mes de septiembre del 2020
+      al interior de SUBTEL, para participar en el Curso virtual “De-
+      rechos humanos para funcionarios/as públicos, en donde parti-
+      ciparon un funcionario y cinco funcionarias, no se han realizado
+      nuevas convocatorias, debido a la pandemia. Fuente de consulta:
+      https://planderechoshumanos.gob.cl/reporte/historico/9/120.
+
+la Subsecretaria de Telecomunicaciones (ID 120). Cumplimiento
       parcial. Luego de la convocatoria del mes de septiembre del 2020
       al interior de SUBTEL, para participar en el Curso virtual “De-
       rechos humanos para funcionarios/as públicos, en donde parti-
@@ -9821,7 +10671,18 @@ Armadas y de Orden y Seguridad
 
 ## 34. Implementación curso en “Derechos Humanos y Discapacidad”
 
-      (ID 121). Cumplimiento parcial. Solo se realiza una charla sobre
+**Definición Canónica:** (ID 121). Cumplimiento parcial. Solo se realiza una charla sobre
+      “Inclusión social de personas con discapacidad” el 2018 impartida
+      por SENADIS a funcionarios de la Subsecretaría de Transportes.
+      Fuente de consulta: https://planderechoshumanos.gob.cl/reporte/
+      historico/9/121.
+   35. Formación policial y enfoque de derechos humanos (ID 122).
+      Cumplimiento total. La Policía de Investigaciones a través de la
+      Jefatura de Educación y Doctrina, con la finalidad de de desarro-
+      llar capacitación, formación y profesional; dicta las asignaturas:
+      “Introducción
+
+(ID 121). Cumplimiento parcial. Solo se realiza una charla sobre
       “Inclusión social de personas con discapacidad” el 2018 impartida
       por SENADIS a funcionarios de la Subsecretaría de Transportes.
       Fuente de consulta: https://planderechoshumanos.gob.cl/reporte/
@@ -9847,7 +10708,14 @@ Armadas y de Orden y Seguridad
 
 ## 37. Plan Nacional de Capacitación (ID 124). Cumplimiento total. En
 
-      2020 se capacitaron a 20 funcionarios que ingresaron al Departa-
+**Definición Canónica:** 2020 se capacitaron a 20 funcionarios que ingresaron al Departa-
+      mento de Extranjería y Migración, hoy actual Servicio Nacional
+      de Migraciones. En 2021 se capacitaron a 56 funcionarios que in-
+      gresaron a dicha institución. Se realizaron 62 talleres de capacita-
+      ción de funcionarios públicos. Fuente de consulta: https://plande-
+      rechoshumanos.gob.cl/reporte/historico/9/124.
+
+2020 se capacitaron a 20 funcionarios que ingresaron al Departa-
       mento de Extranjería y Migración, hoy actual Servicio Nacional
       de Migraciones. En 2021 se capacitaron a 56 funcionarios que in-
       gresaron a dicha institución. Se realizaron 62 talleres de capacita-
@@ -9856,7 +10724,12 @@ Armadas y de Orden y Seguridad
 
 ## 38. Apoyar y fortalecer las capacidades técnicas de funcionarios/as
 
-      del Ministerio de Vivienda y Urbanismo en materia migratoria
+**Definición Canónica:** del Ministerio de Vivienda y Urbanismo en materia migratoria
+      (ID 125). Cumplimiento total. Elaboración de Plan de trabajo con-
+      junto MINVU - OIM (continuidad convenio). Fuente de consulta:
+      https://planderechoshumanos.gob.cl/reporte/historico/9/125.
+
+del Ministerio de Vivienda y Urbanismo en materia migratoria
       (ID 125). Cumplimiento total. Elaboración de Plan de trabajo con-
       junto MINVU - OIM (continuidad convenio). Fuente de consulta:
       https://planderechoshumanos.gob.cl/reporte/historico/9/125.
@@ -9867,6 +10740,10 @@ En esta materia, las acciones se encaminaron a la obtención de tres metas: i) p
 
 ## parte de las empresas; y iii) mejorar las condiciones de asistencia técnica
 
+**Definición Canónica:** y fiscalización por parte del Estado.
+   En la tabla 36, 37 y 38 se presenta un resumen con las acciones asociadas a cada meta y a su estado de cumplimiento al término de ejecución
+del plan, esto es, diciembre de 2021.22
+
 y fiscalización por parte del Estado.
    En la tabla 36, 37 y 38 se presenta un resumen con las acciones asociadas a cada meta y a su estado de cumplimiento al término de ejecución
 del plan, esto es, diciembre de 2021.22
@@ -9874,10 +10751,18 @@ del plan, esto es, diciembre de 2021.22
 Meta 1. Promover una cultura de derechos humanos en las empresas
 públicas y privadas
 
-
 ## 1. Escuela Sindical (ID 583). Cumplimiento total. Se fusionaron las
 
-      escuelas de formación sindical “Formación Continua” y “Nuevos
+**Definición Canónica:** escuelas de formación sindical “Formación Continua” y “Nuevos
+      Lideres” en una sola escuela denominada Escuela de Formación
+      Sindical “Liderazgo Sindical”, modificándose la malla curricular,
+      incorporándose las siguientes materias especiales relacionadas
+      con derechos humanos: Equidad de Género; Derechos Funda-
+      mentales; Salud y Seguridad en el Trabajo; Negociación Colectiva;
+      Inclusión Laboral; Erradicación del Trabajo Infantil; Trabajo Mi-
+      grante. Disponible en https://bit.ly/3aHBF0i.
+
+escuelas de formación sindical “Formación Continua” y “Nuevos
       Lideres” en una sola escuela denominada Escuela de Formación
       Sindical “Liderazgo Sindical”, modificándose la malla curricular,
       incorporándose las siguientes materias especiales relacionadas
@@ -9900,27 +10785,33 @@ públicas y privadas
        mayo de 2021, de Subsecretaría de Previsión Social. Disponible en
        https://bit.ly/3yJ0ml3.
 
-## 3. Difusión de las Guías vigentes relacionadas al relacionamiento
-
-       temprano y buenas prácticas (ID 585). Sin implementación. Dis-
-       ponible en https://bit.ly/3yLecn0.
-
 ## 4. Revisión y actualización de la Guía de Buenas Prácticas de Parti-
 
-       cipación (ID 586). Cumplimiento parcial. La Dirección Ejecutiva
+**Definición Canónica:** cipación (ID 586). Cumplimiento parcial. La Dirección Ejecutiva
        del SEA elabora un documento denominado “Estándares de par-
        ticipación ciudadana en el SEIA”, el que se encuentra finalizado y
        actualmente en revisión por parte de las jefaturas, para su poste-
        rior publicación y difusión. Disponible en https://bit.ly/3REIrEL.
 
-## 5. Evaluación de Guía para la Participación Anticipada de la Comu-
-
-       nidad (ID 587). Sin implementación. Disponible en https://bit.ly/
-       3yExhHe.
+cipación (ID 586). Cumplimiento parcial. La Dirección Ejecutiva
+       del SEA elabora un documento denominado “Estándares de par-
+       ticipación ciudadana en el SEIA”, el que se encuentra finalizado y
+       actualmente en revisión por parte de las jefaturas, para su poste-
+       rior publicación y difusión. Disponible en https://bit.ly/3REIrEL.
 
 ## 6. Capacitación en materia de Derechos Humanos y Empresas a las
 
-       y los alumnos del Programa de Inspectores Fiscales 2018 (ID 588).
+**Definición Canónica:** y los alumnos del Programa de Inspectores Fiscales 2018 (ID 588).
+       Cumplimiento parcial. En 2019, la actividad fue enfocada a alum-
+       nos/as del Programa de Inspectores Fiscales, se realizó el módu-
+       lo de Enfoque de Derechos Humanos que incorporó un primer
+       bloque sobre aspectos generales de los DERECHOS HUMANOS,
+       luego se abarcó la temática de género para finalizar con inclusión
+       y accesibilidad universal. En 2020, debido a la emergencia sanita-
+       ria se suspendió el Programa. En 2021, se incorporó material en el
+       aula Virtual de la Academia de O
+
+y los alumnos del Programa de Inspectores Fiscales 2018 (ID 588).
        Cumplimiento parcial. En 2019, la actividad fue enfocada a alum-
        nos/as del Programa de Inspectores Fiscales, se realizó el módu-
        lo de Enfoque de Derechos Humanos que incorporó un primer
@@ -9933,7 +10824,10 @@ públicas y privadas
 
 ## 7. Incluir prácticas de respeto y cumplimiento de derechos humanos
 
-       por parte de las empresas que conforman el Registro de Contra-
+**Definición Canónica:** por parte de las empresas que conforman el Registro de Contra-
+       tistas del Ministerio de Obras Públicas (MOP) (ID 589). Cumpli-
+
+por parte de las empresas que conforman el Registro de Contra-
        tistas del Ministerio de Obras Públicas (MOP) (ID 589). Cumpli-
 
       miento parcial. Luego de varias reuniones se llegó a la conclusión
@@ -9944,21 +10838,28 @@ públicas y privadas
       Fuente de consulta: https://planderechoshumanos.gob.cl/reporte/
       historico/9/589.
 
-## 8. Incorporación en segundo Plan de Acción Nacional Derechos Hu-
-
-      manos y Empresas (ID 590). Cumplimiento parcial.La acción se
-      ha enmarcado en establecer una red y crear una figura de contra-
-
 ## parte técnica con la subsecretaría de Derechos Humanos, más en
 
-      específico, con la persona encargada del Plan de Acción Derechos
+**Definición Canónica:** específico, con la persona encargada del Plan de Acción Derechos
+      Humanos y Empresas, para formar parte de la segunda versión del
+      Plan. Fuente de consulta: https://planderechoshumanos.gob.cl/re-
+      porte/historico/9/590.
+
+específico, con la persona encargada del Plan de Acción Derechos
       Humanos y Empresas, para formar parte de la segunda versión del
       Plan. Fuente de consulta: https://planderechoshumanos.gob.cl/re-
       porte/historico/9/590.
 
 ## 9. Difusión de temas de derechos humanos y empresas (ID 591).Cum-
 
-      plimiento total. ProChile como una manera de difundir las temáti-
+**Definición Canónica:** plimiento total. ProChile como una manera de difundir las temáti-
+      cas de derechos humanos ha incorporado la temática de Derechos
+      Humanos y empresa en los talleres de Comercio de Sostenible y/o
+      mesas ad hoc que se han desarrollado, de manera digital, a lo largo
+      del país este año. Fuente de consulta: https://planderechoshuma-
+      nos.gob.cl/reporte/historico/9/591.
+
+plimiento total. ProChile como una manera de difundir las temáti-
       cas de derechos humanos ha incorporado la temática de Derechos
       Humanos y empresa en los talleres de Comercio de Sostenible y/o
       mesas ad hoc que se han desarrollado, de manera digital, a lo largo
@@ -9967,7 +10868,17 @@ públicas y privadas
 
 ## 10. Participación de organizaciones de sociedad civil en procesos de
 
-      negociación e implementación de acuerdos comerciales (ID 592).
+**Definición Canónica:** negociación e implementación de acuerdos comerciales (ID 592).
+      Cumplimiento total.El año 2021, se ha implementado el Cuarto
+      Adjunto con un “enfoque de procesos” con la finalidad de aumen-
+      tar el nivel de participación ciudadana en las negociaciones co-
+      merciales. Las negociaciones comerciales en curso cuentan con
+      un sitio web específico de Cuarto Adjunto en el cual se han al-
+      macenado documentos tales como presentaciones, actas y listado
+      de asistencia. Asimismo, por cada reunión de Cuarto Adjunto se
+      generan notas de Prensa explicando resumidament
+
+negociación e implementación de acuerdos comerciales (ID 592).
       Cumplimiento total.El año 2021, se ha implementado el Cuarto
       Adjunto con un “enfoque de procesos” con la finalidad de aumen-
       tar el nivel de participación ciudadana en las negociaciones co-
@@ -9981,7 +10892,10 @@ públicas y privadas
 
 ## 11. Desarrollar instancias de formación para empresas sobre el respe-
 
-      to de los derechos humanos en la actividad empresarial, con en-
+**Definición Canónica:** to de los derechos humanos en la actividad empresarial, con en-
+      foque en derechos indígenas y su cosmovisión (ID 593). Cumpli-
+
+to de los derechos humanos en la actividad empresarial, con en-
       foque en derechos indígenas y su cosmovisión (ID 593). Cumpli-
 
       miento parcial.Se realizaron talleres con empresas anualmente, a
@@ -9997,7 +10911,18 @@ públicas y privadas
 
 ## 13. Pacto de Integridad en Convenio Marco (ID 595). Cumplimiento
 
-      total. Se ha incorporado la siguiente cláusula, la cual forma parte
+**Definición Canónica:** total. Se ha incorporado la siguiente cláusula, la cual forma parte
+      integral del Pacto de Integridad, que se incluye en todas las bases de
+      Convenio Marco que adjudica la Dirección Chile Compra: “Pacto
+      de integridad: El oferente declara que, por el solo hecho de partici-
+      par en la presente licitación, acepta expresamente el presente pac-
+      to de integridad, obligándose a cumplir con todas y cada una de
+      las estipulaciones contenidas en el mismo, sin perjuicio de las que
+      se señalen en el resto de las bases de licitación y demás documen-
+      tos integrante
+**Concordancias Legales:** artículo 19; artículo 485; Constitución Política
+
+total. Se ha incorporado la siguiente cláusula, la cual forma parte
       integral del Pacto de Integridad, que se incluye en todas las bases de
       Convenio Marco que adjudica la Dirección Chile Compra: “Pacto
       de integridad: El oferente declara que, por el solo hecho de partici-
@@ -10022,7 +10947,12 @@ públicas y privadas
 
 ## 14. Pacto de Integridad en Licitaciones Públicas (ID 596). Cumpli-
 
-      miento total.Se estableció una cláusula en el “Pacto de Integridad”,
+**Definición Canónica:** miento total.Se estableció una cláusula en el “Pacto de Integridad”,
+      dentro del Formulario de Licitaciones Simplificadas implementa-
+      do por esta Dirección, que se refiere al respeto a los Principios
+**Concordancias Legales:** artículo 19; artículo 485; Constitución Política
+
+miento total.Se estableció una cláusula en el “Pacto de Integridad”,
       dentro del Formulario de Licitaciones Simplificadas implementa-
       do por esta Dirección, que se refiere al respeto a los Principios
 
@@ -10053,13 +10983,24 @@ públicas y privadas
 
 ## 15. Web de compromisos por un Chile Sustentable (ID 597). Cum-
 
-      plimiento parcial. Se publicó página web chilesostenible.econo-
+**Definición Canónica:** plimiento parcial. Se publicó página web chilesostenible.econo-
+      mia.cl, con lanzamiento en marzo 2018. Actualmente cuenta con 5
+      compromisos visibilizados. Disponible en https://bit.ly/3Pg9ZhZ.
+
+plimiento parcial. Se publicó página web chilesostenible.econo-
       mia.cl, con lanzamiento en marzo 2018. Actualmente cuenta con 5
       compromisos visibilizados. Disponible en https://bit.ly/3Pg9ZhZ.
 
 ## 16. Implementación y difusión de acciones comprometidas en el Plan
 
-      de Acción Nacional de Derechos Humanos y Empresas (ID 598).
+**Definición Canónica:** de Acción Nacional de Derechos Humanos y Empresas (ID 598).
+      Cumplimiento parcial. Realización de un informe semestral sobre
+      el cumplimiento del Plan de Acción Nacional de Derechos Hu-
+      manos y Empresas. Por temas de contingencia nacional y la emer-
+      gencia sanitaria, algunas medidas se han atrasado. Disponible en
+      https://bit.ly/3IJhBHn.
+
+de Acción Nacional de Derechos Humanos y Empresas (ID 598).
       Cumplimiento parcial. Realización de un informe semestral sobre
       el cumplimiento del Plan de Acción Nacional de Derechos Hu-
       manos y Empresas. Por temas de contingencia nacional y la emer-
@@ -10068,7 +11009,9 @@ públicas y privadas
 
 ## 17. Coordinación y seguimiento de la implementación del Plan de Ac-
 
-      ción Nacional de Derechos Humanos y Empresas (ID 607). Cum-
+**Definición Canónica:** ción Nacional de Derechos Humanos y Empresas (ID 607). Cum-
+
+ción Nacional de Derechos Humanos y Empresas (ID 607). Cum-
 
       plimiento total. La Subsecretaría de Derechos Humanos se hizo
       cargo de la coordinación del Plan de Acción Nacional de Derechos
@@ -10079,7 +11022,17 @@ públicas y privadas
 
 ## 18. Evaluación final del Plan de Acción Nacional Derechos Humanos
 
-      y Empresas, y planificación de elaboración de su segunda versión
+**Definición Canónica:** y Empresas, y planificación de elaboración de su segunda versión
+      (ID 608). Cumplimiento total. Bases de licitación para Estudio de
+      Actualización, Evaluación del Plan de Acción Nacional de Dere-
+      chos Humanos y Empresas, y Propuesta para la Elaboración de su
+      Segunda Versión. El estudio fue adjudicado a la Facultad de Dere-
+      chos de la Pontifica Universidad Católica de Chile a través de una
+      licitación pública. Este trabajo fue realizado durante el segundo
+      semestre de 2020 y es el insumo base sobre el cual se está diseñan-
+      do el segundo Plan. Disponib
+
+y Empresas, y planificación de elaboración de su segunda versión
       (ID 608). Cumplimiento total. Bases de licitación para Estudio de
       Actualización, Evaluación del Plan de Acción Nacional de Dere-
       chos Humanos y Empresas, y Propuesta para la Elaboración de su
@@ -10097,13 +11050,18 @@ empresas
 
 Meta 3. Mejorar las condiciones de asistencia técnica y fiscalización por
 
-## parte del Estado
-
-
-
 ## 1. Aplicación de Principios Rectores de Naciones Unidas en tratados
 
-      comerciales y cooperación internacional (ID 600). Cumplimien-
+**Definición Canónica:** comerciales y cooperación internacional (ID 600). Cumplimien-
+      to total. Durante 2021, se han desarrollado rondas de negociación
+      con respecto al Acuerdo de Asociación suscrito entre Chile y la
+      Unión Europea y el Acuerdo comercial con la Asociación Europea
+      de Libre Comercio (EFTA). Sobre el particular, se ha propuesto
+      en cada reunión de discusión la incorporación de los principios
+      rectores en el capítulo que contendrás las materias laborales. Dis-
+      ponible en https://bit.ly/3chjrmL.
+
+comerciales y cooperación internacional (ID 600). Cumplimien-
       to total. Durante 2021, se han desarrollado rondas de negociación
       con respecto al Acuerdo de Asociación suscrito entre Chile y la
       Unión Europea y el Acuerdo comercial con la Asociación Europea
@@ -10114,7 +11072,10 @@ Meta 3. Mejorar las condiciones de asistencia técnica y fiscalización por
 
 ## 2. Aplicación de Principios Rectores de Naciones Unidas en los pro-
 
-      cesos de implementación de los capítulos laborales que integran
+**Definición Canónica:** cesos de implementación de los capítulos laborales que integran
+      los Acuerdos Comerciales suscritos por Chile (ID 601). Cumpli-
+
+cesos de implementación de los capítulos laborales que integran
       los Acuerdos Comerciales suscritos por Chile (ID 601). Cumpli-
 
       miento total. En el marco de la implantación del capítulo laboral
@@ -10125,7 +11086,14 @@ Meta 3. Mejorar las condiciones de asistencia técnica y fiscalización por
 
 ## 3. Capacitaciones internas en derechos humanos (ID 602). Sin imple-
 
-      mentación. Debido a los acontecimientos ocurridos en el país por
+**Definición Canónica:** mentación. Debido a los acontecimientos ocurridos en el país por
+      la pandemia de covid-19 y la política de reasignación de recursos
+      públicos para enfrentar esta emergencia, no fue posible realizar la
+      acción comprometida. Claramente nos encontramos en una situa-
+      ción de fuerza mayor que imposibilitó la ejecución de la acción en
+      concreto. Para más información, véase https://bit.ly/3ckRsTk.
+
+mentación. Debido a los acontecimientos ocurridos en el país por
       la pandemia de covid-19 y la política de reasignación de recursos
       públicos para enfrentar esta emergencia, no fue posible realizar la
       acción comprometida. Claramente nos encontramos en una situa-
@@ -10134,7 +11102,15 @@ Meta 3. Mejorar las condiciones de asistencia técnica y fiscalización por
 
 ## 4. Proceso de Evaluación del Punto Nacional de Contacto de la Orga-
 
-      nización para la Cooperación y el Desarrollo Económico (OCDE)
+**Definición Canónica:** nización para la Cooperación y el Desarrollo Económico (OCDE)
+      en Chile (Peer Review) (ID 603). Cumplimiento total.Fortaleci-
+      miento del Departamento de Conducta Empresarial Responsable
+      y Fortalecimiento de los roles y estructura del Comité Espejo (de
+      partes interesadas) y Comité Consultivo (interministerial) para el
+      Punto Nacional de Contacto. Para más información, véase https://
+      bit.ly/3z5ODNN.
+
+nización para la Cooperación y el Desarrollo Económico (OCDE)
       en Chile (Peer Review) (ID 603). Cumplimiento total.Fortaleci-
       miento del Departamento de Conducta Empresarial Responsable
       y Fortalecimiento de los roles y estructura del Comité Espejo (de
@@ -10144,7 +11120,11 @@ Meta 3. Mejorar las condiciones de asistencia técnica y fiscalización por
 
 ## 5. Fortalecimiento del Comité Espejo, asesor del Punto Nacional de
 
-      Contacto-OCDE (ID 604). Cumplimiento total. Aprobación e im-
+**Definición Canónica:** Contacto-OCDE (ID 604). Cumplimiento total. Aprobación e im-
+      plementación de nuevos estatutos. Para más información, véase
+      https://bit.ly/3IMe62Q.
+
+Contacto-OCDE (ID 604). Cumplimiento total. Aprobación e im-
       plementación de nuevos estatutos. Para más información, véase
       https://bit.ly/3IMe62Q.
 
@@ -10166,10 +11146,19 @@ plan, esto es, diciembre de 2021.23
 Meta 1. Garantizar la coordinación intersectorial de la gestión pública
 con enfoque de derechos humanos
 
-
 ## 1. Incorporar a la Subsecretaría de Derechos Humanos y al Instituto
 
-       Nacional de Derechos Humanos (INDH) a la Plataforma Nacional
+**Definición Canónica:** Nacional de Derechos Humanos (INDH) a la Plataforma Nacional
+       para la Reducción del Riesgo de Desastres (ID 480). Cumplimien-
+       to total.Mediante el Oficio Ordinario 90 de la ONEMI (19 de ene-
+       ro de 2021) se solicitó a la Subsecretaría de Derechos Humanos y el
+       Instituto de Derechos Humanos la actualización o ratificación de
+       sus representantes titular y suplente. Mediante el Oficio Ordinario
+       99 del 28 de enero de 2021, la Subsecretaría de Derechos Humanos
+       ratificó su representación para 2021. Similarmente, mediante co-
+       rreo electrónico del 25
+
+Nacional de Derechos Humanos (INDH) a la Plataforma Nacional
        para la Reducción del Riesgo de Desastres (ID 480). Cumplimien-
        to total.Mediante el Oficio Ordinario 90 de la ONEMI (19 de ene-
        ro de 2021) se solicitó a la Subsecretaría de Derechos Humanos y el
@@ -10183,7 +11172,17 @@ con enfoque de derechos humanos
 
 ## 2. Implementar el Plan de Trabajo asociado al Convenio de colabo-
 
-       ración entre el Ministerio de Vivienda y Urbanismo y el Instituto
+**Definición Canónica:** ración entre el Ministerio de Vivienda y Urbanismo y el Instituto
+       Nacional de Derechos Humanos (ID 481). Cumplimiento parcial.
+       Durante el 2020 se sostuvo reunión con el Instituto Nacional de
+       Derechos Humanos y se tomó conocimiento de un cambio estruc-
+       tural en dicha institución. Actualmente, no existe la unidad que
+       asuma como contraparte del convenio. En virtud de lo expues-
+       to y de que se concretaron con el Instituto Nacional de Derechos
+       Humanos tres sesiones de sensibilización en las que participaron
+       veinte funcionarios y funcionarias, 
+
+ración entre el Ministerio de Vivienda y Urbanismo y el Instituto
        Nacional de Derechos Humanos (ID 481). Cumplimiento parcial.
        Durante el 2020 se sostuvo reunión con el Instituto Nacional de
        Derechos Humanos y se tomó conocimiento de un cambio estruc-
@@ -10203,8 +11202,9 @@ con enfoque de derechos humanos
 
 ## 3. Iniciar la implementación de la Política Nacional de Ordenamien-
 
+**Definición Canónica:** 23 Para más información, véase https://bit.ly/3AStado.
 
- 23 Para más información, véase https://bit.ly/3AStado.
+23 Para más información, véase https://bit.ly/3AStado.
 
       to Territorial (ID 482). Cumplimiento parcial.Política Nacional de
       Ordenamiento Territorial, que se encuentra aprobada a través de
@@ -10214,7 +11214,17 @@ con enfoque de derechos humanos
 
 ## 4. Participación en Comité Interministerial para el Plan de Acción
 
-      Nacional de Derechos Humanos y Empresas (ID 483). Cumpli-
+**Definición Canónica:** Nacional de Derechos Humanos y Empresas (ID 483). Cumpli-
+      miento parcial.Se cumplió con la participación en todas las reu-
+      niones convocadas para participar del Comité interministerial,
+      entre las que se destaca la invitación al proceso participativo del
+      primer plan y la elaboración del segundo plan nacional de dere-
+      chos humanos y empresas. No obstante, la cantidad de reuniones
+      realizadas disminuyó a raíz de la pandemia, ya que muchos ser-
+      vicios tuvieron que poner el foco en la crisis sanitaria. Para más
+      información, véase https://bit.ly/3cghU0i
+
+Nacional de Derechos Humanos y Empresas (ID 483). Cumpli-
       miento parcial.Se cumplió con la participación en todas las reu-
       niones convocadas para participar del Comité interministerial,
       entre las que se destaca la invitación al proceso participativo del
@@ -10226,7 +11236,13 @@ con enfoque de derechos humanos
 
 ## 5. Diagnóstico de la Gestión Municipal que considere Enfoque de De-
 
-      rechos Humanos en la gestión de Servicios Municipales (ID 484).
+**Definición Canónica:** rechos Humanos en la gestión de Servicios Municipales (ID 484).
+      Cumplimiento total.En 2021, SUBDERE contrató una consultoría
+      para la actualización completa del cuestionario Diagnóstico Na-
+      cional, Calidad de la Gestión Municipal. Para más información,
+      véase https://bit.ly/3RCH9Kp.
+
+rechos Humanos en la gestión de Servicios Municipales (ID 484).
       Cumplimiento total.En 2021, SUBDERE contrató una consultoría
       para la actualización completa del cuestionario Diagnóstico Na-
       cional, Calidad de la Gestión Municipal. Para más información,
@@ -10234,7 +11250,17 @@ con enfoque de derechos humanos
 
 ## 6. Salud y bienestar en entornos educacionales (ID 485). Cumpli-
 
-      miento parcial.La acción tiene relación con la implementación de
+**Definición Canónica:** miento parcial.La acción tiene relación con la implementación de
+      un modelo de gestión intersectorial que forma parte de la Política
+      Nacional de Convivencia Escolar con el fin de aportar en la cons-
+      trucción de comunidades protectoras e inclusivas desde el énfa-
+      sis en los conceptos de bienestar y cuidado, considerando a los y
+      las estudiantes como sujetos integrales en el marco de su proceso
+      formativo. Desde el Ministerio de Salud, a inicios de 2019, se ter-
+      minaron de actualizar las orientaciones técnicas para el denomi-
+      nado “Sistema de Reconoci
+
+miento parcial.La acción tiene relación con la implementación de
       un modelo de gestión intersectorial que forma parte de la Política
       Nacional de Convivencia Escolar con el fin de aportar en la cons-
       trucción de comunidades protectoras e inclusivas desde el énfa-
@@ -10261,60 +11287,72 @@ Meta 2. Adecuar marcos normativos para garantizar los derechos
 económicos, sociales y culturales en condiciones de igualdad y no
 discriminación
 
-
 ## 1. Adecuación de marco normativo en virtud de las modificaciones
 
-      legales para los Gobiernos Regionales: Elección de gobernadores y
+**Definición Canónica:** legales para los Gobiernos Regionales: Elección de gobernadores y
+      transferencia de competencias (ID 486). Cumplimiento total. Di-
+      fusión y capacitación de reformas en materia de descentralización,
+      Ley 21.073 y Ley 21.074 vía e-learning. Para más información, véa-
+      se https://bit.ly/3aHtAsu.
+**Concordancias Legales:** Ley 21.073; Ley 21.074
+
+legales para los Gobiernos Regionales: Elección de gobernadores y
       transferencia de competencias (ID 486). Cumplimiento total. Di-
       fusión y capacitación de reformas en materia de descentralización,
       Ley 21.073 y Ley 21.074 vía e-learning. Para más información, véa-
       se https://bit.ly/3aHtAsu.
 
-## 2. Estudio de marco normativo y técnico para garantizar la incorpo-
-
-      ración transversal del enfoque de derechos humanos en Salud (ID
-      487). Sin implementación. Para más información, véase https://
-      bit.ly/3IKikrY.
-
 ## 3. Ajuste de marco normativo y técnico para garantizar la incorpo-
 
-      ración transversal del enfoque de derechos humanos en Salud (ID
+**Definición Canónica:** ración transversal del enfoque de derechos humanos en Salud (ID
       488). Cumplimiento parcial. Dada la emergencia sanitaria, se ela-
       boró el documento de Consideraciones de salud mental y apoyo
       sicosocial durante el covid-19, que incorpora grupos vulnerables
       y que puedan sufrir discriminación. Para más información, véase
       https://bit.ly/3IL6nCh.
 
-## 4. Desarrollo de estrategias regionales para avanzar en democracia
-
-      participativa y medio ambiente (ID 489). Sin implementación.
-      Para más información, véase https://bit.ly/3PqZEzO.
+ración transversal del enfoque de derechos humanos en Salud (ID
+      488). Cumplimiento parcial. Dada la emergencia sanitaria, se ela-
+      boró el documento de Consideraciones de salud mental y apoyo
+      sicosocial durante el covid-19, que incorpora grupos vulnerables
+      y que puedan sufrir discriminación. Para más información, véase
+      https://bit.ly/3IL6nCh.
 
 ## 5. Gestionar modificación de artículo 36 b) de la Ley General de Te-
 
-      lecomunicaciones (ID 490). Sin implementación. Para más infor-
+**Definición Canónica:** lecomunicaciones (ID 490). Sin implementación. Para más infor-
+      mación, véase https://bit.ly/3Oe5djG.
+
+lecomunicaciones (ID 490). Sin implementación. Para más infor-
       mación, véase https://bit.ly/3Oe5djG.
 
 Meta 3. Implementar acciones que garanticen los derechos económicos,
 sociales y culturales en condiciones de igualdad y no discriminación en
 todas las regiones del país
 
-
-## 1. Diseñar mecanismos e instrumentos para promover una gestión
-
-      subnacional y local con Enfoque de Derechos Humanos (ID 491).
-      Sin implementación. Para más información, véase https://bit.
-      ly/3OciKIS.
-
 ## 2. Incorporación del Enfoque de Derechos Humanos en el Progra-
 
-      ma de Fortalecimiento de la Gestión Municipal (ID 492). Cum-
+**Definición Canónica:** ma de Fortalecimiento de la Gestión Municipal (ID 492). Cum-
+      plimiento total. Se incorpora el enfoque de derecho en las cuentas
+      participativas. Para más información, véase https://bit.ly/3o8l1tT.
+
+ma de Fortalecimiento de la Gestión Municipal (ID 492). Cum-
       plimiento total. Se incorpora el enfoque de derecho en las cuentas
       participativas. Para más información, véase https://bit.ly/3o8l1tT.
 
 ## 3. Fortalecimiento de la participación ciudadana en la salud públi-
 
-      ca: Mejoramiento y evaluación de instancias de participación (ID
+**Definición Canónica:** ca: Mejoramiento y evaluación de instancias de participación (ID
+      493). Cumplimiento total. Diálogos ciudadanos fueron reempla-
+      zados por conversatorios virtuales, los cuales se desarrollaron en
+      los 29 Servicio de Salud, entre las temáticas más destacadas se en-
+      cuentran: modificaciones al plan paso a paso, puesta en marcha de
+      proyectos de inversión hospitalaria, plan y proceso de vacunación
+      covid-19 e inversiones en atención primaria de salud. Para más
+      información, véase https://bit.ly/3IMkAPe.
+   4. Fortalecimiento de la participación ciudadana en la 
+
+ca: Mejoramiento y evaluación de instancias de participación (ID
       493). Cumplimiento total. Diálogos ciudadanos fueron reempla-
       zados por conversatorios virtuales, los cuales se desarrollaron en
       los 29 Servicio de Salud, entre las temáticas más destacadas se en-
@@ -10333,7 +11371,7 @@ todas las regiones del país
 
 ## 5. Promoción de vida sana y alimentación saludable con niños, niñas
 
-      y adolescentes (ID 495). Cumplimiento parcial.Debido al cierre
+**Definición Canónica:** y adolescentes (ID 495). Cumplimiento parcial.Debido al cierre
       total de establecimientos educacionales decretado por el Minis-
       terio de Salud, debido a la pandemia no fue viable reactivar este
       mecanismo de participación social en ninguna región del país, por
@@ -10341,16 +11379,27 @@ todas las regiones del país
       niños y adolescentes durante 2020-2021. Para más información,
       véase https://bit.ly/3oaCeTo.
 
-## 6. Creación e implementación de Unidad de Derechos Humanos (ID
-
-      496). Cumplimiento total. El 25 de agosto de 2020 se crea, a través
-      de la resolución exenta 706, el Departamento de Derechos Huma-
-      nos y Género. Disponible en https://bit.ly/3PzUotq.
-
+y adolescentes (ID 495). Cumplimiento parcial.Debido al cierre
+      total de establecimientos educacionales decretado por el Minis-
+      terio de Salud, debido a la pandemia no fue viable reactivar este
+      mecanismo de participación social en ninguna región del país, por
+      lo que no se implementaron los Parlamentos Escolares para niñas,
+      niños y adolescentes durante 2020-2021. Para más información,
+      véase https://bit.ly/3oaCeTo.
 
 ## 7. Diagnóstico sobre barreras territoriales en la entrega de beneficios
 
-      Junaeb (ID 497). Cumplimiento total.El informe refleja la situa-
+**Definición Canónica:** Junaeb (ID 497). Cumplimiento total.El informe refleja la situa-
+      ción de los beneficios de Junaeb el 2020 y estuvo sometidos a re-
+      visiones y correcciones hasta el mes de marzo 2021. El ejercicio de
+      diagnóstico determinó que hay dos zonas —zona insular y zona
+      austral— en las que Junaeb tiene un mayor nivel de desarrollo,
+      esto se explica por los beneficios y servicios exclusivos o específi-
+      cos que se entregan a los estudiantes originarios de aquellas zonas.
+      Por otra parte, se identifican las zonas rurales y de sacrificio o ries-
+      go de desastre na
+
+Junaeb (ID 497). Cumplimiento total.El informe refleja la situa-
       ción de los beneficios de Junaeb el 2020 y estuvo sometidos a re-
       visiones y correcciones hasta el mes de marzo 2021. El ejercicio de
       diagnóstico determinó que hay dos zonas —zona insular y zona
@@ -10371,14 +11420,25 @@ todas las regiones del país
 
 ## 9. Implementación del Programa Red Cultura (ID 499). Cumpli-
 
-      miento total.Planificación Cultural Participativa con énfasis en
+**Definición Canónica:** miento total.Planificación Cultural Participativa con énfasis en
+      codiseño con la comunidad para Planes Municipales de Cultura
+      y Planes de Gestión de Espacios Culturales. Disponible en https://
+      bit.ly/3yLbkGK.
+
+miento total.Planificación Cultural Participativa con énfasis en
       codiseño con la comunidad para Planes Municipales de Cultura
       y Planes de Gestión de Espacios Culturales. Disponible en https://
       bit.ly/3yLbkGK.
 
 ## 10. Diseño de instrumentos de financiamiento descentralizados para
 
-      el fomento de la creación musical (ID 500). Cumplimiento total.
+**Definición Canónica:** el fomento de la creación musical (ID 500). Cumplimiento total.
+      Recepción, evaluación y revisión de proyectos postulados al Con-
+      curso General de Proyectos del Fondo de Fomento de la Música
+      Nacional, desde la convocatoria 2019 a la 2022. Disponible en ht-
+      tps://bit.ly/3yOCk83.
+
+el fomento de la creación musical (ID 500). Cumplimiento total.
       Recepción, evaluación y revisión de proyectos postulados al Con-
       curso General de Proyectos del Fondo de Fomento de la Música
       Nacional, desde la convocatoria 2019 a la 2022. Disponible en ht-
@@ -10386,17 +11446,33 @@ todas las regiones del país
 
 ## 11. Incorporación de enfoque productivo en el Programa de Habita-
 
-      bilidad Rural (ID 501). Cumplimiento total. Celebración de con-
+**Definición Canónica:** bilidad Rural (ID 501). Cumplimiento total. Celebración de con-
       venio de colaboración con el Ministerio de Vivienda y Urbanismo.
       Convenio de colaboración entre el MINVU, MINAGRI, ODEPA
       e INDAP del 9 de marzo de 2020, aprobado mediante Resolución
       Exenta 135.356 del 26 de octubre de 2020, del director nacional IN-
       DAP. Para más información, véase https://bit.ly/3RFTD3N.
 
+bilidad Rural (ID 501). Cumplimiento total. Celebración de con-
+      venio de colaboración con el Ministerio de Vivienda y Urbanismo.
+      Convenio de colaboración entre el MINVU, MINAGRI, ODEPA
+      e INDAP del 9 de marzo de 2020, aprobado mediante Resolución
+      Exenta 135.356 del 26 de octubre de 2020, del director nacional IN-
+      DAP. Para más información, véase https://bit.ly/3RFTD3N.
 
 ## 12. Ejecución de proyectos en zonas extremas del país (ID 502). Cum-
 
-      plimiento parcial. Programa Agua Potable Rural, regiones de Ari-
+**Definición Canónica:** plimiento parcial. Programa Agua Potable Rural, regiones de Ari-
+      ca Parinacota, Los Lagos, Aysén y Magallanes y de la Antártica
+      Chilena. Proyectos de Obras Hidráulicas, Vialidad, Arquitectura,
+      Dirección General de Aguas y Obras Portuarias en las regiones de
+      Arica Parinacota, Los Lagos (Provincia Palena y Comuna de Co-
+      chamó), Aysén y Magallanes y de la Antártica Chilena. En 2019,
+      un 80,7% de obras ejecutadas en relación con las proyectadas; en
+      2020, un 70%; en 2021, un 72%. Para más información, véase ht-
+      tps://bit.ly/3aIqVPp.
+
+plimiento parcial. Programa Agua Potable Rural, regiones de Ari-
       ca Parinacota, Los Lagos, Aysén y Magallanes y de la Antártica
       Chilena. Proyectos de Obras Hidráulicas, Vialidad, Arquitectura,
       Dirección General de Aguas y Obras Portuarias en las regiones de
@@ -10408,7 +11484,13 @@ todas las regiones del país
 
 ## 13. Levantamiento y diagnóstico de las familias que no cuentan con
 
-      electricidad y otros servicios energéticos en sus hogares (ID 503).
+**Definición Canónica:** electricidad y otros servicios energéticos en sus hogares (ID 503).
+      Cumplimiento total. Elaboración de propuesta de medición y lí-
+      nea base por parte de PNUD. Propuesta a escala comunal utilizan-
+      do como fuente de información la CASEN. Para más información,
+      véase https://bit.ly/3INcpCn.
+
+electricidad y otros servicios energéticos en sus hogares (ID 503).
       Cumplimiento total. Elaboración de propuesta de medición y lí-
       nea base por parte de PNUD. Propuesta a escala comunal utilizan-
       do como fuente de información la CASEN. Para más información,
@@ -10416,34 +11498,37 @@ todas las regiones del país
 
 ## 14. Planes de Prevención y/o Descontaminación Atmosférica (ID
 
-      504). Cumplimiento total. Números de Planes de Prevención y/o
+**Definición Canónica:** 504). Cumplimiento total. Números de Planes de Prevención y/o
       Descontaminación Vigentes = 15 (Tocopilla, Huasco, Andacollo,
       Concón-Quintero-Puchuncaví, RM, Rancagua, Curicó, Talca,
       Chillán, Concepción, Los Ángeles, Temuco, Valdivia, Osorno y
       Coyhaique). Para más información, véase https://bit.ly/3aJtz7n.
 
-## 15. Formación en evaluación ambiental estratégica (ID 505). Cum-
-
-      plimiento total. Se impartió curso e-Learning de Evaluación
-      Ambiental Estratégica. Para más información, véase https://bit.
-      ly/3O7WSyh.
+504). Cumplimiento total. Números de Planes de Prevención y/o
+      Descontaminación Vigentes = 15 (Tocopilla, Huasco, Andacollo,
+      Concón-Quintero-Puchuncaví, RM, Rancagua, Curicó, Talca,
+      Chillán, Concepción, Los Ángeles, Temuco, Valdivia, Osorno y
+      Coyhaique). Para más información, véase https://bit.ly/3aJtz7n.
 
 ## 16. Asesorar y canalizar inquietudes y necesidades de los Consejos
 
-      para la Recuperación Ambiental y Social en el contexto de los Pla-
+**Definición Canónica:** para la Recuperación Ambiental y Social en el contexto de los Pla-
       nes de Recuperación Ambiental y Social (ID 506). Cumplimiento
       total. Acompañamiento a los Consejos para la Recuperación Am-
       biental y Social CRAS de Huasco, Quintero-Puchuncaví y Coro-
       nel. Para más información, véase https://bit.ly/3ILPes1.
 
-## 17. Planificación e implementación participativa de Planes de Ges-
-
-      tión Territorial Integral (ID 507). Cumplimiento total. Creación
-      de condiciones, capacitación y acompañamiento al despliegue de
+para la Recuperación Ambiental y Social en el contexto de los Pla-
+      nes de Recuperación Ambiental y Social (ID 506). Cumplimiento
+      total. Acompañamiento a los Consejos para la Recuperación Am-
+      biental y Social CRAS de Huasco, Quintero-Puchuncaví y Coro-
+      nel. Para más información, véase https://bit.ly/3ILPes1.
 
 ## 3 Acuerdos de Subsidios con organizaciones de la sociedad civil
 
-      co-ejecutoras (CEDESUS, ADEMA y CCCSN) para desarrollo
+**Definición Canónica:** co-ejecutoras (CEDESUS, ADEMA y CCCSN) para desarrollo
+
+co-ejecutoras (CEDESUS, ADEMA y CCCSN) para desarrollo
 
       de iniciativas a escala territorial (IET) en Pumanque-Lolol, Pu-
       tú-Huenchullamí y San Nicolás. Para más información https://bit.
@@ -10451,7 +11536,13 @@ todas las regiones del país
 
 ## 18. Planificación e implementación participativa para paisajes pro-
 
-      ductivos (ID 508). Cumplimiento total. Proceso participativo para
+**Definición Canónica:** ductivos (ID 508). Cumplimiento total. Proceso participativo para
+      implementación de etapa de cierre de proyectos comunitarios en
+      el marco de las IET desarrolladas por las OSC co-ejecutoras en
+      Pumanque-Lolol, Putú-Huenchullamí y San Nicolás. Para más in-
+      formación, véase https://bit.ly/3aIQPm5.
+
+ductivos (ID 508). Cumplimiento total. Proceso participativo para
       implementación de etapa de cierre de proyectos comunitarios en
       el marco de las IET desarrolladas por las OSC co-ejecutoras en
       Pumanque-Lolol, Putú-Huenchullamí y San Nicolás. Para más in-
@@ -10459,7 +11550,16 @@ todas las regiones del país
 
 ## 19. Desarrollar la Planificación Ecológica para 36 municipios de las
 
-      Regiones Metropolitana y de Valparaíso, correspondiente al área
+**Definición Canónica:** Regiones Metropolitana y de Valparaíso, correspondiente al área
+      del proyecto Global Environment Facility: Corredores Biológi-
+      cos de Montaña (ID 509). Cumplimiento total. A marzo 2020 el
+      consultor hace entrega del informe final aprobado conforme por
+      la contraparte técnica. Actualmente se trabaja en disponer los re-
+      sultados en un Geoportal de la División de Recursos Naturales y
+      Biodiversidad abierto a todo público. Para más información, véase
+      https://bit.ly/2J8rWRu y https://bit.ly/3clwSSA.
+
+Regiones Metropolitana y de Valparaíso, correspondiente al área
       del proyecto Global Environment Facility: Corredores Biológi-
       cos de Montaña (ID 509). Cumplimiento total. A marzo 2020 el
       consultor hace entrega del informe final aprobado conforme por
@@ -10470,7 +11570,17 @@ todas las regiones del país
 
 ## 20. Fomento de infraestructura verde en áreas urbanas y periurba-
 
-      nas (ID 510). Cumplimiento total. Se encuentran concluidas una
+**Definición Canónica:** nas (ID 510). Cumplimiento total. Se encuentran concluidas una
+      guía de Planificación Ecológica a escala local y Regional y un libro
+      de Planificación ecológica a escala local en el marco del Proyecto
+      GEF MMA/ONU ambiente Corredores Biológicos de Montaña,
+      que sirva como referencia para que nuevos territorios diseñen su
+      Infraestructura ecológica (o verde). Se concluyó el diseño de la
+      Infraestructura ecológica o verde en áreas urbanas y periurbanas
+      a escala local en el marco de la Planificación Ecológica por el Pro-
+      yecto GEF/MMA/ONU Ambiente Corredo
+
+nas (ID 510). Cumplimiento total. Se encuentran concluidas una
       guía de Planificación Ecológica a escala local y Regional y un libro
       de Planificación ecológica a escala local en el marco del Proyecto
       GEF MMA/ONU ambiente Corredores Biológicos de Montaña,
@@ -10489,7 +11599,9 @@ todas las regiones del país
 
 ## 21. Implementar el Programa Pequeñas Localidades, desde una pers-
 
-      pectiva de equidad territorial (ID 511). Cumplimiento total.De las 5
+**Definición Canónica:** pectiva de equidad territorial (ID 511). Cumplimiento total.De las 5
+
+pectiva de equidad territorial (ID 511). Cumplimiento total.De las 5
 
       localidades piloto seleccionadas durante el año 2016, 4 se encuen-
       tran terminando la implementación del programa. La localidad de
@@ -10504,7 +11616,17 @@ todas las regiones del país
 
 ## 22. Proveer información y vincular a familias de campamentos no
 
-      catastrados por el Ministerio de Vivienda y Urbanismo a la ofer-
+**Definición Canónica:** catastrados por el Ministerio de Vivienda y Urbanismo a la ofer-
+      ta habitacional regular de los programas habitacionales existentes
+      (ID 512). Cumplimiento total. Durante 2018 y 2019, se catastraron
+      la totalidad de los campamentos informados por las regiones, una
+      vez finalizado el catastro surgieron nuevas tomas de terrenos, por
+      ende, se desarrollaron 15 Mesas Técnicas entre las regiones de Ta-
+      rapacá y Araucanía, en estas instancias se informaron a 3.500 fa-
+      milias aprox. sobre el acceso a los programas regulares de Minvu.
+      Adicionalmente, entre j
+
+catastrados por el Ministerio de Vivienda y Urbanismo a la ofer-
       ta habitacional regular de los programas habitacionales existentes
       (ID 512). Cumplimiento total. Durante 2018 y 2019, se catastraron
       la totalidad de los campamentos informados por las regiones, una
@@ -10520,7 +11642,17 @@ todas las regiones del país
 
 ## 23. Reducir brecha digital y conectividad para grupos excluidos (ID
 
-      513). Cumplimiento total. La Subsecretaría de Telecomunicaciones
+**Definición Canónica:** 513). Cumplimiento total. La Subsecretaría de Telecomunicaciones
+      (SUBTEL), a través del Consejo de Desarrollo de las Telecomuni-
+      caciones (CDT), adjudicó 398 nuevas zonas WiFi, las cuales for-
+      man parte del Segundo Periodo de Postulación de proyecto “WiFi
+      2.0”. Estas se suman a las 110 Zonas WiFi adjudicadas en el primer
+      periodo de postulación, totalizando así 508 zonas WiFi 2.0, las
+      cuales, a su vez, se adicionan a las 1.244 Zonas WiFi ya existentes
+      a lo largo del país. Para más información, véase https://bit.ly/3R-
+      BI7Xk.
+
+513). Cumplimiento total. La Subsecretaría de Telecomunicaciones
       (SUBTEL), a través del Consejo de Desarrollo de las Telecomuni-
       caciones (CDT), adjudicó 398 nuevas zonas WiFi, las cuales for-
       man parte del Segundo Periodo de Postulación de proyecto “WiFi
@@ -10533,10 +11665,15 @@ todas las regiones del país
 Meta 4. Articular acciones de prevención y acción posdesastres que
 garanticen el ejercicio de derechos sin discriminación
 
-
 ## 1. Implementación de la Política Nacional de Relaves (ID 514). Cum-
 
-       plimiento total.Se envió borrador al SEA relativo a la guía de com-
+**Definición Canónica:** plimiento total.Se envió borrador al SEA relativo a la guía de com-
+       pensación de emisiones dentro del SEIA mediante relaves en situa-
+       ción de abandono. Se envió DS35 que modifica al DS50 y DS248
+       para la firma del presidente de la República. Disponible en https://
+       bit.ly/3ckXt2k.
+
+plimiento total.Se envió borrador al SEA relativo a la guía de com-
        pensación de emisiones dentro del SEIA mediante relaves en situa-
        ción de abandono. Se envió DS35 que modifica al DS50 y DS248
        para la firma del presidente de la República. Disponible en https://
@@ -10544,7 +11681,14 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 2. Análisis de las implicancias en la evaluación ambiental relacio-
 
-       nadas al Cambio Climático y Emisión de Gases de Efecto Inver-
+**Definición Canónica:** nadas al Cambio Climático y Emisión de Gases de Efecto Inver-
+       nadero (ID 515). Cumplimiento total. Se elaboraron términos de
+       referencia para consultoría sobre cambio climático y su relación
+       o aplicación al SEIA. La consultoría se terminó durante el mes de
+       marzo de 2020 y el ultimo hito fue la presentación al director eje-
+       cutivo del SEA. Disponible en https://bit.ly/3aGOS9R.
+
+nadas al Cambio Climático y Emisión de Gases de Efecto Inver-
        nadero (ID 515). Cumplimiento total. Se elaboraron términos de
        referencia para consultoría sobre cambio climático y su relación
        o aplicación al SEIA. La consultoría se terminó durante el mes de
@@ -10553,7 +11697,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 3. Actualizar los instrumentos de levantamiento de información de
 
-       afectados por emergencias, desastres o catástrofes para asegurar
+**Definición Canónica:** afectados por emergencias, desastres o catástrofes para asegurar
+       equidad (ID 516). Cumplimiento total. Elaboración, diseño e im-
+       presión de los instrumentos Ficha Básica de Emergencia y Ficha
+       Básica de Emergencia Hídrica, modificados y creados según los
+       comentarios recibidos por la Mesa de Trabajo con Académicos,
+       Reunión de Coordinación con Ministerio del Interior, ONEMI,
+       Ministerio de Vivienda, Ministerio de Agricultura y Ministerio
+       de Desarrollo Social y Familia, y Validación Territorial con muni-
+       cipios de manera presencial o en línea.
+
+afectados por emergencias, desastres o catástrofes para asegurar
        equidad (ID 516). Cumplimiento total. Elaboración, diseño e im-
        presión de los instrumentos Ficha Básica de Emergencia y Ficha
        Básica de Emergencia Hídrica, modificados y creados según los
@@ -10566,7 +11720,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 4. Incorporación de nuevas variables sociodemográficas en el Siste-
 
-       ma Información Estadístico (ID 517). Cumplimiento parcial. El
+**Definición Canónica:** ma Información Estadístico (ID 517). Cumplimiento parcial. El
+       informe estadístico anual 2019, elaborado y difundido el segundo
+       semestre de 2020, mantiene la desagregación por sexo, tanto de
+       capacitaciones como de algunas emergencias. Lamentablemen-
+       te, no fue posible integrar todas las variables sociodemográficas
+       del Informe 2018 (discapacidad, pueblo originario, nacionalidad,
+       etcétera), ya que esta información no fue accesible debido a las
+       nuevas dinámicas por la pandemia covid-19 para la recolección de
+       información. Para más información,
+
+ma Información Estadístico (ID 517). Cumplimiento parcial. El
        informe estadístico anual 2019, elaborado y difundido el segundo
        semestre de 2020, mantiene la desagregación por sexo, tanto de
        capacitaciones como de algunas emergencias. Lamentablemen-
@@ -10578,7 +11742,10 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 5. Fortalecer el Enfoque de enfoque de derechos humanos en progra-
 
-       mas de ONEMI (ID 518). Cumplimiento parcial. Estos programas
+**Definición Canónica:** mas de ONEMI (ID 518). Cumplimiento parcial. Estos programas
+       apuntan a fortalecer las capacidades en distintos segmentos de la
+
+mas de ONEMI (ID 518). Cumplimiento parcial. Estos programas
        apuntan a fortalecer las capacidades en distintos segmentos de la
 
       población, mediante educación informal y no formal, contribu-
@@ -10600,7 +11767,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 6. Ampliación cuadro de transmisión de lengua de señas en emer-
 
-      gencias mayores (ID 519). Cumplimiento total. Se mantiene vi-
+**Definición Canónica:** gencias mayores (ID 519). Cumplimiento total. Se mantiene vi-
+      gente el adendum al convenio de colaboración entre ONEMI y la
+      Asociación Nacional de Televisión, firmado el 2019, en virtud de
+      contar con un servicio de intérprete de lengua de señas para ser
+      utilizado en las transmisiones oficiales en casos de emergencias
+      de alto impacto nacional que impliquen activación de COE. Du-
+      rante este año, se activó en dos oportunidades la lengua de señas
+      en ONEMI: por los incendios forestales en la zona centro (enero)
+      y evacuación preventiva por sismo de may
+
+gencias mayores (ID 519). Cumplimiento total. Se mantiene vi-
       gente el adendum al convenio de colaboración entre ONEMI y la
       Asociación Nacional de Televisión, firmado el 2019, en virtud de
       contar con un servicio de intérprete de lengua de señas para ser
@@ -10614,7 +11791,16 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 7. Promover la difusión masiva de mensajes preventivos y de prepa-
 
-      ración inclusivos (ID 520). Cumplimiento total. En contexto de la
+**Definición Canónica:** ración inclusivos (ID 520). Cumplimiento total. En contexto de la
+      pandemia del covid-19, es indispensable entregar recomendacio-
+      nes para adecuar las instalaciones de los albergues para prevenir
+      los contagios, implementando acciones que mitiguen el riesgo de
+      transmisión de persona a persona. Con este fin, se emitió la Guía
+      para la administración de albergues municipales pandemia co-
+      vid-19 con la incorporación de temáticas transversales (adulto ma-
+      yor, persona con discapacidad, personas con enfermedades cró-
+
+ración inclusivos (ID 520). Cumplimiento total. En contexto de la
       pandemia del covid-19, es indispensable entregar recomendacio-
       nes para adecuar las instalaciones de los albergues para prevenir
       los contagios, implementando acciones que mitiguen el riesgo de
@@ -10633,7 +11819,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 8. Visibilizar el enfoque de derechos humanos en instancias de coor-
 
-      dinación con organizaciones de la sociedad civil que inciden en
+**Definición Canónica:** dinación con organizaciones de la sociedad civil que inciden en
+      Fase de Recuperación (ID 521). Cumplimiento total. Por su natu-
+      raleza, la acción es de ejecución permanente en diversas instancia,
+      como reuniones coordinadas por de MovidosxChile y otras reu-
+      niones ad-hoc; reuniones de la Mesa de Coordinación de Ayuda
+      Humanitaria/Inter-redes; la mesa de dimensión GRD-animal, que
+      viene a abordar una nueva temática de coordinación humanita-
+      ria; la Mesa sobre Comunidades Migrantes y GRD; la Mesa sobre
+      Movilidad Humana en el contexto del Cambio Climát
+
+dinación con organizaciones de la sociedad civil que inciden en
       Fase de Recuperación (ID 521). Cumplimiento total. Por su natu-
       raleza, la acción es de ejecución permanente en diversas instancia,
       como reuniones coordinadas por de MovidosxChile y otras reu-
@@ -10651,7 +11847,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 9. Renovación de la Política Nacional para la Gestión del Riesgo de
 
-      Desastres (ID 522). Cumplimiento total. La nueva Política Nacio-
+**Definición Canónica:** Desastres (ID 522). Cumplimiento total. La nueva Política Nacio-
+      nal para la Reducción del Riesgo de Desastres 2020­2030 entró ofi-
+      cialmente en vigencia a partir de la promulgación del Decreto Su-
+      premo 434 de 2020. Simultáneamente, mediante el Decreto Exento
+      1392 del Ministerio del Interior y Seguridad Pública, se ha refren-
+      dado el Plan Estratégico Nacional para la Reducción del Riesgo de
+      Desastres 2020­2030. Disponible en https://bit.ly/3Bc44qn.
+   10. Restauración ecológica de zonas afectadas por desastres (ID 523).
+      Cumplimiento total. Diez proyec
+
+Desastres (ID 522). Cumplimiento total. La nueva Política Nacio-
       nal para la Reducción del Riesgo de Desastres 2020­2030 entró ofi-
       cialmente en vigencia a partir de la promulgación del Decreto Su-
       premo 434 de 2020. Simultáneamente, mediante el Decreto Exento
@@ -10665,10 +11871,19 @@ garanticen el ejercicio de derechos sin discriminación
       3 finalizaron sus actividades el 30 de abril de 2019, mientras los
       restantes 5 solicitaron ampliación y finalizaron el 30 de agosto de
 
-
 ## 2019. A la fecha, 5 proyectos ya finalizaron sus diferentes proce-
 
-      sos, es decir, fueron cerrados técnica, financiera y administrati-
+**Definición Canónica:** sos, es decir, fueron cerrados técnica, financiera y administrati-
+      vamente, con todos sus informes revisados y aprobados, y saldos
+      no utilizados devueltos en conformidad. La distribución de estos
+      proyectos es la siguiente: 2 de la Región del Biobío, 1 de la Región
+      de Valparaíso, 1 de la Región del Maule, y 1 de la Región Metro-
+      politana. De los otros 3 proyectos, uno ejecutado en la región de
+      O’Higgins debió darse por finalizado con cierre unilateral en ju-
+      lio del presente año, por incumplimientos financieros estableci-
+      dos en el Contrato, reali
+
+sos, es decir, fueron cerrados técnica, financiera y administrati-
       vamente, con todos sus informes revisados y aprobados, y saldos
       no utilizados devueltos en conformidad. La distribución de estos
       proyectos es la siguiente: 2 de la Región del Biobío, 1 de la Región
@@ -10696,7 +11911,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 11. Restauración de ecosistemas degradados (ID 524). Cumplimien-
 
-      to total. 1: En el marco de una reunión de trabajo de la mesa in-
+**Definición Canónica:** to total. 1: En el marco de una reunión de trabajo de la mesa in-
+      tersectorial de género y cambio climático, se sometió el borrador
+      del Plan de Restauración a una evaluación de la consideración
+      del enfoque de género en su formulación, a través de una lista de
+      chequeo. Se recogieron una serie de recomendaciones que permi-
+      tieron mejorar la inclusión de este enfoque en el documento en
+      preparación. Concluyeron los talleres del Consejo Asesor de Res-
+      tauración, permitiendo capturar e incorporar sus sugerencias al
+      Plan de Restauración en los ámbitos d
+
+to total. 1: En el marco de una reunión de trabajo de la mesa in-
       tersectorial de género y cambio climático, se sometió el borrador
       del Plan de Restauración a una evaluación de la consideración
       del enfoque de género en su formulación, a través de una lista de
@@ -10751,7 +11976,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 12. Actualizar los Instrumentos de Planificación Territorial desde un
 
-      enfoque de equidad territorial y derecho a vivir en zonas seguras
+**Definición Canónica:** enfoque de equidad territorial y derecho a vivir en zonas seguras
+      (ID 525). Cumplimiento parcial.Para realizar esta acción era ne-
+      cesario realizar un estudio para elaborar una Guía metodológica
+      para Estudios de Riesgo de los IPT, el que se licitó en 2017, desa-
+      rrollándose parcialmente en 2018. Actualmente se está llevando a
+      cabo un segundo proceso de licitación, dado que el primer proce-
+      so se declaró desierto. Se espera contratar en el primer semestre de
+      2022 y así poder completar la guía y luego instruirla por Circular
+      DDU para su aplicación.
+
+enfoque de equidad territorial y derecho a vivir en zonas seguras
       (ID 525). Cumplimiento parcial.Para realizar esta acción era ne-
       cesario realizar un estudio para elaborar una Guía metodológica
       para Estudios de Riesgo de los IPT, el que se licitó en 2017, desa-
@@ -10764,7 +11999,17 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 13. Seguimiento a acciones comprometidas por el Ministerio de Vi-
 
-      vienda y Urbanismo en el Plan Nacional de Cambio Climático (ID
+**Definición Canónica:** vienda y Urbanismo en el Plan Nacional de Cambio Climático (ID
+      526) Cumplimiento total.Reducir emisiones de Gas Efecto Inver-
+      nadero asociadas a Viviendas y Urbanismo, del Plan de Acción
+      Nacional de Cambio Climático 2017-2022. Considera: 1. Actuali-
+      zar la Reglamentación Térmica, 2. Dar continuidad y fortalecer
+      la Calificación Energética de Vivienda, 3. Desarrollar el Código
+      de Construcción Sustentable para Viviendas (estándar viviendas
+      sustentables) y el Sello de Construcción Sustentable, 4. Conti-
+      nuar con en el Programa Subsidio Acondicionamie
+
+vienda y Urbanismo en el Plan Nacional de Cambio Climático (ID
       526) Cumplimiento total.Reducir emisiones de Gas Efecto Inver-
       nadero asociadas a Viviendas y Urbanismo, del Plan de Acción
       Nacional de Cambio Climático 2017-2022. Considera: 1. Actuali-
@@ -10786,7 +12031,12 @@ garanticen el ejercicio de derechos sin discriminación
 
 ## 14. Incorporación de la variable Riesgo de Desastres en Proyectos de
 
-      Inversión Pública (ID 527). Cumplimiento total.Elaborada y pu-
+**Definición Canónica:** Inversión Pública (ID 527). Cumplimiento total.Elaborada y pu-
+      blicada en https://bit.ly/3uVEQbL. La metodología ya se ha aplica-
+      do a proyectos del área de salud y deportes. Para más información,
+**Concordancias Legales:** Ley 21.030; Ley 21.015; constitucion
+
+Inversión Pública (ID 527). Cumplimiento total.Elaborada y pu-
       blicada en https://bit.ly/3uVEQbL. La metodología ya se ha aplica-
       do a proyectos del área de salud y deportes. Para más información,
 
@@ -11084,7 +12334,21 @@ siguientes:30
 
 ## 32. Aprueba Reglamento que Establece Normas para la Aplicación
 
-     de Mecanismos de Comunicación Audiovisual que Posibiliten el
+**Definición Canónica:** de Mecanismos de Comunicación Audiovisual que Posibiliten el
+     Acceso a la Programación Televisiva para Personas con Discapa-
+     cidad Auditiva.
+   • Mesa Sectorial de Discapacidad.
+   • Pauta para uso apropiado de lenguaje en discapacidad.
+   • Actualizar la Política de educación especial de acuerdo a la reali-
+     dad normativa y social actual.
+   • Identificar inconsistencias en la normativa educativa general con
+     respecto a personas con discapacidad, y los estándares internacio-
+     nales en la materia
+   • Desarrollar e implementar el reglamento que norma el funciona-
+     mien
+**Concordancias Legales:** Ley 20.609
+
+de Mecanismos de Comunicación Audiovisual que Posibiliten el
      Acceso a la Programación Televisiva para Personas con Discapa-
      cidad Auditiva.
    • Mesa Sectorial de Discapacidad.
@@ -11265,8 +12529,11 @@ de acción entre 2015-2020, refuerza el marco normativo nacional e internacional
 los adolescentes y relacionado de manera consecuencial con la actuación del servicio de justicia, el principio de igualdad y no discriminación, recordando el deber de jueces y juezas de juzgar con perspectiva de
 infancia advirtiendo las características que definen a esta última y que la
 
-
 ## 33 El Protocolo describe cinco grupos vulnerables que serán foco de acción en sus
+
+**Definición Canónica:** recomendaciones e iniciativas propuestas. Estos son: 1) personas con discapacidad;
+2) niños, niñas y adolescentes; 3) personas migrantes y sujetas a protección internacional; 4) personas, pueblos y comunidades indígenas; y 5) mujeres víctimas de
+violencia de género (Poder Judicial, 2015-2020).
 
 recomendaciones e iniciativas propuestas. Estos son: 1) personas con discapacidad;
 2) niños, niñas y adolescentes; 3) personas migrantes y sujetas a protección internacional; 4) personas, pueblos y comunidades indígenas; y 5) mujeres víctimas de
@@ -11316,46 +12583,51 @@ analiza la implementación de la representación jurídica a la defensa especial
 referente los compromisos internacionales y los informes de años anteriores, planteando como aspectos esenciales de dicha representación de
 cumplimiento a las siguientes especificidades:
 
-## 1. Que sea personal, lo que significa concebir al niño, a la niña o al
-
-      adolescente como sujeto de derechos.
-
-## 2. Ser altamente especializada, lo que significa que la representación
-
-      jurídica cumpla con conocimientos en enfoque de derechos hu-
-      manos y de ciclo vital.
-
-## 3. Que permita un acceso universal, lo que significa garantizar pres-
-
-      tación a todo niño, niña o adolescente que lo requiera.
-
 ## 4. Sea gratuita, lo que significa pertenecer a aquel grupo de dere-
 
-      chos sociales que exigen del Estado una asignación presupues-
+**Definición Canónica:** chos sociales que exigen del Estado una asignación presupues-
+      taria que permita su goce por todas y todos (Defensoría de la
+      niñez, 2021: 412).
+   La Convención sobre los Derechos del Niño, en su artículo 3, mandata a las autoridades de los Estados parte, como sujetos obligados por
+el derecho, a seguir lineamientos bases para asegurar protección a los
+niños, las niñas y los adolescentes:
+**Concordancias Legales:** artículo 3
+
+chos sociales que exigen del Estado una asignación presupues-
       taria que permita su goce por todas y todos (Defensoría de la
       niñez, 2021: 412).
    La Convención sobre los Derechos del Niño, en su artículo 3, mandata a las autoridades de los Estados parte, como sujetos obligados por
 el derecho, a seguir lineamientos bases para asegurar protección a los
 niños, las niñas y los adolescentes:
 
-
 ## 1. En todas las medidas concernientes a los niños que tomen las insti-
 
-      tuciones públicas o privadas de bienestar social, los tribunales, las au-
+**Definición Canónica:** tuciones públicas o privadas de bienestar social, los tribunales, las au-
+      toridades administrativas o los órganos legislativos, una consideración
+      primordial a que se atenderá será el interés superior del niño.
+
+tuciones públicas o privadas de bienestar social, los tribunales, las au-
       toridades administrativas o los órganos legislativos, una consideración
       primordial a que se atenderá será el interés superior del niño.
 
 ## 2. Los Estados parte se comprometen a asegurar al niño la protección y
 
-      el cuidado que sean necesarios para su bienestar, teniendo en cuenta los
+**Definición Canónica:** el cuidado que sean necesarios para su bienestar, teniendo en cuenta los
+      derechos y deberes de sus padres, tutores u otras personas responsables
+      de él ante la ley, y, con ese fin, tomarán todas las medidas legislativas y
+      administrativas adecuadas.
+
+el cuidado que sean necesarios para su bienestar, teniendo en cuenta los
       derechos y deberes de sus padres, tutores u otras personas responsables
       de él ante la ley, y, con ese fin, tomarán todas las medidas legislativas y
       administrativas adecuadas.
 
 ## 3. Los Estados parte se asegurarán de que las instituciones, servicios
 
+**Definición Canónica:** 34 Para más información, véase https://bit.ly/3Pu5Tme.
+**Concordancias Legales:** artículo 2; artículos 4; artículo 2 de la Convención de la CEDAW reconoce el principio; Ley 20.084; Constitución
 
- 34 Para más información, véase https://bit.ly/3Pu5Tme.
+34 Para más información, véase https://bit.ly/3Pu5Tme.
 
       y establecimientos encargados del cuidado o la protección de los niños
       cumplan las normas establecidas por las autoridades competentes, espe-
@@ -11429,8 +12701,10 @@ en las víctimas una serie de efectos en su salud y bienestar (acompañado
 de un trato adecuado durante el proceso).
    Instruir a todas las personas funcionarias de los tribunales, con inde-
 
-
 ## 35 Documento creado colaborativamente por la Secretaría Técnica de Igualdad de
+
+**Definición Canónica:** Género y No Discriminación del Poder Judicial con apoyo del programa de cooperación europea, Eurosocia.
+**Concordancias Legales:** artículo 8
 
 Género y No Discriminación del Poder Judicial con apoyo del programa de cooperación europea, Eurosocia.
 
@@ -11475,10 +12749,18 @@ Familia de Santiago y directora de la Asociación de Magistradas de Chile:
    La Corte IDH, en el caso Barbosa de Souza y otros vs. Brasil, citado anteriormente, recalca la importancia de evitar los actos de discriminación
 y violencia en contra de las mujeres basados en estereotipos de género:
 
-
 ## 145. El Tribunal ya se posicionó anteriormente sobre la importancia de
 
-      reconocer, visibilizar y rechazar los estereotipos de género por los cuales
+**Definición Canónica:** reconocer, visibilizar y rechazar los estereotipos de género por los cuales
+      en los casos de violencia contra la mujer las víctimas son asimiladas, por
+      ejemplo, al perfil de una pandillera y/o una prostituta y/o una «cual-
+      quiera», y no se consideran lo suficientemente importantes como para
+      ser investigados, haciendo además a la mujer responsable o merecedo-
+      ra de haber sido atacada. En este sentido, ha rechazado toda práctica
+      estatal mediante la cual se justifica la violencia contra la mujer y se le
+      culpabiliza de esta, toda vez que valoraciones de est
+
+reconocer, visibilizar y rechazar los estereotipos de género por los cuales
       en los casos de violencia contra la mujer las víctimas son asimiladas, por
       ejemplo, al perfil de una pandillera y/o una prostituta y/o una «cual-
       quiera», y no se consideran lo suficientemente importantes como para
@@ -11504,107 +12786,58 @@ sigue.
 Recomendaciones sobre resguardo de derechos específicos de personas
 mayores (Poder Judicial, 2021a: 22-24)
 
-
-## 1. Adoptar medidas afirmativas y ajustes razonables necesarios para
-
-      el ejercicio de los derechos de las personas mayores.
-
 ## 2. Considerar la interseccionalidad de condiciones de vulnerabilidad
 
-      con las que puede relacionarse la vejez: mujeres, discapacidad, di-
+**Definición Canónica:** con las que puede relacionarse la vejez: mujeres, discapacidad, di-
+
+con las que puede relacionarse la vejez: mujeres, discapacidad, di-
 
  36 Para más información, véase https://bit.ly/3cj4ZuB.
 
       versidad sexual e identidad de género, migrantes, situación de po-
       breza, pueblos originarios, privados de libertad, entre otros.
 
-## 3. Velar, en los procesos judiciales, por la igualdad y no discrimina-
-
-      ción por razones de edad. Implementando acciones de discrimi-
-      nación positivas, en caso de ser necesario
-
-## 4. Resguardar, en las decisiones judiciales, el derecho a la vida y a la
-
-      dignidad en la vejez.
-
-## 5. Respetar el derecho a la independencia y autonomía, reconocien-
-
-      do el derecho de las personas mayores a tomar decisiones, a desa-
-      rrollar una vida autónoma e independiente y a disponer de meca-
-      nismos para ejercer sus derechos.
-
 ## 6. Velar, en las decisiones judiciales, por el derecho a la seguridad, a
 
-      una vida sin ningún tipo de violencia y maltrato, a recibir un trato
+**Definición Canónica:** una vida sin ningún tipo de violencia y maltrato, a recibir un trato
+      digno y a ser respetado y valorado sin discriminación alguna. Con
+      especial énfasis en los distintos tipos de abusos de los cuales pue-
+      den ser víctimas las personas mayores.
+
+una vida sin ningún tipo de violencia y maltrato, a recibir un trato
       digno y a ser respetado y valorado sin discriminación alguna. Con
       especial énfasis en los distintos tipos de abusos de los cuales pue-
       den ser víctimas las personas mayores.
 
 ## 7. Asegurar que la persona mayor tenga acceso efectivo a la justicia en
 
-      igualdad de condiciones, incluso mediante la adopción de ajustes
+**Definición Canónica:** igualdad de condiciones, incluso mediante la adopción de ajustes
       de procedimientos en todos los procesos judiciales, en cualquiera
       de sus etapas. Así como en los procesos previos administrativos.
 
-## 8. Garantizar la debida diligencia y el tratamiento preferencial a las
-
-      personas mayores para la tramitación, resolución y ejecución de
-      las decisiones en procesos judiciales y previos administrativos.
-
-## 9. Priorizar la actuación judicial de manera particularmente expedita
-
-      en casos en que se encuentre en riesgo la salud o la vida de la per-
-      sona mayor.
-
-## 10. Considerar en todo el proceso en que intervenga, directa o indi-
-
-      rectamente, una persona mayor sus características e implicancias
-      que su participación pueda tener en sus derechos, utilizando como
-      parámetro y finalidad el pleno respeto de ellos.
-
-## 11. Velar para que durante todo el proceso judicial se garanticen los
-
-      derechos de las personas mayores, de conformidad a la legislación
-      nacional y con especial enfoque en los instrumentos internaciona-
-      les que resguardan sus derechos.
-
-## 12. Implementar medidas que garanticen la no revictimización de las
-
-      personas mayores.
-
-   13. Facilitar el proceso de reparación sufrido por personas mayores,
-      debiendo enfocarse en sus especiales necesidades.
+igualdad de condiciones, incluso mediante la adopción de ajustes
+      de procedimientos en todos los procesos judiciales, en cualquiera
+      de sus etapas. Así como en los procesos previos administrativos.
 
 ## 14. Velar por la adecuada representación judicial especializada de las
 
-      personas mayores, derivando a programas de defensa especializa-
+**Definición Canónica:** personas mayores, derivando a programas de defensa especializa-
       da de la Corporación de Asistencia Judicial u oficiando al Servicio
       Nacional del Adulto Mayor para su coordinación y derivación.
 
-## 15. Considerar para los efectos de este protocolo todas las calidades
-
-      de personas mayores, sean estas partes, requeridos, abogados, en-
-      tre otros.
-
-Recomendaciones sobre atención y buen trato en relación con personas
-mayores (Poder Judicial, 2021a: 25-27)
-
-
-## 1. Brindar un trato respetuoso, cordial y personalizado durante todo
-
-      el proceso, teniendo en cuenta las situaciones personales y necesi-
-      dades especiales de las personas mayores en resguardo de su dig-
-      nidad y vida personal.
-
-## 2. Asegurar a las personas mayores una atención preferente, priorita-
-
-      ria y especializada en las distintas etapas del procedimiento, lo que
-      debe ser informado de manera visible en la sala de espera y demás
-      dependencias de los tribunales.
+personas mayores, derivando a programas de defensa especializa-
+      da de la Corporación de Asistencia Judicial u oficiando al Servicio
+      Nacional del Adulto Mayor para su coordinación y derivación.
 
 ## 3. Priorizar la fijación de audiencias en las que las personas mayo-
 
-      res concurran como partes demandantes, demandados, acusados,
+**Definición Canónica:** res concurran como partes demandantes, demandados, acusados,
+      imputados, abogados, víctimas o testigos. Dar preferencias en la
+      comparecencia, en la presentación para declarar y en la resolución
+      de causas en que se involucre a una persona mayor, en atención a
+      que no poseen las mismas expectativas de vida.
+
+res concurran como partes demandantes, demandados, acusados,
       imputados, abogados, víctimas o testigos. Dar preferencias en la
       comparecencia, en la presentación para declarar y en la resolución
       de causas en que se involucre a una persona mayor, en atención a
@@ -11612,33 +12845,50 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 4. Asegurar la puntualidad en el inicio de las audiencias. Se estima
 
-      pertinente que el horario de dichas audiencias se fije previa con-
+**Definición Canónica:** pertinente que el horario de dichas audiencias se fije previa con-
       sulta con el adulto mayor, tomando en cuenta si deben adminis-
       trarse algún medicamento, asistir a alguna cita o tratamiento mé-
       dico, o bien, si requieren de la presencia de un apoyo personal,
       como familiares o tutores.
 
-## 5. Otorgar preferencia en la tabla, a las causas en que existe una per-
-
-      sona mayor, sea esta parte, imputado, requerido o abogado.
+pertinente que el horario de dichas audiencias se fije previa con-
+      sulta con el adulto mayor, tomando en cuenta si deben adminis-
+      trarse algún medicamento, asistir a alguna cita o tratamiento mé-
+      dico, o bien, si requieren de la presencia de un apoyo personal,
+      como familiares o tutores.
 
 ## 6. Desarrollar los procesos en tiempos oportunos y suficientemen-
 
-      te rápidos para abordar la situación de la persona mayor involu-
+**Definición Canónica:** te rápidos para abordar la situación de la persona mayor involu-
+
+te rápidos para abordar la situación de la persona mayor involu-
 
        crada, teniendo en consideración las implicancias y perjuicio que
        ocurra por un tiempo excesivo de tramitación del proceso judicial.
 
 ## 7. Incluir de oficio por el tribunal o recomendar a los comparecientes
 
-       que incluyan en cualquier escrito o actuación judicial la circuns-
+**Definición Canónica:** que incluyan en cualquier escrito o actuación judicial la circuns-
+       tancia de ser persona mayor de 60 años. Se recomienda informar
+       al juez o funcionario a cargo de la presencia de la persona mayor,
+       con la finalidad de priorizar su comparecencia.
+
+que incluyan en cualquier escrito o actuación judicial la circuns-
        tancia de ser persona mayor de 60 años. Se recomienda informar
        al juez o funcionario a cargo de la presencia de la persona mayor,
        con la finalidad de priorizar su comparecencia.
 
 ## 8. Generar un distintivo en los sist mas iformáticos de tramitación
 
-       digital en las causas en que sea parte, requerido o imputada una
+**Definición Canónica:** digital en las causas en que sea parte, requerido o imputada una
+       persona mayor.
+   9. Contactar a la red familiar y social que posea el adulto mayor,
+       en función de las necesidades que plantee el proceso judicial, el
+       acompañamiento personal y la adecuada representación de sus in-
+       tereses, en la medida que la persona mayor sindique a personas o
+       familiares de su exclusiva confianza y les delegue esta labor.
+
+digital en las causas en que sea parte, requerido o imputada una
        persona mayor.
    9. Contactar a la red familiar y social que posea el adulto mayor,
        en función de las necesidades que plantee el proceso judicial, el
@@ -11648,7 +12898,13 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 10. Establecer, en los casos en que no hay representante legal, un sis-
 
-       tema de seguimiento de la tramitación judicial mutuamente con-
+**Definición Canónica:** tema de seguimiento de la tramitación judicial mutuamente con-
+       venido con la persona mayor, por la vía que a éste le resulte más
+       idónea (presencial, virtual y/o telefónica), posibilitando que el
+       usuario se encuentre plena y claramente informado en relación
+       con el progreso de su causa.
+
+tema de seguimiento de la tramitación judicial mutuamente con-
        venido con la persona mayor, por la vía que a éste le resulte más
        idónea (presencial, virtual y/o telefónica), posibilitando que el
        usuario se encuentre plena y claramente informado en relación
@@ -11656,26 +12912,33 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 11. Generar una instancia de comunicación directa con el adulto ma-
 
-       yor, especialmente de aquellas que se encuentran postradas, a fin
+**Definición Canónica:** yor, especialmente de aquellas que se encuentran postradas, a fin
        de verificar su grado de independencia y disponer de los medios
        necesarios para que, en virtud de ella, pueda ejercer todas las ac-
        tuaciones que le sean posibles por sí mismo.
 
-## 12. Recurrir al acompañante y/o las personas cercanas que las perso-
-
-       nas mayores refieran, solo en el caso de pérdida de autonomía o
-       capacidad, es decir, de manera excepcional.
+yor, especialmente de aquellas que se encuentran postradas, a fin
+       de verificar su grado de independencia y disponer de los medios
+       necesarios para que, en virtud de ella, pueda ejercer todas las ac-
+       tuaciones que le sean posibles por sí mismo.
 
 ## 13. Procurar, durante todo el proceso judicial, no desarrollar una ac-
 
-       titud sancionadora y/o enjuiciadora a la persona mayor de manera
+**Definición Canónica:** titud sancionadora y/o enjuiciadora a la persona mayor de manera
+       permanente, por cuando se desconoce la historia y biografía indi-
+       vidual, como el curso de vida y las características de la vinculación
+       familiar.
+
+titud sancionadora y/o enjuiciadora a la persona mayor de manera
        permanente, por cuando se desconoce la historia y biografía indi-
        vidual, como el curso de vida y las características de la vinculación
        familiar.
 
 ## 14. Evitar comparecencias innecesarias. Distinguir de manera co-
 
-       rrecta entre las comparecencias innecesarias y las excepciones a la
+**Definición Canónica:** rrecta entre las comparecencias innecesarias y las excepciones a la
+
+rrecta entre las comparecencias innecesarias y las excepciones a la
 
        comparecencia. Así también para el caso de los abogados/as ma-
        yores se recomienda utilizar los medios tecnológicos de que se dis-
@@ -11685,34 +12948,27 @@ mayores (Poder Judicial, 2021a: 25-27)
 Recomendaciones sobre atención y buen trato en relación con personas
 mayores (Poder Judicial, 2021a: 25-27)
 
-
-## 1. Implementar el uso de un lenguaje claro, sencillo y accesible por
-
-
-## parte de todos los funcionarios del tribunal y el juez en las no-
-
-       tificaciones, sentencias y otras actuaciones judiciales y evitar los
-       tecnicismos en la entrega de información a las personas mayores.
-
-## 2. Usar un lenguaje no ofensivo y no discriminatorio para referirse
-
-       a las personas mayores. Considerar los términos proporcionados
-       por este protocolo.
-
 ## 3. Eliminar el uso de términos peyorativos relacionados con la con-
 
-       dición de la persona mayor, que hacen referencia a una pérdida
+**Definición Canónica:** dición de la persona mayor, que hacen referencia a una pérdida
        funcional e implican una carencia de valor, tales como: viejitos,
        abuelitos, tatitas, ancianos, dementes, entre otros, a fin de dismi-
        nuir el estigma asociado a la vejez y el envejecimiento.
 
-## 4. Garantizar la presencia de personal especializado como también
-
-       de un intérprete o facilitador cultural en los casos que se requiera.
+dición de la persona mayor, que hacen referencia a una pérdida
+       funcional e implican una carencia de valor, tales como: viejitos,
+       abuelitos, tatitas, ancianos, dementes, entre otros, a fin de dismi-
+       nuir el estigma asociado a la vejez y el envejecimiento.
 
 ## 5. Promover el uso de medios de comunicación accesibles, para ase-
 
-       gurar que las personas mayores comprendan el alcance del pro-
+**Definición Canónica:** gurar que las personas mayores comprendan el alcance del pro-
+       cedimiento y su significado, así como toda la información que les
+       sea proporcionada por las y los jueces y funcionarios del tribunal.
+       Para ello es necesario considerar si la persona mayor es analfabeta,
+       padece una discapacidad o pertenece a un pueblo indígena.
+
+gurar que las personas mayores comprendan el alcance del pro-
        cedimiento y su significado, así como toda la información que les
        sea proporcionada por las y los jueces y funcionarios del tribunal.
        Para ello es necesario considerar si la persona mayor es analfabeta,
@@ -11720,7 +12976,14 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 6. Considerar que las personas mayores, en razón de su edad, pueden
 
-       tener pérdida cognitiva, lo que no significa padecer una discapa-
+**Definición Canónica:** tener pérdida cognitiva, lo que no significa padecer una discapa-
+       cidad. En consecuencia, pueden declarar dificultades para com-
+       prender la información que se les está entregando. Se propone que
+       las y los jueces o funcionario judicial, pregunten a la persona ma-
+       yor si entiende lo que se le dice a fin de confirmar si comprende la
+       información.
+
+tener pérdida cognitiva, lo que no significa padecer una discapa-
        cidad. En consecuencia, pueden declarar dificultades para com-
        prender la información que se les está entregando. Se propone que
        las y los jueces o funcionario judicial, pregunten a la persona ma-
@@ -11729,7 +12992,9 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 7. Usar los medios de comunicación del Poder Judicial o externos que
 
-       sean seguidos por las personas mayores, como radios de localida-
+**Definición Canónica:** sean seguidos por las personas mayores, como radios de localida-
+
+sean seguidos por las personas mayores, como radios de localida-
 
       des, para impartir un programa de difusión sobre sus derechos y
       acceso a la justicia dirigido a ellos, utilizando un lenguaje claro y
@@ -11737,7 +13002,14 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 8. Utilizar diversos medios materiales para que las personas mayores
 
-      comprendan la información entregada, como folletos o formula-
+**Definición Canónica:** comprendan la información entregada, como folletos o formula-
+      rios sencillos, disponer algunos en sistema Braille. Se sugiere que
+      sea en forma impresa, utilizando tipos de letra claros, con tama-
+      ño de fuente por sobre los 12. Se sugiere igualmente considerar
+      la altura en que se instalan en las paredes del tribunal, medios de
+      información como afiches o pantallas.
+
+comprendan la información entregada, como folletos o formula-
       rios sencillos, disponer algunos en sistema Braille. Se sugiere que
       sea en forma impresa, utilizando tipos de letra claros, con tama-
       ño de fuente por sobre los 12. Se sugiere igualmente considerar
@@ -11746,41 +13018,67 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 9. Disponer de los medios materiales para cooperar con la realiza-
 
-      ción de trámites simples, que en razón de la brecha digital la per-
+**Definición Canónica:** ción de trámites simples, que en razón de la brecha digital la per-
+      sona mayor no pueda realizar por sí mismo, tales como: impresión
+      de un documento, obtención de información de la web, etcétera.
+
+ción de trámites simples, que en razón de la brecha digital la per-
       sona mayor no pueda realizar por sí mismo, tales como: impresión
       de un documento, obtención de información de la web, etcétera.
 
 ## 10. Tener en cuenta la brecha digital, es decir, las dificultades para
 
-      usar medios digitales, acceder a Internet o conocer el funciona-
+**Definición Canónica:** usar medios digitales, acceder a Internet o conocer el funciona-
+      miento aplicaciones tecnológicas. Se sugiere explicarles sobre el
+      funcionamiento de plataformas digitales a disposición de los usua-
+      rios del Poder Judicial, si ellos así lo requieren.
+
+usar medios digitales, acceder a Internet o conocer el funciona-
       miento aplicaciones tecnológicas. Se sugiere explicarles sobre el
       funcionamiento de plataformas digitales a disposición de los usua-
       rios del Poder Judicial, si ellos así lo requieren.
 
 ## 11. Tener un sistema sencillo y particular dirigido para que las perso-
 
-      nas mayores usen las plataformas de atención de usuarios dispues-
+**Definición Canónica:** nas mayores usen las plataformas de atención de usuarios dispues-
+      tos en los tribunales acompañados y guiados por un funcionario.
+      Por ejemplo: los tótem que cuentan con el canal digital: https://
+      conecta.pjud.cl/
+
+nas mayores usen las plataformas de atención de usuarios dispues-
       tos en los tribunales acompañados y guiados por un funcionario.
       Por ejemplo: los tótem que cuentan con el canal digital: https://
       conecta.pjud.cl/
 
 ## 12. Habilitar en la página Web del Poder Judicial un hipervínculo
 
-      para el acceso de las personas mayores. Incluir un número tele-
+**Definición Canónica:** para el acceso de las personas mayores. Incluir un número tele-
+      fónico para que puedan dirigir sus consultas. Se sugiere instalar
+      en los tribunales teléfonos para la atención del usuario persona
+      mayor.
+
+para el acceso de las personas mayores. Incluir un número tele-
       fónico para que puedan dirigir sus consultas. Se sugiere instalar
       en los tribunales teléfonos para la atención del usuario persona
       mayor.
 
 ## 13. Poner atención si el usuario es una persona mayor desde el ingre-
 
-      so al tribunal. Es importante la participación activa de Gendar-
+**Definición Canónica:** so al tribunal. Es importante la participación activa de Gendar-
+      mería o guardias de seguridad en la entrega de información clara
+      y sencilla, ya que ellos son los primeros en recibir y responder las
+      consultas de estos usuarios.
+
+so al tribunal. Es importante la participación activa de Gendar-
       mería o guardias de seguridad en la entrega de información clara
       y sencilla, ya que ellos son los primeros en recibir y responder las
       consultas de estos usuarios.
 
 ## 14. Proporcionar información básica acerca de los derechos y obliga-
 
-      ciones en todas las etapas del proceso, judicial o extrajudicial e in-
+**Definición Canónica:** ciones en todas las etapas del proceso, judicial o extrajudicial e in-
+
+ciones en todas las etapas del proceso, judicial o extrajudicial e in-
 
       formar sobre la manera de ejercer cada uno de los procesos con el
       fin claro de asegurar su efectivo acceso a la justicia en igualdad de
@@ -11791,7 +13089,15 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 15. Informar, previo a la realización de una actuación judicial acerca
 
-      del contenido de esta y la forma en que se llevará a cabo. Señalar
+**Definición Canónica:** del contenido de esta y la forma en que se llevará a cabo. Señalar
+      a la persona mayor su papel en este, el momento y forma en que
+      participará. Es importante describir el lugar dónde se realizará
+      la actuación y las personas que en ella participarán, indicando la
+      función de cada uno o el motivo de su presencia. Todo lo anterior,
+      con la finalidad de que se familiaricen con el procedimiento y con
+      los datos o información relevante que en él se tratará.
+
+del contenido de esta y la forma en que se llevará a cabo. Señalar
       a la persona mayor su papel en este, el momento y forma en que
       participará. Es importante describir el lugar dónde se realizará
       la actuación y las personas que en ella participarán, indicando la
@@ -11801,7 +13107,16 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 16. Redactar las resoluciones judiciales en un lenguaje inclusivo y res-
 
-      petuoso de los derechos humanos de las personas mayores, erradi-
+**Definición Canónica:** petuoso de los derechos humanos de las personas mayores, erradi-
+      cando conceptos equívocos que son comúnmente utilizados, tales
+      como: demencia senil (este concepto no existe, se denomina co-
+      rrectamente como demencia) o incapacidad por edad, entre otros.
+      No se debe atribuir discapacidad en relación a la edad. Se propo-
+      ne utilizar la denominación médica adecuada. El lenguaje tiene
+      evolución y va cambiando, es por ello que es necesario la revisión
+      continua respecto a estos conceptos.
+
+petuoso de los derechos humanos de las personas mayores, erradi-
       cando conceptos equívocos que son comúnmente utilizados, tales
       como: demencia senil (este concepto no existe, se denomina co-
       rrectamente como demencia) o incapacidad por edad, entre otros.
@@ -11812,7 +13127,14 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 17. Informar de manera oportuna y clara a la persona mayor sobre
 
-      el resultado del proceso, clarificando las consecuencias de las re-
+**Definición Canónica:** el resultado del proceso, clarificando las consecuencias de las re-
+      soluciones dictadas en la causa, como los eventuales escenarios
+      judiciales posibles a partir de lo dictaminado. En el evento de que
+      se trate de una sentencia de carácter declarativo, dar a conocer las
+      acciones destinadas a hacer efectivo aquello que fue resuelto por
+      el tribunal.
+
+el resultado del proceso, clarificando las consecuencias de las re-
       soluciones dictadas en la causa, como los eventuales escenarios
       judiciales posibles a partir de lo dictaminado. En el evento de que
       se trate de una sentencia de carácter declarativo, dar a conocer las
@@ -11821,26 +13143,30 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 18. Constatar que la persona mayor comprendió lo señalado, situa-
 
-      ción que el profesional que le asiste debe verificar a través de sim-
+**Definición Canónica:** ción que el profesional que le asiste debe verificar a través de sim-
       ples preguntas al término de la entrevista, y la ejemplificación de
       casos que pudiesen favorecer su entendimiento. Todo ello para lo-
       grar su efectivo derecho a comprender, brindando todo tipo de in-
       formación y explicaciones correspondientes. Entregar un díptico
       o información clara del procedimiento en el que está participando.
 
-
-## 19. Preguntar a la persona mayor cuál es la forma o el medio en que
-
-      posee o prefiere recibir la información, sin asumir alguna modali-
-      dad que pueda resultar en un trato prejuicioso.
-
-## 20. Entregar copias de las resoluciones o de cualquier otra documen-
-
-      tación relevante que conste en la carpeta y sea de su propiedad.
+ción que el profesional que le asiste debe verificar a través de sim-
+      ples preguntas al término de la entrevista, y la ejemplificación de
+      casos que pudiesen favorecer su entendimiento. Todo ello para lo-
+      grar su efectivo derecho a comprender, brindando todo tipo de in-
+      formación y explicaciones correspondientes. Entregar un díptico
+      o información clara del procedimiento en el que está participando.
 
 ## 21. Dar avisos o recordatorios de audiencias, debiendo considerar la
 
-      citación a una persona mayor de 60 años y menor de 70, debe ser
+**Definición Canónica:** citación a una persona mayor de 60 años y menor de 70, debe ser
+      realizada con una distancia mínima de 7 días antes del evento. Si
+      la convocatoria o el aviso recordatorio está dirigido a una persona
+      mayor de 70 años debe efectuarse con al menos 48 horas de anti-
+      cipación. Es importante solicitar a la persona mayor un medio de
+      contacto (número telefónico) para comunicarse con ella.
+
+citación a una persona mayor de 60 años y menor de 70, debe ser
       realizada con una distancia mínima de 7 días antes del evento. Si
       la convocatoria o el aviso recordatorio está dirigido a una persona
       mayor de 70 años debe efectuarse con al menos 48 horas de anti-
@@ -11849,7 +13175,10 @@ mayores (Poder Judicial, 2021a: 25-27)
 
 ## 22. Designar a un funcionario habilitado y/o interlocutor para la
 
-      atención especializada del adulto mayor, que cumpla rol de facili-
+**Definición Canónica:** atención especializada del adulto mayor, que cumpla rol de facili-
+      tador de información y comunicación con la persona mayor.
+
+atención especializada del adulto mayor, que cumpla rol de facili-
       tador de información y comunicación con la persona mayor.
 
    Asimismo, el referido Protocolo también considera sugerencias
@@ -11861,21 +13190,13 @@ laboral y, además, cuando se esté en segunda instancia.
 Recomendaciones en materia de familia en relación con personas
 mayores (Poder Judicial, 2021a: 39)
 
-
-## 1. Requerir la creación de la nomenclatura específica “Abandono de
-
-      PAM” en el Sistema Informático de Tramitación Digital de Familia
-      (SITFA).
-
-## 2. Propender que un miembro del Consejo técnico tenga a su cargo
-
-      la atención especializada de las personas mayores, en los casos en
-      que sea derivado por el funcionario especializado de atención de
-      público.
-
 ## 3. Considerar las distintas opciones o alternativas programáticas de
 
-      los dispositivos intersectoriales, a beneficio de las personas mayo-
+**Definición Canónica:** los dispositivos intersectoriales, a beneficio de las personas mayo-
+      res, que van más allá de una institucionalización en un ELEAM
+      (Establecimiento de Larga Estadía del Adulto Mayor), evaluar
+
+los dispositivos intersectoriales, a beneficio de las personas mayo-
       res, que van más allá de una institucionalización en un ELEAM
       (Establecimiento de Larga Estadía del Adulto Mayor), evaluar
 
@@ -11885,10 +13206,16 @@ mayores (Poder Judicial, 2021a: 39)
 Recomendaciones en materia de penal en relación con personas mayores
 (Poder Judicial, 2021a: 40)
 
-
 ## 1. Priorizar, previa coordinación con las instituciones respectivas, la
 
-      comparecencia de las personas mayores en las distintas etapas del
+**Definición Canónica:** comparecencia de las personas mayores en las distintas etapas del
+      proceso penal. Como por ejemplo, en el caso de las audiencias de
+      control de detención se debieran realizar en los primeros bloques
+      aquellas en que los imputados sean personas mayores. De esta
+      misma forma, en los juicios orales, con la coordinación del Minis-
+      terio Público, debieran declarar al comienzo las personas mayores.
+
+comparecencia de las personas mayores en las distintas etapas del
       proceso penal. Como por ejemplo, en el caso de las audiencias de
       control de detención se debieran realizar en los primeros bloques
       aquellas en que los imputados sean personas mayores. De esta
@@ -11897,7 +13224,13 @@ Recomendaciones en materia de penal en relación con personas mayores
 
 ## 2. Incentivar las capacitaciones de los integrantes de los tribunales
 
-      en materia penal, con el fin de visibilizar a las personas mayores
+**Definición Canónica:** en materia penal, con el fin de visibilizar a las personas mayores
+      en el proceso penal. Dichas capacitaciones pueden tener origen en
+      las coordinaciones realizadas con otras instituciones de la admi-
+      nistración de justicia, sobre todo aquellas relacionadas al proceso
+      penal.
+
+en materia penal, con el fin de visibilizar a las personas mayores
       en el proceso penal. Dichas capacitaciones pueden tener origen en
       las coordinaciones realizadas con otras instituciones de la admi-
       nistración de justicia, sobre todo aquellas relacionadas al proceso
@@ -11906,15 +13239,14 @@ Recomendaciones en materia de penal en relación con personas mayores
 Recomendaciones en materia de civil en relación con personas mayores
 (Poder Judicial, 2021a: 40-41)
 
-
-## 1. Solicitar, en caso de estimarse necesario, la emisión de un informe
-
-      social, personal y familiar en las causas en que estén involucradas
-      personas mayores.
-
 ## 2. Solicitar al receptor judicial que en las notificaciones, realizadas a
 
-      personas mayores, explique el contenido de la cédula de notifica-
+**Definición Canónica:** personas mayores, explique el contenido de la cédula de notifica-
+      ción, con especial énfasis en los plazos de actuación. Debiendo, el
+      receptor, dejar constancia en el estampado de notificación la cir-
+      cunstancia de tratarse de una persona mayor.
+
+personas mayores, explique el contenido de la cédula de notifica-
       ción, con especial énfasis en los plazos de actuación. Debiendo, el
       receptor, dejar constancia en el estampado de notificación la cir-
       cunstancia de tratarse de una persona mayor.
@@ -11922,55 +13254,24 @@ Recomendaciones en materia de civil en relación con personas mayores
 Recomendaciones en materia de laboral en relación con personas
 mayores(Poder Judicial, 2021a: 41)
 
-
-## 1. Informar a la persona mayor, en lenguaje claro y sencillo, en cómo
-
-       realizar una denuncia en el ámbito laboral.
-
-## 2. Capacitar a un juez o jueza de cada tribunal laboral pluripersonal
-
-       en el acceso a la justicia de las personas mayores de forma perma-
-
-      nente, a fin de que se hagan cargo de las causas en las que están
-      involucradas estas personas.
-
 ## 3. Impulsar mesas de trabajos colaborativas o interinstitucionales
 
-      con la Dirección del Trabajo y Defensoría Laboral, con el objeto
+**Definición Canónica:** con la Dirección del Trabajo y Defensoría Laboral, con el objeto
+      de acordar procedimientos o protocolos comunes desde las res-
+      pectivas competencias para garantizar el acceso a la justicia.
+
+con la Dirección del Trabajo y Defensoría Laboral, con el objeto
       de acordar procedimientos o protocolos comunes desde las res-
       pectivas competencias para garantizar el acceso a la justicia.
 
 Recomendaciones en segunda instancia en relación con personas
 mayores (Poder Judicial, 2021a: 42)
 
-
-## 1. Ampliar a policía local las visitas de ministros visitadores para ve-
-
-      rificar medidas implementadas para personas mayores, como ce-
-      leridad en la atención.
-
-## 2. Incluir en las visitas a notarios, conservadores, la unificación de
-
-      medidas preferentes para personas mayores, como celeridad en la
-      atención.
-   3. Fiscalizar el cumplimiento del Protocolo.
-
-## 4. Priorizar la vista de la causa en los recursos de protección en los
-
-      que intervengan personas mayores.
-
-## 5. Promover que los restantes elementos de la administración de jus-
-
-      ticia hagan eco de este protocolo, como por ejemplo la Mesa de
-      Familia.
-
-## 6. Aplicar en segunda instancia el derecho a ser oído cuando influye
-
-      en su vida, como por ejemplo lo tienen los niños.
-
 ## 7. Nombrar a un ministro por cada Corte de Apelaciones como en-
 
-      cargado de las temáticas referidas a personas mayores.
+**Definición Canónica:** cargado de las temáticas referidas a personas mayores.
+
+cargado de las temáticas referidas a personas mayores.
 
 Migrantes
 
@@ -11988,20 +13289,23 @@ migración internacional,39 apátrida,40 refugiada,41 rechazo,42 situación
 
 ## 38 Para más información, véase Poder Judicial (2015-2020: 78): «Acto jurídico
 
+**Definición Canónica:** administrativo dictado por la autoridad migratoria que ordena abandonar del territorio nacional a la persona extranjera que no reúna los requisitos migratorios para
+permanecer en el país. La deportación trae aparejada una restricción para ingresar
+al país por un tiempo determinado».
+
 administrativo dictado por la autoridad migratoria que ordena abandonar del territorio nacional a la persona extranjera que no reúna los requisitos migratorios para
 permanecer en el país. La deportación trae aparejada una restricción para ingresar
 al país por un tiempo determinado».
 
-## 39 Para más información, véase Poder Judicial (2015-2020: 78): «Movimiento de
-
-personas que dejan su país de origen o en el que tienen residencia habitual, para
-establecerse temporal o permanentemente en otro país».
-
-## 40 Para más información, véase Poder Judicial (2015-2020: 78): «Aquella que no
-
-es considerada nacional por ningún Estado, conforme a su legislación».
-
 ## 41 Para más información, véase Poder Judicial (2015-2020: 78-79): «a) Aquella
+
+**Definición Canónica:** [persona] que se encuentra fuera del país de su nacionalidad debido a temores fundados de ser perseguida por motivos de raza, religión, nacionalidad, pertenencia a
+un determinado grupo social u opiniones políticas y que, a causa de dichos temores,
+no pueda o no quiera acogerse a la protección de su país; b) aquella [persona] que
+se encuentra fuera del país donde antes tenía su residencia habitual, aun cuando no
+fuere el país de su nacionalidad, debido a temores fundados de ser perseguida por
+motivos de raza, religión, nacionalidad, pertenencia a un determinado grupo social
+u opiniones política
 
 [persona] que se encuentra fuera del país de su nacionalidad debido a temores fundados de ser perseguida por motivos de raza, religión, nacionalidad, pertenencia a
 un determinado grupo social u opiniones políticas y que, a causa de dichos temores,
@@ -12016,6 +13320,10 @@ gravemente el orden público».
 
 ## 42 Para más información, véase Poder Judicial (2015-2020: 79): «Negación del
 
+**Definición Canónica:** ingreso regular de una persona a un país, adoptada por las autoridades en función
+de revisión migratoria ubicados en los lugares destinados al tránsito internacional
+de personas por tierra, mar y aire».
+
 ingreso regular de una persona a un país, adoptada por las autoridades en función
 de revisión migratoria ubicados en los lugares destinados al tránsito internacional
 de personas por tierra, mar y aire».
@@ -12026,8 +13334,14 @@ migratoria,43 tráfico de personas,44 trata de personas,45 arraigo,46 protecció
    Luego, tras especificar el marco nacional e internacional aplicable
 (Poder Judicial, 2015-2020: 82-88), señala una serie de principios generales aplicables: igualdad y no discriminación, propersona,49 interés
 
-
 ## 43 Para más información, véase Poder Judicial (2015-2020: 80): «Es en la que se
+
+**Definición Canónica:** encuentra una persona extranjera en consideración a si cumple o no las disposiciones migratorias para su ingreso y estancia en el país. Se considera que dicha persona
+tiene situación migratoria regular cuando ha cumplido las disposiciones y que tiene
+situación migratoria irregular cuando no ha cumplido con las mismas».
+  44 Para más información, véase Poder Judicial (2015-2020: 80): «Es la facilitación de la entrada ilegal de una persona en un Estado en el cual esa persona no es
+nacional o residente permanente con el fin de obtener, directa o indirectamente, un
+beneficio financiero u otro bene
 
 encuentra una persona extranjera en consideración a si cumple o no las disposiciones migratorias para su ingreso y estancia en el país. Se considera que dicha persona
 tiene situación migratoria regular cuando ha cumplido las disposiciones y que tiene
@@ -12038,11 +13352,23 @@ beneficio financiero u otro beneficio material».
 
 ## 45 Para más información, véase Poder Judicial (2015-2020: 80): «Es un delito que
 
+**Definición Canónica:** consiste en el uso de diversas formas de coacción, como la amenaza, la fuerza, el rapto, el engaño, el abuso de poder o de una situación de vulnerabilidad con el objeto de
+captar, transportar, trasladar, acoger o recibir personas en país extranjero con fines
+de explotación laboral, sexual, entre otras».
+
 consiste en el uso de diversas formas de coacción, como la amenaza, la fuerza, el rapto, el engaño, el abuso de poder o de una situación de vulnerabilidad con el objeto de
 captar, transportar, trasladar, acoger o recibir personas en país extranjero con fines
 de explotación laboral, sexual, entre otras».
 
 ## 46 Para más información, véase Poder Judicial (2015-2020: 80-81): «Es el proceso
+
+**Definición Canónica:** a través del cual se establece una relación particular con el territorio, cuyo resultado
+es crear lazos que mantienen algún tipo de “atadura” con el lugar. La formación de
+arraigos puede tener una diversidad de motivaciones, pero básicamente podemos
+distinguir tres: a) por elección y decisión personal; b) por circunstancias de la vida,
+las que no se ha querido o no se ha podido modificar desde una decisión personal; c)
+contra la propia elección y decisión personal, pero obligado por diversas situaciones
+externas».
 
 a través del cual se establece una relación particular con el territorio, cuyo resultado
 es crear lazos que mantienen algún tipo de “atadura” con el lugar. La formación de
@@ -12054,6 +13380,13 @@ externas».
 
 ## 47 Para más información, véase Poder Judicial (2015-2020: 81): «Es la ayuda que
 
+**Definición Canónica:** se ofrece a una persona que está fuera de su país y no puede regresar a él porque su
+vida corre peligro. El desplazamiento forzado de las personas que necesitan protección internacional se debe a diversos motivos como guerras, violación de derechos
+humanos y/o persecución. La protección internacional, en general, está dirigida a
+tres grupos de personas: refugiados, personas que no son refugiadas que necesitan
+protección internacional, y apátridas».
+  48 Para más información, véase Poder Judicial (2015-2020: 81): «Es aquel que permite a extranjeros solicitar una autorización legal para residir 
+
 se ofrece a una persona que está fuera de su país y no puede regresar a él porque su
 vida corre peligro. El desplazamiento forzado de las personas que necesitan protección internacional se debe a diversos motivos como guerras, violación de derechos
 humanos y/o persecución. La protección internacional, en general, está dirigida a
@@ -12062,6 +13395,15 @@ protección internacional, y apátridas».
   48 Para más información, véase Poder Judicial (2015-2020: 81): «Es aquel que permite a extranjeros solicitar una autorización legal para residir en un país».
 
 ## 49 Los derechos y garantías reconocidos por la Constitución y por los tratados
+
+**Definición Canónica:** internacionales sobre derechos humanos se complementan unos con otros para dar
+a los derechos fundamentales una protección máxima, y debe aplicarse el principio
+de la preeminencia de las garantías más favorables o prohomine o propersona, regla
+que está orientada a privilegiar, preferir, seleccionar, favorecer, tutelar y, por lo tanto,
+adoptar la aplicación de la norma que mejor proteja los derechos fundamentales del
+hombre; se ha de aplicar aquella norma más específica al fin de protección de los
+derechos humanos, la más favorable a la víctima o la más beneficiosa para el sistema
+de derechos. 
 
 internacionales sobre derechos humanos se complementan unos con otros para dar
 a los derechos fundamentales una protección máxima, y debe aplicarse el principio
@@ -12098,6 +13440,12 @@ eliminar cualquier trato discriminatorio en contra de las personas migrantes ent
 
 ## 50 Así, con respecto a la especial protección de la niñez migrante, es esencial la
 
+**Definición Canónica:** aplicación del Protocolo para la protección de niños, niñas y adolescentes no acompañados y separados en el contexto de la migración y/o en necesidad de protección
+internacional elaborado por el Poder Judicial (Poder Judicial y otros, 2021: 9-21) y
+González (2020: 13-26).
+ 51 Para más información, véase Ferrada y Uribe (2021: 235-243) y Unicef (2020:
+11-26).
+
 aplicación del Protocolo para la protección de niños, niñas y adolescentes no acompañados y separados en el contexto de la migración y/o en necesidad de protección
 internacional elaborado por el Poder Judicial (Poder Judicial y otros, 2021: 9-21) y
 González (2020: 13-26).
@@ -12105,6 +13453,8 @@ González (2020: 13-26).
 11-26).
 
 ## 52 Especial atención requiere, en este contexto, el Manual de actuaciones mínimas
+
+**Definición Canónica:** de defensa penal de migrantes y extranjeros elaborado por la Defensoría Penal Pública (2019).
 
 de defensa penal de migrantes y extranjeros elaborado por la Defensoría Penal Pública (2019).
 
@@ -12137,8 +13487,11 @@ refugiado; y c) sistemas adecuados de identificación de personas que se
 encuentran en situación de vulnerabilidad para asegurar que se garanticen sus derechos. Por ejemplo, preguntarle al migrante que se encuentra
 en audiencia o en el juicio sobre su situación actual migratoria (si es o
 
-
 ## 53 Luego, es esencial incorporar una perspectiva de género que otorgue especial
+
+**Definición Canónica:** protección a la mujer migrante. Para más información, véase Poder Judicial (2017:
+30-49) y González (2019: 20-22).
+**Concordancias Legales:** Ley 20.249; Ley 20.117; Ley 19.253; Ley 20.609; Ley 20.066; Ley 21.070; Ley 21.151; constitucion; constitución
 
 protección a la mujer migrante. Para más información, véase Poder Judicial (2017:
 30-49) y González (2019: 20-22).
@@ -12262,8 +13615,13 @@ el término «discapacidad» como una condición de menoscabo54 y sustituir conc
 otros sinónimos que implicaban una subvaloración, en particular de las
 personas con discapacidad mental (Poder Judicial, 2021b: 12).
 
-
 ## 54 Para más información, véase Poder Judicial (2021b: 11). También destaca que
+
+**Definición Canónica:** el Servicio Nacional de la Discapacidad definió, en 2015: «Recomendaciones para el
+uso del lenguaje en discapacidad», donde se establece que los términos adecuados
+son: «persona con discapacidad» o «persona en situación de discapacidad», porque
+también debiéramos situar la discapacidad donde efectivamente se encuentra (en
+algunos funcionamientos) y no solo en las personas.
 
 el Servicio Nacional de la Discapacidad definió, en 2015: «Recomendaciones para el
 uso del lenguaje en discapacidad», donde se establece que los términos adecuados
@@ -12277,7 +13635,15 @@ primer término, se hacen recomendaciones institucionales (Poder Judicial, 2015-
 
 ## 1. Mecanismos, ya sean técnicos o humanos, para poder emitir docu-
 
-      mentos en sistema de escritura braille, así como mecanismos tec-
+**Definición Canónica:** mentos en sistema de escritura braille, así como mecanismos tec-
+      nológicos, garantizando por ese medio, el acceso a la información
+      y comunicación de las personas con discapacidad visual.
+   2. Señalización en sistema de escritura braille en todos los tribunales,
+      mecanismos que proporcionen información sonora al entrar y sa-
+      lir de un espacio, utilización de colores que faciliten la orientación
+      de las personas con baja visión, así como grabación sonora.
+
+mentos en sistema de escritura braille, así como mecanismos tec-
       nológicos, garantizando por ese medio, el acceso a la información
       y comunicación de las personas con discapacidad visual.
    2. Señalización en sistema de escritura braille en todos los tribunales,
@@ -12287,7 +13653,16 @@ primer término, se hacen recomendaciones institucionales (Poder Judicial, 2015-
 
 ## 3. Información en formato digital, a través de pantallas que indiquen
 
-      la ubicación de las salas de audiencias y demás dependencias.
+**Definición Canónica:** la ubicación de las salas de audiencias y demás dependencias.
+   • Instalaciones en diseño universal.
+   En segundo término, se realizan una serie de recomendaciones para
+jueces, considerando una serie de acciones que contribuyen en favor
+de las personas con discapacidad. Esto, con el objeto de superar las barreras u obstáculos que enfrentan día a día dichas personas en el ejercicio de sus derechos (Poder Judicial, 2015-2020: 61). No obstante, que
+estas recomendaciones estén referidas a jueces, en lo pertinente, puede
+asimilarse para el personal del Poder Judicial cuando deba interactuar
+con p
+
+la ubicación de las salas de audiencias y demás dependencias.
    • Instalaciones en diseño universal.
    En segundo término, se realizan una serie de recomendaciones para
 jueces, considerando una serie de acciones que contribuyen en favor
@@ -12302,15 +13677,11 @@ psicosocial), las que se presentan en la tabla 52, 53, 54, 55, 56 y 57.
 Recomendaciones generales en relación con personas con discapacidad
 (Poder Judicial, 2015-2020: 61)
 
-
-## 1. Observar los principios en todas las etapas del proceso en los que
-
-      intervenga una persona con discapacidad, sin importar la materia
-      de él ni el carácter de su participación.
-
 ## 2. Considerar la condición de discapacidad de las personas, en la eta-
 
-      pa de ejecución del fallo, a fin de adoptar las medidas que dentro
+**Definición Canónica:** pa de ejecución del fallo, a fin de adoptar las medidas que dentro
+
+pa de ejecución del fallo, a fin de adoptar las medidas que dentro
 
       del marco de la ley, sean las más apropiadas para un cumplimiento
       efectivo.
@@ -12321,23 +13692,27 @@ Recomendaciones generales en relación con personas con discapacidad
 Ajustes razonables en relación con personas con discapacidad (Poder
 Judicial, 2015-2020: 62)
 
-
-## 1. Implementar ajustes razonables para un efectivo respeto y ejercicio
-
-       de los derechos de las personas con discapacidad, atendido aque-
-       llas barreras impuestas por el entorno que dificultan el ejercicio de
-       estos.
-
 ## 2. Tener en cuenta los diversos tipos de discapacidad existente, así
 
-       como las necesidades particulares de las personas con discapaci-
+**Definición Canónica:** como las necesidades particulares de las personas con discapaci-
+       dad, a fin de garantizar que los ajustes razonables logren eficaz-
+       mente, tanto la igualdad de oportunidades, como el acceso a la
+       justicia.
+
+como las necesidades particulares de las personas con discapaci-
        dad, a fin de garantizar que los ajustes razonables logren eficaz-
        mente, tanto la igualdad de oportunidades, como el acceso a la
        justicia.
 
 ## 3. Asegurar que se estén implementando los ajustes razonables de
 
-       manera adecuada, mediante comunicación directa con las perso-
+**Definición Canónica:** manera adecuada, mediante comunicación directa con las perso-
+       nas con discapacidad. Lo anterior permitirá vencer barreras acti-
+       tudinales, prejuicios y estigmas, mediante una interacción mayor
+       entre las y los operadores de justicia y las personas con discapaci-
+       dad.
+
+manera adecuada, mediante comunicación directa con las perso-
        nas con discapacidad. Lo anterior permitirá vencer barreras acti-
        tudinales, prejuicios y estigmas, mediante una interacción mayor
        entre las y los operadores de justicia y las personas con discapaci-
@@ -12345,17 +13720,25 @@ Judicial, 2015-2020: 62)
 
 ## 4. Considerar la posibilidad de brindar un ajuste razonable en caso
 
-       de que una de las partes se auto identifique como persona con dis-
+**Definición Canónica:** de que una de las partes se auto identifique como persona con dis-
+       capacidad o se tenga una duda fundada acerca de la existencia de
+       una discapacidad.
+
+de que una de las partes se auto identifique como persona con dis-
        capacidad o se tenga una duda fundada acerca de la existencia de
        una discapacidad.
 
 Recomendaciones sobre lenguaje, comunicación e información en
 relación con personas con discapacidad (Poder Judicial, 2015-2020: 6364)
 
-
 ## 1. Usar un lenguaje no ofensivo y no discriminatorio para referirse
 
-      a las personas con discapacidad. Eliminar el empleo de términos
+**Definición Canónica:** a las personas con discapacidad. Eliminar el empleo de términos
+      peyorativos comúnmente empleados por la legislación civil, que
+      hacen referencia a una pérdida funcional e implican una carencia
+      de valor, tales como: discapacitados, minusválidos, inválidos, im-
+
+a las personas con discapacidad. Eliminar el empleo de términos
       peyorativos comúnmente empleados por la legislación civil, que
       hacen referencia a una pérdida funcional e implican una carencia
       de valor, tales como: discapacitados, minusválidos, inválidos, im-
@@ -12365,30 +13748,15 @@ relación con personas con discapacidad (Poder Judicial, 2015-2020: 6364)
        je en discapacidad” elaborado por el Senadis y que se encuentra
        disponible en su página web.
 
-## 2. Redactar las resoluciones judiciales en un lenguaje inclusivo y res-
-
-       petuoso de los derechos humanos de las personas con discapaci-
-       dad.
-
-## 3. Proporcionar toda la información relacionada con el procedimien-
-
-       to desde un inicio y en todas sus etapas. Los datos tienen que ser
-       presentados de manera completa, actualizada y en formatos com-
-       prensibles y accesibles.
-
-## 4. Garantizar la accesibilidad al entorno físico, a las comunicaciones
-
-       y a la información, eliminando no solo las barreras de tipo físico,
-       sino también las actitudinales.
-
-## 5. Preguntar a la persona con discapacidad cuál es la forma o el me-
-
-       dio en que requiere o prefiere recibir la información, sin dar por
-       sentada alguna modalidad.
-
 ## 6. Informar a las y los notificadores que la persona a notificar tiene
 
-       discapacidad, para que la información se les brinde en lenguaje
+**Definición Canónica:** discapacidad, para que la información se les brinde en lenguaje
+       sencillo y accesible, evitando los tecnicismos. De no saberlo con
+       anterioridad, se recomienda dejar constancia de que la persona
+       notificada presenta alguna discapacidad evidente, para que el tri-
+       bunal tenga conocimiento de ello.
+
+discapacidad, para que la información se les brinde en lenguaje
        sencillo y accesible, evitando los tecnicismos. De no saberlo con
        anterioridad, se recomienda dejar constancia de que la persona
        notificada presenta alguna discapacidad evidente, para que el tri-
@@ -12396,7 +13764,15 @@ relación con personas con discapacidad (Poder Judicial, 2015-2020: 6364)
 
 ## 7. Informar, previo a la realización de una actuación judicial especial-
 
-       mente en los casos de personas con discapacidad visual, acerca del
+**Definición Canónica:** mente en los casos de personas con discapacidad visual, acerca del
+       contenido de ésta y la forma en que se llevará a cabo. Igualmente
+       es importante, describir a estas personas el lugar dónde se realiza-
+       rá la actuación y las personas que en ella participarán, indicando
+       la función de cada una de ellas o el motivo de su presencia. Todo
+       lo anterior, con la finalidad de que se familiaricen con el procedi-
+       miento y con los datos o información relevante que en él se tratará.
+
+mente en los casos de personas con discapacidad visual, acerca del
        contenido de ésta y la forma en que se llevará a cabo. Igualmente
        es importante, describir a estas personas el lugar dónde se realiza-
        rá la actuación y las personas que en ella participarán, indicando
@@ -12406,7 +13782,12 @@ relación con personas con discapacidad (Poder Judicial, 2015-2020: 6364)
 
 ## 8. Informar a todos los asistentes a la actuación judicial respecto de
 
-       quiénes intervendrán en ella, en particular cuando existirá perso-
+**Definición Canónica:** quiénes intervendrán en ella, en particular cuando existirá perso-
+       nal de apoyo para las personas con discapacidad (como intérpre-
+       tes), o auxilio animal (como perros guía), o algún tipo de ayuda
+       técnica, a fin de prevenir cualquier inconveniente que pudiera in-
+
+quiénes intervendrán en ella, en particular cuando existirá perso-
        nal de apoyo para las personas con discapacidad (como intérpre-
        tes), o auxilio animal (como perros guía), o algún tipo de ayuda
        técnica, a fin de prevenir cualquier inconveniente que pudiera in-
@@ -12416,23 +13797,25 @@ relación con personas con discapacidad (Poder Judicial, 2015-2020: 6364)
 
 ## 9. Practicar la comunicación directa con las personas con discapaci-
 
-      dad a fin de conocer su situación de vida y las medidas que ten-
+**Definición Canónica:** dad a fin de conocer su situación de vida y las medidas que ten-
+      drán que implementarse. Dicha comunicación deberá realizarse
+      con la persona con discapacidad y no con las de apoyo.
+
+dad a fin de conocer su situación de vida y las medidas que ten-
       drán que implementarse. Dicha comunicación deberá realizarse
       con la persona con discapacidad y no con las de apoyo.
 
 Recomendaciones sobre accesibilidad física en relación con personas con
 discapacidad (Poder Judicial, 2015-2020: 65)
 
-
-## 1. Generar conciencia en la institución respecto de la importancia del
-
-      diseño universal en la infraestructura de los tribunales, con la fi-
-      nalidad de que ese entorno contemple las necesidades del mayor
-      número de personas.
-
 ## 2. Aplicar, en caso de que las instalaciones no prevean los requeri-
 
-      mientos de accesibilidad y diseño universal, los debidos ajustes
+**Definición Canónica:** mientos de accesibilidad y diseño universal, los debidos ajustes
+      razonables, acción necesaria para garantizar el derecho de acceso
+      a la justicia de las personas con discapacidad, en igualdad de con-
+      diciones que las personas sin discapacidad.
+
+mientos de accesibilidad y diseño universal, los debidos ajustes
       razonables, acción necesaria para garantizar el derecho de acceso
       a la justicia de las personas con discapacidad, en igualdad de con-
       diciones que las personas sin discapacidad.
@@ -12440,15 +13823,15 @@ discapacidad (Poder Judicial, 2015-2020: 65)
 Recomendaciones sobre atención de personas con discapacidad (Poder
 Judicial, 2015-2020: 65)
 
-
-## 1. Priorizar la atención y resolución de los juicios en los que se in-
-
-      volucre a una persona con discapacidad, evitando retrasos en la
-      tramitación de ellos.
-
 ## 2. Asegurar la puntualidad en el inicio de las audiencias. Se estima
 
-      pertinente que el horario de dichas audiencias se fije previa con-
+**Definición Canónica:** pertinente que el horario de dichas audiencias se fije previa con-
+      sulta con las personas con discapacidad para garantizar que sea el
+      más adecuado, tomando en cuenta si deben administrarse algún
+      medicamento, asistir a alguna cita o tratamiento médico, o bien, si
+      requieren de la presencia de un apoyo personal.
+
+pertinente que el horario de dichas audiencias se fije previa con-
       sulta con las personas con discapacidad para garantizar que sea el
       más adecuado, tomando en cuenta si deben administrarse algún
       medicamento, asistir a alguna cita o tratamiento médico, o bien, si
@@ -12456,7 +13839,12 @@ Judicial, 2015-2020: 65)
 
 ## 3. Evitar comparecencias innecesarias. Distinguir de manera correc-
 
-      ta entre las comparecencias innecesarias y las excepciones a la
+**Definición Canónica:** ta entre las comparecencias innecesarias y las excepciones a la
+      comparecencia. Si existen las condiciones para que la persona con
+      discapacidad comparezca en las dependencias del tribunal debe
+      prevalecer este criterio.
+
+ta entre las comparecencias innecesarias y las excepciones a la
       comparecencia. Si existen las condiciones para que la persona con
       discapacidad comparezca en las dependencias del tribunal debe
       prevalecer este criterio.
@@ -12464,22 +13852,30 @@ Judicial, 2015-2020: 65)
 Recomendaciones sobre discriminación múltiple de personas con
 discapacidad (Poder Judicial, 2015-2020: 66)
 
-
 ## 1. Atender otros factores que pueden dar origen a la discriminación
 
-      múltiple de las personas con discapacidad, por ejemplo, cuestio-
+**Definición Canónica:** múltiple de las personas con discapacidad, por ejemplo, cuestio-
       nes de origen étnico (personas indígenas), de edad (niñas y niños,
       personas adultas mayores), o de género (como es el caso de las
       mujeres o niñas con discapacidad).
 
-## 2. Poner particular atención a los casos en que participen personas
-
-      con múltiples discapacidades, quienes pueden ser objeto de discri-
-      minaciones múltiples.
+múltiple de las personas con discapacidad, por ejemplo, cuestio-
+      nes de origen étnico (personas indígenas), de edad (niñas y niños,
+      personas adultas mayores), o de género (como es el caso de las
+      mujeres o niñas con discapacidad).
 
 ## 3. Considerar en todos los asuntos en los que intervengan mujeres
 
-      con discapacidad, criterios orientados a combatir la desigualdad
+**Definición Canónica:** con discapacidad, criterios orientados a combatir la desigualdad
+      entre las mujeres y hombres con discapacidad, adoptando medi-
+      das encaminadas a erradicar los estereotipos de género, fomentar
+      la toma de decisiones de las mujeres con discapacidad, particu-
+      larmente en cuestiones relacionadas con su salud, su familia, su
+      patrimonio, o cuando sean víctimas de delitos de índole sexual o
+      relacionados con violencia de género, aplicando un mayor grado
+      de atención en estos últimos supuestos.
+
+con discapacidad, criterios orientados a combatir la desigualdad
       entre las mujeres y hombres con discapacidad, adoptando medi-
       das encaminadas a erradicar los estereotipos de género, fomentar
       la toma de decisiones de las mujeres con discapacidad, particu-
@@ -12490,7 +13886,10 @@ discapacidad (Poder Judicial, 2015-2020: 66)
 
 ## 4. Procurar en la medida de lo posible, auxiliarse con un equipo mul-
 
-      tidisciplinario de profesionales de áreas relacionadas con las per-
+**Definición Canónica:** tidisciplinario de profesionales de áreas relacionadas con las per-
+      sonas con discapacidad.
+
+tidisciplinario de profesionales de áreas relacionadas con las per-
       sonas con discapacidad.
 
    Asimismo, se realizan una serie de recomendaciones, pero atendiendo a diversos tipos de discapacidades que ameritan un enfoque especial.
@@ -12499,58 +13898,31 @@ Se considera, al efecto, discapacidad física o motriz, visual, auditiva, intele
 Recomendaciones sobre discapacidad física o motriz (Poder Judicial,
 2015-2020: 67)
 
-
-## 1. Procurar que el entorno físico no sea un impedimento para su mo-
-
-      vilidad y desplazamiento por las instalaciones de los tribunales.
-
-## 2. Implementar en el entorno físico todo tipo de señalización que
-
-      facilite el desplazamiento de las personas con discapacidad, así
-      como las rutas a seguir para acudir a los espacios en los que se
-      desarrollen las audiencias.
-
-
-## 3. Contar con algún tipo de apoyo o asistencia humana que facilite el
-
-      desplazamiento de las personas con discapacidad motriz por los
-      tribunales.
-
-Recomendaciones sobre discapacidad visual (Poder Judicial, 2015-2020:
-67-68)
-
-
-## 1. Aplicar medios alternativos de comunicación e información, como
-
-      pueden ser los dispositivos multimedia, los medios de voz digita-
-      lizada, o bien, otro tipo de ayudas humanas o técnicas.
-
 ## 2. Informar a las notificadoras y a los notificadores que la persona a
 
-      la que notificarán tiene discapacidad visual para estar preparados
+**Definición Canónica:** la que notificarán tiene discapacidad visual para estar preparados
       con la información en un formato accesible para ellas. En caso de
       no saberlo con anterioridad, se recomienda dejar constancia de
       que la persona notificada presenta alguna discapacidad evidente,
       de manera que el tribunal pueda estar en conocimiento de esta
       circunstancia.
 
-## 3. Garantizar, cual sea el medio de comunicación empleado, que las
-
-      personas con discapacidad visual comprendan la información
-      transmitida por los jueces y funcionario del tribunal.
-
-## 4. Facilitar los medios para el adecuado desplazamiento y movilidad
-
-      de las personas con discapacidad visual y la asistencia animal en
-      caso que la empleen.
-
-## 5. No tomar ni mover el bastón de las personas con discapacidad vi-
-
-      sual.
+la que notificarán tiene discapacidad visual para estar preparados
+      con la información en un formato accesible para ellas. En caso de
+      no saberlo con anterioridad, se recomienda dejar constancia de
+      que la persona notificada presenta alguna discapacidad evidente,
+      de manera que el tribunal pueda estar en conocimiento de esta
+      circunstancia.
 
 ## 6. Brindar a las personas con discapacidad visual, una explicación
 
-      del lugar dónde se encuentran para que puedan tener una idea de
+**Definición Canónica:** del lugar dónde se encuentran para que puedan tener una idea de
+      las dimensiones y los objetos que están a su alrededor, evitando el
+      uso de expresiones que hagan alusión a una posición en el espacio,
+      como por ejemplo “aquí”, “allá”, “cerca”, pues es evidente que no les
+      resultarán de utilidad a las personas con discapacidad visual.
+
+del lugar dónde se encuentran para que puedan tener una idea de
       las dimensiones y los objetos que están a su alrededor, evitando el
       uso de expresiones que hagan alusión a una posición en el espacio,
       como por ejemplo “aquí”, “allá”, “cerca”, pues es evidente que no les
@@ -12558,20 +13930,17 @@ Recomendaciones sobre discapacidad visual (Poder Judicial, 2015-2020:
 
 ## 7. Ayudar a que la persona con discapacidad visual comprenda mejor
 
-      su ubicación espacial, es necesario que todas las personas que in-
+**Definición Canónica:** su ubicación espacial, es necesario que todas las personas que in-
       tervengan por primera vez en una diligencia o actuación judicial
       se presenten al llegar o salir del lugar donde se realicen.
 
-## 8. Presentarse antes y consultar a la persona ciega si requiere ayuda o
-
-      colaboración para su desplazamiento.
-
-Recomendaciones sobre discapacidad auditiva (Poder Judicial, 20152020: 69-70)
-
+su ubicación espacial, es necesario que todas las personas que in-
+      tervengan por primera vez en una diligencia o actuación judicial
+      se presenten al llegar o salir del lugar donde se realicen.
 
 ## 1. Promover el uso de medios de comunicación accesibles, para ase-
 
-      gurar que las personas con discapacidad auditiva comprendan el
+**Definición Canónica:** gurar que las personas con discapacidad auditiva comprendan el
       alcance del procedimiento y su significado, así como toda la in-
       formación que les sea proporcionada por las y los jueces y demás
       personal del tribunal. Este tipo de apoyos debe estar presente en
@@ -12579,20 +13948,36 @@ Recomendaciones sobre discapacidad auditiva (Poder Judicial, 20152020: 69-70)
       que se comuniquen las y los jueces con las personas con discapa-
       cidad auditiva.
 
-## 2. Emplear un lenguaje sencillo y con estructuras gramaticales fáciles
-
-      de comprender.
+gurar que las personas con discapacidad auditiva comprendan el
+      alcance del procedimiento y su significado, así como toda la in-
+      formación que les sea proporcionada por las y los jueces y demás
+      personal del tribunal. Este tipo de apoyos debe estar presente en
+      todo momento durante el juicio, y no solo en aquellas etapas en las
+      que se comuniquen las y los jueces con las personas con discapa-
+      cidad auditiva.
 
 ## 3. Garantizar en todo tipo de juicios el derecho de las personas con
 
-      discapacidad auditiva de emplear a una persona intérprete en len-
+**Definición Canónica:** discapacidad auditiva de emplear a una persona intérprete en len-
+      gua de señas para poder comunicarse, se recuerda a las y los jueces
+      que este derecho debe ser garantizado en todos los juicios, sin im-
+      portar el carácter en que intervengan.
+
+discapacidad auditiva de emplear a una persona intérprete en len-
       gua de señas para poder comunicarse, se recuerda a las y los jueces
       que este derecho debe ser garantizado en todos los juicios, sin im-
       portar el carácter en que intervengan.
 
 ## 4. Cabe recordar a los jueces y juezas que el Poder Judicial cuenta con
 
-      un sistema de video interpretación en línea en que existen intér-
+**Definición Canónica:** un sistema de video interpretación en línea en que existen intér-
+      pretes en lengua de señas y que está disponible para todos los tri-
+      bunales del país. Los tribunales reformados lo tienen implementa-
+      do y los no reformados pueden solicitarlo directamente a la Zonal
+      respectiva. En caso de consultas escribir a atencionausuariosddi@
+      pjud.cl.
+
+un sistema de video interpretación en línea en que existen intér-
       pretes en lengua de señas y que está disponible para todos los tri-
       bunales del país. Los tribunales reformados lo tienen implementa-
       do y los no reformados pueden solicitarlo directamente a la Zonal
@@ -12601,7 +13986,13 @@ Recomendaciones sobre discapacidad auditiva (Poder Judicial, 20152020: 69-70)
 
 ## 5. Preguntar a la persona con discapacidad auditiva si requiere de
 
-      un intérprete de lengua de señas para intervenir en el juicio. Exis-
+**Definición Canónica:** un intérprete de lengua de señas para intervenir en el juicio. Exis-
+      ten personas con discapacidad auditiva que emplean la modalidad
+      oral y realizan lectura labial. Por lo tanto, se recomienda a las y
+      los jueces cerciorarse de que las personas hayan comprendido la
+      información.
+
+un intérprete de lengua de señas para intervenir en el juicio. Exis-
       ten personas con discapacidad auditiva que emplean la modalidad
       oral y realizan lectura labial. Por lo tanto, se recomienda a las y
       los jueces cerciorarse de que las personas hayan comprendido la
@@ -12609,27 +14000,38 @@ Recomendaciones sobre discapacidad auditiva (Poder Judicial, 20152020: 69-70)
 
 ## 6. Ubicarse dentro del campo visual de la persona con discapacidad
 
-      auditiva, articular y modular correctamente a un ritmo moderado.
+**Definición Canónica:** auditiva, articular y modular correctamente a un ritmo moderado.
       En caso de que sean varias las personas las que van a intervenir en
       la comunicación, será más fácil para las personas con discapaci-
       dad auditiva el que se coloquen en un círculo y se respete el turno
       de cada persona para poder hablar.
 
+auditiva, articular y modular correctamente a un ritmo moderado.
+      En caso de que sean varias las personas las que van a intervenir en
+      la comunicación, será más fácil para las personas con discapaci-
+      dad auditiva el que se coloquen en un círculo y se respete el turno
+      de cada persona para poder hablar.
 
 ## 7. Otorgar, en los casos en que sea necesario, un plazo mayor para
 
-      que las personas con discapacidad auditiva y sordociegas se comu-
+**Definición Canónica:** que las personas con discapacidad auditiva y sordociegas se comu-
       niquen, por lo que la jueza o el juez no debe mostrar impaciencia,
       o solicitar se apresure en la manifestación de sus ideas.
 
-## 8. Mantener siempre contacto directo con la persona con discapa-
-
-      cidad auditiva aun cuando se auxilie de una tercera persona, no
-      debe perderse esa relación.
+que las personas con discapacidad auditiva y sordociegas se comu-
+      niquen, por lo que la jueza o el juez no debe mostrar impaciencia,
+      o solicitar se apresure en la manifestación de sus ideas.
 
 ## 9. Entregar a los notificadores y a las notificadoras la información
 
-      respecto a si la persona con discapacidad auditiva y estar prepa-
+**Definición Canónica:** respecto a si la persona con discapacidad auditiva y estar prepa-
+      rados con la información en un formato accesible para ellas. De
+      no saberlo con anterioridad, se recomienda dejar constancia de
+      que la persona notificada presenta alguna discapacidad evidente,
+      de manera que el tribunal pueda estar en conocimiento de esta
+      circunstancia.
+
+respecto a si la persona con discapacidad auditiva y estar prepa-
       rados con la información en un formato accesible para ellas. De
       no saberlo con anterioridad, se recomienda dejar constancia de
       que la persona notificada presenta alguna discapacidad evidente,
@@ -12639,32 +14041,28 @@ Recomendaciones sobre discapacidad auditiva (Poder Judicial, 20152020: 69-70)
 Recomendaciones sobre discapacidad intelectual, mental o sicosocial
 (Poder Judicial, 2015-2020: 71-72)
 
-
-## 1. Utilizar un lenguaje (oral o escrito) simple, con estructuras grama-
-
-      ticales comprensibles, en todo tipo de notificación, requerimiento,
-      actuación, comparecencia y resolución que se dicte con motivo del
-      juicio, evitando el uso de tecnicismos.
-
-## 2. Brindar información oportuna que le permita a la persona enten-
-
-      der la generalidad del juicio en el que interviene.
-
 ## 3. Las personas con discapacidad mental o psicosocial en algunas
 
-      ocasiones necesitan un tiempo mayor para procesar la informa-
+**Definición Canónica:** ocasiones necesitan un tiempo mayor para procesar la informa-
       ción, así como formatos más accesibles para la comprensión de la
       misma, por ello se recomienda considerar el tiempo adicional que
       puede tomar la compresión total de la información y no apresurar
       las actuaciones.
 
-## 4. Emplear formatos de fácil lectura y comprensión para las resolu-
-
-      ciones que se emitan con motivo del juicio de que se trate.
+ocasiones necesitan un tiempo mayor para procesar la informa-
+      ción, así como formatos más accesibles para la comprensión de la
+      misma, por ello se recomienda considerar el tiempo adicional que
+      puede tomar la compresión total de la información y no apresurar
+      las actuaciones.
 
 ## 5. Considerar la discapacidad que tiene la persona a la cual van a no-
 
-      tificar en el caso de las diligencias de notificación. Los notificado-
+**Definición Canónica:** tificar en el caso de las diligencias de notificación. Los notificado-
+      res deben tener conocimiento de la forma en que debe brindarse
+      la información, utilizando en este caso un lenguaje sencillo, acce-
+      sible, evitando el uso de tecnicismos. De no saberlo con anteriori-
+
+tificar en el caso de las diligencias de notificación. Los notificado-
       res deben tener conocimiento de la forma en que debe brindarse
       la información, utilizando en este caso un lenguaje sencillo, acce-
       sible, evitando el uso de tecnicismos. De no saberlo con anteriori-
@@ -12673,37 +14071,23 @@ Recomendaciones sobre discapacidad intelectual, mental o sicosocial
       presenta alguna discapacidad evidente, de manera que el tribunal
       pueda estar en conocimiento de esta circunstancia.
 
-## 6. Asegurar que, en los casos de una notificación personal, ésta se lle-
-
-      ve a cabo de esa manera, especialmente respecto de aquellas per-
-      sonas con discapacidad intelectual que se encuentran internadas
-      en centros de salud o residencias de cuidado.
-
 ## 7. Permitir la presencia de alguna persona de su confianza que les
 
-      pueda apoyar en el proceso de comunicación o comprensión, ya
+**Definición Canónica:** pueda apoyar en el proceso de comunicación o comprensión, ya
       sea un profesional, un familiar, alguna organización de personas
       con discapacidad, un servicio comunitario de apoyo, entre otros.
 
-## 8. Comunicarse en todo momento directamente con las personas
-
-      con discapacidad intelectual, no con la persona de apoyo o intér-
-      prete, haciéndolo a través de un lenguaje sencillo y evitando so-
-      breactuaciones.
-
-## 9. Volver a explicar empleando lenguaje sencillo, ante cualquier duda
-
-      presentada por la persona con discapacidad intelectual de alguna
-      parte del procedimiento.
-
-## 10. No apresurar a la persona con discapacidad en la manifestación
-
-      de ideas ni tampoco demostrar impaciencia por acelerar el proce-
-      so.
+pueda apoyar en el proceso de comunicación o comprensión, ya
+      sea un profesional, un familiar, alguna organización de personas
+      con discapacidad, un servicio comunitario de apoyo, entre otros.
 
 ## 11. En caso de que la jueza o el juez tenga duda acerca de lo manifes-
 
-      tado por parte de la persona con discapacidad intelectual, se re-
+**Definición Canónica:** tado por parte de la persona con discapacidad intelectual, se re-
+      comienda que se dirija a ella nuevamente para preguntarle acerca
+      de aquello que no ha comprendido, empleando un lenguaje claro.
+
+tado por parte de la persona con discapacidad intelectual, se re-
       comienda que se dirija a ella nuevamente para preguntarle acerca
       de aquello que no ha comprendido, empleando un lenguaje claro.
 
@@ -12721,14 +14105,12 @@ de la región americana.
 Suprema a través del AD-566-2016, que inicia funciones a partir del mes
 de julio e 2017, cuyos principales objetivos declarados son:
 
-
-## 1. Promover que las y los integrantes del Poder Judicial disfruten de
-
-      espacios de trabajo igualitarios y libres de violencia y discriminación.
-
 ## 2. Impulsar el desarrollo de políticas y acciones dirigidas a garantizar
 
-      la igualdad y la no discriminación de todas las personas en el acceso a
+**Definición Canónica:** la igualdad y la no discriminación de todas las personas en el acceso a
+      la justicia.55
+
+la igualdad y la no discriminación de todas las personas en el acceso a
       la justicia.55
 
   El Poder Judicial identifica aún como falencia la necesidad de incorporar la perspectiva de género de manera transversal en la sociedad,
@@ -12744,10 +14126,17 @@ advirtiendo que:
 caso Barbosa de Souza y otros con Brasil,57 destaca la labor de los funcionarios del Estado como entes relevantes en el acceso a la justicia sin
 sesgos o estereotipos de género.
 
-
 ## 144. En particular, la Corte ha reconocido que los prejuicios personales
 
-      y los estereotipos de género afectan la objetividad de los funcionarios
+**Definición Canónica:** y los estereotipos de género afectan la objetividad de los funcionarios
+      estatales encargados de investigar las denuncias que se les presentan,
+      influyendo en su percepción para determinar si ocurrió o no un hecho
+      de violencia, en su evaluación de la credibilidad de los testigos y de la
+      propia víctima. Los estereotipos “distorsionan las percepciones y dan
+      lugar a decisiones basadas en creencias preconcebidas y mitos, en lugar
+      de hechos”, lo que a su vez puede dar lugar a la denegación de justicia,
+
+y los estereotipos de género afectan la objetividad de los funcionarios
       estatales encargados de investigar las denuncias que se les presentan,
       influyendo en su percepción para determinar si ocurrió o no un hecho
       de violencia, en su evaluación de la credibilidad de los testigos y de la
@@ -12758,6 +14147,10 @@ sesgos o estereotipos de género.
  55 Para más información, véase https://bit.ly/3cfUl7O.
 
 ## 56 Para más información, véase el Cuaderno de buenas prácticas para incorporar
+
+**Definición Canónica:** la perspectiva de género en las sentencias, p. 45.
+ 57 Para más información, véase Corte IDH (2021: párrafo 144).
+**Concordancias Legales:** artículo 4; artículo 2
 
 la perspectiva de género en las sentencias, p. 45.
  57 Para más información, véase Corte IDH (2021: párrafo 144).
@@ -12893,10 +14286,17 @@ sobre protección de los reclusos, especialmente (Gendarmería de Chile: 69):
    • Pacto Internacional de Derechos Civiles y Políticos, artículo 2, nú-
      mero 3
 
-
 ## 3. Cada uno de los Estados parte en el presente Pacto se compromete a
 
-      garantizar que:
+**Definición Canónica:** garantizar que:
+       a) Toda persona cuyos derechos o libertades reconocidos en el presen-
+      te Pacto hayan sido violados podrá interponer un recurso efectivo, aun
+      cuando tal violación hubiera sido cometida por personas que actuaban
+      en ejercicio de sus funciones oficiales.
+       b) La autoridad competente, judicial, administrativa o legislativa, o
+**Concordancias Legales:** constitucion; Constitución
+
+garantizar que:
        a) Toda persona cuyos derechos o libertades reconocidos en el presen-
       te Pacto hayan sido violados podrá interponer un recurso efectivo, aun
       cuando tal violación hubiera sido cometida por personas que actuaban
@@ -13045,7 +14445,20 @@ Cohen, Harlan Grant (2007): “Finding International Law: Rethinking
 
 ## Comisión interamericana de derechos humanos
 
-  (2021): Compendio de la Comisión Interamericana de Derechos Hu-
+**Definición Canónica:** (2021): Compendio de la Comisión Interamericana de Derechos Hu-
+  manos sobre verdad, memoria, justicia y reparación en contextos
+  transicionales. OEA/Ser.L/V/II, 12 de abril de 2021.
+Comité Internacional de la Cruz Roja (1978): (Ginebra, Comité Inter-
+  nacional de la Cruz Roja).
+Comité Internacional de la Cruz Roja (2006): Informe 2006, 72 pp., dis-
+  ponible en icrc.org/es/doc/assets/files/other/informecicr-oea.pdf, vi-
+  sitado el 10.01.2021.
+Comité Internacional de la Cruz Roja (2009): (Ginebra, CICR).
+Consejo de Derechos Humanos de las Naciones Unidas (2020a): “La
+  situación de derecho
+**Concordancias Legales:** artículo 322; artículo 1 de la Convención sobre Prohibiciones o Res; artículo 5; Ley Nº 1072; Ley 20.609; Ley 2191; Constitucion; Constitución; Constitución Política
+
+(2021): Compendio de la Comisión Interamericana de Derechos Hu-
   manos sobre verdad, memoria, justicia y reparación en contextos
   transicionales. OEA/Ser.L/V/II, 12 de abril de 2021.
 Comité Internacional de la Cruz Roja (1978): (Ginebra, Comité Inter-
@@ -13553,6 +14966,13 @@ Poder Judicial (2015-2020): “Protocolos de Acceso a la Justicia de Gru-
 
 ## PROTOCOLO_DIGITAL_FINAL.pdf
 
+**Definición Canónica:** Poder Judicial (2017): “Política de igualdad de género y no discrimina-
+   ción”. Disponible en http://secretariadegenero.pjud.cl/images/docu-
+   mentos/digitalpignd_10072018.pdf.
+Poder Judicial (2018): “Cuaderno de Buenas Prácticas para incorporar la
+Materiales Docentes                                                   Referencias
+**Concordancias Legales:** Constitucion; Constitución
+
 Poder Judicial (2017): “Política de igualdad de género y no discrimina-
    ción”. Disponible en http://secretariadegenero.pjud.cl/images/docu-
    mentos/digitalpignd_10072018.pdf.
@@ -13694,12 +15114,22 @@ VIAL, Juan de Dios y RODRÍGUEZ, Ángel (2009): “La dignidad de
   la Persona Humana. Desde la Fecundación Hasta su Muerte”, Acta
   Bioethica; 15 (1), pp. 55-64.
 
-## VILLAVICENCIO, Luis (2008): “¿DERECHOS HUMANOS PARA
-
-
 ## Quiénes? reflexiones sobre algunas cuestiones em-
 
-  BARAZOSAS”, en Revista de Derecho (Vol. XXI - N º 2) pp. 33-5133.
+**Definición Canónica:** BARAZOSAS”, en Revista de Derecho (Vol. XXI - N º 2) pp. 33-5133.
+Viteri Custodio, Daniela Damaris (2012): “La naturaleza jurídica de la
+  dignidad humana: un análisis comparado de la jurisprudencia del
+  Tribunal Constitucional español y el Tribunal Constitucional Federal
+  alemán”, Estudios de Derecho (Universidad de Antioquia) (vol. 69 n°
+  153): pp. 113 – 145.
+VIVANCO MARTÍNEZ, Ángela (2006): (Santiago, Ediciones UC)
+  Tomo II.
+ZUÑIGA URBINA, Francisco (2012): “Comentario a la Sentencia de la
+  Corte Interamericana de Derechos Humanos, Caso “Atala Riffo y Ni-
+  ñas Vs. Chile, de 24 de Febr
+**Concordancias Legales:** Constitucion
+
+BARAZOSAS”, en Revista de Derecho (Vol. XXI - N º 2) pp. 33-5133.
 Viteri Custodio, Daniela Damaris (2012): “La naturaleza jurídica de la
   dignidad humana: un análisis comparado de la jurisprudencia del
   Tribunal Constitucional español y el Tribunal Constitucional Federal

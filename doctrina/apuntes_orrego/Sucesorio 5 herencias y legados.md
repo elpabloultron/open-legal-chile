@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## 2.2. asignaciones a titulo universal o herencias. 1
 
+**Definición Canónica:** a) Concepto.
+**Concordancias Legales:** artículo 1187
 
 a) Concepto.
 
@@ -72,6 +74,9 @@ testamentarias, a menos que el testador las imponga a determinadas personas. Per
 
 ## parte intransmisible del activo y pasivo del causante no pasa a los herederos, como
 
+**Definición Canónica:** acontece con los derechos personalísimos (uso, habitación, alimentos) y el usufructo;
+como obligaciones, tampoco se transmiten las intuitu personae.
+
 acontece con los derechos personalísimos (uso, habitación, alimentos) y el usufructo;
 como obligaciones, tampoco se transmiten las intuitu personae.
 
@@ -81,12 +86,27 @@ jurídicas:
 
 ## 7.1. Existe cosa juzgada respecto de los herederos, en un juicio seguido contra o por el
 
+**Definición Canónica:** causante. No hay en este caso identidad física de personas, pero sí la identidad legal
+que exige la ley. Así lo declaró la Corte Suprema en un juicio de reivindicación seguido
+contra el causante y ganado por éste y reiniciado contra los herederos. Se acogió por
+la Corte la cosa juzgada.
+
 causante. No hay en este caso identidad física de personas, pero sí la identidad legal
 que exige la ley. Así lo declaró la Corte Suprema en un juicio de reivindicación seguido
 contra el causante y ganado por éste y reiniciado contra los herederos. Se acogió por
 la Corte la cosa juzgada.
 
 ## 7.2. En cuanto a la posibilidad de que los herederos puedan o no demandar la nulidad
+
+**Definición Canónica:** absoluta, si el causante carecía del derecho para hacerlo (art. 1683), hay dos posturas
+doctrinarias:
+i.- Doctrina que postula que los herederos no podrán alegar la nulidad absoluta si el
+causante carecía del derecho para hacerlo.
+     La jurisprudencia, en ocasiones, aplicando el principio de que los herederos son los
+continuadores de la persona del difunto, ha declarado que ellos tampoco tienen
+derecho a alegar la nulidad absoluta si el causante no podía hacerlo. Los principales
+argumentos de estos fallos, son los siguientes:
+     • Nadie puede transmitir más derechos de los que tiene. Si el
 
 absoluta, si el causante carecía del derecho para hacerlo (art. 1683), hay dos posturas
 doctrinarias:
@@ -121,6 +141,15 @@ sentencia de la Excma. Corte Suprema de 13 de enero de 2014, dictada en los auto
 Rol N° 9.631-12).
 
 ## 7.3. En contra de los herederos del deudor hipotecario procede la acción personal y no
+
+**Definición Canónica:** la de desposeimiento.
+         En la hipoteca, el acreedor hipotecario, fuera de su acción personal, goza de la
+acción de persecución, de desposeimiento en contra de los terceros poseedores de la
+finca hipotecada. Respecto de los herederos del deudor hipotecario, no procede la
+acción de desposeimiento, pues ella se confunde con la acción personal; los herederos
+están obligados a la deuda personal y no son terceros poseedores, porque representan
+jurídicamente al causante. Así lo ha declarado la jurisprudencia.
+**Concordancias Legales:** artículo 1098; artículo 1550 del Código Civil
 
 la de desposeimiento.
          En la hipoteca, el acreedor hipotecario, fuera de su acción personal, goza de la
@@ -485,6 +514,17 @@ amplia libertad. Pueden legarse tanto las cosas corporales como incorporales. Ar
 
 ## 1127. Pueden legarse las cosas muebles y los inmuebles. Incluso, con ciertas
 
+**Definición Canónica:** modalidades, el legado puede consistir en una cosa ajena, y en la cuota que se tenga
+en un bien.
+        Según el art. 1113, puede legarse una cosa futura con tal que llegue a existir,
+lo cual constituye una aplicación del art. 1461, 1º, según el cual las cosas que se
+espera que existan pueden ser objeto de una declaración de voluntad (en el mismo
+sentido, artículo 1813, en la compraventa).
+        Por excepción no son susceptibles de legarse las cosas incomerciables. Dispone
+el art. 1105 que no pueden legarse las cosas comunes, como la alta mar, las cosas que
+al tiempo del testamento sean de 
+**Concordancias Legales:** artículo 1813; artículo 1127 del Código Civil
+
 modalidades, el legado puede consistir en una cosa ajena, y en la cuota que se tenga
 en un bien.
         Según el art. 1113, puede legarse una cosa futura con tal que llegue a existir,
@@ -501,13 +541,11 @@ que no puedan separarse sin deteriorarlo. 17
 susceptibles de legarse:
 1. Cosas corporales e incorporales (artículo 1127 del Código Civil).
 
-## 2. Cosas presentes o futuras (siempre que las últimas lleguen a existir, artículo 1113
-
-del Código Civil).
-3. Cosas propias, y excepcionalmente, cosas ajenas.
-4. Cosas singulares y cosas indivisas (artículo 1110 del Código Civil).
-
 ## 5. Cosas muebles, inmuebles e incluso algunas universalidades jurídicas (propone
+
+**Definición Canónica:** como ejemplo un establecimiento comercial). 18
+        Respecto de las cosas que no pueden legarse, señala Rodríguez Grez las
+siguientes:
 
 como ejemplo un establecimiento comercial). 18
         Respecto de las cosas que no pueden legarse, señala Rodríguez Grez las
@@ -520,26 +558,21 @@ siguientes:
 
                            Sucesorio 5 – Juan Andrés Orrego Acuña                      9
 
-## 1. Las cosas no susceptibles de apropiación, pues están fuera del comercio humano
-
-(artículo 585 del Código Civil).
-
 ## 2. Los bienes nacionales de uso público, o los de propiedad estatal o municipal
+
+**Definición Canónica:** (artículo 1105 del Código Civil). Quedan por ende comprendidos en este caso tanto los
+bienes nacionales de uso público como los bienes fiscales y los municipales.
+3. Las cosas destinadas al culto divino (artículo 1105 del Código Civil).
+**Concordancias Legales:** artículo 1105 del Código Civil
 
 (artículo 1105 del Código Civil). Quedan por ende comprendidos en este caso tanto los
 bienes nacionales de uso público como los bienes fiscales y los municipales.
 3. Las cosas destinadas al culto divino (artículo 1105 del Código Civil).
 
-## 4. Las cosas que forman parte de un edificio y que no pueden separarse de él sin
-
-deteriorarlo (artículo 1105 del Código Civil).
-
-## 5. Los libros cuya circulación está prohibida por la autoridad competente; ni las
-
-láminas, pinturas y estatuas obscenas; ni los impresos condenados como abusivos de
-la libertad de prensa (artículo 1466 del Código Civil).
-
 ## 6. Las cosas cuya adquisición está prohibida por la ley (por ejemplo, explosivos y
+
+**Definición Canónica:** armas prohibidas, artículos 10 y 1466 del Código Civil). 19
+**Concordancias Legales:** artículos 10
 
 armas prohibidas, artículos 10 y 1466 del Código Civil). 19
 
@@ -609,6 +642,9 @@ tercero; iii) Que las cosas comprendidas en este universo, de entre las cuales p
 escogerse, sean de dominio del testador, o a lo menos tenga sobre ellas un derecho,
 
 ## parte o cuota; y iv) Que las cosas que componen tal universo y entre las cuales debe
+
+**Definición Canónica:** realizarse la elección, sean susceptibles de legado. 21
+**Concordancias Legales:** artículo 1122; artículo 1344; artículo 1110; artículos 751; artículo 1126; constitución
 
 realizarse la elección, sean susceptibles de legado. 21
 
@@ -850,6 +886,16 @@ de adquirirla (porque el dueño rehúsa enajenarla o cobra un precio excesivo), 
 obligación es simplemente conjunta y cada uno de los gravados estará obligado a la
 
 ## parte o cuota que le corresponda, sin que la cuota del insolvente grave a los demás. Lo
+
+**Definición Canónica:** propio acontecerá si el legatario adquiere la cosa a título oneroso y reclama el precio
+equitativo (tendría aplicación aquí el art. 1526, número 5). 33
+        A su vez, si el asignatario obligado a prestar (o sea, a pagar) el legado de cosa
+ajena adquiere el bien legado con posterioridad, es obligado a darlo al legatario, quien
+deberá restituir lo que haya recibido por equivalencia (art. 1109).
+        Finalmente, puede presentarse una última situación: que la cosa legada haya
+pasado antes de la muerte del testador al dominio de éste o del asignatario a quien se
+había impuesto el legado; en e
+**Concordancias Legales:** artículo 1576; artículo 1128; artículo 1133; artículo 332; artículos 1134; artículo 332 del Código Civil; artículo 1113; artículo 1110; artículo 1229; artículo 1198; artículo 1104; artículos 1360; artículo 1449 del Código Civil; artículos 1367; artículo 1449; artículo 1364
 
 propio acontecerá si el legatario adquiere la cosa a título oneroso y reclama el precio
 equitativo (tendría aplicación aquí el art. 1526, número 5). 33

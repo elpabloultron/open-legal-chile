@@ -13,11 +13,10 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Colección
-
-             Lenguaje claro
-
 ## Materiales
+
+**Definición Canónica:** DOCENTES     Claudia Poblete Olmedo
+             Guillermo Soto Vergara
 
 DOCENTES     Claudia Poblete Olmedo
              Guillermo Soto Vergara
@@ -77,45 +76,19 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Origen, objetivos y desarrollo del movimiento
-        de lenguaje claro en la Administración Pública
-
-## 13      Capítulo 2
-
-        Política de lenguaje claro en el Poder Judicial
-        y los diversos recursos producidos
-
-## 16      Capítulo 3
-
-        Manual para el uso del lenguaje inclusivo no sexista
-        en el Poder Judicial de Chile
-
-## 39      Capítulo 4
-
-        Análisis de los principales problemas de la comunicación
-        existente entre los usuarios y tribunales
-
-## 46      Capítulo 5
-
-        Estrategias de reformulación y de verificación
-
-## 53      Capítulo 6
-
-        Uso del lenguaje claro en la redacción de sentencias
-        y resolución judiciales: herramientas y ejemplos
-
 ## 62      Capítulo 7
 
-        Recomendaciones para una comunicación clara y efectiva
+**Definición Canónica:** Recomendaciones para una comunicación clara y efectiva
+
+Recomendaciones para una comunicación clara y efectiva
 
 Academia Judicial de Chile                                            Lenguaje claro
 Materiales Docentes                                                       Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Origen, objetivos y desarrollo del movimiento
+de lenguaje claro en la Administración Pública
 
 Origen, objetivos y desarrollo del movimiento
 de lenguaje claro en la Administración Pública
@@ -142,8 +115,11 @@ el ámbito de claridad del lenguaje jurídico en general, y judicial en particul
 inglés claro, hemos llegado hoy a plantearnos y a reconocer un derecho a comprender (Sánchez, 2011: 25-38). Este derecho nace en España
 como una propuesta2 de la Carta de Derechos de los Ciudadanos ante
 
-
 ## 1 Esta premisa ratifica que no basta con exigir el conocimiento de la ley, sino que
+
+**Definición Canónica:** también el Estado debe hacer algo para ese fin.
+ 2 No como una ley propiamente tal.
+**Concordancias Legales:** artículo 11; Ley 063; ley 6367; ley 15.184; Ley 20.285
 
 también el Estado debe hacer algo para ese fin.
  2 No como una ley propiamente tal.
@@ -288,6 +264,11 @@ reglamento señala, en su artículo segundo:
 
 ## 16 Proyecto de Ley, en segundo trámite, que modifica la Ley 20.285 sobre Acceso
 
+**Definición Canónica:** a la Información Pública, con informe de la Comisión de Gobierno, Descentralización y Regionalización. Boletín 12.100-07 disponible en https://bit.ly/3KGvTJM.
+ 17 Disponible en https://bit.ly/3Rz1mzM.
+Academia Judicial de Chile                                            Lenguaje claro
+Materiales Docentes                                                       Capítulo 1
+
 a la Información Pública, con informe de la Comisión de Gobierno, Descentralización y Regionalización. Boletín 12.100-07 disponible en https://bit.ly/3KGvTJM.
  17 Disponible en https://bit.ly/3Rz1mzM.
 Academia Judicial de Chile                                            Lenguaje claro
@@ -324,8 +305,12 @@ redactados por las instituciones públicas con el propósito de incentivar
 la transparencia mediante el uso de un lenguaje claro. A la fecha, la Red
 de Lenguaje Claro de Chile cuenta con más asociados que comparten
 
-
 ## 18 La Pontificia Universidad Católica de Valparaíso, Corte Suprema, Cámara de
+
+**Definición Canónica:** Diputados, Contraloría General de la República, Consejo para la Transparencia,
+Ministerio Secretaría General de la Presidencia y Biblioteca del Congreso Nacional.
+ 19 ​​Disponible en https://bit.ly/3D9pTb5.
+**Concordancias Legales:** Constitución
 
 Diputados, Contraloría General de la República, Consejo para la Transparencia,
 Ministerio Secretaría General de la Presidencia y Biblioteca del Congreso Nacional.
@@ -364,8 +349,12 @@ Poblete, Claudia (2019). Estándares de claridad y precisión jurídica:
   congresosdelalengua.es/cordoba/paneles-ponencias/competitividad/
   poblete-claudia.htm.
 
-
 ## 20 Ministerio Público, Defensoría Nacional, Corporación de Asistencia Judicial
+
+**Definición Canónica:** Valparaíso, Primer Tribunal Ambiental.
+ 21 Forman parte de la Red de Colombia: Departamento Nacional de Planeación,
+Instituto Caro y Cuervo, Departamento Administrativo de la Función Pública, Veeduría Distrital, Agencia Nacional de Defensa Jurídica del Estado, Consejo de Estado,
+Cámara de Representantes, Universidad de los Andes, Universidad Eafit, Universidad Icesi, Universidad del Norte y la Firma de abogados Peña Delgado y García.
 
 Valparaíso, Primer Tribunal Ambiental.
  21 Forman parte de la Red de Colombia: Departamento Nacional de Planeación,
@@ -387,8 +376,10 @@ Sánchez, Ana (2011). Razones y objetivos que motivaron la creación de
 Academia Judicial de Chile                                     Lenguaje claro
 Materiales Docentes                                                Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Política de lenguaje claro en el Poder Judicial
+y los diversos recursos producidos
 
 Política de lenguaje claro en el Poder Judicial
 y los diversos recursos producidos
@@ -441,8 +432,12 @@ términos legales del Poder Judicial de Chile (2018). Un segundo esfuerzo
 de la Comisión de Lenguaje Claro es el libro Propuesta de manual de
 estilo para redacción de sentencias, publicado el 2019.3
 
-
 ## 1 Para representar a Chile en este trabajo, la Corte Suprema designó al ministro
+
+**Definición Canónica:** Carlos Aránguiz Zúñiga.
+ 2 Cumbre Judicial Iberoamericana 2015, disponible en https://bit.ly/3xlTudj.
+ 3 Disponible en https://bit.ly/3TFqYx2.
+**Concordancias Legales:** Constitución
 
 Carlos Aránguiz Zúñiga.
  2 Cumbre Judicial Iberoamericana 2015, disponible en https://bit.ly/3xlTudj.
@@ -462,8 +457,10 @@ Poder Judicial de Chile, Comisión de Lenguaje Claro (2019). Propuesta
 Academia Judicial de Chile                                        Lenguaje claro
 Materiales Docentes                                                   Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Manual para el uso del lenguaje inclusivo
+no sexista en el Poder Judicial de Chile
 
 Manual para el uso del lenguaje inclusivo
 no sexista en el Poder Judicial de Chile
@@ -607,8 +604,13 @@ se recomiendan las expresiones pueblos indígenas y pueblos originarios.
 Se dice que no se deben utilizar las voces etnias ni poblaciones.
    En lo relativo a las personas migrantes, se recomienda no usar este-
 
-
 ## 1 Este uso va contra la norma ortográfica del castellano. La Ortografía académica
+
+**Definición Canónica:** señala: «Los adjetivos y sustantivos que expresan nacionalidad o procedencia geográfica, así como aquellos que designan pueblos o etnias, se escriben siempre con
+minúscula inicial: los aztecas, los maoríes, la cultura mochica, los ciudadanos filipinos». El documento ministerial da dos argumentos en favor de la mayúscula inicial:
+se trata «de un nombre propio» y «así es como lo escriben los miembros de los
+pueblos en los documentos con los que se trabaja en el marco del Programa DEPO»
+(Departamento de Pueblos Originarios).
 
 señala: «Los adjetivos y sustantivos que expresan nacionalidad o procedencia geográfica, así como aquellos que designan pueblos o etnias, se escriben siempre con
 minúscula inicial: los aztecas, los maoríes, la cultura mochica, los ciudadanos filipinos». El documento ministerial da dos argumentos en favor de la mayúscula inicial:
@@ -685,10 +687,17 @@ encanta», «Para nosotras las mujeres Ekco» y «Utensilios y limpiadores
 Academia Judicial de Chile                                                        Lenguaje claro
 Materiales Docentes                                                                   Capítulo 3
 
-
 ## Referencias bibliográficas
 
-         Aloisi, A., De Stefano, V.(2020). "Réglementation et avenir du travail: la
+**Definición Canónica:** Aloisi, A., De Stefano, V.(2020). "Réglementation et avenir du travail: la
+         relation de travail facilite l’innovation". Revue internationale du Travail.
+         159 (1), 53-77.
+         Amaya, A. (2012). Derecho y Literatura . En Aullon de Haro, P (eds.);Teo-
+         ría comparatista y Literatura comparada. Madrid: Verbum.
+         Andrias, K.(2016). "The New Labor Law". Yale Law Journal. 126 (1), 2-101.
+**Concordancias Legales:** ley 21.120; Constitución
+
+Aloisi, A., De Stefano, V.(2020). "Réglementation et avenir du travail: la
          relation de travail facilite l’innovation". Revue internationale du Travail.
          159 (1), 53-77.
          Amaya, A. (2012). Derecho y Literatura . En Aullon de Haro, P (eds.);Teo-
@@ -913,14 +922,16 @@ e: monje, alcalde, sacerdote, rey…   -a, -esa, -isa, -ina: monja, alcaldesa, s
 
 Fase     Forma
 
-## 1        Unisexo                     El juez                Ø
-
-
-## 2        S. común                    El juez                La juez
-
-
 ## 3        S. diferenciado             El juez                La jueza
 
+**Definición Canónica:** (el juez, el diputado). Posteriormente, el sustantivo pasa a ser común (el
+juez, la juez; el diputado, la diputado), para finalmente, tener sustantivos
+diferenciados por género (el juez, la jueza; el diputado, la diputada). La
+tabla 2 sintetiza el proceso.3
+   Una situación especial con respecto a la marcación del género gramatical lo constituyen los sustantivos epicenos. Los sustantivos epicenos
+son aquellos que, designando a seres vivos, tienen una forma única, a la
+que corresponde un solo género gramatical. Pueden, por tanto, referirse
+indistintamente, sin variar, a individuos de uno u otro
 
 (el juez, el diputado). Posteriormente, el sustantivo pasa a ser común (el
 juez, la juez; el diputado, la diputado), para finalmente, tener sustantivos
@@ -941,8 +952,10 @@ o el género social. La palabra persona tiene género gramatical femenino
 tanto si se usa para hablar de una mujer como si se emplea para hablar
 de un varón.
 
-
 ## 3 Como señala el informe, es menos frecuente el caso de profesiones u oficios que
+
+**Definición Canónica:** tradicionalmente ejercían mujeres. Un ejemplo es enfermera, que pasa directamente
+de la fase 1 (unisexo) a la 3 (la enfermera, el enfermero).
 
 tradicionalmente ejercían mujeres. Un ejemplo es enfermera, que pasa directamente
 de la fase 1 (unisexo) a la 3 (la enfermera, el enfermero).
@@ -971,8 +984,17 @@ concuerdan en este punto».
    Si bien en español el género gramatical masculino puede emplearse
 en referencia solo a personas de sexo o género masculino o a personas
 
-
 ## 4 Un breve comentario técnico. Como se explica en Soto (2020), formalmente la
+
+**Definición Canónica:** dicotomía de género gramatical en español establece una oposición privativa. Se
+entiende por oposición privativa aquella en que hay dos términos en una oposición
+en cierto dominio, pero uno de ellos puede designar todo el dominio. Un ejemplo es
+la oposición entre las palabras día y noche. La palabra noche siempre se opone a día.
+La palabra día, en cambio, a veces puede usarse para designar las 24 horas, es decir,
+día y noche. A veces funciona como opuesta a noche («trabaja de día y duerme de
+noche») y en otros casos cubre día más noche, o sea, las 24 horas («hace días que
+no la veo»). La forma
+**Concordancias Legales:** artículo 41; artículo 225; artículo 76; Constitución
 
 dicotomía de género gramatical en español establece una oposición privativa. Se
 entiende por oposición privativa aquella en que hay dos términos en una oposición
@@ -1279,8 +1301,12 @@ Soto, Guillermo (2020). «Género gramatical, sexo y género social». En
 
 Materiales Docentes                                                    Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Análisis de los principales problemas
+de la comunicación existente entre los usuarios
+y tribunales
+**Concordancias Legales:** artículo 22 de la Ley 18.575; artículo 3 ter de la Ley 20.530; artículo 1; artículo 5; artículo 2; artículo 23; Ley 18.575; Ley 20.032; Ley 20.530; ley 3.551; ley 3.058; Ley 19.297; ley 2.546; constitucion
 
 Análisis de los principales problemas
 de la comunicación existente entre los usuarios
@@ -1525,8 +1551,10 @@ Rodríguez, Claudia (2015). La técnica legislativa y el lenguaje claro en la
 
 Materiales Docentes                                                      Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Estrategias de reformulación y de verificación
+**Concordancias Legales:** artículo 15; artículo 44; artículo 2; artículo 5; artículo 64; artículo 19; D.L. N° 1094; D.L. 1094; Constitución; constitucion; Constitución Política
 
 Estrategias de reformulación y de verificación
 
@@ -1787,8 +1815,10 @@ Núñez, Paulina, Astrid Muñoz y Estenka Mihovilovic (2006). Las fun-
 Academia Judicial de Chile                                      Lenguaje claro
 Materiales Docentes                                                Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Uso del lenguaje claro en la redacción de sentencias
+y resolución judiciales: herramientas y ejemplos
 
 Uso del lenguaje claro en la redacción de sentencias
 y resolución judiciales: herramientas y ejemplos
@@ -1864,6 +1894,9 @@ diferentes tipos.
 
 ## 1. Artex. Es un redactor asistido para el español que revisa textos de
 
+**Definición Canónica:** ámbitos especializados3 y también hace sugerencias para textos con enfoque en lenguaje claro, a partir de algunos criterios de claridad (Artex
+claro4). Está disponible en la web y es de consulta gratuita. Se ingresa el
+
 ámbitos especializados3 y también hace sugerencias para textos con enfoque en lenguaje claro, a partir de algunos criterios de claridad (Artex
 claro4). Está disponible en la web y es de consulta gratuita. Se ingresa el
 
@@ -1878,15 +1911,17 @@ Materiales Docentes                                                             
 Nivel o                  Indicadores                  Observaciones (si es necesaria)
 criterio general
 
-## Aspectos lingüísticos
-
-
-I Nivel sintáctico
-
-
 ## 1. Incisos               Los incisos se introducen    Los incisos (entre comas, guiones o
 
-                         en el texto sin cortar       paréntesis) interrumpen la comprensión
+**Definición Canónica:** en el texto sin cortar       paréntesis) interrumpen la comprensión
+                         (o interrumpir) la idea      del conjunto de una oración principal y del
+                         principal del párrafo        parrafo, más aún cuando se intercalan en la
+                                                      idea principal.
+                                                      Se sugiere colocarlos al inicio o al final
+                                                      del párrafo y no al medio de la oración
+                                                      temática.
+
+en el texto sin cortar       paréntesis) interrumpen la comprensión
                          (o interrumpir) la idea      del conjunto de una oración principal y del
                          principal del párrafo        parrafo, más aún cuando se intercalan en la
                                                       idea principal.
@@ -1896,65 +1931,63 @@ I Nivel sintáctico
 
 ## 2. Oración               Las oraciones son breves y Los textos jurídicos utilizan con frecuencia
 
-                         su sintaxis sencilla       oraciones largas que se prolongan de forma
+**Definición Canónica:** su sintaxis sencilla       oraciones largas que se prolongan de forma
                                                     innecesaria al intercalar múltiples incisos y
                                                     perífrasis.
 
-## 3. Orden S-V-C           Las oraciones siguen         Este criterio es muy relevante en las ideas
-
-                         el orden lógico del          centrales del párrafo y texto.
-                         español: sujeto-verbo-
-                         complementos
+su sintaxis sencilla       oraciones largas que se prolongan de forma
+                                                    innecesaria al intercalar múltiples incisos y
+                                                    perífrasis.
 
 ## 4. Oración               La presencia de oraciones    Se sugiere evitar la concatenación excesiva
+
+**Definición Canónica:** subordinada              subordinadas es menor        de frases subordinadas. Es preferible
+                         que las oraciones simples    dividir las oraciones para así fragmentar la
+                                                      información y facilitar la lectura.
+II Nivel superestructural y macroestructural (estructura del texto y significado global)
 
 subordinada              subordinadas es menor        de frases subordinadas. Es preferible
                          que las oraciones simples    dividir las oraciones para así fragmentar la
                                                       información y facilitar la lectura.
 II Nivel superestructural y macroestructural (estructura del texto y significado global)
 
-
-## 5. Títulos               El texto se inicia con
-
-                         un encabezado o título
-                         que contiene la idea o
-                         significado global del
-                         documento o párrafo
-
-## 6. Encabezados           Usa encabezados para         En documentos extensos (informes) se
-
-                         organizar el documento en    sugiere incorporar encabezados para crear
-                         secciones o apartados        la tabla de contenidos del documento.
-
-## 7. Subtítulos            Hay subtítulos para
-
-                         organizar el texto
-
 ## 8. Resumen               Incluye un resumen o         El cierre del texto o de cada apartado
 
-                         epígrafe con esta función    pueden resumir los aspectos principales del
+**Definición Canónica:** epígrafe con esta función    pueden resumir los aspectos principales del
+                         al inicio o al cierre del    documento (Houses of Parliament, 2017).
+                         documento
+
+epígrafe con esta función    pueden resumir los aspectos principales del
                          al inicio o al cierre del    documento (Houses of Parliament, 2017).
                          documento
 
 ## 9. Marcadores            Se utilizan marcadores       Estos recursos son necesarios para
+
+**Definición Canónica:** discursivos y            discursivos y conectores.    organizar el texto y permiten relacionar las
+conectores                                            ideas del párrafo lo que facilita que el lector
+                                                      pueda reconstruir la organización del texto
+                                                      y de sus apartados.
 
 discursivos y            discursivos y conectores.    organizar el texto y permiten relacionar las
 conectores                                            ideas del párrafo lo que facilita que el lector
                                                       pueda reconstruir la organización del texto
                                                       y de sus apartados.
 
-## 10. Párrafo y unidad     Los párrafos contienen una
-
-temática                 sola unidad temática (idea
-                         principal)
-
 ## 11. Párrafos             Los párrafos tienen al    Se sugiere evitar los párrafos de una sola
+
+**Definición Canónica:** unioracionales           menos tres oraciones (una oración, ya que resultan telegráficos y con
+                         es la temática y otras de poca independencia o cierre semántico.
+                         apoyo)
 
 unioracionales           menos tres oraciones (una oración, ya que resultan telegráficos y con
                          es la temática y otras de poca independencia o cierre semántico.
                          apoyo)
 
 ## 12. Párrafos de          Utiliza viñetas para         Se sugiere en estos casos, ordenar la
+
+**Definición Canónica:** enumeración              enumerar en los párrafos     enumeración en forma de lista con viñetas,
+                         extensos                     letras, romanitos u otro recurso para
+                                                      facilitar la lectura.
 
 enumeración              enumerar en los párrafos     enumeración en forma de lista con viñetas,
                          extensos                     letras, romanitos u otro recurso para
@@ -1968,18 +2001,11 @@ criterio general
 
 III Nivel léxico
 
-## 13. Tecnolecto        Hay tecnicismos, pero se      Se sugiere evitar los tecnicismos que no son
-
-                      definen o reformulan          fundamentales y más aún si no se utiliza
-                                                    alguna estrategia discursiva para aclararlos.
-
-## 14. Arcaísmos         No hay presencia de           Se recomienda sustituirlos por palabras de
-
-                      arcaísmos innecesarios o      uso regular o explicarlos.
-                      los que hay se explican o
-                      definen
-
 ## 15. Locuciones        No hay presencia de        Se recomienda sustituirlos por palabras
+
+**Definición Canónica:** latinas               locuciones latinas         de uso regular, explicarlas o agregar su
+                      innecesarias o los que hay traducción entre paréntesis.
+                      se explican o definen
 
 latinas               locuciones latinas         de uso regular, explicarlas o agregar su
                       innecesarias o los que hay traducción entre paréntesis.
@@ -1987,7 +2013,18 @@ latinas               locuciones latinas         de uso regular, explicarlas o a
 
 ## 16. Abreviaturas      Las abreviaturas del
 
-                      documento están con su
+**Definición Canónica:** documento están con su
+                      significado (o no se usan
+                      abreviaturas)
+IV Nivel gramatical
+17. Gerundios         No hay exceso de              Los gerundios recargan la redacción,
+                      gerundios en el texto         además, se sugiere evitarlos por el
+                                                    significado mismo que conllevan que es una
+                                                    acción no finalizada, sino que en curso, por
+                                                    tanto poco precisa para documentos que
+             
+
+documento están con su
                       significado (o no se usan
                       abreviaturas)
 IV Nivel gramatical
@@ -2000,6 +2037,13 @@ IV Nivel gramatical
 
 ## 18. Forma activa de   Privilegia las oraciones en   Las oraciones en voz activa se perciben
 
+**Definición Canónica:** las oraciones (voz    voz activa                    como más directas y menos rebuscadas
+activa)                                             por el lector. Si bien la voz pasiva como
+                                                    construcción verbal es correcta, su uso
+                                                    es poco frecuente en la lengua española
+                                                    actual y por ello distancia el lenguaje del
+                                                    ciudadano.
+
 las oraciones (voz    voz activa                    como más directas y menos rebuscadas
 activa)                                             por el lector. Si bien la voz pasiva como
                                                     construcción verbal es correcta, su uso
@@ -2009,7 +2053,13 @@ activa)                                             por el lector. Si bien la vo
 
 ## 19. Subjuntivo        se evita el uso del modo      El futuro simple y el futuro compuesto del
 
-                      subjuntivo en sus formas      subjuntivo han caído en desuso y han sido
+**Definición Canónica:** subjuntivo en sus formas      subjuntivo han caído en desuso y han sido
+                      arcaicas                      reemplazados por otras formas. Hoy se
+                                                    considera un rasgo arcaizante solo propio
+                                                    de los textos jurídicos y administrativos
+                                                    (Álvarez, 2002: 54).
+
+subjuntivo en sus formas      subjuntivo han caído en desuso y han sido
                       arcaicas                      reemplazados por otras formas. Hoy se
                                                     considera un rasgo arcaizante solo propio
                                                     de los textos jurídicos y administrativos
@@ -2017,12 +2067,23 @@ activa)                                             por el lector. Si bien la vo
 
 ## 20. Indicativo        Se privilegia el uso del      Las oraciones con un grado de certeza
 
-                      modo indicativo por           mayor se asocian únicamente al indicativo
+**Definición Canónica:** modo indicativo por           mayor se asocian únicamente al indicativo
+                      sobre la forma arcaica del    (Congreso de la República del Perú, 2017:
+                      subjuntivo                    17-18); las más improbables al subjuntivo (Di
+                                                    Tullio, 2010).
+
+modo indicativo por           mayor se asocian únicamente al indicativo
                       sobre la forma arcaica del    (Congreso de la República del Perú, 2017:
                       subjuntivo                    17-18); las más improbables al subjuntivo (Di
                                                     Tullio, 2010).
 
 ## 21. Pronombres y      Los pronombres del texto      Se sugiere evitar el uso excesivo de
+
+**Definición Canónica:** referentes            hacen referencia clara a su   pronombres, ya que dada la extensión
+                      referente y no se generan     característica del texto jurídico, resultan
+                      ambigüedades                  ambiguos por ser difícil determinar sus
+                                                    referentes.
+V Nivel pragmático
 
 referentes            hacen referencia clara a su   pronombres, ya que dada la extensión
                       referente y no se generan     característica del texto jurídico, resultan
@@ -2030,13 +2091,12 @@ referentes            hacen referencia clara a su   pronombres, ya que dada la e
                                                     referentes.
 V Nivel pragmático
 
-## 22. Propósito         El documento establece
-
-                      claramente el propósito
-
 ## 23. Audiencia         El documento se enfoca en
 
-                      la audiencia a la que está
+**Definición Canónica:** la audiencia a la que está
+                      dirigida
+
+la audiencia a la que está
                       dirigida
 
 Academia Judicial de Chile                                                          Lenguaje claro
@@ -2049,7 +2109,15 @@ es una de sus características centrales y esta propuesta se enfoca en este tipo
 
 ## 24. Párrafos           Los párrafos del        Si bien no existe una regla o norma al
 
-                       documento no sobrepasan respecto en el español, sí se considera
+**Definición Canónica:** documento no sobrepasan respecto en el español, sí se considera
+                       las diez líneas         que un párrafo no debería sobrepasar de
+                                               ocho a diez líneas de extensión (Montolío
+                                               y Tascón, 2020). El destinatario no puede
+                                               retener tanta información por bloque. Lo
+                                               anterior se replica en otros idiomas debido
+                                               a la dificultad para entender párrafos largos
+
+documento no sobrepasan respecto en el español, sí se considera
                        las diez líneas         que un párrafo no debería sobrepasar de
                                                ocho a diez líneas de extensión (Montolío
                                                y Tascón, 2020). El destinatario no puede
@@ -2065,6 +2133,14 @@ interpretaciones erróneas.
 
 ## 25. Puntuación de      Tiene puntos seguidos        Debemos hacer la salvedad de que en
 
+**Definición Canónica:** párrafos               y comas bien ubicadas        algunas ocasiones en los documentos
+                       según la norma para          legislativos un párrafo puede terminar
+                       separar las oraciones.       en una coma, un punto y coma, dos
+                                                    puntos o ningún signo de puntuación. Lo
+                                                    anterior se debe a que el párrafo inicia una
+                                                    introducción a una enumeración o lista que
+                                                   
+
 párrafos               y comas bien ubicadas        algunas ocasiones en los documentos
                        según la norma para          legislativos un párrafo puede terminar
                        separar las oraciones.       en una coma, un punto y coma, dos
@@ -2075,27 +2151,15 @@ párrafos               y comas bien ubicadas        algunas ocasiones en los do
                                                     encontrar la información de manera rápida,
                                                     por ejemplo, los artículos de leyes.
 
-## 26. Comas (,) frases   Las comas de las frases
-
-intercaladas           intercaladas están de
-                       acuerdo con la norma
-                       académica
-
-## 27. Comas (,) en       Las comas antes o
-
-conectores y           después de los conectores
-marcadores             se ubican según la norma
-
-
-## 28. Coma (,)           No hay coma entre sujeto
-
-antinormativa          y verbo
-VIII Estilo
-
-
 ## 29. Mayúsculas         Usa las mayúsculas en los    Se sugiere evitar el uso excesivo de las
 
-                       nombres propios o en las     mayúsculas para escribir el uso genérico
+**Definición Canónica:** nombres propios o en las     mayúsculas para escribir el uso genérico
+                       de «respeto»                 de nombres comunes como: instituciones,
+                                                    cargos, tratamientos (diputado o senador) y
+                                                    otras que tienen valor de nombres comunes
+                                                    (ley).
+
+nombres propios o en las     mayúsculas para escribir el uso genérico
                        de «respeto»                 de nombres comunes como: instituciones,
                                                     cargos, tratamientos (diputado o senador) y
                                                     otras que tienen valor de nombres comunes
@@ -2103,18 +2167,21 @@ VIII Estilo
 
 ## 30. Negatividad        El documento privilegia      Este criterio es relevante en el contexto
 
-                       un estilo afirmativo y no    de los documentos cuyo destinatario son
+**Definición Canónica:** un estilo afirmativo y no    de los documentos cuyo destinatario son
                        punitivo                     usuarios que deben cumplir requisitos para
                                                     algún trámite que por lo general no hace a
                                                     gusto.
 
-## Aspectos no lingüísticos
-
-
-IX Gráfica. Este estándar incluye los aspectos gráficos del documento. El diseño refuerza el
-significado y facilita que la audiencia encuentre y use la información.
+un estilo afirmativo y no    de los documentos cuyo destinatario son
+                       punitivo                     usuarios que deben cumplir requisitos para
+                                                    algún trámite que por lo general no hace a
+                                                    gusto.
 
 ## 31. Tipo de letra      Usa letra Arial, Calibri u   Las fuentes tipo sans serif son más fáciles
+
+**Definición Canónica:** (fuente)               otra sans serif              de leer en pantalla y papel, pues no poseen
+                                                    terminaciones alargadas y se ven como
+                                                    líneas rectas nítidas y sin adornos.
 
 (fuente)               otra sans serif              de leer en pantalla y papel, pues no poseen
                                                     terminaciones alargadas y se ven como
@@ -2126,24 +2193,24 @@ Materiales Docentes                                                             
 Nivel o              Indicadores                  Observaciones (si es necesaria)
 criterio general
 
-## 32. Tamaño de la     La letra del texto es        Es el tamaño de letra recomendada para la
-
-fuente               tamaño 12 o superior         lectura en papel para personas mayores de
-                                                  cuarenta años.
-
 ## 33. Interlineado     Usa interlineado 1,5 o
 
-                     superior
+**Definición Canónica:** superior
 X Criterios adicionales. No son primordiales en nuestra propuesta por las razones que ya
 hemos mencionado. No obstante, los incluimos como un complemento para aquellos casos que
 deseen incorporar este estándar.
 
-## 34. Legibilidad:     Las palabras del texto son   Usa palabras simples y evita las
-
-palabras             cortas                       compuestas o derivadas.
-
+superior
+X Criterios adicionales. No son primordiales en nuestra propuesta por las razones que ya
+hemos mencionado. No obstante, los incluimos como un complemento para aquellos casos que
+deseen incorporar este estándar.
 
 ## 35. Legibilidad:     Las oraciones son cortas y Solo mencionamos como referente que la
+
+**Definición Canónica:** oraciones            no largas                  longitud promedio de la oración en inglés es
+                                                de quince a veinte palabras según la Guía
+                                                de Oxford para el lenguaje claro de Martin
+                                                Cutts.
 
 oraciones            no largas                  longitud promedio de la oración en inglés es
                                                 de quince a veinte palabras según la Guía
@@ -2155,11 +2222,19 @@ de veinte criterios de claridad. 5
 
 ## 2. Estilector. Inicialmente fue un programa de ayuda para la redacción
 
+**Definición Canónica:** de textos académicos, pero con el tiempo se ha extendido a otros tipos
+de usuarios. Estilector analiza el texto y detecta problemas de tipo textual y sugiere mejoras. En la nueva versión (2022), el programa incluso
+hace algunas correcciones ortográficas.6
+
 de textos académicos, pero con el tiempo se ha extendido a otros tipos
 de usuarios. Estilector analiza el texto y detecta problemas de tipo textual y sugiere mejoras. En la nueva versión (2022), el programa incluso
 hace algunas correcciones ortográficas.6
 
 ## 3. Clara. Se trata de una aplicación disponible en la web que permite
+
+**Definición Canónica:** poner el texto y lo analiza según nueve criterios de claridad y entrega
+sugerencias.7
+**Concordancias Legales:** Artículo 4; artículo 17; artículo 107 del Código Tributario; artículo 97; Artículo 8; artículos 20; Artículo 39; artículo 14 de la Ley; artículo 19; artículo 14; Ley 3.500
 
 poner el texto y lo analiza según nueve criterios de claridad y entrega
 sugerencias.7
@@ -2372,8 +2447,11 @@ Materiales Docentes                                                             
 
 Materiales Docentes                                                      Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Recomendaciones para una comunicación
+clara y efectiva
+**Concordancias Legales:** artículo 269 del Código de Procedimiento Civil. En el; artículo 269 del Código de Procedimiento Civil. Lo me; artículo 269 del Código de Procedimiento Civil. En este ca
 
 Recomendaciones para una comunicación
 clara y efectiva
@@ -2566,7 +2644,10 @@ o para estacar cosas:
 
 ## Proveído por el señor presidente del tribunal cons-
 
-      TITUCIONAL. AUTORIZA LA SEÑORA SECRETARIA.
+**Definición Canónica:** TITUCIONAL. AUTORIZA LA SEÑORA SECRETARIA.
+**Concordancias Legales:** Constitucion
+
+TITUCIONAL. AUTORIZA LA SEÑORA SECRETARIA.
 
    Si bien algunos formalismos se siguen por tradición, lo importante
 es que también se consideren recomendaciones para aclarar los textos y

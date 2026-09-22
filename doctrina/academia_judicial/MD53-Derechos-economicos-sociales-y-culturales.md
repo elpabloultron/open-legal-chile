@@ -13,20 +13,20 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 53           Derechos
-
-             económicos,
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             sociales
+                  electrónica
+             y culturales
+                  de causas
+             Regina Ingrid Díaz Tolosa
+             Alejandra Pérez Ceballos
+             Juan Pablo Díaz Fuenzalida
+             Rodrigo Poyanco Bugueño
+**Concordancias Legales:** Constitucion
 
-                  Tramitación
+Tramitación
              sociales
                   electrónica
              y culturales
@@ -101,36 +101,12 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Introducción a los derechos económicos,
-        sociales y culturales: Base conceptual, histórica
-        y caracterización
-
-## 37      Capítulo 2
-
-        Principales instrumentos internacionales, universales
-        y regionales relativos a los derechos económicos, sociales
-        y culturales, aplicables en Chile
-
-## 71      Capítulo 3
-
-        Obligaciones estatales relativas a los DESC
-        y mecanismos internacionales de seguimiento
-
-## 117     Capítulo 4
-
-        Justiciabilidad de los derechos económicos, sociales
-        y culturales y desafíos para el futuro
-
-## 152     Referencias
-
-
-Materiales Docentes                                                    Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Introducción a los derechos económicos,
+sociales y culturales: Base conceptual, histórica
+y caracterización
+**Concordancias Legales:** artículos 22; constitucion; Constitución
 
 Introducción a los derechos económicos,
 sociales y culturales: Base conceptual, histórica
@@ -457,6 +433,13 @@ integrado todos los derechos» (ACNUDH, 2009: 10-11).
 
 ## 6 En este sentido, y referenciando a las opiniones y jurisprudencia de las cortes
 
+**Definición Canónica:** internacionales en la materia, la propia Corte IDH refuerza el concepto de DESC
+de manera ampliada, reconoce los derechos ambientales (DESCA) y destaca las características de interdependencia e indivisibilidad de los derechos humanos: «En
+la sentencia del caso Lagos del Campo vs. Perú, la Corte [...] reiteró la interdependencia entre los derechos civiles y políticos y los derechos económicos, sociales,
+culturales y ambientales, puesto que deben ser entendidos integralmente y de forma conglobada como derechos humanos, sin jerarquía entre sí y exigibles en todos
+los casos ante aquellas autoridad
+**Concordancias Legales:** artículos 2; artículo 10; artículo 19; artículo 2 del PIDESC y del Comité DESC; artículo 2; Constitución; Constitucion
+
 internacionales en la materia, la propia Corte IDH refuerza el concepto de DESC
 de manera ampliada, reconoce los derechos ambientales (DESCA) y destaca las características de interdependencia e indivisibilidad de los derechos humanos: «En
 la sentencia del caso Lagos del Campo vs. Perú, la Corte [...] reiteró la interdependencia entre los derechos civiles y políticos y los derechos económicos, sociales,
@@ -654,17 +637,24 @@ el máximo de los recursos de que disponga», entendiendo que se conjugan divers
 sociales, como la realidad social, histórica y política de un Estado en un
 momento determinado, así como sus capacidades en recursos de diversa índole para lograr satisfacerlas.
 
-
 ## 2. Los Estados partes en el presente Pacto se comprometen a garantizar
 
-      el ejercicio de los derechos que en él se enuncian, sin discriminación
+**Definición Canónica:** el ejercicio de los derechos que en él se enuncian, sin discriminación
+      alguna por motivos de raza, color, sexo, idioma, religión, opinión po-
+      lítica o de otra índole, origen nacional o social, posición económica,
+      nacimiento o cualquier otra condición social.
+
+el ejercicio de los derechos que en él se enuncian, sin discriminación
       alguna por motivos de raza, color, sexo, idioma, religión, opinión po-
       lítica o de otra índole, origen nacional o social, posición económica,
       nacimiento o cualquier otra condición social.
 
 ## 3. Los países en desarrollo, teniendo debidamente en cuenta los dere-
 
-      chos humanos y su economía nacional, podrán determinar en qué me-
+**Definición Canónica:** chos humanos y su economía nacional, podrán determinar en qué me-
+**Concordancias Legales:** artículo 26; artículo 5 del Protocolo Adicional a la Convención Americana; artículo 21 de la Convención Ame
+
+chos humanos y su economía nacional, podrán determinar en qué me-
 
  8 Comité DESC, Observación General 13, 1999, pág. 3.
 
@@ -720,7 +710,17 @@ refuerza la Corte IDH:
 
 ## parte del Comité de Derechos Económicos, Sociales y Culturales de las
 
-      Naciones Unidas, en el sentido de que la plena efectividad de aquellos
+**Definición Canónica:** Naciones Unidas, en el sentido de que la plena efectividad de aquellos
+      «no podrá lograrse en un breve período de tiempo» y que, en esa me-
+      dida, «requiere un dispositivo de flexibilidad necesaria que refleje las
+      realidades del mundo [...] y las dificultades que implica para cada país
+      el asegurar [dicha] efectividad». En el marco de dicha flexibilidad en
+      cuanto a plazo y modalidades, el Estado tendrá esencialmente, aunque
+      no exclusivamente, una obligación de hacer, es decir, de adoptar provi-
+      dencias y brindar los medios y elementos necesarios para resp
+**Concordancias Legales:** Artículo 26; artículos 6; artículo 8; artículo 9; artículo 11; artículo 12; artículos 11; artículo 1; Constitucion
+
+Naciones Unidas, en el sentido de que la plena efectividad de aquellos
       «no podrá lograrse en un breve período de tiempo» y que, en esa me-
       dida, «requiere un dispositivo de flexibilidad necesaria que refleje las
       realidades del mundo [...] y las dificultades que implica para cada país
@@ -867,8 +867,10 @@ La Organización de las Naciones Unidas en su Declaración Universal
 sobre la Diversidad Cultural del 200110 recalca los principios transversales en el reconocimiento de la identidad humana, la diversidad cultural
 y el pluralismo, estableciendo que la diversidad cultural es un patrimonio común en la humanidad, descrito en esos términos en su artículo 1:
 
-
 ## 10 Declaración adoptada por la 31.ª Reunión de la Conferencia General de la
+
+**Definición Canónica:** UNESCO, París, 2 de noviembre de 2001.
+**Concordancias Legales:** artículos 1; artículo 18 del PIDESC el uso de acepciones como hijos o padr; artículo 3 del PIDESC señala que
 
 UNESCO, París, 2 de noviembre de 2001.
 
@@ -921,6 +923,14 @@ Pacto se comprometen a asegurar a los hombres y a las mujeres igual
 
 ## título a gozar de todos los derechos económicos, sociales y culturales
 
+**Definición Canónica:** enunciados en el presente Pacto».
+   Progresivamente se han firmado diversos instrumentos, acuerdos y
+declaraciones que han establecido un resguardo a los derechos fundamentales en un plano de igualdad de género y a los derechos de hombres, mujeres, personas identificadas con la comunidad LGTBIQ+ y
+niños, niñas y adolescentes (NNA). Destacan la Convención sobre la
+Eliminación de todas las Formas de Discriminación contra la Mujer
+(1979) y su Protocolo facultativo (1999); la Convención de los Derechos
+del Niño (1989) y sus tres Protocolos Facultativos (2000); la Convención Interamericana para Pr
+
 enunciados en el presente Pacto».
    Progresivamente se han firmado diversos instrumentos, acuerdos y
 declaraciones que han establecido un resguardo a los derechos fundamentales en un plano de igualdad de género y a los derechos de hombres, mujeres, personas identificadas con la comunidad LGTBIQ+ y
@@ -946,8 +956,10 @@ recordar:
   La Organización de las Naciones Unidas nos entrega un concepto de
 género, en específico según lo preceptuado por la Organización para
 
-
 ## 12 Organización Mundial de la Salud, La salud sexual y su relación con la salud
+
+**Definición Canónica:** reproductiva: Un enfoque operativo, 2008, p. 3. Disponible en https://bit.ly/3awiaI3.
+**Concordancias Legales:** artículo 1.1 de la Convención Americana; artículo 29; artículo 4; artículo 2 de la Declaración Universal de Derechos Humanos señ; artículo 26; Ley 21.120
 
 reproductiva: Un enfoque operativo, 2008, p. 3. Disponible en https://bit.ly/3awiaI3.
 
@@ -1019,8 +1031,10 @@ enfoques y las opiniones que enriquecen el debate.
       nacional o social, posición económica, nacimiento o cualquier otra con-
       dición social.
 
-
 ## 14 Poder Judicial, Cuaderno de buenas prácticas para incorporar la perspectiva de
+
+**Definición Canónica:** género en las sentencias, 2019, pág. 153. Disponible en https://bit.ly/3PfrKO1.
+**Concordancias Legales:** artículo 1 de la Convención Americana sobre Derechos Humanos r; artículo 1
 
 género en las sentencias, 2019, pág. 153. Disponible en https://bit.ly/3PfrKO1.
 
@@ -1099,6 +1113,9 @@ bit.ly/3vqw59U.
 
 ## 17 Dictada el año 2005, relativa a «La igualdad de derechos del hombre y la mujer
 
+**Definición Canónica:** al disfrute de los derechos económicos, sociales y culturales».
+**Concordancias Legales:** artículo 10 del CEDAW y artículo 15 del PIDESC. Estos temas s; artículo 12 del PIDESC y la Recomendación General 22
+
 al disfrute de los derechos económicos, sociales y culturales».
 
        El Comité de Derechos Económicos, Sociales y Culturales ha tomado
@@ -1135,9 +1152,13 @@ las mujeres basada en estereotipos de género:
 
 Materiales Docentes                                                        Capítulo 1
 
-
 ## LGBTIQ+ y DESC
 
+**Definición Canónica:** El término LGBTIQ+ es la sigla con la que se reconoce a la comunidad
+de personas lesbianas, gays, bisexuales, trans (transgénero y transexuales), intersexuales y otras identidades (representadas por el signo +).
+   Las personas que se reconocen pertenecientes a la comunidad LGBTIQ+ (también nombrada como LGBTIQ, LGBT, LGBTI+), son consideradas titulares específicas de ciertos derechos y garantías.
+   Los Principios de Yogyakarta constituyen, en la actualidad, una referencia relevante para la comprensión jurídica de la población LGBTIQ+, debido a que en su elaboración intervinieron expertos y e
+**Concordancias Legales:** artículos 2
 
 El término LGBTIQ+ es la sigla con la que se reconoce a la comunidad
 de personas lesbianas, gays, bisexuales, trans (transgénero y transexuales), intersexuales y otras identidades (representadas por el signo +).
@@ -1169,10 +1190,17 @@ señalado en sus párrafos 90 y 93:
 
  18 Principios de Yogyakarta, 2006, párr. 1.
 
-
 ## 90. La Corte Interamericana ha reconocido que las personas LGBTI
 
-      han sido históricamente víctimas de discriminación estructural, estig-
+**Definición Canónica:** han sido históricamente víctimas de discriminación estructural, estig-
+      matización, diversas formas de violencia y violaciones a sus derechos
+      fundamentales. En este sentido, ya ha establecido que la orientación
+      sexual, identidad de género o expresión de género de la persona son
+      categorías protegidas por la Convención. En consecuencia, el Estado no
+      puede actuar en contra de una persona por motivo de su orientación
+      sexual, su identidad de género y/o su expresión de género […].
+
+han sido históricamente víctimas de discriminación estructural, estig-
       matización, diversas formas de violencia y violaciones a sus derechos
       fundamentales. En este sentido, ya ha establecido que la orientación
       sexual, identidad de género o expresión de género de la persona son
@@ -1182,7 +1210,16 @@ señalado en sus párrafos 90 y 93:
 
 ## 93. La violencia contra las personas LGBTI tiene un fin simbólico, la
 
-      víctima es elegida con el propósito de comunicar un mensaje de exclu-
+**Definición Canónica:** víctima es elegida con el propósito de comunicar un mensaje de exclu-
+      sión o de subordinación. Sobre este punto, la Corte ha señalado que la
+      violencia ejercida por razones discriminatorias tiene como efecto o pro-
+      pósito el de impedir o anular el reconocimiento, goce o ejercicio de los
+      derechos humanos y libertades fundamentales de la persona objeto de
+      dicha discriminación, independientemente de si dicha persona se autoi-
+      dentifica o no con una determinada categoría. Esta violencia, alimenta-
+      da por discursos de odio, puede dar lugar a crímenes de odio
+
+víctima es elegida con el propósito de comunicar un mensaje de exclu-
       sión o de subordinación. Sobre este punto, la Corte ha señalado que la
       violencia ejercida por razones discriminatorias tiene como efecto o pro-
       pósito el de impedir o anular el reconocimiento, goce o ejercicio de los
@@ -1219,8 +1256,13 @@ de género en esta, para determinar su eficiencia o la necesidad de refuerzo con
 Academia Judicial de Chile                     Derechos económicos, sociales y culturales
 Materiales Docentes                                                            Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Principales instrumentos internacionales,
+universales y regionales relativos a los derechos
+económicos, sociales y culturales, aplicables
+en Chile
+**Concordancias Legales:** Artículo 5 de la Constitución Política de la República actual; artículo 5 de la Carta Fundamental chilena. En efecto; artículo 5; artículo 5 de la Constitución; Artículo 135 de la Constitución Política de la República actual; artículo 135; artículo 26; artículo 27; artículo 46; Constitución Política; constitucion; Constitución
 
 Principales instrumentos internacionales,
 universales y regionales relativos a los derechos
@@ -1316,8 +1358,13 @@ lo dispuesto en el artículo 46».4
 de tratados internacionales sobre derechos humanos. Así, Díaz Tolosa
 (2013) nos recuerda:
 
-
 ## 2 Naciones Unidas, «Vienna Convention on the Law of Treaties». Disponible en
+
+**Definición Canónica:** https://bit.ly/3nZZCDe.
+ 3 Decreto Supremo 381, Ministerio de Relaciones Exteriores, 22 de junio de 1981.
+Disponible en https://bit.ly/3bYGGSo.
+ 4 Naciones Unidas, «Vienna Convention on the Law of Treaties».
+**Concordancias Legales:** artículo 63; artículo 27.7; Constitución; Constitucion
 
 https://bit.ly/3nZZCDe.
  3 Decreto Supremo 381, Ministerio de Relaciones Exteriores, 22 de junio de 1981.
@@ -1388,11 +1435,12 @@ salud, educación y cultura (tablas 1).
  5 Reglamento General de la Convención Constitucional, versión actualizada, 2022.
 Disponible en https://bit.ly/3z1S88Z.
 
-## 6 Véase en anexo el listado de las iniciativas aprobadas en general por la Comisión
-
-sobre Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía.
-
 ## 7 Pacto Internacional de Derechos Económicos, Sociales y Culturales. Disponible
+
+**Definición Canónica:** en: https://bit.ly/3Bz2pLg.
+ 8 Decreto 326 del Ministerio de Relaciones Exteriores. Disponible en https://bit.
+ly/3axYSlH.
+**Concordancias Legales:** artículo 6; artículo 7; artículo 8; artículo 9; artículo 10; artículo 11; artículo 13; artículo 16; artículo 74.2.11; constitución
 
 en: https://bit.ly/3Bz2pLg.
  8 Decreto 326 del Ministerio de Relaciones Exteriores. Disponible en https://bit.
@@ -1586,6 +1634,14 @@ Chile12 y, sumando su vigencia internacional, también es parte del ordenamiento
 
 ## 10 Naciones Unidas, «Treaty collection: Status of treaties». Disponible en https://
 
+**Definición Canónica:** bit.ly/3IC0HdX.
+ 11 Convención Americana sobre Derechos Humanos. Disponible en https://bit.
+ly/3U1QYmj.
+ 12 Decreto 873 del Ministerio de Relaciones Exteriores. Disponible en https://bit.
+ly/3aCi5m4.
+Materiales Docentes                                                       Capítulo 2
+**Concordancias Legales:** artículo 26; artículo 34
+
 bit.ly/3IC0HdX.
  11 Convención Americana sobre Derechos Humanos. Disponible en https://bit.
 ly/3U1QYmj.
@@ -1678,48 +1734,13 @@ Derechos               Artículo   Materia
 Derechos                     6    Derecho al trabajo
 económicos
 
-## 7    Condiciones justas, equitativas y satisfactorias de trabajo
-
-
-
-## 8    Derechos sindicales
-
-
-Derechos                     9    Derecho a la seguridad social
-sociales
-
-## 10   Derecho a la salud
-
-
-
-## 11   Derecho a un medio ambiente sano
-
-
-
-## 12   Derecho a la alimentación
-
-
-
-## 15   Derecho a la constitución y protección de la familia
-
-
-
-## 16   Derecho de la niñez
-
-
-
-## 17   Protección de los ancianos
-
-
-
-## 18   Protección de los minusválidos
-
-
-Derechos                     13   Derecho a la educación
-culturales
-
 ## 14   Derecho a los beneficios de la cultura
 
+**Definición Canónica:** el Poder Ejecutivo y el Legislativo. Para el Poder Judicial puede servir de
+referencia, pero en concordancia o basada en la normativa nacional —ya
+sea constitucional, legal o reglamentaria— o la normativa internacional
+que haya ratificado Chile, siempre y cuando esta se encuentre vigente.
+**Concordancias Legales:** artículo 23; artículo 24; artículo 22; artículo 25; artículo 26; artículo 27; artículo 2; artículo 3; artículo 4; artículo 5; artículo 9; artículo 19 de la Constitución de la Orga; artículo 1; artículo 6; artículo 7; constitucion; Constitución
 
 el Poder Ejecutivo y el Legislativo. Para el Poder Judicial puede servir de
 referencia, pero en concordancia o basada en la normativa nacional —ya
@@ -2119,9 +2140,9 @@ Artículo              Materia
 
 13-19                 Parte II. Tierras
 
-
 ## 20                    Parte III. Contratación y condiciones de empleo
 
+**Definición Canónica:** 21-23                 Parte IV. Formación profesional, artesanía e industrias rurales
 
 21-23                 Parte IV. Formación profesional, artesanía e industrias rurales
 
@@ -2129,13 +2150,10 @@ Artículo              Materia
 
 26-31                 Parte VI. Educación y medios de comunicación
 
-
-## 32                    Parte VII. Contactos y cooperación a través de las fronteras
-
-
-
 ## 33                    Parte VIII. Administración
 
+**Definición Canónica:** 34-35                 Parte IX. Disposiciones generales
+**Concordancias Legales:** artículo 1; artículo 1.2 de la Convención
 
 34-35                 Parte IX. Disposiciones generales
 
@@ -2210,9 +2228,17 @@ Materiales Docentes                                                             
 Artículos     Materia
 1-6           Parte I. Alcance y definiciones
 
-
 ## 7             Parte II. No discriminación en el reconocimiento de derechos
 
+**Definición Canónica:** 8-35          Parte III. Derechos humanos de todos los trabajadores migratorios y de sus
+              familiares
+36-56         Parte IV. Otros derechos de los trabajadores migratorios y sus familiares que
+              estén documentados o se encuentren en situación regular
+57-63         Parte V. Disposiciones aplicables a categorías particulares de trabajadores
+              migratorios y sus familiares
+64-71         Parte VI. Promoción de condiciones satisfactorias, equitativas, dignas y lícitas en
+              relación con la migración internacional de los trabajadores y sus familiares
+72
 
 8-35          Parte III. Derechos humanos de todos los trabajadores migratorios y de sus
               familiares
@@ -2226,50 +2252,23 @@ Artículos     Materia
 
 79-84         Parte VIII. Disposiciones generales
 
-
 ## Parte IX. Disposiciones finales
 
+**Definición Canónica:** Tabla 10. Derechos Humanos de los trabajadores migratorios y sus familiares
+     mencionados en la Convención Internacional sobre la Protección de los Derechos
+                 de todos los Trabajadores Migratorios y de sus Familiares
 
-      Tabla 10. Derechos Humanos de los trabajadores migratorios y sus familiares
+Tabla 10. Derechos Humanos de los trabajadores migratorios y sus familiares
      mencionados en la Convención Internacional sobre la Protección de los Derechos
                  de todos los Trabajadores Migratorios y de sus Familiares
 
 Artículo       Materia
 
-## 25             Derechos del trabajo
-
-
-
-## 26             Derecho a la sindicación
-
-
-
-## 27             Derecho a la seguridad social
-
-
-
-## 28             Derecho a la salud
-
-
-
-## 29             Derechos registrales y nacionalidad de los hijos de los trabajadores migratorios
-
-
-
-## 30             Derecho a la educación de los hijos de los trabajadores migratorios
-
-
-
-## 31             Promoción de cultura
-
-
-
-## 32             Derecho de transferir sus ingresos y ahorros, efectos personales y pertenencias
-
-
-
 ## 33             Derecho a la información de sus derechos
 
+**Definición Canónica:** Convenio sobre las Trabajadoras
+y los Trabajadores Domésticos (núm. 189)
+**Concordancias Legales:** artículo 7; artículo 12; artículo 13; artículo 1; artículo 1.2 del Convenio; artículo 20.69; artículos 1; artículos 16; artículo 2
 
 Convenio sobre las Trabajadoras
 y los Trabajadores Domésticos (núm. 189)
@@ -2595,6 +2594,18 @@ literaria, científica o artística de usar y autorizar su uso, en todo o en
 
 ## parte; disponer de ese derecho a cualquier título, total o parcialmente; y
 
+**Definición Canónica:** transmitirlo por causa de muerte.
+   Asimismo, se consagra qué se puede hacer con la obra, considerando:
+    • Publicarla, ya sea mediante la impresión o en cualquiera otra for-
+       ma.
+    • Representarla, recitarla, exponerla o ejecutarla públicamente.
+    • Reproducirla, adaptarla o presentarla por medio de la cinemato-
+       grafía.
+    • Adaptarla y autorizar adaptaciones generales o especiales a instru-
+       mentos que sirvan para reproducirla mecánica o eléctricamente; o
+       ejecutarla en público por medio de dichos instrumentos.
+**Concordancias Legales:** artículo 3; artículo 9.1.71; artículo 17; artículo 11; artículos 8; artículo 1; artículo 5; artículo 29.73; artículos 1; artículo 2; artículo 34.75; artículo 27; artículo 12; artículo 13; artículo 14; artículo 15
+
 transmitirlo por causa de muerte.
    Asimismo, se consagra qué se puede hacer con la obra, considerando:
     • Publicarla, ya sea mediante la impresión o en cualquiera otra for-
@@ -2782,8 +2793,11 @@ Otras declaraciones y recomendaciones
 
 Materiales Docentes                                                     Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Obligaciones estatales relativas a los DESC
+y mecanismos internacionales de seguimiento
+**Concordancias Legales:** artículo 2.1; artículo 4 de la Convención sobre los Derechos del Niño; artículo 4.2 de la Convención sobre los Derechos de las Personas; artículos 2.2; artículo 10.3; artículo 13.2; artículo 7; artículo 10.2
 
 Obligaciones estatales relativas a los DESC
 y mecanismos internacionales de seguimiento
@@ -2921,18 +2935,21 @@ de determinados objetivos. Por ejemplo, eliminación de situaciones de
 hambre de la población, prevención de epidemias, establecimiento de
 remuneraciones justas, modificar el ordenamiento jurídico interno para
 
-
-## 3 Como destaca Carbonell (2013: 220), «[ello] incluye el respeto del Estado hacia
-
-el uso de los recursos disponibles para que los sujetos de los derechos puedan satisfacer estos derechos por los medios que consideren más adecuados».
-
 ## 4 Carbonell (2013: 220) señala que «incluye mecanismos no solamente reactivos
+
+**Definición Canónica:** frente a las violaciones —como lo podría ser la creación de procesos jurisdiccionales
+o sistemas de tutela administrativa—, sino también esquemas de carácter preventivo
+que eviten que agentes privados puedan hacerse con el control de los recursos necesarios para la realización de un derecho».
 
 frente a las violaciones —como lo podría ser la creación de procesos jurisdiccionales
 o sistemas de tutela administrativa—, sino también esquemas de carácter preventivo
 que eviten que agentes privados puedan hacerse con el control de los recursos necesarios para la realización de un derecho».
 
 ## 5 Carbonell (2013: 220) precisa que incluye «acciones positivas en favor de grupos
+
+**Definición Canónica:** vulnerables, para que todos los sujetos de los derechos tengan la oportunidad de
+disfrutar de ellos cuando no puedan hacerlo por sí mismos».
+**Concordancias Legales:** artículo 13.2; constitucion
 
 vulnerables, para que todos los sujetos de los derechos tengan la oportunidad de
 disfrutar de ellos cuando no puedan hacerlo por sí mismos».
@@ -3052,8 +3069,10 @@ de tales derechos. Además, le corresponde desempeñar el importante papel de pr
     Los medios de comunicación social también tienen un papel en el
 respeto, promoción y realización de los DESC, pues impactan en la formación de la opinión pública, a través de la difusión de información y
 
-
 ## 6 Carbonell (2013: 222) destaca que «la legislación nacional no solo debe ser no
+
+**Definición Canónica:** contradictoria con los instrumentos jurídicos internacionales, sino que debe contener las disposiciones necesarias para hacer de ellos normas completamente aplicables por las autoridades locales».
+**Concordancias Legales:** artículos 16
 
 contradictoria con los instrumentos jurídicos internacionales, sino que debe contener las disposiciones necesarias para hacer de ellos normas completamente aplicables por las autoridades locales».
 
@@ -3178,8 +3197,10 @@ años. Además, reciben los informes sobre la situación de los derechos
 humanos que emitan otras organizaciones o instituciones académicas,
 incluso, de medios de prensa. Con el examen de estos informes, el Co-
 
-
 ## 7 Véase el estado de ratificación del PIDESC y su Protocolo Adicional en: Naciones
+
+**Definición Canónica:** Unidas, «Treaty collection: Status of treaties». Disponible en https://bit.ly/3PJ33tU.
+**Concordancias Legales:** artículos 6; artículos 10; artículos 13; artículo 10 de la Constitución de 1925; artículo 1 del Acta Constitucional 3 y el artículo 35 del Có; artículo 7 de la Ley; Ley 1.446; constitucion; Constitución
 
 Unidas, «Treaty collection: Status of treaties». Disponible en https://bit.ly/3PJ33tU.
 
@@ -3210,8 +3231,13 @@ la capacitación profesional y el pleno empleo, además de la eliminación
 de actos discriminatorios; el artículo 1 del Acta Constitucional 3 y el artículo 35 del Código del Trabajo que establecen la igualdad salarial entre
 hombre y mujer ante una misma clase de trabajo; el artículo 7 de la Ley
 
-
 ## 8 Es posible acceder al detalle de la labor de este comité en su sitio web, disponible
+
+**Definición Canónica:** en https://bit.ly/3ohgxRO.
+  9 Esto con expresa alusión al artículo 17.3 del Pacto: «Cuando la información pertinente hubiera sido ya proporcionada a las Naciones Unidas o a algún organismo
+especializado por un Estado parte, no será necesario repetir dicha información, sino
+que bastará hacer referencia concreta a la misma».
+**Concordancias Legales:** artículo 17.3 del Pacto; artículo 66; artículo 7; artículo 2 del Acta Constitucional 2 de 1976; artículo 2 del Acta Constitucional 3 establece una justa ret; artículo 1.19 del Acta Constitucional 3 sobre aseguramiento del; artículo 12.2 del PIDESC; Ley 16.744; Ley 2.200; Ley 2.756; Ley 2.758; DFL 338; constitucion
 
 en https://bit.ly/3ohgxRO.
   9 Esto con expresa alusión al artículo 17.3 del Pacto: «Cuando la información pertinente hubiera sido ya proporcionada a las Naciones Unidas o a algún organismo
@@ -3352,8 +3378,16 @@ efectivo en casos de enfermedad, maternidad, invalidez, vejez, accidentes del tr
    Derechos sociales. El informe sobre el cumplimiento de los derechos
 sociales fue expedido en 1986. Primeramente, destaca las normas constitucionales y legales sobre protección de la familia, maternidad y niños
 
-
 ## 10 Estas normas actualmente se encuentran derogadas por la promulgación el 6
+
+**Definición Canónica:** de julio de 1987 del Código del Trabajo, texto que fue refundido en 2003 y cuya última modificación data del 24.de noviembre de 2021, con la Ley 21.391 que incorpora
+artículo 206 bis al Código, que establece la modalidad de teletrabajo a distancia o
+teletrabajo para el cuidado de niños, niñas y personas con discapacidad, en los casos
+que indica.
+ 11 Aunque la ley pueda exigir la nacionalidad chilena para determinados empleos,
+cuestión que recién se elimina el 2021 a través de la Ley 21.325 de Migración y Extranjería, artículo 175 núm. 5, que modifica el Estatuto Administrativo, permitiendo
+la 
+**Concordancias Legales:** artículo 206 bis; artículo 175; artículo 1; artículo 2; artículo 3; artículos 1; artículo 4; artículo 19; artículo 6 del Pacto; artículo 7; artículo 8 del Pacto; artículo 9 del Pacto; artículo 10 del Pacto; artículo 11 del Pacto; artículo 12 del Pacto; artículo 13 del Pacto; artículo 14 del Pacto; artículo 15; artículos 4; artículos 39; artículo 1 del Pacto y el derecho de los pueblos indígenas a; artículo 7 del Pacto sobre condiciones de trabajo; artículo 12 del Pacto refiere a medidas adoptadas para la acc; artículo 13; artículo 15 del Pacto; Artículos 21; artículo 22; artículo 14; artículo 11; artículo 12; artículos 11; artículo 6; artículo 9; artículo 24; artículo 23; artículo 10; artículo 18; artículo 27; artículo 21; artículo 16 de la Convención sobre la Eliminación de Todas las
 
 de julio de 1987 del Código del Trabajo, texto que fue refundido en 2003 y cuya última modificación data del 24.de noviembre de 2021, con la Ley 21.391 que incorpora
 artículo 206 bis al Código, que establece la modalidad de teletrabajo a distancia o
@@ -4232,10 +4266,18 @@ Materiales Docentes                                                             
             Tabla 25. Mandatos temáticos vigentes iniciados por la Comisión
                        de Derechos Humanos, relativos a los DESC
 
-
 ## Título/Mandato                             Año que se      Resolución    Año que se     Resolución
 
-                                           estableció el   de Comisión   estableció     del Consejo
+**Definición Canónica:** estableció el   de Comisión   estableció     del Consejo
+                                           mandato por     de Derechos   por última     de Derechos
+                                           primera vez     Humanos       vez            Humanos
+Relatora especial sobre la violencia       1994            E/CN.4/       2019           A/HRC/
+contra la mujer, sus causas y                              1994/45                      RES/41/17
+consecuencias
+Relator especial sobre las                 1995            E/CN.4/       2020           A/HRC/
+implicaciones para los derechos              
+
+estableció el   de Comisión   estableció     del Consejo
                                            mandato por     de Derechos   por última     de Derechos
                                            primera vez     Humanos       vez            Humanos
 Relatora especial sobre la violencia       1994            E/CN.4/       2019           A/HRC/
@@ -4264,6 +4306,15 @@ Estados para el pleno goce de todos
 los derechos humanos, sobre todo los
 
 ## Desc
+
+**Definición Canónica:** Relator especial sobre una vivienda        2000            E/CN.4/       2020           A/HRC/
+adecuada como elemento integrante                          2000/9                       RES/43/14
+del derecho a un nivel de vida
+adecuado
+Relator especial sobre los derechos de 2001                E/CN.4/       2019           A/HRC/
+los pueblos indígenas                                      2001/57                      RES/42/20
+Grupo de trabajo de expertos sobre         2002            E/CN.4/       2017           A/HRC/
+los afrodescendientes                                      2002/68             
 
 Relator especial sobre una vivienda        2000            E/CN.4/       2020           A/HRC/
 adecuada como elemento integrante                          2000/9                       RES/43/14
@@ -4300,10 +4351,17 @@ temáticas relacionadas con DESC.
               Tabla 26. Mandatos temáticos vigentes iniciados por Consejo
                        de Derechos Humanos, relativos a los DESC
 
-
 ## Título/Mandato                                   Primer       Resolución     Mandato    Resolución
 
-                                                 mandato                     vigente
+**Definición Canónica:** mandato                     vigente
+Relator especial sobre los derechos              2008         A/HRC/         2019       A/HRC/
+humanos al agua potable y el saneamiento                      RES/7/22                  RES/42/5
+Relatora especial sobre los derechos             2009         A/HRC/         2021       A/HRC/
+culturales                                                    RES/10/23                 RES/46/9
+Grupo de trabajo sobre la discriminación         2010         A/HRC/         2019       A/HRC/
+contra las mujeres y las niñas                                RES/15/23              
+
+mandato                     vigente
 Relator especial sobre los derechos              2008         A/HRC/         2019       A/HRC/
 humanos al agua potable y el saneamiento                      RES/7/22                  RES/42/5
 Relatora especial sobre los derechos             2009         A/HRC/         2021       A/HRC/
@@ -4381,12 +4439,9 @@ Asamblea General. 17
 informe con la participación del Estado sometido a examen, con ayuda
 de la ACNUDH. Este informe, denominado «informe de resultados»,
 
-
-## 16 ACNUDH, «La situación de derechos humanos de Chile será considerada por
-
-el Examen Periódico Universal». Disponible en https://bit.ly/3PWfjat.
-
 ## 17 Consejo de Derechos Humanos de las Naciones Unidas, «Información básica
+
+**Definición Canónica:** sobre el EPU». Disponible en https://bit.ly/3v9PImw.
 
 sobre el EPU». Disponible en https://bit.ly/3v9PImw.
 
@@ -4426,8 +4481,10 @@ medidas cautelares y solicitar que la Corte Interamericana disponga la
 adopción de medidas provisionales, en casos de extrema gravedad y urgencia para evitar daños irreparables a las personas; presentar casos ante
 la Corte Interamericana y comparecer ante la misma durante la tramitación de los casos; solicitar opiniones consultivas a la Corte Interame-
 
-
 ## 18 Consejo de Derechos Humanos de las Naciones Unidas, «Información básica
+
+**Definición Canónica:** sobre el EPU». Disponible en https://bit.ly/3v9PImw.
+**Concordancias Legales:** artículo 45
 
 sobre el EPU». Disponible en https://bit.ly/3v9PImw.
 
@@ -4462,8 +4519,10 @@ y anticorrupción, excelencia e impacto, diálogo y participación, articulació
 Luego aborda las prioridades operativas de la relatoría para su primer
 período 2017-2020: implementación de la Agenda 2030 en las Américas;
 
-
 ## 19 Comisión Interamericana de Derechos Humanos, «Relatoría Especial sobre los
+
+**Definición Canónica:** Derechos Económicos, Sociales, Culturales y Ambientales». Disponible en https://
+bit.ly/3vah4bS.
 
 Derechos Económicos, Sociales, Culturales y Ambientales». Disponible en https://
 bit.ly/3vah4bS.
@@ -4504,6 +4563,8 @@ ly/3S2wRUi.
 
 ## 22 Cfr. Sentencia del caso Poblete Vilches y otros con Chile, Corte IDH, serie C
 
+**Definición Canónica:** núm. 349, 8 de marzo de 2018, fondo, reparaciones y costas.
+
 núm. 349, 8 de marzo de 2018, fondo, reparaciones y costas.
 
 Materiales Docentes                                                         Capítulo 3
@@ -4534,12 +4595,15 @@ de carácter perpetuo;26 deudas crediticias por el acceso a la educación
   23 Tercer informe anual de la relatoría DESCA 2019. Disponible en https://bit.
 ly/3Pzsxdj.
 
-## 24 Ídem, ahonda sobre ello indicando que «el 1% de la población acumula más del
-
-25% de la riqueza y la generación que salió de la pobreza llega a su vejez pagando los
-medicamentos más caros de América Latina» (párrafo 185).
-
 ## 25 Ídem, detalla sobre la problemática del sistema de salud, indicando que, en el
+
+**Definición Canónica:** sistema público, en el cual se atiende el 80% de la población «a junio de 2019, más
+de 1,5 millones de personas se encontraba en lista de espera, ya sea aguardando una
+atención con un especialista o una cirugía […] Más de 130.000 de estas solicitudes
+llevan esperando entre dos y tres años y poco más de 80.000 llevan incluso más de
+tres años a la espera de una atención». Indica, además, que el 20% de la población se
+atiende en el sistema privado y «un 54% de las horas de médicos en Chile están en el
+sector privado y el 46% restante en el sector público» (párrafo 193).
 
 sistema público, en el cual se atiende el 80% de la población «a junio de 2019, más
 de 1,5 millones de personas se encontraba en lista de espera, ya sea aguardando una
@@ -4550,6 +4614,9 @@ atiende en el sistema privado y «un 54% de las horas de médicos en Chile está
 sector privado y el 46% restante en el sector público» (párrafo 193).
 
 ## 26 Ídem, Chile ha logrado una amplia cobertura en el saneamiento básico de
+
+**Definición Canónica:** aguas servidas y el acceso al agua potable, aunque durante el 2019 tuvo problemas
+de abastecimiento en Osorno, que estuvo sin agua por más de una semana. La rela-
 
 aguas servidas y el acceso al agua potable, aunque durante el 2019 tuvo problemas
 de abastecimiento en Osorno, que estuvo sin agua por más de una semana. La rela-
@@ -4578,6 +4645,13 @@ en cuanto a su gestión y utilización (párrafo 199).
 
 ## 27 Ídem, un estudio de la OCDE posiciona a Chile como el cuarto país del mundo
 
+**Definición Canónica:** con la educación universitaria más cara. A partir del 2006, se han intentado hacer reformas a la educación superior, incluso se incorporó un sistema de gratuidad,
+pero persisten las deudas de los estudiantes. Los estudiantes de sectores trabajadores
+y populares, en general, solo pueden aspirar a terminar la educación secundaria,
+siendo un grupo muy pequeño el que logra egresar de una carrera profesional (párrafos 186-189).
+ 28 Cuarto informe anual de la relatoría DESCA 2020. Disponible en https://bit.
+ly/3cDGubH.
+
 con la educación universitaria más cara. A partir del 2006, se han intentado hacer reformas a la educación superior, incluso se incorporó un sistema de gratuidad,
 pero persisten las deudas de los estudiantes. Los estudiantes de sectores trabajadores
 y populares, en general, solo pueden aspirar a terminar la educación secundaria,
@@ -4586,6 +4660,11 @@ siendo un grupo muy pequeño el que logra egresar de una carrera profesional (p�
 ly/3cDGubH.
 
 ## 29 Ídem, indica que las personas que no pueden continuar pagando el alquiler de
+
+**Definición Canónica:** su vivienda, crean viviendas informales a base de piezas de madera, aluminio, bolsas
+y cobijas; sin una cocina real ni servicios básicos, se verían obligadas a tomar agua
+de un hidrante que cruza la calle para bañarse y beber; presentan problemas de mal
+nutrición y desnutrición (párrafos 268-270).
 
 su vivienda, crean viviendas informales a base de piezas de madera, aluminio, bolsas
 y cobijas; sin una cocina real ni servicios básicos, se verían obligadas a tomar agua
@@ -4618,20 +4697,13 @@ Año       Temática
 
 2017      Pobreza y derechos humanos en las Américas. Disponible en https://bit.ly/3vah4bS.
 
-
-## 2019      Empresas y derechos humanos: estándares interamericanos. Disponible en https://
-
-          bit.ly/3PwJeGm.
-
-## 2020      Personas trans y de género diverso y sus derechos económicos, sociales, culturales
-
-          y ambientales. Disponible en https://bit.ly/3cFa0hi.
-2020      Compendio sobre derechos laborales y sindicales: estándares interamericanos.
-          Disponible en https://bit.ly/3J0dYwS.
-
 ## 2021      Derechos económicos, sociales, culturales y ambientales de las personas
 
-          afrodescendientes. Estándares interamericanos para la prevención, combate
+**Definición Canónica:** afrodescendientes. Estándares interamericanos para la prevención, combate
+          y erradicación de la discriminación racial estructural. Disponible en https://bit.
+          ly/3vc6xwR.
+
+afrodescendientes. Estándares interamericanos para la prevención, combate
           y erradicación de la discriminación racial estructural. Disponible en https://bit.
           ly/3vc6xwR.
 
@@ -4642,8 +4714,11 @@ y Quillota, en donde Gustavo Fricke llegó a hacer compras a un sobreprecio de h
 
 Materiales Docentes                                                   Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Justiciabilidad de los derechos económicos,
+sociales y culturales y desafíos para el futuro
+**Concordancias Legales:** constitucion; Constitución
 
 Justiciabilidad de los derechos económicos,
 sociales y culturales y desafíos para el futuro
@@ -4722,6 +4797,14 @@ sentencia con sesgo político sería una aberración. Véase Pereira (2010: 61).
 
 ## 3 Ya Aristóteles (2005), en su Política, advertía que la labor del juez era juzgar el
 
+**Definición Canónica:** caso concreto: «hay magistrados, como el juez, que tienen poder para juzgar sobre
+algunas cuestiones que la ley no puede determinar». D’Ors (1963: 16-19), en tanto,
+señala que «el derecho es una realidad judicial. Se produce como individualización
+de unos criterios que llamamos normas, mediante su aplicación a casos concretos
+que se presentan a los jueces».
+ 4 Finnis (2000: 275) señala que «el jurista […] cuando se enfrenta con una pretensión de cierto estatus, título, potestad, o derecho, busca la raíz del pretendido título;
+pide que se le muestre el acto de transferencia o la ley u otra tran
+
 caso concreto: «hay magistrados, como el juez, que tienen poder para juzgar sobre
 algunas cuestiones que la ley no puede determinar». D’Ors (1963: 16-19), en tanto,
 señala que «el derecho es una realidad judicial. Se produce como individualización
@@ -4734,6 +4817,15 @@ transferencia o esa ley habían recibido la autoridad para hacerlo en virtud de 
 acto de transferencia o ley».
 
 ## 5 Esto no significa, en caso alguno, menospreciar la labor de la judicatura, pues
+
+**Definición Canónica:** como dicen los mismos autores antes citados, es del juez o jueza de quien depende
+que la normativa preexistente se transforme en una «realidad viva» aplicable al caso
+concreto que examina; y esa labor de determinación puede implicar, a veces, a falta de
+norma expresa, extraer del ordenamiento jurídico la norma que ha de resolver el caso
+concreto. Lo que sucede es que esa labor de extracción —o, incluso, de creación— depende de reglas de interpretación específicas, que son las que mantienen la labor del
+juez dentro de lo jurídico. Véase al respecto D’Ors (1963) y Pound (1930: 100 y 108).
+ 6 Par
+**Concordancias Legales:** constitucion
 
 como dicen los mismos autores antes citados, es del juez o jueza de quien depende
 que la normativa preexistente se transforme en una «realidad viva» aplicable al caso
@@ -4788,18 +4880,19 @@ ejemplo, en su libro de 2002, de referencia obligada de esta materia —al
 menos en América Latina—, demuestran su plena confianza en el activismo judicial como forma de resolver los problemas de justiciabilidad
 de los derechos sociales (2002: 46-47):
 
-
 ## 7 Recuérdese la afirmación de Aristóteles (2005) sobre la necesidad de diversidad
+
+**Definición Canónica:** como característica de las comunidades políticas. Sobre la discordia o carácter plural y antagónico que caracteriza a la actividad política, véase Waldron (2005: 18 y
+36), Berlin (1988: 187-188) y Heywood (2010: 74).
 
 como característica de las comunidades políticas. Sobre la discordia o carácter plural y antagónico que caracteriza a la actividad política, véase Waldron (2005: 18 y
 36), Berlin (1988: 187-188) y Heywood (2010: 74).
 
-## 8 Nos referiremos a la jurisdicción constitucional en sentido amplio, como el juez
-
-o jueza que aplica el derecho constitucional, sea que represente a una jurisdicción
-concentrada o no.
-
 ## 9 El desprestigio de la política y el lenguaje de los derechos son las causas más
+
+**Definición Canónica:** importantes del activismo judicial. Véase Glendon (1998: 84), Schuck (2004: 17-18),
+Cross (2001: 923) y McCann (2002: 271-272).
+**Concordancias Legales:** Constitución; constitucion; Constitución Política
 
 importantes del activismo judicial. Véase Glendon (1998: 84), Schuck (2004: 17-18),
 Cross (2001: 923) y McCann (2002: 271-272).
@@ -4859,8 +4952,16 @@ destinatarios del poder. En este caso «la actividad de los jueces consiste
 […], fundamentalmente, solo en la aplicación de aquellas normas que
 protegen las libertades civiles contra las intervenciones de la legislación
 
-
 ## 11 Nos referimos a la tendencia de las y los jueces a analizar los argumentos de
+
+**Definición Canónica:** cada parte de una controversia, sin considerar otras cuestiones ajenas al pleito. Esta
+forma de razonar, que es la adecuada al derecho, no funciona cuando se trata de evaluar complejos y poliédricos problemas de carácter socioeconómico. Véase Poyanco
+Bugueño (2013).
+ 12 . Kmiec afirma que el activismo también se produce cuando las y los jueces se
+apartan intencionadamente del derecho que deben aplicar en el caso concreto, por
+motivos personales y de orden ideológico, que mantienen en secreto. Nosotros no
+consideraremos esta alternativa por tratarse de un supuesto muy difícil de probar.
+**Concordancias Legales:** artículo 26 de la Convención Interamericana de Derechos Humanos; Constitución; constitucion
 
 cada parte de una controversia, sin considerar otras cuestiones ajenas al pleito. Esta
 forma de razonar, que es la adecuada al derecho, no funciona cuando se trata de evaluar complejos y poliédricos problemas de carácter socioeconómico. Véase Poyanco
@@ -4958,6 +5059,12 @@ Humanos y del «derecho a la estabilidad laboral», ha afirmado la interdependen
 
 ## 17 Agrega la sentencia que el principio de dignidad irradia en igual magnitud a
 
+**Definición Canónica:** toda la gama de derechos, ya sean los denominados civiles y políticos, como los económicos, sociales y culturales, toda vez que la máxima eficacia en la valoración del
+ser humano solo puede ser lograda a través de la protección de las distintas gamas
+de derechos en forma conjunta y coordinada (sentencia expediente 2.945-2003-AA/
+TC, fundamentos jurídicos 11 y 19).
+**Concordancias Legales:** artículo 38 ter de la Ley de Isapres; Constitucion
+
 toda la gama de derechos, ya sean los denominados civiles y políticos, como los económicos, sociales y culturales, toda vez que la máxima eficacia en la valoración del
 ser humano solo puede ser lograda a través de la protección de las distintas gamas
 de derechos en forma conjunta y coordinada (sentencia expediente 2.945-2003-AA/
@@ -4997,6 +5104,12 @@ no regresividad o prohibición de retroceso).20 De acuerdo con la Ob-
 
 ## 20 Así entendida, numerosos autores sostienen que la idea de progresividad y no
 
+**Definición Canónica:** regresividad iría directamente en contra de la letra expresa del artículo 2, apartados
+1 y 3 del PIDESC, que se refieren a la progresividad como condición limitativa de
+las obligaciones de los Estados parte. Por eso también es que la propia Observación
+General 3 del Comité PIDESC reconoce que la realización de los derechos sociales
+**Concordancias Legales:** artículo 2; Constitucion; Constitución
+
 regresividad iría directamente en contra de la letra expresa del artículo 2, apartados
 1 y 3 del PIDESC, que se refieren a la progresividad como condición limitativa de
 las obligaciones de los Estados parte. Por eso también es que la propia Observación
@@ -5028,6 +5141,15 @@ encontrarse en Martínez Estay (2010: 137-138), Cançado Trindade (1998: 54-55, 
 al pie 4), Kartashkin (1982: 114) y Alston y Quinn (1987: 172-174).
 
 ## 21 Comité PIDESC, Observación General 14, párrafos 31 y 32. Ello no obsta a que
+
+**Definición Canónica:** numerosos autores e incluso el citado documento insistan en la existencia de algunas obligaciones emanadas del PIDESC que pueden cumplirse de forma inmediata.
+Por ejemplo, implementar medidas para llevar a cabo los derechos sociales o asegurar niveles mínimos de cumplimiento de los derechos sociales. Sin embargo, como
+señalan Anderson y Foresti (2009: 470), prescripciones tales como «tomar pasos
+hacia» o «hasta el máximo de los recursos», entre otras, no clarifican mucho cuál es
+el exacto alcance de las obligaciones del Estado.
+ 22 La Ley 56/79, del 15 de septiembre de 1979.
+ 23 Sentencia 39/8
+**Concordancias Legales:** Constitucion
 
 numerosos autores e incluso el citado documento insistan en la existencia de algunas obligaciones emanadas del PIDESC que pueden cumplirse de forma inmediata.
 Por ejemplo, implementar medidas para llevar a cabo los derechos sociales o asegurar niveles mínimos de cumplimiento de los derechos sociales. Sin embargo, como
@@ -5137,6 +5259,14 @@ en una sentencia que intenta reconocer justiciabilidad directa a dere-
 
 ## 29 Aunque aquí también se incluye dentro de la obligación de respetar aspectos
 
+**Definición Canónica:** que en realidad parecen ser manifestación del principio de no regresividad, pues el
+párrafo 50 de la misma Observación General señala que se reputa como vulneración de esta obligación «la suspensión de la legislación o la promulgación de leyes o
+adopción de políticas que afectan desfavorablemente al disfrute de cualquiera de los
+componentes del derecho a la salud; y el hecho de que el Estado no tenga en cuenta
+sus obligaciones legales con respecto al derecho a la salud al concertar acuerdos
+bilaterales o multilaterales».
+**Concordancias Legales:** artículo 38 ter de la Ley 18.933. Niveles mínimos esenciales de lo; artículo 44; Ley 18.933; Constitucion
+
 que en realidad parecen ser manifestación del principio de no regresividad, pues el
 párrafo 50 de la misma Observación General señala que se reputa como vulneración de esta obligación «la suspensión de la legislación o la promulgación de leyes o
 adopción de políticas que afectan desfavorablemente al disfrute de cualquiera de los
@@ -5175,6 +5305,10 @@ su contenido mínimo o esencial, el que, por tanto, es de exigibilidad inmediata
 
 ## 31 En la que se reclamaba en contra de las deficientes condiciones sanitarias de
 
+**Definición Canónica:** ciertos hogares de niños y niñas, creados para dar atención a hijos e hijas de familias
+en necesidad.
+**Concordancias Legales:** Constitucion
+
 ciertos hogares de niños y niñas, creados para dar atención a hijos e hijas de familias
 en necesidad.
 
@@ -5198,8 +5332,16 @@ extendido esta idea a los derechos sociales. En la sentencia del expediente 1417
 afirmó que, incluso en el caso de aquellos derechos fundamentales de
 carácter jurídico «abierto», la libertad del legislador se encuentra limitada por el contenido esencial de los derechos fundamentales.35 En ma-
 
-
 ## 32 Que dispone: «Son derechos fundamentales de los niños: la vida, la integridad
+
+**Definición Canónica:** física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación
+y la cultura, la recreación y la libre expresión de su opinión. Serán protegidos contra
+toda forma de abandono, violencia física o moral, secuestro, venta, abuso sexual,
+explotación laboral o económica y trabajos riesgosos».
+  33 Sentencia C-671/2002, Tribunal Constitucional de Colombia, sumario.
+  34 Sentencia expediente 01420-2009-PA/TC, de 23/04/09, fundamento jurídico 3.
+Allí se define al contenido esencial como «aquel 
+**Concordancias Legales:** Constitucion; Constitución
 
 física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación
 y la cultura, la recreación y la libre expresión de su opinión. Serán protegidos contra
@@ -5239,11 +5381,13 @@ de 2011 —sobre financiamiento de la matrícula a menores de jardín infantil y
 Estos tres elementos constituyen el núcleo duro del derecho fundamental a la pensión, que el legislador no puede intervenir para restringir o privar a las personas de
 ese derecho.
 
-## 36 Sentencia expediente 03599-2007-PA/TC, del 11 de marzo de 2007, fundamento
-
-jurídico 2.
-
 ## 37 Así, por ejemplo, la sentencia Hartz IV del Tribunal Constitucional alemán de
+
+**Definición Canónica:** 2010, en donde este órgano reconoció un derecho innominado al «mínimo vital»,
+deducible de las disposiciones de la ley fundamental. En otras jurisdicciones, como
+la portuguesa o la española, suele ser reconocido como límite al pago de deudas civiles o tributarias. Para detalles, véase Poyanco Bugueño (2021: 108 y ss.).
+  38 Alegación de incumplimiento de precepto fundamental (Arguição de descumprimento de preceito fundamental o ADPF) 45/MC, ministro relator: Celso de Mello, Supremo Tribunal Federal, 29 de abril de 2004.
+**Concordancias Legales:** Constitucion
 
 2010, en donde este órgano reconoció un derecho innominado al «mínimo vital»,
 deducible de las disposiciones de la ley fundamental. En otras jurisdicciones, como
@@ -5278,12 +5422,12 @@ reconoció que la carta fundamental no consagra un derecho al mínimo
 vital, pero que este puede deducirse de otros (los derechos a la vida, a la
 salud, al trabajo y a la asistencia o a la seguridad social), como consecuencia directa de los principios constitucionales de dignidad humana
 
-
-## 39 Supremo Tribunal Federal de Brasil, ARE 639337 AgR/SP (São Paulo), del 23 de
-
-agosto de 2011, sumario.
-
 ## 40 Véase las sentencias del Supremo Tribunal Federal de Brasil, ADI 3768/DF, del
+
+**Definición Canónica:** 19 de septiembre de 2007, sumario; RE-AgRg271286/RS, DJ, del 24 de noviembre de
+2000; y RE 410.715, Rel. Min. Celso de Mello, del 22 de noviembre de 2005. Véase
+también Ferreira y Gonet (2015: 165), con detalles de la jurisprudencia mencionada.
+**Concordancias Legales:** Constitución; Constitucion
 
 19 de septiembre de 2007, sumario; RE-AgRg271286/RS, DJ, del 24 de noviembre de
 2000; y RE 410.715, Rel. Min. Celso de Mello, del 22 de noviembre de 2005. Véase
@@ -5328,6 +5472,10 @@ sumario.
 sumario.
 
 ## 44 En el mismo lugar, el autor cita abundante jurisprudencia en respaldo de cada
+
+**Definición Canónica:** una de las cuestiones señaladas. Véase también ejemplos similares en Arango (2009:
+314-315).
+**Concordancias Legales:** artículo 103; artículo 283; artículo 59 de la Constitución portuguesa; Constitucion; Constitución
 
 una de las cuestiones señaladas. Véase también ejemplos similares en Arango (2009:
 314-315).
@@ -5394,6 +5542,9 @@ enfrenta a un problema de justicia distributiva».
 
 ## 48 Sentencia expediente 2945-2003-AA/TC, Tribunal Constitucional peruano, de
 
+**Definición Canónica:** 20 de abril de 2004, fundamentos jurídicos 36-39. Véase también los análisis de Landa Arroyo (2005: 7-8) y Bazán (2014: 19).
+**Concordancias Legales:** artículo 5; constitucion
+
 20 de abril de 2004, fundamentos jurídicos 36-39. Véase también los análisis de Landa Arroyo (2005: 7-8) y Bazán (2014: 19).
 
 Materiales Docentes                                                      Capítulo 4
@@ -5429,8 +5580,10 @@ Supremo Tribunal Federal concluyó que:
 Corte Suprema en materia de medicamentos de alto costo (que mencionaremos más adelante). De acuerdo con la doctrina, esta parte de la
 decisión se ha vuelto un paradigma para sentencias dictadas posterior-
 
-
 ## 49 Medida cautelar, Pet. 1246 MC/SC (Santa Catarina), Supremo Tribunal Federal
+
+**Definición Canónica:** de Brasil, 31 de enero de 1997, decisión.
+**Concordancias Legales:** Constitucion
 
 de Brasil, 31 de enero de 1997, decisión.
 
@@ -5474,6 +5627,8 @@ sumario.
 
 ## 52 Alicia E. Yamin y otros (2013: 137-138) mencionan como ejemplos la atención
 
+**Definición Canónica:** médica para trastornos siquiátricos graves, implantes de mamas posmastectomía,
+
 médica para trastornos siquiátricos graves, implantes de mamas posmastectomía,
 
 Materiales Docentes                                                       Capítulo 4
@@ -5511,6 +5666,12 @@ visión, entre otros.
 Perú, serie C, nº 42, fundamentos jurídicos 147-150
 
 ## 55 Pues se trataba de niños sometidos a apremios ilegítimos. Así lo concluyó la
+
+**Definición Canónica:** propia Corte Interamericana en el párrafo 253 de la sentencia.
+ 56 Sentencia caso «Niños de la Calle» (Villagrán Morales y otros) con Guatemala,
+Corte Interamericana de Derechos Humanos, 19 de noviembre de 1999, fundamento
+jurídico 144.
+**Concordancias Legales:** artículo 26 de la Convención Americana sobre Derechos Humanos; Constitucion; Constitución Política
 
 propia Corte Interamericana en el párrafo 253 de la sentencia.
  56 Sentencia caso «Niños de la Calle» (Villagrán Morales y otros) con Guatemala,
@@ -5611,8 +5772,13 @@ cuales deben ser tutelados y promovidos para infundir al ordenamiento
 la legitimidad ya aludida» (considerandos 32.º de las sentencias roles
 976, 1.218 y 1.287).
 
-
 ## 61 Sentencia rol 17.043, Corte Suprema, de 6 de noviembre de 2018, considerando
+
+**Definición Canónica:** octavo. Esta sentencia es uno de los leading cases citados para apoyar este razonamiento en sentencias posteriores. Otros son las sentencias de los roles de protección
+43.250-2017, 8523-2018, 2494-2018 y 27.591-2, del máximo tribunal.
+ 62 La diferencia entre este concepto de «vida» y el concepto clásico propio del derecho a la vida, puede verse en nuestro trabajo Poyanco Bugueño y Martínez Estay (2021).
+ 63 Cabe observar, sin embargo, que algunas de las recientes sentencias de la Corte Suprema han intentado poner un freno a la amplitud de supuestos que hacían
+procedente a esta cuerda jurisprud
 
 octavo. Esta sentencia es uno de los leading cases citados para apoyar este razonamiento en sentencias posteriores. Otros son las sentencias de los roles de protección
 43.250-2017, 8523-2018, 2494-2018 y 27.591-2, del máximo tribunal.
@@ -5659,6 +5825,8 @@ se refiere, por lo que incluso algunos ni siquiera emanan de un funcionario o de
 
 ## 65 Artículo 11 PIDESC: «1. Los Estados partes en el presente Pacto reconocen el
 
+**Definición Canónica:** derecho de toda persona a un nivel de vida adecuado para sí y su familia, incluso
+
 derecho de toda persona a un nivel de vida adecuado para sí y su familia, incluso
 
 das a proporcionar «un nivel de vida adecuado» a sus destinatarios—,
@@ -5670,6 +5838,9 @@ controles de resultados de estas orientaciones. En el párrafo 8 del documento �
 afirma que, para determinar si las medidas adoptadas por los Estados
 
 ## parte son «adecuadas» o «razonables», dicho colegiado podrá tener en
+
+**Definición Canónica:** cuenta, entre otras, las consideraciones siguientes:
+**Concordancias Legales:** artículo 26 de la Convención Interamericana y su contenido71; artículo 16 del PIDESC; artículo 29; constitucion; Constitución
 
 cuenta, entre otras, las consideraciones siguientes:
 
@@ -5745,8 +5916,15 @@ de cada caso.73
    La técnica expuesta se ve potenciada en nuestros tribunales constitucionales e interamericano por la incidencia de otras figuras interpretativas —a nivel de jurisdicciones constitucionales el «bloque de
 constitucionalidad»74 y a nivel interamericano el «control de convencio-
 
-
 ## 72 Generalmente, la Corte sostiene esta afirmación citando su propia opinión
+
+**Definición Canónica:** consultiva «Interpretación de la Declaración Americana de los Derechos y Deberes
+del Hombre en el marco del artículo 64 de la Convención Americana sobre Derechos Humanos». OC-10/89, 14 de julio de 1989, Serie A 10, párrafo 43, que establece
+que «Los Estados miembros han entendido que la Declaración contiene y define
+aquellos derechos humanos esenciales a los que la Carta se refiere, de manera que
+no se puede interpretar y aplicar la Carta de la Organización en materia de derechos
+humanos, sin integrar las normas pertinentes de ella con las correspondientes disposiciones de la Declaración, como
+**Concordancias Legales:** artículo 64 de la Convención Americana sobre Derechos Humanos
 
 consultiva «Interpretación de la Declaración Americana de los Derechos y Deberes
 del Hombre en el marco del artículo 64 de la Convención Americana sobre Derechos Humanos». OC-10/89, 14 de julio de 1989, Serie A 10, párrafo 43, que establece
@@ -5759,11 +5937,22 @@ lugar en relación con los derechos civiles y políticos, no con los sociales.
 
 ## 73 En el caso Lhaka Honhat con Argentina, notas al pie 90 y 91 (párrafos 92 y 93)
 
+**Definición Canónica:** la Corte explica que por interpretación «evolutiva» entiende aquella que entiende a
+«los tratados de derechos humanos como instrumentos vivos, cuya interpretación
+tiene que acompañar la evolución de los tiempos y las condiciones de vida actuales».
+
 la Corte explica que por interpretación «evolutiva» entiende aquella que entiende a
 «los tratados de derechos humanos como instrumentos vivos, cuya interpretación
 tiene que acompañar la evolución de los tiempos y las condiciones de vida actuales».
 
 ## 74 Si bien la expresión «bloque de constitucionalidad» es reconocida en países
+
+**Definición Canónica:** como Francia y España, lo específico del derecho constitucional sudamericano es
+que no lo utiliza como un concepto descriptivo de aquel conjunto de normas que
+conforman el parámetro de control de constitucionalidad, tal como en Francia o
+España, sino como una nueva herramienta o criterio interpretativo, de naturaleza
+operativa, que permite a los tribunales ampliar el conjunto normativo que se utilizará para revisar la normativa infraconstitucional. Esa ampliación opera fundamen-
+**Concordancias Legales:** constitucion; Constitución Política; Constitución
 
 como Francia y España, lo específico del derecho constitucional sudamericano es
 que no lo utiliza como un concepto descriptivo de aquel conjunto de normas que
@@ -5788,6 +5977,14 @@ en particular, del soft law que gira a su alrededor.
 
 ## 75 El control de convencionalidad que ejerce la Corte Interamericana de Derechos
 
+**Definición Canónica:** Humanos alude a «un mecanismo que utiliza [ese tribunal interamericano], ya sea
+en sede contenciosa o consultiva, a través del cual determina la compatibilidad o
+incompatibilidad del derecho interno o los actos de agentes de un estado Parte, a
+través de una sentencia judicial […], [con] los atributos y garantías de los derechos
+asegurados por la CADH y los tratados o convenciones complementarios del sistema, para garantizar efectivamente el ejercicio de los derechos humanos por las
+personas sujetas a la jurisdicción de dicho estado Parte» (Nogueira Alcalá, 2012:
+1.137-1.138). En el mismo senti
+
 Humanos alude a «un mecanismo que utiliza [ese tribunal interamericano], ya sea
 en sede contenciosa o consultiva, a través del cual determina la compatibilidad o
 incompatibilidad del derecho interno o los actos de agentes de un estado Parte, a
@@ -5797,6 +5994,14 @@ personas sujetas a la jurisdicción de dicho estado Parte» (Nogueira Alcalá, 2
 1.137-1.138). En el mismo sentido, Ferrer Mac-Gregor (2011: 340) y Nash (2013: 492).
 
 ## 76 Algunos obiter dicta de la Corte Interamericana, sostienen que el control de
+
+**Definición Canónica:** convencionalidad, y el del bloque de constitucionalidad, forman parte del mismo
+proceso de control y la diferencia entre ambos es, apenas, una prelación entre «etapas» o «instancias» de un mismo procedimiento. Véase, por ejemplo, el voto razonado emitido en el caso Trabajadores Cesados del Congreso, de 2006, serie C núm.
+158, por el influyente académico y actual juez de la Corte Internacional de Justicia,
+A.A. Cançado Trindade: «los órganos del Poder Judicial de cada Estado parte en
+la Convención Americana deben conocer a fondo y aplicar debidamente no solo
+el derecho constitucional sino tambi
+**Concordancias Legales:** constitucion
 
 convencionalidad, y el del bloque de constitucionalidad, forman parte del mismo
 proceso de control y la diferencia entre ambos es, apenas, una prelación entre «etapas» o «instancias» de un mismo procedimiento. Véase, por ejemplo, el voto razonado emitido en el caso Trabajadores Cesados del Congreso, de 2006, serie C núm.
@@ -5830,8 +6035,16 @@ no necesariamente favorece a los más desposeídos.78
    Desde el punto de vista de la relación entre las competencias que asisten a las autoridades político-representativas versus las decisiones judiciales, por otro lado, especial importancia debe prestarse a los efectos
 de las sentencias de las y los jueces en las políticas sociales aprobadas
 
-
 ## 77 Así por ejemplo, en Brasil, la sentencia STA 175 AgR/CE - CEARÁ, de 2009, que
+
+**Definición Canónica:** estableció algunos parámetros generales para la solución judicial de casos concretos
+sobre el derecho a la salud; en Colombia, la sentencia T-153/1998, que se refirió a la
+situación de la población carcelaria, o la sentencia T-025 de 2004, relativa al caso
+de la «población internamente desplazada» por la guerrilla; en Perú, la sentencia
+del expediente 04232-2004-AA/TC, relativa al derecho a la educación (que define,
+incluso, qué debe entenderse por educación y cuáles deben ser sus objetivos); y,
+finalmente, en la Corte Interamericana, las sentencias que ordenan medidas provisorias o medidas de
+**Concordancias Legales:** artículo 5; constitucion; Constitución
 
 estableció algunos parámetros generales para la solución judicial de casos concretos
 sobre el derecho a la salud; en Colombia, la sentencia T-153/1998, que se refirió a la

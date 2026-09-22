@@ -15,6 +15,22 @@ extraccion: pdftotext
 
 ## El contrato de arrendamiento1
 
+**Definición Canónica:** Sumario.
+1.- Concepto.
+2.- Clases de arrendamiento.
+3.- Partes del contrato de arrendamiento.
+4.- Requisitos del contrato de arrendamiento.
+5.- Características del contrato de arrendamiento.
+6.- El contrato de arrendamiento, en relación a otros contratos.
+7.- El arrendamiento de cosa.
+7.1. Definición.
+7.2. Elementos del Contrato de arrendamiento de cosa.
+7.3. Normativa aplicable al arrendamiento de cosa.
+7.4. Capacidad para celebrar el contrato de arrendamiento de cosa.
+7.5. Efectos del contrato de arrendamiento de cosa.
+7.6. Recepción de la costumbre en el contrato de arrendamiento de cosas.
+
+**Concordancias Legales:** artículos 1970; artículos 1978; artículos 1708; artículo 1709 del Código Civil. Ha de estarse al valor de la re; artículo 1505; artículo 1199; artículo 1687; artículos 1796; artículo 2132 del Código Civil. Sin embargo; artículo 5; artículo 12 del Código Civil; artículo 19; artículo 1820 del Código Civil; artículo 2; artículo 1487; artículos 1877; artículo Nº 1489 del Código Civil. 4º; artículo 1489; artículos 1878; artículos 1808; Artículos 1915; artículos 1587; artículos 1831; artículo 1920; artículo 1932 del Código Civil es el hecho de ser imposible el; artículo 1932; artículo 1932 del Código Civil; artículo 1698; artículos 1709; artículo 1570 del Código Civil; artículos 1598; artículo 15; artículo 1944 del Código Civil; artículo 1977 del Código Civil; artículo 1546 del Código Civil; artículo 1973; artículos 1971; artículo 7; artículo 1693 del Código Civil peruano; artículo 1970
 
 Sumario.
 1.- Concepto.
@@ -2751,12 +2767,27 @@ más al derecho ya que el tercero (que) remata el bien es evidente que lo adquie
 
 ## título oneroso, y en seguida hay que reparar que el número tercero del artículo 1962
 
+**Definición Canónica:** es de excepción, como se desprende del número segundo del mismo artículo, al decir
+que se exceptúan de dicha regla los acreedores hipotecarios; motivo por el cual hay
+que interpretarlo restrictivamente”79.
+        Ramón meza Barros, sigue las mismas aguas de Somarriva, señalando por su
+
 es de excepción, como se desprende del número segundo del mismo artículo, al decir
 que se exceptúan de dicha regla los acreedores hipotecarios; motivo por el cual hay
 que interpretarlo restrictivamente”79.
         Ramón meza Barros, sigue las mismas aguas de Somarriva, señalando por su
 
 ## parte que “Si la finca es subastada a instancias de un acreedor hipotecario, y la
+
+**Definición Canónica:** adquiere un tercero, deberá éste respetar el arriendo, que conste de escritura pública
+aunque no se encuentre inscrito con anterioridad a la hipoteca. El tercero subastador
+es un adquirente a título oneroso y para él rige la regla del nº 2º del art. 1962.” 80
+        Carlos Ducci Claro, se suma a las opiniones anteriores, afirmando que “Si es un
+tercero el que se adjudica la propiedad hipotecada, la ha adquirido a título oneroso y
+queda comprendido dentro de la regla del número 2”.81
+        Rafael Mery, por el contrario (igual que Fernando Alessandri Rodríguez, según
+vimos), postula que el ad
+**Concordancias Legales:** artículo 1610; artículo 1962; artículo 10 del Decreto Ley número 993; artículo 10; artículo 1965; artículo 196287; artículo 1498; artículo 454 del Código de Procedimiento Civil; artículos 1965; artículo 20 del Decreto Ley número 2.186; artículo 1969; artículo 407; artículo 255; artículos 1749; artículos 1925; artículo 20 de la Ley General de Urbanismo y Construcciones; artículo 20; artículo 2; artículos 680; Ley Nº 993; Ley Nº 18.101; Ley N° 18.101; Ley N° 19.281; Ley Nº 21.442; Ley N° 21.442; Ley Nº 19.866; constitución
 
 adquiere un tercero, deberá éste respetar el arriendo, que conste de escritura pública
 aunque no se encuentre inscrito con anterioridad a la hipoteca. El tercero subastador
@@ -3376,6 +3407,13 @@ dispone que la notificación de la demanda se efectuará en la forma dispuesta e
 
 ## Título VI del Libro I del Código de Procedimiento Civil, vale decir, de acuerdo a lo que
 
+**Definición Canónica:** establecen los artículos 38 y siguientes (que regulan lo concerniente a las
+notificaciones de las resoluciones judiciales), pero con una importante salvedad: en el
+caso del art. 44, se hará la notificación en la forma prevista en el inc. 2º, esto es,
+entregando copia de la demanda a cualquiera persona adulta que se encuentre en el
+inmueble arrendado, y si nadie hubiere allí, o si por cualquier otra causa no es posible
+**Concordancias Legales:** artículos 38; artículo 18; artículo 680 del Código de Procedimiento Civil la expresión; Ley Nº 18.101; Ley N° 21.461; Ley N° 18.101; Ley N° 21.442; Ley N° 21.325; Ley N° 18.287; constitución
+
 establecen los artículos 38 y siguientes (que regulan lo concerniente a las
 notificaciones de las resoluciones judiciales), pero con una importante salvedad: en el
 caso del art. 44, se hará la notificación en la forma prevista en el inc. 2º, esto es,
@@ -3914,6 +3952,16 @@ embargo no impedirá celebrar el contrato de arrendamiento, pues este no es un a
 de enajenación, y no queda entonces comprendido en el caso de objeto ilícito del art.
 
 ## 1464 N° 3 del Código Civil). También deberá cerciorarse el notario que el arrendador
+
+**Definición Canónica:** está legalmente habilitado para celebrar el contrato. En tal sentido, por ejemplo, si se
+trata de un inmueble propio de la mujer casada en sociedad conyugal, será necesario
+que el contrato lo celebre el marido, autorizado por aquella, o, en el caso de un
+inmueble urbano de la sociedad conyugal, si el marido quisiere arrendarlo por más de
+cinco años, deberá contar con la autorización de la mujer.
+        Ahora bien, respecto de la primera exigencia, cabe plantearse la siguiente
+pregunta: ¿qué efecto produce la circunstancia de haber celebrado el contrato de
+arrendamiento por escrito, pero habié
+**Concordancias Legales:** artículo 18; artículo 15 del Decreto Ley 993; artículo 17 del Decreto Ley 993; artículo 2000; artículo 1996; artículo 10; artículo 44 del Código de Trabajo; artículo 55; artículo 7; artículos 1915; artículos 1997; artículos 2012; Ley N° 18.101; Ley Nº 19.866; Ley Nº 18.101; Ley Nº 20.227; Ley Nº 19.866103; Ley Nº 16.640; Ley Nº 19.946; Constitución Política; constitución
 
 está legalmente habilitado para celebrar el contrato. En tal sentido, por ejemplo, si se
 trata de un inmueble propio de la mujer casada en sociedad conyugal, será necesario
@@ -4592,8 +4640,10 @@ mercantil para el proveedor y civil para el consumidor. Lo mismo ocurre con las
 sociedades profesionales: el art. 2° de la ley les hace inaplicable su normativa, al no
 ejecutar dichas sociedades actos mercantiles.111
 
-
 ## 9.9. Prescripción de la acción derivada de un contrato de prestación de
+
+**Definición Canónica:** servicios.
+**Concordancias Legales:** artículo 2515
 
 servicios.
 
@@ -4619,11 +4669,12 @@ largo tiempo, es decir, de 3 o de 5 años.
 
 10.- Modelo de contrato de arrendamiento de cosa.
 
-
 ## Contrato de arrendamiento113
 
+**Definición Canónica:** ________________________________
+**Concordancias Legales:** artículo 2523; artículos 2503; Artículo 1945 del Código Civil. b; Ley Nº 21.442
 
-                          ________________________________
+________________________________
 
                                                      A
 
@@ -4843,8 +4894,15 @@ autorización expresa faculta al arrendatario para participar en representación
 propietario, incluso en las asambleas extraordinaria de quórum con mayoría reforzada,
 reguladas en el art. 15 de la mencionada Ley.
 
-
 ## (si se trata del arrendamiento de un inmueble urbano regido por la ley
+
+**Definición Canónica:** N° 18.101).
+DÉCIMO OCTAVO: Se deja constancia que el arrendador exhibió al notario público
+que autoriza la firma de los contratantes los títulos que lo habilitan para ceder el uso
+del inmueble respecto del cual recae el presente contrato, dándose cumplimiento de
+esta forma a lo previsto en el artículo 20 de la Ley N° 18.101, que fija normas
+especiales sobre arrendamiento de predios urbanos.
+**Concordancias Legales:** artículo 20 de la Ley N; artículos 1526; Ley N° 18.101
 
 N° 18.101).
 DÉCIMO OCTAVO: Se deja constancia que el arrendador exhibió al notario público
@@ -4899,11 +4957,16 @@ plazo del presente contrato de arrendamiento, así como las modificaciones del c
 que puedan introducírsele por las partes, especialmente las variaciones en la renta de
 arrendamiento.
 
-
-## Vigésimo cuarto: (si el plazo del arrendamiento excederá de 5 o de 8
-
-
 ## Años, según se trate de inmuebles urbanos o rústicos, que forman parte
+
+**Definición Canónica:** DEL    HABER     DE     LA    SOCIEDAD     CONYUGAL)     Presente   al  acto   doña
+________________________,                              _____________(nacionalidad),
+_______________________ (profesión, actividad u oficio), cédula nacional de
+identidad número _________________, casada con el vendedor y de su mismo
+domicilio, quien acredita su identidad con la cédula mencionada, y expone: que viene
+en autorizar expresamente a su cónyuge, para dar en arrendamiento el inmueble
+singularizado en la cláusula primera de este instrumento, cuyos términos acepta y
+hace suyos, todo ello de conformidad a
 
 DEL    HABER     DE     LA    SOCIEDAD     CONYUGAL)     Presente   al  acto   doña
 ________________________,                              _____________(nacionalidad),

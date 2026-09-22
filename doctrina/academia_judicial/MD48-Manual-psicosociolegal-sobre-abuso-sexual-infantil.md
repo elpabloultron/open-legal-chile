@@ -13,20 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 48           Manual
-
-             psicosociolegal
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             sobre abuso
+                 electrónica
+             sexual infantil
+                 de causas
+             Paula Vergara Cortés
+             José Andrés Murillo
 
-                 Tramitación
+Tramitación
              sobre abuso
                  electrónica
              sexual infantil
@@ -87,28 +84,10 @@ Materiales Docentes                                         ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Ámbito normativo
-
-## 29      Capítulo 2
-
-        El abuso sexual infantil y sus modelos
-
-## 41      Capítulo 3
-
-        Desafíos en la intervención
-
-## 64      Capítulo 4
-
-        Rol reparatorio del sistema
-
-## 76      Referencias
-
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Ámbito normativo
+**Concordancias Legales:** artículo 361; artículo 363; artículo 368; artículo 366; artículo 4; artículos 362; artículo 36; artículo 37; artículo 95 del Código Penal; artículo 369; artículos 361; artículos 141; artículo 5 de la Ley 21.160; artículo 96; artículo 96 del Código Penal; artículo 18 del Código Penal; artículo 1; artículo 5; artículo 9; artículo 15; artículo 368 bis del Código Penal; artículo 12; artículo 2; artículos 4 inciso 8; artículos 5; artículos 12; artículo 363 inciso 3 del Código Penal; artículo 494 ter del Código Penal; Artículo 30; artículo 68; Artículo 69; Artículo 71; Artículo 22; artículo 3; artículo 6; artículo 18; artículo 58; artículo 5 inciso 2 de la Constitución Política de la República es debe; Artículo 19; Artículo 34
 
 Ámbito normativo
 
@@ -1014,8 +993,9 @@ el nivel de madurez de cada niño en particular.
 
 Materiales Docentes                                                    Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** El abuso sexual infantil y sus modelos
 
 El abuso sexual infantil y sus modelos
 
@@ -1183,8 +1163,13 @@ característicos es que no busca restablecer la confianza, ni crear una platafor
 
                     Figura 5. Componentes de la desconfianza total.
 
-
 ## Parte de la crisis vinculada a las funas, por ejemplo, guarda estrecha
+
+**Definición Canónica:** relación con la incredulidad hacia el sistema en su capacidad de tratar
+las victimizaciones de los niños y niñas. Algo similar ocurre con las órdenes de revinculación en casos donde se han señalado agresiones sexuales por parte de uno de los apoderados de un niño o una niña, en los
+que, por no haber sido acreditado un delito en el proceso penal, se privilegia la revinculación sobre el deseo o sintomatología del niño o niña.
+   Lo anterior solo genera desconfianza total en el sistema de justicia,
+toda vez que la necesidad de cuidado y de reconocimiento de la víctima como sujeto de protección ha
 
 relación con la incredulidad hacia el sistema en su capacidad de tratar
 las victimizaciones de los niños y niñas. Algo similar ocurre con las órdenes de revinculación en casos donde se han señalado agresiones sexuales por parte de uno de los apoderados de un niño o una niña, en los
@@ -1457,8 +1442,9 @@ encuentra bajo un tipo de relación de sometimiento extremo.
 Academia Judicial de Chile            Manual psicosociolegal sobre abuso sexual infantil
 Materiales Docentes                                                         Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Desafíos en la intervención
 
 Desafíos en la intervención
 
@@ -1481,8 +1467,14 @@ mil habitantes. En tanto, las regiones con menores tasas son la Región
 Metropolitana (55,2), la Región del Ñuble (59,3) y las regiones del Maule
 y el Biobío (60,1).
 
-
 ## 1 Que pueden consultarse en la base de datos de estadísticas oficiales de delitos
+
+**Definición Canónica:** de mayor connotación social (DMCS), violencia intrafamiliar (VIF), incivilidades
+y otros hechos informados por Carabineros y la Policía de Investigaciones de Chile
+del Centro de Estudios y Análisis del Delito, disponible en https://bit.ly/3Sgnakp.
+ 2 No obstante, cabe precisar que los antecedentes del año 2021 corresponden al registro y medición de los tres primeros trimestres, es decir, entre enero y septiembre,
+ya que al momento de elaborar este informe aún no se encontraban disponibles los
+del periodo octubre-diciembre.
 
 de mayor connotación social (DMCS), violencia intrafamiliar (VIF), incivilidades
 y otros hechos informados por Carabineros y la Policía de Investigaciones de Chile
@@ -1692,7 +1684,10 @@ son niñas.
 
 ## 5.103               Mujeres
 
-                   3.092
+**Definición Canónica:** 3.092
+**Concordancias Legales:** artículo 297; artículos 28; Artículo 28; Artículo 32; Artículo 41; Ley 21.057; Ley 19.968
+
+3.092
 
                                                                            Hombres
            4.000
@@ -2336,8 +2331,10 @@ familiares, y de un ambiente contenedor para no flaquear y sostener lo
 que han relatado. Por ello, a menos que el niño reciba un apoyo sustancial ante su denuncia, normalmente se retracta. La presión ejercida
 sobre la víctima por la familia, por el abusador, e incluso por los profesionales, puede abrumar al niño o niña abusada y obligarla a retractarse.
 
-
 ## 4 Véase «Percepción de los procesos de investigación y judicialización en los casos
+
+**Definición Canónica:** de agresiones sexuales infantiles en la Regiones Metropolitana, de Valparaíso y del
+Bío-Bío», informe de estudio para la Fundación Amparo y Justicia: Mide UC, disponible en https://bit.ly/3xvVdgy.
 
 de agresiones sexuales infantiles en la Regiones Metropolitana, de Valparaíso y del
 Bío-Bío», informe de estudio para la Fundación Amparo y Justicia: Mide UC, disponible en https://bit.ly/3xvVdgy.
@@ -2369,8 +2366,10 @@ que tenga que reproducir el menor e impediría una sobreexposición revictimizan
 
 Materiales Docentes                                                     Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Rol reparatorio del sistema
+**Concordancias Legales:** Artículo 3.1; Artículo 19.1; Artículo 34; Artículo 19; Artículo 6; Artículo 109; Ley 19.617; Ley 19.846; Ley 19.874; Ley 19.927; Ley 20.594; Ley 20.084; Ley 20.207; Ley 21.160; Ley 20.066; Ley 20.480; Ley 20.526; Ley 21.057; Ley 21.153; Ley 16.618; Ley 19.968; Constitución Política; Constitución
 
 Rol reparatorio del sistema
 

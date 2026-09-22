@@ -13,19 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## Serie de
-
-
-## Documentos                                                        09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tutela de
+             Derechos
+             Fundamentales
+             en el contexto
+                  del derecho
 
-             Tutela de
+Tutela de
              Derechos
              Fundamentales
              en el contexto
@@ -43,19 +39,22 @@ extraccion: pdftotext
              Academia Judicial de Chile
              Amunátegui 465, Santiago | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Sergio
+                                Gamonal
+                                Contreras
+                          Profesor de Derecho del Trabajo y di-
+                          rector del Magíster en Derecho laboral
+                          y seguridad social de la Facultad de
+                          Derecho de la Universidad Adolfo
+                          Ibáñez. Es autor de numerosos libros
+                          y artículos publicados y citados en
+                          varios idiomas. Miembro de la Socie-
+                          dad Chilena de Derecho del Trabajo
+           
 
-                          Sergio
+Sergio
                                 Gamonal
                                 Contreras
                           Profesor de Derecho del Trabajo y di-
@@ -122,39 +121,28 @@ Chile 2020                artículos de su especialidad.
 
                                            1.2 El conflicto de derechos fundamentales                                                                   16
 
-
-## 1.2.1   La ponderación judicial: el dilema entre certeza y discrecionalidad                              17
-
-
-
 ## 1.2.2   La crítica a la eficacia horizontal de los derechos fundamentales                                23
 
+**Definición Canónica:** 2. La relación de trabajo y los conflictos de Derechos Fundamentales                                            35
 
-                                        2. La relación de trabajo y los conflictos de Derechos Fundamentales                                            35
+2. La relación de trabajo y los conflictos de Derechos Fundamentales                                            35
 
                                            2.1 La “ciudadanía en la empresa” y los derechos fundamentales del trabajador                                36
 
-
 ## 2.1.1   Orígenes de esta noción                                                                          36
 
+**Definición Canónica:** 2.1.2   ¿En qué consiste la noción de ciudadanía en la empresa?                                          42
 
-                                                2.1.2   ¿En qué consiste la noción de ciudadanía en la empresa?                                          42
+2.1.2   ¿En qué consiste la noción de ciudadanía en la empresa?                                          42
 
                                            2.2 El contrato de trabajo como relación de poder                                                            45
 
-
-## 2.2.1   Las potestades de organización, dirección y punitivas del empleador                              45
-
-
-
-## 2.2.2   Medios tecnológicos y control del empleador en la relación de trabajo                            60
-
-
-
 ## 2.2.3   Los límites jurídicos al control del empleador. La doctrina de la Dirección del Trabajo.         84
 
+**Definición Canónica:** 2.3 Autonomía colectiva y conflicto constitucional. La libertad sindical.                                     89
+**Concordancias Legales:** constitucion
 
-                                           2.3 Autonomía colectiva y conflicto constitucional. La libertad sindical.                                     89
+2.3 Autonomía colectiva y conflicto constitucional. La libertad sindical.                                     89
 
                                         3. Temas relevantes del procedimiento y de la acción de tutela de Derechos Fundamentales                         92
 
@@ -162,68 +150,19 @@ Chile 2020                artículos de su especialidad.
 
                                            3.2 Derechos constitucionales protegidos                                                                      98
 
-
-## 3.2.1   Derecho a la vida y a la integridad física y psíquica                                            99
-
-
-
-## 3.2.2   Privacidad y honra                                                                              108
-
-
-
-## 3.2.3   No discriminación                                                                               119
-
-
-
-## 3.2.4   Inviolabilidad de toda forma de comunicación privada                                            129
-
-
-
-## 3.2.6   La libertad de emitir opinión y de informar sin censura previa                                  135
-
-
-
-## 3.2.7   Libertad de trabajo                                                                             141
-
-
-
 ## 3.2.8   Libertad sindical                                                                               143
 
+**Definición Canónica:** 3.3 La garantía de indemnidad                                                                                145
 
-                                           3.3 La garantía de indemnidad                                                                                145
+3.3 La garantía de indemnidad                                                                                145
 
                                            3.4 Ámbito material, espacial y temporal de aplicación de la acción de tutela                                153
 
-
-## 3.4.1   Ámbito de aplicación espacial y material                                                        153
-
-
-
-## 3.4.2   Ámbito temporal de la acción de tutela y suspensión del acto lesivo de derechos fundamentales   163
-
-Tutela de Derechos                                                               Índice                                                       5
-
-
-## 3.5 Titulares de la acción                                                                  166
-
-
-
-## 3.6 Ponderación y prueba de indicios                                                        168
-
-
-
-## 3.7 Sentencia definitiva y los remedios sistémicos                                          175
-
-
-
-## 3.8. El despido atentatorio de derechos fundamentales y el despido discriminatorio grave*   180
-
-
-
 ## 3.9 A diez años del procedimiento de tutela                                                 188
 
+**Definición Canónica:** Conclusiones190
 
-                                        Conclusiones190
+Conclusiones190
 
                                         Glosario193
 
@@ -269,10 +208,12 @@ Chile 2020                artículos de su especialidad.
                                                                           a los conflictos de derechos fundamentales. En este contexto, nos
                                                                           haremos cargo de las críticas y eventuales peligros que una eficacia
 
-
 ## 1   Utilizaremos, indistintamente y como sinónimos de derechos humanos, las siguientes expresiones: derechos
 
-                                            ciudadanos, derechos fundamentales, derechos esenciales y garantías constitucionales.
+**Definición Canónica:** ciudadanos, derechos fundamentales, derechos esenciales y garantías constitucionales.
+**Concordancias Legales:** constitucion
+
+ciudadanos, derechos fundamentales, derechos esenciales y garantías constitucionales.
 
 Tutela de Derechos                      Introducción                                                             7
 
@@ -347,7 +288,14 @@ contexto del derecho                                                          Fu
 
 ## 4   Sobre los múltiples alcances distintos de la voz principios dentro del derecho, véase GAMONAL C., Sergio
 
-                                            (2014), Fundamentos de derecho laboral, 2ª edición, Santiago, Thomson Reuters, pp. 141 y ss.
+**Definición Canónica:** (2014), Fundamentos de derecho laboral, 2ª edición, Santiago, Thomson Reuters, pp. 141 y ss.
+                                            Respecto del contenido simbólico de los principios, véase GAMONAL C., Sergio (2019), “Narrativa laboral y
+                                            principios de derecho del trabajo”, Revista de la Facultad de Derecho de México, Vol. 69, Nº 173-1, pp. 65-88.
+                                        5   ATIENZA, Manuel y RUIZ MANERO, Juan (1993), “Tres enfoques de los principios jurídicos”, Revista de Ciencias
+                                            Socia
+**Concordancias Legales:** artículo 12 de la Constitución alemana que dispone que la liber; Constitucion; Constitución
+
+(2014), Fundamentos de derecho laboral, 2ª edición, Santiago, Thomson Reuters, pp. 141 y ss.
                                             Respecto del contenido simbólico de los principios, véase GAMONAL C., Sergio (2019), “Narrativa laboral y
                                             principios de derecho del trabajo”, Revista de la Facultad de Derecho de México, Vol. 69, Nº 173-1, pp. 65-88.
                                         5   ATIENZA, Manuel y RUIZ MANERO, Juan (1993), “Tres enfoques de los principios jurídicos”, Revista de Ciencias
@@ -625,10 +573,12 @@ contexto del derecho                                                          Fu
 Fundamentales en el                                                          sobre los Derechos
 contexto del derecho                                                         Fundamentales
 
-
 ## 1.2           El conflicto de derechos
 
-                                                                           fundamentales
+**Definición Canónica:** fundamentales
+**Concordancias Legales:** constitucion
+
+fundamentales
 
                                                                            Desde la teoría constitucional se han planteado una serie de posibles
                                                                            soluciones para resolver los conflictos de derechos fundamentales.
@@ -661,7 +611,13 @@ contexto del derecho                                                         Fun
 
 ## 28   GAMONAL C., Sergio (2008), El procedimiento de tutela de derechos laborales, 2ª edición revisada y actua-
 
-                                             lizada, Santiago, LegalPublishing, p. 42.
+**Definición Canónica:** lizada, Santiago, LegalPublishing, p. 42.
+                                        29   UGARTE CATALDO, José Luis (2010), Tutela de derechos fundamentales del trabajador, 3ª edición, Santiago,
+                                             LegalPublishing, pp. 64 y 65.
+                                        30   UGARTE (2010), p. 65.
+**Concordancias Legales:** artículo 19 de la Constitución33; artículo 19; artículo 1934; Constitución
+
+lizada, Santiago, LegalPublishing, p. 42.
                                         29   UGARTE CATALDO, José Luis (2010), Tutela de derechos fundamentales del trabajador, 3ª edición, Santiago,
                                              LegalPublishing, pp. 64 y 65.
                                         30   UGARTE (2010), p. 65.
@@ -694,28 +650,26 @@ contexto del derecho                                                          Fu
                                                                             lución del conflicto por medio del principio de proporcionalidad y
                                                                             la ponderación35.
 
-
 ## 1.2.1 La ponderación judicial: el dilema
 
-                                                                            entre certeza y discrecionalidad
+**Definición Canónica:** entre certeza y discrecionalidad
+                                                                            Como ya mencionamos, la ponderación o balance de principios en el
+                                                                            caso concreto exige determinar cuál de los principios en juego debe
+                                                                            ceder frente al otro. Esto no implica declarar inválido el principio
+
+entre certeza y discrecionalidad
                                                                             Como ya mencionamos, la ponderación o balance de principios en el
                                                                             caso concreto exige determinar cuál de los principios en juego debe
                                                                             ceder frente al otro. Esto no implica declarar inválido el principio
 
                                         31   ALDUNATE (2008), p. 273.
 
-## 32   RUIZ-TAGLE, Pablo (2001), “Una dogmática general para los derechos fundamentales en Chile”, en Revista
-
-                                             de Derecho Público, Vol. 63, pp. 179-199, p. 183.
-
-## 33   LEIVA FADIC, Felipe (2010), “Hacia un constitucionalismo moderado o deferente”, en Revista de Derecho
-
-                                             Público, Vol. 73, pp. 133-170, p. 160.
-                                        34   RUIZ-TAGLE, Pablo (2001), pp. 183-187.
-
 ## 35   ALEXY (2001), p. 89, GUASTINI (1999), p. 170 y MELIS VALENCIA, Christian (2009), Los derechos fundamen-
 
-                                             tales de los trabajadores como límites a los poderes empresariales, Santiago, LegalPublishing, pp. 104 y ss.
+**Definición Canónica:** tales de los trabajadores como límites a los poderes empresariales, Santiago, LegalPublishing, pp. 104 y ss.
+**Concordancias Legales:** Constitucion
+
+tales de los trabajadores como límites a los poderes empresariales, Santiago, LegalPublishing, pp. 104 y ss.
 
 Tutela de Derechos                                                      1. Aspectos generales                                                   18
 Fundamentales en el                                                         sobre los Derechos
@@ -755,14 +709,13 @@ Fundamentales en el                                                         sobr
                                         37   GUASTINI (1999), pp. 169 y 170.
                                         38   ALEXY (2001), p.161.
 
-## 39   ALEXY, Robert (2002), “Epílogo a la teoría de los derechos fundamentales”, Revista Española de Derecho
-
-                                             Constitucional, Año 22, N° 66, p. 55.
-                                        40   ALEXY (2001), p. 164.
-
 ## 41   NOGUEIRA ALCALÁ, Humberto (2006), Lineamientos de interpretación constitucional y del bloque consti-
 
-                                             tucional de derechos, Santiago, Librotecnia, p. 386.
+**Definición Canónica:** tucional de derechos, Santiago, Librotecnia, p. 386.
+                                        42   NOGUEIRA ALCALÁ (2006), p. 386.
+**Concordancias Legales:** constitucion
+
+tucional de derechos, Santiago, Librotecnia, p. 386.
                                         42   NOGUEIRA ALCALÁ (2006), p. 386.
 
 Tutela de Derechos                                                      1. Aspectos generales                                                   19
@@ -799,14 +752,14 @@ Fundamentales en el                                                         sobr
                                                                           El examen de necesidad o de intervención mínima exige que esta
                                                                           cumpla los siguientes estándares46:
 
-## 1. Necesidad material: el medio usado debe ser el que afecte en
-
-                                                                             menor medida los derechos fundamentales.
-
-
 ## 43   GAMONAL C., Sergio, (2004a), Ciudadanía en la empresa o los derechos fundamentales inespecíficos, Mon-
 
-                                             tevideo, Fundación de Cultura Universitaria, p. 75. En el mismo sentido, OLIVER (2011), p. 344.
+**Definición Canónica:** tevideo, Fundación de Cultura Universitaria, p. 75. En el mismo sentido, OLIVER (2011), p. 344.
+                                        44   BERNAL (2010), p. 10.
+                                        45   BERNAL (2010), p. 10.
+                                        46   NOGUEIRA (2006), pp. 387 y 388.
+
+tevideo, Fundación de Cultura Universitaria, p. 75. En el mismo sentido, OLIVER (2011), p. 344.
                                         44   BERNAL (2010), p. 10.
                                         45   BERNAL (2010), p. 10.
                                         46   NOGUEIRA (2006), pp. 387 y 388.
@@ -815,18 +768,12 @@ Fundamentales en el                                                         sobr
 Fundamentales en el                                                            sobre los Derechos
 contexto del derecho                                                           Fundamentales
 
-
-## 2. Exigibilidad espacial: el medio usado debe ser aquel que estatuya
-
-                                                                                el menor ámbito de limitación del derecho.
-
-## 3. Exigibilidad temporal: la medida debe regir el menor tiempo
-
-                                                                                posible.
-
 ## 4. Exigibilidad personal: la medida debe afectar al menor número
 
-                                                                                de personas posible.
+**Definición Canónica:** de personas posible.
+**Concordancias Legales:** artículo 160; artículo 154; constitucion
+
+de personas posible.
 
                                                                              La proporcionalidad en sentido estricto quiere decir que el límite que im-
                                                                              ponga el legislador a los derechos fundamentales debe ser racional en
@@ -900,10 +847,14 @@ contexto del derecho                                                            
                                                                                como el principio de proporcionalidad guiarán la labor del juez en
                                                                                la generalidad de los casos.
 
-
 ## 49   GAMONAL C., Sergio (2010), Trabajo y derecho, Santiago, AbeledoPerrot, pp. 51 y ss., y GAMONAL C., Sergio
 
-                                                (2011), Cidadania na Empresa e Eficácia Diagonal dos Direitos Fundamentais, Sao Paulo, Editora LTR, pp. 20
+**Definición Canónica:** (2011), Cidadania na Empresa e Eficácia Diagonal dos Direitos Fundamentais, Sao Paulo, Editora LTR, pp. 20
+                                                y ss.
+                                           50   En este sentido. GAMONAL (2004a), p. 75 y OLIVER (2011), p. 344.
+**Concordancias Legales:** artículo 485; artículos 289; constitucion
+
+(2011), Cidadania na Empresa e Eficácia Diagonal dos Direitos Fundamentais, Sao Paulo, Editora LTR, pp. 20
                                                 y ss.
                                            50   En este sentido. GAMONAL (2004a), p. 75 y OLIVER (2011), p. 344.
 
@@ -956,10 +907,16 @@ contexto del derecho                                                            
 Fundamentales en el                                                            sobre los Derechos
 contexto del derecho                                                           Fundamentales
 
-
 ## 1.2.2 La crítica a la eficacia horizontal
 
-                                                                             de los derechos fundamentales
+**Definición Canónica:** de los derechos fundamentales
+                                                                             La idea de una eficacia horizontal de los derechos fundamentales y su
+                                                                             aplicación al contrato de trabajo ha sido también objeto de diversas
+                                                                             críticas55, que se centran más en el alcance de la eficacia de los de-
+                                                                             rechos fundamentales entre particulares que en negar
+**Concordancias Legales:** constitucion; Constitución
+
+de los derechos fundamentales
                                                                              La idea de una eficacia horizontal de los derechos fundamentales y su
                                                                              aplicación al contrato de trabajo ha sido también objeto de diversas
                                                                              críticas55, que se centran más en el alcance de la eficacia de los de-
@@ -1036,31 +993,41 @@ contexto del derecho                                                          Fu
                                                                             No concordamos con estos argumentos, según expondremos
                                                                             a continuación.
 
-
 ## 1.2.2.1 Argumento histórico
 
-                                                                            Por lo pronto, en cuanto al origen histórico de los derechos humanos,
+**Definición Canónica:** Por lo pronto, en cuanto al origen histórico de los derechos humanos,
+                                                                            cabe recordar el texto del artículo 18 de la Declaración de los Derechos del
+                                                                            Hombre y del Ciudadano de 24 de junio de 1793 (Constitución Jacobina),
+                                                                            cuyo tenor establecía que: “Cualquiera puede contratar sus servicios
+                                                                            y su tiem
+**Concordancias Legales:** artículo 18 de la Declaración de los Derechos del; Constitución
+
+Por lo pronto, en cuanto al origen histórico de los derechos humanos,
                                                                             cabe recordar el texto del artículo 18 de la Declaración de los Derechos del
                                                                             Hombre y del Ciudadano de 24 de junio de 1793 (Constitución Jacobina),
                                                                             cuyo tenor establecía que: “Cualquiera puede contratar sus servicios
                                                                             y su tiempo, pero no puede venderse ni ser vendido; su persona no
 
-
-## 57   ASÍS ROIG, Rafael de (2004), Prólogo a la obra de VENEGAS GRAU, María, Derechos fundamentales y derecho
-
-                                             privado. Los derechos fundamentales en las relaciones entre particulares y el principio de autonomía privada,
-                                             Madrid, Marcial Pons, p. 9.
-
 ## 58   CORREA, Rodrigo (2004), “En defensa de una aplicación exclusivamente vertical de los derechos constitu-
 
-                                             cionales”, pp. 2 y ss. Este trabajo inédito se basa en la ponencia presentada el 13 de enero de 2004 en el VI
+**Definición Canónica:** cionales”, pp. 2 y ss. Este trabajo inédito se basa en la ponencia presentada el 13 de enero de 2004 en el VI
+                                             Congreso Mundial de Derecho Constitucional, Santiago de Chile.
+                                        59   FERRERES COMELLA, Víctor (2001), “La eficacia de los derechos constitucionales frente a los particulares”,
+                                             Los derechos fundamentales, Buenos Aires, SELA 2001, p. 48.
+**Concordancias Legales:** Constitucion
+
+cionales”, pp. 2 y ss. Este trabajo inédito se basa en la ponencia presentada el 13 de enero de 2004 en el VI
                                              Congreso Mundial de Derecho Constitucional, Santiago de Chile.
                                         59   FERRERES COMELLA, Víctor (2001), “La eficacia de los derechos constitucionales frente a los particulares”,
                                              Los derechos fundamentales, Buenos Aires, SELA 2001, p. 48.
 
 ## 60   JANA LINETZKY, Andrés (2001), “La eficacia horizontal de los derechos fundamentales”, Los derechos fun-
 
-                                             damentales, Buenos Aires, SELA pp. 64 y ss.
+**Definición Canónica:** damentales, Buenos Aires, SELA pp. 64 y ss.
+                                        61   FERRERES (2001), p. 49.
+**Concordancias Legales:** artículo 4
+
+damentales, Buenos Aires, SELA pp. 64 y ss.
                                         61   FERRERES (2001), p. 49.
 
 Tutela de Derechos                                                         1. Aspectos generales                                                         25
@@ -1098,10 +1065,15 @@ contexto del derecho                                                           F
                                                                              algunas de las cuales tienen más recursos económicos que los países
                                                                              en desarrollo. Por tanto, para ser coherentes, debiera postularse su
 
-
 ## 62   Incluso, desde una perspectiva histórica, podemos encontrar derechos sociales (de los denominados de se-
 
-                                             gunda generación) en las declaraciones del siglo XVIII, por ejemplo en la Constitución Jacobina de 1793, ya
+**Definición Canónica:** gunda generación) en las declaraciones del siglo XVIII, por ejemplo en la Constitución Jacobina de 1793, ya
+                                             citada, con el derecho a un mínimo existencial (artículo 21) y el derecho ciudadano a la educación (artículo
+                                             24). HÄBERLE, Peter (1998), Libertad, igualdad, fraternidad. 1789 como historia, actualidad y futuro del Estado
+                                             constitucional, Madrid, Trotta, pp. 53 y 54.
+**Concordancias Legales:** artículo 21; artículo 24; Constitución; constitucion
+
+gunda generación) en las declaraciones del siglo XVIII, por ejemplo en la Constitución Jacobina de 1793, ya
                                              citada, con el derecho a un mínimo existencial (artículo 21) y el derecho ciudadano a la educación (artículo
                                              24). HÄBERLE, Peter (1998), Libertad, igualdad, fraternidad. 1789 como historia, actualidad y futuro del Estado
                                              constitucional, Madrid, Trotta, pp. 53 y 54.
@@ -1127,10 +1099,15 @@ contexto del derecho                                                           F
                                                                              los derechos naturales, convertidos en individuales y civiles lo son
                                                                              frente a los terceros particulares”65 66.
 
-
 ## 1.2.2.2 Supuesta objetividad del legislador
 
-                                                                             La supuesta objetividad del legislador al regular a los privados (caso
+**Definición Canónica:** La supuesta objetividad del legislador al regular a los privados (caso
+                                                                             en el que no sería necesaria la vigencia de los derechos fundamenta-
+                                                                             les entre privados) tampoco es un argumento convincente, además
+                                                                             de ser demasiado teórico. El legislador puede equivocarse en sus
+                                                                             elecciones, no represen
+
+La supuesta objetividad del legislador al regular a los privados (caso
                                                                              en el que no sería necesaria la vigencia de los derechos fundamenta-
                                                                              les entre privados) tampoco es un argumento convincente, además
                                                                              de ser demasiado teórico. El legislador puede equivocarse en sus
@@ -1140,20 +1117,25 @@ contexto del derecho                                                           F
                                                                              privados sobre todo frente a los desniveles de poder entre ellos, como
                                                                              ocurre en esta rama del derecho.
 
-
-## 63   VENEGAS GRAU, María (2004), Derechos fundamentales y derecho privado. Los derechos fundamentales en
-
-                                             las relaciones entre particulares y el principio de autonomía privada, Madrid, Marcial Pons, p. 122.
-
 ## 64   PECES_BARBA MARTÍNEZ, Gregorio (1999), Curso de derechos fundamentales. Teoría general, con la colabo-
 
-                                             ración de Rafael de Asís Roig, Carlos R. Fernández Liesa y Ángel Llamas Cascón, Madrid, Universidad Carlos
+**Definición Canónica:** ración de Rafael de Asís Roig, Carlos R. Fernández Liesa y Ángel Llamas Cascón, Madrid, Universidad Carlos
+                                             III de Madrid. Boletín Oficial del Estado, p. 619.
+                                        65   PECES_BARBA (1999), p. 620.
+
+ración de Rafael de Asís Roig, Carlos R. Fernández Liesa y Ángel Llamas Cascón, Madrid, Universidad Carlos
                                              III de Madrid. Boletín Oficial del Estado, p. 619.
                                         65   PECES_BARBA (1999), p. 620.
 
 ## 66   Tanto Grimm, con su análisis funcional de los derechos fundamentales, como Fioravanti desde una perspec-
 
-                                             tiva histórica, distinguen diversos fundamentos y orígenes de estos derechos. GRIMM, Dieter (2006), Consti-
+**Definición Canónica:** tiva histórica, distinguen diversos fundamentos y orígenes de estos derechos. GRIMM, Dieter (2006), Consti-
+                                             tucionalismo y derechos fundamentales, Madrid, Trotta, p. 101, y FIORAVANTI, Maurizio (1996), Los derechos
+                                             fundamentales: apuntes de historia de las constituciones, traducción de Manuel Martínez Neira, Madrid, Trotta,
+                                             pp. 25 y ss. Una síntesis de ambas visiones en GAMONAL (2008), pp. 70 y ss.
+**Concordancias Legales:** constitucion
+
+tiva histórica, distinguen diversos fundamentos y orígenes de estos derechos. GRIMM, Dieter (2006), Consti-
                                              tucionalismo y derechos fundamentales, Madrid, Trotta, p. 101, y FIORAVANTI, Maurizio (1996), Los derechos
                                              fundamentales: apuntes de historia de las constituciones, traducción de Manuel Martínez Neira, Madrid, Trotta,
                                              pp. 25 y ss. Una síntesis de ambas visiones en GAMONAL (2008), pp. 70 y ss.
@@ -1177,10 +1159,15 @@ contexto del derecho                                                          Fu
 
                                                                             poder entre privados. Al respecto, nos referiremos en el acápite 1.2.2.4.
 
-
 ## 1.2.2.3 Afectación de la autonomía privada
 
-                                                                            Otro argumento, respecto de los peligros de la eficacia horizontal de
+**Definición Canónica:** Otro argumento, respecto de los peligros de la eficacia horizontal de
+                                                                            derechos fundamentales, es el relativo a la afectación de la autonomía
+                                                                            privada. Sin embargo, esta objeción admite dos críticas: una general
+                                                                            y otra específica desde la óptica del derecho laboral.
+**Concordancias Legales:** artículo 1.134; artículo 1.172 del Código de 1804; constitucion
+
+Otro argumento, respecto de los peligros de la eficacia horizontal de
                                                                             derechos fundamentales, es el relativo a la afectación de la autonomía
                                                                             privada. Sin embargo, esta objeción admite dos críticas: una general
                                                                             y otra específica desde la óptica del derecho laboral.
@@ -1247,7 +1234,10 @@ contexto del derecho                                                          Fu
 
 ## 73   LÓPEZ (1998), p. 263. (La cursiva es del original.)
 
-                                        74   GAMONAL C., Sergio (2018), “De la eficacia horizontal a la diagonal de derechos fundamentales en el contrato
+**Definición Canónica:** 74   GAMONAL C., Sergio (2018), “De la eficacia horizontal a la diagonal de derechos fundamentales en el contrato
+                                             de trabajo: una perspectiva latinoamericana”, Latin American Legal Studies, Vol. 3 2018, pp. 1-28.
+
+74   GAMONAL C., Sergio (2018), “De la eficacia horizontal a la diagonal de derechos fundamentales en el contrato
                                              de trabajo: una perspectiva latinoamericana”, Latin American Legal Studies, Vol. 3 2018, pp. 1-28.
 
 Tutela de Derechos                                                         1. Aspectos generales                                                         29
@@ -1263,10 +1253,13 @@ contexto del derecho                                                           F
                                                                              autores críticos de la eficacia horizontal, como Hesse76 y Canaris77,
                                                                              reconocen los particularismos del derecho laboral.
 
-
 ## 1.2.2.4 Aumento de la discrecionalidad judicial
 
-                                                                             Respecto de la objeción sobre el aumento de la discrecionalidad
+**Definición Canónica:** Respecto de la objeción sobre el aumento de la discrecionalidad
+                                                                             del juez y de la pérdida de seguridad jurídica, cabe comentar, para
+**Concordancias Legales:** constitucion
+
+Respecto de la objeción sobre el aumento de la discrecionalidad
                                                                              del juez y de la pérdida de seguridad jurídica, cabe comentar, para
 
                                                                              efectos del derecho laboral, que la potestad de mando del empleador
@@ -1288,7 +1281,14 @@ contexto del derecho                                                           F
 
 ## 77   Canaris plantea que perfectamente la misma Constitución puede disponer excepcionalmente en su texto la
 
-                                             eficacia entre terceros (particulares) de un derecho fundamental. Y da dos ejemplos y los dos son de derecho
+**Definición Canónica:** eficacia entre terceros (particulares) de un derecho fundamental. Y da dos ejemplos y los dos son de derecho
+                                             laboral. El primero es de la Constitución alemana, en su artículo 9 inciso 3, que contempla el derecho de toda
+                                             persona y profesión de formar asociaciones para defender y mejorar sus condiciones económicas, disponiendo
+                                             luego que: “Los convenios tendentes a restringir o impedir este derecho serán nulos e ilegales las medidas
+                               
+**Concordancias Legales:** artículo 9 inciso 3; artículo 36; Constitución; constitucion
+
+eficacia entre terceros (particulares) de un derecho fundamental. Y da dos ejemplos y los dos son de derecho
                                              laboral. El primero es de la Constitución alemana, en su artículo 9 inciso 3, que contempla el derecho de toda
                                              persona y profesión de formar asociaciones para defender y mejorar sus condiciones económicas, disponiendo
                                              luego que: “Los convenios tendentes a restringir o impedir este derecho serán nulos e ilegales las medidas
@@ -1331,10 +1331,16 @@ contexto del derecho                                                          Fu
                                                                             los tribunales. Por otro lado, un estándar de conducta puede ser
                                                                             suavizado o reforzado en la etapa de control84.
 
-
 ## 78   GAMONAL C., Sergio (2015), La eficacia diagonal u oblicua y los estándares de conducta en el derecho del
 
-                                             trabajo, Santiago, Thomson Reuters LA LEY, pp. 73-77.
+**Definición Canónica:** trabajo, Santiago, Thomson Reuters LA LEY, pp. 73-77.
+                                        79   CABRELLI, David (2011), “Rules and Standards in the Workplace: A Perspective from the Field of Labour Law”,
+                                             Legal Studies, Vol. 31 N° 1, pp. 21 y ss.
+                                             Esta distinción se origina en el derecho corporativo y fue postulada por Eisenberg en los noventa. Véase EI-
+                                             SENBERG, Melvin Aron (1993), “The Divergence of Standards of Conduct and Standards of Review in Corporate
+ 
+
+trabajo, Santiago, Thomson Reuters LA LEY, pp. 73-77.
                                         79   CABRELLI, David (2011), “Rules and Standards in the Workplace: A Perspective from the Field of Labour Law”,
                                              Legal Studies, Vol. 31 N° 1, pp. 21 y ss.
                                              Esta distinción se origina en el derecho corporativo y fue postulada por Eisenberg en los noventa. Véase EI-
@@ -1351,7 +1357,11 @@ contexto del derecho                                                          Fu
 
 ## 84   Estas divergencias entre estándares de conducta y de control pueden basarse en las diferencias de infor-
 
-                                             mación; en que el riesgo de responsabilidad por los estándares de conducta puede desincentivar la asunción
+**Definición Canónica:** mación; en que el riesgo de responsabilidad por los estándares de conducta puede desincentivar la asunción
+                                             de roles corporativos; en que un desproporcionado riesgo por responsabilidad puede afectar la toma de de-
+**Concordancias Legales:** artículo 2; artículo 12; artículo 184; artículos 3; artículo 485; artículo 9; Constitución
+
+mación; en que el riesgo de responsabilidad por los estándares de conducta puede desincentivar la asunción
                                              de roles corporativos; en que un desproporcionado riesgo por responsabilidad puede afectar la toma de de-
 
 Tutela de Derechos                                                    1. Aspectos generales                                                         31
@@ -1440,7 +1450,12 @@ contexto del derecho                                                            
 
 ## 87   Con todo, la eficacia mediata o efecto de irradiación de los derechos fundamentales ha sido también muy
 
-                                             criticada por alguna doctrina, señalándose que “al derecho privado, que hasta ahora determinaba en solitario
+**Definición Canónica:** criticada por alguna doctrina, señalándose que “al derecho privado, que hasta ahora determinaba en solitario
+                                             la configuración de las relaciones jurídicas y la decisión de los conflictos jurídicos, se le sobrepone otro orden
+                                             jurídico; este tiene incluso primacía sobre él, si bien consiste sólo en principios jurídicos, además de escasos,
+                                             muy amplios y frecuentemente indeterminados, cuyo significado para el caso concreto siempre será de
+
+criticada por alguna doctrina, señalándose que “al derecho privado, que hasta ahora determinaba en solitario
                                              la configuración de las relaciones jurídicas y la decisión de los conflictos jurídicos, se le sobrepone otro orden
                                              jurídico; este tiene incluso primacía sobre él, si bien consiste sólo en principios jurídicos, además de escasos,
                                              muy amplios y frecuentemente indeterminados, cuyo significado para el caso concreto siempre será de
@@ -1485,7 +1500,14 @@ contexto del derecho                                                          Fu
 
 ## 90   CANARIS señala críticamente cómo en aplicación de la eficacia mediata, en Alemania, el Tribunal Constitu-
 
-                                             cional ha determinado que la violación de un derecho constitucional puede llevar incluso a la obligación de
+**Definición Canónica:** cional ha determinado que la violación de un derecho constitucional puede llevar incluso a la obligación de
+                                             contratar entre particulares. CANARIS (2006), p. 233. El caso se centraba en un trabajador aprendiz que no
+                                             fue contratado por sus opiniones publicadas en una revista en contra de la instalación de una usina nuclear.
+                                             El empleador había estimado que las declaraciones manifestaban conformidad con el empleo de violencia
+                                       
+**Concordancias Legales:** artículos 5; constitucion
+
+cional ha determinado que la violación de un derecho constitucional puede llevar incluso a la obligación de
                                              contratar entre particulares. CANARIS (2006), p. 233. El caso se centraba en un trabajador aprendiz que no
                                              fue contratado por sus opiniones publicadas en una revista en contra de la instalación de una usina nuclear.
                                              El empleador había estimado que las declaraciones manifestaban conformidad con el empleo de violencia
@@ -1504,27 +1526,40 @@ contexto del derecho                                                      Fundam
                                                                         vinculación directa en el derecho laboral chileno debe ser entendido
                                                                         de la siguiente forma93:
 
-## 1. El CT y la legislación del trabajo deben ser interpretadas por el
-
-                                                                           juez a la luz de los derechos fundamentales (eficacia mediata).
-
 ## 2. Si existen vacíos legales el juez no puede negarse a resolver el
 
-                                                                           conflicto (principio de inexcusabilidad, artículo 76 inciso segundo
+**Definición Canónica:** conflicto (principio de inexcusabilidad, artículo 76 inciso segundo
+                                                                           de la Constitución), y en este caso perfectamente podrá aplicar
+**Concordancias Legales:** artículo 76; Constitución
+
+conflicto (principio de inexcusabilidad, artículo 76 inciso segundo
                                                                            de la Constitución), y en este caso perfectamente podrá aplicar
 
                                                                            directamente los derechos fundamentales (eficacia inmediata).
 
 ## 3. Si un precepto laboral vulnera los derechos fundamentales, el
 
-                                                                           juez debe remitir la norma laboral al Tribunal Constitucional por
+**Definición Canónica:** juez debe remitir la norma laboral al Tribunal Constitucional por
+                                                                           estimarla inconstitucional, aplicando de esta forma el mecanismo
+                                                                           que la propia Carta Fundamental estatuye en su artículo 93 No
+                                                                           6 (eficacia mediata).
+**Concordancias Legales:** artículo 93; Constitucion
+
+juez debe remitir la norma laboral al Tribunal Constitucional por
                                                                            estimarla inconstitucional, aplicando de esta forma el mecanismo
                                                                            que la propia Carta Fundamental estatuye en su artículo 93 No
                                                                            6 (eficacia mediata).
 
 ## 4. En materia laboral, el principio de vinculación directa implicará
 
-                                                                           que los derechos fundamentales operarán como límite directo
+**Definición Canónica:** que los derechos fundamentales operarán como límite directo
+                                                                           de las potestades abiertas que el propio CT (artículo 5 inciso
+                                                                           primero) otorga al empleador (eficacia inmediata). Estas potesta-
+                                                                           des abiertas y unilaterales pueden ser vistas como un vacío legal
+                                                                           donde los derechos constitucionales son el lí
+**Concordancias Legales:** artículo 5; constitucion
+
+que los derechos fundamentales operarán como límite directo
                                                                            de las potestades abiertas que el propio CT (artículo 5 inciso
                                                                            primero) otorga al empleador (eficacia inmediata). Estas potesta-
                                                                            des abiertas y unilaterales pueden ser vistas como un vacío legal
@@ -1544,15 +1579,16 @@ contexto del derecho                                                      Fundam
 Fundamentales en el                                                        los conflictos de Derechos
 contexto del derecho                                                       Fundamentales
 
-
-## 2.1          La “ciudadanía en la empresa” y los derechos
-
-                                                                          fundamentales del trabajador94
-
-
 ## 2.1.1 Orígenes de esta noción
 
-                                                                          El derecho del trabajo contiene en su ADN la horizontalidad de
+**Definición Canónica:** El derecho del trabajo contiene en su ADN la horizontalidad de
+                                                                          derechos. Toda su construcción dogmática apunta al particular que
+                                                                          mantiene una posición de poder en el contrato: el empleador. Aunque
+                                                                          no haya sido de forma explícita, la defensa de los derechos laborales
+                                                                          desde inicios del siglo XX conllevaba
+**Concordancias Legales:** artículo 5; artículo 123; constitucion; Constitución
+
+El derecho del trabajo contiene en su ADN la horizontalidad de
                                                                           derechos. Toda su construcción dogmática apunta al particular que
                                                                           mantiene una posición de poder en el contrato: el empleador. Aunque
                                                                           no haya sido de forma explícita, la defensa de los derechos laborales
@@ -1599,7 +1635,14 @@ contexto del derecho                                                         Fun
 
 ## Título Sexto) sobre trabajo y previsión social. En él todas sus normas
 
-                                                                            tienen proyección horizontal respecto del empleador, por ejemplo:
+**Definición Canónica:** tienen proyección horizontal respecto del empleador, por ejemplo:
+                                                                            límites de jornada, trabajo infantil, descanso semanal, embarazo, sa-
+                                                                            lario mínimo, igualdad salarial por trabajo igual sin tener en cuenta
+                                                                            sexo o nacionalidad (párrafo VII), participación de utilidades, pago
+                                                                            de horas extras, habi
+**Concordancias Legales:** artículo 118; artículo 159 de la Constitución de Weimar disponía; Constitución; constitucion
+
+tienen proyección horizontal respecto del empleador, por ejemplo:
                                                                             límites de jornada, trabajo infantil, descanso semanal, embarazo, sa-
                                                                             lario mínimo, igualdad salarial por trabajo igual sin tener en cuenta
                                                                             sexo o nacionalidad (párrafo VII), participación de utilidades, pago
@@ -1670,10 +1713,16 @@ contexto del derecho                                                         Fun
                                                                             todo el ordenamiento jurídico100. Se trata de un efecto directamente
                                                                             normativo y vinculante en el ámbito del derecho privado.
 
-
 ## 97  SEIFERT, Achim (2012), “L’effet horizontal des droits fondamentaux”, Revue Trimestrielle de Droit Européen
 
-                                            (RTD Eur., Dalloz) 48 (4), oct.-déc. 2012, p. 803.
+**Definición Canónica:** (RTD Eur., Dalloz) 48 (4), oct.-déc. 2012, p. 803.
+                                        98  NEUMANN, Franz L. (1983), Il diritto del lavoro fra democrazia e dittatura, Bolonia, Il Mulino, p. 135.
+                                        99  SARAZÁ JIMENA, Rafael (2008), Jueces, derechos fundamentales y relaciones entre particulares, Logroño,
+                                            Universidad de La Rioja, nota 199 en p. 92.
+                                        100 SARAZÁ (2008), pp. 92 y 93.
+**Concordancias Legales:** Constitución; constitucion
+
+(RTD Eur., Dalloz) 48 (4), oct.-déc. 2012, p. 803.
                                         98  NEUMANN, Franz L. (1983), Il diritto del lavoro fra democrazia e dittatura, Bolonia, Il Mulino, p. 135.
                                         99  SARAZÁ JIMENA, Rafael (2008), Jueces, derechos fundamentales y relaciones entre particulares, Logroño,
                                             Universidad de La Rioja, nota 199 en p. 92.
@@ -1754,7 +1803,9 @@ contexto del derecho                                                           F
 
 ## parte del patrón respecto de sus trabajadores en diversas hipótesis
 
-                                                                              planteadas en la sección 703 de la ley.
+**Definición Canónica:** planteadas en la sección 703 de la ley.
+
+planteadas en la sección 703 de la ley.
 
                                                                               La rigidez de la tesis liberal ha sido sobrepasada por la realidad
                                                                               jurisprudencial norteamericana, donde se ha expandido la noción
@@ -1774,7 +1825,11 @@ contexto del derecho                                                           F
 
 ## 107   CONTRERAS, Pablo (2009), Poder privado y derechos. Eficacia horizontal y ponderación de los derechos
 
-                                              fundamentales, Santiago, Ediciones Universidad Alberto Hurtado, pp. 103 y ss.
+**Definición Canónica:** fundamentales, Santiago, Ediciones Universidad Alberto Hurtado, pp. 103 y ss.
+                                        108   BILBAO (1997), p. XV.
+**Concordancias Legales:** Constitucion
+
+fundamentales, Santiago, Ediciones Universidad Alberto Hurtado, pp. 103 y ss.
                                         108   BILBAO (1997), p. XV.
 
 Tutela de Derechos                                                          2. La relación de trabajo y                                                     41
@@ -1818,7 +1873,14 @@ contexto del derecho                                                           F
 
 ## 110   HOLMES, Stephen y SUNSTEIN, Cass R. (2011), El costo de los derechos, por qué la libertad depende de los
 
-                                              impuestos (traducción de Stella Mastrangelo de la 1ª edición de 1999), Buenos Aires, Siglo XXI Editores, p. 113.
+**Definición Canónica:** impuestos (traducción de Stella Mastrangelo de la 1ª edición de 1999), Buenos Aires, Siglo XXI Editores, p. 113.
+                                              En el caso Jones v. Alfred H. Mayer Co., de 1969, la Corte Suprema frente a la pregunta de si la no discrimina-
+                                              ción comprende espacios privados como los condominios de viviendas privadas, manifestó que la Enmienda
+                                              XIII, a diferencia de la XIV, no requiere una acción estatal (state action), dado que prohíbe la esclavitud y la
+                     
+**Concordancias Legales:** constitucion
+
+impuestos (traducción de Stella Mastrangelo de la 1ª edición de 1999), Buenos Aires, Siglo XXI Editores, p. 113.
                                               En el caso Jones v. Alfred H. Mayer Co., de 1969, la Corte Suprema frente a la pregunta de si la no discrimina-
                                               ción comprende espacios privados como los condominios de viviendas privadas, manifestó que la Enmienda
                                               XIII, a diferencia de la XIV, no requiere una acción estatal (state action), dado que prohíbe la esclavitud y la
@@ -1863,13 +1925,15 @@ contexto del derecho                                                            
                                         desde fines de los años                 denominación de teoría de la “Drittwirkung der Grundrechte” u “Hori-
                                         cincuenta.                              zontalwirkung” 114.
 
-
-## 111   Copia de la sentencia completa se encuentra en www.todoelderecho.com
-
-
 ## 112   BARBAGELATA, Héctor-Hugo (2009), El particularismo del derecho del trabajo y los derechos humanos la-
 
-                                                 borales, Montevideo, Fundación de Cultura Universitaria, p. 191.
+**Definición Canónica:** borales, Montevideo, Fundación de Cultura Universitaria, p. 191.
+                                           113   PÉREZ LUÑO, Antonio (1995), Derechos humanos, estado de derecho y constitución, 5ª edición, Madrid, Tecnos,
+                                                 pp. 312 y ss.
+                                           114   ALEXY (2001), pp. 512 y 513.
+**Concordancias Legales:** constitución; Constitucion
+
+borales, Montevideo, Fundación de Cultura Universitaria, p. 191.
                                            113   PÉREZ LUÑO, Antonio (1995), Derechos humanos, estado de derecho y constitución, 5ª edición, Madrid, Tecnos,
                                                  pp. 312 y ss.
                                            114   ALEXY (2001), pp. 512 y 513.
@@ -1950,10 +2014,11 @@ contexto del derecho                                                            
 Fundamentales en el                                                             los conflictos de Derechos
 contexto del derecho                                                            Fundamentales
 
-
 ## 2.2            El contrato de trabajo como
 
-                                                                               relación de poder
+**Definición Canónica:** relación de poder
+
+relación de poder
 
                                                                                2.2.1 Las potestades de organización,
                                                                                dirección y punitivas del empleador
@@ -2030,7 +2095,10 @@ contexto del derecho                                                          Fu
 
 ## 129   SINGER, Reinhard (2007), “Direitos fundamentais no direito do trabalho”, Direitos Fundamentais e Direito
 
-                                              Privado. Uma Perspectiva de Direito Comparado, (organizadores: António Pinto Monteiro, Jörg Neuner y Ingo
+**Definición Canónica:** Privado. Uma Perspectiva de Direito Comparado, (organizadores: António Pinto Monteiro, Jörg Neuner y Ingo
+                                              Sarlet), Coimbra, Almedina, p. 333.
+
+Privado. Uma Perspectiva de Direito Comparado, (organizadores: António Pinto Monteiro, Jörg Neuner y Ingo
                                               Sarlet), Coimbra, Almedina, p. 333.
 
 Tutela de Derechos                                                           2. La relación de trabajo y                                                   47
@@ -2075,7 +2143,12 @@ contexto del derecho                                                            
 
 ## 132   Cabe hacer presente que las personas trabajadoras del sector público también ejecutan su labor en forma
 
-                                                subordinada, aunque su estatuto forme parte del derecho administrativo.
+**Definición Canónica:** subordinada, aunque su estatuto forme parte del derecho administrativo.
+                                          133   GAMONAL (2004a), p. 75 y OLIVER (2011), p. 344.
+                                          134   VALDÉS DAL RÉ, Fernando (1991), “I poteri dell’imprenditore e la persona del lavoratore”, Giornale di Diritto
+                                                del Lavoro e di Relazioni Industriali, N° 49, año XIII, 1991, 1, p. 50.
+
+subordinada, aunque su estatuto forme parte del derecho administrativo.
                                           133   GAMONAL (2004a), p. 75 y OLIVER (2011), p. 344.
                                           134   VALDÉS DAL RÉ, Fernando (1991), “I poteri dell’imprenditore e la persona del lavoratore”, Giornale di Diritto
                                                 del Lavoro e di Relazioni Industriali, N° 49, año XIII, 1991, 1, p. 50.
@@ -2207,7 +2280,11 @@ contexto del derecho                                                          Fu
 
 ## 147   GAMONAL C., Sergio y GUIDI MOGGIA, Caterina (2015), Manual del contrato de trabajo, 4ª edición revisada
 
-                                              y aumentada, Santiago, LegalPublishing Chile, pp. 130 y 131.
+**Definición Canónica:** y aumentada, Santiago, LegalPublishing Chile, pp. 130 y 131.
+                                        148   SANTORO-PASSARELLI, Giuseppe (2002), Diritto dei lavori, Turín, Giappichelli, p. 114.
+**Concordancias Legales:** artículo 5; constitucion
+
+y aumentada, Santiago, LegalPublishing Chile, pp. 130 y 131.
                                         148   SANTORO-PASSARELLI, Giuseppe (2002), Diritto dei lavori, Turín, Giappichelli, p. 114.
 
 Tutela de Derechos                      2. La relación de trabajo y                                           51
@@ -2259,10 +2336,12 @@ contexto del derecho                                                       Funda
                                                                           la potestad de mando o dirección, la potestad de reglamentación y
                                                                           la potestad disciplinaria.
 
-
 ## 2.2.1.1 Potestad de mando
 
-                                                                          Una primera perspectiva del contenido potestativo del contrato de
+**Definición Canónica:** Una primera perspectiva del contenido potestativo del contrato de
+                                                                          trabajo está dada por el poder de mando o dirección.
+
+Una primera perspectiva del contenido potestativo del contrato de
                                                                           trabajo está dada por el poder de mando o dirección.
 
                                                                           Al empleador corresponde una posición de supremacía dentro de la
@@ -2294,7 +2373,11 @@ contexto del derecho                                                       Funda
 
 ## 151   ALONSO OLEA, Manuel y CASAS BAAMONDE, María Emilia (2006), Derecho del trabajo, 24ª edición, Cizur
 
-                                              Menor, Thomson Aranzadi, p. 426
+**Definición Canónica:** Menor, Thomson Aranzadi, p. 426
+                                        152   PERSIANI, Mattia y PROIA, Giampiero (2008), Diritto del lavoro, Padua, Cedam, p. 224.
+                                        153   LIZAMA PORTAL, Luis (2003), Derecho del trabajo, Santiago, LexisNexis, p. 79.
+
+Menor, Thomson Aranzadi, p. 426
                                         152   PERSIANI, Mattia y PROIA, Giampiero (2008), Diritto del lavoro, Padua, Cedam, p. 224.
                                         153   LIZAMA PORTAL, Luis (2003), Derecho del trabajo, Santiago, LexisNexis, p. 79.
 
@@ -2317,10 +2400,16 @@ contexto del derecho                                                          Fu
 
                                                                              variandi a título meramente ejemplar157.
 
-
 ## 2.2.1.2 Potestad de reglamentación
 
-                                                                             Como el empleador organiza el trabajo al interior de la empresa, lo
+**Definición Canónica:** Como el empleador organiza el trabajo al interior de la empresa, lo
+                                                                             cual puede abarcar decenas, cientos y hasta miles de trabajadores, la
+                                                                             coordinación orientada a la producción no sólo se hace por medio
+                                                                             de las jefaturas y puestos de mando medio, sino también a través del
+                                                                             Reglamento Interno d
+**Concordancias Legales:** artículo 153; artículos 153; artículo 154; artículo 62 bis; artículo 154 del CT; artículo 4; constitucion
+
+Como el empleador organiza el trabajo al interior de la empresa, lo
                                                                              cual puede abarcar decenas, cientos y hasta miles de trabajadores, la
                                                                              coordinación orientada a la producción no sólo se hace por medio
                                                                              de las jefaturas y puestos de mando medio, sino también a través del
@@ -2449,10 +2538,14 @@ contexto del derecho                                                         Fun
                                                                             estipularse las normas que tendrán que observarse para garantizar un
                                                                             ambiente laboral digno y de mutuo respeto a los trabajadores.
 
-
 ## 2.2.1.3 Potestad disciplinaria
 
-                                                                            No cabe duda alguna de que la potestad disciplinaria constituye
+**Definición Canónica:** No cabe duda alguna de que la potestad disciplinaria constituye
+                                                                            una de las mayores expresiones de poder privado que el derecho
+                                                                            sanciona. Implica una especie de poder de policía, pero en manos de
+                                                                            un particular: el empleador.
+
+No cabe duda alguna de que la potestad disciplinaria constituye
                                                                             una de las mayores expresiones de poder privado que el derecho
                                                                             sanciona. Implica una especie de poder de policía, pero en manos de
                                                                             un particular: el empleador.
@@ -2466,7 +2559,13 @@ contexto del derecho                                                         Fun
 
 ## 162   LANATA FUENZALIDA, Gabriela (2006), Contrato individual de trabajo, Universidad de Concepción, Colección
 
-                                              de Manuales, Santiago, LexisNexis, p. 37.
+**Definición Canónica:** de Manuales, Santiago, LexisNexis, p. 37.
+                                        163   RIVAS, Ramón (1991), “La doctrina de los actos propios y el reglamento interno de la empresa”, Contratos,
+                                              Enrique Barros Bourie (coordinador), Santiago, Editorial Jurídica de Chile, pp. 201 y 202.
+                                        164   RIVAS (1991), p. 204.
+**Concordancias Legales:** artículo 19; artículo 154 del CT. Con todo; artículo 160 del CT; artículo 5 del CT; artículos 154; Constitución; constitucion
+
+de Manuales, Santiago, LexisNexis, p. 37.
                                         163   RIVAS, Ramón (1991), “La doctrina de los actos propios y el reglamento interno de la empresa”, Contratos,
                                               Enrique Barros Bourie (coordinador), Santiago, Editorial Jurídica de Chile, pp. 201 y 202.
                                         164   RIVAS (1991), p. 204.
@@ -2606,20 +2705,28 @@ Fundamentales en el                                                         los 
                                                                            derechos fundamentales al interior de la empresa ha tenido como
                                                                            principal efecto el limitar la potestad disciplinaria174.
 
-
 ## 2.2.2 Medios tecnológicos y control del
 
-                                                                           empleador en la relación de trabajo
+**Definición Canónica:** empleador en la relación de trabajo
+                                                                           En materia de derecho del trabajo y nuevas tecnologías, estudia-
+                                                                           remos tres aspectos que nos parecen especialmente relevantes: la
+
+empleador en la relación de trabajo
                                                                            En materia de derecho del trabajo y nuevas tecnologías, estudia-
                                                                            remos tres aspectos que nos parecen especialmente relevantes: la
 
                                                                            cibervigilancia, la regulación del correo electrónico corporativo y la
                                                                            actividad en redes sociales.
 
-
 ## 2.2.2.1 La cibervigilancia del trabajador
 
-                                                                           Los avances científicos y tecnológicos cada vez invaden más la inti-
+**Definición Canónica:** Los avances científicos y tecnológicos cada vez invaden más la inti-
+                                                                           midad del trabajador en el lugar de trabajo. El poder de control del
+                                                                           empleador se ha perfeccionado y es posible vigilar la conducta de
+                                                                           sus subordinados por medio de tecnologías invasivas de su privaci-
+                                                                           dad. Se habla de cibersubordi
+
+Los avances científicos y tecnológicos cada vez invaden más la inti-
                                                                            midad del trabajador en el lugar de trabajo. El poder de control del
                                                                            empleador se ha perfeccionado y es posible vigilar la conducta de
                                                                            sus subordinados por medio de tecnologías invasivas de su privaci-
@@ -2640,7 +2747,10 @@ Fundamentales en el                                                         los 
 
 ## 175   GAMONAL C., Sergio (2004b), “La Cibervigilancia dentro de la empresa: comentario a una sentencia de la
 
-                                              Corte Suprema”, Revista Laboral Chilena, junio 2004, pp. 90-94.
+**Definición Canónica:** Corte Suprema”, Revista Laboral Chilena, junio 2004, pp. 90-94.
+**Concordancias Legales:** artículo 154; artículo 154 bis
+
+Corte Suprema”, Revista Laboral Chilena, junio 2004, pp. 90-94.
 
 Tutela de Derechos                                                            2. La relación de trabajo y                                                      61
 Fundamentales en el                                                              los conflictos de Derechos
@@ -2739,16 +2849,24 @@ contexto del derecho                                                           F
 
 ## 182 BENALCÁZAR, Isabelle De (2003), Droit du travail et nouvelles technologies, Paris, Montchrestien Gualino
 
-                                            éditeur, pp. 95 y ss.
+**Definición Canónica:** éditeur, pp. 95 y ss.
+
+éditeur, pp. 95 y ss.
 
 Tutela de Derechos                                                        2. La relación de trabajo y                                               63
 Fundamentales en el                                                          los conflictos de Derechos
 contexto del derecho                                                         Fundamentales
 
-
 ## 2.2.2.2 El correo electrónico corporativo
 
-                                                                            En cuanto al correo electrónico, cabe preguntarse si el empleador pue-
+**Definición Canónica:** En cuanto al correo electrónico, cabe preguntarse si el empleador pue-
+                                                                            de revisar el correo electrónico de sus trabajadores. La respuesta
+                                                                            se vincula con el derecho a la inviolabilidad de toda comunicación
+                                                                            privada (artículo 19 Nº 5 de la Constitución), que puede ser definido
+                                                                            como: “aquel derecho,
+**Concordancias Legales:** artículo 19; Constitución; constitucion
+
+En cuanto al correo electrónico, cabe preguntarse si el empleador pue-
                                                                             de revisar el correo electrónico de sus trabajadores. La respuesta
                                                                             se vincula con el derecho a la inviolabilidad de toda comunicación
                                                                             privada (artículo 19 Nº 5 de la Constitución), que puede ser definido
@@ -2781,10 +2899,13 @@ contexto del derecho                                                         Fun
                                                                             por el empleador. Por analogía, según la DT, los mismo ocurre con
                                                                             el correo electrónico.
 
-
 ## 183   ÁLVAREZ VALENZUELA, Daniel (2004), “Inviolabilidad de las comunicaciones electrónicas”, Revista Chilena
 
-                                              de Derecho Informático, Nº 5, pp. 191-200, p. 192.
+**Definición Canónica:** de Derecho Informático, Nº 5, pp. 191-200, p. 192.
+                                        184   Dictamen de la DT Nº 260/19 de 24 de enero de 2002.
+**Concordancias Legales:** artículo 19; Ley N° 19.628; constitucion; Constitución Política
+
+de Derecho Informático, Nº 5, pp. 191-200, p. 192.
                                         184   Dictamen de la DT Nº 260/19 de 24 de enero de 2002.
 
 Tutela de Derechos                                                         2. La relación de trabajo y                                                   64
@@ -3043,10 +3164,12 @@ contexto del derecho                                                          Fu
                                                                              privada, para luego leerla completamente e invocarla como causa
                                                                              del despido, toda vez que la gravedad invocada en el supuesto actuar
 
-
 ## 188   Juzgado de Letras del Trabajo de Copiapó, RIT T-1-2008, 15 de septiembre de 2008. Véase ARREDONDO
 
-                                              PACHECO, Jorge (2014), “La llegada de la reforma laboral: el famoso Caso Kronos”, Revista de Derecho Laboral
+**Definición Canónica:** PACHECO, Jorge (2014), “La llegada de la reforma laboral: el famoso Caso Kronos”, Revista de Derecho Laboral
+                                              y Seguridad Social, Thomson Reuters Chile, Vol. II N° 1, pp. 420 y ss..
+
+PACHECO, Jorge (2014), “La llegada de la reforma laboral: el famoso Caso Kronos”, Revista de Derecho Laboral
                                               y Seguridad Social, Thomson Reuters Chile, Vol. II N° 1, pp. 420 y ss..
 
 Tutela de Derechos                                                         2. La relación de trabajo y                                                 70
@@ -3088,10 +3211,15 @@ contexto del derecho                                                          Fu
                                                                              un sobre cerrado (también de la empresa) indicando con precisión
                                                                              su destinatario; a nadie se le ocurriría pensar que, porque la empresa
 
-
 ## 189   Un comentario de este fallo desde la perspectiva del principio de protección en: ARELLANO ORTIZ, Pablo y
 
-                                              BENFELD ESCOBAR, Johann (2017), “Reflexiones sobre el principio de protección al trabajador y su influen-
+**Definición Canónica:** BENFELD ESCOBAR, Johann (2017), “Reflexiones sobre el principio de protección al trabajador y su influen-
+                                              cia en el ámbito sustantivo y procesal del derecho laboral: otra mirada al caso Kronos”, Revista Chilena de
+                                              Derecho y Tecnología, Vol. 6, Nº 2, pp. 3-24.
+                                        190   Segundo Juzgado del Trabajo de Santiago, RIT T-385-2011, 16 de diciembre de 2011.
+**Concordancias Legales:** artículo 489 del CT. Concordamos con esta última; artículo 19; artículo 485 del CT en su inciso; artículo 485; artículo 146 del Código Penal; artículo 2; Constitución; constitucion
+
+BENFELD ESCOBAR, Johann (2017), “Reflexiones sobre el principio de protección al trabajador y su influen-
                                               cia en el ámbito sustantivo y procesal del derecho laboral: otra mirada al caso Kronos”, Revista Chilena de
                                               Derecho y Tecnología, Vol. 6, Nº 2, pp. 3-24.
                                         190   Segundo Juzgado del Trabajo de Santiago, RIT T-385-2011, 16 de diciembre de 2011.
@@ -3176,10 +3304,14 @@ contexto del derecho                                                           F
                                                                               o conocer indebidamente de la información contenida en un sistema
                                                                               de tratamiento de la misma, lo intercepte, interfiera o acceda a él,
 
-
 ## 191   COUSO SALAS, Jaime (2018), “Relevancia penal de la intromisión del empleador en los correos electrónicos
 
-                                              de sus trabajadores”, Revista de Derecho, Universidad Católica del Norte, Año 25, Nº 2, pp. 29-76, pp. 31 y 35.
+**Definición Canónica:** de sus trabajadores”, Revista de Derecho, Universidad Católica del Norte, Año 25, Nº 2, pp. 29-76, pp. 31 y 35.
+                                        192   COUSO (2018), pp. 42 y ss.
+                                        193   COUSO (2018), pp. 53 y ss.
+**Concordancias Legales:** artículo 146; artículo 36; artículo 2; artículo 485; artículo 8 del Convenio para la Protección de los
+
+de sus trabajadores”, Revista de Derecho, Universidad Católica del Norte, Año 25, Nº 2, pp. 29-76, pp. 31 y 35.
                                         192   COUSO (2018), pp. 42 y ss.
                                         193   COUSO (2018), pp. 53 y ss.
 
@@ -3268,10 +3400,12 @@ contexto del derecho                                                       Funda
                                                                           desvía al trabajador de sus quehaceres podrá ser sancionada, según su
                                                                           gravedad, hasta con un despido disciplinario. Igualmente en el caso
 
-
 ## 198   Tribunal Europeo de Derechos Humanos, TEDH/2017/61, ECLI:CE:ECHR:2017:0905JUD006149608, de 5 de
 
-                                              septiembre de 2017.
+**Definición Canónica:** septiembre de 2017.
+**Concordancias Legales:** artículo 249
+
+septiembre de 2017.
 
 Tutela de Derechos                                                          2. La relación de trabajo y                                                 75
 Fundamentales en el                                                            los conflictos de Derechos
@@ -3313,16 +3447,23 @@ contexto del derecho                                                           F
                                                                               titucionales en conflicto, respetando por un lado los derechos de
                                                                               titularidad del trabajador o trabajadora, a saber, respeto y protección a
 
-
 ## 199 FALGUERA BARÓ, Miguel Ángel (2004), “Criterios doctrinales en relación con el uso por el trabajador de los
 
-                                              medios informáticos empresariales para fines extraproductivos”, Derecho social y nuevas tecnologías, Madrid,
+**Definición Canónica:** medios informáticos empresariales para fines extraproductivos”, Derecho social y nuevas tecnologías, Madrid,
+                                              Cuaderno de Derecho Judicial XV, Consejo General del Poder Judicial, p. 301.
+                                          200 FALGUERA (2004), pp. 304 y ss.
+
+medios informáticos empresariales para fines extraproductivos”, Derecho social y nuevas tecnologías, Madrid,
                                               Cuaderno de Derecho Judicial XV, Consejo General del Poder Judicial, p. 301.
                                           200 FALGUERA (2004), pp. 304 y ss.
 
 ## 201 GUIDI MOGGIA, Caterina (2009), “Proyecto de ley sobre uso de medios informáticos en el trabajo. Análisis
 
-                                              crítico”, Actualidad Jurídica, Tomo II enero 2009 (N° 19), Facultades de Derecho, Santiago-Concepción, Uni-
+**Definición Canónica:** crítico”, Actualidad Jurídica, Tomo II enero 2009 (N° 19), Facultades de Derecho, Santiago-Concepción, Uni-
+                                              versidad del Desarrollo, p. 474.
+**Concordancias Legales:** constitucion
+
+crítico”, Actualidad Jurídica, Tomo II enero 2009 (N° 19), Facultades de Derecho, Santiago-Concepción, Uni-
                                               versidad del Desarrollo, p. 474.
 
 Tutela de Derechos                                                         2. La relación de trabajo y                                                   76
@@ -3337,10 +3478,13 @@ contexto del derecho                                                          Fu
                                                                              como asimismo los principios que informan la normativa vigente
                                                                              en nuestro país sobre protección de datos personales202.
 
-
 ## 2.2.2.3 La actividad en redes sociales
 
-                                                                             A continuación, analizaremos la actividad en redes sociales en el con-
+**Definición Canónica:** A continuación, analizaremos la actividad en redes sociales en el con-
+                                                                             texto de la relación de trabajo y sus eventuales consecuencias. En
+                                                                             esta exposición limitaremos nuestro examen específicamente a las
+
+A continuación, analizaremos la actividad en redes sociales en el con-
                                                                              texto de la relación de trabajo y sus eventuales consecuencias. En
                                                                              esta exposición limitaremos nuestro examen específicamente a las
 
@@ -3408,10 +3552,15 @@ contexto del derecho                                                           F
                                                                               mente por la prensa nacional, “en Chile, las empresas ya utilizan las
                                                                               redes sociales para filtrar los candidatos, de acuerdo con los gustos
 
-
 ## 205 RAMÍREZ COLINA, Sulmer Paola (2013), “La libertad de expresión del trabajador en Facebook y el poder
 
-                                            disciplinario del empleador”, Revista IUS (en línea), 7(31), p. 49. Disponible en http://www.scielo.org.mx/scielo.
+**Definición Canónica:** disciplinario del empleador”, Revista IUS (en línea), 7(31), p. 49. Disponible en http://www.scielo.org.mx/scielo.
+                                            php?script=sci_arttext&pid=S1870-21472013000100004 (visitado el 17-2-2020).
+                                        206 RAMÍREZ (2013), p. 50.
+                                        207 RAMÍREZ (2013), p. 48.
+                                        208 RAMÍREZ (2013), p. 48.
+
+disciplinario del empleador”, Revista IUS (en línea), 7(31), p. 49. Disponible en http://www.scielo.org.mx/scielo.
                                             php?script=sci_arttext&pid=S1870-21472013000100004 (visitado el 17-2-2020).
                                         206 RAMÍREZ (2013), p. 50.
                                         207 RAMÍREZ (2013), p. 48.
@@ -3459,7 +3608,11 @@ contexto del derecho                                                         Fun
 
 ## 210 BUCKLEY, Timothy J. (2013), “Password Protection Now: An Elaboration on the Need for Federal Password
 
-                                            Protection Legislation and Suggestions on how to Draft it”, Cardozo Arts & Entertainment Law Journal, Vol.
+**Definición Canónica:** Protection Legislation and Suggestions on how to Draft it”, Cardozo Arts & Entertainment Law Journal, Vol.
+                                            31, pp. 875-892, p. 884.
+                                        211 GAMONAL (2004a), p. 51.
+
+Protection Legislation and Suggestions on how to Draft it”, Cardozo Arts & Entertainment Law Journal, Vol.
                                             31, pp. 875-892, p. 884.
                                         211 GAMONAL (2004a), p. 51.
 
@@ -3496,7 +3649,14 @@ contexto del derecho                                                           F
 
 ## 213  BARBA RAMOS, Francisco y RODRÍGUEZ-PIÑERO ROYO (2019), Miguel, “Alternativas de regulación de los
 
-                                             derechos on-line en el ordenamiento laboral español” (en línea), Derecho y conocimiento, ISSN 1578-8202,
+**Definición Canónica:** derechos on-line en el ordenamiento laboral español” (en línea), Derecho y conocimiento, ISSN 1578-8202,
+                                             Facultad de Derecho Universidad de Huelva, España, pp. 32 y 33. Disponible en: https://www.researchgate.net/
+                                             publication/333666362_Alternativas_de_regulacion_de_los_derechos_on-line_en_el_ordenamiento_labo-
+                                             ral_espanol (visitado el 2-1-2020).
+                                        214 GRANDE y GORDILLO (2013), pp. 11 y 12. Esta conclusión la desprenden de l
+**Concordancias Legales:** constitucion
+
+derechos on-line en el ordenamiento laboral español” (en línea), Derecho y conocimiento, ISSN 1578-8202,
                                              Facultad de Derecho Universidad de Huelva, España, pp. 32 y 33. Disponible en: https://www.researchgate.net/
                                              publication/333666362_Alternativas_de_regulacion_de_los_derechos_on-line_en_el_ordenamiento_labo-
                                              ral_espanol (visitado el 2-1-2020).
@@ -3640,7 +3800,15 @@ contexto del derecho                                                          Fu
 
 ## 222   La actividad concertada protegida o acción concertada está consagrada en la National Labor Relation Act
 
-                                              y ha permitido interesantes acciones colectivas de los trabajadores en defensa de sus derechos, incluyendo
+**Definición Canónica:** y ha permitido interesantes acciones colectivas de los trabajadores en defensa de sus derechos, incluyendo
+                                              las redes sociales. Véase GAMONAL C., Sergio y ROSADO MARZÁN, César (2019), Principled Labor Law, U.S.
+                                              Labor Law through a Latin American Method, Nueva York, Oxford University Press, p. 48.
+                                        223   HERRERA (2016), p. 96.
+                                        224   HERRERA (2016), p. 96.
+                                        225   HERRERA (2016), p. 96.
+    
+
+y ha permitido interesantes acciones colectivas de los trabajadores en defensa de sus derechos, incluyendo
                                               las redes sociales. Véase GAMONAL C., Sergio y ROSADO MARZÁN, César (2019), Principled Labor Law, U.S.
                                               Labor Law through a Latin American Method, Nueva York, Oxford University Press, p. 48.
                                         223   HERRERA (2016), p. 96.
@@ -3685,10 +3853,15 @@ contexto del derecho                                                           F
                                                                               nal de la inviolabilidad de comunicación privada. En todo caso, se
                                                                               acogió la demanda por despido injustificado, dado que el tribunal
 
-
 ## 227   CARRO HERNÁNDEZ, María del Rocío y ESPINOZA C. (2012), Gabriel, “Redes sociales y el despido sanción”
 
-                                              (en línea), Revista Judicial de la Corte Suprema de Justicia de Costa Rica N° 9, enero 2012, p. 120. Disponible
+**Definición Canónica:** (en línea), Revista Judicial de la Corte Suprema de Justicia de Costa Rica N° 9, enero 2012, p. 120. Disponible
+                                              en: https://salasegunda.poder-judicial.go.cr/revista/Revista_N9/contenido/pdf/arti_01_09.pdf (visitado el
+                                              3-1-2020).
+                                        228    CARRO y ESPINOZA (2012), pp. 122 y ss.
+                                        229   Juzgado de Letras del Trabajo de Valparaíso, RIT T-4-2008, 27 de febrero de 2009.
+
+(en línea), Revista Judicial de la Corte Suprema de Justicia de Costa Rica N° 9, enero 2012, p. 120. Disponible
                                               en: https://salasegunda.poder-judicial.go.cr/revista/Revista_N9/contenido/pdf/arti_01_09.pdf (visitado el
                                               3-1-2020).
                                         228    CARRO y ESPINOZA (2012), pp. 122 y ss.
@@ -3726,10 +3899,15 @@ contexto del derecho                                                            
                                                                                 La DT postula que las medidas de control que la ley autoriza deben
                                                                                 cumplir con las siguientes condiciones233:
 
-
 ## 230   LIZAMA PORTAL, Luis y UGARTE CATALDO, José Luis (1998), Interpretación y derechos fundamentales en la
 
-                                                empresa, Santiago, Editorial Conosur, pp. 154 y ss. En el mismo sentido, GAMONAL (1998), pp. 215 y ss.; MELIS
+**Definición Canónica:** empresa, Santiago, Editorial Conosur, pp. 154 y ss. En el mismo sentido, GAMONAL (1998), pp. 215 y ss.; MELIS
+                                                VALENCIA, Christian (2001a), “En torno al contrato de trabajo y los derechos fundamentales”, parte I, Boletín
+                                                Dirección del Trabajo, Nº 148, pp. 10 y ss. y MELIS VALENCIA, Christian (2001b), “En torno al contrato de trabajo
+                                                y los derechos fundamentales”, parte II, Boletín Dirección del Trabajo, Nº 149, pp. 5 a 7; SÁEZ CARLIER, Felipe
+          
+
+empresa, Santiago, Editorial Conosur, pp. 154 y ss. En el mismo sentido, GAMONAL (1998), pp. 215 y ss.; MELIS
                                                 VALENCIA, Christian (2001a), “En torno al contrato de trabajo y los derechos fundamentales”, parte I, Boletín
                                                 Dirección del Trabajo, Nº 148, pp. 10 y ss. y MELIS VALENCIA, Christian (2001b), “En torno al contrato de trabajo
                                                 y los derechos fundamentales”, parte II, Boletín Dirección del Trabajo, Nº 149, pp. 5 a 7; SÁEZ CARLIER, Felipe
@@ -3743,10 +3921,15 @@ contexto del derecho                                                            
 
 Tutela de Derechos                      2. La relación de trabajo y                                             85
 
-
 ## 1. Las medidas de revisión y control de las personas, de sus efectos
 
-                                             privados o de sus casilleros, al importar un límite a la privacidad
+**Definición Canónica:** privados o de sus casilleros, al importar un límite a la privacidad
+                                             de las personas, deben necesariamente incorporarse en el texto
+                                             normativo que la ley establece para el efecto, esto es, el Regla-
+                                             mento Interno de Orden, Higiene y Seguridad de la empresa,
+                                             dictado en conformidad a ley.
+
+privados o de sus casilleros, al importar un límite a la privacidad
                                              de las personas, deben necesariamente incorporarse en el texto
                                              normativo que la ley establece para el efecto, esto es, el Regla-
                                              mento Interno de Orden, Higiene y Seguridad de la empresa,
@@ -3754,7 +3937,13 @@ contexto del derecho                                                            
 
 ## 2. Las medidas de revisión y control deben ser idóneas a los objetivos
 
-                                             perseguidos como son el mantenimiento del orden, la higiene y la
+**Definición Canónica:** perseguidos como son el mantenimiento del orden, la higiene y la
+                                             seguridad de la persona y los trabajadores, no debiendo importar
+                                             actos ilegales o arbitrarios por parte del empleador, según lo señala
+                                             la Constitución en su artículo 20, como por ejemplo la selección
+**Concordancias Legales:** artículo 20; Constitución
+
+perseguidos como son el mantenimiento del orden, la higiene y la
                                              seguridad de la persona y los trabajadores, no debiendo importar
                                              actos ilegales o arbitrarios por parte del empleador, según lo señala
                                              la Constitución en su artículo 20, como por ejemplo la selección
@@ -3776,7 +3965,11 @@ contexto del derecho                                                            
 
 ## sección de ella y, además, para garantizar su impersonalidad, deberá
 
-                                          realizarse a todos y cada uno de los trabajadores o, en su defecto,
+**Definición Canónica:** realizarse a todos y cada uno de los trabajadores o, en su defecto,
+                                          establecer un sistema de sorteo que la empresa explicitará directa-
+                                          mente en el reglamento respectivo.
+
+realizarse a todos y cada uno de los trabajadores o, en su defecto,
                                           establecer un sistema de sorteo que la empresa explicitará directa-
                                           mente en el reglamento respectivo.
 
@@ -3885,10 +4078,12 @@ Fundamentales en el                                                         los 
 Fundamentales en el                                                           los conflictos de Derechos
 contexto del derecho                                                          Fundamentales
 
-
 ## 2.3           Autonomía colectiva y conflicto
 
-                                                                             constitucional. La libertad sindical.
+**Definición Canónica:** constitucional. La libertad sindical.
+**Concordancias Legales:** constitucion
+
+constitucional. La libertad sindical.
 
                                                                              El ejercicio de la libertad sindical puede colisionar con otros derechos
                                                                              fundamentales y el ejemplo clásico es el de la huelga en servicios
@@ -3925,7 +4120,12 @@ contexto del derecho                                                          Fu
 
 ## 243   VARAS MARCHANT, Karla (2019), Derecho a huelga: los límites derivados de la protección de terceros, San-
 
-                                              tiago, Ediciones DER, p. 42.
+**Definición Canónica:** tiago, Ediciones DER, p. 42.
+                                        244   OIT (1994), Libertad sindical y negociación colectiva, Informe de la Comisión de Expertos en Aplicación de
+                                              Convenios y Recomendaciones, Conferencia Internacional del Trabajo, 81ª reunión, Oficina Internacional del
+                                              Trabajo, Ginebra, p. 75.
+
+tiago, Ediciones DER, p. 42.
                                         244   OIT (1994), Libertad sindical y negociación colectiva, Informe de la Comisión de Expertos en Aplicación de
                                               Convenios y Recomendaciones, Conferencia Internacional del Trabajo, 81ª reunión, Oficina Internacional del
                                               Trabajo, Ginebra, p. 75.
@@ -4004,10 +4204,12 @@ contexto del derecho                                                      Fundam
 Fundamentales en el                                                          y de la acción de tutela de Derechos
 contexto del derecho                                                         Fundamentales
 
-
 ## 3.1            Reformas legales y
 
-                                                                             procedimiento de tutela
+**Definición Canónica:** procedimiento de tutela
+**Concordancias Legales:** artículo 5; artículo 154; artículo 154 bis; artículo 2; artículo 485 del CT; artículo 145; artículo 19; Ley Nº 20.087; Ley Nº 19.889; Ley Nº 20.005; constitucion; Constitución Política
+
+procedimiento de tutela
 
                                                                              Desde 2001, el legislador chileno enmendó el marco legal contem-
                                                                              plando expresamente la ciudadanía en la empresa. La primera ley sobre
@@ -4080,10 +4282,16 @@ contexto del derecho                                                            
                                                                               relaciones laborales deberán siempre fundarse en un trato compatible
                                                                               con la dignidad de la persona.
 
-
 ## 253   Sobre acoso sexual, revisar LIZAMA y UGARTE (2005), GAMONAL C., Sergio (2007), El daño moral en el con-
 
-                                              trato de trabajo, 2ª edición actualizada, Santiago, LexisNexis, pp. 66 y ss.; CASAS BECERRA, Lidia (2012), “Un
+**Definición Canónica:** trato de trabajo, 2ª edición actualizada, Santiago, LexisNexis, pp. 66 y ss.; CASAS BECERRA, Lidia (2012), “Un
+                                              estudio sobre las quejas por acoso sexual ante la Inspección del Trabajo: desafíos y oportunidades de la Ley
+                                              N° 20.005”, Estudios Laborales, Sociedad Chilena de Derecho del Trabajo y de la Seguridad Social, N° 7, pp.
+                                              25 y ss.; y GAMONAL C., Sergio y UGARTE CATALDO, José Luis (2012), “Acoso sexual y moral en el lugar de
+                              
+**Concordancias Legales:** artículo 183; artículo 5; artículo 152 bis; artículos 153; artículo 4; artículos 485; Ley N° 20.005; Ley Nº 20.123; Ley Nº 20.178; Ley Nº 20.238; Ley Nº 19.886; Ley N° 20.607; Ley Nº 20.087; constitucion; Constitución
+
+trato de trabajo, 2ª edición actualizada, Santiago, LexisNexis, pp. 66 y ss.; CASAS BECERRA, Lidia (2012), “Un
                                               estudio sobre las quejas por acoso sexual ante la Inspección del Trabajo: desafíos y oportunidades de la Ley
                                               N° 20.005”, Estudios Laborales, Sociedad Chilena de Derecho del Trabajo y de la Seguridad Social, N° 7, pp.
                                               25 y ss.; y GAMONAL C., Sergio y UGARTE CATALDO, José Luis (2012), “Acoso sexual y moral en el lugar de
@@ -4173,7 +4381,15 @@ contexto del derecho                                                           F
 
 ## 257   Según algunos su ámbito de aplicación también alcanza la etapa precontractual laboral, como veremos al
 
-                                              analizar el ámbito de aplicación de la acción de tutela.
+**Definición Canónica:** analizar el ámbito de aplicación de la acción de tutela.
+                                        258   GAMONAL (2007).
+                                        259   En el mismo sentido se ha pronunciado la sala laboral de la Corte Suprema, en la sentencia de unificación de
+                                              jurisprudencia en la causa Rol 10.972-2013, donde se expresa: “en estricto rigor no es un procedimiento espe-
+                                              cial, puesto que su tramitación se efectúa conforme al procedimiento de aplicación general” (considerando
+                  
+**Concordancias Legales:** constitucion
+
+analizar el ámbito de aplicación de la acción de tutela.
                                         258   GAMONAL (2007).
                                         259   En el mismo sentido se ha pronunciado la sala laboral de la Corte Suprema, en la sentencia de unificación de
                                               jurisprudencia en la causa Rol 10.972-2013, donde se expresa: “en estricto rigor no es un procedimiento espe-
@@ -4193,10 +4409,12 @@ contexto del derecho                                                           F
 Fundamentales en el                                                              y de la acción de tutela de Derechos
 contexto del derecho                                                             Fundamentales
 
-
 ## 3.2           Derechos constitucionales
 
-                                                                               protegidos
+**Definición Canónica:** protegidos
+**Concordancias Legales:** artículo 485 del CT; artículos 292; constitucion
+
+protegidos
 
                                         El ámbito de aplicación                El ámbito de aplicación del procedimiento de tutela abarca las cues-
                                         del procedimiento                      tiones suscitadas por aplicación de las normas laborales, cuando los
@@ -4237,10 +4455,12 @@ contexto del derecho                                                            
                                                                                judicial efectiva), es decir, el derecho del trabajador de no ser objeto
                                                                                de represalias por el ejercicio de sus derechos260.
 
-
 ## 260 UGARTE CATALDO, José Luis (2006), “La tutela de derechos fundamentales del trabajador: notas a propósito
 
-                                               del nuevo procedimiento”, Derecho Laboral, Tomo XLIX Nº 221, Enero-Marzo 2006, Montevideo, pp. 107 a 109.
+**Definición Canónica:** del nuevo procedimiento”, Derecho Laboral, Tomo XLIX Nº 221, Enero-Marzo 2006, Montevideo, pp. 107 a 109.
+**Concordancias Legales:** constitucion
+
+del nuevo procedimiento”, Derecho Laboral, Tomo XLIX Nº 221, Enero-Marzo 2006, Montevideo, pp. 107 a 109.
 
 Tutela de Derechos                                                           3. Temas relevantes del procedimiento                                      99
 Fundamentales en el                                                              y de la acción de tutela de Derechos
@@ -4272,10 +4492,16 @@ contexto del derecho                                                            
                                         del procedimiento de                   a nuestro examen, cabe precisar que en muchos casos el recurrente
                                         tutela de derechos.                    alega la vulneración de una o más de estas garantías constitucionales.
 
-
 ## 3.2.1 Derecho a la vida y a la integridad física y psíquica
 
-                                                                               Resulta obvio que el derecho a la vida es de suma trascendencia
+**Definición Canónica:** Resulta obvio que el derecho a la vida es de suma trascendencia
+                                                                               social e individual. Figueroa hace referencia a cinco concepciones
+                                                                               del derecho a la vida, a saber, (1) el derecho a la vida consiste en el
+                                                                               derecho a vivir, a permanecer con vida; (2) consiste en el derecho a
+                                                                               vivir bien, 
+**Concordancias Legales:** artículos 184; artículo 184 bis; artículos 485; artículo 159
+
+Resulta obvio que el derecho a la vida es de suma trascendencia
                                                                                social e individual. Figueroa hace referencia a cinco concepciones
                                                                                del derecho a la vida, a saber, (1) el derecho a la vida consiste en el
                                                                                derecho a vivir, a permanecer con vida; (2) consiste en el derecho a
@@ -4668,10 +4894,14 @@ contexto del derecho                                                          Fu
                                                                             moral al sindicato, los cuales deberían ser repartidos en partes iguales
                                                                             entre todos sus miembros279.
 
-
 ## 3.2.2 Privacidad y honra
 
-                                                                            En la modernidad, la vida privada se configura como un derecho a la
+**Definición Canónica:** En la modernidad, la vida privada se configura como un derecho a la
+                                                                            soledad, a la reserva y al aislamiento280. El pensamiento anglosajón,
+                                                                            especialmente John Stuart Mill, sostiene que los únicos aspectos de
+                                                                            la conducta humana que entrañan deberes y responsabilidades so-
+
+En la modernidad, la vida privada se configura como un derecho a la
                                                                             soledad, a la reserva y al aislamiento280. El pensamiento anglosajón,
                                                                             especialmente John Stuart Mill, sostiene que los únicos aspectos de
                                                                             la conducta humana que entrañan deberes y responsabilidades so-
@@ -4680,7 +4910,11 @@ contexto del derecho                                                          Fu
 
 ## 280 Véase ARELLANO ORTIZ, Pablo (2013a) “¿Quién protege al defensor frente a las intromisiones en su vida
 
-                                            privada por parte de su empleador?”, Revista de Derecho Laboral y Seguridad Social, (Thomson Reuters Chile),
+**Definición Canónica:** privada por parte de su empleador?”, Revista de Derecho Laboral y Seguridad Social, (Thomson Reuters Chile),
+                                            Vol. I N° 3, pp. 145 y ss.
+**Concordancias Legales:** artículo 19; artículo 2; artículo 30; Ley Nº 19.628; Ley Nº 19.733; constitucion
+
+privada por parte de su empleador?”, Revista de Derecho Laboral y Seguridad Social, (Thomson Reuters Chile),
                                             Vol. I N° 3, pp. 145 y ss.
 
 Tutela de Derechos                                                          3. Temas relevantes del procedimiento                                        109
@@ -4724,7 +4958,11 @@ contexto del derecho                                                            
 
 ## 282   EVANS DE LA CUADRA, Enrique (2004), Los derechos constitucionales, Tomo I, 3ª edición actualizada por
 
-                                              Eugenio Evans Espiñeira, Santiago, Editorial Jurídica de Chile, p. 212.
+**Definición Canónica:** Eugenio Evans Espiñeira, Santiago, Editorial Jurídica de Chile, p. 212.
+                                        283   CEA EGAÑA, José Luis (1988), Tratado de la Constitución de 1980, Santiago, Editorial Jurídica de Chile, p. 103.
+**Concordancias Legales:** artículo 154; artículo 154 bis; Ley Nº 19.759; Constitución; constitucion
+
+Eugenio Evans Espiñeira, Santiago, Editorial Jurídica de Chile, p. 212.
                                         283   CEA EGAÑA, José Luis (1988), Tratado de la Constitución de 1980, Santiago, Editorial Jurídica de Chile, p. 103.
 
 Tutela de Derechos                                                        3. Temas relevantes del procedimiento                                   110
@@ -4766,10 +5004,14 @@ contexto del derecho                                                          Fu
                                                                             prestado servicios personales para Promolinks S.A. como vendedores
                                                                             comisionistas de productos Movistar (planes de telefonía móvil, venta
 
-
 ## 284   CEA EGAÑA, José Luis (2004), Derecho constitucional chileno, Tomo II Derechos, Deberes y Garantías, San-
 
-                                              tiago, Ediciones Universidad Católica de Chile, p. 180.
+**Definición Canónica:** tiago, Ediciones Universidad Católica de Chile, p. 180.
+                                        285   EVANS (2004), p. 218.
+                                        286   Juzgado de Letras del Trabajo de San Felipe, RIT T-4-2009, de 30 de julio de 2009.
+**Concordancias Legales:** artículo 160; artículo 19 de la CPR; artículos 1; artículo 19; Ley N° 19.628; constitucion
+
+tiago, Ediciones Universidad Católica de Chile, p. 180.
                                         285   EVANS (2004), p. 218.
                                         286   Juzgado de Letras del Trabajo de San Felipe, RIT T-4-2009, de 30 de julio de 2009.
 
@@ -4813,10 +5055,12 @@ contexto del derecho                                                         Fun
                                                                            CPR con ocasión de sus despidos. Se le condena, junto a Movistar,
                                                                            al pago de las indemnizaciones por falta de aviso previo, años de
 
-
 ## 287   Se trata de un producto que beneficia a los clientes con una carga de $20.000 cada vez que adquieren
 
-                                              un equipo.
+**Definición Canónica:** un equipo.
+**Concordancias Legales:** artículo 5; artículo 154; artículo 160; artículo 184; Artículos 2 inciso 3; artículo 19; artículo 489; constitucion
+
+un equipo.
 
 Tutela de Derechos                                                        3. Temas relevantes del procedimiento                                112
 Fundamentales en el                                                           y de la acción de tutela de Derechos
@@ -5123,10 +5367,14 @@ contexto del derecho                                                            
                                                                               las trabajadoras frente al resto de los trabajadores durante un mes al
                                                                               menos. Además, se decretó daño moral por $2.000.000.
 
-
 ## 3.2.3 No discriminación
 
-                                                                              En el contexto de las actuales sociedades democráticas y pluralistas,
+**Definición Canónica:** En el contexto de las actuales sociedades democráticas y pluralistas,
+                                                                              una de las diversas expresiones del derecho a la igualdad es el derecho
+                                                                              a la no discriminación292. La no discriminación implica un plus respecto
+**Concordancias Legales:** artículo 2; artículo 2 del Código del Trabajo; artículo 2 del CT; artículo 19; artículo 2 del CT concretiza a nivel legal el principio de n; Constitución Política; constitucion
+
+En el contexto de las actuales sociedades democráticas y pluralistas,
                                                                               una de las diversas expresiones del derecho a la igualdad es el derecho
                                                                               a la no discriminación292. La no discriminación implica un plus respecto
 
@@ -5248,7 +5496,10 @@ contexto del derecho                                                            
 
 ## 303   GAMONAL C., Sergio (2004c), “Los derechos del trabajador en la Constitución chilena”, Anuario de Derecho
 
-                                                 del Trabajo y Seguridad Social - Sociedad Chilena de Derecho del Trabajo y Seguridad Social (3), p. 59.
+**Definición Canónica:** del Trabajo y Seguridad Social - Sociedad Chilena de Derecho del Trabajo y Seguridad Social (3), p. 59.
+**Concordancias Legales:** artículo 62 bis; artículo 154; artículo 485; constitucion
+
+del Trabajo y Seguridad Social - Sociedad Chilena de Derecho del Trabajo y Seguridad Social (3), p. 59.
 
 Tutela de Derechos                      3. Temas relevantes del procedimiento                                   122
 
@@ -5327,10 +5578,13 @@ contexto del derecho                                                          Fu
                                                                             digitalización y la inteligencia artificial, es la discriminación laboral
                                                                             a través del data mining y de los algoritmos305.
 
-
 ## 304 MCGINLEY, Ann (2018), “Género, derecho y cultura en los lugares de trabajo jurídicos: un caso chileno de
 
-                                            estudio”, Latin American Legal Studies, Vol. 3, pp. 49-76.
+**Definición Canónica:** estudio”, Latin American Legal Studies, Vol. 3, pp. 49-76.
+                                        305 BAROCAS, Solon y SELBST, Andrew D. (2016), “Big Data’s Disparate Impact”, California Law Review, Vol. 104,
+                                            pp. 671-732.
+
+estudio”, Latin American Legal Studies, Vol. 3, pp. 49-76.
                                         305 BAROCAS, Solon y SELBST, Andrew D. (2016), “Big Data’s Disparate Impact”, California Law Review, Vol. 104,
                                             pp. 671-732.
 
@@ -5455,10 +5709,15 @@ contexto del derecho                                                         Fun
                                                                            Otro caso contra la misma empresa también fue fallado a favor de
                                                                            los trabajadores311.
 
-
 ## 308 Corte Suprema, Rol 7023/2009, de 14 de enero de 2010. Nos referiremos a esta sentencia en el capítulo 3.6
 
-                                            Ponderación y prueba de indicios.
+**Definición Canónica:** Ponderación y prueba de indicios.
+                                        309 Juzgado de Letras del Trabajo de La Serena, RIT T-2-2010, 5 de abril del 2010.
+                                        310 Rol 49-2010, de 18 de junio de 2010, La Serena, Chile.
+                                        311 Juzgado de Letras del Trabajo de La Serena, RIT T-3-2010, de 5 de abril de 2010.
+**Concordancias Legales:** artículo 489
+
+Ponderación y prueba de indicios.
                                         309 Juzgado de Letras del Trabajo de La Serena, RIT T-2-2010, 5 de abril del 2010.
                                         310 Rol 49-2010, de 18 de junio de 2010, La Serena, Chile.
                                         311 Juzgado de Letras del Trabajo de La Serena, RIT T-3-2010, de 5 de abril de 2010.
@@ -5576,10 +5835,15 @@ contexto del derecho                                                 Fundamental
                                                                    pacidad, agregando a la indemnización especial del artículo 489 (de
                                                                    seis meses) otra por daño moral (de cinco meses).
 
-
 ## 3.2.4 Inviolabilidad de toda forma
 
-                                                                   de comunicación privada
+**Definición Canónica:** de comunicación privada
+                                                                   A propósito de este acápite, nos remitimos a lo explicado a propósito
+                                                                   de los medios tecnológicos y al control del empleador en la relación
+                                                                   de trabajo (párrafo 2.2.2).
+                                        La vulneración de
+
+de comunicación privada
                                                                    A propósito de este acápite, nos remitimos a lo explicado a propósito
                                                                    de los medios tecnológicos y al control del empleador en la relación
                                                                    de trabajo (párrafo 2.2.2).
@@ -5587,7 +5851,16 @@ contexto del derecho                                                 Fundamental
 
 ## 3.2.5 Libertad ideológica y religiosa
 
-                                        la libertad ideológica
+**Definición Canónica:** la libertad ideológica
+                                                                   La vulneración de la libertad ideológica y religiosa del trabajador tam-
+                                        y religiosa del            bién podría ser objeto del procedimiento de tutela de derechos
+                                        trabajador también         fundamentales.
+                                        podría ser objeto del
+                                                                   Nuestra Constitución Política, en su artículo 19 Nº 6, inciso primero,
+                         
+**Concordancias Legales:** artículo 19; artículo 485; artículo 2; Ley Nº 19.638; Constitución Política; constitucion; constitución
+
+la libertad ideológica
                                                                    La vulneración de la libertad ideológica y religiosa del trabajador tam-
                                         y religiosa del            bién podría ser objeto del procedimiento de tutela de derechos
                                         trabajador también         fundamentales.
@@ -5682,10 +5955,13 @@ contexto del derecho                                                         Fun
                                                                            religiosa y moral que esté de acuerdo con sus propias convicciones
                                                                            (letra d).
 
-
 ## 321   VERDUGO MARINKOVIC, Mario, PFEFFER URQUIAGA, Emilio y NOGUEIRA ALCALÁ, Humberto (2002), De-
 
-                                              recho constitucional, 2ª edición actualizada, tomo I (Santiago, Editorial Jurídica de Chile), p. 258.
+**Definición Canónica:** recho constitucional, 2ª edición actualizada, tomo I (Santiago, Editorial Jurídica de Chile), p. 258.
+                                        322   VERDUGO et al. (2002), p. 258.
+**Concordancias Legales:** artículo 4; constitucion
+
+recho constitucional, 2ª edición actualizada, tomo I (Santiago, Editorial Jurídica de Chile), p. 258.
                                         322   VERDUGO et al. (2002), p. 258.
 
 Tutela de Derechos                                                         3. Temas relevantes del procedimiento                                 132
@@ -5771,7 +6047,10 @@ contexto del derecho                                                           F
 
 ## 326   RODRÍGUEZ-PIÑERO, Miguel (2004), “Libertad ideológica, contrato de trabajo y objeción de conciencia”, en
 
-                                              Persona y Derecho, 50, p. 366.
+**Definición Canónica:** Persona y Derecho, 50, p. 366.
+**Concordancias Legales:** artículo 2; Ley Nº 19.638; constitución
+
+Persona y Derecho, 50, p. 366.
 
 Tutela de Derechos                                                          3. Temas relevantes del procedimiento                                     134
 Fundamentales en el                                                             y de la acción de tutela de Derechos
@@ -5846,18 +6125,30 @@ contexto del derecho                                                            
                                                                               o una iglesia específica. La doctrina ha hecho presente la necesidad de
                                                                               una regulación legal específica de esta materia337.
 
-
 ## 3.2.6 La libertad de emitir opinión y de
 
-                                                                              informar sin censura previa
+**Definición Canónica:** informar sin censura previa
+                                                                              La Constitución Política, en el artículo 19 Nº 12, establece la libertad
+                                                                              de emitir opinión y de informar sin censura previa, garantía com-
+                                                                              prendida expresamente en el artículo 485 inciso primero del CT.
+**Concordancias Legales:** artículo 19; artículo 485; Constitución Política
+
+informar sin censura previa
                                                                               La Constitución Política, en el artículo 19 Nº 12, establece la libertad
                                                                               de emitir opinión y de informar sin censura previa, garantía com-
                                                                               prendida expresamente en el artículo 485 inciso primero del CT.
 
-
 ## 332   APARICIO, Joaquín (1992), “Empresas ideológicas y derechos fundamentales del trabajador”, Autoridad y
 
-                                              democracia en la empresa (al cuidado de Joaquín Aparicio y Antonio Baylos), Madrid, Trotta, p. 84.
+**Definición Canónica:** democracia en la empresa (al cuidado de Joaquín Aparicio y Antonio Baylos), Madrid, Trotta, p. 84.
+                                        333   Esta distinción entre tareas ideológicas y neutras se encuentra en el artículo 4 párrafo segundo de la Directiva
+                                              2000/78/CE. Véase LÜER (2013), pp. 42-43.
+                                        334   IRURETA (2003), p. 241 nota 33.
+                                        335   VISCOMI, Antonio (2003), “Osservazioni critiche su lavoro e ‘tendenza’ nelle fonti internazionali e comunitarie”,
+                
+**Concordancias Legales:** artículo 4; artículo 489; artículo 19; artículos 489; Ley Nº 19.733; Constitución Política; constitucion
+
+democracia en la empresa (al cuidado de Joaquín Aparicio y Antonio Baylos), Madrid, Trotta, p. 84.
                                         333   Esta distinción entre tareas ideológicas y neutras se encuentra en el artículo 4 párrafo segundo de la Directiva
                                               2000/78/CE. Véase LÜER (2013), pp. 42-43.
                                         334   IRURETA (2003), p. 241 nota 33.
@@ -6062,7 +6353,14 @@ contexto del derecho                                                           F
 
 ## 19 N° 12, referente al derecho que tiene todo ciudadano de este
 
-                                                                             país a emitir opinión y el derecho a informar sin censura previa en
+**Definición Canónica:** país a emitir opinión y el derecho a informar sin censura previa en
+                                                                             cualquier forma y por cualquier medio que el Tribunal está obliga-
+                                                                             do a resguardar. Así, el actor denunció una situación a petición de
+                                                                             los dirigentes gremiales de Coquimbo, que consideraban injusta y
+                                                                             que era necesario dar a 
+**Concordancias Legales:** artículo 489 del CT
+
+país a emitir opinión y el derecho a informar sin censura previa en
                                                                              cualquier forma y por cualquier medio que el Tribunal está obliga-
                                                                              do a resguardar. Así, el actor denunció una situación a petición de
                                                                              los dirigentes gremiales de Coquimbo, que consideraban injusta y
@@ -6085,10 +6383,15 @@ contexto del derecho                                                          Fu
                                                                             decretándose seis meses por la indemnización especial del artículo
                                                                             489 del CT.
 
-
 ## 3.2.7 Libertad de trabajo
 
-                                                                            Para la doctrina constitucional, la libertad de trabajo habilita a toda
+**Definición Canónica:** Para la doctrina constitucional, la libertad de trabajo habilita a toda
+                                                                            persona a buscar, obtener, practicar, ejercer o desempeñar cualquier
+                                                                            actividad remunerativa, profesión u oficio lícitos, vale decir, no prohi-
+                                                                            bidos por ley344. A nadie le será impuesto un trabajo o un trabajador.
+**Concordancias Legales:** constitucion
+
+Para la doctrina constitucional, la libertad de trabajo habilita a toda
                                                                             persona a buscar, obtener, practicar, ejercer o desempeñar cualquier
                                                                             actividad remunerativa, profesión u oficio lícitos, vale decir, no prohi-
                                                                             bidos por ley344. A nadie le será impuesto un trabajo o un trabajador.
@@ -6117,14 +6420,13 @@ contexto del derecho                                                          Fu
                                                                             el desahucio o despido ad numtum) sin quedar claro el motivo y cau-
                                                                             sándole severos perjuicios.
 
-
-## 344 EVANS DE LA CUADRA, Enrique (1986), Los derechos constitucionales, tomo II, Santiago, Editorial Jurídica
-
-                                            de Chile, p. 216.
-
 ## 345 BULNES ALDUNATE, Luz (1980), “La libertad de trabajo y su protección en la Constitución de 1980”, Revista
 
-                                            de Derecho Público, 1980, Nº 28, Universidad de Chile, pp. 207-224, p. 214.
+**Definición Canónica:** de Derecho Público, 1980, Nº 28, Universidad de Chile, pp. 207-224, p. 214.
+                                        346 Segundo Juzgado del Trabajo de Santiago, RIT T-66-2103, de fecha 24 de julio de 2013.
+**Concordancias Legales:** artículo 19 de la Constitución Política de la República sin; artículo 489; Constitucion; Constitución Política
+
+de Derecho Público, 1980, Nº 28, Universidad de Chile, pp. 207-224, p. 214.
                                         346 Segundo Juzgado del Trabajo de Santiago, RIT T-66-2103, de fecha 24 de julio de 2013.
 
 Tutela de Derechos                      3. Temas relevantes del procedimiento                                142
@@ -6177,10 +6479,15 @@ contexto del derecho                                                          Fu
                                                                             como indemnización especial del artículo 489 del CT, más la indem-
                                                                             nización del aviso previo y el pago de los días trabajados.
 
-
 ## 3.2.8 Libertad sindical
 
-                                                                            La libertad sindical implica el derecho de los trabajadores y sus agru-
+**Definición Canónica:** La libertad sindical implica el derecho de los trabajadores y sus agru-
+                                                                            paciones para organizarse y defender sus intereses en común347. Sus
+                                                                            componentes esenciales son la organización sindical, la negociación
+                                                                            colectiva y la huelga348.
+**Concordancias Legales:** constitucion; Constitución Política
+
+La libertad sindical implica el derecho de los trabajadores y sus agru-
                                                                             paciones para organizarse y defender sus intereses en común347. Sus
                                                                             componentes esenciales son la organización sindical, la negociación
                                                                             colectiva y la huelga348.
@@ -6247,10 +6554,12 @@ contexto del derecho                                                  Fundamenta
 Fundamentales en el                                                            y de la acción de tutela de Derechos
 contexto del derecho                                                           Fundamentales
 
-
 ## 3.3           La garantía de
 
-                                                                             indemnidad
+**Definición Canónica:** indemnidad
+**Concordancias Legales:** artículo 8; artículo 215; artículo 352
+
+indemnidad
 
                                                                              La garantía de indemnidad es toda una novedad en el derecho laboral
                                                                              nacional352. El origen de la garantía de indemnidad se encuentra en
@@ -6294,10 +6603,14 @@ contexto del derecho                                                           F
 Fundamentales en el                                                          y de la acción de tutela de Derechos
 contexto del derecho                                                         Fundamentales
 
-
 ## 19 N° 16 de nuestra Carta Fundamental, por cuanto la garantía a no
 
-                                                                           ser objeto de represalias por parte del empleador por el ejercicio de
+**Definición Canónica:** ser objeto de represalias por parte del empleador por el ejercicio de
+                                                                           sus derechos sería indispensable para la protección del trabajador,
+                                                                           contratante más débil de la relación de trabajo355.
+**Concordancias Legales:** artículo 19; artículo 24; artículo 485; Ley Nº 20.087; constitucion; Constitución
+
+ser objeto de represalias por parte del empleador por el ejercicio de
                                                                            sus derechos sería indispensable para la protección del trabajador,
                                                                            contratante más débil de la relación de trabajo355.
 
@@ -6333,7 +6646,12 @@ contexto del derecho                                                         Fun
 
 ## 357   HENRÍQUEZ, Helia, RIQUELME, Verónica, GÁLVEZ, Thelma y MORALES, Gabriela (2006), “Lejos del trabajo
 
-                                              decente: el empleo desprotegido en Chile”, Cuaderno de Investigación N° 30, Departamento de Estudios,
+**Definición Canónica:** decente: el empleo desprotegido en Chile”, Cuaderno de Investigación N° 30, Departamento de Estudios,
+                                              Dirección del Trabajo, noviembre 2006, Santiago, p. 157.
+                                        358   UGARTE (2018), p. 224.
+**Concordancias Legales:** artículo 9
+
+decente: el empleo desprotegido en Chile”, Cuaderno de Investigación N° 30, Departamento de Estudios,
                                               Dirección del Trabajo, noviembre 2006, Santiago, p. 157.
                                         358   UGARTE (2018), p. 224.
 
@@ -6374,10 +6692,15 @@ contexto del derecho                                                          Fu
                                                                             se mantenía, la trabajadora recurre a la DT, que ordena al empleador
                                                                             escriturar el contrato. No obstante, el empleador se niega y es multado.
 
-
 ## 359 Primer Juzgado del Trabajo de Santiago, RIT T-272-2011 (caratulado “Vicuña Vergara con Santa Úrsula”), de
 
-                                            18 de octubre de 2011.
+**Definición Canónica:** 18 de octubre de 2011.
+                                        360 ÁLVAREZ (2005), p. 120.
+                                        361 ÁLVAREZ (2005), p. 121.
+                                        362 Juzgado de Letras del Trabajo de Iquique, RIT T-4 2008, de 20 de febrero de 2009.
+**Concordancias Legales:** artículo 160; artículo 5; artículo 489; artículo 485; constitucion
+
+18 de octubre de 2011.
                                         360 ÁLVAREZ (2005), p. 120.
                                         361 ÁLVAREZ (2005), p. 121.
                                         362 Juzgado de Letras del Trabajo de Iquique, RIT T-4 2008, de 20 de febrero de 2009.
@@ -6513,7 +6836,11 @@ contexto del derecho                                                           F
 
 ## 454 N° 5 párrafo final del CT, que establece que la comparecencia
 
-                                                                             del testigo en un juicio del trabajo no le ocasionará consecuencias
+**Definición Canónica:** del testigo en un juicio del trabajo no le ocasionará consecuencias
+                                                                             jurídicas adversas bajo circunstancia alguna.
+**Concordancias Legales:** artículo 485; artículo 489; Ley N° 20.974
+
+del testigo en un juicio del trabajo no le ocasionará consecuencias
                                                                              jurídicas adversas bajo circunstancia alguna.
 
                                                                              Se trataba de una demanda contra una EIRL366, donde la actora había
@@ -6551,22 +6878,24 @@ contexto del derecho                                                           F
 Fundamentales en el                                                            y de la acción de tutela de Derechos
 contexto del derecho                                                           Fundamentales
 
-
-## 3.4           Ámbito material, espacial y temporal de
-
-                                                                             aplicación de la acción de tutela
-
-
 ## 3.4.1 Ámbito de aplicación espacial y material
 
-                                                                             En cuanto a su ámbito de aplicación espacial y material existen dos
+**Definición Canónica:** En cuanto a su ámbito de aplicación espacial y material existen dos
                                                                              temas que a nuestro juicio revisten especial relevancia: la tutela en
                                                                              la etapa precontractual laboral y en el sector público.
 
+En cuanto a su ámbito de aplicación espacial y material existen dos
+                                                                             temas que a nuestro juicio revisten especial relevancia: la tutela en
+                                                                             la etapa precontractual laboral y en el sector público.
 
 ## 3.4.1.1 Tutela en la etapa precontractual
 
-                                                                             Variados y disímiles son los desafíos a que se ha enfrentado la doctrina
+**Definición Canónica:** Variados y disímiles son los desafíos a que se ha enfrentado la doctrina
+                                                                             laboral y el legislador nacional en la etapa que precede al inicio del
+                                                                             vínculo contractual, entre otros, los que se derivan de las distintas
+**Concordancias Legales:** artículo 2; artículo 194; artículo 7 de la Ley N; Ley N° 19.779
+
+Variados y disímiles son los desafíos a que se ha enfrentado la doctrina
                                                                              laboral y el legislador nacional en la etapa que precede al inicio del
                                                                              vínculo contractual, entre otros, los que se derivan de las distintas
 
@@ -6591,10 +6920,14 @@ contexto del derecho                                                           F
                                                                              artículo 7 de la Ley N° 19.779 de 2001, que en esta etapa previa a la
                                                                              relación laboral prohíbe condicionar la contratación de trabajadores,
 
-
 ## 367   Se exceptúan de esta prohibición los trabajadores que tengan poder para representar al empleador, tales
 
-                                              como gerentes, subgerentes, agentes o apoderados, siempre que estén dotados, a lo menos, de facultades
+**Definición Canónica:** como gerentes, subgerentes, agentes o apoderados, siempre que estén dotados, a lo menos, de facultades
+                                              generales de administración; y los trabajadores que estén a cargo de la recaudación, administración o cus-
+                                              todia de fondos o valores de cualquier naturaleza.
+**Concordancias Legales:** artículo 485; artículo 2; artículos 485; constitucion
+
+como gerentes, subgerentes, agentes o apoderados, siempre que estén dotados, a lo menos, de facultades
                                               generales de administración; y los trabajadores que estén a cargo de la recaudación, administración o cus-
                                               todia de fondos o valores de cualquier naturaleza.
 
@@ -6642,7 +6975,10 @@ contexto del derecho                                                          Fu
 
 ## 369   ITURRIAGA DELGADO (2016), Camilo, “Los actos de discriminación en las entrevistas de trabajo y la acción
 
-                                              de tutela laboral”, Revista de Derecho Laboral y Seguridad Social, Vol. IV N° 1, Santiago, pp. 54 y ss.
+**Definición Canónica:** de tutela laboral”, Revista de Derecho Laboral y Seguridad Social, Vol. IV N° 1, Santiago, pp. 54 y ss.
+**Concordancias Legales:** artículos 1; artículos 2; artículo 485 del CT debiera interpretarse restrictivamente; artículo 289; Constitución Política; constitucion
+
+de tutela laboral”, Revista de Derecho Laboral y Seguridad Social, Vol. IV N° 1, Santiago, pp. 54 y ss.
 
 Tutela de Derechos                                                         3. Temas relevantes del procedimiento                                      155
 Fundamentales en el                                                            y de la acción de tutela de Derechos
@@ -6723,22 +7059,33 @@ contexto del derecho                                                           F
                                                                              un trabajador a la firma de una solicitud de afiliación a un sindicato”.
                                                                              El sentenciador sostuvo que “si bien, es cierto, el empleador es libre
 
-
 ## 375   CONTARDO GONZÁLEZ, Juan Ignacio (2009), “Barrientos Zamorano, Marcelo (2008), Daños y deberes en
 
-                                              las tratativas preliminares de un contrato (Santiago, LegalPublishing) 162 pp.”, Revista Chilena de Dere-
+**Definición Canónica:** las tratativas preliminares de un contrato (Santiago, LegalPublishing) 162 pp.”, Revista Chilena de Dere-
+                                              cho (Valdivia) XXXVI (2), Santiago, agosto 2009, p. 451. Disponible en <http://www.scielo.cl/scielo.php?pi-
+                                              d=S0718-34372009000200011&script=sci_arttext> (visitado el 2-3-2020).
+                                        376   ITURRIAGA (2016), p. 65.
+
+las tratativas preliminares de un contrato (Santiago, LegalPublishing) 162 pp.”, Revista Chilena de Dere-
                                               cho (Valdivia) XXXVI (2), Santiago, agosto 2009, p. 451. Disponible en <http://www.scielo.cl/scielo.php?pi-
                                               d=S0718-34372009000200011&script=sci_arttext> (visitado el 2-3-2020).
                                         376   ITURRIAGA (2016), p. 65.
 
 ## 377   TOLEDO CORSI, César (2016), “Análisis crítico de la sanción de las prácticas antisindicales en la Ley Nº
 
-                                              20.940”, Reforma al derecho colectivo del trabajo. Examen crítico de la Ley Nº 20.940 (Pablo Arellano, Juan
+**Definición Canónica:** 20.940”, Reforma al derecho colectivo del trabajo. Examen crítico de la Ley Nº 20.940 (Pablo Arellano, Juan
+                                              Pablo Severín y María Ester Feres eds., Santiago, Thomson Reuters), p. 138.
+**Concordancias Legales:** Ley Nº 20.940
+
+20.940”, Reforma al derecho colectivo del trabajo. Examen crítico de la Ley Nº 20.940 (Pablo Arellano, Juan
                                               Pablo Severín y María Ester Feres eds., Santiago, Thomson Reuters), p. 138.
 
 ## 378   Juzgado del Trabajo de Antofagasta, de 27 de mayo de 2010. Esta sentencia fue ratificada por la Corte de
 
-                                              Apelaciones de Antofagasta, a través del rechazo de su nulidad. Citada por TOLEDO (2016), p. 138 nota 10.
+**Definición Canónica:** Apelaciones de Antofagasta, a través del rechazo de su nulidad. Citada por TOLEDO (2016), p. 138 nota 10.
+**Concordancias Legales:** artículo 2 del Código del Trabajo; artículo 1 del Convenio 98 de la OIT; Ley Nº 20.087
+
+Apelaciones de Antofagasta, a través del rechazo de su nulidad. Citada por TOLEDO (2016), p. 138 nota 10.
 
 Tutela de Derechos                                                            3. Temas relevantes del procedimiento                                       157
 Fundamentales en el                                                               y de la acción de tutela de Derechos
@@ -6794,7 +7141,14 @@ contexto del derecho                                                           F
 
 ## parte de los trabajadores públicos382. La esencia de este problema
 
-                                                                             jurídico radicaba en determinar si es aplicable el procedimiento de
+**Definición Canónica:** jurídico radicaba en determinar si es aplicable el procedimiento de
+                                                                             tutela contemplado en el CT, al tenor de su artículo 1 inciso tercero,
+                                                                             que dispone su supletoriedad frente a los vacíos de los otros estatutos,
+                                                                             siempre que no fueren contrarios a dichos estatutos especiales. En
+                                                                             otras palabra
+**Concordancias Legales:** artículo 1; artículo 2 del Código del Trabajo; artículo 5; artículo 160 del Estatuto Administrativo es un recurso de cará; artículo 485 del CT La Corte explicita que la voz; artículo 485; artículo 4; artículo 19 de la Constitución; ley 20.087; ley N° 2.200; Constitucion; Constitución
+
+jurídico radicaba en determinar si es aplicable el procedimiento de
                                                                              tutela contemplado en el CT, al tenor de su artículo 1 inciso tercero,
                                                                              que dispone su supletoriedad frente a los vacíos de los otros estatutos,
                                                                              siempre que no fueren contrarios a dichos estatutos especiales. En
@@ -7036,10 +7390,16 @@ contexto del derecho                                                            
                                                                                mentales384, lo que hacía aún más imperativo una tutela del débil en
                                                                                esta materia.
 
-
 ## 3.4.2 Ámbito temporal de la acción de tutela y
 
-                                                                               suspensión del acto lesivo de derechos fundamentales
+**Definición Canónica:** suspensión del acto lesivo de derechos fundamentales
+                                                                               Desde una perspectiva temporal, estas denuncias deberán interpo-
+                                                                               nerse dentro del plazo de sesenta días contados desde que se produzca
+                                                                               la vulneración de derechos fundamentales alegada. ¿Desde cuándo
+                                                                               se contabilizará este término? ¿
+**Concordancias Legales:** artículo 168 del CT; artículo 486; artículo 488; artículo 446; artículo 490; Ley Nº 20.260; Ley Nº 20.087
+
+suspensión del acto lesivo de derechos fundamentales
                                                                                Desde una perspectiva temporal, estas denuncias deberán interpo-
                                                                                nerse dentro del plazo de sesenta días contados desde que se produzca
                                                                                la vulneración de derechos fundamentales alegada. ¿Desde cuándo
@@ -7080,7 +7440,15 @@ contexto del derecho                                                            
 
 ## parte, dispondrá, en la primera resolución que dicte, la suspensión
 
-                                          de los efectos del acto impugnado, cuando aparezca de los antece-
+**Definición Canónica:** de los efectos del acto impugnado, cuando aparezca de los antece-
+                                          dentes acompañados al proceso que se trata de lesiones de especial
+                                          gravedad o cuando la vulneración denunciada pueda causar efectos
+                                          irreversibles; ello, bajo apercibimiento de multa, la que podrá repetirse
+                                          hasta obtener el debido cumplimiento de la medida decretada. Contra
+                                          estas resoluciones no procederá recurso alguno (ar
+**Concordancias Legales:** artículo 492; artículo 444; Ley Nº 20.087
+
+de los efectos del acto impugnado, cuando aparezca de los antece-
                                           dentes acompañados al proceso que se trata de lesiones de especial
                                           gravedad o cuando la vulneración denunciada pueda causar efectos
                                           irreversibles; ello, bajo apercibimiento de multa, la que podrá repetirse
@@ -7128,10 +7496,13 @@ contexto del derecho                                                         Fun
                                                                            estamos ante una eventual vulneración de derechos fundamentales
                                                                            del trabajador.
 
-
 ## 385   MARÍN GONZÁLEZ, Juan Carlos (2006), “Las medidas cautelares en el ordenamiento jurídico chileno: su
 
-                                              tratamiento en algunas leyes especiales”, Revista de Estudios de la Justicia, Nº 8, p. 16.
+**Definición Canónica:** tratamiento en algunas leyes especiales”, Revista de Estudios de la Justicia, Nº 8, p. 16.
+                                        386   MARÍN (2006), pp. 16 a 18.
+                                        387   MARÍN (2006), p. 32.
+
+tratamiento en algunas leyes especiales”, Revista de Estudios de la Justicia, Nº 8, p. 16.
                                         386   MARÍN (2006), pp. 16 a 18.
                                         387   MARÍN (2006), p. 32.
 
@@ -7139,10 +7510,11 @@ contexto del derecho                                                         Fun
 Fundamentales en el                                                          y de la acción de tutela de Derechos
 contexto del derecho                                                         Fundamentales
 
-
 ## 3.5        Titulares de
 
-                                                                           la acción
+**Definición Canónica:** la acción
+
+la acción
 
                                                                            La legitimación activa se otorga a cualquier trabajador u organización
                                                                            sindical que invoque un derecho o interés legítimo y que considere
@@ -7153,7 +7525,11 @@ contexto del derecho                                                         Fun
 
 ## parte en el proceso, al igual que la organización sindical de la cual
 
-                                                                           forme parte el trabajador, que podrá hacerse parte como tercero coad-
+**Definición Canónica:** forme parte el trabajador, que podrá hacerse parte como tercero coad-
+                                                                           yuvante, directamente o por intermedio de su organización de grado
+**Concordancias Legales:** artículo 486; artículo 220 del CT. a
+
+forme parte el trabajador, que podrá hacerse parte como tercero coad-
                                                                            yuvante, directamente o por intermedio de su organización de grado
 
                                                                            superior. Con todo, la organización sindical a la cual se encuentre
@@ -7196,17 +7572,20 @@ contexto del derecho                                                          Fu
 
 ## 1. Si el afectado es un trabajador: la víctima, el sindicato al que
 
-                                                                               pertenece, cualquier sindicato que invoque un derecho o interés
+**Definición Canónica:** pertenece, cualquier sindicato que invoque un derecho o interés
                                                                                legítimo y la DT cuando toma conocimiento de la vulneración.
 
-## 2. Si el afectado es un sindicato: la organización sindical víctima y
-
-                                                                               la DT cuando toma conocimiento de la vulneración.
-
+pertenece, cualquier sindicato que invoque un derecho o interés
+                                                                               legítimo y la DT cuando toma conocimiento de la vulneración.
 
 ## 3. En todos los casos anteriores pueden hacerse parte la DT y la
 
-                                                                               organización sindical de la cual forme parte el trabajador como
+**Definición Canónica:** organización sindical de la cual forme parte el trabajador como
+                                                                               tercero coadyuvante, directamente o por intermedio de su orga-
+                                                                               nización de grado superior.
+**Concordancias Legales:** artículo 183; Ley Nº 20.123
+
+organización sindical de la cual forme parte el trabajador como
                                                                                tercero coadyuvante, directamente o por intermedio de su orga-
                                                                                nización de grado superior.
 
@@ -7228,17 +7607,22 @@ contexto del derecho                                                          Fu
 
 ## 390 PRADO FERNÁNDEZ, Juan Manuel (2014), “Tutela laboral. Régimen de subcontratación. Aplicación y respon-
 
-                                            sabilidad de la empresa principal”, Revista de Derecho Laboral y Seguridad Social, (Thomson Reuters Chile),
+**Definición Canónica:** sabilidad de la empresa principal”, Revista de Derecho Laboral y Seguridad Social, (Thomson Reuters Chile),
+                                            Vol. II N° 2, p. 297 y ss.
+
+sabilidad de la empresa principal”, Revista de Derecho Laboral y Seguridad Social, (Thomson Reuters Chile),
                                             Vol. II N° 2, p. 297 y ss.
 
 Tutela de Derechos                            3. Temas relevantes del procedimiento                                 168
 Fundamentales en el                               y de la acción de tutela de Derechos
 contexto del derecho                              Fundamentales
 
-
 ## 3.6     Ponderación y prueba
 
-                                                de indicios
+**Definición Canónica:** de indicios
+**Concordancias Legales:** artículo 485
+
+de indicios
 
                                                 El procedimiento de tutela establece un aligeramiento probatorio es-
                                                 pecial, la prueba de indicios, proveniente del derecho norteamericano
@@ -7267,7 +7651,12 @@ contexto del derecho                              Fundamentales
 
 ## 2. La medida que limita el derecho no debe ser arbitraria o des-
 
-                                                   proporcionada.
+**Definición Canónica:** proporcionada.
+                                                3. No debe afectarse el contenido esencial del derecho fundamental.
+                                                4. No deberá tratarse de una represalia (garantía de indemnidad).
+**Concordancias Legales:** artículo 485 del CT plasman en plenitud el principio de propor; artículo 485; artículo 493; constitucion
+
+proporcionada.
                                                 3. No debe afectarse el contenido esencial del derecho fundamental.
                                                 4. No deberá tratarse de una represalia (garantía de indemnidad).
 
@@ -7405,13 +7794,15 @@ contexto del derecho                                                         Fun
                                         397 ESTREICHER, Samuel y LESTER, Gillian (2008), Employment Law, New York, Thomson/Foundation Press, pp.
                                             193 y 194.
 
-## 398 CORBETT, William R. (2007), “The United States”, The Global Workplace, International and Comparative Em-
-
-                                            ployment Law. Cases and Materials, Nueva York, Cambridge University Press, pp. 136 y 137.
-
 ## 399 BLANPAIN, Roger (2007), “The European Union”, The Global Workplace, International and Comparative Em-
 
-                                            ployment Law. Cases and Materials, Nueva York, Cambridge University Press, p. 316.
+**Definición Canónica:** ployment Law. Cases and Materials, Nueva York, Cambridge University Press, p. 316.
+                                        400 UGARTE (2018), p. 72.
+                                        401 UGARTE (2018), p. 72.
+                                        402 WALTER, Gerhard (1985), Libre apreciación de la prueba, Bogotá, Temis, p. 125.
+**Concordancias Legales:** Ley Nº 20.087
+
+ployment Law. Cases and Materials, Nueva York, Cambridge University Press, p. 316.
                                         400 UGARTE (2018), p. 72.
                                         401 UGARTE (2018), p. 72.
                                         402 WALTER, Gerhard (1985), Libre apreciación de la prueba, Bogotá, Temis, p. 125.
@@ -7463,7 +7854,10 @@ contexto del derecho                                                           F
 
 ## 405 Así por ejemplo, el informe de fiscalización de la Dirección del Trabajo puede ser estimado como un puro
 
-                                              indicio suficiente, GAMONAL (2008), p. 32.
+**Definición Canónica:** indicio suficiente, GAMONAL (2008), p. 32.
+**Concordancias Legales:** artículo 485
+
+indicio suficiente, GAMONAL (2008), p. 32.
 
 Tutela de Derechos                                                       3. Temas relevantes del procedimiento                                 173
 Fundamentales en el                                                          y de la acción de tutela de Derechos
@@ -7479,10 +7873,13 @@ contexto del derecho                                                         Fun
                                                                                 1. La existencia de una justificación que sea suficiente.
                                                                                 2. Que la medida no es arbitraria o desproporcionada.
 
-
 ## 3. Que no se ha afectado el contenido esencial del derecho
 
-                                                                                   fundamental.
+**Definición Canónica:** fundamental.
+                                                                                4. Que no se trata de una represalia.
+**Concordancias Legales:** artículo 485; artículo 489 del CT. Nosotros agregaremos que; artículo 294; artículo 184 bis; artículo 291
+
+fundamental.
                                                                                 4. Que no se trata de una represalia.
 
                                                                            En definitiva, el empleador deberá probar el cumplimiento del prin-
@@ -7539,10 +7936,12 @@ Fundamentales en el                                                         y de
 Fundamentales en el                                                            y de la acción de tutela de Derechos
 contexto del derecho                                                           Fundamentales
 
-
 ## 3.7           Sentencia definitiva y los
 
-                                                                             remedios sistémicos
+**Definición Canónica:** remedios sistémicos
+**Concordancias Legales:** artículo 494
+
+remedios sistémicos
 
                                                                              Con el mérito del informe de fiscalización, cuando corresponda, de
                                                                              lo expuesto por las partes y de las demás pruebas acompañadas al
@@ -7576,10 +7975,15 @@ contexto del derecho                                                           F
                                                                                    mentales. En este tipo de situaciones es apreciable el contenido
                                                                                    de interés público de los derechos fundamentales, dado que el
 
-
 ## 410   Una enumeración de las distintas hipótesis de indemnización del daño moral estando “vigente” el contrato
 
-                                              de trabajo, en GAMONAL (2007), pp. 57, 58, 60, 64, 66, 83, 88 y 90. Asimismo, la Corte Suprema ha recono-
+**Definición Canónica:** de trabajo, en GAMONAL (2007), pp. 57, 58, 60, 64, 66, 83, 88 y 90. Asimismo, la Corte Suprema ha recono-
+                                              cido expresamente la procedencia de la indemnización del daño moral, durante “la vigencia” del contrato de
+                                              trabajo, cuando se han vulnerado derechos fundamentales y se demanda la tutela de los mismos. CS Rol 28
+                                              922, de 13 de julio de 2016.
+**Concordancias Legales:** artículo 495
+
+de trabajo, en GAMONAL (2007), pp. 57, 58, 60, 64, 66, 83, 88 y 90. Asimismo, la Corte Suprema ha recono-
                                               cido expresamente la procedencia de la indemnización del daño moral, durante “la vigencia” del contrato de
                                               trabajo, cuando se han vulnerado derechos fundamentales y se demanda la tutela de los mismos. CS Rol 28
                                               922, de 13 de julio de 2016.
@@ -7669,7 +8073,10 @@ contexto del derecho                                                           F
 
 ## 413   MARZI MUÑOZ, Daniela (2015), “La readmisión como reparación: condición para la ciudadanía en el trabajo
 
-                                              o importancia de ejercer derechos”, AAVV sobre los Derechos Sociales, Edeval, Valparaíso, p. 539.
+**Definición Canónica:** o importancia de ejercer derechos”, AAVV sobre los Derechos Sociales, Edeval, Valparaíso, p. 539.
+**Concordancias Legales:** artículo 495 del CT es com
+
+o importancia de ejercer derechos”, AAVV sobre los Derechos Sociales, Edeval, Valparaíso, p. 539.
 
 Tutela de Derechos                                                        3. Temas relevantes del procedimiento                                  178
 Fundamentales en el                                                           y de la acción de tutela de Derechos
@@ -7700,12 +8107,18 @@ contexto del derecho                                                          Fu
 
 ## 1. Tutela inhibitoria: que busca el cese inmediato de la o las con-
 
-                                                                               ductas lesivas bajo apercibimiento de multa, la que podrá repetirse
+**Definición Canónica:** ductas lesivas bajo apercibimiento de multa, la que podrá repetirse
+                                                                               hasta obtener el debido cumplimiento de la medida decretada417.
+
+ductas lesivas bajo apercibimiento de multa, la que podrá repetirse
                                                                                hasta obtener el debido cumplimiento de la medida decretada417.
 
 ## 2. Tutela restitutoria: el juez deberá velar para que la situación se
 
-                                                                               retrotraiga al estado inmediatamente anterior a producirse la
+**Definición Canónica:** retrotraiga al estado inmediatamente anterior a producirse la
+                                                                               vulneración denunciada. Es decir el acto violatorio es nulo418.
+
+retrotraiga al estado inmediatamente anterior a producirse la
                                                                                vulneración denunciada. Es decir el acto violatorio es nulo418.
 
                                         414   BRONSTEIN (2010), pp. 177 y 178.
@@ -7718,10 +8131,14 @@ contexto del derecho                                                          Fu
 Fundamentales en el                                                           y de la acción de tutela de Derechos
 contexto del derecho                                                          Fundamentales
 
-
 ## 3. Tutela resarcitoria: el juez indicará en forma concreta las medidas
 
-                                                                               a que se encuentra obligado el infractor y dirigidas a obtener la
+**Definición Canónica:** a que se encuentra obligado el infractor y dirigidas a obtener la
+                                                                               reparación de las consecuencias derivadas de la vulneración de
+                                                                               derechos fundamentales, bajo el mismo apercibimiento anterior,
+                                                                               incluidas las indemnizaciones que procedan419.
+
+a que se encuentra obligado el infractor y dirigidas a obtener la
                                                                                reparación de las consecuencias derivadas de la vulneración de
                                                                                derechos fundamentales, bajo el mismo apercibimiento anterior,
                                                                                incluidas las indemnizaciones que procedan419.
@@ -7757,17 +8174,22 @@ contexto del derecho                                                          Fu
 
 ## 420 CS Rol 28.922-2015, de fecha 13 de julio de 2016, caratulados “Miranda Pradenas Macarena con Subsecretaría
 
-                                            de Salud Pública”.
+**Definición Canónica:** de Salud Pública”.
+                                        421 MANGARELLI, Cristina (1984), Daño moral en el derecho laboral, Montevideo, Acali Editorial p. 116.
+
+de Salud Pública”.
                                         421 MANGARELLI, Cristina (1984), Daño moral en el derecho laboral, Montevideo, Acali Editorial p. 116.
 
 Tutela de Derechos                                                         3. Temas relevantes del procedimiento                                  180
 Fundamentales en el                                                            y de la acción de tutela de Derechos
 contexto del derecho                                                           Fundamentales
 
-
 ## 3.8.          El despido atentatorio de derechos
 
-                                                                                  fundamentales y el despido discriminatorio grave*
+**Definición Canónica:** fundamentales y el despido discriminatorio grave*
+**Concordancias Legales:** artículo 489; artículos 159; artículo 485; artículo 294; artículos 485; artículos 489; artículo 453; artículo 486 del CT; artículos 162; artículo 172 del CT; artículo 168 del CT y
+
+fundamentales y el despido discriminatorio grave*
 
                                                                              En el procedimiento de tutela de derechos se regula un tipo espe-
                                                                              cial, el despido abusivo (artículo 489 del CT), cuando con ocasión
@@ -7954,10 +8376,16 @@ contexto del derecho                                                            
                                                                               con una importante incidencia en los intereses extrapatrimoniales
                                                                               del trabajador.
 
-
 ## Parte de la doctrina y jurisprudencia estima que la indemnización
 
-                                                                              adicional es una indemnización sancionatoria y que, por ende, que-
+**Definición Canónica:** adicional es una indemnización sancionatoria y que, por ende, que-
+                                                                              daría pendiente la indemnización por el daño moral producido430.
+                                                                              Por nuestra parte, consideramos que esta indemnización no es una
+                                                                              simple tarificación por antigüedad, sino que deja un margen de apre-
+                                                                              ciación importante al 
+**Concordancias Legales:** artículo 489 del Código del Trabajo; artículo 489; constitucion
+
+adicional es una indemnización sancionatoria y que, por ende, que-
                                                                               daría pendiente la indemnización por el daño moral producido430.
                                                                               Por nuestra parte, consideramos que esta indemnización no es una
                                                                               simple tarificación por antigüedad, sino que deja un margen de apre-
@@ -8017,13 +8445,12 @@ contexto del derecho                                                            
                                               “Evolución del daño moral por término del contrato de trabajo en el derecho chileno”, Revista de Derecho de
                                               la Pontificia Universidad Católica de Valparaíso, XXXIX, 2° semestre, pp. 161-176.
 
-## 432   BARROS BOURIE, Enrique (2007), Tratado de responsabilidad extracontractual, Santiago, Editorial Jurídica
-
-                                              de Chile, p. 253 y nota 112.
-
 ## 433   Considerando octavo, CS Rol 28.922- 2015, de 13 de julio de 2016, caratulados “Miranda Pradenas Macarena
 
-                                              con Subsecretaría de Salud Pública”.
+**Definición Canónica:** con Subsecretaría de Salud Pública”.
+**Concordancias Legales:** artículo 489 del CT; artículo 2 del CT y; artículos 162
+
+con Subsecretaría de Salud Pública”.
 
 Tutela de Derechos                                                        3. Temas relevantes del procedimiento                                     186
 Fundamentales en el                                                           y de la acción de tutela de Derechos
@@ -8081,10 +8508,12 @@ contexto del derecho                                                          Fu
 Fundamentales en el                                                            y de la acción de tutela de Derechos
 contexto del derecho                                                           Fundamentales
 
-
 ## 3.9           A diez años del procedimiento
 
-                                                                             de tutela
+**Definición Canónica:** de tutela
+**Concordancias Legales:** artículo 485; artículo 485 del CT que están
+
+de tutela
 
                                                                              Luego de diez años de vigencia de la tutela, podemos señalar algunas
                                                                              tendencias435.
@@ -8175,14 +8604,12 @@ contexto del derecho                                                            
                                                                                 igualdad entre las partes cuando los sindicatos son poderosos y
                                                                                 representativos438. Aunque la tutela comprenda en nuestro país la
 
-
-## 437 Como vimos en este trabajo, cumpliendo los estándares del artículo 485 inciso tercero, el empleador puede
-
-                                              limitar los derechos fundamentales de los trabajadores.
-
 ## 438 Se ha hecho presente que la ciudadanía en la empresa es complementaria de los derechos fundamentales más
 
-                                              tradicionales del derecho del trabajo, como la justa retribución o la libertad sindical. GAMONAL (2004a), p. 74.
+**Definición Canónica:** tradicionales del derecho del trabajo, como la justa retribución o la libertad sindical. GAMONAL (2004a), p. 74.
+**Concordancias Legales:** Constitución
+
+tradicionales del derecho del trabajo, como la justa retribución o la libertad sindical. GAMONAL (2004a), p. 74.
 
 Tutela de Derechos                                                                                                                                        191
 
@@ -8243,8 +8670,13 @@ contexto del derecho                                                            
 
 ## 12. Garantía de indemnidad: las represalias en contra
 
+**Definición Canónica:** 3.   Ciudadanía en la empresa: teoría que postula la             del trabajador son también una violación de sus
+                                             vigencia de los derechos civiles y políticos del            derechos fundamentales. Una de sus manifesta-
+                                             trabajador, en cuanto ciudadano, al interior de las         ciones es la garantía de indemnidad, cuando el
+                                             relaciones laborales.                                       trabajador ha ejercido acciones judiciales, ha par-
+                           
 
-                                        3.   Ciudadanía en la empresa: teoría que postula la             del trabajador son también una violación de sus
+3.   Ciudadanía en la empresa: teoría que postula la             del trabajador son también una violación de sus
                                              vigencia de los derechos civiles y políticos del            derechos fundamentales. Una de sus manifesta-
                                              trabajador, en cuanto ciudadano, al interior de las         ciones es la garantía de indemnidad, cuando el
                                              relaciones laborales.                                       trabajador ha ejercido acciones judiciales, ha par-
@@ -8268,7 +8700,14 @@ contexto del derecho                                                            
 
 ## 6.   Constitucionalización del derecho del traba-
 
-                                             jo: cuando los textos constitucionales adoptan          15. Juicio de adecuación e idoneidad: el legislador, al
+**Definición Canónica:** jo: cuando los textos constitucionales adoptan          15. Juicio de adecuación e idoneidad: el legislador, al
+                                             cláusulas laborales en sus catálogos de derechos            establecer una medida determinada, debe con-
+                                             fundamentales, a saber, el derecho al trabajo, al           siderar que sea idónea en el sentido de ser apta
+                                             descanso dominical, a la tutela de la maternidad,           para el fin perseguido. Se compone de dos ele-
+                                
+**Concordancias Legales:** constitucion
+
+jo: cuando los textos constitucionales adoptan          15. Juicio de adecuación e idoneidad: el legislador, al
                                              cláusulas laborales en sus catálogos de derechos            establecer una medida determinada, debe con-
                                              fundamentales, a saber, el derecho al trabajo, al           siderar que sea idónea en el sentido de ser apta
                                              descanso dominical, a la tutela de la maternidad,           para el fin perseguido. Se compone de dos ele-
@@ -8282,7 +8721,14 @@ contexto del derecho                                                            
 
 ## 8.   Despido discriminatorio grave: cuando es dis-               fundamentales del ciudadano. Debe ser la más
 
-                                             criminatorio (de conformidad a lo dispuesto en el           benigna con el derecho intervenido.
+**Definición Canónica:** criminatorio (de conformidad a lo dispuesto en el           benigna con el derecho intervenido.
+                                             artículo 2 del CT) y calificado como grave, por el
+                                             juez, por resolución fundada.                           17. Laboralización del derecho constitucional: la
+                                                                                                         constitucionalización del derecho laboral con-
+                                        9.   Eficacia diagonal: en materia laboral y dado el             
+**Concordancias Legales:** artículo 2; constitucion
+
+criminatorio (de conformidad a lo dispuesto en el           benigna con el derecho intervenido.
                                              artículo 2 del CT) y calificado como grave, por el
                                              juez, por resolución fundada.                           17. Laboralización del derecho constitucional: la
                                                                                                          constitucionalización del derecho laboral con-
@@ -8341,10 +8787,18 @@ contexto del derecho                                                            
                                             un derecho fundamental, tanto mayor debe ser la
                                             importancia del cumplimiento del otro.
 
-
 ## 24. Prueba de indicios: se trata de un aligeramien-
 
-                                            to o desplazamiento probatorio del demandante
+**Definición Canónica:** to o desplazamiento probatorio del demandante
+                                            trabajador al demandado empleador. Puede ser
+                                            definida como un sistema que exige una prueba
+                                            mínima de la vulneración de un derecho funda-
+                                            mental del trabajador subordinado, para que sea
+                                            el empleador quien deba justificar la licitud de su
+                                            actuación.
+**Concordancias Legales:** constitucion
+
+to o desplazamiento probatorio del demandante
                                             trabajador al demandado empleador. Puede ser
                                             definida como un sistema que exige una prueba
                                             mínima de la vulneración de un derecho funda-
@@ -8400,10 +8854,15 @@ contexto del derecho                                                            
                                               —— Respuesta: Los derechos entre particulares son regulados objetivamente por el legislador
                                                   y, por lo tanto, no es necesario aplicar entre ellos los derechos fundamentales.
 
-
 ## 7.   Explique la crítica relativa a la afectación de la autonomía privada en
 
-                                             la eficacia horizontal.
+**Definición Canónica:** la eficacia horizontal.
+                                              —— Respuesta: La aplicación de los derechos fundamentales afecta gravemente la autonomía
+                                                    privada como fundamento del derecho privado, limitando la autonomía de las personas
+                                                    para disponer libremente de sus derechos.
+**Concordancias Legales:** artículo 168; artículo 495; artículo 294 del CT; artículo 493; artículos 153; artículo 161; constitucion
+
+la eficacia horizontal.
                                               —— Respuesta: La aplicación de los derechos fundamentales afecta gravemente la autonomía
                                                     privada como fundamento del derecho privado, limitando la autonomía de las personas
                                                     para disponer libremente de sus derechos.
@@ -8608,10 +9067,15 @@ contexto del derecho                                                            
 
                                               Bibliografía
 
-
 ## 1.    AKRIVOPOULOU, Christina (2007), “Greece               12. ARELLANO ORTIZ, Pablo (2013b), “Cambio en
 
-                                              Taking Private Law Seriously in the Application           las condiciones de trabajo, renuncia forzada y
+**Definición Canónica:** Taking Private Law Seriously in the Application           las condiciones de trabajo, renuncia forzada y
+                                              of Constitutional Rights”, Human Rights and the           despido: un típico caso de tutela de derechos
+                                              Private Sphere. A Comparative Study (Nueva                fundamentales al momento del despido”, Revista
+                                              York, Routledge Cavendish), pp. 157-179.                  de Derecho Laboral y Seguridad Social, Vol. I N° 1
+                                       
+
+Taking Private Law Seriously in the Application           las condiciones de trabajo, renuncia forzada y
                                               of Constitutional Rights”, Human Rights and the           despido: un típico caso de tutela de derechos
                                               Private Sphere. A Comparative Study (Nueva                fundamentales al momento del despido”, Revista
                                               York, Routledge Cavendish), pp. 157-179.                  de Derecho Laboral y Seguridad Social, Vol. I N° 1
@@ -8619,23 +9083,41 @@ contexto del derecho                                                            
 
 ## 2.    ALDUNATE LIZAMA, Eduardo (2008), Derechos
 
-                                              fundamentales (Santiago, LegalPublishing).            13. ARELLANO ORTIZ, Pablo y BENFELD ESCOBAR,
+**Definición Canónica:** fundamentales (Santiago, LegalPublishing).            13. ARELLANO ORTIZ, Pablo y BENFELD ESCOBAR,
+                                                                                                        Johann (2017), “Reflexiones sobre el principio
+                                        3.    ALEINIKOFF, T. Alexander (2010), El derecho               de protección al trabajador y su influencia en el
+                                              constitucional en la era de la ponderación, (tra-         ámbito sustantivo y procesal del derecho laboral:
+                                          
+**Concordancias Legales:** constitucion
+
+fundamentales (Santiago, LegalPublishing).            13. ARELLANO ORTIZ, Pablo y BENFELD ESCOBAR,
                                                                                                         Johann (2017), “Reflexiones sobre el principio
                                         3.    ALEINIKOFF, T. Alexander (2010), El derecho               de protección al trabajador y su influencia en el
                                               constitucional en la era de la ponderación, (tra-         ámbito sustantivo y procesal del derecho laboral:
                                               ducción de Jimena Aliaga Gamarra, del trabajo             otra mirada al caso Kronos”, Revista Chilena de
                                               original en inglés de 1987) (Lima, Palestra).             Derecho y Tecnología, Vol. 6, Nº 2, pp. 3-24.
 
-
 ## 4.    ALEXY, Robert (2002), “Epílogo a la teoría de los     14. ARREDONDO PACHECO, Jorge (2014), “La llega-
 
-                                              derechos fundamentales”, Revista Española de              da de la reforma laboral: el famoso caso Kronos”,
+**Definición Canónica:** derechos fundamentales”, Revista Española de              da de la reforma laboral: el famoso caso Kronos”,
+                                              Derecho Constitucional, Año 22, N° 66, pp. 13-64.         Revista de Derecho Laboral y Seguridad Social,
+                                                                                                        Vol. II N° 1 (Thomson Reuters Chile), pp. 417-448.
+**Concordancias Legales:** Constitucion
+
+derechos fundamentales”, Revista Española de              da de la reforma laboral: el famoso caso Kronos”,
                                               Derecho Constitucional, Año 22, N° 66, pp. 13-64.         Revista de Derecho Laboral y Seguridad Social,
                                                                                                         Vol. II N° 1 (Thomson Reuters Chile), pp. 417-448.
 
 ## 5.    ALEXY, Robert (2001), Teoría de los derechos
 
-                                              fundamentales (Madrid, Centro de Estudios Polí-       15. ASÍS ROIG, Rafael de (2004), Prólogo a la obra de
+**Definición Canónica:** fundamentales (Madrid, Centro de Estudios Polí-       15. ASÍS ROIG, Rafael de (2004), Prólogo a la obra de
+                                              ticos y Constitucionales).                                VENEGAS GRAU, María, Derechos fundamentales
+                                                                                                        y derecho privado. Los derechos fundamentales
+                                        6.    ALLEN, William T., JACOBS, Jack B. y STRINE,
+                                                                                                       
+**Concordancias Legales:** Constitucion
+
+fundamentales (Madrid, Centro de Estudios Polí-       15. ASÍS ROIG, Rafael de (2004), Prólogo a la obra de
                                               ticos y Constitucionales).                                VENEGAS GRAU, María, Derechos fundamentales
                                                                                                         y derecho privado. Los derechos fundamentales
                                         6.    ALLEN, William T., JACOBS, Jack B. y STRINE,
@@ -8651,24 +9133,38 @@ contexto del derecho                                                            
 
 ## 7.    ALONSO OLEA, Manuel y Casas Baamonde, Ma-
 
-                                                                                                        je a Ronald Dworkin (Universidad de Valparaíso,
+**Definición Canónica:** je a Ronald Dworkin (Universidad de Valparaíso,
                                               ría Emilia (2006), Derecho del trabajo, 24ª edición
                                                                                                         Edeval), pp. 329-356.
                                               (Cizur Menor, Thomson Aranzadi).
 
-## 17.   ATRIA, Fernando (2007), Mercado y ciudadanía
-
+je a Ronald Dworkin (Universidad de Valparaíso,
+                                              ría Emilia (2006), Derecho del trabajo, 24ª edición
+                                                                                                        Edeval), pp. 329-356.
+                                              (Cizur Menor, Thomson Aranzadi).
 
 ## 8.    ÁLVAREZ ALONSO, Diego (2005), La garantía de
 
-                                                                                                          en la educación (Santiago, Flandes Indiano).
+**Definición Canónica:** en la educación (Santiago, Flandes Indiano).
+                                              indemnidad del trabajador frente a represalias
+                                              empresariales (Albacete, Bomarzo).                    18. ATRIA, Fernando (2000), “Las circunstancias de
+                                                                                                        la derrotabilidad”, Sobre el Razonamiento Jurídi-
+
+en la educación (Santiago, Flandes Indiano).
                                               indemnidad del trabajador frente a represalias
                                               empresariales (Albacete, Bomarzo).                    18. ATRIA, Fernando (2000), “Las circunstancias de
                                                                                                         la derrotabilidad”, Sobre el Razonamiento Jurídi-
 
 ## 9.    ÁLVAREZ VALENZUELA, Daniel (2004), “Invio-
 
-                                                                                                        co, Revista de Ciencias Sociales Nº 45 (Valparaí-
+**Definición Canónica:** co, Revista de Ciencias Sociales Nº 45 (Valparaí-
+                                              labilidad de las comunicaciones electrónica”,
+                                                                                                        so, Edeval), pp. 448-456.
+                                              Revista Chilena de Derecho Informático, Nº 5, pp.
+                                              191-200.                                              19.   ÁVILA, Humberto (2011), Teoría de los principios
+                                                                             
+
+co, Revista de Ciencias Sociales Nº 45 (Valparaí-
                                               labilidad de las comunicaciones electrónica”,
                                                                                                         so, Edeval), pp. 448-456.
                                               Revista Chilena de Derecho Informático, Nº 5, pp.
@@ -8677,7 +9173,13 @@ contexto del derecho                                                            
 
 ## 10. APARICIO, Joaquín (1992), “Empresas ideológicas
 
-                                            y derechos fundamentales del trabajador”, Au-           20. BARAHONA ESTAY, Francisca (2009), Despido
+**Definición Canónica:** y derechos fundamentales del trabajador”, Au-           20. BARAHONA ESTAY, Francisca (2009), Despido
+                                            toridad y Democracia en la Empresa, al cuidado              indirecto (Santiago, PuntoLex).
+                                            de Joaquín Aparicio y Antonio Baylos (Madrid,
+                                            Trotta), pp. 77-93.                                     21. BARBA RAMOS, Francisco y RODRÍGUEZ-PIÑERO
+                                                                                                        ROYO, Miguel (2019), “
+
+y derechos fundamentales del trabajador”, Au-           20. BARAHONA ESTAY, Francisca (2009), Despido
                                             toridad y Democracia en la Empresa, al cuidado              indirecto (Santiago, PuntoLex).
                                             de Joaquín Aparicio y Antonio Baylos (Madrid,
                                             Trotta), pp. 77-93.                                     21. BARBA RAMOS, Francisco y RODRÍGUEZ-PIÑERO
@@ -8693,25 +9195,36 @@ contexto del derecho                                                            
 
 Tutela de Derechos                                                                                 Bibliografía                                          202
 
-
 ## 22. BARBAGELATA, Héctor-Hugo (2009), El parti-             33. BRONSTEIN, Arturo (2010), Derecho internacio-
 
-                                            cularismo del derecho del trabajo y los derechos           nal y comparado del trabajo. Desafíos actuales
+**Definición Canónica:** cularismo del derecho del trabajo y los derechos           nal y comparado del trabajo. Desafíos actuales
                                             humanos laborales (Montevideo, Fundación de                (Plaza y Valdés Editores, OIT).
                                             Cultura Universitaria).
 
-## 34. BRONSTEIN, Arturo (1993), “La protección contra
-
+cularismo del derecho del trabajo y los derechos           nal y comparado del trabajo. Desafíos actuales
+                                            humanos laborales (Montevideo, Fundación de                (Plaza y Valdés Editores, OIT).
+                                            Cultura Universitaria).
 
 ## 23. BAROCAS, Solon y SELBST, Andrew D. (2016),                 el despido arbitrario en derecho comparado del
 
-                                            “Big Data’s Disparate Impact”, California Law              trabajo”, Derecho del trabajo: normas y realidad,
+**Definición Canónica:** “Big Data’s Disparate Impact”, California Law              trabajo”, Derecho del trabajo: normas y realidad,
+                                            Review, Vol. 104, pp. 671-732.                             (Santiago, Universidad Nacional Andrés Bello), pp.
+                                                                                                       113-136.
+
+“Big Data’s Disparate Impact”, California Law              trabajo”, Derecho del trabajo: normas y realidad,
                                             Review, Vol. 104, pp. 671-732.                             (Santiago, Universidad Nacional Andrés Bello), pp.
                                                                                                        113-136.
 
 ## 24. BARROS BOURIE, Enrique (2007), Tratado de res-
 
-                                            ponsabilidad extracontractual (Santiago, Edito-        35. BUCKLEY, Timothy J. (2013), “Password Protec-
+**Definición Canónica:** ponsabilidad extracontractual (Santiago, Edito-        35. BUCKLEY, Timothy J. (2013), “Password Protec-
+                                            rial Jurídica de Chile).                                   tion Now: An Elaboration on the Need for Federal
+                                                                                                       Password Protection Legislation and Suggestions
+                                        25. BARROS BOURIE, Enrique (1984), “Reglas y                   on how to Draft it”, Cardozo Arts & Entertainment
+                                       
+**Concordancias Legales:** Constitución
+
+ponsabilidad extracontractual (Santiago, Edito-        35. BUCKLEY, Timothy J. (2013), “Password Protec-
                                             rial Jurídica de Chile).                                   tion Now: An Elaboration on the Need for Federal
                                                                                                        Password Protection Legislation and Suggestions
                                         25. BARROS BOURIE, Enrique (1984), “Reglas y                   on how to Draft it”, Cardozo Arts & Entertainment
@@ -8720,29 +9233,49 @@ contexto del derecho                                                            
                                             Jurídica y Social (Valparaíso, Edeval), pp. 269-281.   36. BULNES ALDUNATE, Luz (1980), “La libertad de
                                                                                                        trabajo y su protección en la Constitución de
 
-
 ## 26. BAVARO, Vincenzo (2003), “Ideologia e contra-              1980”, Revista de Derecho Público, 1980, Nº 28
 
-                                            tto di lavoro subordinato”, Giornale di Diritto del        (Universidad de Chile), pp. 207-224.
+**Definición Canónica:** tto di lavoro subordinato”, Giornale di Diritto del        (Universidad de Chile), pp. 207-224.
+                                            Lavoro e di Relazioni Industriali, N° 98, año XXV,
+                                            pp.193-252.                                            37.   CAAMAÑO ROJO, Eduardo (2012), “La tipifi-
+                                                                                                         cación y sanción del acoso laboral en Chile: un
+
+tto di lavoro subordinato”, Giornale di Diritto del        (Universidad de Chile), pp. 207-224.
                                             Lavoro e di Relazioni Industriali, N° 98, año XXV,
                                             pp.193-252.                                            37.   CAAMAÑO ROJO, Eduardo (2012), “La tipifi-
                                                                                                          cación y sanción del acoso laboral en Chile: un
 
 ## 27.   BAYLOS, Antonio (1991), Derecho del trabajo:               ejemplo de cómo retroceder en el resguardo de
 
-                                              modelo para armar (Madrid, Trotta).                        los derechos fundamentales”, Estudios Laborales
+**Definición Canónica:** modelo para armar (Madrid, Trotta).                        los derechos fundamentales”, Estudios Laborales
+                                                                                                         N° 7 (Santiago, Sociedad Chilena de Derecho del
+
+modelo para armar (Madrid, Trotta).                        los derechos fundamentales”, Estudios Laborales
                                                                                                          N° 7 (Santiago, Sociedad Chilena de Derecho del
 
 ## 28. BENALCÁZAR, Isabelle De (2003), Droit du tra-
 
-                                                                                                         Trabajo y de la Seguridad Social), pp. 179-202.
+**Definición Canónica:** Trabajo y de la Seguridad Social), pp. 179-202.
+                                            vail et nouvelles technologies (París, Montchres-
+                                            tien Gualino éditeur).                                 38. CAAMAÑO ROJO, Eduardo (2007), El derecho
+                                                                                                       a la no discriminación en el empleo, 2ª edición
+
+Trabajo y de la Seguridad Social), pp. 179-202.
                                             vail et nouvelles technologies (París, Montchres-
                                             tien Gualino éditeur).                                 38. CAAMAÑO ROJO, Eduardo (2007), El derecho
                                                                                                        a la no discriminación en el empleo, 2ª edición
 
 ## 29. BERNAL PULIDO, Carlos (2010), “La pondera-
 
-                                                                                                       (Santiago, LexisNexis).
+**Definición Canónica:** (Santiago, LexisNexis).
+                                            ción en el derecho constitucional de los Estados
+                                            Unidos y de Hispanoamérica”, Estudio preliminar        39. CABRELLI, David (2011), “Rules and Standards
+                                            del libro de T. Alexander ALEINIKOFF El derecho            in the Workplace: a Perspective from the Field of
+                                            constitucional en la era de la ponderación (Lima,          Labour Law”, Legal Studies, Vol. 31 N° 1, pp. 21-41.
+                          
+**Concordancias Legales:** constitucion
+
+(Santiago, LexisNexis).
                                             ción en el derecho constitucional de los Estados
                                             Unidos y de Hispanoamérica”, Estudio preliminar        39. CABRELLI, David (2011), “Rules and Standards
                                             del libro de T. Alexander ALEINIKOFF El derecho            in the Workplace: a Perspective from the Field of
@@ -8751,7 +9284,13 @@ contexto del derecho                                                            
 
 ## 40. CANARIS, Claus-Wilhelm (2006), “A influencia
 
-                                        30. BILBAO UBILLOS, Juan María (2007), “La eficacia            dos direitos fundamentais sobre o direito privado
+**Definición Canónica:** 30. BILBAO UBILLOS, Juan María (2007), “La eficacia            dos direitos fundamentais sobre o direito privado
+                                            frente a terceros de los derechos fundamentales            na Alemanha”, Constituçiâo, Direitos Fundamen-
+                                            en el ordenamiento español”, Direitos Funda-               tais e Direito Privado (Porto Alegre, Livraria Do
+                                            mentais e Direito Privado. Uma Perspectiva de              Advogado Editora), pp. 225-245.
+                                            Direi
+
+30. BILBAO UBILLOS, Juan María (2007), “La eficacia            dos direitos fundamentais sobre o direito privado
                                             frente a terceros de los derechos fundamentales            na Alemanha”, Constituçiâo, Direitos Fundamen-
                                             en el ordenamiento español”, Direitos Funda-               tais e Direito Privado (Porto Alegre, Livraria Do
                                             mentais e Direito Privado. Uma Perspectiva de              Advogado Editora), pp. 225-245.
@@ -8762,14 +9301,25 @@ contexto del derecho                                                            
 
 ## 31. BILBAO UBILLOS, Juan María (1997), Los de-
 
-                                            rechos fundamentales en la frontera entre lo           42. CARRIÓ, Genaro R. (1994), Notas sobre derecho y
+**Definición Canónica:** rechos fundamentales en la frontera entre lo           42. CARRIÓ, Genaro R. (1994), Notas sobre derecho y
+                                            público y lo privado (la noción de State Action            lenguaje, 4ª edición corregida y aumentada, reim-
+                                            en la jurisprudencia norteamericana), (Madrid,             presión (Buenos Aires, Abeledo-Perrot).
+                                            McGraw-Hill).
+
+rechos fundamentales en la frontera entre lo           42. CARRIÓ, Genaro R. (1994), Notas sobre derecho y
                                             público y lo privado (la noción de State Action            lenguaje, 4ª edición corregida y aumentada, reim-
                                             en la jurisprudencia norteamericana), (Madrid,             presión (Buenos Aires, Abeledo-Perrot).
                                             McGraw-Hill).
 
 ## 43. CARRO HERNÁNDEZ, María del Rocío y ESPINO-
 
-                                        32. BLANPAIN, Roger (2007), “The European Union”,              ZA C. (2012), Gabriel, “Redes Sociales y el despi-
+**Definición Canónica:** 32. BLANPAIN, Roger (2007), “The European Union”,              ZA C. (2012), Gabriel, “Redes Sociales y el despi-
+                                            The Global Workplace, International and Com-               do sanción” (en línea), Revista Judicial de la Cor-
+                                            parative Employment Law. Cases and Materials,              te Suprema de Justicia de Costa Rica N° 9, enero
+                                            Roger Blanpain, Susan Bisom-Rapp, William R.               2012, p. 120. Disponible en: https://salasegunda.
+                          
+
+32. BLANPAIN, Roger (2007), “The European Union”,              ZA C. (2012), Gabriel, “Redes Sociales y el despi-
                                             The Global Workplace, International and Com-               do sanción” (en línea), Revista Judicial de la Cor-
                                             parative Employment Law. Cases and Materials,              te Suprema de Justicia de Costa Rica N° 9, enero
                                             Roger Blanpain, Susan Bisom-Rapp, William R.               2012, p. 120. Disponible en: https://salasegunda.
@@ -8779,10 +9329,17 @@ contexto del derecho                                                            
 
 Tutela de Derechos                                                                                Bibliografía                                              203
 
-
 ## 44. CASAS BECERRA, Lidia (2012), “Un estudio sobre        53. COUSO SALAS, Jaime (2018), “Relevancia penal
 
-                                            las quejas por acoso sexual ante la Inspección            de la intromisión del empleador en los correos
+**Definición Canónica:** las quejas por acoso sexual ante la Inspección            de la intromisión del empleador en los correos
+                                            del Trabajo: desafíos y oportunidades de la Ley           electrónicos de sus trabajadores”, Revista de
+                                            N° 20.005”, Estudios Laborales N° 7 (Santiago,            Derecho, Universidad Católica del Norte, Año 25,
+                                            Sociedad Chilena de Derecho del Trabajo y de la           Nº 2, pp. 29-76.
+                                            Seguridad Social), pp. 25-50.
+   
+**Concordancias Legales:** Constitucion; Constitución
+
+las quejas por acoso sexual ante la Inspección            de la intromisión del empleador en los correos
                                             del Trabajo: desafíos y oportunidades de la Ley           electrónicos de sus trabajadores”, Revista de
                                             N° 20.005”, Estudios Laborales N° 7 (Santiago,            Derecho, Universidad Católica del Norte, Año 25,
                                             Sociedad Chilena de Derecho del Trabajo y de la           Nº 2, pp. 29-76.
@@ -8796,13 +9353,20 @@ contexto del derecho                                                            
 
 ## 46. CEA EGAÑA, José Luis (2004), Derecho consti-
 
-                                            tucional chileno, Tomo II Derechos, Deberes y Ga-     56. CURZIO, Pietro (1992), Autonomia collettiva e
+**Definición Canónica:** tucional chileno, Tomo II Derechos, Deberes y Ga-     56. CURZIO, Pietro (1992), Autonomia collettiva e
+                                            rantías (Santiago, Ediciones Universidad Católica         sciopero nei servizi essenziali (Bari, Cacucci).
+                                            de Chile).
+
+tucional chileno, Tomo II Derechos, Deberes y Ga-     56. CURZIO, Pietro (1992), Autonomia collettiva e
                                             rantías (Santiago, Ediciones Universidad Católica         sciopero nei servizi essenziali (Bari, Cacucci).
                                             de Chile).
 
 ## 57.   CHAPMAN, Anna (2002), “Vie privée et survei-
 
-                                        47. CEA EGAÑA, José Luis (1988), Tratado de la                  llance sur le lieu de travail en Australie”, Bulletin
+**Definición Canónica:** 47. CEA EGAÑA, José Luis (1988), Tratado de la                  llance sur le lieu de travail en Australie”, Bulletin
+**Concordancias Legales:** Constitución
+
+47. CEA EGAÑA, José Luis (1988), Tratado de la                  llance sur le lieu de travail en Australie”, Bulletin
 
                                             Constitución de 1980 (Santiago, Editorial Jurídi-           de droit comparé du travail et de la sécurité
                                             ca de Chile).                                               sociale (COMPTRASEC, Université Montes-
@@ -8815,17 +9379,16 @@ contexto del derecho                                                            
                                             2009. Disponible en: <http://www.scielo.cl/scielo.        Económica).
                                             php?pid=S0718-34372009000200011&scrip-
 
-## 59. DUCCI CLARO, Carlos (1984), Derecho civil, parte
-
-                                            t=sci_arttext> (visitado el 2-3-2020).
-                                                                                                      general (Santiago, Editorial Jurídica de Chile).
-
-## 49. CONTESSE, Jorge (2002), “Reglas y principios
-
-
 ## 60. DWORKIN, Ronald (1999), Los derechos en serio
 
-                                            en Chile: ¿jerarquía entre los derechos constitu-
+**Definición Canónica:** en Chile: ¿jerarquía entre los derechos constitu-
+                                                                                                      (Barcelona, Ariel).
+                                            cionales?”, Anuario de Filosofía Jurídica y Social
+                                            Nº 20, Sociedad Chilena de Filosofía Jurídica y       61. EISENBERG, Melvin Aron (1993), “The Divergen-
+                                            Social, (Valparaíso, Edeval), pp. 53-93.                  ce of Standards of Conduct and Standards of
+                                       
+
+en Chile: ¿jerarquía entre los derechos constitu-
                                                                                                       (Barcelona, Ariel).
                                             cionales?”, Anuario de Filosofía Jurídica y Social
                                             Nº 20, Sociedad Chilena de Filosofía Jurídica y       61. EISENBERG, Melvin Aron (1993), “The Divergen-
@@ -8834,7 +9397,14 @@ contexto del derecho                                                            
 
 ## 50. CONTRERAS, Pablo (2009), Poder privado y
 
-                                                                                                      Vol. 62, pp. 437-468.
+**Definición Canónica:** Vol. 62, pp. 437-468.
+                                            derechos. Eficacia horizontal y ponderación de
+                                            los derechos fundamentales (Santiago, Ediciones       62. ELSTER, Jon (2003), “Desempleo y justicia local”,
+                                            Universidad Alberto Hurtado).                             Revista Internacional de Sociología, N° 34, pp.
+                                                                                                      169-185.
+                                        51. CORBETT, William R. (2007), “T
+
+Vol. 62, pp. 437-468.
                                             derechos. Eficacia horizontal y ponderación de
                                             los derechos fundamentales (Santiago, Ediciones       62. ELSTER, Jon (2003), “Desempleo y justicia local”,
                                             Universidad Alberto Hurtado).                             Revista Internacional de Sociología, N° 34, pp.
@@ -8850,30 +9420,53 @@ contexto del derecho                                                            
 
 ## 52. CORREA, Rodrigo (2004), “En defensa de una
 
-                                            aplicación exclusivamente vertical de los dere-       65. ESTREICHER, Samuel y LESTER, Gillian (2008),
+**Definición Canónica:** aplicación exclusivamente vertical de los dere-       65. ESTREICHER, Samuel y LESTER, Gillian (2008),
+                                            chos constitucionales”. Trabajo inédito basado en         Employment Law (New York, Thomson/Founda-
+                                            la ponencia presentada el 13 de enero de 2004             tion Press).
+                                            en el VI Congreso Mundial de Derecho Constitu-
+**Concordancias Legales:** constitucion
+
+aplicación exclusivamente vertical de los dere-       65. ESTREICHER, Samuel y LESTER, Gillian (2008),
                                             chos constitucionales”. Trabajo inédito basado en         Employment Law (New York, Thomson/Founda-
                                             la ponencia presentada el 13 de enero de 2004             tion Press).
                                             en el VI Congreso Mundial de Derecho Constitu-
 
 ## 66. EVANS DE LA CUADRA, Enrique (2004), Los
 
-                                            cional (Santiago de Chile).
+**Definición Canónica:** cional (Santiago de Chile).
+                                                                                                      derechos constitucionales, tomo I, 3ª edición ac-
+                                                                                                      tualizada por Eugenio Evans Espiñeira (Santiago,
+                                                                                                      Editorial Jurídica de Chile).
+**Concordancias Legales:** constitucion
+
+cional (Santiago de Chile).
                                                                                                       derechos constitucionales, tomo I, 3ª edición ac-
                                                                                                       tualizada por Eugenio Evans Espiñeira (Santiago,
                                                                                                       Editorial Jurídica de Chile).
 
 Tutela de Derechos                                                                               Bibliografía                                           204
 
-
 ## 67.   EVANS DE LA CUADRA, Enrique (1986), Los            79.   GAMONAL C., Sergio (2017), “Rules or Principles
 
-                                              derechos constitucionales, tomo II, (Santiago,           in Labour Law?”, Festskrift till Ann Numhau-
+**Definición Canónica:** derechos constitucionales, tomo II, (Santiago,           in Labour Law?”, Festskrift till Ann Numhau-
+                                              Editorial Jurídica de Chile).                            ser-Henning, editado por Mia Rönnmar y Jenny
+                                                                                                       Julén Votinius, Juristförlaget i Lund, pp. 255-275.
+**Concordancias Legales:** constitucion
+
+derechos constitucionales, tomo II, (Santiago,           in Labour Law?”, Festskrift till Ann Numhau-
                                               Editorial Jurídica de Chile).                            ser-Henning, editado por Mia Rönnmar y Jenny
                                                                                                        Julén Votinius, Juristförlaget i Lund, pp. 255-275.
 
 ## 68. FALGUERA BARÓ, Miguel Ángel (2004), “Criterios
 
-                                            doctrinales en relación con el uso por el traba-     80. GAMONAL C., Sergio (2016), “El daño moral en
+**Definición Canónica:** doctrinales en relación con el uso por el traba-     80. GAMONAL C., Sergio (2016), “El daño moral en
+                                            jador de los medios informáticos empresariales           el artículo 489 del Código del Trabajo”, Revista
+                                            para fines extraproductivos”, Derecho Social             de Derecho, Pontificia Universidad Católica de
+                                            y Nuevas Tecnologías (Madrid, Cuaderno de                Valparaíso, XLVII, 2° semestre, pp. 305-327.
+                                            Derecho Ju
+**Concordancias Legales:** artículo 489 del Código del Trabajo
+
+doctrinales en relación con el uso por el traba-     80. GAMONAL C., Sergio (2016), “El daño moral en
                                             jador de los medios informáticos empresariales           el artículo 489 del Código del Trabajo”, Revista
                                             para fines extraproductivos”, Derecho Social             de Derecho, Pontificia Universidad Católica de
                                             y Nuevas Tecnologías (Madrid, Cuaderno de                Valparaíso, XLVII, 2° semestre, pp. 305-327.
@@ -8883,7 +9476,14 @@ contexto del derecho                                                            
 
 ## 69. FEDTKE, Jörg (2007a), “Drittwirkung in Germany”,         derecho del trabajo, (Santiago, Thomson Reuters
 
-                                            Human Rights and the Private Sphere. A Compa-            LA LEY).
+**Definición Canónica:** Human Rights and the Private Sphere. A Compa-            LA LEY).
+                                            rative Study (Nueva York, Routledge Cavendish),
+                                            pp. 125-156.                                         82. GAMONAL C., Sergio (2014), Fundamentos de
+                                                                                                     derecho laboral, 4ª edición actualizada (Santiago,
+                                        70. FEDTKE, Jörg (2007b), “From Indirect to Direct           La Ley/Thomson Reuters LegalPublishing).
+**Concordancias Legales:** constitucion; Constitución
+
+Human Rights and the Private Sphere. A Compa-            LA LEY).
                                             rative Study (Nueva York, Routledge Cavendish),
                                             pp. 125-156.                                         82. GAMONAL C., Sergio (2014), Fundamentos de
                                                                                                      derecho laboral, 4ª edición actualizada (Santiago,
@@ -8901,45 +9501,51 @@ contexto del derecho                                                            
                                         72. FERRAJOLI, Luigi (1999), Derechos y garantías.           N° 1, pp. 105-127.
                                             La ley del más débil (Madrid, Trotta).
 
-## 85. GAMONAL C., Sergio (2012), “Evolución del daño
-
-
 ## 73. FERRERES COMELLA, Víctor (2001), “La eficacia            moral por término del contrato de trabajo en el
 
-                                            de los derechos constitucionales frente a los par-       derecho chileno”, Revista de Derecho, Pontificia
+**Definición Canónica:** de los derechos constitucionales frente a los par-       derecho chileno”, Revista de Derecho, Pontificia
+                                            ticulares”, Los derechos fundamentales (Buenos           Universidad Católica de Valparaíso, XXXIX, 2°
+                                            Aires, SELA), pp. 41-52.                                 semestre, pp. 161-176.
+**Concordancias Legales:** constitucion
+
+de los derechos constitucionales frente a los par-       derecho chileno”, Revista de Derecho, Pontificia
                                             ticulares”, Los derechos fundamentales (Buenos           Universidad Católica de Valparaíso, XXXIX, 2°
                                             Aires, SELA), pp. 41-52.                                 semestre, pp. 161-176.
 
-
 ## 74. FIGUEROA GARCÍA-HUIDOBRO, Rodolfo (2008),            86. GAMONAL C., Sergio (2011), Cidadania na Em-
 
-                                            “Concepto de derecho a la vida”, Ius et Praxis,          presa e Eficácia Diagonal dos Direitos Funda-
+**Definición Canónica:** “Concepto de derecho a la vida”, Ius et Praxis,          presa e Eficácia Diagonal dos Direitos Funda-
                                             Año 14. Nº 1, pp. 261-300.                               mentais (Sao Paulo, Editora LTR).
 
+“Concepto de derecho a la vida”, Ius et Praxis,          presa e Eficácia Diagonal dos Direitos Funda-
+                                            Año 14. Nº 1, pp. 261-300.                               mentais (Sao Paulo, Editora LTR).
 
 ## 75. FIORAVANTI, Maurizio (1996), Los derechos fun-       87. GAMONAL C., Sergio (2010), Trabajo y derecho
 
-                                            damentales: apuntes de historia de las consti-           (Santiago, AbeledoPerrot).
+**Definición Canónica:** damentales: apuntes de historia de las consti-           (Santiago, AbeledoPerrot).
+                                            tuciones, traducción de Manuel Martínez Neira
+                                            (Madrid, Trotta).                                    88. GAMONAL C., Sergio (2008), El procedimiento de
+                                                                                                     tutela de derechos laborales, 2ª edición revisada
+                                        76. FOUCAULT, Michel (2005), La verdad y las for-            y actualizada (Santiago, L
+
+damentales: apuntes de historia de las consti-           (Santiago, AbeledoPerrot).
                                             tuciones, traducción de Manuel Martínez Neira
                                             (Madrid, Trotta).                                    88. GAMONAL C., Sergio (2008), El procedimiento de
                                                                                                      tutela de derechos laborales, 2ª edición revisada
                                         76. FOUCAULT, Michel (2005), La verdad y las for-            y actualizada (Santiago, LegalPublishing).
                                             mas jurídicas (Barcelona, Gedisa).
 
-## 89. GAMONAL C., Sergio (2007), El daño moral en el
-
-
-## 77.   GAMONAL C., Sergio (2020), Derecho colectivo           contrato de trabajo, 2ª edición actualizada (San-
-
-                                              del trabajo, 3ª edición actualizada, (Santiago,        tiago, LexisNexis).
-                                              ediciones DER).
-
-## 90. GAMONAL C., Sergio (2004a), Ciudadanía en la
-
-
 ## 78. GAMONAL C., Sergio (2018), “De la eficacia               empresa o los derechos fundamentales inespecí-
 
-                                            horizontal a la diagonal de derechos fundamen-           ficos (Montevideo, Fundación de Cultura Univer-
+**Definición Canónica:** horizontal a la diagonal de derechos fundamen-           ficos (Montevideo, Fundación de Cultura Univer-
+                                            tales en el contrato de trabajo: una perspectiva         sitaria).
+                                            latinoamericana”, Latin American Legal Studies,
+                                            Vol. 3 2018, pp. 1-28.                               91. GAMONAL C., Sergio (2004b), “La Cibervigi-
+                                                                                                     lancia dentro de la empresa: comentario a una
+ 
+**Concordancias Legales:** Constitucion; Constitución
+
+horizontal a la diagonal de derechos fundamen-           ficos (Montevideo, Fundación de Cultura Univer-
                                             tales en el contrato de trabajo: una perspectiva         sitaria).
                                             latinoamericana”, Latin American Legal Studies,
                                             Vol. 3 2018, pp. 1-28.                               91. GAMONAL C., Sergio (2004b), “La Cibervigi-
@@ -8958,17 +9564,26 @@ contexto del derecho                                                            
 
 ## 93. GAMONAL C., Sergio (1998), Introducción al de-
 
-                                            recho del trabajo (Santiago, Editorial Conosur).         106. GUIDI MOGGIA, Caterina (2009), “Proyecto de
+**Definición Canónica:** recho del trabajo (Santiago, Editorial Conosur).         106. GUIDI MOGGIA, Caterina (2009), “Proyecto de
+                                                                                                          ley sobre uso de medios informáticos en el tra-
+                                        94. GAMONAL C., Sergio y ROSADO MARZÁN, César                     bajo. Análisis crítico”, Actualidad Jurídica, tomo
+                                            (2019), Principled Labor Law. U.S. Labor Law                  II, enero 2009 (N° 19) (Facultades de Derecho,
+                              
+
+recho del trabajo (Santiago, Editorial Conosur).         106. GUIDI MOGGIA, Caterina (2009), “Proyecto de
                                                                                                           ley sobre uso de medios informáticos en el tra-
                                         94. GAMONAL C., Sergio y ROSADO MARZÁN, César                     bajo. Análisis crítico”, Actualidad Jurídica, tomo
                                             (2019), Principled Labor Law. U.S. Labor Law                  II, enero 2009 (N° 19) (Facultades de Derecho,
                                             through a Latin American Method (Nueva York,                  Santiago-Concepción, Universidad del Desarro-
                                             Oxford University Press).                                     llo), pp. 459-477.
 
-
 ## 95. GAMONAL C., Sergio y GUIDI MOGGIA, Caterina              107. GUIDI MOGGIA, Caterina (2008), “Consagración
 
-                                            (2015), Manual del contrato de trabajo, 4ª edición            legal de la garantía de indemnidad en nuestro or-
+**Definición Canónica:** (2015), Manual del contrato de trabajo, 4ª edición            legal de la garantía de indemnidad en nuestro or-
+                                            revisada y aumentada (Santiago, LegalPublishing               denamiento jurídico laboral”, Estudios Laborales
+                                            Chile).                                                       N° 2 (Santiago, Sociedad Chilena de Derecho del
+
+(2015), Manual del contrato de trabajo, 4ª edición            legal de la garantía de indemnidad en nuestro or-
                                             revisada y aumentada (Santiago, LegalPublishing               denamiento jurídico laboral”, Estudios Laborales
                                             Chile).                                                       N° 2 (Santiago, Sociedad Chilena de Derecho del
 
@@ -8976,23 +9591,41 @@ contexto del derecho                                                            
 
 ## 96. GAMONAL C., Sergio y ROSADO MARZÁN, Cé-
 
-                                            sar (2014), “Protecting Workers as a Matter of           108. HÄBERLE, Peter (1998), Libertad, igualdad, fra-
+**Definición Canónica:** sar (2014), “Protecting Workers as a Matter of           108. HÄBERLE, Peter (1998), Libertad, igualdad, fra-
+                                            Principle: A South American View of U.S. Work                 ternidad. 1789 como historia, actualidad y futuro
+                                            Law”, Washington University Global Studies Law                del Estado constitucional (Madrid, Trotta).
+                                            Review Vol. 13 N° 4, pp. 605-665.
+**Concordancias Legales:** constitucion
+
+sar (2014), “Protecting Workers as a Matter of           108. HÄBERLE, Peter (1998), Libertad, igualdad, fra-
                                             Principle: A South American View of U.S. Work                 ternidad. 1789 como historia, actualidad y futuro
                                             Law”, Washington University Global Studies Law                del Estado constitucional (Madrid, Trotta).
                                             Review Vol. 13 N° 4, pp. 605-665.
 
 ## 109. HALL, Kermit L. (1999), (editor), The Oxford Guide
 
-                                        97.   GAMONAL C., Sergio y UGARTE CATALDO, José                   to United States Supreme Court Decisions (Nue-
+**Definición Canónica:** 97.   GAMONAL C., Sergio y UGARTE CATALDO, José                   to United States Supreme Court Decisions (Nue-
+                                              Luis (2012), “Acoso sexual y moral en el lugar de           va York, Oxford University Press).
+                                              trabajo”, Presente y futuro del derecho del tra-
+                                              bajo y de la seguridad social, coordinador Emilio      110. HART, H.L.A. (2012), The Concept of Law, 3ª edi-
+                                              Morgado (Santiago, AbeledoPerrot), pp. 1-46.      
+
+97.   GAMONAL C., Sergio y UGARTE CATALDO, José                   to United States Supreme Court Decisions (Nue-
                                               Luis (2012), “Acoso sexual y moral en el lugar de           va York, Oxford University Press).
                                               trabajo”, Presente y futuro del derecho del tra-
                                               bajo y de la seguridad social, coordinador Emilio      110. HART, H.L.A. (2012), The Concept of Law, 3ª edi-
                                               Morgado (Santiago, AbeledoPerrot), pp. 1-46.                ción (Oxford, Oxford University Press).
 
-
 ## 98. GAMONAL C., Sergio y PRADO, Pamela (2008),               111. HERRERA CARPINTERO, Paloma (2016), “El
 
-                                            “El suministro de trabajadores en la nueva Ley                derecho a la vida privada y las redes sociales
+**Definición Canónica:** “El suministro de trabajadores en la nueva Ley                derecho a la vida privada y las redes sociales
+                                            Nº 20.123: acerca de la calidad de coempleador y              en Chile” (en línea), Revista Chilena de Derecho
+                                            la doble subordinación”, Revista Laboral Chilena,             y Tecnología, 5 (1), Facultad de Derecho Uni-
+                                            agosto 2008, pp. 59-65.                                       versidad de Chile. Disponible en https://dx.doi.
+                             
+**Concordancias Legales:** constitucion
+
+“El suministro de trabajadores en la nueva Ley                derecho a la vida privada y las redes sociales
                                             Nº 20.123: acerca de la calidad de coempleador y              en Chile” (en línea), Revista Chilena de Derecho
                                             la doble subordinación”, Revista Laboral Chilena,             y Tecnología, 5 (1), Facultad de Derecho Uni-
                                             agosto 2008, pp. 59-65.                                       versidad de Chile. Disponible en https://dx.doi.
@@ -9004,23 +9637,39 @@ contexto del derecho                                                            
 
 ## 100. GARCÍA SUÁREZ, Ignacio (2013), “La prueba
 
-                                             ilícita en el nuevo procedimiento laboral”, Revista     113. HOHFELD, W.N. (2001), Conceptos jurídicos
+**Definición Canónica:** ilícita en el nuevo procedimiento laboral”, Revista     113. HOHFELD, W.N. (2001), Conceptos jurídicos
+                                             de Derecho Laboral y Seguridad Social, Vol. I Nº 2           fundamentales, traducción de Genaro Carrió,
+                                             (Thomson Reuters Chile), pp. 13-73.                          5ª edición, publicado originalmente en inglés en
+                                                                                                          1913 (México, Fontarama).
+
+ilícita en el nuevo procedimiento laboral”, Revista     113. HOHFELD, W.N. (2001), Conceptos jurídicos
                                              de Derecho Laboral y Seguridad Social, Vol. I Nº 2           fundamentales, traducción de Genaro Carrió,
                                              (Thomson Reuters Chile), pp. 13-73.                          5ª edición, publicado originalmente en inglés en
                                                                                                           1913 (México, Fontarama).
 
 ## 101. GHEZZI, Giorgio y ROMAGNOLI, Umberto (1987), Il
 
-                                             rapporto di lavoro, 2ª edición (Bologna, Zanichelli).   114. HOLMES, Stephen y SUNSTEIN, Cass R. (2011), El
+**Definición Canónica:** rapporto di lavoro, 2ª edición (Bologna, Zanichelli).   114. HOLMES, Stephen y SUNSTEIN, Cass R. (2011), El
+                                                                                                          costo de los derechos, por qué la libertad depen-
+                                        102. GOLUBOFF, Risa (2009), “The Thirteenth Amend-                de de los impuestos, traducción de Stella Mas-
+                                             ment in Historical Perspective”, Journal of Cons-            trangelo de la 1ª edición de 1999 (Buenos Aires,
+                            
+
+rapporto di lavoro, 2ª edición (Bologna, Zanichelli).   114. HOLMES, Stephen y SUNSTEIN, Cass R. (2011), El
                                                                                                           costo de los derechos, por qué la libertad depen-
                                         102. GOLUBOFF, Risa (2009), “The Thirteenth Amend-                de de los impuestos, traducción de Stella Mas-
                                              ment in Historical Perspective”, Journal of Cons-            trangelo de la 1ª edición de 1999 (Buenos Aires,
                                              titutional Law, Vol. 11, pp. 1451-1473.                      Siglo XXI Editores).
 
-
 ## 103. GRANDE, Cristina y GORDILLO, Carmen, (2013),            115. HUNTER-HENIN, Myriam (2007), “France Ho-
 
-                                             “El uso de las redes sociales en la jurisprudencia           rizontal Application and the Triumph of the
+**Definición Canónica:** “El uso de las redes sociales en la jurisprudencia           rizontal Application and the Triumph of the
+                                             social”, Actualidad Jurídica Aranzadi (en línea)             European Convention on Human Rights”, Human
+                                             N° 855. Disponible en https://dialnet.unirioja.es/           Rights and the Private Sphere. A Comparative
+                                             ejemplar/318746 (visitado el 20-01-2020).                    Study (Nueva York, Routledge Cavendish), pp.
+                                           
+
+“El uso de las redes sociales en la jurisprudencia           rizontal Application and the Triumph of the
                                              social”, Actualidad Jurídica Aranzadi (en línea)             European Convention on Human Rights”, Human
                                              N° 855. Disponible en https://dialnet.unirioja.es/           Rights and the Private Sphere. A Comparative
                                              ejemplar/318746 (visitado el 20-01-2020).                    Study (Nueva York, Routledge Cavendish), pp.
@@ -9028,10 +9677,15 @@ contexto del derecho                                                            
 
 Tutela de Derechos                                                                                 Bibliografía                                            206
 
-
 ## 116. IRURETA URIARTE, Pedro (2003), “Las organiza-         129. LÜER GÓMEZ, Nicole (2013), Empresas de ten-
 
-                                             ciones de tendencia ante el derecho”, Persona y            dencia en Chile (Santiago, Thomson Reuters).
+**Definición Canónica:** ciones de tendencia ante el derecho”, Persona y            dencia en Chile (Santiago, Thomson Reuters).
+                                             Sociedad, Vol. XVII N° 2 (Santiago, Universidad
+                                             Alberto Hurtado), pp. 235-248.                        130. LYON-CAEN, Antoine (2002), “Politique(s) ju-
+                                                                                                        risprudentielle(s) et droit du travail: quelques
+                                        117. ITURRIAGA DELGADO, Camilo (2016), “Los actos            
+
+ciones de tendencia ante el derecho”, Persona y            dencia en Chile (Santiago, Thomson Reuters).
                                              Sociedad, Vol. XVII N° 2 (Santiago, Universidad
                                              Alberto Hurtado), pp. 235-248.                        130. LYON-CAEN, Antoine (2002), “Politique(s) ju-
                                                                                                         risprudentielle(s) et droit du travail: quelques
@@ -9047,69 +9701,81 @@ contexto del derecho                                                            
                                              pp. 53-87.                                            132. MCGINLEY, Ann (2018), “Género, derecho y
                                                                                                         cultura en los lugares de trabajo jurídicos: un
 
-## 119. KAHN-FREUND, Otto (1987), Trabajo y derecho                caso chileno de estudio”, Latin American Legal
-
-                                             (Madrid, Ministerio de Trabajo y Seguridad Social).        Studies, Vol. 3, pp. 49-76.
-
-
-## 120. LANATA FUENZALIDA, Gabriela (2011), Manual            133. MANGARELLI, Cristina (1984), Daño moral en el
-
-                                             de proceso laboral, 2ª edición (Santiago, Abele-           derecho laboral, Montevideo, Acali Editorial.
-                                             doPerrot).
-
-## 134. MARÍN GONZÁLEZ, Juan Carlos (2006), “Las
-
-
 ## 121. LANATA FUENZALIDA, Gabriela (2006), Contrato               medidas cautelares en el ordenamiento jurídico
 
-                                             individual de trabajo, Universidad de Concepción,          chileno: su tratamiento en algunas leyes especia-
+**Definición Canónica:** individual de trabajo, Universidad de Concepción,          chileno: su tratamiento en algunas leyes especia-
+                                             Colección de Manuales (Santiago, LexisNexis).              les”, Revista de Estudios de la Justicia Nº 8, pp.
+                                                                                                        13-37.
+
+individual de trabajo, Universidad de Concepción,          chileno: su tratamiento en algunas leyes especia-
                                              Colección de Manuales (Santiago, LexisNexis).              les”, Revista de Estudios de la Justicia Nº 8, pp.
                                                                                                         13-37.
 
 ## 122. LEIVA FADIC, Felipe (2010), “Hacia un constitu-
 
-                                             cionalismo moderado o deferente”, Revista de          135. MARRA, Realino (1998), Lineamenti di diritto del
+**Definición Canónica:** cionalismo moderado o deferente”, Revista de          135. MARRA, Realino (1998), Lineamenti di diritto del
                                              Derecho Público, Vol. 73, pp. 133-170.                     lavoro (Bolonia, Zanichelli).
 
+cionalismo moderado o deferente”, Revista de          135. MARRA, Realino (1998), Lineamenti di diritto del
+                                             Derecho Público, Vol. 73, pp. 133-170.                     lavoro (Bolonia, Zanichelli).
 
 ## 123. LEWAN, Kenneth M. (1968), “The Significance           136. MARTÍNEZ MERINO, Gonzalo (2012), “La garan-
 
-                                             of Constitutional Rights for Private Law: Theory           tía de indemnidad en Chile: análisis normativo y
+**Definición Canónica:** of Constitutional Rights for Private Law: Theory           tía de indemnidad en Chile: análisis normativo y
                                              and Practice in West Germany”, International and           comparativo desde el derecho comparado y el
                                              Comparative Law Quarterly, Vol. 17, July 1968, pp.         common law”, Revista de Derecho Universidad
                                              571-601.                                                   Católica del Norte, Año 19, N° 2., pp. 333-353.
 
+of Constitutional Rights for Private Law: Theory           tía de indemnidad en Chile: análisis normativo y
+                                             and Practice in West Germany”, International and           comparativo desde el derecho comparado y el
+                                             Comparative Law Quarterly, Vol. 17, July 1968, pp.         common law”, Revista de Derecho Universidad
+                                             571-601.                                                   Católica del Norte, Año 19, N° 2., pp. 333-353.
 
 ## 124. LIZAMA PORTAL, Luis (2003), Derecho del traba-        137. MARZI MUÑOZ, Daniela (2015), “La readmisión
 
-                                             jo (Santiago, LexisNexis).                                 como reparación: condición para la ciudadanía en
+**Definición Canónica:** jo (Santiago, LexisNexis).                                 como reparación: condición para la ciudadanía en
+                                                                                                        el trabajo o importancia de ejercer derechos”, So-
+                                        125. LIZAMA PORTAL, Luis y UGARTE CATALDO, José                 bre los derechos sociales, varios autores (Edeval,
+                                             Luis (2005), Nueva ley de acoso sexual (Santiago,          Valparaíso), pp. 513-552.
+                                             LexisNe
+
+jo (Santiago, LexisNexis).                                 como reparación: condición para la ciudadanía en
                                                                                                         el trabajo o importancia de ejercer derechos”, So-
                                         125. LIZAMA PORTAL, Luis y UGARTE CATALDO, José                 bre los derechos sociales, varios autores (Edeval,
                                              Luis (2005), Nueva ley de acoso sexual (Santiago,          Valparaíso), pp. 513-552.
                                              LexisNexis).
 
-## 138. MARZI MUÑOZ, Daniela (2013), “Ministerio Pú-
-
-
 ## 126. LIZAMA PORTAL, Luis y UGARTE CATALDO, José                 blico y tutela de derechos fundamentales. La
 
-                                             Luis (1998), Interpretación y derechos fundamen-           laboralización del sector público en clave de pre-
+**Definición Canónica:** Luis (1998), Interpretación y derechos fundamen-           laboralización del sector público en clave de pre-
+                                             tales en la empresa (Santiago, Editorial Conosur).         carización y el inesperado reequilibrio de poder
+                                                                                                        vía ejercicio de derechos fundamentales”, Revista
+
+Luis (1998), Interpretación y derechos fundamen-           laboralización del sector público en clave de pre-
                                              tales en la empresa (Santiago, Editorial Conosur).         carización y el inesperado reequilibrio de poder
                                                                                                         vía ejercicio de derechos fundamentales”, Revista
 
 ## 127. LÓPEZ SANTA MARÍA, Jorge (1998), Los con-
 
-                                                                                                        de Derecho Laboral y Seguridad Social, Vol. I N° 1
+**Definición Canónica:** de Derecho Laboral y Seguridad Social, Vol. I N° 1
                                              tratos, parte general, tomo I (Santiago, Editorial
                                                                                                         (Thomson Reuters Chile), pp. 441-450.
                                              Jurídica de Chile).
 
-## 139. MÉDA, Dominique (1996), “El valor trabajo visto
-
+de Derecho Laboral y Seguridad Social, Vol. I N° 1
+                                             tratos, parte general, tomo I (Santiago, Editorial
+                                                                                                        (Thomson Reuters Chile), pp. 441-450.
+                                             Jurídica de Chile).
 
 ## 128. LOVERA Domingo (2017), “Destinatarios de los
 
-                                                                                                        en perspectiva”, Revista Internacional del Trabajo,
+**Definición Canónica:** en perspectiva”, Revista Internacional del Trabajo,
+                                             derechos fundamentales”, Manual sobre derechos
+                                                                                                        1996/6 (Ginebra), pp. 689-700.
+                                             fundamentales, Pablo Contreras y Constanza
+                                             Salgado eds. (Santiago, LOM), pp. 161-206.
+
+en perspectiva”, Revista Internacional del Trabajo,
                                              derechos fundamentales”, Manual sobre derechos
                                                                                                         1996/6 (Ginebra), pp. 689-700.
                                              fundamentales, Pablo Contreras y Constanza
@@ -9127,7 +9793,14 @@ contexto del derecho                                                            
 
 ## 153. PÉREZ LUÑO, Antonio (1995), Derechos huma-
 
-                                        141. MELIS VALENCIA, Christian (2009), Los derechos                nos, estado de derecho y constitución, 5ª edición,
+**Definición Canónica:** 141. MELIS VALENCIA, Christian (2009), Los derechos                nos, estado de derecho y constitución, 5ª edición,
+                                             fundamentales de los trabajadores como límites                (Madrid, Tecnos).
+                                             a los poderes empresariales (Santiago, LegalPu-
+                                             blishing).                                               154. PERSIANI, Mattia y PROIA, Giampiero (2008),
+                                                                                                           Diritt
+**Concordancias Legales:** constitución
+
+141. MELIS VALENCIA, Christian (2009), Los derechos                nos, estado de derecho y constitución, 5ª edición,
                                              fundamentales de los trabajadores como límites                (Madrid, Tecnos).
                                              a los poderes empresariales (Santiago, LegalPu-
                                              blishing).                                               154. PERSIANI, Mattia y PROIA, Giampiero (2008),
@@ -9135,7 +9808,11 @@ contexto del derecho                                                            
 
 ## 142. MELIS VALENCIA, Christian (2001a), “En torno al
 
-                                             contrato de trabajo y los derechos fundamenta-           155. PLÁ RODRÍGUEZ, Américo (1998), Los principios
+**Definición Canónica:** contrato de trabajo y los derechos fundamenta-           155. PLÁ RODRÍGUEZ, Américo (1998), Los principios
+                                             les”, parte I, Boletín Dirección del Trabajo Nº 148,          del derecho del trabajo, 3ª edición (Buenos Aires,
+                                             pp. 8-20.                                                     Depalma).
+
+contrato de trabajo y los derechos fundamenta-           155. PLÁ RODRÍGUEZ, Américo (1998), Los principios
                                              les”, parte I, Boletín Dirección del Trabajo Nº 148,          del derecho del trabajo, 3ª edición (Buenos Aires,
                                              pp. 8-20.                                                     Depalma).
 
@@ -9151,10 +9828,16 @@ contexto del derecho                                                            
                                         145. MONTOYA MELGAR, Alfredo (2007), Derecho del                   y Risa L. Goluboff (Nueva York, Foundations Press
                                              trabajo, 28ª edición (Madrid, Tecnos).                        Thomson West), pp. 5-23.
 
-
 ## 146. NEUMANN, Franz L. (1983), Il diritto del lavoro fra      158. RAMÍREZ COLINA, Sulmer Paola (2013), “La
 
-                                             democrazia e dittatura (Bolonia, Il Mulino).                  libertad de expresión del trabajador en Facebook
+**Definición Canónica:** democrazia e dittatura (Bolonia, Il Mulino).                  libertad de expresión del trabajador en Facebook
+                                                                                                           y el poder disciplinario del empleador”, Revista
+                                        147. NOGUEIRA ALCALÁ, Humberto (2006), Linea-                      IUS (en línea), 7(31). Disponible en http://www.
+                                             mientos de interpretación constitucional y del                scielo.org.mx/scielo.php?script=sci_arttext&pi-
+                      
+**Concordancias Legales:** constitucion; Constitución Política
+
+democrazia e dittatura (Bolonia, Il Mulino).                  libertad de expresión del trabajador en Facebook
                                                                                                            y el poder disciplinario del empleador”, Revista
                                         147. NOGUEIRA ALCALÁ, Humberto (2006), Linea-                      IUS (en línea), 7(31). Disponible en http://www.
                                              mientos de interpretación constitucional y del                scielo.org.mx/scielo.php?script=sci_arttext&pi-
@@ -9172,7 +9855,13 @@ contexto del derecho                                                            
 
 ## 161. RIVAS, Ramón (1991), “La doctrina de los actos
 
-                                        150. OIT (1994), Libertad sindical y negociación co-               propios y el reglamento interno de la empresa”,
+**Definición Canónica:** 150. OIT (1994), Libertad sindical y negociación co-               propios y el reglamento interno de la empresa”,
+                                             lectiva, Informe de la Comisión de Expertos en                Contratos, Enrique Barros Bourie coordinador
+                                             Aplicación de Convenios y Recomendaciones,                    (Santiago, Editorial Jurídica de Chile), pp. 189-
+                                             Conferencia Internacional del Trabajo, 81ª reunión,           207.
+                                             Oficina Internacion
+
+150. OIT (1994), Libertad sindical y negociación co-               propios y el reglamento interno de la empresa”,
                                              lectiva, Informe de la Comisión de Expertos en                Contratos, Enrique Barros Bourie coordinador
                                              Aplicación de Convenios y Recomendaciones,                    (Santiago, Editorial Jurídica de Chile), pp. 189-
                                              Conferencia Internacional del Trabajo, 81ª reunión,           207.
@@ -9180,7 +9869,12 @@ contexto del derecho                                                            
 
 ## 162. RIVERO, Jean y SAVATIER, Jean (1993), Droit du
 
-                                        151. PALOMEQUE LÓPEZ, Manuel-Carlos (1991), Los                    travail (Paris, PUF).
+**Definición Canónica:** 151. PALOMEQUE LÓPEZ, Manuel-Carlos (1991), Los                    travail (Paris, PUF).
+                                             derechos laborales en la Constitución española
+                                             (Madrid, Centro de Estudios Constitucionales).
+**Concordancias Legales:** Ley Nº 20.940; Constitución; Constitucion
+
+151. PALOMEQUE LÓPEZ, Manuel-Carlos (1991), Los                    travail (Paris, PUF).
                                              derechos laborales en la Constitución española
                                              (Madrid, Centro de Estudios Constitucionales).
 
@@ -9195,14 +9889,23 @@ contexto del derecho                                                            
 
 ## 164. RODRÍGUEZ-PIÑERO, Miguel (2004), “Libertad
 
-                                             ideológica, contrato de trabajo y objeción de          177. UGARTE CATALDO, José Luis (2018), Derechos
+**Definición Canónica:** ideológica, contrato de trabajo y objeción de          177. UGARTE CATALDO, José Luis (2018), Derechos
                                              conciencia”, Persona y Derecho, Vol. 50, pp. 355-           fundamentales, tutela y trabajo (Santiago, Thom-
                                              372.                                                        son Reuters).
 
+ideológica, contrato de trabajo y objeción de          177. UGARTE CATALDO, José Luis (2018), Derechos
+                                             conciencia”, Persona y Derecho, Vol. 50, pp. 355-           fundamentales, tutela y trabajo (Santiago, Thom-
+                                             372.                                                        son Reuters).
 
 ## 165. ROJAS RIVERO, Gloria (1991), La libertad de ex-        178. UGARTE CATALDO, José Luis (2013), Derechos
 
-                                             presión del trabajador (Madrid, Trotta).                    fundamentales en el contrato de trabajo (Santia-
+**Definición Canónica:** presión del trabajador (Madrid, Trotta).                    fundamentales en el contrato de trabajo (Santia-
+                                                                                                         go, LegalPublishing).
+                                        166. ROSS, Alf (2005), Sobre el derecho y la justicia,
+                                             3ª edición (Buenos Aires, Eudeba).                     179. UGARTE CATALDO, José Luis (2010), Tutela de
+                                                                                                         derechos fundam
+
+presión del trabajador (Madrid, Trotta).                    fundamentales en el contrato de trabajo (Santia-
                                                                                                          go, LegalPublishing).
                                         166. ROSS, Alf (2005), Sobre el derecho y la justicia,
                                              3ª edición (Buenos Aires, Eudeba).                     179. UGARTE CATALDO, José Luis (2010), Tutela de
@@ -9215,42 +9918,68 @@ contexto del derecho                                                            
 
 ## 168. SÁEZ CARLIER, Felipe (2001), “El reconocimien-              a propósito del nuevo procedimiento”, Derecho
 
-                                             to de los derechos fundamentales al interior de             Laboral, Tomo XLIX Nº 221, enero-marzo 2006,
+**Definición Canónica:** to de los derechos fundamentales al interior de             Laboral, Tomo XLIX Nº 221, enero-marzo 2006,
+                                             la empresa en las reformas laborales”, Boletín              (Montevideo), pp. 81-132.
+                                             Dirección del Trabajo, Nº 154, pp. 5-14.
+
+to de los derechos fundamentales al interior de             Laboral, Tomo XLIX Nº 221, enero-marzo 2006,
                                              la empresa en las reformas laborales”, Boletín              (Montevideo), pp. 81-132.
                                              Dirección del Trabajo, Nº 154, pp. 5-14.
 
 ## 181. VALDÉS DAL RÉ, Fernando (1991), “I poteri
 
-                                        169. SÁEZ LARA, Carmen (1994), Mujeres y mercado                 dell’imprenditore e la persona del lavoratore”,
+**Definición Canónica:** 169. SÁEZ LARA, Carmen (1994), Mujeres y mercado                 dell’imprenditore e la persona del lavoratore”,
+                                             de trabajo: las discriminaciones directas e indi-           Giornale di Diritto del Lavoro e di Relazioni
+                                             rectas, Madrid, Consejo Económico y Social.                 Industriali, N° 49, año XIII, 1991, 1, pp. 45-68.
+
+169. SÁEZ LARA, Carmen (1994), Mujeres y mercado                 dell’imprenditore e la persona del lavoratore”,
                                              de trabajo: las discriminaciones directas e indi-           Giornale di Diritto del Lavoro e di Relazioni
                                              rectas, Madrid, Consejo Económico y Social.                 Industriali, N° 49, año XIII, 1991, 1, pp. 45-68.
 
 ## 170. SANTORO-PASSARELLI, Giuseppe (2002), Diritto           182. VARAS MARCHANT, Karla (2019), Derecho a
 
-                                             dei lavori (Turín, Giappichelli).                           huelga: los límites derivados de la protección de
+**Definición Canónica:** dei lavori (Turín, Giappichelli).                           huelga: los límites derivados de la protección de
+                                                                                                         terceros (Santiago, Ediciones DER).
+
+dei lavori (Turín, Giappichelli).                           huelga: los límites derivados de la protección de
                                                                                                          terceros (Santiago, Ediciones DER).
 
 ## 171. SARAZÁ JIMENA, Rafael (2008), Jueces, dere-
 
-                                             chos fundamentales y relaciones entre particula-       183. VARAS MARCHANT, Karla (2013), “El Código del
+**Definición Canónica:** chos fundamentales y relaciones entre particula-       183. VARAS MARCHANT, Karla (2013), “El Código del
+                                             res (Logroño, Universidad de La Rioja).                     Trabajo y la función pública: análisis de la aplica-
+                                                                                                         ción supletoria de la acción de tutela de dere-
+
+chos fundamentales y relaciones entre particula-       183. VARAS MARCHANT, Karla (2013), “El Código del
                                              res (Logroño, Universidad de La Rioja).                     Trabajo y la función pública: análisis de la aplica-
                                                                                                          ción supletoria de la acción de tutela de dere-
 
 ## 172. SEIFERT, Achim (2012), “L’effet horizontal des
 
-                                                                                                         chos fundamentales”, Revista de Derecho Laboral
+**Definición Canónica:** chos fundamentales”, Revista de Derecho Laboral
                                              droits fondamentaux”, Revue Trimestrielle de
                                                                                                          y Seguridad Social, Vol. I N° 3 (Thomson Reuters
                                              Droit Européen (RTD Eur., Dalloz) 48 (4), oct.-déc.
                                                                                                          Chile), pp. 43-60.
                                              2012, pp. 801-826.
 
-## 184. VENEGAS GRAU, María (2004), Derechos fun-
-
+chos fundamentales”, Revista de Derecho Laboral
+                                             droits fondamentaux”, Revue Trimestrielle de
+                                                                                                         y Seguridad Social, Vol. I N° 3 (Thomson Reuters
+                                             Droit Européen (RTD Eur., Dalloz) 48 (4), oct.-déc.
+                                                                                                         Chile), pp. 43-60.
+                                             2012, pp. 801-826.
 
 ## 173. SINGER, Reinhard (2007), “Direitos fundamentais
 
-                                                                                                         damentales y derecho privado. Los derechos
+**Definición Canónica:** damentales y derecho privado. Los derechos
+                                             no direito do trabalho”, Direitos Fundamentais e
+                                                                                                         fundamentales en las relaciones entre particula-
+                                             Direito Privado. Uma Perspectiva de Direito Com-
+                                                                                                         res y el principio de autonomía privada (Madrid,
+                                             parado, organiza
+
+damentales y derecho privado. Los derechos
                                              no direito do trabalho”, Direitos Fundamentais e
                                                                                                          fundamentales en las relaciones entre particula-
                                              Direito Privado. Uma Perspectiva de Direito Com-
@@ -9263,13 +9992,25 @@ contexto del derecho                                                            
 
 ## 174. SUPIOT, Alain (1996), Crítica del derecho del
 
-                                             trabajo (Madrid, Ministerio del Trabajo y Asuntos      186. VERDUGO MARINKOVIC, Mario, PFEFFER UR-
+**Definición Canónica:** trabajo (Madrid, Ministerio del Trabajo y Asuntos      186. VERDUGO MARINKOVIC, Mario, PFEFFER UR-
+                                             Sociales).                                                  QUIAGA, Emilio y NOGUEIRA ALCALÁ, Humberto
+                                                                                                         (2002), Derecho constitucional, tomo I, 2ª edi-
+**Concordancias Legales:** constitucion
+
+trabajo (Madrid, Ministerio del Trabajo y Asuntos      186. VERDUGO MARINKOVIC, Mario, PFEFFER UR-
                                              Sociales).                                                  QUIAGA, Emilio y NOGUEIRA ALCALÁ, Humberto
                                                                                                          (2002), Derecho constitucional, tomo I, 2ª edi-
 
 ## 175. THAYER ARTEAGA, William y NOVOA FUEN-
 
-                                                                                                         ción actualizada, (Santiago, Editorial Jurídica de
+**Definición Canónica:** ción actualizada, (Santiago, Editorial Jurídica de
+                                             ZALIDA, Patricio (1989), Manual de derecho del
+                                                                                                         Chile).
+                                             trabajo, tomo II, Derecho individual del trabajo, 9ª
+                                             edición actualizada, (Santiago, Editorial Jurídica     187. VISCOMI, Antonio (2003), “Osservazioni critiche
+                                             de Chile).                                      
+
+ción actualizada, (Santiago, Editorial Jurídica de
                                              ZALIDA, Patricio (1989), Manual de derecho del
                                                                                                          Chile).
                                              trabajo, tomo II, Derecho individual del trabajo, 9ª
@@ -9280,10 +10021,15 @@ contexto del derecho                                                            
 
 Tutela de Derechos                                                                                 Bibliografía                                          209
 
-
 ## 188. WALKER ERRÁZURIZ, Francisco (2003), Derecho           12. Ley Nº 20.123, que regula el trabajo en régimen
 
-                                             de las relaciones laborales. Un derecho vivo (San-        de Subcontratación, el funcionamiento de las
+**Definición Canónica:** de las relaciones laborales. Un derecho vivo (San-        de Subcontratación, el funcionamiento de las
+                                             tiago, Editorial Universitaria).                          Empresas de Servicios Transitorios, y el Contrato
+                                                                                                       de Trabajo de Servicios Transitorios. Diario Oficial,
+                                        189. WALTER, Gerhard (1985), Libre apreciación de la           14 de octubre de 2006.
+                                             prueba (Bogotá, 
+
+de las relaciones laborales. Un derecho vivo (San-        de Subcontratación, el funcionamiento de las
                                              tiago, Editorial Universitaria).                          Empresas de Servicios Transitorios, y el Contrato
                                                                                                        de Trabajo de Servicios Transitorios. Diario Oficial,
                                         189. WALTER, Gerhard (1985), Libre apreciación de la           14 de octubre de 2006.
@@ -9291,7 +10037,14 @@ contexto del derecho                                                            
 
 ## 13. Ley Nº 20.178, que regula la relación laboral de
 
-                                        190. YOUNG, Alison L. (2011), “Mapping Horizontal              los Deportistas Profesionales y Trabajadores que
+**Definición Canónica:** 190. YOUNG, Alison L. (2011), “Mapping Horizontal              los Deportistas Profesionales y Trabajadores que
+                                             Effect”, The Impact of the UK Human Rights Act            desempeñan Actividades Conexas. Diario Oficial,
+                                             on Private Law, editado por David Hoffman (Nue-           25 de abril de 2007.
+                                             va York, Cambridge University Press), pp. 16-47.
+                                                                                                   14. Ley Nº 20.238, q
+**Concordancias Legales:** Ley Nº 20.238; ley N° 19.886
+
+190. YOUNG, Alison L. (2011), “Mapping Horizontal              los Deportistas Profesionales y Trabajadores que
                                              Effect”, The Impact of the UK Human Rights Act            desempeñan Actividades Conexas. Diario Oficial,
                                              on Private Law, editado por David Hoffman (Nue-           25 de abril de 2007.
                                              va York, Cambridge University Press), pp. 16-47.
@@ -9304,39 +10057,63 @@ contexto del derecho                                                            
 
 ## 15. Ley Nº 20.260, que modifica el Libro V del Código
 
+**Definición Canónica:** 2.    Constitución Política de la República de 1980.           del Trabajo y la Ley N° 20.087, que establece un
+                                                                                                       Nuevo Procedimiento Laboral. Diario Oficial, 29
+                                        3.    Ley N° 19.628, sobre Protección de la Vida Priva-        de marzo de 2008.
+                                              da. Diario Oficial, 28 de agosto de 1999.
+**Concordancias Legales:** Ley N° 20.087; Ley N° 19.628; Constitución Política
 
-                                        2.    Constitución Política de la República de 1980.           del Trabajo y la Ley N° 20.087, que establece un
+2.    Constitución Política de la República de 1980.           del Trabajo y la Ley N° 20.087, que establece un
                                                                                                        Nuevo Procedimiento Laboral. Diario Oficial, 29
                                         3.    Ley N° 19.628, sobre Protección de la Vida Priva-        de marzo de 2008.
                                               da. Diario Oficial, 28 de agosto de 1999.
 
 ## 16. Ley N° 20.607, que modifica el Código del Traba-
 
-                                        4.    Ley Nº 19.638, que establece Normas sobre Cons-          jo, sancionando las Prácticas de Acoso Laboral.
+**Definición Canónica:** 4.    Ley Nº 19.638, que establece Normas sobre Cons-          jo, sancionando las Prácticas de Acoso Laboral.
+                                              titución Jurídica de las Iglesias y Organizaciones       Diario Oficial, 8 de agosto de 2012.
+                                              Religiosas. Diario Oficial, 14 de octubre de 1999.
+**Concordancias Legales:** Ley Nº 19.638
+
+4.    Ley Nº 19.638, que establece Normas sobre Cons-          jo, sancionando las Prácticas de Acoso Laboral.
                                               titución Jurídica de las Iglesias y Organizaciones       Diario Oficial, 8 de agosto de 2012.
                                               Religiosas. Diario Oficial, 14 de octubre de 1999.
 
 ## 17.   Ley N° 20.940 de 2016, que Moderniza el Siste-
 
-                                        5.    Ley Nº 19.733, sobre Libertades de Opinión e               ma de Relaciones Laborales. Diario Oficial, 8 de
+**Definición Canónica:** 5.    Ley Nº 19.733, sobre Libertades de Opinión e               ma de Relaciones Laborales. Diario Oficial, 8 de
+                                              Información y Ejercicio del Periodismo. Diario             septiembre de 2016.
+                                              Oficial, 4 de junio de 2001.
+**Concordancias Legales:** Ley Nº 19.733
+
+5.    Ley Nº 19.733, sobre Libertades de Opinión e               ma de Relaciones Laborales. Diario Oficial, 8 de
                                               Información y Ejercicio del Periodismo. Diario             septiembre de 2016.
                                               Oficial, 4 de junio de 2001.
 
-## 18. Ley N° 20.974, que modifica Normas sobre Pro-
-
-
 ## 6.    Ley Nº 19.759, que modifica el Código del Tra-           cedimiento de Tutela Laboral y Procedimiento
 
-                                              bajo en lo relativo a las Nuevas Modalidades de          Monitorio. Diario Oficial, 3 de diciembre de 2016.
+**Definición Canónica:** bajo en lo relativo a las Nuevas Modalidades de          Monitorio. Diario Oficial, 3 de diciembre de 2016.
+                                              Contratación, al Derecho de Sindicación, a los
+                                              Derechos Fundamentales del Trabajador y a otras      19.   Ley Nº 21.155, que establece medidas de protec-
+                                              Materias que indica. Diario Oficial, 5 de octubre          ción a la lactancia materna y su ejercicio. Diario
+                                              de 2001.                                    
+**Concordancias Legales:** Ley Nº 21.155
+
+bajo en lo relativo a las Nuevas Modalidades de          Monitorio. Diario Oficial, 3 de diciembre de 2016.
                                               Contratación, al Derecho de Sindicación, a los
                                               Derechos Fundamentales del Trabajador y a otras      19.   Ley Nº 21.155, que establece medidas de protec-
                                               Materias que indica. Diario Oficial, 5 de octubre          ción a la lactancia materna y su ejercicio. Diario
                                               de 2001.                                                   Oficial, 2 de mayo de 2019.
 
-
 ## 7.    Ley N° 19.779, que establece Normas relativas al
 
-                                              Virus de Inmuno Deficiencia Humana y crea Bo-
+**Definición Canónica:** Virus de Inmuno Deficiencia Humana y crea Bo-
+                                              nificación Fiscal para Enfermedades Catastrófi-
+                                              cas. Diario Oficial, 14 de diciembre de 2001.
+                                                                                                         Jurisprudencia citada
+                                                                                                         Tribunales de justicia nacionales
+
+Virus de Inmuno Deficiencia Humana y crea Bo-
                                               nificación Fiscal para Enfermedades Catastrófi-
                                               cas. Diario Oficial, 14 de diciembre de 2001.
                                                                                                          Jurisprudencia citada
@@ -9344,7 +10121,14 @@ contexto del derecho                                                            
 
 ## 8.    Ley Nº 19.886, Ley de Bases sobre Contratos
 
-                                              Administrativos de Suministro y Prestación de        1.    Madrid con Sociedad de Profesionales Kronos
+**Definición Canónica:** Administrativos de Suministro y Prestación de        1.    Madrid con Sociedad de Profesionales Kronos
+                                              Servicios. Diario Oficial, 30 de julio de 2003.            Ltda. (2008): Juzgado de Letras del Trabajo de
+                                                                                                         Copiapó 15 de septiembre de 2008 (despido
+                                        9.    Ley Nº 19.889, que regula las Condiciones de               atentatorio de derechos fundamentales), RIT T-1-
+                                            
+**Concordancias Legales:** Ley Nº 19.889
+
+Administrativos de Suministro y Prestación de        1.    Madrid con Sociedad de Profesionales Kronos
                                               Servicios. Diario Oficial, 30 de julio de 2003.            Ltda. (2008): Juzgado de Letras del Trabajo de
                                                                                                          Copiapó 15 de septiembre de 2008 (despido
                                         9.    Ley Nº 19.889, que regula las Condiciones de               atentatorio de derechos fundamentales), RIT T-1-
@@ -9355,7 +10139,14 @@ contexto del derecho                                                            
 
 ## 10. Ley N° 20.005, que tipifica y sanciona el Acoso              ro de 2009 (despido atentatorio de dere-
 
-                                            Sexual. Diario Oficial, 18 de marzo de 2005.                 chos fundamentales), RIT T-4-2008.
+**Definición Canónica:** Sexual. Diario Oficial, 18 de marzo de 2005.                 chos fundamentales), RIT T-4-2008.
+                                        11.   Ley Nº 20.087, que sustituye el Procedimiento        3.    Olivares con Sociedad Rodac S.A. (2008): Juzga-
+                                              Laboral contemplado en el libro V del Código del           do de Letras del Trabajo de Iquique 20 de febrero
+                                              Trabajo. Diario Oficial, 3 de enero de 2006.               de 2009 (despido atentatorio de derechos fun-
+                                             
+**Concordancias Legales:** Ley Nº 20.087
+
+Sexual. Diario Oficial, 18 de marzo de 2005.                 chos fundamentales), RIT T-4-2008.
                                         11.   Ley Nº 20.087, que sustituye el Procedimiento        3.    Olivares con Sociedad Rodac S.A. (2008): Juzga-
                                               Laboral contemplado en el libro V del Código del           do de Letras del Trabajo de Iquique 20 de febrero
                                               Trabajo. Diario Oficial, 3 de enero de 2006.               de 2009 (despido atentatorio de derechos fun-
@@ -9363,33 +10154,46 @@ contexto del derecho                                                            
 
 Tutela de Derechos                                                                                 Bibliografía                                         210
 
-
 ## 4.    Barckhahn con Corporación Colegio Alemán de          16. Monsalve Pino, Ricardo con Muellaje STI S.A
 
-                                              Valparaíso: Juzgado de Letras del Trabajo de Val-        (2009): Corte Suprema 14 de enero de 2010 (uni-
+**Definición Canónica:** Valparaíso: Juzgado de Letras del Trabajo de Val-        (2009): Corte Suprema 14 de enero de 2010 (uni-
+                                              paraíso 25 de abril de 2009 (despido atentatorio         ficación de jurisprudencia), ROL 7023/2009.
+                                              de derechos fundamentales), RIT T-2-2009.
+
+Valparaíso: Juzgado de Letras del Trabajo de Val-        (2009): Corte Suprema 14 de enero de 2010 (uni-
                                               paraíso 25 de abril de 2009 (despido atentatorio         ficación de jurisprudencia), ROL 7023/2009.
                                               de derechos fundamentales), RIT T-2-2009.
 
 ## 17.   Concha con Inversiones Córdova y Rodríguez
 
-                                        5.    Román con Empresas de Seguridad y Servicios                Ltda. (2010): Juzgado de Letras de la Serena 5 de
+**Definición Canónica:** 5.    Román con Empresas de Seguridad y Servicios                Ltda. (2010): Juzgado de Letras de la Serena 5 de
                                               HBJ EI: Juzgado de Letras del Trabajo de Valpa-            abril de 2010 (despido atentatorio de derechos
                                               raíso 6 de mayo de 2009 (despido atentatorio de            fundamentales), RIT T-3-2010.
                                               derechos fundamentales), RIT T-5-2009.
 
-## 18. Dirección Nacional del Trabajo con Méndez
-
+5.    Román con Empresas de Seguridad y Servicios                Ltda. (2010): Juzgado de Letras de la Serena 5 de
+                                              HBJ EI: Juzgado de Letras del Trabajo de Valpa-            abril de 2010 (despido atentatorio de derechos
+                                              raíso 6 de mayo de 2009 (despido atentatorio de            fundamentales), RIT T-3-2010.
+                                              derechos fundamentales), RIT T-5-2009.
 
 ## 6.    Sindicato de Empresa Minera Lolol actual Tam-            (2010): Segundo Juzgado de Letras del Trabajo
 
-                                              billos (2009): Juzgado de Letras del Trabajo de la       de Santiago 16 de abril de 2010 (tutela laboral),
+**Definición Canónica:** billos (2009): Juzgado de Letras del Trabajo de la       de Santiago 16 de abril de 2010 (tutela laboral),
+                                              Serena 28 de mayo de 2009 (tutela laboral), RIT          RIT T-16-2010.
+                                              T-9-2009.
+                                                                                                   19.   Rojas con Inversiones Córdova y Rodríguez Ltda.
+
+billos (2009): Juzgado de Letras del Trabajo de la       de Santiago 16 de abril de 2010 (tutela laboral),
                                               Serena 28 de mayo de 2009 (tutela laboral), RIT          RIT T-16-2010.
                                               T-9-2009.
                                                                                                    19.   Rojas con Inversiones Córdova y Rodríguez Ltda.
 
 ## 7.    Sindicato de Empresa Minera Lolol actual Tambi-            (2010): Juzgado de Letras de La Serena 5 de
 
-                                              llos (2009): Corte de Apelaciones de La Serena 2           abril del 2010 (despido atentatorio de derechos
+**Definición Canónica:** llos (2009): Corte de Apelaciones de La Serena 2           abril del 2010 (despido atentatorio de derechos
+                                              de junio de 2009 (amparo), ROL 108-2009.                   fundamentales), RIT T-2-2010.
+
+llos (2009): Corte de Apelaciones de La Serena 2           abril del 2010 (despido atentatorio de derechos
                                               de junio de 2009 (amparo), ROL 108-2009.                   fundamentales), RIT T-2-2010.
 
                                         8.    Sindicato de Empresa Minera Lolol actual Tam-        20. Inspección Provincial del Trabajo de Santiago con
@@ -9399,36 +10203,55 @@ contexto del derecho                                                            
 
 ## 9.    Barckhahn con Corporación Colegio Alemán de
 
-                                              Valparaíso (2009): Corte de Apelaciones de Va-       21. Fernández con Silvagno y Cía Ltda. (2010): Primer
+**Definición Canónica:** Valparaíso (2009): Corte de Apelaciones de Va-       21. Fernández con Silvagno y Cía Ltda. (2010): Primer
                                               paraíso 27 de julio de 2009 (recurso de nulidad),        Juzgado de Letras del Trabajo de Santiago 19 de
                                               ROL 163-2009.                                            agosto de 2010 (tutela laboral), RIT T-122-2010.
 
+Valparaíso (2009): Corte de Apelaciones de Va-       21. Fernández con Silvagno y Cía Ltda. (2010): Primer
+                                              paraíso 27 de julio de 2009 (recurso de nulidad),        Juzgado de Letras del Trabajo de Santiago 19 de
+                                              ROL 163-2009.                                            agosto de 2010 (tutela laboral), RIT T-122-2010.
 
 ## 10. Madrid con Promolinks S.A. (2009): Juzgado de          22. Omerovich con ISS Servicios Generales Limitada
 
-                                            Letras del Trabajo de San Felipe 30 de julio de            (2011): Primer Juzgado de Letras de Santiago 23
+**Definición Canónica:** Letras del Trabajo de San Felipe 30 de julio de            (2011): Primer Juzgado de Letras de Santiago 23
+                                            2009 (despido atentatorio de derechos funda-               de mayo de 2011 (tutela laboral), RIT T 63-2011.
+                                            mentales), RIT T-4-2009.
+
+Letras del Trabajo de San Felipe 30 de julio de            (2011): Primer Juzgado de Letras de Santiago 23
                                             2009 (despido atentatorio de derechos funda-               de mayo de 2011 (tutela laboral), RIT T 63-2011.
                                             mentales), RIT T-4-2009.
 
 ## 23. Rosa y otros c. Frutales y Viñedos Errázuriz Ovalle
 
-                                        11.   Inspección Provincial del Trabajo con Buses Ahu-         S.A. (2011): Juzgado de Letras y Garantía de Pe-
+**Definición Canónica:** 11.   Inspección Provincial del Trabajo con Buses Ahu-         S.A. (2011): Juzgado de Letras y Garantía de Pe-
                                               mada Ltda. (2009): Juzgado de Letras del Trabajo         ralillo 20 de septiembre de 2011 (tutela laboral),
                                               de San Felipe 6 de octubre de 2009 (tutela labo-         RIT T-3-2011
                                               ral), RIT T-11-2009.
 
-## 24. Negrete con Gesfor Chile S.A. (2011): Segundo
-
+11.   Inspección Provincial del Trabajo con Buses Ahu-         S.A. (2011): Juzgado de Letras y Garantía de Pe-
+                                              mada Ltda. (2009): Juzgado de Letras del Trabajo         ralillo 20 de septiembre de 2011 (tutela laboral),
+                                              de San Felipe 6 de octubre de 2009 (tutela labo-         RIT T-3-2011
+                                              ral), RIT T-11-2009.
 
 ## 12. Bastías con Lisbeth Verónica Opazo Kook EIRL               Juzgado de Letras del Trabajo de Santiago 15 de
 
-                                            (2009): Juzgado de Letras del Trabajo de La Se-            diciembre de 2011 (despido atentatorio de dere-
+**Definición Canónica:** (2009): Juzgado de Letras del Trabajo de La Se-            diciembre de 2011 (despido atentatorio de dere-
+                                            rena 14 de octubre de 2009 (despido atentatorio            chos fundamentales), RIT T 385-2011.
+                                            de derechos fundamentales), RIT T-13-2009.
+
+(2009): Juzgado de Letras del Trabajo de La Se-            diciembre de 2011 (despido atentatorio de dere-
                                             rena 14 de octubre de 2009 (despido atentatorio            chos fundamentales), RIT T 385-2011.
                                             de derechos fundamentales), RIT T-13-2009.
 
 ## 25. Rojas c. Conservas y Congelados Puerto Mon-
 
-                                        13. Jara con Redbus Urbano S.A. (2009): Segundo                tt S.A. (2012): Juzgado de Letras del Trabajo de
+**Definición Canónica:** 13. Jara con Redbus Urbano S.A. (2009): Segundo                tt S.A. (2012): Juzgado de Letras del Trabajo de
+                                            Juzgado de Letras del Trabajo de Santiago 16               Puerto Montt 9 de julio de 2012 (despido atenta-
+                                            de noviembre de 2009 (despido atentatorio de               torio de derechos fundamentales), RIT T-5-2012.
+                                            derechos fundamentales), RIT T-4-2009.
+                                                                                                   26.
+
+13. Jara con Redbus Urbano S.A. (2009): Segundo                tt S.A. (2012): Juzgado de Letras del Trabajo de
                                             Juzgado de Letras del Trabajo de Santiago 16               Puerto Montt 9 de julio de 2012 (despido atenta-
                                             de noviembre de 2009 (despido atentatorio de               torio de derechos fundamentales), RIT T-5-2012.
                                             derechos fundamentales), RIT T-4-2009.
@@ -9436,7 +10259,13 @@ contexto del derecho                                                            
 
 ## 14. Correa con Hipermercado San Pablo Ltda. (2009):            Juzgado de Letras del Trabajo de Santa Cruz de
 
-                                            Segundo Juzgado de Letras del Trabajo de San-              30 de julio de 2012 (tutela laboral), RIT T-2-2012.
+**Definición Canónica:** Segundo Juzgado de Letras del Trabajo de San-              30 de julio de 2012 (tutela laboral), RIT T-2-2012.
+                                            tiago 28 de diciembre de 2009 (despido atenta-
+                                            torio de derechos fundamentales), RIT T-33-2009.       27.   Bussenius con Central Nacional de Abasteci-
+                                                                                                         miento (2013): Corte Suprema 30 de abril de 2014
+                                        15. Carvajal con Clínica Río Blanco (2009): Juzgado    
+
+Segundo Juzgado de Letras del Trabajo de San-              30 de julio de 2012 (tutela laboral), RIT T-2-2012.
                                             tiago 28 de diciembre de 2009 (despido atenta-
                                             torio de derechos fundamentales), RIT T-33-2009.       27.   Bussenius con Central Nacional de Abasteci-
                                                                                                          miento (2013): Corte Suprema 30 de abril de 2014
@@ -9460,36 +10289,58 @@ contexto del derecho                                                            
 
 ## 30. Inspección Provincial del Trabajo de Temuco con
 
-                                            Asociación Indígena Newentuleaiñ (2014): Juzga-        5.    Dictamen Nº 684/50 de 6 de febrero de 1997.
+**Definición Canónica:** Asociación Indígena Newentuleaiñ (2014): Juzga-        5.    Dictamen Nº 684/50 de 6 de febrero de 1997.
                                             do de Letras de Nueva Imperial de 14 de agosto               Materia: Revisión del personal. Polígrafo. Proce-
                                             de 2014 (tutela laboral), RIT T-2-2014.                      dencia.
 
+Asociación Indígena Newentuleaiñ (2014): Juzga-        5.    Dictamen Nº 684/50 de 6 de febrero de 1997.
+                                            do de Letras de Nueva Imperial de 14 de agosto               Materia: Revisión del personal. Polígrafo. Proce-
+                                            de 2014 (tutela laboral), RIT T-2-2014.                      dencia.
 
 ## 31. Sindicato de Trabajadores de Empresa Socofar c.        6.    Dictamen Nº 5.516/326 de 4 de noviembre de
 
-                                            Socofar Logística Ltda. (2015): Segundo Juzga-               1999. Materia: Contrato Individual. Legalidad de
+**Definición Canónica:** Socofar Logística Ltda. (2015): Segundo Juzga-               1999. Materia: Contrato Individual. Legalidad de
+                                            do de Letras de Santiago 27 de octubre de 2015               Claúsula.
+
+Socofar Logística Ltda. (2015): Segundo Juzga-               1999. Materia: Contrato Individual. Legalidad de
                                             do de Letras de Santiago 27 de octubre de 2015               Claúsula.
 
                                             (tutela laboral), RIT T-320-2015.
 
 ## 7.    Dictamen N° 260/19 de 24 de enero de 2002. Ma-
 
-                                        32. Bravo con Villablanca (2015): Corte Suprema 6 de             teria: Empresa; Facultades de administración; Ac-
+**Definición Canónica:** 32. Bravo con Villablanca (2015): Corte Suprema 6 de             teria: Empresa; Facultades de administración; Ac-
+                                            junio de 2016 (unificación de jurisprudencia), ROL           ceso correspondencia electrónica; Procedencia.
+                                            N° 11200-2015.
+                                                                                                   8.    Dictamen Nº 2328/130 de 19 de julio de 2002.
+
+32. Bravo con Villablanca (2015): Corte Suprema 6 de             teria: Empresa; Facultades de administración; Ac-
                                             junio de 2016 (unificación de jurisprudencia), ROL           ceso correspondencia electrónica; Procedencia.
                                             N° 11200-2015.
                                                                                                    8.    Dictamen Nº 2328/130 de 19 de julio de 2002.
 
 ## 33. Moreno con Empresa Consultores Asociados de                  Materia: 1) Derechos Fundamentales. Derecho a
 
-                                            Marketing (2017): Corte Apelaciones Santiago                 la Intimidad, Vida Privada y Honra de los Tra-
+**Definición Canónica:** Marketing (2017): Corte Apelaciones Santiago                 la Intimidad, Vida Privada y Honra de los Tra-
                                             9 de febrero de 2018 (recurso de nulidad), ROL               bajadores. Mecanismos de Control Audiovisual.
                                             2134-2017.                                                   Procedencia 2) Derechos Fundamentales. Meca-
                                                                                                          nismos de Control Audiovisual. Requisitos.
 
+Marketing (2017): Corte Apelaciones Santiago                 la Intimidad, Vida Privada y Honra de los Tra-
+                                            9 de febrero de 2018 (recurso de nulidad), ROL               bajadores. Mecanismos de Control Audiovisual.
+                                            2134-2017.                                                   Procedencia 2) Derechos Fundamentales. Meca-
+                                                                                                         nismos de Control Audiovisual. Requisitos.
 
 ## 9.    Dictamen N° 2875/72 de 22 de julio de 2003. Ma-
 
-                                             Tribunal Constitucional chileno
+**Definición Canónica:** Tribunal Constitucional chileno
+                                                                                                         teria: 1) Derechos Fundamentales. Derecho a la
+                                        1.   Banco de Chile c. Dirección de Compras y Con-               Intimidad, Vida Privada y Honra de los Trabajado-
+                                             tratación Pública, (2012): de 4 de julio de 2013            res. Mecanismos de Control Audiovisual. Proce-
+                                             (inaplicabilidad), ROL 2133-12.                             denc
+**Concordancias Legales:** Constitucion
+
+Tribunal Constitucional chileno
                                                                                                          teria: 1) Derechos Fundamentales. Derecho a la
                                         1.   Banco de Chile c. Dirección de Compras y Con-               Intimidad, Vida Privada y Honra de los Trabajado-
                                              tratación Pública, (2012): de 4 de julio de 2013            res. Mecanismos de Control Audiovisual. Proce-
@@ -9498,7 +10349,14 @@ contexto del derecho                                                            
 
 ## 2.   Nel Greeven Bobadilla, Jueza Titular del Juzgado
 
-                                             de Familia de Pudahuel (2015): de 12 de abril de      10. Dictamen Nº 3704/134 de 11 de agosto de 2004.
+**Definición Canónica:** de Familia de Pudahuel (2015): de 12 de abril de      10. Dictamen Nº 3704/134 de 11 de agosto de 2004.
+                                             2016 (inaplicabilidad), ROL Nº 2867-15.                   Materia: Fija sentido y alcance de los incisos se-
+                                                                                                       gundo, tercero y cuarto del artículo 2º, del Código
+                                        3.   Universidad de Chile c. Dirección de Compras y            del Trabajo, referidos al derecho a la no discrimi-
+                                
+**Concordancias Legales:** artículo 2
+
+de Familia de Pudahuel (2015): de 12 de abril de      10. Dictamen Nº 3704/134 de 11 de agosto de 2004.
                                              2016 (inaplicabilidad), ROL Nº 2867-15.                   Materia: Fija sentido y alcance de los incisos se-
                                                                                                        gundo, tercero y cuarto del artículo 2º, del Código
                                         3.   Universidad de Chile c. Dirección de Compras y            del Trabajo, referidos al derecho a la no discrimi-
@@ -9510,7 +10368,14 @@ contexto del derecho                                                            
 
 ## 12. Dictamen Nº 2697/41 de 7 de julio de 2009. Ma-
 
-                                                                                                       teria: 1) Libertad de trabajo. 2) Derechos Funda-
+**Definición Canónica:** teria: 1) Libertad de trabajo. 2) Derechos Funda-
+                                             Tribunales de justicia extranjeros                        mentales. Alcance. 3) Derechos Fundamentales.
+                                                                                                       Derecho a la Vida Privada.
+                                        1.   Consejo de Europa: Caso Barbulescu vs. Rumania,
+                                             de 5 de septiembre de 2017, Tribunal Europeo de       13. Dictamen N° 5342/31 de 2019. Materia: Legalidad
+                           
+
+teria: 1) Libertad de trabajo. 2) Derechos Funda-
                                              Tribunales de justicia extranjeros                        mentales. Alcance. 3) Derechos Fundamentales.
                                                                                                        Derecho a la Vida Privada.
                                         1.   Consejo de Europa: Caso Barbulescu vs. Rumania,
@@ -9523,19 +10388,3 @@ contexto del derecho                                                            
                                              Materia: Reglamento interno; Disposiciones Legales.
 
 Tutela de Derechos                      Bibliografía   212
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile
-Amunátegui 465, Santiago | www.academiajudicial.cl

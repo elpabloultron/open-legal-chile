@@ -13,20 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 51           Valoración
-
-             probatoria:
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             exigencias legales,
+                  electrónica
+             jurisprudenciales
+                  de causas
+             y doctrinales
+             Juan Sebastián Vera Sánchez
 
-                  Tramitación
+Tramitación
              exigencias legales,
                   electrónica
              jurisprudenciales
@@ -82,28 +79,10 @@ Materiales Docentes                                          ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Conceptos básicos de la prueba judicial
-
-## 53      Capítulo 2
-
-        La etapa de admisibilidad probatoria
-
-## 91      Capítulo 3
-
-        La etapa de valoración probatoria
-
-## 182     Capítulo 4
-
-        La decisión sobre los hechos
-
-## 269 Referencias
-
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Conceptos básicos de la prueba judicial
+**Concordancias Legales:** artículo 1695 del Código Civil se aplica al momento de la decis; Constitucion
 
 Conceptos básicos de la prueba judicial
 
@@ -223,8 +202,13 @@ de motivación de la conducta. Señala Ferrer:
 
    La decisión jurisdiccional será justa, no solo en cuanto haga una correcta aplicación del derecho, sino también cuando dicha aplicación recaiga sobre hechos que efectivamente hayan acaecido. Y la forma insti-
 
-
 ## 1 El autor considera que «si una cultura social incluye entre sus valores a la justicia
+
+**Definición Canónica:** de las decisiones, entonces probablemente se inclinará a preferir procedimientos
+que pretendan alcanzar decisiones justas y que estén diseñados funcionalmente para
+alcanzar ese fin. Esto no le restaría relevancia a la dimensión ritual del procedimiento, pero, con toda probabilidad, se trataría de un rito diferente, que sería evaluado
+también por su capacidad de producir decisiones bien fundadas y no solo por su
+capacidad de enviar mensajes culturalmente reconfortantes».
 
 de las decisiones, entonces probablemente se inclinará a preferir procedimientos
 que pretendan alcanzar decisiones justas y que estén diseñados funcionalmente para
@@ -233,6 +217,9 @@ también por su capacidad de producir decisiones bien fundadas y no solo por su
 capacidad de enviar mensajes culturalmente reconfortantes».
 
 ## 2 Sentencia del Tribunal Constitucional, 19-07-2018, rol 3996-2017, considerando
+
+**Definición Canónica:** vigésimo segundo.
+ 3 Sentencia de la Corte Suprema, 28-07-2015, rol 28926-2014, considerando sexto.
 
 vigésimo segundo.
  3 Sentencia de la Corte Suprema, 28-07-2015, rol 28926-2014, considerando sexto.
@@ -428,8 +415,14 @@ los contextos jurídicos los hechos están cargados de derecho» (2008:17).
    Aporta una complejidad estructural adicional, en relación con lo anterior, la circunstancia que muchos de enunciados fácticos utilizamos
 para generar prueba en los procedimientos judiciales contenta conceptos valorativos. Taruffo (2009: 128) señala que en algunos casos es nece-
 
-
 ## 5 En este sentido, Gascón (2010: 37) considera que el problema no es la subsunción
+
+**Definición Canónica:** silogística, sino los problemas que se suscitan en el denominado círculo hermenéutico, en donde «no existen hechos por un lado y leyes por otro, sino un proceso de
+selección simultánea donde los primeros se reformulan a la luz de las prescripciones
+jurídicas y donde las segundas se concretan a la luz de la realidad examinada». En
+el mismo sentido, Stein (1999: 7): «La prueba de los preceptos jurídicos ha sido inequívocamente separada por el derecho positivo de la prueba de los hechos y de un
+modo tan enérgico que algunos incluso han negado rotundamente que los preceptos
+jurídicos sean suscepti
 
 silogística, sino los problemas que se suscitan en el denominado círculo hermenéutico, en donde «no existen hechos por un lado y leyes por otro, sino un proceso de
 selección simultánea donde los primeros se reformulan a la luz de las prescripciones
@@ -599,6 +592,14 @@ del conflicto: la equidad, más que la verdad». Ubertis (2017: 13), por su
 
 ## parte, señala que la verdad como exigencia de justicia se proyecta en el
 
+**Definición Canónica:** respeto de la opciones legislativas a lo largo de todo el curso del procedimiento y también porque a partir de ello se garantiza el consenso de
+los ciudadanos respecto de sus conclusión. Sin embargo, la búsqueda de
+la verdad no puede en meta última y absoluta de la actividad jurisdiccional, respecto de la cual todo quede subordinado, sino que «deberá
+ser con considerada como resultado del paralelogramo de las fuerzas,
+individuales y colectivas que interactúan en el desarrollo del proceso».
+   Aunque la doctrina procesal ha dicho poco al respecto, la búsqueda
+de la verdad aparece como la finali
+
 respeto de la opciones legislativas a lo largo de todo el curso del procedimiento y también porque a partir de ello se garantiza el consenso de
 los ciudadanos respecto de sus conclusión. Sin embargo, la búsqueda de
 la verdad no puede en meta última y absoluta de la actividad jurisdiccional, respecto de la cual todo quede subordinado, sino que «deberá
@@ -748,8 +749,12 @@ en las frecuencias generales de clases de evento (como el modelo del
 teorema de Bayes), sino en la prueba disponible. Esta constituye la base
 del razonamiento y determina la validez de la conclusión que se extrae
 
-
 ## 13 Gascón (2010: 179), considera que «la confirmación es, pues, una inferencia
+
+**Definición Canónica:** mediante la cual, a partir de unas pruebas y de una regla que conecta esas pruebas
+con la hipótesis, se concluye aceptando la veracidad de esta última».
+ 14 Retoma las palabras de Hume y su distinción entre dos tipos de probablilidades: «that which is founded on chance, and that which arises from cause». Citado en
+Cohen (1977).
 
 mediante la cual, a partir de unas pruebas y de una regla que conecta esas pruebas
 con la hipótesis, se concluye aceptando la veracidad de esta última».
@@ -757,6 +762,9 @@ con la hipótesis, se concluye aceptando la veracidad de esta última».
 Cohen (1977).
 
 ## 15 Como tal, entonces, junto a la probabilidad matemática o pascaliana existiría
+
+**Definición Canónica:** también una probabilidad inductiva. Véase Aísa (1997: 272).
+ 16 Véase, Cohen (1977: 13 y ss.) y Gascón (2010: 175).
 
 también una probabilidad inductiva. Véase Aísa (1997: 272).
  16 Véase, Cohen (1977: 13 y ss.) y Gascón (2010: 175).
@@ -790,6 +798,10 @@ invocada puede ser que el peatón esperaba a su chofer que lo recogería
 a purely general statement that makes no mention of particular case».
 
 ## 19 En este sentido, Cohen considera: «In fact, over a lifetime, most people tacitly
+
+**Definición Canónica:** invoke enormous numbers of such generalizations about human intentions, attitudes, emotions, or actions, and about numerous other matters, since they make
+so many such inferences from singular proposition to singular proposition». En el
+mismo sentido, Ferrer (2007: 107).
 
 invoke enormous numbers of such generalizations about human intentions, attitudes, emotions, or actions, and about numerous other matters, since they make
 so many such inferences from singular proposition to singular proposition». En el
@@ -826,6 +838,9 @@ estrecha relación con la calidad epistémica que demuestre ese indicio.
 
 ## 21 Cohen (1977: 247 y 248); Taruffo (2009: 227). Resulta sorprenden observar que
 
+**Definición Canónica:** lo anota Johnson-Laird (1987: 201), donde descarta la pretensión de irrefutabilidad
+de las inferencias lógicas: «The inference is strong, but not irrefutable».
+
 lo anota Johnson-Laird (1987: 201), donde descarta la pretensión de irrefutabilidad
 de las inferencias lógicas: «The inference is strong, but not irrefutable».
 
@@ -848,8 +863,15 @@ social, que tampoco es estable y unidireccional. Aquí está la diferencia,
 por ejemplo, con la estructura del silogismo judicial aplicado en materia
 probatoria que utiliza elementos estables y generalizadores que, basados
 
-
 ## 22 Considera que: «In fact, this kind of reliance on a whole mesh of evidence is
+
+**Definición Canónica:** ubiquitous —the rule, not the exception. It is commonplace in everyday life: when,
+for example, after reading a startling story in a newspaper, I buy a different paper,
+or turn on the television news, to check whether other sources confirm it. And this
+reliance on a combination of lines of evidence is familiar in many legal contexts too:
+when, for example, we ask a jury to arrive at a conclusion based on the testimony of
+eye-witnesses and of a psychologist testifying to the circumstances in which eye-witnesses are more, or less, reliable, or on forensic evidence and testimony about the
+error-r
 
 ubiquitous —the rule, not the exception. It is commonplace in everyday life: when,
 for example, after reading a startling story in a newspaper, I buy a different paper,
@@ -923,8 +945,17 @@ enunciados fácticos que establecen la hipótesis acusatoria».26 Por su
 
 ## parte, la Corte de Apelaciones de Arica ha señalado
 
+**Definición Canónica:** Que lo anterior implica entre otra actividad de justificación que en la
+      fundamentación de los hechos no solo debe ser considerada toda la prue-
+      ba producida, sino que además se exige que se señale diferencialmente el
+      o los medios de prueba mediante los cuales se dan por acreditado cada
+      uno de los hechos y circunstancias que se tienen por probados, y en su
+      caso, los factores concretos que inciden en el grado de fuerza de la infe-
+      rencia inductiva, de un modo que pueda seguirse el camino lógico que
+      vincula los elementos de prueba aportados al proceso con
+**Concordancias Legales:** artículo 342; artículo 297; Ley 20.066
 
-       Que lo anterior implica entre otra actividad de justificación que en la
+Que lo anterior implica entre otra actividad de justificación que en la
       fundamentación de los hechos no solo debe ser considerada toda la prue-
       ba producida, sino que además se exige que se señale diferencialmente el
       o los medios de prueba mediante los cuales se dan por acreditado cada
@@ -1202,8 +1233,10 @@ ser capaces de explicar ciertos acontecimientos pasados no conocidos,
 junto con las teorías científicas y las «common sense generalizations» de
 la probabilidad. En este sentido, cuando acaece un accidente (o excepción probabilística) en donde no hay intervención humana, este tiene
 
-
 ## 31 El autor considera que: «Consciousness of the instant ‘now’ has logically to be
+
+**Definición Canónica:** based in a consciousness of a broader specious present. The ‘now’ of each instant is
+necessarily embedded in the ‘now’ of some larger project».
 
 based in a consciousness of a broader specious present. The ‘now’ of each instant is
 necessarily embedded in the ‘now’ of some larger project».
@@ -1237,14 +1270,11 @@ permitir la coherencia con los datos probatorios disponibles.33 Debe
 preferirse de este modo la narración o historia que se considera más
 coherente.34 Un relato de un suceso pasado o de un complejo de eventos
 
-
-## 32 En el original «The test is of the explicability of the tested proposition within
-
-the same scheme of explanation as explains propositions considered true on the
-basis of perception».
- 33 Véase también Gascón, 2010: 186.
-
 ## 34 Sin embargo, MacCormick agrega (p. 226) «Few such stories allow of certainty
+
+**Definición Canónica:** about the truth of the proposition to be proved. Such a test justifies beliefs, and thus
+justifies decisions about matters of past fact because (a) it is a necessary condition of
+the intelligibility of the phenomenal world; and because (b) rationality requires us to
 
 about the truth of the proposition to be proved. Such a test justifies beliefs, and thus
 justifies decisions about matters of past fact because (a) it is a necessary condition of
@@ -1373,8 +1403,12 @@ de la valoración de la prueba en nuestro ordenamiento nos exigen estar
 atentos acerca de cuándo es aplicable un cierto criterio general —como
 el modelo mixto sugerido— y cuándo no.
 
-
 ## 35 La autora lo explica de la siguiente manera: «How supportive evidence is of a
+
+**Definición Canónica:** conclusion depends, to put it quite briefly and roughly, on how well the evidence
+and the conclusion fit together to form an explanatory account».
+ 36 Ello significa «how solid the evidence itself is, independent of the conclusion».
+ 37 Ello significa «how much of the relevant evidence the evidence includes».
 
 conclusion depends, to put it quite briefly and roughly, on how well the evidence
 and the conclusion fit together to form an explanatory account».
@@ -1443,8 +1477,11 @@ la prueba en los procedimientos judiciales versa sobre hechos únicos e
 irrepetibles, que no en todos los casos se trata de sucesos pasados. De
 otro lado, en el derecho, por tratarse de un instrumento regulativo de
 
-
 ## 38 Sobre las diferencias entre el juez y el historiados, véase, Taruffo, 2009a: 336 y
+
+**Definición Canónica:** ss., para quien el historiador no está familiarizado en su actividad con la determinación de hechos específicos e individuales.
+ 39 En el mismo sentido, Ubertis, 2017: 20, quien destaca las características de individualidad e irrepetibilidad de los hechos.
+**Concordancias Legales:** artículos 1871; artículo 340 del Código Procesal Penal
 
 ss., para quien el historiador no está familiarizado en su actividad con la determinación de hechos específicos e individuales.
  39 En el mismo sentido, Ubertis, 2017: 20, quien destaca las características de individualidad e irrepetibilidad de los hechos.
@@ -1691,8 +1728,10 @@ una cuestión que no es posible de ser resuelta aquí.
 
 Materiales Docentes                                                Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** La etapa de admisibilidad probatoria
+**Concordancias Legales:** artículo 276; artículo 283
 
 La etapa de admisibilidad probatoria
 
@@ -1821,6 +1860,15 @@ relación lógica— entre la prueba y el enunciado fáctico a acreditar como
 
 ## parte integrante del thema probandum. En tercer lugar, la confluencia de
 
+**Definición Canónica:** tradiciones y la amplitud del entendimiento del concepto de relevancia
+muestran que, quizás, en la delimitación del mismo, también entran en
+juego elementos extraepistémicos.4
+   En resumen, pareciere ser común a todos los criterios de depuración
+probatoria en sede de admisibilidad la circunstancia de que la prueba
+que debiera ser admisible sea aquella cuya información presente una
+conexión lógica con los hechos del caso, y que pueda aportar a la determinación de la probabilidad de acaecimiento, aunque sea de forma mínima. A lo primero llamaremos relevancia lógica o formal; a lo segundo,
+relev
+
 tradiciones y la amplitud del entendimiento del concepto de relevancia
 muestran que, quizás, en la delimitación del mismo, también entran en
 juego elementos extraepistémicos.4
@@ -1841,6 +1889,10 @@ prueba sirva para determinar la probabilidad de acaecimiento de algunas de las h
  4 Como sucede con el testimonio de oídas. Véase Ferrer, 2007: 44.
 
 ## 5 En un sentido similar, Taruffo (2010: 161), quien sostiene que es un principio
+
+**Definición Canónica:** epistémico obvio determinar la verdad de los hechos a partir de las informaciones
+útiles para dicho objetivo.
+ 6 Para mayores antecedentes véase Vera, 2021a: 81 y ss.
 
 epistémico obvio determinar la verdad de los hechos a partir de las informaciones
 útiles para dicho objetivo.
@@ -1944,6 +1996,8 @@ prueba es mejor», porque no hay ni puede haber un paralelo cuantitativo entre l
 
 ## 9 En un sentido similar Haack (2004: 58): «It doesn’t follow that more evidence is
 
+**Definición Canónica:** always better than less, so that the policy should be to let it all in; for additional-but-still-incomplete evidence may lead us in the wrong direction, while the previously available even-more-incomplete evidence would have led us in the right direction».
+
 always better than less, so that the policy should be to let it all in; for additional-but-still-incomplete evidence may lead us in the wrong direction, while the previously available even-more-incomplete evidence would have led us in the right direction».
 
 Materiales Docentes                                                        Capítulo 2
@@ -2042,8 +2096,10 @@ por ausencia de cientificidad. Dicho fallo reconoce que el juez tiene la
 función de custodio de la calidad de la prueba, pues se asume que un jurado compuesto por legos o laicos presenta menores competencias cognitivas para reconocer una prueba pericial científica de mala calidad,
 que pueda estar amparada por el sesgo de la cientificidad o mito de la
 
-
 ## 11 Hand (1901: 54): «But how can the jury judge between two statements each
+
+**Definición Canónica:** founded upon an experience confessedly foreign in kind to their own? It is just because they are incompetent for such a task that the expert is necessary at all».
+**Concordancias Legales:** artículo 297
 
 founded upon an experience confessedly foreign in kind to their own? It is just because they are incompetent for such a task that the expert is necessary at all».
 
@@ -2264,8 +2320,11 @@ usar sin prueba específica los estándares de la experiencia común y de
 la cultura promedio en los que puede basarse para fundar inferencias y
 valorar las pruebas (Taruffo, 2008: 144). Es decir, en relación con la no-
 
-
 ## 14 Este autor destaca que lo contrario a la notoriedad no es la imposibilidad, sino
+
+**Definición Canónica:** el conocimiento común de que un determinado hecho en concreto no es verdadero,
+como que es notorio que la capital del Estado italiano no es Florencia.
+**Concordancias Legales:** artículo 281.4
 
 el conocimiento común de que un determinado hecho en concreto no es verdadero,
 como que es notorio que la capital del Estado italiano no es Florencia.
@@ -2327,14 +2386,22 @@ la notoriedad cuando ha sido afirmada por una de las partes (Montero,
    El uso de la notoriedad de parte de la judicatura puede acarrear el
 riesgo de, en definitiva, determinar probado un hecho de acuerdo con
 
-
 ## 15 Calamandrei (1933: 559) dice: «Ciertamente si procuramos llegar hasta la raíz
+
+**Definición Canónica:** de todas las disputas que todavía se empeñan al derredor de la prueba de los hechos
+notorios, veremos que en gran parte provienen de la carencia de ideas precisas y
+generalmente acogidas en torno al alcance de este concepto».
 
 de todas las disputas que todavía se empeñan al derredor de la prueba de los hechos
 notorios, veremos que en gran parte provienen de la carencia de ideas precisas y
 generalmente acogidas en torno al alcance de este concepto».
 
 ## 16 Carocca (2000: 203) agrega: «El que sea “notorio” es una cuestión fáctica que
+
+**Definición Canónica:** a su vez podría ser objeto de alegaciones y pruebas, las que deberían rendirse en la
+audiencia de preparación del juicio oral. Y nuevamente, si se producen dudas sobre
+esta característica, debería considerarse controvertido para no limitar a priori al
+tribunal oral».
 
 a su vez podría ser objeto de alegaciones y pruebas, las que deberían rendirse en la
 audiencia de preparación del juicio oral. Y nuevamente, si se producen dudas sobre
@@ -2357,6 +2424,13 @@ en definitiva, un hecho notorio es un «hecho cuyo conocimiento forma
 
 ## parte de la cultura normal de un determinado sector social al tiempo de
 
+**Definición Canónica:** pronunciarse la resolución» (Calamandrei, 1933: 585).
+   La jurisprudencia ha señalado que es un hecho público y notorio «la
+existencia del covid»;18 «La situación de pandemia generada por el covid»;19 que «a consecuencia de la emergencia por la pandemia del covid se
+dispuso el cierre de fronteras»;20 que es «un hecho público y notorio que
+la obtención del certificado de antecedentes penales venezolano, debidamente apostillado, tarda entre dos a cuatro semanas, sino más tiempo
+inclusive, cuestión que naturalmente escapa a la voluntad de la interesada»;21 «que es un hecho público y notorio que 
+
 pronunciarse la resolución» (Calamandrei, 1933: 585).
    La jurisprudencia ha señalado que es un hecho público y notorio «la
 existencia del covid»;18 «La situación de pandemia generada por el covid»;19 que «a consecuencia de la emergencia por la pandemia del covid se
@@ -2368,8 +2442,15 @@ la fuerza de las circunstancias, lo que objetivamente afectó y continúa
 haciéndolo no solo a la comunidad nacional, regional o provincial, sino
 a todo el orbe, de lo cual empleadores como el reclamante no estaban
 
-
 ## 17 Agrega también: «Las nociones que componen este patrimonio adquieren así
+
+**Definición Canónica:** una autoridad que la afirmación individual no puede tener, porque llevan consigo la
+garantía de una depuración y de un control colectivo».
+ 18 Sentencia de la Corte de Apelaciones de Temuco, 04-10-2021, rol 186-2021.
+ 19 Sentencia de la Corte de Apelaciones de Concepción, 29-09-2021, rol 95002021.
+ 20 Sentencia de la Corte de Apelaciones de Concepción, 13-12-2021, rol 608-2021.
+ 21 Sentencia de la Corte de Apelaciones de Concepción, 01-12-2021, rol 105502021.
+**Concordancias Legales:** artículo 43 del Decreto Ley 1.094 Ley de Extranjería establec; Ley 1.094
 
 una autoridad que la afirmación individual no puede tener, porque llevan consigo la
 garantía de una depuración y de un control colectivo».
@@ -2442,8 +2523,10 @@ normativas atribuidas a las partes o intervinientes en los procedimientos judici
 un «homenaje al principio de economía» (Couture, 2021: 193). En efecto,
 los hechos notorios pueden versar sobre cualquier enunciado fáctico
 
-
 ## 26 Agrega también: «un hombre [sic] razonable nunca se declarará convencido de
+
+**Definición Canónica:** estas últimas mediante la percepción general o la trasmisión».
+**Concordancias Legales:** artículo 191 del Codice di Procedura Penale de 1988 a partir d; artículo 11.1; artículo 276 del Código Procesal Penal; artículo 159; constitucion
 
 estas últimas mediante la percepción general o la trasmisión».
 
@@ -2535,8 +2618,9 @@ que ello es una expresión de la «constitucionalización del Derecho procesal»
       cisivamente en el establecimiento del hecho punible o la participación
       del imputado.27
 
-
 ## 27 Sentencias de la Corte Suprema 23.930-2014 y 25.003-2014; 25-02-2022, rol
+
+**Definición Canónica:** 39575- 2021, considerando tercero.
 
 39575- 2021, considerando tercero.
 
@@ -2566,8 +2650,16 @@ base de información obtenida de forma ilegal. En otro sentido, en este
 mismo grupo de casos se sitúa la problemática de obtención de medios
 de prueba lícitos derivados, a su vez, de un medio de prueba obtenido de
 
-
 ## 28 Por ejemplo, Ferrer (2007: 29). En relación con lo contraepistémico en que se
+
+**Definición Canónica:** puede tornar el proceso adversarial y sus reglas, como las exclusionary rules, véase, Haack, (2004: 52 y ss.); Haack (2003: 19); Ubertis (1995: 55); Taruffo (2010: 101);
+Gascón (2010: 118 y 119): «Se trata, por lo general, de reglas que, enderezándose
+primariamente a asegurar la tutela de determinados valores extraprocesales que se
+consideran relevantes, hacen prevalecer estos frente a las exigencias procesales de
+averiguación de la verdad. Son ejemplos de estas reglas la prohibición de prueba
+ilícitamente obtenida; la prohibición bajo “secreto de Estado”, de usar como pruebas
+ciertos document
+**Concordancias Legales:** artículo 215 del Código Procesal Penal se refiere a ello; artículos 287.1; artículo 453.4; artículo 477 del Código del Trabajo. Preci; artículo 458; artículo 453; artículo 31 de la Ley 19.968 que Crea los Tribunales de familia; artículos 6; artículo 295; artículo 297; artículo 19; artículos 181; artículo 283.2 de la Ley de Enjuiciamiento Civil hace referencia e; Ley 19.968; constitucion; Constitución Política
 
 puede tornar el proceso adversarial y sus reglas, como las exclusionary rules, véase, Haack, (2004: 52 y ss.); Haack (2003: 19); Ubertis (1995: 55); Taruffo (2010: 101);
 Gascón (2010: 118 y 119): «Se trata, por lo general, de reglas que, enderezándose
@@ -2898,6 +2990,9 @@ considerando cuarto.
 
 ## 44 Para mayores antecedentes sobre la prueba ilícita en sede penal en Chile véase
 
+**Definición Canónica:** Zapata, 2004: 1 y ss.; Alvarado, 2014; 421-464.
+**Concordancias Legales:** artículo 363.2 de la Ley de Enjuiciamiento Civil señala que
+
 Zapata, 2004: 1 y ss.; Alvarado, 2014; 421-464.
 
 Materiales Docentes                                                Capítulo 2
@@ -2955,13 +3050,9 @@ celeridad procesal, a efectos que el juicio oral no se dilate innecesariamente c
 públicamente el «banquillo de los acusados», a un enjuiciamiento cuya
 duración fuere injustificada.
 
-
-## 45 Por su parte, Cerda (2015: 298) considera que el tema ha de ser resuelto caso
-
-por caso, tomando en cuenta, el o la jueza de garantía, los fines y principios del sistema sin olvidar el objetivo de depuración de esta fase del procedimiento.
-
-
 ## Capítulo 3
+
+**Definición Canónica:** La etapa de valoración probatoria
 
 La etapa de valoración probatoria
 
@@ -3041,6 +3132,14 @@ al juez o jueza para valorar la prueba (Taruffo, 2008: 134). Hoy en día
 
 ## parte de la doctrina considera que el legislador objetiviza máximas de
 
+**Definición Canónica:** experiencia a través de ciertas reglas legales referidas a la valoración
+probatoria (Montero, 2005: 365).
+   El sistema de prueba legal se basaba en diversas premisas culturales,
+entre las que estaba el pensamiento filosófico escolástico y, posteriormente, el racionalismo humanista con sus intentos de ofrecer una estructura lógica y matemática formal a la valoración probatoria (Taruffo, 2008: 134; Montero, 2005: 550). Es decir, el sistema de prueba legal
+respondía al conjunto de valores de una determinada sociedad situada
+temporalmente y a sus creencias (Montero, 2005: 550). En esta misma
+líne
+
 experiencia a través de ciertas reglas legales referidas a la valoración
 probatoria (Montero, 2005: 365).
    El sistema de prueba legal se basaba en diversas premisas culturales,
@@ -3087,8 +3186,10 @@ de estructura algebraica o método de cálculo donde el hecho probado
 —y, por tanto, verdadero— era aquel que presentaba un valor positivo
 respecto de la adición de todos los pesos probatorios de las pruebas que
 
-
 ## 2 El autor agrega: «y si bien el derecho vigente ha ampliado sustancialmente el
+
+**Definición Canónica:** campo de discrecionalidad judicial, renunciando por completo a influir en la apreciación del juez, el valor interno de aquellas reglas (reglas de prueba legal), injustamente calumniadas en el movimiento de reforma, se ha cuidado, sin embargo, de
+que, aun sin coacción, sigan aplicándose». El paréntesis es nuestro.
 
 campo de discrecionalidad judicial, renunciando por completo a influir en la apreciación del juez, el valor interno de aquellas reglas (reglas de prueba legal), injustamente calumniadas en el movimiento de reforma, se ha cuidado, sin embargo, de
 que, aun sin coacción, sigan aplicándose». El paréntesis es nuestro.
@@ -3210,8 +3311,15 @@ siendo estimada por parte de la doctrina procesalista, desde el punto de
 vista histórico, como una «conquista jurídica» frente al caduco sistema
 de las pruebas legales o tasadas, propio del viejo sistema procesal inquisitivo (Vásquez Sotelo, 1984: 443; Horvitz y López, 2004: 146 y 147).
 
-
 ## 6 Vásquez Sotelo (1984: 453) comenta: «Pero el paso hacia el nuevo sistema era
+
+**Definición Canónica:** fácil de dar y además necesario darlo, tras el pensamiento jurídico y político que
+siguió al Siglo de las Luces y se extendió por toda Europa. Porque el método de la
+prueba legal, que ofrecía indiscutibles aspectos positivos, como el de la seguridad
+jurídica, funcionaba dentro de un mecanismo procesal inspirado y articulado por:
+la prueba legal, el tormento, el poder absoluto del Juez, la falta de derechos absolutos
+en la defensa, el procedimiento escrito y secreto […], principios y criterios todos
+ellos incompatibles con aquellas nuevas “luces” jurídicas y políticas».
 
 fácil de dar y además necesario darlo, tras el pensamiento jurídico y político que
 siguió al Siglo de las Luces y se extendió por toda Europa. Porque el método de la
@@ -3222,6 +3330,8 @@ en la defensa, el procedimiento escrito y secreto […], principios y criterios 
 ellos incompatibles con aquellas nuevas “luces” jurídicas y políticas».
 
 ## 7 También Ferrajoli (2014: 139): «Y ha terminado por transformarse en un tosco
+
+**Definición Canónica:** principio potestativo idóneo para legitimar el arbitrio de los jueces».
 
 principio potestativo idóneo para legitimar el arbitrio de los jueces».
 
@@ -3346,8 +3456,10 @@ como un mecanismo adaptativo del ser humano a su entorno, dentro
 de las cuales, por cierto, se puede encontrar estructuras lógico-causales
 para entender el mundo, como veremos infra. En efecto, Vásquez Sotelo, especialmente para el proceso penal español regulado en la Ley de
 
-
 ## 8 En este sentido Nieva (2010: 89) dice: «aquello que se deduce de la sana crítica
+
+**Definición Canónica:** no difiere en absoluto de lo que pretende la intime conviction o la freie Beweiswürdigung».
+**Concordancias Legales:** artículo 741; Constitucion
 
 no difiere en absoluto de lo que pretende la intime conviction o la freie Beweiswürdigung».
 
@@ -3379,8 +3491,11 @@ ciertas notas características, como la utilización del método de la corrobora
 de un versión débil o limitada del principio de inmediación, una fuerte
 exigencia de motivación de la decisión sobre los hechos y la defensa de
 
-
 ## 9 Ahora, no es muy feliz la conceptualización del racionalismo probatorio a partir
+
+**Definición Canónica:** del vocablo «persuasión» que, perfectamente puede ser confundido con una adhesión a la concepción subjetiva de la prueba que, por cierto, es rechazada por todos
+aquellos que defienden una valoración racional de la prueba.
+**Concordancias Legales:** artículo 342; artículo 297 del Código citado
 
 del vocablo «persuasión» que, perfectamente puede ser confundido con una adhesión a la concepción subjetiva de la prueba que, por cierto, es rechazada por todos
 aquellos que defienden una valoración racional de la prueba.
@@ -3462,11 +3577,10 @@ penal, la Corte de Apelaciones de Concepción ha señalado:
 
  11 Sentencia de la Corte Suprema, 04 de agosto de 2014, rol 15256-2014, considerando quinto.
 
-## 12 Sentencia de la Corte de Apelaciones de Concepción, 21 de febrero de 2022, rol
-
-702-2021, considerando octavo.
-
 ## 13 Sentencia de la Corte de Apelaciones de Concepción, 15de julio de 2016, rol
+
+**Definición Canónica:** 496-2016.
+**Concordancias Legales:** artículo 32 de la Ley de Tribunales de Familia; artículo 32
 
 496-2016.
 
@@ -3632,11 +3746,12 @@ uno necesariamente ha de ser falso (Abel, 2015: 66).
       cie, el presupuesto básico de este principio, esto es, de que se afirme algo
       y se niegue a la vez.16
 
-
 ## 16 Sentencia de la Corte de Apelaciones de Coihaique, 04 de junio de 2021, rol
 
+**Definición Canónica:** Por su parte, en lo que refiere al principio de no contradicción la Corte de Apelaciones de Chillán ha señalado:
+**Concordancias Legales:** artículo 340 del Código Procesal Penal
 
-   Por su parte, en lo que refiere al principio de no contradicción la Corte de Apelaciones de Chillán ha señalado:
+Por su parte, en lo que refiere al principio de no contradicción la Corte de Apelaciones de Chillán ha señalado:
 
        En consecuencia, si la prueba de cargo tiene alguna inconsistencia, de-
       bilidad o contradicción ello no origina una infracción a los principios
@@ -3662,7 +3777,10 @@ la Corte de Apelaciones de Concepción ha señalado:
 
 ## parte, de acuerdo al principio de la razón suficiente, nada es sin razón o
 
-      fundamento, por lo que, para cumplir con dicho principio, se deben ex-
+**Definición Canónica:** fundamento, por lo que, para cumplir con dicho principio, se deben ex-
+      presar las razones por las que se concluye algo en determinado sentido.18
+
+fundamento, por lo que, para cumplir con dicho principio, se deben ex-
       presar las razones por las que se concluye algo en determinado sentido.18
 
   Igualmente, en relación con el principio de no contradicción, la Corte
@@ -3678,6 +3796,8 @@ de Apelaciones de Valparaíso ha señalado:
  17 Sentencia de la Corte de Apelaciones de Chillán, 15 de octubre de 2021, rol 3042021, considerando octavo.
 
 ## 18 Sentencia de a Corte de Apelaciones de Concepción, 17 de febrero de 2022, rol
+
+**Definición Canónica:** 599-2021, considerandos noveno a undécimo.
 
 599-2021, considerandos noveno a undécimo.
 
@@ -3718,8 +3838,10 @@ un contenido invariable durante todo el razonamiento jurídico (2015:
 
    El principio de razón suficiente, siguiendo a Esser, Cerda lo entiende
 
-
 ## 19 Sentencia de la Corte de Apelaciones de Valparaíso, 04 de febrero de 2022, rol
+
+**Definición Canónica:** 95-2022, considerandos octavo y décimo, las cursivas son nuestras.
+ 20 Sentencia de la Corte Suprema 31 de enero de 2022, rol 119044-2020, Considerandos undécimo y duodécimo.
 
 95-2022, considerandos octavo y décimo, las cursivas son nuestras.
  20 Sentencia de la Corte Suprema 31 de enero de 2022, rol 119044-2020, Considerandos undécimo y duodécimo.
@@ -3792,11 +3914,9 @@ Así, la Corte de Apelaciones de Santiago ha señalado:
 
  22 Sentencia de la Corte de Apelaciones de Santiago, 17 de mayo de 2019, rol 18502019.
 
-## 23 Sentencia de la Corte de Apelación de San Miguel, 23 de diciembre de 2019, rol
-
-3004-2019.
-
 ## 24 Sentencia de la Corte de Apelaciones de Santiago, 17 de diciembre de 2019, rol
+
+**Definición Canónica:** 5992-2019.
 
 5992-2019.
 
@@ -3819,21 +3939,13 @@ el fallo contenga fundamentos que justifiquen el juicio de hecho de un
 modo racionalmente aceptable.29 Se trata, en definitiva, de una justificación racional del juicio de hecho.30 Esto implica un control acerca de la
 base fáctica sobre la cual se sostiene la sentencia.31 Es este mismo princi-
 
-
-## 25 Sentencia de la Corte de Apelaciones de Santiago, 16 de octubre de 2020, rol
-
-4721-2020.
-  26 Sentencias de la Corte Suprema, 5 de mayo de 2015, rol 21304-2014; 15 de septiembre de 2016, rol 26854-2014.
-
-## 27 Sentencias de la Corte de Apelaciones de Santiago,17 de noviembre de 2020, rol
-
-5389-2020; 21 de noviembre de 2019, rol 5421-2019.
-
-## 28 Sentencia de la Corte de Apelaciones de Santiago, 3 de diciembre de 2020; rol
-
-5637-2020.
-
 ## 29 Sentencia de la Corte de Apelaciones de Santiago, 18 de noviembre de 2020, rol
+
+**Definición Canónica:** 5332-2020; Sentencia de la Corte de Apelaciones de Puerto Montt, 19 de octubre de
+2020, rol 661-2020.
+  30 Sentencia de la Corte de Apelaciones de Puerto Montt, 19 de octubre de 2020,
+rol 661-2020; Sentencia de la Corte de Apelaciones de Santiago, 13 de diciembre de
+2019, rol 5662-2019.
 
 5332-2020; Sentencia de la Corte de Apelaciones de Puerto Montt, 19 de octubre de
 2020, rol 661-2020.
@@ -3843,6 +3955,14 @@ rol 661-2020; Sentencia de la Corte de Apelaciones de Santiago, 13 de diciembre 
 
 ## 31 Sentencia de la Corte de Apelaciones de Talca, 16 de octubre de 2020, rol 486-
 
+**Definición Canónica:** pio el que se traduce en que los jueces del fondo necesariamente deben
+fundar sus conclusiones a fin de evitar la duda razonable.32
+   También se ha asociado el principio de razón suficiente con la idea
+de corroboración probatoria proveniente de la probabilidad lógica, en
+el sentido que lo sostenido por el tribunal debiese tener un apoyo o corroboración en otras pruebas autónomas y diversas.33 Así, se trataría de
+identificar el sustrato material necesario para tener por acreditado los
+hechos en los términos que se describen.34
+   En este sentido, la visión probatoria del principio de la razón 
 
 pio el que se traduce en que los jueces del fondo necesariamente deben
 fundar sus conclusiones a fin de evitar la duda razonable.32
@@ -3882,6 +4002,8 @@ rol 488-2020.
 
 ## 36 Sentencia de la Corte de Apelaciones de Santiago, 16 de octubre de 2020, rol
 
+**Definición Canónica:** 4721-2020.
+
 4721-2020.
 
       conclusión y, finalmente, que la prueba sea de tal entidad que realmente
@@ -3918,6 +4040,10 @@ de una justificación exhaustiva y exigente de la conexión entre un medio de pr
  37 Sentencia de la Corte de Apelaciones de Arica, 18 de octubre de 2010, rol 1922010.
 
 ## 38 Sentencia de la Corte de Apelaciones de Coihaique, 16 de febrero de 2021, rol
+
+**Definición Canónica:** 411-2020.
+ 39 Sentencia de la Corte de Apelaciones de Antofagasta, 02 de noviembre de 2021,
+rol 842-2021, considerandos décimo segundo al décimo cuarto.
 
 411-2020.
  39 Sentencia de la Corte de Apelaciones de Antofagasta, 02 de noviembre de 2021,
@@ -3959,6 +4085,8 @@ cláusula «a mayor abundamiento», «cajón de sastre» (Nieva, 2010: 211),
  40 Mayores antecedentes véanse en Vera, 2021b: 65 y ss.
 
 ## 41 Sentencia de la Corte de Apelaciones de Valparaíso, 17 de febrero de 2022, rol
+
+**Definición Canónica:** 606-2021, considerando segundo.
 
 606-2021, considerando segundo.
 
@@ -4010,6 +4138,13 @@ de ciertas proposiciones de experiencia de que toda persona se sirve en
 
 ## 43 En estos casos Taruffo se pregunta: «¿De quién es la experiencia relevante para
 
+**Definición Canónica:** la elaboración de una máxima? ¿La del juez? Pero, entonces, ¿cuántos casos debe
+haber visto y decidido el juez para formarse esa experiencia? ¿Pero cómo ha decidido esos casos en momentos en que su experiencia no se había formado aún? Si
+los ha decidido en función de criterios diversos, de caso en caso, ¿cómo hace para
+formular la máxima? O, en cambio, ¿se trata de la experiencia de un ambiente social
+o cultural? ¿Cuál? ¿Cuán amplio? ¿Cuán homogéneo? ¿Cuánto tiempo ha sido necesario para que la experiencia de un grupo social se haya consolidado en una regla
+general? ¿Años, siglos? Más aún, ¿qu
+
 la elaboración de una máxima? ¿La del juez? Pero, entonces, ¿cuántos casos debe
 haber visto y decidido el juez para formarse esa experiencia? ¿Pero cómo ha decidido esos casos en momentos en que su experiencia no se había formado aún? Si
 los ha decidido en función de criterios diversos, de caso en caso, ¿cómo hace para
@@ -4049,8 +4184,12 @@ original, no haciendo posible la existencia simultánea de ambas, a diferencia d
    Por otro lado, como anotaré, la importancia probatoria de las reglas
 de inferencia está en la evaluación de la fuerza de su contenido. En cambio, en la formulación original de Stein (1999: 35 y 36), la justificación de
 
-
 ## 44 Una aplicación moderna de la asociación de las máximas de la experiencia con
+
+**Definición Canónica:** las reglas de la lógica se puede ver, en Jiménez (2009:75 y ss.), en donde considera
+que: «No se pretende una codificación de tales reglas o máximas, sino simplemente
+llamar la atención sobre este aspecto, puesto que el Derecho y los operadores jurídicos, aunque a veces lo disimulen, no pueden escapar a las reglas de la lógica, pues
+eso es lo que son las máximas de la experiencia o las reglas de la sana crítica».
 
 las reglas de la lógica se puede ver, en Jiménez (2009:75 y ss.), en donde considera
 que: «No se pretende una codificación de tales reglas o máximas, sino simplemente
@@ -4086,6 +4225,9 @@ escritura o la absoluta discernibilidad entre dos hombres, cuya validez universa
 ve diariamente refutada por nuevas experiencias».
 
 ## 46 Couture agrega: «El progreso de la ciencia está hecho de una serie de máximas
+
+**Definición Canónica:** de la experiencia derogadas por otras más exactas; y aun frente a los principios de la
+lógica tradicional, la lógica moderna muestra cómo el pensamiento humano se halla
 
 de la experiencia derogadas por otras más exactas; y aun frente a los principios de la
 lógica tradicional, la lógica moderna muestra cómo el pensamiento humano se halla
@@ -4133,13 +4275,14 @@ en constante progreso en la manera de razonar».
       en la regularidad o normalidad de la vida, y, por lo mismo, implican
       una regla, susceptible de ser utilizada por el juez para un hecho similar.
 
-## 5. Las máximas carecen de universalidad. Están restringidas al medio
-
-      físico en que actúa el juez, puesto que ellas nacen de las relaciones de la
-      vida y comprenden todo lo que el juez tenga como experiencia propia.48
-
-
 ## 1. Función de las máximas de experiencia. Para Taruffo, las máximas
+
+**Definición Canónica:** de experiencia cumplen una función heurística, epistémica y justificativa. La función heurística facilita al juez la tarea de realizar formulaciones fácticas a hipotéticas sobre lo sucedido.49 La función epistémica
+permite el juez la utilización de las máximas para construir razonamientos presuntivos o indiciarios, o ser utilizadas por las partes para otorgar
+credibilidad a su relato. La función justificativa consiste en expresar las
+razones que ha tenido el juez para motivar su decisión sobre los hechos
+basada, en parte, en el empleo de dichas máximas (Taruffo, 2009b: 446).
+Se trata de repres
 
 de experiencia cumplen una función heurística, epistémica y justificativa. La función heurística facilita al juez la tarea de realizar formulaciones fácticas a hipotéticas sobre lo sucedido.49 La función epistémica
 permite el juez la utilización de las máximas para construir razonamientos presuntivos o indiciarios, o ser utilizadas por las partes para otorgar
@@ -4166,13 +4309,9 @@ presumir a los juzgadores que todo conductor que pierde el control del
 vehículo intentará activar los frenos y que, estando ellos defectuosos, no
 dejarían una huella de frenado en el pavimento.
 
-
-## 48 Sentencia de la Corte de Apelaciones de Punta Arenas, 14 de junio de 2021, rol
-
-58-2021, considerandos séptimo y octavo.
- 49 En el mismo sentido, Tuzet (2021: 178).
-
 ## 50 Sentencia de la Corte de Apelaciones de San Miguel, 15 de febrero de 2022, rol
+
+**Definición Canónica:** 17-2022, considerando octavo.
 
 17-2022, considerando octavo.
 
@@ -4325,8 +4464,9 @@ los actores no era concluyente precisamente, porque se afirmaba que
 el fármaco posiblemente había causado las malformaciones, declarando que el criterio jurídico adecuado para admitir o excluir una prueba
 científica era la aceptación general del área relevante de los principios
 
-
 ## 52 Supreme Court, Daubert versus Merrel Dow Pharmaceuticals (92-102), 509
+
+**Definición Canónica:** U.S., june 28, 1993.
 
 U.S., june 28, 1993.
 
@@ -4358,8 +4498,10 @@ explícita ni implícita a la «aceptación general del área de conocimiento»
 como criterio de admisión. Por ello no había razones suficientes para
 confirmar una condición necesaria para la admisión de pruebas cientí-
 
-
 ## 53 Al respecto, véase Gardner y Anderson (2013: 483). Para estos autores Frye test
+
+**Definición Canónica:** significa: «The general acceptance test: scientific evidence presented to the court
+must result from test and theories that are generally accepted by a meaningful segment of the associated scientific community».
 
 significa: «The general acceptance test: scientific evidence presented to the court
 must result from test and theories that are generally accepted by a meaningful segment of the associated scientific community».
@@ -4388,8 +4530,9 @@ legos presentan igual estatus frente a sesgos y heurísticos que generan
 una distorsión epistémica en lo que se refiere a las pruebas. La forma
 más adecuada, como adelantaba, para entender el rol del juez letrado
 
-
 ## 54 Un desarrollo más extenso y pormenorizado puede verse en Vázquez, 2015: 91
+
+**Definición Canónica:** y ss.
 
 y ss.
 
@@ -4480,8 +4623,10 @@ probabilístico lógico no matemático o no estadístico, y que se refiere
 al grado de confirmación de un enunciado fáctico subsumible en una
 hipótesis legal. En este sentido, no hay razones epistémicas que justifi-
 
-
 ## 59 Según el mismo autor: «que todos los hechos comprobados no bastan para
+
+**Definición Canónica:** consagrar una “ley” y que solo basta un hecho que desmienta la ley, para derrumbar
+todo los construido».
 
 consagrar una “ley” y que solo basta un hecho que desmienta la ley, para derrumbar
 todo los construido».
@@ -4516,8 +4661,11 @@ excepción a la regla general de imposibilidad de aceptar opiniones de
 testigos (Dwyer, 2008: 92). En efecto, es muy difícil de distinguir, pues
 en cierto punto toda información que se extraiga sobre los hechos lleva
 
-
 ## 60 Dwyer agrega: «To talk about evidence of opinion as being quite distinct from
+
+**Definición Canónica:** evidence of fact may therefore have been a wrong turn in the development of evidence jurisprudence. It creates unnecessary difficulties for us in forming a correct
+understanding of how the court assesses evidence, and particularly expert evidence».
+**Concordancias Legales:** artículo 297 del Código Procesal Penal de Chile dispone
 
 evidence of fact may therefore have been a wrong turn in the development of evidence jurisprudence. It creates unnecessary difficulties for us in forming a correct
 understanding of how the court assesses evidence, and particularly expert evidence».
@@ -4699,8 +4847,15 @@ la prueba» (Anderson y otros, 2015: 318 y 319). En un sentido similar,
 Twining (2006: 127) señala que la tesis de Cohen acerca de la existencia
 de una probabilidad no matemática es correcta y que este modo de ra-
 
-
 ## 65 Cohen advirtió que von Frisch iba modificando tanto las hipótesis como las
+
+**Definición Canónica:** conclusiones a partir de lo que observaba, rompiendo con el aspecto lineal unidireccional que suele evocar la investigación científica. En el caso específico estudiado
+por Cohen, las abejas regresaban una y otra vez a una fuente de agua con azúcar,
+en un trozo de cartón azul. Pues bien, ¿quizás las abejas eran ciegas al color azul e
+identifican su lugar de alimento con matices grises? Esta hipótesis puede ponerse
+a prueba agregando contenedores de alimentos vacíos de color gris. Sin embargo,
+las abejas seguían regresando al contenedor azul. ¿Quizás las abejas son sensibles
+a reconocer al color
 
 conclusiones a partir de lo que observaba, rompiendo con el aspecto lineal unidireccional que suele evocar la investigación científica. En el caso específico estudiado
 por Cohen, las abejas regresaban una y otra vez a una fuente de agua con azúcar,
@@ -4781,8 +4936,13 @@ se hace necesario recurrir a otras áreas del saber para ayudar a responder preg
 aplicación de teorías psicológicas al ámbito del derecho hacia el camino
 de distinguir dentro de la psicología jurídica o aplicada al derecho, la
 
-
 ## 66 En este sentido, Ragués (1999: 334) considera que «sin embargo, la diferencia
+
+**Definición Canónica:** de lo firmado para la determinación del tipo subjetivo, hoy en día si se admite de
+forma generalizada que ciencias como la psicología o la psiquiatría pueden aportar
+orientaciones decisivas sobre la imputabilidad del acusado. Por este motivo no sólo
+resulta recomendable, sino necesario, que se acuda a ellas para dilucidar las posibles
+dudas sobre dicha imputabilidad».
 
 de lo firmado para la determinación del tipo subjetivo, hoy en día si se admite de
 forma generalizada que ciencias como la psicología o la psiquiatría pueden aportar
@@ -4846,14 +5006,20 @@ proceso de información acerca de lo sucedido a través de algunos de
 las teorías de la psicología cognitiva que, precisamente, se preocupan
 de ello en las situaciones cotidianas de las personas. Por otro lado, el
 
-
 ## 67 Hay que tener en consideración, por ejemplo, que la asignatura de la psicología
+
+**Definición Canónica:** del pensamiento en el grado de psicología generalmente será un ramo optativo o de
+especialización. Ello impide, por ejemplo, la existencia de gran variedad de manuales que permitan aprender sus contenidos de forma sencilla. Por otro lado, tampoco
+el jurista está relacionado con la dinámica de elaboración de contenidos y conclusiones a partir de estudios de campo que aplican el método científico.
 
 del pensamiento en el grado de psicología generalmente será un ramo optativo o de
 especialización. Ello impide, por ejemplo, la existencia de gran variedad de manuales que permitan aprender sus contenidos de forma sencilla. Por otro lado, tampoco
 el jurista está relacionado con la dinámica de elaboración de contenidos y conclusiones a partir de estudios de campo que aplican el método científico.
 
 ## 68 Por ejemplo, Nieva (2012: 35) considera: «las legislaciones de cualquier Estado
+
+**Definición Canónica:** señalan que sus tribunales son competentes para conocer de cualquiera de los delitos acaecidos [sic] el territorio nacional». También, Gimeno (2009: 81 y ss.); Montero, por su parte, se refiere a ella como garantía jurisdiccional de la aplicación del
+derecho penal (2010: 11 y ss.).
 
 señalan que sus tribunales son competentes para conocer de cualquiera de los delitos acaecidos [sic] el territorio nacional». También, Gimeno (2009: 81 y ss.); Montero, por su parte, se refiere a ella como garantía jurisdiccional de la aplicación del
 derecho penal (2010: 11 y ss.).
@@ -4879,14 +5045,14 @@ de la psicología del pensamiento
 
 Si bien directamente el tema pudiera parecer irrelevante para la investigación, considero que una breve noción acerca de estos enfoques permitirá al lector situarse mejor cuando analicemos posturas específicas
 
-
-## 69 En este sentido, Simon (1999: 5 y ss.) afirma que la confianza en la intuición o
-
-corazonada es más pertinente de lo que la mayoría de los jueces cree, pero su campo
-inexplorado es muy confuso como para influenciar el proceso de toma de decisión
-judicial de forma significativa.
-
 ## 70 Simón (1999: 18) considera que la naturaleza del razonamiento judicial está
+
+**Definición Canónica:** íntimamente relacionada con los procesos mentales operativos en la toma de decisión judicial. De esta forma, si se quiere entender los aspectos esenciales de la toma
+de decisión judicial deben estudiarse los procesos cognitivos a través de los cuales
+estos se toman.
+ 71 Nieva (2010: 113): «los autores que han estudiado la prueba, en general, han destacado la enorme importancia del enfoque psicológico en la valoración de la misma
+[…] no es solo que den noticia de la importancia de la psicología en la valoración de
+la prueba, sino que hasta dicen exactamente lo mismo que los psicólogos en el sen
 
 íntimamente relacionada con los procesos mentales operativos en la toma de decisión judicial. De esta forma, si se quiere entender los aspectos esenciales de la toma
 de decisión judicial deben estudiarse los procesos cognitivos a través de los cuales
@@ -4925,10 +5091,15 @@ aplicables— por producirse en un contexto institucionalizado.74 La mi-
 
 ## 73 El autor considera que el esquema inferencial de la toma de decisiones, en el
 
+**Definición Canónica:** modelo psicológico, está diseñado para enfrentar la tarea que llevan a cabo los jueces; realizar discriminaciones entre las opciones concurrentes de cursos de acción
+influenciados por una multitud de inferencias.
+
 modelo psicológico, está diseñado para enfrentar la tarea que llevan a cabo los jueces; realizar discriminaciones entre las opciones concurrentes de cursos de acción
 influenciados por una multitud de inferencias.
 
 ## 74 El autor considera que los modelos psicológicos sugieren que el proceso de
+
+**Definición Canónica:** racionalización es secundario dentro del proceso de toma de decisión. Los modelos
 
 racionalización es secundario dentro del proceso de toma de decisión. Los modelos
 
@@ -4960,6 +5131,12 @@ misma.
 
 ## 75 Como bien lo expresa Gabucio (2005: 42), la psicología del pensamiento se
 
+**Definición Canónica:** enfrenta con una dificultad adicional que es la proliferación de estudios sobre los
+distintos tópicos que hacen difícil poder trazar tendencias o marcos generales. Por
+ejemplo, el mismo autor hace suya la clasificación de Jonathan Baron entre modelos
+descriptivo, modelos prescriptivos y modelos normativos. Por mi parte, creo que es
+más ilustrativo para los juristas optar por del modelo de exposición de las corrientes
+
 enfrenta con una dificultad adicional que es la proliferación de estudios sobre los
 distintos tópicos que hacen difícil poder trazar tendencias o marcos generales. Por
 ejemplo, el mismo autor hace suya la clasificación de Jonathan Baron entre modelos
@@ -4971,6 +5148,11 @@ desde ya al lector a la literatura general disponible que citaré si desea
 una visión más completa y acabada desde la perspectiva de la psicología.
 
 ## 1. Modelos normativos, lógicos o sintácticos. Los modelos normativos
+
+**Definición Canónica:** o lógicos son aquellos que utilizan las reglas clásicas de la lógica formal
+para tomar decisiones e interactuar en el mundo. Estos modelos sostienen que el razonamiento está compuesto por reglas de inferencias que el
+sujeto utiliza para resolver los problemas y tomar decisiones.
+   Corral y Asensio (2010: 105) plantean:
 
 o lógicos son aquellos que utilizan las reglas clásicas de la lógica formal
 para tomar decisiones e interactuar en el mundo. Estos modelos sostienen que el razonamiento está compuesto por reglas de inferencias que el
@@ -5013,6 +5195,13 @@ solo tienen por objeto identificar razonamientos erróneos, por lo que su
 vocación descriptiva de la realidad es criticable.
 
 ## 2. Modelos contextuales. Dentro de estos modelos se encuentran los
+
+**Definición Canónica:** esquemas pragmáticos de razonamiento de Cheng y Holyoak. La elaboración de estos autores se sitúa dentro de las corrientes pragmáticas del
+razonamiento que, grosso modo, identifican un resultado correcto con el
+más útil de acuerdo la finalidad perseguida por el que resuelve el problema. La ventaja de esta forma de entendimiento de la resolución de
+problemas es que nos permite saber cuándo una respuesta o solución es
+correcta y cuando no. A diferencia de otros modelos, como los semánticos de los heurísticos y sesgo que, principalmente, señalan cuando una
+decisión no es correcta, sin embargo, no
 
 esquemas pragmáticos de razonamiento de Cheng y Holyoak. La elaboración de estos autores se sitúa dentro de las corrientes pragmáticas del
 razonamiento que, grosso modo, identifican un resultado correcto con el
@@ -5059,11 +5248,15 @@ que un proceso de razonamiento es correcto de acuerdo con el contexto
 que los objetivos propuestos, a diferencia de otros tipos de modelos o
 enfoques de la psicología del pensamiento.
 
-## 3. Modelos semánticos. Los modelos semánticos de la psicología del
-
-
-
 ## 78 Los autores expresan la hipótesis de su primera experimentación (envolved
+
+**Definición Canónica:** problem) de la siguiente manera: «A possible explanation for the conflicting results
+obtained with the envelope problem (discussed earlier) is that subjects who have
+had experience with the postal rules (or one that is highly similar to it) understand
+the rule in terms of a permission—one is permitted to seal an envelope only if it
+carries a certain amount of postage. In contrast, subjects who have not had any experience with such rules perceive it as being arbitrary. If people in fact reason using
+pragmatic reasoning schemas, then it may be possible to improve performance by
+evoking a facilit
 
 problem) de la siguiente manera: «A possible explanation for the conflicting results
 obtained with the envelope problem (discussed earlier) is that subjects who have
@@ -5099,12 +5292,14 @@ que han sido identificados (Nieva, 2010: 114). En efecto, aun manejando
 los 64 pares clásicos o tradicionales, algunos de ellos son de muy difícil
 aplicación (Johnson-Laird, 1987: 65).
 
-
-## 79 Los autores consideran que la deducción puede explicarse como un proceso
-
-semántico pasado modelos mentales y las inferencias correctas son posibles sin utilizar reglas de lógica formal.
-
 ## 80 Nieva (2010: 115) considera: «pues bien, esa representación contiene unos datos
+
+**Definición Canónica:** clave que hacen que la identifiquemos con ese objeto discutido, si también contiene
+esos datos claves. Esa representación es un “modelo mental” que proviene, normalmente, de la cultura general de cada sujeto, y que no sirve para reconocer aquello
+que percibimos. A la hora de identificar el objeto, lo que hacemos es buscar ese
+modelo mental. Bando lo hemos encontrado buscamos también modelos mentales
+alternativos. Si no nos hallamos, determinamos inmediatamente el objeto discutido.
+De lo contrario, el objeto se queda sin identificar».
 
 clave que hacen que la identifiquemos con ese objeto discutido, si también contiene
 esos datos claves. Esa representación es un “modelo mental” que proviene, normalmente, de la cultura general de cada sujeto, y que no sirve para reconocer aquello
@@ -5144,6 +5339,8 @@ mismos son esos conceptos clave de un modelo mental, es decir, de una determinad
 esos mismos datos clave, tenemos la versión por cierta». El paréntesis es mío.
 
 ## 83 Recordar lo que anotábamos respecto del comportamiento estratégico de los
+
+**Definición Canónica:** jueces. Véase Posner, 2011: 41.
 
 jueces. Véase Posner, 2011: 41.
 
@@ -5303,8 +5500,13 @@ traerá consigo un error en la valoración de la prueba.
    El heurístico de la representación puede tener importancia en la aplicación judicial de sesgos y estereotipos de género. Conforme a este, la
 estimación de lo que deba hacer una mujer como información impor-
 
-
 ## 84 En el mismo sentido, Nieva es categórico al respecto: «Pero todo lo dicho es
+
+**Definición Canónica:** aplicable directamente al ámbito de la valoración de la prueba. En esa tarea, un juez
+utiliza indudablemente su experiencia en casos similares. Por ello en todo aquello
+que no conoce el relato de los hechos que debe jugar, intentará adivinar qué es lo
+que ha sucedido recurriendo su experiencia. Y cuanto más adivine, menos probabilidades tendrá el relato de ser real, aunque el juez se quede con la sensación de haber
+construido una historia correcta porque me cuadra con su experiencia».
 
 aplicable directamente al ámbito de la valoración de la prueba. En esa tarea, un juez
 utiliza indudablemente su experiencia en casos similares. Por ello en todo aquello
@@ -5463,8 +5665,11 @@ perseverancia en la creencia y sesgo de confirmación, en virtud del cual
 una persona que ha emitido su opinión en base a su experiencia, aunque
 esta haya resultado desacreditada, sigue creando argumentos y justificaciones que tiendan a validar su opinión (Nieva, 2007: 81).
 
-
 ## 85 Sin embargo, estoy en conocimiento de lo que se afirma coloquialmente acerca
+
+**Definición Canónica:** de que la mayoría de los grandes descubrimientos científicos son auspiciados por
+situaciones azarosas más que por una férrea y pulcra planificación.
+ 86 Para una exposición más detallada sobre aspectos de psicología del pensamiento aplicada al proceso de decisión judicial véase Nieva, 2007: 61 y ss.
 
 de que la mayoría de los grandes descubrimientos científicos son auspiciados por
 situaciones azarosas más que por una férrea y pulcra planificación.
@@ -5493,17 +5698,10 @@ y sesgos. Los innumerables déficits sistémicos de los procedimientos judiciale
 otro punto de vista, esta situación será un incentivo para buscar que la
 solución esté de acuerdo con otros criterios que no necesariamente serán el de la búsqueda efectiva de la verdad de lo que ha ocurrido.
 
-## 4. El proceso de categorización cognitiva como elemento importante
-
-para esta etapa de valoración de la prueba. Desde el punto de vista cognitivo, el proceso de categorización se encuentra en el corazón mismo de
-
-
-## 87 Véase Garnham y Oakhill (1996: 289), donde se cita a la minimización de la
-
-carga cognitiva como uno de los déficits del pensamiento cotidiano según Perkins;
-Nieva, 2010: 127.
-
 ## 88 Es un principio metodológico y filosófico atribuido a Guillermo de Ockham
+
+**Definición Canónica:** en virtud del cual, en igualdad de condiciones, la explicación más sencilla suele ser
+la correcta.
 
 en virtud del cual, en igualdad de condiciones, la explicación más sencilla suele ser
 la correcta.
@@ -5562,8 +5760,15 @@ acto mental gobernado por una norma de verdad y una norma de justificación que,
 Además, entre otras cosas, está en la base de las afirmaciones del tipo
 «no sé» (Woodfield, 1991: 61). Es decir, es la esencia de la situación de la
 
-
 ## 90 La autora (2007: 728) expresa la diferencia entre estos tipos de prueba de la
+
+**Definición Canónica:** siguiente manera: «The defining characteristics of the second generation of forensic
+evidence stand in stark opposition to the first generation. These second generation
+sciences include methods related to DNA typing, data mining (such as cell site or
+RFID tracking), biometric scanning (such as iris or facial recognition), or fMRI imaging. First, second generation techniques are not offense-specific, but rather apply
+across a broad range of charges and case types. They can apply as well to the most
+trivial misdemeanor as to the most serious felony. Second, such techniques have a
+high recovery r
 
 siguiente manera: «The defining characteristics of the second generation of forensic
 evidence stand in stark opposition to the first generation. These second generation
@@ -5597,8 +5802,16 @@ de acciones, es decir, perteneciente a diferentes dominios ontológicos)
 cuyo conocimiento, a su vez, está almacenado en la memoria de largo
 plazo. Desde esta perspectiva, cuando se recupera o se hace operativo
 
-
 ## 91 Si bien es posible indicar que Nieva acoge un modelo multidimensional de la
+
+**Definición Canónica:** valoración de la prueba de carácter empírico, hace las siguientes apreciaciones respecto de la valoración de la prueba que dan realce a la racionalidad de la misma: «[la
+valoración libre de la prueba] se describe muy simplemente. Basta con decir que se
+trata del sistema que se genera espontáneamente, sin más reflexión y directrices, del
+uso cotidiano de la mente humana. Y por ello, como vimos, normas muy remotas
+lo daban por sentado sin prestarle una especial atención. Por consiguiente, como se
+explicará más adelante, se trata un sistema en el que no se intenta otra cosa que el
+juez utilice la
+**Concordancias Legales:** Constitucion
 
 valoración de la prueba de carácter empírico, hace las siguientes apreciaciones respecto de la valoración de la prueba que dan realce a la racionalidad de la misma: «[la
 valoración libre de la prueba] se describe muy simplemente. Basta con decir que se
@@ -5644,8 +5857,14 @@ se producen en la toma de decisión, dentro de los cuales se encuentra el
 heurístico de la accesibilidad, según vimos en el apartado anterior.
    La importancia del contexto en la flexibilidad de los conceptos se-
 
-
 ## 92 Paraita lo explica de esta forma: «hay que señalar que aquello que se activa, que
+
+**Definición Canónica:** se recupera y que, en último lugar, constituye el concepto, son conjuntos de rasgos
+o atributos. Sin embargo, siendo este —el rasgo o atributo— un concepto central en
+la arquitectura funcional cognitiva del modelo de Barsalou, el mismo nos pone en
+guardia respecto al hecho de entender dichos atributos a la manera clásica, es decir,
+en forma de listas de rasgos, y a este tema dedica algunos trabajos muy interesantes
+y minuciosos».
 
 se recupera y que, en último lugar, constituye el concepto, son conjuntos de rasgos
 o atributos. Sin embargo, siendo este —el rasgo o atributo— un concepto central en
@@ -5741,8 +5960,13 @@ frecuencia estadística con que la información proporcionada por el medio de pr
 por el valor de ocurrencia del hecho () sin contar con la información del
 medio de prueba que se analiza (prior probability).
 
-
 ## 95 En este sentido, el autor Taruffo (2009a: 196) considera sobre la repercusión e
+
+**Definición Canónica:** importancia de este teorema en materia de prueba lo siguiente: «a partir de aquí, no
+es necesario mucho más para pensar que se tiene al alcance de la mano la solución
+del problema fundamental, es decir, del problema de la determinación precisa del
+grado de probababilidad que puede ser asignado racionalmente a la hipótesis del
+hecho».
 
 importancia de este teorema en materia de prueba lo siguiente: «a partir de aquí, no
 es necesario mucho más para pensar que se tiene al alcance de la mano la solución
@@ -5805,8 +6029,16 @@ determinación de la frecuencia estadística de los medios de prueba. Es
 decir, la determinación del valor y en cuanto no se dispone de dicha información (Gascón, 2010: 167; Taruffo, 2009: 200) o en cuanto la obtención de la misma puede implicar valoraciones o toma de decisiones de
 carácter subjetivo,101 ya sea en el cálculo, como en la recogida de datos.
 
-
 ## 99 En este párrafo he utilizado la palabra verdadera solo para que se entienda de
+
+**Definición Canónica:** mejor forma la fórmula. Además, es el término usado por la autora que se ha citado
+para referenciar la explicación del teorema. Sin embargo, no debe olvidarse que es
+cuestionable estimar verdadera una circunstancia de hecho. A mi entender, solo es
+posible determinar el grado de posibilidades de concurrencia que, sin duda, es un
+cálculo que admite errores y sujeto en gran parte a una operación de valoración
+(juicio de valor).
+  100 En este sentido, Nieva (2010: 132) lo expresa de manera categórica: «el principal problema con el teorema de Bayes es que no tenemos ni la más remota idea de
+que Caí
 
 mejor forma la fórmula. Además, es el término usado por la autora que se ha citado
 para referenciar la explicación del teorema. Sin embargo, no debe olvidarse que es
@@ -5841,8 +6073,12 @@ podemos llegar a la conclusión de que una evidencia tiene un gran peso
 (keynesian weight) incriminador. Sin embargo, valorando el material
 probatorio en su conjunto, la conclusión puede ser contraria por la existencia de la prueba de una coartada.105 Es decir, el teorema de Bayes no
 
-
 ## 102 Taruffo (2009a: 279). El autor considera que la simplificación probatoria de
+
+**Definición Canónica:** los «hechos complejos» ha sido una de las principales dificultades de los métodos
+bayesianos. Agrega «esta situación ha creado problemas tan graves a la doctrina que
+emplea la versión bayesiana de la probabilidad matemática que ha sido, en realidad,
+una de sus principales razones de crisis».
 
 los «hechos complejos» ha sido una de las principales dificultades de los métodos
 bayesianos. Agrega «esta situación ha creado problemas tan graves a la doctrina que
@@ -5850,6 +6086,13 @@ emplea la versión bayesiana de la probabilidad matemática que ha sido, en real
 una de sus principales razones de crisis».
 
 ## 103 Por ejemplo, Tribe (1972:1376 considera: «One element, at least, of that ritual
+
+**Definición Canónica:** of conflict-settlement is the presence and functioning of the jury—a cumbersome
+and imperfect institution, to be sure, but an institution well calculated, at least potentially, to mediate between «the law» in the abstract and the human needs of those
+affected by it».
+  104 Gascón (2010: 175), por ejemplo, considera que las probabilidades matemáticas son incapaces de dar cuenta de los casos singulares.
+  105 En este sentido, Cohen (1986: 641) expresa: «but the quantity of evidence relevant to a certain argument is independent of the probability of the evidence given
+the conclusion. A great quan
 
 of conflict-settlement is the presence and functioning of the jury—a cumbersome
 and imperfect institution, to be sure, but an institution well calculated, at least potentially, to mediate between «the law» in the abstract and the human needs of those
@@ -5884,6 +6127,13 @@ weight». De la misma forma lo explica Aísa (1997: 290).
 
 ## 106 La verdad sea dicha, esta crítica más que objetar la aplicación del teorema
 
+**Definición Canónica:** de Bayes lo que hace es criticar la aplicación judicial de la probabilidad subjetiva
+Pascaliana.
+ 107 En este sentido, por ejemplo, Tawshunsky (1983: 63) reconoce que, aun cuando se introduzca en juicio un estudio válido, por medio de declaración de experto, este igualmente puede ser utilizado de forma inapropiada en juicio. Cita como
+ejemplo el caso Massey que desarrolla en su trabajo. Sin embargo, en la parte final
+de su análisis sugiere ciertas recomendaciones para que las mathematical evidences
+puedan ser valoradas correctamente en el juicio.
+
 de Bayes lo que hace es criticar la aplicación judicial de la probabilidad subjetiva
 Pascaliana.
  107 En este sentido, por ejemplo, Tawshunsky (1983: 63) reconoce que, aun cuando se introduzca en juicio un estudio válido, por medio de declaración de experto, este igualmente puede ser utilizado de forma inapropiada en juicio. Cita como
@@ -5892,6 +6142,11 @@ de su análisis sugiere ciertas recomendaciones para que las mathematical eviden
 puedan ser valoradas correctamente en el juicio.
 
 ## 108 Por ejemplo: ¿Debe introducirse un valor negativo en el valor prior probability
+
+**Definición Canónica:** assesment en caso de que se haya omitido la obtención de algún medio de prueba
+exculpatorio por negligencia, cuya recogida posterior sea imposible? Con ello me
+refiero a la recogida de muestra de material biológico, tanto en casos de delitos sexuales como en los delitos medio ambientales, por ejemplo. O la falta de recogida de
+datos beneficiosos para la defensa de registros informáticos (servidores) que almacenan la información de manera temporal, etcétera.
 
 assesment en caso de que se haya omitido la obtención de algún medio de prueba
 exculpatorio por negligencia, cuya recogida posterior sea imposible? Con ello me
@@ -5911,8 +6166,14 @@ errónea que el resultado del proceso es un fenómeno aleatorio113 y produce una
 altera el resultado obtenido con un aumento irreal de la probabilidad
 final (Tawshunsky, 1983: 71).
 
-
 ## 109 Taruffo (2009a: 197 y 198) señala que hasta ahora la posibilidad de que el
+
+**Definición Canónica:** teorema de Bayes pueda ser aplicado a todas las situaciones probatorias no ha sido
+probada, y es una asunción estilo acto de fe por parte de quienes sostienen la validez
+general de este método. También considera que el problema de la indeterminación
+de las prior probalities, equivale a decir que este teorema no es capaz de fundar una
+teoría general de la valoración de la prueba y tiene una aplicación muy marginal.
+  110 En este sentido, Gascón (2010: 168) considera que «el uso del teorema de Bayes como modelo normativo produce una sobrevaloración de la probabilidad inicial y una injustificada 
 
 teorema de Bayes pueda ser aplicado a todas las situaciones probatorias no ha sido
 probada, y es una asunción estilo acto de fe por parte de quienes sostienen la validez
@@ -5928,6 +6189,12 @@ de los juristas por las matemáticas.
 
 ## 112 En este sentido, Taruffo (2009a: 201) cita como ejemplo la determinación de
 
+**Definición Canónica:** la aceptabilidad de un testigo que declara haber visto un autobús azul. Señala que la
+información relativa al número de autobuses azules en el área es irrelevante para determinar la veracidad del testimonio del declarante. Si bien concuerdo con la premisa inicial, creo que la información sobre los autobuses azules en el área puede reducir o aumentar de manera indirecta la veracidad del testimonio, en cuanto a menor
+existencias de autobuses azules en el área, mayores posibilidades de que el testigo
+mienta sobre el color, y si esto es así, entonces, es una información que puede servir
+para desac
+
 la aceptabilidad de un testigo que declara haber visto un autobús azul. Señala que la
 información relativa al número de autobuses azules en el área es irrelevante para determinar la veracidad del testimonio del declarante. Si bien concuerdo con la premisa inicial, creo que la información sobre los autobuses azules en el área puede reducir o aumentar de manera indirecta la veracidad del testimonio, en cuanto a menor
 existencias de autobuses azules en el área, mayores posibilidades de que el testigo
@@ -5935,6 +6202,8 @@ mienta sobre el color, y si esto es así, entonces, es una información que pued
 para desacreditar el contenido de la declaración del testigo en el contradictorio.
 
 ## 113 Nieva (2010: 136) considera que el juicio jurisdiccional no es aleatorio, sino
+
+**Definición Canónica:** imprevisible.
 
 imprevisible.
 
@@ -5961,6 +6230,10 @@ los distintos casos que se conocen por la justicia. Si se considera el enfo-
 sino de peso de la evidencia.
 
 ## 115 En el mismo sentido, Taruffo (2009a; 205.): la aplicación de este teorema de
+
+**Definición Canónica:** Bayes sirve, también, para indicarnos cuándo el jurado, por ejemplo, cambia o puede cambiar sus probabilidades asignadas, pero no nos sirve para indicar cuál es la
+razón que justifica objetivamente ese cambio. Sobre esto último, véase Cohen (1986:
+648).
 
 Bayes sirve, también, para indicarnos cuándo el jurado, por ejemplo, cambia o puede cambiar sus probabilidades asignadas, pero no nos sirve para indicar cuál es la
 razón que justifica objetivamente ese cambio. Sobre esto último, véase Cohen (1986:
@@ -6057,8 +6330,9 @@ Materiales Docentes                                             Capítulo 3
 como contrapeso a la relegación cultural que ha sufrido culturalmente.
 Todo lo anterior sin descuidar en ningún momento la finalidad epistémica de la prueba y la búsqueda de la verdad como exigencia y condición de la justicia de la decisión.
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La decisión sobre los hechos
 
 La decisión sobre los hechos
 
@@ -6136,8 +6410,14 @@ el ordenamiento jurídico construye o aporta elementos para la configuración de
 e intenta asegurar la calidad epistémica del grado de confirmación de
 la hipótesis escogida o seleccionada como concurrente, de entre todas
 
-
 ## 2 Sus antecedentes más remotos pueden situarse en el derecho romano. En el
+
+**Definición Canónica:** Digesto se afirmaba que es preferible absolver a un culpable que condenar a un
+inocente. También que se debe optar por dejar impune el delito de un culpable que
+condenar a un inocente. La doctrina ha entendido que en las Partidas (Partida Tercera, Título XIV, Ley I) también se hace referencia a ello en el siguiente sentido: «E
+aún decimos que lo juzgadores todavía deben estar más inclinados e aparejados para
+quitar los hombre [sic] de pena que para condenarlos en los pleitos que claramente
+no pueden ser probados o que fueren dudosos». Véase Romero, 1985: 18.
 
 Digesto se afirmaba que es preferible absolver a un culpable que condenar a un
 inocente. También que se debe optar por dejar impune el delito de un culpable que
@@ -6173,19 +6453,19 @@ se realizan a través de relaciones lógicas estrictas.6 Se afirma que la de-
   3 Iacobello (1997: 26) considera: «Il processo ha una meta di verità, che persegue seguendo un sentiero impervio, costantemente fiancheggiato da un precipizio:
 l’errore».
 
-## 4 Stein (2005: 133) considera: «Allocation of the risk of error in fact-finding ought
-
-to be the principal objective of evidence law. As much as it matters how adjudicators
-decide cases, it matters how they allocate this risk». En el mismo sentido Taruffo
-(2009b: 35).
-
 ## 5 En este sentido Laudan (2006: 65) considera: «In the criminal context, when
+
+**Definición Canónica:** we set the bar of proof in a criminal trial higher than the preponderance of the evidence, we are saying that we intend to give the defendant the benefit of the doubt,
+because we think that falsely convicting the innocent is worse than falsely acquitting
+the guilty».
 
 we set the bar of proof in a criminal trial higher than the preponderance of the evidence, we are saying that we intend to give the defendant the benefit of the doubt,
 because we think that falsely convicting the innocent is worse than falsely acquitting
 the guilty».
 
 ## 6 En este sentido Cheng y Holyoak (1985: 395) afirman que: «a syntactically based
+
+**Definición Canónica:** reasoning system tells us which inferences are valid, it does not tell us which inferences are useful among the potentially many that are valid».
 
 reasoning system tells us which inferences are valid, it does not tell us which inferences are useful among the potentially many that are valid».
 
@@ -6216,8 +6496,10 @@ la mayoría de los autores reconocen que, respecto de este estándar de
 prueba, subsisten serios y graves problemas aplicativos (Laudan, 2013:
 61; Walton, 2014: 58). Clermont (2019: 1457) afirma, en un reciente estudio, que los académicos nunca han entendido correctamente los estándares de prueba y, de hecho, otro tanto ocurre en lo que refiere a la teoría
 
-
 ## 7 En este sentido, Maccormick (2007: 211). Sin embargo, debemos considerar que
+
+**Definición Canónica:** para este autor el derecho penal es constitutivo de una moral social por parte del
+Estado.
 
 para este autor el derecho penal es constitutivo de una moral social por parte del
 Estado.
@@ -6246,8 +6528,14 @@ los elementos del tipo penal? Si hay duda acerca del acaecimiento de
 una coartada o una hipótesis alternativa, ¿afecta ello a la satisfacción del
 estándar de la duda razonable en relación con la hipótesis inculpatoria?
 
-
 ## 8 Clermont agrega: «Their formulations beget probabilistic musing, which beget all
+
+**Definición Canónica:** sorts of paradoxes, which in turn beget radical reconceptions and proposals for reform».
+  9 Laudan (2005: 112) agrega: «básicamente el único mecanismo para la distribución de los errores que se requiere en un juicio es un estándar no-subjetivo de la
+prueba». Luego en 2003: (331): «The title of this essay posed a seemingly simple question: Is reasonable doubt reasonable? [...] The melancholy truth is that however one
+glosses the question, the answer is a simple: No. Short of some form of radical surgery,
+BARD’s day has come and gone».
+  10 En el mismo sentido para el ámbito del common law, Lau
 
 sorts of paradoxes, which in turn beget radical reconceptions and proposals for reform».
   9 Laudan (2005: 112) agrega: «básicamente el único mecanismo para la distribución de los errores que se requiere en un juicio es un estándar no-subjetivo de la
@@ -6318,8 +6606,11 @@ excluidas las meras hipótesis ad hoc (Ferrer, 2007: 147).12 A partir de
 aquí los diferentes autores representantes de este enfoque introducen
 ciertos matices, pero manteniendo la estructura inductiva-eliminativa
 
-
 ## 12 En el mismo sentido, Roberts y Zuckermann (2010: 258) sostienen que «the
+
+**Definición Canónica:** jury may convict only when all explanations of the evidence that are consistent with
+innocence have been dismissed as untenable».
+**Concordancias Legales:** artículo 340
 
 jury may convict only when all explanations of the evidence that are consistent with
 innocence have been dismissed as untenable».
@@ -6398,12 +6689,9 @@ contrapruebas todas las contrahipótesis planteadas y planteables (Gascón, 2010
 
    Por último, el mismo Cohen (1986: 649), en un estudio posterior, vin-
 
-
-## 14 Sentencia de la Corte de Apelaciones de Copiapó, 02 de febrero de 2022, rol
-
-461-2021, considerando décimo, las cursivas son nuestras.
-
 ## 15 Sentencia de la Corte de Apelaciones de Santiago, 28 de octubre de 2021, rol
+
+**Definición Canónica:** 3721-2021, considerando décimo.
 
 3721-2021, considerando décimo.
 
@@ -6434,11 +6722,12 @@ razonable, ha señalado que las dudas respecto de su satisfacción «con
 
  16 Sentencia de la Corte de Apelaciones de Copiapó, 2 de febrero de 2022, rol 4612021.
 
-## 17 Sentencia de la Corte de Apelaciones de San Miguel, 7 de febrero de 2021, rol
-
-2148-2021, considerando séptimo.
-
 ## 18 Laudan (2013: 61) va más allá con la crítica: sostiene que el estándar de la duda
+
+**Definición Canónica:** razonable es penosamente inadecuado, deliberadamente poco claro, totalmente
+subjetivo y abierto a un número de interpretaciones semejantes al número de jueces
+en funciones.
+**Concordancias Legales:** artículo 297 del Código Procesal Penal y conforme a lo estable; artículo 340 del Código Procesal Penal.21 La jurisprudenc
 
 razonable es penosamente inadecuado, deliberadamente poco claro, totalmente
 subjetivo y abierto a un número de interpretaciones semejantes al número de jueces
@@ -6476,18 +6765,10 @@ Santiago indica que se ha satisfecho el estándar de prueba
        ya que toda la argumentación explica en forma fehaciente, clara y con-
       cordante la conclusión de condena a la que arribaron, haciéndose car-
 
-
-## 19 Sentencia de la Corte de Apelaciones de San Miguel, 18 de enero de 2022, rol
-
-158-2021, considerandos sexto y séptimo.
-
-## 20 Sentencia de la Corte de Apelaciones de Copiapó, 17 de noviembre de 2021, rol
-
-358-2021, considerandos décimo y undécimo, las cursivas son nuestras.
- 21 Sentencia de la Corte de Apelaciones de San Miguel, 9 de noviembre de 2021,
-rol 2733-2021, considerandos séptimo y octavo.
-
 ## 22 Sentencia de la Corte de Apelaciones de Concepción, 30 de abril de 2021, rol
+
+**Definición Canónica:** 249-2021, considerandos quinto y sexto.
+**Concordancias Legales:** artículo 340 del Código Procesal Penal respecto de la lesi; artículo 340 del Código Procesal Penal; artículo 297 del Código Procesal Penal. Esta norma; Ley 20.000
 
 249-2021, considerandos quinto y sexto.
 
@@ -6813,8 +7094,11 @@ de la carga de la prueba:
 
    En principio, la temática de la carga de la prueba responde dos cues-
 
-
 ## 28 El autor agrega: «más que decir que el proceso de implementación de políticas
+
+**Definición Canónica:** intenta maximizar las posibilidades de descubrir la verdad, uno preferiría decir que
+intenta niveles óptimos de exactitud respecto a las pruebas sobre los hechos, dadas
+las diversas limitaciones impuestas a su operación».
 
 intenta maximizar las posibilidades de descubrir la verdad, uno preferiría decir que
 intenta niveles óptimos de exactitud respecto a las pruebas sobre los hechos, dadas
@@ -6833,6 +7117,14 @@ entre el demandante y demandado (Devis Echandía, 1970: 427). Por su
 
 ## parte, en su versión objetiva, se trata de una regla de juicio o general
 
+**Definición Canónica:** conforme a la cual, ante la falta la prueba de los hechos que fundamente
+el litigio, el juez o la jueza debe proferir sentencia de fondo desfavorable
+para quien tenía la carga de suministrarla, prohibiéndole de esta forma
+al juez o jueza el fallo inhibitorio (Devis Echandía, 1970: 428). Es decir,
+la versión objetiva presupone saber cuáles son los hechos que deben
+constar para conseguir la finalidad anhelada del proceso, y determinada
+las consecuencias ante la incertidumbre de esos mismos hechos (Rosenberg, 2019: 24).29
+
 conforme a la cual, ante la falta la prueba de los hechos que fundamente
 el litigio, el juez o la jueza debe proferir sentencia de fondo desfavorable
 para quien tenía la carga de suministrarla, prohibiéndole de esta forma
@@ -6842,6 +7134,13 @@ constar para conseguir la finalidad anhelada del proceso, y determinada
 las consecuencias ante la incertidumbre de esos mismos hechos (Rosenberg, 2019: 24).29
 
 ## Parte de la doctrina suele asociar el carga de la prueba en un sentido
+
+**Definición Canónica:** subjetivo con el principio dispositivo y de aportación de parte del proceso civil (Bonet, 2019: 305 y ss.). Sin embargo, la doctrina destaca su
+notoria falta de justificación (Devis Echandía, 1970: 435).
+   Las reglas de carga de la prueba son una proyección de un regla generalísima de fairness, a partir de la cual quien hace una afirmación en
+juicio debe estar listo y dispuesto a mostrar la veracidad de lo que afirma si es requerido para ello. Es decir, se aplica en ello el brocardo latino
+onus probandi incumbit ei qui dicit (Taruffo, 2010: 255) . Por ello a veces
+se pone en duda la utilidad 
 
 subjetivo con el principio dispositivo y de aportación de parte del proceso civil (Bonet, 2019: 305 y ss.). Sin embargo, la doctrina destaca su
 notoria falta de justificación (Devis Echandía, 1970: 435).
@@ -6916,8 +7215,11 @@ no normativo.
     La carga de la prueba es conceptualmente diferente de cualquier estándar de prueba (Larroucau, 2012: 789; Devis Echandía, 1970: 421). La
 carga de la prueba se aplica frente a escenarios de incertidumbre pro-
 
-
 ## 30 Agrega: «Basar una decisión en el peso de las reglas de las pruebas, es como
+
+**Definición Canónica:** decir a un litigante que ha perdido la competición porque no tuvo éxito en el manejo
+de sus pruebas».
+**Concordancias Legales:** artículo 1698 del Código Civil; artículo 217 de la Ley de Enjuiciamiento Civil
 
 decir a un litigante que ha perdido la competición porque no tuvo éxito en el manejo
 de sus pruebas».
@@ -6953,10 +7255,18 @@ ejemplo, el pago. Finalmente, los hechos excluyentes son aquellos que entregan a
    El artículo 217 de la Ley de Enjuiciamiento Civil, en sus apartados 2
 y 3 dispone:
 
-
 ## 2. Corresponde al actor y al demandado reconviniente la carga de pro-
 
-      bar la certeza de los hechos de los que ordinariamente se desprenda,
+**Definición Canónica:** bar la certeza de los hechos de los que ordinariamente se desprenda,
+      según las normas jurídicas a ellos aplicables, el efecto jurídico corres-
+      pondiente a las pretensiones de la demanda y de la reconvención. 3.
+      Incumbe al demandado y al actor reconvenido la carga de probar los
+      hechos que, conforme a las normas que les sean aplicables, impidan,
+      extingan o enerven la eficacia jurídica de los hechos a que se refiere el
+      apartado anterior.
+**Concordancias Legales:** artículo 1.698
+
+bar la certeza de los hechos de los que ordinariamente se desprenda,
       según las normas jurídicas a ellos aplicables, el efecto jurídico corres-
       pondiente a las pretensiones de la demanda y de la reconvención. 3.
       Incumbe al demandado y al actor reconvenido la carga de probar los
@@ -6980,6 +7290,9 @@ de probar los hechos que sirven de presupuesto a la norma que consagra el efecto
 jurídico perseguido por ella, cualquiera que sea su posición procesal. Es decir, esa
 
 ## parte soporta el riesgo de la falta de tal prueba, el cual se traduce en una decisión
+
+**Definición Canónica:** desfavorable».
+**Concordancias Legales:** artículo 217 de la Ley de Enjuiciamiento Civil
 
 desfavorable».
 
@@ -7080,8 +7393,15 @@ para los hechos, independiente de su origen36. De ello se deriva que solo
 se puede hablar de carga de la prueba en un sentido objetivo. En definitiva, las reglas de carga de la prueba operan en realidad como verdaderas normas de reenvío, pues los hechos que deben ser probados solo
 pueden determinarse con referencia a la norma sustantiva discutida.37
 
-
 ## 35 En un sentido similar Couture (2021: 198) señala: «La ley crea el litigante la
+
+**Definición Canónica:** situación embarazosa de no creer sus afirmaciones, en caso de no ser probadas. El
+litigante puede desprenderse de esa peligrosa suposición si demuestra la verdad de
+aquéllas».
+  36 En el mismo sentido Rosenberg, 2019: 21.
+  37 Según Rosenberg (2019: 78): «la carga de la prueba tiene un contenido material ya que el tema de la prueba solo se infiere de las características abstractas de las
+normas de derecho material».
+**Concordancias Legales:** artículo 1698 del Código Civil. Es decir; artículo 1698 del Código Civil; artículo 50; Ley 19.496
 
 situación embarazosa de no creer sus afirmaciones, en caso de no ser probadas. El
 litigante puede desprenderse de esa peligrosa suposición si demuestra la verdad de
@@ -7185,11 +7505,15 @@ trata de la satisfacción del estándar de la duda razonable.
       convicción en relación con la duda razonable, no fueron esclarecidos
       por la sentencia.38
 
-
 ## 38 Sentencia de la Corte de Apelaciones de Valdivia, 14 de diciembre de 2021, rol
 
+**Definición Canónica:** Así, es posible señalar que la hipótesis fáctica prevalente no solo debe
+ser la que se encuentre probada de acuerdo a un estándar, sino también
+—especialmente en los estándares de prueba más exigentes— cuando
+los antecedentes hayan logrado descartar la concurrencia de alguna hipótesis alternativa.
+   La Corte de Apelaciones de Santiago, al respecto, ha sostenido:
 
-   Así, es posible señalar que la hipótesis fáctica prevalente no solo debe
+Así, es posible señalar que la hipótesis fáctica prevalente no solo debe
 ser la que se encuentre probada de acuerdo a un estándar, sino también
 —especialmente en los estándares de prueba más exigentes— cuando
 los antecedentes hayan logrado descartar la concurrencia de alguna hipótesis alternativa.
@@ -7290,8 +7614,9 @@ del acusado.
 otras razones, porque la misma aplicación del estándar de la duda razonable presenta notorios problemas de indeterminación. Sin embargo,
 pese a todos los cuestionamientos, la jurisprudencia sigue haciendo uso
 
-
 ## 42 Sentencia de la Corte de Apelaciones de Santiago, 28 de diciembre de 2012, rol
+
+**Definición Canónica:** 3174-12.
 
 3174-12.
 
@@ -7314,6 +7639,16 @@ muerte a un hombre por la deposición de un solo testigo son funestas
 a la libertad. La razón pide que haya dos». Beccaria (2014: 65), por su
 
 ## parte, señala «siempre es necesario más de un testigo, porque en tanto
+
+**Definición Canónica:** que uno afirma y otro niega no hay nada cierto, y prevalece el derecho
+que cada cual tiene de ser creído inocente».
+   Si bien es cierto la regle testes unnus tienen su sentido y anclaje en el
+ámbito del sistema de prueba legal o tasada, lo cierto es que sigue teniendo una importancia en los sistemas de prueba libre, considerando
+los intereses en juego en caso de condena. De hecho, en el ámbito civil
+sigue teniendo una vigencia expresa, aun cuando el Código de Procedimiento Civil reconoce que el testimonio de un único testigo puede
+llegar a constituir base de una presunción judicial.
+   Alberg
+**Concordancias Legales:** artículo 342; artículo 297; Constitucion
 
 que uno afirma y otro niega no hay nada cierto, y prevalece el derecho
 que cada cual tiene de ser creído inocente».
@@ -7367,6 +7702,8 @@ se cita allí.
 
 ## 44 Sentencia de la Corte de Apelaciones de Santiago, 24 de febrero de 2020, rol
 
+**Definición Canónica:** 329-2020.
+
 329-2020.
 
    La Corte de Apelaciones de Santiago ha señalado:
@@ -7404,8 +7741,10 @@ probatorio. Ahora, cuando se habla de corroboración es necesario dilucidar cuá
       exigencia carente de razonabilidad pretender que las declaraciones de
       los testigos en un juicio criminal hayan de coincidir al punto que la na-
 
-
 ## 45 Sentencia de la Corte de Apelaciones de Santiago, 21 de diciembre de 2021, rol
+
+**Definición Canónica:** 4583-2021.
+**Concordancias Legales:** artículo 342; artículo 297; artículo 374 del Código Procesal Penal
 
 4583-2021.
 
@@ -7446,8 +7785,9 @@ criterio de la corroboración parece dar cuenta de la existencia de dos o
 más antecedentes probatorios, independientes, cuyo contenido apoyan
 el mismo enunciado o hipótesis fáctica.
 
-
 ## 46 Sentencia de la Corte de Apelaciones de Santiago, 14 de diciembre de 2021, rol
+
+**Definición Canónica:** 4258-2021, considerandos sexto y séptimo.
 
 4258-2021, considerandos sexto y séptimo.
 
@@ -7513,8 +7853,9 @@ apoya la tesis incriminatoria. Dicha generalización me parece débil y
 rayando en los estereotipos de clase, pues parece que en el sector no es
 posible que existan personas que teniendo capacidad económica decidan, por ejemplo, vivir de forma austera. En sentido contrario, en dicho
 
-
 ## 47 Sentencia del Tribunal de Juicio Oral en lo Pena de Concepción, 04 de mayo
+
+**Definición Canónica:** de 2011, RIT 6-2011.
 
 de 2011, RIT 6-2011.
 
@@ -7548,8 +7889,9 @@ inmigrantes, adultos mayores, personas pertenecientes a etnias indígenas, etcé
 de sentido común de «temor» hacia lo desconocido o, en el heurístico de
 la representación. En efecto, la aplicación de sesgos y estereotipos están
 
-
 ## 48 Sentencia de la Corte de Apelaciones de Santiago, 13 de agosto de 2021, rol
+
+**Definición Canónica:** 2648-2021, considerandos quinto a octavo.
 
 2648-2021, considerandos quinto a octavo.
 
@@ -7656,8 +7998,12 @@ a reproducir la versión social dominante en el escenario de un razonamiento ela
    En efecto, por ejemplo, Gilligan —una de las grandes feministas vinculadas al feminism jurisprudence— a partir del análisis que hace de los
 estudios de Freud que caracteriza el modo biológico-psicológico masculino de inexorable, no emocional, impersonal y objetivo, pudo constatar que dichas características coincidían con las expectativas cultura-
 
-
 ## 49 Hoop agrega: «existen abundantes y variados ejemplos en la jurisprudencia
+
+**Definición Canónica:** que evidencian la persistencia de estándares diferenciados al momento de juzgar
+a las mujeres y varones cuando se encuentran acusados de haber cometido un delito, basados en estereotipos que fundan expectativas de conducta al momento de
+enjuiciar a la mujer. Por ello es necesario incorporar la perspectiva de género a la
+interpretación de las leyes y los hechos para evitar decisiones injustas y discriminatorias».
 
 que evidencian la persistencia de estándares diferenciados al momento de juzgar
 a las mujeres y varones cuando se encuentran acusados de haber cometido un delito, basados en estereotipos que fundan expectativas de conducta al momento de
@@ -7665,6 +8011,10 @@ enjuiciar a la mujer. Por ello es necesario incorporar la perspectiva de género
 interpretación de las leyes y los hechos para evitar decisiones injustas y discriminatorias».
 
 ## 50 Larrauri (1994: 1) agrega: «cuando se afirma que el derecho, y en el caso que
+
+**Definición Canónica:** nos ocupa el derecho penal, se aplica de forma objetiva, se desconoce que esta forma
+objetiva responde a un razonamiento elaborado para el mundo masculino». Para
+mayores consideraciones al respecto, véase a Larrauri, 2008: 19 y ss.
 
 nos ocupa el derecho penal, se aplica de forma objetiva, se desconoce que esta forma
 objetiva responde a un razonamiento elaborado para el mundo masculino». Para
@@ -7804,6 +8154,15 @@ habrá una gran probabilidad de que sea una proyección de los efectos
 desiguales de sesgos y estereotipos de género asentados culturalmente.
 
 ## 1. Síndrome de la mujer maltratada y sus sesgos. En Estado Unidos
+
+**Definición Canónica:** diversos episodios en que mujeres mataron a sus maridos originaron la
+discusión acerca de qué eximente era la adecuada para dar cobertura.
+   Generalmente se recurrió a la legítima defensa en forma conjunta con
+la enajenación mental (insanity). Para fundamentar la defensa de enajenación mental se recurrió al síndrome de la mujer maltratada desarrollado por la doctora Walker a partir del año 1979 (Larrauri, 2008: 49;
+Walker, 2009: 1 y ss.).
+   En efecto, la doctora Walker se basa en lo que en psicología se conoce
+como «indefensión aprendida», en virtud de la cual las personas sometidas a proces
+**Concordancias Legales:** artículo 20.1 del Código Penal. Sin embargo; Ley 19.620
 
 diversos episodios en que mujeres mataron a sus maridos originaron la
 discusión acerca de qué eximente era la adecuada para dar cobertura.
@@ -7964,8 +8323,9 @@ Derechos Humanos, para desarrollar una propuesta de formulación de
 indicaciones al Proyecto de Ley que modifica la actual Ley 19.620, que
 dicta normas sobre adopción de menores, con el objeto de incorporar el
 
-
 ## 53 Sentencia del Tribunal de Juicio Oral en lo Penal de Arica, 11 de octubre de
+
+**Definición Canónica:** 2010, RIT 221-2009, RUC 0710014873-5.
 
 2010, RIT 221-2009, RUC 0710014873-5.
 
@@ -7983,8 +8343,16 @@ presencia de ellos siguen dificultando la tarea de la judicatura de acercarse a 
 
 Perspectiva de género, prueba y normatividad
 
-
 ## 1. Las fuentes de la obligación de fallar con perspectiva de género. Desde
+
+**Definición Canónica:** el punto de vista normativo positivo, la utilización de la perspectiva de
+género en el juzgamiento es una cuestión que puede tener una estrecha
+vinculación con la vigencia para Chile de la Convención para la Eliminación de Toda Forma de Discriminación en contra de la Mujer, aprobada por la Asamblea General de las Naciones Unidas el 18 de diciembre
+de 1979, suscrita por Chile en 1980 y promulgada por el Decreto número
+789 de 27 de octubre de 1989, publicada el día 09 de diciembre de 1989.
+De otro lado, también hay que destacar que el día 31 de mayo de 2021 fue
+publicado en el Diario Oficial el 
+**Concordancias Legales:** artículo 1; artículo 5; artículo 3; artículo 4; artículo 6; artículo 7 de la Convención de Belem do pará indica que; artículo 8; artículo 7; artículo 19; Constitución Política
 
 el punto de vista normativo positivo, la utilización de la perspectiva de
 género en el juzgamiento es una cuestión que puede tener una estrecha
@@ -8077,8 +8445,10 @@ número 2 de la Constitución Política de la República que prescribe «La
 igualdad ante la ley. En Chile no hay persona ni grupo privilegiados. En
 Chile no hay esclavos y el que pise su territorio queda libre. Hombres
 
-
 ## 55 Sentencia de la Corte Interamericana de Derechos Humanos, 16 de noviembre
+
+**Definición Canónica:** de 2009, Caso González y otras (Campo Algodonero) vs. México, Serie c. número 205.
+**Concordancias Legales:** artículo 24; artículo 26 del Pacto de Derechos Civiles y Políticos señala; artículo 12 del Código Procesal Penal; artículo 258 del Código Procesal Penal; artículo 309 del Código Procesal Penal reconoce jurídicamente; artículo 309 del Código Procesal Penal; artículo 53
 
 de 2009, Caso González y otras (Campo Algodonero) vs. México, Serie c. número 205.
 
@@ -8451,17 +8821,10 @@ del relato» es un indicador de veracidad de la declaración de menores
  59 Véase al respecto la explicación que ofrece Macurán (2011: 51), y toda la literatura técnica citada allí referida especialmente a la teoría de los dos factores del
 testimonio infantil.
 
-## 60 Sentencia de la Corte de Apelaciones de Concepción, 4 de octubre de 2010, rol
-
-441-2010.
-
-## 61 Sentencia del Tribunal de Juicio Oral en lo Penal de Concepción, 19 de agosto
-
-de 2012, RIT 329-2012.
- 62 Sentencia de la Corte de Apelaciones de Puerto Montt, 18 de febrero de 2019,
-rol 666-2018.
-
 ## 63 Sentencia del Tribunal de Juicio Oral en lo Penal 13 de marzo de 2011, RIT
+
+**Definición Canónica:** 14-2011; Sentencia de la Corte de Apelaciones de Santiago, 1 de marzo de 2019, rol
+511-2019.
 
 14-2011; Sentencia de la Corte de Apelaciones de Santiago, 1 de marzo de 2019, rol
 511-2019.
@@ -8527,13 +8890,9 @@ las propias y generales de la utilización de la prueba pericial en juicio
       la declaración debe ser corroborada, a lo menos, por un dato periférico
       o anexo de carácter objetivo que la reafirme.67
 
-
-## 65 Sentencia del Tribunal de Juicio Oral en lo Penal de Santiago, 13 de agosto de
-
-2010, RIT 93-2010.
-  66 Sentencia del Tribunal de Juicio Oral en lo Penal de Puerto Montt, 28 de septiembre de 2020, RIT 26-2020.
-
 ## 67 Sentencia de la Corte de Apelaciones de Santiago, 21 de diciembre de 2021, rol
+
+**Definición Canónica:** 4583-2021, considerando quinto.
 
 4583-2021, considerando quinto.
 
@@ -8562,8 +8921,11 @@ menor en Chile es la denominada Cavas-Inscrim (método Cavas),
 elaborada por el centro de asistencia a víctimas de atentados sexuales
 perteneciente a la unidad victimológica del Instituto de Criminología
 
-
 ## 68 Sobre la denominada trilogía Daubert y sus efectos respecto de los criterios de
+
+**Definición Canónica:** cientificidad de la prueba pericial, véase Vázquez, 2015: 103 y ss.
+ 69 Sobre los alcances de la noción «testigos vulnerables», véase Smith y Tiney,
+2007: 1 y ss.
 
 cientificidad de la prueba pericial, véase Vázquez, 2015: 103 y ss.
  69 Sobre los alcances de la noción «testigos vulnerables», véase Smith y Tiney,
@@ -8596,11 +8958,18 @@ incrementen o aseguren la confiabilidad de la prueba. Lo anterior viene
 a corroborar la estrecha relación entre ambas disciplinas porque —como
 señalan algunos autores— la historia de las rules of evidence está profundamente involucrada con la psicología (Saks y Spellman, 2016: 1).70
 
-
 ## 70 Una cuestión no menor que afecta a la relación entre el derecho probatorio y
 
+**Definición Canónica:** La doctrina especializada recomienda realizar una pericia de credibilidad del testimonio del menor (Rodríguez, 2011: 157; Macurán, 2011:
+136; Condemarín y Macurán, 2005: 47), aun cuando pueda cuestionarse
+la posible parcialidad de peritajes institucionales, la elección del objeto
+y metodología del peritaje, los efectos en la producción de sesgos derivados de la experiencia del perito, etcétera. Como se ve, la utilización
+de la prueba pericial para valorar la credibilidad de un testigo-víctima
+es una cuestión con múltiples complejidades, más allá de las propias y
+generales de la utilización de 
+**Concordancias Legales:** artículo 340 del Código Procesal Penal. Pues bien
 
-   La doctrina especializada recomienda realizar una pericia de credibilidad del testimonio del menor (Rodríguez, 2011: 157; Macurán, 2011:
+La doctrina especializada recomienda realizar una pericia de credibilidad del testimonio del menor (Rodríguez, 2011: 157; Macurán, 2011:
 136; Condemarín y Macurán, 2005: 47), aun cuando pueda cuestionarse
 la posible parcialidad de peritajes institucionales, la elección del objeto
 y metodología del peritaje, los efectos en la producción de sesgos derivados de la experiencia del perito, etcétera. Como se ve, la utilización
@@ -8731,8 +9100,9 @@ Offences Act contiene reglas referidas a presunciones concluyentes de
 no consentimiento en los casos de que la víctima haya ejecutado un acto
 relevante bajo engaño o inducida acerca de la identidad del autor ante lo
 
-
 ## 74 Sentencia de la Corte de Apelaciones de San Miguel, 19 de julio de 2021, rol
+
+**Definición Canónica:** 1723-2021, considerando décimosexto.
 
 1723-2021, considerando décimosexto.
 
@@ -8799,8 +9169,10 @@ entendimiento de la corroboración —quizás— fomentado por una visión mascu
 normativamente, si ella satisface atributos de credibilidad basados en
 criterios epistémicos, no existe impedimento normativo ni epistémico
 
-
 ## 75 Sentencia de la Corte de Apelaciones de Antofagasta, 15 de febrero de 2022, rol
+
+**Definición Canónica:** 25-2022, considerando cuarto.
+**Concordancias Legales:** artículo 342; artículo 297 del Código Procesal Penal; artículo 374
 
 25-2022, considerando cuarto.
 
@@ -8983,8 +9355,10 @@ de estos casos de escasez probatoria. Pero claro, es un concepto complejo que am
       que hace descartar que con esa situación se pudiere configurar la causal
       de nulidad en cuestión.77
 
-
 ## 77 Sentencia de la Corte de Apelaciones de Santiago, 11 de febrero de 2022, rol
+
+**Definición Canónica:** 5238-2021, considerando octavo. Las cursivas son nuestras.
+**Concordancias Legales:** constitucion
 
 5238-2021, considerando octavo. Las cursivas son nuestras.
 

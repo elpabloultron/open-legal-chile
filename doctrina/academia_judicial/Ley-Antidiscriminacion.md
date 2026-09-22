@@ -13,19 +13,11 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Ley
 
-                     Ley
+Ley
 
                                         Jessica
                                               Arenas
@@ -78,13 +70,27 @@ extraccion: pdftotext
                         Corporación de Asistencia Judicial de
                         Valparaíso (Cajval).
 
-
-## Isbn n°
-
-
 ## 2022-a-1840
 
-          Gabriel
+**Definición Canónica:** Gabriel
+               Carrillo
+               Rozas
+          Abogado, Magíster en Derecho Penal
+          y Proceso Penal, por la Universidad
+Autores
+          Mayor, Magíster en Derecho, Mención
+          Derecho Público, por la Universidad
+          Autónoma     de   Chile.   Es   además
+          Diplomado en Derecho Penal Especial,
+          por la Universidad Mayor, Diplomado
+          en Derecho y Postítulo en Derecho de
+          la Universidad Autónoma de Chile.
+          Actual doctorando    en    Derecho   en
+          la Universidad Nacional de Rosario,
+          Argentina.   Se  
+**Concordancias Legales:** Ley N° 20.609; Constitución Política
+
+Gabriel
                Carrillo
                Rozas
           Abogado, Magíster en Derecho Penal
@@ -138,19 +144,12 @@ Autores
 
                                         Introducción                                                                                                10
 
-
-## 1. La igualdad y no discriminación en el Derecho Internacional de los Derechos Humanos                      12
-
-
-
-## 1.1 Nociones generales acerca de la igualdad y no discriminación                                         13
-
-
-
 ## 1.2 Igualdad y no discriminación en los instrumentos internacionales de derechos humanos                 15
 
+**Definición Canónica:** 1.2.1 Igualdad y no discriminación en los instrumentos internacionales de derechos humanos:
+                                                       desde los orígenes al Pacto Internacional de Derechos Civiles y Políticos (PIDCP)            16
 
-                                                 1.2.1 Igualdad y no discriminación en los instrumentos internacionales de derechos humanos:
+1.2.1 Igualdad y no discriminación en los instrumentos internacionales de derechos humanos:
                                                        desde los orígenes al Pacto Internacional de Derechos Civiles y Políticos (PIDCP)            16
 
                                                  1.2.2 Igualdad y no discriminación en los instrumentos internacionales de derechos humanos:
@@ -163,217 +162,28 @@ Autores
                                                  1.2.4 Igualdad y no discriminación en los instrumentos internacionales de derechos humanos:
                                                        los instrumentos posteriores a la Observación General Nº 18 del Comité de Derechos Humanos   26
 
-
-## 1.3 Criterios prohibidos de discriminación y categorías sospechosas                                      30
-
-
-
-## 1.4 Análisis en particular de los criterios prohibidos de discriminación                                 34
-
-
-
-## 1.4.1 Raza y color                                                                                 34
-
-
-
-## 1.4.2 Origen nacional                                                                              34
-
-
-
-## 1.4.3 Origen social, posición económica y nacimiento                                               35
-
-
-
-## 1.4.4 Sexo                                                                                         36
-
-
-
-## 1.4.5 Idioma                                                                                       39
-
-
-
-## 1.4.6 Religión                                                                                     41
-
-
-
-## 1.4.7 Opiniones políticas o de cualquier índole                                                    42
-
-
-
-## 1.4.8 Cualquier otra condición social                                                              43
-
-
-
-## 1.2 Medidas especiales de protección                                                                     49
-
-
-
-## 2. La igualdad y no discriminación en el orden judicial y constitucional chileno                            58
-
-
-
-## 2.1 Nociones generales acerca de la igualdad en el ordenamiento jurídico constitucional chileno          59
-
-
-
-## 2.2 El principio constitucional de igualdad                                                              61
-
-
-
-## 2.2.1 Aproximación a la noción de igualdad                                                         61
-
-
-
-## 2.2.2   La igualdad en la ley y ante la ley                                                        62
-
-Ley                                                                                                                                                    6
-
-
-## 2.3 Diferencias arbitrarias                                                                           65
-
-
-                                                 2.3.1 ¿Cuándo una diferencia es arbitraria?                                                     65
-
-
-## 2.3.2 Acciones afirmativas en el ordenamiento jurídico chileno                                  67
-
-
-
-## 2.4 Ley N° 20.609 que establece medidas contra la discriminación                                      70
-
-
-
-## 2.4.1 Propósito y fines de la ley                                                               70
-
-
-
-## 2.4.2 Definición de discriminación arbitraria (artículo 2º Ley Nº 20.609)                        71
-
-
-
-## 2.4.3 Categorías sospechosas                                                                    73
-
-
-
-## 2.4.4 Análisis de los criterios prohibidos de diferenciación o categorías sospechosas comunes
-
-                                                       al concepto de discriminación y la agravante penal                                        75
-
-
-## 2.4.5 Análisis de los criterios prohibidos de diferenciación o categorías sospechosas propias
-
-                                                       del concepto de discriminación                                                            84
-
-
-## 2.4.   Agravante de cometer un delito con una motivación discriminatoria                        87
-
-
-
 ## 3. Aplicación práctica de la Ley Nº 20.609                                                               95
 
-
-                                           3.1 Una mirada integral de la discriminación: estereotipos, prejuicios y sesgos cognitivos.
+**Definición Canónica:** 3.1 Una mirada integral de la discriminación: estereotipos, prejuicios y sesgos cognitivos.
                                                 El necesario diálogo interdisciplinar.                                                           96
 
-
-## 3.1.1 Necesidad de una mirada interdisciplinaria                                                96
-
-
-
-## 3.1.2 La discriminación desde el enfoque de tres componentes de la psicología social            97
-
-
-
-## 3.1.3 Algunos procesos psicológicos que intervienen en la toma de decisiones                    106
-
-
-
-## 3.2 Procedimiento regulado en la Ley N° 20.609                                                        113
-
-
-
-## 3.2.1 Aspectos procesales relevantes                                                            113
-
-
-
-## 3.3 Estadísticas generales de la ley                                                                  128
-
-
-
-## 3.3.1 Ingresos                                                                                  128
-
-
-
-## 3.3.2 Término                                                                                   129
-
-
-
-## 3.3.3 Los demandantes                                                                           130
-
-
-
-## 3.3.4 Causal invocada en la demanda                                                             131
-
-
-
-## 3.3.5 Multas                                                                                    132
-
-
-
-## 3.4 Críticas a la Ley N° 20.609 y propuestas para su reforma                                          133
-
-
-
-## 4. Estrategias y políticas implementadas por el Poder Judicial frente a la discriminación                137
-
-
-
-## 4.1 Rol del Poder Judicial en la concreción del principio de igualdad y no discriminación             138
-
-
-
-## 4.1.1 El acceso a la justicia                                                                   138
-
-
-
-## 4.2 La igualdad de género y no discriminación en el Poder Judicial                                    153
-
-
+3.1 Una mirada integral de la discriminación: estereotipos, prejuicios y sesgos cognitivos.
+                                                El necesario diálogo interdisciplinar.                                                           96
 
 ## 4.2.1 Designación de Ministra de la Excma. Corte Suprema encargada de los asuntos de género
 
-                                                       y la instauración de la Mesa de Género                                                    153
+**Definición Canónica:** y la instauración de la Mesa de Género                                                    153
 Ley                                                                                                                                                            7
 
-
-## 4.2.2 Resultados del Estudio Diagnóstico de la perspectiva de Igualdad de Género en el
-
-                                                         Poder Judicial Chileno del año 2016                                                             155
-
-
-## 4.2.3 Secretaría Técnica de igualdad de género y no discriminación                                    161
-
-
-
-## 4.2.4 Política de igualdad de género y no discriminación del Poder Judicial                           163
-
-
-
-## 4.2.5 Institucionalidad vigente y Creación del Consejo Consultivo Asesor                              167
-
-
-
-## 4.2.6 Procedimiento de actuación para la prevención, denuncia y tratamiento del acoso sexual          169
-
-
-
-## 4.2.7 Protocolo de actuación para la atención en justicia con enfoque de género y diversidad sexual   172
-
-
+y la instauración de la Mesa de Género                                                    153
+Ley                                                                                                                                                            7
 
 ## 4.2.8 Condicionantes de género en la movilidad y ascensos a los cargos de mayor jerarquía
 
-                                                         en el Poder Judicial                                                                            180
+**Definición Canónica:** en el Poder Judicial                                                                            180
+**Concordancias Legales:** Ley N° 20.609; Constitucion
+
+en el Poder Judicial                                                                            180
 
                                         Glosario                                                                                                         186
 
@@ -561,10 +371,11 @@ Autores
 Ley                                                                                         1. La igualdad y no discriminación en el Derecho                   13
 Antidiscriminación                                                                             Internacional de los Derechos Humanos
 
-
 ## 1.1              Nociones generales acerca de la
 
-                                                                                              igualdad y no discriminación
+**Definición Canónica:** igualdad y no discriminación
+
+igualdad y no discriminación
 
                                                                                               La igualdad y no discriminación nos centra en la intrínseca y común
                                                       La igualdad y no       naturaleza y dignidad de los seres humanos, la que es incompatiblecon
@@ -611,10 +422,11 @@ Antidiscriminación                                                             
 Ley                                                                  1. La igualdad y no discriminación en el Derecho                   15
 Antidiscriminación                                                      Internacional de los Derechos Humanos
 
-
 ## 1.2     Igualdad y no discriminación en los instrumentos
 
-                                                                       internacionales de derechos humanos
+**Definición Canónica:** internacionales de derechos humanos
+
+internacionales de derechos humanos
 
                                                                        El siguiente esquema representa en una línea histórica los instru-
                                                                        mentos internacionales más relevantes en esta materia:
@@ -637,10 +449,17 @@ Antidiscriminación                                                      Interna
 Ley                                                            1. La igualdad y no discriminación en el Derecho                     16
 Antidiscriminación                                                Internacional de los Derechos Humanos
 
-
 ## 1.2.1 Igualdad y no discriminación en los
 
-                                                                 instrumentos internacionales de derechos
+**Definición Canónica:** instrumentos internacionales de derechos
+                                                                 humanos: desde los orígenes al Pacto Internacional
+                                                                 de Derechos Civiles y Políticos (PIDCP)
+                                                                 El desarrollo del Derecho Internacional de los derechos humanos
+                                                                 comienza en 1945 con la creación de las Naciones Unidas mediante
+                                                                 la Carta de Na
+**Concordancias Legales:** artículo 2; artículos 1; artículo 7 de la DUDH
+
+instrumentos internacionales de derechos
                                                                  humanos: desde los orígenes al Pacto Internacional
                                                                  de Derechos Civiles y Políticos (PIDCP)
                                                                  El desarrollo del Derecho Internacional de los derechos humanos
@@ -745,7 +564,10 @@ Antidiscriminación                                                Internacional
 
 ## parte, la conducta omite los verbos restricción o limitación, así como
 
-                                                                 tampoco alude al propósito o intención discriminatoria y se centra
+**Definición Canónica:** tampoco alude al propósito o intención discriminatoria y se centra
+                                                                 en los efectos o consecuencias de la discriminación.
+
+tampoco alude al propósito o intención discriminatoria y se centra
                                                                  en los efectos o consecuencias de la discriminación.
 
                                                                  El segundo instrumento internacional que definió la discriminación
@@ -793,10 +615,17 @@ Antidiscriminación                                                Internacional
                                                                  configurar la conducta discriminatoria la existencia de un resultado,
                                                                  bastando la intención o propósito discriminatorio.
 
-
 ## 1.2.2 Igualdad y no discriminación en los instrumentos
 
-                                                                 internacionales de derechos humanos: desde el
+**Definición Canónica:** internacionales de derechos humanos: desde el
+                                                                 Pacto Internacional de Derechos Civiles y Políticos
+                                                                 (PIDCP) hasta la primera definición general de
+                                                                 discriminación del Comité de Derechos Humanos
+                                                                 A fines de 1966, luego de varios años de discusión interferidos por la
+                                                                 crudeza de la
+**Concordancias Legales:** artículo 2; artículo 1; artículo 26 del Pacto distingue; artículo 7 de la DUDH la igualdad ante la ley de la igual prot; artículo 26; artículo 2.2; artículos 1; artículo 1.1; artículo 24
+
+internacionales de derechos humanos: desde el
                                                                  Pacto Internacional de Derechos Civiles y Políticos
                                                                  (PIDCP) hasta la primera definición general de
                                                                  discriminación del Comité de Derechos Humanos
@@ -934,7 +763,12 @@ Antidiscriminación                                                             
 
 ## 12       Suscrita en la Conferencia Especializada Interamericana sobre Derechos Humanos de 22 de noviembre de
 
-                                                               1969.
+**Definición Canónica:** 1969.
+                                                      13       Corte IDH. Caso Apitz Barbera y otros; y Corte Primera de lo Contencioso Administrativo” vs. Venezuela.
+                                                               Sentencia de 5 de agosto de 2008, párr. 209.
+                                                      14       Adoptada por la Asamblea General en su resolución 34/180, 18 de diciembre de 1979.
+
+1969.
                                                       13       Corte IDH. Caso Apitz Barbera y otros; y Corte Primera de lo Contencioso Administrativo” vs. Venezuela.
                                                                Sentencia de 5 de agosto de 2008, párr. 209.
                                                       14       Adoptada por la Asamblea General en su resolución 34/180, 18 de diciembre de 1979.
@@ -959,10 +793,17 @@ Antidiscriminación                                                Internacional
                                                                  jurídica de la mujer y por tanto incidía directamente en el ejercicio
                                                                  autónomo de sus derechos.
 
-
 ## 1.2.3 Igualdad y no discriminación en los instrumentos
 
-                                                                 internacionales de derechos humanos: la definición
+**Definición Canónica:** internacionales de derechos humanos: la definición
+                                                                 de discriminación del Comité de Derechos Humanos
+                                                                 El Comité de Derechos Humanos de Naciones Unidas fue creado
+                                                                 por el artículo 28 del PIDCP, y su ámbito de acción se limita a la
+                                                                 vigilancia de los Estados Parte del Pacto en lo que concierne a las
+                                             
+**Concordancias Legales:** artículo 28 del PIDCP; constitucion
+
+internacionales de derechos humanos: la definición
                                                                  de discriminación del Comité de Derechos Humanos
                                                                  El Comité de Derechos Humanos de Naciones Unidas fue creado
                                                                  por el artículo 28 del PIDCP, y su ámbito de acción se limita a la
@@ -1068,10 +909,12 @@ Antidiscriminación                                                             
 
                                                                                                   Test de igualdad y proporcionalidad
 
-
 ## 1.2.4 Igualdad y no discriminación en los
 
-                                                                                              instrumentos internacionales de derechos humanos:
+**Definición Canónica:** instrumentos internacionales de derechos humanos:
+**Concordancias Legales:** artículo 2; artículo 3; artículo 1.1
+
+instrumentos internacionales de derechos humanos:
 
                                                                                               los instrumentos posteriores a la Observación
                                                                                               General Nº 18 del Comité de Derechos Humanos
@@ -1231,10 +1074,12 @@ Antidiscriminación                                                             
 Ley                                                                                        1. La igualdad y no discriminación en el Derecho                          30
 Antidiscriminación                                                                            Internacional de los Derechos Humanos
 
-
 ## 1.3              Criterios prohibidos de discriminación
 
-                                                                                             y categorías sospechosas
+**Definición Canónica:** y categorías sospechosas
+**Concordancias Legales:** artículo 1.1 de la Convención; constitucion
+
+y categorías sospechosas
 
                                                                                              La conducta discriminatoria requiere para su configuración una di-
                                                                                              ferencia de trato basada en algunos de los criterios de diferenciación
@@ -1370,20 +1215,23 @@ Antidiscriminación                                                             
 Ley                                                                  1. La igualdad y no discriminación en el Derecho                          34
 Antidiscriminación                                                      Internacional de los Derechos Humanos
 
-
 ## 1.4     Análisis en particular de los criterios
 
-                                                                       prohibidos de discriminación
+**Definición Canónica:** prohibidos de discriminación
+
+prohibidos de discriminación
 
                                                                        Los instrumentos que hemos analizado se limitan a enunciar sin
                                                                        definir los criterios de diferenciación prohibidos, siendo su contenido
                                                                        determinado jurisprudencialmente. A continuación, analizaremos el
                                                                        desarrollo de estos criterios en la jurisprudencia internacional.
 
-
 ## 1.4.1 Raza y color
 
-                                                                       A la época de redacción del Pacto, el apartheid en Sudáfrica y la
+**Definición Canónica:** A la época de redacción del Pacto, el apartheid en Sudáfrica y la
+                                                                       segregación racial en Estados Unidos eran conflictos que centraban
+
+A la época de redacción del Pacto, el apartheid en Sudáfrica y la
                                                                        segregación racial en Estados Unidos eran conflictos que centraban
 
                                                                        la atención internacional, razón por la cual no es de extrañar que la
@@ -1403,10 +1251,16 @@ Antidiscriminación                                                      Interna
                                                                        la raza, nunca ha sido invocado separado de esta y por tanto tampoco
                                                                        existen sentencias acogiendo discriminación basada en esta categoría.
 
-
 ## 1.4.2 Origen nacional
 
-                                                                       La CERD establece que la discriminación por origen nacional es una
+**Definición Canónica:** La CERD establece que la discriminación por origen nacional es una
+                                                                       forma de discriminación, y se encuentra íntimamente relacionada con
+                                                                       la raza, el color y el origen étnico. Por el contrario, el origen nacional
+                                                                       no se identifica con la nacionalidad, ya que el reconocimiento de esta
+                                                                       no corresponde necesariamente al lu
+**Concordancias Legales:** artículo 26
+
+La CERD establece que la discriminación por origen nacional es una
                                                                        forma de discriminación, y se encuentra íntimamente relacionada con
                                                                        la raza, el color y el origen étnico. Por el contrario, el origen nacional
                                                                        no se identifica con la nacionalidad, ya que el reconocimiento de esta
@@ -1447,10 +1301,14 @@ Antidiscriminación                                                             
                                                                                              que los derechos asociados a la seguridad social no se encuentran
                                                                                              comprendidos dentro del Pacto.38
 
-
 ## 1.4.3 Origen social, posición económica y nacimiento
 
-                                                                                             Respecto al origen social, si bien no hay jurisprudencia del Comité
+**Definición Canónica:** Respecto al origen social, si bien no hay jurisprudencia del Comité
+                                                                                             sobre esta categoría, algunos autores lo identifican con lo que co-
+                                                                                             múnmente se conoce como “clase”, es decir, diferenciaciones de trato
+**Concordancias Legales:** artículo 26; artículo 2 del Pacto
+
+Respecto al origen social, si bien no hay jurisprudencia del Comité
                                                                                              sobre esta categoría, algunos autores lo identifican con lo que co-
                                                                                              múnmente se conoce como “clase”, es decir, diferenciaciones de trato
 
@@ -1479,10 +1337,16 @@ Antidiscriminación                                                             
                                                                                            del Pacto, porque este solo se refiere a los derechos contenidos en el
                                                                                            mismo instrumento.
 
-
 ## 1.4.4 Sexo
 
-                                                                                           A la época de redacción del Pacto, este era uno de los criterios pro-
+**Definición Canónica:** A la época de redacción del Pacto, este era uno de los criterios pro-
+                                                                                           hibidos de discriminación que se podían delimitar más fácilmente,
+                                                                                           sin embargo, el escenario se hizo más complejo en la medida que
+                                                                                           se visibilizó la intersexualidad, la orientación sexual, el concepto de
+                                                       
+**Concordancias Legales:** artículo 26 del PIDCP; artículo 26
+
+A la época de redacción del Pacto, este era uno de los criterios pro-
                                                                                            hibidos de discriminación que se podían delimitar más fácilmente,
                                                                                            sin embargo, el escenario se hizo más complejo en la medida que
                                                                                            se visibilizó la intersexualidad, la orientación sexual, el concepto de
@@ -1590,10 +1454,16 @@ Antidiscriminación                                                             
                                                                                                trompas haya obedecido al origen nacional, condición de refugiadao
                                                                                                posición socio-económica.43
 
-
 ## 1.4.5 Idioma
 
-                                                                                               Este criterio alude a las diferencias de trato basadas en el idioma
+**Definición Canónica:** Este criterio alude a las diferencias de trato basadas en el idioma
+                                                                                               que hablan las personas, lo que es una manifestación de la libertad
+                                                                                               de expresión y que suele estar relacionado con la raza, color, origen
+                                                                                               nacional y, eventualmente, la religión. Así, en el caso Guedson vs.
+                                         
+**Concordancias Legales:** artículo 26 del Pacto; constitucion
+
+Este criterio alude a las diferencias de trato basadas en el idioma
                                                                                                que hablan las personas, lo que es una manifestación de la libertad
                                                                                                de expresión y que suele estar relacionado con la raza, color, origen
                                                                                                nacional y, eventualmente, la religión. Así, en el caso Guedson vs.
@@ -1646,7 +1516,13 @@ Antidiscriminación                                                             
 
 ## parte, el Sr. Nisuke Ando señala que hacer diferencias entre el idioma
 
-                                                                                              oficial de un país y otros idiomas era objetivo y razonable.47 Los Sres.
+**Definición Canónica:** oficial de un país y otros idiomas era objetivo y razonable.47 Los Sres.
+                                                                                              Bhagwati, Colville y Yalden afirmaron que la exclusividad del inglés
+                                                                                              en la administración pública afectaba a todos aquellos que hablaban
+                                                                                              una lengua distinta y no solo a los afrikáans, y la referencia a ellos en
+                                  
+
+oficial de un país y otros idiomas era objetivo y razonable.47 Los Sres.
                                                                                               Bhagwati, Colville y Yalden afirmaron que la exclusividad del inglés
                                                                                               en la administración pública afectaba a todos aquellos que hablaban
                                                                                               una lengua distinta y no solo a los afrikáans, y la referencia a ellos en
@@ -1672,10 +1548,15 @@ Antidiscriminación                                                             
 Ley                                                                                       1. La igualdad y no discriminación en el Derecho                        41
 Antidiscriminación                                                                           Internacional de los Derechos Humanos
 
-
 ## 1.4.6 Religión
 
-                                                                                            Este término designa las creencias de las personas sean o no parte
+**Definición Canónica:** Este término designa las creencias de las personas sean o no parte
+                                                                                            de religiones organizadas o históricamente reconocidas, constituye
+                                                                                            además una categoría sospechosa, con lo que la carga de la prueba
+                                                                                            es mucho mayor en el evento que se quiera justificar una diferencia
+                                                        
+
+Este término designa las creencias de las personas sean o no parte
                                                                                             de religiones organizadas o históricamente reconocidas, constituye
                                                                                             además una categoría sospechosa, con lo que la carga de la prueba
                                                                                             es mucho mayor en el evento que se quiera justificar una diferencia
@@ -1723,10 +1604,15 @@ Antidiscriminación                                                             
                                                                                             sentido que no era razonable conceder la exención solo a un grupo
                                                                                             de objetores de conciencia.
 
-
 ## 1.4.7 Opiniones políticas o de cualquier índole
 
-                                                                                            Este tipo de discriminación se encuentra relacionada con la libertad
+**Definición Canónica:** Este tipo de discriminación se encuentra relacionada con la libertad
+                                                                                            de expresión y de culto. La mayoría de las comunicaciones se refieren
+                                                                                            a opositores a regímenes dictatoriales y los objetores de conciencia,
+                                                                                            quienes se amparan en la expresión opinión de cualquier índole.
+**Concordancias Legales:** artículo 26; artículo 26 del Pacto; constitucion
+
+Este tipo de discriminación se encuentra relacionada con la libertad
                                                                                             de expresión y de culto. La mayoría de las comunicaciones se refieren
                                                                                             a opositores a regímenes dictatoriales y los objetores de conciencia,
                                                                                             quienes se amparan en la expresión opinión de cualquier índole.
@@ -1784,10 +1670,16 @@ Antidiscriminación                                                             
                                                                                               nas se vieran amedrentadas de participar políticamente y de expresar
                                                                                               sus ideas y opiniones”.57
 
-
 ## 1.4.8 Cualquier otra condición social
 
-                                                                                              Es la cláusula amplia que permite incorporar otros criterios de dife-
+**Definición Canónica:** Es la cláusula amplia que permite incorporar otros criterios de dife-
+                                                                                              renciación prohibida que no se encuentran precisados en la norma,
+                                                                                              permitiendo la vigencia y la flexibilidad de la norma. Al igual que en
+                                                                                              el criterio posición económica, las versiones en inglés y en francés
+                                          
+**Concordancias Legales:** artículos 17; artículo 26; artículo 17; artículo 2.1 del Pacto y; artículos 2.1; artículo 2; artículos 26; artículo 23.2 del Pacto que regula el derecho al matrimonio y e; artículo 23; artículo 1.1 de la Convención Interamericana son meramente enunc; artículo 1.1 de la CADH
+
+Es la cláusula amplia que permite incorporar otros criterios de dife-
                                                                                               renciación prohibida que no se encuentran precisados en la norma,
                                                                                               permitiendo la vigencia y la flexibilidad de la norma. Al igual que en
                                                                                               el criterio posición económica, las versiones en inglés y en francés
@@ -1917,7 +1809,11 @@ Antidiscriminación                                                             
 
 ## parte de autoridades estatales o por particulares, pueden disminuiro
 
-                                                                                                    restringir, de modo alguno, los derechos de una persona a partir de
+**Definición Canónica:** restringir, de modo alguno, los derechos de una persona a partir de
+                                                                                                    su orientación sexual, su identidad de género y/o su expresión de
+                                                                                                    género (párr. 78).
+
+restringir, de modo alguno, los derechos de una persona a partir de
                                                                                                     su orientación sexual, su identidad de género y/o su expresión de
                                                                                                     género (párr. 78).
 
@@ -1999,10 +1895,12 @@ Antidiscriminación                                                Internacional
 Ley                                                                  1. La igualdad y no discriminación en el Derecho                          49
 Antidiscriminación                                                      Internacional de los Derechos Humanos
 
-
 ## 1.2     Medidas especiales
 
-                                                                       de protección
+**Definición Canónica:** de protección
+**Concordancias Legales:** artículo 26
+
+de protección
 
                                                                        La no discriminación es la exigencia mínima para la materialización
                                                                        del principio de igualdad, sin embargo, la denominada igualdad de
@@ -2108,7 +2006,14 @@ Antidiscriminación                                                             
 
 ## Parte que adopten disposiciones positivas para reducir o elimi-
 
-                                                                                        nar las condiciones que originan o facilitan que se perpetúe la
+**Definición Canónica:** nar las condiciones que originan o facilitan que se perpetúe la
+                                                                                        discriminación prohibida por el Pacto (…) Las medidas de ese
+                                                                                        carácter pueden llegar hasta otorgar, durante un tiempo, al sector
+                                                                                        de la población de que se trate un cierto trato preferencial en
+                                                                                
+**Concordancias Legales:** artículo 1.1. de la CADH; constitucion
+
+nar las condiciones que originan o facilitan que se perpetúe la
                                                                                         discriminación prohibida por el Pacto (…) Las medidas de ese
                                                                                         carácter pueden llegar hasta otorgar, durante un tiempo, al sector
                                                                                         de la población de que se trate un cierto trato preferencial en
@@ -2375,11 +2280,12 @@ Antidiscriminación                                                Internacional
 Ley                                                                                  2. La igualdad y no discriminación en el                                  59
 Antidiscriminación                                                                      orden judicial y constitucional chileno
 
-
 ## 2.1     Nociones generales acerca de la igualdad en el
 
+**Definición Canónica:** ordenamiento jurídico constitucional chileno
+**Concordancias Legales:** artículo 1; artículo 19; Ley Nº 20.609; constitucion; Constitución
 
-                                                                                       ordenamiento jurídico constitucional chileno
+ordenamiento jurídico constitucional chileno
 
                                                                                        En el capítulo anterior analizamos que la igualdad es una norma de
                                                                                        ius cogens y sobre ella descansa el andamiaje jurídico del orden públi- co
@@ -2449,10 +2355,12 @@ Antidiscriminación                                                             
 Ley                                                                                        2. La igualdad y no discriminación en el                                      61
 Antidiscriminación                                                                            orden judicial y constitucional chileno
 
-
 ## 2.2              El principio constitucional
 
-                                                                                             de igualdad
+**Definición Canónica:** de igualdad
+**Concordancias Legales:** constitucion
+
+de igualdad
 
                                                                                              Un modelo democrático constitucional además de los procedimien-
                                                                                              tos de participación del pueblo en la toma de decisiones públicas,
@@ -2467,10 +2375,14 @@ Antidiscriminación                                                             
                                                                                              derecho público subjetivo, finalidad de la actividad del Estado y sus
                                                                                              organismos o como base de la institucionalidad.
 
-
 ## 2.2.1 Aproximación a la noción de igualdad
 
-                                                                                             Un acercamiento a la noción de igualdad exige remitirnos a Aristó-
+**Definición Canónica:** Un acercamiento a la noción de igualdad exige remitirnos a Aristó-
+                                                                                             teles que, en su Política, nos proporciona los elementos básicos para
+                                                                                             configurarla:
+**Concordancias Legales:** constitucion
+
+Un acercamiento a la noción de igualdad exige remitirnos a Aristó-
                                                                                              teles que, en su Política, nos proporciona los elementos básicos para
                                                                                              configurarla:
 
@@ -2519,10 +2431,16 @@ Antidiscriminación                                                             
                                                                                            efectos de nuestro estudio nos centraremos en los que se suele tratar
                                                                                            como igualdad ante la ley e igualdad en la ley.78
 
-
 ## 2.2.2 La igualdad en la ley y ante la ley
 
-                                                                                           El principio y derecho a la igualdad se proyecta en dos niveles:
+**Definición Canónica:** El principio y derecho a la igualdad se proyecta en dos niveles:
+                                                                                           igualdad en el contenido y en la aplicación de la ley, que también se
+                                                                                           le denomina igualdad ante la ley e igualdad ante la justicia o bien
+                                                                                           igualdad en la ley y ante la ley.79 La diferencia entre estos binomios
+                                                     
+**Concordancias Legales:** artículo 19; artículo 19 de la Constitu; constitucion; Constitución
+
+El principio y derecho a la igualdad se proyecta en dos niveles:
                                                                                            igualdad en el contenido y en la aplicación de la ley, que también se
                                                                                            le denomina igualdad ante la ley e igualdad ante la justicia o bien
                                                                                            igualdad en la ley y ante la ley.79 La diferencia entre estos binomios
@@ -2582,8 +2500,11 @@ Antidiscriminación                                                             
 
 ## 85       VIVANCO (2006), p. 307
 
+**Definición Canónica:** Ley                                                                                     2. La igualdad y no discriminación en el                                     64
+Antidiscriminación                                                                         orden judicial y constitucional chileno
+**Concordancias Legales:** artículo 19; constitucion; Constitución
 
-Ley                                                                                     2. La igualdad y no discriminación en el                                     64
+Ley                                                                                     2. La igualdad y no discriminación en el                                     64
 Antidiscriminación                                                                         orden judicial y constitucional chileno
 
                                                                                           En este mismo sentido el Tribunal Constitucional ha resuelto:
@@ -2623,10 +2544,12 @@ Antidiscriminación                                                             
 Ley                                                                                           2. La igualdad y no discriminación en el                                          65
 Antidiscriminación                                                                               orden judicial y constitucional chileno
 
-
 ## 2.3                Diferencias
 
-                                                                                                arbitrarias
+**Definición Canónica:** arbitrarias
+**Concordancias Legales:** artículo 19; Ley N° 20.609; Constitución; constitucion
+
+arbitrarias
 
                                                                                                 El artículo 19 N° 2 de la Constitución al establecer que “Ni la ley ni
                                                                                                 autoridad alguna podrán establecer diferencias arbitrarias”, constituye un
@@ -2711,10 +2634,17 @@ Antidiscriminación                                                orden judicia
                                                                       nocturnos?, ¿La medida es objetiva y razonable?, ¿La medida es
                                                                       proporcional?
 
-
 ## 2.3.2 Acciones afirmativas en el
 
-                                                                 ordenamiento jurídico chileno
+**Definición Canónica:** ordenamiento jurídico chileno
+                                                                 En el capítulo 1 explicamos en que consistían las acciones afirmativas
+                                                                 como un trato diferenciado tendiente a conseguir la igualdad de un
+                                                                 grupo que se encuentra en desventaja y que se mantiene vigente en
+                                                                 la medida que se consigue dicha finalidad. En la constitución no hay
+                                     
+**Concordancias Legales:** artículo 1; artículo 1 de la Constitución en; constitución; constitucion
+
+ordenamiento jurídico chileno
                                                                  En el capítulo 1 explicamos en que consistían las acciones afirmativas
                                                                  como un trato diferenciado tendiente a conseguir la igualdad de un
                                                                  grupo que se encuentra en desventaja y que se mantiene vigente en
@@ -2757,7 +2687,10 @@ Antidiscriminación                                                             
 
 ## 1. No tenemos casos de acción afirmativa que el TC haya debido
 
-                                                                                               resolver, salvo el caso discutible de las normas de montepío.95
+**Definición Canónica:** resolver, salvo el caso discutible de las normas de montepío.95
+**Concordancias Legales:** artículo 3; Ley N° 12.522; Constitucion
+
+resolver, salvo el caso discutible de las normas de montepío.95
 
                                                       92   NOGUEIRA (2006), p. 89.
                                                       93 Ibid., 95.
@@ -2772,18 +2705,16 @@ Antidiscriminación                                                             
 Ley                                                                                          2. La igualdad y no discriminación en el                                      69
 Antidiscriminación                                                                              orden judicial y constitucional chileno
 
-
-## 2. Existe una referencia explícita y validación de la acción afirmativa
-
-                                                                                                  por parte del TC en un caso.96 Nunca el TC se ha opuesto a ella.
-
-## 3. Existen referencias explícitas y validación de la acción afirmativa
-
-                                                                                                  por parte de ministros disidentes en varios casos.
-
 ## 4. La forma de entender el principio de igualdad por parte del TC
 
-                                                                                                  es perfectamente compatible con la acción afirmativa:
+**Definición Canónica:** es perfectamente compatible con la acción afirmativa:
+                                                                                                    a. La acción afirmativa constituye una diferencia que puede
+                                                                                                       estar justificada en un caso específico (depende del caso). El
+                                                                                                       TC acepta diferencias justificadas.
+                                                                                 
+**Concordancias Legales:** constitucion
+
+es perfectamente compatible con la acción afirmativa:
                                                                                                     a. La acción afirmativa constituye una diferencia que puede
                                                                                                        estar justificada en un caso específico (depende del caso). El
                                                                                                        TC acepta diferencias justificadas.
@@ -2805,10 +2736,12 @@ Antidiscriminación                                                             
 Ley                                                                                        2. La igualdad y no discriminación en el                                 70
 Antidiscriminación                                                                            orden judicial y constitucional chileno
 
-
 ## 2.4                 Ley N° 20.609 que establece medidas
 
-                                                                                                contra la discriminación
+**Definición Canónica:** contra la discriminación
+**Concordancias Legales:** Ley N° 20.609
+
+contra la discriminación
 
                                                                                                 El 12 de julio de 2012, después de siete años de tramitación parlamen-
                                                                                                 taria, se promulgó la Ley N° 20.609 que establece medidas contra la
@@ -2836,10 +2769,16 @@ Antidiscriminación                                                             
                                                                                                 normativa fue considerada un gran avance en materia de derechos
                                                                                                 humanos.
 
-
 ## 2.4.1 Propósito y fines de la ley
 
-                                                                                                El propósito de la referida ley, tal como se infiere de su artículo 1°
+**Definición Canónica:** El propósito de la referida ley, tal como se infiere de su artículo 1°
+                                                                                                y de la propia historia fidedigna de su establecimiento, fue instaurar
+                                                                                                un procedimiento judicial que permita restablecer eficazmente el
+                                                                                                imperio del derecho afectado, en aquellos casos en que se cometa
+                                        
+**Concordancias Legales:** artículo 1; constitucion
+
+El propósito de la referida ley, tal como se infiere de su artículo 1°
                                                                                                 y de la propia historia fidedigna de su establecimiento, fue instaurar
                                                                                                 un procedimiento judicial que permita restablecer eficazmente el
                                                                                                 imperio del derecho afectado, en aquellos casos en que se cometa
@@ -2860,10 +2799,12 @@ Antidiscriminación                                                             
                                                                                          acorde con los estándares internacionales que el texto finalmente
                                                                                          aprobado.
 
-
 ## 2.4.2 Definición de discriminación arbitraria
 
-                                                                                         (artículo 2º Ley Nº 20.609)
+**Definición Canónica:** (artículo 2º Ley Nº 20.609)
+**Concordancias Legales:** artículo 2; Ley Nº 20.609; Constitución Política; constitucion
+
+(artículo 2º Ley Nº 20.609)
 
                                                                                               “Para los efectos de esta ley, se entiende por discriminación
                                                                                               arbitraria toda distinción, exclusión o restricción que carezca
@@ -2890,10 +2831,15 @@ Antidiscriminación                                                             
 Ley                                                                                 2. La igualdad y no discriminación en el                               72
 Antidiscriminación                                                                     orden judicial y constitucional chileno
 
-
 ## 3. Que cause privación, perturbación o amenaza en el ejercicio
 
-                                                                                         legítimo de los derechos fundamentales establecidos en la
+**Definición Canónica:** legítimo de los derechos fundamentales establecidos en la
+                                                                                         Constitución Política de la República o en los tratados interna-
+                                                                                         cionales sobre derechos humanos ratificados por Chile y que se
+                                                                                         encuentren vigentes.
+**Concordancias Legales:** Ley N° 20.609; Constitución Política; constitucion
+
+legítimo de los derechos fundamentales establecidos en la
                                                                                          Constitución Política de la República o en los tratados interna-
                                                                                          cionales sobre derechos humanos ratificados por Chile y que se
                                                                                          encuentren vigentes.
@@ -2935,10 +2881,16 @@ Antidiscriminación                                                             
 Ley                                                                              2. La igualdad y no discriminación en el                                 73
 Antidiscriminación                                                                  orden judicial y constitucional chileno
 
-
 ## 2.4.3 Categorías sospechosas
 
-                                                                                   En el primer capítulo vimos el origen de las categorías sospechosas
+**Definición Canónica:** En el primer capítulo vimos el origen de las categorías sospechosas
+                                                                                   en el derecho internacional de los derechos humanos, y el artículo 2
+                                                                                   de la Ley N° 20.609, por su parte, enuncia una serie de criterios pro-
+                                                                                   hibidos de diferenciación que, en términos generales, se les denomina
+                                                                         
+**Concordancias Legales:** artículo 2 de la Ley N; artículo 2; artículo 19 de la Constitución Política de la República; artículo 17; artículo 12 del Código Penal; Ley N° 20.609; constitucion; Constitución Política
+
+En el primer capítulo vimos el origen de las categorías sospechosas
                                                                                    en el derecho internacional de los derechos humanos, y el artículo 2
                                                                                    de la Ley N° 20.609, por su parte, enuncia una serie de criterios pro-
                                                                                    hibidos de diferenciación que, en términos generales, se les denomina
@@ -3052,16 +3004,14 @@ Antidiscriminación                                                             
 
                                                                                                - Enfermedad o discapacidad
 
-
-## 2.4.4 Análisis de los criterios prohibidos de
-
-                                                                                              diferenciación o categorías sospechosas comunes al
-                                                                                              concepto de discriminación y la agravante penal
-
-
 ## 2.4.4.1 Ideología, opinión política, religión
 
-                                                                                              o creencias de la víctima
+**Definición Canónica:** o creencias de la víctima
+                                                                                              Estos criterios nos llevan al fuero interno del individuo, al mundo del
+                                                                                              pensamiento, sin embargo, la jurisprudencia ha señalado que se requiere:
+**Concordancias Legales:** Ley N° 21.155; Ley N° 21.120; constitucion
+
+o creencias de la víctima
                                                                                               Estos criterios nos llevan al fuero interno del individuo, al mundo del
                                                                                               pensamiento, sin embargo, la jurisprudencia ha señalado que se requiere:
 
@@ -3126,7 +3076,11 @@ Antidiscriminación                                                             
 
 ## 19 N°6 de la Constitución, en el sentido que toda creencia religiosa
 
-                                                                                              en la medida que sea una expresión de la libertad de conciencia, y no
+**Definición Canónica:** en la medida que sea una expresión de la libertad de conciencia, y no
+                                                                                              se opongan a la moral, a las buenas costumbres o al orden público,
+                                                                                              se encontraría comprendida dentro de esta categoría.
+
+en la medida que sea una expresión de la libertad de conciencia, y no
                                                                                               se opongan a la moral, a las buenas costumbres o al orden público,
                                                                                               se encontraría comprendida dentro de esta categoría.
 
@@ -3134,11 +3088,16 @@ Antidiscriminación                                                             
                                                                                               ciones en cuanto a su procedencia como requisito del concepto de
                                                                                               discriminación o de la agravante penal.
 
-
 ## 2.4.4.2 Nacionalidad/nación
 
+**Definición Canónica:** El proyecto de ley establecía el origen nacional como criterio tanto
+                                                                                              en la acción de no discriminación arbitraria como en la agravante
+                                                                                              penal, siguiendo de este modo la redacción del PIDCP. Sin embargo,
+                                                                                              en el segundo trámite constitucional en el Senado se formularon
+                                                    
+**Concordancias Legales:** artículo 2; constitucion; Constitución
 
-                                                                                              El proyecto de ley establecía el origen nacional como criterio tanto
+El proyecto de ley establecía el origen nacional como criterio tanto
                                                                                               en la acción de no discriminación arbitraria como en la agravante
                                                                                               penal, siguiendo de este modo la redacción del PIDCP. Sin embargo,
                                                                                               en el segundo trámite constitucional en el Senado se formularon
@@ -3161,10 +3120,13 @@ Antidiscriminación                                                             
                                                                                                    “Conjunto de habitantes de un país regido por el mismo go-
                                                                                                    bierno”.109
 
-
 ## 108      BIBLIOTECA DEL CONGRESO NACIONAL, Segundo Trámite Constitucional: Senado, 2.5. Boletín de Indica-
 
-                                                               ciones.
+**Definición Canónica:** ciones.
+                                                      109      SALINERO (2013), p. 298. En este sentido se manifiestan Laurenzo Copello, Álvarez y Díaz y García Conlledo.
+**Concordancias Legales:** constitucion
+
+ciones.
                                                       109      SALINERO (2013), p. 298. En este sentido se manifiestan Laurenzo Copello, Álvarez y Díaz y García Conlledo.
 
 Ley                                                                                         2. La igualdad y no discriminación en el                                78
@@ -3209,11 +3171,13 @@ Antidiscriminación                                                             
 Ley                                                                                       2. La igualdad y no discriminación en el                                  79
 Antidiscriminación                                                                           orden judicial y constitucional chileno
 
-
 ## 2.4.4.3 Raza, etnia o grupo social
 
+**Definición Canónica:** A modo de introducción, les presentaremos un video sobre
+                                                                                                 esta materia:
+**Concordancias Legales:** artículo 2; constitucion
 
-                                                                                                 A modo de introducción, les presentaremos un video sobre
+A modo de introducción, les presentaremos un video sobre
                                                                                                  esta materia:
 
                                                                                                  Consecuencias discriminación racial en niños
@@ -3289,11 +3253,12 @@ Antidiscriminación                                                             
 Ley                                                                                         2. La igualdad y no discriminación en el                                81
 Antidiscriminación                                                                             orden judicial y constitucional chileno
 
-
 ## 2.4.4.4 Sexo, la orientación sexual e identidad de género
 
+**Definición Canónica:** A título introductorio les presentamos el siguiente video:
+**Concordancias Legales:** Ley N° 21.120; Ley Nº 21.120; constitucion
 
-                                                                                                   A título introductorio les presentamos el siguiente video:
+A título introductorio les presentamos el siguiente video:
 
                                                                                                    La desigualdad de género no es un juego de niños
 
@@ -3340,11 +3305,12 @@ Antidiscriminación                                                orden judicia
                                                                       no con el sexo y nombre verificados en el acta de inscripción del
                                                                       nacimiento” (art. 1, Ley Nº 21.120).
 
-
 ## 2.4.4.5 Edad y filiación
 
+**Definición Canónica:** A modo de introducción les dejamos dos videos relativos a
+**Concordancias Legales:** artículo 12; Ley N° 20.609; Ley N° 19.968; Ley N° 19.828; constitucion
 
-                                                                      A modo de introducción les dejamos dos videos relativos a
+A modo de introducción les dejamos dos videos relativos a
 
                                                                       la discriminación hacia las personas mayores:
 
@@ -3389,21 +3355,28 @@ Antidiscriminación                                                            o
                                                                              que la filiación se encuentre determinada respecto de uno solo de los
                                                                              progenitores, o tenga por origen una relación consensual o adoptiva.
 
-
 ## 2.4.4.6 Apariencia personal
 
-                                                                             Conforme al Diccionario de la Real Academia por apariencia personal
+**Definición Canónica:** Conforme al Diccionario de la Real Academia por apariencia personal
+                                                                             se entiende el aspecto o parecer exterior de alguien. En estos casos,
+                                                                             la discriminación alude a un aspecto físico evidente de una persona,
+                                                                             como su estatura, contextura física, color de pelo, etc., excluyendo las
+                                                                             característi
+
+Conforme al Diccionario de la Real Academia por apariencia personal
                                                                              se entiende el aspecto o parecer exterior de alguien. En estos casos,
                                                                              la discriminación alude a un aspecto físico evidente de una persona,
                                                                              como su estatura, contextura física, color de pelo, etc., excluyendo las
                                                                              características internas de la víctima, por ejemplo, su carácter serio,
                                                                              risueño, descortés, etc.120
 
-
 ## 2.4.4.7 Enfermedad o discapacidad
 
+**Definición Canónica:** Para comenzar el análisis, les presentamos un video intro-
+                                                                                  ductorio:
+**Concordancias Legales:** artículo 5 de la Ley Nº 20.422 siguiendo lo dispuesto en la CD; Ley Nº 20.609; Ley Nº 20.422; constitucion
 
-                                                                                  Para comenzar el análisis, les presentamos un video intro-
+Para comenzar el análisis, les presentamos un video intro-
                                                                                   ductorio:
 
                                                                                   Video de sensibilización, Personas con discapacidad
@@ -3439,25 +3412,29 @@ Antidiscriminación                                                             
                                                                                       causas en general conocidas, manifestada por síntomas y signos
                                                                                       característicos, y cuya evolución es más o menos previsible”.
 
-
-## 2.4.5 Análisis de los criterios prohibidos de
-
-                                                                                      diferenciación o categorías sospechosas
-                                                                                      propias del concepto de discriminación
-
-
 ## 2.4.5.1 Situación socioeconómica
 
-                                                                                      La ley, al emplear este término, opta por fusionar el elemento patrimonial
+**Definición Canónica:** La ley, al emplear este término, opta por fusionar el elemento patrimonial
+                                                                                      con las consecuencias sociales que se atribuyen a ese patrimonio, lo que
+                                                                                      es reforzado con el sustantivo situación, que viene a dar cuenta de una
+                                                                                      posición social en función de un patrimonio determinado, cualquiera
+                                                      
+
+La ley, al emplear este término, opta por fusionar el elemento patrimonial
                                                                                       con las consecuencias sociales que se atribuyen a ese patrimonio, lo que
                                                                                       es reforzado con el sustantivo situación, que viene a dar cuenta de una
                                                                                       posición social en función de un patrimonio determinado, cualquiera
                                                                                       que este sea. No se han formulado demandas basadas en esta causal.
 
-
 ## 2.4.5.2 Idioma
 
-                                                                                      De conformidad a lo expuesto en el capítulo 1, este criterio alude a las
+**Definición Canónica:** De conformidad a lo expuesto en el capítulo 1, este criterio alude a las
+                                                                                      diferencias de trato basadas en el idioma que hablan las personas, lo que
+                                                                                      es una manifestación de la libertad de expresión y que suele estar rela-
+                                                                                      cionado con la raza, color, origen nacional y, eventualmente, la religión.121
+**Concordancias Legales:** constitucion
+
+De conformidad a lo expuesto en el capítulo 1, este criterio alude a las
                                                                                       diferencias de trato basadas en el idioma que hablan las personas, lo que
                                                                                       es una manifestación de la libertad de expresión y que suele estar rela-
                                                                                       cionado con la raza, color, origen nacional y, eventualmente, la religión.121
@@ -3467,10 +3444,16 @@ Antidiscriminación                                                             
 Ley                                                                                         2. La igualdad y no discriminación en el                                     85
 Antidiscriminación                                                                             orden judicial y constitucional chileno
 
-
 ## 2.4.5.3 La sindicación o participación en
 
-                                                                                              organizaciones gremiales o la falta de ellas
+**Definición Canónica:** organizaciones gremiales o la falta de ellas
+                                                                                              Esta causal perteneciente al ámbito del derecho colectivo del trabajo,
+                                                                                              en particular a la libertad sindical. Sobre este punto hay que tener
+                                                                                              en consideración que el Código del Trabajo regula expresamente
+                                                                      
+**Concordancias Legales:** Ley N° 20.609
+
+organizaciones gremiales o la falta de ellas
                                                                                               Esta causal perteneciente al ámbito del derecho colectivo del trabajo,
                                                                                               en particular a la libertad sindical. Sobre este punto hay que tener
                                                                                               en consideración que el Código del Trabajo regula expresamente
@@ -3493,10 +3476,16 @@ Antidiscriminación                                                             
                                                                                               la única vía para llevar a un Tribunal una situación de discriminación
                                                                                               fundada en la libertad sindical.122
 
-
 ## 2.4.5.4 El estado civil
 
-                                                                                              El estado civil se encuentra definido en el artículo 304 del Código
+**Definición Canónica:** El estado civil se encuentra definido en el artículo 304 del Código
+                                                                                              Civil como “la calidad de un individuo, en cuanto le habilita para
+                                                                                              ejercer ciertos derechos o contraer ciertas obligaciones civiles”. En
+                                                                                              este aspecto resulta relevante recordar que todo nuestro Derecho Civil
+                                          
+**Concordancias Legales:** artículo 304 del Código; Ley N° 20.830; Ley N° 21.280; constitucion
+
+El estado civil se encuentra definido en el artículo 304 del Código
                                                                                               Civil como “la calidad de un individuo, en cuanto le habilita para
                                                                                               ejercer ciertos derechos o contraer ciertas obligaciones civiles”. En
                                                                                               este aspecto resulta relevante recordar que todo nuestro Derecho Civil
@@ -3521,10 +3510,15 @@ Antidiscriminación                                                             
                                                                                                sexuales accedieran a contraer uniones con consecuencias jurídicas
                                                                                                similares al matrimonio.
 
-
 ## 2.4.5.5 La maternidad, la lactancia
 
-                                                                                               materna y el amamantamiento
+**Definición Canónica:** materna y el amamantamiento
+                                                                                               Este criterio fue introducido por la Ley N° 21.155 que establece
+                                                                                               medidas de protección a la lactancia materna y su ejercicio.124 En su
+                                                                                               articulado establece el derecho al amamantamiento libre:
+**Concordancias Legales:** artículo 1; Ley N° 21.155; Ley N° 20.609; constitucion
+
+materna y el amamantamiento
                                                                                                Este criterio fue introducido por la Ley N° 21.155 que establece
                                                                                                medidas de protección a la lactancia materna y su ejercicio.124 En su
                                                                                                articulado establece el derecho al amamantamiento libre:
@@ -3556,10 +3550,13 @@ Antidiscriminación                                                             
 Ley                                                            2. La igualdad y no discriminación en el                                 87
 Antidiscriminación                                                orden judicial y constitucional chileno
 
-
 ## 2.4.5.6 Expresión de género
 
-                                                                 La expresión de género fue introducida por la Ley N° 21.120 como
+**Definición Canónica:** La expresión de género fue introducida por la Ley N° 21.120 como
+                                                                 criterio de diferenciación, definiéndolo como:
+**Concordancias Legales:** Ley N° 21.120; Ley N° 20.609
+
+La expresión de género fue introducida por la Ley N° 21.120 como
                                                                  criterio de diferenciación, definiéndolo como:
 
                                                                       “Se entenderá por expresión de género la manifestación externa
@@ -3576,10 +3573,17 @@ Antidiscriminación                                                orden judicia
                                                                  agregándola al catálogo de categorías del concepto discriminación,
                                                                  no así en el caso de la agravante penal.
 
-
 ## 2.4.6 Agravante de cometer un delito con
 
-                                                                 una motivación discriminatoria
+**Definición Canónica:** una motivación discriminatoria
+                                                                 Una de las modificaciones introducidas por la Ley N° 20.609 fue la
+                                                                 incorporación en el artículo 12 N° 21 del Código Penal de una nueva
+                                                                 circunstancia de agravante de responsabilidad penal, con un carácter
+                                                                 más bien genérico, en principio aplicable a cualquier delito y a cual-
+                                  
+**Concordancias Legales:** artículo 12; artículo 22.4 del Código Penal español de 1995; Ley N° 20.609; constitucion
+
+una motivación discriminatoria
                                                                  Una de las modificaciones introducidas por la Ley N° 20.609 fue la
                                                                  incorporación en el artículo 12 N° 21 del Código Penal de una nueva
                                                                  circunstancia de agravante de responsabilidad penal, con un carácter
@@ -3609,10 +3613,13 @@ Antidiscriminación                                                             
                                                                                                del Código Penal español de 1995, norma con la que guarda un gran
                                                                                                parecido semántico.126
 
-
 ## 2.4.6.1 Ámbito de aplicación de la agravante
 
-                                                                                               incorporada por la Ley N° 20.609
+**Definición Canónica:** incorporada por la Ley N° 20.609
+                                                                                               Esta agravante está contenida en el numeral 21 del artículo 12 que
+**Concordancias Legales:** artículo 12; Ley N° 20.609
+
+incorporada por la Ley N° 20.609
                                                                                                Esta agravante está contenida en el numeral 21 del artículo 12 que
 
                                                                                                reproducimos:
@@ -3629,10 +3636,15 @@ Antidiscriminación                                                             
                                                                                                que ha sido invocada, con mayor frecuencia, tratándose de crímenes
                                                                                                y simples delitos en contra de las personas (homicidio, lesiones, etc.).
 
-
 ## 2.4.6.2 Fundamento de la agravante
 
-                                                                                               de responsabilidad penal
+**Definición Canónica:** de responsabilidad penal
+                                                                                               Para efectos de contexto, conviene señalar que hay tres posturas bien
+                                                                                               diferenciadas en orden al fundamento de las circunstancias agravantes,
+                                                                                               siendo mayoritaria la posición que opta por la teoría del delito127 y
+**Concordancias Legales:** constitucion; Constitución Política
+
+de responsabilidad penal
                                                                                                Para efectos de contexto, conviene señalar que hay tres posturas bien
                                                                                                diferenciadas en orden al fundamento de las circunstancias agravantes,
                                                                                                siendo mayoritaria la posición que opta por la teoría del delito127 y
@@ -3707,10 +3719,16 @@ Antidiscriminación                                                             
                                                                                                    necer a un grupo que no profesa las mismas ideas que las de los
                                                                                                    agresores, es decir, por ser diferente”.131
 
-
 ## 2.4.6.3 Las causales de discriminación contenidas
 
-                                                                                              en el artículo 12 N° 21 del Código Penal
+**Definición Canónica:** en el artículo 12 N° 21 del Código Penal
+                                                                                              El legislador establece de manera taxativa las categorías que pueden
+                                                                                              constituir el motivo discriminatorio, que como vimos no son todas
+                                                                                              ni las mismas que las establecidas a propósito del concepto de dis-
+                                                                          
+**Concordancias Legales:** artículo 12; artículo 2 de la Ley N; Ley N° 20.609; constitucion
+
+en el artículo 12 N° 21 del Código Penal
                                                                                               El legislador establece de manera taxativa las categorías que pueden
                                                                                               constituir el motivo discriminatorio, que como vimos no son todas
                                                                                               ni las mismas que las establecidas a propósito del concepto de dis-
@@ -3728,10 +3746,16 @@ Antidiscriminación                                                             
 Ley                                                                                              2. La igualdad y no discriminación en el                                                 91
 Antidiscriminación                                                                                  orden judicial y constitucional chileno
 
-
 ## 2.4.6.4 El error en las cualidades de la víctima
 
-                                                                                                   ¿Qué pasaría si no concurren los presupuestos objetivos en la víctima,
+**Definición Canónica:** ¿Qué pasaría si no concurren los presupuestos objetivos en la víctima,
+                                                                                                   esto es, los rasgos diferenciales que el autor supone concurrentes en
+                                                                                                   ella y, en consecuencia, motivan su conducta? Por ejemplo: si el autor
+                                                                                                   cree erróneamente (error inverso) que la víctima es homosexual,
+                           
+**Concordancias Legales:** artículo 1; constitucion
+
+¿Qué pasaría si no concurren los presupuestos objetivos en la víctima,
                                                                                                    esto es, los rasgos diferenciales que el autor supone concurrentes en
                                                                                                    ella y, en consecuencia, motivan su conducta? Por ejemplo: si el autor
                                                                                                    cree erróneamente (error inverso) que la víctima es homosexual,
@@ -3779,10 +3803,15 @@ Antidiscriminación                                                        orden
                                                                          agravantes y, en particular, la modificatoria de discriminación aludida
                                                                          precedentemente.138
 
-
 ## 2.4.6.5 La comunicabilidad de la circunstancia
 
-                                                                         agravante a los partícipes
+**Definición Canónica:** agravante a los partícipes
+                                                                         En este caso el propio legislador ha señalado explícitamente que su
+                                                                         concurrencia opera tanto respecto de autores como de partícipes
+                                                                         (“cometer el delito o participar en él”).
+**Concordancias Legales:** artículo 1; artículo 19; Ley Nº 20.609; constitucion; Constitución; Constitución Política
+
+agravante a los partícipes
                                                                          En este caso el propio legislador ha señalado explícitamente que su
                                                                          concurrencia opera tanto respecto de autores como de partícipes
                                                                          (“cometer el delito o participar en él”).
@@ -3875,10 +3904,16 @@ Antidiscriminación                                                             
                                                                                          estereotipos, prejuicios y sesgos cognitivos.
                                                                                          El necesario diálogo interdisciplinar.
 
-
 ## 3.1.1 Necesidad de una mirada interdisciplinaria
 
-                                                                                         El abordaje jurídico que se ha efectuado en los capítulos anteriores
+**Definición Canónica:** El abordaje jurídico que se ha efectuado en los capítulos anteriores
+                                                                                         del concepto de discriminación evidencia su complejidad, la que se
+                                                                                         explica, entre otras razones, por la necesidad de poner en relación
+                                                                                         nociones de relevancia jurídica, cuya comprensión exige un abordaje
+                                                             
+**Concordancias Legales:** Ley Nº 20.609
+
+El abordaje jurídico que se ha efectuado en los capítulos anteriores
                                                                                          del concepto de discriminación evidencia su complejidad, la que se
                                                                                          explica, entre otras razones, por la necesidad de poner en relación
                                                                                          nociones de relevancia jurídica, cuya comprensión exige un abordaje
@@ -3964,10 +3999,13 @@ Antidiscriminación                                                             
                                                                                               titud, corresponde a la traducción en los actos de los prejuicios, su
                                                                                               componente comportamental, lo que se pueden observar.143
 
-
 ## 3.1.2.1 La conducta
 
-                                                                                              En cuanto a la conducta, el Diccionario de la Real Academia Española
+**Definición Canónica:** En cuanto a la conducta, el Diccionario de la Real Academia Española
+                                                                                              de La Lengua, RAE define144:
+**Concordancias Legales:** Ley Nº 20.609
+
+En cuanto a la conducta, el Diccionario de la Real Academia Española
                                                                                               de La Lengua, RAE define144:
 
                                                                                               Discriminación. Del lat. discriminatio, -ōnis.
@@ -4002,15 +4040,16 @@ Antidiscriminación                                                             
                                                                                               Desde el enfoque de la psicología social basado en tres componen-
                                                                                               tes, la conducta es entendida como lo que podemos observar es la
 
-## parte actitudinal del concepto, es decir, el acto de discriminar que
-
-                                                                                              conlleva estereotipos y prejuicios a la base que explicaremos en los
-                                                                                              párrafos siguientes.
-
-
 ## 3.1.2.2 Los estereotipos
 
-                                                                                              El término estereotipo fue introducido y utilizado en su sentido psi-
+**Definición Canónica:** El término estereotipo fue introducido y utilizado en su sentido psi-
+                                                                                              cosocial por Lipmann (1922, en Fischer 1987). Con ello designaba “las
+                                                                                              imágenes en la cabeza de las personas al designar informaciones”.146
+                                                                                              El concepto ha sido desarrollado ampliamente por la psicología so-
+                                          
+**Concordancias Legales:** Ley Nº 20.609
+
+El término estereotipo fue introducido y utilizado en su sentido psi-
                                                                                               cosocial por Lipmann (1922, en Fischer 1987). Con ello designaba “las
                                                                                               imágenes en la cabeza de las personas al designar informaciones”.146
                                                                                               El concepto ha sido desarrollado ampliamente por la psicología so-
@@ -4175,10 +4214,13 @@ Antidiscriminación                                                             
                                                                                                 en público o de forma manifiesta, debido a la existencia de una
                                                                                                 norma social no prejuiciosa que sanciona dichos comportamientos.
 
-
 ## 3.1.2.5 Algunas consecuencias de la discriminación
 
-                                                                                              Para conocer las dimensiones que pueden alcanzar los actos discri-
+**Definición Canónica:** Para conocer las dimensiones que pueden alcanzar los actos discri-
+                                                                                              minatorios, queremos invitarlos e invitarlas a leer estas tres noticias.
+**Concordancias Legales:** Ley Nº 20.609
+
+Para conocer las dimensiones que pueden alcanzar los actos discri-
                                                                                               minatorios, queremos invitarlos e invitarlas a leer estas tres noticias.
 
                                                                                               Diversos estudios dan cuenta del impacto negativo de la discrimina-
@@ -4189,10 +4231,13 @@ Antidiscriminación                                                             
 Ley                                                                                       3. Aplicación práctica                                                     105
 Antidiscriminación                                                                           de la Ley Nº 20.609
 
-
 ## A nivel individual:                    a nivel social
 
-                                                                                               Como efecto en las víctimas de la dis-
+**Definición Canónica:** Como efecto en las víctimas de la dis-
+                                                                                               criminación, se han encontrado
+**Concordancias Legales:** Ley Nº 20.609
+
+Como efecto en las víctimas de la dis-
                                                                                                criminación, se han encontrado
 
                                                                                                - Estados emocionales negativos como - En la medida que las víctimas
@@ -4251,18 +4296,25 @@ Antidiscriminación                                                        de la
                                                                           - Y, en particular, de las formas en que las personas interpretan las causas
                                                                             del trato injusto.
 
-
 ## 3.1.3 Algunos procesos psicológicos que
 
-
-                                                                         intervienen en la toma de decisiones
+**Definición Canónica:** intervienen en la toma de decisiones
                                                                          Para introducir este punto, queremos invitarlos a leer los siguientes
                                                                          artículos:
 
+intervienen en la toma de decisiones
+                                                                         Para introducir este punto, queremos invitarlos a leer los siguientes
+                                                                         artículos:
 
 ## 3.1.3.1 La integralidad de la persona que
 
-                                                                         ejerce labores de juzgamiento
+**Definición Canónica:** ejerce labores de juzgamiento
+                                                                         Existen diversos procesos psicológicos que participan en la toma
+                                                                         de decisiones al momento de ejercer la labor de juzgamiento. El
+                                                                         proceso no está únicamente guiado por las leyes, marcos jurídicos y
+**Concordancias Legales:** Ley Nº 20.609
+
+ejerce labores de juzgamiento
                                                                          Existen diversos procesos psicológicos que participan en la toma
                                                                          de decisiones al momento de ejercer la labor de juzgamiento. El
                                                                          proceso no está únicamente guiado por las leyes, marcos jurídicos y
@@ -4328,10 +4380,16 @@ Antidiscriminación                                                        de la
                                                                          un tema en particular, podemos neutralizar y matizar el efecto de
                                                                          estas sobre la decisión que debo adoptar.
 
-
 ## 3.1.3.2 Sesgos cognitivos
 
-                                                                         Otra herramienta que puede apoyar la forma de enfrentar un caso
+**Definición Canónica:** Otra herramienta que puede apoyar la forma de enfrentar un caso
+                                                                         para mantener la imparcialidad es conocer como el cerebro procesa
+                                                                         la información que proviene del medio ambiente. Toda persona
+                                                                         presenta una manera de procesar la información que llega desde
+                                                                         el exterior que le permite su mayor eficiencia, lo que
+**Concordancias Legales:** Ley Nº 20.609
+
+Otra herramienta que puede apoyar la forma de enfrentar un caso
                                                                          para mantener la imparcialidad es conocer como el cerebro procesa
                                                                          la información que proviene del medio ambiente. Toda persona
                                                                          presenta una manera de procesar la información que llega desde
@@ -4464,10 +4522,12 @@ Antidiscriminación                                                             
 Ley                                                                  3. Aplicación práctica                                                     113
 Antidiscriminación                                                      de la Ley Nº 20.609
 
-
 ## 3.2     Procedimiento regulado en
 
-                                                                       la Ley N° 20.609
+**Definición Canónica:** la Ley N° 20.609
+**Concordancias Legales:** Ley N° 20.609
+
+la Ley N° 20.609
 
                                                                        El Título II de la Ley N° 20.609 denominado La acción de no discrimi-
                                                                        nación arbitraria, regula los aspectos procesales de esta Ley desde la
@@ -4483,11 +4543,15 @@ Antidiscriminación                                                      de la L
 
                                                                             Noticiero Judicial: Cápsula Educativa - Ley Zamudio
 
-
 ## 3.2.1 Aspectos procesales relevantes
 
+**Definición Canónica:** 3.2.1.1 Competencia absoluta y relativa:
+                                                                       El Tribunal competente para conocer esta acción es el Juez de Le-
+                                                                       tras del domicilio del demandante o del demandado a elección del
+                                                                       demandante (art. 3).
+**Concordancias Legales:** artículo 14; Ley Nº 20.609; Ley 20.609
 
-                                                                       3.2.1.1 Competencia absoluta y relativa:
+3.2.1.1 Competencia absoluta y relativa:
                                                                        El Tribunal competente para conocer esta acción es el Juez de Le-
                                                                        tras del domicilio del demandante o del demandado a elección del
                                                                        demandante (art. 3).
@@ -4523,10 +4587,16 @@ Antidiscriminación                                                             
                                                                                                  que las partes concurran sin ser representadas (…) puede dar la
                                                                                                  posibilidad a socavar las pretensiones de quienes la invocan”.180
 
-
 ## 3.2.1.3 Contenido de la demanda
 
-                                                                                            La ley nada señala en cuanto a los requisitos de la demanda, por
+**Definición Canónica:** La ley nada señala en cuanto a los requisitos de la demanda, por
+                                                                                            tanto se aplicaría subsidiariamente lo dispuesto en el artículo 254
+                                                                                            del Código de Procedimiento Civil. Sin perjuicio de ello, el artículo
+                                                                                            6 establece que el tribunal al proveer la demanda deberá hacer un
+                                                       
+**Concordancias Legales:** artículo 254 del Código de Procedimiento Civil. Sin perjuicio; artículo 6
+
+La ley nada señala en cuanto a los requisitos de la demanda, por
                                                                                             tanto se aplicaría subsidiariamente lo dispuesto en el artículo 254
                                                                                             del Código de Procedimiento Civil. Sin perjuicio de ello, el artículo
                                                                                             6 establece que el tribunal al proveer la demanda deberá hacer un
@@ -4544,10 +4614,15 @@ Antidiscriminación                                                             
                                                                  algunas exigencias mínimas en orden a que el libelo sea fundado y
                                                                  que precise la época de los hechos signados como discriminatorios.
 
-
 ## 3.2.2 Estructura del procedimiento
 
-                                                                 El procedimiento que se regula para la tramitación de esta acción
+**Definición Canónica:** El procedimiento que se regula para la tramitación de esta acción
+                                                                 es un procedimiento especial, concentrado que, en lo no previsto
+                                                                 en la ley, se aplicará lo dispuesto en los libros I y II del Código de
+                                                                 Procedimiento Civil.
+**Concordancias Legales:** artículos 485; artículo 2 de la Ley N; Ley Nº 20.609
+
+El procedimiento que se regula para la tramitación de esta acción
                                                                  es un procedimiento especial, concentrado que, en lo no previsto
                                                                  en la ley, se aplicará lo dispuesto en los libros I y II del Código de
                                                                  Procedimiento Civil.
@@ -4634,7 +4709,13 @@ Antidiscriminación                                                             
 
 ## 20.609. En efecto, solo se enumeran una serie de garantías
 
-                                                                                                   constitucionales que supuestamente se vulnerarían con la nega-
+**Definición Canónica:** constitucionales que supuestamente se vulnerarían con la nega-
+                                                                                                   tiva de la entrega de documentos, sin que se explique cómo se
+                                                                                                   produce esa vulneración y por otra parte nunca se indica cual es
+                                                                                                   la forma de discriminación de que ha sido objeto”.185
+**Concordancias Legales:** constitucion
+
+constitucionales que supuestamente se vulnerarían con la nega-
                                                                                                    tiva de la entrega de documentos, sin que se explique cómo se
                                                                                                    produce esa vulneración y por otra parte nunca se indica cual es
                                                                                                    la forma de discriminación de que ha sido objeto”.185
@@ -4658,10 +4739,11 @@ Antidiscriminación                                                             
                                                                  determinar temporalmente la ocurrencia del hecho, no obstante se
                                                                  desvirtúe con la prueba rendida en autos
 
-
 ## 3.2.2.2 Informe
 
-                                                                 Admitida a tramitación, el Tribunal solicitará informe a la persona
+**Definición Canónica:** Admitida a tramitación, el Tribunal solicitará informe a la persona
+
+Admitida a tramitación, el Tribunal solicitará informe a la persona
 
                                                                  denunciada y a quien estime pertinente, que en el caso del demandado
                                                                  vendría a ser una especie de traslado y el informe una contestación
@@ -4682,14 +4764,16 @@ Antidiscriminación                                                             
                                                                  cautelares o bien, para facilitar la proposición de bases de arreglo
                                                                  en la audiencia.
 
-
-## 3.2.2.3 Audiencia
-
-                                                                 El procedimiento regulado sigue la estructura del procedimiento
-
 ## sumario con algunas precisiones, así evacuados los informes o ven-
 
-                                                                 cidos los plazos para evacuarlos se citará a una audiencia a celebrarse
+**Definición Canónica:** cidos los plazos para evacuarlos se citará a una audiencia a celebrarse
+                                                                 el quinto día hábil contado desde la última notificación, la que se
+                                                                 realizará con las partes que asistan. Si bien la ley no la individualiza
+                                                                 como una audiencia de conciliación, si establece el deber del tribunal
+                                                                 de llamar a conciliación en el evento que asistan todas 
+**Concordancias Legales:** Ley Nº 20.609
+
+cidos los plazos para evacuarlos se citará a una audiencia a celebrarse
                                                                  el quinto día hábil contado desde la última notificación, la que se
                                                                  realizará con las partes que asistan. Si bien la ley no la individualiza
                                                                  como una audiencia de conciliación, si establece el deber del tribunal
@@ -4702,10 +4786,15 @@ Antidiscriminación                                                             
                                                                                                si hay hechos sustanciales, pertinentes y controvertidos, de haberlos
                                                                                                recibirá la causa a prueba y, en caso contrario, citará a oír sentencia.186
 
-
 ## 3.2.2.4 Recepción, carga y valoración de la prueba
 
-                                                                                               Recibida la causa a prueba, las partes tienen un plazo de tres días
+**Definición Canónica:** Recibida la causa a prueba, las partes tienen un plazo de tres días
+                                                                                               para proponer los medios de prueba de los cuales pretenden valerse,
+                                                                                               debiendo el tribunal fijar una fecha de audiencia de recepción de
+                                                                                               pruebas a realizarse entre el quinto y el décimo día.
+**Concordancias Legales:** artículo 1698; artículo 1698 del Código Civil; artículo 2; artículo 1698 del Código Civil en cuanto a la; Ley Nº 20.609; Ley 20.609; Ley N° 20.609
+
+Recibida la causa a prueba, las partes tienen un plazo de tres días
                                                                                                para proponer los medios de prueba de los cuales pretenden valerse,
                                                                                                debiendo el tribunal fijar una fecha de audiencia de recepción de
                                                                                                pruebas a realizarse entre el quinto y el décimo día.
@@ -4955,10 +5044,14 @@ Antidiscriminación                                                             
                                                                                       en el considerando noveno, menos si la prueba de prueba circuns-
                                                                                       tancial de la demandada fue mejor que la de la demandante”.203
 
-
 ## 3.2.2.5 Medidas cautelares
 
-                                                                                 La ley no emplea el término medidas cautelares, sin embargo, la
+**Definición Canónica:** La ley no emplea el término medidas cautelares, sin embargo, la
+                                                                                 facultad que consagra la norma de suspender provisionalmente el acto
+                                                                                 reclamado en cualquier estado del proceso, es una medida cautelar que
+                                                                                 el tribunal puede decretar a petición del recurrente –no de oficio–
+
+La ley no emplea el término medidas cautelares, sin embargo, la
                                                                                  facultad que consagra la norma de suspender provisionalmente el acto
                                                                                  reclamado en cualquier estado del proceso, es una medida cautelar que
                                                                                  el tribunal puede decretar a petición del recurrente –no de oficio–
@@ -4969,10 +5062,13 @@ Antidiscriminación                                                             
                                                                                  decretarse de oficio o a petición de parte y en cualquier estado del
                                                                                  procedimiento, cuando no se justifique la mantención de la medida.
 
-
 ## 3.2.2.6 Sentencia
 
-                                                                                 En el siguiente esquema se grafican las alternativas que dispone el
+**Definición Canónica:** En el siguiente esquema se grafican las alternativas que dispone el
+                                                                                 juez al momento de dictar sentencia:
+**Concordancias Legales:** Ley Nº 20.609
+
+En el siguiente esquema se grafican las alternativas que dispone el
                                                                                  juez al momento de dictar sentencia:
 
                                                       203      Ibid., C. 12.
@@ -5030,10 +5126,17 @@ Antidiscriminación                                                             
                                                                                                circunstancia, deberá imponerse la multa, circunstancia que, en
                                                                                                la práctica, ha sido más bien excepcional.208
 
-
 ## 3.2.2.7 Recurso de apelación
 
-                                                                                             Será procedente el recurso de apelación respecto de las siguientes
+**Definición Canónica:** Será procedente el recurso de apelación respecto de las siguientes
+                                                                                             resoluciones:
+                                                                                             — Sentencia definitiva
+                                                                                             — Resolución que declare la inadmisibilidad de la acción
+                                                                                             — Las que pongan término al juicio o hagan imposible su prose-
+    
+**Concordancias Legales:** Ley Nº 20.609
+
+Será procedente el recurso de apelación respecto de las siguientes
                                                                                              resoluciones:
                                                                                              — Sentencia definitiva
                                                                                              — Resolución que declare la inadmisibilidad de la acción
@@ -5050,10 +5153,11 @@ Antidiscriminación                                                             
 Ley                                                                            3. Aplicación práctica                                                         128
 Antidiscriminación                                                                de la Ley Nº 20.609
 
-
 ## 3.3     Estadísticas generales
 
-                                                                                 de la ley
+**Definición Canónica:** de la ley
+
+de la ley
 
                                                                                         El análisis estadístico de la implementación de la ley nos
                                                                                         proporciona información relevante en orden a evaluar su
@@ -5063,10 +5167,15 @@ Antidiscriminación                                                             
 
                                                                                         En palabras simples, aplicación ley antidiscriminación
 
-
 ## 3.3.1 Ingresos
 
-                                                                                 En cuanto a los ingresos, desde julio de 2012 al 29 de febrero de 2020
+**Definición Canónica:** En cuanto a los ingresos, desde julio de 2012 al 29 de febrero de 2020
+                                                                                 se han deducido 458 demandas fundadas en la ley N° 20.609209,cuya
+                                                                                 evolución anual y concentración por territorio jurisdiccional deCorte
+                                                                                 de Apelaciones se grafica del siguiente modo:
+**Concordancias Legales:** ley N° 20.609209; Ley Nº 20.609
+
+En cuanto a los ingresos, desde julio de 2012 al 29 de febrero de 2020
                                                                                  se han deducido 458 demandas fundadas en la ley N° 20.609209,cuya
                                                                                  evolución anual y concentración por territorio jurisdiccional deCorte
                                                                                  de Apelaciones se grafica del siguiente modo:
@@ -5118,10 +5227,12 @@ Antidiscriminación                                                             
                                                                                              de Valparaíso, las jurisdicciones no individualizadas registran menos
                                                                                              de 20 ingresos totales en este periodo.
 
-
 ## 3.3.2 Término
 
-                                                                                             En cuanto a las sentencias definitivas, los datos indican lo siguiente210:
+**Definición Canónica:** En cuanto a las sentencias definitivas, los datos indican lo siguiente210:
+**Concordancias Legales:** Ley Nº 20.609
+
+En cuanto a las sentencias definitivas, los datos indican lo siguiente210:
 
                                                       210      Todos los datos actualizados a 2020 son de elaboración propia, cuya fuente es DECS (2020) y los actuali-
                                                                zados a 2017 también tienen como fuente el DECS (2017).
@@ -5152,10 +5263,12 @@ Antidiscriminación                                                             
                                                                                              La causal de término “sentencia definitiva” representa un 39,41%
                                                                                              del total de causas.
 
-
 ## 3.3.3 Los demandantes
 
-                                                                                             En cuanto al sexo del/los demandantes, tenemos los siguientes datos211:
+**Definición Canónica:** En cuanto al sexo del/los demandantes, tenemos los siguientes datos211:
+**Concordancias Legales:** Ley Nº 20.609
+
+En cuanto al sexo del/los demandantes, tenemos los siguientes datos211:
 
                                                                                               Sexo demandante (2012- 1ª instancia         ICA          CS
                                                                                               2016)
@@ -5184,10 +5297,13 @@ Antidiscriminación                                                        de la
                                                                          muy inferiores en número, dan cuenta de una leve prevalencia de los
                                                                          grupos de mujeres por sobre el de hombres.
 
-
 ## 3.3.4 Causal invocada en la demanda
 
-                                                                         En cuanto a la causal invocada en la demanda, en el periodo 2012-
+**Definición Canónica:** En cuanto a la causal invocada en la demanda, en el periodo 2012-
+                                                                         2016 a nivel nacional pudo observarse la siguiente tendencia212:
+**Concordancias Legales:** Ley Nº 20.609
+
+En cuanto a la causal invocada en la demanda, en el periodo 2012-
                                                                          2016 a nivel nacional pudo observarse la siguiente tendencia212:
 
                                                                          Causal invocada
@@ -5225,41 +5341,25 @@ Antidiscriminación                                                        de la
                                                                          todas las instancias y con independencia del sexo, dicen relación con
                                                                          la enfermedad o discapacidad.
 
-
 ## 3.3.5 Multas
 
-                                                                         En cuanto al porcentaje de causas en las que los Tribunales de pri-
+**Definición Canónica:** En cuanto al porcentaje de causas en las que los Tribunales de pri-
+                                                                         mera instancia determinaron el pago o no de multa a beneficio fiscal
+                                                                         durante el periodo 2012-2016.214
+
+En cuanto al porcentaje de causas en las que los Tribunales de pri-
                                                                          mera instancia determinaron el pago o no de multa a beneficio fiscal
                                                                          durante el periodo 2012-2016.214
 
                                                                                                 Tipos de sentencia /
                                                                                                 multas                 Total   %      Total
 
-
-## 2 utm                  1       5
-
-
-
-## 25 utm                 1       5
-
-
-
-## 30 utm                 1       5
-
-
-
-## 5 utm                  3       5      20
-
-
-                                                                          Acoge                 7 UTM                  1       5
-
-                                                                                                Sin pronunciamiento    13      5
-
-
 ## 2 utm                  1       4
 
+**Definición Canónica:** Rechaza               5 UTM                  1       4      25
+**Concordancias Legales:** Ley Nº 20.609
 
-                                                                          Rechaza               5 UTM                  1       4      25
+Rechaza               5 UTM                  1       4      25
 
                                                                                                 Sin pronunciamiento    23      92
 
@@ -5285,10 +5385,12 @@ Antidiscriminación                                                        de la
 Ley                                                                                         3. Aplicación práctica                                                      133
 Antidiscriminación                                                                             de la Ley Nº 20.609
 
-
 ## 3.4               Críticas a la Ley N° 20.609 y
 
-                                                                                              propuestas para su reforma
+**Definición Canónica:** propuestas para su reforma
+**Concordancias Legales:** artículo 1698 del Código Civil; Ley N° 20.609; Ley Nº 20.609
+
+propuestas para su reforma
 
                                                                                                    A modo de introducción, les dejamos el siguiente video:
 
@@ -5430,15 +5532,15 @@ Antidiscriminación                                                             
 Ley                                                                         4. Estrategias y políticas implementadas por                          138
 Antidiscriminación                                                             el Poder Judicial frente a la discriminación
 
-
-## 4.1         Rol del Poder Judicial en la concreción del
-
-                                                                              principio de igualdad y no discriminación
-
-
 ## 4.1.1 El acceso a la justicia
 
-                                                      Los instrumentos        Los instrumentos internacionales ratificados por Chile imponen el
+**Definición Canónica:** Los instrumentos        Los instrumentos internacionales ratificados por Chile imponen el
+                                                                              deber de crear una institucionalidad que permita el efectivo respeto y
+                                                      internacionales
+                                                                              garantía de los derechos fundamentales de todas las personas. Entre
+                                                      ratificados por         estos derechos se encuentra el acceso a la justicia, el que además 
+
+Los instrumentos        Los instrumentos internacionales ratificados por Chile imponen el
                                                                               deber de crear una institucionalidad que permita el efectivo respeto y
                                                       internacionales
                                                                               garantía de los derechos fundamentales de todas las personas. Entre
@@ -5485,10 +5587,13 @@ Antidiscriminación                                                             
 
                                                                                                    https://www.youtube.com/watch?v=lH23GMfGIZ0&t=56s
 
-
 ## 4.1.1.1 Protocolo de acceso a la justicia
 
-                                                                                              de niños, niñas y adolescentes216
+**Definición Canónica:** de niños, niñas y adolescentes216
+                                                                                              El Protocolo comienza con una serie de definiciones, siendo las más
+                                                                                              relevantes las siguientes:
+
+de niños, niñas y adolescentes216
                                                                                               El Protocolo comienza con una serie de definiciones, siendo las más
                                                                                               relevantes las siguientes:
 
@@ -5573,17 +5678,28 @@ Antidiscriminación                                                el Poder Judi
                                                                  niñas y adolescentes en el ejercicio de sus derechos. Entre ellas se
                                                                  encuentran las siguientes:
 
-
 ## 1. Tener siempre presente el interés superior del niño, esto es, en todas las
 
-                                                                     etapas del proceso, independiente de la calidad en la que intervengan,
+**Definición Canónica:** etapas del proceso, independiente de la calidad en la que intervengan,
+                                                                     justificándolo razonadamente y aplicándolo en todo el proceso de manera
+                                                                     diferenciada para cada NNA considerando sus características especiales
+                                                                     y su autonomía progresiva.
+
+etapas del proceso, independiente de la calidad en la que intervengan,
                                                                      justificándolo razonadamente y aplicándolo en todo el proceso de manera
                                                                      diferenciada para cada NNA considerando sus características especiales
                                                                      y su autonomía progresiva.
 
 ## 2. Velar por un trata-           a. Juzgar con perspectiva de infancia durante todo
 
-                                                                     miento especializado,            el proceso y especialmente en la apreciación
+**Definición Canónica:** miento especializado,            el proceso y especialmente en la apreciación
+                                                                     con el fin de concretarel        del riesgo y adopción de medidas cautelares.
+                                                                     principio de igual-dad
+                                                                                                   b. Brindar un trato respetuoso y acorde a la dig-
+                                                                     y no discrimi- nación,           nidad del NNA.
+                 
+
+miento especializado,            el proceso y especialmente en la apreciación
                                                                      con el fin de concretarel        del riesgo y adopción de medidas cautelares.
                                                                      principio de igual-dad
                                                                                                    b. Brindar un trato respetuoso y acorde a la dig-
@@ -5600,10 +5716,15 @@ Antidiscriminación                                                el Poder Judi
 Ley                                                                                           4. Estrategias y políticas implementadas por                                     142
 Antidiscriminación                                                                               el Poder Judicial frente a la discriminación
 
-
 ## 3. Resguardar el derecho           a) Informar con un lenguaje claro y sencillo
 
-                                                                                                    del NNA a ser oído, en             acerca del proceso y su participación.
+**Definición Canónica:** del NNA a ser oído, en             acerca del proceso y su participación.
+                                                                                                    los términos estable-           b) Asegurar que los NNA sean escuchados.
+                                                                                                    cidos en la Conven-             c) Garantizar    que    existan    condiciones
+                                                                                                    ción, siendo necesario:            adecuadas para el acercamiento de los
+ 
+
+del NNA a ser oído, en             acerca del proceso y su participación.
                                                                                                     los términos estable-           b) Asegurar que los NNA sean escuchados.
                                                                                                     cidos en la Conven-             c) Garantizar    que    existan    condiciones
                                                                                                     ción, siendo necesario:            adecuadas para el acercamiento de los
@@ -5623,27 +5744,42 @@ Antidiscriminación                                                             
                                                                                                 efecto, por ejemplo, la reserva de la identidad del niño, en particular
                                                                                                 respecto de los medios de comunicación
 
-
 ## 5.     Resguardar las pruebas periciales de los NNA, así el registro debe efec-
 
-                                                                                                tuarse conforme lo dispuesto en la Ley N° 21.057 sobre entrevista video-
+**Definición Canónica:** tuarse conforme lo dispuesto en la Ley N° 21.057 sobre entrevista video-
+                                                                                                grabada, evitar la repetición de pruebas y la revictimización del NNA y
+                                                                                                valorar la prueba pericial en atención a los conocimientos específicos queel
+                                                                                                perito tenga en materias de infancia, estudio de la causa e interacción previa
+           
+**Concordancias Legales:** Ley N° 21.057
+
+tuarse conforme lo dispuesto en la Ley N° 21.057 sobre entrevista video-
                                                                                                 grabada, evitar la repetición de pruebas y la revictimización del NNA y
                                                                                                 valorar la prueba pericial en atención a los conocimientos específicos queel
                                                                                                 perito tenga en materias de infancia, estudio de la causa e interacción previa
                                                                                                 con el NNA, si recoge el interés manifiesto del niño, si el informe tiene el
                                                                                                 resultado y no solo las conclusiones de las pericias, etc.
 
-
 ## 6.     Velar por espacios adecuados de espera, facilitar instancias de despe- dida
 
-                                                                                                de los NNA de sus familiares significativos si son condenados con privación
+**Definición Canónica:** de los NNA de sus familiares significativos si son condenados con privación
                                                                                                 de libertad en centros penitenciarios, propiciando instancias decomunicación
                                                                                                 indirecta una vez que estén privados de libertad.
 
+de los NNA de sus familiares significativos si son condenados con privación
+                                                                                                de libertad en centros penitenciarios, propiciando instancias decomunicación
+                                                                                                indirecta una vez que estén privados de libertad.
 
 ## 4.1.1.2 Protocolo de acceso a la justicia
 
-                                                                                                de personas con discapacidad217
+**Definición Canónica:** de personas con discapacidad217
+                                                                                                Este Protocolo tiene la estructura general de los protocolos de acceso
+                                                                                                a la justicia, empleando un lenguaje y conceptos acordes con la Con-
+                                                                                                vención para las Personas con Discapacidad (CPD), ratificada por el
+                                                                        
+**Concordancias Legales:** artículo 3 de la Convención de las Naciones Unidas sobre los D
+
+de personas con discapacidad217
                                                                                                 Este Protocolo tiene la estructura general de los protocolos de acceso
                                                                                                 a la justicia, empleando un lenguaje y conceptos acordes con la Con-
                                                                                                 vención para las Personas con Discapacidad (CPD), ratificada por el
@@ -5729,24 +5865,31 @@ Antidiscriminación                                                el Poder Judi
 
 ## 3. Eliminar todo trato discriminatorio a personas con disca-
 
-                                                                                        pacidad en todo el proceso.
+**Definición Canónica:** pacidad en todo el proceso.
+                                                                  Ajustes ra-       1. Implementar ajustes razonables para un efectivo respeto y
+
+pacidad en todo el proceso.
                                                                   Ajustes ra-       1. Implementar ajustes razonables para un efectivo respeto y
 
                                                                   zonables             ejercicio de los derechos de las personas con discapacidad.
 
 ## 2. Tener en cuenta los diversos tipos de discapacidad, a fin de
 
-                                                                                       garantizar que los ajustes razonables logren eficazmente, tanto
+**Definición Canónica:** garantizar que los ajustes razonables logren eficazmente, tanto
                                                                                        la igualdad de oportunidades como el acceso a la justicia.
 
-## 3. Asegurar que se estén implementando los ajustes razona-
-
-                                                                                       bles de manera adecuada, mediante comunicación directa
-                                                                                       con las personas con discapacidad.
+garantizar que los ajustes razonables logren eficazmente, tanto
+                                                                                       la igualdad de oportunidades como el acceso a la justicia.
 
 ## 4. Considerar la posibilidad de brindar un ajuste razonable
 
-                                                                                        en caso que una de las partes se autoidentifique como
+**Definición Canónica:** en caso que una de las partes se autoidentifique como
+                                                                                        persona con discapacidad o se tenga una duda fundada
+                                                                                        acerca de la existencia de una discapacidad.
+                                                                  Lenguaje,         1. Usar un lenguaje no ofensivo y no discriminatorio, evitando
+                                                                  comunica-            términos comúnmente empleados por la l
+
+en caso que una de las partes se autoidentifique como
                                                                                         persona con discapacidad o se tenga una duda fundada
                                                                                         acerca de la existencia de una discapacidad.
                                                                   Lenguaje,         1. Usar un lenguaje no ofensivo y no discriminatorio, evitando
@@ -5762,7 +5905,13 @@ Antidiscriminación                                                el Poder Judi
 
 ## 4. Garantizar la accesibilidad, eliminando no solo las barreras
 
-                                                                                        de tipo físico, sino también las actitudinales, debiendo
+**Definición Canónica:** de tipo físico, sino también las actitudinales, debiendo
+                                                                                        preguntarse a la persona con discapacidad cuál es la forma
+                                                                                        o el medio en que requiere o prefiere recibir la información,
+                                                                                        sin dar por sentada alguna modalidad.
+                                                                                        En este sentido resulta aconseja
+
+de tipo físico, sino también las actitudinales, debiendo
                                                                                         preguntarse a la persona con discapacidad cuál es la forma
                                                                                         o el medio en que requiere o prefiere recibir la información,
                                                                                         sin dar por sentada alguna modalidad.
@@ -5780,7 +5929,12 @@ Antidiscriminación                                                el Poder Judi
 
 ## 8. Practicar la comunicación directa con las personas con
 
-                                                                                        discapacidad a fin de conocer su situación de vida y las
+**Definición Canónica:** discapacidad a fin de conocer su situación de vida y las
+                                                                                        medidas que tendrán que implementarse. Dicha comuni-
+                                                                                        cación deberá realizarse con la persona con discapacidad
+                                                                                        y no con las de apoyo.
+
+discapacidad a fin de conocer su situación de vida y las
                                                                                         medidas que tendrán que implementarse. Dicha comuni-
                                                                                         cación deberá realizarse con la persona con discapacidad
                                                                                         y no con las de apoyo.
@@ -5793,14 +5947,25 @@ Antidiscriminación                                                             
 
 ## 2. Aplicar, en caso de que las instalaciones no prevean los
 
-                                                                                                                    requerimientos de accesibilidad y diseño universal, los
+**Definición Canónica:** requerimientos de accesibilidad y diseño universal, los
+                                                                                                                    debidos ajustes razonables.
+                                                                                               Atención          1 Priorizar la atención y resolución de los juicios en los que
+                                                                                                                   se involucre a una persona con discapacidad.
+
+requerimientos de accesibilidad y diseño universal, los
                                                                                                                     debidos ajustes razonables.
                                                                                                Atención          1 Priorizar la atención y resolución de los juicios en los que
                                                                                                                    se involucre a una persona con discapacidad.
 
 ## 2. Asegurar la puntualidad en el inicio de las audiencias, el
 
-                                                                                                                    horario debería fijarse previa consulta con las personas
+**Definición Canónica:** horario debería fijarse previa consulta con las personas
+                                                                                                                    con discapacidad.
+                                                                                                                 3. Evitar comparecencias innecesarias.
+                                                                                               Discrimina-       1. Atender otros factores que pueden dar origen a la discrimi-
+                                                                                 
+
+horario debería fijarse previa consulta con las personas
                                                                                                                     con discapacidad.
                                                                                                                  3. Evitar comparecencias innecesarias.
                                                                                                Discrimina-       1. Atender otros factores que pueden dar origen a la discrimi-
@@ -5810,7 +5975,9 @@ Antidiscriminación                                                             
 
 ## 3. Considerar en todos los asuntos en los que intervengan
 
-                                                                                                                    mujeres con discapacidad, criterios orientados a combatir
+**Definición Canónica:** mujeres con discapacidad, criterios orientados a combatir
+
+mujeres con discapacidad, criterios orientados a combatir
 
                                                                                                                     la desigualdad entre las mujeres y hombres con discapa-
                                                                                                                     cidad, adoptando medidas encaminadas a erradicar los
@@ -5822,13 +5989,20 @@ Antidiscriminación                                                             
 
 ## 4. Procurar en la medida de lo posible, auxiliarse con un equipo
 
-                                                                                                                    multidisciplinario de profesionales de áreas relacionadas
+**Definición Canónica:** multidisciplinario de profesionales de áreas relacionadas
                                                                                                                     con las personas con discapacidad.
 
+multidisciplinario de profesionales de áreas relacionadas
+                                                                                                                    con las personas con discapacidad.
 
 ## 4.1.1.3 Protocolo de acceso a la justicia de
 
-                                                                                              grupos vulnerables: personas migrantes y
+**Definición Canónica:** grupos vulnerables: personas migrantes y
+                                                                                              sujetas a protección internacional218
+                                                                                              Este Protocolo comienza señalando una serie de conceptos, siendo
+                                                                                              los más relevantes los siguientes:
+
+grupos vulnerables: personas migrantes y
                                                                                               sujetas a protección internacional218
                                                                                               Este Protocolo comienza señalando una serie de conceptos, siendo
                                                                                               los más relevantes los siguientes:
@@ -5965,8 +6139,11 @@ Antidiscriminación                                                             
 
 ## 10.       Revisado en https://eacnur.org/blog/proteccion-internacional-la-esperanza-de millones de- personas/
 
+**Definición Canónica:** Ley                                                                                          4. Estrategias y políticas implementadas por                                     148
+Antidiscriminación                                                                              el Poder Judicial frente a la discriminación
+**Concordancias Legales:** D.L 1094; constitucion
 
-Ley                                                                                          4. Estrategias y políticas implementadas por                                     148
+Ley                                                                                          4. Estrategias y políticas implementadas por                                     148
 Antidiscriminación                                                                              el Poder Judicial frente a la discriminación
 
                                                                                                 Unidad familiar
@@ -6079,10 +6256,12 @@ Antidiscriminación                                                             
 Ley                                                            4. Estrategias y políticas implementadas por                                       150
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
 
-
 ## 4.1.1.4 Protocolo de acceso a la justicia de grupos
 
-                                                                 vulnerables: personas, comunidades y pueblos indígenas
+**Definición Canónica:** vulnerables: personas, comunidades y pueblos indígenas
+                                                                 El Protocolo enuncia una serie de conceptos relevantes a saber:
+
+vulnerables: personas, comunidades y pueblos indígenas
                                                                  El Protocolo enuncia una serie de conceptos relevantes a saber:
 
                                                                   Indígena           Aquel que se identifica como indígena o tiene conciencia de
@@ -6214,10 +6393,12 @@ Antidiscriminación                                                el Poder Judi
 Ley                                                                                         4. Estrategias y políticas implementadas por                                153
 Antidiscriminación                                                                             el Poder Judicial frente a la discriminación
 
-
 ## 4.2               La igualdad de género y no discriminación
 
-                                                                                              en el Poder Judicial
+**Definición Canónica:** en el Poder Judicial
+**Concordancias Legales:** constitución
+
+en el Poder Judicial
 
                                                                                               Teniendo como pilar fundamental el principio de igualdad y no
                                                                                               discriminación en el ejercicio judicial, desde el año 2014 el Poder
@@ -6240,10 +6421,12 @@ Antidiscriminación                                                             
                                                                                               chileno. Dicho instrumento consideró la realización de acciones
                                                                                               específicas en materia de capacitación, sensibilización y difusión”.229
 
-
 ## 4.2.1 Designación de Ministra de la Excma. Corte
 
-                                                                                              Suprema encargada de los asuntos de género
+**Definición Canónica:** Suprema encargada de los asuntos de género
+                                                                                              y la instauración de la Mesa de Género
+
+Suprema encargada de los asuntos de género
                                                                                               y la instauración de la Mesa de Género
 
                                                                                               La designación de una ministra encargada de los asuntos de gé-
@@ -6320,10 +6503,15 @@ Antidiscriminación                                                             
                                                                                              del universo de la época, contando con un nivel de error total de
                                                                                              1,2%, y con un 95% de confianza”.233
 
-
 ## 4.2.2 Resultados del Estudio Diagnóstico de
 
-                                                                                             la perspectiva de Igualdad de Género en el
+**Definición Canónica:** la perspectiva de Igualdad de Género en el
+                                                                                             Poder Judicial Chileno del año 2016
+                                                                                                 “Los resultados del estudio dan cuenta del contexto social y cul-
+                                                                                                 tural en que los integrantes del Poder Judicial desarrollan su labor.
+                                                                                                 U
+
+la perspectiva de Igualdad de Género en el
                                                                                              Poder Judicial Chileno del año 2016
                                                                                                  “Los resultados del estudio dan cuenta del contexto social y cul-
                                                                                                  tural en que los integrantes del Poder Judicial desarrollan su labor.
@@ -6373,11 +6561,15 @@ Antidiscriminación                                                             
 
                                                                                              7. Formación, perfeccionamiento y habilitación;
 
-
 ## 8. Atención de usuarios
 
+**Definición Canónica:** En la página de la secretaría técnica se indica que: “El análisis nor-
+                                                                                             mativo, en definitiva determina que si bien se reconoce la igualdad
+                                                                                             formal y por ende no existen discriminaciones o exclusiones explícitas
+                                                                                             de hombres ni de mujeres por alguna condición vinculada a su géne- ro,
+                                        
 
-                                                                                             En la página de la secretaría técnica se indica que: “El análisis nor-
+En la página de la secretaría técnica se indica que: “El análisis nor-
                                                                                              mativo, en definitiva determina que si bien se reconoce la igualdad
                                                                                              formal y por ende no existen discriminaciones o exclusiones explícitas
                                                                                              de hombres ni de mujeres por alguna condición vinculada a su géne- ro,
@@ -6561,10 +6753,14 @@ Antidiscriminación                                                el Poder Judi
                                                                  refieren la escasez de la oferta existente y la relevancia de incorporar
                                                                  la perspectiva de género en capacitaciones futuras.
 
-
 ## 4.2.3 Secretaría Técnica de igualdad
 
-                                                                 de género y no discriminación
+**Definición Canónica:** de género y no discriminación
+                                                                 Es un organismo técnico que está a cargo de la implementación
+                                                                 operativa de todas las acciones derivadas de Política de Género y No
+                                                                 Discriminación del Poder Judicial de Chile. Su estructura permanen-
+
+de género y no discriminación
                                                                  Es un organismo técnico que está a cargo de la implementación
                                                                  operativa de todas las acciones derivadas de Política de Género y No
                                                                  Discriminación del Poder Judicial de Chile. Su estructura permanen-
@@ -6578,25 +6774,13 @@ Antidiscriminación                                                             
                                                                                               través del/la Ministra/o encargada/o de los asuntos de género del
                                                                                               mismo Tribunal.
 
-
-## 4.2.3.1 Objetivos principales
-
-
-
-## 4.2.3.2 Funciones
-
-
-                                                                                              Diagrama Secretaría Técnica
-
-
-## 1. Promover acciones de difusión, sensibilización y socialización
-
-                                                                                                 dirigidas a los integrantes del Poder Judicial en materia de igual-
-                                                                                                 dad de género y no discriminación.
-
 ## 2. Realizar estudios e investigación para profundizar el conoci-
 
-                                                                                                 miento de la institución en materia de igualdad de género y no
+**Definición Canónica:** miento de la institución en materia de igualdad de género y no
+                                                                                                 discriminación y mostrar los progresos que se realicen.
+                                                                                              3. Realizar acciones de comunicación y difusión de las actividades.
+
+miento de la institución en materia de igualdad de género y no
                                                                                                  discriminación y mostrar los progresos que se realicen.
                                                                                               3. Realizar acciones de comunicación y difusión de las actividades.
 
@@ -6605,10 +6789,15 @@ Antidiscriminación                                                             
 Ley                                                                                         4. Estrategias y políticas implementadas por                          163
 Antidiscriminación                                                                             el Poder Judicial frente a la discriminación
 
-
 ## 4. Promover la articulación con otras instancias al interior del Poder
 
-                                                                                                 Judicial a fin de establecer alianzas estratégicas que permitan
+**Definición Canónica:** Judicial a fin de establecer alianzas estratégicas que permitan
+                                                                                                 transversalizar la temática en la institución. Asimismo, estable-
+                                                                                                 cer vinculaciones con otros servicios públicos, instituciones de
+                                                                                                 aplicación de la ley, organismos internacionales, otros Poderes
+                                                  
+
+Judicial a fin de establecer alianzas estratégicas que permitan
                                                                                                  transversalizar la temática en la institución. Asimismo, estable-
                                                                                                  cer vinculaciones con otros servicios públicos, instituciones de
                                                                                                  aplicación de la ley, organismos internacionales, otros Poderes
@@ -6616,14 +6805,23 @@ Antidiscriminación                                                             
 
 ## 5. Evaluar y hacer seguimiento de las acciones y actividades rea-
 
-                                                                                                 lizadas con el fin de monitorear, tomar decisiones estratégicas,
+**Definición Canónica:** lizadas con el fin de monitorear, tomar decisiones estratégicas,
                                                                                                  retroalimentar el diseño de la política y actividades para tener
                                                                                                  presencia en organismos.
 
+lizadas con el fin de monitorear, tomar decisiones estratégicas,
+                                                                                                 retroalimentar el diseño de la política y actividades para tener
+                                                                                                 presencia en organismos.
 
 ## 4.2.4 Política de igualdad de género y no
 
-                                                                                              discriminación del Poder Judicial
+**Definición Canónica:** discriminación del Poder Judicial
+                                                                                              Con fecha 5 de febrero de 2018, mediante AD N°1450-2017238, se
+                                                                                              aprobó por el Pleno de la Corte Suprema de Justicia la Política de
+                                                                                              igualdad de Género y No discriminación en el Poder Judicial.239
+                                                                                          
+
+discriminación del Poder Judicial
                                                                                               Con fecha 5 de febrero de 2018, mediante AD N°1450-2017238, se
                                                                                               aprobó por el Pleno de la Corte Suprema de Justicia la Política de
                                                                                               igualdad de Género y No discriminación en el Poder Judicial.239
@@ -6661,10 +6859,12 @@ Antidiscriminación                                                        el Po
                                                                          y accesible; proba, transparente, íntegra y socialmente responsable;
                                                                          y cercana, oportuna y efectiva”.
 
-
 ## 4.2.4.1 Objetivo
 
-                                                                              “Incorporar la perspectiva de género y derechos humanos en todo
+**Definición Canónica:** “Incorporar la perspectiva de género y derechos humanos en todo
+                                                                              el quehacer del Poder Judicial, lo que implica que el servicio que
+
+“Incorporar la perspectiva de género y derechos humanos en todo
                                                                               el quehacer del Poder Judicial, lo que implica que el servicio que
 
                                                                               presta la institución en todos sus ámbitos, fases y niveles, tome en
@@ -6681,11 +6881,11 @@ Antidiscriminación                                                        el Po
 Ley                                                            4. Estrategias y políticas implementadas por                                           165
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
 
-
 ## 4.2.4.2 Fin y propósito de la Política
 
+**Definición Canónica:** Fin                                            Propósito
 
-                                                                  Fin                                            Propósito
+Fin                                            Propósito
 
                                                                   El fin de la Política de Igualdad de           El propósito de la Política de Igualdad
                                                                   Género y No Discriminación del Poder           de Género y No Discriminación del
@@ -6702,19 +6902,14 @@ Antidiscriminación                                                el Poder Judi
                                                                   impliquen un cambio en la cultura
                                                                   institucional.
 
-
-## 4.2.4.3 Destinatarios
-
-
-
-## 1. Integrantes del Poder Judicial, propiciando espacios de trabajo
-
-                                                                    libres de violencia y discriminación, para así encaminarse hacia
-                                                                    el logro de una igualdad efectiva entre sus integrantes.
-
 ## 2. Todos los usuarios o potenciales usuarios, por medio de la in-
 
-                                                                    corporación de la perspectiva de género en la administración de
+**Definición Canónica:** corporación de la perspectiva de género en la administración de
+                                                                    justicia y, como efecto general, a toda la población, en la medida
+                                                                    que generará transformaciones en nuestra comunidad al eliminar
+                                                                    o disminuir los roles y estereotipos que crean desigualdades.
+
+corporación de la perspectiva de género en la administración de
                                                                     justicia y, como efecto general, a toda la población, en la medida
                                                                     que generará transformaciones en nuestra comunidad al eliminar
                                                                     o disminuir los roles y estereotipos que crean desigualdades.
@@ -6722,14 +6917,14 @@ Antidiscriminación                                                el Poder Judi
 Ley                                                            4. Estrategias y políticas implementadas por                             166
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
 
-
-## 4.2.4.4 Ejes estratégicos
-
-
-
 ## 1. No Discriminación de Género: el objetivo de este eje estratégico
 
-                                                                    es eliminar las barreras por motivos de sexo, género, identidad
+**Definición Canónica:** es eliminar las barreras por motivos de sexo, género, identidad
+                                                                    de género u orientación sexual en el Poder Judicial que distin-
+                                                                    guen, excluyen o restringen el adecuado goce y ejercicio de los
+                                                                    derechos humanos a los integrantes y a los usuarios y usuarias
+
+es eliminar las barreras por motivos de sexo, género, identidad
                                                                     de género u orientación sexual en el Poder Judicial que distin-
                                                                     guen, excluyen o restringen el adecuado goce y ejercicio de los
                                                                     derechos humanos a los integrantes y a los usuarios y usuarias
@@ -6738,14 +6933,25 @@ Antidiscriminación                                                el Poder Judi
 
 ## 2. Enfoque de género en el acceso a la justicia: este eje tiene por
 
-                                                                    objetivo transversalizar la perspectiva de género en todo el
+**Definición Canónica:** objetivo transversalizar la perspectiva de género en todo el
+                                                                    quehacer del Poder Judicial, con especial énfasis en la atención
+                                                                    de usuarios/as y en el ejercicio de la labor jurisdiccional, con el
+                                                                    propósito de garantizar el efectivo acceso a la justicia.
+
+objetivo transversalizar la perspectiva de género en todo el
                                                                     quehacer del Poder Judicial, con especial énfasis en la atención
                                                                     de usuarios/as y en el ejercicio de la labor jurisdiccional, con el
                                                                     propósito de garantizar el efectivo acceso a la justicia.
 
 ## 3. No violencia de género: este eje tiene como objetivo erradicar
 
-                                                                    del quehacer del Poder Judicial todas las acciones o conductas
+**Definición Canónica:** del quehacer del Poder Judicial todas las acciones o conductas
+                                                                    basadas en el género que causen muerte, daño o sufrimiento fí-
+                                                                    sico, sexual o psicológico a todas las personas, tanto en el ámbito
+                                                                    público como en el privado, en particular aquellas que impliquen
+                                                                    acoso sexual y laboral por motivos de género.
+
+del quehacer del Poder Judicial todas las acciones o conductas
                                                                     basadas en el género que causen muerte, daño o sufrimiento fí-
                                                                     sico, sexual o psicológico a todas las personas, tanto en el ámbito
                                                                     público como en el privado, en particular aquellas que impliquen
@@ -6753,7 +6959,13 @@ Antidiscriminación                                                el Poder Judi
 
 ## 4. Capacitación: para los efectos de la presente Política se entenderá
 
-                                                                    que la capacitación constituye un eje transversal cuyo objetivo es
+**Definición Canónica:** que la capacitación constituye un eje transversal cuyo objetivo es
+                                                                    el de contribuir a la difusión, sensibilización y socialización de
+                                                                    las temáticas de igualdad y no discriminación y de inclusión de
+                                                                    la perspectiva de género, entre todos los integrantes del Poder
+                                                                    Judicial con el fin de garantizar el acceso efectivo a la justicia
+
+que la capacitación constituye un eje transversal cuyo objetivo es
                                                                     el de contribuir a la difusión, sensibilización y socialización de
                                                                     las temáticas de igualdad y no discriminación y de inclusión de
                                                                     la perspectiva de género, entre todos los integrantes del Poder
@@ -6767,10 +6979,14 @@ Antidiscriminación                                                el Poder Judi
 Ley                                                                                         4. Estrategias y políticas implementadas por                                167
 Antidiscriminación                                                                             el Poder Judicial frente a la discriminación
 
-
 ## 4.2.5 Institucionalidad vigente y Creación
 
-                                                                                              del Consejo Consultivo Asesor
+**Definición Canónica:** del Consejo Consultivo Asesor
+                                                                                              Asimismo, con fecha 18 de junio de 2019, mediante el AD 1450-
+                                                                                              2017242:
+**Concordancias Legales:** artículo 1; Constitución
+
+del Consejo Consultivo Asesor
                                                                                               Asimismo, con fecha 18 de junio de 2019, mediante el AD 1450-
                                                                                               2017242:
 
@@ -6920,16 +7136,25 @@ Antidiscriminación                                                             
 
 ## 1. Promoción y prevención
 
-                                                                                                 “Las acciones de promoción y prevención son vitales, en orden a ge-
+**Definición Canónica:** “Las acciones de promoción y prevención son vitales, en orden a ge-
                                                                                                  nerar procedimientos que regulen espacios ambiguos y promuevan
                                                                                                  la modificación del tipo de relaciones que deben construir mujeres
                                                                                                  y hombres en el marco del trato igualitario y el respeto mutuo”.245
 
+“Las acciones de promoción y prevención son vitales, en orden a ge-
+                                                                                                 nerar procedimientos que regulen espacios ambiguos y promuevan
+                                                                                                 la modificación del tipo de relaciones que deben construir mujeres
+                                                                                                 y hombres en el marco del trato igualitario y el respeto mutuo”.245
 
 ## 2. Abordaje del acoso sexual
 
+**Definición Canónica:** La investigación de las denuncias de acoso sexual se desarrollan
+                                                                                                 conforme a las normas contenidas en el Código Orgánico de Tri-
+                                                                                                 bunales en la parte que regula el tratamiento de las infracciones
+                                                                                                 disciplinarias, el Acta N° 15-2018 que regula las investigaciones
+                                                 
 
-                                                                                                 La investigación de las denuncias de acoso sexual se desarrollan
+La investigación de las denuncias de acoso sexual se desarrollan
                                                                                                  conforme a las normas contenidas en el Código Orgánico de Tri-
                                                                                                  bunales en la parte que regula el tratamiento de las infracciones
                                                                                                  disciplinarias, el Acta N° 15-2018 que regula las investigaciones
@@ -6962,10 +7187,15 @@ Antidiscriminación                                                             
 
                                                                                                    https://www.youtube.com/watch?v=YXP8tzQa0P8
 
-
 ## 4.2.7 Protocolo de actuación para la atención en
 
-                                                                                              justicia con enfoque de género y diversidad sexual
+**Definición Canónica:** justicia con enfoque de género y diversidad sexual
+                                                                                              Dando continuidad a las acciones efectuadas por el Poder Judicial
+                                                                                              para incorporar la perspectiva de género y no discriminación en la
+                                                                                              administración de Justicia, y alineada con la Política de Género y No
+                                                                
+
+justicia con enfoque de género y diversidad sexual
                                                                                               Dando continuidad a las acciones efectuadas por el Poder Judicial
                                                                                               para incorporar la perspectiva de género y no discriminación en la
                                                                                               administración de Justicia, y alineada con la Política de Género y No
@@ -6986,11 +7216,12 @@ Antidiscriminación                                                             
 Ley                                                            4. Estrategias y políticas implementadas por                                           173
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
 
-
 ## 4.2.7.1 Estructura del Protocolo
 
+**Definición Canónica:** El Protocolo de actuación para la atención en justicia con enfoque
+                                                                 de género y diversidad sexual consta de tres partes:
 
-                                                                 El Protocolo de actuación para la atención en justicia con enfoque
+El Protocolo de actuación para la atención en justicia con enfoque
                                                                  de género y diversidad sexual consta de tres partes:
 
                                                                                   I. Presentación    - Propósito del pro-
@@ -7020,18 +7251,21 @@ Antidiscriminación                                                el Poder Judi
 
 ## 2. Estereotipos, roles y re-
 
-                                                                                                                             presentaciones de género
+**Definición Canónica:** presentaciones de género
                                                                                                                              y diversidades sexuales
                                                                                                                              en el poder judicial y sus
                                                                                                                              consecuencias prácticas,
 
-## 3. Formación, especialización
-
-                                                                                                                             y difusión y
+presentaciones de género
+                                                                                                                             y diversidades sexuales
+                                                                                                                             en el poder judicial y sus
+                                                                                                                             consecuencias prácticas,
 
 ## 4. Poder Judicial, sociedad y
 
-                                                                                                                              cambio institucional.
+**Definición Canónica:** cambio institucional.
+
+cambio institucional.
 
 Ley                                                            4. Estrategias y políticas implementadas por                                             174
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
@@ -7055,10 +7289,15 @@ Antidiscriminación                                                el Poder Judi
                                                                                      Chile.                                 componente de género o
                                                                                                                             diversidad sexual.
 
-
 ## 2. Recomendacio- 2.1. Recomendaciones sobre
 
-                                                                                                      nes para el mejor     las relaciones de género al
+**Definición Canónica:** nes para el mejor     las relaciones de género al
+                                                                                                      trato entre inte-     interior del tribunal.
+                                                                                                      grantes del tri- 2.2. Recomendaciones sobre for-
+                                                                                                      bunal.                mación, capacitación y difu-
+                                                                                                   
+
+nes para el mejor     las relaciones de género al
                                                                                                       trato entre inte-     interior del tribunal.
                                                                                                       grantes del tri- 2.2. Recomendaciones sobre for-
                                                                                                       bunal.                mación, capacitación y difu-
@@ -7073,19 +7312,12 @@ Antidiscriminación                                                el Poder Judi
                                                                                      nacional.                            nente de Género o diversidad
                                                                                                                           sexual.
 
-## 3. Recomendaciones sobre las
-
-                                                                                                                          relaciones de género al inte-
-                                                                                                                          rior del PJUD.
-
-## 4. Recomendaciones sobre for-
-
-                                                                                                                           mación, capacitación y difu-
-                                                                                                                           sión en el PJUD.
-
 ## 5. Recomendaciones sobre in-
 
-                                                                                                                          fraestructura y habitabilidad
+**Definición Canónica:** fraestructura y habitabilidad
+                                                                                                                          en el PJUD.
+
+fraestructura y habitabilidad
                                                                                                                           en el PJUD.
 
                                                                  En la segunda parte se abordan diversas recomendaciones para el
@@ -7094,10 +7326,14 @@ Antidiscriminación                                                el Poder Judi
                                                                  recomendaciones y luego se las señalan. La tercera y última parte
                                                                  contiene los anexos.
 
-
 ## 4.2.7.2 Recomendaciones de interés
 
-                                                                 Si bien todo el protocolo constituye una excelente herramienta para
+**Definición Canónica:** Si bien todo el protocolo constituye una excelente herramienta para
+                                                                 quienes forman parte del Poder Judicial en cada uno de sus esta-
+                                                                 mentos, conteniendo el protocolo diversas sugerencias para hacer
+**Concordancias Legales:** Ley N° 21.120
+
+Si bien todo el protocolo constituye una excelente herramienta para
                                                                  quienes forman parte del Poder Judicial en cada uno de sus esta-
                                                                  mentos, conteniendo el protocolo diversas sugerencias para hacer
 
@@ -7289,10 +7525,16 @@ Antidiscriminación                                                el Poder Judi
 Ley                                                            4. Estrategias y políticas implementadas por                           180
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
 
-
 ## 4.2.8 Condicionantes de género en la
 
-                                                                 movilidad y ascensos a los cargos de
+**Definición Canónica:** movilidad y ascensos a los cargos de
+                                                                 mayor jerarquía en el Poder Judicial
+                                                                 Como contexto a este estudio se debe tener presente que el Poder
+                                                                 Judicial se compone de más mujeres que de hombres, sin embargo,
+                                                                 en los más altos cargos (ministras, ministros y jefaturas) las mujeres
+                                                                 e
+
+movilidad y ascensos a los cargos de
                                                                  mayor jerarquía en el Poder Judicial
                                                                  Como contexto a este estudio se debe tener presente que el Poder
                                                                  Judicial se compone de más mujeres que de hombres, sin embargo,
@@ -7429,7 +7671,14 @@ Antidiscriminación                                                el Poder Judi
 
 ## 1. La designación de una Ministra de la Excma. Corte Suprema
 
-                                                                    encargada de los asuntos de género quien representa al Poder
+**Definición Canónica:** encargada de los asuntos de género quien representa al Poder
+                                                                    Judicial en todas las instancias internacionales en la materia y
+                                                                    lidera las acciones tendientes a trasnversalizar la perspectiva de
+                                                                    género considerando acciones a nivel interno como externo,
+                                                                    siendo actualmente doña Andrea Muñoz Sánchez.
+                              
+
+encargada de los asuntos de género quien representa al Poder
                                                                     Judicial en todas las instancias internacionales en la materia y
                                                                     lidera las acciones tendientes a trasnversalizar la perspectiva de
                                                                     género considerando acciones a nivel interno como externo,
@@ -7439,17 +7688,27 @@ Antidiscriminación                                                el Poder Judi
 Ley                                                            4. Estrategias y políticas implementadas por                          184
 Antidiscriminación                                                el Poder Judicial frente a la discriminación
 
-
 ## 3. La creación de la Secretaría Técnica de igualdad de género y no
 
-                                                                    discriminación, organismo técnico que está a cargo de la imple-
+**Definición Canónica:** discriminación, organismo técnico que está a cargo de la imple-
+                                                                    mentación operativa de todas las acciones derivadas de Política
+                                                                    de Género y No Discriminación del Poder Judicial. La Política
+                                                                    de igualdad de género y no discriminación del Poder Judicial.
+
+discriminación, organismo técnico que está a cargo de la imple-
                                                                     mentación operativa de todas las acciones derivadas de Política
                                                                     de Género y No Discriminación del Poder Judicial. La Política
                                                                     de igualdad de género y no discriminación del Poder Judicial.
 
 ## 4. La creación de una institucionalidad propuesta por la ministra
 
-                                                                    encargada de los asuntos de género para la implementación y
+**Definición Canónica:** encargada de los asuntos de género para la implementación y
+                                                                    evaluación de la referida Política de Igualdad de Género y No
+                                                                    Discriminación, conforme a la cual se crea el Consejo Consultivo
+                                                                    Asesor, destinado a proponer estrategias para impulsar las accio-
+                                                                    nes institucionales dirigidas a la implementación de la Política de
+
+encargada de los asuntos de género para la implementación y
                                                                     evaluación de la referida Política de Igualdad de Género y No
                                                                     Discriminación, conforme a la cual se crea el Consejo Consultivo
                                                                     Asesor, destinado a proponer estrategias para impulsar las accio-
@@ -7461,13 +7720,15 @@ Antidiscriminación                                                el Poder Judi
                                                                     quehacer del Poder Judicial, con particular énfasis en el acceso
                                                                     a la justicia de los usuarios y usuarias.
 
-## 5. El Procedimiento de actuación para la prevención, denuncia y
-
-                                                                    tratamiento del acoso sexual.
-
 ## 6. Elaboración de diversos estudios que permiten conocer la realidad
 
-                                                                    del Poder Judicial en estas materias: a) El Estudio Diagnóstico de
+**Definición Canónica:** del Poder Judicial en estas materias: a) El Estudio Diagnóstico de
+                                                                    la perspectiva de Igualdad de Género en el Poder Judicial Chileno
+                                                                    del año 2016. b) Protocolo de actuación para la atención en justicia
+                                                                    con enfoque de género y diversidad sexual. c) Condicionantes de
+                                                                    género en la movilidad y ascensos a los cargos de mayor jerarq
+
+del Poder Judicial en estas materias: a) El Estudio Diagnóstico de
                                                                     la perspectiva de Igualdad de Género en el Poder Judicial Chileno
                                                                     del año 2016. b) Protocolo de actuación para la atención en justicia
                                                                     con enfoque de género y diversidad sexual. c) Condicionantes de
@@ -7557,88 +7818,53 @@ Ley
 
                                              Bibliografía
 
-
-## 1.   ALEGRE, Marcelo y GARGARELLA Roberto (2012): El derecho a la igualdad
-
-                                             (Buenos Aires: Editorial Abeledo Perrot).
-
-                                        2.   ARISTÓTELES (s/a): Política, (Panamericana).
-
-
-## 3.   ARROYO Roxana (2011): “Acceso a la justicia para las mujeres, el laberinto
-
-                                             androcéntrico del derecho”, en Revista IIDH, (Nº. 53), pp. 35-62. Versión
-                                             onli-ne en: https://www.corteidh.or.cr/tablas/r26673.pdf
-
-
-## 4.   BARRÉRE, Ma de los Ángeles (2011): “La subordiscriminación y discrimina-
-
-                                             ción interseccional: Elementos para una teoría del Derecho antidiscrimina-
-                                             torio”, en Anales de la Cátedra Francisco Suárez (45), pp. 15-42.
-
-
-## 5.   BARRÉRE, María de los Ángeles (2004): “De la acción positiva a la “dis-
-
-                                             criminación positiva” en el proceso legislativo español”, en Jueces para
-
-                                             lademocracia (n° 51), pp. 26-33.
-
-
 ## 6.   BAYEFSKY, Anne (1990): “El principio de igualdad o no discriminación en el
 
-                                             Derecho Internacional”, en Human Rights Law Journal (Traduce: Centro de
+**Definición Canónica:** Derecho Internacional”, en Human Rights Law Journal (Traduce: Centro de
                                              Derechos Humanos, Facultad de Derecho, Universidad de Chile, Vol. 11, N°
                                              1-2), pp. 1-34. Versión online en: https://www.corteidh.or.cr/tablas/r31086spa.
                                              pdf
 
+Derecho Internacional”, en Human Rights Law Journal (Traduce: Centro de
+                                             Derechos Humanos, Facultad de Derecho, Universidad de Chile, Vol. 11, N°
+                                             1-2), pp. 1-34. Versión online en: https://www.corteidh.or.cr/tablas/r31086spa.
+                                             pdf
 
 ## 7.   BECERRA Sandra; MANSILLA Juan; TAPIA Carmen (2009): “Prejuicio y dis-
 
-                                             criminación étnica: un factor de riesgo para los contextos escolares
+**Definición Canónica:** criminación étnica: un factor de riesgo para los contextos escolares
                                              vulne-rables”, en Revista Investigaciones en Educación. (Vol. 9 N° 1).
                                              Versión onlineen:
                                              http://revistas.ufro.cl/ojs/index.php/educacion/article/view/973
 
+criminación étnica: un factor de riesgo para los contextos escolares
+                                             vulne-rables”, en Revista Investigaciones en Educación. (Vol. 9 N° 1).
+                                             Versión onlineen:
+                                             http://revistas.ufro.cl/ojs/index.php/educacion/article/view/973
 
 ## 8.   BERTOLOTTI, Martín (2018): “La diversidad sexual en el sistema interame-
 
-                                             ricano de derechos humanos después de la Opinión Consultiva OC-
+**Definición Canónica:** ricano de derechos humanos después de la Opinión Consultiva OC-
                                              24/17”,en RECorDIP (Universidad Nacional de Córdoba, N°1). Versión
                                              online en:
                                              https://cordoba.academia.edu/Departments/Centro_de_Investigacio-
                                              nes_Jur%C3%ADdicas_y_Sociales_de_la_Facultad_de_Derecho/Docu-
                                              ments?page=2
 
-
-## 9. BERNAL DEL CASTILLO, Jesús (1998): La discriminación en el Derecho Pe-
-
-                                            nal (Granada, Comares).
-
-
-## 10. BERISTAIN, Antonio, (1999): Comentario al artículo 22.4, en Cobo Del
-
-                                            Rosal,Manuel (director), Comentarios al Código Penal (Madrid, Edersa).
-
-
-## 11. BORJA, Emiliano, (1999): Violencia y criminalidad racista en Europa occi-
-
-                                             dental: la respuesta del Derecho Penal (Granada, Comares).
-
-
-## 12. BULNES, Luz (1984): “La igualdad ante la ley” en Gaceta Jurídica N° 49
-
-                                             (Santiago, Editorial Jurídica ConoSur Ltda.), pp. 3-11.
-
-
-## 13. CANOSA, Raúl (2008): “Igualdad y no discriminación en el Derecho Interna-
-
-                                             cional de los derechos humanos”, en Revista Europea de Derechos Funda-
-                                             mentales (Núm. 11/1er semestre) pp. 39-66.
-
+ricano de derechos humanos después de la Opinión Consultiva OC-
+                                             24/17”,en RECorDIP (Universidad Nacional de Córdoba, N°1). Versión
+                                             online en:
+                                             https://cordoba.academia.edu/Departments/Centro_de_Investigacio-
+                                             nes_Jur%C3%ADdicas_y_Sociales_de_la_Facultad_de_Derecho/Docu-
+                                             ments?page=2
 
 ## 14. CASAS, Lidia (2014): “Análisis crítico de la acción de no discriminación
 
-                                             arbitraria a la luz de los primeros casos”, en Anuario de Derechos Humanos
+**Definición Canónica:** arbitraria a la luz de los primeros casos”, en Anuario de Derechos Humanos
+                                             (N° 10), pp. 127-137. Versión online en:
+                                             https://anuariocdh.uchile.cl/index.php/ ADH/article/view/31699
+
+arbitraria a la luz de los primeros casos”, en Anuario de Derechos Humanos
                                              (N° 10), pp. 127-137. Versión online en:
                                              https://anuariocdh.uchile.cl/index.php/ ADH/article/view/31699
 
@@ -7646,57 +7872,41 @@ Ley
                                            Bibliografía                                                                           189
 Ley
 
-
 ## 15. CASAS BECERRA, Lidia y LAGOS TSCHORNE, Catalina (2014): “Análisis
 
-                                            crítico de la acción de no discriminación arbitraria a la luz de los
+**Definición Canónica:** crítico de la acción de no discriminación arbitraria a la luz de los
                                             primeros casos”, en Anuario de Derechos Humanos, Universidad de Chile
                                             (N°10) pp.129-130.
 
-
-## 16. CASTILLA y CORTÁZAR, Blanca (1997): Persona y género. Ser varón y ser
-
-                                            mujer (Barcelona, Ediciones internacionales universitarias).
-
-## 17. CEREZO MIR, José, (2001): Curso de Derecho penal español. Parte
-
-                                            general (6ª edición, Madrid, Tecnos).
-
-
-## 18. CIDH, “Informe sobre acceso a la justicia de las mujeres víctimas de violen-
-
-                                            cia”, OEA/Ser.L/V/II.Doc. 68, 20 de enero de 2007.
-
-
-## 19. CIJ, Opinión Disidente del Juez Tanaka, “Casos del sudoeste africano”
-
-                                            (se-gunda fase), Corte Internacional de Justicia, Rep. 1966, pp. 260-261.
-
+crítico de la acción de no discriminación arbitraria a la luz de los
+                                            primeros casos”, en Anuario de Derechos Humanos, Universidad de Chile
+                                            (N°10) pp.129-130.
 
 ## 20. COMISIÓN INTERAMERICANA DE DERECHOS HUMANOS (2012): Glosario
 
-                                            de términos: Orientación sexual, identidad de género y expresión de género: algunos
+**Definición Canónica:** de términos: Orientación sexual, identidad de género y expresión de género: algunos
+
+de términos: Orientación sexual, identidad de género y expresión de género: algunos
 
                                             términos y estándares relevantes. Versión online en: http://www.oas.
                                             org/dil/esp/CP-CAJP-INF_166-12_esp.pdf
 
-
-## 21. COMISIÓN INTERAMERICANA DE DERECHOS HUMANOS (2019): “Informe
-
-                                            Reconocimiento de Derechos de Personas LGBTI”. Versión online en: http://
-                                            www.oas.org/es/cidh/informes/pdfs/LGBTI-ReconocimientoDerechos2019.pdf
-
-
 ## 22. COOK Rebecca J. y CUSACK Simone (2009): Estereotipos de Género: Pers-
 
-                                            pectivas Legales y Transnacionales, (Traduce Andrea Parra, Pennsylvania).
+**Definición Canónica:** pectivas Legales y Transnacionales, (Traduce Andrea Parra, Pennsylvania).
                                             Versión online en: https://www.law.utoronto.ca/utfl_file/count/documents/
                                             reprohealth/estereotipos-de-genero.pdf
 
+pectivas Legales y Transnacionales, (Traduce Andrea Parra, Pennsylvania).
+                                            Versión online en: https://www.law.utoronto.ca/utfl_file/count/documents/
+                                            reprohealth/estereotipos-de-genero.pdf
 
 ## 23. CORTE INTERAMERICANA DE DERECHOS HUMANOS (2018): Cuadernillos
 
-                                            de Jurisprudencia. N° 4. “Género”. Versión online en: http://www.corteidh.
+**Definición Canónica:** de Jurisprudencia. N° 4. “Género”. Versión online en: http://www.corteidh.
+                                            or.cr/sitios/libros/todos/docs/cuadernillo4.pdf
+
+de Jurisprudencia. N° 4. “Género”. Versión online en: http://www.corteidh.
                                             or.cr/sitios/libros/todos/docs/cuadernillo4.pdf
 
                                         24. CORTE INTERAMERICANA DE DERECHOS HUMANOS (2018):
@@ -7704,33 +7914,38 @@ Ley
                                             Versión online en:
                                             http://www.corteidh.or.cr/sitios/libros/todos/docs/cuadernillo19.pdf
 
-
 ## 25. CORTE INTERAMERICANA DE DERECHOS HUMANOS (2017): Cuaderni-
 
-                                            llo de Jurisprudencia Nº 2. “Personas en situación de migración o refugio”.
+**Definición Canónica:** llo de Jurisprudencia Nº 2. “Personas en situación de migración o refugio”.
                                             Versión online en:
                                             http://www.corteidh.or.cr/sitios/libros/todos/docs/cuader- nillo2.pdf
 
-
-## 26. CRUZ VILLALÓN, Pedro (1989): “Formación y evolución de los derechos
-
-                                            fundamentales”, en Revista Española de Derecho Constitucional (N° 25,
-                                            Madrid) pp. 35 y ss.
-
+llo de Jurisprudencia Nº 2. “Personas en situación de migración o refugio”.
+                                            Versión online en:
+                                            http://www.corteidh.or.cr/sitios/libros/todos/docs/cuader- nillo2.pdf
 
 ## 27. CUMBRE IBEROAMERICANA: Reglas de Brasilia sobre acceso a la justiciade las
 
-                                            personas en condición de vulnerabilidad. Versión online en: https://
+**Definición Canónica:** personas en condición de vulnerabilidad. Versión online en: https://
+                                            www.acnur.org/fileadmin/Documentos/BDL/2009/7037.pdf
+**Concordancias Legales:** Artículo 22.4
+
+personas en condición de vulnerabilidad. Versión online en: https://
                                             www.acnur.org/fileadmin/Documentos/BDL/2009/7037.pdf
 
                                         28. CUERDA ARNAU, María Luisa (1996): Artículo 22.4, en Vives Antón,
                                             Tomás(coordinador), Comentarios al Código Penal de 1995, (Valencia, Tirant
                                             lo Blanch).
 
-
 ## 29. DE LA ROSA Paola y SANDOVAL, Víctor (2016): “Los sesgos cognitivos y
 
-                                            su influjo en la decisión judicial. Aportes de la psicología jurídica a los
+**Definición Canónica:** su influjo en la decisión judicial. Aportes de la psicología jurídica a los
+                                            procesospenales de corte acusatorio”, en Revista Derecho Penal y Criminología,
+                                            Vol. 38, Nº 102, enero-junio de 2016. Bogotá: Universidad Externado de
+                                            Colombia, pp. 141-164. Versión online en: http://dx.doi.org/10.18601/
+                                            01210483. v37n102.08
+
+su influjo en la decisión judicial. Aportes de la psicología jurídica a los
                                             procesospenales de corte acusatorio”, en Revista Derecho Penal y Criminología,
                                             Vol. 38, Nº 102, enero-junio de 2016. Bogotá: Universidad Externado de
                                             Colombia, pp. 141-164. Versión online en: http://dx.doi.org/10.18601/
@@ -7739,52 +7954,63 @@ Ley
                                               Bibliografía                                                                         190
     Ley
 
-
 ## 30. DÍAZ DE VALDÉS, José (2018): “Las categorías sospechosas en el Derecho
 
-                                                chileno”, en Revista de Derecho de la Pontificia Universidad Católica de
+**Definición Canónica:** chileno”, en Revista de Derecho de la Pontificia Universidad Católica de
                                                 Valparaíso (Valparaíso, Chile, 1er semestre), pp. 189 – 218. Versión online en:
                                                 https://scielo.conicyt.cl/pdf/rdpucv/n50/0718-6851-rdpucv-50-00189.pdf
 
+chileno”, en Revista de Derecho de la Pontificia Universidad Católica de
+                                                Valparaíso (Valparaíso, Chile, 1er semestre), pp. 189 – 218. Versión online en:
+                                                https://scielo.conicyt.cl/pdf/rdpucv/n50/0718-6851-rdpucv-50-00189.pdf
 
 ## 31. DÍAZ DE VALDÉS, José (2017): “Cuatro años de la ley Zamudio: análisis
 
-                                                crítico de su jurisprudencia”, en Revista De Estudios Constitucionales
+**Definición Canónica:** crítico de su jurisprudencia”, en Revista De Estudios Constitucionales
+                                                (Santiago, Vol. 15, N° 2), pp. 447-490. Versión online en:
+                                                https://scielo.conicyt.cl/ scielo.php?script=sci_arttext&pid=S0718-
+                                                52002017000200447
+**Concordancias Legales:** Constitucion
+
+crítico de su jurisprudencia”, en Revista De Estudios Constitucionales
                                                 (Santiago, Vol. 15, N° 2), pp. 447-490. Versión online en:
                                                 https://scielo.conicyt.cl/ scielo.php?script=sci_arttext&pid=S0718-
                                                 52002017000200447
 
-
 ## 32. DÍAZ DE VALDÉS, José (2018): “Análisis cuantitativo de la acción
 
-                                                especial antidiscriminación de la ley Zamudio”, en Universidad del Desarrollo,
+**Definición Canónica:** especial antidiscriminación de la ley Zamudio”, en Universidad del Desarrollo,
                                                 Actualidad Jurídica, N° 38, julio). Versión online en: https://www.udd.cl/wp-
                                                 con- tent/uploads/2015/06/analisis-cuantitativo-de-la-accion-especial-
                                                 anti- discriminacion-de-la-ley-zamudio-diaz-de-valdes.pdf
 
+especial antidiscriminación de la ley Zamudio”, en Universidad del Desarrollo,
+                                                Actualidad Jurídica, N° 38, julio). Versión online en: https://www.udd.cl/wp-
+                                                con- tent/uploads/2015/06/analisis-cuantitativo-de-la-accion-especial-
+                                                anti- discriminacion-de-la-ley-zamudio-diaz-de-valdes.pdf
 
 ## 33. DÍAZ, Iván (2013): “Ley chilena contra la discriminación. Una evaluación
 
-                                                desde los Derechos Internacional y Constitucional”, en: Revista Chilena de
+**Definición Canónica:** desde los Derechos Internacional y Constitucional”, en: Revista Chilena de
+**Concordancias Legales:** Constitucion
+
+desde los Derechos Internacional y Constitucional”, en: Revista Chilena de
 
                                                 Derecho (Vol. 40, N° 2) pp. 635-668. Versión online en: https://www.redalyc.
                                                 org/pdf/1770/177029687011.pdf
 
-
-## 34. DÍAZ, Iván (2012): “Igualdad en la aplicación de la ley. Concepto, iusfunda-
-
-                                                mentalidad y consecuencias”, en Revista Ius et Praxis (Año 18, Nº 2, 2012), pp.
-                                                33 – 76.
-
-
-## 35. DÍAZ Y GARCÍA CONLLEDO, Miguel (director), (2007): Protección y expulsiónde
-
-                                                extranjeros en Derecho Penal, (Madrid, La Ley).
-
-
 ## 36. DÍAZ DE VALDÉS, José Manuel, (2013): ¿Es la Ley Zamudio
 
-                                                verdaderamenteuna ley general antidiscriminación?, en Actualidad Jurídica,
+**Definición Canónica:** verdaderamenteuna ley general antidiscriminación?, en Actualidad Jurídica,
+                                                14, 28.
+                                            37. DIRECCIÓN DE ESTUDIOS DE LA CORTE SUPREMA (DECS) (2017):
+                                                Análisisestadístico de la Ley Nº 20.609. Una mirada desde el acceso a la
+                                                justicia a 5 años de su entrada en vigencia. Versión online en:
+                                                http://decs.pjud.cl/ analisis-estadistico-de-la-ley-20-609-una-mirada-
+            
+**Concordancias Legales:** Ley Nº 20.609
+
+verdaderamenteuna ley general antidiscriminación?, en Actualidad Jurídica,
                                                 14, 28.
                                             37. DIRECCIÓN DE ESTUDIOS DE LA CORTE SUPREMA (DECS) (2017):
                                                 Análisisestadístico de la Ley Nº 20.609. Una mirada desde el acceso a la
@@ -7796,15 +8022,14 @@ Ley
                                                 Ingresoy término de causas Ley Nº 20.609 contra la discriminación
                                                 arbitraria en los Tribunales del país. Periodo julio de 2012-29 de febrero de
 
-## 2020. Versión online en: http://decs.pjud.cl/ingresos-y-terminos-de-
-
-                                                causas-ley-20-609-contra-la-discriminacion-arbitraria-en-tribunales-del-
-                                                pais/
-
-
 ## 39. división jurídico – legislativa del ministerio secretaría
 
-                                                GENE- RAL DE LA PRESIDENCIA (2000), Doctrina Constitucional del
+**Definición Canónica:** GENE- RAL DE LA PRESIDENCIA (2000), Doctrina Constitucional del
+                                                Presidente Eduardo Frei Ruiz – Tagle (Santiago, División Jurídico –
+                                                legislativa del Ministerio Secretaría General de la Presidencia).
+**Concordancias Legales:** Constitucion
+
+GENE- RAL DE LA PRESIDENCIA (2000), Doctrina Constitucional del
                                                 Presidente Eduardo Frei Ruiz – Tagle (Santiago, División Jurídico –
                                                 legislativa del Ministerio Secretaría General de la Presidencia).
 
@@ -7813,10 +8038,15 @@ Ley
                                                 humanos (N° 3). Versión online en: https://revistas.uchile.cl/index.php/ADH/
                                                 article/view/13452
 
-
 ## 41. ESPEJO, Nicolás (2000): “La garantía de la no discriminación y el princi-
 
-                                                pio de igualdad”, en Cuadernos de análisis jurídico. Igualdad, libertad de expresión
+**Definición Canónica:** pio de igualdad”, en Cuadernos de análisis jurídico. Igualdad, libertad de expresión
+                                                e interés público, (Escuela de Derecho Universidad Diego Portales,N°10), pp.
+                                                65-110. Versión online en: http://derechoshumanos.udp.cl/dere-
+                                                choshumanos/images/Publicaciones/Libros/CAJ_n10_Serie_Publicacio-
+                                                nes_Especiales.pdf
+
+pio de igualdad”, en Cuadernos de análisis jurídico. Igualdad, libertad de expresión
                                                 e interés público, (Escuela de Derecho Universidad Diego Portales,N°10), pp.
                                                 65-110. Versión online en: http://derechoshumanos.udp.cl/dere-
                                                 choshumanos/images/Publicaciones/Libros/CAJ_n10_Serie_Publicacio-
@@ -7825,42 +8055,64 @@ Ley
                                                     Bibliografía                                                                         191
 Ley
 
-
 ## 42. ESTRADA, Dorothy (2019): “El principio de igualdad ante la ley en el
 
-                                                      DerechoInternacional”, en Cuadernos de Derecho Transnacional (Marzo, Vol.
+**Definición Canónica:** DerechoInternacional”, en Cuadernos de Derecho Transnacional (Marzo, Vol.
                                                       11, Nº1), pp. 322-339. Versión online en: https://e-
                                                       revistas.uc3m.es/index.php/CDT/ article/view/4622
 
+DerechoInternacional”, en Cuadernos de Derecho Transnacional (Marzo, Vol.
+                                                      11, Nº1), pp. 322-339. Versión online en: https://e-
+                                                      revistas.uc3m.es/index.php/CDT/ article/view/4622
 
 ## 43. FACIO, A. y FRIES, L. (2005): “Feminismo, Género y Patriarcado”, en Revista
 
-                                                      sobre Enseñanza del Derecho en Buenos Aires (año 3, N°6), pp. 259-294.
+**Definición Canónica:** sobre Enseñanza del Derecho en Buenos Aires (año 3, N°6), pp. 259-294.
                                                       Versión online en: https://revistas-colaboracion.juridicas.unam.mx/index.
                                                       php/revista-ensenianza-derecho/article/viewFile/33861/30820
 
+sobre Enseñanza del Derecho en Buenos Aires (año 3, N°6), pp. 259-294.
+                                                      Versión online en: https://revistas-colaboracion.juridicas.unam.mx/index.
+                                                      php/revista-ensenianza-derecho/article/viewFile/33861/30820
 
 ## 44. FERNÁNDEZ, Mariano (2018): “La protección contra la discriminación por
 
-                                                      orientación sexual e identidad de género en la jurisprudencia de la Corte
+**Definición Canónica:** orientación sexual e identidad de género en la jurisprudencia de la Corte
+                                                      Interamericana”, en: MAFFIA, Diana y GÓMEZ, Patricia (Coordinadora), en
+                                                      Revista Jurídica de Buenos Aires. Género y derechos, (Universidad de Bue-
+                                                      nos Aires, Departamento de Publicaciones, Abeledo Perrot, año 43, número
+                                                      97). Versión online en:
+                                                      http://www.de
+
+orientación sexual e identidad de género en la jurisprudencia de la Corte
                                                       Interamericana”, en: MAFFIA, Diana y GÓMEZ, Patricia (Coordinadora), en
                                                       Revista Jurídica de Buenos Aires. Género y derechos, (Universidad de Bue-
                                                       nos Aires, Departamento de Publicaciones, Abeledo Perrot, año 43, número
                                                       97). Versión online en:
                                                       http://www.derecho.uba.ar/publicaciones/rev_juridica/ rjba-2018-ii.pdf
 
-
 ## 45. FIGUEROA, Rodolfo (2000): “Igualdad y discriminación”, en Cuadernos de
 
-                                                      análisis jurídico. Igualdad, libertad de expresión e interés público, (Escuela
+**Definición Canónica:** análisis jurídico. Igualdad, libertad de expresión e interés público, (Escuela
                                                       de Derecho Universidad Diego Portales, N°10), pp. 9-64. Versión online en:
                                                       http://derechoshumanos.udp.cl/derechoshumanos/images/Publicaciones
                                                       / Libros/CAJ_n10_Serie_Publicaciones_Especiales.pdf
 
+análisis jurídico. Igualdad, libertad de expresión e interés público, (Escuela
+                                                      de Derecho Universidad Diego Portales, N°10), pp. 9-64. Versión online en:
+                                                      http://derechoshumanos.udp.cl/derechoshumanos/images/Publicaciones
+                                                      / Libros/CAJ_n10_Serie_Publicaciones_Especiales.pdf
 
 ## 46. GARNELO Marta; BUSTIN Chloe; DURYEA Suzanne; MORRISON Andrew
 
-                                                     (2019): “Aplicando las ciencias del comportamiento a la violencia de
+**Definición Canónica:** (2019): “Aplicando las ciencias del comportamiento a la violencia de
+                                                     parejaíntima. Mejorando los servicios para sobrevivientes en América
+                                                     Latina y elCaribe. Monografía del BID. Versión online en:
+                                                     https://publications.iadb.org/
+                                                     publications/spanish/document/Aplicando_las_ciencias_del_comporta-
+                                                     miento_a_la_violencia_de_pareja_%C3%ADnti
+
+(2019): “Aplicando las ciencias del comportamiento a la violencia de
                                                      parejaíntima. Mejorando los servicios para sobrevivientes en América
                                                      Latina y elCaribe. Monografía del BID. Versión online en:
                                                      https://publications.iadb.org/
@@ -7869,34 +8121,51 @@ Ley
                                                      vicios_para_sobrevivientes_en_Am%C3%A9rica_Latina_y_el_Caribe_
                                                      es.pdf
 
-
 ## 47. GAUCHÉ, Ximena (2018): “Comentarios a la opinión consultiva 24/17 de la
 
-                                                     Corte Interamericana de Derechos Humanos en materia de identidad de
+**Definición Canónica:** Corte Interamericana de Derechos Humanos en materia de identidad de
                                                      género”, en Anuario de Derecho Público (UDP), pp. 175-202. Versión on-
                                                      line en: http://derecho.udp.cl/wp-content/uploads/2019/01/AnuarioDer-
                                                      Pub_2018_INTERIOR_ok.pdf
 
+Corte Interamericana de Derechos Humanos en materia de identidad de
+                                                     género”, en Anuario de Derecho Público (UDP), pp. 175-202. Versión on-
+                                                     line en: http://derecho.udp.cl/wp-content/uploads/2019/01/AnuarioDer-
+                                                     Pub_2018_INTERIOR_ok.pdf
 
 ## 48. GAUCHÉ, Ximena (2020 a)): “Acerca del concepto de estereotipos en el sis-
 
-                                                     tema interamericano de derechos humanos. Un aporte para el abordaje
+**Definición Canónica:** tema interamericano de derechos humanos. Un aporte para el abordaje
                                                      decausas de violencia a mujeres”, en Revista Actualidad Jurídica
                                                      (Universidad del Desarrollo, Año XXI, N° 41, enero), pp. 217 y ss.
 
+tema interamericano de derechos humanos. Un aporte para el abordaje
+                                                     decausas de violencia a mujeres”, en Revista Actualidad Jurídica
+                                                     (Universidad del Desarrollo, Año XXI, N° 41, enero), pp. 217 y ss.
 
 ## 49. GAUCHÉ, Ximena (2020 b)): Curso sobre estándares internacionales en
 
-                                                      materia de orientación sexual e identidad de género: el caso Atala,
+**Definición Canónica:** materia de orientación sexual e identidad de género: el caso Atala,
                                                       (Acade-mia Judicial, Materiales docentes, N°7). Versión online en:
                                                       https://intranet.
                                                       academiajudicial.cl/Imagenes/Temp/05_Curso%20Orientacion%20Se-
                                                       xual_Pub-7_FINAL.pdf
 
+materia de orientación sexual e identidad de género: el caso Atala,
+                                                      (Acade-mia Judicial, Materiales docentes, N°7). Versión online en:
+                                                      https://intranet.
+                                                      academiajudicial.cl/Imagenes/Temp/05_Curso%20Orientacion%20Se-
+                                                      xual_Pub-7_FINAL.pdf
 
 ## 50. GAUCHÉ, Ximena (2014): “Análisis crítico de la ley N° 20.609, que establece
 
-                                                     medidas contra la discriminación, a la luz del derecho internacional de los
+**Definición Canónica:** medidas contra la discriminación, a la luz del derecho internacional de los
+                                                     derechos humanos y las convenciones de la OEA sobre discriminación de
+                                                     2013”, en Revista chilena de Derecho y Ciencia Política (Universidad cató-
+                                                     lica de Temuco, Vol. 5, N° 1, enero-abril), pp. 11-58. Versión online en: http://
+                                                     derechoycienciapolitica.uct.cl/index.php/RDCP/article/view/708/627
+
+medidas contra la discriminación, a la luz del derecho internacional de los
                                                      derechos humanos y las convenciones de la OEA sobre discriminación de
                                                      2013”, en Revista chilena de Derecho y Ciencia Política (Universidad cató-
                                                      lica de Temuco, Vol. 5, N° 1, enero-abril), pp. 11-58. Versión online en: http://
@@ -7905,18 +8174,26 @@ Ley
                                                     Bibliografía                                                                           192
 Ley
 
-
 ## 51. GAUCHÉ, Ximena y LOVERA, Domingo (2019): “Identidad de género de
 
-                                                     niños,niñas y adolescentes: una cuestión de Derechos”, en Revista Ius Et
+**Definición Canónica:** niños,niñas y adolescentes: una cuestión de Derechos”, en Revista Ius Et
                                                      Praxis (Universidad de Talca, Año 25, N° 2, 2019), pp. 359-402. Versión online
                                                      en: ht- tps://scielo.conicyt.cl/pdf/iusetp/v25n2/0718-0012-iusetp-25-02-
                                                      00359.pdf
 
+niños,niñas y adolescentes: una cuestión de Derechos”, en Revista Ius Et
+                                                     Praxis (Universidad de Talca, Año 25, N° 2, 2019), pp. 359-402. Versión online
+                                                     en: ht- tps://scielo.conicyt.cl/pdf/iusetp/v25n2/0718-0012-iusetp-25-02-
+                                                     00359.pdf
 
 ## 52. GRACIA, Jorge (2011): Los derechos humanos y la posición social de las
 
-                                                     personas mayores LGBTI. Un supuesto específico: los malos tratos , (Univer-sidad
+**Definición Canónica:** personas mayores LGBTI. Un supuesto específico: los malos tratos , (Univer-sidad
+                                                     Carlos III de Madrid. Instituto de Derechos Humanos Bartolomé de las
+                                                     Casas, N°12). Versión online en:https://e-archivo.uc3m.es/bitstream/hand-
+                                                     le/10016/19305/derechos_gracia_PTD_2011.pdf?sequence=1&isAllowed=y
+
+personas mayores LGBTI. Un supuesto específico: los malos tratos , (Univer-sidad
                                                      Carlos III de Madrid. Instituto de Derechos Humanos Bartolomé de las
                                                      Casas, N°12). Versión online en:https://e-archivo.uc3m.es/bitstream/hand-
                                                      le/10016/19305/derechos_gracia_PTD_2011.pdf?sequence=1&isAllowed=y
@@ -7925,70 +8202,88 @@ Ley
                                                      Especial referencia al extranjero como víctima de discriminaciones penal-mente
                                                      relevantes (Valencia, Tirant lo Blanch).
 
-
 ## 54. GÓMEZ BERNALES, Gastón, (2001): “El principio de igualdad constitucio-
 
-                                                     nal” en Navarro Beltrán, Enrique (editor): 20 años de la Constitución chilena
+**Definición Canónica:** nal” en Navarro Beltrán, Enrique (editor): 20 años de la Constitución chilena
                                                      1981-2001 (Santiago, Editorial Jurídica ConoSur Ltda., 2001), pp.165-188.
+**Concordancias Legales:** Constitución
 
+nal” en Navarro Beltrán, Enrique (editor): 20 años de la Constitución chilena
+                                                     1981-2001 (Santiago, Editorial Jurídica ConoSur Ltda., 2001), pp.165-188.
 
 ## 55. HOLTMAAT, Rikki (2010): “De igual tratamiento a igual derecho”, en BO-
 
-                                                     DELÓN, Encarna, y HEIM, Daniela: Derecho, Género e Igualdad. Cambio en las
+**Definición Canónica:** DELÓN, Encarna, y HEIM, Daniela: Derecho, Género e Igualdad. Cambio en las
                                                      estructuras jurídicas androcéntricas, Grupo Antígona y Dones i Drets
                                                      (Universidad Autónoma de Barcelona, Barcelona), pp. 191-208.
 
+DELÓN, Encarna, y HEIM, Daniela: Derecho, Género e Igualdad. Cambio en las
+                                                     estructuras jurídicas androcéntricas, Grupo Antígona y Dones i Drets
+                                                     (Universidad Autónoma de Barcelona, Barcelona), pp. 191-208.
 
 ## 56. ÍÑIGUEZ, Andrea (2014): La noción de «categoría sospechosa» y el
 
-                                                     derechoa la igualdad ante la ley en la jurisprudencia del Tribunal
+**Definición Canónica:** derechoa la igualdad ante la ley en la jurisprudencia del Tribunal
+                                                     Constitucional, en Revista de derecho (Valparaíso, 43), 495-516. Versión
+                                                     online en: https:// dx.doi.org/10.4067/S0718-68512014000200013
+**Concordancias Legales:** Constitucion
+
+derechoa la igualdad ante la ley en la jurisprudencia del Tribunal
                                                      Constitucional, en Revista de derecho (Valparaíso, 43), 495-516. Versión
                                                      online en: https:// dx.doi.org/10.4067/S0718-68512014000200013
 
-
-## 57. IRISARRI, Santiago, (2018): Violencia contra la mujer. Protección ante agre-
-
-                                                     siones por razón de género, (Buenos Aires: Astrea).
-
-
 ## 58. JENKINS, Gaspar (2020): “La acción de no discriminación arbitraria a la
 
-                                                     luzde la tutela judicial efectiva”, en Estudios Constitucionales (Vol. 18, N°20)
+**Definición Canónica:** luzde la tutela judicial efectiva”, en Estudios Constitucionales (Vol. 18, N°20)
+                                                     pp. 211-258. Versión online en: https://scielo.conicyt.cl/scielo.php?script=s-
+                                                     ci_arttext&pid=S0718-52002020000100211&lng=pt&nrm=iso
+**Concordancias Legales:** Constitucion
+
+luzde la tutela judicial efectiva”, en Estudios Constitucionales (Vol. 18, N°20)
                                                      pp. 211-258. Versión online en: https://scielo.conicyt.cl/scielo.php?script=s-
                                                      ci_arttext&pid=S0718-52002020000100211&lng=pt&nrm=iso
 
-
-## 59. JIMENEZ CAMPO, Javier, (1983): “La igualdad jurídica como límite frente
-
-                                                     al legislador”, en Revista Española de Derecho Constitucional (año 3, N° 9).
-
-
 ## 60. MACHADO RUIZ, María Dolores, (2002): “El derecho a no ser
 
-                                                     discriminadoy el error sobre la orientación sexual de la víctima”
+**Definición Canónica:** discriminadoy el error sobre la orientación sexual de la víctima”
                                                      (Comentario a la sen- tencia de la AP de Barcelona de 13 de marzo de
                                                      2000), en Revista de la Facultad de Derecho de la Universidad de Granada, 5.
 
+discriminadoy el error sobre la orientación sexual de la víctima”
+                                                     (Comentario a la sen- tencia de la AP de Barcelona de 13 de marzo de
+                                                     2000), en Revista de la Facultad de Derecho de la Universidad de Granada, 5.
 
 ## 61. MACHADO RUIZ, María Dolores, (2002): La discriminación en el ámbito delos
 
-                                                     servicios públicos: análisis del artículo 511 del Código Penal (Valencia, Tirant lo
+**Definición Canónica:** servicios públicos: análisis del artículo 511 del Código Penal (Valencia, Tirant lo
+                                                     Blanch).
+**Concordancias Legales:** artículo 511 del Código Penal; constitucion
+
+servicios públicos: análisis del artículo 511 del Código Penal (Valencia, Tirant lo
                                                      Blanch).
 
                                                  62. MOLINA, Hernán (2006): Derecho constitucional (Lexis Nexis, Santiago).
 
-
 ## 63. MUÑOZ, Fernando (2015): “Estándares conceptuales y cargas procesales
 
-                                                     en el litigio antidiscriminación. Análisis crítico de la jurisprudencia sobre
+**Definición Canónica:** en el litigio antidiscriminación. Análisis crítico de la jurisprudencia sobre
                                                      Ley Zamudio entre 2012 y 2015”, en Revista de Derecho (Valdivia 28, Nº 2)pp.
                                                      145–67. Versión online en: https://scielo.conicyt.cl/scielo.php?script=s-
                                                      ci_abstract&pid=S0718-09502015000200008&lng=es&nrm=iso
 
+en el litigio antidiscriminación. Análisis crítico de la jurisprudencia sobre
+                                                     Ley Zamudio entre 2012 y 2015”, en Revista de Derecho (Valdivia 28, Nº 2)pp.
+                                                     145–67. Versión online en: https://scielo.conicyt.cl/scielo.php?script=s-
+                                                     ci_abstract&pid=S0718-09502015000200008&lng=es&nrm=iso
 
 ## 64. MUÑOZ, Fernando (2015): “La Ley Zamudio en Acción: Sentencias de
 
-                                                     Prime-ra Instancia sobre Acción Antidiscriminación emitidas entre
+**Definición Canónica:** Prime-ra Instancia sobre Acción Antidiscriminación emitidas entre
+                                                     Diciembre de 2012 y Marzo de 2015.”, en Anuario de Derecho Público
+                                                     (Universidad Diego Portales, N° 1) pp. 172-191. Versión online en:
+                                                     https://derecho.udp.cl/wp-con- tent/uploads/2016/08/Anuario2015.pdf
+
+Prime-ra Instancia sobre Acción Antidiscriminación emitidas entre
                                                      Diciembre de 2012 y Marzo de 2015.”, en Anuario de Derecho Público
                                                      (Universidad Diego Portales, N° 1) pp. 172-191. Versión online en:
                                                      https://derecho.udp.cl/wp-con- tent/uploads/2016/08/Anuario2015.pdf
@@ -7996,41 +8291,50 @@ Ley
                                                   Bibliografía                                                                       193
 Ley
 
-
 ## 65. MUÑOZ, Patricia (2011): Violencias Interseccionales, Debates Feministas y
 
-                                                     Marcos Teóricos en el tema de Pobreza y Violencia contra las Mujeres en
+**Definición Canónica:** Marcos Teóricos en el tema de Pobreza y Violencia contra las Mujeres en
                                                      Latinoamérica, (Central América Women’s Network (CAWN)). Versión online
                                                      en: http://americalatinagenera.org/newsite//images/cdr-documents/publi-
                                                      caciones/igualdadynodiscriminacion/violencias_interseccionales.pdf
 
+Marcos Teóricos en el tema de Pobreza y Violencia contra las Mujeres en
+                                                     Latinoamérica, (Central América Women’s Network (CAWN)). Versión online
+                                                     en: http://americalatinagenera.org/newsite//images/cdr-documents/publi-
+                                                     caciones/igualdadynodiscriminacion/violencias_interseccionales.pdf
 
 ## 66. NOGUEIRA, Humberto (2017): “La protección convencional de los dere-
 
-                                                     chos del niño y los estándares de la Corte IDH sobre medidas especiales
+**Definición Canónica:** chos del niño y los estándares de la Corte IDH sobre medidas especiales
+                                                     de protección por parte de los Estados parte respecto de los niños, como
+                                                     fundamento para asegurar constitucionalmente los derechos de los niños
+                                                     y adolescentes”, en Revista Ius et Praxis (Año 23, N° 2), pp.415-462. Ver-
+                                                     sión online en: https://scielo.conicyt.cl/pdf/iusetp/v23n2/0718-0012-iuse-
+                      
+**Concordancias Legales:** constitucion
+
+chos del niño y los estándares de la Corte IDH sobre medidas especiales
                                                      de protección por parte de los Estados parte respecto de los niños, como
                                                      fundamento para asegurar constitucionalmente los derechos de los niños
                                                      y adolescentes”, en Revista Ius et Praxis (Año 23, N° 2), pp.415-462. Ver-
                                                      sión online en: https://scielo.conicyt.cl/pdf/iusetp/v23n2/0718-0012-iuse-
                                                      tp-23-02-00415.pdf
 
-
-## 67. NOGUEIRA. Humberto (1997): “El derecho a la igualdad en la jurisprudencia
-
-                                                     constitucional”, en Revista de Derecho de la Universidad Católica de Valpa-
-                                                     raíso (XVIII), pp. 167-184.
-
-
 ## 68. NOGUEIRA, Humberto (2006): “El derecho a la igualdad ante la ley, no
 
-                                                     discriminación y acciones positivas”, en Revista de Derecho
+**Definición Canónica:** discriminación y acciones positivas”, en Revista de Derecho
                                                      UniversidadCatólica del Norte (Sección Estudios Año 13 - N° 2), pp.
                                                      61-100.
 
+discriminación y acciones positivas”, en Revista de Derecho
+                                                     UniversidadCatólica del Norte (Sección Estudios Año 13 - N° 2), pp.
+                                                     61-100.
 
 ## 69. LAURENZO COPELLO, Patricia, (1996): La discriminación en el Código Penal
 
-                                                      de 1995, en Estudios Penales y Criminológicos, 19.
+**Definición Canónica:** de 1995, en Estudios Penales y Criminológicos, 19.
+
+de 1995, en Estudios Penales y Criminológicos, 19.
 
                                                  70. O’DONELL, Daniel (2007): Derecho Internacional de los derechos humanos.
                                                      Normativa, jurisprudencia y doctrina de los sistemas universal e interameri-
@@ -8039,165 +8343,195 @@ Ley
                                                      Política Pública México, D.F.). Versión online en: http://www.oda-alc.org/do-
                                                      cumentos/1374531071.pdf
 
-
 ## 71. ONU, Comité para la Eliminación de la Discriminación Contra la Mujer (CE-
 
-                                                     DAW) (2004): “Recomendación general Nº 25, sobre el párrafo 1 del artículo
+**Definición Canónica:** DAW) (2004): “Recomendación general Nº 25, sobre el párrafo 1 del artículo
                                                      IV de la Convención sobre la eliminación de todas las formas de
                                                      discrimina-ción contra la mujer, referente a medidas especiales de carácter
                                                      temporal”. Versión online en:
                                                      https://www.refworld.org.es/docid/52d905144.html
 
+DAW) (2004): “Recomendación general Nº 25, sobre el párrafo 1 del artículo
+                                                     IV de la Convención sobre la eliminación de todas las formas de
+                                                     discrimina-ción contra la mujer, referente a medidas especiales de carácter
+                                                     temporal”. Versión online en:
+                                                     https://www.refworld.org.es/docid/52d905144.html
 
 ## 72. ONU, Comité de los Derechos del Niño (CRC) (2013): Observación general
 
-                                                     Nº 14 sobre el derecho del niño a que su interés superior sea una conside-
+**Definición Canónica:** Nº 14 sobre el derecho del niño a que su interés superior sea una conside-
                                                      ración primordial (artículo III, párrafo 1), CRC /C/GC/14. Versión online en:
                                                      https://www.refworld.org.es/docid/51ef9aa14.html
 
+Nº 14 sobre el derecho del niño a que su interés superior sea una conside-
+                                                     ración primordial (artículo III, párrafo 1), CRC /C/GC/14. Versión online en:
+                                                     https://www.refworld.org.es/docid/51ef9aa14.html
 
 ## 73. PALACIOS, Patricia (2006): La no discriminación: estudio de la jurispru-
 
-                                                      dencia del Comité de Derechos Humanos sobre la cláusula autónoma
+**Definición Canónica:** dencia del Comité de Derechos Humanos sobre la cláusula autónoma
                                                       deno discriminación, (Universidad de Chile, Facultad de Derecho, Centro
                                                       de Derechos Humanos). Versión online en: https://libros.uchile.cl/396
 
+dencia del Comité de Derechos Humanos sobre la cláusula autónoma
+                                                      deno discriminación, (Universidad de Chile, Facultad de Derecho, Centro
+                                                      de Derechos Humanos). Versión online en: https://libros.uchile.cl/396
 
 ## 74. PIOVESAN, Flavia (2013): “Prohibición de la discriminación por orientación
 
-                                                      sexual en los sistemas regionales: La sentencia de la Corte Interamericana
+**Definición Canónica:** sexual en los sistemas regionales: La sentencia de la Corte Interamericana
                                                       de Derechos Humanos en el caso Atala Riffo vs. Chile”, en Anuario de
                                                       Dere-cho Público (Universidad Diego Portales). Versión online en:
                                                       http://derecho. udp.cl/wp-content/uploads/2016/08/Anuario2013_todo.pdf
 
-
-## 75. PODER JUDICIAL DE CHILE, Acta N° 103-2018. Versión online actualiza-
-
-                                                      da en: http://secretariadegenero.pjud.cl/images/documentos/acososexual/
-                                                      Acta103-2018_acAD-380-2020_201022.pdf
-
-
-## 76. PODER JUDICIAL DE CHILE, Acta N° 108-2020 Versión online actualizada
-
-                                                      en: https://www.bcn.cl/leychile/navegar?idNorma=1149561
-
-                                                    Bibliografía                                                                   194
-Ley
-
+sexual en los sistemas regionales: La sentencia de la Corte Interamericana
+                                                      de Derechos Humanos en el caso Atala Riffo vs. Chile”, en Anuario de
+                                                      Dere-cho Público (Universidad Diego Portales). Versión online en:
+                                                      http://derecho. udp.cl/wp-content/uploads/2016/08/Anuario2013_todo.pdf
 
 ## 77. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y No
 
-                                                     Discriminación (2015-2016): Proyecto de Estudio Diagnóstico de la pers-
+**Definición Canónica:** Discriminación (2015-2016): Proyecto de Estudio Diagnóstico de la pers-
                                                      pectiva de Igualdad de Género en el Poder Judicial Chileno Informe Final.
                                                      Versión online en: http://secretariadegenero.pjud.cl/images/documentos/
                                                      Estudio_Igualdad_de_G nero_y_No_Discriminaci n_Final.pdf
 
+Discriminación (2015-2016): Proyecto de Estudio Diagnóstico de la pers-
+                                                     pectiva de Igualdad de Género en el Poder Judicial Chileno Informe Final.
+                                                     Versión online en: http://secretariadegenero.pjud.cl/images/documentos/
+                                                     Estudio_Igualdad_de_G nero_y_No_Discriminaci n_Final.pdf
 
 ## 78. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y
 
-                                                     No Discriminación. (2017 a): Campaña de Prevención e Información Sobre
+**Definición Canónica:** No Discriminación. (2017 a): Campaña de Prevención e Información Sobre
                                                      Aco-so Sexual en el Poder Judicial. Versión online en:
                                                      http://secretariadegenero. pjud.cl/index.php/acoso/promocion-y-
                                                      prevencion/9-contenido/proyec- tos/22-campana-acaso-es-acoso-poder-
                                                      judicial
 
+No Discriminación. (2017 a): Campaña de Prevención e Información Sobre
+                                                     Aco-so Sexual en el Poder Judicial. Versión online en:
+                                                     http://secretariadegenero. pjud.cl/index.php/acoso/promocion-y-
+                                                     prevencion/9-contenido/proyec- tos/22-campana-acaso-es-acoso-poder-
+                                                     judicial
 
 ## 79. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y No
 
-                                                     Discriminación (2017 b): “Política de Igualdad de Género y No Discrimina-
+**Definición Canónica:** Discriminación (2017 b): “Política de Igualdad de Género y No Discrimina-
                                                      ción”. Versión online en: http://secretariadegenero.pjud.cl/images/documen-
                                                      tos/digitalpignd_10072018.pdf
 
+Discriminación (2017 b): “Política de Igualdad de Género y No Discrimina-
+                                                     ción”. Versión online en: http://secretariadegenero.pjud.cl/images/documen-
+                                                     tos/digitalpignd_10072018.pdf
 
 ## 80. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y No
 
-
-                                                     Discriminación. (2018 a): Instructivo: Procedimiento de actuación para la
+**Definición Canónica:** Discriminación. (2018 a): Instructivo: Procedimiento de actuación para la
                                                      prevención, denuncia y tratamiento del acoso sexual en el Poder Judicial.
                                                      Versión online en: http://secretariadegenero.pjud.cl/index.php/proyec-
                                                      tos/2-central/54-protocolo-de-actuacion-para-la-prevencion-denun- cia-y-
                                                      tratamiento-del-acoso-sexual-al-interior-del-poder-judicial
 
-
-## 81. Cuaderno de Buenas Prácticas para Juzgar con Perspectiva de Género en
-
-                                                     las Sentencias, PJUD (2018).
-
+Discriminación. (2018 a): Instructivo: Procedimiento de actuación para la
+                                                     prevención, denuncia y tratamiento del acoso sexual en el Poder Judicial.
+                                                     Versión online en: http://secretariadegenero.pjud.cl/index.php/proyec-
+                                                     tos/2-central/54-protocolo-de-actuacion-para-la-prevencion-denun- cia-y-
+                                                     tratamiento-del-acoso-sexual-al-interior-del-poder-judicial
 
 ## 82. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y No
 
-                                                     Discriminación (2018 b): Cuaderno de Buenas Prácticas para incorporar la
+**Definición Canónica:** Discriminación (2018 b): Cuaderno de Buenas Prácticas para incorporar la
                                                      perspectiva de género en las sentencias. Versión online en: http://secreta-
                                                      riadegenero.pjud.cl/images/stignd/CBP/CBP_30052019_HR1.1.pdf
 
+Discriminación (2018 b): Cuaderno de Buenas Prácticas para incorporar la
+                                                     perspectiva de género en las sentencias. Versión online en: http://secreta-
+                                                     riadegenero.pjud.cl/images/stignd/CBP/CBP_30052019_HR1.1.pdf
 
 ## 83. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y No
 
-                                                     Discriminación (2020): Protocolo de atención para acceder a canales de
+**Definición Canónica:** Discriminación (2020): Protocolo de atención para acceder a canales de
                                                      denuncia de violencia intrafamiliar y de violencia de género. Versión
                                                      onlineen: http://secretariadegenero.pjud.cl/index.php/protocolo-atencion-
                                                      art-26
 
+Discriminación (2020): Protocolo de atención para acceder a canales de
+                                                     denuncia de violencia intrafamiliar y de violencia de género. Versión
+                                                     onlineen: http://secretariadegenero.pjud.cl/index.php/protocolo-atencion-
+                                                     art-26
 
 ## 84. PODER JUDICIAL DE CHILE, Secretaría Técnica Igualdad de Género y No
 
-                                                     Discriminación (2020): Protocolo de actuación para la atención en justicia
+**Definición Canónica:** Discriminación (2020): Protocolo de actuación para la atención en justicia
                                                      con enfoque de género y diversidad sexual. Versión online en: http://diana-
                                                      maffia.com.ar/archivos/29agosto_Protocolo_COMPLETO_FONDEF_UdeC.
                                                      pdf
 
-
-## 85. PODER JUDICIAL DE CHILE: Protocolo de acceso a la justicia de grupos
-
-                                                     vulnerables (s/a). Versión online en:
-                                                     https://servicios.pjud.cl/protocolo/PRO-TOCOLO_DIGITAL_FINAL.pdf
-
+Discriminación (2020): Protocolo de actuación para la atención en justicia
+                                                     con enfoque de género y diversidad sexual. Versión online en: http://diana-
+                                                     maffia.com.ar/archivos/29agosto_Protocolo_COMPLETO_FONDEF_UdeC.
+                                                     pdf
 
 ## 86. PODER JUDICIAL DE CHILE, Comisión Lenguaje Claro: Propuesta Manual
 
-                                                     de estilo para redacción de sentencias (2019). Versión online en: https://
+**Definición Canónica:** de estilo para redacción de sentencias (2019). Versión online en: https://
                                                      www.pjud.cl/documents/10179/11733124/Manual+digital.pdf/910ce8d1-
                                                      6a22-4fd0-917d-44724e2dc4a8
 
+de estilo para redacción de sentencias (2019). Versión online en: https://
+                                                     www.pjud.cl/documents/10179/11733124/Manual+digital.pdf/910ce8d1-
+                                                     6a22-4fd0-917d-44724e2dc4a8
 
 ## 87. PODER JUDICIAL DE CHILE, Comisión Lenguaje Claro (2015): Glosa-rio
 
-                                                     de Términos Jurídicos. Versión online en: https://www.pjud.cl/docu-
+**Definición Canónica:** de Términos Jurídicos. Versión online en: https://www.pjud.cl/docu-
                                                      ments/10179/4144819/GLOSARIO_web.pdf/c1b985f9-1a21-40d0-8c36-
                                                      92ee3c47d9a8
 
+de Términos Jurídicos. Versión online en: https://www.pjud.cl/docu-
+                                                     ments/10179/4144819/GLOSARIO_web.pdf/c1b985f9-1a21-40d0-8c36-
+                                                     92ee3c47d9a8
 
 ## 88. PODER JUDICIAL DE CHILE: Política de Atención de Usuarios. Versión
 
-                                                     onli-ne en: https://www.pjud.cl/politica-de-atencion-usuarios
+**Definición Canónica:** onli-ne en: https://www.pjud.cl/politica-de-atencion-usuarios
+
+onli-ne en: https://www.pjud.cl/politica-de-atencion-usuarios
 
                                                  Bibliografía                                                                        195
 Ley
 
-
 ## 89. PREVERT Aline, NAVARRO, Oscar y BOGALSKA-MARTIN, Ewa (2012): “La
 
-                                                     discriminación social desde una perspectiva psicosociológica” en Revis-
+**Definición Canónica:** discriminación social desde una perspectiva psicosociológica” en Revis-
                                                      ta Psicología Universidad de Antioquía (Volumen 4 N°1). Versión online
                                                      en:http://pepsic.bvsalud.org/pdf/rpsua/v4n1/v4n1a2.pdf
 
-
-## 90. REY MARTINEZ, Fernando (1995): El derecho fundamental a no ser
-
-                                                     discrimi-nado por razón de sexo (Madrid, Mc Graw-Hill).
-
+discriminación social desde una perspectiva psicosociológica” en Revis-
+                                                     ta Psicología Universidad de Antioquía (Volumen 4 N°1). Versión online
+                                                     en:http://pepsic.bvsalud.org/pdf/rpsua/v4n1/v4n1a2.pdf
 
 ## 91. RONCONI Liliana y VITA Leticia (2012): “El principio de igualdad en la ense-
 
-                                                     ñanza del Derecho Constitucional”, en Revista sobre enseñanza del Derecho
+**Definición Canónica:** ñanza del Derecho Constitucional”, en Revista sobre enseñanza del Derecho
+                                                     (año 10, número 19), pp. 31-62.
+                                                 92. RODRÍGUEZ PIÑEIRO, Miguel y FERNÁNDEZ LÓPEZ, María Fernanda, (1986):
+                                                     Igualdad y discriminación (Madrid, Tecnos).
+**Concordancias Legales:** Constitucion
+
+ñanza del Derecho Constitucional”, en Revista sobre enseñanza del Derecho
                                                      (año 10, número 19), pp. 31-62.
                                                  92. RODRÍGUEZ PIÑEIRO, Miguel y FERNÁNDEZ LÓPEZ, María Fernanda, (1986):
                                                      Igualdad y discriminación (Madrid, Tecnos).
 
-
 ## 93. RODRÍGUEZ YAGÜE, Ana Cristina, (2007): La tutela penal del derecho a no
 
-                                                     ser discriminado (Análisis de los artículos 511 y 12 del Código penal) (Espa-
+**Definición Canónica:** ser discriminado (Análisis de los artículos 511 y 12 del Código penal) (Espa-
+                                                     ña, Bomarzo).
+**Concordancias Legales:** artículos 511
+
+ser discriminado (Análisis de los artículos 511 y 12 del Código penal) (Espa-
                                                      ña, Bomarzo).
 
                                                  94. SALDIVIA, Laura (2016): “La igualdad robusta frente a la igualdad formal”,
@@ -8205,15 +8539,14 @@ Ley
                                                      Carpizo. Para entender y pensar la laicidad, N° 4), pp. 1-51. Versión online
                                                      en: https://archivos.juridicas.unam.mx/www/bjv/libros/7/3237/3.pdf
 
-
-## 95. SABA Roberto (2005): “(Des)igualdad estructural”, en Revista Derecho
-
-                                                     yHumanidades (Nº11, Facultad de Derecho Universidad de Chile).
-
-
 ## 96. SALINERO ECHEVERRÍA, Sebastián. (2013): “La nueva agravante penal
 
-                                                     de discriminación: Los “delitos de odio”, en Revista de Derecho (Valpa-
+**Definición Canónica:** de discriminación: Los “delitos de odio”, en Revista de Derecho (Valpa-
+                                                     raíso), (41), 263-308. Versión online en: https://dx.doi.org/10.4067/S0718-
+                                                     68512013000200008
+**Concordancias Legales:** constitucion
+
+de discriminación: Los “delitos de odio”, en Revista de Derecho (Valpa-
                                                      raíso), (41), 263-308. Versión online en: https://dx.doi.org/10.4067/S0718-
                                                      68512013000200008
 
@@ -8222,35 +8555,37 @@ Ley
                                                      sexos”, en Revista de Derecho (Coquimbo), 21(1), 443-473. Versión online
                                                      en:https://dx.doi.org/10.4067/S0718-97532014000100014
 
-
 ## 98. SHELTON, Dinah (2008): “Prohibición de discriminación en el Derecho
 
-                                                     Inter-nacional de los derechos humanos”, en Anuario de Derechos
+**Definición Canónica:** Inter-nacional de los derechos humanos”, en Anuario de Derechos
                                                      Humanos (4), pp. 15-39. Versión online en:
                                                      https://revistas.uchile.cl/index.php/ADH/article/ view/13488
 
-
-## 99. SILVA BASCUÑAN, Alejandro (1997): IV Tratado de Derecho
-
-                                                     Constitucional,Tomo IV, (Santiago, Editorial Jurídica, 2° edición).
-
+Inter-nacional de los derechos humanos”, en Anuario de Derechos
+                                                     Humanos (4), pp. 15-39. Versión online en:
+                                                     https://revistas.uchile.cl/index.php/ADH/article/ view/13488
 
 ## 100. SMITH-CASTRO, Vanessa (2010): “Experiencias de Discriminación Social
 
-                                                      de Inmigrantes Nicaragüenses en Costa Rica: Reacciones Afectivas y Atri-
+**Definición Canónica:** de Inmigrantes Nicaragüenses en Costa Rica: Reacciones Afectivas y Atri-
                                                       buciones Causales” en Interamerican Journal of Psychology, (vol. 44, núm.
                                                       2.), p. 368-381. Sociedad Interamericana de Psicología Austin, Organismo
                                                       Internacional.
 
-
-## 101. SUAY RINCÓN, José (1985): El principio de igualdad en la justicia constitu-
-
-                                                      cional, (Madrid, Instituto de Estudios de Administración Local).
-
+de Inmigrantes Nicaragüenses en Costa Rica: Reacciones Afectivas y Atri-
+                                                      buciones Causales” en Interamerican Journal of Psychology, (vol. 44, núm.
+                                                      2.), p. 368-381. Sociedad Interamericana de Psicología Austin, Organismo
+                                                      Internacional.
 
 ## 102. SUPERINTENDENCIA DE EDUCACIÓN, Ministerio de Educación Chile
 
-                                                      (2018), Organización de Estados Iberoamericanos para la Educación, la
+**Definición Canónica:** (2018), Organización de Estados Iberoamericanos para la Educación, la
+                                                      Ciencia y la Cultura Guía para la no discriminación en el contexto escolar.
+                                                      Versión online en: https://oei.cl/uploads/files/news/Education/89/Gui%C-
+                                                      C%81a-para-la-no-discriminacio%CC%81n-en-el-contexto-
+                                                      escolar.pdf
+
+(2018), Organización de Estados Iberoamericanos para la Educación, la
                                                       Ciencia y la Cultura Guía para la no discriminación en el contexto escolar.
                                                       Versión online en: https://oei.cl/uploads/files/news/Education/89/Gui%C-
                                                       C%81a-para-la-no-discriminacio%CC%81n-en-el-contexto-
@@ -8259,64 +8594,67 @@ Ley
                                                                     Bibliografía                                                                     196
 Ley
 
-
 ## 103. TRONCOSO, Camila y MORALES, Natalia (2017): “Caso Duque con Colom-
 
-                                                                     bia: un caso de discriminación estructural”, en Anuario de Derechos Hu-
+**Definición Canónica:** bia: un caso de discriminación estructural”, en Anuario de Derechos Hu-
                                                                      manos (Universidad de Chile, N° 13), pp.135-145. Versión online en: https://
                                                                      anuariocdh.uchile.cl/index.php/ADH/article/view/46895/49113
 
+bia: un caso de discriminación estructural”, en Anuario de Derechos Hu-
+                                                                     manos (Universidad de Chile, N° 13), pp.135-145. Versión online en: https://
+                                                                     anuariocdh.uchile.cl/index.php/ADH/article/view/46895/49113
 
 ## 104. URZÚA Alfonso, FERRER Rodrigo; OLIVARES, Esthepany; ROJAS Jeraldin-
 
-                                                                     ne y RAMÍREZ, Romy (2019): “El efecto de la discriminación racial y étnica
+**Definición Canónica:** ne y RAMÍREZ, Romy (2019): “El efecto de la discriminación racial y étnica
                                                                      sobre la autoestima individual y colectiva según el fenotipo autoreportado
                                                                      en migrantes colombianos en Chile”. Versión online en: https://scielo.conicyt.
                                                                      cl/pdf/terpsicol/v37n3/0718-4808-terpsicol-37-03-0225.pdf
 
+ne y RAMÍREZ, Romy (2019): “El efecto de la discriminación racial y étnica
+                                                                     sobre la autoestima individual y colectiva según el fenotipo autoreportado
+                                                                     en migrantes colombianos en Chile”. Versión online en: https://scielo.conicyt.
+                                                                     cl/pdf/terpsicol/v37n3/0718-4808-terpsicol-37-03-0225.pdf
 
 ## 105. VÁZQUEZ, Daniel (2018): Test de razonabilidad y derechos humanos: ins-
 
-                                                                     trucciones para armar (Universidad Nacional Autónoma de México, Instituto
+**Definición Canónica:** trucciones para armar (Universidad Nacional Autónoma de México, Instituto
                                                                      de Investigaciones Jurídicas, Serie Estudios Jurídicos, N° 287). Versión onli-
                                                                      ne en: https://archivos.juridicas.unam.mx/www/bjv/libros/9/4254/15.pdf
 
+trucciones para armar (Universidad Nacional Autónoma de México, Instituto
+                                                                     de Investigaciones Jurídicas, Serie Estudios Jurídicos, N° 287). Versión onli-
+                                                                     ne en: https://archivos.juridicas.unam.mx/www/bjv/libros/9/4254/15.pdf
 
 ## 106. VIVANCO, Ángela. (2006): Curso de Derecho Constitucional: Aspectos
 
-                                                                     Dogmáticos de la Carta Fundamental de 1980, Tomo II, Santiago: Ediciones
+**Definición Canónica:** Dogmáticos de la Carta Fundamental de 1980, Tomo II, Santiago: Ediciones
+**Concordancias Legales:** Constitución Política
+
+Dogmáticos de la Carta Fundamental de 1980, Tomo II, Santiago: Ediciones
 
                                                                      Universidad Católica de Chile.
 
                                                                      Legislación Nacional
                                                                1.    Constitución Política de la República de Chile.
 
-
-## 2.    Ley N° 20.422, establece normas sobre igualdad de oportunidades e inclu-
-
-                                                                     sión social de personas con discapacidad, Diario Oficial, 10 de febrero de
-                                                                     2010.
-
-
 ## 3.    Ley N° 20.609, establece medidas contra la discriminación, Diario Oficial, 24
 
-                                                                     de julio de 2012.
+**Definición Canónica:** de julio de 2012.
+**Concordancias Legales:** Ley N° 21.120
+
+de julio de 2012.
 
                                                                4.    Código Penal de Chile, Diario Oficial, 18 de noviembre de 1874.
 
                                                                5.    Ley N° 21.120, reconoce y da protección al derecho a la identidad de género,
                                                                      Diario Oficial, 10 de diciembre de 2018.
 
-
-## 6.    Ley N° 20.422, establece normas sobre igualdad de oportunidades e inclu-
-
-                                                                     sión social de personas con discapacidad, Diario Oficial, 10 de febrero de
-                                                                     2010.
-
-
 ## 7.    Ley N° 21.155, establece medidas de protección a la lactancia materna y su
 
-                                                                     ejercicio, Diario Oficial, 2 de mayo de 2019.
+**Definición Canónica:** ejercicio, Diario Oficial, 2 de mayo de 2019.
+
+ejercicio, Diario Oficial, 2 de mayo de 2019.
 
                                                                      Jurisprudencia Nacional
                                                                1.    1 Juzgado de Letras de Coyhaique, Rol C-1325-2013, 16 de octubre de
@@ -8377,35 +8715,12 @@ Ley
 
                                                                27.   Tribunal Oral en lo Penal Angol, RIT N° 19-2020, 22 de agosto de 2020.
 
-
-## 28.   Tribunal Oral en lo Penal San Bernardo, RIT Nº 114-2018, de 07 de junio de
-
-                                                                     2018.
-
-                                                               29.   5° Tribunal Oral en lo Penal de Santiago, RIT: 65-2017, de 23 de junio de 2017.
-
-
-## 30.   Corte de Apelaciones de La Serena, Rol N°C-639-2014, de 28 de agosto de
-
-                                                                     2014.
-
-                                                               31.   Corte Suprema, Rol 38521-2017, 5 de septiembre de 2017.
-
-
-## 32.   Tribunal Constitucional, Rol 1133-2008. Sentencia de 18 de noviembre de
-
-                                                                     2008.
-
-
-## 33.   Tribunal Constitucional, Rol 2440-13. Sentencia de 24 de septiembre de
-
-                                                                     2013.
-
-
 ## 34.   Tribunal Constitucional, Rol 2250-2012. Sentencia de 18 de junio de 2013
 
+**Definición Canónica:** Bibliografía                                                                 198
+Ley
 
-                                                                     Bibliografía                                                                 198
+Bibliografía                                                                 198
 Ley
 
                                                                      Declaraciones, recomendaciones, observaciones, resoluciones
@@ -8417,199 +8732,82 @@ Ley
                                                                2.    NACIONES UNIDAS, Carta de las Naciones Unidas, 1945, Versión online en:
                                                                      https://www.oas.org/36ag/espanol/doc_referencia/carta_nu.pdf
 
-
 ## 3.    NACIONES UNIDAS, Convención Internacional sobre la Eliminación de
 
-                                                                     todas las Formas de Discriminación Racial, 1965, Versión online en: https://
+**Definición Canónica:** todas las Formas de Discriminación Racial, 1965, Versión online en: https://
+                                                                     www.ohchr.org/sp/professionalinterest/pages/cerd.aspx
+
+todas las Formas de Discriminación Racial, 1965, Versión online en: https://
                                                                      www.ohchr.org/sp/professionalinterest/pages/cerd.aspx
 
                                                                4.    NACIONES UNIDAS, Pacto Internacional de Derechos Civiles y Políticos,
                                                                      1966, Versión online en: https://www.ohchr.org/sp/professionalinterest/pa-
                                                                      ges/ccpr.aspx
 
-
 ## 5.    ORGANIZACIÓN DE ESTADOS AMERICANOS, Convención Americana de
 
-                                                                     Derechos Humanos, 1958, Versión online en: https://www.oas.org/dil/esp/tra-
+**Definición Canónica:** Derechos Humanos, 1958, Versión online en: https://www.oas.org/dil/esp/tra-
                                                                      tados_b-32_convencion_americana_sobre_derechos_humanos.htm
 
+Derechos Humanos, 1958, Versión online en: https://www.oas.org/dil/esp/tra-
+                                                                     tados_b-32_convencion_americana_sobre_derechos_humanos.htm
 
 ## 6.    NACIONES UNIDAS, Convención sobre los Derechos del Niño, 1989. Versión
 
-                                                                     online en: https://plataformadeinfancia.org/derechos-de-infancia/la-con-
+**Definición Canónica:** online en: https://plataformadeinfancia.org/derechos-de-infancia/la-con-
                                                                      vencion-de-los-derechos-de-la-infancia/?gclid=Cj0KCQiAmfmABh-
                                                                      CHARIsACwPRAAOj2_yi17mlUcZ5cueKsQ6ybwIMFgDq6NZJPOM208iQU-
                                                                      XliX43k0AaAjJwEALw_wcB
 
-
-## 7.    NACIONES UNIDAS, Convención sobre la eliminación de todas las formas
-
-                                                                     de discriminación contra la mujer (CEDAW), 1979, Versión online en: https://
-                                                                     www.acnur.org/fileadmin/Documentos/BDL/2017/11405.pdf
-
+online en: https://plataformadeinfancia.org/derechos-de-infancia/la-con-
+                                                                     vencion-de-los-derechos-de-la-infancia/?gclid=Cj0KCQiAmfmABh-
+                                                                     CHARIsACwPRAAOj2_yi17mlUcZ5cueKsQ6ybwIMFgDq6NZJPOM208iQU-
+                                                                     XliX43k0AaAjJwEALw_wcB
 
 ## 8.    ORGANIZACIÓN DE ESTADOS AMERICANOS, Convención Interamericana
 
-                                                                     sobre la Protección de los Derechos Humanos de las Personas Mayores,
+**Definición Canónica:** sobre la Protección de los Derechos Humanos de las Personas Mayores,
                                                                      2015, Versión online en: http://www.oas.org/es/sla/ddi/docs/tratados_mul-
                                                                      tilaterales_interamericanos_a-70_derechos_humanos_personas_mayo-
                                                                      res.pdf
 
+sobre la Protección de los Derechos Humanos de las Personas Mayores,
+                                                                     2015, Versión online en: http://www.oas.org/es/sla/ddi/docs/tratados_mul-
+                                                                     tilaterales_interamericanos_a-70_derechos_humanos_personas_mayo-
+                                                                     res.pdf
 
 ## 9.    NACIONES UNIDAS, Convención sobre los Derechos de las Personas con
 
-                                                                     Discapacidad, 2004, Versión online en: https://www.acnur.org/publications/
+**Definición Canónica:** Discapacidad, 2004, Versión online en: https://www.acnur.org/publications/
                                                                      pub_prot/5b6cb1524/convencion-sobre-los-derechos-de-las-perso-
                                                                      nas-con-discapacidad.html?gclid=Cj0KCQiAmfmABhCHARIsACwPRA-
                                                                      Ci_gX3ZNGIyAye2znCEXuT54UuKs6z9yT5zgFYdxH_bCv5I4MKvPIaAr-
                                                                      2QEALw_wcB
 
+Discapacidad, 2004, Versión online en: https://www.acnur.org/publications/
+                                                                     pub_prot/5b6cb1524/convencion-sobre-los-derechos-de-las-perso-
+                                                                     nas-con-discapacidad.html?gclid=Cj0KCQiAmfmABhCHARIsACwPRA-
+                                                                     Ci_gX3ZNGIyAye2znCEXuT54UuKs6z9yT5zgFYdxH_bCv5I4MKvPIaAr-
+                                                                     2QEALw_wcB
 
 ## 10.   ORGANIZACIÓN DE ESTADOS AMERICANOS, Convención Interamericana
 
-                                                                     contra toda forma de discriminación e intolerancia, 2013, Versión online en:
+**Definición Canónica:** contra toda forma de discriminación e intolerancia, 2013, Versión online en:
+                                                                     http://www.oas.org/es/sla/ddi/docs/tratados_multilaterales_interamerica-
+                                                                     nos_A-69_discriminacion_intolerancia.pdf
+
+contra toda forma de discriminación e intolerancia, 2013, Versión online en:
                                                                      http://www.oas.org/es/sla/ddi/docs/tratados_multilaterales_interamerica-
                                                                      nos_A-69_discriminacion_intolerancia.pdf
 
                                                                      Jurisprudencia Internacional
 
-## 1.    CORTE INTERAMERICANA DE DERECHOS HUMANOS (Corte IDH)
-
-
-
-## 2.    Caso Velásquez Paiz y otros vs. Guatemala. Sentencia 19 de noviembre de
-
-
-                                                                     Bibliografía                                                            199
-Ley
-
-
-## 3.    Caso Furlan y familiares vs Argentina. Sentencia 31 de agosto de 2012
-
-
-
-## 4.    Caso Apitz Barbera y otros. Sentencia 5 de agosto de 2008
-
-
-
-## 5.    Caso I.V. vs. Bolivia. Sentencia 30 de noviembre de 2016
-
-
-
-## 6.    Caso Atala Riffo y niñas vs. Chile. Sentencia 24 de febrero de 2012
-
-
-
-## 7.    Caso I.V. vs. Bolivia. Sentencia 30 de noviembre de 2016
-
-
-
-## 8.    Caso Rosendo Cantú y otra vs. México. Sentencia 31 de agosto de 2010
-
-
-
-## 9.    Caso Fernández Ortega y otros vs. México. Sentencia 30 de agosto de 2010
-
-
-
-## 10.   Caso Poblete Vilches y otros vs. Chile. Sentencia 8 de marzo de 2018
-
-
-
-## 11.   Caso Gonzales Lluy y otros vs. Ecuador. Sentencia 1 de septiembre de 2015
-
-
-
-## 12.   Caso San Miguel Sosa y otras vs. Venezuela. Sentencia 8 de febrero de 2018
-
-
-                                                                     Comité de Derechos Humanos (CDH)
-
-## 1.    Caso Zelaya y Zelaya vs. Nicaragua, CCPR/C/51/D/328/1988
-
-
-
-## 2.    Caso Danning vs. los Países Bajos CCPR/C/21/D/180/1984
-
-
-
-## 3.    Caso Sprenger vs. los Países Bajos CCPR/C/44/D/395/1990
-
-
-                                                               4.    Caso J.G vs. los Países Bajos CCPR/C/39/D/306/1988.
-
-
-## 5.    Caso Schmitz-de-Jong vs. los Países Bajos CCPR/C/72/D/855/1999
-
-
-
-## 6.    Caso Debreczny vs. los Países Bajos CCPR/C/53/D/500/1992
-
-
-
-## 7.    Caso García Pons vs. España CCPR/C/55/D/454/1991
-
-
-
-## 8.    Caso Deisl y Deisl vs. Austria CCPR/C/81/D/1060/2002
-
-
-
-## 9.    Caso Gallego Díaz vs. España CCPR/C/82/D/988/2001
-
-
-
-## 10.   Caso Gueye vs. Francia, CCPR/C/35/D/196/1985
-
-
-
-## 11.   Caso Aumeeruddy-Cziffra vs. Mauricio, CCPR/C/12/D/35/1978
-
-
-
-## 12.   Caso Broeks vs. Países Bajos, CCPR/C/29/D/172/1984
-
-
-
-## 13.   Caso Guedson vs. Francia, CCPR/C/39/D/219/1986
-
-
-
-## 14.   Caso J.G.A Diergaardt vs. Namibia, CCPR/C/69/D/760/1997
-
-
-
-## 15.   Caso Blom vs. Suecia, CPR/C/32/D/191/1985
-
-
-
-## 16.   Caso Lindgren vs. Suecia, CCPR/C/40/D/298/1988
-
-
-
-## 17.   Caso Lundquist v. Suecia, CCPR/C/40/D/299/1988
-
-
-
-## 18.   Caso Brinkof vs. Países Bajos, CCPR/C/48/D/402/1990
-
-
-
-## 19.   Caso Orihuela Valenzuela vs. Perú, CCPR/C/48/D/309/1988
-
-
-
-## 20.   Caso Jacobs vs. Bélgica CCPR/C/81/D/943/2000
-
-
-Ley
-
-                                                                                               Anexos:
-
-
 ## 2. Tabla N° 2: estereotipos masculinos y femeninos, es decir, cuáles son las cualidades que se asignana
 
-                                                          hombres y mujeres en nuestra sociedad por el solo hecho de serlo. Material del Servicio Nacional
+**Definición Canónica:** hombres y mujeres en nuestra sociedad por el solo hecho de serlo. Material del Servicio Nacional
+                                                          de la Mujer y la Equidad de Género.
+
+hombres y mujeres en nuestra sociedad por el solo hecho de serlo. Material del Servicio Nacional
                                                           de la Mujer y la Equidad de Género.
 
                                                                Dimensiones        Estereotipos masculinos                         Estereotipos femeninos
@@ -8654,10 +8852,13 @@ Ley
                                                                                                 Anexos                                                                      201
 Ley
 
-
 ## 8. Tabla N° 8 Estereotipos y mitos respecto de la persona mayor (Edadismo o Ageísmo): extraído
 
-                                                         del material de estudio del “Máster Interdisciplinar en Prevención y Tratamiento de la Violencia
+**Definición Canónica:** del material de estudio del “Máster Interdisciplinar en Prevención y Tratamiento de la Violencia
+                                                         Familiar: Infancia, Pareja y Personas Mayores” de la Universidad de Barcelona. Módulo Malos tratos
+                                                         a las personas mayores. Mercè Tabueña; Montserrat Coma, M. Jordi Muñoz y Francesc Orfila.
+
+del material de estudio del “Máster Interdisciplinar en Prevención y Tratamiento de la Violencia
                                                          Familiar: Infancia, Pareja y Personas Mayores” de la Universidad de Barcelona. Módulo Malos tratos
                                                          a las personas mayores. Mercè Tabueña; Montserrat Coma, M. Jordi Muñoz y Francesc Orfila.
 
@@ -8685,10 +8886,12 @@ Ley
                                                                                               Anexos                                                                       202
 Ley
 
-
 ## 9. Tabla N° 9: Mitos hacia las personas con discapacidad (Confeccionada a partir de los 10
 
-                                                         Mitos sobre discapacidad de la página. Versión online en: https://www.incluyeme.com/10-mitos-
+**Definición Canónica:** Mitos sobre discapacidad de la página. Versión online en: https://www.incluyeme.com/10-mitos-
+                                                         sobre-la-discapacidad/ ).
+
+Mitos sobre discapacidad de la página. Versión online en: https://www.incluyeme.com/10-mitos-
                                                          sobre-la-discapacidad/ ).
 
                                                                Mito                      Realidad
@@ -8734,40 +8937,3 @@ Ley
                                                                denadas a vivir solas y   decisiones, además por tener una condición no quiere decir que va a vivir con la
                                                                despertar lastima en su   compasión de las demás personas.
                                                                familia.
-
-
-## Serie de
-
-
-## Ley                                                1.     DOCUMENTOS 204
-
-Antidiscriminación                                        MATERIALES   04
-
-
-## Docentes
-
-
-ial
- c
- udi
- J
- a
- mi
- de
- a
- c
- A
- s
- e
- nt
- e
- c
- do
- s
- al
- e
- ri
- e
-Mat
-
-   Academia Judicial de Chile | www.academiajudicial.cl

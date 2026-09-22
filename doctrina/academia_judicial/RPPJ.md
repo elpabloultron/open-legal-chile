@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Responsabilidad
+                Personas
+                Jurídicas
 
-             Responsabilidad
+Responsabilidad
                 Personas
                 Jurídicas
 
@@ -35,19 +29,23 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Osvaldo
+                            Artaza
+                            Varela
+                        Doctor en Derecho por la Universidad
+Academia                de Barcelona y profesor asociado de
+                Autor
+Judicial                la Universidad de Talca, se desempeña
+de Chile                como director del Centro de Estudios
+                        de Derecho Penal de dicha universidad
+Diseño y                chilena. Abogado de la Universidad de
+Diagramación:           Chile, es autor de diversas publicacioEstudio Real            nes relacionadas con la responsabilidad
+somosr
+**Concordancias Legales:** Ley 20.393
 
-                        Osvaldo
+Osvaldo
                             Artaza
                             Varela
                         Doctor en Derecho por la Universidad
@@ -65,13 +63,12 @@ docente Nº 25           la Ley 20.393 de Chile y Compliance
 Santiago,               penal: Sistemas de prevención de la
 Chile 2021              corrupción (como director).
 
-
-## Isbn n°
-
-
 ## 2022-a-1842
 
-Responsabilidad                                                                                                 3
+**Definición Canónica:** Responsabilidad                                                                                                 3
+**Concordancias Legales:** Ley Nº 20.393
+
+Responsabilidad                                                                                                 3
 
                                         Resumen
 
@@ -110,158 +107,50 @@ Chile 2021              corrupción (como director).
 
                                         1. La responsabilidad penal de las personas jurídicas y su contexto: la criminalidad empresarial                     6
 
-
-## 1.1 Conceptos básicos: la criminalidad de empresa como problema original de
-
-                                                la responsabilidad penal de las personas jurídicas                                                           7
-
-
-## 1.1.1 Criminalidad organizada y delincuencia empresarial                                                    8
-
-
-
-## 1.1.2 Distinción entre la criminalidad empresarial y la criminalidad intraempresarial                      11
-
-
-
-## 1.1.3 Delito económico y criminalidad empresarial                                                         15
-
-
-
-## 1.2 Características de la criminalidad de empresa: la dimensión propiamente organizacional
-
-
-                                               de esta y sus consecuencias                                                                                 20
-
-
-## 1.2.1 El contexto organizacional y su incidencia en la comisión de delitos                                20
-
-
-
-## 1.2.3 El aumento de la oportunidad delictiva en la organización empresarial                               36
-
-
-
-## 1.3 La responsabilidad penal de las personas jurídicas como complemento para
-
-                                               la reacción frente a la delincuencia de empresa                                                             43
-
-
-## 1.3.1 Refuerzo del efecto disuasivo y fomento de la capacidad de autorregulación de las organizaciones    43
-
-
-
 ## 1.3.2 La dimensión comunicativa de la RPPJ: prevención general positiva y dimensión retributiva           56
 
+**Definición Canónica:** 2. Presupuestos para la atribución de RPPJ. Propuestas de modelos de imputación.                                   67
 
-                                        2. Presupuestos para la atribución de RPPJ. Propuestas de modelos de imputación.                                   67
+2. Presupuestos para la atribución de RPPJ. Propuestas de modelos de imputación.                                   67
 
                                            2.1 El problema del “modelo de imputación” en sede jurídico-penal respecto a la RPPJ.
                                                  El “origen” de la institución.                                                                            68
 
-
-## 2.1.1 Propuestas de justificación de la RPPJ con énfasis en el comportamiento del integrante
-
-                                                       y búsqueda de criterios que permitan la derivación de la responsabilidad                            74
-
-
-## 2.2 Propuestas de legitimación de la RPPJ con énfasis en la dimensión corporativa del delito
-
-                                               y la constatación de criterios de atribución de responsabilidad autónoma                                    86
-
-
-## 2.2.1 La introducción de los criterios de “defecto de organización” y “desarrollo sistémico defectuoso”
-
-                                                       como elementos centrales para la atribución de RPPJ                                                 86
-
-
-## 2.2.2 Conclusiones preliminares relativas al modelo de imputación plasmado en la Ley Nº 20.393            96
-
-
-
-## 2.3 Reflexiones breves respecto a la RPPJ y el rendimiento práctico de la teoría
-
-                                               del delito para su comprensión                                                                              102
-
-
-## 2.3.1 Tipicidad                                                                                           104
-
-
-
 ## 2.3.2 Culpabilidad                                                                                        113
 
+**Definición Canónica:** 3. Contenido normativo Ley Nº 20.393. Presupuestos para la atribución de responsabilidad,
+                                           sanciones y su determinación.                                                                                   136
+**Concordancias Legales:** Ley Nº 20.393
 
-                                        3. Contenido normativo Ley Nº 20.393. Presupuestos para la atribución de responsabilidad,
+3. Contenido normativo Ley Nº 20.393. Presupuestos para la atribución de responsabilidad,
                                            sanciones y su determinación.                                                                                   136
 
                                            3.1 Cuestiones básicas asociadas al régimen de RPPJ emanado de la Ley Nº 20.393                                 137
 
-
-## 3.1.1 La RPPJ como un supuesto de “verdadera” responsabilidad penal                                       137
-
-Responsabilidad                                                                                                                                       5
-
-
-## 3.1.2 Contenido “jurídico-penal” de la Ley Nº 20.393. Referencia al modelo de responsabilidad
-
-                                                      autónomo regulado en este cuerpo legal.                                                   142
-
-
-## 3.1.3 Eventuales problemas relativos al ne bis in idem y la RPPJ                                149
-
-
-
-## 3.2 Personas jurídicas que pueden responder penalmente                                               157
-
-
-
-## 3.2.1 Identificación de problemas relativos al “sujeto de la imputación”                        157
-
-
-
-## 3.2.2 Análisis de criterios emanados de tribunales con competencia penal en Chile               163
-
-
-
-## 3.3 Delimitación del deber de dirección y supervisión y explicación del criterio relativo a que
-
-                                               el delito sea consecuencia de la “omisión” de tal deber                                          170
-
-
 ## 3.3.1 El deber de dirección y supervisión entendido como un deber de gestión de riesgos
 
-                                                      penales a través de la implementación y ejecución de un modelo de prevención de delitos   170
+**Definición Canónica:** penales a través de la implementación y ejecución de un modelo de prevención de delitos   170
+
+penales a través de la implementación y ejecución de un modelo de prevención de delitos   170
 
                                                 3.3.2 Exigencias relativas a la orgánica de un modelo de prevención de delitos.
 
                                                       La figura del encargado de prevención.                                                    181
 
-
 ## 3.3.3 Contenido esencial de un sistema de prevención. Aproximación desde la metodología
 
-                                                      para la gestión de riesgos penales.                                                       187
+**Definición Canónica:** para la gestión de riesgos penales.                                                       187
+
+para la gestión de riesgos penales.                                                       187
 
                                                 3.3.4 ¿Cuándo el delito puede ser considerado una consecuencia de la omisión del deber?
                                                       Consecuencias en sede procesal y para la motivación de la sentencia.                      198
 
-
-## 4. Sanciones y determinación de la pena                                                                 206
-
-
-
-## 4.1 Descripción general del sistema de sanciones contenido en la Ley Nº 20.393                       207
-
-
-
-## 4.2 Campo de aplicación de la pena de acuerdo con el delito por el cual se condena
-
-                                               a la persona jurídica y reglas para la determinación de su extensión                             217
-
-
 ## 4.3 Extinción de la responsabilidad penal y reglas de transmisión de esta                            223
 
+**Definición Canónica:** Glosario                                                                                                228
 
-                                        Glosario                                                                                                228
+Glosario                                                                                                228
 
                                         Bibliografía                                                                                            230
 Responsabilidad
@@ -276,10 +165,14 @@ Chile 2021              corrupción (como director).
 Responsabilidad                                                                               1. La responsabilidad penal de las personas                                            7
 Penal de las                                                                                     jurídicas y su contexto: la criminalidad
 
-
 ## 1.1                Conceptos básicos: la criminalidad de
 
-                                                                                                empresa como problema original de la
+**Definición Canónica:** empresa como problema original de la
+                                                                                                responsabilidad penal de las personas
+                                                                                                jurídicas
+**Concordancias Legales:** Ley Nº 20.393
+
+empresa como problema original de la
                                                                                                 responsabilidad penal de las personas
                                                                                                 jurídicas
 
@@ -314,7 +207,12 @@ Penal de las                                                                    
 
 ## 2        Se debe reconocer que este último aspecto es sumamente debatido, sobre todo por quienes no están dis-
 
-                                                               puestos a asumir que pueda dirigirse un juicio de reproche a una persona jurídica. Lo que se quiere reflejar
+**Definición Canónica:** puestos a asumir que pueda dirigirse un juicio de reproche a una persona jurídica. Lo que se quiere reflejar
+                                                               ahora es que, al menos en la discusión de la doctrina especializada, se ha abordado esta institución tanto
+                                                               desde una dimensión preventiva como una retributiva, aunque esta última pueda presentar un enfoque no
+                                                               necesariamente similar al de la responsabilidad penal individual.
+
+puestos a asumir que pueda dirigirse un juicio de reproche a una persona jurídica. Lo que se quiere reflejar
                                                                ahora es que, al menos en la discusión de la doctrina especializada, se ha abordado esta institución tanto
                                                                desde una dimensión preventiva como una retributiva, aunque esta última pueda presentar un enfoque no
                                                                necesariamente similar al de la responsabilidad penal individual.
@@ -332,7 +230,14 @@ Penal de las                                                                    
 
 ## 1.1.1 Criminalidad organizada y delincuencia empresarial
 
-                                                      –en el marco de los                      Una de las primeras distinciones que deben efectuarse para com-
+**Definición Canónica:** –en el marco de los                      Una de las primeras distinciones que deben efectuarse para com-
+                                                      negocios– pero a                         prender la naturaleza del fenómeno al que pretende responder la
+                                                      través de medios                         RPPJ, es el de la criminalidad de empresa frente a lo que se conoce
+                                                      ilícitos, por ejemplo,                   como “criminalidad organizada”. En este sentido, resulta ya un lugar
+         
+**Concordancias Legales:** Ley Nº 20.393
+
+–en el marco de los                      Una de las primeras distinciones que deben efectuarse para com-
                                                       negocios– pero a                         prender la naturaleza del fenómeno al que pretende responder la
                                                       través de medios                         RPPJ, es el de la criminalidad de empresa frente a lo que se conoce
                                                       ilícitos, por ejemplo,                   como “criminalidad organizada”. En este sentido, resulta ya un lugar
@@ -474,10 +379,16 @@ Penal de las                                                                    
                                                                                                fenómeno de la delincuencia en el marco de personas jurídicas cuyo
                                                                                                objeto resulte –no solo en apariencia– lícito.
 
-
 ## 1.1.2 Distinción entre la criminalidad empresarial
 
-                                                                                               y la criminalidad intraempresarial
+**Definición Canónica:** y la criminalidad intraempresarial
+                                                                                               Por otro lado, es usual señalar que el fenómeno de la criminalidad
+                                                                                               empresarial debiera distinguirse debido a la clase de intereses que
+                                                                                               se ven comprometidos por esta y, con mayor precisión, si se afectan
+                                                                             
+**Concordancias Legales:** Ley Nº 20.393
+
+y la criminalidad intraempresarial
                                                                                                Por otro lado, es usual señalar que el fenómeno de la criminalidad
                                                                                                empresarial debiera distinguirse debido a la clase de intereses que
                                                                                                se ven comprometidos por esta y, con mayor precisión, si se afectan
@@ -653,10 +564,16 @@ Penal de las                                                                    
                                                                                              impacto que la propia organización empresarial puede tener en la
                                                                                              explicación de esta clase de delincuencia.
 
-
 ## 1.1.3 Delito económico y criminalidad empresarial
 
-                                                                                             Debido a la evidente relación que presentan ambas instituciones,
+**Definición Canónica:** Debido a la evidente relación que presentan ambas instituciones,
+                                                                                             conviene detenerse brevemente en el concepto de derecho penal
+                                                                                             económico, con el objeto de verificar si la Ley Nº 20.393 puede o
+                                                                                             no entenderse como una forma de reacción frente a esta rama del
+                                                                
+**Concordancias Legales:** Ley Nº 20.393; DL 211
+
+Debido a la evidente relación que presentan ambas instituciones,
                                                                                              conviene detenerse brevemente en el concepto de derecho penal
                                                                                              económico, con el objeto de verificar si la Ley Nº 20.393 puede o
                                                                                              no entenderse como una forma de reacción frente a esta rama del
@@ -853,10 +770,15 @@ Penal de las                                                                    
                                                                                            la dimensión propiamente organizacional
                                                                                            de esta y sus consecuencias
 
-
 ## 1.2.1 El contexto organizacional y su
 
-                                                                                           incidencia en la comisión de delitos
+**Definición Canónica:** incidencia en la comisión de delitos
+                                                                                           Un análisis completo del fenómeno de la criminalidad de empresa
+                                                      El contexto                          supone, necesariamente, identificar aquellos factores asociados al con-
+                                                      organizacional                       texto en el que se comete, es decir, el comportamiento de individuos
+                                                      no solo permitirá              
+
+incidencia en la comisión de delitos
                                                                                            Un análisis completo del fenómeno de la criminalidad de empresa
                                                       El contexto                          supone, necesariamente, identificar aquellos factores asociados al con-
                                                       organizacional                       texto en el que se comete, es decir, el comportamiento de individuos
@@ -929,15 +851,22 @@ Penal de las                                                                    
 
 ## 29 En este sentido, Van Erp (2018), p. 1, da cuenta de cómo este fenómeno ha sido estudiado preferentemente
 
-                                                           por la criminología, la economía y el derecho. Sin embargo, los conocimientos que provienen de la psicología,
+**Definición Canónica:** por la criminología, la economía y el derecho. Sin embargo, los conocimientos que provienen de la psicología,
+                                                           la sociología, la antropología, la ciencia política, la ética empresarial y las ciencias de la información y tec-
+                                                           nología resultarían sumamente pertinentes para su comprensión.
+                                                      30 Van Erp (2018), p. 2.
+
+por la criminología, la economía y el derecho. Sin embargo, los conocimientos que provienen de la psicología,
                                                            la sociología, la antropología, la ciencia política, la ética empresarial y las ciencias de la información y tec-
                                                            nología resultarían sumamente pertinentes para su comprensión.
                                                       30 Van Erp (2018), p. 2.
 
 ## 31    Van Erp (2018), p. 2
 
+**Definición Canónica:** Responsabilidad                                                                        1. La responsabilidad penal de las personas                             22
+Penal de las                                                                              jurídicas y su contexto: la criminalidad
 
-Responsabilidad                                                                        1. La responsabilidad penal de las personas                             22
+Responsabilidad                                                                        1. La responsabilidad penal de las personas                             22
 Penal de las                                                                              jurídicas y su contexto: la criminalidad
 
                                                                                          pondría a disposición de sus integrantes el lugar, los incentivos, las
@@ -1075,7 +1004,13 @@ Penal de las                                                                    
 
 ## parte, la distribución horizontal de competencias podría aumentar la
 
-                                                                                           probabilidad de que, a través de la competencia entre las filiales por
+**Definición Canónica:** probabilidad de que, a través de la competencia entre las filiales por
+                                                                                           los recursos escasos, se termine generando niveles poco apropiados
+                                                                                           de presión o tensión.46 Por último, la dispersión a nivel espacial de la
+                                                                                           organización dificultaría el control interno relativo al cumplimiento
+                                              
+
+probabilidad de que, a través de la competencia entre las filiales por
                                                                                            los recursos escasos, se termine generando niveles poco apropiados
                                                                                            de presión o tensión.46 Por último, la dispersión a nivel espacial de la
                                                                                            organización dificultaría el control interno relativo al cumplimiento
@@ -1194,10 +1129,12 @@ Penal de las                                                                    
 Responsabilidad                                                                              1. La responsabilidad penal de las personas                             28
 Penal de las                                                                                    jurídicas y su contexto: la criminalidad
 
-
 ## 1.2.2 Incidencia de la cultura organizacional en la crimi-
 
-                                                                                               nalidad de empresa. Teorías de la neutralización y racio-
+**Definición Canónica:** nalidad de empresa. Teorías de la neutralización y racio-
+                                                                                               nalización del comportamiento ilícito.
+
+nalidad de empresa. Teorías de la neutralización y racio-
                                                                                                nalización del comportamiento ilícito.
 
                                                                                                De acuerdo con Trahan, resultaría inevitable recurrir a la cultura orga-
@@ -1565,7 +1502,13 @@ Penal de las                                                                    
 
 ## 1.2.3 El aumento de la oportunidad delictiva
 
-                                                                                               en la organización empresarial
+**Definición Canónica:** en la organización empresarial
+                                                                                               De acuerdo con lo anteriormente expuesto, la comprensión de la
+                                                                                               criminalidad de empresa supone considerar aquellos factores que
+                                                                                               la promueven o facilitan, y que dicen relación con la consideración
+                                                                                         
+
+en la organización empresarial
                                                                                                De acuerdo con lo anteriormente expuesto, la comprensión de la
                                                                                                criminalidad de empresa supone considerar aquellos factores que
                                                                                                la promueven o facilitan, y que dicen relación con la consideración
@@ -1824,21 +1767,14 @@ Penal de las                                                      jurídicas y s
 Responsabilidad                                                                              1. La responsabilidad penal de las personas                                      43
 Penal de las                                                                                    jurídicas y su contexto: la criminalidad
 
-
-## 1.3               La responsabilidad penal de las personas
-
-                                                                                               jurídicas como complemento para la reacción
-                                                                                               frente a la delincuencia de empresa
-
-
-## 1.3.1 Refuerzo del efecto disuasivo y fomento de la
-
-                                                                                               capacidad de autorregulación de las organizaciones
-
-
 ## 1.3.1.1 La supuesta ineficacia de la
 
-                                                                                               responsabilidad penal individual
+**Definición Canónica:** responsabilidad penal individual
+                                                                                               Ya es un lugar común en la doctrina penal el reconocimiento de que
+                                                                                               estos delitos, debido a las razones antes analizadas, no podrían ser
+**Concordancias Legales:** constitución
+
+responsabilidad penal individual
                                                                                                Ya es un lugar común en la doctrina penal el reconocimiento de que
                                                                                                estos delitos, debido a las razones antes analizadas, no podrían ser
 
@@ -2017,10 +1953,16 @@ Penal de las                                                                    
                                                                                             la mayoría de los problemas anteriormente detectados. Por otra
                                                       atributivos para la
 
-
 ## parte, no se puede desconocer que la atribución de responsabilidad
 
-                                                      responsabilidad                       en comisión por omisión –también en caso de que se cumplan sus
+**Definición Canónica:** responsabilidad                       en comisión por omisión –también en caso de que se cumplan sus
+                                                      penal individual                      requisitos– puede disminuir las dificultades señaladas.
+                                                      en el marco de
+                                                                                            La segunda vía de solución responde a los problemas relacionados con
+                                                      organizaciones
+                                                    
+
+responsabilidad                       en comisión por omisión –también en caso de que se cumplan sus
                                                       penal individual                      requisitos– puede disminuir las dificultades señaladas.
                                                       en el marco de
                                                                                             La segunda vía de solución responde a los problemas relacionados con
@@ -2118,10 +2060,15 @@ Penal de las                                                                    
                                                                                               ción presente reglas de conducta consistentes con el ordenamiento
                                                                                               jurídico, evitando así el conflicto.
 
-
 ## 1.3.1.2 El refuerzo disuasivo a través de la
 
-                                                                                              responsabilidad penal de las personas jurídicas
+**Definición Canónica:** responsabilidad penal de las personas jurídicas
+                                                                                              No resulta extraño constatar que una de las formas posibles para
+                                                                                              contrarrestar los problemas detectados sea la de incorporar algunos
+                                                                                              mecanismos tendientes a disminuir este déficit preventivo de la
+                                                                         
+
+responsabilidad penal de las personas jurídicas
                                                                                               No resulta extraño constatar que una de las formas posibles para
                                                                                               contrarrestar los problemas detectados sea la de incorporar algunos
                                                                                               mecanismos tendientes a disminuir este déficit preventivo de la
@@ -2203,10 +2150,15 @@ Penal de las                                                                    
                                                                                                –propios de la actividad económica en organizaciones– que incidirían
                                                                                                en el aumento de probabilidad de comisión de estos.
 
-
 ## 1.3.1.3 La función de fomento de la autorregulación
 
-                                                                                               adecuada de la organización
+**Definición Canónica:** adecuada de la organización
+                                                                                               En relación con lo anteriormente expuesto, se debe partir de la
+                                                                                               base que el aumento del efecto preventivo esperado, a través de la
+                                                                                               responsabilidad penal de las personas jurídicas, está derechamente
+                                                                                         
+
+adecuada de la organización
                                                                                                En relación con lo anteriormente expuesto, se debe partir de la
                                                                                                base que el aumento del efecto preventivo esperado, a través de la
                                                                                                responsabilidad penal de las personas jurídicas, está derechamente
@@ -2300,18 +2252,22 @@ Penal de las                                                                    
                                                                                            la definición o delimitación del mismo marco regulatorio y de los
                                                                                            deberes que deben ser cumplidos por estos últimos.125
 
-
 ## 123  Wells, Morgan y Quick (2000), pp. 496 y ss., abordan el problema del aumento de las actividades riesgosas
 
-                                                           (especialmente aquellas que puedan derivar en graves “desastres” para la población) en manos de las grandes
+**Definición Canónica:** (especialmente aquellas que puedan derivar en graves “desastres” para la población) en manos de las grandes
                                                            organizaciones empresariales y la reacción estatal frente a este aumento de poder.
 
-## 124 Coca (2013), p. 44
-
+(especialmente aquellas que puedan derivar en graves “desastres” para la población) en manos de las grandes
+                                                           organizaciones empresariales y la reacción estatal frente a este aumento de poder.
 
 ## 125 En forma detallada, Coca (2013), p. 51, de acuerdo con quien este sistema “alude a la forma de regulación
 
-                                                           estatal del mundo empresarial caracterizada por la incorporación del ente privado en el proceso de regulación
+**Definición Canónica:** estatal del mundo empresarial caracterizada por la incorporación del ente privado en el proceso de regulación
+                                                           pero de forma subordinada a los concretos fines o intereses públicos predeterminados por el Estado [...]”. Lo
+                                                           relevante aquí es que el Estado, titular de la potestad regulatoria, recurre a las empresas para que colaboren
+                                                           con él en la elaboración de cuerpos normativos.
+
+estatal del mundo empresarial caracterizada por la incorporación del ente privado en el proceso de regulación
                                                            pero de forma subordinada a los concretos fines o intereses públicos predeterminados por el Estado [...]”. Lo
                                                            relevante aquí es que el Estado, titular de la potestad regulatoria, recurre a las empresas para que colaboren
                                                            con él en la elaboración de cuerpos normativos.
@@ -2356,7 +2312,11 @@ Penal de las                                                                    
 
 ## 127 Bermejo (2017), p. 81. Como se podrá apreciar más adelante, por eso se reconoce la importancia de las di-
 
-                                                           rectrices internas de la propia empresa para la prevención de sus propios delitos. Al respecto, Theile (2008),
+**Definición Canónica:** rectrices internas de la propia empresa para la prevención de sus propios delitos. Al respecto, Theile (2008),
+                                                           pp. 408 y ss.
+                                                      128 Bermejo (2017), p. 81.
+
+rectrices internas de la propia empresa para la prevención de sus propios delitos. Al respecto, Theile (2008),
                                                            pp. 408 y ss.
                                                       128 Bermejo (2017), p. 81.
 
@@ -2430,16 +2390,16 @@ Penal de las                                                                    
                                                       tales factores.                        mediante la adopción de medidas que reflejen su preocupación por una
                                                                                              cultura corporativa que tienda al respecto del ordenamiento jurídico.
 
-
-## 1.3.2 La dimensión comunicativa
-
-                                                                                             de la RPPJ: prevención general
-                                                                                             positiva y dimensión retributiva
-
-
 ## 1.3.2.1 RPPJ y aumento de la conciencia social respecto a
 
-                                                                                             la naturaleza corporativa de la criminalidad de empresa
+**Definición Canónica:** la naturaleza corporativa de la criminalidad de empresa
+                                                                                             En términos sencillos, se puede partir de la siguiente premisa: el
+                                                                                             sistema penal, para su vigencia, requiere necesariamente que la
+                                                                                             ciudadanía opere bajo la convicción de que, pese a la infracción de
+                                                                  
+**Concordancias Legales:** Ley Nº 20.393
+
+la naturaleza corporativa de la criminalidad de empresa
                                                                                              En términos sencillos, se puede partir de la siguiente premisa: el
                                                                                              sistema penal, para su vigencia, requiere necesariamente que la
                                                                                              ciudadanía opere bajo la convicción de que, pese a la infracción de
@@ -2665,10 +2625,15 @@ Penal de las                                                      jurídicas y s
                                                                  asociados a la ignorancia de la comunidad respecto al nivel de invo-
                                                                  lucramiento de la propia empresa en el delito respectivo.
 
-
 ## 1.3.2.2 Reconocimiento de responsabilidad autónoma
 
-                                                                 de la organización en el delito corporativo
+**Definición Canónica:** de la organización en el delito corporativo
+                                                                 Hasta aquí se ha señalado que la criminalidad de empresa presenta
+                                                                 ciertas características o naturaleza que hacen aconsejable, para su
+                                                                 prevención o reacción, la incorporación de una herramienta jurídica
+                                                                 que complemente la responsabilidad penal individual.
+
+de la organización en el delito corporativo
                                                                  Hasta aquí se ha señalado que la criminalidad de empresa presenta
                                                                  ciertas características o naturaleza que hacen aconsejable, para su
                                                                  prevención o reacción, la incorporación de una herramienta jurídica
@@ -2831,7 +2796,10 @@ Penal de las                                                                    
 
 ## 146 Ver Gómez-Jara (2005), p. 142, según el cual en este tipo de modelos “más bien parece tratarse de una
 
-                                                           compensación que sigue un esquema beneficios/pérdidas y que no pertenece al ámbito propio del derecho
+**Definición Canónica:** compensación que sigue un esquema beneficios/pérdidas y que no pertenece al ámbito propio del derecho
+                                                           penal”.
+
+compensación que sigue un esquema beneficios/pérdidas y que no pertenece al ámbito propio del derecho
                                                            penal”.
 
 Responsabilidad                                                                              1. La responsabilidad penal de las personas                                     66
@@ -2862,10 +2830,13 @@ Penal de las                                                                    
 Responsabilidad                                                                               2. Presupuestos para la atribución de RPPJ.                                       68
 Penal de las                                                                                     Propuestas de modelos de imputación.
 
-
 ## 2.1                El problema del “modelo de imputación”en
 
-                                                                                                sede jurídico-penal respecto a la RPPJ. El
+**Definición Canónica:** sede jurídico-penal respecto a la RPPJ. El
+                                                                                                “origen” de la institución.
+**Concordancias Legales:** artículos 136; artículo 27 de la Ley Nº 19.913; artículo 8; artículos 240; Ley Nº 20.393; Ley Nº 19.913; Ley Nº 18.314
+
+sede jurídico-penal respecto a la RPPJ. El
                                                                                                 “origen” de la institución.
 
                                                                                                 Para poder comprender adecuadamente el sistema de RPPJ en
@@ -3143,17 +3114,26 @@ Penal de las                                                      Propuestas de 
                                                                  de corresponsabilidad de la propia persona jurídica en el delito co-
                                                                  metido por el integrante.
 
-
 ## 2.1.1 Propuestas de justificación de la RPPJ con
 
-                                                                 énfasis en el comportamiento del integrante
+**Definición Canónica:** énfasis en el comportamiento del integrante
                                                                  y búsqueda de criterios que permitan la
                                                                  derivación de la responsabilidad
 
+énfasis en el comportamiento del integrante
+                                                                 y búsqueda de criterios que permitan la
+                                                                 derivación de la responsabilidad
 
 ## 2.1.1.1 Aspectos básicos del principio
 
-                                                                 del respondeat superior
+**Definición Canónica:** del respondeat superior
+                                                                 De acuerdo con lo recientemente señalado, es muy difícil comprender
+                                                                 la RPPJ sin considerar el nexo o vínculo que los diversos modelos
+                                                                 de imputación establecen con el hecho delictivo de su integrante.
+                                                                 Si bien es cierto que se podrán constatar diferencias no del todo
+                                                  
+
+del respondeat superior
                                                                  De acuerdo con lo recientemente señalado, es muy difícil comprender
                                                                  la RPPJ sin considerar el nexo o vínculo que los diversos modelos
                                                                  de imputación establecen con el hecho delictivo de su integrante.
@@ -3272,10 +3252,16 @@ Penal de las                                                                    
                                                                                            portantes críticas asociadas tanto a su efectividad como a la eventual
                                                                                            ilegitimidad de sancionar penalmente a la empresa por el hecho ajeno.
 
-
 ## 2.1.1.2 Criterios atributivos de responsabilidad
 
-                                                                                           penal a las personas jurídicas
+**Definición Canónica:** penal a las personas jurídicas
+                                                                                           Por ahora, lo que interesa es ahondar en esta práctica a propósito de
+                                                                                           los niveles que se identificaron como fundamentales para compren-
+                                                                                           der los presupuestos para la atribución de responsabilidad penal a
+                                                                                           la
+**Concordancias Legales:** Ley Nº 20.393
+
+penal a las personas jurídicas
                                                                                            Por ahora, lo que interesa es ahondar en esta práctica a propósito de
                                                                                            los niveles que se identificaron como fundamentales para compren-
                                                                                            der los presupuestos para la atribución de responsabilidad penal a
@@ -3581,10 +3567,14 @@ Penal de las                                                                    
                                                                                            los esfuerzos desplegados para la prevención del ilícito. Por lo mismo,
                                                                                            los modelos que se describirán continuación parten justamente desde
 
-
 ## 173  Me refiero a los supuestos conocidos como “deferred prosecution agreements” (DPA) y los “non-prosecution
 
-                                                           agreements” (NPA). Al respecto, en detalle Jiménez (2019), pp. 357 y ss. Como señala este autor, el Depar-
+**Definición Canónica:** agreements” (NPA). Al respecto, en detalle Jiménez (2019), pp. 357 y ss. Como señala este autor, el Depar-
+                                                           tamento de Justicia consideraría una serie de factores para determinar si persigue o no a una corporación
+                                                           o resuelve el conflicto a través de un acuerdo. Dentro de estos está la naturaleza y gravedad del delito; el
+                                                           hecho de que la empresa sea reincidente o que haya cometido delitos similares; la cooperación que pre
+
+agreements” (NPA). Al respecto, en detalle Jiménez (2019), pp. 357 y ss. Como señala este autor, el Depar-
                                                            tamento de Justicia consideraría una serie de factores para determinar si persigue o no a una corporación
                                                            o resuelve el conflicto a través de un acuerdo. Dentro de estos está la naturaleza y gravedad del delito; el
                                                            hecho de que la empresa sea reincidente o que haya cometido delitos similares; la cooperación que preste en
@@ -3604,17 +3594,26 @@ Penal de las                                                      Propuestas de 
 Responsabilidad                                                                             2. Presupuestos para la atribución de RPPJ.                                 86
 Penal de las                                                                                   Propuestas de modelos de imputación.
 
-
 ## 2.2               Propuestas de legitimación de la RPPJ con
 
-                                                                                              énfasis en la dimensión corporativa del delito
+**Definición Canónica:** énfasis en la dimensión corporativa del delito
                                                                                               y la constatación de criterios deatribución de
                                                                                               responsabilidad autónoma
 
+énfasis en la dimensión corporativa del delito
+                                                                                              y la constatación de criterios deatribución de
+                                                                                              responsabilidad autónoma
 
 ## 2.2.1 La introducción de los criterios de “defecto de
 
-                                                                                              organización” y “desarrollo sistémico defectuoso”
+**Definición Canónica:** organización” y “desarrollo sistémico defectuoso”
+                                                                                              como elementos centrales para la atribución de RPPJ
+                                                                                              Como se sostuviera previamente, se debe partir de la base de que
+                                                                                              no existe un único “modelo de responsabilidad por el defecto de
+                                                                                       
+**Concordancias Legales:** Ley Nº 20.393
+
+organización” y “desarrollo sistémico defectuoso”
                                                                                               como elementos centrales para la atribución de RPPJ
                                                                                               Como se sostuviera previamente, se debe partir de la base de que
                                                                                               no existe un único “modelo de responsabilidad por el defecto de
@@ -3865,7 +3864,14 @@ Penal de las                                                                    
 
 ## parte de un integrante no se sigue que la persona jurídica responda
 
-                                                                                            por este, sino que la base de su responsabilidad como persona ju-
+**Definición Canónica:** por este, sino que la base de su responsabilidad como persona ju-
+                                                                                            rídica es la infracción a su propio deber de cuidado o de adecuada
+                                                                                            organización.187 Como señala Nieto, el fundamento de tal culpabilidad
+                                                                                            vendría dado porque “en la dirección empresarial no se han cumplido
+                                                     
+**Concordancias Legales:** Ley Nº 20.393
+
+por este, sino que la base de su responsabilidad como persona ju-
                                                                                             rídica es la infracción a su propio deber de cuidado o de adecuada
                                                                                             organización.187 Como señala Nieto, el fundamento de tal culpabilidad
                                                                                             vendría dado porque “en la dirección empresarial no se han cumplido
@@ -3941,10 +3947,12 @@ Penal de las                                                                    
                                                                                             tuoso, la persona jurídica respondería penalmente por su propio
                                                                                             defecto organizativo.
 
-
 ## 191      Heine (2006), p. 553
 
-                                                      192      Mañalich (2011), p. 304.
+**Definición Canónica:** 192      Mañalich (2011), p. 304.
+**Concordancias Legales:** Ley Nº 20.393
+
+192      Mañalich (2011), p. 304.
 
 Responsabilidad                                                                   2. Presupuestos para la atribución de RPPJ.                          94
 Penal de las                                                                         Propuestas de modelos de imputación.
@@ -4021,7 +4029,12 @@ Penal de las                                                                    
 
 ## capítulo de este curso, a propósito del estudio de las características
 
-                                                                               de la criminalidad de empresa, resulta ya innegable la naturaleza
+**Definición Canónica:** de la criminalidad de empresa, resulta ya innegable la naturaleza
+                                                                               organizacional de esta clase de delincuencia y la enorme incidencia
+                                                                               que puede tener el comportamiento colectivo para el fomento u
+                                                                               aumento de la oportunidad para delinquir.
+
+de la criminalidad de empresa, resulta ya innegable la naturaleza
                                                                                organizacional de esta clase de delincuencia y la enorme incidencia
                                                                                que puede tener el comportamiento colectivo para el fomento u
                                                                                aumento de la oportunidad para delinquir.
@@ -4046,10 +4059,17 @@ Penal de las                                                      Propuestas de 
                                                                  comportamiento e intervención propiamente corporativa respecto
                                                                  a la comisión de delitos a propósito del desarrollo de su actividad.
 
-
 ## 2.2.2 Conclusiones preliminares relativas al modelo
 
-                                                                 de imputación plasmado en la Ley Nº 20.393
+**Definición Canónica:** de imputación plasmado en la Ley Nº 20.393
+                                                                 Como se señaló al comienzo de este subcapítulo, nuestra doctrina ha
+                                                                 ofrecido una serie de propuestas interpretativas respecto al contenido
+                                                                 normativo que se debiera extraer de la Ley Nº 20.393, lo que se debía,
+                                                                 principalmente, a que del tenor literal de esta no resulta para nada
+                  
+**Concordancias Legales:** artículos 3; artículo 3; artículo 4; Ley Nº 20.393
+
+de imputación plasmado en la Ley Nº 20.393
                                                                  Como se señaló al comienzo de este subcapítulo, nuestra doctrina ha
                                                                  ofrecido una serie de propuestas interpretativas respecto al contenido
                                                                  normativo que se debiera extraer de la Ley Nº 20.393, lo que se debía,
@@ -4299,10 +4319,13 @@ Penal de las                                                                    
 Responsabilidad                                                                           2. Presupuestos para la atribución de RPPJ.                            102
 Penal de las                                                                                 Propuestas de modelos de imputación.
 
-
 ## 2.3               Reflexiones breves respecto a la RPPJy el
 
-                                                                                            rendimiento práctico de la teoría del delito
+**Definición Canónica:** rendimiento práctico de la teoría del delito
+                                                                                            para su comprensión
+**Concordancias Legales:** Ley Nº 20.393
+
+rendimiento práctico de la teoría del delito
                                                                                             para su comprensión
 
                                                                                             Una de las principales ventajas que presenta la teoría del delito, desde
@@ -4417,14 +4440,15 @@ Penal de las                                                      Propuestas de 
                                                                  constatarse a propósito del análisis de cada uno de estos elementos
                                                                  a propósito de la responsabilidad penal individual.
 
-
-## 2.3.1 Tipicidad
-
-
-
 ## 2.3.1.1 Tipicidad objetiva
 
-                                                                 Uno de los primeros resguardos que se deben tomar, a la hora de
+**Definición Canónica:** Uno de los primeros resguardos que se deben tomar, a la hora de
+                                                                 definir si el elemento “tipicidad” presenta algún rendimiento práctico
+                                                                 a la hora de analizar el modelo de RPPJ en nuestro país, es clarificar
+                                                                 en qué sentido se está utilizando el término para tal evaluación. Lo
+                                                                 que interesa acá es el cometido asignado al tipo penal, de delimi
+
+Uno de los primeros resguardos que se deben tomar, a la hora de
                                                                  definir si el elemento “tipicidad” presenta algún rendimiento práctico
                                                                  a la hora de analizar el modelo de RPPJ en nuestro país, es clarificar
                                                                  en qué sentido se está utilizando el término para tal evaluación. Lo
@@ -4563,10 +4587,16 @@ Penal de las                                                                    
 Responsabilidad                                                2. Presupuestos para la atribución de RPPJ.                             108
 Penal de las                                                      Propuestas de modelos de imputación.
 
-
 ## 2.3.1.2 Tipicidad subjetiva
 
-                                                                 Uno de los principales problemas que se plantean para quienes pre-
+**Definición Canónica:** Uno de los principales problemas que se plantean para quienes pre-
+                                                                 tenden analizar la RPPJ en forma plenamente coincidente con los
+                                                                 presupuestos para la atribución de responsabilidad penal, es la de
+                                                                 satisfacer los requerimientos provenientes del principio de dolo o
+                                                                 culpa que, como es conocido, permiten evitar aquello que se conoce
+        
+
+Uno de los principales problemas que se plantean para quienes pre-
                                                                  tenden analizar la RPPJ en forma plenamente coincidente con los
                                                                  presupuestos para la atribución de responsabilidad penal, es la de
                                                                  satisfacer los requerimientos provenientes del principio de dolo o
@@ -4729,7 +4759,13 @@ Penal de las                                                                    
 
 ## parte de esta.            De hecho, al menos en nuestro ordenamiento jurídico-penal, desde el
 
-                                                                                punto de vista de la imputación subjetiva se puede decir que la regla
+**Definición Canónica:** punto de vista de la imputación subjetiva se puede decir que la regla
+                                                                                general está dada por la atribución de dolo (conocimiento e intención,
+                                                                                en su caso). La imputación subjetiva a título de imprudencia –o in-
+                                                                                fracción de deberes de cuidado bajo el entendimiento tradicional de
+                                                                                est
+
+punto de vista de la imputación subjetiva se puede decir que la regla
                                                                                 general está dada por la atribución de dolo (conocimiento e intención,
                                                                                 en su caso). La imputación subjetiva a título de imprudencia –o in-
                                                                                 fracción de deberes de cuidado bajo el entendimiento tradicional de
@@ -4809,14 +4845,16 @@ Penal de las                                                                    
                                                                                           por parte de las personas jurídicas en lo que respecta a la gestión de
                                                                                           sus riesgos penales.209
 
-
-## 2.3.2 Culpabilidad
-
-
-
 ## 2.3.2.1 El “problema” de la culpabilidad
 
-                                                                                          de las personas jurídicas
+**Definición Canónica:** de las personas jurídicas
+                                                                                          Es importante comprender que la discusión respecto a la culpabilidad
+                                                                                          de las personas jurídicas no es solo un problema teórico. Lo anterior
+                                                                                          se puede clarificar si se atiende a lo dispuesto por el inc. 2º del art. 1º
+                                                                                         
+**Concordancias Legales:** Ley Nº 20.393
+
+de las personas jurídicas
                                                                                           Es importante comprender que la discusión respecto a la culpabilidad
                                                                                           de las personas jurídicas no es solo un problema teórico. Lo anterior
                                                                                           se puede clarificar si se atiende a lo dispuesto por el inc. 2º del art. 1º
@@ -4919,7 +4957,13 @@ Penal de las                                                                    
 
 ## 211 Es importante considerar que para otro sector importante más bien derivaría de “necesidades de vigencia
 
-                                                           del sistema”, sin perjuicio de que igualmente recurre a determinada forma de comprensión de la personalidad
+**Definición Canónica:** del sistema”, sin perjuicio de que igualmente recurre a determinada forma de comprensión de la personalidad
+                                                           individual con el objeto de evitar, por llamarlo de alguna forma, una culpabilidad disfuncional, esto es, que no
+                                                           propenda al restablecimiento de tal vigencia, como sería el caso de la sanción al inimputable o a quien no
+                                                           podía comportarse de otro modo.
+                                                      212 En es
+
+del sistema”, sin perjuicio de que igualmente recurre a determinada forma de comprensión de la personalidad
                                                            individual con el objeto de evitar, por llamarlo de alguna forma, una culpabilidad disfuncional, esto es, que no
                                                            propenda al restablecimiento de tal vigencia, como sería el caso de la sanción al inimputable o a quien no
                                                            podía comportarse de otro modo.
@@ -5008,10 +5052,15 @@ Penal de las                                                      Propuestas de 
                                                                  que tal elemento pueda construirse en base a criterios diversos al
                                                                  de la responsabilidad penal individual.
 
-
 ## 2.3.2.2 De la culpabilidad sin juicio de reproche a
 
-                                                                 un reproche ad hoc para las personas jurídicas
+**Definición Canónica:** un reproche ad hoc para las personas jurídicas
+                                                                 En un primer sentido, se ha señalado entre nosotros que la RPPJ es
+                                                                 siempre objetiva –luego, no tendría sentido el “juicio de reproche”– y
+                                                                 que por tanto la categoría analizada cumpliría, a lo más, una función
+                                                                 similar a la propia de la responsabilidad penal individual vinculada
+
+un reproche ad hoc para las personas jurídicas
                                                                  En un primer sentido, se ha señalado entre nosotros que la RPPJ es
                                                                  siempre objetiva –luego, no tendría sentido el “juicio de reproche”– y
                                                                  que por tanto la categoría analizada cumpliría, a lo más, una función
@@ -5270,7 +5319,12 @@ Penal de las                                                                    
 
 ## 226 Gómez-Jara (2012), p. 168. Se debe considerar que el autor asume como dogma la teoría de los sistemas
 
-                                                           sociales autopoiéticos. Simplificando en extremo para posibilitar la comprensión de esta postura: parte de la
+**Definición Canónica:** sociales autopoiéticos. Simplificando en extremo para posibilitar la comprensión de esta postura: parte de la
+                                                           base que desde el punto de vista del mantenimiento de la vigencia del sistema –fin que le cabe al derecho
+                                                           penal– lo relevante es constatar qué clase de actos comunicativos presentan determinada capacidad de
+                                                           cuestionar la vigencia de la norma, y que, al menos desde este punto de partida, tanto las personas jurídi
+
+sociales autopoiéticos. Simplificando en extremo para posibilitar la comprensión de esta postura: parte de la
                                                            base que desde el punto de vista del mantenimiento de la vigencia del sistema –fin que le cabe al derecho
                                                            penal– lo relevante es constatar qué clase de actos comunicativos presentan determinada capacidad de
                                                            cuestionar la vigencia de la norma, y que, al menos desde este punto de partida, tanto las personas jurídicas
@@ -5314,10 +5368,16 @@ Penal de las                                                                    
                                                                                          de las personas jurídicas en “los mismos términos que la responsa-
                                                                                          bilidad penal por organización de las personas físicas”.231
 
-
 ## 228 De acuerdo con Pastor (2006), p. 3, la tesis de Gómez-Jara puede resumirse en los siguientes términos: “…
 
-                                                           las empresas con una complejidad interna suficiente tienen una autorreflexión comparable a la conciencia
+**Definición Canónica:** las empresas con una complejidad interna suficiente tienen una autorreflexión comparable a la conciencia
+                                                           de las personas físicas. Esa clase de empresas deben ser consideradas personas jurídico-penales, con las
+                                                           garantías y la autorresponsabilidad que ello implica”.
+                                                      229 Gómez-Jara (2008), p. 265.
+                                                      230 Pastor (2006b), p. 3.
+                                                    
+
+las empresas con una complejidad interna suficiente tienen una autorreflexión comparable a la conciencia
                                                            de las personas físicas. Esa clase de empresas deben ser consideradas personas jurídico-penales, con las
                                                            garantías y la autorresponsabilidad que ello implica”.
                                                       229 Gómez-Jara (2008), p. 265.
@@ -5450,10 +5510,17 @@ Penal de las                                                      Propuestas de 
 Responsabilidad                                                2. Presupuestos para la atribución de RPPJ.                             128
 Penal de las                                                      Propuestas de modelos de imputación.
 
-
 ## 2.3.3.3 El problema de las “excusas” que podría esgrimir
 
-                                                                 la persona jurídica a propósito de su defensa
+**Definición Canónica:** la persona jurídica a propósito de su defensa
+                                                                 No tiene mucho sentido –al menos desde un punto de vista prác-
+                                                                 tico– plantearse el problema por la “culpabilidad” de las personas
+                                                                 jurídicas y el sustento sobre el cual se fundaría un “juicio de reproche”
+                                                                 si es que no se analiza, como contrapartida, la posibilidad de que en
+                    
+**Concordancias Legales:** Ley Nº 20.393
+
+la persona jurídica a propósito de su defensa
                                                                  No tiene mucho sentido –al menos desde un punto de vista prác-
                                                                  tico– plantearse el problema por la “culpabilidad” de las personas
                                                                  jurídicas y el sustento sobre el cual se fundaría un “juicio de reproche”
@@ -5795,15 +5862,16 @@ Penal de las                                                      Propuestas de 
 Responsabilidad                                                                         3. Contenido normativo Ley Nº 20.393. Presupuestos para la           137
 Penal de las                                                                               atribución de responsabilidad, sanciones y su determinación.
 
-
-## 3.1              Cuestiones básicas asociadas al régimende
-
-                                                                                          RPPJ emanado de la Ley Nº 20.393
-
-
 ## 3.1.1 La RPPJ como un supuesto de
 
-                                                                                          “verdadera” responsabilidad penal
+**Definición Canónica:** “verdadera” responsabilidad penal
+                                                                                          Como es bien sabido, la RPPJ se introduce en Chile en el año 2009,
+                                                                                          con el principal objeto de cumplir las exigencias necesarias para que
+                                                                                          nuestro país pudiera incorporarse a la OCDE244, abandonándose así
+                                                                                          “de
+**Concordancias Legales:** Ley Nº 20.393; Ley Nº 30.464; Constitucion; Constitución
+
+“verdadera” responsabilidad penal
                                                                                           Como es bien sabido, la RPPJ se introduce en Chile en el año 2009,
                                                                                           con el principal objeto de cumplir las exigencias necesarias para que
                                                                                           nuestro país pudiera incorporarse a la OCDE244, abandonándose así
@@ -6023,13 +6091,14 @@ Penal de las                                                                    
                                                                                                diferencias de contenido, mas no de función, que pueden reconocerse
                                                                                                entre la responsabilidad penal individual y la de las personas jurídicas.
 
-
-## 3.1.2 Contenido “jurídico-penal” de la Ley Nº
-
-
 ## 20.393. Referencia al modelo de responsabilidad
 
-                                                                                               autónomo regulado en este cuerpo legal.259
+**Definición Canónica:** autónomo regulado en este cuerpo legal.259
+                                                                                               Una de las principales características del sistema de RPPJ regulado
+                                                                                               por la Ley Nº 20.393, es que adhiere a un sistema de numerus clausus
+**Concordancias Legales:** artículos 136; artículos 287 bis; artículo 318 ter; artículo 456 bis; artículo 470; artículo 2; artículos 3; artículo 1; artículo 3; artículo 4; artículo 5; Ley Nº 20.393
+
+autónomo regulado en este cuerpo legal.259
                                                                                                Una de las principales características del sistema de RPPJ regulado
                                                                                                por la Ley Nº 20.393, es que adhiere a un sistema de numerus clausus
 
@@ -6255,14 +6324,15 @@ Penal de las                                                      atribución de
                                                                  concurriendo los demás requisitos previstos en el artículo 3º, se
                                                                  presente algunas de las siguientes situaciones:
 
-## 1. La responsabilidad penal individual se hubiere extinguido con-
-
-                                                                    forme a lo dispuesto en los numerales 1º y 6º del artículo 93 del
-                                                                    Código Penal.
-
 ## 2. En el proceso penal seguido en contra de las personas naturales
 
-                                                                    indicadas en los incisos primero y segundo del artículo 3º se
+**Definición Canónica:** indicadas en los incisos primero y segundo del artículo 3º se
+                                                                    decretare el sobreseimiento temporal de el o los imputados,
+                                                                    conforme a las causales de las letras b) y c) del artículo 252 del
+                                                                    Código Procesal Penal”.
+**Concordancias Legales:** artículo 3; artículo 252 del Código Procesal Penal; artículo 19; artículo 93 del Código Penal; artículo 5; artículo 1; artículo 139 de la Ley General de Pesca; Ley Nº 20.393
+
+indicadas en los incisos primero y segundo del artículo 3º se
                                                                     decretare el sobreseimiento temporal de el o los imputados,
                                                                     conforme a las causales de las letras b) y c) del artículo 252 del
                                                                     Código Procesal Penal”.
@@ -6328,10 +6398,17 @@ Penal de las                                                      atribución de
                                                                  en delito en forma directa u ordenando tal actividad, perfectamente
                                                                  podría condenarse a la persona jurídica por su propia infracción.
 
-
 ## 3.1.3 Eventuales problemas relativos
 
-                                                                 al ne bis in idem y la RPPJ
+**Definición Canónica:** al ne bis in idem y la RPPJ
+                                                                 Antes de entrar a analizar en detalle los aspectos centrales de la Ley
+                                                                 Nº 20.393, conviene detenerse brevemente en ciertas consecuen-
+                                                                 cias que se extraen de lo hasta ahora señalado para el ámbito de la
+                                                                 aplicación del principio del ne bis in idem. Lo que ahora interesa es
+                                        
+**Concordancias Legales:** artículo 63 del Código Penal a propósito de la valoración de; artículo 1; artículo 136 de la Ley General de Pesca y; artículo 3; artículo 136; artículo 19; artículo 27; Ley Nº 20.393; Ley Nº 19.913; Constitucion
+
+al ne bis in idem y la RPPJ
                                                                  Antes de entrar a analizar en detalle los aspectos centrales de la Ley
                                                                  Nº 20.393, conviene detenerse brevemente en ciertas consecuen-
                                                                  cias que se extraen de lo hasta ahora señalado para el ámbito de la
@@ -6662,15 +6739,17 @@ Penal de las                                                      atribución de
 Responsabilidad                                                      3. Contenido normativo Ley Nº 20.393. Presupuestos para la             157
 Penal de las                                                            atribución de responsabilidad, sanciones y su determinación.
 
-
-## 3.2     Personas jurídicas que pueden
-
-                                                                       responder penalmente
-
-
 ## 3.2.1 Identificación de problemas relativos
 
-                                                                       al “sujeto de la imputación”
+**Definición Canónica:** al “sujeto de la imputación”
+                                                                       De acuerdo con lo establecido en el artículo 2º de la Ley Nº 20.393,
+                                                                       las disposiciones de esta ley “serán aplicables a las personas jurídi-
+                                                                       cas de derecho privado y a las empresas del Estado”. Como se
+                                                                       pretende demostrar ahora, esta disposición debe ser interpretada
+                     
+**Concordancias Legales:** artículo 2; artículo 1; artículo 3; artículo 18; artículo 294 bis; Ley Nº 20.393; Ley Nº 18.575; Ley Nº 20.393.274; constitución
+
+al “sujeto de la imputación”
                                                                        De acuerdo con lo establecido en el artículo 2º de la Ley Nº 20.393,
                                                                        las disposiciones de esta ley “serán aplicables a las personas jurídi-
                                                                        cas de derecho privado y a las empresas del Estado”. Como se
@@ -6927,10 +7006,17 @@ Penal de las                                                                    
 Responsabilidad                                                3. Contenido normativo Ley Nº 20.393. Presupuestos para la             163
 Penal de las                                                      atribución de responsabilidad, sanciones y su determinación.
 
-
 ## 3.2.2 Análisis de criterios emanados de
 
-                                                                 tribunales con competencia penal en Chile
+**Definición Canónica:** tribunales con competencia penal en Chile
+                                                                 El problema antes planteado no ha sido ajeno a la escasa práctica
+                                                                 jurisprudencial en nuestro país. Por lo mismo, se analizarán a con-
+                                                                 tinuación dos casos en que tribunales chilenos se han pronunciado
+                                                                 respecto a si cualquier persona jurídica puede responder penalmente
+                              
+**Concordancias Legales:** artículo 250 del Código Penal en relación; artículos 3; artículo 8; artículo 3; artículo 1; Ley Nº 20.393
+
+tribunales con competencia penal en Chile
                                                                  El problema antes planteado no ha sido ajeno a la escasa práctica
                                                                  jurisprudencial en nuestro país. Por lo mismo, se analizarán a con-
                                                                  tinuación dos casos en que tribunales chilenos se han pronunciado
@@ -7060,10 +7146,16 @@ Penal de las                                                      atribución de
                                                                      sabilidad penal por los delitos previstos en el artículo 1º son los
                                                                      siguientes: [...]
 
-
 ## 302. Se requiere además que los delitos se hayan cometido direc-
 
-                                                                     ta e inmediatamente en interés de la persona jurídica o para su
+**Definición Canónica:** ta e inmediatamente en interés de la persona jurídica o para su
+                                                                     provecho, lo que viene reiterado luego cuando se señala que las
+                                                                     entidades ‘no serán responsables en los casos que las personas
+                                                                     naturales indicadas en los incisos anteriores, hubieren cometido
+                                                                     el delito exclusivamente en ventaja propia o a favor de un terce-
+  
+
+ta e inmediatamente en interés de la persona jurídica o para su
                                                                      provecho, lo que viene reiterado luego cuando se señala que las
                                                                      entidades ‘no serán responsables en los casos que las personas
                                                                      naturales indicadas en los incisos anteriores, hubieren cometido
@@ -7073,10 +7165,17 @@ Penal de las                                                      atribución de
 
                                                                      directo beneficio de su empresa Asevertrans.
 
-
 ## 303. Y siempre que la comisión del delito sea consecuencia del
 
-                                                                     incumplimiento, por parte de la entidad, de sus deberes de di-
+**Definición Canónica:** incumplimiento, por parte de la entidad, de sus deberes de di-
+                                                                     rección y supervisión, a lo que se opone expresamente la previa
+                                                                     adopción e implementación de un modelo de organización,
+                                                                     administración y supervisión para prevenir delitos como el come-
+                                                                     tido y este es el punto central en la especie, ya que Asevertrans
+          
+**Concordancias Legales:** artículo 3; Ley Nº 20.393; Ley N° 20.393; constitución
+
+incumplimiento, por parte de la entidad, de sus deberes de di-
                                                                      rección y supervisión, a lo que se opone expresamente la previa
                                                                      adopción e implementación de un modelo de organización,
                                                                      administración y supervisión para prevenir delitos como el come-
@@ -7206,17 +7305,27 @@ Penal de las                                                      atribución de
 Responsabilidad                                                               3. Contenido normativo Ley Nº 20.393. Presupuestos para la           170
 Penal de las                                                                     atribución de responsabilidad, sanciones y su determinación.
 
-
 ## 3.3     Delimitación del deber de dirección y
 
-                                                                                supervisióny explicación del criterio relativo a
+**Definición Canónica:** supervisióny explicación del criterio relativo a
                                                                                 que el delito sea consecuencia de la “omisión”
                                                                                 de tal deber
 
+supervisióny explicación del criterio relativo a
+                                                                                que el delito sea consecuencia de la “omisión”
+                                                                                de tal deber
 
 ## 3.3.1 El deber de dirección y supervisión entendido
 
-                                                                                como un deber de gestión de riesgos penales
+**Definición Canónica:** como un deber de gestión de riesgos penales
+                                                                                a través de la implementación y ejecución
+                                                                                de un modelo de prevención de delitos
+                                                                                Con independencia del problema ya abordado283 y relativo al “injusto”
+                                                                                propio de la persona jurídica, resulta indudable que uno de los pre-
+                 
+**Concordancias Legales:** artículo 3; artículo 1; artículo 4; Ley Nº 20.393
+
+como un deber de gestión de riesgos penales
                                                                                 a través de la implementación y ejecución
                                                                                 de un modelo de prevención de delitos
                                                                                 Con independencia del problema ya abordado283 y relativo al “injusto”
@@ -7343,7 +7452,15 @@ Penal de las                                                      atribución de
 
 ## 2. Definición de medios y facultades del encargado de preven-
 
-                                                                        ción.
+**Definición Canónica:** ción.
+                                                                          La Administración de la Persona Jurídica deberá proveer al
+                                                                          encargado de prevención los medios y facultades suficientes
+                                                                          para el desempeño de sus funciones, entre los que se consi-
+                                                                          derarán a lo menos:
+                                                                          a. Los recursos y medios 
+**Concordancias Legales:** artículo 1; Ley Nº 20.393
+
+ción.
                                                                           La Administración de la Persona Jurídica deberá proveer al
                                                                           encargado de prevención los medios y facultades suficientes
                                                                           para el desempeño de sus funciones, entre los que se consi-
@@ -7395,7 +7512,15 @@ Penal de las                                                      atribución de
 
 ## 4. Supervisión y certificación del sistema de prevención de los
 
-                                                                        delitos.
+**Definición Canónica:** delitos.
+                                                                          a. El encargado de prevención, en conjunto con la Adminis-
+                                                                             tración de la Persona Jurídica, deberá establecer métodos
+                                                                             para la aplicación efectiva del modelo de prevención de
+                                                                             los delitos y su supervisión a fin de detectar y corregir
+                                                       
+**Concordancias Legales:** artículo 260 del Código Penal; artículo 4; artículo 1; Ley Nº 20.393; Ley Nº 30.424
+
+delitos.
                                                                           a. El encargado de prevención, en conjunto con la Adminis-
                                                                              tración de la Persona Jurídica, deberá establecer métodos
                                                                              para la aplicación efectiva del modelo de prevención de
@@ -7606,7 +7731,14 @@ Penal de las                                                      atribución de
 
 ## 1. Accesibilidad: las políticas, acciones, procedimientos, es-
 
-                                                                        trategias que componen el modelo de prevención, así como
+**Definición Canónica:** trategias que componen el modelo de prevención, así como
+                                                                        los materiales de apoyo son de fácil acceso y formulados en
+                                                                        un lenguaje claro y comprensible, a fin de facilitar el acceso,
+                                                                        promoción y conocimiento del modelo entre los trabajado-
+                                                                        res y socios comerciales, y cuando corresponda a las partes
+              
+
+trategias que componen el modelo de prevención, así como
                                                                         los materiales de apoyo son de fácil acceso y formulados en
                                                                         un lenguaje claro y comprensible, a fin de facilitar el acceso,
                                                                         promoción y conocimiento del modelo entre los trabajado-
@@ -7615,8 +7747,14 @@ Penal de las                                                      atribución de
 
 ## 2. Adaptabilidad: las políticas, acciones, procedimientos y es-
 
+**Definición Canónica:** trategias que componen el modelo de prevención se adaptan
+                                                                        a la naturaleza, necesidades, tamaño, estructura, operaciones
+                                                                        geográficas, modelo comercial y demás características con-
+                                                                        cretas de la persona jurídica, sobre la base de los riesgos a
+                                                                        los que esta se encuentra expuesta, en cada caso concreto.
+            
 
-                                                                        trategias que componen el modelo de prevención se adaptan
+trategias que componen el modelo de prevención se adaptan
                                                                         a la naturaleza, necesidades, tamaño, estructura, operaciones
                                                                         geográficas, modelo comercial y demás características con-
                                                                         cretas de la persona jurídica, sobre la base de los riesgos a
@@ -7628,21 +7766,27 @@ Penal de las                                                      atribución de
                                                                         prevención, a través de su compromiso y apoyo firme, activo
                                                                         y visible.
 
-## 4. Continuidad: el modelo de prevención es un proceso con-
-
-                                                                        tinuo, que se adapta permanentemente a los cambios del
-                                                                        entorno comercial y de la persona jurídica.
-
 ## 5. Documentación: las personas jurídicas documentan y evi-
 
-                                                                        dencian los procesos, los controles, la evaluación de riesgos y
+**Definición Canónica:** dencian los procesos, los controles, la evaluación de riesgos y
+                                                                        los resultados de esa evaluación, así como todos los elemen-
+                                                                        tos que sustenten que el modelo de prevención funciona
+                                                                        adecuadamente.
+
+dencian los procesos, los controles, la evaluación de riesgos y
                                                                         los resultados de esa evaluación, así como todos los elemen-
                                                                         tos que sustenten que el modelo de prevención funciona
                                                                         adecuadamente.
 
 ## 6. Eficiencia: la persona jurídica debe emplear adecuadamente
 
-                                                                        y optimizar sus recursos para el diseño, aprobación e imple-
+**Definición Canónica:** y optimizar sus recursos para el diseño, aprobación e imple-
+                                                                        mentación del modelo de prevención, a fin de no incurrir en
+                                                                        costos y cargas innecesarias que puedan poner en riesgo su
+                                                                        eficacia, efectividad y sostenibilidad.
+**Concordancias Legales:** Ley Nº 20.393
+
+y optimizar sus recursos para el diseño, aprobación e imple-
                                                                         mentación del modelo de prevención, a fin de no incurrir en
                                                                         costos y cargas innecesarias que puedan poner en riesgo su
                                                                         eficacia, efectividad y sostenibilidad.
@@ -7659,7 +7803,12 @@ Penal de las                                                      atribución de
 
 ## 8. Independencia: la función de prevención y cumplimiento
 
-                                                                        está revestida de la máxima independencia, de modo tal que la
+**Definición Canónica:** está revestida de la máxima independencia, de modo tal que la
+                                                                        toma de decisiones y las acciones que emprenda el encargado
+                                                                        de prevención no puedan estar condicionadas por cuestiones
+                                                                        o supuestos que le impidan o dificulten el desarrollo de sus
+
+está revestida de la máxima independencia, de modo tal que la
                                                                         toma de decisiones y las acciones que emprenda el encargado
                                                                         de prevención no puedan estar condicionadas por cuestiones
                                                                         o supuestos que le impidan o dificulten el desarrollo de sus
@@ -7668,14 +7817,24 @@ Penal de las                                                      atribución de
 
 ## 9. Proporcionalidad: los controles implementados por la
 
-                                                                        persona jurídica son proporcionales al nivel del riesgo, a la
+**Definición Canónica:** persona jurídica son proporcionales al nivel del riesgo, a la
                                                                         probabilidad de la comisión de actos delictivos y a sus efectos
                                                                         potenciales.
 
+persona jurídica son proporcionales al nivel del riesgo, a la
+                                                                        probabilidad de la comisión de actos delictivos y a sus efectos
+                                                                        potenciales.
 
 ## 10. Publicidad y comunicación preventiva: las personas jurídi-
 
-                                                                         cas, con independencia de su tamaño y capacidad, informan
+**Definición Canónica:** cas, con independencia de su tamaño y capacidad, informan
+                                                                         sobre sus programas, políticas y prácticas para prevenir la
+                                                                         comisión de delitos a sus trabajadores, y cuando corresponda a
+                                                                         los socios comerciales y partes interesadas. Esto no implica la
+                                                                         divulgación o deber de informar sobre cuestiones que atenten
+  
+
+cas, con independencia de su tamaño y capacidad, informan
                                                                          sobre sus programas, políticas y prácticas para prevenir la
                                                                          comisión de delitos a sus trabajadores, y cuando corresponda a
                                                                          los socios comerciales y partes interesadas. Esto no implica la
@@ -7684,7 +7843,11 @@ Penal de las                                                      atribución de
 
 ## 11. Razonabilidad: los controles implementados por la persona
 
-                                                                         jurídica tienen la posibilidad razonable de prevenir, detectar
+**Definición Canónica:** jurídica tienen la posibilidad razonable de prevenir, detectar
+                                                                         y mitigar los riesgos de delitos”.
+**Concordancias Legales:** Ley Nº 20.393
+
+jurídica tienen la posibilidad razonable de prevenir, detectar
                                                                          y mitigar los riesgos de delitos”.
 
                                                                  A continuación se abordarán algunas cuestiones centrales asociadas
@@ -7710,10 +7873,16 @@ Penal de las                                                                    
                                                                                               de dirección y supervisión. Todas estas cuestiones podrían resultar
                                                                                               de suma relevancia para la motivación de la sentencia.
 
-
 ## 3.3.2 Exigencias relativas a la orgánica
 
-                                                                                              de un modelo de prevención de delitos. La
+**Definición Canónica:** de un modelo de prevención de delitos. La
+                                                                                              figura del encargado de prevención.
+                                                                                              Al momento de abordar el nivel de la orgánica –o de los organismos
+                                                                                              de vigilancia– a propósito del funcionamiento de un modelo de pre-
+                                                                                              vención de d
+**Concordancias Legales:** artículo 4; Ley Nº 20.393
+
+de un modelo de prevención de delitos. La
                                                                                               figura del encargado de prevención.
                                                                                               Al momento de abordar el nivel de la orgánica –o de los organismos
                                                                                               de vigilancia– a propósito del funcionamiento de un modelo de pre-
@@ -7979,10 +8148,16 @@ Penal de las                                                                    
                                                                                                   nor tamaño, donde el dueño, socio o accionista controlador podrá
                                                                                                   asumir tal función en forma personal.
 
-
 ## 3.3.3 Contenido esencial de un sistema de
 
-                                                                                                  prevención. Aproximación desde la metodología
+**Definición Canónica:** prevención. Aproximación desde la metodología
+                                                                                                  para la gestión de riesgos penales.
+                                                                                                  Como se señaló con anterioridad, el deber de dirección y supervi-
+                                                                                                  sión, concretado en la implementación de un modelo de prevención,
+                                                                                            
+**Concordancias Legales:** artículo 4; Ley Nº 20.393
+
+prevención. Aproximación desde la metodología
                                                                                                   para la gestión de riesgos penales.
                                                                                                   Como se señaló con anterioridad, el deber de dirección y supervi-
                                                                                                   sión, concretado en la implementación de un modelo de prevención,
@@ -8134,10 +8309,16 @@ Penal de las                                                                    
 Responsabilidad                                                                               3. Contenido normativo Ley Nº 20.393. Presupuestos para la                       191
 Penal de las                                                                                     atribución de responsabilidad, sanciones y su determinación.
 
-
 ## 3.3.3.1 El deber de advertencia de la peligrosidad
 
-                                                                                                de los procesos
+**Definición Canónica:** de los procesos
+                                                                                                Como señala expresamente el artículo 4º Nº 3 letra a, la persona
+                                                                                                jurídica debe identificar “las actividades o procesos sean habituales
+                                                                                                o esporádicos, en cuyo contexto se genere o incremente el riesgo de
+                                                                                             
+**Concordancias Legales:** artículo 4; artículo 1; Ley Nº 20.393
+
+de los procesos
                                                                                                 Como señala expresamente el artículo 4º Nº 3 letra a, la persona
                                                                                                 jurídica debe identificar “las actividades o procesos sean habituales
                                                                                                 o esporádicos, en cuyo contexto se genere o incremente el riesgo de
@@ -8305,10 +8486,16 @@ Penal de las                                                                    
 Responsabilidad                                                                    3. Contenido normativo Ley Nº 20.393. Presupuestos para la            195
 Penal de las                                                                          atribución de responsabilidad, sanciones y su determinación.
 
-
 ## 3.3.3.2 Deber de respuesta frente al riesgo previamente
 
-                                                                                     detectado y evaluado, así como la ejecución,
+**Definición Canónica:** detectado y evaluado, así como la ejecución,
+                                                                                     supervisión y actualización efectiva de esta
+                                                                                     El legislador chileno, en la letra b del Nº 3 del artículo 4º, dispone
+                                                                                     que el sistema de prevención deberá incluir “protocolos, reglas y
+                                                                                     procedimientos específicos que pe
+**Concordancias Legales:** artículo 4; artículo 3; artículo 5; Ley Nº 20.393
+
+detectado y evaluado, así como la ejecución,
                                                                                      supervisión y actualización efectiva de esta
                                                                                      El legislador chileno, en la letra b del Nº 3 del artículo 4º, dispone
                                                                                      que el sistema de prevención deberá incluir “protocolos, reglas y
@@ -8756,10 +8943,12 @@ Penal de las                                                      atribución de
 Responsabilidad                                                      4. Sanciones y determinación                                           207
 Penal de las                                                            de la pena
 
-
 ## 4.1     Descripción general del sistema de sanciones
 
-                                                                       contenido en la Ley Nº 20.393
+**Definición Canónica:** contenido en la Ley Nº 20.393
+**Concordancias Legales:** artículo 19; artículo 93; artículo 1; artículo 8; artículo 13; artículo 9 de la Ley Nº 20.393 se encarga de regular la pena d; Ley Nº 20.393
+
+contenido en la Ley Nº 20.393
 
                                                                        El Título II de la Ley Nº 20.393, “Consecuencias de la Declaración
                                                                        de Responsabilidad Penal de la Persona Jurídica”, regula los aspectos
@@ -8869,14 +9058,14 @@ Penal de las                                                                    
                                                                                                 dispone que al liquidador se le encomendará “la realización de los
                                                                                                 actos o contratos necesarios para:
 
-
-## 1. Concluir toda actividad de la persona jurídica, salvo aquellas que
-
-                                                                                                   fueren indispensables para el éxito de la liquidación;
-
 ## 2. Pagar los pasivos de la persona jurídica, incluidos los derivados de
 
-                                                                                                   la comisión del delito. Los plazos de todas esas deudas se enten-
+**Definición Canónica:** la comisión del delito. Los plazos de todas esas deudas se enten-
+                                                                                                   derán caducados de pleno derecho, haciéndolas inmediatamente
+                                                                                                   exigibles, y su pago deberá realizarse respetando plenamente las
+**Concordancias Legales:** artículo 133 bis; artículo 7; artículo 351 del Código Procesal Penal; artículo 10; artículo 11; artículo 2; artículo 12; artículo 13; Ley Nº 18.046; Ley Nº 20.720; Ley Nº 20.393; Ley Nº 21.121
+
+la comisión del delito. Los plazos de todas esas deudas se enten-
                                                                                                    derán caducados de pleno derecho, haciéndolas inmediatamente
                                                                                                    exigibles, y su pago deberá realizarse respetando plenamente las
 
@@ -9164,10 +9353,14 @@ Penal de las                                                                    
 Responsabilidad                                                                            4. Sanciones y determinación                                            217
 Penal de las                                                                                  de la pena
 
-
 ## 4.2                 Campo de aplicación de la pena de acuerdo
 
-                                                                                             con eldelito por el cual se condena a la persona
+**Definición Canónica:** con eldelito por el cual se condena a la persona
+                                                                                             jurídica y reglas para la determinación de su
+                                                                                             extensión
+**Concordancias Legales:** artículos 14; artículo 1; artículo 15; artículo 14; artículos 240; artículo 8; artículos 136; artículos 250; Artículo 240; artículo 250 del Código Penal Soborno en razón del cargo; artículo 250 del Código Penal Soborno para la realización; Artículo 287 bis del Código Penal Corrupción entre p; Artículo 287 ter del Código Penal Corrupción entre p; Artículo 318 ter del Código Penal El que; Artículo 456 bis; Artículo 470; artículo 470 del Código Penal que el sujeto tuvi; Artículo 136 de la Ley General de Pesca y Introducción de; Artículo 139 de la Ley General de Pesca y Procesamiento; Artículo 139 bis de la Ley General de Pesca Realización de activ; Artículo 139 ter de la Ley General de Pesca Procesamiento; artículo 65; Artículo 27 de la Ley Nº 19.913 Lavado de activ; artículo 250 del Código Penal Soborno para omitir o por ha; artículo 250 del Código Penal Soborno para realización de; Artículo 251 bis del Código Penal Cohecho de funcion; artículo 13; artículo 16; artículo 6; Ley Nº 20.393; Ley Nº 18.314; Ley Nº 19.913
+
+con eldelito por el cual se condena a la persona
                                                                                              jurídica y reglas para la determinación de su
                                                                                              extensión
 
@@ -9358,7 +9551,13 @@ Penal de las                                                                    
 
 ## 1. Reparación celosa del mal causado o impedir sus ulteriores
 
-                                                                    consecuencias, en los términos del Nº 7, del artículo 11 del CP.
+**Definición Canónica:** consecuencias, en los términos del Nº 7, del artículo 11 del CP.
+                                                                 2. La colaboración sustancial en el esclarecimiento de los hechos.
+                                                                    Para tales efectos, se “entenderá especialmente que la persona
+                                                                    jurídica colabora sustancialmente cuando, en cualquier estado de
+**Concordancias Legales:** artículo 11 del CP; artículo 22 de la Ley Nº 20.393. Esto quiere decir que podría r; artículo 3; Ley Nº 20.393
+
+consecuencias, en los términos del Nº 7, del artículo 11 del CP.
                                                                  2. La colaboración sustancial en el esclarecimiento de los hechos.
                                                                     Para tales efectos, se “entenderá especialmente que la persona
                                                                     jurídica colabora sustancialmente cuando, en cualquier estado de
@@ -9381,10 +9580,15 @@ Penal de las                                                                    
                                                                      legal, si es que se entrega información relevante relativa al hecho
                                                                      punible o sus autores o partícipes.
 
-
 ## 3. Por último, se reconocerá como circunstancia atenuante la de
 
-                                                                    haber adoptado la persona jurídica un modelo de prevención de
+**Definición Canónica:** haber adoptado la persona jurídica un modelo de prevención de
+                                                                    delitos –en los términos del artículo 4º de esta ley– con poste-
+                                                                    rioridad a la comisión del delito, pero siempre que se haga con
+                                                                    anterioridad al comienzo del juicio contra esta.
+**Concordancias Legales:** artículo 4; artículo 7; artículo 16; artículo 17
+
+haber adoptado la persona jurídica un modelo de prevención de
                                                                     delitos –en los términos del artículo 4º de esta ley– con poste-
                                                                     rioridad a la comisión del delito, pero siempre que se haga con
                                                                     anterioridad al comienzo del juicio contra esta.
@@ -9425,10 +9629,12 @@ Penal de las                                                                    
 Responsabilidad                                                                              4. Sanciones y determinación                                                    223
 Penal de las                                                                                    de la pena
 
-
 ## 4.3               Extinción de la responsabilidad penaly reglas
 
-                                                                                               de transmisión de esta
+**Definición Canónica:** de transmisión de esta
+**Concordancias Legales:** artículo 19 de la Ley Nº 20.393 que esta se extinguirá; artículo 93 del Código Penal; artículo 95; Ley Nº 20.393
+
+de transmisión de esta
 
                                                                                                El estudio del sistema de RPPJ no puede prescindir de las reglas de
                                                                                                extinción de responsabilidad penal que rigen para las personas jurí-
@@ -9477,7 +9683,13 @@ Penal de las                                                                    
 
 ## parte de la persona jurídica, con independencia de las dificultades
 
-                                                                 que podrían estar asociadas a su concreción. De acá se desprende
+**Definición Canónica:** que podrían estar asociadas a su concreción. De acá se desprende
+                                                                 la siguiente consecuencia: en ciertos casos, la responsabilidad del
+                                                                 integrante se extingue –por prescripción de la acción penal– en el
+                                                                 plazo de cinco años al tratarse de un simple delito, mientras que si
+**Concordancias Legales:** artículo 15 de la Ley Nº 20.393; artículo 96 del CP; artículo 18 de la Ley Nº 20.393; artículo 1; artículo 559 del Código Civil; Ley Nº 20.393; constitución
+
+que podrían estar asociadas a su concreción. De acá se desprende
                                                                  la siguiente consecuencia: en ciertos casos, la responsabilidad del
                                                                  integrante se extingue –por prescripción de la acción penal– en el
                                                                  plazo de cinco años al tratarse de un simple delito, mientras que si
@@ -9597,31 +9809,50 @@ Penal de las                                                                    
                                                            realizar sin más lesiones de bienes jurídicos a las         como sistema al cual puede atribuirse una forma
                                                            que no se dejarían arrastrar en su esfera privada.          de ser.
 
-
 ## 2.   Apelación a lealtades superiores: técnica de neu-       12. Cultura ética de la organización: conjunto de
 
-                                                           tralización consistente en la afirmación justifi-           creencias morales compartidas por el colectivo.
+**Definición Canónica:** tralización consistente en la afirmación justifi-           creencias morales compartidas por el colectivo.
+                                                           cativa de que el incumplimiento de la ley es una
+
+tralización consistente en la afirmación justifi-           creencias morales compartidas por el colectivo.
                                                            cativa de que el incumplimiento de la ley es una
 
 ## 13. Cultura organizacional: conjunto de reglas y
 
-                                                           consecuencia inevitable para la satisfacción de
+**Definición Canónica:** consecuencia inevitable para la satisfacción de
+                                                                                                                       principios que guían el comportamiento indivi-
+                                                           objetivos más importantes.
+                                                                                                                       dual y grupal, determinados por la dirección de
+                                                                                                                       la empresa y q
+
+consecuencia inevitable para la satisfacción de
                                                                                                                        principios que guían el comportamiento indivi-
                                                            objetivos más importantes.
                                                                                                                        dual y grupal, determinados por la dirección de
                                                                                                                        la empresa y que son expresados como valores
 
-
 ## 3.   Autorregulación regulada: técnica legislativa a
 
-                                                           través de la cual solo se establecen ciertos ob-            compartidos por la organización o principios rec-
+**Definición Canónica:** través de la cual solo se establecen ciertos ob-            compartidos por la organización o principios rec-
+                                                           jetivos y pautas generales, para que los propios            tores, reforzados por una serie de procedimientos
+                                                           destinatarios de la ley establezcan su marco nor-           desarrollados en esta.
+                                                           mativo interno según las particularidades y nece-
+
+través de la cual solo se establecen ciertos ob-            compartidos por la organización o principios rec-
                                                            jetivos y pautas generales, para que los propios            tores, reforzados por una serie de procedimientos
                                                            destinatarios de la ley establezcan su marco nor-           desarrollados en esta.
                                                            mativo interno según las particularidades y nece-
 
 ## 14. Cultura organizacional criminógena: aquel tipo de
 
-                                                           sidades que ellos mismos identifiquen, y luego las
+**Definición Canónica:** sidades que ellos mismos identifiquen, y luego las
+                                                                                                                       cultura organizacional proclive a la comisión de
+                                                           plasmen en instrumentos normativos de vigencia
+                                                                                                                       delitos.
+                                                           interna, como los códigos de ética, de conducta, o
+                                     
+
+sidades que ellos mismos identifiquen, y luego las
                                                                                                                        cultura organizacional proclive a la comisión de
                                                            plasmen en instrumentos normativos de vigencia
                                                                                                                        delitos.
@@ -9631,18 +9862,27 @@ Penal de las                                                                    
 
 ## 4.   Comiso: pena accesoria consistente en la pérdida
 
-                                                                                                                       referirse a delitos cometidos por integrantes de
+**Definición Canónica:** referirse a delitos cometidos por integrantes de
                                                            de la propiedad de ciertos bienes por vincularse
                                                                                                                        una empresa en aras del cumplimiento de objeti-
                                                            de distintas formas con la comisión de un delito.
                                                                                                                        vos corporativos.
 
-## 5.   Compliance (cumplimiento normativo): conjunto
-
+referirse a delitos cometidos por integrantes de
+                                                           de la propiedad de ciertos bienes por vincularse
+                                                                                                                       una empresa en aras del cumplimiento de objeti-
+                                                           de distintas formas con la comisión de un delito.
+                                                                                                                       vos corporativos.
 
 ## 16. Criminalidad intraempresarial: concepto pro-
 
-                                                           de medidas adoptadas por las organizaciones
+**Definición Canónica:** de medidas adoptadas por las organizaciones
+                                                                                                                       pio de la criminología, relativo a la realización de
+                                                           con el objeto de identificar, evaluar y gestionar los
+                                                                                                                       conductas delictivas dentro de la empresa y que
+                                                           riesgos de incumplimiento normativo de manera
+
+de medidas adoptadas por las organizaciones
                                                                                                                        pio de la criminología, relativo a la realización de
                                                            con el objeto de identificar, evaluar y gestionar los
                                                                                                                        conductas delictivas dentro de la empresa y que
@@ -9650,12 +9890,16 @@ Penal de las                                                                    
                                                                                                                        afectan bienes jurídicos de la misma.
                                                            eficaz.
 
-## 17. Criminalidad organizada: fenómeno consistente
-
-
 ## 6.   Compliance penal: conjunto de medidas adop-
 
-                                                                                                                       en grupos estructurados de personas que existe
+**Definición Canónica:** en grupos estructurados de personas que existe
+                                                           tadas por las organizaciones con el objeto de
+                                                                                                                       durante cierto tiempo y que actúan concerta-
+                                                           identificar, evaluar y gestionar de manera eficaz
+                                                                                                                       damente con el propósito de cometer uno o más
+          
+
+en grupos estructurados de personas que existe
                                                            tadas por las organizaciones con el objeto de
                                                                                                                        durante cierto tiempo y que actúan concerta-
                                                            identificar, evaluar y gestionar de manera eficaz
@@ -9663,14 +9907,15 @@ Penal de las                                                                    
                                                            los riesgos de comisión de delitos.
                                                                                                                        delitos para obtener, directa o indirectamente, un
 
-## 7.   Condenando a los condenadores: técnica de neu-              beneficio económico u otro beneficio de orden
-
-                                                           tralización consistente en negar la legitimidad de          material.
-                                                           la autoridad –en un sentido amplio, ya que puede
-
 ## 18. Deber de advertencia de la peligrosidad: mandato
 
-                                                           referirse al ente regulador o al persecutor– de
+**Definición Canónica:** referirse al ente regulador o al persecutor– de
+                                                                                                                       dirigido a las empresas y establecido en la Ley Nº
+                                                           donde se origina el reproche respectivo.
+                                                                                                                       20.393, consistente en la obligación de identificar
+                                                      8.   Contexto criminógeno: procesos dentro de la         
+
+referirse al ente regulador o al persecutor– de
                                                                                                                        dirigido a las empresas y establecido en la Ley Nº
                                                            donde se origina el reproche respectivo.
                                                                                                                        20.393, consistente en la obligación de identificar
@@ -9680,12 +9925,22 @@ Penal de las                                                                    
 
 ## 19. Deber de gestión de riesgos: deber de dirección y
 
-                                                      9.   Conciencia potencial del ilícito: elemento de la            supervisión establecido en la Ley Nº 20.393.
+**Definición Canónica:** 9.   Conciencia potencial del ilícito: elemento de la            supervisión establecido en la Ley Nº 20.393.
+                                                           culpabilidad consistente en que el sujeto tenga un
+**Concordancias Legales:** Ley Nº 20.393
+
+9.   Conciencia potencial del ilícito: elemento de la            supervisión establecido en la Ley Nº 20.393.
                                                            culpabilidad consistente en que el sujeto tenga un
 
 ## 20. Defecto de organización: concepto usado para
 
-                                                           grado de socialización suficiente que le permita
+**Definición Canónica:** grado de socialización suficiente que le permita
+                                                                                                                       hacer referencia a que la organización responde-
+                                                           conocer el contenido de lo injusto.
+                                                                                                                       ría por una infracción de deber consistente en no
+                                                                                                                       
+
+grado de socialización suficiente que le permita
                                                                                                                        hacer referencia a que la organización responde-
                                                            conocer el contenido de lo injusto.
                                                                                                                        ría por una infracción de deber consistente en no
@@ -9694,90 +9949,127 @@ Penal de las                                                                    
 
 Responsabilidad                                                                                                 Glosario                                                229
 
-
 ## 21. Delación compensada: mecanismo jurídico que           33. Management: conducción de la actividad empre-
 
-                                                          permite eximir o atenuar la responsabilidad de            sarial.
+**Definición Canónica:** permite eximir o atenuar la responsabilidad de            sarial.
+                                                          aquellas personas que, habiendo realizado un
+                                                          comportamiento delictivo, entreguen anteceden-        34. Medidas de cumplimiento normativo: aquellos
+                                                          tes que permitan el esclarecimiento de los hechos         protocolos, reglas y principios de actuación relati-
+                                                          y la determinación de los responsables.     
+
+permite eximir o atenuar la responsabilidad de            sarial.
                                                           aquellas personas que, habiendo realizado un
                                                           comportamiento delictivo, entreguen anteceden-        34. Medidas de cumplimiento normativo: aquellos
                                                           tes que permitan el esclarecimiento de los hechos         protocolos, reglas y principios de actuación relati-
                                                           y la determinación de los responsables.                   vos al compliance.
 
-
 ## 22. Disolución de la persona jurídica o cancelación de    35. Modelos de imputación: aspectos generales que
 
-                                                          la personalidad jurídica: pena establecida en la          identifican a las distintas formas que en el dere-
+**Definición Canónica:** la personalidad jurídica: pena establecida en la          identifican a las distintas formas que en el dere-
+                                                          Ley Nº 20.393 que produce la pérdida definitiva de        cho comparado ha adoptado la responsabilidad
+                                                          la personalidad jurídica.                                 penal de las personas jurídicas en lo que respecta
+                                                                                                                    al ilícito por el que responde y los criterios 
+**Concordancias Legales:** Ley Nº 20.393
+
+la personalidad jurídica: pena establecida en la          identifican a las distintas formas que en el dere-
                                                           Ley Nº 20.393 que produce la pérdida definitiva de        cho comparado ha adoptado la responsabilidad
                                                           la personalidad jurídica.                                 penal de las personas jurídicas en lo que respecta
                                                                                                                     al ilícito por el que responde y los criterios atribu-
 
 ## 23. Elementos criminógenos: factores que incre-               tivos de responsabilidad penal contemplados en
 
-                                                          mentan el riesgo de comisión de delito, pudiendo          el sistema jurídico respectivo.
+**Definición Canónica:** mentan el riesgo de comisión de delito, pudiendo          el sistema jurídico respectivo.
+                                                          provenir de fuentes distintas a la organización
+                                                          (elementos externos) o surgir dentro de ella (fac-    36. Negación del daño (teoría): técnica de neutra-
+                                                          tores internos).                                          lización consistente en asimilar la ilicitud del
+                                                                            
+
+mentan el riesgo de comisión de delito, pudiendo          el sistema jurídico respectivo.
                                                           provenir de fuentes distintas a la organización
                                                           (elementos externos) o surgir dentro de ella (fac-    36. Negación del daño (teoría): técnica de neutra-
                                                           tores internos).                                          lización consistente en asimilar la ilicitud del
                                                                                                                     comportamiento con el daño –tangible– que se
 
-
 ## 24. Encargado de prevención de delitos: sujeto o con-         causa con este. De alguna forma deja entrever la
 
-                                                          junto de sujetos en quienes se delega la gestión          convicción de que los delitos son hechos donde
+**Definición Canónica:** junto de sujetos en quienes se delega la gestión          convicción de que los delitos son hechos donde
+                                                          del sistema de prevención de delitos.                     hay víctimas perjudicadas, heridas, etcétera. Por
+                                                                                                                    lo mismo, negando la acusación de daño a otros,
+
+junto de sujetos en quienes se delega la gestión          convicción de que los delitos son hechos donde
                                                           del sistema de prevención de delitos.                     hay víctimas perjudicadas, heridas, etcétera. Por
                                                                                                                     lo mismo, negando la acusación de daño a otros,
 
 ## 25. Enforcement: seguimiento efectivo de las normas           se termina racionalizando el comportamiento
 
-                                                          por sus destinatarios.                                    como algo que no es incorrecto pese a que pueda
+**Definición Canónica:** por sus destinatarios.                                    como algo que no es incorrecto pese a que pueda
                                                                                                                     resultar ilícito.
 
-## 26. Ethos corporativo: conjunto de prácticas, políti-
-
-                                                          cas y valores compartidos por los integrantes de
-                                                          una organización.
-
+por sus destinatarios.                                    como algo que no es incorrecto pese a que pueda
+                                                                                                                    resultar ilícito.
 
 ## 27. Evaluación de riesgos: etapa posterior a la identi-
 
-                                                          ficación de riesgos que consiste en determinar las
+**Definición Canónica:** ficación de riesgos que consiste en determinar las
                                                           probabilidades de comisión del delito y el impacto
                                                           que provocaría su realización.
 
+ficación de riesgos que consiste en determinar las
+                                                          probabilidades de comisión del delito y el impacto
+                                                          que provocaría su realización.
 
 ## 28. Factores de riesgo intrínsecos al negocio efec-
 
-                                                          tuado: aquellas circunstancias que aumentarían
+**Definición Canónica:** tuado: aquellas circunstancias que aumentarían
                                                           el riesgo de comisión de delitos que dicen relación
                                                           con el giro o actividad misma de la empresa y el
                                                           lugar donde se desarrolla.
 
+tuado: aquellas circunstancias que aumentarían
+                                                          el riesgo de comisión de delitos que dicen relación
+                                                          con el giro o actividad misma de la empresa y el
+                                                          lugar donde se desarrolla.
 
 ## 29. Factores organizacionales: componentes que inci-
 
-                                                          den, positiva o negativamente, en la realización de
+**Definición Canónica:** den, positiva o negativamente, en la realización de
                                                           conductas delictivas por parte de los integrantes
                                                           de una organización.
 
+den, positiva o negativamente, en la realización de
+                                                          conductas delictivas por parte de los integrantes
+                                                          de una organización.
 
 ## 30. Hecho de referencia (o de conexión): conducta
 
-                                                          delictiva realizada por un integrante de la compa-
+**Definición Canónica:** delictiva realizada por un integrante de la compa-
                                                           ñía que, en el contexto de los modelos de respon-
                                                           sabilidad vicarial o en los mixtos, sirve de base
                                                           para la atribución de responsabilidad penal a la
                                                           persona jurídica.
 
+delictiva realizada por un integrante de la compa-
+                                                          ñía que, en el contexto de los modelos de respon-
+                                                          sabilidad vicarial o en los mixtos, sirve de base
+                                                          para la atribución de responsabilidad penal a la
+                                                          persona jurídica.
 
 ## 31. Identificación de riesgos: una de las etapas de la
 
-                                                          gestión de riesgos, consistente en la determina-
+**Definición Canónica:** gestión de riesgos, consistente en la determina-
                                                           ción de procesos y factores que aumentarían la
                                                           probabilidad de comisión de delitos.
 
+gestión de riesgos, consistente en la determina-
+                                                          ción de procesos y factores que aumentarían la
+                                                          probabilidad de comisión de delitos.
 
 ## 32. Injusto estructural: tesis que considera que la
 
-                                                          culpabilidad de la persona jurídica reside en un
+**Definición Canónica:** culpabilidad de la persona jurídica reside en un
+                                                          defecto organizativo permanente.
+
+culpabilidad de la persona jurídica reside en un
                                                           defecto organizativo permanente.
 
 Responsabilidad                                                                                                     Bibliografía
@@ -9791,7 +10083,12 @@ Responsabilidad                                                                 
 
 ## 13.   Bermejo, Mateo (2017): “La observación del
 
-                                                      2.    Albertz, Pablo (2019): “Identificación, análisis,             criminal compliance desde el enfoque de las
+**Definición Canónica:** 2.    Albertz, Pablo (2019): “Identificación, análisis,             criminal compliance desde el enfoque de las
+                                                            evaluación y control de riesgos de corrupción en              obligenheiten”, en Carnevali, Raúl (coord.) Dere-
+                                                            la empresa”, en Artaza, Osvaldo (dir.) Compliance             cho, sanción y justicia penal, Montevideo–Buenos
+                                                            Penal: Sistemas de prevención de la corrupción,               Aires: Editorial B de F
+
+2.    Albertz, Pablo (2019): “Identificación, análisis,             criminal compliance desde el enfoque de las
                                                             evaluación y control de riesgos de corrupción en              obligenheiten”, en Carnevali, Raúl (coord.) Dere-
                                                             la empresa”, en Artaza, Osvaldo (dir.) Compliance             cho, sanción y justicia penal, Montevideo–Buenos
                                                             Penal: Sistemas de prevención de la corrupción,               Aires: Editorial B de F.
@@ -9799,21 +10096,36 @@ Responsabilidad                                                                 
 
 ## 14.   Bermejo, Mateo (2019): “Decomiso de las ganan-
 
-                                                      3.    Aracena, Pablo (2017): “Una interpretación alter-             cias ilícitas en el Código Penal español. Análisis
+**Definición Canónica:** 3.    Aracena, Pablo (2017): “Una interpretación alter-             cias ilícitas en el Código Penal español. Análisis
+                                                            nativa a la justificación de garantías penales en             histórico y conceptual”, en Latin American Legal
+                                                            el derecho administrativo sancionador para Chi-               Studies, Vol. 4.
+                                                            le”, en Revista de Estudios de la Justicia, N° 26.
+
+3.    Aracena, Pablo (2017): “Una interpretación alter-             cias ilícitas en el Código Penal español. Análisis
                                                             nativa a la justificación de garantías penales en             histórico y conceptual”, en Latin American Legal
                                                             el derecho administrativo sancionador para Chi-               Studies, Vol. 4.
                                                             le”, en Revista de Estudios de la Justicia, N° 26.
 
 ## 15.   Blanco, Isidoro (2013): “El decomiso de las ganan-
 
+**Definición Canónica:** 4.    Artaza, Osvaldo (2013): La empresa como sujeto                cias de la corrupción”, en Revista Electrónica de
+                                                            de imputación de responsabilidad penal. Funda-                Direito Penal, Vol. 1 Nº 1.
+                                                            mentos y límites, Madrid: Marcial Pons.
 
-                                                      4.    Artaza, Osvaldo (2013): La empresa como sujeto                cias de la corrupción”, en Revista Electrónica de
+4.    Artaza, Osvaldo (2013): La empresa como sujeto                cias de la corrupción”, en Revista Electrónica de
                                                             de imputación de responsabilidad penal. Funda-                Direito Penal, Vol. 1 Nº 1.
                                                             mentos y límites, Madrid: Marcial Pons.
 
 ## 16.   Braithwaite, John (1982a): “Challenging Just
 
-                                                      5.    Artaza, Osvaldo (2013b): “Sistemas de prevención              Desert: Punishing White-Collar Criminals”, The
+**Definición Canónica:** 5.    Artaza, Osvaldo (2013b): “Sistemas de prevención              Desert: Punishing White-Collar Criminals”, The
+                                                            de delitos o programas de cumplimiento. Breve                 Journal of Criminal Law & Criminology, Vol. 73, Nº
+                                                            descripción de las reglas técnicas de gestión del             2.
+                                                            riesgo empresarial y su utilidad en sede jurídico
+                                                            penal”, Política
+**Concordancias Legales:** ley 20393
+
+5.    Artaza, Osvaldo (2013b): “Sistemas de prevención              Desert: Punishing White-Collar Criminals”, The
                                                             de delitos o programas de cumplimiento. Breve                 Journal of Criminal Law & Criminology, Vol. 73, Nº
                                                             descripción de las reglas técnicas de gestión del             2.
                                                             riesgo empresarial y su utilidad en sede jurídico
@@ -9837,30 +10149,43 @@ Responsabilidad                                                                 
 
 ## 21.   Buell, Samuel (2006): “The Blaming Function of
 
-                                                            riesgos”, en Artaza, Osvaldo (dir.) Compliance
+**Definición Canónica:** riesgos”, en Artaza, Osvaldo (dir.) Compliance
                                                                                                                           Entity Criminal Liability”, en Indiana Law Journal,
                                                             Penal: Sistemas de prevención de la corrupción,
                                                                                                                           Vol. 8.
                                                             Santiago: DER.
 
-## 22.   Bussman, Kai–D. (2010): “Wirtschaftskriminalität
-
+riesgos”, en Artaza, Osvaldo (dir.) Compliance
+                                                                                                                          Entity Criminal Liability”, en Indiana Law Journal,
+                                                            Penal: Sistemas de prevención de la corrupción,
+                                                                                                                          Vol. 8.
+                                                            Santiago: DER.
 
 ## 9.    Artaza, Osvaldo y Albertz, Pablo (2020): “Desafíos
 
-                                                                                                                          und Unternehmenskultur”, en Bannenberg, Britta
+**Definición Canónica:** und Unternehmenskultur”, en Bannenberg, Britta
+                                                            actuales para el compliance penal y los sistemas
+                                                                                                                          y Jehle, Jörg-Martin (Hrsg.) Wirtschaftskriminali-
+                                                            de gestión antisoborno en el ámbito público y
+                                                                                                                          tät, Alemania: Forum Verlag Godesberg.
+    
+
+und Unternehmenskultur”, en Bannenberg, Britta
                                                             actuales para el compliance penal y los sistemas
                                                                                                                           y Jehle, Jörg-Martin (Hrsg.) Wirtschaftskriminali-
                                                             de gestión antisoborno en el ámbito público y
                                                                                                                           tät, Alemania: Forum Verlag Godesberg.
                                                             privado”, en LA LEY Compliance penal, Nº 2.
 
-## 23.   Cigüela, Javier (2016): “El injusto estructural de la
-
-
 ## 10.   Bacigalupo, Silvina (2011): “Los criterios de im-
 
-                                                                                                                          organización”, en InDret Nº 1.
+**Definición Canónica:** organización”, en InDret Nº 1.
+                                                            putación de la responsabilidad penal de los entes
+                                                            colectivos y de sus órganos de gobierno (arts. 31       24.   Cigüela, Javier y Ortiz de Urbina, Iñigo (2020): “La
+                                                            bis y 129 CP)”, en DLL, Nº 7541.                              responsabilidad penal de las personas jurídicas:
+                                                                                                                 
+
+organización”, en InDret Nº 1.
                                                             putación de la responsabilidad penal de los entes
                                                             colectivos y de sus órganos de gobierno (arts. 31       24.   Cigüela, Javier y Ortiz de Urbina, Iñigo (2020): “La
                                                             bis y 129 CP)”, en DLL, Nº 7541.                              responsabilidad penal de las personas jurídicas:
@@ -9868,7 +10193,12 @@ Responsabilidad                                                                 
 
 ## 11.   Barrientos, Elías (2019): La culpabilidad en el de-
 
-                                                                                                                          Sánchez, Jesús (dir.), Lecciones de derecho penal
+**Definición Canónica:** Sánchez, Jesús (dir.), Lecciones de derecho penal
+                                                            recho administrativo sancionador, Santiago: DER.
+                                                                                                                          económico y de la empresa. Parte general y espe-
+                                                                                                                          cial, Barcelona: Atelier.
+
+Sánchez, Jesús (dir.), Lecciones de derecho penal
                                                             recho administrativo sancionador, Santiago: DER.
                                                                                                                           económico y de la empresa. Parte general y espe-
                                                                                                                           cial, Barcelona: Atelier.
@@ -9885,7 +10215,12 @@ Responsabilidad                                                                 
 
 ## 38.   Feijoo, Bernardo (2012): “Las características bá-
 
-                                                      27.   Coca, Ivó (2013): “¿Programas de cumplimien-                 sicas de la responsabilidad penal de las personas
+**Definición Canónica:** 27.   Coca, Ivó (2013): “¿Programas de cumplimien-                 sicas de la responsabilidad penal de las personas
+                                                            to como forma de autorregulación regulada?”,                 jurídicas en el código penal español”, en Bajo, Mi-
+                                                            en Silva Sánchez, Jesús (dir.) Criminalidad de               guel; Feijoo, Bernardo y Gómez–Jara, Carlos (dir.)
+                                                            empresa y compliance. Prevención y reacciones                Tratado de respon
+
+27.   Coca, Ivó (2013): “¿Programas de cumplimien-                 sicas de la responsabilidad penal de las personas
                                                             to como forma de autorregulación regulada?”,                 jurídicas en el código penal español”, en Bajo, Mi-
                                                             en Silva Sánchez, Jesús (dir.) Criminalidad de               guel; Feijoo, Bernardo y Gómez–Jara, Carlos (dir.)
                                                             empresa y compliance. Prevención y reacciones                Tratado de responsabilidad penal de las personas
@@ -9920,7 +10255,11 @@ Responsabilidad                                                                 
 
 ## 46.   García, Percy (2016): “El principio del ne bis in
 
-                                                      34.   Diamantis, Mihailis (2020): “The Corporate Insa-             idem material en caso de concurrencia de pena y
+**Definición Canónica:** 34.   Diamantis, Mihailis (2020): “The Corporate Insa-             idem material en caso de concurrencia de pena y
+                                                            nity Defense”, en University of Iowa Legal Studies           sanción administrativa”, en Política Criminal, Vol.
+                                                            Research Paper, Nº 2020-02. Disponible online.               11, Nº 21.
+
+34.   Diamantis, Mihailis (2020): “The Corporate Insa-             idem material en caso de concurrencia de pena y
                                                             nity Defense”, en University of Iowa Legal Studies           sanción administrativa”, en Política Criminal, Vol.
                                                             Research Paper, Nº 2020-02. Disponible online.               11, Nº 21.
 
@@ -9932,29 +10271,41 @@ Responsabilidad                                                                 
 
 ## 48.   García, Percy (2019): Derecho penal. Parte gene-
 
-                                                      36.   Feijoo, Bernardo (2009): Cuestiones actuales de              ral, 3ª ed., Perú: Edit. Ideas.
+**Definición Canónica:** 36.   Feijoo, Bernardo (2009): Cuestiones actuales de              ral, 3ª ed., Perú: Edit. Ideas.
+                                                            derecho penal económico, Buenos Aires: B de F.
+
+36.   Feijoo, Bernardo (2009): Cuestiones actuales de              ral, 3ª ed., Perú: Edit. Ideas.
                                                             derecho penal económico, Buenos Aires: B de F.
 
 ## 49.   Garrido, Mario (1997): Derecho penal, parte gene-
 
-                                                                                                                         ral, Tomo I, Santiago: Editorial Jurídica de Chile.
+**Definición Canónica:** ral, Tomo I, Santiago: Editorial Jurídica de Chile.
+
+ral, Tomo I, Santiago: Editorial Jurídica de Chile.
 
 Responsabilidad                                                                                                    Bibliografía                                              232
 
-
 ## 50.   Gerber, Jurg (2000): “On the Relationship              63.   Hernández, Héctor (2015): “¿Derecho de las
 
-                                                            Between Organized and White-Collar Crime:                    personas jurídicas a no autoincriminarse?”, en
+**Definición Canónica:** Between Organized and White-Collar Crime:                    personas jurídicas a no autoincriminarse?”, en
                                                             Government, Business and Criminal Enterprise in              Revista de Derecho de la Pontificia Universidad
                                                             Post-Communist Russia”, en European Journal of               Católica de Valparaíso, XLIV.
                                                             Criminal Law and Criminal Justice, 8 (4).
 
-## 64.   Hernández, Héctor (2018): “Procedencia de una
-
+Between Organized and White-Collar Crime:                    personas jurídicas a no autoincriminarse?”, en
+                                                            Government, Business and Criminal Enterprise in              Revista de Derecho de la Pontificia Universidad
+                                                            Post-Communist Russia”, en European Journal of               Católica de Valparaíso, XLIV.
+                                                            Criminal Law and Criminal Justice, 8 (4).
 
 ## 51.   Gómez Tomillo, Manuel (2013): “Responsabilidad               ‘eximente o defensa de cumplimiento’ de las
 
-                                                            penal de las personas jurídicas y derecho admi-              personas jurídicas en el derecho administrativo
+**Definición Canónica:** penal de las personas jurídicas y derecho admi-              personas jurídicas en el derecho administrativo
+                                                            nistrativo sancionador. Especial consideración               sancionador chileno”, en Revista Chilena de De-
+                                                            de criterios político-legislativos de atribución de          recho, Vol. 45, Nº 2.
+                                                            responsabilidad”, en Revista Académica, Vol. 85,
+                                                            Nº 1.     
+
+penal de las personas jurídicas y derecho admi-              personas jurídicas en el derecho administrativo
                                                             nistrativo sancionador. Especial consideración               sancionador chileno”, en Revista Chilena de De-
                                                             de criterios político-legislativos de atribución de          recho, Vol. 45, Nº 2.
                                                             responsabilidad”, en Revista Académica, Vol. 85,
@@ -9966,7 +10317,9 @@ Responsabilidad                                                                 
 
 ## 53.   Gómez-Jara, Carlos (2006): La responsabilidad
 
-                                                            penal de las empresas en los EE. UU., Sevilla: Ed.     66.   Jiménez, Gustavo (2019): “Corporate Criminal
+**Definición Canónica:** penal de las empresas en los EE. UU., Sevilla: Ed.     66.   Jiménez, Gustavo (2019): “Corporate Criminal
+
+penal de las empresas en los EE. UU., Sevilla: Ed.     66.   Jiménez, Gustavo (2019): “Corporate Criminal
 
                                                             Fundación Ramón Areces.                                      Liability: Towards a Compliance-Orientated
                                                                                                                          Approach”, en Indiana Journal of Global Legal
@@ -9982,29 +10335,37 @@ Responsabilidad                                                                 
 
 ## 68.   Lampe, Ernst-Joachim (2003): La dogmáti-
 
-                                                      56.   Gruner, Richard (2010): Corporate Criminal Lia-              ca jurídico-penal entre la ontología social y el
+**Definición Canónica:** 56.   Gruner, Richard (2010): Corporate Criminal Lia-              ca jurídico-penal entre la ontología social y el
+                                                            bility and Prevention, New York: Ed. Law Journal             funcionalismo (trad. Gómez-Jara, Carlos; Orce,
+                                                            Press.                                                       Guillermo, y Polaino-Orts, Miguel), Lima: Editorial
+                                                                                                                         Jurídica Grijley.
+
+56.   Gruner, Richard (2010): Corporate Criminal Lia-              ca jurídico-penal entre la ontología social y el
                                                             bility and Prevention, New York: Ed. Law Journal             funcionalismo (trad. Gómez-Jara, Carlos; Orce,
                                                             Press.                                                       Guillermo, y Polaino-Orts, Miguel), Lima: Editorial
                                                                                                                          Jurídica Grijley.
 
 ## 57.   Gruner, Richard y Brown, Louis (1996): “Organi-
 
-                                                            zational Justice: Recognizing and Rewarding the        69.   Latorre, Patricio (2008): “Las sociedades esta-
+**Definición Canónica:** zational Justice: Recognizing and Rewarding the        69.   Latorre, Patricio (2008): “Las sociedades esta-
+                                                            Good Citizen Corporation”, en The Journal of                 tales en el ordenamiento jurídico chileno: natu-
+                                                            Corporation Law, Vol. 21.                                    raleza, límites y control de sus actividades”, en
+                                                                                                                         Revista de Derecho de la Pont
+
+zational Justice: Recognizing and Rewarding the        69.   Latorre, Patricio (2008): “Las sociedades esta-
                                                             Good Citizen Corporation”, en The Journal of                 tales en el ordenamiento jurídico chileno: natu-
                                                             Corporation Law, Vol. 21.                                    raleza, límites y control de sus actividades”, en
                                                                                                                          Revista de Derecho de la Pontificia Universidad
 
-## 58.   Guastini, Ricardo (2015): “Interpretación y cons-
-
-                                                                                                                         Católica de Valparaíso, Nº 30.
-                                                            trucción jurídica”, Isonomía, Nº 43.
-
-## 70.   Laufer, William y Strudler, Alan (2006): “Inten-
-
-
 ## 59.   Heine, Günther (2006): “Modelos de responsabili-
 
-                                                                                                                         cionalidad corporativa, retribución y variantes
+**Definición Canónica:** cionalidad corporativa, retribución y variantes
+                                                            dad jurídico-penal originaria de la empresa” (trad.
+                                                                                                                         de la responsabilidad vicaria” (trad. Gómez-Jara,
+                                                            Gómez-Jara, Carlos), en Gómez-Jara, Carlos
+                                                                                                                         Carlos), en Gómez-Jara, Carlos (edit.) Modelo
+
+cionalidad corporativa, retribución y variantes
                                                             dad jurídico-penal originaria de la empresa” (trad.
                                                                                                                          de la responsabilidad vicaria” (trad. Gómez-Jara,
                                                             Gómez-Jara, Carlos), en Gómez-Jara, Carlos
@@ -10016,12 +10377,16 @@ Responsabilidad                                                                 
                                                             neas, Pamplona: Ed. Aranzadi.
                                                                                                                          Aranzadi.
 
-## 60.   Hernández, Héctor (2010): “La introducción de la
-
-
 ## 71.   Letelier, Raúl (2017): “Garantías penales y sancio-
 
-                                                            responsabilidad penal de las personas jurídicas
+**Definición Canónica:** responsabilidad penal de las personas jurídicas
+                                                                                                                         nes administrativas”, en Política Criminal, Vol. 12,
+                                                            en Chile”, en Política Criminal, Vol. 5, N° 9.
+                                                                                                                         Nº 24.
+                                                      61.   Hernández, Héctor (2011): “Artículo 2°”, en Couso,
+**Concordancias Legales:** Artículo 2
+
+responsabilidad penal de las personas jurídicas
                                                                                                                          nes administrativas”, en Política Criminal, Vol. 12,
                                                             en Chile”, en Política Criminal, Vol. 5, N° 9.
                                                                                                                          Nº 24.
@@ -10029,7 +10394,13 @@ Responsabilidad                                                                 
 
 ## 72.   Lord, Nicolas; van Wingerde, Karin, y Campbell
 
-                                                            J. y Hernández, H. (dir.), Código Penal comentado,
+**Definición Canónica:** J. y Hernández, H. (dir.), Código Penal comentado,
+                                                                                                                         Liz (2018): “Organising the Monies of Corporate
+                                                            Santiago: Abeledo Perrot, Legal Publishing.
+                                                                                                                         Financial Crimes via Organizational Structures:
+                                                      62.   Hernández, Héctor (2012): “Desafíos de la ley d
+
+J. y Hernández, H. (dir.), Código Penal comentado,
                                                                                                                          Liz (2018): “Organising the Monies of Corporate
                                                             Santiago: Abeledo Perrot, Legal Publishing.
                                                                                                                          Financial Crimes via Organizational Structures:
@@ -10055,7 +10426,12 @@ Responsabilidad                                                                 
 
 ## 88.   Pettit, Philips (2007): “Responsibility Incorpora-
 
-                                                      76.   Mañalich, Juan Pablo (2014a): “Omisión del ga-               ted”, en Ethics, Vol. 117.
+**Definición Canónica:** 76.   Mañalich, Juan Pablo (2014a): “Omisión del ga-               ted”, en Ethics, Vol. 117.
+                                                            rante e intervención delictiva. Una reconstrucción
+                                                            desde la teoría de las normas”, en Revista de De-      89.   Pineda, Javier (2016): “Comiso de ganancias y
+                                                            recho Universidad Católica del Norte, Vol. 21, Nº 2.         enriquecimiento injusto”, Memoria para optar al
+
+76.   Mañalich, Juan Pablo (2014a): “Omisión del ga-               ted”, en Ethics, Vol. 117.
                                                             rante e intervención delictiva. Una reconstrucción
                                                             desde la teoría de las normas”, en Revista de De-      89.   Pineda, Javier (2016): “Comiso de ganancias y
                                                             recho Universidad Católica del Norte, Vol. 21, Nº 2.         enriquecimiento injusto”, Memoria para optar al
@@ -10077,7 +10453,13 @@ Responsabilidad                                                                 
 
 ## 92.   Quaid, Jennifer (1998): “The Assessment of Cor-
 
-                                                      80.   Morales, Miguel Ángel (2018): “Los criterios juris-          porate Criminal Liability on the Basis of Corpo-
+**Definición Canónica:** 80.   Morales, Miguel Ángel (2018): “Los criterios juris-          porate Criminal Liability on the Basis of Corpo-
+                                                            prudenciales para exigir responsabilidad penal a             rate Identity: An Analysis”, en McGill Law Journal,
+                                                            las personas jurídicas en el delito corporativo”,            Vol. 43.
+                                                            en Revista de Derecho Penal y Criminología, 3ª
+                                                            época, Nº 19.
+
+80.   Morales, Miguel Ángel (2018): “Los criterios juris-          porate Criminal Liability on the Basis of Corpo-
                                                             prudenciales para exigir responsabilidad penal a             rate Identity: An Analysis”, en McGill Law Journal,
                                                             las personas jurídicas en el delito corporativo”,            Vol. 43.
                                                             en Revista de Derecho Penal y Criminología, 3ª
@@ -10094,7 +10476,13 @@ Responsabilidad                                                                 
 
 ## 95.   Rodríguez, Luis (1987): “Bases para distinguir en-
 
-                                                      83.   Olivares, Óscar (2018): “La doctrina de la Cor-              tre infracciones criminales y administrativas”, en
+**Definición Canónica:** 83.   Olivares, Óscar (2018): “La doctrina de la Cor-              tre infracciones criminales y administrativas”, en
+                                                            te Suprema en materia de culpa infraccional                  Revista de Derecho de la Pontificia Universidad
+                                                            de las personas jurídicas colectivas por daños               Católica de Valparaíso, N° 11.
+                                                            al medioambiente (comentario a la sentencia
+                                                        
+
+83.   Olivares, Óscar (2018): “La doctrina de la Cor-              tre infracciones criminales y administrativas”, en
                                                             te Suprema en materia de culpa infraccional                  Revista de Derecho de la Pontificia Universidad
                                                             de las personas jurídicas colectivas por daños               Católica de Valparaíso, N° 11.
                                                             al medioambiente (comentario a la sentencia
@@ -10110,10 +10498,14 @@ Responsabilidad                                                                 
 
 Responsabilidad                                                                                                   Bibliografía                                            234
 
-
 ## 98.   Román, Cristián (2009): “El derecho administrati-     109. Silva Sánchez, Jesús y Ortiz de Urbina, Iñigo
 
-                                                            vo sancionador en Chile”, en Revista de Derecho            (2020): “Introducción al derecho penal econó-
+**Definición Canónica:** vo sancionador en Chile”, en Revista de Derecho            (2020): “Introducción al derecho penal econó-
+                                                            de la Universidad de Montevideo, Año 8, N°16.              mico-empresarial”, en Silva Sánchez, Jesús (dir.)
+                                                                                                                       Lecciones de derecho penal económico y de la
+                                                      99.   Sachoulidou, Athina (2018): “Unternehmensve-               empresa. Parte general y especial, Barcelon
+
+vo sancionador en Chile”, en Revista de Derecho            (2020): “Introducción al derecho penal econó-
                                                             de la Universidad de Montevideo, Año 8, N°16.              mico-empresarial”, en Silva Sánchez, Jesús (dir.)
                                                                                                                        Lecciones de derecho penal económico y de la
                                                       99.   Sachoulidou, Athina (2018): “Unternehmensve-               empresa. Parte general y especial, Barcelona:
@@ -10125,21 +10517,35 @@ Responsabilidad                                                                 
 
 ## 100. Salinero, Sebastián y Galleguillos, Sebastián
 
-                                                           (2019): “Corrupción empresarial: teorías, factores     111. Tiedemann, Klaus (1996): “Responsabilidad penal
+**Definición Canónica:** (2019): “Corrupción empresarial: teorías, factores     111. Tiedemann, Klaus (1996): “Responsabilidad penal
+                                                           y medidas para su prevención”, en Artaza, Osval-            de las personas jurídicas”, en ADP. Disponible
+                                                           do (dir.) Compliance penal: Sistemas de preven-             online.
+                                                           ción de la corrupción, Santiago: DER.
+
+(2019): “Corrupción empresarial: teorías, factores     111. Tiedemann, Klaus (1996): “Responsabilidad penal
                                                            y medidas para su prevención”, en Artaza, Osval-            de las personas jurídicas”, en ADP. Disponible
                                                            do (dir.) Compliance penal: Sistemas de preven-             online.
                                                            ción de la corrupción, Santiago: DER.
 
 ## 112. Theile, Hans (2008): Unternehmensrichtlinien-Ein
 
-                                                      101. Salvador, Pablo; Gómez, Carlos; Ruiz, Juan Anto-            Beitrag zur Prävention von Wirtschaftskriminali-
+**Definición Canónica:** 101. Salvador, Pablo; Gómez, Carlos; Ruiz, Juan Anto-            Beitrag zur Prävention von Wirtschaftskriminali-
+                                                           nio; Rubí, Antoni, y Piñeiro, José (2002): “Respon-         tät?, en ZIS Nº 9.
+
+101. Salvador, Pablo; Gómez, Carlos; Ruiz, Juan Anto-            Beitrag zur Prävention von Wirtschaftskriminali-
                                                            nio; Rubí, Antoni, y Piñeiro, José (2002): “Respon-         tät?, en ZIS Nº 9.
 
                                                            deat Superior I”, en InDret, Nº 2-2002.
 
 ## 113. Trahan, Adam (2011): “Filling in the Gaps in Cul-
 
-                                                      102. Schoultz, Isabel y Flyghed, Janne (2019): “From             ture-Based Theories of Organizational Crime”, en
+**Definición Canónica:** 102. Schoultz, Isabel y Flyghed, Janne (2019): “From             ture-Based Theories of Organizational Crime”, en
+                                                           ‘We Didn’t Do It’ to ‘We’ve Learned Our Lesson’:            Journal of Theoretical and Philosophical Crimino-
+                                                           Development of a Typology of Neutralizations of             logy, 3 (1).
+                                                           Corporate Crime”, en Critical Criminology, Sprin-
+                                                           ger. Disponible o
+
+102. Schoultz, Isabel y Flyghed, Janne (2019): “From             ture-Based Theories of Organizational Crime”, en
                                                            ‘We Didn’t Do It’ to ‘We’ve Learned Our Lesson’:            Journal of Theoretical and Philosophical Crimino-
                                                            Development of a Typology of Neutralizations of             logy, 3 (1).
                                                            Corporate Crime”, en Critical Criminology, Sprin-
@@ -10158,7 +10564,14 @@ Responsabilidad                                                                 
 
 ## 117. Van Weezel, Alex (2017): “Sobre la necesidad de
 
-                                                           representantes, Argentina: Ed. Ediciones Jurídicas
+**Definición Canónica:** representantes, Argentina: Ed. Ediciones Jurídicas
+                                                                                                                       un cambio de paradigma en el derecho sancio-
+                                                           Cuyo.
+                                                                                                                       natorio administrativo”, en Política Criminal, Vol.
+                                                      105. Segovia, Antonio (2010): “Modelos de atribución             12, Nº 24.
+                  
+
+representantes, Argentina: Ed. Ediciones Jurídicas
                                                                                                                        un cambio de paradigma en el derecho sancio-
                                                            Cuyo.
                                                                                                                        natorio administrativo”, en Política Criminal, Vol.
@@ -10167,7 +10580,14 @@ Responsabilidad                                                                 
 
 ## 118. Vásquez, Mª Fernanda (2019): Sociedades. Co-
 
-                                                           cas en la Ley N° 20.393”, en Revista Jurídica del
+**Definición Canónica:** cas en la Ley N° 20.393”, en Revista Jurídica del
+                                                                                                                       merciantes, empresas, grupos de empresas, joint
+                                                           Ministerio Público, Nº 43.
+                                                                                                                       venture y otros sujetos del derecho comercial, 3ª
+                                                      106. Sikman, Mile (2013): “Corporate Crime-New                   edición
+**Concordancias Legales:** Ley N° 20.393
+
+cas en la Ley N° 20.393”, en Revista Jurídica del
                                                                                                                        merciantes, empresas, grupos de empresas, joint
                                                            Ministerio Público, Nº 43.
                                                                                                                        venture y otros sujetos del derecho comercial, 3ª
@@ -10176,18 +10596,28 @@ Responsabilidad                                                                 
 
 ## 119. Vergara, Alejandro (2004): “Esquema de los prin-
 
-                                                           D. y Vršec, M. (ed.), Management of Corporate Se-
+**Definición Canónica:** D. y Vršec, M. (ed.), Management of Corporate Se-
                                                                                                                        cipios del derecho administrativo sancionador”,
                                                            curity-New Approaches and Future Challenges,
                                                                                                                        en Revista de Derecho (Coquimbo), Año 11, N° 2.
                                                            Ljubljana: Institut of Corporate Security.
 
-## 120. Wells, Celia; Morgan, Derek, y Quick, Oliver
-
+D. y Vršec, M. (ed.), Management of Corporate Se-
+                                                                                                                       cipios del derecho administrativo sancionador”,
+                                                           curity-New Approaches and Future Challenges,
+                                                                                                                       en Revista de Derecho (Coquimbo), Año 11, N° 2.
+                                                           Ljubljana: Institut of Corporate Security.
 
 ## 107. Silva Sánchez, Jesús (2008): “La evolución ideo-
 
-                                                                                                                       (2000): “Disasters: A Challenge for the Law”, en
+**Definición Canónica:** (2000): “Disasters: A Challenge for the Law”, en
+                                                           lógica de la discusión sobre la ‘responsabilidad
+                                                                                                                       Washburn Law Journal, Vol. 39.
+                                                           penal’ de las personas jurídicas”, en Derecho
+                                                           Penal y Criminología, Vol. 29, Nº 86–87.              121. Zugaldía, José Miguel (2008): La responsabilidad
+                    
+
+(2000): “Disasters: A Challenge for the Law”, en
                                                            lógica de la discusión sobre la ‘responsabilidad
                                                                                                                        Washburn Law Journal, Vol. 39.
                                                            penal’ de las personas jurídicas”, en Derecho
@@ -10196,46 +10626,16 @@ Responsabilidad                                                                 
 
 ## 108. Silva Sánchez, Jesús (2013): “Deberes de vigilan-
 
-                                                                                                                       presupuestos sustantivos y procesales, Valencia:
+**Definición Canónica:** presupuestos sustantivos y procesales, Valencia:
                                                            cia y compliance empresarial”, en Kuhlen, Lothar;
                                                                                                                        Ed. Tirant lo Blanch.
                                                            Montiel, Juan Pablo, y Ortiz de Urnina, Íñigo (eds.)
                                                            Compliance y teoría del derecho penal, Madrid:
                                                            Marcial Pons.
 
-
-## Serie de
-
-Responsabilidad                                     Bibliografía   DOCUMENTOS 236
-Penal de las                                                                    36
-
-## Materiales
-
-
-## Docentes
-
-
- ial
-  c
-  udi
-  J
-  a
-  mi
-  de
-  a
-  c
-  A
-  s
-  e
-  nt
-  e
-  c
-  do
-  s
-  al
-  e
-  ri
-  e
- Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl
+presupuestos sustantivos y procesales, Valencia:
+                                                           cia y compliance empresarial”, en Kuhlen, Lothar;
+                                                                                                                       Ed. Tirant lo Blanch.
+                                                           Montiel, Juan Pablo, y Ortiz de Urnina, Íñigo (eds.)
+                                                           Compliance y teoría del derecho penal, Madrid:
+                                                           Marcial Pons.

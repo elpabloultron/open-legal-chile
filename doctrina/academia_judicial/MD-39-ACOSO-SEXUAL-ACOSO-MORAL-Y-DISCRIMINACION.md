@@ -13,19 +13,20 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-39           Acoso sexual,
-             acoso moral
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             y discriminación
+                  electrónica
+             en contexto
+                  de causas
+             laboral
+             Elisa Walker Echenique
+             Claudia Sarmiento Ramírez
+             William García Machmar
+             Catalina Lagos Tschorne
 
-                  Tramitación
+Tramitación
              y discriminación
                   electrónica
              en contexto
@@ -88,35 +89,10 @@ Materiales Docentes                                                    ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Principio de no discriminación en el derecho internacional
-        de los derechos humanos
-
-## 18      Capítulo 2
-
-        Violencia de género
-
-## 31      Capítulo 3
-
-        Acoso sexual
-
-## 74      Capítulo 4
-
-        Acoso laboral
-
-## 100     Capítulo 5
-
-        Tutela laboral como mecanismo de resguardo
-
-## 111     Referencias
-
-
-Materiales Docentes                                                       Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Principio de no discriminación en el derecho
+internacional de los derechos humanos
 
 Principio de no discriminación en el derecho
 internacional de los derechos humanos
@@ -135,6 +111,12 @@ estructura compleja que implica para los Estados tratar a las personas
 con igual respeto y consideración. Según explican, ello significa, por una
 
 ## parte, tratar a las personas que se encuentren en una misma situación de
+
+**Definición Canónica:** igual forma y, por otra, tratar a quienes se encuentren en una situación
+diferenciada de distinta forma. En virtud de ello, debe entenderse que
+un trato idéntico a todos los sujetos no necesariamente será un trato
+igualitario, puesto que en ocasiones el principio de igualdad y no discriminación puede exigir un trato diferenciado.
+   Pues bien, la igualdad y no discriminación ha sido recogida en el sistema interamericano y en el sistema universal de protección a los derechos humanos no solo como un principio estructurante, sino tam-
 
 igual forma y, por otra, tratar a quienes se encuentren en una situación
 diferenciada de distinta forma. En virtud de ello, debe entenderse que
@@ -162,16 +144,12 @@ sobre derechos humanos.6
       un deber universal de respetar y garantizar los derechos humanos, ema-
       nado de aquel principio general y básico.
 
-
-## 3 Artículo 1.1 de la Convención Americana sobre Derechos Humanos y artículo 2.1
-
-del Pacto Internacional de Derechos Civiles y Políticos.
-
-## 4 Artículo 24 de la Convención Americana sobre Derechos Humanos y artículo
-
-26 del Pacto Internacional de Derechos Civiles y Políticos.
-
 ## 5 Tal como señalan Nash y David, a lo largo de la Convención Americana sobre
+
+**Definición Canónica:** Derechos Humanos se hace referencia continua al principio de igualdad y no discriminación, ya sea expresando la necesidad de un trato diferenciado respecto de
+sujetos que requieren una protección especial o bien reforzando la prohibición de
+discriminación. Lo mismo ocurre con el Pacto Internacional de Derechos Civiles y
+Políticos.
 
 Derechos Humanos se hace referencia continua al principio de igualdad y no discriminación, ya sea expresando la necesidad de un trato diferenciado respecto de
 sujetos que requieren una protección especial o bien reforzando la prohibición de
@@ -179,6 +157,15 @@ discriminación. Lo mismo ocurre con el Pacto Internacional de Derechos Civiles 
 Políticos.
 
 ## 6 Además de las convenciones que se refieren particularmente a la eliminación de
+
+**Definición Canónica:** la discriminación, como la Convención Internacional sobre la Eliminación de todas
+las Formas de Discriminación Racial (CERD); la Convención sobre la Eliminación
+de todas las Formas de Discriminación contra la Mujer (Cedaw) en el Sistema Universal de Protección de Derechos Humanos (SUDH); la Convención Interamericana
+contra el Racismo, la Discriminación Racial y Formas Conexas de Intolerancia y la
+Convención Interamericana contra toda forma de Discriminación e Intolerancia en
+el Sistema Interamericano de Protección de Derechos Humanos (SIDH); también
+se encuentran referencias al principio de ig
+**Concordancias Legales:** artículos 1.1; artículo 24 de la Convención Americana prohíbe la discriminació; artículo 1.1; artículos 2.1; artículo 2 del Pacto Internacional de Derechos Civiles; artículo 26; artículo 2; artículo 7 de la Declaración Universal de Derechos Humanos; artículo 53 de la Convención de Viena sobre el Derecho de los T; artículo 64
 
 la discriminación, como la Convención Internacional sobre la Eliminación de todas
 las Formas de Discriminación Racial (CERD); la Convención sobre la Eliminación
@@ -345,6 +332,9 @@ trabajo, puesto que el estatus que ha adquirido este principio, por una
 
 ## parte, refuerza la necesidad de interpretar adecuadamente la normativa
 
+**Definición Canónica:** interna que tiene por objeto garantizar su protección y, por otra, evi-
+**Concordancias Legales:** artículo 1.1 de la CADH se refiere a la posición económica; artículos 1.1 de la CADH y 2.1 y 26 del PICDP son cláusulas abier; artículo 1.1. de la CADH debe ser adecuado
+
 interna que tiene por objeto garantizar su protección y, por otra, evi-
 
  18 Corte IDH, Opinión consultiva OC-24/17 (2017), párrafo 61.
@@ -471,7 +461,17 @@ Materiales Docentes                                                          Cap
 
 ## 1.1. CADH, conforme al juicio de proporcionalidad en sentido es-
 
-     tricto, los beneficios de adoptar la medida distintiva deben ser cla-
+**Definición Canónica:** tricto, los beneficios de adoptar la medida distintiva deben ser cla-
+     ramente superiores a las restricciones que ella impone a los princi-
+     pios convencionales afectados con la misma.26
+   • Que se persiga un propósito legítimo en virtud (de las convencio-
+     nes sobre derechos humanos).27 Al respecto, cuando la diferencia
+     de trato se base en alguna de las categorías protegidas por el ar-
+     tículo 1.1. de la CADH, la Corte IDH ha señalado que no solo se
+     exige que el fin sea legítimo en el marco de la convención, sino que
+     además sea imperioso.28
+
+tricto, los beneficios de adoptar la medida distintiva deben ser cla-
      ramente superiores a las restricciones que ella impone a los princi-
      pios convencionales afectados con la misma.26
    • Que se persiga un propósito legítimo en virtud (de las convencio-
@@ -496,7 +496,10 @@ la aplicación del principio de igualdad, dando relevancia a la realidad
 
 ## 26 Corte IDH, Opinión consultiva…
 
-  27 Palacios se refiere a un propósito legítimo en virtud del pacto, puesto que analiza la definición otorgada por el Comité de Derechos Humanos.
+**Definición Canónica:** 27 Palacios se refiere a un propósito legítimo en virtud del pacto, puesto que analiza la definición otorgada por el Comité de Derechos Humanos.
+  28 Corte IDH, Opinión consultiva OC-24/17 (2017), párrafo 81.
+
+27 Palacios se refiere a un propósito legítimo en virtud del pacto, puesto que analiza la definición otorgada por el Comité de Derechos Humanos.
   28 Corte IDH, Opinión consultiva OC-24/17 (2017), párrafo 81.
 
 Materiales Docentes                                                         Capítulo 1
@@ -574,8 +577,9 @@ Trabajadores de la Hacienda Brasil Verde con Brasil, en la que establece:
       miento por parte del Estado es necesario para satisfacer las obligaciones
       generales de respeto y garantía de los derechos humanos. El Tribunal
 
-
 ## 29 Corte IDH, caso Furlan y familiares con Argentina, sentencia del 31 de agosto de
+
+**Definición Canónica:** 2012, serie C 246, párrafo 267.
 
 2012, serie C 246, párrafo 267.
 
@@ -607,15 +611,9 @@ de medidas han de adoptarse para asegurar su debido respeto y garantía.
 Por último, han establecido la gravitante importancia que tiene a nivel
 universal, catalogándola como una norma de ius cogens.
 
-
-## 30 Corte IDH, caso Trabajadores de la Hacienda Brasil Verde con Brasil, sentencia
-
-del 20 de octubre de 2016, serie C 318, párrafos 336-338.
-
-Materiales Docentes                                                        Capítulo 2
-
-
 ## Capítulo 2
+
+**Definición Canónica:** Violencia de género
 
 Violencia de género
 
@@ -707,11 +705,11 @@ el acoso. Analizando la distribución de casos por género y estamento los res
 evidencian que la principal figura que ejerce acoso sexual es el académico varón en
 relación a las mujeres de los tres estamentos, y las principales afectadas son las estudiantes, quienes son acosadas por sus profesores o compañeros».
 
-## 4 Paola Bergallo y Natalia Gherardi (2008) identifican el acoso sexual como un
-
-mecanismo de dominación en el empleo, cuya fundamentación es igualmente válida para el espacio académico.
-
 ## 5 Al efecto es interesante analizar el trabajo del Observatorio Contra el Acoso en
+
+**Definición Canónica:** Chile (OCAC) Radiografía del acoso sexual en Chile. Primera encuesta nacional sobre acoso sexual callejero, laboral, en el contexto educativo y ciberacoso, julio 2020.
+ 6 Declaración de Beijing, párrafo 112.
+**Concordancias Legales:** artículo 1 de la Cedaw
 
 Chile (OCAC) Radiografía del acoso sexual en Chile. Primera encuesta nacional sobre acoso sexual callejero, laboral, en el contexto educativo y ciberacoso, julio 2020.
  6 Declaración de Beijing, párrafo 112.
@@ -929,11 +927,10 @@ desiguales entre mujeres y hombres».12 La superación de este tipo de
 violencia se plantea como un factor determinante para el desarrollo individual y social y su plena participación en todas las esferas de la vida
 por parte de las mujeres.
 
-
-## 11 Observaciones finales sobre el séptimo informe periódico de Chile…
-
-
 ## 12 Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia
+
+**Definición Canónica:** contra la Mujer.
+**Concordancias Legales:** artículo 1; artículo 2
 
 contra la Mujer.
 
@@ -964,8 +961,16 @@ Mejía (2012, 195)
       ternacional de los Derechos Humanos la realidad que enfrentan las mu-
       jeres a diario en la Región, adoptando como nuevo paradigma de los
 
-
 ## 13 Artículo 2 Convención Belém do Pará: «Se entenderá que violencia contra la
+
+**Definición Canónica:** mujer incluye la violencia física, sexual y psicológica: (a) que tenga lugar dentro
+de la familia o unidad doméstica o en cualquier otra relación interpersonal, ya sea
+que el agresor comparta o haya compartido el mismo domicilio que la mujer, y que
+comprende, entre otros, violación, maltrato y abuso sexual; (b) que tenga lugar en la
+comunidad y sea perpetrada por cualquier persona y que comprende, entre otros,
+violación, abuso sexual, tortura, trata de personas, prostitución forzada, secuestro
+y acoso sexual en el lugar de trabajo, así como en instituciones educativas, establecimientos de salu
+**Concordancias Legales:** artículo 3 de la Convención; artículo 5; artículo 1
 
 mujer incluye la violencia física, sexual y psicológica: (a) que tenga lugar dentro
 de la familia o unidad doméstica o en cualquier otra relación interpersonal, ya sea
@@ -1049,8 +1054,9 @@ es un claro avance en la necesidad de tomar conciencia sobre estas conductas que
    En definitiva, una institución que quiere adoptar medidas para la
 promoción de la igualdad de género necesariamente debe abordar en
 
-
 ## 14 Convenio 190 sobre la Violencia y el Acoso de la Organización Internacional
+
+**Definición Canónica:** del Trabajo (OIT)
 
 del Trabajo (OIT)
 
@@ -1062,8 +1068,9 @@ dinámicas no solo se desarrollan en el ámbito de lo doméstico, tal como
 muchos creen hasta el día de hoy, sino que también está arraigado en el
 lugar de trabajo.
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Acoso sexual
 
 Acoso sexual
 
@@ -1129,6 +1136,8 @@ Rozas, al reflexionar acerca de los silencios de las mujeres:
 
 ## 2 Diputada María Rozas, Cámara de Diputados, sesión 12, legislatura 343, 7 de
 
+**Definición Canónica:** noviembre de 2000.
+
 noviembre de 2000.
 
    También existió una intensa discusión acerca de las posibilidades que
@@ -1166,8 +1175,9 @@ regresivo en las propias mujeres y también hizo observaciones a los posibles ab
       ner seriamente que es un gran obstáculo para el ingreso de la mujer al
       mundo del trabajo, más allá de las lamentables excepciones.
 
-
 ## 3 Ministra del Sernam, Adriana Delpiano Puelma, Cámara de Diputados, sesión
+
+**Definición Canónica:** 12, legislatura 343, 7 de noviembre de 2000.
 
 12, legislatura 343, 7 de noviembre de 2000.
 
@@ -1203,12 +1213,10 @@ críticas que ven esta iniciativa como un perjuicio para las mujeres, señalando
       con situaciones abusivas y denigrantes va a perjudicar el ingreso de las
       mujeres al mundo del trabajo?5
 
-
-## 4 Diputado Pedro Muñoz, Cámara de Diputados, sesión 13, legislatura 343, 8 de
-
-noviembre de 2000.
-
 ## 5 Diputada Fanny Pollarolo, Cámara de Diputados, sesión 14, legislatura 343, 9 de
+
+**Definición Canónica:** noviembre de 2000.
+**Concordancias Legales:** artículo 2
 
 noviembre de 2000.
 
@@ -1392,8 +1400,11 @@ Un tercer elemento para incurrir en conductas de acoso sexual es que
 no exista consentimiento por parte de la persona a quien se dirigen los
 comentarios, tocaciones, miradas, insinuaciones, etcétera.
 
-
 ## 10 Este es un estudio internacional que incluye también el análisis de comentarios
+
+**Definición Canónica:** sexistas, pero tal como se indicó, para la regulación chilena los comentarios sexistas
+no serían constitutivos de acoso sexual.
+ 11 Dirección del Trabajo, Ordinario 4354/59, 29 de octubre de 2009.
 
 sexistas, pero tal como se indicó, para la regulación chilena los comentarios sexistas
 no serían constitutivos de acoso sexual.
@@ -1467,8 +1478,10 @@ afectando patrimonialmente su situación, incluso sin haber realizado
 acción alguna más que contraer un Acuerdo de Unión Civil. Así quedó
 expresado en el fallo: 13
 
-
 ## 13 Segundo Juzgado de Letras del Trabajo de Santiago, RIT T-309-2018, 7 de junio
+
+**Definición Canónica:** de 2018.
+**Concordancias Legales:** artículo 2; Ley 20.005
 
 de 2018.
 
@@ -1978,6 +1991,9 @@ mando al interior de la empresa, con aquel poder culturalmente ejerci-
  21 Segundo Juzgado de Letras del Trabajo de Santiago. RIT T-309-2018, considerandos 12 y 13.
 
 ## 22 Juzgado de Letras del Trabajo de Punta Arenas, RIT T-63-2019, considerando
+
+**Definición Canónica:** 14.
+**Concordancias Legales:** artículo 153; artículo 211; artículo 160 del Código del Trabajo; artículo 2; artículo 5; artículo 160; artículo 171; artículo 3; artículos 5; artículos 2; artículo 19; artículo 84 del DFL 29; artículo 125 del Estatuto Administrativo contempla al acoso se; artículo 84; artículo 125; artículo 129 del Estatuto Administrativo; artículo 4; artículo 8; artículo 11; artículo 10; artículo 15 del Acta 108; artículo 12; artículo 13; artículo 16; artículo 21; artículo 259 bis del Código Penal Federal de México establece que; Ley 20.005; Ley 18.834; DFL 29; constitucion; Constitución
 
 14.
 
@@ -2583,13 +2599,11 @@ Primario               3               1                       1                
 
 Secundario             2                                                                     2
 
-
-## Capj                                  3                                                      3
-
-
-
 ## Total                  9              4          1             1               1             16
 
+**Definición Canónica:** Tabla elaborada por la Secretaría Técnica de Igualdad de Género y No Discriminación, disponible en
+https://bit.ly/3sBk2VI.
+**Concordancias Legales:** artículo 184
 
 Tabla elaborada por la Secretaría Técnica de Igualdad de Género y No Discriminación, disponible en
 https://bit.ly/3sBk2VI.
@@ -2617,10 +2631,15 @@ la jurisprudencia, el acoso sexual puede provenir de relaciones verticales y hor
 posteriores, se reguló el acoso sexual como un delito.
    El artículo 184 de su Código Penal indica lo siguiente:
 
-
 ## 1. El que solicitare favores de naturaleza sexual, para sí o para un ter-
 
-      cero, en el ámbito de una relación laboral, docente o de prestación de
+**Definición Canónica:** cero, en el ámbito de una relación laboral, docente o de prestación de
+      servicios, continuada o habitual, y con tal comportamiento provocare
+      a la víctima una situación objetiva y gravemente intimidatoria, hostil o
+      humillante, será castigado, como autor de acoso sexual, con la pena de
+      prisión de tres a cinco meses o multa de seis a 10 meses.
+
+cero, en el ámbito de una relación laboral, docente o de prestación de
       servicios, continuada o habitual, y con tal comportamiento provocare
       a la víctima una situación objetiva y gravemente intimidatoria, hostil o
       humillante, será castigado, como autor de acoso sexual, con la pena de
@@ -2628,7 +2647,13 @@ posteriores, se reguló el acoso sexual como un delito.
 
 ## 2. Si el culpable de acoso sexual hubiera cometido el hecho prevalién-
 
-      dose de una situación de superioridad laboral, docente o jerárquica, o
+**Definición Canónica:** dose de una situación de superioridad laboral, docente o jerárquica, o
+      con el anuncio expreso o tácito de causar a la víctima un mal relaciona-
+      do con las legítimas expectativas que aquélla pueda tener en el ámbito
+      de la indicada relación, la pena será de prisión de cinco a siete meses o
+      multa de 10 a 14 meses.
+
+dose de una situación de superioridad laboral, docente o jerárquica, o
       con el anuncio expreso o tácito de causar a la víctima un mal relaciona-
       do con las legítimas expectativas que aquélla pueda tener en el ámbito
       de la indicada relación, la pena será de prisión de cinco a siete meses o
@@ -2636,7 +2661,12 @@ posteriores, se reguló el acoso sexual como un delito.
 
 ## 3. Cuando la víctima sea especialmente vulnerable, por razón de su
 
-      edad, enfermedad o situación, la pena será de prisión de cinco a siete
+**Definición Canónica:** edad, enfermedad o situación, la pena será de prisión de cinco a siete
+      meses o multa de 10 a 14 meses en los supuestos previstos en el apartado
+      1, y de prisión de seis meses a un año en los supuestos previstos en el
+      apartado 2 de este artículo.
+
+edad, enfermedad o situación, la pena será de prisión de cinco a siete
       meses o multa de 10 a 14 meses en los supuestos previstos en el apartado
       1, y de prisión de seis meses a un año en los supuestos previstos en el
       apartado 2 de este artículo.
@@ -2654,8 +2684,10 @@ mismo, es importante tener claro cuáles son las características del sistema ch
 
 Materiales Docentes                                                      Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Acoso laboral
+**Concordancias Legales:** artículo 184 del Código del Trabajo contenía la primera norma; artículo 2 del Código del Trabajo la noción de ciudadanía en; artículo 153; artículo 2 del Código del Trabajo agregando una definición d; Ley 20.005; Ley 20.607; constitucion
 
 Acoso laboral
 
@@ -2800,6 +2832,9 @@ laboral, definición que provenía de las construcciones doctrinarias y jurispru
 
 ## 3 Juzgado de Letras del Trabajo de Osorno, RIT T-6-2010, 24 de septiembre de
 
+**Definición Canónica:** 2010.
+**Concordancias Legales:** artículo 171; Ley 20.607
+
 2010.
 
 Materiales Docentes                                                          Capítulo 4
@@ -2863,10 +2898,15 @@ momento de identificar los elementos del acoso laboral, fundado tanto
 en la definición legal como en el desarrollo jurisprudencial de los tribunales superiores de justicia, indicando los siguientes elementos como
 relevantes:
 
-
 ## 1. Corresponde a una acción u omisión, en tanto no solo puede pro-
 
-      ducirse acoso laboral mediante acciones directas o indirectas, sino que
+**Definición Canónica:** ducirse acoso laboral mediante acciones directas o indirectas, sino que
+      también el empleador podría incurrir en conductas de este tipo, en
+      cuanto, al tomar conocimiento de una situación abusiva, no tomare las
+      medidas que resulten pertinentes para evitar su ocurrencia o reitera-
+**Concordancias Legales:** artículo 2
+
+ducirse acoso laboral mediante acciones directas o indirectas, sino que
       también el empleador podría incurrir en conductas de este tipo, en
       cuanto, al tomar conocimiento de una situación abusiva, no tomare las
       medidas que resulten pertinentes para evitar su ocurrencia o reitera-
@@ -2874,6 +2914,10 @@ relevantes:
  4 Código del Trabajo, artículo 2, inciso segundo, segunda parte.
 
 ## 5 Juzgado de Letras del Trabajo de Concepción, RIT T-228-2017, 20 de diciembre
+
+**Definición Canónica:** del 2017.
+ 6 Juzgado de Letras del Trabajo de Linares, RIT T-11-2018, 31 de agosto del 2018.
+**Concordancias Legales:** artículo 184 del Código del Trabajo
 
 del 2017.
  6 Juzgado de Letras del Trabajo de Linares, RIT T-11-2018, 31 de agosto del 2018.
@@ -2883,31 +2927,27 @@ Materiales Docentes                                                      Capítu
       ción, lo que conllevaría además una infracción a su deber de cuidado
       consagrada legalmente en el artículo 184 del Código del Trabajo.
 
-## 2. Tanto la víctima como los victimarios pueden ser una o varias per-
-
-      sonas.
-       3. Se desarrolla en el ámbito estrictamente laboral.
-
-## 4. Implica el ejercicio de una violencia sicológica, que causa perjuicio
-
-      a la víctima.
-
-## 5. Requiere de un conjunto de actos que se desarrollan de manera per-
-
-      manente en el tiempo, esto es, no se trata de un acto aislado, sino de un
-      cúmulo de actuaciones, que tienen la finalidad específica de hostigar o
-      dañar a alguien en particular.
-
 ## 6. Persigue siempre un objetivo espurio, ya sea destruir el honor o la
 
-      reputación de la víctima entre otros, perturbando con ello sus derechos
+**Definición Canónica:** reputación de la víctima entre otros, perturbando con ello sus derechos
+      fundamentales, toda vez, que el mobbing implica una agresión violenta
+      a la dignidad personal del trabajador, vulnerando así, su derecho a la
+      honra, a la no discriminación y su derecho a la integridad síquica.
+
+reputación de la víctima entre otros, perturbando con ello sus derechos
       fundamentales, toda vez, que el mobbing implica una agresión violenta
       a la dignidad personal del trabajador, vulnerando así, su derecho a la
       honra, a la no discriminación y su derecho a la integridad síquica.
 
 ## 7. Por último y en relación con lo anterior, se trata de atentados de
 
-      carácter grave, que limitan, disminuyen o derechamente suprimen el
+**Definición Canónica:** carácter grave, que limitan, disminuyen o derechamente suprimen el
+      ejercicio de derechos y garantías que se encuentran contempladas tanto
+      en el ordenamiento constitucional como en los tratados internacionales
+      ratificados por nuestro país que versan sobre derechos humanos.
+**Concordancias Legales:** artículo 2; constitucion
+
+carácter grave, que limitan, disminuyen o derechamente suprimen el
       ejercicio de derechos y garantías que se encuentran contempladas tanto
       en el ordenamiento constitucional como en los tratados internacionales
       ratificados por nuestro país que versan sobre derechos humanos.
@@ -3131,12 +3171,9 @@ laboral, ya sea tras enterarse por medio de canales de denuncias o simplemente p
 la sentencia del Segundo Juzgado de Letras del Trabajo de Santiago, del
 5 de mayo de 2020, en el cual se señala que la parte denunciada, al haber
 
-
-## 9 Segundo Juzgado de Letras del Trabajo de Santiago, RIT O-5244-2019, 5 de mayo
-
-de 2020.
-
 ## 10 Juzgado de Letras del Trabajo de Valparaíso, RIT T-288-2017, 20 de octubre de
+
+**Definición Canónica:** 2017, considerando décimo tercero.
 
 2017, considerando décimo tercero.
 
@@ -3173,8 +3210,10 @@ efectuadas con ocasión de la relación laboral. Eso sí, fuera del ámbito
 laboral la capacidad de intervención y la responsabilidad de la empresa
 disminuyen drásticamente (Urrutikoetxea, 2014: 143).
 
-
 ## 11 Segundo Juzgado de Letras del Trabajo de Santiago, RIT O-5244-2019, 5 de
+
+**Definición Canónica:** mayo de 2020.
+**Concordancias Legales:** artículo 2 del Código del Trabajo; artículo 2; Constitucion
 
 mayo de 2020.
 
@@ -3336,8 +3375,16 @@ inciso segundo del Código del Trabajo exige una cierta entidad o gravedad de la
 deben ser capaces de producir un resultado de menoscabo, maltrato o
 humillación en la o las víctimas.
 
-
 ## 14 La Dirección del Trabajo, a través del dictamen 2856/162 del 30 de agosto de
+
+**Definición Canónica:** 2001, fijó el sentido y alcance del artículo 5 inciso primero del Código del Trabajo
+y resolvió que: «los derechos fundamentales necesariamente se alzan como límites
+infranqueables de los poderes empresariales, siendo esta no una afirmación teórica
+o meramente simbólica sino que un principio o valor normativo —función unificadora e integradora de los derechos fundamentales— que de forma ineludible debe
+irradiar y orientar la aplicación e interpretación de las normas laborales, debiendo
+darse primacía, de manera indiscutible a aquellos por sobre estos. Se crea pues, un
+principio de interpretaci
+**Concordancias Legales:** artículo 5; artículo 2 del Código del Trabajo distingue al acoso sexual; constitucion
 
 2001, fijó el sentido y alcance del artículo 5 inciso primero del Código del Trabajo
 y resolvió que: «los derechos fundamentales necesariamente se alzan como límites
@@ -3466,6 +3513,8 @@ de las mujeres, mientras que en el caso del acoso laboral, propiamente tal, el a
 
 ## 18 Tribunal Constitucional Español, Sentencia causa 224/1999, 13 de diciembre de
 
+**Definición Canónica:** 1999, considerando quinto.
+
 1999, considerando quinto.
 
 mujeres, sin que necesariamente pueda ser reconducido hacia un trato
@@ -3480,10 +3529,16 @@ primordial que tales conductas y resultados perniciosos sean sancionados en un p
 principios de los años 90 el sicólogo sueco Heinz Leyman identificó los
 siguientes trastornos (Chávez, 2021: 562):
 
-
 ## 1. Síntomas síquicos: depresión, ansiedad, ataques de pánico, irritabili-
 
-      dad, reacciones paranoicas, disminución de la autoestima, etc.
+**Definición Canónica:** dad, reacciones paranoicas, disminución de la autoestima, etc.
+       2. Síntomas al estado sicofisiológico, que se ve afectado por: cefaleas,
+      disturbios gastrointestinales, alteración del sueño, disminución del de-
+      seo sexual, taquicardias, vértigo, sudoración, trastornos dermatológi-
+      cos, etc.
+**Concordancias Legales:** artículo 2; artículo 153 inciso 2; artículo 184; artículo 5; artículo 3; artículo 56; artículos 1; constitucion
+
+dad, reacciones paranoicas, disminución de la autoestima, etc.
        2. Síntomas al estado sicofisiológico, que se ve afectado por: cefaleas,
       disturbios gastrointestinales, alteración del sueño, disminución del de-
       seo sexual, taquicardias, vértigo, sudoración, trastornos dermatológi-
@@ -3609,8 +3664,10 @@ refundido de la Ley sobre Infracciones y Sanciones en el Orden Social.
 
 Materiales Docentes                                                       Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Tutela laboral como mecanismo de resguardo
+**Concordancias Legales:** artículos 485; artículo 20 de la Constitución no es posible iniciar un procedi; artículo 485 del Código del Trabajo; artículo 19; artículo 2 del Código del Trabajo; artículo 485 del Código del Trabajo indica que se entenderán l; artículo 486 del Código del Trabajo indica que son titulares d; artículo 486; artículo 489; artículo 488; artículo 492; artículo 494; artículo 493 del Código del Trabajo; Ley 20.087; Ley 21.280; Constitución
 
 Tutela laboral como mecanismo de resguardo
 
@@ -3779,8 +3836,10 @@ y Ugarte, 2014: 85). Ugarte (2009: 224) señala tipos de indicios que podrían p
    Luego, habiendo un indicio suficiente, corresponde a la persona empleadora aportar prueba que desvirtúe este indicio y destruya la sospecha razonable, acreditando la fundamentación y proporcionalidad de la
 conducta. Adicionalmente, en caso de que la conducta lesiva haya sido
 
-
 ## 2 Segundo Juzgado de Letras del Trabajo de Santiago, RIT 1218-2019, 21 de abril de
+
+**Definición Canónica:** 2020, considerando séptimo.
+**Concordancias Legales:** artículo 496
 
 2020, considerando séptimo.
 
@@ -3860,6 +3919,8 @@ de tutela.
 
 ## 6 Segundo Juzgado de Letras del Trabajo de Santiago, RIT 1218-2019, 21 de abril
 
+**Definición Canónica:** de 2020.
+
 de 2020.
 
 Materiales Docentes                                                         Capítulo 5
@@ -3889,22 +3950,10 @@ y vulneran la privacidad de las víctimas.12
 una sola conducta por parte del acosador, «particularmente cuando se
 trata de un acercamiento corporal, atendido que en ellos se expresa, en
 
-
-## 7 Segundo Juzgado de Letras del Trabajo de Santiago, RIT 309-2018, 7 de junio de
-
-2018.
-  8 Corte de Apelaciones de Santiago, rol 1364-2011, 16 de noviembre de 2012.
-
-## 9 Primer Juzgado de Letras del Trabajo de Santiago, RIT T-1774-2018, 23 de abril
-
-de 2020.
-  10 Juzgado de Letras del Trabajo de Valdivia, RIT T-66-2019, 27 de agosto de 2019.
-
-## 11 Juzgado de Letras del Trabajo de Punta Arenas, RIT T-30-2015, 2 de octubre de
-
-2015.
-
 ## 12 Juzgado de Letras del Trabajo de Concepción, RIT T-94-2015, 9 de octubre de
+
+**Definición Canónica:** 2015; Segundo Juzgado de Letras del Trabajo de Santiago, RIT T-512-2016, 5 de septiembre de 2016.
+**Concordancias Legales:** artículo 2
 
 2015; Segundo Juzgado de Letras del Trabajo de Santiago, RIT T-512-2016, 5 de septiembre de 2016.
 
@@ -3947,6 +3996,8 @@ considerando decimocuarto.
 
 ## 15 Juzgado de Letras del Trabajo de Puerto Montt, RIT T-11-2016, 11 de mayo de
 
+**Definición Canónica:** 2016, considerando vigésimo.
+
 2016, considerando vigésimo.
 
 Materiales Docentes                                                       Capítulo 5
@@ -3985,8 +4036,11 @@ laboral de respeto.
       de la denuncia como su contenido, situación que natural y obviamente
       afectó a la demandante en sus relaciones con sus compañeros de trabajo,
 
-
 ## 16 Juzgado de Letras del Trabajo de Puerto Montt. RIT T-40-2016, 5 de septiembre
+
+**Definición Canónica:** de 2016, considerando octavo y noveno.
+ 17 Juzgado de Letras y Garantía de Carahue, RIT T-3-2020, 19 de mayo de 2021,
+considerando décimo.
 
 de 2016, considerando octavo y noveno.
  17 Juzgado de Letras y Garantía de Carahue, RIT T-3-2020, 19 de mayo de 2021,
@@ -4002,12 +4056,9 @@ a las situaciones de acoso. Así, han concluido que gestionar una reunión
 con el acusado luego de que dos trabajadores lo denuncian por acoso sexual es insuficiente y resulta ineficaz si no se toman otras medidas como
 el traslado del trabajador o su despido.19
 
-
-## 18 Juzgado de Letras del Trabajo de Valparaíso, RIT T-286-2017, 31 de octubre de
-
-2019, considerando duodécimo.
-
 ## 19 Primer Juzgado de Letras del Trabajo de Santiago, RIT T-12- 2015, 24 de abril de
+
+**Definición Canónica:** 2015, considerando primero.
 
 2015, considerando primero.
 

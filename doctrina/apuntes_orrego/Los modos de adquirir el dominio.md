@@ -15,6 +15,20 @@ extraccion: pdftotext
 
 ## Los modos de adquirir el dominio1
 
+**Definición Canónica:** Sumario:
+1.-) Generalidades.
+a) Teoría que postula que se requiere de un título y luego de un modo para adquirir el
+dominio.
+b) Teorías que rechazan la distinción entre título y modo.
+2.-) Enumeración de los modos de adquirir.
+3.-) Clasificación de los modos de adquirir.
+a) Originarios y derivativos.
+b) Modos universales o singulares o a título universal y a título singular.
+c) Modos onerosos o gratuitos y modos a título oneroso o a título gratuito.
+d) Por acto entre vivos o por causa de muerte.
+4.-) Naturaleza jurídica de los modos de adquirir.
+5.-) Aplicación de los modos de adquirir.
+6.-) S
 
 Sumario:
 1.-) Generalidades.
@@ -142,6 +156,9 @@ del sistema alemán se traduce en una eficaz protección de los terceros. Si el 
 negocio causal se declara nulo, no por eso la enajenación deja de surtir efecto; y la
 
 ## parte en cuyo favor se declara la nulidad sólo puede hacer valer la acción de
+
+**Definición Canónica:** enriquecimiento sin causa.
+**Concordancias Legales:** artículo 1736 del Código Civil; artículo 643 del Código Civil; artículo 670 del Código Civil; artículo 951; Ley Nº 18.101; Ley Nº 18.046
 
 enriquecimiento sin causa.
 
@@ -564,7 +581,11 @@ constituido por la ley. Es la causa eficiente del modo de adquirir y en consecue
 
 ## título remoto. La discusión surge, en cuanto a los títulos inmediatos.21
 
-        Algunos, como Arturo Alessandri, señalan que, de acuerdo con el sistema
+**Definición Canónica:** Algunos, como Arturo Alessandri, señalan que, de acuerdo con el sistema
+chileno, el requisito del título debe aplicarse a todos los modos de adquirir que
+enumera el art. 588. Así, se dice que, en el caso de la ocupación, la accesión y la
+
+Algunos, como Arturo Alessandri, señalan que, de acuerdo con el sistema
 chileno, el requisito del título debe aplicarse a todos los modos de adquirir que
 enumera el art. 588. Así, se dice que, en el caso de la ocupación, la accesión y la
 
@@ -600,6 +621,16 @@ b) En el caso de la sucesión por causa de muerte, se puede suceder a una person
 
 ## parte abintestato y parte testamentariamente. Si se aceptara la opinión de la primera
 
+**Definición Canónica:** doctrina, tendríamos el absurdo de que una persona sucedería a dos títulos, lo cual es
+errado, porque no pueden concurrir dos títulos en la adquisición del dominio de una
+misma cosa.
+c) La doctrina que exige como requisito general el título, es incompleta, desde el
+momento que pasa por alto el modo de adquirir denominado ley, y ni siquiera se
+pronuncia acerca de cual sería el título en este caso.
+d) Si bien es efectivo que el art. 703 dice que el justo título puede ser constitutivo o
+traslaticio de dominio, y agrega que son constitutivos la ocupación, la accesión y la
+prescripción, esa disposi
+
 doctrina, tendríamos el absurdo de que una persona sucedería a dos títulos, lo cual es
 errado, porque no pueden concurrir dos títulos en la adquisición del dominio de una
 misma cosa.
@@ -631,6 +662,16 @@ qué no pueda adquirirse una herencia por dos títulos, el testamento y la ley. 
                    Los Modos de Adquirir el Dominio – Juan Andrés Orrego Acuña                        11
 
 ## título, se adquirirá una parte distinta de la herencia. Así, el heredero podrá adquirir por
+
+**Definición Canónica:** testamento la cuarta de libre disposición, y además un cierto porcentaje de la mitad
+legitimaria. En el primer caso, el título será el testamento; en el segundo caso, la ley.
+En el caso planteado, sólo aparentemente, entonces, se adquirirá por dos títulos, pues
+en la realidad, cada uno de los dos títulos (el testamento y la ley) servirán de
+antecedente para adquirir el dominio de diferentes partes de la herencia. En definitiva,
+se adquiere siempre por un solo título y por un solo modo.
+iii.- Cuando opera la prescripción: será el título posesorio respectivo; en algunos casos
+será la ocupación d
+**Concordancias Legales:** artículo 1; artículo 6; Artículo 9; Artículo 10; artículo 643; artículo 361 del Código Civil de ese país; artículo 669 del Código Civil; Ley Nº 18.892; Ley N° 17.288; Ley Nº 3.063; DFL Nº 34
 
 testamento la cuarta de libre disposición, y además un cierto porcentaje de la mitad
 legitimaria. En el primer caso, el título será el testamento; en el segundo caso, la ley.
@@ -1533,6 +1574,13 @@ pueden darse dos hipótesis:
 
 ## 1.1. El dueño de los materiales, plantas o semillas no tenía conocimiento del uso que
 
+**Definición Canónica:** de ellos hacía el propietario del inmueble: en este caso, el dueño del suelo puede
+encontrarse en tres situaciones diferentes, según haya usado de los materiales ajenos
+con justa causa de error, sin justa causa de error o a sabiendas de que no eran suyos.
+En las tres situaciones, el propietario del inmueble adquiere el edificio, plantación o
+sementera, porque dichas situaciones sólo se toman en cuenta para determinar la
+responsabilidad del propietario del suelo frente al propietario de los materiales.
+
 de ellos hacía el propietario del inmueble: en este caso, el dueño del suelo puede
 encontrarse en tres situaciones diferentes, según haya usado de los materiales ajenos
 con justa causa de error, sin justa causa de error o a sabiendas de que no eran suyos.
@@ -1541,6 +1589,15 @@ sementera, porque dichas situaciones sólo se toman en cuenta para determinar la
 responsabilidad del propietario del suelo frente al propietario de los materiales.
 
 ## 1.1.1. El propietario del inmueble procedió con justa causa de error (es decir, sin
+
+**Definición Canónica:** culpa): en otras palabras, ha tenido motivos fundados para creer que los materiales
+que empleó eran suyos; ha obrado de buena fe. En esta situación, debe pagar al dueño
+de los materiales su justo precio o restituirle otro tanto de la misma naturaleza, calidad
+y aptitud (art. 668, inc. 1º). La elección corresponde al propietario del inmueble; el
+dueño de los materiales no tiene derecho a elegir.
+1.1.2. El propietario del suelo empleó los materiales sin justa causa de error (es decir,
+con culpa): en otras palabras, sin tener suficientes motivos para equivocarse; en esta
+situación, además de paga
 
 culpa): en otras palabras, ha tenido motivos fundados para creer que los materiales
 que empleó eran suyos; ha obrado de buena fe. En esta situación, debe pagar al dueño
@@ -1555,11 +1612,23 @@ primera parte).
 
 ## 1.1.3. El propietario del suelo procedió a sabiendas que los materiales eran ajenos (es
 
+**Definición Canónica:** decir, con dolo): en otras palabras, procedió de mala fe. En esta situación, además de
+las prestaciones indicadas en el caso anterior, queda sujeto a eventual responsabilidad
+penal (la pena que corresponda al delito de hurto o al de apropiación indebida).
+
 decir, con dolo): en otras palabras, procedió de mala fe. En esta situación, además de
 las prestaciones indicadas en el caso anterior, queda sujeto a eventual responsabilidad
 penal (la pena que corresponda al delito de hurto o al de apropiación indebida).
 
 ## 1.2. El dueño de los materiales tuvo conocimiento del uso que de ellos hacía el
+
+**Definición Canónica:** propietario del inmueble (art. 668, inc. 2º, parte final): en este caso, es indiferente si
+el propietario del suelo procedió con o sin justa causa de error o a sabiendas, ya que
+su responsabilidad es siempre la misma: sólo está obligado a pagar el justo precio de
+los materiales u otro tanto de la misma naturaleza, calidad y aptitud. La ley presume
+que en este caso, el propietario de los materiales ha consentido que se usara de ellos.
+Al decir de la doctrina, aquí habría en realidad una compraventa, en la cual el dueño
+**Concordancias Legales:** artículos 453
 
 propietario del inmueble (art. 668, inc. 2º, parte final): en este caso, es indiferente si
 el propietario del suelo procedió con o sin justa causa de error o a sabiendas, ya que
@@ -1585,6 +1654,16 @@ Distinguimos dos hipótesis:
 
 ## 2.1.1. Derecho a hacer suyo el edificio, plantación o sementera, pagando al dueño de
 
+**Definición Canónica:** los materiales las indemnizaciones prescritas a favor de los poseedores de buena o
+mala fe en el título “De la reivindicación”, conforme a las reglas de “las prestaciones
+mutuas” (arts. 904 y ss.). Importante será entonces determinar si el dueño de los
+materiales obró de buena o mala fe. Para este efecto, la buena o mala fe se refiere al
+tiempo en que las obras fueron ejecutadas (artículo 913). El dueño del terreno,
+entonces, deberá abonar al dueño de los materiales las mejoras necesarias y las útiles,
+si éste estaba de buena fe, o sólo las mejoras necesarias, si estaba de mala fe. Las
+mejoras
+**Concordancias Legales:** artículo 913
+
 los materiales las indemnizaciones prescritas a favor de los poseedores de buena o
 mala fe en el título “De la reivindicación”, conforme a las reglas de “las prestaciones
 mutuas” (arts. 904 y ss.). Importante será entonces determinar si el dueño de los
@@ -1596,6 +1675,15 @@ mejoras voluptuarias, no son indemnizables. Al tratar de las prestaciones mutuas
 el apunte de “Las acciones protectoras”, ahondaremos en estos puntos.
 
 ## 2.1.2. Derecho a obligar al que edificó o plantó a pagarle el justo precio del terreno
+
+**Definición Canónica:** con los intereses legales por todo el tiempo que lo haya tenido en su poder, y al que
+sembró a pagarle la renta y a indemnizarle los perjuicios.
+Dos situaciones contempla entonces el precepto:
+1° Puede ocurrir que el dueño del terreno no quiera o no pueda adquirir lo que el
+tercero edificó o plantó en el inmueble del primero. En tal caso, el dueño del suelo
+tiene el derecho a exigir al que edificó o plantó, a pagarle el justo precio del terreno
+con los intereses legales por todo el tiempo que lo haya tenido en su poder. Como dice
+Claro Solar, “…al propietario puede no convenirle el edificio o 
 
 con los intereses legales por todo el tiempo que lo haya tenido en su poder, y al que
 sembró a pagarle la renta y a indemnizarle los perjuicios.
@@ -1625,6 +1713,14 @@ comprarle el terreno, sino sólo a pagarle una suma, equivalente a la renta que 
 obtenido el primero, si le hubiera arrendado el predio al segundo.
 
 ## 2.2. El dueño del suelo tuvo conocimiento de lo que hacía el propietario de los
+
+**Definición Canónica:** materiales: art. 669, inc. 2º. En este caso, el primero está obligado a pagar la
+edificación, plantación o sementera. Aquí tampoco podría hablarse de accesión, sino de
+tradición, porque hay consentimiento de las partes.
+        Hay una última situación, no contemplada por el legislador, cuando se edifica,
+planta o siembra con materiales ajenos en suelo ajeno. Para resolver este caso, se ha
+dicho que debería recurrirse a las reglas precedentemente expuestas, aplicándolas por
+analogía.
 
 materiales: art. 669, inc. 2º. En este caso, el primero está obligado a pagar la
 edificación, plantación o sementera. Aquí tampoco podría hablarse de accesión, sino de

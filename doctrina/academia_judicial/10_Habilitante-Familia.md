@@ -13,19 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## Serie de
-
-
-## Documentos                                                           09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Curso de
+             formación
+             especializada
+             para
+                   jueces y juezas
+                   de juzgado
+                   de Familia
+                   (curso habilitante)
 
-             Curso de
+Curso de
              formación
              especializada
              para
@@ -45,19 +44,22 @@ extraccion: pdftotext
 
               Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Sara
+                                    Covarrubias
+                                    Naser
+                          Abogada y magíster en Derecho pri-
+                          vado, Sara Covarrubias Naser egresó
+                          de la Academia Judicial en 1997 y ha
+                          sido jueza del Juzgado de Familia de
+                          Viña del Mar desde 2005. Ha partici-
+                          pado en los análisis de materias de
+                          familia del Ministerio de Justicia y
+                          DDHH e integró la delegación chilena
+     
 
-                          Sara
+Sara
                                     Covarrubias
                                     Naser
                           Abogada y magíster en Derecho pri-
@@ -112,172 +114,12 @@ Chile 2020                la Corte Suprema de Justicia.
 
                                          Introducción7
 
-
-## 1. Fundamentos y objetivos políticos, sociales y jurídicos de la reforma   10
-
-
-
-## 1.1 Principios formativos                                               13
-
-
-
-## 1.2 Derechos de las personas en el contexto judicial                    23
-
-
-
-## 1.3 Las reglas comunes de procedimiento                                 48
-
-
-
-## 1.4 Recursos                                                            70
-
-
-
-## 2. Prueba en materia de familia                                            88
-
-
-
-## 2.1 Etapas de la actividad probatoria                                   89
-
-
-
-## 2.2 Disposiciones generales acerca de la prueba                         90
-
-
-
-## 2.3 Los medios de prueba                                                101
-
-
-
-## 3. Sistemas alternativos de resolución de conflictos                       116
-
-
-
-## 3.1 Conciliación                                                        118
-
-
-
-## 3.2 Mediación                                                           121
-
-
-
-## 4. Organización y administración de los tribunales de familia              129
-
-
-
-## 4.1 Jueces                                                              131
-
-
-
-## 4.2 Comité de jueces                                                    131
-
-
-
-## 4.3 Juez o jueza presidente                                             132
-
-
-
-## 4.4 Consejo técnico                                                     134
-
-
-
-## 4.5 Administrador                                                       139
-
-
-
-## 5. Procedimiento ordinario                                                 145
-
-
-
-## 5.1 Etapa de recepción y control de admisibilidad de la demanda         146
-
-
-
-## 5.2 Esquema del procedimiento                                           151
-
-
-
-## 5.3 Comparecencia a las audiencias                                      151
-
-
-
-## 5.4 Audiencia preparatoria del juicio                                   152
-
-
-
-## 5.5 Audiencia de juicio oral                                            156
-
-
-
-## 5.6 Observaciones de las partes                                         159
-
-
-
-## 5.7 Sentencia                                                           161
-
-
-
-## 6. El procedimiento de violencia intrafamiliar                             163
-
-Curso habilitante                                                                   Índice                                                              5
-
-
-## 6.1 Concepto de violencia                                                                            164
-
-
-
-## 6.2 Término del proceso                                                                              178
-
-
-
-## 7. Procedimiento sobre aplicación de medidas de protección de acuerdo a la LTF                          185
-
-
-
-## 7.1   Procedimiento                                                                                  186
-
-
-
-## 7.2   Potestad cautelar en materia de protección de NNA                                              190
-
-
-
-## 7.3   Medida de separación de sus padres (art. 74 LTF)                                               192
-
-
-
-## 7.4   Derecho de audiencia con el o la juez (art. 79 LTF)                                            193
-
-
-
-## 7.5   Deber de información del SENAME (art. 80 bis inc. 1º LTF)                                      194
-
-
-
-## 7.6   Deber de adoptar medidas inexistentes solicitadas por el juez (artículo 80 bis inc. 2° LTF)    194
-
-
-
-## 7.7   Obligación de informar (art. 76 LTF)                                                           195
-
-
-
-## 7.8   Incumplimiento de las medidas (art. 77 LTF)                                                    195
-
-
-
-## 7.9   Suspensión, modificación y cesación de medidas (art. 80 LTF)                                   196
-
-
-
-## 7.10 Obligación de visita                                                                            197
-
-
-
 ## 7.11 Sentencia                                                                                       198
 
+**Definición Canónica:** Bibliografía207
+**Concordancias Legales:** Ley N° 14.908; Ley N° 16.618; Ley N° 19.968; Ley N° 20.066; Ley Nº 19.947; Ley Nº 19.585; Ley N° 19.235; Ley N° 4.447
 
-                                         Bibliografía207
+Bibliografía207
 
                                          Glosario212
 
@@ -513,37 +355,40 @@ Juez(a) de familia                                                            so
 
 ## 1. Establecer una jurisdicción especializada con competencia
 
-                                              exclusiva en las materias que puedan afectar a las familias, para
+**Definición Canónica:** exclusiva en las materias que puedan afectar a las familias, para
+                                              evitar que se lleven a cabo procedimientos distintos, incluso ante
+                                              distintos tribunales, para resolver los asuntos que les atañen.
+
+exclusiva en las materias que puedan afectar a las familias, para
                                               evitar que se lleven a cabo procedimientos distintos, incluso ante
                                               distintos tribunales, para resolver los asuntos que les atañen.
 
 ## 2. Proporcionar a las partes una amplia gama de soluciones coo-
 
-                                              perativas, no controversiales de resolución de conflictos, como
+**Definición Canónica:** perativas, no controversiales de resolución de conflictos, como
                                               la mediación y la conciliación, con el objetivo de preservar la
                                               armonía familiar.
 
-## 3. Carácter interdisciplinario de la nueva judicatura para tratar el
-
-                                              conflicto en su integralidad y ofrecer soluciones sistémicas.
-
-## 4. Propender a que el juez(a) tenga un conocimiento directo e in-
-
-                                              mediato de los asuntos, mediante un procedimiento oral, flexible,
-                                              concentrado, y basado en el principio de la inmediación.
+perativas, no controversiales de resolución de conflictos, como
+                                              la mediación y la conciliación, con el objetivo de preservar la
+                                              armonía familiar.
 
 ## 5. Incorporar elementos de modernización comunes al resto de la
 
-                                              administración de justicia, para que sea lo más eficaz y eficiente
+**Definición Canónica:** administración de justicia, para que sea lo más eficaz y eficiente
+                                              posible.
+
+administración de justicia, para que sea lo más eficaz y eficiente
                                               posible.
 
 Curso habilitante                               1. Fundamentos y objetivos políticos,                                  13
 Juez(a) de familia                                 sociales y jurídicos de la reforma
 
-
 ## 1.1      Principios
 
-                                                  formativos
+**Definición Canónica:** formativos
+
+formativos
 
                                                   Los principios formativos son:
 
@@ -555,10 +400,16 @@ Juez(a) de familia                                 sociales y jurídicos de la r
                                                                   Colaboración            Publicidad     Contradicción
                                           de oficio
 
-
 ## 1.1.1 Oralidad
 
-                                                  La regla general en los procedimientos de familia es la oralidad,
+**Definición Canónica:** La regla general en los procedimientos de familia es la oralidad,
+                                                  como dispone el artículo 10 inciso primero LTF, cuando señala:
+                                                  “Todas las actuaciones procesales serán orales, salvo las excepciones
+                                                  expresamente contenidas en esta ley”. Sin embargo, existe una serie
+                                                  bastante larga de excepciones:
+**Concordancias Legales:** artículo 10; artículo 11; artículo 61; artículo 67; Ley Nº 20.286
+
+La regla general en los procedimientos de familia es la oralidad,
                                                   como dispone el artículo 10 inciso primero LTF, cuando señala:
                                                   “Todas las actuaciones procesales serán orales, salvo las excepciones
                                                   expresamente contenidas en esta ley”. Sin embargo, existe una serie
@@ -633,10 +484,14 @@ Juez(a) de familia                                 sociales y jurídicos de la r
                                                 autorización                      — La resolución que suspende y fija nueva
                                                 del juez                             fecha sirve de citación y notificación
 
-
 ## 1.1.3 Inmediación
 
-                                           Según este principio, el o la juez debe tomar conocimiento directo
+**Definición Canónica:** Según este principio, el o la juez debe tomar conocimiento directo
+                                           e inmediato de todos los asuntos que debe resolver, requiriendo un
+                                           procedimiento:
+**Concordancias Legales:** artículo 12; artículo 61
+
+Según este principio, el o la juez debe tomar conocimiento directo
                                            e inmediato de todos los asuntos que debe resolver, requiriendo un
                                            procedimiento:
 
@@ -670,10 +525,15 @@ Juez(a) de familia                                                   sociales y 
                                                                     que se trate de recepción de documental, porque puede volver a
                                                                     reproducirse tantas veces como sea necesario.
 
-
 ## 1.1.4 Desformalización
 
-                                                                    Se encuentra regulado en el artículo 9 LTF y persigue la eficacia a
+**Definición Canónica:** Se encuentra regulado en el artículo 9 LTF y persigue la eficacia a
+                                                                    través de normas flexibles, orientadas a evitar dilación en trámites
+                                                                    innecesarios. No implica eliminar aquellos formalismos que son
+                                                                    garantías del debido proceso.
+**Concordancias Legales:** artículo 9; artículo 44 del CPC; artículo 54; artículo 23; artículo 24; artículo 67
+
+Se encuentra regulado en el artículo 9 LTF y persigue la eficacia a
                                                                     través de normas flexibles, orientadas a evitar dilación en trámites
                                                                     innecesarios. No implica eliminar aquellos formalismos que son
                                                                     garantías del debido proceso.
@@ -711,10 +571,17 @@ Juez(a) de familia                                                   sociales y 
                                            ordinarios a la materia, los libra de los formalismos necesarios en el
                                            derecho común, como se verá en su oportunidad.
 
-
 ## 1.1.5 Actuación de oficio
 
-                                           Según el artículo 13 LTF, el o la juez deberá adoptar de oficio todas
+**Definición Canónica:** Según el artículo 13 LTF, el o la juez deberá adoptar de oficio todas
+                                           las medidas necesarias para llevar el proceso a término con la ma-
+                                           yor celeridad, rapidez y eficiencia, complementando así el carácter
+                                           concentrado del procedimiento, especialmente en los casos que se
+                                           deban adoptar medidas para dar protección a NNA y a víctimas de
+                                           violencia intrafamiliar (VIF). El o la juez debe da
+**Concordancias Legales:** artículo 13; Artículo 21; Artículo 22; Artículo 25; Artículo 29; Artículo 31; Artículo 54; Artículo 85; artículo 27; Artículo 90; Ley Nº 19.968; Ley Nº 19.947; Ley Nº 19.620; constitucion
+
+Según el artículo 13 LTF, el o la juez deberá adoptar de oficio todas
                                            las medidas necesarias para llevar el proceso a término con la ma-
                                            yor celeridad, rapidez y eficiencia, complementando así el carácter
                                            concentrado del procedimiento, especialmente en los casos que se
@@ -785,10 +652,17 @@ Juez(a) de familia                                                       sociale
 
 Curso habilitante                        1. Fundamentos y objetivos políticos,                                 19
 
-
 ## 1.1.6 Colaboración
 
-                                           Según el artículo 14 LTF, en el procedimiento y en la resolución del
+**Definición Canónica:** Según el artículo 14 LTF, en el procedimiento y en la resolución del
+                                           conflicto deben buscarse las soluciones que supongan la menor con-
+                                           flictividad posible entre las partes, privilegiando aquellas acordadas
+                                           por las partes (conciliación, avenimiento o mediación) y respetando
+                                           así la autonomía de estas, quienes deben actuar de forma libre e
+                                           informada. Sin embargo, la participación del 
+**Concordancias Legales:** artículo 14; artículo 61; artículos 101; artículo 96; artículo 75
+
+Según el artículo 14 LTF, en el procedimiento y en la resolución del
                                            conflicto deben buscarse las soluciones que supongan la menor con-
                                            flictividad posible entre las partes, privilegiando aquellas acordadas
                                            por las partes (conciliación, avenimiento o mediación) y respetando
@@ -814,10 +688,15 @@ Juez(a) de familia                                                       sociale
                                            la forma más conducente a la situación que afecta al NNA, según el
                                            artículo 75 LTF.
 
-
 ## 1.1.7 Publicidad/Protección a la intimidad
 
-                                           En el texto original de la ley, el principio era el de protección de la
+**Definición Canónica:** En el texto original de la ley, el principio era el de protección de la
+                                           intimidad tanto de las partes como de los NNA, pudiendo prohibirse
+                                           la difusión de datos e imágenes o disponerse que todas o algunas de
+                                           las actuaciones del proceso fueran reservadas.
+**Concordancias Legales:** artículo 8; artículo 15; Artículo 197; Artículo 105; artículo 247 del Código Penal; Artículo 86; Artículo 19 de Adopción de pote; Artículo 28; Ley Nº 20.286; Ley N° 20.050; Ley Nº 19.968; Ley Nº 19.957; Ley Nº 19.620; Constitución Política
+
+En el texto original de la ley, el principio era el de protección de la
                                            intimidad tanto de las partes como de los NNA, pudiendo prohibirse
                                            la difusión de datos e imágenes o disponerse que todas o algunas de
                                            las actuaciones del proceso fueran reservadas.
@@ -898,10 +777,17 @@ Juez(a) de familia                                                              
                                                                                   participación”7, lo que puede implicar decretar la reserva en los
                                                                                   casos concretos en que se estime que ese riesgo puede presentarse.
 
-
 ## 1.1.8 Contradicción
 
-                                                                                  Si bien este principio no está señalado expresamente en la LTF,
+**Definición Canónica:** Si bien este principio no está señalado expresamente en la LTF,
+                                                                                  forma parte del debido proceso, dado que el contradictorio es el
+                                                                                  único escenario donde se permite a las partes actuar en un plano
+                                                                                  de igualdad. A ambas partes se les conceden:
+                                                                                  a. Los mismos derechos
+          
+**Concordancias Legales:** artículo 22
+
+Si bien este principio no está señalado expresamente en la LTF,
                                                                                   forma parte del debido proceso, dado que el contradictorio es el
                                                                                   único escenario donde se permite a las partes actuar en un plano
                                                                                   de igualdad. A ambas partes se les conceden:
@@ -939,7 +825,10 @@ Juez(a) de familia                                                              
 
 ## 1. Existir probabilidad y verosimilitud de que un derecho pueda
 
-                                                                                  ser vulnerado (fumus boni iuris).
+**Definición Canónica:** ser vulnerado (fumus boni iuris).
+                                                                               2. Existir peligro en la demora (periculum in mora)10.
+
+ser vulnerado (fumus boni iuris).
                                                                                2. Existir peligro en la demora (periculum in mora)10.
 
                                          9    ORTELLS (2000), p. 283 y ss.
@@ -948,10 +837,11 @@ Juez(a) de familia                                                              
 Curso habilitante                                                         1. Fundamentos y objetivos políticos,                                  23
 Juez(a) de familia                                                           sociales y jurídicos de la reforma
 
-
 ## 1.2           Derechos de las personas
 
-                                                                            en el contexto judicial
+**Definición Canónica:** en el contexto judicial
+
+en el contexto judicial
 
                                                                             El proceso de familia es especial porque no sólo se refiere a aspectos
                                                                             jurídicos y económicos, sino que involucra las relaciones entre los
@@ -959,10 +849,11 @@ Juez(a) de familia                                                           soc
                                                                             físico y mental y, entre ellos, se producen desigualdades de poder
                                                                             que los afectan y que los principios buscan corregir.
 
-
 ## 1.2.1 Introducción
 
-                                                                            Los poderes judiciales iberoamericanos organizaron conferencias
+**Definición Canónica:** Los poderes judiciales iberoamericanos organizaron conferencias
+
+Los poderes judiciales iberoamericanos organizaron conferencias
 
                                                                             con el fin de dar plena vigencia a los derechos humanos, con la ley
                                                                             como fundamento de paz y respeto mutuo, y un poder judicial que
@@ -972,10 +863,14 @@ Juez(a) de familia                                                           soc
                                                                             quehacer judicial, entre las que destacan algunas que se revisarán a
                                                                             continuación.
 
-
 ## 1.2.2 Carta de Derechos de las Personas
 
-                                                                            ante la Justicia (Cancún, 2002)12
+**Definición Canónica:** ante la Justicia (Cancún, 2002)12
+                                                                            Este instrumento señala, en su preámbulo, que “la eficacia de la
+                                                                            justicia, sin duda, está vinculada a la accesibilidad, a la información,
+                                                                            a la transparencia, e, incluso, a la simple amabilidad en el trato”.
+
+ante la Justicia (Cancún, 2002)12
                                                                             Este instrumento señala, en su preámbulo, que “la eficacia de la
                                                                             justicia, sin duda, está vinculada a la accesibilidad, a la información,
                                                                             a la transparencia, e, incluso, a la simple amabilidad en el trato”.
@@ -1007,20 +902,30 @@ Juez(a) de familia                                                            so
                                                                              La justicia es responsable ante el ciudadano, pudiendo formular quejas
                                                                              y recibir respuestas a ellas y exigir responsabilidad por el error judicial.
 
-
 ## 1.2.3 Protocolo Iberoamericano de Actuación Judicial
 
-                                                                             para mejorar el acceso a la justicia de personas con
+**Definición Canónica:** para mejorar el acceso a la justicia de personas con
+                                                                             discapacidad, migrantes, niñas, niños, adolescentes,
+                                                                             comunidades y pueblos indígenas (Santiago, 2014)13
+                                                                             Este instrumento se divide en varias secciones relativas a distintos
+                                                                             grupos protegidos. La idea central es realizar ajustes razonables 
+
+para mejorar el acceso a la justicia de personas con
                                                                              discapacidad, migrantes, niñas, niños, adolescentes,
                                                                              comunidades y pueblos indígenas (Santiago, 2014)13
                                                                              Este instrumento se divide en varias secciones relativas a distintos
                                                                              grupos protegidos. La idea central es realizar ajustes razonables para
                                                                              hacer más accesible la justicia a estos grupos especialmente protegidos.
 
-
 ## 1.2.3.1 En el caso de los NNA
 
-                                                                             Señala que existe una obligación reforzada y prioritaria de:
+**Definición Canónica:** Señala que existe una obligación reforzada y prioritaria de:
+                                                                             a. Actuación oficiosa para la protección integral del NNA
+                                                                             b. Exhaustividad para atender la causa de pedir
+                                                                             c. Brindar la asistencia y la representación necesarias para el ejer-
+                                                                                cicio de sus derechos.
+
+Señala que existe una obligación reforzada y prioritaria de:
                                                                              a. Actuación oficiosa para la protección integral del NNA
                                                                              b. Exhaustividad para atender la causa de pedir
                                                                              c. Brindar la asistencia y la representación necesarias para el ejer-
@@ -1097,25 +1002,12 @@ Juez(a) de familia                                                            so
                                            En cuanto a las pruebas periciales practicadas a los NNA, es necesario
                                            tomar en consideración:
 
-## 1. Los conocimientos con los que cuenta el perito en infancia dentro
-
-                                              de la materia de su pericia.
-
-## 2. Si el perito conoció el expediente del juicio y antecedentes ge-
-
-                                              nerales de los NNA.
-
-## 3. Si se sostuvo una interacción previa con los NNA para establecer
-
-                                              un ambiente de confianza.
-
-## 4. Si contempla la narrativa libre de los NNA, anotando en la mayor
-
-                                              medida posible el registro textual de lo dicho por ellos.
-
 ## 5. Si contiene los resultados de las pruebas aplicadas y no única-
 
-                                              mente haciendo referencia a las conclusiones obtenidas a partir
+**Definición Canónica:** mente haciendo referencia a las conclusiones obtenidas a partir
+                                              de las mismas.
+
+mente haciendo referencia a las conclusiones obtenidas a partir
                                               de las mismas.
 
                                            Las conclusiones deben basarse explícitamente en los hallazgos de
@@ -1129,10 +1021,14 @@ Juez(a) de familia                                                            so
                                                                              diversas a los NNA, como información aportadas por familiares u
                                                                              otros adultos cercanos al niño.
 
-
 ## 1.2.3.2 En el caso de personas, comunidades y pueblos
 
-                                                                             indígenas
+**Definición Canónica:** indígenas
+                                                                             Se les debe tratar en condiciones de igualdad y sólo se podrán hacer
+                                                                             diferencias objetivas y razonables con miras a la protección de sus
+                                                                             propios derechos14.
+
+indígenas
                                                                              Se les debe tratar en condiciones de igualdad y sólo se podrán hacer
                                                                              diferencias objetivas y razonables con miras a la protección de sus
                                                                              propios derechos14.
@@ -1156,10 +1052,15 @@ Juez(a) de familia                                                            so
                                                                              pueblo indígena involucrado, a fin de conocer el sistema cultural
                                                                              de la persona y su sistema normativo.
 
-
 ## 1.2.3.3 En el caso de personas con discapacidad
 
-                                                                             Las personas con discapacidad han sido tradicionalmente rechazadas,
+**Definición Canónica:** Las personas con discapacidad han sido tradicionalmente rechazadas,
+                                                                             estigmatizadas y objeto de discriminación múltiple, y no han gozado
+                                                                             de autonomía para adoptar sus propias decisiones. La judicatura debe
+                                                                             garantizarles un acceso pleno a la justicia, con apego al debido pro-
+                                                                             ceso judicial y r
+
+Las personas con discapacidad han sido tradicionalmente rechazadas,
                                                                              estigmatizadas y objeto de discriminación múltiple, y no han gozado
                                                                              de autonomía para adoptar sus propias decisiones. La judicatura debe
                                                                              garantizarles un acceso pleno a la justicia, con apego al debido pro-
@@ -1228,10 +1129,17 @@ Juez(a) de familia                                                              
                                                                                          través de un lenguaje sencillo, “evitando la pérdida del rigor
                                                                                          técnico exigible en el servicio de justicia”.
 
-
 ## 1.2.4 Protocolo de Actuación Judicial
 
-                                                                                para casos de Violencia de Género contra
+**Definición Canónica:** para casos de Violencia de Género contra
+                                                                                las Mujeres (Santiago, 2014)15
+                                                                                El protocolo se basa en el concepto de tutela jurídica efectiva, esto
+                                                                                es, “la posibilidad de reclamar ante los órganos jurisdiccionales la
+                                                                                apertura de un proceso sin obstáculos procesales, obteniendo una
+    
+**Concordancias Legales:** constitucion
+
+para casos de Violencia de Género contra
                                                                                 las Mujeres (Santiago, 2014)15
                                                                                 El protocolo se basa en el concepto de tutela jurídica efectiva, esto
                                                                                 es, “la posibilidad de reclamar ante los órganos jurisdiccionales la
@@ -1331,10 +1239,16 @@ Juez(a) de familia                                                            so
 
 Curso habilitante                        1. Fundamentos y objetivos políticos,                                32
 
-
 ## 1.2.5 Derechos específicos
 
-                                           En general, el principio que rige en materia de familia es el de
+**Definición Canónica:** En general, el principio que rige en materia de familia es el de
+                                           protección a los débiles, cuyo objetivo es obtener la igualdad real
+                                           de las partes. Con ese fin, la ley impone ciertos deberes al juez o la
+                                           jueza en favor de personas que se encuentran en una situación de
+                                           desigualdad o desamparo fáctico por:
+**Concordancias Legales:** artículo 19; artículo 29; artículo 22; artículo 3
+
+En general, el principio que rige en materia de familia es el de
                                            protección a los débiles, cuyo objetivo es obtener la igualdad real
                                            de las partes. Con ese fin, la ley impone ciertos deberes al juez o la
                                            jueza en favor de personas que se encuentran en una situación de
@@ -1361,10 +1275,15 @@ Juez(a) de familia                                                            so
                                            cónyuge más débil como principios que el o la juez de familia debe
                                            tener presente al resolver.
 
-
 ## 1.2.5.1 Principio de protección del cónyuge más débil
 
-                                           Este principio está establecido en el artículo 3 inciso primero LMC:
+**Definición Canónica:** Este principio está establecido en el artículo 3 inciso primero LMC:
+                                           “Las materias de familia reguladas por esta ley deberán ser resuel-
+                                           tas cuidando proteger siempre el interés superior de los hijos y del
+                                           cónyuge más débil”.
+**Concordancias Legales:** artículo 3; artículo 131; artículo 1715; artículo 1723; artículo 1749; artículos 152; artículo 1781; artículo 1773; artículo 1777; artículos 141; artículo 321
+
+Este principio está establecido en el artículo 3 inciso primero LMC:
                                            “Las materias de familia reguladas por esta ley deberán ser resuel-
                                            tas cuidando proteger siempre el interés superior de los hijos y del
                                            cónyuge más débil”.
@@ -1420,11 +1339,15 @@ Juez(a) de familia                                                            so
                                                                              nes y deberes que compensaban de alguna manera este desequilibrio
                                                                              durante la vigencia del mismo”19.
 
-
 ## 1.2.5.2 Principio de prevalencia del interés superior del NNA
 
+**Definición Canónica:** Este principio rector, muy criticado por la doctrina por ser un con-
+                                                                             cepto jurídico indeterminado y usado para justificar las más variadas
+                                                                             decisiones, en un intento por concretizarlo ha sido definido por Ci-
+                                                                             llero21 como aquel que tiene por objeto garantizar a todos los NNA
+                                                                             que se encuentren
 
-                                                                             Este principio rector, muy criticado por la doctrina por ser un con-
+Este principio rector, muy criticado por la doctrina por ser un con-
                                                                              cepto jurídico indeterminado y usado para justificar las más variadas
                                                                              decisiones, en un intento por concretizarlo ha sido definido por Ci-
                                                                              llero21 como aquel que tiene por objeto garantizar a todos los NNA
@@ -1491,7 +1414,11 @@ Juez(a) de familia                                                              
 
 ## N° 19.947
 
-                                                                                           Cuando existieren menores de edad comprometidos en los juicios de
+**Definición Canónica:** Cuando existieren menores de edad comprometidos en los juicios de
+                                                                         art. 85           se-paración, nulidad de matrimonio y divorcio, el o la juez deberá consi-
+                                                                                           derar especialmente el interés superior de los NNA.
+
+Cuando existieren menores de edad comprometidos en los juicios de
                                                                          art. 85           se-paración, nulidad de matrimonio y divorcio, el o la juez deberá consi-
                                                                                            derar especialmente el interés superior de los NNA.
 
@@ -1515,8 +1442,12 @@ Juez(a) de familia                                                              
 
 ## N° 19.620
 
+**Definición Canónica:** Razón para poner fin al cuidado personal otorgado a los interesados en
+                                                                      art. 24
+                                                                                        la adopción.
+**Concordancias Legales:** artículo 3; artículo 5
 
-                                                                                        Razón para poner fin al cuidado personal otorgado a los interesados en
+Razón para poner fin al cuidado personal otorgado a los interesados en
                                                                       art. 24
                                                                                         la adopción.
 
@@ -1858,13 +1789,11 @@ Juez(a) de familia                                                             s
                                                                                            de adopción de decisiones:
                                                                                               1. De modo conforme a la evolución de sus facultades.
 
-## 2. Suministrándoles información sobre los tratamientos
-
-                                                                                                 que se propongan y sus efectos y resultados.
-
 ## 3. Lo anterior, en particular, de manera apropiada y
 
-                                                                                                 accesible para los NNA con discapacidades.
+**Definición Canónica:** accesible para los NNA con discapacidades.
+
+accesible para los NNA con discapacidades.
 
                                          29   Comité de los Derechos del Niño (2013), párr. 44.
                                          30   Comité de los Derechos del Niño (2009), párr. 79, 84, 100, 134 letras g) y h).
@@ -1872,22 +1801,25 @@ Juez(a) de familia                                                             s
 Curso habilitante                                                           1. Fundamentos y objetivos políticos,                                  44
 Juez(a) de familia                                                             sociales y jurídicos de la reforma
 
-
 ## 4. Promover las oportunidades en favor del derecho
 
-                                                                                                 del niño a ser escuchado, habida cuenta de que su
+**Definición Canónica:** del niño a ser escuchado, habida cuenta de que su
                                                                                                  participación es un instrumento para estimular el
                                                                                                  futuro desarrollo de la personalidad y la evolución
                                                                                                  de las facultades de los NNA.
 
-## 5. Los adultos necesitan preparación, conocimientos
-
-                                                                                                 prácticos y apoyo para facilitar efectivamente la
-                                                                                                 participación.
+del niño a ser escuchado, habida cuenta de que su
+                                                                                                 participación es un instrumento para estimular el
+                                                                                                 futuro desarrollo de la personalidad y la evolución
+                                                                                                 de las facultades de los NNA.
 
 ## 6. Los adultos tienen responsabilidad respecto de los
 
-                                                                                                 NNA con los que trabajan y deben tomar todas las
+**Definición Canónica:** NNA con los que trabajan y deben tomar todas las
+                                                                                                 precauciones para reducir a un mínimo el riesgo de
+**Concordancias Legales:** artículos 162.3; artículo 7; artículo 263 del Código Civil
+
+NNA con los que trabajan y deben tomar todas las
                                                                                                  precauciones para reducir a un mínimo el riesgo de
 
                                                                                                  que sufran violencia, explotación u otra consecuencia
@@ -2031,7 +1963,10 @@ Juez(a) de familia                                                             s
 
 ## 16 Ley 19.998), para lo cual, el tribunal debe nombrarle un curador
 
-                                                                              ad-litem que sea abogado de la Corporación de Asistencia Judicial,
+**Definición Canónica:** ad-litem que sea abogado de la Corporación de Asistencia Judicial,
+**Concordancias Legales:** artículo 19; artículo 58 de la LMC
+
+ad-litem que sea abogado de la Corporación de Asistencia Judicial,
 
                                                                               conforme al artículo 19 de ley precitada”, lo que abre indudablemente
                                                                               la puerta a la litigación personal del NNA, lo que de hecho permite
@@ -2076,10 +2011,12 @@ Juez(a) de familia                                                       sociale
                                          bajos de        Sus opiniones se consideran, pero indirectamente “conforme lo indicado en documental y/o
                                          participación   en los escritos.
 
-
 ## Los NNA NO SON TOMADOS EN CUENTA
 
-                                                         No interesan sus opiniones en la litis: los adultos son quienes saben “qué es mejor para ellos”
+**Definición Canónica:** No interesan sus opiniones en la litis: los adultos son quienes saben “qué es mejor para ellos”
+                                                         (adultocentrismo).
+
+No interesan sus opiniones en la litis: los adultos son quienes saben “qué es mejor para ellos”
                                                          (adultocentrismo).
 
                                                                         En todo caso, el ejercicio de este derecho involucra grandes dilemas
@@ -2092,10 +2029,11 @@ Juez(a) de familia                                                       sociale
                                                                         y permanente, así como contar con apoyo psicológico para afrontar
                                                                         el desgaste que produce.
 
-
 ## 1.3            Las reglas comunes
 
-                                                                        de procedimiento
+**Definición Canónica:** de procedimiento
+
+de procedimiento
 
                                                                         La LTF ha establecido reglas generales que se aplican tanto para el
                                                                         procedimiento ordinario como para los especiales, a saber: acumula-
@@ -2110,10 +2048,15 @@ Juez(a) de familia                                                       sociale
 
 Curso habilitante                        1. Fundamentos y objetivos políticos,                                  49
 
-
 ## 1.3.1 Acumulación necesaria
 
-                                           La LTF establece de manera trasversal la obligatoriedad de acu-
+**Definición Canónica:** La LTF establece de manera trasversal la obligatoriedad de acu-
+                                           mulación de las diversas causas de familia relativas a unas mismas
+                                           partes, para solucionar integralmente los diversos conflictos que
+                                           los pueden aquejar.
+**Concordancias Legales:** artículo 17; artículo 30 de la LM. Curso habilitante; artículo 23; artículo 29; artículo 31; artículo 21; artículo 89; Artículo 48 ter de la Ley de Menores; artículo 48
+
+La LTF establece de manera trasversal la obligatoriedad de acu-
                                            mulación de las diversas causas de familia relativas a unas mismas
                                            partes, para solucionar integralmente los diversos conflictos que
                                            los pueden aquejar.
@@ -2226,10 +2169,15 @@ Juez(a) de familia                                                       sociale
                                            tribunal acumula        cita a nueva fecha   audiencia preparatoria
                                                                       de audiencia         alimentos y RDR
 
-
 ## 1.3.2 Comparecencia en juicio
 
-                                           La regla general, según el artículo 18 LTF, es que las partes deberán
+**Definición Canónica:** La regla general, según el artículo 18 LTF, es que las partes deberán
+                                           comparecer con patrocinio de abogado habilitado para el ejercicio
+                                           de la profesión y representadas por persona legalmente habilitada
+                                           para actuar en juicio. Como excepción, permite la comparecencia
+**Concordancias Legales:** artículo 18
+
+La regla general, según el artículo 18 LTF, es que las partes deberán
                                            comparecer con patrocinio de abogado habilitado para el ejercicio
                                            de la profesión y representadas por persona legalmente habilitada
                                            para actuar en juicio. Como excepción, permite la comparecencia
@@ -2292,10 +2240,17 @@ Juez(a) de familia                                                       sociale
 
                                            judiciales.
 
-
 ## 1.3.3 Comparecencia personal a las
 
-                                           audiencias. Excepciones.
+**Definición Canónica:** audiencias. Excepciones.
+                                           El artículo 60 LTF establece que las partes deben asistir personal-
+                                           mente a las audiencias, tanto preparatoria como de juicio, con el
+                                           debido patrocinio de abogado y la representación de habilitado en
+                                           derecho, salvo que por motivo fundado el tribunal lo autorice a no
+                                           comparecer, mediante resolución que deberá dictar de inmediato.
+**Concordancias Legales:** artículo 60
+
+audiencias. Excepciones.
                                            El artículo 60 LTF establece que las partes deben asistir personal-
                                            mente a las audiencias, tanto preparatoria como de juicio, con el
                                            debido patrocinio de abogado y la representación de habilitado en
@@ -2312,10 +2267,14 @@ Juez(a) de familia                                                       sociale
                                            porque nadie lo representará para ofrecer la prueba en su defensa o
                                            para el llamado a conciliación respectivo.
 
-
 ## 1.3.4 Debida representación de NNA e incapaces
 
-                                           El artículo 19 LTF determina que, en todos los asuntos en que apa-
+**Definición Canónica:** El artículo 19 LTF determina que, en todos los asuntos en que apa-
+                                           rezcan involucrados intereses de los NNA o incapaces, el o la juez
+                                           deberá velar porque estos se encuentren debidamente representados.
+**Concordancias Legales:** artículo 19; artículo 109; artículo 494; artículo 495
+
+El artículo 19 LTF determina que, en todos los asuntos en que apa-
                                            rezcan involucrados intereses de los NNA o incapaces, el o la juez
                                            deberá velar porque estos se encuentren debidamente representados.
 
@@ -2404,10 +2363,12 @@ Juez(a) de familia                                                              
                                                                                   sujeto de derechos, el actuar del curador debiera aproximarse a una
                                                                                   defensa técnica.
 
-
 ## 37    Cuadro basado en los textos de PÉREZ MANRÍQUEZ (2007), p. 254 y ss.; American Bar Association (1999) y
 
-                                               RODRÍGUEZ (2011).
+**Definición Canónica:** RODRÍGUEZ (2011).
+**Concordancias Legales:** artículo 332 del CC en relación al
+
+RODRÍGUEZ (2011).
 
 Curso habilitante                        1. Fundamentos y objetivos políticos,                                  56
 
@@ -2430,10 +2391,17 @@ Juez(a) de familia                                                              
                                            el(la) alimentario(a) mayor de edad, deberá ejercer la acción contra
                                            él directamente.
 
-
 ## 1.3.5 Suspensión convencional de la audiencia
 
-                                           Las partes, de común acuerdo, pueden solicitar la suspensión de la
+**Definición Canónica:** Las partes, de común acuerdo, pueden solicitar la suspensión de la
+                                           audiencia a la que hayan sido citadas (preparatoria o de juicio) y el
+                                           tribunal lo podrá autorizar. Esto hace entender que las partes deben
+                                           dar al menos un fundamento atendible (normalmente, que están
+                                           conversando solución colaborativa o alguna dificultad para asistir),
+                                           porque es facultativo para el tribunal concederla
+**Concordancias Legales:** artículo 20
+
+Las partes, de común acuerdo, pueden solicitar la suspensión de la
                                            audiencia a la que hayan sido citadas (preparatoria o de juicio) y el
                                            tribunal lo podrá autorizar. Esto hace entender que las partes deben
                                            dar al menos un fundamento atendible (normalmente, que están
@@ -2445,10 +2413,16 @@ Juez(a) de familia                                                              
                                            y se fija nueva fecha, pero la ley lo limita a un máximo de dos veces
                                            durante todo el proceso, conforme al artículo 20 LTF.
 
-
 ## 1.3.6 Abandono del procedimiento
 
-                                           Si llegada la fecha de la citación a audiencia no concurre ninguna
+**Definición Canónica:** Si llegada la fecha de la citación a audiencia no concurre ninguna
+                                           de las partes que figuran en el proceso, y si el demandante o solici-
+                                           tante no pide una nueva citación dentro del término de cinco días,
+                                           se declarará el abandono del procedimiento y se ordenará archivar
+                                           los antecedentes.
+**Concordancias Legales:** artículo 8; artículo 1 de la Ley Nº 20.084 sobre; artículo 62; artículo 92; Ley Nº 20.084; Ley Nº 19.620
+
+Si llegada la fecha de la citación a audiencia no concurre ninguna
                                            de las partes que figuran en el proceso, y si el demandante o solici-
                                            tante no pide una nueva citación dentro del término de cinco días,
                                            se declarará el abandono del procedimiento y se ordenará archivar
@@ -2520,10 +2494,16 @@ Juez(a) de familia                                                    sociales y
                                                                                               Todas las demás materias
                                                                                               Si dentro del quinto día no pide nueva fecha, abandono.
 
-
 ## 1.3.7 Potestad cautelar
 
-                                                                     La potestad cautelar está regulada en el artículo 22 LTF, que hace
+**Definición Canónica:** La potestad cautelar está regulada en el artículo 22 LTF, que hace
+                                                                     aplicables las normas sobre las medidas cautelares que regula el CPC
+                                                                     en los Títulos IV y V del Libro II (artículo 290 y ss. CPC). La nor-
+                                         El o la juez de familia     mativa sobre esta materia establece que el o la juez de familia tiene
+                                         tiene facultades para       facultades para decretar medidas cautelares de of
+**Concordancias Legales:** artículo 22; artículo 290; artículo 141; artículo 4; artículo 71
+
+La potestad cautelar está regulada en el artículo 22 LTF, que hace
                                                                      aplicables las normas sobre las medidas cautelares que regula el CPC
                                                                      en los Títulos IV y V del Libro II (artículo 290 y ss. CPC). La nor-
                                          El o la juez de familia     mativa sobre esta materia establece que el o la juez de familia tiene
@@ -2652,10 +2632,14 @@ Juez(a) de familia                                                    sociales y
                                                Requirente                         Juez
                                                Denunciante                                        Denunciado(a)
 
-
 ## 1.3.8 Notificaciones
 
-                                           El artículo 23 LTF estatuye una regla general: las resoluciones que
+**Definición Canónica:** El artículo 23 LTF estatuye una regla general: las resoluciones que
+                                           se dicten durante el curso del proceso se notificarán a las partes, por
+                                           su inclusión en el estado diario del tribunal (inciso quinto).
+**Concordancias Legales:** artículo 23; artículo 44; artículo 54 del CPC; artículo 27; artículo 8; Ley N° 20.886; Ley N° 20.286
+
+El artículo 23 LTF estatuye una regla general: las resoluciones que
                                            se dicten durante el curso del proceso se notificarán a las partes, por
                                            su inclusión en el estado diario del tribunal (inciso quinto).
 
@@ -2770,10 +2754,16 @@ Juez(a) de familia                                                    sociales y
                                            nico indica la ubicación exacta al momento de la notificación, para
                                            garantizar que esta efectivamente se hizo.
 
-
 ## 1.3.9 Competencia territorial
 
-                                           En cuanto a las diligencias que se decreten por los juzgados de familia
+**Definición Canónica:** En cuanto a las diligencias que se decreten por los juzgados de familia
+                                           en uso de sus atribuciones, además de las notificaciones, las medidas
+                                           cautelares y cualquier otra que sea dictada en el curso del proceso
+                                           y que deban ser cumplidas en todo el territorio jurisdiccional de la
+                                           respectiva Corte de Apelaciones, podrá efectuarse de manera directa,
+                                           sin necesidad de exhortos. Por ejempl
+
+En cuanto a las diligencias que se decreten por los juzgados de familia
                                            en uso de sus atribuciones, además de las notificaciones, las medidas
                                            cautelares y cualquier otra que sea dictada en el curso del proceso
                                            y que deban ser cumplidas en todo el territorio jurisdiccional de la
@@ -2807,16 +2797,22 @@ Juez(a) de familia                                                    sociales y
 
                                                                                   diligencia
 
-
 ## 1.3.10 Nulidad
 
-                                           Las actuaciones judiciales pueden adolecer de un vicio de nulidad
+**Definición Canónica:** Las actuaciones judiciales pueden adolecer de un vicio de nulidad
+                                           procesal, como cuando se falta al principio de la inmediación y por
+                                           delegación de funciones, que se encuentra sancionado por el artículo
+
+Las actuaciones judiciales pueden adolecer de un vicio de nulidad
                                            procesal, como cuando se falta al principio de la inmediación y por
                                            delegación de funciones, que se encuentra sancionado por el artículo
 
 ## 12 LTF. Se agregan los demás posibles vicios procesales, regulados
 
-                                           por el artículo 25 de esta misma ley.
+**Definición Canónica:** por el artículo 25 de esta misma ley.
+**Concordancias Legales:** artículo 25; artículo 12; artículo 2 de la Ley N; Ley N° 14.908
+
+por el artículo 25 de esta misma ley.
 
                                            Salvo el caso del artículo 12, sólo podrá declararse la nulidad procesal
                                            cuando el vicio que se reclama haya ocasionado un perjuicio efectivo
@@ -2864,10 +2860,16 @@ Juez(a) de familia                                                    sociales y
                                            su residencia (por ejemplo en la de sus padres) y no obstante ello,
                                            contesta la demanda dentro de plazo y concurre a la audiencia.
 
-
 ## 1.3.11 Los incidentes
 
-                                           La LTF establece, como regla general, que los incidentes deberán ser
+**Definición Canónica:** La LTF establece, como regla general, que los incidentes deberán ser
+                                           promovidos durante el transcurso de las audiencias en que se originen
+                                           y se resolverán inmediatamente por el tribunal, previo debate entre
+                                           las partes, salvo cuando para su resolución sea indispensable producir
+                                           prueba que no hubiere sido posible prever con anterioridad, caso en
+                                           cual el tribunal determinará la forma y
+
+La LTF establece, como regla general, que los incidentes deberán ser
                                            promovidos durante el transcurso de las audiencias en que se originen
                                            y se resolverán inmediatamente por el tribunal, previo debate entre
                                            las partes, salvo cuando para su resolución sea indispensable producir
@@ -2920,10 +2922,18 @@ Juez(a) de familia                                                    sociales y
 
 Curso habilitante                        1. Fundamentos y objetivos políticos,                                   68
 
-
 ## 1.3.12 Facultades del juez o la jueza en la audiencia
 
-                                           La norma introducida por la Ley N° 20.286 del año 2008 agregó
+**Definición Canónica:** La norma introducida por la Ley N° 20.286 del año 2008 agregó
+                                           los artículos 26 bis y 26 ter a la LTF, para regular las facultades del
+                                           o la juez de la audiencia (señala que la “preside”, pero siendo juez
+                                           unipersonal no preside, sino que la dirige), y en consecuencia, le
+                                           permite ordenar la discusión en el curso de la audiencia, de la si-
+                                           guiente manera:
+                               
+**Concordancias Legales:** artículos 26 bis; artículos 530; Ley N° 20.286
+
+La norma introducida por la Ley N° 20.286 del año 2008 agregó
                                            los artículos 26 bis y 26 ter a la LTF, para regular las facultades del
                                            o la juez de la audiencia (señala que la “preside”, pero siendo juez
                                            unipersonal no preside, sino que la dirige), y en consecuencia, le
@@ -2945,18 +2955,18 @@ Juez(a) de familia                                                    sociales y
                                               realización del debate. De esta manera, podrá sancionar de
                                               conformidad con los artículos 530 o 532 del COT, a quienes:
 
-## 1. No guarden respeto y silencio, mientras no estén autorizados
-
-                                                   para exponer o deban responder a las preguntas que se les
-                                                   formulen.
-
-## 2. Lleven armas u otro elemento que pueda perturbar el orden
-
-                                                   de la audiencia.
-
 ## 3. Adopten un comportamiento intimidatorio, provocativo o
 
-                                                   contrario al decoro.
+**Definición Canónica:** contrario al decoro.
+                                           Estas normas, además de la posibilidad de aplicar sanciones por
+                                           infracción a los deberes de comportamiento en las audiencias, re-
+                                           guladas en el artículo 26 bis LTF, establecen para quienes infrinjan
+                                           las medidas sobre publicidad previstas en el artículo 15 de esta ley,
+                                           que podrán ser sancionados de conformidad con los artículos 530
+                               
+**Concordancias Legales:** artículo 26 bis; artículo 15; artículos 530; artículo 26 ter
+
+contrario al decoro.
                                            Estas normas, además de la posibilidad de aplicar sanciones por
                                            infracción a los deberes de comportamiento en las audiencias, re-
                                            guladas en el artículo 26 bis LTF, establecen para quienes infrinjan
@@ -2980,10 +2990,16 @@ Juez(a) de familia                                                              
                                                                                Además, se debe evitar cualquier apariencia de trato preferente a una
                                                                                de las partes. No siempre es fácil, pero se logra practicando cada día.
 
-
 ## 1.3.13 Normas supletorias
 
-                                                                               El artículo 27 LTF dispone que, a todo lo que esté no regulado por
+**Definición Canónica:** El artículo 27 LTF dispone que, a todo lo que esté no regulado por
+                                                                               esta ley, serán aplicables las disposiciones comunes a todo procedi-
+                                                                               miento que establece el CPC (Libro I, artículos 1 a 252), siempre que
+                                                                               no sean incompatibles con la naturaleza de los procedimientos de
+                                                                               esta ley, par
+**Concordancias Legales:** artículo 27; artículos 1
+
+El artículo 27 LTF dispone que, a todo lo que esté no regulado por
                                                                                esta ley, serán aplicables las disposiciones comunes a todo procedi-
                                                                                miento que establece el CPC (Libro I, artículos 1 a 252), siempre que
                                                                                no sean incompatibles con la naturaleza de los procedimientos de
@@ -3000,11 +3016,15 @@ Juez(a) de familia                                                              
 Curso habilitante                                                         1. Fundamentos y objetivos políticos,                                     70
 Juez(a) de familia                                                           sociales y jurídicos de la reforma
 
-
 ## 1.4          Recursos
 
+**Definición Canónica:** En materia de familia proceden todos los medios de impugnación
+                                                                            de resoluciones judiciales que franquea la ley procesal, con algunas
+                                                                            modificaciones reguladas tanto por la LTF como por otras leyes
+                                                                            especiales y que se analizan a continuación.
+**Concordancias Legales:** artículo 55; artículo 67
 
-                                                                            En materia de familia proceden todos los medios de impugnación
+En materia de familia proceden todos los medios de impugnación
                                                                             de resoluciones judiciales que franquea la ley procesal, con algunas
                                                                             modificaciones reguladas tanto por la LTF como por otras leyes
                                                                             especiales y que se analizan a continuación.
@@ -3016,10 +3036,17 @@ Juez(a) de familia                                                           soc
                                                                             plenamente a los procedimientos de vulneración de derechos de
                                                                             NNA y de violencia intrafamiliar.
 
-
 ## 1.4.1 Regla general en materia de recursos
 
-                                         La impugnación de
+**Definición Canónica:** La impugnación de
+                                                                            La impugnación de todas las resoluciones que dicten los tribunales
+                                         todas las resoluciones             de familia se regirán por la norma especial del artículo 67 LTF, en
+                                         que dicten los                     virtud de la cual son impugnables a través de los recursos que esta-
+                                         tribunales de familia se           blece el CPC, siempre que no sean incompatibles con los principios
+       
+**Concordancias Legales:** artículo 67; artículo 9
+
+La impugnación de
                                                                             La impugnación de todas las resoluciones que dicten los tribunales
                                          todas las resoluciones             de familia se regirán por la norma especial del artículo 67 LTF, en
                                          que dicten los                     virtud de la cual son impugnables a través de los recursos que esta-
@@ -3030,7 +3057,14 @@ Juez(a) de familia                                                           soc
 
 ## 67 LTF, en virtud de la            deberá analizar en cada caso la compatibilidad y que no se encuen-
 
-                                         cual son impugnables               tren, a su vez, comprendidos en las modificaciones específicas que
+**Definición Canónica:** cual son impugnables               tren, a su vez, comprendidos en las modificaciones específicas que
+                                                                            realiza a continuación la norma en comento.
+                                         a través de los recursos
+                                         que establece el CPC,              Todo lo anterior, sin perjuicio de las reglas especiales que se esta-
+                                         siempre que no sean                blezcan en otras normas que sean de competencia de los juzgados
+                          
+
+cual son impugnables               tren, a su vez, comprendidos en las modificaciones específicas que
                                                                             realiza a continuación la norma en comento.
                                          a través de los recursos
                                          que establece el CPC,              Todo lo anterior, sin perjuicio de las reglas especiales que se esta-
@@ -3040,7 +3074,12 @@ Juez(a) de familia                                                           soc
 
 ## 1.4.2 Recurso de reposición
 
-                                         procedimiento de                   Este recurso es “el acto jurídico procesal de impugnación que emana
+**Definición Canónica:** procedimiento de                   Este recurso es “el acto jurídico procesal de impugnación que emana
+                                         familia (artículo 9 a              exclusivamente de la parte agraviada, y tiene por objeto solicitar al mismo
+                                         16 LTF).                           Tribunal que dictó la resolución que la modifique o deje sin efecto”39.
+**Concordancias Legales:** artículo 9; artículo 181; artículo 67; artículo 26
+
+procedimiento de                   Este recurso es “el acto jurídico procesal de impugnación que emana
                                          familia (artículo 9 a              exclusivamente de la parte agraviada, y tiene por objeto solicitar al mismo
                                          16 LTF).                           Tribunal que dictó la resolución que la modifique o deje sin efecto”39.
 
@@ -3106,18 +3145,29 @@ Juez(a) de familia                                                           soc
                                                                                     audiencia     en la audiencia
                                                resolución
 
-
 ## 1.4.3 Recurso de apelación
 
-                                           Conforme al artículo 186 CPC, es aquel que “tiene por objeto ob-
+**Definición Canónica:** Conforme al artículo 186 CPC, es aquel que “tiene por objeto ob-
+                                           tener del tribunal superior respectivo que enmiende, con arreglo a
+                                           derecho, la resolución del inferior”. Esto, revisando tanto los hechos
+                                           como el derecho.
+**Concordancias Legales:** artículo 186
+
+Conforme al artículo 186 CPC, es aquel que “tiene por objeto ob-
                                            tener del tribunal superior respectivo que enmiende, con arreglo a
                                            derecho, la resolución del inferior”. Esto, revisando tanto los hechos
                                            como el derecho.
 
-
 ## 1.4.3.1 Recurso excepcional
 
-                                           El recurso de apelación es procedente contra ciertas sentencias y
+**Definición Canónica:** El recurso de apelación es procedente contra ciertas sentencias y
+                                           resoluciones, a saber, la sentencia definitiva de primera instancia,
+                                           las resoluciones (interlocutorias) que ponen término al proceso o
+                                           hacen imposible su continuación, como por ejemplo, la que declara
+                                           abandonado el procedimiento y aquellas resoluciones que se pro-
+                                           nuncien sobre medidas cautelares, concediéndolas o no,
+
+El recurso de apelación es procedente contra ciertas sentencias y
                                            resoluciones, a saber, la sentencia definitiva de primera instancia,
                                            las resoluciones (interlocutorias) que ponen término al proceso o
                                            hacen imposible su continuación, como por ejemplo, la que declara
@@ -3125,10 +3175,15 @@ Juez(a) de familia                                                           soc
                                            nuncien sobre medidas cautelares, concediéndolas o no, sea que se
                                            dicten dentro o fuera de audiencia.
 
-
 ## 1.4.3.2 Resoluciones inapelables
 
-                                           La LTF declara inapelables, a contrario sensu, todas las demás resolu-
+**Definición Canónica:** La LTF declara inapelables, a contrario sensu, todas las demás resolu-
+                                           ciones que en el curso del proceso se vayan dictando, no sólo aquellas
+                                           que al igual que en el procedimiento civil son improcedentes, como
+                                           las de mero trámite.
+**Concordancias Legales:** artículo 241
+
+La LTF declara inapelables, a contrario sensu, todas las demás resolu-
                                            ciones que en el curso del proceso se vayan dictando, no sólo aquellas
                                            que al igual que en el procedimiento civil son improcedentes, como
                                            las de mero trámite.
@@ -3158,10 +3213,15 @@ Juez(a) de familia                                                           soc
                                            toda vez la LTF no contiene ninguna norma especial sobre el cum-
                                            plimiento de las sentencias o sobre el procedimiento de ejecución.
 
-
 ## 1.4.3.3 Reglas de la apelación
 
-                                           El artículo 67 de la LTF, en sus numerales 3, 4 y 5, estipula que el
+**Definición Canónica:** El artículo 67 de la LTF, en sus numerales 3, 4 y 5, estipula que el
+                                           recurso de apelación siempre debe interponerse por escrito, porque
+                                           emplea la forma verbal “deberá”, incluso si la sentencia o resolución
+                                           que se pronuncia sobre una medida cautelar se dicta en audiencia.
+**Concordancias Legales:** artículo 67 de la LTF; artículo 67; artículo 8; Ley Nº 19.620
+
+El artículo 67 de la LTF, en sus numerales 3, 4 y 5, estipula que el
                                            recurso de apelación siempre debe interponerse por escrito, porque
                                            emplea la forma verbal “deberá”, incluso si la sentencia o resolución
                                            que se pronuncia sobre una medida cautelar se dicta en audiencia.
@@ -3203,19 +3263,23 @@ Juez(a) de familia                                                           soc
 
 ## 1. No es necesaria la comparecencia ante la Corte de Apelaciones
 
-                                              respectiva.
+**Definición Canónica:** respectiva.
                                            2. La parte apelante se entiende citada por el sólo ministerio de la ley.
                                            3. Se conoce previa relación pública.
 
-## 4. Los abogados pueden dividir su tiempo de alegato, para replicar
-
-                                              a la contraria.
-                                           5. Luego de la vista de la causa, se procederá a su fallo.
-
+respectiva.
+                                           2. La parte apelante se entiende citada por el sólo ministerio de la ley.
+                                           3. Se conoce previa relación pública.
 
 ## 1.4.3.4 Problemas con la inmediación en segunda instancia
 
-                                           En segunda instancia no se procede a realizar nuevamente el juicio,
+**Definición Canónica:** En segunda instancia no se procede a realizar nuevamente el juicio,
+                                           ni tampoco se escucha la totalidad del audio de la audiencia de juicio,
+                                           dado que la ley establece que hay relación pública, o sea, el relator o
+                                           la relatora procederá a hacer la relación de la sentencia dictada y de
+                                           el o los recursos de apelación deducidos en su contra.
+
+En segunda instancia no se procede a realizar nuevamente el juicio,
                                            ni tampoco se escucha la totalidad del audio de la audiencia de juicio,
                                            dado que la ley establece que hay relación pública, o sea, el relator o
                                            la relatora procederá a hacer la relación de la sentencia dictada y de
@@ -3233,10 +3297,13 @@ Juez(a) de familia                                                              
                                                                                nocimiento directo de los medios de prueba ni las alegaciones de
                                                                                las partes.
 
-
 ## 1.4.3.5 Prueba en segunda instancia
 
-                                                                               De acuerdo al artículo 207 del CPC, aplicable supletoriamente, en
+**Definición Canónica:** De acuerdo al artículo 207 del CPC, aplicable supletoriamente, en
+                                                                               segunda instancia no se admitirá prueba alguna. Por esta razón, algu-
+**Concordancias Legales:** artículo 207 del CPC; artículo 31040; artículos 34841; artículo 15943; artículo 159; artículo 431; artículo 37; artículo 433; artículo 90; Artículo 3 del CPC; Artículo 27
+
+De acuerdo al artículo 207 del CPC, aplicable supletoriamente, en
                                                                                segunda instancia no se admitirá prueba alguna. Por esta razón, algu-
 
                                                                                nos ministros de Corte piensan que no procede la prueba en segunda
@@ -3351,14 +3418,15 @@ Juez(a) de familia                                                        social
 Curso habilitante                                                      1. Fundamentos y objetivos políticos,                                  78
 Juez(a) de familia                                                        sociales y jurídicos de la reforma
 
-
-## 1.4.4 Recurso de casación en la forma44
-
-                                                                         El recurso de casación en la forma es el “acto jurídico procesal de la
-
 ## parte agraviada destinado a obtener del Tribunal superior jerárquico
 
-                                                                         la invalidación de una sentencia, por haber sido pronunciada por el
+**Definición Canónica:** la invalidación de una sentencia, por haber sido pronunciada por el
+                                                                         Tribunal inferior con prescindencia de los requisitos legales o emanar
+                                                                         de un procedimiento viciado al haberse omitido las formalidades
+                                                                         que la ley establece”45.
+**Concordancias Legales:** artículo 770 del CPC; artículo 772 del CPC; Artículo 67; artículo 781; artículo 768; artículo 66; artículo 67 de la Ley N; artículos 764; Ley N° 19.968
+
+la invalidación de una sentencia, por haber sido pronunciada por el
                                                                          Tribunal inferior con prescindencia de los requisitos legales o emanar
                                                                          de un procedimiento viciado al haberse omitido las formalidades
                                                                          que la ley establece”45.
@@ -3478,21 +3546,23 @@ Juez(a) de familia                                                            so
                                                                              Pareciera que la segunda interpretación es la que más se ajusta a
                                                                              los principios de la LTF, especialmente la protección del más débil.
 
-
 ## 1.4.5 Patrocinio en el recurso de casación48
 
-                                                                             Se entenderá cumplida la exigencia de patrocinio de los recursos de
+**Definición Canónica:** Se entenderá cumplida la exigencia de patrocinio de los recursos de
+                                                                             casación prevista en el inciso final del artículo 772 del CPC, por la
+                                                                             sola circunstancia de interponerlos el abogado que patrocine la causa.
+**Concordancias Legales:** artículo 772 del CPC
+
+Se entenderá cumplida la exigencia de patrocinio de los recursos de
                                                                              casación prevista en el inciso final del artículo 772 del CPC, por la
                                                                              sola circunstancia de interponerlos el abogado que patrocine la causa.
 
-
-## 1.4.6 Recurso de casación en el fondo
-
-                                                                             El recurso de casación en el fondo es “un acto jurídico procesal de
-
 ## parte agraviada con determinadas resoluciones judiciales, para obte-
 
-                                                                             ner de la Corte Suprema que las invalide por haberse pronunciado
+**Definición Canónica:** ner de la Corte Suprema que las invalide por haberse pronunciado
+**Concordancias Legales:** artículo 770; artículo 791; artículo 767; artículo 772 del CPC; artículo 782; artículo 32; artículo 67
+
+ner de la Corte Suprema que las invalide por haberse pronunciado
 
                                                                              con una infracción de la ley que ha influido substancialmente en lo
                                                                              dispositivo del fallo, y que las reemplace por otra resolución en que
@@ -3590,10 +3660,15 @@ Juez(a) de familia                                                           soc
                                                                             y, al no proceder el recurso de casación, no existirá un control de la
                                                                             aplicación del derecho.
 
-
 ## 1.4.7 Resoluciones no susceptibles de recurso
 
-                                                                            Las resoluciones respecto de las cuales no proceden recursos son
+**Definición Canónica:** Las resoluciones respecto de las cuales no proceden recursos son
+                                                                            las siguientes:
+                                                                            ——       resoluciones recaídas en incidentes suscitados en audiencia
+                                                                                     previo debate (artículo 26 LTF).
+**Concordancias Legales:** artículo 26; artículo 102; Constitucion
+
+Las resoluciones respecto de las cuales no proceden recursos son
                                                                             las siguientes:
                                                                             ——       resoluciones recaídas en incidentes suscitados en audiencia
                                                                                      previo debate (artículo 26 LTF).
@@ -3613,11 +3688,17 @@ Juez(a) de familia                                                           soc
                                            inmediata de sentencia, pues impide la interposición de todo recurso
                                            contra la sentencia dictada”.
 
-
 ## 1.4.8 Recursos en otras leyes de familia
 
+**Definición Canónica:** Las leyes especiales de familia regulan algunos aspectos particulares
+                                           de los recursos, específicamente en cuanto a la procedencia, plazos
+                                           y formas de interposición. Mención especial requiere el recurso de
+                                           reposición en materia alimentos provisorios:
+                                           ——       El artículo 4 de la Ley Nº 14.908 establece que, junto con
+                                                    proveer la demanda, al admitirla a tramitación, sólo con l
+**Concordancias Legales:** artículo 4 de la Ley Nº 14.908 establece que; Ley Nº 14.908
 
-                                           Las leyes especiales de familia regulan algunos aspectos particulares
+Las leyes especiales de familia regulan algunos aspectos particulares
                                            de los recursos, específicamente en cuanto a la procedencia, plazos
                                            y formas de interposición. Mención especial requiere el recurso de
                                            reposición en materia alimentos provisorios:
@@ -3661,7 +3742,14 @@ Juez(a) de familia                                                             s
 
 ## Parte demandada se opone
 
-                                              conceder apelación
+**Definición Canónica:** conceder apelación
+                                                                          Tribunal puede:                   Vencido el plazo resuelta oposición.
+                                          2. 	Resolver que no pro-
+                                                                                                            Demandante y/o demandada recurren de
+                                              cede aún, sino que hay      1. 	Acoger oposición, total      reposición con apelación subsidiaria
+                                              que esperar al resultado        
+
+conceder apelación
                                                                           Tribunal puede:                   Vencido el plazo resuelta oposición.
                                           2. 	Resolver que no pro-
                                                                                                             Demandante y/o demandada recurren de
@@ -3671,7 +3759,15 @@ Juez(a) de familia                                                             s
 
 ## parte demandada o el        2. 	Rechazar oposición
 
-                                                                                                             1. 	Acoger reposición total
+**Definición Canónica:** 1. 	Acoger reposición total
+                                              vencimiento del plazo       Si es parcial o la rechaza,            o parcialmente. Si es
+                                              (5 días)                    podría la parte demanda-               parcial, debe conceder
+                                                                          da interponer recurso de               el recurso de apelación
+                                                                          reposición con apelación,
+                                                               
+**Concordancias Legales:** artículo 4 de la Ley Nº 14.908; Ley Nº 14.908
+
+1. 	Acoger reposición total
                                               vencimiento del plazo       Si es parcial o la rechaza,            o parcialmente. Si es
                                               (5 días)                    podría la parte demanda-               parcial, debe conceder
                                                                           da interponer recurso de               el recurso de apelación
@@ -3700,7 +3796,15 @@ Juez(a) de familia                                                             s
 
 ## parte, que la Corte, conociendo del recurso de apelación subsidiario
 
-                                           (que procede en el sólo efecto devolutivo), resolviere de determina-
+**Definición Canónica:** (que procede en el sólo efecto devolutivo), resolviere de determina-
+                                           da manera y que por otra el juzgado, conociendo de la oposición,
+                                           resolviera de otra manera. Y nace además, nuevamente, el derecho a
+                                           pedir reposición con apelación subsidiaria, el que si se concede, daría
+                                           lugar a dos apelaciones corriendo de manera semiparalela, porque
+                                           se conceden en etapas distintas del proceso dad
+**Concordancias Legales:** artículo 4 de la Ley Nº 14.908 establece; Ley Nº 14.908
+
+(que procede en el sólo efecto devolutivo), resolviere de determina-
                                            da manera y que por otra el juzgado, conociendo de la oposición,
                                            resolviera de otra manera. Y nace además, nuevamente, el derecho a
                                            pedir reposición con apelación subsidiaria, el que si se concede, daría
@@ -3719,14 +3823,12 @@ Juez(a) de familia                                                             s
                                            ción debe interponerse por escrito (con peticiones concretas y debe
                                            estar fundado), pudiendo darse alternativas distintas:
 
-## 1. Se presenta el recurso de reposición (con fundamentos orales)
-
-                                              en la audiencia y “señala” que interpondrá recurso de apelación
-                                              subsidiario, por escrito y dentro de tercero día.
-
 ## 2. Se “reserva” el derecho de recurrir de reposición, con apelación
 
-                                              subsidiaria, todo por escrito y dentro del plazo legal (tercero día).
+**Definición Canónica:** subsidiaria, todo por escrito y dentro del plazo legal (tercero día).
+**Concordancias Legales:** artículo 67; artículo 5; artículo 2468; artículos 17; artículo 12; artículo 545 del Código; artículos 28; Ley Nº 14.908; Ley N° 19.620
+
+subsidiaria, todo por escrito y dentro del plazo legal (tercero día).
 
                                            Se estima que una u otra alternativa es procedente, pero en uno u
                                            otro caso el recurso de apelación debe interponerse por escrito, según
@@ -3785,10 +3887,11 @@ Juez(a) de familia                                                             s
                                                  los asuntos de familia. También se verá que, en lo no previsto por
                                                  esta ley, se aplica el CPC y el CPP, sólo en ciertos casos.
 
-
 ## 2.1     Etapas de la
 
-                                                 actividad probatoria
+**Definición Canónica:** actividad probatoria
+
+actividad probatoria
 
                                                  La actividad probatoria en el procedimiento oral de familia se de-
 
@@ -3811,18 +3914,14 @@ Juez(a) de familia                                                             s
 
 Curso habilitante                              2. Prueba en materia de familia                                         90
 
-
-## 2.2     Disposiciones generales
-
-                                                 acerca de la prueba
-
-                                                 En este apartado se verán los principios que rigen la materia pro-
-                                                 batoria.
-
-
 ## 2.2.1 Libertad probatoria
 
-                                                 Todos los hechos relevantes para la adecuada resolución del conflicto
+**Definición Canónica:** Todos los hechos relevantes para la adecuada resolución del conflicto
+                                                 familiar pueden ser probados por cualquier medio probatorio pro-
+                                                 ducido en conformidad a la ley, según el artículo 28 LTF.
+**Concordancias Legales:** artículo 28; artículo 22 de la LMC; artículo 170; artículo 28 de la Ley N; artículo 29; Ley N° 19.968
+
+Todos los hechos relevantes para la adecuada resolución del conflicto
                                                  familiar pueden ser probados por cualquier medio probatorio pro-
                                                  ducido en conformidad a la ley, según el artículo 28 LTF.
 
@@ -3876,10 +3975,16 @@ Juez(a) de familia                                                             s
                                                                              nismos acreditados ante este servicio, denominado “de idoneidad”,
                                                                              para acreditar precisamente la idoneidad de los futuros adoptantes.
 
-
 ## 2.2.2 Ofrecimiento de prueba
 
-                                                                             Conforme al artículo 29 LTF, demandante y demandado pueden
+**Definición Canónica:** Conforme al artículo 29 LTF, demandante y demandado pueden
+                                                                             ofrecer todos los medios de prueba de que dispongan, y en el evento
+                                                                             que el medio probatorio no puede ser obtenido o generado por la
+                                                                             propia parte, pueden solicitar al tribunal que disponga su generación
+                                                                             mediante oficios, que son comun
+**Concordancias Legales:** artículo 29; artículo 35 del Código Tributario; DFL 50
+
+Conforme al artículo 29 LTF, demandante y demandado pueden
                                                                              ofrecer todos los medios de prueba de que dispongan, y en el evento
                                                                              que el medio probatorio no puede ser obtenido o generado por la
                                                                              propia parte, pueden solicitar al tribunal que disponga su generación
@@ -3920,10 +4025,16 @@ Juez(a) de familia                                                             s
                                                                               la persona respectiva, para que mande la respuesta oportunamente
                                                                               al tribunal.
 
-
 ## 51   Artículo 154 de la Ley General de Bancos: “Los depósitos y captaciones de cualquiera naturaleza que
 
-                                              perciban los bancos están sujetos a secreto bancario y no podrán proporcionarse antecedentes relativos a
+**Definición Canónica:** perciban los bancos están sujetos a secreto bancario y no podrán proporcionarse antecedentes relativos a
+                                              dichas operaciones sino a su titular o a quien haya sido expresamente autorizado por él o a la persona que lo
+                                              represente legalmente. El que infringiere la norma anterior será sancionado con la pena de reclusión menor en
+                                              sus grados mínimo a medio. Las demás operaciones quedan sujetas a reserva y los bancos solamente podrán
+                                 
+**Concordancias Legales:** artículo 29
+
+perciban los bancos están sujetos a secreto bancario y no podrán proporcionarse antecedentes relativos a
                                               dichas operaciones sino a su titular o a quien haya sido expresamente autorizado por él o a la persona que lo
                                               represente legalmente. El que infringiere la norma anterior será sancionado con la pena de reclusión menor en
                                               sus grados mínimo a medio. Las demás operaciones quedan sujetas a reserva y los bancos solamente podrán
@@ -3961,10 +4072,17 @@ Juez(a) de familia                                                             s
                                                                        constituir prueba para una de las partes en desmedro de la otra.
                                          desmedro de la otra.
 
-
 ## 2.2.2.1 Prueba no solicitada oportunamente
 
-                                                                       El artículo 63 bis inciso primero LTF regula lo que se denomina
+**Definición Canónica:** El artículo 63 bis inciso primero LTF regula lo que se denomina
+                                                                       prueba nueva o prueba no solicitada oportunamente, o sea, que
+                                                                       no se solicitó en la audiencia preparatoria o en la respectiva etapa
+                                                                       procesal. Para ello, la parte que lo solicita deberá justificar alguna de
+                                                                       estas circunstancias:
+                         
+**Concordancias Legales:** artículo 63 bis; artículo 13
+
+El artículo 63 bis inciso primero LTF regula lo que se denomina
                                                                        prueba nueva o prueba no solicitada oportunamente, o sea, que
                                                                        no se solicitó en la audiencia preparatoria o en la respectiva etapa
                                                                        procesal. Para ello, la parte que lo solicita deberá justificar alguna de
@@ -4000,10 +4118,16 @@ Juez(a) de familia                                                             s
                                                                           especialmente en causas de violencia intrafamiliar y/o de protección
                                                                           por vulneración de derechos y en los procedimientos de adopción.
 
-
 ## 2.2.2.2 Prueba sobre prueba
 
-                                                                          A continuación, el inciso segundo del artículo 63 bis de la LTF,
+**Definición Canónica:** A continuación, el inciso segundo del artículo 63 bis de la LTF,
+                                                                          establece que, si con ocasión de una prueba que se rinde, surge
+                                                                          controversia sobre su veracidad, autenticidad o integridad, el tribunal
+                                                                          puede autorizar nueva prueba para tal fin exclusivo, siempre que no
+                                                                          haya sido posible prever su necesid
+**Concordancias Legales:** artículo 63 bis de la LTF; artículo 63 bis de la Ley Nº 14.908 no; Ley Nº 14.908
+
+A continuación, el inciso segundo del artículo 63 bis de la LTF,
                                                                           establece que, si con ocasión de una prueba que se rinde, surge
                                                                           controversia sobre su veracidad, autenticidad o integridad, el tribunal
                                                                           puede autorizar nueva prueba para tal fin exclusivo, siempre que no
@@ -4046,10 +4170,16 @@ Juez(a) de familia                                                             s
                                                                              al juzgador determinar si el medio de prueba cuya veracidad está en
                                                                              cuestión es o no creíble”53.
 
-
 ## 2.2.3 Convenciones probatorias
 
-                                                                             Durante la audiencia preparatoria se podrán celebrar acuerdos
+**Definición Canónica:** Durante la audiencia preparatoria se podrán celebrar acuerdos
+                                                                             probatorios, en virtud de los cuales ciertos hechos, que las partes
+                                                                             convengan, se dan por establecidos en esta audiencia preparatoria
+                                                                             y, en consecuencia, no requieren prueba ni podrán discutirse en la
+                                                                             audiencia de juicio, según el
+**Concordancias Legales:** artículo 30
+
+Durante la audiencia preparatoria se podrán celebrar acuerdos
                                                                              probatorios, en virtud de los cuales ciertos hechos, que las partes
                                                                              convengan, se dan por establecidos en esta audiencia preparatoria
                                                                              y, en consecuencia, no requieren prueba ni podrán discutirse en la
@@ -4089,10 +4219,18 @@ Juez(a) de familia                                                             s
                                            gados, se podría proponer como convención probatoria que tuvieron
                                            una relación de convivencia, de la que nació un hijo X.
 
-
 ## 2.2.4 Exclusión de prueba
 
-                                           Conforme al artículo 31 LTF, no todas las pruebas ofrecidas por las
+**Definición Canónica:** Conforme al artículo 31 LTF, no todas las pruebas ofrecidas por las
+                                           partes son admisibles para el juicio, ya que luego del ofrecimiento o
+                                           durante este, el tribunal puede excluirlas por las siguientes razones:
+                                           a. Es manifiestamente impertinente, esto es, no dice relación con
+                                              los hechos a probar;
+                                           b. Está destinada a acreditar hechos públicos y notorios, como por
+                   
+**Concordancias Legales:** artículo 31; artículo 19 de la Constitución Política de la; Constitución Política; constitucion
+
+Conforme al artículo 31 LTF, no todas las pruebas ofrecidas por las
                                            partes son admisibles para el juicio, ya que luego del ofrecimiento o
                                            durante este, el tribunal puede excluirlas por las siguientes razones:
                                            a. Es manifiestamente impertinente, esto es, no dice relación con
@@ -4135,10 +4273,12 @@ Juez(a) de familia                                                             s
                                                                              se presentan inconvenientes con el propuesto, se proponen peritos
                                                                              alternos.
 
-
 ## 2.2.5 Valoración de acuerdo a las
 
-                                                                             reglas de la sana crítica
+**Definición Canónica:** reglas de la sana crítica
+**Concordancias Legales:** artículo 32 de la LTF; constitucion
+
+reglas de la sana crítica
 
                                                                                                                 a) Principios de la lógica
 
@@ -4268,10 +4408,12 @@ Juez(a) de familia                                                             s
 
 Curso habilitante                              2. Prueba en materia de familia                                        101
 
-
 ## 2.3     Los medios
 
-                                                 de prueba
+**Definición Canónica:** de prueba
+**Concordancias Legales:** artículo 33; Ley Nº 19.968
+
+de prueba
 
                                                  Sin perjuicio de que existe libertad probatoria en materia de familia,
                                                  lo cierto es que la LTF regula los medios de prueba más conocidos
@@ -4279,10 +4421,12 @@ Juez(a) de familia                                                             s
                                                  ciertas modificaciones de acuerdo a este procedimiento oral, que se
                                                  encuentran desde la norma del artículo 33 al 54 de la Ley Nº 19.968.
 
-
 ## 2.3.1 Prueba testimonial
 
-                                                 La prueba testimonial está constituida por la declaración que realizan
+**Definición Canónica:** La prueba testimonial está constituida por la declaración que realizan
+**Concordancias Legales:** artículo 37; artículo 44; artículo 34; artículo 240
+
+La prueba testimonial está constituida por la declaración que realizan
 
                                                  ciertas personas que tienen la calidad de terceros ajenos al pleito,
                                                  denominados testigos.
@@ -4335,10 +4479,17 @@ Juez(a) de familia                                                             s
                                            que las preguntas sean incriminatorias (para él o su familia) y respecto
                                            de los menores de edad, que no prestan juramento.
 
-
 ## 2.3.2 Producción de la prueba testimonial
 
-                                           Los testigos asistentes y que tengan obligación de declarar deberán
+**Definición Canónica:** Los testigos asistentes y que tengan obligación de declarar deberán
+                                           prestar un juramento o promesa de decir verdad, sin ocultar nada
+                                           para el esclarecimiento de los hechos, salvo los testigos menores de
+                                           edad y los testigos que pueden declarar mediante informe escrito si
+                                           así lo estimaren, o incluso pueden no declarar, conforme al artículo
+                                           36 inciso final de la LTF.
+**Concordancias Legales:** artículo 36; artículo 33 de la LTF señala que no hay testigos inhábiles; artículo 41 de la LTF; artículo 64 de la LTF; artículo 51; artículo 330 del Código; artículo 42 de la LTF
+
+Los testigos asistentes y que tengan obligación de declarar deberán
                                            prestar un juramento o promesa de decir verdad, sin ocultar nada
                                            para el esclarecimiento de los hechos, salvo los testigos menores de
                                            edad y los testigos que pueden declarar mediante informe escrito si
@@ -4407,10 +4558,12 @@ Juez(a) de familia                                                             s
                                                                               de 18 años de edad, quien prestará juramento de desempeñar y
                                                                               fielmente el cargo.
 
-
 ## 2.3.3 Prueba pericial
 
-                                                                              Este medio de prueba, que se encuentra regulado desde el artículo
+**Definición Canónica:** Este medio de prueba, que se encuentra regulado desde el artículo
+**Concordancias Legales:** artículo 45; artículo 46; artículo 315 del Código Procesal Penal.59; Artículo 315; artículos 45; artículo 47 de la LTF; artículo 64
+
+Este medio de prueba, que se encuentra regulado desde el artículo
 
                                                                               45 al 49 LTF, procederá, en general, siempre que para apreciar algún
                                                                               hecho o circunstancia relevante sean necesarios los conocimientos
@@ -4609,10 +4762,13 @@ Juez(a) de familia                                                             s
                                                                              que lo solicitó, mediante su lectura, que puede ser resumida si no se
                                                                              opone la parte contraria.
 
-
 ## 2.3.4 Declaración de partes
 
-                                                                             Se encuentra regulada en los artículos 50 a 53 de la LTF, indicando
+**Definición Canónica:** Se encuentra regulada en los artículos 50 a 53 de la LTF, indicando
+                                                                             que cada parte puede solicitar al juez la declaración de las demás,
+**Concordancias Legales:** artículos 50; artículo 330 del Código Procesal Penal establece reglas sobre; artículo 53; artículo 52; artículo 52 de la LTF
+
+Se encuentra regulada en los artículos 50 a 53 de la LTF, indicando
                                                                              que cada parte puede solicitar al juez la declaración de las demás,
 
                                                                              sobre hechos y circunstancias de la causa, y que digan relación con
@@ -4667,7 +4823,14 @@ Juez(a) de familia                                                             s
 
 ## parte debidamente citada y con el único objeto de hacer procedente
 
-                                           la sanción anterior, que la parte que solicite la declaración deberá
+**Definición Canónica:** la sanción anterior, que la parte que solicite la declaración deberá
+                                           presentar un pliego de preguntas por escrito, en un sobre cerrado, al
+                                           menos dos días antes de la audiencia de juicio. Las preguntas deben
+                                           formularse en forma asertiva, como un símil de la confesional en
+                                           los juzgados civiles.
+**Concordancias Legales:** artículos 51; artículo 52
+
+la sanción anterior, que la parte que solicite la declaración deberá
                                            presentar un pliego de preguntas por escrito, en un sobre cerrado, al
                                            menos dos días antes de la audiencia de juicio. Las preguntas deben
                                            formularse en forma asertiva, como un símil de la confesional en
@@ -4693,10 +4856,16 @@ Juez(a) de familia                                                             s
                                            sin sujeción a este listado de preguntas, quedando a criterio de quien
                                            interroga si las usa como guía, pero no es obligatorio.
 
-
 ## 2.3.5 Medios de prueba no regulados expresamente
 
-                                           Dentro de los medios de prueba no regulados expresamente se en-
+**Definición Canónica:** Dentro de los medios de prueba no regulados expresamente se en-
+                                           cuentra, a modo enunciativo, en el artículo 54 de la LTF, las películas
+                                           cinematográficas, fotografías, fonografías, videograbaciones, otros
+                                           sistemas de reproducción de imagen o sonido, versiones taquigráficas,
+                                           y en general cualquier medio apto para producir fe.
+**Concordancias Legales:** artículo 54 de la LTF; artículo 64 de la LTF
+
+Dentro de los medios de prueba no regulados expresamente se en-
                                            cuentra, a modo enunciativo, en el artículo 54 de la LTF, las películas
                                            cinematográficas, fotografías, fonografías, videograbaciones, otros
                                            sistemas de reproducción de imagen o sonido, versiones taquigráficas,
@@ -4726,19 +4895,31 @@ Juez(a) de familia                                                             s
                                            nece a quien se dice: debe ser exhibido a algún testigo o parte que
                                            declare para ser reconocido y adquirir contenido.
 
-
 ## 2.3.6 Valoración de la prueba
 
-                                           Como se sabe, esta valoración se realiza por el tribunal conforme
+**Definición Canónica:** Como se sabe, esta valoración se realiza por el tribunal conforme
                                            a las reglas de la sana crítica, ya analizadas, y su ponderación será
                                            plasmada en la sentencia que resuelve la controversia entre las par-
                                            tes, señalando detalladamente los hechos que estimó probados y el
                                            derecho que a tales hechos le adjudica.
 
+Como se sabe, esta valoración se realiza por el tribunal conforme
+                                           a las reglas de la sana crítica, ya analizadas, y su ponderación será
+                                           plasmada en la sentencia que resuelve la controversia entre las par-
+                                           tes, señalando detalladamente los hechos que estimó probados y el
+                                           derecho que a tales hechos le adjudica.
 
 ## 2.3.6.1 El juez y los hechos
 
-                                           El o la juez no conoce directamente los hechos sino la forma como
+**Definición Canónica:** El o la juez no conoce directamente los hechos sino la forma como
+                                           los abogados los presentan, organizados de la manera que más les
+                                           conviene. Es con los medios de prueba que el juez adquiere convicción
+                                           y determina los hechos que estima acreditados, lo que constituye una
+                                           “premisa fáctica ineludible”. El juez debe:
+                                           “1. Elaborar un resumen de las actuaciones realizadas en el proceso,
+  
+
+El o la juez no conoce directamente los hechos sino la forma como
                                            los abogados los presentan, organizados de la manera que más les
                                            conviene. Es con los medios de prueba que el juez adquiere convicción
                                            y determina los hechos que estima acreditados, lo que constituye una
@@ -4747,17 +4928,25 @@ Juez(a) de familia                                                             s
                                            con especial referencia a los hechos expuestos por las partes y a los
                                            puntos controvertidos.
 
-
 ## 2. Señalar, de ser el caso, las afirmaciones realizadas por una parte
 
-                                           y admitida por la otra; los hechos imposibles, notorios o de pública
+**Definición Canónica:** y admitida por la otra; los hechos imposibles, notorios o de pública
                                            evidencia, así como los hechos que son materia de ficciones legales, en
                                            la medida que se encuentran exceptuados de la actividad probatoria.
 
+y admitida por la otra; los hechos imposibles, notorios o de pública
+                                           evidencia, así como los hechos que son materia de ficciones legales, en
+                                           la medida que se encuentran exceptuados de la actividad probatoria.
 
 ## 3. En lo que atañe a los hechos controvertidos, detallar los medios
 
-                                           probatorios ofrecidos, admitidos y actuados, estableciendo el resultado
+**Definición Canónica:** probatorios ofrecidos, admitidos y actuados, estableciendo el resultado
+                                           que se desprende de cada una de las pruebas, pues muchas veces,
+                                           las partes presentan el mismo medio probatorio, pero otorgándole
+                                           distinto significado, o bien se hace necesario despejar las dudas en
+                                           cuanto a la eficacia de una prueba.
+
+probatorios ofrecidos, admitidos y actuados, estableciendo el resultado
                                            que se desprende de cada una de las pruebas, pues muchas veces,
                                            las partes presentan el mismo medio probatorio, pero otorgándole
                                            distinto significado, o bien se hace necesario despejar las dudas en
@@ -4776,16 +4965,11 @@ Juez(a) de familia                                                             s
                                                                                 por las cuales concede credibilidad a una fuente de prueba y se la
                                                                                 niega a otra.
 
-
-## 5. Por último, el juez –previa calificación jurídica de los hechos pro-
-
-                                                                                bados– debe justificar jurídicamente su resolución, en coherencia
-                                                                                con la parte decisoria de la misma”66.
-
-
 ## 2.3.6.2 El juez y el derecho
 
-                                                                                El juez debe tener a la vista los hechos al momento de aplicar el
+**Definición Canónica:** El juez debe tener a la vista los hechos al momento de aplicar el
+
+El juez debe tener a la vista los hechos al momento de aplicar el
 
                                                                                 derecho, manteniendo sólo los jurídicamente importantes, usando la
                                                                                 norma como marco conceptual, debiendo elegir la norma pertinente
@@ -4812,10 +4996,15 @@ Juez(a) de familia                                                             s
 
 Curso habilitante                                                       2. Prueba en materia de familia                                          114
 
-
 ## 2.3.6.3 Errores de razonamiento
 
-                                                                          Según Couture68, existen principios de la lógica que nunca podrían
+**Definición Canónica:** Según Couture68, existen principios de la lógica que nunca podrían
+                                                                          ser desatendidos por el tribunal, señalando que nadie podría dudar
+                                                                          del error lógico del razonamiento del juez que en una sentencia dijera
+                                                                          que los testigos declaran que presenciaron un préstamo en mone-
+                                                                          das de oro; como las monedas de oro
+
+Según Couture68, existen principios de la lógica que nunca podrían
                                                                           ser desatendidos por el tribunal, señalando que nadie podría dudar
                                                                           del error lógico del razonamiento del juez que en una sentencia dijera
                                                                           que los testigos declaran que presenciaron un préstamo en mone-
@@ -4854,10 +5043,15 @@ Juez(a) de familia                                                             s
 
 Curso habilitante                                                         2. Prueba en materia de familia                                      115
 
-
 ## 2.3.6.4 Requisitos de la fundamentación
 
-                                                                            Couture expresó que los fundamentos son el “conjunto de motivos,
+**Definición Canónica:** Couture expresó que los fundamentos son el “conjunto de motivos,
+                                                                            razones o argumentos de hecho y especialmente de derecho en que
+                                                                            se apoya una decisión judicial”70. La fundamentación debe explicitarse
+                                                                            y, como ejemplos de falta de fundamentación, caben mencionarse71:
+                                                                            a. Motivación por remisión: el
+
+Couture expresó que los fundamentos son el “conjunto de motivos,
                                                                             razones o argumentos de hecho y especialmente de derecho en que
                                                                             se apoya una decisión judicial”70. La fundamentación debe explicitarse
                                                                             y, como ejemplos de falta de fundamentación, caben mencionarse71:
@@ -4875,10 +5069,12 @@ Juez(a) de familia                                                             s
                                                                             e. Claridad de la fundamentación: esta debe ser comprensible para
                                                                                el destinatario.
 
-
 ## 70   COUTURE (1956), p. 280
 
-                                         71   CASTILLO et al. (2006), pp. 450-464.
+**Definición Canónica:** 71   CASTILLO et al. (2006), pp. 450-464.
+**Concordancias Legales:** artículos 2446; artículos 334; artículo 2451; artículo 2460
+
+71   CASTILLO et al. (2006), pp. 450-464.
 
                                          Sistemas alternativos
                                            de resolución de
@@ -4958,11 +5154,16 @@ Juez(a) de familia                                                      resoluci
                                                                       un acuerdo de las partes. Se distingue de la conciliación en que no se
                                                                       hace ante el juez ni este tiene en él el papel de amigable componedor”76.
 
-
 ## 3.1     Conciliación
 
+**Definición Canónica:** La conciliación es “la actividad desplegada ante un tercero por las
+                                                                      partes de un conflicto de intereses, dirigida a lograr una composición
+                                                                      justa del mismo”. Está regulada en el Título II del Libro I del CPC,
+                                                                      que ofrece algunas reglas sobre cómo proceder:
+                                                                      a. Sólo son conciliables aquellas materias respecto de las cuales
+**Concordancias Legales:** Ley Nº 19.968
 
-                                                                      La conciliación es “la actividad desplegada ante un tercero por las
+La conciliación es “la actividad desplegada ante un tercero por las
                                                                       partes de un conflicto de intereses, dirigida a lograr una composición
                                                                       justa del mismo”. Está regulada en el Título II del Libro I del CPC,
                                                                       que ofrece algunas reglas sobre cómo proceder:
@@ -5007,21 +5208,30 @@ Juez(a) de familia                           resolución de conflictos
 
 ## 1. Artículo 5 letra c), en virtud del cual el consejero técnico debe, a
 
-                                              requerimiento del juez, aconsejar la conciliación entre las partes
+**Definición Canónica:** requerimiento del juez, aconsejar la conciliación entre las partes
+                                              y sugerir los términos en que esta última pudiere llevarse a cabo.
+
+requerimiento del juez, aconsejar la conciliación entre las partes
                                               y sugerir los términos en que esta última pudiere llevarse a cabo.
 
 Curso habilitante                                                       3. Sistemas alternativos de                                                         120
 Juez(a) de familia                                                          resolución de conflictos
 
-
 ## 2. Artículo 10, que establece que la conciliación que pudiere pro-
 
-                                                                             ducirse en las audiencias orales deberá consignarse en extracto,
+**Definición Canónica:** ducirse en las audiencias orales deberá consignarse en extracto,
+                                                                             manteniendo fielmente los términos del acuerdo que contengan.
+
+ducirse en las audiencias orales deberá consignarse en extracto,
                                                                              manteniendo fielmente los términos del acuerdo que contengan.
 
 ## 3. Artículo 61 N° 5, según el cual el tribunal, en la audiencia pre-
 
-                                                                             paratoria, procederá a promover la conciliación total o parcial,
+**Definición Canónica:** paratoria, procederá a promover la conciliación total o parcial,
+                                                                             conforme a las bases que proponga a las partes.
+**Concordancias Legales:** artículo 67 de la LMC establece una conciliación especial para
+
+paratoria, procederá a promover la conciliación total o parcial,
                                                                              conforme a las bases que proponga a las partes.
 
                                                                           Como dice González, “la facultad que tiene el conciliador de sugerir
@@ -5057,11 +5267,15 @@ Juez(a) de familia                                                          reso
 Curso habilitante                                                    3. Sistemas alternativos de                                          121
 Juez(a) de familia                                                       resolución de conflictos
 
-
 ## 3.2     Mediación79
 
+**Definición Canónica:** Según el artículo 103 LTF, la mediación es un “sistema alternativo
+                                                                       de resolución de conflictos en el que un tercero imparcial, sin poder
+                                                                       decisorio, llamado mediador, ayuda a las partes a buscar por sí mismas
+                                                                       una solución al conflicto y sus efectos, mediante acuerdos”.
+**Concordancias Legales:** artículo 103
 
-                                                                       Según el artículo 103 LTF, la mediación es un “sistema alternativo
+Según el artículo 103 LTF, la mediación es un “sistema alternativo
                                                                        de resolución de conflictos en el que un tercero imparcial, sin poder
                                                                        decisorio, llamado mediador, ayuda a las partes a buscar por sí mismas
                                                                        una solución al conflicto y sus efectos, mediante acuerdos”.
@@ -5070,10 +5284,12 @@ Juez(a) de familia                                                       resoluc
 
                                                                        Mediación familiar. Ministerio de Justicia y DDHH.
 
-
 ## 3.2.1 Principios rectores
 
-                                                                       El artículo 105 de la LTF señala los principios que rigen la mediación:
+**Definición Canónica:** El artículo 105 de la LTF señala los principios que rigen la mediación:
+**Concordancias Legales:** artículo 105 de la LTF señala los principios que rigen la mediac; artículo 247 del Código Penal. Nada de lo dicho por cualquiera; artículo 106; artículo 106 de la LTF; artículo 96 de la LTF; Constitucion
+
+El artículo 105 de la LTF señala los principios que rigen la mediación:
 
                                                                        a. Igualdad: El mediador debe verificar que los participantes se
                                                                           encuentren en igualdad de condiciones para adoptar acuerdos.
@@ -5196,10 +5412,14 @@ Juez(a) de familia                           resolución de conflictos
                                            al estado civil (incluida la adopción) y las que se refieren al maltrato,
                                            por su importancia para la sociedad.
 
-
 ## 3.2.3 Procedimiento de derivación
 
-                                           Cuando se trate de materias de mediación previa, las partes de común
+**Definición Canónica:** Cuando se trate de materias de mediación previa, las partes de común
+                                           acuerdo eligen de entre los mediadores contratados, y lo comunicarán
+                                           al tribunal mediante una presentación que contenga la individuali-
+                                           zación de los involucrados y las materias incluidas.
+
+Cuando se trate de materias de mediación previa, las partes de común
                                            acuerdo eligen de entre los mediadores contratados, y lo comunicarán
                                            al tribunal mediante una presentación que contenga la individuali-
                                            zación de los involucrados y las materias incluidas.
@@ -5239,10 +5459,14 @@ Juez(a) de familia                           resolución de conflictos
                                            por la vía más expedita posible su designación, la individualización
                                            de las partes y las materias sobre las que versa el conflicto.
 
-
 ## 3.2.4 Desarrollo de la mediación
 
-                                           El mediador designado fijará una sesión inicial de mediación, a la
+**Definición Canónica:** El mediador designado fijará una sesión inicial de mediación, a la
+                                           que citará, conjunta o separadamente, a los adultos involucrados en
+                                           el conflicto, quienes deberán concurrir personalmente, sin perjuicio
+                                           de la comparecencia de sus abogados.
+
+El mediador designado fijará una sesión inicial de mediación, a la
                                            que citará, conjunta o separadamente, a los adultos involucrados en
                                            el conflicto, quienes deberán concurrir personalmente, sin perjuicio
                                            de la comparecencia de sus abogados.
@@ -5286,27 +5510,29 @@ Juez(a) de familia                           resolución de conflictos
                                            c. En general, en cualquier momento en que el mediador adquiera
                                               la convicción de que no se alcanzará acuerdo.
 
-
 ## 3.2.6 Actas de mediación
 
-                                           Como se dijo, si se llega a acuerdo se debe levantar acta, la que deberá
+**Definición Canónica:** Como se dijo, si se llega a acuerdo se debe levantar acta, la que deberá
+                                           cumplir ciertos requisitos particulares, dependiendo de la materia
+                                           de que se trata:
+                                           a. Alimentos (artículos 11 LPA, 334, 335 y 2451 CC)
+                                                1. Fecha de pago de la pensión.
+                                                2. Lugar de pago de la pensión.
+**Concordancias Legales:** artículos 11
+
+Como se dijo, si se llega a acuerdo se debe levantar acta, la que deberá
                                            cumplir ciertos requisitos particulares, dependiendo de la materia
                                            de que se trata:
                                            a. Alimentos (artículos 11 LPA, 334, 335 y 2451 CC)
                                                 1. Fecha de pago de la pensión.
                                                 2. Lugar de pago de la pensión.
 
-## 3. El monto acordado no inferior al 40% o 30% IMMR (artículo
-
-                                                   3 de la LPA).
-
-## 4. No se venda, ceda, renuncie o transmita por causa de muerte
-
-                                                   el derecho a pedirlos.
-
 ## 5. No se compense lo que el alimentante debe al representante
 
-                                                   del alimentario (madre).
+**Definición Canónica:** del alimentario (madre).
+**Concordancias Legales:** artículos 229
+
+del alimentario (madre).
 
 Curso habilitante                        3. Sistemas alternativos de                                             127
 Juez(a) de familia                           resolución de conflictos
@@ -5315,34 +5541,27 @@ Juez(a) de familia                           resolución de conflictos
                                               la CDN)
                                                 1. Regla general: las visitas proceden siempre con el padre.
 
-## 2. Se establecen con la frecuencia y libertad que acuerden las
-
-                                                   partes.
-
-## 3. No proceden si manifiestamente perjudican el bienestar del
-
-                                                   hijo (requiere resolución fundada).
-
 ## 4. No proceden ni con padre ni con madre si es contrario al
 
-                                                   interés superior del NNA.
+**Definición Canónica:** interés superior del NNA.
+**Concordancias Legales:** artículos 106
+
+interés superior del NNA.
 
                                            c. Acuerdo en divorcio (artículos 106 LTF, 21, 55 y 67 LMC)
                                                 1. No procede sobre el estado civil mismo (divorcio o nulidad).
 
-## 2. Las causas de alimentos, cuidado personal y relación directa y
-
-                                                   regular, aun cuando se deban tratar en el marco de una acción
-                                                   de divorcio, deben someterse obligatoriamente a mediación.
-
-## 3. Pueden someterse a mediación las otras materias del artículo
-
-                                                   67 de la LMC: alimentos mayores, patria potestad, liquidación
-                                                   de los bienes y compensación económica.
-
 ## 4. Los acuerdos deben respetar los derechos conferidos por las
 
-                                                   leyes que tengan el carácter de irrenunciables.
+**Definición Canónica:** leyes que tengan el carácter de irrenunciables.
+                                                5. El juez debe verificar que el acuerdo sea “suficiente” y lo es si:
+                                                     ——       resguarda el interés superior de los hijos
+                                                     ——       procura aminorar el menoscabo económico que pudo
+                                                              causar la ruptura, y
+                                                     ——       establece relaciones equitativas hacia el futuro entre
+                  
+
+leyes que tengan el carácter de irrenunciables.
                                                 5. El juez debe verificar que el acuerdo sea “suficiente” y lo es si:
                                                      ——       resguarda el interés superior de los hijos
                                                      ——       procura aminorar el menoscabo económico que pudo
@@ -5420,11 +5639,13 @@ Juez(a) de familia                                                              
 Curso habilitante                                                           4. Organización y administración                                    131
 Juez(a) de familia                                                              de los Tribunales de Familia
 
-
 ## 4.1           Jueces
 
+**Definición Canónica:** Se regulan por la Ley Nº 19.968 (LTF) y, en lo no resuelto por esta,
+                                                                              quedan sujetos a las disposiciones del COT y leyes complementarias.
+**Concordancias Legales:** Ley Nº 19.968; Constitucion
 
-                                                                              Se regulan por la Ley Nº 19.968 (LTF) y, en lo no resuelto por esta,
+Se regulan por la Ley Nº 19.968 (LTF) y, en lo no resuelto por esta,
                                                                               quedan sujetos a las disposiciones del COT y leyes complementarias.
 
                                                                               Se aplican, en cuanto resulten compatibles, las normas del COT
@@ -5444,10 +5665,12 @@ Juez(a) de familia                                                              
                                                                               Constitucional, en causa rol Nº 2961-1684, aclaró que las actas tienen
                                                                               naturaleza jurídica de auto acordado.
 
-
 ## 4.2           Comité de
 
-                                                                              jueces85
+**Definición Canónica:** jueces85
+**Concordancias Legales:** Artículo 23; artículo 9; Constitucion
+
+jueces85
 
                                                                               El nivel superior de decisión está a cargo de un comité de jueces,
                                                                               integrado por un número variable de 3 a 5 jueces y presidido por el
@@ -5478,10 +5701,12 @@ Juez(a) de familia                                                     de los Tr
                                                                        tablecidas en virtud del principio de responsabilidad, especialmente
                                                                        en la confección y aprobación oportuna del Plan Anual de Trabajo”.
 
-
 ## 4.3   Juez o jueza
 
-                                                                       presidente86
+**Definición Canónica:** presidente86
+**Concordancias Legales:** artículos 15; Artículo 24
+
+presidente86
 
                                                                        Le corresponderá velar por el adecuado funcionamiento del tribunal
                                                                        con los siguientes deberes y atribuciones:
@@ -5521,42 +5746,20 @@ Juez(a) de familia                                                     de los Tr
 
                                            Según el Acta 71-2016, las funciones del juez o jueza presidente son:
 
-## 1. Aprobar el Plan Anual de Trabajo que le presente el administrador
-
-                                              en los plazos fijados en este auto acordado.
-
-## 2. Revisar y evaluar con la periodicidad definida en el Plan el resul-
-
-                                              tado operativo y de gestión del tribunal.
-
-## 3. Resolver con prontitud las propuestas del administrador para
-
-                                              subsanar las deficiencias que se observen.
-
-## 4. Citar al comité de jueces en aquellas ocasiones en que sea necesa-
-
-                                              rio que resolver cuestiones propias de la competencia del comité.
-
-## 5. Responder del cumplimiento de las metas de gestión anual, en
-
-                                              conjunto con el administrador del tribunal.
-
 ## 6. Presentar oportunamente al comité de jueces la propuesta del
 
-                                              procedimiento objetivo y general de distribución de causas.
+**Definición Canónica:** procedimiento objetivo y general de distribución de causas.
+
+procedimiento objetivo y general de distribución de causas.
 
 Curso habilitante                                                         4. Organización y administración                                    134
 Juez(a) de familia                                                            de los Tribunales de Familia
 
-
-## 7. Resolver conflictos entre los jueces sobre la aplicación del
-
-                                                                               procedimiento objetivo y general de distribución de causas y la
-                                                                               aplicación del Plan Anual de Trabajo.
-
 ## 8. Desempeñar las demás funciones legales y administrativas que
 
-                                                                               le correspondan.
+**Definición Canónica:** le correspondan.
+
+le correspondan.
 
                                                                             El o la juez presidente podrá proponer al comité de jueces, a través
                                                                             del procedimiento objetivo y general de distribución de causas, una
@@ -5572,20 +5775,26 @@ Juez(a) de familia                                                            de
                                                                             dos jueces desempeñará la presidencia por un año, comenzando por
                                                                             el más antiguo de la categoría.
 
-
 ## 4.4          Consejo
 
-                                                                            técnico87
+**Definición Canónica:** técnico87
+**Concordancias Legales:** artículo 457 del COT; artículo 5 de la LTF y en el Acta 93
+
+técnico87
 
                                                                             Los consejeros técnicos son auxiliares de la administración de justi-
                                                                             cia cuya función es asesorar individual o colectivamente a los jueces
                                                                             de familia conforme al artículo 457 del COT, con las atribuciones
                                                                             señaladas en el artículo 5 de la LTF y en el Acta 93-200588.
 
-
 ## 4.4.1 Composición
 
-                                                                            En cada juzgado de familia habrá un consejo técnico interdisciplinario
+**Definición Canónica:** En cada juzgado de familia habrá un consejo técnico interdisciplinario
+                                                                            integrado por profesionales especializados en asuntos de familia e
+                                                                            infancia. El consejo técnico se compone de profesionales que deben89:
+**Concordancias Legales:** Artículo 6; Artículo 81; Artículo 7
+
+En cada juzgado de familia habrá un consejo técnico interdisciplinario
                                                                             integrado por profesionales especializados en asuntos de familia e
                                                                             infancia. El consejo técnico se compone de profesionales que deben89:
 
@@ -5604,10 +5813,12 @@ Juez(a) de familia                                                            de
                                               reconocido prestigio que desarrollen docencia, capacitación o
                                               investigación en dichas materias.
 
-
 ## 4.4.2 Roles
 
-                                           Según la LTF, su función primordial es asesorar individual o colectiva-
+**Definición Canónica:** Según la LTF, su función primordial es asesorar individual o colectiva-
+**Concordancias Legales:** artículo 63; artículo 7 de la LVIF; artículo 4
+
+Según la LTF, su función primordial es asesorar individual o colectiva-
 
                                            mente a los jueces en el análisis y mejor comprensión de los asuntos
                                            sometidos a su conocimiento, en el ámbito de su especialidad. En
@@ -5633,7 +5844,10 @@ Juez(a) de familia                                                            de
 
 ## 1. Practicar personalmente la primera atención, en el caso de de-
 
-                                              mandas orales por violencia intrafamiliar o medidas de protección,
+**Definición Canónica:** mandas orales por violencia intrafamiliar o medidas de protección,
+                                              por requerirse asesoría psicosocial especializada y para evitar la
+
+mandas orales por violencia intrafamiliar o medidas de protección,
                                               por requerirse asesoría psicosocial especializada y para evitar la
 
 Curso habilitante                        4. Organización y administración                                      136
@@ -5645,7 +5859,14 @@ Juez(a) de familia                                                            de
 
 ## 2. Asistencia a salas o a audiencias específicas conforme a la tipología
 
-                                              definida por el comité de jueces. Este último deberá determinar
+**Definición Canónica:** definida por el comité de jueces. Este último deberá determinar
+                                              las audiencias a las que:
+                                               ——       necesariamente deberán asistir
+                                               ——       eventualmente deban hacerlo
+                                               ——       no asistirán, salvo que el o la juez expresa, oportuna y
+**Concordancias Legales:** artículo 78 de la LTF
+
+definida por el comité de jueces. Este último deberá determinar
                                               las audiencias a las que:
                                                ——       necesariamente deberán asistir
                                                ——       eventualmente deban hacerlo
@@ -5688,10 +5909,12 @@ Juez(a) de familia                                                              
                                                                               a un informe o certificación. Las evaluaciones, informes y opiniones
                                                                               deben hacerse con rigor metodológico, científico y técnico.
 
-
 ## 4.4.2.1 Actuaciones con asistencia obligatoria y optativa
 
-                                                                              Existen actuaciones en que el consejero debe asistir necesariamente
+**Definición Canónica:** Existen actuaciones en que el consejero debe asistir necesariamente
+**Concordancias Legales:** Artículo 76; Artículo 96; Artículo 100; Artículo 5; Artículo 4; Artículo 63; Artículo 64; Artículo 73; artículo 7 de la LVIF
+
+Existen actuaciones en que el consejero debe asistir necesariamente
 
                                                                               y otras en que el o la juez decide si asistirá o no.
 
@@ -5743,10 +5966,16 @@ Juez(a) de familia                                                            de
                                                                             ——       Artículo 5 LTF: asesorar al juez en todas las materias relacio-
                                                                                      nadas con su especialidad.
 
-
 ## 4.4.3 Interacción con el tribunal
 
-                                                                            Los profesionales del consejo técnico dependerán administrativamen-
+**Definición Canónica:** Los profesionales del consejo técnico dependerán administrativamen-
+                                                                            te del administrador del tribunal, quien deberá establecer respecto
+                                                                            de ellos procedimientos de trabajo, distribución y asignaciones de
+                                                                            carga u otros aspectos necesarios para el buen servicio y normal
+                                                                            funcionamiento del tribunal.
+**Concordancias Legales:** Artículo 81
+
+Los profesionales del consejo técnico dependerán administrativamen-
                                                                             te del administrador del tribunal, quien deberá establecer respecto
                                                                             de ellos procedimientos de trabajo, distribución y asignaciones de
                                                                             carga u otros aspectos necesarios para el buen servicio y normal
@@ -5767,11 +5996,13 @@ Juez(a) de familia                                                            de
                                                                             Para la elaboración del Plan Anual de Trabajo y en lo que respecta a
                                                                             sus funciones, el consejo técnico será oído a través de su coordinador.92
 
-
 ## 4.5          Administrador93
 
+**Definición Canónica:** Es un funcionario auxiliar de la administración de justicia, encargado
+                                                                            de organizar y controlar la gestión administrativa de los juzgados de
+**Concordancias Legales:** Artículo 82; Artículo 389
 
-                                                                            Es un funcionario auxiliar de la administración de justicia, encargado
+Es un funcionario auxiliar de la administración de justicia, encargado
                                                                             de organizar y controlar la gestión administrativa de los juzgados de
 
                                                                             familia.
@@ -5883,10 +6114,11 @@ Juez(a) de familia                                                de los Tribuna
                                                                 visitador, que puede ordenar la corrección de las anomalías o incon-
                                                                 sistencias que advierta.
 
-
 ## 4.5.1 Unidades administrativas94
 
-                                                                El o la juez presidente, a proposición del administrador, debe aprobar
+**Definición Canónica:** El o la juez presidente, a proposición del administrador, debe aprobar
+
+El o la juez presidente, a proposición del administrador, debe aprobar
 
                                                                 la distribución del personal y la asignación de sus funciones, asegu-
                                                                 rando el debido funcionamiento del tribunal.
@@ -5923,38 +6155,56 @@ Juez(a) de familia                                                de los Tribuna
                                            del juez presidente, según corresponda, y administrativamente del
                                            administrador.
 
-
 ## 4.5.2 Sala
 
-                                           Es la unidad encargada de la organización y asistencia a la realización
+**Definición Canónica:** Es la unidad encargada de la organización y asistencia a la realización
+                                           de las audiencias. Gestiona la agenda, prepara y organiza las audiencias
+                                           mismas y ejecuta las órdenes del juez que dependan del tribunal, por
+
+Es la unidad encargada de la organización y asistencia a la realización
                                            de las audiencias. Gestiona la agenda, prepara y organiza las audiencias
                                            mismas y ejecuta las órdenes del juez que dependan del tribunal, por
 
                                            ejemplo oficiar, notificar, certificar, etcétera.
 
-
 ## 4.5.3 Atención de público y mediación
 
-                                           Es aquella destinada a:
+**Definición Canónica:** Es aquella destinada a:
                                            ——       otorgar una adecuada atención, orientación e información al
                                                     público que concurra al juzgado, especialmente a NNA
                                            ——       manejar la correspondencia del tribunal y
                                            ——       ejecutar las acciones de información y derivación a mediación.
 
+Es aquella destinada a:
+                                           ——       otorgar una adecuada atención, orientación e información al
+                                                    público que concurra al juzgado, especialmente a NNA
+                                           ——       manejar la correspondencia del tribunal y
+                                           ——       ejecutar las acciones de información y derivación a mediación.
 
 ## 4.5.4 Servicio
 
-                                           Sus funciones son:
+**Definición Canónica:** Sus funciones son:
                                            ——       el soporte técnico de la red computacional
                                            ——       llevar la contabilidad
                                            ——       apoyar la actividad administrativa
                                            ——       la coordinación y el abastecimiento de todas las necesidades
                                                     físicas y materiales para la realización de las audiencias.
 
+Sus funciones son:
+                                           ——       el soporte técnico de la red computacional
+                                           ——       llevar la contabilidad
+                                           ——       apoyar la actividad administrativa
+                                           ——       la coordinación y el abastecimiento de todas las necesidades
+                                                    físicas y materiales para la realización de las audiencias.
 
 ## 4.5.5 Administración de causas
 
-                                           Esta unidad se ocupa de:
+**Definición Canónica:** Esta unidad se ocupa de:
+                                           ——       manejo de causas
+                                           ——       registro de los procesos en el juzgado, incluidas las notifica-
+                                                    ciones
+
+Esta unidad se ocupa de:
                                            ——       manejo de causas
                                            ——       registro de los procesos en el juzgado, incluidas las notifica-
                                                     ciones
@@ -5968,10 +6218,14 @@ Juez(a) de familia                                                    de los Tri
                                                                     ——       actualización diaria de la base de datos de causas del juzgado,
                                                                              y de las estadísticas básicas.
 
-
 ## 4.5.5.1 Cumplimiento
 
-                                                                    Esta sección desarrolla las gestiones para la ejecución de las reso-
+**Definición Canónica:** Esta sección desarrolla las gestiones para la ejecución de las reso-
+                                                                    luciones judiciales, particularmente de aquellas que requieren de
+                                                                    cumplimiento sostenido en el tiempo.
+**Concordancias Legales:** Ley Nº 20.286
+
+Esta sección desarrolla las gestiones para la ejecución de las reso-
                                                                     luciones judiciales, particularmente de aquellas que requieren de
                                                                     cumplimiento sostenido en el tiempo.
 
@@ -5995,10 +6249,11 @@ Juez(a) de familia                                                    de los Tri
                                                  un procedimiento distinto en esta ley u otras leyes de familia. En
                                                  este último caso, es de aplicación supletoria de la norma especial.
 
-
 ## 5.1     Etapa de recepción y control de
 
-                                                 admisibilidad de la demanda
+**Definición Canónica:** admisibilidad de la demanda
+
+admisibilidad de la demanda
 
                                                  Primeramente, se debe señalar que cualquier procedimiento de
                                                  familia puede iniciarse mediante la interposición de una demanda,
@@ -6009,10 +6264,16 @@ Juez(a) de familia                                                    de los Tri
                                                  que determinará la activación de este procedimiento, como sucede
                                                  por ejemplo en el proceso de susceptibilidad de adopción.
 
-
 ## 5.1.1 Control de admisibilidad
 
-                                                 El artículo 54-1 de la LTF establece el examen de admisibilidad
+**Definición Canónica:** El artículo 54-1 de la LTF establece el examen de admisibilidad
+                                                 que deberá efectuar uno(a) o más jueces del tribunal, analizando si
+                                                 la demanda, denuncia o requerimiento cumple con los requisitos
+                                                 del artículo 57 de esta misma ley, que se remite al ya antes citado
+                                                 artículo 254 del CPC.
+**Concordancias Legales:** artículo 54; artículo 57; artículo 254 del CPC
+
+El artículo 54-1 de la LTF establece el examen de admisibilidad
                                                  que deberá efectuar uno(a) o más jueces del tribunal, analizando si
                                                  la demanda, denuncia o requerimiento cumple con los requisitos
                                                  del artículo 57 de esta misma ley, que se remite al ya antes citado
@@ -6023,10 +6284,13 @@ Juez(a) de familia                                                    de los Tri
                                                  de los justiciables, razón por la cual se debe equilibrar la necesidad
                                                  de un plazo razonable con el ejercicio de derechos y garantías.
 
-
 ## 5.1.2 Facultades del juez en la etapa de recepción
 
-                                                 Iniciado el procedimiento por demanda oral o escrita, requerimiento
+**Definición Canónica:** Iniciado el procedimiento por demanda oral o escrita, requerimiento
+                                                 o denuncia, el tribunal en esta etapa tiene tres alternativas posibles:
+**Concordancias Legales:** artículo 57 de la LTF
+
+Iniciado el procedimiento por demanda oral o escrita, requerimiento
                                                  o denuncia, el tribunal en esta etapa tiene tres alternativas posibles:
 
 Curso habilitante                                        5. Procedimiento ordinario                                                   147
@@ -6091,10 +6355,17 @@ Juez(a) de familia                                                    de los Tri
                                            problemas donde se demanda a unos, debiendo demandarse a otros,
                                            hermanos, abuelos en materia de alimentos, por ejemplo.
 
-
 ## 5.1.3 Ámbito de aplicación del procedimiento ordinario
 
-                                           Se verá a continuación que este procedimiento ordinario, conjun-
+**Definición Canónica:** Se verá a continuación que este procedimiento ordinario, conjun-
+                                           tamente con los párrafos segundo y tercero del Título III, esto es
+                                           desde los artículos 17 a 54-2 de la LTF, se aplican a todos los asuntos
+                                           que sean de conocimiento de los juzgados de familia. En particular,
+                                           el artículo 55 LTF refiere que se aplica supletoriamente a todos los
+                                           asuntos contenciosos que no tengan previsto 
+**Concordancias Legales:** artículos 17; artículo 55
+
+Se verá a continuación que este procedimiento ordinario, conjun-
                                            tamente con los párrafos segundo y tercero del Título III, esto es
                                            desde los artículos 17 a 54-2 de la LTF, se aplican a todos los asuntos
                                            que sean de conocimiento de los juzgados de familia. En particular,
@@ -6107,10 +6378,17 @@ Juez(a) de familia                                                    de los Tri
                                            no estuvieren modificadas por el procedimiento especial, se aplicarán
                                            las reglas del procedimiento ordinario.
 
-
 ## 5.1.4 Requisitos de admisibilidad de la demanda
 
-                                           La demanda contiene las pretensiones de la parte demandante y sus
+**Definición Canónica:** La demanda contiene las pretensiones de la parte demandante y sus
+                                           peticiones concretas, por lo que debe ser presentadas por escrito al
+                                           tribunal, con excepción de aquellas que, por resolución fundada, el
+                                           tribunal podría autorizar a efectuar de forma oral conforme a la norma
+                                           del artículo 56 de la LTF, como el caso en que en alguna comuna no
+                                           exista número suficiente de abogados y se au
+**Concordancias Legales:** artículo 56 de la LTF; artículo 57 de la LTF; artículo 254 del CPC; artículo 254 del CPC. Curso habilitante; artículo 59 de la LTF
+
+La demanda contiene las pretensiones de la parte demandante y sus
                                            peticiones concretas, por lo que debe ser presentadas por escrito al
                                            tribunal, con excepción de aquellas que, por resolución fundada, el
                                            tribunal podría autorizar a efectuar de forma oral conforme a la norma
@@ -6194,10 +6472,11 @@ Juez(a) de familia                                                    de los Tri
 
 Curso habilitante                                                    5. Procedimiento ordinario                                              151
 
-
 ## 5.2              Esquema del
 
-                                                                       procedimiento
+**Definición Canónica:** procedimiento
+
+procedimiento
 
                                                                        El proceso se puede sistematizar de la siguiente manera:
 
@@ -6210,7 +6489,10 @@ Juez(a) de familia                                                    de los Tri
 
 ## Demanda             citación
 
-                                                                                             En más bre-             En no más     (5 días)
+**Definición Canónica:** En más bre-             En no más     (5 días)
+                                                                                               ve plazo              de 30 días
+
+En más bre-             En no más     (5 días)
                                                                                                ve plazo              de 30 días
 
                                                                  — Contestación
@@ -6222,10 +6504,12 @@ Juez(a) de familia                                                    de los Tri
                                                            Conciliación                               Soluciones
                                                                                                       alternativas
 
-
 ## 5.3              Comparecencia a
 
-                                                                       las audiencias
+**Definición Canónica:** las audiencias
+**Concordancias Legales:** artículo 60 de la LTF. Curso habilitante; artículo 68 de la LMC
+
+las audiencias
 
                                                                        Las partes, demandante y demandada, deben comparecer personal-
                                                                        mente, con patrocinio de abogado habilitado y representadas por
@@ -6258,20 +6542,25 @@ Juez(a) de familia                                                    de los Tri
                                                lo dispone el artículo 68 de la LMC, en que pueden sus apoderados
                                                representarlos en la audiencia.
 
-
 ## 5.4   Audiencia preparatoria
 
-                                               del juicio
+**Definición Canónica:** del juicio
+
+del juicio
 
                                                Esta es la audiencia preliminar del juicio posterior, en que se analizan
                                                las pretensiones de las partes, se resuelven las excepciones de mero
                                                trámite, se efectuará el llamado a conciliación en las materias en
                                                que proceda y, si no hubiere acuerdo, se citará a audiencia de juicio.
 
-
 ## 5.4.1 Constitución del tribunal en
 
-                                               la audiencia preparatoria
+**Definición Canónica:** la audiencia preparatoria
+                                               Llegado el día de la audiencia preparatoria citada, esta se iniciará con
+                                               la presencia esencial del juez que la dirigirá. Eventualmente podrá
+                                               llamarse a un miembro del consejo técnico, para que preste asesoría
+
+la audiencia preparatoria
                                                Llegado el día de la audiencia preparatoria citada, esta se iniciará con
                                                la presencia esencial del juez que la dirigirá. Eventualmente podrá
                                                llamarse a un miembro del consejo técnico, para que preste asesoría
@@ -6286,10 +6575,13 @@ Juez(a) de familia                                                    de los Tri
                                            con las notificaciones decretadas, de manera legal, se dará inicio a la
                                            audiencia con los que se encuentren presentes.
 
-
 ## 5.4.2 Objetivo
 
-                                           Esta audiencia tiene por objetivo despejar la controversia, resol-
+**Definición Canónica:** Esta audiencia tiene por objetivo despejar la controversia, resol-
+                                           viendo las excepciones que corrijan el procedimiento o que sean
+                                           de resolución inmediata, por constar con los antecedentes en la
+
+Esta audiencia tiene por objetivo despejar la controversia, resol-
                                            viendo las excepciones que corrijan el procedimiento o que sean
                                            de resolución inmediata, por constar con los antecedentes en la
 
@@ -6300,16 +6592,15 @@ Juez(a) de familia                                                    de los Tri
                                            juicio de inmediato, si las partes están de acuerdo y son materias de
                                            baja complejidad.
 
-
-## 5.4.3 Desarrollo de la audiencia
-
-                                           Conforme lo dispone el artículo 61 de la LTF, en esta audiencia se
-                                           procederá a:
-
-
 ## 1. Oír la relación breve y sintética, del contenido de la demanda, la
 
-                                              contestación y la reconvención si la hay, y de la contestación de
+**Definición Canónica:** contestación y la reconvención si la hay, y de la contestación de
+                                              la reconvención, si se hizo por escrito. Esto se refiere a que cada
+                                              parte realice un resumen de los hechos contenidos en la demanda,
+                                              en la contestación, reconvencional y contestación escrita, si se
+                                              hubiere contestado por escrito.
+
+contestación y la reconvención si la hay, y de la contestación de
                                               la reconvención, si se hizo por escrito. Esto se refiere a que cada
                                               parte realice un resumen de los hechos contenidos en la demanda,
                                               en la contestación, reconvencional y contestación escrita, si se
@@ -6317,7 +6608,14 @@ Juez(a) de familia                                                    de los Tri
 
 ## 2. Contestar demanda reconvencional oralmente, en su caso, esto
 
-                                              es, si no se hubiere contestado por escrito se contesta en esta
+**Definición Canónica:** es, si no se hubiere contestado por escrito se contesta en esta
+                                              audiencia, de manera oral, por la parte demandante. En esta
+                                              audiencia se deben resolver las excepciones de incompetencia,
+                                              falta de capacidad o de personería, las que se refieren a la co-
+                                              rrección del procedimiento y la de prescripción, siempre que el
+                                              fallo pueda fundarse en antecedentes que consten en el 
+
+es, si no se hubiere contestado por escrito se contesta en esta
                                               audiencia, de manera oral, por la parte demandante. En esta
                                               audiencia se deben resolver las excepciones de incompetencia,
                                               falta de capacidad o de personería, las que se refieren a la co-
@@ -6334,14 +6632,23 @@ Juez(a) de familia                                                    de los Tri
 
 ## 3. Decretar medidas cautelares, de oficio o a petición de parte, sean
 
-                                              innovativas o conservativas, o se resolverá si se mantienen las
+**Definición Canónica:** innovativas o conservativas, o se resolverá si se mantienen las
+                                              ya decretadas, en conformidad al artículo 22, sin perjuicio de lo
+                                              dispuesto en el inciso final del artículo 61 respecto a las medidas
+                                              cautelares en causas por aplicación de medidas de protección.
+**Concordancias Legales:** artículo 22; artículo 61
+
+innovativas o conservativas, o se resolverá si se mantienen las
                                               ya decretadas, en conformidad al artículo 22, sin perjuicio de lo
                                               dispuesto en el inciso final del artículo 61 respecto a las medidas
                                               cautelares en causas por aplicación de medidas de protección.
 
 ## 4. Promover la mediación de oficio o a petición de parte, sólo en las
 
-                                              materias respecto de las que procedería. Por ejemplo, en materia
+**Definición Canónica:** materias respecto de las que procedería. Por ejemplo, en materia
+                                              de filiación no es procedente, mientras que para las materias de
+
+materias respecto de las que procedería. Por ejemplo, en materia
                                               de filiación no es procedente, mientras que para las materias de
 
                                               la ley de matrimonio civil, sólo para la demanda de compensa-
@@ -6350,7 +6657,15 @@ Juez(a) de familia                                                    de los Tri
 
 ## 5. Promover la conciliación total o parcial, conforme a las bases
 
-                                              que se proponga a las partes. Aquí es plenamente aplicable lo
+**Definición Canónica:** que se proponga a las partes. Aquí es plenamente aplicable lo
+                                              que establece el artículo 263 del CPC, aunque se encuentra en
+                                              el Libro Segundo, al no existir más regla en esta LTF, en virtud
+                                              de lo establecido por el artículo 3 de este código, por lo que las
+                                              opiniones que se emitan por el tribunal al presentar las bases y
+                                              promover la conciliación no lo inhabilitan para s
+**Concordancias Legales:** artículo 263 del CPC; artículo 3
+
+que se proponga a las partes. Aquí es plenamente aplicable lo
                                               que establece el artículo 263 del CPC, aunque se encuentra en
                                               el Libro Segundo, al no existir más regla en esta LTF, en virtud
                                               de lo establecido por el artículo 3 de este código, por lo que las
@@ -6360,22 +6675,23 @@ Juez(a) de familia                                                    de los Tri
 
 ## 6. Determinar el objeto del juicio. El objeto del juicio no lo aclara
 
-                                              esta norma, pero se ha entendido como el contenido o la materia
+**Definición Canónica:** esta norma, pero se ha entendido como el contenido o la materia
                                               que se encuentra en la discusión de las partes, por ejemplo, deter-
                                               minar la procedencia y cuantía de los alimentos, la procedencia
                                               de regular un régimen de relación directa y regular, etcétera.
 
-## 7. Fijar los hechos que deben ser probados y las convenciones
-
-                                              probatorias acordadas por las partes.
-
-## 8. Determinar las pruebas que deban rendirse, tanto las propuestas
-
-                                              por las partes como la dispuesta por el tribunal.
+esta norma, pero se ha entendido como el contenido o la materia
+                                              que se encuentra en la discusión de las partes, por ejemplo, deter-
+                                              minar la procedencia y cuantía de los alimentos, la procedencia
+                                              de regular un régimen de relación directa y regular, etcétera.
 
 ## 9. Excepcionalmente, y por motivos justificados, recibir la prueba
 
-                                              que deba rendirse en ese momento. La documental que se rinda
+**Definición Canónica:** que deba rendirse en ese momento. La documental que se rinda
+                                              allí no radica la causa en el o la juez que la reciba.
+**Concordancias Legales:** artículo 59 de la LTF; artículo 68; artículo 71 de la LTF
+
+que deba rendirse en ese momento. La documental que se rinda
                                               allí no radica la causa en el o la juez que la reciba.
 
 Curso habilitante                        5. Procedimiento ordinario                                              155
@@ -6399,10 +6715,17 @@ Juez(a) de familia                                                    de los Tri
                                            hechos para efectos de su acumulación, pudiendo decretar medidas
                                            cautelares del artículo 71 de la LTF.
 
-
 ## 5.4.4 Audiencia de NNA
 
-                                           Eventualmente, en el procedimiento ordinario se podrá escuchar a los
+**Definición Canónica:** Eventualmente, en el procedimiento ordinario se podrá escuchar a los
+                                           NNA a quienes pudiera afectarles este procedimiento, especialmente
+                                           en las materias de cuidado personal y relación directa y regular. Por
+                                           ejemplo, en el evento que en esta audiencia preparatoria se solicitare
+                                           resolver una medida cautelar que les afecte directamente, podría
+                                           previamente determinarse la escucha de algu
+**Concordancias Legales:** artículo 12 de la CDN
+
+Eventualmente, en el procedimiento ordinario se podrá escuchar a los
                                            NNA a quienes pudiera afectarles este procedimiento, especialmente
                                            en las materias de cuidado personal y relación directa y regular. Por
                                            ejemplo, en el evento que en esta audiencia preparatoria se solicitare
@@ -6415,10 +6738,15 @@ Juez(a) de familia                                                    de los Tri
                                            culo 16 de la LTF y en el artículo 12 de la CDN, como se vio en el
                                            apartado respectivo.
 
-
 ## 5.4.5 Contenido de la resolución que cita a juicio
 
-                                           Al término de la audiencia preparatoria, si no se ha producido una
+**Definición Canónica:** Al término de la audiencia preparatoria, si no se ha producido una
+                                           solución alternativa al conflicto, conforme a lo dispuesto por el artí-
+                                           culo 62 de la LTF, el tribunal dictará el auto de apertura de juicio oral,
+                                           la resolución que cita a la audiencia de juicio oral, cuyo contenido
+                                           es el siguiente:
+
+Al término de la audiencia preparatoria, si no se ha producido una
                                            solución alternativa al conflicto, conforme a lo dispuesto por el artí-
                                            culo 62 de la LTF, el tribunal dictará el auto de apertura de juicio oral,
                                            la resolución que cita a la audiencia de juicio oral, cuyo contenido
@@ -6426,30 +6754,34 @@ Juez(a) de familia                                                    de los Tri
 
 Curso habilitante                              5. Procedimiento ordinario                                            156
 
-
 ## 1. La o las demandas que deben ser conocidas en el juicio, la contes-
 
-                                                    tación, la reconvención de haberse interpuesto y su contestación.
+**Definición Canónica:** tación, la reconvención de haberse interpuesto y su contestación.
                                                  2. El objeto del juicio.
                                                  3. Los hechos que deban probarse.
                                                  4. Las convenciones probatorias.
 
-## 5. Pruebas que se rendirán en el juicio oral, sin perjuicio de la prueba
-
-                                                    nueva y de la prueba sobre prueba.
+tación, la reconvención de haberse interpuesto y su contestación.
+                                                 2. El objeto del juicio.
+                                                 3. Los hechos que deban probarse.
+                                                 4. Las convenciones probatorias.
 
 ## 6. La individualización de todos quienes deben ser citados a esa
 
-                                                    audiencia de juicio.
+**Definición Canónica:** audiencia de juicio.
+
+audiencia de juicio.
 
                                                  En la parte final de este trabajo, se incluye como anexo un ejemplo
                                                  de acta de audiencia preparatoria, con las menciones que señala el
                                                  artículo en estudio y un extracto del debate acaecido.
 
-
 ## 5.5     Audiencia de
 
-                                                 juicio oral
+**Definición Canónica:** juicio oral
+**Concordancias Legales:** artículo 262 del CPC
+
+juicio oral
 
                                                  Es la audiencia destinada a la recepción de la prueba ofrecida por
                                                  las partes y la que se hubiere decretado por el tribunal, recibiendo
@@ -6467,19 +6799,29 @@ Juez(a) de familia                                                    de los Tri
 
 Curso habilitante                        5. Procedimiento ordinario                                            157
 
-
 ## 5.5.1 Constitución del tribunal
 
-                                           Llegado el día y hora fijados, con la asistencia de las partes y sus
+**Definición Canónica:** Llegado el día y hora fijados, con la asistencia de las partes y sus
                                            abogados, si corresponde, se constituye el tribunal y eventualmente
                                            podrían estar presentes un miembro del consejo técnico y el curador
                                            ad litem que se hubiere designado para los NNA a quienes pudiere
                                            afectar el juicio.
 
+Llegado el día y hora fijados, con la asistencia de las partes y sus
+                                           abogados, si corresponde, se constituye el tribunal y eventualmente
+                                           podrían estar presentes un miembro del consejo técnico y el curador
+                                           ad litem que se hubiere designado para los NNA a quienes pudiere
+                                           afectar el juicio.
 
 ## 5.5.2 Objetivo
 
-                                           El objetivo principal de esta audiencia es verificar la presencia de
+**Definición Canónica:** El objetivo principal de esta audiencia es verificar la presencia de
+                                           todas las personas que hubieren sido citados a prestar declaración,
+                                           incluyendo, además de las partes, a testigos y peritos, especialmente si
+                                           hubieren sido citados a prestar declaración de parte en conformidad
+**Concordancias Legales:** artículo 52 de la LTF
+
+El objetivo principal de esta audiencia es verificar la presencia de
                                            todas las personas que hubieren sido citados a prestar declaración,
                                            incluyendo, además de las partes, a testigos y peritos, especialmente si
                                            hubieren sido citados a prestar declaración de parte en conformidad
@@ -6489,10 +6831,17 @@ Juez(a) de familia                                                    de los Tri
                                            fidencial o reservada. Recién entonces se verificarán las condiciones
                                            para iniciar el debate y recibir la prueba que deba rendirse en ella.
 
-
 ## 5.5.3 Desarrollo de la audiencia de juicio
 
-                                           Conforme a lo dispuesto por el artículo 63 de la LTF, el que también
+**Definición Canónica:** Conforme a lo dispuesto por el artículo 63 de la LTF, el que también
+                                           es aplicable a la audiencia preparatoria, la audiencia de juicio deberá
+                                           desarrollarse en un sólo acto, pero podrá prolongarse por el número
+                                           de sesiones que sea necesario. Normalmente se alcanza a desarrollar
+                                           el juicio en una sola jornada, pero a veces, cuando la prueba es muy
+                                           extensa, debe continuarse en otra audie
+**Concordancias Legales:** artículo 63 de la LTF
+
+Conforme a lo dispuesto por el artículo 63 de la LTF, el que también
                                            es aplicable a la audiencia preparatoria, la audiencia de juicio deberá
                                            desarrollarse en un sólo acto, pero podrá prolongarse por el número
                                            de sesiones que sea necesario. Normalmente se alcanza a desarrollar
@@ -6501,10 +6850,17 @@ Juez(a) de familia                                                    de los Tri
                                            de inmediato quedando citadas todas las partes, como asimismo los
                                            testigos y peritos que no hubieren declarado.
 
-
 ## 5.5.4 Apertura del juicio oral
 
-                                           Constituido el tribunal en la sala de audiencias, se deberá:
+**Definición Canónica:** Constituido el tribunal en la sala de audiencias, se deberá:
+                                           a. Verificar que estén presentes todas las personas citadas, decla-
+                                              rando iniciado el juicio.
+                                           b. Señalar el objetivo de la audiencia y advertir a las partes que de-
+                                              ben estar atentas a su desarrollo, especialmente cuando asisten
+                                              sin asesoría letrada.
+                                           c. Disponer que testi
+
+Constituido el tribunal en la sala de audiencias, se deberá:
                                            a. Verificar que estén presentes todas las personas citadas, decla-
                                               rando iniciado el juicio.
                                            b. Señalar el objetivo de la audiencia y advertir a las partes que de-
@@ -6526,10 +6882,14 @@ Juez(a) de familia                                                    de los Tri
 
                                            Cumplido lo anterior, se declarará iniciado el debate.
 
-
 ## 5.5.5 Recepción de la prueba
 
-                                           Como se dijo, el objetivo de esta audiencia es la producción de toda
+**Definición Canónica:** Como se dijo, el objetivo de esta audiencia es la producción de toda
+                                           la prueba disponible (de las partes y del tribunal, en su caso) y la
+                                           resolución del caso.
+**Concordancias Legales:** artículo 64 de la LTF establece que la prueba se rin; artículo 63 bis de la LTF
+
+Como se dijo, el objetivo de esta audiencia es la producción de toda
                                            la prueba disponible (de las partes y del tribunal, en su caso) y la
                                            resolución del caso.
 
@@ -6588,10 +6948,11 @@ Juez(a) de familia                                                    de los Tri
                                                miento. Cabe aquí remitir a lo dispuesto por el artículo 63 bis de la
                                                LTF, sobre la prueba nueva y la prueba sobre prueba, ya analizada.
 
-
 ## 5.6   Observaciones
 
-                                               de las partes
+**Definición Canónica:** de las partes
+
+de las partes
 
                                                Después de finalizada la recepción de la prueba, el tribunal podrá
                                                pedir la opinión del miembro del consejo técnico que hubiere sido
@@ -6611,11 +6972,15 @@ Juez(a) de familia                                                    de los Tri
                                            y tendrán derecho a replicar las conclusiones y observaciones de la
                                            parte contraria.
 
-
 ## 5.6.1 Resolución o decisión
 
+**Definición Canónica:** Concluidos los trámites anteriores, toca al tribunal resolver la cuestión
+                                           sometida a su conocimiento. Lo hará comunicando de inmediato su
+                                           resolución o decisión del asunto controvertido, con un fundamento
+                                           somero de los motivos que lo llevan a concluir de una u otra manera,
+                                           esto es, lo que se conoce como “veredicto”.
 
-                                           Concluidos los trámites anteriores, toca al tribunal resolver la cuestión
+Concluidos los trámites anteriores, toca al tribunal resolver la cuestión
                                            sometida a su conocimiento. Lo hará comunicando de inmediato su
                                            resolución o decisión del asunto controvertido, con un fundamento
                                            somero de los motivos que lo llevan a concluir de una u otra manera,
@@ -6634,10 +6999,18 @@ Juez(a) de familia                                                    de los Tri
 
                                            Se debe tratar de ser equitativo, sin transgredir las normas legales.
 
-
 ## 5.6.2 Radicación de la causa en el (la) juez(a)
 
-                                           ante el cual se celebró la audiencia de juicio.
+**Definición Canónica:** ante el cual se celebró la audiencia de juicio.
+                                           Celebración de nueva audiencia.
+                                           De acuerdo a la norma del artículo 66 bis de la LTF, si el o la juez
+                                           ante quien se celebró la audiencia de juicio, habiendo recibido la
+                                           prueba rendida, no pudiera por alguna causa legal (licencia médica
+                                           prolongada, fallecimiento u otra causa justificada) dictar la senten-
+                                
+**Concordancias Legales:** artículo 66 bis de la LTF
+
+ante el cual se celebró la audiencia de juicio.
                                            Celebración de nueva audiencia.
                                            De acuerdo a la norma del artículo 66 bis de la LTF, si el o la juez
                                            ante quien se celebró la audiencia de juicio, habiendo recibido la
@@ -6667,11 +7040,17 @@ Juez(a) de familia                                                    de los Tri
                                                  el corto plazo otra función y no por ello queda eximido de dictar la
                                                  sentencia que tuviere pendiente.
 
-
 ## 5.7     Sentencia
 
+**Definición Canónica:** El artículo 66 de la LTF establece el contenido de la sentencia
+                                                 definitiva, esto es, aquella que pone término al juicio decidiendo
+                                                 la cuestión sometida a su conocimiento. Esta sentencia, como toda
+                                                 sentencia definitiva, debe contener una parte expositiva de los asuntos
+                                                 sometidos a conocimiento del tribunal, consideraciones o motivos
+                                                 del fallo y, finalmen
+**Concordancias Legales:** artículo 66 de la LTF establece el contenido de la sentencia; artículo 55
 
-                                                 El artículo 66 de la LTF establece el contenido de la sentencia
+El artículo 66 de la LTF establece el contenido de la sentencia
                                                  definitiva, esto es, aquella que pone término al juicio decidiendo
                                                  la cuestión sometida a su conocimiento. Esta sentencia, como toda
                                                  sentencia definitiva, debe contener una parte expositiva de los asuntos
@@ -6688,10 +7067,15 @@ Juez(a) de familia                                                    de los Tri
 
 Curso habilitante                        5. Procedimiento ordinario                                             162
 
-
 ## 5.7.1 Requisitos de la parte expositiva
 
-                                           La norma señala con precisión que debe contener el lugar y fecha en
+**Definición Canónica:** La norma señala con precisión que debe contener el lugar y fecha en
+                                           que se dicta, la individualización completa de las partes litigantes, la
+                                           síntesis de los hechos y de las alegaciones de las partes. Esto es lo que
+                                           se denomina parte expositiva de la sentencia, en donde se hace un
+                                           resumen de los hechos de la causa y de las pretensiones de las partes.
+
+La norma señala con precisión que debe contener el lugar y fecha en
                                            que se dicta, la individualización completa de las partes litigantes, la
                                            síntesis de los hechos y de las alegaciones de las partes. Esto es lo que
                                            se denomina parte expositiva de la sentencia, en donde se hace un
@@ -6700,10 +7084,11 @@ Juez(a) de familia                                                    de los Tri
                                            En síntesis, el o la juez deberá: resumir la o las demandas y sus con-
                                            testaciones, la reconvencional y su contestación, si las hay.
 
-
 ## 5.7.2 Requisitos de la parte considerativa
 
-                                           En esta etapa de la sentencia, que normalmente se divide en con-
+**Definición Canónica:** En esta etapa de la sentencia, que normalmente se divide en con-
+
+En esta etapa de la sentencia, que normalmente se divide en con-
 
                                            siderandos o motivos, se deberá analizar (por el o la juez) la prueba
                                            rendida, los hechos que estime probados conforme a la prueba apli-
@@ -6715,10 +7100,16 @@ Juez(a) de familia                                                    de los Tri
                                            prueba rendida y los fundamentos por los cuales resuelve de una u
                                            otra manera.
 
-
 ## 5.7.3 Requisitos de la parte resolutiva
 
-                                           Esta es la parte final de la sentencia, donde el tribunal resuelve la
+**Definición Canónica:** Esta es la parte final de la sentencia, donde el tribunal resuelve la
+                                           cuestión debatida y determina si se acogerá total o parcialmente la
+                                           acción o acciones deducidas, o si se rechazará aquella que, conforme
+                                           al razonamiento y al derecho aplicable y a lo que la doctrina y juris-
+                                           prudencia han dicho, corresponda.
+**Concordancias Legales:** artículos 138; artículo 27 de la LTF son aplicables en esta etapa
+
+Esta es la parte final de la sentencia, donde el tribunal resuelve la
                                            cuestión debatida y determina si se acogerá total o parcialmente la
                                            acción o acciones deducidas, o si se rechazará aquella que, conforme
                                            al razonamiento y al derecho aplicable y a lo que la doctrina y juris-
@@ -6763,7 +7154,12 @@ Juez(a) de familia                                                           vio
 
 ## 10          Audiencia                  Audiencia
 
-                                                                   días                                                            — Responsa-
+**Definición Canónica:** días                                                            — Responsa-
+                                                                              preparatoria                 de juicio
+                                                                                                                                      bilidad
+                                                                                                                                   — Sanción
+
+días                                                            — Responsa-
                                                                               preparatoria                 de juicio
                                                                                                                                       bilidad
                                                                                                                                    — Sanción
@@ -6779,10 +7175,12 @@ Juez(a) de familia                                                           vio
                                                                           miento de la víctima
                                                                           por medio más idóneo
 
-
 ## 6.1       Concepto de
 
-                                                                            violencia
+**Definición Canónica:** violencia
+**Concordancias Legales:** Ley N° 20.066
+
+violencia
 
                                                                             La Ley N° 20.066 o Ley de Violencia Intrafamiliar (LVIF), en su artí-
                                                                             culo 5, define violencia intrafamiliar como “todo maltrato que afecte
@@ -6802,10 +7200,12 @@ Juez(a) de familia                                                            vi
                                                                              de violencia intrafamiliar, al punto que de no existir esta afectación, el
                                                                              acto reprochable en sí mismo no puede ser castigado por esta vía”96.
 
-
 ## 6.1.1 La existencia y tipo de maltrato
 
-                                                                             En primer lugar, se debe decir que a los juzgados de familia corres-
+**Definición Canónica:** En primer lugar, se debe decir que a los juzgados de familia corres-
+**Concordancias Legales:** artículo 6 de la LVIF
+
+En primer lugar, se debe decir que a los juzgados de familia corres-
 
                                                                              ponde el conocimiento de los actos de violencia intrafamiliar que
                                                                              no constituyan delito (artículo 6 de la LVIF).
@@ -6815,22 +7215,13 @@ Juez(a) de familia                                                            vi
 
                                           Violencia Agresión                                                                       Violencia Castigo
 
-
-## Relación               relación
-
-
-## Simétrica              complementaria
-
-                                                                                 (igualdad y            (desigualdad
-                                                                               competencia)             aceptada)
-
-
-## Relación                ausencia de
-
-
 ## Complementaria                 pauta en
 
-                                                                           (desigualdad no              RELACIÓN
+**Definición Canónica:** (desigualdad no              RELACIÓN
+                                         Violencia Castigo                   aceptada por               VIOLENTA                   Violencia Episódica
+                                         con simetría latente                 el sometido)              (crisis)
+
+(desigualdad no              RELACIÓN
                                          Violencia Castigo                   aceptada por               VIOLENTA                   Violencia Episódica
                                          con simetría latente                 el sometido)              (crisis)
 
@@ -6849,33 +7240,33 @@ Juez(a) de familia                                                         viole
 
 ## 2. La decisión judicial significa una intervención donde alguien
 
-                                                                                  que tiene una jerarquía superior, ejerce autoridad y dirime
+**Definición Canónica:** que tiene una jerarquía superior, ejerce autoridad y dirime
                                                                                   la cuestión. Por ello, se requiere un juicio completo con
                                                                                   eventual sanción.
 
-
-## 3. El archivo provisional es la vía si la víctima se retracta de la
-
-                                                                                  denuncia.98
-
-## 4. La violencia es unidireccional e íntima.99
-
-                                                                               5. El castigo se justifica aludiendo a una falta.
-                                                                          b. Simétrica: su contexto es una relación de igualdad.
-
-## 1. No se trata de casos “de” violencia, sino de problemas de
-
-                                                                                  pareja “con” violencia.
+que tiene una jerarquía superior, ejerce autoridad y dirime
+                                                                                  la cuestión. Por ello, se requiere un juicio completo con
+                                                                                  eventual sanción.
 
 ## 2. No existe un patrón de relación de superioridad masculina
 
-                                                                                  vs. una inferioridad femenina, sino una relación de recono-
+**Definición Canónica:** vs. una inferioridad femenina, sino una relación de recono-
+                                                                                  cimiento de la mutua valía de ambos.
+                                                                               3. Por lo mismo, son posibles las soluciones alternativas.
+
+vs. una inferioridad femenina, sino una relación de recono-
                                                                                   cimiento de la mutua valía de ambos.
                                                                                3. Por lo mismo, son posibles las soluciones alternativas.
 
 ## 4. Los actores tienen conciencia de que esta violencia es “bidi-
 
-                                                                                  reccional, recíproca y pública”.
+**Definición Canónica:** reccional, recíproca y pública”.
+                                                                          c. Asimétrica con simetría latente: se da cuando el sujeto que
+                                                                             se encuentra en la posición baja, obligado a sufrir el castigo, se
+                                                                             resiste a pesar de la relación desfavorable de fuerzas.
+                                                                               1. El agredido se transforma, a veces, en agresor.
+
+reccional, recíproca y pública”.
                                                                           c. Asimétrica con simetría latente: se da cuando el sujeto que
                                                                              se encuentra en la posición baja, obligado a sufrir el castigo, se
                                                                              resiste a pesar de la relación desfavorable de fuerzas.
@@ -6952,10 +7343,17 @@ Juez(a) de familia                                                              
                                                                                personales sino que tiende a relativizar, minimizar, ser agresivo y,
                                                                                en definitiva, a no prestar un buen servicio.
 
-
 ## 6.1.2 Entre quiénes hay violencia intrafamiliar
 
-                                                                               El parentesco o relación debe ser uno de aquellos que menciona el
+**Definición Canónica:** El parentesco o relación debe ser uno de aquellos que menciona el
+                                                                               artículo 5 de la LVIF, que hace que la violencia sea “intrafamiliar” y
+                                                                               no configure otro tipo de delito o falta. Habrá violencia en relación
+                                                                               a quien tenga o haya tenido la calidad de:
+                                                                               ——       cónyuge del ofensor
+     
+**Concordancias Legales:** artículo 5 de la LVIF
+
+El parentesco o relación debe ser uno de aquellos que menciona el
                                                                                artículo 5 de la LVIF, que hace que la violencia sea “intrafamiliar” y
                                                                                no configure otro tipo de delito o falta. Habrá violencia en relación
                                                                                a quien tenga o haya tenido la calidad de:
@@ -7020,10 +7418,15 @@ Juez(a) de familia                                                            vi
 
 Curso habilitante                        6. El Procedimiento de                                              170
 
-
 ## 6.1.3 Competencia
 
-                                           En su inciso primero, el artículo 81 de la LTF establece que corres-
+**Definición Canónica:** En su inciso primero, el artículo 81 de la LTF establece que corres-
+                                           ponderá la competencia al juzgado de familia del domicilio o de la
+                                           residencia de la persona afectada, esto es, de la víctima. Siempre que
+                                           tales hechos no sean constitutivos de delito.
+**Concordancias Legales:** artículo 81 de la LTF establece que corres; artículos 81; artículos 17
+
+En su inciso primero, el artículo 81 de la LTF establece que corres-
                                            ponderá la competencia al juzgado de familia del domicilio o de la
                                            residencia de la persona afectada, esto es, de la víctima. Siempre que
                                            tales hechos no sean constitutivos de delito.
@@ -7041,10 +7444,17 @@ Juez(a) de familia                                                            vi
                                            aplicarán las reglas generales del procedimiento de los artículos 17
                                            a 67 LTF, esto es, las reglas del juicio ordinario.
 
-
 ## 6.1.4 Obligación de denunciar
 
-                                           Según la ley, existen ciertas personas que, en razón de sus cargos, se
+**Definición Canónica:** Según la ley, existen ciertas personas que, en razón de sus cargos, se
+                                           encuentran obligados a presentar la denuncia por actos de violencia
+                                           intrafamiliar cuando tomen conocimiento de hechos que pudieren
+                                           constituir actos de VIF (tanto física como psicológica), conforme a
+                                           lo dispuesto por el artículo 84 de la LTF, en relación al artículo 175
+                                           del Código Procesal Penal. Estas personas so
+**Concordancias Legales:** artículo 84 de la LTF; artículo 175 del Código Procesal Penal. Estas personas son
+
+Según la ley, existen ciertas personas que, en razón de sus cargos, se
                                            encuentran obligados a presentar la denuncia por actos de violencia
                                            intrafamiliar cuando tomen conocimiento de hechos que pudieren
                                            constituir actos de VIF (tanto física como psicológica), conforme a
@@ -7070,10 +7480,17 @@ Juez(a) de familia                                                            vi
                                            el de aplicación de medidas de protección para NNA víctimas de
                                            vulneración de derechos.
 
-
 ## 6.1.5 Exclusión del control de admisibilidad
 
-                                           Tanto la denuncia como la demanda de VIF pueden ser incompletas
+**Definición Canónica:** Tanto la denuncia como la demanda de VIF pueden ser incompletas
+                                           a la luz de lo analizado conforme al control de admisibilidad de las
+                                           demandas, denuncias y requerimientos, ya que el propio artículo
+                                           54-1 LTF sólo permite efectuar un control formal de la demanda o
+                                           denuncia, excluyéndola de la posibilidad de que sea declarada ma-
+                                           nifiestamente improcedente y rechazada de plano.
+**Concordancias Legales:** artículo 54; artículo 86 de la LTF debe contener la in; artículo 87 de la LTF; artículo 86; artículo 88 de la LTF establece diligencias inmediatas que debe; artículo 85 del Código Procesal Penal; artículo 89 de la LTF
+
+Tanto la denuncia como la demanda de VIF pueden ser incompletas
                                            a la luz de lo analizado conforme al control de admisibilidad de las
                                            demandas, denuncias y requerimientos, ya que el propio artículo
                                            54-1 LTF sólo permite efectuar un control formal de la demanda o
@@ -7131,10 +7548,18 @@ Juez(a) de familia                                                            vi
                                            El tribunal debe requerir, a través del Registro Civil, el extracto de
                                            filiación denunciado o demandado, conforme al artículo 89 de la LTF.
 
-
 ## 6.1.6 Presunciones legales de riesgo
 
-                                           Conforme al artículo 7 de la LVIF, se presumirá por el o la juez de
+**Definición Canónica:** Conforme al artículo 7 de la LVIF, se presumirá por el o la juez de
+                                           familia la existencia de situaciones de riesgo que impliquen la adop-
+                                           ción inmediata de medidas cautelares para protección de la víctima,
+                                           lo que además es analizado con la asesoría del consejo técnico del
+                                           tribunal, de acuerdo a lo dispuesto por el artículo 5 letra d) de la LTF,
+                                           en las siguientes situaciones:
+       
+**Concordancias Legales:** artículo 7 de la LVIF; artículo 5; Ley Nº 17.798
+
+Conforme al artículo 7 de la LVIF, se presumirá por el o la juez de
                                            familia la existencia de situaciones de riesgo que impliquen la adop-
                                            ción inmediata de medidas cautelares para protección de la víctima,
                                            lo que además es analizado con la asesoría del consejo técnico del
@@ -7174,15 +7599,14 @@ Juez(a) de familia                                                  violencia in
                                            mayor, dueño o                      — Sea expulsado de él
                                          poseedor, a cualquier                 — Relegado a sectores secundarios
 
-## título, de un                     — Se le restrinja o limite su desplazamiento al interior de ese
-
-                                         inmueble que ocupa                       bien raíz.
-                                             para residir:
-
-
 ## 6.1.7 Medidas cautelares
 
-                                                                   Conforme al artículo 92 de la LTF, el o la juez de familia debe dar
+**Definición Canónica:** Conforme al artículo 92 de la LTF, el o la juez de familia debe dar
+                                                                   protección a la víctima y grupo familiar y cautelar su integridad física,
+                                                                   síquica, su subsistencia económica e integridad patrimonial.
+**Concordancias Legales:** artículo 92 de la LTF; artículo 71 de la LTF. Estas son para; artículo 7 de la LVIF; artículo 9 de la LVIF; artículo 93 de la LTF; artículo 93; artículo 240 del CPC
+
+Conforme al artículo 92 de la LTF, el o la juez de familia debe dar
                                                                    protección a la víctima y grupo familiar y cautelar su integridad física,
                                                                    síquica, su subsistencia económica e integridad patrimonial.
 
@@ -7264,10 +7688,18 @@ Juez(a) de familia                                                  violencia in
                                               a efectos del artículo 240 del CPC (delito de desacato).
                                            f. Imponer arresto hasta por quince días.
 
-
 ## 6.1.8 Remisión de antecedentes si el
 
-                                           hecho reviste caracteres de delito
+**Definición Canónica:** hecho reviste caracteres de delito
+                                           Atendido lo dispuesto por el artículo 90 de la LTF, si el hecho denun-
+                                           ciado pudiera ser constitutivo de un delito, por ejemplo si se narra
+                                           por la víctima que el ofensor le ha dicho que la lesionará mientras
+                                           sostenía un arma blanca en sus manos (delito de amenazas), o que
+                                           intentó estrangularla y fue atendida en el hospital constatándose
+           
+**Concordancias Legales:** artículo 90 de la LTF
+
+hecho reviste caracteres de delito
                                            Atendido lo dispuesto por el artículo 90 de la LTF, si el hecho denun-
                                            ciado pudiera ser constitutivo de un delito, por ejemplo si se narra
                                            por la víctima que el ofensor le ha dicho que la lesionará mientras
@@ -7287,10 +7719,16 @@ Juez(a) de familia                                                  violencia in
 Curso habilitante                                                 6. El Procedimiento de                                                          176
 Juez(a) de familia                                                   violencia intrafamiliar
 
-
 ## 6.1.9 Actuación del tribunal si el
 
-                                                                    demandado no comparece a citación
+**Definición Canónica:** demandado no comparece a citación
+                                                                    La citación a la audiencia preparatoria, que debe llevarse a efecto en
+                                                                    el plazo de diez días siguientes de recibida la denuncia o demanda,
+                                                                    debe serle notificada a todas las partes que figuren el proceso (de-
+                                                                    mandante, víctima y ofensor).
+**Concordancias Legales:** artículo 95 de la LTF. En consecuencia; artículo 21 de la LTF
+
+demandado no comparece a citación
                                                                     La citación a la audiencia preparatoria, que debe llevarse a efecto en
                                                                     el plazo de diez días siguientes de recibida la denuncia o demanda,
                                                                     debe serle notificada a todas las partes que figuren el proceso (de-
@@ -7309,10 +7747,16 @@ Juez(a) de familia                                                   violencia i
                                                                     Si no concurren todas las partes, aplicará el archivo provisional pre-
                                                                     visto en el artículo 21 de la LTF (ya analizado).
 
-
 ## 6.1.10 Objeto de la ley106
 
-                                                                    La LVIF señala en su artículo 1 cuál es su objeto, lo que es muy útil
+**Definición Canónica:** La LVIF señala en su artículo 1 cuál es su objeto, lo que es muy útil
+                                                                    para determinar medidas a adoptar, especialmente cautelares, pero
+                                                                    ello debe ser complementado con lo que dispone la Convención de
+                                                                    Belém do Pará y el artículo 92 de la LTF, de lo que se sigue que su
+                                                                    propósito es:
+**Concordancias Legales:** artículo 1; artículo 92 de la LTF
+
+La LVIF señala en su artículo 1 cuál es su objeto, lo que es muy útil
                                                                     para determinar medidas a adoptar, especialmente cautelares, pero
                                                                     ello debe ser complementado con lo que dispone la Convención de
                                                                     Belém do Pará y el artículo 92 de la LTF, de lo que se sigue que su
@@ -7339,10 +7783,13 @@ Juez(a) de familia                                                             v
                                              integral                            cia económica e integridad patrimonial.
                                            (Art. 92 LTF)
 
-
 ## 6.1.11 Actuación de la policía107
 
-                                                                              Los funcionarios de Carabineros o de la PDI deberán intervenir en
+**Definición Canónica:** Los funcionarios de Carabineros o de la PDI deberán intervenir en
+                                                                              el lugar, detener al agresor, si procede, incautar armas u objetos de
+                                                                              agresión y prestar ayuda inmediata y directa a la víctima, en caso de:
+
+Los funcionarios de Carabineros o de la PDI deberán intervenir en
                                                                               el lugar, detener al agresor, si procede, incautar armas u objetos de
                                                                               agresión y prestar ayuda inmediata y directa a la víctima, en caso de:
 
@@ -7351,10 +7798,17 @@ Juez(a) de familia                                                             v
                                                                                        cerrado
                                                                               ——       otros signos evidentes que indiquen que se está cometiendo VIF.
 
-
 ## 6.1.12 Habitualidad108
 
-                                                                              La ley regula dos situaciones en que se deben remitir los antece-
+**Definición Canónica:** La ley regula dos situaciones en que se deben remitir los antece-
+                                                                              dentes a Fiscalía:
+                                                                              a. Si los hechos que fundamentan la denuncia son constitutivos de
+                                                                                 delito: el o la juez deberá enviar de inmediato los antecedentes
+                                                                                 (artículo 6 LVIF).
+                                               
+**Concordancias Legales:** artículo 6; artículo 14 de la LVIF; Artículo 83; Artículo 90; Constitucion
+
+La ley regula dos situaciones en que se deben remitir los antece-
                                                                               dentes a Fiscalía:
                                                                               a. Si los hechos que fundamentan la denuncia son constitutivos de
                                                                                  delito: el o la juez deberá enviar de inmediato los antecedentes
@@ -7389,10 +7843,12 @@ Juez(a) de familia                                violencia intrafamiliar
                                                  No se considerarán, en cambio, los hechos anteriores respecto de
                                                  los cuales haya recaído sentencia penal absolutoria o condenatoria.
 
-
 ## 6.2     Término del
 
-                                                 proceso
+**Definición Canónica:** proceso
+**Concordancias Legales:** artículo 100 de la LTF
+
+proceso
 
                                                  De acuerdo a lo establecido por el artículo 100 de la LTF, el proceso
                                                  sólo podrá terminar por sentencia ejecutoriada, archivo provisional
@@ -7425,10 +7881,18 @@ Juez(a) de familia                                violencia intrafamiliar
                                            ser constitutivos de algún delito. Eventualmente, y a lo menos, del
                                            delito de amenazas.
 
-
 ## 6.2.1 Suspensión condicional de la
 
-                                           dictación de la sentencia
+**Definición Canónica:** dictación de la sentencia
+                                           Este procedimiento especial de VIF regula una forma alternativa
+                                           de término del proceso, condicionada a ciertos requisitos para su
+                                           procedencia, conforme lo establecen los artículos 96 a 98 de la LTF.
+                                           En este sentido, el o la juez podrá decretar la suspensión condicional
+                                           de la dictación de sentencia, por el término de un año, cuando se
+                       
+**Concordancias Legales:** artículos 96; artículo 97 de la LTF; artículos 361; artículo 98 de la LTF; artículo 99 de la LTF; artículo 21 de la LTF
+
+dictación de la sentencia
                                            Este procedimiento especial de VIF regula una forma alternativa
                                            de término del proceso, condicionada a ciertos requisitos para su
                                            procedencia, conforme lo establecen los artículos 96 a 98 de la LTF.
@@ -7521,10 +7985,17 @@ Juez(a) de familia                                violencia intrafamiliar
                                            presentar una nueva demandada o denuncia por actos de violencia
                                            intrafamiliar, por hechos nuevos.
 
-
 ## 6.2.3 Requerimiento de la víctima (denuncia de tercero)
 
-                                           Otra forma de poner término al proceso es la del artículo 100 de la
+**Definición Canónica:** Otra forma de poner término al proceso es la del artículo 100 de la
+                                           LTF, en virtud del cual, si el proceso se hubiere iniciado por denuncia
+                                           o demanda de un tercero, o sea no de la propia víctima, el o la juez de
+                                           familia, conforme al inciso segundo de esta norma, podrá durante la
+                                           audiencia preparatoria y, previo informe del consejo técnico, poner
+                                           término al proceso a solicitud de la 
+**Concordancias Legales:** artículo 100 de la LTF
+
+Otra forma de poner término al proceso es la del artículo 100 de la
                                            LTF, en virtud del cual, si el proceso se hubiere iniciado por denuncia
                                            o demanda de un tercero, o sea no de la propia víctima, el o la juez de
                                            familia, conforme al inciso segundo de esta norma, podrá durante la
@@ -7542,10 +8013,13 @@ Juez(a) de familia                                violencia intrafamiliar
                                            iniciado sin una manifestación de voluntad de ella, o incluso, sin su
                                            conocimiento hasta que fue notificada.
 
-
 ## 6.2.4 Sentencia
 
-                                           De acuerdo al artículo 101 de la LTF, la sentencia definitiva del
+**Definición Canónica:** De acuerdo al artículo 101 de la LTF, la sentencia definitiva del
+                                           procedimiento de VIF debe contener el pronunciamiento sobre la
+**Concordancias Legales:** artículo 101 de la LTF
+
+De acuerdo al artículo 101 de la LTF, la sentencia definitiva del
                                            procedimiento de VIF debe contener el pronunciamiento sobre la
 
                                            existencia de hechos constitutivos de VIF, la participación que en
@@ -7564,10 +8038,18 @@ Juez(a) de familia                                violencia intrafamiliar
                                            deben cumplir las obligaciones que se establecieron en las cumbres
                                            judiciales (ver 1.2.1 de este trabajo).
 
-
 ## 6.2.4.1 Pronunciamiento sobre la existencia de hechos
 
-                                           constitutivos de VIF (hechos)
+**Definición Canónica:** constitutivos de VIF (hechos)
+                                           La norma del artículo 101 obliga al sentenciador a incluir en su sen-
+                                           tencia una mención específica sobre cuáles hechos específicos son
+                                           constitutivos de algún tipo de violencia, como lo describe la doctrina
+                                           y la LVIF sanciona, al señalar que en la sentencia se efectuará un
+                                           “pronunciamiento sobre la existencia de hechos constitutivos de
+                 
+**Concordancias Legales:** artículo 101; artículo 5
+
+constitutivos de VIF (hechos)
                                            La norma del artículo 101 obliga al sentenciador a incluir en su sen-
                                            tencia una mención específica sobre cuáles hechos específicos son
                                            constitutivos de algún tipo de violencia, como lo describe la doctrina
@@ -7584,10 +8066,16 @@ Juez(a) de familia                                                              
                                                                                 violencia intrafamiliar, en conformidad a lo prevenido, a su vez, por
                                                                                 el artículo 5 LVIF.110
 
-
 ## 6.2.4.2 Establecimiento de la responsabilidad del denun-
 
-                                                                                ciado o demandado (participación)
+**Definición Canónica:** ciado o demandado (participación)
+                                                                                En el mismo inciso primero del artículo 101 de la LTF, se exige
+                                                                                al sentenciador que deberá establecer, acreditado que hayan sido
+                                                                                hechos de VIF, la responsabilidad que en los mismos le ha cabido al
+                                                                                denunciado o demandado si este se encuentra dentr
+**Concordancias Legales:** artículo 101 de la LTF; artículo 5 de la LVIF. Esto es
+
+ciado o demandado (participación)
                                                                                 En el mismo inciso primero del artículo 101 de la LTF, se exige
                                                                                 al sentenciador que deberá establecer, acreditado que hayan sido
                                                                                 hechos de VIF, la responsabilidad que en los mismos le ha cabido al
@@ -7599,10 +8087,16 @@ Juez(a) de familia                                                              
                                                                                 en toda la línea recta o en la colateral hasta el tercer grado inclusive,
                                                                                 del ofensor o de su cónyuge o de su actual conviviente”.
 
-
 ## 6.2.4.3 Aplicación de la sanción
 
-                                                                                En conformidad al artículo 8 de la LVIF, el maltrato que no sea
+**Definición Canónica:** En conformidad al artículo 8 de la LVIF, el maltrato que no sea
+                                                                                constitutivo de delito será sancionado con multa a beneficio del
+                                                                                gobierno regional del domicilio del demandante o denunciante, y
+                                                                                serán destinados a los centros de atención a víctimas de VIF de la
+                                                                                región, sean de fina
+**Concordancias Legales:** artículo 8 de la LVIF; artículo 240 del CPC; artículo 9
+
+En conformidad al artículo 8 de la LVIF, el maltrato que no sea
                                                                                 constitutivo de delito será sancionado con multa a beneficio del
                                                                                 gobierno regional del domicilio del demandante o denunciante, y
                                                                                 serán destinados a los centros de atención a víctimas de VIF de la
@@ -7668,10 +8162,15 @@ Juez(a) de familia                                                           de 
                                                                            puedan manifestar las partes y explique las decisiones que se adoptan
                                                                            a lo largo del procedimiento.
 
-
 ## 7.1       Procedimiento
 
-                                                                           El procedimiento especial de aplicación de medidas de protección
+**Definición Canónica:** El procedimiento especial de aplicación de medidas de protección
+                                                                           es aquel en que la ley exige o autoriza la intervención judicial para
+                                                                           proteger los derechos de NNA que se encuentren amenazados o
+                                                                           vulnerados en sus derechos (artículo 68 LTF).
+**Concordancias Legales:** artículo 68; artículo 8; artículo 30 de la Ley de Menores
+
+El procedimiento especial de aplicación de medidas de protección
                                                                            es aquel en que la ley exige o autoriza la intervención judicial para
                                                                            proteger los derechos de NNA que se encuentren amenazados o
                                                                            vulnerados en sus derechos (artículo 68 LTF).
@@ -7680,11 +8179,13 @@ Juez(a) de familia                                                           de 
                                                                            además, debe resultar necesario aplicar alguna de las medidas del
                                                                            artículo 30 de la Ley de Menores (LM).
 
-
 ## 112   Chilectra (2001), p. 79
 
+**Definición Canónica:** Curso habilitante                                                               7. Procedimiento sobre aplicación                                    187
+Juez(a) de familia                                                                  de medidas de protección de
+**Concordancias Legales:** artículo 68; artículo 9.1 de la Convención sobre los Derechos del Niño; artículo 9.2 de la CDN; artículo 70; artículo 70 de la LTF enumera una serie de sujetos; artículos 18; artículo 54; Ley Nº 19.968; Ley 19.968
 
-Curso habilitante                                                               7. Procedimiento sobre aplicación                                    187
+Curso habilitante                                                               7. Procedimiento sobre aplicación                                    187
 Juez(a) de familia                                                                  de medidas de protección de
 
                                                                                   El único caso en que la intervención judicial será siempre necesaria es
@@ -7826,7 +8327,14 @@ Juez(a) de familia                                                             d
 
 ## No 254 cpc)
 
-                                                                       El juez                          — Dictará sentencia    — Fundamento
+**Definición Canónica:** El juez                          — Dictará sentencia    — Fundamento
+                                                                       — Informa motivos de                                    — Duración
+                                                                          la citación y dere-
+                                                                          chos
+                                                                       — Responde dudas
+                                                                       — Indaga sobre la si-
+
+El juez                          — Dictará sentencia    — Fundamento
                                                                        — Informa motivos de                                    — Duración
                                                                           la citación y dere-
                                                                           chos
@@ -7848,10 +8356,12 @@ Juez(a) de familia                                                             d
                                                                        — Objetivos
                                                                        — Duración
 
-
 ## 7.2            Potestad cautelar en materia
 
-                                                                               de protección de NNA
+**Definición Canónica:** de protección de NNA
+**Concordancias Legales:** artículo 69 de la LTF encarga especialmente al juez tener en
+
+de protección de NNA
 
                                                                                Las medidas cautelares se pueden adoptar en cualquier momento del
                                                                                procedimiento, y aun antes de su inicio, caso en el cual el o la juez
@@ -7945,26 +8455,30 @@ Juez(a) de familia                                                            de
                                                                             vistas a jueces y consejeros técnicos, agregada al final de este trabajo
                                                                             en los documentos anexos.
 
-
 ## 7.3     Medida de separación de
 
-                                                                            sus padres (art. 74 LTF)
+**Definición Canónica:** sus padres (art. 74 LTF)
+**Concordancias Legales:** artículo 9 de la CDN
+
+sus padres (art. 74 LTF)
 
                                                                             Esta medida, que es especialmente gravosa y constituye en sí misma
                                                                             una vulneración del artículo 9 de la CDN, se adoptará sólo mediante
                                                                             resolución fundada.116
 
-
 ## 116   Ver acápite 7.11.6.1
 
-
-Curso habilitante                                                             7. Procedimiento sobre aplicación                                        193
+**Definición Canónica:** Curso habilitante                                                             7. Procedimiento sobre aplicación                                        193
 Juez(a) de familia                                                                de medidas de protección de
 
+Curso habilitante                                                             7. Procedimiento sobre aplicación                                        193
+Juez(a) de familia                                                                de medidas de protección de
 
 ## 7.4            Derecho de audiencia con
 
-                                                                                el o la juez (art. 79 LTF)
+**Definición Canónica:** el o la juez (art. 79 LTF)
+
+el o la juez (art. 79 LTF)
 
                                                                                 Los NNA respecto de los cuales se encuentre vigente una medida
                                                                                 de protección judicial, tendrán derecho a que el o la juez los reciba
@@ -7991,10 +8505,11 @@ Juez(a) de familia                                                              
 Curso habilitante                              7. Procedimiento sobre aplicación                                    194
 Juez(a) de familia                                 de medidas de protección de
 
-
 ## 7.5     Deber de información del SENAME
 
-                                                 (art. 80 bis inc. 1º LTF)
+**Definición Canónica:** (art. 80 bis inc. 1º LTF)
+
+(art. 80 bis inc. 1º LTF)
 
                                                  El Servicio Nacional de Menores, a través de sus directores regionales,
                                                  informará periódica y detalladamente a cada juzgado de familia la
@@ -8008,10 +8523,12 @@ Juez(a) de familia                                 de medidas de protección de
                                                  tener actualizado el registro interno para su uso tanto dentro como
                                                  fuera de audiencia.
 
-
 ## 7.6     Deber de adoptar medidas inexistentes solicitadas
 
-                                                 por el juez (artículo 80 bis inc. 2° LTF)
+**Definición Canónica:** por el juez (artículo 80 bis inc. 2° LTF)
+**Concordancias Legales:** artículo 80 bis inc. 2; artículo 71; Ley N° 20.032
+
+por el juez (artículo 80 bis inc. 2° LTF)
 
                                                  Si el o la juez decreta una medida respecto de la cual no existe oferta
                                                  programática en la región, dentro de las líneas de acción indicadas
@@ -8029,10 +8546,11 @@ Juez(a) de familia                                 de medidas de protección de
 Curso habilitante                              7. Procedimiento sobre aplicación                                             195
 Juez(a) de familia                                 de medidas de protección de
 
-
 ## 7.7     Obligación de
 
-                                                 informar (art. 76 LTF)
+**Definición Canónica:** informar (art. 76 LTF)
+
+informar (art. 76 LTF)
 
                                                  El director del establecimiento, o responsable del programa al que
                                                  se envíe al NNA y su familia, debe informar al tribunal sobre el
@@ -8046,10 +8564,11 @@ Juez(a) de familia                                 de medidas de protección de
                                                  d. El o la juez tiene el deber de asesorarse con el consejo técnico
                                                     cuando evalúe los informes.
 
-
 ## 7.8     Incumplimiento de las
 
-                                                 medidas (art. 77 LTF)
+**Definición Canónica:** medidas (art. 77 LTF)
+
+medidas (art. 77 LTF)
 
                                                    Si no se cumplen las medidas por los padres u otros obligados, la insti-
                                                    tución debe informar para que el juez:
@@ -8063,10 +8582,12 @@ Juez(a) de familia                                 de medidas de protección de
 Curso habilitante                                                       7. Procedimiento sobre aplicación                                                196
 Juez(a) de familia                                                          de medidas de protección de
 
-
 ## 7.9     Suspensión, modificación y cesación
 
-                                                                          de medidas (art. 80 LTF)
+**Definición Canónica:** de medidas (art. 80 LTF)
+**Concordancias Legales:** Artículo 79
+
+de medidas (art. 80 LTF)
 
                                                                           Puede hacerse:
 
@@ -8100,10 +8621,12 @@ Juez(a) de familia                                                          de m
 Curso habilitante                                                                 7. Procedimiento sobre aplicación                                                 197
 Juez(a) de familia                                                                    de medidas de protección de
 
-
 ## 7.10              Obligación de
 
-                                                                                         visita119
+**Definición Canónica:** visita119
+**Concordancias Legales:** Artículo 78
+
+visita119
 
                                                                                     Los jueces de familia deberán visitar personalmente los estableci-
                                                                                     mientos residenciales según el siguiente esquema:
@@ -8142,11 +8665,16 @@ Juez(a) de familia                                                              
 Curso habilitante                                                            7. Procedimiento sobre aplicación                                               198
 Juez(a) de familia                                                               de medidas de protección de
 
-
 ## 7.11                Sentencia
 
+**Definición Canónica:** El artículo 75 de la LTF señala que la sentencia debe fundamentar
+                                                                               “la necesidad y conveniencia de la medida adoptada, indicará los
+                                                                               objetivos que se pretenden cumplir con ella y determinará el tiempo
+                                                                               de su duración”. Si bien las exigencias son menores que en el juicio
+                                                                               ordinario, dado 
+**Concordancias Legales:** artículo 75 de la LTF señala que la sentencia debe fundamentar; artículo 66 de la LTF
 
-                                                                               El artículo 75 de la LTF señala que la sentencia debe fundamentar
+El artículo 75 de la LTF señala que la sentencia debe fundamentar
                                                                                “la necesidad y conveniencia de la medida adoptada, indicará los
                                                                                objetivos que se pretenden cumplir con ella y determinará el tiempo
                                                                                de su duración”. Si bien las exigencias son menores que en el juicio
@@ -8159,10 +8687,16 @@ Juez(a) de familia                                                              
                                                                                las partes la naturaleza y objetivos de la medida adoptada, sus fun-
                                                                                damentos y su duración” tras su dictación.120
 
-
 ## 7.11.1 Determinación del derecho vulnerado
 
-                                                                               El procedimiento busca restablecer derechos vulnerados, por tanto el
+**Definición Canónica:** El procedimiento busca restablecer derechos vulnerados, por tanto el
+                                                                               primer paso es establecer qué derecho del NNA es el que se denuncia
+                                                                               o estima vulnerado, porque, en primer lugar, ello facilitará determinar
+                                                                               si efectivamente hay amenaza o vulneración y, en segundo lugar, per-
+                                                                               mitirá
+**Concordancias Legales:** artículos 19; artículo 31; artículo 19; artículo 489 del Código del Trabajo; Constitución; Constitución Política
+
+El procedimiento busca restablecer derechos vulnerados, por tanto el
                                                                                primer paso es establecer qué derecho del NNA es el que se denuncia
                                                                                o estima vulnerado, porque, en primer lugar, ello facilitará determinar
                                                                                si efectivamente hay amenaza o vulneración y, en segundo lugar, per-
@@ -8244,10 +8778,16 @@ Juez(a) de familia                                                              
 
                                                                                    Convención sobre los Derechos del Niño-Unicef
 
-
 ## 7.11.2 Necesidad y conveniencia de la medida adoptada
 
-                                                                                   En la sentencia debe consignarse la situación que ha motivado el
+**Definición Canónica:** En la sentencia debe consignarse la situación que ha motivado el
+                                                                                   inicio del proceso, la forma en que afecta a los NNA y la identidad
+                                                                                   de las personas que se encuentren involucradas en la afectación de
+                                                                                   sus derechos123. Es útil incluir:
+                                                                                   a. Derecho(s) que se estima(n) vul
+**Concordancias Legales:** Artículo 72
+
+En la sentencia debe consignarse la situación que ha motivado el
                                                                                    inicio del proceso, la forma en que afecta a los NNA y la identidad
                                                                                    de las personas que se encuentren involucradas en la afectación de
                                                                                    sus derechos123. Es útil incluir:
@@ -8283,27 +8823,24 @@ Juez(a) de familia                                                   de medidas 
                                          actuar cuando hay un      adoptar una medida cuando el caso no lo amerita puede ser tan
                                          derecho vulnerado.        perjudicial como no actuar cuando hay un derecho vulnerado.
 
-
 ## 7.11.3 Medidas de protección definitivas
 
-                                                                   que pueden adoptarse (art. 30 LM)
+**Definición Canónica:** que pueden adoptarse (art. 30 LM)
+
+que pueden adoptarse (art. 30 LM)
 
                                                                    Las medidas definitivas que se pueden adoptar son:
 
                                                                    a. Concurrencia a programas de apoyo, reparación u orientación,
                                                                       para enfrentar y superar las situaciones de crisis.
 
-## 1. Se recurrirá a ellos en la medida que se requiera de los ser-
-
-                                                                           vicios que ofrecen.
-
-## 2. Se debe recordar que, en medidas de protección, lo que
-
-                                                                           abunda daña.
-
 ## 3. Problema de la doble evaluación: Previo-De ingreso, que
 
-                                                                           implica contar la historia de vulneración varias veces a dis-
+**Definición Canónica:** implica contar la historia de vulneración varias veces a dis-
+                                                                           tintas personas.
+                                                                   b. Internación (se analizará en acápite especial)
+
+implica contar la historia de vulneración varias veces a dis-
                                                                            tintas personas.
                                                                    b. Internación (se analizará en acápite especial)
 
@@ -8317,7 +8854,14 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 1. Las medidas que se decretaron como cautelares y pueden
 
-                                                   adquirir naturaleza definitiva.
+**Definición Canónica:** adquirir naturaleza definitiva.
+                                                2. Otras que puedan resultar útiles y no estén enumeradas,
+                                                   como búsqueda de establecimiento educacional si el NNA
+                                                   está desescolarizado, asistencia a cursos de manejo si ha sido
+                                                   sorprendido conduciendo sin licencia, y sin conocimiento de
+                                                   los padres, etcétera.
+
+adquirir naturaleza definitiva.
                                                 2. Otras que puedan resultar útiles y no estén enumeradas,
                                                    como búsqueda de establecimiento educacional si el NNA
                                                    está desescolarizado, asistencia a cursos de manejo si ha sido
@@ -8326,8 +8870,9 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 3. El requisito es que sea conducente a la vulneración y que
 
+**Definición Canónica:** resulte mejor que no hacer nada.
 
-                                                   resulte mejor que no hacer nada.
+resulte mejor que no hacer nada.
 
                                            Respecto de la internación en un establecimiento de protección, es
                                            necesario decir que sólo procederá:
@@ -8339,20 +8884,30 @@ Juez(a) de familia                           de medidas de protección de
                                            revocar la medida antes del vencimiento del plazo por el que se la
                                            hubiere dispuesto, si varían las circunstancias.
 
-
 ## 7.11.4 Objetivos de la medida adoptada
 
-                                           Los objetivos de las medidas de protección deben ser expresos, esto
+**Definición Canónica:** Los objetivos de las medidas de protección deben ser expresos, esto
                                            es, quedar claramente establecidos en la sentencia, para que las
                                            partes y el organismo designado para cumplirlas sepa lo que tiene
                                            que hacer y qué debe cumplir. Estos objetivos deben ser concretos
                                            y, en la medida de lo posible, verificables, para poder controlar su
                                            cumplimiento.
 
+Los objetivos de las medidas de protección deben ser expresos, esto
+                                           es, quedar claramente establecidos en la sentencia, para que las
+                                           partes y el organismo designado para cumplirlas sepa lo que tiene
+                                           que hacer y qué debe cumplir. Estos objetivos deben ser concretos
+                                           y, en la medida de lo posible, verificables, para poder controlar su
+                                           cumplimiento.
 
 ## 7.11.5 Duración de la medida
 
-                                           La sentencia debe establecer un plazo para su ejecución, que en
+**Definición Canónica:** La sentencia debe establecer un plazo para su ejecución, que en
+                                           el caso de la internación no puede ser superior a un año, aunque
+                                           puede prorrogarse si las circunstancias que motivaron la adopción
+                                           se mantienen.
+
+La sentencia debe establecer un plazo para su ejecución, que en
                                            el caso de la internación no puede ser superior a un año, aunque
                                            puede prorrogarse si las circunstancias que motivaron la adopción
                                            se mantienen.
@@ -8360,10 +8915,17 @@ Juez(a) de familia                           de medidas de protección de
 Curso habilitante                        7. Procedimiento sobre aplicación                                    203
 Juez(a) de familia                           de medidas de protección de
 
-
 ## 7.11.6 Fundamentación reforzada en caso
 
-                                           de medidas especialmente lesivas
+**Definición Canónica:** de medidas especialmente lesivas
+                                           Hay ciertas medidas que en sí mismas son especialmente vulnerato-
+                                           rias de derechos, como la separación de los padres y la internación.
+                                           Transgreden derechos, por cuanto a pesar de que se adoptan para
+                                           proteger a los NNA, los privan de otros derechos, como ser cuidados
+                                           por sus padres, la libertad personal (en el caso de la internación),
+                
+
+de medidas especialmente lesivas
                                            Hay ciertas medidas que en sí mismas son especialmente vulnerato-
                                            rias de derechos, como la separación de los padres y la internación.
                                            Transgreden derechos, por cuanto a pesar de que se adoptan para
@@ -8373,11 +8935,18 @@ Juez(a) de familia                           de medidas de protección de
                                            requiere razones más poderosas que para adoptar otras y, por tanto,
                                            el deber de fundamentación es mayor.
 
-
 ## 7.11.6.1 Estándares para la aplicación de medida de se-
 
+**Definición Canónica:** paración de los padres
+                                           Sólo puede adoptarse:
+                                           a. Cuando sea estrictamente necesario para salvaguardar los dere-
+                                              chos del NNA.
+                                           b. Siempre que no exista otra más adecuada.
+                                           c. Si se han agotado previamente las posibilidades de que el NNA
+                                              permanezca con sus padres o un pariente consanguíneo o persona
+                                       
 
-                                           paración de los padres
+paración de los padres
                                            Sólo puede adoptarse:
                                            a. Cuando sea estrictamente necesario para salvaguardar los dere-
                                               chos del NNA.
@@ -8391,14 +8960,16 @@ Juez(a) de familia                           de medidas de protección de
                                            o la juez preferirá a:
                                            1. Sus parientes consanguíneos.
 
-## 2. Otras personas con las que tenga una relación de confianza, y
-
-                                           3. Sólo en defecto de los anteriores, un establecimiento de protección.
-
-
 ## 7.11.6.2 Estándares para proceder a la internación de un NNA
 
-                                           Para proceder a la internación deben concurrir dos circunstancias
+**Definición Canónica:** Para proceder a la internación deben concurrir dos circunstancias
+                                           copulativas:
+                                           a. Que resulte indispensable para cautelar la integridad física o psí-
+                                              quica de los NNA, lo que implica haber agotado todas las posibi-
+                                              lidades de trabajo con los padres y la familia extensa, incluyendo
+                                              la concurrencia a terapia, medicamentos, etcétera.
+
+Para proceder a la internación deben concurrir dos circunstancias
                                            copulativas:
                                            a. Que resulte indispensable para cautelar la integridad física o psí-
                                               quica de los NNA, lo que implica haber agotado todas las posibi-
@@ -8443,10 +9014,15 @@ Juez(a) de familia                                                        de med
 Curso habilitante                                                          7. Procedimiento sobre aplicación                                     205
 Juez(a) de familia                                                             de medidas de protección de
 
-
 ## 7.11.7 Medida de protección como “mal menor”
 
-                                                                             Las medidas de protección no son bienes sino males menores, por
+**Definición Canónica:** Las medidas de protección no son bienes sino males menores, por
+                                                                             ello debe justificarse que ellas obedezcan a una imperiosa urgencia
+                                                                             dada por la vulneración o amenaza grave de derechos, como indica
+                                                                             el artículo 8 N° 7 LTF.
+**Concordancias Legales:** artículo 8
+
+Las medidas de protección no son bienes sino males menores, por
                                                                              ello debe justificarse que ellas obedezcan a una imperiosa urgencia
                                                                              dada por la vulneración o amenaza grave de derechos, como indica
                                                                              el artículo 8 N° 7 LTF.
@@ -8495,10 +9071,16 @@ Juez(a) de familia                           de medidas de protección de
 
                                          Bibliografía
 
-
 ## 1.   American Bar Association (1999): Standards of         9.    BCN (2008): Historia de la Ley Nº 20.286, que
 
-                                              Practice for Lawyers who Represent Children in              Introduce modificaciones orgánicas y procedi-
+**Definición Canónica:** Practice for Lawyers who Represent Children in              Introduce modificaciones orgánicas y procedi-
+                                              Abuse and Neglect Cases (NACC Revised Ver-                  mentales a la Ley N° 19.968, que crea los Tribu-
+                                              sion). Disponible en https://cdn.ymaws.com/www.             nales de Familia. Disponible en https://www.bcn.
+                                              naccchildlaw.org/resource/resmgr/Standards/                 cl/historiadelaley/nc/historia-de-la-ley/5166/,
+                              
+**Concordancias Legales:** Ley N° 19.968
+
+Practice for Lawyers who Represent Children in              Introduce modificaciones orgánicas y procedi-
                                               Abuse and Neglect Cases (NACC Revised Ver-                  mentales a la Ley N° 19.968, que crea los Tribu-
                                               sion). Disponible en https://cdn.ymaws.com/www.             nales de Familia. Disponible en https://www.bcn.
                                               naccchildlaw.org/resource/resmgr/Standards/                 cl/historiadelaley/nc/historia-de-la-ley/5166/,
@@ -8507,7 +9089,11 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 10. CALAMANDREI, Piero (1996): Introducción al es-
 
-                                         2.   ALSINA, Hugo (2016): Fundamentos del derecho              tudio sistemático de las providencias cautelares
+**Definición Canónica:** 2.   ALSINA, Hugo (2016): Fundamentos del derecho              tudio sistemático de las providencias cautelares
+                                              procesal, Tomo I (Buenos Aires, Editorial Ediar).         (Buenos Aires, Librería El Foro).
+**Concordancias Legales:** Constitucion
+
+2.   ALSINA, Hugo (2016): Fundamentos del derecho              tudio sistemático de las providencias cautelares
                                               procesal, Tomo I (Buenos Aires, Editorial Ediar).         (Buenos Aires, Librería El Foro).
 
                                          3.   ARÓN, Ana María (2001): Violencia en la familia.      11.   Cámara de Diputados (2019): Proyecto de Ley de
@@ -8527,7 +9113,13 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 5.   AGUIRRÉZABAL, Maite (2013): “Mediación previa
 
-                                              obligatoria y acceso a la justicia en el proceso de   13. CEJIL (2013): La debida diligencia en la actua-
+**Definición Canónica:** obligatoria y acceso a la justicia en el proceso de   13. CEJIL (2013): La debida diligencia en la actua-
+                                              familia”, en Revista Chilena de Derecho Priva-            ción del Ministerio Público Fiscal en casos de
+                                              do, julio 2013, Nº 20, pp. 295-308 Disponible en          Violencia de Género, Centro por la Justicia y el
+                                              https://scielo.conicyt.cl/scielo.php?script=sci_ar-       Derecho internacional.
+                                              ttext&pid=S0718-8
+
+obligatoria y acceso a la justicia en el proceso de   13. CEJIL (2013): La debida diligencia en la actua-
                                               familia”, en Revista Chilena de Derecho Priva-            ción del Ministerio Público Fiscal en casos de
                                               do, julio 2013, Nº 20, pp. 295-308 Disponible en          Violencia de Género, Centro por la Justicia y el
                                               https://scielo.conicyt.cl/scielo.php?script=sci_ar-       Derecho internacional.
@@ -8537,7 +9129,13 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 6.   ARNSTEIN, Sherry R. (1969): “A Ladder Of
 
-                                              Citizen Participation”, en Journal of the Ame-        14. CEDAW (2017): Recomendación General N° 35:
+**Definición Canónica:** Citizen Participation”, en Journal of the Ame-        14. CEDAW (2017): Recomendación General N° 35:
+                                              rican Planning Association, 35: 4, pp. 216-224.           “La violencia por razón de género contra la mujer,
+                                              Disponible en https://www.tandfonline.com/                por la que se actualiza la Recomendación Gene-
+                                              doi/pdf/10.1080/01944366908977225?ca-                     ral Nº 19”. Disponible en https://tbinternet.ohchr.
+                                     
+
+Citizen Participation”, en Journal of the Ame-        14. CEDAW (2017): Recomendación General N° 35:
                                               rican Planning Association, 35: 4, pp. 216-224.           “La violencia por razón de género contra la mujer,
                                               Disponible en https://www.tandfonline.com/                por la que se actualiza la Recomendación Gene-
                                               doi/pdf/10.1080/01944366908977225?ca-                     ral Nº 19”. Disponible en https://tbinternet.ohchr.
@@ -8546,12 +9144,16 @@ Juez(a) de familia                           de medidas de protección de
                                               nBz3Nmnwh2kX66nHtCCZlwmOopLEgmO5w                         [consultado el 2 mayo de 2020].
                                               [consultado el 11 octubre de 2020].
 
-## 15. CIDH (2017): Garantía de derechos Niños, niñas y
-
-
 ## 7.   BARCIA, Rodrigo (2013): “La capacidad extrapa-            adolescentes. Disponible en http://www.oas.org/
 
-                                              trimonial de los niños y adolescentes conforme            es/cidh/informes/pdfs/NNA-GarantiaDerechos.
+**Definición Canónica:** trimonial de los niños y adolescentes conforme            es/cidh/informes/pdfs/NNA-GarantiaDerechos.
+                                              a sus condiciones de madurez”, en Ius et Praxis,          pdf, [consultado el 21 julio de 2020].
+                                              N°19(2), pp. 3-52. Disponible en https://scielo.
+                                              conicyt.cl/scielo.php?script=sci_arttext&pi-          16. Chilectra (2001): Luces de Modernidad: Archivo
+                                              d=S0718-00122013000200002 [consultado el                  Fotog
+**Concordancias Legales:** Ley Nº 19.968
+
+trimonial de los niños y adolescentes conforme            es/cidh/informes/pdfs/NNA-GarantiaDerechos.
                                               a sus condiciones de madurez”, en Ius et Praxis,          pdf, [consultado el 21 julio de 2020].
                                               N°19(2), pp. 3-52. Disponible en https://scielo.
                                               conicyt.cl/scielo.php?script=sci_arttext&pi-          16. Chilectra (2001): Luces de Modernidad: Archivo
@@ -8574,7 +9176,13 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 18. Comité de los Derechos del Niño (2009): “Obser-
 
-                                             vación General N° 12 sobre el derecho del niño       27.   Cumbre Judicial (2014b): “Protocolo de Actua-
+**Definición Canónica:** vación General N° 12 sobre el derecho del niño       27.   Cumbre Judicial (2014b): “Protocolo de Actua-
+                                             a ser escuchado”. Disponible en https://tbinter-           ción Judicial para casos de Violencia de Género
+                                             net.ohchr.org/_layouts/15/treatybodyexternal/              contra las mujeres”, Santiago.
+                                             Download.aspx?symbolno=CRC%2fC%2fG-
+                                             C%2f12&Lang=en, [consultado el 11 octubre de         28. Dirección de Estudios de 
+
+vación General N° 12 sobre el derecho del niño       27.   Cumbre Judicial (2014b): “Protocolo de Actua-
                                              a ser escuchado”. Disponible en https://tbinter-           ción Judicial para casos de Violencia de Género
                                              net.ohchr.org/_layouts/15/treatybodyexternal/              contra las mujeres”, Santiago.
                                              Download.aspx?symbolno=CRC%2fC%2fG-
@@ -8584,7 +9192,12 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 19.   CONTRERAS, Dante, BRAVO, David y PUENTES,              cache:ru1FR_sgxBIJ:decs.pjud.cl/documentos/
 
-                                               Esteban (2000): “Tasa de Participación Femeni-         descargas/338_Informe_Estudio_Diagn__stico_
+**Definición Canónica:** Esteban (2000): “Tasa de Participación Femeni-         descargas/338_Informe_Estudio_Diagn__stico_
+                                               na: 1957-1997. Un Análisis de Cohortes Sintéti-        Peritos_Final_web.pdf+&cd=13&hl=es-419&c-
+                                               cos”, Departamento de Economía de la Facultad          t=clnk&gl=cl&safe=vss#22. [consultado el 20 de
+                                               de Economía y Negocios, Universidad de Chile.          julio de 2020 ].
+
+Esteban (2000): “Tasa de Participación Femeni-         descargas/338_Informe_Estudio_Diagn__stico_
                                                na: 1957-1997. Un Análisis de Cohortes Sintéti-        Peritos_Final_web.pdf+&cd=13&hl=es-419&c-
                                                cos”, Departamento de Economía de la Facultad          t=clnk&gl=cl&safe=vss#22. [consultado el 20 de
                                                de Economía y Negocios, Universidad de Chile.          julio de 2020 ].
@@ -8599,10 +9212,15 @@ Juez(a) de familia                           de medidas de protección de
                                              en https://www.corteidh.or.cr/docs/opiniones/se-         pdf/337/33715423009.pdf. [consultado el 20 de
                                              riea_17_esp.pdf, [consultado el 2 mayo de 2020].         julio de 2020 ].
 
-
 ## 21. Corte Interamericana de Derechos Humanos             30. FUENTES MAUREIRA, CLAUDIO (2012): “Dere-
 
-                                             (2005): Caso de las Niñas Yean y Bosico vs.              cho probatorio de familia”, en Revista chilena de
+**Definición Canónica:** (2005): Caso de las Niñas Yean y Bosico vs.              cho probatorio de familia”, en Revista chilena de
+                                             República Dominicana. Excepciones Preliminares,          derecho privado, N° 19, pp. 245-252. Disponible en
+                                             Fondo, Reparaciones y Costas. Sentencia de 8 de          https://scielo.conicyt.cl/scielo.php?script=sci_ar-
+                                             septiembre de 2005. Serie C Nº 130. Disponible           ttext&pid=S0718-80722012000200013 [consul-
+                                         
+
+(2005): Caso de las Niñas Yean y Bosico vs.              cho probatorio de familia”, en Revista chilena de
                                              República Dominicana. Excepciones Preliminares,          derecho privado, N° 19, pp. 245-252. Disponible en
                                              Fondo, Reparaciones y Costas. Sentencia de 8 de          https://scielo.conicyt.cl/scielo.php?script=sci_ar-
                                              septiembre de 2005. Serie C Nº 130. Disponible           ttext&pid=S0718-80722012000200013 [consul-
@@ -8613,7 +9231,13 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 22. Corporación de Asistencia Judicial R.M. (2003):          Disponible en https://59551301-6bae-4ea6-
 
-                                             Resolución alternativa de conflictos: una opción         b848-4b8a0e525957.filesusr.com/ugd/db-
+**Definición Canónica:** Resolución alternativa de conflictos: una opción         b848-4b8a0e525957.filesusr.com/ugd/db-
+                                             democrática de acceso a la justicia, una forma           5d57_9cf81d6505274a529d34a2f6edef741e.pdf,
+                                             de intervención humanizante en la asistencia             [consultado el 2 de mayo de 2020 ].
+                                             jurídica gratuita (Santiago, Editorial Jurídica de
+                                             Chile).                                              32. GONZÁLEZ, Joel (2006): 
+
+Resolución alternativa de conflictos: una opción         b848-4b8a0e525957.filesusr.com/ugd/db-
                                              democrática de acceso a la justicia, una forma           5d57_9cf81d6505274a529d34a2f6edef741e.pdf,
                                              de intervención humanizante en la asistencia             [consultado el 2 de mayo de 2020 ].
                                              jurídica gratuita (Santiago, Editorial Jurídica de
@@ -8626,25 +9250,33 @@ Juez(a) de familia                           de medidas de protección de
                                              cion-avenimiento-y-transaccion/, [consultado el          de mayo de 2020 ].
                                              9 mayo de 2020].
 
-## 33. GONZÁLEZ RAMÍREZ, Isabel (2019): “La con-
-
-
 ## 24. COUTURE, EDUARDO J. (1958): Fundamentos del              ciliación: modelos y técnicas”, en Mecanismos
 
-                                             derecho procesal, 3ª edición (póstuma). (Buenos          alternativos de solución de conflictos (Santia-
+**Definición Canónica:** derecho procesal, 3ª edición (póstuma). (Buenos          alternativos de solución de conflictos (Santia-
+                                             Aires, Editorial Roque Depalma).                         go, Academia Judicial). Disponible en https://
+                                                                                                      intranet.academiajudicial.cl/Imagenes/Temp/
+
+derecho procesal, 3ª edición (póstuma). (Buenos          alternativos de solución de conflictos (Santia-
                                              Aires, Editorial Roque Depalma).                         go, Academia Judicial). Disponible en https://
                                                                                                       intranet.academiajudicial.cl/Imagenes/Temp/
 
 ## 25. Cumbre Judicial (2002): “Carta de derechos de            MASC_MATERIAL_DOCENTE.pdf [consultado el
 
-                                             las personas ante la justicia”, Cancún.                  6 de mayo de 2020].
+**Definición Canónica:** las personas ante la justicia”, Cancún.                  6 de mayo de 2020].
+
+las personas ante la justicia”, Cancún.                  6 de mayo de 2020].
 
 Curso habilitante                                                                                  Bibliografía                                         209
 
-
 ## 34. GREEVEN, Nel y VALENZUELA, Verónica (2019):           45. ORTELLS RAMOS, Manuel (2000): Las medidas
 
-                                             Manual para la intervención con niños, niñas y            cautelares (Madrid, La Ley).
+**Definición Canónica:** Manual para la intervención con niños, niñas y            cautelares (Madrid, La Ley).
+                                             adolescentes en riesgo o vulnerados en sus de-
+                                             rechos humanos. Disponible en https://intranet.       46. PÁEZ GONZÁLEZ, Valentina (2008): “La intro-
+                                             academiajudicial.cl/Imagenes/Temp/Man_NNA_                ducción del contradictorio en la tutela cautelar
+                                             DDHH.pdf, [consultado el 7 de mayo de 2020].              de los tribunales d
+
+Manual para la intervención con niños, niñas y            cautelares (Madrid, La Ley).
                                              adolescentes en riesgo o vulnerados en sus de-
                                              rechos humanos. Disponible en https://intranet.       46. PÁEZ GONZÁLEZ, Valentina (2008): “La intro-
                                              academiajudicial.cl/Imagenes/Temp/Man_NNA_                ducción del contradictorio en la tutela cautelar
@@ -8660,7 +9292,10 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 37.   LANSDOWN, Gerison (2005): La evolución de las           en Revista Justicia y Derechos del Niño Nº 9
 
-                                               facultades del niño (Italia, Unicef).                   (Santiago, UNICEF).
+**Definición Canónica:** facultades del niño (Italia, Unicef).                   (Santiago, UNICEF).
+                                         38. LOUTAYF, Roberto y SOLÁ, Ernesto (2017):              48. PERRONE, Reynaldo y NANNINI, Martine (2007):
+
+facultades del niño (Italia, Unicef).                   (Santiago, UNICEF).
                                          38. LOUTAYF, Roberto y SOLÁ, Ernesto (2017):              48. PERRONE, Reynaldo y NANNINI, Martine (2007):
 
                                              “Principio de bilateralidad o contradicción en la         Violencia y abusos sexuales en la familia. Una
@@ -8686,7 +9321,14 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 41. MOSQUERA, Mario y MATURANA, Cristián                      del patronato al abogado del niño [ebook], (Bue-
 
-                                             (2014): Los recursos procesales, 2ª Edición, (San-        nos Aires, Eudeba).
+**Definición Canónica:** (2014): Los recursos procesales, 2ª Edición, (San-        nos Aires, Eudeba).
+                                             tiago, Editorial Jurídica de Chile).
+                                                                                                   52. THOBURN, June y SCHOFIELD, Gillian (1996):
+                                         42. NOGUEIRA ALCALÁ, Humberto (2010): “La                     Child Protection: The Voice of the Child in Deci-
+                                             acción constitucional de protección en Chile y            sion-making, (Londres, Institute for P
+**Concordancias Legales:** constitucion
+
+(2014): Los recursos procesales, 2ª Edición, (San-        nos Aires, Eudeba).
                                              tiago, Editorial Jurídica de Chile).
                                                                                                    52. THOBURN, June y SCHOFIELD, Gillian (1996):
                                          42. NOGUEIRA ALCALÁ, Humberto (2010): “La                     Child Protection: The Voice of the Child in Deci-
@@ -8700,14 +9342,24 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 43. NUÑEZ OJEDA, Raúl (2009): Negociación, media-
 
-                                             ción y conciliación, como métodos alternativos        1.   Acta 93-2005, Auto Acordado Relativo al Fun-
+**Definición Canónica:** ción y conciliación, como métodos alternativos        1.   Acta 93-2005, Auto Acordado Relativo al Fun-
+                                             de solución de controversias (Santiago, Ediciones          cionamiento de los Juzgados de Familia. Dispo-
+                                             Jurídicas de Santiago).                                    nible en https://www.leychile.cl/Navegar?idNor-
+                                                                                                        ma=242794, [consultado el 3 de mayo de 2020].
+
+ción y conciliación, como métodos alternativos        1.   Acta 93-2005, Auto Acordado Relativo al Fun-
                                              de solución de controversias (Santiago, Ediciones          cionamiento de los Juzgados de Familia. Dispo-
                                              Jurídicas de Santiago).                                    nible en https://www.leychile.cl/Navegar?idNor-
                                                                                                         ma=242794, [consultado el 3 de mayo de 2020].
 
 ## 44. NÚÑEZ, René y CORTÉS, Mauricio (2012): De-
 
-                                             recho procesal de familia. La primera reforma         2.   Acta 140-2007, Auto Acordado sobre confec-
+**Definición Canónica:** recho procesal de familia. La primera reforma         2.   Acta 140-2007, Auto Acordado sobre confec-
+                                             procesal civil en Chile (Santiago, Legal Publishing        ción de Lista de Peritos en el Procedimiento Civil,
+                                             Chile).                                                    Disponible en https://www.leychile.cl/Navegar?id-
+**Concordancias Legales:** Ley N° 20.286; Ley N° 19.968; Ley N° 20.680; Ley N° 20.830
+
+recho procesal de familia. La primera reforma         2.   Acta 140-2007, Auto Acordado sobre confec-
                                              procesal civil en Chile (Santiago, Legal Publishing        ción de Lista de Peritos en el Procedimiento Civil,
                                              Chile).                                                    Disponible en https://www.leychile.cl/Navegar?id-
 
@@ -8729,7 +9381,13 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 5.    Decreto 100, Constitución Política de la Repú-
 
-                                               blica de Chile, Diario Oficial, 22 de septiembre de   21. Ley N° 20.886, Modifica el Código de Proce-
+**Definición Canónica:** blica de Chile, Diario Oficial, 22 de septiembre de   21. Ley N° 20.886, Modifica el Código de Proce-
+                                               2005.                                                     dimiento Civil, para Establecer la Tramitación
+                                                                                                         Digital de los Procedimientos Judiciales. Diario
+                                         6.    Decreto 201, Convención sobre los Derechos de             Oficial, 18 de diciembre de 2015.
+**Concordancias Legales:** Ley N° 20.886
+
+blica de Chile, Diario Oficial, 22 de septiembre de   21. Ley N° 20.886, Modifica el Código de Proce-
                                                2005.                                                     dimiento Civil, para Establecer la Tramitación
                                                                                                          Digital de los Procedimientos Judiciales. Diario
                                          6.    Decreto 201, Convención sobre los Derechos de             Oficial, 18 de diciembre de 2015.
@@ -8737,36 +9395,51 @@ Juez(a) de familia                           de medidas de protección de
                                                las Personas con Discapacidad. Diario Oficial, 17
                                                de septiembre de 2008.
 
-
 ## 7.    Decreto 789, Convención sobre la Eliminación
 
-                                               de todas las Formas de Discriminación contra la             Jurisprudencia citada
+**Definición Canónica:** de todas las Formas de Discriminación contra la             Jurisprudencia citada
+                                               Mujer. Diario Oficial, 9 de diciembre de 1989.
+
+de todas las Formas de Discriminación contra la             Jurisprudencia citada
                                                Mujer. Diario Oficial, 9 de diciembre de 1989.
 
                                          8.    Decreto 830, Convención sobre los Derechos del        1.    Corte de Apelaciones de Arica, rol N° 34-2006,
                                                Niño. Diario Oficial, 27 de septiembre de 1990.             de 25 de agosto de 2006, (Recurso de Apelación).
 
-
-## 9.    Decreto 873, Convención Americana sobre Dere-         2.    Corte de Apelaciones de Concepción, rol N°
-
-                                               chos Humanos, Diario Oficial, 5 de enero de 1991.           373-2009, de 8 de octubre de 2009, (Recurso de
-
 ## 10. DFL N° 1, Código Civil. Diario Oficial, 30 de mayo
 
-                                             de 2000.                                                3.    Corte de Apelaciones de Concepción, rol N° 511-
+**Definición Canónica:** de 2000.                                                3.    Corte de Apelaciones de Concepción, rol N° 511-
+                                                                                                           2009, de 17 de noviembre de 2009, (Recurso de
+                                         11.   Ley N° 1.552, Código de Procedimiento Civil de              Apelación).
+                                               Chile, Diario Oficial, 30 de agosto de 1902.
+**Concordancias Legales:** Ley N° 1.552
+
+de 2000.                                                3.    Corte de Apelaciones de Concepción, rol N° 511-
                                                                                                            2009, de 17 de noviembre de 2009, (Recurso de
                                          11.   Ley N° 1.552, Código de Procedimiento Civil de              Apelación).
                                                Chile, Diario Oficial, 30 de agosto de 1902.
 
 ## 4.    Corte de Apelaciones de Concepción, rol N° 190-
 
-                                         12. Ley N° 5.750, Abandono de Familia y Pago de                   2014, de 1° de julio de 2014, (Recurso de Apela-
+**Definición Canónica:** 12. Ley N° 5.750, Abandono de Familia y Pago de                   2014, de 1° de julio de 2014, (Recurso de Apela-
+                                             Pensiones Alimenticias. Diario Oficial, 2 de di-              ción).
+                                             ciembre de 1935.
+**Concordancias Legales:** Ley N° 5.750
+
+12. Ley N° 5.750, Abandono de Familia y Pago de                   2014, de 1° de julio de 2014, (Recurso de Apela-
                                              Pensiones Alimenticias. Diario Oficial, 2 de di-              ción).
                                              ciembre de 1935.
 
 ## 5.    Corte de Apelaciones de Concepción, rol N° 31-
 
-                                         13. Ley N° 19.620, dicta Normas sobre Adopción de                 2018, de 20 de Septiembre de 2018, (Recurso de
+**Definición Canónica:** 13. Ley N° 19.620, dicta Normas sobre Adopción de                 2018, de 20 de Septiembre de 2018, (Recurso de
+                                             Menores. Diario Oficial, 5 de agosto de 1999.                 Apelación).
+                                         14. Ley N° 19.968, crea los Tribunales de Familia. Dia-     6.    Corte de Apelaciones de San Miguel, rol N° 967-
+                                             rio Oficial, 30 de agosto de 2004.                            2015, de 4 de enero de 2016, (Recurso de Apela-
+                                                          
+**Concordancias Legales:** Ley N° 19.620; Ley N° 19.968
+
+13. Ley N° 19.620, dicta Normas sobre Adopción de                 2018, de 20 de Septiembre de 2018, (Recurso de
                                              Menores. Diario Oficial, 5 de agosto de 1999.                 Apelación).
                                          14. Ley N° 19.968, crea los Tribunales de Familia. Dia-     6.    Corte de Apelaciones de San Miguel, rol N° 967-
                                              rio Oficial, 30 de agosto de 2004.                            2015, de 4 de enero de 2016, (Recurso de Apela-
@@ -8774,7 +9447,14 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 15. Ley N° 20.032, establece Sistema de Atención
 
-                                             a la Niñez y Adolescencia a través de la Red de         7.    Corte de Apelaciones de Santiago, rol N° 1773-
+**Definición Canónica:** a la Niñez y Adolescencia a través de la Red de         7.    Corte de Apelaciones de Santiago, rol N° 1773-
+                                             Colaboradores del SENAME, y su Régimen de                     2009, de 26 de agosto de 2009, (Recurso de Ape-
+                                             Subvención. Diario Oficial, 25 de julio de 2005.              lación).
+                                         16. Ley N° 20.066, establece Ley de Violencia Intra-        8.    Corte de Apelaciones de Santiago, rol N° 1777-
+                                             familiar. Diario Ofic
+**Concordancias Legales:** Ley N° 20.066
+
+a la Niñez y Adolescencia a través de la Red de         7.    Corte de Apelaciones de Santiago, rol N° 1773-
                                              Colaboradores del SENAME, y su Régimen de                     2009, de 26 de agosto de 2009, (Recurso de Ape-
                                              Subvención. Diario Oficial, 25 de julio de 2005.              lación).
                                          16. Ley N° 20.066, establece Ley de Violencia Intra-        8.    Corte de Apelaciones de Santiago, rol N° 1777-
@@ -8782,22 +9462,35 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 17.   Ley N° 20.084, establece un Sistema de Respon-
 
-                                               sabilidad de los Adolescentes por Infracciones        9.    Corte de Apelaciones de Santiago, rol N° 2171-
+**Definición Canónica:** sabilidad de los Adolescentes por Infracciones        9.    Corte de Apelaciones de Santiago, rol N° 2171-
+                                               a la Ley Penal. Diario Oficial, 7 de diciembre de           2009, de 21 de octubre de 2009, (Recurso de
+                                               2005.                                                       Apelación).
+
+sabilidad de los Adolescentes por Infracciones        9.    Corte de Apelaciones de Santiago, rol N° 2171-
                                                a la Ley Penal. Diario Oficial, 7 de diciembre de           2009, de 21 de octubre de 2009, (Recurso de
                                                2005.                                                       Apelación).
 
 Curso habilitante                                                                                 Bibliografía                                         211
 
-
 ## 10. Corte de Apelaciones de Santiago, rol N° 2268-       26. Corte Suprema, rol N° 5.468-13, de 28 de ene-
 
-                                             2009, de 21 de octubre de 2009, (Recurso de              ro de 2014, (recurso de casación en el fondo).
+**Definición Canónica:** 2009, de 21 de octubre de 2009, (Recurso de              ro de 2014, (recurso de casación en el fondo).
+                                             Apelación).                                              Disponible en http://www.derecho-chile.cl/
+                                                                                                      sentencia-corte-suprema-sienta-preceden-
+
+2009, de 21 de octubre de 2009, (Recurso de              ro de 2014, (recurso de casación en el fondo).
                                              Apelación).                                              Disponible en http://www.derecho-chile.cl/
                                                                                                       sentencia-corte-suprema-sienta-preceden-
 
 ## 11.   Corte de Apelaciones de Santiago, rol N° 313-          te-en-procedimientos-de-materias-de-fami-
 
-                                               2013, de 19 de abril de 2013, (Recurso de Apela-       lia-rige-el-principio-de-libertad-de-prueba/,
+**Definición Canónica:** 2013, de 19 de abril de 2013, (Recurso de Apela-       lia-rige-el-principio-de-libertad-de-prueba/,
+                                               ción).                                                 [consultado el 6 de mayo de 2020].
+                                         12. Corte de Apelaciones de Santiago, rol N° 16-         27.   Corte Suprema, rol N° 14.998-2018, de 30 de julio
+                                             2015, de 11 de febrero de 2015, (Recurso de                de 2018, (recurso de protección). Disponible en
+                                             Apelación).
+
+2013, de 19 de abril de 2013, (Recurso de Apela-       lia-rige-el-principio-de-libertad-de-prueba/,
                                                ción).                                                 [consultado el 6 de mayo de 2020].
                                          12. Corte de Apelaciones de Santiago, rol N° 16-         27.   Corte Suprema, rol N° 14.998-2018, de 30 de julio
                                              2015, de 11 de febrero de 2015, (Recurso de                de 2018, (recurso de protección). Disponible en
@@ -8806,17 +9499,22 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 13. Corte de Apelaciones de Santiago, rol N° 292-
 
-                                                                                                        COD_Opcion=1&COD_Corte, [consultado el 3 de
+**Definición Canónica:** COD_Opcion=1&COD_Corte, [consultado el 3 de
                                              2015, de 16 de marzo de 2015, (Recurso de Ape-
                                                                                                         mayo de 2020].
                                              lación).
 
-## 28. Corte Suprema, rol N° 6.219-2018, de 31 de octu-
-
+COD_Opcion=1&COD_Corte, [consultado el 3 de
+                                             2015, de 16 de marzo de 2015, (Recurso de Ape-
+                                                                                                        mayo de 2020].
+                                             lación).
 
 ## 14. Corte de Apelaciones de Santiago, rol N° 84-
 
-                                                                                                      bre de 2018 (recurso de casación en el fondo).
+**Definición Canónica:** bre de 2018 (recurso de casación en el fondo).
+                                             2015, de 23 de marzo de 2015, (Recurso de Ape-
+
+bre de 2018 (recurso de casación en el fondo).
                                              2015, de 23 de marzo de 2015, (Recurso de Ape-
 
                                              lación).                                             29. Corte Suprema, rol N° 26.184-2018, de 3 de enero
@@ -8827,70 +9525,89 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 16. Corte de Apelaciones de Santiago, rol N° 124-
 
-                                             2015, de 8 de abril de 2015, (Recurso de Apela-      31. Corte Suprema, rol N° 32.624-18, de 28 de marzo
+**Definición Canónica:** 2015, de 8 de abril de 2015, (Recurso de Apela-      31. Corte Suprema, rol N° 32.624-18, de 28 de marzo
+                                             ción).                                                   de 2019 (recurso de casación en el fondo).
+
+2015, de 8 de abril de 2015, (Recurso de Apela-      31. Corte Suprema, rol N° 32.624-18, de 28 de marzo
                                              ción).                                                   de 2019 (recurso de casación en el fondo).
 
 ## 17.   Corte de Apelaciones de Santiago, rol N° 387-      32. Corte Suprema, rol N° 25.198- 2018, de 28 de
 
-                                               2015, de 7 de mayo de 2015, (Recurso de Apela-         noviembre de 2019 (recurso de casación en el
+**Definición Canónica:** 2015, de 7 de mayo de 2015, (Recurso de Apela-         noviembre de 2019 (recurso de casación en el
                                                ción).                                                 fondo).
 
-## 18.    Corte de Apelaciones de Santiago, rol N° 633-     33. Corte Suprema, rol N° 12.639-2019, de 20 de abril
-
-                                               2015, de 20 de mayo de 2015, (Recurso de Ape-          de 2020 (recurso de casación en el fondo).
-                                               lación).
-
-## 34. Tribunal Constitucional, rol N° 1320, de 17 de
-
+2015, de 7 de mayo de 2015, (Recurso de Apela-         noviembre de 2019 (recurso de casación en el
+                                               ción).                                                 fondo).
 
 ## 19.   Corte de Apelaciones de Santiago, rol N° 1054-         marzo de 2009, (requerimiento de inaplicabilidad
 
-                                               2015, de 20 de julio de 2015, (Recurso de Apela-       por inconstitucionalidad). Disponible en http://
+**Definición Canónica:** 2015, de 20 de julio de 2015, (Recurso de Apela-       por inconstitucionalidad). Disponible en http://
+                                               ción).                                                 www.tribunalconstitucional.cl/expediente, [con-
+                                                                                                      sultado el 14 de mayo de 2020].
+**Concordancias Legales:** constitucion
+
+2015, de 20 de julio de 2015, (Recurso de Apela-       por inconstitucionalidad). Disponible en http://
                                                ción).                                                 www.tribunalconstitucional.cl/expediente, [con-
                                                                                                       sultado el 14 de mayo de 2020].
 
 ## 20. Corte de Apelaciones de Santiago, rol N° 1090-
 
-                                             2015, de 20 de julio de 2015, (Recurso de Apela-     35. Tribunal Constitucional, rol N° 2042-2011, de 10
+**Definición Canónica:** 2015, de 20 de julio de 2015, (Recurso de Apela-     35. Tribunal Constitucional, rol N° 2042-2011, de 10
+                                             ción).                                                   de julio de 2012 (requerimiento de inaplicabilidad
+                                                                                                      por inconstitucionalidad). Disponible en http://
+**Concordancias Legales:** Constitucion
+
+2015, de 20 de julio de 2015, (Recurso de Apela-     35. Tribunal Constitucional, rol N° 2042-2011, de 10
                                              ción).                                                   de julio de 2012 (requerimiento de inaplicabilidad
                                                                                                       por inconstitucionalidad). Disponible en http://
 
 ## 21. Corte de Apelaciones de Santiago, rol N° 2503-
 
-                                                                                                      www.tribunalconstitucional.cl/expediente, [con-
+**Definición Canónica:** www.tribunalconstitucional.cl/expediente, [con-
+                                             2015, de 18 de noviembre de 2015, (Recurso de
+                                                                                                      sultado el 10 de mayo de 2020].
+**Concordancias Legales:** constitucion
+
+www.tribunalconstitucional.cl/expediente, [con-
                                              2015, de 18 de noviembre de 2015, (Recurso de
                                                                                                       sultado el 10 de mayo de 2020].
 
-## 36. Tribunal Constitucional, rol N° 2961-16, de 18 de
-
-
 ## 22. Corte de Apelaciones de Rancagua, rol N°
 
-                                                                                                      abril de 2017 (requerimiento de inconstituciona-
+**Definición Canónica:** abril de 2017 (requerimiento de inconstituciona-
+                                             1-2009, de 13 de febrero de 2009, (Recurso de
+                                                                                                      lidad) Disponible en http://www.tribunalconstitu-
+                                                                                                      cional.cl/expediente, [consultado el 1 de mayo de
+                                         23. Corte de Apelaciones de Temuco, rol N° 413-              2020].
+                                             20
+**Concordancias Legales:** constitucion
+
+abril de 2017 (requerimiento de inconstituciona-
                                              1-2009, de 13 de febrero de 2009, (Recurso de
                                                                                                       lidad) Disponible en http://www.tribunalconstitu-
                                                                                                       cional.cl/expediente, [consultado el 1 de mayo de
                                          23. Corte de Apelaciones de Temuco, rol N° 413-              2020].
                                              2006, de 25 de octubre de 2006, (Recurso de
 
-
-## 24. Corte de Apelaciones de Valdivia, rol N° 750-
-
-                                             2008, de 4 de septiembre de 2008, (Recurso de
-
-
 ## 25. Corte Suprema, rol Nº 12.559-2011, de 9 de abril
 
-                                             de 2012, (Recurso de Protección).
+**Definición Canónica:** de 2012, (Recurso de Protección).
+
+de 2012, (Recurso de Protección).
 
 Curso habilitante                                                                                                                                         212
 
                                          Glosario
 
-
 ## 1.   Administrador: funcionario auxiliar de la admi-       10. Recurso de casación en la forma: acto jurídico
 
-                                              nistración de justicia encargado de organizar y           procesal de la parte agraviada, destinado a obte-
+**Definición Canónica:** nistración de justicia encargado de organizar y           procesal de la parte agraviada, destinado a obte-
+                                              controlar la gestión administrativa de los juzgados       ner del tribunal superior jerárquico la invalidación
+                                              de familia.                                               de una sentencia, por haber sido pronunciada
+                                                                                                        por el tribunal inferior con prescindencia de los
+                                
+
+nistración de justicia encargado de organizar y           procesal de la parte agraviada, destinado a obte-
                                               controlar la gestión administrativa de los juzgados       ner del tribunal superior jerárquico la invalidación
                                               de familia.                                               de una sentencia, por haber sido pronunciada
                                                                                                         por el tribunal inferior con prescindencia de los
@@ -8899,12 +9616,15 @@ Juez(a) de familia                           de medidas de protección de
                                               un estilo de vida o a una relación que no produce         ley establece.
                                               las recompensas esperadas.
 
-## 11. Recurso de casación en el fondo: acto jurídico
-
-
 ## 3.   Consejeros técnicos: auxiliares de la administra-         procesal de parte agraviada con determinadas
 
-                                              ción de justicia cuya función es asesorar indivi-         resoluciones judiciales, para obtener de la Corte
+**Definición Canónica:** ción de justicia cuya función es asesorar indivi-         resoluciones judiciales, para obtener de la Corte
+                                              dual o colectivamente a los jueces de familia con-        Suprema que las invalide por haberse pronun-
+                                              forme al artículo 457 del COT, con las atribuciones       ciado con una infracción de la ley que ha influido
+                                              señaladas en el artículo 5 de la Ley N° 19.968 y en
+**Concordancias Legales:** artículo 457 del COT; artículo 5 de la Ley N; Ley N° 19.968
+
+ción de justicia cuya función es asesorar indivi-         resoluciones judiciales, para obtener de la Corte
                                               dual o colectivamente a los jueces de familia con-        Suprema que las invalide por haberse pronun-
                                               forme al artículo 457 del COT, con las atribuciones       ciado con una infracción de la ley que ha influido
                                               señaladas en el artículo 5 de la Ley N° 19.968 y en
@@ -8923,7 +9643,13 @@ Juez(a) de familia                           de medidas de protección de
 
 ## 6.   Medidas cautelares: providencias o resoluciones           ofensor o una relación de convivencia con él; o
 
-                                              que se dictan durante la tramitación de un pro-           sea pariente por consanguinidad o por afinidad en
+**Definición Canónica:** que se dictan durante la tramitación de un pro-           sea pariente por consanguinidad o por afinidad en
+                                              ceso y que tienen por objeto otorgar a una de las         toda la línea recta o en la colateral hasta el tercer
+                                              partes, normalmente la demandante, la anticipa-           grado inclusive, del ofensor o de su cónyuge o de
+                                              ción provisoria de algunos efectos de la sentencia        su actual conviviente.
+                                              o decis
+
+que se dictan durante la tramitación de un pro-           sea pariente por consanguinidad o por afinidad en
                                               ceso y que tienen por objeto otorgar a una de las         toda la línea recta o en la colateral hasta el tercer
                                               partes, normalmente la demandante, la anticipa-           grado inclusive, del ofensor o de su cónyuge o de
                                               ción provisoria de algunos efectos de la sentencia        su actual conviviente.
@@ -8931,30 +9657,29 @@ Juez(a) de familia                           de medidas de protección de
                                               cia dañosa que podría derivar del retardo en la
                                               decisión del asunto sometido a su conocimiento.
 
-
 ## 7.   Protección del cónyuge más débil: consiste en
 
-                                              que uno de los cónyuges (más débil) queda en una
+**Definición Canónica:** que uno de los cónyuges (más débil) queda en una
                                               situación de desmedro económico frente al otro
                                               cónyuge (más fuerte) al momento del término del
                                               matrimonio, ya sea por divorcio o nulidad, lo que
                                               se traduce en escasas posibilidades de negocia-
                                               ción.
 
-
-## 8.   Recurso de reposición: acto jurídico procesal de
-
-                                              impugnación que emana exclusivamente de la
-
-## parte agraviada, y tiene por objeto solicitar al
-
-                                              mismo tribunal que dictó la resolución que la mo-
-                                              difique o deje sin efecto.
-
+que uno de los cónyuges (más débil) queda en una
+                                              situación de desmedro económico frente al otro
+                                              cónyuge (más fuerte) al momento del término del
+                                              matrimonio, ya sea por divorcio o nulidad, lo que
+                                              se traduce en escasas posibilidades de negocia-
+                                              ción.
 
 ## 9.   Recurso de apelación: acto jurídico procesal que
 
-                                              tiene por objeto obtener, del tribunal superior
+**Definición Canónica:** tiene por objeto obtener, del tribunal superior
+                                              respectivo, que enmiende con arreglo a derecho la
+                                              resolución del tribunal inferior.
+
+tiene por objeto obtener, del tribunal superior
                                               respectivo, que enmiende con arreglo a derecho la
                                               resolución del tribunal inferior.
 
@@ -8964,55 +9689,12 @@ Juez(a) de familia                           de medidas de protección de
 
                                          I. Modelo de Acta de Audiencia preparatoria en causa sobre Violencia Intrafamiliar
 
-
-## Acta de audiencia preparatoria sobre violencia intrafamiliar
-
-
-                                          FECHA                                                         EN …, a veintinueve de abril de dos mil ….
-
-
-## Ruc                                                           20-2-0000-3
-
-
-
-## Rit                                                           f-000-2020
-
-
-
-## Magistrado                                                    xxxxx
-
-
-                                          CONSEJERA TÉCNICO                                             CCC.
-
-
-## Encargada de acta                                             zzz
-
-
-                                          HORA DE INICIO                                                12:37 Horas
-
-                                          HORA DE TERMINO                                               13:07 Horas.
-
-
-## Nº REGISTRO DE AUDIO                                          0000
-
-
-                                          PARTE DENUNCIANTE COMPARECE                                   MARIA, RUN: domiciliada en .
-
-
-## Abogados comparecen                                           aaaaa
-
-
-                                          PARTE DENUNCIADA COMPARECE                                    JOHNNY, RUN: domiciliado en .
-
-
-## Abogado comparece                                             nnnn
-
-
-
 ## Apoderado                                                     eeee
 
+**Definición Canónica:** RESUMEN ACTUACIONES EFECTUADAS:                                                                 SI         NO   Pista audio
+**Concordancias Legales:** artículo 57 de la Ley 19.968; artículo 87; artículo 5 de la Ley 20.066 y por; artículo 61; artículos 28; Ley 19.968; Ley 20.066
 
-                                          RESUMEN ACTUACIONES EFECTUADAS:                                                                 SI         NO   Pista audio
+RESUMEN ACTUACIONES EFECTUADAS:                                                                 SI         NO   Pista audio
 
                                           Individualización Comparecientes                                                                X               1
 
@@ -9087,18 +9769,17 @@ Juez(a) de familia                           de medidas de protección de
                                                4. Informe psicológico efectuado por psicóloga PPP, de fecha 27 de agosto de 2018, respecto de la hija de la denunciante.
                                            b) Testimonial:
 
-## 1. l
-
-
-## 2. a
-
-
-## 3. m
-
-
 ## 4. j
 
-                                           c) Pericial
+**Definición Canónica:** c) Pericial
+                                              Peritaje psicológico de la denunciante a fin de evaluar y determinar las consecuencias psicológicas derivadas del maltrato
+                                              por parte del denunciado elaborado por la psicóloga doña RRR, inscrita en la nómina de peritos de la Iltma. Corte de XXX.
+                                           d) Oficios:
+                                               1. Ofíciese a ENTEL CHILE S.A, a fin de que remita al tribunal el historial de llamadas, con indicación de hora y fecha
+                            
+**Concordancias Legales:** artículo 52 de la Ley 19.968; artículo 52; artículo 29 de la Ley 19.968 modificado por la Ley 20.286; Ley 19.968; Ley 20.286
+
+c) Pericial
                                               Peritaje psicológico de la denunciante a fin de evaluar y determinar las consecuencias psicológicas derivadas del maltrato
                                               por parte del denunciado elaborado por la psicóloga doña RRR, inscrita en la nómina de peritos de la Iltma. Corte de XXX.
                                            d) Oficios:
@@ -9154,11 +9835,12 @@ Juez(a) de familia                           de medidas de protección de
 
                                          LA AUDIENCIA DE JUICIO NO SE SUSPENDERÁ BAJO NINGÚN MOTIVO POR FALTA DE PRUEBA DE LAS PARTES.
 
-
 ## Citacion a juicio-fecha                               21 de julio de 2020, a las 11:15 horas
 
+**Definición Canónica:** Curso habilitante                                                                                           Anexos                                                        216
+**Concordancias Legales:** artículo 10 de la Ley 20.066; Ley 19.968; Ley 20.066
 
-Curso habilitante                                                                                           Anexos                                                        216
+Curso habilitante                                                                                           Anexos                                                        216
 
                                           PRORROGA MEDIDA CAUTELAR:
                                            Visto:
@@ -9193,11 +9875,13 @@ Juez(a) de familia                           de medidas de protección de
 
                                           Abogado denunciado            X                                   X
 
-
 ## Rit: f-000-2020
 
+**Definición Canónica:** Registro íntegro de la audiencia se guarda en formato de audio, según acuerdo de la Excelentísima Corte Suprema, de
+                                           fecha 28 de enero de 2002.
+**Concordancias Legales:** artículo 8
 
-                                           Registro íntegro de la audiencia se guarda en formato de audio, según acuerdo de la Excelentísima Corte Suprema, de
+Registro íntegro de la audiencia se guarda en formato de audio, según acuerdo de la Excelentísima Corte Suprema, de
                                            fecha 28 de enero de 2002.
 
                                          Dirigió la audiencia y resolvió, Juez Titular del Juzgado de Familia de XXX, que firma electrónicamente al pie de la presente acta
@@ -9210,10 +9894,12 @@ Juez(a) de familia                           de medidas de protección de
                                                    1.   Las causas relativas al derecho de cuidado personal de los niños, niñas o adolescentes:
                                                         domicilio demandado.
 
-
 ## 2.   Las causas relativas al derecho y el deber del padre o de la madre que no tenga el
 
-                                                        cuidado personal del hijo, a mantener con este una relación directa y regular: domicilio
+**Definición Canónica:** cuidado personal del hijo, a mantener con este una relación directa y regular: domicilio
+                                                        demandado.
+
+cuidado personal del hijo, a mantener con este una relación directa y regular: domicilio
                                                         demandado.
 
                                                    3.   Las causas relativas a:
@@ -9226,52 +9912,59 @@ Juez(a) de familia                           de medidas de protección de
                                                                 Código Civil: si se trata de inmuebles, aquellos en que el bien estuviere situado
                                                                 (art. 153 COT).
 
-
 ## 4. Las causas relativas al derecho de alimentos: el del domicilio del alimentante o alimen-
 
-                                                      tario, a elección de este; en los juicios de aumentos, el o la juez que los decretó o el del
+**Definición Canónica:** tario, a elección de este; en los juicios de aumentos, el o la juez que los decretó o el del
+                                                      nuevo domicilio del alimentario, a elección de este; de las demandas de rebaja o cese
+                                                      de la pensión conocerá el tribunal del domicilio del alimentario.
+
+tario, a elección de este; en los juicios de aumentos, el o la juez que los decretó o el del
                                                       nuevo domicilio del alimentario, a elección de este; de las demandas de rebaja o cese
                                                       de la pensión conocerá el tribunal del domicilio del alimentario.
 
                                                    5.   Los disensos para contraer matrimonio: domicilio niño.
 
-
 ## 6.   Las guardas, con excepción de aquellas relativas a pupilos mayores de edad y aquellas
 
-                                                        que digan relación con la curaduría de la herencia yacente, sin perjuicio de lo establecido
+**Definición Canónica:** que digan relación con la curaduría de la herencia yacente, sin perjuicio de lo establecido
+                                                        en el inciso segundo del artículo 494 del Código Civil: domicilio del pupilo (art. 150 COT);
+                                                        curador ausente: último domicilio del ausente (art. 152 COT); curador de los derechos
+                                                        del que está por nacer: domicilio madre (art. 152 COT).
+**Concordancias Legales:** artículo 494 del Código Civil
+
+que digan relación con la curaduría de la herencia yacente, sin perjuicio de lo establecido
                                                         en el inciso segundo del artículo 494 del Código Civil: domicilio del pupilo (art. 150 COT);
                                                         curador ausente: último domicilio del ausente (art. 152 COT); curador de los derechos
                                                         del que está por nacer: domicilio madre (art. 152 COT).
 
-
 ## 7.   Todos los asuntos en que aparezcan niños, niñas o adolescentes gravemente vulnerados
 
-                                                        o amenazados en sus derechos, respecto de los cuales se requiera adoptar una medida
+**Definición Canónica:** o amenazados en sus derechos, respecto de los cuales se requiera adoptar una medida
                                                         de protección conforme al artículo 30 de la Ley de Menores: domicilio niño.
+**Concordancias Legales:** artículo 30 de la Ley de Menores
 
-
-## 8.   Las acciones de filiación y todas aquellas que digan relación con la constitución o mo-
-
-                                                        dificación del estado civil de las personas; Ley Nº 20.030: demandado o demandante
-                                                        a elección de este último.
-
+o amenazados en sus derechos, respecto de los cuales se requiera adoptar una medida
+                                                        de protección conforme al artículo 30 de la Ley de Menores: domicilio niño.
 
 ## 9.   Todos los asuntos en que se impute la comisión de cualquier falta a adolescentes
 
-                                                        mayores de 14 y menores de 16 años de edad, y las que se imputen a adolescentes
+**Definición Canónica:** mayores de 14 y menores de 16 años de edad, y las que se imputen a adolescentes
+                                                        mayores de 16 y menores de 18 años que no se encuentren contempladas en el inciso
+                                                        tercero del artículo 1 de la Ley N° 20.084: lugar donde se cometió el hecho; tratándose
+                                                        de hecho punible atribuido a niños y niñas: domicilio niño.
+**Concordancias Legales:** artículo 1 de la Ley N; Ley N° 20.084
+
+mayores de 14 y menores de 16 años de edad, y las que se imputen a adolescentes
                                                         mayores de 16 y menores de 18 años que no se encuentren contempladas en el inciso
                                                         tercero del artículo 1 de la Ley N° 20.084: lugar donde se cometió el hecho; tratándose
                                                         de hecho punible atribuido a niños y niñas: domicilio niño.
 
-
-## 10. La autorización para la salida de niños, niñas o adolescentes del país, en los casos en
-
-                                                       que corresponda de acuerdo con la ley: residencia del niño.
-
-
 ## 11. Las causas relativas al maltrato de niños, niñas o adolescentes de acuerdo a lo dispuesto
 
-                                                       en el inciso segundo del artículo 62 de la Ley Nº 16.618: domicilio niño.
+**Definición Canónica:** en el inciso segundo del artículo 62 de la Ley Nº 16.618: domicilio niño.
+**Concordancias Legales:** artículo 62 de la Ley Nº 16.618; Ley Nº 16.618; Ley Nº 19.620
+
+en el inciso segundo del artículo 62 de la Ley Nº 16.618: domicilio niño.
 
 Curso habilitante                                                                  Anexos                                           218
 
@@ -9280,15 +9973,12 @@ Juez(a) de familia                           de medidas de protección de
                                              pectiva institución, si se encontrare bajo el cuidado del Servicio Nacional de Menores
                                              o de un organismo acreditado.
 
-
-## 13. El procedimiento de adopción a que se refiere el Título III de la Ley Nº 19.620: domicilio
-
-                                             NNA (arts. 18, 23 y 34).
-
-
 ## 14. Los siguientes asuntos que se susciten entre cónyuges, relativos al régimen patrimonial
 
-                                             del matrimonio y los bienes familiares:
+**Definición Canónica:** del matrimonio y los bienes familiares:
+**Concordancias Legales:** Ley Nº 19.947; Ley Nº 19.968; constitución
+
+del matrimonio y los bienes familiares:
 
                                              a) Separación judicial de bienes: domicilio demandado; b) Las causas sobre declaración
                                              y desafectación de bienes familiares y la constitución de derechos de usufructo, uso o
@@ -9306,11 +9996,16 @@ Juez(a) de familia                           de medidas de protección de
 
                                          III. Matriz de análisis para casos de violencia intrafamiliar127
 
-
 ## Información general
 
+**Definición Canónica:** Número de rol:
+                                           Fecha:
+                                           Partes intervinientes:
+                                           Tipo de proceso:
+                                           Clase de decisión:
+                                           Autoridad que toma la decisión:
 
-                                           Número de rol:
+Número de rol:
                                            Fecha:
                                            Partes intervinientes:
                                            Tipo de proceso:
@@ -9319,11 +10014,15 @@ Juez(a) de familia                           de medidas de protección de
 
                                            PASO I: Identificación del caso
 
-
 ## 1.   Analizar el contexto en que se desarrollan los hechos
 
+**Definición Canónica:** Dar contexto, es leer e interpretar los hechos en el entorno social correspondiente, en el conjunto
+                                                        de condiciones y situaciones nacionales, regionales, locales y comunitarias, de carácter institu-
+                                                        cional, político, económico, social, religioso, cultural; tomar en cuenta las costumbres, la existencia
+                                                        de estereotipos de género, el valor dado a la mujer y personas en condición de vulnerabilidad en el
+                              
 
-                                                        Dar contexto, es leer e interpretar los hechos en el entorno social correspondiente, en el conjunto
+Dar contexto, es leer e interpretar los hechos en el entorno social correspondiente, en el conjunto
                                                         de condiciones y situaciones nacionales, regionales, locales y comunitarias, de carácter institu-
                                                         cional, político, económico, social, religioso, cultural; tomar en cuenta las costumbres, la existencia
                                                         de estereotipos de género, el valor dado a la mujer y personas en condición de vulnerabilidad en el
@@ -9340,11 +10039,14 @@ Juez(a) de familia                           de medidas de protección de
                                            Recuerde: Ubicar el lugar de ocurrencia del suceso (ciudad, localidad, hogar, lugar de trabajo, etcétera), ob-
                                            servando si se trata de un ambiente caracterizado por la desigualdad, discriminación y/o violencia.
 
-
 ## 2.   Identificar las partes o sujetos procesales, desde las “categorías sospechosas”
 
+**Definición Canónica:** Analizar si las personas o partes involucradas pertenecen a poblaciones que han sido históricamente
+                                                        discriminadas en razón de las “categorías sospechosas”: lengua, raza, etnia, religión, opinión política
+                                                        o filosófica, sexo, género y/o preferencia/orientación sexual, identidad de género, expresión de gé-
+                                                        nero, condiciones de pobreza, situación de calle, migración, discapacidad, privación de la libertad.
 
-                                                        Analizar si las personas o partes involucradas pertenecen a poblaciones que han sido históricamente
+Analizar si las personas o partes involucradas pertenecen a poblaciones que han sido históricamente
                                                         discriminadas en razón de las “categorías sospechosas”: lengua, raza, etnia, religión, opinión política
                                                         o filosófica, sexo, género y/o preferencia/orientación sexual, identidad de género, expresión de gé-
                                                         nero, condiciones de pobreza, situación de calle, migración, discapacidad, privación de la libertad.
@@ -9356,11 +10058,15 @@ Juez(a) de familia                           de medidas de protección de
 
 Curso habilitante                                                                                   Anexos                                                 220
 
-
 ## 3.   Identificar los derechos reclamados o vulnerados
 
+**Definición Canónica:** Es necesario determinar cuál o cuáles son los derechos reclamados o vulnerados; quién sufre la
+                                                     limitación en el ejercicio de estos derechos y quién está obligado en principio a garantizarlos y si
+                                                     los derechos son reclamados a título individual o colectivo. Es importante considerar, entre otros
+                                                     aspectos, si en el caso hay mujeres víctimas de discriminación y/o violencia (trata de personas,
+                                                 
 
-                                                     Es necesario determinar cuál o cuáles son los derechos reclamados o vulnerados; quién sufre la
+Es necesario determinar cuál o cuáles son los derechos reclamados o vulnerados; quién sufre la
                                                      limitación en el ejercicio de estos derechos y quién está obligado en principio a garantizarlos y si
                                                      los derechos son reclamados a título individual o colectivo. Es importante considerar, entre otros
                                                      aspectos, si en el caso hay mujeres víctimas de discriminación y/o violencia (trata de personas,
@@ -9370,10 +10076,12 @@ Juez(a) de familia                           de medidas de protección de
                                          la justicia atada a otro derecho vulnerado y es el o la juez quien la identifica y desentraña para garantizar el
                                          verdadero acceso a la justicia.
 
-
 ## 4.   Revisar la necesidad de disponer o no de medidas de protección
 
-                                                     Revisar la pertinencia de las medidas de protección cuando la situación lo amerite dada la inmi-
+**Definición Canónica:** Revisar la pertinencia de las medidas de protección cuando la situación lo amerite dada la inmi-
+                                                     nencia de graves peligros, agravios, lesiones para la vida e integridad de las personas, incluida la
+
+Revisar la pertinencia de las medidas de protección cuando la situación lo amerite dada la inmi-
                                                      nencia de graves peligros, agravios, lesiones para la vida e integridad de las personas, incluida la
 
                                                      muerte, o cuando existen posibilidades de abandono o retiro de su hábitat que generen peligro o
@@ -9385,11 +10093,15 @@ Juez(a) de familia                           de medidas de protección de
 
                                          PASO II: Análisis y desarrollo del caso
 
-
 ## 1.   Actuar con observancia de la debida diligencia judicial para garantizar el acceso a la justicia
 
+**Definición Canónica:** Debida diligencia, traducida para el Estado, es el deber de actuar para prevenir, investigar y san-
+                                                     cionar de manera efectiva y adecuada a los responsables de los actos de violencia y/o de los
+                                                     hechos puestos en consideración de la justicia. En este sentido, implica el deber de eliminar los
+                                                     obstáculos de jure o de facto que impidan la debida investigación de los hechos y el desarrollo de
+                                                   
 
-                                                     Debida diligencia, traducida para el Estado, es el deber de actuar para prevenir, investigar y san-
+Debida diligencia, traducida para el Estado, es el deber de actuar para prevenir, investigar y san-
                                                      cionar de manera efectiva y adecuada a los responsables de los actos de violencia y/o de los
                                                      hechos puestos en consideración de la justicia. En este sentido, implica el deber de eliminar los
                                                      obstáculos de jure o de facto que impidan la debida investigación de los hechos y el desarrollo de
@@ -9404,11 +10116,15 @@ Juez(a) de familia                           de medidas de protección de
                                          Recuerde: Cada juez y jueza debe asegurar que su actuar está precedido de los máximos elementos de ca-
                                          lidad para garantizar los derechos humanos y el acceso a la justicia.
 
-
 ## 2.   Identificar las relaciones de poder en la situación bajo estudio
 
+**Definición Canónica:** Revisar si en el caso subyace una relación asimétrica de poder (parejas, padres o madres con hijos,
+                                                     familiares frente a menores de edad o personas adultas, empleadores y trabajadores, etcétera).
+                                                     Identificar quién toma las decisiones, cómo se toman y, cuando sea del caso, verificar los mecanis-
+                                                     mos de participación en la toma de decisiones, por ejemplo, sobre el gasto en el hogar, la crianza
+                                               
 
-                                                     Revisar si en el caso subyace una relación asimétrica de poder (parejas, padres o madres con hijos,
+Revisar si en el caso subyace una relación asimétrica de poder (parejas, padres o madres con hijos,
                                                      familiares frente a menores de edad o personas adultas, empleadores y trabajadores, etcétera).
                                                      Identificar quién toma las decisiones, cómo se toman y, cuando sea del caso, verificar los mecanis-
                                                      mos de participación en la toma de decisiones, por ejemplo, sobre el gasto en el hogar, la crianza
@@ -9419,10 +10135,11 @@ Juez(a) de familia                           de medidas de protección de
                                          Recuerde: Uno de los elementos centrales de la desigualdad y la discriminación hace referencia al ejercicio
                                          injusto y arbitrario del poder, que perpetúa la desvalorización de la mujer frente al hombre.
 
-
 ## 3.   Identificar y tener en cuenta los roles, estereotipos, mitos y prejuicios que puedan surgir tanto
 
-                                                     desde la visión de jueces y juezas como de las intervenciones de las partes
+**Definición Canónica:** desde la visión de jueces y juezas como de las intervenciones de las partes
+
+desde la visión de jueces y juezas como de las intervenciones de las partes
 
                                                      Hacer un examen de los estereotipos posibles, considerando el contexto en que se desarrollan los
                                                      hechos y tomando en cuenta el grupo poblacional al que pertenecen las partes (la buena madre,
@@ -9437,11 +10154,14 @@ Juez(a) de familia                           de medidas de protección de
                                          directo en el mantenimiento de la desigualdad y la discriminación. El rol del juez es contribuir a superar estos
                                          prejuicios.
 
-
 ## 4. Identificar las manifestaciones sexistas que se presentan en el caso
 
+**Definición Canónica:** Son expresiones despectivas y generalizadas que minusvaloran a la mujer, dejando en evidencia
+                                                     un desprecio real o aparente de lo femenino. Por ejemplo, cuando se alude a la vida sexual de las
+                                                     mujeres que denuncian acoso sexual o abusos sexuales, o el tratar de flojas a las dueñas de casa,
+                                                     burlarse de hombres que denuncian violencia, etcétera.
 
-                                                     Son expresiones despectivas y generalizadas que minusvaloran a la mujer, dejando en evidencia
+Son expresiones despectivas y generalizadas que minusvaloran a la mujer, dejando en evidencia
                                                      un desprecio real o aparente de lo femenino. Por ejemplo, cuando se alude a la vida sexual de las
                                                      mujeres que denuncian acoso sexual o abusos sexuales, o el tratar de flojas a las dueñas de casa,
                                                      burlarse de hombres que denuncian violencia, etcétera.
@@ -9449,10 +10169,11 @@ Juez(a) de familia                           de medidas de protección de
                                          Recuerde: Usar un lenguaje incluyente, respetuoso y no invisibilizador de las personas, dado que esto es parte
                                          de la garantía del acceso a la justicia, en términos de la dignidad humana.
 
-
 ## 5.   Establecer si concurren dos o más discriminaciones en el caso (género, raza, sexo, etnia, edad)
 
-                                                     por lo que se requiere el análisis de la interseccionalidad
+**Definición Canónica:** por lo que se requiere el análisis de la interseccionalidad
+
+por lo que se requiere el análisis de la interseccionalidad
 
                                                      La interseccionalidad es una herramienta metodológica que ayuda a entender cómo se cruzan, en
                                                      una persona o colectivo, diferentes categorías sospechosas de discriminación (una mujer, mapuche,
@@ -9466,10 +10187,11 @@ Juez(a) de familia                           de medidas de protección de
 
                                          PASO III: Revisión de las pruebas
 
-
 ## 1.   Examinar las pruebas bajo el esquema propio de valoración, en especial las relacionadas con la
 
-                                                     discriminación o la violencia, dado que a veces no se logra la prueba directa
+**Definición Canónica:** discriminación o la violencia, dado que a veces no se logra la prueba directa
+
+discriminación o la violencia, dado que a veces no se logra la prueba directa
 
 Curso habilitante                                                                                  Anexos                                                222
 
@@ -9511,10 +10233,13 @@ Juez(a) de familia                           de medidas de protección de
 
                                          PASO IV: Examen normativo
 
-
 ## 1.   Revisar y aplicar las normas que conciernen al caso teniendo en cuenta que, en materia de
 
-                                                     derechos humanos, discriminación y acceso a la justicia, el marco normativo para el país es
+**Definición Canónica:** derechos humanos, discriminación y acceso a la justicia, el marco normativo para el país es
+                                                     amplio
+**Concordancias Legales:** Constitución
+
+derechos humanos, discriminación y acceso a la justicia, el marco normativo para el país es
                                                      amplio
 
                                                      Chile cuenta con numerosas normas nacionales (Constitución, leyes, decretos, etcétera) dirigidas
@@ -9531,10 +10256,11 @@ Juez(a) de familia                           de medidas de protección de
                                          virtud de ellos, el Estado recibe un conjunto de recomendaciones entre las cuales se releva el rol del Poder
                                          Judicial.
 
-
 ## 2.   Analizar la aparente neutralidad de la norma a fin de determinar su alcance discriminatorio y
 
-                                                     evaluar el impacto diferenciado en su aplicación
+**Definición Canónica:** evaluar el impacto diferenciado en su aplicación
+
+evaluar el impacto diferenciado en su aplicación
 
                                                      El o la juez debe asegurar que la lectura e interpretación de la ley responda a garantizar a todas las
                                                      personas el pleno ejercicio de sus derechos, sin distinción. Para ello ha de tener presente el carácter
@@ -9549,10 +10275,11 @@ Juez(a) de familia                           de medidas de protección de
 
                                          PASO V: Revisión de jurisprudencia y fuentes del derecho
 
-
 ## 1.   Revisar y usar la jurisprudencia, la doctrina jurídica, los principios generales del derecho y los
 
-                                                     criterios de interpretación jurídica
+**Definición Canónica:** criterios de interpretación jurídica
+
+criterios de interpretación jurídica
 
                                                      A nivel nacional e internacional, existe amplia doctrina y jurisprudencia que versa sobre casos que
                                                      tratan acerca de la desigualdad, discriminación y violencia en razón del género. Su consulta aporta
@@ -9566,10 +10293,11 @@ Juez(a) de familia                           de medidas de protección de
 
                                          PASO VI: La sentencia
 
-
 ## 1.   Elaborar una decisión (sentencia) en un plazo razonable, con prioridad, dirigida a asegurar la
 
-                                                     igualdad, la no discriminación y el acceso a la justicia
+**Definición Canónica:** igualdad, la no discriminación y el acceso a la justicia
+
+igualdad, la no discriminación y el acceso a la justicia
 
                                                      Las decisiones judiciales deberán considerar una estructura lógica que nivele las asimetrías de
                                                      poder, que evite la revictimización de las partes, sin estereotipos ni prejuicios, sin manifestaciones
@@ -9591,10 +10319,12 @@ Juez(a) de familia                           de medidas de protección de
                                          derechos vulnerados sean restablecidos, o mitigado al máximo posible el daño, así como un mecanismo para
                                          la reparación total cuando proceda.
 
-
 ## 2.   Elaborar la decisión con tal rigor que conlleve un efecto pedagógico orientado a la
 
-                                                     transformación cultural y a la no continuidad de conductas discriminatorias y violentas,
+**Definición Canónica:** transformación cultural y a la no continuidad de conductas discriminatorias y violentas,
+                                                     asegurando el acceso a la justicia
+
+transformación cultural y a la no continuidad de conductas discriminatorias y violentas,
                                                      asegurando el acceso a la justicia
 
                                                      En general, la argumentación y el sentido de la sentencia constituyen aportes en el entendimiento
@@ -9608,11 +10338,15 @@ Juez(a) de familia                           de medidas de protección de
                                          justicia y la garantía de la igualdad y no discriminación pasan por pensar y actuar como el mejor juez o jueza
                                          que sabe el derecho y toma decisiones que garantizan y protegen derechos.
 
-
 ## 3.   Dictar medidas de reparación integral
 
+**Definición Canónica:** La decisión judicial debe restablecer el derecho vulnerado y, cuando lo amerite, disponer medidas
+                                                     de reparación del daño, o de medidas de acción afirmativa, que promuevan la igualdad real y la
+                                                     inclusión plena y efectiva en la sociedad; de igual manera, disponer medidas de protección cuan-
+                                                     do se esté ante un trato degradante o inhumano, y medidas especiales en caso de personas que
+                                                     tenga
 
-                                                     La decisión judicial debe restablecer el derecho vulnerado y, cuando lo amerite, disponer medidas
+La decisión judicial debe restablecer el derecho vulnerado y, cuando lo amerite, disponer medidas
                                                      de reparación del daño, o de medidas de acción afirmativa, que promuevan la igualdad real y la
                                                      inclusión plena y efectiva en la sociedad; de igual manera, disponer medidas de protección cuan-
                                                      do se esté ante un trato degradante o inhumano, y medidas especiales en caso de personas que
@@ -9711,18 +10445,3 @@ Juez(a) de familia                           de medidas de protección de
                                                   Plazo
 
                                                                                       Firma Consejero Técnico
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

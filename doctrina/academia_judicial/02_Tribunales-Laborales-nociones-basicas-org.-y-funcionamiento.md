@@ -13,19 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tribunales
+             Laborales:
+             de organización
+             y funcionamiento
 
-             Tribunales
+Tribunales
              Laborales:
              de organización
              y funcionamiento
@@ -47,19 +42,22 @@ extraccion: pdftotext
                                                   Cabezas
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Mario
+                                    Alruiz
+                                    Valenzuela
+                          Ingeniero comercial de la Universidad
+                          de Talca y magíster en Educación
+                          para la educación superior por la
+                          Universidad Santo Tomás. A partir de
+                          2001 y hasta la fecha, se desempeña
+                          en el Poder Judicial como Adminis-
+                          trador de tribunal en el Juzgado de
+                          Letras del Trabajo de Talca. Desde
+            
 
-                          Mario
+Mario
                                     Alruiz
                                     Valenzuela
                           Ingeniero comercial de la Universidad
@@ -93,26 +91,20 @@ docente Nº 19             tribunal, ejerce el cargo de juez titular
 Santiago,                 del Juzgado de Letras del Trabajo de
 Chile 2021                Talca.
 
-
-## Isbn n°
-
-
-## 2022-a-1837
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Nelson
+                                          Lorca
+                                          Poblete
+                                     Abogado de la Universidad de Talca
+                                     y magíster en Derecho de esa misma
+                                     casa de estudios, se desempeña en el
+                                     Poder Judicial desde 2006. A partir
+                                     de 2009 sirve el cargo de Relator
+                                     de la Iltma. Corte de Apelaciones
+                                     de Talca. Cuenta con expe
 
-                                     Nelson
+Nelson
                                           Lorca
                                           Poblete
                                      Abogado de la Universidad de Talca
@@ -172,492 +164,35 @@ Chile 2021                Talca.
 
                                         1. Poder Judicial: generalidades, principales funciones, organización y composición                            10
 
-
-## 1.1 Definición y funciones principales                                                                      11
-
-
-
-## 1.2 Organización                                                                                            14
-
-
-
-## 1.3 Corte Suprema                                                                                           15
-
-
-
-## 1.4 Cortes de Apelaciones                                                                                   16
-
-
-
-## 1.5 Tribunales de primera instancia                                                                         17
-
-
-
-## 1.6 Transparencia y Poder Judicial                                                                          21
-
-
-
 ## 1.7 La Ética Judicial                                                                                       23
 
+**Definición Canónica:** Ejercicio práctico                                                                                    24
 
-                                                 Ejercicio práctico                                                                                    24
+Ejercicio práctico                                                                                    24
 
                                         2. Funcionamiento y composición de los Juzgados de Letras del Trabajo                                          25
 
-
-## 2.1 Definición, competencias, tipologías, organización y funcionamiento en general                          26
-
-
-
-## 2.2 Su competencia en razón de la materia                                                                   28
-
-
-
-## 2.3 La competencia en razón del territorio                                                                  30
-
-
-
-## 2.4 Algunas cuestiones importantes en relación con la competencia                                           31
-
-
-                                                 Ejercicio práctico                                                                                    31
-
-
-## 2.5 Organización                                                                                            32
-
-
-
-## 2.6 Funcionamiento en general                                                                               34
-
-
-
-## 2.6.1 Normas que se aplican en los procedimientos que tramitan los Juzgados de Letras
-
-                                                       del Trabajo y de Cobranza Laboral y Previsional                                                 34
-
-
-## 2.7 Procedimientos de que conocen y cuándo procede su utilización                                           38
-
-
-
-## 2.7.1 Procedimiento de aplicación general (arts. 446 a 462 del CT)                                    38
-
-
-
-## 2.7.2 Procedimiento monitorio (arts. 496 a 502 del CT)                                                38
-
-
-
-## 2.7.3 Procedimiento de reclamación de multas y demás resoluciones administrativas
-
-                                                       (arts. 503 a 504 del CT)                                                                        38
-
-
-## 2.7.4 Procedimiento de tutela laboral (arts. 485 al 495 del CT)                                       39
-
-
-
-## 2.7.5 Procedimiento ejecutivo para el cumplimiento de la sentencia firme y otros títulos ejecutivos
-
-                                                       (arts. 463 a 473 del CT)                                                                        39
-
-
-## 2.8 La tramitación de un procedimiento de aplicación general                                                40
-
-
-
-## 2.8.1 El inicio del procedimiento                                                                     41
-
-
-
-## 2.8.2 Análisis de admisibilidad y eventual declaración oficiosa                                       42
-
-Tribunales Laborales:                                                             Índice                                                        6
-
-
-## 2.8.3 La contestación a la demanda o denuncia (art. 452 del CT)                            44
-
-
-
-## 2.8.4 La audiencia preparatoria (art. 453 del CT)                                          45
-
-
-
-## 2.8.5 La audiencia de juicio (art. 454 del CT)                                             47
-
-
-
-## 2.8.6 La sentencia                                                                         48
-
-
-
-## 2.8.7 Eventuales recursos                                                                  48
-
-
-
-## 2.8.8 Paso a cumplimiento (art. 462 del CT)                                                48
-
-
-
-## 2.9 La tramitación de un procedimiento monitorio                                                49
-
-
-
-## 2.9.1 La fase administrativa                                                               49
-
-
-
-## 2.9.2 Inicio del procedimiento                                                             50
-
-
-
-## 2.9.3 Análisis de admisibilidad y eventual declaración oficiosa                            50
-
-
-
-## 2.9.4 Resolución del juez acerca de la demanda (art. 500 del CT)                           50
-
-
-
-## 2.9.5 Reclamo de la resolución en el procedimiento monitorio                               51
-
-
-
-## 2.9.6 La audiencia única                                                                   51
-
-
-
-## 2.10 La tramitación de un procedimiento de tutela laboral. Algunas reglas especiales.           53
-
-
-
-## 2.11 El reclamo de multas y resoluciones administrativas                                        55
-
-
-                                                Ejercicio práctico                                                                         56
-
-
-## 3. Unidades de Administración de Causas, de Sala y de Cumplimiento                                 57
-
-
-
-## 3.1 Objetivo y principales cargos de cada unidad (en tribunales de tamaño mayor) o sub-unidad
-
-                                                (en los de tamaño mediano o menor)                                                         58
-
-
-## 3.1.1 Unidad de Administración de Causas                                                   58
-
-
-
-## 3.1.2 Unidad de Sala                                                                       58
-
-
-
-## 3.1.3 Unidad de Cumplimiento                                                               71
-
-
-
-## 3.1.4 Cargos y funciones principales en la Unidad de Causas, Sala y Cumplimiento           72
-
-
-
-## 3.2 Tramitación y distribución de causas                                                        88
-
-
-
-## 3.2.1 Ingreso                                                                              88
-
-
-
-## 3.2.2 Distribución de causas                                                               89
-
-
-
-## 3.2.3 Solicitudes y presentaciones                                                         89
-
-
-
-## 3.2.4 Control y resolución de escritos en los plazos establecidos                          90
-
-
-
 ## 3.3 Agendamiento de audiencias                                                                  92
 
- Tribunales Laborales:                                                                             Índice                                          7
+**Definición Canónica:** Tribunales Laborales:                                                                             Índice                                          7
+
+Tribunales Laborales:                                                                             Índice                                          7
 
                                                                  Ejercicio práctico                                                          94
 
-
-## 3.4 Cumplimiento de sentencias y otros títulos ejecutivos                          95
-
-
-
-## 4. Unidad de Atención de Público                                                      97
-
-
-
-## 4.1   Integrantes y principales funciones de la Unidad de Atención de Público     102
-
-
-
-## 4.1.1   Integrantes                                                         102
-
-
-
-## 4.1.2   Funciones de la unidad de atención de público                       102
-
-
-
-## 4.2   Protocolos de Atención de Usuarios                                          108
-
-
-
-## 4.2.1   Protocolo de Atención de Usuarios con Menor Conocimiento Jurídico   109
-
-
-
-## 4.2.2   Protocolo de Atención de Usuarios con Mayor Conocimiento Jurídico   111
-
-
-
-## 4.3   Manejo de usuarios complejos                                                114
-
-
-
-## 4.4   Sistemas públicos de información para la atención de usuarios               115
-
-
-
-## 4.4.1   Portal web del Poder Judicial                                       115
-
-
-
-## 4.4.2   Información sobre audiencias                                        117
-
-
-
-## 4.4.3   Traducción para las personas con dificultades de comunicación       117
-
-
-4.5                                                              Notificaciones y citaciones                                                 118
-
-
-## 4.6   Registro de información de instituciones relacionadas                       119
-
-
-
-## 4.7   Documentación recibida y correspondencia despachada                         122
-
-
-
-## 4.7.1   Principales documentos recibidos por los tribunales                 122
-
-
-
-## 4.7.2   Principales documentos despachados por los tribunales               124
-
-
-                                                                 Ejercicio práctico                                                          126
-
-
-## 5. Unidad de Servicios                                                               127
-
-
-
-## 5.1   Organización y principales funciones                                        128
-
-
-
-## 5.1.1   Integrantes                                                         128
-
-
-
-## 5.2   Funciones de la Unidad de Servicios                                         131
-
-
-
-## 5.2.1   Planificación de compras anuales                                    132
-
-
-
-## 5.2.2   Adquisiciones                                                       132
-
-
-
-## 5.3   Convenio marco                                                              134
-
-
-
 ## 5.4   Licitación pública                                                          136
 
-
- ←                                        Índice de contenidos
+**Definición Canónica:** ←                                        Índice de contenidos
 Tribunales Laborales:                                                                             Índice                                           8
 
-
-## 5.5   Licitación privada                                                            137
-
-
-
-## 5.6   Trato directo (Contratación directa)                                          139
-
-
-
-## 5.7   Compra Ágil                                                                   140
-
-
-
-## 5.7.1   Orientaciones sobre el uso del mecanismo de Compra Ágil               141
-
-
-
-## 5.7.2   Directrices para el uso del mecanismo de Compra Ágil                  143
-
-
-
-## 5.8   Autorización de compras y delegación de facultades                            148
-
-
-
-## 5.8.1   Administración de la bodega y su resguardo                            148
-
-
-
-## 5.8.2   Dirección y control de activo fijo y equipos críticos                 151
-
-
-
-## 5.8.3   Recaudación, custodia y depósito de fondos que ingresen al tribunal   153
-
-
-
-## 5.8.4   Gestión de requerimientos de soporte técnico                          154
-
-
-
-## 5.8.5   Control de la gestión de las cuentas corrientes del tribunal          155
-
-
-
-## 5.9   Cuenta corriente Operacional                                                  156
-
-
-
-## 5.9.1   Planilla de control                                                   156
-
-
-
-## 5.9.2   Control, registro de facturas, egreso y giro de cheques               156
-
-
-
-## 5.9.3   Copia cedible                                                         157
-
-
-
-## 5.9.4   Fondo fijo para gastos menores                                        157
-
-
-
-## 5.10 Cuenta corriente Jurisdiccional                                                161
-
-
-
-## 6. Tramitación electrónica                                                             166
-
-
-
-## 6.1   Ley Nº 20.886 (Auto acordado N° 71-2016): características                     167
-
-
-
-## 6.1.2   Principios que rigen la tramitación electrónica                       168
-
-
-
-## 6.2   Dispositivos electrónicos: Firma Electrónica Avanzada y georreferenciación    170
-
-
-
-## 6.2.1   Firma Digital Electrónica (Ley Nº 19.799)                             171
-
-
-
-## 6.2.2   Características Firma Electrónica Avanzada                            172
-
-
-
-## 6.2.3   Georreferenciación                                                    175
-
-
-
-## 6.3   Uso de los sistemas SITLA y SITCO                                             177
-
-
-
-## 7. Gestión administrativa                                                              181
-
-
-
-## 7.1   Planificación                                                                 182
-
-
-
-## 7.1.1   Recursos humanos                                                      183
-
-
-Tribunales Laborales:                                                                Índice                                         9
-
-
-## 7.1.2 Servicios                                                              185
-
-
-
-## 7.1.3 Procesos                                                               185
-
-
-
-## 7.2   Organización                                                                 188
-
-
-
-## 7.3   Dirección                                                                    190
-
-
-
-## 7.4   Control                                                                      191
-
-
-
-## 7.5   Gestión administrativa y principales procedimientos                          192
-
-
-
-## 7.5.1   Distribución del personal                                            192
-
-
-                                                 Ejercicio práctico                                                           198
-
-
-## 7.5.2   Modelos de polifuncionalidad y matriz de subrogaciones               198
-
-
-                                                 Ejercicio práctico                                                           200
-
-
-## 7.5.3   Protocolo de inducción al personal nuevo                             202
-
-
-
-## 7.5.4   Decretos económicos                                                  207
-
-
+←                                        Índice de contenidos
+Tribunales Laborales:                                                                             Índice                                           8
 
 ## 7.5.5   Metas de gestión de desempeño colectivo y eficiencia institucional   208
 
+**Definición Canónica:** Anexos                                                                                215
 
-                                        Anexos                                                                                215
+Anexos                                                                                215
 
                                                                   Poder Judicial:
                                                                  generalidades,
@@ -677,10 +212,12 @@ de organización y                                                       organiz
 
                                                                        Videocápsula: Atribuciones y facultades del Poder Judicial
 
-
 ## 1.1     Definición y
 
-                                                                       funciones principales
+**Definición Canónica:** funciones principales
+**Concordancias Legales:** artículo 4; artículo 76 de la Carta Fundamental; Constitución Política; constitucion
+
+funciones principales
 
                                                                        Dentro de la estructura del Estado, históricamente se han distinguido
                                                                        tres poderes, cada uno con sus funciones específicas. Así, encontramos
@@ -775,11 +312,14 @@ de organización y                                                 organización
 nociones básicas                                                        principales funciones,
 de organización y                                                       organización y composición
 
-
 ## 1.2     Organización
 
+**Definición Canónica:** Como se dijo, el Poder Judicial está conformado por los tribunales de
+                                                                       justicia. Sin perjuicio de ello, en su interior existe una organización
+                                                                       que se afinca, fundamentalmente, en la jerarquía de los tribunales
+                                                                       que lo conforman.
 
-                                                                       Como se dijo, el Poder Judicial está conformado por los tribunales de
+Como se dijo, el Poder Judicial está conformado por los tribunales de
                                                                        justicia. Sin perjuicio de ello, en su interior existe una organización
                                                                        que se afinca, fundamentalmente, en la jerarquía de los tribunales
                                                                        que lo conforman.
@@ -798,10 +338,12 @@ de organización y                                                       organiz
 nociones básicas                                                        principales funciones,
 de organización y                                                       organización y composición
 
-
 ## 1.3     Corte
 
-                                                                       Suprema
+**Definición Canónica:** Suprema
+**Concordancias Legales:** constitucion
+
+Suprema
 
                                                                        A la cabeza del Poder Judicial se encuentra la Corte Suprema de
                                                                        Justicia, que es el máximo tribunal del país. Se trata de un tribunal
@@ -839,10 +381,11 @@ de organización y                                                       organiz
 nociones básicas                                                        principales funciones,
 de organización y                                                       organización y composición
 
-
 ## 1.4     Cortes de
 
-                                                                       Apelaciones
+**Definición Canónica:** Apelaciones
+
+Apelaciones
 
                                                                        En nuestro país existen 17 Cortes de Apelaciones, con asiento en
                                                                        Arica, Iquique, Antofagasta, Copiapó, La Serena, Valparaíso, Santiago,
@@ -873,10 +416,12 @@ de organización y                                                       organiz
 nociones básicas                                                        principales funciones,
 de organización y                                                       organización y composición
 
-
 ## 1.5     Tribunales de
 
-                                                                       primera instancia
+**Definición Canónica:** primera instancia
+**Concordancias Legales:** artículo 16; Ley Nº 19.968; Ley Nº 17.322; Ley N° 20.022; Ley N° 20.052
+
+primera instancia
 
                                                                        En la base del Poder Judicial se encuentran los tribunales de primera
                                                                        instancia, que son, salvo excepciones, los primeros en ser llamados
@@ -1015,10 +560,12 @@ de organización y                                                 organización
 nociones básicas                                                            principales funciones,
 de organización y                                                           organización y composición
 
-
 ## 1.6        Transparencia
 
-                                                                           y Poder Judicial
+**Definición Canónica:** y Poder Judicial
+**Concordancias Legales:** Ley Nº 20.285; Constitución Política
+
+y Poder Judicial
 
                                                 El Poder Judicial          En el mundo actual, en todas las actividades que desarrollan los
                                                                            Estados, la transparencia en sus actuaciones ha adquirido una impor-
@@ -1079,10 +626,12 @@ de organización y                                                 organización
 nociones básicas                                                        principales funciones,
 de organización y                                                       organización y composición
 
-
 ## 1.7     La Ética
 
-                                                                       Judicial
+**Definición Canónica:** Judicial
+**Concordancias Legales:** Ley Nº 20.022
+
+Judicial
 
                                                                        La Ética Judicial está estrechamente relacionada con el principio de
                                                                        independencia judicial e implica el deber, de todo juez, de adoptar
@@ -1195,7 +744,14 @@ de organización y                                                    de Letras 
 
 ## parte del Poder Judicial y están encargados de resolver los conflictos
 
-                                                                      que se suscitan entre trabajadores y empleadores; entre estos últimos
+**Definición Canónica:** que se suscitan entre trabajadores y empleadores; entre estos últimos
+                                                                      y el Estado, que fiscaliza el cumplimiento de las leyes laborales, y
+                                                                      también, en aquellos territorios en que no existen Juzgados de Co-
+                                                                      branza Laboral y Previsional, conocen de la cobranza ejecutiva de
+                                                                      títulos laborales y previsionales.
+**Concordancias Legales:** artículo 422 del Código del Trabajo; Ley Nº 20.022
+
+que se suscitan entre trabajadores y empleadores; entre estos últimos
                                                                       y el Estado, que fiscaliza el cumplimiento de las leyes laborales, y
                                                                       también, en aquellos territorios en que no existen Juzgados de Co-
                                                                       branza Laboral y Previsional, conocen de la cobranza ejecutiva de
@@ -1219,10 +775,12 @@ nociones básicas                                               composición de 
 nociones básicas                                                         composición de los Juzgados
 de organización y                                                        de Letras del Trabajo
 
-
 ## 2.2      Su competencia en
 
-                                                                          razón de la materia
+**Definición Canónica:** razón de la materia
+**Concordancias Legales:** artículo 420 del Código del Trabajo y algunas leyes especiales; artículo 12 del Código; artículo 75 del Estatuto Docente; artículo 4 de la Ley Nº 17.322; artículo 75 de la Ley Nº 19.518; artículo 421 del Código del Trabajo establece la; artículo 422 del Código del Trabajo; Ley Nº 17.322; Ley Nº 19.518
+
+razón de la materia
 
                                                                           ¿Qué asuntos o materias deben resolver los Juzgados de Letras del Trabajo?
                                                                           La competencia de estos tribunales está determinada por la ley en el
@@ -1305,10 +863,12 @@ nociones básicas                                               composición de 
 nociones básicas                                                         composición de los Juzgados
 de organización y                                                        de Letras del Trabajo
 
-
 ## 2.3       La competencia en razón
 
-                                                                          del territorio
+**Definición Canónica:** del territorio
+**Concordancias Legales:** artículo 423 del Código del; artículos 415; artículo 418
+
+del territorio
 
                                                                           ¿Cuándo un Juzgado de Letras del Trabajo es territorialmente competente?
                                                                           Recordemos que cada tribunal es competente para conocer de las
@@ -1339,10 +899,12 @@ de organización y                                                        de Let
 nociones básicas                                                     composición de los Juzgados
 de organización y                                                    de Letras del Trabajo
 
-
 ## 2.4    Algunas cuestiones importantes en
 
-                                                                      relación con la competencia
+**Definición Canónica:** relación con la competencia
+**Concordancias Legales:** artículo 447 del Código del Trabajo obliga al tribunal a decla
+
+relación con la competencia
 
                                                                       ¿Cómo saber cuál es la materia para determinar si se es competente?
                                                                       Se debe analizar la petición que se hace al tribunal en la respec-
@@ -1379,11 +941,16 @@ de organización y                                                    de Letras 
 nociones básicas                                                 composición de los Juzgados
 de organización y                                                de Letras del Trabajo
 
-
 ## 2.5   Organización
 
+**Definición Canónica:** Tipologías en los Juzgados de Letras del Trabajo
+                                                                     La tipología de tribunales dice relación con la fijación de categorías
+                                                                     de juzgados, teniendo en consideración principalmente su tamaño
+                                                                     (cantidad de personas que lo componen) y su competencia en razón
+                                                                     de la materia de que conocen.
+**Concordancias Legales:** Ley Nº 20.022
 
-                                                                     Tipologías en los Juzgados de Letras del Trabajo
+Tipologías en los Juzgados de Letras del Trabajo
                                                                      La tipología de tribunales dice relación con la fijación de categorías
                                                                      de juzgados, teniendo en consideración principalmente su tamaño
                                                                      (cantidad de personas que lo componen) y su competencia en razón
@@ -1429,26 +996,26 @@ de organización y          de Letras del Trabajo
 nociones básicas                                                     composición de los Juzgados
 de organización y                                                    de Letras del Trabajo
 
-
 ## 2.6    Funcionamiento
 
-                                                                      en general
+**Definición Canónica:** en general
+
+en general
 
                                                                       En los siguientes acápites, se revisarán los principales procedimien-
                                                                       tos declarativos: aplicación general u ordinaria, procedimiento de
                                                                       tutela laboral, procedimiento monitorio, reclamo de multas y otras
                                                                       resoluciones administrativas.
 
-
-## 2.6.1 Normas que se aplican en los procedimientos
-
-                                                                      que tramitan los Juzgados de Letras del Trabajo
-                                                                      y de Cobranza Laboral y Previsional
-
-
 ## 2.6.1.1 Aplicación supletoria del Código de Procedimiento
 
-                                                                      Civil y del procedimiento de aplicación general
+**Definición Canónica:** Civil y del procedimiento de aplicación general
+                                                                      La actual configuración de los procedimientos laborales fue esta-
+                                                                      blecida en la Ley Nº 20.087, modificada por las leyes Nº 20.260,
+                                                                      20.287 y 20.974.
+**Concordancias Legales:** artículos 425; artículos 446; artículo 432 del Código del Trabajo; artículo 465 del Código del Trabajo; artículos 466; artículos 231; artículo 471 del Código del Trabajo; artículos 434; artículo 474; Ley Nº 20.087
+
+Civil y del procedimiento de aplicación general
                                                                       La actual configuración de los procedimientos laborales fue esta-
                                                                       blecida en la Ley Nº 20.087, modificada por las leyes Nº 20.260,
                                                                       20.287 y 20.974.
@@ -1499,10 +1066,12 @@ nociones básicas                                               composición de 
                                                                 del Trabajo y, supletoriamente, por las normas del Libro Primero del
                                                                 Código de Procedimiento Civil.
 
-
 ## 2.6.1.2 Principios y características de los procedimientos
 
-                                                                que tramitan los Juzgados del Trabajo
+**Definición Canónica:** que tramitan los Juzgados del Trabajo
+**Concordancias Legales:** artículo 425 del Código del Trabajo; artículos 425; artículo 425; artículo 429; artículos 430
+
+que tramitan los Juzgados del Trabajo
 
                                                                 —        Las actuaciones en los procedimientos serán principalmen-
                                                                          te orales, salvo aquellas que se contemplen como escritos
@@ -1549,10 +1118,17 @@ nociones básicas                                               composición de 
                                                                          oírla, salvo los casos en que la ley lo autoriza (artículo 425
                                                                          del CT).
 
-
 ## 2.6.1.3 Reglas comunes a los procedimientos laborales
 
-                                                                Son estas un conjunto de reglas procesales aplicadas a todos los pro-
+**Definición Canónica:** Son estas un conjunto de reglas procesales aplicadas a todos los pro-
+                                                                cedimientos que se tramitan en los Juzgados de Letras del Trabajo,
+                                                                así como en los de Cobranza Laboral y Previsional. A continuación
+                                                                se detallan las principales.
+                                                                —        Todos los procedimientos se tramitan en carpeta electrónica
+                                           
+**Concordancias Legales:** artículo 433; artículo 434; artículo 435; artículos 436; artículo 444; Ley Nº 20.886
+
+Son estas un conjunto de reglas procesales aplicadas a todos los pro-
                                                                 cedimientos que se tramitan en los Juzgados de Letras del Trabajo,
                                                                 así como en los de Cobranza Laboral y Previsional. A continuación
                                                                 se detallan las principales.
@@ -1605,23 +1181,24 @@ nociones básicas                                               composición de 
 nociones básicas                                                     composición de los Juzgados
 de organización y                                                    de Letras del Trabajo
 
-
-## 2.7    Procedimientos de que conocen y
-
-                                                                      cuándo procede su utilización
-
-
 ## 2.7.1 Procedimiento de aplicación general
 
-                                                                      (arts. 446 a 462 del CT)
+**Definición Canónica:** (arts. 446 a 462 del CT)
                                                                       Se aplica a todas las acciones que conoce un Juzgado de Letras del
                                                                       Trabajo y que no tienen señalado un procedimiento particularmente
                                                                       regulado y cuando no está determinada la cuantía del asunto.
 
+(arts. 446 a 462 del CT)
+                                                                      Se aplica a todas las acciones que conoce un Juzgado de Letras del
+                                                                      Trabajo y que no tienen señalado un procedimiento particularmente
+                                                                      regulado y cuando no está determinada la cuantía del asunto.
 
 ## 2.7.2 Procedimiento monitorio
 
-                                                                      (arts. 496 a 502 del CT)
+**Definición Canónica:** (arts. 496 a 502 del CT)
+**Concordancias Legales:** artículo 162; artículo 201
+
+(arts. 496 a 502 del CT)
 
                                                                       Se utiliza:
                                                                       a. Cuando la cuantía del juicio es igual o inferior a 10 ingresos míni-
@@ -1631,10 +1208,14 @@ de organización y                                                    de Letras 
                                                                          sin autorización judicial, a una trabajadora o trabajador amparado
                                                                          por fuero maternal (artículo 201 del CT).
 
-
 ## 2.7.3 Procedimiento de reclamación de multas y demás
 
-                                                                      resoluciones administrativas (arts. 503 a 504 del CT)
+**Definición Canónica:** resoluciones administrativas (arts. 503 a 504 del CT)
+                                                                      En estricto rigor, no es este un procedimiento en particular, pues lo
+                                                                      que hace el CT es remitirlo al procedimiento de aplicación general
+                                                                      o al monitorio, conforme a las siguientes reglas:
+
+resoluciones administrativas (arts. 503 a 504 del CT)
                                                                       En estricto rigor, no es este un procedimiento en particular, pues lo
                                                                       que hace el CT es remitirlo al procedimiento de aplicación general
                                                                       o al monitorio, conforme a las siguientes reglas:
@@ -1659,10 +1240,14 @@ nociones básicas                                               composición de 
                                                                          por la Dirección del Trabajo, siempre que el CT u otra ley así
                                                                          lo establezca.
 
-
 ## 2.7.4 Procedimiento de tutela laboral
 
-                                                                (arts. 485 al 495 del CT)
+**Definición Canónica:** (arts. 485 al 495 del CT)
+                                                                Se aplica:
+                                                                —        cuando se demanda o denuncia vulneración de derechos
+**Concordancias Legales:** artículo 485; artículo 2 del Código del Trabajo; artículos 289; constitucion
+
+(arts. 485 al 495 del CT)
                                                                 Se aplica:
                                                                 —        cuando se demanda o denuncia vulneración de derechos
 
@@ -1681,10 +1266,16 @@ nociones básicas                                               composición de 
                                                                 —        cuando se demanda la declaración de una o más prácticas an-
                                                                          tisindicales o desleales de los artículos 289, 290 y 291 del CT.
 
-
 ## 2.7.5 Procedimiento ejecutivo para el
 
-                                                                cumplimiento de la sentencia firme y otros
+**Definición Canónica:** cumplimiento de la sentencia firme y otros
+                                                                títulos ejecutivos (arts. 463 a 473 del CT)
+                                                                Es utilizado por los Juzgados de Cobranza Laboral y Previsional, o
+                                                                por el tribunal que corresponda según se revisó en el acápite 2.2, y se
+                                                                aplica para el cumplimiento forzado (juicio ejecutivo) de la sentencia
+                                               
+
+cumplimiento de la sentencia firme y otros
                                                                 títulos ejecutivos (arts. 463 a 473 del CT)
                                                                 Es utilizado por los Juzgados de Cobranza Laboral y Previsional, o
                                                                 por el tribunal que corresponda según se revisó en el acápite 2.2, y se
@@ -1697,10 +1288,11 @@ nociones básicas                                               composición de 
 nociones básicas                        composición de los Juzgados
 de organización y                       de Letras del Trabajo
 
-
 ## 2.8    La tramitación de un procedimiento
 
-                                         de aplicación general
+**Definición Canónica:** de aplicación general
+
+de aplicación general
 
                                          El procedimiento de aplicación general contiene reglas que se apli-
                                          can a todos los demás procedimientos establecidos en el Código del
@@ -1715,10 +1307,18 @@ de organización y                       de Letras del Trabajo
 nociones básicas           composición de los Juzgados
 de organización y          de Letras del Trabajo
 
-
 ## 2.8.1 El inicio del procedimiento
 
-                            Un procedimiento de aplicación general comienza siempre por una
+**Definición Canónica:** Un procedimiento de aplicación general comienza siempre por una
+                            actuación de parte (no de oficio), que puede ser:
+                            a. Una demanda, denuncia (como se denomina en procedimien-
+                               to de tutela laboral) o reclamo (en reclamación de multas) que
+                               reúna los siguientes requisitos y que debe ser analizada por el o
+                               la funcionaria que corresponda:
+Tribunales Laborales:                                          2. Funcionamiento y                                  
+**Concordancias Legales:** artículo 446 del Código del Traba; artículo 444
+
+Un procedimiento de aplicación general comienza siempre por una
                             actuación de parte (no de oficio), que puede ser:
                             a. Una demanda, denuncia (como se denomina en procedimien-
                                to de tutela laboral) o reclamo (en reclamación de multas) que
@@ -1749,10 +1349,17 @@ nociones básicas                                               composición de 
                                                                    días para presentar la demanda, salvo que el o la juez prorrogue
                                                                    dicho plazo.
 
-
 ## 2.8.2 Análisis de admisibilidad y
 
-                                                                eventual declaración oficiosa
+**Definición Canónica:** eventual declaración oficiosa
+                                                                Este análisis debe ser realizado por el o la funcionaria correspondiente
+                                                                antes de acoger a trámite el acto de inicio, e involucra las siguientes
+                                                                consideraciones:
+                                                                —        si no se ingresa por OJV, se debe exigir aquel trámite obligato-
+                                                                         rio d
+**Concordancias Legales:** artículo 2; artículo 256 del Código de Procedimiento Civil; artículo 447; artículo 429; artículo 447 del CT obliga al tribunal a declararlas de oficio; Ley Nº 20.886; Ley Nº 18.120
+
+eventual declaración oficiosa
                                                                 Este análisis debe ser realizado por el o la funcionaria correspondiente
                                                                 antes de acoger a trámite el acto de inicio, e involucra las siguientes
                                                                 consideraciones:
@@ -1810,7 +1417,10 @@ de organización y                                                            de
 
 ## parte (artículo 2493    Respecto a la notificación de la demanda y la resolución que cita a
 
-                                                      del Código Civil).      audiencia, vale recordar que entre estas y la celebración de dicha
+**Definición Canónica:** del Código Civil).      audiencia, vale recordar que entre estas y la celebración de dicha
+**Concordancias Legales:** artículos 436; artículo 437 del CT
+
+del Código Civil).      audiencia, vale recordar que entre estas y la celebración de dicha
 
 Tribunales Laborales:                                          2. Funcionamiento y                                                        44
 nociones básicas                                               composición de los Juzgados
@@ -1847,10 +1457,16 @@ nociones básicas                                               composición de 
                                                                          ficación, el o la juez puede ordenar notificar mediante aviso
                                                                          en el Diario Oficial, gratuito para los trabajadores.
 
-
 ## 2.8.3 La contestación a la demanda
 
-                                                                o denuncia (art. 452 del CT)
+**Definición Canónica:** o denuncia (art. 452 del CT)
+                                                                Entre las cuestiones a considerar, cabe señalar aquí que se debe
+                                                                contestar con, a lo menos, 5 días de anticipación a la fecha de
+                                                                celebración de la audiencia preparatoria (lo relevante no es la fecha
+                                                                fijada, sino la fecha de “celebración” de la audiencia).
+**Concordancias Legales:** artículo 453
+
+o denuncia (art. 452 del CT)
                                                                 Entre las cuestiones a considerar, cabe señalar aquí que se debe
                                                                 contestar con, a lo menos, 5 días de anticipación a la fecha de
                                                                 celebración de la audiencia preparatoria (lo relevante no es la fecha
@@ -1886,34 +1502,21 @@ nociones básicas                                               composición de 
                                                                          audiencia preparatoria el juez de la causa según el artículo
                                                                          453 Nº 1 inciso tercero del CT.
 
-
-## 2.8.4 La audiencia preparatoria (art. 453 del CT)
-
-                                                                Etapas:
-
-## 1. Relación de demanda y contestación
-
-
-## 2. Eventual traslado de excepciones y reconvención
-
-
-## 3. Eventual decisión de excepciones y recursos al respecto
-
-
-## 4. Conciliación (puede ser parcial)
-
-
 ## 5. Determinación de la controversia o decisión de no recibir a
 
-                                                                   prueba (audiencia termina y se dicta sentencia)
+**Definición Canónica:** prueba (audiencia termina y se dicta sentencia)
+
+prueba (audiencia termina y se dicta sentencia)
 
 Tribunales Laborales:                                          2. Funcionamiento y                                                      46
 nociones básicas                                               composición de los Juzgados
 
-
 ## 6. Ofrecimiento de prueba y decisión de admisibilidad
 
-                                                                7. Citación a juicio.
+**Definición Canónica:** 7. Citación a juicio.
+**Concordancias Legales:** artículo 453
+
+7. Citación a juicio.
 
                                                                 Algunas reglas relevantes sobre la audiencia preparatoria:
                                                                 —        Si ninguna de las partes asiste, la audiencia se suspende para
@@ -1970,10 +1573,16 @@ nociones básicas                                               composición de 
                                                                 —        Debe fijarse fecha para la realización de la audiencia de juicio
                                                                          (dentro de no más de 30 días).
 
-
 ## 2.8.5 La audiencia de juicio (art. 454 del CT)
 
-                                                                Algunas reglas relevantes:
+**Definición Canónica:** Algunas reglas relevantes:
+                                                                —        Existe un orden legal para rendir la prueba, tanto en relación
+                                                                         con las partes como en relación con los medios de prueba.
+                                                                         Las partes pueden pedir su modificación.
+                                                                —        La persona citada a absolver posiciones debió ser citada bajo
+                                                         
+
+Algunas reglas relevantes:
                                                                 —        Existe un orden legal para rendir la prueba, tanto en relación
                                                                          con las partes como en relación con los medios de prueba.
                                                                          Las partes pueden pedir su modificación.
@@ -1990,20 +1599,27 @@ nociones básicas                                               composición de 
 Tribunales Laborales:                                          2. Funcionamiento y                                                      48
 nociones básicas                                               composición de los Juzgados
 
-
 ## 2.8.6 La sentencia
 
-                                                                Puede dictarse una vez terminada la audiencia, o dentro de 15º día,
+**Definición Canónica:** Puede dictarse una vez terminada la audiencia, o dentro de 15º día,
                                                                 debiendo citarse a las partes para notificarlas del fallo (el plazo se
                                                                 reduce a 10 días hábiles tratándose de procedimientos de tutela o
                                                                 prácticas antisindicales), quedando las partes notificadas en esas
                                                                 oportunidades sin necesidad de otra notificación.
 
+Puede dictarse una vez terminada la audiencia, o dentro de 15º día,
+                                                                debiendo citarse a las partes para notificarlas del fallo (el plazo se
+                                                                reduce a 10 días hábiles tratándose de procedimientos de tutela o
+                                                                prácticas antisindicales), quedando las partes notificadas en esas
+                                                                oportunidades sin necesidad de otra notificación.
 
 ## 2.8.7 Eventuales recursos
 
+**Definición Canónica:** —        Solo procede un recurso, que es el de nulidad.
+                                                                —        El examen que le corresponde realizar al tribunal solo lo es si
+                                                                         el recurso (de nulidad) ha sido interpuesto por escrito, ante el
 
-                                                                —        Solo procede un recurso, que es el de nulidad.
+—        Solo procede un recurso, que es el de nulidad.
                                                                 —        El examen que le corresponde realizar al tribunal solo lo es si
                                                                          el recurso (de nulidad) ha sido interpuesto por escrito, ante el
 
@@ -2019,11 +1635,16 @@ nociones básicas                                               composición de 
                                                                 —        La interposición del recurso de nulidad es con efecto suspen-
                                                                          sivo, es decir, suspende los efectos de la sentencia recurrida.
 
-
 ## 2.8.8 Paso a cumplimiento (art. 462 del CT)
 
+**Definición Canónica:** —        Es un trámite que debe hacer de oficio el tribunal.
+                                                                —        Requiere que la sentencia se encuentre en estado firme.
+                                                                —        Una vez que transcurren los plazos para interponer recursos,
+                                                                         se debe certificar por el ministro de fe del tribunal la ejecuto-
+                                                                         riedad del fallo. O bien, cuando la causa vuelve de un recurso
+ 
 
-                                                                —        Es un trámite que debe hacer de oficio el tribunal.
+—        Es un trámite que debe hacer de oficio el tribunal.
                                                                 —        Requiere que la sentencia se encuentre en estado firme.
                                                                 —        Una vez que transcurren los plazos para interponer recursos,
                                                                          se debe certificar por el ministro de fe del tribunal la ejecuto-
@@ -2038,48 +1659,24 @@ nociones básicas                                               composición de 
 nociones básicas                                                     composición de los Juzgados
 de organización y                                                    de Letras del Trabajo
 
-
-## 2.9    La tramitación de un
-
-                                                                      procedimiento monitorio
-
-                                                                      Esquema general del procedimiento monitorio, por etapas:
-
-## 1. Fase administrativa
-
-
-## 2. Ingreso
-
-
-## 3. Análisis de admisibilidad y eventual declaración oficiosa
-
-
-## 4. Resolución del juez acerca de la demanda (acoge, rechaza, cita
-
-                                                                         a audiencia única)
-
-
-## 5. Reclamo (si no lo hay, la sentencia queda firme)
-
-
-## 6. Audiencia única
-
-
-## 7. Sentencia
-
-
 ## 8. Recursos
 
-                                                                      9. Eventual paso a cumplimiento de oficio.
+**Definición Canónica:** 9. Eventual paso a cumplimiento de oficio.
+
+9. Eventual paso a cumplimiento de oficio.
 
                                                                       En general, son las mismas actuaciones que en el case del procedi-
                                                                       miento de aplicación general, con las particularidades que se abordan
                                                                       a continuación.
 
-
 ## 2.9.1 La fase administrativa
 
-                                                                      Vale recordar que, para tramitar una demanda bajo el procedimien-
+**Definición Canónica:** Vale recordar que, para tramitar una demanda bajo el procedimien-
+                                                                      to monitorio, la cuantía de la misma debe ser igual o inferior a 10
+                                                                      ingresos mínimos mensuales sin considerar los aumentos derivados
+                                                                      de la acción de nulidad del despido.
+
+Vale recordar que, para tramitar una demanda bajo el procedimien-
                                                                       to monitorio, la cuantía de la misma debe ser igual o inferior a 10
                                                                       ingresos mínimos mensuales sin considerar los aumentos derivados
                                                                       de la acción de nulidad del despido.
@@ -2100,10 +1697,14 @@ nociones básicas                                               composición de 
                                                                 solo puede demandar judicialmente conforme al procedimiento de
                                                                 aplicación general.
 
-
 ## 2.9.2   Inicio del procedimiento
 
-                                                                El procedimiento monitorio se puede iniciar de las mismas formas
+**Definición Canónica:** El procedimiento monitorio se puede iniciar de las mismas formas
+                                                                que el procedimiento de aplicación general, es decir, con una medida
+                                                                prejudicial o con una demanda.
+**Concordancias Legales:** Ley Nº 21.226; constitucion
+
+El procedimiento monitorio se puede iniciar de las mismas formas
                                                                 que el procedimiento de aplicación general, es decir, con una medida
                                                                 prejudicial o con una demanda.
 
@@ -2122,19 +1723,32 @@ nociones básicas                                               composición de 
                                                                 bien simplemente ser archivada (conforme a la Ley Nº 21.226, du-
                                                                 rante el estado constitucional de catástrofe no se exige este trámite).
 
-
 ## 2.9.3 Análisis de admisibilidad y
 
-                                                                eventual declaración oficiosa
+**Definición Canónica:** eventual declaración oficiosa
+                                                                Corresponde realizar el mismo análisis del procedimiento de aplica-
+                                                                ción general para que, cumplidas las exigencias, se admita a trámite
+                                                                la demanda y en la misma resolución el tribunal dicte lo que corres-
+                                                                ponde conforme al artículo 500 del Código del Trabajo.
+**Concordancias Legales:** artículo 500 del Código del Trabajo
+
+eventual declaración oficiosa
                                                                 Corresponde realizar el mismo análisis del procedimiento de aplica-
                                                                 ción general para que, cumplidas las exigencias, se admita a trámite
                                                                 la demanda y en la misma resolución el tribunal dicte lo que corres-
                                                                 ponde conforme al artículo 500 del Código del Trabajo.
 
-
 ## 2.9.4 Resolución del juez acerca de la
 
-                                                                demanda (art. 500 del CT)
+**Definición Canónica:** demanda (art. 500 del CT)
+                                                                El o la juez tiene tres alternativas de resolución:
+                                                                a. Acoge la demanda si estima fundadas las pretensiones del deman-
+                                                                   dante. La ley establece criterios para dicho análisis: complejidad
+                                                                   del asunto, comparecencia de las partes ante la Inspección del
+                                                               
+**Concordancias Legales:** artículos 436
+
+demanda (art. 500 del CT)
                                                                 El o la juez tiene tres alternativas de resolución:
                                                                 a. Acoge la demanda si estima fundadas las pretensiones del deman-
                                                                    dante. La ley establece criterios para dicho análisis: complejidad
@@ -2162,13 +1776,23 @@ de organización y                                                            de
 
 ## 2.9.5 Reclamo de la resolución en el
 
-                                                      la notificación y       procedimiento monitorio
+**Definición Canónica:** la notificación y       procedimiento monitorio
+                                                      la audiencia, al        La resolución que acoge o rechaza la demanda solo puede ser objeto
+                                                      menos 5 días.           de un reclamo (no es un recurso). Es la manifestación expresa de la
+
+la notificación y       procedimiento monitorio
                                                       la audiencia, al        La resolución que acoge o rechaza la demanda solo puede ser objeto
                                                       menos 5 días.           de un reclamo (no es un recurso). Es la manifestación expresa de la
 
 ## parte en cuanto a que no acepta la resolución del tribunal. Dicho re-
 
-                                                                              clamo debe hacerse dentro de los 10 días hábiles desde la notificación.
+**Definición Canónica:** clamo debe hacerse dentro de los 10 días hábiles desde la notificación.
+                                                                              —        Si no hay reclamo o fue extemporáneo, la causa debe ser
+                                                                                       certificada como firme si se pagaron las prestaciones. De no
+                                                                                       haber sido pagadas, la causa pasa a cumplimiento.
+                                                                              —        Si hubo recla
+
+clamo debe hacerse dentro de los 10 días hábiles desde la notificación.
                                                                               —        Si no hay reclamo o fue extemporáneo, la causa debe ser
                                                                                        certificada como firme si se pagaron las prestaciones. De no
                                                                                        haber sido pagadas, la causa pasa a cumplimiento.
@@ -2181,40 +1805,32 @@ de organización y                                                            de
                                                                                        debe pasar a cumplimiento aquello que no fue reclamado,
                                                                                        conforme al 462 del CT.
 
-
 ## 2.9.6 La audiencia única
 
-                                                                              La audiencia se realiza solo con la parte que asista y se aplican las
+**Definición Canónica:** La audiencia se realiza solo con la parte que asista y se aplican las
+                                                                              mismas reglas que establece el CT para la audiencia preparatoria y
+                                                                              la de juicio y procede igualmente el recurso de nulidad.
+                                                                              Etapas:
+
+La audiencia se realiza solo con la parte que asista y se aplican las
                                                                               mismas reglas que establece el CT para la audiencia preparatoria y
                                                                               la de juicio y procede igualmente el recurso de nulidad.
                                                                               Etapas:
 
 ## 1. Relación de la demanda
 
-
-Tribunales Laborales:                                          2. Funcionamiento y                                                  52
+**Definición Canónica:** Tribunales Laborales:                                          2. Funcionamiento y                                                  52
 nociones básicas                                               composición de los Juzgados
 
-
-## 2. Traslado para la contestación
-
-
-## 3. Posible traslado de excepciones o reconvención
-
-
-## 4. Eventual decisión de excepciones y recursos al respecto
-
-
-## 5. Conciliación (puede ser parcial)
-
-
-## 6. Determinación de la controversia de los hechos, o decisión de
-
-                                                                   no recibir a prueba (audiencia termina y se dicta sentencia)
+Tribunales Laborales:                                          2. Funcionamiento y                                                  52
+nociones básicas                                               composición de los Juzgados
 
 ## 7. Ofrecimiento de prueba, decisión de admisibilidad y rendición
 
-                                                                   de prueba.
+**Definición Canónica:** de prueba.
+**Concordancias Legales:** artículo 454
+
+de prueba.
 
                                                                 La ley señala que a la audiencia única las partes deben concurrir
                                                                 con sus medios de prueba y puede admitirse que, si hay necesidad
@@ -2236,10 +1852,12 @@ nociones básicas                                               composición de 
 nociones básicas                                                 composición de los Juzgados
 de organización y                                                de Letras del Trabajo
 
-
 ## 2.10    La tramitación de un procedimiento de
 
-                                                                       tutela laboral. Algunas reglas especiales.
+**Definición Canónica:** tutela laboral. Algunas reglas especiales.
+**Concordancias Legales:** artículo 446 del CT; artículo 486 del CT; artículo 489; artículo 485; artículo 488; artículo 446; artículo 490; artículo 485 del Código del Trabajo
+
+tutela laboral. Algunas reglas especiales.
 
                                                                   Será la misma de un procedimiento de aplicación general, tanto en
                                                                   su esquema de desarrollo como en las etapas de sus audiencias pre-
@@ -2303,10 +1921,12 @@ nociones básicas                                               composición de 
 nociones básicas                                                  composición de los Juzgados
 de organización y                                                 de Letras del Trabajo
 
-
 ## 2.11     El reclamo de multas y
 
-                                                                        resoluciones administrativas
+**Definición Canónica:** resoluciones administrativas
+**Concordancias Legales:** artículo 508
+
+resoluciones administrativas
 
                                                                    Será la misma de un procedimiento de aplicación general, tanto en
                                                                    su esquema de desarrollo como en las etapas de sus audiencias pre-
@@ -2377,16 +1997,15 @@ nociones básicas                                                        Causas,
                                                                       Conocer las principales funciones de las unidades de Causas, de
                                                                       Sala y de Cumplimiento, su organización y la tramitación de causas.
 
-
-## 3.1    Objetivo y principales cargos de cada unidad
-
-                                                                      (en tribunales de tamaño mayor) o sub-unidad
-                                                                      (en los de tamaño mediano o menor)
-
-
 ## 3.1.1 Unidad de Administración de Causas
 
-                                                                      Es la responsable de ejecutar todas las labores que dicen relación
+**Definición Canónica:** Es la responsable de ejecutar todas las labores que dicen relación
+                                                                      con la tramitación y registro de las causas, incluidas las relativas a
+                                                                      las notificaciones, al manejo de las fechas y salas para las audiencias;
+                                                                      al archivo judicial básico; al ingreso y número de rol de las causas
+                                                                      nuevas; a la actualización diaria de la 
+
+Es la responsable de ejecutar todas las labores que dicen relación
                                                                       con la tramitación y registro de las causas, incluidas las relativas a
                                                                       las notificaciones, al manejo de las fechas y salas para las audiencias;
                                                                       al archivo judicial básico; al ingreso y número de rol de las causas
@@ -2394,10 +2013,14 @@ nociones básicas                                                        Causas,
                                                                       causas del tribunal o juzgado, además de las estadísticas del tribunal
                                                                       relativas a su área.
 
-
 ## 3.1.2 Unidad de Sala
 
-                                                                      Se encarga de optimizar el tiempo de los recintos disponibles para
+**Definición Canónica:** Se encarga de optimizar el tiempo de los recintos disponibles para
+                                                                      audiencias, colaborando con la administración de la agenda y de-
+                                                                      sarrollando las funciones de preparación, registro y ejecución de
+                                                                      las mismas.
+
+Se encarga de optimizar el tiempo de los recintos disponibles para
                                                                       audiencias, colaborando con la administración de la agenda y de-
                                                                       sarrollando las funciones de preparación, registro y ejecución de
                                                                       las mismas.
@@ -2872,10 +2495,15 @@ nociones básicas                                                  Causas, de Sa
                                                                 el administrador deberá informar al ministro visitador, con copia al
                                                                 juez presidente.
 
-
 ## 3.1.3 Unidad de Cumplimiento
 
-                                                                Esta unidad existe solo en aquellos tribunales que tienen competencia
+**Definición Canónica:** Esta unidad existe solo en aquellos tribunales que tienen competencia
+                                                                en cobranza laboral y previsional, siendo su función la de desarrollar
+                                                                las acciones necesarias para una adecuada tramitación en la ejecución
+                                                                de los títulos ejecutivos y resoluciones de competencia del tribunal.
+                                                                Asimismo, es responsable de las estadísticas básicas de su unid
+
+Esta unidad existe solo en aquellos tribunales que tienen competencia
                                                                 en cobranza laboral y previsional, siendo su función la de desarrollar
                                                                 las acciones necesarias para una adecuada tramitación en la ejecución
                                                                 de los títulos ejecutivos y resoluciones de competencia del tribunal.
@@ -2900,10 +2528,12 @@ nociones básicas                                                  Causas, de Sa
                                                                 todas las acciones y diligencias necesarias para dar curso a la etapa
                                                                 de ejecución correspondiente.
 
-
 ## 3.1.4 Cargos y funciones principales en la
 
-                                                                Unidad de Causas, Sala y Cumplimiento
+**Definición Canónica:** Unidad de Causas, Sala y Cumplimiento
+**Concordancias Legales:** artículo 214 del Código; Ley Nº 20.886
+
+Unidad de Causas, Sala y Cumplimiento
 
                                                                 Jefe de Unidad de Causas y/o de Sala (según tamaño del tribunal)
                                                                 Relativo a Causas:
@@ -3411,15 +3041,14 @@ nociones básicas                                                  Causas, de Sa
 Tribunales Laborales:                                                3. Unidades de Administración de                                             88
 nociones básicas                                                        Causas, de Sala y de Cumplimiento
 
-
-## 3.2    Tramitación y distribución
-
-                                                                      de causas
-
-
 ## 3.2.1 Ingreso
 
-                                                                      Todas las presentaciones deben ser ingresadas directamente al sis-
+**Definición Canónica:** Todas las presentaciones deben ser ingresadas directamente al sis-
+                                                                      tema informático y estar patrocinadas por abogado habilitado para
+                                                                      el ejercicio de la profesión.
+**Concordancias Legales:** artículo 6 del Código de Procedimiento Civil; artículo 1; artículo 2; Ley N° 18.120; constitución
+
+Todas las presentaciones deben ser ingresadas directamente al sis-
                                                                       tema informático y estar patrocinadas por abogado habilitado para
                                                                       el ejercicio de la profesión.
 
@@ -3481,10 +3110,15 @@ nociones básicas                                                  Causas, de Sa
                                                                      Lo dispuesto en este artículo se aplicará también a la delegación
                                                                      del mandato y a la autorización para diligenciar exhortos (…)”.
 
-
 ## 3.2.2 Distribución de causas
 
-                                                                Una vez ingresada la causa al sistema informático, en forma automá-
+**Definición Canónica:** Una vez ingresada la causa al sistema informático, en forma automá-
+                                                                tica este le asigna un Rol de Ingreso Tribunal (RIT) y se distribuirá
+                                                                directamente a los funcionarios por el sistema informático, conforme
+                                                                al criterio establecido el cual debe regirse por el procedimiento ob-
+                                                                jetivo y general propuesto por el juez presidente y el administrado
+
+Una vez ingresada la causa al sistema informático, en forma automá-
                                                                 tica este le asigna un Rol de Ingreso Tribunal (RIT) y se distribuirá
                                                                 directamente a los funcionarios por el sistema informático, conforme
                                                                 al criterio establecido el cual debe regirse por el procedimiento ob-
@@ -3494,10 +3128,13 @@ nociones básicas                                                  Causas, de Sa
                                                                 la carga laboral, tanto respecto de los jueces como también de los
                                                                 funcionarios proveedores que integran esta unidad.
 
-
 ## 3.2.3 Solicitudes y presentaciones
 
-                                                                En general, se pueden efectuar conforme a tres modalidades:
+**Definición Canónica:** En general, se pueden efectuar conforme a tres modalidades:
+                                                                a. Recibidas por medios electrónicos (se deben tramitar directa-
+**Concordancias Legales:** artículo 39; artículo 39 del Acta 71
+
+En general, se pueden efectuar conforme a tres modalidades:
                                                                 a. Recibidas por medios electrónicos (se deben tramitar directa-
 
 Tribunales Laborales:                                                       3. Unidades de Administración de                                          90
@@ -3538,10 +3175,14 @@ nociones básicas                                                               
                                                                              En la práctica, cada juez –conforme a su criterio– establece si tales
                                                                              escritos son resueltos antes o no de la audiencia fijada.
 
-
 ## 3.2.4 Control y resolución de escritos
 
-                                                                             en los plazos establecidos
+**Definición Canónica:** en los plazos establecidos
+                                                                             La Unidad de Administración de Causas debe velar porque los escritos
+                                                                             sean resueltos en la oportunidad correspondiente.
+**Concordancias Legales:** artículo 45 del Acta 71
+
+en los plazos establecidos
                                                                              La Unidad de Administración de Causas debe velar porque los escritos
                                                                              sean resueltos en la oportunidad correspondiente.
 
@@ -3594,10 +3235,12 @@ nociones básicas                                                  Causas, de Sa
 Tribunales Laborales:                                                3. Unidades de Administración de                                         92
 nociones básicas                                                        Causas, de Sala y de Cumplimiento
 
-
 ## 3.3     Agendamiento
 
-                                                                       de audiencias
+**Definición Canónica:** de audiencias
+**Concordancias Legales:** artículo 56 del Acta 71
+
+de audiencias
 
                                                                       Consiste en el modo en que cada tribunal distribuye las audiencias
                                                                       que se realizarán dentro de un tiempo determinado, conforme a su
@@ -3695,10 +3338,12 @@ nociones básicas                                                  Causas, de Sa
 Tribunales Laborales:                                                3. Unidades de Administración de                                       95
 nociones básicas                                                        Causas, de Sala y de Cumplimiento
 
-
 ## 3.4    Cumplimiento de sentencias
 
-                                                                      y otros títulos ejecutivos
+**Definición Canónica:** y otros títulos ejecutivos
+**Concordancias Legales:** artículo 463 del Código del Trabajo; artículo 464; artículo 421 del Código; artículo 6 de la Ley Nº 20.886; artículo 33; Ley N° 17.322; Ley Nº 20.886; Constitución
+
+y otros títulos ejecutivos
 
                                                                       Esta unidad es la encargada de velar por el cumplimiento de las sen-
                                                                       tencias y otros títulos ejecutivos, lo cual, conforme lo dispuesto en el
@@ -3903,15 +3548,15 @@ nociones básicas                                                               
 Tribunales Laborales:                                                4. Unidad de Atención                                               102
 nociones básicas                                                        de Público
 
-
-## 4.1    Integrantes y principales funciones de
-
-                                                                      la Unidad de Atención de Público
-
-
 ## 4.1.1 Integrantes
 
-                                                                      En los tribunales de tamaño pequeño (compuestos por uno y hasta
+**Definición Canónica:** En los tribunales de tamaño pequeño (compuestos por uno y hasta
+                                                                      dos jueces), los integrantes de la atención de público forman parte
+                                                                      de una unidad que incorpora otras funciones, como es la Unidad
+                                                                      de Servicios, Atención de Público y Cumplimiento, y en general
+                                                                      cuenta con un administrativo jefe de servicios, atención de pú
+
+En los tribunales de tamaño pequeño (compuestos por uno y hasta
                                                                       dos jueces), los integrantes de la atención de público forman parte
                                                                       de una unidad que incorpora otras funciones, como es la Unidad
                                                                       de Servicios, Atención de Público y Cumplimiento, y en general
@@ -3932,14 +3577,16 @@ nociones básicas                                                        de Púb
                                                                       un administrativo jefe de atención de público y un administrativo
                                                                       de atención de público.
 
-
-## 4.1.2 Funciones de la unidad de atención de público
-
-
-
 ## 4.1.2.1 Informar al público general acerca del estado de
 
-                                                                      las causas y audiencias que se tramitan en el tribunal
+**Definición Canónica:** las causas y audiencias que se tramitan en el tribunal
+                                                                      Esta información de causas se entrega principalmente a través de los
+                                                                      sistemas informáticos de tramitación de causas laborales (SITLA) y
+                                                                      de causas de cobranza laboral y previsional (SITCO), contando ambos
+                                                                      con módulos de atención de público que permiten la búsqueda d
+**Concordancias Legales:** artículo 34 del Acta 71
+
+las causas y audiencias que se tramitan en el tribunal
                                                                       Esta información de causas se entrega principalmente a través de los
                                                                       sistemas informáticos de tramitación de causas laborales (SITLA) y
                                                                       de causas de cobranza laboral y previsional (SITCO), contando ambos
@@ -3966,28 +3613,44 @@ nociones básicas                                                        de Púb
                                                                 les y de cobranza laboral y previsional, además del uso de la Oficina
                                                                 Judicial Virtual como establece la ley de tramitación electrónica.
 
-
 ## 4.1.2.2 Confeccionar y mantener actualizados los siste-
 
-                                                                mas de atención de información y orientación al usuario
+**Definición Canónica:** mas de atención de información y orientación al usuario
                                                                 Esto incluye señalética, boletines informativos, folletería, entre otros
                                                                 recursos. Esta función se desarrollará en detalle más adelante en
                                                                 este capítulo.
 
+mas de atención de información y orientación al usuario
+                                                                Esto incluye señalética, boletines informativos, folletería, entre otros
+                                                                recursos. Esta función se desarrollará en detalle más adelante en
+                                                                este capítulo.
 
 ## 4.1.2.3 Entregar información atingente a su jurisdicción
 
-                                                                acerca de direcciones de entidades, instituciones y or-
+**Definición Canónica:** acerca de direcciones de entidades, instituciones y or-
+                                                                ganismos relacionados con el sistema de justicia
+                                                                El Plan de Atención de Público establece la necesidad de disponer
+                                                                instrumentos, generalmente en formato de folletería, con direcciones
+                                                                e información de contacto de instituciones y organismos relacionados,
+                                  
+
+acerca de direcciones de entidades, instituciones y or-
                                                                 ganismos relacionados con el sistema de justicia
                                                                 El Plan de Atención de Público establece la necesidad de disponer
                                                                 instrumentos, generalmente en formato de folletería, con direcciones
                                                                 e información de contacto de instituciones y organismos relacionados,
                                                                 un aspecto que se desarrollará en detalle más adelante en este capítulo.
 
-
 ## 4.1.2.4 Recibir documentación y despacho de
 
-                                                                correspondencia
+**Definición Canónica:** correspondencia
+                                                                Esta labor de recibir documentos y correspondencia implica su
+                                                                distribución interna o su ingreso para tramitación en el sistema
+                                                                informático, según corresponda, así como gestionar el despacho de
+                                                                correspondencia, aspectos que se detallarán en un siguiente acápite
+                                                                de 
+
+correspondencia
                                                                 Esta labor de recibir documentos y correspondencia implica su
                                                                 distribución interna o su ingreso para tramitación en el sistema
                                                                 informático, según corresponda, así como gestionar el despacho de
@@ -3998,10 +3661,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          4. Unidad de Atención                                                  104
 
-
 ## 4.1.2.5 Atender los llamados telefónicos y canalizarlos a
 
-                                                                sus destinatarios
+**Definición Canónica:** sus destinatarios
+                                                                Esto implica la atención telefónica a usuarios y, en caso de ser nece-
+                                                                sario, su derivación de acuerdo a las necesidades o requerimientos
+                                                                de cada caso. Entre los más característicos están los relacionados con
+                                                                consultas de abogados intervinientes en causas, que generalmente
+                                                    
+
+sus destinatarios
                                                                 Esto implica la atención telefónica a usuarios y, en caso de ser nece-
                                                                 sario, su derivación de acuerdo a las necesidades o requerimientos
                                                                 de cada caso. Entre los más característicos están los relacionados con
@@ -4009,15 +3678,16 @@ nociones básicas                                                        de Púb
                                                                 se refieren a tramitación de las mismas o consultas específicas que
                                                                 se derivan a los jefes de unidad correspondientes.
 
-
-## 4.1.2.6 Escanear escritos, solicitudes e informes recibi-
-
-                                                                dos excepcionalmente en formato físico e ingresarlos a
-
 ## SITLA y SITCO
 
+**Definición Canónica:** En materia laboral y de cobranza laboral y previsional, existen ciertas
+                                                                solicitudes para las que se ha permitido, en la mayoría de los tribu-
+                                                                nales, su ingreso manual. Entre ellas se pueden mencionar:
+                                                                —        Minuta para entrega de documentos (títulos ejecutivos, che-
+                                                                         ques, etcétera).
+                                                
 
-                                                                En materia laboral y de cobranza laboral y previsional, existen ciertas
+En materia laboral y de cobranza laboral y previsional, existen ciertas
                                                                 solicitudes para las que se ha permitido, en la mayoría de los tribu-
                                                                 nales, su ingreso manual. Entre ellas se pueden mencionar:
                                                                 —        Minuta para entrega de documentos (títulos ejecutivos, che-
@@ -4031,10 +3701,15 @@ nociones básicas                                                        de Púb
                                                                          del beneficiario, para posterior análisis y procedencia de la
                                                                          solicitud.
 
-
 ## 4.1.2.7 Recibir escritos de causas por parte de usuarios
 
-                                                                autorizados para no tramitar por OJV, y otras solicitudes
+**Definición Canónica:** autorizados para no tramitar por OJV, y otras solicitudes
+                                                                Se puede tratar, por ejemplo, de una persona autorizada por el tribunal
+                                                                por carecer de los medios tecnológicos necesarios; en este caso, los
+                                                                escritos podrán presentarse al tribunal materialmente y en soporte
+                                                                impreso, por conducto del ministro de fe respectivo.
+
+autorizados para no tramitar por OJV, y otras solicitudes
                                                                 Se puede tratar, por ejemplo, de una persona autorizada por el tribunal
                                                                 por carecer de los medios tecnológicos necesarios; en este caso, los
                                                                 escritos podrán presentarse al tribunal materialmente y en soporte
@@ -4048,21 +3723,33 @@ nociones básicas                                                        de Púb
                                                                 de que las presentaciones deben realizarse a través de Oficina Judicial
                                                                 Virtual y así ir reduciendo cada vez más los casos excepcionales.
 
-
 ## 4.1.2.8 Publicar la información de las audiencias diarias
 
-                                                                donde y cuando corresponda
+**Definición Canónica:** donde y cuando corresponda
+                                                                Respecto de esta función, generalmente los tribunales contarán con
+                                                                ficheros donde informarán las audiencias semanales, como también
+                                                                hay tribunales que utilizan pantallas para, a través de un software,
+                                                                mostrar diariamente las audiencias que se están realizando en cada
+                                                 
+
+donde y cuando corresponda
                                                                 Respecto de esta función, generalmente los tribunales contarán con
                                                                 ficheros donde informarán las audiencias semanales, como también
                                                                 hay tribunales que utilizan pantallas para, a través de un software,
                                                                 mostrar diariamente las audiencias que se están realizando en cada
                                                                 sala del tribunal.
 
-
 ## 4.1.2.9 Entregar copias de resoluciones, oficios, actas de
 
+**Definición Canónica:** audiencias y audios cuando haya sido ordenado
+                                                                El artículo 35 del Acta 71-2016 establece que estas copias deberán
+                                                                ser obtenidas en la Oficina Judicial Virtual. En casos excepcionales
+                                                                se entregará copia impresa de los registros solicitados a quienes se
+                                                                encuentren autorizados por el tribunal a tramitar materialmente, o
+                          
+**Concordancias Legales:** artículo 35 del Acta 71
 
-                                                                audiencias y audios cuando haya sido ordenado
+audiencias y audios cuando haya sido ordenado
                                                                 El artículo 35 del Acta 71-2016 establece que estas copias deberán
                                                                 ser obtenidas en la Oficina Judicial Virtual. En casos excepcionales
                                                                 se entregará copia impresa de los registros solicitados a quienes se
@@ -4087,10 +3774,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          4. Unidad de Atención                                                 106
 
-
 ## 4.1.2.10 Coordinar con funcionarios de la Unidad de Ser-
 
-                                                                vicios en caso de requerirse la entrega de cheques o
+**Definición Canónica:** vicios en caso de requerirse la entrega de cheques o
+                                                                custodias valorizadas
+                                                                Generalmente, dependiendo del número de causas de los distintos
+                                                                tribunales, tiene asociado un mayor o menor número de entrega de
+                                                                cheques a través del giro de la cuenta corriente jurisdiccional o de
+                                                                una cus
+
+vicios en caso de requerirse la entrega de cheques o
                                                                 custodias valorizadas
                                                                 Generalmente, dependiendo del número de causas de los distintos
                                                                 tribunales, tiene asociado un mayor o menor número de entrega de
@@ -4098,10 +3791,12 @@ nociones básicas                                                        de Púb
                                                                 una custodia valorizada de cheque o vale vista a beneficio de alguno
                                                                 de los intervinientes de las distintas causas.
 
-
 ## 4.1.2.11 Apertura de buzón de sugerencias, reclamos y
 
-                                                                felicitaciones, levantando un acta al respecto y dando
+**Definición Canónica:** felicitaciones, levantando un acta al respecto y dando
+                                                                respuesta a los usuarios que realizaron alguna presenta-
+
+felicitaciones, levantando un acta al respecto y dando
                                                                 respuesta a los usuarios que realizaron alguna presenta-
 
                                                                 ción a través del mismo
@@ -4109,17 +3804,26 @@ nociones básicas                                                        de Púb
                                                                 del administrador del tribunal, de acuerdo a lo establecido en el Plan
                                                                 de Atención de Público del Poder Judicial.
 
-
 ## 4.1.2.12 Notificaciones
 
-                                                                La Unidad de Atención de Público tiene funciones relacionadas con
+**Definición Canónica:** La Unidad de Atención de Público tiene funciones relacionadas con
                                                                 ciertos tipos de notificaciones y citaciones, las que se revisarán en
                                                                 detalle en un siguiente acápite de este capítulo.
 
+La Unidad de Atención de Público tiene funciones relacionadas con
+                                                                ciertos tipos de notificaciones y citaciones, las que se revisarán en
+                                                                detalle en un siguiente acápite de este capítulo.
 
 ## 4.1.2.13 Patrocinio y Poder
 
-                                                                Cuando alguno de los intervinientes presentan solicitud de autoriza-
+**Definición Canónica:** Cuando alguno de los intervinientes presentan solicitud de autoriza-
+                                                                ción de Patrocinio y Poder por el mesón de atención de usuarios, los
+                                                                funcionarios de la unidad solicitarán la concurrencia del jefe de Unidad
+                                                                de Causas, quien exigirá las cédulas de identidad al abogado y al poder-
+                                                                dante, informando a este último sobre el poder que está conf
+**Concordancias Legales:** constitución
+
+Cuando alguno de los intervinientes presentan solicitud de autoriza-
                                                                 ción de Patrocinio y Poder por el mesón de atención de usuarios, los
                                                                 funcionarios de la unidad solicitarán la concurrencia del jefe de Unidad
                                                                 de Causas, quien exigirá las cédulas de identidad al abogado y al poder-
@@ -4136,10 +3840,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          4. Unidad de Atención                                                 107
 
-
 ## 4.1.2.14 Chequear diariamente el encendido y apagado
 
-                                                                de computadores de autoconsulta y los televisores de
+**Definición Canónica:** de computadores de autoconsulta y los televisores de
+                                                                aviso para usuario externo, en caso que corresponda
+                                                                Esta labor dice relación con el computador instalado en un módulo
+                                                                que permite la autoconsulta de las causas, generalmente con un
+                                                                instructivo de uso o la posibilidad de solicitar ayuda a algún funcio-
+                                       
+
+de computadores de autoconsulta y los televisores de
                                                                 aviso para usuario externo, en caso que corresponda
                                                                 Esta labor dice relación con el computador instalado en un módulo
                                                                 que permite la autoconsulta de las causas, generalmente con un
@@ -4156,10 +3866,11 @@ nociones básicas                                                        de Púb
                                                                 perjuicio de la publicación de la agenda en otros puntos de atención
                                                                 de público del tribunal.
 
-
 ## 4.1.2.15 Otras funciones que se realizan en algunos Juzga-
 
-                                                                dos de Letras del Trabajo y Cobranza Laboral y Previsional
+**Definición Canónica:** dos de Letras del Trabajo y Cobranza Laboral y Previsional
+
+dos de Letras del Trabajo y Cobranza Laboral y Previsional
 
                                                                 —        Ingreso de exhortos y tramitación de los mismos a través de
                                                                          los sistemas informáticos.
@@ -4174,10 +3885,11 @@ nociones básicas                                                        de Púb
 Tribunales Laborales:                                                4. Unidad de Atención                                               108
 nociones básicas                                                        de Público
 
-
 ## 4.2    Protocolos de Atención
 
-                                                                      de Usuarios
+**Definición Canónica:** de Usuarios
+
+de Usuarios
 
                                                                       Como ya se mencionó, este protocolo pretende, a través de actitudes
                                                                       de servicio, entregar lo que se denomina calidad de servicio, permi-
@@ -4240,10 +3952,16 @@ nociones básicas                                                        de Púb
                                                                          tentando integrar los distintos perfiles de la población que
                                                                          acude a los tribunales en busca de orientación.
 
-
 ## 4.2.1 Protocolo de Atención de Usuarios
 
-                                                                con Menor Conocimiento Jurídico
+**Definición Canónica:** con Menor Conocimiento Jurídico
+                                                                Dentro de esta clasificación generalmente se encuentran trabajado-
+                                                                res e inmigrantes y/o extranjeros. Generalmente son personas que
+                                                                requieren mayor información, la que debe ser entregada de manera
+                                                                detallada y pausada al usuario, preguntándole constantemente si
+                                                   
+
+con Menor Conocimiento Jurídico
                                                                 Dentro de esta clasificación generalmente se encuentran trabajado-
                                                                 res e inmigrantes y/o extranjeros. Generalmente son personas que
                                                                 requieren mayor información, la que debe ser entregada de manera
@@ -4258,10 +3976,15 @@ nociones básicas              de Público
 Tribunales Laborales:      4. Unidad de Atención                                          111
 nociones básicas              de Público
 
-
 ## 4.2.2 Protocolo de Atención de Usuarios
 
-                            con Mayor Conocimiento Jurídico
+**Definición Canónica:** con Mayor Conocimiento Jurídico
+                            Generalmente, son personas que realizan preguntas puntuales, pues
+                            conocen los procedimientos y no requieren información detallada.
+                            Dentro de esta clasificación generalmente se encuentran abogados,
+                            empleadores, procuradores y contadores.
+
+con Mayor Conocimiento Jurídico
                             Generalmente, son personas que realizan preguntas puntuales, pues
                             conocen los procedimientos y no requieren información detallada.
                             Dentro de esta clasificación generalmente se encuentran abogados,
@@ -4284,60 +4007,19 @@ nociones básicas                                                               
 
 ## 2. La señalética interior se entiende con facilidad
 
-
-                                                                                              Módulos de         1. Existencia de módulo(s) de autoatención
+**Definición Canónica:** Módulos de         1. Existencia de módulo(s) de autoatención
                                                                                              autoatención        2. Funcionamiento adecuado de los módulos
 
-
-## 1. Existencia de un lugar de espera para el público
-
-                                                                                            Sillas de espera     2. Orden y limpieza
-
-## 3. Lugar adecuado con sillas disponibles y en buen estado
-
-
-
-## 1. Existencia de televisores
-
-                                                                                               Televisor         2. Correcto funcionamiento de estos
-                                                                        Infraestructura
-
-## 3. Si existe, contenido institucional
-
-
-
-## 1. Disponibilidad de baños para el público
-
-                                                                                                 Baños
-
-## 2. Funcionamiento adecuado, limpio y disponible
-
-
-                                                                                          Buzón de sugerencias   1. Disponibilidad de buzón de sugerencias para el usuario
-
-
-## 1. Existencia disponibilidad de turnomático
-
-                                                                                              Turnomático
-
-## 2. Correcto funcionamiento de turnomático
-
-
-
-## 1. Existencia de folletería o informativos disponibles para el
-
-                                                                                               Folletería
-                                                                                                                   público en general
-
-
-## 1. Guardia de seguridad visible en la instalación
-
-                                                                          Seguridad       Guardia de seguridad
+Módulos de         1. Existencia de módulo(s) de autoatención
+                                                                                             autoatención        2. Funcionamiento adecuado de los módulos
 
 ## 2. Activo en su puesto
 
+**Definición Canónica:** Dispensadores de      1. Existencia de dispensadores para el usuario
+                                                                          Servicios
+                                                                                             agua y/o café       2. Uso y funcionamiento
 
-                                                                                           Dispensadores de      1. Existencia de dispensadores para el usuario
+Dispensadores de      1. Existencia de dispensadores para el usuario
                                                                           Servicios
                                                                                              agua y/o café       2. Uso y funcionamiento
 
@@ -4347,10 +4029,11 @@ nociones básicas                                                               
 Tribunales Laborales:                                                4. Unidad de Atención                                                   114
 nociones básicas                                                        de Público
 
-
 ## 4.3    Manejo de usuarios
 
-                                                                      complejos
+**Definición Canónica:** complejos
+
+complejos
 
                                                                       En los tribunales en general, y en los Juzgados de Letras del Trabajo y
                                                                       Cobranza Laboral y Previsional en particular, es muy importante contar
@@ -4379,20 +4062,23 @@ nociones básicas                                                        de Púb
 Tribunales Laborales:                                            4. Unidad de Atención                                                   115
 nociones básicas                                                    de Público
 
-
 ## 4.4   Sistemas públicos de información
 
-                                                                     para la atención de usuarios
+**Definición Canónica:** para la atención de usuarios
+
+para la atención de usuarios
 
                                                                      Es importante indicar que los tribunales cuentan con una serie de
                                                                      sistemas que permiten la entrega de información a los usuarios con
                                                                      requerimientos relativos a los Juzgados de Letras del Trabajo y Co-
                                                                      branza Laboral y Previsional.
 
-
 ## 4.4.1 Portal web del Poder Judicial
 
-                                                                     En la dirección URL www.pjud.cl se encuentran distintas pestañas
+**Definición Canónica:** En la dirección URL www.pjud.cl se encuentran distintas pestañas
+                                                                     que permiten acceder a los siguientes servicios:
+
+En la dirección URL www.pjud.cl se encuentran distintas pestañas
                                                                      que permiten acceder a los siguientes servicios:
 
                                                                      —     Oficina Judicial Virtual (OJV), donde los abogados pueden
@@ -4430,17 +4116,26 @@ nociones básicas                                                    de Público
 
 Tribunales Laborales:                                          4. Unidad de Atención                                                 117
 
-
 ## 4.4.2 Información sobre audiencias
 
-                                                                Programa de información de agenda de audiencias en juzgados de
+**Definición Canónica:** Programa de información de agenda de audiencias en juzgados de
                                                                 letras del trabajo que se proyecta en pantallas de televisión dispuestas
                                                                 en el hall de atención de público de cada tribunal.
 
+Programa de información de agenda de audiencias en juzgados de
+                                                                letras del trabajo que se proyecta en pantallas de televisión dispuestas
+                                                                en el hall de atención de público de cada tribunal.
 
 ## 4.4.3 Traducción para las personas con
 
-                                                                dificultades de comunicación
+**Definición Canónica:** dificultades de comunicación
+                                                                Sistema de traducción en línea que consiste en una plataforma di-
+                                                                señada para igualar la situación de comunicación de personas con
+                                                                discapacidad auditiva (usuarios de lenguaje de señas) y de personas
+                                                                que no comprenden ni se expresan en español, como por ejemplo
+                                                      
+
+dificultades de comunicación
                                                                 Sistema de traducción en línea que consiste en una plataforma di-
                                                                 señada para igualar la situación de comunicación de personas con
                                                                 discapacidad auditiva (usuarios de lenguaje de señas) y de personas
@@ -4453,10 +4148,11 @@ nociones básicas                                                    de Público
 Tribunales Laborales:                                            4. Unidad de Atención                                                    118
 nociones básicas                                                    de Público
 
-
 ## 4.5   Notificaciones
 
-                                                                     y citaciones
+**Definición Canónica:** y citaciones
+
+y citaciones
 
                                                                      En cuanto a notificaciones y citaciones, la Unidad de Atención de
                                                                      Público cumple las siguientes funciones:
@@ -4498,10 +4194,12 @@ nociones básicas                                                    de Público
 Tribunales Laborales:                                            4. Unidad de Atención                                                   119
 nociones básicas                                                    de Público
 
-
 ## 4.6   Registro de información de
 
-                                                                     instituciones relacionadas
+**Definición Canónica:** instituciones relacionadas
+**Concordancias Legales:** artículo 33
+
+instituciones relacionadas
 
                                                                      Los tribunales del país deben contar con información de instituciones
                                                                      relacionadas a la materia correspondiente al tribunal, registros que
@@ -4579,10 +4277,12 @@ nociones básicas                                                    de Público
 Tribunales Laborales:                                                4. Unidad de Atención                                                    122
 nociones básicas                                                        de Público
 
-
 ## 4.7    Documentación recibida y
 
-                                                                      correspondencia despachada
+**Definición Canónica:** correspondencia despachada
+**Concordancias Legales:** Ley Nº 20.886
+
+correspondencia despachada
 
                                                                       Con la implementación de la Ley de Tramitación Electrónica, el
                                                                       concepto de correspondencia recibida y despachada en los tribunales
@@ -4603,10 +4303,13 @@ nociones básicas                                                        de Púb
                                                                       formas en que los distintos tribunales manejan administrativamente
                                                                       estas labores de atención de público.
 
-
 ## 4.7.1 Principales documentos recibidos
 
-                                                                      por los tribunales
+**Definición Canónica:** por los tribunales
+                                                                      Los documentos que se reciben son, principalmente:
+**Concordancias Legales:** artículos 5; artículo 6; artículo 41 del Acta 71; Ley Nº 20.886
+
+por los tribunales
                                                                       Los documentos que se reciben son, principalmente:
 
                                                                       —        Oficios de variadas instituciones y que se relacionan, general-
@@ -4686,10 +4389,17 @@ nociones básicas                                                        de Púb
                                                                 que realizan proyectos de resoluciones, o que apoyan en resoluciones
                                                                 de mero trámite e ingreso de esta información.
 
-
 ## 4.7.2 Principales documentos
 
-                                                                despachados por los tribunales
+**Definición Canónica:** despachados por los tribunales
+                                                                Los documentos despachados, en su gran mayoría, dicen relación con
+                                                                solicitudes de información a distintas entidades públicas y privadas,
+                                                                en forma de oficios, resoluciones, citaciones por carta certificada.
+                                                                Entre los principales se puede mencionar los siguientes:
+                                                  
+**Concordancias Legales:** artículo 437 del Código del Trabajo
+
+despachados por los tribunales
                                                                 Los documentos despachados, en su gran mayoría, dicen relación con
                                                                 solicitudes de información a distintas entidades públicas y privadas,
                                                                 en forma de oficios, resoluciones, citaciones por carta certificada.
@@ -4771,19 +4481,25 @@ nociones básicas                                                        de Púb
                                                                        presenta dicha cuenta y la responsabilidad del correcto manejo de
                                                                        fondos de terceros.
 
-
 ## 5.1     Organización y principales
 
-                                                                       funciones
+**Definición Canónica:** funciones
+
+funciones
 
                                                                        Su misión es brindar apoyo logístico y administrativo a las funciones
                                                                        realizadas por el administrador del tribunal, como también a dotarlo
                                                                        de los materiales e insumos necesarios para su buen funcionamiento.
 
-
 ## 5.1.1 Integrantes
 
-                                                                       Como se desarrolló en el capítulo previo sobre Atención de Público, la
+**Definición Canónica:** Como se desarrolló en el capítulo previo sobre Atención de Público, la
+                                                                       organización e integrantes de la Unidad de Servicios está supeditada
+                                                                       al tamaño de Juzgado de Letras del Trabajo al cual estemos haciendo
+                                                                       alusión, ya que en las tipologías mediana y menor esta función se
+                                                                       fusiona o se une, precisamente, con la de 
+
+Como se desarrolló en el capítulo previo sobre Atención de Público, la
                                                                        organización e integrantes de la Unidad de Servicios está supeditada
                                                                        al tamaño de Juzgado de Letras del Trabajo al cual estemos haciendo
                                                                        alusión, ya que en las tipologías mediana y menor esta función se
@@ -4795,10 +4511,11 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                         5. Unidad de Servicios                                                 131
 
-
 ## 5.2         Funciones de la
 
-                                                                                Unidad de Servicios
+**Definición Canónica:** Unidad de Servicios
+
+Unidad de Servicios
 
                                                                                 Una de las principales funciones de esta unidad es la de adquirir y
                                                                                 abastecer de materiales de trabajo al tribunal, gestionando su compra
@@ -4822,7 +4539,14 @@ nociones básicas                                                        de Púb
 
 ## parte de su política
 
-                                                      de transparencia          ChileCompra funciona con un marco regulatorio único basado en la
+**Definición Canónica:** de transparencia          ChileCompra funciona con un marco regulatorio único basado en la
+                                                      y de optimización         transparencia, la eficiencia, la universalidad, la accesibilidad y la no
+                                                                                discriminación. Mediante la firma de un convenio, el Poder Judicial
+                                                      de los recursos           se incorporó en forma voluntaria al sistema de compras y contrata-
+                                                      que anu
+**Concordancias Legales:** Ley Nº 19.886; constitucion
+
+de transparencia          ChileCompra funciona con un marco regulatorio único basado en la
                                                       y de optimización         transparencia, la eficiencia, la universalidad, la accesibilidad y la no
                                                                                 discriminación. Mediante la firma de un convenio, el Poder Judicial
                                                       de los recursos           se incorporó en forma voluntaria al sistema de compras y contrata-
@@ -4843,10 +4567,15 @@ nociones básicas                                                        de Púb
                                                                  que fue utilizado por los tribunales. La actual versión comenzó a ser
                                                                  implementada a fines del año 2017.
 
-
 ## 5.2.1 Planificación de compras anuales
 
-                                                                 La provisión de artículos de oficina, aseo e insumos computacionales
+**Definición Canónica:** La provisión de artículos de oficina, aseo e insumos computacionales
+                                                                 debe realizarse anualmente, proyectando el periodo que se requiere
+                                                                 cubrir. Esta planificación, además, va en el sentido de la organización
+                                                                 de compras que la CAPJ debe realizar a nivel nacional para registrarlas
+                                                                 en Mercado Público, exigencia aplicada a todas las instituci
+
+La provisión de artículos de oficina, aseo e insumos computacionales
                                                                  debe realizarse anualmente, proyectando el periodo que se requiere
                                                                  cubrir. Esta planificación, además, va en el sentido de la organización
                                                                  de compras que la CAPJ debe realizar a nivel nacional para registrarlas
@@ -4862,10 +4591,16 @@ nociones básicas                                                        de Púb
                                                                  Para cumplir con esta función de compra planificada, se debe tener
                                                                  claro el procedimiento que se desarrolla en los siguientes acápites.
 
-
 ## 5.2.2 Adquisiciones
 
-                                                                 Este proceso corresponde a todas aquellas actividades necesarias para
+**Definición Canónica:** Este proceso corresponde a todas aquellas actividades necesarias para
+                                                                 finalmente concretar la compra de bienes y servicios que requiera
+                                                                 el tribunal para sus operaciones. El responsable de esta labor es el
+                                                                 administrador del mismo, quien deberá supervisar la correcta ejecu-
+                                                                 ción de las actividades necesarias, siendo apoyado operativamente
+ 
+
+Este proceso corresponde a todas aquellas actividades necesarias para
                                                                  finalmente concretar la compra de bienes y servicios que requiera
                                                                  el tribunal para sus operaciones. El responsable de esta labor es el
                                                                  administrador del mismo, quien deberá supervisar la correcta ejecu-
@@ -4916,10 +4651,11 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                5. Unidad de Servicios                                                 134
 
-
 ## 5.3     Convenio
 
-                                                                       marco
+**Definición Canónica:** marco
+
+marco
 
                                                                        Esta modalidad de compra se basa en una licitación realizada por
                                                                        la Dirección de Compras y Contrataciones Públicas, en la que se
@@ -4964,10 +4700,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                            5. Unidad de Servicios                                                  136
 
-
 ## 5.4   Licitación
 
-                                                                     pública
+**Definición Canónica:** pública
+**Concordancias Legales:** artículo 22; artículos 23; artículos 63; Ley Nº 19.886
+
+pública
 
                                                                      Como lo establece textualmente el reglamento de compras públicas
                                                                      de la Ley Nº 19.886, una licitación pública es el “procedimiento ad-
@@ -4993,10 +4731,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                5. Unidad de Servicios                                                  137
 
-
 ## 5.5     Licitación
 
-                                                                       privada
+**Definición Canónica:** privada
+**Concordancias Legales:** artículo 8 de la Ley Nº 19.886 y en el artículo 10 del reglame; Ley Nº 19.886
+
+privada
 
                                                                        Es un mecanismo excepcional contemplado por la ley y su uso se
                                                                        encuentra restringido a situaciones especiales establecidas en el
@@ -5047,10 +4787,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                5. Unidad de Servicios                                                 139
 
-
 ## 5.6     Trato directo
 
-                                                                       (Contratación directa)
+**Definición Canónica:** (Contratación directa)
+**Concordancias Legales:** artículo 10 del Reglamento
+
+(Contratación directa)
 
                                                                        El trato directo es un proceso excepcional de adquisiciones y las
                                                                        circunstancias en que procede quedan establecidas en el artículo 10
@@ -5077,10 +4819,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                5. Unidad de Servicios                                                  140
 
-
 ## 5.7     Compra
 
-                                                                       Ágil
+**Definición Canónica:** Ágil
+**Concordancias Legales:** artículo 2; artículo 10 bis; artículo 7 bis; Ley N°19.886
+
+Ágil
 
                                                                        Se trata de una modalidad nueva de compra, implementada en abril
                                                                        de 2020, mediante la cual las entidades públicas pueden adquirir de
@@ -5131,10 +4875,15 @@ nociones básicas                                                        de Púb
                                                                  supuestarios, esta se considerará al valor del mes en que se emitirá
                                                                  la orden de compra.
 
-
 ## 5.7.1 Orientaciones sobre el uso del
 
-                                                                 mecanismo de Compra Ágil
+**Definición Canónica:** mecanismo de Compra Ágil
+                                                                 Para una mejor comprensión, se detallan aquí las orientaciones en-
+                                                                 tregadas por la Dirección de Compras y Contratación Pública, en su
+                                                                 Directiva Nº 35, en relación al uso de esta modalidad de compra y
+                                                                 algunos aspectos importantes a considerar al momento de aplicarlas:
+
+mecanismo de Compra Ágil
                                                                  Para una mejor comprensión, se detallan aquí las orientaciones en-
                                                                  tregadas por la Dirección de Compras y Contratación Pública, en su
                                                                  Directiva Nº 35, en relación al uso de esta modalidad de compra y
@@ -5217,14 +4966,16 @@ nociones básicas                                                        de Púb
                                                                  de contrataciones radica en que la formalización de la contratación
                                                                  se hace mediante el envío y aceptación de la orden de compra por
 
-## parte del contratista (es un símil de la firma de un contrato), por lo
-
-                                                                 que, como se indica en la recomendación, es un vínculo contractual.
-
-
 ## 5.7.2 Directrices para el uso del
 
-                                                                 mecanismo de Compra Ágil
+**Definición Canónica:** mecanismo de Compra Ágil
+                                                                 Adicionalmente a las orientaciones señaladas en el apartado anterior,
+                                                                 se hace necesario entregar directrices que permitirán cumplir con los
+                                                                 principios de transparencia y eficiencia en las compras y contratacio-
+                                                                 nes que realiza el Poder Judicial mediante el uso de este mecanismo.
+**Concordancias Legales:** artículo 10
+
+mecanismo de Compra Ágil
                                                                  Adicionalmente a las orientaciones señaladas en el apartado anterior,
                                                                  se hace necesario entregar directrices que permitirán cumplir con los
                                                                  principios de transparencia y eficiencia en las compras y contratacio-
@@ -5399,10 +5150,11 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                       5. Unidad de Servicios                                                 148
 
-
 ## 5.8        Autorización de compras
 
-                                                                              y delegación de facultades
+**Definición Canónica:** y delegación de facultades
+
+y delegación de facultades
 
                                                                               La autorización de las compras en el sistema Mercado Público es
                                                                               realizada por el administrador del tribunal, generalmente previa
@@ -5434,10 +5186,14 @@ nociones básicas                                                        de Púb
                                                       las 50 UTM.             gramas de lo que sería el proceso de adquisiciones en un Juzgado de
                                                                               Letras del Trabajo (ver Anexo N° 5 y flujogramas de adquisiciones).
 
-
 ## 5.8.1 Administración de la bodega y su resguardo
 
-                                                                              El proceso de bodegaje de los materiales y equipos que adquiera el
+**Definición Canónica:** El proceso de bodegaje de los materiales y equipos que adquiera el
+                                                                              tribunal corresponde a todas aquellas actividades que se relacionan
+                                                                              con el correcto resguardo de los bienes de consumo destinados a
+                                                                              satisfacer las distintas necesidades de operación.
+
+El proceso de bodegaje de los materiales y equipos que adquiera el
                                                                               tribunal corresponde a todas aquellas actividades que se relacionan
                                                                               con el correcto resguardo de los bienes de consumo destinados a
                                                                               satisfacer las distintas necesidades de operación.
@@ -5447,18 +5203,25 @@ nociones básicas                                                        de Púb
 
 ## parte del funcionario a cargo, siendo estas desarrolladas generalmen-
 
+**Definición Canónica:** Tribunales Laborales:                                          5. Unidad de Servicios                                                149
 
-Tribunales Laborales:                                          5. Unidad de Servicios                                                149
+Tribunales Laborales:                                          5. Unidad de Servicios                                                149
 
                                                                  te por un auxiliar administrativo encargado de la bodega o bien, en
                                                                  algunos tribunales, por el administrativo contable.
 
                                                                  Las principales actividades de este proceso se revisan a continuación.
 
-
 ## 5.8.1.1 Recepción de materiales o existencias
 
-                                                                 La recepción de materiales puede provenir de compras efectuadas
+**Definición Canónica:** La recepción de materiales puede provenir de compras efectuadas
+                                                                 por el propio juzgado, por traspasos efectuados por la CAPJ o, in-
+                                                                 cluso, desde otros tribunales (centros financieros). En cualquiera de
+                                                                 los casos, el encargado de bodega, deberá constatar físicamente los
+                                                                 productos a recibir con las órdenes de compra y las guías de despacho
+ 
+
+La recepción de materiales puede provenir de compras efectuadas
                                                                  por el propio juzgado, por traspasos efectuados por la CAPJ o, in-
                                                                  cluso, desde otros tribunales (centros financieros). En cualquiera de
                                                                  los casos, el encargado de bodega, deberá constatar físicamente los
@@ -5482,10 +5245,16 @@ nociones básicas                                                        de Púb
                                                                  el requerimiento respectivo e iniciándose el proceso de compromiso,
                                                                  devengación y pago de la factura correspondiente.
 
-
 ## 5.8.1.2 Bodega de materiales
 
-                                                                 Completada la recepción conforme, el encargado de bodega deberá
+**Definición Canónica:** Completada la recepción conforme, el encargado de bodega deberá
+                                                                 almacenar en el espacio asignado para tal efecto todos los artículos
+                                                                 adquiridos, generalmente separados en estantes de acuerdo a su
+                                                                 categoría (oficina, aseo o computacionales) y debiendo procurar
+                                                                 mantener el orden y la seguridad respecto de su ubicación en las
+               
+
+Completada la recepción conforme, el encargado de bodega deberá
                                                                  almacenar en el espacio asignado para tal efecto todos los artículos
                                                                  adquiridos, generalmente separados en estantes de acuerdo a su
                                                                  categoría (oficina, aseo o computacionales) y debiendo procurar
@@ -5494,10 +5263,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                                 150
 
-
 ## 5.8.1.3 Salida de materiales
 
-                                                                 Los egresos de materiales se efectuarán a solicitud de los funciona-
+**Definición Canónica:** Los egresos de materiales se efectuarán a solicitud de los funciona-
+                                                                 rios del tribunal, existiendo en tal sentido varias modalidades en los
+                                                                 juzgados del trabajo:
+                                                                 —       solicitud física a través de formulario creado para el efecto,
+                                                                         presentada al encargado de bodega
+                                                                 
+
+Los egresos de materiales se efectuarán a solicitud de los funciona-
                                                                  rios del tribunal, existiendo en tal sentido varias modalidades en los
                                                                  juzgados del trabajo:
                                                                  —       solicitud física a través de formulario creado para el efecto,
@@ -5521,10 +5296,15 @@ nociones básicas                                                        de Púb
                                                                  tudes de consumo y las salidas de bodega en el sistema CGU+Plus,
                                                                  y del jefe de unidad o del administrador autorizar ambos procesos.
 
-
 ## 5.8.1.4 Control de inventarios
 
-                                                                 El encargado de bodega deberá efectuar, de manera preventiva y a
+**Definición Canónica:** El encargado de bodega deberá efectuar, de manera preventiva y a
+                                                                 modo de control, la toma de inventarios. Idealmente, con una pe-
+                                                                 riodicidad mensual, aunque desde el punto de vista de control de la
+                                                                 CAPJ, las tomas de inventarios totales están establecidas de manera
+                                                                 obligatoria en los meses de abril, agosto y diciembre.
+
+El encargado de bodega deberá efectuar, de manera preventiva y a
                                                                  modo de control, la toma de inventarios. Idealmente, con una pe-
                                                                  riodicidad mensual, aunque desde el punto de vista de control de la
                                                                  CAPJ, las tomas de inventarios totales están establecidas de manera
@@ -5535,10 +5315,13 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                                  151
 
-
 ## 5.8.2 Dirección y control de activo fijo y equipos críticos
 
-                                                                 El proceso de dirección y control del activo fijo dice relación con todas
+**Definición Canónica:** El proceso de dirección y control del activo fijo dice relación con todas
+                                                                 aquellas actividades que tienen por finalidad resguardar los activos
+                                                                 fijos del Poder Judicial asignados a los Juzgados de Letras del Trabajo.
+
+El proceso de dirección y control del activo fijo dice relación con todas
                                                                  aquellas actividades que tienen por finalidad resguardar los activos
                                                                  fijos del Poder Judicial asignados a los Juzgados de Letras del Trabajo.
 
@@ -5547,14 +5330,12 @@ nociones básicas                                                        de Púb
                                                                  casos en que la estructura no contemple la jefatura. El administrador
                                                                  deberá supervisar la correcta ejecución de las tareas asociadas por
 
-## parte administrativo contable. Las principales actividades de este
-
-                                                                 proceso se revisan en los siguientes acápites.
-
-
 ## 5.8.2.1 Recepción de bienes
 
-                                                                 La recepción de bienes se origina principalmente en los traspasos
+**Definición Canónica:** La recepción de bienes se origina principalmente en los traspasos
+                                                                 efectuados por la CAPJ a través del sistema CGU+Plus.
+
+La recepción de bienes se origina principalmente en los traspasos
                                                                  efectuados por la CAPJ a través del sistema CGU+Plus.
 
                                                                  El administrativo contable deberá chequear los bienes que se reciben,
@@ -5569,17 +5350,25 @@ nociones básicas                                                        de Púb
                                                                  a efectuar los procesos de ingreso de los elementos en el sistema
                                                                  CGU+Plus.
 
-
 ## 5.8.2.2 Ubicación de bienes
 
-                                                                 Efectuada la recepción conforme, se procederá a darle su ubicación
+**Definición Canónica:** Efectuada la recepción conforme, se procederá a darle su ubicación
                                                                  física a los distintos bienes recibidos, lo anterior, de acuerdo al des-
                                                                  tino y tipo de bien.
 
+Efectuada la recepción conforme, se procederá a darle su ubicación
+                                                                 física a los distintos bienes recibidos, lo anterior, de acuerdo al des-
+                                                                 tino y tipo de bien.
 
 ## 5.8.2.3 Salida o traslado de bienes
 
-                                                                 Generalmente, respecto de aquellos bienes que con el tiempo o uso
+**Definición Canónica:** Generalmente, respecto de aquellos bienes que con el tiempo o uso
+                                                                 presentan deterioro, el tribunal gestionará su retiro y reemplazo por
+                                                                 otro en condiciones adecuadas. Dicho proceso implicará la baja de
+                                                                 ciertos bienes en el sistema CGU+Plus y la alta de otros que vendrán
+                                                                 en su reemplazo.
+
+Generalmente, respecto de aquellos bienes que con el tiempo o uso
                                                                  presentan deterioro, el tribunal gestionará su retiro y reemplazo por
                                                                  otro en condiciones adecuadas. Dicho proceso implicará la baja de
                                                                  ciertos bienes en el sistema CGU+Plus y la alta de otros que vendrán
@@ -5592,10 +5381,15 @@ nociones básicas                                                        de Púb
                                                                  recomienda siempre contar con guías de movimiento de los artículos,
                                                                  cuando son retirados por la CAPJ o son recibidos por el tribunal.
 
-
 ## 5.8.2.4 Control de inventarios de activo fijo
 
-                                                                 El encargado del activo fijo, función operativa generalmente asignada
+**Definición Canónica:** El encargado del activo fijo, función operativa generalmente asignada
+                                                                 al administrativo contable, deberá efectuar de manera preventiva y
+                                                                 de control la toma de inventarios del activo fijo. La CAPJ exige un
+                                                                 plan de control en ese sentido y los tribunales generalmente realizan
+                                                                 planes con tomas de inventarios semestrales o anuales.
+
+El encargado del activo fijo, función operativa generalmente asignada
                                                                  al administrativo contable, deberá efectuar de manera preventiva y
                                                                  de control la toma de inventarios del activo fijo. La CAPJ exige un
                                                                  plan de control en ese sentido y los tribunales generalmente realizan
@@ -5616,10 +5410,16 @@ nociones básicas                                                        de Púb
                                                                  cia de los bienes ahí presentes, responsabilizando al funcionario que
                                                                  utiliza esa dependencia respecto del mobiliario que utiliza.
 
-
 ## 5.8.2.5 Registros
 
-                                                                 Si bien la base de registros es el sistema CGU+Plus, se sugiere que
+**Definición Canónica:** Si bien la base de registros es el sistema CGU+Plus, se sugiere que
+                                                                 en forma adicional el juzgado disponga de una nómina completa del
+                                                                 activo fijo, incluyendo los equipos computacionales, a fin mantener
+                                                                 el debido control de todos los bienes asignados. Por ejemplo, a través
+                                                                 de una planilla Excel que pueda contener mayores detalles de los
+  
+
+Si bien la base de registros es el sistema CGU+Plus, se sugiere que
                                                                  en forma adicional el juzgado disponga de una nómina completa del
                                                                  activo fijo, incluyendo los equipos computacionales, a fin mantener
                                                                  el debido control de todos los bienes asignados. Por ejemplo, a través
@@ -5628,10 +5428,14 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                                153
 
-
 ## 5.8.3 Recaudación, custodia y depósito
 
-                                                                 de fondos que ingresen al tribunal
+**Definición Canónica:** de fondos que ingresen al tribunal
+                                                                 Es función de la Unidad de Servicios la recepción de valores con oca-
+                                                                 sión de lo acordado por las partes en una conciliación, avenimiento,
+                                                                 dictación de sentencia u otros motivos.
+
+de fondos que ingresen al tribunal
                                                                  Es función de la Unidad de Servicios la recepción de valores con oca-
                                                                  sión de lo acordado por las partes en una conciliación, avenimiento,
                                                                  dictación de sentencia u otros motivos.
@@ -5648,10 +5452,15 @@ nociones básicas                                                        de Púb
                                                                  Para mejor comprensión, se definen a continuación los principales
                                                                  tipos de valores.
 
-
 ## 5.8.3.1 Dinero en efectivo
 
-                                                                 En este caso, un funcionario de la Unidad de Atención de Público
+**Definición Canónica:** En este caso, un funcionario de la Unidad de Atención de Público
+                                                                 requerirá la presencia del ministro de fe del tribunal, quien será el
+                                                                 único que recibirá dinero, de lo que se dejará constancia en el for-
+                                                                 mulario o libro de registro que pueda existir en cada tribunal, para
+                                                                 efectos de dejar establecido quién entrega y quién recibe.
+
+En este caso, un funcionario de la Unidad de Atención de Público
                                                                  requerirá la presencia del ministro de fe del tribunal, quien será el
                                                                  único que recibirá dinero, de lo que se dejará constancia en el for-
                                                                  mulario o libro de registro que pueda existir en cada tribunal, para
@@ -5672,10 +5481,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                              154
 
-
 ## 5.8.3.2 Cheque o vale vista
 
-                                                                 La recepción de estos tipos de valores podrá ser efectuada principal-
+**Definición Canónica:** La recepción de estos tipos de valores podrá ser efectuada principal-
+                                                                 mente por el ministro de fe del tribunal, aunque existen juzgados del
+                                                                 trabajo donde, al contar con formulario tipo o minuta para que los
+                                                                 abogados o las partes consignen físicamente estos documentos, son
+                                                                 recibidos por funcionarios de atención de público debido a que el
+ 
+
+La recepción de estos tipos de valores podrá ser efectuada principal-
                                                                  mente por el ministro de fe del tribunal, aunque existen juzgados del
                                                                  trabajo donde, al contar con formulario tipo o minuta para que los
                                                                  abogados o las partes consignen físicamente estos documentos, son
@@ -5695,10 +5510,16 @@ nociones básicas                                                        de Púb
                                                                  Esta misma acción de custodia se deberá realizar en caso de que los
                                                                  valores ingresen por ventanilla de atención de público.
 
-
 ## 5.8.4 Gestión de requerimientos
 
-                                                                 de soporte técnico
+**Definición Canónica:** de soporte técnico
+                                                                 Otra de las funciones de la Unidad de Servicios es gestionar opor-
+                                                                 tunamente todas las mantenciones y reparaciones que requieran
+                                                                 los sistemas y equipamientos tecnológicos del tribunal, para lo cual
+                                                                 deberán eventualmente contratarse algunos servicios y otros ser
+                                                           
+
+de soporte técnico
                                                                  Otra de las funciones de la Unidad de Servicios es gestionar opor-
                                                                  tunamente todas las mantenciones y reparaciones que requieran
                                                                  los sistemas y equipamientos tecnológicos del tribunal, para lo cual
@@ -5717,20 +5538,25 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                             155
 
-
 ## 5.8.5 Control de la gestión de las
 
-                                                                 cuentas corrientes del tribunal
+**Definición Canónica:** cuentas corrientes del tribunal
+                                                                 Los tribunales reformados, entre los que se encuentran los Juzgados
+                                                                 de Letras del Trabajo, poseen dos cuentas corrientes, la Operacional
+                                                                 y la Jurisdiccional, las que se explican en los siguientes acápites.
+
+cuentas corrientes del tribunal
                                                                  Los tribunales reformados, entre los que se encuentran los Juzgados
                                                                  de Letras del Trabajo, poseen dos cuentas corrientes, la Operacional
                                                                  y la Jurisdiccional, las que se explican en los siguientes acápites.
 
 Tribunales Laborales:                                                5. Unidad de Servicios                                                 156
 
-
 ## 5.9     Cuenta corriente
 
-                                                                       Operacional
+**Definición Canónica:** Operacional
+
+Operacional
 
                                                                        La cuenta corriente operacional de que disponen los tribunales
                                                                        reformados tiene por principal objetivo permitir, a través de la asig-
@@ -5747,10 +5573,15 @@ nociones básicas                                                        de Púb
                                                                        ta corriente operacional, exista un sistema de control de pagos. A
                                                                        continuación se resumen sus actividades y encargados de realizarlas.
 
-
 ## 5.9.1 Planilla de control
 
-                                                                       La mayoría de los tribunales del trabajo utiliza una planilla de control
+**Definición Canónica:** La mayoría de los tribunales del trabajo utiliza una planilla de control
+                                                                       de pagos en la que se registrará el pago mensual correspondiente,
+                                                                       con la indicación de la fecha de pago, a fin de evitar el retraso de los
+                                                                       mismos. Será responsabilidad de la administrativo contable mantener
+                                                                       actualizada dicha base de datos, par
+
+La mayoría de los tribunales del trabajo utiliza una planilla de control
                                                                        de pagos en la que se registrará el pago mensual correspondiente,
                                                                        con la indicación de la fecha de pago, a fin de evitar el retraso de los
                                                                        mismos. Será responsabilidad de la administrativo contable mantener
@@ -5788,20 +5619,32 @@ nociones básicas                                                        de Púb
                                                                  Próximamente, los tribunales reformados podrán realizar transferen-
                                                                  cias electrónicas en el manejo de sus cuentas corrientes.
 
-
 ## 5.9.3 Copia cedible
 
-                                                                 Al realizar el pago con el cheque correspondiente, el administrativo
+**Definición Canónica:** Al realizar el pago con el cheque correspondiente, el administrativo
+                                                                 contable deberá exigir que se le exhiba la copia correspondiente al
+                                                                 cobro ejecutivo cedible, debiendo el funcionario sacar una copia de
+                                                                 la misma, estampando fecha, hora y firma que acredite que tuvo a
+                                                                 la vista dicha copia. Lo anterior se agregará como antecedente que
+   
+
+Al realizar el pago con el cheque correspondiente, el administrativo
                                                                  contable deberá exigir que se le exhiba la copia correspondiente al
                                                                  cobro ejecutivo cedible, debiendo el funcionario sacar una copia de
                                                                  la misma, estampando fecha, hora y firma que acredite que tuvo a
                                                                  la vista dicha copia. Lo anterior se agregará como antecedente que
                                                                  acompaña el egreso respectivo.
 
-
 ## 5.9.4   Fondo fijo para gastos menores
 
-                                                                 El fondo fijo corresponde a un monto de dinero que los tribunales
+**Definición Canónica:** El fondo fijo corresponde a un monto de dinero que los tribunales
+                                                                 mantienen a disposición para resolver situaciones impostergables
+                                                                 e imprescindibles para su normal funcionamiento, entendiéndose
+                                                                 comprendidos en dichos conceptos, principalmente, aquellos que
+                                                                 dicen relación con compra de materiales y útiles de oficina, compra
+               
+
+El fondo fijo corresponde a un monto de dinero que los tribunales
                                                                  mantienen a disposición para resolver situaciones impostergables
                                                                  e imprescindibles para su normal funcionamiento, entendiéndose
                                                                  comprendidos en dichos conceptos, principalmente, aquellos que
@@ -5816,19 +5659,28 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                                158
 
-
 ## 5.9.4.1   Encargados titulares y subrogantes
 
-                                                                 En la generalidad de los tribunales, la asignación del manejo de dicho
+**Definición Canónica:** En la generalidad de los tribunales, la asignación del manejo de dicho
                                                                  fondo recae en el cargo del administrativo contable. La subrogación
                                                                  en su manejo corresponde al administrador o al jefe de Unidad de
                                                                  Servicios y Atención de Público, cuando exista este último cargo en
                                                                  la estructura organizacional del juzgado.
 
+En la generalidad de los tribunales, la asignación del manejo de dicho
+                                                                 fondo recae en el cargo del administrativo contable. La subrogación
+                                                                 en su manejo corresponde al administrador o al jefe de Unidad de
+                                                                 Servicios y Atención de Público, cuando exista este último cargo en
+                                                                 la estructura organizacional del juzgado.
 
 ## 5.9.4.2   Manejo del fondo fijo
 
-                                                                 El manejo del fondo fijo queda determinado por el monto autoriza-
+**Definición Canónica:** El manejo del fondo fijo queda determinado por el monto autoriza-
+                                                                 do para este, el cual está asociado al presupuesto que se asigne para
+                                                                 ello. Este monto se maneja en una “caja chica” utilizada para guardar
+                                                                 dichos recursos que se mantiene en la caja fuerte de la oficina del
+
+El manejo del fondo fijo queda determinado por el monto autoriza-
                                                                  do para este, el cual está asociado al presupuesto que se asigne para
                                                                  ello. Este monto se maneja en una “caja chica” utilizada para guardar
                                                                  dichos recursos que se mantiene en la caja fuerte de la oficina del
@@ -5842,10 +5694,16 @@ nociones básicas                                                        de Púb
                                                                  inmediata y correlativa las boletas y comprobantes que dichos gastos
                                                                  vayan generando.
 
-
 ## 5.9.4.3   Uso del fondo disponible
 
-                                                                 La utilización del fondo fijo para la adquisición de bienes y servicios
+**Definición Canónica:** La utilización del fondo fijo para la adquisición de bienes y servicios
+                                                                 deberá ceñirse estrictamente a lo que establece su reglamento, en-
+                                                                 tendiéndose los comprendidos en dichos conceptos y principalmente
+                                                                 aquellos que dicen relación con compra de materiales y útiles de
+                                                                 oficina, compra de artículos de aseo, despacho de correspondencia
+    
+
+La utilización del fondo fijo para la adquisición de bienes y servicios
                                                                  deberá ceñirse estrictamente a lo que establece su reglamento, en-
                                                                  tendiéndose los comprendidos en dichos conceptos y principalmente
                                                                  aquellos que dicen relación con compra de materiales y útiles de
@@ -5853,10 +5711,16 @@ nociones básicas                                                        de Púb
                                                                  y gastos de locomoción colectiva. Los montos máximos a utilizar
                                                                  desde este fondo no podrán superar las 2 UTM de manera individual.
 
-
 ## 5.9.4.4   Rendición y reposición en el sistema CGU+Plus
 
-                                                                 Para los meses de enero a noviembre de cada año, la rendición deberá
+**Definición Canónica:** Para los meses de enero a noviembre de cada año, la rendición deberá
+                                                                 efectuarse en el plazo de los tres días hábiles siguientes al período
+                                                                 rendido, mientras que para el mes de diciembre deberá efectuarse,
+                                                                 a más tardar, el penúltimo día hábil anterior al 31 de dicho mes. A
+                                                                 modo de ejemplo, el fondo fijo de mayo se rinde los primeros días
+ 
+
+Para los meses de enero a noviembre de cada año, la rendición deberá
                                                                  efectuarse en el plazo de los tres días hábiles siguientes al período
                                                                  rendido, mientras que para el mes de diciembre deberá efectuarse,
                                                                  a más tardar, el penúltimo día hábil anterior al 31 de dicho mes. A
@@ -5866,11 +5730,15 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          5. Unidad de Servicios                                                 159
 
-
 ## 5.9.4.5   Controles relevantes a considerar
 
+**Definición Canónica:** —         Registrar el monto mensual que se considerará para el
+                                                                           fondo fijo. Los primeros días de enero de cada año, el ad-
+                                                                           ministrador del tribunal deberá registrar, a través de decreto
+                                                                           económico, el monto que se considerará mensualmente para
+                                                                           el fondo fijo, debido a que este puede ir variando de acu
 
-                                                                 —         Registrar el monto mensual que se considerará para el
+—         Registrar el monto mensual que se considerará para el
                                                                            fondo fijo. Los primeros días de enero de cada año, el ad-
                                                                            ministrador del tribunal deberá registrar, a través de decreto
                                                                            económico, el monto que se considerará mensualmente para
@@ -5886,10 +5754,15 @@ nociones básicas                                                        de Púb
                                                                            cosa sucede con las subrogaciones, que también se encuentran
                                                                            establecidas y debidamente notificadas.
 
-
 ## 5.9.4.6   Rendición y reposición del fondo fijo
 
-                                                                 El encargado del fondo (administrativo contable) será la persona
+**Definición Canónica:** El encargado del fondo (administrativo contable) será la persona
+                                                                 designada para rendir dicho fondo generando los respectivos compro-
+                                                                 bantes en el sistema CGU+Plus, los cuales son revisados y contienen
+                                                                 como pie de firma al administrador y jefe de unidad del tribunal en
+                                                                 la generalidad de los juzgados.
+
+El encargado del fondo (administrativo contable) será la persona
                                                                  designada para rendir dicho fondo generando los respectivos compro-
                                                                  bantes en el sistema CGU+Plus, los cuales son revisados y contienen
                                                                  como pie de firma al administrador y jefe de unidad del tribunal en
@@ -5900,10 +5773,16 @@ nociones básicas                                                        de Púb
                                                                  Unidad de Servicios y Atención de Público del tribunal. El cheque
                                                                  que se emitirá será a nombre del encargado del fondo.
 
-
 ## 5.9.4.7   Arqueos permanentes
 
-                                                                 El administrador del tribunal realizará arqueos del fondo fijo de
+**Definición Canónica:** El administrador del tribunal realizará arqueos del fondo fijo de
+                                                                 manera regular, debiendo realizar al menos cuatro durante el año e
+                                                                 idealmente uno cada dos meses. Estos serán informados en el mo-
+                                                                 mento a la persona encargada del fondo, la cual deberá imprimir el
+                                                                 registro de rendición del fondo a la fecha del arqueo y hacer entrega
+      
+
+El administrador del tribunal realizará arqueos del fondo fijo de
                                                                  manera regular, debiendo realizar al menos cuatro durante el año e
                                                                  idealmente uno cada dos meses. Estos serán informados en el mo-
                                                                  mento a la persona encargada del fondo, la cual deberá imprimir el
@@ -5929,10 +5808,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                            5. Unidad de Servicios                                                 161
 
-
 ## 5.10     Cuenta corriente
 
-                                                                        Jurisdiccional
+**Definición Canónica:** Jurisdiccional
+**Concordancias Legales:** artículo 516 del Código Orgánico
+
+Jurisdiccional
 
                                                                    La cuenta corriente jurisdiccional tiene por objeto recibir los depó-
                                                                    sitos asociados a la tramitación de las causas en materia laboral y de
@@ -6139,10 +6020,11 @@ nociones básicas                                                        de Púb
 
                                                                        Videocápsula: Tramitación electrónica en “palabras simples”
 
-
 ## 6.1     Ley Nº 20.886 (Auto acordado N°
 
-                                                                       71-2016): características
+**Definición Canónica:** 71-2016): características
+
+71-2016): características
 
                                                                        Entrada en vigencia
 
@@ -6171,10 +6053,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          6. Tramitación electrónica                                            168
 
-
 ## 6.1.2 Principios que rigen
 
-                                                                 la tramitación electrónica
+**Definición Canónica:** la tramitación electrónica
+**Concordancias Legales:** Ley Nº 19.628
+
+la tramitación electrónica
 
                                                                  a. Principio de equivalencia funcional del soporte electrónico
                                                                     Los actos jurisdiccionales y demás actos procesales suscritos por
@@ -6236,10 +6120,12 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                6. Tramitación electrónica                                             170
 
-
 ## 6.2     Dispositivos electrónicos: Firma Electrónica
 
-                                                                       Avanzada y georreferenciación
+**Definición Canónica:** Avanzada y georreferenciación
+**Concordancias Legales:** Artículo 4; Artículo 21; Artículo 22; Ley Nº 20.886
+
+Avanzada y georreferenciación
 
                                                                        Artículo 4º de la Ley Nº 20.886. Firma electrónica de resoluciones
                                                                        y actuaciones del tribunal y copias autorizadas.
@@ -6297,10 +6183,15 @@ nociones básicas                                                        de Púb
                                                                  a esta prohibición será sancionada disciplinariamente, sin perjuicio
                                                                  de otras responsabilidades.
 
-
 ## 6.2.1 Firma Digital Electrónica (Ley Nº 19.799)
 
-                                                                 ¿Qué es un documento electrónico? El término hace referencia a
+**Definición Canónica:** ¿Qué es un documento electrónico? El término hace referencia a
+                                                                 todo tipo de archivo electrónico o mensaje de datos que contenga
+                                                                 la representación de un hecho, imagen o idea: texto, imágenes, fil-
+                                                                 maciones, grabaciones de voz, planos, etcétera.
+**Concordancias Legales:** artículo 3; artículo 7; Ley Nº 19.799
+
+¿Qué es un documento electrónico? El término hace referencia a
                                                                  todo tipo de archivo electrónico o mensaje de datos que contenga
                                                                  la representación de un hecho, imagen o idea: texto, imágenes, fil-
                                                                  maciones, grabaciones de voz, planos, etcétera.
@@ -6324,10 +6215,11 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          6. Tramitación electrónica                                            172
 
-
 ## 6.2.2 Características Firma
 
-                                                                 Electrónica Avanzada
+**Definición Canónica:** Electrónica Avanzada
+
+Electrónica Avanzada
 
                                                                  a. Interviene una entidad certificadora acreditada y auditada por la
                                                                     Subsecretaría de Economía.
@@ -6386,10 +6278,13 @@ nociones básicas                                                        de Púb
                                                                  lación de Firma Electrónica Avanzada-FEA (para administradores
                                                                  informáticos de firma)”.
 
-
 ## 6.2.3 Georreferenciación
 
-                                                                 El artículo 9 de la Ley Nº 20.886 regula el registro de actuaciones
+**Definición Canónica:** El artículo 9 de la Ley Nº 20.886 regula el registro de actuaciones
+                                                                 de receptores:
+**Concordancias Legales:** artículo 9 de la Ley Nº 20.886 regula el registro de actuacion; artículo 532 del Código; Ley Nº 20.886
+
+El artículo 9 de la Ley Nº 20.886 regula el registro de actuaciones
                                                                  de receptores:
 
 Tribunales Laborales:                                          6. Tramitación electrónica                                              176
@@ -6427,14 +6322,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                        6. Tramitación electrónica                                              177
 
-
-## 6.3        Uso de los sistemas
-
-
 ## SITLA y SITCO
 
+**Definición Canónica:** Los Juzgados de Letras del Trabajo utilizan el sistema informático
+                                                                               denominado con la sigla SITLA (Sistema Informático de Tramitación
+                                                                               Laboral) para sus tramitaciones, mientras que los Juzgados de Letras
+                                                                               del Trabajo con competencia en Cobranza Laboral y Previsional,
+                                                                               además, deben utili
+**Concordancias Legales:** Artículo 3; artículo 23 del Acta 71; artículo 5; artículo 20 del Acta 71; Artículo 24; Artículo 25; Artículo 26; Artículo 27; artículo 2; Artículo 28; Ley Nº 20.886
 
-                                                                               Los Juzgados de Letras del Trabajo utilizan el sistema informático
+Los Juzgados de Letras del Trabajo utilizan el sistema informático
                                                                                denominado con la sigla SITLA (Sistema Informático de Tramitación
                                                                                Laboral) para sus tramitaciones, mientras que los Juzgados de Letras
                                                                                del Trabajo con competencia en Cobranza Laboral y Previsional,
@@ -6601,11 +6498,15 @@ nociones básicas                                                        de Púb
 
                                                                        siguientes acápites se desarrollarán las sucesivas fases.
 
-
 ## 7.1     Planificación
 
+**Definición Canónica:** Esta fase es de alta relevancia a la hora de realizar una gestión
+                                                                       administrativa exitosa y propende a tener claridad de hacia dónde
+                                                                       se quieren guiar los esfuerzos, definir objetivos como tribunal al
+                                                                       corto, mediano y largo plazo, y traducir tales objetivos en proyectos,
+                                                                       propuestas, procedimientos que permitan la mej
 
-                                                                       Esta fase es de alta relevancia a la hora de realizar una gestión
+Esta fase es de alta relevancia a la hora de realizar una gestión
                                                                        administrativa exitosa y propende a tener claridad de hacia dónde
                                                                        se quieren guiar los esfuerzos, definir objetivos como tribunal al
                                                                        corto, mediano y largo plazo, y traducir tales objetivos en proyectos,
@@ -6625,10 +6526,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          7. Gestión administrativa                                                 183
 
-
 ## 7.1.1 Recursos humanos
 
-                                                                 La planificación en esta área es fundamental a la hora de buscar el
+**Definición Canónica:** La planificación en esta área es fundamental a la hora de buscar el
+                                                                 logro de los objetivos del tribunal, pues el desempeño de las per-
+                                                                 sonas que los integran es central en cada uno de los tribunales que
+                                                                 conforman el Poder Judicial. A continuación se desarrollan algunos
+                                                                 ejemplos dignos de mención.
+                                          
+
+La planificación en esta área es fundamental a la hora de buscar el
                                                                  logro de los objetivos del tribunal, pues el desempeño de las per-
                                                                  sonas que los integran es central en cada uno de los tribunales que
                                                                  conforman el Poder Judicial. A continuación se desarrollan algunos
@@ -6718,10 +6625,15 @@ nociones básicas                                                        de Púb
 
                                                                                     por sus pares.
 
-
 ## 7.1.2 Servicios
 
-                                                                 Para desarrollar un trabajo adecuado, se requiere contar con la in-
+**Definición Canónica:** Para desarrollar un trabajo adecuado, se requiere contar con la in-
+                                                                 fraestructura e implementación adecuada, por lo que se considera
+                                                                 relevante destinar esfuerzos a los siguientes objetivos, respecto de
+                                                                 esta área:
+                                                                 —        Mejorar y mantener la infraestructura del tribunal
+
+Para desarrollar un trabajo adecuado, se requiere contar con la in-
                                                                  fraestructura e implementación adecuada, por lo que se considera
                                                                  relevante destinar esfuerzos a los siguientes objetivos, respecto de
                                                                  esta área:
@@ -6745,10 +6657,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          7. Gestión administrativa                                             186
 
-
 ## 7.1.3 Procesos
 
-                                                                 Los procesos de trabajo pasan a ser un apoyo muy importante para
+**Definición Canónica:** Los procesos de trabajo pasan a ser un apoyo muy importante para
+                                                                 que todos los integrantes del tribunal tengan claridad respecto de
+                                                                 las formas de hacer las cosas y las políticas que inspiran esas formas
+                                                                 de trabajo, dándole fluidez a los actos administrativos. De ahí la im-
+                                                                 portancia de estar trabajando este aspecto de manera permanente.
+**Concordancias Legales:** artículo 18
+
+Los procesos de trabajo pasan a ser un apoyo muy importante para
                                                                  que todos los integrantes del tribunal tengan claridad respecto de
                                                                  las formas de hacer las cosas y las políticas que inspiran esas formas
                                                                  de trabajo, dándole fluidez a los actos administrativos. De ahí la im-
@@ -6815,11 +6733,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                       7. Gestión administrativa                                             188
 
-
 ## 7.2        Organización
 
+**Definición Canónica:** Esta fase de la gestión administrativa se puede definir como la forma
+                                                                              en que se distribuyen los distintos recursos humanos, económicos
+                                                                              o financieros y técnicos con que se cuenta para lograr el objetivo
+                                                                              principal de administrar justicia. Contempla varios aspectos que
+                                                                              serán revisados en de
+**Concordancias Legales:** artículo 498 del Código Orgánico de
 
-                                                                              Esta fase de la gestión administrativa se puede definir como la forma
+Esta fase de la gestión administrativa se puede definir como la forma
                                                                               en que se distribuyen los distintos recursos humanos, económicos
                                                                               o financieros y técnicos con que se cuenta para lograr el objetivo
                                                                               principal de administrar justicia. Contempla varios aspectos que
@@ -6863,11 +6786,15 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                7. Gestión administrativa                                            190
 
-
 ## 7.3     Dirección
 
+**Definición Canónica:** Esta etapa la podemos definir como la forma en que las personas
+                                                                       encargadas de la dirección administrativa del tribunal, su adminis-
+                                                                       trador y jefes de unidad, hacen ejecutar lo planificado en búsqueda
+                                                                       de los objetivos del tribunal, administración de justicia a través de
+                                                                       un proceso de tramitación de causas eficiente 
 
-                                                                       Esta etapa la podemos definir como la forma en que las personas
+Esta etapa la podemos definir como la forma en que las personas
                                                                        encargadas de la dirección administrativa del tribunal, su adminis-
                                                                        trador y jefes de unidad, hacen ejecutar lo planificado en búsqueda
                                                                        de los objetivos del tribunal, administración de justicia a través de
@@ -6877,11 +6804,15 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                7. Gestión administrativa                                             191
 
-
 ## 7.4     Control
 
+**Definición Canónica:** Consiste en ir verificando y midiendo los avances de lo planeado,
+                                                                       corrigiendo, reorientando actividades de acuerdo a las necesidades.
+                                                                       En esta fase es muy pertinente definir de antemano indicadores de
+                                                                       gestión, de manera que todos los integrantes del tribunal sepan lo
+                                                                       que se espera de una determinada actividad, estra
 
-                                                                       Consiste en ir verificando y midiendo los avances de lo planeado,
+Consiste en ir verificando y midiendo los avances de lo planeado,
                                                                        corrigiendo, reorientando actividades de acuerdo a las necesidades.
                                                                        En esta fase es muy pertinente definir de antemano indicadores de
                                                                        gestión, de manera que todos los integrantes del tribunal sepan lo
@@ -6899,47 +6830,36 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                                7. Gestión administrativa                                            192
 
-
-## 7.5     Gestión administrativa
-
-                                                                       y principales procedimientos
-
-
-## 1. Distribución del personal en las diferentes unidades que con-
-
-                                                                          forman los Juzgados de Letras del Trabajo y su dotación mínima
-                                                                          para cumplir con un funcionamiento adecuado.
-
-## 2. Procedimientos usados para definir las labores a desarrollar; el
-
-                                                                          trabajo por sistema de turnos; matriz de subrogaciones y mo-
-                                                                          delos de polifuncionalidad en la gestión.
-
-
-## 3. Protocolos de inducción para el personal que se integra al tribunal
-
-
-                                                                          en sus diferentes calidades.
-
 ## 4. Decretos económicos, facultades disciplinarias de jueces y
 
-                                                                          administrador; procedimientos disciplinarios formales, como
+**Definición Canónica:** administrador; procedimientos disciplinarios formales, como
                                                                           el contenido en el Código Orgánico de Tribunales y en Acta N°
                                                                           108-2020 de la Excma. Corte Suprema.
 
+administrador; procedimientos disciplinarios formales, como
+                                                                          el contenido en el Código Orgánico de Tribunales y en Acta N°
+                                                                          108-2020 de la Excma. Corte Suprema.
 
 ## 5. Metas de gestión de desempeño colectivo y de eficiencia insti-
 
-                                                                          tucional; principales indicadores de gestión para el control y la
+**Definición Canónica:** tucional; principales indicadores de gestión para el control y la
+                                                                          forma de mejorarlos.
+
+tucional; principales indicadores de gestión para el control y la
                                                                           forma de mejorarlos.
 
                                                                        En los siguientes acápites, se revisará individualmente cada uno de
                                                                        estos procedimientos.
 
-
 ## 7.5.1 Distribución del personal
 
-                                                                       Como se mencionó anteriormente, el diseño organizacional de los
+**Definición Canónica:** Como se mencionó anteriormente, el diseño organizacional de los
+                                                                       juzgados del trabajo se encuentra claramente definido y la mayor va-
+                                                                       riación entre los distintos tamaños de tribunal las podemos encontrar
+                                                                       en la separación de algunas unidades y en el número de funcionarios
+                                                                       que tienen dependencia de cada una de ellas.
+
+Como se mencionó anteriormente, el diseño organizacional de los
                                                                        juzgados del trabajo se encuentra claramente definido y la mayor va-
                                                                        riación entre los distintos tamaños de tribunal las podemos encontrar
                                                                        en la separación de algunas unidades y en el número de funcionarios
@@ -7212,10 +7132,16 @@ nociones básicas                                                        de Púb
                                                                  rían en sus tribunales, identificando las actividades o funciones más
                                                                  críticas y el personal que se requiere como mínimo para desarrollarlas.
 
-
 ## 7.5.2 Modelos de polifuncionalidad
 
-                                                                 y matriz de subrogaciones
+**Definición Canónica:** y matriz de subrogaciones
+                                                                 La implementación de modelos de polifuncionalidad nace de la
+                                                                 necesidad de que los tribunales cuenten, en todos los puestos de
+                                                                 trabajo, con funcionarios con los conocimientos suficientes para ga-
+                                                                 rantizar la continuidad del servicio mediante la realización eficiente
+                                                
+
+y matriz de subrogaciones
                                                                  La implementación de modelos de polifuncionalidad nace de la
                                                                  necesidad de que los tribunales cuenten, en todos los puestos de
                                                                  trabajo, con funcionarios con los conocimientos suficientes para ga-
@@ -7306,10 +7232,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          7. Gestión administrativa                                            201
 
-
 ## 7.5.2.1   Matriz de subrogaciones
 
-                                                                 Llamada también “modelo de reemplazos internos”, se justifica en
+**Definición Canónica:** Llamada también “modelo de reemplazos internos”, se justifica en
+                                                                 la necesidad de cubrir funciones en momentos de ausencia pro-
+                                                                 gramada o imprevista de uno o más funcionarios. Esta matriz debe
+                                                                 tener como base contar con funcionarios capacitados para desarrollar
+                                                                 otras funciones, o en su defecto establecer la matriz y en base a ella
+        
+
+Llamada también “modelo de reemplazos internos”, se justifica en
                                                                  la necesidad de cubrir funciones en momentos de ausencia pro-
                                                                  gramada o imprevista de uno o más funcionarios. Esta matriz debe
                                                                  tener como base contar con funcionarios capacitados para desarrollar
@@ -7343,10 +7275,16 @@ nociones básicas                                                        de Púb
 
 Tribunales Laborales:                                          7. Gestión administrativa                                              202
 
-
 ## 7.5.3 Protocolo de inducción
 
-                                                                 al personal nuevo
+**Definición Canónica:** al personal nuevo
+                                                                 La inducción al personal, también llamada “socialización corpo-
+                                                                 rativa”, se torna cada vez más importante en los tribunales, ya que
+                                                                 estos requieren cada vez más que los nuevos integrantes adquieran
+                                                                 actitudes, comportamientos y valores propios del tribunal y del Poder
+                                                      
+
+al personal nuevo
                                                                  La inducción al personal, también llamada “socialización corpo-
                                                                  rativa”, se torna cada vez más importante en los tribunales, ya que
                                                                  estos requieren cada vez más que los nuevos integrantes adquieran
@@ -7380,10 +7318,11 @@ nociones básicas                                                        de Púb
                                                                  considera los principales aspectos que debería contener un proceso
                                                                  de socialización al interior de los juzgados del trabajo.
 
-
 ## 7.5.3.1   Descripción del proceso
 
-                                                                 Este procedimiento debe ser considerado en todos sus aspectos cuan-
+**Definición Canónica:** Este procedimiento debe ser considerado en todos sus aspectos cuan-
+
+Este procedimiento debe ser considerado en todos sus aspectos cuan-
 
                                                                  do se incorpore un nuevo funcionario al tribunal y son los siguientes:
                                                                  a. Socialización sobre la estructura administrativa y aspectos gene-
@@ -7428,7 +7367,12 @@ nociones básicas                                                        de Púb
 
 ## SITLA y SITCO
 
-                                                                 —        Procedimientos principales del tribunal.
+**Definición Canónica:** —        Procedimientos principales del tribunal.
+                                                                 —        Otros manuales de procedimientos, como por ejemplo
+                                                                          cuentas corrientes, actualización de sistemas informáticos,
+                                                                          nomenclaturas, etcétera.
+
+—        Procedimientos principales del tribunal.
                                                                  —        Otros manuales de procedimientos, como por ejemplo
                                                                           cuentas corrientes, actualización de sistemas informáticos,
                                                                           nomenclaturas, etcétera.
@@ -7532,10 +7476,17 @@ nociones básicas                                                        de Púb
                                                                  sus compañeros que desarrollan la misma (u otra) labor o al jefe de
                                                                  unidad correspondiente.
 
-
 ## 7.5.4 Decretos económicos
 
-                                                                 El registro de decretos económicos en los tribunales se puede
+**Definición Canónica:** El registro de decretos económicos en los tribunales se puede
+                                                                 definir en términos sencillos como la historia del tribunal, desde la
+                                                                 asunción de funciones del primer juez que inicia el tribunal, hasta
+                                                                 el registro de todos los asuntos en que el juez presidente decreta
+                                                                 en algo relacionado con cualquier ámbito de acción del tribunal, de
+     
+**Concordancias Legales:** artículo 515 del Código Orgánico de
+
+El registro de decretos económicos en los tribunales se puede
                                                                  definir en términos sencillos como la historia del tribunal, desde la
                                                                  asunción de funciones del primer juez que inicia el tribunal, hasta
                                                                  el registro de todos los asuntos en que el juez presidente decreta
@@ -7577,10 +7528,14 @@ nociones básicas                                                        de Púb
                                                                  ámbitos jurisdiccionales y disciplinarios lo son a través del juez pre-
                                                                  sidente del tribunal.
 
-
 ## 7.5.5 Metas de gestión de desempeño
 
-                                                                 colectivo y eficiencia institucional
+**Definición Canónica:** colectivo y eficiencia institucional
+                                                                 Todos los años, el Poder Judicial debe dar cumplimiento a metas de
+                                                                 gestión reguladas a través de un auto acordado que generalmente se
+                                                                 aprueba en el mes de diciembre del año anterior al de aplicación de
+
+colectivo y eficiencia institucional
                                                                  Todos los años, el Poder Judicial debe dar cumplimiento a metas de
                                                                  gestión reguladas a través de un auto acordado que generalmente se
                                                                  aprueba en el mes de diciembre del año anterior al de aplicación de
@@ -7673,10 +7628,14 @@ nociones básicas                                                        de Púb
                                                                  Metas de gestión para el año 2020
                                                                  en los Tribunales de Letras del Trabajo
 
-
 ## 7.5.5.1   Indicadores de gestión
 
-                                                                 Establecer indicadores de gestión es una manera de medir si el
+**Definición Canónica:** Establecer indicadores de gestión es una manera de medir si el
+                                                                 tribunal está logrando sus metas y objetivos estratégicos, y dice rela-
+                                                                 ción con la necesidad de disponer de información que sea medible
+                                                                 y cuantificable. Por ejemplo, como medio para comparar la gestión
+
+Establecer indicadores de gestión es una manera de medir si el
                                                                  tribunal está logrando sus metas y objetivos estratégicos, y dice rela-
                                                                  ción con la necesidad de disponer de información que sea medible
                                                                  y cuantificable. Por ejemplo, como medio para comparar la gestión
@@ -7866,38 +7825,3 @@ nociones básicas                                                        de Púb
                                                        —        Manual único para tribunales.
 
 ←                                        Índice de contenidos
-
-## Serie de
-
-Tribunales Laborales:                               Introducción   DOCUMENTOS 218
-nociones básicas                                                   MATERIALES
-
-## Docentes
-
-
- ial
-  c
-  udi
-  J
-  a
-  mi
-  de
-  a
-  c
-  A
-  s
-  e
-  nt
-  e
-  c
-  do
-  s
-  al
-  e
-  ri
-  e
- Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl
-
-←       Índice de contenidos

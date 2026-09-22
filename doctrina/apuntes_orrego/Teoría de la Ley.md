@@ -15,6 +15,13 @@ extraccion: pdftotext
 
 ## Teoria de la ley1
 
+**Definición Canónica:** Sumario:
+1.- Origen de la palabra ley. 2.- Definición de ley. 2.1. Definición de ley del
+Código Civil. 2.2. Definiciones doctrinarias. 3.- Requisitos externos e internos de la
+ley. 3.1. Requisitos externos. 3.2. Requisitos internos. 4.- Características de la ley.
+5.- Clasificación de las leyes. 5.1. Leyes prohibitivas e imperativas. 5.2. Leyes
+dispositivas. 5.3. Leyes materiales y formales. 5.4. Leyes perfectas, más que
+perfectas, menos perfectas e imperfectas. 6.- Jerarquía de las normas jurídicas.
 
 Sumario:
 1.- Origen de la palabra ley. 2.- Definición de ley. 2.1. Definición de ley del
@@ -26,6 +33,16 @@ perfectas, menos perfectas e imperfectas. 6.- Jerarquía de las normas jurídica
 
 ## 6.1. Escala jerárquica de las normas. 6.2. Factores en virtud de los cuales se
 
+**Definición Canónica:** jerarquizan las normas. 7.- Constitucionalidad de la ley. 7.1. Constitucionalidad de
+fondo y forma. 7.2. Efectos de las leyes inconstitucionales. 7.3. El control de la
+constitucionalidad en Chile. 8.- La potestad reglamentaria. 8.1. Concepto. 8.2.
+Limitaciones en el ejercicio de la potestad reglamentaria. 8.3. Autoridades
+administrativas con potestad reglamentaria. 8.4. Amplitud de la potestad
+reglamentaria del Presidente de la República. 8.5. Decretos en general y decretos
+supremos. 8.6. Reglamentos y simples decretos. 8.7. Clases de decretos supremos, de
+conformidad a la función que desempeñ
+**Concordancias Legales:** Constitucion
+
 jerarquizan las normas. 7.- Constitucionalidad de la ley. 7.1. Constitucionalidad de
 fondo y forma. 7.2. Efectos de las leyes inconstitucionales. 7.3. El control de la
 constitucionalidad en Chile. 8.- La potestad reglamentaria. 8.1. Concepto. 8.2.
@@ -36,6 +53,16 @@ supremos. 8.6. Reglamentos y simples decretos. 8.7. Clases de decretos supremos,
 conformidad a la función que desempeñan. 8.8. Firmas que deben llevar los decretos.
 
 ## 8.9. Control de constitucionalidad y de legalidad de los decretos supremos y
+
+**Definición Canónica:** resoluciones. 8.10. Semejanzas y diferencias entre la ley y el decreto. 8.11. Las
+resoluciones, instrucciones o circulares. 8.12. Las ordenanzas. 9.- Decretos con
+fuerza de ley y decretos leyes. 9.1. Decretos con fuerza de ley. 9.2. Decretos leyes.
+10.- Interpretación de la ley. 10.1. Generalidades. 10.2. Normas de interpertación
+en el Código Civil. 10.3. Hermenéutica legal y sistemas de interpretación. 10.4.
+Diversas clases de interpretación. 10.5. Elementos de interpretación. 10.6. Especies de
+interpretación. 10.7. Métodos de interpretación. 10.8. Interpretación pública o por vía
+de autorida
+**Concordancias Legales:** artículo 1; artículos 65; artículo 63; artículo 38 bis; artículos 66; Constitución; Constitución Política; constitucion
 
 resoluciones. 8.10. Semejanzas y diferencias entre la ley y el decreto. 8.11. Las
 resoluciones, instrucciones o circulares. 8.12. Las ordenanzas. 9.- Decretos con
@@ -332,6 +359,16 @@ Presidente, no habrá reforma constitucional sobre los puntos en discrepancia, a
 que ambas Cámaras insistieren por los dos tercios de sus miembros en ejercicio en la
 
 ## parte del proyecto aprobado por ellas. En este último caso, se devolverá al Presidente
+
+**Definición Canónica:** la parte del proyecto que haya sido objeto de insistencia para su promulgación, salvo
+que éste consulte a la ciudadanía para que se pronuncie mediante un plebiscito,
+respecto de las cuestiones en desacuerdo (art. 128).
+        La convocatoria a plebiscito deberá efectuarse dentro de los treinta días
+siguientes a aquel en que ambas Cámaras insistan en el proyecto aprobado por ellas, y
+se ordenará mediante decreto supremo que fijará la fecha de la votación plebiscitaria,
+la que se celebrará ciento veinte días después de la publicación de dicho decreto si ese
+día correspondiere a un domingo. Si a
+**Concordancias Legales:** artículo 32; artículos 1016; artículos 10; artículo 10; artículo 1466; artículo 1682; artículos 745; artículos 92; artículos 98; artículo 20 de la Constitución Política de la República constit; artículo 94; Artículo 7; Artículo 2; Ley N° 17.997; Ley N° 19.537; Ley Nº 19.880; Ley Nº 18.575; Ley Nº 18.695; Ley Nº 20.190; Ley Nº 18.046; Ley Nº 21.442; Ley Nº 20.830; constitucion; Constitución; Constitución Política
 
 la parte del proyecto que haya sido objeto de insistencia para su promulgación, salvo
 que éste consulte a la ciudadanía para que se pronuncie mediante un plebiscito,
@@ -1399,8 +1436,10 @@ cargo de la administración del Estado o aquél que otorga un indulto particular
 cual se nombra un embajador, etc. No son por tanto generales, como los
 reglamentos.50
 
-
 ## 8.7. Clases de           decretos       supremos,        de    conformidad         a    la   función       que
+
+**Definición Canónica:** desempeñan.
+**Concordancias Legales:** Constitución Política; constitucion
 
 desempeñan.
 
@@ -1427,8 +1466,10 @@ Ministro respectivo y no serán obedecidos sin este esencial requisito. Sin emba
 algunos Decretos, pueden expedirse por la sola firma del Ministro respectivo pero con
 la frase “por orden del Presidente de la República”.52
 
-
 ## 8.9. Control de constitucionalidad y de legalidad de los decretos supremos y
+
+**Definición Canónica:** resoluciones.
+**Concordancias Legales:** artículo 63; constitucion
 
 resoluciones.
 
@@ -1462,6 +1503,16 @@ impugnado. En el caso de vicios que no se refieran a decretos que excedan la pot
 reglamentaria autónoma del Presidente de la República también podrá una cuarta
 
 ## parte de los miembros en ejercicio deducir dicho requerimiento”. La frase “a
+
+**Definición Canónica:** requerimiento de cualquiera de las Cámaras”, significa que el presentación debe ser
+hecho por la respectiva Cámara como corporación, representada por su Presidente y
+previo acuerdo en tal sentido de la mayoría de los integrantes del cuerpo colegiado. Tal
+podrá ocurrir con decretos supremos reglamentarios autónomos. En cambio, si se trata
+de decretos supremos reglamentarios de ejecución, basta para presentar el
+requerimiento una cuarta parte de los miembros en ejercicio de la respectiva Cámara.
+De conformidad al inc. 3º, primera parte, del art. 94 de la Constitución Política, “En el
+caso del Nº
+**Concordancias Legales:** artículo 93; artículo 64; artículo 99; Artículos 3; Artículos 4; Artículos 25; Artículos 1560; Artículos 1056; artículo 372 del Código Orgánico de Tribunales se agregarán a; artículo 23 del Código Civil. Este artículo tiene un; Ley Nº 19.880; Ley Nº 18.695; Ley N° 17.284; Ley N° 19.968; Constitución Política; constitucion; Constitución
 
 requerimiento de cualquiera de las Cámaras”, significa que el presentación debe ser
 hecho por la respectiva Cámara como corporación, representada por su Presidente y
@@ -2341,6 +2392,9 @@ alcance, con el propósito de solucionar el caso concreto. Se suele distinguir, 
 
 ## parte, entre el método lógico tradicional y por otra parte, los métodos nuevos o
 
+**Definición Canónica:** modernos de interpretación.
+**Concordancias Legales:** artículos 3
+
 modernos de interpretación.
 
 a) Método lógico tradicional.
@@ -2417,6 +2471,16 @@ decir el legislador concreto que la había redactado. La constelación de las id
 Exégesis gira alrededor de estas cuatro premisas, estrechamente vinculadas entre sí:
 
 ## 1. La codificación estabilizó el Derecho. 2. Existencia de un monopolio interpretativo
+
+**Definición Canónica:** por parte del legislador; 3. La codificación creó una cesura histórica que canceló y
+borró el pasado; 4. No hay más derecho que el codificado: la ley es la única fuente de
+cognición del Derecho”.96
+        Debe reconocerse, sin embargo, que la opinión de los redactores del Código
+francés no era tan tajante al respecto. Como indica Carlos Ramos Núñez, “En realidad,
+el napoleónico no cerraba del todo las puertas a la costumbre. Los redactores del
+Código civil admitían la fuerza obligatoria de la costumbre, en cierta medida; en el
+proyecto definitivo, el título preliminar comprendía disposiciones
+**Concordancias Legales:** artículos 19; artículo 5; artículo 1; artículo 56; artículos 38; artículo 19 del Código Civil dice que cuando el sentido; Ley N° 18.658; ley N° 3.516; ley N° 3.262; Ley N° 19.945; Ley Nº 21.199; Ley Nº 21.109; Constitucion; Constitución; Constitución Política
 
 por parte del legislador; 3. La codificación creó una cesura histórica que canceló y
 borró el pasado; 4. No hay más derecho que el codificado: la ley es la única fuente de
@@ -3146,6 +3210,13 @@ complete el plazo de prescripción, pueda transformarse en el nuevo dueño. Por 
 
 ## parte, el art. 2518, en las normas de la prescripción extintiva, dice que “La
 
+**Definición Canónica:** prescripción que extingue las acciones ajenas puede interrumpirse, ya natural, ya
+civilmente (…) Se interrumpe civilmente por la demanda judicial”. Ahora bien, la
+discusión que se ha planteado consiste en lo siguiente: ¿se interrumpe la prescripción
+con la sola interposición de la demanda, o este efecto sólo se producirá una vez
+notificada dicha demanda? Esta es una cuestión que ha suscitado, como se dijo,
+interpretaciones en uno y otro sentido. Si nos atuviéramos al tenor literal, pareciera
+
 prescripción que extingue las acciones ajenas puede interrumpirse, ya natural, ya
 civilmente (…) Se interrumpe civilmente por la demanda judicial”. Ahora bien, la
 discusión que se ha planteado consiste en lo siguiente: ¿se interrumpe la prescripción
@@ -3195,6 +3266,16 @@ hace manifiesto a la víctima.
          Rebatiendo los principios de la Escuela Exegética, Carlos Ducci sostiene por su
 
 ## parte que el sentido debe entenderse como la correspondencia o armonía entre la
+
+**Definición Canónica:** norma general que se trata de aplicar y las condiciones concretas del caso particular,
+de modo que se obtenga una solución de equidad, es decir lo que llama “justicia
+concreta”.128 Se reafirma lo anterior, teniendo presente que los tribunales son de
+justicia y no puramente de Derecho.
+         Por otra parte, incluso quienes siguen la Escuela Exegética, admiten que para
+estimar claro el sentido de la ley no basta que la parte consultada de esa ley esté
+redactada en términos que no provoquen dudas; también es menester que no exista
+otro precepto que lo contradiga, sea en el mismo cuerpo de leye
+**Concordancias Legales:** artículos 19; artículo 24; artículo 24 del Código sea una puerta abierta a la subjetiva; artículo 1426 del Code Civil; artículos 170; artículo 147 del Código Civil; artículo 54; artículos 4; artículo 122; artículo 93; artículo 53 del Código Civil dice que la derogación tácita de; artículo 2144; artículo 7 del Código Civil y Comercial; artículo 3; artículo 10; Ley N° 16.618; Ley N° 14.908; Ley N° 19.947; Ley Nº 9.400; Ley Nº 19.947; Ley Nº 2.695; Ley N° 18.101; Ley Nº 20.720; Ley Nº 5.001; Ley Nº 19.880; Ley Nº 17.771; Ley Nº 16.615; Ley N° 20.239; Ley Nº 16.455; constitucion; Constitución Política; Constitución
 
 norma general que se trata de aplicar y las condiciones concretas del caso particular,
 de modo que se obtenga una solución de equidad, es decir lo que llama “justicia
@@ -5708,6 +5789,16 @@ terminación del contrato de trabajo”. Se publicó y entró en vigencia el 6 d
 
 ## 1966. Sin embargo, en su art. 6º transitorio, se dispuso que todo despido que
 
+**Definición Canónica:** ocurriere entre el 28 de febrero de 1966 y la fecha de promulgación de esta ley (lo que
+ocurrió el 5 de abril de 1966), daría derecho al trabajador a una indemnización
+extraordinaria de un mes de remuneraciones por año de servicios continuos o
+discontinuos prestados a la misma empresa. Por lo tanto, la ley tuvo efecto retroactivo,
+pues se aplicó a términos de contrato de trabajo acaecidos antes de que ella entrare
+en vigencia. Uno de los empleadores recurrió a la Corte Suprema, fundando su acción
+en la aludida retroactividad, que lo obligaba a pagar la indemnización. Su recurso no
+prosperó, de
+**Concordancias Legales:** Ley Nº 19.585; constitución
+
 ocurriere entre el 28 de febrero de 1966 y la fecha de promulgación de esta ley (lo que
 ocurrió el 5 de abril de 1966), daría derecho al trabajador a una indemnización
 extraordinaria de un mes de remuneraciones por año de servicios continuos o
@@ -6019,6 +6110,16 @@ cumplir tal edad. Lo mismo ocurrió cuando volvió a aumentarse a partir del 28 
 diciembre de 2022 la edad mínima para contraer matrimonio a 18 años, por la Ley N°
 
 ## 21.515. De igual forma, si se modificare la Ley de Matrimonio Civil y se dispusiere que
+
+**Definición Canónica:** no podrán contraer matrimonio los colaterales por consanguinidad en el tercer grado,
+quienes tengan dicho parentesco no podrán celebrar el mencionado contrato, a partir
+de la reforma legal, aunque lo hayan podido hacer mientras regía la ley antigua.
+ii.- Mantención del estado civil: arts. 3, 5 y 6.
+        Conforme al art. 3º, inc. 1º, el estado civil se mantiene, aunque la ley en virtud
+del cual se contrajo, se modifique: “El estado civil adquirido conforme a la ley vigente
+a la fecha de su constitución, subsistirá aunque ésta pierda después su fuerza; pero los
+derechos y obligaciones anexos 
+**Concordancias Legales:** artículo 3; artículo 16; artículo 17; artículo 831 del Código Civil; Ley Nº 19.585; constitución; constitucion; Constitución Política
 
 no podrán contraer matrimonio los colaterales por consanguinidad en el tercer grado,
 quienes tengan dicho parentesco no podrán celebrar el mencionado contrato, a partir
@@ -6415,6 +6516,9 @@ Reales, una persona puede encontrarse en tres situaciones, en relación a una co
 puede ser su dueño, su poseedor o su mero tenedor. Si se es dueño, la cosa forma
 
 ## parte del activo de su patrimonio. Se tiene respecto de ella un derecho adquirido. Si se
+
+**Definición Canónica:** es poseedor, se tiene la mera expectativa de llegar a ser dueño, a través de la
+**Concordancias Legales:** artículo 1444 del Código Civil; artículo 22; artículo 23; artículos 7; Ley Nº 19.585; Ley N° 18.101; Ley N° 20.830; constitución; constitucion; Constitución Política
 
 es poseedor, se tiene la mera expectativa de llegar a ser dueño, a través de la
 
@@ -7344,6 +7448,16 @@ su último domicilio el causante. En el caso, el art. 15 N° 2 prevalece por sob
 
 ## 955. Los derechos hereditarios que se invocan, podrían nacer “de las relaciones de
 
+**Definición Canónica:** familia” del causante, si los herederos fueren parientes o el cónyuge o conviviente civil.
+        ¿Qué ocurre si el causante fuere extranjero y no chileno y deja herederos
+chilenos y bienes en Chile? En este caso, no cabe aplicar el art. 15 N° 2, pues este
+precepto supone que el fallecido haya sido un chileno. Pero los herederos chilenos
+también están protegidos, esta vez por el art. 998. En efecto, esta norma establece
+que, si en una sucesión abierta en el extranjero tiene el causante bienes en Chile, en
+éstos deberá adjudicarse el total de lo que corresponda a los herederos chilenos,
+quiene
+**Concordancias Legales:** artículo 955; artículo 955 del Código Civil; artículo 16; artículo 119; artículo 1027
+
 familia” del causante, si los herederos fueren parientes o el cónyuge o conviviente civil.
         ¿Qué ocurre si el causante fuere extranjero y no chileno y deja herederos
 chilenos y bienes en Chile? En este caso, no cabe aplicar el art. 15 N° 2, pues este
@@ -7543,10 +7657,17 @@ país en que se otorgó;
 ii) Que se pruebe su autenticidad conforme a las normas establecidas en el Código de
 Procedimiento Civil. La autenticidad de los documentos públicos se refiere al hecho de:
 
-## 1. Haber sido realmente otorgados por las personas que figuren en el instrumento; y
-
-
 ## 2. Haber sido realmente autorizados por las personas y de la manera que en los
+
+**Definición Canónica:** respectivos instrumentos se exprese (art. 17, inc. 2º).
+         La autenticidad de los instrumentos públicos se prueba en la forma que
+establecen los arts. 345 y 345 bis del Código de Procedimiento Civil: se trata del
+trámite de “legalización” de los documentos.
+iii.- Excepciones al principio “Lex locus regit actum”.
+         Son las siguientes:
+i) El art. 1027, tratándose del otorgamiento de un testamento: “Valdrá en Chile el
+testamento escrito, otorgado en país extranjero, si por lo tocante a las solemnidades
+se hiciere constar su conformidad a las leyes del país en que se otorgó, y si adem
 
 respectivos instrumentos se exprese (art. 17, inc. 2º).
          La autenticidad de los instrumentos públicos se prueba en la forma que
@@ -7606,6 +7727,18 @@ extranjero: deberá cumplirse con las normas que regulan los impedimentos de
 parentesco y los vicios de la voluntad (error y fuerza), contemplados en la Ley N°
 
 ## 20.830. En efecto, dispone el art. 12 de este cuerpo legal: “Los acuerdos de unión civil
+
+**Definición Canónica:** o contratos equivalentes, no constitutivos de matrimonio, que regulen la vida afectiva
+en común de dos personas del mismo o de distinto sexo, sujetos a registro y
+celebrados válidamente en el extranjero, serán reconocidos en Chile, en conformidad
+con las siguientes reglas:
+1ª. Los requisitos de forma y fondo del acuerdo se regirán por la ley del país en que
+haya sido celebrado.
+2ª. Sin embargo, podrá ser declarado nulo de conformidad a la ley chilena, el acuerdo
+celebrado en territorio extranjero que se haya contraído en contravención a lo
+dispuesto en los artículos 7°, 8° y 9° de esta ley”.
+ 
+**Concordancias Legales:** artículos 7; artículo 16.3; artículo 16; artículo 7 del Código Civil y Teoría de; Ley Nº 18.010; Constitución; constitucion; Constitución Política
 
 o contratos equivalentes, no constitutivos de matrimonio, que regulen la vida afectiva
 en común de dos personas del mismo o de distinto sexo, sujetos a registro y

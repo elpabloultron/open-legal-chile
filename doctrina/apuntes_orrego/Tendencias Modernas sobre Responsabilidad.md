@@ -15,8 +15,15 @@ extraccion: pdftotext
 
 ## Tendencias modernas sobre responsabilidad 12
 
+**Definición Canónica:** La responsabilidad, como apunta Pablo Rodríguez Grez, es ciertamente la materia
+más sensible en la evolución del Derecho. Ella está directamente relacionada con los
+hábitos, costumbres, sistemas productivos, fuentes laborales, etc. Frente a un crecimiento
+tan vertiginoso de la ciencia y la técnica, han cambiado sustancialmente los peligros a que
+se encuentra expuesta toda persona y la naturaleza de los daños. Hoy, es prácticamente
+imposible que el más cuidadoso de los ciudadanos pueda estar seguro de no lesionar a
+nadie. En una sociedad masificada, donde se han estrechado las relaciones de vec
 
-        La responsabilidad, como apunta Pablo Rodríguez Grez, es ciertamente la materia
+La responsabilidad, como apunta Pablo Rodríguez Grez, es ciertamente la materia
 más sensible en la evolución del Derecho. Ella está directamente relacionada con los
 hábitos, costumbres, sistemas productivos, fuentes laborales, etc. Frente a un crecimiento
 tan vertiginoso de la ciencia y la técnica, han cambiado sustancialmente los peligros a que

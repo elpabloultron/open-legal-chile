@@ -13,19 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-43           Las víctimas,
-             los testigos
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             y los peritos
+                  electrónica
+             en los  procesos
+                  de causas
+             judiciales
+             Claudia Margarita Cárdenas Olmos
 
-                  Tramitación
+Tramitación
              y los peritos
                   electrónica
              en los  procesos
@@ -86,48 +84,10 @@ Materiales Docentes                                                  ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Aspectos conceptuales relevantes
-
-## 11      Capítulo 2
-
-        Marco legal actual relacionado con víctimas
-
-## 21      Capítulo 3
-
-        La psicología de la víctima
-
-## 34      Capítulo 4
-
-        La víctima en el proceso judicial
-
-## 45      Capítulo 5
-
-        Recomendaciones para una mejor atención de justicia
-        a personas usuarias del tribunal
-
-## 48      Capítulo 6
-
-        El testigo en el proceso judicial
-
-## 50      Capítulo 7
-
-        Peritos y su rol específico como intervinientes
-        en los distintos procedimientos judiciales
-
-## 54      Capítulo 8
-
-        Reflexiones finales y desafíos
-
-## 56      Referencias
-
-
-Materiales Docentes                                                       Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Aspectos conceptuales relevantes
+**Concordancias Legales:** artículo 108; artículo 297; artículo 314; artículo 45; artículo 49; Ley 19.998
 
 Aspectos conceptuales relevantes
 
@@ -326,8 +286,10 @@ familia, desde el artículo 45 hasta el artículo 49.
 Academia Judicial de Chile                  Las víctimas, los testigos y lsos peritos
 Materiales Docentes                                                        Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Marco legal actual relacionado con víctimas
+**Concordancias Legales:** Ley 21.212; Ley 18.216; Ley 21.153; Ley 21.057; Ley 21.013; Ley 20.066; Ley 21.302; Constitución
 
 Marco legal actual relacionado con víctimas
 
@@ -511,21 +473,39 @@ efectivo acceso a la justicia. Sus principios rectores son:
 
 ## 1. Principio de igualdad: Refiere al goce y al ejercicio efectivo de los
 
-      derechos humanaos de las personas independiente de sus sexo, gé-
+**Definición Canónica:** derechos humanaos de las personas independiente de sus sexo, gé-
+      nero e identidad de género u orientación sexual y el acceso a los
+      bienes y servicios indispensables para el diseño y ejecución de sus
+      proyectos de vida, incluyendo aquellos de carácter judicial.
+
+derechos humanaos de las personas independiente de sus sexo, gé-
       nero e identidad de género u orientación sexual y el acceso a los
       bienes y servicios indispensables para el diseño y ejecución de sus
       proyectos de vida, incluyendo aquellos de carácter judicial.
 
 ## 2. Enfoque de género en el acceso a la justicia: La incorporación del
 
-      enfoque de género en el quehacer del poder judicial tanto en lo
+**Definición Canónica:** enfoque de género en el quehacer del poder judicial tanto en lo
+      referido a la solución efectiva de los conflictos y el ejercicio de la
+      labor jurisdiccional, como en los servicios de atención de usuarios
+      y usuarias.
+
+enfoque de género en el quehacer del poder judicial tanto en lo
       referido a la solución efectiva de los conflictos y el ejercicio de la
       labor jurisdiccional, como en los servicios de atención de usuarios
       y usuarias.
 
 ## 3. Principio de no discriminación de género: Refiere a la prohibición
 
-      de toda distinción, exclusión o restricción basada en el sexo, géne-
+**Definición Canónica:** de toda distinción, exclusión o restricción basada en el sexo, géne-
+      ro, identidad de género u orientación sexual que tenga por objeto
+      o por resultado menoscabar o anular reconocimiento, goce o ejer-
+      cicio de los derechos humanos y las libertades fundamentales en
+      las esferas políticas, económicas, sociales, culturales y civiles de las
+      personas independientemente de su estado civil o cualquier otra
+      condición.
+
+de toda distinción, exclusión o restricción basada en el sexo, géne-
       ro, identidad de género u orientación sexual que tenga por objeto
       o por resultado menoscabar o anular reconocimiento, goce o ejer-
       cicio de los derechos humanos y las libertades fundamentales en
@@ -535,7 +515,12 @@ efectivo acceso a la justicia. Sus principios rectores son:
 
 ## 4. Principio de no violencia de género: Implica orientar los esfuerzos
 
-      del Poder Judicial para evitar cualquier acción o conducta, basada
+**Definición Canónica:** del Poder Judicial para evitar cualquier acción o conducta, basada
+      en el género, que cause muerte, daño o sufrimiento físico, sexual
+      o sicológico a todas las personas, tanto en el ámbito público como
+      en el privado. Esto, desde una doble dimensión, es decir, velando
+
+del Poder Judicial para evitar cualquier acción o conducta, basada
       en el género, que cause muerte, daño o sufrimiento físico, sexual
       o sicológico a todas las personas, tanto en el ámbito público como
       en el privado. Esto, desde una doble dimensión, es decir, velando
@@ -550,7 +535,13 @@ Materiales Docentes                                                       Capít
 
 ## 5. Principio de participación e inclusión: Refiere a que la toma de
 
-      decisiones vinculadas con el diseño, implementación y evaluación
+**Definición Canónica:** decisiones vinculadas con el diseño, implementación y evaluación
+      de la Política promoverá la incorporación de mecanismos parti-
+      cipativos mediante los cuales los funcionarios y funcionarias del
+      Poder Judicial, la sociedad civil y la ciudadanía puedan informarse
+      y manifestar sus inquietudes y necesidades.
+
+decisiones vinculadas con el diseño, implementación y evaluación
       de la Política promoverá la incorporación de mecanismos parti-
       cipativos mediante los cuales los funcionarios y funcionarias del
       Poder Judicial, la sociedad civil y la ciudadanía puedan informarse
@@ -558,7 +549,10 @@ Materiales Docentes                                                       Capít
 
 ## 6. Cuatro ejes estratégicos: i) No discriminación de género; ii) enfo-
 
-      que de género en el acceso a la justicia; iii) no violencia de género.
+**Definición Canónica:** que de género en el acceso a la justicia; iii) no violencia de género.
+**Concordancias Legales:** artículo 14 del Pacto Internacional de Derechos Civiles y Pol
+
+que de género en el acceso a la justicia; iii) no violencia de género.
 
 Política de efectivización de derechos de niños,
 niñas y adolescentes
@@ -659,8 +653,10 @@ Materiales Docentes                                                    Capítulo
 que busquen apoyar el acceso a la justicia y contribuyan a superar las
 barreras a las cuales se enfrentan.
 
-
 ## Capítulo 3
+
+**Definición Canónica:** La psicología de la víctima
+**Concordancias Legales:** constitucion
 
 La psicología de la víctima
 
@@ -1033,8 +1029,9 @@ cadena de sufrimiento.
 
 Materiales Docentes                                                      Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La víctima en el proceso judicial
 
 La víctima en el proceso judicial
 
@@ -1405,8 +1402,10 @@ Materiales Docentes                                                     Capítul
 
 Materiales Docentes                                                      Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Recomendaciones para una mejor atención
+de justicia a personas usuarias del tribunal
 
 Recomendaciones para una mejor atención
 de justicia a personas usuarias del tribunal
@@ -1493,8 +1492,9 @@ deba hacerlo. Esto puede favorecer, por ejemplo, a evitar la revictimización en
 
 Materiales Docentes                                                       Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** El testigo en el proceso judicial
 
 El testigo en el proceso judicial
 
@@ -1575,8 +1575,11 @@ procedimientos)                                de aislamiento
 
 Materiales Docentes                                                      Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Peritos y su rol específico como intervinientes
+en los distintos procedimientos judiciales
+**Concordancias Legales:** artículo 297 del Código Procesal Penal señala que; artículo 28; artículo 314 del Código Procesal Penal señala que
 
 Peritos y su rol específico como intervinientes
 en los distintos procedimientos judiciales
@@ -1690,8 +1693,9 @@ de su pericia y el segundo, en cambio, no puede emitir opiniones, limitándose a
 
 Materiales Docentes                                                       Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Reflexiones finales y desafíos
 
 Reflexiones finales y desafíos
 

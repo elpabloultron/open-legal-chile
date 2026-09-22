@@ -13,19 +13,11 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Empresa
 
-             Empresa
+Empresa
 
                                               Daniela
                                                    Ortega
@@ -40,19 +32,20 @@ extraccion: pdftotext
                                                    Schönsteiner
               Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Daniela
+                               Ortega
+                               Allan
+                          Abogada de la Universidad de Chile y LL.M. por la Uni-
+                          versidad de Nottingham, Inglaterra, ha sido consultora
+                          en materias de empresas y derechos humanos para
+                          instituciones nacionales e internacionales. Es docente
+                          del curso Empresas y Derechos Humanos en el Diplo-
+                          mado de Mediación de Conflictos Medioambientales del
+                          Centro de Política
 
-                          Daniela
+Daniela
                                Ortega
                                Allan
                           Abogada de la Universidad de Chile y LL.M. por la Uni-
@@ -93,26 +86,20 @@ Santiago,
                           Derechos Humanos y Empresas.
 Chile 2021
 
-
-## Isbn n°
-
-
-## 2022-a-1851
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Judith
+                               Schönsteiner
+                          Profesora asociada e investigadora del Centro de-
+                          rechos Humanos de la Universidad Diego Portales, es
+                          doctora en derecho por la Universidad de Essex, Reino
+                          Unido, y LL.M. en Derecho Internacional de los Derechos
+Academia                  Humanos por la misma universidad. Posee un M.A. en
+                Autoras
+Judicial                  Ciencia política por la Universidad Johannes Gutenberg,
+de Chile                  Mainz, Alemania. Especia
 
-                          Judith
+Judith
                                Schönsteiner
                           Profesora asociada e investigadora del Centro de-
                           rechos Humanos de la Universidad Diego Portales, es
@@ -177,263 +164,20 @@ Chile 2021                Público, Heidelberg.
 
                                         Introducción                                                                                                 8
 
-
-## 1. Tipos de empresas y economía global                                                                      12
-
-
-
-## 1.1 Concepto de empresa                                                                                  13
-
-
-
-## 1.2 La situación de los acreedores excluidos de negociar                                                 18
-
-
-
-## 1.2.1 Bhopal (Union Carbide)                                                                        20
-
-
-
-## 1.2.2 Caso Wiwa (Ogoniland)                                                                         22
-
-
-
-## 1.3 Una dificultad adicional: las redes empresariales                                                    26
-
-
-
-## 1.4 Las estrategias para lidiar con las complejidades estructurales de las empresas modernas             28
-
-
-
-## 1.4.1 La doctrina de la entidad empresarial                                                         29
-
-
-
-## 1.4.2 Iniciativas legales relativas a los grupos empresariales                                      32
-
-
-
-## 1.4.3 Iniciativas referentes a las asimetrías entre los acuerdos de inversión extranjera
-
-                                                      y las limitaciones de responsabilidad al interior de un grupo empresarial                     33
-
-
-## 1.4.4 Iniciativas destinadas a fortalecer los estándares de supervisión de las entidades matrices
-
-                                                      en materia de ESG y derechos humanos sobre sus filiales transfronterizas                      37
-
-
-## 1.5 Formas jurídicas que pueden asumir las empresas                                                      39
-
-
-
-## 1.5.1 Tipos de sociedades                                                                           40
-
-
-
-## 1.5.2    Grupos empresariales                                                                       42
-
-
-
-## 1.6 La actividad empresarial del Estado                                                                  49
-
-
-
-## 1.6.1 Empresas de propiedad del Estado (EPE)                                                        49
-
-
-
-## 1.6.2 Servicios públicos privatizados                                                               52
-
-
-
-## 1.6.3 Compras públicas                                                                              52
-
-
-
-## 2. Obligaciones estatales y responsabilidades empresariales. Conceptos clave.                               55
-
-
-
-## 2.1 Responsabilidad empresarial de respetar los derechos humanos                                         57
-
-
-
-## 2.1.1 Historia y definiciones básicas de los Principios Rectores de las Naciones Unidas             57
-
-
-
-## 2.1.2 Fundamento de la atribución de responsabilidad de las empresas                                71
-
-
-
-## 2.1.3 Derechos humanos que deben respetar las empresas                                              71
-
-
-
 ## 2.1.4 Algunos casos ejemplares                                                                      72
 
-
-                                                2.1.5 Contenido y alcance del deber empresarial de respetar los derechos humanos:
+**Definición Canónica:** 2.1.5 Contenido y alcance del deber empresarial de respetar los derechos humanos:
                                                       instituciones jurídicas de aplicación relevante                                               73
 
-
-## 2.1.6 Acceso a remedio y reparaciones                                                               89
-
-Empresa                                                                            Índice                                                            6
-
-
-## 2.2 El rol del Estado y la consecuente obligatoriedad de la responsabilidad
-
-                                                 de las empresas en el derecho interno                                                          91
-
-
-## 2.2.1 Instrumentos internacionales de especial relevancia para DHyE                           92
-
-
-
-## 2.2.2 La obligación de proteger interpretada por los órganos de supervisión de los tratados
-
-                                                       de derechos humanos                                                                     98
-
-
-## 3. El rol del Poder Judicial ante las afectaciones de derechos humanos por parte de las empresas       122
-
-
-
-## 3.1 El Poder Judicial ante el derecho internacional de los derechos humanos                         131
-
-
-
-## 3.1.1 Incorporación, interpretación conforme y control de convencionalidad                    131
-
-
-
-## 3.1.2 Consideraciones sobre acceso a la justicia en casos de Derechos Humanos y Empresa       136
-
-
-
-## 3.2 La protección de los derechos humanos en el contexto de operaciones empresariales
-
-                                               por el sistema de justicia chileno                                                              145
-
-
-## 3.2.1 Contextualización preliminar                                                            145
-
-
-
-## 3.2.2 Mecanismos del derecho interno de rendición de cuentas y reparación en casos
-
-                                                       de Derechos Humanos y Empresas                                                          148
-
-
-## 3.3 Mecanismos alternativos de solución de conflictos en materia de DHyE                            185
-
-
-
-## 3.3.1 Mecanismos extrajudiciales de reclamación establecidos en Chile                         187
-
-
-
-## 3.3.2 Mecanismos de reclamación no estatales reconocidos en Chile                             196
-
-
-
-## 3.3.3 Mecanismos internacionales                                                              203
-
-
-
-## 4. Temas específicosa través de la jurisprudencia                                                      212
-
-
-
-## 4.1 Cambio climático, sequía y empresas                                                             213
-
-
-
-## 4.1.1 Litigio entre actores no estatales y Estados                                            215
-
-
-
-## 4.1.2 Litigios contra empresas: Carbon Majors                                                 225
-
-
-
-## 4.2 Empresas, COVID-19 y derechos laborales                                                         230
-
-
-
-## 4.2.1 La visión de los organismos internacionales de derechos humanos                         231
-
-
-
-## 4.2.2 Situaciones observadas desde la sociedad civil                                          235
-
-
-
-## 4.3 Litigio transnacional: agua potable en Osorno y daño ambiental en Pascua Lama                   240
-
-
-
-## 4.3.1 Agua potable Osorno                                                                     241
-
-
-
-## 4.3.2 Pascua Lama                                                                             244
-
-
-
-## 4.4 Consumidores, medioambiente y derechos humanos: publicidad engañosa                             247
-
-
-
-## 4.4.1 Conceptos                                                                               247
-
-
-
-## 4.4.2 Regulación en Chile                                                                     248
-
-
-
-## 4.4.3 Casos de publicidad engañosa en materia ambiental                                       256
-
-
-
-## 4.4.4 Casos en otras jurisdicciones: Caso Lidl (Alemania)                                     260
-
-Empresa                                                                           Índice                                                               7
-
-
-## 5. Captura del Estado, corrupción y derechos humanos                                                     262
-
-
-
-## 5.1 Antecedentes generales                                                                            263
-
-
-
-## 5.2 Relación entre corrupción y afectación de derechos humanos. La dificultad de crear una relación
-
-                                               de causalidad. Experiencias comparadas.                                                           269
-
-
-## 5.3 Algunos casos de corrupción y empresas                                                            271
-
-
-
-## 5.3.1   Caso Siemens (Alemania)                                                                  271
-
-
-
-## 5.3.2   Caso Acreditación de Universidades Privadas (Chile)                                      272
-
-
+2.1.5 Contenido y alcance del deber empresarial de respetar los derechos humanos:
+                                                      instituciones jurídicas de aplicación relevante                                               73
 
 ## 5.3.3   Caso Corpesca                                                                            272
 
+**Definición Canónica:** Empresa                                                                                                                              8
+**Concordancias Legales:** constitución
 
-Empresa                                                                                                                              8
+Empresa                                                                                                                              8
 
                                                                Introducción
 
@@ -592,10 +336,12 @@ y Derechos                                                                      
                                                                                                 actual economía transnacional, y cómo los negocios que realizan se
                                                                                                 “traducen” a estructuras jurídicas, principalmente, contractuales.
 
-
 ## 1.1                Concepto
 
-                                                                                                de empresa
+**Definición Canónica:** de empresa
+**Concordancias Legales:** artículo 3
+
+de empresa
 
                                                                                                 Desde un punto de vista económico, una empresa es la reunión
                                                                                                 de ciertos factores de producción (capital, trabajo, tecnología) bajo
@@ -626,7 +372,9 @@ y Derechos                                                                      
 
 ## 2        Michel Jensen y William Meckling: Theory of the Firm: Managerial Behavior, Agency Costs and Ownership
 
-                                                               Structure, Journal of Financial Economics Vol. 3 Issue 4 (1976); pp. 305-360.
+**Definición Canónica:** Structure, Journal of Financial Economics Vol. 3 Issue 4 (1976); pp. 305-360.
+
+Structure, Journal of Financial Economics Vol. 3 Issue 4 (1976); pp. 305-360.
 
 Empresa                                                                                     1. Tipos de empresas                                                        14
 y Derechos                                                                                     y economía global
@@ -665,7 +413,12 @@ y Derechos                                                                      
 
 ## 4        Acá estamos usando el concepto de “sociedades” en un sentido muy amplio, para englobar cualquier for-
 
-                                                               ma jurídica que puedan tomar los vehículos a través de los cuales se realizan actividades empresariales,
+**Definición Canónica:** ma jurídica que puedan tomar los vehículos a través de los cuales se realizan actividades empresariales,
+                                                               y comprende tanto a entidades que son sociedades bajo el derecho comercial (sociedades anónimas, de
+                                                               responsabilidad limitada, etc.) como aquellas que no lo son (ciertas empresas del Estado, fondos, fideico-
+                                                               misos y ciertas formas de mandato).
+
+ma jurídica que puedan tomar los vehículos a través de los cuales se realizan actividades empresariales,
                                                                y comprende tanto a entidades que son sociedades bajo el derecho comercial (sociedades anónimas, de
                                                                responsabilidad limitada, etc.) como aquellas que no lo son (ciertas empresas del Estado, fondos, fideico-
                                                                misos y ciertas formas de mandato).
@@ -710,7 +463,11 @@ y Derechos                                                                      
 
 ## 7        Bush, Simon: “Understanding the potential of eco-certification in salmon and shrimp aquaculture value
 
-                                                               chains”, en Aquaculture 493 (2018); pp. 376-383. A partir de Gereffi, Gary; Humphrey, John y Sturgeon, Tim-
+**Definición Canónica:** chains”, en Aquaculture 493 (2018); pp. 376-383. A partir de Gereffi, Gary; Humphrey, John y Sturgeon, Tim-
+                                                               othy: The governance of global value chains, Review of International Political Economy, Vol. 12 No. 1 (2005);
+                                                               pp. 78-104.
+
+chains”, en Aquaculture 493 (2018); pp. 376-383. A partir de Gereffi, Gary; Humphrey, John y Sturgeon, Tim-
                                                                othy: The governance of global value chains, Review of International Political Economy, Vol. 12 No. 1 (2005);
                                                                pp. 78-104.
 
@@ -753,10 +510,13 @@ y Derechos                                                                      
                                                       cuánto y dónde                          demás relaciones que llegue a tener la empresa pueden ser negociadas
                                                       invertir.                               por los demás stakeholders en sus propios acuerdos contractuales.9
 
-
 ## 8        Frank H. Easterbrook y Daniel R. Fischel: The Economic Structure of Corporate Law, Harvard University
 
-                                                               Press, 1996; p. 688.
+**Definición Canónica:** Press, 1996; p. 688.
+                                                      9        La versión más cruda de esta mirada contractualista en Frank H. Easterbrook y Daniel R. Fischel: The Eco-
+                                                               nomic Structure of Corporate Law, Harvard University Press, 1996.
+
+Press, 1996; p. 688.
                                                       9        La versión más cruda de esta mirada contractualista en Frank H. Easterbrook y Daniel R. Fischel: The Eco-
                                                                nomic Structure of Corporate Law, Harvard University Press, 1996.
 
@@ -775,10 +535,11 @@ y Derechos                                                                      
 Empresa                                                                                     1. Tipos de empresas                                                         18
 y Derechos                                                                                     y economía global
 
-
 ## 1.2               La situación de los acreedores
 
-                                                                                              excluidos de negociar
+**Definición Canónica:** excluidos de negociar
+
+excluidos de negociar
 
                                                                                               Si bien este modelo contractualista del derecho societario nunca lle-
                                                                                               gó a hegemonizar la discusión doctrinaria, que es mayoritariamente
@@ -809,13 +570,14 @@ y Derechos                                                                      
                                                                                               la actividad empresarial, los stakeholders, vale decir, los terceros con los
                                                                                               que interactúa una empresa, pueden negociar esos riesgos y daños
 
-
-## 10       OECD Guidelines for Multinational Enterprises. OECD Committee on Corporate Governance, 16-17 October
-
-
 ## 2018 TUAC Comments Paris, 12 October 2018: “Current OECD reports suggest that minority shareholders
 
-                                                               are the only stakeholders to be impacted by complex company group structures. They are not. The wide-
+**Definición Canónica:** are the only stakeholders to be impacted by complex company group structures. They are not. The wide-
+                                                               spread use of shell companies can contribute to minimising or avoiding liability of the whole group towards
+                                                               a range of stakeholders, including workers and the tax collector. The OECD should pay far more attention to
+                                                               complex group structures with a view to streamline them and to increase responsibilities of p
+
+are the only stakeholders to be impacted by complex company group structures. They are not. The wide-
                                                                spread use of shell companies can contribute to minimising or avoiding liability of the whole group towards
                                                                a range of stakeholders, including workers and the tax collector. The OECD should pay far more attention to
                                                                complex group structures with a view to streamline them and to increase responsibilities of parent com-
@@ -890,10 +652,15 @@ y Derechos                                                                      
                                                                                               por daños provocados a “acreedores excluidos de negociar”: el caso
                                                                                               Bhopal12 y el caso Wiwa (Ogoniland)13.
 
-
 ## 1.2.1 Bhopal (Union Carbide)
 
-                                                                                              El 2 y 3 de diciembre de 1984, la planta de pesticidas Union Carbide
+**Definición Canónica:** El 2 y 3 de diciembre de 1984, la planta de pesticidas Union Carbide
+                                                                                              situada en Bhopal, en el Estado de Madhya Pradesh, India, sufrió la
+                                                                                              fuga de 45 toneladas de isocianato de metilo, gas venenoso que mató
+                                                                                              a un número de personas estimado entre 15.000 y 20.000 y provocó
+                                                
+
+El 2 y 3 de diciembre de 1984, la planta de pesticidas Union Carbide
                                                                                               situada en Bhopal, en el Estado de Madhya Pradesh, India, sufrió la
                                                                                               fuga de 45 toneladas de isocianato de metilo, gas venenoso que mató
                                                                                               a un número de personas estimado entre 15.000 y 20.000 y provocó
@@ -906,7 +673,9 @@ y Derechos                                                                      
 
 ## 13       Wiwa v Royal Dutch Petroleum Company and Shell Transport and Trading Company plc, USCA 2d Cir Sep-
 
-                                                               tember 2000: 2000 US app LEXIS 23274.
+**Definición Canónica:** tember 2000: 2000 US app LEXIS 23274.
+
+tember 2000: 2000 US app LEXIS 23274.
 
 Empresa                                                                                   1. Tipos de empresas                                                     21
 y Derechos                                                                                   y economía global
@@ -948,10 +717,12 @@ y Derechos                                                                      
                                                       una denegación de                     especialmente porque implicaría un compromiso del gobierno
                                                       acceso a la justicia.                 indio de cerrar todos los casos civiles y penales relacionadas con
 
-
 ## 14       Plantiff’s Excecutive Committee Memorandum in Opposition to Union Carbide Corporation’s Motion to
 
-                                                               Dismiss on Grounds of Forum Non Conveniens, 6 December 1983.
+**Definición Canónica:** Dismiss on Grounds of Forum Non Conveniens, 6 December 1983.
+                                                      15       Véase, sobre este caso: ICJB.
+
+Dismiss on Grounds of Forum Non Conveniens, 6 December 1983.
                                                       15       Véase, sobre este caso: ICJB.
 
 Empresa                                                                                      1. Tipos de empresas                                                            22
@@ -965,10 +736,13 @@ y Derechos                                                                      
                                                                                                a las otras personas fallecidas (cinco veces las víctimas incluidas en
                                                                                                el acuerdo de 1989), está aún pendiente en tribunales indios.16
 
-
 ## 1.2.2 Caso Wiwa (Ogoniland)
 
-                                                                                               En 1958, Royal Dutch/Shell empezó la producción de petróleo en la
+**Definición Canónica:** En 1958, Royal Dutch/Shell empezó la producción de petróleo en la
+                                                                                               región de Ogoni, Nigeria. Como resultado de esas faenas, se contami-
+                                                                                               naron las aguas de la región afectando el acceso al agua por parte de
+
+En 1958, Royal Dutch/Shell empezó la producción de petróleo en la
                                                                                                región de Ogoni, Nigeria. Como resultado de esas faenas, se contami-
                                                                                                naron las aguas de la región afectando el acceso al agua por parte de
 
@@ -1004,7 +778,13 @@ y Derechos                                                                      
 
 ## Ee. uu. (usca)
 
-                                                                                               Tort Claim Act (ACTA) y Torture Victim Protection Act (TVPA). El
+**Definición Canónica:** Tort Claim Act (ACTA) y Torture Victim Protection Act (TVPA). El
+                                                      sostuvo que la                           tribunal en EE. UU. (USCA) sostuvo que la acción en contra de la
+                                                      acción en contra                         compañía demandada por su presunta cooperación con el gobier-
+                                                      de la compañía                           no nigeriano para la represión de la población Ogoni a través de la
+                                                       
+
+Tort Claim Act (ACTA) y Torture Victim Protection Act (TVPA). El
                                                       sostuvo que la                           tribunal en EE. UU. (USCA) sostuvo que la acción en contra de la
                                                       acción en contra                         compañía demandada por su presunta cooperación con el gobier-
                                                       de la compañía                           no nigeriano para la represión de la población Ogoni a través de la
@@ -1036,10 +816,15 @@ y Derechos                                                                      
                                                                                                Independientemente de los disímiles resultados de las acciones
                                                                                                emprendidas en los casos Bhopal y Wiwa en Estados Unidos18, es evi-
 
-
 ## 17       Comisión Africana de Derechos Humanos y de los Pueblos, SERAC v Nigeria (Ogoniland case) 155/96. Dis-
 
-                                                               ponible en línea.
+**Definición Canónica:** ponible en línea.
+                                                      18       El caso Bhopal tuvo un resultado distinto en India. Inicialmente, los tribunales indios acogieron las solicitu-
+                                                               des del gobierno (que actuaba en representación de todas las víctimas) para levantar el velo corporativo,
+                                                               haciendo responsable a UCC por el desastre, así como las solicitudes de indemnización preliminar (aunque
+                                                               la Cort
+
+ponible en línea.
                                                       18       El caso Bhopal tuvo un resultado distinto en India. Inicialmente, los tribunales indios acogieron las solicitu-
                                                                des del gobierno (que actuaba en representación de todas las víctimas) para levantar el velo corporativo,
                                                                haciendo responsable a UCC por el desastre, así como las solicitudes de indemnización preliminar (aunque
@@ -1181,10 +966,12 @@ y Derechos                                                                      
 Empresa                                                                                     1. Tipos de empresas                                                           28
 y Derechos                                                                                     y economía global
 
-
 ## 1.4              Las estrategias para lidiar con las
 
-                                                                                              complejidadesestructurales de las
+**Definición Canónica:** complejidadesestructurales de las
+                                                                                              empresas modernas
+
+complejidadesestructurales de las
                                                                                               empresas modernas
 
                                                                                               Tradicionalmente, el derecho societario minimalista ha lidiado con
@@ -1248,7 +1035,12 @@ y Derechos                                                                      
 
 ## 1.4.1 La doctrina de la entidad empresarial
 
-                                                      la matriz y su                           A partir de estas insuficiencias, se ha venido desarrollando la doctrina de
+**Definición Canónica:** la matriz y su                           A partir de estas insuficiencias, se ha venido desarrollando la doctrina de
+                                                      filial, resolviendo                      la “entidad empresarial”, que al contrario de aquella del levantamiento
+                                                      el formalismo                            del velo corporativo, en la que la responsabilidad grupal es el resultado
+                                                      que representa                           de una excepción al principio general de limitación 
+
+la matriz y su                           A partir de estas insuficiencias, se ha venido desarrollando la doctrina de
                                                       filial, resolviendo                      la “entidad empresarial”, que al contrario de aquella del levantamiento
                                                       el formalismo                            del velo corporativo, en la que la responsabilidad grupal es el resultado
                                                       que representa                           de una excepción al principio general de limitación de responsabilidad
@@ -1349,10 +1141,14 @@ y Derechos                                                                      
 
 Empresa                                                        1. Tipos de empresas                                                    32
 
-
 ## 1.4.2 Iniciativas legales relativas a
 
-                                                                los grupos empresariales
+**Definición Canónica:** los grupos empresariales
+                                                                Frente a esto, algunas jurisdicciones han intentado resolver los pro-
+                                                                blemas que genera la limitación de responsabilidad al interior de
+                                                                los grupos empresariales, por la vía de regularlos en forma directa.
+
+los grupos empresariales
                                                                 Frente a esto, algunas jurisdicciones han intentado resolver los pro-
                                                                 blemas que genera la limitación de responsabilidad al interior de
                                                                 los grupos empresariales, por la vía de regularlos en forma directa.
@@ -1400,11 +1196,15 @@ y Derechos                                                                      
                                                                                            la práctica la posibilidad de establecer la existencia de un grupo de
                                                                                            facto en la mayor parte de los holdings alemanes.37
 
-
 ## 1.4.3 Iniciativas referentes a las asimetrías entre los
 
+**Definición Canónica:** acuerdos de inversión extranjera y las limitaciones de
+                                                                                           responsabilidad al interior de un grupo empresarial
+                                                                                           Una aproximación distinta al problema de los grupos empresariales
+                                                                                           transnacionales se ha dado a propósito de la revisión de los tratados
+                                                                                    
 
-                                                                                           acuerdos de inversión extranjera y las limitaciones de
+acuerdos de inversión extranjera y las limitaciones de
                                                                                            responsabilidad al interior de un grupo empresarial
                                                                                            Una aproximación distinta al problema de los grupos empresariales
                                                                                            transnacionales se ha dado a propósito de la revisión de los tratados
@@ -1427,10 +1227,13 @@ y Derechos                                                                      
                                                                                            país decidió que no tenía jurisdicción para conocer el caso (forum non
                                                                                            conveniens). Luego, cuando los tribunales ecuatorianos condenaron a
 
-
 ## 36       Solo se ha reportado un caso de demanda de compensación basada en este mecanismo en más de 40
 
-                                                               años de vigencia de la ley (Muchlinski; p. 330).
+**Definición Canónica:** años de vigencia de la ley (Muchlinski; p. 330).
+                                                      37       Ibid.
+**Concordancias Legales:** artículo 42 de la Regulaciones y Reglas de la; artículo 40
+
+años de vigencia de la ley (Muchlinski; p. 330).
                                                       37       Ibid.
 
 Empresa                                                                                     1. Tipos de empresas                                                         34
@@ -1561,10 +1364,16 @@ y Derechos                                                                      
 
 Empresa                                                        1. Tipos de empresas                                                   37
 
-
 ## 1.4.4 Iniciativas destinadas a fortalecer los
 
-                                                                estándares de supervisión de las entidades
+**Definición Canónica:** estándares de supervisión de las entidades
+                                                                matrices en materia de ESG y derechos
+                                                                humanos sobre sus filiales transfronterizas
+                                                                Existe una serie de iniciativas, tanto de carácter nacional como
+                                                                multilateral, que buscan fortalecer las obligaciones de las empresas
+                                                                multinacionales en re
+
+estándares de supervisión de las entidades
                                                                 matrices en materia de ESG y derechos
                                                                 humanos sobre sus filiales transfronterizas
                                                                 Existe una serie de iniciativas, tanto de carácter nacional como
@@ -1617,10 +1426,11 @@ y Derechos                                                                      
 Empresa                                                                                     1. Tipos de empresas                                                         39
 y Derechos                                                                                     y economía global
 
-
 ## 1.5               Formas jurídicas que pueden
 
-                                                                                              asumirlas empresas
+**Definición Canónica:** asumirlas empresas
+
+asumirlas empresas
 
                                                                                               Hasta el momento, se ha indicado que el concepto económico de
                                                                                               empresa es un concepto flexible, que no coincide necesariamente con
@@ -1671,10 +1481,12 @@ y Derechos                                                                      
                                                                                              son los criterios que se usan para decidir entre unas u otras formas
                                                                                              de organización.
 
-
 ## 1.5.1 Tipos de sociedades
 
-                                                                                             Si Juan y Pedro quieren organizar una florería, en la que Juan pone el
+**Definición Canónica:** Si Juan y Pedro quieren organizar una florería, en la que Juan pone el
+**Concordancias Legales:** Artículo 473 del Código de Comercio; Artículo 2465 del Código Civil; Artículo 380 del Código de Comercio. Empresa; Ley Nº 19.857; Ley Nº 3.918
+
+Si Juan y Pedro quieren organizar una florería, en la que Juan pone el
 
                                                                                              capital y Pedro el trabajo, existen varias alternativas para formalizar
                                                                                              esa relación empresarial.45
@@ -1751,10 +1563,14 @@ y Derechos                                                                      
                                                                                               y comerciales, y, según quien detenta la propiedad de estas últimas,
                                                                                               entre sociedades o empresas públicas, privadas o mixtas.
 
-
 ## 1.5.2 Grupos empresariales
 
-                                                                                              Sin embargo, tal como se ha venido sosteniendo, las empresas mo-
+**Definición Canónica:** Sin embargo, tal como se ha venido sosteniendo, las empresas mo-
+                                                                                              dernas casi nunca se organizan mediante un único vehículo legal.
+                                                                                              Por el contrario, se forman y organizan agrupando un conjunto de
+                                                                                              entidades que son dirigidas o coordinadas a través de distintos medios.
+
+Sin embargo, tal como se ha venido sosteniendo, las empresas mo-
                                                                                               dernas casi nunca se organizan mediante un único vehículo legal.
                                                                                               Por el contrario, se forman y organizan agrupando un conjunto de
                                                                                               entidades que son dirigidas o coordinadas a través de distintos medios.
@@ -1818,10 +1634,15 @@ y Derechos                                                                      
                                                                                               jadores, la cultura interna de la empresa y las políticas públicas del
                                                                                               país anfitrión.56
 
-
 ## 1.5.2.1 Formas de organización contractual
 
-                                                                                              de las empresas multinacionales
+**Definición Canónica:** de las empresas multinacionales
+                                                                                              La definición OCDE de empresa multinacional no se limita a grupos
+                                                                                              basados en relaciones de propiedad, sino que cubre también otras
+                                                                                              formas de organización, en tanto dos o más compañías u otras en-
+                                                                                          
+
+de las empresas multinacionales
                                                                                               La definición OCDE de empresa multinacional no se limita a grupos
                                                                                               basados en relaciones de propiedad, sino que cubre también otras
                                                                                               formas de organización, en tanto dos o más compañías u otras en-
@@ -1876,14 +1697,22 @@ y Derechos                                                                      
 
 ## parte de un consorcio liderado por Phillips Petroleum, la construcción del avión Concorde por Sud Aviation
 
-                                                               de Francia y la British Aircraft Company y la formación original de la compañía Airbus.
+**Definición Canónica:** de Francia y la British Aircraft Company y la formación original de la compañía Airbus.
+
+de Francia y la British Aircraft Company y la formación original de la compañía Airbus.
 
 Empresa                                                        1. Tipos de empresas                                                   45
 
-
 ## 1.5.2.2 Grupos basados en relaciones de propiedad
 
-                                                                La forma más típica de organización empresarial es mediante
+**Definición Canónica:** La forma más típica de organización empresarial es mediante
+                                                                relaciones de propiedad entre las distintas sociedades del grupo.
+                                                                Este tipo de grupos puede organizarse de diversas maneras, entre
+                                                                las que destacan el grupo piramidal anglo/americano, las fusiones
+                                                                transnacionales europeas, los keiretsu de Japón y los conglomerados
+                   
+
+La forma más típica de organización empresarial es mediante
                                                                 relaciones de propiedad entre las distintas sociedades del grupo.
                                                                 Este tipo de grupos puede organizarse de diversas maneras, entre
                                                                 las que destacan el grupo piramidal anglo/americano, las fusiones
@@ -1957,10 +1786,14 @@ y Derechos                                                                      
                                                                                                   fue la precursora de este modelo. Para dar un trato equitativo a
                                                                                                   los accionistas (que se sitúan en distintos países y por lo tanto
 
-
 ## 59       Sobre los factores que pueden influir en qué tan autónomas serán las filiales en un grupo empresarial
 
-                                                               (multinacional o no), y por lo tanto en qué lugar se ubicará en el espectro jerárquico/heterárquico: OCDE
+**Definición Canónica:** (multinacional o no), y por lo tanto en qué lugar se ubicará en el espectro jerárquico/heterárquico: OCDE
+                                                               Structure and Organization of Multinational Enterprises, Paris OCDE, 1987.
+                                                      60       Aunque, por ejemplo, en Latinoamérica se puede citar el caso de LATAM, que es el resultado de la fusión
+                                                               entre la chilena LAN y la brasileña TAM.
+
+(multinacional o no), y por lo tanto en qué lugar se ubicará en el espectro jerárquico/heterárquico: OCDE
                                                                Structure and Organization of Multinational Enterprises, Paris OCDE, 1987.
                                                       60       Aunque, por ejemplo, en Latinoamérica se puede citar el caso de LATAM, que es el resultado de la fusión
                                                                entre la chilena LAN y la brasileña TAM.
@@ -2021,15 +1854,15 @@ y Derechos                                                                      
 Empresa                                                                                     1. Tipos de empresas                                                            49
 y Derechos                                                                                     y economía global
 
-
-## 1.6               La actividad empresarial
-
-                                                                                              del Estado
-
-
 ## 1.6.1 Empresas de propiedad del Estado (EPE)
 
-                                                                                              El Principio Rector 4 establece una responsabilidad específica y
+**Definición Canónica:** El Principio Rector 4 establece una responsabilidad específica y
+                                                                                              reforzada de los Estados por las actividades de las empresas su pro-
+                                                                                              piedad que impactan negativamente los derechos humanos: “Los
+                                                                                              Estados deben adoptar medidas adicionales de protección contra
+                                                            
+
+El Principio Rector 4 establece una responsabilidad específica y
                                                                                               reforzada de los Estados por las actividades de las empresas su pro-
                                                                                               piedad que impactan negativamente los derechos humanos: “Los
                                                                                               Estados deben adoptar medidas adicionales de protección contra
@@ -2140,10 +1973,15 @@ y Derechos                                                                      
 Empresa                                                                                     1. Tipos de empresas                                                  52
 y Derechos                                                                                     y economía global
 
-
 ## 1.6.2 Servicios públicos privatizados
 
-                                                                                              Cuando se trate de la prestación de servicios básicos tercerizados,
+**Definición Canónica:** Cuando se trate de la prestación de servicios básicos tercerizados,
+                                                                                              el derecho internacional de los derechos humanos es muy claro en
+                                                                                              asignar la responsabilidad al Estado mismo;67 los PR nuevamente
+                                                                                              son más vagos en indicar, en el Principio Rector 5, que “los Estados
+                                                    
+
+Cuando se trate de la prestación de servicios básicos tercerizados,
                                                                                               el derecho internacional de los derechos humanos es muy claro en
                                                                                               asignar la responsabilidad al Estado mismo;67 los PR nuevamente
                                                                                               son más vagos en indicar, en el Principio Rector 5, que “los Estados
@@ -2158,10 +1996,15 @@ y Derechos                                                                      
                                                                                                         Anual sobre Derechos Humanos en Chile, Ediciones UDP;
                                                                                                         pp. 99-162.
 
-
 ## 1.6.3 Compras públicas
 
-                                                                                              El Principio Rector 6 indica que “los Estados deben promover el
+**Definición Canónica:** El Principio Rector 6 indica que “los Estados deben promover el
+                                                                                              respeto de los derechos humanos por parte de las empresas con las
+                                                                                              que lleven a cabo transacciones comerciales.” El Comentario a este
+                                                                                              principio especifica que:
+**Concordancias Legales:** artículo 2; Ley Nº 19.886
+
+El Principio Rector 6 indica que “los Estados deben promover el
                                                                                               respeto de los derechos humanos por parte de las empresas con las
                                                                                               que lleven a cabo transacciones comerciales.” El Comentario a este
                                                                                               principio especifica que:
@@ -2305,15 +2148,17 @@ y Derechos                                                                      
 Empresa                                                              2. Obligaciones estatales y responsabilidades empresariales.             57
 y Derechos                                                              Conceptos clave.
 
-
-## 2.1     Responsabilidad empresarial de
-
-                                                                       respetar los derechos humanos
-
-
 ## 2.1.1 Historia y definiciones básicas de los
 
-                                                                       Principios Rectores de las Naciones Unidas
+**Definición Canónica:** Principios Rectores de las Naciones Unidas
+                                                                       Para conocer el desarrollo del concepto de “empresa y derechos
+                                                                       humanos” y de “responsabilidad empresarial de respetar los derechos
+                                                                       humanos”, presentamos extractos de un documento elaborado por
+                                                                       una de las autoras del presente material docente, Daniela Ortega,
+              
+**Concordancias Legales:** Constitucion
+
+Principios Rectores de las Naciones Unidas
                                                                        Para conocer el desarrollo del concepto de “empresa y derechos
                                                                        humanos” y de “responsabilidad empresarial de respetar los derechos
                                                                        humanos”, presentamos extractos de un documento elaborado por
@@ -2564,10 +2409,13 @@ y Derechos                                                                     C
                                                                                   Empresas y los Derechos Humanos, así como los actores a
                                                                                   quienes se asignan responsabilidades.
 
-
 ## 2.1.1.2 Las Líneas Directrices de la OCDE
 
-                                                                              para Empresas Multinacionales (2011)
+**Definición Canónica:** para Empresas Multinacionales (2011)
+                                                                              Las Líneas Directrices de la OCDE para Empresas Multinacionales
+                                                                              fueron revisadas en 2011, en permanente diálogo con el entonces
+
+para Empresas Multinacionales (2011)
                                                                               Las Líneas Directrices de la OCDE para Empresas Multinacionales
                                                                               fueron revisadas en 2011, en permanente diálogo con el entonces
 
@@ -2616,54 +2464,58 @@ y Derechos                                                                     C
                                                                      marco de las leyes y regulaciones nacionales pertinentes, las
                                                                      empresas deberán:
 
-
 ## 1. Respetar los derechos humanos, lo cual significa que han
 
-                                                                     de velar por no vulnerar los derechos de los demás y hacer
+**Definición Canónica:** de velar por no vulnerar los derechos de los demás y hacer
                                                                      frente a los impactos negativos sobre los derechos humanos
                                                                      en los que se vean implicadas.
 
-
-## 2. En el marco de sus actividades propias, evitar causar im-
-
-                                                                     pactos negativos sobre los derechos humanos o contribuir
-                                                                     a que se generen y resolver dichos impactos si los hubiera.
-
+de velar por no vulnerar los derechos de los demás y hacer
+                                                                     frente a los impactos negativos sobre los derechos humanos
+                                                                     en los que se vean implicadas.
 
 ## 3. Esforzarse por prevenir y atenuar los impactos negativos
 
-                                                                     sobre los derechos humanos directamente vinculados con
+**Definición Canónica:** sobre los derechos humanos directamente vinculados con
                                                                      sus actividades, bienes o servicios en virtud de una relación
                                                                      comercial con otra entidad, incluso si las empresas no con-
                                                                      tribuyen a generar dichos impactos.
 
-
-## 4. Elaborar una política que formule su compromiso con el
-
-                                                                     respeto de los derechos humanos.
-
+sobre los derechos humanos directamente vinculados con
+                                                                     sus actividades, bienes o servicios en virtud de una relación
+                                                                     comercial con otra entidad, incluso si las empresas no con-
+                                                                     tribuyen a generar dichos impactos.
 
 ## 5. Ejercer la debida diligencia en materia de derechos huma-
 
-                                                                     nos en función de su tamaño, de la naturaleza y el contexto
+**Definición Canónica:** nos en función de su tamaño, de la naturaleza y el contexto
+                                                                     de sus actividades y de la gravedad de los riesgos de impactos
+                                                                     negativos sobre dichos derechos.
+
+nos en función de su tamaño, de la naturaleza y el contexto
                                                                      de sus actividades y de la gravedad de los riesgos de impactos
                                                                      negativos sobre dichos derechos.
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.            65
 
-
 ## 6. Establecer mecanismos legítimos o cooperar mediante estos
 
-                                                                     mecanismos para poner remedio a los impactos negativos
+**Definición Canónica:** mecanismos para poner remedio a los impactos negativos
+                                                                     sobre los derechos humanos cuando se descubra que han
+                                                                     causado dichos impactos o que han contribuido a generarlos.
+
+mecanismos para poner remedio a los impactos negativos
                                                                      sobre los derechos humanos cuando se descubra que han
                                                                      causado dichos impactos o que han contribuido a generarlos.
 
                                                                      Comentario sobre Derechos Humanos
 
-
 ## 36. Este capítulo comienza con una introducción que define el
 
-                                                                     marco en el que se inscriben las recomendaciones específicas
+**Definición Canónica:** marco en el que se inscriben las recomendaciones específicas
+                                                                     relativas al respeto de los derechos humanos por parte de las
+
+marco en el que se inscriben las recomendaciones específicas
                                                                      relativas al respeto de los derechos humanos por parte de las
 
                                                                      empresas. Se inspira en el Marco de las Naciones Unidas para
@@ -2671,10 +2523,16 @@ y Derechos                                                                     C
                                                                      Respetar y Remediar” y es conforme con los Principios
                                                                      Rectores parasu puesta en práctica.
 
-
 ## 37. La introducción y el primer párrafo disponen que los
 
-                                                                     Estados tienen el deber de proteger los derechos humanos
+**Definición Canónica:** Estados tienen el deber de proteger los derechos humanos
+                                                                     y que las empresas, con independencia de su tamaño, sector
+                                                                     de actividad, contexto operacional, estructura de propiedad u
+                                                                     organización, deben respetar los derechos humanos en cual-
+                                                                     quier lugar en que ejerzan sus actividades. El respeto de los
+                         
+
+Estados tienen el deber de proteger los derechos humanos
                                                                      y que las empresas, con independencia de su tamaño, sector
                                                                      de actividad, contexto operacional, estructura de propiedad u
                                                                      organización, deben respetar los derechos humanos en cual-
@@ -2684,10 +2542,16 @@ y Derechos                                                                     C
                                                                      capacidad y/o la voluntad de los Estados de cumplir sus obli-
                                                                      gaciones en la materia, y ello no disminuye estas obligaciones.
 
-
 ## 38. El hecho de que un Estado no aplique su legislación
 
-                                                                     nacional pertinente o no respete sus obligaciones interna-
+**Definición Canónica:** nacional pertinente o no respete sus obligaciones interna-
+                                                                     cionales en materia de derechos humanos o que infrinja esta
+                                                                     legislación o estas obligaciones internacionales, no afecta a
+                                                                     la responsabilidad de las empresas de respetar los derechos
+                                                                     humanos. En países donde las leyes y regulaciones nacio-
+                          
+
+nacional pertinente o no respete sus obligaciones interna-
                                                                      cionales en materia de derechos humanos o que infrinja esta
                                                                      legislación o estas obligaciones internacionales, no afecta a
                                                                      la responsabilidad de las empresas de respetar los derechos
@@ -2700,10 +2564,16 @@ y Derechos                                                                     C
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.              66
 
-
 ## 39. En todos los casos y con independencia del país o del
 
-                                                                     contexto específico en el que se desarrollan las actividades
+**Definición Canónica:** contexto específico en el que se desarrollan las actividades
+                                                                     de las empresas, debe hacerse referencia como mínimo a
+                                                                     los derechos humanos reconocidos internacionalmente
+                                                                     consagrados en la Carta Internacional de Derechos Huma-
+                                                                     nos, que comprende la Declaración Universal de Derechos
+                                            
+
+contexto específico en el que se desarrollan las actividades
                                                                      de las empresas, debe hacerse referencia como mínimo a
                                                                      los derechos humanos reconocidos internacionalmente
                                                                      consagrados en la Carta Internacional de Derechos Huma-
@@ -2717,10 +2587,16 @@ y Derechos                                                                     C
                                                                      Internacional del Trabajo de 1998 relativa a los Principios y
                                                                      Derechos Fundamentales del Trabajo.
 
-
 ## 40. Las empresas pueden incidir prácticamente en todo lo
 
-                                                                     referido a los derechos humanos reconocidos internacional-
+**Definición Canónica:** referido a los derechos humanos reconocidos internacional-
+                                                                     mente. En la práctica, ciertos derechos humanos pueden ser
+                                                                     más vulnerables que otros en ciertos sectores o contextos y
+                                                                     serán, en consecuencia, objeto de una mayor atención. Sin
+                                                                     embargo, las situaciones pueden cambiar y, por tanto, todos
+                            
+
+referido a los derechos humanos reconocidos internacional-
                                                                      mente. En la práctica, ciertos derechos humanos pueden ser
                                                                      más vulnerables que otros en ciertos sectores o contextos y
                                                                      serán, en consecuencia, objeto de una mayor atención. Sin
@@ -2744,10 +2620,16 @@ y Derechos                                                                     C
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.           67
 
-
 ## 41. En el párrafo 1, hacer frente a impactos negativos, reales
 
-                                                                     o potenciales, sobre los derechos humanos consiste en tomar
+**Definición Canónica:** o potenciales, sobre los derechos humanos consiste en tomar
+                                                                     las medidas apropiadas para detectar, prevenir en la mayor
+                                                                     medida de lo posible y atenuar los potenciales impactos sobre
+                                                                     los derechos humanos, remediar los impactos reales y rendir
+                                                                     cuentas de las medidas tomadas para estos fines. El término
+                       
+
+o potenciales, sobre los derechos humanos consiste en tomar
                                                                      las medidas apropiadas para detectar, prevenir en la mayor
                                                                      medida de lo posible y atenuar los potenciales impactos sobre
                                                                      los derechos humanos, remediar los impactos reales y rendir
@@ -2755,10 +2637,11 @@ y Derechos                                                                     C
                                                                      “vulnerar” se refiere a los impactos negativos que una empresa
                                                                      puede tener sobre los derechos humanos.
 
-
 ## 42. El párrafo 2 recomienda a las empresas evitar causar im-
 
-                                                                     pactos negativos sobre los derechos humanos o contribuir a
+**Definición Canónica:** pactos negativos sobre los derechos humanos o contribuir a
+
+pactos negativos sobre los derechos humanos o contribuir a
 
                                                                      ellos a través de sus actividades y resolver los impactos ne-
                                                                      gativos cuando surjan. El término “actividades” incluye tanto
@@ -2771,10 +2654,16 @@ y Derechos                                                                     C
                                                                      modificar las prácticas de una entidad que afecten negativa-
                                                                      mente a los derechos humanos.
 
-
 ## 43. El párrafo 3 se refiere a situaciones más complejas en las
 
-                                                                     que una empresa no ha contribuido a un impacto negativo
+**Definición Canónica:** que una empresa no ha contribuido a un impacto negativo
+                                                                     sobre los derechos humanos, pero este impacto está, sin em-
+                                                                     bargo, directamente relacionado con sus operaciones, bienes
+                                                                     o servicios, en virtud de la relación comercial que tiene con
+                                                                     otra entidad. El párrafo 3 no tiene por objeto transferir la
+                         
+
+que una empresa no ha contribuido a un impacto negativo
                                                                      sobre los derechos humanos, pero este impacto está, sin em-
                                                                      bargo, directamente relacionado con sus operaciones, bienes
                                                                      o servicios, en virtud de la relación comercial que tiene con
@@ -2800,10 +2689,12 @@ y Derechos                                                                     C
                                                                      impacto y si la ruptura de la relación podría tener un impacto
                                                                      negativo sobre los derechos humanos.
 
-
 ## 44. El párrafo 4 recomienda a las empresas que manifiesten su
 
-                                                                     compromiso con el respeto de los derechos humanos a través
+**Definición Canónica:** compromiso con el respeto de los derechos humanos a través
+                                                                     de una declaración que: (i) sea aprobada al nivel jerárquico
+
+compromiso con el respeto de los derechos humanos a través
                                                                      de una declaración que: (i) sea aprobada al nivel jerárquico
 
                                                                      más alto de la empresa; (ii) sea elaborada por especialistas
@@ -2875,10 +2766,15 @@ y Derechos                                                                     C
 Empresa                                                                                      2. Obligaciones estatales y responsabilidades empresariales.                  70
 y Derechos                                                                                      Conceptos clave.
 
-
 ## 2.1.1.3 Los instrumentos de la Organización
 
-                                                                                               Internacional del Trabajo
+**Definición Canónica:** Internacional del Trabajo
+                                                                                               Más allá de los Convenios de la OIT que Chile ha ratificado, es re-
+                                                                                               levante la Declaración Tripartita de Principios sobre las Empresas
+                                                                                               multinacionales y la política social, en su versión actual,73 al tomar en
+                                                                                
+
+Internacional del Trabajo
                                                                                                Más allá de los Convenios de la OIT que Chile ha ratificado, es re-
                                                                                                levante la Declaración Tripartita de Principios sobre las Empresas
                                                                                                multinacionales y la política social, en su versión actual,73 al tomar en
@@ -2889,10 +2785,16 @@ y Derechos                                                                      
                                                                                                sobre eliminación de trabajo forzoso, infantil, condiciones laborales,
                                                                                                y derechos colectivos.
 
-
 ## 2.1.1.4 Los instrumentos de la Organización
 
-                                                                                               de Estados Americanos
+**Definición Canónica:** de Estados Americanos
+                                                                                               Si bien el sistema interamericano ha abordado asuntos de Derechos
+                                                                                               Humanos y Empresa, en virtud de su mandato lo ha hecho en relación
+                                                                                               con las obligaciones estatales, y solo indirectamente en relación con
+                                                                                          
+**Concordancias Legales:** Constitucion
+
+de Estados Americanos
                                                                                                Si bien el sistema interamericano ha abordado asuntos de Derechos
                                                                                                Humanos y Empresa, en virtud de su mandato lo ha hecho en relación
                                                                                                con las obligaciones estatales, y solo indirectamente en relación con
@@ -2921,10 +2823,11 @@ y Derechos                                                                      
                                                                                              — CPC: Empresas y Derechos Humanos: Nuestro Com-
                                                                                                promiso, 2019. Disponible en línea.
 
-
 ## 2.1.2 Fundamento de la atribución de
 
-                                                                                    responsabilidad de las empresas
+**Definición Canónica:** responsabilidad de las empresas
+
+responsabilidad de las empresas
 
                                                                                     El Comentario al Principio Rector 11 explica que las empresas deben
                                                                                     tomar medidas capaces de prevenir, mitigar y remediar cualquier
@@ -2991,30 +2894,39 @@ y Derechos                                                                      
                                                                                        Civiles y Políticos, ambos de 1966. Elabore un listado de los
                                                                                        derechos contenidos en estos instrumentos.
 
-
-## 2.1.4 Algunos casos ejemplares
-
-
 ## 2.1.4.1 Curtidos Bas
 
-                                                                                   Instrucciones: leer extractos de la sentencia del TC, identificar actores,
+**Definición Canónica:** Instrucciones: leer extractos de la sentencia del TC, identificar actores,
+                                                                                   identificar impacto de la empresa, identificar derechos humanos que
+                                                                                   están involucrados.
+
+Instrucciones: leer extractos de la sentencia del TC, identificar actores,
                                                                                    identificar impacto de la empresa, identificar derechos humanos que
                                                                                    están involucrados.
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.           73
 
-
 ## 2.1.4.2 Ducto de Mehuin
 
-                                                                 Instrucciones: mirar extracto de “Batalla naval de Mehuin” y resumen de
+**Definición Canónica:** Instrucciones: mirar extracto de “Batalla naval de Mehuin” y resumen de
                                                                  los hechos en denuncia del Observatorio Ciudadano ante la CIDH,
                                                                  identificar actores, identificar impacto de la empresa, identificar
                                                                  derechos humanos que están involucrados.
 
+Instrucciones: mirar extracto de “Batalla naval de Mehuin” y resumen de
+                                                                 los hechos en denuncia del Observatorio Ciudadano ante la CIDH,
+                                                                 identificar actores, identificar impacto de la empresa, identificar
+                                                                 derechos humanos que están involucrados.
 
 ## 2.1.4.3 Complejo          industrial      Quintero-Puchuncaví
 
-                                                                 Instrucciones: leer extractos de la sentencia CS 5888-2019, además
+**Definición Canónica:** Instrucciones: leer extractos de la sentencia CS 5888-2019, además
+                                                                 de informe INDH sobre la situación, identificar actores, identificar
+                                                                 impacto de las empresas, identificar derechos que están involucrados.
+                                                                 Anotar complejidad del caso en cuanto a 1) Causalidad, 2) Respon-
+                                                                 sabilidad compartida/diferenciada, 3) Rol del Estado como regula-
+
+Instrucciones: leer extractos de la sentencia CS 5888-2019, además
                                                                  de informe INDH sobre la situación, identificar actores, identificar
                                                                  impacto de las empresas, identificar derechos que están involucrados.
                                                                  Anotar complejidad del caso en cuanto a 1) Causalidad, 2) Respon-
@@ -3024,10 +2936,15 @@ y Derechos                                                                      
                                                                  empresarial en el derecho interno: limitaciones de identificación,
                                                                  sanción, etcétera.
 
-
 ## 2.1.4.4 Represa Ralco
 
-                                                                 Instrucciones: leer extractos de la solución amistosa ante la CIDH, y
+**Definición Canónica:** Instrucciones: leer extractos de la solución amistosa ante la CIDH, y
+                                                                 reportes de cumplimiento (Informe Anual CIDH), identificar difi-
+                                                                 cultades de implementación, identificar posibilidades del derecho
+                                                                 interno de haber protegido los derechos, identificar acciones volun-
+                                                                 tarias de la empresa que se hubieran podido realizar.
+
+Instrucciones: leer extractos de la solución amistosa ante la CIDH, y
                                                                  reportes de cumplimiento (Informe Anual CIDH), identificar difi-
                                                                  cultades de implementación, identificar posibilidades del derecho
                                                                  interno de haber protegido los derechos, identificar acciones volun-
@@ -3035,10 +2952,17 @@ y Derechos                                                                      
 
                                                                           — INDH, Mapa de Conflictos Socioambientales, 2019.
 
-
 ## 2.1.5 Contenido y alcance del deber empresarial
 
-                                                                 de respetar los derechos humanos: instituciones
+**Definición Canónica:** de respetar los derechos humanos: instituciones
+                                                                 jurídicas de aplicación relevante
+                                                                 Si bien los Principios Rectores no constituyen una fuente jurídica
+                                                                 vinculante para la aplicación del derecho chileno, dan orientaciones de
+                                                                 interpretación de ciertos estándares internacionales, y en situaciones
+                                                
+**Concordancias Legales:** artículo 5; Constitución Política; constitucion
+
+de respetar los derechos humanos: instituciones
                                                                  jurídicas de aplicación relevante
                                                                  Si bien los Principios Rectores no constituyen una fuente jurídica
                                                                  vinculante para la aplicación del derecho chileno, dan orientaciones de
@@ -3060,10 +2984,17 @@ y Derechos                                                                      
                                                                  presente sección: definir el contenido y alcance de la responsabilidad
                                                                  empresarial de respetar los derechos humanos.
 
-
 ## 2.1.5.1 La debida diligencia empresarial
 
-                                                                 Los Principios Rectores de las Naciones Unidas sobre Empresas y
+**Definición Canónica:** Los Principios Rectores de las Naciones Unidas sobre Empresas y
+                                                                 Derechos Humanos de 2011 definen que las empresas tienen la res-
+                                                                 ponsabilidad de respetar los derechos humanos. Más precisamente,
+                                                                 “La responsabilidad de respetar los derechos humanos exige que
+                                                                 las empresas:
+                                                                 a. E
+**Concordancias Legales:** constitución
+
+Los Principios Rectores de las Naciones Unidas sobre Empresas y
                                                                  Derechos Humanos de 2011 definen que las empresas tienen la res-
                                                                  ponsabilidad de respetar los derechos humanos. Más precisamente,
                                                                  “La responsabilidad de respetar los derechos humanos exige que
@@ -3338,10 +3269,15 @@ y Derechos                                                                      
                                                                                                           Conducta Empresarial Responsable, 2018. Disponible
                                                                                                           en línea.
 
-
 ## 2.1.5.2 Estándares de cuidado por parte de
 
-                                                                                               los administradores y las empresas
+**Definición Canónica:** los administradores y las empresas
+                                                                                               El deber de cuidado se define usualmente solo hacia los accionistas.74
+                                                                                               En algunas jurisdicciones, esta responsabilidad se extiende hacia
+                                                                                               asuntos ambientales o sociales yendo, entonces, más allá del interés
+                                                                          
+
+los administradores y las empresas
                                                                                                El deber de cuidado se define usualmente solo hacia los accionistas.74
                                                                                                En algunas jurisdicciones, esta responsabilidad se extiende hacia
                                                                                                asuntos ambientales o sociales yendo, entonces, más allá del interés
@@ -3366,10 +3302,16 @@ y Derechos                                                                      
                                                                             Law for Corporate Social Responsibility, Springer Verlag,
                                                                             Basel 2020; pp. 225-256.
 
-
 ## 2.1.5.3 Gobernanza y debida diligencia
 
-                                                                 en materia de derechos humanos
+**Definición Canónica:** en materia de derechos humanos
+                                                                 Existen distintas herramientas de gobernanza que permitirían acoger
+                                                                 o incorporar la debida diligencia en materia de derechos humanos.
+                                                                 La que más se discute a nivel de la literatura es una incorporación
+                                                                 en sistemas ya existentes de evaluación de riesgos (de mercado,
+                                           
+
+en materia de derechos humanos
                                                                  Existen distintas herramientas de gobernanza que permitirían acoger
                                                                  o incorporar la debida diligencia en materia de derechos humanos.
                                                                  La que más se discute a nivel de la literatura es una incorporación
@@ -3514,10 +3456,14 @@ y Derechos                                                                      
                                                                                                 ¿Cuál cree usted sería el marco más eficaz para lograr que las
                                                                                                 empresas no dañen el medioambiente?
 
-
 ## 81    Ivory, Radha: “Due Diligence Debates in International Anti-corruption and Money Laundering Law”, en Pe-
 
-                                                            ters, Anne; Krieger, Heike y Kreuzer, Leonhard (eds.): Due Diligence in the International Legal Order, Oxford
+**Definición Canónica:** ters, Anne; Krieger, Heike y Kreuzer, Leonhard (eds.): Due Diligence in the International Legal Order, Oxford
+                                                            University Press 2020; p. 294.
+                                                      82   Ibid., p. 296.
+                                                      83    Ibid.
+
+ters, Anne; Krieger, Heike y Kreuzer, Leonhard (eds.): Due Diligence in the International Legal Order, Oxford
                                                             University Press 2020; p. 294.
                                                       82   Ibid., p. 296.
                                                       83    Ibid.
@@ -3538,10 +3484,16 @@ y Derechos                                                                      
                                                                             Due Diligence in the International Legal Order, Oxford
                                                                             University Press 2020; pp. 288-300.
 
-
 ## 2.1.5.4 Sistemas de evaluación de impactos
 
-                                                                 En los últimos años, varias instituciones han desarrollado herra-
+**Definición Canónica:** En los últimos años, varias instituciones han desarrollado herra-
+                                                                 mientas para la determinación del impacto que tiene una empresa/
+                                                                 actividad productiva/sector productivo en los derechos humanos de
+                                                                 las personas. Estas herramientas se conocen comúnmente como
+                                                                 “Evaluación de impacto en derechos humanos” (EDIH) o “Human
+                       
+
+En los últimos años, varias instituciones han desarrollado herra-
                                                                  mientas para la determinación del impacto que tiene una empresa/
                                                                  actividad productiva/sector productivo en los derechos humanos de
                                                                  las personas. Estas herramientas se conocen comúnmente como
@@ -3605,10 +3557,12 @@ y Derechos                                                                      
                                                                                    rentes? ¿Bajo qué presupuesto(s) serían algunos de los pasos/
                                                                                    elementos mencionados en las herramientas justiciables?
 
-
 ## 2.1.5.5 Debate: responsabilidades de
 
-                                                                               medio y obligaciones de resultado
+**Definición Canónica:** medio y obligaciones de resultado
+                                                                               Existe una discusión, a nivel de doctrina iusinternacionalista, sobre la
+
+medio y obligaciones de resultado
                                                                                Existe una discusión, a nivel de doctrina iusinternacionalista, sobre la
 
                                                                                pregunta de si la debida diligencia empresarial definida en los Prin-
@@ -3648,10 +3602,17 @@ y Derechos                                                                      
                                                                      realice el mismo ejercicio a partir de los Principios Rectores,
                                                                      su Comentario y la Guía de interpretación.
 
-
 ## 2.1.6 Acceso a remedio y reparaciones
 
-                                                                 Si a pesar de la implementación de la debida diligencia (o en su
+**Definición Canónica:** Si a pesar de la implementación de la debida diligencia (o en su
+                                                                 ausencia o implementación deficiente), no se logre materializar el
+                                                                 respeto a los derechos humanos y ocurriera un daño, la empresa tie-
+                                                                 ne el deber de repararlo. Este deber, según los Principios Rectores,
+                                                                 existe con independencia de la definición de indemnización que
+        
+**Concordancias Legales:** constitucion
+
+Si a pesar de la implementación de la debida diligencia (o en su
                                                                  ausencia o implementación deficiente), no se logre materializar el
                                                                  respeto a los derechos humanos y ocurriera un daño, la empresa tie-
                                                                  ne el deber de repararlo. Este deber, según los Principios Rectores,
@@ -3697,10 +3658,12 @@ y Derechos                                                                      
 Empresa                                                                                     2. Obligaciones estatales y responsabilidades empresariales.              91
 y Derechos                                                                                     Conceptos clave.
 
-
 ## 2.2               El rol del Estado y la consecuente
 
-                                                                                              obligatoriedad de la responsabilidad de
+**Definición Canónica:** obligatoriedad de la responsabilidad de
+                                                                                              las empresas en el derecho interno
+
+obligatoriedad de la responsabilidad de
                                                                                               las empresas en el derecho interno
 
                                                                                               Dado que en el derecho internacional no se reconocen obligaciones
@@ -3734,25 +3697,34 @@ y Derechos                                                                      
                                                                                               derecho internacional de los derechos humanos que imponen obliga-
                                                                                               ciones a los Estados parte en relación con las actividades empresariales.
 
-
 ## 84       Véase, por ejemplo, Letnar, Jernej y Van Ho, Tara (eds): Human Rights and Business: Direct Corporate
 
-                                                               Accountability for Human Rights, Wolf Legal Publishers, 2015.
+**Definición Canónica:** Accountability for Human Rights, Wolf Legal Publishers, 2015.
+
+Accountability for Human Rights, Wolf Legal Publishers, 2015.
 
 Empresa                                                                                     2. Obligaciones estatales y responsabilidades empresariales.                 92
 y Derechos                                                                                     Conceptos clave.
 
-
 ## 2.2.1 Instrumentos internacionales de
 
-                                                                                              especial relevancia para DHyE
+**Definición Canónica:** especial relevancia para DHyE
+                                                                                              Para identificar los instrumentos internacionales de especial relevan-
+                                                                                              cia para la materia, y que se incorporan al orden jurídico nacional a
+                                                                                              través del artículo 5º inciso segundo de la Constitución Política (ver
+**Concordancias Legales:** artículo 5; Constitución Política
+
+especial relevancia para DHyE
                                                                                               Para identificar los instrumentos internacionales de especial relevan-
                                                                                               cia para la materia, y que se incorporan al orden jurídico nacional a
                                                                                               través del artículo 5º inciso segundo de la Constitución Política (ver
 
 ## capítulo 3 para detalles), es necesario aclarar qué se entiende por
 
-                                                                                              vulneración a los derechos humanos en el contexto de actividades
+**Definición Canónica:** vulneración a los derechos humanos en el contexto de actividades
+                                                                                              empresariales. En este sentido, hemos señalado que corresponde a:
+
+vulneración a los derechos humanos en el contexto de actividades
                                                                                               empresariales. En este sentido, hemos señalado que corresponde a:
 
                                                                                                   “(i) un hecho antijurídico vinculado estrechamente a una au-
@@ -3889,10 +3861,11 @@ y Derechos                                                                      
                                                                                            — Las personas con discapacidad, y la existencia de barreras a la
                                                                                              accesibilidad.
 
-
 ## 88       REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos”, OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019); párrs. 198-311.
+**Definición Canónica:** DESCA/INF.1/19 (2019); párrs. 198-311.
+
+DESCA/INF.1/19 (2019); párrs. 198-311.
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.        96
 
@@ -3982,17 +3955,24 @@ y Derechos                                                                      
 
 ## 90       CIDH, Empresas y Derechos Humanos en las Américas, 172º Período de sesiones, Kingston, 8 de mayo de
 
-                                                               2019. Disponible en línea.
+**Definición Canónica:** 2019. Disponible en línea.
+                                                      91       CIDH, Industrias extractivas: acceso a la información, 161º Período de sesiones, Washington D.C., 18 de marzo
+                                                               de 2017. Disponible en línea.
+
+2019. Disponible en línea.
                                                       91       CIDH, Industrias extractivas: acceso a la información, 161º Período de sesiones, Washington D.C., 18 de marzo
                                                                de 2017. Disponible en línea.
 
 Empresa                                                                                   2. Obligaciones estatales y responsabilidades empresariales.           98
 y Derechos                                                                                   Conceptos clave.
 
-
 ## 2.2.2 La obligación de proteger interpretada
 
-                                                                                            por los órganos de supervisión de los
+**Definición Canónica:** por los órganos de supervisión de los
+                                                                                            tratados de derechos humanos
+**Concordancias Legales:** artículo 2; artículo 30 del Proyecto de artículos sobre; constitucion
+
+por los órganos de supervisión de los
                                                                                             tratados de derechos humanos
 
                                                                                             a. Obligación de respeto
@@ -4275,10 +4255,16 @@ y Derechos                                                                      
                                                                                                 mismas que se describieron en el acápite 2.2.1.1 sobre la obligación
                                                                                                 de prevención.
 
-
 ## 2.2.2.5 La recomendación de la CIDH de hacer
 
-                                                                                                obligatoria la debida diligencia empresarial
+**Definición Canónica:** obligatoria la debida diligencia empresarial
+                                                                                                Mientras una serie de Estados en Europa están discutiendo o ya
+                                                                                                han aprobado leyes de debida diligencia que exigirían de las empre-
+                                                                                                sas –por lo menos de las más grandes– adoptar un mecanismo de
+                                                                          
+**Concordancias Legales:** artículo 1.1 de la CADH
+
+obligatoria la debida diligencia empresarial
                                                                                                 Mientras una serie de Estados en Europa están discutiendo o ya
                                                                                                 han aprobado leyes de debida diligencia que exigirían de las empre-
                                                                                                 sas –por lo menos de las más grandes– adoptar un mecanismo de
@@ -4309,10 +4295,16 @@ y Derechos                                                                      
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.           106
 
-
 ## 2.2.3 Extraterritorialidad, forum necesitatis
 
-                                                                 y forum non conveniens
+**Definición Canónica:** y forum non conveniens
+                                                                 La pregunta por los efectos extraterritoriales de la regulación y la
+                                                                 adjudicación de violaciones de derechos humanos en foros que no
+                                                                 tienen jurisdicción ratione loci, no es nueva. Sin embargo, con la
+                                                                 transnacionalización de la economía, reviste un carácter de especial
+                                                
+
+y forum non conveniens
                                                                  La pregunta por los efectos extraterritoriales de la regulación y la
                                                                  adjudicación de violaciones de derechos humanos en foros que no
                                                                  tienen jurisdicción ratione loci, no es nueva. Sin embargo, con la
@@ -4368,10 +4360,16 @@ y Derechos                                                                      
                                                                  sobre DHyE que podría permitir crear una cancha más nivelada en
                                                                  la materia (2.2.3.4).
 
-
 ## 2.2.3.1 Efectos extraterritoriales de la
 
-                                                                 regulación y de las políticas públicas
+**Definición Canónica:** regulación y de las políticas públicas
+                                                                 El Comité de Derechos Económicos, Sociales y Culturales adoptó, en
+                                                                 2017, una Observación General sobre empresas y derechos humanos.
+                                                                 Esta OG construye sobre propuestas y estándares de soft law en ma-
+                                                                 teria de extraterritorialidad y DESC (Limburg Principles, Maastricht
+                                 
+
+regulación y de las políticas públicas
                                                                  El Comité de Derechos Económicos, Sociales y Culturales adoptó, en
                                                                  2017, una Observación General sobre empresas y derechos humanos.
                                                                  Esta OG construye sobre propuestas y estándares de soft law en ma-
@@ -4400,10 +4398,11 @@ y Derechos                                                                      
 
                                                                                            C. Obligaciones extraterritoriales
 
-
 ## 25. En los últimos 30 años se ha observado un aumento no-
 
-                                                                                           table de las actividades de las empresas transnacionales, unas
+**Definición Canónica:** table de las actividades de las empresas transnacionales, unas
+
+table de las actividades de las empresas transnacionales, unas
 
                                                                                            corrientes de inversión y de comercio cada vez mayores entre
                                                                                            los países y la aparición de cadenas mundiales de suministro.
@@ -4414,10 +4413,15 @@ y Derechos                                                                      
                                                                                            importancia la cuestión de las obligaciones extraterritoriales
                                                                                            en materia de derechos humanos de los Estados.
 
-
 ## 26. En su declaración de 2011 sobre las obligaciones de los
 
-                                                                                           Estados partes en relación con el sector empresarial y los
+**Definición Canónica:** Estados partes en relación con el sector empresarial y los
+                                                                                           derechos económicos, sociales y culturales, el Comité reite-
+                                                                                           ró que las obligaciones de los Estados partes en el Pacto no
+                                                                                           terminan en sus fronteras territoriales. Los Estados partes
+                                                                                      
+
+Estados partes en relación con el sector empresarial y los
                                                                                            derechos económicos, sociales y culturales, el Comité reite-
                                                                                            ró que las obligaciones de los Estados partes en el Pacto no
                                                                                            terminan en sus fronteras territoriales. Los Estados partes
@@ -4441,10 +4445,15 @@ y Derechos                                                                      
                                                                      de condiciones de trabajo equitativas y satisfactorias, así como
                                                                      en los exámenes de los informes periódicos de los Estados.
 
-
 ## 27. Esas obligaciones extraterritoriales de los Estados en virtud
 
-                                                                     del Pacto se derivan del hecho de que las obligaciones del
+**Definición Canónica:** del Pacto se derivan del hecho de que las obligaciones del
+                                                                     Pacto se expresan sin restricción alguna vinculada al territorio
+                                                                     o la jurisdicción. Si bien el artículo 14 del Pacto señala que
+                                                                     el Estado debe instituir una enseñanza primaria obligatoria
+**Concordancias Legales:** artículo 14 del Pacto señala que; artículo 2; Artículo 55 de la Carta
+
+del Pacto se derivan del hecho de que las obligaciones del
                                                                      Pacto se expresan sin restricción alguna vinculada al territorio
                                                                      o la jurisdicción. Si bien el artículo 14 del Pacto señala que
                                                                      el Estado debe instituir una enseñanza primaria obligatoria
@@ -4488,14 +4497,16 @@ y Derechos                                                                      
                                                                      principios rectores sobre la extrema pobreza y los derechos
                                                                      humanos en su resolución 21/11.
 
-
-## 28. Las obligaciones extraterritoriales surgen cuando un Estado
-
-
 ## parte puede influir en situaciones que se producen fuera de
 
+**Definición Canónica:** su territorio, de conformidad con los límites impuestos por
+                                                                     el derecho internacional, controlando las actividades de las
+                                                                     empresas domiciliadas en su territorio y/o bajo su jurisdicción
+                                                                     y, por lo tanto, contribuir al disfrute efectivo de los derechos
+                                                                     económicos, sociales y culturales fuera de su territorio na-
+             
 
-                                                                     su territorio, de conformidad con los límites impuestos por
+su territorio, de conformidad con los límites impuestos por
                                                                      el derecho internacional, controlando las actividades de las
                                                                      empresas domiciliadas en su territorio y/o bajo su jurisdicción
                                                                      y, por lo tanto, contribuir al disfrute efectivo de los derechos
@@ -4507,14 +4518,16 @@ y Derechos                                                                      
                                                                      Niño, así como de las posiciones adoptadas por otros órganos
                                                                      creados en virtud de tratados de derechos humanos.
 
-
-## 1. Obligación extraterritorial de respetar
-
-
-
 ## 29. La obligación extraterritorial de respetar requiere que
 
-                                                                     los Estados partes se abstengan de interferir directa o indi-
+**Definición Canónica:** los Estados partes se abstengan de interferir directa o indi-
+                                                                     rectamente en el disfrute de los derechos consagrados en el
+                                                                     Pacto por personas que se encuentran fuera de su territorio.
+                                                                     Como parte de esa obligación, los Estados partes deben ase-
+                                                                     gurarse de que no obstaculizan el cumplimiento por otros
+                        
+
+los Estados partes se abstengan de interferir directa o indi-
                                                                      rectamente en el disfrute de los derechos consagrados en el
                                                                      Pacto por personas que se encuentran fuera de su territorio.
                                                                      Como parte de esa obligación, los Estados partes deben ase-
@@ -4527,14 +4540,16 @@ y Derechos                                                                      
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.            111
 
-
-## 2. Obligación extraterritorial de proteger
-
-
-
 ## 30. La obligación extraterritorial de proteger exige que los
 
-                                                                     Estados partes adopten medidas para prevenir y corregir las
+**Definición Canónica:** Estados partes adopten medidas para prevenir y corregir las
+                                                                     vulneraciones de los derechos reconocidos en el Pacto que
+                                                                     se producen fuera de su territorio, debido a las actividades
+                                                                     de entidades empresariales sobre las que pueden ejercer un
+                                                                     control, en especial en los casos en que los recursos de que
+                         
+
+Estados partes adopten medidas para prevenir y corregir las
                                                                      vulneraciones de los derechos reconocidos en el Pacto que
                                                                      se producen fuera de su territorio, debido a las actividades
                                                                      de entidades empresariales sobre las que pueden ejercer un
@@ -4542,10 +4557,16 @@ y Derechos                                                                      
                                                                      disponen las víctimas ante los tribunales nacionales del Es-
                                                                      tado en que se ha producido el daño son nulos o ineficaces.
 
-
 ## 31. Esa obligación se extiende a cualquier entidad empresarial
 
-                                                                     que los Estados partes puedan controlar, de conformidad con
+**Definición Canónica:** que los Estados partes puedan controlar, de conformidad con
+                                                                     la Carta de las Naciones Unidas y el derecho internacional
+                                                                     aplicable. En el marco de las competencias admisibles en
+                                                                     virtud del derecho internacional general, los Estados pue-
+                                                                     den tratar de regular las empresas que están domiciliadas
+                               
+
+que los Estados partes puedan controlar, de conformidad con
                                                                      la Carta de las Naciones Unidas y el derecho internacional
                                                                      aplicable. En el marco de las competencias admisibles en
                                                                      virtud del derecho internacional general, los Estados pue-
@@ -4562,10 +4583,16 @@ y Derechos                                                                      
                                                                      derechos económicos, sociales y culturales a escala nacional
                                                                      y en el extranjero.
 
-
 ## 32. Un Estado parte, aunque en general no incurre en respon-
 
-                                                                     sabilidad internacional por las vulneraciones de los derechos
+**Definición Canónica:** sabilidad internacional por las vulneraciones de los derechos
+                                                                     económicos, sociales y culturales causadas por la conducta de
+                                                                     una entidad privada (excepto en las tres situaciones evocadas
+                                                                     en el párrafo 11 de la presente observación general), incum-
+                                                                     pliría sus obligaciones en virtud del Pacto si la vulneración
+               
+
+sabilidad internacional por las vulneraciones de los derechos
                                                                      económicos, sociales y culturales causadas por la conducta de
                                                                      una entidad privada (excepto en las tres situaciones evocadas
                                                                      en el párrafo 11 de la presente observación general), incum-
@@ -4584,10 +4611,12 @@ y Derechos                                                                      
                                                                      es preciso obrar con la diligencia debida en relación con los
                                                                      proyectos de minería y explotación petrolera.
 
-
 ## 33. En cumplimiento de su deber de proteger, los Estados partes
 
-                                                                     también deben pedir a las empresas que hagan todo lo posible
+**Definición Canónica:** también deben pedir a las empresas que hagan todo lo posible
+                                                                     por asegurar que las entidades en cuya conducta pueden influir,
+
+también deben pedir a las empresas que hagan todo lo posible
                                                                      por asegurar que las entidades en cuya conducta pueden influir,
 
                                                                      como las filiales (incluidas todas las entidades empresariales
@@ -4618,10 +4647,16 @@ y Derechos                                                                      
 
 Empresa                                                        2. Obligaciones estatales y responsabilidades empresariales.            113
 
-
 ## 34. En los casos transnacionales, para lograr una rendición
 
-                                                                     de cuentas y un acceso a medios de reparación efectivos se
+**Definición Canónica:** de cuentas y un acceso a medios de reparación efectivos se
+                                                                     precisa la cooperación internacional. El Comité remite a ese
+                                                                     respecto a la recomendación que figura en el informe sobre
+                                                                     la rendición de cuentas y el acceso a las reparaciones para las
+                                                                     víctimas de violaciones de los derechos humanos relacionadas
+                    
+
+de cuentas y un acceso a medios de reparación efectivos se
                                                                      precisa la cooperación internacional. El Comité remite a ese
                                                                      respecto a la recomendación que figura en el informe sobre
                                                                      la rendición de cuentas y el acceso a las reparaciones para las
@@ -4640,10 +4675,16 @@ y Derechos                                                                      
                                                                      de asistencia recíproca para poder actuar con mayor rapidez,
                                                                      en particular en lo referente al enjuiciamiento de los delitos.
 
-
 ## 35. La mejora de la cooperación internacional debería re-
 
-                                                                     ducir el riesgo de conflictos de competencias positivos y
+**Definición Canónica:** ducir el riesgo de conflictos de competencias positivos y
+                                                                     negativos, que pueden provocar incertidumbre jurídica y la
+                                                                     búsqueda del foro más favorable por los litigantes o impe-
+                                                                     dir que las víctimas obtengan reparación. A ese respecto, el
+                                                                     Comité celebra cualquier iniciativa encaminada a la aproba-
+                           
+
+ducir el riesgo de conflictos de competencias positivos y
                                                                      negativos, que pueden provocar incertidumbre jurídica y la
                                                                      búsqueda del foro más favorable por los litigantes o impe-
                                                                      dir que las víctimas obtengan reparación. A ese respecto, el
@@ -4667,24 +4708,30 @@ y Derechos                                                                      
                                                                      y la Recomendación sobre las Trabajadoras y los Trabajadores
                                                                      Domésticos, 2011 (núm. 201), de la OIT.
 
-
-## 3. Obligación extraterritorial de dar efectividad
-
-
-
 ## 36. El artículo 2, párrafo 1, del Pacto dispone que se espera
 
-                                                                     que los Estados partes adopten medidas colectivas, en par-
+**Definición Canónica:** que los Estados partes adopten medidas colectivas, en par-
+                                                                     ticular mediante la cooperación internacional, con el fin
+                                                                     de contribuir a dar efectividad a los derechos económicos,
+                                                                     sociales y culturales de las personas que se encuentren fuera
+
+que los Estados partes adopten medidas colectivas, en par-
                                                                      ticular mediante la cooperación internacional, con el fin
                                                                      de contribuir a dar efectividad a los derechos económicos,
                                                                      sociales y culturales de las personas que se encuentren fuera
 
                                                                      de su territorio nacional.
 
-
 ## 37. De conformidad con el artículo 28 de la Declaración
 
-                                                                     Universal de Derechos Humanos, la obligación de dar efec-
+**Definición Canónica:** Universal de Derechos Humanos, la obligación de dar efec-
+                                                                     tividad requiere que los Estados partes contribuyan a que
+                                                                     se establezca un entorno internacional que permita que los
+                                                                     derechos del Pacto se hagan plenamente efectivos. A tal fin,
+                                                                     los Estados partes deben adoptar las medidas necesarias en
+                             
+
+Universal de Derechos Humanos, la obligación de dar efec-
                                                                      tividad requiere que los Estados partes contribuyan a que
                                                                      se establezca un entorno internacional que permita que los
                                                                      derechos del Pacto se hagan plenamente efectivos. A tal fin,
@@ -4733,10 +4780,15 @@ y Derechos                                                                      
                                                                                                         — Corte Interamericana de Derechos Humanos, Opinión
                                                                                                           Consultiva Nº 23, 2017; párr. 95-104.
 
-
 ## 2.2.3.2 Adjudicación de hechos ocurridos
 
-                                                                                               extraterritorialmente. Problemas de jurisdicción.
+**Definición Canónica:** extraterritorialmente. Problemas de jurisdicción.
+                                                                                               El acceso a la justicia, para víctimas de violaciones a los derechos
+                                                                                               humanos cometidas en el contexto de actividades económicas, se
+                                                                                               vuelve en muchos países una ilusión, ante las distintas barreras jurí-
+                                                              
+
+extraterritorialmente. Problemas de jurisdicción.
                                                                                                El acceso a la justicia, para víctimas de violaciones a los derechos
                                                                                                humanos cometidas en el contexto de actividades económicas, se
                                                                                                vuelve en muchos países una ilusión, ante las distintas barreras jurí-
@@ -4766,10 +4818,16 @@ y Derechos                                                                      
                                                                  El Comité de Derechos Económicos, Sociales y Culturales explicita las
                                                                  obligaciones que tienen los Estados parte del PIDESC en la materia:
 
-
 ## 43. Las víctimas de vulneraciones cometidas por empresas trans-
 
-                                                                     nacionales se enfrentan a obstáculos específicos para acceder a
+**Definición Canónica:** nacionales se enfrentan a obstáculos específicos para acceder a
+                                                                     recursos efectivos. Además de la dificultad de probar los daños
+                                                                     y perjuicios o establecer el nexo causal entre la conducta de la
+                                                                     empresa demandada radicada en una jurisdicción y la violación
+                                                                     resultante en otra, el litigio transnacional suele ser demasiado
+    
+
+nacionales se enfrentan a obstáculos específicos para acceder a
                                                                      recursos efectivos. Además de la dificultad de probar los daños
                                                                      y perjuicios o establecer el nexo causal entre la conducta de la
                                                                      empresa demandada radicada en una jurisdicción y la violación
@@ -4791,10 +4849,15 @@ y Derechos                                                                      
 Empresa                                                                                        2. Obligaciones estatales y responsabilidades empresariales.                 117
 y Derechos                                                                                        Conceptos clave.
 
-
 ## 44. Los Estados partes deben adoptar las medidas necesarias
 
-                                                                                                     para abordar esos desafíos con el fin de impedir la denegación de
+**Definición Canónica:** para abordar esos desafíos con el fin de impedir la denegación de
+                                                                                                     justicia y asegurar el derecho a un recurso efectivo y a reparación.
+                                                                                                     Ello requiere que los Estados partes eliminen los obstáculos
+                                                                                                     sustantivos, procesales y prácticos a los recursos, entre otras co-
+                                 
+
+para abordar esos desafíos con el fin de impedir la denegación de
                                                                                                      justicia y asegurar el derecho a un recurso efectivo y a reparación.
                                                                                                      Ello requiere que los Estados partes eliminen los obstáculos
                                                                                                      sustantivos, procesales y prácticos a los recursos, entre otras co-
@@ -4830,10 +4893,16 @@ y Derechos                                                                      
                                                                           — Skinner, Gwynne: Transnational Corporations and Human
                                                                              Rights, Cambridge University Press, 2020.
 
-
 ## 2.2.3.3 La cooperación judicial como complemento a la
 
-                                                                 jurisdicción sobre hechos ocurridos extraterritorialmente
+**Definición Canónica:** jurisdicción sobre hechos ocurridos extraterritorialmente
+                                                                 Dada la limitada aceptación de la jurisdicción extraterritorial y la
+                                                                 denegación de justicia en muchos países receptores de inversión
+                                                                 (host states), el Grupo de Trabajo sobre la cuestión de los derechos
+                                                                 humanos y las empresas transnacionales y otras empresas ha señalado
+            
+
+jurisdicción sobre hechos ocurridos extraterritorialmente
                                                                  Dada la limitada aceptación de la jurisdicción extraterritorial y la
                                                                  denegación de justicia en muchos países receptores de inversión
                                                                  (host states), el Grupo de Trabajo sobre la cuestión de los derechos
@@ -4852,10 +4921,16 @@ y Derechos                                                                      
 
                                                                      “A. Conclusiones
 
-
 ## 86. Tal como se indica en el presente informe, cuando los
 
-                                                                    Estados detectan un daño mayor en el que está implicado el
+**Definición Canónica:** Estados detectan un daño mayor en el que está implicado el
+                                                                    sector privado, pueden elaborar procesos y marcos jurídicos
+                                                                    para promover el cumplimiento de la ley a nivel transfronterizo.
+                                                                    Habiendo aceptado que determinados daños transfronterizos,
+                                                                    como la trata de personas, los vertidos tóxicos y los delitos contra
+                
+
+Estados detectan un daño mayor en el que está implicado el
                                                                     sector privado, pueden elaborar procesos y marcos jurídicos
                                                                     para promover el cumplimiento de la ley a nivel transfronterizo.
                                                                     Habiendo aceptado que determinados daños transfronterizos,
@@ -4877,27 +4952,42 @@ y Derechos                                                                      
                                                                      ampliando y mejorando sus métodos de cooperación, lo cual
                                                                      evidencia su voluntad de encontrar soluciones.
 
-
 ## 87. Sin embargo, pese a que muchas empresas han sido acu-
 
-                                                                     sadas de haber cometido violaciones clásicas de los derechos
+**Definición Canónica:** sadas de haber cometido violaciones clásicas de los derechos
                                                                      humanos y delitos internacionales, prácticamente ninguna
                                                                      ha sido investigada ni enjuiciada.
 
+sadas de haber cometido violaciones clásicas de los derechos
+                                                                     humanos y delitos internacionales, prácticamente ninguna
+                                                                     ha sido investigada ni enjuiciada.
 
 ## 88. Así pues, como principio básico, si los abusos contra los
 
-                                                                     derechos humanos relacionados con actividades empresaria-
+**Definición Canónica:** derechos humanos relacionados con actividades empresaria-
+                                                                     les constituyen delitos internacionales, esas causas tendrán
+                                                                     prioridad y deberán tratarse en pie de igualdad con otras
+                                                                     causas penales internacionales, y los Estados deberán utilizar
+                                                                     las herramientas existentes a su disposición, incluidas las
+                        
+
+derechos humanos relacionados con actividades empresaria-
                                                                      les constituyen delitos internacionales, esas causas tendrán
                                                                      prioridad y deberán tratarse en pie de igualdad con otras
                                                                      causas penales internacionales, y los Estados deberán utilizar
                                                                      las herramientas existentes a su disposición, incluidas las
                                                                      unidades dedicadas a los crímenes de guerra.
 
-
 ## 89. En la medida en que los casos de abusos contra los de-
 
-                                                                     rechos humanos relacionados con actividades empresariales
+**Definición Canónica:** rechos humanos relacionados con actividades empresariales
+                                                                     se den en combinación con los tipos de delitos o de infrac-
+                                                                     ciones reglamentarias descritos en este informe, los fiscales
+                                                                     también deberán formular cargos al respecto. Por ejemplo, si
+                                                                     una empresa que presuntamente ha cometido un delito de
+                            
+
+rechos humanos relacionados con actividades empresariales
                                                                      se den en combinación con los tipos de delitos o de infrac-
                                                                      ciones reglamentarias descritos en este informe, los fiscales
                                                                      también deberán formular cargos al respecto. Por ejemplo, si
@@ -4905,10 +4995,16 @@ y Derechos                                                                      
                                                                      derechos humanos también ha pagado un soborno, el fiscal
                                                                      podrá presentar cargos por corrupción.
 
-
 ## 90. No obstante, este planteamiento fragmentario inevita-
 
-                                                                     blemente dejará desatendidos algunos daños en el ámbito
+**Definición Canónica:** blemente dejará desatendidos algunos daños en el ámbito
+                                                                     de los derechos humanos. Los organismos encargados del
+                                                                     cumplimiento de la ley deben explorar todas las vías legales
+                                                                     posibles para afrontar los daños transfronterizos causados por
+                                                                     actores económicos, como puede ser equipararlos a delitos
+                               
+
+blemente dejará desatendidos algunos daños en el ámbito
                                                                      de los derechos humanos. Los organismos encargados del
                                                                      cumplimiento de la ley deben explorar todas las vías legales
                                                                      posibles para afrontar los daños transfronterizos causados por
@@ -4927,20 +5023,29 @@ y Derechos                                                                      
                                                                      para los derechos humanos cuando decidan los cargos que
                                                                      van a presentar contra el actor económico.
 
-
 ## 91. Por lo tanto, se insta a los Estados a colaborar en la in-
 
-                                                                     vestigación y el enjuiciamiento de todos los casos de malas
+**Definición Canónica:** vestigación y el enjuiciamiento de todos los casos de malas
+                                                                     prácticas de actores económicos que vulneren derechos
+                                                                     humanos reconocidos internacionalmente en la medida en
+
+vestigación y el enjuiciamiento de todos los casos de malas
                                                                      prácticas de actores económicos que vulneren derechos
                                                                      humanos reconocidos internacionalmente en la medida en
 
                                                                      que esas vulneraciones deriven de una conducta prohibida
                                                                      en una jurisdicción nacional.
 
-
 ## 92. A fin de investigar y enjuiciar correctamente esas conductas
 
-                                                                     indebidas, los Estados deben aplicar las herramientas y los
+**Definición Canónica:** indebidas, los Estados deben aplicar las herramientas y los
+                                                                     métodos examinados, ya sea directamente o por analogía, para
+                                                                     facilitar la cooperación. Los medios descritos en las orientacio-
+                                                                     nes del proyecto sobre rendición de cuentas y reparación que
+                                                                     se explican en el presente informe han dado buen resultado en
+              
+
+indebidas, los Estados deben aplicar las herramientas y los
                                                                      métodos examinados, ya sea directamente o por analogía, para
                                                                      facilitar la cooperación. Los medios descritos en las orientacio-
                                                                      nes del proyecto sobre rendición de cuentas y reparación que
@@ -4967,10 +5072,15 @@ y Derechos                                                                      
                                                                               y otras empresas, A/HRC/35/33, 2017. Disponible
                                                                               en línea.
 
-
 ## 2.2.3.4 Proceso para la adopción de un
 
-                                                                 tratado vinculante sobre DHyE
+**Definición Canónica:** tratado vinculante sobre DHyE
+                                                                 Para superar los problemas de coordinación y diferencias entre los
+                                                                 Estados, y para crear un marco común de regulación de los asuntos
+                                                                 de DHyE a nivel transnacional, varios Estados han impulsado la
+**Concordancias Legales:** artículo 12
+
+tratado vinculante sobre DHyE
                                                                  Para superar los problemas de coordinación y diferencias entre los
                                                                  Estados, y para crear un marco común de regulación de los asuntos
                                                                  de DHyE a nivel transnacional, varios Estados han impulsado la
@@ -5051,10 +5161,12 @@ y Derechos                                                                      
                                                                                                 asegurar la eficacia de los mecanismos judiciales nacionales
                                                                                                 cuando aborden las violaciones de derechos humanos relacionadas
 
-
 ## 100      Grupo de Trabajo sobre la Cuestión de los Derechos Humanos y las Empresas Transnacionales y otras Em-
 
-                                                               presas. UN Doc. A/72/162 (2017); párr. 81.
+**Definición Canónica:** presas. UN Doc. A/72/162 (2017); párr. 81.
+**Concordancias Legales:** artículo 2
+
+presas. UN Doc. A/72/162 (2017); párr. 81.
 
 Empresa                                                                                    3. El rol del Poder Judicial ante las afectaciones de derechos humanos   124
 y Derechos                                                                                    por parte de las empresas
@@ -5182,10 +5294,11 @@ y Derechos                                                                      
                                                                                                y efectiva capacidad de los sistemas de justicia para hacer frente
                                                                                                a estas situaciones”104 (los destacados son nuestros).
 
-
 ## 104      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos”, OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019); párr. 51.
+**Definición Canónica:** DESCA/INF.1/19 (2019); párr. 51.
+
+DESCA/INF.1/19 (2019); párr. 51.
 
 Empresa                                                                                    3. El rol del Poder Judicial ante las afectaciones de derechos humanos   127
 y Derechos                                                                                    por parte de las empresas
@@ -5225,10 +5338,13 @@ y Derechos                                                                      
                                                       y la reparación                        humanos como una herramienta de nivelación de dicha asimetría en
                                                       a las víctimas.                        base a los principios de la igualdad y no discriminación.
 
-
 ## 105      Ver, en este sentido, REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/
 
-                                                               Ser.L/V/II CIDH/REDESCA/INF.1/19 (2019), párrs. 124 y ss.
+**Definición Canónica:** Ser.L/V/II CIDH/REDESCA/INF.1/19 (2019), párrs. 124 y ss.
+                                                      106      Ver en este sentido, por ejemplo, Centro de Información sobre Empresas y Derechos Humanos: “La impunidad
+                                                               corporativa es lo común, mientras la indemnización a las víctimas es inusual”. Disponible en línea.
+
+Ser.L/V/II CIDH/REDESCA/INF.1/19 (2019), párrs. 124 y ss.
                                                       106      Ver en este sentido, por ejemplo, Centro de Información sobre Empresas y Derechos Humanos: “La impunidad
                                                                corporativa es lo común, mientras la indemnización a las víctimas es inusual”. Disponible en línea.
 
@@ -5324,10 +5440,12 @@ y Derechos                                                                      
 Empresa                                                                       3. El rol del Poder Judicial ante las afectaciones de derechos humanos   131
 y Derechos                                                                       por parte de las empresas
 
-
 ## 3.1           El Poder Judicial ante el derecho
 
-                                                                                internacional de los derechos humanos
+**Definición Canónica:** internacional de los derechos humanos
+**Concordancias Legales:** artículo 5; Constitución Política; Constitucion; Constitución
+
+internacional de los derechos humanos
 
                                                       Esta sección              Para comprender de manera cabal qué significa que una controversia
                                                                                 judicial corresponda al ámbito de DHyE y las consecuencias que ello
@@ -5552,10 +5670,13 @@ y Derechos                                                        por parte de l
                                                                              en Argentina, Bolivia y Chile (“Triángulo del Litio”).
                                                                              Informe disponible en línea.
 
-
 ## 3.1.2 Consideraciones sobre acceso a la justicia
 
-                                                                 en casos de Derechos Humanos y Empresa
+**Definición Canónica:** en casos de Derechos Humanos y Empresa
+                                                                 El corazón de la labor judicial es proveer acceso a la justicia siempre
+                                                                 que un derecho humano haya sido vulnerado. Esto abarca violaciones
+
+en casos de Derechos Humanos y Empresa
                                                                  El corazón de la labor judicial es proveer acceso a la justicia siempre
                                                                  que un derecho humano haya sido vulnerado. Esto abarca violaciones
 
@@ -5563,10 +5684,13 @@ y Derechos                                                        por parte de l
                                                                  ción o garantía de los derechos humanos, pero también violaciones
                                                                  por parte de actores privados.
 
-
 ## 3.1.2.1 Tipos de remedios
 
-                                                                 Como ya se expuso, el derecho a la reparación efectiva es un principio
+**Definición Canónica:** Como ya se expuso, el derecho a la reparación efectiva es un principio
+                                                                 fundamental del derecho internacional de los derechos humanos. En
+                                                                 este sentido, el Comentario al Principio Rector 25 señala:
+
+Como ya se expuso, el derecho a la reparación efectiva es un principio
                                                                  fundamental del derecho internacional de los derechos humanos. En
                                                                  este sentido, el Comentario al Principio Rector 25 señala:
 
@@ -5599,11 +5723,15 @@ y Derechos                                                                      
                                                                                                  empresariales ofrecen la posibilidad de una reparación
                                                                                                  efectiva para el daño y/o perjuicio correspondiente.
 
-
 ## 11.1 Los órganos judiciales tienen autoridad y capacidad, en la
 
+**Definición Canónica:** legislación y en la práctica, para imponer una gama de penas
+                                                                                                 una vez que se determina la responsabilidad jurídica de la
+                                                                                                 empresa en casos de violaciones de los derechos humanos
+                                                                                                 relacionadas con actividades empresariales, incluidas sanciones
+                                                                     
 
-                                                                                                 legislación y en la práctica, para imponer una gama de penas
+legislación y en la práctica, para imponer una gama de penas
                                                                                                  una vez que se determina la responsabilidad jurídica de la
                                                                                                  empresa en casos de violaciones de los derechos humanos
                                                                                                  relacionadas con actividades empresariales, incluidas sanciones
@@ -5615,10 +5743,15 @@ y Derechos                                                                      
                                                                                                  explotación, programas de cumplimiento obligatorio, educa-
                                                                                                  ción y formación).
 
-
 ## 11.2 En cada caso, las sanciones impuestas a las empresas: a)
 
-                                                                                                 son proporcionales a la gravedad de la violación y del daño
+**Definición Canónica:** son proporcionales a la gravedad de la violación y del daño
+                                                                                                 ocasionado; b) reflejan el grado de culpabilidad de la empresa
+                                                                                                 correspondiente (para lo que se tendrá en cuenta, por ejemplo,
+                                                                                                 si la empresa ejercía de forma apropiada la diligencia debida
+                                                             
+
+son proporcionales a la gravedad de la violación y del daño
                                                                                                  ocasionado; b) reflejan el grado de culpabilidad de la empresa
                                                                                                  correspondiente (para lo que se tendrá en cuenta, por ejemplo,
                                                                                                  si la empresa ejercía de forma apropiada la diligencia debida
@@ -5641,10 +5774,13 @@ y Derechos                                                        por parte de l
                                                                      necesidades particulares de las personas o grupos expuestos
                                                                      a un mayor riesgo de vulnerabilidad o marginación.
 
-
 ## 11.3 En la medida de lo posible, se consulta debidamente a
 
-                                                                     las víctimas: a) sobre el diseño y la aplicación de las sanciones
+**Definición Canónica:** las víctimas: a) sobre el diseño y la aplicación de las sanciones
+                                                                     y otros medios de reparación; b) sobre cualquier decisión de
+                                                                     firmar un acuerdo de aplazamiento del enjuiciamiento y las
+
+las víctimas: a) sobre el diseño y la aplicación de las sanciones
                                                                      y otros medios de reparación; b) sobre cualquier decisión de
                                                                      firmar un acuerdo de aplazamiento del enjuiciamiento y las
 
@@ -5654,20 +5790,30 @@ y Derechos                                                        por parte de l
                                                                      res de las personas o grupos expuestos a un mayor riesgo de
                                                                      vulnerabilidad o marginación.
 
-
 ## 11.4 Los organismos estatales y/o los órganos judiciales su-
 
-                                                                     pervisan la aplicación de las sanciones y otras formas de repa-
+**Definición Canónica:** pervisan la aplicación de las sanciones y otras formas de repa-
+                                                                     ración y velan por que exista un mecanismo eficaz mediante
+                                                                     el cual las personas interesadas puedan denunciar, presentar
+                                                                     una reclamación o solicitar medidas correctivas, en caso de
+                                                                     que no se apliquen dichas sanciones u otros mecanismos
+                         
+
+pervisan la aplicación de las sanciones y otras formas de repa-
                                                                      ración y velan por que exista un mecanismo eficaz mediante
                                                                      el cual las personas interesadas puedan denunciar, presentar
                                                                      una reclamación o solicitar medidas correctivas, en caso de
                                                                      que no se apliquen dichas sanciones u otros mecanismos
                                                                      de reparación.
 
-
 ## 11.5 El ordenamiento jurídico interno no permite deduc-
 
-                                                                     ciones tributarias por sumas pagadas como indemnizaciones
+**Definición Canónica:** ciones tributarias por sumas pagadas como indemnizaciones
+                                                                     monetarias tras determinarse la responsabilidad jurídica de
+                                                                     la empresa en casos derivados de violaciones de los derechos
+                                                                     humanos relacionadas con actividades empresariales”.
+
+ciones tributarias por sumas pagadas como indemnizaciones
                                                                      monetarias tras determinarse la responsabilidad jurídica de
                                                                      la empresa en casos derivados de violaciones de los derechos
                                                                      humanos relacionadas con actividades empresariales”.
@@ -5696,10 +5842,15 @@ y Derechos                                                                      
                                                                                                 públicas) y garantías de no repetición (por ejemplo, programas
                                                                                                 de cumplimiento obligatorio, educación y formación).
 
-
 ## 19.2 En cada caso, las medidas de resarcimiento con arreglo
 
-                                                                                                al derecho privado que se conceden a los demandantes: a)
+**Definición Canónica:** al derecho privado que se conceden a los demandantes: a)
+                                                                                                son proporcionales y adecuadas a la gravedad de la violación
+                                                                                                y el alcance y la naturaleza de la pérdida o daño sufridos; b)
+                                                                                                pueden, en la medida en que lo permita el ordenamiento
+                                                                            
+
+al derecho privado que se conceden a los demandantes: a)
                                                                                                 son proporcionales y adecuadas a la gravedad de la violación
                                                                                                 y el alcance y la naturaleza de la pérdida o daño sufridos; b)
                                                                                                 pueden, en la medida en que lo permita el ordenamiento
@@ -5722,37 +5873,58 @@ y Derechos                                                        por parte de l
                                                                      género y las necesidades de las personas o grupos expuestos
                                                                      a un mayor riesgo de vulnerabilidad o marginación..
 
-
 ## 19.3 Se consulta a los demandantes sobre el diseño y la apli-
 
-                                                                     cación de las medidas de reparación con arreglo al derecho
+**Definición Canónica:** cación de las medidas de reparación con arreglo al derecho
                                                                      privado y sobre los términos de cualquier arreglo pactado. En
                                                                      dicha consulta se tienen en cuenta las cuestiones de género
                                                                      y las necesidades de las personas o grupos expuestos a un
                                                                      mayor riesgo de vulnerabilidad o marginación.
 
+cación de las medidas de reparación con arreglo al derecho
+                                                                     privado y sobre los términos de cualquier arreglo pactado. En
+                                                                     dicha consulta se tienen en cuenta las cuestiones de género
+                                                                     y las necesidades de las personas o grupos expuestos a un
+                                                                     mayor riesgo de vulnerabilidad o marginación.
 
 ## 19.4 Los órganos judiciales y/o los organismos pertinentes
 
-                                                                     del Estado supervisan de forma adecuada la aplicación por la
+**Definición Canónica:** del Estado supervisan de forma adecuada la aplicación por la
+                                                                     empresa de las medidas de reparación con arreglo al derecho
+                                                                     privado y velan porque exista un mecanismo eficaz por el que
+                                                                     las personas interesadas puedan denunciar, presentar una
+                                                                     reclamación y/o solicitar medidas correctivas en caso de que
+                        
+
+del Estado supervisan de forma adecuada la aplicación por la
                                                                      empresa de las medidas de reparación con arreglo al derecho
                                                                      privado y velan porque exista un mecanismo eficaz por el que
                                                                      las personas interesadas puedan denunciar, presentar una
                                                                      reclamación y/o solicitar medidas correctivas en caso de que
                                                                      no se hagan efectivas dichas medidas de reparación.
 
-
 ## 19.5 El ordenamiento jurídico interno no permite deduc-
 
-                                                                     ciones tributarias por sumas pagadas como indemnizaciones
+**Definición Canónica:** ciones tributarias por sumas pagadas como indemnizaciones
                                                                      monetarias tras determinarse la responsabilidad jurídica de
                                                                      la empresa en casos derivados de violaciones de los derechos
                                                                      humanos relacionadas con actividades empresariales.
 
+ciones tributarias por sumas pagadas como indemnizaciones
+                                                                     monetarias tras determinarse la responsabilidad jurídica de
+                                                                     la empresa en casos derivados de violaciones de los derechos
+                                                                     humanos relacionadas con actividades empresariales.
 
 ## 19.6 El ordenamiento jurídico interno garantiza, mediante
 
-                                                                     una reglamentación, unas orientaciones y unas normas pro-
+**Definición Canónica:** una reglamentación, unas orientaciones y unas normas pro-
+                                                                     fesionales apropiadas, que las indemnizaciones monetarias se
+                                                                     distribuyan entre los miembros de los grupos de demandantes
+                                                                     afectados de un modo justo, transparente y no discriminatorio,
+                                                                     teniendo presentes las cuestiones de género y las necesida-
+                      
+
+una reglamentación, unas orientaciones y unas normas pro-
                                                                      fesionales apropiadas, que las indemnizaciones monetarias se
                                                                      distribuyan entre los miembros de los grupos de demandantes
                                                                      afectados de un modo justo, transparente y no discriminatorio,
@@ -5763,10 +5935,14 @@ y Derechos                                                        por parte de l
 Empresa                                                        3. El rol del Poder Judicial ante las afectaciones de derechos humanos   141
 y Derechos                                                        por parte de las empresas
 
-
 ## 3.1.2.2 Barreras de acceso a la justicia
 
-                                                                 Por último, antes de entrar a la siguiente sección de este capítulo,
+**Definición Canónica:** Por último, antes de entrar a la siguiente sección de este capítulo,
+                                                                 es importante tener en cuenta dos consideraciones sobre barreras
+                                                                 de acceso a la justicia que no serán aquí revisadas en profundidad,
+                                                                 debido a no ser atingentes al propósito de este documento.
+
+Por último, antes de entrar a la siguiente sección de este capítulo,
                                                                  es importante tener en cuenta dos consideraciones sobre barreras
                                                                  de acceso a la justicia que no serán aquí revisadas en profundidad,
                                                                  debido a no ser atingentes al propósito de este documento.
@@ -5872,10 +6048,12 @@ y Derechos                                                                      
                                                                                                         Público. De acuerdo a las normas y prácticas que rigen en el
                                                                                                         siglo XXI. Editorial Jurídica de Chile (2007); pp. 209-223.
 
-
 ## 119      Preguntas elaboradas en base a manual OHCHR en cooperación con IBA. Human Rights in the Administra-
 
-                                                               tion of Justice. A Facilitator’s Guide on Human Rights for Judges, Prosecutors and Lawyers. United Nations
+**Definición Canónica:** tion of Justice. A Facilitator’s Guide on Human Rights for Judges, Prosecutors and Lawyers. United Nations
+                                                               (2011); p. 4.
+
+tion of Justice. A Facilitator’s Guide on Human Rights for Judges, Prosecutors and Lawyers. United Nations
                                                                (2011); p. 4.
 
 Empresa                                                        3. El rol del Poder Judicial ante las afectaciones de derechos humanos   144
@@ -5908,16 +6086,16 @@ y Derechos                                                        por parte de l
 Empresa                                                              3. El rol del Poder Judicial ante las afectaciones de derechos humanos   145
 y Derechos                                                              por parte de las empresas
 
-
-## 3.2     La protección de los derechos humanos en
-
-                                                                       el contexto de operaciones empresariales
-                                                                       por el sistema de justicia chileno
-
-
 ## 3.2.1 Contextualización preliminar
 
-                                                                       Habiendo dado cuenta, en la sección previa de este capítulo, de la
+**Definición Canónica:** Habiendo dado cuenta, en la sección previa de este capítulo, de la
+                                                                       relevancia de los estándares de derechos humanos en la impartición
+                                                                       de justicia, y de los mecanismos existentes para integrar dichos es-
+                                                                       tándares en el derecho interno, a partir de ahora se pasa revista al
+                                                                       rol del Poder Judicial en Chile en materia d
+**Concordancias Legales:** Constitución Política; constitucion
+
+Habiendo dado cuenta, en la sección previa de este capítulo, de la
                                                                        relevancia de los estándares de derechos humanos en la impartición
                                                                        de justicia, y de los mecanismos existentes para integrar dichos es-
                                                                        tándares en el derecho interno, a partir de ahora se pasa revista al
@@ -5969,7 +6147,14 @@ y Derechos                                                                      
 
 ## Capítulo III de la Constitución, se infiere que lo que el
 
-                                                                                                         constituyente se esmeró en resguardar fueron, más bien,
+**Definición Canónica:** constituyente se esmeró en resguardar fueron, más bien,
+                                                                                                         las prerrogativas y derechos de los privados, entre ellos,
+                                                                                                         las empresas, antes que los deberes de éstas en materia
+                                                                                                         de derechos humanos. Por tanto, nuestra Constitución
+                                                             
+**Concordancias Legales:** Constitución; Constitución Política
+
+constituyente se esmeró en resguardar fueron, más bien,
                                                                                                          las prerrogativas y derechos de los privados, entre ellos,
                                                                                                          las empresas, antes que los deberes de éstas en materia
                                                                                                          de derechos humanos. Por tanto, nuestra Constitución
@@ -6040,7 +6225,13 @@ y Derechos                                                                      
 
 ## capítulo, el Estado está obligado a investigar y sancionar a quien re-
 
-                                                                                            sulte responsable de la vulneración, en virtud del principio de debida
+**Definición Canónica:** sulte responsable de la vulneración, en virtud del principio de debida
+                                                                                            diligencia al cual se encuentra sometido. La inacción del Estado en
+                                                                                            general y del sistema de justicia en particular ante controversias de este
+                                                                                            tipo, puede ser revisada por los mecanismos de protección de derechos
+                                        
+
+sulte responsable de la vulneración, en virtud del principio de debida
                                                                                             diligencia al cual se encuentra sometido. La inacción del Estado en
                                                                                             general y del sistema de justicia en particular ante controversias de este
                                                                                             tipo, puede ser revisada por los mecanismos de protección de derechos
@@ -6064,15 +6255,13 @@ y Derechos                                                                      
                                                                                             derado independientemente de las contribuciones positivas que la
                                                                                             misma empresa pueda realizar.
 
-
-## 3.2.2 Mecanismos del derecho interno de
-
-                                                                                            rendición de cuentas y reparación en casos
-                                                                                            de Derechos Humanos y Empresas
-
 ## 3.2.2.1 El ius puniendi estatal
 
-                                                                                            La potestad represiva del Estado, tanto en su variante jurídico-admi-
+**Definición Canónica:** La potestad represiva del Estado, tanto en su variante jurídico-admi-
+                                                                                            nistrativa como jurídico-penal, constituye un área crucial del derecho
+                                                                                            cuando hablamos de reparación en casos de DHyE. Ello, pues el bien
+
+La potestad represiva del Estado, tanto en su variante jurídico-admi-
                                                                                             nistrativa como jurídico-penal, constituye un área crucial del derecho
                                                                                             cuando hablamos de reparación en casos de DHyE. Ello, pues el bien
 
@@ -6129,48 +6318,19 @@ y Derechos                                                                      
                                                                                                    “1. Combatir la impunidad de los delitos corporativos inves-
                                                                                                    tigando y persiguiendo las ofensas
 
-
-## 2. Combatir la impunidad de los delitos corporativos trans-
-
-                                                                                                   fronterizos declarando competencia
-
-
-## 3. Garantizar la rendición de cuentas y la transparencia en los
-
-                                                                                                   procesos judiciales en que se persigan delitos corporativos
-
-
-## 4. Identificar los estándares legales y asegurar la evidencia
-
-                                                                                                   necesaria para establecer la responsabilidad por delitos cor-
-                                                                                                   porativos en su jurisdicción
-
-
-## 5. Colaborar ampliamente para garantizar la rendición de
-
-                                                                                                   cuentas por delitos corporativos, particularmente en casos
-                                                                                                   trans-fronterizos.
-
-
-## 6. Perseguir cargos que reflejen la gravedad de los delitos
-
-                                                                                                   corporativos cometidos.
-
-
-## 7. Investigar y enjuiciar a los actores corporativos que tengan
-
-                                                                                                   la mayor responsabilidad en relación a los delitos cometidos
-
-
 ## 8. Utilizar todas las herramientas legales disponibles para
 
-                                                                                                   recopilar evidencia, construir casos y obtener la cooperación
+**Definición Canónica:** recopilar evidencia, construir casos y obtener la cooperación
                                                                                                    de testigos críticos en casos de delitos corporativos
 
+recopilar evidencia, construir casos y obtener la cooperación
+                                                                                                   de testigos críticos en casos de delitos corporativos
 
 ## 9. Garantizar que las víctimas de delitos corporativos puedan
 
-                                                                                                   obtener reparación efectiva
+**Definición Canónica:** obtener reparación efectiva
+
+obtener reparación efectiva
 
                                                                por representar una diversidad de jurisdicciones legales. La Comisión está copresidida por el juez Ian Binnie,
                                                                exjuez de la Corte Suprema de Canadá, y la profesora Anita Ramasastry, experta en lucha contra la corrup-
@@ -6179,10 +6339,13 @@ y Derechos                                                                      
 Empresa                                                        3. El rol del Poder Judicial ante las afectaciones de derechos humanos       151
 y Derechos                                                        por parte de las empresas
 
-
 ## 10. Implementar medidas e incentivos apropiados para pro-
 
-                                                                     teger a las víctimas, informantes, denunciantes, testigos y
+**Definición Canónica:** teger a las víctimas, informantes, denunciantes, testigos y
+                                                                     expertos en casos de delitos corporativos”.
+**Concordancias Legales:** artículo 44; Artículo 8; Ley Nº 20.920; Ley Nº 20.393
+
+teger a las víctimas, informantes, denunciantes, testigos y
                                                                      expertos en casos de delitos corporativos”.
 
                                                                  A continuación se exponen algunas particularidades de relevancia, dis-
@@ -6514,10 +6677,13 @@ y Derechos                                                                      
                                                                                                   de Peine interpuso recurso de reclamación administrativa en
                                                                                                   contra de la Dirección General de Aguas, que autorizó a la
 
-
 ## 132      Traducción libre de ECCHR: “No investigations against Danzer manager over human rights abuses against
 
-                                                               community in DRC” (original disponible en línea). Véase también “German court investigates raid on Congolese
+**Definición Canónica:** community in DRC” (original disponible en línea). Véase también “German court investigates raid on Congolese
+                                                               village” (disponible en línea).
+**Concordancias Legales:** artículo 27 de la Convención de Viena sobre el
+
+community in DRC” (original disponible en línea). Véase también “German court investigates raid on Congolese
                                                                village” (disponible en línea).
 
 Empresa                                                                                    3. El rol del Poder Judicial ante las afectaciones de derechos humanos     159
@@ -6534,10 +6700,13 @@ y Derechos                                                                      
                                                                                                  derecho interno para desconocer lo establecido por tratados
                                                                                                  internacionales.133
 
-
 ## 3.2.2.2 Justicia civil
 
-                                                                                             La facultad del Poder Judicial de conocer de las causas civiles cons-
+**Definición Canónica:** La facultad del Poder Judicial de conocer de las causas civiles cons-
+                                                                                             tituye una instancia de relevancia para las víctimas de abusos de
+                                                                                             derechos humanos relacionados a la acción de empresas.
+
+La facultad del Poder Judicial de conocer de las causas civiles cons-
                                                                                              tituye una instancia de relevancia para las víctimas de abusos de
                                                                                              derechos humanos relacionados a la acción de empresas.
 
@@ -6559,10 +6728,12 @@ y Derechos                                                                      
                                                                                              y opera de manera ex post, lo que quiere decir que cuando se ejerce,
                                                                                              la vulneración a derechos humanos ya existió.
 
-
 ## 133      Causa rol Nº 5/2020 (reclamación administrativa) de la Corte de Apelaciones de Antofagasta, de 30 de
 
-                                                               octubre de 2020.
+**Definición Canónica:** octubre de 2020.
+**Concordancias Legales:** artículos 2320
+
+octubre de 2020.
 
 Empresa                                                                                     3. El rol del Poder Judicial ante las afectaciones de derechos humanos       160
 y Derechos                                                                                     por parte de las empresas
@@ -6771,10 +6942,11 @@ y Derechos                                                                      
                                                                                                 En tal sentido, hay que distinguir entre las complejidades que se
                                                                                                 presentan al interior de un mismo territorio jurisdiccional y las
 
-
 ## 139      ACNUDH, Response to Request from the Chair of the OECD Working Party on Responsible Business Con-
 
-                                                               duct, RRDD/DESIB/CM/ff, 27 de noviembre de 2013; sección 1.
+**Definición Canónica:** duct, RRDD/DESIB/CM/ff, 27 de noviembre de 2013; sección 1.
+
+duct, RRDD/DESIB/CM/ff, 27 de noviembre de 2013; sección 1.
 
 Empresa                                                                                   3. El rol del Poder Judicial ante las afectaciones de derechos humanos   165
 y Derechos                                                                                   por parte de las empresas
@@ -6813,18 +6985,12 @@ y Derechos                                                                      
                                                                                                 Conviene recordar aquí que a nivel doméstico, además de las
                                                                                                 demandas colectivas o de interés difuso revisadas en el caso de la
 
-
-## 140      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
-
-                                                               DESCA/INF.1/19 (2019); pp. 72-73.
-
-## 141      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
-
-                                                               DESCA/INF.1/19 (2019); párr. 133.
-
 ## 142      Ver Consejo de Europa: “Recommendation CM/Rec(2016)3 of the Committee of Ministers to member States
 
-                                                               on human rights and business” (2016). Disponible en línea.
+**Definición Canónica:** on human rights and business” (2016). Disponible en línea.
+**Concordancias Legales:** artículo 18
+
+on human rights and business” (2016). Disponible en línea.
 
 Empresa                                                                                       3. El rol del Poder Judicial ante las afectaciones de derechos humanos          166
 y Derechos                                                                                       por parte de las empresas
@@ -6867,7 +7033,10 @@ y Derechos                                                                      
 
 ## 144      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019); p. 74.
+**Definición Canónica:** DESCA/INF.1/19 (2019); p. 74.
+**Concordancias Legales:** artículo 42; artículo 549 del Código de Procedimiento Civil también; artículo 2333 del Código; artículo 2333 del Código Civil chileno; Ley Nº 20.609
+
+DESCA/INF.1/19 (2019); p. 74.
 
 Empresa                                                                                    3. El rol del Poder Judicial ante las afectaciones de derechos humanos     167
 y Derechos                                                                                    por parte de las empresas
@@ -7111,10 +7280,12 @@ y Derechos                                                                      
                                                                                                   de no discriminación arbitraria, la Excma. Corte Suprema
                                                                                                   estimó que la empresa incurrió en un acto de discriminación
 
-
 ## 153      Exposición de hechos del fallo de primera instancia del 29º Juzgado Civil de Santiago, causa rol Nº
 
-                                                               C-20679-2016, de 13 de marzo de 2016.
+**Definición Canónica:** C-20679-2016, de 13 de marzo de 2016.
+**Concordancias Legales:** artículo 6.2; Constitución Política; constitucion; Constitución
+
+C-20679-2016, de 13 de marzo de 2016.
 
 Empresa                                                                                      3. El rol del Poder Judicial ante las afectaciones de derechos humanos       173
 y Derechos                                                                                      por parte de las empresas
@@ -7256,7 +7427,9 @@ y Derechos                                                                      
 
 ## sumario, pero nada impide que el proceso ordinario permita
 
-                                                                                                  dar adecuada tutela a dichos derechos. Lo esencial en este
+**Definición Canónica:** dar adecuada tutela a dichos derechos. Lo esencial en este
+
+dar adecuada tutela a dichos derechos. Lo esencial en este
 
                                                                                                   último caso será permitir que se dicten dentro de esa vía
                                                                                                   ordinaria las medidas cautelares que aseguren la efectividad
@@ -7357,8 +7530,13 @@ y Derechos                                                                      
 
 ## Parte de los Tribunales Ambientales: ¿Avance y/o Retroceso?
 
+**Definición Canónica:** 163      Schönsteiner, J. et al.. “Estudio de Línea Base sobre Empresas y Derechos Humanos en Chile” (2016) p. 30.
+                                                      164      Ver para una revisión Victoria Mahu, “Derecho a la Salud y Contaminación del Aire: Regulación en Chile y Es-
+                                                               tándares Internacionales”, Tesis de Seminario (Pregrado), supervisada por Judith Schönsteiner, enero de 2016.
+                                                      165      Entre otros, Cristóbal Gonzalo Carmona Caldera (2017): “The road less travell
+**Concordancias Legales:** artículos 201; artículo 174; artículo 5; Constitución Política; constitucion
 
-                                                      163      Schönsteiner, J. et al.. “Estudio de Línea Base sobre Empresas y Derechos Humanos en Chile” (2016) p. 30.
+163      Schönsteiner, J. et al.. “Estudio de Línea Base sobre Empresas y Derechos Humanos en Chile” (2016) p. 30.
                                                       164      Ver para una revisión Victoria Mahu, “Derecho a la Salud y Contaminación del Aire: Regulación en Chile y Es-
                                                                tándares Internacionales”, Tesis de Seminario (Pregrado), supervisada por Judith Schönsteiner, enero de 2016.
                                                       165      Entre otros, Cristóbal Gonzalo Carmona Caldera (2017): “The road less travelled: the duty to consult and
@@ -7597,10 +7775,11 @@ y Derechos                                                        por parte de l
 Empresa                                                                                    3. El rol del Poder Judicial ante las afectaciones de derechos humanos   185
 y Derechos                                                                                    por parte de las empresas
 
-
 ## 3.3              Mecanismos alternativos de solución
 
-                                                                                             de conflictos en materia de DHyE
+**Definición Canónica:** de conflictos en materia de DHyE
+
+de conflictos en materia de DHyE
 
                                                                                              La función del Poder Judicial en materia de rendición de cuentas y
                                                                                              remedios para las víctimas, en casos de abusos de derechos humanos
@@ -7637,7 +7816,9 @@ y Derechos                                                                      
 
 ## 172      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos”, OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019); párr. 143.
+**Definición Canónica:** DESCA/INF.1/19 (2019); párr. 143.
+
+DESCA/INF.1/19 (2019); párr. 143.
 
 Empresa                                                        3. El rol del Poder Judicial ante las afectaciones de derechos humanos   186
 y Derechos                                                        por parte de las empresas
@@ -7705,10 +7886,16 @@ y Derechos                                                        por parte de l
                                                                  han acudido o que tienen la intención de acudir a alguno de estos
                                                                  por diversos motivos que se expondrán.
 
-
 ## 3.3.1 Mecanismos extrajudiciales de
 
-                                                                 reclamación establecidos en Chile
+**Definición Canónica:** reclamación establecidos en Chile
+                                                                 La categoría que a continuación se expone incluye los mecanis-
+                                                                 mos establecidos al interior de diferentes órganos autónomos o
+                                                                 independientes que forman parte de la administración del Estado
+                                                                 (e.g., Comisión para el Mercado Financiero, Dirección del Trabajo,
+                                                 
+
+reclamación establecidos en Chile
                                                                  La categoría que a continuación se expone incluye los mecanis-
                                                                  mos establecidos al interior de diferentes órganos autónomos o
                                                                  independientes que forman parte de la administración del Estado
@@ -7749,10 +7936,13 @@ y Derechos                                                                      
                                                                                               mos creados específicamente para cuestiones sobre DHyE, según se
                                                                                               expone a continuación.
 
-
 ## 3.3.1.1 Punto Nacional de Contacto de la Organización
 
-                                                                                              para la Cooperación y Desarrollo Económico
+**Definición Canónica:** para la Cooperación y Desarrollo Económico
+                                                                                              Las Líneas Directrices de la OCDE para Empresas Multinacionales,
+                                                                                              de acuerdo con su Prólogo:
+
+para la Cooperación y Desarrollo Económico
                                                                                               Las Líneas Directrices de la OCDE para Empresas Multinacionales,
                                                                                               de acuerdo con su Prólogo:
 
@@ -7819,16 +8009,12 @@ y Derechos                                                        por parte de l
 
                                                                      Al proporcionar esta asistencia, el PNC:
 
-
-## 1. Realizará una evaluación inicial para determinar si las
-
-                                                                     cuestiones planteadas merecen un examen más detallado y
-                                                                     dará una respuesta a las partes involucradas.
-
-
 ## 2. En los casos en los que las cuestiones planteadas merezcan
 
-                                                                     un análisis más detallado, ofrecerá sus buenos oficios para que
+**Definición Canónica:** un análisis más detallado, ofrecerá sus buenos oficios para que
+                                                                     las partes involucradas puedan resolver la cuestión.
+
+un análisis más detallado, ofrecerá sus buenos oficios para que
                                                                      las partes involucradas puedan resolver la cuestión.
 
                                                                      Para ello, el PNC consultará con dichas partes y, cuando
@@ -7854,10 +8040,15 @@ y Derechos                                                        por parte de l
                                                                           sos, tales como la conciliación o la mediación, para asistir
                                                                           a las partes en la resolución de las cuestiones planteadas.
 
-
 ## 3. Una vez concluidos los procedimientos y después de
 
-                                                                     realizar las consultas con las partes involucradas, publicará
+**Definición Canónica:** realizar las consultas con las partes involucradas, publicará
+                                                                     los resultados de los procedimientos, teniendo en cuenta la
+                                                                     necesidad de proteger la información sensible, ya se trate de
+                                                                     información comercial o de otra información de las partes
+                                                                     interesadas, mediante la publicación de:
+
+realizar las consultas con las partes involucradas, publicará
                                                                      los resultados de los procedimientos, teniendo en cuenta la
                                                                      necesidad de proteger la información sensible, ya se trate de
                                                                      información comercial o de otra información de las partes
@@ -7896,10 +8087,15 @@ y Derechos                                                                      
                                                                                         los resultados de los procedimientos específicos que haya
                                                                                         puesto en marcha.
 
-
 ## 4. Con el objeto de facilitar la resolución de las cuestiones
 
-                                                                                   que hubieran surgido, el PNC adoptará las medidas que re-
+**Definición Canónica:** que hubieran surgido, el PNC adoptará las medidas que re-
+                                                                                   sulten apropiadas para proteger toda información sensible,
+                                                                                   comercial o de otro tipo, así como los intereses de demás
+                                                                                   partes involucradas en la instancia específica. Mientras los
+                                                                                   procedimientos establecidos en e
+
+que hubieran surgido, el PNC adoptará las medidas que re-
                                                                                    sulten apropiadas para proteger toda información sensible,
                                                                                    comercial o de otro tipo, así como los intereses de demás
                                                                                    partes involucradas en la instancia específica. Mientras los
@@ -7986,10 +8182,14 @@ y Derechos                                                                      
                                                                                              ordenamiento jurídico doméstico, y las partes pueden hacer solici-
                                                                                              tudes a este respecto en cualquier momento.178
 
-
 ## 3.3.1.2 Instituto Nacional de Derechos Humanos
 
-                                                                                             De conformidad con el artículo 3º número 10 de la Ley Nº 20.405,
+**Definición Canónica:** De conformidad con el artículo 3º número 10 de la Ley Nº 20.405,
+                                                                                             que lo crea, le corresponde al Instituto Nacional de Derechos Hu-
+                                                                                             manos (INDH):
+**Concordancias Legales:** artículo 3; artículo 20; Ley Nº 20.405
+
+De conformidad con el artículo 3º número 10 de la Ley Nº 20.405,
                                                                                              que lo crea, le corresponde al Instituto Nacional de Derechos Hu-
                                                                                              manos (INDH):
 
@@ -8069,10 +8269,13 @@ y Derechos                                                                      
                                                                                                 En este sentido, ver por ejemplo lo realizado en el marco de la
                                                                                                 situación de Petorca.185
 
-
 ## 3.3.2 Mecanismos de reclamación no
 
-                                                                                              estatales reconocidos en Chile
+**Definición Canónica:** estatales reconocidos en Chile
+                                                                                              Este tipo de mecanismos de acceso a remedios son de gran impor-
+                                                                                              tancia, pues tal como señala el Comentario del Principio Rector 28,
+
+estatales reconocidos en Chile
                                                                                               Este tipo de mecanismos de acceso a remedios son de gran impor-
                                                                                               tancia, pues tal como señala el Comentario del Principio Rector 28,
 
@@ -8145,14 +8348,11 @@ y Derechos                                                                      
                                                                                                 nivel operacional. Por lo general estos mecanismos los admi-
                                                                                                 nistran las propias empresas, ya sea por sí solas o también es
 
-
-## 186      REDESCA y CIDH. “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
-
-                                                               DESCA/INF.1/19 (2019), párr. 146.
-
 ## 187      Véase REDESCA y CIDH. “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/
 
-                                                               REDESCA/INF.1/19 (2019).
+**Definición Canónica:** REDESCA/INF.1/19 (2019).
+
+REDESCA/INF.1/19 (2019).
 
 Empresa                                                        3. El rol del Poder Judicial ante las afectaciones de derechos humanos   198
 y Derechos                                                        por parte de las empresas
@@ -8173,7 +8373,14 @@ y Derechos                                                        por parte de l
 
 ## parte de la obligación de una empresa de proceder con
 
-                                                                            la debida diligencia en materia de derechos humanos.
+**Definición Canónica:** la debida diligencia en materia de derechos humanos.
+                                                                            Concretamente, ofrecen un cauce para que las personas
+                                                                            directamente afectadas por las operaciones de la em-
+                                                                            presa expresen su preocupación cuando consideren que
+                                                                            están sufriendo o van a sufrir consecuencias negativas.
+                           
+
+la debida diligencia en materia de derechos humanos.
                                                                             Concretamente, ofrecen un cauce para que las personas
                                                                             directamente afectadas por las operaciones de la em-
                                                                             presa expresen su preocupación cuando consideren que
@@ -8232,10 +8439,12 @@ y Derechos                                                                      
                                                                                                pacten poblaciones indígenas, dichos mecanismos extrajudiciales
                                                                                                deberán priorizar su construcción de manera participativa y en
 
-
 ## 188      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019), párrs. 144 y 145.
+**Definición Canónica:** DESCA/INF.1/19 (2019), párrs. 144 y 145.
+**Concordancias Legales:** constitución
+
+DESCA/INF.1/19 (2019), párrs. 144 y 145.
 
 Empresa                                                                                  3. El rol del Poder Judicial ante las afectaciones de derechos humanos   200
 y Derechos                                                                                  por parte de las empresas
@@ -8274,10 +8483,11 @@ y Derechos                                                                      
                                                                                                representativos y determinar si las decisiones se han tomado
                                                                                                de acuerdo con los valores y las políticas de Facebook.
 
-
 ## 189      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019), párr. 144.
+**Definición Canónica:** DESCA/INF.1/19 (2019), párr. 144.
+
+DESCA/INF.1/19 (2019), párr. 144.
 
 Empresa                                                                                      3. El rol del Poder Judicial ante las afectaciones de derechos humanos   201
 y Derechos                                                                                      por parte de las empresas
@@ -8323,10 +8533,14 @@ y Derechos                                                                      
                                                                                                acuerdos a través de una revisión judicial, aduciéndose ciertos vicios
                                                                                                del consentimiento.191
 
-
 ## 3.3.2.2 Mecanismos de reclamación establecidos
 
-                                                                                               en el marco de asociaciones gremiales
+**Definición Canónica:** en el marco de asociaciones gremiales
+                                                                                               Como una variable de los mecanismos explicados anteriormente,
+                                                                                               puede ocurrir que las asociaciones gremiales implementen sus pro-
+                                                                                               pios sistemas transversales a más de una empresa.
+
+en el marco de asociaciones gremiales
                                                                                                Como una variable de los mecanismos explicados anteriormente,
                                                                                                puede ocurrir que las asociaciones gremiales implementen sus pro-
                                                                                                pios sistemas transversales a más de una empresa.
@@ -8374,10 +8588,16 @@ y Derechos                                                        por parte de l
                                                                      y contribuir a reparar las consecuencias negativas de sus
                                                                      actividades sobre los derechos humanos”.
 
-
 ## 3.3.3 Mecanismos internacionales
 
-                                                                 Dado los indudables impactos negativos que hoy en día las empresas
+**Definición Canónica:** Dado los indudables impactos negativos que hoy en día las empresas
+                                                                 pueden generar en derechos humanos de personas, comunidades,
+                                                                 trabajadores y trabajadoras, y sobre todo en aquellos grupos en ries-
+                                                                 go de mayor vulnerabilidad, los mecanismos de derechos humanos
+                                                                 también han comenzado a expandir su alcance con relación a dichas
+             
+
+Dado los indudables impactos negativos que hoy en día las empresas
                                                                  pueden generar en derechos humanos de personas, comunidades,
                                                                  trabajadores y trabajadoras, y sobre todo en aquellos grupos en ries-
                                                                  go de mayor vulnerabilidad, los mecanismos de derechos humanos
@@ -8400,10 +8620,15 @@ y Derechos                                                        por parte de l
 Empresa                                                        3. El rol del Poder Judicial ante las afectaciones de derechos humanos   204
 y Derechos                                                        por parte de las empresas
 
-
 ## 3.3.3.1 Sistema interamericano de derechos humanos
 
-                                                                 En primer lugar, el Sistema Interamericano de Protección a los
+**Definición Canónica:** En primer lugar, el Sistema Interamericano de Protección a los
+                                                                 Derechos Humanos. Por su parte, la CIDH ha conocido del tema de
+                                                                 DHyE a través de sus diferentes mecanismos para conocer de caso
+                                                                 concretos: audiencias temáticas, solicitud de medidas cautelares y
+                                                                 peticiones, y controles de admisibilidad.
+
+En primer lugar, el Sistema Interamericano de Protección a los
                                                                  Derechos Humanos. Por su parte, la CIDH ha conocido del tema de
                                                                  DHyE a través de sus diferentes mecanismos para conocer de caso
                                                                  concretos: audiencias temáticas, solicitud de medidas cautelares y
@@ -8415,8 +8640,15 @@ y Derechos                                                        por parte de l
 
 ## parte de sus actividades laborales, indicó que la rama judicial
 
+**Definición Canónica:** no ha reconocido plenamente el derecho de las víctimas a
+                                                                     la no discriminación ni ha protegido de manera adecuada o
+                                                                     efectiva sus derechos como trabajadores de acuerdo con lo
+                                                                     dispuesto en la Declaración Americana. En ese marco, indicó
+                                                                     que pese a la existencia de juicios contra los empleadores
+                                
+**Concordancias Legales:** artículos 4.1; artículo 1.1 de la Convención Americana sobre
 
-                                                                     no ha reconocido plenamente el derecho de las víctimas a
+no ha reconocido plenamente el derecho de las víctimas a
                                                                      la no discriminación ni ha protegido de manera adecuada o
                                                                      efectiva sus derechos como trabajadores de acuerdo con lo
                                                                      dispuesto en la Declaración Americana. En ese marco, indicó
@@ -8471,10 +8703,12 @@ y Derechos                                                                      
                                                                                                ción con el artículo 1.1 de la Convención Americana sobre
                                                                                                Derechos Humanos. (…)
 
-
 ## 192      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019); p. 70.
+**Definición Canónica:** DESCA/INF.1/19 (2019); p. 70.
+**Concordancias Legales:** artículo 19 de la Convención Americana respecto de ese; artículos 4.1; artículos 1.1
+
+DESCA/INF.1/19 (2019); p. 70.
 
 Empresa                                                                                      3. El rol del Poder Judicial ante las afectaciones de derechos humanos       206
 y Derechos                                                                                      por parte de las empresas
@@ -8573,10 +8807,14 @@ y Derechos                                                                      
 
                                                                                                     relación con los artículos 1.1 y 2 del mismo instrumento”.194
 
-
 ## 3.3.3.2 Sistema universal de los derechos humanos
 
-                                                                                                En segundo lugar, el Sistema Universal de Protección a los Derechos
+**Definición Canónica:** En segundo lugar, el Sistema Universal de Protección a los Derechos
+                                                                                                Humanos. Dicho sistema puede conocer mediante de casos concretos
+                                                                                                a través de los órganos de tratado y sus procedimientos especiales.
+**Concordancias Legales:** artículo 25
+
+En segundo lugar, el Sistema Universal de Protección a los Derechos
                                                                                                 Humanos. Dicho sistema puede conocer mediante de casos concretos
                                                                                                 a través de los órganos de tratado y sus procedimientos especiales.
 
@@ -8630,10 +8868,12 @@ y Derechos                                                                      
                                                                                                  se ha sugerido que las empresas aún pueden ser procesadas
                                                                                                  por crímenes internacionales. (…)
 
-
 ## 195      REDESCA y CIDH: “Empresas y Derechos Humanos: Estándares Interamericanos” OEA/Ser.L/V/II CIDH/RE-
 
-                                                               DESCA/INF.1/19 (2019), párr. 128 en referencia al Comité de Derechos Humanos. Portillo Cáceres y otros vs.
+**Definición Canónica:** DESCA/INF.1/19 (2019), párr. 128 en referencia al Comité de Derechos Humanos. Portillo Cáceres y otros vs.
+                                                               Paraguay (Comunicación núm. 2751/2016), UN Doc. CCPR/C/126/D/2751/2016, 9 de agosto de 2019.
+
+DESCA/INF.1/19 (2019), párr. 128 en referencia al Comité de Derechos Humanos. Portillo Cáceres y otros vs.
                                                                Paraguay (Comunicación núm. 2751/2016), UN Doc. CCPR/C/126/D/2751/2016, 9 de agosto de 2019.
 
 Empresa                                                                                      3. El rol del Poder Judicial ante las afectaciones de derechos humanos          210
@@ -8731,10 +8971,11 @@ y Derechos                                                                      
                                                                                                 igualdad de género, el empoderamiento de la mujer y la equidad
                                                                                                 intergeneracional”.197
 
-
 ## 197      Consejo de Derechos Humanos: “Los derechos humanos y el cambio climático”. Resolución aprobada en
 
-                                                               julio de 2019, A/HRC/RES/41/21. Disponible en línea.
+**Definición Canónica:** julio de 2019, A/HRC/RES/41/21. Disponible en línea.
+
+julio de 2019, A/HRC/RES/41/21. Disponible en línea.
 
 Empresa                                                                                    4. Temas específicos a través                                                214
 y Derechos                                                                                    de la jurisprudencia
@@ -8775,10 +9016,12 @@ y Derechos                                                                      
                                                                                              de solo 100 empresas son las responsables de la emisión del 71 %
                                                                                              de este tipo de gases en el mundo.199
 
-
 ## 198      Informe de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos sobre la
 
-                                                               relación entre el cambio climático y los derechos humanos, 15 de enero de 2009. A/HRC/10/61; párr. 42.
+**Definición Canónica:** relación entre el cambio climático y los derechos humanos, 15 de enero de 2009. A/HRC/10/61; párr. 42.
+                                                      199      Ver CDP Worldwide: The Carbon Majors Database CDP Carbon Majors Report 2017, disponible en línea.
+
+relación entre el cambio climático y los derechos humanos, 15 de enero de 2009. A/HRC/10/61; párr. 42.
                                                       199      Ver CDP Worldwide: The Carbon Majors Database CDP Carbon Majors Report 2017, disponible en línea.
 
 Empresa                                                                                     4. Temas específicos a través                                               215
@@ -8810,10 +9053,14 @@ y Derechos                                                                      
                                                                                               das de actores no estatales a Estados, entre actores no estatales, y entre
                                                                                               Estados. De esta última situación, no se conoce todavía algún caso.
 
-
 ## 4.1.1 Litigio entre actores no estatales y Estados
 
-                                                                                              Este tipo de litigio es el más común dentro de los litigios proactivos,
+**Definición Canónica:** Este tipo de litigio es el más común dentro de los litigios proactivos,
+                                                                                              lo que tiene sentido considerando que los Estados son los princi-
+                                                                                              pales obligados en materia de derechos humanos relacionados con
+                                                                                              el cambio climático. En algunos casos, se ha demandado al Estado
+
+Este tipo de litigio es el más común dentro de los litigios proactivos,
                                                                                               lo que tiene sentido considerando que los Estados son los princi-
                                                                                               pales obligados en materia de derechos humanos relacionados con
                                                                                               el cambio climático. En algunos casos, se ha demandado al Estado
@@ -8831,10 +9078,15 @@ y Derechos                                                                      
                                                                                                Acuerdo de París (1.1.1 y 1.1.2), mientras que en otros se reclama la
                                                                                                inacción estatal para lograr dichos objetivos (1.1.3-1.1.5).202
 
-
 ## 4.1.1.1 Caso Thabametsi, Earthlife Africa Johannesburg203
 
-                                                                                               Earthlife, una organización no gubernamental ambientalista, impugnó
+**Definición Canónica:** Earthlife, una organización no gubernamental ambientalista, impugnó
+                                                                                               la autorización otorgada por el Director Jefe del Departamento de
+                                                                                               Asuntos Ambientales de una central eléctrica a carbón en la provin-
+                                                                                               cia de Limpopo, en el norte de Sudáfrica, operada por la empresa
+                                                
+
+Earthlife, una organización no gubernamental ambientalista, impugnó
                                                                                                la autorización otorgada por el Director Jefe del Departamento de
                                                                                                Asuntos Ambientales de una central eléctrica a carbón en la provin-
                                                                                                cia de Limpopo, en el norte de Sudáfrica, operada por la empresa
@@ -8859,7 +9111,14 @@ y Derechos                                                                      
 
 ## parte interesada, argumentaron que no había disposición expresa para
 
-                                                                                               incluir el cambio climático en la evaluación de impacto ambiental
+**Definición Canónica:** incluir el cambio climático en la evaluación de impacto ambiental
+                                                                                               bajo la ley nacional o internacional. Por lo tanto, la evaluación y con-
+                                                                                               sideración de los impactos del cambio climático no podría constituir
+                                                                                               un requisito obligatorio. Destacaron que quedaba a discreción del
+                                         
+**Concordancias Legales:** Constitución
+
+incluir el cambio climático en la evaluación de impacto ambiental
                                                                                                bajo la ley nacional o internacional. Por lo tanto, la evaluación y con-
                                                                                                sideración de los impactos del cambio climático no podría constituir
                                                                                                un requisito obligatorio. Destacaron que quedaba a discreción del
@@ -8907,10 +9166,15 @@ y Derechos                                                                      
                                                                                                la decisión inicial por una nueva que se basara en la evaluación de
                                                                                                impacto del cambio climático.
 
-
 ## 204      De acuerdo con art. 3 del Acuerdo de Paris: “En sus contribuciones determinadas a nivel nacional a la
 
-                                                               respuesta mundial al cambio climático, todas las Partes habrán de realizar y comunicar los esfuerzos
+**Definición Canónica:** respuesta mundial al cambio climático, todas las Partes habrán de realizar y comunicar los esfuerzos
+                                                               ambiciosos que se definen en los artículos 4, 7, 9, 10, 11 y 13 con miras a alcanzar el propósito del presente
+                                                               Acuerdo enunciado en su artículo 2. Los esfuerzos de todas las Partes representarán una progresión a lo
+                                                               largo del tiempo, teniendo en cuenta la necesidad de apoyar a las Partes que son países en desa
+**Concordancias Legales:** artículos 4; artículo 2
+
+respuesta mundial al cambio climático, todas las Partes habrán de realizar y comunicar los esfuerzos
                                                                ambiciosos que se definen en los artículos 4, 7, 9, 10, 11 y 13 con miras a alcanzar el propósito del presente
                                                                Acuerdo enunciado en su artículo 2. Los esfuerzos de todas las Partes representarán una progresión a lo
                                                                largo del tiempo, teniendo en cuenta la necesidad de apoyar a las Partes que son países en desarrollo para
@@ -8942,10 +9206,16 @@ y Derechos                                                                      
                                                                                               eléctrica de carbón. El Tribunal también ordenó a los acusados pagar
                                                                                               las costas judiciales.
 
-
 ## 4.1.1.2 Caso del Aeropuerto de Viena, Austria206
 
-                                                                                              En este ejemplo, iniciativas ciudadanas, vecinos y la ciudad de Viena
+**Definición Canónica:** En este ejemplo, iniciativas ciudadanas, vecinos y la ciudad de Viena
+                                                                                              recurrieron ante el Tribunal Administrativo Federal para impugnar la
+                                                                                              construcción de la tercera pista del aeropuerto de Viena, basándose
+                                                                                              en que las autoridades omitieron estimar los impactos en el cambio
+                                            
+**Concordancias Legales:** artículo 28; Constitucion; Constitución
+
+En este ejemplo, iniciativas ciudadanas, vecinos y la ciudad de Viena
                                                                                               recurrieron ante el Tribunal Administrativo Federal para impugnar la
                                                                                               construcción de la tercera pista del aeropuerto de Viena, basándose
                                                                                               en que las autoridades omitieron estimar los impactos en el cambio
@@ -9015,10 +9285,14 @@ y Derechos                                                                      
                                                                                               la Constitución no podía orientar la interpretación de las normas
                                                                                               jurídicas indeterminadas de esta ley.
 
-
 ## 4.1.1.3 Generaciones Futuras contra
 
-                                                                                              el Estado de Colombia
+**Definición Canónica:** el Estado de Colombia
+                                                                                              Un grupo de 25 jóvenes y niños colombianos, de entre 7 y 25 años
+                                                                                              de edad, presentaron acción de tutela ante la Corte Suprema de
+**Concordancias Legales:** Ley 1753
+
+el Estado de Colombia
                                                                                               Un grupo de 25 jóvenes y niños colombianos, de entre 7 y 25 años
                                                                                               de edad, presentaron acción de tutela ante la Corte Suprema de
 
@@ -9110,10 +9384,16 @@ y Derechos                                                                      
 
                                                                                                     judiciales correspondientes”.210
 
-
 ## 4.1.1.4 Caso Holanda con Urgenda211
 
-                                                                                                La Fundación Urgenda y un grupo de 900 ciudadanos holandeses
+**Definición Canónica:** La Fundación Urgenda y un grupo de 900 ciudadanos holandeses
+                                                                                                demandaron al gobierno holandés para obligar al Estado a reducir las
+                                                                                                emisiones de gases de efecto invernadero, principalmente CO2, de
+                                                                                                manera más agresiva. Si bien en su demanda reconocen que se trata
+                                                   
+**Concordancias Legales:** artículos 2; artículo 21 de la Constitución holandesa; artículo 2; artículo 8; Constitución
+
+La Fundación Urgenda y un grupo de 900 ciudadanos holandeses
                                                                                                 demandaron al gobierno holandés para obligar al Estado a reducir las
                                                                                                 emisiones de gases de efecto invernadero, principalmente CO2, de
                                                                                                 manera más agresiva. Si bien en su demanda reconocen que se trata
@@ -9203,10 +9483,15 @@ y Derechos                                                                      
                                                                                              principio de “no causar daño” y el principio de precaución, daban una
                                                                                              base común para responder a estas nuevas cuestiones de derecho.214
 
-
 ## 4.1.1.5 Caso Carvalho y otros contra Unión Europea215
 
-                                                                                             La acción legal fue presentada en mayo de 2018 ante el Tribunal
+**Definición Canónica:** La acción legal fue presentada en mayo de 2018 ante el Tribunal
+                                                                                             General de la UE, contra el Parlamento Europeo y el Consejo de
+                                                                                             Ministros como órganos legislativos de la UE. Los denunciantes eran
+                                                                                             diez familias y una asociación en representación de otras familias,
+                                                          
+
+La acción legal fue presentada en mayo de 2018 ante el Tribunal
                                                                                              General de la UE, contra el Parlamento Europeo y el Consejo de
                                                                                              Ministros como órganos legislativos de la UE. Los denunciantes eran
                                                                                              diez familias y una asociación en representación de otras familias,
@@ -9261,10 +9546,14 @@ y Derechos                                                                      
                                                                 Las demandantes recurrieron contra la decisión del Tribunal General,
                                                                 pero la resolución de la apelación se encuentra pendiente.
 
-
 ## 4.1.2 Litigios contra empresas: Carbon Majors
 
-                                                                En los últimos años se han iniciado diversas acciones en contra
+**Definición Canónica:** En los últimos años se han iniciado diversas acciones en contra
+                                                                las principales empresas de combustibles fósiles conocidas como
+                                                                “Carbon Majors”. Los casos de litigio climático se presentan contra
+                                                                ellas por una variedad de motivos: demandas de responsabilidad
+
+En los últimos años se han iniciado diversas acciones en contra
                                                                 las principales empresas de combustibles fósiles conocidas como
                                                                 “Carbon Majors”. Los casos de litigio climático se presentan contra
                                                                 ellas por una variedad de motivos: demandas de responsabilidad
@@ -9415,10 +9704,11 @@ y Derechos                                                                      
 Empresa                                                                                      4. Temas específicos a través                                        230
 y Derechos                                                                                      de la jurisprudencia
 
-
 ## 4.2              Empresas, COVID-19 y
 
-                                                                                              derechos laborales222
+**Definición Canónica:** derechos laborales222
+
+derechos laborales222
 
                                                                                               El COVID-19 ha implicado desafíos importantes para el mundo del
                                                                                               trabajo. Por un lado, es evidente que la situación económica causada
@@ -9453,10 +9743,15 @@ y Derechos                                                                      
 Empresa                                                                                    4. Temas específicos a través                                          231
 y Derechos                                                                                    de la jurisprudencia
 
-
 ## 4.2.1 La visión de los organismos
 
-                                                                                            internacionales de derechos humanos
+**Definición Canónica:** internacionales de derechos humanos
+                                                                                            Desde el inicio de la crisis del COVID-19, diversos organismos de los
+                                                                                            sistemas universal e interamericano relevaron la necesidad de que
+                                                                                            los Estados adoptaran medidas especiales para la protección de los
+                                                                                     
+
+internacionales de derechos humanos
                                                                                             Desde el inicio de la crisis del COVID-19, diversos organismos de los
                                                                                             sistemas universal e interamericano relevaron la necesidad de que
                                                                                             los Estados adoptaran medidas especiales para la protección de los
@@ -9488,14 +9783,11 @@ y Derechos                                                                      
                                                                                             especial sobre las condiciones laborales de trabajadores y trabajadoras.
                                                                                             Asimismo, precisó lo que se espera de los gobiernos.
 
-
-## 223      Comisión Interamericana de Derechos Humanos: Pandemia y Derechos Humanos en las Américas. Resolución
-
-                                                               1/2020 (disponible en línea).
-
 ## 224      Comisión Interamericana de Derechos Humanos: Derechos Humanos de las Personas con COVID-19. Reso-
 
-                                                               lución 4/2020 disponible en línea).
+**Definición Canónica:** lución 4/2020 disponible en línea).
+
+lución 4/2020 disponible en línea).
 
 Empresa                                                        4. Temas específicos a través                                         232
 
@@ -9577,10 +9869,14 @@ y Derechos                                                                      
                                                                                                   todos los sectores, y que muchas de ellas se enfrentan a decisio-
                                                                                                   nes empresariales muy difíciles, es el momento de demostrar lo
 
-
 ## 225      Grupo de Trabajo de las Naciones Unidas sobre las Empresas y los Derechos Humanos: Asegurarse de que
 
-                                                               las empresas respeten los derechos humanos durante la crisis de COVID-19 y después: La relevancia de los
+**Definición Canónica:** las empresas respeten los derechos humanos durante la crisis de COVID-19 y después: La relevancia de los
+                                                               Principios Rectores de las Naciones Unidas sobre las Empresas y los Derechos Humanos (disponible en línea).
+                                                      226      Oficina del Alto Comisionado para los Derechos Humanos, Directrices relativas a la COVID-19, 8 de mayo de
+                                                               2020 (disponible en línea).
+
+las empresas respeten los derechos humanos durante la crisis de COVID-19 y después: La relevancia de los
                                                                Principios Rectores de las Naciones Unidas sobre las Empresas y los Derechos Humanos (disponible en línea).
                                                       226      Oficina del Alto Comisionado para los Derechos Humanos, Directrices relativas a la COVID-19, 8 de mayo de
                                                                2020 (disponible en línea).
@@ -9625,17 +9921,25 @@ y Derechos                                                                      
 Empresa                                                                                     4. Temas específicos a través                                               235
 y Derechos                                                                                     de la jurisprudencia
 
-
 ## 4.2.2 Situaciones observadas desde la sociedad civil
 
-                                                                                             En su rol de fiscalización, desde la sociedad civil se han denunciado
+**Definición Canónica:** En su rol de fiscalización, desde la sociedad civil se han denunciado
                                                                                              diversas situaciones sobre el actuar de las empresas en relación a sus
                                                                                              trabajadores y trabajadoras.227
 
+En su rol de fiscalización, desde la sociedad civil se han denunciado
+                                                                                             diversas situaciones sobre el actuar de las empresas en relación a sus
+                                                                                             trabajadores y trabajadoras.227
 
 ## 4.2.2.1 Suspensión de los contratos a través
 
-                                                                                             de la Ley de Protección al Empleo
+**Definición Canónica:** de la Ley de Protección al Empleo
+                                                                                             Al inicio de la crisis sanitaria, considerando los efectos económicos
+                                                                                             que las restricciones de movimiento podían acarrear a las empresas,
+                                                                                             se emitió una ley que permite a las empresas suspender temporal-
+                                                                                    
+
+de la Ley de Protección al Empleo
                                                                                              Al inicio de la crisis sanitaria, considerando los efectos económicos
                                                                                              que las restricciones de movimiento podían acarrear a las empresas,
                                                                                              se emitió una ley que permite a las empresas suspender temporal-
@@ -9666,10 +9970,15 @@ y Derechos                                                                      
 Empresa                                                                             4. Temas específicos a través                                        236
 y Derechos                                                                             de la jurisprudencia
 
-
 ## 4.2.2.2 Afectación de las condiciones
 
-                                                                                     laborales. Los riesgos del teletrabajo.
+**Definición Canónica:** laborales. Los riesgos del teletrabajo.
+                                                                                     Las restricciones de movimiento significaron que muchos trabajadores
+                                                                                     y trabajadoras tuvieran que cambiar la modalidad de prestar servicios a
+                                                                                     sus empleadores. Se aprobó prontamente, en marzo 2020, una ley que
+                                                                                     regulaba el 
+
+laborales. Los riesgos del teletrabajo.
                                                                                      Las restricciones de movimiento significaron que muchos trabajadores
                                                                                      y trabajadoras tuvieran que cambiar la modalidad de prestar servicios a
                                                                                      sus empleadores. Se aprobó prontamente, en marzo 2020, una ley que
@@ -9686,10 +9995,14 @@ y Derechos                                                                      
                                                                                      pero en otras hubo sobrecarga laboral y no se respetaron tiempos de
                                                                                      desconexión adecuados a la realidad de la crisis.
 
-
 ## 4.2.2.3 Condiciones sanitarias
 
-                                                                                     Durante la crisis sanitaria, hubo un grupo importante de empresas que
+**Definición Canónica:** Durante la crisis sanitaria, hubo un grupo importante de empresas que
+                                                                                     prestaron servicios de primera necesidad y, por lo tanto, requirieron
+                                                                                     que sus trabajadores y trabajadoras continuaran con la prestación de
+                                                                                     servicios en modalidad presencial.
+
+Durante la crisis sanitaria, hubo un grupo importante de empresas que
                                                                                      prestaron servicios de primera necesidad y, por lo tanto, requirieron
                                                                                      que sus trabajadores y trabajadoras continuaran con la prestación de
                                                                                      servicios en modalidad presencial.
@@ -9738,10 +10051,15 @@ y Derechos                                                                      
                                                                                            investigaciones de las agencias gubernamentales de Estados Unidos y
                                                                                            Malasia son claramente distintas a las informadas a los accionistas.232
 
-
 ## 4.2.2.4 Subcontratistas, trabajo precario e
 
-                                                                                           informal. PyMEs y derechos humanos.
+**Definición Canónica:** informal. PyMEs y derechos humanos.
+                                                                                           Pese a que las malas prácticas durante el COVID-19 se han observado
+                                                                                           en empresas de todos los tamaños, las más pequeñas –dado su nivel de
+                                                                                           sus ingresos– han presentado dificultades en el mundo, exponiendo
+                                                                                        
+
+informal. PyMEs y derechos humanos.
                                                                                            Pese a que las malas prácticas durante el COVID-19 se han observado
                                                                                            en empresas de todos los tamaños, las más pequeñas –dado su nivel de
                                                                                            sus ingresos– han presentado dificultades en el mundo, exponiendo
@@ -9798,10 +10116,12 @@ y Derechos                                                                      
 Empresa                                                                                      4. Temas específicos a través                                         240
 y Derechos                                                                                      de la jurisprudencia
 
-
 ## 4.3               Litigio transnacional: agua potable en
 
-                                                                                               Osornoy daño ambiental en Pascua Lama
+**Definición Canónica:** Osornoy daño ambiental en Pascua Lama
+**Concordancias Legales:** artículos 11
+
+Osornoy daño ambiental en Pascua Lama
 
                                                                                                El derecho al agua potable y saneamiento ha sido reconocido por
                                                                                                primera vez explícitamente en la Observación General Nº 15 del Co-
@@ -9851,10 +10171,11 @@ y Derechos                                                                      
                                                                                                  inclusión de las fuentes naturales, los pozos y otros sistemas de
                                                                                                  distribución de agua.
 
-
 ## 24. Cuando los servicios de suministro de agua (como las redes
 
-                                                                                                 de canalización, las cisternas y los accesos a ríos y pozos) sean
+**Definición Canónica:** de canalización, las cisternas y los accesos a ríos y pozos) sean
+
+de canalización, las cisternas y los accesos a ríos y pozos) sean
 
                                                                                                  explotados o estén controlados por terceros, los Estados Partes
                                                                                                  deben impedirles que menoscaben el acceso físico en condiciones
@@ -9865,10 +10186,15 @@ y Derechos                                                                      
                                                                                                  pendiente, una auténtica participación pública y la imposición
                                                                                                  de multas por incumplimiento”.236
 
-
 ## 4.3.1 Agua potable Osorno
 
-                                                                                             Entre los días 10 y 21 de julio de 2019, se produjo un corte de agua
+**Definición Canónica:** Entre los días 10 y 21 de julio de 2019, se produjo un corte de agua
+                                                                                             que afectó a la ciudad Osorno, en la Región de Los Lagos. El corte
+                                                                                             se produjo por la contaminación con petróleo diésel de la planta de
+                                                                                             agua potable de la empresa ESSAL en Caipulli, tras un derrame.237
+                                                   
+
+Entre los días 10 y 21 de julio de 2019, se produjo un corte de agua
                                                                                              que afectó a la ciudad Osorno, en la Región de Los Lagos. El corte
                                                                                              se produjo por la contaminación con petróleo diésel de la planta de
                                                                                              agua potable de la empresa ESSAL en Caipulli, tras un derrame.237
@@ -9963,10 +10289,15 @@ y Derechos                                                                      
                                                                                              la venta de su participación en ESSAL a la empresa canadiense Al-
                                                                                              gonquin Power & Utilities Corp.241
 
-
 ## 4.3.2 Pascua Lama
 
-                                                                                             La empresa transnacional minera Barrick Gold (Canadá), a través
+**Definición Canónica:** La empresa transnacional minera Barrick Gold (Canadá), a través
+                                                                                             de su filial chilena Compañía Minera Nevada S.A. en Chile y de sus
+                                                                                             filiales argentinas Barrick Exploraciones Argentina S.A. y Explora-
+                                                                                             ciones Mineras Argentinas, bajo el régimen provisto por el Tratado
+                                                       
+
+La empresa transnacional minera Barrick Gold (Canadá), a través
                                                                                              de su filial chilena Compañía Minera Nevada S.A. en Chile y de sus
                                                                                              filiales argentinas Barrick Exploraciones Argentina S.A. y Explora-
                                                                                              ciones Mineras Argentinas, bajo el régimen provisto por el Tratado
@@ -10051,10 +10382,11 @@ y Derechos                                                                      
 Empresa                                                                                       4. Temas específicos a través                                           247
 y Derechos                                                                                       de la jurisprudencia
 
-
 ## 4.4              Consumidores, medioambiente y derechos
 
-                                                                                             humanos: publicidad engañosa
+**Definición Canónica:** humanos: publicidad engañosa
+
+humanos: publicidad engañosa
 
                                                                                              Desde hace algunos años se ha creado mayor conciencia sobre el
                                                                                              rol de las empresas, especialmente multinacionales, en los impac-
@@ -10072,10 +10404,15 @@ y Derechos                                                                      
                                                                                              certificar las condiciones laborales de la cadena de suministro y la
                                                                                              retribución justa a los proveedores/as de materias primas.
 
-
 ## 4.4.1 Conceptos
 
-                                                                                             Como explica Claudia Alejos, “el greenwashing es un anglicismo deriva-
+**Definición Canónica:** Como explica Claudia Alejos, “el greenwashing es un anglicismo deriva-
+                                                                                             do de whitewashing (blanqueo de dinero), con una connotación ‘verde’.
+                                                                                             Fue un término acuñado en los años ochenta por Jay Westerveld, un
+                                                                                             reportero ambientalista americano, que observó que en los hoteles
+                                                
+
+Como explica Claudia Alejos, “el greenwashing es un anglicismo deriva-
                                                                                              do de whitewashing (blanqueo de dinero), con una connotación ‘verde’.
                                                                                              Fue un término acuñado en los años ochenta por Jay Westerveld, un
                                                                                              reportero ambientalista americano, que observó que en los hoteles
@@ -10104,10 +10441,13 @@ y Derechos                                                                      
                                                                                               ‘Producto 100% natural’, ‘Producto Orgánico’ o ‘Amigables con el
                                                                                               medio ambiente’”.249
 
-
 ## 4.4.2 Regulación en Chile
 
-                                                                                              La publicidad engañosa está prohibida en Chile, según la Ley del
+**Definición Canónica:** La publicidad engañosa está prohibida en Chile, según la Ley del
+                                                                                              Consumidor:
+**Concordancias Legales:** Artículo 28; artículo 2; Ley Nº 19.300; Ley Nº 20.670; Ley Nº 19.996; Ley Nº 20.422
+
+La publicidad engañosa está prohibida en Chile, según la Ley del
                                                                                               Consumidor:
 
                                                                                                   “Artículo 28. Comete infracción a las disposiciones de esta ley el
@@ -10290,10 +10630,12 @@ y Derechos                                                                      
                                                                                                  damente respaldados por el Estado de Chile, para interpretar
                                                                                                  los términos del artículo 28 letra f ).
 
-
 ## 256      OMS (1996). Véase también OMS (2010). Para una discusión del concepto, véase Urzúa y Caqueo-Urízar
 
-                                                               (2012); pp. 61-71.
+**Definición Canónica:** (2012); pp. 61-71.
+**Concordancias Legales:** artículo N° 7; artículo 3; artículo 28; artículo 2; Ley Nº 19.300; Ley Nº 20.920
+
+(2012); pp. 61-71.
 
 Empresa                                                        4. Temas específicos a                                                     253
 y Derechos                                                        travésde la jurisprudencia
@@ -10440,10 +10782,12 @@ y Derechos                                                        travésde la j
                                                                       por ejemplo, que en su cadena de suministro se emiten con-
                                                                       taminantes a mayor escala de lo señalado por la publicidad.
 
-
 ## 4.4.3 Casos de publicidad engañosa
 
-                                                                 en materia ambiental
+**Definición Canónica:** en materia ambiental
+**Concordancias Legales:** artículo 28; artículos 3
+
+en materia ambiental
 
                                                                       Servicio Nacional del Consumidor con Distribuidora y
                                                                       Comercializadora de Alimentos Sen Limitada
@@ -10587,10 +10931,15 @@ y Derechos                                                                      
 Empresa                                                                                    4. Temas específicosa través                                           260
 y Derechos                                                                                    de la jurisprudencia
 
-
 ## 4.4.4 Casos en otras jurisdicciones: Caso Lidl (Alemania)
 
-                                                                                             En abril de 2010, por iniciativa del European Center for Constitutio-
+**Definición Canónica:** En abril de 2010, por iniciativa del European Center for Constitutio-
+                                                                                             nal and Human Rights (ECCHR) y la Campaña Ropa Limpia (CCC,
+                                                                                             por las iniciales en inglés de Clean Clothes Campaign), la Agencia de
+                                                                                             Protección al Consumidor de Hamburgo presentó una queja por
+                                                             
+
+En abril de 2010, por iniciativa del European Center for Constitutio-
                                                                                              nal and Human Rights (ECCHR) y la Campaña Ropa Limpia (CCC,
                                                                                              por las iniciales en inglés de Clean Clothes Campaign), la Agencia de
                                                                                              Protección al Consumidor de Hamburgo presentó una queja por
@@ -10642,10 +10991,11 @@ Personales
 Empresa                                                                                    5. Captura del Estado, corrupción                                       263
 y Derechos                                                                                    y derechos humanos
 
-
 ## 5.1              Antecedentes
 
-                                                                                             generales
+**Definición Canónica:** generales
+
+generales
 
                                                                                              Según la CIDH, si bien a nivel internacional se ha vinculado el
                                                                                              fenómeno de la corrupción con la estabilidad de los sistemas demo-
@@ -10677,10 +11027,12 @@ y Derechos                                                                      
                                                       particulares o                         índole a través de los cuales las empresas influencian la formulación
                                                       sectoriales.                           de las reglas del juego a su favor.
 
-
 ## 264      Comisión Interamericana de Derechos Humanos: Corrupción y derechos humanos: Estándares interameri-
 
-                                                               canos, 6 de diciembre de 2019; párr. 19. Disponible en línea.
+**Definición Canónica:** canos, 6 de diciembre de 2019; párr. 19. Disponible en línea.
+                                                      265      Compromiso de Lima, Gobernabilidad Democrática frente a la Corrupción, Lima 2018. Disponible en línea.
+
+canos, 6 de diciembre de 2019; párr. 19. Disponible en línea.
                                                       265      Compromiso de Lima, Gobernabilidad Democrática frente a la Corrupción, Lima 2018. Disponible en línea.
 
 Empresa                                                        5. Captura del Estado, corrupción                                                     264
@@ -10888,10 +11240,12 @@ y Derechos                                                        y derechos hum
 Empresa                                                                                     5. Captura del Estado, corrupción                                            269
 y Derechos                                                                                     y derechos humanos
 
-
 ## 5.2              Relación entre corrupción y afectación de derechos
 
-                                                                                              humanos. La dificultad de crear una relación
+**Definición Canónica:** humanos. La dificultad de crear una relación
+                                                                                              de causalidad. Experiencias comparadas.
+
+humanos. La dificultad de crear una relación
                                                                                               de causalidad. Experiencias comparadas.
 
                                                                                               Pese a la gravedad de los impactos que puede tener la corrupción,
@@ -10952,15 +11306,15 @@ y Derechos                                                                      
 Empresa                                                                                   5. Captura del Estado, corrupción                                        271
 y Derechos                                                                                   y derechos humanos
 
-
-## 5.3             Algunos casos de corrupción
-
-                                                                                            y empresas
-
-
 ## 5.3.1 Caso Siemens (Alemania)
 
-                                                                                            Siemens AG es una multinacional alemana conglomerada con sede en
+**Definición Canónica:** Siemens AG es una multinacional alemana conglomerada con sede en
+                                                                                            Munich. Siemens y sus subsidiarias emplean aproximadamente 420.000
+                                                                                            personas en casi 190 países. Es la empresa electrónica más grande de Eu-
+                                                                                            ropa y una empresa de ingeniería eléctrica con actividades en los campos
+                                              
+
+Siemens AG es una multinacional alemana conglomerada con sede en
                                                                                             Munich. Siemens y sus subsidiarias emplean aproximadamente 420.000
                                                                                             personas en casi 190 países. Es la empresa electrónica más grande de Eu-
                                                                                             ropa y una empresa de ingeniería eléctrica con actividades en los campos
@@ -11004,10 +11358,14 @@ y Derechos                                                                      
                                                                                             Este fue uno de los variados casos de corrupción en los que se vio
                                                                                             involucrada la empresa.276
 
-
 ## 5.3.2 Caso Acreditación de
 
-                                                                                            Universidades Privadas (Chile)
+**Definición Canónica:** Universidades Privadas (Chile)
+                                                                                            En este caso se acusó a una persona jurídica, una universidad confor-
+                                                                                            mada como corporación de derecho privado sin fines de lucro, por
+                                                                                            el delito de cohecho activo o soborno. Esta conducta consistió en
+
+Universidades Privadas (Chile)
                                                                                             En este caso se acusó a una persona jurídica, una universidad confor-
                                                                                             mada como corporación de derecho privado sin fines de lucro, por
                                                                                             el delito de cohecho activo o soborno. Esta conducta consistió en
@@ -11026,10 +11384,14 @@ y Derechos                                                                      
                                                                                                 implementado ningún tipo de modelos de organización adminis-
                                                                                                 tración y supervisión, tendientes a prevenir ese tipo de delitos”.277
 
-
 ## 5.3.3 Caso Corpesca
 
-                                                                                            En los últimos años se levantaron varios casos sobre financiamiento
+**Definición Canónica:** En los últimos años se levantaron varios casos sobre financiamiento
+                                                                                            irregular por parte de las empresas a las campañas electorales. Se
+                                                                                            han iniciado diversos procesos judiciales y la mayoría de ellos todavía
+                                                                                            siguen en curso.
+
+En los últimos años se levantaron varios casos sobre financiamiento
                                                                                             irregular por parte de las empresas a las campañas electorales. Se
                                                                                             han iniciado diversos procesos judiciales y la mayoría de ellos todavía
                                                                                             siguen en curso.
@@ -11039,7 +11401,10 @@ y Derechos                                                                      
 
 ## 277      Sentencia de 2 de junio de 2016, 8° Juzgado de Garantía de Santiago. Causa RUC 1200084351-0, RIT Nº
 
-                                                               4799-2012.
+**Definición Canónica:** 4799-2012.
+**Concordancias Legales:** Ley N° 20.393
+
+4799-2012.
 
 Empresa                                                                                    5. Captura del Estado, corrupción                                         273
 y Derechos                                                                                    y derechos humanos
@@ -11057,14 +11422,23 @@ y Derechos                                                                      
 
 ## 1. Incumplimiento de los deberes de dirección y supervisión. El
 
+**Definición Canónica:** Gerente General de la compañía no estaba sujeto a ningún control
+                                                                                                o cuestionamiento ni auditoría, lo que le permitió la ejecución
+                                                                                                del delito de soborno (…).
 
-                                                                                                Gerente General de la compañía no estaba sujeto a ningún control
+Gerente General de la compañía no estaba sujeto a ningún control
                                                                                                 o cuestionamiento ni auditoría, lo que le permitió la ejecución
                                                                                                 del delito de soborno (…).
 
 ## 2. Falta de Autonomía del Encargado de Prevención de Delitos. Se
 
-                                                                                                estimó que (…) no tenía las facultades suficientes o idoneidad
+**Definición Canónica:** estimó que (…) no tenía las facultades suficientes o idoneidad
+                                                                                                para ejercer algún tipo de supervisión sobre el Gerente General,
+                                                                                                toda vez que el Encargado, quien a su vez ejercía el cargo de
+                                                                                                Subgerente de Administración, no contaba con autonomía para
+                                                              
+
+estimó que (…) no tenía las facultades suficientes o idoneidad
                                                                                                 para ejercer algún tipo de supervisión sobre el Gerente General,
                                                                                                 toda vez que el Encargado, quien a su vez ejercía el cargo de
                                                                                                 Subgerente de Administración, no contaba con autonomía para
@@ -11074,13 +11448,24 @@ y Derechos                                                                      
 
 ## 3. Falta de incorporación del Modelo de Prevención a los contratos
 
-                                                                                                de trabajo.(…) El tribunal agrega especialmente que los ejecu-
+**Definición Canónica:** de trabajo.(…) El tribunal agrega especialmente que los ejecu-
+                                                                                                tivos son los cargos más sensibles para incurrir en los ilícitos
+                                                                                                contemplados en la Ley 20.393.
+**Concordancias Legales:** Ley 20.393
+
+de trabajo.(…) El tribunal agrega especialmente que los ejecu-
                                                                                                 tivos son los cargos más sensibles para incurrir en los ilícitos
                                                                                                 contemplados en la Ley 20.393.
 
 ## 4. Desconocimiento del Modelo de Prevención y falta de actividades
 
-                                                                                                destinadas a crear una verdadera cultura de prevención. Se logró
+**Definición Canónica:** destinadas a crear una verdadera cultura de prevención. Se logró
+                                                                                                acreditar que el modelo no era, por regla general, debidamente
+                                                                                                conocido en la empresa. Asimismo, pese a reconocer hechos que
+                                                                                                podían implicar actividades ilícitas, se estableció que después de
+                                                       
+
+destinadas a crear una verdadera cultura de prevención. Se logró
                                                                                                 acreditar que el modelo no era, por regla general, debidamente
                                                                                                 conocido en la empresa. Asimismo, pese a reconocer hechos que
                                                                                                 podían implicar actividades ilícitas, se estableció que después de
@@ -11139,18 +11524,3 @@ y Derechos                                                        y derechos hum
                                                                           — Herramienta ACNUDH/Centro de Derechos Humanos
                                                                             UDP/Contraloría General de la República de Chile,
                                                                             Cartillas, 2018. Disponible en línea.
-
-
-## Serie de
-
-
-## Documentos 277
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

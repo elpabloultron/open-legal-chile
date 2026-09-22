@@ -13,17 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Inscripciones paralelas en el registro
-
-                            CONSERVATORIO DE BIENES RAÍCES.
-
-## Jurisprudencia, doctrina y conclusiones
-
-
 ## Que se pueden extraer de éstas.1
 
+**Definición Canónica:** Juan Andrés Orrego Acuña
+**Concordancias Legales:** artículo 700 del Código Civil y que; artículo 2505 del Código Civil. Algunos autores; artículo 915 del Código Civil. En tal caso; artículo 915; artículo 2195 inciso 2; artículo 700; artículo 724
 
-                                                                         Juan Andrés Orrego Acuña
+Juan Andrés Orrego Acuña
 
 RESUMEN: El presente trabajo trata de los problemas que se originan al exhibir dos personas, no
 vinculadas entre sí, sendas inscripciones en su favor en el Registro Conservatorio de Bienes
@@ -136,10 +131,10 @@ conclusiones que a nuestro juicio es posible deducir de unos y otros.
 
                            I. CRITERIOS JURISPRUDENCIALES RECIENTES.
 
-## A) sentencias que concluyen que, en los casos de doble inscripción, debe
-
-
 ## Prevalecer aquella que ampara a quien también tiene la posesión material del
+
+**Definición Canónica:** PREDIO.
+**Concordancias Legales:** artículo 700; artículos 889; artículo 700 del Código Civil que preceptúa que la posesión es
 
 PREDIO.
 
@@ -251,6 +246,15 @@ juicio de dicho recurrente:
 de títulos, en cuyo caso debe preferirse la suya, existiendo, en consecuencia, un solo dueño, su
 
 ## parte, siendo la demandada sólo poseedora, obligando a acoger la acción entablada. Agrega, que
+
+**Definición Canónica:** un segundo elemento para resolver este conflicto, es la antigüedad de cada una de las cadenas de
+inscripciones, donde la suya también es mejor. Añade, que en último término se encuentra la
+posición adoptada por el [juez] a quo, de la posesión material acompañada de la inscrita, pero
+[agrega] que si la cadena es perfecta, no es necesario pasar a las dos siguientes”.
+         Consigna el fallo, más adelante:
+“4.- Que, para pronunciarse respecto del conflicto, existen, al menos, los tres criterios que indica
+el apelante. Los referidos a la perfección o la antigüedad de la cadena de inscripciones 
+**Concordancias Legales:** artículos 730; artículo 925 del Código Civil; artículo 924 del Código Civil; artículos 781; artículo 889 del Código Civil y aseguran ser dueños del predio
 
 un segundo elemento para resolver este conflicto, es la antigüedad de cada una de las cadenas de
 inscripciones, donde la suya también es mejor. Añade, que en último término se encuentra la
@@ -394,6 +398,15 @@ oportunamente corregida. Además, desechó la demanda considerando que al Fisco 
 
 ## título inscrito y es poseedor de buena fe, no empeciéndole los efectos de la sentencia dictada en
 
+**Definición Canónica:** causa rol N° 48.217 del 2° Juzgado Civil de Chillán, seguida entre José Eulogio Quiroz Unda y
+Rigoberto Rubilar Domínguez. Asimismo concluye que, no habiéndose ordenado en el fallo
+dictado en esta última causa la cancelación del título del antecesor en el dominio del Fisco, don
+Misael Brevis Romero, el demandado es dueño [y] poseedor del bien raíz de que se trata,
+destacando al efecto que, en presencia de inscripciones paralelas vigentes sobre un mismo bien
+raíz, se debe asignar o reconocer un derecho preferente a quien, en tal supuesto, detenta la
+posesión material de la finca en litigio, raz
+**Concordancias Legales:** artículo 728 del Código Civil; artículo 889 del Código Civil. Explica que el fallo rechaza la; artículo 889; artículo 1698 del Código Civil; artículos 728; artículo 728; artículo 2505; artículo 19; artículos 703; Constitución Política
+
 causa rol N° 48.217 del 2° Juzgado Civil de Chillán, seguida entre José Eulogio Quiroz Unda y
 Rigoberto Rubilar Domínguez. Asimismo concluye que, no habiéndose ordenado en el fallo
 dictado en esta última causa la cancelación del título del antecesor en el dominio del Fisco, don
@@ -477,10 +490,16 @@ parte de su derecho de propiedad.
 Décimo primero: Que, por último, arguye que la sentencia infringe los artículos 703, 704 y 706
 del Código Civil, al decidir que el Fisco detenta la posesión del inmueble, pues le asiste justo
 
-## título inscrito, y que se trata de un poseedor de buena fe. Expone al efecto que no existe justo
-
-
 ## título, desde que los derechos que corresponderían al demandado dicen relación con un predio
+
+**Definición Canónica:** distinto, ubicado en calle Zañartu, a la vez que tampoco ha mediado buena fe, pues no cabe
+presumir la del demandado en tanto éste, para apropiarse del inmueble de que se trata, ha
+alterado uno de los deslindes originales del predio.
+Décimo segundo: Que, en primer lugar, se debe desestimar el recurso en cuanto está fundado
+en la transgresión del artículo 1698 del Código Civil, por cuanto esta norma se infringe cuando
+la sentencia obliga a una de las partes a probar un hecho que corresponde acreditar a su
+contraparte, esto es, se altera el onus probandi, defecto que, a la luz de los antecedente
+**Concordancias Legales:** artículo 1698 del Código Civil; artículo 889 del Código Civil dispone que; artículos 764
 
 distinto, ubicado en calle Zañartu, a la vez que tampoco ha mediado buena fe, pues no cabe
 presumir la del demandado en tanto éste, para apropiarse del inmueble de que se trata, ha
@@ -605,6 +624,15 @@ corpus, entendido como el poder físico o potestad de hecho sobre la cosa, y el 
 consiste en la intención de obrar como propietario. Si esta posesión está acompañada de un
 
 ## título válidamente inscrito, habrá dominio. […]
+
+**Definición Canónica:** 14° Que conforme a lo anterior, encontramos en la especie, una posesión inscrita, acompañada
+de una posesión real y efectiva, frente a otra que aunque inscrita no es real y efectiva. Así las
+cosas, ha de preferirse la posesión de la demandada, que por años la ha ejercido efectivamente,
+a diferencia de la actora que invocando un título del año 1949 sólo lo inscribe el año 2009 y
+acciona el 2011 para reivindicar. Ayuda a esta conclusión, la diligencia, rendida ante este tribunal
+de alzada, de absolución de posiciones y apertura de sobre.
+15° Que la parte demandada principal, demandante reconvenc
+**Concordancias Legales:** artículos 2.500; artículo 144; artículo 730 del Código Civil; artículos 724; artículo 924 del Código Civil dispone que; artículo 186; artículo 889 del Código Civil; artículo 686 del Código Civil y el artículo 696 del mismo cuer; artículo 724; artículos 686; artículo 728; artículo 730; artículo 924; artículo 2505; artículo 700 del Código Civil; artículo 700 del Código Civil que preceptúa que la posesión es; artículo 924 del Código Civil dispone; artículos 15; artículo 16 inciso 2; artículo 728 inciso 2; artículo 2505 del Código Civil; artículo 16; artículo 15; artículo 764; artículos 1698 del Código Civil y 341 del de Procedimiento Civil; artículo 342; artículo 1700 del Código Civil; artículos 1698; artículos 577; Ley 2.695; D.L. N° 2.695; Constitución
 
 14° Que conforme a lo anterior, encontramos en la especie, una posesión inscrita, acompañada
 de una posesión real y efectiva, frente a otra que aunque inscrita no es real y efectiva. Así las
@@ -1207,6 +1235,16 @@ que siempre el Fisco tuvo de la división del fundo Chaitén, y el uso oficial d
 
 ## parte del Fisco en su propio beneficio, a partir del año 1959. Concluye manifestando que la
 
+**Definición Canónica:** sentencia no toma en consideración los documentos o no les da la valorización que corresponde
+y por ello es que se llega a concluir que el actor no acreditó su calidad de dueño de los predios
+que ha pretendido reivindicar, con lo que la violación de los artículos 1698, 1700 del Código
+Civil, 342 Nº2 y 3 del Código de Procedimiento Civil, lleva a infringir los demás preceptos que
+enumera;
+3º) Que, el recurrente invoca una tercera infracción de ley, dando como vulnerados los artículos
+1698 y 1700 del Código Civil y 342 números 2 y 3 del de Procedimiento Civil, en relación con
+el 842 del mismo Có
+**Concordancias Legales:** artículos 1698; artículo 1700 del Código Civil; artículo 842 del Código Civil; artículos 1701 del Código Civil; artículo 33 de la Ley sobre Constitución de la Propiedad Austra; artículo 696 del Código Civil; artículo 58 del Reglamento del Conservador vigente a la época; artículo 33; artículo 590; artículo 78 del Reglamento del Registro Conservatorio de Bien; artículo 690 del Código Civil; artículo 696; artículo 696 del Código Civil y al dar valor probatorio a medi; artículos 702; artículo 706 del Código indicado; artículos 717; artículo 717 del Código Civil; artículos 724; artículo 1701; artículo 1701 del Código Civil; artículo 724; artículo 728; artículo 1700; artículo 582; artículo 192 del Código Tributario; artículo 428 del Código de Procedimiento Civil dispone que ent; artículo 700 del Código Civil; artículo 700 inciso 2; artículo 724 del Inscripciones paralelas en el registro conser; artículos 924; artículo 728 del Código Civil; artículo 1683 del Código Civil; artículos 764; Artículo 980; artículos 877; artículo 1216; artículos 722; artículo 1239; artículo 1264 del Código Civil al verdadero heredero que probar; Artículo 894
+
 sentencia no toma en consideración los documentos o no les da la valorización que corresponde
 y por ello es que se llega a concluir que el actor no acreditó su calidad de dueño de los predios
 que ha pretendido reivindicar, con lo que la violación de los artículos 1698, 1700 del Código
@@ -1667,8 +1705,16 @@ Procedimiento Civil.
 12.- Sentencia de la Corte de Apelaciones de Rancagua de fecha 11 de mayo de 2006,
 dictada en los autos Rol N° 1.675-2005.
 
-
 ## “vistos: […]
+
+**Definición Canónica:** PRIMERO: Que, las acciones posesorias, dentro de las cuales se encuentra la querella de
+amparo, tienen por objeto conservar o recuperar la posesión de bienes raíces o de derechos
+reales constituidos en ellos. Su fundamento se encuentra [en] la preservación de la paz social,
+evitando la autotutela y garantizar el derecho probable de quien reclama la perturbación de su
+posesión. Sin embargo, y tal como lo señala el artículo 923 inciso primero del Código Civil, las
+acciones posesorias tutelan la posesión con independencia de la propiedad y por ende, en los
+juicios posesorios no debe tomarse en cu
+**Concordancias Legales:** artículo 923; artículo 924 del Código Civil; artículo 925 del Código Civil; artículos 924; artículo 925; artículo 925 del Código citado; artículos 186
 
 PRIMERO: Que, las acciones posesorias, dentro de las cuales se encuentra la querella de
 amparo, tienen por objeto conservar o recuperar la posesión de bienes raíces o de derechos
@@ -1742,7 +1788,16 @@ de casación en la forma y en el fondo.
 
 ## Y teniendo en consideración: […]
 
-         B) EN CUANTO AL RECURSO DE CASACIÓN EN EL FONDO:
+**Definición Canónica:** B) EN CUANTO AL RECURSO DE CASACIÓN EN EL FONDO:
+CUARTO: Que la parte demandante, al deducir la nulidad sustancial sostiene, en primer
+término, que el fallo objetado ha infringido los artículos 19, 20, 21, 22, 23, 24, 1698, 1699, 1700
+y 1706 del Código Civil y 175, 177, 341, 342, 425 y 428 del Código de Procedimiento Civil.
+         Esgrime que la sentencia impugnada incurrió en errores de derecho al vulnerar las leyes
+reguladoras de la prueba, por cuanto restó todo valor probatorio y desestimó la prueba
+documental aportada por la parte demandante, transgrediendo el artículo 1700 del Código Ci
+**Concordancias Legales:** artículos 19; artículo 1700 del Código Civil; artículos 1698 inciso 2; artículo 1700 del Código de Bello; artículo 175 del Código de Procedimiento Civil. Segui; artículo 425; artículos 1698; artículos 582; artículo 1.700; artículos 170; artículo 1.706; artículos 175; artículo 768; artículo 425 del Código de Procedimiento Civil; artículos 2304; artículos 764; artículo 16 del DL 2.695. Estima que; artículo 15; Ley 2695; Ley N° 2695; DL 2.695
+
+B) EN CUANTO AL RECURSO DE CASACIÓN EN EL FONDO:
 CUARTO: Que la parte demandante, al deducir la nulidad sustancial sostiene, en primer
 término, que el fallo objetado ha infringido los artículos 19, 20, 21, 22, 23, 24, 1698, 1699, 1700
 y 1706 del Código Civil y 175, 177, 341, 342, 425 y 428 del Código de Procedimiento Civil.
@@ -2190,6 +2245,15 @@ que acoge la solicitud de regularización de la posesión de un inmueble se cons
 
 ## título, e inscrita en el registro respectivo del Conservador de Bienes Raíces, el solicitante adquiere
 
+**Definición Canónica:** la calidad de poseedor regular para todos los efectos legales, no obstante existir inscripciones
+que no hayan sido materialmente canceladas; y transcurrido un año completo de posesión inscrita
+no interrumpida, contado de la data de la inscripción, se hace dueño del inmueble por
+prescripción, la que no se suspende en caso alguno. Según los incisos primero y segundo de su
+artículo 16, vigente a igual data, expirado el plazo de un año, prescriben las acciones emanadas
+de los derechos reales de dominio, usufructo, uso o habitación, servidumbres activas y el de
+hipotecas relativos al inmueble de qu
+**Concordancias Legales:** artículo 16; artículo 2505 del Código Civil; DL N° 2695
+
 la calidad de poseedor regular para todos los efectos legales, no obstante existir inscripciones
 que no hayan sido materialmente canceladas; y transcurrido un año completo de posesión inscrita
 no interrumpida, contado de la data de la inscripción, se hace dueño del inmueble por
@@ -2270,6 +2334,16 @@ de las declaraciones de los testigos presentados por su parte Sres. Alejandro Z�
 Alamiro Freire Bustos y Héctor Sepúlveda, se advierte que una vez comenzada la cosecha por
 
 ## parte del demandando, se le informó que lo estaba haciendo en un predio de propiedad de la
+
+**Definición Canónica:** demandante y, no obstante ello, no paralizó tales faenas.
+         Añade que también está probado cuál es el sector cosechado por el demandando, y que
+el valor de lo cosechado asciende a una suma de $27.836.638.
+         En según término, indica, aunque la sentencia ordena al demandando restituir a su
+representada el retazo de terreno del predio Colliguay que se individualiza en autos, ello no
+resulta suficiente tratándose de la restitución de la porción de un bien inmueble inscrito. En
+efecto, sostiene que, tratándose de inmuebles, resulta imperioso para la efectiva y completa
+restitución, qu
+**Concordancias Legales:** artículo 706 del Código Civil define a la buena fe en materia; artículo 707; artículos 1698 del Código Civil y 144
 
 demandante y, no obstante ello, no paralizó tales faenas.
          Añade que también está probado cuál es el sector cosechado por el demandando, y que
@@ -2368,6 +2442,16 @@ extraordinaria, con declaración que se ordena la cancelación parcial de la ins
 a nombre del demandado.
 
 ## En cuanto al recurso de casación en el fondo del
+
+**Definición Canónica:** DEMANDANTE:
+Segundo: Que el recurrente, en primer lugar, sostiene en su arbitrio de nulidad que la sentencia
+ha infringido los artículos 706, 907 y 913 del Código Civil al resolver que el demandado no se
+encuentra obligado a pagar a la actora el valor de los frutos percibidos, consistente en el valor de
+las especies arbóreas cosechadas en el predio reivindicado, porque se encontraba de buena fe
+atendido que ésta [cosecha] tuvo lugar antes de la presentación de la demanda. Sostiene, en
+síntesis, que los jueces incurren en un error en la noción de buena fe subjetiva, ya que en el caso
+de autos s
+**Concordancias Legales:** artículos 706; artículos 582; artículo 907; artículo 706 del Código Civil define a la buena fe en materia; artículo 707; artículo 908 del Código Civil; artículo 706 del Código Civil; Ley N°2695; Ley N°18.046
 
 DEMANDANTE:
 Segundo: Que el recurrente, en primer lugar, sostiene en su arbitrio de nulidad que la sentencia
@@ -2479,6 +2563,9 @@ recurso de casación en análisis no puede prosperar por adolecer de manifiesta 
 fundamento.
 
 ## En cuanto al recurso de casación en el fondo deducido del
+
+**Definición Canónica:** DEMANDADO:
+**Concordancias Legales:** artículos 686; artículo 2505 del Código Civil; artículo 2498 del Código Civil señala que dicha institución es; artículos 2508; artículo 782 del Código de Procedimiento Civil; artículos 1815; artículo 906; artículo 907; artículo 702; artículo 704 del Código de Bello. En lo atinente a las; artículos 889; artículos 674; artículos 2492; artículo 925 del Código de Bello. Agrega la sentencia; artículo 924; artículo 728; artículo 704 del Código Civil; artículo 717 del Código Civil; artículo 702 del Código Civil; artículo 717 del Código Civil. QUINTO; artículo 704; artículo 785 del Código de Procedimiento Civil; artículo 925 del Código Civil para dirimir el conflicto de rel; artículo 2492 del Código Civil; artículo 702 del Código Civil y dará lugar a la prescripción a; artículo 706 del Código Civil; artículos 582; artículo 2500; artículos 764; artículo 889 del Código Civil; artículo 1700 del Código Civil y artículo 342 N; artículo 425 del Código de Procedimiento Civil; artículos 169; artículo 5; artículos 170; artículo 186 del Código de Procedimiento Civil; artículo 83 del Código Orgánico de Tribunales. La im; artículo 170 del Código de Procedimiento Civil; Ley N°2695; Ley N° 3.390
 
 DEMANDADO:
 
@@ -3069,6 +3156,15 @@ por tanto, para hacer lugar a la acción reivindicatoria, señala que la demanda
 
 ## parte de los hechos de la demanda, específicamente, que ella ocupaba y estaba en posesión
 
+**Definición Canónica:** material del predio de la demandante, cuestión, que en definitiva, es una materia discutida en el
+     Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 62
+juicio, lo que además quedó reflejado en el hecho dos de la resolución que recibió la causa a
+prueba del catorce de mayo de dos mil veintiuno.
+DÉCIMO: Que todo lo anterior permite concluir que los jueces han omitido las consideraciones
+de hecho y de derecho respecto de la prueba que les sirvió de sustento, desentendiéndose así los
+juzgadores de la obligación de efectuar una reflexión que permi
+**Concordancias Legales:** artículo 768; artículo 170; artículo 170 del Código de Procedimiento Civil; artículo 775; artículos 766; artículo 786 del Código de Procedimiento Civil
+
 material del predio de la demandante, cuestión, que en definitiva, es una materia discutida en el
      Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 62
 juicio, lo que además quedó reflejado en el hecho dos de la resolución que recibió la causa a
@@ -3120,7 +3216,17 @@ conformidad con la ley.
 
 ## Visto: […]
 
-         SE TIENE, ADEMÁS, PRESENTE:
+**Definición Canónica:** SE TIENE, ADEMÁS, PRESENTE:
+     Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 63
+PRIMERO: Que lo que se debe dilucidar en esta sentencia es si se cumplen los requisitos de la
+acción contenida en el 889 del Código Civil que dispone: ‘La reivindicación o acción de dominio es la
+que tiene el dueño de una cosa singular, de que no está en posesión, para que el poseedor de ella sea condenado a
+restituírsela’.
+          Que de lo anteriormente reseñado se desprende que la acción podrá prosperar siempre
+que concurran ciertos requisitos, a saber, que
+**Concordancias Legales:** artículo 889 del Código Civil; artículos 724; artículo 700; artículo 728 del Código Civil estatuye que; artículo 2493 del Código Civil; artículo 15; artículo 16; artículo 310 del Código de Procedimiento Civil; artículos 186; artículo 670 del Código Civil; artículos 675; artículo 55 del Reglamento del Registro Conservatorio de Bien; artículo 670 del Código Civil define la tradición en cuanto mo; artículo 675; artículo 582 del Código Civil puntualiza lo que debe entenders; artículo 588; artículos 1793; artículo 1909; artículo 679 del Código Civil señala que si la ley exige solem; artículo 688; artículo 55 del Reglamento del Registro Conservatorio; artículos 695; artículo 1264 del Código Civil pues; artículos 704 del Código Civil; artículos 717; artículo 2498 del Código Civil establece la institución de la p; artículo 2508; artículos 2500; artículo 704 del Código Civil; artículo 728 del Código Civil que señala que la posesión inscr; artículo 728; artículos 1; artículos 9; artículos 12; artículos 13 de la Ley Nº19.253 y 12 de la Ley sobre el Efecto R; artículo 12; artículos 10; artículo 13 de la Ley sobre Efecto Retroactivo de las Leyes; artículo 1683; artículos 11
+
+SE TIENE, ADEMÁS, PRESENTE:
      Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 63
 PRIMERO: Que lo que se debe dilucidar en esta sentencia es si se cumplen los requisitos de la
 acción contenida en el 889 del Código Civil que dispone: ‘La reivindicación o acción de dominio es la
@@ -3599,6 +3705,15 @@ en especial con respecto al predio de 46,50 hectáreas, si éste la obtuvo, en s
 
 ## título inscrito de 1947 a favor del causante Juan Bautista Maricahuín Curiñán, pues la sucesión
 
+**Definición Canónica:** de éste, incluido Maricahuín Ayancán, vendió al demandante la totalidad de los derechos del
+predio, en 1966, quien inscribió a su nombre en 1973.
+         En lo concerniente al actuar oficioso del tribunal de primera instancia, en conformidad
+al artículo 12 N° 1, letra c), y 13 de la Ley N° 19.253, pues el predio es indígena, por lo mismo,
+prohibida su enajenación, embargo, gravamen o adquisición por prescripción, la sentencia
+impugnada precisa que con dicho razonamiento e interpretación se declara la nulidad absoluta
+de un contrato de compraventa de 15 de septiembre de 1966, y cancela la insc
+**Concordancias Legales:** artículo 12; artículo 56 de la Ley N; artículo 9 del Código Civil; artículo 1545; artículo 22 de la Ley sobre Efecto Retroactivo de las Leyes pre; artículo 728; artículo 704 del Código Civil; artículos 724; artículo 700; artículo 728 del Código Civil señala que la sola transferencia; artículo 694 del Código Civil; artículo 700 del Código Civil; artículo 730 del Código Civil y en general en el caso de venta; artículo 2505; artículo 730; artículo 925 del Código Civil; Ley N° 19.253; Ley Nº 19.253; Ley N° 2695; constitución
+
 de éste, incluido Maricahuín Ayancán, vendió al demandante la totalidad de los derechos del
 predio, en 1966, quien inscribió a su nombre en 1973.
          En lo concerniente al actuar oficioso del tribunal de primera instancia, en conformidad
@@ -3809,6 +3924,15 @@ preferente a quien detenta en tal supuesto la posesión material de la finca en 
 
 ## sección 2ª, p. 136 y Corte Suprema Rol N° 7032-2010) Trigésimo noveno: … En esas
 
+**Definición Canónica:** condiciones, de existir inscripciones paralelas vigentes respecto de un mismo bien raíz, la
+situación debe ser resuelta reconociendo un derecho preferente, u otorgando el amparo que las
+      Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 77
+leyes prescriben, precisamente a quien ejerce la posesión material de la finca en litigio, a quien
+favorece el adagio que reza «en igualdad de causa es mejor la del que posee» (Corte Suprema,
+Rol N° 12479-2018)’. Además, por sentencia dictada el 14 de enero de 2019, en causa rol número
+12.479-18, concluyó 
+**Concordancias Legales:** artículo 700 del Código Civil que preceptúa que la posesión es; artículos 764; artículos 889; artículo 688 del Código Civil exige otras inscripciones; artículo 688 del Código Civil; Ley N° 16.271
+
 condiciones, de existir inscripciones paralelas vigentes respecto de un mismo bien raíz, la
 situación debe ser resuelta reconociendo un derecho preferente, u otorgando el amparo que las
       Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 77
@@ -4003,6 +4127,11 @@ B.- En lo concerniente al actuar oficioso del tribunal de primera instancia, bas
 
 ## 12 N° 1, letra c), y 13 de la Ley N° 19.253, infiere que es correcta la decisión impugnada en
 
+**Definición Canónica:** cuanto revocó la resolución consecuente con dicha actuación, pues cuando se celebró el contrato
+de compraventa -15 de septiembre de 1966- no estaba vigente la mencionada ley ni la N° 17.729,
+y no existía, salvo las normas de derecho común, una que prohibiera o limitara su enajenación,
+**Concordancias Legales:** artículo 9 del Código Civil; artículo 704 del Código Civil; artículo 785 del Código de Procedimiento Civil; artículo 2498 del Código Civil señala que dicha institución es; artículos 2508; artículo 2507; artículos 186; Ley Nº 19.253
+
 cuanto revocó la resolución consecuente con dicha actuación, pues cuando se celebró el contrato
 de compraventa -15 de septiembre de 1966- no estaba vigente la mencionada ley ni la N° 17.729,
 y no existía, salvo las normas de derecho común, una que prohibiera o limitara su enajenación,
@@ -4121,11 +4250,10 @@ efectiva de la herencia de los mismos causantes, como se señaló.
 dictar sentencia de reemplazo, atendido que estuvo por desestimar los recursos de casación en
 el fondo”.
 
-
-## B) sentencias que concluyen que, en los casos de doble inscripción, debe
-
-
 ## Prevalecer aquella que ampara a quien también tiene un mejor derecho, sea por su
+
+**Definición Canónica:** ANTIGÜEDAD, SEA POR SER MÁS PERFECTA LA CADENA DE INSCRIPCIONES.
+**Concordancias Legales:** artículos 700; artículos 342; artículos 356
 
 ANTIGÜEDAD, SEA POR SER MÁS PERFECTA LA CADENA DE INSCRIPCIONES.
 
@@ -4207,6 +4335,15 @@ Fundo Las Vizcachas que contiene el Lote P3, que adquirió en virtud de reconsid
      Inscripciones paralelas en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 85
 
 ## parte de la Corporación de la Reforma Agraria mediante el acuerdo 482 de fecha 10 de abril de
+
+**Definición Canónica:** 1975, en el sentido de haberse excluido de dicha expropiación el inmueble en cuestión, siendo
+éste el título más antiguo de Rodeo Cordillera, inscribiéndose el terreno a su nombre en el año
+1976, inscripción que es excluida por la Corte, toda vez que, al momento de su adquisición, los
+planos del terreno existentes a esa fecha no incluían aquella parte correspondiente al Lote P3.
+         Agrega que en el año 1990, en el contexto de un procedimiento voluntario de
+rectificación de deslindes tramitado ante el 2° Juzgado de Letras de Puente Alto, se dictó
+sentencia declarativa en virtud de la cual
+**Concordancias Legales:** artículo 717 del Código Civil; artículos 2492; artículos 2505; artículo 717 del Código Civil. Así; artículo 785 del Código de Procedimiento Civil; artículo 1698 del Código Civil denunciado; artículo 1700 del Código Civil sobre el valor legal que debe dá; artículos 342; artículo 425 del Código de Enjuiciamiento Civil; artículo 425 del Código de Procedimiento Civil podrá siempre s; artículo 425 del Código de Procedimiento Civil; artículo 428 del Código de Procedimiento Civil
 
 1975, en el sentido de haberse excluido de dicha expropiación el inmueble en cuestión, siendo
 éste el título más antiguo de Rodeo Cordillera, inscribiéndose el terreno a su nombre en el año
@@ -4438,6 +4575,16 @@ acreditado por la demandante, quien tenía la carga legal de hacerlo. En tal dir
 advierte del proceso y lo han dejado consignado los jueces del fondo, la actora ha invocado como
 
 ## título fundante del dominio que reclama una inscripción que data del año 2013 y, si bien el
+
+**Definición Canónica:** demandado también ha esgrimido como título una inscripción que data del año 1995.
+Constatándose, de esta forma, que cuando existen inscripciones paralelas, aquélla que rola a
+nombre de la actora le antecede en antigüedad a la del demandado ya que la agregación de las
+posesiones se remite a la inscripción a nombre del Fisco de Chile que data del año 1982,
+circunstancia ésta que resulta suficiente para tener a Inmobiliaria El Peñón S.A. como dueña del
+inmueble objeto del litigio.
+         Lo anterior, además, según se desprende de los presupuestos fácticos inamovibles que
+se dejaron plasmados en
+**Concordancias Legales:** artículos 764; artículo 768; artículo 170; artículo 925 del Código Civil; artículo 58 del Reglamento del Registro del Conservador de Bi; artículo 58; artículos 682; artículos 4; artículo 724; artículos 686; artículo 728 del Código Civil; artículo 730 del Código en mención; artículo 2505 del Código Civil; artículo 2505; artículos 889; artículos 728; artículo 785 del Código de Procedimiento Civil
 
 demandado también ha esgrimido como título una inscripción que data del año 1995.
 Constatándose, de esta forma, que cuando existen inscripciones paralelas, aquélla que rola a
@@ -4905,7 +5052,17 @@ artículo 785 del Código de Procedimiento Civil, se dicta el siguiente fallo de
 
 ## Vistos: […]
 
-         Y SE TIENE, ADEMÁS, PRESENTE:
+**Definición Canónica:** Y SE TIENE, ADEMÁS, PRESENTE:
+1°) Que los demandantes han impetrado la reivindicación de la cuota hereditaria que, en
+conjunto, les corresponde en el inmueble de calle Maipú N° 231 de la ciudad de Concepción,
+integrante de los bienes quedados en la sucesión de doña Magdalena del Carmen Muñoz
+Sepúlveda, de cuya inscripción especial de herencia son titulares desde el año 1998, mientras que
+su causante exhibía la calidad de poseedora inscrita a partir del año 1974. Afirmaron que la
+demandada, pretendiéndose dueña y poseedora del mencionado bien, los ha privado de la
+posesión material del mismo y 
+**Concordancias Legales:** artículo 2517 del Código Civil
+
+Y SE TIENE, ADEMÁS, PRESENTE:
 1°) Que los demandantes han impetrado la reivindicación de la cuota hereditaria que, en
 conjunto, les corresponde en el inmueble de calle Maipú N° 231 de la ciudad de Concepción,
 integrante de los bienes quedados en la sucesión de doña Magdalena del Carmen Muñoz
@@ -4923,6 +5080,17 @@ necesaria que, de no producirse, hace improcedente el citado efecto extintivo.
          De allí, entonces, al no mediar en la especie la prescripción adquisitiva invocada por la
 
 ## parte demandada con relación al inmueble de la litis, como viene dicho en el fundamento décimo
+
+**Definición Canónica:** de la sentencia apelada, ninguna prescripción extintiva de la acción de dominio sobre éste podrá
+tenerse por concurrente;
+3°) Que, con arreglo al artículo 889 del Código Civil, la acción de dominio ‘es la que tiene el
+dueño de una cosa singular, de que no está en posesión, para que el poseedor de ella sea
+condenado a restituírsela’.
+         Por lo tanto, la reivindicatoria es la acción que tiene el dueño no poseedor contra el
+poseedor no dueño y, en virtud de ella, se persigue la declaración de ese dominio del reivindicante
+y la restitución a éste de la cosa en litigio.
+         Para que esta
+**Concordancias Legales:** artículo 889 del Código Civil; artículo 1268 del Código Civil; artículo 892; artículo 1815 del Código de Bello constituye un claro ejemplo d; artículo 988 del Código Civil; artículo 1184; artículos 186; artículo 700 del Código Civil. Explica el demandado q; artículo 700 del Código Civil denunciado como conculcado en el; artículo 889; artículo 700 del Código Civil. Al efecto; artículos 764; artículo 924 del Código Civil dispone; artículo 700 del Código Civil que preceptúa que la posesión es; artículos 1700; artículo 1700 del Código Civil; artículos 700 inciso 2; artículo 889 del Código Civil reconoce al dueño de una cosa qu; artículo 700 inciso 2; artículo 47; artículo 1712 del Código Civil; artículo 1567 inciso 1; artículo 728 del Código Civil; artículo 703; artículos 670; artículos 254; Ley N° 2695; Ley N° 2.695
 
 de la sentencia apelada, ninguna prescripción extintiva de la acción de dominio sobre éste podrá
 tenerse por concurrente;
@@ -5522,10 +5690,12 @@ por una escritura pública de resciliación de fecha 14 de junio de 2002, que se
 N° 2191 en el Registro de Propiedad del Conservador de Bienes Raíces de Concepción, año
 2002; no obstante, tal resciliación no pudo dejar sin efecto el título anterior, por no constituir un
 
-## título traslaticio de dominio; de suerte que la parte demandada no está en condiciones de exhibir
-
-
 ## título alguno de dominio anterior al año 1997, época a la que se remonta la inscripción de las
+
+**Definición Canónica:** actoras respecto de los derechos cuyo reconocimiento persiguen por medio de la acción
+reivindicatoria, la cual debe ser acogida, al reunirse los requisitos que la hacen procedente, de
+acuerdo con lo establecido en el artículo 889 del Código Civil;
+**Concordancias Legales:** artículo 889 del Código Civil; artículo 1700 del Código Civil; artículo 428 del Código de Procedimiento Civil; artículo 700 inciso 2; artículo 47; artículos 670; artículo 1567 inciso 1; artículo 686 del Código Civil consagra la norma general sobre; artículos 724; artículo 728 del Código Civil; artículo 1567 del Código Civil; artículo 728; artículo 728 del Código Civil que versa; artículos 88; artículo 717 inciso 2; artículos 765; artículos 889; artículos 19; artículos 15; artículo 19; artículo 924 del Código Civil; Ley N° 2.695; constitución; Constitución Política; constitucion
 
 actoras respecto de los derechos cuyo reconocimiento persiguen por medio de la acción
 reivindicatoria, la cual debe ser acogida, al reunirse los requisitos que la hacen procedente, de
@@ -6005,12 +6175,27 @@ expresa que, en uso de la citada garantía constitucional y conforme a lo dispue
 
 ## parte acompañó a la causa el contrato de compraventa por el cual adquirieron de Sara Gaete
 
+**Definición Canónica:** Martínez y otros el dominio de un inmueble agrícola ubicado en la comuna de Lolol, compuesto
+de La Propiedad y de la Hijuela Lo Pino. Agrega que, además, obra en autos la inscripción
+posesoria que ampara y acredita el dominio sobre La Propiedad y la hijuela Lo Pino y que, a su
+vez, para demostrar el transcurso del año de plazo a que se refiere el referido artículo 924, su
+**Concordancias Legales:** artículo 924
+
 Martínez y otros el dominio de un inmueble agrícola ubicado en la comuna de Lolol, compuesto
 de La Propiedad y de la Hijuela Lo Pino. Agrega que, además, obra en autos la inscripción
 posesoria que ampara y acredita el dominio sobre La Propiedad y la hijuela Lo Pino y que, a su
 vez, para demostrar el transcurso del año de plazo a que se refiere el referido artículo 924, su
 
 ## parte acudió a lo dispuesto en el inciso segundo del artículo 713 (sic)13, en cuanto autoriza agregar
+
+**Definición Canónica:** a su posesión la de sus antecesores, razón por la que se agregaron al proceso las anteriores
+inscripciones del inmueble La Propiedad y las inscripciones del inmueble Lo Pino, iniciadas en
+años 1925 y 1923, respectivamente.
+         Igualmente –prosigue el recurso-, con el mérito de las pruebas documental y testimonial,
+se acreditó la posesión material sobre el retazo reivindicado, tanto por los demandados, como
+por sus antecesores en la posesión, que es presunción del dominio. Se agrega que la inscripción
+en el Registro de Propiedad del inmueble reclamado a su nombre es prueba de la tradición 
+**Concordancias Legales:** artículo 717 del Código Civil. Inscripciones paralela; artículo 889 del Código Civil; artículo 16 del D.L. N; artículo 52 del Código Civil. Sin embargo; artículo 19; artículo 16; artículo 19 de la Constitución Política de la República; artículo 1698 del Código Civil; artículo 1698; artículos 1700; D.L. N° 2695; D.L. N° 2.695; constitucion; Constitución Política; Constitución
 
 a su posesión la de sus antecesores, razón por la que se agregaron al proceso las anteriores
 inscripciones del inmueble La Propiedad y las inscripciones del inmueble Lo Pino, iniciadas en
@@ -6214,6 +6399,14 @@ por la testimonial-, en cuyo mérito se afirma que, en los hechos, al Lote B ins
 la demandante le faltan 13,21 hectáreas en relación a la superficie que le corresponde según su
 
 ## título, mientras que los demandados ocupan cerca de 60 hectáreas, pese a que su título abarca
+
+**Definición Canónica:** sólo 47,17 de las mismas, resultando ser ese terreno demás justamente el que las partes se
+disputan en autos;
+UNDÉCIMO: Que luego de lo que se ha reflexionado, es útil dejar anotado que con arreglo al
+artículo 15 del D.L. N° 2.695, ‘transcurrido un año completo de posesión inscrita no
+interrumpida, contado desde la fecha de la inscripción, el interesado se hará dueño del inmueble
+por prescripción, la que no se suspenderá en caso alguno’.14
+**Concordancias Legales:** artículo 15 del D.L. N; artículo 16; artículo 15; artículo 25; artículo 889; artículo 767 del Código de Procedimiento Civil; artículos 764; artículos 14; artículo 26 del Decreto Ley N; artículo 15 del Decreto Ley N; artículo 16 del Decreto Ley N; artículo 2517 del Código Civil; artículo 889 del Código Civil. Al no haberlo decidido; artículo 907 del Código Civil dispone que el poseedor de mala; artículo 173 del Código de Procedimiento Civil. Y de; artículos 186; artículo 925 del Código Civil debe aplicarse sólo en dos casos; artículo 924; artículo 925; Ley N° 19.455; Ley N° 2.695; Ley N° 19.374; D.L. N° 2.695; DL N° 2.695
 
 sólo 47,17 de las mismas, resultando ser ese terreno demás justamente el que las partes se
 disputan en autos;
@@ -6637,6 +6830,15 @@ que posesión, prescripción y propiedad sean términos idénticos. No hay que o
 
 ## parte, que dentro de la organización de nuestro Registro Conservatorio así como dentro de las
 
+**Definición Canónica:** prescripciones legales del C. Civil, no pueden concebirse dos inscripciones simultáneas, a favor
+de distintas personas, que se neutralicen mutuamente: ello significaría socavar en su esencia y
+fundamento la fe del Registro Conservatorio”.
+         Como lógico corolario de su argumentación, concluye Trucco: “Es principio dominante
+sobre esta materia el de que no pueda cesar una posesión inscrita sin que haya cancelación de la
+inscripción anterior (art. 728 del C. C); y si en el hecho, pues, el Conservador inscribe una misma
+propiedad a favor de dos distintas personas por ignorancia, descuido o 
+**Concordancias Legales:** artículo 925; artículo 58 del Reglamento con los caracteres de imprescindib; artículos 728; artículo 2505; artículos 686; artículo 730; artículo 725; artículo 728
+
 prescripciones legales del C. Civil, no pueden concebirse dos inscripciones simultáneas, a favor
 de distintas personas, que se neutralicen mutuamente: ello significaría socavar en su esencia y
 fundamento la fe del Registro Conservatorio”.
@@ -6775,6 +6977,15 @@ artículo 728, se refiera a la permanencia de la inscripción, absoluta e inamov
 título inscrito respecto de la misma propiedad. Sólo mantiene su efecto contra hechos materiales.
 
 ## 30. Esta afirmación a que debe llegarse, se patentiza de resalto con el precepto consignado en el
+
+**Definición Canónica:** inciso 2º del artículo 730, perteneciente al mismo párrafo. Dice este inciso a la letra: ‘Con todo,
+si el que tiene la cosa en lugar y a nombre de un poseedor inscrito (el caso del artículo 728) se da
+por dueño de ella y la enajena, no se pierde por una parte la posesión, ni se adquiere por otra, sin
+la competente inscripción’. 31. Aquí en este inciso se expresa perentoriamente que el artículo
+728 sólo regla el caso de un ataque físico de posesión material contra posesión inscrita, pues
+autoriza poseer contra un poseedor inscrito, a cualquier otro poseedor también inscrito, respecto
+de la mism
+**Concordancias Legales:** artículo 730; artículo 728; artículo 2505; artículo 2492; artículos 717; artículos 728; artículos 2505; artículo 924 del Código Civil; artículo 925; artículo 925 del Código Civil; artículos 924; artículo 682; artículos 683; artículo 925 del Código Civil. 5; artículo 915 del Código civil. Mayoritariamente se advierte qu; artículo 915; artículo 924; artículo 700; artículo 511 del Código Civil de Prusia; artículo 2498; artículos 2498; ley 2695; DL. 2.695; DL N° 2695
 
 inciso 2º del artículo 730, perteneciente al mismo párrafo. Dice este inciso a la letra: ‘Con todo,
 si el que tiene la cosa en lugar y a nombre de un poseedor inscrito (el caso del artículo 728) se da
@@ -7742,6 +7953,15 @@ la misma (artículos 2498-2504 CC) y justo antes de aquella que efectúa esta cl
 
 ## 2506 CC). Además, el fundamento de esta restricción no procede de la introducción de un
 
+**Definición Canónica:** requisito adicional, que se deba añadir a la posesión y el transcurso del tiempo, sino del hecho
+que es la inscripción la manera en que se reputa existir posesión efectiva sobre un inmueble
+(artículo 696 CC), sin la cual solo hay mera tenencia”.
+         Debe descartarse, por ende, que alguien pueda adquirir por prescripción, ni aun la
+extraordinaria, invocando sólo posesión material. Sin inscripción no hay posesión: “En materia
+de inmuebles, eso nunca puede ocurrir mientras subsista la competente inscripción (artículo 728
+CC), y será tal aquella que cumpla con los principios registrales (roga
+**Concordancias Legales:** artículo 696; artículo 728; artículos 686; artículo 915; artículos 696; artículo 1817; artículo 14; artículo 924 del Código Civil y a la función probatoria que es; artículos 717; artículo 700 inciso 2; artículo 924; artículo 1076; artículos 1075; artículo 925; artículo 101 del Reglamento del Registro Conservatorio; artículo 58; artículo 700; artículo 700 del Código Civil consagra un concepto material de; artículo 700 del Código Civil y reforzada por la preeminencia; artículo 700 del Código Civil en términos de la efectiva relac; DL N° 2.695; DL 2695; constitución
+
 requisito adicional, que se deba añadir a la posesión y el transcurso del tiempo, sino del hecho
 que es la inscripción la manera en que se reputa existir posesión efectiva sobre un inmueble
 (artículo 696 CC), sin la cual solo hay mera tenencia”.
@@ -8220,7 +8440,17 @@ visión formal y normativizada que ofrece la posesión inscrita”.66
 
 ## 66      Inscripciones
 
-     PEREIRA          paralelas
+**Definición Canónica:** PEREIRA          paralelas
+              (2020) pp.        en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 166
+                         327-346.
+         En un segundo trabajo, referido a las “inscripciones de papel”, Pereira expresa, a
+propósito de la teoría de la posesión inscrita, que “Una cuestión central es la falta de encaje entre
+dos dimensiones de la posesión; a saber, la simbólica y la fáctica. Tal cuestión se encuentra
+conspicuamente retratada en las inscripciones de papel”. Expresa que “la tensión entre el
+símbolo y el factum de la posesión debe ser resuelt
+**Concordancias Legales:** artículo 700 del Código Civil. Dicho compromiso material se en; artículo 700 del Código Civil; artículo 700 del Código Civil. No hay que olvidar que algunos; artículos 728; artículo 700; artículo 19 del Decreto Ley 2.695 y no en los artículos 728; artículo 920; artículo 915; artículo 2195; artículo 219469; artículo 728 inciso 2; artículo 728; Ley N° 2.695; Ley 2.695; DL N° 2.695; constitucion
+
+PEREIRA          paralelas
               (2020) pp.        en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 166
                          327-346.
          En un segundo trabajo, referido a las “inscripciones de papel”, Pereira expresa, a
@@ -8544,6 +8774,15 @@ ya por olvido o por ignorancia legal, el hecho es que no hemos procedido a la in
 
 ## título. Para los sostenedores absolutos de la teoría de la posesión inscrita yo no tengo sobre el
 
+**Definición Canónica:** predio ninguna relación considerada por la ley (…) -añade más adelante- que el vendedor,
+poseedor inscrito, pretende accionar luego de 35 años’. En el caso, el poseedor inscrito
+(vendedor), no puede entablar ni interdictos posesorios, ni reivindicar, por la confusa calidad del
+sujeto pasivo que no es poseedor, ni mero tenedor, quien ostenta una ventaja superior a todas las
+protecciones posibles: la invulnerabilidad de toda acción’. En la tesis de Álvarez, el comprador del
+ejemplo, sí es poseedor, pero irregular (702 – 708). Esta posesión, en su carácter de irregular,
+conduciría naturalmente a 
+**Concordancias Legales:** artículo 925; constitucion; Constitución
+
 predio ninguna relación considerada por la ley (…) -añade más adelante- que el vendedor,
 poseedor inscrito, pretende accionar luego de 35 años’. En el caso, el poseedor inscrito
 (vendedor), no puede entablar ni interdictos posesorios, ni reivindicar, por la confusa calidad del
@@ -8643,6 +8882,15 @@ requisitos (que en este caso es la inscripción), que impidan el libre ejercicio
 
 ## 8. La teoría de la posesión inscrita ha producido una cantidad importante de debates en un tema
 
+**Definición Canónica:** sensible en que debería existir mayor certeza jurídica: la propiedad inmueble termina quedando
+protegida por la jurisprudencia, dentro de un sistema en que el primer llamado a brindar una
+protección clara es el legislador. 9. Un punto sensible de esta teoría se da en los casos en que el
+‘detentador especial’ frente a la reivindicación del ‘poseedor inscrito’, exhibe ‘justo título’ y
+‘buena fe’; en estos casos, la jurisprudencia de la Corte Suprema, tiende a proteger al ‘detentador
+especial’, normalmente ‘rebuscando’ argumentos que, sin ir en contra de la ‘teoría de la posesión
+inscrita’, prote
+**Concordancias Legales:** artículo 2505 del Código Civil; artículo 2510 del Código Civil; artículo 2505 del Código Civil se refiere sólo a la prescripció
+
 sensible en que debería existir mayor certeza jurídica: la propiedad inmueble termina quedando
 protegida por la jurisprudencia, dentro de un sistema en que el primer llamado a brindar una
 protección clara es el legislador. 9. Un punto sensible de esta teoría se da en los casos en que el
@@ -8726,7 +8974,17 @@ extraordinaria, contra título inscrito.75
 
 ## 75     Inscripciones
 
-     DOMÍNGUEZ       paralelas
+**Definición Canónica:** DOMÍNGUEZ       paralelas
+                 (2019)        en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 176
+                        pp. 311-319.
+         La sentencia de la Corte de Concepción, de fecha 10 de julio de 2018, criticada por
+Domínguez, fue sin embargo anulada por la Corte Suprema, por fallo de fecha 22 de abril de
+2021, autos Rol N° 19.261-2018, habida cuenta que el demandado carecía de una inscripción en
+su favor sobre el predio objeto del litigio y por ende no podía atribuírsele la calidad de poseedor,
+que lo habilitare para alegar prescripción adquisi
+**Concordancias Legales:** artículo 2517 del Código Civil; artículo 700 del Código Civil. En este sentido; artículo 925; artículo 2505 del Código Civil. Por ende; artículo 2510 del Código Civil; artículo 700; artículos 696; DL N° 2695
+
+DOMÍNGUEZ       paralelas
                  (2019)        en el registro conservatorio de bienes raíces – Juan Andrés Orrego Acuña 176
                         pp. 311-319.
          La sentencia de la Corte de Concepción, de fecha 10 de julio de 2018, criticada por
@@ -8960,6 +9218,11 @@ declarase la prescripción que había operado en su favor, la sentencia debiera 
 
 ## parte, si se verifica que se cumplieron todos los requisitos que exigen aquellas disposiciones
 
+**Definición Canónica:** legales, esto es: i) Quien alegó la prescripción, había obtenido una inscripción a su favor sobre
+el inmueble, que por lo demás estaba imbricada con su posesión material; y, ii) Porque transcurrió
+el plazo previsto en la ley para declarar dicha prescripción, incluso la extraordinaria.
+**Concordancias Legales:** artículo 728 del Código Civil. Ahora bien
+
 legales, esto es: i) Quien alegó la prescripción, había obtenido una inscripción a su favor sobre
 el inmueble, que por lo demás estaba imbricada con su posesión material; y, ii) Porque transcurrió
 el plazo previsto en la ley para declarar dicha prescripción, incluso la extraordinaria.
@@ -9149,9 +9412,16 @@ esencialmente caracterizada por la realidad o la apariencia del dominio; no es p
 finca sino el que la tiene como suya, sea que se halle materialmente en su poder, o en poder de
 otro que le reconoce como dueño de ella”.
 
-
 ## Bibliografía
 
+**Definición Canónica:** ALCALDE SILVA, JAIME (2019a), “Notas para una relectura del sistema de propiedad raíz en el
+Derecho chileno”, en Domínguez C. (editor), Estudios sobre propiedad y posesión (Santiago de Chile,
+Thomson Reuters), pp. 33-64.
+ALCALDE SILVA, JAIME (2019b), “De los bienes y de su dominio, posesión, uso y goce”, en
+Revista Chilena de Derecho Privado, N° 33, [diciembre 2019], pp. 205-229.
+ALISTE SANTI, PATRICIO (2023), “Comentario de jurisprudencia. La relación entre posesión e
+inscripción a propósito de la prescripción adquisitiva en inscripciones paralelas. Sentencia de la
+Corte Suprema de 8 de junio
 
 ALCALDE SILVA, JAIME (2019a), “Notas para una relectura del sistema de propiedad raíz en el
 Derecho chileno”, en Domínguez C. (editor), Estudios sobre propiedad y posesión (Santiago de Chile,
@@ -9175,6 +9445,17 @@ ATRIA LEMAITRE, FERNANDO (2012), “La posesión inscrita y la protección del d
 posesión”, en Estudios de Derecho Civil VII. Jornadas Nacionales de Derecho Civil. Viña del Mar,
 
 ## 2011. Fabián Elorriaga de Bonis (coordinador), (Santiago de Chile, AbeledoPerrot – Thomson
+
+**Definición Canónica:** Reuters), pp. 267-276.
+CLARO SOLAR, LUIS (1932), Explicaciones de Derecho Civil y Comparado, Tomo séptimo, “Los
+Bienes”, II, (Santiago de Chile, Imprenta Cervantes), pp. 586-589).
+CLARO VIAL, JOSÉ (1938), La posesión inscrita ante la doctrina y la jurisprudencia, proyecto de reforma
+(Tesis para optar al grado de licenciado en ciencias jurídicas y sociales, Facultad de Derecho,
+Universidad de Chile).
+CORRAL TALCIANI, HERNÁN (2020), Curso de Derecho Civil. Bienes (Santiago de Chile, Thomson
+Reuters).
+DOMÍNGUEZ ÁGUILA, RAMÓN (2019), “Comentario de jurisprudencia”, en Revista de Derecho,
+(Universi
 
 Reuters), pp. 267-276.
 CLARO SOLAR, LUIS (1932), Explicaciones de Derecho Civil y Comparado, Tomo séptimo, “Los

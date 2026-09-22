@@ -13,19 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Ley Nº 20.720
+             Sobre
+             Reorganización
+             y Liquidación
+             de Activos
+             de Empresas
+             y Personas
+**Concordancias Legales:** Ley Nº 20.720
 
-             Ley Nº 20.720
+Ley Nº 20.720
              Sobre
              Reorganización
              y Liquidación
@@ -44,19 +43,21 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Nicolás
+                                  Jofré
+                                  Caro
+                             Administrador Público y egresado de
+                             Derecho, posee un MBA o Magíster en
+                             Administración General de Empresas y
+                             diversos postítulos en Procedimientos
+                             Civiles Especiales y Recursos Procesa-
+                             les. Su formación incluye diplomados
+                             en Liderazgo y Felicidad Organizacio-
+                             nal; Derecho de Empr
 
-                             Nicolás
+Nicolás
                                   Jofré
                                   Caro
                              Administrador Público y egresado de
@@ -92,13 +93,12 @@ Nº 20                        Derecho Económico en la Universidad
 Santiago,                    San Sebastián, Universidad Católica
 Chile 2021                   del Norte y Universidad Andrés Bello.
 
-
-## Isbn n°
-
-
 ## 2022-a-1838
 
-Ley Nº 20.720                                                                                                  3
+**Definición Canónica:** Ley Nº 20.720                                                                                                  3
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 20.720
+
+Ley Nº 20.720                                                                                                  3
 
                                         Resumen
 
@@ -133,315 +133,12 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
 
                                         Introducción                                                                                         7
 
-
-## 1. Insolvencia en Chile                                                                             10
-
-
-
-## 1.1 Breve reseña a la evolución del derecho concursal chileno                                    11
-
-
-
-## 1.2 Ley N° 20.720 sobre Reorganización y liquidación de empresas y personas deudoras             16
-
-
-
-## 1.3 La nueva justicia concursal en cifras, a siete años de su entrada en vigencia                21
-
-
-
-## 2. Ley N° 20.720 sobre Reorganización y liquidación de empresa y personas deudoras. Generalidades   26
-
-
-
-## 2.1 Ámbito de aplicación                                                                         27
-
-
-
-## 2.2 Supuesto objetivo                                                                            29
-
-
-
-## 2.3 Supuesto subjetivo                                                                           34
-
-
-
-## 2.4 Estructura                                                                                   36
-
-
-
-## 2.5 Disposiciones generales a los procedimientos                                                 40
-
-
-
-## 2.5.1 Definiciones                                                                          40
-
-
-
-## 2.5.2 Competencia                                                                           41
-
-
-
-## 2.5.3 Recursos                                                                              41
-
-
-
-## 2.5.4 Incidentes                                                                            43
-
-
-
-## 2.5.5 Notificaciones                                                                        43
-
-
-
-## 2.5.6 Plazos                                                                                44
-
-
-
-## 2.5.7 Exigibilidad                                                                          44
-
-
-
-## 2.6 Administradores concursales.Veedor y Liquidador.                                             46
-
-
-
-## 2.6.1 Veedor                                                                                46
-
-
-
-## 2.6.2 Liquidador                                                                            48
-
-
-
-## 3. Procedimientos de Reorganización de Empresa Deudora y de Renegociación de Persona Deudora        51
-
-
-
-## 3.1 Procedimiento de Reorganización de Empresa Deudora                                           54
-
-
-
-## 3.1.1 Objetivos                                                                             54
-
-
-
-## 3.2 Tramitación del procedimiento de Reorganización                                              56
-
-
-
-## 3.2.1 Antecedentes                                                                          56
-
-
-
-## 3.2.2 Nominación del Veedor                                                                 59
-
-
-                                                3.2.3 ¿Relatar/acreditar insolvencia? Facultades del juez.                                  60
-
-
-## 3.2.4 Resolución de Reorganización                                                          60
-
-Ley Nº 20.720                                                                       Índice                                                            5
-
-
-## 3.2.5 Protección Financiera Concursal                                                           64
-
-
-
-## 3.2.6 Financiamiento y continuación de actividades durante la Protección Financiera Concursal   67
-
-
-
-## 3.2.7 Fase de acuerdo                                                                           70
-
-
-
-## 3.2.8 Efectos del acuerdo                                                                       77
-
-
-
-## 3.2.9 Ineficacia del acuerdo                                                                    80
-
-
-
-## 3.3 Procedimiento de Renegociación de Persona Deudora                                                87
-
-
-
-## 3.3.1 Ámbito de aplicación                                                                      87
-
-
-
-## 3.3.2 Requisitos                                                                                88
-
-
-
-## 3.3.3 Solicitud de inicio del procedimiento                                                     89
-
-
-
-## 3.3.4 Etapas del procedimiento                                                                  90
-
-
-
-## 3.3.5 Impugnación de los acuerdos de renegociación y de ejecución                               97
-
-
-
-## 3.3.6 Resolución de término                                                                     98
-
-
-
-## 4. Procedimiento de Liquidación de Empresa y Persona Deudora                                            100
-
-
-
-## 4.1 Clases de liquidaciones                                                                          102
-
-
-
-## 4.1.1   Liquidación Voluntaria                                                                  102
-
-
-
-## 4.1.2 Liquidación Refleja                                                                       106
-
-
-
-## 4.1.3 Liquidación Forzada                                                                       107
-
-
-
-## 4.2 Efectos de la Resolución de Liquidación                                                          118
-
-
-
-## 4.2.1 Efectos sobre los bienes                                                                  118
-
-
-
-## 4.2.2 Efectos respecto de las obligaciones                                                      119
-
-
-
-## 4.2.3 Efectos respecto de los juicios                                                           120
-
-
-
-## 4.2.4 Efectos respecto de los contratos                                                         121
-
-
-
-## 4.3 Determinación del pasivo                                                                         122
-
-
-
-## 4.3.1 Verificación ordinaria                                                                    122
-
-
-
-## 4.3.2 Objeción e impugnación de créditos                                                        123
-
-
-
-## 4.3.3 Verificación extraordinaria                                                               124
-
-
-
-## 4.4 Realización de los activos                                                                       125
-
-
-
-## 4.4.1 Realización simplificada o sumaria                                                        125
-
-
-
-## 4.4.2 Realización ordinaria                                                                     126
-
-Ley Nº 20.720                                                                                                                        6
-
-
-## 4.4.3   Venta como unidad económica                                            127
-
-
-
-## 4.4.4   Oferta de compra directa                                               129
-
-
-
-## 4.4.5   Leasing                                                                129
-
-
-
-## 4.5 Término del Procedimiento Concursal de Liquidación                              132
-
-
-
-## 4.5.1   Por dictación de la Resolución de término                              132
-
-
-
-## 4.5.2   Por Acuerdo de Reorganización Judicial                                 134
-
-
-
-## 5. Acciones Revocatorias Concursales                                                   136
-
-
-
-## 5.1 Aspectos generales                                                              137
-
-
-
-## 5.2 Revocabilidad objetiva                                                          139
-
-
-
-## 5.2.1   Causales                                                               139
-
-
-
-## 5.2.2   La actuación jurisdiccional                                            141
-
-
-
-## 5.3 Revocabilidad subjetiva                                                         143
-
-
-
-## 5.3.1   Requisitos de la revocabilidad subjetiva                               144
-
-
-
-## 5.4 Revocabilidad y las reformas a los pactos o estatutos sociales                  146
-
-
-
-## 5.5 Revocación de actos ejecutados o contratos celebrados por una Persona Deudora   147
-
-
-
-## 5.6 Sentencia de revocabilidad y sus efectos                                        148
-
-
-
-## 5.6.1   Efectos entre las partes                                               148
-
-
-
-## 5.6.2   Efectos respecto de terceros                                           149
-
-
-
-## 5.7 Recursos                                                                        150
-
-
-
 ## 5.8 Costas y recompensas                                                            151
 
+**Definición Canónica:** Bibliografía                                                                           152
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 18.175; Ley N° 20.720
 
-                                        Bibliografía                                                                           152
+Bibliografía                                                                           152
 
 ←
 Ley Nº 20.720                                                               Introducción                                                                    7
@@ -518,14 +215,13 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
                                                                           a la fecha, que impedía que la justicia concursal sirviere en toda su
                                                                           amplitud como solución a la insolvencia del colectivo, y erigir al
 
-
-## 2   Historia de la Ley N° 20.720, que sustituye el régimen concursal vigente por una Ley de Reorganización de
-
-                                            Empresas y Personas, Mensaje Presidencial (pp. 189-190).
-
 ## 3   Ya el texto del mensaje presidencial señala expresamente “en segundo lugar”, para designar a los procedi-
 
-                                            mientos de liquidación como alternativa a los convenios o “procedimientos de reorganización”.
+**Definición Canónica:** mientos de liquidación como alternativa a los convenios o “procedimientos de reorganización”.
+Ley Nº 20.720                                        Introducción                                                         9
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 20.720
+
+mientos de liquidación como alternativa a los convenios o “procedimientos de reorganización”.
 Ley Nº 20.720                                        Introducción                                                         9
 
                                                      fracaso empresarial como una situación a la que todos los sectores
@@ -567,10 +263,12 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
                                           en Chile
 Ley Nº 20.720                                                                                                                                     11
 
-
 ## 1.1           Breve reseña a la evolución del
 
-                                                                          derecho concursal chileno
+**Definición Canónica:** derecho concursal chileno
+**Concordancias Legales:** Ley N° 4.558
+
+derecho concursal chileno
 
                                                                           Libro Cuarto del Código de Comercio de Ocampo (1867) y Ley N° 4.558,
                                                                           de 1929
@@ -595,7 +293,12 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
 
 ## parte de un comerciante. Empero, se aclaró que no resulta indispen-
 
-                                                                          sable que la cesación de pagos fuera de carácter general, toda vez que
+**Definición Canónica:** sable que la cesación de pagos fuera de carácter general, toda vez que
+                                                                          el mercante puede evitar tales incumplimientos por medio de actos
+                                                                          en desmedro de su activo.5
+**Concordancias Legales:** Ley N° 4.558
+
+sable que la cesación de pagos fuera de carácter general, toda vez que
                                                                           el mercante puede evitar tales incumplimientos por medio de actos
                                                                           en desmedro de su activo.5
 
@@ -605,14 +308,13 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
                                                                           los bienes de las personas que caigan en falencia, liquidar y pagar
                                                                           sus deudas y desempeñar las demás funciones que le encomienda la
 
-
-## 4   JARA AMIGO, R. (2010): “José Gabriel Ocampo y la codificación comercial chilena”, en Revista Chilena de
-
-                                            Derecho, Nº 30 (3); pp. 173-175.
-
 ## 5   Código de Comercio de la República de Chile, de 1 de enero de 1867, Biblioteca del Congreso Nacional de
 
-                                            Chile. Recuperado online [fecha de consulta: 23 de marzo de 2021].
+**Definición Canónica:** Chile. Recuperado online [fecha de consulta: 23 de marzo de 2021].
+Ley Nº 20.720                                                                                 Insolvencia en Chile                                                       12
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 18.175; Ley N° 4.558
+
+Chile. Recuperado online [fecha de consulta: 23 de marzo de 2021].
 Ley Nº 20.720                                                                                 Insolvencia en Chile                                                       12
 
                                                                                               presente ley”6. Lo interesante de esta modificación sería el radical
@@ -655,7 +357,10 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
 
 ## 7        RUZ LÁRTIGA, G. (2017): Nuevo Derecho Concursal Chileno, Tomo I: Reorganización de Empresa Deudora y
 
-                                                               Renegociación de Persona Deudora; Santiago, Legal Publishing Chile; p. 25.
+**Definición Canónica:** Renegociación de Persona Deudora; Santiago, Legal Publishing Chile; p. 25.
+**Concordancias Legales:** Ley Nº 20.720
+
+Renegociación de Persona Deudora; Santiago, Legal Publishing Chile; p. 25.
 
 Ley Nº 20.720                                                                               1. Insolvencia en Chile                                                      13
 
@@ -692,10 +397,15 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
                                                                                               mente el desempeño de los síndicos. Además, estableció una nueva
                                                                                               distinción entre personas que ejercieran una actividad comercial,
 
-
 ## 8        CONTADOR ROSALES, N. y PALACIOS VERGARA, C. (2015): Procedimientos concursales. Ley de insolvencia
 
-                                                               y reemprendimiento; Santiago, Legal Publishing Chile; p. 4.
+**Definición Canónica:** y reemprendimiento; Santiago, Legal Publishing Chile; p. 4.
+                                                      9        Ibid.
+                                                      10       Ley N° 18.175, de 28 de octubre de 1982, que fija nuevo texto de la Ley de Quiebras; Biblioteca del Congreso
+                                                               Nacional de Chile, recuperado online [fecha de consulta: 23 de marzo de 2021].
+**Concordancias Legales:** Artículos 74; Ley N° 18.175; Ley Nº 20.720; Ley N° 20.005; Ley N° 20.080; Ley N° 20.073
+
+y reemprendimiento; Santiago, Legal Publishing Chile; p. 4.
                                                       9        Ibid.
                                                       10       Ley N° 18.175, de 28 de octubre de 1982, que fija nuevo texto de la Ley de Quiebras; Biblioteca del Congreso
                                                                Nacional de Chile, recuperado online [fecha de consulta: 23 de marzo de 2021].
@@ -753,10 +463,12 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
 
 Ley Nº 20.720                                                                                1. Insolvencia en Chile                                                         16
 
-
 ## 1.2           Ley N° 20.720 sobre Reorganización y liquidación
 
-                                                                                               de empresas y personas deudoras
+**Definición Canónica:** de empresas y personas deudoras
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 20.720; Ley N° 18.175; Ley Nº 19.628
+
+de empresas y personas deudoras
 
                                                                                                Cabe subrayar que el mensaje presidencial contenido en el entonces
                                                                                                Proyecto de Reforma a la Ley Concursal realiza una explícita des-
@@ -952,10 +664,12 @@ Chile 2021                   del Norte y Universidad Andrés Bello.
 
 Ley Nº 20.720                                                        1. Insolvencia en Chile                                              21
 
-
 ## 1.3     La nueva justicia concursal en cifras, a
 
-                                                                       siete años de su entrada en vigencia
+**Definición Canónica:** siete años de su entrada en vigencia
+**Concordancias Legales:** Ley N° 20.720; Ley Nº 20.720; Ley N° 18.17517; Ley Nº 18.175
+
+siete años de su entrada en vigencia
 
                                                                        Con fecha 4 de enero de 2014 es publicada la Ley N° 20.720, cuyo
                                                                        nombre oficial es “Sustituye al Régimen Concursal Vigente por
@@ -1106,10 +820,12 @@ Sobre Reorganización y                                                  Reorgan
 Liquidación de Activos                                                  liquidación de empresas
 de Empresas y Personas                                                  y personas deudoras
 
-
 ## 2.1     Ámbito
 
-                                                                       de aplicación
+**Definición Canónica:** de aplicación
+**Concordancias Legales:** Ley N° 20.720; Ley N° 20.416
+
+de aplicación
 
                                                                        La Ley N° 20.720 describe su ámbito de aplicación en su primer
                                                                        artículo, al señalar que “la presente ley establece el régimen gene-
@@ -1145,7 +861,10 @@ de Empresas y Personas                                                  y person
 
 ## parte de sus bienes, prescindir de ellos u obtener otros para garantizar
 
-                                                                       el salvamento del solicitante.
+**Definición Canónica:** el salvamento del solicitante.
+**Concordancias Legales:** artículo 1; artículo 266; artículo 267; Ley Nº 20.720; Ley N° 20.720; Ley N° 1.116
+
+el salvamento del solicitante.
 
 Ley Nº 20.720                                                  2. Ley N° 20.720 sobre                                                   28
 
@@ -1173,10 +892,12 @@ Sobre Reorganización y                                                         
 Liquidación de Activos                                                                       liquidación de empresas
 de Empresas y Personas                                                                       y personas deudoras
 
-
 ## 2.2           Supuesto
 
-                                                                                            objetivo
+**Definición Canónica:** objetivo
+**Concordancias Legales:** artículo 2; Ley N° 20.720; Ley N° 20.416
+
+objetivo
 
                                                                                             Para referirnos a este punto, corresponde identificar el supuesto
                                                                                             que permite iniciar, solicitar o participar en un procedimiento de
@@ -1209,10 +930,12 @@ de Empresas y Personas                                                          
                                                                                             su artículo 2° dice que se encuentran en este estado las personas o
                                                                                             empresas “en imposibilidad de pagar una o más de sus obligaciones”.
 
-
 ## 18       GURREA MARTÍNEZ, A. (2018): El Derecho concursal en España: Problemas estructurales y propuestas de
 
-                                                               reforma; Madrid, Editorial Reus; p. 10.
+**Definición Canónica:** reforma; Madrid, Editorial Reus; p. 10.
+**Concordancias Legales:** artículo 2; artículos 115; artículos 56; Ley Nº 20.720; Ley N° 20.720; Ley 4859
+
+reforma; Madrid, Editorial Reus; p. 10.
 
 Ley Nº 20.720                                                                               2. Ley N° 20.720 sobre                                                       30
 Sobre Reorganización y                                                                         Reorganización y
@@ -1373,10 +1096,12 @@ Sobre Reorganización y                                                  Reorgan
 Liquidación de Activos                                                  liquidación de empresas
 de Empresas y Personas                                                  y personas deudoras
 
-
 ## 2.3     Supuesto
 
-                                                                       subjetivo
+**Definición Canónica:** subjetivo
+**Concordancias Legales:** artículo 1; artículo 2; artículo 42; Ley Nº 20.720; Ley N° 20.720; DL N° 824
+
+subjetivo
 
                                                                        El ya referido artículo 1° de la Ley de Insolvencia y Reemprendimien-
                                                                        to hace referencia a quienes pueden ser objeto del concurso en Chile.
@@ -1437,11 +1162,16 @@ Sobre Reorganización y                                              Reorganizac
 Liquidación de Activos                                              liquidación de empresas
 de Empresas y Personas                                              y personas deudoras
 
-
 ## 2.4   Estructura
 
+**Definición Canónica:** La Ley N° 20.720 se encuentra sistematizada en diez capítulos y un
+                                                                     apartado de disposiciones transitorias. En ellos se regulan aspectos
+                                                                     tanto sustantivos, como adjetivos, destacando la introducción de
+                                                                     nuevas materias no contempladas bajo la Ley N° 18.175, relativas a
+                                                                     Insolvencia transfronteriza y Arbitraje concursal.
+**Concordancias Legales:** artículo 2; Ley N° 20.720; Ley N° 18.175; Ley Nº 20.720
 
-                                                                     La Ley N° 20.720 se encuentra sistematizada en diez capítulos y un
+La Ley N° 20.720 se encuentra sistematizada en diez capítulos y un
                                                                      apartado de disposiciones transitorias. En ellos se regulan aspectos
                                                                      tanto sustantivos, como adjetivos, destacando la introducción de
                                                                      nuevas materias no contempladas bajo la Ley N° 18.175, relativas a
@@ -1491,7 +1221,11 @@ de Empresas y Personas                                              y personas d
 
 ## capítulo de la ley consagra los requisitos, funciones y obligaciones de
 
-                                                                 la administración concursal, como también su régimen sancionatorio,
+**Definición Canónica:** la administración concursal, como también su régimen sancionatorio,
+                                                                 respecto del cual será fiscalizador y juez la Superir.
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 20.720
+
+la administración concursal, como también su régimen sancionatorio,
                                                                  respecto del cual será fiscalizador y juez la Superir.
 
                                                                  Continuando con el estudio de la ley, su tercer capítulo, rotulado Del
@@ -1556,7 +1290,15 @@ de Empresas y Personas                                              y personas d
 
 ## capítulo, los remedios destinados a restar eficacia a aquellas actua-
 
-                                                                 ciones que perjudiquen los intereses de la masa, bajo el título De las
+**Definición Canónica:** ciones que perjudiquen los intereses de la masa, bajo el título De las
+                                                                 Acciones Revocatorias Concursales. Al respecto, el referido apartado
+                                                                 contempla dos tipos de medios de impugnación, dependiendo de
+                                                                 si se funda en hechos objetivos o exige que los intervinientes hayan
+                                                                 celebrado el acto en conocimiento del mal estado de los negocios del
+ 
+**Concordancias Legales:** Ley Nº 20.720; Ley N° 20.720; Ley N° 19.628
+
+ciones que perjudiquen los intereses de la masa, bajo el título De las
                                                                  Acciones Revocatorias Concursales. Al respecto, el referido apartado
                                                                  contempla dos tipos de medios de impugnación, dependiendo de
                                                                  si se funda en hechos objetivos o exige que los intervinientes hayan
@@ -1604,10 +1346,12 @@ Sobre Reorganización y                                                  Reorgan
 Liquidación de Activos                                                  liquidación de empresas
 de Empresas y Personas                                                  y personas deudoras
 
-
 ## 2.5     Disposiciones generales
 
-                                                                       a los procedimientos
+**Definición Canónica:** a los procedimientos
+**Concordancias Legales:** artículo 6; artículo 2; Ley N° 20.720
+
+a los procedimientos
 
                                                                        El Capítulo I de la Ley N° 20.720 establece una serie de reglas comu-
                                                                        nes, principalmente en lo referido a aspectos adjetivos de los mismos
@@ -1639,10 +1383,16 @@ de Empresas y Personas                                                  y person
                                                                        de aplicación (acápite 2.1), definiciones, competencia, recursos, in-
                                                                        cidentes, notificaciones, plazos y exigibilidad.
 
-
 ## 2.5.1 Definiciones
 
-                                                                       Primeramente, el artículo 2° expone una serie de conceptos de los
+**Definición Canónica:** Primeramente, el artículo 2° expone una serie de conceptos de los
+                                                                       cuales se sirve la Ley N° 20.720 para su adecuada inteligencia. La
+                                                                       norma en cuestión contempla 40 numerales donde están definidas
+                                                                       expresiones de las cuales solo se sirve la ley de insolvencia, tales
+                                                                       como el ya mencionado Boletín Concursal o los nuevo
+**Concordancias Legales:** artículo 2; artículo 42; artículos 54; Ley N° 20.720; Ley Nº 20.720
+
+Primeramente, el artículo 2° expone una serie de conceptos de los
                                                                        cuales se sirve la Ley N° 20.720 para su adecuada inteligencia. La
                                                                        norma en cuestión contempla 40 numerales donde están definidas
                                                                        expresiones de las cuales solo se sirve la ley de insolvencia, tales
@@ -1667,10 +1417,17 @@ de Empresas y Personas                                                  y person
                                                                  consecuencias tributarias– y no el criterio fijado por el Código Civil
                                                                  en sus artículos 54, 55 y 545 (persona humana y persona ficticia).
 
-
 ## 2.5.2 Competencia
 
-                                                                 El artículo 3° de la ley establece, como regla general, que el juez
+**Definición Canónica:** El artículo 3° de la ley establece, como regla general, que el juez
+                                                                 competente para conocer del concurso sea el del domicilio de la
+                                                                 empresa o persona deudora. Es relevante destacar que los interesados
+                                                                 podrán promover el incidente de incompetencia del tribunal según
+                                                                 las reglas generales, siendo de los excepcionales incidentes que se
+      
+**Concordancias Legales:** artículo 3
+
+El artículo 3° de la ley establece, como regla general, que el juez
                                                                  competente para conocer del concurso sea el del domicilio de la
                                                                  empresa o persona deudora. Es relevante destacar que los interesados
                                                                  podrán promover el incidente de incompetencia del tribunal según
@@ -1681,10 +1438,17 @@ de Empresas y Personas                                                  y person
                                                                  alterada por el fuero que pueda asistir a cualquiera de los acreedores,
                                                                  o al deudor.
 
-
 ## 2.5.3 Recursos
 
-                                                                 El régimen recursivo contemplado en la Ley N° 20.720 también
+**Definición Canónica:** El régimen recursivo contemplado en la Ley N° 20.720 también
+                                                                 resulta ser una manifestación de la asociación que hizo el legislador
+                                                                 al identificar celeridad como equivalente a eficiencia. Sobre el punto,
+                                                                 es posible ver un catálogo restringido de medios de impugnación,
+                                                                 procurando evitar dilaciones que puedan afectar el porcentaje de
+       
+**Concordancias Legales:** artículo 4; artículo 88; Ley N° 20.720; Ley Nº 20.720
+
+El régimen recursivo contemplado en la Ley N° 20.720 también
                                                                  resulta ser una manifestación de la asociación que hizo el legislador
                                                                  al identificar celeridad como equivalente a eficiencia. Sobre el punto,
                                                                  es posible ver un catálogo restringido de medios de impugnación,
@@ -1751,10 +1515,15 @@ de Empresas y Personas                                                          
                                                                                                   voluntaria presentada, el proceso concursal no se inició y, en
                                                                                                   consecuencia, el artículo 4° no tiene aplicación”30.
 
-
 ## 2.5.4 Incidentes
 
-                                                                                              Sobre la materia, la ley impide la promoción de incidentes fuera de
+**Definición Canónica:** Sobre la materia, la ley impide la promoción de incidentes fuera de
+                                                                                              los casos expresamente contemplados por la Ley N° 20.720. Estos
+                                                                                              serán tramitados según las reglas generales del Código de Procedi-
+                                                                                              miento Civil, salvo que la propia ley establezca un procedimiento
+**Concordancias Legales:** artículo 131; Ley N° 20.720
+
+Sobre la materia, la ley impide la promoción de incidentes fuera de
                                                                                               los casos expresamente contemplados por la Ley N° 20.720. Estos
                                                                                               serán tramitados según las reglas generales del Código de Procedi-
                                                                                               miento Civil, salvo que la propia ley establezca un procedimiento
@@ -1764,10 +1533,16 @@ de Empresas y Personas                                                          
                                                                                               entre los interesados y/o la administración concursal, por medio de
                                                                                               audiencias verbales.
 
-
 ## 2.5.5 Notificaciones
 
-                                                                                              El nuevo régimen de intimación destaca por establecer, como regla
+**Definición Canónica:** El nuevo régimen de intimación destaca por establecer, como regla
+                                                                                              generalísima, la notificación por el Boletín Concursal. Según el
+                                                                                              artículo 2° número 7, el boletín es una “plataforma electrónica a
+                                                                                              cargo de la Superintendencia de Insolvencia y Reemprendimiento,
+                                                         
+**Concordancias Legales:** artículo 2; Ley Nº 20.720; Ley N° 20.720
+
+El nuevo régimen de intimación destaca por establecer, como regla
                                                                                               generalísima, la notificación por el Boletín Concursal. Según el
                                                                                               artículo 2° número 7, el boletín es una “plataforma electrónica a
                                                                                               cargo de la Superintendencia de Insolvencia y Reemprendimiento,
@@ -1794,17 +1569,25 @@ de Empresas y Personas                                                          
                                                                                           indirecta pero efectivamente fomentará el mayor uso del sistema
                                                                                           concursal nacional”31.
 
-
 ## 2.5.6 Plazos
 
-                                                                                          La Ley de Insolvencia y Reemprendimiento también innova sobre la
+**Definición Canónica:** La Ley de Insolvencia y Reemprendimiento también innova sobre la
+                                                                                          configuración de los plazos establecidos en la misma. Así, el artículo
+                                                                                          7° señala que estos serán fatales, en días hábiles y seguidos.
+**Concordancias Legales:** artículo 7
+
+La Ley de Insolvencia y Reemprendimiento también innova sobre la
                                                                                           configuración de los plazos establecidos en la misma. Así, el artículo
                                                                                           7° señala que estos serán fatales, en días hábiles y seguidos.
 
-
 ## 2.5.7 Exigibilidad
 
-                                                                                          El artículo 8 de la ley prescribe que las normas contempladas en
+**Definición Canónica:** El artículo 8 de la ley prescribe que las normas contempladas en
+                                                                                          leyes especiales prevalecerán sobre las de este cuerpo legal, como
+                                                                                          también su aplicación supletoria respecto de otras leyes especiales.
+**Concordancias Legales:** artículo 8; artículo 4; artículo 13 del Código Civil esta disposición; Ley N° 20.027; Ley N° 20.720; Ley Nº 20.720
+
+El artículo 8 de la ley prescribe que las normas contempladas en
                                                                                           leyes especiales prevalecerán sobre las de este cuerpo legal, como
                                                                                           también su aplicación supletoria respecto de otras leyes especiales.
 
@@ -1861,10 +1644,16 @@ de Empresas y Personas                                                  y person
                                                                        será el Liquidador quien realizará el activo del fallido, con miras a
                                                                        proveer al pago de la masa pasiva.
 
-
 ## 2.6.1 Veedor
 
-                                                                       El artículo 2º de la ley, en su numeral 40, lo define como “aquella
+**Definición Canónica:** El artículo 2º de la ley, en su numeral 40, lo define como “aquella
+                                                                       persona natural sujeta a la fiscalización de la Superintendencia de
+                                                                       Insolvencia y Reemprendimiento, cuya misión principal es propiciar
+                                                                       los acuerdos entre el Deudor y sus acreedores, facilitar la proposición
+                                                                       de Acuerdos de Reorganización Judicial y 
+**Concordancias Legales:** artículo 2; artículo 13; artículo; artículo 17; artículo 16; artículo 15; artículo 22; artículo 55; artículo 54; Ley Nº 20.720; Ley N° 20.720
+
+El artículo 2º de la ley, en su numeral 40, lo define como “aquella
                                                                        persona natural sujeta a la fiscalización de la Superintendencia de
                                                                        Insolvencia y Reemprendimiento, cuya misión principal es propiciar
                                                                        los acuerdos entre el Deudor y sus acreedores, facilitar la proposición
@@ -1948,10 +1737,16 @@ Sobre Reorganización y                                                         
 Liquidación de Activos                                                                          liquidación de empresas
 de Empresas y Personas                                                                          y personas deudoras
 
-
 ## 2.6.2 Liquidador
 
-                                                                                               El artículo 2° en su numeral 19 establece que será Liquidador “aquella
+**Definición Canónica:** El artículo 2° en su numeral 19 establece que será Liquidador “aquella
+                                                                                               persona natural sujeta a la fiscalización de la Superintendencia de
+                                                                                               Insolvencia y Reemprendimiento, cuya misión principal es realizar
+                                                                                               el activo del Deudor y propender al pago de los créditos de sus
+                                              
+**Concordancias Legales:** artículo 2; artículo 32; artículo 36; artículo 14; artículo 17; artículo 16; artículo 246; artículo 35; Ley Nº 20.720; Ley N° 20.720; Ley N° 18.175; Ley N° 20.080; Ley N° 1.564
+
+El artículo 2° en su numeral 19 establece que será Liquidador “aquella
                                                                                                persona natural sujeta a la fiscalización de la Superintendencia de
                                                                                                Insolvencia y Reemprendimiento, cuya misión principal es realizar
                                                                                                el activo del Deudor y propender al pago de los créditos de sus
@@ -2145,10 +1940,12 @@ Sobre Reorganización y                                                         
 Liquidación de Activos                                                                       Deudora y de Renegociación
 de Empresas y Personas                                                                       de Persona Deudora
 
-
 ## 3.1           Procedimiento de Reorganización
 
-                                                                                              de Empresa Deudora
+**Definición Canónica:** de Empresa Deudora
+**Concordancias Legales:** artículo 54; artículo 2; artículo 42; artículos 54; artículo 60 de la Ley Nº 20.720 da cuenta de la versatilidad de; Ley N° 20.720; Ley Nº 20.720
+
+de Empresa Deudora
 
                                                                                               Al respecto, el artículo 54 de la ley dispone que esta clase de pro-
                                                                                               cedimiento será aplicable solo a la empresa deudora. Importante
@@ -2227,10 +2024,12 @@ Sobre Reorganización y                                               Reorganiza
 Liquidación de Activos                                               Deudora y de Renegociación
 de Empresas y Personas                                               de Persona Deudora
 
-
 ## 3.2    Tramitación del procedimiento
 
-                                                                      de Reorganización
+**Definición Canónica:** de Reorganización
+**Concordancias Legales:** artículo 3; artículo 56; artículo 94; artículo 57; artículo 55; Ley Nº 20.720; Ley N° 20.720
+
+de Reorganización
 
                                                                       Tal como se ha señalado en los párrafos anteriores, el procedimiento
                                                                       se inicia por solicitud ante el tribunal competente, según las reglas
@@ -2371,10 +2170,14 @@ de Empresas y Personas                                                          
                                                                 de la continuación de las actividades, o la realización del activo del
                                                                 solicitante, como la solución más eficiente a su insolvencia.
 
-
 ## 3.2.2 Nominación del Veedor
 
-                                                                El artículo 57 de la Ley Nº 20.720 establece que el plazo para dictar
+**Definición Canónica:** El artículo 57 de la Ley Nº 20.720 establece que el plazo para dictar
+                                                                su resolución de reorganización inicia desde la recepción del certi-
+                                                                ficado de nominación de los veedores titulares y suplentes.
+**Concordancias Legales:** artículo 57 de la Ley Nº 20.720 establece que el plazo para dic; artículo 22; Ley Nº 20.720
+
+El artículo 57 de la Ley Nº 20.720 establece que el plazo para dictar
                                                                 su resolución de reorganización inicia desde la recepción del certi-
                                                                 ficado de nominación de los veedores titulares y suplentes.
 
@@ -2392,7 +2195,11 @@ de Empresas y Personas                                                          
 
 ## parte de los tres mayores acreedores y la preparación del certificado
 
-                                                                de nominación por parte de la Superir, para su remisión al tribunal
+**Definición Canónica:** de nominación por parte de la Superir, para su remisión al tribunal
+                                                                que esté conociendo del asunto.
+**Concordancias Legales:** artículo 56; artículo 55; artículo 57
+
+de nominación por parte de la Superir, para su remisión al tribunal
                                                                 que esté conociendo del asunto.
 
                                                                 3.2.3 ¿Relatar/acreditar insolvencia? Facultades del juez.
@@ -2418,10 +2225,16 @@ de Empresas y Personas                                                          
                                                                 texto legal no procede hacer al juez ni a quienes afecta el inicio de
                                                                 esta clase de procedimientos (acreedores, trabajadores, proveedores).
 
-
 ## 3.2.4 Resolución de Reorganización
 
-                                                                Se trata de un hito en el procedimiento que marca el inicio del perio-
+**Definición Canónica:** Se trata de un hito en el procedimiento que marca el inicio del perio-
+                                                                do de negociación judicial protegida entre el deudor y sus acreedores.
+                                                                La resolución está regulada en el artículo 57 de la ley, que ordena al
+                                                                juez su dictación dentro de los cinco días siguientes a la recepción
+                                                                del certificado de nominación del Veedor titular y suplente, d
+**Concordancias Legales:** artículo 57; artículo 22; artículo 58; artículo 25; artículo 74; artículos 58; artículo 55; artículo 56; Ley Nº 20.720
+
+Se trata de un hito en el procedimiento que marca el inicio del perio-
                                                                 do de negociación judicial protegida entre el deudor y sus acreedores.
                                                                 La resolución está regulada en el artículo 57 de la ley, que ordena al
                                                                 juez su dictación dentro de los cinco días siguientes a la recepción
@@ -2573,11 +2386,17 @@ de Empresas y Personas                                                          
                                                                      artículo serán publicados por el Veedor en el Boletín Concursal
                                                                      dentro del plazo de tres días contado desde su dictación”.
 
-
 ## 3.2.5 Protección Financiera Concursal
 
+**Definición Canónica:** Este término de negociación protegida fue una de las principales
+                                                                reformas contenidas en la Ley N° 20.720, pues el bajo número de
+                                                                convenios durante la vigencia de la ley anterior se debía, entre otras
+                                                                causas, a la desprotección que sufría el solicitante y la natural reac-
+                                                                ción en manada de los acreedores frente a una explícita declaración
+    
+**Concordancias Legales:** artículo 2; artículo 57; Ley N° 20.720; Ley Nº 20.720
 
-                                                                Este término de negociación protegida fue una de las principales
+Este término de negociación protegida fue una de las principales
                                                                 reformas contenidas en la Ley N° 20.720, pues el bajo número de
                                                                 convenios durante la vigencia de la ley anterior se debía, entre otras
                                                                 causas, a la desprotección que sufría el solicitante y la natural reac-
@@ -2605,10 +2424,12 @@ de Empresas y Personas                                                          
                                                                 productiva y que puede dividirse en aquellos de efectos judiciales,
                                                                 efectos contractuales y efectos administrativos.
 
-
 ## 3.2.5.1 Efectos judiciales
 
-                                                                El mencionado artículo 57 numeral primero, en sus letras a) y b), señala:
+**Definición Canónica:** El mencionado artículo 57 numeral primero, en sus letras a) y b), señala:
+**Concordancias Legales:** artículo 57; Ley Nº 20.720
+
+El mencionado artículo 57 numeral primero, en sus letras a) y b), señala:
 
                                                                      “No podrá declararse ni iniciarse en contra del Deudor un Procedi-
                                                                      miento Concursal de Liquidación, ni podrán iniciarse en su contra
@@ -2635,10 +2456,15 @@ de Empresas y Personas                                                          
                                                                 de mermar la capacidad productiva del solicitante, como también el
                                                                 éxito del arreglo en el mediano y largo plazo.
 
-
 ## 3.2.5.2 Efectos contractuales
 
-                                                                En este sentido, una de las esperables conductas por parte de los
+**Definición Canónica:** En este sentido, una de las esperables conductas por parte de los
+                                                                agentes que tienen relaciones comerciales con el solicitante es la
+                                                                terminación de los contratos o convenciones, pues la solicitud es
+                                                                una manifestación expresa y judicial de sus dificultades financieras.
+**Concordancias Legales:** artículo 72; artículo 57; artículo 140
+
+En este sentido, una de las esperables conductas por parte de los
                                                                 agentes que tienen relaciones comerciales con el solicitante es la
                                                                 terminación de los contratos o convenciones, pues la solicitud es
                                                                 una manifestación expresa y judicial de sus dificultades financieras.
@@ -2669,10 +2495,13 @@ de Empresas y Personas                                                          
                                                                      que se regirán en esta materia por las normas especiales a que se
                                                                      refiere el inciso segundo y siguientes del artículo 140 de esta ley”.
 
-
 ## 3.2.5.3 Efectos administrativos
 
-                                                                Este beneficio radica principalmente en aquellas empresas que se
+**Definición Canónica:** Este beneficio radica principalmente en aquellas empresas que se
+                                                                relacionan contractualmente con el sector público, pues antes de la
+**Concordancias Legales:** artículo 57; Ley Nº 20.720
+
+Este beneficio radica principalmente en aquellas empresas que se
                                                                 relacionan contractualmente con el sector público, pues antes de la
 
 Ley Nº 20.720                                                  3. Procedimientos de                                                     67
@@ -2697,10 +2526,14 @@ de Empresas y Personas                                                          
                                                                      te, deberá indemnizar los perjuicios que dicha discriminación o
                                                                      eliminación le provoquen al Deudor”.
 
-
 ## 3.2.5.4 Plazos
 
-                                                                El artículo 57 número 1 señala que el plazo será de treinta días,
+**Definición Canónica:** El artículo 57 número 1 señala que el plazo será de treinta días,
+                                                                contados desde la notificación de la resolución y expirará el día de la
+                                                                celebración de la Junta de Acreedores llamada a conocer del acuerdo.
+**Concordancias Legales:** artículo 57; artículos 58
+
+El artículo 57 número 1 señala que el plazo será de treinta días,
                                                                 contados desde la notificación de la resolución y expirará el día de la
                                                                 celebración de la Junta de Acreedores llamada a conocer del acuerdo.
 
@@ -2714,10 +2547,15 @@ de Empresas y Personas                                                          
                                                                 nueva fecha y hora de la Junta de Acreedores llamada a conocer y pro-
                                                                 nunciarse sobre la propuesta de Acuerdo de Reorganización Judicial.
 
-
 ## 3.2.6 Financiamiento y continuación de actividades
 
-                                                                durante la Protección Financiera Concursal
+**Definición Canónica:** durante la Protección Financiera Concursal
+                                                                Tal como se ha expresado anteriormente, la dificultad que presenta
+                                                                esta clase de procedimientos es la potencial merma en la produc-
+                                                                tividad de la empresa, unidad que al momento de su solicitud ya
+**Concordancias Legales:** artículos 72; artículo 2472 del Código Civil. La explica; Ley Nº 20.720
+
+durante la Protección Financiera Concursal
                                                                 Tal como se ha expresado anteriormente, la dificultad que presenta
                                                                 esta clase de procedimientos es la potencial merma en la produc-
                                                                 tividad de la empresa, unidad que al momento de su solicitud ya
@@ -2745,10 +2583,16 @@ de Empresas y Personas                                                          
                                                                                                igualdad de los acreedores, se funda en la necesidad de contrarrestar
                                                                                                la desidia y riesgo de contratación.
 
-
 ## 3.2.6.1 Continuidad del suministro (art. 72)
 
-                                                                                               Los proveedores de bienes y servicios necesarios para el funciona-
+**Definición Canónica:** Los proveedores de bienes y servicios necesarios para el funciona-
+                                                                                               miento de la Empresa Deudora, cuyas facturas tengan como fecha de
+                                                                                               emisión no menos de ocho días anteriores a la fecha de la resolución
+                                                                                               de Reorganización, y en la medida que en su conjunto no superen el
+                                              
+**Concordancias Legales:** artículo 55; Ley Nº 20.720
+
+Los proveedores de bienes y servicios necesarios para el funciona-
                                                                                                miento de la Empresa Deudora, cuyas facturas tengan como fecha de
                                                                                                emisión no menos de ocho días anteriores a la fecha de la resolución
                                                                                                de Reorganización, y en la medida que en su conjunto no superen el
@@ -2775,10 +2619,16 @@ Sobre Reorganización y                                                         
 Liquidación de Activos                                                                       Deudora y de Renegociación
 de Empresas y Personas                                                                       de Persona Deudora
 
-
 ## 3.2.6.2 Venta de activos y contratación de préstamos
 
-                                                                                               (art. 74)
+**Definición Canónica:** (art. 74)
+                                                                                               Durante la Protección Financiera Concursal, la Empresa Deudora
+                                                                                               podrá vender o enajenar activos cuyo valor no exceda el 20% de su
+                                                                                               activo fijo contable, y podrá adquirir préstamos para el financiamien-
+                                                                                               to de sus 
+**Concordancias Legales:** artículo 55; artículo 2472 del Código Civil
+
+(art. 74)
                                                                                                Durante la Protección Financiera Concursal, la Empresa Deudora
                                                                                                podrá vender o enajenar activos cuyo valor no exceda el 20% de su
                                                                                                activo fijo contable, y podrá adquirir préstamos para el financiamien-
@@ -2803,10 +2653,13 @@ de Empresas y Personas                                                          
                                                                                                se pagarán con la preferencia establecida en el número 4 del artículo
                                                                                                2472 del Código Civil.
 
-
 ## 3.2.6.3 Valoración y fiscalización de activos
 
-                                                                                               Para efectos de determinar el valor de los activos a vender o enajenar,
+**Definición Canónica:** Para efectos de determinar el valor de los activos a vender o enajenar,
+                                                                                               se estará a la valorización que realice el Veedor.
+**Concordancias Legales:** Ley Nº 20.720
+
+Para efectos de determinar el valor de los activos a vender o enajenar,
                                                                                                se estará a la valorización que realice el Veedor.
 
                                                                se trate de facturas emitidas no al menos, sino que con menos de 8 días anteriores a la apertura. En segundo
@@ -2829,10 +2682,14 @@ de Empresas y Personas                                                          
                                                                 actos o contratos no les será aplicable lo dispuesto en el Capítulo VI
                                                                 de esta misma ley.
 
-
 ## 3.2.7 Fase de acuerdo
 
-                                                                Esta va desde la notificación de la resolución de Reorganización hasta
+**Definición Canónica:** Esta va desde la notificación de la resolución de Reorganización hasta
+                                                                la aprobación o rechazo de la propuesta del solicitante. Es así como
+                                                                la Empresa Deudora, los acreedores y el Veedor deben realizar una
+                                                                serie de actuaciones y que redundan en cooperar y socializar infor-
+
+Esta va desde la notificación de la resolución de Reorganización hasta
                                                                 la aprobación o rechazo de la propuesta del solicitante. Es así como
                                                                 la Empresa Deudora, los acreedores y el Veedor deben realizar una
                                                                 serie de actuaciones y que redundan en cooperar y socializar infor-
@@ -2845,11 +2702,12 @@ de Empresas y Personas                                                          
                                                                 presentación de la propuesta, examen de esta por parte del Veedor
                                                                 y, por último, conocimiento y votación de la propuesta.
 
-
 ## 3.2.7.1 Verificación e impugnación de créditos
 
+**Definición Canónica:** a. Verificación
+**Concordancias Legales:** artículos 78; artículo 70; artículo 57; artículo 56; Ley Nº 20.720
 
-                                                                a. Verificación
+a. Verificación
 
                                                                      Este periodo tiene gran relevancia sobre los derechos políticos
                                                                      de los acreedores. En efecto, el referido trámite tiene por objeto
@@ -2964,10 +2822,13 @@ de Empresas y Personas                                                          
                                                                                                  de celebración de la Junta de Acreedores llamada a conocer y
                                                                                                  pronunciarse sobre la propuesta de acuerdo.
 
-
 ## 3.2.7.2 Presentación de la propuesta
 
-                                                                                             Sobre esta etapa del acuerdo, el artículo 57 en su número 4 indica que
+**Definición Canónica:** Sobre esta etapa del acuerdo, el artículo 57 en su número 4 indica que
+                                                                                             la propuesta debe ser presentada a través del Veedor hasta diez días
+**Concordancias Legales:** artículo 57; artículo 60; artículo 66; artículos 72; artículo 61; artículo 64; Ley Nº 20.720
+
+Sobre esta etapa del acuerdo, el artículo 57 en su número 4 indica que
                                                                                              la propuesta debe ser presentada a través del Veedor hasta diez días
 
                                                       41       Corte de Apelaciones de Santiago, rol Nº 2409-2017, sentencia de 23 de mayo de 2017.
@@ -3015,10 +2876,17 @@ de Empresas y Personas                                                          
 
 Ley Nº 20.720                                                  3. Procedimientos de                                                   75
 
-
 ## 3.2.7.3 Examen de la propuesta por parte del Veedor
 
-                                                                Tal como fue abordado en el acápite sobre la resolución de Reorga-
+**Definición Canónica:** Tal como fue abordado en el acápite sobre la resolución de Reorga-
+                                                                nización, el juez debe ordenar al Veedor que publique y acompañe,
+                                                                a lo menos tres días antes de la celebración de la junta, un informe
+                                                                que se refiera a la viabilidad del acuerdo y el monto probable de
+                                                                recuperación de cada acreedor en el evento de que el acuerdo no
+            
+**Concordancias Legales:** artículo 79
+
+Tal como fue abordado en el acápite sobre la resolución de Reorga-
                                                                 nización, el juez debe ordenar al Veedor que publique y acompañe,
                                                                 a lo menos tres días antes de la celebración de la junta, un informe
                                                                 que se refiera a la viabilidad del acuerdo y el monto probable de
@@ -3029,10 +2897,17 @@ de Empresas y Personas                                                          
                                                                 para que los acreedores puedan decidir, con información clara y com-
                                                                 pleta, cuál es la decisión que favorece sus porcentajes de recuperación.
 
-
 ## 3.2.7.4 Conocimiento y votación de la propuesta
 
-                                                                Esta es la última etapa del periodo de negociación protegida y por
+**Definición Canónica:** Esta es la última etapa del periodo de negociación protegida y por
+                                                                lo tanto coincide con la expiración de la Protección Financiera Con-
+                                                                cursal. Así, ya depurada la información necesaria relativa a quiénes
+                                                                podrán concurrir a la Junta de Acreedores y la configuración definitiva
+                                                                de los derechos de cada uno de ellos, como también los términos
+   
+**Concordancias Legales:** artículo 70
+
+Esta es la última etapa del periodo de negociación protegida y por
                                                                 lo tanto coincide con la expiración de la Protección Financiera Con-
                                                                 cursal. Así, ya depurada la información necesaria relativa a quiénes
                                                                 podrán concurrir a la Junta de Acreedores y la configuración definitiva
@@ -3049,7 +2924,10 @@ de Empresas y Personas                                                          
 
 ## 71. En ambos casos deberá darse cumplimiento a lo ordenado en el
 
-                                                                número 6) del artículo 57, relativo a la acreditación de personerías.
+**Definición Canónica:** número 6) del artículo 57, relativo a la acreditación de personerías.
+**Concordancias Legales:** artículo 57; artículo 91; artículo 81; artículo 78; artículo 61; artículo 82; artículo 80; artículo 96; Ley Nº 20.720
+
+número 6) del artículo 57, relativo a la acreditación de personerías.
 
                                                                 Si no concurren los acreedores, el artículo 91 señala que le afectarán
                                                                 los efectos del acuerdo; si no comparece el deudor, el artículo 81
@@ -3111,10 +2989,16 @@ de Empresas y Personas                                                          
                                                                                              propuesta de acuerdo dentro del plazo antes establecido, el tribunal
                                                                                              dictará la resolución de Liquidación, de oficio y sin más trámite.
 
-
 ## 3.2.8 Efectos del acuerdo
 
-                                                                                             Cuando nos referimos a los efectos del acuerdo, debemos conceptua-
+**Definición Canónica:** Cuando nos referimos a los efectos del acuerdo, debemos conceptua-
+                                                                                             lizar cuáles son los derechos y obligaciones que genera y a quiénes
+                                                                                             alcanzan. Así, según una concepción tradicional, las convenciones
+                                                                                             acordadas obligarán a todos aquellos que hayan adherido a ellas y
+                                                      
+**Concordancias Legales:** artículo 91; artículo 93; artículo 57; artículos 57; artículo 1; artículo 31; artículo 95; artículo 94.45; artículo 89; artículo 86; Ley Nº 20.720
+
+Cuando nos referimos a los efectos del acuerdo, debemos conceptua-
                                                                                              lizar cuáles son los derechos y obligaciones que genera y a quiénes
                                                                                              alcanzan. Así, según una concepción tradicional, las convenciones
                                                                                              acordadas obligarán a todos aquellos que hayan adherido a ellas y
@@ -3271,10 +3155,14 @@ de Empresas y Personas                                                          
                                                                 Deudor y sus acreedores con anterioridad a este se regirán por sus
                                                                 respectivas convenciones.
 
-
 ## 3.2.9 Ineficacia del acuerdo
 
-                                                                Cuando nos referimos a la ineficacia del acuerdo, hablamos de aque-
+**Definición Canónica:** Cuando nos referimos a la ineficacia del acuerdo, hablamos de aque-
+                                                                llas circunstancias que determinan que este no produzca sus efectos.
+                                                                Dicha falta de producción puede derivar de diversas situaciones.
+**Concordancias Legales:** Ley Nº 20.720
+
+Cuando nos referimos a la ineficacia del acuerdo, hablamos de aque-
                                                                 llas circunstancias que determinan que este no produzca sus efectos.
                                                                 Dicha falta de producción puede derivar de diversas situaciones.
 
@@ -3295,10 +3183,14 @@ de Empresas y Personas                                                          
                                                                 de lo convenido, permitiendo a los acreedores solicitar la declaración
                                                                 de incumplimiento.
 
-
 ## 3.2.9.1   Rechazo
 
-                                                                En primer lugar, corresponde aclarar que, sin perjuicio de ubicar el
+**Definición Canónica:** En primer lugar, corresponde aclarar que, sin perjuicio de ubicar el
+                                                                estudio del rechazo en este apartado, el rechazo del acuerdo no es
+                                                                una causal de ineficacia propiamente tal.
+**Concordancias Legales:** artículo 79
+
+En primer lugar, corresponde aclarar que, sin perjuicio de ubicar el
                                                                 estudio del rechazo en este apartado, el rechazo del acuerdo no es
                                                                 una causal de ineficacia propiamente tal.
 
@@ -3322,10 +3214,17 @@ de Empresas y Personas                                                          
                                                                 plazo antes establecido, el tribunal dictará la resolución de Liquida-
                                                                 ción, de oficio y sin más trámite.
 
-
 ## 3.2.9.2   Impugnación
 
-                                                                La ley regula la impugnación del acuerdo sin indicar qué es lo que
+**Definición Canónica:** La ley regula la impugnación del acuerdo sin indicar qué es lo que
+                                                                debe entenderse por ello, sino que establece que puede fundarse en
+                                                                ciertas causales consagradas en el artículo 85 y, una vez acogidas, el
+                                                                juez debe dictar, sin más trámite, la correspondiente resolución de
+                                                                Liquidación. De la lectura de las causales enunciadas en dicho artí-
+  
+**Concordancias Legales:** artículo 85; artículo 86; Ley Nº 20.720
+
+La ley regula la impugnación del acuerdo sin indicar qué es lo que
                                                                 debe entenderse por ello, sino que establece que puede fundarse en
                                                                 ciertas causales consagradas en el artículo 85 y, una vez acogidas, el
                                                                 juez debe dictar, sin más trámite, la correspondiente resolución de
@@ -3365,7 +3264,10 @@ de Empresas y Personas                                                          
 
 ## Capítulo, siempre que incida sustancialmente en el quórum del
 
-                                                                                                    Acuerdo de Reorganización Judicial.
+**Definición Canónica:** Acuerdo de Reorganización Judicial.
+**Concordancias Legales:** artículo 85; artículo 88; Ley Nº 20.720
+
+Acuerdo de Reorganización Judicial.
 
                                                                                                     3) Falsedad o exageración del crédito o incapacidad o falta de
                                                                                                     personería para votar de alguno de los acreedores que hayan
@@ -3434,10 +3336,16 @@ de Empresas y Personas                                                          
                                                                                              Liquidación en la misma resolución que acoge la impugnación, y el
                                                                                              Deudor no podrá presentar nuevamente una propuesta de acuerdo.
 
-
 ## 3.2.9.3    Nulidad
 
-                                                                                             Sobre esta sanción de ineficacia en sede concursal, la doctrina señala
+**Definición Canónica:** Sobre esta sanción de ineficacia en sede concursal, la doctrina señala
+                                                                                             que se trataría de una nulidad distinta a la concebida en el Código
+                                                                                             Civil. Contador y Palacios indican que se trata de una acción que
+                                                                                             permite dejar sin efecto el acuerdo cuando los acreedores tomen
+                                                    
+**Concordancias Legales:** artículo 85; artículo 86; artículo 89; artículo 25; artículo 99; artículo 1867 del Código Civil; Ley Nº 20.720
+
+Sobre esta sanción de ineficacia en sede concursal, la doctrina señala
                                                                                              que se trataría de una nulidad distinta a la concebida en el Código
                                                                                              Civil. Contador y Palacios indican que se trata de una acción que
                                                                                              permite dejar sin efecto el acuerdo cuando los acreedores tomen
@@ -3490,10 +3398,15 @@ de Empresas y Personas                                                          
                                                                 la resolución de Liquidación de la Empresa deudora, de oficio y sin
                                                                 más trámite.
 
-
 ## 3.2.9.4   Incumplimiento
 
-                                                                Esta acción está contemplada por la ley como la inobservancia de las
+**Definición Canónica:** Esta acción está contemplada por la ley como la inobservancia de las
+                                                                estipulaciones, o en caso de que, aún sin un efectivo incumplimiento,
+                                                                se agravare el mal estado de los negocios del Deudor, de forma que
+                                                                haga temer un perjuicio para los acreedores.
+**Concordancias Legales:** Ley Nº 20.720
+
+Esta acción está contemplada por la ley como la inobservancia de las
                                                                 estipulaciones, o en caso de que, aún sin un efectivo incumplimiento,
                                                                 se agravare el mal estado de los negocios del Deudor, de forma que
                                                                 haga temer un perjuicio para los acreedores.
@@ -3527,15 +3440,16 @@ Sobre Reorganización y                                                         
 Liquidación de Activos                                                                          Deudora y de Renegociación
 de Empresas y Personas                                                                          de Persona Deudora
 
-
-## 3.3             Procedimiento de Renegociación
-
-                                                                                                 de Persona Deudora
-
-
 ## 3.3.1 Ámbito de aplicación
 
-                                                                                                 Tal como se expresó en el capítulo inicial, nuestra nueva legislación
+**Definición Canónica:** Tal como se expresó en el capítulo inicial, nuestra nueva legislación
+                                                                                                 de insolvencia trazó, como uno de sus principales objetivos progra-
+                                                                                                 máticos, la utilización del concurso como método de superación y
+                                                                                                 reestructuración financiera y, especialmente, para aquellos casos que
+                                    
+**Concordancias Legales:** artículo 2; artículo 260; Ley N° 20.720; Ley Nº 20.720
+
+Tal como se expresó en el capítulo inicial, nuestra nueva legislación
                                                                                                  de insolvencia trazó, como uno de sus principales objetivos progra-
                                                                                                  máticos, la utilización del concurso como método de superación y
                                                                                                  reestructuración financiera y, especialmente, para aquellos casos que
@@ -3578,10 +3492,15 @@ de Empresas y Personas                                                          
                                                                                                 Procedimiento Concursal de Renegociación de la Persona Deudora
                                                                                                 y que, adicionalmente, derogó los cuatro oficios anteriores.
 
-
 ## 3.3.2 Requisitos
 
-                                                                                                En este orden de ideas, el artículo 260 de la ley, complementado por
+**Definición Canónica:** En este orden de ideas, el artículo 260 de la ley, complementado por
+                                                                                                lo dispuesto en el oficio circular N° 5 de la Superir, señalan el ám-
+                                                                                                bito de aplicación y los requisitos necesarios que deberán cumplirse
+                                                                                                a objeto de dar inicio a esta forma de reestructuración del pasivo.50
+**Concordancias Legales:** artículo 260
+
+En este orden de ideas, el artículo 260 de la ley, complementado por
                                                                                                 lo dispuesto en el oficio circular N° 5 de la Superir, señalan el ám-
                                                                                                 bito de aplicación y los requisitos necesarios que deberán cumplirse
                                                                                                 a objeto de dar inicio a esta forma de reestructuración del pasivo.50
@@ -3606,7 +3525,10 @@ de Empresas y Personas                                                          
 
 ## parte, la circular Nº 5 en comento establece expresamente qué
 
-                                                                                                   créditos no pueden incluirse en este punto, destacando aquellas
+**Definición Canónica:** créditos no pueden incluirse en este punto, destacando aquellas
+**Concordancias Legales:** artículo 21; artículo 261; ley Nº 20.285; Ley Nº 20.720; Ley N° 19.947
+
+créditos no pueden incluirse en este punto, destacando aquellas
 
                                                       50       “Art. 260. Ámbito de aplicación y requisitos. El Procedimiento Concursal de Renegociación será aplicable sólo a la
                                                                Persona Deudora, que para efectos de este Capítulo se denominará indistintamente Persona Deudora o Deudor.
@@ -3647,10 +3569,15 @@ de Empresas y Personas                                                          
                                                                    referencia el numeral, la Superir dejará sin efecto la resolución
                                                                    de admisibilidad.
 
-
 ## 3.3.3 Solicitud de inicio del procedimiento
 
-                                                                Debe presentarse a la Superintendencia de Insolvencia y Reempren-
+**Definición Canónica:** Debe presentarse a la Superintendencia de Insolvencia y Reempren-
+                                                                dimiento, en los términos y con los requisitos señalados en el artículo
+                                                                261 de la ley. Para lo anterior se deberá completar el formulario que
+                                                                la Superir dispone en su página web.
+**Concordancias Legales:** artículo 261; Ley Nº 20.720
+
+Debe presentarse a la Superintendencia de Insolvencia y Reempren-
                                                                 dimiento, en los términos y con los requisitos señalados en el artículo
                                                                 261 de la ley. Para lo anterior se deberá completar el formulario que
                                                                 la Superir dispone en su página web.
@@ -3689,10 +3616,18 @@ de Empresas y Personas                                                          
                                                                 dentes que permiten la mejor individualización de los créditos y el
                                                                 activo del deudor.
 
-
 ## 3.3.4 Etapas del procedimiento
 
-                                                                En conformidad al articulado de la vigente ley concursal (Nº 20.720),
+**Definición Canónica:** En conformidad al articulado de la vigente ley concursal (Nº 20.720),
+                                                                el Procedimiento de Renegociación de Persona Deudora puede
+                                                                dividirse en cinco fases:
+                                                                —        Resolución de admisibilidad
+                                                                —        Audiencia de determinación del pasivo
+                                                                —        Audiencia de renegociación
+     
+**Concordancias Legales:** Ley Nº 20.720
+
+En conformidad al articulado de la vigente ley concursal (Nº 20.720),
                                                                 el Procedimiento de Renegociación de Persona Deudora puede
                                                                 dividirse en cinco fases:
                                                                 —        Resolución de admisibilidad
@@ -3704,10 +3639,14 @@ de Empresas y Personas                                                          
 
 Ley Nº 20.720                                                  3. Procedimientos de                                                     91
 
-
 ## 3.3.4.1 Resolución de admisibilidad
 
-                                                                Con posterioridad a la presentación de la solicitud ante la Superir,
+**Definición Canónica:** Con posterioridad a la presentación de la solicitud ante la Superir,
+                                                                esta última deberá, dentro de los siguientes cinco días, adoptar alguna
+                                                                de las opciones señaladas en el artículo 262:
+**Concordancias Legales:** artículo 262; artículo 260; artículo 261; artículo 264; artículo 263; artículo 444 del Código de Procedimiento Civil; Ley Nº 20.720
+
+Con posterioridad a la presentación de la solicitud ante la Superir,
                                                                 esta última deberá, dentro de los siguientes cinco días, adoptar alguna
                                                                 de las opciones señaladas en el artículo 262:
 
@@ -3808,10 +3747,17 @@ de Empresas y Personas                                                          
                                                                 —        la persona deudora no podrá ejecutar actos ni contratos rela-
                                                                          tivos a bienes embargables.
 
-
 ## 3.3.4.2 Audiencia de determinación del pasivo
 
-                                                                Esta tendrá lugar no antes de 15 ni después de 30 días, contados
+**Definición Canónica:** Esta tendrá lugar no antes de 15 ni después de 30 días, contados
+                                                                desde la publicación de la resolución de admisibilidad en el Bole-
+                                                                tín Concursal. Esta instancia se llevará a cabo según la ritualidad
+                                                                establecida en el artículo 265 de la ley, que puede resumirse de la
+                                                                manera que sigue.
+                                                          
+**Concordancias Legales:** artículo 265; artículo 263; Ley Nº 20.720
+
+Esta tendrá lugar no antes de 15 ni después de 30 días, contados
                                                                 desde la publicación de la resolución de admisibilidad en el Bole-
                                                                 tín Concursal. Esta instancia se llevará a cabo según la ritualidad
                                                                 establecida en el artículo 265 de la ley, que puede resumirse de la
@@ -3858,10 +3804,16 @@ de Empresas y Personas                                                          
                                                                 drásticas ya que, como se desarrollará, será necesario acordar una vía
                                                                 de realización del activo del deudor, en una audiencia fijada al efecto.
 
-
 ## 3.3.4.3 Audiencia de renegociación
 
-                                                                Acordado el pasivo, en conformidad a lo señalado en el acápite an-
+**Definición Canónica:** Acordado el pasivo, en conformidad a lo señalado en el acápite an-
+                                                                terior, la Superintendencia citará a la audiencia de renegociación,
+                                                                la que deberá celebrarse no antes de 15 ni después de 30 días de
+                                                                publicada en el Boletín Concursal la resolución que contiene el acta
+                                                                con la nómina de créditos reconocidos.
+**Concordancias Legales:** artículo 266; Ley Nº 20.720
+
+Acordado el pasivo, en conformidad a lo señalado en el acápite an-
                                                                 terior, la Superintendencia citará a la audiencia de renegociación,
                                                                 la que deberá celebrarse no antes de 15 ni después de 30 días de
                                                                 publicada en el Boletín Concursal la resolución que contiene el acta
@@ -3954,10 +3906,16 @@ de Empresas y Personas                                                          
                                                                          acreedores que se hayan tenido por reconocidos, sin que sea
                                                                          relevante su asistencia o no a la audiencia de renegociación.
 
-
 ## 3.3.4.4 Audiencia de ejecución
 
-                                                                Como se ha afirmado, en caso de no llegar a acuerdo tanto en la
+**Definición Canónica:** Como se ha afirmado, en caso de no llegar a acuerdo tanto en la
+                                                                determinación del pasivo como en la audiencia de renegociación,
+                                                                la Superir citará a la audiencia de ejecución, instancia que tiene por
+                                                                objeto llegar a un acuerdo entre los acreedores relativo a la realización
+                                                                del activo del deudor.
+**Concordancias Legales:** artículo 267; Ley Nº 20.720
+
+Como se ha afirmado, en caso de no llegar a acuerdo tanto en la
                                                                 determinación del pasivo como en la audiencia de renegociación,
                                                                 la Superir citará a la audiencia de ejecución, instancia que tiene por
                                                                 objeto llegar a un acuerdo entre los acreedores relativo a la realización
@@ -3985,10 +3943,17 @@ de Empresas y Personas                                                          
                                                                          nal competente del domicilio del deudor para que dicte la
                                                                          resolución de Liquidación.
 
-
 ## 3.3.5 Impugnación de los acuerdos de
 
-                                                                renegociación y de ejecución
+**Definición Canónica:** renegociación y de ejecución
+                                                                Las impugnaciones que puedan efectuarse a los acuerdos de rene-
+                                                                gociación o a los acuerdos de ejecución deberán ser presentadas al
+                                                                tribunal competente que le correspondería conocer del Procedimiento
+                                                                Concursal de Liquidación de la Persona Deudora. Estas deberán in-
+                                                  
+**Concordancias Legales:** Ley Nº 20.720
+
+renegociación y de ejecución
                                                                 Las impugnaciones que puedan efectuarse a los acuerdos de rene-
                                                                 gociación o a los acuerdos de ejecución deberán ser presentadas al
                                                                 tribunal competente que le correspondería conocer del Procedimiento
@@ -4033,10 +3998,16 @@ de Empresas y Personas                                                de Persona
                                                                        acuerdo impugnado no producirá efectos hasta que la impugnación
                                                                        sea desestimada por sentencia firme y ejecutoriada.
 
-
 ## 3.3.6 Resolución de término
 
-                                                                       Una vez finalizados los plazos para impugnar el acuerdo de renego-
+**Definición Canónica:** Una vez finalizados los plazos para impugnar el acuerdo de renego-
+                                                      ejecutoriada.
+                                                                       ciación o el acuerdo de ejecución, o una vez desechada tal impug-
+                                                                       nación, la Superintendencia declarará finalizado el procedimiento
+                                                                       de Renegociación.
+**Concordancias Legales:** artículo 2; Ley Nº 20.720
+
+Una vez finalizados los plazos para impugnar el acuerdo de renego-
                                                       ejecutoriada.
                                                                        ciación o el acuerdo de ejecución, o una vez desechada tal impug-
                                                                        nación, la Superintendencia declarará finalizado el procedimiento
@@ -4115,10 +4086,11 @@ Liquidación de Activos                                                   y Pers
 Sobre Reorganización y                                                     Liquidación de Empresa
 Liquidación de Activos                                                     y Persona Deudora
 
-
 ## 4.1     Clases
 
-                                                                         de liquidaciones
+**Definición Canónica:** de liquidaciones
+
+de liquidaciones
 
                                                                          Este tipo de procedimiento puede ser solicitado por el propio deu-
                                                                          dor –bajo la denominación de Liquidación Voluntaria–, a instancias
@@ -4127,11 +4099,16 @@ Liquidación de Activos                                                     y Pe
                                                                          vinientes como consecuencia que la ley asume como una voluntad
                                                                          presunta, llamada comúnmente Liquidación Refleja.
 
-
 ## 4.1.1 Liquidación Voluntaria
 
+**Definición Canónica:** Este procedimiento liquidatorio se caracteriza por iniciarse a instan-
+                                                                         cias del propio deudor, quien debe acompañar ciertos antecedentes
+                                                                         cuya importancia ha sido vastamente discutida durante la aplicación
+                                                                         de la ley. En la especie, el artículo 115, bajo el encabezado de “requi-
+                                                      procedimiento      sitos”, enumera una serie de i
+**Concordancias Legales:** artículo 115; Ley Nº 20.720
 
-                                                                         Este procedimiento liquidatorio se caracteriza por iniciarse a instan-
+Este procedimiento liquidatorio se caracteriza por iniciarse a instan-
                                                                          cias del propio deudor, quien debe acompañar ciertos antecedentes
                                                                          cuya importancia ha sido vastamente discutida durante la aplicación
                                                                          de la ley. En la especie, el artículo 115, bajo el encabezado de “requi-
@@ -4154,10 +4131,17 @@ Liquidación de Activos                                                     y Pe
 
 Ley Nº 20.720                                                  4. Procedimiento de                                                     103
 
-
 ## 4.1.1.1 Antecedentes que deben acompañar la solicitud
 
-                                                                Como se señaló, el artículo 115 exige que el solicitante exponga cierta
+**Definición Canónica:** Como se señaló, el artículo 115 exige que el solicitante exponga cierta
+                                                                información, la que se detalla a continuación:
+                                                                —        Lista de sus bienes, lugar en que se encuentran y gravá-
+                                                                         menes que les afectan
+                                                                         Esta exigencia permite conocer, de primera fuente, el activo
+                                                          
+**Concordancias Legales:** artículo 115; artículo 142; artículo 163 bis del Código del Trabajo; artículo 244; artículo 2472 del Código Civil; artículo 168 del Código del Trabajo; Ley Nº 20.720
+
+Como se señaló, el artículo 115 exige que el solicitante exponga cierta
                                                                 información, la que se detalla a continuación:
                                                                 —        Lista de sus bienes, lugar en que se encuentran y gravá-
                                                                          menes que les afectan
@@ -4244,10 +4228,16 @@ Liquidación de Activos                                                         
 Sobre Reorganización y                                                                          Liquidación de Empresa
 Liquidación de Activos                                                                          y Persona Deudora
 
-
 ## 4.1.1.2 Tramitación
 
-                                                                                               El artículo 116 establece que el tribunal competente deberá verificar
+**Definición Canónica:** El artículo 116 establece que el tribunal competente deberá verificar
+                                                                                               si la solicitud cumple con los requisitos señalados en el artículo 115.
+                                                                                               En tal caso, se deberá proceder el nombramiento de Liquidador, de
+                                                                                               conformidad al artículo 37, que será escogido por los tres mayores
+                                        
+**Concordancias Legales:** artículo 116; artículo 115; artículo 37; artículo 129 de la Ley de Insolvencia y Reemprendimiento; Ley Nº 20.720
+
+El artículo 116 establece que el tribunal competente deberá verificar
                                                                                                si la solicitud cumple con los requisitos señalados en el artículo 115.
                                                                                                En tal caso, se deberá proceder el nombramiento de Liquidador, de
                                                                                                conformidad al artículo 37, que será escogido por los tres mayores
@@ -4294,10 +4284,13 @@ Liquidación de Activos                                                         
                                                                                                  proceder a dictar la resolución de Liquidación, a la que se refiere el
                                                                                                  artículo 129 de la Ley de Insolvencia y Reemprendimiento.
 
-
 ## 4.1.2 Liquidación Refleja
 
-                                                                                                 Tal como fue adelantado, esta clase de inicio del procedimiento de
+**Definición Canónica:** Tal como fue adelantado, esta clase de inicio del procedimiento de
+                                                                                                 Liquidación nace de la inobservancia de ciertas cargas –tanto legales
+**Concordancias Legales:** artículo 129; artículo 88; artículo 117; Ley Nº 20.720
+
+Tal como fue adelantado, esta clase de inicio del procedimiento de
                                                                                                  Liquidación nace de la inobservancia de ciertas cargas –tanto legales
 
                                                                                                  como aquellas que exige la buena fe– a las que se encuentra someti-
@@ -4337,7 +4330,14 @@ Liquidación de Activos                                                         
 
 ## 4.1.3 Liquidación Forzada
 
-                                                      tienen la entidad        Esta última clase de liquidación nace a instancias de un acreedor,
+**Definición Canónica:** tienen la entidad        Esta última clase de liquidación nace a instancias de un acreedor,
+                                                      suficiente para          quien, frente a una presumible insolvencia de su deudor, quiere provo-
+                                                      acreditar el estado      car su liquidación. Cabe destacar que este procedimiento es el único
+                                                      de insolvencia,          contemplado por la Ley N° 20.720 donde existe contradicción, es
+                                                                   
+**Concordancias Legales:** artículo 117; Ley N° 20.720
+
+tienen la entidad        Esta última clase de liquidación nace a instancias de un acreedor,
                                                       suficiente para          quien, frente a una presumible insolvencia de su deudor, quiere provo-
                                                       acreditar el estado      car su liquidación. Cabe destacar que este procedimiento es el único
                                                       de insolvencia,          contemplado por la Ley N° 20.720 donde existe contradicción, es
@@ -4353,7 +4353,13 @@ Liquidación de Activos                                                         
 
 ## 4.1.3.1 Causales de Liquidación Forzada
 
-                                                                               El mencionado artículo permite que cualquier acreedor pueda
+**Definición Canónica:** El mencionado artículo permite que cualquier acreedor pueda
+                                                                               demandar el inicio del Procedimiento Concursal de Liquidación,
+                                                                               mientras se base en alguna de las siguientes hipótesis o, como han
+                                                                               sido históricamente conocidas, “hechos reveladores” de la insolvencia.
+**Concordancias Legales:** artículo 117; artículo 43; Ley Nº 20.720; Ley N° 18.175; Ley N° 20.720
+
+El mencionado artículo permite que cualquier acreedor pueda
                                                                                demandar el inicio del Procedimiento Concursal de Liquidación,
                                                                                mientras se base en alguna de las siguientes hipótesis o, como han
                                                                                sido históricamente conocidas, “hechos reveladores” de la insolvencia.
@@ -4456,10 +4462,15 @@ Liquidación de Activos                                                         
                                                                                                     causal contemplada en el Artículo 117 N° 3 de la Ley N° 20.720,
                                                                                                     se rechaza la solicitud de fojas 2”58.
 
-
 ## 4.1.3.2 Tramitación de la solicitud
 
-                                                                                                Sobre este punto, la demanda deberá cumplir con los requisitos
+**Definición Canónica:** Sobre este punto, la demanda deberá cumplir con los requisitos
+                                                                                                señalados en el artículo 118 de la ley, debiendo señalar la causal
+                                                                                                invocada y sus hechos justificativos, acompañando documentos y
+                                                                                                antecedentes escritos que la acrediten.59
+**Concordancias Legales:** artículo 118
+
+Sobre este punto, la demanda deberá cumplir con los requisitos
                                                                                                 señalados en el artículo 118 de la ley, debiendo señalar la causal
                                                                                                 invocada y sus hechos justificativos, acompañando documentos y
                                                                                                 antecedentes escritos que la acrediten.59
@@ -4467,10 +4478,16 @@ Liquidación de Activos                                                         
                                                                                                 Una vez presentados, el tribunal deberá revisar los antecedentes y
                                                                                                 verificar el cumplimiento de los requisitos señalados en el artículo
 
-
 ## 118. Si cumple con lo anterior, el tribunal tendrá la solicitud por
 
-                                                                                                presentada, ordenará publicarla en el Boletín Concursal y citará a
+**Definición Canónica:** presentada, ordenará publicarla en el Boletín Concursal y citará a
+                                                                                                las partes a una audiencia que tendrá lugar al quinto día desde la
+                                                                                                notificación personal del Deudor, o la realizada conforme al artículo
+                                                                                                44 del Código de Procedimiento Civil. En caso contrario, ordenará
+                                          
+**Concordancias Legales:** artículo 44 del Código de Procedimiento Civil. En caso contra; Artículo 118; artículo 2472 del Código Civil; artículo 25; artículo 57; artículo 120; Ley Nº 20.720
+
+presentada, ordenará publicarla en el Boletín Concursal y citará a
                                                                                                 las partes a una audiencia que tendrá lugar al quinto día desde la
                                                                                                 notificación personal del Deudor, o la realizada conforme al artículo
                                                                                                 44 del Código de Procedimiento Civil. En caso contrario, ordenará
@@ -4503,10 +4520,17 @@ Liquidación de Activos                                                         
 
 Ley Nº 20.720                                                  4. Procedimiento de                                                  111
 
-
 ## 4.1.3.3 Audiencia inicial
 
-                                                                Tendrá lugar el quinto día hábil posterior a la notificación de la de-
+**Definición Canónica:** Tendrá lugar el quinto día hábil posterior a la notificación de la de-
+                                                                manda y la providencia a las que se refieren los artículos 117 y 118 de
+                                                                la ley. En esta audiencia, el demandado podrá asumir ciertas actitudes
+                                                                que determinarán si el procedimiento continúa en la Liquidación
+                                                                del activo del Deudor, mudando la Liquidación a Reorganización o
+ 
+**Concordancias Legales:** artículos 117; artículo 120; artículo 464 del Código de; artículo 464; Ley Nº 20.720
+
+Tendrá lugar el quinto día hábil posterior a la notificación de la de-
                                                                 manda y la providencia a las que se refieren los artículos 117 y 118 de
                                                                 la ley. En esta audiencia, el demandado podrá asumir ciertas actitudes
                                                                 que determinarán si el procedimiento continúa en la Liquidación
@@ -4573,10 +4597,15 @@ Liquidación de Activos                                                         
                                                                                             financiera de la empresa y las modalidades de la obligación que fa-
                                                                                             vorecen a esta.
 
-
 ## 4.1.3.4 Juicio de oposición
 
-                                                                                            Este pleito o procedimiento ejecutivo universal tendrá lugar con la
+**Definición Canónica:** Este pleito o procedimiento ejecutivo universal tendrá lugar con la
+                                                                                            oposición del Deudor a la demanda de algún acreedor, en los tér-
+                                                                                            minos del artículo 117 y según las reglas del Párrafo 3, Título 1, del
+                                                                                            Capítulo IV de la ley concursal.
+**Concordancias Legales:** artículo 117; artículo 118.61; artículos 121; artículo 122; artículo 120; artículo 129; artículo 124.63; artículo 125; artículo 126; artículos 356; Artículo 124; artículos 385; artículo 127; artículo 128; artículo 4; Ley Nº 20.720
+
+Este pleito o procedimiento ejecutivo universal tendrá lugar con la
                                                                                             oposición del Deudor a la demanda de algún acreedor, en los tér-
                                                                                             minos del artículo 117 y según las reglas del Párrafo 3, Título 1, del
                                                                                             Capítulo IV de la ley concursal.
@@ -4774,15 +4803,15 @@ Liquidación de Activos                                                         
 Sobre Reorganización y                                                                          Liquidación de Empresa
 Liquidación de Activos                                                                          y Persona Deudora
 
-
-## 4.2           Efectos de la Resolución
-
-                                                                                              de Liquidación
-
-
 ## 4.2.1 Efectos sobre los bienes
 
-                                                                                              El artículo 130 de la ley regula lo que la doctrina ha denominado
+**Definición Canónica:** El artículo 130 de la ley regula lo que la doctrina ha denominado
+                                                                                              “desasimiento sobre los bienes del deudor”. Sandoval señala que este
+                                                                                              priva al sujeto pasivo del derecho a administrar y disponer de los bie-
+                                                                                              nes del concurso y de sus frutos, correspondiendo ello al Liquidador.
+**Concordancias Legales:** artículo 130; Ley Nº 20.720
+
+El artículo 130 de la ley regula lo que la doctrina ha denominado
                                                                                               “desasimiento sobre los bienes del deudor”. Sandoval señala que este
                                                                                               priva al sujeto pasivo del derecho a administrar y disponer de los bie-
                                                                                               nes del concurso y de sus frutos, correspondiendo ello al Liquidador.
@@ -4852,10 +4881,14 @@ Liquidación de Activos                                                         
                                                                  bienes. Una excepción importante es que, tratándose de acciones
                                                                  personales, comparece la persona del Deudor.
 
-
 ## 4.2.2 Efectos respecto de las obligaciones
 
-                                                                 A este respecto, el artículo 134 de la ley concursal establece que la
+**Definición Canónica:** A este respecto, el artículo 134 de la ley concursal establece que la
+                                                                 resolución de Liquidación “fijará irrevocablemente los derechos de
+                                                                 todos los acreedores en el estado que tenían al día de su pronuncia-
+**Concordancias Legales:** artículo 134; artículo 136; Ley Nº 20.720
+
+A este respecto, el artículo 134 de la ley concursal establece que la
                                                                  resolución de Liquidación “fijará irrevocablemente los derechos de
                                                                  todos los acreedores en el estado que tenían al día de su pronuncia-
 
@@ -4875,10 +4908,16 @@ Liquidación de Activos                                                         
                                                                                                percibir el pago de sus acreencias. Estas últimas se pagarán según su
                                                                                                valor actual más los reajustes e intereses que correspondan.
 
-
 ## 4.2.3 Efectos respecto de los juicios
 
-                                                                                               Los artículos 135 y siguientes de la ley identifican las consecuencias
+**Definición Canónica:** Los artículos 135 y siguientes de la ley identifican las consecuencias
+                                                                                               respecto de los posibles juicios en que pueda ser parte el Deudor. La
+                                                                                               norma citada dispone que se suspenderán todo tipo de ejecuciones
+                                                                                               individuales, justificado en la necesidad de evitar la concurrencia de
+                                      
+**Concordancias Legales:** artículos 135; Artículo 144; Artículo 145; artículo 142; Ley Nº 20.720
+
+Los artículos 135 y siguientes de la ley identifican las consecuencias
                                                                                                respecto de los posibles juicios en que pueda ser parte el Deudor. La
                                                                                                norma citada dispone que se suspenderán todo tipo de ejecuciones
                                                                                                individuales, justificado en la necesidad de evitar la concurrencia de
@@ -4927,10 +4966,15 @@ Liquidación de Activos                                                         
                                                                 árbitros; las materias de arbitraje forzoso, y los juicios sometidos por
                                                                 ley a tribunales especiales.
 
-
 ## 4.2.4 Efectos respecto de los contratos
 
-                                                                Por regla general, los contratos no se terminan por la dictación de la
+**Definición Canónica:** Por regla general, los contratos no se terminan por la dictación de la
+                                                                resolución de Liquidación, salvo aquellos que expresamente caducan
+                                                                por causa de la insolvencia, tales como los contratos de trabajo, el
+                                                                mandato, el contrato de cuenta corriente, entre otros.
+**Concordancias Legales:** Ley Nº 20.720
+
+Por regla general, los contratos no se terminan por la dictación de la
                                                                 resolución de Liquidación, salvo aquellos que expresamente caducan
                                                                 por causa de la insolvencia, tales como los contratos de trabajo, el
                                                                 mandato, el contrato de cuenta corriente, entre otros.
@@ -4948,10 +4992,11 @@ Liquidación de Activos                                                         
 Sobre Reorganización y                                                  Liquidación de Empresa
 Liquidación de Activos                                                  y Persona Deudora
 
-
 ## 4.3    Determinación
 
-                                                                      del pasivo
+**Definición Canónica:** del pasivo
+
+del pasivo
 
                                                                       Tal como lo señala Sandoval, para determinar el pasivo del concurso
                                                                       es necesario tener en consideración la clasificación desarrollada por
@@ -4966,11 +5011,16 @@ Liquidación de Activos                                                  y Perso
                                                                       con anterioridad a la resolución de Liquidación tienen la carga de
                                                                       verificar sus créditos en los plazos señalados por la ley.68
 
-
 ## 4.3.1 Verificación ordinaria
 
+**Definición Canónica:** El artículo 170 de la ley señala que, para verificar sus créditos y ale-
+                                                                      gar sus preferencias, los acreedores disponen de un plazo de 30 días
+                                                                      contados desde la notificación de la resolución de Liquidación. Con el
+                                                                      objeto de evitar la extensión innecesaria de esta etapa, en el artículo
+                                                                      172 se establece que, una vez trans
+**Concordancias Legales:** artículo 170; artículo 172; artículo 2; artículo 174; Ley Nº 20.720
 
-                                                                      El artículo 170 de la ley señala que, para verificar sus créditos y ale-
+El artículo 170 de la ley señala que, para verificar sus créditos y ale-
                                                                       gar sus preferencias, los acreedores disponen de un plazo de 30 días
                                                                       contados desde la notificación de la resolución de Liquidación. Con el
                                                                       objeto de evitar la extensión innecesaria de esta etapa, en el artículo
@@ -4998,10 +5048,12 @@ Liquidación de Activos                                                         
                                                                                               no justificado algún crédito o preferencia, deberá objetar en los tér-
                                                                                               minos señalados en el artículo 174 de la ley.
 
-
 ## 4.3.2 Objeción e impugnación de créditos
 
-                                                                                              La objeción de créditos consiste en la oposición que el Liquidador, el
+**Definición Canónica:** La objeción de créditos consiste en la oposición que el Liquidador, el
+**Concordancias Legales:** artículo 100; ley Nº 18.045; Ley Nº 20.720
+
+La objeción de créditos consiste en la oposición que el Liquidador, el
 
                                                                                               Deudor y los demás acreedores pueden alegar respecto a la existencia
                                                                                               de un crédito, a su monto o a la preferencia afirmada.
@@ -5047,10 +5099,15 @@ Liquidación de Activos                                                         
                                                                 el tribunal considere que existían motivos plausibles para litigar. Esta
                                                                 resolución será apelable en el solo efecto devolutivo.
 
-
 ## 4.3.3 Verificación extraordinaria
 
-                                                                Si la verificación se presentare fuera del plazo de verificación ordinaria
+**Definición Canónica:** Si la verificación se presentare fuera del plazo de verificación ordinaria
+                                                                y antes de que se encuentre firme o ejecutoriada la cuenta final de
+                                                                administración del Liquidador, se le denominará como extraordinaria
+                                                                o morosa.
+**Concordancias Legales:** artículo 174; Ley Nº 20.720
+
+Si la verificación se presentare fuera del plazo de verificación ordinaria
                                                                 y antes de que se encuentre firme o ejecutoriada la cuenta final de
                                                                 administración del Liquidador, se le denominará como extraordinaria
                                                                 o morosa.
@@ -5067,10 +5124,11 @@ Liquidación de Activos                                                         
 Sobre Reorganización y                                                                          Liquidación de Empresa
 Liquidación de Activos                                                                          y Persona Deudora
 
-
 ## 4.4           Realización
 
-                                                                                              de los activos
+**Definición Canónica:** de los activos
+
+de los activos
 
                                                                                               Sandoval ha definido esta etapa como “el conjunto de operaciones
                                                                                               destinadas a convertir en dinero los bienes del deudor sometido al
@@ -5085,10 +5143,15 @@ Liquidación de Activos                                                         
                                                                                               de realización, pudiendo clasificarse como de realización sumaria,
                                                                                               ordinaria y en venta como unidad económica.
 
-
 ## 4.4.1 Realización simplificada o sumaria
 
-                                                                                              Se encuentra regulada en el artículo 203 y siguientes de la ley, proce-
+**Definición Canónica:** Se encuentra regulada en el artículo 203 y siguientes de la ley, proce-
+                                                                                              diendo en aquellos casos donde, ya sea por el tamaño de la empresa,
+                                                                                              el producto esperado de la venta del activo o la falta de interés de los
+                                                                                              acreedores, sea posible presumir que no existirá una alta recaudación.
+**Concordancias Legales:** artículo 203; artículo 204; Ley Nº 20.720
+
+Se encuentra regulada en el artículo 203 y siguientes de la ley, proce-
                                                                                               diendo en aquellos casos donde, ya sea por el tamaño de la empresa,
                                                                                               el producto esperado de la venta del activo o la falta de interés de los
                                                                                               acreedores, sea posible presumir que no existirá una alta recaudación.
@@ -5137,10 +5200,15 @@ Liquidación de Activos                                                         
                                                                 Tratándose de bienes incautados con posterioridad a aquella, el tér-
                                                                 mino se contará desde el día de la diligencia de incautación.
 
-
 ## 4.4.2 Realización ordinaria
 
-                                                                La ley señala que la determinación de la forma de realización de los
+**Definición Canónica:** La ley señala que la determinación de la forma de realización de los
+                                                                bienes del deudor, sus plazos, condiciones y demás características,
+                                                                corresponderá a la Junta de Acreedores. En este orden de ideas, el
+                                                                artículo 208 prescribe que los bienes podrán realizarse mediante:
+**Concordancias Legales:** artículo 208; artículo 217; artículo 210; Ley Nº 20.720
+
+La ley señala que la determinación de la forma de realización de los
                                                                 bienes del deudor, sus plazos, condiciones y demás características,
                                                                 corresponderá a la Junta de Acreedores. En este orden de ideas, el
                                                                 artículo 208 prescribe que los bienes podrán realizarse mediante:
@@ -5180,10 +5248,17 @@ Liquidación de Activos                                                         
                                                                 lo anteriormente señalado, se enajenarán necesariamente de acuerdo
                                                                 con las reglas de la realización sumaria o simplificada.
 
-
 ## 4.4.3 Venta como unidad económica
 
-                                                                Esta forma de realización responde a intereses de protección o con-
+**Definición Canónica:** Esta forma de realización responde a intereses de protección o con-
+                                                                servación de aquellas universalidades que, atendido su fin común
+                                                                funcional y económico, representan un mayor valor que los bienes
+                                                                individualmente considerados. Ruz ha definido esta herramienta
+                                                                como “una técnica de realización del activo de la Empresa Deudora,
+                
+**Concordancias Legales:** artículo 217; artículo 218; artículos 217; Ley Nº 20.720; Ley N° 20.720
+
+Esta forma de realización responde a intereses de protección o con-
                                                                 servación de aquellas universalidades que, atendido su fin común
                                                                 funcional y económico, representan un mayor valor que los bienes
                                                                 individualmente considerados. Ruz ha definido esta herramienta
@@ -5252,10 +5327,14 @@ Liquidación de Activos                                                         
                                                                 oferta de compra directa y el arrendamiento con opción de compra
                                                                 o leasing.
 
-
 ## 4.4.4 Oferta de compra directa
 
-                                                                Esta se encuentra regulada en los artículos 222 y 223, constituyéndose
+**Definición Canónica:** Esta se encuentra regulada en los artículos 222 y 223, constituyéndose
+                                                                en una de las opciones o formas de realización que puede acordar
+                                                                la Junta de Acreedores.
+**Concordancias Legales:** artículos 222
+
+Esta se encuentra regulada en los artículos 222 y 223, constituyéndose
                                                                 en una de las opciones o formas de realización que puede acordar
                                                                 la Junta de Acreedores.
 
@@ -5270,10 +5349,15 @@ Liquidación de Activos                                                         
                                                                 en remate al martillo a cualquier interesado y el monto mínimo será
                                                                 aquel presentado por el oferente.
 
-
 ## 4.4.5 Leasing
 
-                                                                La aplicación de esta figura en el procedimiento concursal se en-
+**Definición Canónica:** La aplicación de esta figura en el procedimiento concursal se en-
+                                                                cuentra regulado en los artículos 224 a 227 de la ley concursal. Por
+                                                                medio de esta, se ha buscado resolver la suerte que correrán los
+                                                                bienes sujetos a este tipo de contratación.
+**Concordancias Legales:** artículos 224; artículo 225; artículo 163; Ley Nº 20.720
+
+La aplicación de esta figura en el procedimiento concursal se en-
                                                                 cuentra regulado en los artículos 224 a 227 de la ley concursal. Por
                                                                 medio de esta, se ha buscado resolver la suerte que correrán los
                                                                 bienes sujetos a este tipo de contratación.
@@ -5332,15 +5416,15 @@ Liquidación de Activos                                                         
 Sobre Reorganización y                                                                          Liquidación de Empresa
 Liquidación de Activos                                                                          y Persona Deudora
 
-
-## 4.5           Término del Procedimiento
-
-                                                                                               Concursal de Liquidación
-
-
 ## 4.5.1 Por dictación de la Resolución de término
 
-                                                                                               Sobre este punto, Contador y Palacios expresan que la Ley N° 20.720
+**Definición Canónica:** Sobre este punto, Contador y Palacios expresan que la Ley N° 20.720
+                                                                                               zanjó la discusión que existía bajo la vigencia de la antigua Ley de
+                                                                                               Quiebra en torno al momento de término del procedimiento de
+                                                                                               liquidación.72
+**Concordancias Legales:** artículo 254; artículo 255; Ley N° 20.720; Ley Nº 20.720
+
+Sobre este punto, Contador y Palacios expresan que la Ley N° 20.720
                                                                                                zanjó la discusión que existía bajo la vigencia de la antigua Ley de
                                                                                                Quiebra en torno al momento de término del procedimiento de
                                                                                                liquidación.72
@@ -5440,10 +5524,16 @@ Liquidación de Activos                                                         
                                                                                            para utilizar el proceso en curso como una vía para extinguir sus
                                                                                            obligaciones y no para los fines respecto a los cuales fue concebido.
 
-
 ## 4.5.2 Por Acuerdo de Reorganización Judicial
 
-                                                                                           Tal como acontece con lo expresado a propósito de la demanda de
+**Definición Canónica:** Tal como acontece con lo expresado a propósito de la demanda de
+                                                                                           liquidación forzada y la posibilidad de instar el inicio de un proce-
+                                                                                           dimiento judicial de reorganización en el contexto de uno de corte
+                                                                                           liquidatorio, el legislador, en notable manifestación de su sesgo por
+                                                        
+**Concordancias Legales:** artículo 257
+
+Tal como acontece con lo expresado a propósito de la demanda de
                                                                                            liquidación forzada y la posibilidad de instar el inicio de un proce-
                                                                                            dimiento judicial de reorganización en el contexto de uno de corte
                                                                                            liquidatorio, el legislador, en notable manifestación de su sesgo por
@@ -5459,10 +5549,12 @@ Liquidación de Activos                                                         
                                                                                            nes contenidas en el Capítulo III de esta ley, en lo que fuere procedente
                                                                                            y en todo lo que no se regule en las disposiciones siguientes”.
 
-
 ## 76       CABALLERO GERMAIN, G. (2018): “Sobreendeudamiento y exoneración legal de los saldos insolutos en el
 
-                                                               procedimiento concursal del consumidor”, en Revista Ius et Praxis, 24(3); pp. 133-172.
+**Definición Canónica:** procedimiento concursal del consumidor”, en Revista Ius et Praxis, 24(3); pp. 133-172.
+**Concordancias Legales:** artículo 120; artículo 257; Ley Nº 20.720
+
+procedimiento concursal del consumidor”, en Revista Ius et Praxis, 24(3); pp. 133-172.
 
 Ley Nº 20.720                                                  4. Procedimiento de                                                     136
 
@@ -5512,10 +5604,12 @@ fduenEcimonpraem sa
 Ley Nº 20.720                                                                              5. Acciones Revocatorias                                                 137
 Sobre Reorganización y                                                                        Concursales
 
-
 ## 5.1           Aspectos
 
-                                                                                             generales
+**Definición Canónica:** generales
+**Concordancias Legales:** artículos 287; artículo 291 de la Ley Nº 20.720 establece que el plazo para; Ley Nº 20.720; Ley N° 20.720; Ley 20.720
+
+generales
 
                                                                                              Antes de la dictación de la Ley Nº 20.720, el Libro IV del Código
                                                                                              de Comercio regulaba las acciones de inoponibilidad concursal y su
@@ -5580,28 +5674,37 @@ Sobre Reorganización y                                                         
 
 ## sumario ante el tribunal que conoce o debiera conocer de los procesos
 
-                                                                                          concursales respectivos; es decir, si se trata de un procedimiento de
+**Definición Canónica:** concursales respectivos; es decir, si se trata de un procedimiento de
+                                                                                          Reorganización o Liquidación, será competente el tribunal ante el
+                                                                                          cual ya se ha iniciado, pero si se trata de un procedimiento de Re-
+                                                                                          negociación, el tribunal competente será el juzgado de letras en lo
+                                                          
+
+concursales respectivos; es decir, si se trata de un procedimiento de
                                                                                           Reorganización o Liquidación, será competente el tribunal ante el
                                                                                           cual ya se ha iniciado, pero si se trata de un procedimiento de Re-
                                                                                           negociación, el tribunal competente será el juzgado de letras en lo
                                                                                           civil que corresponda al domicilio de la Persona Deudora.
 
-
 ## 78       CONTADOR ROSALES y PALACIOS VERGARA, op. cit;, p. 188
 
-
-Ley Nº 20.720                                                        5. Acciones Revocatorias                                             139
+**Definición Canónica:** Ley Nº 20.720                                                        5. Acciones Revocatorias                                             139
 Sobre Reorganización y                                                  Concursales
+**Concordancias Legales:** Ley Nº 20.720
 
-
-## 5.2    Revocabilidad
-
-                                                                      objetiva
-
+Ley Nº 20.720                                                        5. Acciones Revocatorias                                             139
+Sobre Reorganización y                                                  Concursales
 
 ## 5.2.1 Causales
 
-                                                                      El artículo 287 de la Ley Nº 20.720 establece que “iniciados los
+**Definición Canónica:** El artículo 287 de la Ley Nº 20.720 establece que “iniciados los
+                                                                      Procedimientos Concursales de Reorganización o de Liquidación,
+                                                                      los acreedores podrán y el Veedor o el Liquidador, en su caso, deberá
+                                                                      deducir acción revocatoria concursal respecto de los siguientes actos
+                                                                      ejecutados o contratos celebrados por la Empresa Deu
+**Concordancias Legales:** artículo 287 de la Ley Nº 20.720 establece que; artículo 287; Ley Nº 20.720; constitución
+
+El artículo 287 de la Ley Nº 20.720 establece que “iniciados los
                                                                       Procedimientos Concursales de Reorganización o de Liquidación,
                                                                       los acreedores podrán y el Veedor o el Liquidador, en su caso, deberá
                                                                       deducir acción revocatoria concursal respecto de los siguientes actos
@@ -5708,10 +5811,17 @@ Sobre Reorganización y                                            Concursales
                                                                 carácter concursal, por lo tanto se amplía el plazo para poder revisar
                                                                 las relaciones contractuales de la Empresa Deudora.
 
-
 ## 5.2.2 La actuación jurisdiccional
 
-                                                                Una vez interpuesta la acción revocatoria objetiva, el tribunal deberá
+**Definición Canónica:** Una vez interpuesta la acción revocatoria objetiva, el tribunal deberá
+                                                                constatar si el acto o contrato se ejecutó o celebró dentro del plazo
+                                                                señalado, es decir, dentro de un año inmediatamente anterior al
+                                                                inicio del procedimiento que se trate, o dos años si se trata de un
+                                                                acto o contrato ejecutado o celebrado a título gratuito o con personas
+
+**Concordancias Legales:** artículo 287; Ley Nº 20.720
+
+Una vez interpuesta la acción revocatoria objetiva, el tribunal deberá
                                                                 constatar si el acto o contrato se ejecutó o celebró dentro del plazo
                                                                 señalado, es decir, dentro de un año inmediatamente anterior al
                                                                 inicio del procedimiento que se trate, o dos años si se trata de un
@@ -5738,10 +5848,12 @@ Sobre Reorganización y                                            Concursales
 Ley Nº 20.720                                                        5. Acciones Revocatorias                                             143
 Sobre Reorganización y                                                  Concursales
 
-
 ## 5.3    Revocabilidad
 
-                                                                      subjetiva
+**Definición Canónica:** subjetiva
+**Concordancias Legales:** artículo 288; artículo 288 de la Ley Nº 20.720 establece que; Ley Nº 20.720
+
+subjetiva
 
                                                                       Todos los actos o contratos que no estén específicamente dentro
                                                                       de las hipótesis enumeradas anteriormente, solo pueden revocarse
@@ -5783,10 +5895,13 @@ Sobre Reorganización y                                                  Concurs
 Ley Nº 20.720                                                                                 5. Acciones Revocatorias                                             144
 Sobre Reorganización y                                                                           Concursales
 
-
 ## 5.3.1 Requisitos de la revocabilidad subjetiva
 
-                                                                                                    “1) Conocimiento del contratante del mal estado de los negocios
+**Definición Canónica:** “1) Conocimiento del contratante del mal estado de los negocios
+                                                                                                    de la Empresa Deudora”.
+**Concordancias Legales:** Ley Nº 20.720
+
+“1) Conocimiento del contratante del mal estado de los negocios
                                                                                                     de la Empresa Deudora”.
 
                                                                                                Deberá probarse en juicio que el tercero contratante conocía el esta-
@@ -5855,10 +5970,12 @@ Sobre Reorganización y                                                         
 Ley Nº 20.720                                                    5. Acciones Revocatorias                                                 146
 Sobre Reorganización y                                              Concursales
 
-
 ## 5.4   Revocabilidad y las reformas a los
 
-                                                                     pactos o estatutos sociales
+**Definición Canónica:** pactos o estatutos sociales
+**Concordancias Legales:** artículo 289; Ley N° 20.720; Ley Nº 20.720
+
+pactos o estatutos sociales
 
                                                                      En la legislación anterior, un mismo deudor podía realizar distintas
                                                                      modificaciones a los pactos o estatutos sociales, que produjeran como
@@ -5890,10 +6007,12 @@ Sobre Reorganización y                                              Concursales
 Ley Nº 20.720                                                        5. Acciones Revocatorias                                            147
 Sobre Reorganización y                                                  Concursales
 
-
 ## 5.5    Revocación de actos ejecutados o contratos
 
-                                                                      celebrados por una Persona Deudora
+**Definición Canónica:** celebrados por una Persona Deudora
+**Concordancias Legales:** artículo 290; artículo 287; artículo 2468; Ley Nº 20.720
+
+celebrados por una Persona Deudora
 
                                                                       El artículo 290 de la ley establece que el mecanismo para revocar los
                                                                       actos o contratos ejecutados o celebrados por una Persona Deudora
@@ -5910,15 +6029,16 @@ Sobre Reorganización y                                                  Concurs
 Ley Nº 20.720                                                        5. Acciones Revocatorias                                                  148
 Sobre Reorganización y                                                  Concursales
 
-
-## 5.6    Sentencia de revocabilidad
-
-                                                                      y sus efectos
-
-
 ## 5.6.1 Efectos entre las partes
 
-                                                                      La sentencia definitiva, que acoge la demanda y declara la revocación
+**Definición Canónica:** La sentencia definitiva, que acoge la demanda y declara la revocación
+                                                                      del acto o contrato ejecutado o celebrado, se encuentra regulada en el
+                                                                      artículo 292 de la Ley Nº 20.720. Se estará aquí a la parte dispositiva
+                                                                      que la norma ordena específicamente para esta resolución:
+                                                                      —        Que se disponga la restitución del bien 
+**Concordancias Legales:** artículo 292 de la Ley Nº 20.720. Se estará aquí a la parte disp; Ley Nº 20.720
+
+La sentencia definitiva, que acoge la demanda y declara la revocación
                                                                       del acto o contrato ejecutado o celebrado, se encuentra regulada en el
                                                                       artículo 292 de la Ley Nº 20.720. Se estará aquí a la parte dispositiva
                                                                       que la norma ordena específicamente para esta resolución:
@@ -5966,10 +6086,17 @@ Sobre Reorganización y                                            Concursales
                                                                 el demandado deberá efectuar el pago dentro del plazo de tres días
                                                                 contado desde que el tribunal entregue la referida liquidación.
 
-
 ## 5.6.2 Efectos respecto de terceros
 
-                                                                El artículo 294 de la Ley Nº 20.720 regula el alcance que puede tener,
+**Definición Canónica:** El artículo 294 de la Ley Nº 20.720 regula el alcance que puede tener,
+                                                                respecto de terceros, la sentencia que acoja la revocabilidad concursal.
+                                                                Entendemos que el objetivo del legislador es fijar los efectos que
+                                                                pueda tener una resolución de este tipo respecto de una persona
+                                                                que, no siendo una parte directa de la relación procesal, pudiere
+   
+**Concordancias Legales:** artículo 294 de la Ley Nº 20.720 regula el alcance que puede ten; Ley Nº 20.720
+
+El artículo 294 de la Ley Nº 20.720 regula el alcance que puede tener,
                                                                 respecto de terceros, la sentencia que acoja la revocabilidad concursal.
                                                                 Entendemos que el objetivo del legislador es fijar los efectos que
                                                                 pueda tener una resolución de este tipo respecto de una persona
@@ -5991,11 +6118,14 @@ Sobre Reorganización y                                            Concursales
 Ley Nº 20.720                                                    5. Acciones Revocatorias                                               150
 Sobre Reorganización y                                              Concursales
 
-
 ## 5.7   Recursos
 
+**Definición Canónica:** El artículo 292 de la Ley N° 20.720 dispone qué recursos pueden
+                                                                     deducirse en contra de la sentencia de revocabilidad. El inciso final
+                                                                     de la norma señala:
+**Concordancias Legales:** artículo 292 de la Ley N; Ley N° 20.720; Ley Nº 20.720
 
-                                                                     El artículo 292 de la Ley N° 20.720 dispone qué recursos pueden
+El artículo 292 de la Ley N° 20.720 dispone qué recursos pueden
                                                                      deducirse en contra de la sentencia de revocabilidad. El inciso final
                                                                      de la norma señala:
 
@@ -6009,10 +6139,12 @@ Sobre Reorganización y                                              Concursales
 Ley Nº 20.720                                                        5. Acciones Revocatorias                                               151
 Sobre Reorganización y                                                  Concursales
 
-
 ## 5.8    Costas
 
-                                                                      y recompensas
+**Definición Canónica:** y recompensas
+**Concordancias Legales:** artículo 293
+
+y recompensas
 
                                                                       El artículo 293 regula los derechos que corresponden a los acreedores
                                                                       no relacionados con la Empresa Deudora, que deduzcan acciones
@@ -6046,7 +6178,12 @@ Sobre Reorganización y                                                  Concurs
 
 ## parte vencida, salvo que el tribunal estimare la concurrencia de mo-
 
-                                                                      tivo plausible para litigar. En caso contrario, si el tribunal rechaza la
+**Definición Canónica:** tivo plausible para litigar. En caso contrario, si el tribunal rechaza la
+                                                                      acción entablada, los demandantes deberán soportar todos los gastos
+                                                                      del proceso y los honorarios de los profesionales que intervinieron.
+**Concordancias Legales:** Ley Nº 20.720
+
+tivo plausible para litigar. En caso contrario, si el tribunal rechaza la
                                                                       acción entablada, los demandantes deberán soportar todos los gastos
                                                                       del proceso y los honorarios de los profesionales que intervinieron.
 
@@ -6065,12 +6202,15 @@ Sobre Reorganización y                                                  Concurs
                                                             midor”, en Revista Ius et Praxis, 24(3). Disponible        2021].
                                                             online [fecha de consulta: 7 de mayo de 2021].
 
-## 2.   Comunicación de la Comisión al Consejo, al
-
-
 ## 2.    CONTADOR ROSALES, N. y PALACIOS VERGA-                     Parlamento Europeo, al Comité Económico y
 
-                                                            RA, C. (2015): Procedimientos concursales. Ley de          Social Europeo y al Comité de las Regiones, de 5
+**Definición Canónica:** RA, C. (2015): Procedimientos concursales. Ley de          Social Europeo y al Comité de las Regiones, de 5
+                                                            insolvencia y reemprendimiento; Santiago, Legal            de octubre de 2007: “Superar el estigma del fra-
+                                                            Publishing Chile.                                          caso empresarial - por una política que ofrezca
+                                                                                                                       una segunda oportunidad: Ejecución de 
+**Concordancias Legales:** Ley N° 20.073; Ley N° 18.175
+
+RA, C. (2015): Procedimientos concursales. Ley de          Social Europeo y al Comité de las Regiones, de 5
                                                             insolvencia y reemprendimiento; Santiago, Legal            de octubre de 2007: “Superar el estigma del fra-
                                                             Publishing Chile.                                          caso empresarial - por una política que ofrezca
                                                                                                                        una segunda oportunidad: Ejecución de la asoci-
@@ -6087,7 +6227,14 @@ Sobre Reorganización y                                                  Concurs
 
 ## 5.    GOLDENBERG, J. y JEQUIER, E. (2019): “Dos
 
-                                                            problemas basales de la ley concursal chilena a       4.   Ley N° 4.558, de 4 de febrero de 1929, sobre
+**Definición Canónica:** problemas basales de la ley concursal chilena a       4.   Ley N° 4.558, de 4 de febrero de 1929, sobre
+                                                            5 años de su entrada en vigencia”, en Derecho              Quiebras. Biblioteca del Congreso Nacional de
+                                                            Concursal Iberoamericano: Realidades y Perspec-            Chile. Recuperado online [fecha de consulta: 7 de
+                                                            tivas. Disponible online [fecha de consulta: 7 de          mayo de 2021].
+                            
+**Concordancias Legales:** Ley N° 4.558
+
+problemas basales de la ley concursal chilena a       4.   Ley N° 4.558, de 4 de febrero de 1929, sobre
                                                             5 años de su entrada en vigencia”, en Derecho              Quiebras. Biblioteca del Congreso Nacional de
                                                             Concursal Iberoamericano: Realidades y Perspec-            Chile. Recuperado online [fecha de consulta: 7 de
                                                             tivas. Disponible online [fecha de consulta: 7 de          mayo de 2021].
@@ -6095,7 +6242,13 @@ Sobre Reorganización y                                                  Concurs
 
 ## 5.   Ley N° 18.175, de 28 de octubre de 1982, que Fija
 
-                                                      6.    GURREA MARTÍNEZ, A. (2018): El derecho                     Nuevo Texto de la Ley de Quiebras. Biblioteca del
+**Definición Canónica:** 6.    GURREA MARTÍNEZ, A. (2018): El derecho                     Nuevo Texto de la Ley de Quiebras. Biblioteca del
+                                                            concursal en España: problemas estructurales y             Congreso Nacional de Chile. Recuperado online
+                                                            propuestas de reforma; Madrid, Editorial Reus.             [fecha de consulta: 7 de mayo de 2021].
+                                                      7.    JARA AMIGO, R. (2010): “José Gabriel Ocampo           6.   Ley N° 20.720, de 4 de enero 2014, Sustitu
+**Concordancias Legales:** Ley N° 20.720
+
+6.    GURREA MARTÍNEZ, A. (2018): El derecho                     Nuevo Texto de la Ley de Quiebras. Biblioteca del
                                                             concursal en España: problemas estructurales y             Congreso Nacional de Chile. Recuperado online
                                                             propuestas de reforma; Madrid, Editorial Reus.             [fecha de consulta: 7 de mayo de 2021].
                                                       7.    JARA AMIGO, R. (2010): “José Gabriel Ocampo           6.   Ley N° 20.720, de 4 de enero 2014, Sustituye el
@@ -6106,7 +6259,13 @@ Sobre Reorganización y                                                  Concurs
 
 ## 8.    PUELMA ACORSSI, A. (1985): Curso de Derecho
 
-                                                                                                                       Chile. Recuperado online [fecha de consulta: 7 de
+**Definición Canónica:** Chile. Recuperado online [fecha de consulta: 7 de
+                                                            de Quiebras; Editorial Jurídica de Chile, Santiago,
+                                                                                                                       mayo de 2021].
+                                                            4ª edición.
+                                                                                                                  7.   Ley 22/2003, de 9 de julio, sobre Ley Concursal.
+
+Chile. Recuperado online [fecha de consulta: 7 de
                                                             de Quiebras; Editorial Jurídica de Chile, Santiago,
                                                                                                                        mayo de 2021].
                                                             4ª edición.
@@ -6114,18 +6273,29 @@ Sobre Reorganización y                                                  Concurs
 
 ## 9.    PUGA VIAL, J. (2015): Derecho concursal: del
 
-                                                                                                                       Boletín Oficial del Estado, núm. 164, de 10 de julio
+**Definición Canónica:** Boletín Oficial del Estado, núm. 164, de 10 de julio
                                                             procedimiento concursal de liquidación; Santiago,
                                                                                                                        de 2003. Recuperado online [fecha de consulta: 7
                                                             Editorial Jurídica de Chile.
                                                                                                                        de mayo de 2021].
 
-## 10.   RUZ LÁRTIGA, G. (2017): Nuevo Derecho Concur-
-
+Boletín Oficial del Estado, núm. 164, de 10 de julio
+                                                            procedimiento concursal de liquidación; Santiago,
+                                                                                                                       de 2003. Recuperado online [fecha de consulta: 7
+                                                            Editorial Jurídica de Chile.
+                                                                                                                       de mayo de 2021].
 
 ## 8.   Boletín Estadístico Procedimientos concursales
 
-                                                            sal Chileno. Tomo I: Reorganización de Empresa
+**Definición Canónica:** sal Chileno. Tomo I: Reorganización de Empresa
+                                                                                                                       Ley N° 20.720, desde 1 de enero a 30 de noviem-
+                                                            Deudora y Renegociación de Persona Deudora;
+                                                                                                                       bre de 2020. Superintendencia de Insolvencia y
+                                                            Santiago, Legal Publishing Chile.
+                      
+**Concordancias Legales:** Ley N° 20.720
+
+sal Chileno. Tomo I: Reorganización de Empresa
                                                                                                                        Ley N° 20.720, desde 1 de enero a 30 de noviem-
                                                             Deudora y Renegociación de Persona Deudora;
                                                                                                                        bre de 2020. Superintendencia de Insolvencia y
@@ -6136,38 +6306,3 @@ Sobre Reorganización y                                                  Concurs
                                                             Concursal; Santiago, Editorial Jurídica de Chile.
 
 ←   Índice de contenidos
-
-## Serie de
-
-Ley Nº 20.720                                       Introducción   DOCUMENTOS 155
-Sobre Reorganización y                                             MATERIALES
-
-## Docentes
-
-
-ial
- c
- udi
- J
- a
- mi
- de
- a
- c
- A
- s
- e
- nt
- e
- c
- do
- s
- al
- e
- ri
- e
-Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl
-
-←      Índice de contenidos

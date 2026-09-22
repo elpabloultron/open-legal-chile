@@ -13,19 +13,19 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-45           Interpretación,
-             argumentación
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             y razonamiento
+                  electrónica
+             judicial
+                  de causas
+             Flavia Carbonell Bellolio
+             Constanza Ihnen Jory
+             David Quintero Fuentes
+**Concordancias Legales:** Constitucion
 
-                  Tramitación
+Tramitación
              y razonamiento
                   electrónica
              judicial
@@ -93,32 +93,9 @@ Materiales Docentes                                            ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Función judicial
-
-## 28      Capítulo 2
-
-        Interpretación del derecho
-
-## 86      Capítulo 3
-
-        Razonamiento judicial
-
-## 124     Capítulo 4
-
-        Argumentación jurídica
-
-## 155     Capítulo 5
-
-        Casos complejos y análisis interseccional
-
-## 174     Referencias
-
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Función judicial
 
 Función judicial
 
@@ -139,6 +116,17 @@ de otros entes públicos: se ejerce de manera exclusiva, independiente,
 imparcial, irrevocable y con imperio por parte del juez (Bordalí, 2009).
 
 ## Parte de estas características son recogidas en una definición clásica de
+
+**Definición Canónica:** la dogmática procesal chilena: «La jurisdicción es el poder deber que
+tienen los tribunales para conocer y resolver, por medio del proceso y
+con efecto de cosa juzgada, los conflictos de intereses de relevancia jurídica que se promuevan en el orden temporal, dentro del territorio de
+la República y en cuya solución les corresponda intervenir» (Colombo,
+2004: 45).
+   Esta manera de concebir la jurisdicción tiene un vínculo estrecho con
+la noción de democracia. Tal como señala Ferrajoli (1997), el papel de
+la jurisdicción se ha ido expandiendo al tiempo que se ha propagado
+el uso del derecho como
+**Concordancias Legales:** constitucion; constitución
 
 la dogmática procesal chilena: «La jurisdicción es el poder deber que
 tienen los tribunales para conocer y resolver, por medio del proceso y
@@ -247,18 +235,20 @@ incluye frecuentemente el término hecho en sus disposiciones normativas,1 al ti
 hecho.2 La dogmática civil, por su parte, hace mucho que teoriza acerca
 de lo que denomina «hechos jurídicos».3 La legislación procesal se refie-
 
-
-## 1 Por ejemplo, la recurrente expresión «por hecho o culpa» suya, en los artículos
-
-788, 900, 1496 número 2, 1533 inciso segundo, 1590, 1679, 1826 inciso segundo, 1925,
-entre otros, todos del Código Civil.
-
 ## 2 Por ejemplo, todos en el Código Civil, supuestos de abejas fugitivas (artículo
+
+**Definición Canónica:** 620); ruina de un edificio (artículos 932 y 2323); eventos de la naturaleza, como terremoto o rayo (artículos 45 y 934); muerte, la fuerza física (artículo 1456); pérdida
+de una cosa (artículos 1576 número 7, 1670 y ss.).
+**Concordancias Legales:** artículos 932; artículos 45; artículo 1456; artículos 1576
 
 620); ruina de un edificio (artículos 932 y 2323); eventos de la naturaleza, como terremoto o rayo (artículos 45 y 934); muerte, la fuerza física (artículo 1456); pérdida
 de una cosa (artículos 1576 número 7, 1670 y ss.).
 
 ## 3 La dogmática civil suele referirse a «hechos jurídicos» y a las clasificaciones de
+
+**Definición Canónica:** los mismos, a propósito de la teoría general de los actos jurídicos. Véase Vial del Río
+(2006: 12 y ss.).
+**Concordancias Legales:** artículo 1826 del Código Civil; artículos 1793; Artículo 44; Artículos 170; artículos 670
 
 los mismos, a propósito de la teoría general de los actos jurídicos. Véase Vial del Río
 (2006: 12 y ss.).
@@ -342,6 +332,13 @@ defecto, habiliten su control, ya sea a través de mecanismos de impugnación de
 
 ## parte de la comunidad jurídica o de los ciudadanos en general («control
 
+**Definición Canónica:** exoprocesal»). En nuestro sistema jurídico, el deber de motivación se
+encuentra consagrado legislativamente en diversas disposiciones;7 por
+otra parte, en tanto los órganos públicos se encuentran obligados a someter sus actuaciones a la Constitución y las leyes y a expresar públicamente los fundamentos de sus decisiones, el derecho a una sentencia
+motivada suele considerarse parte del derecho a un proceso legalmente
+tramitado y a un juicio público, respectivamente, o al derecho a la defensa, que es uno de los subderechos que integran el «debido proceso».8
+**Concordancias Legales:** Constitución; Constitucion
+
 exoprocesal»). En nuestro sistema jurídico, el deber de motivación se
 encuentra consagrado legislativamente en diversas disposiciones;7 por
 otra parte, en tanto los órganos públicos se encuentran obligados a someter sus actuaciones a la Constitución y las leyes y a expresar públicamente los fundamentos de sus decisiones, el derecho a una sentencia
@@ -359,6 +356,10 @@ es posible cuando existe división de poderes (2004: 124). En sus oríge-
  6 Véase, Sentencia del Tribunal Constitucional rol 1873-10.
 
 ## 7 Por ejemplo, artículo 170 del Código de Procedimiento Civil; artículo 342 del
+
+**Definición Canónica:** Código Procesal Penal y artículo 456 del Código del Trabajo.
+ 8 Sobre debido proceso, véase Carbonell y Letelier (2020).
+**Concordancias Legales:** artículo 456 del Código del Trabajo. 8 Sobre debido proceso
 
 Código Procesal Penal y artículo 456 del Código del Trabajo.
  8 Sobre debido proceso, véase Carbonell y Letelier (2020).
@@ -440,8 +441,15 @@ la decisión al derecho vigente, al derecho positivo que preexiste a la decisió
    Estas valoraciones morales y políticas, la ideología, permean las actividades de interpretación y aplicación del derecho,9 particularmente si
 el actor es un juez, tal como lo destacó en su momento el realismo jurídico norteamericano. Que la ideología permee en la actividad judicial,
 
-
 ## 9 Aquí se sigue un concepto amplio de ideología entendida como una «toma de
+
+**Definición Canónica:** posición frente a la realidad, que se funda en un sistema de valores más o menos
+conocido, y que se manifiesta a través de juicios de valor que tienden a ejercer una
+influencia sobre la realidad, conservando la realidad como es si la valoración es
+positiva o modificándola si es negativa» (Bobbio, 1961: 16). El término ideología, tal
+como aquí se utiliza, se desmarca de las connotaciones negativas o peyorativas que
+algunos autores le atribuyen y se usa en forma intercambiable a la expresión «valoraciones y preferencias políticas y morales». En este sentido, son consideraciones
+ideológicas, por 
 
 posición frente a la realidad, que se funda en un sistema de valores más o menos
 conocido, y que se manifiesta a través de juicios de valor que tienden a ejercer una
@@ -504,8 +512,15 @@ en el argumento consecuencialista, selecciona la ratio decidendi de jurisprudenc
 del argumento equitativo.
     La carga ideológica puede ingresar en diversos momentos de la actividad interpretativa. Así, en el punto de partida de la interpretación, y específicamente, en la decisión de si se trata de una disposición normativa
 
-
 ## 10 Es decir, es una solución vinculada toda vez que existen límites institucionales
+
+**Definición Canónica:** (dados por la existencia de textos normativos promulgados por el legislador, un
+proceso con tiempos limitados), límites lingüísticos (significados convencionales de
+las palabras dentro de la comunidad), y límites impuestos por la tradición jurídica
+(cómo se han entendido ciertas expresiones e instituciones, lo que excluye interpretaciones excéntricas y permite cambios justificados). Frente a la indeterminación
+del ordenamiento y de la norma, lo único que se puede exigir al juez es una justificación reforzada.
+ 11 En palabras de Wróblewski «estas directivas son reglas de comportamiento interpre
+**Concordancias Legales:** constitucion
 
 (dados por la existencia de textos normativos promulgados por el legislador, un
 proceso con tiempos limitados), límites lingüísticos (significados convencionales de
@@ -727,6 +742,9 @@ Los derechos en serio (Dworkin, 2002).
 
 ## 13 Así lo señala al comparar la interpretación de la Constitución, que incorpora
 
+**Definición Canónica:** mayor cantidad de enunciados genéricos o proclamaciones de fines y valores, con la
+interpretación de otros textos normativos (García Amado, 2004: 72).
+
 mayor cantidad de enunciados genéricos o proclamaciones de fines y valores, con la
 interpretación de otros textos normativos (García Amado, 2004: 72).
 
@@ -849,8 +867,9 @@ significado al texto normativo, creando derecho (Hart, 1977).
 (1999: 161 y ss.).
  17 Tesis intermedia que también puede denominarse «ecléctica». Véase el subtítulo Concepciones de la interpretación.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Interpretación del derecho
 
 Interpretación del derecho
 
@@ -901,8 +920,15 @@ expresión lingüística cuando existen dudas referentes a este significado
 en un caso concreto de comunicación» (Comanducci, 1999: 12).
    Guastini, por su parte, sitúa la interpretación jurídica dentro del género de la interpretación textual, y señala que aquella «denota, grosso
 
-
 ## 1 Con relación a esto último, véanse Tarello (1980: 39-42), Guastini (2001: 1) y
+
+**Definición Canónica:** Alexy (1996: 66).
+ 2 Las citas textuales son de Wróblewski (1988: 21-24). Estos significados son también considerados por Alexy (1996: 64) y por Comanducci (1999: 10-14). En otro
+de sus escritos, Comanducci llama a estas acepciones de la palabra, interpretación
+hermenéutica, semántica y jurídica, respectivamente. Esta última, y que es aquella
+por la cual se inclina, designa la atribución de significado a documentos normativos
+en el caso en que subsista la duda sobre cuál sea el significado atribuible a aquellos.
+Véase Comanducci (1999: 2-4).
 
 Alexy (1996: 66).
  2 Las citas textuales son de Wróblewski (1988: 21-24). Estos significados son también considerados por Alexy (1996: 64) y por Comanducci (1999: 10-14). En otro
@@ -936,12 +962,9 @@ torno a su campo de aplicación», y se vincula con el aforismo in claris non fi
  4 Véase más adelante la distinción que este autor toma de Tarello entre formulación o disposición normativa y norma (subtítulos Concepciones de la interpretación
 y Premisas implícitas).
 
-## 5 También señala que hay interpretaciones que derivan de otras fuentes, como la
-
-realizada por las partes en un proceso, o por la opinión pública (Wróblewski, 1988:
-28).
-
 ## 6 También ha sido utilizado por Vernengo, que la define como «la practicada por
+
+**Definición Canónica:** los órganos jurisdiccionales de un sistema jurídico positivo cuando aplican derecho
 
 los órganos jurisdiccionales de un sistema jurídico positivo cuando aplican derecho
 
@@ -953,6 +976,16 @@ la teoría cognitiva o formalista, la teoría escéptica o realista y una teorí
 intermedia o mixta.7 Estas tres familias de teorías se corresponden, en
 
 ## parte, con los modelos del noble sueño, la pesadilla y la vigilia de Hart
+
+**Definición Canónica:** (1977: 969-989).8 Además, cada una de ellas representa una determinada
+forma de entender los enunciados interpretativos —que tienen la forma:
+el texto T significa «S»— y una particular concepción de la discrecionalidad judicial. En las líneas siguientes, se presenta la exposición de
+Guastini sobre estas teorías.
+   La teoría cognitiva o cognoscitivista, como su nombre indica, plantea
+que la interpretación es una actividad cognitiva que permite descubrir
+el significado objetivo del texto normativo o la intención subjetiva de la
+autoridad normativa. Los enunciados interpretativos son, para esta 
+**Concordancias Legales:** artículos 19; artículo 19; artículo 20; artículo 21; artículo 23; artículo 22; artículo 24 del Código Civil; Artículo 3; Artículo 9; Artículo 5; artículo 20 del Código luisiano; Artículo 24; artículos 1560; artículo 1545 del Código Civil; artículo 1545; artículo 1560 del Código Civil señala; constitucion
 
 (1977: 969-989).8 Además, cada una de ellas representa una determinada
 forma de entender los enunciados interpretativos —que tienen la forma:
@@ -1571,7 +1604,17 @@ Materiales Docentes                                                        Capí
 
 ## parte manifestándole su intención de no renovar el contrato, con una
 
-      anticipación mínima de 60 días antes de la fecha de término. Por ende,
+**Definición Canónica:** anticipación mínima de 60 días antes de la fecha de término. Por ende,
+      no habiéndose acreditado en autos la existencia de dicha comunicación,
+      no podían los jueces de la instancia suponer la existencia de una dero-
+      gación tácita del contrato, puesto que el mecanismo de término de él
+      estaba inequívocamente establecido en su propio texto, siendo una ley
+      para las partes y pudiendo ser solo invalidado entonces por su mutuo
+      consentimiento o por causas legales, que en este caso estaban determi-
+      nadas en el mismo contrato, sin que ellas se produjeran. Que, asi
+**Concordancias Legales:** artículo 1545; artículos 1561; artículo 1560; artículo 1561; artículo 2462; artículo 1565; artículo 1562; artículo 1563; artículo 1564; artículo 1564 del Código Civil; artículo 1545 del Código Civil; artículos 1056; artículos 1560; artículos 1562; artículo 1069; artículo 1057; artículo 1060; artículo 1064; artículo 1066; artículo 1068; artículos 1074; artículo 1069 del Código prescribe que; artículo 1107; artículos 6; constitución; constitucion
+
+anticipación mínima de 60 días antes de la fecha de término. Por ende,
       no habiéndose acreditado en autos la existencia de dicha comunicación,
       no podían los jueces de la instancia suponer la existencia de una dero-
       gación tácita del contrato, puesto que el mecanismo de término de él
@@ -2035,8 +2078,10 @@ del Congreso y la ratificación del presidente de la República, era necesario p
 de lo anterior, en la labor interpretativa de un tratado internacional, sus
 normas deberán asimilarse a las normas legales emanadas por los medios tradicionales dispuestos por la Constitución, dando aplicación, por
 
-
 ## 13 Caso Godoy con Fisco, en Revista de Derecho y Jurisprudencia (1913), segunda
+
+**Definición Canónica:** parte, sección 1.a, página 95.
+**Concordancias Legales:** artículos 5; artículos 31; artículo 31; artículo 31 de la Convención; artículo 32; artículo 32 de la Convención consagra el elemento histórico de; artículo 33 de la Convención se orienta a resolver la interpret; Constitución
 
 parte, sección 1.a, página 95.
 
@@ -2148,8 +2193,15 @@ las antinomias no pueden resolverse vía interpretación, ya que la resolución 
 una norma y ese es un problema de producción o creación de derecho,
 y no de atribución de significado.
 
-
 ## 16 Una antinomia lógica es «cualquier situación en la que dos normas jurídicas
+
+**Definición Canónica:** conectan a un mismo supuesto de hecho abstracto […] consecuencias jurídicas lógicamente incompatibles», esto es, contradictorias (afirmar y negar, respecto del supuesto de hecho S, la misma consecuencia, como es obligatorio S y es no obligatorio
+S) o contrarias (afirmar, respecto del supuesto de hecho S, dos consecuencias contrarias, como es obligatoria S y es prohibido S). En lógica deóntica, dos proposiciones
+son contrarias cuando no pueden ser ambas verdaderas, pero sí ambas falsas, y son
+contradictorias cuando necesariamente una es verdadera y la otra falsa (Chiassoni,
+2011: 289).
+ 17 Las 
+**Concordancias Legales:** artículos 68; artículo 19 de la Constitución Política es efectivamente; artículo 19; Artículo 68; Artículo 69; artículos 72; Ley 19.968; Constitución; Constitución Política; constitucion
 
 conectan a un mismo supuesto de hecho abstracto […] consecuencias jurídicas lógicamente incompatibles», esto es, contradictorias (afirmar y negar, respecto del supuesto de hecho S, la misma consecuencia, como es obligatorio S y es no obligatorio
 S) o contrarias (afirmar, respecto del supuesto de hecho S, dos consecuencias contrarias, como es obligatoria S y es prohibido S). En lógica deóntica, dos proposiciones
@@ -2444,11 +2496,21 @@ cautelando su salud física y psíquica.
    • Identifique virtudes y defectos argumentativos en la sentencia re-
      ferida.
 
-
 ## Parte II
 
+**Definición Canónica:** • ¿Qué se entiende por equidad natural? Enuncie y explique las di-
+     versas concepciones formuladas al respecto. Caracterice este ele-
+     mento de interpretación de la ley.
+   • Reflexione en torno a las siguientes tesis, tome posición a favor
+     o en contra de ellas, y articule dos argumentos por cada tesis que
+     avalen su posición.
+      ӹ «La interpretación jurídica consiste en descubrir la respuesta
+        correcta para el problema jurídico en cuestión».
+      ӹ «La interpretación jurídica es una actividad de decisión y va-
+        loración».
+**Concordancias Legales:** Artículo 680; Artículo 1874; Artículo 1873; artículos 1126; artículos 751; Artículo 1126; Artículo 1964; Artículo 2031; Artículo 2415; Artículo 751; Artículo 793; Artículo 1432; artículo 53; artículo 1810; artículo 53 del Reglamento del Conservador de Bienes Raíces; artículo 695; Artículo 53 del Reglamento. Pueden inscribirse. 3; constitución
 
-   • ¿Qué se entiende por equidad natural? Enuncie y explique las di-
+• ¿Qué se entiende por equidad natural? Enuncie y explique las di-
      versas concepciones formuladas al respecto. Caracterice este ele-
      mento de interpretación de la ley.
    • Reflexione en torno a las siguientes tesis, tome posición a favor
@@ -2672,6 +2734,15 @@ de nulidad absoluta por falta o ilicitud del objeto (arts. 10, 1461, 1466 y
 
 ## 3. Finalmente, hay quienes aceptan la validez de estas cláusulas de no
 
+**Definición Canónica:** enajenar en términos relativos; si se establecen por un tiempo no prolongado, y existiendo alguna justificación.
+   i) Se señala como importante para ello la norma del artículo 1126, a
+contrario sensu, al que se le confiere una aplicación general.
+   ii) Parte de la doctrina afirma que esta última parece ser una posición razonable, pues se facilitan las relaciones contractuales y no tiene
+consecuencias desfavorables para el desarrollo económico. Así, con ella
+quedaría desvirtuado el argumento del atentado al principio de la libre
+circulación de los bienes que, por su naturaleza general y no me
+**Concordancias Legales:** artículo 1126; artículo 1555; artículo 1489; artículos 1490; Artículo 1490; Artículo 1491
+
 enajenar en términos relativos; si se establecen por un tiempo no prolongado, y existiendo alguna justificación.
    i) Se señala como importante para ello la norma del artículo 1126, a
 contrario sensu, al que se le confiere una aplicación general.
@@ -2711,8 +2782,9 @@ respectivo, inscrito u otorgado por escritura pública.
 
 Materiales Docentes                                                          Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Razonamiento judicial
 
 Razonamiento judicial
 
@@ -2859,14 +2931,26 @@ razonamiento:
       ligaba
         Conclusión: Martín cometió parricidio
 
-
 ## 4 Entre otros, Jörgensen (1937), Wróblewski (1971), Wellman (1985), Bulygin y
+
+**Definición Canónica:** Alchuorrón (1995). MacCormick (1986; 1992) sería una notable excepción, quien
+sostiene que es posible atribuir el valor de verdad o falsedad a las normas, dada su
+condición de «hechos institucionales».
 
 Alchuorrón (1995). MacCormick (1986; 1992) sería una notable excepción, quien
 sostiene que es posible atribuir el valor de verdad o falsedad a las normas, dada su
 condición de «hechos institucionales».
 
 ## 5 En su artículo de 1971, Wróblewski señala con toda claridad que el concepto de
+
+**Definición Canónica:** justificación lógica que le parece más adecuado para el análisis del razonamiento
+judicial es el de «justificación lógica sensu largo» en oposición al de «justificación
+lógica sensu stricto» (1971: 411). La justificación en sentido estricto estaría limitada al
+campo de la lógica proposicional y a la noción de verdad. La justificación en sentido
+amplio, en cambio, consiste en «dar razones apropiadas para las decisiones jurídicas». Estas razones serían válidas (en sentido amplio) si están basadas en reglas
+inferenciales aceptadas por la comunidad jurídica en la que tienen lugar.
+ 6 Al respecto, 
+**Concordancias Legales:** artículo 390 del Código Penal existen otros individuos que per
 
 justificación lógica que le parece más adecuado para el análisis del razonamiento
 judicial es el de «justificación lógica sensu largo» en oposición al de «justificación
@@ -2915,6 +2999,8 @@ subconjunto de A, pero a diferencia del caso anterior, solo en su mayor
 
 ## parte, no completamente. En la premisa menor, se afirma la existencia
 
+**Definición Canónica:** Materiales Docentes                                                          Capítulo 3
+
 Materiales Docentes                                                          Capítulo 3
 
 de un individuo, Martín, en el subconjunto de individuos B. Quien esboza el razonamiento concluye entonces, con razón, que es probable
@@ -2954,8 +3040,9 @@ deducción (silogismo subsuntivo)
       caracterizan porque, dada su forma o estructura, no es posible —sin
       incurrir en una contradicción— afirmar las premisas y negar la conclu-
 
-
 ## 7 Esta definición y las que vienen a continuación, incluidos los ejemplos, son de
+
+**Definición Canónica:** González Lagier (2005: 64-70).
 
 González Lagier (2005: 64-70).
 
@@ -3023,6 +3110,12 @@ la segunda, en Alexy (1989), entre otros.
 
 ## 9 Así lo señala explícitamente Alexy: «Los problemas ligados con la justificación
 
+**Definición Canónica:** interna han sido ampliamente discutidos bajo el rótulo de “silogismo jurídico”»
+(2009: 214).
+ 10 Para ser más precisos, se trata de un razonamiento que está compuesto al menos de una premisa menor que refiere al caso particular y otra mayor que contiene
+la norma a aplicar. Concordamos con Chiassoni (2011), en cuanto a que la premisa
+menor muchas veces es, más que «fáctica», «calificativa o subsuntiva».
+
 interna han sido ampliamente discutidos bajo el rótulo de “silogismo jurídico”»
 (2009: 214).
  10 Para ser más precisos, se trata de un razonamiento que está compuesto al menos de una premisa menor que refiere al caso particular y otra mayor que contiene
@@ -3055,8 +3148,12 @@ norma. Esto es posible gracias a que la lógica de predicados, a diferencia
 de la proposicional, incluye cuantificadores, variables de individuo, y
 predicados.12
 
-
 ## 11 En lógica proposicional la implicación material se define conforme a sus valores
+
+**Definición Canónica:** de verdad. Según esta definición, una proposición compleja formada mediante una
+implicación material será falsa solo cuando el antecedente es falso y el consecuente
+es verdadero. En todas las demás configuraciones es verdadera. En palabras más
+sencillas: «p implica materialmente a q», quiere decir que «Toda vez que p es verdadera, q es verdadera» y «Toda vez que q es falsa, p es falsa».
 
 de verdad. Según esta definición, una proposición compleja formada mediante una
 implicación material será falsa solo cuando el antecedente es falso y el consecuente
@@ -3064,6 +3161,9 @@ es verdadero. En todas las demás configuraciones es verdadera. En palabras más
 sencillas: «p implica materialmente a q», quiere decir que «Toda vez que p es verdadera, q es verdadera» y «Toda vez que q es falsa, p es falsa».
 
 ## 12 En publicaciones posteriores, el propio MacCormick (1992; 2005) reconocerá
+
+**Definición Canónica:** la superioridad de la fórmula desarrollada conforme al lenguaje de la lógica de predicados.
+**Concordancias Legales:** artículo 161; artículo 161 del Código Penal. 15 En la práctica jurídica
 
 la superioridad de la fórmula desarrollada conforme al lenguaje de la lógica de predicados.
 
@@ -3195,9 +3295,16 @@ ideal de motivación judicial
 
 Alexy (1978), por su parte, ve en el silogismo jurídico no solo una herramienta de análisis,16 sino también una herramienta normativa o di-
 
-
 ## 16 Respecto a la función analítica del silogismo, señala Alexy (2009: 221) que «la
 
+**Definición Canónica:** rectiva. Así, el silogismo no es solo un instrumento para reconstruir
+elementos del discurso relevantes para el control de la racionalidad judicial, sino que además es un modelo ideal de motivación judicial desde
+un punto de vista ético-normativo (Chiassoni, 2011: 21).
+   En efecto, las fórmulas silogísticas propuestas por Alexy están definidas por (es decir, reflejan) las reglas alexyanas de la justificación interna
+que considera necesarias para la racionalidad de la justificación de una
+decisión judicial (Chiassoni, 2011: 40). Por ejemplo, si tomamos como
+base la «forma más simple» del silog
+**Concordancias Legales:** constitucion
 
 rectiva. Así, el silogismo no es solo un instrumento para reconstruir
 elementos del discurso relevantes para el control de la racionalidad judicial, sino que además es un modelo ideal de motivación judicial desde
@@ -3259,8 +3366,14 @@ parte, y la premisa normativa, por otra, estén racionalmente justificadas. La a
 necesaria para establecer la aceptabilidad de las premisas del silogismo,
 pero solo en conjunto van a constituir una condición suficiente.18 El de-
 
-
 ## 17 En Wróblewski (1969), Alexy (2009), MacCormick (2003; 2005; 2007), Tarello
+
+**Definición Canónica:** (2013), Ferrajoli (1995), Comanducci (1999), Chiassoni (2011), Guastini (2014), González Lagier (2003) y Atienza (2015).
+ 18 Desde una perspectiva pragmática, podríamos decir que estos enunciados responden a los compromisos que un operador jurídico asume al formular la conclusión y las premisas fáctica y normativa. En efecto, cuando los operadores jurídicos
+formulan un silogismo, estos realizan ciertos actos de habla (una declaración, una
+calificación y una propuesta), los que a su vez generan un «espacio de desacuerdo»
+(Van Eemeren y otros, 1993: 95). La noción de «espacio de desacuerdo» refi
+**Concordancias Legales:** artículo 170 del Código de Procedimiento Civil exige
 
 (2013), Ferrajoli (1995), Comanducci (1999), Chiassoni (2011), Guastini (2014), González Lagier (2003) y Atienza (2015).
  18 Desde una perspectiva pragmática, podríamos decir que estos enunciados responden a los compromisos que un operador jurídico asume al formular la conclusión y las premisas fáctica y normativa. En efecto, cuando los operadores jurídicos
@@ -3334,8 +3447,12 @@ por verdadero se debe entender «más probable que cualquier hipótesis
 alternativa que explique los hechos» o «lo más probable en el estado de
 conocimiento actual» (Comanducci, 1999: 109-110).
 
-
 ## 20 Para un modelo prescriptivo de esquemas interpretativos, como el de Alexy, la
+
+**Definición Canónica:** lista de esquemas interpretativos es una lista cerrada que dibuja los márgenes de los
+esquemas interpretativos admisibles. En cambio, en los modelos analíticos, la lista
+de esquemas interpretativos está abierta, esto es, incluye los esquemas que se suelen
+usar en la práctica sin prohibir la utilización de otros esquemas no considerados.
 
 lista de esquemas interpretativos es una lista cerrada que dibuja los márgenes de los
 esquemas interpretativos admisibles. En cambio, en los modelos analíticos, la lista
@@ -3352,8 +3469,14 @@ una laguna jurídica y para identificar la mejor explicación de un hecho
 se requieren argumentos basados en esquemas no deductivos como el
 esquema analógico y el abductivo, respectivamente.21 Como veremos en
 
-
 ## 21 Hay quienes sostienen que todo argumento puede ser reconstruido en términos
+
+**Definición Canónica:** de un razonamiento deductivamente válido si se añaden las premisas adecuadas
+(véanse, por ejemplo, Groarke, 1992 y 1995; y Atienza, 2005: 21). Esta es una cuestión
+disputada y en la que no podemos detenernos demasiado aquí. Baste señalar, por
+ahora, que desde nuestra perspectiva, convertir todos los argumentos en deductivamente válidos no es una buena estrategia de análisis ni tampoco de evaluación.
+En primer lugar, porque a menudo eso requiere atribuirle a quien formuló el argumento, una premisa a todas luces falsa, vulnerando el principio de reconstrucción
+caritativa, y cometiendo así la fal
 
 de un razonamiento deductivamente válido si se añaden las premisas adecuadas
 (véanse, por ejemplo, Groarke, 1992 y 1995; y Atienza, 2005: 21). Esta es una cuestión
@@ -3470,7 +3593,15 @@ normativa(s)    P1: No existe una norma N, asociada a
 
 ## 2. MacCormick (2007: 333), Atienza (2013: 431) y Comanducci (1999: 81)
 
- 3. Atienza (2013: 436), Comanducci (1999: 100), Tarello (2013) y Guastini (2014).
+**Definición Canónica:** 3. Atienza (2013: 436), Comanducci (1999: 100), Tarello (2013) y Guastini (2014).
+ 4. Atienza (2013: 437) y Comanducci (1999: 100).
+ 5. Wróblewski (1969), Atienza (2013: 436), Comanducci (1999: 81) y Tarello (2013).
+ 6. MacCormick (2007: 333) y Atienza (2013: 413).
+ 7. Comanducci (1999: 81).
+ 8. Comanducci (1999: 81) y Tarello (1980).
+**Concordancias Legales:** artículo 390; constitucion
+
+3. Atienza (2013: 436), Comanducci (1999: 100), Tarello (2013) y Guastini (2014).
  4. Atienza (2013: 437) y Comanducci (1999: 100).
  5. Wróblewski (1969), Atienza (2013: 436), Comanducci (1999: 81) y Tarello (2013).
  6. MacCormick (2007: 333) y Atienza (2013: 413).
@@ -3585,8 +3716,11 @@ de presunción o conceptual). Este enlace tiene las siguientes formas: Si
 se da el hecho h1, entonces probablemente se dará el hecho h2 (regla empírica o máximas de la experiencia); h1 cuenta como H (regla conceptual);
 Si h1, entonces debemos dar por probado h2 (regla de presunción).
 
-
 ## 22 Tal como señala Ferrer (2002), esta premisa también puede afirmar que no se
+
+**Definición Canónica:** ha probado una hipótesis, o que se ha probado la falsedad de una hipótesis. Solo
+para facilitar la exposición, asumimos que la premisa afirma que una hipótesis fáctica se ha probado.
+**Concordancias Legales:** constitucion
 
 ha probado una hipótesis, o que se ha probado la falsedad de una hipótesis. Solo
 para facilitar la exposición, asumimos que la premisa afirma que una hipótesis fáctica se ha probado.
@@ -3650,8 +3784,10 @@ primeros se refieren a las posibilidades materiales, y el último a las posibili
    • Proporcionalidad en sentido estricto, que establece que «cuanto
        mayor sea el grado de la no satisfacción o de afectación de uno de
 
-
 ## 24 Alexy (1993: 81-115) en el capítulo sobre estructura de las normas de derecho
+
+**Definición Canónica:** fundamental; (2002) en el epílogo a la teoría de los derechos fundamentales; y
+(2009a).
 
 fundamental; (2002) en el epílogo a la teoría de los derechos fundamentales; y
 (2009a).
@@ -3690,16 +3826,27 @@ el mismo autor sintetiza así:
 
 ## 2. Cuando los Tribunales Constitucionales dicen que ponderan si-
 
-      guen aplicando el tradicional método interpretativo/subsuntivo, pero
+**Definición Canónica:** guen aplicando el tradicional método interpretativo/subsuntivo, pero
       cambiando en parte la terminología y con menor rigor argumentati-
       vo, pues dejan de argumentar sobre lo que verdaderamente guía sus
       decisiones: las razones y valoraciones que determinan sus elecciones
       interpretativas.
 
+guen aplicando el tradicional método interpretativo/subsuntivo, pero
+      cambiando en parte la terminología y con menor rigor argumentati-
+      vo, pues dejan de argumentar sobre lo que verdaderamente guía sus
+      decisiones: las razones y valoraciones que determinan sus elecciones
+      interpretativas.
 
 ## 3. Si lo anterior es cierto, implica que no hay diferencias cualitativas y
 
-      metodológicamente relevantes entre:
+**Definición Canónica:** metodológicamente relevantes entre:
+       a) Reglas y principios.
+       b) Decisiones de casos constitucionales y casos de legislación ordinaria
+      (2009: 249).
+**Concordancias Legales:** artículo 160; artículo 19; artículo 485 del Código del Trabajo. Finalmente; artículo 493; artículo 12; artículo 5 del Código del Trabajo que señala que el ejercici; artículo 154; artículo 154 del Código del Trabajo; artículo 161 del Código del Trabajo. Tampoco constituye un obs; artículo 5 del Código del Trabajo; artículo 6; constitucion; Constitución Política
+
+metodológicamente relevantes entre:
        a) Reglas y principios.
        b) Decisiones de casos constitucionales y casos de legislación ordinaria
       (2009: 249).
@@ -4108,8 +4255,10 @@ sentencia.
 Academia Judicial de Chile   Interpretación, argumentación y razonamiento judicial
 Materiales Docentes                                                    Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Argumentación jurídica
+**Concordancias Legales:** Constitución
 
 Argumentación jurídica
 
@@ -4274,13 +4423,9 @@ la norma—; iii) la elaboración de una norma implícita que sea necesaria
 para la realización de otro principio previamente reconocido, dándole a
 aquella el rango de principio.2
 
-
-## 1 Sobre la ambigüedad del término «principio» y algunos debates contemporáneos
-
-al respecto, véase Carbonell y Letelier (2011), y más arriba el apartado Resolución de
-conflictos jurídicos utilizando principios.
-
 ## 2 Esta clasificación (normas con disposición o texto y normas sin disposición o
+
+**Definición Canónica:** texto) es de Guastini (2011: 155-161; 182-190).
 
 texto) es de Guastini (2011: 155-161; 182-190).
 
@@ -4341,8 +4486,9 @@ principio de inercia, según el cual «una opinión o una praxis que haya
 sido aceptada una vez, no puede abandonarse sin un motivo para ello»
 (Perelman, 1964: 191).
 
-
 ## 3 El argumento basado en el uso de precedente suele tratarse en la literatura como
+
+**Definición Canónica:** un argumento de autoridad. No obstante, quizás sea más apropiado tratar el argumento basado en el «autoprecedente» como un argumento por coherencia (jurisprudencial), en lugar de un argumento de autoridad.
 
 un argumento de autoridad. No obstante, quizás sea más apropiado tratar el argumento basado en el «autoprecedente» como un argumento por coherencia (jurisprudencial), en lugar de un argumento de autoridad.
 
@@ -4583,8 +4729,15 @@ puede ser disputada y requerir justificación. Para esos casos es necesario
 contar con un método que permita justificar la propuesta de reconstrucción o explicitación de premisas. A continuación, exponemos sucintamente el método de reconstrucción de premisas implícitas desarrollado
 en la pragma-dialéctica, con algunas adaptaciones menores y complementos.5 El método está diseñado sobre dos premisas elementales de
 
-
 ## 5 Este apartado complementa la propuesta pragma-dialéctica en dos sentidos. En
+
+**Definición Canónica:** primer lugar, y tal como Van Eemeren y Grootendorst (1992: 60-72) señalan en una
+nota al pie, el método de reconstrucción pragma-dialéctico que proponen supone que todos los argumentos que se utilizan a diario son deductivos. Pero esto es
+solo un supuesto, no una afirmación de hecho. En la práctica, los argumentos más
+interesantes y útiles suelen ser los argumentos no deductivos o «derrotables». En
+el protocolo que exponemos a continuación añadimos un paso adicional para la
+reconstrucción de premisas implícitas en argumentos no deductivos. En segundo
+lugar, la propuesta pragma-dialéctica solo 
 
 primer lugar, y tal como Van Eemeren y Grootendorst (1992: 60-72) señalan en una
 nota al pie, el método de reconstrucción pragma-dialéctico que proponen supone que todos los argumentos que se utilizan a diario son deductivos. Pero esto es
@@ -4627,6 +4780,10 @@ misas garantías, por lo que en nuestra exposición hemos explicitado también l
 pasos necesarios para la reconstrucción de las premisas dato implícitas.
 
 ## 6 Para una exposición más detallada de estos principios véanse, entre otros, Searle
+
+**Definición Canónica:** (1969; 1979) y Grice (1969; 1975).
+ 7 Sobre el modus ponens, véase el capítulo 3.
+**Concordancias Legales:** artículo 432 del Código Penal; artículos 1547; artículo 426 del Código de Procedimiento Civil; artículo 426.2 del Código de Pro; Artículo 5; Artículo 10; Artículo 20; Artículo 21; Ley 20.285
 
 (1969; 1979) y Grice (1969; 1975).
  7 Sobre el modus ponens, véase el capítulo 3.
@@ -5067,6 +5224,10 @@ internacionales y los intereses económicos o comerciales del país.
 
 ## 5. Cuando se trate de documentos, datos o informaciones que una ley
 
+**Definición Canónica:** de quórum calificado haya declarado reservados o secretos, de acuerdo
+a las causales señaladas en el artículo 8 de la Constitución Política.
+**Concordancias Legales:** artículo 8 de la Constitución Política. Ley Orgánica del Cons; Artículo 61; artículo 247 del Código Penal. Código Penal; Artículo 231; Artículo 247; Artículo 8; Artículo 19; Artículo 3; Artículo 7; Artículo 46; Artículo 47; Artículo 48; Artículo 63; artículo 60; Artículo 64; Artículo 78; Constitución Política; Constitución
+
 de quórum calificado haya declarado reservados o secretos, de acuerdo
 a las causales señaladas en el artículo 8 de la Constitución Política.
 
@@ -5172,8 +5333,10 @@ Artículo 78. (99). Las actuaciones del sumario son secretas, salvo las excepcio
 Academia Judicial de Chile   Interpretación, argumentación y razonamiento judicial
 Materiales Docentes                                                    Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Casos complejos y análisis interseccional
+**Concordancias Legales:** artículo 1.1
 
 Casos complejos y análisis interseccional
 
@@ -5227,8 +5390,11 @@ cómo se cruzan y concurren en una persona o en un colectivo, diferentes categor
 mapuche, adolescente, pobre, embarazada que reclama un servicio de
 salud), tornando más grave la experiencia de desventaja».2 Para evitar
 
-
 ## 1 Sobre el origen de esta categoría de análisis y sobre la incorporación del análisis
+
+**Definición Canónica:** interseccional en las sentencias de la Corte Interamericana de Derechos Humanos
+(CIDH), véase Zota-Bernal (2015).
+ 2 Secretaría Técnica de Igualdad de Género y no Discriminación de la Corte Suprema (2019: 36).
 
 interseccional en las sentencias de la Corte Interamericana de Derechos Humanos
 (CIDH), véase Zota-Bernal (2015).
@@ -5256,16 +5422,26 @@ uno que la propia Corte Interamericana de Derechos Humanos resolvió
 en septiembre de 2015, en el caso Gonzales Lluy y otros con Ecuador.4 Los
 considerandos o parágrafos 285, 288 y 290 indican lo siguiente:
 
-
 ## 285. La Corte constata que la discriminación contra Talía ha estado
 
-      asociada a factores como ser mujer, persona con VIH, persona con dis-
+**Definición Canónica:** asociada a factores como ser mujer, persona con VIH, persona con dis-
+      capacidad, ser menor de edad, y su estatus socioeconómico. Estos as-
+      pectos la hicieron más vulnerable y agravaron los daños que sufrió.
+
+asociada a factores como ser mujer, persona con VIH, persona con dis-
       capacidad, ser menor de edad, y su estatus socioeconómico. Estos as-
       pectos la hicieron más vulnerable y agravaron los daños que sufrió.
 
 ## 288. La Corte nota que ciertos grupos de mujeres padecen discrimina-
 
-      ción a lo largo de su vida con base en más de un factor combinado con
+**Definición Canónica:** ción a lo largo de su vida con base en más de un factor combinado con
+      su sexo, lo que aumenta su riesgo de sufrir actos de violencia y otras
+      violaciones de sus derechos humanos. En ese sentido, la Relatora Es-
+      pecial sobre la violencia contra la mujer, sus causas y consecuencias ha
+      establecido que «la discriminación basada en la raza, el origen étnico,
+      el origen nacional, la capacidad, la clase socioeconómica, la orientación
+
+ción a lo largo de su vida con base en más de un factor combinado con
       su sexo, lo que aumenta su riesgo de sufrir actos de violencia y otras
       violaciones de sus derechos humanos. En ese sentido, la Relatora Es-
       pecial sobre la violencia contra la mujer, sus causas y consecuencias ha
@@ -5285,7 +5461,16 @@ considerandos o parágrafos 285, 288 y 290 indican lo siguiente:
 
 ## 290. La Corte nota que en el caso de Talía confluyeron en forma inter-
 
-      seccional múltiples factores de vulnerabilidad y riesgo de discrimina-
+**Definición Canónica:** seccional múltiples factores de vulnerabilidad y riesgo de discrimina-
+      ción asociados a su condición de niña, mujer, persona en situación de
+      pobreza y persona con VIH. La discriminación que vivió Talía no solo
+      fue ocasionada por múltiples factores, sino que derivó en una forma
+      específica de discriminación que resultó de la intersección de dichos
+      factores, es decir, si alguno de dichos factores no hubiese existido, la
+      discriminación habría tenido una naturaleza diferente. En efecto, la po-
+      breza impactó en el acceso inicial a una atención en salud que n
+
+seccional múltiples factores de vulnerabilidad y riesgo de discrimina-
       ción asociados a su condición de niña, mujer, persona en situación de
       pobreza y persona con VIH. La discriminación que vivió Talía no solo
       fue ocasionada por múltiples factores, sino que derivó en una forma
@@ -5330,8 +5515,13 @@ el hecho de ser tales.7 Pese a que la expresión «juzgar con perspectiva de gé
 difusos, dependiendo de los conceptos y herramientas o métodos que
 le den contenido a aquella expresión. En cualquier caso, «interpretar
 
-
 ## 5 Este apartado reproduce algunas ideas de Carbonell (2021). Véase también el
+
+**Definición Canónica:** Cuaderno de buenas prácticas para incorporar la perspectiva de género en las sentencias, de la Secretaría Técnica de Igualdad de Género y No Discriminación, Poder
+Judicial, Chile. En este informe, entenderemos por género «el conjunto de características y normas sociales, económicas, políticas, culturales, psicológicas, jurídicas,
+asignadas a cada sexo. La construcción del género, además, se ve permeada y transversalizada por otras condiciones objetivas y subjetivas de la vida de las personas,
+como, por ejemplo: su cultura, etnia, clase social, edad, religión, su planteamiento
+político, la hist
 
 Cuaderno de buenas prácticas para incorporar la perspectiva de género en las sentencias, de la Secretaría Técnica de Igualdad de Género y No Discriminación, Poder
 Judicial, Chile. En este informe, entenderemos por género «el conjunto de características y normas sociales, económicas, políticas, culturales, psicológicas, jurídicas,
@@ -5341,6 +5531,10 @@ político, la historia de su comunidad, su historia familiar, el estrato socioec
 y el escenario en el que vive» (2019: 61).
 
 ## 6 Las citas corresponden, respectivamente, al Cuaderno de buenas prácticas…
+
+**Definición Canónica:** (2019: 64, 60 y 89).
+  7 En este texto, el acento está puesto en las mujeres, aunque igualmente la perspectiva de género podría emplearse para evitar discriminaciones para personas pertenecientes a otras orientaciones sexuales e identidades de género (LGBTQ+).
+**Concordancias Legales:** artículo 170; artículos 19; artículo 24 del Código Civil
 
 (2019: 64, 60 y 89).
   7 En este texto, el acento está puesto en las mujeres, aunque igualmente la perspectiva de género podría emplearse para evitar discriminaciones para personas pertenecientes a otras orientaciones sexuales e identidades de género (LGBTQ+).
@@ -5410,6 +5604,10 @@ producirían un daño a las tres niñas.
 
 ## 9 Sobre estereotipos de género, además de la sentencia del caso Atala que viene a
 
+**Definición Canónica:** continuación, véanse dos sentencias de la CIDH: Caso Guzmán Albarracín y otras
+con Ecuador (2020) y Caso Manuela y Otros con El Salvador (2021).
+**Concordancias Legales:** artículo 225 del Código Civil
+
 continuación, véanse dos sentencias de la CIDH: Caso Guzmán Albarracín y otras
 con Ecuador (2020) y Caso Manuela y Otros con El Salvador (2021).
 
@@ -5478,10 +5676,18 @@ los que podrían tornarse irreversibles, para los intereses de las menores
 
 Considerandos (párrafos)
 
-
 ## 109. Igualmente, la Corte constata que la determinación del interés su-
 
-      perior del niño, en casos de cuidado y custodia de menores de edad se
+**Definición Canónica:** perior del niño, en casos de cuidado y custodia de menores de edad se
+      debe hacer a partir de la evaluación de los comportamientos parentales
+      específicos y su impacto negativo en el bienestar y desarrollo del niño
+      según el caso, los daños o riesgos reales y probados, y no especulativos
+      o imaginarios. Por tanto, no pueden ser admisibles las especulaciones,
+      presunciones, estereotipos o consideraciones generalizadas sobre carac-
+      terísticas personales de los padres o preferencias culturales respecto a
+      ciertos conceptos tradicionales de la familia.
+
+perior del niño, en casos de cuidado y custodia de menores de edad se
       debe hacer a partir de la evaluación de los comportamientos parentales
       específicos y su impacto negativo en el bienestar y desarrollo del niño
       según el caso, los daños o riesgos reales y probados, y no especulativos
@@ -5492,7 +5698,16 @@ Considerandos (párrafos)
 
 ## 110. En conclusión, la Corte Interamericana observa que, al ser en abs-
 
-      tracto el «interés superior del niño» un fin legítimo, la sola referencia
+**Definición Canónica:** tracto el «interés superior del niño» un fin legítimo, la sola referencia
+      al mismo sin probar, en concreto, los riesgos o daños que podrían con-
+      llevar la orientación sexual de la madre para las niñas, no puede servir
+      de medida idónea para la restricción de un derecho protegido como el
+      de poder ejercer todos los derechos humanos sin discriminación algu-
+      na por la orientación sexual de la persona. El interés superior del niño
+      no puede ser utilizado para amparar la discriminación en contra de la
+      madre o el padre por la orientación sexual de cualquiera de
+
+tracto el «interés superior del niño» un fin legítimo, la sola referencia
       al mismo sin probar, en concreto, los riesgos o daños que podrían con-
       llevar la orientación sexual de la madre para las niñas, no puede servir
       de medida idónea para la restricción de un derecho protegido como el
@@ -5505,7 +5720,15 @@ Considerandos (párrafos)
 
 ## 111. Una determinación a partir de presunciones infundadas y estereoti-
 
-      padas sobre la capacidad e idoneidad parental de poder garantizar y pro-
+**Definición Canónica:** padas sobre la capacidad e idoneidad parental de poder garantizar y pro-
+      mover el bienestar y desarrollo del niño no es adecuada para garantizar
+      el fin legítimo de proteger el interés superior del niño. La Corte considera
+      que no son admisibles las consideraciones basadas en estereotipos por la
+      orientación sexual, es decir, preconcepciones de los atributos, conductas
+      o características poseídas por las personas homosexuales o el impacto
+      que estos presuntamente puedan tener en las niñas y los niños.
+
+padas sobre la capacidad e idoneidad parental de poder garantizar y pro-
       mover el bienestar y desarrollo del niño no es adecuada para garantizar
       el fin legítimo de proteger el interés superior del niño. La Corte considera
       que no son admisibles las consideraciones basadas en estereotipos por la
@@ -5515,7 +5738,16 @@ Considerandos (párrafos)
 
 ## 113. El Tribunal constata que la Corte Suprema de Justicia mencionó
 
-      cuatro fundamentos directamente relacionados con la orientación se-
+**Definición Canónica:** cuatro fundamentos directamente relacionados con la orientación se-
+      xual de la señora Atala: i) la presunta discriminación social que habrían
+      sufrido las tres niñas por el ejercicio de la orientación sexual de la seño-
+      ra Atala; ii) la alegada confusión de roles que habrían presentado las tres
+      niñas como consecuencia de la convivencia de su madre con una pareja
+      del mismo sexo; iii) la supuesta prevalencia que la señora Atala le habría
+      dado a su vida personal sobre los intereses de sus tres hijas, y iv) el de-
+      recho de las niñas a vivir en el seno de un
+
+cuatro fundamentos directamente relacionados con la orientación se-
       xual de la señora Atala: i) la presunta discriminación social que habrían
       sufrido las tres niñas por el ejercicio de la orientación sexual de la seño-
       ra Atala; ii) la alegada confusión de roles que habrían presentado las tres
@@ -5559,8 +5791,9 @@ y a su madre.
    El juzgado competente declaró a los hermanos Ramírez en situación
 de abandono el 6 de agosto de 1997, confirió su tutela legal a la Asociación Los Niños de Guatemala y ordenó que dicha institución los incluyera dentro de los programas de adopción que patrocinaba.
 
-
 ## 10 Estos son los hechos tal como se resumen por la propia Corte, disponible en
+
+**Definición Canónica:** https://bit.ly/3PeTeU4.
 
 https://bit.ly/3PeTeU4.
 
@@ -5574,6 +5807,13 @@ que no habían sido resueltos adecuadamente sus reclamos en contra de
 la declaración de abandono de sus hijos. Los hermanos Ramírez fueron adoptados por dos familias estadounidenses distintas en junio de
 
 ## 1998. Ambos procedimientos de adopción se realizaron ante el mismo
+
+**Definición Canónica:** notario por el mismo abogado contratado por ambas familias. Si bien
+inicialmente la Procuraduría General de la Nación objetó dichos procedimientos, por considerar que permanecían recursos pendientes de resolver contra la declaratoria de abandono, el juzgado de familia respectivo rechazó dichos argumentos y ordenó que se otorgaran las escrituras
+de adopción de J. R. y de Osmín Tobar Ramírez. El notario concedió
+dichas adopciones el 2 de junio de 1998.
+   En diciembre de 1998, el padre de Osmín, Gustavo Tobar Fajardo presentó un recurso de revisión contra la declaratoria de abandono, entre
+otras
 
 notario por el mismo abogado contratado por ambas familias. Si bien
 inicialmente la Procuraduría General de la Nación objetó dichos procedimientos, por considerar que permanecían recursos pendientes de resolver contra la declaratoria de abandono, el juzgado de familia respectivo rechazó dichos argumentos y ordenó que se otorgaran las escrituras
@@ -5597,17 +5837,31 @@ señora Ramírez Escobar y el señor Tobar Fajardo no han tenido contacto con J.
 
 Considerandos (párrafos)
 
-
 ## 275. En el presente caso, se alega discriminación por tres motivos: 1) la
 
-      situación económica de la familia, 2) el rol de género asignado a la ma-
+**Definición Canónica:** situación económica de la familia, 2) el rol de género asignado a la ma-
+      dre de los niños y al padre de Osmín Tobar Ramírez, y 3) la orientación
+      sexual de la abuela materna de los hermanos Ramírez (supra párrafo
+      264), todo lo cual la Corte analizará a continuación en el mismo orden.
+
+situación económica de la familia, 2) el rol de género asignado a la ma-
       dre de los niños y al padre de Osmín Tobar Ramírez, y 3) la orientación
       sexual de la abuela materna de los hermanos Ramírez (supra párrafo
       264), todo lo cual la Corte analizará a continuación en el mismo orden.
 
 ## 276. Sin perjuicio de lo anterior, este Tribunal advierte que, de veri-
 
-      ficarse los distintos motivos de discriminación alegados en este caso,
+**Definición Canónica:** ficarse los distintos motivos de discriminación alegados en este caso,
+      particularmente en el supuesto de la señora Flor de María Ramírez Es-
+      cobar habrían confluido en forma interseccional distintos factores de
+      vulnerabilidad o fuentes de discriminación asociados a su condición de
+      madre soltera en situación de pobreza, con una madre lesbiana, ya que
+      la discriminación experimentada por la señora Ramírez Escobar sería el
+      resultado del actuar entrecruzado de todas las razones por las que ha-
+      bría sido discriminada. Al respecto, el Comité para la Eliminaci
+**Concordancias Legales:** artículo 2
+
+ficarse los distintos motivos de discriminación alegados en este caso,
       particularmente en el supuesto de la señora Flor de María Ramírez Es-
       cobar habrían confluido en forma interseccional distintos factores de
       vulnerabilidad o fuentes de discriminación asociados a su condición de
@@ -5635,8 +5889,9 @@ Los hechos del caso11 se relacionan con la Hacienda Brasil Verde, ubicada en el 
 presentaron una serie de denuncias ante la Policía Federal y el Consejo
 de Defensa de los Derechos de la Persona Humana (CDDPH), por la
 
-
 ## 11 Estos son los hechos tal como se resumen por la propia Corte, disponible en
+
+**Definición Canónica:** https://bit.ly/3Pk0TRa.
 
 https://bit.ly/3Pk0TRa.
 
@@ -5707,10 +5962,19 @@ procedimiento fue archivado.
 
 Considerandos (párrafos)
 
-
 ## 334. Con respecto a la discriminación estructural, la Corte hace notar
 
-      la inclusión de la alegada violación del artículo 24 de la Convención
+**Definición Canónica:** la inclusión de la alegada violación del artículo 24 de la Convención
+      (Igualdad ante la Ley) en el escrito de alegatos finales de los represen-
+      tantes, sin que hayan presentado algún alegato o explicación para esa
+      inclusión y cambio de postura. En ese sentido, la Corte recuerda que
+      mientras que la obligación general del artículo 1.1 se refiere al deber del
+      Estado de respetar y garantizar «sin discriminación» los derechos con-
+      tenidos en la Convención Americana, el artículo 24 protege el derecho
+      a «igual protección de la ley». Es decir, el artículo 24 d
+**Concordancias Legales:** artículo 24 de la Convención; artículo 1.1; artículo 24; artículo 24 de la Convención Americana prohíbe la discrim; artículo 24 de la Convención Ame; artículo 1.1 de la Convención
+
+la inclusión de la alegada violación del artículo 24 de la Convención
       (Igualdad ante la Ley) en el escrito de alegatos finales de los represen-
       tantes, sin que hayan presentado algún alegato o explicación para esa
       inclusión y cambio de postura. En ese sentido, la Corte recuerda que
@@ -5731,7 +5995,17 @@ Considerandos (párrafos)
 
 ## 335. Por otro lado, en relación con el artículo 1.1 de la Convención, la
 
-      Corte ha establecido que es una norma de carácter general cuyo conte-
+**Definición Canónica:** Corte ha establecido que es una norma de carácter general cuyo conte-
+      nido se extiende a todas las disposiciones del tratado, y dispone la obli-
+      gación de los Estados Parte de respetar y garantizar el pleno y libre ejer-
+      cicio de los derechos y libertades allí reconocidas «sin discriminación
+      alguna». Es decir, cualquiera que sea el origen o la forma que asuma,
+      todo tratamiento que pueda ser considerado discriminatorio respecto
+      del ejercicio de cualquiera de los derechos garantizados en la Conven-
+      ción es per se incompatible con la misma. El incumplimie
+**Concordancias Legales:** artículo 1.1 de la Convención Americana
+
+Corte ha establecido que es una norma de carácter general cuyo conte-
       nido se extiende a todas las disposiciones del tratado, y dispone la obli-
       gación de los Estados Parte de respetar y garantizar el pleno y libre ejer-
       cicio de los derechos y libertades allí reconocidas «sin discriminación
@@ -5753,7 +6027,16 @@ Materiales Docentes                                                       Capít
 
 ## 336. La Corte ha señalado que «los Estados deben abstenerse de rea-
 
-      lizar acciones que de cualquier manera vayan dirigidas, directa o indi-
+**Definición Canónica:** lizar acciones que de cualquier manera vayan dirigidas, directa o indi-
+      rectamente, a crear situaciones de discriminación de jure o de facto».
+      Los Estados están obligados «a adoptar medidas positivas para rever-
+      tir o cambiar situaciones discriminatorias existentes en sus sociedades,
+      en perjuicio de determinado grupo de personas. Esto implica el deber
+      especial de protección que el Estado debe ejercer con respecto de ac-
+      tuaciones y prácticas de terceros que, bajo su tolerancia o aquiescencia,
+      creen, mantengan o favorezcan las situaciones discriminatori
+
+lizar acciones que de cualquier manera vayan dirigidas, directa o indi-
       rectamente, a crear situaciones de discriminación de jure o de facto».
       Los Estados están obligados «a adoptar medidas positivas para rever-
       tir o cambiar situaciones discriminatorias existentes en sus sociedades,
@@ -5764,7 +6047,16 @@ Materiales Docentes                                                       Capít
 
 ## 337. La Corte se ha pronunciado en el sentido de establecer que toda
 
-      persona que se encuentre en una situación de vulnerabilidad es titular de
+**Definición Canónica:** persona que se encuentre en una situación de vulnerabilidad es titular de
+      una protección especial, en razón de los deberes especiales cuyo cumpli-
+      miento por parte del Estado es necesario para satisfacer las obligaciones
+      generales de respeto y garantía de los derechos humanos. El Tribunal
+      recuerda que no basta con que los Estados se abstengan de violar los
+      derechos, sino que es imperativa la adopción de medidas positivas, de-
+      terminables en función de las particulares necesidades de protección del
+      sujeto de derecho, ya sea por su condición personal o p
+
+persona que se encuentre en una situación de vulnerabilidad es titular de
       una protección especial, en razón de los deberes especiales cuyo cumpli-
       miento por parte del Estado es necesario para satisfacer las obligaciones
       generales de respeto y garantía de los derechos humanos. El Tribunal
@@ -5776,7 +6068,15 @@ Materiales Docentes                                                       Capít
 
 ## 338. La Corte estima que el Estado incurre en responsabilidad inter-
 
-      nacional en aquellos casos en que, habiendo discriminación estructu-
+**Definición Canónica:** nacional en aquellos casos en que, habiendo discriminación estructu-
+      ral, no adopta medidas específicas respecto a la situación particular de
+      victimización en que se concreta la vulnerabilidad sobre un círculo de
+      personas individualizadas. La propia victimización de estas demuestra
+      su particular vulnerabilidad, lo que demanda una acción de protección
+      también particular, que en el caso de las personas reclutadas en la Ha-
+      cienda Brasil Verde se ha omitido.
+
+nacional en aquellos casos en que, habiendo discriminación estructu-
       ral, no adopta medidas específicas respecto a la situación particular de
       victimización en que se concreta la vulnerabilidad sobre un círculo de
       personas individualizadas. La propia victimización de estas demuestra
@@ -5786,7 +6086,16 @@ Materiales Docentes                                                       Capít
 
 ## 339. La Corte constata, en el presente caso, algunas características de
 
-      particular victimización compartidas por los 85 trabajadores rescatados
+**Definición Canónica:** particular victimización compartidas por los 85 trabajadores rescatados
+      el 15 de marzo de 2000: se encontraban en una situación de pobreza;
+      provenían de las regiones más pobres del país, con menor desarrollo
+      humano y perspectivas de trabajo y empleo; eran analfabetas, y tenían
+      poca o nula escolarización (supra párrafo 41). Lo anterior los colocaba
+      en una situación que los hacía más susceptibles de ser reclutados me-
+      diante falsas promesas y engaños. Dicha situación de riesgo inmediato
+      para un grupo determinado de personas con características idénticas 
+
+particular victimización compartidas por los 85 trabajadores rescatados
       el 15 de marzo de 2000: se encontraban en una situación de pobreza;
       provenían de las regiones más pobres del país, con menor desarrollo
       humano y perspectivas de trabajo y empleo; eran analfabetas, y tenían
@@ -5802,7 +6111,16 @@ Materiales Docentes                                                       Capít
 
 ## 340. De la prueba aportada al expediente se advierte la existencia de
 
-      una situación basada en la posición económica de las víctimas rescata-
+**Definición Canónica:** una situación basada en la posición económica de las víctimas rescata-
+      das el 15 de marzo de 2000 que caracterizó un trato discriminatorio. De
+      acuerdo a varios informes de la OIT y del Ministerio de Trabajo de Bra-
+      sil, «la situación de miseria del obrero es lo que le lleva espontáneamen-
+      te a aceptar las condiciones de trabajo ofrecidas», toda vez que «cuanto
+      peores las condiciones de vida, más dispuestos estarán los trabajadores a
+      enfrentar riesgos del trabajo lejos de casa. La pobreza, en ese sentido, es
+      el principal factor de la esclavitud contempo
+
+una situación basada en la posición económica de las víctimas rescata-
       das el 15 de marzo de 2000 que caracterizó un trato discriminatorio. De
       acuerdo a varios informes de la OIT y del Ministerio de Trabajo de Bra-
       sil, «la situación de miseria del obrero es lo que le lleva espontáneamen-
@@ -5815,7 +6133,14 @@ Materiales Docentes                                                       Capít
 
 ## 341. Una vez constatada la situación anterior, la Corte estima que el
 
-      Estado no consideró la vulnerabilidad de los 85 trabajadores rescatados
+**Definición Canónica:** Estado no consideró la vulnerabilidad de los 85 trabajadores rescatados
+      el 15 de marzo de 2000, en virtud de la discriminación en razón de la
+      posición económica a la que estaban sometidos. Lo anterior constituye
+      una violación al artículo 6.1 de la Convención Americana, en relación
+      con el artículo 1.1 del mismo instrumento, en perjuicio de ellos.
+**Concordancias Legales:** artículo 6.1 de la Convención Americana; artículo 1.1
+
+Estado no consideró la vulnerabilidad de los 85 trabajadores rescatados
       el 15 de marzo de 2000, en virtud de la discriminación en razón de la
       posición económica a la que estaban sometidos. Lo anterior constituye
       una violación al artículo 6.1 de la Convención Americana, en relación
@@ -5823,7 +6148,17 @@ Materiales Docentes                                                       Capít
 
 ## 342. Por todo lo anterior, Brasil no demostró haber adoptado, respecto
 
-      del presente caso y al momento de los hechos, las medidas específicas,
+**Definición Canónica:** del presente caso y al momento de los hechos, las medidas específicas,
+      conforme a las circunstancias ya conocidas de trabajadores en situación
+      de esclavitud y de denuncias concretas contra la Hacienda Brasil Verde,
+      para prevenir la ocurrencia de la violación al artículo 6.1 constatada en
+      el presente caso. El Estado no actuó con prontitud dentro de las prime-
+      ras horas y días luego de la denuncia de esclavitud y violencia realizada
+      por José Francisco Furtado de Sousa y Antônio Francisco da Silva, con
+      gran sacrificio y riesgo personal, dejando perder hor
+**Concordancias Legales:** artículo 6.1
+
+del presente caso y al momento de los hechos, las medidas específicas,
       conforme a las circunstancias ya conocidas de trabajadores en situación
       de esclavitud y de denuncias concretas contra la Hacienda Brasil Verde,
       para prevenir la ocurrencia de la violación al artículo 6.1 constatada en
@@ -5844,10 +6179,19 @@ Materiales Docentes                                                       Capít
       la Convención Americana y específicamente derivadas del carácter de
       jus cogens de esta prohibición.
 
-
 ## 343. En razón de todo lo expuesto, el Tribunal considera que el Estado
 
-      violó el derecho a no ser sometido a esclavitud y trata de personas, en
+**Definición Canónica:** violó el derecho a no ser sometido a esclavitud y trata de personas, en
+      violación del artículo 6.1 de la Convención Americana sobre Derechos
+      Humanos, en relación con los artículos 1.1, 3, 5, 7, 11 y 22 del mismo ins-
+      trumento, en perjuicio de los 85 trabajadores rescatados el 15 de marzo
+      de 2000 en la Hacienda Brasil Verde, listados en el párrafo 206 de la
+      presente Sentencia. Adicionalmente, respecto del señor Antônio Fran-
+      cisco da Silva esa violación ocurrió también en relación con el artículo
+      19 de la Convención Americana, por ser niño al momento de
+**Concordancias Legales:** artículo 6.1 de la Convención Americana sobre Derechos Hum; artículos 1.1; artículo 19 de la Convención Americana; artículo 6.1 de la Convención Americana; artículo 1.1; Constitucion; constitución
+
+violó el derecho a no ser sometido a esclavitud y trata de personas, en
       violación del artículo 6.1 de la Convención Americana sobre Derechos
       Humanos, en relación con los artículos 1.1, 3, 5, 7, 11 y 22 del mismo ins-
       trumento, en perjuicio de los 85 trabajadores rescatados el 15 de marzo

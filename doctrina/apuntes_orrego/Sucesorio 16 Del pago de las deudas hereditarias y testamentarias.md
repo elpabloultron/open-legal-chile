@@ -13,18 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Del pago de las deudas hereditarias y
-
-
-## Testamentarias y del beneficio de separación1
-
-
-Sumario:
-
-## I. del pago de las deudas hereditarias y testamentarias
-
-
 ## 1. Concepto de deudas hereditarias y testamentarias
+
+**Definición Canónica:** 2. Responsabilidad de los herederos por las deudas hereditarias.
+3. Fundamento de la responsabilidad de los herederos.
+4. Cómo se dividen las deudas hereditarias entre los herederos.
+5. Cuándo se pagan las deudas hereditarias.
+6. Responsabilidad de los legatarios por las deudas de la herencia.
+7. Del pago de las deudas o cargas testamentarias y en particular de los legados.
 
 2. Responsabilidad de los herederos por las deudas hereditarias.
 3. Fundamento de la responsabilidad de los herederos.
@@ -33,19 +29,13 @@ Sumario:
 6. Responsabilidad de los legatarios por las deudas de la herencia.
 7. Del pago de las deudas o cargas testamentarias y en particular de los legados.
 
-## Ii. del beneficio de separación
-
-1. Concepto.
-2. Fundamento del beneficio de separación.
-3. Naturaleza jurídica del beneficio de separación.
-4. Quienes pueden solicitar el beneficio de separación.
-
-## 5. Casos en que los acreedores hereditarios y testamentarios no pueden solicitar el
-
-beneficio de inventario.
-6. El beneficio de separación requiere de declaración judicial.
-
 ## 7. El beneficio de separación obtenido por uno de los acreedores hereditarios o
+
+**Definición Canónica:** testamentarios favorece a todos los demás.
+8. Sujetos pasivos y procedimiento del beneficio de separación.
+9. Bienes que quedan comprendidos en el beneficio de separación.
+10. Efectos del beneficio de separación.
+**Concordancias Legales:** artículos 1354; artículos 1378
 
 testamentarios favorece a todos los demás.
 8. Sujetos pasivos y procedimiento del beneficio de separación.
@@ -57,9 +47,10 @@ artículos 1354 a 1377, mientras que regula el beneficio de separación en los a
 a 1385. Por la estrecha relación existente entre ambas materias, nuestra doctrina las ha
 tratado conjuntamente.2
 
-
 ## I. del pago de las deudas hereditarias y testamentarias
 
+**Definición Canónica:** 1. Concepto de deudas hereditarias y testamentarias.
+**Concordancias Legales:** artículo 951; artículo 1097; artículo 2005; artículo 549; artículo 1523; artículo 1437; artículo 1354; artículo 1526; artículos 1354; artículo 1355; artículo 1287; artículo 1523 del Código Civil; artículo 1357; artículos 1259; artículo 1669; artículo 2519; artículo 1516; artículo 1540; artículo 1591; artículos 1379; artículos 1222; artículos 1285; artículo 1247; artículos 1356; artículo 1356; artículos 1368; artículo 1368; artículo 1366; artículo 1372; artículo 1365; artículo 2408; artículo 1522; artículo 1358; artículos 1340; artículo 1359; artículo 1374; artículo 1377; artículo 5 del Código de Procedimiento Civil; artículos 258; artículo 1232
 
 1. Concepto de deudas hereditarias y testamentarias.
 
@@ -657,6 +648,10 @@ cumplimiento de los legados, que resulta de armonizar los artículos 1363 y 1170
 
 ## 1141. Los legados, en cuanto a la forma en que deben contribuir a los citados pagos, se
 
+**Definición Canónica:** clasifican en comunes y preferenciales o privilegiados. Primero, responden los legados
+comunes, y agotados éstos, van respondiendo los legados preferenciales, según el grado
+**Concordancias Legales:** artículo 1363; artículo 1170; artículo 959; artículos 1189; artículo 988; artículo 1194
+
 clasifican en comunes y preferenciales o privilegiados. Primero, responden los legados
 comunes, y agotados éstos, van respondiendo los legados preferenciales, según el grado
 
@@ -722,7 +717,16 @@ legados:
 
 ## título de legítimas o de mejoras y que exceda la mitad legitimaria o la cuarta de
 
-             mejoras, se pagará, en último término, con cargo a la cuarta de libre
+**Definición Canónica:** mejoras, se pagará, en último término, con cargo a la cuarta de libre
+             disposición, con preferencia a toda otra inversión, o sea, toda otra asignación.
+             Como expresa Somarriva, tampoco aquí existen propiamente legados (bajo el
+             entendido, que para éste autor los alimentos no constituyen legados, según
+             acabamos de ver), pero la idea es la misma que en el caso anterior: estas
+             asignaciones a título de legítimas o mejoras que exceden la parte destinada a
+             ellas se pagan en la cuarta de libre disposición con preferencia a tod
+**Concordancias Legales:** artículo 1363; artículo 1141; artículo 1360; artículo 1364; artículo 1373; artículos 1369; artículo 1369; artículo 1368; artículo 1370; artículo 1372; artículo 1374; artículo 959; artículo 1361; artículo 1551 del Código Civil; artículo 1338; artículo 1375; artículo 1571; artículo 1376; artículo 1194; constitución
+
+mejoras, se pagará, en último término, con cargo a la cuarta de libre
              disposición, con preferencia a toda otra inversión, o sea, toda otra asignación.
              Como expresa Somarriva, tampoco aquí existen propiamente legados (bajo el
              entendido, que para éste autor los alimentos no constituyen legados, según
@@ -1005,9 +1009,10 @@ causas:
           “cuando los bienes que éste deja a su muerte no alcancen a cubrirlos todos”
           (artículo 1141).62
 
-
 ## Ii. del beneficio de separación
 
+**Definición Canónica:** 1. Concepto.
+**Concordancias Legales:** artículos 1378; artículo 1378; artículo 1379; artículo 1381
 
 1. Concepto.
 
@@ -1119,8 +1124,10 @@ aceptar la herencia con beneficio de inventario.72
 heredero, ellos han dispuesto de todas las cauciones que la ley les ofrece, cuya evidente
 finalidad es evitar que una insolvencia del deudor perjudique sus derechos. 73
 
-
 ## 5. Casos en que los acreedores hereditarios y testamentarios no pueden solicitar el
+
+**Definición Canónica:** beneficio de separación.
+**Concordancias Legales:** artículos 1380; artículo 1380; artículo 1222; artículo 1378; artículo 1382; artículo 1383; artículo 1385; artículo 50 del Libro IV del Código de Comercio
 
 beneficio de separación.
 
@@ -1186,8 +1193,10 @@ Libro IV del Código de Comercio, relativo a la quiebra,77 al que aludiremos má
 momento en que se produce la apertura de la sucesión y hasta que las acciones para exigir
 el pago de sus créditos hayan prescrito.
 
-
 ## 7. El beneficio de separación obtenido por uno de los acreedores hereditarios o
+
+**Definición Canónica:** testamentarios favorece a todos los demás.
+**Concordancias Legales:** artículo 1382; artículo 1380; artículo 1384; artículo 1385; artículo 3; artículo 680 del Código de Procedimiento Civil; artículo 1199 del Código Civil; artículo 1185; artículo 52; artículo 1385 del Código Civil; artículo 520; artículo 1383; artículos 1382
 
 testamentarios favorece a todos los demás.
 
@@ -1381,10 +1390,11 @@ testamentarios.
 testamentarios puedan pagarse en los bienes del heredero, deben concurrir dos
 circunstancias:
 
-## 1. Que se hayan agotado totalmente los bienes de la sucesión; y
-
-
 ## 2. Que no exista oposición de parte de los acreedores personales del heredero (oposición
+
+**Definición Canónica:** que podrá fundarse en la circunstancia de no haberse pagado éstos en los bienes del
+heredero).90
+**Concordancias Legales:** artículo 1382; artículo 1383; artículo 1384; constitución
 
 que podrá fundarse en la circunstancia de no haberse pagado éstos en los bienes del
 heredero).90

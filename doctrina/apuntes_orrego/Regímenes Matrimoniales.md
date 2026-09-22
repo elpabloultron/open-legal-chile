@@ -15,6 +15,25 @@ extraccion: pdftotext
 
 ## Regimenes matrimoniales1
 
+**Definición Canónica:** SUMARIO:
+INTRODUCCIÓN.
+1.- Generalidades.
+2.- Régimen de comunidad.
+3.- Régimen de separación total de bienes.
+4.- Régimen de participación en los gananciales.
+5.- Régimen sin comunidad.
+6.- Régimen dotal.
+7.- Régimen adoptado por el Código Civil Chileno.
+RÉGIMEN DE SOCIEDAD CONYUGAL.
+CAPÍTULO I: DE LAS CONVENCIONES MATRIMONIALES.
+2.- Clasificación.
+II.- REQUISITOS DE VALIDEZ DE LAS CAPITULACIONES MATRIMONIALES.
+1.- Enumeración de los requisitos.
+2.- Acerca de la capacidad de las partes.
+3.- De las solemnidades.
+III.- CONTENIDO DE LAS CAPITULACIONES MATRIMONIALES.
+1.- Capitulaciones celebradas
+
 SUMARIO:
 INTRODUCCIÓN.
 1.- Generalidades.
@@ -42,6 +61,20 @@ IV.- EFECTOS Y REVOCABILIDAD DE LAS CAPITULACIONES MATRIMONIALES.
 
 ## Capítulo ii: concepto, regulación, naturaleza y caracteres                     de   la
 
+**Definición Canónica:** SOCIEDAD CONYUGAL.
+2.- Regulación.
+3.- Naturaleza jurídica de la sociedad conyugal.
+4.- Diferencias entre la sociedad conyugal y la sociedad común.
+5.- La sociedad conyugal no es persona jurídica.
+6.- La sociedad conyugal no es una especie de copropiedad.
+7.- Características de la sociedad conyugal.
+CAPÍTULO III: DEL PATRIMONIO DE LA SOCIEDAD CONYUGAL.
+CLASIFICACIÓN DE LOS ELEMENTOS DEL PATRIMONIO SOCIAL.
+SECCIÓN PRIMERA: DEL HABER O ACTIVO DE LA SOCIEDAD CONYUGAL.
+I.- DEL HABER REAL O ABSOLUTO DE LA SOCIEDAD CONYUGAL.
+II.- DEL HABER APARENTE O RELATIVO DE LA SOCIEDAD CONYUGAL.
+III.- DEL HABER
+
 SOCIEDAD CONYUGAL.
 2.- Regulación.
 3.- Naturaleza jurídica de la sociedad conyugal.
@@ -61,13 +94,16 @@ III.- DEL HABER PROPIO DE CADA CÓNYUGE.
 
                           Regímenes Matrimoniales – Juan Andrés Orrego Acuña         1
 
-## Iv.- presunciones en favor de la sociedad conyugal y a favor de
-
-TERCEROS.
-1.- Presunciones a favor de la sociedad conyugal.
-1.1. Presunción de dominio.
-
 ## 1.2. Presunción en orden a que los bienes adquiridos a título oneroso se han adquirido
+
+**Definición Canónica:** con bienes sociales.
+2.- Presunción a favor de terceros.
+V.- DE LA SUBROGACIÓN REAL.
+2.- Formas en que puede operar.
+2.1. Subrogación de inmueble a inmueble.
+2.2. Subrogación de inmueble a valores.
+3.- Elemento común a todas las formas de subrogación.
+SECCIÓN SEGUNDA: DEL PASIVO DE LA SOCIEDAD CONYUGAL.
 
 con bienes sociales.
 2.- Presunción a favor de terceros.
@@ -80,6 +116,13 @@ SECCIÓN SEGUNDA: DEL PASIVO DE LA SOCIEDAD CONYUGAL.
 
 ## I.- del pasivo de la sociedad conyugal y de los cónyuges en relación con
 
+**Definición Canónica:** LA OBLIGACIÓN A LAS DEUDAS.
+1.- Fundamento de la distinción.
+2.- Obligaciones que dan acción sobre los bienes sociales y sobre los bienes propios del
+2.1. Toda deuda contraída por el marido durante la vigencia de la sociedad conyugal.
+2.2. Las obligaciones contraídas por el marido antes del matrimonio.
+2.3. Toda deuda contraída por la mujer con mandato general o especial del marido.
+
 LA OBLIGACIÓN A LAS DEUDAS.
 1.- Fundamento de la distinción.
 2.- Obligaciones que dan acción sobre los bienes sociales y sobre los bienes propios del
@@ -87,23 +130,21 @@ LA OBLIGACIÓN A LAS DEUDAS.
 2.2. Las obligaciones contraídas por el marido antes del matrimonio.
 2.3. Toda deuda contraída por la mujer con mandato general o especial del marido.
 
-## 2.4. Toda deuda contraída por los cónyuges conjuntamente o en que la mujer se
-
-obligue solidaria o subsidiariamente con el marido.
-3.- Obligaciones que dan acción sobre los bienes sociales, sobre los bienes propios del
-marido y además, sobre los bienes propios de la mujer.
-
-## 3.1. Las contraídas por el marido durante la vigencia de la sociedad conyugal, en
-
-virtud de un contrato que cede en beneficio personal de la mujer.
-3.2. Las obligaciones contraídas por la mujer antes del matrimonio.
-
-## 3.3. Las obligaciones que tienen por fuente un delito o cuasidelito cometido por la
-
-mujer.
-3.4. Las obligaciones de la mujer que tienen por fuente la ley o un cuasicontrato.
-
 ## Ii.- del pasivo de la sociedad conyugal y de los cónyuges en relación
+
+**Definición Canónica:** CON LA CONTRIBUCIÓN A LAS DEUDAS.
+1.- Fundamento de la distinción.
+2.- El pasivo absoluto o definitivo.
+3.- El pasivo relativo o provisional.
+CAPÍTULO IV: DE LAS RECOMPENSAS.
+I.- CONCEPTO, OBJETO Y CLASIFICACIÓN.
+II.- RECOMPENSAS QUE LA SOCIEDAD DEBE A LOS CÓNYUGES.
+1.- Incorporación de bienes de los cónyuges al patrimonio social.
+2.- Valor del bien propio del cónyuge, vendido durante la vigencia de la sociedad.
+3.- Pago de deudas sociales con bienes propios.
+4.- Enriquecimiento sin causa.
+III.- RECOMPENSAS QUE LOS CÓNYUGES DEBEN A LA SOCIEDAD.
+1.- Pago de las deudas personales de los cónyuges
 
 CON LA CONTRIBUCIÓN A LAS DEUDAS.
 1.- Fundamento de la distinción.
@@ -129,11 +170,18 @@ IV.- RECOMPENSAS DE CÓNYUGE A CÓNYUGE.
                    Regímenes Matrimoniales – Juan Andrés Orrego Acuña                  2
 3.- Venta de bienes propios.
 
-## Capítulo v: de la administración de la sociedad conyugal
-
-CLASIFICACIÓN.
-
 ## Sección primera: de la administración ordinaria de la sociedad
+
+**Definición Canónica:** CONYUGAL.
+I.- ADMINISTRACIÓN ORDINARIA DE LOS BIENES SOCIALES.
+1.- Facultades que corresponden al marido.
+2.- Limitaciones impuestas por la ley a la administración ordinaria del marido.
+3.- Formas y requisitos de la autorización de la mujer.
+4.- Forma de suplir la autorización de la mujer.
+5.- Sanciones por la falta de autorización.
+6.- Efectos que se producen, cuando la mujer celebra el contrato con prescindencia del
+7.- Intervención de la mujer en el manejo de los bienes sociales.
+8.- Correctivos y ventajas que corresponden a la mujer.
 
 CONYUGAL.
 I.- ADMINISTRACIÓN ORDINARIA DE LOS BIENES SOCIALES.
@@ -148,6 +196,13 @@ I.- ADMINISTRACIÓN ORDINARIA DE LOS BIENES SOCIALES.
 
 ## Ii.- administración ordinaria de los bienes propios de la mujer y del
 
+**Definición Canónica:** MARIDO.
+1.- Facultades del marido en relación con sus bienes propios.
+2.- Facultades de administración del marido en relación con los bienes propios de su
+mujer.
+3.- Actos de administración que el marido ejecuta por sí solo.
+4.- Actos de administración que el marido no puede ejecutar por sí solo.
+
 MARIDO.
 1.- Facultades del marido en relación con sus bienes propios.
 2.- Facultades de administración del marido en relación con los bienes propios de su
@@ -156,6 +211,19 @@ mujer.
 4.- Actos de administración que el marido no puede ejecutar por sí solo.
 
 ## Sección segunda: de la administración extraordinaria de la sociedad
+
+**Definición Canónica:** CONYUGAL.
+I.- ADMINISTRACIÓN EXTRAORDINARIA EJERCIDA POR LA MUJER.
+1.- Casos en que tiene lugar.
+2.- Facultades administrativas de la mujer sobre los bienes sociales.
+3.- Facultades administrativas de la mujer sobre sus bienes propios.
+4.- Facultades administrativas de la mujer sobre los bienes propios del marido.
+5.- Efectos de los actos realizados por la mujer en ejercicio de la administración
+ordinaria.
+II.- ADMINISTRACIÓN EXTRAORDINARIA EJERCIDA POR UN TERCERO.
+1.- Casos en que procede.
+2.- Derecho de la mujer a pedir separación de bienes.
+3.- Casos en que la administración es ejercida por
 
 CONYUGAL.
 I.- ADMINISTRACIÓN EXTRAORDINARIA EJERCIDA POR LA MUJER.
@@ -202,6 +270,25 @@ IV.- DE LA ACEPTACIÓN DE LOS GANANCIALES.
 
 ## Capítulo vii: de la liquidación de la sociedad conyugal
 
+**Definición Canónica:** 2.- Operaciones que comprende.
+I.- FACCIÓN DE INVENTARIO Y TASACIÓN.
+1.- Normas legales que la regulan.
+2.- Forma del inventario.
+3.- Contenido del inventario.
+4.- Sanciones.
+5.- Tasación.
+II.- FORMACIÓN DEL ACERVO LÍQUIDO.
+1.- Operaciones que comprende.
+2.- Formación del acervo bruto.
+3.- Restitución de los bienes propios.
+4.- Liquidación y deducción de las recompensas.
+5.- Cálculo y deducción del pasivo.
+6.- División de los gananciales.
+7.- División del pasivo.
+8.- beneficio de emolumento.
+9.- La liquidación de la sociedad conyugal es un acto que no admite resciliación.
+10.- Esquema de escri
+
 2.- Operaciones que comprende.
 I.- FACCIÓN DE INVENTARIO Y TASACIÓN.
 1.- Normas legales que la regulan.
@@ -224,6 +311,17 @@ conyugal y de escritura de liquidación de sociedad conyugal y partición de bie
 
 ## Capítulo viii: de los bienes reservados de la mujer casada
 
+**Definición Canónica:** 2.- Condiciones de existencia del patrimonio reservado.
+3.- No es condición de existencia del patrimonio reservado, la autorización del marido.
+4.- Características del patrimonio reservado.
+II.- ACTIVO DEL PATRIMONIO RESERVADO.
+III.- PASIVO DEL PATRIMONIO RESERVADO.
+IV.- ADMINISTRACIÓN DEL PATRIMONIO RESERVADO.
+V.- PRUEBA DEL PATRIMONIO RESERVADO.
+1.- Importancia y objeto de la prueba.
+2.-Prueba de las facultades de la mujer y de la existencia del patrimonio reservado.
+3.- Prueba sobre la calidad de reservado de determinado bien.
+
 2.- Condiciones de existencia del patrimonio reservado.
 3.- No es condición de existencia del patrimonio reservado, la autorización del marido.
 4.- Características del patrimonio reservado.
@@ -236,6 +334,13 @@ V.- PRUEBA DEL PATRIMONIO RESERVADO.
 3.- Prueba sobre la calidad de reservado de determinado bien.
 
 ## Vi.- suerte de los bienes reservados a la disolución de la sociedad
+
+**Definición Canónica:** CONYUGAL.
+1.- Aceptación de los gananciales.
+2.- Renuncia de los gananciales.
+3.- Liquidación del pasivo del patrimonio reservado en el caso de la aceptación de los
+DE LA SEPARACIÓN DE BIENES.
+**Concordancias Legales:** artículos 131; Ley Nº 2.695
 
 CONYUGAL.
 1.- Aceptación de los gananciales.
@@ -305,6 +410,21 @@ III.- DE LA ADMINISTRACIÓN DEL PATRIMONIO DE LOS CÓNYUGES.
 
 ## Iv.- mutabilidad del régimen de participación en los gananciales y de los
 
+**Definición Canónica:** REGÍMENES MATRIMONIALES EN GENERAL.
+1.- Mutaciones admisibles.
+2.- Mutaciones inadmisibles.
+V.- DETERMINACIÓN Y CÁLCULO DE LOS GANANCIALES.
+1.- Concepto de gananciales, en el marco de este régimen matrimonial.
+2.- Determinación del patrimonio originario.
+3.- Determinación del patrimonio final.
+4.- Avaluación de los patrimonios originario y final.
+5.- Comparación de los patrimonios originario y final.
+VI.- DEL CRÉDITO DE PARTICIPACIÓN EN LOS GANANCIALES.
+2.- Cuando se origina el crédito.
+3.- Características del crédito de participación.
+4.- Liquidación del crédito.
+5.- Prescripción de la acción
+
 REGÍMENES MATRIMONIALES EN GENERAL.
 1.- Mutaciones admisibles.
 2.- Mutaciones inadmisibles.
@@ -327,6 +447,14 @@ gananciales y de la acción para cobrar el crédito ya determinado.
 
 ## Vii.- pactos lícitos y pactos prohibidos, en el régimen de participación
 
+**Definición Canónica:** EN LOS GANANCIALES.
+1.- Pactos lícitos.
+2.- Pactos nulos.
+VIII.- TÉRMINO DEL RÉGIMEN DE PARTICIPACIÓN EN LOS GANANCIALES.
+1.- Causales de disolución.
+2.- Efectos del término del régimen.
+IX.- ALGUNAS CRÍTICAS FORMULADAS AL RÉGIMEN.
+
 EN LOS GANANCIALES.
 1.- Pactos lícitos.
 2.- Pactos nulos.
@@ -335,18 +463,10 @@ VIII.- TÉRMINO DEL RÉGIMEN DE PARTICIPACIÓN EN LOS GANANCIALES.
 2.- Efectos del término del régimen.
 IX.- ALGUNAS CRÍTICAS FORMULADAS AL RÉGIMEN.
 
-## X.- diferencias entre el régimen de participación en los gananciales y el
-
-RÉGIMEN DE SOCIEDAD CONYUGAL.
-
-## Xi.- diferencias entre el régimen de participación en los gananciales y el
-
-RÉGIMEN DE SEPARACIÓN TOTAL DE BIENES.
-CUESTIONARIO.
-
-
 ## Introducción
 
+**Definición Canónica:** 1.- Generalidades.
+**Concordancias Legales:** artículo 449; Artículo 295
 
 1.- Generalidades.
 
@@ -553,15 +673,19 @@ iii.- El otorgamiento de la plena capacidad a la mujer casada en sociedad conyug
 iv.- Consagrando la institución de los bienes familiares; y
 v.- Estableciendo un nuevo régimen patrimonial alternativo, el de participación en los
 
-
-## Régimen de sociedad conyugal
-
-
-
 ## Capitulo i: de las convenciones matrimoniales.5
 
+**Definición Canónica:** Son convenciones de carácter patrimonial que celebran los esposos antes de
+contraer matrimonio o en el acto de su celebración (art. 1715, inc. 1º).
+       Se deduce de tal concepto que estas convenciones tienen por objeto modificar
+el régimen de bienes establecido por la ley.
+       El Código Civil las llama “convenciones”, pues en realidad si bien se trata de
+actos jurídicos bilaterales, no siempre se trata de contratos. Serán contratos cuando
+impongan obligaciones a los contrayentes (por ejemplo, cuando el futuro marido se
+obliga a pagar a su futura cónyuge una pensión periódica durante el m
+**Concordancias Legales:** Ley N° 19.335; Ley N° 21.515
 
-       Son convenciones de carácter patrimonial que celebran los esposos antes de
+Son convenciones de carácter patrimonial que celebran los esposos antes de
 contraer matrimonio o en el acto de su celebración (art. 1715, inc. 1º).
        Se deduce de tal concepto que estas convenciones tienen por objeto modificar
 el régimen de bienes establecido por la ley.
@@ -781,10 +905,12 @@ a sustituir el régimen de bienes, pero en las demás estipulaciones que puedan
 contener (por ejemplo, donaciones, aportes de bienes o valores para los fines
 pactados, etc.) se mantendrá inalterable.
 
-
 ## Capitulo ii: concepto, regulación, naturaleza y
 
-                       CARACTERES DE LA SOCIEDAD CONYUGAL.
+**Definición Canónica:** CARACTERES DE LA SOCIEDAD CONYUGAL.
+**Concordancias Legales:** artículo 135; artículo 1723 del Código Civil. Reg; artículo 1749; artículos 1777; artículos 2304; Ley N° 19.335
+
+CARACTERES DE LA SOCIEDAD CONYUGAL.
 
        Puede definirse como la sociedad de bienes que se forma entre los cónyuges,
 bajo la modalidad de comunidad diferida y restringida de muebles y gananciales, por el
@@ -1010,9 +1136,10 @@ los cónyuges (a partir del distingo anterior, estudiaremos el “pasivo definit
 “pasivo provisional” de la sociedad conyugal). El pasivo se encuentra reglamentado,
 esencialmente, en el art. 1740.
 
-
 ## Seccion primera: del haber o activo de la sociedad conyugal
 
+**Definición Canónica:** I.- DEL HABER REAL O ABSOLUTO DE LA SOCIEDAD CONYUGAL.
+**Concordancias Legales:** artículo 163
 
 I.- DEL HABER REAL O ABSOLUTO DE LA SOCIEDAD CONYUGAL.
 
@@ -1068,8 +1195,18 @@ en sociedad conyugal ingresará al haber de ésta, sino sólo aquellos ingresos
 
 ## 1725. La expresión “devengar”, significa “adquirir derecho a alguna percepción o
 
+**Definición Canónica:** Regímenes Matrimoniales – Juan Andrés Orrego Acuña                19
+retribución por razón de trabajo, servicio u otro título” (Diccionario de la Lengua
+Española).
+        De esta manera, dos son los requisitos copulativos para que opere la partida
+establecida en el N° 1 del art. 1725 y consecuencialmente, para que los bienes a que
+éste se refiere ingresen efectivamente al haber de la sociedad conyugal: i) que se trate
+de salarios y emolumentos (es decir, en lenguaje contemporáneo, remuneraciones y
+rentas) de todo género de empleos y oficios; y, ii) devengados durante el matrimonio.
+b) Situac
+**Concordancias Legales:** artículo 90; Ley N° 3.500
 
-                    Regímenes Matrimoniales – Juan Andrés Orrego Acuña                19
+Regímenes Matrimoniales – Juan Andrés Orrego Acuña                19
 retribución por razón de trabajo, servicio u otro título” (Diccionario de la Lengua
 Española).
         De esta manera, dos son los requisitos copulativos para que opere la partida
@@ -1097,6 +1234,16 @@ independientes que en el año respectivo perciban ingresos de los señalados en 
 primero del artículo 90, estarán afectos a las cotizaciones que se establecen en el
 
 ## Título III y a un siete por ciento destinado a financiar prestaciones de salud, las que se
+
+**Definición Canónica:** enterarán en el Fondo Nacional de Salud, cuando correspondan. Dichas cotizaciones se
+pagarán de acuerdo a lo establecido en los incisos cuarto y quinto del presente artículo
+y en el artículo 92 F. Los afiliados independientes a que se refiere el inciso tercero del
+artículo 90, estarán afectos a las cotizaciones que se establecen en el Título III y a un
+siete por ciento destinado a financiar prestaciones de salud, que será recaudado por la
+Administradora y enterado en el Fondo Nacional de Salud”.
+        Se colige de las normas precedentemente citadas, que la cotización forma parte
+de la remune
+**Concordancias Legales:** artículo 92; artículo 90
 
 enterarán en el Fondo Nacional de Salud, cuando correspondan. Dichas cotizaciones se
 pagarán de acuerdo a lo establecido en los incisos cuarto y quinto del presente artículo
@@ -1158,6 +1305,16 @@ los bienes sociales, sea de los bienes propios de cada uno de los cónyuges, y q
 devenguen durante el matrimonio”. Así, si se trata de las “pensiones”, ellas formarán
 
 ## parte del haber social una vez que adquieran tal calidad (es decir, una vez que las
+
+**Definición Canónica:** “cotizaciones” se transformen en “pensiones”) y se devenguen. Y ello acontecerá,
+según se dejó en claro, cuando el trabajador obtenga una de las pensiones
+contempladas en la legislación previsional. Antes, no existen “pensiones”. Ergo, nada
+puede ingresar al haber de la sociedad conyugal.
+        A su vez, cabe referirse aquí al Decreto Ley N° 3.500, del Ministerio del Trabajo
+y Previsión Social, de 1980, que creó un Sistema de Pensiones de Vejez, de Invalidez y
+de Sobrevivencia derivado de la capitalización individual que se regirá por las normas
+del citado decreto ley. La capitalización se e
+**Concordancias Legales:** artículo 1; artículo 2; Artículo 150; artículo 62; artículo 1466 del Código Civil; artículos 10; artículo 20; artículos 20; artículo 20 del Decreto Ley N; artículo 42; Ley N° 3.500; Ley Nº 20.255; ley N° 19.947
 
 “cotizaciones” se transformen en “pensiones”) y se devenguen. Y ello acontecerá,
 según se dejó en claro, cuando el trabajador obtenga una de las pensiones
@@ -1337,6 +1494,17 @@ precepto recién citado, ellos deben sujetarse a lo previsto en el inciso 3° de
 
 ## 20. Expresa al afecto la parte final de este inciso: “Con todo, los depósitos convenidos
 
+**Definición Canónica:** y la rentabilidad generada por ellos, podrán retirarse como excedente de libre
+disposición, cumpliendo los requisitos específicos establecidos en esta ley”.
+        De esta manera:
+i.- Los trabajadores o pensionados pueden solicitar, en cualquier tiempo, el retiro de
+todo o parte de los recursos que llevan ahorrados en los planes de ahorro previsional
+voluntario (modalidades de Cotizaciones Voluntarias y Depósitos de Ahorro Previsional
+Voluntario). Con todo, “Los retiros realizados por personas que no cumplan los
+requisitos para pensionarse están afectos a un impuesto único, que se paga en la
+
+**Concordancias Legales:** artículo 1725 del Código Civil. Los intereses; artículo 42 bis de la Ley de Impuesto a la Renta; artículo 20; Ley N° 3.500
+
 y la rentabilidad generada por ellos, podrán retirarse como excedente de libre
 disposición, cumpliendo los requisitos específicos establecidos en esta ley”.
         De esta manera:
@@ -1390,7 +1558,16 @@ el trabajador, se devuelven al Estado. Esto implica que la bonificación fiscal 
 
 ## parte de la cantidad retirada ni podrá computarse en la liquidación de la sociedad
 
-        De lo expuesto, es posible concluir que forman parte del haber de la sociedad
+**Definición Canónica:** De lo expuesto, es posible concluir que forman parte del haber de la sociedad
+conyugal y por ende deben considerarse en su liquidación o partición, los montos
+correspondientes al ahorro previsional voluntario, descontando de ellos la bonificación
+fiscal del 15%. A contrario sensu, no integran el haber de la sociedad conyugal y
+consecuencialmente no deben incluirse en su liquidación, los montos que los cónyuges
+mantengan en sus cuentas de capitalización individual, en una Administradora de
+Fondos de Pensiones.
+c) Excepción eventual en favor de los productos del trabajo de la mujer.
+
+De lo expuesto, es posible concluir que forman parte del haber de la sociedad
 conyugal y por ende deben considerarse en su liquidación o partición, los montos
 correspondientes al ahorro previsional voluntario, descontando de ellos la bonificación
 fiscal del 15%. A contrario sensu, no integran el haber de la sociedad conyugal y
@@ -1468,7 +1645,17 @@ iv) “En lo demás, las donaciones remuneratorias quedan sujetas a las reglas d
 
 ## título” (art. 1436), es decir, a las reglas generales de las donaciones.15
 
-         En materia de sociedad conyugal, se refiere a ellas el art. 1738, que establece
+**Definición Canónica:** En materia de sociedad conyugal, se refiere a ellas el art. 1738, que establece
+las siguientes reglas:
+i.- Las donaciones remuneratorias de bienes raíces hechas a uno de los cónyuges o a
+ambos, por servicios que no daban acción contra la persona servida, no aumentan el
+haber social. En este caso, dado que el servicio “no daba acción”, prevale la “donación”
+por sobre la “remuneración”. El inmueble se entiende adquirido a título gratuito, e
+ingresa por tanto al haber propio del cónyuge que lo recibe.
+ii.- Las donaciones remuneratorias de bienes raíces hechas a uno de los cónyuges o a
+ambos, por 
+
+En materia de sociedad conyugal, se refiere a ellas el art. 1738, que establece
 las siguientes reglas:
 i.- Las donaciones remuneratorias de bienes raíces hechas a uno de los cónyuges o a
 ambos, por servicios que no daban acción contra la persona servida, no aumentan el
@@ -1559,6 +1746,11 @@ que se inscriban a nombre de ésta última: de todas maneras serán sociales.
 adquiridos con bienes sociales o con bienes propios de alguno de los cónyuges; si el
 
 ## título es oneroso, el bien adquirido será social, sin perjuicio de la recompensa a que
+
+**Definición Canónica:** pueda tener derecho el cónyuge dueño del dinero.
+b) Excepciones a la regla del art. 1725, Nº 5.
+        Los casos son los siguientes:
+**Concordancias Legales:** Artículo 1; artículo 1736; Ley Nº 2.695
 
 pueda tener derecho el cónyuge dueño del dinero.
 b) Excepciones a la regla del art. 1725, Nº 5.
@@ -1688,6 +1880,13 @@ debió decir: La especie, en este caso, será un bien propio o social según que
 
 ## título gratuito u oneroso. De esta manera, siguiendo esta tesis de Alessandri, a la que adherimos, no
 
+**Definición Canónica:** podríamos formular a priori, como característica general, que la prescripción adquisitiva es un modo de
+adquirir que opera siempre a título gratuito. Habría que concluir que es un modo de adquirir que puede
+operar indistintamente a título gratuito o a título oneroso, según la naturaleza que tenga el título que sirvió
+de antecedente para entrar en posesión. El título posesorio, determinará si el modo denominado prescripción
+adquisitiva, operó en definitiva a título gratuito o a título oneroso.
+**Concordancias Legales:** Ley N° 18.802
+
 podríamos formular a priori, como característica general, que la prescripción adquisitiva es un modo de
 adquirir que opera siempre a título gratuito. Habría que concluir que es un modo de adquirir que puede
 operar indistintamente a título gratuito o a título oneroso, según la naturaleza que tenga el título que sirvió
@@ -1734,6 +1933,18 @@ compraventa que se celebra en cumplimiento del contrato de promesa, se pagare en
 
 ## parte con capitales de la sociedad conyugal y en parte con capitales del cónyuge que
 
+**Definición Canónica:** adquiere el inmueble.
+ii.- Si los bienes a que se refieren los números anteriores son muebles, entrarán al
+haber de la sociedad, la que deberá al cónyuge adquirente la correspondiente
+recompensa. En otras palabras, los bienes muebles ingresarán al haber relativo de la
+sociedad conyugal. Por ende, las excepciones del artículo 1736 sólo rigen en su
+integridad para los bienes inmuebles.
+b.3) Caso del art. 1728.
+         El art. 1728 se refiere al cónyuge que, teniendo un inmueble, adquiere durante
+la vigencia de la sociedad conyugal, a título oneroso, un terreno contiguo a dicho
+predio. Distingui
+**Concordancias Legales:** artículo 1736
+
 adquiere el inmueble.
 ii.- Si los bienes a que se refieren los números anteriores son muebles, entrarán al
 haber de la sociedad, la que deberá al cónyuge adquirente la correspondiente
@@ -1773,6 +1984,16 @@ b.4) Caso del art. 1729.
 indiviso con otros comuneros y durante la vigencia de la sociedad conyugal adquiera a
 
 ## título oneroso las cuotas de los restantes comuneros. La cuota que se adquiera, en
+
+**Definición Canónica:** lugar de ingresar al haber real, sigue la suerte indicada en el caso del art. 1728. Por lo
+tanto, todo el bien (no sólo la cuota que se adquirió) pasa a ser del dominio de una
+comunidad formada por la sociedad y el cónyuge, a prorrata del valor de la cuota que
+perteneció a dicho cónyuge y de lo que costó adquirir las cuotas de los restantes
+comuneros.
+2.5. Los frutos de los bienes sociales y propios, devengados durante el matrimonio.
+        Ingresan al haber real todos los frutos, réditos, pensiones, intereses y lucros de
+cualquier naturaleza, devengados durante el matrimonio, sea que proveng
+**Concordancias Legales:** artículo 150 del Código Civil
 
 lugar de ingresar al haber real, sigue la suerte indicada en el caso del art. 1728. Por lo
 tanto, todo el bien (no sólo la cuota que se adquirió) pasa a ser del dominio de una
@@ -1945,6 +2166,12 @@ cónyuges descubre un tesoro en bienes de la sociedad conyugal o de un tercero, 
 
 ## parte que corresponde al descubridor ingresará al haber relativo de la sociedad
 
+**Definición Canónica:** conyugal (art. 1731). La parte que se asigna por la ley al descubridor no ingresa al
+haber real, porque la ley asimila el hallazgo de un tesoro a una adquisición a título
+gratuito; como se trata de bienes muebles, ingresan al haber relativo o aparente de la
+ii.- Si el tesoro se encuentra en un bien perteneciente a uno de los cónyuges, la parte
+que corresponde al dueño del suelo ingresará al haber relativo de la sociedad
+
 conyugal (art. 1731). La parte que se asigna por la ley al descubridor no ingresa al
 haber real, porque la ley asimila el hallazgo de un tesoro a una adquisición a título
 gratuito; como se trata de bienes muebles, ingresan al haber relativo o aparente de la
@@ -1990,6 +2217,16 @@ recompensa.
 
 ## 2.2. Los bienes raíces adquiridos durante la vigencia de la sociedad conyugal a título
 
+**Definición Canónica:** gratuito.
+         Así lo establecen los arts. 1726 inc. 1º y 1732 inc. 1º.
+         Se incluyen aquí, por ejemplo, los inmuebles que se adquieran por donación,
+herencia, o legado. En el caso de la prescripción, también se incluirá en la medida que
+el título posesorio invocado fuere uno de carácter gratuito (art. 1736, N° 1).
+         La parte final del inciso primero de ambos artículos tiene gran importancia
+práctica, porque resuelve el problema de las donaciones conjuntas. La donación hecha
+a un cónyuge, aunque sea hecha en consideración al otro, incrementa su haber propio,
+y la misma regla 
+
 gratuito.
          Así lo establecen los arts. 1726 inc. 1º y 1732 inc. 1º.
          Se incluyen aquí, por ejemplo, los inmuebles que se adquieran por donación,
@@ -2018,6 +2255,12 @@ de sus bienes muebles, designándolos en las capitulaciones (art. 1725, N° 4, i
 
 ## título singular, pudiendo comprender sólo bienes propios de los esposos, presentes o
 
+**Definición Canónica:** futuros, corporales o incorporales. También se podría pactar que estos bienes sean
+administrados por la mujer (art. 167).
+2.5. Bienes que ingresan al haber propio a consecuencia de una subrogación.
+         También forman parte del haber propio de cada cónyuge, los bienes que entran
+a sustituir a otros bienes propios del cónyuge, a consecuencia del fenómeno llamado
+
 futuros, corporales o incorporales. También se podría pactar que estos bienes sean
 administrados por la mujer (art. 167).
 2.5. Bienes que ingresan al haber propio a consecuencia de una subrogación.
@@ -2033,6 +2276,17 @@ pero cuya causa o título es anterior a ella (art. 1736).
 absoluto.
 
 ## 2.7. Bienes muebles e inmuebles adquiridos por la mujer en virtud del art. 166 del
+
+**Definición Canónica:** Código Civil.
+       Según estudiaremos, se trata de bienes que adquiere la mujer en virtud de una
+donación, herencia o legado, con la condición precisa de que en estos bienes no tenga
+la administración el marido.
+       Estos bienes pertenecerán a la mujer, pero no así los frutos y los bienes
+adquiridos con dichos frutos, los que podrán ser sociales, si la mujer acepta los
+       El art. 166 es una excepción a la regla general, en virtud de la cual los bienes
+muebles adquiridos a título gratuito durante la vigencia de la sociedad conyugal,
+ingresan al haber relativo de la sociedad conyugal.
+ 
 
 Código Civil.
        Según estudiaremos, se trata de bienes que adquiere la mujer en virtud de una
@@ -2051,6 +2305,15 @@ corresponderá a la mujer, con las facultades del art. 150.
 
 ## 2.8. Bienes inmuebles adquiridos por la mujer por prescripción, en virtud del
 
+**Definición Canónica:** procedimiento de regularización de la pequeña propiedad raíz.
+       De conformidad al art. 37 del Decreto Ley Nº 2.695, del año 1979, la mujer se
+hará dueña de los inmuebles que adquiera por la prescripción especial consagrada en
+este cuerpo legal.
+       En cambio, si fuere el marido el que adquiere por la prescripción especial
+establecida en este Decreto Ley, habrá que remitirse a los distingos que ya hemos
+formulado conforme al art. 1736 Nº 1, para determinar dónde ingresa al inmueble.
+**Concordancias Legales:** Ley Nº 2.695
+
 procedimiento de regularización de la pequeña propiedad raíz.
        De conformidad al art. 37 del Decreto Ley Nº 2.695, del año 1979, la mujer se
 hará dueña de los inmuebles que adquiera por la prescripción especial consagrada en
@@ -2059,16 +2322,16 @@ este cuerpo legal.
 establecida en este Decreto Ley, habrá que remitirse a los distingos que ya hemos
 formulado conforme al art. 1736 Nº 1, para determinar dónde ingresa al inmueble.
 
-
-## Iv.- presunciones en favor de la sociedad conyugal y en favor de
-
-TERCEROS.
-
-1.- Presunciones a favor de la sociedad conyugal.
-
-       Son dos:
-
 ## 1.1. Presunción de dominio: establece el art. 1739, inc. 1º una presunción de dominio
+
+**Definición Canónica:** en favor de la sociedad conyugal, que comprende toda cantidad de dinero, de cosas
+fungibles, de especies, créditos, derechos y acciones que existan en poder de
+cualquiera de los cónyuges al disolverse la sociedad. Esta presunción, referida a los
+bienes muebles, obedece al hecho de que ellos por lo general son sociales.
+       Esta presunción es de gran utilidad para los cónyuges y para sus acreedores.
+Para los cónyuges (o excónyuges), porque se entenderá que todos los muebles
+formarán parte de la comunidad que nace al disolverse la sociedad conyugal y que
+después podrán ser objeto de la respec
 
 en favor de la sociedad conyugal, que comprende toda cantidad de dinero, de cosas
 fungibles, de especies, créditos, derechos y acciones que existan en poder de
@@ -2096,8 +2359,16 @@ confesión no atribuye al otro cónyuge el dominio del bien objeto de dicha conf
 sino que implica un acto de disposición que sólo se hará irrevocable a la muerte del
 confesante-donante, pudiendo éste dejarla sin efecto mientras viva.
 
-
 ## 1.2. Presunción en orden a que los bienes adquiridos a título oneroso se han adquirido
+
+**Definición Canónica:** con bienes sociales (es decir con capitales sociales): el último inciso del art. 1739,
+contempla una presunción a favor de la sociedad, que opera respecto de los bienes que
+cualquiera de los cónyuges adquiera a título oneroso una vez disuelta la sociedad
+conyugal y antes de su liquidación. Se debe entender que la sociedad conyugal financió
+la adquisición de los bienes. Por consiguiente, el cónyuge adquirente deberá
+recompensar a la sociedad, salvo que acredite que realizó dicha adquisición con bienes
+propios o que provengan de su sola actividad personal. Por ende, al igual que en el
+caso anter
 
 con bienes sociales (es decir con capitales sociales): el último inciso del art. 1739,
 contempla una presunción a favor de la sociedad, que opera respecto de los bienes que
@@ -2182,6 +2453,13 @@ muebles o de un inmueble; el bien subrogado debe ser siempre inmueble. La expres
 
 ## 1727 N° 2 del Código Civil, que reza: “No obstante lo dispuesto en el art. 1725 no
 
+**Definición Canónica:** entrarán a componer el haber social: (...) 2º Las cosas compradas con valores propios
+de uno de los cónyuges, destinados a ello en las capitulaciones matrimoniales o en una
+donación por causa de matrimonio”. Como el precepto no distingue entre muebles e
+inmuebles, sino que alude a “Las cosas”, Rodríguez Grez concluye que se refiere la ley
+tanto a muebles como inmuebles.24 Sin perjuicio de lo recién expuesto, centraremos el
+análisis en los inmuebles, atendido lo señalado en el art. 1733.
+
 entrarán a componer el haber social: (...) 2º Las cosas compradas con valores propios
 de uno de los cónyuges, destinados a ello en las capitulaciones matrimoniales o en una
 donación por causa de matrimonio”. Como el precepto no distingue entre muebles e
@@ -2199,11 +2477,10 @@ análisis en los inmuebles, atendido lo señalado en el art. 1733.
 
                         Regímenes Matrimoniales – Juan Andrés Orrego Acuña                              39
 
-## 2.1. Según que se cambie un inmueble por otro: llamada “subrogación de inmueble a
-
-inmueble”: art. 1727, Nº 1.
-
 ## 2.2. Según se compre un inmueble (o mueble, según Rodríguez Grez) con valores
+
+**Definición Canónica:** propios: llamada “subrogación de inmueble (o mueble) a valores”: art. 1727, Nº 2.
+**Concordancias Legales:** artículos 1733
 
 propios: llamada “subrogación de inmueble (o mueble) a valores”: art. 1727, Nº 2.
 
@@ -2243,7 +2520,12 @@ aduciendo que esta conclusión “se conforma a lo establecido en los artículos
 
 ## 1725, n° 5°”.25
 
-        Rossel considera lo contrario, porque si concurren todos los requisitos de la
+**Definición Canónica:** Rossel considera lo contrario, porque si concurren todos los requisitos de la
+subrogación, especialmente el ánimo de subrogar, no es jurídico desconocer los efectos
+de ella por una simple razón de precedencia en la realización de las operaciones de
+compraventa.26
+
+Rossel considera lo contrario, porque si concurren todos los requisitos de la
 subrogación, especialmente el ánimo de subrogar, no es jurídico desconocer los efectos
 de ella por una simple razón de precedencia en la realización de las operaciones de
 compraventa.26
@@ -2338,8 +2620,9 @@ opera mientras la sociedad conyugal está vigente, mientras que la contribución
 deudas opera una vez disuelta la sociedad conyugal, pues es a partir de este último
 momento en que debe determinarse si existen o no recompensas.
 
-
 ## I.- del pasivo de la sociedad conyugal y de los conyuges en
+
+**Definición Canónica:** RELACION CON LA OBLIGACION A LAS DEUDAS.
 
 RELACION CON LA OBLIGACION A LAS DEUDAS.
 
@@ -2363,6 +2646,15 @@ propios del marido.
 
 ## 2.1. Toda deuda contraída por el marido durante la vigencia de la sociedad conyugal
 
+**Definición Canónica:** (art. 1740, N° 2).
+       Esta es la típica deuda social. Los acreedores del marido podrán perseguir todos
+sus bienes, es decir, tanto los propios como los sociales (art. 1750).
+2.2. Las obligaciones contraídas por el marido antes del matrimonio (art. 1740, N° 3).
+       En virtud del art. 1750, el marido no podría alegar que por estas deudas, sólo
+pueden perseguirse sus bienes propios y que los bienes sociales no responden por
+tales obligaciones, pues se consideran pertenecerle a él.27 Los acreedores del marido
+     A propósito de los casos signados como 2.1. y 2.2., expresa Alessandri: “Las 
+
 (art. 1740, N° 2).
        Esta es la típica deuda social. Los acreedores del marido podrán perseguir todos
 sus bienes, es decir, tanto los propios como los sociales (art. 1750).
@@ -2382,6 +2674,17 @@ régimen (a menos que el marido pruebe que la pagó con valores propios y no con
 valores de la sociedad conyugal).
 
 ## 2.3. Toda deuda contraída por la mujer con mandato general o especial del marido
+
+**Definición Canónica:** (art. 1751, inc. 1º).
+         Se entiende que así sea, pues al actuar la mujer como mandataria de su
+marido, ella no compromete su patrimonio sino el de su mandante. Como mandataria
+que es de su marido, actúa “por cuenta y riesgo” de éste (artículos 1448 y 2116).
+         Con todo, en dos casos la mujer mandataria de su marido comprometerá
+también algunos de sus bienes propios (y sus bienes reservados, de tenerlos):
+i.- Si los terceros con quienes contrató la mujer mandataria logran probar que el
+contrato cedió en utilidad personal de la mujer (art. 1750, inc. 2º).
+         En este caso, si e
+**Concordancias Legales:** artículos 1448; artículos 166
 
 (art. 1751, inc. 1º).
          Se entiende que así sea, pues al actuar la mujer como mandataria de su
@@ -2406,6 +2709,14 @@ con los bienes de su patrimonio reservado (art. 150).
 
 ## 2.4. Toda deuda contraída por los cónyuges conjuntamente o en que la mujer se
 
+**Definición Canónica:** obligue solidaria o subsidiariamente con el marido (art. 1751, inc. 3º).
+         En cualquiera de estos tres casos, previene la ley que estos contratos “no
+valdrán contra los bienes de la mujer” sino en la medida que los terceros con quienes
+contrataron los cónyuges, logran probar que el contrato cedió en utilidad personal de
+la mujer y bajo el entendido que en tal hipótesis, sólo podrán perseguir los bienes de
+la mujer que se encuentran bajo la administración de ésta, y no bajo la administración
+del marido.
+
 obligue solidaria o subsidiariamente con el marido (art. 1751, inc. 3º).
          En cualquiera de estos tres casos, previene la ley que estos contratos “no
 valdrán contra los bienes de la mujer” sino en la medida que los terceros con quienes
@@ -2417,8 +2728,14 @@ del marido.
 3.- Obligaciones que dan acción sobre los bienes sociales, sobre los bienes
 propios del marido y además, sobre los bienes propios de la mujer.
 
-
 ## 3.1. Las contraídas por el marido durante la vigencia de la sociedad conyugal, en virtud
+
+**Definición Canónica:** de un contrato que cede en beneficio personal de la mujer (art. 1750, inc. 2º: “Podrán,
+con todo, los acreedores perseguir sus derechos sobre los bienes de la mujer, en virtud
+de un contrato celebrado por ellos con el marido, en cuanto se probare haber cedido el
+contrato en utilidad personal de la mujer, como en el pago de sus deudas anteriores al
+matrimonio”).
+**Concordancias Legales:** artículos 150
 
 de un contrato que cede en beneficio personal de la mujer (art. 1750, inc. 2º: “Podrán,
 con todo, los acreedores perseguir sus derechos sobre los bienes de la mujer, en virtud
@@ -2474,6 +2791,17 @@ el acreedor sobre todos los bienes de su deudor.
 
 ## 3.3. Las obligaciones que tienen por fuente un delito o cuasidelito cometido por la
 
+**Definición Canónica:** mujer.
+        Al igual que en el segundo caso, se trata de un acreedor de la mujer.
+        Estas deudas deben ser pagadas por la sociedad (arts. 1740, N° 3 y 1748),
+pero también pueden perseguirse en los bienes propios de la mujer, conforme al
+derecho de prenda general de que goza todo acreedor (arts. 2465 y 2469).
+3.4. Las obligaciones de la mujer que tienen por fuente la ley o un cuasicontrato.
+        Al igual que en los dos casos precedentes, estamos ante un acreedor de la
+mujer (art. 1740 Nº 3).
+        Será por ejemplo una obligación que tenga por fuente la ley, los alimentos o la
+comp
+
 mujer.
         Al igual que en el segundo caso, se trata de un acreedor de la mujer.
         Estas deudas deben ser pagadas por la sociedad (arts. 1740, N° 3 y 1748),
@@ -2487,8 +2815,10 @@ compensación económica que deba pagar la mujer; y una obligación que tenga po
 fuente un cuasicontrato, lo que deba la mujer a los otros comuneros, por las
 reparaciones hechas en la cosa que se posea pro-indiviso.
 
-
 ## Ii.- del pasivo de la sociedad conyugal y de los conyuges en
+
+**Definición Canónica:** RELACION CON LA CONTRIBUCION A LAS DEUDAS.
+**Concordancias Legales:** Ley N° 18.802
 
 RELACION CON LA CONTRIBUCION A LAS DEUDAS.
 
@@ -2596,6 +2926,12 @@ de la sociedad, los cónyuges pueden convenir en hacerlas con sus bienes propios
          Será también de cargo de la sociedad “toda otra carga de familia”, como dice la
 
 ## parte final del inc. 1º del N° 5 del art. 1740. Quedan comprendidos en esta
+
+**Definición Canónica:** denominación las remuneraciones de los trabajadores de casa particular, los gastos de
+veraneo, los regalos que es costumbre hacer en ciertos días, los alimentos que uno de
+los cónyuges deba por ley a sus descendientes o ascendientes, aunque los primeros no
+lo sean de ambos, siempre que sean moderados (art. 1740, N° 5, inc. 2º). Podrá el
+**Concordancias Legales:** artículos 1742; Ley N° 18.802
 
 denominación las remuneraciones de los trabajadores de casa particular, los gastos de
 veraneo, los regalos que es costumbre hacer en ciertos días, los alimentos que uno de
@@ -2899,12 +3235,10 @@ favor cuando, durante la vigencia de la sociedad conyugal, se destina el produci
 tales bienes a la adquisición de bienes para el otro cónyuge o a la reparación de bienes
 del otro cónyuge.
 
-
-## Capitulo v: de la administracion
-
-
 ## De la sociedad conyugal
 
+**Definición Canónica:** CLASIFICACION.
+**Concordancias Legales:** Ley N° 18.802; Ley N° 14.908
 
 CLASIFICACION.
 
@@ -2930,6 +3264,12 @@ decretado dos o más veces, apremios en contra del marido para el pago de las pe
 
 ## 19. Si constare en el proceso que en contra del alimentante su hubiere decretado dos veces alguno de los
 
+**Definición Canónica:** apremios señalados en los artículos 14 y 16, procederá en su caso, ante el tribunal que corresponda y
+siempre a petición del titular de la acción respectiva, lo siguiente: (…) 2. Autorizar a la mujer para actuar
+conforme a lo dispuesto en el inciso segundo del artículo 138 del Código Civil, sin que sea necesario acreditar
+el perjuicio a que se refiere dicho inciso”.
+**Concordancias Legales:** artículos 14; artículo 138 del Código Civil
+
 apremios señalados en los artículos 14 y 16, procederá en su caso, ante el tribunal que corresponda y
 siempre a petición del titular de la acción respectiva, lo siguiente: (…) 2. Autorizar a la mujer para actuar
 conforme a lo dispuesto en el inciso segundo del artículo 138 del Código Civil, sin que sea necesario acreditar
@@ -2939,12 +3279,18 @@ el perjuicio a que se refiere dicho inciso”.
 extraordinaria no se caracteriza porque necesariamente administre la mujer, sino
 porque en lugar del marido, administre su curador.
 
-
-## Seccion primera: de la administracion
-
-
 ## Ordinaria de la sociedad conyugal
 
+**Definición Canónica:** Conceptos fundamentales.
+       Corresponde esta administración al marido, por el solo hecho del matrimonio.
+       La administración ordinaria comprende los bienes sociales y los bienes propios
+de la mujer (art. 1749). Con todo, las facultades de administración serán distintas en
+uno y otro caso.
+       Se extiende la administración ordinaria hasta la disolución de la sociedad
+conyugal, a menos que durante su vigencia el marido caiga en interdicción o se
+ausente o sea sometido a un procedimiento concursal de liquidación, circunstancias en
+las cuales la administración será ejercida por el cura
+**Concordancias Legales:** artículo 1749 del Código Civil; artículo 1749; artículo 1725; artículo 1732; artículo 1344; artículo 1726; artículos 2509; artículos 1749; Ley Nº 18.802; Ley N° 18.802; Ley N° 20.286; Ley N° 19.968
 
 Conceptos fundamentales.
        Corresponde esta administración al marido, por el solo hecho del matrimonio.
@@ -3185,6 +3531,16 @@ adquirente. En tal evento, quien debería ejercer la acción reivindicatoria deb
 
 ## parte que recupera el dominio en virtud de la declaración de nulidad: por ejemplo, el
 
+**Definición Canónica:** deudor en el caso de la cosa embargada o el marido en el caso de enajenación de
+bienes de la sociedad conyugal, pero, como fácilmente se comprenderá, ninguno de
+ellos estará muy interesado en ejercer la acción reivindicatoria contra el tercer
+poseedor. Así, por ejemplo, el deudor considerará que no le resulta útil dicha
+reivindicación en la medida en que, si recupera la posesión del bien, le será embargado
+para satisfacer sus deudas. Atendido lo anterior, podría suceder que el tercero
+legitimado para pedir la nulidad viera frustrado el objetivo práctico por el cual puede
+pedir la nulidad. No p
+**Concordancias Legales:** artículo 1691 del Código Civil. ii; artículo 1757; artículo 1683; artículos 1750; Ley N° 18.802
+
 deudor en el caso de la cosa embargada o el marido en el caso de enajenación de
 bienes de la sociedad conyugal, pero, como fácilmente se comprenderá, ninguno de
 ellos estará muy interesado en ejercer la acción reivindicatoria contra el tercer
@@ -3274,6 +3630,15 @@ la mujer surge de que disuelta la sociedad conyugal ella tendrá derechos sobre 
                     Regímenes Matrimoniales – Juan Andrés Orrego Acuña                58
 
 ## parte de los gananciales y, por lo mismo, sobre el bien afectado por el contrato nulo. El
+
+**Definición Canónica:** interés jurídico de la mujer es coetáneo a la celebración del acto, puesto que para ello
+basta con que éste haya sido ejecutado durante la sociedad conyugal (…). Por último,
+digamos que la nulidad absoluta es de orden público, en la mayor parte de los casos, y
+que nadie puede negar el interés real de la mujer si se considera que es en virtud de
+este interés que la ley es la llamada a autorizar la ejecución de ciertos actos (…) En
+suma, si el marido celebra un acto o contrato que adolece de nulidad absoluta,41 puede
+la mujer demandar la nulidad absoluta del mismo, invocando el interés que exige
+**Concordancias Legales:** artículo 1683; artículo 155 del Código Civil. Si el acto adolece de nulidad r; artículo 1748; artículo 1757 del Código Civil debe ser desestimado; artículo 1757 del Código Civil; artículos 1749; artículo 1723; artículo 155; artículos 1756; artículo 145; artículos 138; artículo 1750; artículo 1815 del Código Civil. El mismo criterio; artículo 1757; artículo 41 de la Ley N; artículo 41; artículo 1682 del Código Civil; artículo 1754; artículo 1749 del Código Civil; artículos 1681; artículo 1682; artículos 166; Ley N° 10.271; Ley N° 18.802; Ley N° 18.196; Ley 18.802; Ley 18.196; Ley N° 19.335
 
 interés jurídico de la mujer es coetáneo a la celebración del acto, puesto que para ello
 basta con que éste haya sido ejecutado durante la sociedad conyugal (…). Por último,
@@ -3625,8 +3990,10 @@ perjudicarla; y le corresponde ser indemnizada por los perjuicios que se le ocas
 por los delitos o cuasidelitos cometidos por el marido durante la administración. Es un
 correctivo.
 
-
 ## Ii.- administracion ordinaria de los bienes propios de la mujer y
+
+**Definición Canónica:** DEL MARIDO.
+**Concordancias Legales:** artículo 138 bis; artículos 138; artículo 1754; artículo 145; artículo 1754 del Código Civil. Pensamos que dicho acto es tota; artículo 1749 del Código Civil en relación con los incisos 1; artículo 1810; artículos 1749; artículo 1754 del Código Civil prohíbe a la mujer gravar; artículos 10; artículo 1810 del Código Civil. QUINTO; artículo 1757 del Código Civil; artículo 1682; artículos 1682; Ley N° 18.802; Ley N° 19.335; Ley N° 20.286; Ley Nº 19.335; Ley Nº 18.802
 
 DEL MARIDO.
 
@@ -4056,8 +4423,20 @@ estar obligado a restituir en especie, vale decir, aquellos que no han entrado a
 
 ## parte del haber social, pues los que ingresan pueden ser enajenados libremente por el
 
+**Definición Canónica:** Regímenes Matrimoniales – Juan Andrés Orrego Acuña                  72
+         Hoy, tales bienes muebles serían los siguientes:
+i.- Los derechos de la mujer que, siendo socia de una sociedad civil o mercantil, se
+casó: art. 1749, inc. 2º.
+ii.- Los muebles eximidos de la comunidad en las capitulaciones matrimoniales previas
+al matrimonio (art. 1725, N° 4, inc. 2º).
+iii.- Los bienes muebles adquiridos en virtud de una subrogación real (si atendemos a
+la doctrina del profesor Rodríguez Grez).
+         Tales bienes muebles no pueden ser enajenados por el marido sin autorización
+de la mujer.
+    
+**Concordancias Legales:** Ley Nº 18.802; constitución
 
-                    Regímenes Matrimoniales – Juan Andrés Orrego Acuña                  72
+Regímenes Matrimoniales – Juan Andrés Orrego Acuña                  72
          Hoy, tales bienes muebles serían los siguientes:
 i.- Los derechos de la mujer que, siendo socia de una sociedad civil o mercantil, se
 casó: art. 1749, inc. 2º.
@@ -4175,10 +4554,12 @@ expuesto, en el caso regulado por el art. 138 bis, que dispone también que podr
 mujer recurrir a la justicia en caso de negativa del marido para nombrar partidor,
 provocar la partición o concurrir a ella cuando la mujer tenga parte en la herencia.
 
-
 ## Seccion segunda: de la administracion
 
-                 EXTRAORDINARIA DE LA SOCIEDAD CONYUGAL.
+**Definición Canónica:** EXTRAORDINARIA DE LA SOCIEDAD CONYUGAL.
+**Concordancias Legales:** artículos 393; artículos 1225; artículo 132; artículos 95; artículo 43 de la Ley de Matrimonio Civil; artículo 82 del Código Civil; artículos 42; artículo 159; artículo 1723; artículos 1715; artículos 2304; Ley N° 4.808; Ley N° 20.720; Ley Nº 19.947; Ley Nº 20.577; Ley N° 20.577; Ley Nº 19.335; Ley N° 10.271; Ley N° 19.335; constitución
+
+EXTRAORDINARIA DE LA SOCIEDAD CONYUGAL.
 
 Cuándo procede.
         La administración extraordinaria tiene lugar cuando por incapacidad o ausencia
@@ -4853,18 +5234,25 @@ de Santiago, concluye en los mismos términos.82
         No concordamos con la conclusión de los autores citados y de las sentencias
 mencionadas, por las siguientes razones:
 
-## 1. La ley es clara: para que la mujer o sus herederos renuncien a los gananciales, la
-
-sociedad conyugal debe estar disuelta, y no lo estará sino con la subinscripción del
-pacto a que alude el art. 1723, no antes.
-
 ## 2. La reforma hecha al Código Civil por la Ley N° 10.271 no desmiente la conclusión
+
+**Definición Canónica:** anterior, sino que la refuerza, pues se limitó ella a admitir que en la misma escritura
+se liquide la sociedad conyugal, a pesar de que en verdad aún no está disuelta. Nada
+se dijo acerca de un acto jurídico diverso a la liquidación, como es el de renuncia a los
 
 anterior, sino que la refuerza, pues se limitó ella a admitir que en la misma escritura
 se liquide la sociedad conyugal, a pesar de que en verdad aún no está disuelta. Nada
 se dijo acerca de un acto jurídico diverso a la liquidación, como es el de renuncia a los
 
 ## 3. La frase que se incorporó por la Ley N° 10.271 “…y celebrar entre ellos cualesquier
+
+**Definición Canónica:** otros pactos que estén permitidos a los cónyuges separados de bienes”, podría haber
+servido de fundamento para la tesis favorable a la renuncia en la misma escritura, pero
+no así su tenor actual, hoy expresado bajo la fórmula más neutra “… o celebrar otros
+pactos lícitos…” En nuestra opinión, no sería un pacto lícito aquél por el cual en la
+misma escritura de separación total de bienes, la mujer renuncie a los gananciales. Por
+lo demás, la sentencia del año 1959 se dictó cuando la frase vigente era la primera y
+**Concordancias Legales:** Ley Nº 7.612
 
 otros pactos que estén permitidos a los cónyuges separados de bienes”, podría haber
 servido de fundamento para la tesis favorable a la renuncia en la misma escritura, pero
@@ -4880,6 +5268,13 @@ Punto Lex Thomson Reuters, p. 187.
 los cónyuges. Ello sólo fue posible con la reforma que se introdujo por la Ley Nº 7.612, de 21 de octubre de
 
 ## 1943. Sin embargo, nada se dijo en esta oportunidad, acerca de la posibilidad de liquidar la sociedad
+
+**Definición Canónica:** conyugal por la misma escritura en virtud de la cual los cónyuges pactaban separación total de bienes.
+   Somarriva Undurraga, Manuel (1955), Evolución del Código Civil Chileno, Santiago de Chile, Editorial
+Nascimento, pp. 326 y 327.
+   Repertorio de Legislación y Jurisprudencia Chilenas. Código Civil y Leyes Complementarias, Tomo VII,
+tercera edición, Santiago de Chile, Editorial Jurídica de Chile, 1997.
+   Revista de Derecho y Jurisprudencia y Gaceta de los Tribunales, Nº 1-2002, marzo de 2002, pp. 1-5.
 
 conyugal por la misma escritura en virtud de la cual los cónyuges pactaban separación total de bienes.
    Somarriva Undurraga, Manuel (1955), Evolución del Código Civil Chileno, Santiago de Chile, Editorial
@@ -4899,17 +5294,27 @@ matrimonio o después de la disolución de la sociedad”.
 
 ## 5. El párrafo 6 del título XXII del Libro IV, se titula, precisamente, “De la renuncia de
 
+**Definición Canónica:** los gananciales hecha por parte de la mujer después de la disolución de la sociedad”. A
+su vez, el art. 1781, que encabeza dicho párrafo 6, establece: “Disuelta la sociedad, la
+mujer o sus herederos mayores tendrán la facultad de renunciar los gananciales a que
+tuvieren derecho”.
+
 los gananciales hecha por parte de la mujer después de la disolución de la sociedad”. A
 su vez, el art. 1781, que encabeza dicho párrafo 6, establece: “Disuelta la sociedad, la
 mujer o sus herederos mayores tendrán la facultad de renunciar los gananciales a que
 tuvieren derecho”.
 
-## 6. El art. 1767, por su parte, expresa: “la mujer que no haya renunciado los
-
-gananciales antes del matrimonio o después de disolverse la sociedad, se entenderá
-que los acepta con beneficio de inventario”.
-
 ## 7. La renuncia a los gananciales, según ha expresado de manera uniforme nuestra
+
+**Definición Canónica:** doctrina, es un acto jurídico puro y simple. Expresa al efecto Pablo Rodríguez Grez: “La
+renuncia debe hacerse pura y simplemente, sin que se admita condición, plazo ni
+modo. Así se desprende de lo prevenido en los artículos 1227 y 1228, que, aun cuando
+se refieren a las asignaciones por causa de muerte, obedecen a los mismos
+principios”.83 Pues bien, si se admitiera la renuncia en la escritura que contiene el
+pacto de separación de bienes, aquella quedaría sujeta a dos modalidades: un plazo
+(hasta de treinta días) y una condición suspensiva (que efectivamente se inscriba la
+escritura dentro d
+**Concordancias Legales:** artículos 1227
 
 doctrina, es un acto jurídico puro y simple. Expresa al efecto Pablo Rodríguez Grez: “La
 renuncia debe hacerse pura y simplemente, sin que se admita condición, plazo ni
@@ -4922,6 +5327,16 @@ escritura dentro del expresado plazo). No se cumpliría entonces con la exigenci
 aludida, en orden a que el acto ha de ser puro y simple.
 
 ## 8. En fin, un último argumento, nos parece que por sí solo, puede esgrimirse para
+
+**Definición Canónica:** controvertir la doctrina imperante. Según hemos visto, la doctrina que admite la
+renuncia en la escritura de separación de bienes, se funda en la frase “o celebrar otros
+pactos lícitos”. Ahora bien, ocurre que la renuncia es un acto jurídico unilateral, y mal
+podría, entonces, quedar comprendida dentro de la aludida frase. No estamos ante un
+pacto, sino ante un acto que emana de la voluntad de una persona, la mujer, o el
+heredero o los respectivos herederos, y en este último caso, cada uno de ellos otorga
+un acto jurídico unilateral. La palabra “pacto” no se encuentra definida en el Código
+Civ
+**Concordancias Legales:** artículos 1719; artículo 1721; artículo 1176; artículo 1137; Ley N° 21.515
 
 controvertir la doctrina imperante. Según hemos visto, la doctrina que admite la
 renuncia en la escritura de separación de bienes, se funda en la frase “o celebrar otros
@@ -5034,6 +5449,16 @@ celebradas antes del matrimonio o después de disuelta la sociedad. En este últ
 caso, se podrá renunciar siempre que no haya entrado al patrimonio de la renunciante
 
 ## parte alguna del haber social a título de gananciales (art. 1782, inc. 1º). Así, por
+
+**Definición Canónica:** ejemplo, si fallece el marido y la viuda y los hijos constituyen una sociedad aportando
+a ésta un inmueble transmitido por el causante, que había adquirido vigente la
+sociedad conyugal, ya no podrá la mujer renunciar a los gananciales, porque incorporó
+en su patrimonio bienes (derechos en el inmueble aportado) “a título de gananciales”.
+Otro tanto ocurrirá si los cónyuges hubiesen liquidado la sociedad conyugal y en el
+marco de dicha liquidación se adjudicaron los bienes a cada uno de ellos.
+e) Debe ser total, si quien renuncia es la mujer. La mujer no puede renunciar a los
+gananciales por par
+**Concordancias Legales:** artículo 1239; artículos 382; artículos 858; artículo 383 del Código Civil; artículo 1766; artículo 1766 del Código Civil sólo beneficia a aquel que tenga; artículos 166; artículos 1748; artículos 1317; artículo 1344
 
 ejemplo, si fallece el marido y la viuda y los hijos constituyen una sociedad aportando
 a ésta un inmueble transmitido por el causante, que había adquirido vigente la
@@ -5769,6 +6194,8 @@ partición de una comunidad de distinto origen, en cuyo caso las adjudicaciones 
 
 ## título translaticio de dominio, por mandato del art. 703. A su vez, en el primer caso, el
 
+**Definición Canónica:** modo de adquirir para el heredero adjudicatario será la sucesión por causa de muerte,
+
 modo de adquirir para el heredero adjudicatario será la sucesión por causa de muerte,
 
     Claro Solar, Luis, Explicaciones de Derecho Civil Chileno y Comparado, tomo 7°, “De los Bienes”, II,
@@ -5806,6 +6233,16 @@ En contra se ha sostenido que, en materia posesoria, igual que en el dominio, la
 adjudicación tiene efecto declarativo (es título declarativo); es así por el tenor del art.
 
 ## 718. Y cuando el art. 703 la considera título traslaticio se estaría refiriendo a las
+
+**Definición Canónica:** ‘adjudicaciones’ efectuadas en el proceso particional a extraños. Esta última afirmación
+requiere una aclaración. En la práctica –y a veces en los textos legales-en el proceso
+particional suele emplearse impropiamente el término ‘adjudicación’ para designar a
+transferencias de bienes comunes a terceros (por ejemplo, por remate). Auténtica
+adjudicación existe sólo entre comuneros. Entonces, como el término suele usarse en
+ese sentido impropio, se estima que ése sería el sentido empleado en el 703 y se
+aplicaría, por tanto, sólo a esas ‘adjudicaciones’ a extraños. Por cierto, dirimir la
+disyunti
+**Concordancias Legales:** artículo 718; artículo 703; artículo 1344
 
 ‘adjudicaciones’ efectuadas en el proceso particional a extraños. Esta última afirmación
 requiere una aclaración. En la práctica –y a veces en los textos legales-en el proceso
@@ -5969,6 +6406,12 @@ sociedad conyugal expiró el 20 de abril de 2020. El deudor cae en mora el 15 de
 de 2020, y el acreedor obtiene el embargo de un inmueble el 20 de septiembre de
 
 ## 2020. El 15 de noviembre de 2020, los cónyuges disuelven la sociedad conyugal y se
+
+**Definición Canónica:** adjudica a la mujer el inmueble. El embargo subsistirá sin embargo, pues aunque al
+momento de producirse el embargo el inmueble debe entenderse que pertenecía a la
+mujer, la disolución de la sociedad conyugal no puede perjudicar a los acreedores que
+tenían los cónyuges, de conformidad a los arts. 1723, 1777 y 1778.
+**Concordancias Legales:** artículos 165 del Código Civil y 40 de la Ley de Matrimonio Civ; artículos 1781; artículos 10
 
 adjudica a la mujer el inmueble. El embargo subsistirá sin embargo, pues aunque al
 momento de producirse el embargo el inmueble debe entenderse que pertenecía a la
@@ -6151,6 +6594,16 @@ Propiedad del Conservador de Bienes Raíces de ________________, correspondiente
 al año ________. Rol de Avalúo Fiscal número ___________ de la comuna de
 
 ## ________. b) automoviles.- (datos que aparecen en el padrón del auto)
+
+**Definición Canónica:** Automóvil marca ________; modelo _______; Año: __________; Número de motor:
+____________; Número de chasis: ___________; Color: __________; Número de
+inscripción en el Registro Nacional de Vehículos Motorizados: ______________ guión
+_____. C) BIENES MUEBLES.- La totalidad de los bienes muebles que guarnecen el
+inmueble singularizado en la letra A) 1), precedente, que se detallan conforme a
+inventario que las partes suscriben conjuntamente con la presente escritura pública y
+que se protocoliza con el número __________, con esta misma fecha y bajo el mismo
+repertorio. QUINTO: Los bienes antes re
+**Concordancias Legales:** artículo 657 del Código de Procedimiento Civil; artículos 980; artículos 1758; artículos 166; Ley Nº 5.521; Ley Nº 18.802; constitución
 
 Automóvil marca ________; modelo _______; Año: __________; Número de motor:
 ____________; Número de chasis: ___________; Color: __________; Número de
@@ -6583,8 +7036,10 @@ podrá recurrir a cualquier medio de prueba y acreditar que el bien en cuestión
 adquirido con el producto de su trabajo profesional o industrial.
        Será inadmisible, sin embargo, la confesión de los cónyuges (art. 1739).
 
-
 ## Vi.- suerte de los bienes reservados a la disolucion de la sociedad
+
+**Definición Canónica:** CONYUGAL.
+**Concordancias Legales:** artículo 14; artículos 152; artículos 131; artículo 40 de la Ley de Matrimonio Civil; artículos 84; artículos 15; artículos 135; artículo 135; artículo 15 del Código del ramo; artículo 135 del Código Civil y al no decidirlo así y por el c; artículos 250; artículo 150 del Código Civil para los efectos de ejercer los; artículo 150 del Código Civil y que; Ley N° 19.968; Ley N° 14.908; Ley Nº 19.335; Ley Nº 18.802; Ley Nº 19.585; Ley N° 19.947; Ley Nº 2.695; Ley Nº 19.455; Ley 2.695
 
 CONYUGAL.
 
@@ -7224,11 +7679,16 @@ estipular que la mujer administre separadamente una parte de sus bienes (art.
       En ambos casos, la mujer se mira como separada de bienes, rigiéndose esta
 separación parcial por el art. 166 (por ende, por las normas del art. 150).
 
-
 ## Participacion en los gananciales
 
+**Definición Canónica:** La Ley N° 19.335, publicada en el Diario Oficial de fecha 23 de septiembre de
+1994, y que entró en vigencia respecto a la materia que analizaremos el 24 de
+diciembre del mismo año, incorporó en nuestro Derecho de Familia un nuevo régimen
+patrimonial matrimonial, alternativo al de sociedad conyugal, denominado régimen de
+participación en los gananciales.
+**Concordancias Legales:** artículos 1792; artículos 135; artículo 135; artículo 15 del Código del ramo; artículo 1792; artículos 142; Ley N° 19.335; Ley Nº 19.347; constitución
 
-        La Ley N° 19.335, publicada en el Diario Oficial de fecha 23 de septiembre de
+La Ley N° 19.335, publicada en el Diario Oficial de fecha 23 de septiembre de
 1994, y que entró en vigencia respecto a la materia que analizaremos el 24 de
 diciembre del mismo año, incorporó en nuestro Derecho de Familia un nuevo régimen
 patrimonial matrimonial, alternativo al de sociedad conyugal, denominado régimen de
@@ -7461,8 +7921,10 @@ acto o contrato, no podrá perseguirse la rescisión (art. 1792-4, inc. 3º).
       Ratifica el art. 1792-5 que, al término del régimen, los patrimonios se
 mantienen separados, determinándose a la misma fecha los gananciales.
 
-
 ## Iv.- mutabilidad del régimen de participación en los gananciales y de los
+
+**Definición Canónica:** REGÍMENES MATRIMONIALES EN GENERAL.
+**Concordancias Legales:** artículo 1723; artículos 1792; artículo 1792; Ley N° 19.947; Ley N° 19.335
 
 REGÍMENES MATRIMONIALES EN GENERAL.
 
@@ -7722,6 +8184,12 @@ vicioso, cuando el vicio se ha purgado durante la vigencia del régimen por la
 ratificación o por otro medio legal (art. 1792-8 Nº 2, norma idéntica a la del art.
 
 ## 1736 Nº 2, respecto de la sociedad conyugal). La ratificación, que como sabemos
+
+**Definición Canónica:** opera tratándose de la nulidad relativa, sanea el contrato, entendiéndose que éste
+nunca adoleció de vicio alguno. La expresión “…o por otro medio legal”, la entendemos
+referida a la prescripción de las acciones de nulidad, tanto absoluta como relativa, que
+“purgan” el vicio que afectaba al contrato o título respectivo.
+**Concordancias Legales:** artículo 1736; artículo 1792; artículos 858; artículos 1792; artículo 1723; artículo 1715; artículo 578 del Código Civil; artículos 156; artículos 10; artículo 17; artículo 8; artículos 229; artículo 227; artículo 31 de la Ley de Matrimonio Civil y artículo 227 del Có; artículo 147; artículo 2520; artículo 2509; artículo 1852; artículos 1519; artículo 1773; artículo 148; artículo 2468; artículo 1187; artículo 2524; artículo 1187 del Código Civil; artículo 1723 inciso 2; artículo 2481; Ley Nº 3.500; Ley 19.968; Ley N° 21.515
 
 opera tratándose de la nulidad relativa, sanea el contrato, entendiéndose que éste
 nunca adoleció de vicio alguno. La expresión “…o por otro medio legal”, la entendemos
@@ -8488,8 +8956,10 @@ gananciales tendrá una preferencia de cuarta clase. Cabe notar que aquí, la
 preferencia no corresponderá sólo a la mujer, como acontece en la sociedad conyugal,
 sino a cualquiera de los cónyuges.
 
-
 ## Vii.- pactos lícitos y pactos prohibidos, en el régimen de participación
+
+**Definición Canónica:** EN LOS GANANCIALES.
+**Concordancias Legales:** artículo 1792; artículos 1792; artículo 1721; artículo 1719; artículos 142; artículo 51; artículo 707; artículo 52 de la Ley de Matrimonio Civil; artículo 165 del Código Civil y artículo 40 de la Ley de Matri; artículos 40 de la Ley de Matrimonio Civil y 178 y 165 del Códig; artículo 158; artículo 1723 del Código Civil. g; artículo 141 del Código Civil; artículo 145; artículo 1739; Ley Nº 19.335; constitucion
 
 EN LOS GANANCIALES.
 
@@ -8819,6 +9289,11 @@ contraer matrimonio o que durante el matrimonio los adquiera, especialmente por 
 
 ## título lucrativo. Dichos bienes, propios, podrán ser administrados y enajenados
 
+**Definición Canónica:** libremente por la mujer que se acoja al régimen de participación en los gananciales. En
+cambio, en el ámbito de la sociedad conyugal, dichos bienes son administrados por el
+marido (artículo 1754).
+**Concordancias Legales:** artículo 1754; artículo 150; artículo 1792; artículo 1723
+
 libremente por la mujer que se acoja al régimen de participación en los gananciales. En
 cambio, en el ámbito de la sociedad conyugal, dichos bienes son administrados por el
 marido (artículo 1754).
@@ -8867,8 +9342,10 @@ cónyuges sustituyan la sociedad conyugal por el régimen de separación de bien
 éste por el de participación, se ha afectado la certidumbre que requieren las relaciones
 con los terceros acreedores”.173
 
-
 ## X.- diferencias entre el régimen de participación en los gananciales y el
+
+**Definición Canónica:** RÉGIMEN DE SOCIEDAD CONYUGAL.
+**Concordancias Legales:** artículo 135; artículos 1770; artículo 1739; artículo 2485; artículo 1768; artículos 1792; artículo 1792; artículo 1773; artículo 2481; artículo 158; artículo 1736; artículo 1757; artículo 40 de la Ley de Matrimonio Civil
 
 RÉGIMEN DE SOCIEDAD CONYUGAL.
 
@@ -9012,8 +9489,10 @@ repactarse la sociedad conyugal, que se entiende haber expirado irrevocablemente
 dictarse la sentencia que declara a los cónyuges separados judicialmente (artículo 40
 de la Ley de Matrimonio Civil).
 
-
 ## Xi.- diferencias entre el régimen de participación en los gananciales y el
+
+**Definición Canónica:** RÉGIMEN DE SEPARACIÓN TOTAL DE BIENES.
+**Concordancias Legales:** artículo 1792; Ley N° 19.335
 
 RÉGIMEN DE SEPARACIÓN TOTAL DE BIENES.
 
@@ -9094,6 +9573,18 @@ conyugal?
 23.- ¿Qué requisitos deben cumplirse, para que los ingresos de los cónyuges formen
 
 ## parte del haber real o absoluto?
+
+**Definición Canónica:** 24.- ¿Qué excepción contempla el art. 150 del Código Civil, respecto de los ingresos
+que se obtengan durante la vigencia de la sociedad conyugal? ¿Cuál puede ser el
+destino de los bienes a que se refiere esta excepción?
+25.- ¿Dónde ingresan las rentas que obtenga un cónyuge por trabajos iniciados antes
+del matrimonio y concluidos una vez celebrado?
+26.- ¿Cómo se definen las donaciones remuneratorias? ¿Qué ejemplo podría
+proporcionar?
+27.- ¿Qué solemnidades deben cumplirse, para encontrarnos ante una donación
+remuneratoria? De no cumplirse estas solemnidades, ¿qué debemos entender?
+28.- ¿Qué re
+**Concordancias Legales:** Ley Nº 20.720
 
 24.- ¿Qué excepción contempla el art. 150 del Código Civil, respecto de los ingresos
 que se obtengan durante la vigencia de la sociedad conyugal? ¿Cuál puede ser el

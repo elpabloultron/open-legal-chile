@@ -13,20 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## 60           Responsabilidad
-
-             penal adolescente
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Miguel Cillero
+             Jorge Vitar
+             compiladores
 
-             Miguel Cillero
+Miguel Cillero
              Jorge Vitar
              compiladores
 
@@ -47,32 +40,12 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Fundamentos normativos y del derecho internacional
-        de los derechos humanos sobre la responsabilidad penal
-        adolescente
-
-## 37      Capítulo 2
-
-        Aspectos psicosociales de la actividad delictiva juvenil
-        y la especialización del Sistema de Justicia Penal Juvenil
-
-## 85      Capítulo 3
-
-        La Ley 20.084 sobre Responsabilidad Penal Adolescente
-
-## 109     Capítulo 4
-
-        Sistema de sanciones, determinación y ejecución
-        en la Ley 20.084
-
-## 158     Referencias
-
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Fundamentos normativos y del derecho
+internacional de los derechos humanos sobre
+la responsabilidad penal adolescente
+**Concordancias Legales:** Ley 20.084
 
 Fundamentos normativos y del derecho
 internacional de los derechos humanos sobre
@@ -93,8 +66,13 @@ al control social de los adolescentes en nuestro país; control que se ha
 ejercido en conjunto, y muchas veces yuxtaponiéndose con los sistemas
 de protección de la infancia y la adolescencia (Cillero, 1994).
 
-
 ## 1 Este proceso se encuentra ampliamente documentado en diversos estudios, como
+
+**Definición Canónica:** Los Salvadores de los Niños o la Invención de la delincuencia de Platt (1982) con referencia principalmente a los Estados Unidos; Prehistoria e historia del control socio-penal de la infancia: política jurídica y derechos humanos en América Latina de
+García Méndez (disponible en https://bit.ly/3f7cZka), en el que examina el impacto
+de las reformas norteamericanas en América Latina; por otra parte, a nivel nacional
+la evolución del sistema hasta inicios de la década del noventa es descrita por Cillero
+(1994) en «Evolución Histórica de la Consideración Jurídica de la Infancia en Chile», en Infan
 
 Los Salvadores de los Niños o la Invención de la delincuencia de Platt (1982) con referencia principalmente a los Estados Unidos; Prehistoria e historia del control socio-penal de la infancia: política jurídica y derechos humanos en América Latina de
 García Méndez (disponible en https://bit.ly/3f7cZka), en el que examina el impacto
@@ -150,14 +128,23 @@ populista5, estructurada en torno a una noción unilateral de seguridad
 ciudadana.
    En este sentido podemos decir que un enfoque histórico útil que per-
 
-
 ## 2 Véase Visiones de Control Social (Cohen, 1998, traducción de E. Larrauri) y Ley y
+
+**Definición Canónica:** Orden (Dahrendorf, 1998, traducción de Luis María Diez-Picazo). Una visión más
+reciente sobre el control de la criminalidad en las sociedades de la modernidad tardía, en particular el Reino Unido y Estados Unidos de Norteamérica, en The Cuture
+of Control (Garland, 2001).
 
 Orden (Dahrendorf, 1998, traducción de Luis María Diez-Picazo). Una visión más
 reciente sobre el control de la criminalidad en las sociedades de la modernidad tardía, en particular el Reino Unido y Estados Unidos de Norteamérica, en The Cuture
 of Control (Garland, 2001).
 
 ## 3 Las críticas al ideal de rehabilitación provinieron tanto desde la criminología
+
+**Definición Canónica:** como desde la dogmática penal. Por su enorme influencia la obra de referencia imprescindible de este pensamiento es «What Works? Question and Answers about
+Prission Reform» (Martinson, 1974). El artículo refiere a un metaanálisis de 231 evaluaciones a programas de rehabilitación desarrollados entre 1945 y 1967 en el que
+Martinson participó como investigador. En el ámbito de la dogmática iberoamericana una obra clave en el desarrollo de esta crítica véase Derecho penal y Control
+Social especialmente el capítulo «La Prisión como Problema: resocialización versus
+desocialización» (Muñoz Conde, 198
 
 como desde la dogmática penal. Por su enorme influencia la obra de referencia imprescindible de este pensamiento es «What Works? Question and Answers about
 Prission Reform» (Martinson, 1974). El artículo refiere a un metaanálisis de 231 evaluaciones a programas de rehabilitación desarrollados entre 1945 y 1967 en el que
@@ -167,12 +154,24 @@ desocialización» (Muñoz Conde, 1985), esta publicación es una recopilación 
 
 ## 4 La crítica fundamental a los modelos comunitarios fue que ellos sirvieron para
 
+**Definición Canónica:** la ampliación e intensificación de la red de control social; como señalan Austin y
+Krisberg (1981) se trata de «redes distintas, más amplias y más fuertes» («Wider,
+Stronger and Differnts Nets: The Dialectics of Criminal Justice Reform» citado por
+Cohen, 1998).
+
 la ampliación e intensificación de la red de control social; como señalan Austin y
 Krisberg (1981) se trata de «redes distintas, más amplias y más fuertes» («Wider,
 Stronger and Differnts Nets: The Dialectics of Criminal Justice Reform» citado por
 Cohen, 1998).
 
 ## 5 Tomo el término de Albrecht: «El derecho penal en la intervención de la política
+
+**Definición Canónica:** populista». Un ejemplo de esto puede encontrarse en las investigaciones sobre el
+caso de los Estados Unidos de Norteamérica que muestran que el resultado neto
+más relevante de su política criminal ha sido el incremento del aparato penal, el aumento de las personas sometidas al control penal y sólo resultados marginales en la
+disminución de la delincuencia, véase el capítulo 1 «Assesing de Prison Experiment»
+de Crime and Punishment in America (Currie, 1998).
+**Concordancias Legales:** constitucion
 
 populista». Un ejemplo de esto puede encontrarse en las investigaciones sobre el
 caso de los Estados Unidos de Norteamérica que muestran que el resultado neto
@@ -200,14 +199,22 @@ el sentido del comportamiento legal. Desde una perspectiva científico
 social esto último no es «educación» (socialización) sino exclusivamente control social (Albrecht en Bustos Ramírez).
    Este criterio, unido a la idea de no desocialización, aportada por los
 
-
 ## 6 Albrecht señala que pese a la «trivialidad de esta tautología, ésta se pierde de
+
+**Definición Canónica:** vista, demasiado a menudo, en los escritos de euforia reformista criminológica de
+menores». En el ámbito nacional Bustos Ramírez, así como, Couso Salas y Cillero
+Bruñol, entre otros, sigue de cerca esta tendencia desde comienzos de los noventa.
 
 vista, demasiado a menudo, en los escritos de euforia reformista criminológica de
 menores». En el ámbito nacional Bustos Ramírez, así como, Couso Salas y Cillero
 Bruñol, entre otros, sigue de cerca esta tendencia desde comienzos de los noventa.
 
 ## 7 Los análisis históricos revelan una recíproca influencia entre el derecho penal de
+
+**Definición Canónica:** adultos y el control de la infancia; así como los niños y adolescentes han sido asimilados a las corrientes dominantes en el derecho penal de adultos, también ha ocurrido a la inversa, esto es que instituciones y prácticas que nacieron para controlar a
+los niños y adolescentes terminaron por incorporarse a un sistema penal ampliado
+aplicable a todos. Véase «La sociedad punitiva» en La vida de los hombres infames
+(Foucault, 1990).
 
 adultos y el control de la infancia; así como los niños y adolescentes han sido asimilados a las corrientes dominantes en el derecho penal de adultos, también ha ocurrido a la inversa, esto es que instituciones y prácticas que nacieron para controlar a
 los niños y adolescentes terminaron por incorporarse a un sistema penal ampliado
@@ -242,6 +249,14 @@ lugar, por la falta de medios e instalaciones adecuadas y de personal capacitado
 llevar a cabo un tratamiento mínimamente eficaz» (Muñoz Conde, 1989: 89).
 
 ## 9 En materia penal, la concepción del derecho penal como un medio de control
+
+**Definición Canónica:** social ha sido ampliamente tratada en el texto clásico de Hassemer y Muñoz Conde
+Introducción a la Criminología y al Derecho Penal de 1989, allí señalan: «sin control
+social la existencia no sería posible ya que es inimaginable un proceso de socialización sin normas de conducta, sin sanciones para casos de incumplimiento de las
+mismas y sin realización material de la norma y la sanción […] dentro del amplio
+campo del control social, el Derecho penal llena el sector que se ocupa de los bienes
+jurídicos fundamentales y que, por tanto, están expuestos a plantear los conflictos
+más graves. Precisa
 
 social ha sido ampliamente tratada en el texto clásico de Hassemer y Muñoz Conde
 Introducción a la Criminología y al Derecho Penal de 1989, allí señalan: «sin control
@@ -285,6 +300,13 @@ los adultos, con una rebaja de pena establecida en la ley. En la versión del
  10 En este sentido, se ha llegado a señalar «que la historia de la infancia es la historia de su control» (García Méndez, 1989), disponible en https://bit.ly/3zvcSG2.
 
 ## 11 La minoría de edad como eximente de responsabilidad penal en Chile proviene
+
+**Definición Canónica:** del Código Penal español, su evolución puede revisarse en «Comentario artículos 10
+número 2 y 3 del Código Penal» de Cillero Bruñol en Texto y Comentario del Código
+Penal Chileno, Tomo I, de Politoff Lifschitz y Ortiz Quiroga; y, posteriormente, con
+la regulación introducida por la Ley 20.084, en «Comentario al artículo 10 número
+2» de Cillero Bruñol en Código Penal Comentado. Parte General Doctrina y Jurisprudencia.
+**Concordancias Legales:** artículos 10; artículo 10; artículo 72; artículo 15 de la Ley de Tribunales Tutelares de Menores; Ley 20.084; Ley 4.447; Ley 11.183; Ley 16.618; Constitucion
 
 del Código Penal español, su evolución puede revisarse en «Comentario artículos 10
 número 2 y 3 del Código Penal» de Cillero Bruñol en Texto y Comentario del Código
@@ -458,8 +480,13 @@ Materiales Docentes                                                       Capít
       general. En síntesis, es lo que se puede denominar un Derecho penal
       peligrosista y de máxima intervención (Cillero, 2011: 2).
 
-
 ## 16 En este sentido, el sistema de menores pretende prescindir de la garantía de la
+
+**Definición Canónica:** culpabilidad señalando que las medidas no son penas, no son un mal, sino un bien.
+Para justificar la ausencia de garantías se esgrimían argumentos como que «tratándose de niños a quienes no se va a imponer una pena, a hacer un mal, sino a tomar
+una medida de protección y tutela, a tomar una medida buena, no cabe exceso ni
+abuso. En el bien no hay exceso» (Cuello Calón, 1917: 38).
+**Concordancias Legales:** artículos 3.1; artículos 37
 
 culpabilidad señalando que las medidas no son penas, no son un mal, sino un bien.
 Para justificar la ausencia de garantías se esgrimían argumentos como que «tratándose de niños a quienes no se va a imponer una pena, a hacer un mal, sino a tomar
@@ -489,10 +516,17 @@ un marco general de objetivos del sistema, entendidos como el derecho
 a recibir ese tratamiento especial y, en consecuencia, a ser sustraídos del
 régimen penal general de adultos:
 
-
 ## 40.1. Los Estados parte reconocen el derecho de todo niño de quien se
 
-      alegue que ha infringido las leyes penales o a quien se acuse o declare
+**Definición Canónica:** alegue que ha infringido las leyes penales o a quien se acuse o declare
+      culpable de haber infringido esas leyes a ser tratado de manera acorde
+      con el fomento de su sentido de la dignidad y el valor, que fortalezca el
+      respeto del niño por los derechos humanos y las libertades fundamen-
+      tales de terceros y en la que se tengan en cuenta la edad del niño y la
+      importancia de promover la reintegración del niño y de que este asuma
+      una función constructiva en la sociedad (la cursiva es nuestra)
+
+alegue que ha infringido las leyes penales o a quien se acuse o declare
       culpable de haber infringido esas leyes a ser tratado de manera acorde
       con el fomento de su sentido de la dignidad y el valor, que fortalezca el
       respeto del niño por los derechos humanos y las libertades fundamen-
@@ -503,10 +537,12 @@ régimen penal general de adultos:
    También configura una obligación y mandato de especialidad, en los
 siguientes términos:
 
-
 ## 40.3 Los Estados parte tomarán todas las medidas apropiadas para pro-
 
-      mover el establecimiento de leyes, procedimientos, autoridades e insti-
+**Definición Canónica:** mover el establecimiento de leyes, procedimientos, autoridades e insti-
+**Concordancias Legales:** artículo 40.3; artículo 10; artículo 1; artículo 21; artículo 8.2; Artículo 40.2; Artículo 40.3 de la Convención sobre los Derechos del Niño; Artículo 3.1; Artículos 37; Ley 20.084; Ley 21.527; Constitución
+
+mover el establecimiento de leyes, procedimientos, autoridades e insti-
 
 Materiales Docentes                                                       Capítulo 1
 
@@ -685,8 +721,10 @@ objetos de tutela y represión, a considerar los niños y jóvenes como sujetos 
    En virtud del nuevo paradigma de la protección integral, el niño llega
 ser considerado como un sujeto de derecho, con derechos y obligaciones
 
-
 ## 19 Adoptada por la Asamblea General de las Naciones Unidas en Nueva York el 20
+
+**Definición Canónica:** de noviembre de 1989.
+**Concordancias Legales:** artículo 12 de la Convención de Derechos del Niño; artículo 25; Constitucion; Constitución
 
 de noviembre de 1989.
 
@@ -749,8 +787,14 @@ la Convención sobre los Derechos del Niño.
 los adultos y llevados ante tribunales especializados, con la mayor celeridad posible, para su tratamiento»(5.5); en el Pacto de Derechos Civiles
 y Políticos se dispone que «los menores procesados estarán separados
 
-
 ## 20 Así entre otros, «El nuevo Derecho penal de adolescentes y la necesaria revisión
+
+**Definición Canónica:** de su teoría del delito» (Hernández, 2007: 196); Juzgamiento Penal de Adolescentes, (Couso y Duce, 2013); «Consideraciones acerca del contenido de especialidad
+que caracteriza a los sistemas penales adolescentes»Maldonado (2014); «Evolución
+Histórica de la Consideración Jurídica de la Infancia en Chile» Cillero (1994); «Los
+plazos de prescripción de la acción penal de la ley de responsabilidad penal de adolescentes frente al art.369 quáter del Código Penal» (Mañalich Raffo, 2013: 124); referido expresamente a la determinación de las sanciones, «Determinación judicial
+de la pena. Motivación y s
+**Concordancias Legales:** artículo 10.2; artículo 14.4; artículo 5 inciso 2; artículo 450; artículo 5; artículo 37; artículo 40.4 de la Convención Internacional sobre Derechos del N; artículo 40.3; Ley 20.084; Ley 19.970; Constitucion; Constitución Política; Constitución
 
 de su teoría del delito» (Hernández, 2007: 196); Juzgamiento Penal de Adolescentes, (Couso y Duce, 2013); «Consideraciones acerca del contenido de especialidad
 que caracteriza a los sistemas penales adolescentes»Maldonado (2014); «Evolución
@@ -884,14 +928,10 @@ preámbulo párrafo 9 y en su artículo 40.3; la Opinión General número
 10 elaborada el año 2007 relativa a los derechos del niño en la justicia de
 menores por el Comité de Derechos del Niño;23 las Reglas Mínimas de
 
-
-## 22 Para esta temática se expondrá una síntesis de los temas planteados en el texto
-
-«El Derecho a un juzgamiento especializado de los jóvenes infractores en el Derecho
-Internacional de los Derechos Humanos y su impacto en el diseño del proceso penal
-juvenil», de Mauricio Duce.
-
 ## 23 Esta Observación fue reemplazada por la Observación General número 24 del
+
+**Definición Canónica:** año 2019 relativa a los derechos del niño en el sistema de justicia juvenil. Sin em-
+**Concordancias Legales:** artículo 14.4; artículo 5.5
 
 año 2019 relativa a los derechos del niño en el sistema de justicia juvenil. Sin em-
 
@@ -927,6 +967,11 @@ particular, su párrafo 2.
 
 ## 24 Los supuestos básicos del debido proceso en los instrumentos internacionales
 
+**Definición Canónica:** se encuentran regulados fundamentalmente en el Pacto Internacional (artículos 9
+y 14), Convención Americana (artículos 7 y 8) y el Convenio Europeo de Derechos
+Humanos (artículos 5 y 6).
+**Concordancias Legales:** artículos 9; artículos 7; artículos 5
+
 se encuentran regulados fundamentalmente en el Pacto Internacional (artículos 9
 y 14), Convención Americana (artículos 7 y 8) y el Convenio Europeo de Derechos
 Humanos (artículos 5 y 6).
@@ -958,16 +1003,9 @@ Estados partes para la aplicación de esta medida.
    2. Duración o extensión temporal de la Prisión Preventiva. Los instrumentos internacionales de carácter general establecen, en relación
 a la duración de la prisión preventiva, la garantía de que esta debe te-
 
-
-## 25 Véase la Observación General número 24, en especial, su letra f) «Privación de
-
-libertad, incluida la detención preventiva y la prisión posterior a la sentencia».
-
-## 26 Véase especialmente el artículo 37 de la Convención de los Derechos del Niño y
-
-la regla número 13 de las Reglas de Beijing.
-
 ## 27 Véase el artículo 73 letra b) de la Convención de los Derechos del Niño y la regla
+
+**Definición Canónica:** número 13.1 de las Reglas de Beijing.
 
 número 13.1 de las Reglas de Beijing.
 
@@ -980,6 +1018,13 @@ sistema general.
 
 ## 3. Condiciones de cumplimiento de la prisión preventiva. Las garantías
 
+**Definición Canónica:** específicas se manifiestan en la necesidad de que exista separación entre adultos y jóvenes sometidos a prisión preventiva.30 Lo anterior tiene
+como fundamento el especial estado de vulnerabilidad de los jóvenes
+privados de libertad, y con ello se intenta impedir cualquier tipo de influencia negativa. Otra preocupación se refiere a las condiciones de la
+privación de libertad, la que se debe realizar con pleno respeto y reconocimiento de los derechos del adolescente, destacando de manera
+especial la necesidad de asesoramiento letrado y el contacto permanente
+con su familia.
+
 específicas se manifiestan en la necesidad de que exista separación entre adultos y jóvenes sometidos a prisión preventiva.30 Lo anterior tiene
 como fundamento el especial estado de vulnerabilidad de los jóvenes
 privados de libertad, y con ello se intenta impedir cualquier tipo de influencia negativa. Otra preocupación se refiere a las condiciones de la
@@ -988,6 +1033,11 @@ especial la necesidad de asesoramiento letrado y el contacto permanente
 con su familia.
 
 ## 4. Impugnación de la legalidad de la privación de libertad. La garantía
+
+**Definición Canónica:** específica radica en que, junto con establecer la posibilidad de impugnación de legalidad de la privación de libertad, se establece la obligación
+adicional a los Estados partes de resolver aquella en un espacio temporal
+acotado muy breve.31
+**Concordancias Legales:** artículo 7.5 de la Convención Americana y el artículo 9.3 del Pa
 
 específica radica en que, junto con establecer la posibilidad de impugnación de legalidad de la privación de libertad, se establece la obligación
 adicional a los Estados partes de resolver aquella en un espacio temporal
@@ -1000,6 +1050,12 @@ La preocupación en el sistema internacional de derechos humanos respecto a la e
  28 Véase el artículo 7.5 de la Convención Americana y el artículo 9.3 del Pacto Internacional.
 
 ## 29 Véase el artículo 37 letra b) de la Convención de los Derechos del Niño y la regla
+
+**Definición Canónica:** número 13.1 de las Reglas de Beijing.
+ 30 Véase el artículo 10.2 letra b) del Pacto Internacional, artículo 5.5 de la Convención Americana, artículo 37letra c) de la Convención de los Derechos del Niño y la
+regla número 13.4 de las Reglas de Beijing.
+ 31 Véase el artículo 37 letra d) de la Convención de los Derechos del Niño.
+**Concordancias Legales:** artículo 10.2; artículo 5.5 de la Convención Americana; artículo 37
 
 número 13.1 de las Reglas de Beijing.
  30 Véase el artículo 10.2 letra b) del Pacto Internacional, artículo 5.5 de la Convención Americana, artículo 37letra c) de la Convención de los Derechos del Niño y la
@@ -1030,16 +1086,11 @@ el derecho a la defensa ya que es por medio de ese conocimiento que
 se pueden desarrollar actividades conducentes a la preparación de su
 defensa. Esta garantía se recoge en los tratados internacionales35 y en la
 
-
-## 32 Véase el artículo 14.1 del Pacto Internacional, el artículo 8.1 de la Convención
-
-Americana y el artículo 6.1 del Convenio Europeo.
-
-## 33 Véase el artículo 40.2 letra b) de la Convención de los Derechos del Niño y la
-
-regla número 20.1 de las Reglas de Beijing.
-
 ## 34 Véase el artículo 40.2 letra b) punto ii y vi de la Convención de los Derechos del
+
+**Definición Canónica:** Niño.
+ 35 Véase el artículo 14.3 del Pacto Internacional, el artículo 8.2 letra b) de la Convención Americana y el artículo 6.3 letra a) del Convenio Europeo.
+**Concordancias Legales:** artículo 14.3 del Pacto Internacional; artículo 8.2; artículo 6.3
 
 Niño.
  35 Véase el artículo 14.3 del Pacto Internacional, el artículo 8.2 letra b) de la Convención Americana y el artículo 6.3 letra a) del Convenio Europeo.
@@ -1056,6 +1107,15 @@ tutores) y el establecimiento de exigencias más altas respecto al tipo y
 formato en que se entrega la información.37
 
 ## 2. Derecho a ser escuchado en forma directa. La Convención de los
+
+**Definición Canónica:** Derechos del Niño contempla exigencias fuertes respecto a la participación de los adolescentes en el proceso enfatizando la posibilidad que
+intervengan en forma directa dando su opinión respecto de decisiones
+que lo puedan afectar.38 Lo anterior no se regula con la misma fuerza en
+la legislación internacional general.
+   3. Derecho a la asistencia apropiada. La legislación internacional especial contempla el derecho a una asistencia apropiada39 que, si bien
+es similar al derecho a la asistencia jurídica regulado en la legislación
+internacional general, tiene algunas dimensiones que lo diferenc
+**Concordancias Legales:** artículo 40.2; artículo 12 de la Convención de los Derechos del Niño
 
 Derechos del Niño contempla exigencias fuertes respecto a la participación de los adolescentes en el proceso enfatizando la posibilidad que
 intervengan en forma directa dando su opinión respecto de decisiones
@@ -1077,6 +1137,13 @@ detalle la intervención de los padres o tutores.43
  38 Véase el artículo 12 de la Convención de los Derechos del Niño.
 
 ## 39 Véase los artículos 37 letr d) y 40.2 letra b) puntos ii y iii de la Convención de los
+
+**Definición Canónica:** Derechos del Niño y la regla número 15.1 de las Reglas de Beijing.
+ 40 Véase el artículo 37 letra d) de la Convención de los Derechos del Niño.
+ 41 Véase la regla número 15.1 de las Reglas de Beijing.
+ 42 Véase la regla número 15.1 de las Reglas de Beijing.
+ 43 Véase la regla número 15.2 de las Reglas de Beijing.
+**Concordancias Legales:** artículo 37
 
 Derechos del Niño y la regla número 15.1 de las Reglas de Beijing.
  40 Véase el artículo 37 letra d) de la Convención de los Derechos del Niño.
@@ -1111,8 +1178,12 @@ en contradicción con algunos valores del debido proceso, por lo que
 requiere un análisis por separado. Es necesario advertir que esta contradicción no tiene como consecuencia que estos valores no cumplan una
 función de resguardo del debido proceso.
 
-
 ## 44 Véase el artículo 40.2 letra b) punto iv. de la Convención de los Derechos del
+
+**Definición Canónica:** Niño, el artículo 14.3 letra g) del Pacto Internacional y el artículo 8.2 letra g) de la
+Convención Americana.
+ 45 En este apartado el autor cita la Observación número 10 (2007), la cual se sustituyó por la Observación número 24 (2019), sin embargo, sus disposiciones reconocen los mismos alcances. En particular, ver el párrafo 60.
+**Concordancias Legales:** artículo 14.3; artículo 8.2
 
 Niño, el artículo 14.3 letra g) del Pacto Internacional y el artículo 8.2 letra g) de la
 Convención Americana.
@@ -1141,6 +1212,12 @@ esta puede causar daño al adolescente, y, en particular, su posterior reinserci
   46 Véase las reglas número 6.1, 14.2 y 20 de las Reglas de Beijing.
 
 ## 47 Véase el artículo 16 y 40.2 letra b) punto viii de la Convención de los Derechos
+
+**Definición Canónica:** del Niño y las reglas número 8 y 21 de las Reglas de Beijing.
+  48 Véase el artículo 8.1 de la Convención Americana, el artículo 14.1 del Pacto internacional y el artículo 6.1 del Convenio Europeo.
+  49 En este apartado el autor cita la Observación número 10 (2007), la cual se sustituyó por la Observación número 24 (2019), sin embargo, sus disposiciones reconocen los mismos alcances, en particular véase el párrafo 70. En el mismo sentido,
+regla número 8 de las Reglas de Beijing.
+**Concordancias Legales:** artículo 8.1 de la Convención Americana; artículo 14.1 del Pacto internacional y el artículo 6.1 del Con
 
 del Niño y las reglas número 8 y 21 de las Reglas de Beijing.
   48 Véase el artículo 8.1 de la Convención Americana, el artículo 14.1 del Pacto internacional y el artículo 6.1 del Convenio Europeo.
@@ -1182,6 +1259,10 @@ en particular, el párrafo 67.
 
 ## 53 Véase el artículo 40.4 de la Convención de los Derechos del Niño y las reglas
 
+**Definición Canónica:** número 5 y 17.1 letra a) de las Reglas de Beijing. En este apartado el autor cita la
+Observación número 10 (2007), la que se sustituyó por la Observación número 24
+(2019), sin embargo, sus disposiciones reconocen los mismos alcances.
+
 número 5 y 17.1 letra a) de las Reglas de Beijing. En este apartado el autor cita la
 Observación número 10 (2007), la que se sustituyó por la Observación número 24
 (2019), sin embargo, sus disposiciones reconocen los mismos alcances.
@@ -1217,6 +1298,10 @@ una regla general del sistema.55
 
 ## 55 Véase el artículo 40.3 y 40.4 de la Convención de los Derechos del Niño, la regla
 
+**Definición Canónica:** númerp 6 y 11 de las Reglas de Beijing y la directriz número 57 de las Directrices de
+Riad. También, en este apartado el autor cita la Observación número 10 (2007), la
+cual se sustituyó por la Observación número 24 (2019), sin embargo, sus disposiciones reconocen los mismos alcances, en particular, véase el párrafo 72.
+
 númerp 6 y 11 de las Reglas de Beijing y la directriz número 57 de las Directrices de
 Riad. También, en este apartado el autor cita la Observación número 10 (2007), la
 cual se sustituyó por la Observación número 24 (2019), sin embargo, sus disposiciones reconocen los mismos alcances, en particular, véase el párrafo 72.
@@ -1250,6 +1335,11 @@ debieran utilizar, por lo que esto queda en manos de los Estados partes.
 
 ## 57 Véase el artículo 40.3 letra b) de la Convención de los Derechos del Niño y la
 
+**Definición Canónica:** regla número 11.3 de las Reglas de Beijing. También, en este apartado el autor cita la
+Observación número 10 (2007), la que se sustituyó por la Observación número 24
+(2019), sin embargo, sus disposiciones reconocen los mismos alcances
+ 58 En este apartado el autor cita la Observación número 10 (2007), la cual se sustituyó por la Observación número 24 (2019), sin embargo, sus disposiciones reconocen los mismos alcances.
+
 regla número 11.3 de las Reglas de Beijing. También, en este apartado el autor cita la
 Observación número 10 (2007), la que se sustituyó por la Observación número 24
 (2019), sin embargo, sus disposiciones reconocen los mismos alcances
@@ -1257,8 +1347,12 @@ Observación número 10 (2007), la que se sustituyó por la Observación número
 
 Materiales Docentes                                                     Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Aspectos psicosociales de la actividad delictiva
+juvenil y la especialización del Sistema de Justicia
+Penal Juvenil
+**Concordancias Legales:** ley 21.527
 
 Aspectos psicosociales de la actividad delictiva
 juvenil y la especialización del Sistema de Justicia
@@ -1415,6 +1509,13 @@ Humanos. Se pueden señalar las siguientes:
 
 ## 1. Normalidad, carácter episódico y remisión espontánea de la mayor
 
+**Definición Canónica:** parte de la criminalidad cometida por niños y adolescentes. Es una afirmación común, que cuenta con evidencias empíricas en diversos contextos geográficos. Ciertas conductas delictivas, predominantemente leves,
+durante la niñez y adolescencia es un fenómeno normal, relativamente
+ubicuo, es decir, que se da en todos los grupos sociales, sin atención a
+diferencias de clase o etnicidad. De acuerdo con ello, la mayor parte de
+la criminalidad de los adolescentes no es el primer escalón de una carrera criminal, sino que, tras alcanzar una edad peak, tiende a desaparecer
+espontáneamente una vez que e
+
 parte de la criminalidad cometida por niños y adolescentes. Es una afirmación común, que cuenta con evidencias empíricas en diversos contextos geográficos. Ciertas conductas delictivas, predominantemente leves,
 durante la niñez y adolescencia es un fenómeno normal, relativamente
 ubicuo, es decir, que se da en todos los grupos sociales, sin atención a
@@ -1443,6 +1544,12 @@ en la mayoría de las personas cuando llegan a la edad adulta».2
 
 ## 2. Riesgo criminógeno de la reacción penal formal frente a las primeras
 
+**Definición Canónica:** manifestaciones de criminalidad adolescente. Otra importante afirmación empírica formulada desde la criminología es que la reacción penal formal frente a las primeras manifestaciones de criminalidad de los
+adolescentes está asociada al riesgo de reproducir la criminalidad, por el
+efecto estigmatizante que tendría la identificación de una persona joven
+con el rol social de delincuente.
+   Esta afirmación ha sido anticipada por la teoría criminológica del interaccionismo simbólico, que explica el comportamiento criminal persistente de un sujeto (adolescente o adulto) a partir de su etiquetamient
+
 manifestaciones de criminalidad adolescente. Otra importante afirmación empírica formulada desde la criminología es que la reacción penal formal frente a las primeras manifestaciones de criminalidad de los
 adolescentes está asociada al riesgo de reproducir la criminalidad, por el
 efecto estigmatizante que tendría la identificación de una persona joven
@@ -1451,8 +1558,9 @@ con el rol social de delincuente.
 social, en particular del sistema penal (Siegel, 2010, citado en Couso,
 2012: 282), y cuenta, también en años relativamente recientes, con algunos indicios empíricos, más bien aislados, tanto respecto de adolescentes como de adultos.
 
-
 ## 2 Directrices de Riad, Asamblea General de las Naciones Unidas, 1990, principio
+
+**Definición Canónica:** quinto letra e).
 
 quinto letra e).
 
@@ -1481,17 +1589,9 @@ con los derechos humanos y las libertades fundamentales, con miras a
 contrarrestar los efectos perjudiciales de todo tipo de detención».5
   4. Mayor eficacia preventivo-especial de intervenciones especializadas,
 
-
-## 3 Directrices de Riad, Asamblea General de las Naciones Unidas, 1990, principio
-
-quinto letra f).
-
-## 4 Reglas mínimas de las Naciones Unidas para la administración de la justicia de
-
-menores. Reglas de Beijing, Asamblea General de las Naciones Unidas, 1985, regla
-número 19.
-
 ## 5 Reglas de las Naciones Unidas para la protección de los menores privados de
+
+**Definición Canónica:** libertad, Reglas de La Habana, 1990, regla número 3.
 
 libertad, Reglas de La Habana, 1990, regla número 3.
 
@@ -1526,9 +1626,16 @@ contribuyen a su inserción social— mayor que el que se logra cuando
 tales medidas son ordenadas por el tribunal como parte de la sentencia
 (Couso, 2012: 285).
 
-
 ## 1.2. Especialización
 
+**Definición Canónica:** En relación con la especialización, el propio Mensaje de la Ley 20.084
+sobre Responsabilidad Penal Adolescente, señala que el sistema de responsabilidad penal de adolescentes se basa en una «responsabilidad especial adecuada a su carácter de sujeto en desarrollo» que fundamenta
+el establecimiento de «un sistema de justicia especializado en todas las
+fases del procedimiento y durante el control de ejecución de la sanción»
+y no simplemente un conjunto de modificaciones puntuales al sistema
+penal, aplicables a los adolescentes (Couso, 2012: 267).
+   La especialidad es una consecuencia necesaria d
+**Concordancias Legales:** Artículo 5; Artículo 28; artículos 29 bis; Artículo 29 bis; Artículo 29 ter; Ley 20.084; Ley 21.527; constitucion
 
 En relación con la especialización, el propio Mensaje de la Ley 20.084
 sobre Responsabilidad Penal Adolescente, señala que el sistema de responsabilidad penal de adolescentes se basa en una «responsabilidad especial adecuada a su carácter de sujeto en desarrollo» que fundamenta
@@ -1768,6 +1875,14 @@ específicas de violencia o discriminación, tales como: aislamiento por
 
 ## parte de compañeros y compañeras de la escuela, en su propia familia
 
+**Definición Canónica:** y/o en la comunidad, bullying escolar, intimidación y violencia física y
+sexual e incluso terapias o violaciones correctivas que intentan modificar su identidad de género y/u orientación sexual (Unicef, 2014: 3). Un
+caso especialmente grave es el de los niños, niñas y adolescentes trans,
+pues la evidencia señala que las discriminaciones y violencias sufridas
+pueden llevar a abandonar la escolaridad y, dada la imposibilidad de encontrar un trabajo formal, existe alto riesgo de que terminen ejerciendo
+la prostitución (Oberlin, 2019). Cabe considerar, además, que los niños,
+niñas y adolescentes r
+
 y/o en la comunidad, bullying escolar, intimidación y violencia física y
 sexual e incluso terapias o violaciones correctivas que intentan modificar su identidad de género y/u orientación sexual (Unicef, 2014: 3). Un
 caso especialmente grave es el de los niños, niñas y adolescentes trans,
@@ -1842,8 +1957,10 @@ también se ven en riesgo de ser criminalizadas por cometer abortos. En
 consecuencia, la regulación o criminalización de estas conductas influirá directamente en la criminalización y marginalización de adolescentes
 mujeres y disidentes, siendo necesaria la perspectiva de género e interseccional, no solo en la interpretación y aplicación de las normas exis-
 
-
 ## 6 La doctora Elena Larrauri (2002) realiza un análisis del derecho penal en este
+
+**Definición Canónica:** sentido.
+**Concordancias Legales:** artículo 5; artículo 2; artículo 1; artículo 7; artículo 8; artículo 9; Ley 20.507; Ley 19.968; Constitución Política
 
 sentido.
 
@@ -1988,8 +2105,16 @@ grupos, aun restringiendo la facultad del Servicio Nacional de la Mujer para rep
 mujeres mayores de 18 años. En esta misma línea, otras leyes destinadas
 a proteger a niños, niñas y adolescentes víctimas de maltratos y violencias,7 que establecen sistemas de protección social,8 o que promueven
 
-
 ## 7 Así ocurre en la Ley 19.617, de 12 de julio 1999, que modifica el Código Penal, el
+
+**Definición Canónica:** Código de Procedimiento Penal y otros cuerpos legales en materia relativas al delito
+de violación; Ley 20.207, que establece que la prescripción en delitos sexuales contra
+menores se computará desde el día en que estos alcancen la mayoría de edad; Ley
+20.526 que sanciona el acoso sexual de menores, la pornografía infantil y la posesión
+de material pornográfico infantil; Ley 20.594 que crea inhabilidades para condenados por delitos sexuales contra menores; Ley 21.013 que tipifica un nuevo delito
+de maltrato y aumenta la protección de personas en situación especial; Ley 21.057,
+que regula entrev
+**Concordancias Legales:** Ley 20.207; Ley 20.526; Ley 20.594; Ley 21.013; Ley 21.057; Ley 21.160; Ley 20.032; Ley 21.140; Ley 21.067; Ley 21.090; Ley 20.084; Ley 21.030; Ley 20.422; Ley 21.120
 
 Código de Procedimiento Penal y otros cuerpos legales en materia relativas al delito
 de violación; Ley 20.207, que establece que la prescripción en delitos sexuales contra
@@ -2035,6 +2160,12 @@ propia identidad de género.
 
 ## 10 En la Ley 21.090 sólo se utiliza una vez el término «niñas» en una norma que
 
+**Definición Canónica:** modifica la ley N° 20.379, que crea el Sistema Intersectorial de Protección Social
+e institucionaliza el Subsistema de Protección Integral a la Infancia «Chile Crece
+Contigo», pero se utiliza en la frase «niños y niñas» y no como una consideración
+de género.
+**Concordancias Legales:** ley N° 20.379
+
 modifica la ley N° 20.379, que crea el Sistema Intersectorial de Protección Social
 e institucionaliza el Subsistema de Protección Integral a la Infancia «Chile Crece
 Contigo», pero se utiliza en la frase «niños y niñas» y no como una consideración
@@ -2064,8 +2195,13 @@ delitos», 1.162 a lesiones, 628 a delitos contra la libertad e intimidad de
 las personas, 567 a hurtos, 440 a faltas, 388 a delitos económicos y tributarios, 297 a otros delitos contra la propiedad (Fiscalía, 2021).
    De acuerdo con estadísticas de Sename,11
 
-
 ## 11 Corresponde a la cantidad de adolescentes y jóvenes que ingresaron durante el
+
+**Definición Canónica:** 2020 a una medida cautelar o sanción dictaminada por tribunales de justicia. Si un
+joven o adolescente ingresa a más de una sanción o medida durante el año contemplado, se seleccionará solo uno de los ingresos de acuerdo a criterios de priorización
+basados en la gravedad y temporalidad de la sanción o medida. Por tanto, se prioriza
+la privación de libertad por sobre el medio libre y las sanciones por sobre las medidas; en el caso que ingresos correspondan al mismo programa se selecciona aquel
+ingreso más reciente.
 
 2020 a una medida cautelar o sanción dictaminada por tribunales de justicia. Si un
 joven o adolescente ingresa a más de una sanción o medida durante el año contemplado, se seleccionará solo uno de los ingresos de acuerdo a criterios de priorización
@@ -2087,6 +2223,15 @@ de estupefacientes y sustancias sicotrópicas (Sename, 2020: 327). Por su
 
 ## parte, las atenciones12 en contexto de medidas cautelares ambulatorias
 
+**Definición Canónica:** del año 2020 fueron 3.199, de las cuales 409 corresponden a mujeres,
+es decir, un 12,8%, versus 2.790 hombres, correspondiente a un 87,2%
+(Sename, 2020: 316). Respecto a los delitos identificados como causal de
+ingreso, son relevantes los siguientes: delitos contra la propiedad, con
+275 mujeres y 1.827 hombres (cifra que en su conjunto representa un
+65,7% de ingresos al sistema, con un 8,6% del total para las mujeres);
+delitos contra el orden y seguridad públicas, con 50 mujeres y 309 hombres (cifra que en su conjunto representa un 11,2% de ingresos al sistema,
+con un 1,6% del total para las m
+
 del año 2020 fueron 3.199, de las cuales 409 corresponden a mujeres,
 es decir, un 12,8%, versus 2.790 hombres, correspondiente a un 87,2%
 (Sename, 2020: 316). Respecto a los delitos identificados como causal de
@@ -2105,8 +2250,11 @@ total para las mujeres (Sename, 2020: 317).
 masculino pues este grupo representa el 91,4% de los usuarios ingresados, mientras que las adolescentes y jóvenes mujeres concentran el
 8,6% total de ingresos (Sename, 2020: 330). Las causales de ingreso co-
 
-
 ## 12 Corresponde a la cantidad de proyectos del área de Justicia Juvenil en los que se
+
+**Definición Canónica:** encuentra vigente un adolescente, joven o adulto en un periodo de tiempo determinado. Esto implica que un adolescente, joven o adulto puede estar vigente en más de
+un proyecto dentro del periodo comprendido entre el 1 de enero y 31 de diciembre
+de 2020 (Sename, 2020: 15).
 
 encuentra vigente un adolescente, joven o adulto en un periodo de tiempo determinado. Esto implica que un adolescente, joven o adulto puede estar vigente en más de
 un proyecto dentro del periodo comprendido entre el 1 de enero y 31 de diciembre
@@ -2197,8 +2345,16 @@ Hemisférico sobre Violencia Sexual y Embarazo Infantil en los Estados
 
 ## parte de la Convención de Belém do Pará
 
+**Definición Canónica:** Que busca proveer información sobre los vínculos entre la violencia
+      sexual, el embarazo infantil y las múltiples violaciones de derechos hu-
+      manos que estos implican, así como proporcionar recomendaciones in-
+      tegrales a los Estados parte orientadas a que mejoren la efectividad de
+      las medidas adoptadas en el cumplimiento de la garantía del derecho de
+      las niñas a vivir una vida libre de violencia. El informe aborda las prin-
+      cipales consecuencias de la violencia sexual —el embarazo infantil, la
+      mortalidad materna y los matrimonios o uniones forzados— y d
 
-       Que busca proveer información sobre los vínculos entre la violencia
+Que busca proveer información sobre los vínculos entre la violencia
       sexual, el embarazo infantil y las múltiples violaciones de derechos hu-
       manos que estos implican, así como proporcionar recomendaciones in-
       tegrales a los Estados parte orientadas a que mejoren la efectividad de
@@ -2241,8 +2397,11 @@ el encarcelamiento de ambos géneros se mantiene más o menos estable
 hasta el año 2005, fecha en que ambos comienzan a aumentar, llegando
 cinco años después a un aumento de 111,1% en el encarcelamiento femenino, mientras que el masculino solo alcanza un aumento del 64%.
 
-
 ## 13 Valentina Paredes, «Perseguidas por abortar: 366 mujeres han sido imputadas
+
+**Definición Canónica:** por aborto sin causales, 39 son menores de edad», El Mostrador, 09 de diciembre de
+2021, disponible en https://bit.ly/3E5TodJ.
+**Concordancias Legales:** Ley 20.000
 
 por aborto sin causales, 39 son menores de edad», El Mostrador, 09 de diciembre de
 2021, disponible en https://bit.ly/3E5TodJ.
@@ -2295,6 +2454,15 @@ meses de su ingreso al centro de detención (Reyes, 2014: 10). Por otra
 
 ## parte, el estudio de Reyes indica que el 39% de las parejas de las mujeres
 
+**Definición Canónica:** son consumidores de drogas. Adicionalmente, debe considerarse que el
+motivo para delinquir señalado en el estudio indica que el 41,2% de las
+mujeres señalan que la segunda motivación para delinquir es la necesidad de consumo y/o drogas. Como señala ese mismo estudio, el ingreso
+al mundo delictual también se debe en gran parte a la deserción escolar,
+que en el caso de mujeres adolescentes es mayor que en los valores (87%
+versus 76,8%). Así, podríamos observar que la condena a adolescentes
+mujeres por delitos de droga responde en gran parte a su contexto de
+vulnerabilidad, en que el Estado y sus
+
 son consumidores de drogas. Adicionalmente, debe considerarse que el
 motivo para delinquir señalado en el estudio indica que el 41,2% de las
 mujeres señalan que la segunda motivación para delinquir es la necesidad de consumo y/o drogas. Como señala ese mismo estudio, el ingreso
@@ -2345,8 +2513,11 @@ La perspectiva de la Fiscalía
 
 Desde el rol de la Fiscalía en el proceso penal, en tanto organismo encargado de dirigir de manera exclusiva la investigación penal y de pro-
 
-
 ## 15 Al respecto, recomendamos leer a Rocío Lorca (2021). «Extrema pobreza y poder
+
+**Definición Canónica:** penal», en Carolina Fernández Blanco y Esteban Pereira Fredes (editores) Derecho y
+Pobreza, Madrid: Marcial Pons, Ediciones Jurídicas y Sociales.
+**Concordancias Legales:** artículo 49; artículo 19 del Reglamento de establecimientos penitenciarios; artículos 92; Ley 21.057; Ley 20.084; constitucion
 
 penal», en Carolina Fernández Blanco y Esteban Pereira Fredes (editores) Derecho y
 Pobreza, Madrid: Marcial Pons, Ediciones Jurídicas y Sociales.
@@ -2503,8 +2674,11 @@ que se encuentra el objetivo de promover la incorporación de perspectiva de gé
 «Cuaderno de buenas prácticas para incorporar perspectiva de género
 en las sentencias» (Arbeláez de Tobón y Ruiz González, 2018).
 
-
 ## 16 Corte Interamericana de Derechos Humanos, caso Atala Riffo y niñas versus
+
+**Definición Canónica:** Chile, 24 febrero 2012 y Corte Interamericana de Derechos Humanos, caso Norin
+Catriman y otros versus Chile, 29 mayo 2014.
+**Concordancias Legales:** Artículo 37
 
 Chile, 24 febrero 2012 y Corte Interamericana de Derechos Humanos, caso Norin
 Catriman y otros versus Chile, 29 mayo 2014.
@@ -2657,8 +2831,11 @@ conciencia del hecho y su gravedad, realice acciones efectivas para reparar el d
 adecuada reintegración y evitar futuras infracciones. Por otro lado, el
 afectado por el delito es restituido en su condición de persona y repara-
 
-
 ## 20 Principios básicos sobre la utilización de programas de justicia restaurativa en
+
+**Definición Canónica:** materia penal, Consejo Económico y Social de las Naciones Unidas (2012: 12).
+ 21 Observación General número 24, Comité de los Derechos del Niño, 2019, párrafo 74.
+**Concordancias Legales:** artículo 6; artículo 27; Ley 20.084
 
 materia penal, Consejo Económico y Social de las Naciones Unidas (2012: 12).
  21 Observación General número 24, Comité de los Derechos del Niño, 2019, párrafo 74.
@@ -2684,8 +2861,12 @@ forma supletoria la normativa del Código Procesal Penal, por lo que
 también rigen respecto de los y las adolescentes las salidas alternativas
 del párrafo 6 del Libro segundo, esto es, la suspensión condicional del
 
-
 ## 22 Esta forma de apreciar la justicia restaurativa no es unánime. Para algunos la
+
+**Definición Canónica:** aplicación de sanciones o de salidas alternativas, por tener lugar en un proceso propiamente judicial no podrían ser considerados dentro de los mecanismos que integran el concepto, otorgándole una visión restringida. Sin embargo, para efectos de
+este trabajo nos parece conveniente mencionarlas, ya que en el ordenamiento chileno se pueden apreciar soluciones restaurativas, tanto en el derecho procesal común
+como en la normativa de la Ley 20.084 sobre la justicia penal juvenil.
+**Concordancias Legales:** Ley 20.084
 
 aplicación de sanciones o de salidas alternativas, por tener lugar en un proceso propiamente judicial no podrían ser considerados dentro de los mecanismos que integran el concepto, otorgándole una visión restringida. Sin embargo, para efectos de
 este trabajo nos parece conveniente mencionarlas, ya que en el ordenamiento chileno se pueden apreciar soluciones restaurativas, tanto en el derecho procesal común
@@ -2696,6 +2877,14 @@ que se pueden imponer para la aprobación de la suspensión condicional
 del procedimiento se encuentra la de pagar una determinada suma a
 
 ## título de indemnización de perjuicios a favor de la víctima (artículo 238
+
+**Definición Canónica:** letra e) que claramente tiene una naturaleza restaurativa. Los acuerdos
+reparatorios, en tanto, son indudablemente un mecanismo propio de la
+justicia restaurativa incorporado en la legislación procesal penal.
+   Una manifestación concreta de justicia restaurativa en nuestro país es
+la de los Tribunales de Tratamiento de Drogas. Estas instancias se establecen en Chile desde el año 2004 para adultos y desde 2008 para adolescentes. Desde el año 2021 se establecen convenios de participación
+intersectorial con participación del Ministerio de Justicia, Poder Judicial, Ministerio Público, Defensoría 
+**Concordancias Legales:** artículo 35 bis; artículo 238 del Código Procesal Penal; artículo 239 del Código Procesal Penal. Si en el procedi; artículo 37 bis; artículo 9 de la Ley 20.066 en cuyo caso tendrá lugar lo dispu; artículo 23; Artículo 35 ter; artículos 4; artículo 2 de la Ley 20.609 que establece medidas contra; Artículo 35; Ley 21.527; Ley 20.084; Ley 20.066; Ley 20.000; Ley 20.609
 
 letra e) que claramente tiene una naturaleza restaurativa. Los acuerdos
 reparatorios, en tanto, son indudablemente un mecanismo propio de la
@@ -2798,6 +2987,10 @@ promover el proceso de mediación.
 
 ## 25 Se debiera entender que se refiere al sobreseimiento definitivo, regulado en el
 
+**Definición Canónica:** artículo 250 del Código Procesal Penal, que tiene aplicación en el procedimiento
+aplicable a los adolescentes.
+**Concordancias Legales:** artículo 250 del Código Procesal Penal; Artículo 35; artículo 335 del Código Procesal Penal. Artículo; Ley 19.886
+
 artículo 250 del Código Procesal Penal, que tiene aplicación en el procedimiento
 aplicable a los adolescentes.
 
@@ -2833,21 +3026,11 @@ aplicable a los adolescentes.
       sobre el desarrollo del proceso técnico de la mediación, sin que dicha
       periodicidad pueda exceder de los 3 meses.
 
-
-## 26 No queda claro si la entidad sustituye a la víctima, la representa o si se permite
-
-la comparecencia conjunta.
-
-## 27 Debiese ser considerada como una atenuante vinculada con la colaboración, lo
-
-que en todo caso, no queda tan claro que vaya a operar de ese modo.
-
-## 28 Parece claro que la intención sería considerar el trámite de la mediación en favor
-
-de los intereses procesales del imputado.
-
-
 ## Capítulo 3
+
+**Definición Canónica:** La Ley 20.084 sobre Responsabilidad Penal
+Adolescente
+**Concordancias Legales:** artículo 40.3; artículo 40.4 de la Conven; Ley 20.084; constitucion
 
 La Ley 20.084 sobre Responsabilidad Penal
 Adolescente
@@ -2938,8 +3121,13 @@ en particular debiesen ser: 1) una respuesta cualitativamente diferente
 a la que se les aplica a los adultos a partir de infracciones equivalentes;
 2) una respuesta cualitativamente menos aflictiva o gravosa en relación
 
-
 ## 1 Artículo 40.3: Los Estados parte tomarán las medidas apropiadas para promover
+
+**Definición Canónica:** el establecimiento de leyes, procedimientos, autoridades e instituciones específicos
+para los niños de quienes se alegue que han infringido las leyes penales o a quienes
+se acuse o declara culpables de haber infringido esas leyes, y en particular: b) Siempre que sea apropiado y deseable, la adopción de medidas para tratar a esos niños
+sin recurrir a procedimientos judiciales, en el entendimiento de que se respetarán
+plenamente los derechos humanos y las garantías legales.
 
 el establecimiento de leyes, procedimientos, autoridades e instituciones específicos
 para los niños de quienes se alegue que han infringido las leyes penales o a quienes
@@ -2948,6 +3136,12 @@ sin recurrir a procedimientos judiciales, en el entendimiento de que se respetar
 plenamente los derechos humanos y las garantías legales.
 
 ## 2 Art. 40.4. Se dispondrán de diversas medidas, tales como el cuidado, las órdenes
+
+**Definición Canónica:** de orientación y supervisión, el asesoramiento, la libertad vigilada, la colocación en
+hogares de guarda, los programas de enseñanza y formación profesional, así como
+otras posibilidades alternativas a la internación en instituciones, para asegurar que
+los niños sean tratados de manera apropiada para su bienestar y que guarde proporción tanto con sus circunstancias como con la infracción.
+**Concordancias Legales:** artículos 1; artículo 1; artículo 3; artículo 2; artículo 4; artículo 5; artículo 27; artículo 56; artículo 58; artículo 68; artículo 8; artículos 102; artículos 494; artículo 477; artículo 494; artículo 134; artículo 3 de la Ley 20.084 establece la edad de la responsabi; artículos 189; artículo 40.3 de la Convención sobre los Derechos del Niño. Este; artículo 3 de la Ley de Responsabilidad Penal Adolescente acla; artículo 25 ter; artículo 4 de la Ley de Responsabilidad Penal Adolescente; Ley 20.084; Ley 19.968; Ley 20.000; ley N° 21.527; Constitución Política
 
 de orientación y supervisión, el asesoramiento, la libertad vigilada, la colocación en
 hogares de guarda, los programas de enseñanza y formación profesional, así como
@@ -3184,6 +3378,9 @@ Materiales Docentes                                                         Cap�
 
 ## parte, contiene una disposición relativa a los delitos sexuales cometidos
 
+**Definición Canónica:** por adolescentes. Su tenor es el siguiente:
+**Concordancias Legales:** Artículo 4; artículos 362; artículos 361; artículo 362; artículo 6; artículo 5 de la Ley de Responsabilidad Penal Adolescente esta; artículo 5; artículos 141; artículos 150; artículo 411; artículo 433; ley N° 21.527; ley 20.082
+
 por adolescentes. Su tenor es el siguiente:
 
        Artículo 4. Regla especial para delitos sexuales. No podrá procederse
@@ -3215,8 +3412,10 @@ Juvenil e introduce modificaciones a la ley 20.082, dispone:
       en relación con la violación; todos del Código Penal, cuando al momento
       de la perpetración del hecho la víctima fuere menor de edad, el plazo de
 
-
 ## 4 Para los detalles de la discusión parlamentaria en relación con este artículo, se
+
+**Definición Canónica:** puede consultar el texto de Carrasco, «Los delitos sexuales como objeto de regulación de la Ley de Responsabilidad Penal Adolescente (el artículo 4° y sus problemas)», disponible en https://bit.ly/3DKJsoB.
+**Concordancias Legales:** artículo 4; artículos 27; artículo 27 de la Ley 20.084 establece que la investigación; artículo 1; artículo 149 del Código Procesal Penal; artículo 27; artículo 27 de la Ley de Responsabilidad Penal Adolescente; Artículo 406 del Código Procesal Penal; artículo 27 bis; artículo 28; artículo 28 de la Ley 20.084 dispone que; artículo 185 del Código Procesal Penal. Es decir; artículo 31; artículos 129; artículo 132; artículos 17 de la Ley 16.618 y 37; artículos 93; artículo 124 del Código Procesal Penal; artículo 26; artículo 31 de la Ley de Responsabilidad Penal Adolescente; artículo 139 del Código Procesal Penal a propósito de la legis; artículo 32; artículo 32 de la Ley de Responsabilidad Penal Adolescente; artículo 37 bis; artículo 24; artículo 35 bis; artículo 335 del Código Procesal Penal; Ley 20.084; ley N° 21.527; ley 20.082; Ley 20.931; Ley 21.527; Ley 16.618
 
 puede consultar el texto de Carrasco, «Los delitos sexuales como objeto de regulación de la Ley de Responsabilidad Penal Adolescente (el artículo 4° y sus problemas)», disponible en https://bit.ly/3DKJsoB.
 
@@ -3429,7 +3628,17 @@ de todo imputado que permaneciere más de quince días sujeto a internación pro
 
 ## parte. B) En aquellas en que se aprueban las condiciones de una sus-
 
-      pensión condicional del procedimiento. c) En aquellas destinadas a la
+**Definición Canónica:** pensión condicional del procedimiento. c) En aquellas destinadas a la
+      determinación de la pena, una vez evacuado el veredicto condenatorio.
+      En los casos de que tratan las letras a. y b. del inciso precedente el juez
+      que hubiere intervenido en la respectiva audiencia quedará inhabilitado
+      para resolver en el futuro sobre la absolución o condena del imputado.
+      La infracción de la obligación de reserva se sancionará conforme a
+      las reglas generales, produciendo además la nulidad de todas las ac-
+      tuaciones en la que se produjere, incluyendo el juicio oral, en
+**Concordancias Legales:** artículo 37 bis; artículo 32; Artículo 32 bis; artículo 155 del Código Procesal Penal; Artículo 32 ter; artículo 6; artículo 25 bis; artículo 15 de la Ley 19.327; artículo 33 de la Ley de Responsabilidad Penal Adolescente cont; artículo 33; artículo 6.8; ley 21.527; Ley 19.327; ley N° 21.527
+
+pensión condicional del procedimiento. c) En aquellas destinadas a la
       determinación de la pena, una vez evacuado el veredicto condenatorio.
       En los casos de que tratan las letras a. y b. del inciso precedente el juez
       que hubiere intervenido en la respectiva audiencia quedará inhabilitado
@@ -3502,12 +3711,16 @@ Juvenil incorporó dos incisos nuevos al artículo 33, del siguiente tenor:
 cautelar de adolescentes, no se ha producido a nivel jurisprudencial
 una doctrina clara de los tribunales superiores que convierta a la in-
 
-
-## 6 Esta norma se encuentra en consonancia con la del artículo 9 de la Ley 20.066, la
-
-que hace extensibles las medidas indicadas en ese artículo a la posibilidad de imponerlas como medidas cautelares durante el curso del procedimiento.
-
 ## 7 Esta norma se encuentra en consonancia con la del artículo 9° de la Ley N°
+
+**Definición Canónica:** 20.066, la que hace extensibles las medidas indicadas en ese artículo a la posibilidad
+de imponerlas como medidas cautelares durante el curso del
+ 8 procedimiento.
+ Propone limitar la posibilidad de imputar los días en cumplimiento de la medida
+cautelar de arresto domiciliario del artículo 155 letra a) del Código Procesal Penal
+a las sanciones de adolescentes de las letras b) a d) del artículo 6 de la Ley de Responsabilidad Penal Adolescente excluyendo, por tanto, a la internación en régimen
+cerrado con programa de reinserción social.
+**Concordancias Legales:** artículo 155; artículo 6 de la Ley de Responsabilidad Penal Adolescente excl
 
 20.066, la que hace extensibles las medidas indicadas en ese artículo a la posibilidad
 de imponerlas como medidas cautelares durante el curso del
@@ -3518,6 +3731,9 @@ a las sanciones de adolescentes de las letras b) a d) del artículo 6 de la Ley 
 cerrado con programa de reinserción social.
 
 ## 9 Esta norma parece referirse a una forma de determinar la pena adolescente más
+
+**Definición Canónica:** que decir relación con las medidas cautelares.
+**Concordancias Legales:** artículo 35 de la Ley de Responsabilidad Penal Adolescente se r; artículo 170 del Código Procesal Penal; artículo 145 del Código Procesal Penal. En la Ley de Responsab; artículo 38
 
 que decir relación con las medidas cautelares.
 
@@ -3544,8 +3760,13 @@ expresa, sino más bien una referencia de carácter general a partir de la
 regulación de plazos más breves de la tramitación del procedimiento en
 el artículo 38 de la misma Ley al disponer que «Transcurrido el plazo
 
-
 ## 10 Véase los fallos en causa rol 203-2009 de la Corte de Apelaciones de Santiago de
+
+**Definición Canónica:** 20 de febrero de 2009; rol 203-2009 de la Corte de Apelaciones de Santiago de 20 de
+febrero de 2009; rol 399-2009 de la Corte de Apelaciones de San Miguel; rol 31912007 de la Corte Suprema de 27 de junio de 2007, entre otros que menciona el autor.
+ 11 Véase Comité de Derechos del Niño, Observación General número 10 (2007),
+párrafo 80.
+**Concordancias Legales:** artículo 39; artículo 48; artículos 44 bis; Artículo 44 bis; Artículo 48 bis; artículo 4 del Decreto con Fuerza de Ley número 2; artículos 93; artículo 31 de la Ley; artículo 31; artículo 36; ley 21.527; Ley 20.370
 
 20 de febrero de 2009; rol 203-2009 de la Corte de Apelaciones de Santiago de 20 de
 febrero de 2009; rol 399-2009 de la Corte de Apelaciones de San Miguel; rol 31912007 de la Corte Suprema de 27 de junio de 2007, entre otros que menciona el autor.
@@ -3641,8 +3862,14 @@ notificación que debe hacerse a los padres del adolescente infractor, lo
 que tiene por función promover el derecho a una defensa adecuada.
    En relación con la cesura o división del debate y el establecimiento
 
-
 ## 12 Véase por ejemplo audiencias RIT 28-2009; 53-2009; 81-2009; y, 83-2009, todas
+
+**Definición Canónica:** del 14.º Juzgado de Garantía de Santiago realizadas el día 5 de enero de 2009. En
+materia de suspensión condicional del procedimiento véase como ejemplos audiencias: RIT 209-2009 del 9.º Juzgado de Garantía de Santiago de 8 de enero de 2009;
+RIT 492-2009 del 4.º Juzgado de Garantía de Santiago de 13 de enero de 2009; RIT
+303- 2009 del 13.º Juzgado de Garantía de Santiago de 13 de enero de 2009; y, RIT
+496-2009 del 15 de enero de 2009. En Duce (2010).
+ 13 Véase Comité de Derechos del Niño, Observación General número 12 «El Derecho del Niño a Ser Escuchado», Julio de 2009.
 
 del 14.º Juzgado de Garantía de Santiago realizadas el día 5 de enero de 2009. En
 materia de suspensión condicional del procedimiento véase como ejemplos audiencias: RIT 209-2009 del 9.º Juzgado de Garantía de Santiago de 8 de enero de 2009;
@@ -3652,6 +3879,9 @@ RIT 492-2009 del 4.º Juzgado de Garantía de Santiago de 13 de enero de 2009; R
  13 Véase Comité de Derechos del Niño, Observación General número 12 «El Derecho del Niño a Ser Escuchado», Julio de 2009.
 
 ## 14 Antecedentes generales sobre esta unidad pueden verse en Defensoría Penal
+
+**Definición Canónica:** Pública, Memoria Anual 2008 (2009: 55-67.)
+**Concordancias Legales:** artículo 40 de la Ley 20.084 regula la materia; artículo 343 del Código Procesal Penal para adultos; Ley 20.084
 
 Pública, Memoria Anual 2008 (2009: 55-67.)
 
@@ -3665,8 +3895,11 @@ condena, y agregando que en ella el tribunal podría requerir la opinión
 de peritos. Con ello, la Ley de Responsabilidad Penal Adolescente sigue
 la regla que rige (desde el año 2005) en el artículo 343 del Código Procesal Penal para adultos.
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Sistema de sanciones, determinación
+y ejecución en la Ley 20.084
+**Concordancias Legales:** artículo 6; artículo 6 de la Ley consagra las siguientes sanciones aplicab; artículo 9 de la Ley 20.066 que establece la ley de violencia; artículo 16 de la Ley 19.327; Ley 20.084; ley N° 21.527; Ley 20.066; Ley 19.327
 
 Sistema de sanciones, determinación
 y ejecución en la Ley 20.084
@@ -3705,6 +3938,11 @@ la normativa anterior, se pueden enumerar así:
 
 ## 1. Se sustituyó la sanción de internación en régimen semicerrado con
 
+**Definición Canónica:** programa de reinserción social por la de libertad asistida especial con
+reclusión parcial. Al respecto, en el Mensaje de la Ley 21.527 que crea el
+Nuevo Servicio se señala que:
+**Concordancias Legales:** artículo 6; artículo 9 de la Ley 20.066 de violencia intrafamiliar y a la; artículo 16 de la Ley de violencia en los estadios 19.327; artículo 40.4; Ley 21.527; Ley 20.066; Ley 20.084; constitucion
+
 programa de reinserción social por la de libertad asistida especial con
 reclusión parcial. Al respecto, en el Mensaje de la Ley 21.527 que crea el
 Nuevo Servicio se señala que:
@@ -3736,8 +3974,12 @@ el mandato de la Convención de Derechos del Niño que en el artículo
 40.4 en orden a disponer de diversas medidas, «tales como el cuidado,
 las órdenes de orientación y supervisión, el asesoramiento, la libertad
 
-
 ## 1 Proyecto de Ley, iniciado en mensaje de la presidenta de la República, que crea el
+
+**Definición Canónica:** Servicio Nacional de Reinserción Social Juvenil e introduce modificaciones a la Ley
+20.084, sobre responsabilidad penal de adolescentes, y a otras normas que indica,
+Mensaje 16.365, Boletín número 11.174-07, página 12.
+**Concordancias Legales:** artículo 6; artículo 7 de la Ley de Responsabilidad Penal Adolescente; artículos 8; artículo 8 de la Ley; Artículo 8; artículo 10 de la Ley de Responsabilidad Penal Adolescente de l; Artículo 10; artículo 11 de la Ley de Responsabilidad Penal Adolescente; Artículo 11; Ley 20.084; ley 21.527; Ley 21527
 
 Servicio Nacional de Reinserción Social Juvenil e introduce modificaciones a la Ley
 20.084, sobre responsabilidad penal de adolescentes, y a otras normas que indica,
@@ -3851,8 +4093,11 @@ Penal Adolescente, la cual se ha mantenido sin modificación por la nueva ley 21
       o en beneficio de personas en situación de precariedad. La prestación
       de servicios en beneficio de la comunidad no podrá exceder en ningún
 
-
 ## 2 Como se ha indicado más arriba, el Proyecto de Ley planteaba la limitación en la
+
+**Definición Canónica:** aplicación tanto de la multa como de la amonestación, pero la primera no fue aprobada por el Senado al cabo del primer trámite constitucional, ya que en esa instancia
+se optó por eliminar la sanción de la multa.
+**Concordancias Legales:** artículo 12 de la Ley regula la sanción de prohibición de condu; Artículo 12; artículo 52; artículo 13; artículo 14; artículo 16; artículo 20; artículo 17 de la Ley de Responsabilidad Penal Adolescente se r; Artículo 17; artículo 18; artículos 20; artículo 20 de la Ley de Responsabilidad Penal Adolescente; artículo 20 de la Ley de Responsabilidad Penal Adolescente a qu; artículo 6 de la Ley de Responsabilidad Penal Adolescente. En; artículo 23; artículos 21; artículo 18 de la Ley. Concluida esta operación; artículo 24; artículo 21 de la Ley de Responsabilidad Penal Adolescente; Artículo 21; artículos 50; artículo 69; artículo 351 del Código Procesal Penal. Esta norma fue modi; artículo 351 del Código Procesal Penal; artículo 449; artículo 450; artículo 72; artículo 22; artículo 23 de la Ley de Responsabilidad Penal Adolescente cont; artículo 24 de la Ley de Responsabilidad Penal Adolescente cont; artículo 24 de la Ley de Responsabilidad Penal Adolescente; artículo 63 del Código Penal; Ley 21.527; Ley 20.084; Ley 20.191; constitucion
 
 aplicación tanto de la multa como de la amonestación, pero la primera no fue aprobada por el Senado al cabo del primer trámite constitucional, ya que en esa instancia
 se optó por eliminar la sanción de la multa.
@@ -4252,21 +4497,34 @@ Penal Adolescente, quedando como sigue:
 
 ## 1. La gravedad del delito o delitos cometidos, considerando especial-
 
-      mente: a) El bien jurídico protegido, la modalidad escogida para su afec-
+**Definición Canónica:** mente: a) El bien jurídico protegido, la modalidad escogida para su afec-
       tación y la extensión del daño causado con su comisión. b) El empleo de
       la violencia física o de ensañamiento y la naturaleza y entidad de ellas. c)
       La utilización y clase de armas o la provocación de un riesgo grave para
       la vida o la integridad de las víctimas. d) La calidad en que interviene el
       condenado y el grado de ejecución del hecho.
 
-## 2. Los móviles y demás antecedentes que expliquen la ocurrencia de los
-
-      hechos y el comportamiento delictivo.
-       3. La edad y el desarrollo psicosocial del condenado.
+mente: a) El bien jurídico protegido, la modalidad escogida para su afec-
+      tación y la extensión del daño causado con su comisión. b) El empleo de
+      la violencia física o de ensañamiento y la naturaleza y entidad de ellas. c)
+      La utilización y clase de armas o la provocación de un riesgo grave para
+      la vida o la integridad de las víctimas. d) La calidad en que interviene el
+      condenado y el grado de ejecución del hecho.
 
 ## 4. El comportamiento demostrado con anterioridad y posterioridad a
 
-      la ocurrencia de los hechos, y durante la instrucción del proceso, parti-
+**Definición Canónica:** la ocurrencia de los hechos, y durante la instrucción del proceso, parti-
+      cularmente en lo referido a la comisión previa de otros hechos ilícitos
+      sancionados de conformidad con esta Ley, y lo que fuere relevante para
+      la valoración de los hechos enjuiciados.
+       Tratándose de la reiteración de delitos el tribunal tomará como base
+      la pena que corresponda al hecho más grave debiendo, alternativamen-
+      te, ampliar su extensión o imponer una más aflictiva dentro de las al-
+      ternativas y plazos previstos en la ley, según cual fuere el número de
+      los delitos, 
+**Concordancias Legales:** artículos 9; artículo 21; artículo 24; artículo 69 del Código Penal cumple en el régimen general; artículos 23; artículo 63 del Código Penal; artículo 25 de la Ley de Responsabilidad Penal Adolescente cont; artículo 23; artículo 19; Artículo 25; artículo 20; artículos 25 bis; Artículo 25 bis; artículo 12; artículo 9 de la Ley 20.066; artículo 16; artículo 6; artículo 9; artículo 25 ter; Ley 18.216; Ley 21.527; Ley 20.084; Ley 20.066; Ley 19.327
+
+la ocurrencia de los hechos, y durante la instrucción del proceso, parti-
       cularmente en lo referido a la comisión previa de otros hechos ilícitos
       sancionados de conformidad con esta Ley, y lo que fuere relevante para
       la valoración de los hechos enjuiciados.
@@ -4450,8 +4708,12 @@ siguiente tenor:
       impondrá de conformidad a las reglas previstas en el presente título.
       A los efectos de este artículo y del siguiente se considerará más grave el
 
-
 ## 4 Considerando que el artículo 13 número 1 de la Ley 18.290 establece que para
+
+**Definición Canónica:** obtener licencia no profesional clase B se exige tener 18 años y excepcionalmente se
+podrá otorgar a mayores de 17 años que hayan aprobado un curso de conducción,
+llama la atención que la pena accesoria de prohibición de conducir vehículos motorizados se pueda extender hasta por cuatro años, rango que puede muy probablemente significar el traspaso de la pena de adolescentes a la adultez del infractor.
+**Concordancias Legales:** artículo 25 ter; artículos 21; artículo 3; artículo 25; artículo 6; artículo 52; artículo 164 del Código Orgánico de Tribunales. A di; artículo 25 bis; artículo 23; artículo 164 del Código Orgánico de Tribunales; artículo 24; artículo 55 de la Ley; artículo 26; artículos 9; artículo 50 de la Ley de Responsabilidad Penal Adolescente; artículo 113 del Código Orgánico de Tribunales. La nueva Le; artículo 52 bis; artículo 40 bis; artículo 47 del Reglamento de la Ley de Responsabilidad Penal; artículo 468 del Código Procesal Penal. Di; Artículo 5; Artículo 27; artículo 37; Artículo 30; artículo 12; artículo 44; Ley 21.527; Ley 18.216; Ley 20.084; Ley 19.628
 
 obtener licencia no profesional clase B se exige tener 18 años y excepcionalmente se
 podrá otorgar a mayores de 17 años que hayan aprobado un curso de conducción,
@@ -4766,8 +5028,12 @@ condena en el ámbito familiar, comunitario y laboral.
 que da cuenta la normativa de la Ley de Responsabilidad Penal Adolescente, en especial, el Título III.
    De acuerdo con el artículo 44 de esta Ley, la ejecución de las sanciones privativas de libertad estará dirigida a la reintegración del adoles-
 
-
 ## 7 Véase la Convención sobre los Derechos del Niño (artículo 40.1), las Reglas de
+
+**Definición Canónica:** Beijing (número 17), las Reglas de la Habana (número 12), la Observación General
+número 20 (párrafo 88) y el Pacto Internacional de Derechos Civiles y Políticos
+(artículo 14.4)
+**Concordancias Legales:** artículo 14.4
 
 Beijing (número 17), las Reglas de la Habana (número 12), la Observación General
 número 20 (párrafo 88) y el Pacto Internacional de Derechos Civiles y Políticos
@@ -4806,6 +5072,9 @@ estos, sus avances, costos y calidad. Esto implica la permanente elaboración de
 
 ## 9 Véase la Observación General número 24 (párrafo 95b) y las Reglas de la Habana
 
+**Definición Canónica:** (número 32).
+ 10 Véase las Reglas de la Habana (número 30).
+
 (número 32).
  10 Véase las Reglas de la Habana (número 30).
 
@@ -4839,11 +5108,12 @@ vínculo y comunicación.15
 
  11 Véase las Reglas de la Habana (número 32).
 
-## 12 Véase las Reglas de la Habana (número28, 29), las Reglas de Beijing (número
-
-26.3) y la Observación General número 24 (párrafo 92).
-
 ## 13 Véase las Reglas de Beijing (número 26.4), la Observación General número 17
+
+**Definición Canónica:** (párrafo 52), la Observación General número 24 (párrafo 102), las Reglas de Bangkok (números 2, 6, 7, 19, 20, 31) y el Convenio 169 (artículos 8.1 y 9.2).
+ 14 Véase las Reglas de la Habana (número 30).
+ 15 Véase las Reglas de Beijing (número 19.1).
+**Concordancias Legales:** artículos 8.1
 
 (párrafo 52), la Observación General número 24 (párrafo 102), las Reglas de Bangkok (números 2, 6, 7, 19, 20, 31) y el Convenio 169 (artículos 8.1 y 9.2).
  14 Véase las Reglas de la Habana (número 30).
@@ -4876,11 +5146,12 @@ médica debe cumplir con los mismos criterios generales que se exige a
 la Observación General número 15 (párrafo 27), la Observación General número 24
 (párrafo 112).
 
-## 17 Véase las Reglas de la Habana número 32 y CIDH: Instituto de Reducación del
-
-Menor vs. Paraguay (párrafo 177 a 179).
-
 ## 18 Véase la Observación General número 4 (párrafo 22), la Observación General
+
+**Definición Canónica:** número 20 (párrafo 58 y 60) y la Observación General número 15 (párrafo 5).
+ 19 Véase la Observación General número 15 (párrafo 25).
+ 20 Véase la Observación General número 24 (párrafo 95d) y las Reglas de la Habana (número 54).
+**Concordancias Legales:** artículo 48 bis; Ley 21.527
 
 número 20 (párrafo 58 y 60) y la Observación General número 15 (párrafo 5).
  19 Véase la Observación General número 15 (párrafo 25).
@@ -4919,6 +5190,9 @@ la Convención sobre los Derechos del Niño. Para lo anterior, es necesario que 
 
 ## 23 Véase la Convención sobre los Derechos del Niño (artículo 77 letra a), las Reglas
 
+**Definición Canónica:** de Beijing (número 17.3), las Directrices de Riad (número 21 y 54) y las Reglas de La
+Habana (número 67).
+
 de Beijing (número 17.3), las Directrices de Riad (número 21 y 54) y las Reglas de La
 Habana (número 67).
 
@@ -4950,12 +5224,10 @@ con una remuneración. La formación y la actividad se deben adaptar a
  25 Véase las Reglas de la Habana (número 27).
  26 Véase las Reglas de La Habana (número 38).
 
-## 27 Véase la Observación General número 24 (párrafo 95c), la Observación General
-
-número 17 (párrafo 27), las Reglas de La Habana (número 38) y las Directrices de
-Riad (número 21).
-
 ## 28 Véase la Observación General número 20 (párrafo 70), las Directrices de Riad
+
+**Definición Canónica:** (números 24 y 30) y las Reglas de La Habana (número 40).
+ 29 Véase las Reglas de La Habana (número 42), las Reglas de Beijing (número 26.1).
 
 (números 24 y 30) y las Reglas de La Habana (número 40).
  29 Véase las Reglas de La Habana (número 42), las Reglas de Beijing (número 26.1).
@@ -4988,19 +5260,10 @@ electrónicos con internet.36
  30 Véase la Observación General número 20 (párrafo 74).
  31 Véase las Reglas de La Habana (número 45).
 
-## 32 Véase las Reglas de La Habana (número 46) y la Observación General número
-
-12 (párrafo 117).
-
-## 33 Véase la Observación General número 17 (párrafo 9) y la Observación General
-
-número 12 (párrafo 115).
-
-## 34 Véase la Observación General número 17 (párrafo 42 y 51) y las Reglas de La
-
-Habana (número 47).
-
 ## 35 Véase las Reglas de la Habana (números 59 al 60), las Reglas de Beijing (número
+
+**Definición Canónica:** 26.5) y la Observación General número 24 (párrafos 94 al 95e).
+ 36 Véase la Observación General número 20 (párrafo 47).
 
 26.5) y la Observación General número 24 (párrafos 94 al 95e).
  36 Véase la Observación General número 20 (párrafo 47).
@@ -5071,6 +5334,11 @@ las Reglas de Riad (número 21h y 54), y la Observación General número 24 (pá
 
 ## 43 Véase las Reglas de La Habana (número 64) y la Observación General número
 
+**Definición Canónica:** 24 (párrafo 95 f).
+ 44 Véase las Reglas de La Habana (número 64).
+ 45 Véase la Observación General número 4 (párrafo 12); número 8 (párrafo 11),
+número 13 (párrafo 3i) y número 20 (párrafo 49).
+
 24 (párrafo 95 f).
  44 Véase las Reglas de La Habana (número 64).
  45 Véase la Observación General número 4 (párrafo 12); número 8 (párrafo 11),
@@ -5097,12 +5365,12 @@ proporcionalidad, si se justifica el sacrificio de un interés por la utilizaci�
 expresas en materia de control que marcan la diferencia con el sistema
 de adulto. Estas son:
 
-## 1. Intervención con carácter preventivo. La intervención judicial debe
-
-ir más allá, resolviendo el conflicto jurídico y, en la medida de lo posible,
-ordenar medidas de prevención concretas que protejan al adolescente.46
-
 ## 2. Velar por el interés superior del niño. En toda decisión los tribunales
+
+**Definición Canónica:** deberán respetar el debido proceso, proteger el desarrollo del joven, su
+interés superior y procurar que la intervención sea lo menos perjudicial posible. Los tribunales deben actuar con celeridad y orientar sus
+intervenciones a respuestas que incluyan la mediación, terminar con la
+impunidad de los agresores e indemnizar los daños.47
 
 deberán respetar el debido proceso, proteger el desarrollo del joven, su
 interés superior y procurar que la intervención sea lo menos perjudicial posible. Los tribunales deben actuar con celeridad y orientar sus
@@ -5110,6 +5378,8 @@ intervenciones a respuestas que incluyan la mediación, terminar con la
 impunidad de los agresores e indemnizar los daños.47
 
 ## 3. Calificar los tratos crueles, inhumanos o degradantes considerando
+
+**Definición Canónica:** las características del menor. En el análisis, se debe considerar necesariamente la especial vulnerabilidad a la que son susceptibles niños, niñas y
 
 las características del menor. En el análisis, se debe considerar necesariamente la especial vulnerabilidad a la que son susceptibles niños, niñas y
 
@@ -5122,6 +5392,18 @@ adolescentes dada sus particulares características, debiendo ser tratados
 con tacto y sensibilidad.48
 
 ## 4. Revisión periódica de la privación de la libertad para examinar la
+
+**Definición Canónica:** sustitución de la pena por otra de menor medida. El carácter excepcional
+de esta medida producto de los efectos negativos que el encierro genera
+en los adolescentes obliga a realizar revisiones periódicas de la sanción
+y a evaluar la conveniencia de sustituirla por otra menos intensa y de
+medio libre.49
+   En esta materia, la Ley 21.527 que crea el Nuevo Servicio refacciona
+las disposiciones relativas a la sustitución y la remisión de las sanciones
+penales adolescentes.
+   Respecto de la sustitución de sanciones, se le agregan dos incisos al
+artículo 53 de la Ley de Responsabilidad Penal Adole
+**Concordancias Legales:** artículo 53 de la Ley de Responsabilidad Penal Adolescente; Artículo 53; artículo 6; artículo 21 de la Ley de Responsabilidad Penal Adolescente; artículo 55 de la Ley de Responsabilidad Penal Adolescente; Artículo 55; Artículo 55 bis; Ley 21.527
 
 sustitución de la pena por otra de menor medida. El carácter excepcional
 de esta medida producto de los efectos negativos que el encierro genera
@@ -5258,8 +5540,10 @@ inspección debe utilizar un instrumento con indicadores que permitan
 medir objetivamente la satisfacción de las necesidades especiales y la
 posterior realización de un informe de evaluación.52
 
-
 ## 52 Véase las Reglas de La Habana (números 72, 73 y 74), la Observación General
+
+**Definición Canónica:** número 24 (párrafo 95).
+**Concordancias Legales:** Artículo 52; artículo 6; artículo 19; artículo 52 bis; Ley 21.527; Ley 18.216; Ley 20.084
 
 número 24 (párrafo 95).
 
@@ -5370,8 +5654,12 @@ que, de acuerdo con lo que indica el nuevo artículo 52 bis, incluso la
 no presentación a la ejecución de la condena o a las citaciones que se le
 comuniquen para la determinación del plan de intervención no se con-
 
-
 ## 54 Llama la atención que siendo el quebrantamiento lo que el tribunal tiene que
+
+**Definición Canónica:** decidir a partir de los incumplimientos a las obligaciones que impongan las condenas impuestas a adolescentes, el nuevo artículo 56 se refiera a quebrantamientos
+no graves o no reiterados, debiendo entender que en realidad se está refiriendo a la
+calificación de los incumplimientos.
+**Concordancias Legales:** artículo 56; artículo 52 de la Ley de Responsabilidad Penal Adolescente es q; artículo 24 de la Ley de Responsabilidad Penal Adolescente en r; artículo 56 bis; Ley 21.527; Ley 20.084
 
 decidir a partir de los incumplimientos a las obligaciones que impongan las condenas impuestas a adolescentes, el nuevo artículo 56 se refiera a quebrantamientos
 no graves o no reiterados, debiendo entender que en realidad se está refiriendo a la
@@ -5605,6 +5893,18 @@ Maldonado, Francisco (2004). «La especialidad del sistema de respon-
   de un tratamiento penal diferenciado», Justicia y Derechos del Niño,
 
 ## 6. unicef, 2004
+
+**Definición Canónica:** —. (2011). «Fundamentación y determinación de la pena en el dere-
+  cho penal de adolescentes. A propósito dl juicio seguido contra B.
+  N. M. por delito de robo con intimidación (RUC 0900505404-1)
+  en la V Región», Ius et Praxis, 17 (2), 505-536. DOI: 10.4067/S0718-
+  00122011000200018.
+—. (2014). «Consideraciones acerca del contenido de especialidad que
+  caracteriza a los sistemas penales adolescentes». Revista De Derecho.
+  Escuela De Postgrado, (5), 17-54. DOI: 10.5354/rdep.v0i5.35835
+Medina, Gonzalo (2009). «Sobre la determinación de la pena y el re-
+  curso de nulidad en la ley 20.084 
+**Concordancias Legales:** ley 20.084; constitucion
 
 —. (2011). «Fundamentación y determinación de la pena en el dere-
   cho penal de adolescentes. A propósito dl juicio seguido contra B.

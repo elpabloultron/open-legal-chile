@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## El contrato de comodato1
 
+**Definición Canónica:** 1.- Definición legal.
+**Concordancias Legales:** artículo 2510
 
 1.- Definición legal.
 
@@ -140,12 +142,24 @@ inciso 3º:
 
 ## 3.1. Cuando el comodatario empleó la cosa en un uso indebido o está en mora de restituir
 
+**Definición Canónica:** (contraexcepción: cuando se prueba que el deterioro o pérdida por el caso fortuito, habría
+sobrevenido igualmente sin el uso indebido o la mora). Art. 2178 Nº 1.
+3.2. Cuando el caso fortuito sobrevino por culpa del comodatario, aunque sea levísima: art.
+2178 Nº 2.
+
 (contraexcepción: cuando se prueba que el deterioro o pérdida por el caso fortuito, habría
 sobrevenido igualmente sin el uso indebido o la mora). Art. 2178 Nº 1.
 3.2. Cuando el caso fortuito sobrevino por culpa del comodatario, aunque sea levísima: art.
 2178 Nº 2.
 
 ## 3.3. Cuando en lugar de salvar la cosa dada en comodato, el comodatario prefirió salvar una
+
+**Definición Canónica:** suya: en otras palabras, la ley excluye la posibilidad de alegar por el comodatario el
+“estado de necesidad” como causal eximente de responsabilidad: art. 2178 Nº 3.
+3.4. Cuando el comodatario expresamente se hizo responsable del caso fortuito.
+        En realidad, estos casos excepcionales son aplicación de principios generales,
+consignados en el art. 1547, 2º y en las normas acerca de la pérdida de la cosa que se debe:
+arts. 1672 a 1674.
 
 suya: en otras palabras, la ley excluye la posibilidad de alegar por el comodatario el
 “estado de necesidad” como causal eximente de responsabilidad: art. 2178 Nº 3.
@@ -236,7 +250,10 @@ c.4) A quien debe hacerse la restitución.
 
 ## 1578 Nº 1, norma que establece que, por regla general, el pago hecho al incapaz adolece
 
-    de nulidad (salvo un pago “útil”, de acuerdo al art. 1688).
+**Definición Canónica:** de nulidad (salvo un pago “útil”, de acuerdo al art. 1688).
+**Concordancias Legales:** artículo 1662
+
+de nulidad (salvo un pago “útil”, de acuerdo al art. 1688).
 
 c.5) Acciones para pedir la restitución.
 

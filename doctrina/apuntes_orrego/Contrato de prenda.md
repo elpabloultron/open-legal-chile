@@ -15,6 +15,21 @@ extraccion: pdftotext
 
 ## Contrato de prenda1
 
+**Definición Canónica:** Sumario:
+1.- Regulación, definición legal y partes del contrato.
+2.- Etimología de la palabra “prenda” y origen del contrato.
+3.- Prendas especiales.
+4.- Características de la prenda.
+4.1. Características de la prenda como contrato.
+4.2. Características de la prenda como derecho.
+5.- Elementos de la prenda.
+5.1. Obligaciones susceptibles de ser garantizadas con prenda.
+5.2. Requisitos que deben reunir los contratantes o capacidad de las partes.
+5.3. Bienes susceptibles de darse en prenda.
+5.4. Requisitos externos de la prenda.
+6.- Efectos del contrato de prenda.
+6.1. Efectos del contrato de pr
+**Concordancias Legales:** artículo 1464 del Código Civil. La constitución de todo d; artículos 150; Ley Nº 18.690; Ley Nº 20.190; Ley Nº 4.287; Ley N° 20.190; Ley N° 18.112; Ley N° 4.097; Ley N° 5.687; Ley N° 4.702; Ley N° 20.720; Ley Nº 18.112; Ley Nº 2.222; Ley 4.287; Ley N° 20.667; constitución
 
 Sumario:
 1.- Regulación, definición legal y partes del contrato.
@@ -1178,6 +1193,16 @@ cosa pignorada.
 
 ## 20.190. Su art. 5 dispone que podrá constituirse prenda sobre todo tipo de cosas
 
+**Definición Canónica:** muebles, sean corporales o incorporales, presentes o futuras. Respecto de las cosas
+futuras, la ley altera el principio que opera en el CC., que excluye la prenda sobre esta
+clase de bienes, habida cuenta que es necesario que se produzca la entrega de la cosa,
+para que el contrato de prenda civil se perfeccione. En cambio, tratándose de una
+prenda sin desplazamiento, obviamente no se produce tal hecho, pues no estamos
+ante un contrato real, sino solemne. El art. 9 de la Ley Nº 20.190 regula esta prenda
+sobre cosas futuras, estableciendo dos reglas:
+i) El contrato de prenda será válido, pero si
+**Concordancias Legales:** artículo 570; artículo 2183; artículo 28; Ley Nº 20.190; Ley N° 20.190; Ley Nº 18.092; Ley Nº 18.690; Ley N° 18.690; constitución
+
 muebles, sean corporales o incorporales, presentes o futuras. Respecto de las cosas
 futuras, la ley altera el principio que opera en el CC., que excluye la prenda sobre esta
 clase de bienes, habida cuenta que es necesario que se produzca la entrega de la cosa,
@@ -1797,6 +1822,16 @@ d.2) Prenda de valores mobiliarios a favor de los bancos.
 
 ## título al banco, según dispone el art. 1° de la Ley N° 4.287: “Los bonos y cualesquiera
 
+**Definición Canónica:** otros valores mobiliarios al portador que se entreguen a una empresa bancaria en
+garantía de operaciones o contratos que se celebren o que hayan de celebrarse más
+adelante con la misma empresa, se entenderán constituidos en prenda a favor de esta,
+por su sola entrega, siempre que no conste expresamente que dicha entrega se ha
+efectuado con un objeto distinto”.
+● Títulos a la orden: se perfecciona la prenda mediante el endoso en garantía, no
+siendo necesario notificar al deudor, de conformidad al art. 2° de la Ley N° 4.287: “Los
+créditos a la orden de cualquiera clase que sean, podrán darse en 
+**Concordancias Legales:** artículo 660 del Código de Comercio; artículo 2389 del Código Civil; artículo 2397 del Código Civil; artículo 6 de la Ley N; artículo 19; Ley N° 4.287; Ley Nº 4.287; Ley Nº 20.190; Constitucion; Constitución Política; constitución
+
 otros valores mobiliarios al portador que se entreguen a una empresa bancaria en
 garantía de operaciones o contratos que se celebren o que hayan de celebrarse más
 adelante con la misma empresa, se entenderán constituidos en prenda a favor de esta,
@@ -2085,6 +2120,14 @@ pignoratario una exceptio doli en contra de la actio pigneraticia, si, pese a ha
 caucionada con la prenda, debido a lo cual exigió su devolución el pignorante, este todavía le debe dinero a
 
 ## título de mutuo, aunque dicha prenda no garantizara ese mutuo. El pignoratario, pues, tiene una suerte de
+
+**Definición Canónica:** derecho de retener la prenda hasta que le pague la otra deuda o se le garantice de modo diverso pero
+suficiente su cancelación. Hablamos de ‘prenda gordiana’ (‘pignus Gordianum’). Pero estrictamente no es
+una prenda, sino, como se dijo, un derecho de retener la prenda en función de otra obligación originalmente
+no garantizada con ella. Por lo demás, el rescripto se refiere únicamente a que la otra obligación sea de
+dinero mutuado. Este derecho lo tiene el pignoratario frente al pignorante-deudor, no frente al que garantizó
+con prenda una deuda ajena. Nada dice el rescripto acerca de si el acre
+**Concordancias Legales:** artículo 2401; artículos 456; Ley N° 4.287; Ley N° 20.190; constitución
 
 derecho de retener la prenda hasta que le pague la otra deuda o se le garantice de modo diverso pero
 suficiente su cancelación. Hablamos de ‘prenda gordiana’ (‘pignus Gordianum’). Pero estrictamente no es
@@ -2675,12 +2718,27 @@ acuerdo con las reglas del juicio ejecutivo en las obligaciones de dar, establec
 
 ## Título I del Libro III del CPC. (arts. 434 a 529 del Código citado), con las
 
+**Definición Canónica:** modificaciones que se señalan en los arts. siguientes.
+      El art. 30 alude al título ejecutivo en la realización de la prenda; a la notificación
+de la demanda y a los efectos de dicha notificación. Distingue la norma dos hipótesis
+de títulos ejecutivos:
+
 modificaciones que se señalan en los arts. siguientes.
       El art. 30 alude al título ejecutivo en la realización de la prenda; a la notificación
 de la demanda y a los efectos de dicha notificación. Distingue la norma dos hipótesis
 de títulos ejecutivos:
 
 ## 1. Puede ocurrir que el propio contrato de prenda, sea a la vez el título ejecutivo en el
+
+**Definición Canónica:** cual el actor funda su acción, disponiendo la Ley: la escritura pública o la copia
+autorizada del instrumento privado en el que conste el contrato de prenda,
+protocolizado de conformidad con el art. 2° de la Ley, tendrá mérito ejecutivo sin
+necesidad de reconocimiento previo, respecto de: a. Las obligaciones que se
+contraigan en dichos instrumentos; o, b. Las obligaciones que se individualicen con
+precisión, en cuanto a los siguientes aspectos: i) Su origen; ii) Su monto; iii) Su plazo;
+y iv) El interés que devenguen.
+2. Puede ocurrir que en el contrato de prenda no se indique la obligación ca
+**Concordancias Legales:** Ley N° 20.720
 
 cual el actor funda su acción, disponiendo la Ley: la escritura pública o la copia
 autorizada del instrumento privado en el que conste el contrato de prenda,
@@ -2761,6 +2819,16 @@ destinación.
 
 ## 1. Quien lleva adelante la ejecución es un acreedor prendario, y existen otros
 
+**Definición Canónica:** acreedores prendarios: en este caso, conjuntamente con notificar al deudor la
+demanda ejecutiva y el requerimiento de pago, deberá notificarse a los demás
+acreedores prendarios que tengan derechos sobre el bien prendado, los cuales serán
+cubiertos sobre el precio del remate en el orden que les corresponda,
+independientemente que su crédito no se haya devengado (en este último caso, queda
+en claro que se producirá una causal de caducidad del plazo para el pago de la
+obligación). Puede observarse, entonces, que se trata de “purgar” las prendas que
+graven la especie que será subastada. Ahora bien
+**Concordancias Legales:** Ley N° 20.190; Ley N° 20.720
+
 acreedores prendarios: en este caso, conjuntamente con notificar al deudor la
 demanda ejecutiva y el requerimiento de pago, deberá notificarse a los demás
 acreedores prendarios que tengan derechos sobre el bien prendado, los cuales serán
@@ -2787,6 +2855,16 @@ ejecutante como a los restantes acreedores prendarios, han de hacerse conforme a
 previsto en el art. 553 del CPC.
 
 ## 2. Quien lleva adelante la ejecución es un acreedor hipotecario, y existen acreedores
+
+**Definición Canónica:** prendarios cuyas prendas se constituyeron sobre inmuebles por adherencia o por
+destinación: conforme a lo señalado en el art. 14 de la Ley, la prenda constituida sobre
+bienes muebles que después se transforman en inmuebles por adherencia o por
+destinación gozará de preferencia sobre la hipoteca que grave el inmueble en el que
+están puestos tales muebles, si se anotare al margen de la respectiva inscripción
+hipotecaria; de no hacerse dicha subinscripción, la ejecución de la hipoteca producirá
+la purga de la prenda, sin necesidad de notificar al acreedor prendario. Ahora bien, el
+inc. 2º del art
+**Concordancias Legales:** artículo 2472; artículo 2396; artículo 2390145; Ley N° 20.720; Ley Nº 20.190; Ley N° 19.496; constitución
 
 prendarios cuyas prendas se constituyeron sobre inmuebles por adherencia o por
 destinación: conforme a lo señalado en el art. 14 de la Ley, la prenda constituida sobre
