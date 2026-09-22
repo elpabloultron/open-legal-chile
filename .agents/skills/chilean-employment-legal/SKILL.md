@@ -26,6 +26,18 @@ description: Especialista en Derecho del Trabajo chileno, despidos (Art. 161 y 1
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el abogado de la empresa y la jefatura de RRHH, que no es abogada; la carta de aviso la lee el trabajador.
+- **Lenguaje claro:** el primer término técnico de cada memo o carta va con su equivalencia simple entre paréntesis — `fuero (protección legal que impide despedir a cierta persona sin autorización previa del tribunal)`. Sin siglas sin expandir la primera vez (RIHS, DT, CT, CAJ).
+- **Salida (estructura):** conclusión + GO / NO-GO + tabla de banderas de alto riesgo + requisitos legales con sus citas + indemnizaciones y finiquito. La decisión arriba, el detalle abajo.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre; lo no verificado se marca (`[VERIFICAR]`, `[cálculo — consultar a abogado laboralista]`), no se rellena.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica: ningún "proceda" sin validación de abogado habilitado.
+
+---
+
 ## 🔄 Workflow 1: Revisión de Despido (importado de `termination-review`, chilenizado)
 
 **Propósito:** Checklist pre-decisión que detecta "juicios esperando ocurrir" antes de ejecutar un despido.

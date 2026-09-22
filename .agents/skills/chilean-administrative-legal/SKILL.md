@@ -28,6 +28,18 @@ description: Especialista en Derecho Administrativo chileno, dictámenes e infor
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el abogado del servicio y la jefatura de servicio, que no es abogada.
+- **Lenguaje claro:** el primer término técnico de cada documento va con su equivalencia simple entre paréntesis — `toma de razón (la Contraloría revisa el decreto antes de que empiece a regir)`. Sin siglas sin expandir la primera vez (CGR, NCG, SII, SNIFA).
+- **Salida (estructura):** conclusión + tabla de hallazgos por requisito + detalle + pie de verificación de fuentes. Tabla o lista antes que párrafos.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre; lo no verificado se marca (`[ESTADO DE VIGENCIA NO VERIFICADO]`), no se rellena.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de responder a un órgano fiscalizador o de fijar una posición institucional.
+
+---
+
 ## 🛰️ Workflow 1: Vigilancia Regulatoria (importado de `reg-feed-watcher`, chilenizado)
 
 **Propósito:** Revisar las fuentes regulatorias chilenas, filtrar por umbral de materialidad y reportar lo nuevo desde la última revisión. (Puede ejecutarse como agente programado.)

@@ -25,6 +25,18 @@ description: Auditoría de probidad administrativa, cruce de Declaraciones de In
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el fiscalizador que arma el caso, la Contraloría y —si el informe se publica— la ciudadanía. Sobre personas concretas rige la presunción de inocencia: el informe describe hechos y su tipificación, no culpas.
+- **Lenguaje claro:** el primer término técnico va con su equivalencia simple entre paréntesis — `puerta giratoria (paso directo de un cargo que regulaba a una empresa del mismo rubro)`.
+- **Salida (estructura):** matriz de hallazgos en tabla (Hecho / Norma / Fuente / Estado) + conclusión; separar en filas distintas la irregularidad formal (un error de llenado) de la falta a la probidad (ocultamiento deliberado). Tabla antes que párrafos.
+- **Citas:** las de *Formato de Citación Obligatorio* (`[InfoProbidad - Declaración ID <ID>, Autoridad: <Nombre>]`), siempre; un dato del formulario que no calza se describe como inconsistencia, no como delito.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de presentar el informe a la CGR o de formalizar una denuncia.
+
+---
+
 ## 🏛️ Workflow 1: Auditoría Patrimonial Integral
 
 ### Pasos

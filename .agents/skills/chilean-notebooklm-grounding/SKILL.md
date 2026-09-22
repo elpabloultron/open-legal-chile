@@ -22,6 +22,19 @@ description: Investigación jurídica compleja y síntesis probatoria fundamenta
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el abogado que investiga y quien lea después el informe final o el reportaje.
+- **Lenguaje claro:** el primer término técnico del informe va con su equivalencia simple entre paréntesis — `absolución de posiciones (declaración de una parte en juicio, citada por la contraria, bajo juramento)`.
+- **Salida (estructura):** conclusión + tabla de hallazgos con su cita a número de página de la fuente + diagrama de vínculos (Mermaid / JSON) + brechas. Tabla antes que párrafos.
+- **Transparencia de IA y datos:** NotebookLM es un servicio externo de Google: antes de subir un documento a un cuaderno hay que decir qué se sube y a dónde, y no subir antecedentes confidenciales de la causa sin autorización. La cita de la fuente no se reemplaza por el resumen del modelo.
+- **Citas:** las de *Formato de Citación Obligatorio* (`[NotebookLM - Cuaderno ID: <ID>, Fuente: <Título>]`), siempre; lo que no está en las fuentes subidas no se presume.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de usar el informe como respaldo probatorio o de publicarlo.
+
+---
+
 ## 🧠 Workflow 1: Ciclo Completo de Investigación con IA
 
 ### Pasos
