@@ -206,17 +206,21 @@ class TestOnlineLibrarySync:
         assert os.path.exists(card)
         with open(card, "r", encoding="utf-8") as f:
             content = f.read()
-            assert "license: apache-2.0" in content
+            assert "license: other" in content  # los documentos son de terceros: no se relicencian
             assert "open-legal-chile/doctrina-jurisprudencia-chile" in content
 
     def test_publicar_hf_sin_token(self):
-        mgr = OnlineLibrarySyncManager()
-        # Asegurarse de que no falle con excepción si no hay token
-        res = mgr.publicar_en_huggingface(token=None)
-        # Si no hay variable HF_TOKEN en el entorno, debe dar error controlado
-        if not os.environ.get("HF_TOKEN"):
-            assert res["exito"] is False
-            assert "HF_TOKEN" in res["error"]
+        # La prueba no puede depender de que la máquina tenga un token guardado: se neutraliza el
+        # resolver para que el escenario «sin token» sea el mismo acá y en la CI.
+        import unittest.mock as mock
+
+        import online_library_sync as ols
+
+        with mock.patch.object(ols, "resolver_token_hf", return_value=None):
+            mgr = OnlineLibrarySyncManager()
+            res = mgr.publicar_en_huggingface(token=None)
+        assert res["exito"] is False
+        assert "HF_TOKEN" in res["error"] or "token" in res["error"].lower()
 
 
 

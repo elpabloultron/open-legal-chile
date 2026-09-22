@@ -596,6 +596,57 @@ class LegalGraphifyEngine:
             "advertencias": list(self.advertencias),
         }
 
+
+    def resumen_por_comunidades(self, top_n: int = 12, representativos: int = 4) -> Dict[str, Any]:
+        """Resumen jerárquico: qué hay en cada comunidad, sin leer los nodos.
+
+        Es la idea de GraphRAG (Edge et al., arXiv:2404.16130): el grafo se organiza en comunidades
+        que se resumen, y se recupera el resumen de la comunidad en vez de recorrer los nodos. Para
+        una pregunta de panorama («¿qué hay de laboral?») alcanza con esto, y cuesta cientos de
+        tokens en lugar de miles. Las comunidades son las que detectó el motor al construir.
+        """
+        por_comunidad: Dict[Any, List[str]] = {}
+        for nid, datos in self.graph.nodes(data=True):
+            clave = datos.get("comunidad", datos.get("community", 0))
+            por_comunidad.setdefault(clave, []).append(nid)
+        if not por_comunidad:
+            return {"error": "el grafo no tiene comunidades: construilo primero"}
+
+        carpetas = ("civil", "penal", "laboral", "familia", "procesal", "administrativo",
+                    "constitucional", "comercial", "academia_judicial", "apuntes_orrego", "manuales")
+
+        def area_de(nid: str) -> str:
+            origen = str(self.graph.nodes[nid].get("source_file") or "")
+            for parte in origen.replace("\\", "/").split("/"):
+                if parte in carpetas:
+                    return parte
+            return "general"
+
+        comunidades = []
+        for numero, miembros in sorted(por_comunidad.items(), key=lambda kv: -len(kv[1]))[:top_n]:
+            por_grado = sorted(((self.graph.degree(n), n) for n in miembros), reverse=True)
+            conteo: Dict[str, int] = {}
+            for _, n in por_grado[:max(20, len(por_grado) // 4)]:
+                conteo[area_de(n)] = conteo.get(area_de(n), 0) + 1
+            area_principal = max(conteo.items(), key=lambda kv: kv[1])[0] if conteo else "general"
+            comunidades.append({
+                "comunidad": numero,
+                "tamano": len(miembros),
+                "area_principal": area_principal,
+                "representativos": [str(self.graph.nodes[n].get("label") or n)[:70]
+                                    for _, n in por_grado[:representativos]],
+            })
+
+        resumen: Dict[str, Any] = {
+            "comunidades_totales": len(por_comunidad),
+            "nodos_totales": self.graph.number_of_nodes(),
+            "comunidades": comunidades,
+            "como_se_usa": ("Para un panorama, leer esto. Para el detalle de una institución, "
+                            "consultar_subgrafo con su nombre."),
+        }
+        resumen["tokens_aproximados"] = len(json.dumps(resumen, ensure_ascii=False)) // 4
+        return resumen
+
     def consultar_subgrafo(self, query: str, max_hops: int = 1) -> Dict[str, Any]:
         """
         Recupera el subgrafo conectado para una consulta jurídica y genera una ficha sintética
