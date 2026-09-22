@@ -76,12 +76,29 @@ class TestDecision(unittest.TestCase):
     ]
 
     def test_la_tabla_de_casos(self):
-        for descripcion, texto, materia, herramienta in self.CASOS:
-            with self.subTest(descripcion):
-                analisis = case_intake.caso_analizar(texto)
-                self.assertEqual(analisis["materia"], materia, f"{descripcion}: otra materia")
-                usadas = [p["herramienta"] for p in analisis["plan"]]
-                self.assertIn(herramienta, usadas, f"{descripcion}: falta {herramienta}")
+        """Las 15 filas de la tabla, de una sola pasada.
+
+        Sin `subTest` a propósito: en Windows el sub-test se cae al finalizar su contexto
+        (UnicodeDecodeError en el capturador de pytest, con la salida en cp1252) y arrastra a
+        todas las pruebas que vienen después. Un recorrido que junta los desajustes y falla una
+        sola vez prueba lo mismo y no depende de la maquinaria del capturador. Los rótulos van
+        sin acentos por la misma razón: el archivo es UTF-8, pero la consola de Windows no.
+        """
+        desajustes = []
+        for numero, (descripcion, texto, materia, herramienta) in enumerate(self.CASOS, 1):
+            analisis = case_intake.caso_analizar(texto)
+            usadas = [p["herramienta"] for p in analisis["plan"]]
+            if analisis["materia"] != materia:
+                desajustes.append(
+                    f"caso {numero} ({descripcion}): esperaba materia={materia}, "
+                    f"detecto {analisis['materia']}"
+                )
+            if herramienta not in usadas:
+                desajustes.append(
+                    f"caso {numero} ({descripcion}): falta la herramienta {herramienta} "
+                    f"en el plan {usadas}"
+                )
+        self.assertFalse(desajustes, "\n".join(desajustes))
 
     def test_sin_senales_no_inventa_materia(self):
         analisis = case_intake.caso_analizar("tengo un problema con mi vecino por la reja")
