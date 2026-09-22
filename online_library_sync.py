@@ -25,7 +25,7 @@ def compilar_manifiesto_biblioteca() -> Dict[str, Any]:
     return mgr.compilar_manifiesto_corpus()
 
 
-ARCHIVO_TOKEN = "~/.openlegal/hf_token"
+ARCHIVO_TOKEN = "~/.openlegal/hf_token"  # nosec B105 (es la ruta de un archivo, no una credencial)
 
 
 def resolver_token_hf(token: Optional[str] = None) -> Optional[str]:
