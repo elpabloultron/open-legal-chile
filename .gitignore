@@ -53,3 +53,8 @@ uv.lock
 
 # Artefactos de medios generados (promo/demo), no parte del paquete
 brag-output/
+
+# SQLite en modo WAL (los deja abiertos la base de doctrina)
+*.db-shm
+*.db-wal
+*.db-journal
