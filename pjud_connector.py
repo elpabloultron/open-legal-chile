@@ -232,15 +232,16 @@ def analizar_rit(rit: str) -> Dict[str, Any]:
     if not limpio:
         return {"error": "hace falta el Rol/RIT (por ejemplo 'T-1234-2026' o 'Rol 12345-2026')"}
 
-    letra = None
-    numero = None
-    anio = None
-    m = re.match(r"^([A-Z])?[-–]?\s*(\d{1,6})[-–](\d{4})$", limpio)
-    if m:
-        letra, numero, anio = m.group(1), int(m.group(2)), int(m.group(3))
-    elif re.match(r"^ROL?(\d{1,6})[-–](\d{4})$", limpio):
-        m = re.match(r"^ROL?(\d{1,6})[-–](\d{4})$", limpio)
-        numero, anio = int(m.group(1)), int(m.group(2))
+    letra: Optional[str] = None
+    numero: Optional[int] = None
+    anio: Optional[int] = None
+
+    con_letra = re.match(r"^([A-Z])?[-–]?\s*(\d{1,6})[-–](\d{4})$", limpio)
+    solo_rol = None if con_letra else re.match(r"^ROL?(\d{1,6})[-–](\d{4})$", limpio)
+    if con_letra:
+        letra, numero, anio = con_letra.group(1), int(con_letra.group(2)), int(con_letra.group(3))
+    elif solo_rol:
+        numero, anio = int(solo_rol.group(1)), int(solo_rol.group(2))
     else:
         return {
             "rit": rit,

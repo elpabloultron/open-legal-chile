@@ -148,7 +148,13 @@ class LegalGraphifyEngine:
                     continue
 
                 filepath = os.path.join(root, file)
-                rel_path = os.path.relpath(filepath, BASE_DIR)
+                try:
+                    rel_path = os.path.relpath(filepath, BASE_DIR)
+                except ValueError:
+                    # Windows: la carpeta y el repo pueden estar en discos distintos (C: y D:)
+                    # y relpath no cruza unidades. Se usa la ruta normalizada, que alcanza para
+                    # las comprobaciones por subcadena que vienen después.
+                    rel_path = filepath.replace(chr(92), '/')
                 archivos_procesados += 1
 
                 with open(filepath, "r", encoding="utf-8", errors="ignore") as f:

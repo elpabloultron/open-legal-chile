@@ -117,7 +117,7 @@ class TestElDisparadorEnLenguajeNatural(unittest.TestCase):
 
         for t in mcp_server.TOOLS:
             if t["name"] == nombre:
-                return t["description"]
+                return str(t["description"])
         self.fail(f"no está la herramienta {nombre}")
 
     def test_las_herramientas_estan_en_el_catalogo(self):
