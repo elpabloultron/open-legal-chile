@@ -6,6 +6,7 @@ y su publicación gratuita en Hugging Face Datasets, GitHub Releases y Google Dr
 """
 
 import os
+import pathlib
 import re
 import json
 import tarfile
@@ -258,7 +259,8 @@ class OnlineLibrarySyncManager:
         card = f"""---
 language:
 - es
-license: apache-2.0
+license: other
+license_name: documentos-de-terceros-con-atribucion
 tags:
 - legal
 - chile
@@ -363,7 +365,10 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
         with open(card_path, "w", encoding="utf-8") as f:
             f.write(card)
 
-        return card_path
+        escrito = pathlib.Path(card_path)
+        escrito.write_text(escrito.read_text(encoding="utf-8") + ATRIBUCION,
+                            encoding="utf-8")
+        return str(escrito)
 
     def preparar_bundle_google_drive(self) -> Dict[str, Any]:
         """
@@ -562,3 +567,34 @@ def estado_huggingface(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-c
                 "dataset": repo_id, "existe": existe, "archivos": archivos}
     except Exception as e:
         return {"conectado": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
+ATRIBUCION = """
+
+---
+
+## Origen y atribución
+
+Este dataset reúne material jurídico chileno **de terceros**, publicado con atribución. Los derechos
+sobre cada texto siguen siendo de sus autores:
+
+- **Materiales Docentes de la Academia Judicial de Chile** (serie MD##) — descargados de
+  https://academiajudicial.cl/recursos/materiales-docentes/ . Son materiales de formación judicial
+  de una institución de derecho público; se incluyen con su atribución y enlace a la fuente.
+- **Apuntes del profesor Juan Andrés Orrego Acuña** — descargados de
+  https://www.juanandresorrego.cl/apuntes_all.html , de distribución pública y gratuita en su sitio.
+- **Manuales aportados por el estudio** — dos documentos de circulación interna; sus derechos
+  pertenecen a sus autores.
+
+Lo que **sí** queda bajo Apache-2.0 es lo producido por el proyecto: el grafo de conocimiento
+(LegalGraphify), los JSONL derivados, el índice y el código.
+
+Si sos autor o titular de derechos de alguno de estos textos y querés que no esté acá, se retira a
+pedido.
+
+## Cómo se generó
+
+PDF → texto (con OCR y modelo español para los escaneados) → Markdown con secciones, definición
+canónica y concordancias legales extraídas del texto → índice FTS5 y grafo de conocimiento. Cada
+documento conserva su fuente en el encabezado.
+"""
