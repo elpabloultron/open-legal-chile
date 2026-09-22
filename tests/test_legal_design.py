@@ -237,7 +237,10 @@ def test_el_lock_de_skills_corresponde_a_los_archivos():
     for nombre, entrada in registro.items():
         ruta = RAIZ / entrada["skillPath"]
         assert ruta.exists(), f"{nombre}: el lock apunta a {entrada['skillPath']}, que no existe"
-        real = hashlib.sha256(ruta.read_bytes()).hexdigest()
+        # El candado es del contenido, no de cómo quedó el archivo en el disco: en Windows el
+        # checkout convierte los saltos de línea a CRLF y el hash cambiaría sin que nadie
+        # tocara la skill. Se normaliza antes de comparar.
+        real = hashlib.sha256(ruta.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
         if real != entrada["sha256"]:
             desactualizadas.append(f"{nombre}: lock={entrada['sha256'][:12]}… archivo={real[:12]}…")
 
