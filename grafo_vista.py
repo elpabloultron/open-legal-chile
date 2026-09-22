@@ -61,6 +61,7 @@ PLANTILLA = """<!DOCTYPE html>
 <footer>
   <span><b>{nodos}</b> nodos</span><span><b>{aristas}</b> relaciones</span>
   <span>pasá el mouse por un nodo para ver su detalle · arrastrá para mover · rueda para acercar</span>
+  <span id="pista"></span>
   {leyenda}
 </footer>
 <script>
@@ -75,7 +76,36 @@ PLANTILLA = """<!DOCTYPE html>
     interaction: {{ hover: true, tooltipDelay: 120, navigationButtons: true, keyboard: true }},
     layout: {{ improvedLayout: {mejorado} }}
   }};
-  new vis.Network(document.getElementById("red"), {{ nodes: nodos, edges: aristas }}, opciones);
+  const red = new vis.Network(document.getElementById("red"), {{ nodes: nodos, edges: aristas }}, opciones);
+
+  // Orden: se agrupa por documento (y el color y la zona dicen el área). Cada globo es un
+  // documento; el doble clic lo abre y muestra las instituciones de adentro. Con miles de nodos,
+  // ver todo suelto no dice nada: agrupado se lee.
+  function agruparPor(campo, colorPorArea) {{
+    const grupos = {{}};
+    nodos.forEach(n => {{ (grupos[n[campo]] ||= []).push(n.id); }});
+    Object.entries(grupos).forEach(([nombre, ids]) => {{
+      red.cluster({{
+        joinCondition: (opciones) => ids.includes(opciones.id),
+        clusterNodeProperties: {{
+          id: "grupo:" + campo + ":" + nombre,
+          label: nombre.length > 42 ? nombre.slice(0, 42) + "…" : nombre,
+          title: ids.length + " nodos de este documento",
+          shape: "box",
+          color: {{ background: "#1c1c33", border: colorPorArea || "#5a5a72" }},
+          font: {{ color: "#e8e8f0", size: 14 }},
+          borderWidth: 2,
+          allowSingleNodeCluster: true,
+        }},
+      }});
+    }});
+  }}
+  agruparPor("documento");
+  red.on("doubleClick", (params) => {{
+    if (params.nodes.length === 1 && red.isCluster(params.nodes[0])) {{ red.openCluster(params.nodes[0]); }}
+  }});
+  document.getElementById("pista") && (document.getElementById("pista").textContent =
+    "Cada globo es un documento (con su color de área). Doble clic en un globo para abrir sus instituciones.");
 </script>
 </body></html>
 """
@@ -206,6 +236,7 @@ def _html_del_grafo(grafo, titulo: str, nota: str, salida: str) -> str:
             "title": f"{etiqueta}<br><i>{tipo or 'nodo'}</i> · {grado} conexión(es)",
             "color": COLORES_AREA.get(area) or COLORES.get(tipo, "#c9c9d6"),
             "grupo": area or "otros",
+            "documento": archivo or "sin documento",
             "size": 10 + min(22, 3 * grado),
             "value": grado,
         }
