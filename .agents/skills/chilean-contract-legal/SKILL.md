@@ -26,6 +26,19 @@ description: Especialista en contratos y derecho comercial chileno: revisión de
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el abogado de contratos y el dueño del negocio o la contraparte comercial, que no son abogados.
+- **Lenguaje claro:** el primer término técnico de cada memo va con su equivalencia simple entre paréntesis — `cláusula penal (monto fijo que se paga si se incumple, sin tener que probar el daño)`. Sin siglas sin expandir la primera vez (NDA, PPA, B2B).
+- **Salida (estructura):** conclusión + tabla de desviaciones por severidad + redline propuesto + disposiciones faltantes + escalamiento. Tabla antes que párrafos.
+- **Sin depender del color:** el semáforo se escribe con su palabra (VERDE / AMARILLO / ROJO) y con su severidad (ALTA / MEDIA / BAJA); el color y el emoji solo refuerzan, nunca son el único portador del dato.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre; lo no verificado se marca (`[VERIFICAR]`, `[CITA FALTANTE]`), no se rellena.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de enviar redlines y antes de firma.
+
+---
+
 ## 📝 Workflow 1: Revisión de Contratos de Proveedores (importado de `vendor-agreement-review`, chilenizado)
 
 **Propósito:** Revisar contratos entrantes contra el playbook del cliente, marcando desviaciones con severidad, impacto de negocio y lenguaje de redline específico.

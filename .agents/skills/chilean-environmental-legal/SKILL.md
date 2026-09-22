@@ -15,3 +15,15 @@ description: Especialista en Derecho Ambiental chileno, Ley 19.300 (LBGMA), Ley 
 
 ## 🛠️ Herramientas MCP Disponibles
 * `sma_search_sancionatorios`: Consulta expedientes y sanciones en SNIFA.
+
+---
+
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** la gerencia de operaciones, que no es abogada, y el abogado ambiental.
+- **Lenguaje claro:** el primer término técnico va con su equivalencia simple entre paréntesis — `PdC (Programa de Cumplimiento: plan de acciones que suspende el procedimiento sancionatorio y, si se cumple, extingue la multa)`. Sin siglas sin expandir la primera vez (SEIA, SMA, SNIFA, RCA, PdC).
+- **Salida (estructura):** conclusión + tabla de infracciones por gravedad + plazos del procedimiento + fundamento. Tabla antes que párrafos.
+- **Citas:** las de *Formato de Citación Obligatorio* (`[SMA - Expediente SNIFA <Número>]`), siempre; lo no verificado se marca (`[VERIFICAR]`), no se rellena.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de presentar un PdC o de responder un requerimiento de la SMA.

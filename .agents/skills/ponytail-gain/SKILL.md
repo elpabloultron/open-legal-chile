@@ -48,3 +48,15 @@ this card points there instead of inventing one.
 
 One-shot display. Edits nothing, changes no mode.
 "stop ponytail" or "normal mode": revert.
+
+---
+
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Overlay de `docs/legal_design.md` para este repositorio (por eso va en español: es el idioma de trabajo de Open Legal Chile). Esta skill es de código, no de derecho: hereda las reglas de presentación, no las jurídicas.
+
+- **Quién lee:** quien mantiene el repositorio, que puede no ser experto en este módulo.
+- **Lenguaje claro:** todo término técnico o sigla va con su equivalencia simple entre paréntesis la primera vez — `mediana (el valor del medio: la mitad de los casos queda por debajo)`.
+- **Salida (estructura):** barras ASCII planas, sin depender del color, y sin cifra por repositorio: la regla de honestidad de esta misma skill ya lo prohíbe y coincide con la regla LD-09.
+- **Citas:** si la salida toca materia jurídica, se cita en el *Formato de Citación Obligatorio* de `AGENTS.md` §2 (`[BCN - Ley N° 21.643, Art. 2]`); si es código, archivo y línea.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica aplica solo si la salida de esta skill termina en un producto jurídico (escrito, memo, comunicación a contraparte). Una skill que simplifica código no produce asesoría jurídica ni la sustituye.

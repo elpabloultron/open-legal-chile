@@ -22,6 +22,19 @@ description: Peritaje documental, extracción de texto digital y OCR sobre exped
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el abogado que incorpora la prueba al proceso y el perito que firma el informe.
+- **Lenguaje claro:** el primer término técnico del informe va con su equivalencia simple entre paréntesis — `foja (cada hoja del expediente judicial, numerada)`.
+- **Salida (estructura):** informe con el texto íntegro pagina por página (`=== PÁGINA X [NATIVE/OCR] ===`) + tabla de verificaciones (nombres, RUT, fechas, montos) + notas de ilegibilidad.
+- **Fidelidad primero:** si un dato no es legible, se marca `[ILEGIBLE EN ORIGINAL: Fs. X]` y no se completa con un valor plausible. La tabla de verificaciones dice qué se cotejó y qué no.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica: la transcripción debe ser cotejada por el perito o el abogado antes de entrar a la demanda o querella.
+
+---
+
 ## 🔍 Workflow 1: Procesamiento Pericial de Expedientes
 
 ### Pasos

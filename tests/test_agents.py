@@ -13,9 +13,10 @@ from mcp_server import handle_tool_call, TOOLS
 def test_agent_registry_load():
     """Verifica la carga dinámica de los 18 perfiles de agentes desde agents/*.json."""
     agentes = agent_runtime.list_agents()
-    assert len(agentes) == 18
+    assert len(agentes) == 19
     nombres = [a["name"] for a in agentes]
     assert "agente-litigios" in nombres
+    assert "agente-mesa" in nombres
     assert "agente-inmobiliario" in nombres
     assert "agente-dogmatico" in nombres
     assert "agente-probidad" in nombres
@@ -198,7 +199,7 @@ def test_mcp_agent_tools():
     # 1. agent_list
     res_list = handle_tool_call("agent_list", {})
     assert isinstance(res_list, list)
-    assert len(res_list) == 18
+    assert len(res_list) == 19
 
     # 2. agent_run
     res_run = handle_tool_call("agent_run", {

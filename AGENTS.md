@@ -25,7 +25,7 @@ Always attribute and cite sources using the official brackets:
 ---
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 64 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 71 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -84,7 +84,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 44. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality.
 
 **Autonomous Legal Agents Runtime:**
-45. `agent_list`: List the 18 specialized Chilean legal agent profiles and capabilities.
+45. `agent_list`: List the 19 specialized Chilean legal agent profiles and capabilities.
 46. `agent_run`: Execute autonomous legal agents in deterministic sovereign mode (100 % offline) or LLM-assisted ReAct mode.
 47. `agent_export_subagents`: Export agent configurations for Claude Code (.claude/subagents) or Google Antigravity.
 
@@ -108,6 +108,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 | `chilean-dossier-assembly` | `agente-expedientes` | Compilación de dossiers A4 con portadas de separación institucional, foliado, marcadores TOC y salida dual |
 | `chilean-notebooklm-grounding` | `agente-investigacion-ia` | Investigación profunda asistida por NotebookLM, citaciones grounded y grafos de vínculos relacionales |
 | `chilean-socratic-bar-exam` | `agente-grado` | Simulador socrático de examen de grado en Derecho Civil y Procesal con cédulas y rúbricas |
+| `chilean-case-intake` | `agente-mesa` | Mesa de entrada: carpeta, texto o consulta → plan de herramientas → ejecución → expediente. Clasifica la materia con reglas chilenas |
 | `chilean-docket-watcher` | `agente-vigilante` | Monitoreo activo de proveídos OJV/PJUD y cómputo de plazos fatales en días hábiles judiciales |
 | `chilean-legal-clinic` | `agente-clinica` | Asistencia jurídica social para consultorios CAJ, traducción a Lenguaje Claro y auditoría de borradores |
 | `chilean-privacy-ip` | `agente-propiedad-datos` | Solicitudes de Derechos ARCO (Ley 19.628), factibilidad marcaria INAPI y cartas de cese y desistimiento |

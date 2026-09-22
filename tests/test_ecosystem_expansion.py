@@ -245,6 +245,7 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 69 desde que se sumaron las herramientas del SII: oficios por año, descarga de oficios,
-        # actos de direcciones regionales, convenios internacionales y jurisprudencia judicial.
-        assert len(TOOLS) == 69
+        # 71 desde que se sumaron las dos de la mesa de entrada (caso_analizar y caso_ejecutar),
+        # arriba de las 69 que traían las del SII: oficios por año, descarga de oficios, actos de
+        # direcciones regionales, convenios internacionales y jurisprudencia judicial.
+        assert len(TOOLS) == 71

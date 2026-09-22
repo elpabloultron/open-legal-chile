@@ -29,6 +29,19 @@ description: Especialista en derecho corporativo y societario chileno: constituc
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el directorio o el socio, el abogado del estudio y terceros que leen el acta (SII, CMF, notaría).
+- **Lenguaje claro:** el primer término técnico de cada acta o minuta va con su equivalencia simple entre paréntesis — `quórum (cantidad mínima de socios o directores que debe estar presente para que la reunión valga)`. Sin siglas sin expandir la primera vez (SpA, S.A., F29, F22).
+- **Salida (estructura):** acta o minuta + checklist adjunto; conclusiones en tabla (vencidos / próximos / al día), plazo en días y su fecha de vencimiento. Tabla antes que párrafos.
+- **Sin depender del color:** el estado se escribe con su palabra (AL DÍA / PRÓXIMO / VENCIDO / EN RIESGO); el color y el emoji solo refuerzan.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre; lo no verificado se marca (`[PLACEHOLDER]` para lo no informado, `[VERIFICAR]` para plazos), no se rellena.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de cualquier presentación al SII o a la CMF y antes de la firma del acta.
+
+---
+
 ## 🏛️ Workflow 1: Cumplimiento Societario (importado de `entity-compliance`, chilenizado)
 
 **Propósito:** Registro de cumplimiento (`compliance-tracker.yaml`): iniciar, reportar vencimientos (30/60/90 días), actualizar estado, auditoría de salud y exportar CSV.

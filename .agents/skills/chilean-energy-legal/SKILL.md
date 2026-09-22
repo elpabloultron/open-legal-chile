@@ -17,3 +17,15 @@ description: Especialista en Derecho Eléctrico y Regulatorio de Energía en Chi
 ## 🛠️ Herramientas MCP Disponibles
 * `cne_get_centrales_y_proyectos`: Consulta generación y proyectos SEA.
 * `panel_expertos_search`: Busca dictámenes y discrepancias del Panel de Expertos.
+
+---
+
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el abogado regulatorio y el equipo técnico de la empresa eléctrica, que no es abogado.
+- **Lenguaje claro:** el primer término técnico va con su equivalencia simple entre paréntesis — `PPA (contrato de largo plazo para venderle energía a un cliente libre)`. Sin siglas sin expandir la primera vez (LGSE, CNE, SEA).
+- **Salida (estructura):** conclusión + tabla de plazos y discrepancias + fundamento normativo. Tabla antes que párrafos.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre; lo no verificado se marca (`[VERIFICAR]`), no se rellena.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de presentar una discrepancia al Panel de Expertos o de firmar un PPA.

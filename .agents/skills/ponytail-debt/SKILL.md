@@ -42,3 +42,15 @@ End with `<N> markers, <M> with no trigger.` Nothing found: `No ponytail: debt. 
 Reads and reports only, changes nothing. To persist it, ask and it writes the
 ledger to a file (e.g. `PONYTAIL-DEBT.md`). One-shot. "stop ponytail-debt" or
 "normal mode" to revert.
+
+---
+
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Overlay de `docs/legal_design.md` para este repositorio (por eso va en español: es el idioma de trabajo de Open Legal Chile). Esta skill es de código, no de derecho: hereda las reglas de presentación, no las jurídicas.
+
+- **Quién lee:** quien mantiene el repositorio, que puede no ser experto en este módulo.
+- **Lenguaje claro:** todo término técnico o sigla va con su equivalencia simple entre paréntesis la primera vez — `no-trigger (el comentario no dice cuándo revisarlo, así que se va a quedar ahí para siempre)`.
+- **Salida (estructura):** una fila por marcador agrupada por archivo, cerrando con `<N> markers, <M> with no trigger.`
+- **Citas:** si la salida toca materia jurídica, se cita en el *Formato de Citación Obligatorio* de `AGENTS.md` §2 (`[BCN - Ley N° 21.643, Art. 2]`); si es código, archivo y línea.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica aplica solo si la salida de esta skill termina en un producto jurídico (escrito, memo, comunicación a contraparte). Una skill que simplifica código no produce asesoría jurídica ni la sustituye.

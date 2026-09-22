@@ -26,7 +26,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (64 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-64-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (71 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-64-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -63,6 +63,15 @@ El ejercicio del Derecho exige reserva y confidencialidad absoluta:
 1. **100% Gratuito y Libre:** No requiere licencias comerciales, tokens de pago ni tarjetas de crédito.
 2. **Cero Fuga de Datos (Zero Data Leak):** El **Motor Soberano Local** y los modelos abiertos vía **Ollama** (`llama3.2`, `deepseek-r1`, `qwen2.5`) procesan causas, contratos y escritos judicialmente confidenciales de manera 100% local en tu propio computador, preservando el secreto profesional (*Art. 247 del Código Penal*) y la *Ley N° 19.628 sobre Protección de la Vida Privada*.
 3. **Acceso Público a Fuentes del Estado:** Las conexiones con la BCN, CGR, DT, PJUD, CNE, CMF, SII, SMA y TDLC operan contra repositorios públicos abiertos del Estado de Chile sin necesidad de registro ni llaves de pago.
+
+### 🎨 Diseño Legal (Legal Design)
+
+Open Legal Chile adopta los principios del **Legal Design Manifesto** (Ducato, Haapio, Hagan, Palmirani, Passera y Rossi) y del trabajo del **Stanford Legal Design Lab** (Margaret Hagan): el derecho se escribe para quien tiene que usarlo, no para quien lo redacta. Los 25 principios y su traducción a reglas verificables de este repositorio están en [`docs/legal_design.md`](docs/legal_design.md); la lista corta para revisar una skill, una herramienta o un documento antes de publicarlo está en [`docs/legal_design_checklist.md`](docs/legal_design_checklist.md).
+
+Dos ejemplos concretos de cómo se aplica acá:
+
+* **Compuerta de revisión humana en las 18 skills.** Cada `SKILL.md` de `.agents/skills/` declara para quién escribe, cómo se ve su salida y su compuerta de revisión; ninguna promete un producto «listo para presentar». Se verifica corriendo `.venv/bin/python -m pytest tests/test_legal_design.py -q`.
+* **Lenguaje claro, no declarado sino hecho.** La clínica traduce resoluciones a español llano: `clinica_juridica.py` convierte «téngase presente» en «el tribunal leyó su documento y lo dejó registrado en la carpeta del juicio». La misma regla —término técnico con su equivalencia simple entre paréntesis la primera vez— rige para todo texto que lee una persona.
 
 ---
 
@@ -135,7 +144,7 @@ claude mcp add open-legal-chile python3 -m openlegal mcp
    cursor open-legal-chile
    ```
 2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 64 herramientas de inmediato.
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 71 herramientas de inmediato.
 
 ### Opción C: Instalación Global vía Smithery.ai (1-Comando)
 Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
@@ -207,9 +216,9 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (64 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (71 Herramientas Oficiales)
 
-El servidor MCP expone **64 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **71 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -361,6 +370,11 @@ El servidor MCP expone **64 herramientas oficiales** categorizadas funcionalment
 
 ---
 
+### V. Mesa de Entrada de Casos
+
+* **`caso_analizar`**: recibe una carpeta de expediente, un texto o una consulta en lenguaje natural y devuelve un plan —materia, fuero probable, instituciones, herramientas en orden con su por qué, y lo que falta—. No modifica nada ni consulta servicios externos. La materia la decide con reglas (Rol/RIT y palabras clave chilenas), no adivinando.
+* **`caso_ejecutar`**: ejecuta ese plan contra las fuentes reales (BCN, PJUD, CGR, DT, SII, CMF, SMA, doctrina indexada y los documentos de la carpeta). Cada paso informa su estado; uno que falla queda anotado con su error y uno sin parámetros se saltea con su motivo. Nunca devuelve un resultado inventado.
+
 ## 🏛️ 5. Los 10 Conectores Oficiales del Estado de Chile
 
 Cada conector fue desarrollado para comunicarse directamente con las plataformas públicas del Estado, almacenando respuestas en una base de datos local SQLite (`openlegal_cache.db`) para garantizar velocidad y funcionamiento offline:
@@ -498,7 +512,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ---
 
-## 🧠 8. Catálogo de Skills y Subagentes (18 Especialidades)
+## 🧠 8. Catálogo de Skills y Subagentes (19 Especialidades)
 
 El directorio `agents/` incluye **18 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
 
@@ -520,6 +534,8 @@ El directorio `agents/` incluye **18 perfiles de especialidad jurídica** adapta
 16. **`chilean-legal-clinic`** (`agente-clinica`): Asistencia jurídica social para consultorios CAJ y traductor a Lenguaje Claro.
 17. **`chilean-privacy-ip`** (`agente-propiedad-datos`): Tramitación de Derechos ARCO (Ley 19.628) y factibilidad marcaria ante INAPI.
 18. **`chilean-doctrine-ingestion`** (`agente-ingestor`): Asimilación e ingesta de doctrina jurídica chilena, conversión a Markdown canónico RAE/ASALE y sincronización en caliente del Knowledge Graph y SQLite FTS5.
+
+19. **`chilean-case-intake`** (`agente-mesa`): Mesa de entrada de casos: carpeta, texto o consulta → plan de herramientas → ejecución → expediente, con lo que falte declarado y la compuerta de revisión.
 
 ### 🤖 Motor de Agentes Jurídicos Autónomos (`agents_runtime.py`)
 La suite incorpora un runtime de agentes con dos modalidades de ejecución:

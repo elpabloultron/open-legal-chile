@@ -25,6 +25,19 @@ description: Compilación y ensamblaje de expedientes y dossiers procesales en f
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** el tribunal y quien revisa el escrito en la OJV; la versión móvil la lee el abogado en audiencia o desde el teléfono.
+- **Lenguaje claro:** el primer término técnico de la portada y del informe de folios va con su equivalencia simple entre paréntesis — `foliado (numeración correlativa de cada hoja del expediente, que permite citar "foja 42")`.
+- **Salida (estructura):** expediente A4 con carátula correlativa (`ANEXO N° 1`) antes de cada documento + versión móvil ligera; tabla de control de calidad (páginas, superposición de texto, peso del archivo).
+- **Accesibilidad:** A4 obligatorio (595 × 842 pt), jerarquía por encabezados y no por color, anexos numerados en la portada. Si el PDF consolidado no lleva número de página o algún folio no se pudo verificar, se dice al entregarlo: hoy `compile_legal_dossier` fija A4, carátulas y marcadores TOC, pero el pie no imprime folio.
+- **Citas:** las de *Formato de Citación Obligatorio* (`[Expediente Consolidado, Anexo N° <X>, Fs. <Y>]`), siempre.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de subir el expediente a la OJV: el ensamblado ordena la prueba, no la acredita.
+
+---
+
 ## 📑 Workflow 1: Ensamblaje de Expediente Judicial
 
 ### Pasos

@@ -26,6 +26,19 @@ description: Especialista en litigación civil, comercial y constitucional en Ch
 
 ---
 
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+
+- **Quién lee:** dos registros distintos, y no se mezclan. El escrito judicial y los recursos van en forma procesal de rigor para el tribunal; el resumen de estado y la explicación de escenarios van en lenguaje claro para el cliente.
+- **Lenguaje claro (para el cliente):** el primer término técnico va con su equivalencia simple entre paréntesis — `preclusión (se venció el plazo y ya no se puede hacer ese trámite)`.
+- **Salida (estructura):** resumen de estado en tabla (plazo, fecha, días restantes) + cronología en tabla + tabla de elementos (Elemento / Norma / Evidencia / Fuente / Brecha). Tabla antes que párrafos.
+- **Sin depender del color:** la significancia de los hitos se escribe con su palabra (CLAVE / RELEVANTE / CONTEXTUAL) junto al marcador; el color y el emoji solo refuerzan.
+- **Citas:** las de *Formato de Citación Obligatorio*, siempre; lo no verificado se marca (`[VERIFICAR]`, `[CITA FALTANTE]`, `[EVIDENCIA FALTANTE]`), no se rellena. Nunca se inventan plazos.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica antes de ingresar cualquier escrito a la OJV.
+
+---
+
 ## 📥 Workflow 1: Intake de Causas (importado de `matter-intake`, chilenizado)
 
 **Propósito:** Alta uniforme de un nuevo asunto litigioso. Escribe `materia.md`, `historia.md` y una fila en `_log.yaml`.

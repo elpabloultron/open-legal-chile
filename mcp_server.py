@@ -85,7 +85,49 @@ aj_client = AcademiaJudicialClient()
 library_sync_mgr = OnlineLibrarySyncManager()
 legal_graphify_engine = LegalGraphifyEngine()
 
+import case_intake
+
 TOOLS = [
+    {
+        "name": "caso_analizar",
+        "description": (
+            "Mesa de entrada: analiza un caso —una carpeta de expediente, un texto o una consulta en "
+            "lenguaje natural— y devuelve un PLAN: de qué se trata, qué herramientas usar y en qué "
+            "orden, y qué falta para poder avanzar. No modifica nada ni consulta servicios externos: "
+            "sólo lee lo que le pasás. La materia la decide con reglas (Rol/RIT y palabras clave "
+            "chilenas), no adivinando; si no alcanza la información, lo dice."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "entrada": {"type": "string", "description": "ruta de la carpeta o del archivo, o el texto mismo"},
+                "tipo": {"type": "string", "enum": ["carpeta", "texto", "consulta"],
+                         "description": "cómo interpretar la entrada (por defecto se deduce)"},
+                "consulta": {"type": "string", "description": "la pregunta u objetivo, para que el plan apunte a eso"}
+            },
+            "required": ["entrada"]
+        }
+    },
+    {
+        "name": "caso_ejecutar",
+        "description": (
+            "Ejecuta el plan de `caso_analizar`: consulta los servicios del Estado (BCN, PJUD, CGR, DT, "
+            "SII, CMF, SMA...), busca en la doctrina indexada y lee los documentos de la carpeta. Puede "
+            "demorar, porque cada paso va a la fuente real. Un paso que falla queda anotado con su "
+            "error: nunca devuelve un resultado inventado."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "entrada": {"type": "string"},
+                "tipo": {"type": "string", "enum": ["carpeta", "texto", "consulta"]},
+                "pasos": {"type": "array", "items": {"type": "integer"},
+                          "description": "números de paso a ejecutar (por defecto, todos hasta el límite)"},
+                "limite_pasos": {"type": "integer", "default": 12}
+            },
+            "required": ["entrada"]
+        }
+    },
     {
         "name": "bcn_get_codigo",
         "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN.",
@@ -1042,6 +1084,12 @@ def _con_avisos(resultado):
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
+        if name == "caso_analizar":
+            return case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
+                                             args.get("consulta", ""))
+        elif name == "caso_ejecutar":
+            return case_intake.caso_ejecutar(args.get("entrada", ""), args.get("tipo"),
+                                             args.get("pasos"), int(args.get("limite_pasos") or 12))
         if name == "bcn_get_codigo":
             cod = args.get("codigo")
             if not cod:

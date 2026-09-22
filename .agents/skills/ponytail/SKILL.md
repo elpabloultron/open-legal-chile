@@ -118,3 +118,15 @@ terse prose). "stop ponytail" / "normal mode": revert. Level persists until
 changed or session end.
 
 The shortest path to done is the right path.
+
+---
+
+## 🎨 Presentación y Lenguaje Claro (Legal Design)
+
+Overlay de `docs/legal_design.md` para este repositorio (por eso va en español: es el idioma de trabajo de Open Legal Chile). Esta skill es de código, no de derecho: hereda las reglas de presentación, no las jurídicas.
+
+- **Quién lee:** quien mantiene el repositorio, que puede no ser experto en este módulo.
+- **Lenguaje claro:** todo término técnico o sigla va con su equivalencia simple entre paréntesis la primera vez — `YAGNI (no construyas lo que todavía no se necesita)`.
+- **Salida (estructura):** código primero y después, como máximo, tres líneas: qué se omitió y cuándo agregarlo. Sin ensayos.
+- **Citas:** si la salida toca materia jurídica, se cita en el *Formato de Citación Obligatorio* de `AGENTS.md` §2 (`[BCN - Ley N° 21.643, Art. 2]`); si es código, archivo y línea.
+- **Compuerta:** ⚖️ Compuerta de Revisión Jurídica aplica solo si la salida de esta skill termina en un producto jurídico (escrito, memo, comunicación a contraparte). Una skill que simplifica código no produce asesoría jurídica ni la sustituye.
