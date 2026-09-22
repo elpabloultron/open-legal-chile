@@ -88,10 +88,10 @@ def test_exportar_subgrafo_mermaid(engine):
     assert mermaid_code.endswith("```")
 
 
-def test_persistencia_y_carga_json(tmp_path):
+def test_persistencia_y_carga_json(tmp_path, engine):
     """Verifica que el grafo se pueda serializar y deserializar sin pérdida de nodos."""
     temp_json = str(tmp_path / "test_graph.json")
-    eng = engine()  # el grafo ya cargado: serializar y deserializar no necesita reconstruirlo
+    eng = engine  # el grafo ya cargado: serializar y deserializar no necesita reconstruirlo
     saved = eng.guardar_grafo_json(temp_json)
     assert os.path.exists(saved)
 

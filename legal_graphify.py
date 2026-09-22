@@ -462,9 +462,13 @@ class LegalGraphifyEngine:
             score = 0
             for w in palabras_q:
                 if len(w) > 3:
-                    if w in lbl_norm:
+                    # Palabra completa, no subcadena: «inexistente» no puede dar por encontrado
+                    # un nodo que dice «inexistentes». El emparejamiento laxo hacía que una
+                    # consulta sin sentido cayera en un nodo cualquiera del corpus grande.
+                    patron = re.compile(r"\b" + re.escape(w) + r"\b")
+                    if patron.search(lbl_norm):
                         score += 5
-                    if w in def_norm:
+                    if patron.search(def_norm):
                         score += 2
             if score > max_score:
                 max_score = score
