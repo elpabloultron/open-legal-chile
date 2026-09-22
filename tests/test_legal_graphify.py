@@ -91,8 +91,7 @@ def test_exportar_subgrafo_mermaid(engine):
 def test_persistencia_y_carga_json(tmp_path):
     """Verifica que el grafo se pueda serializar y deserializar sin pérdida de nodos."""
     temp_json = str(tmp_path / "test_graph.json")
-    eng = LegalGraphifyEngine()
-    eng.construir_grafo_desde_doctrina()
+    eng = engine()  # el grafo ya cargado: serializar y deserializar no necesita reconstruirlo
     saved = eng.guardar_grafo_json(temp_json)
     assert os.path.exists(saved)
 
